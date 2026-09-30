@@ -35,7 +35,8 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
       const departures = direction === 'inbound' ? row.inbound : row.outbound;
       for (const dep of departures) {
         const typeName = TRAIN_TYPES[dep.type]?.name || dep.type;
-        csv += `${row.hour},${dep.time},${typeName},${dep.destination},${formatTrainNumber(dep.trainNumber, dep.tripId)}\n`;
+        const csvHour = row.hour === 24 ? '0' : row.hour;
+        csv += `${csvHour},${dep.time},${typeName},${dep.destination},${formatTrainNumber(dep.trainNumber, dep.tripId)}\n`;
       }
     }
     const blob = new Blob([new Uint8Array([0xef, 0xbb, 0xbf]), csv], { type: 'text/csv;charset=utf-8;' });
@@ -147,13 +148,13 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
             <div className="divide-y divide-slate-100">
               {fullDayData.map((row) => {
                 const departures = direction === 'inbound' ? row.inbound : row.outbound;
-                if (row.hour < 5 && departures.length === 0) return null;
+                if ((row.hour < 5 || row.hour >= 24) && departures.length === 0) return null;
 
                 return (
                   <div key={row.hour} className="flex items-start hover:bg-slate-50/80 transition-colors">
                     {/* 時間ヘッダー (左カラム) */}
                     <div className="w-14 sm:w-16 py-3 px-2 text-center bg-slate-100 font-black text-slate-800 text-base font-mono border-r border-slate-200 shrink-0">
-                      {row.hour}
+                      {row.displayHour || row.hour}
                     </div>
 
                     {/* 発車分グリッド */}

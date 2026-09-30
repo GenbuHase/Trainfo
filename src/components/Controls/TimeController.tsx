@@ -50,7 +50,7 @@ export const TimeController: React.FC<TimeControllerProps> = ({
     { label: '朝ラッシュ', time: '08:00', sec: 8 * 3600 },
     { label: '昼デイタイム', time: '13:00', sec: 13 * 3600 },
     { label: '夕ラッシュ', time: '18:30', sec: 18.5 * 3600 },
-    { label: '深夜終電帯', time: '23:30', sec: 23.5 * 3600 },
+    { label: '深夜終電帯', time: '24:15', sec: 24.25 * 3600 },
   ];
 
   const speeds = [1, 2, 5, 10, 30];
@@ -138,9 +138,9 @@ export const TimeController: React.FC<TimeControllerProps> = ({
           <input
             type="range"
             min={4.5 * 3600}
-            max={24.8 * 3600}
+            max={25.5 * 3600}
             step={10}
-            value={currentSec}
+            value={currentSec < 4 * 3600 ? currentSec + 86400 : currentSec}
             onChange={(e) => onSeek(Number(e.target.value))}
             className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-[#004b97]"
           />
@@ -149,7 +149,8 @@ export const TimeController: React.FC<TimeControllerProps> = ({
             <span>08:00</span>
             <span>12:00</span>
             <span>18:00</span>
-            <span>24:45 終電</span>
+            <span>24:00</span>
+            <span>01:30 終電</span>
           </div>
         </div>
 
