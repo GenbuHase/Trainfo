@@ -152,7 +152,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
 
                       {/* 行先 */}
                       <div className="col-span-4 font-bold text-white flex items-center gap-1 truncate">
-                        <span>{destStation?.name || '小川町'}</span>
+                        <span>{trip.customDestination || destStation?.name || '小川町'}</span>
                         <span className="text-[10px] text-slate-400 font-normal">({trip.cars}両)</span>
                       </div>
 

@@ -152,7 +152,7 @@ export const STATIONS: Station[] = [
     transfers: ['東京メトロ有楽町線', '東京メトロ副都心線', '東急東横線・相鉄線直通'],
     address: '埼玉県和光市本町4-6',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-    stoppingTypes: ['local', 'semiExp', 'rapidExp'],
+    stoppingTypes: ['local', 'semiExp', 'express', 'rapidExp'],
     platforms: { inbound: '1・2番線', outbound: '3・4番線' },
   },
   {
@@ -166,7 +166,7 @@ export const STATIONS: Station[] = [
     transfers: [],
     address: '埼玉県朝霞市本町二丁目13-52',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-    stoppingTypes: ['local', 'semiExp'],
+    stoppingTypes: ['local', 'semiExp', 'express'],
     platforms: { inbound: '1・2番線', outbound: '3・4番線' },
   },
   {
@@ -180,7 +180,7 @@ export const STATIONS: Station[] = [
     transfers: ['JR武蔵野線（北朝霞駅）'],
     address: '埼玉県朝霞市東弁財一丁目4-17',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-    stoppingTypes: ['local', 'semiExp', 'express', 'kawagoeExp'],
+    stoppingTypes: ['local', 'semiExp', 'express', 'rapidExp', 'kawagoeExp'],
     platforms: { inbound: '1・2番線', outbound: '3・4番線' },
   },
   {
@@ -194,7 +194,7 @@ export const STATIONS: Station[] = [
     transfers: [],
     address: '埼玉県新座市東北二丁目38-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-    stoppingTypes: ['local', 'semiExp', 'express', 'rapidExp'],
+    stoppingTypes: ['local', 'semiExp', 'express'],
     platforms: { inbound: '1・2番線', outbound: '3・4番線' },
   },
   {
@@ -320,7 +320,7 @@ export const STATIONS: Station[] = [
     transfers: [],
     address: '埼玉県川越市大字的場2442',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
-    stoppingTypes: ['local', 'semiExp', 'express'],
+    stoppingTypes: ['local', 'semiExp', 'express', 'rapidExp'],
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -334,7 +334,7 @@ export const STATIONS: Station[] = [
     transfers: [],
     address: '埼玉県鶴ヶ島市大字上広谷18',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
-    stoppingTypes: ['local', 'semiExp', 'express'],
+    stoppingTypes: ['local', 'semiExp', 'express', 'rapidExp'],
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -348,7 +348,7 @@ export const STATIONS: Station[] = [
     transfers: [],
     address: '埼玉県坂戸市関間四丁目13-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-    stoppingTypes: ['local', 'semiExp', 'express'],
+    stoppingTypes: ['local', 'semiExp', 'express', 'rapidExp'],
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -376,7 +376,7 @@ export const STATIONS: Station[] = [
     transfers: [],
     address: '埼玉県坂戸市末広町1-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
-    stoppingTypes: ['local', 'semiExp', 'express'],
+    stoppingTypes: ['local', 'semiExp', 'express', 'rapidExp'],
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -390,7 +390,7 @@ export const STATIONS: Station[] = [
     transfers: [],
     address: '埼玉県東松山市大字高坂東一丁目1-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
-    stoppingTypes: ['local', 'semiExp', 'express'],
+    stoppingTypes: ['local', 'semiExp', 'express', 'rapidExp'],
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {

@@ -53,6 +53,7 @@ export interface TimetableTrip {
   direction: Direction;
   originStationId: string;
   destinationStationId: string;
+  customDestination?: string; // 直通列車の行先名 (例: 元町・中華街, 新木場)
   cars: number;           // 10両, 8両, 4両
   isHoliday: boolean;     // 平日 / 土休日
   stops: StationStopTime[];
@@ -66,6 +67,7 @@ export interface ActiveTrain {
   direction: Direction;
   originStationId: string;
   destinationStationId: string;
+  customDestination?: string;
   cars: number;
   status: TrainStatus;
   currentLat: number;

@@ -44,7 +44,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
               <span className="text-xs text-slate-400 font-medium">({train.cars}両編成)</span>
             </div>
             <h2 className="text-2xl font-black tracking-tight text-white flex items-center gap-2">
-              <span>{destStation?.name || '小川町'} 行</span>
+              <span>{train.customDestination || destStation?.name || '小川町'} 行</span>
               <span className="text-xs font-normal px-2 py-0.5 rounded-full bg-slate-700 text-slate-300">
                 {train.direction === 'inbound' ? '上り' : '下り'}
               </span>
