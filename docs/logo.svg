@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00356B"/>
+      <stop offset="50%" stop-color="#004B97"/>
+      <stop offset="100%" stop-color="#0066CC"/>
+    </linearGradient>
+    <linearGradient id="windowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF710A"/>
+      <stop offset="50%" stop-color="#009A74"/>
+      <stop offset="100%" stop-color="#F62837"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- アイコンベース（角丸正方形） -->
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#bgGrad)" filter="url(#shadow)"/>
+
+  <!-- 背景グリッドアクセント（路線モチーフ） -->
+  <path d="M12 40 L116 40 M12 88 L116 88" stroke="#ffffff" stroke-opacity="0.08" stroke-width="2"/>
+  <circle cx="96" cy="40" r="4" fill="#ffffff" fill-opacity="0.2"/>
+  <circle cx="32" cy="88" r="4" fill="#ffffff" fill-opacity="0.2"/>
+
+  <!-- 電車ボディ -->
+  <g transform="translate(24, 20)">
+    <!-- パンタグラフ -->
+    <path d="M40 8 L32 0 L48 0 Z" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="26" y1="0" x2="54" y2="0" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+    <line x1="40" y1="8" x2="40" y2="12" stroke="#CBD5E1" stroke-width="2"/>
+
+    <!-- 車体外枠 -->
+    <rect x="10" y="12" width="60" height="66" rx="14" fill="#FFFFFF"/>
+    
+    <!-- 屋根カーブ -->
+    <path d="M10 24 C10 16 18 12 28 12 L52 12 C62 12 70 16 70 24 Z" fill="#E2E8F0"/>
+
+    <!-- 行先方向幕 -->
+    <rect x="26" y="15" width="28" height="6" rx="3" fill="#0F172A"/>
+    <text x="40" y="19.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="4" font-weight="900" fill="#38BDF8" text-anchor="middle">東武東上線</text>
+
+    <!-- フロントガラス -->
+    <path d="M15 25 L65 25 C66 25 67 26 66.5 28 L64 43 C63.5 44 62.5 45 61.5 45 L18.5 45 C17.5 45 16.5 44 16 43 L13.5 28 C13 26 14 25 15 25 Z" fill="url(#windowGrad)"/>
+    <path d="M18 28 L30 28 L28 42 L16.5 42 Z" fill="#38BDF8" fill-opacity="0.15"/>
+
+    <!-- 帯カラー (東上線カラー) -->
+    <rect x="10" y="48" width="60" height="4" fill="url(#accentGrad)"/>
+
+    <!-- 前照灯（ヘッドライト） -->
+    <circle cx="21" cy="59" r="4.5" fill="#FEF08A"/>
+    <circle cx="21" cy="59" r="2.5" fill="#FFFFFF"/>
+    <circle cx="59" cy="59" r="4.5" fill="#FEF08A"/>
+    <circle cx="59" cy="59" r="2.5" fill="#FFFFFF"/>
+
+    <!-- 尾灯（テールランプ） -->
+    <rect x="14" y="66" width="5" height="2" rx="1" fill="#EF4444"/>
+    <rect x="61" y="66" width="5" height="2" rx="1" fill="#EF4444"/>
+
+    <!-- 貫通扉ライン -->
+    <line x1="33" y1="48" x2="33" y2="74" stroke="#CBD5E1" stroke-width="1.5"/>
+    <line x1="47" y1="48" x2="47" y2="74" stroke="#CBD5E1" stroke-width="1.5"/>
+
+    <!-- 排障器 (スカート) -->
+    <path d="M12 78 L20 85 L60 85 L68 78 Z" fill="#94A3B8"/>
+    
+    <!-- 車輪 / レール -->
+    <rect x="16" y="87" width="10" height="3" rx="1.5" fill="#64748B"/>
+    <rect x="54" y="87" width="10" height="3" rx="1.5" fill="#64748B"/>
+    <line x1="4" y1="91" x2="76" y2="91" stroke="#E2E8F0" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="0" y1="94" x2="80" y2="94" stroke="#94A3B8" stroke-width="1" stroke-linecap="round"/>
+  </g>
+</svg>
