@@ -4,6 +4,7 @@ import type { Station, ActiveTrain, Direction } from '../../types';
 import { STATIONS, STATION_MAP } from '../../data/stations';
 import { ENTIRE_LINE_COORDINATES } from '../../data/trackGeometry';
 import { TRAIN_TYPES } from '../../data/trainTypes';
+import { formatTrainNumber } from '../../data/timetableData';
 import {
   Layers,
   ZoomIn,
@@ -257,8 +258,8 @@ export const TrainMap: React.FC<TrainMapProps> = ({
             isSelected ? 'opacity-100 ring-1 ring-amber-400' : 'opacity-0 group-hover:opacity-100'
           }">
             <span style="color: ${typeConfig.color}">${typeConfig.shortName}</span>
-            <span>${destSt?.name || '小川町'}</span>
-            <span class="text-slate-400 font-mono font-normal">${train.tripId}</span>
+            <span>${train.customDestination || destSt?.name || '小川町'}</span>
+            <span class="text-slate-400 font-mono font-normal">${formatTrainNumber(train.trainNumber, train.tripId)}</span>
           </div>
         </div>
       `;

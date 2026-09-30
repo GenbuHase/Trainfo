@@ -18,6 +18,17 @@ export function secondsToTimeString(sec: number): string {
   return `${h}:${m}:${s}`;
 }
 
+// 列車番号の表示用フォーマッター (例: 'WD_INB_TJ-33_1534_1044レ' -> '1044レ')
+export function formatTrainNumber(trainNumber?: string, tripId?: string): string {
+  if (trainNumber && !trainNumber.includes('_')) return trainNumber;
+  const target = tripId || trainNumber || '';
+  if (target.includes('_')) {
+    const parts = target.split('_');
+    return parts[parts.length - 1];
+  }
+  return target;
+}
+
 // 駅探公式 全39駅時刻表データ（平日・土休日、上下線全便）
 export interface RawStationDeparture {
   h: number;
@@ -64,6 +75,7 @@ export function getStationDepartures(
 
       return {
         tripId: `DEP_${stationId}_${direction}_${d.h}_${d.m}_${idx}`,
+        trainNumber: d.no,
         trainType: d.t,
         direction,
         originStationId: stationId,
@@ -92,8 +104,8 @@ export function getStationDepartures(
 // 特定駅の全日時刻表（1時間ごと）を取得（駅探公式データ直接参照）
 export interface HourlyStationTimetable {
   hour: number;
-  inbound: { time: string; tripId: string; type: TrainTypeKey; destination: string }[];
-  outbound: { time: string; tripId: string; type: TrainTypeKey; destination: string }[];
+  inbound: { time: string; tripId: string; trainNumber: string; type: TrainTypeKey; destination: string }[];
+  outbound: { time: string; tripId: string; trainNumber: string; type: TrainTypeKey; destination: string }[];
 }
 
 export function getFullDayStationTimetable(
@@ -114,6 +126,7 @@ export function getFullDayStationTimetable(
       target.inbound.push({
         time: dep.time,
         tripId: `IN_${stationId}_${dep.h}_${dep.m}_${dep.no}`,
+        trainNumber: dep.no,
         type: dep.t,
         destination: dep.d
       });
@@ -126,6 +139,7 @@ export function getFullDayStationTimetable(
       target.outbound.push({
         time: dep.time,
         tripId: `OUT_${stationId}_${dep.h}_${dep.m}_${dep.no}`,
+        trainNumber: dep.no,
         type: dep.t,
         destination: dep.d
       });

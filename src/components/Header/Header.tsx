@@ -4,6 +4,7 @@ import type { Station, ActiveTrain } from '../../types';
 import { STATIONS } from '../../data/stations';
 import { StationBadge, TrainTypeBadge } from '../Common/Badges';
 import type { TrainOperationStatus } from '../../services/odptApi';
+import { formatTrainNumber } from '../../data/timetableData';
 
 interface HeaderProps {
   onSelectStation: (station: Station) => void;
@@ -67,6 +68,7 @@ export const Header: React.FC<HeaderProps> = ({
         .filter(
           (t) =>
             t.tripId.toLowerCase().includes(normalizedQuery) ||
+            (t.trainNumber && t.trainNumber.toLowerCase().includes(normalizedQuery)) ||
             t.destinationStationId.toLowerCase().includes(normalizedQuery)
         )
         .slice(0, 4)
@@ -167,7 +169,9 @@ export const Header: React.FC<HeaderProps> = ({
                 <div className="flex items-center gap-2">
                   <Train className="w-4 h-4 text-[#004b97] shrink-0" />
                   <div>
-                    <span className="font-mono text-sm font-semibold text-slate-800">{train.tripId}</span>
+                    <span className="font-mono text-sm font-semibold text-slate-800">
+                      {formatTrainNumber(train.trainNumber, train.tripId)}
+                    </span>
                     <span className="text-xs text-slate-500 ml-2">
                       {train.direction === 'inbound' ? '上り 池袋方面' : '下り 寄居方面'}
                     </span>

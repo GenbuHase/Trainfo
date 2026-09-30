@@ -2,6 +2,7 @@ import React from 'react';
 import type { ActiveTrain, Station } from '../../types';
 import { TrainTypeBadge, StationBadge } from '../Common/Badges';
 import { STATION_MAP } from '../../data/stations';
+import { formatTrainNumber } from '../../data/timetableData';
 import {
   Navigation,
   Gauge,
@@ -39,7 +40,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
             <div className="flex items-center gap-2 mb-1.5">
               <TrainTypeBadge type={train.trainType} size="md" />
               <span className="font-mono text-sm tracking-wider text-amber-300 font-bold">
-                {train.tripId}
+                {formatTrainNumber(train.trainNumber, train.tripId)}
               </span>
               <span className="text-xs text-slate-400 font-medium">({train.cars}両編成)</span>
             </div>

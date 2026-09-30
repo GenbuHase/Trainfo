@@ -9,6 +9,7 @@ import {
 import {
   GLOBAL_TIMETABLE,
   timeStringToSeconds,
+  formatTrainNumber,
 } from '../data/timetableData';
 
 export interface SimulationState {
@@ -82,6 +83,7 @@ export function calculateActiveTrains(
 
         activeTrains.push({
           tripId: trip.tripId,
+          trainNumber: trip.trainNumber || formatTrainNumber(undefined, trip.tripId),
           trainType: trip.trainType,
           direction: trip.direction,
           originStationId: trip.originStationId,
@@ -136,6 +138,7 @@ export function calculateActiveTrains(
 
           activeTrains.push({
             tripId: trip.tripId,
+            trainNumber: trip.trainNumber || formatTrainNumber(undefined, trip.tripId),
             trainType: trip.trainType,
             direction: trip.direction,
             originStationId: trip.originStationId,
@@ -162,7 +165,23 @@ export function calculateActiveTrains(
     }
   }
 
-  return activeTrains;
+  // 防御的ガード: 同一運行（同一方向・同一列車番号）の重複表示を完全に排除
+  const uniqueTrains: ActiveTrain[] = [];
+  const seenTrainKeys = new Set<string>();
+
+  for (const train of activeTrains) {
+    const formattedNo = formatTrainNumber(train.trainNumber, train.tripId);
+    // 同一方向かつ同一列車番号は1本のみ表示
+    const key = `${train.direction}_${formattedNo}`;
+
+    if (seenTrainKeys.has(key)) {
+      continue;
+    }
+    seenTrainKeys.add(key);
+    uniqueTrains.push(train);
+  }
+
+  return uniqueTrains;
 }
 
 // 現在のリアルタイム時刻（秒）を取得

@@ -48,7 +48,8 @@ export interface StationStopTime {
 }
 
 export interface TimetableTrip {
-  tripId: string;         // 例: '1021レ'
+  tripId: string;         // 一意の内部識別ID (例: 'WD_OUT_TJ-01_0530_1001レ')
+  trainNumber?: string;   // 列車番号 (例: '1001レ', '1044レ')
   trainType: TrainTypeKey;
   direction: Direction;
   originStationId: string;
@@ -63,6 +64,7 @@ export type TrainStatus = 'RUNNING' | 'STOPPING' | 'TERMINATED';
 
 export interface ActiveTrain {
   tripId: string;
+  trainNumber?: string;   // 列車番号 (例: '1001レ', '1044レ')
   trainType: TrainTypeKey;
   direction: Direction;
   originStationId: string;

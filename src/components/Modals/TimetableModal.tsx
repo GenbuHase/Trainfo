@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import type { Station, Direction } from '../../types';
-import { getFullDayStationTimetable } from '../../data/timetableData';
+import { getFullDayStationTimetable, formatTrainNumber } from '../../data/timetableData';
 import { StationBadge } from '../Common/Badges';
 import { TRAIN_TYPES } from '../../data/trainTypes';
 import { X, Download } from 'lucide-react';
@@ -35,7 +35,7 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
       const departures = direction === 'inbound' ? row.inbound : row.outbound;
       for (const dep of departures) {
         const typeName = TRAIN_TYPES[dep.type]?.name || dep.type;
-        csv += `${row.hour},${dep.time},${typeName},${dep.destination},${dep.tripId}\n`;
+        csv += `${row.hour},${dep.time},${typeName},${dep.destination},${formatTrainNumber(dep.trainNumber, dep.tripId)}\n`;
       }
     }
     const blob = new Blob([new Uint8Array([0xef, 0xbb, 0xbf]), csv], { type: 'text/csv;charset=utf-8;' });
@@ -167,7 +167,7 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
                             <div
                               key={idx}
                               className="group relative flex flex-col items-center cursor-default"
-                              title={`${conf.name} ${dep.destination}行 (${dep.tripId})`}
+                              title={`${conf.name} ${dep.destination}行 (${formatTrainNumber(dep.trainNumber, dep.tripId)})`}
                             >
                               <div
                                 className="px-2 py-1 rounded text-xs font-black font-mono shadow-2xs transition-transform group-hover:scale-110 text-white"
@@ -182,7 +182,7 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
                               {/* ホバーツールチップ */}
                               <div className="absolute bottom-full mb-1 hidden group-hover:flex flex-col items-center z-50 whitespace-nowrap bg-slate-900 text-white text-[11px] py-1 px-2 rounded shadow-lg">
                                 <span className="font-bold">{conf.name} {dep.destination}行</span>
-                                <span className="text-[10px] text-slate-300">{row.hour}:{dep.time}発 ({dep.tripId})</span>
+                                <span className="text-[10px] text-slate-300">{row.hour}:{dep.time}発 ({formatTrainNumber(dep.trainNumber, dep.tripId)})</span>
                               </div>
                             </div>
                           );

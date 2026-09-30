@@ -130,65 +130,72 @@ for (const dayType of ['weekday', 'holiday']) {
 fs.writeFileSync('src/data/stationTimetables.json', JSON.stringify(stationTimetables), 'utf8');
 console.log('src/data/stationTimetables.json written.');
 
-// 2. 走行シミュレーション用 GLOBAL_TIMETABLE の構築
+// 2. 走行シミュレーション用 GLOBAL_TIMETABLE の構築（重複便の完全排除＆Track & Merge）
 const allTrips = [];
 const seenTripIds = new Set();
 
-const tripOrigins = [
-  // 下り
-  { stationId: 'TJ-01', direction: 'outbound', defaultDest: 'TJ-30' },
-  { stationId: 'TJ-11', direction: 'outbound', defaultDest: 'TJ-22' },
-  { stationId: 'TJ-33', direction: 'outbound', defaultDest: 'TJ-39' },
-  // 上り
-  { stationId: 'TJ-39', direction: 'inbound', defaultDest: 'TJ-33' },
-  { stationId: 'TJ-33', direction: 'inbound', defaultDest: 'TJ-01' },
-  { stationId: 'TJ-30', direction: 'inbound', defaultDest: 'TJ-01' },
-  { stationId: 'TJ-22', direction: 'inbound', defaultDest: 'TJ-01' },
-  { stationId: 'TJ-14', direction: 'inbound', defaultDest: 'TJ-01' },
-  { stationId: 'TJ-10', direction: 'inbound', defaultDest: 'TJ-01' },
-];
+// 下りの始発駅候補（上流順: TJ-01 -> TJ-33）
+const OUT_ORIGINS = ['TJ-01', 'TJ-11', 'TJ-14', 'TJ-22', 'TJ-26', 'TJ-30', 'TJ-33'];
+// 上りの始発駅候補（上流順: TJ-39 -> TJ-10）
+const IN_ORIGINS = ['TJ-39', 'TJ-33', 'TJ-30', 'TJ-26', 'TJ-22', 'TJ-14', 'TJ-11', 'TJ-10'];
+
+const ST_NUM = {};
+for (let i = 1; i <= 39; i++) {
+  ST_NUM[`TJ-${i < 10 ? '0' : ''}${i}`] = i;
+}
 
 for (const dayType of ['weekday', 'holiday']) {
   const isHoliday = dayType === 'holiday';
 
-  for (const origin of tripOrigins) {
-    const stId = origin.stationId;
-    const direction = origin.direction;
-    const deps = stationTimetables[dayType][stId]?.[direction] || [];
-    const originNum = STATION_MAP.get(stId).number;
+  // 下り処理
+  const stationScheduleOut = {};
+  for (let i = 1; i <= 39; i++) stationScheduleOut[`TJ-${i < 10 ? '0' : ''}${i}`] = [];
+
+  for (const stId of OUT_ORIGINS) {
+    const deps = stationTimetables[dayType][stId]?.outbound || [];
+    const originNum = ST_NUM[stId];
 
     for (const dep of deps) {
+      // 既存列車がこの駅を通過・停車する時刻と一致するか照合
+      const existing = stationScheduleOut[stId];
+      const match = existing.find(sched => {
+        if (dep.no && sched.trainNo && dep.no === sched.trainNo) return true;
+        const timeDiff = Math.abs(sched.sec - dep.sec);
+        if (timeDiff <= 180 && sched.type === dep.t) {
+          if (sched.dest === dep.d || sched.dest.includes(dep.d) || dep.d.includes(sched.dest)) {
+            return true;
+          }
+        }
+        return false;
+      });
+
+      if (match) continue; // 先行駅始発の重複便をスキップ
+
       let destId = NAME_TO_STATION_ID.get(dep.d);
       if (!destId) {
         if (dep.d.includes('川越')) destId = 'TJ-22';
         else if (dep.d.includes('森林')) destId = 'TJ-30';
         else if (dep.d.includes('小川')) destId = 'TJ-33';
         else if (dep.d.includes('寄居')) destId = 'TJ-39';
-        else if (dep.d.includes('池袋')) destId = 'TJ-01';
         else if (dep.d.includes('志木')) destId = 'TJ-14';
-        else if (dep.d.includes('元町') || dep.d.includes('新木場') || dep.d.includes('湘南') || dep.d.includes('武蔵小杉') || dep.d.includes('渋谷') || dep.d.includes('新宿')) {
-          destId = 'TJ-11';
-        } else {
-          destId = origin.defaultDest;
-        }
+        else if (dep.d.includes('成増')) destId = 'TJ-10';
+        else destId = 'TJ-30';
       }
 
-      const destNum = STATION_MAP.get(destId)?.number || (direction === 'outbound' ? 30 : 1);
+      const destNum = STATION_MAP.get(destId)?.number || 30;
+      if (destNum <= originNum) continue;
 
-      if (direction === 'outbound' && destNum <= originNum) continue;
-      if (direction === 'inbound' && destNum >= originNum) continue;
-
-      const tripId = `${isHoliday ? 'HOL' : 'WD'}_${direction.slice(0,3).toUpperCase()}_${stId}_${dep.h.toString().padStart(2, '0')}${dep.m.toString().padStart(2, '0')}_${dep.no}`;
+      const hhmm = `${dep.h.toString().padStart(2, '0')}${dep.m.toString().padStart(2, '0')}`;
+      const tripId = `${isHoliday ? 'HOL' : 'WD'}_OUT_${stId}_${hhmm}_${dep.no}`;
       if (seenTripIds.has(tripId)) continue;
       seenTripIds.add(tripId);
 
-      const count = Math.abs(destNum - originNum) + 1;
-      const step = direction === 'outbound' ? 1 : -1;
+      const count = destNum - originNum + 1;
       let currentSec = dep.sec;
       const stops = [];
 
       for (let i = 0; i < count; i++) {
-        const curNum = originNum + i * step;
+        const curNum = originNum + i;
         const curStId = `TJ-${curNum < 10 ? '0' : ''}${curNum}`;
         const isOrigin = i === 0;
         const isDest = i === count - 1;
@@ -198,7 +205,7 @@ for (const dayType of ['weekday', 'holiday']) {
         let depSec = currentSec;
 
         if (!isOrigin) {
-          const prevNum = originNum + (i - 1) * step;
+          const prevNum = originNum + (i - 1);
           const hop = getHopSeconds(prevNum, curNum, !stopsHere);
           arrSec = currentSec + hop;
         }
@@ -218,6 +225,14 @@ for (const dayType of ['weekday', 'holiday']) {
           departureTime: secondsToTimeString(depSec),
           isPassing: !stopsHere && !isOrigin && !isDest
         });
+
+        // 通過予定時刻を記録して下流駅での重複を防ぐ
+        stationScheduleOut[curStId].push({
+          sec: depSec,
+          trainNo: dep.no,
+          type: dep.t,
+          dest: dep.d
+        });
       }
 
       const isOneMan = originNum >= 33 && destNum >= 33;
@@ -225,8 +240,114 @@ for (const dayType of ['weekday', 'holiday']) {
 
       allTrips.push({
         tripId,
+        trainNumber: dep.no,
         trainType: dep.t,
-        direction,
+        direction: 'outbound',
+        originStationId: stId,
+        destinationStationId: destId,
+        customDestination: dep.d,
+        cars,
+        isHoliday,
+        stops
+      });
+    }
+  }
+
+  // 上り処理
+  const stationScheduleIn = {};
+  for (let i = 1; i <= 39; i++) stationScheduleIn[`TJ-${i < 10 ? '0' : ''}${i}`] = [];
+
+  for (const stId of IN_ORIGINS) {
+    const deps = stationTimetables[dayType][stId]?.inbound || [];
+    const originNum = ST_NUM[stId];
+
+    for (const dep of deps) {
+      // 既存列車がこの駅を通過・停車する時刻と一致するか照合
+      const existing = stationScheduleIn[stId];
+      const match = existing.find(sched => {
+        if (dep.no && sched.trainNo && dep.no === sched.trainNo) return true;
+        const timeDiff = Math.abs(sched.sec - dep.sec);
+        if (timeDiff <= 180 && sched.type === dep.t) {
+          if (sched.dest === dep.d || sched.dest.includes(dep.d) || dep.d.includes(sched.dest)) {
+            return true;
+          }
+        }
+        return false;
+      });
+
+      if (match) continue; // 先行駅始発の重複便をスキップ
+
+      let destId = NAME_TO_STATION_ID.get(dep.d);
+      if (!destId) {
+        if (dep.d.includes('小川')) destId = 'TJ-33';
+        else if (dep.d.includes('元町') || dep.d.includes('新木場') || dep.d.includes('湘南') || dep.d.includes('武蔵小杉') || dep.d.includes('渋谷') || dep.d.includes('新宿')) {
+          destId = 'TJ-11';
+        } else {
+          destId = 'TJ-01';
+        }
+      }
+
+      const destNum = STATION_MAP.get(destId)?.number || 1;
+      if (destNum >= originNum) continue;
+
+      const hhmm = `${dep.h.toString().padStart(2, '0')}${dep.m.toString().padStart(2, '0')}`;
+      const tripId = `${isHoliday ? 'HOL' : 'WD'}_INB_${stId}_${hhmm}_${dep.no}`;
+      if (seenTripIds.has(tripId)) continue;
+      seenTripIds.add(tripId);
+
+      const count = originNum - destNum + 1;
+      let currentSec = dep.sec;
+      const stops = [];
+
+      for (let i = 0; i < count; i++) {
+        const curNum = originNum - i;
+        const curStId = `TJ-${curNum < 10 ? '0' : ''}${curNum}`;
+        const isOrigin = i === 0;
+        const isDest = i === count - 1;
+        const stopsHere = doesTrainStopAt(dep.t, curNum);
+
+        let arrSec = currentSec;
+        let depSec = currentSec;
+
+        if (!isOrigin) {
+          const prevNum = originNum - (i - 1);
+          const hop = getHopSeconds(prevNum, curNum, !stopsHere);
+          arrSec = currentSec + hop;
+        }
+
+        if (stopsHere) {
+          const dwell = isOrigin || isDest ? 60 : [1, 10, 11, 12, 13, 14, 18, 21, 22, 26, 30, 33].includes(curNum) ? 45 : 30;
+          depSec = isDest ? arrSec : arrSec + dwell;
+          currentSec = depSec;
+        } else {
+          depSec = arrSec;
+          currentSec = arrSec;
+        }
+
+        stops.push({
+          stationId: curStId,
+          arrivalTime: secondsToTimeString(arrSec),
+          departureTime: secondsToTimeString(depSec),
+          isPassing: !stopsHere && !isOrigin && !isDest
+        });
+
+        // 通過予定時刻を記録して下流駅での重複を防ぐ
+        stationScheduleIn[curStId].push({
+          sec: depSec,
+          trainNo: dep.no,
+          type: dep.t,
+          dest: dep.d
+        });
+      }
+
+      const isOneMan = originNum >= 33 && destNum >= 33;
+      const cars = isOneMan ? 4 : 10;
+
+      allTrips.push({
+        tripId,
+        trainNumber: dep.no,
+        trainType: dep.t,
+        direction: 'inbound',
         originStationId: stId,
         destinationStationId: destId,
         customDestination: dep.d,
@@ -261,6 +382,17 @@ export function secondsToTimeString(sec: number): string {
   const m = Math.floor((norm % 3600) / 60).toString().padStart(2, '0');
   const s = (norm % 60).toString().padStart(2, '0');
   return \`\${h}:\${m}:\${s}\`;
+}
+
+// 列車番号の表示用フォーマッター (例: 'WD_INB_TJ-33_1534_1044レ' -> '1044レ')
+export function formatTrainNumber(trainNumber?: string, tripId?: string): string {
+  if (trainNumber && !trainNumber.includes('_')) return trainNumber;
+  const target = tripId || trainNumber || '';
+  if (target.includes('_')) {
+    const parts = target.split('_');
+    return parts[parts.length - 1];
+  }
+  return target;
 }
 
 // 駅探公式 全39駅時刻表データ（平日・土休日、上下線全便）
@@ -309,6 +441,7 @@ export function getStationDepartures(
 
       return {
         tripId: \`DEP_\${stationId}_\${direction}_\${d.h}_\${d.m}_\${idx}\`,
+        trainNumber: d.no,
         trainType: d.t,
         direction,
         originStationId: stationId,
@@ -337,8 +470,8 @@ export function getStationDepartures(
 // 特定駅の全日時刻表（1時間ごと）を取得（駅探公式データ直接参照）
 export interface HourlyStationTimetable {
   hour: number;
-  inbound: { time: string; tripId: string; type: TrainTypeKey; destination: string }[];
-  outbound: { time: string; tripId: string; type: TrainTypeKey; destination: string }[];
+  inbound: { time: string; tripId: string; trainNumber: string; type: TrainTypeKey; destination: string }[];
+  outbound: { time: string; tripId: string; trainNumber: string; type: TrainTypeKey; destination: string }[];
 }
 
 export function getFullDayStationTimetable(
@@ -359,6 +492,7 @@ export function getFullDayStationTimetable(
       target.inbound.push({
         time: dep.time,
         tripId: \`IN_\${stationId}_\${dep.h}_\${dep.m}_\${dep.no}\`,
+        trainNumber: dep.no,
         type: dep.t,
         destination: dep.d
       });
@@ -371,6 +505,7 @@ export function getFullDayStationTimetable(
       target.outbound.push({
         time: dep.time,
         tripId: \`OUT_\${stationId}_\${dep.h}_\${dep.m}_\${dep.no}\`,
+        trainNumber: dep.no,
         type: dep.t,
         destination: dep.d
       });
