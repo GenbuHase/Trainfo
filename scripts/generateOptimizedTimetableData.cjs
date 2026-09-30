@@ -200,24 +200,42 @@ for (const dayType of ['weekday', 'holiday']) {
         const isOrigin = i === 0;
         const isDest = i === count - 1;
         const stopsHere = doesTrainStopAt(dep.t, curNum);
+        const dwell = isOrigin || isDest ? 60 : [1, 10, 11, 12, 13, 14, 18, 21, 22, 26, 30, 33].includes(curNum) ? 45 : 30;
 
         let arrSec = currentSec;
         let depSec = currentSec;
 
-        if (!isOrigin) {
-          const prevNum = originNum + (i - 1);
-          const hop = getHopSeconds(prevNum, curNum, !stopsHere);
-          arrSec = currentSec + hop;
+        if (isOrigin) {
+          depSec = dep.sec;
+          arrSec = depSec;
+        } else {
+          // 該当駅の公式発車時刻を検索・バインド
+          const stationDeps = stationTimetables[dayType][curStId]?.outbound || [];
+          let exactMatch = null;
+
+          if (stopsHere) {
+            exactMatch = stationDeps.find(d => {
+              if (dep.no && d.no && dep.no === d.no && d.sec >= currentSec - 30) return true;
+              if (d.t === dep.t && (d.d === dep.d || d.d.includes(dep.d) || dep.d.includes(d.d))) {
+                const diff = d.sec - currentSec;
+                if (diff >= 30 && diff <= 480) return true;
+              }
+              return false;
+            });
+          }
+
+          if (exactMatch && exactMatch.sec > currentSec) {
+            depSec = exactMatch.sec;
+            arrSec = isDest ? depSec : Math.max(currentSec + 30, depSec - dwell);
+          } else {
+            const prevNum = originNum + (i - 1);
+            const hop = getHopSeconds(prevNum, curNum, !stopsHere);
+            arrSec = currentSec + hop;
+            depSec = isDest ? arrSec : stopsHere ? arrSec + dwell : arrSec;
+          }
         }
 
-        if (stopsHere) {
-          const dwell = isOrigin || isDest ? 60 : [1, 10, 11, 12, 13, 14, 18, 21, 22, 26, 30, 33].includes(curNum) ? 45 : 30;
-          depSec = isDest ? arrSec : arrSec + dwell;
-          currentSec = depSec;
-        } else {
-          depSec = arrSec;
-          currentSec = arrSec;
-        }
+        currentSec = depSec;
 
         stops.push({
           stationId: curStId,
@@ -305,24 +323,43 @@ for (const dayType of ['weekday', 'holiday']) {
         const isOrigin = i === 0;
         const isDest = i === count - 1;
         const stopsHere = doesTrainStopAt(dep.t, curNum);
+        const dwell = isOrigin || isDest ? 60 : [1, 10, 11, 12, 13, 14, 18, 21, 22, 26, 30, 33].includes(curNum) ? 45 : 30;
 
         let arrSec = currentSec;
         let depSec = currentSec;
 
-        if (!isOrigin) {
-          const prevNum = originNum - (i - 1);
-          const hop = getHopSeconds(prevNum, curNum, !stopsHere);
-          arrSec = currentSec + hop;
+        if (isOrigin) {
+          depSec = dep.sec;
+          arrSec = depSec;
+        } else {
+          // 該当駅の公式発車時刻を検索・バインド
+          const stationDeps = stationTimetables[dayType][curStId]?.inbound || [];
+          let exactMatch = null;
+
+          if (stopsHere) {
+            exactMatch = stationDeps.find(d => {
+              if (dep.no && d.no && dep.no === d.no && d.sec >= currentSec - 30) return true;
+              if (d.t === dep.t && (d.d === dep.d || d.d.includes(dep.d) || dep.d.includes(d.d))) {
+                const diff = d.sec - currentSec;
+                if (diff >= 30 && diff <= 480) return true;
+              }
+              return false;
+            });
+          }
+
+          if (exactMatch && exactMatch.sec > currentSec) {
+            depSec = exactMatch.sec;
+            arrSec = isDest ? depSec : Math.max(currentSec + 30, depSec - dwell);
+          } else {
+            // 成増から池袋までの急行通過などは約60秒/駅
+            const prevNum = originNum - (i - 1);
+            const hop = !stopsHere ? 60 : getHopSeconds(prevNum, curNum, false);
+            arrSec = currentSec + hop;
+            depSec = isDest ? arrSec : stopsHere ? arrSec + dwell : arrSec;
+          }
         }
 
-        if (stopsHere) {
-          const dwell = isOrigin || isDest ? 60 : [1, 10, 11, 12, 13, 14, 18, 21, 22, 26, 30, 33].includes(curNum) ? 45 : 30;
-          depSec = isDest ? arrSec : arrSec + dwell;
-          currentSec = depSec;
-        } else {
-          depSec = arrSec;
-          currentSec = arrSec;
-        }
+        currentSec = depSec;
 
         stops.push({
           stationId: curStId,
