@@ -77,13 +77,13 @@ export function App() {
     });
   }, []);
 
-  // シミュレーション時刻のメインループ (250ms ごとにスロットリング更新)
+  // シミュレーション時刻のメインループ (100ms ごとに滑らかに更新)
   useEffect(() => {
     let animId: number;
 
     const tick = (now: number) => {
       const elapsed = (now - lastTickTimeRef.current) / 1000;
-      if (elapsed >= 0.25) {
+      if (elapsed >= 0.1) {
         lastTickTimeRef.current = now;
 
         setSimState((prev) => {

@@ -53,7 +53,7 @@ export const TimeController: React.FC<TimeControllerProps> = ({
     { label: '深夜終電帯', time: '24:15', sec: 24.25 * 3600 },
   ];
 
-  const speeds = [1, 2, 5, 10, 30];
+  const speeds = [1, 2, 5, 10, 30, 60, 120, 300, 600];
 
   return (
     <div
@@ -111,7 +111,7 @@ export const TimeController: React.FC<TimeControllerProps> = ({
                 <button
                   key={s}
                   onClick={() => onChangeSpeed(s)}
-                  className={`px-2 py-1 rounded transition-all ${
+                  className={`px-1.5 py-0.5 sm:px-2 sm:py-1 text-[11px] sm:text-xs rounded transition-all whitespace-nowrap ${
                     speedMultiplier === s
                       ? 'bg-white text-[#004b97] shadow-xs'
                       : 'text-slate-500 hover:text-slate-800'
@@ -157,6 +157,26 @@ export const TimeController: React.FC<TimeControllerProps> = ({
         {/* 展開時: ダイヤプリセット＆遅延シナリオ操作 */}
         {isExpanded && (
           <div className="p-3 bg-slate-50 border-t border-slate-200/80 space-y-3 text-xs">
+            {/* モバイル用倍速選択 */}
+            <div className="flex items-center justify-between gap-2 flex-wrap sm:hidden">
+              <span className="font-bold text-slate-600 shrink-0">再生速度:</span>
+              <div className="flex gap-1 flex-wrap">
+                {speeds.map((s) => (
+                  <button
+                    key={s}
+                    onClick={() => onChangeSpeed(s)}
+                    className={`px-2 py-0.5 rounded text-xs font-bold transition-all ${
+                      speedMultiplier === s
+                        ? 'bg-[#004b97] text-white shadow-xs'
+                        : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-100'
+                    }`}
+                  >
+                    {s}x
+                  </button>
+                ))}
+              </div>
+            </div>
+
             {/* プリセット時間ジャンプ */}
             <div className="flex items-center justify-between gap-2 flex-wrap">
               <span className="font-bold text-slate-600 shrink-0">時間帯ジャンプ:</span>
