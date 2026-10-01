@@ -210,7 +210,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
                     >
                       {/* 種別 */}
                       <div className="col-span-3">
-                        <TrainTypeBadge type={trip.trainType} size="sm" />
+                        <TrainTypeBadge type={trip.trainType} size="sm" lineId={station.lineId} />
                       </div>
 
                       {/* 時刻 */}
@@ -270,7 +270,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
           </h3>
           <div className="flex flex-wrap gap-1.5">
             {station.stoppingTypes.map((type) => (
-              <TrainTypeBadge key={type} type={type} size="sm" />
+              <TrainTypeBadge key={type} type={type} size="sm" lineId={station.lineId} />
             ))}
           </div>
         </section>

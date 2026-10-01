@@ -1,6 +1,6 @@
 import React from 'react';
-import type { TrainTypeKey } from '../../types';
-import { TRAIN_TYPES } from '../../data/trainTypes';
+import type { TrainTypeKey, LineId } from '../../types';
+import { getTrainTypeConfig } from '../../data/linesRegistry';
 
 // 駅ナンバリングバッジ (TJ-XX, JA-XX 等のマルチライン対応)
 export const StationBadge: React.FC<{ id: string; size?: 'sm' | 'md' | 'lg' }> = ({
@@ -42,17 +42,9 @@ export const TrainTypeBadge: React.FC<{
   type: TrainTypeKey;
   size?: 'sm' | 'md' | 'lg';
   showFullName?: boolean;
-}> = ({ type, size = 'md', showFullName = true }) => {
-  const config = TRAIN_TYPES[type] || TRAIN_TYPES.local || {
-    key: 'local',
-    name: '普通',
-    nameEn: 'Local',
-    shortName: '普',
-    color: '#1e1c1c',
-    textColor: '#ffffff',
-    bgColor: '#1e1c1c',
-    borderColor: '#4a4646',
-  };
+  lineId?: LineId;
+}> = ({ type, size = 'md', showFullName = true, lineId }) => {
+  const config = getTrainTypeConfig(type, lineId);
 
   const sizeClasses = {
     sm: 'text-[10px] px-1.5 py-0.5 font-medium rounded',
