@@ -158,18 +158,18 @@ export const Header: React.FC<HeaderProps> = ({
 
   return (
     <header
-      className={`absolute top-[calc(0.75rem+env(safe-area-inset-top,0px))] left-[calc(0.75rem+env(safe-area-inset-left,0px))] z-[1002] pointer-events-none flex flex-col gap-2 transition-all duration-300 ease-in-out ${
-        isSidebarOpen ? 'md:left-[436px]' : ''
-      }`}
+      className="absolute top-[calc(0.75rem+env(safe-area-inset-top,0px))] left-[calc(0.75rem+env(safe-area-inset-left,0px))] right-[calc(0.75rem+env(safe-area-inset-right,0px))] z-[1002] pointer-events-none flex flex-col gap-2 transition-all duration-300 ease-in-out"
     >
-      {/* ===== 1段目 (Row 1): 検索バー ＆ PC用ステータスカプセル ===== */}
-      <div className="flex items-center gap-2">
-        {/* 検索入力ボックス (PC: 380px〜400px, モバイル: 画面全幅) */}
+      {/* ===== 1段目 (Row 1): 検索バー (左) ＆ ステータスカプセル (右揃え・上部固定) ===== */}
+      <div className="flex items-start justify-between gap-2 w-full">
+        {/* 検索入力ボックス (PC: 幅440px〜470pxでプレースホルダー見切れ防止, モバイル: 画面全幅) */}
         <div
           ref={containerRef}
-          className="pointer-events-auto bg-white/95 backdrop-blur-md rounded-xl shadow-lg border border-slate-200/80 w-[calc(100vw-1.5rem-env(safe-area-inset-left,0px)-env(safe-area-inset-right,0px))] sm:w-[380px] md:w-[400px] transition-all"
+          className={`pointer-events-auto bg-white/95 backdrop-blur-md rounded-xl shadow-lg border border-slate-200/80 w-full sm:w-[440px] md:w-[470px] transition-all duration-300 ${
+            isSidebarOpen ? 'md:translate-x-[420px]' : ''
+          }`}
         >
-          <div className="flex items-center px-3 py-2 gap-1.5 sm:gap-2">
+          <div className="flex items-center px-3 py-2 gap-2">
             {/* ブランドロゴ */}
             <div className="flex items-center gap-1.5 pr-2 border-r border-slate-200 shrink-0">
               <div className="w-7 h-7 rounded-md bg-gradient-to-br from-[#002060] to-[#00ac9a] flex items-center justify-center text-white shadow-xs font-black text-sm">
@@ -177,13 +177,13 @@ export const Header: React.FC<HeaderProps> = ({
               </div>
               <div className="flex flex-col">
                 <span className="font-bold text-slate-800 text-sm leading-tight tracking-tight">Trainfo</span>
-                <span className="text-[10px] text-slate-500 font-medium leading-none">運行マップ</span>
+                <span className="text-[10px] text-slate-500 font-medium leading-none hidden xs:inline">運行マップ</span>
               </div>
             </div>
 
-            {/* 検索入力欄 */}
+            {/* 検索入力欄 (プレースホルダーが見切れないよう余白最適化) */}
             <div className="relative flex-1 flex items-center min-w-0">
-              <Search className="w-4 h-4 text-slate-400 absolute left-1 shrink-0" />
+              <Search className="w-4 h-4 text-slate-400 absolute left-0.5 shrink-0" />
               <input
                 type="text"
                 value={query}
@@ -193,7 +193,7 @@ export const Header: React.FC<HeaderProps> = ({
                 }}
                 onFocus={() => setIsOpen(true)}
                 placeholder="駅名・行先・種別で検索..."
-                className="w-full pl-7 pr-6 py-1 text-sm bg-transparent outline-none text-slate-800 placeholder-slate-400"
+                className="w-full pl-6 pr-6 py-1 text-sm bg-transparent outline-none text-slate-800 placeholder-slate-400"
               />
               {query && (
                 <button
@@ -211,11 +211,11 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
 
             {/* 一体型ボタン: ヘルプ(?) ＆ 設定(⚙) */}
-            <div className="flex items-center gap-0.5 border-l border-slate-200 pl-1 sm:pl-1.5 shrink-0">
+            <div className="flex items-center gap-0.5 border-l border-slate-200 pl-1.5 shrink-0">
               <button
                 type="button"
                 onClick={onOpenHelp}
-                className="p-1 sm:p-1.5 text-slate-500 hover:text-slate-800 hover:bg-slate-100 rounded-md transition-colors"
+                className="p-1.5 text-slate-500 hover:text-slate-800 hover:bg-slate-100 rounded-md transition-colors"
                 title="使い方と機能説明"
               >
                 <HelpCircle className="w-4 h-4" />
@@ -223,7 +223,7 @@ export const Header: React.FC<HeaderProps> = ({
               <button
                 type="button"
                 onClick={onOpenSettings}
-                className="p-1 sm:p-1.5 text-slate-500 hover:text-slate-800 hover:bg-slate-100 rounded-md transition-colors"
+                className="p-1.5 text-slate-500 hover:text-slate-800 hover:bg-slate-100 rounded-md transition-colors"
                 title="API設定・カスタム時刻表"
               >
                 <Settings className="w-4 h-4" />
@@ -314,15 +314,19 @@ export const Header: React.FC<HeaderProps> = ({
           )}
         </div>
 
-        {/* PC用 ステータスカプセル (検索バーのすぐ右隣に横並び) */}
-        <div className="hidden sm:flex items-center gap-1.5 pointer-events-auto shrink-0">
+        {/* PC用 ステータスカプセル (右揃え・上端固定) */}
+        <div className="hidden sm:flex items-center gap-1.5 pointer-events-auto shrink-0 ml-auto mt-1">
           {statusCapsulesJsx}
         </div>
       </div>
 
       {/* ===== 2段目 (Row 2): PC用一体型フィルタードック / モバイル用チップバー ===== */}
       {/* PC用: 検索ボックスの真下に綺麗に左揃え配置 */}
-      <div className="hidden sm:flex items-center pointer-events-auto">
+      <div
+        className={`hidden sm:flex items-center pointer-events-auto transition-all duration-300 ${
+          isSidebarOpen ? 'md:translate-x-[420px]' : ''
+        }`}
+      >
         <DisplayFilterDock
           selectedLineIds={selectedLineIds}
           onChangeSelectedLines={onChangeSelectedLines}
@@ -334,18 +338,22 @@ export const Header: React.FC<HeaderProps> = ({
         />
       </div>
 
-      {/* モバイル用: 横スクロールチップバー (絞り込みボタン + 運行情報 + ダイヤ + 列車数) */}
-      <div className="sm:hidden flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 pointer-events-auto w-[calc(100vw-1.5rem-env(safe-area-inset-left,0px)-env(safe-area-inset-right,0px))]">
-        <DisplayFilterDock
-          selectedLineIds={selectedLineIds}
-          onChangeSelectedLines={onChangeSelectedLines}
-          filterDirection={filterDirection}
-          onChangeFilterDirection={onChangeFilterDirection}
-          filterType={filterType}
-          onChangeFilterType={onChangeFilterType}
-          mode="mobile"
-        />
-        {statusCapsulesJsx}
+      {/* モバイル用: 横スクロールチップバー (スクロールバー非表示 ＆ 右端フェードインジケーター) */}
+      <div className="relative sm:hidden w-full pointer-events-auto">
+        <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 pr-8 w-full">
+          <DisplayFilterDock
+            selectedLineIds={selectedLineIds}
+            onChangeSelectedLines={onChangeSelectedLines}
+            filterDirection={filterDirection}
+            onChangeFilterDirection={onChangeFilterDirection}
+            filterType={filterType}
+            onChangeFilterType={onChangeFilterType}
+            mode="mobile"
+          />
+          {statusCapsulesJsx}
+        </div>
+        {/* 右端スクロール可能を視覚的に伝えるフェードマスク */}
+        <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-slate-100/90 via-slate-100/40 to-transparent pointer-events-none rounded-r-lg" />
       </div>
     </header>
   );
