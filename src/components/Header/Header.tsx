@@ -162,12 +162,10 @@ export const Header: React.FC<HeaderProps> = ({
     >
       {/* ===== 1段目 (Row 1): 検索バー (左) ＆ ステータスカプセル (右揃え・上部固定) ===== */}
       <div className="flex items-start justify-between gap-2 w-full">
-        {/* 検索入力ボックス (PC: 幅440px〜470pxでプレースホルダー見切れ防止, モバイル: 画面全幅) */}
+        {/* 検索入力ボックス (サイドバーの上端に左右均等余白で綺麗に乗るGoogleマップ風仕様、幅は440px) */}
         <div
           ref={containerRef}
-          className={`pointer-events-auto bg-white/95 backdrop-blur-md rounded-xl shadow-lg border border-slate-200/80 w-full sm:w-[440px] md:w-[470px] transition-all duration-300 ${
-            isSidebarOpen ? 'md:translate-x-[420px]' : ''
-          }`}
+          className="pointer-events-auto bg-white/95 backdrop-blur-md rounded-xl shadow-lg border border-slate-200/80 w-full sm:w-[420px] md:w-[440px] transition-all"
         >
           <div className="flex items-center px-3 py-2 gap-2">
             {/* ブランドロゴ */}
@@ -314,33 +312,11 @@ export const Header: React.FC<HeaderProps> = ({
           )}
         </div>
 
-        {/* PC用 ステータスカプセル (右揃え・上端固定) */}
-        <div className="hidden sm:flex items-center gap-1.5 pointer-events-auto shrink-0 ml-auto mt-1">
-          {statusCapsulesJsx}
-        </div>
-      </div>
-
-      {/* ===== 2段目 (Row 2): PC用一体型フィルタードック / モバイル用チップバー ===== */}
-      {/* PC用: 検索ボックスの真下に綺麗に左揃え配置 */}
-      <div
-        className={`hidden sm:flex items-center pointer-events-auto transition-all duration-300 ${
-          isSidebarOpen ? 'md:translate-x-[420px]' : ''
-        }`}
-      >
-        <DisplayFilterDock
-          selectedLineIds={selectedLineIds}
-          onChangeSelectedLines={onChangeSelectedLines}
-          filterDirection={filterDirection}
-          onChangeFilterDirection={onChangeFilterDirection}
-          filterType={filterType}
-          onChangeFilterType={onChangeFilterType}
-          mode="desktop"
-        />
-      </div>
-
-      {/* モバイル用: 横スクロールチップバー (スクロールバー非表示 ＆ 右端フェードインジケーター) */}
-      <div className="relative sm:hidden w-full pointer-events-auto">
-        <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 pr-8 w-full">
+        {/* PC用 右側固定エリア: 1行目 ステータスカプセル群 ＆ 2行目 フィルタードック (右揃え・上端固定) */}
+        <div className="hidden sm:flex flex-col items-end gap-2 pointer-events-auto shrink-0 ml-auto mt-1">
+          <div className="flex items-center gap-1.5">
+            {statusCapsulesJsx}
+          </div>
           <DisplayFilterDock
             selectedLineIds={selectedLineIds}
             onChangeSelectedLines={onChangeSelectedLines}
@@ -348,13 +324,30 @@ export const Header: React.FC<HeaderProps> = ({
             onChangeFilterDirection={onChangeFilterDirection}
             filterType={filterType}
             onChangeFilterType={onChangeFilterType}
-            mode="mobile"
+            mode="desktop"
           />
-          {statusCapsulesJsx}
         </div>
-        {/* 右端スクロール可能を視覚的に伝えるフェードマスク */}
-        <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-slate-100/90 via-slate-100/40 to-transparent pointer-events-none rounded-r-lg" />
       </div>
+
+      {/* モバイル用: 横スクロールチップバー (サイドバー展開時は非表示にして詳細パネルと被らないようにする) */}
+      {!isSidebarOpen && (
+        <div className="relative sm:hidden w-full pointer-events-auto animate-in fade-in duration-200">
+          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 pr-8 w-full">
+            <DisplayFilterDock
+              selectedLineIds={selectedLineIds}
+              onChangeSelectedLines={onChangeSelectedLines}
+              filterDirection={filterDirection}
+              onChangeFilterDirection={onChangeFilterDirection}
+              filterType={filterType}
+              onChangeFilterType={onChangeFilterType}
+              mode="mobile"
+            />
+            {statusCapsulesJsx}
+          </div>
+          {/* 右端スクロール可能を視覚的に伝えるフェードマスク */}
+          <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-slate-100/90 via-slate-100/40 to-transparent pointer-events-none rounded-r-lg" />
+        </div>
+      )}
     </header>
   );
 };

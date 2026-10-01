@@ -72,7 +72,7 @@ export const TimeController: React.FC<TimeControllerProps> = ({
     <div
       className={`absolute bottom-[calc(0.75rem+env(safe-area-inset-bottom,0px))] z-[1000] pointer-events-auto transition-all duration-300 ease-in-out ${
         isSidebarOpen
-          ? 'left-[calc(0.75rem+env(safe-area-inset-left,0px))] right-[calc(0.75rem+env(safe-area-inset-right,0px))] sm:left-[calc(436px+env(safe-area-inset-left,0px))] sm:right-[calc(1.5rem+env(safe-area-inset-right,0px))] md:left-[calc(50%+210px)] md:-translate-x-1/2 md:w-[min(680px,calc(100vw-460px))]'
+          ? 'left-[calc(0.75rem+env(safe-area-inset-left,0px))] right-[calc(0.75rem+env(safe-area-inset-right,0px))] sm:left-[calc(460px+env(safe-area-inset-left,0px))] sm:right-[calc(1.5rem+env(safe-area-inset-right,0px))] md:left-[calc(50%+232px)] md:-translate-x-1/2 md:w-[min(680px,calc(100vw-500px))]'
           : 'left-[calc(0.75rem+env(safe-area-inset-left,0px))] right-[calc(0.75rem+env(safe-area-inset-right,0px))] md:left-1/2 md:-translate-x-1/2 md:w-[720px]'
       }`}
     >
