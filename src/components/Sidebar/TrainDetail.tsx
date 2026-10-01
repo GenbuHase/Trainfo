@@ -3,6 +3,7 @@ import type { ActiveTrain, Station } from '../../types';
 import { TrainTypeBadge, StationBadge } from '../Common/Badges';
 import { STATION_MAP } from '../../data/stations';
 import { formatTrainNumber } from '../../data/timetableData';
+import { getLine } from '../../data/linesRegistry';
 import {
   Navigation,
   Gauge,
@@ -25,6 +26,8 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
   onToggleTracking,
   onSelectStation,
 }) => {
+  const line = getLine(train.lineId);
+  const lineColor = line?.lineColor || '#004b97';
   const originStation = STATION_MAP.get(train.originStationId);
   const destStation = STATION_MAP.get(train.destinationStationId);
   const currentStation = train.currentStationId ? STATION_MAP.get(train.currentStationId) : null;
@@ -37,7 +40,15 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
       <div className="bg-gradient-to-r from-slate-900 to-slate-800 text-white p-5 pb-6">
         <div className="flex items-start justify-between">
           <div>
-            <div className="flex items-center gap-2 mb-1.5">
+            <div className="flex items-center gap-2 mb-1.5 flex-wrap">
+              {line && (
+                <span
+                  className="text-[10px] font-bold px-2 py-0.5 rounded text-white shadow-2xs"
+                  style={{ backgroundColor: lineColor }}
+                >
+                  {line.name}
+                </span>
+              )}
               <TrainTypeBadge type={train.trainType} size="md" />
               <span className="font-mono text-sm tracking-wider text-amber-300 font-bold">
                 {formatTrainNumber(train.trainNumber, train.tripId)}
@@ -45,13 +56,13 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
               <span className="text-xs text-slate-400 font-medium">({train.cars}両編成)</span>
             </div>
             <h2 className="text-2xl font-black tracking-tight text-white flex items-center gap-2">
-              <span>{train.customDestination || destStation?.name || '小川町'} 行</span>
+              <span>{train.customDestination || destStation?.name || '行先未定'} 行</span>
               <span className="text-xs font-normal px-2 py-0.5 rounded-full bg-slate-700 text-slate-300">
                 {train.direction === 'inbound' ? '上り' : '下り'}
               </span>
             </h2>
             <p className="text-xs text-slate-400 mt-1">
-              始発: {originStation?.name || '池袋'} 発
+              始発: {originStation?.name || '始発駅'} 発
             </p>
           </div>
         </div>
@@ -110,8 +121,11 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                 </div>
                 <div className="w-full bg-slate-200 rounded-full h-1.5 mt-1 overflow-hidden">
                   <div
-                    className="bg-[#004b97] h-full rounded-full transition-all duration-300"
-                    style={{ width: `${Math.round(train.progressPercent * 100)}%` }}
+                    className="h-full rounded-full transition-all duration-300"
+                    style={{
+                      width: `${Math.round(train.progressPercent * 100)}%`,
+                      backgroundColor: lineColor,
+                    }}
                   />
                 </div>
                 <span className="text-[11px] text-slate-500 text-right">
@@ -145,12 +159,13 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
           </div>
 
           <div className="relative pl-6 space-y-4 before:absolute before:left-2.5 before:top-2 before:bottom-2 before:w-0.5 before:bg-slate-200">
-            {train.stops.map((stop) => {
+            {train.stops.map((stop, idx) => {
               const st = STATION_MAP.get(stop.stationId);
               if (!st) return null;
 
               const isCurrent = train.currentStationId === stop.stationId;
               const isPassing = stop.isPassing;
+              const isLast = idx === train.stops.length - 1;
 
               return (
                 <div
@@ -165,8 +180,9 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                         ? 'bg-amber-500 border-white ring-4 ring-amber-300 ring-opacity-70 animate-pulse'
                         : isPassing
                         ? 'bg-slate-200 border-slate-300 w-2 h-2 -left-[21px] top-1.5'
-                        : 'bg-white border-[#004b97]'
+                        : 'bg-white'
                     }`}
+                    style={!isCurrent && !isPassing ? { borderColor: lineColor } : {}}
                   />
 
                   {/* 駅名と時刻 */}
@@ -194,8 +210,10 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                     <div className="text-[11px] font-mono text-slate-500 flex items-center gap-2">
                       {!isPassing && (
                         <span>
-                          {stop.departureTime.slice(0, 5)}
-                          <span className="text-[9px] text-slate-400 ml-0.5">発</span>
+                          {(isLast ? (stop.arrivalTime || stop.departureTime) : stop.departureTime).slice(0, 5)}
+                          <span className="text-[9px] text-slate-400 ml-0.5">
+                            {isLast ? '着' : '発'}
+                          </span>
                         </span>
                       )}
                       {isCurrent && (
