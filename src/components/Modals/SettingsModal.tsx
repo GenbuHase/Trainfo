@@ -15,10 +15,10 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
   onClose,
   onApplySettings,
 }) => {
-  if (!isOpen) return null;
-
   const [config, setConfig] = useState<OdptConfig>(loadOdptConfig());
   const [saveSuccess, setSaveSuccess] = useState(false);
+
+  if (!isOpen) return null;
 
   const handleSave = () => {
     saveOdptConfig(config);

@@ -1,6 +1,19 @@
-// 東武東上線 Trainfo 型定義ファイル
+// Trainfo 共通型定義ファイル
 
-export type TrainTypeKey = 'local' | 'semiExp' | 'express' | 'rapidExp' | 'kawagoeExp' | 'tjLiner';
+// 路線ID型（将来の路線追加に開かれた拡張型）
+export type LineId = 'tojo' | 'saikyo' | (string & {});
+
+// 列車種別キー（東上線＋埼京線＋汎用）
+export type TrainTypeKey =
+  | 'local'       // 普通 / 各駅停車
+  | 'semiExp'     // 準急
+  | 'express'     // 急行
+  | 'rapid'       // 快速（埼京線等）
+  | 'commuter'    // 通勤快速（埼京線等）
+  | 'rapidExp'    // 快速急行
+  | 'kawagoeExp'  // 川越特急
+  | 'tjLiner'     // TJライナー
+  | (string & {});
 
 export interface TrainTypeConfig {
   key: TrainTypeKey;
@@ -13,9 +26,18 @@ export interface TrainTypeConfig {
   borderColor: string;
 }
 
+export interface StationFacilities {
+  elevator: boolean;
+  restroom: boolean;
+  multipurposeToilet: boolean;
+  waitingRoom: boolean;
+  ticketOffice: boolean;
+}
+
 export interface Station {
-  id: string;          // 例: 'TJ-01'
-  number: number;      // 1 〜 39
+  id: string;          // 例: 'TJ-01', 'JA-12'
+  lineId: LineId;      // 所属路線 ('tojo', 'saikyo' 等)
+  number: number;      // ナンバリング番号
   name: string;        // '池袋'
   nameKana: string;    // 'いけぶくろ'
   nameEn: string;      // 'Ikebukuro'
@@ -23,22 +45,15 @@ export interface Station {
   lng: number;
   transfers: string[]; // 乗り換え路線
   address: string;
-  facilities: {
-    elevator: boolean;
-    restroom: boolean;
-    multipurposeToilet: boolean;
-    waitingRoom: boolean;
-    ticketOffice: boolean;
-  };
-  // 各種別の停車有無
-  stoppingTypes: TrainTypeKey[];
+  facilities: StationFacilities;
+  stoppingTypes: TrainTypeKey[]; // 各種別の停車有無
   platforms: {
     inbound: string;  // 上りホーム番線 (例: '1・2番線')
     outbound: string; // 下りホーム番線 (例: '3・4番線')
   };
 }
 
-export type Direction = 'inbound' | 'outbound'; // inbound = 上り(池袋方面), outbound = 下り(寄居方面)
+export type Direction = 'inbound' | 'outbound'; // inbound = 上り, outbound = 下り
 
 export interface StationStopTime {
   stationId: string;
@@ -48,13 +63,14 @@ export interface StationStopTime {
 }
 
 export interface TimetableTrip {
-  tripId: string;         // 一意の内部識別ID (例: 'WD_OUT_TJ-01_0530_1001レ')
-  trainNumber?: string;   // 列車番号 (例: '1001レ', '1044レ')
+  tripId: string;         // 一意の内部識別ID
+  lineId: LineId;         // 所属路線
+  trainNumber?: string;   // 列車番号 (例: '1001レ', '1044K')
   trainType: TrainTypeKey;
   direction: Direction;
   originStationId: string;
   destinationStationId: string;
-  customDestination?: string; // 直通列車の行先名 (例: 元町・中華街, 新木場)
+  customDestination?: string; // 直通列車の行先名 (例: 元町・中華街, 新木場, 海老名)
   cars: number;           // 10両, 8両, 4両
   isHoliday: boolean;     // 平日 / 土休日
   stops: StationStopTime[];
@@ -64,7 +80,8 @@ export type TrainStatus = 'RUNNING' | 'STOPPING' | 'TERMINATED';
 
 export interface ActiveTrain {
   tripId: string;
-  trainNumber?: string;   // 列車番号 (例: '1001レ', '1044レ')
+  lineId: LineId;            // 所属路線
+  trainNumber?: string;      // 列車番号
   trainType: TrainTypeKey;
   direction: Direction;
   originStationId: string;
@@ -74,7 +91,7 @@ export interface ActiveTrain {
   status: TrainStatus;
   currentLat: number;
   currentLng: number;
-  heading: number; // 進行方向 (度数: 0〜360)
+  heading: number;           // 進行方向 (度数: 0〜360)
   currentStationId?: string; // 停車中の駅、または直前の駅
   nextStationId: string;     // 次の停車駅または次の通過駅
   nextStopStationId: string; // 次の停車駅
@@ -88,12 +105,62 @@ export interface ActiveTrain {
 
 export interface DepartureInfo {
   tripId: string;
+  lineId: LineId;
   trainType: TrainTypeKey;
   destination: string;
   departureTime: string;
   platform: string;
   cars: number;
   delayMinutes: number;
-  statusText: string; // '定刻', '3分遅れ', '当駅停車中', 'まもなく発車'
-  minutesUntil: number; // あと何分
+  statusText: string;
+  minutesUntil: number;
+}
+
+// 線路軌道セグメント
+export interface TrackSegment {
+  fromStationId: string;
+  toStationId: string;
+  fromName: string;
+  toName: string;
+  coordinates: [number, number][];
+}
+
+// 発車情報生データ
+export interface RawStationDeparture {
+  h: number;
+  m: number;
+  time: string;
+  t: TrainTypeKey;
+  d: string;
+  no: string;
+  sec: number;
+}
+
+export type StationTimetableStore = {
+  [day in 'weekday' | 'holiday']: {
+    [stationId: string]: {
+      inbound: RawStationDeparture[];
+      outbound: RawStationDeparture[];
+    };
+  };
+};
+
+// 路線メタデータ
+export interface LineMeta {
+  id: LineId;
+  name: string;             // '東武東上線', 'JR埼京線・川越線'
+  shortName: string;        // '東上線', '埼京線'
+  operator: string;         // '東武鉄道', 'JR東日本'
+  lineColor: string;        // ブランドメインカラー (例: '#001e62', '#00ac9a')
+  accentColor: string;      // アクセントカラー
+  defaultBounds: [[number, number], [number, number]]; // 路線全体が見渡せる初期領域 [[南緯, 西経], [北緯, 東経]]
+}
+
+// 路線定義モジュール（プラグイン単位）
+export interface LineDefinition extends LineMeta {
+  stations: Station[];
+  trackSegments: TrackSegment[];
+  trainTypes: Record<string, TrainTypeConfig>;
+  stationTimetables: StationTimetableStore;
+  globalTimetable: TimetableTrip[];
 }

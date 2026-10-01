@@ -1,5 +1,5 @@
 // リアルタイム列車位置計算シミュレーションエンジン
-import type { ActiveTrain, TimetableTrip } from '../types';
+import type { ActiveTrain, TimetableTrip, LineId } from '../types';
 import { STATION_MAP } from '../data/stations';
 import {
   interpolateTrackPosition,
@@ -7,10 +7,10 @@ import {
   calculateDistanceKm,
 } from '../data/trackGeometry';
 import {
-  GLOBAL_TIMETABLE,
   timeStringToSeconds,
   formatTrainNumber,
 } from '../data/timetableData';
+import { getCombinedGlobalTimetable } from '../data/linesRegistry';
 
 export interface SimulationState {
   currentSec: number;        // シミュレーション時刻（秒）0〜86399
@@ -20,6 +20,7 @@ export interface SimulationState {
   globalDelayMinutes: number;// 全体遅延シミュレーション(分)
   randomDelays: Record<string, number>; // 個別列車の遅延
   incidentMessage?: string;  // 運行情報メッセージ
+  selectedLineIds?: LineId[];// 表示・シミュレーション対象の路線IDリスト
 }
 
 // 指定時刻における走行中の全列車を算出
@@ -27,7 +28,7 @@ export function calculateActiveTrains(
   simState: SimulationState,
   customTimetable?: TimetableTrip[]
 ): ActiveTrain[] {
-  const timetable = customTimetable || GLOBAL_TIMETABLE;
+  const timetable = customTimetable || getCombinedGlobalTimetable(simState.selectedLineIds);
   const currentSec = simState.currentSec;
   const isHoliday = simState.isHoliday;
   const activeTrains: ActiveTrain[] = [];
@@ -35,6 +36,11 @@ export function calculateActiveTrains(
   for (const trip of timetable) {
     if (trip.isHoliday !== isHoliday) continue;
     if (trip.stops.length < 2) continue;
+
+    const lineId: LineId = trip.lineId || 'tojo';
+    if (simState.selectedLineIds && simState.selectedLineIds.length > 0 && !simState.selectedLineIds.includes(lineId)) {
+      continue;
+    }
 
     const trainDelay =
       (simState.randomDelays[trip.tripId] || 0) + simState.globalDelayMinutes;
@@ -83,6 +89,7 @@ export function calculateActiveTrains(
 
         activeTrains.push({
           tripId: trip.tripId,
+          lineId,
           trainNumber: trip.trainNumber || formatTrainNumber(undefined, trip.tripId),
           trainType: trip.trainType,
           direction: trip.direction,
@@ -138,6 +145,7 @@ export function calculateActiveTrains(
 
           activeTrains.push({
             tripId: trip.tripId,
+            lineId,
             trainNumber: trip.trainNumber || formatTrainNumber(undefined, trip.tripId),
             trainType: trip.trainType,
             direction: trip.direction,
@@ -165,14 +173,13 @@ export function calculateActiveTrains(
     }
   }
 
-  // 防御的ガード: 同一運行（同一方向・同一列車番号）の重複表示を完全に排除
+  // 同一運行（路線・進行方向・同一列車番号）の重複表示を安全に排除
   const uniqueTrains: ActiveTrain[] = [];
   const seenTrainKeys = new Set<string>();
 
   for (const train of activeTrains) {
     const formattedNo = formatTrainNumber(train.trainNumber, train.tripId);
-    // 同一方向かつ同一列車番号は1本のみ表示
-    const key = `${train.direction}_${formattedNo}`;
+    const key = `${train.lineId}_${train.direction}_${formattedNo}`;
 
     if (seenTrainKeys.has(key)) {
       continue;

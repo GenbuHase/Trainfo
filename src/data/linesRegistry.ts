@@ -1,0 +1,111 @@
+import type { LineDefinition, LineId, Station, TrackSegment, TrainTypeConfig, TimetableTrip, StationTimetableStore } from '../types';
+import { tojoLine } from './lines/tojo';
+import { saikyoLine } from './lines/saikyo';
+
+// 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
+export const LINES_REGISTRY: Record<string, LineDefinition> = {
+  tojo: tojoLine,
+  saikyo: saikyoLine,
+};
+
+// 登録されている全路線の配列を取得
+export function getAllLines(): LineDefinition[] {
+  return Object.values(LINES_REGISTRY);
+}
+
+// 路線IDによる路線定義の取得
+export function getLine(lineId: LineId): LineDefinition | undefined {
+  return LINES_REGISTRY[lineId];
+}
+
+// 選択された路線（または全路線）の駅リストを取得
+export function getCombinedStations(selectedLineIds?: LineId[]): Station[] {
+  const lines = selectedLineIds && selectedLineIds.length > 0
+    ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
+    : getAllLines();
+
+  return lines.flatMap((l) => l.stations);
+}
+
+// 選択された路線（または全路線）の線路セグメントを取得
+export function getCombinedTrackSegments(selectedLineIds?: LineId[]): TrackSegment[] {
+  const lines = selectedLineIds && selectedLineIds.length > 0
+    ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
+    : getAllLines();
+
+  return lines.flatMap((l) => l.trackSegments);
+}
+
+// 選択された路線（または全路線）の列車種別設定を取得
+export function getCombinedTrainTypes(selectedLineIds?: LineId[]): Record<string, TrainTypeConfig> {
+  const lines = selectedLineIds && selectedLineIds.length > 0
+    ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
+    : getAllLines();
+
+  const combined: Record<string, TrainTypeConfig> = {};
+  for (const line of lines) {
+    Object.assign(combined, line.trainTypes);
+  }
+  return combined;
+}
+
+// 選択された路線（または全路線）のダイヤ（全列車）を取得
+export function getCombinedGlobalTimetable(selectedLineIds?: LineId[]): TimetableTrip[] {
+  const lines = selectedLineIds && selectedLineIds.length > 0
+    ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
+    : getAllLines();
+
+  return lines.flatMap((l) => l.globalTimetable);
+}
+
+// 選択された路線（または全路線）の各駅時刻表ストアを取得
+export function getCombinedStationTimetables(selectedLineIds?: LineId[]): StationTimetableStore {
+  const lines = selectedLineIds && selectedLineIds.length > 0
+    ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
+    : getAllLines();
+
+  const combined: StationTimetableStore = {
+    weekday: {},
+    holiday: {},
+  };
+
+  for (const line of lines) {
+    Object.assign(combined.weekday, line.stationTimetables.weekday);
+    Object.assign(combined.holiday, line.stationTimetables.holiday);
+  }
+
+  return combined;
+}
+
+// 選択された路線群のすべての駅をピッタリ包含するバウンディングボックスを計算
+export function calculateBoundsForLines(selectedLineIds: LineId[]): [[number, number], [number, number]] {
+  const stations = getCombinedStations(selectedLineIds);
+  if (stations.length === 0) {
+    // デフォルト（東京・埼玉広域）
+    return [
+      [35.60, 139.15],
+      [36.15, 139.75],
+    ];
+  }
+
+  let minLat = Infinity;
+  let maxLat = -Infinity;
+  let minLng = Infinity;
+  let maxLng = -Infinity;
+
+  for (const st of stations) {
+    if (st.lat < minLat) minLat = st.lat;
+    if (st.lat > maxLat) maxLat = st.lat;
+    if (st.lng < minLng) minLng = st.lng;
+    if (st.lng > maxLng) maxLng = st.lng;
+  }
+
+  // 余白パディング（約0.015度 = 約1.5km）
+  const latPadding = 0.015;
+  const lngPadding = 0.015;
+
+  return [
+    [minLat - latPadding, minLng - lngPadding],
+    [maxLat + latPadding, maxLng + lngPadding],
+  ];
+}

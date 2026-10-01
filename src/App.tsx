@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import type { Station, ActiveTrain } from './types';
+import type { Station, ActiveTrain, LineId } from './types';
 import { TrainMap } from './components/Map/TrainMap';
 import { Header } from './components/Header/Header';
 import { Sidebar } from './components/Sidebar/Sidebar';
@@ -21,8 +21,23 @@ import type {
   TrainOperationStatus,
 } from './services/odptApi';
 import { secondsToTimeString } from './data/timetableData';
+import { getAllLines } from './data/linesRegistry';
 
 export function App() {
+  // 選択路線リスト（初期値: localStorage または 登録全路線）
+  const [selectedLineIds, setSelectedLineIds] = useState<LineId[]>(() => {
+    try {
+      const saved = localStorage.getItem('trainfo_selected_lines');
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+      }
+    } catch {
+      // ignore
+    }
+    return getAllLines().map((l) => l.id);
+  });
+
   // 実時間から初期化
   const initialRealSec = getRealCurrentSeconds();
   const today = new Date();
@@ -36,6 +51,7 @@ export function App() {
     isHoliday: isWeekend,
     globalDelayMinutes: 0,
     randomDelays: {},
+    selectedLineIds,
   });
 
   const [isRealTimeSynced, setIsRealTimeSynced] = useState<boolean>(true);
@@ -46,6 +62,16 @@ export function App() {
   const [selectedTrainId, setSelectedTrainId] = useState<string | null>(null);
   const [isTrackingTrain, setIsTrackingTrain] = useState<boolean>(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
+
+  // 路線名表示テキスト生成
+  const lineLabel = useMemo(() => {
+    const all = getAllLines();
+    if (selectedLineIds.length === all.length) return '全路線';
+    if (selectedLineIds.length === 1) {
+      return all.find((l) => l.id === selectedLineIds[0])?.shortName || '運行';
+    }
+    return `${selectedLineIds.length}路線`;
+  }, [selectedLineIds]);
 
   // 選択中の列車オブジェクトをリアルタイム算出
   const selectedTrain = useMemo(() => {
@@ -62,8 +88,8 @@ export function App() {
   // 運行情報
   const [operationStatus, setOperationStatus] = useState<TrainOperationStatus>({
     status: 'NORMAL',
-    title: '東武東上線：平常運転',
-    details: '東武東上線は全線でおおむね平常通り運行しています。',
+    title: '全線：平常運転',
+    details: '各路線とも全線でおおむね平常通り運行しています。',
     updatedAt: new Date().toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }),
   });
 
@@ -75,6 +101,17 @@ export function App() {
     fetchTobuOperationStatus(odptConfigRef.current.apiKey).then((res) => {
       setOperationStatus(res);
     });
+  }, []);
+
+  // 路線選択変更ハンドラ
+  const handleChangeSelectedLines = useCallback((lineIds: LineId[]) => {
+    setSelectedLineIds(lineIds);
+    setSimState((prev) => ({ ...prev, selectedLineIds: lineIds }));
+    try {
+      localStorage.setItem('trainfo_selected_lines', JSON.stringify(lineIds));
+    } catch {
+      // ignore
+    }
   }, []);
 
   // シミュレーション時刻のメインループ (100ms ごとに滑らかに更新)
@@ -115,9 +152,12 @@ export function App() {
 
   // 列車位置の再計算
   useEffect(() => {
-    const trains = calculateActiveTrains(simState);
+    const trains = calculateActiveTrains({
+      ...simState,
+      selectedLineIds,
+    });
     setActiveTrains(trains);
-  }, [simState]);
+  }, [simState, selectedLineIds]);
 
   // 駅選択ハンドラ
   const handleSelectStation = useCallback((station: Station) => {
@@ -178,19 +218,19 @@ export function App() {
     if (minutes > 0) {
       setOperationStatus({
         status: 'DELAY',
-        title: `東武東上線：約${minutes}分遅れ`,
-        details: `ダイヤ乱れシミュレーション中（全線で約${minutes}分の遅延が発生しています）。`,
+        title: `${lineLabel}：約${minutes}分遅れ`,
+        details: `ダイヤ乱れシミュレーション中（表示中の路線で約${minutes}分の遅延が発生しています）。`,
         updatedAt: new Date().toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }),
       });
     } else {
       setOperationStatus({
         status: 'NORMAL',
-        title: '東武東上線：平常運転',
-        details: '現在、平常通り運行しています。',
+        title: `${lineLabel}：平常運転`,
+        details: '現在、おおむね平常通り運行しています。',
         updatedAt: new Date().toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }),
       });
     }
-  }, []);
+  }, [lineLabel]);
 
   // ランダム遅延切り替え
   const handleToggleRandomDelay = useCallback(() => {
@@ -239,6 +279,8 @@ export function App() {
         currentTimeString={secondsToTimeString(simState.currentSec)}
         isSidebarOpen={isSidebarOpen}
         onCloseSidebar={() => setIsSidebarOpen(false)}
+        selectedLineIds={selectedLineIds}
+        onChangeSelectedLines={handleChangeSelectedLines}
       />
 
       {/* メイン地図 */}
@@ -252,6 +294,7 @@ export function App() {
         trackingTrainId={selectedTrain?.tripId || null}
         isSidebarOpen={isSidebarOpen}
         onCloseSidebar={() => setIsSidebarOpen(false)}
+        selectedLineIds={selectedLineIds}
       />
 
       {/* Googleマップ風 サイドパネル */}
@@ -268,6 +311,7 @@ export function App() {
         onSelectStation={handleSelectStation}
         onSelectTrain={handleSelectTrain}
         onOpenFullTimetable={handleOpenFullTimetable}
+        selectedLineIds={selectedLineIds}
       />
 
       {/* 画面下部 タイムコントローラー */}
