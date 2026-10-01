@@ -121,7 +121,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                 </div>
                 <div className="w-full bg-slate-200 rounded-full h-1.5 mt-1 overflow-hidden">
                   <div
-                    className="h-full rounded-full transition-all duration-300"
+                    className="h-full rounded-full transition-[width] duration-200 ease-linear"
                     style={{
                       width: `${Math.round(train.progressPercent * 100)}%`,
                       backgroundColor: lineColor,
@@ -170,8 +170,16 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
               return (
                 <div
                   key={stop.stationId}
-                  className="relative group cursor-pointer"
+                  role="button"
+                  tabIndex={0}
+                  className="relative group cursor-pointer select-none"
                   onClick={() => onSelectStation(st)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      onSelectStation(st);
+                    }
+                  }}
                 >
                   {/* ピンマーカー */}
                   <div
