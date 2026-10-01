@@ -44,9 +44,36 @@ export function getCombinedTrainTypes(selectedLineIds?: LineId[]): Record<string
 
   const combined: Record<string, TrainTypeConfig> = {};
   for (const line of lines) {
-    Object.assign(combined, line.trainTypes);
+    for (const [key, conf] of Object.entries(line.trainTypes)) {
+      // 共通キー（local 等）は先行路線（東上線の #1e1c1c 普通）を維持
+      if (!combined[key]) {
+        combined[key] = conf;
+      }
+      combined[`${line.id}_${key}`] = conf;
+    }
   }
   return combined;
+}
+
+// 路線と種別キーから種別設定を取得（路線固有の設定を優先）
+export function getTrainTypeConfig(type: string, lineId?: LineId): TrainTypeConfig {
+  if (lineId && LINES_REGISTRY[lineId]) {
+    const config = LINES_REGISTRY[lineId].trainTypes[type];
+    if (config) return config;
+  }
+  // lineIdが未指定の場合: 東上線設定を優先、なければ埼京線設定
+  if (tojoLine.trainTypes[type]) return tojoLine.trainTypes[type];
+  if (saikyoLine.trainTypes[type]) return saikyoLine.trainTypes[type];
+  return {
+    key: type,
+    name: type,
+    nameEn: type,
+    shortName: type,
+    color: '#1e1c1c',
+    textColor: '#ffffff',
+    bgColor: '#1e1c1c',
+    borderColor: '#4a4646',
+  };
 }
 
 // 選択された路線（または全路線）のダイヤ（全列車）を取得

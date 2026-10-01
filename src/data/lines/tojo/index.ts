@@ -10,8 +10,8 @@ export const tojoLine: LineDefinition = {
   name: '東武東上線',
   shortName: '東上線',
   operator: '東武鉄道',
-  lineColor: '#002060', // 東武グループブルー
-  accentColor: '#009a74',
+  lineColor: '#004b97', // 東武グループブルー（フューチャーブルー）
+  accentColor: '#ed6d00', // 東武ブライトオレンジ
   defaultBounds: [
     [35.720, 139.180],
     [36.130, 139.725],

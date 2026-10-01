@@ -2,9 +2,8 @@ import React, { useEffect, useRef, useState, useMemo } from 'react';
 import L from 'leaflet';
 import type { Station, ActiveTrain, Direction, LineId } from '../../types';
 import { getStations, STATION_MAP } from '../../data/stations';
-import { TRAIN_TYPES } from '../../data/trainTypes';
 import { formatTrainNumber } from '../../data/timetableData';
-import { getLine, calculateBoundsForLines } from '../../data/linesRegistry';
+import { getLine, calculateBoundsForLines, getTrainTypeConfig } from '../../data/linesRegistry';
 import {
   Layers,
   ZoomIn,
@@ -270,16 +269,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
 
     filteredTrains.forEach((train) => {
       const isSelected = selectedTrain?.tripId === train.tripId;
-      const typeConfig = TRAIN_TYPES[train.trainType] || TRAIN_TYPES.local || {
-        key: 'local',
-        name: '普通',
-        nameEn: 'Local',
-        shortName: '普',
-        color: '#1e1c1c',
-        textColor: '#ffffff',
-        bgColor: '#1e1c1c',
-        borderColor: '#4a4646',
-      };
+      const typeConfig = getTrainTypeConfig(train.trainType, train.lineId);
       const destSt = STATION_MAP.get(train.destinationStationId);
 
       // 矢印・電車の向き
@@ -325,7 +315,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
           <div class="absolute top-8 pointer-events-none whitespace-nowrap bg-slate-900/95 text-white px-2 py-0.5 rounded shadow-lg text-[10px] font-sans font-bold flex items-center gap-1.5 transition-opacity ${
             isSelected ? 'opacity-100 ring-1 ring-amber-400' : 'opacity-0 group-hover:opacity-100'
           }">
-            <span style="color: ${typeConfig.color}">${typeConfig.shortName}</span>
+            <span class="px-1 py-0.2 rounded text-[9px] text-white font-bold" style="background-color: ${typeConfig.bgColor}">${typeConfig.shortName}</span>
             <span>${train.customDestination || destSt?.name || '行先'}</span>
             <span class="text-slate-400 font-mono font-normal">${formatTrainNumber(train.trainNumber, train.tripId)}</span>
           </div>

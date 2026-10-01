@@ -49,7 +49,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                   {line.name}
                 </span>
               )}
-              <TrainTypeBadge type={train.trainType} size="md" />
+              <TrainTypeBadge type={train.trainType} size="md" lineId={train.lineId} />
               <span className="font-mono text-sm tracking-wider text-amber-300 font-bold">
                 {formatTrainNumber(train.trainNumber, train.tripId)}
               </span>

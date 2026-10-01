@@ -211,7 +211,7 @@ export const Header: React.FC<HeaderProps> = ({
                         )}
                       </div>
                     </div>
-                    <TrainTypeBadge type={train.trainType} size="sm" />
+                    <TrainTypeBadge type={train.trainType} size="sm" lineId={train.lineId} />
                   </button>
                 );
               })}
