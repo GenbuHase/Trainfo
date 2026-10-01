@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import type { Station, ActiveTrain, LineId } from './types';
+import type { Station, ActiveTrain, LineId, Direction } from './types';
 import { TrainMap } from './components/Map/TrainMap';
 import { Header } from './components/Header/Header';
 import { Sidebar } from './components/Sidebar/Sidebar';
@@ -20,7 +20,6 @@ import type {
   OdptConfig,
   TrainOperationStatus,
 } from './services/odptApi';
-import { secondsToTimeString } from './data/timetableData';
 import { getAllLines } from './data/linesRegistry';
 
 export function App() {
@@ -37,6 +36,13 @@ export function App() {
     }
     return getAllLines().map((l) => l.id);
   });
+
+  // 表示フィルター状態 (進行方向・列車種別)
+  const [filterDirection, setFilterDirection] = useState<'all' | Direction>('all');
+  const [filterType, setFilterType] = useState<'all' | 'rapid' | 'local'>('all');
+
+  // 下部タイムコントローラーの展開状態 (モバイルでの地図コントロール配置連動用)
+  const [isTimeControllerExpanded, setIsTimeControllerExpanded] = useState<boolean>(false);
 
   // 実時間から初期化
   const initialRealSec = getRealCurrentSeconds();
@@ -273,8 +279,8 @@ export function App() {
   }, []);
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden bg-slate-100 select-none">
-      {/* Googleマップ風 ヘッダー＆検索バー */}
+    <div className="relative w-full h-full h-[100dvh] overflow-hidden bg-slate-100 select-none">
+      {/* Googleマップ風 ヘッダー＆検索バー (2段組ツールバー) */}
       <Header
         onSelectStation={handleSelectStation}
         onSelectTrain={handleSelectTrain}
@@ -284,11 +290,14 @@ export function App() {
         operationStatus={operationStatus}
         onOpenSettings={() => setIsSettingsOpen(true)}
         onOpenHelp={() => setIsHelpOpen(true)}
-        currentTimeString={secondsToTimeString(simState.currentSec)}
         isSidebarOpen={isSidebarOpen}
         onCloseSidebar={handleCloseSidebar}
         selectedLineIds={selectedLineIds}
         onChangeSelectedLines={handleChangeSelectedLines}
+        filterDirection={filterDirection}
+        onChangeFilterDirection={setFilterDirection}
+        filterType={filterType}
+        onChangeFilterType={setFilterType}
       />
 
       {/* メイン地図 */}
@@ -303,6 +312,9 @@ export function App() {
         isSidebarOpen={isSidebarOpen}
         onCloseSidebar={handleCloseSidebar}
         selectedLineIds={selectedLineIds}
+        filterDirection={filterDirection}
+        filterType={filterType}
+        isTimeControllerExpanded={isTimeControllerExpanded}
       />
 
       {/* Googleマップ風 サイドパネル */}
@@ -337,6 +349,8 @@ export function App() {
         onToggleRandomDelay={handleToggleRandomDelay}
         isRandomDelayActive={Object.keys(simState.randomDelays).length > 0}
         isSidebarOpen={isSidebarOpen}
+        isExpanded={isTimeControllerExpanded}
+        onToggleExpanded={() => setIsTimeControllerExpanded((prev) => !prev)}
       />
 
       {/* 全日時刻表モーダル */}

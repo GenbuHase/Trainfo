@@ -23,6 +23,8 @@ interface TimeControllerProps {
   onToggleRandomDelay: () => void;
   isRandomDelayActive: boolean;
   isSidebarOpen?: boolean;
+  isExpanded?: boolean;
+  onToggleExpanded?: () => void;
 }
 
 export const TimeController: React.FC<TimeControllerProps> = ({
@@ -39,8 +41,19 @@ export const TimeController: React.FC<TimeControllerProps> = ({
   onToggleRandomDelay,
   isRandomDelayActive,
   isSidebarOpen = false,
+  isExpanded,
+  onToggleExpanded,
 }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [internalExpanded, setInternalExpanded] = useState(false);
+  const effectiveExpanded = isExpanded !== undefined ? isExpanded : internalExpanded;
+
+  const handleToggleExpand = () => {
+    if (onToggleExpanded) {
+      onToggleExpanded();
+    } else {
+      setInternalExpanded((prev) => !prev);
+    }
+  };
 
   // タイムスタンプ表示
   const timeFormatted = secondsToTimeString(currentSec);
@@ -57,10 +70,10 @@ export const TimeController: React.FC<TimeControllerProps> = ({
 
   return (
     <div
-      className={`absolute bottom-3 z-[1000] pointer-events-auto transition-all duration-300 ease-in-out ${
+      className={`absolute bottom-[calc(0.75rem+env(safe-area-inset-bottom,0px))] z-[1000] pointer-events-auto transition-all duration-300 ease-in-out ${
         isSidebarOpen
-          ? 'left-3 sm:left-[436px] right-3 sm:right-6 md:left-[calc(50%+210px)] md:-translate-x-1/2 md:w-[min(680px,calc(100vw-460px))]'
-          : 'left-3 right-3 md:left-1/2 md:-translate-x-1/2 md:w-[720px]'
+          ? 'left-[calc(0.75rem+env(safe-area-inset-left,0px))] right-[calc(0.75rem+env(safe-area-inset-right,0px))] sm:left-[calc(436px+env(safe-area-inset-left,0px))] sm:right-[calc(1.5rem+env(safe-area-inset-right,0px))] md:left-[calc(50%+210px)] md:-translate-x-1/2 md:w-[min(680px,calc(100vw-460px))]'
+          : 'left-[calc(0.75rem+env(safe-area-inset-left,0px))] right-[calc(0.75rem+env(safe-area-inset-right,0px))] md:left-1/2 md:-translate-x-1/2 md:w-[720px]'
       }`}
     >
       <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl border border-slate-200/90 overflow-hidden transition-all">
@@ -124,11 +137,11 @@ export const TimeController: React.FC<TimeControllerProps> = ({
 
             {/* 展開トグルボタン (シミュレーション設定) */}
             <button
-              onClick={() => setIsExpanded(!isExpanded)}
+              onClick={handleToggleExpand}
               className="p-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-600 transition-colors"
               title="ダイヤ・遅延シミュレーション設定"
             >
-              {isExpanded ? <ChevronDown className="w-4 h-4" /> : <Sliders className="w-4 h-4" />}
+              {effectiveExpanded ? <ChevronDown className="w-4 h-4" /> : <Sliders className="w-4 h-4" />}
             </button>
           </div>
         </div>
@@ -155,7 +168,7 @@ export const TimeController: React.FC<TimeControllerProps> = ({
         </div>
 
         {/* 展開時: ダイヤプリセット＆遅延シナリオ操作 */}
-        {isExpanded && (
+        {effectiveExpanded && (
           <div className="p-3 bg-slate-50 border-t border-slate-200/80 space-y-3 text-xs">
             {/* モバイル用倍速選択 */}
             <div className="flex items-center justify-between gap-2 flex-wrap sm:hidden">

@@ -22,6 +22,9 @@ interface TrainMapProps {
   isSidebarOpen?: boolean;
   onCloseSidebar?: () => void;
   selectedLineIds: LineId[];
+  filterDirection: 'all' | Direction;
+  filterType: 'all' | 'rapid' | 'local';
+  isTimeControllerExpanded?: boolean;
 }
 
 type TileType = 'standard' | 'satellite' | 'dark';
@@ -140,6 +143,9 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   isSidebarOpen = false,
   onCloseSidebar,
   selectedLineIds,
+  filterDirection,
+  filterType,
+  isTimeControllerExpanded = false,
 }) => {
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
@@ -159,8 +165,6 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   const isFirstTrackRef = useRef<boolean>(true);
 
   const [tileType, setTileType] = useState<TileType>('standard');
-  const [filterDirection, setFilterDirection] = useState<'all' | Direction>('all');
-  const [filterType, setFilterType] = useState<'all' | 'rapid' | 'local'>('all');
   const [showLayerMenu, setShowLayerMenu] = useState(false);
 
   // 地図タイルのURLマッピング
@@ -480,8 +484,14 @@ export const TrainMap: React.FC<TrainMapProps> = ({
     <div className="relative w-full h-full">
       <div ref={mapContainerRef} className="w-full h-full z-0" />
 
-      {/* 地図コントロール (右下配置) */}
-      <div className="absolute right-4 bottom-28 z-[1000] flex flex-col gap-2 pointer-events-auto">
+      {/* 地図コントロール (右下配置、モバイル時のTimeControllerとの被りを完全防止) */}
+      <div
+        className={`absolute right-[calc(0.75rem+env(safe-area-inset-right,0px))] sm:right-[calc(1rem+env(safe-area-inset-right,0px))] z-[1000] flex flex-col gap-2 pointer-events-auto transition-all duration-300 ease-in-out ${
+          isTimeControllerExpanded
+            ? 'bottom-[calc(19.5rem+env(safe-area-inset-bottom,0px))] md:bottom-[calc(1.5rem+env(safe-area-inset-bottom,0px))]'
+            : 'bottom-[calc(10.5rem+env(safe-area-inset-bottom,0px))] md:bottom-[calc(1.5rem+env(safe-area-inset-bottom,0px))]'
+        }`}
+      >
         {/* レイヤー切り替え */}
         <div className="relative">
           <button
@@ -561,53 +571,6 @@ export const TrainMap: React.FC<TrainMapProps> = ({
           title="表示路線全体を表示"
         >
           <Maximize2 className="w-5 h-5" />
-        </button>
-      </div>
-
-      {/* 列車フィルター (方向・種別) */}
-      <div className="absolute top-20 right-4 z-[1000] hidden sm:flex items-center gap-1.5 bg-white/90 backdrop-blur-md p-1 rounded-lg shadow-md border border-slate-200 text-xs">
-        <button
-          type="button"
-          onClick={() => setFilterDirection('all')}
-          className={`px-2 py-1 rounded transition-colors ${filterDirection === 'all' ? 'bg-sky-600 text-white font-bold' : 'text-slate-600 hover:bg-slate-100'}`}
-        >
-          全方向
-        </button>
-        <button
-          type="button"
-          onClick={() => setFilterDirection('inbound')}
-          className={`px-2 py-1 rounded transition-colors ${filterDirection === 'inbound' ? 'bg-sky-600 text-white font-bold' : 'text-slate-600 hover:bg-slate-100'}`}
-        >
-          上り
-        </button>
-        <button
-          type="button"
-          onClick={() => setFilterDirection('outbound')}
-          className={`px-2 py-1 rounded transition-colors ${filterDirection === 'outbound' ? 'bg-sky-600 text-white font-bold' : 'text-slate-600 hover:bg-slate-100'}`}
-        >
-          下り
-        </button>
-        <div className="w-[1px] h-4 bg-slate-200 my-auto mx-0.5"></div>
-        <button
-          type="button"
-          onClick={() => setFilterType('all')}
-          className={`px-2 py-1 rounded transition-colors ${filterType === 'all' ? 'bg-slate-800 text-white font-bold' : 'text-slate-600 hover:bg-slate-100'}`}
-        >
-          全種別
-        </button>
-        <button
-          type="button"
-          onClick={() => setFilterType('rapid')}
-          className={`px-2 py-1 rounded transition-colors ${filterType === 'rapid' ? 'bg-red-600 text-white font-bold' : 'text-slate-600 hover:bg-slate-100'}`}
-        >
-          優等
-        </button>
-        <button
-          type="button"
-          onClick={() => setFilterType('local')}
-          className={`px-2 py-1 rounded transition-colors ${filterType === 'local' ? 'bg-emerald-600 text-white font-bold' : 'text-slate-600 hover:bg-slate-100'}`}
-        >
-          普通/各停
         </button>
       </div>
     </div>
