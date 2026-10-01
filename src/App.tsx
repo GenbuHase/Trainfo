@@ -174,6 +174,14 @@ export function App() {
     setIsSidebarOpen(true);
   }, []);
 
+  // 詳細パネル閉塞ハンドラ（駅・列車へのフォーカスおよび追尾も解除）
+  const handleCloseSidebar = useCallback(() => {
+    setIsSidebarOpen(false);
+    setSelectedStation(null);
+    setSelectedTrainId(null);
+    setIsTrackingTrain(false);
+  }, []);
+
   // 実時間に同期
   const handleSyncRealTime = useCallback(() => {
     const realSec = getRealCurrentSeconds();
@@ -278,7 +286,7 @@ export function App() {
         onOpenHelp={() => setIsHelpOpen(true)}
         currentTimeString={secondsToTimeString(simState.currentSec)}
         isSidebarOpen={isSidebarOpen}
-        onCloseSidebar={() => setIsSidebarOpen(false)}
+        onCloseSidebar={handleCloseSidebar}
         selectedLineIds={selectedLineIds}
         onChangeSelectedLines={handleChangeSelectedLines}
       />
@@ -293,14 +301,14 @@ export function App() {
         isTrackingTrain={isTrackingTrain}
         trackingTrainId={selectedTrain?.tripId || null}
         isSidebarOpen={isSidebarOpen}
-        onCloseSidebar={() => setIsSidebarOpen(false)}
+        onCloseSidebar={handleCloseSidebar}
         selectedLineIds={selectedLineIds}
       />
 
       {/* Googleマップ風 サイドパネル */}
       <Sidebar
         isOpen={isSidebarOpen}
-        onClose={() => setIsSidebarOpen(false)}
+        onClose={handleCloseSidebar}
         selectedStation={selectedStation}
         selectedTrain={selectedTrain}
         currentSec={simState.currentSec}
