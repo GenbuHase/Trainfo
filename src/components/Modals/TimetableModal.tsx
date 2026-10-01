@@ -18,12 +18,12 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
   onClose,
   defaultIsHoliday,
 }) => {
-  if (!isOpen || !station) return null;
-
   const [direction, setDirection] = useState<Direction>(
-    station.number === 1 ? 'outbound' : 'inbound'
+    station?.number === 1 ? 'outbound' : 'inbound'
   );
   const [isHoliday, setIsHoliday] = useState<boolean>(defaultIsHoliday);
+
+  if (!isOpen || !station) return null;
 
   // 全日時刻表データの取得
   const fullDayData = getFullDayStationTimetable(station.id, isHoliday);

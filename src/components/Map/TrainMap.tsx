@@ -1,10 +1,10 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState, useMemo } from 'react';
 import L from 'leaflet';
-import type { Station, ActiveTrain, Direction } from '../../types';
-import { STATIONS, STATION_MAP } from '../../data/stations';
-import { ENTIRE_LINE_COORDINATES } from '../../data/trackGeometry';
+import type { Station, ActiveTrain, Direction, LineId } from '../../types';
+import { getStations, STATION_MAP } from '../../data/stations';
 import { TRAIN_TYPES } from '../../data/trainTypes';
 import { formatTrainNumber } from '../../data/timetableData';
+import { getLine, calculateBoundsForLines } from '../../data/linesRegistry';
 import {
   Layers,
   ZoomIn,
@@ -22,6 +22,7 @@ interface TrainMapProps {
   trackingTrainId: string | null;
   isSidebarOpen?: boolean;
   onCloseSidebar?: () => void;
+  selectedLineIds: LineId[];
 }
 
 type TileType = 'standard' | 'satellite' | 'dark';
@@ -36,6 +37,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   trackingTrainId,
   isSidebarOpen = false,
   onCloseSidebar,
+  selectedLineIds,
 }) => {
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
@@ -50,7 +52,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   const [showLayerMenu, setShowLayerMenu] = useState(false);
 
   // 地図タイルのURLマッピング
-  const tileUrls: Record<TileType, { url: string; attribution: string }> = {
+  const tileUrls = useMemo<Record<TileType, { url: string; attribution: string }>>(() => ({
     standard: {
       url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
@@ -63,18 +65,20 @@ export const TrainMap: React.FC<TrainMapProps> = ({
       url: 'https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png',
       attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
     },
-  };
+  }), []);
 
   // 地図の初期化
   useEffect(() => {
     if (!mapContainerRef.current || mapRef.current) return;
 
-    // 川越〜志木付近を中心とした初期表示
+    // 初期表示範囲（両路線が見渡せる範囲）
+    const initialBounds = calculateBoundsForLines(selectedLineIds);
+
     const map = L.map(mapContainerRef.current, {
-      center: [35.84, 139.56],
-      zoom: 11,
       zoomControl: false,
     });
+
+    map.fitBounds(initialBounds, { padding: [40, 40] });
 
     const tile = L.tileLayer(tileUrls.standard.url, {
       attribution: tileUrls.standard.attribution,
@@ -87,38 +91,10 @@ export const TrainMap: React.FC<TrainMapProps> = ({
     trainLayerRef.current = L.layerGroup().addTo(map);
     mapRef.current = map;
 
-    // 地図背景クリックでサイドバーを閉じる (Googleマップ風)
+    // 地図背景クリックでサイドバーを閉じる
     map.on('click', () => {
       onCloseSidebar?.();
     });
-
-    // 路線ポリラインの描画 (グロー効果 ＋ メイン線)
-    const glowLine = L.polyline(ENTIRE_LINE_COORDINATES, {
-      color: '#ffffff',
-      weight: 8,
-      opacity: 0.8,
-      lineCap: 'round',
-      lineJoin: 'round',
-    });
-
-    const mainLine = L.polyline(ENTIRE_LINE_COORDINATES, {
-      color: '#004b97', // 東武ブルー
-      weight: 5,
-      opacity: 0.95,
-      lineCap: 'round',
-      lineJoin: 'round',
-    });
-
-    const accentDashLine = L.polyline(ENTIRE_LINE_COORDINATES, {
-      color: '#ed6d00', // 東武東上線オレンジ
-      weight: 2,
-      dashArray: '6, 12',
-      opacity: 0.9,
-    });
-
-    polylineLayerRef.current.addLayer(glowLine);
-    polylineLayerRef.current.addLayer(mainLine);
-    polylineLayerRef.current.addLayer(accentDashLine);
 
     // リサイズハンドラ
     const resizeObserver = new ResizeObserver(() => {
@@ -133,6 +109,22 @@ export const TrainMap: React.FC<TrainMapProps> = ({
     };
   }, []);
 
+  // 選択路線変更時のカメラ自動フィット（動的バウンディングボックス）
+  const prevLineIdsRef = useRef<string>(selectedLineIds.slice().sort().join(','));
+  useEffect(() => {
+    if (!mapRef.current) return;
+    const currentKey = selectedLineIds.slice().sort().join(',');
+    if (currentKey !== prevLineIdsRef.current) {
+      prevLineIdsRef.current = currentKey;
+      const bounds = calculateBoundsForLines(selectedLineIds);
+      mapRef.current.flyToBounds(bounds, {
+        padding: [60, 60],
+        duration: 0.8,
+        easeLinearity: 0.25,
+      });
+    }
+  }, [selectedLineIds]);
+
   // サイドバー開閉時の地図サイズ追従
   useEffect(() => {
     if (!mapRef.current) return;
@@ -146,30 +138,94 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   useEffect(() => {
     if (!mapRef.current || !tileLayerRef.current) return;
     tileLayerRef.current.setUrl(tileUrls[tileType].url);
-  }, [tileType]);
+  }, [tileType, tileUrls]);
+
+  // 路線別ポリラインの動的描画
+  useEffect(() => {
+    if (!mapRef.current || !polylineLayerRef.current) return;
+    polylineLayerRef.current.clearLayers();
+
+    for (const lineId of selectedLineIds) {
+      const line = getLine(lineId);
+      if (!line) continue;
+
+      // 路線セグメントから全座標を抽出
+      const coords: [number, number][] = [];
+      line.trackSegments.forEach((seg, idx) => {
+        if (idx === 0) {
+          coords.push(...seg.coordinates);
+        } else {
+          coords.push(...seg.coordinates.slice(1));
+        }
+      });
+
+      if (coords.length === 0) continue;
+
+      // 1. 白グロー線
+      const glowLine = L.polyline(coords, {
+        color: '#ffffff',
+        weight: 8,
+        opacity: 0.8,
+        lineCap: 'round',
+        lineJoin: 'round',
+      });
+
+      // 2. メインライン
+      const mainLine = L.polyline(coords, {
+        color: line.lineColor,
+        weight: 5,
+        opacity: 0.95,
+        lineCap: 'round',
+        lineJoin: 'round',
+      });
+
+      // 3. アクセント点線
+      const accentDashLine = L.polyline(coords, {
+        color: line.accentColor || '#ffffff',
+        weight: 2,
+        dashArray: '6, 12',
+        opacity: 0.9,
+      });
+
+      polylineLayerRef.current.addLayer(glowLine);
+      polylineLayerRef.current.addLayer(mainLine);
+      polylineLayerRef.current.addLayer(accentDashLine);
+    }
+  }, [selectedLineIds]);
 
   // 駅マーカーの描画
   useEffect(() => {
     if (!mapRef.current || !stationLayerRef.current) return;
     stationLayerRef.current.clearLayers();
 
-    STATIONS.forEach((st) => {
+    const stations = getStations(selectedLineIds);
+
+    stations.forEach((st) => {
       const isSelected = selectedStation?.id === st.id;
-      const isMajor = [1, 10, 11, 13, 14, 18, 21, 22, 26, 30, 33, 39].includes(st.number);
+      const isMajor = [1, 10, 11, 13, 14, 18, 21, 22, 26, 30, 33, 39].includes(st.number) ||
+        ['JA-08', 'JA-10', 'JA-11', 'JA-12', 'JA-15', 'JA-21', 'JA-26', 'JA-31'].includes(st.id);
+
+      const line = getLine(st.lineId);
+      const stationColor = line?.lineColor || '#004b97';
+      const accentColor = line?.accentColor || '#ed6d00';
 
       const html = `
         <div class="relative group cursor-pointer flex flex-col items-center">
           <div class="w-4 h-4 rounded-full border-2 ${
             isSelected
-              ? 'bg-[#ed6d00] border-white ring-4 ring-[#ed6d00]/50 scale-125'
+              ? 'border-white ring-4 scale-125'
               : isMajor
-              ? 'bg-[#004b97] border-white shadow-md'
-              : 'bg-white border-[#004b97] shadow-xs'
-          } transition-all"></div>
+              ? 'border-white shadow-md'
+              : 'bg-white shadow-xs'
+          } transition-all" style="
+            background-color: ${isSelected ? accentColor : (isMajor ? stationColor : '#ffffff')};
+            border-color: ${isSelected ? '#ffffff' : (isMajor ? '#ffffff' : stationColor)};
+            box-shadow: ${isSelected ? `0 0 10px ${accentColor}` : 'none'};
+          "></div>
           <div class="absolute top-4 pointer-events-none whitespace-nowrap bg-white/95 backdrop-blur-xs px-1.5 py-0.5 rounded shadow-sm border border-slate-200 text-[11px] font-bold text-slate-800 transition-opacity ${
             isMajor || isSelected ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
           }">
-            <span class="text-[#ed6d00] font-mono text-[9px] mr-0.5">TJ${st.number < 10 ? '0' : ''}${st.number}</span>
+            <span class="font-mono text-[9px] mr-0.5" style="color: ${stationColor}">${st.id.replace('-', '')}</span>
             <span>${st.name}</span>
           </div>
         </div>
@@ -190,14 +246,14 @@ export const TrainMap: React.FC<TrainMapProps> = ({
 
       stationLayerRef.current?.addLayer(marker);
     });
-  }, [selectedStation, onSelectStation]);
+  }, [selectedStation, onSelectStation, selectedLineIds]);
 
   // 列車マーカーのリアルタイム描画 & 更新
   useEffect(() => {
     if (!mapRef.current || !trainLayerRef.current) return;
     trainLayerRef.current.clearLayers();
 
-    // フィルタリング
+    // フィルタリング（進行方向・種別）
     const filteredTrains = activeTrains.filter((train) => {
       if (filterDirection !== 'all' && train.direction !== filterDirection) return false;
       if (filterType === 'rapid' && (train.trainType === 'local' || train.trainType === 'semiExp')) {
@@ -211,10 +267,19 @@ export const TrainMap: React.FC<TrainMapProps> = ({
 
     filteredTrains.forEach((train) => {
       const isSelected = selectedTrain?.tripId === train.tripId;
-      const typeConfig = TRAIN_TYPES[train.trainType] || TRAIN_TYPES.local;
+      const typeConfig = TRAIN_TYPES[train.trainType] || TRAIN_TYPES.local || {
+        key: 'local',
+        name: '普通',
+        nameEn: 'Local',
+        shortName: '普',
+        color: '#1e1c1c',
+        textColor: '#ffffff',
+        bgColor: '#1e1c1c',
+        borderColor: '#4a4646',
+      };
       const destSt = STATION_MAP.get(train.destinationStationId);
 
-      // 矢印・電車の向きアイコン
+      // 矢印・電車の向き
       const rotationDeg = train.heading;
 
       const html = `
@@ -258,7 +323,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
             isSelected ? 'opacity-100 ring-1 ring-amber-400' : 'opacity-0 group-hover:opacity-100'
           }">
             <span style="color: ${typeConfig.color}">${typeConfig.shortName}</span>
-            <span>${train.customDestination || destSt?.name || '小川町'}</span>
+            <span>${train.customDestination || destSt?.name || '行先'}</span>
             <span class="text-slate-400 font-mono font-normal">${formatTrainNumber(train.trainNumber, train.tripId)}</span>
           </div>
         </div>
@@ -278,140 +343,149 @@ export const TrainMap: React.FC<TrainMapProps> = ({
 
       trainLayerRef.current?.addLayer(marker);
     });
+  }, [activeTrains, selectedTrain, onSelectTrain, filterDirection, filterType]);
 
-    // 列車自動追尾モード
-    if (isTrackingTrain && trackingTrainId) {
-      const tracked = activeTrains.find((t) => t.tripId === trackingTrainId);
-      if (tracked && mapRef.current) {
-        mapRef.current.panTo([tracked.currentLat, tracked.currentLng], { animate: true, duration: 0.6 });
-      }
+  // 列車追従モード
+  useEffect(() => {
+    if (!isTrackingTrain || !trackingTrainId || !mapRef.current) return;
+    const tracked = activeTrains.find((t) => t.tripId === trackingTrainId);
+    if (tracked) {
+      mapRef.current.panTo([tracked.currentLat, tracked.currentLng], { animate: true });
     }
-  }, [activeTrains, selectedTrain, isTrackingTrain, trackingTrainId, filterDirection, filterType, onSelectTrain]);
-
-  // 全線表示（フィットバウンズ）
-  const handleFitBounds = () => {
-    if (!mapRef.current) return;
-    const poly = L.polyline(ENTIRE_LINE_COORDINATES);
-    mapRef.current.fitBounds(poly.getBounds(), { padding: [50, 50] });
-  };
-
-  // 池袋駅へジャンプ
-  const handleJumpToIkebukuro = () => {
-    mapRef.current?.setView([35.7289, 139.7113], 14, { animate: true });
-  };
-
-  // 川越駅へジャンプ
-  const handleJumpToKawagoe = () => {
-    mapRef.current?.setView([35.9069, 139.4828], 14, { animate: true });
-  };
+  }, [isTrackingTrain, trackingTrainId, activeTrains]);
 
   return (
     <div className="relative w-full h-full">
-      {/* Leaflet 地図コンテナ */}
       <div ref={mapContainerRef} className="w-full h-full z-0" />
 
-      {/* 右上: フィルタ＆マップレイヤー切り替え */}
-      <div className="absolute top-3 right-3 z-[1000] flex flex-col items-end gap-2 pointer-events-none">
-        <div className="pointer-events-auto flex items-center gap-1.5 bg-white/95 backdrop-blur-md p-1 rounded-lg shadow-md border border-slate-200 text-xs">
-          {/* 運行方向フィルタ */}
+      {/* 地図コントロール (右下配置) */}
+      <div className="absolute right-4 bottom-28 z-[1000] flex flex-col gap-2 pointer-events-auto">
+        {/* レイヤー切り替え */}
+        <div className="relative">
           <button
-            onClick={() => setFilterDirection(filterDirection === 'all' ? 'inbound' : filterDirection === 'inbound' ? 'outbound' : 'all')}
-            className={`px-2.5 py-1.5 rounded-md font-semibold transition-all ${
-              filterDirection !== 'all' ? 'bg-[#004b97] text-white shadow-xs' : 'text-slate-700 hover:bg-slate-100'
-            }`}
-            title="進行方向で絞り込み"
+            type="button"
+            onClick={() => setShowLayerMenu(!showLayerMenu)}
+            className="p-2.5 bg-white/95 backdrop-blur-md rounded-lg shadow-md border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors"
+            title="マップレイヤー"
           >
-            {filterDirection === 'all' ? '全方向' : filterDirection === 'inbound' ? '上り (池袋方面)' : '下り (寄居方面)'}
+            <Layers className="w-5 h-5 text-slate-700" />
           </button>
 
-          {/* 種別フィルタ */}
-          <button
-            onClick={() => setFilterType(filterType === 'all' ? 'rapid' : filterType === 'rapid' ? 'local' : 'all')}
-            className={`px-2.5 py-1.5 rounded-md font-semibold transition-all ${
-              filterType !== 'all' ? 'bg-[#ed6d00] text-white shadow-xs' : 'text-slate-700 hover:bg-slate-100'
-            }`}
-            title="優等/普通で絞り込み"
-          >
-            {filterType === 'all' ? '全種別' : filterType === 'rapid' ? '急行系のみ' : '普通・準急のみ'}
-          </button>
-
-          {/* レイヤー切替ボタン */}
-          <div className="relative">
-            <button
-              onClick={() => setShowLayerMenu(!showLayerMenu)}
-              className="p-1.5 rounded-md text-slate-700 hover:bg-slate-100 transition-colors"
-              title="地図レイヤー切替"
-            >
-              <Layers className="w-4 h-4" />
-            </button>
-
-            {showLayerMenu && (
-              <div className="absolute right-0 top-full mt-1.5 bg-white rounded-lg shadow-xl border border-slate-200 py-1 w-32 z-50">
-                <button
-                  onClick={() => { setTileType('standard'); setShowLayerMenu(false); }}
-                  className={`w-full text-left px-3 py-1.5 text-xs font-semibold ${tileType === 'standard' ? 'text-[#004b97] bg-blue-50' : 'text-slate-700 hover:bg-slate-50'}`}
-                >
-                  標準地図
-                </button>
-                <button
-                  onClick={() => { setTileType('satellite'); setShowLayerMenu(false); }}
-                  className={`w-full text-left px-3 py-1.5 text-xs font-semibold ${tileType === 'satellite' ? 'text-[#004b97] bg-blue-50' : 'text-slate-700 hover:bg-slate-50'}`}
-                >
-                  衛星写真
-                </button>
-                <button
-                  onClick={() => { setTileType('dark'); setShowLayerMenu(false); }}
-                  className={`w-full text-left px-3 py-1.5 text-xs font-semibold ${tileType === 'dark' ? 'text-[#004b97] bg-blue-50' : 'text-slate-700 hover:bg-slate-50'}`}
-                >
-                  ダークモード
-                </button>
-              </div>
-            )}
-          </div>
+          {showLayerMenu && (
+            <div className="absolute right-12 bottom-0 w-36 bg-white rounded-lg shadow-xl border border-slate-200 py-1 text-xs">
+              <div className="px-3 py-1 font-bold text-slate-400 border-b border-slate-100">地図タイプ</div>
+              <button
+                type="button"
+                onClick={() => {
+                  setTileType('standard');
+                  setShowLayerMenu(false);
+                }}
+                className={`w-full px-3 py-1.5 text-left hover:bg-slate-50 ${tileType === 'standard' ? 'text-blue-600 font-bold' : 'text-slate-700'}`}
+              >
+                標準マップ
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setTileType('satellite');
+                  setShowLayerMenu(false);
+                }}
+                className={`w-full px-3 py-1.5 text-left hover:bg-slate-50 ${tileType === 'satellite' ? 'text-blue-600 font-bold' : 'text-slate-700'}`}
+              >
+                航空写真
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  setTileType('dark');
+                  setShowLayerMenu(false);
+                }}
+                className={`w-full px-3 py-1.5 text-left hover:bg-slate-50 ${tileType === 'dark' ? 'text-blue-600 font-bold' : 'text-slate-700'}`}
+              >
+                ダークマップ
+              </button>
+            </div>
+          )}
         </div>
 
-        {/* 主要駅クイックジャンプボタン */}
-        <div className="pointer-events-auto flex gap-1">
-          <button
-            onClick={handleJumpToIkebukuro}
-            className="px-2.5 py-1 bg-white/95 backdrop-blur-md rounded-md shadow-md border border-slate-200 text-xs font-bold text-slate-700 hover:bg-slate-50 transition-colors"
-          >
-            池袋
-          </button>
-          <button
-            onClick={handleJumpToKawagoe}
-            className="px-2.5 py-1 bg-white/95 backdrop-blur-md rounded-md shadow-md border border-slate-200 text-xs font-bold text-slate-700 hover:bg-slate-50 transition-colors"
-          >
-            川越
-          </button>
-        </div>
+        {/* ズームイン */}
+        <button
+          type="button"
+          onClick={() => mapRef.current?.zoomIn()}
+          className="p-2.5 bg-white/95 backdrop-blur-md rounded-lg shadow-md border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors"
+          title="拡大"
+        >
+          <ZoomIn className="w-5 h-5" />
+        </button>
+
+        {/* ズームアウト */}
+        <button
+          type="button"
+          onClick={() => mapRef.current?.zoomOut()}
+          className="p-2.5 bg-white/95 backdrop-blur-md rounded-lg shadow-md border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors"
+          title="縮小"
+        >
+          <ZoomOut className="w-5 h-5" />
+        </button>
+
+        {/* 全線表示にリセット */}
+        <button
+          type="button"
+          onClick={() => {
+            const bounds = calculateBoundsForLines(selectedLineIds);
+            mapRef.current?.flyToBounds(bounds, { padding: [50, 50] });
+          }}
+          className="p-2.5 bg-white/95 backdrop-blur-md rounded-lg shadow-md border border-slate-200 text-slate-700 hover:bg-slate-50 transition-colors"
+          title="表示路線全体を表示"
+        >
+          <Maximize2 className="w-5 h-5" />
+        </button>
       </div>
 
-      {/* 右下: Googleマップ風 ズーム＆フィットコントロール */}
-      <div className="absolute bottom-24 md:bottom-20 right-3 z-[1000] flex flex-col gap-1.5 pointer-events-none">
-        <div className="pointer-events-auto flex flex-col bg-white/95 backdrop-blur-md rounded-lg shadow-lg border border-slate-200 overflow-hidden">
-          <button
-            onClick={() => mapRef.current?.zoomIn()}
-            className="p-2.5 text-slate-700 hover:bg-slate-100 hover:text-slate-900 border-b border-slate-200 transition-colors"
-            title="拡大"
-          >
-            <ZoomIn className="w-4 h-4" />
-          </button>
-          <button
-            onClick={() => mapRef.current?.zoomOut()}
-            className="p-2.5 text-slate-700 hover:bg-slate-100 hover:text-slate-900 transition-colors"
-            title="縮小"
-          >
-            <ZoomOut className="w-4 h-4" />
-          </button>
-        </div>
-
+      {/* 列車フィルター (方向・種別) */}
+      <div className="absolute top-20 right-4 z-[1000] hidden sm:flex items-center gap-1.5 bg-white/90 backdrop-blur-md p-1 rounded-lg shadow-md border border-slate-200 text-xs">
         <button
-          onClick={handleFitBounds}
-          className="pointer-events-auto p-2.5 bg-white/95 backdrop-blur-md rounded-lg shadow-lg border border-slate-200 text-slate-700 hover:bg-slate-100 hover:text-slate-900 transition-colors"
-          title="東武東上線 全線を表示"
+          type="button"
+          onClick={() => setFilterDirection('all')}
+          className={`px-2 py-1 rounded transition-colors ${filterDirection === 'all' ? 'bg-sky-600 text-white font-bold' : 'text-slate-600 hover:bg-slate-100'}`}
         >
-          <Maximize2 className="w-4 h-4" />
+          全方向
+        </button>
+        <button
+          type="button"
+          onClick={() => setFilterDirection('inbound')}
+          className={`px-2 py-1 rounded transition-colors ${filterDirection === 'inbound' ? 'bg-sky-600 text-white font-bold' : 'text-slate-600 hover:bg-slate-100'}`}
+        >
+          上り
+        </button>
+        <button
+          type="button"
+          onClick={() => setFilterDirection('outbound')}
+          className={`px-2 py-1 rounded transition-colors ${filterDirection === 'outbound' ? 'bg-sky-600 text-white font-bold' : 'text-slate-600 hover:bg-slate-100'}`}
+        >
+          下り
+        </button>
+        <div className="w-[1px] h-4 bg-slate-200 my-auto mx-0.5"></div>
+        <button
+          type="button"
+          onClick={() => setFilterType('all')}
+          className={`px-2 py-1 rounded transition-colors ${filterType === 'all' ? 'bg-slate-800 text-white font-bold' : 'text-slate-600 hover:bg-slate-100'}`}
+        >
+          全種別
+        </button>
+        <button
+          type="button"
+          onClick={() => setFilterType('rapid')}
+          className={`px-2 py-1 rounded transition-colors ${filterType === 'rapid' ? 'bg-red-600 text-white font-bold' : 'text-slate-600 hover:bg-slate-100'}`}
+        >
+          優等
+        </button>
+        <button
+          type="button"
+          onClick={() => setFilterType('local')}
+          className={`px-2 py-1 rounded transition-colors ${filterType === 'local' ? 'bg-emerald-600 text-white font-bold' : 'text-slate-600 hover:bg-slate-100'}`}
+        >
+          普通/各停
         </button>
       </div>
     </div>
