@@ -145,6 +145,15 @@ export type StationTimetableStore = {
   };
 };
 
+export interface LineDirectionNames {
+  inbound: string;       // 例: '池袋方面', '新宿・大崎方面'
+  outbound: string;      // 例: '森林公園・小川町・寄居方面', '大宮・川越方面'
+  inboundFull: string;   // 例: '上り 池袋方面', '上り 新宿・大崎方面'
+  outboundFull: string;  // 例: '下り 森林公園・小川町・寄居方面', '下り 大宮・川越方面'
+  inboundShort: string;  // 例: '上り (池袋方面)', '上り (大崎方面)'
+  outboundShort: string; // 例: '下り (寄居方面)', '下り (川越方面)'
+}
+
 // 路線メタデータ
 export interface LineMeta {
   id: LineId;
@@ -154,6 +163,7 @@ export interface LineMeta {
   lineColor: string;        // ブランドメインカラー (例: '#001e62', '#00ac9a')
   accentColor: string;      // アクセントカラー
   defaultBounds: [[number, number], [number, number]]; // 路線全体が見渡せる初期領域 [[南緯, 西経], [北緯, 東経]]
+  directionNames: LineDirectionNames;
 }
 
 // 路線定義モジュール（プラグイン単位）

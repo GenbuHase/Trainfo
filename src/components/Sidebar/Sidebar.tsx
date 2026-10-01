@@ -78,6 +78,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             activeTrains={activeTrains}
             onSelectTrain={onSelectTrain}
             onOpenFullTimetable={onOpenFullTimetable}
+            onSelectStation={onSelectStation}
           />
         ) : (
           /* 駅・列車未選択時の路線サマリー */
@@ -94,21 +95,33 @@ export const Sidebar: React.FC<SidebarProps> = ({
               駅クイックアクセス ({currentStations.length}駅)
             </h3>
             <div className="space-y-1">
-              {currentStations.map((station) => (
-                <button
-                  key={station.id}
-                  type="button"
-                  onClick={() => onSelectStation(station)}
-                  className="w-full flex items-center justify-between p-2 rounded-lg hover:bg-slate-50 transition-colors text-left text-xs"
-                >
-                  <div className="flex items-center gap-2">
-                    <StationBadge id={station.id} size="sm" />
-                    <span className="font-semibold text-slate-800">{station.name}</span>
-                    <span className="text-[11px] text-slate-400">({station.nameKana})</span>
-                  </div>
-                  <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
-                </button>
-              ))}
+              {currentStations.map((station) => {
+                const line = getAllLines().find((l) => l.id === station.lineId);
+                return (
+                  <button
+                    key={station.id}
+                    type="button"
+                    onClick={() => onSelectStation(station)}
+                    className="w-full flex items-center justify-between p-2 rounded-lg hover:bg-slate-50 transition-colors text-left text-xs"
+                  >
+                    <div className="flex items-center gap-2">
+                      <StationBadge id={station.id} size="sm" />
+                      <div className="flex flex-col">
+                        <div className="flex items-center gap-1.5">
+                          <span className="font-semibold text-slate-800">{station.name}</span>
+                          <span className="text-[11px] text-slate-400">({station.nameKana})</span>
+                        </div>
+                        {activeLines.length > 1 && line && (
+                          <span className="text-[10px] text-slate-500 font-medium">
+                            {line.name}
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                    <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
+                  </button>
+                );
+              })}
             </div>
           </div>
         )}

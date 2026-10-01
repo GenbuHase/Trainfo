@@ -6,6 +6,7 @@ import { StationBadge, TrainTypeBadge } from '../Common/Badges';
 import type { TrainOperationStatus } from '../../services/odptApi';
 import { formatTrainNumber } from '../../data/timetableData';
 import { LineFilterDropdown } from './LineFilterDropdown';
+import { getLine } from '../../data/linesRegistry';
 
 interface HeaderProps {
   onSelectStation: (station: Station) => void;
@@ -143,57 +144,77 @@ export const Header: React.FC<HeaderProps> = ({
                   駅
                 </div>
               )}
-              {matchedStations.map((station) => (
-                <button
-                  key={station.id}
-                  type="button"
-                  onClick={() => {
-                    onSelectStation(station);
-                    setIsOpen(false);
-                    setQuery(station.name);
-                  }}
-                  className="w-full flex items-center justify-between px-3 py-2 text-left hover:bg-slate-50 transition-colors"
-                >
-                  <div className="flex items-center gap-2">
-                    <MapPin className="w-4 h-4 text-emerald-600 shrink-0" />
-                    <div>
-                      <span className="font-semibold text-sm text-slate-800">{station.name}</span>
-                      <span className="text-xs text-slate-400 ml-1.5">({station.nameKana})</span>
+              {matchedStations.map((station) => {
+                const line = getLine(station.lineId);
+                return (
+                  <button
+                    key={station.id}
+                    type="button"
+                    onClick={() => {
+                      onSelectStation(station);
+                      setIsOpen(false);
+                      setQuery(station.name);
+                    }}
+                    className="w-full flex items-center justify-between px-3 py-2 text-left hover:bg-slate-50 transition-colors"
+                  >
+                    <div className="flex items-center gap-2">
+                      <MapPin className="w-4 h-4 text-emerald-600 shrink-0" />
+                      <div>
+                        <div className="flex items-center gap-1.5">
+                          <span className="font-semibold text-sm text-slate-800">{station.name}</span>
+                          <span className="text-xs text-slate-400">({station.nameKana})</span>
+                        </div>
+                        {line && (
+                          <div className="text-[10px] text-slate-500 font-medium">
+                            {line.name}
+                          </div>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                  <StationBadge id={station.id} size="sm" />
-                </button>
-              ))}
+                    <StationBadge id={station.id} size="sm" />
+                  </button>
+                );
+              })}
 
               {matchedTrains.length > 0 && (
                 <div className="px-3 pt-2 pb-1 text-[11px] font-semibold text-slate-400 uppercase tracking-wider">
                   走行中の列車
                 </div>
               )}
-              {matchedTrains.map((train) => (
-                <button
-                  key={train.tripId}
-                  type="button"
-                  onClick={() => {
-                    onSelectTrain(train);
-                    setIsOpen(false);
-                  }}
-                  className="w-full flex items-center justify-between px-3 py-2 text-left hover:bg-slate-50 transition-colors"
-                >
-                  <div className="flex items-center gap-2">
-                    <Train className="w-4 h-4 text-sky-600 shrink-0" />
-                    <div>
-                      <span className="font-mono text-sm font-semibold text-slate-800">
-                        {formatTrainNumber(train.trainNumber, train.tripId)}
-                      </span>
-                      <span className="text-xs text-slate-500 ml-2">
-                        {train.customDestination ? `${train.customDestination}行` : (train.direction === 'inbound' ? '上り' : '下り')}
-                      </span>
+              {matchedTrains.map((train) => {
+                const line = getLine(train.lineId);
+                return (
+                  <button
+                    key={train.tripId}
+                    type="button"
+                    onClick={() => {
+                      onSelectTrain(train);
+                      setIsOpen(false);
+                    }}
+                    className="w-full flex items-center justify-between px-3 py-2 text-left hover:bg-slate-50 transition-colors"
+                  >
+                    <div className="flex items-center gap-2">
+                      <Train className="w-4 h-4 text-sky-600 shrink-0" />
+                      <div>
+                        <div className="flex items-center gap-2">
+                          <span className="font-mono text-sm font-semibold text-slate-800">
+                            {formatTrainNumber(train.trainNumber, train.tripId)}
+                          </span>
+                          <span className="text-xs text-slate-500">
+                            {train.customDestination ? `${train.customDestination}行` : (train.direction === 'inbound' ? '上り' : '下り')}
+                          </span>
+                        </div>
+                        {line && (
+                          <div className="text-[10px] text-slate-400">
+                            {line.shortName}
+                          </div>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                  <TrainTypeBadge type={train.trainType} size="sm" />
-                </button>
-              ))}
+                    <TrainTypeBadge type={train.trainType} size="sm" />
+                  </button>
+                );
+              })}
             </div>
           )}
         </div>

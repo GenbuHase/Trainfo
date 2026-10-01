@@ -222,10 +222,10 @@ export const TrainMap: React.FC<TrainMapProps> = ({
             border-color: ${isSelected ? '#ffffff' : (isMajor ? '#ffffff' : stationColor)};
             box-shadow: ${isSelected ? `0 0 10px ${accentColor}` : 'none'};
           "></div>
-          <div class="absolute top-4 pointer-events-none whitespace-nowrap bg-white/95 backdrop-blur-xs px-1.5 py-0.5 rounded shadow-sm border border-slate-200 text-[11px] font-bold text-slate-800 transition-opacity ${
+          <div class="absolute top-4 pointer-events-none whitespace-nowrap bg-white/95 backdrop-blur-xs px-1.5 py-0.5 rounded shadow-sm border border-slate-200 text-[11px] font-bold text-slate-800 transition-opacity flex items-center gap-1 ${
             isMajor || isSelected ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
           }">
-            <span class="font-mono text-[9px] mr-0.5" style="color: ${stationColor}">${st.id.replace('-', '')}</span>
+            <span class="font-mono text-[9px] px-1 py-0.2 rounded text-white font-semibold" style="background-color: ${stationColor}">${st.id.replace('-', '')}</span>
             <span>${st.name}</span>
           </div>
         </div>
@@ -238,7 +238,10 @@ export const TrainMap: React.FC<TrainMapProps> = ({
         iconAnchor: [10, 10],
       });
 
-      const marker = L.marker([st.lat, st.lng], { icon });
+      const marker = L.marker([st.lat, st.lng], {
+        icon,
+        zIndexOffset: isSelected ? 1000 : 0,
+      });
       marker.on('click', () => {
         onSelectStation(st);
         mapRef.current?.panTo([st.lat, st.lng], { animate: true });

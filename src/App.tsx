@@ -337,6 +337,10 @@ export function App() {
         isOpen={isTimetableOpen}
         onClose={() => setIsTimetableOpen(false)}
         defaultIsHoliday={simState.isHoliday}
+        onSwitchStation={(st) => {
+          setTimetableStation(st);
+          setSelectedStation(st);
+        }}
       />
 
       {/* 設定モーダル */}
