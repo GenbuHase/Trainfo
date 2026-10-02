@@ -56,14 +56,14 @@ export function getStationDepartures(
   function convertToTrips(deps: typeof stData.inbound, direction: Direction): TimetableTrip[] {
     const valid = deps.filter((d) => {
       let sec = d.sec;
-      if (d.h === 0 && currentTimeSec >= 20 * 3600) {
+      if ((d.h === 0 || d.h === 1) && d.sec < 86400 && currentTimeSec >= 20 * 3600) {
         sec += 86400;
       }
       return sec >= currentTimeSec - 180 && sec <= currentTimeSec + 7200;
     });
     valid.sort((a, b) => {
-      const secA = a.h === 0 && currentTimeSec >= 20 * 3600 ? a.sec + 86400 : a.sec;
-      const secB = b.h === 0 && currentTimeSec >= 20 * 3600 ? b.sec + 86400 : b.sec;
+      const secA = (a.h === 0 || a.h === 1) && a.sec < 86400 && currentTimeSec >= 20 * 3600 ? a.sec + 86400 : a.sec;
+      const secB = (b.h === 0 || b.h === 1) && b.sec < 86400 && currentTimeSec >= 20 * 3600 ? b.sec + 86400 : b.sec;
       return secA - secB;
     });
 
@@ -125,17 +125,17 @@ export function getFullDayStationTimetable(
   const stData = timetables[dayKey]?.[stationId] || { inbound: [], outbound: [] };
 
   const hourly: HourlyStationTimetable[] = [];
-  for (let h = 4; h <= 24; h++) {
+  for (let h = 4; h <= 25; h++) {
     hourly.push({
       hour: h,
-      displayHour: h === 24 ? '24' : String(h),
+      displayHour: String(h),
       inbound: [],
       outbound: [],
     });
   }
 
   for (const dep of stData.inbound) {
-    const targetHour = dep.h === 0 ? 24 : dep.h;
+    const targetHour = dep.h === 0 ? 24 : (dep.h === 1 ? 25 : dep.h);
     const target = hourly.find((item) => item.hour === targetHour);
     if (target) {
       target.inbound.push({
@@ -149,7 +149,7 @@ export function getFullDayStationTimetable(
   }
 
   for (const dep of stData.outbound) {
-    const targetHour = dep.h === 0 ? 24 : dep.h;
+    const targetHour = dep.h === 0 ? 24 : (dep.h === 1 ? 25 : dep.h);
     const target = hourly.find((item) => item.hour === targetHour);
     if (target) {
       target.outbound.push({
