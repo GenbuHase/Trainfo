@@ -175,17 +175,19 @@ export const TimeController: React.FC<TimeControllerProps> = ({
               <span className="font-bold text-slate-600 shrink-0">再生速度:</span>
               <div className="flex gap-1 flex-wrap">
                 {speeds.map((s) => (
-                  <button
-                    key={s}
-                    onClick={() => onChangeSpeed(s)}
-                    className={`px-2 py-0.5 rounded text-xs font-bold transition-all ${
-                      speedMultiplier === s
-                        ? 'bg-[#004b97] text-white shadow-xs'
-                        : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-100'
-                    }`}
-                  >
-                    {s}x
-                  </button>
+                  <React.Fragment key={s}>
+                    <button
+                      onClick={() => onChangeSpeed(s)}
+                      className={`px-2 py-0.5 rounded text-xs font-bold transition-all ${
+                        speedMultiplier === s
+                          ? 'bg-[#004b97] text-white shadow-xs'
+                          : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-100'
+                      }`}
+                    >
+                      {s}x
+                    </button>
+                    {s === 30 && <div className="basis-full h-0" />}
+                  </React.Fragment>
                 ))}
               </div>
             </div>
