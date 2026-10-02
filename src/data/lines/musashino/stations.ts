@@ -19,8 +19,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.666105,
-    "lng": 139.477104,
+    "lat": 35.666091,
+    "lng": 139.477026,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -45,8 +45,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.680767,
-    "lng": 139.471755,
+    "lat": 35.680753,
+    "lng": 139.471688,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -73,8 +73,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.699748,
-    "lng": 139.466083,
+    "lat": 35.700237,
+    "lng": 139.466003,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -102,8 +102,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.731206,
-    "lng": 139.470685,
+    "lat": 35.731214,
+    "lng": 139.470657,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -131,8 +131,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.778366,
-    "lng": 139.493789,
+    "lat": 35.778382,
+    "lng": 139.493752,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -158,8 +158,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.794933,
-    "lng": 139.514542,
+    "lat": 35.795024,
+    "lng": 139.514484,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -185,8 +185,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.803729,
-    "lng": 139.556195,
+    "lat": 35.803766,
+    "lng": 139.556185,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -214,8 +214,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.815319,
-    "lng": 139.586985,
+    "lat": 35.815358,
+    "lng": 139.586949,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -240,8 +240,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.844206,
-    "lng": 139.62792,
+    "lat": 35.844247,
+    "lng": 139.627881,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -269,8 +269,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.845969,
-    "lng": 139.647066,
+    "lat": 35.846225,
+    "lng": 139.647276,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -298,8 +298,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.847732,
-    "lng": 139.669144,
+    "lat": 35.847746,
+    "lng": 139.669128,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -325,8 +325,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.863968,
-    "lng": 139.704222,
+    "lat": 35.864001,
+    "lng": 139.704201,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -354,8 +354,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.875258,
-    "lng": 139.744315,
+    "lat": 35.875311,
+    "lng": 139.744293,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -383,8 +383,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.876053,
-    "lng": 139.790927,
+    "lat": 35.876068,
+    "lng": 139.790926,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -410,7 +410,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.876281,
+    "lat": 35.876295,
     "lng": 139.822273,
     "facilities": {
       "elevator": true,
@@ -437,8 +437,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.876578,
-    "lng": 139.843505,
+    "lat": 35.876632,
+    "lng": 139.84351,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -464,8 +464,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.868069,
-    "lng": 139.858071,
+    "lat": 35.868129,
+    "lng": 139.858148,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -491,8 +491,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.858832,
-    "lng": 139.869196,
+    "lat": 35.858844,
+    "lng": 139.869213,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -518,8 +518,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.84492,
-    "lng": 139.886723,
+    "lat": 35.844942,
+    "lng": 139.886728,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -547,8 +547,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.838511,
-    "lng": 139.903069,
+    "lat": 35.838791,
+    "lng": 139.903371,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -577,8 +577,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.82549,
-    "lng": 139.92118,
+    "lat": 35.825503,
+    "lng": 139.921192,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -606,8 +606,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.791951,
-    "lng": 139.938384,
+    "lat": 35.791955,
+    "lng": 139.938409,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -636,8 +636,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.769956,
-    "lng": 139.943105,
+    "lat": 35.770279,
+    "lng": 139.944018,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -663,8 +663,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.75539,
-    "lng": 139.951277,
+    "lat": 35.755406,
+    "lng": 139.951316,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -690,8 +690,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.730874,
-    "lng": 139.96657,
+    "lat": 35.730895,
+    "lng": 139.966657,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -722,8 +722,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.707262,
-    "lng": 139.959563,
+    "lat": 35.707171,
+    "lng": 139.95966,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -750,8 +750,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.666636,
-    "lng": 139.923649,
+    "lat": 35.66663,
+    "lng": 139.923669,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -776,8 +776,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.649534,
-    "lng": 139.912495,
+    "lat": 35.649524,
+    "lng": 139.912511,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -804,8 +804,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.636259,
-    "lng": 139.883606,
+    "lat": 35.636204,
+    "lng": 139.883567,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -830,8 +830,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.644408,
-    "lng": 139.861599,
+    "lat": 35.644355,
+    "lng": 139.861561,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -859,8 +859,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.646143,
-    "lng": 139.82731,
+    "lat": 35.646082,
+    "lng": 139.827417,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -885,8 +885,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.658924,
-    "lng": 139.817197,
+    "lat": 35.658898,
+    "lng": 139.817146,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -911,8 +911,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.667906,
-    "lng": 139.792609,
+    "lat": 35.667897,
+    "lng": 139.79259,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -939,8 +939,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.674624,
-    "lng": 139.777657,
+    "lat": 35.674587,
+    "lng": 139.77766,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -970,8 +970,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "local"
     ],
     "lineId": "musashino",
-    "lat": 35.681255,
-    "lng": 139.766706,
+    "lat": 35.677755,
+    "lng": 139.764631,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -999,8 +999,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.681976,
-    "lng": 139.995543,
+    "lat": 35.681993,
+    "lng": 139.995556,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1026,8 +1026,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.667353,
-    "lng": 140.012875,
+    "lat": 35.66742,
+    "lng": 140.01294,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1053,8 +1053,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.657878,
-    "lng": 140.027359,
+    "lat": 35.657931,
+    "lng": 140.027413,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1082,8 +1082,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.648427,
-    "lng": 140.041916,
+    "lat": 35.648514,
+    "lng": 140.042,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1113,8 +1113,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.906126,
-    "lng": 139.623148,
+    "lat": 35.905691,
+    "lng": 139.624673,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1141,8 +1141,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.699241,
-    "lng": 139.446531,
+    "lat": 35.699287,
+    "lng": 139.447963,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1171,8 +1171,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.697982,
-    "lng": 139.413551,
+    "lat": 35.698043,
+    "lng": 139.414181,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1197,8 +1197,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.679389,
-    "lng": 139.393846,
+    "lat": 35.679619,
+    "lng": 139.393917,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1223,8 +1223,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.659515,
-    "lng": 139.381485,
+    "lat": 35.65979,
+    "lng": 139.381949,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -1253,8 +1253,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "regular"
     ],
     "lineId": "musashino",
-    "lat": 35.655389,
-    "lng": 139.339467,
+    "lat": 35.655273,
+    "lng": 139.339921,
     "facilities": {
       "elevator": true,
       "restroom": true,
