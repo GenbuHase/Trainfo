@@ -1,11 +1,12 @@
 // Trainfo 共通型定義ファイル
 
 // 路線ID型（将来の路線追加に開かれた拡張型）
-export type LineId = 'tojo' | 'saikyo' | (string & {});
+export type LineId = 'tojo' | 'saikyo' | 'musashino' | (string & {});
 
 // 列車種別キー（東上線＋埼京線＋汎用）
 export type TrainTypeKey =
   | 'local'       // 普通 / 各駅停車
+  | 'regular'     // 普通（むさしの号・しもうさ号等）
   | 'semiExp'     // 準急
   | 'express'     // 急行
   | 'rapid'       // 快速（埼京線等）

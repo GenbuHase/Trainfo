@@ -267,20 +267,15 @@ export const TrainMap: React.FC<TrainMapProps> = ({
       const line = getLine(lineId);
       if (!line) continue;
 
-      // 路線セグメントから全座標を抽出
-      const coords: [number, number][] = [];
-      line.trackSegments.forEach((seg, idx) => {
-        if (idx === 0) {
-          coords.push(...seg.coordinates);
-        } else {
-          coords.push(...seg.coordinates.slice(1));
-        }
-      });
+      // 路線セグメントごとに座標配列を収集（分岐・支線に対応したマルチポリライン）
+      const segmentCoords = line.trackSegments
+        .map((seg) => seg.coordinates)
+        .filter((c) => c && c.length >= 2);
 
-      if (coords.length === 0) continue;
+      if (segmentCoords.length === 0) continue;
 
       // 1. 白グロー線
-      const glowLine = L.polyline(coords, {
+      const glowLine = L.polyline(segmentCoords, {
         color: '#ffffff',
         weight: 8,
         opacity: 0.8,
@@ -289,7 +284,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
       });
 
       // 2. メインライン
-      const mainLine = L.polyline(coords, {
+      const mainLine = L.polyline(segmentCoords, {
         color: line.lineColor,
         weight: 5,
         opacity: 0.95,
@@ -298,7 +293,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
       });
 
       // 3. アクセント点線
-      const accentDashLine = L.polyline(coords, {
+      const accentDashLine = L.polyline(segmentCoords, {
         color: line.accentColor || '#ffffff',
         weight: 2,
         dashArray: '6, 12',
@@ -321,7 +316,9 @@ export const TrainMap: React.FC<TrainMapProps> = ({
     stations.forEach((st) => {
       const isSelected = selectedStation?.id === st.id;
       const isMajor = [1, 10, 11, 13, 14, 18, 21, 22, 26, 30, 33, 39].includes(st.number) ||
-        ['JA-08', 'JA-10', 'JA-11', 'JA-12', 'JA-15', 'JA-21', 'JA-26', 'JA-31'].includes(st.id);
+        ['JA-08', 'JA-10', 'JA-11', 'JA-12', 'JA-15', 'JA-21', 'JA-26', 'JA-31',
+         'JM-35', 'JM-33', 'JM-28', 'JM-26', 'JM-25', 'JM-22', 'JM-15', 'JM-10',
+         'JE-01', 'JE-05', 'JE-11', 'JE-14', 'JC-19', 'JC-22'].includes(st.id);
 
       const line = getLine(st.lineId);
       const stationColor = line?.lineColor || '#004b97';
