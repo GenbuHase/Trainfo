@@ -39,7 +39,6 @@ module.exports = {
     'TJライナー': 'tjLiner',
     'ＴＪライナー': 'tjLiner',
     'ライナー': 'tjLiner',
-    '特急': 'rapidExp',
     '通勤急行': 'express',
     '通勤特急': 'rapidExp',
   },

@@ -37,6 +37,7 @@ class YahooTrainDetailScraper {
         trainId,
         dayKey,
         direction: trainRef.direction,
+        trainType: trainRef.trainType,
         displayName: tr.timetable.displayName,
         driveComment: tr.timetable.driveComment,
         stopStation: tr.timetable.stopStation || [],

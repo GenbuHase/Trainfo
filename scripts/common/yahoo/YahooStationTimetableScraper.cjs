@@ -53,9 +53,6 @@ class YahooStationTimetableScraper {
     if (/準急/i.test(trimmed)) {
       return this.config.trainTypeMap['準急'] || 'semiExp';
     }
-    if (/特急/i.test(trimmed)) {
-      return this.config.trainTypeMap['特急'] || 'rapidExp';
-    }
 
     return 'local';
   }

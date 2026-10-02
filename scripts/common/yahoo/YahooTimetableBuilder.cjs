@@ -89,9 +89,6 @@ class YahooTimetableBuilder {
     if (/準急/i.test(trimmed)) {
       return this.config.trainTypeMap['準急'] || 'semiExp';
     }
-    if (/特急/i.test(trimmed)) {
-      return this.config.trainTypeMap['特急'] || 'rapidExp';
-    }
 
     return 'local';
   }
@@ -232,7 +229,7 @@ class YahooTimetableBuilder {
         });
       }
 
-      const trainType = this.resolveTrainType(displayName);
+      const trainType = trainDetail.trainType || this.resolveTrainType(displayName);
       const originSt = firstStop.station;
       const destSt = lastStop.station;
 
@@ -358,7 +355,15 @@ class YahooTimetableBuilder {
       });
     }
 
-    const trainType = this.resolveTrainType(displayName);
+    // 種別の決定: 駅時刻表の trainType があれば優先、なければ displayName から解決
+    let trainType = trainDetail.trainType || this.resolveTrainType(displayName);
+
+    // 安全策: 自社線区間内で通過駅が1駅も存在しない（全駅停車）場合、自社線内では普通（local）として運行
+    // （他社線直通区間での種別「特急」「急行」の自社線各停区間への誤適用を防止）
+    const hasPassingStop = stops.some(s => s.isPassing);
+    if (!hasPassingStop && trainType !== 'local') {
+      trainType = 'local';
+    }
     const originSt = firstStop.station;
     const destSt = lastStop.station;
 
