@@ -40,6 +40,7 @@ class YahooTrainDetailScraper {
         trainType: trainRef.trainType,
         displayName: tr.timetable.displayName,
         driveComment: tr.timetable.driveComment,
+        guideComment: tr.timetable.guideComment,
         stopStation: tr.timetable.stopStation || [],
       };
     } catch (err) {

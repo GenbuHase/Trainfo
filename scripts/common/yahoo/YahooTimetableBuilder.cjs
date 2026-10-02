@@ -240,7 +240,10 @@ class YahooTimetableBuilder {
       const destSt = lastStop.station;
 
       const originalLastStop = stopStation[stopStation.length - 1];
-      const customDestination = originalLastStop.stationName !== destSt.name ? originalLastStop.stationName : undefined;
+      const resolvedLastStopSt = this.resolveStation(originalLastStop.stationName);
+      const isInternalDestination = resolvedLastStopSt && resolvedLastStopSt.id === destSt.id;
+      const customDestName = this.config.stationNameAliases?.[originalLastStop.stationName] || originalLastStop.stationName;
+      const customDestination = isInternalDestination ? undefined : customDestName;
 
       const firstDepTime = stops[0].departureTime.replace(/:/g, '').slice(0, 4);
       const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}`;
@@ -364,18 +367,39 @@ class YahooTimetableBuilder {
     // 種別の決定: 駅時刻表の trainType があれば優先、なければ displayName から解決
     let trainType = trainDetail.trainType || this.resolveTrainType(displayName);
 
-    // 安全策: 自社線区間内で通過駅が1駅も存在しない（全駅停車）場合、自社線内では普通（local）として運行
-    // （他社線直通区間での種別「特急」「急行」の自社線各停区間への誤適用を防止）
     const hasPassingStop = stops.some(s => s.isPassing);
+
+    // 安全策1: 自社線区間内で通過駅が1駅も存在しない（全駅停車）場合、自社線内では普通（local）として運行
+    // （他社線直通区間での種別「特急」「急行」の自社線各停区間への誤適用を防止）
     if (!hasPassingStop && trainType !== 'local') {
       trainType = 'local';
+    }
+
+    // 安全策2: 通過駅が存在するのに trainType が local の場合（直通列車で発車駅が各停扱いだった場合等）
+    // guideComment や displayName から自社線内の優等種別を解決
+    if (hasPassingStop && trainType === 'local') {
+      if (trainDetail.guideComment) {
+        const resolvedFromGuide = this.resolveTrainType(trainDetail.guideComment);
+        if (resolvedFromGuide && resolvedFromGuide !== 'local') {
+          trainType = resolvedFromGuide;
+        }
+      }
+      if (trainType === 'local' && displayName) {
+        const resolvedFromDisplay = this.resolveTrainType(displayName);
+        if (resolvedFromDisplay && resolvedFromDisplay !== 'local') {
+          trainType = resolvedFromDisplay;
+        }
+      }
     }
     const originSt = firstStop.station;
     const destSt = lastStop.station;
 
     // 行き先名
     const originalLastStop = stopStation[stopStation.length - 1];
-    const customDestination = originalLastStop.stationName !== destSt.name ? originalLastStop.stationName : undefined;
+    const resolvedLastStopSt = this.resolveStation(originalLastStop.stationName);
+    const isInternalDestination = resolvedLastStopSt && resolvedLastStopSt.id === destSt.id;
+    const customDestName = this.config.stationNameAliases?.[originalLastStop.stationName] || originalLastStop.stationName;
+    const customDestination = isInternalDestination ? undefined : customDestName;
 
     const firstDepTime = stops[0].departureTime.replace(/:/g, '').slice(0, 4);
     const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}`;

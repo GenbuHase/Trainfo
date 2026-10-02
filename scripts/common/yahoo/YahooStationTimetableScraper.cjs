@@ -192,8 +192,11 @@ class YahooStationTimetableScraper {
           store[day.key][st.id].outbound = res.departures;
           for (const ref of res.trainRefs) {
             const trainKey = `${ref.dayKey}_${ref.trainId}`;
-            if (!uniqueTrainMap.has(trainKey)) {
+            const existing = uniqueTrainMap.get(trainKey);
+            if (!existing) {
               uniqueTrainMap.set(trainKey, ref);
+            } else if (existing.trainType === 'local' && ref.trainType !== 'local') {
+              existing.trainType = ref.trainType;
             }
           }
         }
@@ -204,8 +207,11 @@ class YahooStationTimetableScraper {
           store[day.key][st.id].inbound = res.departures;
           for (const ref of res.trainRefs) {
             const trainKey = `${ref.dayKey}_${ref.trainId}`;
-            if (!uniqueTrainMap.has(trainKey)) {
+            const existing = uniqueTrainMap.get(trainKey);
+            if (!existing) {
               uniqueTrainMap.set(trainKey, ref);
+            } else if (existing.trainType === 'local' && ref.trainType !== 'local') {
+              existing.trainType = ref.trainType;
             }
           }
         }
