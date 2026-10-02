@@ -1093,8 +1093,8 @@ export const MUSASHINO_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JA-26",
-    "number": 26,
+    "id": "JU-07",
+    "number": 7,
     "name": "大宮",
     "nameKana": "おおみや",
     "nameEn": "Omiya",
@@ -1106,8 +1106,8 @@ export const MUSASHINO_STATIONS: Station[] = [
     ],
     "address": "埼玉県さいたま市大宮区錦町",
     "platforms": {
-      "inbound": "3・4番線",
-      "outbound": "3・4番線"
+      "inbound": "3・4・6・7番線",
+      "outbound": "3・4・6・7番線"
     },
     "stoppingTypes": [
       "regular"

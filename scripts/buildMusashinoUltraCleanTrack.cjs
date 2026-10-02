@@ -229,7 +229,7 @@ function getOldSeg(fromName, toName) {
   return oldGeometry.find(s => s.fromName === fromName && s.toName === toName);
 }
 
-// 1. 大宮 -> 武蔵浦和 (JA-26 -> JM-26)
+// 1. 大宮 -> 武蔵浦和 (JU-07 -> JM-26)
 const oldOmiyaMusashi = getOldSeg('大宮', '武蔵浦和');
 const omiyaCoord = oldOmiyaMusashi.coordinates[1];
 finalStationCoords['大宮'] = omiyaCoord;
@@ -238,21 +238,21 @@ const omiyaMusashiPts = [
   finalStationCoords['武蔵浦和']
 ];
 segments.push({
-  fromStationId: 'JA-26',
+  fromStationId: 'JU-07',
   toStationId: 'JM-26',
   fromName: '大宮',
   toName: '武蔵浦和',
   coordinates: omiyaMusashiPts.map(p => [Math.round(p[0] * 1000000) / 1000000, Math.round(p[1] * 1000000) / 1000000])
 });
 
-// 2. 大宮 -> 北朝霞 (JA-26 -> JM-28)
+// 2. 大宮 -> 北朝霞 (JU-07 -> JM-28)
 const oldOmiyaAsaka = getOldSeg('大宮', '北朝霞');
 const omiyaAsakaPts = [
   ...oldOmiyaAsaka.coordinates.slice(1, 188),
   finalStationCoords['北朝霞']
 ];
 segments.push({
-  fromStationId: 'JA-26',
+  fromStationId: 'JU-07',
   toStationId: 'JM-28',
   fromName: '大宮',
   toName: '北朝霞',

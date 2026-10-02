@@ -5455,7 +5455,7 @@ export const MUSASHINO_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JA-26",
+    "fromStationId": "JU-07",
     "toStationId": "JM-26",
     "fromName": "大宮",
     "toName": "武蔵浦和",
@@ -5963,7 +5963,7 @@ export const MUSASHINO_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JA-26",
+    "fromStationId": "JU-07",
     "toStationId": "JM-28",
     "fromName": "大宮",
     "toName": "北朝霞",
