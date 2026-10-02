@@ -2,12 +2,14 @@ import type { LineDefinition, LineId, Station, TrackSegment, TrainTypeConfig, Ti
 import { tojoLine } from './lines/tojo';
 import { saikyoLine } from './lines/saikyo';
 import { musashinoLine } from './lines/musashino';
+import { tsukubaExpressLine } from './lines/tsukuba_express';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tojo: tojoLine,
   saikyo: saikyoLine,
   musashino: musashinoLine,
+  tsukuba_express: tsukubaExpressLine,
 };
 
 // 登録されている全路線の配列を取得
@@ -63,10 +65,11 @@ export function getTrainTypeConfig(type: string, lineId?: LineId): TrainTypeConf
     const config = LINES_REGISTRY[lineId].trainTypes[type];
     if (config) return config;
   }
-  // lineIdが未指定の場合: 東上線設定を優先、なければ埼京線、武蔵野線設定
+  // lineIdが未指定の場合: 東上線設定を優先、なければ埼京線、武蔵野線、つくばエクスプレス設定
   if (tojoLine.trainTypes[type]) return tojoLine.trainTypes[type];
   if (saikyoLine.trainTypes[type]) return saikyoLine.trainTypes[type];
   if (musashinoLine.trainTypes[type]) return musashinoLine.trainTypes[type];
+  if (tsukubaExpressLine.trainTypes[type]) return tsukubaExpressLine.trainTypes[type];
   return {
     key: type,
     name: type,
