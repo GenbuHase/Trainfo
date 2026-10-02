@@ -27,7 +27,11 @@ class YahooTimetableBuilder {
       throw new Error(`Failed to parse stations from ${fullPath}`);
     }
 
-    this.stations = JSON.parse(match[1]);
+    try {
+      this.stations = JSON.parse(match[1]);
+    } catch {
+      this.stations = eval(match[1]);
+    }
     this.stById = new Map(this.stations.map(s => [s.id, s]));
     this.stByNum = new Map(this.stations.map(s => [s.number, s]));
     this.stByName = new Map(this.stations.map(s => [s.name, s]));
@@ -133,6 +137,60 @@ class YahooTimetableBuilder {
 
     const firstStop = lineStops[0];
     const lastStop = lineStops[lineStops.length - 1];
+
+    // directStops モード: 停車駅リストを直接 stops として使用（武蔵野線など通過駅のない分岐・直通系統用）
+    if (this.config.directStops) {
+      let direction = trainDetail.direction;
+      if (this.config.resolveDirection) {
+        direction = this.config.resolveDirection(firstStop.station, lastStop.station, trainDetail);
+      }
+      if (!direction) {
+        direction = 'outbound';
+      }
+
+      const stops = [];
+      for (let i = 0; i < lineStops.length; i++) {
+        const cur = lineStops[i];
+        let arr = cur.arrSec;
+        let dep = cur.depSec;
+
+        if (i === 0 && arr === null) arr = dep;
+        if (i === lineStops.length - 1 && dep === null) dep = arr;
+        if (arr === null && dep !== null) arr = dep;
+        if (dep === null && arr !== null) dep = arr;
+
+        stops.push({
+          stationId: cur.station.id,
+          arrivalTime: this.secondsToTimeString(arr),
+          departureTime: this.secondsToTimeString(dep),
+          isPassing: false,
+        });
+      }
+
+      const trainType = this.config.trainTypeMap[displayName] || 'local';
+      const originSt = firstStop.station;
+      const destSt = lastStop.station;
+
+      const originalLastStop = stopStation[stopStation.length - 1];
+      const customDestination = originalLastStop.stationName !== destSt.name ? originalLastStop.stationName : undefined;
+
+      const firstDepTime = stops[0].departureTime.replace(/:/g, '').slice(0, 4);
+      const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}`;
+
+      return {
+        tripId,
+        lineId: this.config.lineId,
+        trainNumber: trainId,
+        trainType,
+        direction,
+        originStationId: originSt.id,
+        destinationStationId: destSt.id,
+        customDestination,
+        cars: this.config.defaultCars || 8,
+        isHoliday,
+        stops,
+      };
+    }
 
     const startNum = firstStop.station.number;
     const endNum = lastStop.station.number;
@@ -290,6 +348,73 @@ class YahooTimetableBuilder {
     });
 
     return trips;
+  }
+
+  /**
+   * 全トリップから全駅の駅時刻表（stationTimetables）を集約・生成
+   * （武蔵野線など、直通先や他線区間を含む駅時刻表の完全網羅用）
+   * @param {Array<Object>} trips
+   * @returns {{ weekday: Object, holiday: Object }}
+   */
+  buildStationTimetablesFromTrips(trips) {
+    const store = {
+      weekday: {},
+      holiday: {},
+    };
+
+    // 全駅の初期化
+    for (const st of this.stations) {
+      store.weekday[st.id] = { inbound: [], outbound: [] };
+      store.holiday[st.id] = { inbound: [], outbound: [] };
+    }
+
+    for (const trip of trips) {
+      const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+      const dir = trip.direction; // 'outbound' または 'inbound'
+
+      for (let i = 0; i < trip.stops.length; i++) {
+        const stop = trip.stops[i];
+        // 終着駅は発車しないため除外
+        if (i === trip.stops.length - 1) continue;
+        if (stop.isPassing) continue;
+
+        const [h, m, s = 0] = stop.departureTime.split(':').map(Number);
+        const exactSec = h * 3600 + m * 60 + s;
+
+        // 行先名
+        const lastStop = trip.stops[trip.stops.length - 1];
+        const lastStObj = this.stById.get(lastStop.stationId);
+        const destName = trip.customDestination || lastStObj?.name || '';
+
+        const entry = {
+          h,
+          m,
+          time: String(m).padStart(2, '0'),
+          sec: exactSec,
+          t: trip.trainType,
+          d: destName,
+          no: trip.trainNumber,
+        };
+
+        if (store[dayKey][stop.stationId]) {
+          // 重複チェック（同一列車番号・同一発車時刻の重複防止）
+          const existing = store[dayKey][stop.stationId][dir];
+          if (!existing.some(e => e.no === entry.no && e.sec === entry.sec)) {
+            existing.push(entry);
+          }
+        }
+      }
+    }
+
+    // 各駅の発車時刻順にソート
+    for (const dayKey of ['weekday', 'holiday']) {
+      for (const stId of Object.keys(store[dayKey])) {
+        store[dayKey][stId].outbound.sort((a, b) => a.sec - b.sec);
+        store[dayKey][stId].inbound.sort((a, b) => a.sec - b.sec);
+      }
+    }
+
+    return store;
   }
 }
 

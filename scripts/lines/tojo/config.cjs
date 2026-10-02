@@ -1,4 +1,9 @@
-// 東武東上線 Yahoo! 路線情報スクレイパー設定（共通基盤対応）
+// 東武東上線 Yahoo! 路線情報スクレイパー設定
+const fs = require('fs');
+const path = require('path');
+
+const stations = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../cache/tojo_stations_final.json'), 'utf8'));
+
 module.exports = {
   lineId: 'tojo',
   name: '東武東上線',
@@ -7,23 +12,35 @@ module.exports = {
     stationTimetables: 'src/data/lines/tojo/stationTimetables.json',
     globalTimetable: 'src/data/lines/tojo/globalTimetable.json',
   },
-  // Yahoo! 路線グループ定義: 東武東上線（下り: 2791, 上り: 2790）
-  // 駅ごとの yahooStationId は必要に応じて解決・補完
-  stations: [
-    { id: 'TJ-01', name: '池袋', yahooStationId: '22513', inGroupId: null, outGroupId: '2791' },
-    { id: 'TJ-02', name: '北池袋', yahooStationId: '22628', inGroupId: '2790', outGroupId: '2791' },
-    { id: 'TJ-03', name: '下板橋', yahooStationId: '22721', inGroupId: '2790', outGroupId: '2791' },
-    // 他駅も同様にマッピング可能
-  ],
-  stationNameAliases: {},
+  stations: stations.map(s => ({
+    id: s.id,
+    name: s.name,
+    yahooStationId: s.yahooStationId,
+    inGroupId: s.inGroupId,
+    outGroupId: s.outGroupId,
+  })),
+  stationNameAliases: {
+    '霞ケ関(埼玉県)': '霞ヶ関',
+    '霞ヶ関(埼玉県)': '霞ヶ関',
+    '森林公園(埼玉県)': '森林公園',
+    '小川町(埼玉県)': '小川町',
+  },
   trainTypeMap: {
     '普通': 'local',
+    '各駅停車': 'local',
     '準急': 'semiExp',
     '急行': 'express',
     '快速急行': 'rapidExp',
     '川越特急': 'kawagoeExp',
+    'TJライナー': 'tjLiner',
     'ＴＪライナー': 'tjLiner',
   },
   defaultCars: 10,
-  baseSectionSeconds: {},
+  baseSectionSeconds: {
+    // 基準駅間秒数（標準2分〜3分）
+    1: 120, 2: 120, 3: 120, 4: 120, 5: 120, 6: 120, 7: 120, 8: 120, 9: 120, 10: 180,
+    11: 180, 12: 120, 13: 120, 14: 120, 15: 120, 16: 120, 17: 120, 18: 120, 19: 120, 20: 180,
+    21: 120, 22: 180, 23: 180, 24: 120, 25: 120, 26: 120, 27: 180, 28: 180, 29: 180, 30: 240,
+    31: 180, 32: 240, 33: 240, 34: 180, 35: 180, 36: 180, 37: 120, 38: 120,
+  },
 };

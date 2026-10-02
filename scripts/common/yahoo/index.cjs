@@ -81,6 +81,15 @@ async function runYahooPipeline(config, options = {}) {
     console.log(`  Saved global timetable to: ${config.outputPaths.globalTimetable}`);
   }
 
+  // トリップからの駅時刻表集約（武蔵野線など直通路線対応）
+  if (config.buildStationTimetablesFromTrips && config.outputPaths?.stationTimetables) {
+    console.log(`\n[Station Timetables] Re-aggregating station timetables from ${trips.length} trips...`);
+    const tripStationStore = builder.buildStationTimetablesFromTrips(trips);
+    const outPath = path.resolve(process.cwd(), config.outputPaths.stationTimetables);
+    fs.writeFileSync(outPath, JSON.stringify(tripStationStore, null, 2), 'utf8');
+    console.log(`  Saved aggregated station timetables to: ${config.outputPaths.stationTimetables}`);
+  }
+
   console.log(`\n============================================================`);
   console.log(`✨ Pipeline Completed Successfully for ${config.name}!`);
   console.log(`============================================================\n`);
