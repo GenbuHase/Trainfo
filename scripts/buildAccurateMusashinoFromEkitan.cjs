@@ -107,6 +107,85 @@ const SEQ_SHIMOUSA_GO = [
   'JE-13', 'JE-14'
 ];
 
+// 武蔵野線列車判定（本線・京葉線直通: E, むさしの・しもうさ: M）
+function isMusashinoTrain(trainNo) {
+  if (!trainNo) return false;
+  const suffix = trainNo.replace(/[0-9]/g, '');
+  return suffix === 'E' || suffix === 'M';
+}
+
+// 列車番号のパリティによる方向判定（奇数: 下り/outbound, 偶数: 上り/inbound）
+function isOddTrain(trainNo) {
+  const m = trainNo.match(/(\d+)/);
+  if (!m) return false;
+  return parseInt(m[1], 10) % 2 === 1;
+}
+
+// 既知発車時刻から停車駅リストを完全構築する関数
+function buildChainedStops(seq, knownSecMap) {
+  const seqIndices = [];
+  seq.forEach((stId, idx) => {
+    if (knownSecMap.has(stId)) {
+      seqIndices.push({ idx, stId, sec: knownSecMap.get(stId) });
+    }
+  });
+
+  if (seqIndices.length === 0) return null;
+
+  const lastKnownSeqIdx = seqIndices[seqIndices.length - 1].idx;
+  const endSeqIdx = seq.length - 1;
+
+  // 最後の既知駅から終着駅までの時刻を実所要時間で正確に前進加算
+  let curLastSec = seqIndices[seqIndices.length - 1].sec;
+  for (let i = lastKnownSeqIdx; i < endSeqIdx; i++) {
+    const fromId = seq[i];
+    const toId = seq[i + 1];
+    curLastSec += getDuration(fromId, toId);
+    knownSecMap.set(toId, curLastSec);
+  }
+
+  // 最初の既知駅より前があれば後退減算
+  let curFirstSec = seqIndices[0].sec;
+  for (let i = seqIndices[0].idx; i > 0; i--) {
+    const toId = seq[i];
+    const fromId = seq[i - 1];
+    curFirstSec -= getDuration(fromId, toId);
+    knownSecMap.set(fromId, curFirstSec);
+  }
+
+  const stops = [];
+  for (let i = 0; i < seq.length; i++) {
+    const stId = seq[i];
+    const isOrigin = i === 0;
+    const isDest = i === seq.length - 1;
+
+    let depSec;
+    if (knownSecMap.has(stId)) {
+      depSec = knownSecMap.get(stId);
+    } else {
+      let prevI = i - 1;
+      while (prevI >= 0 && !knownSecMap.has(seq[prevI])) prevI--;
+      let nextI = i + 1;
+      while (nextI < seq.length && !knownSecMap.has(seq[nextI])) nextI++;
+
+      const pSec = knownSecMap.get(seq[prevI]);
+      const nSec = knownSecMap.get(seq[nextI]);
+      depSec = Math.round(pSec + (nSec - pSec) * ((i - prevI) / (nextI - prevI)));
+    }
+
+    const arrSec = isOrigin ? depSec : (isDest ? depSec : depSec - 30);
+
+    stops.push({
+      stationId: stId,
+      arrivalTime: secToTime(arrSec),
+      departureTime: secToTime(depSec),
+      isPassing: false,
+    });
+  }
+
+  return stops;
+}
+
 // 1. 各駅時刻表の生成
 const stationTimetables = {
   weekday: {},
@@ -116,34 +195,44 @@ const stationTimetables = {
 ['weekday', 'holiday'].forEach(dayKey => {
   stations.forEach(s => {
     const rawSt = raw[dayKey][s.id] || { inbound: [], outbound: [] };
+    const allStTrains = [...rawSt.inbound, ...rawSt.outbound].filter(t => isMusashinoTrain(t.no));
+
+    // 各駅の発車標：奇数は下り（outbound）、偶数は上り（inbound）
+    const outList = allStTrains.filter(t => isOddTrain(t.no)).map(t => ({
+      h: t.h,
+      m: t.m,
+      time: t.time,
+      t: t.t,
+      d: t.d,
+      no: t.no,
+      sec: t.sec,
+    }));
+
+    const inList = allStTrains.filter(t => !isOddTrain(t.no)).map(t => ({
+      h: t.h,
+      m: t.m,
+      time: t.time,
+      t: t.t,
+      d: t.d,
+      no: t.no,
+      sec: t.sec,
+    }));
+
+    outList.sort((a, b) => a.sec - b.sec);
+    inList.sort((a, b) => a.sec - b.sec);
+
     stationTimetables[dayKey][s.id] = {
-      inbound: rawSt.inbound.map(t => ({
-        h: t.h,
-        m: t.m,
-        time: t.time,
-        t: t.t,
-        d: t.d,
-        no: t.no,
-        sec: t.sec,
-      })),
-      outbound: rawSt.outbound.map(t => ({
-        h: t.h,
-        m: t.m,
-        time: t.time,
-        t: t.t,
-        d: t.d,
-        no: t.no,
-        sec: t.sec,
-      })),
+      inbound: inList,
+      outbound: outList,
     };
   });
 
-  // 大宮駅（JA-26）の時刻表補完（北朝霞・武蔵浦和の直通実データから完全同期）
-  const omiyaDepInbound = [];  // 八王子行
-  const omiyaDepOutbound = []; // 海浜幕張/西船橋/新習志野行
+  // 大宮駅（JA-26）の時刻表補完（むさしの号・しもうさ号実データから同期）
+  const omiyaDepInbound = [];  // 八王子行（むさしの号上り：偶数）
+  const omiyaDepOutbound = []; // 海浜幕張/西船橋/新習志野行（しもうさ号下り：奇数）
 
   const kitaAsakaIn = raw[dayKey]['JM-28']?.inbound || [];
-  kitaAsakaIn.filter(t => t.d.includes('八王子') || t.rawType.includes('むさしの')).forEach(t => {
+  kitaAsakaIn.filter(t => isMusashinoTrain(t.no) && (t.d.includes('八王子') || t.rawType?.includes('むさしの'))).forEach(t => {
     const omiyaDepSec = t.sec - 780;
     const h = Math.floor(omiyaDepSec / 3600);
     const m = Math.floor((omiyaDepSec % 3600) / 60);
@@ -159,7 +248,7 @@ const stationTimetables = {
   });
 
   const muOut = raw[dayKey]['JM-26']?.outbound || [];
-  muOut.filter(t => t.d.includes('海浜幕張') || t.d.includes('西船橋') || t.d.includes('新習志野') || t.rawType.includes('しもうさ')).forEach(t => {
+  muOut.filter(t => isMusashinoTrain(t.no) && (t.d.includes('海浜幕張') || t.d.includes('西船橋') || t.d.includes('新習志野') || t.rawType?.includes('しもうさ'))).forEach(t => {
     const omiyaDepSec = t.sec - 600;
     const h = Math.floor(omiyaDepSec / 3600);
     const m = Math.floor((omiyaDepSec % 3600) / 60);
@@ -186,155 +275,55 @@ const stationTimetables = {
 // 2. 実データチェーン結合による全体ダイヤ（globalTimetable.json）構築
 const allTrips = [];
 
-// 既知発車時刻から停車駅リストを完全構築する関数
-function buildChainedStops(seq, knownSecMap) {
-  const stops = [];
-  const seqIndices = [];
-
-  // seq内の既知インデックスを収集
-  seq.forEach((stId, idx) => {
-    if (knownSecMap.has(stId)) {
-      seqIndices.push({ idx, stId, sec: knownSecMap.get(stId) });
-    }
-  });
-
-  if (seqIndices.length === 0) return null;
-
-  const startSeqIdx = seqIndices[0].idx;
-  const lastKnownSeqIdx = seqIndices[seqIndices.length - 1].idx;
-  const endSeqIdx = seq.length - 1; // 終着駅
-
-  // 最後の既知駅から終着駅までの時刻を実所要時間で正確に前進加算
-  let curLastSec = seqIndices[seqIndices.length - 1].sec;
-  for (let i = lastKnownSeqIdx; i < endSeqIdx; i++) {
-    const fromId = seq[i];
-    const toId = seq[i + 1];
-    curLastSec += getDuration(fromId, toId);
-    knownSecMap.set(toId, curLastSec);
-  }
-
-  // 最初の既知駅より前があれば後退減算
-  let curFirstSec = seqIndices[0].sec;
-  for (let i = startSeqIdx; i > 0; i--) {
-    const toId = seq[i];
-    const fromId = seq[i - 1];
-    curFirstSec -= getDuration(fromId, toId);
-    knownSecMap.set(fromId, curFirstSec);
-  }
-
-  const actualStartIdx = 0;
-  const actualEndIdx = seq.length - 1;
-
-  for (let i = actualStartIdx; i <= actualEndIdx; i++) {
-    const stId = seq[i];
-    const isOrigin = i === actualStartIdx;
-    const isDest = i === actualEndIdx;
-
-    let depSec;
-    if (knownSecMap.has(stId)) {
-      depSec = knownSecMap.get(stId);
-    } else {
-      // 途中で抜けている場合は前後の既知駅から線形補間
-      let prevI = i - 1;
-      while (prevI >= actualStartIdx && !knownSecMap.has(seq[prevI])) prevI--;
-      let nextI = i + 1;
-      while (nextI <= actualEndIdx && !knownSecMap.has(seq[nextI])) nextI++;
-
-      const pSec = knownSecMap.get(seq[prevI]);
-      const nSec = knownSecMap.get(seq[nextI]);
-      depSec = Math.round(pSec + (nSec - pSec) * ((i - prevI) / (nextI - prevI)));
-    }
-
-    const arrSec = isOrigin ? depSec : (isDest ? depSec : depSec - 30);
-
-    stops.push({
-      stationId: stId,
-      arrivalTime: secToTime(arrSec),
-      departureTime: secToTime(depSec),
-      isPassing: false,
-    });
-  }
-
-  return stops;
-}
-
 ['weekday', 'holiday'].forEach(dayKey => {
   const isHoliday = dayKey === 'holiday';
   const prefix = isHoliday ? 'HD' : 'WD';
   const dayData = raw[dayKey];
 
-  // ==========================================
-  // A. 下り列車 (outbound: 府中本町方面 -> 西船橋・東京・海浜幕張)
-  // ==========================================
-  const outboundTrainMap = new Map(); // trainNo -> { trainNo, type, dest, stops: Map<stId, sec> }
+  const outboundTrainMap = new Map();
+  const inboundTrainMap = new Map();
 
-  // 全駅の下り発車データから列車番号ごとに集約
   stations.forEach(st => {
-    const list = dayData[st.id]?.outbound || [];
-    list.forEach(t => {
-      if (!outboundTrainMap.has(t.no)) {
-        outboundTrainMap.set(t.no, {
+    const allStTrains = [...(dayData[st.id]?.inbound || []), ...(dayData[st.id]?.outbound || [])];
+    allStTrains.filter(t => isMusashinoTrain(t.no)).forEach(t => {
+      const isOdd = isOddTrain(t.no);
+      const map = isOdd ? outboundTrainMap : inboundTrainMap;
+
+      if (!map.has(t.no)) {
+        map.set(t.no, {
           trainNo: t.no,
           type: t.t,
           dest: t.d,
           stops: new Map(),
         });
       }
-      outboundTrainMap.get(t.no).stops.set(st.id, t.sec);
+      map.get(t.no).stops.set(st.id, t.sec);
     });
   });
 
+  // ==========================================
+  // A. 下り列車 (outbound: 府中本町方面 -> 西船橋・東京・海浜幕張)
+  // ==========================================
   for (const [trainNo, info] of outboundTrainMap.entries()) {
-    // むさしの号 / しもうさ号の判定
-    if (info.type === 'regular' || info.dest.includes('大宮') || trainNo.includes('M')) {
-      if (info.dest.includes('大宮')) {
-        // むさしの号（八王子 -> 大宮）
-        const stops = buildChainedStops(SEQ_MUSASHINO_GO, new Map(info.stops));
-        if (stops) {
-          allTrips.push({
-            tripId: `${prefix}_OUT_MUSASHINO_${trainNo}`,
-            lineId: 'musashino',
-            trainNumber: trainNo,
-            trainType: 'regular',
-            direction: 'outbound',
-            originStationId: 'JC-22',
-            destinationStationId: 'JA-26',
-            customDestination: '大宮',
-            cars: 8,
-            isHoliday,
-            stops,
-          });
-        }
-        continue;
-      } else if (info.stops.has('JA-26') || trainNo.startsWith('27') || trainNo.startsWith('20') || trainNo.startsWith('903') || trainNo.startsWith('1803')) {
-        // しもうさ号（大宮 -> 海浜幕張/西船橋/新習志野）
-        let seq = [...SEQ_SHIMOUSA_GO];
-        let destId = 'JE-14';
-        if (info.dest.includes('西船橋')) {
-          seq = seq.slice(0, seq.indexOf('JM-10') + 1);
-          destId = 'JM-10';
-        } else if (info.dest.includes('新習志野')) {
-          seq = seq.slice(0, seq.indexOf('JE-12') + 1);
-          destId = 'JE-12';
-        }
-        const stops = buildChainedStops(seq, new Map(info.stops));
-        if (stops) {
-          allTrips.push({
-            tripId: `${prefix}_OUT_SHIMOUSA_${trainNo}`,
-            lineId: 'musashino',
-            trainNumber: trainNo,
-            trainType: 'regular',
-            direction: 'outbound',
-            originStationId: 'JA-26',
-            destinationStationId: destId,
-            customDestination: info.dest,
-            cars: 8,
-            isHoliday,
-            stops,
-          });
-        }
-        continue;
+    // むさしの号（八王子 -> 大宮）
+    if (info.dest.includes('大宮') || trainNo.includes('M')) {
+      const stops = buildChainedStops(SEQ_MUSASHINO_GO, new Map(info.stops));
+      if (stops) {
+        allTrips.push({
+          tripId: `${prefix}_OUT_MUSASHINO_${trainNo}`,
+          lineId: 'musashino',
+          trainNumber: trainNo,
+          trainType: 'regular',
+          direction: 'outbound',
+          originStationId: 'JC-22',
+          destinationStationId: 'JA-26',
+          customDestination: '大宮',
+          cars: 8,
+          isHoliday,
+          stops,
+        });
       }
+      continue;
     }
 
     // 通常の武蔵野線下り列車
@@ -353,9 +342,17 @@ function buildChainedStops(seq, knownSecMap) {
     } else if (info.dest.includes('新習志野')) {
       seq = [...SEQ_MAINLINE, 'JE-11', 'JE-12'];
       destId = 'JE-12';
+    } else if (info.dest.includes('東所沢')) {
+      const idx = seq.indexOf('JM-30');
+      if (idx !== -1) seq = seq.slice(0, idx + 1);
+      destId = 'JM-30';
+    } else if (info.dest.includes('南越谷')) {
+      const idx = seq.indexOf('JM-22');
+      if (idx !== -1) seq = seq.slice(0, idx + 1);
+      destId = 'JM-22';
     }
 
-    // 始発駅が府中本町以外（東所沢発など）の場合の調整
+    // 始発駅が府中本町以外（東所沢発、西船橋発など）の場合の調整
     const knownStIds = Array.from(info.stops.keys());
     if (knownStIds.length > 0) {
       const firstKnown = knownStIds.find(id => seq.includes(id));
@@ -386,71 +383,55 @@ function buildChainedStops(seq, knownSecMap) {
   // ==========================================
   // B. 上り列車 (inbound: 西船橋・東京・海浜幕張・大宮 -> 府中本町・八王子)
   // ==========================================
-  const inboundTrainMap = new Map();
-
-  stations.forEach(st => {
-    const list = dayData[st.id]?.inbound || [];
-    list.forEach(t => {
-      if (!inboundTrainMap.has(t.no)) {
-        inboundTrainMap.set(t.no, {
-          trainNo: t.no,
-          type: t.t,
-          dest: t.d,
-          stops: new Map(),
+  for (const [trainNo, info] of inboundTrainMap.entries()) {
+    if (info.dest.includes('八王子')) {
+      // むさしの号（大宮 -> 八王子）
+      const seq = [...SEQ_MUSASHINO_GO].reverse();
+      if (!info.stops.has('JA-26') && info.stops.has('JM-28')) {
+        info.stops.set('JA-26', info.stops.get('JM-28') - 780);
+      }
+      const stops = buildChainedStops(seq, new Map(info.stops));
+      if (stops) {
+        allTrips.push({
+          tripId: `${prefix}_IN_MUSASHINO_${trainNo}`,
+          lineId: 'musashino',
+          trainNumber: trainNo,
+          trainType: 'regular',
+          direction: 'inbound',
+          originStationId: 'JA-26',
+          destinationStationId: 'JC-22',
+          customDestination: '八王子',
+          cars: 8,
+          isHoliday,
+          stops,
         });
       }
-      inboundTrainMap.get(t.no).stops.set(st.id, t.sec);
-    });
-  });
-
-  for (const [trainNo, info] of inboundTrainMap.entries()) {
-    // むさしの号 / しもうさ号の判定
-    if (info.type === 'regular' || info.dest.includes('八王子') || (info.dest.includes('大宮') && !info.stops.has('JM-35'))) {
-      if (info.dest.includes('八王子')) {
-        // むさしの号（大宮 -> 八王子）
-        const seq = [...SEQ_MUSASHINO_GO].reverse();
-        // 大宮の発車時刻補完
-        if (!info.stops.has('JA-26') && info.stops.has('JM-28')) {
-          info.stops.set('JA-26', info.stops.get('JM-28') - 780);
-        }
-        const stops = buildChainedStops(seq, new Map(info.stops));
-        if (stops) {
-          allTrips.push({
-            tripId: `${prefix}_IN_MUSASHINO_${trainNo}`,
-            lineId: 'musashino',
-            trainNumber: trainNo,
-            trainType: 'regular',
-            direction: 'inbound',
-            originStationId: 'JA-26',
-            destinationStationId: 'JC-22',
-            customDestination: '八王子',
-            cars: 8,
-            isHoliday,
-            stops,
-          });
-        }
-        continue;
-      } else if (info.dest.includes('大宮')) {
-        // しもうさ号（海浜幕張/西船橋 -> 大宮）
-        const seq = [...SEQ_SHIMOUSA_GO].reverse();
-        const stops = buildChainedStops(seq, new Map(info.stops));
-        if (stops) {
-          allTrips.push({
-            tripId: `${prefix}_IN_SHIMOUSA_${trainNo}`,
-            lineId: 'musashino',
-            trainNumber: trainNo,
-            trainType: 'regular',
-            direction: 'inbound',
-            originStationId: seq[0],
-            destinationStationId: 'JA-26',
-            customDestination: '大宮',
-            cars: 8,
-            isHoliday,
-            stops,
-          });
-        }
-        continue;
+      continue;
+    } else if (info.dest.includes('大宮')) {
+      // しもうさ号（海浜幕張/西船橋 -> 大宮）
+      let seq = [...SEQ_SHIMOUSA_GO].reverse();
+      const knownStIds = Array.from(info.stops.keys());
+      const firstKnown = knownStIds.find(id => seq.includes(id));
+      if (firstKnown && firstKnown !== seq[0]) {
+        seq = seq.slice(seq.indexOf(firstKnown));
       }
+      const stops = buildChainedStops(seq, new Map(info.stops));
+      if (stops) {
+        allTrips.push({
+          tripId: `${prefix}_IN_SHIMOUSA_${trainNo}`,
+          lineId: 'musashino',
+          trainNumber: trainNo,
+          trainType: 'regular',
+          direction: 'inbound',
+          originStationId: seq[0],
+          destinationStationId: 'JA-26',
+          customDestination: '大宮',
+          cars: 8,
+          isHoliday,
+          stops,
+        });
+      }
+      continue;
     }
 
     // 通常の上り列車
@@ -458,24 +439,44 @@ function buildChainedStops(seq, knownSecMap) {
     let originId = 'JM-10';
     let destId = 'JM-35';
 
-    // 始発駅の判定（東京発、海浜幕張発、南船橋発、西船橋発）
+    // 始発駅の判定（東京発、海浜幕張発、新習志野発、南船橋発、西船橋発）
     if (info.stops.has('JE-01') || (info.stops.has('JE-02') && !info.stops.has('JE-11'))) {
       seq = [...SEQ_TOKYO].reverse().concat([...SEQ_MAINLINE].reverse());
       originId = 'JE-01';
     } else if (info.stops.has('JE-14')) {
       seq = [...SEQ_MAKUHARI].reverse().concat([...SEQ_MAINLINE].reverse());
       originId = 'JE-14';
+    } else if (info.stops.has('JE-13')) {
+      const idx = SEQ_MAKUHARI.indexOf('JE-13');
+      seq = SEQ_MAKUHARI.slice(0, idx + 1).reverse().concat([...SEQ_MAINLINE].reverse());
+      originId = 'JE-13';
+    } else if (info.stops.has('JE-12')) {
+      const idx = SEQ_MAKUHARI.indexOf('JE-12');
+      seq = SEQ_MAKUHARI.slice(0, idx + 1).reverse().concat([...SEQ_MAINLINE].reverse());
+      originId = 'JE-12';
     } else if (info.stops.has('JE-11')) {
       seq = ['JE-11'].concat([...SEQ_MAINLINE].reverse());
       originId = 'JE-11';
     }
 
-    // 行先が東所沢の場合の調整
+    // 終着駅調整（東所沢行き、西船橋行き、吉川美南行きなど）
     if (info.dest.includes('東所沢')) {
       const idx = seq.indexOf('JM-30');
       if (idx !== -1) {
         seq = seq.slice(0, idx + 1);
         destId = 'JM-30';
+      }
+    } else if (info.dest.includes('西船橋')) {
+      const idx = seq.indexOf('JM-10');
+      if (idx !== -1) {
+        seq = seq.slice(0, idx + 1);
+        destId = 'JM-10';
+      }
+    } else if (info.dest.includes('吉川美南')) {
+      const idx = seq.indexOf('JM-19');
+      if (idx !== -1) {
+        seq = seq.slice(0, idx + 1);
+        destId = 'JM-19';
       }
     }
 
