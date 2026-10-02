@@ -1,4 +1,4 @@
-// つくばエクスプレス（TX）の駅探スクレイピングデータから globalTimetable.json を生成
+// つくばエクスプレス（TX）の駅探スクレイピングデータから globalTimetable.json を高精度生成
 const fs = require('fs');
 const path = require('path');
 
@@ -31,8 +31,16 @@ const ST_BY_ID = new Map(STATIONS.map(s => [s.id, s]));
 const ST_BY_NUM = new Map(STATIONS.map(s => [s.number, s]));
 const NAME_TO_ST = new Map(STATIONS.map(s => [s.name, s]));
 
-// 駅間標準秒数（普通列車ベース）
-const SECTION_SECS = {
+// 公式停車駅ルール
+const TX_STOPPING_RULES = {
+  local: new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]),
+  semi_rapid: new Set([1, 2, 3, 4, 5, 8, 9, 10, 12, 13, 15, 16, 17, 18, 19, 20]),
+  commuter_rapid: new Set([1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 15, 19, 20]),
+  rapid: new Set([1, 2, 3, 4, 5, 8, 10, 12, 15, 20]),
+};
+
+// 普通列車の駅間標準秒数
+const LOCAL_SECTION_SECS = {
   1: 120, // 秋葉原 -> 新御徒町
   2: 120, // 新御徒町 -> 浅草
   3: 180, // 浅草 -> 南千住
@@ -76,6 +84,22 @@ function getTerminalStation(dest, direction) {
   return NAME_TO_ST.get(dest);
 }
 
+// 快速・通快などの守谷〜つくば間所要時間（秒）
+function getSectionDuration(fromNum, toNum, trainType) {
+  if (fromNum === 15 && toNum === 20) {
+    if (trainType === 'rapid') return 780; // 快速: 13分
+    if (trainType === 'commuter_rapid') return 840; // 通勤快速: 14分
+    return 1020; // 普通・区快: 17分
+  }
+  let total = 0;
+  const step = fromNum < toNum ? 1 : -1;
+  for (let n = fromNum; n !== toNum; n += step) {
+    const key = step > 0 ? n : n - 1;
+    total += LOCAL_SECTION_SECS[key] || 180;
+  }
+  return total;
+}
+
 const allTrips = [];
 
 for (const dayKey of ['weekday', 'holiday']) {
@@ -90,7 +114,6 @@ for (const dayKey of ['weekday', 'holiday']) {
   for (const st of STATIONS) {
     const list = dayData[st.id]?.outbound || [];
     list.forEach(item => {
-      // 深夜0時〜4時台の列車は日付跨ぎ（+86400秒）
       let adjustedSec = item.sec;
       if (item.h < 4) {
         adjustedSec += 86400;
@@ -110,8 +133,9 @@ for (const dayKey of ['weekday', 'holiday']) {
 
   // 下り各列車をトリップ化
   for (const [trainNoKey, info] of outboundTrainMap.entries()) {
+    const rawStops = info.stops;
     const stopPairs = [];
-    info.stops.forEach((depSec, stId) => {
+    rawStops.forEach((depSec, stId) => {
       const st = ST_BY_ID.get(stId);
       if (st) stopPairs.push({ stId, depSec, num: st.number });
     });
@@ -132,49 +156,53 @@ for (const dayKey of ['weekday', 'holiday']) {
 
     if (startNum >= endNum) continue;
 
-    const knownSecMap = new Map();
-    stopPairs.forEach(sp => knownSecMap.set(sp.num, sp.depSec));
+    // 既知の停車駅時刻Map（駅探の実績データのみ）
+    const knownDepMap = new Map();
+    stopPairs.forEach(sp => knownDepMap.set(sp.num, sp.depSec));
 
-    // 終着駅まで足りない既知時刻を駅間標準秒数で補完
-    let currentLastNum = lastStop.num;
-    let currentLastSec = lastStop.depSec;
-    for (let num = currentLastNum + 1; num <= endNum; num++) {
-      const stepSec = SECTION_SECS[num - 1] || 180;
-      currentLastSec += stepSec;
-      knownSecMap.set(num, currentLastSec);
+    // 終着駅（endNum）の到着時刻を算出
+    if (!knownDepMap.has(endNum)) {
+      const dur = getSectionDuration(lastStop.num, endNum, info.type);
+      knownDepMap.set(endNum, lastStop.depSec + dur);
     }
 
     // startNum から endNum までの全駅ストップを生成
     const stops = [];
+    const stoppingRule = TX_STOPPING_RULES[info.type] || TX_STOPPING_RULES.local;
+
     for (let num = startNum; num <= endNum; num++) {
       const st = ST_BY_NUM.get(num);
       const isOrigin = num === startNum;
       const isDest = num === endNum;
-      const isStop = knownSecMap.has(num);
+      const hasRawData = rawStops.has(st.id);
+
+      // 停車駅判定: 始発・終着は必ず停車。途中駅は「実績発車データがある」か「停車ルールに含まれる」
+      // 快速にとって守谷〜つくばの途中駅（16〜19）は stoppingRule に含まれないので false になる！
+      const isStopping = isOrigin || isDest || (hasRawData && stoppingRule.has(num)) || (!hasRawData && stoppingRule.has(num));
 
       let depSec, arrSec;
-      if (isStop) {
-        depSec = knownSecMap.get(num);
+      if (knownDepMap.has(num)) {
+        depSec = knownDepMap.get(num);
         arrSec = isOrigin ? depSec : (isDest ? depSec : depSec - 25);
       } else {
-        // 通過駅: 前後の既知駅から線形補間
+        // 時刻補間: 直前の既知駅と直後の既知駅から線形補間
         let prevNum = num - 1;
-        while (prevNum >= startNum && !knownSecMap.has(prevNum)) prevNum--;
+        while (prevNum >= startNum && !knownDepMap.has(prevNum)) prevNum--;
         let nextNum = num + 1;
-        while (nextNum <= endNum && !knownSecMap.has(nextNum)) nextNum++;
+        while (nextNum <= endNum && !knownDepMap.has(nextNum)) nextNum++;
 
-        const prevSec = knownSecMap.get(prevNum);
-        const nextSec = knownSecMap.get(nextNum);
+        const prevSec = knownDepMap.get(prevNum);
+        const nextSec = knownDepMap.get(nextNum);
         const ratio = (num - prevNum) / (nextNum - prevNum);
         depSec = Math.round(prevSec + (nextSec - prevSec) * ratio);
-        arrSec = depSec;
+        arrSec = isStopping ? depSec - 25 : depSec;
       }
 
       stops.push({
         stationId: st.id,
         arrivalTime: secondsToTimeString(arrSec),
         departureTime: secondsToTimeString(depSec),
-        isPassing: !isStop && !isOrigin && !isDest,
+        isPassing: !isStopping,
       });
     }
 
@@ -223,12 +251,12 @@ for (const dayKey of ['weekday', 'holiday']) {
 
   // 上り各列車をトリップ化
   for (const [trainNoKey, info] of inboundTrainMap.entries()) {
+    const rawStops = info.stops;
     const stopPairs = [];
-    info.stops.forEach((depSec, stId) => {
+    rawStops.forEach((depSec, stId) => {
       const st = ST_BY_ID.get(stId);
       if (st) stopPairs.push({ stId, depSec, num: st.number });
     });
-    // 上りは北から南（駅番号が大きい方から小さい方へ）
     stopPairs.sort((a, b) => b.num - a.num);
 
     if (stopPairs.length === 0) continue;
@@ -246,49 +274,49 @@ for (const dayKey of ['weekday', 'holiday']) {
 
     if (startNum <= endNum) continue;
 
-    const knownSecMap = new Map();
-    stopPairs.forEach(sp => knownSecMap.set(sp.num, sp.depSec));
+    const knownDepMap = new Map();
+    stopPairs.forEach(sp => knownDepMap.set(sp.num, sp.depSec));
 
-    // 終着駅まで足りない既知時刻を補完
-    let currentLastNum = lastStop.num;
-    let currentLastSec = lastStop.depSec;
-    for (let num = currentLastNum - 1; num >= endNum; num--) {
-      const stepSec = SECTION_SECS[num] || 180;
-      currentLastSec += stepSec;
-      knownSecMap.set(num, currentLastSec);
+    // 終着駅（endNum）の到着時刻を算出
+    if (!knownDepMap.has(endNum)) {
+      const dur = getSectionDuration(lastStop.num, endNum, info.type);
+      knownDepMap.set(endNum, lastStop.depSec + dur);
     }
 
     // startNum から endNum までの全駅ストップを生成
     const stops = [];
+    const stoppingRule = TX_STOPPING_RULES[info.type] || TX_STOPPING_RULES.local;
+
     for (let num = startNum; num >= endNum; num--) {
       const st = ST_BY_NUM.get(num);
       const isOrigin = num === startNum;
       const isDest = num === endNum;
-      const isStop = knownSecMap.has(num);
+      const hasRawData = rawStops.has(st.id);
+
+      const isStopping = isOrigin || isDest || (hasRawData && stoppingRule.has(num)) || (!hasRawData && stoppingRule.has(num));
 
       let depSec, arrSec;
-      if (isStop) {
-        depSec = knownSecMap.get(num);
+      if (knownDepMap.has(num)) {
+        depSec = knownDepMap.get(num);
         arrSec = isOrigin ? depSec : (isDest ? depSec : depSec - 25);
       } else {
-        // 通過駅: 前後の既知駅から線形補間
         let prevNum = num + 1;
-        while (prevNum <= startNum && !knownSecMap.has(prevNum)) prevNum++;
+        while (prevNum <= startNum && !knownDepMap.has(prevNum)) prevNum++;
         let nextNum = num - 1;
-        while (nextNum >= endNum && !knownSecMap.has(nextNum)) nextNum--;
+        while (nextNum >= endNum && !knownDepMap.has(nextNum)) nextNum--;
 
-        const prevSec = knownSecMap.get(prevNum);
-        const nextSec = knownSecMap.get(nextNum);
+        const prevSec = knownDepMap.get(prevNum);
+        const nextSec = knownDepMap.get(nextNum);
         const ratio = (prevNum - num) / (prevNum - nextNum);
         depSec = Math.round(prevSec + (nextSec - prevSec) * ratio);
-        arrSec = depSec;
+        arrSec = isStopping ? depSec - 25 : depSec;
       }
 
       stops.push({
         stationId: st.id,
         arrivalTime: secondsToTimeString(arrSec),
         departureTime: secondsToTimeString(depSec),
-        isPassing: !isStop && !isOrigin && !isDest,
+        isPassing: !isStopping,
       });
     }
 
