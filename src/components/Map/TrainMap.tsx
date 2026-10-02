@@ -25,6 +25,7 @@ interface TrainMapProps {
   filterDirection: 'all' | Direction;
   filterType: 'all' | 'rapid' | 'local';
   isTimeControllerExpanded?: boolean;
+  onStopTracking?: () => void;
 }
 
 type TileType = 'standard' | 'satellite' | 'dark';
@@ -146,6 +147,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   filterDirection,
   filterType,
   isTimeControllerExpanded = false,
+  onStopTracking,
 }) => {
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
@@ -562,6 +564,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
         <button
           type="button"
           onClick={() => {
+            onStopTracking?.();
             const bounds = calculateBoundsForLines(selectedLineIds);
             mapRef.current?.flyToBounds(bounds, { padding: [50, 50] });
           }}

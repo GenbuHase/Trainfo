@@ -8,6 +8,7 @@ import type { TrainOperationStatus } from '../../services/odptApi';
 import { formatTrainNumber } from '../../data/timetableData';
 import { getLine } from '../../data/linesRegistry';
 import { DisplayFilterDock } from '../Map/DisplayFilterDock';
+import { TrackingBar } from '../Map/TrackingBar';
 
 interface HeaderProps {
   onSelectStation: (station: Station) => void;
@@ -26,6 +27,10 @@ interface HeaderProps {
   onChangeFilterDirection: (direction: 'all' | Direction) => void;
   filterType: 'all' | 'rapid' | 'local';
   onChangeFilterType: (type: 'all' | 'rapid' | 'local') => void;
+  selectedTrain?: ActiveTrain | null;
+  isTrackingTrain?: boolean;
+  onOpenSidebar?: () => void;
+  onStopTracking?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -45,6 +50,10 @@ export const Header: React.FC<HeaderProps> = ({
   onChangeFilterDirection,
   filterType,
   onChangeFilterType,
+  selectedTrain,
+  isTrackingTrain = false,
+  onOpenSidebar,
+  onStopTracking,
 }) => {
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
@@ -384,6 +393,15 @@ export const Header: React.FC<HeaderProps> = ({
           {/* 右端スクロール可能を視覚的に伝えるフェードマスク */}
           <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-slate-100/90 via-slate-100/40 to-transparent pointer-events-none rounded-r-lg" />
         </div>
+      )}
+
+      {/* 追尾中バー (サイドバーが閉じていて自動追尾中の場合に表示) */}
+      {!isSidebarOpen && isTrackingTrain && selectedTrain && (
+        <TrackingBar
+          train={selectedTrain}
+          onOpenSidebar={() => onOpenSidebar?.()}
+          onStopTracking={() => onStopTracking?.()}
+        />
       )}
     </header>
   );

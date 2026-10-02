@@ -203,15 +203,39 @@ export function App() {
     setSelectedTrainId(train.tripId);
     setSelectedStation(null);
     setIsSidebarOpen(true);
-  }, []);
+    if (selectedTrainId !== train.tripId) {
+      setIsTrackingTrain(false);
+    }
+  }, [selectedTrainId]);
 
-  // 詳細パネル閉塞ハンドラ（駅・列車へのフォーカスおよび追尾も解除）
+  // 詳細パネル閉塞ハンドラ
+  // 自動追尾が有効な場合は追尾と列車選択状態を維持し、パネルのみを閉じる（全画面マップでの追尾を可能にするため）
   const handleCloseSidebar = useCallback(() => {
     setIsSidebarOpen(false);
-    setSelectedStation(null);
-    setSelectedTrainId(null);
-    setIsTrackingTrain(false);
+    if (!isTrackingTrain) {
+      setSelectedStation(null);
+      setSelectedTrainId(null);
+    }
+  }, [isTrackingTrain]);
+
+  // パネル再表示ハンドラ
+  const handleOpenSidebar = useCallback(() => {
+    setIsSidebarOpen(true);
   }, []);
+
+  // 追尾解除ハンドラ
+  const handleStopTracking = useCallback(() => {
+    setIsTrackingTrain(false);
+    setSelectedTrainId(null);
+  }, []);
+
+  // 追尾中の列車が運行終了等で存在しなくなった場合は追尾を自動解除
+  useEffect(() => {
+    if (isTrackingTrain && !selectedTrain) {
+      setIsTrackingTrain(false);
+      setSelectedTrainId(null);
+    }
+  }, [isTrackingTrain, selectedTrain]);
 
   // 実時間に同期
   const handleSyncRealTime = useCallback(() => {
@@ -323,6 +347,10 @@ export function App() {
         onChangeFilterDirection={setFilterDirection}
         filterType={filterType}
         onChangeFilterType={setFilterType}
+        selectedTrain={selectedTrain}
+        isTrackingTrain={isTrackingTrain}
+        onOpenSidebar={handleOpenSidebar}
+        onStopTracking={handleStopTracking}
       />
 
       {/* メイン地図 */}
@@ -340,6 +368,7 @@ export function App() {
         filterDirection={filterDirection}
         filterType={filterType}
         isTimeControllerExpanded={isTimeControllerExpanded}
+        onStopTracking={handleStopTracking}
       />
 
       {/* Googleマップ風 サイドパネル */}

@@ -80,6 +80,11 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
             <LocateFixed className="w-4 h-4" />
             <span>{isTracking ? '列車を自動追尾中（クリックで解除）' : 'この列車をマップで追尾する'}</span>
           </button>
+          {isTracking && (
+            <p className="text-[11px] text-amber-300 text-center mt-2 leading-relaxed">
+              ※ パネルを閉じると全画面マップで列車を追尾できます
+            </p>
+          )}
         </div>
       </div>
 
