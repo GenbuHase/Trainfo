@@ -1,6 +1,6 @@
 // 統合実軌道ジオメトリデータ＆補間計算エンジン
 import type { TrackSegment, LineId } from '../types';
-import { getCombinedTrackSegments } from './linesRegistry';
+import { getCombinedTrackSegments, getCombinedStations } from './linesRegistry';
 
 // 全登録路線の統合線路セグメント（静的アクセス互換用）
 export const STATION_TRACK_SEGMENTS: TrackSegment[] = getCombinedTrackSegments();
@@ -78,6 +78,18 @@ export function interpolateTrackPosition(
   }
 
   if (!segment || segment.coordinates.length < 2) {
+    const stations = getCombinedStations();
+    const fromSt = stations.find((s) => s.id === fromStationId);
+    const toSt = stations.find((s) => s.id === toStationId);
+    if (fromSt && toSt) {
+      const lat = fromSt.lat + (toSt.lat - fromSt.lat) * clampedRatio;
+      const lng = fromSt.lng + (toSt.lng - fromSt.lng) * clampedRatio;
+      const heading = calculateHeading(fromSt.lat, fromSt.lng, toSt.lat, toSt.lng);
+      return { lat, lng, heading, bearing: heading };
+    }
+    if (fromSt) {
+      return { lat: fromSt.lat, lng: fromSt.lng, heading: 0, bearing: 0 };
+    }
     return { lat: 35.73, lng: 139.71, heading: 0, bearing: 0 };
   }
 

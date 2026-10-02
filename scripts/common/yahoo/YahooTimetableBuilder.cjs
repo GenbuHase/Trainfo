@@ -227,28 +227,66 @@ class YahooTimetableBuilder {
           let nextDep = next.depSec;
           if (nextArr === null) nextArr = nextDep;
 
-          const curPrefix = cur.station.id.replace(/-\d+$/, '');
-          const nextPrefix = next.station.id.replace(/-\d+$/, '');
+          // 1. 分岐・短絡線ルール（junctionPassingRules）による通過駅補間
+          const junctionRule = this.config.junctionPassingRules?.find(
+            rule => rule.fromId === cur.station.id && rule.toId === next.station.id
+          );
 
-          if (curPrefix === nextPrefix && cur.station.number && next.station.number) {
-            const numDiff = next.station.number - cur.station.number;
-            const step = numDiff > 0 ? 1 : -1;
-            const stepsCount = Math.abs(numDiff);
+          if (junctionRule && dep !== null && nextArr !== null) {
+            const viaStations = junctionRule.viaIds.map(id => this.stById.get(id)).filter(Boolean);
+            if (viaStations.length > 0) {
+              // 各駅間距離を計算して比率を割り出す
+              const allPoints = [cur.station, ...viaStations, next.station];
+              const segDists = [];
+              let totalDist = 0;
+              for (let p = 0; p < allPoints.length - 1; p++) {
+                const p1 = allPoints[p];
+                const p2 = allPoints[p + 1];
+                const dy = ((p1.lat || 0) - (p2.lat || 0)) * 111;
+                const dx = ((p1.lng || 0) - (p2.lng || 0)) * 91;
+                const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+                segDists.push(dist);
+                totalDist += dist;
+              }
 
-            if (stepsCount > 1 && dep !== null && nextArr !== null) {
-              for (let s = 1; s < stepsCount; s++) {
-                const intermediateNum = cur.station.number + s * step;
-                const intermediateId = `${curPrefix}-${intermediateNum}`;
-                const intermediateSt = this.stById.get(intermediateId);
-                if (intermediateSt) {
-                  const ratio = s / stepsCount;
-                  const passSec = Math.round(dep + (nextArr - dep) * ratio);
-                  stops.push({
-                    stationId: intermediateSt.id,
-                    arrivalTime: this.secondsToTimeString(passSec),
-                    departureTime: this.secondsToTimeString(passSec),
-                    isPassing: true,
-                  });
+              let accDist = 0;
+              for (let v = 0; v < viaStations.length; v++) {
+                accDist += segDists[v];
+                const ratio = totalDist > 0 ? accDist / totalDist : (v + 1) / (viaStations.length + 1);
+                const passSec = Math.round(dep + (nextArr - dep) * ratio);
+                stops.push({
+                  stationId: viaStations[v].id,
+                  arrivalTime: this.secondsToTimeString(passSec),
+                  departureTime: this.secondsToTimeString(passSec),
+                  isPassing: true,
+                });
+              }
+            }
+          } else {
+            // 2. 同一路線プレフィックスによるナンバリング自動補間
+            const curPrefix = cur.station.id.replace(/-\d+$/, '');
+            const nextPrefix = next.station.id.replace(/-\d+$/, '');
+
+            if (curPrefix === nextPrefix && cur.station.number && next.station.number) {
+              const numDiff = next.station.number - cur.station.number;
+              const step = numDiff > 0 ? 1 : -1;
+              const stepsCount = Math.abs(numDiff);
+
+              if (stepsCount > 1 && dep !== null && nextArr !== null) {
+                for (let s = 1; s < stepsCount; s++) {
+                  const intermediateNum = cur.station.number + s * step;
+                  const intermediateId = `${curPrefix}-${intermediateNum}`;
+                  const intermediateSt = this.stById.get(intermediateId);
+                  if (intermediateSt) {
+                    const ratio = s / stepsCount;
+                    const passSec = Math.round(dep + (nextArr - dep) * ratio);
+                    stops.push({
+                      stationId: intermediateSt.id,
+                      arrivalTime: this.secondsToTimeString(passSec),
+                      departureTime: this.secondsToTimeString(passSec),
+                      isPassing: true,
+                    });
+                  }
                 }
               }
             }

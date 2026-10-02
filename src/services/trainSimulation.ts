@@ -50,7 +50,7 @@ export function calculateActiveTrains(
     const lastStop = trip.stops[trip.stops.length - 1];
 
     const tripStartSec = timeStringToSeconds(firstStop.departureTime);
-    const tripEndSec = timeStringToSeconds(lastStop.arrivalTime);
+    const tripEndSec = timeStringToSeconds(lastStop.departureTime || lastStop.arrivalTime);
 
     // 運行時間帯外ならスキップ
     if (adjustedCurrentSec < tripStartSec || adjustedCurrentSec > tripEndSec) {

@@ -79,11 +79,35 @@ export function App() {
     return `${selectedLineIds.length}路線`;
   }, [selectedLineIds]);
 
+  // 直前に選択されていた列車情報を保持（路線境界をまたぐ直通列車の自動ハンドオーバー用）
+  const lastSelectedTrainRef = useRef<ActiveTrain | null>(null);
+
   // 選択中の列車オブジェクトをリアルタイム算出
   const selectedTrain = useMemo(() => {
     if (!selectedTrainId) return null;
-    return activeTrains.find((t) => t.tripId === selectedTrainId) || null;
+    const found = activeTrains.find((t) => t.tripId === selectedTrainId);
+    if (found) return found;
+
+    // もし現在のtripIdが終了していても、直前の列車と同一列車番号の直通トリップが走行中なら即座に引き継ぐ
+    const prev = lastSelectedTrainRef.current;
+    if (prev && prev.trainNumber) {
+      const successor = activeTrains.find(
+        (t) => t.trainNumber === prev.trainNumber && t.tripId !== prev.tripId
+      );
+      if (successor) return successor;
+    }
+    return null;
   }, [activeTrains, selectedTrainId]);
+
+  // 選択列車が直通トリップへ切り替わった場合に selectedTrainId を同期更新
+  useEffect(() => {
+    if (selectedTrain) {
+      lastSelectedTrainRef.current = selectedTrain;
+      if (selectedTrain.tripId !== selectedTrainId) {
+        setSelectedTrainId(selectedTrain.tripId);
+      }
+    }
+  }, [selectedTrain, selectedTrainId]);
 
   // モーダル状態
   const [timetableStation, setTimetableStation] = useState<Station | null>(null);
