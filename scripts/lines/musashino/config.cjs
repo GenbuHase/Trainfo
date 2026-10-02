@@ -53,6 +53,7 @@ module.exports = {
     'むさしの号': 'regular',
     'しもうさ号': 'regular',
     '快速': 'local',
+    '特急': 'limitedExp',
   },
   defaultCars: 8,
 };

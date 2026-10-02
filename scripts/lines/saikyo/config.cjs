@@ -30,6 +30,7 @@ module.exports = {
     '各駅停車': 'local',
     '快速': 'rapid',
     '通勤快速': 'commuter',
+    '特急': 'limitedExp',
   },
   defaultCars: 10,
   baseSectionSeconds: {

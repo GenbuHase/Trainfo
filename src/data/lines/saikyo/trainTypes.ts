@@ -35,4 +35,15 @@ export const SAIKYO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#e60012',
     borderColor: '#f87171',
   },
+  // 特急（臨時特急など）: #d32f2f (JR特急レッド)
+  limitedExp: {
+    key: 'limitedExp',
+    name: '特急',
+    nameEn: 'Limited Express',
+    shortName: '特急',
+    color: '#d32f2f',
+    textColor: '#ffffff',
+    bgColor: '#d32f2f',
+    borderColor: '#ef5350',
+  },
 };

@@ -59,6 +59,9 @@ class YahooStationTimetableScraper {
     if (/快速/i.test(trimmed) && this.config.trainTypeMap['快速']) {
       return this.config.trainTypeMap['快速'];
     }
+    if (/特急/i.test(trimmed) && this.config.trainTypeMap['特急']) {
+      return this.config.trainTypeMap['特急'];
+    }
 
     return this.config.defaultTrainType || 'local';
   }

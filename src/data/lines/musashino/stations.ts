@@ -295,7 +295,8 @@ export const MUSASHINO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "regular"
+      "regular",
+      "limitedExp"
     ],
     "lineId": "musashino",
     "lat": 35.847746,
@@ -380,7 +381,8 @@ export const MUSASHINO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "regular"
+      "regular",
+      "limitedExp"
     ],
     "lineId": "musashino",
     "lat": 35.876068,
@@ -461,7 +463,8 @@ export const MUSASHINO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "regular"
+      "regular",
+      "limitedExp"
     ],
     "lineId": "musashino",
     "lat": 35.868129,
@@ -1110,7 +1113,8 @@ export const MUSASHINO_STATIONS: Station[] = [
       "outbound": "3・4・6・7番線"
     },
     "stoppingTypes": [
-      "regular"
+      "regular",
+      "limitedExp"
     ],
     "lineId": "musashino",
     "lat": 35.905691,
