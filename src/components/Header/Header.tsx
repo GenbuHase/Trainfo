@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import { Search, Train, MapPin, X, Calendar, Settings, HelpCircle } from 'lucide-react';
 import type { Station, ActiveTrain, LineId, Direction } from '../../types';
 import { getStations } from '../../data/stations';
@@ -65,6 +65,63 @@ export const Header: React.FC<HeaderProps> = ({
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
+
+  // モバイル用チップバーのスクロール状態管理
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
+
+  const updateScrollState = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const { scrollLeft, scrollWidth, clientWidth } = el;
+    // わずかなサブピクセル誤差を吸収するためバッファ (2px) を考慮
+    const maxScroll = scrollWidth - clientWidth;
+    setCanScrollLeft(scrollLeft > 2);
+    setCanScrollRight(maxScroll > 2 && scrollLeft < maxScroll - 2);
+  }, []);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+
+    updateScrollState();
+
+    const resizeObserver = new ResizeObserver(() => {
+      updateScrollState();
+    });
+    resizeObserver.observe(el);
+    Array.from(el.children).forEach((child) => resizeObserver.observe(child));
+
+    window.addEventListener('resize', updateScrollState);
+
+    return () => {
+      resizeObserver.disconnect();
+      window.removeEventListener('resize', updateScrollState);
+    };
+  }, [updateScrollState, activeTrains.length, isHoliday, selectedLineIds, filterDirection, filterType, isSidebarOpen]);
+
+  // 見切れている方向のみフェードする動的マスクスタイル
+  const scrollMaskStyle = useMemo<React.CSSProperties>(() => {
+    if (!canScrollLeft && !canScrollRight) {
+      return {};
+    }
+    const fadeSize = '24px';
+    let gradient = '';
+
+    if (canScrollLeft && canScrollRight) {
+      gradient = `linear-gradient(to right, transparent 0, black ${fadeSize}, black calc(100% - ${fadeSize}), transparent 100%)`;
+    } else if (canScrollLeft) {
+      gradient = `linear-gradient(to right, transparent 0, black ${fadeSize}, black 100%)`;
+    } else if (canScrollRight) {
+      gradient = `linear-gradient(to right, black calc(100% - ${fadeSize}), transparent 100%)`;
+    }
+
+    return {
+      WebkitMaskImage: gradient,
+      maskImage: gradient,
+    };
+  }, [canScrollLeft, canScrollRight]);
 
   const normalizedQuery = query.trim().toLowerCase();
 
@@ -295,7 +352,12 @@ export const Header: React.FC<HeaderProps> = ({
       {/* モバイル用: 横スクロールチップバー (サイドバー展開時は非表示にして詳細パネルと被らないようにする) */}
       {!isSidebarOpen && (
         <div className="relative sm:hidden w-full pointer-events-auto animate-in fade-in duration-200">
-          <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 pr-8 w-full">
+          <div
+            ref={scrollRef}
+            onScroll={updateScrollState}
+            style={scrollMaskStyle}
+            className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 px-0.5 w-full"
+          >
             <DisplayFilterDock
               selectedLineIds={selectedLineIds}
               onChangeSelectedLines={onChangeSelectedLines}
@@ -307,8 +369,6 @@ export const Header: React.FC<HeaderProps> = ({
             />
             {statusCapsulesJsx}
           </div>
-          {/* 右端スクロール可能を視覚的に伝えるフェードマスク */}
-          <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-slate-100/90 via-slate-100/40 to-transparent pointer-events-none rounded-r-lg" />
         </div>
       )}
 
