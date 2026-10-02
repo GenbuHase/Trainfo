@@ -57,6 +57,12 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#e21f26',
     numColor: '#ad1117',
   },
+  // つくばエクスプレス (首都圏新都市鉄道)
+  TX: {
+    borderColor: '#003893',
+    prefixColor: '#df0011',
+    numColor: '#003893',
+  },
 };
 
 const DEFAULT_BADGE_COLOR: StationBadgeColor = {
