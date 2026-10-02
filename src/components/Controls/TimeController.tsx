@@ -58,6 +58,19 @@ export const TimeController: React.FC<TimeControllerProps> = ({
   // タイムスタンプ表示
   const timeFormatted = secondsToTimeString(currentSec);
 
+  // スライダーの範囲設定 (04:30 始発 〜 25:30 終電)
+  const MIN_SEC = 4.5 * 3600; // 04:30 (16,200秒)
+  const MAX_SEC = 25.5 * 3600; // 25:30 / 01:30 (91,800秒)
+  const TOTAL_SEC = MAX_SEC - MIN_SEC; // 21時間 (75,600秒)
+
+  // 実際の時間と完全に一致するスライダー目盛り定義
+  const sliderMarks = [
+    { label: '08:00', sec: 8 * 3600 },
+    { label: '12:00', sec: 12 * 3600 },
+    { label: '18:00', sec: 18 * 3600 },
+    { label: '24:00', sec: 24 * 3600 },
+  ];
+
   // 時刻プリセット
   const presets = [
     { label: '朝ラッシュ', time: '08:00', sec: 8 * 3600 },
@@ -148,22 +161,70 @@ export const TimeController: React.FC<TimeControllerProps> = ({
 
         {/* タイムスライダー */}
         <div className="px-4 pb-2.5">
+          {/* スライダー上部: 始発・終電インジケーター */}
+          <div className="flex justify-between text-[10px] text-slate-400 font-mono mb-1 select-none">
+            <button
+              type="button"
+              onClick={() => onSeek(MIN_SEC)}
+              className="hover:text-[#004b97] transition-colors cursor-pointer flex items-center gap-1"
+              title="始発 04:30へジャンプ"
+            >
+              <span className="text-[9px] px-1 py-0.2 bg-slate-100 rounded text-slate-500 font-medium">始発</span>
+              <span className="font-semibold text-slate-600 hover:text-[#004b97]">04:30</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => onSeek(MAX_SEC)}
+              className="hover:text-[#004b97] transition-colors cursor-pointer flex items-center gap-1"
+              title="終電 01:30へジャンプ"
+            >
+              <span className="font-semibold text-slate-600 hover:text-[#004b97]">01:30</span>
+              <span className="text-[9px] px-1 py-0.2 bg-slate-100 rounded text-slate-500 font-medium">終電</span>
+            </button>
+          </div>
+
           <input
             type="range"
-            min={4.5 * 3600}
-            max={25.5 * 3600}
+            min={MIN_SEC}
+            max={MAX_SEC}
             step={10}
             value={currentSec < 4 * 3600 ? currentSec + 86400 : currentSec}
             onChange={(e) => onSeek(Number(e.target.value))}
             className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-[#004b97]"
           />
-          <div className="flex justify-between text-[10px] text-slate-400 font-mono mt-1">
-            <span>04:30 始発</span>
-            <span>08:00</span>
-            <span>12:00</span>
-            <span>18:00</span>
-            <span>24:00</span>
-            <span>01:30 終電</span>
+          {/* ティックマーク（目盛り線: 実際の秒数と完全一致） */}
+          <div className="relative w-full h-1 mt-0.5 pointer-events-none">
+            {[4.5 * 3600, 8 * 3600, 12 * 3600, 18 * 3600, 24 * 3600, 25.5 * 3600].map((sec) => {
+              const percent = ((sec - MIN_SEC) / TOTAL_SEC) * 100;
+              return (
+                <div
+                  key={sec}
+                  className="absolute top-0 w-0.5 h-1 bg-slate-300 rounded-full -translate-x-1/2"
+                  style={{ left: `${percent}%` }}
+                />
+              );
+            })}
+          </div>
+          {/* 目盛りラベル（実際の秒数と完全一致・クリックでジャンプ可能） */}
+          <div className="relative w-full h-4 text-[10px] text-slate-400 font-mono mt-0.5 select-none">
+            {sliderMarks.map((mark) => {
+              const percent = ((mark.sec - MIN_SEC) / TOTAL_SEC) * 100;
+
+              return (
+                <button
+                  key={mark.sec}
+                  type="button"
+                  onClick={() => onSeek(mark.sec)}
+                  className="absolute top-0 -translate-x-1/2 hover:text-[#004b97] transition-colors cursor-pointer group"
+                  style={{ left: `${percent}%` }}
+                  title={`${mark.label}へジャンプ`}
+                >
+                  <span className="font-semibold text-slate-600 group-hover:text-[#004b97] transition-colors">
+                    {mark.label}
+                  </span>
+                </button>
+              );
+            })}
           </div>
         </div>
 
