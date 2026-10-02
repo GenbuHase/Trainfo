@@ -63,8 +63,8 @@ const SEGMENT_DURATIONS = {
   'JE-13_JE-14': 180, // 幕張豊砂 - 海浜幕張
 
   // 大宮支線
-  'JA-26_JM-28': 780, // 大宮 - 北朝霞 (むさしの号: 13分)
-  'JA-26_JM-26': 600, // 大宮 - 武蔵浦和 (しもうさ号: 10分)
+  'JU-07_JM-28': 780, // 大宮 - 北朝霞 (むさしの号: 13分)
+  'JU-07_JM-26': 600, // 大宮 - 武蔵浦和 (しもうさ号: 10分)
 
   // 中央線直通（むさしの号）
   'JM-32_JC-18': 360, // 新小平 - 国立 (6分)
@@ -98,11 +98,11 @@ const SEQ_MAKUHARI = [
 ];
 
 const SEQ_MUSASHINO_GO = [
-  'JC-22', 'JC-21', 'JC-20', 'JC-19', 'JC-18', 'JM-32', 'JM-31', 'JM-30', 'JM-29', 'JM-28', 'JA-26'
+  'JC-22', 'JC-21', 'JC-20', 'JC-19', 'JC-18', 'JM-32', 'JM-31', 'JM-30', 'JM-29', 'JM-28', 'JU-07'
 ];
 
 const SEQ_SHIMOUSA_GO = [
-  'JA-26', 'JM-26', 'JM-25', 'JM-24', 'JM-23', 'JM-22', 'JM-21', 'JM-20', 'JM-19', 'JM-18',
+  'JU-07', 'JM-26', 'JM-25', 'JM-24', 'JM-23', 'JM-22', 'JM-21', 'JM-20', 'JM-19', 'JM-18',
   'JM-17', 'JM-16', 'JM-15', 'JM-14', 'JM-13', 'JM-12', 'JM-11', 'JM-10', 'JE-11', 'JE-12',
   'JE-13', 'JE-14'
 ];
@@ -208,7 +208,7 @@ const stationTimetables = {
 
 ['weekday', 'holiday'].forEach(dayKey => {
   stations.forEach(s => {
-    if (s.id === 'JA-26') return; // 大宮駅は特別生成
+    if (s.id === 'JU-07') return; // 大宮駅は特別生成
 
     const rawSt = raw[dayKey][s.id] || { inbound: [], outbound: [] };
     const allStTrains = [...rawSt.inbound, ...rawSt.outbound].filter(t => isMusashinoTrain(t.no));
@@ -243,7 +243,7 @@ const stationTimetables = {
     };
   });
 
-  // 大宮駅（JA-26）の時刻表補完（むさしの号・しもうさ号実データから同期）
+  // 大宮駅（JU-07）の時刻表補完（むさしの号・しもうさ号実データから同期）
   const omiyaDepInbound = [];  // 八王子行（むさしの号上り：偶数）
   const omiyaDepOutbound = []; // 海浜幕張/西船橋/新習志野行（しもうさ号下り：奇数）
 
@@ -284,7 +284,7 @@ const stationTimetables = {
   omiyaDepInbound.sort((a, b) => a.sec - b.sec);
   omiyaDepOutbound.sort((a, b) => a.sec - b.sec);
 
-  stationTimetables[dayKey]['JA-26'] = {
+  stationTimetables[dayKey]['JU-07'] = {
     inbound: omiyaDepInbound,
     outbound: omiyaDepOutbound,
   };
@@ -335,7 +335,7 @@ const allTrips = [];
           trainType: 'regular',
           direction: 'outbound',
           originStationId: 'JC-22',
-          destinationStationId: 'JA-26',
+          destinationStationId: 'JU-07',
           customDestination: '大宮',
           cars: 8,
           isHoliday,
@@ -357,8 +357,8 @@ const allTrips = [];
         destId = 'JE-12';
       }
       // 武蔵浦和の発車時刻から大宮発車時刻（10分前）を設定
-      if (info.stops.has('JM-26') && !info.stops.has('JA-26')) {
-        info.stops.set('JA-26', info.stops.get('JM-26') - 600);
+      if (info.stops.has('JM-26') && !info.stops.has('JU-07')) {
+        info.stops.set('JU-07', info.stops.get('JM-26') - 600);
       }
       const stops = buildChainedStops(seq, new Map(info.stops));
       if (stops && stops.length >= 2) {
@@ -368,7 +368,7 @@ const allTrips = [];
           trainNumber: trainNo,
           trainType: 'regular',
           direction: 'outbound',
-          originStationId: 'JA-26',
+          originStationId: 'JU-07',
           destinationStationId: destId,
           customDestination: info.dest,
           cars: 8,
@@ -447,8 +447,8 @@ const allTrips = [];
       if (mInfo) {
         for (const [st, sec] of mInfo.stops.entries()) mergedStops.set(st, sec);
       }
-      if (mergedStops.has('JM-26') && !mergedStops.has('JA-26')) {
-        mergedStops.set('JA-26', mergedStops.get('JM-26') + 600);
+      if (mergedStops.has('JM-26') && !mergedStops.has('JU-07')) {
+        mergedStops.set('JU-07', mergedStops.get('JM-26') + 600);
       }
 
       let seq = [...SEQ_SHIMOUSA_GO].reverse();
@@ -466,7 +466,7 @@ const allTrips = [];
           trainType: 'regular',
           direction: 'inbound',
           originStationId: seq[0],
-          destinationStationId: 'JA-26',
+          destinationStationId: 'JU-07',
           customDestination: '大宮',
           cars: 8,
           isHoliday,
@@ -484,8 +484,8 @@ const allTrips = [];
     // むさしの号（大宮 -> 八王子）
     if (info.dest.includes('八王子') || trainNo.includes('M')) {
       const seq = [...SEQ_MUSASHINO_GO].reverse();
-      if (!info.stops.has('JA-26') && info.stops.has('JM-28')) {
-        info.stops.set('JA-26', info.stops.get('JM-28') - 780);
+      if (!info.stops.has('JU-07') && info.stops.has('JM-28')) {
+        info.stops.set('JU-07', info.stops.get('JM-28') - 780);
       }
       const stops = buildChainedStops(seq, new Map(info.stops));
       if (stops) {
@@ -495,7 +495,7 @@ const allTrips = [];
           trainNumber: trainNo,
           trainType: 'regular',
           direction: 'inbound',
-          originStationId: 'JA-26',
+          originStationId: 'JU-07',
           destinationStationId: 'JC-22',
           customDestination: '八王子',
           cars: 8,
