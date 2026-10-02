@@ -24,6 +24,10 @@ module.exports = {
     '霞ヶ関(埼玉県)': '霞ヶ関',
     '森林公園(埼玉県)': '森林公園',
     '小川町(埼玉県)': '小川町',
+    '坂戸(埼玉県)': '坂戸',
+    '大山(東京都)': '大山',
+    'ときわ台(東京都)': 'ときわ台',
+    '鶴ケ島': '鶴ヶ島',
   },
   trainTypeMap: {
     '普通': 'local',
@@ -34,6 +38,10 @@ module.exports = {
     '川越特急': 'kawagoeExp',
     'TJライナー': 'tjLiner',
     'ＴＪライナー': 'tjLiner',
+    'ライナー': 'tjLiner',
+    '特急': 'rapidExp',
+    '通勤急行': 'express',
+    '通勤特急': 'rapidExp',
   },
   defaultCars: 10,
   baseSectionSeconds: {

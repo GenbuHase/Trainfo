@@ -22,6 +22,8 @@ module.exports = {
   stationNameAliases: {
     '十条(東京都)': '十条',
     '日進(埼玉県)': '日進',
+    '大宮(埼玉県)': '大宮',
+    '戸田(埼玉県)': '戸田',
   },
   trainTypeMap: {
     '普通': 'local',

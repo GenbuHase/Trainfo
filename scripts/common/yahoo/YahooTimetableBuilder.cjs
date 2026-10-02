@@ -48,6 +48,55 @@ class YahooTimetableBuilder {
   }
 
   /**
+   * 種別表示名から trainType キーを解決（号数除去・全角半角正規化・部分一致対応）
+   * @param {string} rawName
+   * @returns {string}
+   */
+  resolveTrainType(rawName) {
+    if (!rawName) return 'local';
+    const trimmed = rawName.trim();
+
+    // 1. 完全一致
+    if (this.config.trainTypeMap[trimmed]) {
+      return this.config.trainTypeMap[trimmed];
+    }
+
+    // 2. 号数（例: 1号, ２号等）を除去した名称でマッチ
+    const normalized = trimmed.replace(/[0-9０-９]+号$/, '').trim();
+    if (this.config.trainTypeMap[normalized]) {
+      return this.config.trainTypeMap[normalized];
+    }
+
+    // 3. 全角英数を半角化してチェック
+    const half = normalized.replace(/[Ａ-Ｚａ-ｚ０-９]/g, s => String.fromCharCode(s.charCodeAt(0) - 0xFEE0));
+    if (this.config.trainTypeMap[half]) {
+      return this.config.trainTypeMap[half];
+    }
+
+    // 4. 特殊キーワードマッチ（TJライナー、ライナー等）
+    if (/TJライナー|ＴＪライナー|ライナー/i.test(trimmed)) {
+      return this.config.trainTypeMap['TJライナー'] || this.config.trainTypeMap['ライナー'] || 'tjLiner';
+    }
+    if (/川越特急/i.test(trimmed)) {
+      return this.config.trainTypeMap['川越特急'] || 'kawagoeExp';
+    }
+    if (/快速急行/i.test(trimmed)) {
+      return this.config.trainTypeMap['快速急行'] || 'rapidExp';
+    }
+    if (/急行/i.test(trimmed)) {
+      return this.config.trainTypeMap['急行'] || 'express';
+    }
+    if (/準急/i.test(trimmed)) {
+      return this.config.trainTypeMap['準急'] || 'semiExp';
+    }
+    if (/特急/i.test(trimmed)) {
+      return this.config.trainTypeMap['特急'] || 'rapidExp';
+    }
+
+    return 'local';
+  }
+
+  /**
    * HHMM 文字列を秒数に変換
    * @param {string} timeStr - "1400" など
    * @returns {number|null}
@@ -115,25 +164,41 @@ class YahooTimetableBuilder {
       return null;
     }
 
-    // 自社線内の停車駅リストを抽出
-    const lineStops = [];
+    // 自社線内の停車駅リストを抽出（他社線直通駅を挟んだ飛び地駅の誤マッチを排除するため、連続するセグメントに分割）
+    const segments = [];
+    let currentSegment = [];
+
     for (const rawStop of stopStation) {
       const st = this.resolveStation(rawStop.stationName);
       if (st) {
         const arrSec = this.parseTimeToSeconds(rawStop.arrivalTime);
         const depSec = this.parseTimeToSeconds(rawStop.departureTime);
-        lineStops.push({
+        currentSegment.push({
           station: st,
           arrSec,
           depSec,
           rawStop,
         });
+      } else {
+        if (currentSegment.length > 0) {
+          segments.push(currentSegment);
+          currentSegment = [];
+        }
       }
     }
+    if (currentSegment.length > 0) {
+      segments.push(currentSegment);
+    }
 
-    if (lineStops.length < 2) {
+    // 長さが2以上の最長セグメントを自社線区間として採用
+    // （例: 森林公園〜和光市の15駅と、副都心線池袋の1駅の場合、15駅側を採用）
+    const validSegments = segments.filter(seg => seg.length >= 2);
+    if (validSegments.length === 0) {
       return null;
     }
+
+    validSegments.sort((a, b) => b.length - a.length);
+    const lineStops = validSegments[0];
 
     const firstStop = lineStops[0];
     const lastStop = lineStops[lineStops.length - 1];
@@ -167,7 +232,7 @@ class YahooTimetableBuilder {
         });
       }
 
-      const trainType = this.config.trainTypeMap[displayName] || 'local';
+      const trainType = this.resolveTrainType(displayName);
       const originSt = firstStop.station;
       const destSt = lastStop.station;
 
@@ -293,7 +358,7 @@ class YahooTimetableBuilder {
       });
     }
 
-    const trainType = this.config.trainTypeMap[displayName] || 'local';
+    const trainType = this.resolveTrainType(displayName);
     const originSt = firstStop.station;
     const destSt = lastStop.station;
 

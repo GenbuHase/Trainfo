@@ -12,6 +12,55 @@ class YahooStationTimetableScraper {
   }
 
   /**
+   * 種別表示名から trainType キーを解決（号数除去・全角半角正規化・部分一致対応）
+   * @param {string} rawName
+   * @returns {string}
+   */
+  resolveTrainType(rawName) {
+    if (!rawName) return 'local';
+    const trimmed = rawName.trim();
+
+    // 1. 完全一致
+    if (this.config.trainTypeMap[trimmed]) {
+      return this.config.trainTypeMap[trimmed];
+    }
+
+    // 2. 号数（例: 1号, ２号等）を除去した名称でマッチ
+    const normalized = trimmed.replace(/[0-9０-９]+号$/, '').trim();
+    if (this.config.trainTypeMap[normalized]) {
+      return this.config.trainTypeMap[normalized];
+    }
+
+    // 3. 全角英数を半角化してチェック
+    const half = normalized.replace(/[Ａ-Ｚａ-ｚ０-９]/g, s => String.fromCharCode(s.charCodeAt(0) - 0xFEE0));
+    if (this.config.trainTypeMap[half]) {
+      return this.config.trainTypeMap[half];
+    }
+
+    // 4. 特殊キーワードマッチ（TJライナー、ライナー等）
+    if (/TJライナー|ＴＪライナー|ライナー/i.test(trimmed)) {
+      return this.config.trainTypeMap['TJライナー'] || this.config.trainTypeMap['ライナー'] || 'tjLiner';
+    }
+    if (/川越特急/i.test(trimmed)) {
+      return this.config.trainTypeMap['川越特急'] || 'kawagoeExp';
+    }
+    if (/快速急行/i.test(trimmed)) {
+      return this.config.trainTypeMap['快速急行'] || 'rapidExp';
+    }
+    if (/急行/i.test(trimmed)) {
+      return this.config.trainTypeMap['急行'] || 'express';
+    }
+    if (/準急/i.test(trimmed)) {
+      return this.config.trainTypeMap['準急'] || 'semiExp';
+    }
+    if (/特急/i.test(trimmed)) {
+      return this.config.trainTypeMap['特急'] || 'rapidExp';
+    }
+
+    return 'local';
+  }
+
+  /**
    * 単一駅・方向・曜日の時刻表を取得してパース
    * @param {Object} station
    * @param {string} groupId
@@ -62,7 +111,7 @@ class YahooStationTimetableScraper {
         const rawDestName = destMap.get(train.destinationId) || '';
 
         // 種別の正規化
-        const trainTypeKey = this.config.trainTypeMap[rawKindName] || 'local';
+        const trainTypeKey = this.resolveTrainType(rawKindName);
 
         // 行先名の正規化
         const destName = this.config.stationNameAliases?.[rawDestName] || rawDestName;
