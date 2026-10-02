@@ -53,7 +53,7 @@ class YahooTimetableBuilder {
    * @returns {string}
    */
   resolveTrainType(rawName) {
-    if (!rawName) return 'local';
+    if (!rawName) return this.config.defaultTrainType || 'local';
     const trimmed = rawName.trim();
 
     // 1. 完全一致
@@ -73,24 +73,30 @@ class YahooTimetableBuilder {
       return this.config.trainTypeMap[half];
     }
 
-    // 4. 特殊キーワードマッチ（TJライナー、ライナー等）
-    if (/TJライナー|ＴＪライナー|ライナー/i.test(trimmed)) {
-      return this.config.trainTypeMap['TJライナー'] || this.config.trainTypeMap['ライナー'] || 'tjLiner';
+    // 4. キーワードマッチ（路線の trainTypeMap に定義が存在する場合のみ許可）
+    if (/通勤快速/i.test(trimmed) && this.config.trainTypeMap['通勤快速']) {
+      return this.config.trainTypeMap['通勤快速'];
     }
-    if (/川越特急/i.test(trimmed)) {
-      return this.config.trainTypeMap['川越特急'] || 'kawagoeExp';
+    if (/TJライナー|ＴＪライナー|ライナー/i.test(trimmed) && (this.config.trainTypeMap['TJライナー'] || this.config.trainTypeMap['ライナー'])) {
+      return this.config.trainTypeMap['TJライナー'] || this.config.trainTypeMap['ライナー'];
     }
-    if (/快速急行/i.test(trimmed)) {
-      return this.config.trainTypeMap['快速急行'] || 'rapidExp';
+    if (/川越特急/i.test(trimmed) && this.config.trainTypeMap['川越特急']) {
+      return this.config.trainTypeMap['川越特急'];
     }
-    if (/急行/i.test(trimmed)) {
-      return this.config.trainTypeMap['急行'] || 'express';
+    if (/快速急行/i.test(trimmed) && this.config.trainTypeMap['快速急行']) {
+      return this.config.trainTypeMap['快速急行'];
     }
-    if (/準急/i.test(trimmed)) {
-      return this.config.trainTypeMap['準急'] || 'semiExp';
+    if (/急行/i.test(trimmed) && this.config.trainTypeMap['急行']) {
+      return this.config.trainTypeMap['急行'];
+    }
+    if (/準急/i.test(trimmed) && this.config.trainTypeMap['準急']) {
+      return this.config.trainTypeMap['準急'];
+    }
+    if (/快速/i.test(trimmed) && this.config.trainTypeMap['快速']) {
+      return this.config.trainTypeMap['快速'];
     }
 
-    return 'local';
+    return this.config.defaultTrainType || 'local';
   }
 
   /**
