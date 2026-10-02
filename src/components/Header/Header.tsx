@@ -1,10 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { createPortal } from 'react-dom';
-import { Search, Train, MapPin, X, Calendar, Settings, AlertTriangle, CheckCircle, HelpCircle } from 'lucide-react';
+import { Search, Train, MapPin, X, Calendar, Settings, HelpCircle } from 'lucide-react';
 import type { Station, ActiveTrain, LineId, Direction } from '../../types';
 import { getStations } from '../../data/stations';
 import { StationBadge, TrainTypeBadge } from '../Common/Badges';
-import type { TrainOperationStatus } from '../../services/odptApi';
 import { formatTrainNumber } from '../../data/timetableData';
 import { getLine } from '../../data/linesRegistry';
 import { DisplayFilterDock } from '../Map/DisplayFilterDock';
@@ -16,7 +14,6 @@ interface HeaderProps {
   activeTrains: ActiveTrain[];
   isHoliday: boolean;
   onToggleHoliday: (val: boolean) => void;
-  operationStatus: TrainOperationStatus;
   onOpenSettings: () => void;
   onOpenHelp: () => void;
   isSidebarOpen: boolean;
@@ -39,7 +36,6 @@ export const Header: React.FC<HeaderProps> = ({
   activeTrains,
   isHoliday,
   onToggleHoliday,
-  operationStatus,
   onOpenSettings,
   onOpenHelp,
   isSidebarOpen,
@@ -57,7 +53,6 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
-  const [showStatusTooltip, setShowStatusTooltip] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
   // 外側クリックで検索サジェストを閉じる
@@ -102,87 +97,9 @@ export const Header: React.FC<HeaderProps> = ({
         .slice(0, 4)
     : [];
 
-  // ステータスカプセル群（運行状況、ダイヤ種別、走行列車数）の共通JSX
+  // ステータスカプセル群（ダイヤ種別、走行列車数）の共通JSX
   const statusCapsulesJsx = (
     <>
-      {/* 運行情報ステータスバッジ */}
-      <div className="relative shrink-0">
-        <button
-          type="button"
-          onClick={() => setShowStatusTooltip(!showStatusTooltip)}
-          className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg shadow-md backdrop-blur-md text-xs font-semibold border pointer-events-auto transition-all ${
-            operationStatus.status === 'NORMAL'
-              ? 'bg-emerald-50/95 text-emerald-800 border-emerald-200 hover:bg-emerald-100/90'
-              : 'bg-amber-50/95 text-amber-800 border-amber-200 hover:bg-amber-100/90'
-          }`}
-          title="運行情報を表示"
-        >
-          {operationStatus.status === 'NORMAL' ? (
-            <CheckCircle className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-          ) : (
-            <AlertTriangle className="w-3.5 h-3.5 text-amber-600 shrink-0" />
-          )}
-          <span className="whitespace-nowrap">{operationStatus.title}</span>
-        </button>
-
-        {/* 運行情報詳細ポップオーバー (PCは右揃えドロップダウン、モバイルは createPortal でモーダル表示) */}
-        {showStatusTooltip && (
-          <>
-            {/* PC用: ドロップダウン */}
-            <div className="hidden sm:block absolute top-full mt-2 right-0 w-72 bg-white rounded-xl shadow-2xl border border-slate-200 p-3.5 z-50 text-left pointer-events-auto animate-in fade-in zoom-in-95 duration-100">
-              <div className="flex items-center justify-between mb-1.5">
-                <span className="font-bold text-xs text-slate-800">運行情報</span>
-                <span className="text-[10px] text-slate-400">{operationStatus.updatedAt} 更新</span>
-              </div>
-              <p className="text-xs text-slate-600 leading-relaxed">{operationStatus.details}</p>
-              <div className="mt-2.5 text-[10px] text-slate-400 border-t border-slate-100 pt-2 flex justify-between items-center">
-                <span>提供: 各鉄道会社 / ODPT</span>
-                <button
-                  type="button"
-                  onClick={() => setShowStatusTooltip(false)}
-                  className="text-sky-600 hover:underline font-semibold"
-                >
-                  閉じる
-                </button>
-              </div>
-            </div>
-
-            {/* モバイル用: 中央モーダル (親の overflow-x-auto に隠れないよう createPortal で描画) */}
-            {typeof document !== 'undefined' &&
-              createPortal(
-                <div className="fixed inset-0 z-[2000] flex items-center justify-center bg-black/50 backdrop-blur-xs p-4 sm:hidden pointer-events-auto animate-in fade-in duration-150">
-                  <div className="absolute inset-0" onClick={() => setShowStatusTooltip(false)} />
-                  <div
-                    className="relative bg-white rounded-2xl shadow-2xl border border-slate-200 p-4 max-w-sm w-full space-y-3 animate-in zoom-in-95 duration-150"
-                    onClick={(e) => e.stopPropagation()}
-                    onMouseDown={(e) => e.stopPropagation()}
-                  >
-                    <div className="flex items-center justify-between pb-2 border-b border-slate-100">
-                      <span className="font-bold text-sm text-slate-800 flex items-center gap-1.5">
-                        <AlertTriangle className="w-4 h-4 text-amber-500" />
-                        運行情報
-                      </span>
-                      <span className="text-xs text-slate-400">{operationStatus.updatedAt} 更新</span>
-                    </div>
-                    <p className="text-sm text-slate-600 leading-relaxed">{operationStatus.details}</p>
-                    <div className="text-[11px] text-slate-400 border-t border-slate-100 pt-2.5 flex justify-between items-center">
-                      <span>提供: 各鉄道会社 / ODPT</span>
-                      <button
-                        type="button"
-                        onClick={() => setShowStatusTooltip(false)}
-                        className="px-3 py-1 bg-slate-800 text-white rounded-lg text-xs font-semibold hover:bg-slate-900 transition-colors"
-                      >
-                        閉じる
-                      </button>
-                    </div>
-                  </div>
-                </div>,
-                document.body
-              )}
-          </>
-        )}
-      </div>
-
       {/* ダイヤ種別トグル (平日 / 土休日) */}
       <button
         type="button"

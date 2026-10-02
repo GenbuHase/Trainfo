@@ -177,3 +177,5 @@ export interface LineDefinition extends LineMeta {
   stationTimetables: StationTimetableStore;
   globalTimetable: TimetableTrip[];
 }
+
+

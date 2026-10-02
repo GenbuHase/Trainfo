@@ -12,15 +12,9 @@ import {
   getRealCurrentSeconds,
 } from './services/trainSimulation';
 import type { SimulationState } from './services/trainSimulation';
-import {
-  fetchTobuOperationStatus,
-  loadOdptConfig,
-} from './services/odptApi';
-import type {
-  OdptConfig,
-  TrainOperationStatus,
-} from './services/odptApi';
 import { getAllLines } from './data/linesRegistry';
+
+
 import { loadSimulationFps } from './constants';
 import type { SimulationFps } from './constants';
 
@@ -72,15 +66,6 @@ export function App() {
   const [isTrackingTrain, setIsTrackingTrain] = useState<boolean>(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
 
-  // 路線名表示テキスト生成
-  const lineLabel = useMemo(() => {
-    const all = getAllLines();
-    if (selectedLineIds.length === all.length) return '全路線';
-    if (selectedLineIds.length === 1) {
-      return all.find((l) => l.id === selectedLineIds[0])?.shortName || '運行';
-    }
-    return `${selectedLineIds.length}路線`;
-  }, [selectedLineIds]);
 
   // 直前に選択されていた列車情報を保持（路線境界をまたぐ直通列車の自動ハンドオーバー用）
   const lastSelectedTrainRef = useRef<ActiveTrain | null>(null);
@@ -118,23 +103,8 @@ export function App() {
   const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
   const [isHelpOpen, setIsHelpOpen] = useState<boolean>(false);
 
-  // 運行情報
-  const [operationStatus, setOperationStatus] = useState<TrainOperationStatus>({
-    status: 'NORMAL',
-    title: '全線：平常運転',
-    details: '各路線とも全線でおおむね平常通り運行しています。',
-    updatedAt: new Date().toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }),
-  });
-
-  const odptConfigRef = useRef<OdptConfig>(loadOdptConfig());
   const lastTickTimeRef = useRef<number>(performance.now());
 
-  // 運行情報ステータスの初期取得
-  useEffect(() => {
-    fetchTobuOperationStatus(odptConfigRef.current.apiKey).then((res) => {
-      setOperationStatus(res);
-    });
-  }, []);
 
   // 路線選択変更ハンドラ
   const handleChangeSelectedLines = useCallback((lineIds: LineId[]) => {
@@ -281,22 +251,7 @@ export function App() {
       globalDelayMinutes: minutes,
       randomDelays: {},
     }));
-    if (minutes > 0) {
-      setOperationStatus({
-        status: 'DELAY',
-        title: `${lineLabel}：約${minutes}分遅れ`,
-        details: `ダイヤ乱れシミュレーション中（表示中の路線で約${minutes}分の遅延が発生しています）。`,
-        updatedAt: new Date().toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }),
-      });
-    } else {
-      setOperationStatus({
-        status: 'NORMAL',
-        title: `${lineLabel}：平常運転`,
-        details: '現在、おおむね平常通り運行しています。',
-        updatedAt: new Date().toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }),
-      });
-    }
-  }, [lineLabel]);
+  }, []);
 
   // ランダム遅延切り替え
   const handleToggleRandomDelay = useCallback(() => {
@@ -322,14 +277,6 @@ export function App() {
     setIsTimetableOpen(true);
   }, []);
 
-  // 設定保存時
-  const handleApplySettings = useCallback((config: OdptConfig) => {
-    odptConfigRef.current = config;
-    if (config.apiKey && config.useLiveApi) {
-      fetchTobuOperationStatus(config.apiKey).then((res) => setOperationStatus(res));
-    }
-  }, []);
-
   return (
     <div className="relative w-full h-full h-[100dvh] overflow-hidden bg-slate-100 select-none">
       {/* Googleマップ風 ヘッダー＆検索バー (2段組ツールバー) */}
@@ -339,7 +286,6 @@ export function App() {
         activeTrains={activeTrains}
         isHoliday={simState.isHoliday}
         onToggleHoliday={(val) => setSimState((prev) => ({ ...prev, isHoliday: val }))}
-        operationStatus={operationStatus}
         onOpenSettings={() => setIsSettingsOpen(true)}
         onOpenHelp={() => setIsHelpOpen(true)}
         isSidebarOpen={isSidebarOpen}
@@ -426,7 +372,6 @@ export function App() {
       <SettingsModal
         isOpen={isSettingsOpen}
         onClose={() => setIsSettingsOpen(false)}
-        onApplySettings={handleApplySettings}
         currentFps={simulationFps}
         onChangeFps={setSimulationFps}
       />

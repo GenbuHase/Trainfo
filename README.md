@@ -125,6 +125,7 @@
 Trainfo/
 ├── docs/                               # ドキュメント・アセット
 │   ├── ROUTE_EXPANSION_PLAYBOOK.md     # 路線追加完全手順書・設計ガイド
+│   ├── ODPT_INTEGRATION_KNOWLEDGE.md   # ODPT活用ナレッジ＆将来設計ガイド
 │   ├── logo.svg
 │   └── screenshot.png
 ├── scripts/                            # データ生成・スクレイピングパイプライン
@@ -159,8 +160,7 @@ Trainfo/
 │   │   ├── trackGeometry.ts            # 統合軌道・補間計算エンジン
 │   │   └── timetableData.ts            # 統合時刻表ユーティリティ
 │   ├── services/
-│   │   ├── trainSimulation.ts          # リアルタイム列車走行シミュレーションエンジン
-│   │   └── odptApi.ts                  # 運行情報API
+│   │   └── trainSimulation.ts          # リアルタイム列車走行シミュレーションエンジン
 │   ├── types/                          # TypeScript 型定義 (LineDefinition等)
 │   ├── App.tsx                         # メインアプリケーションコンポーネント
 │   └── main.tsx                        # エントリーポイント
@@ -170,11 +170,11 @@ Trainfo/
 
 ---
 
-## 📖 開発・路線拡張ガイド
+## 📖 開発・設計ドキュメント
 
-新しい路線を追加する際の手順、設計仕様、Yahoo! インポーター設定、およびチェックリストは以下にまとめられています。
+- 👉 [**Trainfo 路線追加完全プレイブック（docs/ROUTE_EXPANSION_PLAYBOOK.md）**](docs/ROUTE_EXPANSION_PLAYBOOK.md): 新路線追加の手順、インポーター設定、チェックリスト
+- 👉 [**ODPT活用ナレッジ＆将来設計ガイド（docs/ODPT_INTEGRATION_KNOWLEDGE.md）**](docs/ODPT_INTEGRATION_KNOWLEDGE.md): 公共交通オープンデータの活用可能性と推奨アーキテクチャ
 
-👉 [**Trainfo 路線追加完全プレイブック（docs/ROUTE_EXPANSION_PLAYBOOK.md）**](docs/ROUTE_EXPANSION_PLAYBOOK.md)
 
 ---
 

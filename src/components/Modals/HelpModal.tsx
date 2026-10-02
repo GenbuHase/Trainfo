@@ -1,6 +1,6 @@
 import React from 'react';
-import { X, Train, MapPin, LocateFixed, Sliders } from 'lucide-react';
-import { TRAIN_TYPES } from '../../data/trainTypes';
+import { X, Train, MapPin, LocateFixed, Sliders, Layers } from 'lucide-react';
+import { getAllLines } from '../../data/linesRegistry';
 
 interface HelpModalProps {
   isOpen: boolean;
@@ -9,6 +9,8 @@ interface HelpModalProps {
 
 export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
+
+  const lines = getAllLines();
 
   return (
     <div className="fixed inset-0 z-[2000] bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
@@ -19,7 +21,7 @@ export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
             <div className="w-6 h-6 rounded-md bg-[#004b97] text-white flex items-center justify-center font-black text-xs">
               T
             </div>
-            <h2 className="text-base font-bold text-slate-800">Trainfo 東武東上線 の使い方</h2>
+            <h2 className="text-base font-bold text-slate-800">Trainfo の使い方</h2>
           </div>
           <button
             onClick={onClose}
@@ -33,10 +35,20 @@ export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
           <section className="space-y-1.5">
             <h3 className="font-bold text-slate-900 flex items-center gap-1.5 text-sm">
               <Train className="w-4 h-4 text-[#004b97]" />
-              <span>リアルタイム車両位置の追跡</span>
+              <span>マルチ路線・リアルタイム車両位置の追跡</span>
             </h3>
             <p>
-              池袋から寄居まで全39駅の東武東上線ダイヤに基づき、現在走行中の全列車の位置・速度・進行方向を秒単位で高精度に計算して地図上にアニメーション表示します。
+              東武東上線、JR埼京線・川越線、JR武蔵野線（直通含む）、首都圏新都市鉄道つくばエクスプレスの公式ダイヤに基づき、現在走行中の全列車の位置・速度・進行方向を秒単位で高精度に計算して地図上にアニメーション表示します。
+            </p>
+          </section>
+
+          <section className="space-y-1.5">
+            <h3 className="font-bold text-slate-900 flex items-center gap-1.5 text-sm">
+              <Layers className="w-4 h-4 text-emerald-600" />
+              <span>路線セレクター & 絞り込み</span>
+            </h3>
+            <p>
+              画面上部のチェックボックスから、表示したい路線を自由に選択・切り替えできます。方面別（上り・下り）や種別（優等・各停）のフィルタリングにも対応しています。
             </p>
           </section>
 
@@ -46,7 +58,7 @@ export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
               <span>駅詳細＆電光掲示板（発車標）</span>
             </h3>
             <p>
-              地図上の駅ピンまたは検索ボックスから駅を選択すると、サイドパネルに駅構内設備、直近の発車案内（電光掲示板風）、および全日時刻表（平日/土休日）が表示されます。
+              地図上の駅ピンまたは検索ボックスから駅を選択すると、サイドパネルに駅構内設備、直近の発車案内（電光掲示板風）、および全日時刻表（平日/土休日）が表示されます。南流山や川越、武蔵浦和などの乗換駅では、他路線の同名駅への切り替えも可能です。
             </p>
           </section>
 
@@ -56,7 +68,7 @@ export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
               <span>列車追尾モード (Track Train)</span>
             </h3>
             <p>
-              走行中の列車をクリックすると、列車種別・編成両数・停車駅タイムラインが表示されます。「この列車を追尾する」をONにすると、マップのカメラが列車に追従して自動移動します。
+              走行中の列車をクリックすると、列車種別・編成両数・停車駅タイムライン（各駅の着時刻・発時刻）が表示されます。「この列車を追尾する」をONにすると、マップのカメラが列車に追従して自動移動します。
             </p>
           </section>
 
@@ -66,23 +78,23 @@ export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
               <span>タイムマシン＆遅延シミュレーション</span>
             </h3>
             <p>
-              画面下部のコントローラーで、早送り（最大30倍速）、一時停止、時間帯ジャンプ（朝ラッシュ、夕ラッシュ、終電帯など）が可能です。また、任意の遅延（+5分、+15分、ランダム遅延）を発生させるシミュレーションも行えます。
+              画面下部のコントローラーで、早送り（最大600倍速）、一時停止、時間帯ジャンプ（朝ラッシュ、夕ラッシュ、終電帯など）が可能です。また、任意の遅延（+5分、+15分、ランダム遅延）を発生させるシミュレーションも行えます。
             </p>
           </section>
 
-          {/* 種別一覧 */}
+          {/* 対応路線一覧 */}
           <section className="pt-3 border-t border-slate-200">
-            <h4 className="font-bold text-slate-800 mb-2">運行種別とカラー</h4>
+            <h4 className="font-bold text-slate-800 mb-2">対応路線一覧</h4>
             <div className="grid grid-cols-2 gap-2">
-              {Object.values(TRAIN_TYPES).map((type) => (
-                <div key={type.key} className="flex items-center gap-2 p-1.5 rounded-lg bg-slate-50 border border-slate-100">
+              {lines.map((l) => (
+                <div key={l.id} className="flex items-center gap-2 p-2 rounded-lg bg-slate-50 border border-slate-100">
                   <span
                     className="w-3 h-3 rounded-full shrink-0"
-                    style={{ backgroundColor: type.bgColor }}
+                    style={{ backgroundColor: l.lineColor }}
                   />
                   <div>
-                    <span className="font-bold text-slate-800">{type.name}</span>
-                    <span className="text-[10px] text-slate-400 block">{type.nameEn}</span>
+                    <span className="font-bold text-slate-800 text-[11px] block">{l.name}</span>
+                    <span className="text-[10px] text-slate-400 block">{l.operator}</span>
                   </div>
                 </div>
               ))}
