@@ -21,6 +21,7 @@ import type {
   TrainOperationStatus,
 } from './services/odptApi';
 import { getAllLines } from './data/linesRegistry';
+import { SIMULATION_TICK_INTERVAL_SEC } from './constants';
 
 export function App() {
   // 選択路線リスト（初期値: localStorage または 登録全路線）
@@ -150,7 +151,7 @@ export function App() {
 
     const tick = (now: number) => {
       const elapsed = (now - lastTickTimeRef.current) / 1000;
-      if (elapsed >= 0.1) {
+      if (elapsed >= SIMULATION_TICK_INTERVAL_SEC) {
         lastTickTimeRef.current = now;
 
         setSimState((prev) => {
