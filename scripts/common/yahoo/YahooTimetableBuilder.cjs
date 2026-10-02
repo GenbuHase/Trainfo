@@ -219,6 +219,41 @@ class YahooTimetableBuilder {
           departureTime: this.secondsToTimeString(dep),
           isPassing: false,
         });
+
+        // 次の停車駅との間に通過駅が存在する場合、通過駅（isPassing: true）を線形補間して挿入
+        if (i < lineStops.length - 1) {
+          const next = lineStops[i + 1];
+          let nextArr = next.arrSec;
+          let nextDep = next.depSec;
+          if (nextArr === null) nextArr = nextDep;
+
+          const curPrefix = cur.station.id.replace(/-\d+$/, '');
+          const nextPrefix = next.station.id.replace(/-\d+$/, '');
+
+          if (curPrefix === nextPrefix && cur.station.number && next.station.number) {
+            const numDiff = next.station.number - cur.station.number;
+            const step = numDiff > 0 ? 1 : -1;
+            const stepsCount = Math.abs(numDiff);
+
+            if (stepsCount > 1 && dep !== null && nextArr !== null) {
+              for (let s = 1; s < stepsCount; s++) {
+                const intermediateNum = cur.station.number + s * step;
+                const intermediateId = `${curPrefix}-${intermediateNum}`;
+                const intermediateSt = this.stById.get(intermediateId);
+                if (intermediateSt) {
+                  const ratio = s / stepsCount;
+                  const passSec = Math.round(dep + (nextArr - dep) * ratio);
+                  stops.push({
+                    stationId: intermediateSt.id,
+                    arrivalTime: this.secondsToTimeString(passSec),
+                    departureTime: this.secondsToTimeString(passSec),
+                    isPassing: true,
+                  });
+                }
+              }
+            }
+          }
+        }
       }
 
       const trainType = trainDetail.trainType || this.resolveTrainType(displayName);
