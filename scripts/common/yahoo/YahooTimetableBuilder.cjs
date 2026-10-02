@@ -73,30 +73,13 @@ class YahooTimetableBuilder {
       return this.config.trainTypeMap[half];
     }
 
-    // 4. キーワードマッチ（路線の trainTypeMap に定義が存在する場合のみ許可）
-    if (/通勤快速/i.test(trimmed) && this.config.trainTypeMap['通勤快速']) {
-      return this.config.trainTypeMap['通勤快速'];
-    }
-    if (/TJライナー|ＴＪライナー|ライナー/i.test(trimmed) && (this.config.trainTypeMap['TJライナー'] || this.config.trainTypeMap['ライナー'])) {
-      return this.config.trainTypeMap['TJライナー'] || this.config.trainTypeMap['ライナー'];
-    }
-    if (/川越特急/i.test(trimmed) && this.config.trainTypeMap['川越特急']) {
-      return this.config.trainTypeMap['川越特急'];
-    }
-    if (/快速急行/i.test(trimmed) && this.config.trainTypeMap['快速急行']) {
-      return this.config.trainTypeMap['快速急行'];
-    }
-    if (/急行/i.test(trimmed) && this.config.trainTypeMap['急行']) {
-      return this.config.trainTypeMap['急行'];
-    }
-    if (/準急/i.test(trimmed) && this.config.trainTypeMap['準急']) {
-      return this.config.trainTypeMap['準急'];
-    }
-    if (/快速/i.test(trimmed) && this.config.trainTypeMap['快速']) {
-      return this.config.trainTypeMap['快速'];
-    }
-    if (/特急/i.test(trimmed) && this.config.trainTypeMap['特急']) {
-      return this.config.trainTypeMap['特急'];
+    // 4. 最長一致キーワードマッチ（路線configのtrainTypeMapキーを文字列長の長い順に自動走査）
+    // （例: 「川越特急」が「特急」より先にマッチし、「快速急行」が「快速」より先にマッチする）
+    const sortedKeys = Object.keys(this.config.trainTypeMap || {}).sort((a, b) => b.length - a.length);
+    for (const key of sortedKeys) {
+      if (trimmed.includes(key) || half.includes(key)) {
+        return this.config.trainTypeMap[key];
+      }
     }
 
     return this.config.defaultTrainType || 'local';
@@ -373,8 +356,9 @@ class YahooTimetableBuilder {
     const hasPassingStop = stops.some(s => s.isPassing);
 
     // 安全策1: 自社線区間内で通過駅が1駅も存在しない（全駅停車）場合、自社線内では普通（local）として運行
-    // （他社線直通区間での種別「特急」「急行」の自社線各停区間への誤適用を防止。ただし有料・指定席優等の特急やライナーは保持）
-    if (!hasPassingStop && trainType !== 'local' && trainType !== 'limitedExp' && trainType !== 'tjLiner') {
+    // （他社線直通区間での種別「特急」「急行」の自社線各停区間への誤適用を防止。ただし特急や設定で指定された優等種別は保持）
+    const preserveTypes = new Set(['limitedExp', ...(this.config.preserveAllStopsTypes || [])]);
+    if (!hasPassingStop && trainType !== 'local' && !preserveTypes.has(trainType)) {
       trainType = 'local';
     }
 

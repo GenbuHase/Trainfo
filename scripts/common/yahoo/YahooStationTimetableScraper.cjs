@@ -37,30 +37,13 @@ class YahooStationTimetableScraper {
       return this.config.trainTypeMap[half];
     }
 
-    // 4. キーワードマッチ（路線の trainTypeMap に定義が存在する場合のみ許可）
-    if (/通勤快速/i.test(trimmed) && this.config.trainTypeMap['通勤快速']) {
-      return this.config.trainTypeMap['通勤快速'];
-    }
-    if (/TJライナー|ＴＪライナー|ライナー/i.test(trimmed) && (this.config.trainTypeMap['TJライナー'] || this.config.trainTypeMap['ライナー'])) {
-      return this.config.trainTypeMap['TJライナー'] || this.config.trainTypeMap['ライナー'];
-    }
-    if (/川越特急/i.test(trimmed) && this.config.trainTypeMap['川越特急']) {
-      return this.config.trainTypeMap['川越特急'];
-    }
-    if (/快速急行/i.test(trimmed) && this.config.trainTypeMap['快速急行']) {
-      return this.config.trainTypeMap['快速急行'];
-    }
-    if (/急行/i.test(trimmed) && this.config.trainTypeMap['急行']) {
-      return this.config.trainTypeMap['急行'];
-    }
-    if (/準急/i.test(trimmed) && this.config.trainTypeMap['準急']) {
-      return this.config.trainTypeMap['準急'];
-    }
-    if (/快速/i.test(trimmed) && this.config.trainTypeMap['快速']) {
-      return this.config.trainTypeMap['快速'];
-    }
-    if (/特急/i.test(trimmed) && this.config.trainTypeMap['特急']) {
-      return this.config.trainTypeMap['特急'];
+    // 4. 最長一致キーワードマッチ（路線configのtrainTypeMapキーを文字列長の長い順に自動走査）
+    // （例: 「川越特急」が「特急」より先にマッチし、「快速急行」が「快速」より先にマッチする）
+    const sortedKeys = Object.keys(this.config.trainTypeMap || {}).sort((a, b) => b.length - a.length);
+    for (const key of sortedKeys) {
+      if (trimmed.includes(key) || half.includes(key)) {
+        return this.config.trainTypeMap[key];
+      }
     }
 
     return this.config.defaultTrainType || 'local';

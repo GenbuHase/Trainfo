@@ -42,6 +42,7 @@ module.exports = {
     '通勤急行': 'express',
     '通勤特急': 'rapidExp',
   },
+  preserveAllStopsTypes: ['tjLiner'],
   defaultCars: 10,
   baseSectionSeconds: {
     // 基準駅間秒数（標準2分〜3分）
