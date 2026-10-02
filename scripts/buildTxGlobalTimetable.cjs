@@ -1,46 +1,21 @@
-// つくばエクスプレス（TX）の駅探スクレイピングデータから globalTimetable.json を高精度生成
+// つくばエクスプレス（TX）globalTimetable.json 共通汎用ビルダー
+// stations.ts の stoppingTypes（Single Source of Truth）に基づき、路線個別ハードコードなしでトリップを生成
 const fs = require('fs');
 const path = require('path');
 
 const raw = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'ekitan_tx_raw_timetables.json'), 'utf8'));
 
-const STATIONS = [
-  { id: 'TX-01', number: 1, name: '秋葉原' },
-  { id: 'TX-02', number: 2, name: '新御徒町' },
-  { id: 'TX-03', number: 3, name: '浅草' },
-  { id: 'TX-04', number: 4, name: '南千住' },
-  { id: 'TX-05', number: 5, name: '北千住' },
-  { id: 'TX-06', number: 6, name: '青井' },
-  { id: 'TX-07', number: 7, name: '六町' },
-  { id: 'TX-08', number: 8, name: '八潮' },
-  { id: 'TX-09', number: 9, name: '三郷中央' },
-  { id: 'TX-10', number: 10, name: '南流山' },
-  { id: 'TX-11', number: 11, name: '流山セントラルパーク' },
-  { id: 'TX-12', number: 12, name: '流山おおたかの森' },
-  { id: 'TX-13', number: 13, name: '柏の葉キャンパス' },
-  { id: 'TX-14', number: 14, name: '柏たなか' },
-  { id: 'TX-15', number: 15, name: '守谷' },
-  { id: 'TX-16', number: 16, name: 'みらい平' },
-  { id: 'TX-17', number: 17, name: 'みどりの' },
-  { id: 'TX-18', number: 18, name: '万博記念公園' },
-  { id: 'TX-19', number: 19, name: '研究学園' },
-  { id: 'TX-20', number: 20, name: 'つくば' },
-];
+// stations.ts から駅定義メタデータを直接読み込み（Single Source of Truth）
+const stationsTs = fs.readFileSync(path.resolve(__dirname, '../src/data/lines/tsukuba_express/stations.ts'), 'utf8');
+const stationsMatch = stationsTs.match(/export const TX_STATIONS: Station\[] =\s*(\[[\s\S]*?\]);\s*$/m);
+const STATIONS = JSON.parse(stationsMatch[1]);
 
 const ST_BY_ID = new Map(STATIONS.map(s => [s.id, s]));
 const ST_BY_NUM = new Map(STATIONS.map(s => [s.number, s]));
 const NAME_TO_ST = new Map(STATIONS.map(s => [s.name, s]));
 
-// 公式停車駅ルール
-const TX_STOPPING_RULES = {
-  local: new Set([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]),
-  semi_rapid: new Set([1, 2, 3, 4, 5, 8, 9, 10, 12, 13, 15, 16, 17, 18, 19, 20]),
-  commuter_rapid: new Set([1, 2, 3, 4, 5, 7, 8, 10, 12, 13, 15, 19, 20]),
-  rapid: new Set([1, 2, 3, 4, 5, 8, 10, 12, 15, 20]),
-};
-
-// 普通列車の駅間標準秒数
-const LOCAL_SECTION_SECS = {
+// 各駅間の基準所要時間（普通列車＝全駅停車基準）
+const BASE_SECTION_SECS = {
   1: 120, // 秋葉原 -> 新御徒町
   2: 120, // 新御徒町 -> 浅草
   3: 180, // 浅草 -> 南千住
@@ -62,6 +37,31 @@ const LOCAL_SECTION_SECS = {
   19: 180, // 研究学園 -> つくば
 };
 
+// 汎用判定: 駅メタデータの stoppingTypes に基づく判定
+function isStationStopping(station, trainType) {
+  return station.stoppingTypes.includes(trainType);
+}
+
+// 汎用所要時間計算: 通過駅は停車・加減速ロスト時分（45秒）をカットして高速走行時間を自動算出
+function calculateHopSeconds(fromNum, toNum, trainType) {
+  const isForward = fromNum < toNum;
+  const step = isForward ? 1 : -1;
+  let totalSec = 0;
+
+  for (let n = fromNum; n !== toNum; n += step) {
+    const sectionKey = isForward ? n : n - 1;
+    const baseSec = BASE_SECTION_SECS[sectionKey] || 180;
+    const nextSt = ST_BY_NUM.get(isForward ? n + 1 : n - 1);
+    const isStopping = nextSt.number === toNum || isStationStopping(nextSt, trainType);
+
+    // 通過駅なら加減速・停車ロスト（45秒）をカット
+    const hopSec = isStopping ? baseSec : Math.max(60, baseSec - 45);
+    totalSec += hopSec;
+  }
+
+  return totalSec;
+}
+
 function secondsToTimeString(sec) {
   const norm = (Math.floor(sec) + 86400 * 2) % 86400;
   const h = Math.floor(norm / 3600).toString().padStart(2, '0');
@@ -82,22 +82,6 @@ function getTerminalStation(dest, direction) {
     if (dest.includes('守谷')) return ST_BY_ID.get('TX-15');
   }
   return NAME_TO_ST.get(dest);
-}
-
-// 快速・通快などの守谷〜つくば間所要時間（秒）
-function getSectionDuration(fromNum, toNum, trainType) {
-  if (fromNum === 15 && toNum === 20) {
-    if (trainType === 'rapid') return 780; // 快速: 13分
-    if (trainType === 'commuter_rapid') return 840; // 通勤快速: 14分
-    return 1020; // 普通・区快: 17分
-  }
-  let total = 0;
-  const step = fromNum < toNum ? 1 : -1;
-  for (let n = fromNum; n !== toNum; n += step) {
-    const key = step > 0 ? n : n - 1;
-    total += LOCAL_SECTION_SECS[key] || 180;
-  }
-  return total;
 }
 
 const allTrips = [];
@@ -160,15 +144,14 @@ for (const dayKey of ['weekday', 'holiday']) {
     const knownDepMap = new Map();
     stopPairs.forEach(sp => knownDepMap.set(sp.num, sp.depSec));
 
-    // 終着駅（endNum）の到着時刻を算出
+    // 終着駅（endNum）の到着時刻を汎用計算（通過駅の加減速ロストカットを含む）
     if (!knownDepMap.has(endNum)) {
-      const dur = getSectionDuration(lastStop.num, endNum, info.type);
+      const dur = calculateHopSeconds(lastStop.num, endNum, info.type);
       knownDepMap.set(endNum, lastStop.depSec + dur);
     }
 
     // startNum から endNum までの全駅ストップを生成
     const stops = [];
-    const stoppingRule = TX_STOPPING_RULES[info.type] || TX_STOPPING_RULES.local;
 
     for (let num = startNum; num <= endNum; num++) {
       const st = ST_BY_NUM.get(num);
@@ -176,9 +159,8 @@ for (const dayKey of ['weekday', 'holiday']) {
       const isDest = num === endNum;
       const hasRawData = rawStops.has(st.id);
 
-      // 停車駅判定: 始発・終着は必ず停車。途中駅は「実績発車データがある」か「停車ルールに含まれる」
-      // 快速にとって守谷〜つくばの途中駅（16〜19）は stoppingRule に含まれないので false になる！
-      const isStopping = isOrigin || isDest || (hasRawData && stoppingRule.has(num)) || (!hasRawData && stoppingRule.has(num));
+      // 汎用停車判定: 始発・終着は必ず停車。途中駅は駅定義の stoppingTypes または実績データに基づく
+      const isStopping = isOrigin || isDest || (hasRawData && isStationStopping(st, info.type)) || (!hasRawData && isStationStopping(st, info.type));
 
       let depSec, arrSec;
       if (knownDepMap.has(num)) {
@@ -277,15 +259,14 @@ for (const dayKey of ['weekday', 'holiday']) {
     const knownDepMap = new Map();
     stopPairs.forEach(sp => knownDepMap.set(sp.num, sp.depSec));
 
-    // 終着駅（endNum）の到着時刻を算出
+    // 終着駅（endNum）の到着時刻を汎用計算
     if (!knownDepMap.has(endNum)) {
-      const dur = getSectionDuration(lastStop.num, endNum, info.type);
+      const dur = calculateHopSeconds(lastStop.num, endNum, info.type);
       knownDepMap.set(endNum, lastStop.depSec + dur);
     }
 
     // startNum から endNum までの全駅ストップを生成
     const stops = [];
-    const stoppingRule = TX_STOPPING_RULES[info.type] || TX_STOPPING_RULES.local;
 
     for (let num = startNum; num >= endNum; num--) {
       const st = ST_BY_NUM.get(num);
@@ -293,7 +274,7 @@ for (const dayKey of ['weekday', 'holiday']) {
       const isDest = num === endNum;
       const hasRawData = rawStops.has(st.id);
 
-      const isStopping = isOrigin || isDest || (hasRawData && stoppingRule.has(num)) || (!hasRawData && stoppingRule.has(num));
+      const isStopping = isOrigin || isDest || (hasRawData && isStationStopping(st, info.type)) || (!hasRawData && isStationStopping(st, info.type));
 
       let depSec, arrSec;
       if (knownDepMap.has(num)) {
