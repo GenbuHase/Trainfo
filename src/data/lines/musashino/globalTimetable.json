@@ -26100,20 +26100,26 @@
     ]
   },
   {
-    "tripId": "WD_OUT_903E",
+    "tripId": "WD_OUT_SHIMOUSA_903E",
     "lineId": "musashino",
     "trainNumber": "903E",
-    "trainType": "local",
+    "trainType": "regular",
     "direction": "outbound",
-    "originStationId": "JM-26",
+    "originStationId": "JA-26",
     "destinationStationId": "JE-14",
     "customDestination": "海浜幕張",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
+        "stationId": "JA-26",
+        "arrivalTime": "09:30:00",
+        "departureTime": "09:30:00",
+        "isPassing": false
+      },
+      {
         "stationId": "JM-26",
-        "arrivalTime": "09:40:00",
+        "arrivalTime": "09:39:30",
         "departureTime": "09:40:00",
         "isPassing": false
       },
@@ -26240,20 +26246,26 @@
     ]
   },
   {
-    "tripId": "WD_OUT_1803E",
+    "tripId": "WD_OUT_SHIMOUSA_1803E",
     "lineId": "musashino",
     "trainNumber": "1803E",
-    "trainType": "local",
+    "trainType": "regular",
     "direction": "outbound",
-    "originStationId": "JM-26",
+    "originStationId": "JA-26",
     "destinationStationId": "JM-10",
     "customDestination": "西船橋",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
+        "stationId": "JA-26",
+        "arrivalTime": "18:28:00",
+        "departureTime": "18:28:00",
+        "isPassing": false
+      },
+      {
         "stationId": "JM-26",
-        "arrivalTime": "18:38:00",
+        "arrivalTime": "18:37:30",
         "departureTime": "18:38:00",
         "isPassing": false
       },
@@ -26356,20 +26368,26 @@
     ]
   },
   {
-    "tripId": "WD_OUT_2003E",
+    "tripId": "WD_OUT_SHIMOUSA_2003E",
     "lineId": "musashino",
     "trainNumber": "2003E",
-    "trainType": "local",
+    "trainType": "regular",
     "direction": "outbound",
-    "originStationId": "JM-26",
+    "originStationId": "JA-26",
     "destinationStationId": "JE-12",
     "customDestination": "新習志野",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
+        "stationId": "JA-26",
+        "arrivalTime": "20:59:00",
+        "departureTime": "20:59:00",
+        "isPassing": false
+      },
+      {
         "stationId": "JM-26",
-        "arrivalTime": "21:09:00",
+        "arrivalTime": "21:08:30",
         "departureTime": "21:09:00",
         "isPassing": false
       },
@@ -27498,6 +27516,396 @@
     ]
   },
   {
+    "tripId": "WD_IN_SHIMOUSA_2752M",
+    "lineId": "musashino",
+    "trainNumber": "2752M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "JE-12",
+    "destinationStationId": "JA-26",
+    "customDestination": "大宮",
+    "cars": 8,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JE-12",
+        "arrivalTime": "07:12:00",
+        "departureTime": "07:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JE-11",
+        "arrivalTime": "07:14:30",
+        "departureTime": "07:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-10",
+        "arrivalTime": "07:21:30",
+        "departureTime": "07:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-11",
+        "arrivalTime": "07:24:30",
+        "departureTime": "07:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-12",
+        "arrivalTime": "07:27:30",
+        "departureTime": "07:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-13",
+        "arrivalTime": "07:30:30",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-14",
+        "arrivalTime": "07:32:30",
+        "departureTime": "07:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-15",
+        "arrivalTime": "07:37:30",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-16",
+        "arrivalTime": "07:39:30",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-17",
+        "arrivalTime": "07:42:30",
+        "departureTime": "07:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-18",
+        "arrivalTime": "07:44:30",
+        "departureTime": "07:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-19",
+        "arrivalTime": "07:47:30",
+        "departureTime": "07:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-20",
+        "arrivalTime": "07:49:30",
+        "departureTime": "07:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-21",
+        "arrivalTime": "07:51:30",
+        "departureTime": "07:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-22",
+        "arrivalTime": "07:55:30",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-23",
+        "arrivalTime": "08:00:30",
+        "departureTime": "08:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-24",
+        "arrivalTime": "08:04:30",
+        "departureTime": "08:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-25",
+        "arrivalTime": "08:08:30",
+        "departureTime": "08:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-26",
+        "arrivalTime": "08:11:30",
+        "departureTime": "08:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-26",
+        "arrivalTime": "08:22:00",
+        "departureTime": "08:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_IN_SHIMOUSA_2754M",
+    "lineId": "musashino",
+    "trainNumber": "2754M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "JE-12",
+    "destinationStationId": "JA-26",
+    "customDestination": "大宮",
+    "cars": 8,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JE-12",
+        "arrivalTime": "15:54:00",
+        "departureTime": "15:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JE-11",
+        "arrivalTime": "15:56:30",
+        "departureTime": "15:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-10",
+        "arrivalTime": "16:02:30",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-11",
+        "arrivalTime": "16:05:30",
+        "departureTime": "16:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-12",
+        "arrivalTime": "16:08:30",
+        "departureTime": "16:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-13",
+        "arrivalTime": "16:11:30",
+        "departureTime": "16:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-14",
+        "arrivalTime": "16:13:30",
+        "departureTime": "16:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-15",
+        "arrivalTime": "16:17:30",
+        "departureTime": "16:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-16",
+        "arrivalTime": "16:20:30",
+        "departureTime": "16:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-17",
+        "arrivalTime": "16:22:30",
+        "departureTime": "16:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-18",
+        "arrivalTime": "16:25:30",
+        "departureTime": "16:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-19",
+        "arrivalTime": "16:27:30",
+        "departureTime": "16:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-20",
+        "arrivalTime": "16:29:30",
+        "departureTime": "16:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-21",
+        "arrivalTime": "16:31:30",
+        "departureTime": "16:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-22",
+        "arrivalTime": "16:34:30",
+        "departureTime": "16:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-23",
+        "arrivalTime": "16:38:30",
+        "departureTime": "16:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-24",
+        "arrivalTime": "16:42:30",
+        "departureTime": "16:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-25",
+        "arrivalTime": "16:46:30",
+        "departureTime": "16:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-26",
+        "arrivalTime": "16:49:30",
+        "departureTime": "16:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-26",
+        "arrivalTime": "17:00:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_IN_SHIMOUSA_2756M",
+    "lineId": "musashino",
+    "trainNumber": "2756M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "JM-10",
+    "destinationStationId": "JA-26",
+    "customDestination": "大宮",
+    "cars": 8,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JM-10",
+        "arrivalTime": "19:36:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-11",
+        "arrivalTime": "19:38:30",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-12",
+        "arrivalTime": "19:41:30",
+        "departureTime": "19:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-13",
+        "arrivalTime": "19:43:30",
+        "departureTime": "19:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-14",
+        "arrivalTime": "19:46:30",
+        "departureTime": "19:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-15",
+        "arrivalTime": "19:50:30",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-16",
+        "arrivalTime": "19:52:30",
+        "departureTime": "19:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-17",
+        "arrivalTime": "19:55:30",
+        "departureTime": "19:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-18",
+        "arrivalTime": "19:57:30",
+        "departureTime": "19:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-19",
+        "arrivalTime": "19:59:30",
+        "departureTime": "20:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-20",
+        "arrivalTime": "20:01:30",
+        "departureTime": "20:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-21",
+        "arrivalTime": "20:04:30",
+        "departureTime": "20:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-22",
+        "arrivalTime": "20:07:30",
+        "departureTime": "20:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-23",
+        "arrivalTime": "20:11:30",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-24",
+        "arrivalTime": "20:14:30",
+        "departureTime": "20:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-25",
+        "arrivalTime": "20:19:30",
+        "departureTime": "20:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-26",
+        "arrivalTime": "20:22:30",
+        "departureTime": "20:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-26",
+        "arrivalTime": "20:33:00",
+        "departureTime": "20:33:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
     "tripId": "WD_IN_2250E",
     "lineId": "musashino",
     "trainNumber": "2250E",
@@ -27727,135 +28135,15 @@
     "trainNumber": "416E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "03:43:00",
-        "departureTime": "03:43:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "03:46:30",
-        "departureTime": "03:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "03:49:30",
-        "departureTime": "03:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "03:52:30",
-        "departureTime": "03:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "03:55:30",
-        "departureTime": "03:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "03:59:30",
-        "departureTime": "04:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "04:02:30",
-        "departureTime": "04:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "04:04:30",
-        "departureTime": "04:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "04:07:30",
-        "departureTime": "04:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "04:09:30",
-        "departureTime": "04:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "04:11:30",
-        "departureTime": "04:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "04:13:30",
-        "departureTime": "04:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "04:16:30",
-        "departureTime": "04:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "04:20:30",
-        "departureTime": "04:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "04:24:30",
-        "departureTime": "04:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "04:28:30",
-        "departureTime": "04:29:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "04:31:30",
-        "departureTime": "04:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "04:34:30",
-        "departureTime": "04:35:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "04:38:30",
-        "departureTime": "04:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "04:41:30",
-        "departureTime": "04:42:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "04:45:30",
+        "arrivalTime": "04:46:00",
         "departureTime": "04:46:00",
         "isPassing": false
       },
@@ -27897,135 +28185,15 @@
     "trainNumber": "556E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "03:58:00",
-        "departureTime": "03:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "04:01:30",
-        "departureTime": "04:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "04:04:30",
-        "departureTime": "04:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "04:07:30",
-        "departureTime": "04:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "04:10:30",
-        "departureTime": "04:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "04:14:30",
-        "departureTime": "04:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "04:17:30",
-        "departureTime": "04:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "04:19:30",
-        "departureTime": "04:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "04:22:30",
-        "departureTime": "04:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "04:24:30",
-        "departureTime": "04:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "04:26:30",
-        "departureTime": "04:27:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "04:28:30",
-        "departureTime": "04:29:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "04:31:30",
-        "departureTime": "04:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "04:35:30",
-        "departureTime": "04:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "04:39:30",
-        "departureTime": "04:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "04:43:30",
-        "departureTime": "04:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "04:46:30",
-        "departureTime": "04:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "04:49:30",
-        "departureTime": "04:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "04:53:30",
-        "departureTime": "04:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "04:56:30",
-        "departureTime": "04:57:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "05:00:30",
+        "arrivalTime": "05:01:00",
         "departureTime": "05:01:00",
         "isPassing": false
       },
@@ -28067,135 +28235,15 @@
     "trainNumber": "514E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "04:10:00",
-        "departureTime": "04:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "04:13:30",
-        "departureTime": "04:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "04:16:30",
-        "departureTime": "04:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "04:19:30",
-        "departureTime": "04:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "04:22:30",
-        "departureTime": "04:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "04:26:30",
-        "departureTime": "04:27:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "04:29:30",
-        "departureTime": "04:30:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "04:31:30",
-        "departureTime": "04:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "04:34:30",
-        "departureTime": "04:35:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "04:36:30",
-        "departureTime": "04:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "04:38:30",
-        "departureTime": "04:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "04:40:30",
-        "departureTime": "04:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "04:43:30",
-        "departureTime": "04:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "04:47:30",
-        "departureTime": "04:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "04:51:30",
-        "departureTime": "04:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "04:55:30",
-        "departureTime": "04:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "04:58:30",
-        "departureTime": "04:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "05:01:30",
-        "departureTime": "05:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "05:05:30",
-        "departureTime": "05:06:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "05:08:30",
-        "departureTime": "05:09:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "05:12:30",
+        "arrivalTime": "05:13:00",
         "departureTime": "05:13:00",
         "isPassing": false
       },
@@ -28237,87 +28285,15 @@
     "trainNumber": "408E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-22",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "04:24:00",
-        "departureTime": "04:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "04:27:30",
-        "departureTime": "04:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "04:30:30",
-        "departureTime": "04:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "04:33:30",
-        "departureTime": "04:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "04:36:30",
-        "departureTime": "04:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "04:40:30",
-        "departureTime": "04:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "04:43:30",
-        "departureTime": "04:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "04:45:30",
-        "departureTime": "04:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "04:48:30",
-        "departureTime": "04:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "04:50:30",
-        "departureTime": "04:51:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "04:52:30",
-        "departureTime": "04:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "04:54:30",
-        "departureTime": "04:55:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-22",
-        "arrivalTime": "04:57:30",
+        "arrivalTime": "04:58:00",
         "departureTime": "04:58:00",
         "isPassing": false
       },
@@ -28407,87 +28383,15 @@
     "trainNumber": "578E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-22",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "04:41:00",
-        "departureTime": "04:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "04:44:30",
-        "departureTime": "04:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "04:47:30",
-        "departureTime": "04:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "04:50:30",
-        "departureTime": "04:51:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "04:53:30",
-        "departureTime": "04:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "04:57:30",
-        "departureTime": "04:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "05:00:30",
-        "departureTime": "05:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "05:02:30",
-        "departureTime": "05:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "05:05:30",
-        "departureTime": "05:06:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "05:07:30",
-        "departureTime": "05:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "05:09:30",
-        "departureTime": "05:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "05:11:30",
-        "departureTime": "05:12:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-22",
-        "arrivalTime": "05:14:30",
+        "arrivalTime": "05:15:00",
         "departureTime": "05:15:00",
         "isPassing": false
       },
@@ -28747,135 +28651,15 @@
     "trainNumber": "650E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "05:08:00",
-        "departureTime": "05:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "05:11:30",
-        "departureTime": "05:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "05:14:30",
-        "departureTime": "05:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "05:17:30",
-        "departureTime": "05:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "05:20:30",
-        "departureTime": "05:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "05:24:30",
-        "departureTime": "05:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "05:27:30",
-        "departureTime": "05:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "05:29:30",
-        "departureTime": "05:30:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "05:32:30",
-        "departureTime": "05:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "05:34:30",
-        "departureTime": "05:35:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "05:36:30",
-        "departureTime": "05:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "05:38:30",
-        "departureTime": "05:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "05:41:30",
-        "departureTime": "05:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "05:45:30",
-        "departureTime": "05:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "05:49:30",
-        "departureTime": "05:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "05:53:30",
-        "departureTime": "05:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "05:56:30",
-        "departureTime": "05:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "05:59:30",
-        "departureTime": "06:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "06:03:30",
-        "departureTime": "06:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "06:06:30",
-        "departureTime": "06:07:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "06:10:30",
+        "arrivalTime": "06:11:00",
         "departureTime": "06:11:00",
         "isPassing": false
       },
@@ -29099,135 +28883,15 @@
     "trainNumber": "676E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "05:25:00",
-        "departureTime": "05:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "05:28:30",
-        "departureTime": "05:29:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "05:31:30",
-        "departureTime": "05:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "05:34:30",
-        "departureTime": "05:35:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "05:37:30",
-        "departureTime": "05:38:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "05:41:30",
-        "departureTime": "05:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "05:44:30",
-        "departureTime": "05:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "05:46:30",
-        "departureTime": "05:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "05:49:30",
-        "departureTime": "05:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "05:51:30",
-        "departureTime": "05:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "05:53:30",
-        "departureTime": "05:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "05:55:30",
-        "departureTime": "05:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "05:58:30",
-        "departureTime": "05:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "06:02:30",
-        "departureTime": "06:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "06:06:30",
-        "departureTime": "06:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "06:10:30",
-        "departureTime": "06:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "06:13:30",
-        "departureTime": "06:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "06:16:30",
-        "departureTime": "06:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "06:20:30",
-        "departureTime": "06:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "06:23:30",
-        "departureTime": "06:24:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "06:27:30",
+        "arrivalTime": "06:28:00",
         "departureTime": "06:28:00",
         "isPassing": false
       },
@@ -29451,135 +29115,15 @@
     "trainNumber": "610E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "05:39:00",
-        "departureTime": "05:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "05:42:30",
-        "departureTime": "05:43:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "05:45:30",
-        "departureTime": "05:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "05:48:30",
-        "departureTime": "05:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "05:51:30",
-        "departureTime": "05:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "05:55:30",
-        "departureTime": "05:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "05:58:30",
-        "departureTime": "05:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "06:00:30",
-        "departureTime": "06:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "06:03:30",
-        "departureTime": "06:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "06:05:30",
-        "departureTime": "06:06:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "06:07:30",
-        "departureTime": "06:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "06:09:30",
-        "departureTime": "06:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "06:12:30",
-        "departureTime": "06:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "06:16:30",
-        "departureTime": "06:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "06:20:30",
-        "departureTime": "06:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "06:24:30",
-        "departureTime": "06:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "06:27:30",
-        "departureTime": "06:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "06:30:30",
-        "departureTime": "06:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "06:34:30",
-        "departureTime": "06:35:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "06:37:30",
-        "departureTime": "06:38:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "06:41:30",
+        "arrivalTime": "06:42:00",
         "departureTime": "06:42:00",
         "isPassing": false
       },
@@ -44289,135 +43833,15 @@
     "trainNumber": "1742E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "16:30:00",
-        "departureTime": "16:30:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "16:33:30",
-        "departureTime": "16:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "16:36:30",
-        "departureTime": "16:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "16:39:30",
-        "departureTime": "16:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "16:42:30",
-        "departureTime": "16:43:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "16:46:30",
-        "departureTime": "16:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "16:49:30",
-        "departureTime": "16:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "16:51:30",
-        "departureTime": "16:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "16:54:30",
-        "departureTime": "16:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "16:56:30",
-        "departureTime": "16:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "16:58:30",
-        "departureTime": "16:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "17:00:30",
-        "departureTime": "17:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "17:03:30",
-        "departureTime": "17:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "17:07:30",
-        "departureTime": "17:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "17:11:30",
-        "departureTime": "17:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "17:15:30",
-        "departureTime": "17:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "17:18:30",
-        "departureTime": "17:19:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "17:21:30",
-        "departureTime": "17:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "17:25:30",
-        "departureTime": "17:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "17:28:30",
-        "departureTime": "17:29:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "17:32:30",
+        "arrivalTime": "17:33:00",
         "departureTime": "17:33:00",
         "isPassing": false
       },
@@ -54677,180 +54101,6 @@
         "stationId": "JM-30",
         "arrivalTime": "21:45:00",
         "departureTime": "21:45:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "WD_IN_SHIMOUSA_2752M",
-    "lineId": "musashino",
-    "trainNumber": "2752M",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "JM-26",
-    "destinationStationId": "JA-26",
-    "customDestination": "大宮",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "08:12:00",
-        "departureTime": "08:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-26",
-        "arrivalTime": "08:22:00",
-        "departureTime": "08:22:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "WD_IN_SHIMOUSA_2754M",
-    "lineId": "musashino",
-    "trainNumber": "2754M",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "JM-26",
-    "destinationStationId": "JA-26",
-    "customDestination": "大宮",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "16:50:00",
-        "departureTime": "16:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-26",
-        "arrivalTime": "17:00:00",
-        "departureTime": "17:00:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "WD_IN_SHIMOUSA_2756M",
-    "lineId": "musashino",
-    "trainNumber": "2756M",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "JM-26",
-    "destinationStationId": "JA-26",
-    "customDestination": "大宮",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "20:23:00",
-        "departureTime": "20:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-26",
-        "arrivalTime": "20:33:00",
-        "departureTime": "20:33:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "WD_IN_SHIMOUSA_702E",
-    "lineId": "musashino",
-    "trainNumber": "702E",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "JM-25",
-    "destinationStationId": "JA-26",
-    "customDestination": "大宮",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "08:09:00",
-        "departureTime": "08:09:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "08:11:30",
-        "departureTime": "08:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-26",
-        "arrivalTime": "08:22:00",
-        "departureTime": "08:22:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "WD_IN_SHIMOUSA_1502E",
-    "lineId": "musashino",
-    "trainNumber": "1502E",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "JM-25",
-    "destinationStationId": "JA-26",
-    "customDestination": "大宮",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "16:47:00",
-        "departureTime": "16:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "16:49:30",
-        "departureTime": "16:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-26",
-        "arrivalTime": "17:00:00",
-        "departureTime": "17:00:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "WD_IN_SHIMOUSA_1902E",
-    "lineId": "musashino",
-    "trainNumber": "1902E",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "JM-25",
-    "destinationStationId": "JA-26",
-    "customDestination": "大宮",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "20:20:00",
-        "departureTime": "20:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "20:22:30",
-        "departureTime": "20:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-26",
-        "arrivalTime": "20:33:00",
-        "departureTime": "20:33:00",
         "isPassing": false
       }
     ]
@@ -80244,20 +79494,26 @@
     ]
   },
   {
-    "tripId": "HD_OUT_903E",
+    "tripId": "HD_OUT_SHIMOUSA_903E",
     "lineId": "musashino",
     "trainNumber": "903E",
-    "trainType": "local",
+    "trainType": "regular",
     "direction": "outbound",
-    "originStationId": "JM-26",
+    "originStationId": "JA-26",
     "destinationStationId": "JE-14",
     "customDestination": "海浜幕張",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
+        "stationId": "JA-26",
+        "arrivalTime": "09:13:00",
+        "departureTime": "09:13:00",
+        "isPassing": false
+      },
+      {
         "stationId": "JM-26",
-        "arrivalTime": "09:23:00",
+        "arrivalTime": "09:22:30",
         "departureTime": "09:23:00",
         "isPassing": false
       },
@@ -80384,20 +79640,26 @@
     ]
   },
   {
-    "tripId": "HD_OUT_1803E",
+    "tripId": "HD_OUT_SHIMOUSA_1803E",
     "lineId": "musashino",
     "trainNumber": "1803E",
-    "trainType": "local",
+    "trainType": "regular",
     "direction": "outbound",
-    "originStationId": "JM-26",
+    "originStationId": "JA-26",
     "destinationStationId": "JM-10",
     "customDestination": "西船橋",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
+        "stationId": "JA-26",
+        "arrivalTime": "18:03:00",
+        "departureTime": "18:03:00",
+        "isPassing": false
+      },
+      {
         "stationId": "JM-26",
-        "arrivalTime": "18:13:00",
+        "arrivalTime": "18:12:30",
         "departureTime": "18:13:00",
         "isPassing": false
       },
@@ -80500,20 +79762,26 @@
     ]
   },
   {
-    "tripId": "HD_OUT_2003E",
+    "tripId": "HD_OUT_SHIMOUSA_2003E",
     "lineId": "musashino",
     "trainNumber": "2003E",
-    "trainType": "local",
+    "trainType": "regular",
     "direction": "outbound",
-    "originStationId": "JM-26",
+    "originStationId": "JA-26",
     "destinationStationId": "JE-12",
     "customDestination": "新習志野",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
+        "stationId": "JA-26",
+        "arrivalTime": "20:59:00",
+        "departureTime": "20:59:00",
+        "isPassing": false
+      },
+      {
         "stationId": "JM-26",
-        "arrivalTime": "21:09:00",
+        "arrivalTime": "21:08:30",
         "departureTime": "21:09:00",
         "isPassing": false
       },
@@ -81162,6 +80430,396 @@
     ]
   },
   {
+    "tripId": "HD_IN_SHIMOUSA_2762M",
+    "lineId": "musashino",
+    "trainNumber": "2762M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "JE-12",
+    "destinationStationId": "JA-26",
+    "customDestination": "大宮",
+    "cars": 8,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JE-12",
+        "arrivalTime": "06:19:00",
+        "departureTime": "06:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JE-11",
+        "arrivalTime": "06:21:30",
+        "departureTime": "06:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-10",
+        "arrivalTime": "06:27:30",
+        "departureTime": "06:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-11",
+        "arrivalTime": "06:30:30",
+        "departureTime": "06:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-12",
+        "arrivalTime": "06:33:30",
+        "departureTime": "06:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-13",
+        "arrivalTime": "06:36:30",
+        "departureTime": "06:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-14",
+        "arrivalTime": "06:38:30",
+        "departureTime": "06:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-15",
+        "arrivalTime": "06:43:30",
+        "departureTime": "06:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-16",
+        "arrivalTime": "06:45:30",
+        "departureTime": "06:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-17",
+        "arrivalTime": "06:47:30",
+        "departureTime": "06:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-18",
+        "arrivalTime": "06:50:30",
+        "departureTime": "06:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-19",
+        "arrivalTime": "06:52:30",
+        "departureTime": "06:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-20",
+        "arrivalTime": "06:54:30",
+        "departureTime": "06:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-21",
+        "arrivalTime": "06:56:30",
+        "departureTime": "06:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-22",
+        "arrivalTime": "06:59:30",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-23",
+        "arrivalTime": "07:03:30",
+        "departureTime": "07:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-24",
+        "arrivalTime": "07:07:30",
+        "departureTime": "07:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-25",
+        "arrivalTime": "07:11:30",
+        "departureTime": "07:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-26",
+        "arrivalTime": "07:14:30",
+        "departureTime": "07:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-26",
+        "arrivalTime": "07:25:00",
+        "departureTime": "07:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_IN_SHIMOUSA_2766M",
+    "lineId": "musashino",
+    "trainNumber": "2766M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "JE-12",
+    "destinationStationId": "JA-26",
+    "customDestination": "大宮",
+    "cars": 8,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JE-12",
+        "arrivalTime": "16:01:00",
+        "departureTime": "16:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JE-11",
+        "arrivalTime": "16:03:30",
+        "departureTime": "16:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-10",
+        "arrivalTime": "16:11:30",
+        "departureTime": "16:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-11",
+        "arrivalTime": "16:14:30",
+        "departureTime": "16:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-12",
+        "arrivalTime": "16:17:30",
+        "departureTime": "16:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-13",
+        "arrivalTime": "16:20:30",
+        "departureTime": "16:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-14",
+        "arrivalTime": "16:22:30",
+        "departureTime": "16:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-15",
+        "arrivalTime": "16:26:30",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-16",
+        "arrivalTime": "16:29:30",
+        "departureTime": "16:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-17",
+        "arrivalTime": "16:31:30",
+        "departureTime": "16:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-18",
+        "arrivalTime": "16:34:30",
+        "departureTime": "16:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-19",
+        "arrivalTime": "16:36:30",
+        "departureTime": "16:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-20",
+        "arrivalTime": "16:38:30",
+        "departureTime": "16:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-21",
+        "arrivalTime": "16:40:30",
+        "departureTime": "16:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-22",
+        "arrivalTime": "16:43:30",
+        "departureTime": "16:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-23",
+        "arrivalTime": "16:47:30",
+        "departureTime": "16:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-24",
+        "arrivalTime": "16:51:30",
+        "departureTime": "16:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-25",
+        "arrivalTime": "16:55:30",
+        "departureTime": "16:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-26",
+        "arrivalTime": "16:58:30",
+        "departureTime": "16:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-26",
+        "arrivalTime": "17:09:00",
+        "departureTime": "17:09:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_IN_SHIMOUSA_2768M",
+    "lineId": "musashino",
+    "trainNumber": "2768M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "JM-10",
+    "destinationStationId": "JA-26",
+    "customDestination": "大宮",
+    "cars": 8,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JM-10",
+        "arrivalTime": "19:20:00",
+        "departureTime": "19:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-11",
+        "arrivalTime": "19:22:30",
+        "departureTime": "19:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-12",
+        "arrivalTime": "19:25:30",
+        "departureTime": "19:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-13",
+        "arrivalTime": "19:28:30",
+        "departureTime": "19:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-14",
+        "arrivalTime": "19:30:30",
+        "departureTime": "19:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-15",
+        "arrivalTime": "19:35:30",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-16",
+        "arrivalTime": "19:37:30",
+        "departureTime": "19:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-17",
+        "arrivalTime": "19:39:30",
+        "departureTime": "19:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-18",
+        "arrivalTime": "19:42:30",
+        "departureTime": "19:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-19",
+        "arrivalTime": "19:44:30",
+        "departureTime": "19:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-20",
+        "arrivalTime": "19:46:30",
+        "departureTime": "19:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-21",
+        "arrivalTime": "19:48:30",
+        "departureTime": "19:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-22",
+        "arrivalTime": "19:51:30",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-23",
+        "arrivalTime": "19:55:30",
+        "departureTime": "19:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-24",
+        "arrivalTime": "19:59:30",
+        "departureTime": "20:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-25",
+        "arrivalTime": "20:04:30",
+        "departureTime": "20:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JM-26",
+        "arrivalTime": "20:07:30",
+        "departureTime": "20:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-26",
+        "arrivalTime": "20:18:00",
+        "departureTime": "20:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
     "tripId": "HD_IN_2250E",
     "lineId": "musashino",
     "trainNumber": "2250E",
@@ -81391,135 +81049,15 @@
     "trainNumber": "472E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "03:43:00",
-        "departureTime": "03:43:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "03:46:30",
-        "departureTime": "03:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "03:49:30",
-        "departureTime": "03:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "03:52:30",
-        "departureTime": "03:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "03:55:30",
-        "departureTime": "03:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "03:59:30",
-        "departureTime": "04:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "04:02:30",
-        "departureTime": "04:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "04:04:30",
-        "departureTime": "04:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "04:07:30",
-        "departureTime": "04:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "04:09:30",
-        "departureTime": "04:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "04:11:30",
-        "departureTime": "04:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "04:13:30",
-        "departureTime": "04:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "04:16:30",
-        "departureTime": "04:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "04:20:30",
-        "departureTime": "04:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "04:24:30",
-        "departureTime": "04:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "04:28:30",
-        "departureTime": "04:29:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "04:31:30",
-        "departureTime": "04:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "04:34:30",
-        "departureTime": "04:35:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "04:38:30",
-        "departureTime": "04:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "04:41:30",
-        "departureTime": "04:42:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "04:45:30",
+        "arrivalTime": "04:46:00",
         "departureTime": "04:46:00",
         "isPassing": false
       },
@@ -81561,135 +81099,15 @@
     "trainNumber": "558E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "03:58:00",
-        "departureTime": "03:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "04:01:30",
-        "departureTime": "04:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "04:04:30",
-        "departureTime": "04:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "04:07:30",
-        "departureTime": "04:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "04:10:30",
-        "departureTime": "04:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "04:14:30",
-        "departureTime": "04:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "04:17:30",
-        "departureTime": "04:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "04:19:30",
-        "departureTime": "04:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "04:22:30",
-        "departureTime": "04:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "04:24:30",
-        "departureTime": "04:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "04:26:30",
-        "departureTime": "04:27:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "04:28:30",
-        "departureTime": "04:29:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "04:31:30",
-        "departureTime": "04:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "04:35:30",
-        "departureTime": "04:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "04:39:30",
-        "departureTime": "04:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "04:43:30",
-        "departureTime": "04:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "04:46:30",
-        "departureTime": "04:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "04:49:30",
-        "departureTime": "04:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "04:53:30",
-        "departureTime": "04:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "04:56:30",
-        "departureTime": "04:57:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "05:00:30",
+        "arrivalTime": "05:01:00",
         "departureTime": "05:01:00",
         "isPassing": false
       },
@@ -81731,135 +81149,15 @@
     "trainNumber": "540E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "04:10:00",
-        "departureTime": "04:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "04:13:30",
-        "departureTime": "04:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "04:16:30",
-        "departureTime": "04:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "04:19:30",
-        "departureTime": "04:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "04:22:30",
-        "departureTime": "04:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "04:26:30",
-        "departureTime": "04:27:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "04:29:30",
-        "departureTime": "04:30:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "04:31:30",
-        "departureTime": "04:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "04:34:30",
-        "departureTime": "04:35:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "04:36:30",
-        "departureTime": "04:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "04:38:30",
-        "departureTime": "04:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "04:40:30",
-        "departureTime": "04:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "04:43:30",
-        "departureTime": "04:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "04:47:30",
-        "departureTime": "04:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "04:51:30",
-        "departureTime": "04:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "04:55:30",
-        "departureTime": "04:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "04:58:30",
-        "departureTime": "04:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "05:01:30",
-        "departureTime": "05:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "05:05:30",
-        "departureTime": "05:06:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "05:08:30",
-        "departureTime": "05:09:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "05:12:30",
+        "arrivalTime": "05:13:00",
         "departureTime": "05:13:00",
         "isPassing": false
       },
@@ -81901,87 +81199,15 @@
     "trainNumber": "408E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-22",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "04:24:00",
-        "departureTime": "04:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "04:27:30",
-        "departureTime": "04:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "04:30:30",
-        "departureTime": "04:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "04:33:30",
-        "departureTime": "04:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "04:36:30",
-        "departureTime": "04:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "04:40:30",
-        "departureTime": "04:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "04:43:30",
-        "departureTime": "04:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "04:45:30",
-        "departureTime": "04:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "04:48:30",
-        "departureTime": "04:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "04:50:30",
-        "departureTime": "04:51:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "04:52:30",
-        "departureTime": "04:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "04:54:30",
-        "departureTime": "04:55:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-22",
-        "arrivalTime": "04:57:30",
+        "arrivalTime": "04:58:00",
         "departureTime": "04:58:00",
         "isPassing": false
       },
@@ -82071,87 +81297,15 @@
     "trainNumber": "578E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-22",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "04:41:00",
-        "departureTime": "04:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "04:44:30",
-        "departureTime": "04:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "04:47:30",
-        "departureTime": "04:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "04:50:30",
-        "departureTime": "04:51:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "04:53:30",
-        "departureTime": "04:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "04:57:30",
-        "departureTime": "04:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "05:00:30",
-        "departureTime": "05:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "05:02:30",
-        "departureTime": "05:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "05:05:30",
-        "departureTime": "05:06:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "05:07:30",
-        "departureTime": "05:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "05:09:30",
-        "departureTime": "05:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "05:11:30",
-        "departureTime": "05:12:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-22",
-        "arrivalTime": "05:14:30",
+        "arrivalTime": "05:15:00",
         "departureTime": "05:15:00",
         "isPassing": false
       },
@@ -82411,135 +81565,15 @@
     "trainNumber": "616E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "05:07:00",
-        "departureTime": "05:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "05:10:30",
-        "departureTime": "05:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "05:13:30",
-        "departureTime": "05:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "05:16:30",
-        "departureTime": "05:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "05:19:30",
-        "departureTime": "05:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "05:23:30",
-        "departureTime": "05:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "05:26:30",
-        "departureTime": "05:27:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "05:28:30",
-        "departureTime": "05:29:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "05:31:30",
-        "departureTime": "05:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "05:33:30",
-        "departureTime": "05:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "05:35:30",
-        "departureTime": "05:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "05:37:30",
-        "departureTime": "05:38:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "05:40:30",
-        "departureTime": "05:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "05:44:30",
-        "departureTime": "05:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "05:48:30",
-        "departureTime": "05:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "05:52:30",
-        "departureTime": "05:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "05:55:30",
-        "departureTime": "05:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "05:58:30",
-        "departureTime": "05:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "06:02:30",
-        "departureTime": "06:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "06:05:30",
-        "departureTime": "06:06:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "06:09:30",
+        "arrivalTime": "06:10:00",
         "departureTime": "06:10:00",
         "isPassing": false
       },
@@ -82945,135 +81979,15 @@
     "trainNumber": "624E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "05:38:00",
-        "departureTime": "05:38:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "05:41:30",
-        "departureTime": "05:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "05:44:30",
-        "departureTime": "05:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "05:47:30",
-        "departureTime": "05:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "05:50:30",
-        "departureTime": "05:51:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "05:54:30",
-        "departureTime": "05:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "05:57:30",
-        "departureTime": "05:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "05:59:30",
-        "departureTime": "06:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "06:02:30",
-        "departureTime": "06:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "06:04:30",
-        "departureTime": "06:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "06:06:30",
-        "departureTime": "06:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "06:08:30",
-        "departureTime": "06:09:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "06:11:30",
-        "departureTime": "06:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "06:15:30",
-        "departureTime": "06:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "06:19:30",
-        "departureTime": "06:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "06:23:30",
-        "departureTime": "06:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "06:26:30",
-        "departureTime": "06:27:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "06:29:30",
-        "departureTime": "06:30:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "06:33:30",
-        "departureTime": "06:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "06:36:30",
-        "departureTime": "06:37:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "06:40:30",
+        "arrivalTime": "06:41:00",
         "departureTime": "06:41:00",
         "isPassing": false
       },
@@ -83479,135 +82393,15 @@
     "trainNumber": "732E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "05:57:00",
-        "departureTime": "05:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "06:00:30",
-        "departureTime": "06:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "06:03:30",
-        "departureTime": "06:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "06:06:30",
-        "departureTime": "06:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "06:09:30",
-        "departureTime": "06:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "06:13:30",
-        "departureTime": "06:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "06:16:30",
-        "departureTime": "06:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "06:18:30",
-        "departureTime": "06:19:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "06:21:30",
-        "departureTime": "06:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "06:23:30",
-        "departureTime": "06:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "06:25:30",
-        "departureTime": "06:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "06:27:30",
-        "departureTime": "06:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "06:30:30",
-        "departureTime": "06:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "06:34:30",
-        "departureTime": "06:35:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "06:38:30",
-        "departureTime": "06:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "06:42:30",
-        "departureTime": "06:43:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "06:45:30",
-        "departureTime": "06:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "06:48:30",
-        "departureTime": "06:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "06:52:30",
-        "departureTime": "06:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "06:55:30",
-        "departureTime": "06:56:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "06:59:30",
+        "arrivalTime": "07:00:00",
         "departureTime": "07:00:00",
         "isPassing": false
       },
@@ -97031,135 +95825,15 @@
     "trainNumber": "1742E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "16:41:00",
-        "departureTime": "16:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "16:44:30",
-        "departureTime": "16:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "16:47:30",
-        "departureTime": "16:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "16:50:30",
-        "departureTime": "16:51:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "16:53:30",
-        "departureTime": "16:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "16:57:30",
-        "departureTime": "16:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "17:00:30",
-        "departureTime": "17:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "17:02:30",
-        "departureTime": "17:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "17:05:30",
-        "departureTime": "17:06:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "17:07:30",
-        "departureTime": "17:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "17:09:30",
-        "departureTime": "17:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "17:11:30",
-        "departureTime": "17:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "17:14:30",
-        "departureTime": "17:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "17:18:30",
-        "departureTime": "17:19:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "17:22:30",
-        "departureTime": "17:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "17:26:30",
-        "departureTime": "17:27:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "17:29:30",
-        "departureTime": "17:30:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "17:32:30",
-        "departureTime": "17:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "17:36:30",
-        "departureTime": "17:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "17:39:30",
-        "departureTime": "17:40:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "17:43:30",
+        "arrivalTime": "17:44:00",
         "departureTime": "17:44:00",
         "isPassing": false
       },
@@ -97795,135 +96469,15 @@
     "trainNumber": "1858E",
     "trainType": "local",
     "direction": "inbound",
-    "originStationId": "JM-10",
+    "originStationId": "JM-30",
     "destinationStationId": "JM-35",
     "customDestination": "府中本町",
     "cars": 8,
     "isHoliday": true,
     "stops": [
       {
-        "stationId": "JM-10",
-        "arrivalTime": "17:11:00",
-        "departureTime": "17:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-11",
-        "arrivalTime": "17:14:30",
-        "departureTime": "17:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-12",
-        "arrivalTime": "17:17:30",
-        "departureTime": "17:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-13",
-        "arrivalTime": "17:20:30",
-        "departureTime": "17:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-14",
-        "arrivalTime": "17:23:30",
-        "departureTime": "17:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-15",
-        "arrivalTime": "17:27:30",
-        "departureTime": "17:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-16",
-        "arrivalTime": "17:30:30",
-        "departureTime": "17:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-17",
-        "arrivalTime": "17:32:30",
-        "departureTime": "17:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-18",
-        "arrivalTime": "17:35:30",
-        "departureTime": "17:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-19",
-        "arrivalTime": "17:37:30",
-        "departureTime": "17:38:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-20",
-        "arrivalTime": "17:39:30",
-        "departureTime": "17:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-21",
-        "arrivalTime": "17:41:30",
-        "departureTime": "17:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-22",
-        "arrivalTime": "17:44:30",
-        "departureTime": "17:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-23",
-        "arrivalTime": "17:48:30",
-        "departureTime": "17:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-24",
-        "arrivalTime": "17:52:30",
-        "departureTime": "17:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "17:56:30",
-        "departureTime": "17:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "17:59:30",
-        "departureTime": "18:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-27",
-        "arrivalTime": "18:02:30",
-        "departureTime": "18:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-28",
-        "arrivalTime": "18:06:30",
-        "departureTime": "18:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-29",
-        "arrivalTime": "18:09:30",
-        "departureTime": "18:10:00",
-        "isPassing": false
-      },
-      {
         "stationId": "JM-30",
-        "arrivalTime": "18:13:30",
+        "arrivalTime": "18:14:00",
         "departureTime": "18:14:00",
         "isPassing": false
       },
@@ -106007,180 +104561,6 @@
         "stationId": "JM-30",
         "arrivalTime": "23:16:00",
         "departureTime": "23:16:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "HD_IN_SHIMOUSA_2762M",
-    "lineId": "musashino",
-    "trainNumber": "2762M",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "JM-26",
-    "destinationStationId": "JA-26",
-    "customDestination": "大宮",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "07:15:00",
-        "departureTime": "07:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-26",
-        "arrivalTime": "07:25:00",
-        "departureTime": "07:25:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "HD_IN_SHIMOUSA_2766M",
-    "lineId": "musashino",
-    "trainNumber": "2766M",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "JM-26",
-    "destinationStationId": "JA-26",
-    "customDestination": "大宮",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "16:59:00",
-        "departureTime": "16:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-26",
-        "arrivalTime": "17:09:00",
-        "departureTime": "17:09:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "HD_IN_SHIMOUSA_2768M",
-    "lineId": "musashino",
-    "trainNumber": "2768M",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "JM-26",
-    "destinationStationId": "JA-26",
-    "customDestination": "大宮",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "20:08:00",
-        "departureTime": "20:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-26",
-        "arrivalTime": "20:18:00",
-        "departureTime": "20:18:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "HD_IN_SHIMOUSA_602E",
-    "lineId": "musashino",
-    "trainNumber": "602E",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "JM-25",
-    "destinationStationId": "JA-26",
-    "customDestination": "大宮",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "07:12:00",
-        "departureTime": "07:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "07:14:30",
-        "departureTime": "07:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-26",
-        "arrivalTime": "07:25:00",
-        "departureTime": "07:25:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "HD_IN_SHIMOUSA_1602E",
-    "lineId": "musashino",
-    "trainNumber": "1602E",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "JM-25",
-    "destinationStationId": "JA-26",
-    "customDestination": "大宮",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "16:56:00",
-        "departureTime": "16:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "16:58:30",
-        "departureTime": "16:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-26",
-        "arrivalTime": "17:09:00",
-        "departureTime": "17:09:00",
-        "isPassing": false
-      }
-    ]
-  },
-  {
-    "tripId": "HD_IN_SHIMOUSA_1902E",
-    "lineId": "musashino",
-    "trainNumber": "1902E",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "JM-25",
-    "destinationStationId": "JA-26",
-    "customDestination": "大宮",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JM-25",
-        "arrivalTime": "20:05:00",
-        "departureTime": "20:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JM-26",
-        "arrivalTime": "20:07:30",
-        "departureTime": "20:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-26",
-        "arrivalTime": "20:18:00",
-        "departureTime": "20:18:00",
         "isPassing": false
       }
     ]
