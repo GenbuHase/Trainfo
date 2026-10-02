@@ -215,19 +215,27 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                       )}
                     </div>
 
-                    <div className="text-[11px] font-mono text-slate-500 flex items-center gap-2">
-                      {!isPassing && (
-                        <span>
-                          {(isLast ? (stop.arrivalTime || stop.departureTime) : stop.departureTime).slice(0, 5)}
-                          <span className="text-[9px] text-slate-400 ml-0.5">
-                            {isLast ? '着' : '発'}
-                          </span>
-                        </span>
-                      )}
+                    <div className="flex items-center gap-2 shrink-0">
                       {isCurrent && (
                         <span className="text-[10px] font-bold text-amber-600 bg-amber-50 px-1.5 py-0.5 rounded">
                           現在位置
                         </span>
+                      )}
+                      {!isPassing && (
+                        <div className="text-[11px] font-mono text-right flex flex-col items-end leading-tight">
+                          {idx > 0 && (
+                            <span className="text-slate-500">
+                              {(stop.arrivalTime || stop.departureTime).slice(0, 5)}
+                              <span className="text-[9px] text-slate-400 ml-0.5">着</span>
+                            </span>
+                          )}
+                          {!isLast && (
+                            <span className="text-slate-700 font-medium">
+                              {stop.departureTime.slice(0, 5)}
+                              <span className="text-[9px] text-slate-400 ml-0.5">発</span>
+                            </span>
+                          )}
+                        </div>
                       )}
                     </div>
                   </div>
