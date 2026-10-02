@@ -1,18 +1,44 @@
 // Trainfo システム全体設定・定数定義
 
+/** 選択可能なFPS（リフレッシュレート）一覧 */
+export const AVAILABLE_SIMULATION_FPS = [10, 20, 30, 60, 120] as const;
+export type SimulationFps = typeof AVAILABLE_SIMULATION_FPS[number];
+
+/** デフォルトのシミュレーション目標FPS */
+export const DEFAULT_SIMULATION_FPS: SimulationFps = 10;
+
+/** 互換用定数 */
+export const SIMULATION_FPS = DEFAULT_SIMULATION_FPS;
+export const SIMULATION_TICK_INTERVAL_SEC = 1 / DEFAULT_SIMULATION_FPS;
+export const SIMULATION_TICK_INTERVAL_MS = 1000 / DEFAULT_SIMULATION_FPS;
+
+const STORAGE_KEY_FPS = 'trainfo_simulation_fps';
+
 /**
- * 列車走行アニメーション・シミュレーション時刻のリフレッシュレート設定
- *
- * - SIMULATION_FPS: 1秒あたりの目標更新頻度（フレームレート）
- *   - 10: 約100msごとに更新（デフォルト・軽量で低負荷）
- *   - 20: 約50msごとに更新（より滑らか）
- *   - 30: 約33msごとに更新（非常に滑らか）
- *   - 60: 約16.7msごとに更新（高精細・ディスプレイ同期）
+ * 保存されたシミュレーションFPSをロード
  */
-export const SIMULATION_FPS = 10;
+export function loadSimulationFps(): SimulationFps {
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY_FPS);
+    if (saved) {
+      const parsed = parseInt(saved, 10);
+      if (AVAILABLE_SIMULATION_FPS.includes(parsed as SimulationFps)) {
+        return parsed as SimulationFps;
+      }
+    }
+  } catch {
+    // ignore
+  }
+  return DEFAULT_SIMULATION_FPS;
+}
 
-/** 1フレームあたりの更新間隔（秒） */
-export const SIMULATION_TICK_INTERVAL_SEC = 1 / SIMULATION_FPS;
-
-/** 1フレームあたりの更新間隔（ミリ秒） */
-export const SIMULATION_TICK_INTERVAL_MS = 1000 / SIMULATION_FPS;
+/**
+ * シミュレーションFPSを保存
+ */
+export function saveSimulationFps(fps: SimulationFps): void {
+  try {
+    localStorage.setItem(STORAGE_KEY_FPS, fps.toString());
+  } catch {
+    // ignore
+  }
+}

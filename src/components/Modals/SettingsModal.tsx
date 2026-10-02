@@ -1,28 +1,48 @@
-import React, { useState } from 'react';
-import { X, Key, Download, RefreshCw, CheckCircle, Database } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { X, Key, Download, RefreshCw, CheckCircle, Database, Gauge } from 'lucide-react';
 import type { OdptConfig } from '../../services/odptApi';
 import { loadOdptConfig, saveOdptConfig } from '../../services/odptApi';
 import { GLOBAL_TIMETABLE } from '../../data/timetableData';
+import {
+  AVAILABLE_SIMULATION_FPS,
+  loadSimulationFps,
+  saveSimulationFps,
+} from '../../constants';
+import type { SimulationFps } from '../../constants';
 
 interface SettingsModalProps {
   isOpen: boolean;
   onClose: () => void;
   onApplySettings: (config: OdptConfig) => void;
+  currentFps?: SimulationFps;
+  onChangeFps?: (fps: SimulationFps) => void;
 }
 
 export const SettingsModal: React.FC<SettingsModalProps> = ({
   isOpen,
   onClose,
   onApplySettings,
+  currentFps,
+  onChangeFps,
 }) => {
   const [config, setConfig] = useState<OdptConfig>(loadOdptConfig());
+  const [selectedFps, setSelectedFps] = useState<SimulationFps>(currentFps || loadSimulationFps());
   const [saveSuccess, setSaveSuccess] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+      setConfig(loadOdptConfig());
+      setSelectedFps(currentFps || loadSimulationFps());
+    }
+  }, [isOpen, currentFps]);
 
   if (!isOpen) return null;
 
   const handleSave = () => {
     saveOdptConfig(config);
     onApplySettings(config);
+    saveSimulationFps(selectedFps);
+    onChangeFps?.(selectedFps);
     setSaveSuccess(true);
     setTimeout(() => setSaveSuccess(false), 2000);
   };
@@ -57,8 +77,60 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
         </div>
 
         <div className="p-5 space-y-5">
-          {/* ODPT API連携設定 */}
+          {/* シミュレーション・アニメーション設定 */}
           <section className="space-y-3">
+            <h3 className="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
+              <Gauge className="w-4 h-4 text-[#004b97]" />
+              <span>アニメーション・描画設定</span>
+            </h3>
+            <div>
+              <div className="flex items-center justify-between mb-1.5">
+                <label className="text-xs font-semibold text-slate-700">
+                  リフレッシュレート (FPS)
+                </label>
+                <span className="text-[11px] font-mono font-semibold text-[#004b97] bg-blue-50 px-2 py-0.5 rounded border border-blue-200">
+                  {selectedFps} FPS (約 {Math.round((1000 / selectedFps) * 10) / 10} ms)
+                </span>
+              </div>
+
+              {/* 10, 20, 30, 60, 120 FPS 選択ボタン群 */}
+              <div className="grid grid-cols-5 gap-1.5">
+                {AVAILABLE_SIMULATION_FPS.map((val) => {
+                  const isSelected = selectedFps === val;
+                  return (
+                    <button
+                      key={val}
+                      type="button"
+                      onClick={() => setSelectedFps(val)}
+                      className={`py-2 px-1 rounded-lg border font-bold transition-all flex flex-col items-center justify-center gap-0.5 ${
+                        isSelected
+                          ? 'bg-[#004b97] text-white border-[#004b97] shadow-sm'
+                          : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-50 hover:border-slate-400'
+                      }`}
+                    >
+                      <span className="text-sm leading-none">{val}</span>
+                      <span className="text-[9px] leading-none opacity-80">FPS</span>
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* 選択中のFPSに応じたヒント・目安テキスト */}
+              <div className="mt-2 text-[11px] text-slate-500 bg-slate-50 p-2 rounded-lg border border-slate-200 flex items-center justify-between">
+                <span>目安:</span>
+                <span className="font-medium text-slate-700">
+                  {selectedFps === 10 && '🌱 省電力・標準（低負荷）'}
+                  {selectedFps === 20 && '✨ スムーズ（快適）'}
+                  {selectedFps === 30 && '🚀 高フレームレート（滑らか）'}
+                  {selectedFps === 60 && '⚡ 60 FPS（超高精度・標準ディスプレイ同期）'}
+                  {selectedFps === 120 && '🔥 120 FPS（高駆動ゲーミング/ProMotion向け）'}
+                </span>
+              </div>
+            </div>
+          </section>
+
+          {/* ODPT API連携設定 */}
+          <section className="pt-4 border-t border-slate-200/80 space-y-3">
             <h3 className="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
               <Key className="w-4 h-4 text-amber-500" />
               <span>公共交通オープンデータセンター (ODPT) 連携</span>

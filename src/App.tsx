@@ -21,7 +21,8 @@ import type {
   TrainOperationStatus,
 } from './services/odptApi';
 import { getAllLines } from './data/linesRegistry';
-import { SIMULATION_TICK_INTERVAL_SEC } from './constants';
+import { loadSimulationFps } from './constants';
+import type { SimulationFps } from './constants';
 
 export function App() {
   // 選択路線リスト（初期値: localStorage または 登録全路線）
@@ -63,6 +64,7 @@ export function App() {
 
   const [isRealTimeSynced, setIsRealTimeSynced] = useState<boolean>(true);
   const [activeTrains, setActiveTrains] = useState<ActiveTrain[]>([]);
+  const [simulationFps, setSimulationFps] = useState<SimulationFps>(() => loadSimulationFps());
 
   // 選択状態
   const [selectedStation, setSelectedStation] = useState<Station | null>(null);
@@ -145,13 +147,14 @@ export function App() {
     }
   }, []);
 
-  // シミュレーション時刻のメインループ (100ms ごとに滑らかに更新)
+  // シミュレーション時刻のメインループ (設定されたFPSに応じて滑らかに更新)
   useEffect(() => {
     let animId: number;
+    const tickIntervalSec = 1 / simulationFps;
 
     const tick = (now: number) => {
       const elapsed = (now - lastTickTimeRef.current) / 1000;
-      if (elapsed >= SIMULATION_TICK_INTERVAL_SEC) {
+      if (elapsed >= tickIntervalSec) {
         lastTickTimeRef.current = now;
 
         setSimState((prev) => {
@@ -179,7 +182,7 @@ export function App() {
     animId = requestAnimationFrame(tick);
 
     return () => cancelAnimationFrame(animId);
-  }, [isRealTimeSynced]);
+  }, [isRealTimeSynced, simulationFps]);
 
   // 列車位置の再計算
   useEffect(() => {
@@ -424,6 +427,8 @@ export function App() {
         isOpen={isSettingsOpen}
         onClose={() => setIsSettingsOpen(false)}
         onApplySettings={handleApplySettings}
+        currentFps={simulationFps}
+        onChangeFps={setSimulationFps}
       />
 
       {/* 使い方ヘルプモーダル */}
