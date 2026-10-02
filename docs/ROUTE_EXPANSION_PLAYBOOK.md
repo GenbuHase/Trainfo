@@ -88,16 +88,20 @@ flowchart TD
 
 ### Phase 3: ダイヤ・時刻表データ構築 (`stationTimetables` & `globalTimetable`)
 
-1. **時刻表データの収集**:
-   * 平日（`weekday`）および土休日（`holiday`）の全駅時刻表。
-   * 駅探スクレイピングや公式オープンデータ（ODPT等）を活用。
-2. **列車チェーン結合 (`buildChainedStops`)**:
-   * 各列車の始発駅から終着駅までの全駅通過・停車時刻を単一トリップとして結合。
-   * 実測データが存在しない駅は、駅間標準所要時間（秒）から自然に補間。
-   * 通過駅は `isPassing: true` とし、通過予測時刻を付与。
-3. **方向・列車番号の判定**:
-   * 下り（奇数等）と上り（偶数等）の列車番号ルールを正確にパース。
-   * 出力: `stationTimetables.json`（各駅発車標）と `globalTimetable.json`（全列車トリップ）。
+Trainfo では、高精度な「**Yahoo! 乗換案内（路線情報）データソース共通基盤**」を標準採用しています。
+駅探方式の課題であった「終着駅の到着時刻欠落」や「途中駅待避・緩急接続での長時間停車（着時刻と発時刻の差）」を完全な実データとして取得可能です。
+
+1. **路線設定ファイルの作成 (`scripts/lines/<lineId>/config.cjs`)**:
+   * 駅一覧、Yahoo! 駅ID（`yahooStationId`）、方向グループID（`inGroupId` / `outGroupId`）、種別マッピング（`trainTypeMap`）を定義。
+2. **インポーター CLI の実行 (`scripts/runYahooImporter.cjs`)**:
+   ```bash
+   node scripts/runYahooImporter.cjs --line <lineId>
+   ```
+   * Step 1: 全駅の平日（`kind=1`）・土休日（`kind=4`）発車標スクレイピング & `stationTimetables.json` 出力。
+   * Step 2: ユニーク列車（`${dayKey}_${trainId}`）の詳細ページ取得（全停車駅の着時刻・発時刻・終着駅着時刻）。
+   * Step 3: `stations.ts` 駆動による通過駅自動判定 & 秒単位線形補間を行い `globalTimetable.json` を合成。
+3. **ローカルキャッシュの活用**:
+   * レスポンスは `scripts/cache/yahoo/<lineId>/` に自動保存され、再実行時はローカルから高速に復元されます。強制再取得時は `--fresh` オプションを指定します。
 
 ---
 
@@ -167,6 +171,11 @@ flowchart TD
 * **防止策**:
   * **Single Source of Truth**: 停車/通過判定は必ず各路線の `stations.ts` 内にある `station.stoppingTypes` を参照して一元判定する（`isStationStopping(station, trainType) = station.stoppingTypes.includes(trainType)`）。
   * **通過駅ロストカット物理モデル**: 基準駅間所要時間から、通過駅ごとに加減速・停車ロスト時分（標準45秒）をカットする汎用所要時間計算（`calculateHopSeconds`）を適用することで、路線固有の秒数ベタ書きを排除する。
+
+### 6. Yahoo! 路線情報スクレイピングにおける平日/休日列車ID衝突問題
+* **事象**: Yahoo! の内部データ（`timetableItem`）において、平日（`kind=1`）と土休日（`kind=4`）で同一の `trainId`（例: `44618`）が再利用される場合がある。列車キャッシュやユニーク化のキーを単なる `trainId` にしてしまうと、土休日の日中列車が平日列車に上書き・スキップされ、土休日のダイヤが欠落する。
+* **防止策**: 
+  * ユニーク列車キーおよびキャッシュファイル名は必ず **`${dayKey}_${trainId}`**（例: `weekday_44618`, `holiday_44618`）の複合キーで管理すること。
 
 
 ---
