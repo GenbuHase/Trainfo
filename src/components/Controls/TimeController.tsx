@@ -58,25 +58,29 @@ export const TimeController: React.FC<TimeControllerProps> = ({
   // タイムスタンプ表示
   const timeFormatted = secondsToTimeString(currentSec);
 
-  // スライダーの範囲設定 (04:30 始発 〜 25:30 終電)
-  const MIN_SEC = 4.5 * 3600; // 04:30 (16,200秒)
-  const MAX_SEC = 25.5 * 3600; // 25:30 / 01:30 (91,800秒)
-  const TOTAL_SEC = MAX_SEC - MIN_SEC; // 21時間 (75,600秒)
+  // スライダーの範囲設定 (04:00 始発・早朝 〜 28:00 / 翌04:00 24時間フルサイクル)
+  const MIN_SEC = 4 * 3600; // 04:00 (14,400秒)
+  const MAX_SEC = 28 * 3600; // 28:00 / 翌04:00 (100,800秒)
+  const TOTAL_SEC = MAX_SEC - MIN_SEC; // ちょうど24時間 (86,400秒)
 
   // 実際の時間と完全に一致するスライダー目盛り定義
   const sliderMarks = [
     { label: '08:00', sec: 8 * 3600 },
     { label: '12:00', sec: 12 * 3600 },
-    { label: '18:00', sec: 18 * 3600 },
+    { label: '16:00', sec: 16 * 3600 },
+    { label: '20:00', sec: 20 * 3600 },
     { label: '24:00', sec: 24 * 3600 },
+    { label: '02:00', sec: 26 * 3600 },
   ];
 
   // 時刻プリセット
   const presets = [
+    { label: '早朝・始発', time: '05:00', sec: 5 * 3600 },
     { label: '朝ラッシュ', time: '08:00', sec: 8 * 3600 },
     { label: '昼デイタイム', time: '13:00', sec: 13 * 3600 },
     { label: '夕ラッシュ', time: '18:30', sec: 18.5 * 3600 },
     { label: '深夜終電帯', time: '24:15', sec: 24.25 * 3600 },
+    { label: '夜行・未明', time: '02:30', sec: 26.5 * 3600 },
   ];
 
   const speeds = [1, 2, 5, 10, 30, 60, 120, 300, 600];
@@ -167,19 +171,19 @@ export const TimeController: React.FC<TimeControllerProps> = ({
               type="button"
               onClick={() => onSeek(MIN_SEC)}
               className="hover:text-[#004b97] transition-colors cursor-pointer flex items-center gap-1"
-              title="始発 04:30へジャンプ"
+              title="早朝 04:00へジャンプ"
             >
-              <span className="text-[9px] px-1 py-0.2 bg-slate-100 rounded text-slate-500 font-medium">始発</span>
-              <span className="font-semibold text-slate-600 hover:text-[#004b97]">04:30</span>
+              <span className="text-[9px] px-1 py-0.2 bg-slate-100 rounded text-slate-500 font-medium">起点</span>
+              <span className="font-semibold text-slate-600 hover:text-[#004b97]">04:00</span>
             </button>
             <button
               type="button"
               onClick={() => onSeek(MAX_SEC)}
               className="hover:text-[#004b97] transition-colors cursor-pointer flex items-center gap-1"
-              title="終電 01:30へジャンプ"
+              title="翌朝 04:00へジャンプ"
             >
-              <span className="font-semibold text-slate-600 hover:text-[#004b97]">01:30</span>
-              <span className="text-[9px] px-1 py-0.2 bg-slate-100 rounded text-slate-500 font-medium">終電</span>
+              <span className="font-semibold text-slate-600 hover:text-[#004b97]">翌04:00</span>
+              <span className="text-[9px] px-1 py-0.2 bg-slate-100 rounded text-slate-500 font-medium">終点</span>
             </button>
           </div>
 
@@ -194,7 +198,7 @@ export const TimeController: React.FC<TimeControllerProps> = ({
           />
           {/* ティックマーク（目盛り線: 実際の秒数と完全一致） */}
           <div className="relative w-full h-1 mt-0.5 pointer-events-none">
-            {[4.5 * 3600, 8 * 3600, 12 * 3600, 18 * 3600, 24 * 3600, 25.5 * 3600].map((sec) => {
+            {[4 * 3600, 8 * 3600, 12 * 3600, 16 * 3600, 20 * 3600, 24 * 3600, 26 * 3600, 28 * 3600].map((sec) => {
               const percent = ((sec - MIN_SEC) / TOTAL_SEC) * 100;
               return (
                 <div

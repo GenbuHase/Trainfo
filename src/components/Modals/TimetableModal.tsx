@@ -210,7 +210,7 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
             <div className="divide-y divide-slate-100">
               {fullDayData.map((row) => {
                 const departures = direction === 'inbound' ? row.inbound : row.outbound;
-                if ((row.hour < 4 || row.hour > 25) && departures.length === 0) return null;
+                if ((row.hour < 4 || row.hour >= 26) && departures.length === 0) return null;
 
                 return (
                   <div key={row.hour} className="flex items-start hover:bg-slate-50/80 transition-colors">

@@ -125,17 +125,20 @@ export function getFullDayStationTimetable(
   const stData = timetables[dayKey]?.[stationId] || { inbound: [], outbound: [] };
 
   const hourly: HourlyStationTimetable[] = [];
-  for (let h = 4; h <= 25; h++) {
+  for (let h = 4; h <= 27; h++) {
+    const displayHour = h >= 24 ? String(h - 24).padStart(2, '0') : String(h);
     hourly.push({
       hour: h,
-      displayHour: String(h),
+      displayHour,
       inbound: [],
       outbound: [],
     });
   }
 
+  const mapTo24hCycle = (h: number) => (h < 4 ? h + 24 : h);
+
   for (const dep of stData.inbound) {
-    const targetHour = dep.h === 0 ? 24 : (dep.h === 1 ? 25 : dep.h);
+    const targetHour = mapTo24hCycle(dep.h);
     const target = hourly.find((item) => item.hour === targetHour);
     if (target) {
       target.inbound.push({
@@ -149,7 +152,7 @@ export function getFullDayStationTimetable(
   }
 
   for (const dep of stData.outbound) {
-    const targetHour = dep.h === 0 ? 24 : (dep.h === 1 ? 25 : dep.h);
+    const targetHour = mapTo24hCycle(dep.h);
     const target = hourly.find((item) => item.hour === targetHour);
     if (target) {
       target.outbound.push({

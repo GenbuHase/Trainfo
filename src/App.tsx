@@ -167,9 +167,9 @@ export function App() {
             nextSec = getRealCurrentSeconds();
           } else {
             nextSec = prev.currentSec + elapsed * prev.speedMultiplier;
-            // 終電・深夜運行終了（25:30 / 91800秒 = 01:30）を超えたら始発（04:30 / 16200秒）へループ
-            if (nextSec >= 25.5 * 3600) {
-              nextSec = 4.5 * 3600;
+            // 24時間運行サイクル（28:00 / 100800秒 = 翌朝04:00）を超えたら起点（04:00 / 14400秒）へループ
+            if (nextSec >= 28 * 3600) {
+              nextSec = 4 * 3600;
             }
           }
 
@@ -279,7 +279,12 @@ export function App() {
   // タイムスライダーシーク
   const handleSeekTime = useCallback((sec: number) => {
     setIsRealTimeSynced(false);
-    const normalizedSec = sec < 4 * 3600 ? sec + 86400 : sec;
+    let normalizedSec = sec;
+    if (normalizedSec < 4 * 3600) {
+      normalizedSec += 86400;
+    } else if (normalizedSec >= 28 * 3600) {
+      normalizedSec = 4 * 3600;
+    }
     setSimState((prev) => ({ ...prev, currentSec: normalizedSec }));
   }, []);
 
