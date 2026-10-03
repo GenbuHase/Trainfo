@@ -371,7 +371,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
          'JM-35', 'JM-33', 'JM-28', 'JM-26', 'JM-25', 'JM-22', 'JM-15', 'JM-10',
          'JE-01', 'JE-05', 'JE-11', 'JE-14',
          'JC-01', 'JC-03', 'JC-05', 'JC-06', 'JC-11', 'JC-12', 'JC-16', 'JC-17', 'JC-19', 'JC-22', 'JC-24', 'JC-27', 'JC-32',
-         'CO-37', 'CO-39', 'CO-41', 'CO-43',
+         'CO-37', 'CO-39', 'CO-41', 'CO-43', 'CO-46', 'CO-51', 'CO-56', 'CO-57', 'CO-59', 'CO-61',
          'JU-07',
          'TX-01', 'TX-03', 'TX-05', 'TX-08', 'TX-10', 'TX-12', 'TX-15', 'TX-20'].includes(st.id);
 

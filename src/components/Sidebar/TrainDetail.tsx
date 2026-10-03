@@ -62,7 +62,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
               </span>
             </h2>
             <p className="text-xs text-slate-400 mt-1">
-              始発: {originStation?.name || '始発駅'} 発
+              始発: {train.customOrigin || originStation?.name || '始発駅'} 発
             </p>
           </div>
         </div>
@@ -214,8 +214,10 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                       </span>
                       {!isPassing && <StationBadge id={st.id} size="sm" />}
                       {isPassing && (
-                        <span className="text-[10px] text-slate-400 bg-slate-100 px-1 rounded">
+                        <span className="text-[10px] text-slate-400 bg-slate-100 px-1 py-0.5 rounded flex items-center gap-1">
                           通過
+                          {idx === 0 && <span className="text-[9px] text-sky-600 font-medium">直通</span>}
+                          {isLast && <span className="text-[9px] text-sky-600 font-medium">直通</span>}
                         </span>
                       )}
                     </div>
