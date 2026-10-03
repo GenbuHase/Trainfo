@@ -149,6 +149,11 @@ class YahooTimetableBuilder {
     const { trainId, dayKey, stopStation, displayName } = trainDetail;
     const isHoliday = dayKey === 'holiday';
 
+    // 【路線固有の除外フィルター】他路線集約列車（むさしの号等）の除外判定
+    if (this.config.shouldExcludeTrip && this.config.shouldExcludeTrip(trainDetail)) {
+      return null;
+    }
+
     if (!stopStation || stopStation.length === 0) {
       return null;
     }

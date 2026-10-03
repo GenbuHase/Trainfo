@@ -173,11 +173,40 @@ export function calculateActiveTrains(
     }
   }
 
+  // 複数路線選択時の直通列車（むさしの号等）の重複排除
+  // 同一列車番号かつ共通駅を持つ列車が存在する場合、より停車駅数の多い（全区間通しの）列車を優先
+  const candidateTrains: ActiveTrain[] = [];
+  for (const train of activeTrains) {
+    const formattedNo = formatTrainNumber(train.trainNumber, train.tripId);
+    if (!formattedNo) {
+      candidateTrains.push(train);
+      continue;
+    }
+
+    const stationIds = new Set(train.stops.map((s) => s.stationId));
+    const hasBetterThroughTrain = activeTrains.some((other) => {
+      if (other === train) return false;
+      const otherFormattedNo = formatTrainNumber(other.trainNumber, other.tripId);
+      if (otherFormattedNo !== formattedNo) return false;
+
+      const hasSharedStation = other.stops.some((s) => stationIds.has(s.stationId));
+      if (!hasSharedStation) return false;
+
+      if (other.stops.length > train.stops.length) return true;
+      if (other.stops.length === train.stops.length && other.tripId < train.tripId) return true;
+      return false;
+    });
+
+    if (!hasBetterThroughTrain) {
+      candidateTrains.push(train);
+    }
+  }
+
   // 同一運行（路線・進行方向・同一列車番号）の重複表示を安全に排除
   const uniqueTrains: ActiveTrain[] = [];
   const seenTrainKeys = new Set<string>();
 
-  for (const train of activeTrains) {
+  for (const train of candidateTrains) {
     const formattedNo = formatTrainNumber(train.trainNumber, train.tripId);
     const key = `${train.lineId}_${train.direction}_${formattedNo}`;
 
