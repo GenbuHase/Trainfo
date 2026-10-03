@@ -1,7 +1,6 @@
 // Trainfo 共通型定義ファイル
 
-// 路線ID型（将来の路線追加に開かれた拡張型）
-export type LineId = 'tojo' | 'saikyo' | 'musashino' | 'tsukuba_express' | 'chuo' | 'chuo_main' | 'shinonoi' | (string & {});
+export type LineId = 'tojo' | 'saikyo' | 'musashino' | 'tsukuba_express' | 'chuo' | 'chuo_main' | 'shinonoi' | 'oito_east' | 'oito_west' | (string & {});
 
 // 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋汎用）
 export type TrainTypeKey =

@@ -75,6 +75,18 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#d56a29',
     numColor: '#a84e15',
   },
+  // JR東日本 大糸線
+  OE: {
+    borderColor: '#8a579e',
+    prefixColor: '#8a579e',
+    numColor: '#6c3b82',
+  },
+  // JR西日本 大糸線
+  OW: {
+    borderColor: '#0067b8',
+    prefixColor: '#0067b8',
+    numColor: '#004d8a',
+  },
 };
 
 const DEFAULT_BADGE_COLOR: StationBadgeColor = {
