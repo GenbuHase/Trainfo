@@ -105,6 +105,12 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#9c5f24',
     numColor: '#7a3e0c',
   },
+  // 西武池袋線・西武有楽町線・西武秩父線
+  SI: {
+    borderColor: '#f39800',
+    prefixColor: '#f39800',
+    numColor: '#b86600',
+  },
   // JR八高線
   HA: {
     borderColor: '#a8a39d',
