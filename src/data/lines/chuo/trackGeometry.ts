@@ -6163,18 +6163,6 @@ export const CHUO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.596955,
         138.89052
-      ]
-    ]
-  },
-  {
-    "fromStationId": "CO-33",
-    "toStationId": "CO-34",
-    "fromName": "初狩",
-    "toName": "笹子",
-    "coordinates": [
-      [
-        35.596955,
-        138.89052
       ],
       [
         35.596502,
@@ -6259,15 +6247,15 @@ export const CHUO_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.594186,
         138.884328
-      ],
-      [
-        35.596221,
-        138.889486
-      ],
-      [
-        35.596268,
-        138.889554
-      ],
+      ]
+    ]
+  },
+  {
+    "fromStationId": "CO-33",
+    "toStationId": "CO-34",
+    "fromName": "初狩",
+    "toName": "笹子",
+    "coordinates": [
       [
         35.594186,
         138.884328
