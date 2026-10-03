@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, Train, MapPin, LocateFixed, Sliders, Layers } from 'lucide-react';
+import { X, Train, MapPin, LocateFixed, Sliders, Layers, Download } from 'lucide-react';
 import { getAllLines } from '../../data/linesRegistry';
 
 interface HelpModalProps {
@@ -38,7 +38,7 @@ export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
               <span>マルチ路線・リアルタイム車両位置の追跡</span>
             </h3>
             <p>
-              東武東上線、JR埼京線・川越線、JR武蔵野線（直通含む）、首都圏新都市鉄道つくばエクスプレスの公式ダイヤに基づき、現在走行中の全列車の位置・速度・進行方向を秒単位で高精度に計算して地図上にアニメーション表示します。
+              東武東上線、JR埼京線・川越線、JR武蔵野線（直通含む）、首都圏新都市鉄道つくばエクスプレス、JR中央線・中央本線などの首都圏主要路線の公式ダイヤに基づき、現在走行中の全列車の位置・速度・進行方向を秒単位で高精度に計算して地図上にアニメーション表示します。
             </p>
           </section>
 
@@ -79,6 +79,16 @@ export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
             </h3>
             <p>
               画面下部のコントローラーで、早送り（最大600倍速）、一時停止、時間帯ジャンプ（朝ラッシュ、夕ラッシュ、終電帯など）が可能です。また、任意の遅延（+5分、+15分、ランダム遅延）を発生させるシミュレーションも行えます。
+            </p>
+          </section>
+
+          <section className="space-y-1.5">
+            <h3 className="font-bold text-slate-900 flex items-center gap-1.5 text-sm">
+              <Download className="w-4 h-4 text-sky-600" />
+              <span>ホーム画面・PCへのアプリインストール (PWA)</span>
+            </h3>
+            <p>
+              Trainfo は Progressive Web App (PWA) に対応しており、スマホのホーム画面やPCデスクトップにアプリとしてインストールできます。アドレスバーのないフルスクリーン画面と高速起動でご利用いただけます（画面上部のダウンロードボタンからいつでもインストール可能）。
             </p>
           </section>
 
