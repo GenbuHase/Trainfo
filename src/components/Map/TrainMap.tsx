@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useMemo } from 'react';
+import React, { useEffect, useRef, useState, useMemo, useCallback } from 'react';
 import L from 'leaflet';
 import type { Station, ActiveTrain, Direction, LineId } from '../../types';
 import { getStations, STATION_MAP } from '../../data/stations';
@@ -9,6 +9,9 @@ import {
   ZoomIn,
   ZoomOut,
   Maximize2,
+  Locate,
+  LocateFixed,
+  Loader2,
 } from 'lucide-react';
 
 interface TrainMapProps {
@@ -155,6 +158,9 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   const stationLayerRef = useRef<L.LayerGroup | null>(null);
   const trainLayerRef = useRef<L.LayerGroup | null>(null);
   const polylineLayerRef = useRef<L.LayerGroup | null>(null);
+  const locationLayerRef = useRef<L.LayerGroup | null>(null);
+  const locationWatchIdRef = useRef<number | null>(null);
+  const errorTimeoutRef = useRef<number | null>(null);
 
   // 列車マーカーのキャッシュと追従管理用Refs
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
@@ -165,6 +171,12 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   }, [onSelectTrain]);
   const prevTrackingPosRef = useRef<{ lat: number; lng: number } | null>(null);
   const isFirstTrackRef = useRef<boolean>(true);
+
+  // 現在地取得関連の状態
+  const [isLocating, setIsLocating] = useState<boolean>(false);
+  const [currentLocation, setCurrentLocation] = useState<{ lat: number; lng: number; accuracy: number } | null>(null);
+  const [isTrackingLocation, setIsTrackingLocation] = useState<boolean>(false);
+  const [locationErrorMessage, setLocationErrorMessage] = useState<string | null>(null);
 
   const [tileType, setTileType] = useState<TileType>('standard');
   const [showLayerMenu, setShowLayerMenu] = useState(false);
@@ -207,11 +219,17 @@ export const TrainMap: React.FC<TrainMapProps> = ({
     polylineLayerRef.current = L.layerGroup().addTo(map);
     stationLayerRef.current = L.layerGroup().addTo(map);
     trainLayerRef.current = L.layerGroup().addTo(map);
+    locationLayerRef.current = L.layerGroup().addTo(map);
     mapRef.current = map;
 
     // 地図背景クリックでサイドバーを閉じる
     map.on('click', () => {
       onCloseSidebar?.();
+    });
+
+    // 地図ドラッグ操作で現在地追従を解除
+    map.on('dragstart', () => {
+      setIsTrackingLocation(false);
     });
 
     // リサイズハンドラ
@@ -222,6 +240,13 @@ export const TrainMap: React.FC<TrainMapProps> = ({
 
     const markers = markersRef.current;
     return () => {
+      if (locationWatchIdRef.current !== null && navigator.geolocation) {
+        navigator.geolocation.clearWatch(locationWatchIdRef.current);
+        locationWatchIdRef.current = null;
+      }
+      if (errorTimeoutRef.current !== null) {
+        window.clearTimeout(errorTimeoutRef.current);
+      }
       resizeObserver.disconnect();
       markers.clear();
       map.remove();
@@ -485,9 +510,154 @@ export const TrainMap: React.FC<TrainMapProps> = ({
     }
   }, [isTrackingTrain, trackingTrainId, activeTrains]);
 
+  // エラー通知トースト表示ヘルパー
+  const showLocationError = useCallback((msg: string) => {
+    setLocationErrorMessage(msg);
+    if (errorTimeoutRef.current !== null) {
+      window.clearTimeout(errorTimeoutRef.current);
+    }
+    errorTimeoutRef.current = window.setTimeout(() => {
+      setLocationErrorMessage(null);
+    }, 4000);
+  }, []);
+
+  // 現在地マーカーと測位精度円の描画更新
+  useEffect(() => {
+    if (!locationLayerRef.current) return;
+    locationLayerRef.current.clearLayers();
+
+    if (!currentLocation) return;
+
+    // 測位精度を表す円
+    const circle = L.circle([currentLocation.lat, currentLocation.lng], {
+      radius: currentLocation.accuracy,
+      color: '#3b82f6',
+      fillColor: '#3b82f6',
+      fillOpacity: 0.12,
+      weight: 1,
+      interactive: false,
+    });
+
+    // 現在地パルスマーカー
+    const markerIcon = L.divIcon({
+      className: 'current-location-marker',
+      html: `
+        <div class="relative flex items-center justify-center w-6 h-6 -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+          <span class="absolute w-6 h-6 rounded-full bg-blue-500 opacity-60 animate-ping"></span>
+          <span class="relative w-3.5 h-3.5 bg-blue-600 rounded-full border-2 border-white shadow-md"></span>
+        </div>
+      `,
+      iconSize: [0, 0],
+      iconAnchor: [0, 0],
+    });
+
+    const marker = L.marker([currentLocation.lat, currentLocation.lng], {
+      icon: markerIcon,
+      interactive: false,
+      zIndexOffset: 1000,
+    });
+
+    locationLayerRef.current.addLayer(circle);
+    locationLayerRef.current.addLayer(marker);
+  }, [currentLocation]);
+
+  // バックグラウンドでの位置情報監視（移動に合わせてマーカーを更新）
+  useEffect(() => {
+    if (!currentLocation || !navigator.geolocation) return;
+
+    if (locationWatchIdRef.current === null) {
+      locationWatchIdRef.current = navigator.geolocation.watchPosition(
+        (pos) => {
+          const { latitude, longitude, accuracy } = pos.coords;
+          setCurrentLocation({ lat: latitude, lng: longitude, accuracy });
+        },
+        () => {
+          // バックグラウンド監視中のエラーはサイレントに処理
+        },
+        {
+          enableHighAccuracy: true,
+          maximumAge: 10000,
+        }
+      );
+    }
+  }, [currentLocation]);
+
+  // 現在地追従モード時の地図センタリング
+  useEffect(() => {
+    if (!isTrackingLocation || !currentLocation || !mapRef.current) return;
+    mapRef.current.panTo([currentLocation.lat, currentLocation.lng], { animate: true, duration: 0.5 });
+  }, [isTrackingLocation, currentLocation]);
+
+  // 現在地取得 / 追従トグルハンドラ
+  const handleToggleLocation = useCallback(() => {
+    if (!navigator.geolocation) {
+      showLocationError('お使いのブラウザは位置情報取得に対応していません');
+      return;
+    }
+
+    // 列車追跡モードが有効なら解除
+    onStopTracking?.();
+
+    // 既に位置情報があり、追従が無効の場合は追従を再開してフォーカス
+    if (currentLocation && !isTrackingLocation) {
+      mapRef.current?.flyTo([currentLocation.lat, currentLocation.lng], Math.max(mapRef.current.getZoom(), 15), {
+        duration: 0.8,
+      });
+      setIsTrackingLocation(true);
+      return;
+    }
+
+    // 既に追従中の場合は追従を解除（マーカー表示は維持）
+    if (currentLocation && isTrackingLocation) {
+      setIsTrackingLocation(false);
+      return;
+    }
+
+    // 初回取得
+    setIsLocating(true);
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        const { latitude, longitude, accuracy } = pos.coords;
+        setCurrentLocation({ lat: latitude, lng: longitude, accuracy });
+        setIsLocating(false);
+        setIsTrackingLocation(true);
+
+        if (mapRef.current) {
+          mapRef.current.flyTo([latitude, longitude], Math.max(mapRef.current.getZoom(), 15), {
+            duration: 1.0,
+          });
+        }
+      },
+      (err) => {
+        setIsLocating(false);
+        setIsTrackingLocation(false);
+        let msg = '現在地を取得できませんでした';
+        if (err.code === err.PERMISSION_DENIED) {
+          msg = '位置情報の利用が許可されていません';
+        } else if (err.code === err.TIMEOUT) {
+          msg = '位置情報の取得がタイムアウトしました';
+        }
+        showLocationError(msg);
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 5000,
+      }
+    );
+  }, [currentLocation, isTrackingLocation, onStopTracking, showLocationError]);
+
   return (
     <div className="relative w-full h-full">
       <div ref={mapContainerRef} className="w-full h-full z-0" />
+
+      {/* 現在地エラー通知トースト */}
+      {locationErrorMessage && (
+        <div className="absolute top-20 left-1/2 -translate-x-1/2 z-[1000] px-4 py-2 bg-slate-900/95 text-white text-xs font-medium rounded-full shadow-xl backdrop-blur-md pointer-events-none transition-all flex items-center gap-2">
+          <span className="w-2 h-2 rounded-full bg-red-400 animate-pulse" />
+          <span>{locationErrorMessage}</span>
+        </div>
+      )}
 
       {/* 地図コントロール (右下配置、モバイル時のTimeControllerとの被りを完全防止) */}
       <div
@@ -544,6 +714,38 @@ export const TrainMap: React.FC<TrainMapProps> = ({
             </div>
           )}
         </div>
+
+        {/* 現在地取得ボタン */}
+        <button
+          type="button"
+          onClick={handleToggleLocation}
+          disabled={isLocating}
+          className={`p-2.5 bg-white/95 backdrop-blur-md rounded-lg shadow-md border transition-all ${
+            isTrackingLocation
+              ? 'border-blue-500 text-blue-600 bg-blue-50/90 ring-2 ring-blue-300'
+              : currentLocation
+              ? 'border-slate-200 text-blue-600 hover:bg-slate-50'
+              : 'border-slate-200 text-slate-700 hover:bg-slate-50'
+          }`}
+          title={
+            isLocating
+              ? '現在地を取得中...'
+              : isTrackingLocation
+              ? '現在地を追従中（クリックで解除）'
+              : currentLocation
+              ? '現在地に移動'
+              : '現在地を表示'
+          }
+          aria-label="現在地を表示"
+        >
+          {isLocating ? (
+            <Loader2 className="w-5 h-5 text-blue-600 animate-spin" />
+          ) : isTrackingLocation ? (
+            <LocateFixed className="w-5 h-5" />
+          ) : (
+            <Locate className="w-5 h-5" />
+          )}
+        </button>
 
         {/* ズームイン */}
         <button
