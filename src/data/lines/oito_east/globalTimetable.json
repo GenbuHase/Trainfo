@@ -7,7 +7,7 @@
     "direction": "outbound",
     "originStationId": "OE-01",
     "destinationStationId": "OE-29",
-    "cars": 3,
+    "cars": 9,
     "isHoliday": false,
     "stops": [
       {
@@ -184,7 +184,11 @@
         "departureTime": "05:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customOrigin": "新宿",
+    "customDestination": "白馬",
+    "throughTripId": "sn_WD_OUT_JC-05_2358_42781",
+    "throughLineId": "shinonoi"
   },
   {
     "tripId": "WD_INB_OE-20_0530_29311",
@@ -3265,7 +3269,7 @@
     "direction": "outbound",
     "originStationId": "OE-01",
     "destinationStationId": "OE-29",
-    "cars": 3,
+    "cars": 9,
     "isHoliday": false,
     "stops": [
       {
@@ -3442,7 +3446,11 @@
         "departureTime": "11:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customOrigin": "新宿",
+    "customDestination": "白馬",
+    "throughTripId": "WD_OUT_SN-01_1028_42780",
+    "throughLineId": "shinonoi"
   },
   {
     "tripId": "WD_OUT_OE-01_1109_29297",
@@ -8654,7 +8662,7 @@
     "direction": "outbound",
     "originStationId": "OE-01",
     "destinationStationId": "OE-29",
-    "cars": 3,
+    "cars": 9,
     "isHoliday": true,
     "stops": [
       {
@@ -8831,7 +8839,11 @@
         "departureTime": "05:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customOrigin": "新宿",
+    "customDestination": "白馬",
+    "throughTripId": "sn_HD_OUT_JC-05_2358_42781",
+    "throughLineId": "shinonoi"
   },
   {
     "tripId": "HD_INB_OE-20_0530_29311",
@@ -11912,7 +11924,7 @@
     "direction": "outbound",
     "originStationId": "OE-01",
     "destinationStationId": "OE-29",
-    "cars": 3,
+    "cars": 9,
     "isHoliday": true,
     "stops": [
       {
@@ -12089,7 +12101,11 @@
         "departureTime": "11:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customOrigin": "新宿",
+    "customDestination": "白馬",
+    "throughTripId": "HD_OUT_SN-01_1028_42779",
+    "throughLineId": "shinonoi"
   },
   {
     "tripId": "HD_OUT_OE-01_1109_29297",

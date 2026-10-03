@@ -76,7 +76,22 @@ export function App() {
   const selectedTrain = useMemo(() => {
     if (!selectedTrainId) return null;
     const found = activeTrains.find((t) => t.tripId === selectedTrainId);
-    if (found) return found;
+    if (found) {
+      const prev = lastSelectedTrainRef.current;
+      if (
+        prev &&
+        (prev.tripId === found.tripId ||
+          formatTrainNumber(prev.trainNumber, prev.tripId) === formatTrainNumber(found.trainNumber, found.tripId))
+      ) {
+        if (!found.customOrigin && prev.customOrigin) {
+          found.customOrigin = prev.customOrigin;
+        }
+        if (!found.customDestination && prev.customDestination) {
+          found.customDestination = prev.customDestination;
+        }
+      }
+      return found;
+    }
 
     // 直前の列車から直通先トリップ（throughTripId 照合）または同一列車番号・同一方向の後続トリップを引き継ぐ
     const prev = lastSelectedTrainRef.current;

@@ -5601,7 +5601,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customDestination": "白馬",
-    "cars": 6,
+    "cars": 9,
     "isHoliday": false,
     "stops": [
       {
@@ -5640,7 +5640,10 @@
         "departureTime": "10:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customOrigin": "新宿",
+    "throughTripId": "WD_OUT_OE-01_1041_42780",
+    "throughLineId": "oito_east"
   },
   {
     "tripId": "WD_OUT_SN-01_1032_40196",
@@ -22794,7 +22797,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customDestination": "白馬",
-    "cars": 6,
+    "cars": 9,
     "isHoliday": true,
     "stops": [
       {
@@ -22833,7 +22836,10 @@
         "departureTime": "10:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customOrigin": "新宿",
+    "throughTripId": "HD_OUT_OE-01_1041_42779",
+    "throughLineId": "oito_east"
   },
   {
     "tripId": "HD_OUT_SN-01_1032_40196",
@@ -34576,8 +34582,8 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "cm_WD_OUT_JC-05_2358_42781",
-    "throughLineId": "chuo_main"
+    "throughTripId": "WD_OUT_OE-01_0449_42781",
+    "throughLineId": "oito_east"
   },
   {
     "tripId": "sn_HD_OUT_JC-05_2358_42781",
@@ -34629,7 +34635,7 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "cm_HD_OUT_JC-05_2358_42781",
-    "throughLineId": "chuo_main"
+    "throughTripId": "HD_OUT_OE-01_0449_42781",
+    "throughLineId": "oito_east"
   }
 ]
