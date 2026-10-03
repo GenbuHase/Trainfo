@@ -7,6 +7,7 @@ import { TimeController } from './components/Controls/TimeController';
 import { TimetableModal } from './components/Modals/TimetableModal';
 import { SettingsModal } from './components/Modals/SettingsModal';
 import { HelpModal } from './components/Modals/HelpModal';
+import { InstallModal } from './components/Modals/InstallModal';
 import {
   calculateActiveTrains,
   getRealCurrentSeconds,
@@ -102,6 +103,7 @@ export function App() {
   const [isTimetableOpen, setIsTimetableOpen] = useState<boolean>(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
   const [isHelpOpen, setIsHelpOpen] = useState<boolean>(false);
+  const [isInstallOpen, setIsInstallOpen] = useState<boolean>(false);
 
   const lastTickTimeRef = useRef<number>(performance.now());
 
@@ -288,6 +290,7 @@ export function App() {
         onToggleHoliday={(val) => setSimState((prev) => ({ ...prev, isHoliday: val }))}
         onOpenSettings={() => setIsSettingsOpen(true)}
         onOpenHelp={() => setIsHelpOpen(true)}
+        onOpenInstall={() => setIsInstallOpen(true)}
         isSidebarOpen={isSidebarOpen}
         onCloseSidebar={handleCloseSidebar}
         selectedLineIds={selectedLineIds}
@@ -378,6 +381,9 @@ export function App() {
 
       {/* 使い方ヘルプモーダル */}
       <HelpModal isOpen={isHelpOpen} onClose={() => setIsHelpOpen(false)} />
+
+      {/* PWAインストールモーダル */}
+      <InstallModal isOpen={isInstallOpen} onClose={() => setIsInstallOpen(false)} />
     </div>
   );
 }

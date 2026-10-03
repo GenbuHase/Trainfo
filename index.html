@@ -4,8 +4,19 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-    <title>Trainfo - 東武東上線 リアルタイム列車位置＆運行マップ</title>
-    <meta name="description" content="東武東上線の時刻表を取得し、現在の車両走行位置・発車案内・運行ダイヤをリアルタイムに表示するGoogleマップ風Webアプリケーション" />
+    <title>Trainfo - リアルタイム列車位置＆運行マップ</title>
+    <meta name="description" content="首都圏主要路線（東武東上線、JR埼京線・川越線、JR武蔵野線、つくばエクスプレス、JR中央線・中央本線）の時刻表に基づき、現在の列車走行位置・発車案内・運行ダイヤをリアルタイムに表示する運行マップシミュレータ" />
+
+    <!-- PWA & Mobile Web App Meta -->
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="theme-color" content="#002060" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Trainfo" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192x192.png" />
   </head>
   <body class="bg-slate-100 overflow-hidden">
     <div id="root"></div>

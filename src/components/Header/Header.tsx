@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react';
-import { Search, Train, MapPin, X, Calendar, Settings, HelpCircle } from 'lucide-react';
+import { Search, Train, MapPin, X, Calendar, Settings, HelpCircle, Download } from 'lucide-react';
 import type { Station, ActiveTrain, LineId, Direction } from '../../types';
 import { getStations } from '../../data/stations';
 import { StationBadge, TrainTypeBadge } from '../Common/Badges';
@@ -7,6 +7,7 @@ import { formatTrainNumber } from '../../data/timetableData';
 import { getLine } from '../../data/linesRegistry';
 import { DisplayFilterDock } from '../Map/DisplayFilterDock';
 import { TrackingBar } from '../Map/TrackingBar';
+import { isRunningStandalone, subscribeInstallState } from '../../services/pwaService';
 
 interface HeaderProps {
   onSelectStation: (station: Station) => void;
@@ -16,6 +17,7 @@ interface HeaderProps {
   onToggleHoliday: (val: boolean) => void;
   onOpenSettings: () => void;
   onOpenHelp: () => void;
+  onOpenInstall?: () => void;
   isSidebarOpen: boolean;
   onCloseSidebar?: () => void;
   selectedLineIds: LineId[];
@@ -38,6 +40,7 @@ export const Header: React.FC<HeaderProps> = ({
   onToggleHoliday,
   onOpenSettings,
   onOpenHelp,
+  onOpenInstall,
   isSidebarOpen,
   onCloseSidebar,
   selectedLineIds,
@@ -53,7 +56,18 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
+  const [canInstall, setCanInstall] = useState(false);
+  const [isStandalone, setIsStandalone] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  // PWAインストール状態の監視
+  useEffect(() => {
+    setIsStandalone(isRunningStandalone());
+    const unsubscribe = subscribeInstallState((canPrompt) => {
+      setCanInstall(canPrompt);
+    });
+    return unsubscribe;
+  }, []);
 
   // 外側クリックで検索サジェストを閉じる
   useEffect(() => {
@@ -157,6 +171,22 @@ export const Header: React.FC<HeaderProps> = ({
   // ステータスカプセル群（ダイヤ種別、走行列車数）の共通JSX
   const statusCapsulesJsx = (
     <>
+      {/* アプリインストールボタン (ブラウザ起動時のみ) */}
+      {!isStandalone && onOpenInstall && (
+        <button
+          type="button"
+          onClick={onOpenInstall}
+          className="pointer-events-auto shrink-0 flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg bg-white/95 backdrop-blur-md text-xs font-semibold text-sky-700 shadow-md border border-sky-200 hover:bg-sky-50 hover:border-sky-300 transition-all group"
+          title="ホーム画面またはPCにアプリとしてインストール"
+        >
+          <Download className="w-3.5 h-3.5 text-sky-600 group-hover:scale-110 transition-transform shrink-0" />
+          <span className="whitespace-nowrap">アプリをインストール</span>
+          {canInstall && (
+            <span className="w-1.5 h-1.5 rounded-full bg-sky-500 animate-pulse shrink-0" />
+          )}
+        </button>
+      )}
+
       {/* ダイヤ種別トグル (平日 / 土休日) */}
       <button
         type="button"
@@ -228,8 +258,21 @@ export const Header: React.FC<HeaderProps> = ({
               )}
             </div>
 
-            {/* 一体型ボタン: ヘルプ(?) ＆ 設定(⚙) */}
+            {/* 一体型ボタン: インストール(↓) ＆ ヘルプ(?) ＆ 設定(⚙) */}
             <div className="flex items-center gap-0.5 border-l border-slate-200 pl-1.5 shrink-0">
+              {!isStandalone && onOpenInstall && (
+                <button
+                  type="button"
+                  onClick={onOpenInstall}
+                  className="p-1.5 text-sky-600 hover:text-sky-800 hover:bg-sky-50 rounded-md transition-colors relative"
+                  title="アプリとしてインストール"
+                >
+                  <Download className="w-4 h-4" />
+                  {canInstall && (
+                    <span className="absolute top-1 right-1 w-2 h-2 rounded-full bg-sky-500 animate-pulse ring-1 ring-white" />
+                  )}
+                </button>
+              )}
               <button
                 type="button"
                 onClick={onOpenHelp}
