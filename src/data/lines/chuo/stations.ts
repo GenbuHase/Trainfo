@@ -1079,8 +1079,8 @@ export const CHUO_STATIONS: Station[] = [
     "name": "初狩",
     "nameKana": "はつかり",
     "nameEn": "Hatsukari",
-    "lat": 35.596955,
-    "lng": 138.89052,
+    "lat": 35.594186,
+    "lng": 138.884328,
     "transfers": [],
     "address": "山梨県大月市初狩町下初狩",
     "facilities": {
