@@ -15,7 +15,7 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#ed6d00',
     numColor: '#004b97',
   },
-  // JR埼京線・川越線
+  // JR埼京線・JR川越線
   JA: {
     borderColor: '#00ac9a',
     prefixColor: '#00ac9a',

@@ -1,12 +1,23 @@
-// JR埼京線・川越線 Yahoo! 路線情報スクレイパー設定
+// JR埼京線 Yahoo! 路線情報スクレイパー設定 (大崎 〜 大宮 全19駅)
 const fs = require('fs');
 const path = require('path');
 
-const stations = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../cache/saikyo_stations_final.json'), 'utf8'));
+const allStations = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../cache/saikyo_stations_final.json'), 'utf8'));
+// 大崎(JA-08) 〜 大宮(JA-26)
+const stations = allStations.filter(s => {
+  const num = parseInt(s.id.replace('JA-', ''), 10);
+  return num >= 8 && num <= 26;
+}).map(s => {
+  if (s.id === 'JA-26') {
+    // 終着駅大宮
+    return { ...s, outGroupId: null };
+  }
+  return s;
+});
 
 module.exports = {
   lineId: 'saikyo',
-  name: 'JR埼京線・川越線',
+  name: 'JR埼京線',
   stationsFilePath: 'src/data/lines/saikyo/stations.ts',
   outputPaths: {
     stationTimetables: 'src/data/lines/saikyo/stationTimetables.json',
@@ -21,7 +32,6 @@ module.exports = {
   })),
   stationNameAliases: {
     '十条(東京都)': '十条',
-    '日進(埼玉県)': '日進',
     '大宮(埼玉県)': '大宮',
     '戸田(埼玉県)': '戸田',
   },
@@ -52,10 +62,5 @@ module.exports = {
     23: 120, // 南与野 -> 与野本町
     24: 120, // 与野本町 -> 北与野
     25: 180, // 北与野 -> 大宮
-    26: 240, // 大宮 -> 日進
-    27: 180, // 日進 -> 西大宮
-    28: 180, // 西大宮 -> 指扇
-    29: 240, // 指扇 -> 南古谷
-    30: 240, // 南古谷 -> 川越
   },
 };
