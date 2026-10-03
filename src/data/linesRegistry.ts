@@ -10,6 +10,7 @@ import { shinonoiLine } from './lines/shinonoi';
 import { oitoEastLine } from './lines/oito_east';
 import { oitoWestLine } from './lines/oito_west';
 import { rinkaiLine } from './lines/rinkai';
+import { hachikoLine } from './lines/hachiko';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -17,6 +18,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   saikyo: saikyoLine,
   kawagoe: kawagoeLine,
   rinkai: rinkaiLine,
+  hachiko: hachikoLine,
   musashino: musashinoLine,
   tsukuba_express: tsukubaExpressLine,
   chuo: chuoLine,
