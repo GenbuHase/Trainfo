@@ -1,6 +1,6 @@
 import React from 'react';
 import { X, Train, MapPin, LocateFixed, Sliders, Layers, Download } from 'lucide-react';
-import { getAllLines } from '../../data/linesRegistry';
+import { getLinesGroupedByOperator } from '../../data/linesRegistry';
 
 interface HelpModalProps {
   isOpen: boolean;
@@ -10,7 +10,7 @@ interface HelpModalProps {
 export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
   if (!isOpen) return null;
 
-  const lines = getAllLines();
+  const groupedLines = getLinesGroupedByOperator();
 
   return (
     <div className="fixed inset-0 z-[2000] bg-black/60 backdrop-blur-xs flex items-center justify-center p-4">
@@ -93,22 +93,30 @@ export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
           </section>
 
           {/* 対応路線一覧 */}
-          <section className="pt-3 border-t border-slate-200">
-            <h4 className="font-bold text-slate-800 mb-2">対応路線一覧</h4>
-            <div className="grid grid-cols-2 gap-2">
-              {lines.map((l) => (
-                <div key={l.id} className="flex items-center gap-2 p-2 rounded-lg bg-slate-50 border border-slate-100">
-                  <span
-                    className="w-3 h-3 rounded-full shrink-0"
-                    style={{ backgroundColor: l.lineColor }}
-                  />
-                  <div>
-                    <span className="font-bold text-slate-800 text-[11px] block">{l.name}</span>
-                    <span className="text-[10px] text-slate-400 block">{l.operator}</span>
-                  </div>
+          <section className="pt-3 border-t border-slate-200 space-y-3">
+            <h4 className="font-bold text-slate-800 mb-1">対応路線一覧</h4>
+            {groupedLines.map((group) => (
+              <div key={group.operator} className="space-y-1.5">
+                <div className="flex items-center gap-1.5 text-xs font-bold text-slate-600">
+                  <span className="w-1 h-3 rounded-full bg-sky-500 shrink-0" />
+                  <span>{group.operator}</span>
                 </div>
-              ))}
-            </div>
+                <div className="grid grid-cols-2 gap-2">
+                  {group.lines.map((l) => (
+                    <div key={l.id} className="flex items-center gap-2 p-2 rounded-lg bg-slate-50 border border-slate-100">
+                      <span
+                        className="w-3 h-3 rounded-full shrink-0 shadow-2xs"
+                        style={{ backgroundColor: l.lineColor }}
+                      />
+                      <div className="min-w-0">
+                        <span className="font-bold text-slate-800 text-[11px] block truncate">{l.name}</span>
+                        <span className="text-[10px] text-slate-400 block truncate">全{l.stations.length}駅</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
           </section>
         </div>
       </div>
