@@ -13,15 +13,15 @@ export const YURAKUCHO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#c1a470',
     borderColor: '#a38450',
   },
-  // S-TRAIN: #008e76
+  // S-TRAIN: #b4c300 (ライムグリーン)
   strain: {
     key: 'strain',
     name: 'S-TRAIN',
     nameEn: 'S-TRAIN',
     shortName: 'S',
-    color: '#008e76',
+    color: '#b4c300',
     textColor: '#ffffff',
-    bgColor: '#008e76',
-    borderColor: '#00695c',
+    bgColor: '#b4c300',
+    borderColor: '#8f9b00',
   },
 };
