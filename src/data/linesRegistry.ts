@@ -4,6 +4,7 @@ import { saikyoLine } from './lines/saikyo';
 import { musashinoLine } from './lines/musashino';
 import { tsukubaExpressLine } from './lines/tsukuba_express';
 import { chuoLine } from './lines/chuo';
+import { chuoMainLine } from './lines/chuo_main';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -12,6 +13,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   musashino: musashinoLine,
   tsukuba_express: tsukubaExpressLine,
   chuo: chuoLine,
+  chuo_main: chuoMainLine,
 };
 
 // 登録されている全路線の配列を取得
@@ -24,13 +26,23 @@ export function getLine(lineId: LineId): LineDefinition | undefined {
   return LINES_REGISTRY[lineId];
 }
 
-// 選択された路線（または全路線）の駅リストを取得
+// 選択された路線（または全路線）の駅リストを取得（駅ID重複を除外してユニーク化）
 export function getCombinedStations(selectedLineIds?: LineId[]): Station[] {
   const lines = selectedLineIds && selectedLineIds.length > 0
     ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
     : getAllLines();
 
-  return lines.flatMap((l) => l.stations);
+  const seen = new Set<string>();
+  const result: Station[] = [];
+  for (const line of lines) {
+    for (const st of line.stations) {
+      if (!seen.has(st.id)) {
+        seen.add(st.id);
+        result.push(st);
+      }
+    }
+  }
+  return result;
 }
 
 // 選択された路線（または全路線）の線路セグメントを取得
@@ -73,6 +85,7 @@ export function getTrainTypeConfig(type: string, lineId?: LineId): TrainTypeConf
   if (musashinoLine.trainTypes[type]) return musashinoLine.trainTypes[type];
   if (tsukubaExpressLine.trainTypes[type]) return tsukubaExpressLine.trainTypes[type];
   if (chuoLine.trainTypes[type]) return chuoLine.trainTypes[type];
+  if (chuoMainLine.trainTypes[type]) return chuoMainLine.trainTypes[type];
   return {
     key: type,
     name: type,
@@ -106,8 +119,33 @@ export function getCombinedStationTimetables(selectedLineIds?: LineId[]): Statio
   };
 
   for (const line of lines) {
-    Object.assign(combined.weekday, line.stationTimetables.weekday);
-    Object.assign(combined.holiday, line.stationTimetables.holiday);
+    for (const day of ['weekday', 'holiday'] as const) {
+      if (!line.stationTimetables[day]) continue;
+      for (const [stId, tt] of Object.entries(line.stationTimetables[day])) {
+        if (!combined[day][stId]) {
+          combined[day][stId] = {
+            inbound: [...(tt.inbound || [])],
+            outbound: [...(tt.outbound || [])],
+          };
+        } else {
+          // 境界駅（高尾等）で同一駅が存在する場合、重複なくマージして時刻順ソート
+          const existing = combined[day][stId];
+          const mergeDepartures = (curr: typeof existing.inbound, incoming: typeof existing.inbound) => {
+            const seen = new Set(curr.map((d) => `${d.sec}_${d.d}_${d.no}`));
+            for (const inc of incoming) {
+              const key = `${inc.sec}_${inc.d}_${inc.no}`;
+              if (!seen.has(key)) {
+                curr.push(inc);
+                seen.add(key);
+              }
+            }
+            curr.sort((a, b) => a.sec - b.sec);
+          };
+          mergeDepartures(existing.inbound, tt.inbound || []);
+          mergeDepartures(existing.outbound, tt.outbound || []);
+        }
+      }
+    }
   }
 
   return combined;

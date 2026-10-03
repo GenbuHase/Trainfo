@@ -7,22 +7,22 @@ import rawGlobalTimetable from './globalTimetable.json';
 
 export const chuoLine: LineDefinition = {
   id: 'chuo',
-  name: 'JR中央線・中央本線',
-  shortName: '中央線・中央本線',
+  name: 'JR中央線',
+  shortName: '中央線',
   operator: 'JR東日本',
   lineColor: '#f15a22', // 中央線オレンジバーミリオン
-  accentColor: '#0072bc', // 中央東線ブルー
+  accentColor: '#c9252d', // 特快・速達カラー
   defaultBounds: [
-    [35.550, 137.920],
-    [36.150, 139.780],
+    [35.600, 139.250], // 高尾周辺
+    [35.750, 139.780], // 東京周辺
   ],
   directionNames: {
     inbound: '東京・新宿方面',
-    outbound: '高尾・甲府・塩尻方面',
+    outbound: '立川・八王子・高尾方面',
     inboundFull: '上り 東京・新宿方面',
-    outboundFull: '下り 高尾・甲府・塩尻方面',
+    outboundFull: '下り 立川・八王子・高尾方面',
     inboundShort: '東京方面',
-    outboundShort: '塩尻方面',
+    outboundShort: '高尾方面',
   },
   stations: CHUO_STATIONS,
   trackSegments: CHUO_TRACK_SEGMENTS,

@@ -1,7 +1,7 @@
 // Trainfo 共通型定義ファイル
 
 // 路線ID型（将来の路線追加に開かれた拡張型）
-export type LineId = 'tojo' | 'saikyo' | 'musashino' | 'tsukuba_express' | 'chuo' | (string & {});
+export type LineId = 'tojo' | 'saikyo' | 'musashino' | 'tsukuba_express' | 'chuo' | 'chuo_main' | (string & {});
 
 // 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋汎用）
 export type TrainTypeKey =
@@ -78,6 +78,7 @@ export interface TimetableTrip {
   direction: Direction;
   originStationId: string;
   destinationStationId: string;
+  customOrigin?: string;      // 直通列車の本来の始発駅名 (例: 新宿, 東京, 松本)
   customDestination?: string; // 直通列車の行先名 (例: 元町・中華街, 新木場, 海老名)
   cars: number;           // 10両, 8両, 4両
   isHoliday: boolean;     // 平日 / 土休日
@@ -94,6 +95,7 @@ export interface ActiveTrain {
   direction: Direction;
   originStationId: string;
   destinationStationId: string;
+  customOrigin?: string;
   customDestination?: string;
   cars: number;
   status: TrainStatus;

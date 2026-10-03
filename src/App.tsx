@@ -14,6 +14,7 @@ import {
 } from './services/trainSimulation';
 import type { SimulationState } from './services/trainSimulation';
 import { getAllLines } from './data/linesRegistry';
+import { formatTrainNumber } from './data/timetableData';
 
 
 import { loadSimulationFps } from './constants';
@@ -77,12 +78,23 @@ export function App() {
     const found = activeTrains.find((t) => t.tripId === selectedTrainId);
     if (found) return found;
 
-    // もし現在のtripIdが終了していても、直前の列車と同一列車番号の直通トリップが走行中なら即座に引き継ぐ
+    // 直前の列車から直通ペア（cm_ 接頭辞の相互変換）または同一列車番号・同一方向の後続トリップを引き継ぐ
     const prev = lastSelectedTrainRef.current;
-    if (prev && prev.trainNumber) {
-      const successor = activeTrains.find(
-        (t) => t.trainNumber === prev.trainNumber && t.tripId !== prev.tripId
-      );
+    if (prev) {
+      const prevNo = formatTrainNumber(prev.trainNumber, prev.tripId);
+      const successor = activeTrains.find((t) => {
+        if (t.tripId === prev.tripId) return false;
+        // 1. 直通ペアID判定（中央線 <-> 中央本線の cm_ 相互変換）
+        if (t.tripId === `cm_${prev.tripId}` || prev.tripId === `cm_${t.tripId}`) {
+          return true;
+        }
+        // 2. 同一列車番号かつ同一方向判定
+        const curNo = formatTrainNumber(t.trainNumber, t.tripId);
+        if (curNo && prevNo && curNo === prevNo && t.direction === prev.direction) {
+          return true;
+        }
+        return false;
+      });
       if (successor) return successor;
     }
     return null;
@@ -97,6 +109,46 @@ export function App() {
       }
     }
   }, [selectedTrain, selectedTrainId]);
+
+  // 直通列車を追尾中、直通先路線が未選択なら自動的に追加して追尾を継続
+  useEffect(() => {
+    if (!isTrackingTrain || !selectedTrain) return;
+
+    // 中央線 -> 中央本線（高尾駅以西へ直通する列車で、中央本線が未選択の場合）
+    if (selectedTrain.lineId === 'chuo') {
+      const isThroughToChuoMain =
+        Boolean(selectedTrain.customDestination) ||
+        (selectedTrain.destinationStationId === 'JC-24' &&
+          ['大月', '甲府', '松本', '塩尻', '小淵沢', '河口湖'].some((dest) =>
+            selectedTrain.customDestination?.includes(dest)
+          ));
+      if (isThroughToChuoMain && !selectedLineIds.includes('chuo_main')) {
+        setSelectedLineIds((prev) => [...prev, 'chuo_main']);
+        setSimState((prev) => ({
+          ...prev,
+          selectedLineIds: prev.selectedLineIds ? [...prev.selectedLineIds, 'chuo_main'] : ['chuo_main'],
+        }));
+      }
+    }
+
+    // 中央本線 -> 中央線（高尾駅以東へ直通する列車で、中央線が未選択の場合）
+    if (selectedTrain.lineId === 'chuo_main') {
+      const isThroughToChuo =
+        selectedTrain.tripId.startsWith('cm_') ||
+        Boolean(selectedTrain.customDestination) ||
+        (selectedTrain.destinationStationId === 'JC-24' &&
+          ['東京', '新宿', '立川', '八王子'].some((dest) =>
+            selectedTrain.customDestination?.includes(dest)
+          ));
+      if (isThroughToChuo && !selectedLineIds.includes('chuo')) {
+        setSelectedLineIds((prev) => [...prev, 'chuo']);
+        setSimState((prev) => ({
+          ...prev,
+          selectedLineIds: prev.selectedLineIds ? [...prev.selectedLineIds, 'chuo'] : ['chuo'],
+        }));
+      }
+    }
+  }, [isTrackingTrain, selectedTrain, selectedLineIds]);
 
   // モーダル状態
   const [timetableStation, setTimetableStation] = useState<Station | null>(null);
@@ -204,12 +256,32 @@ export function App() {
     setSelectedTrainId(null);
   }, []);
 
-  // 追尾中の列車が運行終了等で存在しなくなった場合は追尾を自動解除
+  // 追尾中の列車が一時的に見つからない場合（境界駅でのトリップ切り替え等）の猶予タイマー
+  const missingTrainTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // 追尾中の列車が運行終了等で存在しなくなった場合は猶予時間をおいて自動解除
   useEffect(() => {
     if (isTrackingTrain && !selectedTrain) {
-      setIsTrackingTrain(false);
-      setSelectedTrainId(null);
+      if (!missingTrainTimeoutRef.current) {
+        missingTrainTimeoutRef.current = setTimeout(() => {
+          setIsTrackingTrain(false);
+          setSelectedTrainId(null);
+          missingTrainTimeoutRef.current = null;
+        }, 3000); // 3秒間の猶予時間
+      }
+    } else {
+      if (missingTrainTimeoutRef.current) {
+        clearTimeout(missingTrainTimeoutRef.current);
+        missingTrainTimeoutRef.current = null;
+      }
     }
+
+    return () => {
+      if (missingTrainTimeoutRef.current) {
+        clearTimeout(missingTrainTimeoutRef.current);
+        missingTrainTimeoutRef.current = null;
+      }
+    };
   }, [isTrackingTrain, selectedTrain]);
 
   // 実時間に同期
