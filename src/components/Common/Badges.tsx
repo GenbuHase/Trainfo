@@ -93,6 +93,18 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#00418e',
     numColor: '#00418e',
   },
+  // 東京メトロ有楽町線
+  Y: {
+    borderColor: '#c1a470',
+    prefixColor: '#c1a470',
+    numColor: '#8c6e3b',
+  },
+  // 東京メトロ副都心線
+  F: {
+    borderColor: '#9c5f24',
+    prefixColor: '#9c5f24',
+    numColor: '#7a3e0c',
+  },
   // JR八高線
   HA: {
     borderColor: '#a8a39d',

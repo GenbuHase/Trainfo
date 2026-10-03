@@ -10,6 +10,8 @@ import { shinonoiLine } from './lines/shinonoi';
 import { oitoEastLine } from './lines/oito_east';
 import { oitoWestLine } from './lines/oito_west';
 import { rinkaiLine } from './lines/rinkai';
+import { yurakuchoLine } from './lines/yurakucho';
+import { fukutoshinLine } from './lines/fukutoshin';
 import { hachikoLine } from './lines/hachiko';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
@@ -18,6 +20,8 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   saikyo: saikyoLine,
   kawagoe: kawagoeLine,
   rinkai: rinkaiLine,
+  yurakucho: yurakuchoLine,
+  fukutoshin: fukutoshinLine,
   hachiko: hachikoLine,
   musashino: musashinoLine,
   tsukuba_express: tsukubaExpressLine,
@@ -40,10 +44,11 @@ export interface OperatorLinesGroup {
 
 // 運行会社ごとの標準表示順序
 const OPERATOR_DISPLAY_ORDER = [
+  '東京メトロ',
+  '東武鉄道',
   'JR東日本',
   'JR西日本',
   '東京臨海高速鉄道',
-  '東武鉄道',
   '首都圏新都市鉄道',
 ];
 
