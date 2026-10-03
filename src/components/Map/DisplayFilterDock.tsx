@@ -110,7 +110,7 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
 
             {/* 路線選択ポップオーバー */}
             {isLineDropdownOpen && (
-              <div className="absolute left-0 mt-2 w-64 bg-white rounded-xl shadow-2xl border border-slate-200 py-2 z-50">
+              <div className="absolute left-0 mt-2 w-72 sm:w-80 bg-white rounded-xl shadow-2xl border border-slate-200 py-2 z-50">
                 <div className="px-3 py-1.5 border-b border-slate-100 flex items-center justify-between">
                   <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider">
                     表示路線
@@ -157,7 +157,7 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
                           <button
                             type="button"
                             onClick={(e) => handleSelectOnlyLine(line.id, e)}
-                            className="text-[10px] text-slate-400 hover:text-sky-600 px-1.5 py-0.5 rounded hover:bg-sky-50 transition-colors shrink-0"
+                            className="text-[10px] text-slate-400 hover:text-sky-600 px-1.5 py-0.5 rounded hover:bg-sky-50 transition-colors shrink-0 whitespace-nowrap"
                           >
                             のみ
                           </button>
@@ -350,7 +350,7 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
                             onClick={() => handleToggleLine(line.id)}
                             className="flex items-center justify-between py-1.5 px-2 rounded-lg hover:bg-slate-100 cursor-pointer active:bg-slate-200/60 transition-colors"
                           >
-                            <div className="flex items-center gap-2.5">
+                            <div className="flex items-center gap-2.5 min-w-0 flex-1 mr-2">
                               {isChecked ? (
                                 <CheckSquare className="w-4 h-4 text-sky-600 shrink-0" />
                               ) : (
@@ -360,13 +360,13 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
                                 className="w-3 h-3 rounded-full shrink-0 shadow-xs"
                                 style={{ backgroundColor: line.lineColor }}
                               />
-                              <span className="font-semibold text-slate-800 text-sm">{line.name}</span>
+                              <span className="font-semibold text-slate-800 text-sm leading-snug">{line.name}</span>
                             </div>
                             {!isOnly && (
                               <button
                                 type="button"
                                 onClick={(e) => handleSelectOnlyLine(line.id, e)}
-                                className="text-xs text-slate-500 hover:text-sky-600 px-2 py-0.5 rounded bg-white border border-slate-200 shadow-xs"
+                                className="text-xs text-slate-500 hover:text-sky-600 px-2 py-0.5 rounded bg-white border border-slate-200 shadow-xs shrink-0 whitespace-nowrap self-center"
                               >
                                 のみ
                               </button>

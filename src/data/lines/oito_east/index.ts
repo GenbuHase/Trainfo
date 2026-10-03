@@ -7,7 +7,7 @@ import rawGlobalTimetable from './globalTimetable.json';
 
 export const oitoEastLine: LineDefinition = {
   id: 'oito_east',
-  name: 'JR東日本 大糸線',
+  name: 'JR大糸線（松本～南小谷）',
   shortName: '大糸線(松本〜南小谷)',
   operator: 'JR東日本',
   lineColor: '#8a579e', // 大糸線パープル

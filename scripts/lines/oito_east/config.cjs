@@ -1,7 +1,7 @@
 // JR東日本 大糸線 Yahoo! 路線情報スクレイパー設定 (松本 〜 南小谷 全33駅)
 module.exports = {
   lineId: 'oito_east',
-  name: 'JR東日本 大糸線',
+  name: 'JR大糸線（松本～南小谷）',
   stationsFilePath: 'src/data/lines/oito_east/stations.ts',
   outputPaths: {
     stationTimetables: 'src/data/lines/oito_east/stationTimetables.json',
