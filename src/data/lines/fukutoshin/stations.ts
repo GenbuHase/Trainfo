@@ -275,7 +275,8 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "commuter_exp",
-      "express"
+      "express",
+      "strain"
     ],
     "isMajor": true,
     "platforms": {
@@ -392,7 +393,8 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "commuter_exp",
-      "express"
+      "express",
+      "strain"
     ],
     "isMajor": true,
     "platforms": {
@@ -488,7 +490,8 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "commuter_exp",
-      "express"
+      "express",
+      "strain"
     ],
     "isMajor": true,
     "platforms": {

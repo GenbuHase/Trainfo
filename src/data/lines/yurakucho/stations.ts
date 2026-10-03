@@ -380,7 +380,8 @@ export const YURAKUCHO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "strain"
     ],
     "isMajor": true,
     "platforms": {
@@ -527,7 +528,8 @@ export const YURAKUCHO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "strain"
     ],
     "isMajor": true,
     "platforms": {
@@ -643,7 +645,8 @@ export const YURAKUCHO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "strain"
     ],
     "isMajor": true,
     "platforms": {
