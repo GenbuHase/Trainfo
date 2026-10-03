@@ -105,6 +105,12 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#9c5f24',
     numColor: '#7a3e0c',
   },
+  // JR八高線
+  HA: {
+    borderColor: '#a8a39d',
+    prefixColor: '#a8a39d',
+    numColor: '#6e6964',
+  },
 };
 
 const DEFAULT_BADGE_COLOR: StationBadgeColor = {
