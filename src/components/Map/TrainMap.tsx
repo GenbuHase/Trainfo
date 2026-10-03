@@ -49,9 +49,13 @@ function generateTrainMarkerHtml(train: ActiveTrain, isSelected: boolean): strin
       <div class="train-badge relative flex items-center justify-center w-7 h-7 rounded-full text-white font-bold text-[11px] transition-transform ${
         isSelected ? 'scale-125 ring-2 ring-white shadow-xl' : 'hover:scale-110'
       }" style="background-color: ${typeConfig.bgColor}; border: 2px solid #ffffff;">
-        <!-- 進行方向ポインタ (三角形矢印) -->
-        <div class="train-arrow absolute -top-1 w-0 h-0 border-x-4 border-x-transparent border-b-6 border-b-white transform origin-bottom transition-transform"
-             style="transform: rotate(${rotationDeg}deg) translateY(-8px);"></div>
+        <!-- 進行方向ポインタ (バッジ中心を軸に外周上を滑らかに回転) -->
+        <div class="train-arrow-pointer absolute inset-0 flex items-center justify-center pointer-events-none"
+             data-rotation="${rotationDeg}"
+             style="transform: rotate(${rotationDeg}deg);">
+          <div class="absolute -top-1.5 left-1/2 -translate-x-1/2 w-0 h-0 border-x-[4px] border-x-transparent border-b-[6px] border-b-white"
+               style="filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5));"></div>
+        </div>
         
         <!-- 電車アイコン -->
         <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -99,10 +103,16 @@ function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: b
     badgeEl.classList.toggle('hover:scale-110', !isSelected);
   }
 
-  // 矢印（進行方向）
-  const arrowEl = el.querySelector<HTMLElement>('.train-arrow');
-  if (arrowEl) {
-    arrowEl.style.transform = `rotate(${train.heading}deg) translateY(-8px)`;
+  // 進行方向ポインタ（最短角度差分・連続角度で360度大逆回転を防止）
+  const pointerEl = el.querySelector<HTMLElement>('.train-arrow-pointer');
+  if (pointerEl) {
+    const rawPrev = pointerEl.getAttribute('data-rotation');
+    const prevRotation = rawPrev ? parseFloat(rawPrev) : train.heading;
+    // 0°/360°境界を最短距離（-180°〜+180°）で跨ぐ連続角度を計算
+    const diff = ((train.heading - (prevRotation % 360) + 540) % 360) - 180;
+    const continuousRotation = prevRotation + diff;
+    pointerEl.setAttribute('data-rotation', continuousRotation.toString());
+    pointerEl.style.transform = `rotate(${continuousRotation}deg)`;
   }
 
   // 遅延バッジ

@@ -71,16 +71,26 @@ export function calculateActiveTrains(
         let heading = 0;
         const nextStop = trip.stops[i + 1];
         if (nextStop) {
-          const nextSt = STATION_MAP.get(nextStop.stationId);
-          if (nextSt) {
-            heading = calculateHeading(stObj.lat, stObj.lng, nextSt.lat, nextSt.lng);
+          // これから進む実線路の向き（発車時の進行方向）に同期させることで発車時の角度跳ねを防止
+          const trackPos = interpolateTrackPosition(curStop.stationId, nextStop.stationId, 0);
+          heading = trackPos.heading;
+          if (heading === 0) {
+            const nextSt = STATION_MAP.get(nextStop.stationId);
+            if (nextSt) {
+              heading = calculateHeading(stObj.lat, stObj.lng, nextSt.lat, nextSt.lng);
+            }
           }
         } else {
+          // 終着駅では入線時の線路進入角度を維持
           const prevStop = trip.stops[i - 1];
           if (prevStop) {
-            const prevSt = STATION_MAP.get(prevStop.stationId);
-            if (prevSt) {
-              heading = calculateHeading(prevSt.lat, prevSt.lng, stObj.lat, stObj.lng);
+            const trackPos = interpolateTrackPosition(prevStop.stationId, curStop.stationId, 1);
+            heading = trackPos.heading;
+            if (heading === 0) {
+              const prevSt = STATION_MAP.get(prevStop.stationId);
+              if (prevSt) {
+                heading = calculateHeading(prevSt.lat, prevSt.lng, stObj.lat, stObj.lng);
+              }
             }
           }
         }
