@@ -105,6 +105,20 @@ class YahooStationTimetableScraper {
         // 行先名の正規化
         const destName = this.config.stationNameAliases?.[rawDestName] || rawDestName;
 
+        // 【路線固有の除外フィルター】他路線集約列車（むさしの号等）の除外判定
+        if (this.config.shouldExcludeDeparture && this.config.shouldExcludeDeparture({
+          trainId: train.trainId,
+          rawKindName,
+          destName,
+          station,
+          direction,
+          dayKey,
+          hour: hourNum,
+          minute: minNum,
+        })) {
+          continue;
+        }
+
         const sec = hourNum * 3600 + minNum * 60;
 
         departures.push({
