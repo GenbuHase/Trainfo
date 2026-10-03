@@ -1375,5 +1375,508 @@ export const CHUO_STATIONS: Station[] = [
       "inbound": "1・2・3番線",
       "outbound": "1・2・3番線"
     }
+  },
+  {
+    "id": "CO-44",
+    "lineId": "chuo",
+    "number": 44,
+    "name": "竜王",
+    "nameKana": "りゅうおう",
+    "nameEn": "Ryuo",
+    "lat": 35.668802,
+    "lng": 138.519503,
+    "transfers": [],
+    "address": "山梨県甲斐市竜王新町",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-45",
+    "lineId": "chuo",
+    "number": 45,
+    "name": "塩崎",
+    "nameKana": "しおざき",
+    "nameEn": "Shiozaki",
+    "lat": 35.687848,
+    "lng": 138.487494,
+    "transfers": [],
+    "address": "山梨県甲斐市下今井",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-46",
+    "lineId": "chuo",
+    "number": 46,
+    "name": "韮崎",
+    "nameKana": "にらさき",
+    "nameEn": "Nirasaki",
+    "lat": 35.710422,
+    "lng": 138.450887,
+    "transfers": [],
+    "address": "山梨県韮崎市若宮一丁目",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-47",
+    "lineId": "chuo",
+    "number": 47,
+    "name": "新府",
+    "nameKana": "しんぷ",
+    "nameEn": "Shimpu",
+    "lat": 35.737151,
+    "lng": 138.433256,
+    "transfers": [],
+    "address": "山梨県韮崎市中田町中条",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-48",
+    "lineId": "chuo",
+    "number": 48,
+    "name": "穴山",
+    "nameKana": "あなやま",
+    "nameEn": "Anayama",
+    "lat": 35.751153,
+    "lng": 138.414278,
+    "transfers": [],
+    "address": "山梨県韮崎市穴山町",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-49",
+    "lineId": "chuo",
+    "number": 49,
+    "name": "日野春",
+    "nameKana": "ひのはる",
+    "nameEn": "Hinoharu",
+    "lat": 35.790032,
+    "lng": 138.39477,
+    "transfers": [],
+    "address": "山梨県北杜市長坂町富岡",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular"
+    ],
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-50",
+    "lineId": "chuo",
+    "number": 50,
+    "name": "長坂",
+    "nameKana": "ながさか",
+    "nameEn": "Nagasaka",
+    "lat": 35.827527,
+    "lng": 138.366794,
+    "transfers": [],
+    "address": "山梨県北杜市長坂町長坂上条",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-51",
+    "lineId": "chuo",
+    "number": 51,
+    "name": "小淵沢",
+    "nameKana": "こぶちざわ",
+    "nameEn": "Kobuchizawa",
+    "lat": 35.863918,
+    "lng": 138.315962,
+    "transfers": [
+      "JR小海線"
+    ],
+    "address": "山梨県北杜市小淵沢町",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "1・2番線",
+      "outbound": "2・3番線"
+    }
+  },
+  {
+    "id": "CO-52",
+    "lineId": "chuo",
+    "number": 52,
+    "name": "信濃境",
+    "nameKana": "しなのざかい",
+    "nameEn": "Shinano-Sakai",
+    "lat": 35.884739,
+    "lng": 138.27582,
+    "transfers": [],
+    "address": "長野県諏訪郡富士見町境",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-53",
+    "lineId": "chuo",
+    "number": 53,
+    "name": "富士見",
+    "nameKana": "ふじみ",
+    "nameEn": "Fujimi",
+    "lat": 35.91204,
+    "lng": 138.238427,
+    "transfers": [],
+    "address": "長野県諏訪郡富士見町富士見",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-54",
+    "lineId": "chuo",
+    "number": 54,
+    "name": "すずらんの里",
+    "nameKana": "すずらんのさと",
+    "nameEn": "Suzurannosato",
+    "lat": 35.930327,
+    "lng": 138.211947,
+    "transfers": [],
+    "address": "長野県諏訪郡富士見町富士見",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-55",
+    "lineId": "chuo",
+    "number": 55,
+    "name": "青柳",
+    "nameKana": "あおやぎ",
+    "nameEn": "Aoyagi",
+    "lat": 35.942371,
+    "lng": 138.197806,
+    "transfers": [],
+    "address": "長野県茅野市金沢",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular"
+    ],
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-56",
+    "lineId": "chuo",
+    "number": 56,
+    "name": "茅野",
+    "nameKana": "ちの",
+    "nameEn": "Chino",
+    "lat": 35.994339,
+    "lng": 138.152315,
+    "transfers": [],
+    "address": "長野県茅野市ちの",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-57",
+    "lineId": "chuo",
+    "number": 57,
+    "name": "上諏訪",
+    "nameKana": "かみすわ",
+    "nameEn": "Kami-Suwa",
+    "lat": 36.046642,
+    "lng": 138.11626,
+    "transfers": [],
+    "address": "長野県諏訪市諏訪一丁目",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-58",
+    "lineId": "chuo",
+    "number": 58,
+    "name": "下諏訪",
+    "nameKana": "しもすわ",
+    "nameEn": "Shimo-Suwa",
+    "lat": 36.072019,
+    "lng": 138.084858,
+    "transfers": [],
+    "address": "長野県諏訪郡下諏訪町広瀬町",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-59",
+    "lineId": "chuo",
+    "number": 59,
+    "name": "岡谷",
+    "nameKana": "おかや",
+    "nameEn": "Okaya",
+    "lat": 36.056577,
+    "lng": 138.044758,
+    "transfers": [
+      "JR飯田線",
+      "JR中央本線(辰野支線)"
+    ],
+    "address": "長野県岡谷市本町一丁目",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-60",
+    "lineId": "chuo",
+    "number": 60,
+    "name": "みどり湖",
+    "nameKana": "みどりこ",
+    "nameEn": "Midoriko",
+    "lat": 36.09404,
+    "lng": 137.982116,
+    "transfers": [],
+    "address": "長野県塩尻市大字西条",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-61",
+    "lineId": "chuo",
+    "number": 61,
+    "name": "塩尻",
+    "nameKana": "しおじり",
+    "nameEn": "Shiojiri",
+    "lat": 36.114384,
+    "lng": 137.947792,
+    "transfers": [
+      "JR中央本線(西線)",
+      "JR篠ノ井線"
+    ],
+    "address": "長野県塩尻市大字大門八番町",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "regular",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "1・2・3番線",
+      "outbound": "4・5・6番線"
+    }
   }
 ];

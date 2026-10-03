@@ -60,7 +60,27 @@ module.exports = {
     { id: 'CO-40', name: '春日居町', yahooStationId: '23398', inGroupId: '1070', outGroupId: '1071' },
     { id: 'CO-41', name: '石和温泉', yahooStationId: '23379', inGroupId: '1070', outGroupId: '1071' },
     { id: 'CO-42', name: '酒折', yahooStationId: '23412', inGroupId: '1070', outGroupId: '1071' },
-    { id: 'CO-43', name: '甲府', yahooStationId: '23408', inGroupId: '1070', outGroupId: null },
+    { id: 'CO-43', name: '甲府', yahooStationId: '23408', inGroupId: '1070', outGroupId: '1071' },
+
+    // 4. 甲府 〜 塩尻 (CO-44 〜 CO-61)
+    { id: 'CO-44', name: '竜王', yahooStationId: '23446', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-45', name: '塩崎', yahooStationId: '23415', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-46', name: '韮崎', yahooStationId: '23429', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-47', name: '新府', yahooStationId: '23420', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-48', name: '穴山', yahooStationId: '23378', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-49', name: '日野春', yahooStationId: '23435', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-50', name: '長坂', yahooStationId: '23428', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-51', name: '小淵沢', yahooStationId: '23411', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-52', name: '信濃境', yahooStationId: '24216', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-53', name: '富士見', yahooStationId: '24315', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-54', name: 'すずらんの里', yahooStationId: '24242', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-55', name: '青柳', yahooStationId: '24095', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-56', name: '茅野', yahooStationId: '24262', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-57', name: '上諏訪', yahooStationId: '24160', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-58', name: '下諏訪', yahooStationId: '24231', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-59', name: '岡谷', yahooStationId: '24143', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-60', name: 'みどり湖', yahooStationId: '24330', inGroupId: '1070', outGroupId: '1071' },
+    { id: 'CO-61', name: '塩尻', yahooStationId: '24203', inGroupId: '1070', outGroupId: null },
   ],
   // 駅名正規化エイリアス
   stationNameAliases: {
@@ -69,6 +89,7 @@ module.exports = {
     '日野(東京都)': '日野',
     '高尾(東京都)': '高尾',
     '梁川(山梨県)': '梁川',
+    '塩尻(長野県)': '塩尻',
   },
   // 種別マッピング（最長一致スキャン対応）
   trainTypeMap: {
@@ -136,5 +157,23 @@ module.exports = {
     40: 180, // 春日居町 -> 石和温泉
     41: 240, // 石和温泉 -> 酒折
     42: 240, // 酒折 -> 甲府
+    43: 300, // 甲府 -> 竜王
+    44: 240, // 竜王 -> 塩崎
+    45: 300, // 塩崎 -> 韮崎
+    46: 300, // 韮崎 -> 新府
+    47: 240, // 新府 -> 穴山
+    48: 360, // 穴山 -> 日野春
+    49: 360, // 日野春 -> 長坂
+    50: 360, // 長坂 -> 小淵沢
+    51: 300, // 小淵沢 -> 信濃境
+    52: 300, // 信濃境 -> 富士見
+    53: 240, // 富士見 -> すずらんの里
+    54: 180, // すずらんの里 -> 青柳
+    55: 360, // 青柳 -> 茅野
+    56: 360, // 茅野 -> 上諏訪
+    57: 240, // 上諏訪 -> 下諏訪
+    58: 300, // 下諏訪 -> 岡谷
+    59: 360, // 岡谷 -> みどり湖 (塩嶺トンネル越え)
+    60: 300, // みどり湖 -> 塩尻
   },
 };
