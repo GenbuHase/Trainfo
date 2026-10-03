@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Layers, CheckSquare, Square } from 'lucide-react';
 import type { LineId } from '../../types';
-import { getAllLines } from '../../data/linesRegistry';
+import { getAllLines, getLinesGroupedByOperator } from '../../data/linesRegistry';
 
 interface LineFilterDropdownProps {
   selectedLineIds: LineId[];
@@ -15,6 +15,7 @@ export const LineFilterDropdown: React.FC<LineFilterDropdownProps> = ({
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const allLines = getAllLines();
+  const groupedLines = getLinesGroupedByOperator();
 
   // 外側クリックで閉じる
   useEffect(() => {
@@ -79,7 +80,7 @@ export const LineFilterDropdown: React.FC<LineFilterDropdownProps> = ({
 
       {/* ドロップダウンメニュー */}
       {isOpen && (
-        <div className="absolute left-0 mt-2 w-64 sm:w-72 bg-white rounded-xl shadow-xl border border-slate-200 py-2 z-50 animate-in fade-in zoom-in-95 duration-100">
+        <div className="absolute left-0 mt-2 w-72 sm:w-80 bg-white rounded-xl shadow-xl border border-slate-200 py-2 z-50 animate-in fade-in zoom-in-95 duration-100">
           <div className="px-3 py-1.5 border-b border-slate-100 flex items-center justify-between">
             <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">
               路線フィルター
@@ -95,62 +96,83 @@ export const LineFilterDropdown: React.FC<LineFilterDropdownProps> = ({
             </div>
           </div>
 
-          <div className="p-1.5 space-y-1">
-            {allLines.map((line) => {
-              const isChecked = selectedLineIds.includes(line.id);
-              const isOnly = selectedLineIds.length === 1 && isChecked;
-
-              return (
+          <div className="p-1.5 space-y-2.5 max-h-[65vh] overflow-y-auto">
+            {groupedLines.map((group, groupIdx) => (
+              <div key={group.operator} className="space-y-1">
+                {/* 運行会社 小見出しラベル */}
                 <div
-                  key={line.id}
-                  onClick={() => handleToggleLine(line.id)}
-                  className={`flex items-center justify-between px-2.5 py-2 rounded-lg cursor-pointer transition-colors ${
-                    isChecked ? 'bg-slate-50 hover:bg-slate-100/80' : 'hover:bg-slate-50/60 opacity-60'
+                  className={`flex items-center justify-between px-2 pt-1 pb-0.5 text-xs font-bold text-slate-500 ${
+                    groupIdx > 0 ? 'border-t border-slate-100 pt-2.5' : ''
                   }`}
                 >
-                  <div className="flex items-center gap-2.5 min-w-0">
-                    <button
-                      type="button"
-                      aria-label={`${line.name}を表示切替`}
-                      className="text-slate-600 focus:outline-none"
-                    >
-                      {isChecked ? (
-                        <CheckSquare className="w-4 h-4 text-sky-600" />
-                      ) : (
-                        <Square className="w-4 h-4 text-slate-400" />
-                      )}
-                    </button>
-
-                    {/* 路線カラーインジケーター */}
-                    <span
-                      className="w-3 h-3 rounded-full flex-shrink-0 shadow-xs"
-                      style={{ backgroundColor: line.lineColor }}
-                    />
-
-                    <div className="min-w-0">
-                      <div className="text-xs sm:text-sm font-semibold text-slate-800 truncate">
-                        {line.name}
-                      </div>
-                      <div className="text-[10px] text-slate-400 truncate">
-                        {line.operator} • 全{line.stations.length}駅
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* この路線だけ表示するクイックボタン */}
-                  {!isOnly && (
-                    <button
-                      type="button"
-                      onClick={(e) => handleSelectOnly(line.id, e)}
-                      className="text-[10px] text-slate-400 hover:text-sky-600 px-1.5 py-0.5 rounded hover:bg-sky-50 transition-colors ml-1 flex-shrink-0"
-                      title="この路線のみを表示"
-                    >
-                      のみ
-                    </button>
-                  )}
+                  <span className="flex items-center gap-1.5">
+                    <span className="w-1 h-3 rounded-full bg-sky-500 shrink-0" />
+                    <span>{group.operator}</span>
+                  </span>
+                  <span className="text-[10px] font-normal text-slate-400 font-mono">
+                    {group.lines.length}路線
+                  </span>
                 </div>
-              );
-            })}
+
+                <div className="space-y-0.5">
+                  {group.lines.map((line) => {
+                    const isChecked = selectedLineIds.includes(line.id);
+                    const isOnly = selectedLineIds.length === 1 && isChecked;
+
+                    return (
+                      <div
+                        key={line.id}
+                        onClick={() => handleToggleLine(line.id)}
+                        className={`flex items-center justify-between px-2.5 py-1.5 rounded-lg cursor-pointer transition-colors ${
+                          isChecked ? 'bg-slate-50 hover:bg-slate-100/80' : 'hover:bg-slate-50/60 opacity-60'
+                        }`}
+                      >
+                        <div className="flex items-center gap-2.5 min-w-0">
+                          <button
+                            type="button"
+                            aria-label={`${line.name}を表示切替`}
+                            className="text-slate-600 focus:outline-none"
+                          >
+                            {isChecked ? (
+                              <CheckSquare className="w-4 h-4 text-sky-600" />
+                            ) : (
+                              <Square className="w-4 h-4 text-slate-400" />
+                            )}
+                          </button>
+
+                          {/* 路線カラーインジケーター */}
+                          <span
+                            className="w-2.5 h-2.5 rounded-full flex-shrink-0 shadow-xs"
+                            style={{ backgroundColor: line.lineColor }}
+                          />
+
+                          <div className="min-w-0">
+                            <div className="text-xs sm:text-sm font-semibold text-slate-800 truncate">
+                              {line.name}
+                            </div>
+                            <div className="text-[10px] text-slate-400 truncate">
+                              全{line.stations.length}駅
+                            </div>
+                          </div>
+                        </div>
+
+                        {/* この路線だけ表示するクイックボタン */}
+                        {!isOnly && (
+                          <button
+                            type="button"
+                            onClick={(e) => handleSelectOnly(line.id, e)}
+                            className="text-[10px] text-slate-400 hover:text-sky-600 px-1.5 py-0.5 rounded hover:bg-sky-50 transition-colors ml-1 flex-shrink-0"
+                            title="この路線のみを表示"
+                          >
+                            のみ
+                          </button>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
           </div>
 
           <div className="px-3 pt-2 pb-1 border-t border-slate-100 text-[10px] text-slate-400">

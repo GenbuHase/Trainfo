@@ -27,6 +27,49 @@ export function getAllLines(): LineDefinition[] {
   return Object.values(LINES_REGISTRY);
 }
 
+export interface OperatorLinesGroup {
+  operator: string;
+  lines: LineDefinition[];
+}
+
+// 運行会社ごとの標準表示順序
+const OPERATOR_DISPLAY_ORDER = [
+  'JR東日本',
+  'JR西日本',
+  '東武鉄道',
+  '首都圏新都市鉄道',
+];
+
+// 運行会社ごとにグループ化した路線リストを取得
+export function getLinesGroupedByOperator(): OperatorLinesGroup[] {
+  const allLines = getAllLines();
+  const map = new Map<string, LineDefinition[]>();
+
+  for (const line of allLines) {
+    const op = line.operator || 'その他';
+    const list = map.get(op);
+    if (list) {
+      list.push(line);
+    } else {
+      map.set(op, [line]);
+    }
+  }
+
+  const sortedOperators = Array.from(map.keys()).sort((a, b) => {
+    const idxA = OPERATOR_DISPLAY_ORDER.indexOf(a);
+    const idxB = OPERATOR_DISPLAY_ORDER.indexOf(b);
+    if (idxA !== -1 && idxB !== -1) return idxA - idxB;
+    if (idxA !== -1) return -1;
+    if (idxB !== -1) return 1;
+    return a.localeCompare(b, 'ja');
+  });
+
+  return sortedOperators.map((operator) => ({
+    operator,
+    lines: map.get(operator)!,
+  }));
+}
+
 // 路線IDによる路線定義の取得
 export function getLine(lineId: LineId): LineDefinition | undefined {
   return LINES_REGISTRY[lineId];

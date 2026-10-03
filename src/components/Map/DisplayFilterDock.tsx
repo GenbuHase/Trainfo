@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { Layers, Filter, CheckSquare, Square, RotateCcw, ChevronDown, X } from 'lucide-react';
 import type { LineId, Direction } from '../../types';
-import { getAllLines } from '../../data/linesRegistry';
+import { getAllLines, getLinesGroupedByOperator } from '../../data/linesRegistry';
 
 interface DisplayFilterDockProps {
   selectedLineIds: LineId[];
@@ -28,6 +28,7 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
   const lineDropdownRef = useRef<HTMLDivElement>(null);
 
   const allLines = getAllLines();
+  const groupedLines = getLinesGroupedByOperator();
 
   // フィルターがデフォルト（全路線・全方向・全種別）から変更されているか
   const isFiltered =
@@ -124,47 +125,68 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
                   </button>
                 </div>
 
-                <div className="p-1.5 space-y-1">
-                  {allLines.map((line) => {
-                    const isChecked = selectedLineIds.includes(line.id);
-                    const isOnly = selectedLineIds.length === 1 && isChecked;
-
-                    return (
+                <div className="p-1.5 space-y-2.5 max-h-[65vh] overflow-y-auto">
+                  {groupedLines.map((group, groupIdx) => (
+                    <div key={group.operator} className="space-y-1">
+                      {/* 運行会社 小見出しラベル */}
                       <div
-                        key={line.id}
-                        onClick={() => handleToggleLine(line.id)}
-                        className={`flex items-center justify-between px-2.5 py-1.5 rounded-lg cursor-pointer transition-colors ${
-                          isChecked ? 'bg-slate-50 hover:bg-slate-100/80' : 'hover:bg-slate-50/60 opacity-60'
+                        className={`flex items-center justify-between px-2 pt-1 pb-0.5 text-xs font-bold text-slate-500 ${
+                          groupIdx > 0 ? 'border-t border-slate-100 pt-2.5' : ''
                         }`}
                       >
-                        <div className="flex items-center gap-2 min-w-0">
-                          <button type="button" className="text-slate-600">
-                            {isChecked ? (
-                              <CheckSquare className="w-4 h-4 text-sky-600" />
-                            ) : (
-                              <Square className="w-4 h-4 text-slate-400" />
-                            )}
-                          </button>
-                          <span
-                            className="w-2.5 h-2.5 rounded-full shrink-0 shadow-xs"
-                            style={{ backgroundColor: line.lineColor }}
-                          />
-                          <span className="text-xs font-semibold text-slate-800 truncate">
-                            {line.name}
-                          </span>
-                        </div>
-                        {!isOnly && (
-                          <button
-                            type="button"
-                            onClick={(e) => handleSelectOnlyLine(line.id, e)}
-                            className="text-[10px] text-slate-400 hover:text-sky-600 px-1.5 py-0.5 rounded hover:bg-sky-50 transition-colors shrink-0 whitespace-nowrap"
-                          >
-                            のみ
-                          </button>
-                        )}
+                        <span className="flex items-center gap-1.5">
+                          <span className="w-1 h-3 rounded-full bg-sky-500 shrink-0" />
+                          <span>{group.operator}</span>
+                        </span>
+                        <span className="text-[10px] font-normal text-slate-400 font-mono">
+                          {group.lines.length}路線
+                        </span>
                       </div>
-                    );
-                  })}
+
+                      <div className="space-y-0.5">
+                        {group.lines.map((line) => {
+                          const isChecked = selectedLineIds.includes(line.id);
+                          const isOnly = selectedLineIds.length === 1 && isChecked;
+
+                          return (
+                            <div
+                              key={line.id}
+                              onClick={() => handleToggleLine(line.id)}
+                              className={`flex items-center justify-between px-2.5 py-1.5 rounded-lg cursor-pointer transition-colors ${
+                                isChecked ? 'bg-slate-50 hover:bg-slate-100/80' : 'hover:bg-slate-50/60 opacity-60'
+                              }`}
+                            >
+                              <div className="flex items-center gap-2 min-w-0">
+                                <button type="button" className="text-slate-600 focus:outline-none">
+                                  {isChecked ? (
+                                    <CheckSquare className="w-4 h-4 text-sky-600" />
+                                  ) : (
+                                    <Square className="w-4 h-4 text-slate-400" />
+                                  )}
+                                </button>
+                                <span
+                                  className="w-2.5 h-2.5 rounded-full shrink-0 shadow-xs"
+                                  style={{ backgroundColor: line.lineColor }}
+                                />
+                                <span className="text-xs font-semibold text-slate-800 truncate">
+                                  {line.name}
+                                </span>
+                              </div>
+                              {!isOnly && (
+                                <button
+                                  type="button"
+                                  onClick={(e) => handleSelectOnlyLine(line.id, e)}
+                                  className="text-[10px] text-slate-400 hover:text-sky-600 px-1.5 py-0.5 rounded hover:bg-sky-50 transition-colors shrink-0 whitespace-nowrap"
+                                >
+                                  のみ
+                                </button>
+                              )}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             )}
@@ -339,41 +361,62 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
                         全選択
                       </button>
                     </div>
-                    <div className="space-y-1.5 bg-slate-50 p-2 rounded-xl border border-slate-100">
-                      {allLines.map((line) => {
-                        const isChecked = selectedLineIds.includes(line.id);
-                        const isOnly = selectedLineIds.length === 1 && isChecked;
-
-                        return (
+                    <div className="space-y-3 bg-slate-50 p-2.5 rounded-xl border border-slate-100">
+                      {groupedLines.map((group, groupIdx) => (
+                        <div key={group.operator} className="space-y-1.5">
+                          {/* 運行会社 小見出しラベル */}
                           <div
-                            key={line.id}
-                            onClick={() => handleToggleLine(line.id)}
-                            className="flex items-center justify-between py-1.5 px-2 rounded-lg hover:bg-slate-100 cursor-pointer active:bg-slate-200/60 transition-colors"
+                            className={`flex items-center justify-between px-1.5 pt-0.5 text-xs font-bold text-slate-600 ${
+                              groupIdx > 0 ? 'border-t border-slate-200/60 pt-2.5' : ''
+                            }`}
                           >
-                            <div className="flex items-center gap-2.5 min-w-0 flex-1 mr-2">
-                              {isChecked ? (
-                                <CheckSquare className="w-4 h-4 text-sky-600 shrink-0" />
-                              ) : (
-                                <Square className="w-4 h-4 text-slate-400 shrink-0" />
-                              )}
-                              <span
-                                className="w-3 h-3 rounded-full shrink-0 shadow-xs"
-                                style={{ backgroundColor: line.lineColor }}
-                              />
-                              <span className="font-semibold text-slate-800 text-sm leading-snug">{line.name}</span>
-                            </div>
-                            {!isOnly && (
-                              <button
-                                type="button"
-                                onClick={(e) => handleSelectOnlyLine(line.id, e)}
-                                className="text-xs text-slate-500 hover:text-sky-600 px-2 py-0.5 rounded bg-white border border-slate-200 shadow-xs shrink-0 whitespace-nowrap self-center"
-                              >
-                                のみ
-                              </button>
-                            )}
+                            <span className="flex items-center gap-1.5">
+                              <span className="w-1 h-3 rounded-full bg-sky-500 shrink-0" />
+                              <span>{group.operator}</span>
+                            </span>
+                            <span className="text-[10px] font-normal text-slate-400 font-mono">
+                              {group.lines.length}路線
+                            </span>
                           </div>
-                        );
-                      })}
+
+                          <div className="space-y-1">
+                            {group.lines.map((line) => {
+                              const isChecked = selectedLineIds.includes(line.id);
+                              const isOnly = selectedLineIds.length === 1 && isChecked;
+
+                              return (
+                                <div
+                                  key={line.id}
+                                  onClick={() => handleToggleLine(line.id)}
+                                  className="flex items-center justify-between py-2 px-2.5 rounded-lg bg-white shadow-2xs hover:bg-slate-100/80 cursor-pointer active:bg-slate-200/60 transition-colors border border-slate-200/60"
+                                >
+                                  <div className="flex items-center gap-2.5 min-w-0 flex-1 mr-2">
+                                    {isChecked ? (
+                                      <CheckSquare className="w-4 h-4 text-sky-600 shrink-0" />
+                                    ) : (
+                                      <Square className="w-4 h-4 text-slate-400 shrink-0" />
+                                    )}
+                                    <span
+                                      className="w-3 h-3 rounded-full shrink-0 shadow-xs"
+                                      style={{ backgroundColor: line.lineColor }}
+                                    />
+                                    <span className="font-semibold text-slate-800 text-sm leading-snug">{line.name}</span>
+                                  </div>
+                                  {!isOnly && (
+                                    <button
+                                      type="button"
+                                      onClick={(e) => handleSelectOnlyLine(line.id, e)}
+                                      className="text-xs text-slate-500 hover:text-sky-600 px-2 py-0.5 rounded bg-slate-50 border border-slate-200 shadow-2xs shrink-0 whitespace-nowrap self-center font-medium"
+                                    >
+                                      のみ
+                                    </button>
+                                  )}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      ))}
                     </div>
                   </div>
 
