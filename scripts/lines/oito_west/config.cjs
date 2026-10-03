@@ -1,7 +1,7 @@
 // JR西日本 大糸線 Yahoo! 路線情報スクレイパー設定 (南小谷 〜 糸魚川 全9駅)
 module.exports = {
   lineId: 'oito_west',
-  name: 'JR西日本 大糸線',
+  name: 'JR大糸線（南小谷～糸魚川）',
   stationsFilePath: 'src/data/lines/oito_west/stations.ts',
   outputPaths: {
     stationTimetables: 'src/data/lines/oito_west/stationTimetables.json',
