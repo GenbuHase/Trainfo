@@ -38,6 +38,15 @@ html, body, #root {
   height: 100%;
 }
 
+/* ダークマップ表示用のタイルスタイル（CARTO APIキー不要のOSMダークモード） */
+[data-tile-type="dark"]:not([data-has-carto-key="true"]) .leaflet-tile-pane {
+  filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
+
+[data-tile-type="dark"]:not([data-has-carto-key="true"]) .leaflet-container {
+  background-color: #191a1a;
+}
+
 /* カスタムスクロールバー */
 ::-webkit-scrollbar {
   width: 6px;

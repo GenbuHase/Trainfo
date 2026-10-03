@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState, useMemo, useCallback } from 'react';
 import L from 'leaflet';
+import './smoothWheelZoom';
 import type { Station, ActiveTrain, Direction, LineId } from '../../types';
 import { getStations, STATION_MAP } from '../../data/stations';
 import { formatTrainNumber } from '../../data/timetableData';
@@ -49,9 +50,13 @@ function generateTrainMarkerHtml(train: ActiveTrain, isSelected: boolean): strin
       <div class="train-badge relative flex items-center justify-center w-7 h-7 rounded-full text-white font-bold text-[11px] transition-transform ${
         isSelected ? 'scale-125 ring-2 ring-white shadow-xl' : 'hover:scale-110'
       }" style="background-color: ${typeConfig.bgColor}; border: 2px solid #ffffff;">
-        <!-- 進行方向ポインタ (三角形矢印) -->
-        <div class="train-arrow absolute -top-1 w-0 h-0 border-x-4 border-x-transparent border-b-6 border-b-white transform origin-bottom transition-transform"
-             style="transform: rotate(${rotationDeg}deg) translateY(-8px);"></div>
+        <!-- 進行方向ポインタ (バッジ中心を軸に外周上を滑らかに回転) -->
+        <div class="train-arrow-pointer absolute inset-0 flex items-center justify-center pointer-events-none"
+             data-rotation="${rotationDeg}"
+             style="transform: rotate(${rotationDeg}deg);">
+          <div class="absolute -top-1.5 left-1/2 -translate-x-1/2 w-0 h-0 border-x-[4px] border-x-transparent border-b-[6px] border-b-white"
+               style="filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5));"></div>
+        </div>
         
         <!-- 電車アイコン -->
         <svg class="w-4 h-4 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -99,10 +104,16 @@ function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: b
     badgeEl.classList.toggle('hover:scale-110', !isSelected);
   }
 
-  // 矢印（進行方向）
-  const arrowEl = el.querySelector<HTMLElement>('.train-arrow');
-  if (arrowEl) {
-    arrowEl.style.transform = `rotate(${train.heading}deg) translateY(-8px)`;
+  // 進行方向ポインタ（最短角度差分・連続角度で360度大逆回転を防止）
+  const pointerEl = el.querySelector<HTMLElement>('.train-arrow-pointer');
+  if (pointerEl) {
+    const rawPrev = pointerEl.getAttribute('data-rotation');
+    const prevRotation = rawPrev ? parseFloat(rawPrev) : train.heading;
+    // 0°/360°境界を最短距離（-180°〜+180°）で跨ぐ連続角度を計算
+    const diff = ((train.heading - (prevRotation % 360) + 540) % 360) - 180;
+    const continuousRotation = prevRotation + diff;
+    pointerEl.setAttribute('data-rotation', continuousRotation.toString());
+    pointerEl.style.transform = `rotate(${continuousRotation}deg)`;
   }
 
   // 遅延バッジ
@@ -181,6 +192,9 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   const [tileType, setTileType] = useState<TileType>('standard');
   const [showLayerMenu, setShowLayerMenu] = useState(false);
 
+  // CARTO APIキー（設定されている場合はCARTO Dark Matter、未設定時はOSMにCSSダークフィルターを適用）
+  const cartoApiKey = (import.meta.env.VITE_CARTO_API_KEY as string | undefined)?.trim();
+
   // 地図タイルのURLマッピング
   const tileUrls = useMemo<Record<TileType, { url: string; attribution: string }>>(() => ({
     standard: {
@@ -192,10 +206,14 @@ export const TrainMap: React.FC<TrainMapProps> = ({
       attribution: 'Tiles &copy; Esri',
     },
     dark: {
-      url: 'https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png',
-      attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+      url: cartoApiKey
+        ? `https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=${cartoApiKey}`
+        : 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      attribution: cartoApiKey
+        ? '&copy; OpenStreetMap contributors &copy; CARTO'
+        : '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     },
-  }), []);
+  }), [cartoApiKey]);
 
   // 地図の初期化
   useEffect(() => {
@@ -206,6 +224,11 @@ export const TrainMap: React.FC<TrainMapProps> = ({
 
     const map = L.map(mapContainerRef.current, {
       zoomControl: false,
+      scrollWheelZoom: false, // 標準のステップ式スクロールを無効化
+      smoothWheelZoom: true,  // 慣性付き滑らかスクロールズームを有効化
+      smoothSensitivity: 2.5,   // スムースズームの感度
+      zoomSnap: 0,            // スナップを無効化し完全無段階にする
+      zoomDelta: 0.5,        // ボタン押下時の拡大・縮小刻み幅
     });
 
     map.fitBounds(initialBounds, { padding: [40, 40] });
@@ -282,7 +305,14 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   // タイル切り替え
   useEffect(() => {
     if (!mapRef.current || !tileLayerRef.current) return;
-    tileLayerRef.current.setUrl(tileUrls[tileType].url);
+    const currentTile = tileUrls[tileType];
+    tileLayerRef.current.setUrl(currentTile.url);
+
+    if (mapRef.current.attributionControl) {
+      const control = mapRef.current.attributionControl;
+      Object.values(tileUrls).forEach((t) => control.removeAttribution(t.attribution));
+      control.addAttribution(currentTile.attribution);
+    }
   }, [tileType, tileUrls]);
 
   // 路線別ポリラインの動的描画
@@ -342,14 +372,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
 
     stations.forEach((st) => {
       const isSelected = selectedStation?.id === st.id;
-      const isMajor = [1, 10, 11, 13, 14, 18, 21, 22, 26, 30, 33, 39].includes(st.number) ||
-        ['JA-08', 'JA-10', 'JA-11', 'JA-12', 'JA-15', 'JA-21', 'JA-26', 'JA-31',
-         'JM-35', 'JM-33', 'JM-28', 'JM-26', 'JM-25', 'JM-22', 'JM-15', 'JM-10',
-         'JE-01', 'JE-05', 'JE-11', 'JE-14',
-         'JC-01', 'JC-03', 'JC-05', 'JC-06', 'JC-11', 'JC-12', 'JC-16', 'JC-17', 'JC-19', 'JC-22', 'JC-24', 'JC-27', 'JC-32',
-         'CO-37', 'CO-39', 'CO-41', 'CO-43',
-         'JU-07',
-         'TX-01', 'TX-03', 'TX-05', 'TX-08', 'TX-10', 'TX-12', 'TX-15', 'TX-20'].includes(st.id);
+      const isMajor = st.isMajor ?? false;
 
       const line = getLine(st.lineId);
       const stationColor = line?.lineColor || '#004b97';
@@ -649,7 +672,20 @@ export const TrainMap: React.FC<TrainMapProps> = ({
 
   return (
     <div className="relative w-full h-full">
-      <div ref={mapContainerRef} className="w-full h-full z-0" />
+      <div
+        ref={mapContainerRef}
+        data-tile-type={tileType}
+        data-has-carto-key={Boolean(cartoApiKey).toString()}
+        className="w-full h-full z-0"
+      />
+
+      {/* 現在地エラー通知トースト */}
+      {locationErrorMessage && (
+        <div className="absolute top-20 left-1/2 -translate-x-1/2 z-[1000] px-4 py-2 bg-slate-900/95 text-white text-xs font-medium rounded-full shadow-xl backdrop-blur-md pointer-events-none transition-all flex items-center gap-2">
+          <span className="w-2 h-2 rounded-full bg-red-400 animate-pulse" />
+          <span>{locationErrorMessage}</span>
+        </div>
+      )}
 
       {/* 現在地エラー通知トースト */}
       {locationErrorMessage && (

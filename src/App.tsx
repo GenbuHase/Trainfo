@@ -7,12 +7,14 @@ import { TimeController } from './components/Controls/TimeController';
 import { TimetableModal } from './components/Modals/TimetableModal';
 import { SettingsModal } from './components/Modals/SettingsModal';
 import { HelpModal } from './components/Modals/HelpModal';
+import { InstallModal } from './components/Modals/InstallModal';
 import {
   calculateActiveTrains,
   getRealCurrentSeconds,
 } from './services/trainSimulation';
 import type { SimulationState } from './services/trainSimulation';
 import { getAllLines } from './data/linesRegistry';
+import { formatTrainNumber } from './data/timetableData';
 
 
 import { loadSimulationFps } from './constants';
@@ -76,12 +78,26 @@ export function App() {
     const found = activeTrains.find((t) => t.tripId === selectedTrainId);
     if (found) return found;
 
-    // もし現在のtripIdが終了していても、直前の列車と同一列車番号の直通トリップが走行中なら即座に引き継ぐ
+    // 直前の列車から直通先トリップ（throughTripId 照合）または同一列車番号・同一方向の後続トリップを引き継ぐ
     const prev = lastSelectedTrainRef.current;
-    if (prev && prev.trainNumber) {
-      const successor = activeTrains.find(
-        (t) => t.trainNumber === prev.trainNumber && t.tripId !== prev.tripId
-      );
+    if (prev) {
+      const prevNo = formatTrainNumber(prev.trainNumber, prev.tripId);
+      const successor = activeTrains.find((t) => {
+        if (t.tripId === prev.tripId) return false;
+        // 1. 直通先トリップID照合（路線に依存しない共通メタデータ）
+        if (
+          (prev.throughTripId && t.tripId === prev.throughTripId) ||
+          (t.throughTripId && t.throughTripId === prev.tripId)
+        ) {
+          return true;
+        }
+        // 2. 同一列車番号かつ同一方向判定
+        const curNo = formatTrainNumber(t.trainNumber, t.tripId);
+        if (curNo && prevNo && curNo === prevNo && t.direction === prev.direction) {
+          return true;
+        }
+        return false;
+      });
       if (successor) return successor;
     }
     return null;
@@ -97,11 +113,27 @@ export function App() {
     }
   }, [selectedTrain, selectedTrainId]);
 
+  // 直通列車を追尾中、直通先路線が未選択なら自動的に追加して追尾を継続（全路線共通）
+  useEffect(() => {
+    if (!isTrackingTrain || !selectedTrain) return;
+
+    if (selectedTrain.throughLineId && !selectedLineIds.includes(selectedTrain.throughLineId)) {
+      setSelectedLineIds((prev) => [...prev, selectedTrain.throughLineId!]);
+      setSimState((prev) => ({
+        ...prev,
+        selectedLineIds: prev.selectedLineIds
+          ? [...prev.selectedLineIds, selectedTrain.throughLineId!]
+          : [selectedTrain.throughLineId!],
+      }));
+    }
+  }, [isTrackingTrain, selectedTrain, selectedLineIds]);
+
   // モーダル状態
   const [timetableStation, setTimetableStation] = useState<Station | null>(null);
   const [isTimetableOpen, setIsTimetableOpen] = useState<boolean>(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
   const [isHelpOpen, setIsHelpOpen] = useState<boolean>(false);
+  const [isInstallOpen, setIsInstallOpen] = useState<boolean>(false);
 
   const lastTickTimeRef = useRef<number>(performance.now());
 
@@ -135,9 +167,9 @@ export function App() {
             nextSec = getRealCurrentSeconds();
           } else {
             nextSec = prev.currentSec + elapsed * prev.speedMultiplier;
-            // 終電・深夜運行終了（25:30 / 91800秒 = 01:30）を超えたら始発（04:30 / 16200秒）へループ
-            if (nextSec >= 25.5 * 3600) {
-              nextSec = 4.5 * 3600;
+            // 24時間運行サイクル（28:00 / 100800秒 = 翌朝04:00）を超えたら起点（04:00 / 14400秒）へループ
+            if (nextSec >= 28 * 3600) {
+              nextSec = 4 * 3600;
             }
           }
 
@@ -202,12 +234,32 @@ export function App() {
     setSelectedTrainId(null);
   }, []);
 
-  // 追尾中の列車が運行終了等で存在しなくなった場合は追尾を自動解除
+  // 追尾中の列車が一時的に見つからない場合（境界駅でのトリップ切り替え等）の猶予タイマー
+  const missingTrainTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // 追尾中の列車が運行終了等で存在しなくなった場合は猶予時間をおいて自動解除
   useEffect(() => {
     if (isTrackingTrain && !selectedTrain) {
-      setIsTrackingTrain(false);
-      setSelectedTrainId(null);
+      if (!missingTrainTimeoutRef.current) {
+        missingTrainTimeoutRef.current = setTimeout(() => {
+          setIsTrackingTrain(false);
+          setSelectedTrainId(null);
+          missingTrainTimeoutRef.current = null;
+        }, 3000); // 3秒間の猶予時間
+      }
+    } else {
+      if (missingTrainTimeoutRef.current) {
+        clearTimeout(missingTrainTimeoutRef.current);
+        missingTrainTimeoutRef.current = null;
+      }
     }
+
+    return () => {
+      if (missingTrainTimeoutRef.current) {
+        clearTimeout(missingTrainTimeoutRef.current);
+        missingTrainTimeoutRef.current = null;
+      }
+    };
   }, [isTrackingTrain, selectedTrain]);
 
   // 実時間に同期
@@ -227,7 +279,12 @@ export function App() {
   // タイムスライダーシーク
   const handleSeekTime = useCallback((sec: number) => {
     setIsRealTimeSynced(false);
-    const normalizedSec = sec < 4 * 3600 ? sec + 86400 : sec;
+    let normalizedSec = sec;
+    if (normalizedSec < 4 * 3600) {
+      normalizedSec += 86400;
+    } else if (normalizedSec >= 28 * 3600) {
+      normalizedSec = 4 * 3600;
+    }
     setSimState((prev) => ({ ...prev, currentSec: normalizedSec }));
   }, []);
 
@@ -288,6 +345,7 @@ export function App() {
         onToggleHoliday={(val) => setSimState((prev) => ({ ...prev, isHoliday: val }))}
         onOpenSettings={() => setIsSettingsOpen(true)}
         onOpenHelp={() => setIsHelpOpen(true)}
+        onOpenInstall={() => setIsInstallOpen(true)}
         isSidebarOpen={isSidebarOpen}
         onCloseSidebar={handleCloseSidebar}
         selectedLineIds={selectedLineIds}
@@ -378,6 +436,9 @@ export function App() {
 
       {/* 使い方ヘルプモーダル */}
       <HelpModal isOpen={isHelpOpen} onClose={() => setIsHelpOpen(false)} />
+
+      {/* PWAインストールモーダル */}
+      <InstallModal isOpen={isInstallOpen} onClose={() => setIsInstallOpen(false)} />
     </div>
   );
 }

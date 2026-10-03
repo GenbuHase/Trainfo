@@ -31,6 +31,7 @@ export const TX_STATIONS: Station[] = [
       "commuter_rapid",
       "rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "1・2番線"
@@ -95,6 +96,7 @@ export const TX_STATIONS: Station[] = [
       "commuter_rapid",
       "rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -163,6 +165,7 @@ export const TX_STATIONS: Station[] = [
       "commuter_rapid",
       "rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -246,6 +249,7 @@ export const TX_STATIONS: Station[] = [
       "commuter_rapid",
       "rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "3・4番線"
@@ -304,6 +308,7 @@ export const TX_STATIONS: Station[] = [
       "commuter_rapid",
       "rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -361,6 +366,7 @@ export const TX_STATIONS: Station[] = [
       "commuter_rapid",
       "rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "3・4番線"
@@ -446,6 +452,7 @@ export const TX_STATIONS: Station[] = [
       "commuter_rapid",
       "rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "3・4番線"
@@ -584,6 +591,7 @@ export const TX_STATIONS: Station[] = [
       "commuter_rapid",
       "rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "1・2番線"

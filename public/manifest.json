@@ -1,0 +1,39 @@
+{
+  "name": "Trainfo - リアルタイム列車位置＆運行マップ",
+  "short_name": "Trainfo",
+  "description": "首都圏主要路線の時刻表に基づき、現在の列車走行位置・発車案内・運行ダイヤをリアルタイムに表示する運行マップシミュレータ",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f1f5f9",
+  "theme_color": "#002060",
+  "lang": "ja",
+  "categories": ["travel", "navigation", "utilities"],
+  "icons": [
+    {
+      "src": "./icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
