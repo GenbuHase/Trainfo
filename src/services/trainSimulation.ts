@@ -46,28 +46,55 @@ export function calculateActiveTrains(
       (simState.randomDelays[trip.tripId] || 0) + simState.globalDelayMinutes;
     const adjustedCurrentSec = currentSec - trainDelay * 60;
 
-    const firstStop = trip.stops[0];
-    const lastStop = trip.stops[trip.stops.length - 1];
+    // トリップ内の各駅の時刻（秒数）を計算し、日跨ぎ（深夜〜早朝4時跨ぎ等）で減少した場合は +86400 して単調増加を保証
+    let prevStopSec = -1;
+    let dayOffset = 0;
+    const stopTimes: { arrSec: number; depSec: number }[] = [];
+    for (let i = 0; i < trip.stops.length; i++) {
+      const s = trip.stops[i];
+      let arrSec = timeStringToSeconds(s.arrivalTime) + dayOffset;
+      let depSec = timeStringToSeconds(s.departureTime) + dayOffset;
+      if (prevStopSec >= 0 && arrSec < prevStopSec) {
+        dayOffset += 86400;
+        arrSec += 86400;
+        depSec += 86400;
+      } else if (prevStopSec >= 0 && depSec < arrSec) {
+        dayOffset += 86400;
+        depSec += 86400;
+      }
+      prevStopSec = depSec;
+      stopTimes.push({ arrSec, depSec });
+    }
 
-    const tripStartSec = timeStringToSeconds(firstStop.departureTime);
-    const tripEndSec = timeStringToSeconds(lastStop.departureTime || lastStop.arrivalTime);
+    const tripStartSec = stopTimes[0].depSec;
+    const tripEndSec = stopTimes[stopTimes.length - 1].depSec || stopTimes[stopTimes.length - 1].arrSec;
+
+    // 現在時刻 adjustedCurrentSec をトリップの時間軸に合わせる
+    // トリップが深夜〜翌朝に跨がる場合（tripEndSec >= 86400）、adjustedCurrentSec が朝方（< 12:00）なら +86400 して比較
+    let checkSec = adjustedCurrentSec;
+    if (tripStartSec >= 20 * 3600 || tripEndSec >= 86400) {
+      if (checkSec < 12 * 3600 && checkSec + 86400 <= tripEndSec + 3600) {
+        checkSec += 86400;
+      }
+    }
 
     // 運行時間帯外ならスキップ
-    if (adjustedCurrentSec < tripStartSec || adjustedCurrentSec > tripEndSec) {
+    if (checkSec < tripStartSec || checkSec > tripEndSec) {
       continue;
     }
 
     // 各ストップ間を精査
     for (let i = 0; i < trip.stops.length; i++) {
       const curStop = trip.stops[i];
-      const curArrSec = timeStringToSeconds(curStop.arrivalTime);
-      const curDepSec = timeStringToSeconds(curStop.departureTime);
+      const curStopTimes = stopTimes[i];
+      const curArrSec = curStopTimes.arrSec;
+      const curDepSec = curStopTimes.depSec;
 
       const stObj = STATION_MAP.get(curStop.stationId);
       if (!stObj) continue;
 
       // 1. 駅停車中（または通過駅での通過中）の判定
-      if (adjustedCurrentSec >= curArrSec && adjustedCurrentSec <= curDepSec) {
+      if (checkSec >= curArrSec && checkSec <= curDepSec) {
         let heading = 0;
         const nextStop = trip.stops[i + 1];
         if (nextStop) {
@@ -130,11 +157,12 @@ export function calculateActiveTrains(
       // 2. 駅間走行中の判定
       if (i < trip.stops.length - 1) {
         const nextStop = trip.stops[i + 1];
-        const nextArrSec = timeStringToSeconds(nextStop.arrivalTime);
+        const nextStopTimes = stopTimes[i + 1];
+        const nextArrSec = nextStopTimes.arrSec;
 
-        if (adjustedCurrentSec > curDepSec && adjustedCurrentSec < nextArrSec) {
+        if (checkSec > curDepSec && checkSec < nextArrSec) {
           const totalDuration = nextArrSec - curDepSec;
-          const elapsed = adjustedCurrentSec - curDepSec;
+          const elapsed = checkSec - curDepSec;
           const progress = totalDuration > 0 ? elapsed / totalDuration : 0;
 
           // 線路ポリラインに沿った座標・方位角の精密補間

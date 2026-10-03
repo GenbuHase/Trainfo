@@ -226,7 +226,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
       zoomControl: false,
       scrollWheelZoom: false, // 標準のステップ式スクロールを無効化
       smoothWheelZoom: true,  // 慣性付き滑らかスクロールズームを有効化
-      smoothSensitivity: 2,   // スムースズームの感度
+      smoothSensitivity: 2.5,   // スムースズームの感度
       zoomSnap: 0,            // スナップを無効化し完全無段階にする
       zoomDelta: 0.5,        // ボタン押下時の拡大・縮小刻み幅
     });

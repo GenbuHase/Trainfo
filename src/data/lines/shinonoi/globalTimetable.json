@@ -34525,5 +34525,111 @@
         "isPassing": false
       }
     ]
+  },
+  {
+    "tripId": "sn_WD_OUT_JC-05_2358_42781",
+    "lineId": "shinonoi",
+    "trainNumber": "42781",
+    "trainType": "limitedExp",
+    "direction": "outbound",
+    "originStationId": "SN-01",
+    "destinationStationId": "SN-06",
+    "customOrigin": "新宿",
+    "customDestination": "白馬",
+    "cars": 9,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SN-01",
+        "arrivalTime": "04:30:00",
+        "departureTime": "04:30:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-02",
+        "arrivalTime": "04:34:00",
+        "departureTime": "04:34:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-03",
+        "arrivalTime": "04:37:00",
+        "departureTime": "04:37:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-04",
+        "arrivalTime": "04:39:00",
+        "departureTime": "04:39:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-05",
+        "arrivalTime": "04:42:00",
+        "departureTime": "04:42:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-06",
+        "arrivalTime": "04:46:00",
+        "departureTime": "04:49:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_WD_OUT_JC-05_2358_42781",
+    "throughLineId": "chuo_main"
+  },
+  {
+    "tripId": "sn_HD_OUT_JC-05_2358_42781",
+    "lineId": "shinonoi",
+    "trainNumber": "42781",
+    "trainType": "limitedExp",
+    "direction": "outbound",
+    "originStationId": "SN-01",
+    "destinationStationId": "SN-06",
+    "customOrigin": "新宿",
+    "customDestination": "白馬",
+    "cars": 9,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SN-01",
+        "arrivalTime": "04:30:00",
+        "departureTime": "04:30:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-02",
+        "arrivalTime": "04:34:00",
+        "departureTime": "04:34:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-03",
+        "arrivalTime": "04:37:00",
+        "departureTime": "04:37:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-04",
+        "arrivalTime": "04:39:00",
+        "departureTime": "04:39:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-05",
+        "arrivalTime": "04:42:00",
+        "departureTime": "04:42:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-06",
+        "arrivalTime": "04:46:00",
+        "departureTime": "04:49:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "cm_HD_OUT_JC-05_2358_42781",
+    "throughLineId": "chuo_main"
   }
 ]
