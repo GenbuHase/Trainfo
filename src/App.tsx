@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import type { Station, ActiveTrain, LineId } from './types';
+import type { Station, ActiveTrain, LineId, Direction } from './types';
 import { TrainMap } from './components/Map/TrainMap';
 import { Header } from './components/Header/Header';
 import { Sidebar } from './components/Sidebar/Sidebar';
@@ -7,21 +7,18 @@ import { TimeController } from './components/Controls/TimeController';
 import { TimetableModal } from './components/Modals/TimetableModal';
 import { SettingsModal } from './components/Modals/SettingsModal';
 import { HelpModal } from './components/Modals/HelpModal';
+import { InstallModal } from './components/Modals/InstallModal';
 import {
   calculateActiveTrains,
   getRealCurrentSeconds,
 } from './services/trainSimulation';
 import type { SimulationState } from './services/trainSimulation';
-import {
-  fetchTobuOperationStatus,
-  loadOdptConfig,
-} from './services/odptApi';
-import type {
-  OdptConfig,
-  TrainOperationStatus,
-} from './services/odptApi';
-import { secondsToTimeString } from './data/timetableData';
 import { getAllLines } from './data/linesRegistry';
+import { formatTrainNumber } from './data/timetableData';
+
+
+import { loadSimulationFps } from './constants';
+import type { SimulationFps } from './constants';
 
 export function App() {
   // 選択路線リスト（初期値: localStorage または 登録全路線）
@@ -37,6 +34,13 @@ export function App() {
     }
     return getAllLines().map((l) => l.id);
   });
+
+  // 表示フィルター状態 (進行方向・列車種別)
+  const [filterDirection, setFilterDirection] = useState<'all' | Direction>('all');
+  const [filterType, setFilterType] = useState<'all' | 'rapid' | 'local'>('all');
+
+  // 下部タイムコントローラーの展開状態 (モバイルでの地図コントロール配置連動用)
+  const [isTimeControllerExpanded, setIsTimeControllerExpanded] = useState<boolean>(false);
 
   // 実時間から初期化
   const initialRealSec = getRealCurrentSeconds();
@@ -56,6 +60,7 @@ export function App() {
 
   const [isRealTimeSynced, setIsRealTimeSynced] = useState<boolean>(true);
   const [activeTrains, setActiveTrains] = useState<ActiveTrain[]>([]);
+  const [simulationFps, setSimulationFps] = useState<SimulationFps>(() => loadSimulationFps());
 
   // 選択状態
   const [selectedStation, setSelectedStation] = useState<Station | null>(null);
@@ -63,45 +68,75 @@ export function App() {
   const [isTrackingTrain, setIsTrackingTrain] = useState<boolean>(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
 
-  // 路線名表示テキスト生成
-  const lineLabel = useMemo(() => {
-    const all = getAllLines();
-    if (selectedLineIds.length === all.length) return '全路線';
-    if (selectedLineIds.length === 1) {
-      return all.find((l) => l.id === selectedLineIds[0])?.shortName || '運行';
-    }
-    return `${selectedLineIds.length}路線`;
-  }, [selectedLineIds]);
+
+  // 直前に選択されていた列車情報を保持（路線境界をまたぐ直通列車の自動ハンドオーバー用）
+  const lastSelectedTrainRef = useRef<ActiveTrain | null>(null);
 
   // 選択中の列車オブジェクトをリアルタイム算出
   const selectedTrain = useMemo(() => {
     if (!selectedTrainId) return null;
-    return activeTrains.find((t) => t.tripId === selectedTrainId) || null;
+    const found = activeTrains.find((t) => t.tripId === selectedTrainId);
+    if (found) return found;
+
+    // 直前の列車から直通先トリップ（throughTripId 照合）または同一列車番号・同一方向の後続トリップを引き継ぐ
+    const prev = lastSelectedTrainRef.current;
+    if (prev) {
+      const prevNo = formatTrainNumber(prev.trainNumber, prev.tripId);
+      const successor = activeTrains.find((t) => {
+        if (t.tripId === prev.tripId) return false;
+        // 1. 直通先トリップID照合（路線に依存しない共通メタデータ）
+        if (
+          (prev.throughTripId && t.tripId === prev.throughTripId) ||
+          (t.throughTripId && t.throughTripId === prev.tripId)
+        ) {
+          return true;
+        }
+        // 2. 同一列車番号かつ同一方向判定
+        const curNo = formatTrainNumber(t.trainNumber, t.tripId);
+        if (curNo && prevNo && curNo === prevNo && t.direction === prev.direction) {
+          return true;
+        }
+        return false;
+      });
+      if (successor) return successor;
+    }
+    return null;
   }, [activeTrains, selectedTrainId]);
+
+  // 選択列車が直通トリップへ切り替わった場合に selectedTrainId を同期更新
+  useEffect(() => {
+    if (selectedTrain) {
+      lastSelectedTrainRef.current = selectedTrain;
+      if (selectedTrain.tripId !== selectedTrainId) {
+        setSelectedTrainId(selectedTrain.tripId);
+      }
+    }
+  }, [selectedTrain, selectedTrainId]);
+
+  // 直通列車を追尾中、直通先路線が未選択なら自動的に追加して追尾を継続（全路線共通）
+  useEffect(() => {
+    if (!isTrackingTrain || !selectedTrain) return;
+
+    if (selectedTrain.throughLineId && !selectedLineIds.includes(selectedTrain.throughLineId)) {
+      setSelectedLineIds((prev) => [...prev, selectedTrain.throughLineId!]);
+      setSimState((prev) => ({
+        ...prev,
+        selectedLineIds: prev.selectedLineIds
+          ? [...prev.selectedLineIds, selectedTrain.throughLineId!]
+          : [selectedTrain.throughLineId!],
+      }));
+    }
+  }, [isTrackingTrain, selectedTrain, selectedLineIds]);
 
   // モーダル状態
   const [timetableStation, setTimetableStation] = useState<Station | null>(null);
   const [isTimetableOpen, setIsTimetableOpen] = useState<boolean>(false);
   const [isSettingsOpen, setIsSettingsOpen] = useState<boolean>(false);
   const [isHelpOpen, setIsHelpOpen] = useState<boolean>(false);
+  const [isInstallOpen, setIsInstallOpen] = useState<boolean>(false);
 
-  // 運行情報
-  const [operationStatus, setOperationStatus] = useState<TrainOperationStatus>({
-    status: 'NORMAL',
-    title: '全線：平常運転',
-    details: '各路線とも全線でおおむね平常通り運行しています。',
-    updatedAt: new Date().toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }),
-  });
-
-  const odptConfigRef = useRef<OdptConfig>(loadOdptConfig());
   const lastTickTimeRef = useRef<number>(performance.now());
 
-  // 運行情報ステータスの初期取得
-  useEffect(() => {
-    fetchTobuOperationStatus(odptConfigRef.current.apiKey).then((res) => {
-      setOperationStatus(res);
-    });
-  }, []);
 
   // 路線選択変更ハンドラ
   const handleChangeSelectedLines = useCallback((lineIds: LineId[]) => {
@@ -114,13 +149,14 @@ export function App() {
     }
   }, []);
 
-  // シミュレーション時刻のメインループ (100ms ごとに滑らかに更新)
+  // シミュレーション時刻のメインループ (設定されたFPSに応じて滑らかに更新)
   useEffect(() => {
     let animId: number;
+    const tickIntervalSec = 1 / simulationFps;
 
     const tick = (now: number) => {
       const elapsed = (now - lastTickTimeRef.current) / 1000;
-      if (elapsed >= 0.1) {
+      if (elapsed >= tickIntervalSec) {
         lastTickTimeRef.current = now;
 
         setSimState((prev) => {
@@ -131,9 +167,9 @@ export function App() {
             nextSec = getRealCurrentSeconds();
           } else {
             nextSec = prev.currentSec + elapsed * prev.speedMultiplier;
-            // 終電・深夜運行終了（25:30 / 91800秒 = 01:30）を超えたら始発（04:30 / 16200秒）へループ
-            if (nextSec >= 25.5 * 3600) {
-              nextSec = 4.5 * 3600;
+            // 24時間運行サイクル（28:00 / 100800秒 = 翌朝04:00）を超えたら起点（04:00 / 14400秒）へループ
+            if (nextSec >= 28 * 3600) {
+              nextSec = 4 * 3600;
             }
           }
 
@@ -148,7 +184,7 @@ export function App() {
     animId = requestAnimationFrame(tick);
 
     return () => cancelAnimationFrame(animId);
-  }, [isRealTimeSynced]);
+  }, [isRealTimeSynced, simulationFps]);
 
   // 列車位置の再計算
   useEffect(() => {
@@ -172,7 +208,59 @@ export function App() {
     setSelectedTrainId(train.tripId);
     setSelectedStation(null);
     setIsSidebarOpen(true);
+    if (selectedTrainId !== train.tripId) {
+      setIsTrackingTrain(false);
+    }
+  }, [selectedTrainId]);
+
+  // 詳細パネル閉塞ハンドラ
+  // 自動追尾が有効な場合は追尾と列車選択状態を維持し、パネルのみを閉じる（全画面マップでの追尾を可能にするため）
+  const handleCloseSidebar = useCallback(() => {
+    setIsSidebarOpen(false);
+    if (!isTrackingTrain) {
+      setSelectedStation(null);
+      setSelectedTrainId(null);
+    }
+  }, [isTrackingTrain]);
+
+  // パネル再表示ハンドラ
+  const handleOpenSidebar = useCallback(() => {
+    setIsSidebarOpen(true);
   }, []);
+
+  // 追尾解除ハンドラ
+  const handleStopTracking = useCallback(() => {
+    setIsTrackingTrain(false);
+    setSelectedTrainId(null);
+  }, []);
+
+  // 追尾中の列車が一時的に見つからない場合（境界駅でのトリップ切り替え等）の猶予タイマー
+  const missingTrainTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // 追尾中の列車が運行終了等で存在しなくなった場合は猶予時間をおいて自動解除
+  useEffect(() => {
+    if (isTrackingTrain && !selectedTrain) {
+      if (!missingTrainTimeoutRef.current) {
+        missingTrainTimeoutRef.current = setTimeout(() => {
+          setIsTrackingTrain(false);
+          setSelectedTrainId(null);
+          missingTrainTimeoutRef.current = null;
+        }, 3000); // 3秒間の猶予時間
+      }
+    } else {
+      if (missingTrainTimeoutRef.current) {
+        clearTimeout(missingTrainTimeoutRef.current);
+        missingTrainTimeoutRef.current = null;
+      }
+    }
+
+    return () => {
+      if (missingTrainTimeoutRef.current) {
+        clearTimeout(missingTrainTimeoutRef.current);
+        missingTrainTimeoutRef.current = null;
+      }
+    };
+  }, [isTrackingTrain, selectedTrain]);
 
   // 実時間に同期
   const handleSyncRealTime = useCallback(() => {
@@ -191,7 +279,12 @@ export function App() {
   // タイムスライダーシーク
   const handleSeekTime = useCallback((sec: number) => {
     setIsRealTimeSynced(false);
-    const normalizedSec = sec < 4 * 3600 ? sec + 86400 : sec;
+    let normalizedSec = sec;
+    if (normalizedSec < 4 * 3600) {
+      normalizedSec += 86400;
+    } else if (normalizedSec >= 28 * 3600) {
+      normalizedSec = 4 * 3600;
+    }
     setSimState((prev) => ({ ...prev, currentSec: normalizedSec }));
   }, []);
 
@@ -215,22 +308,7 @@ export function App() {
       globalDelayMinutes: minutes,
       randomDelays: {},
     }));
-    if (minutes > 0) {
-      setOperationStatus({
-        status: 'DELAY',
-        title: `${lineLabel}：約${minutes}分遅れ`,
-        details: `ダイヤ乱れシミュレーション中（表示中の路線で約${minutes}分の遅延が発生しています）。`,
-        updatedAt: new Date().toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }),
-      });
-    } else {
-      setOperationStatus({
-        status: 'NORMAL',
-        title: `${lineLabel}：平常運転`,
-        details: '現在、おおむね平常通り運行しています。',
-        updatedAt: new Date().toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' }),
-      });
-    }
-  }, [lineLabel]);
+  }, []);
 
   // ランダム遅延切り替え
   const handleToggleRandomDelay = useCallback(() => {
@@ -256,31 +334,30 @@ export function App() {
     setIsTimetableOpen(true);
   }, []);
 
-  // 設定保存時
-  const handleApplySettings = useCallback((config: OdptConfig) => {
-    odptConfigRef.current = config;
-    if (config.apiKey && config.useLiveApi) {
-      fetchTobuOperationStatus(config.apiKey).then((res) => setOperationStatus(res));
-    }
-  }, []);
-
   return (
-    <div className="relative w-screen h-screen overflow-hidden bg-slate-100 select-none">
-      {/* Googleマップ風 ヘッダー＆検索バー */}
+    <div className="relative w-full h-full h-[100dvh] overflow-hidden bg-slate-100 select-none">
+      {/* Googleマップ風 ヘッダー＆検索バー (2段組ツールバー) */}
       <Header
         onSelectStation={handleSelectStation}
         onSelectTrain={handleSelectTrain}
         activeTrains={activeTrains}
         isHoliday={simState.isHoliday}
         onToggleHoliday={(val) => setSimState((prev) => ({ ...prev, isHoliday: val }))}
-        operationStatus={operationStatus}
         onOpenSettings={() => setIsSettingsOpen(true)}
         onOpenHelp={() => setIsHelpOpen(true)}
-        currentTimeString={secondsToTimeString(simState.currentSec)}
+        onOpenInstall={() => setIsInstallOpen(true)}
         isSidebarOpen={isSidebarOpen}
-        onCloseSidebar={() => setIsSidebarOpen(false)}
+        onCloseSidebar={handleCloseSidebar}
         selectedLineIds={selectedLineIds}
         onChangeSelectedLines={handleChangeSelectedLines}
+        filterDirection={filterDirection}
+        onChangeFilterDirection={setFilterDirection}
+        filterType={filterType}
+        onChangeFilterType={setFilterType}
+        selectedTrain={selectedTrain}
+        isTrackingTrain={isTrackingTrain}
+        onOpenSidebar={handleOpenSidebar}
+        onStopTracking={handleStopTracking}
       />
 
       {/* メイン地図 */}
@@ -293,14 +370,18 @@ export function App() {
         isTrackingTrain={isTrackingTrain}
         trackingTrainId={selectedTrain?.tripId || null}
         isSidebarOpen={isSidebarOpen}
-        onCloseSidebar={() => setIsSidebarOpen(false)}
+        onCloseSidebar={handleCloseSidebar}
         selectedLineIds={selectedLineIds}
+        filterDirection={filterDirection}
+        filterType={filterType}
+        isTimeControllerExpanded={isTimeControllerExpanded}
+        onStopTracking={handleStopTracking}
       />
 
       {/* Googleマップ風 サイドパネル */}
       <Sidebar
         isOpen={isSidebarOpen}
-        onClose={() => setIsSidebarOpen(false)}
+        onClose={handleCloseSidebar}
         selectedStation={selectedStation}
         selectedTrain={selectedTrain}
         currentSec={simState.currentSec}
@@ -329,6 +410,8 @@ export function App() {
         onToggleRandomDelay={handleToggleRandomDelay}
         isRandomDelayActive={Object.keys(simState.randomDelays).length > 0}
         isSidebarOpen={isSidebarOpen}
+        isExpanded={isTimeControllerExpanded}
+        onToggleExpanded={() => setIsTimeControllerExpanded((prev) => !prev)}
       />
 
       {/* 全日時刻表モーダル */}
@@ -347,11 +430,15 @@ export function App() {
       <SettingsModal
         isOpen={isSettingsOpen}
         onClose={() => setIsSettingsOpen(false)}
-        onApplySettings={handleApplySettings}
+        currentFps={simulationFps}
+        onChangeFps={setSimulationFps}
       />
 
       {/* 使い方ヘルプモーダル */}
       <HelpModal isOpen={isHelpOpen} onClose={() => setIsHelpOpen(false)} />
+
+      {/* PWAインストールモーダル */}
+      <InstallModal isOpen={isInstallOpen} onClose={() => setIsInstallOpen(false)} />
     </div>
   );
 }

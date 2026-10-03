@@ -45,12 +45,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
   return (
     <aside
-      className={`fixed md:absolute top-0 left-0 h-full w-full sm:w-[400px] md:w-[420px] bg-white shadow-2xl z-[1001] transition-transform duration-300 ease-in-out flex flex-col border-r border-slate-200 overflow-hidden pt-[60px] ${
+      className={`fixed md:absolute top-0 left-0 h-full w-full sm:w-[444px] md:w-[464px] bg-white shadow-2xl z-[1001] transition-transform duration-300 ease-in-out flex flex-col border-r border-slate-200 overflow-hidden pt-[calc(60px+env(safe-area-inset-top,0px))] pb-[env(safe-area-inset-bottom,0px)] ${
         isOpen ? 'translate-x-0' : '-translate-x-full'
       }`}
     >
       {/* 閉じるボタン (Googleマップ風) */}
-      <div className="absolute top-[68px] right-3 z-30">
+      <div className="absolute top-[calc(68px+env(safe-area-inset-top,0px))] right-3 z-30">
         <button
           type="button"
           onClick={onClose}

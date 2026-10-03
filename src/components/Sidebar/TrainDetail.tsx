@@ -62,7 +62,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
               </span>
             </h2>
             <p className="text-xs text-slate-400 mt-1">
-              始発: {originStation?.name || '始発駅'} 発
+              始発: {train.customOrigin || originStation?.name || '始発駅'} 発
             </p>
           </div>
         </div>
@@ -80,6 +80,11 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
             <LocateFixed className="w-4 h-4" />
             <span>{isTracking ? '列車を自動追尾中（クリックで解除）' : 'この列車をマップで追尾する'}</span>
           </button>
+          {isTracking && (
+            <p className="text-[11px] text-amber-300 text-center mt-2 leading-relaxed">
+              ※ パネルを閉じると全画面マップで列車を追尾できます
+            </p>
+          )}
         </div>
       </div>
 
@@ -121,7 +126,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                 </div>
                 <div className="w-full bg-slate-200 rounded-full h-1.5 mt-1 overflow-hidden">
                   <div
-                    className="h-full rounded-full transition-all duration-300"
+                    className="h-full rounded-full transition-[width] duration-200 ease-linear"
                     style={{
                       width: `${Math.round(train.progressPercent * 100)}%`,
                       backgroundColor: lineColor,
@@ -170,8 +175,16 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
               return (
                 <div
                   key={stop.stationId}
-                  className="relative group cursor-pointer"
+                  role="button"
+                  tabIndex={0}
+                  className="relative group cursor-pointer select-none"
                   onClick={() => onSelectStation(st)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      onSelectStation(st);
+                    }
+                  }}
                 >
                   {/* ピンマーカー */}
                   <div
@@ -201,25 +214,35 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                       </span>
                       {!isPassing && <StationBadge id={st.id} size="sm" />}
                       {isPassing && (
-                        <span className="text-[10px] text-slate-400 bg-slate-100 px-1 rounded">
+                        <span className="text-[10px] text-slate-400 bg-slate-100 px-1 py-0.5 rounded flex items-center gap-1">
                           通過
+                          {idx === 0 && <span className="text-[9px] text-sky-600 font-medium">直通元</span>}
+                          {isLast && <span className="text-[9px] text-sky-600 font-medium">直通先</span>}
                         </span>
                       )}
                     </div>
 
-                    <div className="text-[11px] font-mono text-slate-500 flex items-center gap-2">
-                      {!isPassing && (
-                        <span>
-                          {(isLast ? (stop.arrivalTime || stop.departureTime) : stop.departureTime).slice(0, 5)}
-                          <span className="text-[9px] text-slate-400 ml-0.5">
-                            {isLast ? '着' : '発'}
-                          </span>
-                        </span>
-                      )}
+                    <div className="flex items-center gap-2 shrink-0">
                       {isCurrent && (
                         <span className="text-[10px] font-bold text-amber-600 bg-amber-50 px-1.5 py-0.5 rounded">
                           現在位置
                         </span>
+                      )}
+                      {!isPassing && (
+                        <div className="text-[11px] font-mono text-right flex flex-col items-end leading-tight">
+                          {idx > 0 && (
+                            <span className="text-slate-500">
+                              {(stop.arrivalTime || stop.departureTime).slice(0, 5)}
+                              <span className="text-[9px] text-slate-400 ml-0.5">着</span>
+                            </span>
+                          )}
+                          {!isLast && (
+                            <span className="text-slate-700 font-medium">
+                              {stop.departureTime.slice(0, 5)}
+                              <span className="text-[9px] text-slate-400 ml-0.5">発</span>
+                            </span>
+                          )}
+                        </div>
                       )}
                     </div>
                   </div>

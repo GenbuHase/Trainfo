@@ -23,6 +23,8 @@ interface TimeControllerProps {
   onToggleRandomDelay: () => void;
   isRandomDelayActive: boolean;
   isSidebarOpen?: boolean;
+  isExpanded?: boolean;
+  onToggleExpanded?: () => void;
 }
 
 export const TimeController: React.FC<TimeControllerProps> = ({
@@ -39,28 +41,56 @@ export const TimeController: React.FC<TimeControllerProps> = ({
   onToggleRandomDelay,
   isRandomDelayActive,
   isSidebarOpen = false,
+  isExpanded,
+  onToggleExpanded,
 }) => {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [internalExpanded, setInternalExpanded] = useState(false);
+  const effectiveExpanded = isExpanded !== undefined ? isExpanded : internalExpanded;
+
+  const handleToggleExpand = () => {
+    if (onToggleExpanded) {
+      onToggleExpanded();
+    } else {
+      setInternalExpanded((prev) => !prev);
+    }
+  };
 
   // タイムスタンプ表示
   const timeFormatted = secondsToTimeString(currentSec);
 
+  // スライダーの範囲設定 (04:00 始発・早朝 〜 28:00 / 翌04:00 24時間フルサイクル)
+  const MIN_SEC = 4 * 3600; // 04:00 (14,400秒)
+  const MAX_SEC = 28 * 3600; // 28:00 / 翌04:00 (100,800秒)
+  const TOTAL_SEC = MAX_SEC - MIN_SEC; // ちょうど24時間 (86,400秒)
+
+  // 実際の時間と完全に一致するスライダー目盛り定義
+  const sliderMarks = [
+    { label: '08:00', sec: 8 * 3600 },
+    { label: '12:00', sec: 12 * 3600 },
+    { label: '16:00', sec: 16 * 3600 },
+    { label: '20:00', sec: 20 * 3600 },
+    { label: '24:00', sec: 24 * 3600 },
+    { label: '02:00', sec: 26 * 3600 },
+  ];
+
   // 時刻プリセット
   const presets = [
+    { label: '早朝・始発', time: '05:00', sec: 5 * 3600 },
     { label: '朝ラッシュ', time: '08:00', sec: 8 * 3600 },
     { label: '昼デイタイム', time: '13:00', sec: 13 * 3600 },
     { label: '夕ラッシュ', time: '18:30', sec: 18.5 * 3600 },
     { label: '深夜終電帯', time: '24:15', sec: 24.25 * 3600 },
+    { label: '夜行・未明', time: '02:30', sec: 26.5 * 3600 },
   ];
 
   const speeds = [1, 2, 5, 10, 30, 60, 120, 300, 600];
 
   return (
     <div
-      className={`absolute bottom-3 z-[1000] pointer-events-auto transition-all duration-300 ease-in-out ${
+      className={`absolute bottom-[calc(0.75rem+env(safe-area-inset-bottom,0px))] z-[1000] pointer-events-auto transition-all duration-300 ease-in-out ${
         isSidebarOpen
-          ? 'left-3 sm:left-[436px] right-3 sm:right-6 md:left-[calc(50%+210px)] md:-translate-x-1/2 md:w-[min(680px,calc(100vw-460px))]'
-          : 'left-3 right-3 md:left-1/2 md:-translate-x-1/2 md:w-[720px]'
+          ? 'left-[calc(0.75rem+env(safe-area-inset-left,0px))] right-[calc(0.75rem+env(safe-area-inset-right,0px))] sm:left-[calc(460px+env(safe-area-inset-left,0px))] sm:right-[calc(1.5rem+env(safe-area-inset-right,0px))] md:left-[calc(50%+232px)] md:-translate-x-1/2 md:w-[min(680px,calc(100vw-500px))]'
+          : 'left-[calc(0.75rem+env(safe-area-inset-left,0px))] right-[calc(0.75rem+env(safe-area-inset-right,0px))] md:left-1/2 md:-translate-x-1/2 md:w-[720px]'
       }`}
     >
       <div className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl border border-slate-200/90 overflow-hidden transition-all">
@@ -124,55 +154,105 @@ export const TimeController: React.FC<TimeControllerProps> = ({
 
             {/* 展開トグルボタン (シミュレーション設定) */}
             <button
-              onClick={() => setIsExpanded(!isExpanded)}
+              onClick={handleToggleExpand}
               className="p-2 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-600 transition-colors"
               title="ダイヤ・遅延シミュレーション設定"
             >
-              {isExpanded ? <ChevronDown className="w-4 h-4" /> : <Sliders className="w-4 h-4" />}
+              {effectiveExpanded ? <ChevronDown className="w-4 h-4" /> : <Sliders className="w-4 h-4" />}
             </button>
           </div>
         </div>
 
         {/* タイムスライダー */}
         <div className="px-4 pb-2.5">
+          {/* スライダー上部: 始発・終電インジケーター */}
+          <div className="flex justify-between text-[10px] text-slate-400 font-mono mb-1 select-none">
+            <button
+              type="button"
+              onClick={() => onSeek(MIN_SEC)}
+              className="hover:text-[#004b97] transition-colors cursor-pointer flex items-center gap-1"
+              title="早朝 04:00へジャンプ"
+            >
+              <span className="text-[9px] px-1 py-0.2 bg-slate-100 rounded text-slate-500 font-medium">起点</span>
+              <span className="font-semibold text-slate-600 hover:text-[#004b97]">04:00</span>
+            </button>
+            <button
+              type="button"
+              onClick={() => onSeek(MAX_SEC)}
+              className="hover:text-[#004b97] transition-colors cursor-pointer flex items-center gap-1"
+              title="翌朝 04:00へジャンプ"
+            >
+              <span className="font-semibold text-slate-600 hover:text-[#004b97]">翌04:00</span>
+              <span className="text-[9px] px-1 py-0.2 bg-slate-100 rounded text-slate-500 font-medium">終点</span>
+            </button>
+          </div>
+
           <input
             type="range"
-            min={4.5 * 3600}
-            max={25.5 * 3600}
+            min={MIN_SEC}
+            max={MAX_SEC}
             step={10}
             value={currentSec < 4 * 3600 ? currentSec + 86400 : currentSec}
             onChange={(e) => onSeek(Number(e.target.value))}
             className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-[#004b97]"
           />
-          <div className="flex justify-between text-[10px] text-slate-400 font-mono mt-1">
-            <span>04:30 始発</span>
-            <span>08:00</span>
-            <span>12:00</span>
-            <span>18:00</span>
-            <span>24:00</span>
-            <span>01:30 終電</span>
+          {/* ティックマーク（目盛り線: 実際の秒数と完全一致） */}
+          <div className="relative w-full h-1 mt-0.5 pointer-events-none">
+            {[4 * 3600, 8 * 3600, 12 * 3600, 16 * 3600, 20 * 3600, 24 * 3600, 26 * 3600, 28 * 3600].map((sec) => {
+              const percent = ((sec - MIN_SEC) / TOTAL_SEC) * 100;
+              return (
+                <div
+                  key={sec}
+                  className="absolute top-0 w-0.5 h-1 bg-slate-300 rounded-full -translate-x-1/2"
+                  style={{ left: `${percent}%` }}
+                />
+              );
+            })}
+          </div>
+          {/* 目盛りラベル（実際の秒数と完全一致・クリックでジャンプ可能） */}
+          <div className="relative w-full h-4 text-[10px] text-slate-400 font-mono mt-0.5 select-none">
+            {sliderMarks.map((mark) => {
+              const percent = ((mark.sec - MIN_SEC) / TOTAL_SEC) * 100;
+
+              return (
+                <button
+                  key={mark.sec}
+                  type="button"
+                  onClick={() => onSeek(mark.sec)}
+                  className="absolute top-0 -translate-x-1/2 hover:text-[#004b97] transition-colors cursor-pointer group"
+                  style={{ left: `${percent}%` }}
+                  title={`${mark.label}へジャンプ`}
+                >
+                  <span className="font-semibold text-slate-600 group-hover:text-[#004b97] transition-colors">
+                    {mark.label}
+                  </span>
+                </button>
+              );
+            })}
           </div>
         </div>
 
         {/* 展開時: ダイヤプリセット＆遅延シナリオ操作 */}
-        {isExpanded && (
+        {effectiveExpanded && (
           <div className="p-3 bg-slate-50 border-t border-slate-200/80 space-y-3 text-xs">
             {/* モバイル用倍速選択 */}
             <div className="flex items-center justify-between gap-2 flex-wrap sm:hidden">
               <span className="font-bold text-slate-600 shrink-0">再生速度:</span>
               <div className="flex gap-1 flex-wrap">
                 {speeds.map((s) => (
-                  <button
-                    key={s}
-                    onClick={() => onChangeSpeed(s)}
-                    className={`px-2 py-0.5 rounded text-xs font-bold transition-all ${
-                      speedMultiplier === s
-                        ? 'bg-[#004b97] text-white shadow-xs'
-                        : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-100'
-                    }`}
-                  >
-                    {s}x
-                  </button>
+                  <React.Fragment key={s}>
+                    <button
+                      onClick={() => onChangeSpeed(s)}
+                      className={`px-2 py-0.5 rounded text-xs font-bold transition-all ${
+                        speedMultiplier === s
+                          ? 'bg-[#004b97] text-white shadow-xs'
+                          : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-100'
+                      }`}
+                    >
+                      {s}x
+                    </button>
+                    {s === 30 && <div className="basis-full h-0" />}
+                  </React.Fragment>
                 ))}
               </div>
             </div>

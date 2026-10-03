@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://genbuhase.github.io/Trainfo",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
@@ -27,6 +27,7 @@
     "@vitejs/plugin-react": "^6.1.1",
     "gh-pages": "^6.3.0",
     "oxlint": "^1.81.0",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4.3.3",
     "typescript": "~6.0.2",
     "vite": "^8.3.0"

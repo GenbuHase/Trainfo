@@ -70,7 +70,7 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
       const departures = direction === 'inbound' ? row.inbound : row.outbound;
       for (const dep of departures) {
         const typeName = trainTypesMap[dep.type]?.name || dep.type;
-        const csvHour = row.hour === 24 ? '0' : row.hour;
+        const csvHour = row.hour >= 24 ? String(row.hour - 24) : String(row.hour);
         csv += `${csvHour},${dep.time},${typeName},${dep.destination},${formatTrainNumber(dep.trainNumber, dep.tripId)}\n`;
       }
     }
@@ -210,7 +210,7 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
             <div className="divide-y divide-slate-100">
               {fullDayData.map((row) => {
                 const departures = direction === 'inbound' ? row.inbound : row.outbound;
-                if ((row.hour < 4 || row.hour >= 25) && departures.length === 0) return null;
+                if ((row.hour < 4 || row.hour >= 26) && departures.length === 0) return null;
 
                 return (
                   <div key={row.hour} className="flex items-start hover:bg-slate-50/80 transition-colors">

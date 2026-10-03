@@ -46,41 +46,78 @@ export function calculateActiveTrains(
       (simState.randomDelays[trip.tripId] || 0) + simState.globalDelayMinutes;
     const adjustedCurrentSec = currentSec - trainDelay * 60;
 
-    const firstStop = trip.stops[0];
-    const lastStop = trip.stops[trip.stops.length - 1];
+    // トリップ内の各駅の時刻（秒数）を計算し、日跨ぎ（深夜〜早朝4時跨ぎ等）で減少した場合は +86400 して単調増加を保証
+    let prevStopSec = -1;
+    let dayOffset = 0;
+    const stopTimes: { arrSec: number; depSec: number }[] = [];
+    for (let i = 0; i < trip.stops.length; i++) {
+      const s = trip.stops[i];
+      let arrSec = timeStringToSeconds(s.arrivalTime) + dayOffset;
+      let depSec = timeStringToSeconds(s.departureTime) + dayOffset;
+      if (prevStopSec >= 0 && arrSec < prevStopSec) {
+        dayOffset += 86400;
+        arrSec += 86400;
+        depSec += 86400;
+      } else if (prevStopSec >= 0 && depSec < arrSec) {
+        dayOffset += 86400;
+        depSec += 86400;
+      }
+      prevStopSec = depSec;
+      stopTimes.push({ arrSec, depSec });
+    }
 
-    const tripStartSec = timeStringToSeconds(firstStop.departureTime);
-    const tripEndSec = timeStringToSeconds(lastStop.arrivalTime);
+    const tripStartSec = stopTimes[0].depSec;
+    const tripEndSec = stopTimes[stopTimes.length - 1].depSec || stopTimes[stopTimes.length - 1].arrSec;
+
+    // 現在時刻 adjustedCurrentSec をトリップの時間軸に合わせる
+    // トリップが深夜〜翌朝に跨がる場合（tripEndSec >= 86400）、adjustedCurrentSec が朝方（< 12:00）なら +86400 して比較
+    let checkSec = adjustedCurrentSec;
+    if (tripStartSec >= 20 * 3600 || tripEndSec >= 86400) {
+      if (checkSec < 12 * 3600 && checkSec + 86400 <= tripEndSec + 3600) {
+        checkSec += 86400;
+      }
+    }
 
     // 運行時間帯外ならスキップ
-    if (adjustedCurrentSec < tripStartSec || adjustedCurrentSec > tripEndSec) {
+    if (checkSec < tripStartSec || checkSec > tripEndSec) {
       continue;
     }
 
     // 各ストップ間を精査
     for (let i = 0; i < trip.stops.length; i++) {
       const curStop = trip.stops[i];
-      const curArrSec = timeStringToSeconds(curStop.arrivalTime);
-      const curDepSec = timeStringToSeconds(curStop.departureTime);
+      const curStopTimes = stopTimes[i];
+      const curArrSec = curStopTimes.arrSec;
+      const curDepSec = curStopTimes.depSec;
 
       const stObj = STATION_MAP.get(curStop.stationId);
       if (!stObj) continue;
 
       // 1. 駅停車中（または通過駅での通過中）の判定
-      if (adjustedCurrentSec >= curArrSec && adjustedCurrentSec <= curDepSec) {
+      if (checkSec >= curArrSec && checkSec <= curDepSec) {
         let heading = 0;
         const nextStop = trip.stops[i + 1];
         if (nextStop) {
-          const nextSt = STATION_MAP.get(nextStop.stationId);
-          if (nextSt) {
-            heading = calculateHeading(stObj.lat, stObj.lng, nextSt.lat, nextSt.lng);
+          // これから進む実線路の向き（発車時の進行方向）に同期させることで発車時の角度跳ねを防止
+          const trackPos = interpolateTrackPosition(curStop.stationId, nextStop.stationId, 0);
+          heading = trackPos.heading;
+          if (heading === 0) {
+            const nextSt = STATION_MAP.get(nextStop.stationId);
+            if (nextSt) {
+              heading = calculateHeading(stObj.lat, stObj.lng, nextSt.lat, nextSt.lng);
+            }
           }
         } else {
+          // 終着駅では入線時の線路進入角度を維持
           const prevStop = trip.stops[i - 1];
           if (prevStop) {
-            const prevSt = STATION_MAP.get(prevStop.stationId);
-            if (prevSt) {
-              heading = calculateHeading(prevSt.lat, prevSt.lng, stObj.lat, stObj.lng);
+            const trackPos = interpolateTrackPosition(prevStop.stationId, curStop.stationId, 1);
+            heading = trackPos.heading;
+            if (heading === 0) {
+              const prevSt = STATION_MAP.get(prevStop.stationId);
+              if (prevSt) {
+                heading = calculateHeading(prevSt.lat, prevSt.lng, stObj.lat, stObj.lng);
+              }
             }
           }
         }
@@ -95,7 +132,10 @@ export function calculateActiveTrains(
           direction: trip.direction,
           originStationId: trip.originStationId,
           destinationStationId: trip.destinationStationId,
+          customOrigin: trip.customOrigin,
           customDestination: trip.customDestination,
+          throughTripId: trip.throughTripId,
+          throughLineId: trip.throughLineId,
           cars: trip.cars,
           status: 'STOPPING',
           currentLat: stObj.lat,
@@ -117,11 +157,12 @@ export function calculateActiveTrains(
       // 2. 駅間走行中の判定
       if (i < trip.stops.length - 1) {
         const nextStop = trip.stops[i + 1];
-        const nextArrSec = timeStringToSeconds(nextStop.arrivalTime);
+        const nextStopTimes = stopTimes[i + 1];
+        const nextArrSec = nextStopTimes.arrSec;
 
-        if (adjustedCurrentSec > curDepSec && adjustedCurrentSec < nextArrSec) {
+        if (checkSec > curDepSec && checkSec < nextArrSec) {
           const totalDuration = nextArrSec - curDepSec;
-          const elapsed = adjustedCurrentSec - curDepSec;
+          const elapsed = checkSec - curDepSec;
           const progress = totalDuration > 0 ? elapsed / totalDuration : 0;
 
           // 線路ポリラインに沿った座標・方位角の精密補間
@@ -151,7 +192,10 @@ export function calculateActiveTrains(
             direction: trip.direction,
             originStationId: trip.originStationId,
             destinationStationId: trip.destinationStationId,
+            customOrigin: trip.customOrigin,
             customDestination: trip.customDestination,
+            throughTripId: trip.throughTripId,
+            throughLineId: trip.throughLineId,
             cars: trip.cars,
             status: 'RUNNING',
             currentLat: interpolated.lat,
@@ -173,11 +217,40 @@ export function calculateActiveTrains(
     }
   }
 
+  // 複数路線選択時の直通列車（むさしの号等）の重複排除
+  // 同一列車番号かつ共通駅を持つ列車が存在する場合、より停車駅数の多い（全区間通しの）列車を優先
+  const candidateTrains: ActiveTrain[] = [];
+  for (const train of activeTrains) {
+    const formattedNo = formatTrainNumber(train.trainNumber, train.tripId);
+    if (!formattedNo) {
+      candidateTrains.push(train);
+      continue;
+    }
+
+    const stationIds = new Set(train.stops.map((s) => s.stationId));
+    const hasBetterThroughTrain = activeTrains.some((other) => {
+      if (other === train) return false;
+      const otherFormattedNo = formatTrainNumber(other.trainNumber, other.tripId);
+      if (otherFormattedNo !== formattedNo) return false;
+
+      const hasSharedStation = other.stops.some((s) => stationIds.has(s.stationId));
+      if (!hasSharedStation) return false;
+
+      if (other.stops.length > train.stops.length) return true;
+      if (other.stops.length === train.stops.length && other.tripId < train.tripId) return true;
+      return false;
+    });
+
+    if (!hasBetterThroughTrain) {
+      candidateTrains.push(train);
+    }
+  }
+
   // 同一運行（路線・進行方向・同一列車番号）の重複表示を安全に排除
   const uniqueTrains: ActiveTrain[] = [];
   const seenTrainKeys = new Set<string>();
 
-  for (const train of activeTrains) {
+  for (const train of candidateTrains) {
     const formattedNo = formatTrainNumber(train.trainNumber, train.tripId);
     const key = `${train.lineId}_${train.direction}_${formattedNo}`;
 

@@ -1,12 +1,13 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { Search, Train, MapPin, X, Calendar, Settings, AlertTriangle, CheckCircle, HelpCircle, Clock } from 'lucide-react';
-import type { Station, ActiveTrain, LineId } from '../../types';
+import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react';
+import { Search, Train, MapPin, X, Calendar, Settings, HelpCircle, Download } from 'lucide-react';
+import type { Station, ActiveTrain, LineId, Direction } from '../../types';
 import { getStations } from '../../data/stations';
 import { StationBadge, TrainTypeBadge } from '../Common/Badges';
-import type { TrainOperationStatus } from '../../services/odptApi';
 import { formatTrainNumber } from '../../data/timetableData';
-import { LineFilterDropdown } from './LineFilterDropdown';
 import { getLine } from '../../data/linesRegistry';
+import { DisplayFilterDock } from '../Map/DisplayFilterDock';
+import { TrackingBar } from '../Map/TrackingBar';
+import { isRunningStandalone, subscribeInstallState } from '../../services/pwaService';
 
 interface HeaderProps {
   onSelectStation: (station: Station) => void;
@@ -14,14 +15,21 @@ interface HeaderProps {
   activeTrains: ActiveTrain[];
   isHoliday: boolean;
   onToggleHoliday: (val: boolean) => void;
-  operationStatus: TrainOperationStatus;
   onOpenSettings: () => void;
   onOpenHelp: () => void;
-  currentTimeString: string;
+  onOpenInstall?: () => void;
   isSidebarOpen: boolean;
   onCloseSidebar?: () => void;
   selectedLineIds: LineId[];
   onChangeSelectedLines: (lineIds: LineId[]) => void;
+  filterDirection: 'all' | Direction;
+  onChangeFilterDirection: (direction: 'all' | Direction) => void;
+  filterType: 'all' | 'rapid' | 'local';
+  onChangeFilterType: (type: 'all' | 'rapid' | 'local') => void;
+  selectedTrain?: ActiveTrain | null;
+  isTrackingTrain?: boolean;
+  onOpenSidebar?: () => void;
+  onStopTracking?: () => void;
 }
 
 export const Header: React.FC<HeaderProps> = ({
@@ -30,19 +38,36 @@ export const Header: React.FC<HeaderProps> = ({
   activeTrains,
   isHoliday,
   onToggleHoliday,
-  operationStatus,
   onOpenSettings,
   onOpenHelp,
-  currentTimeString,
+  onOpenInstall,
   isSidebarOpen,
   onCloseSidebar,
   selectedLineIds,
   onChangeSelectedLines,
+  filterDirection,
+  onChangeFilterDirection,
+  filterType,
+  onChangeFilterType,
+  selectedTrain,
+  isTrackingTrain = false,
+  onOpenSidebar,
+  onStopTracking,
 }) => {
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
-  const [showStatusTooltip, setShowStatusTooltip] = useState(false);
+  const [canInstall, setCanInstall] = useState(false);
+  const [isStandalone, setIsStandalone] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  // PWAインストール状態の監視
+  useEffect(() => {
+    setIsStandalone(isRunningStandalone());
+    const unsubscribe = subscribeInstallState((canPrompt) => {
+      setCanInstall(canPrompt);
+    });
+    return unsubscribe;
+  }, []);
 
   // 外側クリックで検索サジェストを閉じる
   useEffect(() => {
@@ -54,6 +79,63 @@ export const Header: React.FC<HeaderProps> = ({
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
+
+  // モバイル用チップバーのスクロール状態管理
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(false);
+
+  const updateScrollState = useCallback(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    const { scrollLeft, scrollWidth, clientWidth } = el;
+    // わずかなサブピクセル誤差を吸収するためバッファ (2px) を考慮
+    const maxScroll = scrollWidth - clientWidth;
+    setCanScrollLeft(scrollLeft > 2);
+    setCanScrollRight(maxScroll > 2 && scrollLeft < maxScroll - 2);
+  }, []);
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+
+    updateScrollState();
+
+    const resizeObserver = new ResizeObserver(() => {
+      updateScrollState();
+    });
+    resizeObserver.observe(el);
+    Array.from(el.children).forEach((child) => resizeObserver.observe(child));
+
+    window.addEventListener('resize', updateScrollState);
+
+    return () => {
+      resizeObserver.disconnect();
+      window.removeEventListener('resize', updateScrollState);
+    };
+  }, [updateScrollState, activeTrains.length, isHoliday, selectedLineIds, filterDirection, filterType, isSidebarOpen]);
+
+  // 見切れている方向のみフェードする動的マスクスタイル
+  const scrollMaskStyle = useMemo<React.CSSProperties>(() => {
+    if (!canScrollLeft && !canScrollRight) {
+      return {};
+    }
+    const fadeSize = '24px';
+    let gradient = '';
+
+    if (canScrollLeft && canScrollRight) {
+      gradient = `linear-gradient(to right, transparent 0, black ${fadeSize}, black calc(100% - ${fadeSize}), transparent 100%)`;
+    } else if (canScrollLeft) {
+      gradient = `linear-gradient(to right, transparent 0, black ${fadeSize}, black 100%)`;
+    } else if (canScrollRight) {
+      gradient = `linear-gradient(to right, black calc(100% - ${fadeSize}), transparent 100%)`;
+    }
+
+    return {
+      WebkitMaskImage: gradient,
+      maskImage: gradient,
+    };
+  }, [canScrollLeft, canScrollRight]);
 
   const normalizedQuery = query.trim().toLowerCase();
 
@@ -86,15 +168,56 @@ export const Header: React.FC<HeaderProps> = ({
         .slice(0, 4)
     : [];
 
-  return (
+  // ステータスカプセル群（ダイヤ種別、走行列車数）の共通JSX
+  const statusCapsulesJsx = (
     <>
-      {/* 1. Googleマップ風 検索ボックス (常に左上に固定) */}
-      <div className="absolute top-3 left-3 z-[1002] pointer-events-none">
+      {/* アプリインストールボタン (ブラウザ起動時のみ) */}
+      {!isStandalone && onOpenInstall && (
+        <button
+          type="button"
+          onClick={onOpenInstall}
+          className="pointer-events-auto shrink-0 flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg bg-white/95 backdrop-blur-md text-xs font-semibold text-sky-700 shadow-md border border-sky-200 hover:bg-sky-50 hover:border-sky-300 transition-all group"
+          title="ホーム画面またはPCにアプリとしてインストール"
+        >
+          <Download className="w-3.5 h-3.5 text-sky-600 group-hover:scale-110 transition-transform shrink-0" />
+          <span className="whitespace-nowrap">アプリをインストール</span>
+          {canInstall && (
+            <span className="w-1.5 h-1.5 rounded-full bg-sky-500 animate-pulse shrink-0" />
+          )}
+        </button>
+      )}
+
+      {/* ダイヤ種別トグル (平日 / 土休日) */}
+      <button
+        type="button"
+        onClick={() => onToggleHoliday(!isHoliday)}
+        className="pointer-events-auto shrink-0 flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg bg-white/95 backdrop-blur-md text-xs font-semibold text-slate-700 shadow-md border border-slate-200 hover:bg-slate-50 transition-all"
+        title="平日 / 土休日ダイヤを切り替え"
+      >
+        <Calendar className="w-3.5 h-3.5 text-slate-500 shrink-0" />
+        <span className="whitespace-nowrap">{isHoliday ? '土休日ダイヤ' : '平日ダイヤ'}</span>
+      </button>
+
+      {/* 走行中列車数 */}
+      <div className="pointer-events-auto shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-white/95 backdrop-blur-md text-xs font-semibold text-slate-700 shadow-md border border-slate-200">
+        <Train className="w-3.5 h-3.5 text-sky-600 shrink-0" />
+        <span className="whitespace-nowrap">走行中 <strong className="text-sky-700 font-bold">{activeTrains.length}</strong> 列車</span>
+      </div>
+    </>
+  );
+
+  return (
+    <header
+      className="absolute top-[calc(0.75rem+env(safe-area-inset-top,0px))] left-[calc(0.75rem+env(safe-area-inset-left,0px))] right-[calc(0.75rem+env(safe-area-inset-right,0px))] z-[1002] pointer-events-none flex flex-col gap-2 transition-all duration-300 ease-in-out"
+    >
+      {/* ===== 1段目 (Row 1): 検索バー (左) ＆ ステータスカプセル (右揃え・上部固定) ===== */}
+      <div className="flex items-start justify-between gap-2 w-full">
+        {/* 検索入力ボックス (サイドバーの上端に左右均等余白で綺麗に乗るGoogleマップ風仕様、幅は440px) */}
         <div
           ref={containerRef}
-          className="pointer-events-auto bg-white/95 backdrop-blur-md rounded-lg shadow-lg border border-slate-200/80 w-[calc(100vw-24px)] sm:w-[380px] md:w-[400px] transition-all"
+          className="pointer-events-auto bg-white/95 backdrop-blur-md rounded-xl shadow-lg border border-slate-200/80 w-full sm:w-[420px] md:w-[440px] transition-all"
         >
-          <div className="flex items-center px-3 py-2.5 gap-2">
+          <div className="flex items-center px-3 py-2 gap-2">
             {/* ブランドロゴ */}
             <div className="flex items-center gap-1.5 pr-2 border-r border-slate-200 shrink-0">
               <div className="w-7 h-7 rounded-md bg-gradient-to-br from-[#002060] to-[#00ac9a] flex items-center justify-center text-white shadow-xs font-black text-sm">
@@ -102,13 +225,13 @@ export const Header: React.FC<HeaderProps> = ({
               </div>
               <div className="flex flex-col">
                 <span className="font-bold text-slate-800 text-sm leading-tight tracking-tight">Trainfo</span>
-                <span className="text-[10px] text-slate-500 font-medium leading-none">運行マップ</span>
+                <span className="text-[10px] text-slate-500 font-medium leading-none hidden xs:inline">運行マップ</span>
               </div>
             </div>
 
-            {/* 検索入力欄 */}
-            <div className="relative flex-1 flex items-center">
-              <Search className="w-4 h-4 text-slate-400 absolute left-1" />
+            {/* 検索入力欄 (プレースホルダーが見切れないよう余白最適化) */}
+            <div className="relative flex-1 flex items-center min-w-0">
+              <Search className="w-4 h-4 text-slate-400 absolute left-0.5 shrink-0" />
               <input
                 type="text"
                 value={query}
@@ -118,7 +241,7 @@ export const Header: React.FC<HeaderProps> = ({
                 }}
                 onFocus={() => setIsOpen(true)}
                 placeholder="駅名・行先・種別で検索..."
-                className="w-full pl-7 pr-7 py-1 text-sm bg-transparent outline-none text-slate-800 placeholder-slate-400"
+                className="w-full pl-6 pr-6 py-1 text-sm bg-transparent outline-none text-slate-800 placeholder-slate-400"
               />
               {query && (
                 <button
@@ -127,12 +250,45 @@ export const Header: React.FC<HeaderProps> = ({
                     setQuery('');
                     onCloseSidebar?.();
                   }}
-                  className="absolute right-1 text-slate-400 hover:text-slate-600 p-0.5 rounded-full"
+                  className="absolute right-0 text-slate-400 hover:text-slate-600 p-0.5 rounded-full"
                   title="検索クリア"
                 >
                   <X className="w-4 h-4" />
                 </button>
               )}
+            </div>
+
+            {/* 一体型ボタン: インストール(↓) ＆ ヘルプ(?) ＆ 設定(⚙) */}
+            <div className="flex items-center gap-0.5 border-l border-slate-200 pl-1.5 shrink-0">
+              {!isStandalone && onOpenInstall && (
+                <button
+                  type="button"
+                  onClick={onOpenInstall}
+                  className="p-1.5 text-sky-600 hover:text-sky-800 hover:bg-sky-50 rounded-md transition-colors relative"
+                  title="アプリとしてインストール"
+                >
+                  <Download className="w-4 h-4" />
+                  {canInstall && (
+                    <span className="absolute top-1 right-1 w-2 h-2 rounded-full bg-sky-500 animate-pulse ring-1 ring-white" />
+                  )}
+                </button>
+              )}
+              <button
+                type="button"
+                onClick={onOpenHelp}
+                className="p-1.5 text-slate-500 hover:text-slate-800 hover:bg-slate-100 rounded-md transition-colors"
+                title="使い方と機能説明"
+              >
+                <HelpCircle className="w-4 h-4" />
+              </button>
+              <button
+                type="button"
+                onClick={onOpenSettings}
+                className="p-1.5 text-slate-500 hover:text-slate-800 hover:bg-slate-100 rounded-md transition-colors"
+                title="API設定・カスタム時刻表"
+              >
+                <Settings className="w-4 h-4" />
+              </button>
             </div>
           </div>
 
@@ -218,108 +374,55 @@ export const Header: React.FC<HeaderProps> = ({
             </div>
           )}
         </div>
-      </div>
 
-      {/* 2. サブコントロールバー（路線フィルター、平日/土休日、運行情報、時計、設定） */}
-      <div
-        className={`absolute top-3 z-[1000] pointer-events-none transition-all duration-300 ease-in-out ${
-          isSidebarOpen
-            ? 'hidden md:flex left-[436px] max-w-[calc(100vw-700px)]'
-            : 'hidden sm:flex left-[416px] max-w-[calc(100vw-680px)]'
-        } items-center gap-1.5 flex-wrap`}
-      >
-        {/* 路線フィルター（チェックボックス式セレクター） */}
-        <div className="pointer-events-auto">
-          <LineFilterDropdown
+        {/* PC用 右側固定エリア: 1行目 ステータスカプセル群 ＆ 2行目 フィルタードック (右揃え・上端固定) */}
+        <div className="hidden sm:flex flex-col items-end gap-2 pointer-events-auto shrink-0 ml-auto mt-1">
+          <div className="flex items-center gap-1.5">
+            {statusCapsulesJsx}
+          </div>
+          <DisplayFilterDock
             selectedLineIds={selectedLineIds}
             onChangeSelectedLines={onChangeSelectedLines}
+            filterDirection={filterDirection}
+            onChangeFilterDirection={onChangeFilterDirection}
+            filterType={filterType}
+            onChangeFilterType={onChangeFilterType}
+            mode="desktop"
           />
         </div>
-
-        {/* 運行情報ステータスバッジ */}
-        <div className="relative">
-          <button
-            type="button"
-            onClick={() => setShowStatusTooltip(!showStatusTooltip)}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg shadow-md backdrop-blur-md text-xs font-semibold border pointer-events-auto transition-all ${
-              operationStatus.status === 'NORMAL'
-                ? 'bg-emerald-50/90 text-emerald-800 border-emerald-200 hover:bg-emerald-100/90'
-                : 'bg-amber-50/90 text-amber-800 border-amber-200 hover:bg-amber-100/90'
-            }`}
-          >
-            {operationStatus.status === 'NORMAL' ? (
-              <CheckCircle className="w-3.5 h-3.5 text-emerald-600" />
-            ) : (
-              <AlertTriangle className="w-3.5 h-3.5 text-amber-600" />
-            )}
-            <span>{operationStatus.title}</span>
-          </button>
-
-          {/* 運行情報詳細ポップオーバー */}
-          {showStatusTooltip && (
-            <div className="absolute top-full mt-2 left-0 w-72 bg-white rounded-lg shadow-xl border border-slate-200 p-3 z-50 text-left pointer-events-auto">
-              <div className="flex items-center justify-between mb-1.5">
-                <span className="font-bold text-xs text-slate-800">運行情報</span>
-                <span className="text-[10px] text-slate-400">{operationStatus.updatedAt} 更新</span>
-              </div>
-              <p className="text-xs text-slate-600 leading-relaxed">{operationStatus.details}</p>
-              <div className="mt-2 text-[10px] text-slate-400 border-t border-slate-100 pt-1.5 flex justify-between">
-                <span>データ提供: 各鉄道会社 / ODPT</span>
-                <button
-                  type="button"
-                  onClick={() => setShowStatusTooltip(false)}
-                  className="text-blue-600 hover:underline font-medium"
-                >
-                  閉じる
-                </button>
-              </div>
-            </div>
-          )}
-        </div>
-
-        {/* ダイヤ種別トグル (平日 / 土休日) */}
-        <button
-          type="button"
-          onClick={() => onToggleHoliday(!isHoliday)}
-          className="pointer-events-auto flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/95 backdrop-blur-md text-xs font-semibold text-slate-700 shadow-md border border-slate-200 hover:bg-slate-50 transition-all"
-          title="ダイヤ切り替え"
-        >
-          <Calendar className="w-3.5 h-3.5 text-slate-500" />
-          <span>{isHoliday ? '土休日ダイヤ' : '平日ダイヤ'}</span>
-        </button>
-
-        {/* 現在時刻表示 */}
-        <div className="pointer-events-auto flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-white/95 backdrop-blur-md text-xs font-semibold text-slate-700 shadow-md border border-slate-200">
-          <Clock className="w-3.5 h-3.5 text-sky-600" />
-          <span className="font-mono font-bold text-slate-800">{currentTimeString}</span>
-        </div>
-
-        {/* 走行中列車数 */}
-        <div className="pointer-events-auto hidden lg:flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-white/95 backdrop-blur-md text-xs font-semibold text-slate-700 shadow-md border border-slate-200">
-          <Train className="w-3.5 h-3.5 text-sky-600" />
-          <span>走行中 <strong className="text-sky-700 font-bold">{activeTrains.length}</strong> 列車</span>
-        </div>
-
-        {/* ヘルプボタン */}
-        <button
-          type="button"
-          onClick={onOpenHelp}
-          className="pointer-events-auto p-2 rounded-lg bg-white/95 backdrop-blur-md text-slate-600 shadow-md border border-slate-200 hover:bg-slate-50 hover:text-slate-900 transition-all"
-          title="使い方と機能説明"
-        >
-          <HelpCircle className="w-4 h-4" />
-        </button>
-
-        {/* 設定ボタン */}
-        <button
-          type="button"
-          onClick={onOpenSettings}
-          className="pointer-events-auto p-2 rounded-lg bg-white/95 backdrop-blur-md text-slate-600 shadow-md border border-slate-200 hover:bg-slate-50 hover:text-slate-900 transition-all"
-          title="API設定・カスタム時刻表"
-        >
-          <Settings className="w-4 h-4" />
-        </button>
       </div>
-    </>
+
+      {/* モバイル用: 横スクロールチップバー (サイドバー展開時は非表示にして詳細パネルと被らないようにする) */}
+      {!isSidebarOpen && (
+        <div className="relative sm:hidden w-full pointer-events-auto animate-in fade-in duration-200">
+          <div
+            ref={scrollRef}
+            onScroll={updateScrollState}
+            style={scrollMaskStyle}
+            className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 px-0.5 w-full"
+          >
+            <DisplayFilterDock
+              selectedLineIds={selectedLineIds}
+              onChangeSelectedLines={onChangeSelectedLines}
+              filterDirection={filterDirection}
+              onChangeFilterDirection={onChangeFilterDirection}
+              filterType={filterType}
+              onChangeFilterType={onChangeFilterType}
+              mode="mobile"
+            />
+            {statusCapsulesJsx}
+          </div>
+        </div>
+      )}
+
+      {/* 追尾中バー (サイドバーが閉じていて自動追尾中の場合に表示) */}
+      {!isSidebarOpen && isTrackingTrain && selectedTrain && (
+        <TrackingBar
+          train={selectedTrain}
+          onOpenSidebar={() => onOpenSidebar?.()}
+          onStopTracking={() => onStopTracking?.()}
+        />
+      )}
+    </header>
   );
 };

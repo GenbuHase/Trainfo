@@ -14,6 +14,7 @@ export const SAIKYO_STATIONS: Station[] = [
     address: '東京都品川区大崎一丁目21-4',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'rapid', 'commuter'],
+    isMajor: true,
     platforms: { inbound: '5〜8番線', outbound: '5〜8番線' },
   },
   {
@@ -47,6 +48,7 @@ export const SAIKYO_STATIONS: Station[] = [
     address: '東京都渋谷区道玄坂一丁目1-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'rapid', 'commuter'],
+    isMajor: true,
     platforms: { inbound: '3番線', outbound: '4番線' },
   },
   {
@@ -65,6 +67,7 @@ export const SAIKYO_STATIONS: Station[] = [
     address: '東京都新宿区新宿三丁目38-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'rapid', 'commuter'],
+    isMajor: true,
     platforms: { inbound: '1〜4番線', outbound: '1〜4番線' },
   },
   {
@@ -83,6 +86,7 @@ export const SAIKYO_STATIONS: Station[] = [
     address: '東京都豊島区南池袋一丁目28-2',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'rapid', 'commuter'],
+    isMajor: true,
     platforms: { inbound: '1・2番線', outbound: '3・4番線' },
   },
   {
@@ -128,6 +132,7 @@ export const SAIKYO_STATIONS: Station[] = [
     address: '東京都北区赤羽一丁目1-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'rapid', 'commuter'],
+    isMajor: true,
     platforms: { inbound: '7番線', outbound: '8番線' },
   },
   {
@@ -218,6 +223,7 @@ export const SAIKYO_STATIONS: Station[] = [
     address: '埼玉県さいたま市南区別所七丁目12-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
     stoppingTypes: ['local', 'rapid', 'commuter'],
+    isMajor: true,
     platforms: { inbound: '1・2番線', outbound: '3・4番線' },
   },
   {
@@ -295,7 +301,8 @@ export const SAIKYO_STATIONS: Station[] = [
     ],
     address: '埼玉県さいたま市大宮区錦町630',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-    stoppingTypes: ['local', 'rapid', 'commuter'],
+    stoppingTypes: ['local', 'rapid', 'commuter', 'limitedExp'],
+    isMajor: true,
     platforms: { inbound: '19〜22番線', outbound: '19〜22番線' },
   },
   {
@@ -310,7 +317,7 @@ export const SAIKYO_STATIONS: Station[] = [
     transfers: [],
     address: '埼玉県さいたま市北区日進町二丁目1030',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
-    stoppingTypes: ['local', 'rapid', 'commuter'],
+    stoppingTypes: ['local', 'rapid', 'commuter', 'limitedExp'],
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -325,7 +332,7 @@ export const SAIKYO_STATIONS: Station[] = [
     transfers: [],
     address: '埼玉県さいたま市西区西大宮一丁目',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
-    stoppingTypes: ['local', 'rapid', 'commuter'],
+    stoppingTypes: ['local', 'rapid', 'commuter', 'limitedExp'],
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -340,7 +347,7 @@ export const SAIKYO_STATIONS: Station[] = [
     transfers: [],
     address: '埼玉県さいたま市西区大字宝来前新田188-1',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
-    stoppingTypes: ['local', 'rapid', 'commuter'],
+    stoppingTypes: ['local', 'rapid', 'commuter', 'limitedExp'],
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -355,7 +362,7 @@ export const SAIKYO_STATIONS: Station[] = [
     transfers: [],
     address: '埼玉県川越市大字並木197',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: false, ticketOffice: true },
-    stoppingTypes: ['local', 'rapid', 'commuter'],
+    stoppingTypes: ['local', 'rapid', 'commuter', 'limitedExp'],
     platforms: { inbound: '1番線', outbound: '2番線' },
   },
   {
@@ -370,7 +377,8 @@ export const SAIKYO_STATIONS: Station[] = [
     transfers: ['JR川越線(高麗川方面)', '東武東上線', '西武新宿線(本川越駅)'],
     address: '埼玉県川越市脇田本町39-19',
     facilities: { elevator: true, restroom: true, multipurposeToilet: true, waitingRoom: true, ticketOffice: true },
-    stoppingTypes: ['local', 'rapid', 'commuter'],
+    stoppingTypes: ['local', 'rapid', 'commuter', 'limitedExp'],
+    isMajor: true,
     platforms: { inbound: '3〜6番線', outbound: '3〜6番線' },
   },
 ];

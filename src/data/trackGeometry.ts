@@ -1,6 +1,6 @@
 // 統合実軌道ジオメトリデータ＆補間計算エンジン
 import type { TrackSegment, LineId } from '../types';
-import { getCombinedTrackSegments } from './linesRegistry';
+import { getCombinedTrackSegments, getCombinedStations } from './linesRegistry';
 
 // 全登録路線の統合線路セグメント（静的アクセス互換用）
 export const STATION_TRACK_SEGMENTS: TrackSegment[] = getCombinedTrackSegments();
@@ -78,6 +78,18 @@ export function interpolateTrackPosition(
   }
 
   if (!segment || segment.coordinates.length < 2) {
+    const stations = getCombinedStations();
+    const fromSt = stations.find((s) => s.id === fromStationId);
+    const toSt = stations.find((s) => s.id === toStationId);
+    if (fromSt && toSt) {
+      const lat = fromSt.lat + (toSt.lat - fromSt.lat) * clampedRatio;
+      const lng = fromSt.lng + (toSt.lng - fromSt.lng) * clampedRatio;
+      const heading = calculateHeading(fromSt.lat, fromSt.lng, toSt.lat, toSt.lng);
+      return { lat, lng, heading, bearing: heading };
+    }
+    if (fromSt) {
+      return { lat: fromSt.lat, lng: fromSt.lng, heading: 0, bearing: 0 };
+    }
     return { lat: 35.73, lng: 139.71, heading: 0, bearing: 0 };
   }
 
@@ -107,7 +119,30 @@ export function interpolateTrackPosition(
 
       const lat = p1[0] + (p2[0] - p1[0]) * segRatio;
       const lng = p1[1] + (p2[1] - p1[1]) * segRatio;
-      const heading = calculateHeading(p1[0], p1[1], p2[0], p2[1]);
+
+      // 先読み（Lookahead）による進行方向方位角の算出:
+      // 現在位置から少し先（約20〜25メートル先）の線路上の点を見据えて方位角を計算することで、
+      // 微小セグメント境界でのカクつきを解消し、カーブでも自然かつ滑らかな回転を実現
+      const lookaheadMeters = Math.min(25, totalDist * 0.1);
+      const aheadTargetDist = Math.min(totalDist, targetDist + Math.max(5, lookaheadMeters));
+
+      let heading = calculateHeading(p1[0], p1[1], p2[0], p2[1]);
+      if (aheadTargetDist > targetDist + 0.5) {
+        let aheadAcc = 0;
+        for (let j = 0; j < distances.length; j++) {
+          const nextAheadAcc = aheadAcc + distances[j];
+          if (aheadTargetDist <= nextAheadAcc || j === distances.length - 1) {
+            const aheadSegRatio = distances[j] > 0 ? (aheadTargetDist - aheadAcc) / distances[j] : 0;
+            const ap1 = coords[j];
+            const ap2 = coords[j + 1];
+            const aheadLat = ap1[0] + (ap2[0] - ap1[0]) * aheadSegRatio;
+            const aheadLng = ap1[1] + (ap2[1] - ap1[1]) * aheadSegRatio;
+            heading = calculateHeading(lat, lng, aheadLat, aheadLng);
+            break;
+          }
+          aheadAcc = nextAheadAcc;
+        }
+      }
 
       return { lat, lng, heading, bearing: heading };
     }
@@ -115,5 +150,7 @@ export function interpolateTrackPosition(
   }
 
   const last = coords[coords.length - 1];
-  return { lat: last[0], lng: last[1], heading: 0, bearing: 0 };
+  const prevLast = coords[coords.length - 2] || last;
+  const lastHeading = calculateHeading(prevLast[0], prevLast[1], last[0], last[1]);
+  return { lat: last[0], lng: last[1], heading: lastHeading, bearing: lastHeading };
 }

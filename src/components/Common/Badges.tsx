@@ -2,7 +2,100 @@ import React from 'react';
 import type { TrainTypeKey, LineId } from '../../types';
 import { getTrainTypeConfig } from '../../data/linesRegistry';
 
-// 駅ナンバリングバッジ (TJ-XX, JA-XX 等のマルチライン対応)
+interface StationBadgeColor {
+  borderColor: string;
+  prefixColor: string;
+  numColor: string;
+}
+
+const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
+  // 東武東上線
+  TJ: {
+    borderColor: '#004b97',
+    prefixColor: '#ed6d00',
+    numColor: '#004b97',
+  },
+  // JR埼京線・川越線
+  JA: {
+    borderColor: '#00ac9a',
+    prefixColor: '#00ac9a',
+    numColor: '#007060',
+  },
+  // JR武蔵野線
+  JM: {
+    borderColor: '#f15a22',
+    prefixColor: '#f15a22',
+    numColor: '#c83e0c',
+  },
+  // JR京葉線
+  JE: {
+    borderColor: '#c9252f',
+    prefixColor: '#c9252f',
+    numColor: '#a11820',
+  },
+  // JR中央線
+  JC: {
+    borderColor: '#f15a22',
+    prefixColor: '#e65100',
+    numColor: '#b83b00',
+  },
+  // JR中央本線 (大月〜小淵沢)
+  CO: {
+    borderColor: '#0072bc',
+    prefixColor: '#0072bc',
+    numColor: '#005bac',
+  },
+  // JR宇都宮線・高崎線 (大宮地上ホーム)
+  JU: {
+    borderColor: '#f68b1f',
+    prefixColor: '#f68b1f',
+    numColor: '#cc6600',
+  },
+  // JR京浜東北線
+  JK: {
+    borderColor: '#00a4e4',
+    prefixColor: '#00a4e4',
+    numColor: '#007aa8',
+  },
+  // JR湘南新宿ライン
+  JS: {
+    borderColor: '#e21f26',
+    prefixColor: '#e21f26',
+    numColor: '#ad1117',
+  },
+  // つくばエクスプレス (首都圏新都市鉄道)
+  TX: {
+    borderColor: '#003893',
+    prefixColor: '#df0011',
+    numColor: '#003893',
+  },
+  // JR篠ノ井線
+  SN: {
+    borderColor: '#d56a29',
+    prefixColor: '#d56a29',
+    numColor: '#a84e15',
+  },
+  // JR東日本 大糸線
+  OE: {
+    borderColor: '#8a579e',
+    prefixColor: '#8a579e',
+    numColor: '#6c3b82',
+  },
+  // JR西日本 大糸線
+  OW: {
+    borderColor: '#0067b8',
+    prefixColor: '#0067b8',
+    numColor: '#004d8a',
+  },
+};
+
+const DEFAULT_BADGE_COLOR: StationBadgeColor = {
+  borderColor: '#64748b',
+  prefixColor: '#64748b',
+  numColor: '#334155',
+};
+
+// 駅ナンバリングバッジ (TJ-XX, JA-XX, JM-XX, JE-XX, JC-XX, JU-XX 等のマルチライン対応)
 export const StationBadge: React.FC<{ id: string; size?: 'sm' | 'md' | 'lg' }> = ({
   id,
   size = 'md',
@@ -14,21 +107,21 @@ export const StationBadge: React.FC<{ id: string; size?: 'sm' | 'md' | 'lg' }> =
   }[size];
 
   const [prefix, num] = id.includes('-') ? id.split('-') : [id.slice(0, 2), id.slice(2)];
-  const isSaikyo = prefix === 'JA';
+  const badgeColor = STATION_BADGE_COLORS[prefix] || DEFAULT_BADGE_COLOR;
 
   return (
     <span
       className={`inline-flex items-center justify-center font-mono rounded border-2 shadow-xs tracking-wider ${sizeClasses}`}
       style={{
-        borderColor: isSaikyo ? '#00ac9a' : '#004b97',
+        borderColor: badgeColor.borderColor,
         backgroundColor: '#ffffff',
-        color: isSaikyo ? '#007060' : '#004b97',
+        color: badgeColor.numColor,
       }}
       title={`駅ナンバリング: ${id}`}
     >
       <span
         className="mr-0.5 font-black"
-        style={{ color: isSaikyo ? '#00ac9a' : '#ed6d00' }}
+        style={{ color: badgeColor.prefixColor }}
       >
         {prefix}
       </span>
