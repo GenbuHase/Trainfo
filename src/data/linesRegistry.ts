@@ -9,12 +9,14 @@ import { chuoMainLine } from './lines/chuo_main';
 import { shinonoiLine } from './lines/shinonoi';
 import { oitoEastLine } from './lines/oito_east';
 import { oitoWestLine } from './lines/oito_west';
+import { rinkaiLine } from './lines/rinkai';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tojo: tojoLine,
   saikyo: saikyoLine,
   kawagoe: kawagoeLine,
+  rinkai: rinkaiLine,
   musashino: musashinoLine,
   tsukuba_express: tsukubaExpressLine,
   chuo: chuoLine,
@@ -38,6 +40,7 @@ export interface OperatorLinesGroup {
 const OPERATOR_DISPLAY_ORDER = [
   'JR東日本',
   'JR西日本',
+  '東京臨海高速鉄道',
   '東武鉄道',
   '首都圏新都市鉄道',
 ];
