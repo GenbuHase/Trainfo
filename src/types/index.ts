@@ -1,21 +1,26 @@
 // Trainfo 共通型定義ファイル
 
 // 路線ID型（将来の路線追加に開かれた拡張型）
-export type LineId = 'tojo' | 'saikyo' | 'musashino' | 'tsukuba_express' | (string & {});
+export type LineId = 'tojo' | 'saikyo' | 'musashino' | 'tsukuba_express' | 'chuo' | (string & {});
 
-// 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋汎用）
+// 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋汎用）
 export type TrainTypeKey =
-  | 'local'           // 普通 / 各駅停車
-  | 'regular'         // 普通（むさしの号・しもうさ号等）
-  | 'semiExp'         // 準急
-  | 'express'         // 急行
-  | 'rapid'           // 快速（埼京線、つくばエクスプレス等）
-  | 'commuter'        // 通勤快速（埼京線等）
-  | 'semi_rapid'      // 区間快速（つくばエクスプレス等）
-  | 'commuter_rapid'  // 通勤快速（つくばエクスプレス等）
-  | 'rapidExp'        // 快速急行
-  | 'kawagoeExp'      // 川越特急
-  | 'tjLiner'         // TJライナー
+  | 'local'                   // 普通 / 各駅停車
+  | 'regular'                 // 普通（むさしの号・しもうさ号等）
+  | 'semiExp'                 // 準急
+  | 'express'                 // 急行
+  | 'rapid'                   // 快速（埼京線、つくばエクスプレス、中央線等）
+  | 'commuter'                // 通勤快速（埼京線、中央線等）
+  | 'semi_rapid'              // 区間快速（つくばエクスプレス等）
+  | 'commuter_rapid'          // 通勤快速（つくばエクスプレス等）
+  | 'special_rapid'           // 特別快速（中央線等）
+  | 'chuo_special_rapid'      // 中央特快（中央線）
+  | 'ome_special_rapid'       // 青梅特快（中央線）
+  | 'commuter_special_rapid'  // 通勤特快（中央線）
+  | 'limitedExp'              // 特急（あずさ・かいじ・富士回遊等）
+  | 'rapidExp'                // 快速急行
+  | 'kawagoeExp'              // 川越特急
+  | 'tjLiner'                 // TJライナー
   | (string & {});
 
 export interface TrainTypeConfig {

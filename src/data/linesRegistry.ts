@@ -3,6 +3,7 @@ import { tojoLine } from './lines/tojo';
 import { saikyoLine } from './lines/saikyo';
 import { musashinoLine } from './lines/musashino';
 import { tsukubaExpressLine } from './lines/tsukuba_express';
+import { chuoLine } from './lines/chuo';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -10,6 +11,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   saikyo: saikyoLine,
   musashino: musashinoLine,
   tsukuba_express: tsukubaExpressLine,
+  chuo: chuoLine,
 };
 
 // 登録されている全路線の配列を取得
@@ -70,6 +72,7 @@ export function getTrainTypeConfig(type: string, lineId?: LineId): TrainTypeConf
   if (saikyoLine.trainTypes[type]) return saikyoLine.trainTypes[type];
   if (musashinoLine.trainTypes[type]) return musashinoLine.trainTypes[type];
   if (tsukubaExpressLine.trainTypes[type]) return tsukubaExpressLine.trainTypes[type];
+  if (chuoLine.trainTypes[type]) return chuoLine.trainTypes[type];
   return {
     key: type,
     name: type,
