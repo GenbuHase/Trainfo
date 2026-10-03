@@ -1,6 +1,6 @@
-// JR中央線快速 駅定義（全24駅）
 import type { Station } from '../../../types';
 
+// JR中央線・中央本線 (東京 〜 高尾 〜 大月 〜 甲府 全43駅)
 export const CHUO_STATIONS: Station[] = [
   {
     "id": "JC-01",
@@ -9,8 +9,8 @@ export const CHUO_STATIONS: Station[] = [
     "name": "東京",
     "nameKana": "とうきょう",
     "nameEn": "Tokyo",
-    "lat": 35.681323,
-    "lng": 139.76623,
+    "lat": 35.681767,
+    "lng": 139.766411,
     "transfers": [
       "JR山手線",
       "JR京浜東北線",
@@ -64,7 +64,7 @@ export const CHUO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
+      "waitingRoom": true,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -98,7 +98,7 @@ export const CHUO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
+      "waitingRoom": true,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -121,8 +121,8 @@ export const CHUO_STATIONS: Station[] = [
     "name": "四ツ谷",
     "nameKana": "よつや",
     "nameEn": "Yotsuya",
-    "lat": 35.685909,
-    "lng": 139.730544,
+    "lat": 35.685957,
+    "lng": 139.730556,
     "transfers": [
       "JR総武線各駅停車",
       "東京メトロ丸ノ内線",
@@ -133,7 +133,7 @@ export const CHUO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
+      "waitingRoom": true,
       "ticketOffice": true
     },
     "stoppingTypes": [
@@ -142,7 +142,9 @@ export const CHUO_STATIONS: Station[] = [
       "commuter",
       "special_rapid",
       "chuo_special_rapid",
-      "ome_special_rapid"
+      "ome_special_rapid",
+      "commuter_special_rapid",
+      "limitedExp"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -156,18 +158,19 @@ export const CHUO_STATIONS: Station[] = [
     "name": "新宿",
     "nameKana": "しんじゅく",
     "nameEn": "Shinjuku",
-    "lat": 35.688992,
-    "lng": 139.700465,
+    "lat": 35.689525,
+    "lng": 139.70035,
     "transfers": [
       "JR山手線",
       "JR埼京線",
       "JR湘南新宿ライン",
       "JR総武線各駅停車",
+      "小田急小田原線",
+      "京王線",
+      "京王新線",
       "東京メトロ丸ノ内線",
       "都営新宿線",
-      "都営大江戸線",
-      "京王線",
-      "小田急線"
+      "都営大江戸線"
     ],
     "address": "東京都新宿区新宿三丁目",
     "facilities": {
@@ -219,12 +222,11 @@ export const CHUO_STATIONS: Station[] = [
       "commuter",
       "special_rapid",
       "chuo_special_rapid",
-      "ome_special_rapid",
-      "limitedExp"
+      "ome_special_rapid"
     ],
     "platforms": {
       "inbound": "7・8番線",
-      "outbound": "5・6番線"
+      "outbound": "6番線"
     }
   },
   {
@@ -244,8 +246,8 @@ export const CHUO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
-      "ticketOffice": false
+      "waitingRoom": true,
+      "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
@@ -263,8 +265,8 @@ export const CHUO_STATIONS: Station[] = [
     "name": "阿佐ケ谷",
     "nameKana": "あさがや",
     "nameEn": "Asagaya",
-    "lat": 35.704898,
-    "lng": 139.63536,
+    "lat": 35.704957,
+    "lng": 139.636148,
     "transfers": [
       "JR総武線各駅停車"
     ],
@@ -273,8 +275,8 @@ export const CHUO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
-      "ticketOffice": false
+      "waitingRoom": true,
+      "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
@@ -303,14 +305,13 @@ export const CHUO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
+      "waitingRoom": true,
       "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter",
-      "commuter_special_rapid"
+      "commuter"
     ],
     "platforms": {
       "inbound": "4番線",
@@ -334,8 +335,8 @@ export const CHUO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
-      "ticketOffice": false
+      "waitingRoom": true,
+      "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
@@ -388,8 +389,7 @@ export const CHUO_STATIONS: Station[] = [
     "lat": 35.70267,
     "lng": 139.56093,
     "transfers": [
-      "JR総武線各駅停車",
-      "東京メトロ東西線直通"
+      "JR総武線各駅停車"
     ],
     "address": "東京都三鷹市下連雀三丁目",
     "facilities": {
@@ -406,7 +406,6 @@ export const CHUO_STATIONS: Station[] = [
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid",
       "limitedExp"
     ],
     "platforms": {
@@ -426,21 +425,22 @@ export const CHUO_STATIONS: Station[] = [
     "transfers": [
       "西武多摩川線"
     ],
-    "address": "東京都武蔵野市境一丁目",
+    "address": "東京都武蔵野市境四丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
+      "waitingRoom": true,
       "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "commuter"
     ],
     "platforms": {
-      "inbound": "2番線",
-      "outbound": "1番線"
+      "inbound": "4番線",
+      "outbound": "3番線"
     }
   },
   {
@@ -450,23 +450,24 @@ export const CHUO_STATIONS: Station[] = [
     "name": "東小金井",
     "nameKana": "ひがしこがねい",
     "nameEn": "Higashi-Koganei",
-    "lat": 35.701522,
-    "lng": 139.524057,
+    "lat": 35.701542,
+    "lng": 139.524643,
     "transfers": [],
     "address": "東京都小金井市梶野町五丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
-      "ticketOffice": false
+      "waitingRoom": true,
+      "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "commuter"
     ],
     "platforms": {
-      "inbound": "2番線",
+      "inbound": "3番線",
       "outbound": "1番線"
     }
   },
@@ -485,12 +486,13 @@ export const CHUO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
-      "ticketOffice": false
+      "waitingRoom": true,
+      "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "commuter"
     ],
     "platforms": {
       "inbound": "3・4番線",
@@ -510,7 +512,7 @@ export const CHUO_STATIONS: Station[] = [
       "西武国分寺線",
       "西武多摩湖線"
     ],
-    "address": "東京都国分寺市本町二丁目",
+    "address": "東京都国分寺市南町三丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -528,8 +530,8 @@ export const CHUO_STATIONS: Station[] = [
       "commuter_special_rapid"
     ],
     "platforms": {
-      "inbound": "3・4番線",
-      "outbound": "1・2番線"
+      "inbound": "4番線",
+      "outbound": "2番線"
     }
   },
   {
@@ -549,12 +551,13 @@ export const CHUO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
-      "ticketOffice": false
+      "waitingRoom": true,
+      "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "commuter"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -571,19 +574,20 @@ export const CHUO_STATIONS: Station[] = [
     "lat": 35.699222,
     "lng": 139.446532,
     "transfers": [
-      "JR武蔵野線（むさしの号）"
+      "JR武蔵野線直通（むさしの号）"
     ],
     "address": "東京都国立市北一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
+      "waitingRoom": true,
       "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "commuter"
     ],
     "platforms": {
       "inbound": "2・3番線",
@@ -598,11 +602,11 @@ export const CHUO_STATIONS: Station[] = [
     "nameKana": "たちかわ",
     "nameEn": "Tachikawa",
     "lat": 35.697771,
-    "lng": 139.413551,
+    "lng": 139.413715,
     "transfers": [
       "JR青梅線",
       "JR南武線",
-      "多摩都市モノレール"
+      "多摩都市モノレール線"
     ],
     "address": "東京都立川市曙町二丁目",
     "facilities": {
@@ -623,7 +627,7 @@ export const CHUO_STATIONS: Station[] = [
       "limitedExp"
     ],
     "platforms": {
-      "inbound": "3・4番線",
+      "inbound": "3・4・5番線",
       "outbound": "5・6番線"
     }
   },
@@ -634,16 +638,16 @@ export const CHUO_STATIONS: Station[] = [
     "name": "日野",
     "nameKana": "ひの",
     "nameEn": "Hino",
-    "lat": 35.678996,
-    "lng": 139.393705,
+    "lat": 35.679117,
+    "lng": 139.393763,
     "transfers": [],
     "address": "東京都日野市大坂上一丁目",
     "facilities": {
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
-      "ticketOffice": false
+      "waitingRoom": true,
+      "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
@@ -651,8 +655,7 @@ export const CHUO_STATIONS: Station[] = [
       "commuter",
       "special_rapid",
       "chuo_special_rapid",
-      "ome_special_rapid",
-      "commuter_special_rapid"
+      "ome_special_rapid"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -674,8 +677,8 @@ export const CHUO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
-      "ticketOffice": false
+      "waitingRoom": true,
+      "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
@@ -683,8 +686,7 @@ export const CHUO_STATIONS: Station[] = [
       "commuter",
       "special_rapid",
       "chuo_special_rapid",
-      "ome_special_rapid",
-      "commuter_special_rapid"
+      "ome_special_rapid"
     ],
     "platforms": {
       "inbound": "3・4番線",
@@ -725,7 +727,7 @@ export const CHUO_STATIONS: Station[] = [
     ],
     "platforms": {
       "inbound": "3・4番線",
-      "outbound": "1・2番線"
+      "outbound": "2番線"
     }
   },
   {
@@ -743,8 +745,8 @@ export const CHUO_STATIONS: Station[] = [
       "elevator": true,
       "restroom": true,
       "multipurposeToilet": true,
-      "waitingRoom": false,
-      "ticketOffice": false
+      "waitingRoom": true,
+      "ticketOffice": true
     },
     "stoppingTypes": [
       "local",
@@ -767,10 +769,9 @@ export const CHUO_STATIONS: Station[] = [
     "name": "高尾",
     "nameKana": "たかお",
     "nameEn": "Takao",
-    "lat": 35.642212,
-    "lng": 139.28245,
+    "lat": 35.642152,
+    "lng": 139.282487,
     "transfers": [
-      "JR中央本線（大月方面）",
       "京王高尾線"
     ],
     "address": "東京都八王子市高尾町",
@@ -794,6 +795,559 @@ export const CHUO_STATIONS: Station[] = [
     "platforms": {
       "inbound": "2・3・4番線",
       "outbound": "1・2番線"
+    }
+  },
+  {
+    "id": "JC-25",
+    "lineId": "chuo",
+    "number": 25,
+    "name": "相模湖",
+    "nameKana": "さがみこ",
+    "nameEn": "Sagamiko",
+    "lat": 35.617344,
+    "lng": 139.188473,
+    "transfers": [],
+    "address": "神奈川県相模原市緑区与瀬本町",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter",
+      "special_rapid",
+      "chuo_special_rapid",
+      "ome_special_rapid",
+      "commuter_special_rapid"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JC-26",
+    "lineId": "chuo",
+    "number": 26,
+    "name": "藤野",
+    "nameKana": "ふじの",
+    "nameEn": "Fujino",
+    "lat": 35.615916,
+    "lng": 139.152408,
+    "transfers": [],
+    "address": "神奈川県相模原市緑区小渕",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter",
+      "special_rapid",
+      "chuo_special_rapid",
+      "ome_special_rapid",
+      "commuter_special_rapid"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JC-27",
+    "lineId": "chuo",
+    "number": 27,
+    "name": "上野原",
+    "nameKana": "うえのはら",
+    "nameEn": "Uenohara",
+    "lat": 35.618805,
+    "lng": 139.116111,
+    "transfers": [],
+    "address": "山梨県上野原市新田",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter",
+      "special_rapid",
+      "chuo_special_rapid",
+      "ome_special_rapid",
+      "commuter_special_rapid",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JC-28",
+    "lineId": "chuo",
+    "number": 28,
+    "name": "四方津",
+    "nameKana": "しおつ",
+    "nameEn": "Shiotsu",
+    "lat": 35.613947,
+    "lng": 139.06752,
+    "transfers": [],
+    "address": "山梨県上野原市四方津",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter",
+      "special_rapid",
+      "chuo_special_rapid",
+      "ome_special_rapid",
+      "commuter_special_rapid"
+    ],
+    "platforms": {
+      "inbound": "3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JC-29",
+    "lineId": "chuo",
+    "number": 29,
+    "name": "梁川",
+    "nameKana": "やながわ",
+    "nameEn": "Yanagawa",
+    "lat": 35.608176,
+    "lng": 139.032079,
+    "transfers": [],
+    "address": "山梨県大月市梁川町綱の上",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter",
+      "special_rapid",
+      "chuo_special_rapid",
+      "ome_special_rapid",
+      "commuter_special_rapid"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JC-30",
+    "lineId": "chuo",
+    "number": 30,
+    "name": "鳥沢",
+    "nameKana": "とりさわ",
+    "nameEn": "Torisawa",
+    "lat": 35.60813,
+    "lng": 138.998749,
+    "transfers": [],
+    "address": "山梨県大月市富浜町鳥沢",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter",
+      "special_rapid",
+      "chuo_special_rapid",
+      "ome_special_rapid",
+      "commuter_special_rapid"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JC-31",
+    "lineId": "chuo",
+    "number": 31,
+    "name": "猿橋",
+    "nameKana": "さるはし",
+    "nameEn": "Saruhashi",
+    "lat": 35.612736,
+    "lng": 138.968119,
+    "transfers": [],
+    "address": "山梨県大月市猿橋町猿橋",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter",
+      "special_rapid",
+      "chuo_special_rapid",
+      "ome_special_rapid",
+      "commuter_special_rapid"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JC-32",
+    "lineId": "chuo",
+    "number": 32,
+    "name": "大月",
+    "nameKana": "おおつき",
+    "nameEn": "Otsuki",
+    "lat": 35.613106,
+    "lng": 138.942176,
+    "transfers": [
+      "富士急行線"
+    ],
+    "address": "山梨県大月市大月一丁目",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "commuter",
+      "special_rapid",
+      "chuo_special_rapid",
+      "ome_special_rapid",
+      "commuter_special_rapid",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "4・5番線",
+      "outbound": "3番線"
+    }
+  },
+  {
+    "id": "CO-33",
+    "lineId": "chuo",
+    "number": 33,
+    "name": "初狩",
+    "nameKana": "はつかり",
+    "nameEn": "Hatsukari",
+    "lat": 35.596955,
+    "lng": 138.89052,
+    "transfers": [],
+    "address": "山梨県大月市初狩町下初狩",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-34",
+    "lineId": "chuo",
+    "number": 34,
+    "name": "笹子",
+    "nameKana": "ささご",
+    "nameEn": "Sasago",
+    "lat": 35.603961,
+    "lng": 138.825828,
+    "transfers": [],
+    "address": "山梨県大月市笹子町黒野田",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-35",
+    "lineId": "chuo",
+    "number": 35,
+    "name": "甲斐大和",
+    "nameKana": "かいやまと",
+    "nameEn": "Kai-Yamato",
+    "lat": 35.642851,
+    "lng": 138.774506,
+    "transfers": [],
+    "address": "山梨県甲州市大和町初鹿野",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-36",
+    "lineId": "chuo",
+    "number": 36,
+    "name": "勝沼ぶどう郷",
+    "nameKana": "かつぬまぶどうきょう",
+    "nameEn": "Katsunuma-budokyo",
+    "lat": 35.672049,
+    "lng": 138.74317,
+    "transfers": [],
+    "address": "山梨県甲州市勝沼町菱山",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-37",
+    "lineId": "chuo",
+    "number": 37,
+    "name": "塩山",
+    "nameKana": "えんざん",
+    "nameEn": "Enzan",
+    "lat": 35.705631,
+    "lng": 138.723415,
+    "transfers": [],
+    "address": "山梨県甲州市塩山上於曽",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-38",
+    "lineId": "chuo",
+    "number": 38,
+    "name": "東山梨",
+    "nameKana": "ひがしやまなし",
+    "nameEn": "Higashi-Yamanashi",
+    "lat": 35.694804,
+    "lng": 138.703936,
+    "transfers": [],
+    "address": "山梨県山梨市上石森",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-39",
+    "lineId": "chuo",
+    "number": 39,
+    "name": "山梨市",
+    "nameKana": "やまなしし",
+    "nameEn": "Yamanashishi",
+    "lat": 35.684945,
+    "lng": 138.685112,
+    "transfers": [],
+    "address": "山梨県山梨市上神内川",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-40",
+    "lineId": "chuo",
+    "number": 40,
+    "name": "春日居町",
+    "nameKana": "かすがいちょう",
+    "nameEn": "Kasugaicho",
+    "lat": 35.673482,
+    "lng": 138.658984,
+    "transfers": [],
+    "address": "山梨県笛吹市春日居町別田",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-41",
+    "lineId": "chuo",
+    "number": 41,
+    "name": "石和温泉",
+    "nameKana": "いさわおんせん",
+    "nameEn": "Isawa-onsen",
+    "lat": 35.657674,
+    "lng": 138.635439,
+    "transfers": [],
+    "address": "山梨県笛吹市石和町駅前",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-42",
+    "lineId": "chuo",
+    "number": 42,
+    "name": "酒折",
+    "nameKana": "さかおり",
+    "nameEn": "Sakaori",
+    "lat": 35.659614,
+    "lng": 138.599106,
+    "transfers": [],
+    "address": "山梨県甲府市酒折一丁目",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "CO-43",
+    "lineId": "chuo",
+    "number": 43,
+    "name": "甲府",
+    "nameKana": "こうふ",
+    "nameEn": "Kofu",
+    "lat": 35.667151,
+    "lng": 138.568991,
+    "transfers": [
+      "JR身延線"
+    ],
+    "address": "山梨県甲府市丸の内一丁目",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "limitedExp"
+    ],
+    "platforms": {
+      "inbound": "1・2・3番線",
+      "outbound": "1・2・3番線"
     }
   }
 ];

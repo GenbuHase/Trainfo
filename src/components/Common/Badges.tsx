@@ -39,6 +39,12 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#e65100',
     numColor: '#b83b00',
   },
+  // JR中央本線 (大月〜小淵沢)
+  CO: {
+    borderColor: '#0072bc',
+    prefixColor: '#0072bc',
+    numColor: '#005bac',
+  },
   // JR宇都宮線・高崎線 (大宮地上ホーム)
   JU: {
     borderColor: '#f68b1f',
