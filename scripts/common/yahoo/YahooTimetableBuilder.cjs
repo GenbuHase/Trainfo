@@ -433,11 +433,11 @@ class YahooTimetableBuilder {
 
     const hasPassingStop = stops.some(s => s.isPassing);
 
-    // 安全策1: 自社線区間内で通過駅が1駅も存在しない（全駅停車）場合、自社線内では普通（local）として運行
-    // （他社線直通区間での種別「特急」「急行」の自社線各停区間への誤適用を防止。ただし特急や設定で指定された優等種別は保持）
-    const preserveTypes = new Set(['limitedExp', ...(this.config.preserveAllStopsTypes || [])]);
+    // 安全策1: 自社線区間内で通過駅が1駅も存在しない（全駅停車）場合、自社線内では普通/各停として運行
+    // （他社線直通区間での種別「特急」「急行」の自社線各停区間への誤適用を防止。ただし特急・普通や指定種別は保持）
+    const preserveTypes = new Set(['limitedExp', 'regular', ...(this.config.preserveAllStopsTypes || [])]);
     if (!hasPassingStop && trainType !== 'local' && !preserveTypes.has(trainType)) {
-      trainType = 'local';
+      trainType = this.config.defaultTrainType || 'local';
     }
 
     // 安全策2: 通過駅が存在するのに trainType が local の場合（直通列車で発車駅が各停扱いだった場合等）

@@ -72,7 +72,7 @@ module.exports = {
   },
   // 種別マッピング（最長一致スキャン対応）
   trainTypeMap: {
-    '普通': 'local',
+    '普通': 'regular',
     '各駅停車': 'local',
     '快速': 'rapid',
     '通勤快速': 'commuter',
@@ -80,6 +80,7 @@ module.exports = {
     '中央特快': 'chuo_special_rapid',
     '青梅特快': 'ome_special_rapid',
     '通勤特快': 'commuter_special_rapid',
+    '通勤特別快速': 'commuter_special_rapid',
     '特急': 'limitedExp',
     '特急あずさ': 'limitedExp',
     '特急かいじ': 'limitedExp',
@@ -89,6 +90,8 @@ module.exports = {
   },
   // 車両編成
   defaultCars: 10,
+  // 全駅停車時に維持すべき種別（平日の中野〜高尾で各駅停車区間となる快速等を維持）
+  preserveAllStopsTypes: ['rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
   // 基準駅間秒数（通過駅補間用）
   baseSectionSeconds: {
     1: 120, // 東京 -> 神田

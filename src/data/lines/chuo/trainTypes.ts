@@ -13,6 +13,17 @@ export const CHUO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#475569',
     borderColor: '#64748b',
   },
+  // 普通（中央本線中距離列車）: 中央東線ブルー
+  regular: {
+    key: 'regular',
+    name: '普通',
+    nameEn: 'Local',
+    shortName: '普通',
+    color: '#0072bc',
+    textColor: '#ffffff',
+    bgColor: '#0072bc',
+    borderColor: '#38bdf8',
+  },
   // 快速: オレンジバーミリオン
   rapid: {
     key: 'rapid',

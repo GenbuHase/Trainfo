@@ -587,7 +587,8 @@ export const CHUO_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "commuter"
+      "commuter",
+      "regular"
     ],
     "platforms": {
       "inbound": "2・3番線",
@@ -624,7 +625,8 @@ export const CHUO_STATIONS: Station[] = [
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
-      "limitedExp"
+      "limitedExp",
+      "regular"
     ],
     "platforms": {
       "inbound": "3・4・5番線",
@@ -655,7 +657,8 @@ export const CHUO_STATIONS: Station[] = [
       "commuter",
       "special_rapid",
       "chuo_special_rapid",
-      "ome_special_rapid"
+      "ome_special_rapid",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -686,7 +689,8 @@ export const CHUO_STATIONS: Station[] = [
       "commuter",
       "special_rapid",
       "chuo_special_rapid",
-      "ome_special_rapid"
+      "ome_special_rapid",
+      "regular"
     ],
     "platforms": {
       "inbound": "3・4番線",
@@ -723,7 +727,8 @@ export const CHUO_STATIONS: Station[] = [
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
-      "limitedExp"
+      "limitedExp",
+      "regular"
     ],
     "platforms": {
       "inbound": "3・4番線",
@@ -755,7 +760,8 @@ export const CHUO_STATIONS: Station[] = [
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "commuter_special_rapid",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -790,7 +796,8 @@ export const CHUO_STATIONS: Station[] = [
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
-      "limitedExp"
+      "limitedExp",
+      "regular"
     ],
     "platforms": {
       "inbound": "2・3・4番線",
@@ -822,7 +829,8 @@ export const CHUO_STATIONS: Station[] = [
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "commuter_special_rapid",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -854,7 +862,8 @@ export const CHUO_STATIONS: Station[] = [
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "commuter_special_rapid",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -887,7 +896,8 @@ export const CHUO_STATIONS: Station[] = [
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
-      "limitedExp"
+      "limitedExp",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -919,7 +929,8 @@ export const CHUO_STATIONS: Station[] = [
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "commuter_special_rapid",
+      "regular"
     ],
     "platforms": {
       "inbound": "3番線",
@@ -951,7 +962,8 @@ export const CHUO_STATIONS: Station[] = [
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "commuter_special_rapid",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -983,7 +995,8 @@ export const CHUO_STATIONS: Station[] = [
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "commuter_special_rapid",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -1015,7 +1028,8 @@ export const CHUO_STATIONS: Station[] = [
       "special_rapid",
       "chuo_special_rapid",
       "ome_special_rapid",
-      "commuter_special_rapid"
+      "commuter_special_rapid",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -1050,7 +1064,8 @@ export const CHUO_STATIONS: Station[] = [
       "chuo_special_rapid",
       "ome_special_rapid",
       "commuter_special_rapid",
-      "limitedExp"
+      "limitedExp",
+      "regular"
     ],
     "platforms": {
       "inbound": "4・5番線",
@@ -1076,7 +1091,8 @@ export const CHUO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -1102,7 +1118,8 @@ export const CHUO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -1128,7 +1145,8 @@ export const CHUO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "regular"
     ],
     "platforms": {
       "inbound": "2・3番線",
@@ -1155,7 +1173,8 @@ export const CHUO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limitedExp",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -1182,7 +1201,8 @@ export const CHUO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limitedExp",
+      "regular"
     ],
     "platforms": {
       "inbound": "2・3番線",
@@ -1208,7 +1228,8 @@ export const CHUO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -1235,7 +1256,8 @@ export const CHUO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limitedExp",
+      "regular"
     ],
     "platforms": {
       "inbound": "2・3番線",
@@ -1261,7 +1283,8 @@ export const CHUO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "regular"
     ],
     "platforms": {
       "inbound": "2番線",
@@ -1288,7 +1311,8 @@ export const CHUO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limitedExp",
+      "regular"
     ],
     "platforms": {
       "inbound": "2・3番線",
@@ -1314,7 +1338,8 @@ export const CHUO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "local"
+      "local",
+      "regular"
     ],
     "platforms": {
       "inbound": "2・3番線",
@@ -1343,7 +1368,8 @@ export const CHUO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "limitedExp"
+      "limitedExp",
+      "regular"
     ],
     "platforms": {
       "inbound": "1・2・3番線",
