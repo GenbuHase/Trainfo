@@ -181,6 +181,9 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   const [tileType, setTileType] = useState<TileType>('standard');
   const [showLayerMenu, setShowLayerMenu] = useState(false);
 
+  // CARTO APIキー（設定されている場合はCARTO Dark Matter、未設定時はOSMにCSSダークフィルターを適用）
+  const cartoApiKey = (import.meta.env.VITE_CARTO_API_KEY as string | undefined)?.trim();
+
   // 地図タイルのURLマッピング
   const tileUrls = useMemo<Record<TileType, { url: string; attribution: string }>>(() => ({
     standard: {
@@ -192,10 +195,14 @@ export const TrainMap: React.FC<TrainMapProps> = ({
       attribution: 'Tiles &copy; Esri',
     },
     dark: {
-      url: 'https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png',
-      attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+      url: cartoApiKey
+        ? `https://{s}.basemaps.cartocdn.com/rastertiles/dark_all/{z}/{x}/{y}.png?key=${cartoApiKey}`
+        : 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      attribution: cartoApiKey
+        ? '&copy; OpenStreetMap contributors &copy; CARTO'
+        : '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     },
-  }), []);
+  }), [cartoApiKey]);
 
   // 地図の初期化
   useEffect(() => {
@@ -282,7 +289,14 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   // タイル切り替え
   useEffect(() => {
     if (!mapRef.current || !tileLayerRef.current) return;
-    tileLayerRef.current.setUrl(tileUrls[tileType].url);
+    const currentTile = tileUrls[tileType];
+    tileLayerRef.current.setUrl(currentTile.url);
+
+    if (mapRef.current.attributionControl) {
+      const control = mapRef.current.attributionControl;
+      Object.values(tileUrls).forEach((t) => control.removeAttribution(t.attribution));
+      control.addAttribution(currentTile.attribution);
+    }
   }, [tileType, tileUrls]);
 
   // 路線別ポリラインの動的描画
@@ -649,7 +663,12 @@ export const TrainMap: React.FC<TrainMapProps> = ({
 
   return (
     <div className="relative w-full h-full">
-      <div ref={mapContainerRef} className="w-full h-full z-0" />
+      <div
+        ref={mapContainerRef}
+        data-tile-type={tileType}
+        data-has-carto-key={Boolean(cartoApiKey).toString()}
+        className="w-full h-full z-0"
+      />
 
       {/* 現在地エラー通知トースト */}
       {locationErrorMessage && (

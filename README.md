@@ -228,6 +228,9 @@ npm run dev
 ```
 ブラウザで `http://localhost:5173/` を開くとアプリケーションが起動します。
 
+> [!NOTE]
+> **ダークマップについて**: デフォルトではAPIキー不要なOSMダークモードが自動適用されます。CARTO公式のDark Matterタイルを利用したい場合は、`.env` 等で `VITE_CARTO_API_KEY=your_key` を設定してください（[CARTO Basemaps](https://carto.com/basemaps/apikey/) で無料取得可能）。
+
 ### 4. ダイヤ・時刻表データの再取得・ビルド（任意）
 ```bash
 # 例: 中央線・中央本線のダイヤをYahoo!から再生成
