@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState, useMemo, useCallback } from 'react';
 import L from 'leaflet';
+import './smoothWheelZoom';
 import type { Station, ActiveTrain, Direction, LineId } from '../../types';
 import { getStations, STATION_MAP } from '../../data/stations';
 import { formatTrainNumber } from '../../data/timetableData';
@@ -223,6 +224,11 @@ export const TrainMap: React.FC<TrainMapProps> = ({
 
     const map = L.map(mapContainerRef.current, {
       zoomControl: false,
+      scrollWheelZoom: false, // 標準のステップ式スクロールを無効化
+      smoothWheelZoom: true,  // 慣性付き滑らかスクロールズームを有効化
+      smoothSensitivity: 2,   // スムースズームの感度
+      zoomSnap: 0,            // スナップを無効化し完全無段階にする
+      zoomDelta: 0.5,        // ボタン押下時の拡大・縮小刻み幅
     });
 
     map.fitBounds(initialBounds, { padding: [40, 40] });
