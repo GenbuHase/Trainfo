@@ -87,6 +87,12 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#0067b8',
     numColor: '#004d8a',
   },
+  // 東京臨海高速鉄道りんかい線
+  R: {
+    borderColor: '#00418e',
+    prefixColor: '#00418e',
+    numColor: '#00418e',
+  },
 };
 
 const DEFAULT_BADGE_COLOR: StationBadgeColor = {
