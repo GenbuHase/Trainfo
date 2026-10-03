@@ -1,13 +1,14 @@
 // Trainfo 共通型定義ファイル
 
-export type LineId = 'tojo' | 'saikyo' | 'kawagoe' | 'rinkai' | 'musashino' | 'tsukuba_express' | 'chuo' | 'chuo_main' | 'shinonoi' | 'oito_east' | 'oito_west' | (string & {});
+export type LineId = 'tojo' | 'saikyo' | 'kawagoe' | 'rinkai' | 'musashino' | 'tsukuba_express' | 'chuo' | 'chuo_main' | 'shinonoi' | 'oito_east' | 'oito_west' | 'yurakucho' | 'fukutoshin' | (string & {});
 
-// 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋汎用）
+// 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋東京メトロ＋汎用）
 export type TrainTypeKey =
   | 'local'                   // 普通 / 各駅停車
   | 'regular'                 // 普通（むさしの号・しもうさ号等）
   | 'semiExp'                 // 準急
   | 'express'                 // 急行
+  | 'commuter_exp'            // 通勤急行（副都心線等）
   | 'rapid'                   // 快速（埼京線、つくばエクスプレス、中央線等）
   | 'commuter'                // 通勤快速（埼京線、中央線等）
   | 'semi_rapid'              // 区間快速（つくばエクスプレス等）
