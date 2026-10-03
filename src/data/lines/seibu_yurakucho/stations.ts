@@ -23,7 +23,6 @@ export const SEIBU_YURAKUCHO_STATIONS: Station[] = [
       "ticketOffice": true
     },
     "stoppingTypes": [
-      "strain",
       "rapidExp",
       "express",
       "rapid",

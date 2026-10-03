@@ -71,7 +71,7 @@ function findPathBFS(adj, startNodeId, endNodeId) {
 // 1. 西武池袋線（池袋 〜 西武秩父 全36駅）
 // ============================================================
 const IKEBUKURO_STATION_DEFS = [
-  { id: 'SI-01', number: 1, name: '池袋', nameKana: 'いけぶくろ', nameEn: 'Ikebukuro', nodeId: 7966718589, isMajor: true, transfers: ['JR山手線', 'JR埼京線', 'JR湘南新宿ライン', '東武東上線', '東京メトロ丸ノ内線', '東京メトロ有楽町線', '東京メトロ副都心線'], address: '東京都豊島区南池袋一丁目28-1', platforms: { inbound: '1-7番線', outbound: '1-7番線' }, stoppingTypes: ['limitedExp', 'strain', 'rapidExp', 'express', 'commuter_exp', 'rapid', 'commuter_semi', 'semiExp', 'local'] },
+  { id: 'SI-01', number: 1, name: '池袋', nameKana: 'いけぶくろ', nameEn: 'Ikebukuro', nodeId: 7966718589, isMajor: true, transfers: ['JR山手線', 'JR埼京線', 'JR湘南新宿ライン', '東武東上線', '東京メトロ丸ノ内線', '東京メトロ有楽町線', '東京メトロ副都心線'], address: '東京都豊島区南池袋一丁目28-1', platforms: { inbound: '1-7番線', outbound: '1-7番線' }, stoppingTypes: ['limitedExp', 'rapidExp', 'express', 'commuter_exp', 'rapid', 'commuter_semi', 'semiExp', 'local'] },
   { id: 'SI-02', number: 2, name: '椎名町', nameKana: 'しいなまち', nameEn: 'Shiinamachi', nodeId: 7966720144, isMajor: false, transfers: [], address: '東京都豊島区長崎一丁目1-22', platforms: { inbound: '1番線', outbound: '2番線' }, stoppingTypes: ['local'] },
   { id: 'SI-03', number: 3, name: '東長崎', nameKana: 'ひがシナがさき', nameEn: 'Higashi-Nagasaki', nodeId: 7430316091, isMajor: false, transfers: [], address: '東京都豊島区南長崎五丁目33-8', platforms: { inbound: '1・2番線', outbound: '3・4番線' }, stoppingTypes: ['local'] },
   { id: 'SI-04', number: 4, name: '江古田', nameKana: 'えこだ', nameEn: 'Ekoda', nodeId: 2024916367, isMajor: false, transfers: [], address: '東京都練馬区旭丘一丁目78-7', platforms: { inbound: '1番線', outbound: '2番線' }, stoppingTypes: ['local'] },
@@ -113,7 +113,7 @@ const IKEBUKURO_STATION_DEFS = [
 // 2. 西武有楽町線（小竹向原 〜 練馬 全3駅）
 // ============================================================
 const YURAKUCHO_STATION_DEFS = [
-  { id: 'SI-37', number: 1, name: '小竹向原', nameKana: 'こたけむかいはら', nameEn: 'Kotake-mukaihara', nodeId: 7775797964, isMajor: true, transfers: ['東京メトロ有楽町線', '東京メトロ副都心線'], address: '東京都練馬区小竹町二丁目16-1', platforms: { inbound: '1・2番線', outbound: '3・4番線' }, stoppingTypes: ['strain', 'rapidExp', 'express', 'rapid', 'semiExp', 'local'] },
+  { id: 'SI-37', number: 1, name: '小竹向原', nameKana: 'こたけむかいはら', nameEn: 'Kotake-mukaihara', nodeId: 7775797964, isMajor: true, transfers: ['東京メトロ有楽町線', '東京メトロ副都心線'], address: '東京都練馬区小竹町二丁目16-1', platforms: { inbound: '1・2番線', outbound: '3・4番線' }, stoppingTypes: ['rapidExp', 'express', 'rapid', 'semiExp', 'local'] },
   { id: 'SI-38', number: 2, name: '新桜台', nameKana: 'しんさくらだい', nameEn: 'Shin-Sakuradai', nodeId: 412760458, isMajor: false, transfers: [], address: '東京都練馬区桜台二丁目28-11', platforms: { inbound: '1番線', outbound: '2番線' }, stoppingTypes: ['local'] },
   { id: 'SI-06', number: 3, name: '練馬', nameKana: 'ねりま', nameEn: 'Nerima', nodeId: 3730686207, isMajor: true, transfers: ['西武池袋線', '西武豊島線', '都営大江戸線'], address: '東京都練馬区練馬一丁目3-5', platforms: { inbound: '1・2番線', outbound: '3・4番線' }, stoppingTypes: ['strain', 'rapidExp', 'express', 'rapid', 'semiExp', 'local'] },
 ];

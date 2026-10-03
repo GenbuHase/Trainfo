@@ -29,7 +29,6 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "limitedExp",
-      "strain",
       "rapidExp",
       "express",
       "commuter_exp",

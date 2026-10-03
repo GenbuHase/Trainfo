@@ -458,13 +458,92 @@ function main() {
     console.log(`  Added 土休日上り S-TRAIN ${s.name} (${s.num}): SI -> SY -> F`);
   }
 
-  // 保存
+  // globalTimetable.json の保存
   fs.writeFileSync(yPath, JSON.stringify(yTrips, null, 2), 'utf8');
   fs.writeFileSync(fPath, JSON.stringify(fTrips, null, 2), 'utf8');
   fs.writeFileSync(syPath, JSON.stringify(syTrips, null, 2), 'utf8');
   fs.writeFileSync(siPath, JSON.stringify(siTrips, null, 2), 'utf8');
-
   console.log('\n✨ 全4路線の globalTimetable.json に S-TRAIN 12便を完全注入・相互リンクしました！');
+
+  // ============================================================
+  // 5. 各駅時刻表（stationTimetables.json）への発車便同期 & クリーンアップ
+  // ============================================================
+  const ySTPath = path.resolve(__dirname, '../src/data/lines/yurakucho/stationTimetables.json');
+  const fSTPath = path.resolve(__dirname, '../src/data/lines/fukutoshin/stationTimetables.json');
+  const sySTPath = path.resolve(__dirname, '../src/data/lines/seibu_yurakucho/stationTimetables.json');
+  const siSTPath = path.resolve(__dirname, '../src/data/lines/seibu_ikebukuro/stationTimetables.json');
+
+  const yST = JSON.parse(fs.readFileSync(ySTPath, 'utf8'));
+  const fST = JSON.parse(fs.readFileSync(fSTPath, 'utf8'));
+  const syST = JSON.parse(fs.readFileSync(sySTPath, 'utf8'));
+  const siST = JSON.parse(fs.readFileSync(siSTPath, 'utf8'));
+
+  // 全駅の既存 strain エントリ（および strain 列車番号の誤種別エントリ）を完全消去（西武池袋 SI-01 などの誤登録を含む）
+  const isStrainEntry = e => e.t === 'strain' || (e.no && strainNums.has(e.no));
+  for (const stStore of [yST, fST, syST, siST]) {
+    for (const day of ['weekday', 'holiday']) {
+      for (const stId of Object.keys(stStore[day] || {})) {
+        stStore[day][stId].inbound = (stStore[day][stId].inbound || []).filter(e => !isStrainEntry(e));
+        stStore[day][stId].outbound = (stStore[day][stId].outbound || []).filter(e => !isStrainEntry(e));
+      }
+    }
+  }
+
+  // globalTimetable の全 strain トリップから、実際の停車駅（isPassing !== true かつ 非終着駅）の発車便を注入
+  function injectStrainDepartures(trips, stStore) {
+    const strainTrips = trips.filter(t => t.trainType === 'strain');
+    for (const trip of strainTrips) {
+      const day = trip.isHoliday ? 'holiday' : 'weekday';
+      const dir = trip.direction;
+
+      for (let i = 0; i < trip.stops.length - 1; i++) {
+        const stop = trip.stops[i];
+        if (stop.isPassing) continue; // 通過駅・運転停車駅（乗降不可）は駅時刻表に載せない
+
+        const [h, m, s = 0] = stop.departureTime.split(':').map(Number);
+        const sec = h * 3600 + m * 60 + s;
+        const destName = trip.customDestination || '';
+
+        const entry = {
+          h,
+          m,
+          time: String(m).padStart(2, '0'),
+          t: 'strain',
+          d: destName,
+          no: trip.trainNumber,
+          sec,
+        };
+
+        if (!stStore[day][stop.stationId]) {
+          stStore[day][stop.stationId] = { inbound: [], outbound: [] };
+        }
+        const list = stStore[day][stop.stationId][dir];
+        if (!list.some(e => e.no === entry.no && e.sec === entry.sec)) {
+          list.push(entry);
+        }
+      }
+    }
+
+    // 時刻順ソート
+    for (const day of ['weekday', 'holiday']) {
+      for (const stId of Object.keys(stStore[day])) {
+        stStore[day][stId].inbound.sort((a, b) => a.sec - b.sec);
+        stStore[day][stId].outbound.sort((a, b) => a.sec - b.sec);
+      }
+    }
+  }
+
+  injectStrainDepartures(yTrips, yST);
+  injectStrainDepartures(fTrips, fST);
+  injectStrainDepartures(syTrips, syST);
+  injectStrainDepartures(siTrips, siST);
+
+  fs.writeFileSync(ySTPath, JSON.stringify(yST, null, 2), 'utf8');
+  fs.writeFileSync(fSTPath, JSON.stringify(fST, null, 2), 'utf8');
+  fs.writeFileSync(sySTPath, JSON.stringify(syST, null, 2), 'utf8');
+  fs.writeFileSync(siSTPath, JSON.stringify(siST, null, 2), 'utf8');
+
+  console.log('✅ 各駅時刻表（stationTimetables.json）への S-TRAIN 同期・クリーンアップ完了！');
 }
 
 main();
