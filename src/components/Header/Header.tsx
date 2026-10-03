@@ -171,22 +171,6 @@ export const Header: React.FC<HeaderProps> = ({
   // ステータスカプセル群（ダイヤ種別、走行列車数）の共通JSX
   const statusCapsulesJsx = (
     <>
-      {/* アプリインストールボタン (ブラウザ起動時のみ) */}
-      {!isStandalone && onOpenInstall && (
-        <button
-          type="button"
-          onClick={onOpenInstall}
-          className="pointer-events-auto shrink-0 flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg bg-white/95 backdrop-blur-md text-xs font-semibold text-sky-700 shadow-md border border-sky-200 hover:bg-sky-50 hover:border-sky-300 transition-all group"
-          title="ホーム画面またはPCにアプリとしてインストール"
-        >
-          <Download className="w-3.5 h-3.5 text-sky-600 group-hover:scale-110 transition-transform shrink-0" />
-          <span className="whitespace-nowrap">アプリをインストール</span>
-          {canInstall && (
-            <span className="w-1.5 h-1.5 rounded-full bg-sky-500 animate-pulse shrink-0" />
-          )}
-        </button>
-      )}
-
       {/* ダイヤ種別トグル (平日 / 土休日) */}
       <button
         type="button"
@@ -203,6 +187,22 @@ export const Header: React.FC<HeaderProps> = ({
         <Train className="w-3.5 h-3.5 text-sky-600 shrink-0" />
         <span className="whitespace-nowrap">走行中 <strong className="text-sky-700 font-bold">{activeTrains.length}</strong> 列車</span>
       </div>
+
+      {/* アプリインストールボタン (ブラウザ起動時のみ) */}
+      {!isStandalone && onOpenInstall && (
+        <button
+          type="button"
+          onClick={onOpenInstall}
+          className="pointer-events-auto shrink-0 flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg bg-white/95 backdrop-blur-md text-xs font-semibold text-sky-700 shadow-md border border-sky-200 hover:bg-sky-50 hover:border-sky-300 transition-all group"
+          title="ホーム画面またはPCにアプリとしてインストール"
+        >
+          <Download className="w-3.5 h-3.5 text-sky-600 group-hover:scale-110 transition-transform shrink-0" />
+          <span className="whitespace-nowrap">アプリをインストール</span>
+          {canInstall && (
+            <span className="w-1.5 h-1.5 rounded-full bg-sky-500 animate-pulse shrink-0" />
+          )}
+        </button>
+      )}
     </>
   );
 
