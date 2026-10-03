@@ -1,6 +1,7 @@
 import type { LineDefinition, LineId, Station, TrackSegment, TrainTypeConfig, TimetableTrip, StationTimetableStore } from '../types';
 import { tojoLine } from './lines/tojo';
 import { saikyoLine } from './lines/saikyo';
+import { kawagoeLine } from './lines/kawagoe';
 import { musashinoLine } from './lines/musashino';
 import { tsukubaExpressLine } from './lines/tsukuba_express';
 import { chuoLine } from './lines/chuo';
@@ -13,6 +14,7 @@ import { oitoWestLine } from './lines/oito_west';
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tojo: tojoLine,
   saikyo: saikyoLine,
+  kawagoe: kawagoeLine,
   musashino: musashinoLine,
   tsukuba_express: tsukubaExpressLine,
   chuo: chuoLine,

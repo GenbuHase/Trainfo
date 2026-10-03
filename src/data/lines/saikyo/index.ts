@@ -7,22 +7,22 @@ import rawGlobalTimetable from './globalTimetable.json';
 
 export const saikyoLine: LineDefinition = {
   id: 'saikyo',
-  name: 'JR埼京線・川越線',
+  name: 'JR埼京線',
   shortName: '埼京線',
   operator: 'JR東日本',
   lineColor: '#00ac9a', // 埼京線エメラルドグリーン
   accentColor: '#007ac1', // 快速ブルー
   defaultBounds: [
-    [35.600, 139.460],
-    [35.940, 139.740],
+    [35.610, 139.600], // 大崎周辺
+    [35.910, 139.740], // 大宮周辺
   ],
   directionNames: {
     inbound: '新宿・大崎方面',
-    outbound: '大宮・川越方面',
+    outbound: '赤羽・大宮方面',
     inboundFull: '上り 新宿・大崎・新木場方面',
-    outboundFull: '下り 大宮・川越方面',
-    inboundShort: '上り (大崎方面)',
-    outboundShort: '下り (川越方面)',
+    outboundFull: '下り 赤羽・大宮方面',
+    inboundShort: '大崎方面',
+    outboundShort: '大宮方面',
   },
   stations: SAIKYO_STATIONS,
   trackSegments: SAIKYO_TRACK_SEGMENTS,
