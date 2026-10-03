@@ -5,6 +5,7 @@ import { musashinoLine } from './lines/musashino';
 import { tsukubaExpressLine } from './lines/tsukuba_express';
 import { chuoLine } from './lines/chuo';
 import { chuoMainLine } from './lines/chuo_main';
+import { shinonoiLine } from './lines/shinonoi';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -14,6 +15,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tsukuba_express: tsukubaExpressLine,
   chuo: chuoLine,
   chuo_main: chuoMainLine,
+  shinonoi: shinonoiLine,
 };
 
 // 登録されている全路線の配列を取得

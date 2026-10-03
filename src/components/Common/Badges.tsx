@@ -69,6 +69,12 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#df0011',
     numColor: '#003893',
   },
+  // JR篠ノ井線
+  SN: {
+    borderColor: '#d56a29',
+    prefixColor: '#d56a29',
+    numColor: '#a84e15',
+  },
 };
 
 const DEFAULT_BADGE_COLOR: StationBadgeColor = {
