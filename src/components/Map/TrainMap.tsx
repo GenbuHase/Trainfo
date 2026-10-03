@@ -387,10 +387,12 @@ export const TrainMap: React.FC<TrainMapProps> = ({
     // フィルタリング（進行方向・種別）
     const filteredTrains = activeTrains.filter((train) => {
       if (filterDirection !== 'all' && train.direction !== filterDirection) return false;
-      if (filterType === 'rapid' && (train.trainType === 'local' || train.trainType === 'semiExp')) {
+      const isLocalOrRegular =
+        train.trainType === 'local' || train.trainType === 'regular' || train.trainType === 'semiExp';
+      if (filterType === 'rapid' && isLocalOrRegular) {
         return false;
       }
-      if (filterType === 'local' && train.trainType !== 'local' && train.trainType !== 'semiExp') {
+      if (filterType === 'local' && !isLocalOrRegular) {
         return false;
       }
       return true;
