@@ -40,6 +40,7 @@ export const CHUO_STATIONS: Station[] = [
       "commuter_special_rapid",
       "limitedExp"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "1・2番線"
@@ -109,6 +110,7 @@ export const CHUO_STATIONS: Station[] = [
       "chuo_special_rapid",
       "ome_special_rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "2番線",
       "outbound": "1番線"
@@ -190,6 +192,7 @@ export const CHUO_STATIONS: Station[] = [
       "commuter_special_rapid",
       "limitedExp"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "7・8番線",
       "outbound": "9・10・11・12番線"
@@ -224,6 +227,7 @@ export const CHUO_STATIONS: Station[] = [
       "chuo_special_rapid",
       "ome_special_rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "7・8番線",
       "outbound": "6番線"
@@ -374,6 +378,7 @@ export const CHUO_STATIONS: Station[] = [
       "commuter",
       "commuter_special_rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "4番線",
       "outbound": "3番線"
@@ -408,6 +413,7 @@ export const CHUO_STATIONS: Station[] = [
       "ome_special_rapid",
       "limitedExp"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "5・6番線",
       "outbound": "3・4番線"
@@ -529,6 +535,7 @@ export const CHUO_STATIONS: Station[] = [
       "ome_special_rapid",
       "commuter_special_rapid"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "4番線",
       "outbound": "2番線"
@@ -559,6 +566,7 @@ export const CHUO_STATIONS: Station[] = [
       "rapid",
       "commuter"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "2番線",
       "outbound": "1番線"
@@ -628,6 +636,7 @@ export const CHUO_STATIONS: Station[] = [
       "limitedExp",
       "regular"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "3・4・5番線",
       "outbound": "5・6番線"
@@ -730,6 +739,7 @@ export const CHUO_STATIONS: Station[] = [
       "limitedExp",
       "regular"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "3・4番線",
       "outbound": "2番線"
@@ -800,6 +810,7 @@ export const CHUO_STATIONS: Station[] = [
       "limitedExp",
       "regular"
     ],
+    "isMajor": true,
     "platforms": {
       "inbound": "2・3・4番線",
       "outbound": "1・2番線"

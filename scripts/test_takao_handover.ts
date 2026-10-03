@@ -17,8 +17,11 @@ function resolveSelectedTrain(
     const prevNo = formatTrainNumber(prev.trainNumber, prev.tripId);
     const successor = activeTrains.find((t) => {
       if (t.tripId === prev.tripId) return false;
-      // 1. 直通ペアID判定（中央線 <-> 中央本線の cm_ 相互変換）
-      if (t.tripId === `cm_${prev.tripId}` || prev.tripId === `cm_${t.tripId}`) {
+      // 1. 直通先トリップID照合（路線に依存しない共通メタデータ）
+      if (
+        (prev.throughTripId && t.tripId === prev.throughTripId) ||
+        (t.throughTripId && t.throughTripId === prev.tripId)
+      ) {
         return true;
       }
       // 2. 同一列車番号かつ同一方向判定
@@ -206,6 +209,31 @@ if (trackedId === chuoInbId) {
   console.log('✅ テスト4 成功: 上り特快も中央本線から中央線へ正常ハンドオーバー！\n');
 } else {
   console.error(`❌ テスト4 失敗: 期待値 ${chuoInbId} ですが ${trackedId} になりました\n`);
+  process.exit(1);
+}
+
+// テスト5: throughLineId による直通先路線の自動追加判定テスト
+console.log('--- テスト5: throughLineId による直通先路線の自動追加判定 ---');
+let lineSelection = ['chuo'];
+const trainAtTakao = calculateActiveTrains({
+  currentSec: timeStringToSeconds('05:14:00'),
+  isHoliday: false,
+  globalDelayMinutes: 0,
+  randomDelays: {},
+  isPlaying: true,
+  speedMultiplier: 1,
+  selectedLineIds: lineSelection,
+}).find((t) => t.tripId === chuoTkId);
+
+if (trainAtTakao && trainAtTakao.throughLineId && !lineSelection.includes(trainAtTakao.throughLineId)) {
+  lineSelection = [...lineSelection, trainAtTakao.throughLineId];
+  console.log(`[自動追加] 追尾中列車の throughLineId: '${trainAtTakao.throughLineId}' を検知し路線追加 -> selectedLineIds:`, lineSelection);
+}
+
+if (lineSelection.includes('chuo_main')) {
+  console.log('✅ テスト5 成功: throughLineId により chuo_main が汎用ロジックで自動追加されました！\n');
+} else {
+  console.error('❌ テスト5 失敗: 直通先路線が自動追加されませんでした\n');
   process.exit(1);
 }
 

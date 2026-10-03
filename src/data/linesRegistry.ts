@@ -73,19 +73,15 @@ export function getCombinedTrainTypes(selectedLineIds?: LineId[]): Record<string
   return combined;
 }
 
-// 路線と種別キーから種別設定を取得（路線固有の設定を優先）
+// 路線と種別キーから種別設定を取得（路線固有の設定を優先、未指定時は全登録路線から検索）
 export function getTrainTypeConfig(type: string, lineId?: LineId): TrainTypeConfig {
   if (lineId && LINES_REGISTRY[lineId]) {
     const config = LINES_REGISTRY[lineId].trainTypes[type];
     if (config) return config;
   }
-  // lineIdが未指定の場合: 東上線設定を優先、なければ埼京線、武蔵野線、つくばエクスプレス設定
-  if (tojoLine.trainTypes[type]) return tojoLine.trainTypes[type];
-  if (saikyoLine.trainTypes[type]) return saikyoLine.trainTypes[type];
-  if (musashinoLine.trainTypes[type]) return musashinoLine.trainTypes[type];
-  if (tsukubaExpressLine.trainTypes[type]) return tsukubaExpressLine.trainTypes[type];
-  if (chuoLine.trainTypes[type]) return chuoLine.trainTypes[type];
-  if (chuoMainLine.trainTypes[type]) return chuoMainLine.trainTypes[type];
+  for (const line of getAllLines()) {
+    if (line.trainTypes[type]) return line.trainTypes[type];
+  }
   return {
     key: type,
     name: type,

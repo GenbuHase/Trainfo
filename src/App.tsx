@@ -78,14 +78,17 @@ export function App() {
     const found = activeTrains.find((t) => t.tripId === selectedTrainId);
     if (found) return found;
 
-    // 直前の列車から直通ペア（cm_ 接頭辞の相互変換）または同一列車番号・同一方向の後続トリップを引き継ぐ
+    // 直前の列車から直通先トリップ（throughTripId 照合）または同一列車番号・同一方向の後続トリップを引き継ぐ
     const prev = lastSelectedTrainRef.current;
     if (prev) {
       const prevNo = formatTrainNumber(prev.trainNumber, prev.tripId);
       const successor = activeTrains.find((t) => {
         if (t.tripId === prev.tripId) return false;
-        // 1. 直通ペアID判定（中央線 <-> 中央本線の cm_ 相互変換）
-        if (t.tripId === `cm_${prev.tripId}` || prev.tripId === `cm_${t.tripId}`) {
+        // 1. 直通先トリップID照合（路線に依存しない共通メタデータ）
+        if (
+          (prev.throughTripId && t.tripId === prev.throughTripId) ||
+          (t.throughTripId && t.throughTripId === prev.tripId)
+        ) {
           return true;
         }
         // 2. 同一列車番号かつ同一方向判定
@@ -110,43 +113,18 @@ export function App() {
     }
   }, [selectedTrain, selectedTrainId]);
 
-  // 直通列車を追尾中、直通先路線が未選択なら自動的に追加して追尾を継続
+  // 直通列車を追尾中、直通先路線が未選択なら自動的に追加して追尾を継続（全路線共通）
   useEffect(() => {
     if (!isTrackingTrain || !selectedTrain) return;
 
-    // 中央線 -> 中央本線（高尾駅以西へ直通する列車で、中央本線が未選択の場合）
-    if (selectedTrain.lineId === 'chuo') {
-      const isThroughToChuoMain =
-        Boolean(selectedTrain.customDestination) ||
-        (selectedTrain.destinationStationId === 'JC-24' &&
-          ['大月', '甲府', '松本', '塩尻', '小淵沢', '河口湖'].some((dest) =>
-            selectedTrain.customDestination?.includes(dest)
-          ));
-      if (isThroughToChuoMain && !selectedLineIds.includes('chuo_main')) {
-        setSelectedLineIds((prev) => [...prev, 'chuo_main']);
-        setSimState((prev) => ({
-          ...prev,
-          selectedLineIds: prev.selectedLineIds ? [...prev.selectedLineIds, 'chuo_main'] : ['chuo_main'],
-        }));
-      }
-    }
-
-    // 中央本線 -> 中央線（高尾駅以東へ直通する列車で、中央線が未選択の場合）
-    if (selectedTrain.lineId === 'chuo_main') {
-      const isThroughToChuo =
-        selectedTrain.tripId.startsWith('cm_') ||
-        Boolean(selectedTrain.customDestination) ||
-        (selectedTrain.destinationStationId === 'JC-24' &&
-          ['東京', '新宿', '立川', '八王子'].some((dest) =>
-            selectedTrain.customDestination?.includes(dest)
-          ));
-      if (isThroughToChuo && !selectedLineIds.includes('chuo')) {
-        setSelectedLineIds((prev) => [...prev, 'chuo']);
-        setSimState((prev) => ({
-          ...prev,
-          selectedLineIds: prev.selectedLineIds ? [...prev.selectedLineIds, 'chuo'] : ['chuo'],
-        }));
-      }
+    if (selectedTrain.throughLineId && !selectedLineIds.includes(selectedTrain.throughLineId)) {
+      setSelectedLineIds((prev) => [...prev, selectedTrain.throughLineId!]);
+      setSimState((prev) => ({
+        ...prev,
+        selectedLineIds: prev.selectedLineIds
+          ? [...prev.selectedLineIds, selectedTrain.throughLineId!]
+          : [selectedTrain.throughLineId!],
+      }));
     }
   }, [isTrackingTrain, selectedTrain, selectedLineIds]);
 

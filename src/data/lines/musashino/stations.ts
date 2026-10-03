@@ -11,6 +11,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "JR南武線"
     ],
     "address": "東京都府中市本町一丁目",
+    "isMajor": true,
     "platforms": {
       "inbound": "2・3番線",
       "outbound": "2・3番線"
@@ -65,6 +66,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "JR中央線"
     ],
     "address": "東京都国分寺市西恋ヶ窪二丁目",
+    "isMajor": true,
     "platforms": {
       "inbound": "3番線",
       "outbound": "4番線"
@@ -205,6 +207,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "東武東上線（朝霞台駅）"
     ],
     "address": "埼玉県朝霞市浜崎一丁目",
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -260,6 +263,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "JR埼京線"
     ],
     "address": "埼玉県さいたま市南区別所七丁目",
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -289,6 +293,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "JR京浜東北線"
     ],
     "address": "埼玉県さいたま市南区南浦和二丁目",
+    "isMajor": true,
     "platforms": {
       "inbound": "5番線",
       "outbound": "6番線"
@@ -375,6 +380,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "東武スカイツリーライン（新越谷駅）"
     ],
     "address": "埼玉県越谷市南越谷一丁目",
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -571,6 +577,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "流鉄流山線（幸谷駅）"
     ],
     "address": "千葉県松戸市幸谷",
+    "isMajor": true,
     "platforms": {
       "inbound": "3番線",
       "outbound": "4番線"
@@ -716,6 +723,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "東葉高速鉄道線"
     ],
     "address": "千葉県船橋市西船四丁目",
+    "isMajor": true,
     "platforms": {
       "inbound": "9・10番線",
       "outbound": "11・12番線"
@@ -854,6 +862,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "東京メトロ有楽町線"
     ],
     "address": "東京都江東区新木場一丁目",
+    "isMajor": true,
     "platforms": {
       "inbound": "1番線",
       "outbound": "2番線"
@@ -965,6 +974,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "東京メトロ丸ノ内線"
     ],
     "address": "東京都千代田区丸の内一丁目",
+    "isMajor": true,
     "platforms": {
       "inbound": "京葉1・2番線",
       "outbound": "京葉3・4番線"
@@ -993,6 +1003,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "JR京葉線（東京方面）"
     ],
     "address": "千葉県船橋市若松二丁目",
+    "isMajor": true,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "3・4番線"
@@ -1076,6 +1087,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "JR京葉線（蘇我方面）"
     ],
     "address": "千葉県千葉市美浜区ひび野二丁目",
+    "isMajor": true,
     "platforms": {
       "inbound": "1・2番線",
       "outbound": "3・4番線"
@@ -1108,6 +1120,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "埼玉新都市交通ニューシャトル"
     ],
     "address": "埼玉県さいたま市大宮区錦町",
+    "isMajor": true,
     "platforms": {
       "inbound": "3・4・6・7番線",
       "outbound": "3・4・6・7番線"
@@ -1167,6 +1180,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "多摩都市モノレール"
     ],
     "address": "東京都立川市曙町二丁目",
+    "isMajor": true,
     "platforms": {
       "inbound": "3・4番線",
       "outbound": "5・6番線"
@@ -1249,6 +1263,7 @@ export const MUSASHINO_STATIONS: Station[] = [
       "京王線（京王八王子駅）"
     ],
     "address": "東京都八王子市旭町",
+    "isMajor": true,
     "platforms": {
       "inbound": "2番線",
       "outbound": "2番線"
