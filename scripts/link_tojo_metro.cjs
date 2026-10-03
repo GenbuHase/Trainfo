@@ -38,28 +38,13 @@ function linkTojoAndMetro() {
   const fOutFromWakoshi = fukutoshinTrips.filter(t => t.direction === 'outbound' && t.originStationId === 'F-01');
 
   for (const tj of tojoInbToWakoshi) {
-    const tjLastStop = tj.stops[tj.stops.length - 1];
-    const tjArrTime = tjLastStop?.arrivalTime || tjLastStop?.departureTime;
+    // 列車番号と運行日（weekday/holiday）による完全一致
+    let matchedMetro = yOutFromWakoshi.find(m => m.trainNumber === tj.trainNumber && m.isHoliday === tj.isHoliday);
+    let targetLineId = 'yurakucho';
 
-    const isYurakucho = tj.customDestination?.includes('新木場') || tj.customDestination?.includes('豊洲');
-    const targetLineId = isYurakucho ? 'yurakucho' : 'fukutoshin';
-    const metroCandidates = isYurakucho ? yOutFromWakoshi : fOutFromWakoshi;
-
-    // A. 列車番号完全一致
-    let matchedMetro = metroCandidates.find(m => m.trainNumber === tj.trainNumber && m.isHoliday === tj.isHoliday);
-
-    // B. 時刻照合 (±180秒以内)
-    if (!matchedMetro && tjArrTime) {
-      const [tjH, tjM] = tjArrTime.split(':').map(Number);
-      const tjSec = tjH * 3600 + tjM * 60;
-      matchedMetro = metroCandidates.find(m => {
-        if (m.isHoliday !== tj.isHoliday) return false;
-        const mFirst = m.stops[0];
-        if (!mFirst) return false;
-        const [mH, mM] = mFirst.departureTime.split(':').map(Number);
-        const mSec = mH * 3600 + mM * 60;
-        return Math.abs(mSec - tjSec) <= 180;
-      });
+    if (!matchedMetro) {
+      matchedMetro = fOutFromWakoshi.find(m => m.trainNumber === tj.trainNumber && m.isHoliday === tj.isHoliday);
+      targetLineId = 'fukutoshin';
     }
 
     if (matchedMetro) {
@@ -76,7 +61,7 @@ function linkTojoAndMetro() {
       if (targetLineId === 'yurakucho') inbToY++;
       else inbToF++;
     } else {
-      console.warn(`[TJ->Metro] No match for Tojo trip ${tj.tripId} (dest: ${tj.customDestination}, arr: ${tjArrTime})`);
+      console.warn(`[TJ->Metro] No match for Tojo trip ${tj.tripId} (trainNo: ${tj.trainNumber})`);
     }
   }
 
@@ -86,43 +71,10 @@ function linkTojoAndMetro() {
   // 東上線下りの和光市始発列車 (全178本)
   const tojoOutFromWakoshi = tojoTrips.filter(t => t.direction === 'outbound' && t.originStationId === 'TJ-11');
   
-  // 有楽町線固有駅 (Y-10〜Y-24) を含む列車
-  const yInbToWakoshi = yurakuchoTrips.filter(t => {
-    if (t.direction !== 'inbound' || t.destinationStationId !== 'Y-01') return false;
-    return t.stops.some(s => {
-      const n = parseInt(s.stationId.replace('Y-', ''), 10);
-      return n >= 10;
-    });
-  });
-
-  // 副都心線固有駅 (F-10〜F-16) を含む列車
-  const fInbToWakoshi = fukutoshinTrips.filter(t => {
-    if (t.direction !== 'inbound' || t.destinationStationId !== 'F-01') return false;
-    return t.stops.some(s => {
-      const n = parseInt(s.stationId.replace('F-', ''), 10);
-      return n >= 10;
-    });
-  });
-
-  // 有楽町線からの直通
+  // 有楽町線から東上線への直通列車 (trainNumber 一致)
+  const yInbToWakoshi = yurakuchoTrips.filter(t => t.direction === 'inbound' && t.destinationStationId === 'Y-01');
   for (const y of yInbToWakoshi) {
-    const yLastStop = y.stops[y.stops.length - 1];
-    const yArrTime = yLastStop?.arrivalTime || yLastStop?.departureTime;
-
-    let tj = tojoOutFromWakoshi.find(t => t.trainNumber === y.trainNumber && t.isHoliday === y.isHoliday);
-    if (!tj && yArrTime) {
-      const [yH, yM] = yArrTime.split(':').map(Number);
-      const ySec = yH * 3600 + yM * 60;
-      tj = tojoOutFromWakoshi.find(t => {
-        if (t.isHoliday !== y.isHoliday) return false;
-        const tFirst = t.stops[0];
-        if (!tFirst) return false;
-        const [tH, tM] = tFirst.departureTime.split(':').map(Number);
-        const tSec = tH * 3600 + tM * 60;
-        return Math.abs(tSec - ySec) <= 180;
-      });
-    }
-
+    const tj = tojoOutFromWakoshi.find(t => t.trainNumber === y.trainNumber && t.isHoliday === y.isHoliday);
     if (tj) {
       y.throughTripId = tj.tripId;
       y.throughLineId = 'tojo';
@@ -135,25 +87,10 @@ function linkTojoAndMetro() {
     }
   }
 
-  // 副都心線からの直通
+  // 副都心線から東上線への直通列車 (trainNumber 一致)
+  const fInbToWakoshi = fukutoshinTrips.filter(t => t.direction === 'inbound' && t.destinationStationId === 'F-01');
   for (const f of fInbToWakoshi) {
-    const fLastStop = f.stops[f.stops.length - 1];
-    const fArrTime = fLastStop?.arrivalTime || fLastStop?.departureTime;
-
-    let tj = tojoOutFromWakoshi.find(t => t.trainNumber === f.trainNumber && t.isHoliday === f.isHoliday);
-    if (!tj && fArrTime) {
-      const [fH, fM] = fArrTime.split(':').map(Number);
-      const fSec = fH * 3600 + fM * 60;
-      tj = tojoOutFromWakoshi.find(t => {
-        if (t.isHoliday !== f.isHoliday) return false;
-        const tFirst = t.stops[0];
-        if (!tFirst) return false;
-        const [tH, tM] = tFirst.departureTime.split(':').map(Number);
-        const tSec = tH * 3600 + tM * 60;
-        return Math.abs(tSec - fSec) <= 180;
-      });
-    }
-
+    const tj = tojoOutFromWakoshi.find(t => t.trainNumber === f.trainNumber && t.isHoliday === f.isHoliday);
     if (tj) {
       f.throughTripId = tj.tripId;
       f.throughLineId = 'tojo';
@@ -172,8 +109,8 @@ function linkTojoAndMetro() {
   console.log(`  東上線 -> 副都心線: ${inbToF} 本 / 97 本`);
   console.log(`  東上線直通合計: ${inbToY + inbToF} 本 / 178 本`);
   console.log(`------------------------------------------------------------`);
-  console.log(`  有楽町線 -> 東上線: ${outbFromY} 本`);
-  console.log(`  副都心線 -> 東上線: ${outbFromF} 本`);
+  console.log(`  有楽町線 -> 東上線: ${outbFromY} 本 / 93 本`);
+  console.log(`  副都心線 -> 東上線: ${outbFromF} 本 / 85 本`);
   console.log(`  地下鉄直通合計: ${outbFromY + outbFromF} 本 / 178 本`);
   console.log(`============================================================\n`);
 

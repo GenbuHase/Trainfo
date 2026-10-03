@@ -1,8 +1,12 @@
+const { shouldExcludeFromFukutoshin } = require('../../common/metroFilters.cjs');
+
 // 東京メトロ副都心線 Yahoo! 路線情報スクレイパー設定 (和光市 〜 渋谷 全16駅)
 module.exports = {
   lineId: 'fukutoshin',
   name: '東京メトロ副都心線',
   stationsFilePath: 'src/data/lines/fukutoshin/stations.ts',
+  buildStationTimetablesFromTrips: true,
+  shouldExcludeTrip: shouldExcludeFromFukutoshin,
   outputPaths: {
     stationTimetables: 'src/data/lines/fukutoshin/stationTimetables.json',
     globalTimetable: 'src/data/lines/fukutoshin/globalTimetable.json',

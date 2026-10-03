@@ -1,8 +1,12 @@
+const { shouldExcludeFromYurakucho } = require('../../common/metroFilters.cjs');
+
 // 東京メトロ有楽町線 Yahoo! 路線情報スクレイパー設定 (和光市 〜 新木場 全24駅)
 module.exports = {
   lineId: 'yurakucho',
   name: '東京メトロ有楽町線',
   stationsFilePath: 'src/data/lines/yurakucho/stations.ts',
+  buildStationTimetablesFromTrips: true,
+  shouldExcludeTrip: shouldExcludeFromYurakucho,
   outputPaths: {
     stationTimetables: 'src/data/lines/yurakucho/stationTimetables.json',
     globalTimetable: 'src/data/lines/yurakucho/globalTimetable.json',
