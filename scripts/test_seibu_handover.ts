@@ -40,7 +40,15 @@ function resolveSelectedTrain(
       }
       return false;
     });
-    if (successor) return successor;
+    if (successor) {
+      if (!successor.customOrigin && prev.customOrigin) {
+        successor.customOrigin = prev.customOrigin;
+      }
+      if (!successor.customDestination && prev.customDestination) {
+        successor.customDestination = prev.customDestination;
+      }
+      return successor;
+    }
   }
   return null;
 }
@@ -243,11 +251,15 @@ for (const timeStr of sTrainTimes) {
   }
   if (trackedS) lastSelectedS = trackedS;
 
-  console.log(`[時刻 ${timeStr}] 追尾ID: ${trackedS?.tripId} | 路線: ${trackedS?.lineId} | 種別: ${trackedS?.trainType} | 行先: ${trackedS?.customDestination} | 駅: ${trackedS?.currentStationId} -> ${trackedS?.nextStationId}`);
+  console.log(`[時刻 ${timeStr}] 追尾ID: ${trackedS?.tripId} | 路線: ${trackedS?.lineId} | 種別: ${trackedS?.trainType} | 始発: ${trackedS?.customOrigin} | 行先: ${trackedS?.customDestination} | 駅: ${trackedS?.currentStationId} -> ${trackedS?.nextStationId}`);
+  if (trackedS && trackedS.customOrigin !== '所沢') {
+    console.error(`❌ テスト3 失敗: 始発駅が '${trackedS.customOrigin}' に変化しました（期待値: 所沢）`);
+    process.exit(1);
+  }
 }
 
 if (trackedS && trackedS.lineId === 'yurakucho' && trackedS.trainType === 'strain') {
-  console.log('✅ テスト3 成功: 平日 S-TRAIN 102号が西武線からメトロ豊洲まで strain 種別を保持して完全貫通追尾されました！\n');
+  console.log('✅ テスト3 成功: 平日 S-TRAIN 102号が始発駅「所沢」を維持したまま西武線からメトロ豊洲まで strain 種別で完全貫通追尾されました！\n');
 } else {
   console.error('❌ テスト3 失敗: S-TRAIN の貫通追尾に失敗しました。\n');
   process.exit(1);
@@ -302,11 +314,15 @@ for (const timeStr of sTrain1Times) {
   }
   if (trackedS1) lastSelectedS1 = trackedS1;
 
-  console.log(`[時刻 ${timeStr}] 追尾ID: ${trackedS1?.tripId} | 路線: ${trackedS1?.lineId} | 種別: ${trackedS1?.trainType} | 行先: ${trackedS1?.customDestination} | 駅: ${trackedS1?.currentStationId} -> ${trackedS1?.nextStationId}`);
+  console.log(`[時刻 ${timeStr}] 追尾ID: ${trackedS1?.tripId} | 路線: ${trackedS1?.lineId} | 種別: ${trackedS1?.trainType} | 始発: ${trackedS1?.customOrigin} | 行先: ${trackedS1?.customDestination} | 駅: ${trackedS1?.currentStationId} -> ${trackedS1?.nextStationId}`);
+  if (trackedS1 && trackedS1.customOrigin !== '元町・中華街') {
+    console.error(`❌ テスト4 失敗: 始発駅が '${trackedS1.customOrigin}' に変化しました（期待値: 元町・中華街）`);
+    process.exit(1);
+  }
 }
 
 if (trackedS1 && trackedS1.lineId === 'seibu_ikebukuro' && trackedS1.trainType === 'strain') {
-  console.log('✅ テスト4 成功: 土休日 S-TRAIN 1号が副都心線から西武秩父線まで strain 種別を保持して完全貫通追尾されました！\n');
+  console.log('✅ テスト4 成功: 土休日 S-TRAIN 1号が始発駅「元町・中華街」を維持したまま副都心線から西武秩父線まで strain 種別で完全貫通追尾されました！\n');
 } else {
   console.error('❌ テスト4 失敗: 土休日 S-TRAIN の貫通追尾に失敗しました。\n');
   process.exit(1);
@@ -360,11 +376,15 @@ for (const timeStr of sTrain2Times) {
   }
   if (trackedS2) lastSelectedS2 = trackedS2;
 
-  console.log(`[時刻 ${timeStr}] 追尾ID: ${trackedS2?.tripId} | 路線: ${trackedS2?.lineId} | 種別: ${trackedS2?.trainType} | 行先: ${trackedS2?.customDestination} | 駅: ${trackedS2?.currentStationId} -> ${trackedS2?.nextStationId}`);
+  console.log(`[時刻 ${timeStr}] 追尾ID: ${trackedS2?.tripId} | 路線: ${trackedS2?.lineId} | 種別: ${trackedS2?.trainType} | 始発: ${trackedS2?.customOrigin} | 行先: ${trackedS2?.customDestination} | 駅: ${trackedS2?.currentStationId} -> ${trackedS2?.nextStationId}`);
+  if (trackedS2 && trackedS2.customOrigin !== '飯能') {
+    console.error(`❌ テスト5 失敗: 始発駅が '${trackedS2.customOrigin}' に変化しました（期待値: 飯能）`);
+    process.exit(1);
+  }
 }
 
 if (trackedS2 && trackedS2.lineId === 'fukutoshin' && trackedS2.trainType === 'strain') {
-  console.log('✅ テスト5 成功: 土休日 S-TRAIN 2号が飯能から副都心線渋谷まで strain 種別を保持して完全貫通追尾されました！\n');
+  console.log('✅ テスト5 成功: 土休日 S-TRAIN 2号が始発駅「飯能」を維持したまま副都心線渋谷まで strain 種別で完全貫通追尾されました！\n');
 } else {
   console.error('❌ テスト5 失敗: 土休日 S-TRAIN 2号の貫通追尾に失敗しました。\n');
   process.exit(1);

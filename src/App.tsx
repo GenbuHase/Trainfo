@@ -98,7 +98,15 @@ export function App() {
         }
         return false;
       });
-      if (successor) return successor;
+      if (successor) {
+        if (!successor.customOrigin && prev.customOrigin) {
+          successor.customOrigin = prev.customOrigin;
+        }
+        if (!successor.customDestination && prev.customDestination) {
+          successor.customDestination = prev.customDestination;
+        }
+        return successor;
+      }
     }
     return null;
   }, [activeTrains, selectedTrainId]);
