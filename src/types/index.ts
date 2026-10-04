@@ -97,6 +97,7 @@ export interface CouplingConfig {
   fromStationId: string;       // 併結開始駅 (例: 'atami')
   toStationId: string;         // 併結終了駅 (例: 'tokyo')
   role: 'PRIMARY' | 'SECONDARY'; // 主編成（親）または従属編成（子）
+  coupledDestination?: string; // 併結相手の行先名 (例: '長瀞')
 }
 
 export interface TimetableTrip {

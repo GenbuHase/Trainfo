@@ -30,7 +30,8 @@ export interface SimulationState {
  */
 export function resolveActiveTrainInfo(
   trip: TimetableTrip,
-  currentStationId?: string
+  currentStationId?: string,
+  nextStationId?: string
 ): {
   trainId: string;
   trainNumber?: string;
@@ -38,12 +39,14 @@ export function resolveActiveTrainInfo(
   cars: number;
   isCoupledActive: boolean;
   totalCars?: number;
+  customDestination?: string;
 } {
   const trainId = trip.trainId || trip.trainNumber || (trip.tripId ? trip.tripId.split('_').pop() || '' : '');
   let resolvedNumber = trip.trainNumber;
   let resolvedType = trip.trainType;
   let isCoupledActive = false;
   let totalCars = trip.cars;
+  let resolvedCustomDest = trip.customDestination;
 
   // 1. 区間別列車番号（trainNumberSections）の解決
   if (trip.trainNumberSections && trip.trainNumberSections.length > 0 && currentStationId) {
@@ -70,12 +73,33 @@ export function resolveActiveTrainInfo(
     if (fromIdx !== -1 && toIdx !== -1 && curIdx !== -1) {
       const minIdx = Math.min(fromIdx, toIdx);
       const maxIdx = Math.max(fromIdx, toIdx);
-      if (curIdx >= minIdx && curIdx <= maxIdx) {
+
+      // 解結駅（toStationId）に到着した時点、または解結駅より先へ走行している場合は解結済み（isCoupledActive = false）
+      // 併結中となるのは: fromIdx から toIdx の手前まで（走行中は次駅が toIdx を超えないこと）
+      let inCoupledRange = false;
+      if (nextStationId) {
+        const nextIdx = trip.stops.findIndex((s) => s.stationId === nextStationId);
+        if (nextIdx !== -1) {
+          inCoupledRange = curIdx >= minIdx && nextIdx <= maxIdx;
+        } else {
+          inCoupledRange = curIdx >= minIdx && curIdx < maxIdx;
+        }
+      } else {
+        // 停車中の場合: 解結駅（maxIdx）では既に分割作業・別発車となるため解結済み
+        inCoupledRange = curIdx >= minIdx && curIdx < maxIdx;
+      }
+
+      if (inCoupledRange) {
         isCoupledActive = true;
         totalCars = trip.cars + (trip.coupling.coupledCars || 0);
         if (resolvedNumber && trip.coupling.coupledTrainNumber) {
           if (!resolvedNumber.includes(trip.coupling.coupledTrainNumber)) {
             resolvedNumber = `${resolvedNumber} + ${trip.coupling.coupledTrainNumber}`;
+          }
+        }
+        if (trip.coupling.coupledDestination && resolvedCustomDest) {
+          if (!resolvedCustomDest.includes(trip.coupling.coupledDestination)) {
+            resolvedCustomDest = `${trip.coupling.coupledDestination}・${resolvedCustomDest}`;
           }
         }
       }
@@ -89,6 +113,7 @@ export function resolveActiveTrainInfo(
     cars: isCoupledActive ? totalCars : trip.cars,
     isCoupledActive,
     totalCars: isCoupledActive ? totalCars : undefined,
+    customDestination: resolvedCustomDest,
   };
 }
 
@@ -208,7 +233,7 @@ export function calculateActiveTrains(
           originStationId: trip.originStationId,
           destinationStationId: trip.destinationStationId,
           customOrigin: trip.customOrigin,
-          customDestination: trip.customDestination,
+          customDestination: trainInfo.customDestination,
           throughTripId: trip.throughTripId,
           throughLineId: trip.throughLineId,
           cars: trainInfo.cars,
@@ -258,7 +283,7 @@ export function calculateActiveTrains(
           }
 
           const nextStopStation = trip.stops.slice(i + 1).find((s) => !s.isPassing);
-          const trainInfo = resolveActiveTrainInfo(trip, curStop.stationId);
+          const trainInfo = resolveActiveTrainInfo(trip, curStop.stationId, nextStop.stationId);
 
           activeTrains.push({
             tripId: trip.tripId,
@@ -274,7 +299,7 @@ export function calculateActiveTrains(
             originStationId: trip.originStationId,
             destinationStationId: trip.destinationStationId,
             customOrigin: trip.customOrigin,
-            customDestination: trip.customDestination,
+            customDestination: trainInfo.customDestination,
             throughTripId: trip.throughTripId,
             throughLineId: trip.throughLineId,
             cars: trainInfo.cars,
@@ -322,6 +347,12 @@ export function calculateActiveTrains(
       const otherFormattedNo = formatTrainNumber(other.trainNumber, other.trainId, other.tripId);
       if (otherFormattedNo !== formattedNo) return false;
 
+      // 行先が異なる場合（分割併結列車等）や、内部列車IDが異なる独立編成の場合は重複とみなさない
+      const destA = train.customDestination || train.destinationStationId;
+      const destB = other.customDestination || other.destinationStationId;
+      if (destA !== destB) return false;
+      if (train.trainId && other.trainId && train.trainId !== other.trainId) return false;
+
       const hasSharedStation = other.stops.some((s) => stationIds.has(s.stationId));
       if (!hasSharedStation) return false;
 
@@ -335,13 +366,14 @@ export function calculateActiveTrains(
     }
   }
 
-  // 3. 同一運行（路線・進行方向・同一列車ID）の重複表示を安全に排除
+  // 3. 同一運行（路線・進行方向・同一列車ID・行先）の重複表示を安全に排除
   const uniqueTrains: ActiveTrain[] = [];
   const seenTrainKeys = new Set<string>();
 
   for (const train of candidateTrains) {
     const primaryId = train.trainId || train.trainNumber || formatTrainNumber(train.trainNumber, train.trainId, train.tripId);
-    const key = `${train.lineId}_${train.direction}_${primaryId}`;
+    const dest = train.customDestination || train.destinationStationId;
+    const key = `${train.lineId}_${train.direction}_${primaryId}_${dest}`;
 
     if (seenTrainKeys.has(key)) {
       continue;

@@ -126473,9 +126473,9 @@
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SI-26",
-    "destinationStationId": "SI-35",
+    "destinationStationId": "CR-31",
     "customDestination": "長瀞",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -126537,9 +126537,26 @@
         "arrivalTime": "09:40:00",
         "departureTime": "09:50:00",
         "isPassing": false
+      },
+      {
+        "stationId": "CR-31",
+        "arrivalTime": "09:54:00",
+        "departureTime": "09:54:00",
+        "isPassing": false
       }
     ],
-    "trainId": "145187"
+    "trainId": "145187",
+    "throughTripId": "HD_INB_CR-31_0956_145187",
+    "throughLineId": "chichibu",
+    "coupling": {
+      "coupledTripId": "HD_OUT_SI-26_0856_145186",
+      "coupledTrainNumber": "6001レ",
+      "coupledCars": 4,
+      "fromStationId": "SI-26",
+      "toStationId": "SI-35",
+      "role": "SECONDARY",
+      "coupledDestination": "三峰口"
+    }
   },
   {
     "tripId": "HD_OUT_SI-26_0856_145186",
@@ -126548,9 +126565,9 @@
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SI-26",
-    "destinationStationId": "SI-36",
+    "destinationStationId": "CR-32",
     "customDestination": "三峰口",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -126618,9 +126635,26 @@
         "arrivalTime": "09:48:00",
         "departureTime": "09:57:00",
         "isPassing": false
+      },
+      {
+        "stationId": "CR-32",
+        "arrivalTime": "10:00:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
       }
     ],
-    "trainId": "145186"
+    "trainId": "145186",
+    "throughTripId": "HD_OUT_CR-32_1001_145186",
+    "throughLineId": "chichibu",
+    "coupling": {
+      "coupledTripId": "HD_OUT_SI-26_0856_145187",
+      "coupledTrainNumber": "6001レ",
+      "coupledCars": 4,
+      "fromStationId": "SI-26",
+      "toStationId": "SI-35",
+      "role": "PRIMARY",
+      "coupledDestination": "長瀞"
+    }
   },
   {
     "tripId": "HD_INB_SI-06_0857_144238",
