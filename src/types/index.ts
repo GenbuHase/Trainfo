@@ -71,12 +71,40 @@ export interface StationStopTime {
   arrivalTime: string;   // 'HH:MM:SS'
   departureTime: string; // 'HH:MM:SS'
   isPassing?: boolean;   // 通過駅の場合 true
+  trainNumber?: string;  // この駅発車時から適用される列車番号（オプショナル）
+}
+
+/**
+ * 区間別列車番号定義
+ * 同一運行（Trip）内で途中で列車番号が変わる場合に使用
+ */
+export interface TrainNumberSection {
+  trainNumber: string;    // その区間での公式列車番号 (例: '9028M', '9731M', 'E151K')
+  fromStationId: string;  // 適用開始駅ID (例: 'ueno', 'TJ-11')
+  toStationId?: string;   // 適用終了駅ID（省略時は次セクションまで、または終着駅）
+  trainType?: TrainTypeKey; // 区間内で種別も変化する場合に指定 (例: 'rapidExp' -> 'express')
+  reason?: 'DIRECTION_REVERSAL' | 'THROUGH_LINE' | 'OPERATOR_BOUNDARY';
+}
+
+/**
+ * 併結運転情報
+ */
+export interface CouplingConfig {
+  coupledTripId: string;       // 併結相手の tripId
+  coupledTrainNumber: string;  // 併結相手の公式列車番号 (例: '9028M')
+  coupledCars: number;         // 併結相手の車両両数 (例: 5)
+  fromStationId: string;       // 併結開始駅 (例: 'atami')
+  toStationId: string;         // 併結終了駅 (例: 'tokyo')
+  role: 'PRIMARY' | 'SECONDARY'; // 主編成（親）または従属編成（子）
 }
 
 export interface TimetableTrip {
   tripId: string;         // 一意の内部識別ID
   lineId: LineId;         // 所属路線
-  trainNumber?: string;   // 列車番号 (例: '1001レ', '1044K')
+  trainId?: string;       // データソース内部の列車識別ID (例: '113841', '42765')
+  trainNumber?: string;   // 鉄道公式の列車番号 (代表値 / 始発駅発車時) (例: '1001レ', '1044K')
+  trainNumberSections?: TrainNumberSection[]; // 区間別列車番号リスト
+  coupling?: CouplingConfig;                  // 併結運転設定
   trainType: TrainTypeKey;
   direction: Direction;
   originStationId: string;
@@ -95,7 +123,12 @@ export type TrainStatus = 'RUNNING' | 'STOPPING' | 'TERMINATED';
 export interface ActiveTrain {
   tripId: string;
   lineId: LineId;            // 所属路線
-  trainNumber?: string;      // 列車番号
+  trainId?: string;          // 内部ID
+  trainNumber?: string;      // 現在走行区間の公式列車番号（併結時は '8078M + 9028M'）
+  trainNumberSections?: TrainNumberSection[];
+  coupling?: CouplingConfig;
+  isCoupledActive?: boolean; // 現在併結状態で走行中か
+  totalCars?: number;        // 併結時の合計両数 (例: 14両)
   trainType: TrainTypeKey;
   direction: Direction;
   originStationId: string;

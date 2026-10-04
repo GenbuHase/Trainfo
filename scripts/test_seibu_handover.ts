@@ -23,7 +23,7 @@ function resolveSelectedTrain(
 
   const prev = lastSelectedTrain;
   if (prev) {
-    const prevNo = formatTrainNumber(prev.trainNumber, prev.tripId);
+    const prevNo = formatTrainNumber(prev.trainNumber, prev.trainId, prev.tripId);
     const successor = activeTrains.find((t) => {
       if (t.tripId === prev.tripId) return false;
       // 1. 直通先トリップID照合
@@ -33,8 +33,12 @@ function resolveSelectedTrain(
       ) {
         return true;
       }
-      // 2. 同一列車番号かつ同一方向判定
-      const curNo = formatTrainNumber(t.trainNumber, t.tripId);
+      // 2. 同一運行便ID（trainId）判定
+      if (prev.trainId && t.trainId && prev.trainId === t.trainId) {
+        return true;
+      }
+      // 3. 同一列車番号かつ同一方向判定
+      const curNo = formatTrainNumber(t.trainNumber, t.trainId, t.tripId);
       if (curNo && prevNo && curNo === prevNo && t.direction === prev.direction) {
         return true;
       }
@@ -330,7 +334,7 @@ if (trackedS1 && trackedS1.lineId === 'seibu_ikebukuro' && trackedS1.trainType =
 
 // 5. 土休日上り S-TRAIN 2号（飯能 -> 元町・中華街）の追尾テスト
 console.log('--- テスト5: 土休日上り S-TRAIN 2号 (西武池袋線 -> 西武有楽町線 -> 副都心線) 追尾テスト ---');
-const sTrain2SI = seibuIkebukuroTrips.find(t => t.isHoliday && t.trainType === 'strain' && t.direction === 'inbound' && t.trainNumber === '144626');
+const sTrain2SI = seibuIkebukuroTrips.find(t => t.isHoliday && t.trainType === 'strain' && t.direction === 'inbound' && (t.trainNumber === '402レ' || t.trainId === '144626'));
 if (!sTrain2SI) {
   console.error('❌ 土休日 S-TRAIN 2号が西武池袋線に見つかりません。');
   process.exit(1);

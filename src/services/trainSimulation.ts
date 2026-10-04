@@ -23,6 +23,75 @@ export interface SimulationState {
   selectedLineIds?: LineId[];// 表示・シミュレーション対象の路線IDリスト
 }
 
+/**
+ * 現在走行中の駅位置に応じた列車番号および種別・両数を動的に解決
+ * - 区間別列車番号（trainNumberSections）が存在する場合、現在の駅位置に応じた番号を返却
+ * - 併結運転（coupling）の場合、併結区間内であれば相手編成の番号を "+" で結合
+ */
+export function resolveActiveTrainInfo(
+  trip: TimetableTrip,
+  currentStationId?: string
+): {
+  trainId: string;
+  trainNumber?: string;
+  trainType: TimetableTrip['trainType'];
+  cars: number;
+  isCoupledActive: boolean;
+  totalCars?: number;
+} {
+  const trainId = trip.trainId || trip.trainNumber || (trip.tripId ? trip.tripId.split('_').pop() || '' : '');
+  let resolvedNumber = trip.trainNumber;
+  let resolvedType = trip.trainType;
+  let isCoupledActive = false;
+  let totalCars = trip.cars;
+
+  // 1. 区間別列車番号（trainNumberSections）の解決
+  if (trip.trainNumberSections && trip.trainNumberSections.length > 0 && currentStationId) {
+    const stopIndex = trip.stops.findIndex((s) => s.stationId === currentStationId);
+    if (stopIndex !== -1) {
+      for (const sec of trip.trainNumberSections) {
+        const secStartIndex = trip.stops.findIndex((s) => s.stationId === sec.fromStationId);
+        if (secStartIndex !== -1 && stopIndex >= secStartIndex) {
+          resolvedNumber = sec.trainNumber;
+          if (sec.trainType) {
+            resolvedType = sec.trainType;
+          }
+        }
+      }
+    }
+  }
+
+  // 2. 併結運転（coupling）の解決
+  if (trip.coupling && currentStationId) {
+    const fromIdx = trip.stops.findIndex((s) => s.stationId === trip.coupling!.fromStationId);
+    const toIdx = trip.stops.findIndex((s) => s.stationId === trip.coupling!.toStationId);
+    const curIdx = trip.stops.findIndex((s) => s.stationId === currentStationId);
+
+    if (fromIdx !== -1 && toIdx !== -1 && curIdx !== -1) {
+      const minIdx = Math.min(fromIdx, toIdx);
+      const maxIdx = Math.max(fromIdx, toIdx);
+      if (curIdx >= minIdx && curIdx <= maxIdx) {
+        isCoupledActive = true;
+        totalCars = trip.cars + (trip.coupling.coupledCars || 0);
+        if (resolvedNumber && trip.coupling.coupledTrainNumber) {
+          if (!resolvedNumber.includes(trip.coupling.coupledTrainNumber)) {
+            resolvedNumber = `${resolvedNumber} + ${trip.coupling.coupledTrainNumber}`;
+          }
+        }
+      }
+    }
+  }
+
+  return {
+    trainId,
+    trainNumber: resolvedNumber,
+    trainType: resolvedType,
+    cars: isCoupledActive ? totalCars : trip.cars,
+    isCoupledActive,
+    totalCars: isCoupledActive ? totalCars : undefined,
+  };
+}
+
 // 指定時刻における走行中の全列車を算出
 export function calculateActiveTrains(
   simState: SimulationState,
@@ -123,12 +192,18 @@ export function calculateActiveTrains(
         }
 
         const nextStopStation = trip.stops.slice(i + 1).find((s) => !s.isPassing);
+        const trainInfo = resolveActiveTrainInfo(trip, curStop.stationId);
 
         activeTrains.push({
           tripId: trip.tripId,
           lineId,
-          trainNumber: trip.trainNumber || formatTrainNumber(undefined, trip.tripId),
-          trainType: trip.trainType,
+          trainId: trainInfo.trainId,
+          trainNumber: trainInfo.trainNumber,
+          trainNumberSections: trip.trainNumberSections,
+          coupling: trip.coupling,
+          isCoupledActive: trainInfo.isCoupledActive,
+          totalCars: trainInfo.totalCars,
+          trainType: trainInfo.trainType,
           direction: trip.direction,
           originStationId: trip.originStationId,
           destinationStationId: trip.destinationStationId,
@@ -136,7 +211,7 @@ export function calculateActiveTrains(
           customDestination: trip.customDestination,
           throughTripId: trip.throughTripId,
           throughLineId: trip.throughLineId,
-          cars: trip.cars,
+          cars: trainInfo.cars,
           status: 'STOPPING',
           currentLat: stObj.lat,
           currentLng: stObj.lng,
@@ -183,12 +258,18 @@ export function calculateActiveTrains(
           }
 
           const nextStopStation = trip.stops.slice(i + 1).find((s) => !s.isPassing);
+          const trainInfo = resolveActiveTrainInfo(trip, curStop.stationId);
 
           activeTrains.push({
             tripId: trip.tripId,
             lineId,
-            trainNumber: trip.trainNumber || formatTrainNumber(undefined, trip.tripId),
-            trainType: trip.trainType,
+            trainId: trainInfo.trainId,
+            trainNumber: trainInfo.trainNumber,
+            trainNumberSections: trip.trainNumberSections,
+            coupling: trip.coupling,
+            isCoupledActive: trainInfo.isCoupledActive,
+            totalCars: trainInfo.totalCars,
+            trainType: trainInfo.trainType,
             direction: trip.direction,
             originStationId: trip.originStationId,
             destinationStationId: trip.destinationStationId,
@@ -196,7 +277,7 @@ export function calculateActiveTrains(
             customDestination: trip.customDestination,
             throughTripId: trip.throughTripId,
             throughLineId: trip.throughLineId,
-            cars: trip.cars,
+            cars: trainInfo.cars,
             status: 'RUNNING',
             currentLat: interpolated.lat,
             currentLng: interpolated.lng,
@@ -217,20 +298,28 @@ export function calculateActiveTrains(
     }
   }
 
-  // 複数路線選択時の直通列車（むさしの号等）の重複排除
-  // 同一列車番号かつ共通駅を持つ列車が存在する場合、より停車駅数の多い（全区間通しの）列車を優先
+  // 1. 併結運転中の従属編成（SECONDARY）のマップピン重複描画を排除
+  const coupledFilteredTrains = activeTrains.filter((train) => {
+    if (train.isCoupledActive && train.coupling?.role === 'SECONDARY') {
+      return false;
+    }
+    return true;
+  });
+
+  // 2. 複数路線選択時の直通列車（むさしの号等）の重複排除
+  // 同一列車番号（またはtrainId）かつ共通駅を持つ列車が存在する場合、より停車駅数の多い（全区間通しの）列車を優先
   const candidateTrains: ActiveTrain[] = [];
-  for (const train of activeTrains) {
-    const formattedNo = formatTrainNumber(train.trainNumber, train.tripId);
+  for (const train of coupledFilteredTrains) {
+    const formattedNo = formatTrainNumber(train.trainNumber, train.trainId, train.tripId);
     if (!formattedNo) {
       candidateTrains.push(train);
       continue;
     }
 
     const stationIds = new Set(train.stops.map((s) => s.stationId));
-    const hasBetterThroughTrain = activeTrains.some((other) => {
+    const hasBetterThroughTrain = coupledFilteredTrains.some((other) => {
       if (other === train) return false;
-      const otherFormattedNo = formatTrainNumber(other.trainNumber, other.tripId);
+      const otherFormattedNo = formatTrainNumber(other.trainNumber, other.trainId, other.tripId);
       if (otherFormattedNo !== formattedNo) return false;
 
       const hasSharedStation = other.stops.some((s) => stationIds.has(s.stationId));
@@ -246,13 +335,13 @@ export function calculateActiveTrains(
     }
   }
 
-  // 同一運行（路線・進行方向・同一列車番号）の重複表示を安全に排除
+  // 3. 同一運行（路線・進行方向・同一列車ID）の重複表示を安全に排除
   const uniqueTrains: ActiveTrain[] = [];
   const seenTrainKeys = new Set<string>();
 
   for (const train of candidateTrains) {
-    const formattedNo = formatTrainNumber(train.trainNumber, train.tripId);
-    const key = `${train.lineId}_${train.direction}_${formattedNo}`;
+    const primaryId = train.trainId || train.trainNumber || formatTrainNumber(train.trainNumber, train.trainId, train.tripId);
+    const key = `${train.lineId}_${train.direction}_${primaryId}`;
 
     if (seenTrainKeys.has(key)) {
       continue;

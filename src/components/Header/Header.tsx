@@ -162,6 +162,7 @@ export const Header: React.FC<HeaderProps> = ({
           (t) =>
             t.tripId.toLowerCase().includes(normalizedQuery) ||
             (t.trainNumber && t.trainNumber.toLowerCase().includes(normalizedQuery)) ||
+            (t.trainId && t.trainId.toLowerCase().includes(normalizedQuery)) ||
             t.destinationStationId.toLowerCase().includes(normalizedQuery) ||
             (t.customDestination && t.customDestination.toLowerCase().includes(normalizedQuery))
         )
@@ -354,7 +355,7 @@ export const Header: React.FC<HeaderProps> = ({
                       <div>
                         <div className="flex items-center gap-2">
                           <span className="font-mono text-sm font-semibold text-slate-800">
-                            {formatTrainNumber(train.trainNumber, train.tripId)}
+                            {formatTrainNumber(train.trainNumber, train.trainId, train.tripId)}
                           </span>
                           <span className="text-xs text-slate-500">
                             {train.customDestination ? `${train.customDestination}行` : (train.direction === 'inbound' ? '上り' : '下り')}

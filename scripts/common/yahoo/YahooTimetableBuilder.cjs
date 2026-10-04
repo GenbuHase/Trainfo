@@ -43,8 +43,28 @@ class YahooTimetableBuilder {
    * @returns {Object|null}
    */
   resolveStation(rawName) {
+    if (!rawName) return null;
     const aliased = this.config.stationNameAliases?.[rawName] || rawName;
-    return this.stByName.get(aliased) || null;
+    const directMatch = this.stByName.get(aliased);
+    if (directMatch) return directMatch;
+
+    // 1. 都道府県等の括弧を除去して再試行（例: '桜台(東京都)' -> '桜台'）
+    const withoutSuffix = aliased.replace(/\([^\)]+\)$/, '');
+    if (this.stByName.has(withoutSuffix)) {
+      return this.stByName.get(withoutSuffix);
+    }
+
+    // 2. 「ケ」と「ヶ」の正規化（例: '芦ケ久保' <-> '芦ヶ久保', '狭山ケ丘' <-> '狭山ヶ丘'）
+    const normalizedKe = withoutSuffix.replace(/ケ/g, 'ヶ');
+    if (this.stByName.has(normalizedKe)) {
+      return this.stByName.get(normalizedKe);
+    }
+    const normalizedBigKe = withoutSuffix.replace(/ヶ/g, 'ケ');
+    if (this.stByName.has(normalizedBigKe)) {
+      return this.stByName.get(normalizedBigKe);
+    }
+
+    return null;
   }
 
   /**

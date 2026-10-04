@@ -47,7 +47,7 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
               )}
               <TrainTypeBadge type={train.trainType} size="sm" lineId={train.lineId} />
               <span className="font-mono text-xs text-amber-300 font-bold shrink-0">
-                {formatTrainNumber(train.trainNumber, train.tripId)}
+                {formatTrainNumber(train.trainNumber, train.trainId, train.tripId)}
               </span>
             </div>
 

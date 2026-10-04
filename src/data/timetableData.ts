@@ -18,16 +18,77 @@ export function secondsToTimeString(sec: number): string {
   return `${h}:${m}:${s}`;
 }
 
-// 列車番号の表示用フォーマッター (例: 'WD_INB_TJ-33_1534_1044レ' -> '1044レ')
-export function formatTrainNumber(trainNumber?: string, tripId?: string): string {
-  if (trainNumber && !trainNumber.includes('_')) return trainNumber;
-  const target = tripId || trainNumber || '';
+/**
+ * 公式列車番号のTrainfo標準表記への正規化
+ * - アルファベット末尾（576F, 9028M, E151K等）やハイフン付き（051-071等）: そのまま
+ * - すでに「レ」付き（1001レ等）: そのまま
+ * - 併結表記（8078M + 9028M等）: 各パートを個別に正規化して結合
+ * - 純数字（105, 1001等）: 末尾に「レ」を付与（105レ, 1001レ）
+ */
+export function normalizeTrainNumber(rawNo?: string): string {
+  if (!rawNo) return '';
+  const trimmed = rawNo.trim();
+  if (trimmed.includes('+')) {
+    return trimmed
+      .split('+')
+      .map((part) => normalizeTrainNumber(part.trim()))
+      .join(' + ');
+  }
+  if (/[a-zA-Zレ]$/.test(trimmed) || trimmed.includes('-')) {
+    return trimmed;
+  }
+  if (/^\d+$/.test(trimmed) || /^Y\d+$/i.test(trimmed)) {
+    return `${trimmed}レ`;
+  }
+  return trimmed;
+}
+
+/**
+ * 列車番号の表示用フォーマッター
+ * 公式列車番号（trainNumber）を優先。未登録時は trainId または tripId をフォールバック表示。
+ * 呼び出しシグネチャの互換性:
+ * - formatTrainNumber(trainNumber, tripId)
+ * - formatTrainNumber(trainNumber, trainId, tripId)
+ */
+export function formatTrainNumber(
+  trainNumber?: string,
+  trainIdOrTripId?: string,
+  tripId?: string
+): string {
+  // 1. 公式列車番号（trainNumber）が存在する場合
+  if (trainNumber && !trainNumber.includes('_')) {
+    return normalizeTrainNumber(trainNumber);
+  }
+
+  // 引数解決（第2引数がtripId形式かtrainId形式かを判定）
+  let resolvedTrainId: string | undefined;
+  let resolvedTripId: string | undefined;
+
+  if (tripId) {
+    resolvedTrainId = trainIdOrTripId;
+    resolvedTripId = tripId;
+  } else if (trainIdOrTripId) {
+    if (trainIdOrTripId.includes('_')) {
+      resolvedTripId = trainIdOrTripId;
+    } else {
+      resolvedTrainId = trainIdOrTripId;
+    }
+  }
+
+  // 2. trainId がある場合
+  if (resolvedTrainId) {
+    return resolvedTrainId;
+  }
+
+  // 3. tripId からのフォールバック抽出
+  const target = resolvedTripId || trainNumber || '';
   if (target.includes('_')) {
     const parts = target.split('_');
     return parts[parts.length - 1];
   }
   return target;
 }
+
 
 // 全登録路線の統合各駅時刻表ストア（静的アクセス互換用）
 export const STATION_TIMETABLES: StationTimetableStore = getCombinedStationTimetables();

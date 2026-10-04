@@ -14,7 +14,7 @@ function resolveSelectedTrain(
 
   const prev = lastSelectedTrain;
   if (prev) {
-    const prevNo = formatTrainNumber(prev.trainNumber, prev.tripId);
+    const prevNo = formatTrainNumber(prev.trainNumber, prev.trainId, prev.tripId);
     const successor = activeTrains.find((t) => {
       if (t.tripId === prev.tripId) return false;
       // 1. 直通先トリップID照合（路線に依存しない共通メタデータ）
@@ -24,8 +24,12 @@ function resolveSelectedTrain(
       ) {
         return true;
       }
-      // 2. 同一列車番号かつ同一方向判定
-      const curNo = formatTrainNumber(t.trainNumber, t.tripId);
+      // 2. 同一運行便ID（trainId）判定（会社境界で列車番号が変化する直通列車の確実な引き継ぎ）
+      if (prev.trainId && t.trainId && prev.trainId === t.trainId) {
+        return true;
+      }
+      // 3. 同一列車番号かつ同一方向判定
+      const curNo = formatTrainNumber(t.trainNumber, t.trainId, t.tripId);
       if (curNo && prevNo && curNo === prevNo && t.direction === prev.direction) {
         return true;
       }

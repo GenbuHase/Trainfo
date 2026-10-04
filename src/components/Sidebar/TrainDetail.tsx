@@ -51,9 +51,11 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
               )}
               <TrainTypeBadge type={train.trainType} size="md" lineId={train.lineId} />
               <span className="font-mono text-sm tracking-wider text-amber-300 font-bold">
-                {formatTrainNumber(train.trainNumber, train.tripId)}
+                {formatTrainNumber(train.trainNumber, train.trainId, train.tripId)}
               </span>
-              <span className="text-xs text-slate-400 font-medium">({train.cars}両編成)</span>
+              <span className="text-xs text-slate-400 font-medium">
+                ({train.cars}両編成{train.isCoupledActive ? '・併結運行' : ''})
+              </span>
             </div>
             <h2 className="text-2xl font-black tracking-tight text-white flex items-center gap-2">
               <span>{train.customDestination || destStation?.name || '行先未定'} 行</span>
@@ -64,6 +66,13 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
             <p className="text-xs text-slate-400 mt-1">
               始発: {train.customOrigin || originStation?.name || '始発駅'} 発
             </p>
+            {train.coupling && (
+              <p className="text-[11px] text-sky-300 mt-1.5 flex items-center gap-1 bg-sky-950/60 px-2 py-0.5 rounded border border-sky-800/60">
+                <span>🔗 併結相手:</span>
+                <strong className="font-mono">{train.coupling.coupledTrainNumber}</strong>
+                <span>({train.coupling.coupledCars}両)</span>
+              </p>
+            )}
           </div>
         </div>
 
@@ -213,6 +222,18 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                         {st.name}
                       </span>
                       {!isPassing && <StationBadge id={st.id} size="sm" />}
+                      {/* 区間別列車番号切り替えインジケーター */}
+                      {train.trainNumberSections?.some((sec) => sec.fromStationId === stop.stationId) && (
+                        <span className="text-[9px] text-amber-800 bg-amber-100/80 border border-amber-300 px-1.5 py-0.5 rounded font-mono font-bold">
+                          ここから {train.trainNumberSections.find((sec) => sec.fromStationId === stop.stationId)?.trainNumber}
+                        </span>
+                      )}
+                      {/* 併結開始駅インジケーター */}
+                      {train.coupling?.fromStationId === stop.stationId && (
+                        <span className="text-[9px] text-sky-800 bg-sky-100/80 border border-sky-300 px-1.5 py-0.5 rounded font-bold">
+                          🔗 併結開始
+                        </span>
+                      )}
                       {isPassing && (
                         <span className="text-[10px] text-slate-400 bg-slate-100 px-1 py-0.5 rounded flex items-center gap-1">
                           通過

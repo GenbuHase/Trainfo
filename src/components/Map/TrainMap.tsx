@@ -38,7 +38,7 @@ function generateTrainMarkerHtml(train: ActiveTrain, isSelected: boolean): strin
   const typeConfig = getTrainTypeConfig(train.trainType, train.lineId);
   const destSt = STATION_MAP.get(train.destinationStationId);
   const destText = train.customDestination || destSt?.name || '行先';
-  const trainNo = formatTrainNumber(train.trainNumber, train.tripId);
+  const trainNo = formatTrainNumber(train.trainNumber, train.trainId, train.tripId);
   const rotationDeg = train.heading;
 
   return `
@@ -143,6 +143,15 @@ function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: b
     const destText = train.customDestination || destSt?.name || '行先';
     if (destEl.textContent !== destText) {
       destEl.textContent = destText;
+    }
+  }
+
+  // 列車番号（区間変化や併結による動的切替）
+  const trainNoEl = el.querySelector('.train-no');
+  if (trainNoEl) {
+    const curNo = formatTrainNumber(train.trainNumber, train.trainId, train.tripId);
+    if (trainNoEl.textContent !== curNo) {
+      trainNoEl.textContent = curNo;
     }
   }
 }
