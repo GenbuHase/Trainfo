@@ -1,6 +1,6 @@
 // Trainfo 共通型定義ファイル
 
-export type LineId = 'tojo' | 'saikyo' | 'kawagoe' | 'rinkai' | 'hachiko' | 'musashino' | 'tsukuba_express' | 'chuo' | 'chuo_main' | 'shinonoi' | 'oito_east' | 'oito_west' | 'yurakucho' | 'fukutoshin' | 'seibu_ikebukuro' | 'seibu_yurakucho' | (string & {});
+export type LineId = 'tojo' | 'saikyo' | 'kawagoe' | 'rinkai' | 'hachiko' | 'musashino' | 'tsukuba_express' | 'chuo' | 'chuo_main' | 'shinonoi' | 'oito_east' | 'oito_west' | 'yurakucho' | 'fukutoshin' | 'seibu_ikebukuro' | 'seibu_yurakucho' | 'ome' | (string & {});
 
 // 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋東京メトロ＋西武線＋汎用）
 export type TrainTypeKey =

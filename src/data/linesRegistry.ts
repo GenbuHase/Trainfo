@@ -15,6 +15,7 @@ import { fukutoshinLine } from './lines/fukutoshin';
 import { seibuIkebukuroLine } from './lines/seibu_ikebukuro';
 import { seibuYurakuchoLine } from './lines/seibu_yurakucho';
 import { hachikoLine } from './lines/hachiko';
+import { omeLine } from './lines/ome';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -31,6 +32,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tsukuba_express: tsukubaExpressLine,
   chuo: chuoLine,
   chuo_main: chuoMainLine,
+  ome: omeLine,
   shinonoi: shinonoiLine,
   oito_east: oitoEastLine,
   oito_west: oitoWestLine,
