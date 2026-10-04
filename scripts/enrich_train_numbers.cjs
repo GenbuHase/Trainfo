@@ -1141,6 +1141,210 @@ function enrichMusashino() {
   console.log('✅ JR武蔵野線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
+/**
+ * 東京臨海高速鉄道りんかい線のエンリッチメント処理
+ */
+function enrichRinkai() {
+  console.log('=== 東京臨海高速鉄道りんかい線 公式列車番号エンリッチメント開始 ===');
+
+  const globalPath = path.resolve('src/data/lines/rinkai/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/rinkai/stationTimetables.json');
+  const ekitanPath = path.resolve('scripts/ekitan_rinkai_timetables.json');
+
+  if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
+    throw new Error('りんかい線の必要なデータファイルが見つかりません。');
+  }
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const ekitanData = JSON.parse(fs.readFileSync(ekitanPath, 'utf8'));
+  const stationTimetables = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
+
+  const ekitanMap = new Map();
+  for (const day of ['weekday', 'holiday']) {
+    for (const stId of Object.keys(ekitanData[day] || {})) {
+      for (const dir of ['inbound', 'outbound']) {
+        for (const item of ekitanData[day][stId][dir] || []) {
+          const key = `${day}:${stId}:${dir}:${item.h}:${item.m}`;
+          ekitanMap.set(key, item);
+        }
+      }
+    }
+  }
+
+  let matchedCount = 0;
+  let fallbackCount = 0;
+  const trainIdToOfficialNo = new Map();
+
+  for (const trip of trips) {
+    const originalId = trip.trainId || trip.trainNumber || '';
+    trip.trainId = originalId;
+
+    const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+    const firstStop = trip.stops[0];
+    const [hStr, mStr] = firstStop.departureTime.split(':');
+    let h = parseInt(hStr, 10);
+    const m = parseInt(mStr, 10);
+    if (h >= 24) h -= 24;
+
+    const key = `${dayKey}:${trip.originStationId}:${trip.direction}:${h}:${m}`;
+    let ekItem = ekitanMap.get(key);
+
+    if (!ekItem) {
+      for (const stop of trip.stops) {
+        if (stop.isPassing) continue;
+        const [sh, sm] = stop.departureTime.split(':').map(Number);
+        const normH = sh >= 24 ? sh - 24 : sh;
+        const midKey = `${dayKey}:${stop.stationId}:${trip.direction}:${normH}:${sm}`;
+        const item = ekitanMap.get(midKey);
+        if (item) {
+          ekItem = item;
+          break;
+        }
+      }
+    }
+
+    if (ekItem && ekItem.no) {
+      trip.trainNumber = normalizeTrainNumber(ekItem.no);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+      matchedCount++;
+    } else {
+      fallbackCount++;
+      trip.trainNumber = originalId;
+      trainIdToOfficialNo.set(originalId, originalId);
+    }
+  }
+
+  console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
+  console.log(`  駅探データより突合: ${matchedCount} 便`);
+  console.log(`  未突合(フォールバック): ${fallbackCount} 便`);
+
+  let stUpdatedCount = 0;
+  for (const day of ['weekday', 'holiday']) {
+    const dayData = stationTimetables[day] || {};
+    for (const stId of Object.keys(dayData)) {
+      const stDirs = dayData[stId] || {};
+      for (const dir of ['inbound', 'outbound']) {
+        const deps = stDirs[dir] || [];
+        for (const dep of deps) {
+          const lookupId = dep.trainId || dep.no;
+          if (lookupId && trainIdToOfficialNo.has(lookupId)) {
+            dep.trainId = lookupId;
+            dep.no = trainIdToOfficialNo.get(lookupId);
+            stUpdatedCount++;
+          }
+        }
+      }
+    }
+  }
+  console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
+
+  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
+  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  console.log('✅ 東京臨海高速鉄道りんかい線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
+}
+
+/**
+ * JR八高線のエンリッチメント処理
+ */
+function enrichHachiko() {
+  console.log('=== JR八高線 公式列車番号エンリッチメント開始 ===');
+
+  const globalPath = path.resolve('src/data/lines/hachiko/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/hachiko/stationTimetables.json');
+  const ekitanPath = path.resolve('scripts/ekitan_hachiko_timetables.json');
+
+  if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
+    throw new Error('JR八高線の必要なデータファイルが見つかりません。');
+  }
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const ekitanData = JSON.parse(fs.readFileSync(ekitanPath, 'utf8'));
+  const stationTimetables = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
+
+  const ekitanMap = new Map();
+  for (const day of ['weekday', 'holiday']) {
+    for (const stId of Object.keys(ekitanData[day] || {})) {
+      for (const dir of ['inbound', 'outbound']) {
+        for (const item of ekitanData[day][stId][dir] || []) {
+          const key = `${day}:${stId}:${dir}:${item.h}:${item.m}`;
+          ekitanMap.set(key, item);
+        }
+      }
+    }
+  }
+
+  let matchedCount = 0;
+  let fallbackCount = 0;
+  const trainIdToOfficialNo = new Map();
+
+  for (const trip of trips) {
+    const originalId = trip.trainId || trip.trainNumber || '';
+    trip.trainId = originalId;
+
+    const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+    const firstStop = trip.stops[0];
+    const [hStr, mStr] = firstStop.departureTime.split(':');
+    let h = parseInt(hStr, 10);
+    const m = parseInt(mStr, 10);
+    if (h >= 24) h -= 24;
+
+    const key = `${dayKey}:${trip.originStationId}:${trip.direction}:${h}:${m}`;
+    let ekItem = ekitanMap.get(key);
+
+    if (!ekItem) {
+      for (const stop of trip.stops) {
+        if (stop.isPassing) continue;
+        const [sh, sm] = stop.departureTime.split(':').map(Number);
+        const normH = sh >= 24 ? sh - 24 : sh;
+        const midKey = `${dayKey}:${stop.stationId}:${trip.direction}:${normH}:${sm}`;
+        const item = ekitanMap.get(midKey);
+        if (item) {
+          ekItem = item;
+          break;
+        }
+      }
+    }
+
+    if (ekItem && ekItem.no) {
+      trip.trainNumber = normalizeTrainNumber(ekItem.no);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+      matchedCount++;
+    } else {
+      fallbackCount++;
+      trip.trainNumber = originalId;
+      trainIdToOfficialNo.set(originalId, originalId);
+    }
+  }
+
+  console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
+  console.log(`  駅探データより突合: ${matchedCount} 便`);
+  console.log(`  未突合(フォールバック): ${fallbackCount} 便`);
+
+  let stUpdatedCount = 0;
+  for (const day of ['weekday', 'holiday']) {
+    const dayData = stationTimetables[day] || {};
+    for (const stId of Object.keys(dayData)) {
+      const stDirs = dayData[stId] || {};
+      for (const dir of ['inbound', 'outbound']) {
+        const deps = stDirs[dir] || [];
+        for (const dep of deps) {
+          const lookupId = dep.trainId || dep.no;
+          if (lookupId && trainIdToOfficialNo.has(lookupId)) {
+            dep.trainId = lookupId;
+            dep.no = trainIdToOfficialNo.get(lookupId);
+            stUpdatedCount++;
+          }
+        }
+      }
+    }
+  }
+  console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
+
+  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
+  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  console.log('✅ JR八高線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
+}
+
 // 実行エントリーポイント
 const target = process.argv[2] || 'all';
 
@@ -1171,6 +1375,13 @@ if (target === 'kawagoe' || target === 'jr' || target === 'all') {
 if (target === 'musashino' || target === 'jr' || target === 'all') {
   enrichMusashino();
 }
+if (target === 'rinkai' || target === 'all') {
+  enrichRinkai();
+}
+if (target === 'hachiko' || target === 'jr' || target === 'all') {
+  enrichHachiko();
+}
+
 
 
 
