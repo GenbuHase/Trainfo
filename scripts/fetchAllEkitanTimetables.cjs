@@ -79,11 +79,15 @@ function parseTimetableSection(htmlChunk) {
       const href = hrefMatch ? hrefMatch[1] : '';
 
       let trainNo = '';
-      const txMatch = href.match(/tx=[^-]+-[^-]+-(\d+[a-zA-Z]?)/i);
+      const txMatch = href.match(/tx=([0-9a-zA-Z\-_]+)/i);
       if (txMatch) {
-        trainNo = `${txMatch[1]}レ`;
-      } else {
-        trainNo = `${hour}${minute}レ`;
+        const parts = txMatch[1].split('-');
+        const code = parts[2] || parts[0];
+        if (/^\d+$/.test(code) || /^Y\d+$/i.test(code)) {
+          trainNo = `${code}レ`;
+        } else {
+          trainNo = code;
+        }
       }
 
       departures.push({
