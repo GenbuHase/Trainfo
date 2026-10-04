@@ -50,18 +50,19 @@ Trainfo/
 
 ---
 
-## 2. 路線追加の全7フェーズ・完全ワークフロー
+## 2. 路線追加の全8フェーズ・完全ワークフロー
 
 ```mermaid
 flowchart TD
     P1["Phase 1: 仕様策定 & 定数・型定義<br/>(LineId, 駅リスト, ナンバリング, 種別)"] --> P2["Phase 2: 線路ジオメトリ & 駅座標構築<br/>(OSM Overpass API & トポロジカル/BFS)"]
     P2 --> P3["Phase 3: Yahoo! データ連携 & ダイヤ生成<br/>(config.cjs 作成 & インポーター実行)"]
-    P3 --> P4["Phase 4: レジストリ登録 & モジュール統合<br/>(lines/<lineId>/index.ts, linesRegistry.ts)"]
-    P4 --> P5{"直通運転路線か？"}
-    P5 -- "Yes" --> P5_1["Phase 5: 直通運転・ハンドオーバー構築<br/>(発車標住み分け, 直通リンク, 前方指向連鎖)"]
-    P5 -- "No" --> P6["Phase 6: UI & コンポーネント最適化<br/>(Badges.tsx, isMajor, 同名駅リンク)"]
-    P5_1 --> P6
-    P6 --> P7["Phase 7: 包括的シミュレーション検証 & テスト<br/>(点間距離監査, 追尾テスト, 実画面確認)"]
+    P3 --> P4["Phase 4: 公式列車番号エンリッチメント<br/>(駅探ハイブリッド突合 & trainId/trainNumber分離)"]
+    P4 --> P5["Phase 5: レジストリ登録 & モジュール統合<br/>(lines/<lineId>/index.ts, linesRegistry.ts)"]
+    P5 --> P6{"直通運転路線か？"}
+    P6 -- "Yes" --> P6_1["Phase 6: 直通運転・ハンドオーバー構築<br/>(発車標住み分け, 直通リンク, 前方指向連鎖)"]
+    P6 -- "No" --> P7["Phase 7: UI & コンポーネント最適化<br/>(Badges.tsx, isMajor, 同名駅リンク)"]
+    P6_1 --> P7
+    P7 --> P8["Phase 8: 包括的シミュレーション検証 & テスト<br/>(点間距離監査, 追尾テスト, 実画面確認)"]
 ```
 
 ---
@@ -211,7 +212,51 @@ node scripts/runYahooImporter.cjs --line <lineId>
 
 ---
 
-### Phase 4: レジストリ登録 & モジュール統合
+### Phase 4: 公式列車番号エンリッチメント（駅探ハイブリッド突合 & trainId/trainNumber分離）
+
+Yahoo! 路線情報から生成されたダイヤデータには、内部数字ID（例: `113841`, `28422`）しか含まれません。  
+鉄道本来の公式列車番号（例: `1001レ`, `2425T`, `1349M`, `420D`, `9011M`）を注入し、ドメインモデルとして `trainId` と `trainNumber` を分離するため、駅探（Ekitan）データとのハイブリッド突合パイプラインを実行します。
+
+#### 1. 駅探路線コードの特定 & 各駅コードの調査
+* 駅探の時刻表URL体系: `https://ekitan.com/timetable/railway/line-station/<lineCode>-<stationIndex>/d1?dw=<dw>`
+  * `dw=0`: 平日、`dw=2`: 土曜・休日
+* プローブスクリプトを作成し、全駅のインデックスと駅名の一致を実証（例: 中央線快速 `180-0`〜`180-23`、中央本線 `9-5`〜`9-42` 等）。
+
+#### 2. 駅探スクレイピングスクリプトの作成 & 実行 (`scripts/fetch<Line>Ekitan.cjs`)
+* **1リクエストで上下線両テーブル取得（高速化 & 整合性保証）**:
+  * 駅探のHTMLには、1ページ内に上下線双方の時刻表テーブル（`<table class="search-result-data ek-search-result">`）が順にレンダリングされています。
+  * 方面タブ（`<li class="ek-direction_tab" data-ek-direction_name="...">`）の配列とテーブル配列が **インデックスで1対1に対応** するため、`d1` を1回取得するだけでその駅の全方面テーブルを取得可能です。
+* **方面判定の鉄則**:
+  * 「大崎」などの部分一致は駅名自体（「大崎駅」）に誤マッチするため、必ず「○○方面」単位で判定する。
+  * 同一路線でも途中駅（例: 中央本線の甲府駅以東と以西）で上り/下りの方面表記（「新宿・高尾方面」/「松本方面」）が変化するため、全駅のタブ名を事前にリストアップして判定ルールを設計する。
+* 実行して `scripts/ekitan_<lineId>_timetables.json` を出力。
+
+#### 3. 列車番号エンリッチメントの実装 & 実行 (`scripts/enrich_train_numbers.cjs`)
+1. **内部IDの退避とドメイン分離**:
+   * `trip.trainId = trip.trainId || trip.trainNumber;`（旧生IDを `trainId` に退避）
+2. **公式列車番号の正規化（`normalizeTrainNumber`）**:
+   * 末尾アルファベット（`xxxT`, `xxxH`, `xxxM`, `xxxK`, `xxxE`, `xxxD`）や「レ」付き $\rightarrow$ そのまま採用。
+   * 純数字（私鉄・TX・地下鉄等） $\rightarrow$ 末尾に「レ」を付与（`1001レ`、`5201レ`）。
+3. **全停車駅による着発時刻突合**:
+   * 始発駅の発車時刻 `${dayKey}:${originStationId}:${direction}:${h}:${m}` をキーとして駅探データを検索。
+   * 見つからない場合は、途中停車駅の発車時刻でフォールバック突合。
+4. **特急・臨時列車の特別指定マッピング（`SPECIAL_*`）**:
+   * 臨時特急（アルプス `9011M`、臨時あずさ `9071M`〜`9088M`、富士回遊 `2103M`〜`2115M`、鎌倉号 `8066M`/`8068M` 等）は、Yahoo!の `displayName` や `guideComment` を活用して辞書定義し、100%突合を達成。
+5. **駅発車標（`stationTimetables.json`）の完全同期**:
+   * 全駅の全発車標アイテムに対し、`dep.trainId = lookupId; dep.no = officialNo;` を更新。
+6. **スクリプトの実行**:
+   ```bash
+   node scripts/enrich_train_numbers.cjs <lineId>
+   ```
+
+> [!CAUTION]
+> **【厳重注意】ダイヤ再生成時の列車番号上書きと再エンリッチの必須化**:  
+> 後日、駅の追加、秒補間調整、欠落修正などで `runYahooImporter.cjs` を再実行した場合、`globalTimetable.json` と `stationTimetables.json` は再び数字列の生IDで上書きされます。  
+> **インポーターを実行した後は、必ず `node scripts/enrich_train_numbers.cjs <lineId>` を再実行して公式列車番号を復元してください。**
+
+---
+
+### Phase 5: レジストリ登録 & モジュール統合
 
 1. **モジュール定義ファイルの作成 ([`src/data/lines/<lineId>/index.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/lines/rinkai/index.ts))**:
    ```typescript
@@ -251,10 +296,10 @@ node scripts/runYahooImporter.cjs --line <lineId>
 
 ---
 
-### Phase 5: 直通運転・境界駅ハンドオーバー設定（※直通路線のみ）
+### Phase 6: 直通運転・境界駅ハンドオーバー設定（※直通路線のみ）
 
 新路線が他路線と相互直通運転を行う場合、以下の設定を実施します。  
-（※単独完結路線の場合はスキップして Phase 6 へ進みます）
+（※単独完結路線の場合はスキップして Phase 7 へ進みます）
 
 1. **境界駅の発車標データの住み分け**:
    * 境界駅（例: 大崎駅）で両路線の発車標が重複しないよう、一方の路線には上り発車標のみ、他方の路線には下り発車標のみを持たせる（`inGroupId: null` または `outGroupId: null`）。
@@ -275,7 +320,7 @@ node scripts/runYahooImporter.cjs --line <lineId>
 
 ---
 
-### Phase 6: UI & コンポーネント最適化
+### Phase 7: UI & コンポーネント最適化
 
 1. **駅ナンバリングバッジの配色設定 ([`src/components/Common/Badges.tsx`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/components/Common/Badges.tsx))**:
    * `STATION_BADGE_COLORS` に新路線のプレフィックス（例: `R`, `TX`, `OE`, `OW`）を登録。
@@ -294,7 +339,7 @@ node scripts/runYahooImporter.cjs --line <lineId>
 
 ---
 
-### Phase 7: 包括的シミュレーション検証 & テスト
+### Phase 8: 包括的シミュレーション検証 & テスト
 
 新設路線の品質を多角的に検証します。
 
@@ -524,6 +569,38 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
     * 駅発車標（`stationTimetables`）には正規の旅客乗降可能駅のみを登録し、不要な通過駅への混入を防止。
     * 追尾エンジン（`resolveSelectedTrain`）の双方向照合により、地下鉄線内から西武秩父まで全区間を1クリックでシームレスに追尾継続可能。
 
+### 21. 公式列車番号（`trainNumber`）と内部列車ID（`trainId`）のドメインモデル分離と正規化ルール
+* **事象**: Yahoo! 路線情報から抽出される列車番号は内部的な生数字ID（例: `113841`, `28422`）であり、鉄道本来の公式列車番号（例: `1001レ`, `2425T`, `1349M`）ではない。これをそのままUIに表示すると利用者が列車を特定できず、逆に生IDを上書きすると同一列車番号（例: 平日と休日の同一番号便）のユニーク追尾が破綻する。
+* **防止策（ベストプラクティス）**:
+  * **ドメインモデル分離**:
+    * `trip.trainId`: シミュレータ内のユニーク追尾・内部参照キー（Yahoo! 生数字IDまたは一意識別子）。
+    * `trip.trainNumber`: UI表示用の公式列車番号（鉄道ファンや利用者が時刻表で目にする番号）。
+  * **列車番号正規化ルール（`normalizeTrainNumber`）**:
+    * 末尾アルファベット付き（`xxxT`, `xxxH`, `xxxM`, `xxxK`, `xxxE`, `xxxD` 等）や「レ」付きはそのまま保持。
+    * 純数字（私鉄・TX・地下鉄等）は日本の鉄道慣例に従い末尾に「レ」を付与（例: `1001` → `1001レ`、`5201` → `5201レ`）。
+    * 非電化区間の気動車（大糸線西部のキハ120形等）は `D` 運用（例: `420D`）。
+  * **駅発車標（`stationTimetables`）との完全同期**:
+    * 全駅の発車標アイテム（`dep`）の `dep.no` に公式列車番号、`dep.trainId` に内部IDを格納し、発車標・列車詳細サイドバー・マップ追尾で100%の表示整合性を保証。
+
+### 22. 駅探スクレイピングにおける1ページ内多重テーブル構造と方面タブ完全調和
+* **事象**: 駅探の路線時刻表ページ（`line-station/<lineCode>/d1`）をスクレイピングする際、方面パラメータ（`d1`/`d2`）を個別リクエストすると通信負荷が倍増する上、方面判定が不完全だと上り・下りのデータが逆転する。さらに「大崎」「甲府」などの駅名部分一致で判定すると、駅名自身（「大崎駅」）に誤マッチして逆方向判定を起こす。
+* **防止策（ベストプラクティス）**:
+  * **1リクエスト多重テーブル取得**:
+    * 駅探のHTML（`d1`）には、1ページ内に上下線双方の時刻表テーブル（`<table class="search-result-data ek-search-result">`）が順にレンダリングされている。
+    * 方面タブ（`<li class="ek-direction_tab">`）とテーブルがインデックスで1対1に対応するため、`d1` を1回取得するだけでその駅の全方面データを一括抽出可能（リクエスト数半減）。
+  * **方面タブの事前プローブ調査と完全判定**:
+    * 路線内の全駅の方面タブ文字列を事前に調査し、途中駅で方面名が切り替わる路線（例: 中央本線の甲府以東「高尾・新宿方面」/ 甲府以西「松本・長野方面」）に対応した多段階判定ロジックを設計。
+    * 部分一致バグを防ぐため、必ず「○○方面」の文脈で上り/下りを判定する。
+  * **特急・臨時列車の辞書マッピング（`SPECIAL_*`）**:
+    * 定期ダイヤと列車番号体系が異なる臨時列車（アルプス `9011M`、臨時あずさ `9071M`〜`9088M`、富士回遊 `2103M`〜`2115M`、ホリデー快速、鎌倉号等）は、Yahoo! の `displayName` や `guideComment` を利用した辞書マッピングを定義することで突合成功率100%を達成する。
+
+### 23. ダイヤ再生成（YahooImporter）による列車番号上書きの検知と再エンリッチメント必須化
+* **事象**: ダイヤ修正、駅追加、通過秒数調整、欠落トリップ修正などで `runYahooImporter.cjs` を再実行すると、`globalTimetable.json` と `stationTimetables.json` がYahoo!の数字生IDで上書きされ、エンリッチメントした公式列車番号が消滅・退行する。
+* **防止策（ベストプラクティス）**:
+  * **運用ルールの確立**: インポーター再実行後は、必ずセットで `node scripts/enrich_train_numbers.cjs <lineId>` を再実行するワークフローを徹底する。
+  * **スクリプトの冪等性（Idempotency）保証**:
+    * `trip.trainId = trip.trainId || trip.trainNumber;` のように既存IDを安全に退避・保持し、何度エンリッチメントスクリプトを実行してもデータが破損しない冪等な設計とする。
+
 ---
 
 ## 6. 新路線追加 クイックチェックリスト（作業着手〜完了チェックシート）
@@ -549,28 +626,35 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 - [ ] `node scripts/runYahooImporter.cjs --line <lineId>` を実行
 - [ ] `stationTimetables.json` および `globalTimetable.json` が正常生成されたことを確認
 
-### Phase 4: レジストリ登録 & モジュール統合
+### Phase 4: 公式列車番号エンリッチメント（駅探ハイブリッド突合）
+- [ ] 駅探の路線コード（`lineCode`）および各駅インデックスを調査・プローブ確認
+- [ ] `scripts/fetch<Line>Ekitan.cjs` を作成・実行し、上下線時刻表データを一括収集
+- [ ] `scripts/enrich_train_numbers.cjs` に対象路線の突合設定（特急・臨時列車マッピング含む）を追加
+- [ ] `node scripts/enrich_train_numbers.cjs <lineId>` を実行し、全便の公式列車番号（`trainNumber`）と内部ID（`trainId`）を分離・同期
+- [ ] `stationTimetables.json` の発車標（`no` / `trainId`）が同期されたことを確認
+
+### Phase 5: レジストリ登録 & モジュール統合
 - [ ] `src/data/lines/<lineId>/index.ts` を作成し `LineDefinition` をエクスポート
 - [ ] `src/data/linesRegistry.ts` の `LINES_REGISTRY` に新路線を追加
 - [ ] 事業者が新規の場合、`OPERATOR_DISPLAY_ORDER` に追加
 
-### Phase 5: 直通運転・ハンドオーバー構築（※直通路線のみ）
+### Phase 6: 直通運転・ハンドオーバー構築（※直通路線のみ）
 - [ ] 境界駅の Yahoo! グループIDを片側のみ（上りのみ / 下りのみ）に設定
 - [ ] 直通メタデータ付与スクリプト `scripts/link_<lineA>_<lineB>.cjs` を作成・実行
 - [ ] 3路線直通の場合、進行方向前方指向（Forward-Pointing Chain）でリンク設定
 - [ ] `customDestination` および `customOrigin` が相互に付与されたことを確認
 - [ ] 境界駅の `stations.ts` の `transfers` に相互路線名を追加
 
-### Phase 6: UI & コンポーネント最適化
+### Phase 7: UI & コンポーネント最適化
 - [ ] `src/components/Common/Badges.tsx` の `STATION_BADGE_COLORS` にプレフィックスを追加
 - [ ] `stations.ts` の主要駅・ターミナル駅に `isMajor: true` を設定
 - [ ] 乗換駅・接続駅の駅名表記が他路線と一致していることを確認（同名駅リンク機能）
 
-### Phase 7: 包括的検証 & テスト
+### Phase 8: 包括的検証 & テスト
 - [ ] `npm run build` を実行し、型エラー・構文エラーがゼロであることを確認
 - [ ] 直通路線の場合は `scripts/test_<boundary>_handover.ts` を実行し全テスト合格を確認
 - [ ] ブラウザでシミュレータを起動し、10x/30x早送りで逆走・瞬間移動・表示崩れがないことを目視確認
-- [ ] 駅発車標モーダルおよび列車詳細サイドバーで着発時刻・行先が正常に表示されることを確認
+- [ ] 駅発車標モーダルおよび列車詳細サイドバーで着発時刻・行先・公式列車番号が正常に表示されることを確認
 
 ---
 
@@ -687,4 +771,213 @@ function resolveSelectedTrain(
 
 // 検証シナリオの実行（時刻ごとの追尾ID推移チェック）
 // ...
+```
+
+### 4. 駅探時刻表スクレイピングスクリプトテンプレート (`scripts/fetch<Line>Ekitan.cjs`)
+1リクエストで上下線双方のテーブルを取得し、方面タブ名に基づいて上り・下りを自動判定する高速かつ堅牢なスクレイパーの雛形です。
+
+```javascript
+const fs = require('fs');
+
+const STATIONS = [
+  { id: '<PREFIX>-01', name: '<駅名1>', code: '<lineCode>-0' },
+  { id: '<PREFIX>-02', name: '<駅名2>', code: '<lineCode>-1' },
+  // ...
+];
+
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
+
+function parseTableChunk(tableHtml) {
+  const departures = [];
+  const trMatches = tableHtml.match(/<tr[^>]*class="[^"]*ek-hour_line[^"]*"[^>]*>[\s\S]*?<\/tr>/gi) || [];
+
+  for (const tr of trMatches) {
+    const hourMatch = tr.match(/<td>\s*(\d{2})\s*<\/td>/i);
+    if (!hourMatch) continue;
+    const hour = hourMatch[1];
+
+    const liMatches = tr.match(/<li[^>]*class="[^"]*ek-train-tooltip[^"]*"[\s\S]*?<\/li>/gi) || [];
+    for (const li of liMatches) {
+      const typeMatch = li.match(/data-tr-type="([^"]+)"/i);
+      const destMatch = li.match(/data-dest="([^"]+)"/i);
+      const minMatch = li.match(/<span[^>]*class="[^"]*time-min[^"]*"[^>]*>\s*(\d{2})\s*<\/span>/i);
+      const hrefMatch = li.match(/href="([^"]+)"/i);
+
+      if (!minMatch) continue;
+      const rawType = typeMatch ? typeMatch[1].trim() : '普通';
+      const destination = destMatch ? destMatch[1].trim() : '';
+      const minute = minMatch[1];
+      const href = hrefMatch ? hrefMatch[1] : '';
+
+      let trainNo = '';
+      const txMatch = href.match(/tx=([0-9a-zA-Z\-_]+)/i);
+      if (txMatch) {
+        const rawCode = txMatch[1];
+        const parts = rawCode.split('-');
+        trainNo = parts[parts.length - 1];
+      } else {
+        trainNo = `${hour}${minute}`;
+      }
+
+      const hNum = parseInt(hour, 10);
+      const mNum = parseInt(minute, 10);
+      departures.push({
+        h: hNum,
+        m: mNum,
+        time: minute,
+        sec: hNum * 3600 + mNum * 60,
+        t: rawType,
+        d: destination,
+        no: trainNo,
+        rawType,
+      });
+    }
+  }
+
+  departures.sort((a, b) => a.sec - b.sec);
+  return departures;
+}
+
+function judgeDirection(tabName, st) {
+  // 方面タブ文字列に基づいて上り/下りを判定（駅名部分一致を避け、方面単位で判定）
+  if (tabName.includes('<下り主要行先>方面')) return 'outbound';
+  if (tabName.includes('<上り主要行先>方面')) return 'inbound';
+  return null;
+}
+
+async function scrapeStation(st, dw) {
+  let outbound = [];
+  let inbound = [];
+
+  const url = `https://ekitan.com/timetable/railway/line-station/${st.code}/d1?dw=${dw}`;
+  try {
+    const res = await fetch(url, {
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+      },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const html = await res.text();
+
+    const tabs = [...html.matchAll(/class="[^"]*ek-direction_tab[^"]*"[^>]*data-ek-direction_name="([^"]+)"/gi)].map((m) => m[1]);
+    const tables = [...html.matchAll(/<table[^>]*class="[^"]*ek-search-result[^"]*"[^>]*>([\s\S]*?)<\/table>/gi)].map((m) => m[1]);
+
+    for (let i = 0; i < tables.length; i++) {
+      const tabName = tabs[i] || '';
+      const deps = parseTableChunk(tables[i]);
+      const dir = judgeDirection(tabName, st);
+
+      if (dir === 'outbound') outbound = deps;
+      else if (dir === 'inbound') inbound = deps;
+    }
+  } catch (e) {
+    console.error(`Error fetching ${st.id}: ${e.message}`);
+  }
+
+  return { outbound, inbound };
+}
+```
+
+### 5. 公式列車番号エンリッチメントスクリプトテンプレート (`scripts/enrich_train_numbers.cjs`)
+Yahoo! 路線情報のダイヤに駅探の列車番号を突合し、`trainId` と `trainNumber` を分離・正規化して駅発車標と完全同期するテンプレートです。
+
+```javascript
+const fs = require('fs');
+const path = require('path');
+
+function normalizeTrainNumber(rawNo) {
+  if (!rawNo) return '';
+  const trimmed = rawNo.trim();
+  if (trimmed.includes('+')) {
+    return trimmed.split('+').map((p) => normalizeTrainNumber(p.trim())).join(' + ');
+  }
+  // アルファベット末尾やレ付きはそのまま
+  if (/[a-zA-Zレ]$/.test(trimmed) || trimmed.includes('-')) {
+    return trimmed;
+  }
+  // 純数字はレを付与
+  if (/^\d+$/.test(trimmed)) {
+    return `${trimmed}レ`;
+  }
+  return trimmed;
+}
+
+function enrichLine(lineId, ekitanDataPath) {
+  const globalPath = path.resolve(`src/data/lines/${lineId}/globalTimetable.json`);
+  const stationPath = path.resolve(`src/data/lines/${lineId}/stationTimetables.json`);
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const stationTimetables = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
+  const ekitanData = JSON.parse(fs.readFileSync(ekitanDataPath, 'utf8'));
+
+  const trainIdToOfficialNo = new Map();
+
+  for (const trip of trips) {
+    // 1. 内部IDの安全な退避（冪等性確保）
+    const lookupId = trip.trainId || trip.trainNumber;
+    trip.trainId = lookupId;
+
+    const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+    const dayData = ekitanData[dayKey] || {};
+
+    let officialNo = null;
+
+    // 2. 特急・臨時列車の辞書マッピング照合
+    // if (SPECIAL_MAP[lookupId]) { officialNo = SPECIAL_MAP[lookupId]; }
+
+    // 3. 始発駅・主要駅の発車時刻による突合
+    if (!officialNo) {
+      const originDeps = dayData[trip.originStationId]?.[trip.direction] || [];
+      const originStop = trip.stops.find((s) => s.stationId === trip.originStationId);
+      if (originStop && originStop.departureTime) {
+        const [h, m] = originStop.departureTime.split(':').map((v) => parseInt(v, 10));
+        const matched = originDeps.find((d) => d.h === h && d.m === m);
+        if (matched && matched.no) {
+          officialNo = normalizeTrainNumber(matched.no);
+        }
+      }
+    }
+
+    // 4. 途中停車駅によるフォールバック突合
+    if (!officialNo) {
+      for (const stop of trip.stops) {
+        if (!stop.departureTime) continue;
+        const [h, m] = stop.departureTime.split(':').map((v) => parseInt(v, 10));
+        const stDeps = dayData[stop.stationId]?.[trip.direction] || [];
+        const matched = stDeps.find((d) => d.h === h && d.m === m);
+        if (matched && matched.no) {
+          officialNo = normalizeTrainNumber(matched.no);
+          break;
+        }
+      }
+    }
+
+    if (officialNo) {
+      trip.trainNumber = officialNo;
+      trainIdToOfficialNo.set(lookupId, officialNo);
+    }
+  }
+
+  // 5. 駅発車標（stationTimetables.json）の完全同期
+  for (const stId of Object.keys(stationTimetables)) {
+    for (const dir of ['inbound', 'outbound']) {
+      for (const day of ['weekdays', 'holidays']) {
+        const deps = stationTimetables[stId]?.[dir]?.[day] || [];
+        for (const dep of deps) {
+          const rawId = dep.trainId || dep.no;
+          dep.trainId = rawId;
+          if (trainIdToOfficialNo.has(rawId)) {
+            dep.no = trainIdToOfficialNo.get(rawId);
+          }
+        }
+      }
+    }
+  }
+
+  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
+  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  console.log(`✅ ${lineId} の公式列車番号エンリッチメント完了`);
+}
 ```
