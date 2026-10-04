@@ -77,6 +77,23 @@ export function App() {
     if (!selectedTrainId) return null;
     const found = activeTrains.find((t) => t.tripId === selectedTrainId);
     if (found) {
+      // 終着駅に到着した直通列車で、後続トリップが既に停車・運行中の場合は直ちに後続トリップへハンドオーバー
+      if (found.throughTripId) {
+        const isFoundEnding = found.stops[found.stops.length - 1]?.stationId === found.currentStationId;
+        if (isFoundEnding) {
+          const successor = activeTrains.find((t) => t.tripId === found.throughTripId);
+          if (successor) {
+            if (!successor.customOrigin && found.customOrigin) {
+              successor.customOrigin = found.customOrigin;
+            }
+            if (!successor.customDestination && found.customDestination) {
+              successor.customDestination = found.customDestination;
+            }
+            return successor;
+          }
+        }
+      }
+
       const prev = lastSelectedTrainRef.current;
       if (
         prev &&
@@ -97,26 +114,26 @@ export function App() {
     const prev = lastSelectedTrainRef.current;
     if (prev) {
       const prevNo = formatTrainNumber(prev.trainNumber, prev.trainId, prev.tripId);
-      const successor = activeTrains.find((t) => {
-        if (t.tripId === prev.tripId) return false;
-        // 1. 直通先トリップID照合（路線に依存しない共通メタデータ）
-        if (
-          (prev.throughTripId && t.tripId === prev.throughTripId) ||
-          (t.throughTripId && t.throughTripId === prev.tripId)
-        ) {
-          return true;
-        }
-        // 2. 同一運行便ID（trainId）判定（会社境界で列車番号が変化する直通列車の確実な引き継ぎ）
-        if (prev.trainId && t.trainId && prev.trainId === t.trainId) {
-          return true;
-        }
-        // 3. 同一列車番号かつ同一方向判定
-        const curNo = formatTrainNumber(t.trainNumber, t.trainId, t.tripId);
-        if (curNo && prevNo && curNo === prevNo && t.direction === prev.direction) {
-          return true;
-        }
-        return false;
-      });
+      // 1. 直通先トリップID照合（最優先）
+      let successor = activeTrains.find(
+        (t) =>
+          t.tripId !== prev.tripId &&
+          ((prev.throughTripId && t.tripId === prev.throughTripId) ||
+            (t.throughTripId && t.throughTripId === prev.tripId))
+      );
+      // 2. 同一運行便ID（trainId）判定（会社境界で列車番号が変化する直通列車の確実な引き継ぎ）
+      if (!successor && prev.trainId) {
+        successor = activeTrains.find((t) => t.tripId !== prev.tripId && t.trainId === prev.trainId);
+      }
+      // 3. 同一列車番号かつ同一方向判定（フォールバック）
+      if (!successor && prevNo) {
+        successor = activeTrains.find(
+          (t) =>
+            t.tripId !== prev.tripId &&
+            formatTrainNumber(t.trainNumber, t.trainId, t.tripId) === prevNo &&
+            t.direction === prev.direction
+        );
+      }
       if (successor) {
         if (!successor.customOrigin && prev.customOrigin) {
           successor.customOrigin = prev.customOrigin;

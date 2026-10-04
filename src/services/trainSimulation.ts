@@ -160,7 +160,8 @@ export function calculateActiveTrains(
       stopTimes.push({ arrSec, depSec });
     }
 
-    const tripStartSec = stopTimes[0].depSec;
+    // 始発駅に入線・停車時刻（arrivalTime）がある場合はその時刻から運行開始（直通列車の境界駅停車中も有効化）
+    const tripStartSec = stopTimes[0].arrSec !== undefined ? Math.min(stopTimes[0].arrSec, stopTimes[0].depSec) : stopTimes[0].depSec;
     const tripEndSec = stopTimes[stopTimes.length - 1].depSec || stopTimes[stopTimes.length - 1].arrSec;
 
     // 現在時刻 adjustedCurrentSec をトリップの時間軸に合わせる
@@ -344,6 +345,20 @@ export function calculateActiveTrains(
     const stationIds = new Set(train.stops.map((s) => s.stationId));
     const hasBetterThroughTrain = coupledFilteredTrains.some((other) => {
       if (other === train) return false;
+
+      // 境界駅において直通ペア（throughTripId 照合）が同一駅に停車中の場合、
+      // 終着駅に到着した先行トリップよりも、これから出発する後続トリップを優先して描画する
+      if (
+        (train.throughTripId === other.tripId || other.throughTripId === train.tripId) &&
+        train.currentStationId === other.currentStationId
+      ) {
+        const isTrainEnding = train.stops[train.stops.length - 1].stationId === train.currentStationId;
+        const isOtherStarting = other.stops[0].stationId === other.currentStationId;
+        if (isTrainEnding && isOtherStarting) {
+          return true;
+        }
+      }
+
       const otherFormattedNo = formatTrainNumber(other.trainNumber, other.trainId, other.tripId);
       if (otherFormattedNo !== formattedNo) return false;
 
