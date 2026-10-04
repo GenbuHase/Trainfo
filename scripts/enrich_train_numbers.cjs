@@ -414,6 +414,280 @@ function enrichFukutoshin() {
   console.log('✅ 東京メトロ副都心線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
+// 西武線S-TRAIN特別指定辞書
+const SEIBU_SPECIAL = {
+  // 平日 S-TRAIN
+  '77814': '501M',
+  '144439': '502M',
+  '77815': '503M',
+  '144440': '504M',
+  '77816': '505M',
+  '77817': '507M',
+  '77818': '509M',
+  // 休日 S-TRAIN
+  '172007': '401レ',
+  '144626': '402レ',
+  '105731': '403レ',
+  '172006': '404レ',
+  '105730': '405レ',
+};
+
+/**
+ * 西武有楽町線のエンリッチメント処理
+ */
+function enrichSeibuYurakucho() {
+  console.log('=== 西武有楽町線 公式列車番号エンリッチメント開始 ===');
+
+  const globalPath = path.resolve('src/data/lines/seibu_yurakucho/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/seibu_yurakucho/stationTimetables.json');
+  const ekitanPath = path.resolve('scripts/ekitan_seibu_yurakucho_timetables.json');
+  const yahooCachePath = path.resolve('scripts/cache/yahoo/seibu_yurakucho/all_train_details.json');
+
+  if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(yahooCachePath)) {
+    throw new Error('西武有楽町線の必要なデータファイルが見つかりません。');
+  }
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const ekitanData = JSON.parse(fs.readFileSync(ekitanPath, 'utf8'));
+  const yahooCache = JSON.parse(fs.readFileSync(yahooCachePath, 'utf8'));
+  const stationTimetables = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
+
+  const yahooMap = new Map(yahooCache.map((t) => [t.trainId, t]));
+
+  let matchedSpecial = 0;
+  let matchedGuide = 0;
+  let matchedEkitan = 0;
+  let fallbackCount = 0;
+
+  const trainIdToOfficialNo = new Map();
+
+  for (const trip of trips) {
+    const originalId = trip.trainId || trip.trainNumber;
+    trip.trainId = originalId;
+
+    const isHoliday = trip.isHoliday;
+    const dayKey = isHoliday ? 'holiday' : 'weekday';
+    const yahooDetail = yahooMap.get(originalId);
+
+    let officialNo = '';
+
+    // 0. S-TRAIN 特別辞書
+    if (SEIBU_SPECIAL[originalId]) {
+      officialNo = SEIBU_SPECIAL[originalId];
+      matchedSpecial++;
+    }
+
+    // 1. guideComment
+    if (!officialNo && yahooDetail && yahooDetail.guideComment) {
+      const comment = yahooDetail.guideComment;
+      const regex = /([^\s−-]+)−([^\s−-]+)間は([A-Za-z0-9-]+)(.+?)で運転/g;
+      let m;
+      while ((m = regex.exec(comment)) !== null) {
+        const fromName = m[1].replace(/^[。、\s]+/, '');
+        const toName = m[2];
+        const num = m[3];
+        const isSeibu =
+          fromName.includes('小竹向原') || toName.includes('小竹向原') ||
+          fromName.includes('練馬') || toName.includes('練馬') ||
+          fromName.includes('清瀬') || toName.includes('清瀬') ||
+          fromName.includes('所沢') || toName.includes('所沢') ||
+          fromName.includes('小手指') || toName.includes('小手指') ||
+          fromName.includes('飯能') || toName.includes('飯能');
+        const isMetroTokyu =
+          (fromName.includes('和光市') && toName.includes('渋谷')) ||
+          (fromName.includes('渋谷') && toName.includes('元町')) ||
+          (fromName.includes('新木場') && toName.includes('小竹向原'));
+        if (isSeibu && !isMetroTokyu) {
+          officialNo = /^\d+$/.test(num) ? `${num}レ` : num;
+          matchedGuide++;
+          break;
+        }
+      }
+    }
+
+    // 2. 駅探データ
+    if (!officialNo) {
+      for (const stop of trip.stops) {
+        if (stop.isPassing) continue;
+        const [h, m] = stop.departureTime.split(':').map(Number);
+        const deps = ekitanData[dayKey]?.[stop.stationId]?.[trip.direction] || [];
+        const matched = deps.find((d) => d.hour === h && d.minute === m);
+        if (matched && matched.trainNo) {
+          officialNo = matched.trainNo;
+          matchedEkitan++;
+          break;
+        }
+      }
+    }
+
+    if (officialNo) {
+      trip.trainNumber = normalizeTrainNumber(officialNo);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+    } else {
+      fallbackCount++;
+      trainIdToOfficialNo.set(originalId, originalId);
+    }
+  }
+
+  console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
+  console.log(`  S-TRAIN特別指定: ${matchedSpecial} 便`);
+  console.log(`  guideComment より抽出: ${matchedGuide} 便`);
+  console.log(`  駅探データより突合: ${matchedEkitan} 便`);
+  console.log(`  未突合(フォールバック): ${fallbackCount} 便`);
+
+  let stUpdatedCount = 0;
+  for (const day of ['weekday', 'holiday']) {
+    const dayData = stationTimetables[day] || {};
+    for (const stId of Object.keys(dayData)) {
+      const stDirs = dayData[stId] || {};
+      for (const dir of ['inbound', 'outbound']) {
+        const deps = stDirs[dir] || [];
+        for (const dep of deps) {
+          const lookupId = dep.trainId || dep.no;
+          if (lookupId && trainIdToOfficialNo.has(lookupId)) {
+            dep.trainId = lookupId;
+            dep.no = trainIdToOfficialNo.get(lookupId);
+            stUpdatedCount++;
+          }
+        }
+      }
+    }
+  }
+  console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
+
+  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
+  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  console.log('✅ 西武有楽町線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
+}
+
+/**
+ * 西武池袋線のエンリッチメント処理
+ */
+function enrichSeibuIkebukuro() {
+  console.log('=== 西武池袋線 公式列車番号エンリッチメント開始 ===');
+
+  const globalPath = path.resolve('src/data/lines/seibu_ikebukuro/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/seibu_ikebukuro/stationTimetables.json');
+  const ekitanPath = path.resolve('scripts/ekitan_seibu_ikebukuro_timetables.json');
+  const yahooCachePath = path.resolve('scripts/cache/yahoo/seibu_ikebukuro/all_train_details.json');
+
+  if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(yahooCachePath)) {
+    throw new Error('西武池袋線の必要なデータファイルが見つかりません。');
+  }
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const ekitanData = JSON.parse(fs.readFileSync(ekitanPath, 'utf8'));
+  const yahooCache = JSON.parse(fs.readFileSync(yahooCachePath, 'utf8'));
+  const stationTimetables = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
+
+  const yahooMap = new Map(yahooCache.map((t) => [t.trainId, t]));
+
+  let matchedSpecial = 0;
+  let matchedGuide = 0;
+  let matchedEkitan = 0;
+  let fallbackCount = 0;
+
+  const trainIdToOfficialNo = new Map();
+
+  for (const trip of trips) {
+    const originalId = trip.trainId || trip.trainNumber;
+    trip.trainId = originalId;
+
+    const isHoliday = trip.isHoliday;
+    const dayKey = isHoliday ? 'holiday' : 'weekday';
+    const yahooDetail = yahooMap.get(originalId);
+
+    let officialNo = '';
+
+    // 0. S-TRAIN 特別辞書
+    if (SEIBU_SPECIAL[originalId]) {
+      officialNo = SEIBU_SPECIAL[originalId];
+      matchedSpecial++;
+    }
+
+    // 1. guideComment
+    if (!officialNo && yahooDetail && yahooDetail.guideComment) {
+      const comment = yahooDetail.guideComment;
+      const regex = /([^\s−-]+)−([^\s−-]+)間は([A-Za-z0-9-]+)(.+?)で運転/g;
+      let m;
+      while ((m = regex.exec(comment)) !== null) {
+        const fromName = m[1].replace(/^[。、\s]+/, '');
+        const toName = m[2];
+        const num = m[3];
+        const isSeibu =
+          fromName.includes('小竹向原') || toName.includes('小竹向原') ||
+          fromName.includes('練馬') || toName.includes('練馬') ||
+          fromName.includes('清瀬') || toName.includes('清瀬') ||
+          fromName.includes('所沢') || toName.includes('所沢') ||
+          fromName.includes('小手指') || toName.includes('小手指') ||
+          fromName.includes('飯能') || toName.includes('飯能');
+        const isMetroTokyu =
+          (fromName.includes('和光市') && toName.includes('渋谷')) ||
+          (fromName.includes('渋谷') && toName.includes('元町')) ||
+          (fromName.includes('新木場') && toName.includes('小竹向原'));
+        if (isSeibu && !isMetroTokyu) {
+          officialNo = /^\d+$/.test(num) ? `${num}レ` : num;
+          matchedGuide++;
+          break;
+        }
+      }
+    }
+
+    // 2. 駅探データ
+    if (!officialNo) {
+      for (const stop of trip.stops) {
+        if (stop.isPassing) continue;
+        const [h, m] = stop.departureTime.split(':').map(Number);
+        const deps = ekitanData[dayKey]?.[stop.stationId]?.[trip.direction] || [];
+        const matched = deps.find((d) => d.hour === h && d.minute === m);
+        if (matched && matched.trainNo) {
+          officialNo = matched.trainNo;
+          matchedEkitan++;
+          break;
+        }
+      }
+    }
+
+    if (officialNo) {
+      trip.trainNumber = normalizeTrainNumber(officialNo);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+    } else {
+      fallbackCount++;
+      trainIdToOfficialNo.set(originalId, originalId);
+    }
+  }
+
+  console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
+  console.log(`  S-TRAIN特別指定: ${matchedSpecial} 便`);
+  console.log(`  guideComment より抽出: ${matchedGuide} 便`);
+  console.log(`  駅探データより突合: ${matchedEkitan} 便`);
+  console.log(`  未突合(フォールバック): ${fallbackCount} 便`);
+
+  let stUpdatedCount = 0;
+  for (const day of ['weekday', 'holiday']) {
+    const dayData = stationTimetables[day] || {};
+    for (const stId of Object.keys(dayData)) {
+      const stDirs = dayData[stId] || {};
+      for (const dir of ['inbound', 'outbound']) {
+        const deps = stDirs[dir] || [];
+        for (const dep of deps) {
+          const lookupId = dep.trainId || dep.no;
+          if (lookupId && trainIdToOfficialNo.has(lookupId)) {
+            dep.trainId = lookupId;
+            dep.no = trainIdToOfficialNo.get(lookupId);
+            stUpdatedCount++;
+          }
+        }
+      }
+    }
+  }
+  console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
+
+  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
+  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  console.log('✅ 西武池袋線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
+}
+
 // 実行エントリーポイント
 const target = process.argv[2] || 'all';
 
@@ -426,3 +700,10 @@ if (target === 'yurakucho' || target === 'all') {
 if (target === 'fukutoshin' || target === 'all') {
   enrichFukutoshin();
 }
+if (target === 'seibu_yurakucho' || target === 'all') {
+  enrichSeibuYurakucho();
+}
+if (target === 'seibu_ikebukuro' || target === 'all') {
+  enrichSeibuIkebukuro();
+}
+

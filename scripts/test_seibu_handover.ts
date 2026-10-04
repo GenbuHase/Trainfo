@@ -334,7 +334,7 @@ if (trackedS1 && trackedS1.lineId === 'seibu_ikebukuro' && trackedS1.trainType =
 
 // 5. 土休日上り S-TRAIN 2号（飯能 -> 元町・中華街）の追尾テスト
 console.log('--- テスト5: 土休日上り S-TRAIN 2号 (西武池袋線 -> 西武有楽町線 -> 副都心線) 追尾テスト ---');
-const sTrain2SI = seibuIkebukuroTrips.find(t => t.isHoliday && t.trainType === 'strain' && t.direction === 'inbound' && t.trainNumber === '144626');
+const sTrain2SI = seibuIkebukuroTrips.find(t => t.isHoliday && t.trainType === 'strain' && t.direction === 'inbound' && (t.trainNumber === '402レ' || t.trainId === '144626'));
 if (!sTrain2SI) {
   console.error('❌ 土休日 S-TRAIN 2号が西武池袋線に見つかりません。');
   process.exit(1);
