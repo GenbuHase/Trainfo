@@ -1791,6 +1791,126 @@ function enrichOito() {
   }
 }
 
+/**
+ * 秩父鉄道秩父本線のエンリッチメント処理
+ */
+const SPECIAL_CHICHIBU_TRAINS = {
+  // SLパレオエクスプレス (熊谷 ↔ 三峰口)
+  '133343': '5001レ', // 下り (熊谷 10:15発 -> 三峰口 12:54着)
+  '133503': '5002レ', // 上り (三峰口 14:05発 -> 熊谷 16:20着)
+};
+
+function enrichChichibu() {
+  console.log('=== 秩父鉄道秩父本線 公式列車番号エンリッチメント開始 ===');
+
+  const globalPath = path.resolve('src/data/lines/chichibu/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/chichibu/stationTimetables.json');
+  const ekitanPath = path.resolve('scripts/ekitan_chichibu_timetables.json');
+
+  if (!fs.existsSync(globalPath) || !fs.existsSync(stationPath) || !fs.existsSync(ekitanPath)) {
+    throw new Error('秩父鉄道の必要なデータファイルが見つかりません。');
+  }
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const stationTimetables = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
+  const ekitanData = JSON.parse(fs.readFileSync(ekitanPath, 'utf8'));
+
+  // 駅探インデックスマップ構築: `${dayKey}:${stationId}:${direction}:${h}:${m}` -> item
+  const ekitanMap = new Map();
+  for (const dayKey of ['weekday', 'holiday']) {
+    const dayData = ekitanData[dayKey] || {};
+    for (const stId of Object.keys(dayData)) {
+      const dirs = dayData[stId] || {};
+      for (const dir of ['outbound', 'inbound']) {
+        const deps = dirs[dir] || [];
+        for (const dep of deps) {
+          const key = `${dayKey}:${stId}:${dir}:${dep.h}:${dep.m}`;
+          if (!ekitanMap.has(key)) {
+            ekitanMap.set(key, dep);
+          }
+        }
+      }
+    }
+  }
+
+  let matchedSpecial = 0;
+  let matchedEkitan = 0;
+  let fallbackCount = 0;
+  const trainIdToOfficialNo = new Map();
+
+  for (const trip of trips) {
+    const originalId = trip.trainId || trip.trainNumber;
+    trip.trainId = originalId;
+
+    let officialNo = null;
+
+    // 1. 特別指定（SLパレオエクスプレス等）
+    if (SPECIAL_CHICHIBU_TRAINS[originalId]) {
+      officialNo = SPECIAL_CHICHIBU_TRAINS[originalId];
+      matchedSpecial++;
+    }
+
+    // 2. 駅探データからの突合
+    if (!officialNo) {
+      const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+      for (const stop of trip.stops) {
+        if (stop.isPassing || !stop.departureTime) continue;
+        const [sh, sm] = stop.departureTime.split(':').map(Number);
+        const normH = sh >= 24 ? sh - 24 : sh;
+        const key = `${dayKey}:${stop.stationId}:${trip.direction}:${normH}:${sm}`;
+        const matched = ekitanMap.get(key);
+        if (matched && matched.no) {
+          officialNo = normalizeTrainNumber(matched.no);
+          matchedEkitan++;
+          break;
+        }
+      }
+    }
+
+    if (officialNo) {
+      trip.trainNumber = officialNo;
+      trainIdToOfficialNo.set(originalId, officialNo);
+    } else {
+      fallbackCount++;
+      // 純数字IDならレ付与、それ以外はそのまま
+      const fallbackNo = normalizeTrainNumber(originalId);
+      trip.trainNumber = fallbackNo;
+      trainIdToOfficialNo.set(originalId, fallbackNo);
+    }
+  }
+
+  console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
+  console.log(`  特別指定(SL等): ${matchedSpecial} 便`);
+  console.log(`  駅探データより突合: ${matchedEkitan} 便`);
+  console.log(`  フォールバック: ${fallbackCount} 便`);
+
+  // 駅発車標（stationTimetables.json）の同期
+  let stUpdatedCount = 0;
+  for (const day of ['weekday', 'holiday']) {
+    const dayData = stationTimetables[day] || {};
+    for (const stId of Object.keys(dayData)) {
+      const stDirs = dayData[stId] || {};
+      for (const dir of ['inbound', 'outbound']) {
+        const deps = stDirs[dir] || [];
+        for (const dep of deps) {
+          const rawId = dep.trainId || dep.no;
+          dep.trainId = rawId;
+          if (trainIdToOfficialNo.has(rawId)) {
+            dep.no = trainIdToOfficialNo.get(rawId);
+            stUpdatedCount++;
+          }
+        }
+      }
+    }
+  }
+
+  console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
+
+  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
+  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  console.log('✅ 秩父鉄道秩父本線の公式列車番号エンリッチメントが正常に完了しました！\n');
+}
+
 // 実行エントリーポイント
 const target = process.argv[2] || 'all';
 
@@ -1838,6 +1958,9 @@ if (target === 'shinonoi' || target === 'jr' || target === 'all') {
 }
 if (target === 'oito' || target === 'jr' || target === 'all') {
   enrichOito();
+}
+if (target === 'chichibu' || target === 'all') {
+  enrichChichibu();
 }
 
 

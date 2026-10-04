@@ -117,6 +117,12 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#a8a39d',
     numColor: '#6e6964',
   },
+  // 秩父鉄道秩父本線
+  CR: {
+    borderColor: '#0073bc',
+    prefixColor: '#0073bc',
+    numColor: '#005b94',
+  },
 };
 
 const DEFAULT_BADGE_COLOR: StationBadgeColor = {

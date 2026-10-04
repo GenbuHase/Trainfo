@@ -16,6 +16,7 @@ import { seibuIkebukuroLine } from './lines/seibu_ikebukuro';
 import { seibuYurakuchoLine } from './lines/seibu_yurakucho';
 import { hachikoLine } from './lines/hachiko';
 import { omeLine } from './lines/ome';
+import { chichibuLine } from './lines/chichibu';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -33,6 +34,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   chuo: chuoLine,
   chuo_main: chuoMainLine,
   ome: omeLine,
+  chichibu: chichibuLine,
   shinonoi: shinonoiLine,
   oito_east: oitoEastLine,
   oito_west: oitoWestLine,
@@ -57,6 +59,7 @@ const OPERATOR_DISPLAY_ORDER = [
   'JR西日本',
   '東京臨海高速鉄道',
   '首都圏新都市鉄道',
+  '秩父鉄道',
 ];
 
 // 運行会社ごとにグループ化した路線リストを取得
