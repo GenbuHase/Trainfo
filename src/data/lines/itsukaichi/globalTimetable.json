@@ -1218,65 +1218,6 @@
     "trainId": "38583"
   },
   {
-    "tripId": "WD_INB_JC-86_0814_9764",
-    "lineId": "itsukaichi",
-    "trainNumber": "9764",
-    "trainType": "local",
-    "direction": "inbound",
-    "originStationId": "JC-86",
-    "destinationStationId": "JC-55",
-    "customDestination": "鎌倉",
-    "cars": 4,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JC-86",
-        "arrivalTime": "08:14:00",
-        "departureTime": "08:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-85",
-        "arrivalTime": "08:18:25",
-        "departureTime": "08:18:25",
-        "isPassing": true
-      },
-      {
-        "stationId": "JC-84",
-        "arrivalTime": "08:20:58",
-        "departureTime": "08:20:58",
-        "isPassing": true
-      },
-      {
-        "stationId": "JC-83",
-        "arrivalTime": "08:23:00",
-        "departureTime": "08:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-82",
-        "arrivalTime": "08:27:53",
-        "departureTime": "08:27:53",
-        "isPassing": true
-      },
-      {
-        "stationId": "JC-81",
-        "arrivalTime": "08:31:46",
-        "departureTime": "08:31:46",
-        "isPassing": true
-      },
-      {
-        "stationId": "JC-55",
-        "arrivalTime": "08:35:00",
-        "departureTime": "08:35:00",
-        "isPassing": false
-      }
-    ],
-    "throughTripId": "WD_INB_JC-55_0835_9764",
-    "throughLineId": "ome",
-    "trainId": "9764"
-  },
-  {
     "tripId": "WD_OUT_JC-55_0819_38483",
     "lineId": "itsukaichi",
     "trainNumber": "38483",
@@ -4128,63 +4069,6 @@
     "trainId": "38601"
   },
   {
-    "tripId": "WD_OUT_JC-55_1854_9765",
-    "lineId": "itsukaichi",
-    "trainNumber": "9765",
-    "trainType": "local",
-    "direction": "outbound",
-    "originStationId": "JC-55",
-    "destinationStationId": "JC-86",
-    "cars": 4,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JC-55",
-        "arrivalTime": "18:52:00",
-        "departureTime": "18:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-81",
-        "arrivalTime": "18:57:14",
-        "departureTime": "18:57:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "JC-82",
-        "arrivalTime": "19:01:07",
-        "departureTime": "19:01:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "JC-83",
-        "arrivalTime": "19:05:00",
-        "departureTime": "19:06:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-84",
-        "arrivalTime": "19:08:57",
-        "departureTime": "19:08:57",
-        "isPassing": true
-      },
-      {
-        "stationId": "JC-85",
-        "arrivalTime": "19:12:37",
-        "departureTime": "19:12:37",
-        "isPassing": true
-      },
-      {
-        "stationId": "JC-86",
-        "arrivalTime": "19:19:00",
-        "departureTime": "19:19:00",
-        "isPassing": false
-      }
-    ],
-    "customOrigin": "立川",
-    "trainId": "9765"
-  },
-  {
     "tripId": "WD_OUT_JC-55_1903_38500",
     "lineId": "itsukaichi",
     "trainNumber": "38500",
@@ -7034,7 +6918,7 @@
     "tripId": "HD_INB_JC-86_0814_9764",
     "lineId": "itsukaichi",
     "trainNumber": "9764",
-    "trainType": "local",
+    "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "JC-86",
     "destinationStationId": "JC-55",
@@ -9854,7 +9738,7 @@
     "tripId": "HD_OUT_JC-55_1854_9765",
     "lineId": "itsukaichi",
     "trainNumber": "9765",
-    "trainType": "local",
+    "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "JC-55",
     "destinationStationId": "JC-86",

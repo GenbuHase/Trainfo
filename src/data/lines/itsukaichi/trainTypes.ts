@@ -79,5 +79,16 @@ export const ITSUKAICHI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#dc2626',
     borderColor: '#f87171',
   },
+  // 特急（鎌倉満喫五日市号等）: ボルドー
+  limitedExp: {
+    key: 'limitedExp',
+    name: '特急',
+    nameEn: 'Limited Express',
+    shortName: '特急',
+    color: '#be123c',
+    textColor: '#ffffff',
+    bgColor: '#be123c',
+    borderColor: '#f43f5e',
+  },
 };
 
