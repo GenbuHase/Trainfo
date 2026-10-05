@@ -15,6 +15,7 @@ import {
 import type { SimulationState } from './services/trainSimulation';
 import { getAllLines } from './data/linesRegistry';
 import { formatTrainNumber } from './data/timetableData';
+import { STATION_MAP } from './data/stations';
 
 
 import { loadSimulationFps } from './constants';
@@ -83,8 +84,9 @@ export function App() {
         if (isFoundEnding) {
           const successor = activeTrains.find((t) => t.tripId === found.throughTripId);
           if (successor) {
-            if (!successor.customOrigin && found.customOrigin) {
-              successor.customOrigin = found.customOrigin;
+            const foundOrigin = found.customOrigin || STATION_MAP.get(found.originStationId)?.name;
+            if (!successor.customOrigin && foundOrigin) {
+              successor.customOrigin = foundOrigin;
             }
             if (!successor.customDestination && found.customDestination) {
               successor.customDestination = found.customDestination;
@@ -100,8 +102,9 @@ export function App() {
         (prev.tripId === found.tripId ||
           formatTrainNumber(prev.trainNumber, prev.tripId) === formatTrainNumber(found.trainNumber, found.tripId))
       ) {
-        if (!found.customOrigin && prev.customOrigin) {
-          found.customOrigin = prev.customOrigin;
+        const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
+        if (!found.customOrigin && prevOrigin) {
+          found.customOrigin = prevOrigin;
         }
         if (!found.customDestination && prev.customDestination) {
           found.customDestination = prev.customDestination;
@@ -135,8 +138,9 @@ export function App() {
         );
       }
       if (successor) {
-        if (!successor.customOrigin && prev.customOrigin) {
-          successor.customOrigin = prev.customOrigin;
+        const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
+        if (!successor.customOrigin && prevOrigin) {
+          successor.customOrigin = prevOrigin;
         }
         if (!successor.customDestination && prev.customDestination) {
           successor.customDestination = prev.customDestination;

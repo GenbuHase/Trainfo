@@ -2894,7 +2894,8 @@
     "customDestination": "東京",
     "throughTripId": "WD_INB_CO-61_0638_6919",
     "throughLineId": "chuo",
-    "trainId": "6919"
+    "trainId": "6919",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_OUT_JC-24_0643_6888",
@@ -4927,7 +4928,8 @@
     "customDestination": "東京",
     "throughTripId": "WD_INB_CO-61_0718_6896",
     "throughLineId": "chuo",
-    "trainId": "6896"
+    "trainId": "6896",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_INB_CO-43_0718_33589",
@@ -7977,7 +7979,8 @@
     "customDestination": "東京",
     "throughTripId": "WD_INB_CO-61_0819_6922",
     "throughLineId": "chuo",
-    "trainId": "6922"
+    "trainId": "6922",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_OUT_JC-24_0826_10031",
@@ -9056,7 +9059,7 @@
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "JC-24",
-    "destinationStationId": "CO-57",
+    "destinationStationId": "CO-61",
     "customDestination": "松本",
     "cars": 10,
     "isHoliday": false,
@@ -9264,11 +9267,35 @@
         "arrivalTime": "11:17:00",
         "departureTime": "11:17:00",
         "isPassing": false
+      },
+      {
+        "stationId": "CO-58",
+        "arrivalTime": "11:20:15",
+        "departureTime": "11:20:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-59",
+        "arrivalTime": "11:23:30",
+        "departureTime": "11:23:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-60",
+        "arrivalTime": "11:27:34",
+        "departureTime": "11:27:34",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-61",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:30:00",
+        "isPassing": true
       }
     ],
     "customOrigin": "新宿",
-    "throughTripId": "WD_OUT_JC-05_0900_6862",
-    "throughLineId": "chuo",
+    "throughTripId": "sn_WD_OUT_SN-01_1130_6862",
+    "throughLineId": "shinonoi",
     "trainId": "6862"
   },
   {
@@ -10027,7 +10054,8 @@
     "customDestination": "東京",
     "throughTripId": "WD_INB_CO-61_0918_6930",
     "throughLineId": "chuo",
-    "trainId": "6930"
+    "trainId": "6930",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_OUT_CO-57_0922_38002",
@@ -11774,7 +11802,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1018_6899",
     "throughLineId": "chuo",
-    "trainId": "6899"
+    "trainId": "6899",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_INB_CO-51_1029_33605",
@@ -13706,7 +13735,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1118_6911",
     "throughLineId": "chuo",
-    "trainId": "6911"
+    "trainId": "6911",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_OUT_JC-05_1130_31135",
@@ -15105,7 +15135,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1218_6901",
     "throughLineId": "chuo",
-    "trainId": "6901"
+    "trainId": "6901",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_INB_JC-32_1219_1412",
@@ -16350,7 +16381,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1318_6902",
     "throughLineId": "chuo",
-    "trainId": "6902"
+    "trainId": "6902",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_OUT_JC-01_1321_28392",
@@ -17615,7 +17647,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1356_6912",
     "throughLineId": "chuo",
-    "trainId": "6912"
+    "trainId": "6912",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_OUT_JC-05_1400_6859",
@@ -18564,7 +18597,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1422_6917",
     "throughLineId": "chuo",
-    "trainId": "6917"
+    "trainId": "6917",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_INB_CO-43_1424_33552",
@@ -20064,16 +20098,40 @@
     "trainId": "39443"
   },
   {
-    "tripId": "cm_WD_INB_CO-57_1512_42025",
+    "tripId": "cm_WD_INB_CO-61_1458_42025",
     "lineId": "chuo_main",
     "trainNumber": "38M",
     "trainType": "limitedExp",
     "direction": "inbound",
-    "originStationId": "CO-57",
+    "originStationId": "CO-61",
     "destinationStationId": "JC-24",
-    "cars": 10,
+    "cars": 9,
     "isHoliday": false,
     "stops": [
+      {
+        "stationId": "CO-61",
+        "arrivalTime": "14:58:00",
+        "departureTime": "14:58:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-60",
+        "arrivalTime": "15:00:26",
+        "departureTime": "15:00:26",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-59",
+        "arrivalTime": "15:04:30",
+        "departureTime": "15:04:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-58",
+        "arrivalTime": "15:07:45",
+        "departureTime": "15:07:45",
+        "isPassing": true
+      },
       {
         "stationId": "CO-57",
         "arrivalTime": "15:11:00",
@@ -20282,7 +20340,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-57_1512_42025",
     "throughLineId": "chuo",
-    "trainId": "42025"
+    "trainId": "42025",
+    "customOrigin": "白馬"
   },
   {
     "tripId": "cm_WD_OUT_JC-01_1515_31114",
@@ -20923,7 +20982,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1520_6904",
     "throughLineId": "chuo",
-    "trainId": "6904"
+    "trainId": "6904",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_INB_JC-32_1525_1420",
@@ -21739,7 +21799,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1558_6926",
     "throughLineId": "chuo",
-    "trainId": "6926"
+    "trainId": "6926",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_INB_CO-43_1559_33596",
@@ -21882,7 +21943,7 @@
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "JC-24",
-    "destinationStationId": "CO-57",
+    "destinationStationId": "CO-61",
     "customDestination": "松本",
     "cars": 10,
     "isHoliday": false,
@@ -22090,11 +22151,35 @@
         "arrivalTime": "18:07:00",
         "departureTime": "18:07:00",
         "isPassing": false
+      },
+      {
+        "stationId": "CO-58",
+        "arrivalTime": "18:10:15",
+        "departureTime": "18:10:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-59",
+        "arrivalTime": "18:13:30",
+        "departureTime": "18:13:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-60",
+        "arrivalTime": "18:17:34",
+        "departureTime": "18:17:34",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-61",
+        "arrivalTime": "18:20:00",
+        "departureTime": "18:20:00",
+        "isPassing": true
       }
     ],
     "customOrigin": "新宿",
-    "throughTripId": "WD_OUT_JC-05_1600_6864",
-    "throughLineId": "chuo",
+    "throughTripId": "sn_WD_OUT_SN-01_1820_6864",
+    "throughLineId": "shinonoi",
     "trainId": "6864"
   },
   {
@@ -23089,7 +23174,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1638_6906",
     "throughLineId": "chuo",
-    "trainId": "6906"
+    "trainId": "6906",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_INB_CO-46_1643_33631",
@@ -24288,7 +24374,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1710_6928",
     "throughLineId": "chuo",
-    "trainId": "6928"
+    "trainId": "6928",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_OUT_JC-01_1715_31117",
@@ -25244,7 +25331,8 @@
     ],
     "throughTripId": "WD_INB_CO-61_1729_39462",
     "throughLineId": "chuo",
-    "trainId": "39462"
+    "trainId": "39462",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_OUT_CO-43_1730_6880",
@@ -25689,7 +25777,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1734_6916",
     "throughLineId": "chuo",
-    "trainId": "6916"
+    "trainId": "6916",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_OUT_CO-51_1737_7015",
@@ -28407,7 +28496,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1849_6914",
     "throughLineId": "chuo",
-    "trainId": "6914"
+    "trainId": "6914",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_OUT_JC-01_1852_28727",
@@ -29717,7 +29807,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_1940_6918",
     "throughLineId": "chuo",
-    "trainId": "6918"
+    "trainId": "6918",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_INB_CO-43_1940_33585",
@@ -31390,7 +31481,8 @@
     "customDestination": "新宿",
     "throughTripId": "WD_INB_CO-61_2018_6909",
     "throughLineId": "chuo",
-    "trainId": "6909"
+    "trainId": "6909",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_WD_INB_JC-32_2018_10047",
@@ -37431,7 +37523,8 @@
     "customDestination": "東京",
     "throughTripId": "HD_INB_CO-61_0638_6920",
     "throughLineId": "chuo",
-    "trainId": "6920"
+    "trainId": "6920",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_OUT_JC-24_0643_6890",
@@ -39953,7 +40046,8 @@
     "customDestination": "東京",
     "throughTripId": "HD_INB_CO-61_0718_6897",
     "throughLineId": "chuo",
-    "trainId": "6897"
+    "trainId": "6897",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_INB_CO-43_0718_33590",
@@ -43249,7 +43343,8 @@
     "customDestination": "東京",
     "throughTripId": "HD_INB_CO-61_0819_6921",
     "throughLineId": "chuo",
-    "trainId": "6921"
+    "trainId": "6921",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_OUT_JC-24_0824_10030",
@@ -44257,7 +44352,7 @@
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "JC-24",
-    "destinationStationId": "CO-57",
+    "destinationStationId": "CO-61",
     "customDestination": "松本",
     "cars": 10,
     "isHoliday": true,
@@ -44465,11 +44560,35 @@
         "arrivalTime": "11:17:00",
         "departureTime": "11:17:00",
         "isPassing": false
+      },
+      {
+        "stationId": "CO-58",
+        "arrivalTime": "11:20:15",
+        "departureTime": "11:20:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-59",
+        "arrivalTime": "11:23:30",
+        "departureTime": "11:23:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-60",
+        "arrivalTime": "11:27:34",
+        "departureTime": "11:27:34",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-61",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:30:00",
+        "isPassing": true
       }
     ],
     "customOrigin": "新宿",
-    "throughTripId": "HD_OUT_JC-05_0900_6861",
-    "throughLineId": "chuo",
+    "throughTripId": "sn_HD_OUT_SN-01_1130_6861",
+    "throughLineId": "shinonoi",
     "trainId": "6861"
   },
   {
@@ -45516,7 +45635,8 @@
     "customDestination": "東京",
     "throughTripId": "HD_INB_CO-61_0918_6929",
     "throughLineId": "chuo",
-    "trainId": "6929"
+    "trainId": "6929",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_OUT_JC-24_0918_31187",
@@ -47397,7 +47517,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1018_6898",
     "throughLineId": "chuo",
-    "trainId": "6898"
+    "trainId": "6898",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_INB_CO-51_1029_33606",
@@ -49258,7 +49379,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1118_6910",
     "throughLineId": "chuo",
-    "trainId": "6910"
+    "trainId": "6910",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_OUT_JC-01_1121_28387",
@@ -50656,7 +50778,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1218_6900",
     "throughLineId": "chuo",
-    "trainId": "6900"
+    "trainId": "6900",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_INB_JC-32_1223_1413",
@@ -51901,7 +52024,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1318_6903",
     "throughLineId": "chuo",
-    "trainId": "6903"
+    "trainId": "6903",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_INB_CO-43_1323_33576",
@@ -53166,7 +53290,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1356_6913",
     "throughLineId": "chuo",
-    "trainId": "6913"
+    "trainId": "6913",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_OUT_JC-05_1400_6858",
@@ -53976,7 +54101,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1415_6923",
     "throughLineId": "chuo",
-    "trainId": "6923"
+    "trainId": "6923",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_INB_JC-32_1415_10044",
@@ -54360,7 +54486,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1422_6917",
     "throughLineId": "chuo",
-    "trainId": "6917"
+    "trainId": "6917",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_INB_CO-43_1424_33570",
@@ -56042,16 +56169,40 @@
     "trainId": "39442"
   },
   {
-    "tripId": "cm_HD_INB_CO-57_1512_42026",
+    "tripId": "cm_HD_INB_CO-61_1458_42026",
     "lineId": "chuo_main",
     "trainNumber": "38M",
     "trainType": "limitedExp",
     "direction": "inbound",
-    "originStationId": "CO-57",
+    "originStationId": "CO-61",
     "destinationStationId": "JC-24",
-    "cars": 10,
+    "cars": 9,
     "isHoliday": true,
     "stops": [
+      {
+        "stationId": "CO-61",
+        "arrivalTime": "14:58:00",
+        "departureTime": "14:58:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-60",
+        "arrivalTime": "15:00:26",
+        "departureTime": "15:00:26",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-59",
+        "arrivalTime": "15:04:30",
+        "departureTime": "15:04:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-58",
+        "arrivalTime": "15:07:45",
+        "departureTime": "15:07:45",
+        "isPassing": true
+      },
       {
         "stationId": "CO-57",
         "arrivalTime": "15:11:00",
@@ -56260,7 +56411,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-57_1512_42026",
     "throughLineId": "chuo",
-    "trainId": "42026"
+    "trainId": "42026",
+    "customOrigin": "白馬"
   },
   {
     "tripId": "cm_HD_OUT_JC-01_1515_31113",
@@ -56830,7 +56982,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1520_6905",
     "throughLineId": "chuo",
-    "trainId": "6905"
+    "trainId": "6905",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_INB_CO-61_1524_6925",
@@ -57075,7 +57228,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1524_6925",
     "throughLineId": "chuo",
-    "trainId": "6925"
+    "trainId": "6925",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_OUT_JC-01_1526_28715",
@@ -57719,7 +57873,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1558_6927",
     "throughLineId": "chuo",
-    "trainId": "6927"
+    "trainId": "6927",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_OUT_JC-24_1558_6892",
@@ -58105,7 +58260,7 @@
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "JC-24",
-    "destinationStationId": "CO-57",
+    "destinationStationId": "CO-61",
     "customDestination": "松本",
     "cars": 10,
     "isHoliday": true,
@@ -58313,11 +58468,35 @@
         "arrivalTime": "18:07:00",
         "departureTime": "18:07:00",
         "isPassing": false
+      },
+      {
+        "stationId": "CO-58",
+        "arrivalTime": "18:10:15",
+        "departureTime": "18:10:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-59",
+        "arrivalTime": "18:13:30",
+        "departureTime": "18:13:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-60",
+        "arrivalTime": "18:17:34",
+        "departureTime": "18:17:34",
+        "isPassing": true
+      },
+      {
+        "stationId": "CO-61",
+        "arrivalTime": "18:20:00",
+        "departureTime": "18:20:00",
+        "isPassing": true
       }
     ],
     "customOrigin": "新宿",
-    "throughTripId": "HD_OUT_JC-05_1600_6863",
-    "throughLineId": "chuo",
+    "throughTripId": "sn_HD_OUT_SN-01_1820_6863",
+    "throughLineId": "shinonoi",
     "trainId": "6863"
   },
   {
@@ -58563,7 +58742,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1605_6924",
     "throughLineId": "chuo",
-    "trainId": "6924"
+    "trainId": "6924",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_INB_CO-43_1611_33573",
@@ -59528,7 +59708,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1638_6907",
     "throughLineId": "chuo",
-    "trainId": "6907"
+    "trainId": "6907",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_OUT_JC-01_1645_6835",
@@ -60689,7 +60870,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1710_6928",
     "throughLineId": "chuo",
-    "trainId": "6928"
+    "trainId": "6928",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_OUT_JC-01_1715_31118",
@@ -61645,7 +61827,8 @@
     ],
     "throughTripId": "HD_INB_CO-61_1729_39463",
     "throughLineId": "chuo",
-    "trainId": "39463"
+    "trainId": "39463",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_INB_JC-32_1730_1430",
@@ -62090,7 +62273,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1734_6916",
     "throughLineId": "chuo",
-    "trainId": "6916"
+    "trainId": "6916",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_OUT_CO-51_1737_7015",
@@ -64858,7 +65042,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1849_6915",
     "throughLineId": "chuo",
-    "trainId": "6915"
+    "trainId": "6915",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_OUT_CO-37_1856_31167",
@@ -66026,7 +66211,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_1940_6918",
     "throughLineId": "chuo",
-    "trainId": "6918"
+    "trainId": "6918",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_INB_CO-43_1940_33585",
@@ -67770,7 +67956,8 @@
     "customDestination": "新宿",
     "throughTripId": "HD_INB_CO-61_2018_6908",
     "throughLineId": "chuo",
-    "trainId": "6908"
+    "trainId": "6908",
+    "customOrigin": "松本"
   },
   {
     "tripId": "cm_HD_INB_JC-32_2018_10046",
