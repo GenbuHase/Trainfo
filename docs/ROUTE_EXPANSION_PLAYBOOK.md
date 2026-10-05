@@ -1,7 +1,7 @@
 # Trainfo 路線追加完全プレイブック（標準手順書 & チェックリスト）
 
 本ドキュメントは、Trainfo に新しい路線を追加する際の標準ワークフロー、データ構造、実装手順、およびハマりどころの防止策をまとめた完全マニュアルです。  
-これまでの**東武東上線**、**JR埼京線**・**JR川越線**、**東京臨海高速鉄道りんかい線**、**東京メトロ有楽町線**・**東京メトロ副都心線**、**西武池袋線**・**西武有楽町線**、**JR八高線**、**JR青梅線**、**秩父鉄道秩父本線**、**JR武蔵野線**、**首都圏新都市鉄道つくばエクスプレス（TX）**、**JR中央線**・**JR中央本線**、**JR篠ノ井線**、ならびに**JR大糸線（JR東日本 大糸線 / JR西日本 大糸線）**の実装、および**Yahoo! 乗換案内データソース共通基盤**への完全移行で培われた知見を集約しています。
+これまでの**東武東上線**、**東武越生線**、**JR埼京線**・**JR川越線（大宮〜高麗川全線）**、**東京臨海高速鉄道りんかい線**、**東京メトロ有楽町線**・**東京メトロ副都心線**、**西武池袋線**・**西武有楽町線**、**秩父鉄道秩父本線**、**JR八高線**、**JR武蔵野線**、**首都圏新都市鉄道つくばエクスプレス（TX）**、**JR中央線**・**JR中央本線**、**JR青梅線**、**JR五日市線**、**JR篠ノ井線**、ならびに**JR大糸線（JR東日本 大糸線 / JR西日本 大糸線）**の実装、および**Yahoo! 乗換案内データソース共通基盤**への完全移行で培われた知見を集約しています。
 
 ---
 
@@ -17,6 +17,7 @@ Trainfo/
 │   └── ROUTE_EXPANSION_PLAYBOOK.md     # 本手順書
 ├── scripts/
 │   ├── runYahooImporter.cjs            # Yahoo! 乗換案内 共通インポーター CLI
+│   ├── enrich_train_numbers.cjs        # 駅探ハイブリッド突合・公式列車番号エンリッチメント
 │   ├── common/
 │   │   └── yahoo/                      # 共通データ生成基盤
 │   │       ├── YahooClient.cjs         # HTTPクライアント & キャッシュ制御
@@ -86,14 +87,18 @@ flowchart TD
      ```typescript
      export type LineId =
        | 'tojo'
+       | 'ogose'
        | 'saikyo'
        | 'kawagoe'
        | 'rinkai'
-       | 'hachiko'           // ← 追加
+       | 'hachiko'
        | 'musashino'
        | 'tsukuba_express'
        | 'chuo'
        | 'chuo_main'
+       | 'ome'
+       | 'itsukaichi'
+       | 'chichibu'
        | 'shinonoi'
        | 'oito_east'
        | 'oito_west'
@@ -103,7 +108,7 @@ flowchart TD
        | 'seibu_yurakucho'
        | (string & {});
      ```
-   * 新路線固有の種別キーが必要な場合は `TrainTypeKey` に追加（例: `strain`, `commuter_semi` 等）。
+   * 新路線固有の種別キーが必要な場合は `TrainTypeKey` に追加（例: `strain`, `commuter_semi`, `sl` 等）。
 
 3. **種別定義の作成 ([`src/data/lines/<lineId>/trainTypes.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/lines/rinkai/trainTypes.ts))**:
    * 各種別の表示名、短縮名、背景色（`bgColor`）、文字色（`textColor`）、枠線色（`borderColor`）を定義。
@@ -274,6 +279,7 @@ Yahoo! 路線情報から生成されたダイヤデータには、内部数字I
      operator: '東京臨海高速鉄道',
      lineColor: '#00418e',
      accentColor: '#00418e',
+     defaultCars: 10,
      stations: RINKAI_STATIONS,
      trackSegments: RINKAI_TRACK_SEGMENTS,
      trainTypes: RINKAI_TRAIN_TYPES,
@@ -449,7 +455,7 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 
 ---
 
-## 5. 重要教訓・ハマりどころ防止策 18箇条（設計標準）
+## 5. 重要教訓・ハマりどころ防止策 24箇条（設計標準）
 
 > [!IMPORTANT]
 > 過去の実装およびYahoo!データ移行で解決された以下の知見を必ず遵守してください。
@@ -601,6 +607,13 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
   * **スクリプトの冪等性（Idempotency）保証**:
     * `trip.trainId = trip.trainId || trip.trainNumber;` のように既存IDを安全に退避・保持し、何度エンリッチメントスクリプトを実行してもデータが破損しない冪等な設計とする。
 
+### 24. 路線・駅固有処理のハードコード排除と共通化設計（デフォルト両数と汎用判定）
+* **事象**: 「各停/普通判定」や「始発駅・終着駅判定」「編成両数のデフォルト値」などをUIコンポーネントやシミュレータ内で特定路線ID（`tojo` や `chuo` 等）や特定駅番号（`number === 39` 等）で条件分岐（ハードコード）していると、新路線追加のたびに修正漏れや不具合が発生する。
+* **防止策（ベストプラクティス）**:
+  * **デフォルト両数メタデータ（`defaultCars`）**: `LineDefinition`（`src/types/index.ts`）に `defaultCars?: number` を定義し、各路線モジュール（`index.ts`）で規定の編成両数（例: 中央線 10両、中央本線 6両、八高線 4両、大糸線西日本 1両等）を設定。未指定の列車は自動的にこの標準両数を参照する。
+  * **始発駅・終着駅の汎用判定**: `station.number === 39` などの特定駅番号固定ではなく、`line.stations[0]?.id === station.id` や `line.stations[line.stations.length - 1]?.id === station.id` のように路線定義の先頭・末尾要素を参照して汎用的に判定する。
+  * **各駅停車系種別の共通判定関数（`isLocalTrainType`）**: 地図上の種別フィルター（`TrainMap.tsx`）やダイヤ共通処理等で、`local`, `regular`, `semiExp` などの各停系種別判定を共通関数 `isLocalTrainType`（`src/data/trainTypes.ts`）に集約し、個別コンポーネントでの多重定義を防ぐ。
+
 ---
 
 ## 6. 新路線追加 クイックチェックリスト（作業着手〜完了チェックシート）
@@ -608,7 +621,7 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 新規路線を追加する際は、以下のチェックリストを上から順に消化してください。
 
 ### Phase 1: 基本仕様 & 型定義
-- [ ] `lineId`, `name`, `operator`, `lineColor` を決定
+- [ ] `lineId`, `name`, `operator`, `lineColor`, `defaultCars` を決定
 - [ ] `src/types/index.ts` の `LineId` 共用体に新路線IDを追加
 - [ ] `src/data/lines/<lineId>/trainTypes.ts` を作成（種別カラー・名称）
 
@@ -634,7 +647,7 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 - [ ] `stationTimetables.json` の発車標（`no` / `trainId`）が同期されたことを確認
 
 ### Phase 5: レジストリ登録 & モジュール統合
-- [ ] `src/data/lines/<lineId>/index.ts` を作成し `LineDefinition` をエクスポート
+- [ ] `src/data/lines/<lineId>/index.ts` を作成し `LineDefinition`（`defaultCars` 含む）をエクスポート
 - [ ] `src/data/linesRegistry.ts` の `LINES_REGISTRY` に新路線を追加
 - [ ] 事業者が新規の場合、`OPERATOR_DISPLAY_ORDER` に追加
 
