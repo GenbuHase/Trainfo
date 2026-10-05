@@ -4,17 +4,18 @@ const exactStations = JSON.parse(fs.readFileSync('scripts/exact_stations.json', 
 const smoothSegments = JSON.parse(fs.readFileSync('scripts/ultra_smooth_segments.json', 'utf8'));
 
 // 1. stations.ts の更新
-let stationsContent = fs.readFileSync('src/data/stations.ts', 'utf8');
+let stationsContent = fs.readFileSync('src/data/lines/tojo/stations.ts', 'utf8');
 
 exactStations.forEach(st => {
   const regex = new RegExp(`(id:\\s*'${st.id}'[\\s\\S]*?lat:\\s*)([0-9.]+)([\\s\\S]*?lng:\\s*)([0-9.]+)`);
   stationsContent = stationsContent.replace(regex, `$1${st.lat}$3${st.lng}`);
 });
 
-fs.writeFileSync('src/data/stations.ts', stationsContent, 'utf8');
+fs.writeFileSync('src/data/lines/tojo/stations.ts', stationsContent, 'utf8');
 
 // 2. trackGeometry.ts の生成
-const trackGeometryTemplate = `// 東武東上線 高精度実軌道ジオメトリデータ（OpenStreetMap 本線精密トレース完全準拠）
+const trackGeometryTemplate = `import type { TrackSegment } from '../../../types';
+// 東武東上線 高精度実軌道ジオメトリデータ（OpenStreetMap 本線精密トレース完全準拠）
 // 全39駅が線路上に完全配置され、余計な側線・分岐・ジグザグを排除した本線軌道
 
 export interface TrackSegment {
@@ -135,5 +136,5 @@ export function interpolateTrackPosition(
 }
 `;
 
-fs.writeFileSync('src/data/trackGeometry.ts', trackGeometryTemplate, 'utf8');
-console.log('Successfully written src/data/trackGeometry.ts with 4-arg function signatures!');
+fs.writeFileSync('src/data/lines/tojo/trackGeometry.ts', trackGeometryTemplate, 'utf8');
+console.log('Successfully written src/data/lines/tojo/trackGeometry.ts with 4-arg function signatures!');

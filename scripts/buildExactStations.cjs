@@ -30,12 +30,12 @@ function projectPointToSegment(p, a, b) {
   return [a[0] + t * ab[0], a[1] + t * ab[1]];
 }
 
-// 基準となる各駅のおおよそのホーム位置（特にズレていた新河岸、若葉、東武竹沢、男衾などを線路の実位置で補正）
+// 基準となる各駅のおおよそのホーム位置（実線路・Wikipedia・現地データで完全補正）
 const RAW_STATIONS = [
-  { id: 'TJ-01', number: 1, name: '池袋', lat: 35.7296, lng: 139.7104 },
+  { id: 'TJ-01', number: 1, name: '池袋', lat: 35.7297, lng: 139.7108 },
   { id: 'TJ-02', number: 2, name: '北池袋', lat: 35.7412, lng: 139.7170 },
   { id: 'TJ-03', number: 3, name: '下板橋', lat: 35.7454, lng: 139.7152 },
-  { id: 'TJ-04', number: 4, name: '大山', lat: 35.7492, lng: 139.7019 },
+  { id: 'TJ-04', number: 4, name: '大山', lat: 35.7484, lng: 139.7026 },
   { id: 'TJ-05', number: 5, name: '中板橋', lat: 35.7559, lng: 139.6952 },
   { id: 'TJ-06', number: 6, name: 'ときわ台', lat: 35.7587, lng: 139.6894 },
   { id: 'TJ-07', number: 7, name: '上板橋', lat: 35.7634, lng: 139.6766 },
@@ -50,27 +50,27 @@ const RAW_STATIONS = [
   { id: 'TJ-16', number: 16, name: 'みずほ台', lat: 35.8382, lng: 139.5511 },
   { id: 'TJ-17', number: 17, name: '鶴瀬', lat: 35.8457, lng: 139.5396 },
   { id: 'TJ-18', number: 18, name: 'ふじみ野', lat: 35.8607, lng: 139.5232 },
-  { id: 'TJ-19', number: 19, name: '上福岡', lat: 35.8730, lng: 139.5126 },
-  { id: 'TJ-20', number: 20, name: '新河岸', lat: 35.8913, lng: 139.4968 }, // 実線路上に修正
+  { id: 'TJ-19', number: 19, name: '上福岡', lat: 35.8739, lng: 139.5117 },
+  { id: 'TJ-20', number: 20, name: '新河岸', lat: 35.8907, lng: 139.4974 },
   { id: 'TJ-21', number: 21, name: '川越', lat: 35.9072, lng: 139.4832 },
-  { id: 'TJ-22', number: 22, name: '川越市', lat: 35.9152, lng: 139.4760 },
+  { id: 'TJ-22', number: 22, name: '川越市', lat: 35.9141, lng: 139.4773 },
   { id: 'TJ-23', number: 23, name: '霞ヶ関', lat: 35.9256, lng: 139.4431 },
-  { id: 'TJ-24', number: 24, name: '鶴ヶ島', lat: 35.9361, lng: 139.4250 },
-  { id: 'TJ-25', number: 25, name: '若葉', lat: 35.9453, lng: 139.4132 },
-  { id: 'TJ-26', number: 26, name: '坂戸', lat: 35.9572, lng: 139.3941 },
-  { id: 'TJ-27', number: 27, name: '北坂戸', lat: 35.9731, lng: 139.3977 },
+  { id: 'TJ-24', number: 24, name: '鶴ヶ島', lat: 35.9369, lng: 139.4237 },
+  { id: 'TJ-25', number: 25, name: '若葉', lat: 35.9491, lng: 139.4087 },
+  { id: 'TJ-26', number: 26, name: '坂戸', lat: 35.9572, lng: 139.3934 },
+  { id: 'TJ-27', number: 27, name: '北坂戸', lat: 35.9722, lng: 139.3968 },
   { id: 'TJ-28', number: 28, name: '高坂', lat: 36.0028, lng: 139.3977 },
-  { id: 'TJ-29', number: 29, name: '東松山', lat: 36.0355, lng: 139.4013 },
-  { id: 'TJ-30', number: 30, name: '森林公園', lat: 36.0444, lng: 139.3788 },
-  { id: 'TJ-31', number: 31, name: 'つきのわ', lat: 36.0452, lng: 139.3506 },
-  { id: 'TJ-32', number: 32, name: '武蔵嵐山', lat: 36.0446, lng: 139.3274 },
+  { id: 'TJ-29', number: 29, name: '東松山', lat: 36.0348, lng: 139.4016 },
+  { id: 'TJ-30', number: 30, name: '森林公園', lat: 36.0452, lng: 139.3750 },
+  { id: 'TJ-31', number: 31, name: 'つきのわ', lat: 36.0435, lng: 139.3454 },
+  { id: 'TJ-32', number: 32, name: '武蔵嵐山', lat: 36.0444, lng: 139.3277 },
   { id: 'TJ-33', number: 33, name: '小川町', lat: 36.0588, lng: 139.2606 },
-  { id: 'TJ-34', number: 34, name: '東武竹沢', lat: 36.0794, lng: 139.2377 },
-  { id: 'TJ-35', number: 35, name: 'みなみ寄居', lat: 36.0958, lng: 139.2350 },
-  { id: 'TJ-36', number: 36, name: '男衾', lat: 36.1129, lng: 139.2245 },
-  { id: 'TJ-37', number: 37, name: '鉢形', lat: 36.1147, lng: 139.2037 },
-  { id: 'TJ-38', number: 38, name: '玉淀', lat: 36.1176, lng: 139.1946 },
-  { id: 'TJ-39', number: 39, name: '寄居', lat: 36.1173, lng: 139.1929 }
+  { id: 'TJ-34', number: 34, name: '東武竹沢', lat: 36.0755, lng: 139.2376 },
+  { id: 'TJ-35', number: 35, name: 'みなみ寄居', lat: 36.0924, lng: 139.2365 },
+  { id: 'TJ-36', number: 36, name: '男衾', lat: 36.1074, lng: 139.2343 },
+  { id: 'TJ-37', number: 37, name: '鉢形', lat: 36.1138, lng: 139.2092 },
+  { id: 'TJ-38', number: 38, name: '玉淀', lat: 36.11725, lng: 139.2000 },
+  { id: 'TJ-39', number: 39, name: '寄居', lat: 36.1176, lng: 139.1945 }
 ];
 
 // 全駅を本線way上の最短点（最近傍点）に100%完全スナップさせる
