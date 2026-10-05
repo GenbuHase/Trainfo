@@ -421,7 +421,9 @@ export const STATION_TRACK_SEGMENTS: TrackSegment[] = [
         35.9402905,
         139.370354
       ]
-    ]
+    ],
+    "fromName": "坂戸",
+    "toName": "一本松"
   },
   {
     "fromStationId": "TJ-41",
@@ -615,7 +617,9 @@ export const STATION_TRACK_SEGMENTS: TrackSegment[] = [
         35.9316003,
         139.3562988
       ]
-    ]
+    ],
+    "fromName": "一本松",
+    "toName": "西大家"
   },
   {
     "fromStationId": "TJ-42",
@@ -1021,7 +1025,9 @@ export const STATION_TRACK_SEGMENTS: TrackSegment[] = [
         35.9374227,
         139.3468226
       ]
-    ]
+    ],
+    "fromName": "西大家",
+    "toName": "川角"
   },
   {
     "fromStationId": "TJ-43",
@@ -1175,7 +1181,9 @@ export const STATION_TRACK_SEGMENTS: TrackSegment[] = [
         35.9419174,
         139.3259773
       ]
-    ]
+    ],
+    "fromName": "川角",
+    "toName": "武州長瀬"
   },
   {
     "fromStationId": "TJ-44",
@@ -1365,7 +1373,9 @@ export const STATION_TRACK_SEGMENTS: TrackSegment[] = [
         35.9468798,
         139.3154804
       ]
-    ]
+    ],
+    "fromName": "武州長瀬",
+    "toName": "東毛呂"
   },
   {
     "fromStationId": "TJ-45",
@@ -1499,7 +1509,9 @@ export const STATION_TRACK_SEGMENTS: TrackSegment[] = [
         35.952047,
         139.3093861
       ]
-    ]
+    ],
+    "fromName": "東毛呂",
+    "toName": "武州唐沢"
   },
   {
     "fromStationId": "TJ-46",
@@ -1725,6 +1737,8 @@ export const STATION_TRACK_SEGMENTS: TrackSegment[] = [
         35.9626661,
         139.2995389
       ]
-    ]
+    ],
+    "fromName": "武州唐沢",
+    "toName": "越生"
   }
 ];

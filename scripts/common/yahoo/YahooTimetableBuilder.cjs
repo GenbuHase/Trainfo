@@ -498,7 +498,15 @@ class YahooTimetableBuilder {
       originStationId: originSt.id,
       destinationStationId: destSt.id,
       customDestination,
-      cars: this.config.defaultCars || 6,
+      cars: this.config.resolveCars
+        ? this.config.resolveCars({
+            originStationId: originSt.id,
+            destinationStationId: destSt.id,
+            trainType,
+            direction,
+            stops,
+          })
+        : (this.config.defaultCars || 6),
       isHoliday,
       stops,
     };
