@@ -67,7 +67,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
   }, [station.name, station.lineId]);
 
   // 直近の発車スケジュールを取得
-  const departures = getStationDepartures(station.id, currentSec, isHoliday, 5);
+  const departures = getStationDepartures(station.id, currentSec, isHoliday, 5, station.lineId);
   const activeDepartures = selectedDirection === 'inbound' ? departures.inbound : departures.outbound;
 
   const inboundLabel = line?.directionNames.inboundShort || '上り方面';
@@ -105,7 +105,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
             <div className="flex flex-wrap gap-1.5">
               {alternateStations.map((alt) => (
                 <button
-                  key={alt.station.id}
+                  key={`${alt.station.lineId}_${alt.station.id}`}
                   type="button"
                   onClick={() => onSelectStation(alt.station)}
                   className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-white/20 hover:bg-white/30 text-white text-xs font-semibold backdrop-blur-xs transition-colors cursor-pointer"

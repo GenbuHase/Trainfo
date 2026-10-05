@@ -61,7 +61,7 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
   });
 
   // 全日時刻表データの取得
-  const fullDayData = getFullDayStationTimetable(station.id, isHoliday);
+  const fullDayData = getFullDayStationTimetable(station.id, isHoliday, station.lineId);
 
   // CSVダウンロード
   const handleDownloadCsv = () => {
@@ -115,7 +115,7 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
               <div className="hidden md:flex items-center gap-1.5">
                 {alternateStations.map((alt) => (
                   <button
-                    key={alt.station.id}
+                    key={`${alt.station.lineId}_${alt.station.id}`}
                     onClick={() => onSwitchStation(alt.station)}
                     className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 text-xs font-semibold text-slate-700 transition-colors shadow-2xs"
                     title={`${alt.lineName} ${alt.station.name}駅の時刻表に切り替え`}
