@@ -1,6 +1,6 @@
 import type { Station } from '../../../types';
 
-// JR川越線 (大宮 〜 川越 全6駅)
+// JR川越線 (大宮 〜 高麗川 全11駅)
 export const KAWAGOE_STATIONS: Station[] = [
   {
     "id": "JA-26",
@@ -167,7 +167,7 @@ export const KAWAGOE_STATIONS: Station[] = [
     "lat": 35.906862,
     "lng": 139.482991,
     "transfers": [
-      "JR川越線(高麗川方面)",
+      "JR八高線(直通)",
       "東武東上線",
       "西武新宿線(本川越駅)"
     ],
@@ -189,6 +189,139 @@ export const KAWAGOE_STATIONS: Station[] = [
     "platforms": {
       "inbound": "3〜6番線",
       "outbound": "3〜6番線"
+    }
+  },
+  {
+    "id": "JA-32",
+    "lineId": "kawagoe",
+    "number": 32,
+    "name": "西川越",
+    "nameKana": "にしかわごえ",
+    "nameEn": "Nishi-Kawagoe",
+    "lat": 35.9192275,
+    "lng": 139.4595141,
+    "transfers": [],
+    "address": "埼玉県川越市大字小室414-2",
+    "facilities": {
+      "elevator": false,
+      "restroom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": false,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JA-33",
+    "lineId": "kawagoe",
+    "number": 33,
+    "name": "的場",
+    "nameKana": "まとば",
+    "nameEn": "Matoba",
+    "lat": 35.9176166,
+    "lng": 139.4356381,
+    "transfers": [],
+    "address": "埼玉県川越市大字的場2165",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-34",
+    "lineId": "kawagoe",
+    "number": 34,
+    "name": "笠幡",
+    "nameKana": "かさはた",
+    "nameEn": "Kasahata",
+    "lat": 35.907626,
+    "lng": 139.4064215,
+    "transfers": [],
+    "address": "埼玉県川越市大字笠幡4434",
+    "facilities": {
+      "elevator": false,
+      "restroom": true,
+      "multipurposeToilet": false,
+      "waitingRoom": true,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JA-35",
+    "lineId": "kawagoe",
+    "number": 35,
+    "name": "武蔵高萩",
+    "nameKana": "むさしたかはぎ",
+    "nameEn": "Musashi-Takahagi",
+    "lat": 35.901735,
+    "lng": 139.3713355,
+    "transfers": [],
+    "address": "埼玉県日高市大字高萩615",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": false
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    }
+  },
+  {
+    "id": "JA-36",
+    "lineId": "kawagoe",
+    "number": 36,
+    "name": "高麗川",
+    "nameKana": "こまがわ",
+    "nameEn": "Komagawa",
+    "lat": 35.8962994,
+    "lng": 139.3380819,
+    "transfers": [
+      "JR八高線"
+    ],
+    "address": "埼玉県日高市大字原宿331-4",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "1〜3番線",
+      "outbound": "1〜3番線"
     }
   }
 ];
