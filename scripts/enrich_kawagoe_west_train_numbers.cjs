@@ -32,13 +32,14 @@ for (const file of files) {
 console.log(`収集した vendorTrainId マッピング数: ${trainIdToVendorNo.size}`);
 
 // 2. globalTimetable.json のエンリッチメント
+const crossTrainIds = new Set(['24551', '24549', '24553', '24550', '27902', '24552']);
 let westEnriched = 0;
 for (const trip of trips) {
   const oNum = parseInt(trip.originStationId.replace('JA-', ''), 10);
   const dNum = parseInt(trip.destinationStationId.replace('JA-', ''), 10);
-  // 川越以西 (JA-31〜JA-36) のみ対象
-  if (oNum >= 31 && dNum >= 31) {
-    const rawId = trip.trainId || trip.trainNumber;
+  const rawId = trip.trainId || trip.trainNumber;
+  // 川越以西 (JA-31〜JA-36) および 南古谷発直通便 (JA-30〜JA-36) を対象
+  if ((oNum >= 31 && dNum >= 31) || crossTrainIds.has(rawId)) {
     trip.trainId = rawId;
 
     const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
@@ -50,7 +51,7 @@ for (const trip of trips) {
   }
 }
 
-console.log(`GlobalTimetable 西区間エンリッチ完了: ${westEnriched} / 180 本`);
+console.log(`GlobalTimetable 西区間・出庫直通エンリッチ完了: ${westEnriched} 本`);
 
 // 3. stationTimetables.json のエンリッチメント (JA-31 outbound および JA-32〜JA-36)
 let stEnriched = 0;

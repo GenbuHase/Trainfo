@@ -114,6 +114,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -152,8 +153,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "27915",
-    "isHoliday": false
+    "trainId": "27915"
   },
   {
     "tripId": "kw_WD_OUT_JA-08_2335_26781",
@@ -344,15 +344,15 @@
     "trainId": "29032"
   },
   {
-    "tripId": "kw_WD_OUT_JA-30_0511_24551",
+    "tripId": "WD_OUT_JA-30_0511_24551",
     "lineId": "kawagoe",
     "trainNumber": "573H",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JA-30",
-    "destinationStationId": "JA-31",
+    "destinationStationId": "JA-36",
     "customDestination": "八王子",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": false,
     "stops": [
       {
@@ -366,9 +366,41 @@
         "arrivalTime": "05:15:00",
         "departureTime": "05:16:00",
         "isPassing": false
+      },
+      {
+        "stationId": "JA-32",
+        "arrivalTime": "05:19:00",
+        "departureTime": "05:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-33",
+        "arrivalTime": "05:22:00",
+        "departureTime": "05:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-34",
+        "arrivalTime": "05:25:00",
+        "departureTime": "05:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-35",
+        "arrivalTime": "05:30:00",
+        "departureTime": "05:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-36",
+        "arrivalTime": "05:37:00",
+        "departureTime": "05:43:00",
+        "isPassing": false
       }
     ],
-    "trainId": "24551"
+    "trainId": "24551",
+    "throughTripId": "WD_INB_HA-09_0543_24551",
+    "throughLineId": "hachiko"
   },
   {
     "tripId": "kw_WD_INB_JA-29_0516_29034",
@@ -514,6 +546,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -553,7 +586,6 @@
       }
     ],
     "trainId": "23001",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -610,15 +642,15 @@
     "trainId": "39203"
   },
   {
-    "tripId": "kw_WD_OUT_JA-30_0540_24549",
+    "tripId": "WD_OUT_JA-30_0540_24549",
     "lineId": "kawagoe",
     "trainNumber": "575H",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JA-30",
-    "destinationStationId": "JA-31",
+    "destinationStationId": "JA-36",
     "customDestination": "拝島",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": false,
     "stops": [
       {
@@ -632,9 +664,41 @@
         "arrivalTime": "05:44:00",
         "departureTime": "05:47:00",
         "isPassing": false
+      },
+      {
+        "stationId": "JA-32",
+        "arrivalTime": "05:50:00",
+        "departureTime": "05:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-33",
+        "arrivalTime": "05:53:00",
+        "departureTime": "05:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-34",
+        "arrivalTime": "05:56:00",
+        "departureTime": "05:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-35",
+        "arrivalTime": "06:01:00",
+        "departureTime": "06:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-36",
+        "arrivalTime": "06:08:00",
+        "departureTime": "06:15:00",
+        "isPassing": false
       }
     ],
-    "trainId": "24549"
+    "trainId": "24549",
+    "throughTripId": "WD_INB_HA-09_0615_24549",
+    "throughLineId": "hachiko"
   },
   {
     "tripId": "kw_WD_INB_JA-30_0541_29042",
@@ -786,6 +850,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -825,7 +890,6 @@
       }
     ],
     "trainId": "23002",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -838,6 +902,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -877,7 +942,6 @@
       }
     ],
     "trainId": "24555",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_0631_24555",
     "throughLineId": "hachiko"
   },
@@ -1078,6 +1142,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -1117,7 +1182,6 @@
       }
     ],
     "trainId": "23076",
-    "isHoliday": false,
     "customOrigin": "拝島"
   },
   {
@@ -1236,6 +1300,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -1275,7 +1340,6 @@
       }
     ],
     "trainId": "24558",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_0645_24558",
     "throughLineId": "hachiko"
   },
@@ -1329,6 +1393,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -1368,7 +1433,6 @@
       }
     ],
     "trainId": "23005",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -1434,6 +1498,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -1473,7 +1538,6 @@
       }
     ],
     "trainId": "24559",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_0715_24559",
     "throughLineId": "hachiko"
   },
@@ -1625,15 +1689,15 @@
     "trainId": "23082"
   },
   {
-    "tripId": "kw_WD_OUT_JA-30_0656_24553",
+    "tripId": "WD_OUT_JA-30_0656_24553",
     "lineId": "kawagoe",
     "trainNumber": "677H",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JA-30",
-    "destinationStationId": "JA-31",
+    "destinationStationId": "JA-36",
     "customDestination": "八王子",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": false,
     "stops": [
       {
@@ -1647,9 +1711,41 @@
         "arrivalTime": "07:00:00",
         "departureTime": "07:02:00",
         "isPassing": false
+      },
+      {
+        "stationId": "JA-32",
+        "arrivalTime": "07:05:00",
+        "departureTime": "07:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-33",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-34",
+        "arrivalTime": "07:14:00",
+        "departureTime": "07:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-35",
+        "arrivalTime": "07:19:00",
+        "departureTime": "07:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-36",
+        "arrivalTime": "07:26:00",
+        "departureTime": "07:33:00",
+        "isPassing": false
       }
     ],
-    "trainId": "24553"
+    "trainId": "24553",
+    "throughTripId": "WD_INB_HA-09_0733_24553",
+    "throughLineId": "hachiko"
   },
   {
     "tripId": "WD_INB_JA-36_0659_23006",
@@ -1660,6 +1756,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -1699,7 +1796,6 @@
       }
     ],
     "trainId": "23006",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -1858,6 +1954,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -1897,7 +1994,6 @@
       }
     ],
     "trainId": "23008",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -1963,6 +2059,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -2002,7 +2099,6 @@
       }
     ],
     "trainId": "24561",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_0751_24561",
     "throughLineId": "hachiko"
   },
@@ -2109,6 +2205,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -2148,7 +2245,6 @@
       }
     ],
     "trainId": "23079",
-    "isHoliday": false,
     "customOrigin": "拝島"
   },
   {
@@ -2214,6 +2310,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -2253,7 +2350,6 @@
       }
     ],
     "trainId": "24563",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_0808_24563",
     "throughLineId": "hachiko"
   },
@@ -2413,6 +2509,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -2452,7 +2549,6 @@
       }
     ],
     "trainId": "23010",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -2558,6 +2654,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -2596,8 +2693,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "27904",
-    "isHoliday": false
+    "trainId": "27904"
   },
   {
     "tripId": "kw_WD_INB_JA-31_0803_43294",
@@ -2775,6 +2871,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -2814,7 +2911,6 @@
       }
     ],
     "trainId": "23012",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -2827,6 +2923,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -2866,7 +2963,6 @@
       }
     ],
     "trainId": "24566",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_0844_24566",
     "throughLineId": "hachiko"
   },
@@ -2985,6 +3081,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -3023,8 +3120,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "24628",
-    "isHoliday": false
+    "trainId": "24628"
   },
   {
     "tripId": "kw_WD_INB_JA-31_0837_23098",
@@ -3089,6 +3185,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -3128,7 +3225,6 @@
       }
     ],
     "trainId": "24568",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_0903_24568",
     "throughLineId": "hachiko"
   },
@@ -3194,6 +3290,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -3233,7 +3330,6 @@
       }
     ],
     "trainId": "23013",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -3246,6 +3342,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -3285,7 +3382,6 @@
       }
     ],
     "trainId": "24570",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_0925_24570",
     "throughLineId": "hachiko"
   },
@@ -3404,6 +3500,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -3443,7 +3540,6 @@
       }
     ],
     "trainId": "23015",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -3562,6 +3658,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -3601,7 +3698,6 @@
       }
     ],
     "trainId": "24571",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_0943_24571",
     "throughLineId": "hachiko"
   },
@@ -3614,6 +3710,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -3653,7 +3750,6 @@
       }
     ],
     "trainId": "23018",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -3771,6 +3867,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -3810,7 +3907,6 @@
       }
     ],
     "trainId": "23020",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -3823,6 +3919,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -3862,7 +3959,6 @@
       }
     ],
     "trainId": "24573",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1008_24573",
     "throughLineId": "hachiko"
   },
@@ -4034,6 +4130,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -4073,7 +4170,6 @@
       }
     ],
     "trainId": "23021",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -4086,6 +4182,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -4125,7 +4222,6 @@
       }
     ],
     "trainId": "24575",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1034_24575",
     "throughLineId": "hachiko"
   },
@@ -4297,6 +4393,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -4336,7 +4433,6 @@
       }
     ],
     "trainId": "23023",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -4349,6 +4445,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -4388,7 +4485,6 @@
       }
     ],
     "trainId": "24577",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1101_24577",
     "throughLineId": "hachiko"
   },
@@ -4507,6 +4603,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -4546,7 +4643,6 @@
       }
     ],
     "trainId": "23026",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -4612,6 +4708,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -4651,7 +4748,6 @@
       }
     ],
     "trainId": "24578",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1130_24578",
     "throughLineId": "hachiko"
   },
@@ -4823,6 +4919,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -4862,7 +4959,6 @@
       }
     ],
     "trainId": "23027",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -4875,6 +4971,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -4914,7 +5011,6 @@
       }
     ],
     "trainId": "24579",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1200_24579",
     "throughLineId": "hachiko"
   },
@@ -5033,6 +5129,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -5072,7 +5169,6 @@
       }
     ],
     "trainId": "23028",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -5138,6 +5234,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -5177,7 +5274,6 @@
       }
     ],
     "trainId": "24581",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1230_24581",
     "throughLineId": "hachiko"
   },
@@ -5349,6 +5445,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -5388,7 +5485,6 @@
       }
     ],
     "trainId": "23031",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -5401,6 +5497,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -5440,7 +5537,6 @@
       }
     ],
     "trainId": "24583",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1300_24583",
     "throughLineId": "hachiko"
   },
@@ -5559,6 +5655,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -5598,7 +5695,6 @@
       }
     ],
     "trainId": "23033",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -5664,6 +5760,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -5703,7 +5800,6 @@
       }
     ],
     "trainId": "24585",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1330_24585",
     "throughLineId": "hachiko"
   },
@@ -5875,6 +5971,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -5914,7 +6011,6 @@
       }
     ],
     "trainId": "23035",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -5927,6 +6023,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -5966,7 +6063,6 @@
       }
     ],
     "trainId": "24587",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1400_24587",
     "throughLineId": "hachiko"
   },
@@ -6085,6 +6181,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -6124,7 +6221,6 @@
       }
     ],
     "trainId": "23037",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -6190,6 +6286,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -6229,7 +6326,6 @@
       }
     ],
     "trainId": "24589",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1430_24589",
     "throughLineId": "hachiko"
   },
@@ -6401,6 +6497,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -6440,7 +6537,6 @@
       }
     ],
     "trainId": "23039",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -6453,6 +6549,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -6492,7 +6589,6 @@
       }
     ],
     "trainId": "24591",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1500_24591",
     "throughLineId": "hachiko"
   },
@@ -6611,6 +6707,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -6650,7 +6747,6 @@
       }
     ],
     "trainId": "23040",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -6716,6 +6812,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -6755,7 +6852,6 @@
       }
     ],
     "trainId": "24594",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1530_24594",
     "throughLineId": "hachiko"
   },
@@ -6927,6 +7023,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -6966,7 +7063,6 @@
       }
     ],
     "trainId": "23043",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -6979,6 +7075,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -7018,7 +7115,6 @@
       }
     ],
     "trainId": "24596",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1600_24596",
     "throughLineId": "hachiko"
   },
@@ -7137,6 +7233,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -7176,7 +7273,6 @@
       }
     ],
     "trainId": "23045",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -7242,6 +7338,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -7281,7 +7378,6 @@
       }
     ],
     "trainId": "24597",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1629_24597",
     "throughLineId": "hachiko"
   },
@@ -7400,6 +7496,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -7439,7 +7536,6 @@
       }
     ],
     "trainId": "23047",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -7452,6 +7548,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -7491,7 +7588,6 @@
       }
     ],
     "trainId": "24599",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1700_24599",
     "throughLineId": "hachiko"
   },
@@ -7651,6 +7747,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -7689,8 +7786,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "27907",
-    "isHoliday": false
+    "trainId": "27907"
   },
   {
     "tripId": "kw_WD_OUT_JA-08_1603_26832",
@@ -7754,6 +7850,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -7793,7 +7890,6 @@
       }
     ],
     "trainId": "23049",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -7806,6 +7902,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -7845,7 +7942,6 @@
       }
     ],
     "trainId": "24601",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1724_24601",
     "throughLineId": "hachiko"
   },
@@ -8005,6 +8101,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -8043,8 +8140,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "24631",
-    "isHoliday": false
+    "trainId": "24631"
   },
   {
     "tripId": "kw_WD_INB_JA-31_1725_23103",
@@ -8150,6 +8246,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -8189,7 +8286,6 @@
       }
     ],
     "trainId": "24603",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1754_24603",
     "throughLineId": "hachiko"
   },
@@ -8255,6 +8351,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -8294,7 +8391,6 @@
       }
     ],
     "trainId": "23051",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -8359,6 +8455,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -8397,8 +8494,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "27909",
-    "isHoliday": false
+    "trainId": "27909"
   },
   {
     "tripId": "kw_WD_OUT_JA-08_1708_26858",
@@ -8569,6 +8665,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -8608,7 +8705,6 @@
       }
     ],
     "trainId": "23053",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -8621,6 +8717,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -8660,7 +8757,6 @@
       }
     ],
     "trainId": "24606",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1837_24606",
     "throughLineId": "hachiko"
   },
@@ -8779,6 +8875,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -8817,8 +8914,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "24632",
-    "isHoliday": false
+    "trainId": "24632"
   },
   {
     "tripId": "kw_WD_INB_JA-31_1825_23106",
@@ -8936,6 +9032,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -8975,7 +9072,6 @@
       }
     ],
     "trainId": "24608",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1854_24608",
     "throughLineId": "hachiko"
   },
@@ -8988,6 +9084,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -9027,7 +9124,6 @@
       }
     ],
     "trainId": "23055",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -9199,6 +9295,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -9238,7 +9335,6 @@
       }
     ],
     "trainId": "24610",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1917_24610",
     "throughLineId": "hachiko"
   },
@@ -9304,6 +9400,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -9343,7 +9440,6 @@
       }
     ],
     "trainId": "23057",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -9409,6 +9505,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -9448,7 +9545,6 @@
       }
     ],
     "trainId": "24611",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_1944_24611",
     "throughLineId": "hachiko"
   },
@@ -9620,6 +9716,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -9659,7 +9756,6 @@
       }
     ],
     "trainId": "23058",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -9672,6 +9768,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -9711,7 +9808,6 @@
       }
     ],
     "trainId": "24613",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_2010_24613",
     "throughLineId": "hachiko"
   },
@@ -9830,6 +9926,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -9869,7 +9966,6 @@
       }
     ],
     "trainId": "23059",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -9935,6 +10031,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -9974,7 +10071,6 @@
       }
     ],
     "trainId": "24614",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_2032_24614",
     "throughLineId": "hachiko"
   },
@@ -10093,6 +10189,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -10132,7 +10229,6 @@
       }
     ],
     "trainId": "23061",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -10144,6 +10240,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -10182,8 +10279,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "27912",
-    "isHoliday": false
+    "trainId": "27912"
   },
   {
     "tripId": "kw_WD_OUT_JA-11_1932_39267",
@@ -10300,6 +10396,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -10339,7 +10436,6 @@
       }
     ],
     "trainId": "23064",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -10405,6 +10501,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -10444,7 +10541,6 @@
       }
     ],
     "trainId": "24617",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_2105_24617",
     "throughLineId": "hachiko"
   },
@@ -10563,6 +10659,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -10601,8 +10698,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "24636",
-    "isHoliday": false
+    "trainId": "24636"
   },
   {
     "tripId": "kw_WD_INB_JA-31_2056_29049",
@@ -10667,6 +10763,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -10706,7 +10803,6 @@
       }
     ],
     "trainId": "24619",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_2128_24619",
     "throughLineId": "hachiko"
   },
@@ -10825,6 +10921,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -10864,7 +10961,6 @@
       }
     ],
     "trainId": "23066",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -10930,6 +11026,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -10969,7 +11066,6 @@
       }
     ],
     "trainId": "24621",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_2153_24621",
     "throughLineId": "hachiko"
   },
@@ -11088,6 +11184,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -11127,7 +11224,6 @@
       }
     ],
     "trainId": "23067",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -11193,6 +11289,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -11232,7 +11329,6 @@
       }
     ],
     "trainId": "24623",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_2220_24623",
     "throughLineId": "hachiko"
   },
@@ -11298,6 +11394,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -11337,7 +11434,6 @@
       }
     ],
     "trainId": "23069",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -11561,6 +11657,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -11600,7 +11697,6 @@
       }
     ],
     "trainId": "23071",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -11666,6 +11762,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -11705,7 +11802,6 @@
       }
     ],
     "trainId": "24625",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_2246_24625",
     "throughLineId": "hachiko"
   },
@@ -11878,6 +11974,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "拝島",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -11917,7 +12014,6 @@
       }
     ],
     "trainId": "24554",
-    "isHoliday": false,
     "throughTripId": "WD_INB_HA-09_2306_24554",
     "throughLineId": "hachiko"
   },
@@ -12089,6 +12185,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -12128,7 +12225,6 @@
       }
     ],
     "trainId": "23072",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -12299,6 +12395,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-31",
@@ -12337,8 +12434,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "27914",
-    "isHoliday": false
+    "trainId": "27914"
   },
   {
     "tripId": "WD_INB_JA-36_2336_23075",
@@ -12349,6 +12445,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": false,
     "stops": [
       {
         "stationId": "JA-36",
@@ -12388,7 +12485,6 @@
       }
     ],
     "trainId": "23075",
-    "isHoliday": false,
     "customOrigin": "八王子"
   },
   {
@@ -12506,6 +12602,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -12544,8 +12641,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "27915",
-    "isHoliday": true
+    "trainId": "27915"
   },
   {
     "tripId": "kw_HD_OUT_JA-08_2335_26780",
@@ -12695,15 +12791,15 @@
     "trainId": "29045"
   },
   {
-    "tripId": "kw_HD_OUT_JA-30_0511_24550",
+    "tripId": "HD_OUT_JA-30_0511_24550",
     "lineId": "kawagoe",
     "trainNumber": "573H",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JA-30",
-    "destinationStationId": "JA-31",
+    "destinationStationId": "JA-36",
     "customDestination": "八王子",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -12717,9 +12813,41 @@
         "arrivalTime": "05:15:00",
         "departureTime": "05:16:00",
         "isPassing": false
+      },
+      {
+        "stationId": "JA-32",
+        "arrivalTime": "05:19:00",
+        "departureTime": "05:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-33",
+        "arrivalTime": "05:22:00",
+        "departureTime": "05:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-34",
+        "arrivalTime": "05:25:00",
+        "departureTime": "05:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-35",
+        "arrivalTime": "05:30:00",
+        "departureTime": "05:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-36",
+        "arrivalTime": "05:37:00",
+        "departureTime": "05:43:00",
+        "isPassing": false
       }
     ],
-    "trainId": "24550"
+    "trainId": "24550",
+    "throughTripId": "HD_INB_HA-09_0543_24550",
+    "throughLineId": "hachiko"
   },
   {
     "tripId": "kw_HD_INB_JA-29_0515_29033",
@@ -12824,6 +12952,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -12863,7 +12992,6 @@
       }
     ],
     "trainId": "23000",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -12967,15 +13095,14 @@
     "trainId": "29041"
   },
   {
-    "tripId": "kw_HD_OUT_JA-30_0540_27902",
+    "tripId": "HD_OUT_JA-30_0540_27902",
     "lineId": "kawagoe",
     "trainNumber": "575H",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JA-30",
-    "destinationStationId": "JA-31",
-    "customDestination": "高麗川",
-    "cars": 10,
+    "destinationStationId": "JA-36",
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -12988,6 +13115,36 @@
         "stationId": "JA-31",
         "arrivalTime": "05:45:00",
         "departureTime": "05:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-32",
+        "arrivalTime": "05:50:00",
+        "departureTime": "05:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-33",
+        "arrivalTime": "05:53:00",
+        "departureTime": "05:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-34",
+        "arrivalTime": "05:56:00",
+        "departureTime": "05:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-35",
+        "arrivalTime": "06:01:00",
+        "departureTime": "06:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-36",
+        "arrivalTime": "06:08:00",
+        "departureTime": "06:08:00",
         "isPassing": false
       }
     ],
@@ -13055,6 +13212,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -13094,7 +13252,6 @@
       }
     ],
     "trainId": "23003",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -13107,6 +13264,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -13146,7 +13304,6 @@
       }
     ],
     "trainId": "24556",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_0626_24556",
     "throughLineId": "hachiko"
   },
@@ -13306,6 +13463,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -13344,8 +13502,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "24626",
-    "isHoliday": true
+    "trainId": "24626"
   },
   {
     "tripId": "kw_HD_INB_JA-31_0619_23118",
@@ -13410,6 +13567,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -13449,7 +13607,6 @@
       }
     ],
     "trainId": "24557",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_0643_24557",
     "throughLineId": "hachiko"
   },
@@ -13515,6 +13672,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -13554,19 +13712,18 @@
       }
     ],
     "trainId": "23077",
-    "isHoliday": true,
     "customOrigin": "拝島"
   },
   {
-    "tripId": "kw_HD_OUT_JA-30_0630_24552",
+    "tripId": "HD_OUT_JA-30_0630_24552",
     "lineId": "kawagoe",
     "trainNumber": "677H",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JA-30",
-    "destinationStationId": "JA-31",
+    "destinationStationId": "JA-36",
     "customDestination": "八王子",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -13580,9 +13737,41 @@
         "arrivalTime": "06:34:00",
         "departureTime": "06:41:00",
         "isPassing": false
+      },
+      {
+        "stationId": "JA-32",
+        "arrivalTime": "06:44:00",
+        "departureTime": "06:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-33",
+        "arrivalTime": "06:47:00",
+        "departureTime": "06:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-34",
+        "arrivalTime": "06:51:00",
+        "departureTime": "06:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-35",
+        "arrivalTime": "06:55:00",
+        "departureTime": "06:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JA-36",
+        "arrivalTime": "07:00:00",
+        "departureTime": "07:01:00",
+        "isPassing": false
       }
     ],
-    "trainId": "24552"
+    "trainId": "24552",
+    "throughTripId": "HD_INB_HA-09_0701_24552",
+    "throughLineId": "hachiko"
   },
   {
     "tripId": "kw_HD_INB_JA-31_0641_23119",
@@ -13687,6 +13876,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -13726,7 +13916,6 @@
       }
     ],
     "trainId": "23004",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -13792,6 +13981,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -13831,7 +14021,6 @@
       }
     ],
     "trainId": "24560",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_0719_24560",
     "throughLineId": "hachiko"
   },
@@ -13897,6 +14086,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -13936,7 +14126,6 @@
       }
     ],
     "trainId": "23007",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -14042,6 +14231,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -14081,7 +14271,6 @@
       }
     ],
     "trainId": "27903",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_0737_28308",
     "throughLineId": "hachiko",
     "customDestination": "八王子"
@@ -14095,6 +14284,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -14134,7 +14324,6 @@
       }
     ],
     "trainId": "23078",
-    "isHoliday": true,
     "customOrigin": "拝島"
   },
   {
@@ -14294,6 +14483,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -14333,7 +14523,6 @@
       }
     ],
     "trainId": "24562",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_0756_24562",
     "throughLineId": "hachiko"
   },
@@ -14346,6 +14535,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -14384,8 +14574,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "24627",
-    "isHoliday": true
+    "trainId": "24627"
   },
   {
     "tripId": "kw_HD_INB_JA-29_0745_39259",
@@ -14544,6 +14733,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -14583,7 +14773,6 @@
       }
     ],
     "trainId": "24564",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_0817_24564",
     "throughLineId": "hachiko"
   },
@@ -14657,6 +14846,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -14696,7 +14886,6 @@
       }
     ],
     "trainId": "23009",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -14762,6 +14951,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -14801,7 +14991,6 @@
       }
     ],
     "trainId": "24565",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_0835_24565",
     "throughLineId": "hachiko"
   },
@@ -14867,6 +15056,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -14906,7 +15096,6 @@
       }
     ],
     "trainId": "23011",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -14972,6 +15161,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -15011,7 +15201,6 @@
       }
     ],
     "trainId": "24567",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_0900_24567",
     "throughLineId": "hachiko"
   },
@@ -15077,6 +15266,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -15116,7 +15306,6 @@
       }
     ],
     "trainId": "23014",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -15182,6 +15371,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -15221,7 +15411,6 @@
       }
     ],
     "trainId": "24569",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_0923_24569",
     "throughLineId": "hachiko"
   },
@@ -15287,6 +15476,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -15326,7 +15516,6 @@
       }
     ],
     "trainId": "23016",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -15391,6 +15580,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -15429,8 +15619,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "27905",
-    "isHoliday": true
+    "trainId": "27905"
   },
   {
     "tripId": "kw_HD_OUT_JA-08_0818_39200",
@@ -15494,6 +15683,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -15533,7 +15723,6 @@
       }
     ],
     "trainId": "23017",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -15651,6 +15840,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -15690,7 +15880,6 @@
       }
     ],
     "trainId": "23019",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -15703,6 +15892,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -15742,7 +15932,6 @@
       }
     ],
     "trainId": "24572",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1004_24572",
     "throughLineId": "hachiko"
   },
@@ -15861,6 +16050,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -15900,7 +16090,6 @@
       }
     ],
     "trainId": "23022",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -15966,6 +16155,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -16005,7 +16195,6 @@
       }
     ],
     "trainId": "24574",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1032_24574",
     "throughLineId": "hachiko"
   },
@@ -16177,6 +16366,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -16216,7 +16406,6 @@
       }
     ],
     "trainId": "23024",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -16229,6 +16418,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -16268,7 +16458,6 @@
       }
     ],
     "trainId": "24576",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1100_24576",
     "throughLineId": "hachiko"
   },
@@ -16387,6 +16576,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -16426,7 +16616,6 @@
       }
     ],
     "trainId": "23025",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -16491,6 +16680,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -16530,7 +16720,6 @@
       }
     ],
     "trainId": "27906",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1132_28309",
     "throughLineId": "hachiko",
     "customDestination": "八王子"
@@ -16703,6 +16892,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -16741,8 +16931,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "24629",
-    "isHoliday": true
+    "trainId": "24629"
   },
   {
     "tripId": "HD_OUT_JA-31_1137_24580",
@@ -16754,6 +16943,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -16793,7 +16983,6 @@
       }
     ],
     "trainId": "24580",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1200_24580",
     "throughLineId": "hachiko"
   },
@@ -16912,6 +17101,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -16951,7 +17141,6 @@
       }
     ],
     "trainId": "23029",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -17017,6 +17206,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -17056,7 +17246,6 @@
       }
     ],
     "trainId": "24582",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1230_24582",
     "throughLineId": "hachiko"
   },
@@ -17228,6 +17417,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -17267,7 +17457,6 @@
       }
     ],
     "trainId": "23030",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -17280,6 +17469,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -17319,7 +17509,6 @@
       }
     ],
     "trainId": "24584",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1300_24584",
     "throughLineId": "hachiko"
   },
@@ -17438,6 +17627,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -17477,7 +17667,6 @@
       }
     ],
     "trainId": "23032",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -17543,6 +17732,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -17582,7 +17772,6 @@
       }
     ],
     "trainId": "24586",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1330_24586",
     "throughLineId": "hachiko"
   },
@@ -17754,6 +17943,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -17793,7 +17983,6 @@
       }
     ],
     "trainId": "23034",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -17806,6 +17995,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -17845,7 +18035,6 @@
       }
     ],
     "trainId": "24588",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1400_24588",
     "throughLineId": "hachiko"
   },
@@ -17964,6 +18153,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -18003,7 +18193,6 @@
       }
     ],
     "trainId": "23036",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -18069,6 +18258,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -18108,7 +18298,6 @@
       }
     ],
     "trainId": "24590",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1430_24590",
     "throughLineId": "hachiko"
   },
@@ -18280,6 +18469,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -18319,7 +18509,6 @@
       }
     ],
     "trainId": "23038",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -18332,6 +18521,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -18371,7 +18561,6 @@
       }
     ],
     "trainId": "24592",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1500_24592",
     "throughLineId": "hachiko"
   },
@@ -18490,6 +18679,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -18529,7 +18719,6 @@
       }
     ],
     "trainId": "23041",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -18595,6 +18784,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -18634,7 +18824,6 @@
       }
     ],
     "trainId": "24593",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1530_24593",
     "throughLineId": "hachiko"
   },
@@ -18806,6 +18995,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -18845,7 +19035,6 @@
       }
     ],
     "trainId": "23042",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -18858,6 +19047,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -18897,7 +19087,6 @@
       }
     ],
     "trainId": "24595",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1600_24595",
     "throughLineId": "hachiko"
   },
@@ -19016,6 +19205,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -19055,7 +19245,6 @@
       }
     ],
     "trainId": "23044",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -19121,6 +19310,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -19160,7 +19350,6 @@
       }
     ],
     "trainId": "24598",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1630_24598",
     "throughLineId": "hachiko"
   },
@@ -19332,6 +19521,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -19371,7 +19561,6 @@
       }
     ],
     "trainId": "23046",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -19384,6 +19573,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -19423,7 +19613,6 @@
       }
     ],
     "trainId": "24600",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1700_24600",
     "throughLineId": "hachiko"
   },
@@ -19542,6 +19731,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -19580,8 +19770,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "27908",
-    "isHoliday": true
+    "trainId": "27908"
   },
   {
     "tripId": "HD_INB_JA-36_1702_23048",
@@ -19592,6 +19781,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -19631,7 +19821,6 @@
       }
     ],
     "trainId": "23048",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -19697,6 +19886,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -19736,7 +19926,6 @@
       }
     ],
     "trainId": "24602",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1732_24602",
     "throughLineId": "hachiko"
   },
@@ -19802,6 +19991,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -19840,8 +20030,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "24630",
-    "isHoliday": true
+    "trainId": "24630"
   },
   {
     "tripId": "kw_HD_INB_JA-31_1725_23171",
@@ -19959,6 +20148,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -19998,7 +20188,6 @@
       }
     ],
     "trainId": "24604",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1800_24604",
     "throughLineId": "hachiko"
   },
@@ -20011,6 +20200,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -20050,7 +20240,6 @@
       }
     ],
     "trainId": "23050",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -20169,6 +20358,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -20208,7 +20398,6 @@
       }
     ],
     "trainId": "24605",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1822_24605",
     "throughLineId": "hachiko"
   },
@@ -20275,6 +20464,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -20314,7 +20504,6 @@
       }
     ],
     "trainId": "23052",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -20433,6 +20622,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -20472,7 +20662,6 @@
       }
     ],
     "trainId": "24607",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1843_24607",
     "throughLineId": "hachiko"
   },
@@ -20538,6 +20727,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -20576,8 +20766,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "24633",
-    "isHoliday": true
+    "trainId": "24633"
   },
   {
     "tripId": "kw_HD_OUT_JA-08_1742_26838",
@@ -20642,6 +20831,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -20681,7 +20871,6 @@
       }
     ],
     "trainId": "24609",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1901_24609",
     "throughLineId": "hachiko"
   },
@@ -20694,6 +20883,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -20733,7 +20923,6 @@
       }
     ],
     "trainId": "23054",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -20904,6 +21093,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -20943,7 +21133,6 @@
       }
     ],
     "trainId": "27910",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1924_28310",
     "throughLineId": "hachiko",
     "customDestination": "八王子"
@@ -21010,6 +21199,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -21049,7 +21239,6 @@
       }
     ],
     "trainId": "23056",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -21115,6 +21304,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -21154,7 +21344,6 @@
       }
     ],
     "trainId": "24612",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_1950_24612",
     "throughLineId": "hachiko"
   },
@@ -21220,6 +21409,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -21258,8 +21448,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "24634",
-    "isHoliday": true
+    "trainId": "24634"
   },
   {
     "tripId": "kw_HD_OUT_JA-08_1843_26841",
@@ -21323,6 +21512,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -21361,8 +21551,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "27911",
-    "isHoliday": true
+    "trainId": "27911"
   },
   {
     "tripId": "kw_HD_OUT_JA-11_1857_39266",
@@ -21532,6 +21721,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -21571,7 +21761,6 @@
       }
     ],
     "trainId": "23060",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -21584,6 +21773,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -21623,7 +21813,6 @@
       }
     ],
     "trainId": "24615",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_2022_24615",
     "throughLineId": "hachiko"
   },
@@ -21689,6 +21878,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -21727,8 +21917,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "24635",
-    "isHoliday": true
+    "trainId": "24635"
   },
   {
     "tripId": "kw_HD_OUT_JA-08_1919_26843",
@@ -21793,6 +21982,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -21832,7 +22022,6 @@
       }
     ],
     "trainId": "24616",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_2042_24616",
     "throughLineId": "hachiko"
   },
@@ -21898,6 +22087,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -21937,7 +22127,6 @@
       }
     ],
     "trainId": "23062",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -22056,6 +22245,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -22095,7 +22285,6 @@
       }
     ],
     "trainId": "24618",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_2103_24618",
     "throughLineId": "hachiko"
   },
@@ -22161,6 +22350,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -22200,7 +22390,6 @@
       }
     ],
     "trainId": "23063",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -22266,6 +22455,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -22305,7 +22495,6 @@
       }
     ],
     "trainId": "24620",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_2123_24620",
     "throughLineId": "hachiko"
   },
@@ -22371,6 +22560,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -22410,7 +22600,6 @@
       }
     ],
     "trainId": "23065",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -22475,6 +22664,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -22513,8 +22703,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "27913",
-    "isHoliday": true
+    "trainId": "27913"
   },
   {
     "tripId": "kw_HD_INB_JA-31_2125_23183",
@@ -22578,6 +22767,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -22617,7 +22807,6 @@
       }
     ],
     "trainId": "23068",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -22736,6 +22925,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -22775,7 +22965,6 @@
       }
     ],
     "trainId": "24622",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_2221_24622",
     "throughLineId": "hachiko"
   },
@@ -22841,6 +23030,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -22880,7 +23070,6 @@
       }
     ],
     "trainId": "24637",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -22999,6 +23188,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "八王子",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -23038,7 +23228,6 @@
       }
     ],
     "trainId": "24624",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_2246_24624",
     "throughLineId": "hachiko"
   },
@@ -23051,6 +23240,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -23090,7 +23280,6 @@
       }
     ],
     "trainId": "23070",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -23209,6 +23398,7 @@
     "destinationStationId": "JA-36",
     "customDestination": "拝島",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -23248,7 +23438,6 @@
       }
     ],
     "trainId": "24554",
-    "isHoliday": true,
     "throughTripId": "HD_INB_HA-09_2306_24554",
     "throughLineId": "hachiko"
   },
@@ -23367,6 +23556,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -23406,7 +23596,6 @@
       }
     ],
     "trainId": "23073",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
@@ -23524,6 +23713,7 @@
     "originStationId": "JA-31",
     "destinationStationId": "JA-36",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-31",
@@ -23562,8 +23752,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "27914",
-    "isHoliday": true
+    "trainId": "27914"
   },
   {
     "tripId": "kw_HD_OUT_JA-08_2242_26775",
@@ -23627,6 +23816,7 @@
     "originStationId": "JA-36",
     "destinationStationId": "JA-31",
     "cars": 4,
+    "isHoliday": true,
     "stops": [
       {
         "stationId": "JA-36",
@@ -23666,7 +23856,6 @@
       }
     ],
     "trainId": "23074",
-    "isHoliday": true,
     "customOrigin": "八王子"
   },
   {
