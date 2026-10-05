@@ -99,7 +99,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 const line = getAllLines().find((l) => l.id === station.lineId);
                 return (
                   <button
-                    key={station.id}
+                    key={`${station.lineId}_${station.id}`}
                     type="button"
                     onClick={() => onSelectStation(station)}
                     className="w-full flex items-center justify-between p-2 rounded-lg hover:bg-slate-50 transition-colors text-left text-xs"

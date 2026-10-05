@@ -15,6 +15,7 @@ import { fukutoshinLine } from './lines/fukutoshin';
 import { seibuIkebukuroLine } from './lines/seibu_ikebukuro';
 import { seibuYurakuchoLine } from './lines/seibu_yurakucho';
 import { hachikoLine } from './lines/hachiko';
+import { itsukaichiLine } from './lines/itsukaichi';
 import { omeLine } from './lines/ome';
 import { chichibuLine } from './lines/chichibu';
 
@@ -34,6 +35,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   chuo: chuoLine,
   chuo_main: chuoMainLine,
   ome: omeLine,
+  itsukaichi: itsukaichiLine,
   chichibu: chichibuLine,
   shinonoi: shinonoiLine,
   oito_east: oitoEastLine,

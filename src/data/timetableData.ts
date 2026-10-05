@@ -1,6 +1,6 @@
-import type { TimetableTrip, TrainTypeKey, Direction, LineId, StationTimetableStore } from '../types';
+import type { TimetableTrip, TrainTypeKey, Direction, LineId, StationTimetableStore, RawStationDeparture } from '../types';
 import { STATION_MAP } from './stations';
-import { getCombinedStationTimetables, getCombinedGlobalTimetable } from './linesRegistry';
+import { getCombinedStationTimetables, getCombinedGlobalTimetable, getLine } from './linesRegistry';
 
 // 時間文字列 (HH:MM:SS) を一日の秒数に変換（深夜0〜3時は翌日24〜27時として扱う）
 export function timeStringToSeconds(t: string): number {
@@ -106,15 +106,43 @@ export function getStationDepartures(
   stationId: string,
   currentTimeSec: number,
   isHoliday: boolean,
-  limit: number = 6
+  limit: number = 6,
+  lineId?: LineId
 ): { inbound: TimetableTrip[]; outbound: TimetableTrip[] } {
   const dayKey = isHoliday ? 'holiday' : 'weekday';
-  const timetables = getCombinedStationTimetables();
-  const stData = timetables[dayKey]?.[stationId] || { inbound: [], outbound: [] };
-  const currentSt = STATION_MAP.get(stationId);
-  const lineId = currentSt ? currentSt.lineId : 'tojo';
+  let resolvedLineId = lineId;
+  let stData: { inbound: RawStationDeparture[]; outbound: RawStationDeparture[] } | undefined;
 
-  function convertToTrips(deps: typeof stData.inbound, direction: Direction): TimetableTrip[] {
+  // 1. 指定路線から駅時刻表を取得
+  if (resolvedLineId) {
+    const line = getLine(resolvedLineId);
+    if (line?.stationTimetables?.[dayKey]?.[stationId]) {
+      stData = line.stationTimetables[dayKey][stationId];
+    }
+  }
+
+  // 2. 指定路線にない、または未指定の場合は STATION_MAP から駅所属路線を取得して試行
+  if (!stData) {
+    const currentSt = STATION_MAP.get(stationId);
+    if (currentSt?.lineId) {
+      resolvedLineId = resolvedLineId || currentSt.lineId;
+      const line = getLine(currentSt.lineId);
+      if (line?.stationTimetables?.[dayKey]?.[stationId]) {
+        stData = line.stationTimetables[dayKey][stationId];
+      }
+    }
+  }
+
+  // 3. それでも見つからない場合のフォールバック（統合ストア）
+  if (!stData) {
+    const timetables = getCombinedStationTimetables();
+    stData = timetables[dayKey]?.[stationId] || { inbound: [], outbound: [] };
+  }
+
+  const finalLineId = resolvedLineId || 'tojo';
+  const targetData = stData || { inbound: [], outbound: [] };
+
+  function convertToTrips(deps: RawStationDeparture[], direction: Direction): TimetableTrip[] {
     const valid = deps.filter((d) => {
       let sec = d.sec;
       if ((d.h === 0 || d.h === 1) && d.sec < 86400 && currentTimeSec >= 20 * 3600) {
@@ -132,8 +160,12 @@ export function getStationDepartures(
       const destSt = Array.from(STATION_MAP.values()).find((s) => s.name === d.d);
       let destId = destSt ? destSt.id : '';
       if (!destId) {
-        if (lineId === 'saikyo') {
+        if (finalLineId === 'saikyo') {
           destId = direction === 'outbound' ? 'JA-26' : 'JA-08';
+        } else if (finalLineId === 'itsukaichi') {
+          destId = direction === 'outbound' ? 'JC-86' : 'JC-55';
+        } else if (finalLineId === 'ome') {
+          destId = direction === 'outbound' ? 'JC-62' : 'JC-19';
         } else {
           destId = direction === 'outbound' ? 'TJ-33' : 'TJ-01';
         }
@@ -142,14 +174,14 @@ export function getStationDepartures(
 
       return {
         tripId: `DEP_${stationId}_${direction}_${d.h}_${d.m}_${idx}`,
-        lineId,
+        lineId: finalLineId,
         trainNumber: d.no,
         trainType: d.t,
         direction,
         originStationId: stationId,
         destinationStationId: destId,
         customDestination: d.d,
-        cars: 10,
+        cars: finalLineId === 'itsukaichi' ? 6 : 10,
         isHoliday,
         stops: [
           {
@@ -164,8 +196,8 @@ export function getStationDepartures(
   }
 
   return {
-    inbound: convertToTrips(stData.inbound, 'inbound'),
-    outbound: convertToTrips(stData.outbound, 'outbound'),
+    inbound: convertToTrips(targetData.inbound, 'inbound'),
+    outbound: convertToTrips(targetData.outbound, 'outbound'),
   };
 }
 
@@ -179,11 +211,38 @@ export interface HourlyStationTimetable {
 
 export function getFullDayStationTimetable(
   stationId: string,
-  isHoliday: boolean
+  isHoliday: boolean,
+  lineId?: LineId
 ): HourlyStationTimetable[] {
   const dayKey = isHoliday ? 'holiday' : 'weekday';
-  const timetables = getCombinedStationTimetables();
-  const stData = timetables[dayKey]?.[stationId] || { inbound: [], outbound: [] };
+  let stData: { inbound: RawStationDeparture[]; outbound: RawStationDeparture[] } | undefined;
+
+  // 1. 指定路線から駅時刻表を取得
+  if (lineId) {
+    const line = getLine(lineId);
+    if (line?.stationTimetables?.[dayKey]?.[stationId]) {
+      stData = line.stationTimetables[dayKey][stationId];
+    }
+  }
+
+  // 2. 指定路線にない、または未指定の場合は STATION_MAP から駅所属路線を取得して試行
+  if (!stData) {
+    const currentSt = STATION_MAP.get(stationId);
+    if (currentSt?.lineId) {
+      const line = getLine(currentSt.lineId);
+      if (line?.stationTimetables?.[dayKey]?.[stationId]) {
+        stData = line.stationTimetables[dayKey][stationId];
+      }
+    }
+  }
+
+  // 3. それでも見つからない場合のフォールバック（統合ストア）
+  if (!stData) {
+    const timetables = getCombinedStationTimetables();
+    stData = timetables[dayKey]?.[stationId] || { inbound: [], outbound: [] };
+  }
+
+  const targetData = stData || { inbound: [], outbound: [] };
 
   const hourly: HourlyStationTimetable[] = [];
   for (let h = 4; h <= 27; h++) {
@@ -198,7 +257,7 @@ export function getFullDayStationTimetable(
 
   const mapTo24hCycle = (h: number) => (h < 4 ? h + 24 : h);
 
-  for (const dep of stData.inbound) {
+  for (const dep of targetData.inbound) {
     const targetHour = mapTo24hCycle(dep.h);
     const target = hourly.find((item) => item.hour === targetHour);
     if (target) {
@@ -212,7 +271,7 @@ export function getFullDayStationTimetable(
     }
   }
 
-  for (const dep of stData.outbound) {
+  for (const dep of targetData.outbound) {
     const targetHour = mapTo24hCycle(dep.h);
     const target = hourly.find((item) => item.hour === targetHour);
     if (target) {
