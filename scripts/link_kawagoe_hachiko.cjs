@@ -25,6 +25,29 @@ function extractYahooTrainId(trip) {
   return match ? match[1] : null;
 }
 
+// 0. 既存の高麗川境界メタデータをリセット（誤リンクの残留を完全防止）
+for (const kw of kawagoeTrips) {
+  if (kw.throughLineId === 'hachiko') {
+    delete kw.throughTripId;
+    delete kw.throughLineId;
+    if (kw.destinationStationId === 'JA-36') {
+      delete kw.customDestination;
+    }
+  }
+}
+for (const hc of hachikoTrips) {
+  if (hc.throughLineId === 'kawagoe') {
+    delete hc.throughTripId;
+    delete hc.throughLineId;
+    if (hc.destinationStationId === 'HA-09') {
+      delete hc.customDestination;
+    }
+  }
+  if (hc.originStationId === 'HA-09' && hc.customOrigin === '川越') {
+    delete hc.customOrigin;
+  }
+}
+
 let hcToKwLinked = 0;
 let kwToHcLinked = 0;
 
@@ -32,29 +55,13 @@ let kwToHcLinked = 0;
 // 八高線走行中: 次の直通先は川越線 (throughTripId: kw.tripId, throughLineId: 'kawagoe')
 // 八高線側: destinationStationId === 'HA-09', direction === 'outbound'
 // 川越線側: originStationId === 'JA-36', direction === 'inbound'
+// 【重要】Yahoo!路線情報において真の直通列車は trainId が完全に同一。時刻による曖昧リンクは接続列車を誤爆するため行わない。
 const hcOutToKomagawa = hachikoTrips.filter(t => t.direction === 'outbound' && t.destinationStationId === 'HA-09');
 const kwInbFromKomagawa = kawagoeTrips.filter(t => t.direction === 'inbound' && t.originStationId === 'JA-36');
 
 for (const hc of hcOutToKomagawa) {
   const hcId = extractYahooTrainId(hc);
-  let kw = kwInbFromKomagawa.find(k => extractYahooTrainId(k) === hcId && k.isHoliday === hc.isHoliday);
-
-  // 時刻フォールバック照合
-  if (!kw) {
-    const hcArr = hc.stops[hc.stops.length - 1]?.arrivalTime;
-    if (hcArr) {
-      kw = kwInbFromKomagawa.find(k => {
-        if (k.isHoliday !== hc.isHoliday) return false;
-        const kwDep = k.stops[0]?.departureTime;
-        if (!kwDep) return false;
-        // 到着後0〜5分以内に発車
-        const [ah, am] = hcArr.split(':').map(Number);
-        const [dh, dm] = kwDep.split(':').map(Number);
-        const diffMin = (dh * 60 + dm) - (ah * 60 + am);
-        return diffMin >= 0 && diffMin <= 5;
-      });
-    }
-  }
+  const kw = kwInbFromKomagawa.find(k => extractYahooTrainId(k) === hcId && k.isHoliday === hc.isHoliday);
 
   if (kw) {
     // 八高線側: 次の直通先は川越線！
@@ -71,32 +78,17 @@ for (const hc of hcOutToKomagawa) {
   }
 }
 
-// 2. 川越 -> 高麗川 -> 八王子 系統
+// 2. 川越/南古谷 -> 高麗川 -> 八王子/拝島 系統
 // 川越線走行中: 次の直通先は八高線 (throughTripId: hc.tripId, throughLineId: 'hachiko')
 // 川越線側: destinationStationId === 'JA-36', direction === 'outbound'
 // 八高線側: originStationId === 'HA-09', direction === 'inbound'
+// 【重要】Yahoo!路線情報において真の直通列車は trainId が完全に同一。接続列車の誤マッチを排除するため完全一致のみ採用。
 const kwOutToKomagawa = kawagoeTrips.filter(t => t.direction === 'outbound' && t.destinationStationId === 'JA-36');
 const hcInbFromKomagawa = hachikoTrips.filter(t => t.direction === 'inbound' && t.originStationId === 'HA-09');
 
 for (const kw of kwOutToKomagawa) {
   const kwId = extractYahooTrainId(kw);
-  let hc = hcInbFromKomagawa.find(h => extractYahooTrainId(h) === kwId && h.isHoliday === kw.isHoliday);
-
-  // 時刻フォールバック照合
-  if (!hc) {
-    const kwArr = kw.stops[kw.stops.length - 1]?.arrivalTime;
-    if (kwArr) {
-      hc = hcInbFromKomagawa.find(h => {
-        if (h.isHoliday !== kw.isHoliday) return false;
-        const hcDep = h.stops[0]?.departureTime;
-        if (!hcDep) return false;
-        const [ah, am] = kwArr.split(':').map(Number);
-        const [dh, dm] = hcDep.split(':').map(Number);
-        const diffMin = (dh * 60 + dm) - (ah * 60 + am);
-        return diffMin >= 0 && diffMin <= 5;
-      });
-    }
-  }
+  const hc = hcInbFromKomagawa.find(h => extractYahooTrainId(h) === kwId && h.isHoliday === kw.isHoliday);
 
   if (hc) {
     // 川越線側: 次の直通先は八高線！
@@ -105,7 +97,7 @@ for (const kw of kwOutToKomagawa) {
     const hcDest = hcStMap.get(hc.destinationStationId);
     kw.customDestination = hc.customDestination || hcDest?.name || '八王子';
 
-    // 八高線側: 始発駅（川越）を customOrigin に設定
+    // 八高線側: 始発駅（川越または南古谷）を customOrigin に設定
     const kwOrig = kwStMap.get(kw.originStationId);
     hc.customOrigin = kw.customOrigin || kwOrig?.name || '川越';
 
@@ -115,7 +107,7 @@ for (const kw of kwOutToKomagawa) {
 
 console.log('=== 八高線 ↔ 川越線 高麗川駅 直通リンク完了 ===');
 console.log(`  八王子 -> 高麗川 -> 川越: ${hcToKwLinked} 本`);
-console.log(`  川越 -> 高麗川 -> 八王子: ${kwToHcLinked} 本`);
+console.log(`  川越/南古谷 -> 高麗川 -> 八王子/拝島: ${kwToHcLinked} 本`);
 console.log(`  合計: ${hcToKwLinked + kwToHcLinked} 本`);
 
 fs.writeFileSync(kawagoePath, JSON.stringify(kawagoeTrips, null, 2), 'utf8');

@@ -151,4 +151,48 @@ if (lineSelection.includes('kawagoe')) {
   process.exit(1);
 }
 
+// テスト4: 高麗川止まり列車 (土休日11:07発 11:28高麗川到着) の終了判定
+console.log('--- テスト4: 高麗川止まり列車 (高麗川到着 11:28:00) の終了判定 ---');
+const stopTripId = 'HD_OUT_JA-31_1107_27906';
+const stopTimes = [
+  '11:24:00', // 武蔵高萩駅
+  '11:28:00', // 高麗川駅到着
+  '11:30:00', // 運行終了後
+];
+
+trackedId = stopTripId;
+lastSelected = null;
+
+for (const timeStr of stopTimes) {
+  const sec = timeStringToSeconds(timeStr);
+  const activeTrains = calculateActiveTrains({
+    currentSec: sec,
+    isHoliday: true,
+    globalDelayMinutes: 0,
+    randomDelays: {},
+    isPlaying: true,
+    speedMultiplier: 1,
+    selectedLineIds: ['kawagoe', 'hachiko'],
+  });
+
+  const selected = resolveSelectedTrain(activeTrains, trackedId, lastSelected);
+  if (selected) {
+    lastSelected = selected;
+    trackedId = selected.tripId;
+  } else {
+    trackedId = null;
+    lastSelected = null;
+  }
+
+  console.log(`[時刻 ${timeStr}] 追尾中ID: ${trackedId} | 列車: ${selected ? selected.tripId : 'null (運行終了・追尾解除)'}`);
+}
+
+if (trackedId === null) {
+  console.log('✅ テスト4 成功: 高麗川止まり列車は別列車に飛ばされず、正しく追跡終了（null）になりました！\n');
+} else {
+  console.error(`❌ テスト4 失敗: 期待値 null ですが ${trackedId} が追尾されています\n`);
+  process.exit(1);
+}
+
 console.log('🎉 高麗川駅 ハンドオーバー全テスト合格！');
+
