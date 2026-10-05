@@ -12,6 +12,7 @@ export const oitoWestLine: LineDefinition = {
   operator: 'JR西日本',
   lineColor: '#0067b8', // JR西日本ブルー
   accentColor: '#005294',
+  defaultCars: 1,
   defaultBounds: [
     [36.750, 137.830], // 南小谷周辺
     [37.060, 137.940], // 糸魚川周辺

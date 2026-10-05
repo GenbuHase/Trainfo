@@ -12,6 +12,7 @@ export const shinonoiLine: LineDefinition = {
   operator: 'JR東日本',
   lineColor: '#d56a29', // JR東日本長野支社 ダークオレンジ
   accentColor: '#b84e12',
+  defaultCars: 6,
   defaultBounds: [
     [36.080, 137.900], // 塩尻周辺
     [36.680, 138.220], // 長野周辺

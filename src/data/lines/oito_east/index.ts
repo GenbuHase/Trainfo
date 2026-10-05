@@ -12,6 +12,7 @@ export const oitoEastLine: LineDefinition = {
   operator: 'JR東日本',
   lineColor: '#8a579e', // 大糸線パープル
   accentColor: '#734185',
+  defaultCars: 2,
   defaultBounds: [
     [36.200, 137.820], // 松本周辺
     [36.800, 138.000], // 南小谷周辺

@@ -12,6 +12,7 @@ export const omeLine: LineDefinition = {
   operator: 'JR東日本',
   lineColor: '#f15a22', // 中央線・青梅線オレンジバーミリオン
   accentColor: '#16a34a', // 青梅特快グリーン
+  defaultCars: 10,
   defaultBounds: [
     [35.690, 139.090], // 奥多摩周辺
     [35.820, 139.420], // 立川周辺

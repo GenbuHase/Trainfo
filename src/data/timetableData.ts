@@ -156,19 +156,16 @@ export function getStationDepartures(
       return secA - secB;
     });
 
+    const lineDef = getLine(finalLineId);
+    const lineOriginStationId = lineDef?.stations[0]?.id || '';
+    const lineTerminusStationId = lineDef?.stations[lineDef.stations.length - 1]?.id || '';
+    const defaultCars = lineDef?.defaultCars ?? 10;
+
     return valid.slice(0, limit).map((d, idx) => {
       const destSt = Array.from(STATION_MAP.values()).find((s) => s.name === d.d);
       let destId = destSt ? destSt.id : '';
       if (!destId) {
-        if (finalLineId === 'saikyo') {
-          destId = direction === 'outbound' ? 'JA-26' : 'JA-08';
-        } else if (finalLineId === 'itsukaichi') {
-          destId = direction === 'outbound' ? 'JC-86' : 'JC-55';
-        } else if (finalLineId === 'ome') {
-          destId = direction === 'outbound' ? 'JC-62' : 'JC-19';
-        } else {
-          destId = direction === 'outbound' ? 'TJ-33' : 'TJ-01';
-        }
+        destId = direction === 'outbound' ? lineTerminusStationId : lineOriginStationId;
       }
       const depTime = `${d.h.toString().padStart(2, '0')}:${d.m.toString().padStart(2, '0')}:00`;
 
@@ -181,7 +178,7 @@ export function getStationDepartures(
         originStationId: stationId,
         destinationStationId: destId,
         customDestination: d.d,
-        cars: finalLineId === 'itsukaichi' ? 6 : 10,
+        cars: defaultCars,
         isHoliday,
         stops: [
           {

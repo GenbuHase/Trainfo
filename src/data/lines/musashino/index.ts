@@ -12,6 +12,7 @@ export const musashinoLine: LineDefinition = {
   operator: 'JR東日本',
   lineColor: '#f15a22', // 武蔵野線オレンジバーミリオン
   accentColor: '#c9252d', // 京葉線ワインレッド
+  defaultCars: 8,
   defaultBounds: [
     [35.600, 139.300], // 南西（八王子・東京湾岸）
     [35.920, 140.050], // 北東（大宮・海浜幕張）

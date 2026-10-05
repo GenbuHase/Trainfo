@@ -12,6 +12,7 @@ export const saikyoLine: LineDefinition = {
   operator: 'JR東日本',
   lineColor: '#00ac9a', // 埼京線エメラルドグリーン
   accentColor: '#007ac1', // 快速ブルー
+  defaultCars: 10,
   defaultBounds: [
     [35.610, 139.600], // 大崎周辺
     [35.910, 139.740], // 大宮周辺

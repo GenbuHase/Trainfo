@@ -12,6 +12,7 @@ export const tojoLine: LineDefinition = {
   operator: '東武鉄道',
   lineColor: '#004b97', // 東武グループブルー（フューチャーブルー）
   accentColor: '#ed6d00', // 東武ブライトオレンジ
+  defaultCars: 10,
   defaultBounds: [
     [35.720, 139.180],
     [36.130, 139.725],

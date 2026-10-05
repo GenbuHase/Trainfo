@@ -214,6 +214,7 @@ export interface LineMeta {
   operator: string;         // '東武鉄道', 'JR東日本'
   lineColor: string;        // ブランドメインカラー (例: '#001e62', '#00ac9a')
   accentColor: string;      // アクセントカラー
+  defaultCars?: number;     // 路線の標準両数 (例: 10, 6, 4, 3)
   defaultBounds: [[number, number], [number, number]]; // 路線全体が見渡せる初期領域 [[南緯, 西経], [北緯, 東経]]
   directionNames: LineDirectionNames;
 }

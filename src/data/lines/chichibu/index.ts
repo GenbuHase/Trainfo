@@ -12,6 +12,7 @@ export const chichibuLine: LineDefinition = {
   operator: '秩父鉄道',
   lineColor: '#0073bc', // 秩父鉄道ブルー
   accentColor: '#dc2626', // 急行秩父路レッド
+  defaultCars: 3,
   defaultBounds: [
     [35.95, 138.97], // 三峰口周辺
     [36.18, 139.54], // 羽生周辺

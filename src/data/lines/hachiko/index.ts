@@ -12,6 +12,7 @@ export const hachikoLine: LineDefinition = {
   operator: 'JR東日本',
   lineColor: '#a8a39d',
   accentColor: '#e06a3b',
+  defaultCars: 4,
   defaultBounds: [
     [35.64, 139.00],
     [36.34, 139.38],

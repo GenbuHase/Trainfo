@@ -12,6 +12,7 @@ export const kawagoeLine: LineDefinition = {
   operator: 'JR東日本',
   lineColor: '#00ac9a', // 川越線・埼京線エメラルドグリーン
   accentColor: '#007ac1', // 快速ブルー
+  defaultCars: 10,
   defaultBounds: [
     [35.880, 139.320], // 高麗川周辺
     [35.940, 139.640], // 大宮周辺

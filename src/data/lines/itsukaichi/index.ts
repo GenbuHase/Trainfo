@@ -12,6 +12,7 @@ export const itsukaichiLine: LineDefinition = {
   operator: 'JR東日本',
   lineColor: '#f15a22', // 中央線・青梅・五日市線オレンジバーミリオン
   accentColor: '#e65100',
+  defaultCars: 6,
   defaultBounds: [
     [35.710, 139.210], // 武蔵五日市周辺
     [35.740, 139.360], // 拝島周辺

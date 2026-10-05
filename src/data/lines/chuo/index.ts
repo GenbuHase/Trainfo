@@ -12,6 +12,7 @@ export const chuoLine: LineDefinition = {
   operator: 'JR東日本',
   lineColor: '#f15a22', // 中央線オレンジバーミリオン
   accentColor: '#c9252d', // 特快・速達カラー
+  defaultCars: 10,
   defaultBounds: [
     [35.600, 139.250], // 高尾周辺
     [35.750, 139.780], // 東京周辺

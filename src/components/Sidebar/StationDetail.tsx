@@ -36,7 +36,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
   const line = getLine(station.lineId);
   const themeColor = line?.lineColor || '#004b97';
   const isFirstStation = line ? line.stations[0]?.id === station.id : station.number === 1;
-  const isLastStation = line ? line.stations[line.stations.length - 1]?.id === station.id : station.number === 39;
+  const isLastStation = line ? line.stations[line.stations.length - 1]?.id === station.id : false;
 
   const [selectedDirection, setSelectedDirection] = useState<Direction>(() =>
     isFirstStation ? 'outbound' : isLastStation ? 'inbound' : 'outbound'

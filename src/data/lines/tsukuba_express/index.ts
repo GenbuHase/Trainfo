@@ -12,6 +12,7 @@ export const tsukubaExpressLine: LineDefinition = {
   operator: '首都圏新都市鉄道',
   lineColor: '#003893', // TXディープブルー
   accentColor: '#df0011', // TXスカーレットレッド
+  defaultCars: 6,
   defaultBounds: [
     [35.685, 139.765],
     [36.095, 140.120],

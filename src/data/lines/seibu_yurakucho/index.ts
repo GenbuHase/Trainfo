@@ -12,6 +12,7 @@ export const seibuYurakuchoLine: LineDefinition = {
   operator: '西武鉄道',
   lineColor: '#f39800', // 西武オレンジ
   accentColor: '#003a8c', // 西武ブルー
+  defaultCars: 10,
   defaultBounds: [
     [35.730, 139.645],
     [35.755, 139.690],

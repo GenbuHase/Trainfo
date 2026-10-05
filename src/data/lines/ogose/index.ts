@@ -12,6 +12,7 @@ export const ogoseLine: LineDefinition = {
   operator: '東武鉄道',
   lineColor: '#004b97', // 東武グループブルー
   accentColor: '#ed6d00', // 東武ブライトオレンジ
+  defaultCars: 4,
   defaultBounds: [
     [35.920, 139.290],
     [35.975, 139.405],

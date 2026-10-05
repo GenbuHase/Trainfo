@@ -12,6 +12,7 @@ export const yurakuchoLine: LineDefinition = {
   operator: '東京メトロ',
   lineColor: '#c1a470', // 有楽町線ゴールド
   accentColor: '#c1a470',
+  defaultCars: 10,
   defaultBounds: [
     [35.630, 139.600], // 新木場・臨海部
     [35.800, 139.840], // 和光市周辺

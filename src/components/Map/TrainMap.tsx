@@ -4,6 +4,7 @@ import './smoothWheelZoom';
 import type { Station, ActiveTrain, Direction, LineId } from '../../types';
 import { getStations, STATION_MAP } from '../../data/stations';
 import { formatTrainNumber } from '../../data/timetableData';
+import { isLocalTrainType } from '../../data/trainTypes';
 import { getLine, calculateBoundsForLines, getTrainTypeConfig } from '../../data/linesRegistry';
 import {
   Layers,
@@ -444,12 +445,11 @@ export const TrainMap: React.FC<TrainMapProps> = ({
     // フィルタリング（進行方向・種別）
     const filteredTrains = activeTrains.filter((train) => {
       if (filterDirection !== 'all' && train.direction !== filterDirection) return false;
-      const isLocalOrRegular =
-        train.trainType === 'local' || train.trainType === 'regular' || train.trainType === 'semiExp';
-      if (filterType === 'rapid' && isLocalOrRegular) {
+      const isLocal = isLocalTrainType(train.trainType);
+      if (filterType === 'rapid' && isLocal) {
         return false;
       }
-      if (filterType === 'local' && !isLocalOrRegular) {
+      if (filterType === 'local' && !isLocal) {
         return false;
       }
       return true;

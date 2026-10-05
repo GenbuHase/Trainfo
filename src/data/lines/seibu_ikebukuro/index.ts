@@ -12,6 +12,7 @@ export const seibuIkebukuroLine: LineDefinition = {
   operator: '西武鉄道',
   lineColor: '#f39800', // 西武オレンジ
   accentColor: '#003a8c', // 西武ブルー
+  defaultCars: 10,
   defaultBounds: [
     [35.710, 139.050],
     [36.010, 139.730],

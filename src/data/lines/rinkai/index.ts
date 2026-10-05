@@ -12,6 +12,7 @@ export const rinkaiLine: LineDefinition = {
   operator: '東京臨海高速鉄道',
   lineColor: '#00418e', // TWRブルー
   accentColor: '#00a3af', // ターコイズブルー
+  defaultCars: 10,
   defaultBounds: [
     [35.600, 139.720], // 大井町・品川シーサイド周辺
     [35.655, 139.835], // 新木場周辺

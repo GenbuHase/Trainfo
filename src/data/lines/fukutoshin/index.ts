@@ -12,6 +12,7 @@ export const fukutoshinLine: LineDefinition = {
   operator: '東京メトロ',
   lineColor: '#9c5f24', // 副都心線ブラウン
   accentColor: '#e05a00', // 急行オレンジ
+  defaultCars: 10,
   defaultBounds: [
     [35.640, 139.600], // 渋谷周辺
     [35.800, 139.720], // 和光市周辺

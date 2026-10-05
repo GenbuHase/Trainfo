@@ -9,4 +9,9 @@ export function getTrainTypes(selectedLineIds?: string[]): Record<string, TrainT
   return getCombinedTrainTypes(selectedLineIds);
 }
 
+// 各駅停車・普通系種別かどうかの共通判定
+export function isLocalTrainType(type: string): boolean {
+  return type === 'local' || type === 'regular';
+}
+
 export { getTrainTypeConfig };
