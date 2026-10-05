@@ -1,5 +1,6 @@
 import type { LineDefinition, LineId, Station, TrackSegment, TrainTypeConfig, TimetableTrip, StationTimetableStore } from '../types';
 import { tojoLine } from './lines/tojo';
+import { ogoseLine } from './lines/ogose';
 import { saikyoLine } from './lines/saikyo';
 import { kawagoeLine } from './lines/kawagoe';
 import { musashinoLine } from './lines/musashino';
@@ -22,6 +23,7 @@ import { chichibuLine } from './lines/chichibu';
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tojo: tojoLine,
+  ogose: ogoseLine,
   saikyo: saikyoLine,
   kawagoe: kawagoeLine,
   rinkai: rinkaiLine,
