@@ -19,6 +19,9 @@ import { hachikoLine } from './lines/hachiko';
 import { itsukaichiLine } from './lines/itsukaichi';
 import { omeLine } from './lines/ome';
 import { chichibuLine } from './lines/chichibu';
+import { odakyuOdawaraLine } from './lines/odakyu_odawara';
+import { odakyuEnoshimaLine } from './lines/odakyu_enoshima';
+import { odakyuTamaLine } from './lines/odakyu_tama';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -42,6 +45,9 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   shinonoi: shinonoiLine,
   oito_east: oitoEastLine,
   oito_west: oitoWestLine,
+  odakyu_odawara: odakyuOdawaraLine,
+  odakyu_enoshima: odakyuEnoshimaLine,
+  odakyu_tama: odakyuTamaLine,
 };
 
 // 登録されている全路線の配列を取得
@@ -59,6 +65,7 @@ const OPERATOR_DISPLAY_ORDER = [
   '東京メトロ',
   '東武鉄道',
   '西武鉄道',
+  '小田急電鉄',
   'JR東日本',
   'JR西日本',
   '東京臨海高速鉄道',

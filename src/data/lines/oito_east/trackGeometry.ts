@@ -3,8 +3,8 @@ import type { TrackSegment } from '../../../types';
 
 export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "fromStationId": "OE-01",
-    "toStationId": "OE-02",
+    "fromStationId": "OIE-01",
+    "toStationId": "OIE-02",
     "fromName": "松本",
     "toName": "北松本",
     "coordinates": [
@@ -99,8 +99,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-02",
-    "toStationId": "OE-03",
+    "fromStationId": "OIE-02",
+    "toStationId": "OIE-03",
     "fromName": "北松本",
     "toName": "島内",
     "coordinates": [
@@ -251,8 +251,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-03",
-    "toStationId": "OE-04",
+    "fromStationId": "OIE-03",
+    "toStationId": "OIE-04",
     "fromName": "島内",
     "toName": "島高松",
     "coordinates": [
@@ -347,8 +347,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-04",
-    "toStationId": "OE-05",
+    "fromStationId": "OIE-04",
+    "toStationId": "OIE-05",
     "fromName": "島高松",
     "toName": "梓橋",
     "coordinates": [
@@ -431,8 +431,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-05",
-    "toStationId": "OE-06",
+    "fromStationId": "OIE-05",
+    "toStationId": "OIE-06",
     "fromName": "梓橋",
     "toName": "一日市場",
     "coordinates": [
@@ -539,8 +539,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-06",
-    "toStationId": "OE-07",
+    "fromStationId": "OIE-06",
+    "toStationId": "OIE-07",
     "fromName": "一日市場",
     "toName": "中萱",
     "coordinates": [
@@ -671,8 +671,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-07",
-    "toStationId": "OE-08",
+    "fromStationId": "OIE-07",
+    "toStationId": "OIE-08",
     "fromName": "中萱",
     "toName": "南豊科",
     "coordinates": [
@@ -747,8 +747,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-08",
-    "toStationId": "OE-09",
+    "fromStationId": "OIE-08",
+    "toStationId": "OIE-09",
     "fromName": "南豊科",
     "toName": "豊科",
     "coordinates": [
@@ -839,8 +839,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-09",
-    "toStationId": "OE-10",
+    "fromStationId": "OIE-09",
+    "toStationId": "OIE-10",
     "fromName": "豊科",
     "toName": "柏矢町",
     "coordinates": [
@@ -963,8 +963,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-10",
-    "toStationId": "OE-11",
+    "fromStationId": "OIE-10",
+    "toStationId": "OIE-11",
     "fromName": "柏矢町",
     "toName": "穂高",
     "coordinates": [
@@ -1079,8 +1079,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-11",
-    "toStationId": "OE-12",
+    "fromStationId": "OIE-11",
+    "toStationId": "OIE-12",
     "fromName": "穂高",
     "toName": "有明",
     "coordinates": [
@@ -1231,8 +1231,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-12",
-    "toStationId": "OE-13",
+    "fromStationId": "OIE-12",
+    "toStationId": "OIE-13",
     "fromName": "有明",
     "toName": "安曇追分",
     "coordinates": [
@@ -1307,8 +1307,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-13",
-    "toStationId": "OE-14",
+    "fromStationId": "OIE-13",
+    "toStationId": "OIE-14",
     "fromName": "安曇追分",
     "toName": "細野",
     "coordinates": [
@@ -1463,8 +1463,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-14",
-    "toStationId": "OE-15",
+    "fromStationId": "OIE-14",
+    "toStationId": "OIE-15",
     "fromName": "細野",
     "toName": "北細野",
     "coordinates": [
@@ -1531,8 +1531,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-15",
-    "toStationId": "OE-16",
+    "fromStationId": "OIE-15",
+    "toStationId": "OIE-16",
     "fromName": "北細野",
     "toName": "信濃松川",
     "coordinates": [
@@ -1651,8 +1651,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-16",
-    "toStationId": "OE-17",
+    "fromStationId": "OIE-16",
+    "toStationId": "OIE-17",
     "fromName": "信濃松川",
     "toName": "安曇沓掛",
     "coordinates": [
@@ -1807,8 +1807,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-17",
-    "toStationId": "OE-18",
+    "fromStationId": "OIE-17",
+    "toStationId": "OIE-18",
     "fromName": "安曇沓掛",
     "toName": "信濃常盤",
     "coordinates": [
@@ -1907,8 +1907,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-18",
-    "toStationId": "OE-19",
+    "fromStationId": "OIE-18",
+    "toStationId": "OIE-19",
     "fromName": "信濃常盤",
     "toName": "南大町",
     "coordinates": [
@@ -2047,8 +2047,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-19",
-    "toStationId": "OE-20",
+    "fromStationId": "OIE-19",
+    "toStationId": "OIE-20",
     "fromName": "南大町",
     "toName": "信濃大町",
     "coordinates": [
@@ -2095,8 +2095,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-20",
-    "toStationId": "OE-21",
+    "fromStationId": "OIE-20",
+    "toStationId": "OIE-21",
     "fromName": "信濃大町",
     "toName": "北大町",
     "coordinates": [
@@ -2279,8 +2279,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-21",
-    "toStationId": "OE-22",
+    "fromStationId": "OIE-21",
+    "toStationId": "OIE-22",
     "fromName": "北大町",
     "toName": "信濃木崎",
     "coordinates": [
@@ -2375,8 +2375,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-22",
-    "toStationId": "OE-23",
+    "fromStationId": "OIE-22",
+    "toStationId": "OIE-23",
     "fromName": "信濃木崎",
     "toName": "稲尾",
     "coordinates": [
@@ -2563,8 +2563,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-23",
-    "toStationId": "OE-24",
+    "fromStationId": "OIE-23",
+    "toStationId": "OIE-24",
     "fromName": "稲尾",
     "toName": "海ノ口",
     "coordinates": [
@@ -2707,8 +2707,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-24",
-    "toStationId": "OE-25",
+    "fromStationId": "OIE-24",
+    "toStationId": "OIE-25",
     "fromName": "海ノ口",
     "toName": "簗場",
     "coordinates": [
@@ -2983,8 +2983,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-25",
-    "toStationId": "OE-26",
+    "fromStationId": "OIE-25",
+    "toStationId": "OIE-26",
     "fromName": "簗場",
     "toName": "南神城",
     "coordinates": [
@@ -3543,8 +3543,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-26",
-    "toStationId": "OE-27",
+    "fromStationId": "OIE-26",
+    "toStationId": "OIE-27",
     "fromName": "南神城",
     "toName": "神城",
     "coordinates": [
@@ -3739,8 +3739,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-27",
-    "toStationId": "OE-28",
+    "fromStationId": "OIE-27",
+    "toStationId": "OIE-28",
     "fromName": "神城",
     "toName": "飯森",
     "coordinates": [
@@ -3835,8 +3835,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-28",
-    "toStationId": "OE-29",
+    "fromStationId": "OIE-28",
+    "toStationId": "OIE-29",
     "fromName": "飯森",
     "toName": "白馬",
     "coordinates": [
@@ -3947,8 +3947,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-29",
-    "toStationId": "OE-30",
+    "fromStationId": "OIE-29",
+    "toStationId": "OIE-30",
     "fromName": "白馬",
     "toName": "信濃森上",
     "coordinates": [
@@ -4083,8 +4083,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-30",
-    "toStationId": "OE-31",
+    "fromStationId": "OIE-30",
+    "toStationId": "OIE-31",
     "fromName": "信濃森上",
     "toName": "白馬大池",
     "coordinates": [
@@ -4371,8 +4371,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-31",
-    "toStationId": "OE-32",
+    "fromStationId": "OIE-31",
+    "toStationId": "OIE-32",
     "fromName": "白馬大池",
     "toName": "千国",
     "coordinates": [
@@ -4659,8 +4659,8 @@ export const OITO_EAST_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "OE-32",
-    "toStationId": "OE-33",
+    "fromStationId": "OIE-32",
+    "toStationId": "OIE-33",
     "fromName": "千国",
     "toName": "南小谷",
     "coordinates": [

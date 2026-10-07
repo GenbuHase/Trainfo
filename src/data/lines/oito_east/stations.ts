@@ -3,7 +3,7 @@ import type { Station } from '../../../types';
 
 export const OITO_EAST_STATIONS: Station[] = [
   {
-    "id": "OE-01",
+    "id": "OIE-01",
     "lineId": "oito_east",
     "number": 1,
     "name": "松本",
@@ -35,7 +35,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-02",
+    "id": "OIE-02",
     "lineId": "oito_east",
     "number": 2,
     "name": "北松本",
@@ -63,7 +63,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-03",
+    "id": "OIE-03",
     "lineId": "oito_east",
     "number": 3,
     "name": "島内",
@@ -91,7 +91,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-04",
+    "id": "OIE-04",
     "lineId": "oito_east",
     "number": 4,
     "name": "島高松",
@@ -119,7 +119,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-05",
+    "id": "OIE-05",
     "lineId": "oito_east",
     "number": 5,
     "name": "梓橋",
@@ -147,7 +147,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-06",
+    "id": "OIE-06",
     "lineId": "oito_east",
     "number": 6,
     "name": "一日市場",
@@ -175,7 +175,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-07",
+    "id": "OIE-07",
     "lineId": "oito_east",
     "number": 7,
     "name": "中萱",
@@ -203,7 +203,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-08",
+    "id": "OIE-08",
     "lineId": "oito_east",
     "number": 8,
     "name": "南豊科",
@@ -231,7 +231,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-09",
+    "id": "OIE-09",
     "lineId": "oito_east",
     "number": 9,
     "name": "豊科",
@@ -260,7 +260,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-10",
+    "id": "OIE-10",
     "lineId": "oito_east",
     "number": 10,
     "name": "柏矢町",
@@ -288,7 +288,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-11",
+    "id": "OIE-11",
     "lineId": "oito_east",
     "number": 11,
     "name": "穂高",
@@ -317,7 +317,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-12",
+    "id": "OIE-12",
     "lineId": "oito_east",
     "number": 12,
     "name": "有明",
@@ -345,7 +345,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-13",
+    "id": "OIE-13",
     "lineId": "oito_east",
     "number": 13,
     "name": "安曇追分",
@@ -373,7 +373,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-14",
+    "id": "OIE-14",
     "lineId": "oito_east",
     "number": 14,
     "name": "細野",
@@ -400,7 +400,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-15",
+    "id": "OIE-15",
     "lineId": "oito_east",
     "number": 15,
     "name": "北細野",
@@ -427,7 +427,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-16",
+    "id": "OIE-16",
     "lineId": "oito_east",
     "number": 16,
     "name": "信濃松川",
@@ -455,7 +455,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-17",
+    "id": "OIE-17",
     "lineId": "oito_east",
     "number": 17,
     "name": "安曇沓掛",
@@ -482,7 +482,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-18",
+    "id": "OIE-18",
     "lineId": "oito_east",
     "number": 18,
     "name": "信濃常盤",
@@ -510,7 +510,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-19",
+    "id": "OIE-19",
     "lineId": "oito_east",
     "number": 19,
     "name": "南大町",
@@ -537,7 +537,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-20",
+    "id": "OIE-20",
     "lineId": "oito_east",
     "number": 20,
     "name": "信濃大町",
@@ -566,7 +566,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-21",
+    "id": "OIE-21",
     "lineId": "oito_east",
     "number": 21,
     "name": "北大町",
@@ -593,7 +593,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-22",
+    "id": "OIE-22",
     "lineId": "oito_east",
     "number": 22,
     "name": "信濃木崎",
@@ -621,7 +621,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-23",
+    "id": "OIE-23",
     "lineId": "oito_east",
     "number": 23,
     "name": "稲尾",
@@ -648,7 +648,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-24",
+    "id": "OIE-24",
     "lineId": "oito_east",
     "number": 24,
     "name": "海ノ口",
@@ -675,7 +675,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-25",
+    "id": "OIE-25",
     "lineId": "oito_east",
     "number": 25,
     "name": "簗場",
@@ -703,7 +703,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-26",
+    "id": "OIE-26",
     "lineId": "oito_east",
     "number": 26,
     "name": "南神城",
@@ -730,7 +730,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-27",
+    "id": "OIE-27",
     "lineId": "oito_east",
     "number": 27,
     "name": "神城",
@@ -758,7 +758,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-28",
+    "id": "OIE-28",
     "lineId": "oito_east",
     "number": 28,
     "name": "飯森",
@@ -785,7 +785,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-29",
+    "id": "OIE-29",
     "lineId": "oito_east",
     "number": 29,
     "name": "白馬",
@@ -814,7 +814,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-30",
+    "id": "OIE-30",
     "lineId": "oito_east",
     "number": 30,
     "name": "信濃森上",
@@ -842,7 +842,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-31",
+    "id": "OIE-31",
     "lineId": "oito_east",
     "number": 31,
     "name": "白馬大池",
@@ -869,7 +869,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-32",
+    "id": "OIE-32",
     "lineId": "oito_east",
     "number": 32,
     "name": "千国",
@@ -896,7 +896,7 @@ export const OITO_EAST_STATIONS: Station[] = [
     }
   },
   {
-    "id": "OE-33",
+    "id": "OIE-33",
     "lineId": "oito_east",
     "number": 33,
     "name": "南小谷",
