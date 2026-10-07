@@ -15,7 +15,7 @@ import { getCombinedGlobalTimetable } from '../data/linesRegistry';
 export interface SimulationState {
   currentSec: number;        // シミュレーション時刻（秒）0〜86399
   isPlaying: boolean;        // 再生中フラグ
-  speedMultiplier: number;   // 再生倍速 (1, 2, 5, 10, 30)
+  speedMultiplier: number;   // 再生倍速 (1, 2, 5, 10, 30, 60, 120, 300, 600, 1200, 1800, 3600)
   isHoliday: boolean;        // 平日/土休日
   globalDelayMinutes: number;// 全体遅延シミュレーション(分)
   randomDelays: Record<string, number>; // 個別列車の遅延
