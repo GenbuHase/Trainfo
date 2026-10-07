@@ -76,7 +76,7 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     numColor: '#a84e15',
   },
   // JR東日本 大糸線
-  OE: {
+  OIE: {
     borderColor: '#8a579e',
     prefixColor: '#8a579e',
     numColor: '#6c3b82',
@@ -86,6 +86,24 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     borderColor: '#0067b8',
     prefixColor: '#0067b8',
     numColor: '#004d8a',
+  },
+  // 小田急小田原線
+  OH: {
+    borderColor: '#0065af',
+    prefixColor: '#0065af',
+    numColor: '#004c85',
+  },
+  // 小田急江ノ島線
+  OE: {
+    borderColor: '#0065af',
+    prefixColor: '#0065af',
+    numColor: '#004c85',
+  },
+  // 小田急多摩線
+  OT: {
+    borderColor: '#0065af',
+    prefixColor: '#0065af',
+    numColor: '#004c85',
   },
   // 東京臨海高速鉄道りんかい線
   R: {

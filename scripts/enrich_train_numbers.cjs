@@ -2074,6 +2074,145 @@ if (target === 'chichibu' || target === 'all') {
   enrichChichibu();
 }
 
+/**
+ * 小田急路線の共通エンリッチメント処理
+ */
+function enrichOdakyuLine(lineName, globalPath, stationPath, ekitanPath) {
+  console.log(`=== ${lineName} 公式列車番号エンリッチメント開始 ===`);
+
+  if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath)) {
+    console.warn(`必要なデータファイルが見つかりません: ${lineName}`);
+    return;
+  }
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const ekitanData = JSON.parse(fs.readFileSync(ekitanPath, 'utf8'));
+  const stationTimetables = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
+
+  let matchedFromEkitan = 0;
+  let fallbackCount = 0;
+
+  const trainIdToOfficialNo = new Map();
+
+  for (const trip of trips) {
+    const originalId = trip.trainId || trip.trainNumber;
+    trip.trainId = originalId;
+
+    const isHoliday = trip.isHoliday;
+    const dayKey = isHoliday ? 'holiday' : 'weekday';
+
+    let officialNo = '';
+
+    // 駅探データからの突合
+    // 1. 各停車駅の発車時刻で照合
+    for (const stop of trip.stops) {
+      if (stop.isPassing || !stop.departureTime) continue;
+      const stId = stop.stationId;
+      const [hStr, mStr] = stop.departureTime.split(':');
+      const h = parseInt(hStr, 10);
+      const m = parseInt(mStr, 10);
+      const ekitanDeps = ekitanData[dayKey]?.[stId]?.[trip.direction] || [];
+      const matched = ekitanDeps.find((d) => d.h === h && d.m === m);
+      if (matched && matched.no) {
+        officialNo = matched.no;
+        matchedFromEkitan++;
+        break;
+      }
+    }
+
+    // 2. もし見つからず終着駅の到着時刻がある場合、終着駅で照合
+    if (!officialNo) {
+      const lastStop = trip.stops[trip.stops.length - 1];
+      if (lastStop && lastStop.arrivalTime) {
+        const stId = lastStop.stationId;
+        const [hStr, mStr] = lastStop.arrivalTime.split(':');
+        const h = parseInt(hStr, 10);
+        const m = parseInt(mStr, 10);
+        const ekitanDeps = ekitanData[dayKey]?.[stId]?.[trip.direction] || [];
+        const matched = ekitanDeps.find((d) => d.h === h && d.m === m);
+        if (matched && matched.no) {
+          officialNo = matched.no;
+          matchedFromEkitan++;
+        }
+      }
+    }
+
+    if (officialNo) {
+      trip.trainNumber = normalizeTrainNumber(officialNo);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+    } else {
+      fallbackCount++;
+      trainIdToOfficialNo.set(originalId, originalId);
+    }
+  }
+
+  console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
+  console.log(`  駅探データより突合: ${matchedFromEkitan} 便`);
+  console.log(`  未突合(フォールバック): ${fallbackCount} 便`);
+
+  let stUpdatedCount = 0;
+  for (const day of ['weekday', 'holiday']) {
+    const dayData = stationTimetables[day] || {};
+    for (const stId of Object.keys(dayData)) {
+      const stDirs = dayData[stId] || {};
+      for (const dir of ['inbound', 'outbound']) {
+        const deps = stDirs[dir] || [];
+        for (const dep of deps) {
+          const lookupId = dep.trainId || dep.no;
+          if (lookupId && trainIdToOfficialNo.has(lookupId)) {
+            dep.trainId = lookupId;
+            dep.no = trainIdToOfficialNo.get(lookupId);
+            stUpdatedCount++;
+          }
+        }
+      }
+    }
+  }
+  console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
+
+  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
+  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  console.log(`✅ ${lineName} の globalTimetable.json および stationTimetables.json を正常に更新しました！\n`);
+}
+
+function enrichOdakyuTama() {
+  enrichOdakyuLine(
+    '小田急多摩線',
+    path.resolve('src/data/lines/odakyu_tama/globalTimetable.json'),
+    path.resolve('src/data/lines/odakyu_tama/stationTimetables.json'),
+    path.resolve('scripts/ekitan_odakyu_tama_timetables.json')
+  );
+}
+
+function enrichOdakyuEnoshima() {
+  enrichOdakyuLine(
+    '小田急江ノ島線',
+    path.resolve('src/data/lines/odakyu_enoshima/globalTimetable.json'),
+    path.resolve('src/data/lines/odakyu_enoshima/stationTimetables.json'),
+    path.resolve('scripts/ekitan_odakyu_enoshima_timetables.json')
+  );
+}
+
+function enrichOdakyuOdawara() {
+  enrichOdakyuLine(
+    '小田急小田原線',
+    path.resolve('src/data/lines/odakyu_odawara/globalTimetable.json'),
+    path.resolve('src/data/lines/odakyu_odawara/stationTimetables.json'),
+    path.resolve('scripts/ekitan_odakyu_odawara_timetables.json')
+  );
+}
+
+if (target === 'odakyu_tama' || target === 'odakyu' || target === 'all') {
+  enrichOdakyuTama();
+}
+if (target === 'odakyu_enoshima' || target === 'odakyu' || target === 'all') {
+  enrichOdakyuEnoshima();
+}
+if (target === 'odakyu_odawara' || target === 'odakyu' || target === 'all') {
+  enrichOdakyuOdawara();
+}
+
+
 
 
 
