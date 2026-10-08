@@ -94,17 +94,16 @@ export const TimeController: React.FC<TimeControllerProps> = ({
     { label: '16:00', sec: 16 * 3600 },
     { label: '20:00', sec: 20 * 3600 },
     { label: '24:00', sec: 24 * 3600 },
-    { label: '02:00', sec: 26 * 3600 },
   ];
 
   // 時刻プリセット
   const presets = [
-    { label: '早朝・始発', time: '05:00', sec: 5 * 3600 },
-    { label: '朝ラッシュ', time: '08:00', sec: 8 * 3600 },
-    { label: '昼デイタイム', time: '13:00', sec: 13 * 3600 },
-    { label: '夕ラッシュ', time: '18:30', sec: 18.5 * 3600 },
-    { label: '深夜終電帯', time: '24:15', sec: 24.25 * 3600 },
-    { label: '夜行・未明', time: '02:30', sec: 26.5 * 3600 },
+    { label: '早朝／始発', time: '04:30', sec: 4.5 * 3600 },
+    { label: '朝', time: '08:00', sec: 8 * 3600 },
+    { label: '昼', time: '13:00', sec: 13 * 3600 },
+    { label: '夕', time: '18:30', sec: 18.5 * 3600 },
+    { label: '深夜／終電', time: '24:00', sec: 24 * 3600 },
+    { label: '未明／夜行', time: '02:30', sec: 26.5 * 3600 },
   ];
 
   const speeds = [1, 2, 5, 10, 30, 60, 120, 300, 600, 1200, 1800, 3600];
@@ -259,7 +258,7 @@ export const TimeController: React.FC<TimeControllerProps> = ({
           />
           {/* ティックマーク（目盛り線: 実際の秒数と完全一致） */}
           <div className="relative w-full h-1 mt-0.5 pointer-events-none">
-            {[4 * 3600, 8 * 3600, 12 * 3600, 16 * 3600, 20 * 3600, 24 * 3600, 26 * 3600, 28 * 3600].map((sec) => {
+            {[4 * 3600, 8 * 3600, 12 * 3600, 16 * 3600, 20 * 3600, 24 * 3600, 28 * 3600].map((sec) => {
               const percent = ((sec - MIN_SEC) / TOTAL_SEC) * 100;
               return (
                 <div
