@@ -5,7 +5,9 @@ const path = require('path');
 function timeToSec(t) {
   if (!t) return null;
   const parts = t.split(':').map(Number);
-  return parts[0] * 3600 + parts[1] * 60 + (parts[2] || 0);
+  let h = parts[0];
+  if (h < 4) h += 24;
+  return h * 3600 + parts[1] * 60 + (parts[2] || 0);
 }
 
 function linkMetroToyokoMinatomirai() {
@@ -21,7 +23,29 @@ function linkMetroToyokoMinatomirai() {
   let tyTrips = hasToyoko ? JSON.parse(fs.readFileSync(toyokoPath, 'utf8')) : [];
   let mmTrips = hasMinatomirai ? JSON.parse(fs.readFileSync(minatomiraiPath, 'utf8')) : [];
 
-  // 1. 東急東横線 ↔ みなとみらい線 直通リンク (横浜駅)
+  // 以前の東横線・みなとみらい線関連のリンクをリセット
+  for (const t of fTrips) {
+    if (t.throughLineId === 'tokyu_toyoko' || t.prevLineId === 'tokyu_toyoko') {
+      delete t.throughTripId;
+      delete t.throughLineId;
+      delete t.prevTripId;
+      delete t.prevLineId;
+    }
+  }
+  for (const t of tyTrips) {
+    delete t.throughTripId;
+    delete t.throughLineId;
+    delete t.prevTripId;
+    delete t.prevLineId;
+  }
+  for (const t of mmTrips) {
+    delete t.throughTripId;
+    delete t.throughLineId;
+    delete t.prevTripId;
+    delete t.prevLineId;
+  }
+
+  // 1. 東急東横線 ↔ みなとみらい線 直通リンク (横浜駅 TY-21 / MM-01)
   if (hasToyoko && hasMinatomirai) {
     let tyToMmCount = 0;
     let mmToTyCount = 0;
@@ -32,14 +56,18 @@ function linkMetroToyokoMinatomirai() {
     const usedMmOut = new Set();
 
     for (const ty of tyOut) {
-      let matched = mmOut.find(mm => !usedMmOut.has(mm.tripId) && mm.trainNumber === ty.trainNumber && mm.isHoliday === ty.isHoliday);
+      const tyId = ty.trainId || ty.trainNumber;
+      // 1. trainId 照合
+      let matched = mmOut.find(mm => !usedMmOut.has(mm.tripId) && (mm.trainId === tyId || mm.trainNumber === tyId) && mm.isHoliday === ty.isHoliday);
+
+      // 2. 時刻近接照合
       if (!matched) {
         const tyArr = timeToSec(ty.stops[ty.stops.length - 1].arrivalTime);
         const candidates = mmOut.filter(mm => {
           if (usedMmOut.has(mm.tripId) || mm.isHoliday !== ty.isHoliday) return false;
           const mmDep = timeToSec(mm.stops[0].departureTime);
           const diff = mmDep - tyArr;
-          return diff >= 0 && diff <= 180;
+          return diff >= -60 && diff <= 180;
         }).sort((a, b) => {
           const da = Math.abs(timeToSec(a.stops[0].departureTime) - tyArr);
           const db = Math.abs(timeToSec(b.stops[0].departureTime) - tyArr);
@@ -52,7 +80,16 @@ function linkMetroToyokoMinatomirai() {
         usedMmOut.add(matched.tripId);
         ty.throughTripId = matched.tripId;
         ty.throughLineId = 'minatomirai';
-        ty.customDestination = matched.customDestination || '元町・中華街';
+        matched.prevTripId = ty.tripId;
+        matched.prevLineId = 'tokyu_toyoko';
+
+        // 境界駅での時刻シームレス同期
+        const arrTime = ty.stops[ty.stops.length - 1].arrivalTime;
+        ty.stops[ty.stops.length - 1].departureTime = arrTime; // 東横線は横浜到着で完了
+        matched.stops[0].arrivalTime = arrTime;               // みなとみらい線は到着時刻から停車開始
+
+        const finalDest = matched.customDestination || '元町・中華街';
+        ty.customDestination = finalDest;
         matched.customOrigin = ty.customOrigin || '渋谷';
         tyToMmCount++;
       }
@@ -64,14 +101,16 @@ function linkMetroToyokoMinatomirai() {
     const usedTyIn = new Set();
 
     for (const mm of mmIn) {
-      let matched = tyIn.find(ty => !usedTyIn.has(ty.tripId) && ty.trainNumber === mm.trainNumber && ty.isHoliday === mm.isHoliday);
+      const mmId = mm.trainId || mm.trainNumber;
+      let matched = tyIn.find(ty => !usedTyIn.has(ty.tripId) && (ty.trainId === mmId || ty.trainNumber === mmId) && ty.isHoliday === mm.isHoliday);
+
       if (!matched) {
         const mmArr = timeToSec(mm.stops[mm.stops.length - 1].arrivalTime);
         const candidates = tyIn.filter(ty => {
           if (usedTyIn.has(ty.tripId) || ty.isHoliday !== mm.isHoliday) return false;
           const tyDep = timeToSec(ty.stops[0].departureTime);
           const diff = tyDep - mmArr;
-          return diff >= 0 && diff <= 180;
+          return diff >= -60 && diff <= 180;
         }).sort((a, b) => {
           const da = Math.abs(timeToSec(a.stops[0].departureTime) - mmArr);
           const db = Math.abs(timeToSec(b.stops[0].departureTime) - mmArr);
@@ -84,7 +123,16 @@ function linkMetroToyokoMinatomirai() {
         usedTyIn.add(matched.tripId);
         mm.throughTripId = matched.tripId;
         mm.throughLineId = 'tokyu_toyoko';
-        mm.customDestination = matched.customDestination || '渋谷';
+        matched.prevTripId = mm.tripId;
+        matched.prevLineId = 'minatomirai';
+
+        // 境界駅での時刻シームレス同期
+        const arrTime = mm.stops[mm.stops.length - 1].arrivalTime;
+        mm.stops[mm.stops.length - 1].departureTime = arrTime; // みなとみらい線は横浜到着で完了
+        matched.stops[0].arrivalTime = arrTime;               // 東横線は到着時刻から停車開始
+
+        const finalDest = matched.customDestination || '渋谷';
+        mm.customDestination = finalDest;
         matched.customOrigin = mm.customOrigin || '元町・中華街';
         mmToTyCount++;
       }
@@ -95,7 +143,7 @@ function linkMetroToyokoMinatomirai() {
     console.log(`  [上り] みなとみらい線 -> 東横線: ${mmToTyCount} 本`);
   }
 
-  // 2. 副都心線 ↔ 東急東横線 直通リンク (渋谷駅)
+  // 2. 副都心線 ↔ 東急東横線 直通リンク (渋谷駅 F-16 / TY-01)
   if (hasFukutoshin && hasToyoko) {
     let fToTyCount = 0;
     let tyToFCount = 0;
@@ -107,7 +155,7 @@ function linkMetroToyokoMinatomirai() {
 
     for (const f of fOut) {
       const fId = f.trainId || f.trainNumber;
-      let matched = tyOut.find(ty => !usedTyOut.has(ty.tripId) && ty.trainNumber === fId && ty.isHoliday === f.isHoliday);
+      let matched = tyOut.find(ty => !usedTyOut.has(ty.tripId) && (ty.trainId === fId || ty.trainNumber === fId) && ty.isHoliday === f.isHoliday);
 
       if (!matched) {
         const fArr = timeToSec(f.stops[f.stops.length - 1].arrivalTime);
@@ -115,7 +163,7 @@ function linkMetroToyokoMinatomirai() {
           if (usedTyOut.has(ty.tripId) || ty.isHoliday !== f.isHoliday) return false;
           const tyDep = timeToSec(ty.stops[0].departureTime);
           const diff = tyDep - fArr;
-          return diff >= 0 && diff <= 300;
+          return diff >= -60 && diff <= 300;
         }).sort((a, b) => {
           const da = Math.abs(timeToSec(a.stops[0].departureTime) - fArr);
           const db = Math.abs(timeToSec(b.stops[0].departureTime) - fArr);
@@ -128,7 +176,16 @@ function linkMetroToyokoMinatomirai() {
         usedTyOut.add(matched.tripId);
         f.throughTripId = matched.tripId;
         f.throughLineId = 'tokyu_toyoko';
-        f.customDestination = matched.customDestination || '元町・中華街';
+        matched.prevTripId = f.tripId;
+        matched.prevLineId = 'fukutoshin';
+
+        // 境界駅での時刻シームレス同期
+        const arrTime = f.stops[f.stops.length - 1].arrivalTime;
+        f.stops[f.stops.length - 1].departureTime = arrTime; // 副都心線は渋谷到着で完了
+        matched.stops[0].arrivalTime = arrTime;             // 東横線は到着時刻から停車開始
+
+        const finalDest = matched.customDestination || '元町・中華街';
+        f.customDestination = finalDest;
         matched.customOrigin = f.customOrigin || '和光市';
         fToTyCount++;
       }
@@ -140,7 +197,8 @@ function linkMetroToyokoMinatomirai() {
     const usedFIn = new Set();
 
     for (const ty of tyIn) {
-      let matched = fIn.find(f => !usedFIn.has(f.tripId) && (f.trainId === ty.trainNumber || f.trainNumber === ty.trainNumber) && f.isHoliday === ty.isHoliday);
+      const tyId = ty.trainId || ty.trainNumber;
+      let matched = fIn.find(f => !usedFIn.has(f.tripId) && (f.trainId === tyId || f.trainNumber === tyId) && f.isHoliday === ty.isHoliday);
 
       if (!matched) {
         const tyArr = timeToSec(ty.stops[ty.stops.length - 1].arrivalTime);
@@ -148,7 +206,7 @@ function linkMetroToyokoMinatomirai() {
           if (usedFIn.has(f.tripId) || f.isHoliday !== ty.isHoliday) return false;
           const fDep = timeToSec(f.stops[0].departureTime);
           const diff = fDep - tyArr;
-          return diff >= 0 && diff <= 300;
+          return diff >= -60 && diff <= 300;
         }).sort((a, b) => {
           const da = Math.abs(timeToSec(a.stops[0].departureTime) - tyArr);
           const db = Math.abs(timeToSec(b.stops[0].departureTime) - tyArr);
@@ -161,7 +219,16 @@ function linkMetroToyokoMinatomirai() {
         usedFIn.add(matched.tripId);
         ty.throughTripId = matched.tripId;
         ty.throughLineId = 'fukutoshin';
-        ty.customDestination = matched.customDestination || '和光市';
+        matched.prevTripId = ty.tripId;
+        matched.prevLineId = 'tokyu_toyoko';
+
+        // 境界駅での時刻シームレス同期
+        const arrTime = ty.stops[ty.stops.length - 1].arrivalTime;
+        ty.stops[ty.stops.length - 1].departureTime = arrTime; // 東横線は渋谷到着で完了
+        matched.stops[0].arrivalTime = arrTime;             // 副都心線は到着時刻から停車開始
+
+        const finalDest = matched.customDestination || '和光市';
+        ty.customDestination = finalDest;
         matched.customOrigin = ty.customOrigin || '元町・中華街';
         tyToFCount++;
       }

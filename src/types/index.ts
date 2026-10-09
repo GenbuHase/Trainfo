@@ -117,6 +117,8 @@ export interface TimetableTrip {
   customDestination?: string; // 直通列車の行先名 (例: 元町・中華街, 新木場, 海老名)
   throughTripId?: string;     // 直通先トリップID（境界駅で接続する他路線側のトリップID）
   throughLineId?: LineId;     // 直通先路線ID
+  prevTripId?: string;        // 直通元トリップID
+  prevLineId?: LineId;        // 直通元路線ID
   cars: number;           // 10両, 8両, 4両
   isHoliday: boolean;     // 平日 / 土休日
   stops: StationStopTime[];
@@ -141,6 +143,8 @@ export interface ActiveTrain {
   customDestination?: string;
   throughTripId?: string;    // 直通先トリップID
   throughLineId?: LineId;    // 直通先路線ID
+  prevTripId?: string;       // 直通元トリップID
+  prevLineId?: LineId;       // 直通元路線ID
   cars: number;
   status: TrainStatus;
   currentLat: number;
