@@ -10,6 +10,23 @@ function timeToSec(t) {
   return h * 3600 + parts[1] * 60 + (parts[2] || 0);
 }
 
+const TOYOKO_STATIONS = {
+  'TY-01': '渋谷', 'TY-02': '代官山', 'TY-03': '中目黒', 'TY-04': '祐天寺', 'TY-05': '学芸大学',
+  'TY-06': '都立大学', 'TY-07': '自由が丘', 'TY-08': '田園調布', 'TY-09': '多摩川', 'TY-10': '新丸子',
+  'TY-11': '武蔵小杉', 'TY-12': '元住吉', 'TY-13': '日吉', 'TY-14': '綱島', 'TY-15': '大倉山',
+  'TY-16': '菊名', 'TY-17': '妙蓮寺', 'TY-18': '白楽', 'TY-19': '東白楽', 'TY-20': '反町', 'TY-21': '横浜'
+};
+
+const MINATOMIRAI_STATIONS = {
+  'MM-01': '横浜', 'MM-02': '新高島', 'MM-03': 'みなとみらい', 'MM-04': '馬車道', 'MM-05': '日本大通り', 'MM-06': '元町・中華街'
+};
+
+const FUKUTOSHIN_STATIONS = {
+  'F-01': '和光市', 'F-02': '地下鉄成増', 'F-03': '地下鉄赤塚', 'F-04': '平和台', 'F-05': '小竹向原',
+  'F-06': '千川', 'F-07': '要町', 'F-08': '池袋', 'F-09': '雑司が谷', 'F-10': '西早稲田',
+  'F-11': '東新宿', 'F-12': '新宿三丁目', 'F-13': '北参道', 'F-14': '明治神宮前', 'F-15': '渋谷', 'F-16': '渋谷'
+};
+
 function linkMetroToyokoMinatomirai() {
   const fukutoshinPath = path.resolve('src/data/lines/fukutoshin/globalTimetable.json');
   const toyokoPath = path.resolve('src/data/lines/tokyu_toyoko/globalTimetable.json');
@@ -87,10 +104,9 @@ function linkMetroToyokoMinatomirai() {
         const arrTime = ty.stops[ty.stops.length - 1].arrivalTime;
         ty.stops[ty.stops.length - 1].departureTime = arrTime; // 東横線は横浜到着で完了
         matched.stops[0].arrivalTime = arrTime;               // みなとみらい線は到着時刻から停車開始
-
-        const finalDest = matched.customDestination || '元町・中華街';
+        const finalDest = matched.customDestination || MINATOMIRAI_STATIONS[matched.destinationStationId] || '元町・中華街';
         ty.customDestination = finalDest;
-        matched.customOrigin = ty.customOrigin || '渋谷';
+        matched.customOrigin = ty.customOrigin || TOYOKO_STATIONS[ty.originStationId] || '渋谷';
         tyToMmCount++;
       }
     }
@@ -131,9 +147,9 @@ function linkMetroToyokoMinatomirai() {
         mm.stops[mm.stops.length - 1].departureTime = arrTime; // みなとみらい線は横浜到着で完了
         matched.stops[0].arrivalTime = arrTime;               // 東横線は到着時刻から停車開始
 
-        const finalDest = matched.customDestination || '渋谷';
+        const finalDest = matched.customDestination || TOYOKO_STATIONS[matched.destinationStationId] || '渋谷';
         mm.customDestination = finalDest;
-        matched.customOrigin = mm.customOrigin || '元町・中華街';
+        matched.customOrigin = mm.customOrigin || MINATOMIRAI_STATIONS[mm.originStationId] || '元町・中華街';
         mmToTyCount++;
       }
     }
@@ -184,9 +200,9 @@ function linkMetroToyokoMinatomirai() {
         f.stops[f.stops.length - 1].departureTime = arrTime; // 副都心線は渋谷到着で完了
         matched.stops[0].arrivalTime = arrTime;             // 東横線は到着時刻から停車開始
 
-        const finalDest = matched.customDestination || '元町・中華街';
+        const finalDest = matched.customDestination || TOYOKO_STATIONS[matched.destinationStationId] || '横浜';
         f.customDestination = finalDest;
-        matched.customOrigin = f.customOrigin || '和光市';
+        matched.customOrigin = f.customOrigin || FUKUTOSHIN_STATIONS[f.originStationId] || '和光市';
         fToTyCount++;
       }
     }
@@ -227,9 +243,9 @@ function linkMetroToyokoMinatomirai() {
         ty.stops[ty.stops.length - 1].departureTime = arrTime; // 東横線は渋谷到着で完了
         matched.stops[0].arrivalTime = arrTime;             // 副都心線は到着時刻から停車開始
 
-        const finalDest = matched.customDestination || '和光市';
+        const finalDest = matched.customDestination || FUKUTOSHIN_STATIONS[matched.destinationStationId] || '和光市';
         ty.customDestination = finalDest;
-        matched.customOrigin = ty.customOrigin || '元町・中華街';
+        matched.customOrigin = ty.customOrigin || TOYOKO_STATIONS[ty.originStationId] || '元町・中華街';
         tyToFCount++;
       }
     }
