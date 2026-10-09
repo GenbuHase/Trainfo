@@ -188,7 +188,8 @@
     ],
     "trainId": "75249",
     "throughTripId": "WD_OUT_TY-01_0523_106478",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "小竹向原"
   },
   {
     "tripId": "WD_OUT_F-01_0505_75272",
@@ -561,7 +562,8 @@
     ],
     "trainId": "75353",
     "throughTripId": "WD_OUT_TY-01_0551_75515",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0521_105515",
@@ -788,7 +790,8 @@
     ],
     "trainId": "75354",
     "throughTripId": "WD_OUT_TY-01_0603_75516",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-01_0533_75277",
@@ -901,7 +904,8 @@
     ],
     "trainId": "75277",
     "throughTripId": "WD_OUT_TY-01_0604_105652",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0534_105509",
@@ -1013,9 +1017,11 @@
     ],
     "trainId": "105509",
     "customOrigin": "菊名",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-16_0503_105835",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0606_77597",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_0540_75278",
@@ -1128,7 +1134,8 @@
     ],
     "trainId": "75278",
     "throughTripId": "WD_OUT_TY-01_0616_75440",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0545_105601",
@@ -1355,7 +1362,8 @@
     ],
     "trainId": "75356",
     "throughTripId": "WD_OUT_TY-01_0626_75518",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0551_106019",
@@ -1462,14 +1470,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "06:29:00",
-        "departureTime": "06:31:00",
+        "departureTime": "06:29:00",
         "isPassing": false
       }
     ],
     "trainId": "106019",
     "customOrigin": "武蔵小杉",
     "prevTripId": "WD_INB_TY-11_0529_106165",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0631_106019",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_0556_75281",
@@ -1582,7 +1592,8 @@
     ],
     "trainId": "75281",
     "throughTripId": "WD_OUT_TY-01_0635_145196",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0557_105603",
@@ -1809,7 +1820,8 @@
     ],
     "trainId": "75283",
     "throughTripId": "WD_OUT_TY-01_0646_75445",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0607_105511",
@@ -1921,9 +1933,11 @@
     ],
     "trainId": "105511",
     "customOrigin": "菊名",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-16_0536_105837",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0644_106018",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0612_106018",
@@ -2035,7 +2049,7 @@
       }
     ],
     "trainId": "106018",
-    "customOrigin": "日吉",
+    "customOrigin": "海老名",
     "prevTripId": "WD_INB_TY-13_0548_125053",
     "prevLineId": "tokyu_toyoko"
   },
@@ -2150,7 +2164,8 @@
     ],
     "trainId": "75284",
     "throughTripId": "WD_OUT_TY-01_0650_105657",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-06_0616_144612",
@@ -2346,7 +2361,9 @@
     "customOrigin": "森林公園",
     "trainId": "114932",
     "throughTripId": "WD_OUT_TY-01_0702_115273",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_0531_114932",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0619_105605",
@@ -2458,9 +2475,11 @@
     ],
     "trainId": "105605",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_0535_105931",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0700_124727",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_0621_75260",
@@ -2573,7 +2592,8 @@
     ],
     "trainId": "75260",
     "throughTripId": "WD_OUT_TY-01_0654_75422",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0625_105684",
@@ -2770,7 +2790,8 @@
     ],
     "trainId": "75286",
     "throughTripId": "WD_OUT_TY-01_0708_145197",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0629_124727",
@@ -2997,7 +3018,8 @@
     ],
     "trainId": "75287",
     "throughTripId": "WD_OUT_TY-01_0710_75448",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-01_0637_75289",
@@ -3110,7 +3132,8 @@
     ],
     "trainId": "75289",
     "throughTripId": "WD_OUT_TY-01_0726_115272",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0638_106024",
@@ -3217,14 +3240,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "07:13:00",
-        "departureTime": "07:14:00",
+        "departureTime": "07:13:00",
         "isPassing": false
       }
     ],
     "trainId": "106024",
     "customOrigin": "菊名",
     "prevTripId": "WD_INB_TY-16_0604_106363",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0714_106024",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_0642_75261",
@@ -3531,7 +3556,9 @@
       }
     ],
     "customOrigin": "森林公園",
-    "trainId": "114931"
+    "trainId": "114931",
+    "prevTripId": "WD_INB_TJ-30_0551_114931",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0648_105505",
@@ -3840,7 +3867,8 @@
     ],
     "trainId": "75290",
     "throughTripId": "WD_OUT_TY-01_0734_75394",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0653_105606",
@@ -4175,14 +4203,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "07:42:00",
-        "departureTime": "07:43:00",
+        "departureTime": "07:42:00",
         "isPassing": false
       }
     ],
     "trainId": "106022",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_0616_106255",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0743_106022",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_0704_75399",
@@ -4295,7 +4325,8 @@
     ],
     "trainId": "75399",
     "throughTripId": "WD_OUT_TY-01_0741_75561",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0707_106027",
@@ -4490,7 +4521,9 @@
     "customOrigin": "志木",
     "trainId": "114915",
     "throughTripId": "WD_OUT_TY-01_0752_115256",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_0700_114915",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0709_124796",
@@ -4601,10 +4634,12 @@
       }
     ],
     "trainId": "124796",
-    "customOrigin": "日吉",
-    "customDestination": "和光市",
+    "customOrigin": "海老名",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-13_0646_125137",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0749_77602",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_0712_144559",
@@ -4773,7 +4808,8 @@
     "throughLineId": "seibu_yurakucho",
     "trainId": "105772",
     "prevTripId": "WD_INB_TY-11_0652_106364",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "customOrigin": "武蔵小杉"
   },
   {
     "tripId": "WD_OUT_F-01_0715_75262",
@@ -4886,7 +4922,8 @@
     ],
     "trainId": "75262",
     "throughTripId": "WD_OUT_TY-01_0747_75424",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0716_105744",
@@ -5009,7 +5046,7 @@
       }
     ],
     "trainId": "106025",
-    "customOrigin": "武蔵小杉",
+    "customOrigin": "元町・中華街",
     "customDestination": "新宿三丁目",
     "prevTripId": "WD_INB_TY-21_0632_106139",
     "prevLineId": "tokyu_toyoko"
@@ -5244,7 +5281,7 @@
       }
     ],
     "trainId": "105801",
-    "customOrigin": "元町・中華街",
+    "customOrigin": "武蔵小杉",
     "prevTripId": "WD_INB_TY-11_0701_106169",
     "prevLineId": "tokyu_toyoko"
   },
@@ -5359,7 +5396,8 @@
     ],
     "trainId": "75293",
     "throughTripId": "WD_OUT_TY-01_0804_145189",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0729_105770",
@@ -5550,14 +5588,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "08:06:00",
-        "departureTime": "08:09:00",
+        "departureTime": "08:06:00",
         "isPassing": false
       }
     ],
     "trainId": "124801",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_0638_106258",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0809_124801",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_0733_144508",
@@ -5755,7 +5795,9 @@
     "customOrigin": "森林公園",
     "trainId": "114988",
     "throughTripId": "WD_OUT_TY-01_0811_115329",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_0644_114988",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0737_105762",
@@ -5880,7 +5922,8 @@
     ],
     "trainId": "75233",
     "throughTripId": "WD_OUT_TY-01_0743_105664",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "新宿三丁目"
   },
   {
     "tripId": "WD_OUT_F-01_0740_75295",
@@ -5993,7 +6036,8 @@
     ],
     "trainId": "75295",
     "throughTripId": "WD_OUT_TY-01_0822_75457",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0742_105535",
@@ -6219,9 +6263,11 @@
     ],
     "trainId": "105610",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_0652_105936",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0829_106111",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_0745_144605",
@@ -6419,7 +6465,9 @@
     "customOrigin": "志木",
     "trainId": "114938",
     "throughTripId": "WD_OUT_TY-01_0828_75570",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_0738_114938",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_0747_144509",
@@ -6659,7 +6707,9 @@
     "customOrigin": "川越市",
     "trainId": "114952",
     "throughTripId": "WD_OUT_TY-01_0826_115293",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_0720_114952",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0754_105753",
@@ -6856,7 +6906,8 @@
     ],
     "trainId": "75409",
     "throughTripId": "WD_OUT_TY-01_0836_75409",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0757_106111",
@@ -6866,7 +6917,7 @@
     "direction": "inbound",
     "originStationId": "F-16",
     "destinationStationId": "F-01",
-    "customDestination": "森林公園",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6963,14 +7014,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "08:28:00",
-        "departureTime": "08:29:00",
+        "departureTime": "08:28:00",
         "isPassing": false
       }
     ],
     "trainId": "106111",
     "customOrigin": "横浜",
     "prevTripId": "WD_INB_TY-21_0714_105753",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0832_77605",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_0800_144632",
@@ -7317,7 +7370,8 @@
     ],
     "trainId": "75405",
     "throughTripId": "WD_OUT_TY-01_0816_145092",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "新宿三丁目"
   },
   {
     "tripId": "WD_OUT_F-01_0808_114951",
@@ -7431,7 +7485,9 @@
     "customOrigin": "川越市",
     "trainId": "114951",
     "throughTripId": "WD_OUT_TY-01_0842_115292",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_0740_114951",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0808_105549",
@@ -7627,7 +7683,7 @@
       }
     ],
     "trainId": "105804",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_0734_105862",
     "prevLineId": "tokyu_toyoko"
   },
@@ -7742,7 +7798,8 @@
     ],
     "trainId": "75410",
     "throughTripId": "WD_OUT_TY-01_0853_75587",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0813_105536",
@@ -7854,9 +7911,11 @@
     ],
     "trainId": "105536",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_0721_106368",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0849_77607",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_0814_144609",
@@ -8165,7 +8224,7 @@
       }
     ],
     "trainId": "124807",
-    "customOrigin": "日吉",
+    "customOrigin": "湘南台",
     "customDestination": "池袋",
     "prevTripId": "WD_INB_TY-13_0752_125148",
     "prevLineId": "tokyu_toyoko"
@@ -8282,7 +8341,9 @@
     "customOrigin": "志木",
     "trainId": "114939",
     "throughTripId": "WD_OUT_TY-01_0855_75572",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_0810_114939",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0821_105613",
@@ -8394,9 +8455,11 @@
     ],
     "trainId": "105613",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_0725_105939",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0902_106112",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0823_105745",
@@ -8593,7 +8656,8 @@
     ],
     "trainId": "75298",
     "throughTripId": "WD_OUT_TY-01_0906_106483",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0825_105821",
@@ -8675,7 +8739,7 @@
       }
     ],
     "trainId": "105821",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_0730_105821",
     "prevLineId": "tokyu_toyoko"
   },
@@ -8790,7 +8854,8 @@
     ],
     "trainId": "75263",
     "throughTripId": "WD_OUT_TY-01_0857_115280",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-07_0827_75251",
@@ -8867,7 +8932,8 @@
     ],
     "trainId": "75251",
     "throughTripId": "WD_OUT_TY-01_0850_145190",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "千川"
   },
   {
     "tripId": "WD_INB_F-16_0828_106112",
@@ -8877,7 +8943,7 @@
     "direction": "inbound",
     "originStationId": "F-16",
     "destinationStationId": "F-01",
-    "customDestination": "森林公園",
+    "customDestination": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8974,14 +9040,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "09:01:00",
-        "departureTime": "09:02:00",
+        "departureTime": "09:01:00",
         "isPassing": false
       }
     ],
     "trainId": "106112",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_0736_106134",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0906_77592",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_0830_144606",
@@ -9145,7 +9213,7 @@
       }
     ],
     "trainId": "105796",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_0749_106112",
     "prevLineId": "tokyu_toyoko"
   },
@@ -9188,7 +9256,8 @@
     ],
     "trainId": "75235",
     "throughTripId": "WD_OUT_TY-01_0839_75397",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "新宿三丁目"
   },
   {
     "tripId": "WD_INB_F-16_0833_124806",
@@ -9227,7 +9296,7 @@
       }
     ],
     "trainId": "124806",
-    "customOrigin": "日吉",
+    "customOrigin": "新横浜",
     "customDestination": "新宿三丁目",
     "prevTripId": "WD_INB_TY-13_0807_125147",
     "prevLineId": "tokyu_toyoko"
@@ -9522,9 +9591,11 @@
     ],
     "trainId": "105614",
     "customOrigin": "元町・中華街",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_0758_105876",
     "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "throughTripId": "WD_OUT_TJ-11_0916_77608",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_0841_75299",
@@ -9637,7 +9708,8 @@
     ],
     "trainId": "75299",
     "throughTripId": "WD_OUT_TY-01_0919_75461",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-06_0843_144640",
@@ -9917,9 +9989,11 @@
     ],
     "trainId": "105615",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_0751_105941",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0930_77659",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-13_0846_75425",
@@ -10071,7 +10145,8 @@
     ],
     "trainId": "75360",
     "throughTripId": "WD_OUT_TY-01_0925_75398",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0848_124804",
@@ -10214,7 +10289,8 @@
     ],
     "trainId": "75426",
     "throughTripId": "WD_OUT_TY-01_0912_105671",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "千川"
   },
   {
     "tripId": "WD_INB_F-16_0851_106047",
@@ -10797,7 +10873,7 @@
       }
     ],
     "trainId": "105789",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_0828_105880",
     "prevLineId": "tokyu_toyoko"
   },
@@ -10977,9 +11053,11 @@
     ],
     "trainId": "105554",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_0815_106265",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0944_77611",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0911_106114",
@@ -11086,14 +11164,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "09:47:00",
-        "departureTime": "09:50:00",
+        "departureTime": "09:47:00",
         "isPassing": false
       }
     ],
     "trainId": "106114",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_0837_106114",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_0950_106114",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_0912_75420",
@@ -11206,7 +11286,8 @@
     ],
     "trainId": "75420",
     "throughTripId": "WD_OUT_TY-01_0949_75582",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-06_0913_144573",
@@ -11331,7 +11412,8 @@
     ],
     "trainId": "75236",
     "throughTripId": "WD_OUT_TY-01_0916_75588",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "新宿三丁目"
   },
   {
     "tripId": "WD_INB_F-16_0915_105617",
@@ -11443,9 +11525,11 @@
     ],
     "trainId": "105617",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_0822_105943",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1000_77660",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-09_0915_75406",
@@ -11510,7 +11594,8 @@
     ],
     "trainId": "75406",
     "throughTripId": "WD_OUT_TY-01_0933_75568",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "WD_OUT_F-06_0916_144553",
@@ -11707,7 +11792,8 @@
     ],
     "trainId": "75301",
     "throughTripId": "WD_OUT_TY-01_0958_75463",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0919_124832",
@@ -11818,7 +11904,7 @@
       }
     ],
     "trainId": "124832",
-    "customOrigin": "日吉",
+    "customOrigin": "新横浜",
     "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-13_0855_125173",
     "prevLineId": "tokyu_toyoko"
@@ -11990,7 +12076,8 @@
     "throughLineId": "seibu_yurakucho",
     "trainId": "105773",
     "prevTripId": "WD_INB_TY-21_0847_105882",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "customOrigin": "元町・中華街"
   },
   {
     "tripId": "WD_OUT_F-01_0925_75302",
@@ -12103,7 +12190,8 @@
     ],
     "trainId": "75302",
     "throughTripId": "WD_OUT_TY-01_1004_75464",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0925_105556",
@@ -12215,9 +12303,11 @@
     ],
     "trainId": "105556",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_0832_105944",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1004_77661",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0929_105618",
@@ -12444,7 +12534,8 @@
     ],
     "trainId": "75303",
     "throughTripId": "WD_OUT_TY-01_1010_105678",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0933_105537",
@@ -12870,7 +12961,9 @@
     "customOrigin": "志木",
     "trainId": "114936",
     "throughTripId": "WD_OUT_TY-01_1009_115277",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_0928_114936",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0939_105764",
@@ -12952,7 +13045,7 @@
       }
     ],
     "trainId": "105764",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_0850_106268",
     "prevLineId": "tokyu_toyoko"
   },
@@ -13145,14 +13238,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "10:19:00",
-        "departureTime": "10:20:00",
+        "departureTime": "10:19:00",
         "isPassing": false
       }
     ],
     "trainId": "124856",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_0915_106091",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1020_124856",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0950_105754",
@@ -13350,7 +13445,9 @@
     "customOrigin": "森林公園",
     "trainId": "114994",
     "throughTripId": "WD_OUT_TY-01_1024_115335",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_0905_114994",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_0954_106031",
@@ -13589,7 +13686,8 @@
     ],
     "trainId": "75304",
     "throughTripId": "WD_OUT_TY-01_1032_106468",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_0958_105559",
@@ -13701,9 +13799,11 @@
     ],
     "trainId": "105559",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_0923_105885",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1031_77613",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1000_105529",
@@ -14128,7 +14228,8 @@
     ],
     "trainId": "75305",
     "throughTripId": "WD_OUT_TY-01_1049_75467",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1011_105530",
@@ -14283,7 +14384,8 @@
     ],
     "trainId": "75237",
     "throughTripId": "WD_OUT_TY-01_1020_145239",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "新宿三丁目"
   },
   {
     "tripId": "WD_INB_F-16_1016_105622",
@@ -14394,10 +14496,12 @@
       }
     ],
     "trainId": "105622",
-    "customOrigin": "日吉",
-    "customDestination": "和光市",
+    "customOrigin": "元町・中華街",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_0930_106274",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1055_77615",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1016_144555",
@@ -14793,7 +14897,9 @@
     "customOrigin": "森林公園",
     "trainId": "114995",
     "throughTripId": "WD_OUT_TY-01_1054_115336",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_0938_114995",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1026_105690",
@@ -15218,14 +15324,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "11:16:00",
-        "departureTime": "11:18:00",
+        "departureTime": "11:16:00",
         "isPassing": false
       }
     ],
     "trainId": "106116",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_0952_106277",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1118_106116",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1040_75421",
@@ -15338,7 +15446,8 @@
     ],
     "trainId": "75421",
     "throughTripId": "WD_OUT_TY-01_1117_75583",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-06_1041_144512",
@@ -15529,14 +15638,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "11:07:00",
-        "departureTime": "11:09:00",
+        "departureTime": "11:07:00",
         "isPassing": false
       }
     ],
     "trainId": "106081",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1003_106116",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1109_106081",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1043_75307",
@@ -15649,7 +15760,8 @@
     ],
     "trainId": "75307",
     "throughTripId": "WD_OUT_TY-01_1119_75469",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1045_105625",
@@ -15761,9 +15873,11 @@
     ],
     "trainId": "105625",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_0959_105951",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1126_77618",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1046_144619",
@@ -15959,9 +16073,9 @@
     ],
     "trainId": "105564",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1019_105890",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-06_1052_144581",
@@ -16243,7 +16357,9 @@
     "customOrigin": "森林公園",
     "trainId": "114996",
     "throughTripId": "WD_OUT_TY-01_1124_115337",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1007_114996",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1058_75308",
@@ -16356,7 +16472,8 @@
     ],
     "trainId": "75308",
     "throughTripId": "WD_OUT_TY-01_1134_75470",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1100_105809",
@@ -16637,7 +16754,8 @@
     ],
     "trainId": "75310",
     "throughTripId": "WD_OUT_TY-01_1139_145165",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1104_124877",
@@ -16748,7 +16866,7 @@
       }
     ],
     "trainId": "124877",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1034_106199",
     "prevLineId": "tokyu_toyoko"
@@ -16864,7 +16982,8 @@
     ],
     "trainId": "75432",
     "throughTripId": "WD_OUT_TY-01_1147_75594",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1110_106086",
@@ -16971,14 +17090,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "11:38:00",
-        "departureTime": "11:39:00",
+        "departureTime": "11:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106086",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1022_105952",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1139_106086",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1112_105626",
@@ -17090,9 +17211,9 @@
     ],
     "trainId": "105626",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1042_106425",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-01_1117_75364",
@@ -17205,7 +17326,8 @@
     ],
     "trainId": "75364",
     "throughTripId": "WD_OUT_TY-01_1155_105688",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1117_106054",
@@ -17383,9 +17505,11 @@
     ],
     "trainId": "105567",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1049_105893",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1157_77619",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1122_144582",
@@ -17667,7 +17791,9 @@
     "customOrigin": "森林公園",
     "trainId": "114962",
     "throughTripId": "WD_OUT_TY-01_1154_115303",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1040_114962",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1130_105776",
@@ -17816,7 +17942,8 @@
     ],
     "trainId": "75207",
     "throughTripId": "WD_OUT_TY-01_1149_75369",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "WD_OUT_F-01_1133_75313",
@@ -17929,7 +18056,8 @@
     ],
     "trainId": "75313",
     "throughTripId": "WD_OUT_TY-01_1209_145166",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1134_124864",
@@ -18036,14 +18164,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "12:15:00",
-        "departureTime": "12:18:00",
+        "departureTime": "12:15:00",
         "isPassing": false
       }
     ],
     "trainId": "124864",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1104_106202",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1218_124864",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1138_114918",
@@ -18157,7 +18287,9 @@
     "customOrigin": "川越市",
     "trainId": "114918",
     "throughTripId": "WD_OUT_TY-01_1217_115259",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_1100_114918",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1140_106087",
@@ -18264,14 +18396,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "12:08:00",
-        "departureTime": "12:09:00",
+        "departureTime": "12:08:00",
         "isPassing": false
       }
     ],
     "trainId": "106087",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1052_105955",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1209_106087",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1141_144513",
@@ -18467,9 +18601,9 @@
     ],
     "trainId": "105629",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1112_106426",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-01_1147_75366",
@@ -18582,7 +18716,8 @@
     ],
     "trainId": "75366",
     "throughTripId": "WD_OUT_TY-01_1229_75528",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1147_106056",
@@ -18760,9 +18895,11 @@
     ],
     "trainId": "105568",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1119_105894",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1227_77621",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1152_144583",
@@ -19044,7 +19181,9 @@
     "customOrigin": "森林公園",
     "trainId": "114963",
     "throughTripId": "WD_OUT_TY-01_1224_115304",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1110_114963",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1200_105811",
@@ -19193,7 +19332,8 @@
     ],
     "trainId": "75209",
     "throughTripId": "WD_OUT_TY-01_1219_75371",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "WD_OUT_F-01_1203_75315",
@@ -19306,7 +19446,8 @@
     ],
     "trainId": "75315",
     "throughTripId": "WD_OUT_TY-01_1242_105759",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1204_124878",
@@ -19417,7 +19558,7 @@
       }
     ],
     "trainId": "124878",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1134_106204",
     "prevLineId": "tokyu_toyoko"
@@ -19533,7 +19674,8 @@
     ],
     "trainId": "75434",
     "throughTripId": "WD_OUT_TY-01_1247_75434",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1210_106090",
@@ -19640,14 +19782,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "12:38:00",
-        "departureTime": "12:39:00",
+        "departureTime": "12:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106090",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1122_105957",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1239_106090",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1211_144514",
@@ -19843,9 +19987,9 @@
     ],
     "trainId": "105631",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1142_106090",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-01_1217_75368",
@@ -19958,7 +20102,8 @@
     ],
     "trainId": "75368",
     "throughTripId": "WD_OUT_TY-01_1255_105692",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1217_106059",
@@ -20136,9 +20281,11 @@
     ],
     "trainId": "105571",
     "customOrigin": "元町・中華街",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1149_105897",
     "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "throughTripId": "WD_OUT_TJ-11_1257_77624",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1222_144584",
@@ -20420,7 +20567,9 @@
     "customOrigin": "森林公園",
     "trainId": "114965",
     "throughTripId": "WD_OUT_TY-01_1254_115307",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1140_114965",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1230_105777",
@@ -20569,7 +20718,8 @@
     ],
     "trainId": "75211",
     "throughTripId": "WD_OUT_TY-01_1249_75373",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "WD_OUT_F-01_1233_75317",
@@ -20682,7 +20832,8 @@
     ],
     "trainId": "75317",
     "throughTripId": "WD_OUT_TY-01_1312_105761",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1234_124865",
@@ -20789,14 +20940,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "13:15:00",
-        "departureTime": "13:18:00",
+        "departureTime": "13:15:00",
         "isPassing": false
       }
     ],
     "trainId": "124865",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1204_106205",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1318_124865",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1238_114921",
@@ -20910,7 +21063,9 @@
     "customOrigin": "川越市",
     "trainId": "114921",
     "throughTripId": "WD_OUT_TY-01_1317_115262",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_1200_114921",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1240_106092",
@@ -21017,14 +21172,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "13:08:00",
-        "departureTime": "13:09:00",
+        "departureTime": "13:08:00",
         "isPassing": false
       }
     ],
     "trainId": "106092",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1152_105959",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1309_106092",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1241_144517",
@@ -21220,9 +21377,9 @@
     ],
     "trainId": "105633",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1212_106431",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-01_1247_75370",
@@ -21335,7 +21492,8 @@
     ],
     "trainId": "75370",
     "throughTripId": "WD_OUT_TY-01_1329_75532",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1247_106061",
@@ -21513,9 +21671,11 @@
     ],
     "trainId": "105573",
     "customOrigin": "元町・中華街",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1219_105899",
     "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "throughTripId": "WD_OUT_TJ-11_1327_77625",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1252_144586",
@@ -21797,7 +21957,9 @@
     "customOrigin": "森林公園",
     "trainId": "114968",
     "throughTripId": "WD_OUT_TY-01_1324_115309",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1210_114968",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1300_105814",
@@ -21879,7 +22041,7 @@
       }
     ],
     "trainId": "105814",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1214_105814",
     "prevLineId": "tokyu_toyoko"
   },
@@ -21946,7 +22108,8 @@
     ],
     "trainId": "75212",
     "throughTripId": "WD_OUT_TY-01_1319_75375",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "WD_OUT_F-01_1303_75319",
@@ -22059,7 +22222,8 @@
     ],
     "trainId": "75319",
     "throughTripId": "WD_OUT_TY-01_1339_145171",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1304_124837",
@@ -22286,7 +22450,8 @@
     ],
     "trainId": "75436",
     "throughTripId": "WD_OUT_TY-01_1347_75598",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1310_106094",
@@ -22393,14 +22558,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "13:38:00",
-        "departureTime": "13:39:00",
+        "departureTime": "13:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106094",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1222_105961",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1339_106094",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1311_144519",
@@ -22596,9 +22763,9 @@
     ],
     "trainId": "105634",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1242_106433",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-01_1317_75372",
@@ -22711,7 +22878,8 @@
     ],
     "trainId": "75372",
     "throughTripId": "WD_OUT_TY-01_1355_105695",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1317_106063",
@@ -22889,9 +23057,11 @@
     ],
     "trainId": "105574",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1249_105901",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1357_77627",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1322_144588",
@@ -23173,7 +23343,9 @@
     "customOrigin": "森林公園",
     "trainId": "114970",
     "throughTripId": "WD_OUT_TY-01_1354_115311",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1240_114970",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1330_105780",
@@ -23433,7 +23605,8 @@
     ],
     "trainId": "75321",
     "throughTripId": "WD_OUT_TY-01_1412_105766",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1334_124868",
@@ -23540,14 +23713,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "14:15:00",
-        "departureTime": "14:18:00",
+        "departureTime": "14:15:00",
         "isPassing": false
       }
     ],
     "trainId": "124868",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1304_106209",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1418_124868",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1338_114923",
@@ -23661,7 +23836,9 @@
     "customOrigin": "川越市",
     "trainId": "114923",
     "throughTripId": "WD_OUT_TY-01_1417_115264",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_1300_114923",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1340_106095",
@@ -23768,14 +23945,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "14:08:00",
-        "departureTime": "14:09:00",
+        "departureTime": "14:08:00",
         "isPassing": false
       }
     ],
     "trainId": "106095",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1252_105963",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1409_106095",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1341_144520",
@@ -23971,9 +24150,9 @@
     ],
     "trainId": "105637",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1312_106435",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-01_1347_75374",
@@ -24086,7 +24265,8 @@
     ],
     "trainId": "75374",
     "throughTripId": "WD_OUT_TY-01_1429_75536",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1347_106064",
@@ -24264,9 +24444,11 @@
     ],
     "trainId": "105577",
     "customOrigin": "元町・中華街",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1319_105903",
     "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "throughTripId": "WD_OUT_TJ-11_1427_77628",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1352_144590",
@@ -24548,7 +24730,9 @@
     "customOrigin": "森林公園",
     "trainId": "114972",
     "throughTripId": "WD_OUT_TY-01_1424_115313",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1310_114972",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1400_105816",
@@ -24630,7 +24814,7 @@
       }
     ],
     "trainId": "105816",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1314_105816",
     "prevLineId": "tokyu_toyoko"
   },
@@ -24697,7 +24881,8 @@
     ],
     "trainId": "75216",
     "throughTripId": "WD_OUT_TY-01_1413_75483",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "WD_OUT_F-01_1403_75323",
@@ -24810,7 +24995,8 @@
     ],
     "trainId": "75323",
     "throughTripId": "WD_OUT_TY-01_1442_105768",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1404_124839",
@@ -25037,7 +25223,8 @@
     ],
     "trainId": "75437",
     "throughTripId": "WD_OUT_TY-01_1447_75600",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1410_106098",
@@ -25144,14 +25331,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "14:38:00",
-        "departureTime": "14:39:00",
+        "departureTime": "14:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106098",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1322_105965",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1439_106098",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1411_144523",
@@ -25347,9 +25536,9 @@
     ],
     "trainId": "105638",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1342_106437",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-01_1417_75376",
@@ -25462,7 +25651,8 @@
     ],
     "trainId": "75376",
     "throughTripId": "WD_OUT_TY-01_1459_75376",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1417_106067",
@@ -25640,9 +25830,11 @@
     ],
     "trainId": "105579",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1349_105905",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1457_77630",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1422_144592",
@@ -25924,7 +26116,9 @@
     "customOrigin": "森林公園",
     "trainId": "114974",
     "throughTripId": "WD_OUT_TY-01_1454_115315",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1340_114974",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1430_105782",
@@ -26073,7 +26267,8 @@
     ],
     "trainId": "75219",
     "throughTripId": "WD_OUT_TY-01_1443_75485",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "WD_OUT_F-01_1433_75325",
@@ -26186,7 +26381,8 @@
     ],
     "trainId": "75325",
     "throughTripId": "WD_OUT_TY-01_1509_145177",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1434_124858",
@@ -26293,14 +26489,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "15:15:00",
-        "departureTime": "15:16:00",
+        "departureTime": "15:15:00",
         "isPassing": false
       }
     ],
     "trainId": "124858",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1404_106214",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1516_124858",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1438_114924",
@@ -26414,7 +26612,9 @@
     "customOrigin": "川越市",
     "trainId": "114924",
     "throughTripId": "WD_OUT_TY-01_1517_115265",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_1400_114924",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1440_106100",
@@ -26521,14 +26721,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "15:08:00",
-        "departureTime": "15:09:00",
+        "departureTime": "15:08:00",
         "isPassing": false
       }
     ],
     "trainId": "106100",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1352_105967",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1509_106100",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1441_144525",
@@ -26724,9 +26926,9 @@
     ],
     "trainId": "105641",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1412_106439",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-01_1447_75378",
@@ -26839,7 +27041,8 @@
     ],
     "trainId": "75378",
     "throughTripId": "WD_OUT_TY-01_1529_75378",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1447_106069",
@@ -27017,9 +27220,11 @@
     ],
     "trainId": "105580",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1419_105907",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1527_77632",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1452_144594",
@@ -27301,7 +27506,9 @@
     "customOrigin": "森林公園",
     "trainId": "114976",
     "throughTripId": "WD_OUT_TY-01_1524_115317",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1410_114976",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1500_105817",
@@ -27450,7 +27657,8 @@
     ],
     "trainId": "75220",
     "throughTripId": "WD_OUT_TY-01_1519_75382",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "WD_OUT_F-01_1503_75380",
@@ -27563,7 +27771,8 @@
     ],
     "trainId": "75380",
     "throughTripId": "WD_OUT_TY-01_1542_75542",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1504_124841",
@@ -27790,7 +27999,8 @@
     ],
     "trainId": "75439",
     "throughTripId": "WD_OUT_TY-01_1547_75439",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1510_106102",
@@ -27897,14 +28107,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "15:38:00",
-        "departureTime": "15:39:00",
+        "departureTime": "15:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106102",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1422_105969",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1539_106102",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1511_144527",
@@ -28100,9 +28312,9 @@
     ],
     "trainId": "105643",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1442_106441",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-01_1517_75381",
@@ -28215,7 +28427,8 @@
     ],
     "trainId": "75381",
     "throughTripId": "WD_OUT_TY-01_1559_75381",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1517_106071",
@@ -28393,9 +28606,11 @@
     ],
     "trainId": "105582",
     "customOrigin": "元町・中華街",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1449_105908",
     "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "throughTripId": "WD_OUT_TJ-11_1557_77634",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1522_144596",
@@ -28677,7 +28892,9 @@
     "customOrigin": "森林公園",
     "trainId": "114977",
     "throughTripId": "WD_OUT_TY-01_1554_115319",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1440_114977",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1530_105818",
@@ -28759,7 +28976,7 @@
       }
     ],
     "trainId": "105818",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1444_105818",
     "prevLineId": "tokyu_toyoko"
   },
@@ -28874,7 +29091,8 @@
     ],
     "trainId": "75328",
     "throughTripId": "WD_OUT_TY-01_1610_75490",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1534_124860",
@@ -28981,14 +29199,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "16:15:00",
-        "departureTime": "16:16:00",
+        "departureTime": "16:15:00",
         "isPassing": false
       }
     ],
     "trainId": "124860",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1504_106218",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1616_124860",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-09_1534_75223",
@@ -29053,7 +29273,8 @@
     ],
     "trainId": "75223",
     "throughTripId": "WD_OUT_TY-01_1549_105703",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "WD_OUT_F-01_1537_114958",
@@ -29167,7 +29388,9 @@
     "customOrigin": "川越市",
     "trainId": "114958",
     "throughTripId": "WD_OUT_TY-01_1619_115299",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_1500_114958",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1540_106103",
@@ -29274,14 +29497,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "16:08:00",
-        "departureTime": "16:09:00",
+        "departureTime": "16:08:00",
         "isPassing": false
       }
     ],
     "trainId": "106103",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1452_105970",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1609_106103",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1541_144543",
@@ -29477,9 +29702,9 @@
     ],
     "trainId": "105644",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1459_106297",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-01_1546_75329",
@@ -29592,7 +29817,8 @@
     ],
     "trainId": "75329",
     "throughTripId": "WD_OUT_TY-01_1629_115338",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1551_105584",
@@ -29704,9 +29930,11 @@
     ],
     "trainId": "105584",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1507_106159",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1627_77636",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1554_114944",
@@ -29820,7 +30048,9 @@
     "customOrigin": "志木",
     "trainId": "114944",
     "throughTripId": "WD_OUT_TY-01_1634_115285",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_1546_114944",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1555_144598",
@@ -30184,7 +30414,9 @@
     "customOrigin": "森林公園",
     "trainId": "114997",
     "throughTripId": "WD_OUT_TY-01_1630_75491",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1512_114997",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1603_124808",
@@ -30247,7 +30479,7 @@
       }
     ],
     "trainId": "124808",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "customDestination": "池袋",
     "prevTripId": "WD_INB_TY-21_1534_106220",
     "prevLineId": "tokyu_toyoko"
@@ -30426,7 +30658,8 @@
     ],
     "trainId": "75385",
     "throughTripId": "WD_OUT_TY-01_1650_75385",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1607_75460",
@@ -30538,9 +30771,11 @@
     ],
     "trainId": "75460",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_TY-21_1522_106300",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1652_106121",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1611_106106",
@@ -30647,14 +30882,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "16:38:00",
-        "departureTime": "16:39:00",
+        "departureTime": "16:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106106",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1542_106445",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1639_106106",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1614_75441",
@@ -30767,7 +31004,8 @@
     ],
     "trainId": "75441",
     "throughTripId": "WD_OUT_TY-01_1653_75603",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1615_106121",
@@ -30777,7 +31015,7 @@
     "direction": "inbound",
     "originStationId": "F-16",
     "destinationStationId": "F-01",
-    "customDestination": "志木",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -30874,14 +31112,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "16:51:00",
-        "departureTime": "16:52:00",
+        "departureTime": "16:51:00",
         "isPassing": false
       }
     ],
     "trainId": "106121",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1529_106460",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1656_77637",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1616_144530",
@@ -31078,7 +31318,8 @@
     ],
     "trainId": "75387",
     "throughTripId": "WD_OUT_TY-01_1655_105709",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1622_105586",
@@ -31442,7 +31683,7 @@
       }
     ],
     "trainId": "105819",
-    "customOrigin": "元町・中華街",
+    "customOrigin": "湘南台",
     "prevTripId": "WD_INB_TY-13_1610_125212",
     "prevLineId": "tokyu_toyoko"
   },
@@ -31558,7 +31799,9 @@
     "customOrigin": "森林公園",
     "trainId": "114989",
     "throughTripId": "WD_OUT_TY-01_1700_115330",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1537_114989",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1630_124871",
@@ -31665,14 +31908,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "17:06:00",
-        "departureTime": "17:07:00",
+        "departureTime": "17:06:00",
         "isPassing": false
       }
     ],
     "trainId": "124871",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1544_105974",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1707_124871",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1634_75331",
@@ -31785,7 +32030,8 @@
     ],
     "trainId": "75331",
     "throughTripId": "WD_OUT_TY-01_1710_75493",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-01_1637_114945",
@@ -31899,7 +32145,9 @@
     "customOrigin": "志木",
     "trainId": "114945",
     "throughTripId": "WD_OUT_TY-01_1717_105712",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_1627_114945",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1637_105648",
@@ -32322,7 +32570,7 @@
       }
     ],
     "trainId": "105650",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1559_106412",
     "prevLineId": "tokyu_toyoko"
@@ -32439,7 +32687,9 @@
     "customOrigin": "志木",
     "trainId": "114916",
     "throughTripId": "WD_OUT_TY-01_1724_115257",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_1638_114916",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1648_106073",
@@ -32570,7 +32820,8 @@
     ],
     "trainId": "75407",
     "throughTripId": "WD_OUT_TY-01_1707_75569",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "WD_INB_F-16_1652_105746",
@@ -32767,7 +33018,8 @@
     ],
     "trainId": "75389",
     "throughTripId": "WD_OUT_TY-01_1734_75551",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-06_1655_144604",
@@ -33049,7 +33301,9 @@
     "customOrigin": "森林公園",
     "trainId": "114990",
     "throughTripId": "WD_OUT_TY-01_1730_115331",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1606_114990",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1700_75442",
@@ -33162,7 +33416,8 @@
     ],
     "trainId": "75442",
     "throughTripId": "WD_OUT_TY-01_1739_75604",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1700_106032",
@@ -33315,7 +33570,7 @@
       }
     ],
     "trainId": "124843",
-    "customOrigin": "元町・中華街",
+    "customOrigin": "湘南台",
     "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-13_1640_125184",
     "prevLineId": "tokyu_toyoko"
@@ -33430,9 +33685,11 @@
     ],
     "trainId": "105589",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1633_105915",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1744_77640",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1711_105531",
@@ -33587,7 +33844,8 @@
     ],
     "trainId": "75238",
     "throughTripId": "WD_OUT_TY-01_1720_115286",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "新宿三丁目"
   },
   {
     "tripId": "WD_INB_F-16_1716_106033",
@@ -33742,7 +34000,8 @@
     ],
     "trainId": "75443",
     "throughTripId": "WD_OUT_TY-01_1755_75443",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1718_105685",
@@ -34022,9 +34281,11 @@
     ],
     "trainId": "105532",
     "customOrigin": "武蔵小杉",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-11_1658_105685",
     "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "throughTripId": "WD_OUT_TJ-11_1756_77641",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1723_114940",
@@ -34138,7 +34399,9 @@
     "customOrigin": "志木",
     "trainId": "114940",
     "throughTripId": "WD_OUT_TY-01_1800_115332",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_1715_114940",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1726_124861",
@@ -34245,14 +34508,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "18:02:00",
-        "departureTime": "18:03:00",
+        "departureTime": "18:02:00",
         "isPassing": false
       }
     ],
     "trainId": "124861",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1637_106306",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1803_124861",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1727_144616",
@@ -34450,7 +34715,9 @@
     "customOrigin": "森林公園",
     "trainId": "114991",
     "throughTripId": "WD_OUT_TY-01_1756_105717",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1637_114991",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-09_1728_75228",
@@ -34515,7 +34782,8 @@
     ],
     "trainId": "75228",
     "throughTripId": "WD_OUT_TY-01_1750_75390",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "WD_OUT_F-13_1729_75239",
@@ -34661,14 +34929,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "18:12:00",
-        "departureTime": "18:13:00",
+        "departureTime": "18:12:00",
         "isPassing": false
       }
     ],
     "trainId": "106115",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1646_106373",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1813_106115",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1737_105738",
@@ -34865,7 +35135,8 @@
     ],
     "trainId": "75392",
     "throughTripId": "WD_OUT_TY-01_1819_75392",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1739_106034",
@@ -35102,7 +35373,8 @@
     ],
     "trainId": "75266",
     "throughTripId": "WD_OUT_TY-01_1815_75428",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-06_1746_144534",
@@ -35298,9 +35570,11 @@
     ],
     "trainId": "105591",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1715_105917",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1831_77642",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1748_75451",
@@ -35413,7 +35687,8 @@
     ],
     "trainId": "75451",
     "throughTripId": "WD_OUT_TY-01_1824_75451",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-01_1752_75411",
@@ -35526,7 +35801,8 @@
     ],
     "trainId": "75411",
     "throughTripId": "WD_OUT_TY-01_1836_75411",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1752_105538",
@@ -35638,9 +35914,11 @@
     ],
     "trainId": "105538",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_1702_106309",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1818_77666",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-13_1755_75240",
@@ -35906,7 +36184,8 @@
     ],
     "trainId": "75267",
     "throughTripId": "WD_OUT_TY-01_1830_75429",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1759_106035",
@@ -35945,10 +36224,10 @@
       }
     ],
     "trainId": "106035",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
+    "customDestination": "新宿三丁目",
     "prevTripId": "WD_INB_TY-21_1730_106225",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "新宿三丁目"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-01_1803_114930",
@@ -36062,7 +36341,9 @@
     "customOrigin": "森林公園",
     "trainId": "114930",
     "throughTripId": "WD_OUT_TY-01_1840_115271",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_1707_114930",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1804_106122",
@@ -36169,14 +36450,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "18:43:00",
-        "departureTime": "18:44:00",
+        "departureTime": "18:43:00",
         "isPassing": false
       }
     ],
     "trainId": "106122",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1717_106461",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1844_106122",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1807_105739",
@@ -36371,7 +36654,8 @@
     ],
     "trainId": "75393",
     "throughTripId": "WD_OUT_TY-01_1850_75393",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1812_105792",
@@ -36580,7 +36864,8 @@
     ],
     "trainId": "75241",
     "throughTripId": "WD_OUT_TY-01_1816_145117",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "新宿三丁目"
   },
   {
     "tripId": "WD_OUT_F-01_1818_114927",
@@ -36694,7 +36979,9 @@
     "customOrigin": "川越市",
     "trainId": "114927",
     "throughTripId": "WD_OUT_TY-01_1854_115268",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_1745_114927",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1818_105592",
@@ -36806,9 +37093,11 @@
     ],
     "trainId": "105592",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1732_106375",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1856_106109",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1822_106109",
@@ -37035,7 +37324,8 @@
     ],
     "trainId": "75336",
     "throughTripId": "WD_OUT_TY-01_1900_145201",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1824_106036",
@@ -37074,7 +37364,7 @@
       }
     ],
     "trainId": "106036",
-    "customOrigin": "元町・中華街",
+    "customOrigin": "武蔵小杉",
     "customDestination": "新宿三丁目",
     "prevTripId": "WD_INB_TY-11_1754_106173",
     "prevLineId": "tokyu_toyoko"
@@ -37273,9 +37563,11 @@
     ],
     "trainId": "124846",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_TY-21_1759_106226",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1908_77594",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1832_75400",
@@ -37388,7 +37680,8 @@
     ],
     "trainId": "75400",
     "throughTripId": "WD_OUT_TY-01_1915_75400",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1832_105655",
@@ -37499,10 +37792,12 @@
       }
     ],
     "trainId": "105655",
-    "customOrigin": "横浜",
-    "customDestination": "和光市",
+    "customOrigin": "元町・中華街",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_1739_105655",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1916_77669",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1836_75427",
@@ -37615,7 +37910,8 @@
     ],
     "trainId": "75427",
     "throughTripId": "WD_OUT_TY-01_1909_75427",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1837_105733",
@@ -37740,7 +38036,8 @@
     ],
     "trainId": "75242",
     "throughTripId": "WD_OUT_TY-01_1845_145155",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "新宿三丁目"
   },
   {
     "tripId": "WD_INB_F-16_1839_106037",
@@ -37978,9 +38275,11 @@
     ],
     "trainId": "124879",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_TY-21_1755_106462",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1921_106123",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1844_106123",
@@ -38092,7 +38391,7 @@
       }
     ],
     "trainId": "106123",
-    "customOrigin": "日吉",
+    "customOrigin": "西谷",
     "prevTripId": "WD_INB_TY-13_1821_125220",
     "prevLineId": "tokyu_toyoko"
   },
@@ -38207,7 +38506,8 @@
     ],
     "trainId": "75452",
     "throughTripId": "WD_OUT_TY-01_1924_75452",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1847_105756",
@@ -38289,7 +38589,7 @@
       }
     ],
     "trainId": "105756",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1815_105756",
     "prevLineId": "tokyu_toyoko"
   },
@@ -38405,7 +38705,9 @@
     "customOrigin": "志木",
     "trainId": "114941",
     "throughTripId": "WD_OUT_TY-01_1930_75430",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_1843_114941",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1852_105539",
@@ -38749,14 +39051,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "19:33:00",
-        "departureTime": "19:34:00",
+        "departureTime": "19:33:00",
         "isPassing": false
       }
     ],
     "trainId": "106020",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1810_106377",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1934_106020",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1859_75268",
@@ -38869,7 +39173,8 @@
     ],
     "trainId": "75268",
     "throughTripId": "WD_OUT_TY-01_1926_105725",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1859_106038",
@@ -39025,7 +39330,9 @@
     "customOrigin": "志木",
     "trainId": "114912",
     "throughTripId": "WD_OUT_TY-01_1939_115253",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_1852_114912",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1904_105658",
@@ -39137,9 +39444,11 @@
     ],
     "trainId": "105658",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1817_105984",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1947_77647",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1907_105740",
@@ -39336,7 +39645,8 @@
     ],
     "trainId": "75446",
     "throughTripId": "WD_OUT_TY-01_1954_75446",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1912_124829",
@@ -39447,10 +39757,12 @@
       }
     ],
     "trainId": "124829",
-    "customOrigin": "日吉",
-    "customDestination": "和光市",
+    "customOrigin": "元町・中華街",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1825_106315",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_1954_77648",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1915_114953",
@@ -39564,7 +39876,9 @@
     "customOrigin": "川越市",
     "trainId": "114953",
     "throughTripId": "WD_OUT_TY-01_1945_115294",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_1844_114953",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1917_105751",
@@ -39762,7 +40076,9 @@
     "customOrigin": "志木",
     "trainId": "114942",
     "throughTripId": "WD_OUT_TY-01_2005_105779",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_1913_114942",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_1921_144556",
@@ -40082,7 +40398,8 @@
     ],
     "trainId": "75269",
     "throughTripId": "WD_OUT_TY-01_2000_75431",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1927_124852",
@@ -40189,14 +40506,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "20:03:00",
-        "departureTime": "20:04:00",
+        "departureTime": "20:03:00",
         "isPassing": false
       }
     ],
     "trainId": "124852",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1840_106378",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2004_124852",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1929_106039",
@@ -40351,7 +40670,8 @@
     ],
     "trainId": "75447",
     "throughTripId": "WD_OUT_TY-01_2009_75609",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_1934_105659",
@@ -40462,7 +40782,7 @@
       }
     ],
     "trainId": "105659",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_1848_105659",
     "prevLineId": "tokyu_toyoko"
@@ -40656,14 +40976,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "20:18:00",
-        "departureTime": "20:19:00",
+        "departureTime": "20:18:00",
         "isPassing": false
       }
     ],
     "trainId": "124855",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1855_106320",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2019_124855",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_1944_114954",
@@ -40777,7 +41099,9 @@
     "customOrigin": "川越市",
     "trainId": "114954",
     "throughTripId": "WD_OUT_TY-01_2015_115295",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_1914_114954",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_1947_105757",
@@ -40974,7 +41298,8 @@
     ],
     "trainId": "75340",
     "throughTripId": "WD_OUT_TY-01_2025_75502",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-06_1950_144557",
@@ -41286,7 +41611,9 @@
     "customOrigin": "志木",
     "trainId": "114999",
     "throughTripId": "WD_OUT_TY-01_2037_115340",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_1944_114999",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-13_1955_75245",
@@ -41437,9 +41764,11 @@
     ],
     "trainId": "105661",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1910_105987",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2031_77650",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_2001_106028",
@@ -41595,7 +41924,9 @@
     "customOrigin": "志木",
     "trainId": "114943",
     "throughTripId": "WD_OUT_TY-01_2040_115284",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_1954_114943",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_2004_105662",
@@ -41706,10 +42037,12 @@
       }
     ],
     "trainId": "105662",
-    "customOrigin": "横浜",
-    "customDestination": "和光市",
+    "customOrigin": "元町・中華街",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_1918_105662",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2038_77671",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_2007_105741",
@@ -41900,14 +42233,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "20:49:00",
-        "departureTime": "20:50:00",
+        "departureTime": "20:49:00",
         "isPassing": false
       }
     ],
     "trainId": "124872",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1925_106324",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2050_124872",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_2012_144548",
@@ -42104,7 +42439,8 @@
     ],
     "trainId": "75449",
     "throughTripId": "WD_OUT_TY-01_2054_75449",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2017_105760",
@@ -42302,7 +42638,9 @@
     "customOrigin": "志木",
     "trainId": "115001",
     "throughTripId": "WD_OUT_TY-01_2105_105781",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_2012_115001",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_2021_144546",
@@ -42498,9 +42836,11 @@
     ],
     "trainId": "105541",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_TY-21_1933_106325",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2057_77595",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-13_2025_75246",
@@ -42651,9 +42991,11 @@
     ],
     "trainId": "124830",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_TY-21_1940_106379",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2107_77653",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_2027_144561",
@@ -42887,10 +43229,10 @@
       }
     ],
     "trainId": "106040",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
+    "customDestination": "新宿三丁目",
     "prevTripId": "WD_INB_TY-21_2000_106230",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "新宿三丁目"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_INB_F-16_2034_105663",
@@ -43002,9 +43344,11 @@
     ],
     "trainId": "105663",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_1948_105989",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2115_77673",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_2036_75396",
@@ -43117,7 +43461,8 @@
     ],
     "trainId": "75396",
     "throughTripId": "WD_OUT_TY-01_2120_75558",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2037_105736",
@@ -43308,14 +43653,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "21:18:00",
-        "departureTime": "21:19:00",
+        "departureTime": "21:18:00",
         "isPassing": false
       }
     ],
     "trainId": "124853",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_1955_106329",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2119_124853",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_2044_144540",
@@ -43513,7 +43860,9 @@
     "customOrigin": "志木",
     "trainId": "114913",
     "throughTripId": "WD_OUT_TY-01_2124_115254",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_2038_114913",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_2047_105758",
@@ -43595,7 +43944,7 @@
       }
     ],
     "trainId": "105758",
-    "customOrigin": "元町・中華街",
+    "customOrigin": "横浜",
     "prevTripId": "WD_INB_TY-21_2015_105758",
     "prevLineId": "tokyu_toyoko"
   },
@@ -43824,7 +44173,8 @@
     ],
     "trainId": "75412",
     "throughTripId": "WD_OUT_TY-01_2135_105783",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-13_2055_75247",
@@ -44175,7 +44525,9 @@
     "customOrigin": "川越市",
     "trainId": "114955",
     "throughTripId": "WD_OUT_TY-01_2130_115296",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_2031_114955",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_2059_106041",
@@ -44214,10 +44566,10 @@
       }
     ],
     "trainId": "106041",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
+    "customDestination": "新宿三丁目",
     "prevTripId": "WD_INB_TY-21_2030_106231",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "新宿三丁目"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-01_2101_75343",
@@ -44330,7 +44682,8 @@
     ],
     "trainId": "75343",
     "throughTripId": "WD_OUT_TY-01_2137_75574",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2105_105665",
@@ -44441,7 +44794,7 @@
       }
     ],
     "trainId": "105665",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_2018_105665",
     "prevLineId": "tokyu_toyoko"
@@ -44557,7 +44910,8 @@
     ],
     "trainId": "75450",
     "throughTripId": "WD_OUT_TY-01_2149_105824",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2109_105743",
@@ -44748,14 +45102,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "21:47:00",
-        "departureTime": "21:48:00",
+        "departureTime": "21:47:00",
         "isPassing": false
       }
     ],
     "trainId": "124851",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_2025_106333",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2148_124851",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_2114_75271",
@@ -44868,7 +45224,8 @@
     ],
     "trainId": "75271",
     "throughTripId": "WD_OUT_TY-01_2145_75433",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2118_105597",
@@ -45209,7 +45566,8 @@
     ],
     "trainId": "75344",
     "throughTripId": "WD_OUT_TY-01_2205_105784",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-13_2125_75248",
@@ -45446,7 +45804,9 @@
     "customOrigin": "川越市",
     "trainId": "114956",
     "throughTripId": "WD_OUT_TY-01_2200_115297",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_2101_114956",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_2131_75346",
@@ -45559,7 +45919,8 @@
     ],
     "trainId": "75346",
     "throughTripId": "WD_OUT_TY-01_2206_75506",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-06_2131_144566",
@@ -45755,9 +46116,11 @@
     ],
     "trainId": "124848",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_2100_106232",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2213_77674",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_2137_106110",
@@ -45864,14 +46227,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "22:07:00",
-        "departureTime": "22:08:00",
+        "departureTime": "22:07:00",
         "isPassing": false
       }
     ],
     "trainId": "106110",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_2048_106337",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2208_106110",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_2138_75401",
@@ -45984,7 +46349,8 @@
     ],
     "trainId": "75401",
     "throughTripId": "WD_OUT_TY-01_2215_75401",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2142_124831",
@@ -46095,7 +46461,7 @@
       }
     ],
     "trainId": "124831",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_2055_106339",
     "prevLineId": "tokyu_toyoko"
@@ -46211,7 +46577,8 @@
     ],
     "trainId": "75347",
     "throughTripId": "WD_OUT_TY-01_2221_105785",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2148_105767",
@@ -46409,7 +46776,9 @@
     "customOrigin": "志木",
     "trainId": "114937",
     "throughTripId": "WD_OUT_TY-01_2229_115278",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_2145_114937",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_2157_106124",
@@ -46516,14 +46885,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "22:32:00",
-        "departureTime": "22:33:00",
+        "departureTime": "22:32:00",
         "isPassing": false
       }
     ],
     "trainId": "106124",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_2103_106463",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2233_106124",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_2159_114926",
@@ -46637,7 +47008,9 @@
     "customOrigin": "川越市",
     "trainId": "114926",
     "throughTripId": "WD_OUT_TY-01_2230_75509",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-22_2131_114926",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_2202_105668",
@@ -47062,7 +47435,8 @@
     ],
     "trainId": "75423",
     "throughTripId": "WD_OUT_TY-01_2250_75423",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2216_124874",
@@ -47169,14 +47543,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "22:57:00",
-        "departureTime": "22:58:00",
+        "departureTime": "22:57:00",
         "isPassing": false
       }
     ],
     "trainId": "124874",
     "customOrigin": "元町・中華街",
     "prevTripId": "WD_INB_TY-21_2125_106342",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2258_124874",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_2217_144568",
@@ -47373,7 +47749,8 @@
     ],
     "trainId": "75349",
     "throughTripId": "WD_OUT_TY-01_2253_106472",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-01_2224_75454",
@@ -47486,7 +47863,8 @@
     ],
     "trainId": "75454",
     "throughTripId": "WD_OUT_TY-01_2301_105747",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2226_105546",
@@ -47714,7 +48092,9 @@
     "customOrigin": "森林公園",
     "trainId": "114992",
     "throughTripId": "WD_OUT_TY-01_2300_115333",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-30_2138_114992",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_2234_75350",
@@ -47827,7 +48207,8 @@
     ],
     "trainId": "75350",
     "throughTripId": "WD_OUT_TY-01_2308_105825",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2234_105670",
@@ -47939,9 +48320,11 @@
     ],
     "trainId": "105670",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_2147_106346",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2312_77678",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_2237_75402",
@@ -48054,7 +48437,8 @@
     ],
     "trainId": "75402",
     "throughTripId": "WD_OUT_TY-01_2315_75402",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_OUT_F-01_2242_75413",
@@ -48167,7 +48551,8 @@
     ],
     "trainId": "75413",
     "throughTripId": "WD_OUT_TY-01_2324_75413",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2243_105672",
@@ -48592,7 +48977,8 @@
     ],
     "trainId": "75415",
     "throughTripId": "WD_OUT_TY-01_2334_106485",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2259_105674",
@@ -48704,9 +49090,9 @@
     ],
     "trainId": "105674",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_2210_106000",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_F-06_2302_144574",
@@ -48902,9 +49288,11 @@
     ],
     "trainId": "105675",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_2218_106001",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2353_106113",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-01_2313_115000",
@@ -49018,7 +49406,9 @@
     "customOrigin": "志木",
     "trainId": "115000",
     "throughTripId": "WD_OUT_TY-01_2353_106477",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "WD_INB_TJ-14_2303_115000",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_F-16_2317_105677",
@@ -49130,9 +49520,11 @@
     ],
     "trainId": "105677",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_TY-21_2233_106003",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "WD_OUT_TJ-11_2355_77681",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "WD_OUT_F-06_2320_144541",
@@ -49443,7 +49835,8 @@
     ],
     "trainId": "75419",
     "throughTripId": "WD_OUT_TY-01_0001_75581",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "WD_INB_F-16_2326_105787",
@@ -49810,7 +50203,8 @@
     "throughLineId": "seibu_yurakucho",
     "trainId": "105755",
     "prevTripId": "WD_INB_TY-21_2323_106188",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "customOrigin": "元町・中華街"
   },
   {
     "tripId": "WD_INB_F-16_2354_105681",
@@ -49921,7 +50315,7 @@
       }
     ],
     "trainId": "105681",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "customDestination": "和光市",
     "prevTripId": "WD_INB_TY-21_2303_105681",
     "prevLineId": "tokyu_toyoko"
@@ -50182,9 +50576,9 @@
     ],
     "trainId": "106075",
     "customOrigin": "元町・中華街",
+    "customDestination": "池袋",
     "prevTripId": "HD_INB_TY-21_2320_106414",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "池袋"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_INB_F-16_0020_106042",
@@ -50224,9 +50618,9 @@
     ],
     "trainId": "106042",
     "customOrigin": "元町・中華街",
+    "customDestination": "新宿三丁目",
     "prevTripId": "HD_INB_TY-21_2332_106381",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "新宿三丁目"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_OUT_F-06_0500_75250",
@@ -50309,7 +50703,8 @@
     ],
     "trainId": "75250",
     "throughTripId": "HD_OUT_TY-01_0523_106467",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "小竹向原"
   },
   {
     "tripId": "HD_OUT_F-01_0505_75273",
@@ -50571,7 +50966,8 @@
     ],
     "trainId": "75230",
     "throughTripId": "HD_OUT_TY-01_0516_75392",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "新宿三丁目"
   },
   {
     "tripId": "HD_OUT_F-01_0515_75274",
@@ -50684,7 +51080,8 @@
     ],
     "trainId": "75274",
     "throughTripId": "HD_OUT_TY-01_0551_75436",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0521_105514",
@@ -50911,7 +51308,8 @@
     ],
     "trainId": "75275",
     "throughTripId": "HD_OUT_TY-01_0603_75437",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-01_0532_75276",
@@ -51360,7 +51758,8 @@
     ],
     "trainId": "75279",
     "throughTripId": "HD_OUT_TY-01_0617_106475",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0546_105602",
@@ -51472,9 +51871,11 @@
     ],
     "trainId": "105602",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_0505_105928",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0620_77599",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_0547_75355",
@@ -51587,7 +51988,8 @@
     ],
     "trainId": "75355",
     "throughTripId": "HD_OUT_TY-01_0623_75517",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-01_0554_75280",
@@ -51700,7 +52102,8 @@
     ],
     "trainId": "75280",
     "throughTripId": "HD_OUT_TY-01_0633_75442",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0557_105604",
@@ -51927,7 +52330,8 @@
     ],
     "trainId": "75282",
     "throughTripId": "HD_OUT_TY-01_0645_106476",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0605_105688",
@@ -52229,14 +52633,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "06:41:00",
-        "departureTime": "06:44:00",
+        "departureTime": "06:41:00",
         "isPassing": false
       }
     ],
     "trainId": "124799",
-    "customOrigin": "元町・中華街",
+    "customOrigin": "海老名",
     "prevTripId": "HD_INB_TY-13_0547_125140",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0644_124799",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_0614_75398",
@@ -52349,7 +52755,8 @@
     ],
     "trainId": "75398",
     "throughTripId": "HD_OUT_TY-01_0653_75560",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0617_105771",
@@ -52546,7 +52953,8 @@
     ],
     "trainId": "75285",
     "throughTripId": "HD_OUT_TY-01_0702_75447",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0623_105507",
@@ -52658,9 +53066,11 @@
     ],
     "trainId": "105507",
     "customOrigin": "菊名",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-16_0551_106176",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0656_77600",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_0631_114984",
@@ -52774,7 +53184,9 @@
     "customOrigin": "森林公園",
     "trainId": "114984",
     "throughTripId": "HD_OUT_TY-01_0658_115325",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_0537_114984",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0631_105794",
@@ -52971,7 +53383,8 @@
     ],
     "trainId": "75288",
     "throughTripId": "HD_OUT_TY-01_0711_75450",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-01_0636_114998",
@@ -53085,7 +53498,9 @@
     "customOrigin": "森林公園",
     "trainId": "114998",
     "throughTripId": "HD_OUT_TY-01_0716_115269",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_0551_114998",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0638_105513",
@@ -53196,7 +53611,7 @@
       }
     ],
     "trainId": "105513",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_0613_105724",
     "prevLineId": "tokyu_toyoko"
@@ -53395,7 +53810,9 @@
       }
     ],
     "customOrigin": "森林公園",
-    "trainId": "114928"
+    "trainId": "114928",
+    "prevTripId": "HD_INB_TJ-30_0602_114928",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0646_105508",
@@ -53506,7 +53923,7 @@
       }
     ],
     "trainId": "105508",
-    "customOrigin": "武蔵小杉",
+    "customOrigin": "菊名",
     "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-16_0614_106177",
     "prevLineId": "tokyu_toyoko"
@@ -53736,7 +54153,8 @@
     ],
     "trainId": "75291",
     "throughTripId": "HD_OUT_TY-01_0728_145205",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0659_105729",
@@ -54011,14 +54429,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "07:46:00",
-        "departureTime": "07:48:00",
+        "departureTime": "07:46:00",
         "isPassing": false
       }
     ],
     "trainId": "124728",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_0618_106256",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0748_124728",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_0706_75428",
@@ -54131,7 +54551,8 @@
     ],
     "trainId": "75428",
     "throughTripId": "HD_OUT_TY-01_0740_105663",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0711_106023",
@@ -54238,14 +54659,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "07:41:00",
-        "departureTime": "07:44:00",
+        "departureTime": "07:41:00",
         "isPassing": false
       }
     ],
     "trainId": "106023",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_0629_105934",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0744_106023",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_0712_75292",
@@ -54358,7 +54781,8 @@
     ],
     "trainId": "75292",
     "throughTripId": "HD_OUT_TY-01_0748_75454",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0715_105608",
@@ -54754,7 +55178,9 @@
     "customOrigin": "川越市",
     "trainId": "114948",
     "throughTripId": "HD_OUT_TY-01_0753_115289",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_0657_114948",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0726_105722",
@@ -54951,7 +55377,8 @@
     ],
     "trainId": "75294",
     "throughTripId": "HD_OUT_TY-01_0803_75456",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-06_0730_144542",
@@ -55262,7 +55689,8 @@
     ],
     "trainId": "75357",
     "throughTripId": "HD_OUT_TY-01_0813_75519",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-01_0738_75256",
@@ -55485,9 +55913,11 @@
     ],
     "trainId": "124833",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_0650_106260",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0820_77604",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_0740_114929",
@@ -55601,7 +56031,9 @@
     "customOrigin": "森林公園",
     "trainId": "114929",
     "throughTripId": "HD_OUT_TY-01_0818_115270",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_0638_114929",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0741_105718",
@@ -55726,7 +56158,8 @@
     ],
     "trainId": "75234",
     "throughTripId": "HD_OUT_TY-01_0745_75590",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "新宿三丁目"
   },
   {
     "tripId": "HD_OUT_F-01_0745_75296",
@@ -55839,7 +56272,8 @@
     ],
     "trainId": "75296",
     "throughTripId": "HD_OUT_TY-01_0823_75419",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0746_105802",
@@ -55921,7 +56355,7 @@
       }
     ],
     "trainId": "105802",
-    "customOrigin": "元町・中華街",
+    "customOrigin": "武蔵小杉",
     "prevTripId": "HD_INB_TY-11_0728_106365",
     "prevLineId": "tokyu_toyoko"
   },
@@ -55986,7 +56420,7 @@
       }
     ],
     "trainId": "106026",
-    "customOrigin": "武蔵小杉",
+    "customOrigin": "二俣川",
     "customDestination": "池袋",
     "prevTripId": "HD_INB_TY-13_0730_125198",
     "prevLineId": "tokyu_toyoko"
@@ -56102,7 +56536,8 @@
     ],
     "trainId": "75257",
     "throughTripId": "HD_OUT_TY-01_0825_75458",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0755_105516",
@@ -56329,7 +56764,8 @@
     ],
     "trainId": "75297",
     "throughTripId": "HD_OUT_TY-01_0828_145152",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0757_124857",
@@ -56436,14 +56872,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "08:32:00",
-        "departureTime": "08:33:00",
+        "departureTime": "08:32:00",
         "isPassing": false
       }
     ],
     "trainId": "124857",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_0707_106262",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0833_124857",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_0800_144569",
@@ -56721,9 +57159,11 @@
     ],
     "trainId": "105612",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_0721_105938",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0847_77606",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_0808_75462",
@@ -56836,7 +57276,8 @@
     ],
     "trainId": "75462",
     "throughTripId": "HD_OUT_TY-01_0848_75624",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0811_106107",
@@ -56943,14 +57384,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "08:39:00",
-        "departureTime": "08:44:00",
+        "departureTime": "08:39:00",
         "isPassing": false
       }
     ],
     "trainId": "106107",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_0742_106446",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0844_106107",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_0815_144622",
@@ -57231,7 +57674,8 @@
     ],
     "trainId": "75358",
     "throughTripId": "HD_OUT_TY-01_0859_75520",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0820_105512",
@@ -57342,7 +57786,7 @@
       }
     ],
     "trainId": "105512",
-    "customOrigin": "元町・中華街",
+    "customOrigin": "菊名",
     "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-16_0745_105838",
     "prevLineId": "tokyu_toyoko"
@@ -57657,7 +58101,9 @@
     "customOrigin": "森林公園",
     "trainId": "114986",
     "throughTripId": "HD_OUT_TY-01_0854_115327",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_0728_114986",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0829_106045",
@@ -57720,7 +58166,7 @@
       }
     ],
     "trainId": "106045",
-    "customOrigin": "元町・中華街",
+    "customOrigin": "武蔵小杉",
     "customDestination": "池袋",
     "prevTripId": "HD_INB_TY-11_0808_106171",
     "prevLineId": "tokyu_toyoko"
@@ -57830,14 +58276,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "09:07:00",
-        "departureTime": "09:08:00",
+        "departureTime": "09:07:00",
         "isPassing": false
       }
     ],
     "trainId": "124800",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_0801_105763",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0908_124800",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_0833_75359",
@@ -57950,7 +58398,8 @@
     ],
     "trainId": "75359",
     "throughTripId": "HD_OUT_TY-01_0910_105670",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-09_0835_75201",
@@ -58288,14 +58737,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "09:09:00",
-        "departureTime": "09:12:00",
+        "departureTime": "09:09:00",
         "isPassing": false
       }
     ],
     "trainId": "106078",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_0812_106417",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0912_106078",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_0843_114909",
@@ -58409,7 +58860,9 @@
     "customOrigin": "志木",
     "trainId": "114909",
     "throughTripId": "HD_OUT_TY-01_0919_115250",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-14_0834_114909",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_0847_114957",
@@ -58523,7 +58976,9 @@
     "customOrigin": "川越市",
     "trainId": "114957",
     "throughTripId": "HD_OUT_TY-01_0926_75364",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_0815_114957",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0847_105616",
@@ -58635,9 +59090,11 @@
     ],
     "trainId": "105616",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_0757_105942",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0926_77609",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0852_105553",
@@ -58949,7 +59406,9 @@
     "customOrigin": "小川町",
     "trainId": "114933",
     "throughTripId": "HD_OUT_TY-01_0925_115274",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-33_0758_114933",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0856_105689",
@@ -59146,7 +59605,8 @@
     ],
     "trainId": "75300",
     "throughTripId": "HD_OUT_TY-01_0930_115298",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0859_105797",
@@ -59342,9 +59802,11 @@
     ],
     "trainId": "124797",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_TY-21_0814_106264",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0940_106084",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-09_0905_75202",
@@ -59409,7 +59871,8 @@
     ],
     "trainId": "75202",
     "throughTripId": "HD_OUT_TY-01_0920_105672",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_INB_F-16_0907_105555",
@@ -59521,9 +59984,11 @@
     ],
     "trainId": "105555",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_0821_106388",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_0945_77610",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0911_106084",
@@ -59750,7 +60215,8 @@
     ],
     "trainId": "75429",
     "throughTripId": "HD_OUT_TY-01_0949_75591",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0913_106049",
@@ -60296,7 +60762,9 @@
     "customOrigin": "森林公園",
     "trainId": "114993",
     "throughTripId": "HD_OUT_TY-01_0954_115334",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_0839_114993",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0926_105517",
@@ -60692,7 +61160,9 @@
     "customOrigin": "志木",
     "trainId": "114910",
     "throughTripId": "HD_OUT_TY-01_1010_145154",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-14_0924_114910",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0932_106050",
@@ -60865,14 +61335,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "10:17:00",
-        "departureTime": "10:19:00",
+        "departureTime": "10:17:00",
         "isPassing": false
       }
     ],
     "trainId": "124854",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_0851_106269",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1019_124854",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0941_106079",
@@ -60979,14 +61451,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "10:08:00",
-        "departureTime": "10:09:00",
+        "departureTime": "10:08:00",
         "isPassing": false
       }
     ],
     "trainId": "106079",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_0912_106418",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1009_106079",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_0943_144571",
@@ -61182,9 +61656,11 @@
     ],
     "trainId": "105620",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_0859_105946",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1026_77612",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-09_0946_75203",
@@ -61249,7 +61725,8 @@
     ],
     "trainId": "75203",
     "throughTripId": "HD_OUT_TY-01_0959_145137",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_OUT_F-01_0948_75361",
@@ -61362,7 +61839,8 @@
     ],
     "trainId": "75361",
     "throughTripId": "HD_OUT_TY-01_1029_75523",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_0951_105558",
@@ -61756,7 +62234,9 @@
     "customOrigin": "小川町",
     "trainId": "114935",
     "throughTripId": "HD_OUT_TY-01_1024_115276",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-33_0856_114935",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_0955_105716",
@@ -61952,9 +62432,11 @@
     ],
     "trainId": "124834",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_TY-21_0914_106390",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1040_106080",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1003_106051",
@@ -62445,7 +62927,8 @@
     ],
     "trainId": "75430",
     "throughTripId": "HD_OUT_TY-01_1049_75592",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1015_105623",
@@ -62557,9 +63040,11 @@
     ],
     "trainId": "105623",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_0929_105949",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1056_77614",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1016_144624",
@@ -62756,7 +63241,8 @@
     ],
     "trainId": "75362",
     "throughTripId": "HD_OUT_TY-01_1055_105684",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1022_105562",
@@ -63152,7 +63638,9 @@
     "customOrigin": "森林公園",
     "trainId": "114987",
     "throughTripId": "HD_OUT_TY-01_1054_115328",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_0931_114987",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1030_124862",
@@ -63259,14 +63747,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "11:05:00",
-        "departureTime": "11:06:00",
+        "departureTime": "11:05:00",
         "isPassing": false
       }
     ],
     "trainId": "124862",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_0944_106276",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1106_124862",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-09_1030_75204",
@@ -63331,7 +63821,8 @@
     ],
     "trainId": "75204",
     "throughTripId": "HD_OUT_TY-01_1050_75366",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_OUT_F-01_1033_75306",
@@ -63444,7 +63935,8 @@
     ],
     "trainId": "75306",
     "throughTripId": "HD_OUT_TY-01_1112_105754",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1036_105563",
@@ -63556,9 +64048,11 @@
     ],
     "trainId": "105563",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_0952_106392",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1113_77616",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1040_105518",
@@ -63786,7 +64280,9 @@
     "customOrigin": "川越市",
     "trainId": "114917",
     "throughTripId": "HD_OUT_TY-01_1117_115258",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_1012_114917",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1041_144563",
@@ -64048,9 +64544,9 @@
     ],
     "trainId": "105624",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_1012_105844",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_OUT_F-01_1047_75363",
@@ -64163,7 +64659,8 @@
     ],
     "trainId": "75363",
     "throughTripId": "HD_OUT_TY-01_1129_75363",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1051_105565",
@@ -64275,9 +64772,11 @@
     ],
     "trainId": "105565",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1019_105891",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1127_77617",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1052_144580",
@@ -64559,7 +65058,9 @@
     "customOrigin": "小川町",
     "trainId": "114934",
     "throughTripId": "HD_OUT_TY-01_1124_115275",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-33_0958_114934",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1100_105810",
@@ -64708,7 +65209,8 @@
     ],
     "trainId": "75205",
     "throughTripId": "HD_OUT_TY-01_1113_75468",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_OUT_F-01_1103_75309",
@@ -64821,7 +65323,8 @@
     ],
     "trainId": "75309",
     "throughTripId": "HD_OUT_TY-01_1142_105755",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1104_124835",
@@ -65048,7 +65551,8 @@
     ],
     "trainId": "75431",
     "throughTripId": "HD_OUT_TY-01_1147_75593",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1110_106085",
@@ -65155,14 +65659,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "11:38:00",
-        "departureTime": "11:39:00",
+        "departureTime": "11:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106085",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1022_105953",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1139_106085",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1111_144550",
@@ -65358,9 +65864,9 @@
     ],
     "trainId": "105627",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_1042_106424",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_OUT_F-01_1117_75365",
@@ -65473,7 +65979,8 @@
     ],
     "trainId": "75365",
     "throughTripId": "HD_OUT_TY-01_1159_75365",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1117_106055",
@@ -65651,9 +66158,11 @@
     ],
     "trainId": "105566",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1048_105892",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1157_77620",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1122_144628",
@@ -65935,7 +66444,9 @@
     "customOrigin": "森林公園",
     "trainId": "114961",
     "throughTripId": "HD_OUT_TY-01_1154_115302",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1040_114961",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1128_75311",
@@ -66048,7 +66559,8 @@
     ],
     "trainId": "75311",
     "throughTripId": "HD_OUT_TY-01_1204_75473",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1130_105775",
@@ -66197,7 +66709,8 @@
     ],
     "trainId": "75206",
     "throughTripId": "HD_OUT_TY-01_1149_75368",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_OUT_F-01_1133_75312",
@@ -66310,7 +66823,8 @@
     ],
     "trainId": "75312",
     "throughTripId": "HD_OUT_TY-01_1212_105757",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1134_124863",
@@ -66417,14 +66931,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "12:15:00",
-        "departureTime": "12:18:00",
+        "departureTime": "12:15:00",
         "isPassing": false
       }
     ],
     "trainId": "124863",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1104_106201",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1218_124863",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1138_114919",
@@ -66538,7 +67054,9 @@
     "customOrigin": "川越市",
     "trainId": "114919",
     "throughTripId": "HD_OUT_TY-01_1217_115260",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_1107_114919",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1140_106088",
@@ -66645,14 +67163,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "12:08:00",
-        "departureTime": "12:09:00",
+        "departureTime": "12:08:00",
         "isPassing": false
       }
     ],
     "trainId": "106088",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1052_105954",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1209_106088",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1143_105628",
@@ -66879,7 +67399,8 @@
     ],
     "trainId": "75367",
     "throughTripId": "HD_OUT_TY-01_1229_75367",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1147_106057",
@@ -67141,9 +67662,11 @@
     ],
     "trainId": "105569",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1106_106282",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1227_77622",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1156_114964",
@@ -67257,7 +67780,9 @@
     "customOrigin": "森林公園",
     "trainId": "114964",
     "throughTripId": "HD_OUT_TY-01_1224_115305",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1110_114964",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1156_105695",
@@ -67490,7 +68015,8 @@
     ],
     "trainId": "75208",
     "throughTripId": "HD_OUT_TY-01_1219_75370",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_OUT_F-01_1203_75314",
@@ -67603,7 +68129,8 @@
     ],
     "trainId": "75314",
     "throughTripId": "HD_OUT_TY-01_1242_105760",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1204_124836",
@@ -67830,7 +68357,8 @@
     ],
     "trainId": "75433",
     "throughTripId": "HD_OUT_TY-01_1247_75595",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1210_106089",
@@ -67937,14 +68465,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "12:38:00",
-        "departureTime": "12:39:00",
+        "departureTime": "12:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106089",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1122_105956",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1239_106089",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1211_144515",
@@ -68140,9 +68670,9 @@
     ],
     "trainId": "105630",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_1142_106429",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_OUT_F-01_1217_75369",
@@ -68255,7 +68785,8 @@
     ],
     "trainId": "75369",
     "throughTripId": "HD_OUT_TY-01_1255_105691",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1217_106058",
@@ -68433,9 +68964,11 @@
     ],
     "trainId": "105570",
     "customOrigin": "元町・中華街",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1149_105896",
     "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "throughTripId": "HD_OUT_TJ-11_1257_77623",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1222_144631",
@@ -68717,7 +69250,9 @@
     "customOrigin": "森林公園",
     "trainId": "114966",
     "throughTripId": "HD_OUT_TY-01_1254_115306",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1140_114966",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1230_105778",
@@ -68866,7 +69401,8 @@
     ],
     "trainId": "75210",
     "throughTripId": "HD_OUT_TY-01_1249_75372",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_OUT_F-01_1233_75316",
@@ -68979,7 +69515,8 @@
     ],
     "trainId": "75316",
     "throughTripId": "HD_OUT_TY-01_1312_105762",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1234_124866",
@@ -69086,14 +69623,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "13:15:00",
-        "departureTime": "13:18:00",
+        "departureTime": "13:15:00",
         "isPassing": false
       }
     ],
     "trainId": "124866",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1204_106206",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1318_124866",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1238_114920",
@@ -69207,7 +69746,9 @@
     "customOrigin": "川越市",
     "trainId": "114920",
     "throughTripId": "HD_OUT_TY-01_1317_115261",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_1200_114920",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1240_106091",
@@ -69314,14 +69855,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "13:08:00",
-        "departureTime": "13:09:00",
+        "departureTime": "13:08:00",
         "isPassing": false
       }
     ],
     "trainId": "106091",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1152_105958",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1309_106091",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1241_144516",
@@ -69517,9 +70060,9 @@
     ],
     "trainId": "105632",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_1212_106430",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_OUT_F-01_1247_75371",
@@ -69632,7 +70175,8 @@
     ],
     "trainId": "75371",
     "throughTripId": "HD_OUT_TY-01_1329_75533",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1247_106060",
@@ -69810,9 +70354,11 @@
     ],
     "trainId": "105572",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1219_105898",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1327_77626",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1252_144585",
@@ -70094,7 +70640,9 @@
     "customOrigin": "森林公園",
     "trainId": "114967",
     "throughTripId": "HD_OUT_TY-01_1324_115308",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1210_114967",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1300_105813",
@@ -70176,7 +70724,7 @@
       }
     ],
     "trainId": "105813",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1214_105813",
     "prevLineId": "tokyu_toyoko"
   },
@@ -70243,7 +70791,8 @@
     ],
     "trainId": "75213",
     "throughTripId": "HD_OUT_TY-01_1319_75374",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_OUT_F-01_1303_75318",
@@ -70356,7 +70905,8 @@
     ],
     "trainId": "75318",
     "throughTripId": "HD_OUT_TY-01_1339_145170",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1304_124838",
@@ -70583,7 +71133,8 @@
     ],
     "trainId": "75435",
     "throughTripId": "HD_OUT_TY-01_1347_75435",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1310_106093",
@@ -70690,14 +71241,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "13:38:00",
-        "departureTime": "13:39:00",
+        "departureTime": "13:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106093",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1222_105960",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1339_106093",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1311_144518",
@@ -70893,9 +71446,9 @@
     ],
     "trainId": "105635",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_1242_106432",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_OUT_F-01_1317_75373",
@@ -71008,7 +71561,8 @@
     ],
     "trainId": "75373",
     "throughTripId": "HD_OUT_TY-01_1359_75535",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1317_106062",
@@ -71186,9 +71740,11 @@
     ],
     "trainId": "105575",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1249_105900",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1357_77627",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1322_144587",
@@ -71470,7 +72026,9 @@
     "customOrigin": "森林公園",
     "trainId": "114969",
     "throughTripId": "HD_OUT_TY-01_1354_115310",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1240_114969",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1330_105779",
@@ -71552,7 +72110,7 @@
       }
     ],
     "trainId": "105779",
-    "customOrigin": "日吉",
+    "customOrigin": "湘南台",
     "prevTripId": "HD_INB_TY-13_1310_125208",
     "prevLineId": "tokyu_toyoko"
   },
@@ -71730,7 +72288,8 @@
     ],
     "trainId": "75320",
     "throughTripId": "HD_OUT_TY-01_1409_145172",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1334_124867",
@@ -71837,14 +72396,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "14:15:00",
-        "departureTime": "14:18:00",
+        "departureTime": "14:15:00",
         "isPassing": false
       }
     ],
     "trainId": "124867",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1304_106210",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1418_124867",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1338_114922",
@@ -71958,7 +72519,9 @@
     "customOrigin": "川越市",
     "trainId": "114922",
     "throughTripId": "HD_OUT_TY-01_1417_115263",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_1300_114922",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1340_106096",
@@ -72065,14 +72628,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "14:08:00",
-        "departureTime": "14:09:00",
+        "departureTime": "14:08:00",
         "isPassing": false
       }
     ],
     "trainId": "106096",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1252_105962",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1409_106096",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1341_144521",
@@ -72268,9 +72833,9 @@
     ],
     "trainId": "105636",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_1312_106434",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_OUT_F-01_1347_75375",
@@ -72383,7 +72948,8 @@
     ],
     "trainId": "75375",
     "throughTripId": "HD_OUT_TY-01_1425_105697",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1347_106065",
@@ -72561,9 +73127,11 @@
     ],
     "trainId": "105576",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1319_105902",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1427_77629",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1352_144589",
@@ -72845,7 +73413,9 @@
     "customOrigin": "森林公園",
     "trainId": "114971",
     "throughTripId": "HD_OUT_TY-01_1424_115312",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1310_114971",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1400_105815",
@@ -73105,7 +73675,8 @@
     ],
     "trainId": "75322",
     "throughTripId": "HD_OUT_TY-01_1442_105767",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1404_124840",
@@ -73332,7 +73903,8 @@
     ],
     "trainId": "75438",
     "throughTripId": "HD_OUT_TY-01_1447_75438",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1410_106097",
@@ -73439,14 +74011,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "14:38:00",
-        "departureTime": "14:39:00",
+        "departureTime": "14:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106097",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1322_105964",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1439_106097",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1411_144522",
@@ -73642,9 +74216,9 @@
     ],
     "trainId": "105639",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_1342_106436",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_OUT_F-01_1417_75377",
@@ -73757,7 +74331,8 @@
     ],
     "trainId": "75377",
     "throughTripId": "HD_OUT_TY-01_1459_75377",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1417_106066",
@@ -73935,9 +74510,11 @@
     ],
     "trainId": "105578",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1349_105904",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1457_77631",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1422_144591",
@@ -74219,7 +74796,9 @@
     "customOrigin": "森林公園",
     "trainId": "114973",
     "throughTripId": "HD_OUT_TY-01_1454_115314",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1340_114973",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1430_105781",
@@ -74301,7 +74880,7 @@
       }
     ],
     "trainId": "105781",
-    "customOrigin": "日吉",
+    "customOrigin": "湘南台",
     "prevTripId": "HD_INB_TY-13_1410_125210",
     "prevLineId": "tokyu_toyoko"
   },
@@ -74368,7 +74947,8 @@
     ],
     "trainId": "75218",
     "throughTripId": "HD_OUT_TY-01_1449_75380",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_OUT_F-01_1433_75324",
@@ -74481,7 +75061,8 @@
     ],
     "trainId": "75324",
     "throughTripId": "HD_OUT_TY-01_1512_105770",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1434_124869",
@@ -74588,14 +75169,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "15:15:00",
-        "departureTime": "15:18:00",
+        "departureTime": "15:15:00",
         "isPassing": false
       }
     ],
     "trainId": "124869",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1404_106213",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1518_124869",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1438_114925",
@@ -74709,7 +75292,9 @@
     "customOrigin": "川越市",
     "trainId": "114925",
     "throughTripId": "HD_OUT_TY-01_1517_115266",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_1400_114925",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1440_106099",
@@ -74816,14 +75401,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "15:08:00",
-        "departureTime": "15:09:00",
+        "departureTime": "15:08:00",
         "isPassing": false
       }
     ],
     "trainId": "106099",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1352_105966",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1509_106099",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1441_144524",
@@ -75019,9 +75606,9 @@
     ],
     "trainId": "105640",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_1412_106438",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_OUT_F-01_1447_75379",
@@ -75134,7 +75721,8 @@
     ],
     "trainId": "75379",
     "throughTripId": "HD_OUT_TY-01_1529_75379",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1447_106068",
@@ -75312,9 +75900,11 @@
     ],
     "trainId": "105581",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1419_105906",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1527_77633",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1452_144593",
@@ -75596,7 +76186,9 @@
     "customOrigin": "森林公園",
     "trainId": "114975",
     "throughTripId": "HD_OUT_TY-01_1524_115316",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1410_114975",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1500_105783",
@@ -75745,7 +76337,8 @@
     ],
     "trainId": "75221",
     "throughTripId": "HD_OUT_TY-01_1513_75486",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_OUT_F-01_1503_75326",
@@ -75858,7 +76451,8 @@
     ],
     "trainId": "75326",
     "throughTripId": "HD_OUT_TY-01_1539_145178",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1504_124842",
@@ -76085,7 +76679,8 @@
     ],
     "trainId": "75440",
     "throughTripId": "HD_OUT_TY-01_1547_75602",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1510_106101",
@@ -76192,14 +76787,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "15:38:00",
-        "departureTime": "15:39:00",
+        "departureTime": "15:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106101",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1422_105968",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1539_106101",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1511_144526",
@@ -76395,9 +76992,11 @@
     ],
     "trainId": "105642",
     "customOrigin": "元町・中華街",
+    "customDestination": "志木",
     "prevTripId": "HD_INB_TY-21_1442_106440",
     "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "throughTripId": "HD_OUT_TJ-11_1555_77593",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1517_75382",
@@ -76510,7 +77109,8 @@
     ],
     "trainId": "75382",
     "throughTripId": "HD_OUT_TY-01_1555_105704",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1517_106070",
@@ -76972,7 +77572,9 @@
     "customOrigin": "森林公園",
     "trainId": "114978",
     "throughTripId": "HD_OUT_TY-01_1554_115318",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1440_114978",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1530_105784",
@@ -77232,7 +77834,8 @@
     ],
     "trainId": "75327",
     "throughTripId": "HD_OUT_TY-01_1612_105772",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1534_124859",
@@ -77339,14 +77942,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "16:16:00",
-        "departureTime": "16:18:00",
+        "departureTime": "16:16:00",
         "isPassing": false
       }
     ],
     "trainId": "124859",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1504_106217",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1618_124859",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1538_115292",
@@ -77460,7 +78065,9 @@
     "customOrigin": "川越市",
     "trainId": "115292",
     "throughTripId": "HD_OUT_TY-01_1617_115633",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_1500_115292",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1540_106104",
@@ -77567,14 +78174,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "16:08:00",
-        "departureTime": "16:09:00",
+        "departureTime": "16:08:00",
         "isPassing": false
       }
     ],
     "trainId": "106104",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1452_106411",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1609_106104",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1541_144528",
@@ -77722,9 +78331,9 @@
     ],
     "trainId": "106072",
     "customOrigin": "元町・中華街",
+    "customDestination": "池袋",
     "prevTripId": "HD_INB_TY-21_1512_106443",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "池袋"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_OUT_F-01_1546_75383",
@@ -77837,7 +78446,8 @@
     ],
     "trainId": "75383",
     "throughTripId": "HD_OUT_TY-01_1629_75383",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1546_105645",
@@ -77949,9 +78559,11 @@
     ],
     "trainId": "105645",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1459_105971",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1626_77635",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1552_105585",
@@ -78263,7 +78875,9 @@
     "customOrigin": "森林公園",
     "trainId": "114979",
     "throughTripId": "HD_OUT_TY-01_1624_115320",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1510_114979",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1555_105727",
@@ -78496,7 +79110,8 @@
     ],
     "trainId": "75224",
     "throughTripId": "HD_OUT_TY-01_1613_75489",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_OUT_F-01_1603_75384",
@@ -78609,7 +79224,8 @@
     ],
     "trainId": "75384",
     "throughTripId": "HD_OUT_TY-01_1644_75384",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1604_124809",
@@ -78788,7 +79404,8 @@
     ],
     "trainId": "75330",
     "throughTripId": "HD_OUT_TY-01_1649_75492",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-06_1609_144529",
@@ -78979,14 +79596,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "16:38:00",
-        "departureTime": "16:39:00",
+        "departureTime": "16:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106105",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1542_106444",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1639_106105",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1611_105646",
@@ -79210,9 +79829,11 @@
     ],
     "trainId": "105647",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_TY-21_1528_105973",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1655_77663",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1617_75386",
@@ -79325,7 +79946,8 @@
     ],
     "trainId": "75386",
     "throughTripId": "HD_OUT_TY-01_1659_75386",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-09_1620_75226",
@@ -79390,7 +80012,8 @@
     ],
     "trainId": "75226",
     "throughTripId": "HD_OUT_TY-01_1639_145183",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_INB_F-16_1622_105587",
@@ -79784,7 +80407,9 @@
     "customOrigin": "森林公園",
     "trainId": "114980",
     "throughTripId": "HD_OUT_TY-01_1654_115321",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1540_114980",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1630_105798",
@@ -79982,7 +80607,9 @@
     "customOrigin": "川越市",
     "trainId": "114959",
     "throughTripId": "HD_OUT_TY-01_1710_105711",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_1600_114959",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1634_124870",
@@ -80089,14 +80716,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "17:15:00",
-        "departureTime": "17:16:00",
+        "departureTime": "17:15:00",
         "isPassing": false
       }
     ],
     "trainId": "124870",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1604_106222",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1716_124870",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1640_106077",
@@ -80203,14 +80832,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "17:07:00",
-        "departureTime": "17:08:00",
+        "departureTime": "17:07:00",
         "isPassing": false
       }
     ],
     "trainId": "106077",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1612_106416",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1708_106077",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1641_144532",
@@ -80407,7 +81038,8 @@
     ],
     "trainId": "75332",
     "throughTripId": "HD_OUT_TY-01_1719_75494",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1643_105649",
@@ -80586,7 +81218,8 @@
     ],
     "trainId": "75403",
     "throughTripId": "HD_OUT_TY-01_1704_145115",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_INB_F-16_1645_105651",
@@ -80698,9 +81331,11 @@
     ],
     "trainId": "105651",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_TY-21_1559_105651",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1724_77664",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1646_75388",
@@ -80813,7 +81448,8 @@
     ],
     "trainId": "75388",
     "throughTripId": "HD_OUT_TY-01_1729_75388",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1652_105588",
@@ -80925,9 +81561,11 @@
     ],
     "trainId": "105588",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1607_106303",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1735_77639",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1652_144601",
@@ -81125,7 +81763,9 @@
     "customOrigin": "森林公園",
     "trainId": "114981",
     "throughTripId": "HD_OUT_TY-01_1724_115322",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1611_114981",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1656_114911",
@@ -81239,7 +81879,9 @@
     "customOrigin": "志木",
     "trainId": "114911",
     "throughTripId": "HD_OUT_TY-01_1732_115252",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-14_1648_114911",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1656_105723",
@@ -81520,7 +82162,8 @@
     ],
     "trainId": "75390",
     "throughTripId": "HD_OUT_TY-01_1740_105715",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1703_124844",
@@ -81631,10 +82274,12 @@
       }
     ],
     "trainId": "124844",
-    "customOrigin": "日吉",
-    "customDestination": "和光市",
+    "customOrigin": "元町・中華街",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_TY-21_1634_106223",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1738_77665",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1707_75461",
@@ -81945,7 +82590,8 @@
     ],
     "trainId": "75333",
     "throughTripId": "HD_OUT_TY-01_1754_115323",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1713_106108",
@@ -82052,14 +82698,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "17:51:00",
-        "departureTime": "17:52:00",
+        "departureTime": "17:51:00",
         "isPassing": false
       }
     ],
     "trainId": "106108",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1629_106413",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1752_106108",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1717_75444",
@@ -82172,7 +82820,8 @@
     ],
     "trainId": "75444",
     "throughTripId": "HD_OUT_TY-01_1802_75444",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1717_106074",
@@ -82433,7 +83082,7 @@
       }
     ],
     "trainId": "105590",
-    "customOrigin": "元町・中華街",
+    "customOrigin": "武蔵小杉",
     "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-11_1659_106172",
     "prevLineId": "tokyu_toyoko"
@@ -82550,7 +83199,9 @@
     "customOrigin": "森林公園",
     "trainId": "114982",
     "throughTripId": "HD_OUT_TY-01_1755_75495",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1641_114982",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1726_105720",
@@ -82747,7 +83398,8 @@
     ],
     "trainId": "75334",
     "throughTripId": "HD_OUT_TY-01_1804_75496",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1728_105822",
@@ -82829,7 +83481,7 @@
       }
     ],
     "trainId": "105822",
-    "customOrigin": "横浜",
+    "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1638_105822",
     "prevLineId": "tokyu_toyoko"
   },
@@ -83010,7 +83662,8 @@
     ],
     "trainId": "75391",
     "throughTripId": "HD_OUT_TY-01_1814_75553",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1738_105747",
@@ -83095,7 +83748,8 @@
     "throughLineId": "seibu_yurakucho",
     "trainId": "105747",
     "prevTripId": "HD_INB_TY-21_1712_105846",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "customOrigin": "元町・中華街"
   },
   {
     "tripId": "HD_OUT_F-01_1741_75335",
@@ -83208,7 +83862,8 @@
     ],
     "trainId": "75335",
     "throughTripId": "HD_OUT_TY-01_1824_115324",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1741_105520",
@@ -83434,9 +84089,11 @@
     ],
     "trainId": "105652",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_TY-21_1658_105978",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1823_77667",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1748_144506",
@@ -83585,7 +84242,8 @@
     ],
     "trainId": "75227",
     "throughTripId": "HD_OUT_TY-01_1811_75389",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_INB_F-16_1754_105653",
@@ -83697,9 +84355,11 @@
     ],
     "trainId": "105653",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1707_105979",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1836_77643",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1756_114983",
@@ -83813,7 +84473,9 @@
     "customOrigin": "森林公園",
     "trainId": "114983",
     "throughTripId": "HD_OUT_TY-01_1825_75497",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_1711_114983",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1757_105721",
@@ -83960,7 +84622,7 @@
       }
     ],
     "trainId": "124811",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "customDestination": "池袋",
     "prevTripId": "HD_INB_TY-21_1714_106163",
     "prevLineId": "tokyu_toyoko"
@@ -84328,7 +84990,8 @@
     ],
     "trainId": "75414",
     "throughTripId": "HD_OUT_TY-01_1848_75576",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-06_1812_144564",
@@ -84871,7 +85534,9 @@
     "customOrigin": "川越市",
     "trainId": "114960",
     "throughTripId": "HD_OUT_TY-01_1859_172763",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_1746_114960",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1822_144603",
@@ -85068,7 +85733,8 @@
     ],
     "trainId": "75258",
     "throughTripId": "HD_OUT_TY-01_1852_75420",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1823_105749",
@@ -85264,9 +85930,11 @@
     ],
     "trainId": "105522",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_TY-21_1757_105848",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1855_77668",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1828_75337",
@@ -85379,7 +86047,8 @@
     ],
     "trainId": "75337",
     "throughTripId": "HD_OUT_TY-01_1905_75499",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1829_105654",
@@ -85491,9 +86160,11 @@
     ],
     "trainId": "105654",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1737_105654",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1905_77644",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1834_75338",
@@ -85606,7 +86277,8 @@
     ],
     "trainId": "75338",
     "throughTripId": "HD_OUT_TY-01_1908_105823",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-09_1834_75404",
@@ -85671,7 +86343,8 @@
     ],
     "trainId": "75404",
     "throughTripId": "HD_OUT_TY-01_1855_75566",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_INB_F-16_1835_125843",
@@ -85851,7 +86524,9 @@
     "customOrigin": "川越市",
     "trainId": "115293",
     "throughTripId": "HD_OUT_TY-01_1918_115634",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_1808_115293",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1839_106117",
@@ -85958,14 +86633,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "19:17:00",
-        "departureTime": "19:18:00",
+        "departureTime": "19:17:00",
         "isPassing": false
       }
     ],
     "trainId": "106117",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1752_105656",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1918_106117",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1842_105523",
@@ -86193,7 +86870,9 @@
     "customOrigin": "川越市",
     "trainId": "114946",
     "throughTripId": "HD_OUT_TY-01_1914_115287",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_1816_114946",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1846_105656",
@@ -86305,9 +86984,11 @@
     ],
     "trainId": "105656",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_TY-21_1759_106312",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1925_106082",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1854_105750",
@@ -86617,9 +87298,11 @@
     ],
     "trainId": "105657",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1815_106314",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1935_77646",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1901_144610",
@@ -86816,7 +87499,8 @@
     ],
     "trainId": "75445",
     "throughTripId": "HD_OUT_TY-01_1948_75607",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-06_1907_144507",
@@ -87325,7 +88009,8 @@
     ],
     "trainId": "75252",
     "throughTripId": "HD_OUT_TY-01_1941_145120",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-09_1915_75229",
@@ -87390,7 +88075,8 @@
     ],
     "trainId": "75229",
     "throughTripId": "HD_OUT_TY-01_1930_105819",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "池袋"
   },
   {
     "tripId": "HD_OUT_F-06_1917_144537",
@@ -87665,14 +88351,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "20:04:00",
-        "departureTime": "20:06:00",
+        "departureTime": "20:04:00",
         "isPassing": false
       }
     ],
     "trainId": "106118",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1850_106118",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_2006_106118",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_1926_75339",
@@ -87785,7 +88473,8 @@
     ],
     "trainId": "75339",
     "throughTripId": "HD_OUT_TY-01_2006_75501",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1927_105525",
@@ -87897,9 +88586,11 @@
     ],
     "trainId": "105525",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_TY-21_1857_105851",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_1953_77670",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1930_105799",
@@ -88174,14 +88865,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "20:08:00",
-        "departureTime": "20:09:00",
+        "departureTime": "20:08:00",
         "isPassing": false
       }
     ],
     "trainId": "124802",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1845_106318",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_2009_124802",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_1937_144614",
@@ -88607,7 +89300,9 @@
     "customOrigin": "川越市",
     "trainId": "114947",
     "throughTripId": "HD_OUT_TY-01_2015_115288",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_1915_114947",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_1947_105660",
@@ -88918,7 +89613,8 @@
     ],
     "trainId": "75394",
     "throughTripId": "HD_OUT_TY-01_2030_105817",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_1954_105765",
@@ -89199,7 +89895,8 @@
     ],
     "trainId": "75448",
     "throughTripId": "HD_OUT_TY-01_2034_75556",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2000_105793",
@@ -89480,7 +90177,8 @@
     ],
     "trainId": "75422",
     "throughTripId": "HD_OUT_TY-01_2048_75584",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-06_2007_144615",
@@ -89791,7 +90489,8 @@
     ],
     "trainId": "75253",
     "throughTripId": "HD_OUT_TY-01_2044_75415",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2012_105527",
@@ -89903,9 +90602,11 @@
     ],
     "trainId": "105527",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1944_105853",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_2036_77651",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_2017_144620",
@@ -90180,14 +90881,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "21:00:00",
-        "departureTime": "21:01:00",
+        "departureTime": "21:00:00",
         "isPassing": false
       }
     ],
     "trainId": "124873",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_1956_106098",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_2101_124873",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_2027_75395",
@@ -90300,7 +91003,8 @@
     ],
     "trainId": "75395",
     "throughTripId": "HD_OUT_TY-01_2101_105735",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2028_105761",
@@ -90581,7 +91285,8 @@
     ],
     "trainId": "75341",
     "throughTripId": "HD_OUT_TY-01_2110_75503",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-06_2037_144547",
@@ -90779,7 +91484,9 @@
     "customOrigin": "川越市",
     "trainId": "115002",
     "throughTripId": "HD_OUT_TY-01_2118_115343",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_2008_115002",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_2038_105596",
@@ -91090,7 +91797,8 @@
     ],
     "trainId": "75342",
     "throughTripId": "HD_OUT_TY-01_2126_106479",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2047_105664",
@@ -91202,9 +91910,11 @@
     ],
     "trainId": "105664",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_TY-21_1959_105990",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_2126_77654",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_2052_75259",
@@ -91317,7 +92027,8 @@
     ],
     "trainId": "75259",
     "throughTripId": "HD_OUT_TY-01_2124_75421",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2053_124798",
@@ -91428,7 +92139,7 @@
       }
     ],
     "trainId": "124798",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_2009_106331",
     "prevLineId": "tokyu_toyoko"
@@ -91622,14 +92333,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "21:37:00",
-        "departureTime": "21:38:00",
+        "departureTime": "21:37:00",
         "isPassing": false
       }
     ],
     "trainId": "106119",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_2026_106119",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_2138_106119",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_2103_114914",
@@ -91743,7 +92456,9 @@
     "customOrigin": "志木",
     "trainId": "114914",
     "throughTripId": "HD_OUT_TY-01_2141_105738",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-14_2055_114914",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_2109_106120",
@@ -91850,14 +92565,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "21:47:00",
-        "departureTime": "21:49:00",
+        "departureTime": "21:47:00",
         "isPassing": false
       }
     ],
     "trainId": "106120",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_2020_106332",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_2149_106120",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-06_2111_144565",
@@ -92366,7 +93083,8 @@
     ],
     "trainId": "75345",
     "throughTripId": "HD_OUT_TY-01_2206_75507",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-06_2130_144611",
@@ -92732,7 +93450,9 @@
     "customOrigin": "森林公園",
     "trainId": "114985",
     "throughTripId": "HD_OUT_TY-01_2209_115326",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-30_2044_114985",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_2142_106083",
@@ -92839,14 +93559,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "22:10:00",
-        "departureTime": "22:11:00",
+        "departureTime": "22:10:00",
         "isPassing": false
       }
     ],
     "trainId": "106083",
     "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_2051_106338",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_2211_106083",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_2147_75453",
@@ -92959,7 +93681,8 @@
     ],
     "trainId": "75453",
     "throughTripId": "HD_OUT_TY-01_2228_75453",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2147_105667",
@@ -93071,9 +93794,11 @@
     ],
     "trainId": "105667",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_TY-21_2100_105667",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_2227_77675",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_2154_124849",
@@ -93184,7 +93909,7 @@
       }
     ],
     "trainId": "124849",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_2108_106340",
     "prevLineId": "tokyu_toyoko"
@@ -93385,7 +94110,9 @@
     "customOrigin": "川越市",
     "trainId": "114949",
     "throughTripId": "HD_OUT_TY-01_2224_115290",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_2124_114949",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_2158_75348",
@@ -93498,7 +94225,8 @@
     ],
     "trainId": "75348",
     "throughTripId": "HD_OUT_TY-01_2235_75510",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2158_105599",
@@ -93725,7 +94453,8 @@
     ],
     "trainId": "75397",
     "throughTripId": "HD_OUT_TY-01_2240_75559",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2204_105669",
@@ -93837,9 +94566,11 @@
     ],
     "trainId": "105669",
     "customOrigin": "元町・中華街",
-    "customDestination": "和光市",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_TY-21_2117_105669",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_2245_77676",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_2208_105548",
@@ -94065,9 +94796,9 @@
     ],
     "trainId": "105533",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_2130_106343",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_INB_F-16_2223_124850",
@@ -94178,7 +94909,7 @@
       }
     ],
     "trainId": "124850",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_2138_106345",
     "prevLineId": "tokyu_toyoko"
@@ -94379,7 +95110,9 @@
     "customOrigin": "川越市",
     "trainId": "114950",
     "throughTripId": "HD_OUT_TY-01_2254_115291",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_2152_114950",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_2230_115003",
@@ -94493,7 +95226,9 @@
     "customOrigin": "川越市",
     "trainId": "115003",
     "throughTripId": "HD_OUT_TY-01_2309_115344",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "prevTripId": "HD_INB_TJ-22_2201_115003",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "HD_INB_F-16_2231_105671",
@@ -94804,7 +95539,8 @@
     ],
     "trainId": "75351",
     "throughTripId": "HD_OUT_TY-01_2313_75513",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2238_105768",
@@ -94889,7 +95625,8 @@
     "throughLineId": "seibu_yurakucho",
     "trainId": "105768",
     "prevTripId": "HD_INB_TY-21_2214_105854",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "customOrigin": "元町・中華街"
   },
   {
     "tripId": "HD_INB_F-16_2242_105528",
@@ -95224,14 +95961,16 @@
       {
         "stationId": "F-01",
         "arrivalTime": "23:29:00",
-        "departureTime": "23:34:00",
+        "departureTime": "23:29:00",
         "isPassing": false
       }
     ],
     "trainId": "106021",
-    "customOrigin": "日吉",
+    "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_2209_106349",
-    "prevLineId": "tokyu_toyoko"
+    "prevLineId": "tokyu_toyoko",
+    "throughTripId": "HD_OUT_TJ-11_2334_106021",
+    "throughLineId": "tojo"
   },
   {
     "tripId": "HD_OUT_F-01_2255_75455",
@@ -95344,7 +96083,8 @@
     ],
     "trainId": "75455",
     "throughTripId": "HD_OUT_TY-01_2332_75617",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_OUT_F-06_2300_144645",
@@ -95625,7 +96365,8 @@
     ],
     "trainId": "75352",
     "throughTripId": "HD_OUT_TY-01_2335_105751",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2308_105676",
@@ -95852,7 +96593,8 @@
     ],
     "trainId": "75416",
     "throughTripId": "HD_OUT_TY-01_2351_75416",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2315_105759",
@@ -96049,7 +96791,8 @@
     ],
     "trainId": "75418",
     "throughTripId": "HD_OUT_TY-01_0001_75418",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2321_105678",
@@ -96245,7 +96988,7 @@
       }
     ],
     "trainId": "105683",
-    "customOrigin": "武蔵小杉",
+    "customOrigin": "元町・中華街",
     "prevTripId": "HD_INB_TY-21_2302_105860",
     "prevLineId": "tokyu_toyoko"
   },
@@ -96360,7 +97103,8 @@
     ],
     "trainId": "75417",
     "throughTripId": "HD_OUT_TY-01_0010_75417",
-    "throughLineId": "tokyu_toyoko"
+    "throughLineId": "tokyu_toyoko",
+    "customOrigin": "和光市"
   },
   {
     "tripId": "HD_INB_F-16_2331_105534",
@@ -96814,9 +97558,9 @@
     ],
     "trainId": "105600",
     "customOrigin": "元町・中華街",
+    "customDestination": "和光市",
     "prevTripId": "HD_INB_TY-21_2316_105926",
-    "prevLineId": "tokyu_toyoko",
-    "customDestination": "和光市"
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "HD_OUT_F-06_2353_144643",

@@ -192,6 +192,25 @@ function resolveAllChainDestinations(allTripsMap, stationMap) {
     return dest || finalStationName || '行先不明';
   }
 
+  function resolveChainOrigin(startTrip) {
+    let curr = startTrip;
+    const visited = new Set([curr.tripId]);
+    while (curr.prevTripId && allTripsMap.has(curr.prevTripId)) {
+      const prev = allTripsMap.get(curr.prevTripId);
+      if (visited.has(prev.tripId)) break;
+      visited.add(prev.tripId);
+      curr = prev;
+    }
+
+    const firstStop = curr.stops[0];
+    const initialStationName = stationMap.get(curr.originStationId) || (firstStop ? stationMap.get(firstStop.stationId) : null);
+    let orig = curr.customOrigin;
+    if (orig) {
+      orig = orig.replace(/\(相鉄・小田急\)/g, '').trim();
+    }
+    return orig || initialStationName || null;
+  }
+
   const resolvedChains = new Set();
   let updatedCount = 0;
 
@@ -224,10 +243,16 @@ function resolveAllChainDestinations(allTripsMap, stationMap) {
     }
 
     const finalDest = resolveChainDestination(head);
+    const initialOrigin = resolveChainOrigin(head);
+
     for (const t of chain) {
       resolvedChains.add(t.tripId);
       if (t.customDestination !== finalDest) {
         t.customDestination = finalDest;
+        updatedCount++;
+      }
+      if (initialOrigin && t.customOrigin !== initialOrigin) {
+        t.customOrigin = initialOrigin;
         updatedCount++;
       }
     }

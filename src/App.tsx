@@ -86,10 +86,10 @@ export function App() {
           const successor = activeTrains.find((t) => t.tripId === found.throughTripId);
           if (successor) {
             const foundOrigin = found.customOrigin || STATION_MAP.get(found.originStationId)?.name;
-            if (!successor.customOrigin && foundOrigin) {
+            if (foundOrigin && (!successor.customOrigin || successor.customOrigin === STATION_MAP.get(successor.originStationId)?.name)) {
               successor.customOrigin = foundOrigin;
             }
-            if (!successor.customDestination && found.customDestination) {
+            if (found.customDestination && (!successor.customDestination || successor.customDestination === STATION_MAP.get(successor.destinationStationId)?.name)) {
               successor.customDestination = found.customDestination;
             }
             return successor;
@@ -104,10 +104,10 @@ export function App() {
           formatTrainNumber(prev.trainNumber, prev.tripId) === formatTrainNumber(found.trainNumber, found.tripId))
       ) {
         const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
-        if (!found.customOrigin && prevOrigin) {
+        if (prevOrigin && (!found.customOrigin || found.customOrigin === STATION_MAP.get(found.originStationId)?.name)) {
           found.customOrigin = prevOrigin;
         }
-        if (!found.customDestination && prev.customDestination) {
+        if (prev.customDestination && (!found.customDestination || found.customDestination === STATION_MAP.get(found.destinationStationId)?.name)) {
           found.customDestination = prev.customDestination;
         }
       }
@@ -154,10 +154,10 @@ export function App() {
       }
       if (successor) {
         const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
-        if (!successor.customOrigin && prevOrigin) {
+        if (prevOrigin && (!successor.customOrigin || successor.customOrigin === STATION_MAP.get(successor.originStationId)?.name)) {
           successor.customOrigin = prevOrigin;
         }
-        if (!successor.customDestination && prev.customDestination) {
+        if (prev.customDestination && (!successor.customDestination || successor.customDestination === STATION_MAP.get(successor.destinationStationId)?.name)) {
           successor.customDestination = prev.customDestination;
         }
         return successor;

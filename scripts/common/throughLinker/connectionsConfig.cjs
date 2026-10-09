@@ -200,5 +200,27 @@ module.exports = {
       dirB: 'outbound',
       maxTimeDiff: 300,
     },
+
+    // 10. 東京メトロ副都心線 ↔ 東武東上線 (和光市駅)
+    {
+      name: '副都心線 -> 東武東上線 (上り/下り直通)',
+      lineA: 'fukutoshin',
+      lineB: 'tojo',
+      stationA: 'F-01',
+      stationB: 'TJ-11',
+      dirA: 'inbound',
+      dirB: 'outbound',
+      maxTimeDiff: 300,
+    },
+    {
+      name: '東武東上線 -> 副都心線 (上り/下り直通)',
+      lineA: 'tojo',
+      lineB: 'fukutoshin',
+      stationA: 'TJ-11',
+      stationB: 'F-01',
+      dirA: 'inbound',
+      dirB: 'outbound',
+      maxTimeDiff: 300,
+    },
   ],
 };
