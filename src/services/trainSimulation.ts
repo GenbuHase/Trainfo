@@ -117,6 +117,19 @@ export function resolveActiveTrainInfo(
   };
 }
 
+/**
+ * 2つの駅IDが同一の物理駅（または境界接続駅）かどうかを判定
+ */
+function isSamePhysicalStation(idA?: string, idB?: string): boolean {
+  if (!idA || !idB) return false;
+  if (idA === idB) return true;
+  const stA = STATION_MAP.get(idA);
+  const stB = STATION_MAP.get(idB);
+  if (!stA || !stB) return false;
+  if (stA.name === stB.name) return true;
+  return calculateDistanceKm(stA.lat, stA.lng, stB.lat, stB.lng) <= 0.5;
+}
+
 // 指定時刻における走行中の全列車を算出
 export function calculateActiveTrains(
   simState: SimulationState,
@@ -336,6 +349,7 @@ export function calculateActiveTrains(
     return true;
   });
 
+
   // 2. 複数路線選択時の直通列車（むさしの号等）の重複排除
   // 同一列車番号（またはtrainId）かつ共通駅を持つ列車が存在する場合、より停車駅数の多い（全区間通しの）列車を優先
   const candidateTrains: ActiveTrain[] = [];
@@ -352,14 +366,13 @@ export function calculateActiveTrains(
 
       // 境界駅において直通ペア（throughTripId 照合）が同一駅に停車中の場合、
       // 終着駅に到着した先行トリップよりも、これから出発する後続トリップを優先して描画する
-      if (
-        (train.throughTripId === other.tripId || other.throughTripId === train.tripId) &&
-        train.currentStationId === other.currentStationId
-      ) {
-        const isTrainEnding = train.stops[train.stops.length - 1].stationId === train.currentStationId;
-        const isOtherStarting = other.stops[0].stationId === other.currentStationId;
-        if (isTrainEnding && isOtherStarting) {
-          return true;
+      if (train.throughTripId === other.tripId || other.throughTripId === train.tripId) {
+        if (isSamePhysicalStation(train.currentStationId, other.currentStationId)) {
+          const isTrainEnding = train.stops[train.stops.length - 1].stationId === train.currentStationId;
+          const isOtherStarting = other.stops[0].stationId === other.currentStationId;
+          if (isTrainEnding && isOtherStarting) {
+            return true;
+          }
         }
       }
 

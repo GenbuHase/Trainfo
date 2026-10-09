@@ -140,7 +140,8 @@
     "customOrigin": "和光市",
     "trainId": "75581",
     "prevTripId": "WD_OUT_F-01_2324_75419",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "横浜"
   },
   {
     "tripId": "WD_INB_TY-21_0004_106239",
@@ -211,7 +212,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106239",
     "prevTripId": "WD_INB_MM-06_2355_106239",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "日吉"
   },
   {
     "tripId": "WD_OUT_TY-01_0008_105829",
@@ -294,7 +296,8 @@
     "trainId": "105829",
     "customOrigin": "小手指",
     "prevTripId": "WD_OUT_F-06_2345_144644",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_0009_106195",
@@ -377,7 +380,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106195",
     "prevTripId": "WD_INB_MM-06_0000_106195",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_0011_145242",
@@ -571,7 +575,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106251",
     "prevTripId": "WD_INB_MM-06_0007_106251",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_0021_145240",
@@ -660,7 +665,8 @@
     "customOrigin": "小手指",
     "trainId": "145240",
     "prevTripId": "WD_OUT_F-06_2354_144642",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_0023_106242",
@@ -737,7 +743,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106242",
     "prevTripId": "WD_INB_MM-06_0014_106242",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_0029_106238",
@@ -790,7 +797,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106238",
     "prevTripId": "WD_INB_MM-06_0019_106238",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-12_0459_105841",
@@ -1514,7 +1522,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -2199,7 +2207,8 @@
     ],
     "trainId": "125056",
     "prevTripId": "WD_INB_SH-01_0531_125056",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-11_0540_106166",
@@ -3841,7 +3850,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106196",
     "prevTripId": "WD_INB_MM-06_0556_106196",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-16_0604_106024",
@@ -4997,7 +5007,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106182",
     "prevTripId": "WD_INB_MM-06_0615_106182",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-11_0625_106167",
@@ -8107,7 +8118,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -10392,7 +10403,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -13416,7 +13427,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -13495,7 +13506,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "08:12:00",
-        "departureTime": "08:13:00",
+        "departureTime": "08:12:00",
         "isPassing": false
       }
     ],
@@ -13520,7 +13531,7 @@
     "stops": [
       {
         "stationId": "TY-13",
-        "arrivalTime": "07:52:00",
+        "arrivalTime": "07:50:00",
         "departureTime": "07:52:00",
         "isPassing": false
       },
@@ -13600,7 +13611,7 @@
     "trainId": "125148",
     "throughTripId": "WD_INB_F-16_0818_124807",
     "throughLineId": "fukutoshin",
-    "prevTripId": "WD_INB_SH-01_0746_125148",
+    "prevTripId": "WD_INB_SH-01_0742_125153",
     "prevLineId": "tokyu_shin_yokohama"
   },
   {
@@ -14928,7 +14939,7 @@
     "stops": [
       {
         "stationId": "TY-13",
-        "arrivalTime": "08:07:00",
+        "arrivalTime": "08:05:00",
         "departureTime": "08:07:00",
         "isPassing": false
       },
@@ -15008,7 +15019,7 @@
     "trainId": "125147",
     "throughTripId": "WD_INB_F-16_0833_124806",
     "throughLineId": "fukutoshin",
-    "prevTripId": "WD_INB_SH-01_0801_125147",
+    "prevTripId": "WD_INB_SH-01_0758_111316",
     "prevLineId": "tokyu_shin_yokohama"
   },
   {
@@ -15603,7 +15614,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15682,7 +15693,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "08:37:00",
-        "departureTime": "08:38:00",
+        "departureTime": "08:37:00",
         "isPassing": false
       }
     ],
@@ -16819,7 +16830,7 @@
     "stops": [
       {
         "stationId": "TY-13",
-        "arrivalTime": "08:22:00",
+        "arrivalTime": "08:20:00",
         "departureTime": "08:22:00",
         "isPassing": false
       },
@@ -16897,7 +16908,7 @@
       }
     ],
     "trainId": "125145",
-    "prevTripId": "WD_INB_SH-01_0816_125145",
+    "prevTripId": "WD_INB_SH-01_0812_125062",
     "prevLineId": "tokyu_shin_yokohama"
   },
   {
@@ -17054,7 +17065,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -17133,7 +17144,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "08:51:00",
-        "departureTime": "08:52:00",
+        "departureTime": "08:51:00",
         "isPassing": false
       }
     ],
@@ -17152,7 +17163,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "西谷",
+    "customDestination": "日吉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -17981,7 +17992,8 @@
     "customOrigin": "和光市",
     "trainId": "75409",
     "prevTripId": "WD_OUT_F-01_0755_75409",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_0837_106114",
@@ -18221,7 +18233,8 @@
     ],
     "trainId": "125164",
     "prevTripId": "WD_INB_SH-01_0831_125164",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_0837_106453",
@@ -19541,7 +19554,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "大和",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -19954,7 +19967,8 @@
     "trainId": "75572",
     "customOrigin": "志木",
     "prevTripId": "WD_OUT_F-01_0819_114939",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_0855_75410",
@@ -20037,7 +20051,8 @@
     "customOrigin": "和光市",
     "trainId": "75410",
     "prevTripId": "WD_OUT_F-01_0813_75410",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_0855_106270",
@@ -20867,7 +20882,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -20946,7 +20961,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "09:26:00",
-        "departureTime": "09:27:00",
+        "departureTime": "09:26:00",
         "isPassing": false
       }
     ],
@@ -21038,7 +21053,8 @@
     "customOrigin": "清瀬",
     "trainId": "145238",
     "prevTripId": "WD_OUT_F-06_0843_144640",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_0909_105742",
@@ -21917,7 +21933,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -23369,7 +23385,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "西谷",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -23448,7 +23464,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "09:53:00",
-        "departureTime": "09:54:00",
+        "departureTime": "09:53:00",
         "isPassing": false
       }
     ],
@@ -23464,7 +23480,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "西谷",
+    "customDestination": "日吉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -24938,7 +24954,8 @@
     "customOrigin": "和光市",
     "trainId": "75582",
     "prevTripId": "WD_OUT_F-01_0912_75420",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_0950_105676",
@@ -26950,7 +26967,8 @@
     ],
     "trainId": "125165",
     "prevTripId": "WD_INB_SH-01_1002_125165",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_1012_106081",
@@ -27683,7 +27701,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "西谷",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -27762,7 +27780,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "10:38:00",
-        "departureTime": "10:39:00",
+        "departureTime": "10:38:00",
         "isPassing": false
       }
     ],
@@ -28000,7 +28018,8 @@
     "trainId": "145239",
     "customOrigin": "北参道",
     "prevTripId": "WD_OUT_F-13_1014_75237",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_1022_105952",
@@ -28594,7 +28613,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -28969,7 +28988,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106199",
     "prevTripId": "WD_INB_MM-06_1025_106199",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_1037_106281",
@@ -31643,7 +31663,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -31722,7 +31742,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "11:34:00",
-        "departureTime": "11:35:00",
+        "departureTime": "11:34:00",
         "isPassing": false
       }
     ],
@@ -32392,7 +32412,8 @@
     "customOrigin": "和光市",
     "trainId": "75583",
     "prevTripId": "WD_OUT_F-01_1040_75421",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_1119_75469",
@@ -33769,7 +33790,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106204",
     "prevTripId": "WD_INB_MM-06_1125_106204",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_1137_106285",
@@ -34748,7 +34770,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -34827,7 +34849,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "12:08:00",
-        "departureTime": "12:09:00",
+        "departureTime": "12:08:00",
         "isPassing": false
       }
     ],
@@ -37507,7 +37529,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -37586,7 +37608,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "12:38:00",
-        "departureTime": "12:39:00",
+        "departureTime": "12:38:00",
         "isPassing": false
       }
     ],
@@ -38760,7 +38782,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106208",
     "prevTripId": "WD_INB_MM-06_1225_106208",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_1237_106289",
@@ -40028,7 +40051,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -40107,7 +40130,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "13:08:00",
-        "departureTime": "13:09:00",
+        "departureTime": "13:08:00",
         "isPassing": false
       }
     ],
@@ -41662,7 +41685,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106209",
     "prevTripId": "WD_INB_MM-06_1255_106209",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_1307_106290",
@@ -42927,7 +42951,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -43006,7 +43030,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "13:38:00",
-        "departureTime": "13:39:00",
+        "departureTime": "13:38:00",
         "isPassing": false
       }
     ],
@@ -44180,7 +44204,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106212",
     "prevTripId": "WD_INB_MM-06_1325_106212",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_1337_106291",
@@ -45015,7 +45040,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -45094,7 +45119,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "14:08:00",
-        "departureTime": "14:09:00",
+        "departureTime": "14:08:00",
         "isPassing": false
       }
     ],
@@ -47534,7 +47559,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -47613,7 +47638,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "14:38:00",
-        "departureTime": "14:39:00",
+        "departureTime": "14:38:00",
         "isPassing": false
       }
     ],
@@ -50053,7 +50078,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -50132,7 +50157,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "15:08:00",
-        "departureTime": "15:09:00",
+        "departureTime": "15:08:00",
         "isPassing": false
       }
     ],
@@ -51446,7 +51471,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106218",
     "prevTripId": "WD_INB_MM-06_1455_106218",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_1507_106159",
@@ -52281,7 +52307,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -52360,7 +52386,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "15:38:00",
-        "departureTime": "15:39:00",
+        "departureTime": "15:38:00",
         "isPassing": false
       }
     ],
@@ -54800,7 +54826,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -54879,7 +54905,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "16:08:00",
-        "departureTime": "16:09:00",
+        "departureTime": "16:08:00",
         "isPassing": false
       }
     ],
@@ -57006,7 +57032,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106221",
     "prevTripId": "WD_INB_MM-06_1555_106221",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_OUT_TY-01_1607_106470",
@@ -57016,7 +57043,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -60801,7 +60828,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -60880,7 +60907,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "17:15:00",
-        "departureTime": "17:16:00",
+        "departureTime": "17:15:00",
         "isPassing": false
       }
     ],
@@ -62460,7 +62487,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "西谷",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -62555,7 +62582,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "西谷",
+    "customDestination": "日吉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -63961,7 +63988,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -65175,7 +65202,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -66373,7 +66400,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -66986,7 +67013,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106226",
     "prevTripId": "WD_INB_MM-06_1751_106226",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_OUT_TY-01_1800_115332",
@@ -69219,7 +69247,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -70499,7 +70527,8 @@
     "customOrigin": "和光市",
     "trainId": "75411",
     "prevTripId": "WD_OUT_F-01_1752_75411",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_1836_75573",
@@ -70582,7 +70611,8 @@
     "trainId": "75573",
     "customOrigin": "石神井公園",
     "prevTripId": "WD_OUT_F-06_1813_144535",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_1838_106077",
@@ -70736,7 +70766,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -70815,7 +70845,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "19:00:00",
-        "departureTime": "19:01:00",
+        "departureTime": "19:00:00",
         "isPassing": false
       }
     ],
@@ -72606,7 +72636,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -73272,7 +73302,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106228",
     "prevTripId": "WD_INB_MM-06_1851_106228",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_1903_106321",
@@ -73667,7 +73698,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -75255,7 +75286,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -76238,7 +76269,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106229",
     "prevTripId": "WD_INB_MM-06_1921_106229",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_1933_106325",
@@ -76682,7 +76714,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -78038,7 +78070,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -78117,7 +78149,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "20:16:00",
-        "departureTime": "20:17:00",
+        "departureTime": "20:16:00",
         "isPassing": false
       }
     ],
@@ -79200,7 +79232,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -81264,7 +81296,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106231",
     "prevTripId": "WD_INB_MM-06_2021_106231",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_2033_106334",
@@ -81590,7 +81623,8 @@
     "customOrigin": "志木",
     "trainId": "115340",
     "prevTripId": "WD_OUT_F-01_1954_114999",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_2038_106080",
@@ -83000,7 +83034,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -85486,7 +85520,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106185",
     "prevTripId": "WD_INB_MM-06_2113_106185",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_OUT_TY-01_2124_115254",
@@ -85496,7 +85531,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -86165,7 +86200,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106344",
     "prevTripId": "WD_INB_MM-06_2123_106344",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_OUT_TY-01_2135_105783",
@@ -86968,7 +87004,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106234",
     "prevTripId": "WD_INB_MM-06_2135_106234",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_OUT_TY-01_2146_75505",
@@ -87257,7 +87294,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106346",
     "prevTripId": "WD_INB_MM-06_2138_106346",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_OUT_TY-01_2149_105824",
@@ -87340,7 +87378,8 @@
     "customOrigin": "和光市",
     "trainId": "105824",
     "prevTripId": "WD_OUT_F-01_2108_75450",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-13_2151_125215",
@@ -87445,7 +87484,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -87524,7 +87563,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "22:15:00",
-        "departureTime": "22:16:00",
+        "departureTime": "22:15:00",
         "isPassing": false
       }
     ],
@@ -88729,7 +88768,8 @@
     ],
     "trainId": "125225",
     "prevTripId": "WD_INB_SH-01_2159_125225",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_2208_106186",
@@ -88872,7 +88912,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106186",
     "prevTripId": "WD_INB_MM-06_2158_106186",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_2210_106000",
@@ -89631,7 +89672,8 @@
     ],
     "trainId": "125226",
     "prevTripId": "WD_INB_SH-01_2210_125226",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_2218_106001",
@@ -90014,7 +90056,8 @@
     ],
     "trainId": "125168",
     "prevTripId": "WD_INB_SH-01_2215_125168",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_2223_105871",
@@ -90303,7 +90346,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106351",
     "prevTripId": "WD_INB_MM-06_2215_106351",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_OUT_TY-01_2229_115278",
@@ -90678,7 +90722,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106191",
     "prevTripId": "WD_INB_MM-06_2221_106191",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_2233_106003",
@@ -90834,7 +90879,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -90913,7 +90958,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "23:00:00",
-        "departureTime": "23:01:00",
+        "departureTime": "23:00:00",
         "isPassing": false
       }
     ],
@@ -91065,7 +91110,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106187",
     "prevTripId": "WD_INB_MM-06_2229_106187",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_2240_105787",
@@ -91727,7 +91773,8 @@
     "customOrigin": "和光市",
     "trainId": "75423",
     "prevTripId": "WD_OUT_F-01_2212_75423",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_2250_75585",
@@ -91901,7 +91948,8 @@
     ],
     "trainId": "125169",
     "prevTripId": "WD_INB_SH-01_2245_125169",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_OUT_TY-01_2253_106472",
@@ -91911,7 +91959,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -91990,7 +92038,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "23:15:00",
-        "departureTime": "23:16:00",
+        "departureTime": "23:15:00",
         "isPassing": false
       }
     ],
@@ -92432,7 +92480,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106354",
     "prevTripId": "WD_INB_MM-06_2246_106354",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-13_2257_125227",
@@ -92466,7 +92515,8 @@
     ],
     "trainId": "125227",
     "prevTripId": "WD_INB_SH-01_2250_125227",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_2259_106236",
@@ -92609,7 +92659,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106236",
     "prevTripId": "WD_INB_MM-06_2251_106236",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_OUT_TY-01_2300_115333",
@@ -93195,7 +93246,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -93274,7 +93325,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "23:25:00",
-        "departureTime": "23:26:00",
+        "departureTime": "23:25:00",
         "isPassing": false
       }
     ],
@@ -93510,7 +93561,8 @@
     "trainId": "105825",
     "customOrigin": "和光市",
     "prevTripId": "WD_OUT_F-01_2234_75350",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_2309_106244",
@@ -93593,7 +93645,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106244",
     "prevTripId": "WD_INB_MM-06_2301_106244",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_2310_75512",
@@ -94276,7 +94329,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106252",
     "prevTripId": "WD_INB_MM-06_2309_106252",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_2322_106474",
@@ -94286,7 +94340,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -94514,7 +94568,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106188",
     "prevTripId": "WD_INB_MM-06_2314_106188",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_OUT_TY-01_2324_75413",
@@ -94597,7 +94652,8 @@
     "customOrigin": "和光市",
     "trainId": "75413",
     "prevTripId": "WD_OUT_F-01_2242_75413",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_2324_75575",
@@ -95001,7 +95057,8 @@
     ],
     "trainId": "125228",
     "prevTripId": "WD_INB_SH-01_2322_125228",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_2330_145157",
@@ -95230,7 +95287,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106192",
     "prevTripId": "WD_INB_MM-06_2321_106192",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_INB_TY-21_2332_106246",
@@ -95313,7 +95371,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106246",
     "prevTripId": "WD_INB_MM-06_2324_106246",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_2334_106485",
@@ -95323,7 +95382,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -95402,7 +95461,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "23:54:00",
-        "departureTime": "23:55:00",
+        "departureTime": "23:54:00",
         "isPassing": false
       }
     ],
@@ -95664,7 +95723,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106189",
     "prevTripId": "WD_INB_MM-06_2328_106189",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_2340_106382",
@@ -95893,7 +95953,8 @@
     "trainId": "105826",
     "customOrigin": "石神井公園",
     "prevTripId": "WD_OUT_F-06_2320_144541",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_2345_145124",
@@ -96180,7 +96241,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106355",
     "prevTripId": "WD_INB_MM-06_2338_106355",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "WD_INB_TY-21_2352_106184",
@@ -96263,7 +96325,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106184",
     "prevTripId": "WD_INB_MM-06_2343_106184",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "WD_OUT_TY-01_2353_106477",
@@ -96273,7 +96336,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -96352,7 +96415,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "00:14:00",
-        "departureTime": "00:15:00",
+        "departureTime": "00:14:00",
         "isPassing": false
       }
     ],
@@ -96524,7 +96587,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106248",
     "prevTripId": "WD_INB_MM-06_2347_106248",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_0001_75418",
@@ -96667,7 +96731,8 @@
     "customOrigin": "和光市",
     "trainId": "75418",
     "prevTripId": "HD_OUT_F-01_2317_75418",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "横浜"
   },
   {
     "tripId": "HD_OUT_TY-01_0001_75580",
@@ -96970,7 +97035,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106194",
     "prevTripId": "HD_INB_MM-06_2357_106194",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_INB_TY-21_0009_106240",
@@ -97041,7 +97107,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106240",
     "prevTripId": "HD_INB_MM-06_0000_106240",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "日吉"
   },
   {
     "tripId": "HD_OUT_TY-01_0010_75417",
@@ -97154,7 +97221,8 @@
     "customOrigin": "和光市",
     "trainId": "75417",
     "prevTripId": "HD_OUT_F-01_2330_75417",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_0010_75579",
@@ -97347,7 +97415,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106250",
     "prevTripId": "HD_INB_MM-06_0007_106250",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_0021_145241",
@@ -97510,7 +97579,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106241",
     "prevTripId": "HD_INB_MM-06_0014_106241",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_INB_TY-21_0029_106237",
@@ -97563,7 +97633,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106237",
     "prevTripId": "HD_INB_MM-06_0019_106237",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_INB_TY-12_0459_105840",
@@ -98213,7 +98284,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -100637,7 +100708,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -100716,7 +100787,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "06:37:00",
-        "departureTime": "06:38:00",
+        "departureTime": "06:37:00",
         "isPassing": false
       }
     ],
@@ -102358,7 +102429,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -104713,7 +104784,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -106817,7 +106888,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -106896,7 +106967,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "08:07:00",
-        "departureTime": "08:08:00",
+        "departureTime": "08:07:00",
         "isPassing": false
       }
     ],
@@ -107256,7 +107327,8 @@
     ],
     "trainId": "125054",
     "prevTripId": "HD_INB_SH-01_0739_125054",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_INB_TY-11_0747_106170",
@@ -109561,7 +109633,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -109640,7 +109712,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "08:37:00",
-        "departureTime": "08:38:00",
+        "departureTime": "08:37:00",
         "isPassing": false
       }
     ],
@@ -109648,7 +109720,7 @@
     "trainId": "115270",
     "prevTripId": "HD_OUT_F-01_0740_114929",
     "prevLineId": "fukutoshin",
-    "throughTripId": "HD_OUT_SH-03_0836_157779",
+    "throughTripId": "HD_OUT_SH-03_0838_115270",
     "throughLineId": "tokyu_shin_yokohama"
   },
   {
@@ -112372,6 +112444,101 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
+    "customDestination": "海老名",
+    "cars": 8,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TY-01",
+        "arrivalTime": "08:47:00",
+        "departureTime": "08:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TY-02",
+        "arrivalTime": "08:49:30",
+        "departureTime": "08:49:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "TY-03",
+        "arrivalTime": "08:51:00",
+        "departureTime": "08:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TY-04",
+        "arrivalTime": "08:52:30",
+        "departureTime": "08:52:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "TY-05",
+        "arrivalTime": "08:54:00",
+        "departureTime": "08:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TY-06",
+        "arrivalTime": "08:55:30",
+        "departureTime": "08:55:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "TY-07",
+        "arrivalTime": "08:57:00",
+        "departureTime": "08:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TY-08",
+        "arrivalTime": "09:00:00",
+        "departureTime": "09:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TY-09",
+        "arrivalTime": "09:02:00",
+        "departureTime": "09:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TY-10",
+        "arrivalTime": "09:03:00",
+        "departureTime": "09:03:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "TY-11",
+        "arrivalTime": "09:04:00",
+        "departureTime": "09:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TY-12",
+        "arrivalTime": "09:06:30",
+        "departureTime": "09:06:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "TY-13",
+        "arrivalTime": "09:08:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "75624",
+    "throughTripId": "HD_OUT_SH-03_0909_75624",
+    "throughLineId": "tokyu_shin_yokohama"
+  },
+  {
+    "tripId": "HD_OUT_TY-01_0848_75462",
+    "lineId": "tokyu_toyoko",
+    "trainNumber": "063081",
+    "trainType": "express",
+    "direction": "outbound",
+    "originStationId": "TY-01",
+    "destinationStationId": "TY-13",
     "customDestination": "新横浜",
     "cars": 8,
     "isHoliday": true,
@@ -112451,109 +112618,16 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "09:08:00",
-        "departureTime": "09:09:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "75624",
-    "throughTripId": "HD_OUT_SH-03_0909_75624",
-    "throughLineId": "tokyu_shin_yokohama"
-  },
-  {
-    "tripId": "HD_OUT_TY-01_0848_75462",
-    "lineId": "tokyu_toyoko",
-    "trainNumber": "063081",
-    "trainType": "express",
-    "direction": "outbound",
-    "originStationId": "TY-01",
-    "destinationStationId": "TY-13",
-    "customDestination": "西谷",
-    "cars": 8,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "TY-01",
-        "arrivalTime": "08:47:00",
-        "departureTime": "08:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TY-02",
-        "arrivalTime": "08:49:30",
-        "departureTime": "08:49:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "TY-03",
-        "arrivalTime": "08:51:00",
-        "departureTime": "08:51:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TY-04",
-        "arrivalTime": "08:52:30",
-        "departureTime": "08:52:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "TY-05",
-        "arrivalTime": "08:54:00",
-        "departureTime": "08:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TY-06",
-        "arrivalTime": "08:55:30",
-        "departureTime": "08:55:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "TY-07",
-        "arrivalTime": "08:57:00",
-        "departureTime": "08:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TY-08",
-        "arrivalTime": "09:00:00",
-        "departureTime": "09:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TY-09",
-        "arrivalTime": "09:02:00",
-        "departureTime": "09:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TY-10",
-        "arrivalTime": "09:03:00",
-        "departureTime": "09:03:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "TY-11",
-        "arrivalTime": "09:04:00",
-        "departureTime": "09:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TY-12",
-        "arrivalTime": "09:06:30",
-        "departureTime": "09:06:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "TY-13",
-        "arrivalTime": "09:08:00",
-        "departureTime": "09:09:00",
+        "departureTime": "09:08:00",
         "isPassing": false
       }
     ],
     "customOrigin": "和光市",
     "trainId": "75462",
     "prevTripId": "HD_OUT_F-01_0808_75462",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "throughTripId": "HD_OUT_SH-03_0906_157781",
+    "throughLineId": "tokyu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_TY-21_0848_105883",
@@ -115151,7 +115225,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -115230,7 +115304,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "09:38:00",
-        "departureTime": "09:39:00",
+        "departureTime": "09:38:00",
         "isPassing": false
       }
     ],
@@ -117523,7 +117597,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -117602,7 +117676,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "10:08:00",
-        "departureTime": "10:09:00",
+        "departureTime": "10:08:00",
         "isPassing": false
       }
     ],
@@ -119462,7 +119536,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -119541,7 +119615,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "10:38:00",
-        "departureTime": "10:39:00",
+        "departureTime": "10:38:00",
         "isPassing": false
       }
     ],
@@ -122275,7 +122349,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -122354,7 +122428,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "11:08:00",
-        "departureTime": "11:09:00",
+        "departureTime": "11:08:00",
         "isPassing": false
       }
     ],
@@ -124650,7 +124724,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -124729,7 +124803,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "11:38:00",
-        "departureTime": "11:39:00",
+        "departureTime": "11:38:00",
         "isPassing": false
       }
     ],
@@ -127459,7 +127533,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -127538,7 +127612,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "12:08:00",
-        "departureTime": "12:09:00",
+        "departureTime": "12:08:00",
         "isPassing": false
       }
     ],
@@ -128999,7 +129073,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106206",
     "prevTripId": "HD_INB_MM-06_1155_106206",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_INB_TY-21_1207_106287",
@@ -130120,7 +130195,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -130199,7 +130274,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "12:38:00",
-        "departureTime": "12:39:00",
+        "departureTime": "12:38:00",
         "isPassing": false
       }
     ],
@@ -131804,7 +131879,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106207",
     "prevTripId": "HD_INB_MM-06_1225_106207",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_INB_TY-21_1237_106288",
@@ -132636,7 +132712,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -132715,7 +132791,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "13:08:00",
-        "departureTime": "13:09:00",
+        "departureTime": "13:08:00",
         "isPassing": false
       }
     ],
@@ -135303,7 +135379,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -135382,7 +135458,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "13:38:00",
-        "departureTime": "13:39:00",
+        "departureTime": "13:38:00",
         "isPassing": false
       }
     ],
@@ -137536,7 +137612,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -137615,7 +137691,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "14:08:00",
-        "departureTime": "14:09:00",
+        "departureTime": "14:08:00",
         "isPassing": false
       }
     ],
@@ -139867,7 +139943,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -139946,7 +140022,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "14:38:00",
-        "departureTime": "14:39:00",
+        "departureTime": "14:38:00",
         "isPassing": false
       }
     ],
@@ -142386,7 +142462,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -142465,7 +142541,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "15:08:00",
-        "departureTime": "15:09:00",
+        "departureTime": "15:08:00",
         "isPassing": false
       }
     ],
@@ -145001,7 +145077,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -145080,7 +145156,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "15:38:00",
-        "departureTime": "15:39:00",
+        "departureTime": "15:38:00",
         "isPassing": false
       }
     ],
@@ -147520,7 +147596,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -147599,7 +147675,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "16:08:00",
-        "departureTime": "16:09:00",
+        "departureTime": "16:08:00",
         "isPassing": false
       }
     ],
@@ -150327,7 +150403,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -150406,7 +150482,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "16:38:00",
-        "departureTime": "16:39:00",
+        "departureTime": "16:38:00",
         "isPassing": false
       }
     ],
@@ -154232,7 +154308,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -154311,7 +154387,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "17:23:00",
-        "departureTime": "17:24:00",
+        "departureTime": "17:23:00",
         "isPassing": false
       }
     ],
@@ -154319,7 +154395,7 @@
     "trainId": "75565",
     "prevTripId": "HD_OUT_F-06_1641_144532",
     "prevLineId": "fukutoshin",
-    "throughTripId": "HD_OUT_SH-03_1722_82675",
+    "throughTripId": "HD_OUT_SH-03_1724_75565",
     "throughLineId": "tokyu_shin_yokohama"
   },
   {
@@ -155867,7 +155943,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106224",
     "prevTripId": "HD_INB_MM-06_1710_106224",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_INB_TY-21_1722_106310",
@@ -156894,7 +156971,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -156973,7 +157050,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "17:53:00",
-        "departureTime": "17:54:00",
+        "departureTime": "17:53:00",
         "isPassing": false
       }
     ],
@@ -156981,7 +157058,7 @@
     "trainId": "115252",
     "prevTripId": "HD_OUT_F-01_1656_114911",
     "prevLineId": "fukutoshin",
-    "throughTripId": "HD_OUT_SH-03_1752_76565",
+    "throughTripId": "HD_OUT_SH-03_1754_115252",
     "throughLineId": "tokyu_shin_yokohama"
   },
   {
@@ -159548,7 +159625,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106312",
     "prevTripId": "HD_INB_MM-06_1750_106312",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_OUT_TY-01_1802_75444",
@@ -159637,7 +159715,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "18:23:00",
-        "departureTime": "18:24:00",
+        "departureTime": "18:23:00",
         "isPassing": false
       }
     ],
@@ -159656,7 +159734,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -159735,7 +159813,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "18:23:00",
-        "departureTime": "18:24:00",
+        "departureTime": "18:23:00",
         "isPassing": false
       }
     ],
@@ -162322,7 +162400,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -162401,7 +162479,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "18:53:00",
-        "departureTime": "18:54:00",
+        "departureTime": "18:53:00",
         "isPassing": false
       }
     ],
@@ -162409,7 +162487,7 @@
     "trainId": "75586",
     "prevTripId": "HD_OUT_F-09_1816_75424",
     "prevLineId": "fukutoshin",
-    "throughTripId": "HD_OUT_SH-03_1853_76566",
+    "throughTripId": "HD_OUT_SH-03_1854_75586",
     "throughLineId": "tokyu_shin_yokohama"
   },
   {
@@ -163086,7 +163164,8 @@
     ],
     "trainId": "125217",
     "prevTripId": "HD_INB_SH-01_1835_125217",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_INB_TY-21_1842_105850",
@@ -163745,7 +163824,8 @@
     "customOrigin": "和光市",
     "trainId": "75414",
     "prevTripId": "HD_OUT_F-01_1812_75414",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_INB_TY-21_1850_106118",
@@ -164337,7 +164417,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -164416,7 +164496,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "19:15:00",
-        "departureTime": "19:16:00",
+        "departureTime": "19:15:00",
         "isPassing": false
       }
     ],
@@ -165814,7 +165894,8 @@
     "trainId": "105823",
     "customOrigin": "和光市",
     "prevTripId": "HD_OUT_F-01_1834_75338",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_1910_75500",
@@ -166486,7 +166567,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106322",
     "prevTripId": "HD_INB_MM-06_1905_106322",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_OUT_TY-01_1918_115634",
@@ -166496,7 +166578,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -168244,7 +168326,8 @@
     ],
     "trainId": "125166",
     "prevTripId": "HD_INB_SH-01_1934_125166",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_INB_TY-21_1944_105853",
@@ -168546,7 +168629,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -168625,7 +168708,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "20:08:00",
-        "departureTime": "20:09:00",
+        "departureTime": "20:08:00",
         "isPassing": false
       }
     ],
@@ -170051,7 +170134,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -170130,7 +170213,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "20:31:00",
-        "departureTime": "20:32:00",
+        "departureTime": "20:31:00",
         "isPassing": false
       }
     ],
@@ -171637,7 +171720,8 @@
     "trainId": "105817",
     "customOrigin": "和光市",
     "prevTripId": "HD_OUT_F-01_1954_75394",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_INB_TY-21_2030_105992",
@@ -172176,7 +172260,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -173077,7 +173161,8 @@
     "customOrigin": "和光市",
     "trainId": "75584",
     "prevTripId": "HD_OUT_F-01_2006_75422",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_2050_105733",
@@ -174329,7 +174414,8 @@
     ],
     "trainId": "125167",
     "prevTripId": "HD_INB_SH-01_2055_125167",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_OUT_TY-01_2105_75557",
@@ -175574,7 +175660,8 @@
     "customOrigin": "川越市",
     "trainId": "115343",
     "prevTripId": "HD_OUT_F-01_2038_115002",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_2119_105820",
@@ -175986,7 +176073,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -176065,7 +176152,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "21:47:00",
-        "departureTime": "21:48:00",
+        "departureTime": "21:47:00",
         "isPassing": false
       }
     ],
@@ -176504,7 +176591,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106343",
     "prevTripId": "HD_INB_MM-06_2121_106343",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_INB_TY-13_2131_125190",
@@ -177179,7 +177267,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106345",
     "prevTripId": "HD_INB_MM-06_2129_106345",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_OUT_TY-01_2141_105738",
@@ -177622,7 +177711,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -178228,7 +178317,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106190",
     "prevTripId": "HD_INB_MM-06_2147_106190",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_2158_145195",
@@ -179485,7 +179575,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106350",
     "prevTripId": "HD_INB_MM-06_2209_106350",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_OUT_TY-01_2219_145135",
@@ -180174,7 +180265,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -180253,14 +180344,16 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "22:48:00",
-        "departureTime": "22:51:00",
+        "departureTime": "22:48:00",
         "isPassing": false
       }
     ],
     "customOrigin": "和光市",
     "trainId": "75453",
     "prevTripId": "HD_OUT_F-01_2147_75453",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "throughTripId": "HD_OUT_SH-03_2251_75615",
+    "throughLineId": "tokyu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_TY-01_2228_75615",
@@ -180353,9 +180446,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "75615",
-    "throughTripId": "HD_OUT_SH-03_2251_75615",
-    "throughLineId": "tokyu_shin_yokohama"
+    "trainId": "75615"
   },
   {
     "tripId": "HD_OUT_TY-01_2229_105743",
@@ -180532,7 +180623,8 @@
     ],
     "trainId": "125229",
     "prevTripId": "HD_INB_SH-01_2226_125229",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_2235_75510",
@@ -182126,7 +182218,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "湘南台",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -182205,7 +182297,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "23:17:00",
-        "departureTime": "23:18:00",
+        "departureTime": "23:17:00",
         "isPassing": false
       }
     ],
@@ -183018,7 +183110,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106243",
     "prevTripId": "HD_INB_MM-06_2255_106243",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_2309_115344",
@@ -183101,7 +183194,8 @@
     "customOrigin": "川越市",
     "trainId": "115344",
     "prevTripId": "HD_OUT_F-01_2230_115003",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_INB_TY-11_2309_106009",
@@ -183654,7 +183748,8 @@
     ],
     "trainId": "126188",
     "prevTripId": "HD_INB_SH-01_2306_126188",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_INB_TY-21_2316_105926",
@@ -184040,7 +184135,8 @@
     ],
     "trainId": "125055",
     "prevTripId": "HD_INB_SH-01_2313_125055",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_OUT_TY-01_2324_145243",
@@ -184183,7 +184279,8 @@
     "customOrigin": "小手指",
     "trainId": "145243",
     "prevTripId": "HD_OUT_F-06_2300_144645",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "横浜"
   },
   {
     "tripId": "HD_INB_TY-21_2325_106245",
@@ -184266,7 +184363,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106245",
     "prevTripId": "HD_INB_MM-06_2315_106245",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_2332_75617",
@@ -184276,7 +184374,7 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-13",
-    "customDestination": "新横浜",
+    "customDestination": "海老名",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -184355,7 +184453,7 @@
       {
         "stationId": "TY-13",
         "arrivalTime": "23:53:00",
-        "departureTime": "23:55:00",
+        "departureTime": "23:53:00",
         "isPassing": false
       }
     ],
@@ -184544,7 +184642,8 @@
     ],
     "trainId": "126189",
     "prevTripId": "HD_INB_SH-01_2327_126189",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_2335_105751",
@@ -184830,7 +184929,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106183",
     "prevTripId": "HD_INB_MM-06_2328_106183",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_INB_TY-21_2339_106247",
@@ -184913,7 +185013,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106247",
     "prevTripId": "HD_INB_MM-06_2330_106247",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_2345_75514",
@@ -185139,7 +185240,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106193",
     "prevTripId": "HD_INB_MM-06_2337_106193",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_INB_TY-21_2348_106356",
@@ -185282,7 +185384,8 @@
     "customOrigin": "元町・中華街",
     "trainId": "106356",
     "prevTripId": "HD_INB_MM-06_2339_106356",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "渋谷"
   },
   {
     "tripId": "HD_OUT_TY-01_2351_75416",
@@ -185395,7 +185498,8 @@
     "customOrigin": "和光市",
     "trainId": "75416",
     "prevTripId": "HD_OUT_F-01_2312_75416",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "customDestination": "行先不明"
   },
   {
     "tripId": "HD_OUT_TY-01_2351_75578",
@@ -185748,6 +185852,7 @@
     "customOrigin": "元町・中華街",
     "trainId": "106249",
     "prevTripId": "HD_INB_MM-06_2350_106249",
-    "prevLineId": "minatomirai"
+    "prevLineId": "minatomirai",
+    "customDestination": "行先不明"
   }
 ]

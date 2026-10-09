@@ -13,7 +13,7 @@
     "stops": [
       {
         "stationId": "SO-52",
-        "arrivalTime": "00:03:00",
+        "arrivalTime": "00:01:00",
         "departureTime": "00:03:00",
         "isPassing": false
       },
@@ -31,6 +31,8 @@
       }
     ],
     "trainId": "125052",
+    "prevTripId": "WD_OUT_SH-03_2355_106485",
+    "prevLineId": "tokyu_shin_yokohama",
     "throughTripId": "WD_OUT_SO-08_0010_125052",
     "throughLineId": "sotetsu_main"
   },
@@ -42,7 +44,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "奥沢",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -61,7 +63,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "00:21:00",
-        "departureTime": "00:22:00",
+        "departureTime": "00:21:00",
         "isPassing": false
       }
     ],
@@ -96,7 +98,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "00:29:00",
-        "departureTime": "00:31:00",
+        "departureTime": "00:29:00",
         "isPassing": false
       }
     ],
@@ -133,7 +135,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "05:24:00",
-        "departureTime": "05:25:00",
+        "departureTime": "05:24:00",
         "isPassing": false
       }
     ],
@@ -151,7 +153,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -170,7 +172,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "05:30:00",
-        "departureTime": "05:31:00",
+        "departureTime": "05:30:00",
         "isPassing": false
       }
     ],
@@ -188,7 +190,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -207,7 +209,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "05:39:00",
-        "departureTime": "05:41:00",
+        "departureTime": "05:39:00",
         "isPassing": false
       }
     ],
@@ -275,7 +277,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "05:45:00",
-        "departureTime": "05:47:00",
+        "departureTime": "05:45:00",
         "isPassing": false
       }
     ],
@@ -365,7 +367,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -384,7 +386,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "05:57:00",
-        "departureTime": "05:59:00",
+        "departureTime": "05:57:00",
         "isPassing": false
       }
     ],
@@ -400,7 +402,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -419,7 +421,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "06:05:00",
-        "departureTime": "06:08:00",
+        "departureTime": "06:05:00",
         "isPassing": false
       }
     ],
@@ -450,7 +452,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "06:04:00",
-        "departureTime": "06:05:00",
+        "departureTime": "06:04:00",
         "isPassing": false
       }
     ],
@@ -468,7 +470,7 @@
     "direction": "outbound",
     "originStationId": "SO-52",
     "destinationStationId": "SO-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -503,7 +505,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -522,7 +524,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "06:20:00",
-        "departureTime": "06:24:00",
+        "departureTime": "06:20:00",
         "isPassing": false
       }
     ],
@@ -540,7 +542,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -559,7 +561,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "06:30:00",
-        "departureTime": "06:33:00",
+        "departureTime": "06:30:00",
         "isPassing": false
       }
     ],
@@ -577,7 +579,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -596,7 +598,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "06:35:00",
-        "departureTime": "06:39:00",
+        "departureTime": "06:35:00",
         "isPassing": false
       }
     ],
@@ -633,7 +635,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "06:38:00",
-        "departureTime": "06:39:00",
+        "departureTime": "06:38:00",
         "isPassing": false
       }
     ],
@@ -664,7 +666,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "06:34:00",
-        "departureTime": "06:36:00",
+        "departureTime": "06:34:00",
         "isPassing": false
       }
     ],
@@ -701,7 +703,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "06:49:00",
-        "departureTime": "06:51:00",
+        "departureTime": "06:49:00",
         "isPassing": false
       }
     ],
@@ -719,7 +721,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -738,7 +740,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "06:50:00",
-        "departureTime": "06:54:00",
+        "departureTime": "06:50:00",
         "isPassing": false
       }
     ],
@@ -756,7 +758,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "川越",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -769,7 +771,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "06:53:00",
-        "departureTime": "06:54:00",
+        "departureTime": "06:53:00",
         "isPassing": false
       }
     ],
@@ -806,7 +808,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:00:00",
-        "departureTime": "07:01:00",
+        "departureTime": "07:00:00",
         "isPassing": false
       }
     ],
@@ -824,7 +826,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -843,7 +845,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:01:00",
-        "departureTime": "07:02:00",
+        "departureTime": "07:01:00",
         "isPassing": false
       }
     ],
@@ -861,7 +863,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -880,7 +882,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:05:00",
-        "departureTime": "07:06:00",
+        "departureTime": "07:05:00",
         "isPassing": false
       }
     ],
@@ -898,7 +900,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -917,12 +919,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:09:00",
-        "departureTime": "07:12:00",
+        "departureTime": "07:09:00",
         "isPassing": false
       }
     ],
     "trainId": "125061",
-    "throughTripId": "WD_INB_SH-01_0708_111400",
+    "throughTripId": "WD_INB_SH-01_0712_125061",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-10_0654_125061",
     "prevLineId": "sotetsu_main"
@@ -935,7 +937,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -954,7 +956,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:14:00",
-        "departureTime": "07:16:00",
+        "departureTime": "07:14:00",
         "isPassing": false
       }
     ],
@@ -972,7 +974,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "赤羽",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -985,7 +987,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "07:11:00",
-        "departureTime": "07:14:00",
+        "departureTime": "07:11:00",
         "isPassing": false
       }
     ],
@@ -1016,7 +1018,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:14:00",
-        "departureTime": "07:16:00",
+        "departureTime": "07:14:00",
         "isPassing": false
       }
     ],
@@ -1053,7 +1055,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:18:00",
-        "departureTime": "07:22:00",
+        "departureTime": "07:18:00",
         "isPassing": false
       }
     ],
@@ -1069,7 +1071,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1088,12 +1090,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:24:00",
-        "departureTime": "07:27:00",
+        "departureTime": "07:24:00",
         "isPassing": false
       }
     ],
     "trainId": "125154",
-    "throughTripId": "WD_INB_SH-01_0723_111318",
+    "throughTripId": "WD_INB_SH-01_0727_125154",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-10_0710_125154",
     "prevLineId": "sotetsu_main"
@@ -1106,7 +1108,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1125,7 +1127,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:29:00",
-        "departureTime": "07:31:00",
+        "departureTime": "07:29:00",
         "isPassing": false
       }
     ],
@@ -1143,7 +1145,7 @@
     "direction": "outbound",
     "originStationId": "SO-52",
     "destinationStationId": "SO-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1162,13 +1164,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:28:00",
-        "departureTime": "07:34:00",
+        "departureTime": "07:28:00",
         "isPassing": false
       }
     ],
     "trainId": "82633",
     "prevTripId": "WD_OUT_SH-03_0714_82633",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0734_82633",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_0726_39290",
@@ -1178,7 +1182,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "大宮(埼玉県)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1191,7 +1195,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "07:28:00",
-        "departureTime": "07:30:00",
+        "departureTime": "07:28:00",
         "isPassing": false
       }
     ],
@@ -1209,7 +1213,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1228,12 +1232,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:36:00",
-        "departureTime": "07:37:00",
+        "departureTime": "07:36:00",
         "isPassing": false
       }
     ],
     "trainId": "125070",
-    "throughTripId": "WD_INB_SH-01_0735_111401",
+    "throughTripId": "WD_INB_SH-01_0737_125070",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-18_0707_125070",
     "prevLineId": "sotetsu_main"
@@ -1265,7 +1269,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:37:00",
-        "departureTime": "07:38:00",
+        "departureTime": "07:37:00",
         "isPassing": false
       }
     ],
@@ -1283,7 +1287,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "雑司が谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1302,7 +1306,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:40:00",
-        "departureTime": "07:42:00",
+        "departureTime": "07:40:00",
         "isPassing": false
       }
     ],
@@ -1320,7 +1324,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1339,7 +1343,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:44:00",
-        "departureTime": "07:46:00",
+        "departureTime": "07:44:00",
         "isPassing": false
       }
     ],
@@ -1370,7 +1374,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:42:00",
-        "departureTime": "07:44:00",
+        "departureTime": "07:42:00",
         "isPassing": false
       }
     ],
@@ -1388,7 +1392,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1407,12 +1411,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:48:00",
-        "departureTime": "07:53:00",
+        "departureTime": "07:48:00",
         "isPassing": false
       }
     ],
     "trainId": "125082",
-    "throughTripId": "WD_INB_SH-01_0748_111387",
+    "throughTripId": "WD_INB_SH-01_0753_125082",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-18_0709_125082",
     "prevLineId": "sotetsu_main"
@@ -1444,7 +1448,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:49:00",
-        "departureTime": "07:52:00",
+        "departureTime": "07:49:00",
         "isPassing": false
       }
     ],
@@ -1462,7 +1466,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "赤羽",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1475,7 +1479,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "07:48:00",
-        "departureTime": "07:51:00",
+        "departureTime": "07:48:00",
         "isPassing": false
       }
     ],
@@ -1530,7 +1534,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1549,12 +1553,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:59:00",
-        "departureTime": "08:01:00",
+        "departureTime": "07:59:00",
         "isPassing": false
       }
     ],
     "trainId": "125147",
-    "throughTripId": "WD_INB_SH-01_0758_111316",
+    "throughTripId": "WD_INB_SH-01_0801_125147",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-10_0747_125147",
     "prevLineId": "sotetsu_main"
@@ -1604,7 +1608,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1623,7 +1627,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:03:00",
-        "departureTime": "08:04:00",
+        "departureTime": "08:03:00",
         "isPassing": false
       }
     ],
@@ -1641,7 +1645,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "川越",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1654,7 +1658,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "08:02:00",
-        "departureTime": "08:04:00",
+        "departureTime": "08:02:00",
         "isPassing": false
       }
     ],
@@ -1672,7 +1676,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1691,7 +1695,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:10:00",
-        "departureTime": "08:12:00",
+        "departureTime": "08:10:00",
         "isPassing": false
       }
     ],
@@ -1722,7 +1726,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:08:00",
-        "departureTime": "08:10:00",
+        "departureTime": "08:08:00",
         "isPassing": false
       }
     ],
@@ -1740,7 +1744,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1759,7 +1763,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:14:00",
-        "departureTime": "08:16:00",
+        "departureTime": "08:14:00",
         "isPassing": false
       }
     ],
@@ -1777,7 +1781,7 @@
     "direction": "outbound",
     "originStationId": "SO-52",
     "destinationStationId": "SO-08",
-    "customDestination": "湘南台",
+    "customDestination": "大和",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1796,7 +1800,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:14:00",
-        "departureTime": "08:16:00",
+        "departureTime": "08:14:00",
         "isPassing": false
       }
     ],
@@ -1814,7 +1818,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1833,7 +1837,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:18:00",
-        "departureTime": "08:19:00",
+        "departureTime": "08:18:00",
         "isPassing": false
       }
     ],
@@ -1851,7 +1855,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "池袋",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1864,7 +1868,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "08:16:00",
-        "departureTime": "08:18:00",
+        "departureTime": "08:16:00",
         "isPassing": false
       }
     ],
@@ -1882,7 +1886,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1901,7 +1905,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:24:00",
-        "departureTime": "08:26:00",
+        "departureTime": "08:24:00",
         "isPassing": false
       }
     ],
@@ -1938,7 +1942,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:27:00",
-        "departureTime": "08:28:00",
+        "departureTime": "08:27:00",
         "isPassing": false
       }
     ],
@@ -1969,7 +1973,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:24:00",
-        "departureTime": "08:25:00",
+        "departureTime": "08:24:00",
         "isPassing": false
       }
     ],
@@ -1987,7 +1991,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2006,7 +2010,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:29:00",
-        "departureTime": "08:31:00",
+        "departureTime": "08:29:00",
         "isPassing": false
       }
     ],
@@ -2043,7 +2047,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:31:00",
-        "departureTime": "08:32:00",
+        "departureTime": "08:31:00",
         "isPassing": false
       }
     ],
@@ -2061,7 +2065,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2080,12 +2084,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:34:00",
-        "departureTime": "08:36:00",
+        "departureTime": "08:34:00",
         "isPassing": false
       }
     ],
     "trainId": "125072",
-    "throughTripId": "WD_INB_SH-01_0833_111402",
+    "throughTripId": "WD_INB_SH-01_0836_125072",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-18_0807_125072",
     "prevLineId": "sotetsu_main"
@@ -2098,7 +2102,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "大宮(埼玉県)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2111,7 +2115,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "08:35:00",
-        "departureTime": "08:37:00",
+        "departureTime": "08:35:00",
         "isPassing": false
       }
     ],
@@ -2142,7 +2146,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:36:00",
-        "departureTime": "08:37:00",
+        "departureTime": "08:36:00",
         "isPassing": false
       }
     ],
@@ -2179,7 +2183,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:41:00",
-        "departureTime": "08:42:00",
+        "departureTime": "08:41:00",
         "isPassing": false
       }
     ],
@@ -2197,7 +2201,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2216,7 +2220,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:48:00",
-        "departureTime": "08:49:00",
+        "departureTime": "08:48:00",
         "isPassing": false
       }
     ],
@@ -2247,7 +2251,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "08:48:00",
-        "departureTime": "08:50:00",
+        "departureTime": "08:48:00",
         "isPassing": false
       }
     ],
@@ -2284,7 +2288,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:57:00",
-        "departureTime": "08:58:00",
+        "departureTime": "08:57:00",
         "isPassing": false
       }
     ],
@@ -2302,7 +2306,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2321,7 +2325,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:57:00",
-        "departureTime": "08:58:00",
+        "departureTime": "08:57:00",
         "isPassing": false
       }
     ],
@@ -2352,7 +2356,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:54:00",
-        "departureTime": "08:55:00",
+        "departureTime": "08:54:00",
         "isPassing": false
       }
     ],
@@ -2383,7 +2387,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "09:01:00",
-        "departureTime": "09:02:00",
+        "departureTime": "09:01:00",
         "isPassing": false
       }
     ],
@@ -2425,7 +2429,10 @@
     ],
     "trainId": "75570",
     "prevTripId": "WD_OUT_SH-03_0852_75570",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0907_39349",
+    "throughLineId": "sotetsu_main",
+    "customDestination": "海老名"
   },
   {
     "tripId": "WD_INB_SO-08_0902_125158",
@@ -2435,7 +2442,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2454,7 +2461,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "09:09:00",
-        "departureTime": "09:10:00",
+        "departureTime": "09:09:00",
         "isPassing": false
       }
     ],
@@ -2490,8 +2497,6 @@
       }
     ],
     "trainId": "39349",
-    "throughTripId": "WD_OUT_SO-08_0907_39349",
-    "throughLineId": "sotetsu_main",
     "prevTripId": "WD_INB_JS-20_0822_39349",
     "prevLineId": "sotetsu_jr_direct"
   },
@@ -2503,7 +2508,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2522,7 +2527,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "09:15:00",
-        "departureTime": "09:16:00",
+        "departureTime": "09:15:00",
         "isPassing": false
       }
     ],
@@ -2559,7 +2564,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:17:00",
-        "departureTime": "09:20:00",
+        "departureTime": "09:17:00",
         "isPassing": false
       }
     ],
@@ -2590,7 +2595,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "09:19:00",
-        "departureTime": "09:21:00",
+        "departureTime": "09:19:00",
         "isPassing": false
       }
     ],
@@ -2632,7 +2637,8 @@
     ],
     "trainId": "157857",
     "prevTripId": "WD_OUT_SH-03_0911_157857",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "西谷"
   },
   {
     "tripId": "WD_OUT_SO-51_0919_39350",
@@ -2655,7 +2661,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:21:00",
-        "departureTime": "09:22:00",
+        "departureTime": "09:21:00",
         "isPassing": false
       }
     ],
@@ -2673,7 +2679,7 @@
     "direction": "outbound",
     "originStationId": "SO-52",
     "destinationStationId": "SO-08",
-    "customDestination": "湘南台",
+    "customDestination": "大和",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2692,7 +2698,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:31:00",
-        "departureTime": "09:32:00",
+        "departureTime": "09:31:00",
         "isPassing": false
       }
     ],
@@ -2710,7 +2716,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2729,12 +2735,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "09:33:00",
-        "departureTime": "09:38:00",
+        "departureTime": "09:33:00",
         "isPassing": false
       }
     ],
     "trainId": "125104",
-    "throughTripId": "WD_INB_SH-01_0932_111405",
+    "throughTripId": "WD_INB_SH-01_0938_125104",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-18_0900_125104",
     "prevLineId": "sotetsu_main"
@@ -2766,7 +2772,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:37:00",
-        "departureTime": "09:38:00",
+        "departureTime": "09:37:00",
         "isPassing": false
       }
     ],
@@ -2843,7 +2849,10 @@
     ],
     "trainId": "106483",
     "prevTripId": "WD_OUT_SH-03_0927_106483",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0942_39354",
+    "throughLineId": "sotetsu_main",
+    "customDestination": "海老名"
   },
   {
     "tripId": "WD_INB_SO-08_0937_125216",
@@ -2853,7 +2862,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2872,7 +2881,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "09:45:00",
-        "departureTime": "09:48:00",
+        "departureTime": "09:45:00",
         "isPassing": false
       }
     ],
@@ -2906,8 +2915,6 @@
       }
     ],
     "trainId": "39354",
-    "throughTripId": "WD_OUT_SO-08_0942_39354",
-    "throughLineId": "sotetsu_main",
     "prevTripId": "WD_INB_JS-20_0856_39354",
     "prevLineId": "sotetsu_jr_direct"
   },
@@ -2932,7 +2939,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "09:44:00",
-        "departureTime": "09:48:00",
+        "departureTime": "09:44:00",
         "isPassing": false
       }
     ],
@@ -2969,7 +2976,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:53:00",
-        "departureTime": "09:54:00",
+        "departureTime": "09:53:00",
         "isPassing": false
       }
     ],
@@ -2987,7 +2994,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3006,7 +3013,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "10:00:00",
-        "departureTime": "10:02:00",
+        "departureTime": "10:00:00",
         "isPassing": false
       }
     ],
@@ -3037,7 +3044,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:57:00",
-        "departureTime": "09:59:00",
+        "departureTime": "09:57:00",
         "isPassing": false
       }
     ],
@@ -3074,7 +3081,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "10:02:00",
-        "departureTime": "10:03:00",
+        "departureTime": "10:02:00",
         "isPassing": false
       }
     ],
@@ -3105,7 +3112,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "09:59:00",
-        "departureTime": "10:03:00",
+        "departureTime": "09:59:00",
         "isPassing": false
       }
     ],
@@ -3147,7 +3154,8 @@
     ],
     "trainId": "75568",
     "prevTripId": "WD_OUT_SH-03_0954_75568",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "西谷"
   },
   {
     "tripId": "WD_INB_SO-08_1002_125106",
@@ -3157,7 +3165,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3176,7 +3184,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "10:09:00",
-        "departureTime": "10:10:00",
+        "departureTime": "10:09:00",
         "isPassing": false
       }
     ],
@@ -3194,7 +3202,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "和光市",
+    "customDestination": "赤羽岩淵",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3213,11 +3221,13 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "10:25:00",
-        "departureTime": "10:33:00",
+        "departureTime": "10:25:00",
         "isPassing": false
       }
     ],
-    "trainId": "125218"
+    "trainId": "125218",
+    "throughTripId": "WD_INB_SH-01_1027_111451",
+    "throughLineId": "tokyu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-52_1021_157811",
@@ -3227,7 +3237,7 @@
     "direction": "outbound",
     "originStationId": "SO-52",
     "destinationStationId": "SO-08",
-    "customDestination": "湘南台",
+    "customDestination": "大和",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3277,7 +3287,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "10:23:00",
-        "departureTime": "10:25:00",
+        "departureTime": "10:23:00",
         "isPassing": false
       }
     ],
@@ -3308,7 +3318,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "10:24:00",
-        "departureTime": "10:25:00",
+        "departureTime": "10:24:00",
         "isPassing": false
       }
     ],
@@ -3345,7 +3355,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "10:34:00",
-        "departureTime": "10:35:00",
+        "departureTime": "10:34:00",
         "isPassing": false
       }
     ],
@@ -3363,7 +3373,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3382,7 +3392,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "10:40:00",
-        "departureTime": "10:42:00",
+        "departureTime": "10:40:00",
         "isPassing": false
       }
     ],
@@ -3400,7 +3410,7 @@
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "SO-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3453,7 +3463,10 @@
     ],
     "trainId": "82816",
     "prevTripId": "WD_OUT_SH-03_1034_82816",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1046_39397",
+    "throughLineId": "sotetsu_main",
+    "customDestination": "海老名"
   },
   {
     "tripId": "WD_INB_SO-08_1046_39235",
@@ -3476,7 +3489,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "10:48:00",
-        "departureTime": "10:52:00",
+        "departureTime": "10:48:00",
         "isPassing": false
       }
     ],
@@ -3516,7 +3529,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "106484"
+    "trainId": "106484",
+    "prevTripId": "WD_OUT_SH-03_1039_106484",
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "西谷"
   },
   {
     "tripId": "WD_INB_SO-08_1052_125205",
@@ -3526,7 +3542,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3545,7 +3561,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "10:59:00",
-        "departureTime": "11:03:00",
+        "departureTime": "10:59:00",
         "isPassing": false
       }
     ],
@@ -3613,7 +3629,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "11:03:00",
-        "departureTime": "11:05:00",
+        "departureTime": "11:03:00",
         "isPassing": false
       }
     ],
@@ -3631,7 +3647,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3650,7 +3666,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "11:08:00",
-        "departureTime": "11:12:00",
+        "departureTime": "11:08:00",
         "isPassing": false
       }
     ],
@@ -3718,7 +3734,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "11:14:00",
-        "departureTime": "11:16:00",
+        "departureTime": "11:14:00",
         "isPassing": false
       }
     ],
@@ -3749,7 +3765,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "11:16:00",
-        "departureTime": "11:17:00",
+        "departureTime": "11:16:00",
         "isPassing": false
       }
     ],
@@ -3767,7 +3783,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3786,7 +3802,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "11:28:00",
-        "departureTime": "11:33:00",
+        "departureTime": "11:28:00",
         "isPassing": false
       }
     ],
@@ -3839,7 +3855,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3858,7 +3874,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "11:38:00",
-        "departureTime": "11:42:00",
+        "departureTime": "11:38:00",
         "isPassing": false
       }
     ],
@@ -3876,7 +3892,7 @@
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "SO-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3889,11 +3905,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "11:40:00",
-        "departureTime": "11:46:00",
+        "departureTime": "11:40:00",
         "isPassing": false
       }
     ],
     "trainId": "39403",
+    "throughTripId": "WD_OUT_SO-08_1146_39403",
+    "throughLineId": "sotetsu_main",
     "prevTripId": "WD_INB_JS-20_1055_39403",
     "prevLineId": "sotetsu_jr_direct"
   },
@@ -3918,7 +3936,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "11:46:00",
-        "departureTime": "11:47:00",
+        "departureTime": "11:46:00",
         "isPassing": false
       }
     ],
@@ -3955,11 +3973,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "11:53:00",
-        "departureTime": "11:54:00",
+        "departureTime": "11:53:00",
         "isPassing": false
       }
     ],
     "trainId": "106469",
+    "prevTripId": "WD_OUT_SH-03_1135_106469",
+    "prevLineId": "tokyu_shin_yokohama",
     "throughTripId": "WD_OUT_SO-08_1154_106469",
     "throughLineId": "sotetsu_main"
   },
@@ -3971,7 +3991,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3990,7 +4010,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "11:59:00",
-        "departureTime": "12:03:00",
+        "departureTime": "11:59:00",
         "isPassing": false
       }
     ],
@@ -4027,7 +4047,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:01:00",
-        "departureTime": "12:02:00",
+        "departureTime": "12:01:00",
         "isPassing": false
       }
     ],
@@ -4045,7 +4065,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4064,7 +4084,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "12:09:00",
-        "departureTime": "12:12:00",
+        "departureTime": "12:09:00",
         "isPassing": false
       }
     ],
@@ -4095,7 +4115,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:05:00",
-        "departureTime": "12:08:00",
+        "departureTime": "12:05:00",
         "isPassing": false
       }
     ],
@@ -4126,7 +4146,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "12:16:00",
-        "departureTime": "12:17:00",
+        "departureTime": "12:16:00",
         "isPassing": false
       }
     ],
@@ -4163,7 +4183,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:23:00",
-        "departureTime": "12:24:00",
+        "departureTime": "12:23:00",
         "isPassing": false
       }
     ],
@@ -4194,7 +4214,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:20:00",
-        "departureTime": "12:22:00",
+        "departureTime": "12:20:00",
         "isPassing": false
       }
     ],
@@ -4212,7 +4232,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4231,7 +4251,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "12:29:00",
-        "departureTime": "12:33:00",
+        "departureTime": "12:29:00",
         "isPassing": false
       }
     ],
@@ -4286,7 +4306,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4305,7 +4325,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "12:39:00",
-        "departureTime": "12:42:00",
+        "departureTime": "12:39:00",
         "isPassing": false
       }
     ],
@@ -4336,7 +4356,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:44:00",
-        "departureTime": "12:46:00",
+        "departureTime": "12:44:00",
         "isPassing": false
       }
     ],
@@ -4367,7 +4387,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "12:46:00",
-        "departureTime": "12:47:00",
+        "departureTime": "12:46:00",
         "isPassing": false
       }
     ],
@@ -4404,7 +4424,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:53:00",
-        "departureTime": "12:54:00",
+        "departureTime": "12:53:00",
         "isPassing": false
       }
     ],
@@ -4422,7 +4442,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4441,7 +4461,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "12:59:00",
-        "departureTime": "13:03:00",
+        "departureTime": "12:59:00",
         "isPassing": false
       }
     ],
@@ -4496,7 +4516,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4515,7 +4535,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "13:09:00",
-        "departureTime": "13:12:00",
+        "departureTime": "13:09:00",
         "isPassing": false
       }
     ],
@@ -4546,7 +4566,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "13:14:00",
-        "departureTime": "13:16:00",
+        "departureTime": "13:14:00",
         "isPassing": false
       }
     ],
@@ -4577,7 +4597,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "13:16:00",
-        "departureTime": "13:17:00",
+        "departureTime": "13:16:00",
         "isPassing": false
       }
     ],
@@ -4614,7 +4634,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "13:23:00",
-        "departureTime": "13:24:00",
+        "departureTime": "13:23:00",
         "isPassing": false
       }
     ],
@@ -4632,7 +4652,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4651,7 +4671,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "13:29:00",
-        "departureTime": "13:33:00",
+        "departureTime": "13:29:00",
         "isPassing": false
       }
     ],
@@ -4706,7 +4726,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4725,7 +4745,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "13:39:00",
-        "departureTime": "13:42:00",
+        "departureTime": "13:39:00",
         "isPassing": false
       }
     ],
@@ -4756,7 +4776,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "13:44:00",
-        "departureTime": "13:46:00",
+        "departureTime": "13:44:00",
         "isPassing": false
       }
     ],
@@ -4787,7 +4807,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "13:46:00",
-        "departureTime": "13:47:00",
+        "departureTime": "13:46:00",
         "isPassing": false
       }
     ],
@@ -4824,7 +4844,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "13:53:00",
-        "departureTime": "13:54:00",
+        "departureTime": "13:53:00",
         "isPassing": false
       }
     ],
@@ -4842,7 +4862,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4861,7 +4881,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "13:59:00",
-        "departureTime": "14:03:00",
+        "departureTime": "13:59:00",
         "isPassing": false
       }
     ],
@@ -4916,7 +4936,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4935,7 +4955,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "14:09:00",
-        "departureTime": "14:12:00",
+        "departureTime": "14:09:00",
         "isPassing": false
       }
     ],
@@ -4966,7 +4986,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "14:14:00",
-        "departureTime": "14:16:00",
+        "departureTime": "14:14:00",
         "isPassing": false
       }
     ],
@@ -4997,7 +5017,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "14:16:00",
-        "departureTime": "14:17:00",
+        "departureTime": "14:16:00",
         "isPassing": false
       }
     ],
@@ -5034,7 +5054,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "14:23:00",
-        "departureTime": "14:24:00",
+        "departureTime": "14:23:00",
         "isPassing": false
       }
     ],
@@ -5052,7 +5072,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5071,7 +5091,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "14:29:00",
-        "departureTime": "14:33:00",
+        "departureTime": "14:29:00",
         "isPassing": false
       }
     ],
@@ -5126,7 +5146,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5145,7 +5165,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "14:39:00",
-        "departureTime": "14:42:00",
+        "departureTime": "14:39:00",
         "isPassing": false
       }
     ],
@@ -5176,7 +5196,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "14:44:00",
-        "departureTime": "14:46:00",
+        "departureTime": "14:44:00",
         "isPassing": false
       }
     ],
@@ -5207,7 +5227,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "14:46:00",
-        "departureTime": "14:47:00",
+        "departureTime": "14:46:00",
         "isPassing": false
       }
     ],
@@ -5244,7 +5264,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "14:53:00",
-        "departureTime": "14:54:00",
+        "departureTime": "14:53:00",
         "isPassing": false
       }
     ],
@@ -5262,7 +5282,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5281,7 +5301,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "14:59:00",
-        "departureTime": "15:03:00",
+        "departureTime": "14:59:00",
         "isPassing": false
       }
     ],
@@ -5336,7 +5356,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5355,7 +5375,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "15:09:00",
-        "departureTime": "15:12:00",
+        "departureTime": "15:09:00",
         "isPassing": false
       }
     ],
@@ -5386,7 +5406,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "15:14:00",
-        "departureTime": "15:16:00",
+        "departureTime": "15:14:00",
         "isPassing": false
       }
     ],
@@ -5417,7 +5437,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "15:16:00",
-        "departureTime": "15:17:00",
+        "departureTime": "15:16:00",
         "isPassing": false
       }
     ],
@@ -5454,7 +5474,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "15:23:00",
-        "departureTime": "15:24:00",
+        "departureTime": "15:23:00",
         "isPassing": false
       }
     ],
@@ -5472,7 +5492,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "雑司が谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5491,7 +5511,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "15:29:00",
-        "departureTime": "15:33:00",
+        "departureTime": "15:29:00",
         "isPassing": false
       }
     ],
@@ -5546,7 +5566,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5565,7 +5585,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "15:39:00",
-        "departureTime": "15:42:00",
+        "departureTime": "15:39:00",
         "isPassing": false
       }
     ],
@@ -5596,7 +5616,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "15:44:00",
-        "departureTime": "15:46:00",
+        "departureTime": "15:44:00",
         "isPassing": false
       }
     ],
@@ -5627,7 +5647,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "15:46:00",
-        "departureTime": "15:47:00",
+        "departureTime": "15:46:00",
         "isPassing": false
       }
     ],
@@ -5664,7 +5684,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "15:53:00",
-        "departureTime": "15:54:00",
+        "departureTime": "15:53:00",
         "isPassing": false
       }
     ],
@@ -5682,7 +5702,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5701,7 +5721,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "15:59:00",
-        "departureTime": "16:03:00",
+        "departureTime": "15:59:00",
         "isPassing": false
       }
     ],
@@ -5756,7 +5776,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5775,7 +5795,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "16:07:00",
-        "departureTime": "16:12:00",
+        "departureTime": "16:07:00",
         "isPassing": false
       }
     ],
@@ -5806,7 +5826,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "16:06:00",
-        "departureTime": "16:07:00",
+        "departureTime": "16:06:00",
         "isPassing": false
       }
     ],
@@ -5837,7 +5857,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "16:14:00",
-        "departureTime": "16:16:00",
+        "departureTime": "16:14:00",
         "isPassing": false
       }
     ],
@@ -5874,7 +5894,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "16:23:00",
-        "departureTime": "16:24:00",
+        "departureTime": "16:23:00",
         "isPassing": false
       }
     ],
@@ -5905,7 +5925,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "16:24:00",
-        "departureTime": "16:26:00",
+        "departureTime": "16:24:00",
         "isPassing": false
       }
     ],
@@ -5923,7 +5943,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5942,7 +5962,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "16:32:00",
-        "departureTime": "16:33:00",
+        "departureTime": "16:32:00",
         "isPassing": false
       }
     ],
@@ -5979,7 +5999,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "16:33:00",
-        "departureTime": "16:36:00",
+        "departureTime": "16:33:00",
         "isPassing": false
       }
     ],
@@ -5997,7 +6017,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6016,7 +6036,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "16:38:00",
-        "departureTime": "16:41:00",
+        "departureTime": "16:38:00",
         "isPassing": false
       }
     ],
@@ -6053,7 +6073,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "16:43:00",
-        "departureTime": "16:44:00",
+        "departureTime": "16:43:00",
         "isPassing": false
       }
     ],
@@ -6084,7 +6104,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "16:44:00",
-        "departureTime": "16:46:00",
+        "departureTime": "16:44:00",
         "isPassing": false
       }
     ],
@@ -6102,7 +6122,7 @@
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "SO-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6131,7 +6151,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6150,7 +6170,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "16:56:00",
-        "departureTime": "16:58:00",
+        "departureTime": "16:56:00",
         "isPassing": false
       }
     ],
@@ -6187,7 +6207,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:00:00",
-        "departureTime": "17:01:00",
+        "departureTime": "17:00:00",
         "isPassing": false
       }
     ],
@@ -6205,7 +6225,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6224,7 +6244,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "17:04:00",
-        "departureTime": "17:07:00",
+        "departureTime": "17:04:00",
         "isPassing": false
       }
     ],
@@ -6255,7 +6275,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "17:04:00",
-        "departureTime": "17:06:00",
+        "departureTime": "17:04:00",
         "isPassing": false
       }
     ],
@@ -6286,7 +6306,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:13:00",
-        "departureTime": "17:15:00",
+        "departureTime": "17:13:00",
         "isPassing": false
       }
     ],
@@ -6323,7 +6343,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:19:00",
-        "departureTime": "17:23:00",
+        "departureTime": "17:19:00",
         "isPassing": false
       }
     ],
@@ -6341,7 +6361,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6360,7 +6380,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "17:20:00",
-        "departureTime": "17:23:00",
+        "departureTime": "17:20:00",
         "isPassing": false
       }
     ],
@@ -6376,7 +6396,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "北参道",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6395,7 +6415,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "17:25:00",
-        "departureTime": "17:29:00",
+        "departureTime": "17:25:00",
         "isPassing": false
       }
     ],
@@ -6426,7 +6446,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "17:24:00",
-        "departureTime": "17:27:00",
+        "departureTime": "17:24:00",
         "isPassing": false
       }
     ],
@@ -6463,7 +6483,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:30:00",
-        "departureTime": "17:31:00",
+        "departureTime": "17:30:00",
         "isPassing": false
       }
     ],
@@ -6500,7 +6520,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:33:00",
-        "departureTime": "17:36:00",
+        "departureTime": "17:33:00",
         "isPassing": false
       }
     ],
@@ -6518,7 +6538,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6537,7 +6557,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "17:34:00",
-        "departureTime": "17:36:00",
+        "departureTime": "17:34:00",
         "isPassing": false
       }
     ],
@@ -6568,7 +6588,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:39:00",
-        "departureTime": "17:40:00",
+        "departureTime": "17:39:00",
         "isPassing": false
       }
     ],
@@ -6610,7 +6630,8 @@
     ],
     "trainId": "75569",
     "prevTripId": "WD_OUT_SH-03_1728_75569",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "西谷"
   },
   {
     "tripId": "WD_INB_SO-08_1740_125187",
@@ -6620,7 +6641,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6639,7 +6660,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "17:46:00",
-        "departureTime": "17:58:00",
+        "departureTime": "17:46:00",
         "isPassing": false
       }
     ],
@@ -6670,7 +6691,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "17:46:00",
-        "departureTime": "17:48:00",
+        "departureTime": "17:46:00",
         "isPassing": false
       }
     ],
@@ -6707,7 +6728,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:53:00",
-        "departureTime": "17:56:00",
+        "departureTime": "17:53:00",
         "isPassing": false
       }
     ],
@@ -6744,7 +6765,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:00:00",
-        "departureTime": "18:01:00",
+        "departureTime": "18:00:00",
         "isPassing": false
       }
     ],
@@ -6775,7 +6796,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:57:00",
-        "departureTime": "17:58:00",
+        "departureTime": "17:57:00",
         "isPassing": false
       }
     ],
@@ -6793,7 +6814,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6812,7 +6833,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:02:00",
-        "departureTime": "18:05:00",
+        "departureTime": "18:02:00",
         "isPassing": false
       }
     ],
@@ -6830,7 +6851,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "和光市",
+    "customDestination": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6849,13 +6870,13 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:08:00",
-        "departureTime": "18:14:00",
+        "departureTime": "18:08:00",
         "isPassing": false
       }
     ],
     "trainId": "125220",
-    "prevTripId": "WD_INB_SO-18_1732_39265",
-    "prevLineId": "sotetsu_main"
+    "throughTripId": "WD_INB_SH-01_1814_125220",
+    "throughLineId": "tokyu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-52_1802_82645",
@@ -6884,7 +6905,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:08:00",
-        "departureTime": "18:09:00",
+        "departureTime": "18:08:00",
         "isPassing": false
       }
     ],
@@ -6915,7 +6936,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "18:07:00",
-        "departureTime": "18:09:00",
+        "departureTime": "18:07:00",
         "isPassing": false
       }
     ],
@@ -6952,7 +6973,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:15:00",
-        "departureTime": "18:17:00",
+        "departureTime": "18:15:00",
         "isPassing": false
       }
     ],
@@ -6970,7 +6991,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6989,7 +7010,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:16:00",
-        "departureTime": "18:21:00",
+        "departureTime": "18:16:00",
         "isPassing": false
       }
     ],
@@ -7020,7 +7041,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:21:00",
-        "departureTime": "18:22:00",
+        "departureTime": "18:21:00",
         "isPassing": false
       }
     ],
@@ -7057,7 +7078,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:26:00",
-        "departureTime": "18:28:00",
+        "departureTime": "18:26:00",
         "isPassing": false
       }
     ],
@@ -7088,7 +7109,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "18:21:00",
-        "departureTime": "18:26:00",
+        "departureTime": "18:21:00",
         "isPassing": false
       }
     ],
@@ -7106,7 +7127,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7125,12 +7146,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:33:00",
-        "departureTime": "18:37:00",
+        "departureTime": "18:33:00",
         "isPassing": false
       }
     ],
     "trainId": "125065",
-    "throughTripId": "WD_INB_SH-01_1832_111410",
+    "throughTripId": "WD_INB_SH-01_1837_125065",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-10_1816_125065",
     "prevLineId": "sotetsu_main"
@@ -7162,7 +7183,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:33:00",
-        "departureTime": "18:35:00",
+        "departureTime": "18:33:00",
         "isPassing": false
       }
     ],
@@ -7180,7 +7201,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7199,7 +7220,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:39:00",
-        "departureTime": "18:44:00",
+        "departureTime": "18:39:00",
         "isPassing": false
       }
     ],
@@ -7236,7 +7257,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:42:00",
-        "departureTime": "18:43:00",
+        "departureTime": "18:42:00",
         "isPassing": false
       }
     ],
@@ -7267,7 +7288,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:37:00",
-        "departureTime": "18:38:00",
+        "departureTime": "18:37:00",
         "isPassing": false
       }
     ],
@@ -7285,7 +7306,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7304,12 +7325,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:48:00",
-        "departureTime": "18:51:00",
+        "departureTime": "18:48:00",
         "isPassing": false
       }
     ],
     "trainId": "125079",
-    "throughTripId": "WD_INB_SH-01_1847_111411",
+    "throughTripId": "WD_INB_SH-01_1851_125079",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-18_1819_125079",
     "prevLineId": "sotetsu_main"
@@ -7335,7 +7356,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "18:46:00",
-        "departureTime": "18:48:00",
+        "departureTime": "18:46:00",
         "isPassing": false
       }
     ],
@@ -7372,7 +7393,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:55:00",
-        "departureTime": "18:58:00",
+        "departureTime": "18:55:00",
         "isPassing": false
       }
     ],
@@ -7390,7 +7411,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7409,7 +7430,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:56:00",
-        "departureTime": "18:59:00",
+        "departureTime": "18:56:00",
         "isPassing": false
       }
     ],
@@ -7427,7 +7448,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7446,7 +7467,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "19:03:00",
-        "departureTime": "19:06:00",
+        "departureTime": "19:03:00",
         "isPassing": false
       }
     ],
@@ -7483,7 +7504,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:04:00",
-        "departureTime": "19:05:00",
+        "departureTime": "19:04:00",
         "isPassing": false
       }
     ],
@@ -7514,7 +7535,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:00:00",
-        "departureTime": "19:01:00",
+        "departureTime": "19:00:00",
         "isPassing": false
       }
     ],
@@ -7551,7 +7572,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:09:00",
-        "departureTime": "19:10:00",
+        "departureTime": "19:09:00",
         "isPassing": false
       }
     ],
@@ -7582,7 +7603,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "19:06:00",
-        "departureTime": "19:08:00",
+        "departureTime": "19:06:00",
         "isPassing": false
       }
     ],
@@ -7629,7 +7650,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7648,7 +7669,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "19:14:00",
-        "departureTime": "19:15:00",
+        "departureTime": "19:14:00",
         "isPassing": false
       }
     ],
@@ -7685,7 +7706,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:15:00",
-        "departureTime": "19:18:00",
+        "departureTime": "19:15:00",
         "isPassing": false
       }
     ],
@@ -7703,7 +7724,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7722,7 +7743,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "19:21:00",
-        "departureTime": "19:22:00",
+        "departureTime": "19:21:00",
         "isPassing": false
       }
     ],
@@ -7753,7 +7774,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:20:00",
-        "departureTime": "19:22:00",
+        "departureTime": "19:20:00",
         "isPassing": false
       }
     ],
@@ -7790,7 +7811,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:26:00",
-        "departureTime": "19:29:00",
+        "departureTime": "19:26:00",
         "isPassing": false
       }
     ],
@@ -7821,7 +7842,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "19:25:00",
-        "departureTime": "19:26:00",
+        "departureTime": "19:25:00",
         "isPassing": false
       }
     ],
@@ -7839,7 +7860,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7858,7 +7879,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "19:33:00",
-        "departureTime": "19:40:00",
+        "departureTime": "19:33:00",
         "isPassing": false
       }
     ],
@@ -7895,7 +7916,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:34:00",
-        "departureTime": "19:35:00",
+        "departureTime": "19:34:00",
         "isPassing": false
       }
     ],
@@ -7913,7 +7934,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7932,13 +7953,15 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "19:42:00",
-        "departureTime": "19:44:00",
+        "departureTime": "19:42:00",
         "isPassing": false
       }
     ],
     "trainId": "125213",
     "throughTripId": "WD_INB_SH-01_1944_125213",
-    "throughLineId": "tokyu_shin_yokohama"
+    "throughLineId": "tokyu_shin_yokohama",
+    "prevTripId": "WD_INB_SO-10_1924_125213",
+    "prevLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-52_1939_75589",
@@ -7967,7 +7990,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:46:00",
-        "departureTime": "19:47:00",
+        "departureTime": "19:46:00",
         "isPassing": false
       }
     ],
@@ -7998,7 +8021,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:41:00",
-        "departureTime": "19:43:00",
+        "departureTime": "19:41:00",
         "isPassing": false
       }
     ],
@@ -8016,7 +8039,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8035,7 +8058,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "19:47:00",
-        "departureTime": "19:49:00",
+        "departureTime": "19:47:00",
         "isPassing": false
       }
     ],
@@ -8072,7 +8095,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:54:00",
-        "departureTime": "19:56:00",
+        "departureTime": "19:54:00",
         "isPassing": false
       }
     ],
@@ -8090,7 +8113,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "北参道",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8109,7 +8132,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "19:55:00",
-        "departureTime": "19:59:00",
+        "departureTime": "19:55:00",
         "isPassing": false
       }
     ],
@@ -8140,7 +8163,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "19:53:00",
-        "departureTime": "19:55:00",
+        "departureTime": "19:53:00",
         "isPassing": false
       }
     ],
@@ -8177,7 +8200,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:05:00",
-        "departureTime": "20:06:00",
+        "departureTime": "20:05:00",
         "isPassing": false
       }
     ],
@@ -8208,7 +8231,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:01:00",
-        "departureTime": "20:02:00",
+        "departureTime": "20:01:00",
         "isPassing": false
       }
     ],
@@ -8239,7 +8262,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "20:06:00",
-        "departureTime": "20:07:00",
+        "departureTime": "20:06:00",
         "isPassing": false
       }
     ],
@@ -8257,7 +8280,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8276,7 +8299,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "20:14:00",
-        "departureTime": "20:15:00",
+        "departureTime": "20:14:00",
         "isPassing": false
       }
     ],
@@ -8313,7 +8336,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:15:00",
-        "departureTime": "20:19:00",
+        "departureTime": "20:15:00",
         "isPassing": false
       }
     ],
@@ -8331,7 +8354,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8350,7 +8373,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "20:19:00",
-        "departureTime": "20:21:00",
+        "departureTime": "20:19:00",
         "isPassing": false
       }
     ],
@@ -8381,7 +8404,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:21:00",
-        "departureTime": "20:23:00",
+        "departureTime": "20:21:00",
         "isPassing": false
       }
     ],
@@ -8399,7 +8422,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "北参道",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8418,12 +8441,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "20:24:00",
-        "departureTime": "20:29:00",
+        "departureTime": "20:24:00",
         "isPassing": false
       }
     ],
     "trainId": "125188",
-    "throughTripId": "WD_INB_SH-01_2025_111415",
+    "throughTripId": "WD_INB_SH-01_2029_125188",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-10_2012_125188",
     "prevLineId": "sotetsu_main"
@@ -8449,7 +8472,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "20:23:00",
-        "departureTime": "20:25:00",
+        "departureTime": "20:23:00",
         "isPassing": false
       }
     ],
@@ -8486,7 +8509,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:29:00",
-        "departureTime": "20:32:00",
+        "departureTime": "20:29:00",
         "isPassing": false
       }
     ],
@@ -8523,7 +8546,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:34:00",
-        "departureTime": "20:39:00",
+        "departureTime": "20:34:00",
         "isPassing": false
       }
     ],
@@ -8541,7 +8564,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8560,7 +8583,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "20:41:00",
-        "departureTime": "20:44:00",
+        "departureTime": "20:41:00",
         "isPassing": false
       }
     ],
@@ -8591,7 +8614,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:41:00",
-        "departureTime": "20:42:00",
+        "departureTime": "20:41:00",
         "isPassing": false
       }
     ],
@@ -8622,7 +8645,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "20:42:00",
-        "departureTime": "20:43:00",
+        "departureTime": "20:42:00",
         "isPassing": false
       }
     ],
@@ -8659,7 +8682,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:46:00",
-        "departureTime": "20:49:00",
+        "departureTime": "20:46:00",
         "isPassing": false
       }
     ],
@@ -8677,7 +8700,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8696,7 +8719,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "20:51:00",
-        "departureTime": "20:52:00",
+        "departureTime": "20:51:00",
         "isPassing": false
       }
     ],
@@ -8733,7 +8756,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:54:00",
-        "departureTime": "20:55:00",
+        "departureTime": "20:54:00",
         "isPassing": false
       }
     ],
@@ -8751,7 +8774,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8770,7 +8793,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "20:59:00",
-        "departureTime": "21:00:00",
+        "departureTime": "20:59:00",
         "isPassing": false
       }
     ],
@@ -8807,7 +8830,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:05:00",
-        "departureTime": "21:06:00",
+        "departureTime": "21:05:00",
         "isPassing": false
       }
     ],
@@ -8838,7 +8861,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:01:00",
-        "departureTime": "21:02:00",
+        "departureTime": "21:01:00",
         "isPassing": false
       }
     ],
@@ -8869,7 +8892,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "21:03:00",
-        "departureTime": "21:07:00",
+        "departureTime": "21:03:00",
         "isPassing": false
       }
     ],
@@ -8906,7 +8929,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:11:00",
-        "departureTime": "21:12:00",
+        "departureTime": "21:11:00",
         "isPassing": false
       }
     ],
@@ -8924,7 +8947,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8943,7 +8966,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "21:13:00",
-        "departureTime": "21:14:00",
+        "departureTime": "21:13:00",
         "isPassing": false
       }
     ],
@@ -8961,7 +8984,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "赤羽岩淵",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8980,7 +9003,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "21:22:00",
-        "departureTime": "21:24:00",
+        "departureTime": "21:22:00",
         "isPassing": false
       }
     ],
@@ -9011,7 +9034,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:21:00",
-        "departureTime": "21:23:00",
+        "departureTime": "21:21:00",
         "isPassing": false
       }
     ],
@@ -9048,7 +9071,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:27:00",
-        "departureTime": "21:29:00",
+        "departureTime": "21:27:00",
         "isPassing": false
       }
     ],
@@ -9079,7 +9102,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "21:25:00",
-        "departureTime": "21:26:00",
+        "departureTime": "21:25:00",
         "isPassing": false
       }
     ],
@@ -9116,7 +9139,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:32:00",
-        "departureTime": "21:35:00",
+        "departureTime": "21:32:00",
         "isPassing": false
       }
     ],
@@ -9134,7 +9157,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9153,7 +9176,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "21:42:00",
-        "departureTime": "21:44:00",
+        "departureTime": "21:42:00",
         "isPassing": false
       }
     ],
@@ -9184,7 +9207,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:40:00",
-        "departureTime": "21:42:00",
+        "departureTime": "21:40:00",
         "isPassing": false
       }
     ],
@@ -9202,7 +9225,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9221,12 +9244,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "21:49:00",
-        "departureTime": "21:53:00",
+        "departureTime": "21:49:00",
         "isPassing": false
       }
     ],
     "trainId": "125136",
-    "throughTripId": "WD_INB_SH-01_2149_111381",
+    "throughTripId": "WD_INB_SH-01_2153_125136",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-18_2110_125136",
     "prevLineId": "sotetsu_main"
@@ -9258,7 +9281,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:51:00",
-        "departureTime": "21:53:00",
+        "departureTime": "21:51:00",
         "isPassing": false
       }
     ],
@@ -9276,7 +9299,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "行先不明",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9295,7 +9318,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "21:57:00",
-        "departureTime": "21:59:00",
+        "departureTime": "21:57:00",
         "isPassing": false
       }
     ],
@@ -9332,7 +9355,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:03:00",
-        "departureTime": "22:05:00",
+        "departureTime": "22:03:00",
         "isPassing": false
       }
     ],
@@ -9363,7 +9386,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "21:58:00",
-        "departureTime": "22:02:00",
+        "departureTime": "21:58:00",
         "isPassing": false
       }
     ],
@@ -9394,7 +9417,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:00:00",
-        "departureTime": "22:01:00",
+        "departureTime": "22:00:00",
         "isPassing": false
       }
     ],
@@ -9412,7 +9435,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "行先不明",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9431,7 +9454,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "22:08:00",
-        "departureTime": "22:10:00",
+        "departureTime": "22:08:00",
         "isPassing": false
       }
     ],
@@ -9473,7 +9496,8 @@
     ],
     "trainId": "157858",
     "prevTripId": "WD_OUT_SH-03_2155_157858",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "西谷"
   },
   {
     "tripId": "WD_INB_SO-08_2207_125168",
@@ -9483,7 +9507,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9502,7 +9526,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "22:14:00",
-        "departureTime": "22:15:00",
+        "departureTime": "22:14:00",
         "isPassing": false
       }
     ],
@@ -9533,7 +9557,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:18:00",
-        "departureTime": "22:19:00",
+        "departureTime": "22:18:00",
         "isPassing": false
       }
     ],
@@ -9551,7 +9575,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9570,7 +9594,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "22:24:00",
-        "departureTime": "22:27:00",
+        "departureTime": "22:24:00",
         "isPassing": false
       }
     ],
@@ -9607,7 +9631,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:27:00",
-        "departureTime": "22:30:00",
+        "departureTime": "22:27:00",
         "isPassing": false
       }
     ],
@@ -9676,7 +9700,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:33:00",
-        "departureTime": "22:34:00",
+        "departureTime": "22:33:00",
         "isPassing": false
       }
     ],
@@ -9707,7 +9731,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "22:32:00",
-        "departureTime": "22:33:00",
+        "departureTime": "22:32:00",
         "isPassing": false
       }
     ],
@@ -9725,7 +9749,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9744,7 +9768,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "22:42:00",
-        "departureTime": "22:45:00",
+        "departureTime": "22:42:00",
         "isPassing": false
       }
     ],
@@ -9781,7 +9805,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:43:00",
-        "departureTime": "22:45:00",
+        "departureTime": "22:43:00",
         "isPassing": false
       }
     ],
@@ -9810,7 +9834,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:39:00",
-        "departureTime": "22:41:00",
+        "departureTime": "22:39:00",
         "isPassing": false
       }
     ],
@@ -9828,7 +9852,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "行先不明",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9847,7 +9871,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "22:49:00",
-        "departureTime": "22:50:00",
+        "departureTime": "22:49:00",
         "isPassing": false
       }
     ],
@@ -9884,7 +9908,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:57:00",
-        "departureTime": "23:00:00",
+        "departureTime": "22:57:00",
         "isPassing": false
       }
     ],
@@ -9926,7 +9950,8 @@
     ],
     "trainId": "157855",
     "prevTripId": "WD_OUT_SH-03_2248_157855",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "西谷"
   },
   {
     "tripId": "WD_OUT_SO-52_2305_157813",
@@ -9955,7 +9980,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:11:00",
-        "departureTime": "23:12:00",
+        "departureTime": "23:11:00",
         "isPassing": false
       }
     ],
@@ -9986,7 +10011,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:07:00",
-        "departureTime": "23:09:00",
+        "departureTime": "23:07:00",
         "isPassing": false
       }
     ],
@@ -10023,7 +10048,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:16:00",
-        "departureTime": "23:17:00",
+        "departureTime": "23:16:00",
         "isPassing": false
       }
     ],
@@ -10041,7 +10066,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "行先不明",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -10060,7 +10085,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "23:21:00",
-        "departureTime": "23:22:00",
+        "departureTime": "23:21:00",
         "isPassing": false
       }
     ],
@@ -10097,7 +10122,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:23:00",
-        "departureTime": "23:25:00",
+        "departureTime": "23:23:00",
         "isPassing": false
       }
     ],
@@ -10165,7 +10190,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:35:00",
-        "departureTime": "23:36:00",
+        "departureTime": "23:35:00",
         "isPassing": false
       }
     ],
@@ -10202,7 +10227,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:41:00",
-        "departureTime": "23:42:00",
+        "departureTime": "23:41:00",
         "isPassing": false
       }
     ],
@@ -10242,7 +10267,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125231"
+    "trainId": "125231",
+    "prevTripId": "WD_INB_SO-10_2334_125231",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "新横浜"
   },
   {
     "tripId": "WD_OUT_SO-52_2346_76646",
@@ -10271,7 +10299,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:52:00",
-        "departureTime": "23:53:00",
+        "departureTime": "23:52:00",
         "isPassing": false
       }
     ],
@@ -10339,7 +10367,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:57:00",
-        "departureTime": "23:58:00",
+        "departureTime": "23:57:00",
         "isPassing": false
       }
     ],
@@ -10394,7 +10422,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "奥沢",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -10413,7 +10441,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "00:21:00",
-        "departureTime": "00:22:00",
+        "departureTime": "00:21:00",
         "isPassing": false
       }
     ],
@@ -10448,7 +10476,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "00:27:00",
-        "departureTime": "00:31:00",
+        "departureTime": "00:27:00",
         "isPassing": false
       }
     ],
@@ -10483,7 +10511,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "05:24:00",
-        "departureTime": "05:26:00",
+        "departureTime": "05:24:00",
         "isPassing": false
       }
     ],
@@ -10501,7 +10529,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "小川町",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -10520,7 +10548,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "05:39:00",
-        "departureTime": "05:40:00",
+        "departureTime": "05:39:00",
         "isPassing": false
       }
     ],
@@ -10588,7 +10616,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "05:45:00",
-        "departureTime": "05:47:00",
+        "departureTime": "05:45:00",
         "isPassing": false
       }
     ],
@@ -10606,7 +10634,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "西高島平",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -10625,11 +10653,13 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "05:53:00",
-        "departureTime": "06:00:00",
+        "departureTime": "05:53:00",
         "isPassing": false
       }
     ],
     "trainId": "125160",
+    "throughTripId": "HD_INB_SH-01_0551_111349",
+    "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-10_0540_125160",
     "prevLineId": "sotetsu_main"
   },
@@ -10660,7 +10690,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "05:56:00",
-        "departureTime": "05:57:00",
+        "departureTime": "05:56:00",
         "isPassing": false
       }
     ],
@@ -10678,7 +10708,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -10697,7 +10727,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "06:05:00",
-        "departureTime": "06:09:00",
+        "departureTime": "06:05:00",
         "isPassing": false
       }
     ],
@@ -10734,7 +10764,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "06:07:00",
-        "departureTime": "06:08:00",
+        "departureTime": "06:07:00",
         "isPassing": false
       }
     ],
@@ -10765,7 +10795,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "06:04:00",
-        "departureTime": "06:05:00",
+        "departureTime": "06:04:00",
         "isPassing": false
       }
     ],
@@ -10806,8 +10836,11 @@
       }
     ],
     "trainId": "126179",
+    "throughTripId": "HD_INB_SH-01_0614_111350",
+    "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-17_0547_126179",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "customDestination": "浦和美園"
   },
   {
     "tripId": "HD_OUT_SO-52_0622_125049",
@@ -10852,7 +10885,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "志木",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -10871,7 +10904,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "06:29:00",
-        "departureTime": "06:34:00",
+        "departureTime": "06:29:00",
         "isPassing": false
       }
     ],
@@ -10900,7 +10933,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "06:34:00",
-        "departureTime": "06:36:00",
+        "departureTime": "06:34:00",
         "isPassing": false
       }
     ],
@@ -10918,7 +10951,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -10937,7 +10970,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "06:43:00",
-        "departureTime": "06:44:00",
+        "departureTime": "06:43:00",
         "isPassing": false
       }
     ],
@@ -11011,7 +11044,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "06:53:00",
-        "departureTime": "06:57:00",
+        "departureTime": "06:53:00",
         "isPassing": false
       }
     ],
@@ -11029,7 +11062,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "大宮(埼玉県)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11042,7 +11075,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "06:49:00",
-        "departureTime": "06:53:00",
+        "departureTime": "06:49:00",
         "isPassing": false
       }
     ],
@@ -11079,11 +11112,13 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "06:59:00",
-        "departureTime": "07:05:00",
+        "departureTime": "06:59:00",
         "isPassing": false
       }
     ],
     "trainId": "125174",
+    "throughTripId": "HD_INB_SH-01_0705_125174",
+    "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-10_0644_125174",
     "prevLineId": "sotetsu_main"
   },
@@ -11132,7 +11167,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "鳩ケ谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11151,7 +11186,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:08:00",
-        "departureTime": "07:12:00",
+        "departureTime": "07:08:00",
         "isPassing": false
       }
     ],
@@ -11169,7 +11204,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "大宮(埼玉県)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11182,7 +11217,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "07:09:00",
-        "departureTime": "07:12:00",
+        "departureTime": "07:09:00",
         "isPassing": false
       }
     ],
@@ -11213,7 +11248,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:13:00",
-        "departureTime": "07:16:00",
+        "departureTime": "07:13:00",
         "isPassing": false
       }
     ],
@@ -11231,7 +11266,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "志木",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11250,7 +11285,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:19:00",
-        "departureTime": "07:23:00",
+        "departureTime": "07:19:00",
         "isPassing": false
       }
     ],
@@ -11305,7 +11340,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11324,12 +11359,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:27:00",
-        "departureTime": "07:32:00",
+        "departureTime": "07:27:00",
         "isPassing": false
       }
     ],
     "trainId": "125135",
-    "throughTripId": "HD_INB_SH-01_0727_111353",
+    "throughTripId": "HD_INB_SH-01_0732_125135",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_0649_125135",
     "prevLineId": "sotetsu_main"
@@ -11342,7 +11377,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "大宮(埼玉県)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11355,7 +11390,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "07:26:00",
-        "departureTime": "07:30:00",
+        "departureTime": "07:26:00",
         "isPassing": false
       }
     ],
@@ -11373,7 +11408,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11392,7 +11427,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:38:00",
-        "departureTime": "07:39:00",
+        "departureTime": "07:38:00",
         "isPassing": false
       }
     ],
@@ -11429,7 +11464,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:40:00",
-        "departureTime": "07:41:00",
+        "departureTime": "07:40:00",
         "isPassing": false
       }
     ],
@@ -11460,7 +11495,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:44:00",
-        "departureTime": "07:45:00",
+        "departureTime": "07:44:00",
         "isPassing": false
       }
     ],
@@ -11478,7 +11513,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11497,7 +11532,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "07:50:00",
-        "departureTime": "07:53:00",
+        "departureTime": "07:50:00",
         "isPassing": false
       }
     ],
@@ -11534,7 +11569,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:52:00",
-        "departureTime": "07:55:00",
+        "departureTime": "07:52:00",
         "isPassing": false
       }
     ],
@@ -11552,7 +11587,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "川越",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11565,7 +11600,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "07:50:00",
-        "departureTime": "07:51:00",
+        "departureTime": "07:50:00",
         "isPassing": false
       }
     ],
@@ -11607,7 +11642,8 @@
     ],
     "trainId": "157854",
     "prevTripId": "HD_OUT_SH-03_0742_157854",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "西谷"
   },
   {
     "tripId": "HD_INB_SO-08_0754_125141",
@@ -11617,7 +11653,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11636,7 +11672,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:00:00",
-        "departureTime": "08:03:00",
+        "departureTime": "08:00:00",
         "isPassing": false
       }
     ],
@@ -11673,7 +11709,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:04:00",
-        "departureTime": "08:06:00",
+        "departureTime": "08:04:00",
         "isPassing": false
       }
     ],
@@ -11691,7 +11727,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11710,7 +11746,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:06:00",
-        "departureTime": "08:09:00",
+        "departureTime": "08:06:00",
         "isPassing": false
       }
     ],
@@ -11728,7 +11764,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "武蔵浦和",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11741,7 +11777,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "08:06:00",
-        "departureTime": "08:09:00",
+        "departureTime": "08:06:00",
         "isPassing": false
       }
     ],
@@ -11772,7 +11808,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:12:00",
-        "departureTime": "08:15:00",
+        "departureTime": "08:12:00",
         "isPassing": false
       }
     ],
@@ -11814,7 +11850,8 @@
     ],
     "trainId": "157853",
     "prevTripId": "HD_OUT_SH-03_0804_157853",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "西谷"
   },
   {
     "tripId": "HD_INB_SO-08_0814_125089",
@@ -11824,7 +11861,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11843,12 +11880,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:20:00",
-        "departureTime": "08:24:00",
+        "departureTime": "08:20:00",
         "isPassing": false
       }
     ],
     "trainId": "125089",
-    "throughTripId": "HD_INB_SH-01_0819_111355",
+    "throughTripId": "HD_INB_SH-01_0824_125089",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_0753_125089",
     "prevLineId": "sotetsu_main"
@@ -11861,7 +11898,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "新宿",
+    "customDestination": "武蔵浦和",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11874,7 +11911,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "08:21:00",
-        "departureTime": "08:23:00",
+        "departureTime": "08:21:00",
         "isPassing": false
       }
     ],
@@ -11898,7 +11935,7 @@
     "stops": [
       {
         "stationId": "SO-52",
-        "arrivalTime": "08:14:00",
+        "arrivalTime": "08:23:00",
         "departureTime": "08:21:00",
         "isPassing": false
       },
@@ -11911,11 +11948,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:27:00",
-        "departureTime": "08:29:00",
+        "departureTime": "08:27:00",
         "isPassing": false
       }
     ],
     "trainId": "75590",
+    "prevTripId": "HD_OUT_SH-03_0817_157863",
+    "prevLineId": "tokyu_shin_yokohama",
     "throughTripId": "HD_OUT_SO-08_0829_75590",
     "throughLineId": "sotetsu_main"
   },
@@ -11940,7 +11979,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:24:00",
-        "departureTime": "08:25:00",
+        "departureTime": "08:24:00",
         "isPassing": false
       }
     ],
@@ -11958,7 +11997,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11977,7 +12016,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:30:00",
-        "departureTime": "08:33:00",
+        "departureTime": "08:30:00",
         "isPassing": false
       }
     ],
@@ -11995,7 +12034,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -12014,12 +12053,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:35:00",
-        "departureTime": "08:41:00",
+        "departureTime": "08:35:00",
         "isPassing": false
       }
     ],
     "trainId": "125157",
-    "throughTripId": "HD_INB_SH-01_0835_111465",
+    "throughTripId": "HD_INB_SH-01_0841_125157",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-10_0821_125157",
     "prevLineId": "sotetsu_main"
@@ -12038,7 +12077,7 @@
     "stops": [
       {
         "stationId": "SO-52",
-        "arrivalTime": "08:23:00",
+        "arrivalTime": "08:29:00",
         "departureTime": "08:30:00",
         "isPassing": false
       },
@@ -12051,7 +12090,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:38:00",
-        "departureTime": "08:39:00",
+        "departureTime": "08:38:00",
         "isPassing": false
       }
     ],
@@ -12082,7 +12121,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:34:00",
-        "departureTime": "08:36:00",
+        "departureTime": "08:34:00",
         "isPassing": false
       }
     ],
@@ -12113,7 +12152,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "08:37:00",
-        "departureTime": "08:41:00",
+        "departureTime": "08:37:00",
         "isPassing": false
       }
     ],
@@ -12150,7 +12189,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:43:00",
-        "departureTime": "08:46:00",
+        "departureTime": "08:43:00",
         "isPassing": false
       }
     ],
@@ -12168,7 +12207,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -12187,12 +12226,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:50:00",
-        "departureTime": "08:55:00",
+        "departureTime": "08:50:00",
         "isPassing": false
       }
     ],
     "trainId": "125083",
-    "throughTripId": "HD_INB_SH-01_0849_111403",
+    "throughTripId": "HD_INB_SH-01_0855_125083",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_0816_125083",
     "prevLineId": "sotetsu_main"
@@ -12224,7 +12263,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:53:00",
-        "departureTime": "08:54:00",
+        "departureTime": "08:53:00",
         "isPassing": false
       }
     ],
@@ -12255,7 +12294,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:50:00",
-        "departureTime": "08:51:00",
+        "departureTime": "08:50:00",
         "isPassing": false
       }
     ],
@@ -12273,7 +12312,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -12292,7 +12331,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "08:58:00",
-        "departureTime": "09:03:00",
+        "departureTime": "08:58:00",
         "isPassing": false
       }
     ],
@@ -12334,7 +12373,8 @@
     ],
     "trainId": "157856",
     "prevTripId": "HD_OUT_SH-03_0846_157856",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "西谷"
   },
   {
     "tripId": "HD_INB_SO-08_0854_39205",
@@ -12357,7 +12397,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "08:57:00",
-        "departureTime": "09:02:00",
+        "departureTime": "08:57:00",
         "isPassing": false
       }
     ],
@@ -12388,7 +12428,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:04:00",
-        "departureTime": "09:06:00",
+        "departureTime": "09:04:00",
         "isPassing": false
       }
     ],
@@ -12406,7 +12446,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -12425,7 +12465,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "09:10:00",
-        "departureTime": "09:11:00",
+        "departureTime": "09:10:00",
         "isPassing": false
       }
     ],
@@ -12497,7 +12537,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:16:00",
-        "departureTime": "09:18:00",
+        "departureTime": "09:16:00",
         "isPassing": false
       }
     ],
@@ -12528,7 +12568,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "09:17:00",
-        "departureTime": "09:21:00",
+        "departureTime": "09:17:00",
         "isPassing": false
       }
     ],
@@ -12570,7 +12610,10 @@
     ],
     "trainId": "75624",
     "prevTripId": "HD_OUT_SH-03_0909_75624",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_0926_39353",
+    "throughLineId": "sotetsu_main",
+    "customDestination": "海老名"
   },
   {
     "tripId": "HD_OUT_SO-51_0920_39353",
@@ -12598,8 +12641,6 @@
       }
     ],
     "trainId": "39353",
-    "throughTripId": "HD_OUT_SO-08_0926_39353",
-    "throughLineId": "sotetsu_main",
     "prevTripId": "HD_INB_JS-20_0838_39353",
     "prevLineId": "sotetsu_jr_direct"
   },
@@ -12611,7 +12652,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -12630,12 +12671,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "09:30:00",
-        "departureTime": "09:33:00",
+        "departureTime": "09:30:00",
         "isPassing": false
       }
     ],
     "trainId": "125175",
-    "throughTripId": "HD_INB_SH-01_0929_111404",
+    "throughTripId": "HD_INB_SH-01_0933_125175",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-10_0916_125175",
     "prevLineId": "sotetsu_main"
@@ -12704,11 +12745,13 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "09:35:00",
-        "departureTime": "09:41:00",
+        "departureTime": "09:35:00",
         "isPassing": false
       }
     ],
     "trainId": "125103",
+    "throughTripId": "HD_INB_SH-01_0941_125103",
+    "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_0856_125103",
     "prevLineId": "sotetsu_main"
   },
@@ -12733,7 +12776,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "09:36:00",
-        "departureTime": "09:38:00",
+        "departureTime": "09:36:00",
         "isPassing": false
       }
     ],
@@ -12764,7 +12807,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:41:00",
-        "departureTime": "09:46:00",
+        "departureTime": "09:41:00",
         "isPassing": false
       }
     ],
@@ -12841,7 +12884,8 @@
     ],
     "trainId": "82814",
     "prevTripId": "HD_OUT_SH-03_0931_82814",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "西谷"
   },
   {
     "tripId": "HD_INB_SO-08_0944_39207",
@@ -12864,7 +12908,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "09:47:00",
-        "departureTime": "09:48:00",
+        "departureTime": "09:47:00",
         "isPassing": false
       }
     ],
@@ -12901,7 +12945,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:53:00",
-        "departureTime": "09:54:00",
+        "departureTime": "09:53:00",
         "isPassing": false
       }
     ],
@@ -12919,7 +12963,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -12938,7 +12982,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "10:00:00",
-        "departureTime": "10:02:00",
+        "departureTime": "10:00:00",
         "isPassing": false
       }
     ],
@@ -12993,7 +13037,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13012,12 +13056,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "10:04:00",
-        "departureTime": "10:09:00",
+        "departureTime": "10:04:00",
         "isPassing": false
       }
     ],
     "trainId": "125105",
-    "throughTripId": "HD_INB_SH-01_1004_111467",
+    "throughTripId": "HD_INB_SH-01_1009_125105",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_0926_125105",
     "prevLineId": "sotetsu_main"
@@ -13043,7 +13087,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "10:04:00",
-        "departureTime": "10:06:00",
+        "departureTime": "10:04:00",
         "isPassing": false
       }
     ],
@@ -13085,7 +13129,8 @@
     ],
     "trainId": "82815",
     "prevTripId": "HD_OUT_SH-03_1001_82815",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "customDestination": "西谷"
   },
   {
     "tripId": "HD_OUT_SO-51_1012_39395",
@@ -13108,7 +13153,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "10:14:00",
-        "departureTime": "10:16:00",
+        "departureTime": "10:14:00",
         "isPassing": false
       }
     ],
@@ -13126,7 +13171,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "赤羽岩淵",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13145,7 +13190,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "10:21:00",
-        "departureTime": "10:24:00",
+        "departureTime": "10:21:00",
         "isPassing": false
       }
     ],
@@ -13182,7 +13227,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "10:23:00",
-        "departureTime": "10:24:00",
+        "departureTime": "10:23:00",
         "isPassing": false
       }
     ],
@@ -13219,11 +13264,13 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "10:27:00",
-        "departureTime": "10:33:00",
+        "departureTime": "10:27:00",
         "isPassing": false
       }
     ],
     "trainId": "125176",
+    "throughTripId": "HD_INB_SH-01_1033_125176",
+    "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-10_1014_125176",
     "prevLineId": "sotetsu_main"
   },
@@ -13248,7 +13295,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "10:25:00",
-        "departureTime": "10:27:00",
+        "departureTime": "10:25:00",
         "isPassing": false
       }
     ],
@@ -13285,7 +13332,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "10:34:00",
-        "departureTime": "10:35:00",
+        "departureTime": "10:34:00",
         "isPassing": false
       }
     ],
@@ -13303,7 +13350,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13322,7 +13369,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "10:40:00",
-        "departureTime": "10:42:00",
+        "departureTime": "10:40:00",
         "isPassing": false
       }
     ],
@@ -13340,7 +13387,7 @@
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "SO-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13388,7 +13435,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "10:57:00",
-        "departureTime": "10:59:00",
+        "departureTime": "10:57:00",
         "isPassing": false
       }
     ],
@@ -13425,11 +13472,13 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "10:57:00",
-        "departureTime": "11:03:00",
+        "departureTime": "10:57:00",
         "isPassing": false
       }
     ],
     "trainId": "125204",
+    "throughTripId": "HD_INB_SH-01_1103_125204",
+    "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-10_1044_125204",
     "prevLineId": "sotetsu_main"
   },
@@ -13454,7 +13503,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "10:52:00",
-        "departureTime": "10:55:00",
+        "departureTime": "10:52:00",
         "isPassing": false
       }
     ],
@@ -13485,7 +13534,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "10:55:00",
-        "departureTime": "10:57:00",
+        "departureTime": "10:55:00",
         "isPassing": false
       }
     ],
@@ -13522,7 +13571,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "11:02:00",
-        "departureTime": "11:03:00",
+        "departureTime": "11:02:00",
         "isPassing": false
       }
     ],
@@ -13540,7 +13589,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13559,7 +13608,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "11:10:00",
-        "departureTime": "11:12:00",
+        "departureTime": "11:10:00",
         "isPassing": false
       }
     ],
@@ -13621,7 +13670,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "11:16:00",
-        "departureTime": "11:17:00",
+        "departureTime": "11:16:00",
         "isPassing": false
       }
     ],
@@ -13658,7 +13707,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "11:23:00",
-        "departureTime": "11:24:00",
+        "departureTime": "11:23:00",
         "isPassing": false
       }
     ],
@@ -13689,7 +13738,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "11:19:00",
-        "departureTime": "11:22:00",
+        "departureTime": "11:19:00",
         "isPassing": false
       }
     ],
@@ -13707,7 +13756,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13726,7 +13775,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "11:29:00",
-        "departureTime": "11:33:00",
+        "departureTime": "11:29:00",
         "isPassing": false
       }
     ],
@@ -13781,7 +13830,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13800,7 +13849,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "11:39:00",
-        "departureTime": "11:42:00",
+        "departureTime": "11:39:00",
         "isPassing": false
       }
     ],
@@ -13818,7 +13867,7 @@
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "SO-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13860,7 +13909,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "11:46:00",
-        "departureTime": "11:47:00",
+        "departureTime": "11:46:00",
         "isPassing": false
       }
     ],
@@ -13897,7 +13946,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "11:53:00",
-        "departureTime": "11:54:00",
+        "departureTime": "11:53:00",
         "isPassing": false
       }
     ],
@@ -13915,7 +13964,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13934,7 +13983,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "11:59:00",
-        "departureTime": "12:03:00",
+        "departureTime": "11:59:00",
         "isPassing": false
       }
     ],
@@ -14002,7 +14051,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:04:00",
-        "departureTime": "12:05:00",
+        "departureTime": "12:04:00",
         "isPassing": false
       }
     ],
@@ -14020,7 +14069,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14039,7 +14088,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "12:09:00",
-        "departureTime": "12:12:00",
+        "departureTime": "12:09:00",
         "isPassing": false
       }
     ],
@@ -14070,7 +14119,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "12:16:00",
-        "departureTime": "12:17:00",
+        "departureTime": "12:16:00",
         "isPassing": false
       }
     ],
@@ -14107,7 +14156,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:23:00",
-        "departureTime": "12:24:00",
+        "departureTime": "12:23:00",
         "isPassing": false
       }
     ],
@@ -14138,7 +14187,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:20:00",
-        "departureTime": "12:22:00",
+        "departureTime": "12:20:00",
         "isPassing": false
       }
     ],
@@ -14156,7 +14205,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14175,7 +14224,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "12:29:00",
-        "departureTime": "12:33:00",
+        "departureTime": "12:29:00",
         "isPassing": false
       }
     ],
@@ -14230,7 +14279,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14249,7 +14298,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "12:39:00",
-        "departureTime": "12:42:00",
+        "departureTime": "12:39:00",
         "isPassing": false
       }
     ],
@@ -14280,7 +14329,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:44:00",
-        "departureTime": "12:46:00",
+        "departureTime": "12:44:00",
         "isPassing": false
       }
     ],
@@ -14311,7 +14360,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "12:46:00",
-        "departureTime": "12:47:00",
+        "departureTime": "12:46:00",
         "isPassing": false
       }
     ],
@@ -14348,7 +14397,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:53:00",
-        "departureTime": "12:54:00",
+        "departureTime": "12:53:00",
         "isPassing": false
       }
     ],
@@ -14366,7 +14415,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14385,7 +14434,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "12:59:00",
-        "departureTime": "13:03:00",
+        "departureTime": "12:59:00",
         "isPassing": false
       }
     ],
@@ -14440,7 +14489,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14459,7 +14508,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "13:09:00",
-        "departureTime": "13:12:00",
+        "departureTime": "13:09:00",
         "isPassing": false
       }
     ],
@@ -14490,7 +14539,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "13:14:00",
-        "departureTime": "13:16:00",
+        "departureTime": "13:14:00",
         "isPassing": false
       }
     ],
@@ -14521,7 +14570,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "13:16:00",
-        "departureTime": "13:17:00",
+        "departureTime": "13:16:00",
         "isPassing": false
       }
     ],
@@ -14558,7 +14607,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "13:23:00",
-        "departureTime": "13:24:00",
+        "departureTime": "13:23:00",
         "isPassing": false
       }
     ],
@@ -14576,7 +14625,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14595,7 +14644,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "13:29:00",
-        "departureTime": "13:33:00",
+        "departureTime": "13:29:00",
         "isPassing": false
       }
     ],
@@ -14650,7 +14699,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14669,7 +14718,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "13:39:00",
-        "departureTime": "13:42:00",
+        "departureTime": "13:39:00",
         "isPassing": false
       }
     ],
@@ -14700,7 +14749,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "13:44:00",
-        "departureTime": "13:46:00",
+        "departureTime": "13:44:00",
         "isPassing": false
       }
     ],
@@ -14731,7 +14780,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "13:46:00",
-        "departureTime": "13:47:00",
+        "departureTime": "13:46:00",
         "isPassing": false
       }
     ],
@@ -14768,7 +14817,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "13:53:00",
-        "departureTime": "13:54:00",
+        "departureTime": "13:53:00",
         "isPassing": false
       }
     ],
@@ -14786,7 +14835,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14805,7 +14854,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "13:59:00",
-        "departureTime": "14:03:00",
+        "departureTime": "13:59:00",
         "isPassing": false
       }
     ],
@@ -14860,7 +14909,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14879,7 +14928,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "14:09:00",
-        "departureTime": "14:12:00",
+        "departureTime": "14:09:00",
         "isPassing": false
       }
     ],
@@ -14910,7 +14959,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "14:14:00",
-        "departureTime": "14:16:00",
+        "departureTime": "14:14:00",
         "isPassing": false
       }
     ],
@@ -14941,7 +14990,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "14:16:00",
-        "departureTime": "14:17:00",
+        "departureTime": "14:16:00",
         "isPassing": false
       }
     ],
@@ -14978,7 +15027,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "14:23:00",
-        "departureTime": "14:24:00",
+        "departureTime": "14:23:00",
         "isPassing": false
       }
     ],
@@ -14996,7 +15045,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15015,7 +15064,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "14:29:00",
-        "departureTime": "14:33:00",
+        "departureTime": "14:29:00",
         "isPassing": false
       }
     ],
@@ -15070,7 +15119,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15089,7 +15138,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "14:39:00",
-        "departureTime": "14:42:00",
+        "departureTime": "14:39:00",
         "isPassing": false
       }
     ],
@@ -15120,7 +15169,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "14:44:00",
-        "departureTime": "14:46:00",
+        "departureTime": "14:44:00",
         "isPassing": false
       }
     ],
@@ -15151,7 +15200,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "14:46:00",
-        "departureTime": "14:47:00",
+        "departureTime": "14:46:00",
         "isPassing": false
       }
     ],
@@ -15188,7 +15237,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "14:53:00",
-        "departureTime": "14:54:00",
+        "departureTime": "14:53:00",
         "isPassing": false
       }
     ],
@@ -15206,7 +15255,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "志木",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15225,7 +15274,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "14:59:00",
-        "departureTime": "15:03:00",
+        "departureTime": "14:59:00",
         "isPassing": false
       }
     ],
@@ -15280,7 +15329,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15299,7 +15348,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "15:09:00",
-        "departureTime": "15:12:00",
+        "departureTime": "15:09:00",
         "isPassing": false
       }
     ],
@@ -15330,7 +15379,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "15:14:00",
-        "departureTime": "15:16:00",
+        "departureTime": "15:14:00",
         "isPassing": false
       }
     ],
@@ -15361,7 +15410,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "15:16:00",
-        "departureTime": "15:17:00",
+        "departureTime": "15:16:00",
         "isPassing": false
       }
     ],
@@ -15398,7 +15447,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "15:23:00",
-        "departureTime": "15:24:00",
+        "departureTime": "15:23:00",
         "isPassing": false
       }
     ],
@@ -15416,7 +15465,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "池袋",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15435,7 +15484,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "15:29:00",
-        "departureTime": "15:33:00",
+        "departureTime": "15:29:00",
         "isPassing": false
       }
     ],
@@ -15490,7 +15539,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15509,7 +15558,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "15:39:00",
-        "departureTime": "15:42:00",
+        "departureTime": "15:39:00",
         "isPassing": false
       }
     ],
@@ -15540,7 +15589,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "15:44:00",
-        "departureTime": "15:46:00",
+        "departureTime": "15:44:00",
         "isPassing": false
       }
     ],
@@ -15571,7 +15620,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "15:46:00",
-        "departureTime": "15:47:00",
+        "departureTime": "15:46:00",
         "isPassing": false
       }
     ],
@@ -15608,7 +15657,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "15:53:00",
-        "departureTime": "15:54:00",
+        "departureTime": "15:53:00",
         "isPassing": false
       }
     ],
@@ -15626,7 +15675,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15645,7 +15694,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "15:59:00",
-        "departureTime": "16:03:00",
+        "departureTime": "15:59:00",
         "isPassing": false
       }
     ],
@@ -15713,7 +15762,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "16:01:00",
-        "departureTime": "16:04:00",
+        "departureTime": "16:01:00",
         "isPassing": false
       }
     ],
@@ -15731,7 +15780,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15750,7 +15799,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "16:10:00",
-        "departureTime": "16:12:00",
+        "departureTime": "16:10:00",
         "isPassing": false
       }
     ],
@@ -15781,7 +15830,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "16:14:00",
-        "departureTime": "16:16:00",
+        "departureTime": "16:14:00",
         "isPassing": false
       }
     ],
@@ -15818,7 +15867,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "16:23:00",
-        "departureTime": "16:24:00",
+        "departureTime": "16:23:00",
         "isPassing": false
       }
     ],
@@ -15849,7 +15898,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "16:24:00",
-        "departureTime": "16:26:00",
+        "departureTime": "16:24:00",
         "isPassing": false
       }
     ],
@@ -15904,7 +15953,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15923,7 +15972,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "16:32:00",
-        "departureTime": "16:33:00",
+        "departureTime": "16:32:00",
         "isPassing": false
       }
     ],
@@ -15941,7 +15990,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15960,7 +16009,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "16:40:00",
-        "departureTime": "16:42:00",
+        "departureTime": "16:40:00",
         "isPassing": false
       }
     ],
@@ -15991,7 +16040,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "16:44:00",
-        "departureTime": "16:46:00",
+        "departureTime": "16:44:00",
         "isPassing": false
       }
     ],
@@ -16022,7 +16071,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "16:45:00",
-        "departureTime": "16:47:00",
+        "departureTime": "16:45:00",
         "isPassing": false
       }
     ],
@@ -16059,7 +16108,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "16:53:00",
-        "departureTime": "16:54:00",
+        "departureTime": "16:53:00",
         "isPassing": false
       }
     ],
@@ -16077,7 +16126,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "池袋",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16096,7 +16145,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "16:59:00",
-        "departureTime": "17:03:00",
+        "departureTime": "16:59:00",
         "isPassing": false
       }
     ],
@@ -16151,7 +16200,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16170,12 +16219,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "17:06:00",
-        "departureTime": "17:11:00",
+        "departureTime": "17:06:00",
         "isPassing": false
       }
     ],
     "trainId": "125130",
-    "throughTripId": "HD_INB_SH-01_1705_111480",
+    "throughTripId": "HD_INB_SH-01_1711_125130",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_1631_125130",
     "prevLineId": "sotetsu_main"
@@ -16201,7 +16250,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "17:05:00",
-        "departureTime": "17:07:00",
+        "departureTime": "17:05:00",
         "isPassing": false
       }
     ],
@@ -16232,7 +16281,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:13:00",
-        "departureTime": "17:16:00",
+        "departureTime": "17:13:00",
         "isPassing": false
       }
     ],
@@ -16250,7 +16299,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "赤羽岩淵",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16269,12 +16318,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "17:20:00",
-        "departureTime": "17:26:00",
+        "departureTime": "17:20:00",
         "isPassing": false
       }
     ],
     "trainId": "126183",
-    "throughTripId": "HD_INB_SH-01_1720_111407",
+    "throughTripId": "HD_INB_SH-01_1726_126183",
     "throughLineId": "tokyu_shin_yokohama"
   },
   {
@@ -16291,7 +16340,7 @@
     "stops": [
       {
         "stationId": "SO-52",
-        "arrivalTime": "17:08:00",
+        "arrivalTime": "17:15:00",
         "departureTime": "17:17:00",
         "isPassing": false
       },
@@ -16304,11 +16353,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:23:00",
-        "departureTime": "17:25:00",
+        "departureTime": "17:23:00",
         "isPassing": false
       }
     ],
     "trainId": "82644",
+    "prevTripId": "HD_OUT_SH-03_1708_157785",
+    "prevLineId": "tokyu_shin_yokohama",
     "throughTripId": "HD_OUT_SO-08_1725_82644",
     "throughLineId": "sotetsu_main"
   },
@@ -16320,7 +16371,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "雑司が谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16339,7 +16390,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "17:30:00",
-        "departureTime": "17:33:00",
+        "departureTime": "17:30:00",
         "isPassing": false
       }
     ],
@@ -16407,7 +16458,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "17:28:00",
-        "departureTime": "17:30:00",
+        "departureTime": "17:28:00",
         "isPassing": false
       }
     ],
@@ -16438,7 +16489,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:34:00",
-        "departureTime": "17:35:00",
+        "departureTime": "17:34:00",
         "isPassing": false
       }
     ],
@@ -16456,7 +16507,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16475,7 +16526,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "17:40:00",
-        "departureTime": "17:41:00",
+        "departureTime": "17:40:00",
         "isPassing": false
       }
     ],
@@ -16512,7 +16563,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:40:00",
-        "departureTime": "17:41:00",
+        "departureTime": "17:40:00",
         "isPassing": false
       }
     ],
@@ -16580,7 +16631,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "17:45:00",
-        "departureTime": "17:47:00",
+        "departureTime": "17:45:00",
         "isPassing": false
       }
     ],
@@ -16617,7 +16668,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:54:00",
-        "departureTime": "17:55:00",
+        "departureTime": "17:54:00",
         "isPassing": false
       }
     ],
@@ -16635,7 +16686,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16654,7 +16705,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "17:54:00",
-        "departureTime": "17:56:00",
+        "departureTime": "17:54:00",
         "isPassing": false
       }
     ],
@@ -16672,7 +16723,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "池袋",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16691,7 +16742,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:00:00",
-        "departureTime": "18:04:00",
+        "departureTime": "18:00:00",
         "isPassing": false
       }
     ],
@@ -16728,7 +16779,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:07:00",
-        "departureTime": "18:09:00",
+        "departureTime": "18:07:00",
         "isPassing": false
       }
     ],
@@ -16759,7 +16810,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:01:00",
-        "departureTime": "18:05:00",
+        "departureTime": "18:01:00",
         "isPassing": false
       }
     ],
@@ -16777,7 +16828,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16796,7 +16847,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:10:00",
-        "departureTime": "18:11:00",
+        "departureTime": "18:10:00",
         "isPassing": false
       }
     ],
@@ -16833,7 +16884,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:10:00",
-        "departureTime": "18:11:00",
+        "departureTime": "18:10:00",
         "isPassing": false
       }
     ],
@@ -16864,7 +16915,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "18:08:00",
-        "departureTime": "18:10:00",
+        "departureTime": "18:08:00",
         "isPassing": false
       }
     ],
@@ -16919,7 +16970,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16938,12 +16989,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:20:00",
-        "departureTime": "18:26:00",
+        "departureTime": "18:20:00",
         "isPassing": false
       }
     ],
     "trainId": "125077",
-    "throughTripId": "HD_INB_SH-01_1821_111409",
+    "throughTripId": "HD_INB_SH-01_1826_125077",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_1753_125077",
     "prevLineId": "sotetsu_main"
@@ -16969,7 +17020,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:23:00",
-        "departureTime": "18:25:00",
+        "departureTime": "18:23:00",
         "isPassing": false
       }
     ],
@@ -17000,7 +17051,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "18:25:00",
-        "departureTime": "18:27:00",
+        "departureTime": "18:25:00",
         "isPassing": false
       }
     ],
@@ -17037,7 +17088,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:33:00",
-        "departureTime": "18:35:00",
+        "departureTime": "18:33:00",
         "isPassing": false
       }
     ],
@@ -17055,7 +17106,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17074,7 +17125,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:34:00",
-        "departureTime": "18:35:00",
+        "departureTime": "18:34:00",
         "isPassing": false
       }
     ],
@@ -17109,7 +17160,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:38:00",
-        "departureTime": "18:41:00",
+        "departureTime": "18:38:00",
         "isPassing": false
       }
     ],
@@ -17127,7 +17178,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17146,7 +17197,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:40:00",
-        "departureTime": "18:42:00",
+        "departureTime": "18:40:00",
         "isPassing": false
       }
     ],
@@ -17183,11 +17234,13 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "18:44:00",
-        "departureTime": "18:50:00",
+        "departureTime": "18:44:00",
         "isPassing": false
       }
     ],
     "trainId": "125066",
+    "throughTripId": "HD_INB_SH-01_1850_125066",
+    "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-10_1830_125066",
     "prevLineId": "sotetsu_main"
   },
@@ -17212,7 +17265,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:43:00",
-        "departureTime": "18:46:00",
+        "departureTime": "18:43:00",
         "isPassing": false
       }
     ],
@@ -17243,7 +17296,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "18:45:00",
-        "departureTime": "18:48:00",
+        "departureTime": "18:45:00",
         "isPassing": false
       }
     ],
@@ -17280,7 +17333,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:53:00",
-        "departureTime": "18:55:00",
+        "departureTime": "18:53:00",
         "isPassing": false
       }
     ],
@@ -17296,7 +17349,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "志木",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17315,7 +17368,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "19:00:00",
-        "departureTime": "19:05:00",
+        "departureTime": "19:00:00",
         "isPassing": false
       }
     ],
@@ -17352,7 +17405,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:04:00",
-        "departureTime": "19:06:00",
+        "departureTime": "19:04:00",
         "isPassing": false
       }
     ],
@@ -17383,7 +17436,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:00:00",
-        "departureTime": "19:01:00",
+        "departureTime": "19:00:00",
         "isPassing": false
       }
     ],
@@ -17414,7 +17467,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "19:05:00",
-        "departureTime": "19:08:00",
+        "departureTime": "19:05:00",
         "isPassing": false
       }
     ],
@@ -17480,11 +17533,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:13:00",
-        "departureTime": "19:15:00",
+        "departureTime": "19:13:00",
         "isPassing": false
       }
     ],
     "trainId": "75586",
+    "prevTripId": "HD_OUT_SH-03_1854_75586",
+    "prevLineId": "tokyu_shin_yokohama",
     "throughTripId": "HD_OUT_SO-08_1915_75586",
     "throughLineId": "sotetsu_main"
   },
@@ -17496,7 +17551,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17515,7 +17570,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "19:14:00",
-        "departureTime": "19:18:00",
+        "departureTime": "19:14:00",
         "isPassing": false
       }
     ],
@@ -17546,7 +17601,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:17:00",
-        "departureTime": "19:21:00",
+        "departureTime": "19:17:00",
         "isPassing": false
       }
     ],
@@ -17583,7 +17638,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:23:00",
-        "departureTime": "19:26:00",
+        "departureTime": "19:23:00",
         "isPassing": false
       }
     ],
@@ -17599,7 +17654,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17618,7 +17673,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "19:23:00",
-        "departureTime": "19:34:00",
+        "departureTime": "19:23:00",
         "isPassing": false
       }
     ],
@@ -17655,7 +17710,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:30:00",
-        "departureTime": "19:31:00",
+        "departureTime": "19:30:00",
         "isPassing": false
       }
     ],
@@ -17686,7 +17741,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "19:25:00",
-        "departureTime": "19:29:00",
+        "departureTime": "19:25:00",
         "isPassing": false
       }
     ],
@@ -17723,7 +17778,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:34:00",
-        "departureTime": "19:35:00",
+        "departureTime": "19:34:00",
         "isPassing": false
       }
     ],
@@ -17741,7 +17796,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17760,7 +17815,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "19:37:00",
-        "departureTime": "19:38:00",
+        "departureTime": "19:37:00",
         "isPassing": false
       }
     ],
@@ -17789,7 +17844,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:40:00",
-        "departureTime": "19:41:00",
+        "departureTime": "19:40:00",
         "isPassing": false
       }
     ],
@@ -17844,7 +17899,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17863,7 +17918,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "19:51:00",
-        "departureTime": "19:55:00",
+        "departureTime": "19:51:00",
         "isPassing": false
       }
     ],
@@ -17900,7 +17955,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:53:00",
-        "departureTime": "19:55:00",
+        "departureTime": "19:53:00",
         "isPassing": false
       }
     ],
@@ -17931,7 +17986,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "19:50:00",
-        "departureTime": "19:55:00",
+        "departureTime": "19:50:00",
         "isPassing": false
       }
     ],
@@ -17949,7 +18004,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17968,7 +18023,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "20:03:00",
-        "departureTime": "20:04:00",
+        "departureTime": "20:03:00",
         "isPassing": false
       }
     ],
@@ -18003,7 +18058,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:04:00",
-        "departureTime": "20:06:00",
+        "departureTime": "20:04:00",
         "isPassing": false
       }
     ],
@@ -18034,7 +18089,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:00:00",
-        "departureTime": "20:01:00",
+        "departureTime": "20:00:00",
         "isPassing": false
       }
     ],
@@ -18065,7 +18120,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "20:05:00",
-        "departureTime": "20:08:00",
+        "departureTime": "20:05:00",
         "isPassing": false
       }
     ],
@@ -18083,7 +18138,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -18102,7 +18157,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "20:15:00",
-        "departureTime": "20:16:00",
+        "departureTime": "20:15:00",
         "isPassing": false
       }
     ],
@@ -18118,7 +18173,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -18137,12 +18192,12 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "20:20:00",
-        "departureTime": "20:25:00",
+        "departureTime": "20:20:00",
         "isPassing": false
       }
     ],
     "trainId": "125139",
-    "throughTripId": "HD_INB_SH-01_2020_111414",
+    "throughTripId": "HD_INB_SH-01_2025_125139",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_1946_125139",
     "prevLineId": "sotetsu_main"
@@ -18174,7 +18229,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:24:00",
-        "departureTime": "20:26:00",
+        "departureTime": "20:24:00",
         "isPassing": false
       }
     ],
@@ -18205,7 +18260,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:20:00",
-        "departureTime": "20:21:00",
+        "departureTime": "20:20:00",
         "isPassing": false
       }
     ],
@@ -18236,7 +18291,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "20:25:00",
-        "departureTime": "20:27:00",
+        "departureTime": "20:25:00",
         "isPassing": false
       }
     ],
@@ -18273,7 +18328,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:33:00",
-        "departureTime": "20:35:00",
+        "departureTime": "20:33:00",
         "isPassing": false
       }
     ],
@@ -18291,7 +18346,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -18310,7 +18365,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "20:40:00",
-        "departureTime": "20:41:00",
+        "departureTime": "20:40:00",
         "isPassing": false
       }
     ],
@@ -18328,7 +18383,7 @@
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "SO-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -18341,11 +18396,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:40:00",
-        "departureTime": "20:46:00",
+        "departureTime": "20:40:00",
         "isPassing": false
       }
     ],
     "trainId": "39436",
+    "throughTripId": "HD_OUT_SO-08_2046_39436",
+    "throughLineId": "sotetsu_main",
     "prevTripId": "HD_INB_JS-20_1955_39436",
     "prevLineId": "sotetsu_jr_direct"
   },
@@ -18411,7 +18468,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:49:00",
-        "departureTime": "20:51:00",
+        "departureTime": "20:49:00",
         "isPassing": false
       }
     ],
@@ -18442,7 +18499,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "20:45:00",
-        "departureTime": "20:47:00",
+        "departureTime": "20:45:00",
         "isPassing": false
       }
     ],
@@ -18514,7 +18571,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:03:00",
-        "departureTime": "21:05:00",
+        "departureTime": "21:03:00",
         "isPassing": false
       }
     ],
@@ -18545,7 +18602,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:00:00",
-        "departureTime": "21:01:00",
+        "departureTime": "21:00:00",
         "isPassing": false
       }
     ],
@@ -18576,7 +18633,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "21:04:00",
-        "departureTime": "21:06:00",
+        "departureTime": "21:04:00",
         "isPassing": false
       }
     ],
@@ -18613,7 +18670,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:15:00",
-        "departureTime": "21:18:00",
+        "departureTime": "21:15:00",
         "isPassing": false
       }
     ],
@@ -18631,7 +18688,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -18650,7 +18707,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "21:15:00",
-        "departureTime": "21:17:00",
+        "departureTime": "21:15:00",
         "isPassing": false
       }
     ],
@@ -18666,7 +18723,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -18685,7 +18742,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "21:23:00",
-        "departureTime": "21:25:00",
+        "departureTime": "21:23:00",
         "isPassing": false
       }
     ],
@@ -18703,7 +18760,7 @@
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "SO-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -18716,11 +18773,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:20:00",
-        "departureTime": "21:26:00",
+        "departureTime": "21:20:00",
         "isPassing": false
       }
     ],
     "trainId": "39439",
+    "throughTripId": "HD_OUT_SO-08_2126_39439",
+    "throughLineId": "sotetsu_main",
     "prevTripId": "HD_INB_JS-20_2037_39439",
     "prevLineId": "sotetsu_jr_direct"
   },
@@ -18745,7 +18804,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "21:23:00",
-        "departureTime": "21:25:00",
+        "departureTime": "21:23:00",
         "isPassing": false
       }
     ],
@@ -18782,7 +18841,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:34:00",
-        "departureTime": "21:38:00",
+        "departureTime": "21:34:00",
         "isPassing": false
       }
     ],
@@ -18800,7 +18859,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -18819,7 +18878,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "21:38:00",
-        "departureTime": "21:39:00",
+        "departureTime": "21:38:00",
         "isPassing": false
       }
     ],
@@ -18850,7 +18909,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:43:00",
-        "departureTime": "21:45:00",
+        "departureTime": "21:43:00",
         "isPassing": false
       }
     ],
@@ -18868,7 +18927,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -18887,7 +18946,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "21:53:00",
-        "departureTime": "21:55:00",
+        "departureTime": "21:53:00",
         "isPassing": false
       }
     ],
@@ -18924,7 +18983,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:54:00",
-        "departureTime": "21:56:00",
+        "departureTime": "21:54:00",
         "isPassing": false
       }
     ],
@@ -18961,7 +19020,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:04:00",
-        "departureTime": "22:05:00",
+        "departureTime": "22:04:00",
         "isPassing": false
       }
     ],
@@ -18992,7 +19051,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "21:59:00",
-        "departureTime": "22:02:00",
+        "departureTime": "21:59:00",
         "isPassing": false
       }
     ],
@@ -19023,7 +19082,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:01:00",
-        "departureTime": "22:02:00",
+        "departureTime": "22:01:00",
         "isPassing": false
       }
     ],
@@ -19041,7 +19100,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -19060,7 +19119,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "22:15:00",
-        "departureTime": "22:19:00",
+        "departureTime": "22:15:00",
         "isPassing": false
       }
     ],
@@ -19126,7 +19185,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:18:00",
-        "departureTime": "22:20:00",
+        "departureTime": "22:18:00",
         "isPassing": false
       }
     ],
@@ -19163,7 +19222,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:23:00",
-        "departureTime": "22:26:00",
+        "departureTime": "22:23:00",
         "isPassing": false
       }
     ],
@@ -19200,7 +19259,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:29:00",
-        "departureTime": "22:31:00",
+        "departureTime": "22:29:00",
         "isPassing": false
       }
     ],
@@ -19231,7 +19290,7 @@
       {
         "stationId": "SO-51",
         "arrivalTime": "22:32:00",
-        "departureTime": "22:33:00",
+        "departureTime": "22:32:00",
         "isPassing": false
       }
     ],
@@ -19249,7 +19308,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "目黒",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -19268,7 +19327,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "22:40:00",
-        "departureTime": "22:41:00",
+        "departureTime": "22:40:00",
         "isPassing": false
       }
     ],
@@ -19297,7 +19356,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:40:00",
-        "departureTime": "22:43:00",
+        "departureTime": "22:40:00",
         "isPassing": false
       }
     ],
@@ -19315,7 +19374,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -19334,7 +19393,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "22:50:00",
-        "departureTime": "22:51:00",
+        "departureTime": "22:50:00",
         "isPassing": false
       }
     ],
@@ -19371,7 +19430,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:53:00",
-        "departureTime": "22:55:00",
+        "departureTime": "22:53:00",
         "isPassing": false
       }
     ],
@@ -19389,7 +19448,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "行先不明",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -19408,7 +19467,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "23:05:00",
-        "departureTime": "23:06:00",
+        "departureTime": "23:05:00",
         "isPassing": false
       }
     ],
@@ -19443,7 +19502,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:09:00",
-        "departureTime": "23:10:00",
+        "departureTime": "23:09:00",
         "isPassing": false
       }
     ],
@@ -19461,7 +19520,7 @@
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "SO-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -19474,11 +19533,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:01:00",
-        "departureTime": "23:07:00",
+        "departureTime": "23:01:00",
         "isPassing": false
       }
     ],
     "trainId": "39443",
+    "throughTripId": "HD_OUT_SO-08_2307_39443",
+    "throughLineId": "sotetsu_main",
     "prevTripId": "HD_INB_JS-20_2218_39443",
     "prevLineId": "sotetsu_jr_direct"
   },
@@ -19490,7 +19551,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -19509,7 +19570,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "23:12:00",
-        "departureTime": "23:13:00",
+        "departureTime": "23:12:00",
         "isPassing": false
       }
     ],
@@ -19559,7 +19620,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-52",
-    "customDestination": "日吉",
+    "customDestination": "行先不明",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -19578,7 +19639,7 @@
       {
         "stationId": "SO-52",
         "arrivalTime": "23:23:00",
-        "departureTime": "23:27:00",
+        "departureTime": "23:23:00",
         "isPassing": false
       }
     ],
@@ -19648,7 +19709,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:38:00",
-        "departureTime": "23:41:00",
+        "departureTime": "23:38:00",
         "isPassing": false
       }
     ],
@@ -19714,7 +19775,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:51:00",
-        "departureTime": "23:55:00",
+        "departureTime": "23:51:00",
         "isPassing": false
       }
     ],
@@ -19754,7 +19815,8 @@
     ],
     "trainId": "126178",
     "prevTripId": "HD_INB_SO-18_2327_126178",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "customDestination": "新横浜"
   },
   {
     "tripId": "HD_OUT_SO-51_2355_39447",
@@ -19777,7 +19839,7 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:57:00",
-        "departureTime": "23:59:00",
+        "departureTime": "23:57:00",
         "isPassing": false
       }
     ],
