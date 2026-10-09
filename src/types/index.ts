@@ -1,6 +1,6 @@
 // Trainfo 共通型定義ファイル
 
-export type LineId = 'tojo' | 'ogose' | 'saikyo' | 'kawagoe' | 'rinkai' | 'hachiko' | 'itsukaichi' | 'musashino' | 'tsukuba_express' | 'chuo' | 'chuo_main' | 'shinonoi' | 'oito_east' | 'oito_west' | 'yurakucho' | 'fukutoshin' | 'seibu_ikebukuro' | 'seibu_yurakucho' | 'ome' | 'chichibu' | 'odakyu_odawara' | 'odakyu_enoshima' | 'odakyu_tama' | 'tokyu_toyoko' | (string & {});
+export type LineId = 'tojo' | 'ogose' | 'saikyo' | 'kawagoe' | 'rinkai' | 'hachiko' | 'itsukaichi' | 'musashino' | 'tsukuba_express' | 'chuo' | 'chuo_main' | 'shinonoi' | 'oito_east' | 'oito_west' | 'yurakucho' | 'fukutoshin' | 'seibu_ikebukuro' | 'seibu_yurakucho' | 'ome' | 'chichibu' | 'odakyu_odawara' | 'odakyu_enoshima' | 'odakyu_tama' | 'tokyu_toyoko' | 'minatomirai' | (string & {});
 
 // 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋東京メトロ＋西武線＋秩父鉄道＋汎用）
 export type TrainTypeKey =
@@ -19,8 +19,8 @@ export type TrainTypeKey =
   | 'ome_special_rapid'       // 青梅特快（中央線）
   | 'commuter_special_rapid'  // 通勤特快（中央線）
   | 'limitedExp'              // 特急（あずさ・かいじ・ラビュー・ちちぶ・むさし等）
-  | 'commuter_ltd_exp'        // 通勤特急（東急東横線等）
-  | 'ltd_exp'                 // 特急（東急東横線等）
+  | 'commuter_ltd_exp'        // 通勤特急（東急東横線・みなとみらい線等）
+  | 'ltd_exp'                 // 特急（東急東横線・みなとみらい線等）
   | 'rapidExp'                // 快速急行
   | 'kawagoeExp'              // 川越特急
   | 'tjLiner'                 // TJライナー
