@@ -49,8 +49,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "代官山",
     "nameKana": "だいかんやま",
     "nameEn": "Daikanyama",
-    "lat": 35.6489814,
-    "lng": 139.7032128,
+    "lat": 35.6481642,
+    "lng": 139.7032482,
     "transfers": [],
     "address": "東京都渋谷区代官山町19-4",
     "facilities": {
@@ -75,8 +75,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "中目黒",
     "nameKana": "なかめぐろ",
     "nameEn": "Naka-meguro",
-    "lat": 35.6441774,
-    "lng": 139.6990479,
+    "lat": 35.6442023,
+    "lng": 139.6987133,
     "transfers": [
       "東京メトロ日比谷線"
     ],
@@ -108,8 +108,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "祐天寺",
     "nameKana": "ゆうてんじ",
     "nameEn": "Yutenji",
-    "lat": 35.6373859,
-    "lng": 139.6917409,
+    "lat": 35.6375748,
+    "lng": 139.6910422,
     "transfers": [],
     "address": "東京都目黒区祐天寺二丁目13-3",
     "facilities": {
@@ -134,8 +134,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "学芸大学",
     "nameKana": "がくげいだいがく",
     "nameEn": "Gakugei-daigaku",
-    "lat": 35.6289947,
-    "lng": 139.6853765,
+    "lat": 35.6289474,
+    "lng": 139.6852812,
     "transfers": [],
     "address": "東京都目黒区鷹番三丁目2-1",
     "facilities": {
@@ -162,8 +162,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "都立大学",
     "nameKana": "とりつだいがく",
     "nameEn": "Toritsu-daigaku",
-    "lat": 35.6181745,
-    "lng": 139.6775607,
+    "lat": 35.6175561,
+    "lng": 139.6761727,
     "transfers": [],
     "address": "東京都目黒区中根一丁目3-2",
     "facilities": {
@@ -188,8 +188,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "自由が丘",
     "nameKana": "じゆうがおか",
     "nameEn": "Jiyugaoka",
-    "lat": 35.6074213,
-    "lng": 139.6687002,
+    "lat": 35.6075666,
+    "lng": 139.668826,
     "transfers": [
       "東急大井町線"
     ],
@@ -221,8 +221,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "田園調布",
     "nameKana": "でんえんちょうふ",
     "nameEn": "Denen-chofu",
-    "lat": 35.5968212,
-    "lng": 139.6670868,
+    "lat": 35.596893,
+    "lng": 139.6672836,
     "transfers": [
       "東急目黒線"
     ],
@@ -251,8 +251,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "多摩川",
     "nameKana": "たまがわ",
     "nameEn": "Tamagawa",
-    "lat": 35.5893322,
-    "lng": 139.6689617,
+    "lat": 35.5896082,
+    "lng": 139.668669,
     "transfers": [
       "東急目黒線",
       "東急東急多摩川線"
@@ -282,8 +282,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "新丸子",
     "nameKana": "しんまるこ",
     "nameEn": "Shin-maruko",
-    "lat": 35.5796931,
-    "lng": 139.6622434,
+    "lat": 35.580698,
+    "lng": 139.6618902,
     "transfers": [
       "東急目黒線"
     ],
@@ -310,8 +310,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "武蔵小杉",
     "nameKana": "むさしこすぎ",
     "nameEn": "Musashi-kosugi",
-    "lat": 35.5750242,
-    "lng": 139.6596956,
+    "lat": 35.5758364,
+    "lng": 139.6595763,
     "transfers": [
       "JR南武線",
       "JR横須賀線",
@@ -348,8 +348,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "元住吉",
     "nameKana": "もとすみよし",
     "nameEn": "Motosumiyoshi",
-    "lat": 35.5645511,
-    "lng": 139.6542797,
+    "lat": 35.5645231,
+    "lng": 139.6539746,
     "transfers": [
       "東急目黒線"
     ],
@@ -376,8 +376,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "日吉",
     "nameKana": "ひよし",
     "nameEn": "Hiyoshi",
-    "lat": 35.553255,
-    "lng": 139.6468453,
+    "lat": 35.553503,
+    "lng": 139.6467609,
     "transfers": [
       "東急目黒線",
       "東急新横浜線",
@@ -409,8 +409,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "綱島",
     "nameKana": "つなしま",
     "nameEn": "Tsunashima",
-    "lat": 35.5367375,
-    "lng": 139.6358742,
+    "lat": 35.5367489,
+    "lng": 139.6346736,
     "transfers": [],
     "address": "神奈川県横浜市港北区綱島西一丁目1-8",
     "facilities": {
@@ -437,8 +437,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "大倉山",
     "nameKana": "おおくらやま",
     "nameEn": "Okurayama",
-    "lat": 35.521855,
-    "lng": 139.6310237,
+    "lat": 35.5218325,
+    "lng": 139.6298505,
     "transfers": [],
     "address": "神奈川県横浜市港北区大倉山一丁目1-1",
     "facilities": {
@@ -463,8 +463,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "菊名",
     "nameKana": "きくな",
     "nameEn": "Kikuna",
-    "lat": 35.5096856,
-    "lng": 139.6302732,
+    "lat": 35.5104389,
+    "lng": 139.6312819,
     "transfers": [
       "JR横浜線"
     ],
@@ -495,8 +495,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "妙蓮寺",
     "nameKana": "みょうれんじ",
     "nameEn": "Myorenji",
-    "lat": 35.4985364,
-    "lng": 139.6332256,
+    "lat": 35.4985939,
+    "lng": 139.6332061,
     "transfers": [],
     "address": "神奈川県横浜市港北区菊名一丁目1-38",
     "facilities": {
@@ -521,8 +521,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "白楽",
     "nameKana": "はくらく",
     "nameEn": "Hakuraku",
-    "lat": 35.4896753,
-    "lng": 139.6279215,
+    "lat": 35.4895642,
+    "lng": 139.627843,
     "transfers": [],
     "address": "神奈川県横浜市神奈川区白楽100",
     "facilities": {
@@ -547,8 +547,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "東白楽",
     "nameKana": "ひがしはくらく",
     "nameEn": "Higashi-hakuraku",
-    "lat": 35.4832475,
-    "lng": 139.6294747,
+    "lat": 35.483241,
+    "lng": 139.6294517,
     "transfers": [],
     "address": "神奈川県横浜市神奈川区白楽12",
     "facilities": {
@@ -573,8 +573,8 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
     "name": "反町",
     "nameKana": "たんまち",
     "nameEn": "Tammachi",
-    "lat": 35.4746815,
-    "lng": 139.6252491,
+    "lat": 35.4745472,
+    "lng": 139.6253046,
     "transfers": [],
     "address": "神奈川県横浜市神奈川区上反町一丁目1",
     "facilities": {
