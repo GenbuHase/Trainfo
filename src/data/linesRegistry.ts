@@ -28,6 +28,7 @@ import { tokyuShinYokohamaLine } from './lines/tokyu_shin_yokohama';
 import { sotetsuShinYokohamaLine } from './lines/sotetsu_shin_yokohama';
 import { sotetsuMainLine } from './lines/sotetsu_main';
 import { sotetsuIzuminoLine } from './lines/sotetsu_izumino';
+import { sotetsuJrDirectLine } from './lines/sotetsu_jr_direct';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -46,6 +47,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   sotetsu_shin_yokohama: sotetsuShinYokohamaLine,
   sotetsu_main: sotetsuMainLine,
   sotetsu_izumino: sotetsuIzuminoLine,
+  sotetsu_jr_direct: sotetsuJrDirectLine,
   hachiko: hachikoLine,
   musashino: musashinoLine,
   tsukuba_express: tsukubaExpressLine,

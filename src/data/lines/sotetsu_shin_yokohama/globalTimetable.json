@@ -281,7 +281,9 @@
     ],
     "trainId": "39200",
     "prevTripId": "WD_INB_SO-18_0524_39200",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0547_39200",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_0546_125058",
@@ -454,7 +456,9 @@
     ],
     "trainId": "39202",
     "prevTripId": "WD_INB_SO-18_0543_39202",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0605_39202",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_0612_111069",
@@ -666,7 +670,9 @@
     ],
     "trainId": "39203",
     "prevTripId": "WD_INB_SO-18_0610_39203",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0636_39203",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_0642_111071",
@@ -750,7 +756,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "川越",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -769,7 +775,9 @@
     ],
     "trainId": "39292",
     "prevTripId": "WD_INB_SO-18_0630_39292",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0654_39292",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_0652_82627",
@@ -914,7 +922,7 @@
       }
     ],
     "trainId": "125061",
-    "throughTripId": "WD_INB_SH-01_0712_125061",
+    "throughTripId": "WD_INB_SH-01_0708_111400",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-10_0654_125061",
     "prevLineId": "sotetsu_main"
@@ -964,7 +972,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "赤羽",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -983,7 +991,9 @@
     ],
     "trainId": "39295",
     "prevTripId": "WD_INB_SO-18_0645_39295",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0714_39295",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-51_0711_39392",
@@ -1012,7 +1022,9 @@
     ],
     "trainId": "39392",
     "throughTripId": "WD_OUT_SO-08_0716_39392",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_0631_39392",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_0712_111089",
@@ -1081,7 +1093,7 @@
       }
     ],
     "trainId": "125154",
-    "throughTripId": "WD_INB_SH-01_0727_125154",
+    "throughTripId": "WD_INB_SH-01_0723_111318",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-10_0710_125154",
     "prevLineId": "sotetsu_main"
@@ -1166,7 +1178,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "大宮(埼玉県)",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1185,7 +1197,9 @@
     ],
     "trainId": "39290",
     "prevTripId": "WD_INB_SO-18_0658_39290",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0730_39290",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_0729_125070",
@@ -1219,7 +1233,7 @@
       }
     ],
     "trainId": "125070",
-    "throughTripId": "WD_INB_SH-01_0737_125070",
+    "throughTripId": "WD_INB_SH-01_0735_111401",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-18_0707_125070",
     "prevLineId": "sotetsu_main"
@@ -1362,7 +1376,9 @@
     ],
     "trainId": "39393",
     "throughTripId": "WD_OUT_SO-08_0744_39393",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_0658_39393",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_0741_125082",
@@ -1396,7 +1412,7 @@
       }
     ],
     "trainId": "125082",
-    "throughTripId": "WD_INB_SH-01_0753_125082",
+    "throughTripId": "WD_INB_SH-01_0748_111387",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-18_0709_125082",
     "prevLineId": "sotetsu_main"
@@ -1446,7 +1462,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "赤羽",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1465,7 +1481,9 @@
     ],
     "trainId": "39296",
     "prevTripId": "WD_INB_SO-18_0722_39296",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0751_39296",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_0749_157861",
@@ -1536,7 +1554,7 @@
       }
     ],
     "trainId": "125147",
-    "throughTripId": "WD_INB_SH-01_0801_125147",
+    "throughTripId": "WD_INB_SH-01_0758_111316",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-10_0747_125147",
     "prevLineId": "sotetsu_main"
@@ -1623,7 +1641,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "川越",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1642,7 +1660,9 @@
     ],
     "trainId": "39293",
     "prevTripId": "WD_INB_SO-18_0737_39293",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0804_39293",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_0802_125062",
@@ -1708,7 +1728,9 @@
     ],
     "trainId": "39394",
     "throughTripId": "WD_OUT_SO-08_0810_39394",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_0725_39394",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_0807_125145",
@@ -1829,7 +1851,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "池袋",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1848,7 +1870,9 @@
     ],
     "trainId": "39223",
     "prevTripId": "WD_INB_SO-18_0752_39223",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0818_39223",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_0817_125156",
@@ -1951,7 +1975,9 @@
     ],
     "trainId": "39346",
     "throughTripId": "WD_OUT_SO-08_0825_39346",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_0740_39346",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_0822_125164",
@@ -2059,7 +2085,7 @@
       }
     ],
     "trainId": "125072",
-    "throughTripId": "WD_INB_SH-01_0836_125072",
+    "throughTripId": "WD_INB_SH-01_0833_111402",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-18_0807_125072",
     "prevLineId": "sotetsu_main"
@@ -2072,7 +2098,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "大宮(埼玉県)",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2091,7 +2117,9 @@
     ],
     "trainId": "39291",
     "prevTripId": "WD_INB_SO-18_0801_39291",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0837_39291",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-51_0834_39344",
@@ -2120,7 +2148,9 @@
     ],
     "trainId": "39344",
     "throughTripId": "WD_OUT_SO-08_0837_39344",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_0754_39344",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_0835_157862",
@@ -2223,7 +2253,9 @@
     ],
     "trainId": "39225",
     "prevTripId": "WD_INB_SO-18_0818_39225",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0850_39225",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_0850_75567",
@@ -2326,7 +2358,9 @@
     ],
     "trainId": "39352",
     "throughTripId": "WD_OUT_SO-08_0855_39352",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_0812_39352",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_0858_39226",
@@ -2355,7 +2389,9 @@
     ],
     "trainId": "39226",
     "prevTripId": "WD_INB_SO-18_0831_39226",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0902_39226",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_0901_75570",
@@ -2455,7 +2491,9 @@
     ],
     "trainId": "39349",
     "throughTripId": "WD_OUT_SO-08_0907_39349",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_0822_39349",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_0908_125197",
@@ -2558,7 +2596,9 @@
     ],
     "trainId": "39227",
     "prevTripId": "WD_INB_SO-18_0849_39227",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0921_39227",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_0919_157857",
@@ -2621,7 +2661,9 @@
     ],
     "trainId": "39350",
     "throughTripId": "WD_OUT_SO-08_0922_39350",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_0836_39350",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_0925_75587",
@@ -2692,7 +2734,7 @@
       }
     ],
     "trainId": "125104",
-    "throughTripId": "WD_INB_SH-01_0938_125104",
+    "throughTripId": "WD_INB_SH-01_0932_111405",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-18_0900_125104",
     "prevLineId": "sotetsu_main"
@@ -2865,7 +2907,9 @@
     ],
     "trainId": "39354",
     "throughTripId": "WD_OUT_SO-08_0942_39354",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_0856_39354",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_0942_39229",
@@ -2894,7 +2938,9 @@
     ],
     "trainId": "39229",
     "prevTripId": "WD_INB_SO-18_0913_39229",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_0948_39229",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_0947_75588",
@@ -2997,7 +3043,9 @@
     ],
     "trainId": "41484",
     "throughTripId": "WD_OUT_SO-08_0959_41484",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_0915_41484",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_0956_157820",
@@ -3063,7 +3111,9 @@
     ],
     "trainId": "39230",
     "prevTripId": "WD_INB_SO-18_0930_39230",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1003_39230",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1001_75568",
@@ -3233,7 +3283,9 @@
     ],
     "trainId": "39451",
     "throughTripId": "WD_OUT_SO-08_1025_39451",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_0936_39451",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1021_39232",
@@ -3262,7 +3314,9 @@
     ],
     "trainId": "39232",
     "prevTripId": "WD_INB_SO-18_0956_39232",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1025_39232",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1028_82643",
@@ -3363,7 +3417,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39397"
+    "trainId": "39397",
+    "prevTripId": "WD_INB_JS-20_0957_39397",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1041_82816",
@@ -3426,7 +3482,9 @@
     ],
     "trainId": "39235",
     "prevTripId": "WD_INB_SO-18_1016_39235",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1052_39235",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1051_106484",
@@ -3524,7 +3582,9 @@
     ],
     "trainId": "39452",
     "throughTripId": "WD_OUT_SO-08_1055_39452",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1013_39452",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1057_157849",
@@ -3664,7 +3724,9 @@
     ],
     "trainId": "39399",
     "throughTripId": "WD_OUT_SO-08_1116_39399",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1035_39399",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1113_39236",
@@ -3693,7 +3755,9 @@
     ],
     "trainId": "39236",
     "prevTripId": "WD_INB_SO-18_1046_39236",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1117_39236",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1121_125219",
@@ -3829,7 +3893,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39403"
+    "trainId": "39403",
+    "prevTripId": "WD_INB_JS-20_1055_39403",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1143_39239",
@@ -3858,7 +3924,9 @@
     ],
     "trainId": "39239",
     "prevTripId": "WD_INB_SO-18_1116_39239",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1147_39239",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1147_106469",
@@ -4033,7 +4101,9 @@
     ],
     "trainId": "39404",
     "throughTripId": "WD_OUT_SO-08_1208_39404",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1119_39404",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1213_39240",
@@ -4062,7 +4132,9 @@
     ],
     "trainId": "39240",
     "prevTripId": "WD_INB_SO-18_1146_39240",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1217_39240",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1217_75594",
@@ -4128,7 +4200,9 @@
     ],
     "trainId": "39406",
     "throughTripId": "WD_OUT_SO-08_1222_39406",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1141_39406",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1222_125178",
@@ -4268,7 +4342,9 @@
     ],
     "trainId": "39408",
     "throughTripId": "WD_OUT_SO-08_1246_39408",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1202_39408",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1243_39243",
@@ -4297,7 +4373,9 @@
     ],
     "trainId": "39243",
     "prevTripId": "WD_INB_SO-18_1216_39243",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1247_39243",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1247_115259",
@@ -4474,7 +4552,9 @@
     ],
     "trainId": "39409",
     "throughTripId": "WD_OUT_SO-08_1316_39409",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1232_39409",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1313_39245",
@@ -4503,7 +4583,9 @@
     ],
     "trainId": "39245",
     "prevTripId": "WD_INB_SO-18_1246_39245",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1317_39245",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1317_75596",
@@ -4680,7 +4762,9 @@
     ],
     "trainId": "39412",
     "throughTripId": "WD_OUT_SO-08_1346_39412",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1302_39412",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1343_39246",
@@ -4709,7 +4793,9 @@
     ],
     "trainId": "39246",
     "prevTripId": "WD_INB_SO-18_1316_39246",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1347_39246",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1347_115262",
@@ -4886,7 +4972,9 @@
     ],
     "trainId": "39414",
     "throughTripId": "WD_OUT_SO-08_1416_39414",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1332_39414",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1413_39248",
@@ -4915,7 +5003,9 @@
     ],
     "trainId": "39248",
     "prevTripId": "WD_INB_SO-18_1346_39248",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1417_39248",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1417_75598",
@@ -5092,7 +5182,9 @@
     ],
     "trainId": "39415",
     "throughTripId": "WD_OUT_SO-08_1446_39415",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1402_39415",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1443_39250",
@@ -5121,7 +5213,9 @@
     ],
     "trainId": "39250",
     "prevTripId": "WD_INB_SO-18_1416_39250",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1447_39250",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1447_115264",
@@ -5298,7 +5392,9 @@
     ],
     "trainId": "39417",
     "throughTripId": "WD_OUT_SO-08_1516_39417",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1432_39417",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1513_39253",
@@ -5327,7 +5423,9 @@
     ],
     "trainId": "39253",
     "prevTripId": "WD_INB_SO-18_1446_39253",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1517_39253",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1517_75600",
@@ -5504,7 +5602,9 @@
     ],
     "trainId": "39420",
     "throughTripId": "WD_OUT_SO-08_1546_39420",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1502_39420",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1543_39254",
@@ -5533,7 +5633,9 @@
     ],
     "trainId": "39254",
     "prevTripId": "WD_INB_SO-18_1516_39254",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1547_39254",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1547_115265",
@@ -5710,7 +5812,9 @@
     ],
     "trainId": "39209",
     "prevTripId": "WD_INB_SO-18_1542_39209",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1607_39209",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-51_1612_39421",
@@ -5739,7 +5843,9 @@
     ],
     "trainId": "39421",
     "throughTripId": "WD_OUT_SO-08_1616_39421",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1532_39421",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1617_75601",
@@ -5805,7 +5911,9 @@
     ],
     "trainId": "39258",
     "prevTripId": "WD_INB_SO-18_1555_39258",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1626_39258",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1625_125184",
@@ -5982,7 +6090,9 @@
     ],
     "trainId": "39210",
     "prevTripId": "WD_INB_SO-18_1622_39210",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1646_39210",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-51_1646_39423",
@@ -6009,7 +6119,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39423"
+    "trainId": "39423",
+    "prevTripId": "WD_INB_JS-20_1602_39423",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1649_125202",
@@ -6149,7 +6261,9 @@
     ],
     "trainId": "39260",
     "prevTripId": "WD_INB_SO-18_1630_39260",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1706_39260",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-51_1711_39426",
@@ -6178,7 +6292,9 @@
     ],
     "trainId": "39426",
     "throughTripId": "WD_OUT_SO-08_1715_39426",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1632_39426",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1712_82624",
@@ -6316,7 +6432,9 @@
     ],
     "trainId": "39262",
     "prevTripId": "WD_INB_SO-18_1655_39262",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1727_39262",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1724_75603",
@@ -6456,7 +6574,9 @@
     ],
     "trainId": "39427",
     "throughTripId": "WD_OUT_SO-08_1740_39427",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1652_39427",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1738_75569",
@@ -6556,7 +6676,9 @@
     ],
     "trainId": "39211",
     "prevTripId": "WD_INB_SO-18_1724_39211",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1748_39211",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1747_157808",
@@ -6659,7 +6781,9 @@
     ],
     "trainId": "39428",
     "throughTripId": "WD_OUT_SO-08_1758_39428",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1712_39428",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1755_125131",
@@ -6729,7 +6853,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "125220"
+    "trainId": "125220",
+    "prevTripId": "WD_INB_SO-18_1732_39265",
+    "prevLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-52_1802_82645",
@@ -6795,7 +6921,9 @@
     ],
     "trainId": "39265",
     "prevTripId": "WD_INB_SO-18_1732_39265",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1809_39265",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1809_75604",
@@ -6898,7 +7026,9 @@
     ],
     "trainId": "39457",
     "throughTripId": "WD_OUT_SO-08_1822_39457",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1736_39457",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1819_157810",
@@ -6964,7 +7094,9 @@
     ],
     "trainId": "39267",
     "prevTripId": "WD_INB_SO-18_1751_39267",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1826_39267",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1825_125065",
@@ -6998,7 +7130,7 @@
       }
     ],
     "trainId": "125065",
-    "throughTripId": "WD_INB_SH-01_1837_125065",
+    "throughTripId": "WD_INB_SH-01_1832_111410",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-10_1816_125065",
     "prevLineId": "sotetsu_main"
@@ -7141,7 +7273,9 @@
     ],
     "trainId": "39459",
     "throughTripId": "WD_OUT_SO-08_1838_39459",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1756_39459",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1839_125079",
@@ -7175,7 +7309,7 @@
       }
     ],
     "trainId": "125079",
-    "throughTripId": "WD_INB_SH-01_1851_125079",
+    "throughTripId": "WD_INB_SH-01_1847_111411",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-18_1819_125079",
     "prevLineId": "sotetsu_main"
@@ -7207,7 +7341,9 @@
     ],
     "trainId": "39268",
     "prevTripId": "WD_INB_SO-18_1813_39268",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1848_39268",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1848_157809",
@@ -7384,7 +7520,9 @@
     ],
     "trainId": "39460",
     "throughTripId": "WD_OUT_SO-08_1901_39460",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1816_39460",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1903_82648",
@@ -7450,7 +7588,9 @@
     ],
     "trainId": "39215",
     "prevTripId": "WD_INB_SO-18_1845_39215",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1908_39215",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1904_39214",
@@ -7619,7 +7759,9 @@
     ],
     "trainId": "39461",
     "throughTripId": "WD_OUT_SO-08_1922_39461",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1836_39461",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1919_82639",
@@ -7685,7 +7827,9 @@
     ],
     "trainId": "39216",
     "prevTripId": "WD_INB_SO-18_1903_39216",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1926_39216",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1926_125087",
@@ -7860,7 +8004,9 @@
     ],
     "trainId": "39462",
     "throughTripId": "WD_OUT_SO-08_1943_39462",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1856_39462",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_1940_125132",
@@ -8000,7 +8146,9 @@
     ],
     "trainId": "39273",
     "prevTripId": "WD_INB_SO-18_1925_39273",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_1955_39273",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_1957_75614",
@@ -8066,7 +8214,9 @@
     ],
     "trainId": "39463",
     "throughTripId": "WD_OUT_SO-08_2002_39463",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1916_39463",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_2003_39217",
@@ -8095,7 +8245,9 @@
     ],
     "trainId": "39217",
     "prevTripId": "WD_INB_SO-18_1945_39217",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_2007_39217",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_2007_125194",
@@ -8235,7 +8387,9 @@
     ],
     "trainId": "39434",
     "throughTripId": "WD_OUT_SO-08_2023_39434",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1936_39434",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_2018_125188",
@@ -8269,7 +8423,7 @@
       }
     ],
     "trainId": "125188",
-    "throughTripId": "WD_INB_SH-01_2029_125188",
+    "throughTripId": "WD_INB_SH-01_2025_111415",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-10_2012_125188",
     "prevLineId": "sotetsu_main"
@@ -8301,7 +8455,9 @@
     ],
     "trainId": "39218",
     "prevTripId": "WD_INB_SO-18_2002_39218",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_2025_39218",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_2022_157814",
@@ -8441,7 +8597,9 @@
     ],
     "trainId": "39464",
     "throughTripId": "WD_OUT_SO-08_2042_39464",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_1956_39464",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_2039_39276",
@@ -8470,7 +8628,9 @@
     ],
     "trainId": "39276",
     "prevTripId": "WD_INB_SO-18_2009_39276",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_2043_39276",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_2040_75609",
@@ -8684,7 +8844,9 @@
     ],
     "trainId": "39465",
     "throughTripId": "WD_OUT_SO-08_2102_39465",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_2016_39465",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_2101_39278",
@@ -8713,7 +8875,9 @@
     ],
     "trainId": "39278",
     "prevTripId": "WD_INB_SO-18_2030_39278",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_2107_39278",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_2105_82651",
@@ -8853,7 +9017,9 @@
     ],
     "trainId": "39438",
     "throughTripId": "WD_OUT_SO-08_2123_39438",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_2036_39438",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_2120_82641",
@@ -8919,7 +9085,9 @@
     ],
     "trainId": "39282",
     "prevTripId": "WD_INB_SO-18_2056_39282",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_2126_39282",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_2125_75611",
@@ -9022,7 +9190,9 @@
     ],
     "trainId": "39466",
     "throughTripId": "WD_OUT_SO-08_2142_39466",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_2056_39466",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_2142_125136",
@@ -9056,7 +9226,7 @@
       }
     ],
     "trainId": "125136",
-    "throughTripId": "WD_INB_SH-01_2153_125136",
+    "throughTripId": "WD_INB_SH-01_2149_111381",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "WD_INB_SO-18_2110_125136",
     "prevLineId": "sotetsu_main"
@@ -9199,7 +9369,9 @@
     ],
     "trainId": "39283",
     "prevTripId": "WD_INB_SO-18_2122_39283",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_2202_39283",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-51_2158_39440",
@@ -9228,7 +9400,9 @@
     ],
     "trainId": "39440",
     "throughTripId": "WD_OUT_SO-08_2201_39440",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_2116_39440",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_2201_125226",
@@ -9365,7 +9539,9 @@
     ],
     "trainId": "39469",
     "throughTripId": "WD_OUT_SO-08_2219_39469",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_2136_39469",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_2217_125098",
@@ -9537,7 +9713,9 @@
     ],
     "trainId": "39221",
     "prevTripId": "WD_INB_SO-18_2210_39221",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "WD_OUT_SO-51_2233_39221",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_2234_125169",
@@ -9638,7 +9816,9 @@
     ],
     "trainId": "39442",
     "throughTripId": "WD_OUT_SO-08_2241_39442",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_2156_39442",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_INB_SO-08_2242_125227",
@@ -9812,7 +9992,9 @@
     ],
     "trainId": "39444",
     "throughTripId": "WD_OUT_SO-08_2309_39444",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_2226_39444",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_2310_115267",
@@ -9989,7 +10171,9 @@
     ],
     "trainId": "39445",
     "throughTripId": "WD_OUT_SO-08_2336_39445",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_2251_39445",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "WD_OUT_SO-52_2335_75616",
@@ -10161,7 +10345,9 @@
     ],
     "trainId": "39448",
     "throughTripId": "WD_OUT_SO-08_2358_39448",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "WD_INB_JS-20_2315_39448",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_0003_75617",
@@ -10408,7 +10594,9 @@
     ],
     "trainId": "39199",
     "prevTripId": "HD_INB_SO-18_0524_39199",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0547_39199",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0546_125160",
@@ -10583,7 +10771,9 @@
     ],
     "trainId": "39201",
     "prevTripId": "HD_INB_SO-18_0541_39201",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0605_39201",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0609_126179",
@@ -10716,7 +10906,9 @@
     ],
     "trainId": "39224",
     "prevTripId": "HD_INB_SO-18_0601_39224",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0636_39224",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0636_125134",
@@ -10837,7 +11029,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "大宮(埼玉県)",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -10856,7 +11048,9 @@
     ],
     "trainId": "39284",
     "prevTripId": "HD_INB_SO-18_0628_39284",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0653_39284",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0652_125174",
@@ -10975,7 +11169,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "大宮(埼玉県)",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -10994,7 +11188,9 @@
     ],
     "trainId": "39285",
     "prevTripId": "HD_INB_SO-18_0648_39285",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0712_39285",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-51_0711_39391",
@@ -11023,7 +11219,9 @@
     ],
     "trainId": "39391",
     "throughTripId": "HD_OUT_SO-08_0716_39391",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_0631_39391",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0712_125198",
@@ -11131,7 +11329,7 @@
       }
     ],
     "trainId": "125135",
-    "throughTripId": "HD_INB_SH-01_0732_125135",
+    "throughTripId": "HD_INB_SH-01_0727_111353",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_0649_125135",
     "prevLineId": "sotetsu_main"
@@ -11144,7 +11342,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "大宮(埼玉県)",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11163,7 +11361,9 @@
     ],
     "trainId": "39288",
     "prevTripId": "HD_INB_SO-18_0655_39288",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0730_39288",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0731_125054",
@@ -11266,7 +11466,9 @@
     ],
     "trainId": "39449",
     "throughTripId": "HD_OUT_SO-08_0745_39449",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_0658_39449",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0744_125071",
@@ -11350,7 +11552,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "川越",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11369,7 +11571,9 @@
     ],
     "trainId": "39294",
     "prevTripId": "HD_INB_SO-18_0716_39294",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0751_39294",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_0752_157854",
@@ -11524,7 +11728,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "武蔵浦和",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11543,7 +11747,9 @@
     ],
     "trainId": "39286",
     "prevTripId": "HD_INB_SO-18_0736_39286",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0809_39286",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-51_0809_39450",
@@ -11572,7 +11778,9 @@
     ],
     "trainId": "39450",
     "throughTripId": "HD_OUT_SO-08_0815_39450",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_0725_39450",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_0812_157853",
@@ -11640,7 +11848,7 @@
       }
     ],
     "trainId": "125089",
-    "throughTripId": "HD_INB_SH-01_0824_125089",
+    "throughTripId": "HD_INB_SH-01_0819_111355",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_0753_125089",
     "prevLineId": "sotetsu_main"
@@ -11653,7 +11861,7 @@
     "direction": "inbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-51",
-    "customDestination": "武蔵浦和",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11672,7 +11880,9 @@
     ],
     "trainId": "39287",
     "prevTripId": "HD_INB_SO-18_0746_39287",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0823_39287",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_0821_75590",
@@ -11736,7 +11946,9 @@
     ],
     "trainId": "39355",
     "throughTripId": "HD_OUT_SO-08_0825_39355",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_0740_39355",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0823_125138",
@@ -11876,7 +12088,9 @@
     ],
     "trainId": "39347",
     "throughTripId": "HD_OUT_SO-08_0836_39347",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_0752_39347",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0834_39204",
@@ -11905,7 +12119,9 @@
     ],
     "trainId": "39204",
     "prevTripId": "HD_INB_SO-18_0813_39204",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0841_39204",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_0837_82623",
@@ -11976,7 +12192,7 @@
       }
     ],
     "trainId": "125083",
-    "throughTripId": "HD_INB_SH-01_0855_125083",
+    "throughTripId": "HD_INB_SH-01_0849_111403",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_0816_125083",
     "prevLineId": "sotetsu_main"
@@ -12045,7 +12261,9 @@
     ],
     "trainId": "39356",
     "throughTripId": "HD_OUT_SO-08_0851_39356",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_0809_39356",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0850_125195",
@@ -12145,7 +12363,9 @@
     ],
     "trainId": "39205",
     "prevTripId": "HD_INB_SO-18_0833_39205",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0902_39205",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-51_0901_39345",
@@ -12174,7 +12394,9 @@
     ],
     "trainId": "39345",
     "throughTripId": "HD_OUT_SO-08_0906_39345",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_0823_39345",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0903_125102",
@@ -12312,7 +12534,9 @@
     ],
     "trainId": "39206",
     "prevTripId": "HD_INB_SO-18_0853_39206",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0921_39206",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_0920_75624",
@@ -12375,7 +12599,9 @@
     ],
     "trainId": "39353",
     "throughTripId": "HD_OUT_SO-08_0926_39353",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_0838_39353",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0923_125175",
@@ -12409,7 +12635,7 @@
       }
     ],
     "trainId": "125175",
-    "throughTripId": "HD_INB_SH-01_0933_125175",
+    "throughTripId": "HD_INB_SH-01_0929_111404",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-10_0916_125175",
     "prevLineId": "sotetsu_main"
@@ -12513,7 +12739,9 @@
     ],
     "trainId": "39228",
     "prevTripId": "HD_INB_SO-18_0906_39228",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0938_39228",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-51_0939_39351",
@@ -12542,7 +12770,9 @@
     ],
     "trainId": "39351",
     "throughTripId": "HD_OUT_SO-08_0946_39351",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_0855_39351",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_0939_125063",
@@ -12640,7 +12870,9 @@
     ],
     "trainId": "39207",
     "prevTripId": "HD_INB_SO-18_0923_39207",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_0948_39207",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_0947_115250",
@@ -12785,7 +13017,7 @@
       }
     ],
     "trainId": "125105",
-    "throughTripId": "HD_INB_SH-01_1009_125105",
+    "throughTripId": "HD_INB_SH-01_1004_111467",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_0926_125105",
     "prevLineId": "sotetsu_main"
@@ -12817,7 +13049,9 @@
     ],
     "trainId": "39231",
     "prevTripId": "HD_INB_SO-18_0936_39231",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1006_39231",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1012_82815",
@@ -12880,7 +13114,9 @@
     ],
     "trainId": "39395",
     "throughTripId": "HD_OUT_SO-08_1016_39395",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_0927_39395",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1014_126181",
@@ -13018,7 +13254,9 @@
     ],
     "trainId": "39233",
     "prevTripId": "HD_INB_SO-18_0956_39233",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1027_39233",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1028_157822",
@@ -13119,7 +13357,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39396"
+    "trainId": "39396",
+    "prevTripId": "HD_INB_JS-20_0953_39396",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1048_115251",
@@ -13220,7 +13460,9 @@
     ],
     "trainId": "39453",
     "throughTripId": "HD_OUT_SO-08_1055_39453",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1014_39453",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1053_39208",
@@ -13249,7 +13491,9 @@
     ],
     "trainId": "39208",
     "prevTripId": "HD_INB_SO-18_1033_39208",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1057_39208",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1055_157823",
@@ -13352,7 +13596,9 @@
     ],
     "trainId": "39398",
     "throughTripId": "HD_OUT_SO-08_1107_39398",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1023_39398",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1113_39237",
@@ -13381,7 +13627,9 @@
     ],
     "trainId": "39237",
     "prevTripId": "HD_INB_SO-18_1046_39237",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1117_39237",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1117_75592",
@@ -13447,7 +13695,9 @@
     ],
     "trainId": "39400",
     "throughTripId": "HD_OUT_SO-08_1122_39400",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1035_39400",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1122_125177",
@@ -13585,7 +13835,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39402"
+    "trainId": "39402",
+    "prevTripId": "HD_INB_JS-20_1055_39402",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1143_39238",
@@ -13614,7 +13866,9 @@
     ],
     "trainId": "39238",
     "prevTripId": "HD_INB_SO-18_1116_39238",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1147_39238",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1147_115258",
@@ -13754,7 +14008,9 @@
     ],
     "trainId": "39454",
     "throughTripId": "HD_OUT_SO-08_1205_39454",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1119_39454",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1202_125112",
@@ -13820,7 +14076,9 @@
     ],
     "trainId": "39241",
     "prevTripId": "HD_INB_SO-18_1146_39241",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1217_39241",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1217_75593",
@@ -13886,7 +14144,9 @@
     ],
     "trainId": "39405",
     "throughTripId": "HD_OUT_SO-08_1222_39405",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1140_39405",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1222_125179",
@@ -14026,7 +14286,9 @@
     ],
     "trainId": "39407",
     "throughTripId": "HD_OUT_SO-08_1246_39407",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1202_39407",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1243_39242",
@@ -14055,7 +14317,9 @@
     ],
     "trainId": "39242",
     "prevTripId": "HD_INB_SO-18_1216_39242",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1247_39242",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1247_115260",
@@ -14232,7 +14496,9 @@
     ],
     "trainId": "39410",
     "throughTripId": "HD_OUT_SO-08_1316_39410",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1233_39410",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1313_39244",
@@ -14261,7 +14527,9 @@
     ],
     "trainId": "39244",
     "prevTripId": "HD_INB_SO-18_1246_39244",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1317_39244",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1317_75595",
@@ -14438,7 +14706,9 @@
     ],
     "trainId": "39411",
     "throughTripId": "HD_OUT_SO-08_1346_39411",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1302_39411",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1343_39247",
@@ -14467,7 +14737,9 @@
     ],
     "trainId": "39247",
     "prevTripId": "HD_INB_SO-18_1316_39247",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1347_39247",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1347_115261",
@@ -14644,7 +14916,9 @@
     ],
     "trainId": "39413",
     "throughTripId": "HD_OUT_SO-08_1416_39413",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1332_39413",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1413_39249",
@@ -14673,7 +14947,9 @@
     ],
     "trainId": "39249",
     "prevTripId": "HD_INB_SO-18_1346_39249",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1417_39249",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1417_75597",
@@ -14850,7 +15126,9 @@
     ],
     "trainId": "39416",
     "throughTripId": "HD_OUT_SO-08_1446_39416",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1403_39416",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1443_39251",
@@ -14879,7 +15157,9 @@
     ],
     "trainId": "39251",
     "prevTripId": "HD_INB_SO-18_1416_39251",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1447_39251",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1447_115263",
@@ -15056,7 +15336,9 @@
     ],
     "trainId": "39418",
     "throughTripId": "HD_OUT_SO-08_1516_39418",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1432_39418",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1513_39252",
@@ -15085,7 +15367,9 @@
     ],
     "trainId": "39252",
     "prevTripId": "HD_INB_SO-18_1446_39252",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1517_39252",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1517_75599",
@@ -15262,7 +15546,9 @@
     ],
     "trainId": "39419",
     "throughTripId": "HD_OUT_SO-08_1546_39419",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1502_39419",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1543_39255",
@@ -15291,7 +15577,9 @@
     ],
     "trainId": "39255",
     "prevTripId": "HD_INB_SO-18_1516_39255",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1547_39255",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1547_115266",
@@ -15431,7 +15719,9 @@
     ],
     "trainId": "39256",
     "prevTripId": "HD_INB_SO-18_1531_39256",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1604_39256",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1603_125127",
@@ -15497,7 +15787,9 @@
     ],
     "trainId": "39422",
     "throughTripId": "HD_OUT_SO-08_1616_39422",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1532_39422",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1617_75602",
@@ -15563,7 +15855,9 @@
     ],
     "trainId": "39257",
     "prevTripId": "HD_INB_SO-18_1554_39257",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1626_39257",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1625_157844",
@@ -15703,7 +15997,9 @@
     ],
     "trainId": "39424",
     "throughTripId": "HD_OUT_SO-08_1646_39424",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1602_39424",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1643_39259",
@@ -15732,7 +16028,9 @@
     ],
     "trainId": "39259",
     "prevTripId": "HD_INB_SO-18_1616_39259",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1647_39259",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1647_115633",
@@ -15877,7 +16175,7 @@
       }
     ],
     "trainId": "125130",
-    "throughTripId": "HD_INB_SH-01_1711_125130",
+    "throughTripId": "HD_INB_SH-01_1705_111480",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_1631_125130",
     "prevLineId": "sotetsu_main"
@@ -15909,7 +16207,9 @@
     ],
     "trainId": "39261",
     "prevTripId": "HD_INB_SO-18_1634_39261",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1707_39261",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-51_1711_39425",
@@ -15938,7 +16238,9 @@
     ],
     "trainId": "39425",
     "throughTripId": "HD_OUT_SO-08_1716_39425",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1632_39425",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1713_126183",
@@ -16111,7 +16413,9 @@
     ],
     "trainId": "39263",
     "prevTripId": "HD_INB_SO-18_1656_39263",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1730_39263",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-51_1732_39455",
@@ -16140,7 +16444,9 @@
     ],
     "trainId": "39455",
     "throughTripId": "HD_OUT_SO-08_1735_39455",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1652_39455",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1733_125090",
@@ -16280,7 +16586,9 @@
     ],
     "trainId": "39264",
     "prevTripId": "HD_INB_SO-18_1716_39264",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1747_39264",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1747_106480",
@@ -16457,7 +16765,9 @@
     ],
     "trainId": "39456",
     "throughTripId": "HD_OUT_SO-08_1805_39456",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1713_39456",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1803_125159",
@@ -16560,7 +16870,9 @@
     ],
     "trainId": "39266",
     "prevTripId": "HD_INB_SO-18_1733_39266",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1810_39266",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1809_82638",
@@ -16663,7 +16975,9 @@
     ],
     "trainId": "39458",
     "throughTripId": "HD_OUT_SO-08_1825_39458",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1736_39458",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1823_39212",
@@ -16692,7 +17006,9 @@
     ],
     "trainId": "39212",
     "prevTripId": "HD_INB_SO-18_1803_39212",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1827_39212",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1827_157850",
@@ -16902,7 +17218,9 @@
     ],
     "trainId": "39429",
     "throughTripId": "HD_OUT_SO-08_1846_39429",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1756_39429",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1843_39213",
@@ -16931,7 +17249,9 @@
     ],
     "trainId": "39213",
     "prevTripId": "HD_INB_SO-18_1823_39213",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1848_39213",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1847_76649",
@@ -17069,7 +17389,9 @@
     ],
     "trainId": "39430",
     "throughTripId": "HD_OUT_SO-08_1901_39430",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1816_39430",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1903_39270",
@@ -17098,7 +17420,9 @@
     ],
     "trainId": "39270",
     "prevTripId": "HD_INB_SO-18_1834_39270",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1908_39270",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1903_39269",
@@ -17228,7 +17552,9 @@
     ],
     "trainId": "39431",
     "throughTripId": "HD_OUT_SO-08_1921_39431",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1836_39431",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1917_82626",
@@ -17366,7 +17692,9 @@
     ],
     "trainId": "39271",
     "prevTripId": "HD_INB_SO-18_1854_39271",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1929_39271",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1927_157851",
@@ -17467,7 +17795,9 @@
     ],
     "trainId": "39432",
     "throughTripId": "HD_OUT_SO-08_1941_39432",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1856_39432",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_1940_76650",
@@ -17607,7 +17937,9 @@
     ],
     "trainId": "39272",
     "prevTripId": "HD_INB_SO-18_1914_39272",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_1955_39272",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_1956_125223",
@@ -17708,7 +18040,9 @@
     ],
     "trainId": "39433",
     "throughTripId": "HD_OUT_SO-08_2001_39433",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1916_39433",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_2003_39274",
@@ -17737,7 +18071,9 @@
     ],
     "trainId": "39274",
     "prevTripId": "HD_INB_SO-18_1936_39274",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_2008_39274",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_2008_126185",
@@ -17806,7 +18142,7 @@
       }
     ],
     "trainId": "125139",
-    "throughTripId": "HD_INB_SH-01_2025_125139",
+    "throughTripId": "HD_INB_SH-01_2020_111414",
     "throughLineId": "tokyu_shin_yokohama",
     "prevTripId": "HD_INB_SO-18_1946_125139",
     "prevLineId": "sotetsu_main"
@@ -17875,7 +18211,9 @@
     ],
     "trainId": "39435",
     "throughTripId": "HD_OUT_SO-08_2021_39435",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_1936_39435",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_2023_39275",
@@ -17904,7 +18242,9 @@
     ],
     "trainId": "39275",
     "prevTripId": "HD_INB_SO-18_1956_39275",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_2027_39275",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_2027_82649",
@@ -18005,7 +18345,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39436"
+    "trainId": "39436",
+    "prevTripId": "HD_INB_JS-20_1955_39436",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_2038_125167",
@@ -18106,7 +18448,9 @@
     ],
     "trainId": "39277",
     "prevTripId": "HD_INB_SO-18_2016_39277",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_2047_39277",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_2050_126182",
@@ -18207,7 +18551,9 @@
     ],
     "trainId": "39437",
     "throughTripId": "HD_OUT_SO-08_2101_39437",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_2016_39437",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_2102_39279",
@@ -18236,7 +18582,9 @@
     ],
     "trainId": "39279",
     "prevTripId": "HD_INB_SO-18_2036_39279",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_2106_39279",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_2109_75610",
@@ -18372,7 +18720,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39439"
+    "trainId": "39439",
+    "prevTripId": "HD_INB_JS-20_2037_39439",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_2121_39280",
@@ -18401,7 +18751,9 @@
     ],
     "trainId": "39280",
     "prevTripId": "HD_INB_SO-18_2053_39280",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_2125_39280",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_2127_157869",
@@ -18504,7 +18856,9 @@
     ],
     "trainId": "39467",
     "throughTripId": "HD_OUT_SO-08_2145_39467",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_2056_39467",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_2146_125191",
@@ -18644,7 +18998,9 @@
     ],
     "trainId": "39219",
     "prevTripId": "HD_INB_SO-18_2138_39219",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_2202_39219",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-51_2158_39441",
@@ -18673,7 +19029,9 @@
     ],
     "trainId": "39441",
     "throughTripId": "HD_OUT_SO-08_2202_39441",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_2116_39441",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_2206_125163",
@@ -18774,7 +19132,9 @@
     ],
     "trainId": "39468",
     "throughTripId": "HD_OUT_SO-08_2220_39468",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_2136_39468",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_2217_115255",
@@ -18877,7 +19237,9 @@
     ],
     "trainId": "39220",
     "prevTripId": "HD_INB_SO-18_2210_39220",
-    "prevLineId": "sotetsu_main"
+    "prevLineId": "sotetsu_main",
+    "throughTripId": "HD_OUT_SO-51_2233_39220",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_2233_125234",
@@ -18941,7 +19303,9 @@
     ],
     "trainId": "39470",
     "throughTripId": "HD_OUT_SO-08_2243_39470",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_2156_39470",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_2243_125096",
@@ -19114,7 +19478,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39443"
+    "trainId": "39443",
+    "prevTripId": "HD_INB_JS-20_2218_39443",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_SO-08_2305_125055",
@@ -19317,7 +19683,9 @@
     ],
     "trainId": "39446",
     "throughTripId": "HD_OUT_SO-08_2336_39446",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_2252_39446",
+    "prevLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_OUT_SO-52_2345_76647",
@@ -19415,6 +19783,8 @@
     ],
     "trainId": "39447",
     "throughTripId": "HD_OUT_SO-08_2359_39447",
-    "throughLineId": "sotetsu_main"
+    "throughLineId": "sotetsu_main",
+    "prevTripId": "HD_INB_JS-20_2315_39447",
+    "prevLineId": "sotetsu_jr_direct"
   }
 ]

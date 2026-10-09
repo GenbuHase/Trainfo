@@ -106,12 +106,14 @@ function run() {
   const ssPath = path.resolve('src/data/lines/sotetsu_shin_yokohama/globalTimetable.json');
   const smPath = path.resolve('src/data/lines/sotetsu_main/globalTimetable.json');
   const siPath = path.resolve('src/data/lines/sotetsu_izumino/globalTimetable.json');
+  const jrPath = path.resolve('src/data/lines/sotetsu_jr_direct/globalTimetable.json');
 
   const tyTrips = fs.existsSync(tyPath) ? JSON.parse(fs.readFileSync(tyPath, 'utf8')) : [];
   const shTrips = fs.existsSync(shPath) ? JSON.parse(fs.readFileSync(shPath, 'utf8')) : [];
   const ssTrips = fs.existsSync(ssPath) ? JSON.parse(fs.readFileSync(ssPath, 'utf8')) : [];
   const smTrips = fs.existsSync(smPath) ? JSON.parse(fs.readFileSync(smPath, 'utf8')) : [];
   const siTrips = fs.existsSync(siPath) ? JSON.parse(fs.readFileSync(siPath, 'utf8')) : [];
+  const jrTrips = fs.existsSync(jrPath) ? JSON.parse(fs.readFileSync(jrPath, 'utf8')) : [];
 
   // 1. 東急東横線 ↔ 東急新横浜線 (日吉: TY-13 / SH-03)
   console.log('\n1. 東急東横線 ↔ 東急新横浜線 (日吉)');
@@ -221,12 +223,42 @@ function run() {
     getDestNameB: (tB) => (tB.destinationStationId === 'SO-01' ? '横浜' : '新横浜・渋谷方面'),
   });
 
+  // 5. 相鉄新横浜線 ↔ 相鉄・JR直通線 (羽沢横浜国大: SO-51)
+  console.log('\n5. 相鉄新横浜線 ↔ 相鉄・JR直通線 (羽沢横浜国大)');
+  // 新宿 -> 羽沢横浜国大 -> 西谷方面 (下り)
+  linkLinePair({
+    lineAId: 'sotetsu_jr_direct',
+    lineBId: 'sotetsu_shin_yokohama',
+    tripsA: jrTrips,
+    tripsB: ssTrips,
+    stationAId: 'SO-51',
+    stationBId: 'SO-51',
+    dirA: 'inbound',
+    dirB: 'outbound',
+    linkName: '相鉄・JR直通線 -> 相鉄新横浜線 (下り)',
+    getDestNameB: (tB) => (tB.customDestination || '海老名'),
+  });
+  // 西谷方面 -> 羽沢横浜国大 -> 新宿方面 (上り)
+  linkLinePair({
+    lineAId: 'sotetsu_shin_yokohama',
+    lineBId: 'sotetsu_jr_direct',
+    tripsA: ssTrips,
+    tripsB: jrTrips,
+    stationAId: 'SO-51',
+    stationBId: 'SO-51',
+    dirA: 'inbound',
+    dirB: 'outbound',
+    linkName: '相鉄新横浜線 -> 相鉄・JR直通線 (上り)',
+    getDestNameB: (tB) => (tB.destinationStationId === 'JS-20' ? '新宿' : '大宮・川越方面'),
+  });
+
   // 保存
   fs.writeFileSync(tyPath, JSON.stringify(tyTrips, null, 2), 'utf8');
   fs.writeFileSync(shPath, JSON.stringify(shTrips, null, 2), 'utf8');
   fs.writeFileSync(ssPath, JSON.stringify(ssTrips, null, 2), 'utf8');
   fs.writeFileSync(smPath, JSON.stringify(smTrips, null, 2), 'utf8');
   fs.writeFileSync(siPath, JSON.stringify(siTrips, null, 2), 'utf8');
+  fs.writeFileSync(jrPath, JSON.stringify(jrTrips, null, 2), 'utf8');
 
   console.log('\n✅ 全路線の globalTimetable.json への直通リンク更新が完了しました！');
 }

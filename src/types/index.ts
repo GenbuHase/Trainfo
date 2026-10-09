@@ -30,6 +30,7 @@ export type LineId =
   | 'sotetsu_shin_yokohama'
   | 'sotetsu_main'
   | 'sotetsu_izumino'
+  | 'sotetsu_jr_direct'
   | (string & {});
 
 

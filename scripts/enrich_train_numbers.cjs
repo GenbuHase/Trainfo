@@ -2486,6 +2486,150 @@ if (
   enrichSotetsuAndTokyu(target);
 }
 
+function enrichSotetsuJrDirect() {
+  const globalPath = path.resolve('src/data/lines/sotetsu_jr_direct/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/sotetsu_jr_direct/stationTimetables.json');
+  const ekitanCachePath = path.resolve('scripts/cache/ekitan_sotetsu_jr.json');
+  const yahooCachePath = path.resolve('scripts/cache/yahoo/sotetsu_jr_direct/all_train_details.json');
+
+  if (!fs.existsSync(globalPath)) return;
+
+  console.log('=== [sotetsu_jr_direct] 公式列車番号エンリッチメント開始 ===');
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+
+  const yahooCache = fs.existsSync(yahooCachePath) ? JSON.parse(fs.readFileSync(yahooCachePath, 'utf8')) : [];
+  const yahooMap = new Map(yahooCache.map(t => [t.trainId, t]));
+
+  let ekitan = [];
+  if (fs.existsSync(ekitanCachePath)) {
+    ekitan = JSON.parse(fs.readFileSync(ekitanCachePath, 'utf8'));
+  }
+
+  function timeToSec(t) {
+    if (!t) return null;
+    const parts = t.split(':').map(Number);
+    let h = parts[0];
+    if (h < 4) h += 24;
+    return h * 3600 + parts[1] * 60 + (parts[2] || 0);
+  }
+
+  const ekitanByStation = new Map();
+  for (const row of ekitan) {
+    const isHoli = row.dw !== 1;
+    let h = row.hour;
+    if (h < 4) h += 24;
+    const sec = h * 3600 + row.minute * 60;
+    const groupKey = `${row.stationId}_${isHoli ? 'H' : 'W'}_${row.direction}`;
+    if (!ekitanByStation.has(groupKey)) ekitanByStation.set(groupKey, []);
+    ekitanByStation.get(groupKey).push({ ...row, normSec: sec });
+  }
+
+  let updatedCount = 0;
+  for (const trip of trips) {
+    const rawNo = trip.trainNumber;
+    if (!trip.trainId && rawNo) {
+      trip.trainId = rawNo;
+    }
+
+    let officialNo = null;
+
+    // 1. Yahoo guideComment からの抽出 (例: "羽沢横浜国大−新宿間は120M各駅停車で運転。")
+    const yDetail = yahooMap.get(trip.trainId);
+    if (yDetail && yDetail.guideComment) {
+      const m = yDetail.guideComment.match(/([0-9]{3,4}[A-Za-z])/);
+      if (m) {
+        officialNo = m[1];
+      }
+    }
+
+    // 2. 駅探キャッシュからの突合
+    if (!officialNo) {
+      const isHoli = trip.isHoliday;
+      let minDiff = Infinity;
+      for (const stop of trip.stops) {
+        if (stop.isPassing || !stop.departureTime) continue;
+        const stopSec = timeToSec(stop.departureTime);
+        const groupKey = `${stop.stationId}_${isHoli ? 'H' : 'W'}_${trip.direction}`;
+        const candidates = ekitanByStation.get(groupKey);
+        if (!candidates) continue;
+
+        for (const cand of candidates) {
+          const diff = Math.abs(cand.normSec - stopSec);
+          if (diff <= 180 && diff < minDiff) {
+            minDiff = diff;
+            officialNo = cand.trainNo;
+            if (diff === 0) break;
+          }
+        }
+        if (officialNo && minDiff === 0) break;
+      }
+    }
+
+    if (officialNo) {
+      trip.trainNumber = officialNo;
+      updatedCount++;
+    }
+  }
+
+  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
+  console.log(`✅ [sotetsu_jr_direct] globalTimetable: ${updatedCount} / ${trips.length} trips updated`);
+
+  if (fs.existsSync(stationPath)) {
+    const stationData = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
+    const depKeyToNumber = new Map();
+    for (const trip of trips) {
+      const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+      const dirKey = trip.direction;
+      for (const stop of trip.stops) {
+        if (stop.isPassing || !stop.departureTime) continue;
+        const [hStr, mStr] = stop.departureTime.split(':');
+        const h = parseInt(hStr, 10);
+        const m = parseInt(mStr, 10);
+        const k = `${dayKey}_${stop.stationId}_${dirKey}_${h}_${m}`;
+        depKeyToNumber.set(k, { trainNumber: trip.trainNumber, trainId: trip.trainId, tripId: trip.tripId });
+      }
+    }
+
+    let stDepUpdated = 0;
+    for (const dayKey of ['weekday', 'holiday']) {
+      const dayObj = stationData[dayKey];
+      if (!dayObj) continue;
+      for (const stId of Object.keys(dayObj)) {
+        const stObj = dayObj[stId];
+        for (const dirKey of ['inbound', 'outbound']) {
+          const departures = stObj[dirKey];
+          if (!Array.isArray(departures)) continue;
+          for (const dep of departures) {
+            const rawNo = dep.no;
+            if (!dep.trainId && rawNo) {
+              dep.trainId = rawNo;
+            }
+            const k = `${dayKey}_${stId}_${dirKey}_${dep.h}_${dep.m}`;
+            const matched = depKeyToNumber.get(k);
+            if (matched) {
+              dep.no = matched.trainNumber;
+              dep.trainId = matched.trainId;
+              dep.tripId = matched.tripId;
+              stDepUpdated++;
+            }
+          }
+        }
+      }
+    }
+    fs.writeFileSync(stationPath, JSON.stringify(stationData, null, 2), 'utf8');
+    console.log(`✅ [sotetsu_jr_direct] stationTimetables: ${stDepUpdated} departures updated`);
+  }
+}
+
+if (
+  target === 'sotetsu_jr_direct' ||
+  target === 'sotetsu' ||
+  target === 'all'
+) {
+  enrichSotetsuJrDirect();
+}
+
+
 
 
 
