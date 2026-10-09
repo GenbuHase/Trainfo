@@ -332,29 +332,50 @@ flowchart LR
 * 境界駅（例: 大崎駅、日吉駅、新横浜駅）で両路線の発車標が重複しないよう、一方の路線には上り発車標のみ、他方の路線には下り発車標のみを持たせる（`inGroupId: null` または `outGroupId: null`）。
 * `getCombinedStationTimetables` により、両路線選択時に自動的に上下線発車標が時刻順に美しく統合されます。
 
-#### 2. 直通メタデータ自動付与スクリプトの実装 (`scripts/link_<lineA>_<lineB>.cjs`)
-直通リンカースクリプトは、以下の4要件を必ず実装してください：
+#### 2. 汎用直通リンカー基盤への新路線ペア登録 & 実行
+Trainfo では、全路線の駅名マスタの自動走査・シームレス時刻同期・End-to-End行先解決を一括自動処理する **汎用直通リンカー基盤 (`scripts/common/throughLinker/`)** を提供しています。  
+個別スクリプトを手書きする必要はなく、以下の2ステップのみで完了します：
 
-1. **既存リンクの安全なリセット（冪等性保証）**:
-   * スクリプト再実行時に前回のリンクが二重適用されたり誤マッチが残らないよう、対象路線間の `throughTripId`, `throughLineId`, `prevTripId`, `prevLineId` を一度リセットする。
-2. **Yahoo! `trainId` 優先 & 時刻ファジー照合**:
-   * Yahoo! 路線情報では、同一直通列車の `trainId`（例: `106477`）が会社境界を越えて同一で維持される。
-   * まず `trainId` 完全一致（時間差 $\le 360$ 秒）で最優先マッチングを行い、次に公式列車番号一致、最後に時刻近接（$\le 120$ 秒）でマッチングを行う。
-3. **境界駅でのシームレス時刻同期（列車消失の完全防止）**:
+1. **接続ペア設定の登録 ([`scripts/common/throughLinker/connectionsConfig.cjs`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/scripts/common/throughLinker/connectionsConfig.cjs))**:
+   新路線と接続路線の境界駅・進行方向のペアを `connections` 配列に追加します。
    ```javascript
-   // 先行トリップの終着時刻と後続トリップの始発停車開始時刻を秒単位で完全一致させる
-   const syncTime = lastStop.arrivalTime || lastStop.departureTime;
-   lastStop.departureTime = syncTime;        // 先行路線は到着時刻で運行終了
-   bestB.stops[0].arrivalTime = syncTime;    // 後続路線は到着時刻から停車開始
+   // 例: 新路線（lineA）と既存路線（lineB）の接続ペア
+   {
+     name: '新路線 -> 接続路線 (下り)',
+     lineA: 'new_line',
+     lineB: 'existing_line',
+     stationA: 'NL-10',
+     stationB: 'EL-01',
+     dirA: 'outbound',
+     dirB: 'outbound',
+     maxTimeDiff: 300,
+   },
+   {
+     name: '接続路線 -> 新路線 (上り)',
+     lineA: 'existing_line',
+     lineB: 'new_line',
+     stationA: 'EL-01',
+     stationB: 'NL-10',
+     dirA: 'inbound',
+     dirB: 'inbound',
+     maxTimeDiff: 300,
+   },
    ```
-   * これにより、先行列車が到着した瞬間から後続列車がホームに `STOPPING` 状態で現れ、マップピンの空白時間（消失）がゼロになります。
-4. **直通チェーン全体の End-to-End 行先自動解決（行先切り替わりの完全防止）**:
-   * マッチング完了後、全トリップの `throughTripId` を先端（最終終着駅）まで辿り、直通チェーンの最長到達地（例: 「海老名」「川越市」「和光市」「浦和美園」「湘南台」等）を決定。
-   * チェーンに属するすべてのトリップ（先行・中間・後続）の `customDestination` をその同一の最終行先で上書き・統一する。
+
+2. **汎用直通リンカーの実行**:
+   ```bash
+   node scripts/runThroughLinker.cjs
+   ```
+   * **自動処理される内容**:
+     * 全路線の `stations.ts` から駅名マスタ（全560+駅）を自動収集（駅名のハードコード不要）。
+     * 対象路線の既存リンクを安全に初期化（冪等性の保証）。
+     * Yahoo! `trainId` 最優先マッチ & 公式列車番号マッチ。
+     * **境界駅でのシームレス時刻同期**: 先行路線の到着時刻と後続路線の停車開始時刻を秒単位で完全一致させ、空白時間（消失時間）をゼロに解消。
+     * **全路線の有向グラフ探索による End-to-End 行先自動解決**: 3路線以上の長大直通系統であっても、チェーンの最先端（最終終着駅）を特定し、全トリップの `customDestination` を同一の最終行先で一括統一。
 
 #### 3. 異なる駅コードを持つ境界接続駅の物理同一性対応
 * 路線ごとに駅IDが異なる場合（例: 東横線 `TY-13` ↔ 新横浜線 `SH-03`、新横浜線 `SH-01` ↔ 相鉄 `SO-52`、渋谷 `TY-01` ↔ `F-16`、横浜 `TY-21` ↔ `MM-01`）：
-* [`src/services/trainSimulation.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/services/trainSimulation.ts) の `isSamePhysicalStation` により同一物理駅として認識され、終着トリップから出発待ち後続トリップへのスムーズな描画移行が行われます。
+* [`src/services/trainSimulation.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/services/trainSimulation.ts) の `isSamePhysicalStation` により自動的に同一物理駅（駅名一致または距離500m以内）として認識され、境界駅停車中の先行トリップから後続トリップへのスムーズな描画移行が行われます。
 
 #### 4. 乗換路線案内（`transfers`）の相互リンク
 * 境界駅の `stations.ts` において、`transfers` 配列に相互の路線名を追加。
@@ -726,10 +747,10 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 
 ### Phase 6: 直通運転・ハンドオーバー構築（※直通路線のみ）
 - [ ] 境界駅の Yahoo! グループIDを片側のみ（上りのみ / 下りのみ）に設定
-- [ ] 直通メタデータ付与スクリプト `scripts/link_<lineA>_<lineB>.cjs` を作成・実行（既存リンクのリセットを冒頭に含める）
-- [ ] **【必須】境界駅のシームレス時刻同期**: 先行路線の到着時刻と後続路線の停車開始時刻を秒単位で一致させ、空白時間（消失時間）がゼロであることを確認
+- [ ] `scripts/common/throughLinker/connectionsConfig.cjs` に新路線の接続ペア（上り/下り）を追加
+- [ ] `node scripts/runThroughLinker.cjs` を実行
+- [ ] **【必須】境界駅のシームレス時刻同期**: 先行路線の到着時刻と後続路線の停車開始時刻が秒単位で一致し、空白時間（消失時間）がゼロであることを確認
 - [ ] **【必須】End-to-End 行先解決**: 直通チェーンを末尾まで探索し、チェーン全体の最終終着駅（例: 海老名、川越市、湘南台等）が全トリップの `customDestination` に統一されていることを確認（区間終点のハードコード禁止）
-- [ ] 3路線以上直通の場合、進行方向前方指向（Forward-Pointing Chain）でリンク設定
 - [ ] 境界駅の駅IDが路線間で異なる場合（例: `TY-13` ↔ `SH-03`）、`trainSimulation.ts` の `isSamePhysicalStation` で同一駅判定が有効であることを確認
 - [ ] 境界駅の `stations.ts` の `transfers` に相互路線名を追加
 
