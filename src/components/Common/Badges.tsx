@@ -141,6 +141,30 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#0073bc',
     numColor: '#005b94',
   },
+  // 東急東横線
+  TY: {
+    borderColor: '#da0442',
+    prefixColor: '#da0442',
+    numColor: '#a80030',
+  },
+  // 横浜高速鉄道みなとみらい線
+  MM: {
+    borderColor: '#002080',
+    prefixColor: '#002080',
+    numColor: '#001555',
+  },
+  // 東急新横浜線
+  SH: {
+    borderColor: '#5b2d86',
+    prefixColor: '#5b2d86',
+    numColor: '#421d64',
+  },
+  // 相模鉄道 (相鉄本線・いずみ野線・新横浜線)
+  SO: {
+    borderColor: '#002b66',
+    prefixColor: '#002b66',
+    numColor: '#001b44',
+  },
 };
 
 const DEFAULT_BADGE_COLOR: StationBadgeColor = {

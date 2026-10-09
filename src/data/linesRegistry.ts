@@ -24,6 +24,10 @@ import { odakyuEnoshimaLine } from './lines/odakyu_enoshima';
 import { odakyuTamaLine } from './lines/odakyu_tama';
 import { tokyuToyokoLine } from './lines/tokyu_toyoko';
 import { minatomiraiLine } from './lines/minatomirai';
+import { tokyuShinYokohamaLine } from './lines/tokyu_shin_yokohama';
+import { sotetsuShinYokohamaLine } from './lines/sotetsu_shin_yokohama';
+import { sotetsuMainLine } from './lines/sotetsu_main';
+import { sotetsuIzuminoLine } from './lines/sotetsu_izumino';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -38,6 +42,10 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   seibu_yurakucho: seibuYurakuchoLine,
   tokyu_toyoko: tokyuToyokoLine,
   minatomirai: minatomiraiLine,
+  tokyu_shin_yokohama: tokyuShinYokohamaLine,
+  sotetsu_shin_yokohama: sotetsuShinYokohamaLine,
+  sotetsu_main: sotetsuMainLine,
+  sotetsu_izumino: sotetsuIzuminoLine,
   hachiko: hachikoLine,
   musashino: musashinoLine,
   tsukuba_express: tsukubaExpressLine,
@@ -71,6 +79,7 @@ const OPERATOR_DISPLAY_ORDER = [
   '西武鉄道',
   '東急電鉄',
   '横浜高速鉄道',
+  '相模鉄道',
   '小田急電鉄',
   'JR東日本',
   'JR西日本',
