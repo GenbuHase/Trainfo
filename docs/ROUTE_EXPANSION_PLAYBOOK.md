@@ -312,22 +312,53 @@ Yahoo! 路線情報から生成されたダイヤデータには、内部数字I
 新路線が他路線と相互直通運転を行う場合、以下の設定を実施します。  
 （※単独完結路線の場合はスキップして Phase 7 へ進みます）
 
-1. **境界駅の発車標データの住み分け**:
-   * 境界駅（例: 大崎駅）で両路線の発車標が重複しないよう、一方の路線には上り発車標のみ、他方の路線には下り発車標のみを持たせる（`inGroupId: null` または `outGroupId: null`）。
-   * `getCombinedStationTimetables` により、両路線選択時に自動的に上下線発車標が時刻順に美しく統合されます。
+> [!CAUTION]
+> **【最重要】直通運転における2大頻出不具合と防止原則**:  
+> 1. **境界駅での列車消失**: 先行路線の終着時刻と後続路線の始発時刻にギャップ（1〜3分）があると、シミュレーション上で列車が完全に消失します。必ず**シームレス時刻同期**を行ってください。  
+> 2. **路線を跨ぐたびに行先が変わる**: 直近の次路線終点駅名（新横浜、西谷、日吉等）を行先にしてはいけません。必ず直通チェーン全体の最先端を探索する **End-to-End 行先解決** を行ってください。
 
-2. **直通メタデータ自動付与スクリプトの作成 & 実行**:
-   * `scripts/link_<lineA>_<lineB>.cjs` を作成。
-   * 双方の `globalTimetable.json` を読み込み、境界駅を発着する列車番号（`trainNumber`）と運行日（`isHoliday`）を照合。
-   * **進行方向前方指向（Forward-Pointing Chain）**に従い、直通メタデータを付与：
-     * `throughTripId`: 次に進入する直通先路線のトリップID
-     * `throughLineId`: 直通先の路線ID（例: `'saikyo'`, `'rinkai'`）
-     * `customDestination`: 直通先の最終行先駅名（例: 新宿、川越、新木場）
-     * `customOrigin`: 直通元の本来の始発駅名（例: 川越、大宮、新木場）
-   * スクリプトを実行し、双方の `globalTimetable.json` を更新。
+```mermaid
+flowchart LR
+    subgraph Chain ["直通運転チェーン (例: 東横線 ↔ 新横浜線 ↔ 相鉄線)"]
+        direction LR
+        T1["東横線トリップ<br/>(渋谷 → 日吉)<br/><b>customDest: 海老名</b>"] -->|throughTripId| T2["東急新横浜線トリップ<br/>(日吉 → 新横浜)<br/><b>customDest: 海老名</b>"]
+        T2 -->|throughTripId| T3["相鉄新横浜線トリップ<br/>(新横浜 → 西谷)<br/><b>customDest: 海老名</b>"]
+        T3 -->|throughTripId| T4["相鉄本線トリップ<br/>(西谷 → 海老名)<br/><b>customDest: 海老名</b>"]
+    end
+    Sync["境界駅時刻シームレス同期<br/>(先行着 = 後続発車待ち開始)"] -.-> Chain
+```
 
-3. **乗換路線案内（`transfers`）の相互リンク**:
-   * 境界駅の `stations.ts` において、`transfers` に相互の路線名を追加。
+#### 1. 境界駅の発車標データの住み分け
+* 境界駅（例: 大崎駅、日吉駅、新横浜駅）で両路線の発車標が重複しないよう、一方の路線には上り発車標のみ、他方の路線には下り発車標のみを持たせる（`inGroupId: null` または `outGroupId: null`）。
+* `getCombinedStationTimetables` により、両路線選択時に自動的に上下線発車標が時刻順に美しく統合されます。
+
+#### 2. 直通メタデータ自動付与スクリプトの実装 (`scripts/link_<lineA>_<lineB>.cjs`)
+直通リンカースクリプトは、以下の4要件を必ず実装してください：
+
+1. **既存リンクの安全なリセット（冪等性保証）**:
+   * スクリプト再実行時に前回のリンクが二重適用されたり誤マッチが残らないよう、対象路線間の `throughTripId`, `throughLineId`, `prevTripId`, `prevLineId` を一度リセットする。
+2. **Yahoo! `trainId` 優先 & 時刻ファジー照合**:
+   * Yahoo! 路線情報では、同一直通列車の `trainId`（例: `106477`）が会社境界を越えて同一で維持される。
+   * まず `trainId` 完全一致（時間差 $\le 360$ 秒）で最優先マッチングを行い、次に公式列車番号一致、最後に時刻近接（$\le 120$ 秒）でマッチングを行う。
+3. **境界駅でのシームレス時刻同期（列車消失の完全防止）**:
+   ```javascript
+   // 先行トリップの終着時刻と後続トリップの始発停車開始時刻を秒単位で完全一致させる
+   const syncTime = lastStop.arrivalTime || lastStop.departureTime;
+   lastStop.departureTime = syncTime;        // 先行路線は到着時刻で運行終了
+   bestB.stops[0].arrivalTime = syncTime;    // 後続路線は到着時刻から停車開始
+   ```
+   * これにより、先行列車が到着した瞬間から後続列車がホームに `STOPPING` 状態で現れ、マップピンの空白時間（消失）がゼロになります。
+4. **直通チェーン全体の End-to-End 行先自動解決（行先切り替わりの完全防止）**:
+   * マッチング完了後、全トリップの `throughTripId` を先端（最終終着駅）まで辿り、直通チェーンの最長到達地（例: 「海老名」「川越市」「和光市」「浦和美園」「湘南台」等）を決定。
+   * チェーンに属するすべてのトリップ（先行・中間・後続）の `customDestination` をその同一の最終行先で上書き・統一する。
+
+#### 3. 異なる駅コードを持つ境界接続駅の物理同一性対応
+* 路線ごとに駅IDが異なる場合（例: 東横線 `TY-13` ↔ 新横浜線 `SH-03`、新横浜線 `SH-01` ↔ 相鉄 `SO-52`、渋谷 `TY-01` ↔ `F-16`、横浜 `TY-21` ↔ `MM-01`）：
+* [`src/services/trainSimulation.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/services/trainSimulation.ts) の `isSamePhysicalStation` により同一物理駅として認識され、終着トリップから出発待ち後続トリップへのスムーズな描画移行が行われます。
+
+#### 4. 乗換路線案内（`transfers`）の相互リンク
+* 境界駅の `stations.ts` において、`transfers` 配列に相互の路線名を追加。
+
 
 ---
 
@@ -460,7 +491,7 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 
 ---
 
-## 5. 重要教訓・ハマりどころ防止策 24箇条（設計標準）
+## 5. 重要教訓・ハマりどころ防止策 27箇条（設計標準）
 
 > [!IMPORTANT]
 > 過去の実装およびYahoo!データ移行で解決された以下の知見を必ず遵守してください。
@@ -619,6 +650,43 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
   * **始発駅・終着駅の汎用判定**: `station.number === 39` などの特定駅番号固定ではなく、`line.stations[0]?.id === station.id` や `line.stations[line.stations.length - 1]?.id === station.id` のように路線定義の先頭・末尾要素を参照して汎用的に判定する。
   * **各駅停車系種別の共通判定関数（`isLocalTrainType`）**: 地図上の種別フィルター（`TrainMap.tsx`）やダイヤ共通処理等で、`local`, `regular`, `semiExp` などの各停系種別判定を共通関数 `isLocalTrainType`（`src/data/trainTypes.ts`）に集約し、個別コンポーネントでの多重定義を防ぐ。
 
+### 25. 境界駅におけるシームレス時刻同期と発着ギャップゼロ保証（列車の一時消失防止）
+* **事象**: 先行路線の終着駅到着時刻（例: 07:08）と後続路線の始発駅発車時刻（例: 07:11）の間に時刻同期が行われていないと、後続路線の始発駅 `arrivalTime` は発車時刻（07:11）のままとなる。その結果、シミュレーション時刻が 07:08〜07:11 の間（約1〜3分間）、先行トリップは既に運行終了、後続トリップはまだ運行開始前となり、**列車ピンがマップ上から一時的に完全に消滅する**。
+* **防止策（ベストプラクティス）**:
+  * 直通リンカースクリプト（`link_<lineA>_<lineB>.cjs`）において、先行トリップの終着時刻と後続トリップの始発停車開始時刻を秒単位で完全一致させる：
+    ```javascript
+    const syncTime = lastStop.arrivalTime || lastStop.departureTime;
+    lastStop.departureTime = syncTime;        // 先行路線は到着完了
+    bestB.stops[0].arrivalTime = syncTime;    // 後続路線は到着した瞬間から停車・発車待ち開始
+    ```
+  * これにより、先行列車が境界駅に到着した瞬間から後続列車が `STOPPING` 状態としてマップ上に引き継がれ、秒単位の空白時間（消失時間）がゼロになる。
+
+### 26. 直通チェーン全体の End-to-End 行先自動解決（路線跨ぎでの行先切り替わり・不整合防止）
+* **事象**: 3路線以上が直通する長大系統（例: 東横線 ↔ 新横浜線 ↔ 相鉄本線・いずみ野線）において、次路線の直近の終点駅（例: 新横浜、西谷、日吉等）を行先として単純に設定すると、海老名発川越市行き直通列車なのに「相鉄本線内: 新横浜行き」→「相鉄新横浜線内: 日吉行き」→「東急新横浜線内: 渋谷行き」→「東横線内: 川越市行き」のように**路線境界を越えるたびに行先表示が目まぐるしく変化してしまう**。
+* **防止策（ベストプラクティス）**:
+  * **直近駅のハードコード禁止**: `customDestination = '新横浜'` や `(tB.destinationStationId === 'SO-08' ? '西谷' : '海老名')` のような安易な区間終点の設定を行わない。
+  * **End-to-End 行先解決アルゴリズムの適用**:
+    * 直通リンカースクリプト内で、各列車の `throughTripId` を前方に末尾（最長到達トリップ）まで探索し、チェーン全体の最終終着駅（例: 海老名、湘南台、川越市、和光市、浦和美園、新宿等）を特定する。
+    * その直通チェーンに属するすべてのトリップ（先行・中間・後続）の `customDestination` をその同一の最終行先で上書き・同期する。
+  * これにより、どの路線のどの駅で列車を見ても、常に本来の最終目的地（実車の行先表示器と同じ表示）が一貫して案内される。
+
+### 27. 境界接続駅における路線別駅ID差異と物理駅同一性判定（境界ハンドオーバー失敗防止）
+* **事象**: 路線ごとに駅ID体系が異なる境界駅（日吉: 東横線 `TY-13` ↔ 新横浜線 `SH-03`、新横浜: 新横浜線 `SH-01` ↔ 相鉄 `SO-52`、渋谷: 東横線 `TY-01` ↔ 副都心線 `F-16`、横浜: 東横線 `TY-21` ↔ みなとみらい線 `MM-01`）において、シミュレーションエンジンが単純な `train.currentStationId === other.currentStationId` で直通引き継ぎを判定していると、ID不一致によりハンドオーバー判定が失敗し、境界駅で列車が多重描画されたり意図せず消去される。
+* **防止策（ベストプラクティス）**:
+  * シミュレーションエンジン（[`src/services/trainSimulation.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/services/trainSimulation.ts)）に物理駅同一性判定（`isSamePhysicalStation`）を導入：
+    ```typescript
+    function isSamePhysicalStation(idA?: string, idB?: string): boolean {
+      if (!idA || !idB) return false;
+      if (idA === idB) return true;
+      const stA = STATION_MAP.get(idA);
+      const stB = STATION_MAP.get(idB);
+      if (!stA || !stB) return false;
+      if (stA.name === stB.name) return true;
+      return calculateDistanceKm(stA.lat, stA.lng, stB.lat, stB.lng) <= 0.5;
+    }
+    ```
+  * 直通ペアが境界駅に停車中の場合、終着トリップから出発待ち後続トリップへのスムーズな優先表示切り替えが確実に作動する。
+
 ---
 
 ## 6. 新路線追加 クイックチェックリスト（作業着手〜完了チェックシート）
@@ -658,9 +726,11 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 
 ### Phase 6: 直通運転・ハンドオーバー構築（※直通路線のみ）
 - [ ] 境界駅の Yahoo! グループIDを片側のみ（上りのみ / 下りのみ）に設定
-- [ ] 直通メタデータ付与スクリプト `scripts/link_<lineA>_<lineB>.cjs` を作成・実行
-- [ ] 3路線直通の場合、進行方向前方指向（Forward-Pointing Chain）でリンク設定
-- [ ] `customDestination` および `customOrigin` が相互に付与されたことを確認
+- [ ] 直通メタデータ付与スクリプト `scripts/link_<lineA>_<lineB>.cjs` を作成・実行（既存リンクのリセットを冒頭に含める）
+- [ ] **【必須】境界駅のシームレス時刻同期**: 先行路線の到着時刻と後続路線の停車開始時刻を秒単位で一致させ、空白時間（消失時間）がゼロであることを確認
+- [ ] **【必須】End-to-End 行先解決**: 直通チェーンを末尾まで探索し、チェーン全体の最終終着駅（例: 海老名、川越市、湘南台等）が全トリップの `customDestination` に統一されていることを確認（区間終点のハードコード禁止）
+- [ ] 3路線以上直通の場合、進行方向前方指向（Forward-Pointing Chain）でリンク設定
+- [ ] 境界駅の駅IDが路線間で異なる場合（例: `TY-13` ↔ `SH-03`）、`trainSimulation.ts` の `isSamePhysicalStation` で同一駅判定が有効であることを確認
 - [ ] 境界駅の `stations.ts` の `transfers` に相互路線名を追加
 
 ### Phase 7: UI & コンポーネント最適化
@@ -670,7 +740,9 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 
 ### Phase 8: 包括的検証 & テスト
 - [ ] `npm run build` を実行し、型エラー・構文エラーがゼロであることを確認
-- [ ] 直通路線の場合は `scripts/test_<boundary>_handover.ts` を実行し全テスト合格を確認
+- [ ] **【必須】境界駅での連続走行テスト**: シミュレーション時刻を進め、境界駅で列車ピンが消滅・点滅することなく、停車〜発車がシームレスに引き継がれることを確認
+- [ ] **【必須】行先一貫性テスト**: 直通列車が路線境界を跨いだ際に行先表示（`customDestination`）が途中で切り替わらず、終始一貫していることを確認
+- [ ] 直通路線の追尾ハンドオーバーテストを実行し、全テスト合格を確認
 - [ ] ブラウザでシミュレータを起動し、10x/30x早送りで逆走・瞬間移動・表示崩れがないことを目視確認
 - [ ] 駅発車標モーダルおよび列車詳細サイドバーで着発時刻・行先・公式列車番号が正常に表示されることを確認
 
@@ -999,3 +1071,163 @@ function enrichLine(lineId, ekitanDataPath) {
   console.log(`✅ ${lineId} の公式列車番号エンリッチメント完了`);
 }
 ```
+
+### 6. 統合直通リンカースクリプト標準テンプレート (`scripts/link_<lineA>_<lineB>.cjs`)
+直通運転を構成する路線ペアを接続する際の標準テンプレートです。**既存リンクの安全なリセット**、**Yahoo! `trainId` 優先マッチ**、**境界駅でのシームレス時刻同期（空白時間ゼロ保証）**、および**直通チェーン全体の End-to-End 行先自動解決（路線跨ぎでの行先切り替わり防止）**を完備しています。
+
+```javascript
+const fs = require('fs');
+const path = require('path');
+
+function timeToSec(t) {
+  if (!t) return null;
+  const parts = t.split(':').map(Number);
+  let h = parts[0];
+  if (h < 4) h += 24;
+  return h * 3600 + parts[1] * 60 + (parts[2] || 0);
+}
+
+function extractYahooTrainId(tripId) {
+  if (!tripId) return null;
+  const parts = tripId.split('_');
+  return parts[parts.length - 1];
+}
+
+// 境界駅・主要駅の駅名逆引きテーブル
+const STATION_NAMES = {
+  // 'ST-01': '駅名', ...
+};
+
+function linkLinePair({
+  lineAId,
+  lineBId,
+  tripsA,
+  tripsB,
+  stationAId,
+  stationBId,
+  dirA,
+  dirB,
+  linkName,
+  maxTimeDiff = 360,
+}) {
+  let linkedCount = 0;
+  const candidatesB = tripsB.filter((tB) => {
+    if (tB.direction !== dirB) return false;
+    const firstStop = tB.stops[0];
+    return firstStop && firstStop.stationId === stationBId;
+  });
+
+  for (const tA of tripsA) {
+    if (tA.direction !== dirA) continue;
+    const lastStop = tA.stops[tA.stops.length - 1];
+    if (!lastStop || lastStop.stationId !== stationAId) continue;
+    if (tA.throughTripId) continue;
+
+    const tASec = timeToSec(lastStop.arrivalTime || lastStop.departureTime);
+    const yIdA = extractYahooTrainId(tA.tripId);
+    const noA = tA.trainNumber;
+
+    let bestB = null;
+    let minDiff = Infinity;
+
+    for (const tB of candidatesB) {
+      if (tA.isHoliday !== tB.isHoliday) continue;
+      if (tB.prevTripId) continue;
+
+      const firstStop = tB.stops[0];
+      const tBSec = timeToSec(firstStop.departureTime || firstStop.arrivalTime);
+      const diff = Math.abs(tBSec - tASec);
+      const yIdB = extractYahooTrainId(tB.tripId);
+      const noB = tB.trainNumber;
+
+      // 1. Yahoo trainId 完全一致 (最優先)
+      if (yIdA && yIdB && yIdA === yIdB && diff <= maxTimeDiff) {
+        bestB = tB;
+        break;
+      }
+      // 2. 公式列車番号一致
+      if (noA && noB && noA === noB && diff <= 180 && diff < minDiff) {
+        minDiff = diff;
+        bestB = tB;
+      } else if (diff <= 120 && diff < minDiff) {
+        // 3. 時刻近接最小
+        minDiff = diff;
+        bestB = tB;
+      }
+    }
+
+    if (bestB) {
+      tA.throughTripId = bestB.tripId;
+      tA.throughLineId = lineBId;
+      bestB.prevTripId = tA.tripId;
+      bestB.prevLineId = lineAId;
+
+      // 【重要】境界駅でのシームレス時刻同期 (空白時間による列車消失の完全防止)
+      const syncTime = lastStop.arrivalTime || lastStop.departureTime;
+      lastStop.departureTime = syncTime;        // 先行路線は到着完了
+      bestB.stops[0].arrivalTime = syncTime;    // 後続路線は到着した瞬間から発車待ち開始
+
+      linkedCount++;
+    }
+  }
+
+  console.log(`  [${linkName}] 接続完了: ${linkedCount} 本`);
+  return linkedCount;
+}
+
+// 直通チェーン全体の End-to-End 最終行先同期
+function resolveAllChainDestinations(allTripsMap) {
+  function resolveChainDestination(startTrip) {
+    let curr = startTrip;
+    const visited = new Set([curr.tripId]);
+    while (curr.throughTripId && allTripsMap.has(curr.throughTripId)) {
+      const next = allTripsMap.get(curr.throughTripId);
+      if (visited.has(next.tripId)) break;
+      visited.add(next.tripId);
+      curr = next;
+    }
+    const lastStop = curr.stops[curr.stops.length - 1];
+    const finalStationName = STATION_NAMES[curr.destinationStationId] || (lastStop ? STATION_NAMES[lastStop.stationId] : null);
+    let dest = curr.customDestination;
+    if (dest) dest = dest.replace(/\(相鉄・小田急\)/g, '').trim();
+    return dest || finalStationName || '行先不明';
+  }
+
+  const resolvedChains = new Set();
+  for (const [tripId, trip] of allTripsMap.entries()) {
+    if (resolvedChains.has(tripId)) continue;
+    if (!trip.throughTripId && !trip.prevTripId) continue;
+
+    // 先頭まで遡る
+    let head = trip;
+    const visitedBack = new Set([head.tripId]);
+    while (head.prevTripId && allTripsMap.has(head.prevTripId)) {
+      const p = allTripsMap.get(head.prevTripId);
+      if (visitedBack.has(p.tripId)) break;
+      visitedBack.add(p.tripId);
+      head = p;
+    }
+
+    // 先頭から末尾までリスト化
+    const chain = [];
+    let curr = head;
+    const visitedFwd = new Set();
+    while (curr && !visitedFwd.has(curr.tripId)) {
+      visitedFwd.add(curr.tripId);
+      chain.push(curr);
+      if (curr.throughTripId && allTripsMap.has(curr.throughTripId)) {
+        curr = allTripsMap.get(curr.throughTripId);
+      } else {
+        break;
+      }
+    }
+
+    const finalDest = resolveChainDestination(head);
+    for (const t of chain) {
+      resolvedChains.add(t.tripId);
+      t.customDestination = finalDest;
+    }
+  }
+}
+```
+
