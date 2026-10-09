@@ -1,6 +1,6 @@
 // Trainfo 共通型定義ファイル
 
-export type LineId = 'tojo' | 'ogose' | 'saikyo' | 'kawagoe' | 'rinkai' | 'hachiko' | 'itsukaichi' | 'musashino' | 'tsukuba_express' | 'chuo' | 'chuo_main' | 'shinonoi' | 'oito_east' | 'oito_west' | 'yurakucho' | 'fukutoshin' | 'seibu_ikebukuro' | 'seibu_yurakucho' | 'ome' | 'chichibu' | 'odakyu_odawara' | 'odakyu_enoshima' | 'odakyu_tama' | (string & {});
+export type LineId = 'tojo' | 'ogose' | 'saikyo' | 'kawagoe' | 'rinkai' | 'hachiko' | 'itsukaichi' | 'musashino' | 'tsukuba_express' | 'chuo' | 'chuo_main' | 'shinonoi' | 'oito_east' | 'oito_west' | 'yurakucho' | 'fukutoshin' | 'seibu_ikebukuro' | 'seibu_yurakucho' | 'ome' | 'chichibu' | 'odakyu_odawara' | 'odakyu_enoshima' | 'odakyu_tama' | 'tokyu_toyoko' | 'minatomirai' | (string & {});
 
 // 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋東京メトロ＋西武線＋秩父鉄道＋汎用）
 export type TrainTypeKey =
@@ -19,6 +19,8 @@ export type TrainTypeKey =
   | 'ome_special_rapid'       // 青梅特快（中央線）
   | 'commuter_special_rapid'  // 通勤特快（中央線）
   | 'limitedExp'              // 特急（あずさ・かいじ・ラビュー・ちちぶ・むさし等）
+  | 'commuter_ltd_exp'        // 通勤特急（東急東横線・みなとみらい線等）
+  | 'ltd_exp'                 // 特急（東急東横線・みなとみらい線等）
   | 'rapidExp'                // 快速急行
   | 'kawagoeExp'              // 川越特急
   | 'tjLiner'                 // TJライナー
@@ -115,6 +117,8 @@ export interface TimetableTrip {
   customDestination?: string; // 直通列車の行先名 (例: 元町・中華街, 新木場, 海老名)
   throughTripId?: string;     // 直通先トリップID（境界駅で接続する他路線側のトリップID）
   throughLineId?: LineId;     // 直通先路線ID
+  prevTripId?: string;        // 直通元トリップID
+  prevLineId?: LineId;        // 直通元路線ID
   cars: number;           // 10両, 8両, 4両
   isHoliday: boolean;     // 平日 / 土休日
   stops: StationStopTime[];
@@ -139,6 +143,8 @@ export interface ActiveTrain {
   customDestination?: string;
   throughTripId?: string;    // 直通先トリップID
   throughLineId?: LineId;    // 直通先路線ID
+  prevTripId?: string;       // 直通元トリップID
+  prevLineId?: LineId;       // 直通元路線ID
   cars: number;
   status: TrainStatus;
   currentLat: number;

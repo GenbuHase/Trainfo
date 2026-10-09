@@ -22,6 +22,8 @@ import { chichibuLine } from './lines/chichibu';
 import { odakyuOdawaraLine } from './lines/odakyu_odawara';
 import { odakyuEnoshimaLine } from './lines/odakyu_enoshima';
 import { odakyuTamaLine } from './lines/odakyu_tama';
+import { tokyuToyokoLine } from './lines/tokyu_toyoko';
+import { minatomiraiLine } from './lines/minatomirai';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -34,6 +36,8 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   fukutoshin: fukutoshinLine,
   seibu_ikebukuro: seibuIkebukuroLine,
   seibu_yurakucho: seibuYurakuchoLine,
+  tokyu_toyoko: tokyuToyokoLine,
+  minatomirai: minatomiraiLine,
   hachiko: hachikoLine,
   musashino: musashinoLine,
   tsukuba_express: tsukubaExpressLine,
@@ -65,6 +69,8 @@ const OPERATOR_DISPLAY_ORDER = [
   '東京メトロ',
   '東武鉄道',
   '西武鉄道',
+  '東急電鉄',
+  '横浜高速鉄道',
   '小田急電鉄',
   'JR東日本',
   'JR西日本',

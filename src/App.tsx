@@ -117,12 +117,14 @@ export function App() {
     const prev = lastSelectedTrainRef.current;
     if (prev) {
       const prevNo = formatTrainNumber(prev.trainNumber, prev.trainId, prev.tripId);
-      // 1. 直通先トリップID照合（最優先）
+      // 1. 直通先/直通元トリップID照合（最優先）
       let successor = activeTrains.find(
         (t) =>
           t.tripId !== prev.tripId &&
           ((prev.throughTripId && t.tripId === prev.throughTripId) ||
-            (t.throughTripId && t.throughTripId === prev.tripId))
+            (t.throughTripId && t.throughTripId === prev.tripId) ||
+            (prev.prevTripId && t.tripId === prev.prevTripId) ||
+            (t.prevTripId && t.prevTripId === prev.tripId))
       );
       // 2. 同一運行便ID（trainId）判定（会社境界で列車番号が変化する直通列車の確実な引き継ぎ）
       if (!successor && prev.trainId) {
@@ -161,9 +163,9 @@ export function App() {
     }
   }, [selectedTrain, selectedTrainId]);
 
-  // 直通列車を追尾中、直通先路線が未選択なら自動的に追加して追尾を継続（全路線共通）
+  // 直通列車を選択中、直通先路線が未選択なら自動的に追加して直通先でも描画・追尾を継続
   useEffect(() => {
-    if (!isTrackingTrain || !selectedTrain) return;
+    if (!selectedTrain) return;
 
     if (selectedTrain.throughLineId && !selectedLineIds.includes(selectedTrain.throughLineId)) {
       setSelectedLineIds((prev) => [...prev, selectedTrain.throughLineId!]);
@@ -174,7 +176,7 @@ export function App() {
           : [selectedTrain.throughLineId!],
       }));
     }
-  }, [isTrackingTrain, selectedTrain, selectedLineIds]);
+  }, [selectedTrain, selectedLineIds]);
 
   // モーダル状態
   const [timetableStation, setTimetableStation] = useState<Station | null>(null);
@@ -247,6 +249,7 @@ export function App() {
   const handleSelectStation = useCallback((station: Station) => {
     setSelectedStation(station);
     setSelectedTrainId(null);
+    lastSelectedTrainRef.current = null;
     setIsTrackingTrain(false);
     setIsSidebarOpen(true);
   }, []);
@@ -268,6 +271,7 @@ export function App() {
     if (!isTrackingTrain) {
       setSelectedStation(null);
       setSelectedTrainId(null);
+      lastSelectedTrainRef.current = null;
     }
   }, [isTrackingTrain]);
 
@@ -280,20 +284,22 @@ export function App() {
   const handleStopTracking = useCallback(() => {
     setIsTrackingTrain(false);
     setSelectedTrainId(null);
+    lastSelectedTrainRef.current = null;
   }, []);
 
-  // 追尾中の列車が一時的に見つからない場合（境界駅でのトリップ切り替え等）の猶予タイマー
+  // 選択中または追尾中の列車が一時的に見つからない場合（境界駅でのトリップ切り替え等）の猶予タイマー
   const missingTrainTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // 追尾中の列車が運行終了等で存在しなくなった場合は猶予時間をおいて自動解除
+  // 選択・追尾中の列車が運行終了等で存在しなくなった場合は猶予時間をおいて自動解除
   useEffect(() => {
-    if (isTrackingTrain && !selectedTrain) {
+    if ((isTrackingTrain || selectedTrainId) && !selectedTrain) {
       if (!missingTrainTimeoutRef.current) {
         missingTrainTimeoutRef.current = setTimeout(() => {
           setIsTrackingTrain(false);
           setSelectedTrainId(null);
+          lastSelectedTrainRef.current = null;
           missingTrainTimeoutRef.current = null;
-        }, 3000); // 3秒間の猶予時間
+        }, 5000); // 5秒間の猶予時間
       }
     } else {
       if (missingTrainTimeoutRef.current) {
@@ -308,7 +314,7 @@ export function App() {
         missingTrainTimeoutRef.current = null;
       }
     };
-  }, [isTrackingTrain, selectedTrain]);
+  }, [isTrackingTrain, selectedTrainId, selectedTrain]);
 
   // 実時間に同期
   const handleSyncRealTime = useCallback(() => {

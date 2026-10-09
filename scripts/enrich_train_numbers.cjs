@@ -2202,14 +2202,151 @@ function enrichOdakyuOdawara() {
   );
 }
 
-if (target === 'odakyu_tama' || target === 'odakyu' || target === 'all') {
-  enrichOdakyuTama();
+function enrichTokyuToyokoAndMinatomirai(targetLine) {
+  const ekitanCachePath = path.resolve('scripts/cache/ekitan_toyoko_mm_train_numbers.json');
+  if (!fs.existsSync(ekitanCachePath)) {
+    console.warn(`[WARN] 駅探キャッシュが見つかりません: ${ekitanCachePath}`);
+    return;
+  }
+  const ekitan = JSON.parse(fs.readFileSync(ekitanCachePath, 'utf8'));
+
+  const STATION_NAME_TO_ID = {
+    '渋谷': 'TY-01',
+    '中目黒': 'TY-03',
+    '武蔵小杉': 'TY-11',
+    '日吉': 'TY-13',
+    '菊名': 'TY-16',
+    '横浜': 'TY-21',
+    'みなとみらい': 'MM-03',
+    '元町・中華街': 'MM-06',
+  };
+
+  function timeToSec(t) {
+    if (!t) return null;
+    const parts = t.split(':').map(Number);
+    let h = parts[0];
+    if (h < 4) h += 24;
+    return h * 3600 + parts[1] * 60 + (parts[2] || 0);
+  }
+
+  const ekitanByStation = new Map();
+  for (const row of ekitan) {
+    const stId = STATION_NAME_TO_ID[row.stationName];
+    if (!stId) continue;
+    const isHoli = row.dw !== 1;
+    let h = row.hour;
+    if (h < 4) h += 24;
+    const sec = h * 3600 + row.minute * 60;
+    const groupKey = `${stId}_${isHoli ? 'H' : 'W'}_${row.direction}`;
+    if (!ekitanByStation.has(groupKey)) ekitanByStation.set(groupKey, []);
+    ekitanByStation.get(groupKey).push({ ...row, normSec: sec });
+  }
+
+  function findBestEkitanNo(trip) {
+    const isHoli = trip.isHoliday;
+    let bestCandidate = null;
+    let minDiff = Infinity;
+
+    for (const stop of trip.stops) {
+      if (stop.isPassing || !stop.departureTime) continue;
+      const stopSec = timeToSec(stop.departureTime);
+      const stIds = (stop.stationId === 'MM-01' || stop.stationId === 'TY-21') ? ['TY-21', 'MM-01'] : [stop.stationId];
+
+      for (const stId of stIds) {
+        const groupKey = `${stId}_${isHoli ? 'H' : 'W'}_${trip.direction}`;
+        const candidates = ekitanByStation.get(groupKey);
+        if (!candidates) continue;
+
+        for (const cand of candidates) {
+          const diff = Math.abs(cand.normSec - stopSec);
+          if (diff <= 180 && diff < minDiff) {
+            minDiff = diff;
+            bestCandidate = cand.trainNo;
+            if (diff === 0) return cand.trainNo;
+          }
+        }
+      }
+    }
+    return bestCandidate;
+  }
+
+  const lines = targetLine === 'all' ? ['tokyu_toyoko', 'minatomirai'] : [targetLine];
+  for (const lineId of lines) {
+    const globalPath = path.resolve(`src/data/lines/${lineId}/globalTimetable.json`);
+    const stationPath = path.resolve(`src/data/lines/${lineId}/stationTimetables.json`);
+    if (!fs.existsSync(globalPath)) continue;
+
+    console.log(`=== [${lineId}] 公式列車番号エンリッチメント開始 ===`);
+    const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+    let updatedCount = 0;
+
+    for (const trip of trips) {
+      const rawNo = trip.trainNumber;
+      if (!trip.trainId && rawNo) {
+        trip.trainId = rawNo;
+      }
+      const officialNo = findBestEkitanNo(trip);
+      if (officialNo) {
+        trip.trainNumber = officialNo;
+        updatedCount++;
+      }
+    }
+    fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
+    console.log(`✅ [${lineId}] globalTimetable: ${updatedCount} / ${trips.length} trips updated`);
+
+    if (fs.existsSync(stationPath)) {
+      const stationData = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
+      const depKeyToNumber = new Map();
+      for (const trip of trips) {
+        const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+        const dirKey = trip.direction;
+        for (const stop of trip.stops) {
+          if (stop.isPassing || !stop.departureTime) continue;
+          const [hStr, mStr] = stop.departureTime.split(':');
+          const h = parseInt(hStr, 10);
+          const m = parseInt(mStr, 10);
+          const k = `${dayKey}_${stop.stationId}_${dirKey}_${h}_${m}`;
+          depKeyToNumber.set(k, { trainNumber: trip.trainNumber, trainId: trip.trainId, tripId: trip.tripId });
+        }
+      }
+
+      let stDepUpdated = 0;
+      for (const dayKey of ['weekday', 'holiday']) {
+        const dayObj = stationData[dayKey];
+        if (!dayObj) continue;
+        for (const stId of Object.keys(dayObj)) {
+          const stObj = dayObj[stId];
+          for (const dirKey of ['inbound', 'outbound']) {
+            const departures = stObj[dirKey];
+            if (!Array.isArray(departures)) continue;
+            for (const dep of departures) {
+              const rawNo = dep.no;
+              if (!dep.trainId && rawNo) {
+                dep.trainId = rawNo;
+              }
+              const k = `${dayKey}_${stId}_${dirKey}_${dep.h}_${dep.m}`;
+              const matched = depKeyToNumber.get(k);
+              if (matched) {
+                dep.no = matched.trainNumber;
+                dep.trainId = matched.trainId;
+                dep.tripId = matched.tripId;
+                stDepUpdated++;
+              }
+            }
+          }
+        }
+      }
+      fs.writeFileSync(stationPath, JSON.stringify(stationData, null, 2), 'utf8');
+      console.log(`✅ [${lineId}] stationTimetables: ${stDepUpdated} departures updated`);
+    }
+  }
 }
-if (target === 'odakyu_enoshima' || target === 'odakyu' || target === 'all') {
-  enrichOdakyuEnoshima();
+
+if (target === 'tokyu_toyoko' || target === 'toyoko' || target === 'all') {
+  enrichTokyuToyokoAndMinatomirai('tokyu_toyoko');
 }
-if (target === 'odakyu_odawara' || target === 'odakyu' || target === 'all') {
-  enrichOdakyuOdawara();
+if (target === 'minatomirai' || target === 'all') {
+  enrichTokyuToyokoAndMinatomirai('minatomirai');
 }
 
 
