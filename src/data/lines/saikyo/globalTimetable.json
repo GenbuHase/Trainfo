@@ -479,9 +479,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "39263",
+    "customDestination": "池袋",
     "prevTripId": "kw_WD_INB_JA-29_0449_39263",
-    "prevLineId": "kawagoe",
-    "customDestination": "池袋"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-31_0451_29045",
@@ -593,9 +593,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "29045",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-31_0451_29045",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-26_0451_37437",
@@ -956,9 +956,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "29032",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-29_0508_29032",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-12_0512_39210",
@@ -1174,9 +1174,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "29034",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-29_0516_29034",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-31_0524_29046",
@@ -1288,9 +1288,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "29046",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-31_0524_29046",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-29_0525_29035",
@@ -1402,9 +1402,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "29035",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-29_0525_29035",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-12_0530_39205",
@@ -1727,9 +1727,9 @@
     ],
     "customOrigin": "南古谷",
     "trainId": "29042",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-30_0541_29042",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-31_0549_23088",
@@ -2302,9 +2302,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "29036",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-29_0557_29036",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-11_0603_22896",
@@ -2770,9 +2770,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "29043",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-31_0609_29043",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-08_0613_39106",
@@ -2787,7 +2787,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "06:12:00",
+        "arrivalTime": "06:09:00",
         "departureTime": "06:13:00",
         "isPassing": false
       },
@@ -2810,7 +2810,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39106"
+    "trainId": "39106",
+    "prevTripId": "WD_OUT_R-01_0550_105079",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_JA-12_0613_39209",
@@ -3109,9 +3112,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "29037",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-29_0614_29037",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-26_0616_36535",
@@ -3352,7 +3355,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22898"
+    "trainId": "22898",
+    "throughTripId": "kw_WD_OUT_JA-11_0632_39281",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_INB_JA-31_0625_23089",
@@ -3708,9 +3714,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "29038",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-29_0629_29038",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-08_0630_26782",
@@ -3854,7 +3860,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3879,11 +3885,13 @@
       {
         "stationId": "JA-08",
         "arrivalTime": "06:43:00",
-        "departureTime": "06:44:00",
+        "departureTime": "06:43:00",
         "isPassing": false
       }
     ],
-    "trainId": "39298"
+    "trainId": "39298",
+    "throughTripId": "WD_INB_R-08_0646_105204",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-08_0632_39108",
@@ -4032,9 +4040,7 @@
       }
     ],
     "customDestination": "川越",
-    "trainId": "39281",
-    "throughTripId": "kw_WD_OUT_JA-11_0632_39281",
-    "throughLineId": "kawagoe"
+    "trainId": "39281"
   },
   {
     "tripId": "WD_INB_JA-26_0633_36372",
@@ -5592,7 +5598,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "07:03:00",
+        "arrivalTime": "06:58:00",
         "departureTime": "07:03:00",
         "isPassing": false
       },
@@ -5615,7 +5621,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39109"
+    "trainId": "39109",
+    "prevTripId": "WD_OUT_R-01_0639_105086",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_JA-26_0705_39250",
@@ -6007,9 +6016,9 @@
       }
     ],
     "trainId": "22999",
+    "customDestination": "大宮",
     "prevTripId": "WD_OUT_R-01_0648_105087",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_0708_22823",
@@ -7836,9 +7845,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39214",
+    "customDestination": "武蔵浦和",
     "prevTripId": "WD_OUT_R-01_0717_39214",
-    "prevLineId": "rinkai",
-    "customDestination": "武蔵浦和"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-29_0739_23086",
@@ -8035,9 +8044,9 @@
       }
     ],
     "trainId": "39201",
+    "customDestination": "赤羽",
     "prevTripId": "WD_OUT_R-01_0724_105091",
-    "prevLineId": "rinkai",
-    "customDestination": "赤羽"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-26_0744_36541",
@@ -8507,11 +8516,11 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39222",
+    "customDestination": "川越",
     "prevTripId": "WD_OUT_R-01_0729_39222",
     "prevLineId": "rinkai",
     "throughTripId": "kw_WD_OUT_JA-08_0800_26854",
-    "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "throughLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-31_0753_23095",
@@ -8655,7 +8664,7 @@
     "direction": "inbound",
     "originStationId": "JA-26",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8770,12 +8779,14 @@
       {
         "stationId": "JA-08",
         "arrivalTime": "09:07:00",
-        "departureTime": "09:08:00",
+        "departureTime": "09:07:00",
         "isPassing": false
       }
     ],
     "customOrigin": "指扇",
     "trainId": "39260",
+    "throughTripId": "WD_INB_R-08_0903_105216",
+    "throughLineId": "rinkai",
     "prevTripId": "kw_WD_INB_JA-29_0754_39260",
     "prevLineId": "kawagoe"
   },
@@ -8919,7 +8930,7 @@
     "direction": "inbound",
     "originStationId": "JA-21",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9004,11 +9015,13 @@
       {
         "stationId": "JA-08",
         "arrivalTime": "08:47:00",
-        "departureTime": "08:49:00",
+        "departureTime": "08:47:00",
         "isPassing": false
       }
     ],
-    "trainId": "39256"
+    "trainId": "39256",
+    "throughTripId": "WD_INB_R-08_0851_41018",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-26_0801_36542",
@@ -9267,7 +9280,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39196"
+    "trainId": "39196",
+    "throughTripId": "kw_WD_OUT_JA-08_0810_26787",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_OUT_JA-11_0806_22906",
@@ -9477,9 +9493,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39215",
+    "customDestination": "武蔵浦和",
     "prevTripId": "WD_OUT_R-01_0746_39215",
-    "prevLineId": "rinkai",
-    "customDestination": "武蔵浦和"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-31_0808_23096",
@@ -9745,9 +9761,7 @@
     "customOrigin": "新木場",
     "trainId": "26787",
     "prevTripId": "WD_OUT_R-01_0750_26787",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_0810_26787",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-21_0815_36466",
@@ -9957,9 +9971,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39225",
+    "customDestination": "大宮",
     "prevTripId": "WD_OUT_R-01_0756_39225",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-08_0818_39202",
@@ -10261,11 +10275,11 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39226",
+    "customDestination": "川越",
     "prevTripId": "WD_OUT_R-01_0801_39226",
     "prevLineId": "rinkai",
     "throughTripId": "kw_WD_OUT_JA-08_0833_39199",
-    "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "throughLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-15_0822_41018",
@@ -10328,9 +10342,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "41018",
-    "throughTripId": "WD_INB_R-08_0851_41018",
-    "throughLineId": "rinkai"
+    "trainId": "41018"
   },
   {
     "tripId": "WD_INB_JA-31_0823_23097",
@@ -10805,9 +10817,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39227",
+    "customDestination": "大宮",
     "prevTripId": "WD_OUT_R-01_0808_39227",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-08_0833_39199",
@@ -11146,9 +11158,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39216",
+    "customDestination": "武蔵浦和",
     "prevTripId": "WD_OUT_R-01_0814_39216",
-    "prevLineId": "rinkai",
-    "customDestination": "武蔵浦和"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-31_0837_23098",
@@ -11412,11 +11424,11 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39228",
+    "customDestination": "川越",
     "prevTripId": "WD_OUT_R-01_0821_39228",
     "prevLineId": "rinkai",
     "throughTripId": "kw_WD_OUT_JA-08_0853_26855",
-    "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "throughLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-08_0846_39129",
@@ -11461,9 +11473,9 @@
       }
     ],
     "trainId": "39129",
+    "customDestination": "池袋",
     "prevTripId": "WD_OUT_R-01_0826_105095",
-    "prevLineId": "rinkai",
-    "customDestination": "池袋"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-26_0849_36380",
@@ -11927,9 +11939,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "29044",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-31_0855_29044",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-21_0856_36568",
@@ -12157,9 +12169,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41008",
+    "customDestination": "赤羽",
     "prevTripId": "WD_OUT_R-01_0840_41008",
-    "prevLineId": "rinkai",
-    "customDestination": "赤羽"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_0901_22909",
@@ -12574,9 +12586,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41023",
+    "customDestination": "池袋",
     "prevTripId": "WD_OUT_R-01_0847_41023",
-    "prevLineId": "rinkai",
-    "customDestination": "池袋"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_0910_22910",
@@ -12687,9 +12699,9 @@
       }
     ],
     "trainId": "22910",
+    "customDestination": "川越",
     "throughTripId": "kw_WD_OUT_JA-08_0913_26856",
-    "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "throughLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-31_0912_23099",
@@ -12994,9 +13006,9 @@
       }
     ],
     "trainId": "39131",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_0857_105097",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-26_0917_36382",
@@ -13152,9 +13164,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41024",
+    "customDestination": "池袋",
     "prevTripId": "WD_OUT_R-01_0901_41024",
-    "prevLineId": "rinkai",
-    "customDestination": "池袋"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-21_0924_36570",
@@ -13791,7 +13803,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -13816,11 +13828,13 @@
       {
         "stationId": "JA-08",
         "arrivalTime": "09:48:00",
-        "departureTime": "09:50:00",
+        "departureTime": "09:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "39357"
+    "trainId": "39357",
+    "throughTripId": "WD_INB_R-08_0953_105220",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-08_0937_39231",
@@ -13950,9 +13964,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39231",
+    "customDestination": "大宮",
     "prevTripId": "WD_OUT_R-01_0916_39231",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-26_0940_36386",
@@ -14762,9 +14776,11 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39233",
+    "customDestination": "川越",
     "prevTripId": "WD_OUT_R-01_0930_39233",
     "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "throughTripId": "kw_WD_OUT_JA-08_1002_26795",
+    "throughLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-11_0951_22832",
@@ -14944,9 +14960,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39217",
+    "customDestination": "武蔵浦和",
     "prevTripId": "WD_OUT_R-01_0934_39217",
-    "prevLineId": "rinkai",
-    "customDestination": "武蔵浦和"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-11_0957_39303",
@@ -15227,9 +15243,7 @@
     "customOrigin": "新木場",
     "trainId": "26795",
     "prevTripId": "WD_OUT_R-01_0942_26795",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_1002_26795",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-26_1002_36389",
@@ -15603,9 +15617,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39234",
+    "customDestination": "大宮",
     "prevTripId": "WD_OUT_R-01_0952_39234",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-11_1013_39358",
@@ -16347,7 +16361,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "10:30:00",
+        "arrivalTime": "10:28:00",
         "departureTime": "10:31:00",
         "isPassing": false
       },
@@ -16370,7 +16384,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39136"
+    "trainId": "39136",
+    "prevTripId": "WD_OUT_R-01_1009_105103",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_JA-11_1035_39305",
@@ -17098,9 +17115,9 @@
       }
     ],
     "trainId": "39138",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_1031_105107",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-11_1055_39309",
@@ -18063,7 +18080,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "11:19:00",
+        "arrivalTime": "11:15:00",
         "departureTime": "11:20:00",
         "isPassing": false
       },
@@ -18086,7 +18103,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39141"
+    "trainId": "39141",
+    "prevTripId": "WD_OUT_R-01_1056_105110",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_JA-08_1122_26804",
@@ -18924,7 +18944,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "11:42:00",
+        "arrivalTime": "11:47:00",
         "departureTime": "11:43:00",
         "isPassing": false
       },
@@ -18947,7 +18967,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39142"
+    "trainId": "39142",
+    "prevTripId": "WD_OUT_R-01_1128_105114",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_JA-21_1144_36480",
@@ -19967,9 +19990,9 @@
       }
     ],
     "trainId": "39145",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_1152_105118",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1217_22927",
@@ -21708,7 +21731,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -21737,7 +21760,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39317"
+    "trainId": "39317",
+    "throughTripId": "WD_INB_R-08_1309_105244",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-21_1304_36489",
@@ -22070,9 +22095,9 @@
       }
     ],
     "trainId": "39149",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_1254_105126",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1317_22934",
@@ -22730,7 +22755,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -22759,7 +22784,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39320"
+    "trainId": "39320",
+    "throughTripId": "WD_INB_R-08_1347_105249",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1337_22935",
@@ -23366,9 +23393,9 @@
       }
     ],
     "trainId": "39151",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_1329_105130",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1347_22855",
@@ -23812,7 +23839,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -23837,11 +23864,13 @@
       {
         "stationId": "JA-08",
         "arrivalTime": "14:14:00",
-        "departureTime": "14:15:00",
+        "departureTime": "14:14:00",
         "isPassing": false
       }
     ],
-    "trainId": "39321"
+    "trainId": "39321",
+    "throughTripId": "WD_INB_R-08_1410_105253",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-21_1404_36494",
@@ -24174,9 +24203,9 @@
       }
     ],
     "trainId": "39152",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_1355_105134",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1417_22939",
@@ -25781,7 +25810,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -25810,7 +25839,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39326"
+    "trainId": "39326",
+    "throughTripId": "WD_INB_R-08_1509_105260",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-08_1503_26826",
@@ -25825,7 +25856,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "15:02:00",
+        "arrivalTime": "14:59:00",
         "departureTime": "15:03:00",
         "isPassing": false
       },
@@ -25941,7 +25972,7 @@
     "customDestination": "川越",
     "customOrigin": "新木場",
     "trainId": "26826",
-    "prevTripId": "WD_OUT_R-01_1443_26826",
+    "prevTripId": "WD_OUT_R-01_1439_105140",
     "prevLineId": "rinkai",
     "throughTripId": "kw_WD_OUT_JA-08_1503_26826",
     "throughLineId": "kawagoe"
@@ -26277,9 +26308,9 @@
       }
     ],
     "trainId": "39156",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_1452_105142",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1517_22946",
@@ -26937,7 +26968,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -26966,7 +26997,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39327"
+    "trainId": "39327",
+    "throughTripId": "WD_INB_R-08_1549_105266",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1537_22947",
@@ -27439,9 +27472,9 @@
       }
     ],
     "trainId": "39159",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_1527_105146",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-31_1545_23163",
@@ -28381,9 +28414,9 @@
       }
     ],
     "trainId": "39160",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_1550_105150",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1617_22951",
@@ -29108,7 +29141,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "16:33:00",
+        "arrivalTime": "16:28:00",
         "departureTime": "16:33:00",
         "isPassing": false
       },
@@ -29131,7 +29164,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39115"
+    "trainId": "39115",
+    "prevTripId": "WD_OUT_R-01_1609_105152",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_JA-26_1636_36549",
@@ -29698,9 +29734,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "29039",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-29_1644_29039",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-31_1645_23101",
@@ -30074,9 +30110,11 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39235",
+    "customDestination": "川越",
     "prevTripId": "WD_OUT_R-01_1629_39235",
     "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "throughTripId": "kw_WD_OUT_JA-08_1708_26858",
+    "throughLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-08_1652_39164",
@@ -30115,9 +30153,9 @@
       }
     ],
     "trainId": "39164",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_1635_105156",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-11_1652_39333",
@@ -30802,9 +30840,9 @@
       }
     ],
     "trainId": "22958",
+    "customDestination": "川越",
     "throughTripId": "kw_WD_OUT_JA-26_1759_43295",
-    "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "throughLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-29_1707_29040",
@@ -30916,9 +30954,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "29040",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-29_1707_29040",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-08_1708_26858",
@@ -31050,9 +31088,7 @@
     "customOrigin": "新木場",
     "trainId": "26858",
     "prevTripId": "WD_OUT_R-01_1647_26858",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_1708_26858",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-11_1712_39334",
@@ -32109,7 +32145,7 @@
     "stops": [
       {
         "stationId": "JA-26",
-        "arrivalTime": "17:33:00",
+        "arrivalTime": "17:37:00",
         "departureTime": "17:33:00",
         "isPassing": false
       },
@@ -32204,7 +32240,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "36430"
+    "trainId": "36430",
+    "prevTripId": "kw_WD_INB_JA-29_1727_23087",
+    "prevLineId": "kawagoe",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_JA-11_1734_22876",
@@ -32414,9 +32453,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39238",
+    "customDestination": "大宮",
     "prevTripId": "WD_OUT_R-01_1714_39238",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-11_1736_39363",
@@ -32496,9 +32535,9 @@
       }
     ],
     "trainId": "39166",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_1720_105160",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1743_22960",
@@ -32608,7 +32647,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22960"
+    "trainId": "22960",
+    "throughTripId": "kw_WD_OUT_JA-08_1747_26860",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_INB_JA-31_1745_23104",
@@ -32874,9 +32916,7 @@
     "customOrigin": "新木場",
     "trainId": "26860",
     "prevTripId": "WD_OUT_R-01_1726_26860",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_1747_26860",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-08_1752_39168",
@@ -33314,9 +33354,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39239",
+    "customDestination": "大宮",
     "prevTripId": "WD_OUT_R-01_1735_39239",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-11_1756_39365",
@@ -33326,7 +33366,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -33355,7 +33395,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39365"
+    "trainId": "39365",
+    "throughTripId": "WD_INB_R-08_1811_105283",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-26_1803_36555",
@@ -33596,7 +33638,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22962"
+    "trainId": "22962",
+    "throughTripId": "kw_WD_OUT_JA-08_1805_26861",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_OUT_JA-08_1805_26861",
@@ -33728,9 +33773,7 @@
     "customOrigin": "新木場",
     "trainId": "26861",
     "prevTripId": "WD_OUT_R-01_1741_26861",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_1805_26861",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-31_1805_23105",
@@ -33959,7 +34002,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "18:12:00",
+        "arrivalTime": "18:08:00",
         "departureTime": "18:13:00",
         "isPassing": false
       },
@@ -33982,7 +34025,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39117"
+    "trainId": "39117",
+    "prevTripId": "WD_OUT_R-01_1748_105162",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_JA-11_1813_22880",
@@ -34182,7 +34228,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -34211,7 +34257,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39366"
+    "trainId": "39366",
+    "throughTripId": "WD_INB_R-08_1822_105284",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-08_1817_26773",
@@ -34455,7 +34503,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22963"
+    "trainId": "22963",
+    "throughTripId": "kw_WD_OUT_JA-08_1827_26862",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_INB_JA-26_1823_36556",
@@ -34852,9 +34903,7 @@
     "customOrigin": "新木場",
     "trainId": "26862",
     "prevTripId": "WD_OUT_R-01_1806_26862",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_1827_26862",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-08_1832_39242",
@@ -34984,9 +35033,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39242",
+    "customDestination": "大宮",
     "prevTripId": "WD_OUT_R-01_1811_39242",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1832_22882",
@@ -35336,9 +35385,9 @@
       }
     ],
     "trainId": "39171",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_1819_26863",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1842_22965",
@@ -35448,7 +35497,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22965"
+    "trainId": "22965",
+    "throughTripId": "kw_WD_OUT_JA-08_1844_26863",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_INB_JA-26_1843_36557",
@@ -35711,9 +35763,7 @@
     "customOrigin": "新木場",
     "trainId": "26863",
     "prevTripId": "WD_OUT_R-01_1825_105166",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_1844_26863",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-31_1845_23107",
@@ -36417,9 +36467,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39243",
+    "customDestination": "大宮",
     "prevTripId": "WD_OUT_R-01_1833_39243",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-11_1856_39368",
@@ -36568,7 +36618,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22966"
+    "trainId": "22966",
+    "throughTripId": "kw_WD_OUT_JA-08_1905_26864",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_INB_JA-26_1903_36558",
@@ -36831,9 +36884,7 @@
     "customOrigin": "新木場",
     "trainId": "26864",
     "prevTripId": "WD_OUT_R-01_1844_26864",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_1905_26864",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-31_1905_23108",
@@ -37142,7 +37193,7 @@
     "stops": [
       {
         "stationId": "JA-26",
-        "arrivalTime": "19:13:00",
+        "arrivalTime": "19:17:00",
         "departureTime": "19:13:00",
         "isPassing": false
       },
@@ -37237,7 +37288,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "36439"
+    "trainId": "36439",
+    "prevTripId": "kw_WD_INB_JA-31_1854_23185",
+    "prevLineId": "kawagoe",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_JA-08_1915_39244",
@@ -37367,9 +37421,11 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39244",
+    "customDestination": "川越",
     "prevTripId": "WD_OUT_R-01_1851_39244",
     "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "throughTripId": "kw_WD_OUT_JA-11_1932_39267",
+    "throughLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-11_1916_39369",
@@ -37449,9 +37505,9 @@
       }
     ],
     "trainId": "39174",
+    "customDestination": "新宿",
     "prevTripId": "WD_OUT_R-01_1859_105171",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1921_22968",
@@ -37561,7 +37617,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22968"
+    "trainId": "22968",
+    "throughTripId": "kw_WD_OUT_JA-08_1923_26865",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_OUT_JA-08_1923_26865",
@@ -37693,9 +37752,7 @@
     "customOrigin": "新木場",
     "trainId": "26865",
     "prevTripId": "WD_OUT_R-01_1903_26865",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_1923_26865",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-31_1925_23109",
@@ -37940,9 +37997,7 @@
       }
     ],
     "customDestination": "川越",
-    "trainId": "39267",
-    "throughTripId": "kw_WD_OUT_JA-11_1932_39267",
-    "throughLineId": "kawagoe"
+    "trainId": "39267"
   },
   {
     "tripId": "WD_INB_JA-21_1932_36524",
@@ -38147,7 +38202,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "19:35:00",
+        "arrivalTime": "19:31:00",
         "departureTime": "19:36:00",
         "isPassing": false
       },
@@ -38170,45 +38225,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39121"
-  },
-  {
-    "tripId": "WD_OUT_JA-08_1936_39120",
-    "lineId": "saikyo",
-    "trainNumber": "142M",
-    "trainType": "local",
-    "direction": "outbound",
-    "originStationId": "JA-08",
-    "destinationStationId": "JA-11",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "19:34:00",
-        "departureTime": "19:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "19:40:00",
-        "departureTime": "19:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "19:42:00",
-        "departureTime": "19:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-11",
-        "arrivalTime": "19:47:00",
-        "departureTime": "19:47:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "39120"
+    "trainId": "39121",
+    "prevTripId": "WD_OUT_R-01_1912_105172",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_JA-11_1936_39340",
@@ -38377,9 +38397,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39246",
+    "customDestination": "大宮",
     "prevTripId": "WD_OUT_R-01_1918_39246",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_1942_22969",
@@ -38489,7 +38509,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22969"
+    "trainId": "22969",
+    "throughTripId": "kw_WD_OUT_JA-08_1946_26866",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_INB_JA-26_1943_36560",
@@ -38886,9 +38909,7 @@
     "customOrigin": "新木場",
     "trainId": "26866",
     "prevTripId": "WD_OUT_R-01_1924_26866",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_1946_26866",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-08_1951_41009",
@@ -38952,9 +38973,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41009",
+    "customDestination": "赤羽",
     "prevTripId": "WD_OUT_R-01_1931_41009",
-    "prevLineId": "rinkai",
-    "customDestination": "赤羽"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-21_1952_36526",
@@ -39049,7 +39070,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "19:53:00",
+        "arrivalTime": "19:57:00",
         "departureTime": "19:53:00",
         "isPassing": false
       },
@@ -39072,7 +39093,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39122"
+    "trainId": "39122",
+    "prevTripId": "WD_OUT_R-01_1938_105174",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_JA-11_1953_22970",
@@ -39404,9 +39428,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "29048",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-31_1954_29048",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_INB_JA-11_1956_39370",
@@ -39557,7 +39581,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22972"
+    "trainId": "22972",
+    "throughTripId": "kw_WD_OUT_JA-08_2005_26867",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_INB_JA-26_2002_36444",
@@ -39799,9 +39826,7 @@
     "customOrigin": "新木場",
     "trainId": "26867",
     "prevTripId": "WD_OUT_R-01_1945_26867",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_2005_26867",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-31_2005_23111",
@@ -40219,9 +40244,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41010",
+    "customDestination": "赤羽",
     "prevTripId": "WD_OUT_R-01_1950_41010",
-    "prevLineId": "rinkai",
-    "customDestination": "赤羽"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-11_2016_39371",
@@ -40275,7 +40300,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "20:18:00",
+        "arrivalTime": "20:15:00",
         "departureTime": "20:19:00",
         "isPassing": false
       },
@@ -40298,7 +40323,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39179"
+    "trainId": "39179",
+    "prevTripId": "WD_OUT_R-01_1955_105176",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_JA-11_2021_22975",
@@ -40408,7 +40436,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22975"
+    "trainId": "22975",
+    "throughTripId": "kw_WD_OUT_JA-08_2022_26868",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_OUT_JA-08_2022_26868",
@@ -40540,9 +40571,7 @@
     "customOrigin": "新木場",
     "trainId": "26868",
     "prevTripId": "WD_OUT_R-01_2002_26868",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_2022_26868",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-31_2025_23112",
@@ -40740,9 +40769,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41011",
+    "customDestination": "赤羽",
     "prevTripId": "WD_OUT_R-01_2012_41011",
-    "prevLineId": "rinkai",
-    "customDestination": "赤羽"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-26_2032_36561",
@@ -41001,7 +41030,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "20:34:00",
+        "arrivalTime": "20:39:00",
         "departureTime": "20:35:00",
         "isPassing": false
       },
@@ -41024,7 +41053,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39123"
+    "trainId": "39123",
+    "prevTripId": "WD_OUT_R-01_2019_105178",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_JA-11_2036_39344",
@@ -41369,7 +41401,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22977"
+    "trainId": "22977",
+    "throughTripId": "kw_WD_OUT_JA-08_2046_26869",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_INB_JA-31_2045_23113",
@@ -41635,9 +41670,7 @@
     "customOrigin": "新木場",
     "trainId": "26869",
     "prevTripId": "WD_OUT_R-01_2025_26869",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_2046_26869",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-08_2051_39124",
@@ -41959,9 +41992,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41012",
+    "customDestination": "赤羽",
     "prevTripId": "WD_OUT_R-01_2034_41012",
-    "prevLineId": "rinkai",
-    "customDestination": "赤羽"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-11_2056_39372",
@@ -42112,9 +42145,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "29049",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-31_2056_29049",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-11_2102_22980",
@@ -42224,7 +42257,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22980"
+    "trainId": "22980",
+    "throughTripId": "kw_WD_OUT_JA-08_2103_26870",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_INB_JA-15_2102_39291",
@@ -42510,9 +42546,7 @@
     "customOrigin": "新木場",
     "trainId": "26870",
     "prevTripId": "WD_OUT_R-01_2043_26870",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_2103_26870",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-31_2105_23114",
@@ -42661,7 +42695,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "21:12:00",
+        "arrivalTime": "21:09:00",
         "departureTime": "21:12:00",
         "isPassing": false
       },
@@ -42684,7 +42718,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39182"
+    "trainId": "39182",
+    "prevTripId": "WD_OUT_R-01_2050_105181",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_JA-11_2112_39269",
@@ -43054,9 +43091,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41013",
+    "customDestination": "赤羽",
     "prevTripId": "WD_OUT_R-01_2056_41013",
-    "prevLineId": "rinkai",
-    "customDestination": "赤羽"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_2121_22982",
@@ -43166,7 +43203,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22982"
+    "trainId": "22982",
+    "throughTripId": "kw_WD_OUT_JA-08_2124_26871",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_OUT_JA-08_2124_26871",
@@ -43298,9 +43338,7 @@
     "customOrigin": "新木場",
     "trainId": "26871",
     "prevTripId": "WD_OUT_R-01_2104_26871",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_2124_26871",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-31_2125_23115",
@@ -43759,9 +43797,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41014",
+    "customDestination": "赤羽",
     "prevTripId": "WD_OUT_R-01_2116_41014",
-    "prevLineId": "rinkai",
-    "customDestination": "赤羽"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-11_2136_39375",
@@ -43771,7 +43809,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -43800,7 +43838,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39375"
+    "trainId": "39375",
+    "throughTripId": "WD_INB_R-08_2143_36562",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-15_2137_41020",
@@ -43975,7 +44015,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22984"
+    "trainId": "22984",
+    "throughTripId": "kw_WD_OUT_JA-08_2144_26872",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_INB_JA-26_2142_36455",
@@ -44217,9 +44260,7 @@
     "customOrigin": "新木場",
     "trainId": "26872",
     "prevTripId": "WD_OUT_R-01_2124_26872",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_2144_26872",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-31_2145_23186",
@@ -44699,9 +44740,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41015",
+    "customDestination": "赤羽",
     "prevTripId": "WD_OUT_R-01_2134_41015",
-    "prevLineId": "rinkai",
-    "customDestination": "赤羽"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-11_2156_39348",
@@ -45180,7 +45221,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22986"
+    "trainId": "22986",
+    "throughTripId": "kw_WD_OUT_JA-08_2205_26873",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_OUT_JA-08_2205_26873",
@@ -45312,9 +45356,7 @@
     "customOrigin": "新木場",
     "trainId": "26873",
     "prevTripId": "WD_OUT_R-01_2143_26873",
-    "prevLineId": "rinkai",
-    "throughTripId": "kw_WD_OUT_JA-08_2205_26873",
-    "throughLineId": "kawagoe"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_OUT_JA-11_2211_39272",
@@ -45491,9 +45533,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41016",
+    "customDestination": "赤羽",
     "prevTripId": "WD_OUT_R-01_2151_41016",
-    "prevLineId": "rinkai",
-    "customDestination": "赤羽"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-26_2220_36457",
@@ -45733,9 +45775,11 @@
     ],
     "customOrigin": "川越",
     "trainId": "29055",
+    "customDestination": "新木場",
+    "throughTripId": "WD_INB_R-08_2347_105309",
+    "throughLineId": "rinkai",
     "prevTripId": "kw_WD_INB_JA-31_2222_29055",
-    "prevLineId": "kawagoe",
-    "customDestination": "大崎"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-11_2222_22989",
@@ -46210,7 +46254,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22990"
+    "trainId": "22990",
+    "throughTripId": "kw_WD_OUT_JA-11_2244_39282",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_INB_JA-15_2233_39294",
@@ -46384,9 +46431,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39248",
+    "customDestination": "大宮",
     "prevTripId": "WD_OUT_R-01_2216_39248",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "WD_INB_JA-26_2240_36458",
@@ -46608,9 +46655,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "29052",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-31_2243_29052",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-11_2244_39282",
@@ -46721,9 +46768,7 @@
       }
     ],
     "customDestination": "川越",
-    "trainId": "39282",
-    "throughTripId": "kw_WD_OUT_JA-11_2244_39282",
-    "throughLineId": "kawagoe"
+    "trainId": "39282"
   },
   {
     "tripId": "WD_OUT_JA-08_2246_26776",
@@ -47334,9 +47379,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "29054",
+    "customDestination": "新宿",
     "prevTripId": "kw_WD_INB_JA-31_2304_29054",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-11_2307_22992",
@@ -47767,9 +47812,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "39265",
+    "customDestination": "池袋",
     "prevTripId": "kw_WD_INB_JA-31_2326_39265",
-    "prevLineId": "kawagoe",
-    "customDestination": "池袋"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "WD_OUT_JA-08_2335_26781",
@@ -48013,7 +48058,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22993"
+    "trainId": "22993",
+    "throughTripId": "kw_WD_OUT_JA-08_2317_26779",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_OUT_JA-11_2342_39288",
@@ -48649,9 +48697,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "39263",
+    "customDestination": "池袋",
     "prevTripId": "kw_HD_INB_JA-29_0449_39263",
-    "prevLineId": "kawagoe",
-    "customDestination": "池袋"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "HD_INB_JA-31_0451_29045",
@@ -48763,9 +48811,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "29045",
+    "customDestination": "新宿",
     "prevTripId": "kw_HD_INB_JA-31_0451_29045",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "HD_INB_JA-26_0451_37437",
@@ -49230,9 +49278,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "29033",
+    "customDestination": "新宿",
     "prevTripId": "kw_HD_INB_JA-29_0515_29033",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "HD_INB_JA-31_0524_29047",
@@ -49344,9 +49392,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "29047",
+    "customDestination": "新宿",
     "prevTripId": "kw_HD_INB_JA-31_0524_29047",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "HD_OUT_JA-12_0530_39206",
@@ -49565,9 +49613,9 @@
     ],
     "customOrigin": "南古谷",
     "trainId": "29041",
+    "customDestination": "新宿",
     "prevTripId": "kw_HD_INB_JA-30_0536_29041",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "HD_INB_JA-26_0537_36368",
@@ -50638,7 +50686,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "06:12:00",
+        "arrivalTime": "06:08:00",
         "departureTime": "06:13:00",
         "isPassing": false
       },
@@ -50661,7 +50709,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39105"
+    "trainId": "39105",
+    "prevTripId": "HD_OUT_R-01_0549_105078",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_OUT_JA-11_0616_22897",
@@ -51126,7 +51177,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -51151,11 +51202,13 @@
       {
         "stationId": "JA-08",
         "arrivalTime": "06:43:00",
-        "departureTime": "06:44:00",
+        "departureTime": "06:43:00",
         "isPassing": false
       }
     ],
-    "trainId": "39297"
+    "trainId": "39297",
+    "throughTripId": "HD_INB_R-08_0647_105205",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-08_0632_39107",
@@ -51170,7 +51223,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "06:30:00",
+        "arrivalTime": "06:27:00",
         "departureTime": "06:32:00",
         "isPassing": false
       },
@@ -51193,7 +51246,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39107"
+    "trainId": "39107",
+    "prevTripId": "HD_OUT_R-01_0608_105082",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_OUT_JA-11_0632_39277",
@@ -51806,7 +51862,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "06:43:00",
+        "arrivalTime": "06:40:00",
         "departureTime": "06:43:00",
         "isPassing": false
       },
@@ -51919,7 +51975,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22998"
+    "trainId": "22998",
+    "prevTripId": "HD_OUT_R-01_0620_105084",
+    "prevLineId": "rinkai",
+    "customDestination": "大宮"
   },
   {
     "tripId": "HD_INB_JA-29_0645_39261",
@@ -51929,7 +51988,7 @@
     "direction": "inbound",
     "originStationId": "JA-26",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -52044,12 +52103,14 @@
       {
         "stationId": "JA-08",
         "arrivalTime": "07:52:00",
-        "departureTime": "07:53:00",
+        "departureTime": "07:52:00",
         "isPassing": false
       }
     ],
     "customOrigin": "指扇",
     "trainId": "39261",
+    "throughTripId": "HD_INB_R-08_0755_105212",
+    "throughLineId": "rinkai",
     "prevTripId": "kw_HD_INB_JA-29_0645_39261",
     "prevLineId": "kawagoe"
   },
@@ -52344,9 +52405,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39213",
+    "customDestination": "武蔵浦和",
     "prevTripId": "HD_OUT_R-01_0632_39213",
-    "prevLineId": "rinkai",
-    "customDestination": "武蔵浦和"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-12_0655_38770",
@@ -52562,7 +52623,7 @@
     "direction": "inbound",
     "originStationId": "JA-26",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -52683,6 +52744,8 @@
     ],
     "customOrigin": "川越",
     "trainId": "39262",
+    "throughTripId": "HD_INB_R-08_0816_105213",
+    "throughLineId": "rinkai",
     "prevTripId": "kw_HD_INB_JA-31_0703_39262",
     "prevLineId": "kawagoe"
   },
@@ -53058,9 +53121,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39219",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_0645_39219",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-11_0710_39279",
@@ -53303,9 +53366,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39220",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_0651_39220",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-08_0720_26783",
@@ -54293,9 +54356,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39221",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_0709_39221",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-08_0739_26785",
@@ -54558,9 +54621,9 @@
       }
     ],
     "trainId": "39191",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_0722_105090",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-26_0743_39251",
@@ -54779,7 +54842,7 @@
     "direction": "inbound",
     "originStationId": "JA-26",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -54894,12 +54957,14 @@
       {
         "stationId": "JA-08",
         "arrivalTime": "08:49:00",
-        "departureTime": "08:50:00",
+        "departureTime": "08:49:00",
         "isPassing": false
       }
     ],
     "customOrigin": "指扇",
     "trainId": "39259",
+    "throughTripId": "HD_INB_R-08_0853_36543",
+    "throughLineId": "rinkai",
     "prevTripId": "kw_HD_INB_JA-29_0745_39259",
     "prevLineId": "kawagoe"
   },
@@ -55245,9 +55310,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39223",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_0730_39223",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-08_0800_26786",
@@ -55638,9 +55703,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "36543",
-    "throughTripId": "HD_INB_R-08_0853_36543",
-    "throughLineId": "rinkai"
+    "trainId": "36543"
   },
   {
     "tripId": "HD_INB_JA-21_0803_36465",
@@ -55930,9 +55993,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39224",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_0746_39224",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-31_0808_23122",
@@ -56212,7 +56275,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "08:18:00",
+        "arrivalTime": "08:13:00",
         "departureTime": "08:18:00",
         "isPassing": false
       },
@@ -56327,6 +56390,8 @@
     ],
     "customDestination": "川越",
     "trainId": "39200",
+    "prevTripId": "HD_OUT_R-01_0754_105092",
+    "prevLineId": "rinkai",
     "throughTripId": "kw_HD_OUT_JA-08_0818_39200",
     "throughLineId": "kawagoe"
   },
@@ -56797,9 +56862,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41022",
+    "customDestination": "池袋",
     "prevTripId": "HD_OUT_R-01_0810_41022",
-    "prevLineId": "rinkai",
-    "customDestination": "池袋"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-08_0833_39192",
@@ -56814,7 +56879,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "08:33:00",
+        "arrivalTime": "08:36:00",
         "departureTime": "08:33:00",
         "isPassing": false
       },
@@ -56897,7 +56962,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39192"
+    "trainId": "39192",
+    "prevTripId": "HD_OUT_R-01_0816_105094",
+    "prevLineId": "rinkai",
+    "customDestination": "武蔵浦和"
   },
   {
     "tripId": "HD_INB_JA-26_0837_36546",
@@ -57726,9 +57794,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39229",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_0828_39229",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-08_0851_39193",
@@ -58411,9 +58479,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39230",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_0844_39230",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-31_0905_23125",
@@ -58586,9 +58654,9 @@
       }
     ],
     "trainId": "39110",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_0852_105096",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-11_0916_39283",
@@ -59180,9 +59248,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41025",
+    "customDestination": "池袋",
     "prevTripId": "HD_OUT_R-01_0907_41025",
-    "prevLineId": "rinkai",
-    "customDestination": "池袋"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-11_0928_22830",
@@ -59301,9 +59369,9 @@
       }
     ],
     "trainId": "39111",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_0913_105098",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-08_0939_26792",
@@ -59867,9 +59935,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39232",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_0925_39232",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-31_0945_23127",
@@ -60523,9 +60591,9 @@
       }
     ],
     "trainId": "39134",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_0945_105100",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-31_1005_23129",
@@ -60787,7 +60855,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -60816,7 +60884,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39359"
+    "trainId": "39359",
+    "throughTripId": "HD_INB_R-08_1029_105222",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-08_1018_26796",
@@ -61518,7 +61588,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "10:32:00",
+        "arrivalTime": "10:26:00",
         "departureTime": "10:31:00",
         "isPassing": false
       },
@@ -61542,9 +61612,9 @@
       }
     ],
     "trainId": "39137",
-    "prevTripId": "HD_OUT_R-01_1013_105104",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "customDestination": "新宿",
+    "prevTripId": "HD_OUT_R-01_1007_105102",
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-11_1035_39306",
@@ -62272,9 +62342,9 @@
       }
     ],
     "trainId": "39139",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_1031_105106",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-11_1055_39308",
@@ -62284,7 +62354,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -62309,11 +62379,13 @@
       {
         "stationId": "JA-08",
         "arrivalTime": "11:06:00",
-        "departureTime": "11:07:00",
+        "departureTime": "11:06:00",
         "isPassing": false
       }
     ],
-    "trainId": "39308"
+    "trainId": "39308",
+    "throughTripId": "HD_INB_R-08_1111_105228",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-11_1059_22920",
@@ -63371,7 +63443,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "11:20:00",
+        "arrivalTime": "11:25:00",
         "departureTime": "11:21:00",
         "isPassing": false
       },
@@ -63394,7 +63466,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39114"
+    "trainId": "39114",
+    "prevTripId": "HD_OUT_R-01_1106_105111",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_JA-21_1124_36479",
@@ -64779,7 +64854,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -64808,7 +64883,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39313"
+    "trainId": "39313",
+    "throughTripId": "HD_INB_R-08_1209_105237",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-21_1204_36483",
@@ -65141,9 +65218,9 @@
       }
     ],
     "trainId": "39144",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_1151_105117",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-11_1218_22928",
@@ -66882,7 +66959,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -66911,7 +66988,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39318"
+    "trainId": "39318",
+    "throughTripId": "HD_INB_R-08_1310_105245",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-21_1304_36488",
@@ -67220,7 +67299,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "13:12:00",
+        "arrivalTime": "13:08:00",
         "departureTime": "13:13:00",
         "isPassing": false
       },
@@ -67243,7 +67322,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39148"
+    "trainId": "39148",
+    "prevTripId": "HD_OUT_R-01_1249_105125",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_OUT_JA-11_1317_22933",
@@ -68301,7 +68383,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "13:43:00",
+        "arrivalTime": "13:49:00",
         "departureTime": "13:44:00",
         "isPassing": false
       },
@@ -68324,7 +68406,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39150"
+    "trainId": "39150",
+    "prevTripId": "HD_OUT_R-01_1329_105131",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_JA-21_1344_36493",
@@ -71082,7 +71167,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -71111,7 +71196,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39325"
+    "trainId": "39325",
+    "throughTripId": "HD_INB_R-08_1510_105261",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-21_1504_36500",
@@ -71420,7 +71507,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "15:12:00",
+        "arrivalTime": "15:09:00",
         "departureTime": "15:13:00",
         "isPassing": false
       },
@@ -71443,7 +71530,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39157"
+    "trainId": "39157",
+    "prevTripId": "HD_OUT_R-01_1450_105141",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_OUT_JA-11_1517_22945",
@@ -72713,7 +72803,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "15:43:00",
+        "arrivalTime": "15:50:00",
         "departureTime": "15:46:00",
         "isPassing": false
       },
@@ -72736,7 +72826,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39158"
+    "trainId": "39158",
+    "prevTripId": "HD_OUT_R-01_1530_105147",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_OUT_JA-11_1547_22866",
@@ -73544,9 +73637,9 @@
       }
     ],
     "trainId": "39161",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_1553_105151",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-11_1617_22952",
@@ -74204,7 +74297,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -74229,11 +74322,13 @@
       {
         "stationId": "JA-08",
         "arrivalTime": "16:45:00",
-        "departureTime": "16:46:00",
+        "departureTime": "16:45:00",
         "isPassing": false
       }
     ],
-    "trainId": "39331"
+    "trainId": "39331",
+    "throughTripId": "HD_INB_R-08_1649_105275",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-08_1633_39162",
@@ -74248,7 +74343,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "16:32:00",
+        "arrivalTime": "16:30:00",
         "departureTime": "16:33:00",
         "isPassing": false
       },
@@ -74271,7 +74366,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39162"
+    "trainId": "39162",
+    "prevTripId": "HD_OUT_R-01_1610_105153",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_OUT_JA-11_1637_22954",
@@ -75002,7 +75100,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "16:52:00",
+        "arrivalTime": "16:49:00",
         "departureTime": "16:52:00",
         "isPassing": false
       },
@@ -75025,7 +75123,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39163"
+    "trainId": "39163",
+    "prevTripId": "HD_OUT_R-01_1630_105155",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_JA-11_1652_39361",
@@ -75882,11 +75983,11 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39236",
+    "customDestination": "川越",
     "prevTripId": "HD_OUT_R-01_1647_39236",
     "prevLineId": "rinkai",
     "throughTripId": "kw_HD_OUT_JA-26_1759_43295",
-    "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "throughLineId": "kawagoe"
   },
   {
     "tripId": "HD_INB_JA-11_1713_39362",
@@ -75966,9 +76067,9 @@
       }
     ],
     "trainId": "39165",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_1654_105158",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-26_1719_36429",
@@ -76636,9 +76737,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39237",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_1707_39237",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-12_1732_38771",
@@ -77475,9 +77576,9 @@
       }
     ],
     "trainId": "39169",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_1734_105161",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-11_1756_39335",
@@ -78216,9 +78317,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39240",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_1748_39240",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-11_1808_22879",
@@ -78337,9 +78438,9 @@
       }
     ],
     "trainId": "39170",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_1753_105163",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-11_1816_39336",
@@ -78834,9 +78935,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39241",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_1807_39241",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-31_1827_23174",
@@ -79106,7 +79207,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "18:36:00",
+        "arrivalTime": "18:34:00",
         "departureTime": "18:37:00",
         "isPassing": false
       },
@@ -79129,7 +79230,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39172"
+    "trainId": "39172",
+    "prevTripId": "HD_OUT_R-01_1815_105165",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_OUT_JA-11_1838_22964",
@@ -79792,7 +79896,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "18:52:00",
+        "arrivalTime": "18:50:00",
         "departureTime": "18:53:00",
         "isPassing": false
       },
@@ -79815,7 +79919,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39118"
+    "trainId": "39118",
+    "prevTripId": "HD_OUT_R-01_1831_105167",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_JA-11_1856_39338",
@@ -80567,9 +80674,9 @@
       }
     ],
     "trainId": "39119",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_1853_105170",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-11_1916_39339",
@@ -81115,9 +81222,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39245",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_1903_39245",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-21_1924_36523",
@@ -81426,7 +81533,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "19:35:00",
+        "arrivalTime": "19:33:00",
         "departureTime": "19:36:00",
         "isPassing": false
       },
@@ -81449,45 +81556,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39176"
-  },
-  {
-    "tripId": "HD_OUT_JA-08_1936_39175",
-    "lineId": "saikyo",
-    "trainNumber": "270M",
-    "trainType": "local",
-    "direction": "outbound",
-    "originStationId": "JA-08",
-    "destinationStationId": "JA-11",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "19:34:00",
-        "departureTime": "19:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "19:40:00",
-        "departureTime": "19:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "19:42:00",
-        "departureTime": "19:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-11",
-        "arrivalTime": "19:47:00",
-        "departureTime": "19:47:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "39175"
+    "trainId": "39176",
+    "prevTripId": "HD_OUT_R-01_1913_105173",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_JA-11_1936_39341",
@@ -81899,9 +81971,7 @@
       }
     ],
     "customDestination": "川越",
-    "trainId": "26845",
-    "throughTripId": "kw_HD_OUT_JA-08_1943_26845",
-    "throughLineId": "kawagoe"
+    "trainId": "26845"
   },
   {
     "tripId": "HD_INB_JA-21_1944_36525",
@@ -82295,9 +82365,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39218",
+    "customDestination": "武蔵浦和",
     "prevTripId": "HD_OUT_R-01_1930_39218",
-    "prevLineId": "rinkai",
-    "customDestination": "武蔵浦和"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-08_1953_39177",
@@ -83108,7 +83178,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "20:19:00",
+        "arrivalTime": "20:16:00",
         "departureTime": "20:19:00",
         "isPassing": false
       },
@@ -83131,7 +83201,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39178"
+    "trainId": "39178",
+    "prevTripId": "HD_OUT_R-01_1956_105177",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_JA-26_2019_36446",
@@ -83799,9 +83872,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "39247",
+    "customDestination": "大宮",
     "prevTripId": "HD_OUT_R-01_2011_39247",
-    "prevLineId": "rinkai",
-    "customDestination": "大宮"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-08_2035_39180",
@@ -84543,7 +84616,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "20:51:00",
+        "arrivalTime": "20:56:00",
         "departureTime": "20:52:00",
         "isPassing": false
       },
@@ -84566,7 +84639,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39181"
+    "trainId": "39181",
+    "prevTripId": "HD_OUT_R-01_2036_105180",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_JA-11_2056_39373",
@@ -85294,9 +85370,9 @@
       }
     ],
     "trainId": "39183",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_2053_105182",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-11_2116_39347",
@@ -86000,7 +86076,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "21:33:00",
+        "arrivalTime": "21:30:00",
         "departureTime": "21:33:00",
         "isPassing": false
       },
@@ -86023,7 +86099,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39185"
+    "trainId": "39185",
+    "prevTripId": "HD_OUT_R-01_2111_105183",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_JA-11_2136_39374",
@@ -86725,7 +86804,7 @@
     "stops": [
       {
         "stationId": "JA-08",
-        "arrivalTime": "21:51:00",
+        "arrivalTime": "21:48:00",
         "departureTime": "21:51:00",
         "isPassing": false
       },
@@ -86748,7 +86827,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39186"
+    "trainId": "39186",
+    "prevTripId": "HD_OUT_R-01_2128_105184",
+    "prevLineId": "rinkai",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_JA-11_2156_39376",
@@ -86758,7 +86840,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -86783,11 +86865,13 @@
       {
         "stationId": "JA-08",
         "arrivalTime": "22:07:00",
-        "departureTime": "22:08:00",
+        "departureTime": "22:07:00",
         "isPassing": false
       }
     ],
-    "trainId": "39376"
+    "trainId": "39376",
+    "throughTripId": "HD_INB_R-08_2212_105306",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-11_2157_22985",
@@ -87788,9 +87872,9 @@
     ],
     "customOrigin": "新木場",
     "trainId": "41017",
+    "customDestination": "赤羽",
     "prevTripId": "HD_OUT_R-01_2202_41017",
-    "prevLineId": "rinkai",
-    "customDestination": "赤羽"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-21_2224_36534",
@@ -87909,9 +87993,9 @@
       }
     ],
     "trainId": "39125",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_2209_105187",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-11_2227_39273",
@@ -88040,7 +88124,7 @@
     "stops": [
       {
         "stationId": "JA-26",
-        "arrivalTime": "22:31:00",
+        "arrivalTime": "22:35:00",
         "departureTime": "22:31:00",
         "isPassing": false
       },
@@ -88153,7 +88237,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "36566"
+    "trainId": "36566",
+    "prevTripId": "kw_HD_INB_JA-31_2215_29050",
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "HD_OUT_JA-11_2239_22991",
@@ -88375,9 +88461,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "29051",
+    "customDestination": "新宿",
     "prevTripId": "kw_HD_INB_JA-31_2241_29051",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "HD_OUT_JA-08_2242_26775",
@@ -88633,9 +88719,9 @@
       }
     ],
     "trainId": "39126",
+    "customDestination": "新宿",
     "prevTripId": "HD_OUT_R-01_2237_39249",
-    "prevLineId": "rinkai",
-    "customDestination": "新宿"
+    "prevLineId": "rinkai"
   },
   {
     "tripId": "HD_INB_JA-15_2301_39295",
@@ -88791,9 +88877,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "29053",
+    "customDestination": "新宿",
     "prevTripId": "kw_HD_INB_JA-31_2302_29053",
-    "prevLineId": "kawagoe",
-    "customDestination": "新宿"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "HD_OUT_JA-08_2303_39249",
@@ -88922,7 +89008,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "39249"
+    "trainId": "39249",
+    "throughTripId": "kw_HD_OUT_JA-11_2307_39274",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "HD_OUT_JA-11_2307_39274",
@@ -89153,7 +89242,7 @@
     "direction": "inbound",
     "originStationId": "JA-11",
     "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "customDestination": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -89178,11 +89267,13 @@
       {
         "stationId": "JA-08",
         "arrivalTime": "23:26:00",
-        "departureTime": "23:27:00",
+        "departureTime": "23:26:00",
         "isPassing": false
       }
     ],
-    "trainId": "39353"
+    "trainId": "39353",
+    "throughTripId": "HD_INB_R-08_2329_36566",
+    "throughLineId": "rinkai"
   },
   {
     "tripId": "HD_OUT_JA-08_2317_26778",
@@ -89376,7 +89467,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "39296"
+    "trainId": "39296",
+    "throughTripId": "HD_INB_R-08_2347_105310",
+    "throughLineId": "rinkai",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_JA-11_2320_39286",
@@ -89526,9 +89620,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "39264",
+    "customDestination": "池袋",
     "prevTripId": "kw_HD_INB_JA-31_2326_39264",
-    "prevLineId": "kawagoe",
-    "customDestination": "池袋"
+    "prevLineId": "kawagoe"
   },
   {
     "tripId": "HD_OUT_JA-08_2335_26780",
@@ -89772,7 +89866,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "22994"
+    "trainId": "22994",
+    "throughTripId": "kw_HD_OUT_JA-08_2317_26778",
+    "throughLineId": "kawagoe",
+    "customDestination": "川越"
   },
   {
     "tripId": "HD_OUT_JA-11_2352_39289",

@@ -391,7 +391,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105079"
+    "trainId": "105079",
+    "throughTripId": "WD_OUT_JA-08_0613_39106",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_R-01_0603_105081",
@@ -1007,7 +1010,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105086"
+    "trainId": "105086",
+    "throughTripId": "WD_OUT_JA-08_0703_39109",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_R-08_0646_105204",
@@ -1022,7 +1028,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "06:46:00",
+        "arrivalTime": "06:43:00",
         "departureTime": "06:46:00",
         "isPassing": false
       },
@@ -1069,7 +1075,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105204"
+    "trainId": "105204",
+    "prevTripId": "WD_INB_JA-11_0631_39298",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_R-01_0648_105087",
@@ -1132,9 +1141,9 @@
       }
     ],
     "trainId": "105087",
+    "customDestination": "大宮",
     "throughTripId": "WD_OUT_JA-08_0707_22999",
-    "throughLineId": "saikyo",
-    "customDestination": "大宮"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_0655_23088",
@@ -1198,9 +1207,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23088",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0549_23088",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0656_105088",
@@ -1387,9 +1396,9 @@
       }
     ],
     "trainId": "105089",
+    "customDestination": "川越",
     "throughTripId": "WD_OUT_JA-08_0721_39198",
-    "throughLineId": "saikyo",
-    "customDestination": "川越"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_0707_36535",
@@ -1453,9 +1462,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36535",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_0616_36535",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0710_26784",
@@ -1711,9 +1720,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "23081",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-29_0605_23081",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0724_105091",
@@ -1776,9 +1785,9 @@
       }
     ],
     "trainId": "105091",
+    "customDestination": "赤羽",
     "throughTripId": "WD_OUT_JA-08_0741_39201",
-    "throughLineId": "saikyo",
-    "customDestination": "赤羽"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_0728_105209",
@@ -1969,9 +1978,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23089",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0625_23089",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0737_26854",
@@ -2099,9 +2108,9 @@
       }
     ],
     "trainId": "105210",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_0725_39300",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_0745_23090",
@@ -2165,9 +2174,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23090",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0636_23090",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0746_39215",
@@ -2360,9 +2369,9 @@
       }
     ],
     "trainId": "105211",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_0650_39252",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0756_39225",
@@ -2491,9 +2500,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36538",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_0656_36538",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0801_39226",
@@ -2622,9 +2631,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23091",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0650_23091",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0808_39227",
@@ -2753,9 +2762,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "23082",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-29_0651_23082",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0814_39216",
@@ -2884,9 +2893,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23092",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0705_23092",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0821_39228",
@@ -3015,9 +3024,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36539",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-29_0709_39258",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0826_105095",
@@ -3080,9 +3089,9 @@
       }
     ],
     "trainId": "105095",
+    "customDestination": "池袋",
     "throughTripId": "WD_OUT_JA-08_0846_39129",
-    "throughLineId": "saikyo",
-    "customDestination": "池袋"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_0827_36540",
@@ -3146,9 +3155,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36540",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_0730_36540",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0832_26855",
@@ -3277,9 +3286,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23093",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0720_23093",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_0836_23084",
@@ -3343,9 +3352,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "23084",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-29_0724_23084",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0840_41008",
@@ -3474,9 +3483,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36541",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_0744_36541",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_0845_23094",
@@ -3540,9 +3549,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23094",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0737_23094",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0847_41023",
@@ -3622,7 +3631,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "08:50:00",
+        "arrivalTime": "08:47:00",
         "departureTime": "08:51:00",
         "isPassing": false
       },
@@ -3671,9 +3680,9 @@
     ],
     "customOrigin": "赤羽",
     "trainId": "41018",
-    "prevTripId": "WD_INB_JA-15_0822_41018",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "customDestination": "新木場",
+    "prevTripId": "WD_INB_JA-21_0800_39256",
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0852_26856",
@@ -3802,9 +3811,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "23086",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-29_0739_23086",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0857_105097",
@@ -3867,9 +3876,9 @@
       }
     ],
     "trainId": "105097",
+    "customDestination": "新宿",
     "throughTripId": "WD_OUT_JA-08_0917_39131",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_0859_36542",
@@ -3933,9 +3942,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36542",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_0801_36542",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0901_41024",
@@ -4015,7 +4024,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "09:03:00",
+        "arrivalTime": "09:07:00",
         "departureTime": "09:03:00",
         "isPassing": false
       },
@@ -4062,7 +4071,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105216"
+    "trainId": "105216",
+    "prevTripId": "WD_INB_JA-29_0754_39260",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_R-01_0907_26791",
@@ -4191,9 +4203,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23095",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0753_23095",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0911_105068",
@@ -4295,9 +4307,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23096",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0808_23096",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0916_39231",
@@ -4615,9 +4627,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36545",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_0825_36545",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0930_39233",
@@ -4627,7 +4639,7 @@
     "direction": "outbound",
     "originStationId": "R-01",
     "destinationStationId": "R-08",
-    "customDestination": "大宮",
+    "customDestination": "川越",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4746,9 +4758,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23097",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0823_23097",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0934_39217",
@@ -4877,9 +4889,9 @@
     ],
     "customOrigin": "武蔵浦和",
     "trainId": "36568",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-21_0856_36568",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0942_26795",
@@ -5008,9 +5020,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23098",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0837_23098",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_0946_105069",
@@ -5128,7 +5140,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "09:53:00",
+        "arrivalTime": "09:48:00",
         "departureTime": "09:53:00",
         "isPassing": false
       },
@@ -5175,7 +5187,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105220"
+    "trainId": "105220",
+    "prevTripId": "WD_INB_JA-11_0936_39357",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_R-01_0956_26797",
@@ -5304,9 +5319,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36548",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_0902_36548",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1002_105101",
@@ -5432,9 +5447,9 @@
     ],
     "customOrigin": "武蔵浦和",
     "trainId": "36570",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-21_0924_36570",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1009_105103",
@@ -5496,7 +5511,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105103"
+    "trainId": "105103",
+    "throughTripId": "WD_OUT_JA-08_1031_39136",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_R-01_1016_105105",
@@ -5622,9 +5640,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23099",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0912_23099",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1023_26800",
@@ -5752,9 +5770,9 @@
       }
     ],
     "trainId": "105221",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_1013_39358",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1031_105107",
@@ -5817,9 +5835,9 @@
       }
     ],
     "trainId": "105107",
+    "customDestination": "新宿",
     "throughTripId": "WD_OUT_JA-08_1053_39138",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_1031_105223",
@@ -5945,9 +5963,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23100",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0932_23100",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1040_26801",
@@ -6137,9 +6155,9 @@
       }
     ],
     "trainId": "105225",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_1035_39305",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1056_105110",
@@ -6201,7 +6219,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105110"
+    "trainId": "105110",
+    "throughTripId": "WD_OUT_JA-08_1120_39141",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_R-08_1056_105227",
@@ -6392,9 +6413,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23128",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_0950_23128",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1111_105112",
@@ -6582,9 +6603,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23130",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1005_23130",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1120_26805",
@@ -6711,7 +6732,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105114"
+    "trainId": "105114",
+    "throughTripId": "WD_OUT_JA-08_1143_39142",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_R-08_1128_105230",
@@ -6774,9 +6798,9 @@
       }
     ],
     "trainId": "105230",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_1119_39310",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1136_105116",
@@ -6902,9 +6926,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23132",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1028_23132",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1142_26808",
@@ -7094,9 +7118,9 @@
       }
     ],
     "trainId": "105234",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_1141_39312",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1152_105118",
@@ -7159,9 +7183,9 @@
       }
     ],
     "trainId": "105118",
+    "customDestination": "新宿",
     "throughTripId": "WD_OUT_JA-08_1213_39145",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_1200_23134",
@@ -7225,9 +7249,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23134",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1045_23134",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1202_26810",
@@ -7480,9 +7504,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23136",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1105_23136",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1220_26811",
@@ -7735,9 +7759,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23137",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1125_23137",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1240_26813",
@@ -7865,9 +7889,9 @@
       }
     ],
     "trainId": "105240",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_1232_39315",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1247_105124",
@@ -8054,9 +8078,9 @@
       }
     ],
     "trainId": "105126",
+    "customDestination": "新宿",
     "throughTripId": "WD_OUT_JA-08_1313_39149",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1302_26816",
@@ -8185,9 +8209,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23140",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1145_23140",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_1309_105244",
@@ -8202,7 +8226,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "13:09:00",
+        "arrivalTime": "13:14:00",
         "departureTime": "13:09:00",
         "isPassing": false
       },
@@ -8249,7 +8273,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105244"
+    "trainId": "105244",
+    "prevTripId": "WD_INB_JA-11_1302_39317",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_R-01_1314_105129",
@@ -8375,9 +8402,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23142",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1205_23142",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1320_26817",
@@ -8505,9 +8532,9 @@
       }
     ],
     "trainId": "105130",
+    "customDestination": "新宿",
     "throughTripId": "WD_OUT_JA-08_1346_39151",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_1329_105247",
@@ -8633,9 +8660,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23144",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1225_23144",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1340_26820",
@@ -8777,7 +8804,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "13:47:00",
+        "arrivalTime": "13:44:00",
         "departureTime": "13:47:00",
         "isPassing": false
       },
@@ -8824,7 +8851,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105249"
+    "trainId": "105249",
+    "prevTripId": "WD_INB_JA-11_1332_39320",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_R-08_1353_105251",
@@ -8949,9 +8979,9 @@
       }
     ],
     "trainId": "105134",
+    "customDestination": "新宿",
     "throughTripId": "WD_OUT_JA-08_1413_39152",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_1400_23145",
@@ -9015,9 +9045,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23145",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1245_23145",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1402_26822",
@@ -9097,7 +9127,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "14:10:00",
+        "arrivalTime": "14:14:00",
         "departureTime": "14:10:00",
         "isPassing": false
       },
@@ -9144,7 +9174,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105253"
+    "trainId": "105253",
+    "prevTripId": "WD_INB_JA-11_1402_39321",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_R-01_1411_105136",
@@ -9270,9 +9303,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23147",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1305_23147",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1420_26824",
@@ -9525,9 +9558,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23149",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1325_23149",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1439_105140",
@@ -9589,7 +9622,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105140"
+    "trainId": "105140",
+    "throughTripId": "WD_OUT_JA-08_1503_26826",
+    "throughLineId": "saikyo",
+    "customDestination": "川越"
   },
   {
     "tripId": "WD_OUT_R-01_1443_26826",
@@ -9652,9 +9688,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "26826",
-    "throughTripId": "WD_OUT_JA-08_1503_26826",
-    "throughLineId": "saikyo"
+    "trainId": "26826"
   },
   {
     "tripId": "WD_INB_R-08_1445_105257",
@@ -9717,9 +9751,9 @@
       }
     ],
     "trainId": "105257",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_1432_39323",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1452_105142",
@@ -9782,9 +9816,9 @@
       }
     ],
     "trainId": "105142",
+    "customDestination": "新宿",
     "throughTripId": "WD_OUT_JA-08_1513_39156",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_1454_105259",
@@ -9910,9 +9944,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23152",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1345_23152",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1502_26828",
@@ -9992,7 +10026,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "15:09:00",
+        "arrivalTime": "15:14:00",
         "departureTime": "15:09:00",
         "isPassing": false
       },
@@ -10039,7 +10073,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105260"
+    "trainId": "105260",
+    "prevTripId": "WD_INB_JA-11_1502_39326",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_R-01_1510_105144",
@@ -10165,9 +10202,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23153",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1405_23153",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1520_26829",
@@ -10357,9 +10394,9 @@
       }
     ],
     "trainId": "105146",
+    "customDestination": "新宿",
     "throughTripId": "WD_OUT_JA-08_1545_39159",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1534_105148",
@@ -10547,9 +10584,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23155",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1425_23155",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1543_26832",
@@ -10629,7 +10666,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "15:49:00",
+        "arrivalTime": "15:44:00",
         "departureTime": "15:49:00",
         "isPassing": false
       },
@@ -10676,7 +10713,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105266"
+    "trainId": "105266",
+    "prevTripId": "WD_INB_JA-11_1532_39327",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_R-01_1550_105150",
@@ -10739,9 +10779,9 @@
       }
     ],
     "trainId": "105150",
+    "customDestination": "新宿",
     "throughTripId": "WD_OUT_JA-08_1613_39160",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1601_26833",
@@ -10870,9 +10910,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23158",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1445_23158",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-04_1607_105320",
@@ -11034,7 +11074,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105152"
+    "trainId": "105152",
+    "throughTripId": "WD_OUT_JA-08_1633_39115",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_R-01_1617_105154",
@@ -11160,9 +11203,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23159",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1505_23159",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1623_26857",
@@ -11299,7 +11342,7 @@
     "direction": "outbound",
     "originStationId": "R-01",
     "destinationStationId": "R-08",
-    "customDestination": "大宮",
+    "customDestination": "川越",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -11479,9 +11522,9 @@
       }
     ],
     "trainId": "105156",
+    "customDestination": "新宿",
     "throughTripId": "WD_OUT_JA-08_1652_39164",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_1639_23162",
@@ -11545,9 +11588,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23162",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1525_23162",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1643_105157",
@@ -11672,9 +11715,9 @@
       }
     ],
     "trainId": "105274",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_1632_39332",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1647_26858",
@@ -12033,9 +12076,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23163",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1545_23163",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1708_105159",
@@ -12161,9 +12204,9 @@
     ],
     "customOrigin": "武蔵浦和",
     "trainId": "36571",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-21_1624_36571",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_1713_105277",
@@ -12353,9 +12396,9 @@
       }
     ],
     "trainId": "105160",
+    "customDestination": "新宿",
     "throughTripId": "WD_OUT_JA-08_1737_39166",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_1721_23165",
@@ -12419,9 +12462,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23165",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1605_23165",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1726_26860",
@@ -12550,9 +12593,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36549",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_1636_36549",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1735_39239",
@@ -12808,9 +12851,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23167",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1625_23167",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1748_105162",
@@ -12872,7 +12915,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105162"
+    "trainId": "105162",
+    "throughTripId": "WD_OUT_JA-08_1813_39117",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_R-08_1748_105281",
@@ -12935,9 +12981,9 @@
       }
     ],
     "trainId": "105281",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_1736_39363",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1755_26773",
@@ -13066,9 +13112,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23101",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1645_23101",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1800_105164",
@@ -13194,9 +13240,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36552",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_1703_36552",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1806_26862",
@@ -13341,7 +13387,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "18:11:00",
+        "arrivalTime": "18:08:00",
         "departureTime": "18:11:00",
         "isPassing": false
       },
@@ -13388,7 +13434,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105283"
+    "trainId": "105283",
+    "prevTripId": "WD_INB_JA-11_1756_39365",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_R-08_1815_23102",
@@ -13452,9 +13501,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23102",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1705_23102",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1819_26863",
@@ -13534,7 +13583,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "18:22:00",
+        "arrivalTime": "18:27:00",
         "departureTime": "18:22:00",
         "isPassing": false
       },
@@ -13581,7 +13630,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105284"
+    "trainId": "105284",
+    "prevTripId": "WD_INB_JA-11_1816_39366",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_R-01_1825_105166",
@@ -13644,9 +13696,9 @@
       }
     ],
     "trainId": "105166",
+    "customDestination": "川越",
     "throughTripId": "WD_OUT_JA-08_1844_26863",
-    "throughLineId": "saikyo",
-    "customDestination": "川越"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_1828_36553",
@@ -13710,9 +13762,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36553",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_1723_36553",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1833_39243",
@@ -13841,9 +13893,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23103",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1725_23103",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1838_105168",
@@ -13969,9 +14021,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "23087",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-29_1727_23087",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1844_26864",
@@ -14099,9 +14151,9 @@
       }
     ],
     "trainId": "105287",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_1836_39367",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1851_39244",
@@ -14111,7 +14163,7 @@
     "direction": "outbound",
     "originStationId": "R-01",
     "destinationStationId": "R-08",
-    "customDestination": "大宮",
+    "customDestination": "川越",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -14230,9 +14282,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23104",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1745_23104",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1859_105171",
@@ -14295,9 +14347,9 @@
       }
     ],
     "trainId": "105171",
+    "customDestination": "新宿",
     "throughTripId": "WD_OUT_JA-08_1917_39174",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_1901_105289",
@@ -14488,9 +14540,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36555",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_1803_36555",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1912_105172",
@@ -14552,7 +14604,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105172"
+    "trainId": "105172",
+    "throughTripId": "WD_OUT_JA-08_1936_39121",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_R-08_1914_23105",
@@ -14616,9 +14671,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23105",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1805_23105",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1918_39246",
@@ -14747,9 +14802,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36556",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_1823_36556",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1924_26866",
@@ -14877,9 +14932,9 @@
       }
     ],
     "trainId": "105291",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_1916_39369",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1931_41009",
@@ -15008,9 +15063,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23106",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1825_23106",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1938_105174",
@@ -15072,7 +15127,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105174"
+    "trainId": "105174",
+    "throughTripId": "WD_OUT_JA-08_1953_39122",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_R-08_1940_105293",
@@ -15263,9 +15321,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36557",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_1843_36557",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1950_41010",
@@ -15394,9 +15452,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23107",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1845_23107",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_1955_105176",
@@ -15458,7 +15516,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105176"
+    "trainId": "105176",
+    "throughTripId": "WD_OUT_JA-08_2019_39179",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_R-01_2002_26868",
@@ -15587,9 +15648,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36558",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_1903_36558",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_2009_105295",
@@ -15652,9 +15713,9 @@
       }
     ],
     "trainId": "105295",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_1956_39370",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2012_41011",
@@ -15783,9 +15844,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23108",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1905_23108",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2019_105178",
@@ -15847,7 +15908,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105178"
+    "trainId": "105178",
+    "throughTripId": "WD_OUT_JA-08_2035_39123",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_INB_R-08_2021_105297",
@@ -16038,9 +16102,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23185",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1854_23185",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2034_41012",
@@ -16169,9 +16233,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23109",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1925_23109",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_2042_36560",
@@ -16235,9 +16299,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36560",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_1943_36560",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2043_26870",
@@ -16365,9 +16429,9 @@
       }
     ],
     "trainId": "105299",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-11_2036_39344",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2050_105181",
@@ -16429,7 +16493,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105181"
+    "trainId": "105181",
+    "throughTripId": "WD_OUT_JA-08_2112_39182",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "WD_OUT_R-01_2056_41013",
@@ -16558,9 +16625,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23110",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_1945_23110",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2104_26871",
@@ -16689,9 +16756,9 @@
     ],
     "customOrigin": "赤羽",
     "trainId": "41019",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-15_2036_41019",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2110_105071",
@@ -16793,9 +16860,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23111",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_2005_23111",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2116_41014",
@@ -17051,9 +17118,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36561",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_2032_36561",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2134_41015",
@@ -17182,9 +17249,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23112",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_2025_23112",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2143_26873",
@@ -17264,7 +17331,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "21:37:00",
+        "arrivalTime": "21:47:00",
         "departureTime": "21:43:00",
         "isPassing": false
       },
@@ -17312,7 +17379,10 @@
       }
     ],
     "customOrigin": "大宮",
-    "trainId": "36562"
+    "trainId": "36562",
+    "prevTripId": "WD_INB_JA-11_2136_39375",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_R-01_2151_41016",
@@ -17441,9 +17511,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23113",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_2045_23113",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2157_105072",
@@ -17610,9 +17680,9 @@
     ],
     "customOrigin": "赤羽",
     "trainId": "41020",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-15_2137_41020",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_2214_23114",
@@ -17676,9 +17746,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23114",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_2105_23114",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2216_39248",
@@ -17807,9 +17877,9 @@
     ],
     "customOrigin": "赤羽",
     "trainId": "41021",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-15_2157_41021",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2226_26776",
@@ -17976,9 +18046,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23115",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_2125_23115",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2241_26777",
@@ -18107,9 +18177,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36563",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_2152_36563",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2257_26779",
@@ -18238,9 +18308,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36564",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-26_2200_36564",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_INB_R-08_2310_23186",
@@ -18304,9 +18374,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23186",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_2145_23186",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2314_26781",
@@ -18497,9 +18567,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23187",
+    "customDestination": "新木場",
     "prevTripId": "WD_INB_JA-31_2201_23187",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "WD_OUT_R-01_2337_105190",
@@ -18576,7 +18646,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "23:47:00",
+        "arrivalTime": "23:42:00",
         "departureTime": "23:47:00",
         "isPassing": false
       },
@@ -18623,7 +18693,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105309"
+    "trainId": "105309",
+    "prevTripId": "WD_INB_JA-31_2222_29055",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_R-01_2354_105192",
@@ -19079,7 +19152,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105078"
+    "trainId": "105078",
+    "throughTripId": "HD_OUT_JA-08_0613_39105",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_OUT_R-01_0603_105080",
@@ -19303,7 +19379,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105082"
+    "trainId": "105082",
+    "throughTripId": "HD_OUT_JA-08_0632_39107",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_0616_105199",
@@ -19427,7 +19506,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105084"
+    "trainId": "105084",
+    "throughTripId": "HD_OUT_JA-08_0643_22998",
+    "throughLineId": "saikyo",
+    "customDestination": "大宮"
   },
   {
     "tripId": "HD_INB_R-04_0622_105316",
@@ -19796,7 +19878,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "06:47:00",
+        "arrivalTime": "06:43:00",
         "departureTime": "06:47:00",
         "isPassing": false
       },
@@ -19843,7 +19925,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105205"
+    "trainId": "105205",
+    "prevTripId": "HD_INB_JA-11_0631_39297",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_R-01_0651_39220",
@@ -20010,9 +20095,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23116",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_0548_23116",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0659_26783",
@@ -20141,9 +20226,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "23080",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-29_0602_23080",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0709_39221",
@@ -20271,9 +20356,9 @@
       }
     ],
     "trainId": "105207",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_0658_39355",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0716_26785",
@@ -20402,9 +20487,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36536",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-26_0623_36536",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0722_105090",
@@ -20467,9 +20552,9 @@
       }
     ],
     "trainId": "105090",
+    "customDestination": "大宮",
     "throughTripId": "HD_OUT_JA-08_0741_39191",
-    "throughLineId": "saikyo",
-    "customDestination": "大宮"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_0725_23117",
@@ -20533,9 +20618,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23117",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_0603_23117",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0730_39223",
@@ -20664,9 +20749,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36537",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-26_0642_36537",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0739_26786",
@@ -20795,9 +20880,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23118",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_0619_23118",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0746_39224",
@@ -20926,9 +21011,9 @@
     ],
     "customOrigin": "武蔵浦和",
     "trainId": "36567",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-21_0703_36567",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0754_105092",
@@ -20990,7 +21075,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105092"
+    "trainId": "105092",
+    "throughTripId": "HD_OUT_JA-08_0818_39200",
+    "throughLineId": "saikyo",
+    "customDestination": "川越"
   },
   {
     "tripId": "HD_INB_R-08_0755_105212",
@@ -21005,7 +21093,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "07:55:00",
+        "arrivalTime": "07:52:00",
         "departureTime": "07:55:00",
         "isPassing": false
       },
@@ -21052,7 +21140,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105212"
+    "trainId": "105212",
+    "prevTripId": "HD_INB_JA-29_0645_39261",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_R-08_0801_23119",
@@ -21116,9 +21207,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23119",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_0641_23119",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0803_105093",
@@ -21244,9 +21335,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "23083",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-29_0705_23083",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0810_41022",
@@ -21373,7 +21464,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105094"
+    "trainId": "105094",
+    "throughTripId": "HD_OUT_JA-08_0833_39192",
+    "throughLineId": "saikyo",
+    "customDestination": "武蔵浦和"
   },
   {
     "tripId": "HD_INB_R-08_0816_105213",
@@ -21388,7 +21482,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "08:16:00",
+        "arrivalTime": "08:20:00",
         "departureTime": "08:16:00",
         "isPassing": false
       },
@@ -21435,7 +21529,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105213"
+    "trainId": "105213",
+    "prevTripId": "HD_INB_JA-31_0703_39262",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_R-01_0821_26788",
@@ -21691,9 +21788,9 @@
     ],
     "customOrigin": "指扇",
     "trainId": "23085",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-29_0725_23085",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0837_26789",
@@ -21822,9 +21919,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23120",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_0725_23120",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0844_39230",
@@ -22014,9 +22111,9 @@
       }
     ],
     "trainId": "105096",
+    "customDestination": "新宿",
     "throughTripId": "HD_OUT_JA-08_0910_39110",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_0853_36543",
@@ -22031,7 +22128,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "08:52:00",
+        "arrivalTime": "08:49:00",
         "departureTime": "08:53:00",
         "isPassing": false
       },
@@ -22080,9 +22177,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36543",
-    "prevTripId": "HD_INB_JA-26_0803_36543",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "customDestination": "新木場",
+    "prevTripId": "HD_INB_JA-29_0745_39259",
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0900_26790",
@@ -22211,9 +22308,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23121",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_0749_23121",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0907_41025",
@@ -22342,9 +22439,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36544",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-26_0817_36544",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0913_105098",
@@ -22407,9 +22504,9 @@
       }
     ],
     "trainId": "105098",
+    "customDestination": "新宿",
     "throughTripId": "HD_OUT_JA-08_0931_39111",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0919_26792",
@@ -22538,9 +22635,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23122",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_0808_23122",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_0923_105218",
@@ -22731,9 +22828,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36546",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-26_0837_36546",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0936_26794",
@@ -22861,9 +22958,9 @@
       }
     ],
     "trainId": "105219",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_0927_39301",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0945_105100",
@@ -22926,9 +23023,9 @@
       }
     ],
     "trainId": "105100",
+    "customDestination": "新宿",
     "throughTripId": "HD_OUT_JA-08_1005_39134",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_0945_23123",
@@ -22992,9 +23089,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23123",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_0826_23123",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_0952_36547",
@@ -23058,9 +23155,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36547",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-26_0857_36547",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_0956_26796",
@@ -23189,9 +23286,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23124",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_0845_23124",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1001_105070",
@@ -23291,7 +23388,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105102"
+    "trainId": "105102",
+    "throughTripId": "HD_OUT_JA-08_1031_39137",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_1011_36569",
@@ -23355,9 +23455,9 @@
     ],
     "customOrigin": "武蔵浦和",
     "trainId": "36569",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-21_0924_36569",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1013_105104",
@@ -23420,8 +23520,6 @@
       }
     ],
     "trainId": "105104",
-    "throughTripId": "HD_OUT_JA-08_1031_39137",
-    "throughLineId": "saikyo",
     "customDestination": "新宿"
   },
   {
@@ -23551,9 +23649,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23125",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_0905_23125",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1029_105222",
@@ -23568,7 +23666,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "10:29:00",
+        "arrivalTime": "10:25:00",
         "departureTime": "10:29:00",
         "isPassing": false
       },
@@ -23615,7 +23713,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105222"
+    "trainId": "105222",
+    "prevTripId": "HD_INB_JA-11_1014_39359",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_R-01_1031_105106",
@@ -23678,9 +23779,9 @@
       }
     ],
     "trainId": "105106",
+    "customDestination": "新宿",
     "throughTripId": "HD_OUT_JA-08_1053_39139",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1037_23126",
@@ -23744,9 +23845,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23126",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_0925_23126",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1043_26802",
@@ -23874,9 +23975,9 @@
       }
     ],
     "trainId": "105224",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1035_39306",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1051_105109",
@@ -24129,9 +24230,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23127",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_0945_23127",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1106_105111",
@@ -24193,7 +24294,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105111"
+    "trainId": "105111",
+    "throughTripId": "HD_OUT_JA-08_1121_39114",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_1111_105228",
@@ -24208,7 +24312,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "11:11:00",
+        "arrivalTime": "11:06:00",
         "departureTime": "11:11:00",
         "isPassing": false
       },
@@ -24255,7 +24359,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105228"
+    "trainId": "105228",
+    "prevTripId": "HD_INB_JA-11_1055_39308",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_R-01_1114_105113",
@@ -24381,9 +24488,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23129",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1005_23129",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1121_26806",
@@ -24511,9 +24618,9 @@
       }
     ],
     "trainId": "105231",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1119_39360",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1132_105115",
@@ -24639,9 +24746,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23131",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1025_23131",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1140_26807",
@@ -24831,9 +24938,9 @@
       }
     ],
     "trainId": "105117",
+    "customDestination": "新宿",
     "throughTripId": "HD_OUT_JA-08_1212_39144",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1152_105235",
@@ -24896,9 +25003,9 @@
       }
     ],
     "trainId": "105235",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1140_39311",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1159_23133",
@@ -24962,9 +25069,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23133",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1045_23133",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1200_26809",
@@ -25106,7 +25213,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "12:09:00",
+        "arrivalTime": "12:14:00",
         "departureTime": "12:09:00",
         "isPassing": false
       },
@@ -25153,7 +25260,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105237"
+    "trainId": "105237",
+    "prevTripId": "HD_INB_JA-11_1202_39313",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_R-01_1214_105121",
@@ -25279,9 +25389,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23135",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1105_23135",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1222_26812",
@@ -25599,9 +25709,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23138",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1125_23138",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1246_105241",
@@ -25664,9 +25774,9 @@
       }
     ],
     "trainId": "105241",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1233_39316",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1249_105125",
@@ -25728,7 +25838,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105125"
+    "trainId": "105125",
+    "throughTripId": "HD_OUT_JA-08_1313_39148",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_1256_105243",
@@ -25919,9 +26032,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23139",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1145_23139",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1307_105127",
@@ -25998,7 +26111,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "13:10:00",
+        "arrivalTime": "13:14:00",
         "departureTime": "13:10:00",
         "isPassing": false
       },
@@ -26045,7 +26158,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105245"
+    "trainId": "105245",
+    "prevTripId": "HD_INB_JA-11_1302_39318",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_R-01_1312_105128",
@@ -26171,9 +26287,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23141",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1205_23141",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1321_26818",
@@ -26362,7 +26478,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105131"
+    "trainId": "105131",
+    "throughTripId": "HD_OUT_JA-08_1344_39150",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_1338_23143",
@@ -26426,9 +26545,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23143",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1225_23143",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1339_26819",
@@ -26556,9 +26675,9 @@
       }
     ],
     "trainId": "105248",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1332_39319",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1348_105133",
@@ -26811,9 +26930,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23146",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1245_23146",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1407_105135",
@@ -27063,9 +27182,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23148",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1305_23148",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1420_26823",
@@ -27383,9 +27502,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23150",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1325_23150",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1445_105256",
@@ -27448,9 +27567,9 @@
       }
     ],
     "trainId": "105256",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1432_39324",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1450_105141",
@@ -27512,7 +27631,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105141"
+    "trainId": "105141",
+    "throughTripId": "HD_OUT_JA-08_1513_39157",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_1452_105258",
@@ -27703,9 +27825,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23151",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1345_23151",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1507_105143",
@@ -27782,7 +27904,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "15:10:00",
+        "arrivalTime": "15:14:00",
         "departureTime": "15:10:00",
         "isPassing": false
       },
@@ -27829,7 +27951,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105261"
+    "trainId": "105261",
+    "prevTripId": "HD_INB_JA-11_1502_39325",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_R-01_1514_105145",
@@ -27955,9 +28080,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23154",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1405_23154",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1520_26830",
@@ -28146,7 +28271,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105147"
+    "trainId": "105147",
+    "throughTripId": "HD_OUT_JA-08_1546_39158",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_1533_105264",
@@ -28272,9 +28400,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23156",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1425_23156",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1540_26831",
@@ -28526,9 +28654,9 @@
       }
     ],
     "trainId": "105151",
+    "customDestination": "新宿",
     "throughTripId": "HD_OUT_JA-08_1613_39161",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1600_23157",
@@ -28592,9 +28720,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23157",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1445_23157",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1602_26834",
@@ -28783,7 +28911,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105153"
+    "trainId": "105153",
+    "throughTripId": "HD_OUT_JA-08_1633_39162",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_1615_105270",
@@ -28846,9 +28977,9 @@
       }
     ],
     "trainId": "105270",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1602_39330",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1620_26835",
@@ -28977,9 +29108,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23160",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1505_23160",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1630_105155",
@@ -29041,7 +29172,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105155"
+    "trainId": "105155",
+    "throughTripId": "HD_OUT_JA-08_1652_39163",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_1630_105272",
@@ -29167,9 +29301,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23161",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1525_23161",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1639_26836",
@@ -29314,7 +29448,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "16:49:00",
+        "arrivalTime": "16:45:00",
         "departureTime": "16:49:00",
         "isPassing": false
       },
@@ -29361,7 +29495,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105275"
+    "trainId": "105275",
+    "prevTripId": "HD_INB_JA-11_1632_39331",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_R-01_1654_105158",
@@ -29424,9 +29561,9 @@
       }
     ],
     "trainId": "105158",
+    "customDestination": "新宿",
     "throughTripId": "HD_OUT_JA-08_1714_39165",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1659_23164",
@@ -29490,9 +29627,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23164",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1545_23164",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1700_26837",
@@ -29686,9 +29823,9 @@
     ],
     "customOrigin": "池袋",
     "trainId": "40182",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-12_1650_40182",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1717_23166",
@@ -29752,9 +29889,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23166",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1605_23166",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1718_26838",
@@ -29882,9 +30019,9 @@
       }
     ],
     "trainId": "105278",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1713_39362",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1726_26772",
@@ -30075,9 +30212,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36550",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-26_1639_36550",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1734_105161",
@@ -30140,9 +30277,9 @@
       }
     ],
     "trainId": "105161",
+    "customDestination": "新宿",
     "throughTripId": "HD_OUT_JA-08_1754_39169",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1739_23168",
@@ -30206,9 +30343,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23168",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1625_23168",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1742_26839",
@@ -30337,9 +30474,9 @@
     ],
     "customOrigin": "武蔵浦和",
     "trainId": "36572",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1736_39364",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1748_39240",
@@ -30467,9 +30604,9 @@
       }
     ],
     "trainId": "105163",
+    "customDestination": "新宿",
     "throughTripId": "HD_OUT_JA-08_1813_39170",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1755_36551",
@@ -30533,9 +30670,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36551",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-26_1659_36551",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1759_26840",
@@ -30664,9 +30801,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23169",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1645_23169",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1807_39241",
@@ -30794,9 +30931,9 @@
       }
     ],
     "trainId": "105282",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1756_39335",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1815_105165",
@@ -30858,7 +30995,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105165"
+    "trainId": "105165",
+    "throughTripId": "HD_OUT_JA-08_1837_39172",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_1818_23170",
@@ -30922,9 +31062,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23170",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1705_23170",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1823_26841",
@@ -31052,9 +31192,9 @@
       }
     ],
     "trainId": "105285",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1816_39336",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1831_105167",
@@ -31116,7 +31256,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105167"
+    "trainId": "105167",
+    "throughTripId": "HD_OUT_JA-08_1853_39118",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_1833_36554",
@@ -31180,9 +31323,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36554",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-26_1739_36554",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1839_23171",
@@ -31246,9 +31389,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23171",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1725_23171",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1840_26842",
@@ -31438,9 +31581,9 @@
       }
     ],
     "trainId": "105286",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1836_39337",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1853_105170",
@@ -31503,9 +31646,9 @@
       }
     ],
     "trainId": "105170",
+    "customDestination": "新宿",
     "throughTripId": "HD_OUT_JA-08_1915_39119",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_1853_105288",
@@ -31696,9 +31839,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23172",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1746_23172",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1903_39245",
@@ -31826,9 +31969,9 @@
       }
     ],
     "trainId": "105290",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1856_39338",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1913_105173",
@@ -31890,7 +32033,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105173"
+    "trainId": "105173",
+    "throughTripId": "HD_OUT_JA-08_1936_39176",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_1918_23173",
@@ -31954,9 +32100,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23173",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1807_23173",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1922_26844",
@@ -32084,9 +32230,9 @@
       }
     ],
     "trainId": "105292",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_1916_39339",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1930_39218",
@@ -32215,9 +32361,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23174",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1827_23174",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1939_26846",
@@ -32346,9 +32492,9 @@
     ],
     "customOrigin": "武蔵浦和",
     "trainId": "36573",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-21_1904_36573",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_1948_105175",
@@ -32534,7 +32680,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105177"
+    "trainId": "105177",
+    "throughTripId": "HD_OUT_JA-08_2019_39178",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_OUT_R-01_2002_26847",
@@ -32663,9 +32812,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23175",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1845_23175",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2011_39247",
@@ -32794,9 +32943,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36559",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-26_1919_36559",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_2016_105296",
@@ -32987,9 +33136,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23176",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1905_23176",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2027_105179",
@@ -33114,9 +33263,9 @@
       }
     ],
     "trainId": "105298",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_2016_39343",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2036_105180",
@@ -33178,7 +33327,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105180"
+    "trainId": "105180",
+    "throughTripId": "HD_OUT_JA-08_2052_39181",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_2038_23177",
@@ -33242,9 +33394,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23177",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1925_23177",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2042_26849",
@@ -33372,9 +33524,9 @@
       }
     ],
     "trainId": "105300",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_2037_39345",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2053_105182",
@@ -33437,9 +33589,9 @@
       }
     ],
     "trainId": "105182",
+    "customDestination": "新宿",
     "throughTripId": "HD_OUT_JA-08_2113_39183",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_2059_23178",
@@ -33503,9 +33655,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23178",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_1945_23178",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2102_26850",
@@ -33633,9 +33785,9 @@
       }
     ],
     "trainId": "105301",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_2056_39373",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2111_105183",
@@ -33697,7 +33849,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105183"
+    "trainId": "105183",
+    "throughTripId": "HD_OUT_JA-08_2133_39185",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_OUT_R-01_2120_26851",
@@ -33826,9 +33981,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23179",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_2005_23179",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_2126_105303",
@@ -33891,9 +34046,9 @@
       }
     ],
     "trainId": "105303",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_2116_39347",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2128_105184",
@@ -33955,7 +34110,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105184"
+    "trainId": "105184",
+    "throughTripId": "HD_OUT_JA-08_2151_39186",
+    "throughLineId": "saikyo",
+    "customDestination": "新宿"
   },
   {
     "tripId": "HD_INB_R-08_2133_105304",
@@ -34146,9 +34304,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23180",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_2025_23180",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2148_105185",
@@ -34398,9 +34556,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23181",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_2045_23181",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2202_41017",
@@ -34528,9 +34686,9 @@
       }
     ],
     "trainId": "105187",
+    "customDestination": "新宿",
     "throughTripId": "HD_OUT_JA-08_2226_39125",
-    "throughLineId": "saikyo",
-    "customDestination": "新宿"
+    "throughLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_2212_105306",
@@ -34545,7 +34703,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "22:12:00",
+        "arrivalTime": "22:07:00",
         "departureTime": "22:12:00",
         "isPassing": false
       },
@@ -34592,7 +34750,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105306"
+    "trainId": "105306",
+    "prevTripId": "HD_INB_JA-11_2156_39376",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_R-01_2221_26775",
@@ -34721,9 +34882,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23182",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_2105_23182",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_INB_R-08_2231_105307",
@@ -34786,9 +34947,9 @@
       }
     ],
     "trainId": "105307",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-11_2218_39349",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2237_39249",
@@ -34917,9 +35078,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23183",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_2125_23183",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2245_105074",
@@ -35148,9 +35309,9 @@
     ],
     "customOrigin": "川越",
     "trainId": "23184",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-31_2145_23184",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2305_105075",
@@ -35252,9 +35413,9 @@
     ],
     "customOrigin": "大宮",
     "trainId": "36565",
+    "customDestination": "新木場",
     "prevTripId": "HD_INB_JA-26_2219_36565",
-    "prevLineId": "saikyo",
-    "customDestination": "新木場"
+    "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_R-01_2314_26780",
@@ -35396,7 +35557,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "23:23:00",
+        "arrivalTime": "23:26:00",
         "departureTime": "23:29:00",
         "isPassing": false
       },
@@ -35444,7 +35605,10 @@
       }
     ],
     "customOrigin": "大宮",
-    "trainId": "36566"
+    "trainId": "36566",
+    "prevTripId": "HD_INB_JA-11_2315_39353",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_R-01_2337_105190",
@@ -35521,7 +35685,7 @@
     "stops": [
       {
         "stationId": "R-08",
-        "arrivalTime": "23:47:00",
+        "arrivalTime": "23:42:00",
         "departureTime": "23:47:00",
         "isPassing": false
       },
@@ -35568,7 +35732,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105310"
+    "trainId": "105310",
+    "prevTripId": "HD_INB_JA-15_2317_39296",
+    "prevLineId": "saikyo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_R-01_2354_105191",

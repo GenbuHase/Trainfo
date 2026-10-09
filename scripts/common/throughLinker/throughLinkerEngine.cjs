@@ -48,6 +48,48 @@ function buildUniversalStationMap() {
 }
 
 /**
+ * 同一区間・同一時刻の重複ゴーストトリップを安全に除去
+ */
+function deduplicateLineTrips(trips) {
+  const grouped = new Map();
+  for (const t of trips) {
+    if (!t.stops || t.stops.length === 0) continue;
+    const first = t.stops[0];
+    const last = t.stops[t.stops.length - 1];
+    const key = `${t.isHoliday ? 'H' : 'W'}_${t.direction}_${first.stationId}_${first.departureTime || first.arrivalTime}_${last.stationId}_${last.arrivalTime || last.departureTime}`;
+    if (!grouped.has(key)) grouped.set(key, []);
+    grouped.get(key).push(t);
+  }
+
+  const cleaned = [];
+  let dupCount = 0;
+  for (const list of grouped.values()) {
+    if (list.length === 1) {
+      cleaned.push(list[0]);
+      continue;
+    }
+    dupCount += (list.length - 1);
+    list.sort((a, b) => {
+      // 1. 直通元・直通先情報を持つものを最優先
+      const aThrough = (a.prevTripId ? 100 : 0) + (a.throughTripId ? 50 : 0);
+      const bThrough = (b.prevTripId ? 100 : 0) + (b.throughTripId ? 50 : 0);
+      if (bThrough !== aThrough) return bThrough - aThrough;
+
+      // 2. 停車駅数が多い方を優先（急行・各停の完全重複時は停車駅の多い各停か、設定された停車駅リストを優先）
+      const stopsDiff = (b.stops?.length || 0) - (a.stops?.length || 0);
+      if (stopsDiff !== 0) return stopsDiff;
+
+      // 3. customDestination を持つ方を優先
+      const aDest = a.customDestination ? 1 : 0;
+      const bDest = b.customDestination ? 1 : 0;
+      return bDest - aDest;
+    });
+    cleaned.push(list[0]);
+  }
+  return { cleaned, dupCount };
+}
+
+/**
  * 単一ペアのリンク処理
  */
 function linkPair({
@@ -101,8 +143,8 @@ function linkPair({
       if (noA && noB && noA === noB && diff <= 180 && diff < minDiff) {
         minDiff = diff;
         bestB = tB;
-      } else if (diff <= 120 && diff < minDiff) {
-        // 3. 時刻近接最小
+      } else if (diff <= maxTimeDiff && diff < minDiff) {
+        // 3. 時刻近接最小 (境界駅の停車・交代時間に対応)
         minDiff = diff;
         bestB = tB;
       }
@@ -238,7 +280,16 @@ function executeUniversalThroughLinker(options = {}) {
     }
   }
 
-  // 4. 全接続ペアの自動リンク & シームレス時刻同期
+  // 4. 重複ゴーストトリップのクリーンアップ（同一時刻・同一区間の多重登録を解消）
+  for (const [lineId, trips] of lineTrips.entries()) {
+    const { cleaned, dupCount } = deduplicateLineTrips(trips);
+    if (dupCount > 0) {
+      console.log(`[Deduplication] ${lineId}: ${dupCount} 件の重複便を除去 (${trips.length} -> ${cleaned.length})`);
+      lineTrips.set(lineId, cleaned);
+    }
+  }
+
+  // 5. 全接続ペアの自動リンク & シームレス時刻同期
   console.log('\n--- 接続ペアのリンク実行 ---');
   for (const conn of config.connections) {
     const tripsA = lineTrips.get(conn.lineA);

@@ -1328,7 +1328,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "浦和美園",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1718,7 +1718,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "西高島平",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3148,7 +3148,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "西高島平",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4186,7 +4186,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "横浜",
+    "customDestination": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4235,11 +4235,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "09:07:00",
-        "departureTime": "09:14:00",
+        "departureTime": "09:07:00",
         "isPassing": false
       }
     ],
-    "trainId": "126084"
+    "trainId": "126084",
+    "throughTripId": "WD_INB_SO-10_0903_125197",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-10_0850_157862",
@@ -4367,9 +4369,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "125197",
-    "throughTripId": "WD_INB_SO-10_0903_125197",
-    "throughLineId": "sotetsu_main"
+    "trainId": "125197"
   },
   {
     "tripId": "WD_INB_SO-37_0900_126050",
@@ -4839,7 +4839,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "09:21:00",
+        "arrivalTime": "09:32:00",
         "departureTime": "09:29:00",
         "isPassing": false
       },
@@ -4886,7 +4886,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125582"
+    "trainId": "125582",
+    "prevTripId": "WD_OUT_SO-01_0912_125584",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "WD_INB_SO-37_0937_126088",
@@ -5455,11 +5458,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "10:34:00",
-        "departureTime": "10:42:00",
+        "departureTime": "10:34:00",
         "isPassing": false
       }
     ],
-    "trainId": "126092"
+    "trainId": "126092",
+    "throughTripId": "WD_INB_SO-10_1030_126090",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-10_1023_125588",
@@ -5734,7 +5739,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "10:37:00",
+        "arrivalTime": "10:47:00",
         "departureTime": "10:43:00",
         "isPassing": false
       },
@@ -5781,7 +5786,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125590"
+    "trainId": "125590",
+    "prevTripId": "WD_OUT_SO-01_1028_125592",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "WD_INB_SO-37_1048_126093",
@@ -5859,7 +5867,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "10:47:00",
+        "arrivalTime": "10:56:00",
         "departureTime": "10:53:00",
         "isPassing": false
       },
@@ -5906,7 +5914,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125592"
+    "trainId": "125592",
+    "prevTripId": "WD_OUT_SO-01_1038_125593",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "WD_INB_SO-37_1058_126095",
@@ -6114,7 +6125,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "11:07:00",
+        "arrivalTime": "11:17:00",
         "departureTime": "11:13:00",
         "isPassing": false
       },
@@ -6161,7 +6172,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125594"
+    "trainId": "125594",
+    "prevTripId": "WD_OUT_SO-08_1112_106468",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "WD_INB_SO-37_1118_126098",
@@ -10221,7 +10235,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "16:29:00",
+        "arrivalTime": "16:36:00",
         "departureTime": "16:33:00",
         "isPassing": false
       },
@@ -10270,7 +10284,7 @@
     ],
     "trainId": "75601",
     "customDestination": "湘南台",
-    "prevTripId": "WD_OUT_SO-08_1624_75601",
+    "prevTripId": "WD_OUT_SO-01_1618_125632",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -10411,7 +10425,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "16:49:00",
+        "arrivalTime": "16:56:00",
         "departureTime": "16:53:00",
         "isPassing": false
       },
@@ -10460,7 +10474,7 @@
     ],
     "trainId": "106470",
     "customDestination": "湘南台",
-    "prevTripId": "WD_OUT_SO-08_1644_106470",
+    "prevTripId": "WD_OUT_SO-01_1638_125635",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -11238,7 +11252,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "浦和美園",
+    "customDestination": "横浜",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -11287,11 +11301,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "18:10:00",
-        "departureTime": "18:16:00",
+        "departureTime": "18:10:00",
         "isPassing": false
       }
     ],
-    "trainId": "125065"
+    "trainId": "125065",
+    "throughTripId": "WD_INB_SO-10_1805_126142",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-10_1800_125640",
@@ -11306,7 +11322,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "17:52:00",
+        "arrivalTime": "18:05:00",
         "departureTime": "18:00:00",
         "isPassing": false
       },
@@ -11353,7 +11369,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125640"
+    "trainId": "125640",
+    "prevTripId": "WD_OUT_SO-08_1801_115257",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "WD_INB_SO-37_1802_126145",
@@ -13698,7 +13717,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "20:12:00",
+        "arrivalTime": "20:24:00",
         "departureTime": "20:19:00",
         "isPassing": false
       },
@@ -13745,7 +13764,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125652"
+    "trainId": "125652",
+    "prevTripId": "WD_OUT_SO-08_2019_115253",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "WD_INB_SO-37_2026_125189",
@@ -13825,7 +13847,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "20:24:00",
+        "arrivalTime": "20:34:00",
         "departureTime": "20:30:00",
         "isPassing": false
       },
@@ -13872,7 +13894,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "115253"
+    "trainId": "115253",
+    "prevTripId": "WD_OUT_SO-01_2015_125653",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "WD_INB_SO-37_2036_126161",
@@ -13952,7 +13977,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "20:34:00",
+        "arrivalTime": "20:44:00",
         "departureTime": "20:40:00",
         "isPassing": false
       },
@@ -13999,7 +14024,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125653"
+    "trainId": "125653",
+    "prevTripId": "WD_OUT_SO-08_2039_75608",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "WD_INB_SO-37_2046_126163",
@@ -14009,7 +14037,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "横浜",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -14058,11 +14086,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "21:06:00",
-        "departureTime": "21:13:00",
+        "departureTime": "21:06:00",
         "isPassing": false
       }
     ],
-    "trainId": "126163"
+    "trainId": "126163",
+    "throughTripId": "WD_INB_SO-10_2102_125172",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-10_2050_75608",
@@ -14187,9 +14217,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "125172",
-    "throughTripId": "WD_INB_SO-10_2102_125172",
-    "throughLineId": "sotetsu_main"
+    "trainId": "125172"
   },
   {
     "tripId": "WD_OUT_SO-10_2056_75609",
@@ -14313,11 +14341,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "21:16:00",
-        "departureTime": "21:26:00",
+        "departureTime": "21:16:00",
         "isPassing": false
       }
     ],
-    "trainId": "126164"
+    "trainId": "126164",
+    "throughTripId": "WD_INB_SO-10_2113_126163",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-10_2105_125656",
@@ -14527,7 +14557,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "21:14:00",
+        "arrivalTime": "21:24:00",
         "departureTime": "21:21:00",
         "isPassing": false
       },
@@ -14574,7 +14604,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125657"
+    "trainId": "125657",
+    "prevTripId": "WD_OUT_SO-01_2105_125658",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "WD_INB_SO-37_2125_126166",
@@ -14846,7 +14879,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "21:40:00",
+        "arrivalTime": "21:44:00",
         "departureTime": "21:41:00",
         "isPassing": false
       },
@@ -14895,7 +14928,7 @@
     ],
     "trainId": "75611",
     "customDestination": "湘南台",
-    "prevTripId": "WD_OUT_SO-08_2135_75611",
+    "prevTripId": "WD_OUT_SO-01_2125_125660",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -14911,7 +14944,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "21:44:00",
+        "arrivalTime": "21:55:00",
         "departureTime": "21:51:00",
         "isPassing": false
       },
@@ -14958,7 +14991,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125660"
+    "trainId": "125660",
+    "prevTripId": "WD_OUT_SO-01_2136_125662",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "WD_INB_SO-37_2152_126169",
@@ -15161,7 +15197,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "22:10:00",
+        "arrivalTime": "22:20:00",
         "departureTime": "22:15:00",
         "isPassing": false
       },
@@ -15210,7 +15246,7 @@
     ],
     "trainId": "115254",
     "customDestination": "湘南台",
-    "prevTripId": "WD_OUT_SO-08_2205_115254",
+    "prevTripId": "WD_OUT_SO-01_2200_125664",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -15221,7 +15257,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "横浜",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -15270,11 +15306,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "22:32:00",
-        "departureTime": "22:40:00",
+        "departureTime": "22:32:00",
         "isPassing": false
       }
     ],
-    "trainId": "126171"
+    "trainId": "126171",
+    "throughTripId": "WD_INB_SO-10_2227_125169",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-10_2227_125664",
@@ -15993,7 +16031,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "23:36:00",
+        "arrivalTime": "23:43:00",
         "departureTime": "23:38:00",
         "isPassing": false
       },
@@ -16042,7 +16080,7 @@
     ],
     "trainId": "106472",
     "customDestination": "湘南台",
-    "prevTripId": "WD_OUT_SO-08_2331_106472",
+    "prevTripId": "WD_OUT_SO-01_2322_125670",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -17668,11 +17706,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "07:24:00",
-        "departureTime": "07:31:00",
+        "departureTime": "07:24:00",
         "isPassing": false
       }
     ],
-    "trainId": "126076"
+    "trainId": "126076",
+    "throughTripId": "HD_INB_SO-10_0721_126075",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_0712_125677",
@@ -18002,7 +18042,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "横浜",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -18051,11 +18091,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "07:54:00",
-        "departureTime": "08:01:00",
+        "departureTime": "07:54:00",
         "isPassing": false
       }
     ],
-    "trainId": "126078"
+    "trainId": "126078",
+    "throughTripId": "HD_INB_SO-10_0751_125155",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_0743_125243",
@@ -18325,7 +18367,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "07:59:00",
+        "arrivalTime": "07:56:00",
         "departureTime": "08:00:00",
         "isPassing": false
       },
@@ -18374,7 +18416,7 @@
     ],
     "trainId": "115269",
     "customDestination": "湘南台",
-    "prevTripId": "HD_OUT_SO-08_0755_115269",
+    "prevTripId": "HD_OUT_SO-01_0738_125576",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -18390,7 +18432,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "07:56:00",
+        "arrivalTime": "07:59:00",
         "departureTime": "08:03:00",
         "isPassing": false
       },
@@ -18437,7 +18479,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125576"
+    "trainId": "125576",
+    "prevTripId": "HD_OUT_SO-08_0755_115269",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_0808_126080",
@@ -18447,7 +18492,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "横浜",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -18496,11 +18541,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "08:24:00",
-        "departureTime": "08:31:00",
+        "departureTime": "08:24:00",
         "isPassing": false
       }
     ],
-    "trainId": "126080"
+    "trainId": "126080",
+    "throughTripId": "HD_INB_SO-10_0821_125157",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_0813_111086",
@@ -18624,11 +18671,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "08:34:00",
-        "departureTime": "08:41:00",
+        "departureTime": "08:34:00",
         "isPassing": false
       }
     ],
-    "trainId": "126082"
+    "trainId": "126082",
+    "throughTripId": "HD_INB_SO-10_0831_126080",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-37_0825_126083",
@@ -18898,7 +18947,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "赤羽岩淵",
+    "customDestination": "横浜",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -18947,11 +18996,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "08:54:00",
-        "departureTime": "09:01:00",
+        "departureTime": "08:54:00",
         "isPassing": false
       }
     ],
-    "trainId": "126180"
+    "trainId": "126180",
+    "throughTripId": "HD_INB_SO-10_0851_126083",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_0844_157863",
@@ -19026,7 +19077,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "横浜",
+    "customDestination": "赤羽岩淵",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -19075,11 +19126,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "09:04:00",
-        "departureTime": "09:11:00",
+        "departureTime": "09:04:00",
         "isPassing": false
       }
     ],
-    "trainId": "126085"
+    "trainId": "126085",
+    "throughTripId": "HD_INB_SO-10_0901_126180",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_0853_82623",
@@ -19224,7 +19277,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "08:58:00",
+        "arrivalTime": "09:06:00",
         "departureTime": "09:03:00",
         "isPassing": false
       },
@@ -19273,7 +19326,7 @@
     ],
     "trainId": "115270",
     "customDestination": "湘南台",
-    "prevTripId": "HD_OUT_SO-08_0854_115270",
+    "prevTripId": "HD_OUT_SO-01_0848_125580",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -19409,7 +19462,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "横浜",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -19458,11 +19511,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "09:34:00",
-        "departureTime": "09:41:00",
+        "departureTime": "09:34:00",
         "isPassing": false
       }
     ],
-    "trainId": "126087"
+    "trainId": "126087",
+    "throughTripId": "HD_INB_SO-10_0931_125063",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_0923_157860",
@@ -19477,7 +19532,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "09:23:00",
+        "arrivalTime": "09:26:00",
         "departureTime": "09:23:00",
         "isPassing": false
       },
@@ -19526,7 +19581,7 @@
     ],
     "trainId": "157860",
     "customDestination": "湘南台",
-    "prevTripId": "HD_OUT_SO-08_0918_157860",
+    "prevTripId": "HD_OUT_SO-01_0908_125583",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -24463,11 +24518,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "16:04:00",
-        "departureTime": "16:11:00",
+        "departureTime": "16:04:00",
         "isPassing": false
       }
     ],
-    "trainId": "126132"
+    "trainId": "126132",
+    "throughTripId": "HD_INB_SO-10_1601_126130",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1553_125627",
@@ -24539,7 +24596,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "和光市",
+    "customDestination": "横浜",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -24588,11 +24645,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "16:14:00",
-        "departureTime": "16:20:00",
+        "departureTime": "16:14:00",
         "isPassing": false
       }
     ],
-    "trainId": "125185"
+    "trainId": "125185",
+    "throughTripId": "HD_INB_SO-10_1611_126132",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1603_115266",
@@ -24667,7 +24726,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "横浜",
+    "customDestination": "和光市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -24716,11 +24775,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "16:24:00",
-        "departureTime": "16:31:00",
+        "departureTime": "16:24:00",
         "isPassing": false
       }
     ],
-    "trainId": "126133"
+    "trainId": "126133",
+    "throughTripId": "HD_INB_SO-10_1620_125185",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1613_125629",
@@ -24844,11 +24905,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "16:34:00",
-        "departureTime": "16:41:00",
+        "departureTime": "16:34:00",
         "isPassing": false
       }
     ],
-    "trainId": "126135"
+    "trainId": "126135",
+    "throughTripId": "HD_INB_SO-10_1631_126133",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1623_125630",
@@ -25227,11 +25290,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "17:04:00",
-        "departureTime": "17:11:00",
+        "departureTime": "17:04:00",
         "isPassing": false
       }
     ],
-    "trainId": "126138"
+    "trainId": "126138",
+    "throughTripId": "HD_INB_SO-10_1701_126136",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1653_125634",
@@ -25501,7 +25566,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "17:08:00",
+        "arrivalTime": "17:16:00",
         "departureTime": "17:13:00",
         "isPassing": false
       },
@@ -25550,7 +25615,7 @@
     ],
     "trainId": "157864",
     "customDestination": "湘南台",
-    "prevTripId": "HD_OUT_SO-08_1703_157864",
+    "prevTripId": "HD_OUT_SO-01_1658_125638",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -25561,7 +25626,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "浦和美園",
+    "customDestination": "横浜",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -25610,11 +25675,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "17:34:00",
-        "departureTime": "17:41:00",
+        "departureTime": "17:34:00",
         "isPassing": false
       }
     ],
-    "trainId": "125064"
+    "trainId": "125064",
+    "throughTripId": "HD_INB_SO-10_1731_126140",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1723_125638",
@@ -25629,7 +25696,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "17:16:00",
+        "arrivalTime": "17:26:00",
         "departureTime": "17:23:00",
         "isPassing": false
       },
@@ -25676,7 +25743,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125638"
+    "trainId": "125638",
+    "prevTripId": "HD_OUT_SO-01_1708_125639",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_1728_126060",
@@ -25756,7 +25826,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "17:26:00",
+        "arrivalTime": "17:36:00",
         "departureTime": "17:33:00",
         "isPassing": false
       },
@@ -25803,7 +25873,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125639"
+    "trainId": "125639",
+    "prevTripId": "HD_OUT_SO-08_1731_157865",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_1738_125159",
@@ -25883,7 +25956,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "17:36:00",
+        "arrivalTime": "17:46:00",
         "departureTime": "17:43:00",
         "isPassing": false
       },
@@ -25930,7 +26003,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "157865"
+    "trainId": "157865",
+    "prevTripId": "HD_OUT_SO-08_1741_75565",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_1748_126143",
@@ -26008,7 +26084,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "17:46:00",
+        "arrivalTime": "17:56:00",
         "departureTime": "17:53:00",
         "isPassing": false
       },
@@ -26055,7 +26131,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "75565"
+    "trainId": "75565",
+    "prevTripId": "HD_OUT_SO-01_1738_125641",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_1758_126144",
@@ -26114,11 +26193,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "18:14:00",
-        "departureTime": "18:21:00",
+        "departureTime": "18:14:00",
         "isPassing": false
       }
     ],
-    "trainId": "126144"
+    "trainId": "126144",
+    "throughTripId": "HD_INB_SO-10_1811_126143",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1803_125641",
@@ -26190,7 +26271,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "浦和美園",
+    "customDestination": "横浜",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -26239,11 +26320,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "18:24:00",
-        "departureTime": "18:30:00",
+        "departureTime": "18:24:00",
         "isPassing": false
       }
     ],
-    "trainId": "125066"
+    "trainId": "125066",
+    "throughTripId": "HD_INB_SO-10_1821_126144",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1814_157866",
@@ -26388,7 +26471,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "18:16:00",
+        "arrivalTime": "18:26:00",
         "departureTime": "18:23:00",
         "isPassing": false
       },
@@ -26435,7 +26518,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "115252"
+    "trainId": "115252",
+    "prevTripId": "HD_OUT_SO-01_1808_125643",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_1828_126147",
@@ -26513,7 +26599,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "18:26:00",
+        "arrivalTime": "18:36:00",
         "departureTime": "18:33:00",
         "isPassing": false
       },
@@ -26560,7 +26646,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125643"
+    "trainId": "125643",
+    "prevTripId": "HD_OUT_SO-01_1818_125644",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_1838_125162",
@@ -26570,7 +26659,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "西高島平",
+    "customDestination": "横浜",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -26619,11 +26708,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "18:54:00",
-        "departureTime": "19:01:00",
+        "departureTime": "18:54:00",
         "isPassing": false
       }
     ],
-    "trainId": "125162"
+    "trainId": "125162",
+    "throughTripId": "HD_INB_SO-10_1851_126147",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1843_125644",
@@ -26638,7 +26729,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "18:36:00",
+        "arrivalTime": "18:46:00",
         "departureTime": "18:43:00",
         "isPassing": false
       },
@@ -26685,7 +26776,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125644"
+    "trainId": "125644",
+    "prevTripId": "HD_OUT_SO-08_1841_75606",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_1848_125166",
@@ -26695,7 +26789,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "渋谷",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -26744,11 +26838,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "19:04:00",
-        "departureTime": "19:11:00",
+        "departureTime": "19:04:00",
         "isPassing": false
       }
     ],
-    "trainId": "125166"
+    "trainId": "125166",
+    "throughTripId": "HD_INB_SO-10_1901_125162",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1853_75606",
@@ -26763,7 +26859,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "18:46:00",
+        "arrivalTime": "18:56:00",
         "departureTime": "18:53:00",
         "isPassing": false
       },
@@ -26810,7 +26906,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "75606"
+    "trainId": "75606",
+    "prevTripId": "HD_OUT_SO-01_1838_125646",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_1858_126150",
@@ -26820,7 +26919,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "横浜",
+    "customDestination": "浦和美園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -26869,11 +26968,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "19:14:00",
-        "departureTime": "19:21:00",
+        "departureTime": "19:14:00",
         "isPassing": false
       }
     ],
-    "trainId": "126150"
+    "trainId": "126150",
+    "throughTripId": "HD_INB_SO-10_1911_125166",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1903_125646",
@@ -26994,11 +27095,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "19:24:00",
-        "departureTime": "19:31:00",
+        "departureTime": "19:24:00",
         "isPassing": false
       }
     ],
-    "trainId": "126151"
+    "trainId": "126151",
+    "throughTripId": "HD_INB_SO-10_1921_126150",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1913_157867",
@@ -27013,7 +27116,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "19:11:00",
+        "arrivalTime": "19:16:00",
         "departureTime": "19:13:00",
         "isPassing": false
       },
@@ -27062,7 +27165,7 @@
     ],
     "trainId": "157867",
     "customDestination": "湘南台",
-    "prevTripId": "HD_OUT_SO-08_1906_157867",
+    "prevTripId": "HD_OUT_SO-01_1858_125648",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -27377,11 +27480,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "19:54:00",
-        "departureTime": "20:01:00",
+        "departureTime": "19:54:00",
         "isPassing": false
       }
     ],
-    "trainId": "126155"
+    "trainId": "126155",
+    "throughTripId": "HD_INB_SO-10_1951_126153",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1943_75566",
@@ -27502,11 +27607,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "20:04:00",
-        "departureTime": "20:11:00",
+        "departureTime": "20:04:00",
         "isPassing": false
       }
     ],
-    "trainId": "126156"
+    "trainId": "126156",
+    "throughTripId": "HD_INB_SO-10_2001_126155",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_1953_76650",
@@ -27521,7 +27628,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "19:51:00",
+        "arrivalTime": "19:56:00",
         "departureTime": "19:53:00",
         "isPassing": false
       },
@@ -27570,7 +27677,7 @@
     ],
     "trainId": "76650",
     "customDestination": "湘南台",
-    "prevTripId": "HD_OUT_SO-08_1946_76650",
+    "prevTripId": "HD_OUT_SO-01_1938_125650",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -27630,11 +27737,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "20:14:00",
-        "departureTime": "20:21:00",
+        "departureTime": "20:14:00",
         "isPassing": false
       }
     ],
-    "trainId": "126157"
+    "trainId": "126157",
+    "throughTripId": "HD_INB_SO-10_2011_126156",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_2003_125650",
@@ -27706,7 +27815,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "渋谷",
+    "customDestination": "横浜",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -27755,11 +27864,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "20:24:00",
-        "departureTime": "20:31:00",
+        "departureTime": "20:24:00",
         "isPassing": false
       }
     ],
-    "trainId": "125167"
+    "trainId": "125167",
+    "throughTripId": "HD_INB_SO-10_2021_126157",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_2013_157868",
@@ -27834,7 +27945,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "赤羽岩淵",
+    "customDestination": "西高島平",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -27883,11 +27994,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "20:34:00",
-        "departureTime": "20:41:00",
+        "departureTime": "20:34:00",
         "isPassing": false
       }
     ],
-    "trainId": "126182"
+    "trainId": "126182",
+    "throughTripId": "HD_INB_SO-10_2031_125167",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_2023_125702",
@@ -27962,7 +28075,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "横浜",
+    "customDestination": "渋谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -28011,11 +28124,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "20:44:00",
-        "departureTime": "20:52:00",
+        "departureTime": "20:44:00",
         "isPassing": false
       }
     ],
-    "trainId": "126160"
+    "trainId": "126160",
+    "throughTripId": "HD_INB_SO-10_2041_126182",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_2033_75607",
@@ -28030,7 +28145,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "20:31:00",
+        "arrivalTime": "20:36:00",
         "departureTime": "20:33:00",
         "isPassing": false
       },
@@ -28079,7 +28194,7 @@
     ],
     "trainId": "75607",
     "customDestination": "湘南台",
-    "prevTripId": "HD_OUT_SO-08_2026_75607",
+    "prevTripId": "HD_OUT_SO-01_2018_125654",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -28160,7 +28275,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "20:36:00",
+        "arrivalTime": "20:46:00",
         "departureTime": "20:43:00",
         "isPassing": false
       },
@@ -28207,7 +28322,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125654"
+    "trainId": "125654",
+    "prevTripId": "HD_OUT_SO-01_2028_125655",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_2050_125190",
@@ -28287,7 +28405,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "20:46:00",
+        "arrivalTime": "20:56:00",
         "departureTime": "20:53:00",
         "isPassing": false
       },
@@ -28334,7 +28452,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125655"
+    "trainId": "125655",
+    "prevTripId": "HD_OUT_SO-08_2051_106471",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_OUT_SO-10_2103_106471",
@@ -28604,7 +28725,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "21:23:00",
+        "arrivalTime": "21:26:00",
         "departureTime": "21:23:00",
         "isPassing": false
       },
@@ -28653,7 +28774,7 @@
     ],
     "trainId": "75610",
     "customDestination": "湘南台",
-    "prevTripId": "HD_OUT_SO-08_2118_75610",
+    "prevTripId": "HD_OUT_SO-01_2108_125659",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -28854,7 +28975,7 @@
     "direction": "inbound",
     "originStationId": "SO-37",
     "destinationStationId": "SO-10",
-    "customDestination": "横浜",
+    "customDestination": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -28903,11 +29024,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "21:58:00",
-        "departureTime": "22:08:00",
+        "departureTime": "21:58:00",
         "isPassing": false
       }
     ],
-    "trainId": "126168"
+    "trainId": "126168",
+    "throughTripId": "HD_INB_SO-10_2201_125163",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-10_2143_157869",
@@ -28922,7 +29045,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "21:43:00",
+        "arrivalTime": "21:46:00",
         "departureTime": "21:43:00",
         "isPassing": false
       },
@@ -28971,7 +29094,7 @@
     ],
     "trainId": "157869",
     "customDestination": "湘南台",
-    "prevTripId": "HD_OUT_SO-08_2138_157869",
+    "prevTripId": "HD_OUT_SO-01_2128_125661",
     "prevLineId": "sotetsu_main"
   },
   {
@@ -29035,9 +29158,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "125163",
-    "throughTripId": "HD_INB_SO-10_2201_125163",
-    "throughLineId": "sotetsu_main"
+    "trainId": "125163"
   },
   {
     "tripId": "HD_OUT_SO-10_2153_125661",
@@ -29052,7 +29173,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "21:46:00",
+        "arrivalTime": "21:56:00",
         "departureTime": "21:53:00",
         "isPassing": false
       },
@@ -29099,7 +29220,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125661"
+    "trainId": "125661",
+    "prevTripId": "HD_OUT_SO-01_2138_125663",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_2155_125708",
@@ -29161,7 +29285,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125708"
+    "trainId": "125708",
+    "throughTripId": "HD_INB_SO-10_2208_126168",
+    "throughLineId": "sotetsu_main",
+    "customDestination": "横浜"
   },
   {
     "tripId": "HD_OUT_SO-10_2203_125663",
@@ -29433,7 +29560,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "22:19:00",
+        "arrivalTime": "22:30:00",
         "departureTime": "22:27:00",
         "isPassing": false
       },
@@ -29480,7 +29607,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125665"
+    "trainId": "125665",
+    "prevTripId": "HD_OUT_SO-08_2226_115255",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_2229_126173",
@@ -29558,7 +29688,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "22:30:00",
+        "arrivalTime": "22:42:00",
         "departureTime": "22:39:00",
         "isPassing": false
       },
@@ -29605,7 +29735,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "115255"
+    "trainId": "115255",
+    "prevTripId": "HD_OUT_SO-01_2224_125666",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_2241_126174",
@@ -29685,7 +29818,7 @@
     "stops": [
       {
         "stationId": "SO-10",
-        "arrivalTime": "22:42:00",
+        "arrivalTime": "22:56:00",
         "departureTime": "22:51:00",
         "isPassing": false
       },
@@ -29732,7 +29865,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125666"
+    "trainId": "125666",
+    "prevTripId": "HD_OUT_SO-01_2238_125667",
+    "prevLineId": "sotetsu_main",
+    "customDestination": "湘南台"
   },
   {
     "tripId": "HD_INB_SO-37_2259_126067",

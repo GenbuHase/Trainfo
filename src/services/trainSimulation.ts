@@ -120,7 +120,7 @@ export function resolveActiveTrainInfo(
 /**
  * 2つの駅IDが同一の物理駅（または境界接続駅）かどうかを判定
  */
-function isSamePhysicalStation(idA?: string, idB?: string): boolean {
+export function isSamePhysicalStation(idA?: string, idB?: string): boolean {
   if (!idA || !idB) return false;
   if (idA === idB) return true;
   const stA = STATION_MAP.get(idA);

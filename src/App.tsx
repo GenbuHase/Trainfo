@@ -11,6 +11,7 @@ import { InstallModal } from './components/Modals/InstallModal';
 import {
   calculateActiveTrains,
   getRealCurrentSeconds,
+  isSamePhysicalStation,
 } from './services/trainSimulation';
 import type { SimulationState } from './services/trainSimulation';
 import { getAllLines } from './data/linesRegistry';
@@ -137,6 +138,18 @@ export function App() {
             t.tripId !== prev.tripId &&
             formatTrainNumber(t.trainNumber, t.trainId, t.tripId) === prevNo &&
             t.direction === prev.direction
+        );
+      }
+      // 4. 境界駅での同一物理駅・同一方向フォールバック判定（万が一リンク欠落時でも絶対に追尾を途切れさせない）
+      if (!successor) {
+        successor = activeTrains.find(
+          (t) =>
+            t.tripId !== prev.tripId &&
+            t.lineId !== prev.lineId &&
+            t.direction === prev.direction &&
+            (isSamePhysicalStation(t.currentStationId, prev.currentStationId) ||
+              isSamePhysicalStation(t.originStationId, prev.destinationStationId) ||
+              isSamePhysicalStation(t.currentStationId, prev.destinationStationId))
         );
       }
       if (successor) {
