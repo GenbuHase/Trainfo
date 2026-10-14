@@ -40,85 +40,91 @@ export function useTrainTracker({
   const lastSelectedTrainRef = useRef<ActiveTrain | null>(null);
   const missingTrainTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  // selectedTrainId が明示的に解除された場合は直前の履歴をクリア
+  useEffect(() => {
+    if (!selectedTrainId) {
+      lastSelectedTrainRef.current = null;
+    }
+  }, [selectedTrainId]);
+
   // 1. 選択中の列車オブジェクトをリアルタイム算出（直通運転チェーンの網羅探索）
   const selectedTrain = useMemo(() => {
-    if (!selectedTrainId && !lastSelectedTrainRef.current) return null;
-
-    // 現在選択されている tripId が activeTrains 内に直接存在するか確認
-    if (selectedTrainId) {
-      const found = activeTrains.find((t) => t.tripId === selectedTrainId);
-      if (found) {
-        // 境界駅に到着した直通列車で、後続トリップが既に停車・運行中の場合は直ちに後続トリップへハンドオーバー
-        if (found.throughTripId) {
-          const isFoundEnding = found.stops[found.stops.length - 1]?.stationId === found.currentStationId;
-          if (isFoundEnding) {
-            const successor = activeTrains.find((t) => t.tripId === found.throughTripId);
-            if (successor) {
-              const foundOrigin = found.customOrigin || STATION_MAP.get(found.originStationId)?.name;
-              if (
-                foundOrigin &&
-                (!successor.customOrigin || successor.customOrigin === STATION_MAP.get(successor.originStationId)?.name)
-              ) {
-                successor.customOrigin = foundOrigin;
-              }
-              if (
-                found.customDestination &&
-                (!successor.customDestination ||
-                  successor.customDestination === STATION_MAP.get(successor.destinationStationId)?.name)
-              ) {
-                successor.customDestination = found.customDestination;
-              }
-              return successor;
-            }
-          }
-        }
-
-        const prev = lastSelectedTrainRef.current;
-        if (
-          prev &&
-          (prev.tripId === found.tripId ||
-            formatTrainNumber(prev.trainNumber, prev.tripId) === formatTrainNumber(found.trainNumber, found.tripId))
-        ) {
-          const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
-          if (prevOrigin && (!found.customOrigin || found.customOrigin === STATION_MAP.get(found.originStationId)?.name)) {
-            found.customOrigin = prevOrigin;
-          }
-          if (
-            prev.customDestination &&
-            (!found.customDestination || found.customDestination === STATION_MAP.get(found.destinationStationId)?.name)
-          ) {
-            found.customDestination = prev.customDestination;
-          }
-        }
-        return found;
-      }
+    // 列車が選択されていない場合は常に null
+    if (!selectedTrainId) {
+      return null;
     }
 
-    // 直通運行チェーン全体（祖先・子孫を含む全トリップ）を網羅探索
-    const baseTripId = selectedTrainId || lastSelectedTrainRef.current?.tripId;
-    if (baseTripId) {
-      const chainTripIds = getThroughChainTripIds(baseTripId);
-      const chainActive = activeTrains.find((t) => chainTripIds.has(t.tripId));
-      if (chainActive) {
-        const prev = lastSelectedTrainRef.current;
-        if (prev) {
-          const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
-          if (
-            prevOrigin &&
-            (!chainActive.customOrigin || chainActive.customOrigin === STATION_MAP.get(chainActive.originStationId)?.name)
-          ) {
-            chainActive.customOrigin = prevOrigin;
-          }
-          if (
-            prev.customDestination &&
-            (!chainActive.customDestination ||
-              chainActive.customDestination === STATION_MAP.get(chainActive.destinationStationId)?.name)
-          ) {
-            chainActive.customDestination = prev.customDestination;
+    // 現在選択されている tripId が activeTrains 内に直接存在するか確認
+    const found = activeTrains.find((t) => t.tripId === selectedTrainId);
+    if (found) {
+      // 境界駅に到着した直通列車で、後続トリップが既に停車・運行中の場合は直ちに後続トリップへハンドオーバー
+      if (found.throughTripId) {
+        const isFoundEnding = found.stops[found.stops.length - 1]?.stationId === found.currentStationId;
+        if (isFoundEnding) {
+          const successor = activeTrains.find((t) => t.tripId === found.throughTripId);
+          if (successor) {
+            const foundOrigin = found.customOrigin || STATION_MAP.get(found.originStationId)?.name;
+            if (
+              foundOrigin &&
+              (!successor.customOrigin || successor.customOrigin === STATION_MAP.get(successor.originStationId)?.name)
+            ) {
+              successor.customOrigin = foundOrigin;
+            }
+            if (
+              found.customDestination &&
+              (!successor.customDestination ||
+                successor.customDestination === STATION_MAP.get(successor.destinationStationId)?.name)
+            ) {
+              successor.customDestination = found.customDestination;
+            }
+            return successor;
           }
         }
-        return chainActive;
       }
+
+      const prev = lastSelectedTrainRef.current;
+      if (
+        prev &&
+        (prev.tripId === found.tripId ||
+          formatTrainNumber(prev.trainNumber, prev.tripId) === formatTrainNumber(found.trainNumber, found.tripId))
+      ) {
+        const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
+        if (prevOrigin && (!found.customOrigin || found.customOrigin === STATION_MAP.get(found.originStationId)?.name)) {
+          found.customOrigin = prevOrigin;
+        }
+        if (
+          prev.customDestination &&
+          (!found.customDestination || found.customDestination === STATION_MAP.get(found.destinationStationId)?.name)
+        ) {
+          found.customDestination = prev.customDestination;
+        }
+      }
+      return found;
+    }
+
+    // 2. 直通運行チェーン全体（祖先・子孫を含む全トリップ）を網羅探索
+    // 終点到着後の巻き戻しや、境界跨ぎ、早送りなど、同一列車チェーンのいずれかが走行中であれば正確に追尾を継続
+    const chainTripIds = getThroughChainTripIds(selectedTrainId);
+    const chainActive = activeTrains.find((t) => chainTripIds.has(t.tripId));
+    if (chainActive) {
+      const prev = lastSelectedTrainRef.current;
+      if (prev) {
+        const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
+        if (
+          prevOrigin &&
+          (!chainActive.customOrigin || chainActive.customOrigin === STATION_MAP.get(chainActive.originStationId)?.name)
+        ) {
+          chainActive.customOrigin = prevOrigin;
+        }
+        if (
+          prev.customDestination &&
+          (!chainActive.customDestination ||
+            chainActive.customDestination === STATION_MAP.get(chainActive.destinationStationId)?.name)
+        ) {
+          chainActive.customDestination = prev.customDestination;
+        }
+      }
+      return chainActive;
     }
 
     return null;

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import type { Station, ActiveTrain, Direction, LineId } from '../../types';
 import { calculateBoundsForLines } from '../../data/linesRegistry';
 import {
@@ -63,12 +63,30 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   const activeTrains = propActiveTrains ?? simulation.activeTrains;
   const selectedStation = propSelectedStation ?? selection.selectedStation;
   const selectedTrain = propSelectedTrain ?? simulation.selectedTrain;
-  const onSelectStation = propOnSelectStation ?? selection.selectStation;
-  const onSelectTrain = propOnSelectTrain ?? selection.selectTrain;
+  const defaultOnSelectStation = useCallback((st: Station) => {
+    selection.selectStation(st);
+    ui.openSidebar();
+  }, [selection.selectStation, ui.openSidebar]);
+
+  const defaultOnSelectTrain = useCallback((tr: ActiveTrain) => {
+    selection.selectTrain(tr);
+    ui.openSidebar();
+  }, [selection.selectTrain, ui.openSidebar]);
+
+  const defaultOnCloseSidebar = useCallback(() => {
+    ui.closeSidebar();
+    if (!selection.isTrackingTrain) {
+      selection.clearTargetSelection();
+    }
+  }, [ui.closeSidebar, selection.isTrackingTrain, selection.clearTargetSelection]);
+
+  const onSelectStation = propOnSelectStation ?? defaultOnSelectStation;
+  const onSelectTrain = propOnSelectTrain ?? defaultOnSelectTrain;
   const isTrackingTrain = propIsTrackingTrain ?? selection.isTrackingTrain;
   const trackingTrainId = propTrackingTrainId ?? (simulation.selectedTrain?.tripId || null);
   const isSidebarOpen = propIsSidebarOpen ?? ui.isSidebarOpen;
-  const onCloseSidebar = propOnCloseSidebar ?? ui.closeSidebar;
+  const onCloseSidebar = propOnCloseSidebar ?? defaultOnCloseSidebar;
+
   const selectedLineIds = propSelectedLineIds ?? selection.selectedLineIds;
   const filterDirection = propFilterDirection ?? filter.filterDirection;
   const filterType = propFilterType ?? filter.filterType;

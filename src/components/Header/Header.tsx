@@ -68,8 +68,14 @@ export const Header: React.FC<HeaderProps> = ({
 
   const selectedLineIds = propSelectedLineIds ?? selection.selectedLineIds;
   const onChangeSelectedLines = propOnChangeSelectedLines ?? selection.setSelectedLineIds;
-  const onSelectStation = propOnSelectStation ?? selection.selectStation;
-  const onSelectTrain = propOnSelectTrain ?? selection.selectTrain;
+  const onSelectStation = propOnSelectStation ?? ((st: Station) => {
+    selection.selectStation(st);
+    ui.openSidebar();
+  });
+  const onSelectTrain = propOnSelectTrain ?? ((tr: ActiveTrain) => {
+    selection.selectTrain(tr);
+    ui.openSidebar();
+  });
   const activeTrains = propActiveTrains ?? simulation.activeTrains;
   const isHoliday = propIsHoliday ?? simulation.isHoliday;
   const onToggleHoliday = propOnToggleHoliday ?? simulation.toggleHoliday;
@@ -81,8 +87,14 @@ export const Header: React.FC<HeaderProps> = ({
   const filterType = propFilterType ?? filter.filterType;
   const onChangeFilterType = propOnChangeFilterType ?? filter.setFilterType;
   const isSidebarOpen = propIsSidebarOpen ?? ui.isSidebarOpen;
-  const onCloseSidebar = propOnCloseSidebar ?? ui.closeSidebar;
+  const onCloseSidebar = propOnCloseSidebar ?? (() => {
+    ui.closeSidebar();
+    if (!selection.isTrackingTrain) {
+      selection.clearTargetSelection();
+    }
+  });
   const onOpenSidebar = propOnOpenSidebar ?? ui.openSidebar;
+
   const onOpenSettings = propOnOpenSettings ?? ui.openSettings;
   const onOpenHelp = propOnOpenHelp ?? ui.openHelp;
   const onOpenInstall = propOnOpenInstall ?? ui.openInstall;

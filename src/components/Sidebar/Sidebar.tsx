@@ -47,7 +47,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
   const ui = useUI();
 
   const isOpen = propIsOpen ?? ui.isSidebarOpen;
-  const onClose = propOnClose ?? ui.closeSidebar;
+  const onClose = propOnClose ?? (() => {
+    ui.closeSidebar();
+    if (!selection.isTrackingTrain) {
+      selection.clearTargetSelection();
+    }
+  });
+
   const selectedStation = propSelectedStation ?? selection.selectedStation;
   const selectedTrain = propSelectedTrain ?? simulation.selectedTrain;
   const currentSec = propCurrentSec ?? simulation.currentSec;
