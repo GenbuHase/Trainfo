@@ -5,8 +5,8 @@ import { JOBAN_NORTH_TRACK_SEGMENTS } from './trackGeometry';
 
 export const jobanNorthLine: LineDefinition = {
   id: 'joban_north',
-  name: 'JR常磐線(取手～いわき)',
-  shortName: '常磐線(取手～いわき)',
+  name: 'JR常磐線（取手～いわき）',
+  shortName: '常磐線（取手～いわき）',
   operator: 'JR東日本',
   lineColor: '#005aaa',
   accentColor: '#005aaa',

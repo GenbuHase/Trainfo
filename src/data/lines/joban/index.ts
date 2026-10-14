@@ -5,8 +5,8 @@ import { JOBAN_TRAIN_TYPES } from './trainTypes';
 
 export const jobanLine: LineDefinition = {
   id: 'joban',
-  name: 'JR常磐線',
-  shortName: '常磐線',
+  name: 'JR常磐線各駅停車',
+  shortName: '常磐線各停',
   operator: 'JR東日本',
   lineColor: '#00b261', // 常磐線各駅停車エメラルドグリーン
   accentColor: '#00b261',

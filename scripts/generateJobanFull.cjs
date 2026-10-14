@@ -145,7 +145,7 @@ const northStationDefs = [
   { id: 'JN-32', number: 32, name: '泉', nameKana: 'いずみ', nameEn: 'Izumi', lat: 36.9556, lng: 140.8541, nodeId: 5670388547, isMajor: true, transfers: ['福島臨海鉄道本線(貨物)'], address: '福島県いわき市泉町滝尻字松原', platforms: { inbound: '2・3番線', outbound: '1番線' } },
   { id: 'JN-33', number: 33, name: '湯本', nameKana: 'ゆもと', nameEn: 'Yumoto', lat: 37.0066, lng: 140.8501, nodeId: 5672601266, isMajor: true, transfers: [], address: '福島県いわき市常磐湯本町天王崎', platforms: { inbound: '2番線', outbound: '1番線' } },
   { id: 'JN-34', number: 34, name: '内郷', nameKana: 'うちごう', nameEn: 'Uchigo', lat: 37.0357, lng: 140.8548, nodeId: 5672600987, isMajor: false, transfers: [], address: '福島県いわき市内郷綴町榎下', platforms: { inbound: '2番線', outbound: '1番線' } },
-  { id: 'JN-35', number: 35, name: 'いわき', nameKana: 'いわき', nameEn: 'Iwaki', lat: 37.0583, lng: 140.8922, nodeId: 5672876533, isMajor: true, transfers: ['JR常磐線(いわき～仙台)', 'JR磐越東線'], address: '福島県いわき市平字田町1', platforms: { inbound: '1・2・3番線', outbound: '3・4・5番線' } },
+  { id: 'JN-35', number: 35, name: 'いわき', nameKana: 'いわき', nameEn: 'Iwaki', lat: 37.0583, lng: 140.8922, nodeId: 5672876533, isMajor: true, transfers: ['JR常磐線（いわき～仙台）', 'JR磐越東線'], address: '福島県いわき市平字田町1', platforms: { inbound: '1・2・3番線', outbound: '3・4・5番線' } },
 ];
 
 // 2.1 stations.ts 出力
@@ -265,8 +265,8 @@ import { JOBAN_NORTH_TRACK_SEGMENTS } from './trackGeometry';
 
 export const jobanNorthLine: LineDefinition = {
   id: 'joban_north',
-  name: 'JR常磐線(取手～いわき)',
-  shortName: '常磐線(取手～いわき)',
+  name: 'JR常磐線（取手～いわき）',
+  shortName: '常磐線（取手～いわき）',
   operator: 'JR東日本',
   lineColor: '#005aaa',
   accentColor: '#005aaa',
@@ -298,7 +298,7 @@ console.log('Written src/data/lines/joban_north/index.ts');
 // 3. 常磐線（いわき～仙台）定義
 // ==========================================
 const sendaiStationDefs = [
-  { id: 'JSD-01', number: 1, name: 'いわき', nameKana: 'いわき', nameEn: 'Iwaki', lat: 37.0583, lng: 140.8922, nodeId: 5672876533, isMajor: true, transfers: ['JR常磐線(取手～いわき)', 'JR磐越東線'], address: '福島県いわき市平字田町1', platforms: { inbound: '1・2・3番線', outbound: '3・4・5番線' } },
+  { id: 'JSD-01', number: 1, name: 'いわき', nameKana: 'いわき', nameEn: 'Iwaki', lat: 37.0583, lng: 140.8922, nodeId: 5672876533, isMajor: true, transfers: ['JR常磐線（取手～いわき）', 'JR磐越東線'], address: '福島県いわき市平字田町1', platforms: { inbound: '1・2・3番線', outbound: '3・4・5番線' } },
   { id: 'JSD-02', number: 2, name: '草野', nameKana: 'くさの', nameEn: 'Kusano', lat: 37.0740, lng: 140.9473, nodeId: 5676651201, isMajor: false, transfers: [], address: '福島県いわき市平泉崎字中島', platforms: { inbound: '2番線', outbound: '1番線' } },
   { id: 'JSD-03', number: 3, name: '四ツ倉', nameKana: 'よつくら', nameEn: 'Yotsukura', lat: 37.1027, lng: 140.9812, nodeId: 5676680226, isMajor: true, transfers: [], address: '福島県いわき市四倉町字鬼越', platforms: { inbound: '2・3番線', outbound: '1番線' } },
   { id: 'JSD-04', number: 4, name: '久ノ浜', nameKana: 'ひさのはま', nameEn: 'Hisanohama', lat: 37.1423, lng: 140.9957, nodeId: 5705351196, isMajor: false, transfers: [], address: '福島県いわき市久之浜町久之浜字北町', platforms: { inbound: '2番線', outbound: '1番線' } },
@@ -442,8 +442,8 @@ import { JOBAN_SENDAI_TRACK_SEGMENTS } from './trackGeometry';
 
 export const jobanSendaiLine: LineDefinition = {
   id: 'joban_sendai',
-  name: 'JR常磐線(いわき～仙台)',
-  shortName: '常磐線(いわき～仙台)',
+  name: 'JR常磐線（いわき～仙台）',
+  shortName: '常磐線（いわき～仙台）',
   operator: 'JR東日本',
   lineColor: '#005aaa',
   accentColor: '#005aaa',

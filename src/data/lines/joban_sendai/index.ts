@@ -5,8 +5,8 @@ import { JOBAN_SENDAI_TRACK_SEGMENTS } from './trackGeometry';
 
 export const jobanSendaiLine: LineDefinition = {
   id: 'joban_sendai',
-  name: 'JR常磐線(いわき～仙台)',
-  shortName: '常磐線(いわき～仙台)',
+  name: 'JR常磐線（いわき～仙台）',
+  shortName: '常磐線（いわき～仙台）',
   operator: 'JR東日本',
   lineColor: '#005aaa',
   accentColor: '#005aaa',

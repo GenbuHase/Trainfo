@@ -11,7 +11,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
     "lat": 37.0583,
     "lng": 140.8922,
     "transfers": [
-      "JR常磐線(取手～いわき)",
+      "JR常磐線（取手～いわき）",
       "JR磐越東線"
     ],
     "address": "福島県いわき市平字田町1",

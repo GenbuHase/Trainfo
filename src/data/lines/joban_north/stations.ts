@@ -1046,7 +1046,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "lat": 37.0583,
     "lng": 140.8922,
     "transfers": [
-      "JR常磐線(いわき～仙台)",
+      "JR常磐線（いわき～仙台）",
       "JR磐越東線"
     ],
     "address": "福島県いわき市平字田町1",
