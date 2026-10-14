@@ -36,6 +36,16 @@ html, body, #root {
   font-family: inherit;
   width: 100%;
   height: 100%;
+  background-color: #f1f5f9; /* タイルロード中やズーム時の白飛び・白抜けを防止 */
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* マーカーのCSS Containment（数百個のマーカー再計算がブラウザ全体へ波及するのを隔離） */
+.train-div-icon,
+.station-div-icon {
+  contain: layout style;
+  will-change: transform;
 }
 
 /* ダークマップ表示用のタイルスタイル（CARTO APIキー不要のOSMダークモード） */

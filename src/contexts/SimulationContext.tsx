@@ -101,6 +101,11 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
             }
           }
 
+          // 実時間同期中または秒数が変化していない場合は再レンダリングを完全スキップ
+          if (nextSec === prev.currentSec || Math.abs(nextSec - prev.currentSec) < 0.02) {
+            return prev;
+          }
+
           return { ...prev, currentSec: nextSec };
         });
       }

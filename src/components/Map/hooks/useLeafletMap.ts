@@ -66,6 +66,8 @@ export function useLeafletMap({
       smoothSensitivity: 2.5,
       zoomSnap: 0,
       zoomDelta: 0.5,
+      fadeAnimation: false, // タイルのフェードアニメーションによるモバイルでの白抜け・白フラッシュを防止
+      preferCanvas: true,   // ベクター描画にCanvasを利用してDOMノード数を節約
     });
 
     map.fitBounds(initialBounds, { padding: [40, 40] });
@@ -92,13 +94,18 @@ export function useLeafletMap({
       onMapDrag?.();
     });
 
-    // リサイズ監視
+    // リサイズ監視（デバウンスしてアニメーション中の連続invalidateSizeによる白化フリーズを防止）
+    let resizeTimer: ReturnType<typeof setTimeout> | null = null;
     const resizeObserver = new ResizeObserver(() => {
-      map.invalidateSize();
+      if (resizeTimer) clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(() => {
+        map.invalidateSize();
+      }, 150);
     });
     resizeObserver.observe(mapContainerRef.current);
 
     return () => {
+      if (resizeTimer) clearTimeout(resizeTimer);
       resizeObserver.disconnect();
       map.remove();
       mapRef.current = null;

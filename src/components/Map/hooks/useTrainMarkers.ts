@@ -14,20 +14,19 @@ function generateTrainMarkerHtml(train: ActiveTrain, isSelected: boolean): strin
   const rotationDeg = train.heading;
 
   return `
-    <div class="train-marker-inner relative cursor-pointer group flex flex-col items-center select-none" style="filter: drop-shadow(0 3px 6px rgba(0,0,0,0.3));">
-      <!-- 選択ハイライトパルス -->
-      <div class="train-pulse absolute -inset-2 rounded-full bg-amber-400 opacity-75 animate-ping ${isSelected ? '' : 'hidden'}"></div>
+    <div class="train-marker-inner relative cursor-pointer group flex flex-col items-center select-none">
+      <!-- 選択ハイライトパルス（選択時のみDOM生成しGPUアニメーション負荷を極小化） -->
+      ${isSelected ? '<div class="train-pulse absolute -inset-2 rounded-full bg-amber-400 opacity-75 animate-ping"></div>' : ''}
 
-      <!-- 列車バッジ本体 -->
-      <div class="train-badge relative flex items-center justify-center w-7 h-7 rounded-full text-white font-bold text-[11px] transition-transform ${
+      <!-- 列車バッジ本体 (GPU負荷の高いfilter:drop-shadowを排しbox-shadow/borderで最適化) -->
+      <div class="train-badge relative flex items-center justify-center w-7 h-7 rounded-full text-white font-bold text-[11px] shadow-md ${
         isSelected ? 'scale-125 ring-2 ring-white shadow-xl' : 'hover:scale-110'
       }" style="background-color: ${typeConfig.bgColor}; border: 2px solid #ffffff;">
         <!-- 進行方向ポインタ (バッジ中心を軸に外周上を滑らかに回転) -->
         <div class="train-arrow-pointer absolute inset-0 flex items-center justify-center pointer-events-none"
              data-rotation="${rotationDeg}"
              style="transform: rotate(${rotationDeg}deg);">
-          <div class="absolute -top-1.5 left-1/2 -translate-x-1/2 w-0 h-0 border-x-[4px] border-x-transparent border-b-[6px] border-b-white"
-               style="filter: drop-shadow(0 1px 2px rgba(0,0,0,0.5));"></div>
+          <div class="absolute -top-1.5 left-1/2 -translate-x-1/2 w-0 h-0 border-x-[4px] border-x-transparent border-b-[6px] border-b-white"></div>
         </div>
         
         <!-- 電車アイコン -->
@@ -60,9 +59,15 @@ function generateTrainMarkerHtml(train: ActiveTrain, isSelected: boolean): strin
 }
 
 function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: boolean) {
-  const pulseEl = el.querySelector('.train-pulse');
-  if (pulseEl) {
-    pulseEl.classList.toggle('hidden', !isSelected);
+  let pulseEl = el.querySelector('.train-pulse');
+  if (isSelected) {
+    if (!pulseEl) {
+      pulseEl = document.createElement('div');
+      pulseEl.className = 'train-pulse absolute -inset-2 rounded-full bg-amber-400 opacity-75 animate-ping';
+      el.querySelector('.train-marker-inner')?.prepend(pulseEl);
+    }
+  } else if (pulseEl) {
+    pulseEl.remove();
   }
 
   const badgeEl = el.querySelector('.train-badge');

@@ -60,8 +60,8 @@ export function useMapCamera({
       const prev = prevTrackingPosRef.current;
       if (
         !prev ||
-        Math.abs(prev.lat - tracked.currentLat) > 0.000005 ||
-        Math.abs(prev.lng - tracked.currentLng) > 0.000005
+        Math.abs(prev.lat - tracked.currentLat) > 0.00003 ||
+        Math.abs(prev.lng - tracked.currentLng) > 0.00003
       ) {
         mapRef.current.panTo([tracked.currentLat, tracked.currentLng], { animate: false });
         prevTrackingPosRef.current = { lat: tracked.currentLat, lng: tracked.currentLng };
