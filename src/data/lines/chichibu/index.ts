@@ -8,7 +8,7 @@ export const chichibuLine: LineDefinition = {
   name: '秩父鉄道秩父本線',
   shortName: '秩父鉄道',
   operator: '秩父鉄道',
-  lineColor: '#0073bc', // 秩父鉄道ブルー
+  lineColor: '#01479d', // 秩父鉄道ブルー
   accentColor: '#dc2626', // 急行秩父路レッド
   defaultCars: 3,
   defaultBounds: [

@@ -8,7 +8,7 @@ export const hachikoLine: LineDefinition = {
   name: 'JR八高線',
   shortName: '八高線',
   operator: 'JR東日本',
-  lineColor: '#a8a39d',
+  lineColor: '#a09d95',
   accentColor: '#e06a3b',
   defaultCars: 4,
   defaultBounds: [

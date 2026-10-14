@@ -8,7 +8,7 @@ export const fukutoshinLine: LineDefinition = {
   name: '東京メトロ副都心線',
   shortName: '副都心線',
   operator: '東京メトロ',
-  lineColor: '#9c5f24', // 副都心線ブラウン
+  lineColor: '#9c5e31', // 副都心線ブラウン
   accentColor: '#e05a00', // 急行オレンジ
   defaultCars: 10,
   defaultBounds: [

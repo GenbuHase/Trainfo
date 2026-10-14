@@ -9,6 +9,7 @@ interface UIContextValue {
   isSettingsOpen: boolean;
   isHelpOpen: boolean;
   isInstallOpen: boolean;
+  isDebugOpen: boolean;
   openSidebar: () => void;
   closeSidebar: () => void;
   toggleSidebar: () => void;
@@ -22,9 +23,23 @@ interface UIContextValue {
   closeHelp: () => void;
   openInstall: () => void;
   closeInstall: () => void;
+  openDebug: () => void;
+  closeDebug: () => void;
 }
 
 const UIContext = createContext<UIContextValue | null>(null);
+
+const checkIsDebugUrl = (): boolean => {
+  if (typeof window === 'undefined') return false;
+  const hash = window.location.hash.toLowerCase();
+  const search = window.location.search.toLowerCase();
+  return (
+    hash === '#debug' ||
+    hash === '#/debug' ||
+    search.includes('page=debug') ||
+    search.includes('debug=true')
+  );
+};
 
 export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -34,6 +49,20 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
   const [isSettingsOpen, setIsSettingsOpen] = useState(false);
   const [isHelpOpen, setIsHelpOpen] = useState(false);
   const [isInstallOpen, setIsInstallOpen] = useState(false);
+  const [isDebugOpen, setIsDebugOpen] = useState(checkIsDebugUrl);
+
+  // URLハッシュやブラウザ履歴との同期
+  React.useEffect(() => {
+    const handleUrlChange = () => {
+      setIsDebugOpen(checkIsDebugUrl());
+    };
+    window.addEventListener('hashchange', handleUrlChange);
+    window.addEventListener('popstate', handleUrlChange);
+    return () => {
+      window.removeEventListener('hashchange', handleUrlChange);
+      window.removeEventListener('popstate', handleUrlChange);
+    };
+  }, []);
 
   const openSidebar = useCallback(() => setIsSidebarOpen(true), []);
   const closeSidebar = useCallback(() => setIsSidebarOpen(false), []);
@@ -55,6 +84,20 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
   const openInstall = useCallback(() => setIsInstallOpen(true), []);
   const closeInstall = useCallback(() => setIsInstallOpen(false), []);
 
+  const openDebug = useCallback(() => {
+    if (window.location.hash !== '#debug') {
+      window.location.hash = '#debug';
+    }
+    setIsDebugOpen(true);
+  }, []);
+
+  const closeDebug = useCallback(() => {
+    if (window.location.hash.toLowerCase().includes('debug')) {
+      history.pushState(null, '', window.location.pathname + window.location.search);
+    }
+    setIsDebugOpen(false);
+  }, []);
+
   const value = useMemo(
     () => ({
       isSidebarOpen,
@@ -64,6 +107,7 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
       isSettingsOpen,
       isHelpOpen,
       isInstallOpen,
+      isDebugOpen,
       openSidebar,
       closeSidebar,
       toggleSidebar,
@@ -77,6 +121,8 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
       closeHelp,
       openInstall,
       closeInstall,
+      openDebug,
+      closeDebug,
     }),
     [
       isSidebarOpen,
@@ -86,6 +132,7 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
       isSettingsOpen,
       isHelpOpen,
       isInstallOpen,
+      isDebugOpen,
       openSidebar,
       closeSidebar,
       toggleSidebar,
@@ -98,6 +145,8 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
       closeHelp,
       openInstall,
       closeInstall,
+      openDebug,
+      closeDebug,
     ]
   );
 

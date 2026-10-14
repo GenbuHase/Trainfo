@@ -8,7 +8,7 @@ export const ogoseLine: LineDefinition = {
   name: '東武越生線',
   shortName: '越生線',
   operator: '東武鉄道',
-  lineColor: '#004b97', // 東武グループブルー
+  lineColor: '#10428e', // 東武グループブルー
   accentColor: '#ed6d00', // 東武ブライトオレンジ
   defaultCars: 4,
   defaultBounds: [

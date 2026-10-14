@@ -8,7 +8,7 @@ export const kawagoeLine: LineDefinition = {
   name: 'JR川越線',
   shortName: '川越線',
   operator: 'JR東日本',
-  lineColor: '#00ac9a', // 川越線・埼京線エメラルドグリーン
+  lineColor: '#a6a9ab', // 川越線・埼京線エメラルドグリーン
   accentColor: '#007ac1', // 快速ブルー
   defaultCars: 10,
   defaultBounds: [

@@ -8,7 +8,7 @@ export const itsukaichiLine: LineDefinition = {
   name: 'JR五日市線',
   shortName: '五日市線',
   operator: 'JR東日本',
-  lineColor: '#f15a22', // 中央線・青梅・五日市線オレンジバーミリオン
+  lineColor: '#eb5c01', // 中央線・青梅・五日市線オレンジバーミリオン
   accentColor: '#e65100',
   defaultCars: 6,
   defaultBounds: [

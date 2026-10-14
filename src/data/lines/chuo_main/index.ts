@@ -8,7 +8,7 @@ export const chuoMainLine: LineDefinition = {
   name: 'JR中央本線',
   shortName: '中央本線',
   operator: 'JR東日本',
-  lineColor: '#0072bc', // 中央東線ブルー
+  lineColor: '#0071c5', // 中央東線ブルー
   accentColor: '#f15a22', // 中央線オレンジ
   defaultCars: 6,
   defaultBounds: [

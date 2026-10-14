@@ -8,7 +8,7 @@ export const minatomiraiLine: LineDefinition = {
   name: '横浜高速鉄道みなとみらい線',
   shortName: 'みなとみらい線',
   operator: '横浜高速鉄道',
-  lineColor: '#184189', // みなとみらい線ネイビー
+  lineColor: '#1a55a1', // みなとみらい線ネイビー
   accentColor: '#ea5504', // 特急オレンジ
   defaultCars: 8,
   defaultBounds: [

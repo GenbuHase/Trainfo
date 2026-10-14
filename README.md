@@ -313,7 +313,9 @@ Trainfo/
 ## 📖 開発・設計ドキュメント
 
 - 👉 [**Trainfo 路線追加完全プレイブック（docs/ROUTE_EXPANSION_PLAYBOOK.md）**](docs/ROUTE_EXPANSION_PLAYBOOK.md): 新路線追加の手順、OSM線路抽出、Yahoo! データ設定、直通ハンドオーバー設計、ハマりどころ防止策
+- 👉 [**ラインカラー＆アクセントカラー選定ガイドライン（docs/LINE_COLORS_GUIDELINES.md）**](docs/LINE_COLORS_GUIDELINES.md): 全35路線のラインカラー・アクセントカラー選定基準、出典、種別カラー対応仕様書
 - 👉 [**ODPT活用ナレッジ＆将来設計ガイド（docs/ODPT_INTEGRATION_KNOWLEDGE.md）**](docs/ODPT_INTEGRATION_KNOWLEDGE.md): 公共交通オープンデータの活用可能性と推奨アーキテクチャ
+- 🛠️ **路線・種別デバッグ画面**: ブラウザで `/#debug`（または設定モーダル内のメニュー）を開くと、全35路線および列車種別のカラー設定・定義一覧を確認できます。
 
 ---
 
@@ -380,6 +382,7 @@ npm run preview
 - **データ出典**:  
   - 時刻表・運行情報: Yahoo! 乗換案内（路線情報）
   - 地図データ: © [OpenStreetMap](https://www.openstreetmap.org/copyright) contributors
+  - ラインカラー情報: ニコニコ大百科「[鉄道路線のラインカラー一覧](https://dic.nicovideo.jp/a/%E9%89%84%E9%81%93%E8%B7%AF%E7%B7%9A%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%A9%E3%83%BC%E4%B8%80%E8%A6%A7)」（各社公式Webサイト・駅ナンバリングサインシステム準拠）
 
 ---
 

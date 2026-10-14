@@ -8,7 +8,7 @@ export const tokyuShinYokohamaLine: LineDefinition = {
   name: '東急新横浜線',
   shortName: '東急新横浜線',
   operator: '東急電鉄',
-  lineColor: '#5b2d86', // 東急新横浜線パープル
+  lineColor: '#890d84', // 東急新横浜線パープル
   accentColor: '#ea5504',
   defaultCars: 8,
   defaultBounds: [

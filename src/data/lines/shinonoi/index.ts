@@ -8,7 +8,7 @@ export const shinonoiLine: LineDefinition = {
   name: 'JR篠ノ井線',
   shortName: '篠ノ井線',
   operator: 'JR東日本',
-  lineColor: '#d56a29', // JR東日本長野支社 ダークオレンジ
+  lineColor: '#cb5f12', // JR東日本長野支社 ダークオレンジ
   accentColor: '#b84e12',
   defaultCars: 6,
   defaultBounds: [
