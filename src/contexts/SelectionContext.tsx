@@ -28,7 +28,11 @@ export const SelectionProvider: React.FC<{ children: React.ReactNode }> = ({ chi
       const saved = localStorage.getItem(STORAGE_KEY_SELECTED_LINES);
       if (saved) {
         const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed) && parsed.length > 0) return parsed;
+        if (Array.isArray(parsed) && parsed.length > 0) {
+          const validIds = new Set(getAllLines().map((l) => l.id));
+          const validSelected = parsed.filter((id) => validIds.has(id));
+          if (validSelected.length > 0) return validSelected;
+        }
       }
     } catch {
       // ignore
