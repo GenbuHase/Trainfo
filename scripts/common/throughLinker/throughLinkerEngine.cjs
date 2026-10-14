@@ -177,6 +177,11 @@ function isLineDestinationMismatch(dest, targetLineId) {
   return false;
 }
 
+// 埼京線直通が許可される行先（川越線・埼京線系統）
+const SAIKYO_ALLOWED_DESTS = new Set([
+  '川越', '指扇', '大宮', '大宮(埼玉県)', '南古谷', '赤羽', '池袋', '武蔵浦和'
+]);
+
 /**
  * 単一ペアのリンク処理
  */
@@ -193,38 +198,63 @@ function linkPair({
   stationMap,
   maxTimeDiff = 360,
   requireIdMatch = false,
+  allowMidStationA = false,
+  allowMidStationB = false,
 }) {
   let linkedCount = 0;
 
-  // 1. stationAId で終了する tripsA を境界駅到着時刻順にソート（急行による追い抜き・順序逆転に対応）
+  // 1. stationAId を持つ tripsA を境界駅到着時刻順にソート（急行による追い抜き・順序逆転に対応）
   const sortedTripsA = tripsA
     .filter((tA) => {
       if (tA.direction !== dirA) return false;
+      if (tA.throughTripId) return false;
+      if (allowMidStationA) {
+        return tA.stops.some((s) => s.stationId === stationAId);
+      }
       const lastStop = tA.stops[tA.stops.length - 1];
-      return lastStop && lastStop.stationId === stationAId && !tA.throughTripId;
+      return lastStop && lastStop.stationId === stationAId;
     })
     .sort((a, b) => {
-      const aSec = timeToSec(a.stops[a.stops.length - 1].arrivalTime || a.stops[a.stops.length - 1].departureTime);
-      const bSec = timeToSec(b.stops[b.stops.length - 1].arrivalTime || b.stops[b.stops.length - 1].departureTime);
-      return aSec - bSec;
+      const stopA = allowMidStationA
+        ? a.stops.find((s) => s.stationId === stationAId)
+        : a.stops[a.stops.length - 1];
+      const stopB = allowMidStationA
+        ? b.stops.find((s) => s.stationId === stationAId)
+        : b.stops[b.stops.length - 1];
+      const aSec = timeToSec(stopA?.arrivalTime || stopA?.departureTime);
+      const bSec = timeToSec(stopB?.arrivalTime || stopB?.departureTime);
+      return (aSec || 0) - (bSec || 0);
     });
 
-  // 2. stationBId から出発する tripsB を境界駅出発時刻順にソート
+  // 2. stationBId を持つ tripsB を境界駅出発時刻順にソート
   const sortedCandidatesB = tripsB
     .filter((tB) => {
       if (tB.direction !== dirB) return false;
+      if (allowMidStationB) {
+        return tB.stops.some((s) => s.stationId === stationBId);
+      }
       const firstStop = tB.stops[0];
       return firstStop && firstStop.stationId === stationBId;
     })
     .sort((a, b) => {
-      const aSec = timeToSec(a.stops[0].departureTime || a.stops[0].arrivalTime);
-      const bSec = timeToSec(b.stops[0].departureTime || b.stops[0].arrivalTime);
-      return aSec - bSec;
+      const stopA = allowMidStationB
+        ? a.stops.find((s) => s.stationId === stationBId)
+        : a.stops[0];
+      const stopB = allowMidStationB
+        ? b.stops.find((s) => s.stationId === stationBId)
+        : b.stops[0];
+      const aSec = timeToSec(stopA?.departureTime || stopA?.arrivalTime);
+      const bSec = timeToSec(stopB?.departureTime || stopB?.arrivalTime);
+      return (aSec || 0) - (bSec || 0);
     });
 
   for (const tA of sortedTripsA) {
-    const lastStop = tA.stops[tA.stops.length - 1];
-    const tASec = timeToSec(lastStop.arrivalTime || lastStop.departureTime);
+    const stopA = allowMidStationA
+      ? tA.stops.find((s) => s.stationId === stationAId)
+      : tA.stops[tA.stops.length - 1];
+    if (!stopA) continue;
+
+    const tASec = timeToSec(stopA.arrivalTime || stopA.departureTime);
     const yIdA = extractYahooTrainId(tA.tripId);
     const noA = tA.trainNumber;
     const destA = getEffectiveDestination(tA, stationMap);
@@ -242,6 +272,22 @@ function linkPair({
       }
     }
 
+    // 【未対応直通先遮断ルール2】相鉄・JR直通線 -> 埼京線 (新宿駅下り/北行)
+    // 湘南新宿ライン（宇都宮線・高崎線系統）や新宿止まり便は埼京線へ直通させない
+    if (lineAId === 'sotetsu_jr_direct' && lineBId === 'saikyo') {
+      if (!destA || !SAIKYO_ALLOWED_DESTS.has(destA)) {
+        continue;
+      }
+    }
+
+    // 【未対応直通先遮断ルール3】埼京線 -> 相鉄・JR直通線 (新宿駅上り/南行)
+    // りんかい線方面（新木場等）や埼京線内止まりは相鉄線へ直通させない
+    if (lineAId === 'saikyo' && lineBId === 'sotetsu_jr_direct') {
+      if (!destA || !destA.includes('海老名')) {
+        continue;
+      }
+    }
+
     let bestB = null;
     let bestScore = Infinity;
 
@@ -249,7 +295,7 @@ function linkPair({
       if (tA.isHoliday !== tB.isHoliday) continue;
       if (tB.prevTripId) continue;
 
-      // 【未対応直通先遮断ルール2】東急東横線 -> 東急新横浜線 (日吉駅下り)
+      // 【未対応直通先遮断ルール4】東急東横線 -> 東急新横浜線 (日吉駅下り)
       // 目黒線・南北線・三田線始発（浦和美園、西高島平、赤羽岩淵等）、または日吉始発等の東横線経由でない便は除外
       if (lineAId === 'tokyu_toyoko' && lineBId === 'tokyu_shin_yokohama') {
         const origB = getEffectiveOrigin(tB, stationMap);
@@ -258,8 +304,12 @@ function linkPair({
         }
       }
 
-      const firstStop = tB.stops[0];
-      const tBSec = timeToSec(firstStop.departureTime || firstStop.arrivalTime);
+      const stopB = allowMidStationB
+        ? tB.stops.find((s) => s.stationId === stationBId)
+        : tB.stops[0];
+      if (!stopB) continue;
+
+      const tBSec = timeToSec(stopB.departureTime || stopB.arrivalTime);
       const waitSec = tBSec - tASec;
       const diff = Math.abs(waitSec);
       const yIdB = extractYahooTrainId(tB.tripId);
@@ -307,11 +357,17 @@ function linkPair({
       bestB.prevLineId = lineAId;
 
       // 【必須】境界駅でのシームレス時刻同期 (空白時間による列車消失の完全防止)
-      const syncArr = lastStop.arrivalTime || lastStop.departureTime;
-      lastStop.departureTime = syncArr;         // 先行路線は到着完了
-      bestB.stops[0].arrivalTime = syncArr;     // 後続路線は到着した瞬間から発車待ち開始
-      if (timeToSec(bestB.stops[0].departureTime) < timeToSec(syncArr)) {
-        bestB.stops[0].departureTime = syncArr;
+      const stopB = allowMidStationB
+        ? bestB.stops.find((s) => s.stationId === stationBId)
+        : bestB.stops[0];
+
+      const syncArr = stopA.arrivalTime || stopA.departureTime;
+      stopA.departureTime = syncArr;         // 先行路線は到着完了
+      if (stopB) {
+        stopB.arrivalTime = syncArr;         // 後続路線は到着した瞬間から発車待ち開始
+        if (timeToSec(stopB.departureTime) < timeToSec(syncArr)) {
+          stopB.departureTime = syncArr;
+        }
       }
 
       linkedCount++;
@@ -487,6 +543,8 @@ function executeUniversalThroughLinker(options = {}) {
       stationMap,
       maxTimeDiff: conn.maxTimeDiff || 360,
       requireIdMatch: conn.requireIdMatch || false,
+      allowMidStationA: conn.allowMidStationA || false,
+      allowMidStationB: conn.allowMidStationB || false,
     });
   }
 

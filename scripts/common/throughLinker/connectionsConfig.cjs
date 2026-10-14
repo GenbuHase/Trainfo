@@ -368,5 +368,29 @@ module.exports = {
       maxTimeDiff: 300,
       requireIdMatch: true,
     },
+
+    // 17. 相鉄・JR直通線 ↔ JR埼京線 (新宿駅)
+    {
+      name: '相鉄・JR直通線 -> 埼京線 (下り/北行)',
+      lineA: 'sotetsu_jr_direct',
+      lineB: 'saikyo',
+      stationA: 'JS-20',
+      stationB: 'JA-11',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 300,
+      allowMidStationB: true,
+    },
+    {
+      name: '埼京線 -> 相鉄・JR直通線 (上り/南行)',
+      lineA: 'saikyo',
+      lineB: 'sotetsu_jr_direct',
+      stationA: 'JA-11',
+      stationB: 'JS-20',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 300,
+      allowMidStationA: true,
+    },
   ],
 };
