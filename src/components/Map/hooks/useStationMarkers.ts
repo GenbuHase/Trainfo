@@ -22,16 +22,39 @@ export function useStationMarkers({
   const onSelectStationRef = useRef(onSelectStation);
   const prevSelectedStationIdRef = useRef<string | null>(null);
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
+  const prevStationLayerRef = useRef<L.LayerGroup | null>(null);
 
   useEffect(() => {
     onSelectStationRef.current = onSelectStation;
   }, [onSelectStation]);
 
+  // コンポーネント破棄時またはレイヤー切り替え時のクリーンアップ
+  useEffect(() => {
+    return () => {
+      stationLayerRef.current?.clearLayers();
+      markersRef.current.clear();
+      prevStationLayerRef.current = null;
+    };
+  }, [stationLayerRef]);
+
   // 1. 路線変更時の駅マーカー生成（必要な駅のみ差分同期）
   useEffect(() => {
+    console.log('[useStationMarkers] useEffect called', {
+      hasMap: Boolean(mapRef.current),
+      hasLayer: Boolean(stationLayerRef.current),
+      selectedLineIds,
+    });
     if (!mapRef.current || !stationLayerRef.current) return;
 
+    // レイヤーグループのインスタンスが再生成された場合はキャッシュをクリア
+    if (prevStationLayerRef.current !== stationLayerRef.current) {
+      console.log('[useStationMarkers] layer changed, clearing cache');
+      markersRef.current.clear();
+      prevStationLayerRef.current = stationLayerRef.current;
+    }
+
     const stations = getStations(selectedLineIds);
+    console.log('[useStationMarkers] stations count:', stations.length);
     const stationIdSet = new Set(stations.map((s) => s.id));
 
     // 不要になったマーカーを削除
@@ -42,9 +65,15 @@ export function useStationMarkers({
       }
     }
 
-    // 新規駅マーカーのみ追加
+    // 新規駅マーカーのみ追加（既存マーカーがレイヤーに載っていない場合は再追加）
     stations.forEach((st) => {
-      if (markersRef.current.has(st.id)) return;
+      const existingMarker = markersRef.current.get(st.id);
+      if (existingMarker) {
+        if (!stationLayerRef.current?.hasLayer(existingMarker)) {
+          stationLayerRef.current?.addLayer(existingMarker);
+        }
+        return;
+      }
 
       const isSelected = selectedStation?.id === st.id;
       const isMajor = st.isMajor ?? false;

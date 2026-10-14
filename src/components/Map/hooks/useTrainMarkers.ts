@@ -147,10 +147,20 @@ export function useTrainMarkers({
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
   const latestTrainsMapRef = useRef<Map<string, ActiveTrain>>(new Map());
   const onSelectTrainRef = useRef(onSelectTrain);
+  const prevTrainLayerRef = useRef<L.LayerGroup | null>(null);
 
   useEffect(() => {
     onSelectTrainRef.current = onSelectTrain;
   }, [onSelectTrain]);
+
+  // コンポーネント破棄時またはレイヤー切り替え時のクリーンアップ
+  useEffect(() => {
+    return () => {
+      trainLayerRef.current?.clearLayers();
+      markersRef.current.clear();
+      prevTrainLayerRef.current = null;
+    };
+  }, [trainLayerRef]);
 
   // activeTrains が更新された時に tripId -> ActiveTrain マップを同期
   useEffect(() => {
@@ -162,6 +172,12 @@ export function useTrainMarkers({
   // 列車マーカーのリアルタイム描画 & 更新（インスタンスをキャッシュ・差分更新してチカチカとクリック不能を解消）
   useEffect(() => {
     if (!mapRef.current || !trainLayerRef.current) return;
+
+    // レイヤーグループのインスタンスが再生成された場合はキャッシュをクリア
+    if (prevTrainLayerRef.current !== trainLayerRef.current) {
+      markersRef.current.clear();
+      prevTrainLayerRef.current = trainLayerRef.current;
+    }
 
     // フィルタリング（進行方向・種別）
     const filteredTrains = activeTrains.filter((train) => {
@@ -180,6 +196,10 @@ export function useTrainMarkers({
       const existingMarker = markersRef.current.get(train.tripId);
 
       if (existingMarker) {
+        if (!trainLayerRef.current?.hasLayer(existingMarker)) {
+          trainLayerRef.current?.addLayer(existingMarker);
+        }
+
         // 既存マーカーの位置を滑らかに更新（DOMは破棄されない）
         const curLatLng = existingMarker.getLatLng();
         if (curLatLng.lat !== train.currentLat || curLatLng.lng !== train.currentLng) {
