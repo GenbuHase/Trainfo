@@ -8,8 +8,8 @@ export const jobanIwakiSendaiLine: LineDefinition = {
   name: 'JR常磐線（いわき～仙台）',
   shortName: '常磐線（いわき～仙台）',
   operator: 'JR東日本',
-  lineColor: '#005aaa',
-  accentColor: '#005aaa',
+  lineColor: '#0071c5', // 常磐線（中距離電車系統）カラー
+  accentColor: '#0071c5',
   defaultCars: 4,
   defaultBounds: [
     [37.050, 140.880], // いわき周辺

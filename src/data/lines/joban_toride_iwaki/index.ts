@@ -8,8 +8,8 @@ export const jobanTorideIwakiLine: LineDefinition = {
   name: 'JR常磐線（取手～いわき）',
   shortName: '常磐線（取手～いわき）',
   operator: 'JR東日本',
-  lineColor: '#005aaa',
-  accentColor: '#005aaa',
+  lineColor: '#0071c5', // 常磐線（中距離電車）カラー
+  accentColor: '#0071c5',
   defaultCars: 10,
   defaultBounds: [
     [35.890, 140.050], // 取手周辺

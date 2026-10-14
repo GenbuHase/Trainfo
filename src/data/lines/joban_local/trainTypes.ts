@@ -7,10 +7,10 @@ export const JOBAN_LOCAL_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '各駅停車',
     nameEn: 'Local',
     shortName: '各停',
-    color: '#00b261',
+    color: '#9e9e9f',
     textColor: '#ffffff',
-    bgColor: '#00b261',
-    borderColor: '#008a4b',
+    bgColor: '#9e9e9f',
+    borderColor: '#707071',
   },
   semiExp: {
     key: 'semiExp',

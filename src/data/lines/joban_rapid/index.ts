@@ -8,8 +8,8 @@ export const jobanRapidLine: LineDefinition = {
   name: 'JR常磐線快速',
   shortName: '常磐線快速',
   operator: 'JR東日本',
-  lineColor: '#005aaa',
-  accentColor: '#005aaa',
+  lineColor: '#00c18a', // 常磐線（快速）JJカラー
+  accentColor: '#00c18a',
   defaultCars: 15,
   defaultBounds: [
     [35.620, 139.730], // 品川周辺

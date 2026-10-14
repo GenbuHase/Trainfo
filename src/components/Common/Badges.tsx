@@ -171,29 +171,29 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#00bb85',
     numColor: '#008a62',
   },
-  // JR常磐線（各駅停車）
+  // JR常磐線各駅停車
   JL: {
-    borderColor: '#00b261',
-    prefixColor: '#00b261',
-    numColor: '#008548',
+    borderColor: '#9e9e9f',
+    prefixColor: '#9e9e9f',
+    numColor: '#707071',
   },
   // JR常磐線快速
   JJ: {
-    borderColor: '#005aaa',
-    prefixColor: '#005aaa',
-    numColor: '#003e75',
+    borderColor: '#00c18a',
+    prefixColor: '#00c18a',
+    numColor: '#00966b',
   },
   // JR常磐線（取手～いわき）
   JN: {
-    borderColor: '#005aaa',
-    prefixColor: '#005aaa',
-    numColor: '#003e75',
+    borderColor: '#0071c5',
+    prefixColor: '#0071c5',
+    numColor: '#005596',
   },
   // JR常磐線（いわき～仙台）
   JSD: {
-    borderColor: '#005aaa',
-    prefixColor: '#005aaa',
-    numColor: '#003e75',
+    borderColor: '#0071c5',
+    prefixColor: '#0071c5',
+    numColor: '#005596',
   },
 };
 
