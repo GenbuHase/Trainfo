@@ -141,8 +141,8 @@ async function scrapeAll() {
   for (const [lineKey, lineCfg] of Object.entries(LINE_CONFIGS)) {
     console.log(`\n=== Scraping Ekitan for line: ${lineKey} ===`);
     for (const st of lineCfg.stations) {
-      for (const dw of [1, 2]) { // 1: 平日, 2: 休日
-        const dayKey = dw === 1 ? 'weekday' : 'holiday';
+      for (const dw of [0, 2]) { // 0: 平日, 2: 休日 (1は土曜)
+        const dayKey = dw === 0 ? 'weekday' : 'holiday';
         process.stdout.write(`  [${st.name} (${lineCfg.lineCode}-${st.index})] dw=${dw}... `);
         try {
           const res = await fetchEkitanStation(lineCfg.lineCode, st.index, dw, lineCfg.judgeDirection);

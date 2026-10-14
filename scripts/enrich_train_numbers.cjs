@@ -2324,7 +2324,7 @@ function enrichTokyuToyokoAndMinatomirai(targetLine) {
   for (const row of ekitan) {
     const stId = row.stationId || STATION_NAME_TO_ID[row.stationName];
     if (!stId) continue;
-    const isHoli = row.dw !== 1;
+    const isHoli = row.dayKey ? row.dayKey === 'holiday' : row.dw !== 0;
     let h = row.hour;
     if (h < 4) h += 24;
     const sec = h * 3600 + row.minute * 60;
