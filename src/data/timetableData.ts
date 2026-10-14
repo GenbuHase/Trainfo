@@ -22,8 +22,9 @@ export function secondsToTimeString(sec: number): string {
  * 公式列車番号のTrainfo標準表記への正規化
  * - アルファベット末尾（576F, 9028M, E151K等）やハイフン付き（051-071等）: そのまま
  * - すでに「レ」付き（1001レ等）: そのまま
+ * - 4桁以上の公式列車番号（相鉄4桁、東急・地下鉄・相鉄直通6桁等）: そのまま
  * - 併結表記（8078M + 9028M等）: 各パートを個別に正規化して結合
- * - 純数字（105, 1001等）: 末尾に「レ」を付与（105レ, 1001レ）
+ * - 1〜3桁の純短数字（105等）: 末尾に「レ」を付与（105レ）
  */
 export function normalizeTrainNumber(rawNo?: string): string {
   if (!rawNo) return '';
@@ -37,7 +38,7 @@ export function normalizeTrainNumber(rawNo?: string): string {
   if (/[a-zA-Zレ]$/.test(trimmed) || trimmed.includes('-')) {
     return trimmed;
   }
-  if (/^\d+$/.test(trimmed) || /^Y\d+$/i.test(trimmed)) {
+  if (/^\d{1,3}$/.test(trimmed)) {
     return `${trimmed}レ`;
   }
   return trimmed;

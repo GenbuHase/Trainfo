@@ -32,14 +32,12 @@ function normalizeTrainNumber(rawNo) {
       .map((p) => normalizeTrainNumber(p.trim()))
       .join(' + ');
   }
-  if (trimmed.endsWith('レ')) {
-    return trimmed;
-  }
-  if (/^[A-Za-z]?\d+$/.test(trimmed) || /^Y\d+$/i.test(trimmed)) {
-    return `${trimmed}レ`;
-  }
   if (/[a-zA-Zレ]$/.test(trimmed) || trimmed.includes('-')) {
     return trimmed;
+  }
+  // 1〜3桁の純短数字のみ「レ」を付与。4桁以上（相鉄・東急・地下鉄等）はそのまま保持
+  if (/^\d{1,3}$/.test(trimmed)) {
+    return `${trimmed}レ`;
   }
   return trimmed;
 }
@@ -826,7 +824,7 @@ function enrichSaikyo() {
 
   const globalPath = path.resolve('src/data/lines/saikyo/globalTimetable.json');
   const stationPath = path.resolve('src/data/lines/saikyo/stationTimetables.json');
-  const ekitanPath = path.resolve('scripts/ekitan_kawagoe_all_timetables.json');
+  const ekitanPath = path.resolve('scripts/ekitan_saikyo_raw_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
     throw new Error('JR埼京線の必要なデータファイルが見つかりません。');
@@ -836,13 +834,19 @@ function enrichSaikyo() {
   const ekitanData = JSON.parse(fs.readFileSync(ekitanPath, 'utf8'));
   const stationTimetables = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
 
-  const ekitanMap = new Map();
+  // 駅探データを駅・曜日・方向ごとの秒数付きリストに構造化
+  const ekitanByStation = new Map();
   for (const day of ['weekday', 'holiday']) {
     for (const stId of Object.keys(ekitanData[day] || {})) {
       for (const dir of ['inbound', 'outbound']) {
+        const groupKey = `${day}:${stId}:${dir}`;
+        if (!ekitanByStation.has(groupKey)) ekitanByStation.set(groupKey, []);
         for (const item of ekitanData[day][stId][dir] || []) {
-          const key = `${day}:${stId}:${dir}:${item.h}:${item.m}`;
-          ekitanMap.set(key, item);
+          if (!item.no) continue;
+          let h = item.h;
+          if (h < 4) h += 24;
+          const sec = h * 3600 + item.m * 60;
+          ekitanByStation.get(groupKey).push({ ...item, sec });
         }
       }
     }
@@ -857,31 +861,34 @@ function enrichSaikyo() {
     trip.trainId = originalId;
 
     const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
-    const firstStop = trip.stops[0];
-    const [hStr, mStr] = firstStop.departureTime.split(':');
-    let h = parseInt(hStr, 10);
-    const m = parseInt(mStr, 10);
-    if (h >= 24) h -= 24;
+    let bestNo = null;
+    let minDiff = Infinity;
 
-    const key = `${dayKey}:${trip.originStationId}:${trip.direction}:${h}:${m}`;
-    let ekItem = ekitanMap.get(key);
+    for (const stop of trip.stops) {
+      if (stop.isPassing || !stop.departureTime) continue;
+      const [hStr, mStr] = stop.departureTime.split(':');
+      let h = parseInt(hStr, 10);
+      const m = parseInt(mStr, 10);
+      if (h < 4) h += 24;
+      const stopSec = h * 3600 + m * 60;
 
-    if (!ekItem) {
-      for (const stop of trip.stops) {
-        if (stop.isPassing) continue;
-        const [sh, sm] = stop.departureTime.split(':').map(Number);
-        const normH = sh >= 24 ? sh - 24 : sh;
-        const midKey = `${dayKey}:${stop.stationId}:${trip.direction}:${normH}:${sm}`;
-        const item = ekitanMap.get(midKey);
-        if (item) {
-          ekItem = item;
-          break;
+      const groupKey = `${dayKey}:${stop.stationId}:${trip.direction}`;
+      const candidates = ekitanByStation.get(groupKey);
+      if (!candidates) continue;
+
+      for (const cand of candidates) {
+        const diff = Math.abs(cand.sec - stopSec);
+        if (diff <= 120 && diff < minDiff) {
+          minDiff = diff;
+          bestNo = cand.no;
+          if (diff === 0) break;
         }
       }
+      if (minDiff === 0) break;
     }
 
-    if (ekItem && ekItem.no) {
-      trip.trainNumber = normalizeTrainNumber(ekItem.no);
+    if (bestNo) {
+      trip.trainNumber = normalizeTrainNumber(bestNo);
       trainIdToOfficialNo.set(originalId, trip.trainNumber);
       matchedCount++;
     } else {
@@ -2282,14 +2289,14 @@ function enrichTokyuToyokoAndMinatomirai(targetLine) {
   const ekitan = JSON.parse(fs.readFileSync(ekitanCachePath, 'utf8'));
 
   const STATION_NAME_TO_ID = {
-    '渋谷': 'TY-01',
-    '中目黒': 'TY-03',
-    '武蔵小杉': 'TY-11',
-    '日吉': 'TY-13',
-    '菊名': 'TY-16',
+    '渋谷': 'TY-01', '代官山': 'TY-02', '中目黒': 'TY-03', '祐天寺': 'TY-04',
+    '学芸大学': 'TY-05', '都立大学': 'TY-06', '自由が丘': 'TY-07', '田園調布': 'TY-08',
+    '多摩川': 'TY-09', '新丸子': 'TY-10', '武蔵小杉': 'TY-11', '元住吉': 'TY-12',
+    '日吉': 'TY-13', '綱島': 'TY-14', '大倉山': 'TY-15', '菊名': 'TY-16',
+    '妙蓮寺': 'TY-17', '白楽': 'TY-18', '東白楽': 'TY-19', '反町': 'TY-20',
     '横浜': 'TY-21',
-    'みなとみらい': 'MM-03',
-    '元町・中華街': 'MM-06',
+    '新高島': 'MM-02', 'みなとみらい': 'MM-03', '馬車道': 'MM-04',
+    '日本大通り': 'MM-05', '元町・中華街': 'MM-06',
   };
 
   function timeToSec(t) {
@@ -2302,7 +2309,7 @@ function enrichTokyuToyokoAndMinatomirai(targetLine) {
 
   const ekitanByStation = new Map();
   for (const row of ekitan) {
-    const stId = STATION_NAME_TO_ID[row.stationName];
+    const stId = row.stationId || STATION_NAME_TO_ID[row.stationName];
     if (!stId) continue;
     const isHoli = row.dw !== 1;
     let h = row.hour;
@@ -2314,7 +2321,11 @@ function enrichTokyuToyokoAndMinatomirai(targetLine) {
   }
 
   function findBestEkitanNo(trip) {
+    // 特殊便の個別マッピング
+    if (trip.tripId === 'WD_INB_TY-11_0534_106358') return '057052';
+
     const isHoli = trip.isHoliday;
+    const isOutbound = trip.direction === 'outbound';
     let bestCandidate = null;
     let minDiff = Infinity;
 
@@ -2329,6 +2340,13 @@ function enrichTokyuToyokoAndMinatomirai(targetLine) {
         if (!candidates) continue;
 
         for (const cand of candidates) {
+          if (!cand.trainNo) continue;
+          // パリティ検証: 下りは奇数末尾、上りは偶数末尾
+          const lastDigit = parseInt(cand.trainNo.slice(-1), 10);
+          const isEven = lastDigit % 2 === 0;
+          if (isOutbound && isEven) continue;
+          if (!isOutbound && !isEven) continue;
+
           const diff = Math.abs(cand.normSec - stopSec);
           if (diff <= 180 && diff < minDiff) {
             minDiff = diff;
@@ -2341,83 +2359,121 @@ function enrichTokyuToyokoAndMinatomirai(targetLine) {
     return bestCandidate;
   }
 
-  const lines = targetLine === 'all' ? ['tokyu_toyoko', 'minatomirai'] : [targetLine];
-  for (const lineId of lines) {
-    const globalPath = path.resolve(`src/data/lines/${lineId}/globalTimetable.json`);
-    const stationPath = path.resolve(`src/data/lines/${lineId}/stationTimetables.json`);
-    if (!fs.existsSync(globalPath)) continue;
+  // 常に両路線のデータを読み込んで突合・直通同期を行う
+  const toyokoPath = path.resolve('src/data/lines/tokyu_toyoko/globalTimetable.json');
+  const mmPath = path.resolve('src/data/lines/minatomirai/globalTimetable.json');
+  const toyokoStationPath = path.resolve('src/data/lines/tokyu_toyoko/stationTimetables.json');
+  const mmStationPath = path.resolve('src/data/lines/minatomirai/stationTimetables.json');
 
-    console.log(`=== [${lineId}] 公式列車番号エンリッチメント開始 ===`);
-    const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
-    let updatedCount = 0;
+  const toyokoTrips = fs.existsSync(toyokoPath) ? JSON.parse(fs.readFileSync(toyokoPath, 'utf8')) : [];
+  const mmTrips = fs.existsSync(mmPath) ? JSON.parse(fs.readFileSync(mmPath, 'utf8')) : [];
 
-    for (const trip of trips) {
-      const rawNo = trip.trainNumber;
-      if (!trip.trainId && rawNo) {
-        trip.trainId = rawNo;
-      }
-      const officialNo = findBestEkitanNo(trip);
-      if (officialNo) {
-        trip.trainNumber = officialNo;
-        updatedCount++;
+  let tyUpdated = 0;
+  for (const trip of toyokoTrips) {
+    const rawNo = trip.trainNumber;
+    if (!trip.trainId && rawNo) trip.trainId = rawNo;
+    const officialNo = findBestEkitanNo(trip);
+    if (officialNo) {
+      trip.trainNumber = normalizeTrainNumber(officialNo);
+      tyUpdated++;
+    }
+  }
+
+  let mmUpdated = 0;
+  for (const trip of mmTrips) {
+    const rawNo = trip.trainNumber;
+    if (!trip.trainId && rawNo) trip.trainId = rawNo;
+    const officialNo = findBestEkitanNo(trip);
+    if (officialNo) {
+      trip.trainNumber = normalizeTrainNumber(officialNo);
+      mmUpdated++;
+    }
+  }
+
+  // 東横線・みなとみらい線 直通ペア完全同期
+  const mmMap = new Map(mmTrips.map(t => [t.tripId, t]));
+  const tyMap = new Map(toyokoTrips.map(t => [t.tripId, t]));
+  let syncCount = 0;
+
+  for (const ty of toyokoTrips) {
+    if (ty.throughLineId === 'minatomirai' && ty.throughTripId) {
+      const mm = mmMap.get(ty.throughTripId);
+      if (mm && ty.trainNumber !== mm.trainNumber) {
+        mm.trainNumber = ty.trainNumber;
+        syncCount++;
       }
     }
-    safeWriteJson(globalPath, trips);
-    console.log(`✅ [${lineId}] globalTimetable: ${updatedCount} / ${trips.length} trips updated`);
+  }
 
-    if (fs.existsSync(stationPath)) {
-      const stationData = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
-      const depKeyToNumber = new Map();
-      for (const trip of trips) {
-        const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
-        const dirKey = trip.direction;
-        for (const stop of trip.stops) {
-          if (stop.isPassing || !stop.departureTime) continue;
-          const [hStr, mStr] = stop.departureTime.split(':');
-          const h = parseInt(hStr, 10);
-          const m = parseInt(mStr, 10);
-          const k = `${dayKey}_${stop.stationId}_${dirKey}_${h}_${m}`;
-          depKeyToNumber.set(k, { trainNumber: trip.trainNumber, trainId: trip.trainId, tripId: trip.tripId });
-        }
+  for (const mm of mmTrips) {
+    if (mm.throughLineId === 'tokyu_toyoko' && mm.throughTripId) {
+      const ty = tyMap.get(mm.throughTripId);
+      if (ty && mm.trainNumber !== ty.trainNumber) {
+        ty.trainNumber = mm.trainNumber;
+        syncCount++;
       }
+    }
+  }
 
-      let stDepUpdated = 0;
-      for (const dayKey of ['weekday', 'holiday']) {
-        const dayObj = stationData[dayKey];
-        if (!dayObj) continue;
-        for (const stId of Object.keys(dayObj)) {
-          const stObj = dayObj[stId];
-          for (const dirKey of ['inbound', 'outbound']) {
-            const departures = stObj[dirKey];
-            if (!Array.isArray(departures)) continue;
-            for (const dep of departures) {
-              const rawNo = dep.no;
-              if (!dep.trainId && rawNo) {
-                dep.trainId = rawNo;
-              }
-              const k = `${dayKey}_${stId}_${dirKey}_${dep.h}_${dep.m}`;
-              const matched = depKeyToNumber.get(k);
-              if (matched) {
-                dep.no = matched.trainNumber;
-                dep.trainId = matched.trainId;
-                dep.tripId = matched.tripId;
-                stDepUpdated++;
-              }
+  console.log(`✅ [tokyu_toyoko] globalTimetable: ${tyUpdated} / ${toyokoTrips.length} updated`);
+  console.log(`✅ [minatomirai] globalTimetable: ${mmUpdated} / ${mmTrips.length} updated`);
+  console.log(`✅ 直通ペア完全同期: ${syncCount} 件を同期`);
+
+  if (fs.existsSync(toyokoPath)) safeWriteJson(toyokoPath, toyokoTrips);
+  if (fs.existsSync(mmPath)) safeWriteJson(mmPath, mmTrips);
+
+  // 各駅発車標（stationTimetables.json）の同期
+  function syncStationTimetables(trips, stPath, lineId) {
+    if (!fs.existsSync(stPath)) return;
+    const stationData = JSON.parse(fs.readFileSync(stPath, 'utf8'));
+    const depKeyToNumber = new Map();
+    for (const trip of trips) {
+      const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+      const dirKey = trip.direction;
+      for (const stop of trip.stops) {
+        if (stop.isPassing || !stop.departureTime) continue;
+        const [hStr, mStr] = stop.departureTime.split(':');
+        const h = parseInt(hStr, 10);
+        const m = parseInt(mStr, 10);
+        const k = `${dayKey}_${stop.stationId}_${dirKey}_${h}_${m}`;
+        depKeyToNumber.set(k, { trainNumber: trip.trainNumber, trainId: trip.trainId, tripId: trip.tripId });
+      }
+    }
+
+    let stDepUpdated = 0;
+    for (const dayKey of ['weekday', 'holiday']) {
+      const dayObj = stationData[dayKey];
+      if (!dayObj) continue;
+      for (const stId of Object.keys(dayObj)) {
+        const stObj = dayObj[stId];
+        for (const dirKey of ['inbound', 'outbound']) {
+          const departures = stObj[dirKey];
+          if (!Array.isArray(departures)) continue;
+          for (const dep of departures) {
+            const rawNo = dep.no;
+            if (!dep.trainId && rawNo) dep.trainId = rawNo;
+            const k = `${dayKey}_${stId}_${dirKey}_${dep.h}_${dep.m}`;
+            const matched = depKeyToNumber.get(k);
+            if (matched) {
+              dep.no = matched.trainNumber;
+              dep.trainId = matched.trainId;
+              dep.tripId = matched.tripId;
+              stDepUpdated++;
             }
           }
         }
       }
-      safeWriteJson(stationPath, stationData);
-      console.log(`✅ [${lineId}] stationTimetables: ${stDepUpdated} departures updated`);
     }
+    safeWriteJson(stPath, stationData);
+    console.log(`✅ [${lineId}] stationTimetables: ${stDepUpdated} departures updated`);
   }
+
+  syncStationTimetables(toyokoTrips, toyokoStationPath, 'tokyu_toyoko');
+  syncStationTimetables(mmTrips, mmStationPath, 'minatomirai');
 }
 
-if (target === 'tokyu_toyoko' || target === 'toyoko' || target === 'all') {
-  enrichTokyuToyokoAndMinatomirai('tokyu_toyoko');
-}
-if (target === 'minatomirai' || target === 'all') {
-  enrichTokyuToyokoAndMinatomirai('minatomirai');
+if (target === 'tokyu_toyoko' || target === 'toyoko' || target === 'minatomirai' || target === 'all') {
+  enrichTokyuToyokoAndMinatomirai(target);
 }
 
 function enrichSotetsuAndTokyu(targetLine) {
