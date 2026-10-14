@@ -52,6 +52,8 @@ module.exports = {
     'ホリデー快速': 'special_rapid',
     '特急': 'limitedExp',
   },
+  // 中央線直通の青梅特快・快速・通勤快速の公式案内種別を保持
+  preserveAllStopsTypes: ['rapid', 'commuter', 'special_rapid', 'chuo_special_rapid', 'ome_special_rapid', 'commuter_special_rapid'],
   defaultCars: 10,
   baseSectionSeconds: {
     1: 180,  // 立川 -> 西立川

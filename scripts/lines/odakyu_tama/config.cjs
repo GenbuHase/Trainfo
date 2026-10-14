@@ -30,6 +30,8 @@ module.exports = {
     '通勤急行': 'commuter_exp',
     '快速急行': 'rapidExp',
   },
+  // 多摩線内全駅停車の直通急行・通勤急行・快速急行の種別を保持
+  preserveAllStopsTypes: ['express', 'commuter_exp', 'rapidExp'],
   defaultCars: 8,
   baseSectionSeconds: {
     1: 120, // 新百合ヶ丘 -> 五月台

@@ -52,13 +52,15 @@ assert.ok(alpsTrips.length >= 2, '特急アルプスは複数路線チェーン�
 console.log('✅ テスト3: 特急アルプス チェーン形成成功！');
 
 // 4. 時系列順ハンドオーバーシミュレーション (あずさ4号)
-// 時刻進行シミュレーション: 松本(06:30) -> 塩尻手前(06:35) -> 塩尻直後(06:40) -> 高尾手前(08:25) -> 八王子直後(08:40) -> 東京着(09:29)
+// 時刻進行シミュレーション: 松本(06:30) -> 塩尻手前(06:35) -> 塩尻直後(06:40) -> 高尾手前(08:25) -> 高尾〜八王子間(08:32) -> 八王子直後(08:36) -> 東京着(09:29)
 const simTestTimes = [
   { sec: timeStringToSeconds('06:30:00'), expectedTrip: 'WD_INB_SN-06_0630_6919', desc: '松本発車時 (篠ノ井線)' },
   { sec: timeStringToSeconds('06:35:00'), expectedTrip: 'WD_INB_SN-06_0630_6919', desc: '塩尻直前 (篠ノ井線)' },
   { sec: timeStringToSeconds('06:40:00'), expectedTrip: 'cm_WD_INB_CO-61_0638_6919', desc: '塩尻直後 (中央本線へハンドオーバー)' },
   { sec: timeStringToSeconds('07:30:00'), expectedTrip: 'cm_WD_INB_CO-61_0638_6919', desc: '中央本線甲府付近' },
-  { sec: timeStringToSeconds('08:36:00'), expectedTrip: 'WD_INB_JC-22_0835_6919', desc: '八王子直後 (中央線快速へハンドオーバー)' },
+  { sec: timeStringToSeconds('08:30:06'), expectedTrip: 'cm_WD_INB_CO-61_0638_6919', desc: '高尾境界駅到達時 (08:30:06)' },
+  { sec: timeStringToSeconds('08:32:00'), expectedTrip: 'WD_INB_JC-22_0835_6919', desc: '高尾〜八王子間・西八王子通過中 (中央線快速延伸区間)' },
+  { sec: timeStringToSeconds('08:36:00'), expectedTrip: 'WD_INB_JC-22_0835_6919', desc: '八王子直後 (中央線快速)' },
   { sec: timeStringToSeconds('09:00:00'), expectedTrip: 'WD_INB_JC-22_0835_6919', desc: '三鷹付近 (中央線快速)' },
 ];
 
@@ -85,5 +87,26 @@ const runningAfterArrival = azusaChain.find((t) => {
 });
 assert.strictEqual(runningAfterArrival, undefined, '終点到着後 (09:40) は運行終了として安全に未検出 (null) となること');
 console.log('✅ テスト5: 終点到着後の安全停止確認成功！');
+
+// 6. 特急あずさ9号 (新宿 -> 上諏訪 -> 塩尻通過 -> 松本) の松本〜上諏訪間検証
+const azusa9Chain = getThroughChainTrips('cm_WD_OUT_JC-05_0900_6862');
+console.log('\n特急あずさ9号 (下り塩尻通過) のチェーン:');
+for (const t of azusa9Chain) {
+  console.log(`  [${t.lineId}] ${t.tripId} (${t.trainNumber}): ${t.stops[0]?.stationId}@${t.stops[0]?.departureTime} -> ${t.stops[t.stops.length - 1]?.stationId}@${t.stops[t.stops.length - 1]?.arrivalTime}`);
+}
+assert.ok(azusa9Chain.some(t => t.lineId === 'chuo_main'), '中央本線便が含まれること');
+assert.ok(azusa9Chain.some(t => t.lineId === 'shinonoi'), '篠ノ井線便が含まれること');
+const azusa9Sn = azusa9Chain.find(t => t.lineId === 'shinonoi')!;
+assert.strictEqual(azusa9Sn.stops[azusa9Sn.stops.length - 1].stationId, 'SN-06', '松本駅(SN-06)まで直通運行すること');
+console.log('✅ テスト6: 特急あずさ9号 松本〜上諏訪間(塩尻通過) 直通チェーン検証成功！');
+
+// 7. 特急あずさ38号 (白馬 -> 松本 -> 塩尻通過 -> 上諏訪 -> 新宿) の全線貫通検証
+const azusa38Chain = getThroughChainTrips('WD_INB_OIE-29_1343_42025');
+console.log('\n特急あずさ38号 (白馬発 新宿行) のチェーン:');
+for (const t of azusa38Chain) {
+  console.log(`  [${t.lineId}] ${t.tripId} (${t.trainNumber}): ${t.stops[0]?.stationId}@${t.stops[0]?.departureTime} -> ${t.stops[t.stops.length - 1]?.stationId}@${t.stops[t.stops.length - 1]?.arrivalTime}`);
+}
+assert.strictEqual(azusa38Chain.length, 4, 'あずさ38号は大糸線・篠ノ井線・中央本線・中央線の4路線チェーンであること');
+console.log('✅ テスト7: 特急あずさ38号 4路線完全貫通チェーン検証成功！');
 
 console.log('\n🎉 全ての特急列車境界跨ぎハンドオーバー検証テストに合格しました！');

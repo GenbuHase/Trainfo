@@ -75,6 +75,12 @@ const { execSync } = require('child_process');
 console.log('=== [Step 2] 全路線の公式列車番号エンリッチメント実行 ===');
 execSync('node scripts/enrich_train_numbers.cjs all', { stdio: 'inherit' });
 
+console.log('\n=== [Step 2.1] 特急あずさ松本〜上諏訪間・塩尻通過ダイヤ補完実行 ===');
+execSync('node scripts/enrich_azusa_timetable.cjs', { stdio: 'inherit' });
+
+console.log('\n=== [Step 2.2] 中央線快速特急 八王子〜高尾間延伸補間実行 ===');
+execSync('node scripts/extend_chuo_hachioji_takao.cjs', { stdio: 'inherit' });
+
 console.log('\n=== [Step 3] S-TRAIN 全線貫通トリップ合成・注入 ===');
 execSync('npx tsx scripts/integrate_strain.cjs', { stdio: 'inherit' });
 

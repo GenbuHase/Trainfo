@@ -22,6 +22,8 @@ module.exports = {
     '普通': 'local',
     '急行': 'express',
   },
+  // 東急新横浜線は全3駅のため全駅停車となりますが、直通急行は「急行」として案内・運行
+  preserveAllStopsTypes: ['express'],
   defaultCars: 8,
   baseSectionSeconds: {
     1: 150, // 日吉 -> 新綱島

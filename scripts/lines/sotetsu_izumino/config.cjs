@@ -32,6 +32,8 @@ module.exports = {
     '通勤特急': 'commuter_ltd_exp',
     '通特': 'commuter_ltd_exp',
   },
+  // いずみ野線内は快速・通勤急行が全駅停車となりますが、公式種別を維持
+  preserveAllStopsTypes: ['rapid', 'commuter_exp', 'commuter_ltd_exp', 'limitedExp'],
   defaultCars: 10,
   baseSectionSeconds: {
     1: 120, // 二俣川 -> 南万騎が原

@@ -53,6 +53,15 @@ module.exports = {
     '通勤特快': 'commuter_special_rapid',
     '特急': 'limitedExp',
   },
+  // 中央線快速は平日ダイヤで中野〜高尾間が全駅停車となるため、通過駅有無にかかわらず正規の優等種別を保持
+  preserveAllStopsTypes: [
+    'rapid',
+    'commuter',
+    'special_rapid',
+    'chuo_special_rapid',
+    'ome_special_rapid',
+    'commuter_special_rapid',
+  ],
   defaultCars: 10,
   // 駅間基準秒数 (通過駅補間用)
   baseSectionSeconds: {

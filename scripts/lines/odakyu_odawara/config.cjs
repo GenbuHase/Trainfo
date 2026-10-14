@@ -87,6 +87,8 @@ module.exports = {
     'モーニングウェイ': 'limitedExp',
     'ふじさん': 'limitedExp',
   },
+  // 区間急行・快速急行・急行の種別を保持
+  preserveAllStopsTypes: ['express', 'commuter_exp', 'rapidExp', 'semiExp', 'commuter_semi', 'limitedExp'],
   defaultCars: 10,
   baseSectionSeconds: {
     1: 120, // 新宿 -> 南新宿

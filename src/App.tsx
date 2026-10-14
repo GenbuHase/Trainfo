@@ -192,8 +192,14 @@ export function App() {
       const first = t.stops[0];
       const last = t.stops[t.stops.length - 1];
       if (!first || !last) return false;
-      const depSec = timeStringToSeconds(first.departureTime);
-      const arrSec = timeStringToSeconds(last.arrivalTime);
+      const depSec = Math.min(
+        timeStringToSeconds(first.arrivalTime || first.departureTime),
+        timeStringToSeconds(first.departureTime)
+      );
+      const arrSec = Math.max(
+        timeStringToSeconds(last.arrivalTime),
+        timeStringToSeconds(last.departureTime || last.arrivalTime)
+      );
       return simState.currentSec >= depSec && simState.currentSec <= arrSec;
     });
 
@@ -323,13 +329,51 @@ export function App() {
   // 選択・追尾中の列車が運行終了等で存在しなくなった場合は猶予時間をおいて自動解除
   useEffect(() => {
     if ((isTrackingTrain || selectedTrainId) && !selectedTrain) {
-      if (!missingTrainTimeoutRef.current) {
-        missingTrainTimeoutRef.current = setTimeout(() => {
-          setIsTrackingTrain(false);
-          setSelectedTrainId(null);
-          lastSelectedTrainRef.current = null;
+      const baseTripId = selectedTrainId || lastSelectedTrainRef.current?.tripId;
+      let isWithinOperatingWindow = false;
+
+      if (baseTripId) {
+        const chainTrips = getThroughChainTrips(baseTripId);
+        if (chainTrips.length > 0) {
+          const firstTrip = chainTrips[0];
+          const lastTrip = chainTrips[chainTrips.length - 1];
+          const firstStop = firstTrip.stops[0];
+          const lastStop = lastTrip.stops[lastTrip.stops.length - 1];
+          const startSec = firstStop
+            ? Math.min(
+                timeStringToSeconds(firstStop.arrivalTime || firstStop.departureTime),
+                timeStringToSeconds(firstStop.departureTime)
+              )
+            : 0;
+          const endSec = lastStop
+            ? Math.max(
+                timeStringToSeconds(lastStop.arrivalTime),
+                timeStringToSeconds(lastStop.departureTime || lastStop.arrivalTime)
+              )
+            : 0;
+
+          // チェーン全体の運行時間範囲内（境界駅での一時的なトリップ切り替えギャップや長時間停車中）なら追尾を維持
+          if (simState.currentSec >= startSec && simState.currentSec <= endSec) {
+            isWithinOperatingWindow = true;
+          }
+        }
+      }
+
+      // 運行時間範囲外（全行程終了後、または始発前）の場合のみ猶予時間をおいて自動解除
+      if (!isWithinOperatingWindow) {
+        if (!missingTrainTimeoutRef.current) {
+          missingTrainTimeoutRef.current = setTimeout(() => {
+            setIsTrackingTrain(false);
+            setSelectedTrainId(null);
+            lastSelectedTrainRef.current = null;
+            missingTrainTimeoutRef.current = null;
+          }, 5000); // 5秒間の猶予時間
+        }
+      } else {
+        if (missingTrainTimeoutRef.current) {
+          clearTimeout(missingTrainTimeoutRef.current);
           missingTrainTimeoutRef.current = null;
-        }, 5000); // 5秒間の猶予時間
+        }
       }
     } else {
       if (missingTrainTimeoutRef.current) {
@@ -344,7 +388,7 @@ export function App() {
         missingTrainTimeoutRef.current = null;
       }
     };
-  }, [isTrackingTrain, selectedTrainId, selectedTrain]);
+  }, [isTrackingTrain, selectedTrainId, selectedTrain, simState.currentSec]);
 
   // 実時間に同期
   const handleSyncRealTime = useCallback(() => {

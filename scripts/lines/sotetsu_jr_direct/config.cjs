@@ -34,6 +34,8 @@ module.exports = {
     '通勤快速': 'commuter',
     '特急': 'limitedExp',
   },
+  // 直通快速の種別を保持
+  preserveAllStopsTypes: ['rapid', 'commuter', 'limitedExp'],
   defaultCars: 10,
   baseSectionSeconds: {
     1: 960, // 羽沢横浜国大 -> 武蔵小杉 (16分)

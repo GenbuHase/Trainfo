@@ -316,9 +316,54 @@ export function getGlobalTripMap(): Map<string, TimetableTrip> {
 }
 
 /**
+ * 2つのトリップが同一運行チェーン（直通・スイッチバック）として接続可能か汎用判定
+ */
+function areTripsConnectable(tripA: TimetableTrip, tripB: TimetableTrip): boolean {
+  if (tripA.isHoliday !== tripB.isHoliday) return false;
+
+  const firstA = tripA.stops[0];
+  const lastA = tripA.stops[tripA.stops.length - 1];
+  const firstB = tripB.stops[0];
+  const lastB = tripB.stops[tripB.stops.length - 1];
+
+  if (!firstA || !lastA || !firstB || !lastB) return false;
+
+  const startA = timeStringToSeconds(firstA.departureTime || firstA.arrivalTime);
+  const endA = timeStringToSeconds(lastA.arrivalTime || lastA.departureTime);
+  const startB = timeStringToSeconds(firstB.departureTime || firstB.arrivalTime);
+  const endB = timeStringToSeconds(lastB.arrivalTime || lastB.departureTime);
+
+  // A -> B の順序の場合
+  const nameEndA = STATION_MAP.get(lastA.stationId)?.name;
+  const nameStartB = STATION_MAP.get(firstB.stationId)?.name;
+  const isSameStationAtoB = nameEndA && nameStartB && nameEndA === nameStartB;
+  const diffAtoB = startB - endA;
+
+  // B -> A の順序の場合
+  const nameEndB = STATION_MAP.get(lastB.stationId)?.name;
+  const nameStartA = STATION_MAP.get(firstA.stationId)?.name;
+  const isSameStationBtoA = nameEndB && nameStartA && nameEndB === nameStartA;
+  const diffBtoA = startA - endB;
+
+  // 1) 同一接続駅（スイッチバック・長時間停車等）の場合: -15分〜120分以内の接続を許容
+  if (isSameStationAtoB && diffAtoB >= -900 && diffAtoB <= 7200) return true;
+  if (isSameStationBtoA && diffBtoA >= -900 && diffBtoA <= 7200) return true;
+
+  // 2) 同一駅名が直接一致しない場合でも時間的に連続している場合（-10分〜45分以内）
+  if (diffAtoB >= -600 && diffAtoB <= 2700) return true;
+  if (diffBtoA >= -600 && diffBtoA <= 2700) return true;
+
+  // 3) 運転区間が重なっている場合（部分重複登録）
+  const overlap = Math.min(endA, endB) - Math.max(startA, startB);
+  if (overlap > 0 && Math.abs(startA - startB) <= 3600) return true;
+
+  return false;
+}
+
+/**
  * 指定したtripIdが属する直通運行チェーン全体（祖先トリップから子孫トリップまでの全リスト、時系列順）を取得
  * - throughTripId / prevTripId ポインタによるリンク
- * - 同一 trainId（Yahoo路線情報の同一列車）を持つ他路線トリップの統合（特急列車等）
+ * - 同一 trainId（Yahoo路線情報の同一列車）を持つ他路線トリップの統合（特急列車・スイッチバック便等）
  */
 export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
   if (!initialTripId) return [];
@@ -337,11 +382,11 @@ export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
     const cur = queue.shift()!;
     chain.push(cur);
 
-    // 1. 同一 trainId のトリップを収集 (同一方向・平日/休日一致)
+    // 1. 同一 trainId のトリップを収集 (汎用接続判定により、スイッチバックや路線間上下反転も正しく統合)
     if (cur.trainId) {
       const sameTrainIdTrips = trainIdMap.get(cur.trainId) || [];
       for (const st of sameTrainIdTrips) {
-        if (!visitedTripIds.has(st.tripId) && st.isHoliday === cur.isHoliday && st.direction === cur.direction) {
+        if (!visitedTripIds.has(st.tripId) && areTripsConnectable(cur, st)) {
           visitedTripIds.add(st.tripId);
           queue.push(st);
         }
