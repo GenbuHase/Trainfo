@@ -7,37 +7,59 @@ import { getStations } from '../../data/stations';
 import { StationBadge } from '../Common/Badges';
 import { getAllLines } from '../../data/linesRegistry';
 
-interface SidebarProps {
-  isOpen: boolean;
-  onClose: () => void;
-  selectedStation: Station | null;
-  selectedTrain: ActiveTrain | null;
-  currentSec: number;
-  isHoliday: boolean;
-  activeTrains: ActiveTrain[];
-  isTrackingTrain: boolean;
-  onToggleTrackingTrain: () => void;
-  onSelectStation: (station: Station) => void;
-  onSelectTrain: (train: ActiveTrain) => void;
-  onOpenFullTimetable: (station: Station) => void;
-  selectedLineIds: LineId[];
+import { useSelection } from '../../contexts/SelectionContext';
+import { useSimulation } from '../../contexts/SimulationContext';
+import { useUI } from '../../contexts/UIContext';
+
+export interface SidebarProps {
+  isOpen?: boolean;
+  onClose?: () => void;
+  selectedStation?: Station | null;
+  selectedTrain?: ActiveTrain | null;
+  currentSec?: number;
+  isHoliday?: boolean;
+  activeTrains?: ActiveTrain[];
+  isTrackingTrain?: boolean;
+  onToggleTrackingTrain?: () => void;
+  onSelectStation?: (station: Station) => void;
+  onSelectTrain?: (train: ActiveTrain) => void;
+  onOpenFullTimetable?: (station: Station) => void;
+  selectedLineIds?: LineId[];
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({
-  isOpen,
-  onClose,
-  selectedStation,
-  selectedTrain,
-  currentSec,
-  isHoliday,
-  activeTrains,
-  isTrackingTrain,
-  onToggleTrackingTrain,
-  onSelectStation,
-  onSelectTrain,
-  onOpenFullTimetable,
-  selectedLineIds,
+  isOpen: propIsOpen,
+  onClose: propOnClose,
+  selectedStation: propSelectedStation,
+  selectedTrain: propSelectedTrain,
+  currentSec: propCurrentSec,
+  isHoliday: propIsHoliday,
+  activeTrains: propActiveTrains,
+  isTrackingTrain: propIsTrackingTrain,
+  onToggleTrackingTrain: propOnToggleTrackingTrain,
+  onSelectStation: propOnSelectStation,
+  onSelectTrain: propOnSelectTrain,
+  onOpenFullTimetable: propOnOpenFullTimetable,
+  selectedLineIds: propSelectedLineIds,
 }) => {
+  const selection = useSelection();
+  const simulation = useSimulation();
+  const ui = useUI();
+
+  const isOpen = propIsOpen ?? ui.isSidebarOpen;
+  const onClose = propOnClose ?? ui.closeSidebar;
+  const selectedStation = propSelectedStation ?? selection.selectedStation;
+  const selectedTrain = propSelectedTrain ?? simulation.selectedTrain;
+  const currentSec = propCurrentSec ?? simulation.currentSec;
+  const isHoliday = propIsHoliday ?? simulation.isHoliday;
+  const activeTrains = propActiveTrains ?? simulation.activeTrains;
+  const isTrackingTrain = propIsTrackingTrain ?? selection.isTrackingTrain;
+  const onToggleTrackingTrain = propOnToggleTrackingTrain ?? (() => selection.setIsTrackingTrain((prev) => !prev));
+  const onSelectStation = propOnSelectStation ?? selection.selectStation;
+  const onSelectTrain = propOnSelectTrain ?? selection.selectTrain;
+  const onOpenFullTimetable = propOnOpenFullTimetable ?? ui.openTimetable;
+  const selectedLineIds = propSelectedLineIds ?? selection.selectedLineIds;
+
   if (!isOpen) return null;
 
   const currentStations = getStations(selectedLineIds);

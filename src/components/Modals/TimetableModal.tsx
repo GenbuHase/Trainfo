@@ -6,21 +6,38 @@ import { TRAIN_TYPES } from '../../data/trainTypes';
 import { getLine, getAllLines } from '../../data/linesRegistry';
 import { X, Download, ArrowLeftRight } from 'lucide-react';
 
-interface TimetableModalProps {
-  station: Station | null;
-  isOpen: boolean;
-  onClose: () => void;
-  defaultIsHoliday: boolean;
+import { useUI } from '../../contexts/UIContext';
+import { useSimulation } from '../../contexts/SimulationContext';
+import { useSelection } from '../../contexts/SelectionContext';
+
+export interface TimetableModalProps {
+  station?: Station | null;
+  isOpen?: boolean;
+  onClose?: () => void;
+  defaultIsHoliday?: boolean;
   onSwitchStation?: (station: Station) => void;
 }
 
 export const TimetableModal: React.FC<TimetableModalProps> = ({
-  station,
-  isOpen,
-  onClose,
-  defaultIsHoliday,
-  onSwitchStation,
+  station: propStation,
+  isOpen: propIsOpen,
+  onClose: propOnClose,
+  defaultIsHoliday: propDefaultIsHoliday,
+  onSwitchStation: propOnSwitchStation,
 }) => {
+  const ui = useUI();
+  const simulation = useSimulation();
+  const selection = useSelection();
+
+  const station = propStation !== undefined ? propStation : ui.timetableStation;
+  const isOpen = propIsOpen !== undefined ? propIsOpen : ui.isTimetableOpen;
+  const onClose = propOnClose ?? ui.closeTimetable;
+  const defaultIsHoliday = propDefaultIsHoliday !== undefined ? propDefaultIsHoliday : simulation.isHoliday;
+  const onSwitchStation = propOnSwitchStation ?? ((st: Station) => {
+    ui.setTimetableStation(st);
+    selection.selectStation(st);
+  });
+
   const line = station ? getLine(station.lineId) : undefined;
   const isFirstStation = line ? line.stations[0]?.id === station?.id : false;
   const isLastStation = line ? line.stations[line.stations.length - 1]?.id === station?.id : false;

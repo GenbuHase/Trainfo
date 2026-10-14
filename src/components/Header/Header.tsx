@@ -9,23 +9,28 @@ import { DisplayFilterDock } from '../Map/DisplayFilterDock';
 import { TrackingBar } from '../Map/TrackingBar';
 import { isRunningStandalone, subscribeInstallState } from '../../services/pwaService';
 
-interface HeaderProps {
-  onSelectStation: (station: Station) => void;
-  onSelectTrain: (train: ActiveTrain) => void;
-  activeTrains: ActiveTrain[];
-  isHoliday: boolean;
-  onToggleHoliday: (val: boolean) => void;
-  onOpenSettings: () => void;
-  onOpenHelp: () => void;
+import { useSelection } from '../../contexts/SelectionContext';
+import { useSimulation } from '../../contexts/SimulationContext';
+import { useFilter } from '../../contexts/FilterContext';
+import { useUI } from '../../contexts/UIContext';
+
+export interface HeaderProps {
+  onSelectStation?: (station: Station) => void;
+  onSelectTrain?: (train: ActiveTrain) => void;
+  activeTrains?: ActiveTrain[];
+  isHoliday?: boolean;
+  onToggleHoliday?: (val: boolean) => void;
+  onOpenSettings?: () => void;
+  onOpenHelp?: () => void;
   onOpenInstall?: () => void;
-  isSidebarOpen: boolean;
+  isSidebarOpen?: boolean;
   onCloseSidebar?: () => void;
-  selectedLineIds: LineId[];
-  onChangeSelectedLines: (lineIds: LineId[]) => void;
-  filterDirection: 'all' | Direction;
-  onChangeFilterDirection: (direction: 'all' | Direction) => void;
-  filterType: 'all' | 'rapid' | 'local';
-  onChangeFilterType: (type: 'all' | 'rapid' | 'local') => void;
+  selectedLineIds?: LineId[];
+  onChangeSelectedLines?: (lineIds: LineId[]) => void;
+  filterDirection?: 'all' | Direction;
+  onChangeFilterDirection?: (direction: 'all' | Direction) => void;
+  filterType?: 'all' | 'rapid' | 'local';
+  onChangeFilterType?: (type: 'all' | 'rapid' | 'local') => void;
   selectedTrain?: ActiveTrain | null;
   isTrackingTrain?: boolean;
   onOpenSidebar?: () => void;
@@ -33,27 +38,53 @@ interface HeaderProps {
 }
 
 export const Header: React.FC<HeaderProps> = ({
-  onSelectStation,
-  onSelectTrain,
-  activeTrains,
-  isHoliday,
-  onToggleHoliday,
-  onOpenSettings,
-  onOpenHelp,
-  onOpenInstall,
-  isSidebarOpen,
-  onCloseSidebar,
-  selectedLineIds,
-  onChangeSelectedLines,
-  filterDirection,
-  onChangeFilterDirection,
-  filterType,
-  onChangeFilterType,
-  selectedTrain,
-  isTrackingTrain = false,
-  onOpenSidebar,
-  onStopTracking,
+  onSelectStation: propOnSelectStation,
+  onSelectTrain: propOnSelectTrain,
+  activeTrains: propActiveTrains,
+  isHoliday: propIsHoliday,
+  onToggleHoliday: propOnToggleHoliday,
+  onOpenSettings: propOnOpenSettings,
+  onOpenHelp: propOnOpenHelp,
+  onOpenInstall: propOnOpenInstall,
+  isSidebarOpen: propIsSidebarOpen,
+  onCloseSidebar: propOnCloseSidebar,
+  selectedLineIds: propSelectedLineIds,
+  onChangeSelectedLines: propOnChangeSelectedLines,
+  filterDirection: propFilterDirection,
+  onChangeFilterDirection: propOnChangeFilterDirection,
+  filterType: propFilterType,
+  onChangeFilterType: propOnChangeFilterType,
+  selectedTrain: propSelectedTrain,
+  isTrackingTrain: propIsTrackingTrain,
+  onOpenSidebar: propOnOpenSidebar,
+  onStopTracking: propOnStopTracking,
 }) => {
+  const selection = useSelection();
+  const simulation = useSimulation();
+  const filter = useFilter();
+  const ui = useUI();
+
+  const selectedLineIds = propSelectedLineIds ?? selection.selectedLineIds;
+  const onChangeSelectedLines = propOnChangeSelectedLines ?? selection.setSelectedLineIds;
+  const onSelectStation = propOnSelectStation ?? selection.selectStation;
+  const onSelectTrain = propOnSelectTrain ?? selection.selectTrain;
+  const activeTrains = propActiveTrains ?? simulation.activeTrains;
+  const isHoliday = propIsHoliday ?? simulation.isHoliday;
+  const onToggleHoliday = propOnToggleHoliday ?? simulation.toggleHoliday;
+  const selectedTrain = propSelectedTrain ?? simulation.selectedTrain;
+  const isTrackingTrain = propIsTrackingTrain ?? selection.isTrackingTrain;
+  const onStopTracking = propOnStopTracking ?? selection.stopTracking;
+  const filterDirection = propFilterDirection ?? filter.filterDirection;
+  const onChangeFilterDirection = propOnChangeFilterDirection ?? filter.setFilterDirection;
+  const filterType = propFilterType ?? filter.filterType;
+  const onChangeFilterType = propOnChangeFilterType ?? filter.setFilterType;
+  const isSidebarOpen = propIsSidebarOpen ?? ui.isSidebarOpen;
+  const onCloseSidebar = propOnCloseSidebar ?? ui.closeSidebar;
+  const onOpenSidebar = propOnOpenSidebar ?? ui.openSidebar;
+  const onOpenSettings = propOnOpenSettings ?? ui.openSettings;
+  const onOpenHelp = propOnOpenHelp ?? ui.openHelp;
+  const onOpenInstall = propOnOpenInstall ?? ui.openInstall;
+
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [canInstall, setCanInstall] = useState(false);

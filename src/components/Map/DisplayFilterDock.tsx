@@ -4,25 +4,38 @@ import { Layers, Filter, CheckSquare, Square, RotateCcw, ChevronDown, X } from '
 import type { LineId, Direction } from '../../types';
 import { getAllLines, getLinesGroupedByOperator } from '../../data/linesRegistry';
 
+import { useSelection } from '../../contexts/SelectionContext';
+import { useFilter } from '../../contexts/FilterContext';
+
 interface DisplayFilterDockProps {
-  selectedLineIds: LineId[];
-  onChangeSelectedLines: (lineIds: LineId[]) => void;
-  filterDirection: 'all' | Direction;
-  onChangeFilterDirection: (direction: 'all' | Direction) => void;
-  filterType: 'all' | 'rapid' | 'local';
-  onChangeFilterType: (type: 'all' | 'rapid' | 'local') => void;
+  selectedLineIds?: LineId[];
+  onChangeSelectedLines?: (lineIds: LineId[]) => void;
+  filterDirection?: 'all' | Direction;
+  onChangeFilterDirection?: (direction: 'all' | Direction) => void;
+  filterType?: 'all' | 'rapid' | 'local';
+  onChangeFilterType?: (type: 'all' | 'rapid' | 'local') => void;
   mode?: 'desktop' | 'mobile' | 'both';
 }
 
 export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
-  selectedLineIds,
-  onChangeSelectedLines,
-  filterDirection,
-  onChangeFilterDirection,
-  filterType,
-  onChangeFilterType,
+  selectedLineIds: propSelectedLineIds,
+  onChangeSelectedLines: propOnChangeSelectedLines,
+  filterDirection: propFilterDirection,
+  onChangeFilterDirection: propOnChangeFilterDirection,
+  filterType: propFilterType,
+  onChangeFilterType: propOnChangeFilterType,
   mode = 'both',
 }) => {
+  const selectionContext = useSelection();
+  const filterContext = useFilter();
+
+  const selectedLineIds = propSelectedLineIds ?? selectionContext.selectedLineIds;
+  const onChangeSelectedLines = propOnChangeSelectedLines ?? selectionContext.setSelectedLineIds;
+  const filterDirection = propFilterDirection ?? filterContext.filterDirection;
+  const onChangeFilterDirection = propOnChangeFilterDirection ?? filterContext.setFilterDirection;
+  const filterType = propFilterType ?? filterContext.filterType;
+  const onChangeFilterType = propOnChangeFilterType ?? filterContext.setFilterType;
+
   const [isLineDropdownOpen, setIsLineDropdownOpen] = useState(false);
   const [isMobileModalOpen, setIsMobileModalOpen] = useState(false);
   const lineDropdownRef = useRef<HTMLDivElement>(null);

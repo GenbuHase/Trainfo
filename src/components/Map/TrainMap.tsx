@@ -16,19 +16,24 @@ import {
   Loader2,
 } from 'lucide-react';
 
-interface TrainMapProps {
-  activeTrains: ActiveTrain[];
-  selectedStation: Station | null;
-  selectedTrain: ActiveTrain | null;
-  onSelectStation: (station: Station) => void;
-  onSelectTrain: (train: ActiveTrain) => void;
-  isTrackingTrain: boolean;
-  trackingTrainId: string | null;
+import { useSelection } from '../../contexts/SelectionContext';
+import { useSimulation } from '../../contexts/SimulationContext';
+import { useFilter } from '../../contexts/FilterContext';
+import { useUI } from '../../contexts/UIContext';
+
+export interface TrainMapProps {
+  activeTrains?: ActiveTrain[];
+  selectedStation?: Station | null;
+  selectedTrain?: ActiveTrain | null;
+  onSelectStation?: (station: Station) => void;
+  onSelectTrain?: (train: ActiveTrain) => void;
+  isTrackingTrain?: boolean;
+  trackingTrainId?: string | null;
   isSidebarOpen?: boolean;
   onCloseSidebar?: () => void;
-  selectedLineIds: LineId[];
-  filterDirection: 'all' | Direction;
-  filterType: 'all' | 'rapid' | 'local';
+  selectedLineIds?: LineId[];
+  filterDirection?: 'all' | Direction;
+  filterType?: 'all' | 'rapid' | 'local';
   isTimeControllerExpanded?: boolean;
   onStopTracking?: () => void;
 }
@@ -158,21 +163,41 @@ function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: b
 }
 
 export const TrainMap: React.FC<TrainMapProps> = ({
-  activeTrains,
-  selectedStation,
-  selectedTrain,
-  onSelectStation,
-  onSelectTrain,
-  isTrackingTrain,
-  trackingTrainId,
-  isSidebarOpen = false,
-  onCloseSidebar,
-  selectedLineIds,
-  filterDirection,
-  filterType,
-  isTimeControllerExpanded = false,
-  onStopTracking,
+  activeTrains: propActiveTrains,
+  selectedStation: propSelectedStation,
+  selectedTrain: propSelectedTrain,
+  onSelectStation: propOnSelectStation,
+  onSelectTrain: propOnSelectTrain,
+  isTrackingTrain: propIsTrackingTrain,
+  trackingTrainId: propTrackingTrainId,
+  isSidebarOpen: propIsSidebarOpen,
+  onCloseSidebar: propOnCloseSidebar,
+  selectedLineIds: propSelectedLineIds,
+  filterDirection: propFilterDirection,
+  filterType: propFilterType,
+  isTimeControllerExpanded: propIsTimeControllerExpanded,
+  onStopTracking: propOnStopTracking,
 }) => {
+  const selection = useSelection();
+  const simulation = useSimulation();
+  const filter = useFilter();
+  const ui = useUI();
+
+  const activeTrains = propActiveTrains ?? simulation.activeTrains;
+  const selectedStation = propSelectedStation ?? selection.selectedStation;
+  const selectedTrain = propSelectedTrain ?? simulation.selectedTrain;
+  const onSelectStation = propOnSelectStation ?? selection.selectStation;
+  const onSelectTrain = propOnSelectTrain ?? selection.selectTrain;
+  const isTrackingTrain = propIsTrackingTrain ?? selection.isTrackingTrain;
+  const trackingTrainId = propTrackingTrainId ?? (simulation.selectedTrain?.tripId || null);
+  const isSidebarOpen = propIsSidebarOpen ?? ui.isSidebarOpen;
+  const onCloseSidebar = propOnCloseSidebar ?? ui.closeSidebar;
+  const selectedLineIds = propSelectedLineIds ?? selection.selectedLineIds;
+  const filterDirection = propFilterDirection ?? filter.filterDirection;
+  const filterType = propFilterType ?? filter.filterType;
+  const isTimeControllerExpanded = propIsTimeControllerExpanded ?? ui.isTimeControllerExpanded;
+  const onStopTracking = propOnStopTracking ?? selection.stopTracking;
+
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<L.Map | null>(null);
   const tileLayerRef = useRef<L.TileLayer | null>(null);

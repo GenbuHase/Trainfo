@@ -7,19 +7,30 @@ import {
 } from '../../constants';
 import type { SimulationFps } from '../../constants';
 
-interface SettingsModalProps {
-  isOpen: boolean;
-  onClose: () => void;
+import { useUI } from '../../contexts/UIContext';
+import { useSimulation } from '../../contexts/SimulationContext';
+
+export interface SettingsModalProps {
+  isOpen?: boolean;
+  onClose?: () => void;
   currentFps?: SimulationFps;
   onChangeFps?: (fps: SimulationFps) => void;
 }
 
 export const SettingsModal: React.FC<SettingsModalProps> = ({
-  isOpen,
-  onClose,
-  currentFps,
-  onChangeFps,
+  isOpen: propIsOpen,
+  onClose: propOnClose,
+  currentFps: propCurrentFps,
+  onChangeFps: propOnChangeFps,
 }) => {
+  const ui = useUI();
+  const simulation = useSimulation();
+
+  const isOpen = propIsOpen !== undefined ? propIsOpen : ui.isSettingsOpen;
+  const onClose = propOnClose ?? ui.closeSettings;
+  const currentFps = propCurrentFps ?? simulation.simulationFps;
+  const onChangeFps = propOnChangeFps ?? simulation.setSimulationFps;
+
   const [selectedFps, setSelectedFps] = useState<SimulationFps>(currentFps || loadSimulationFps());
   const [saveSuccess, setSaveSuccess] = useState(false);
 
