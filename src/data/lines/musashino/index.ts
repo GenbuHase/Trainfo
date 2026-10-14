@@ -8,7 +8,7 @@ export const musashinoLine: LineDefinition = {
   name: 'JR武蔵野線',
   shortName: '武蔵野線',
   operator: 'JR東日本',
-  lineColor: '#f15a22', // 武蔵野線オレンジバーミリオン
+  lineColor: '#eb5c01', // 武蔵野線オレンジバーミリオン
   accentColor: '#c9252d', // 京葉線ワインレッド
   defaultCars: 8,
   defaultBounds: [

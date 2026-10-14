@@ -8,7 +8,7 @@ export const sotetsuIzuminoLine: LineDefinition = {
   name: '相鉄いずみ野線',
   shortName: 'いずみ野線',
   operator: '相模鉄道',
-  lineColor: '#002b66', // YOKOHAMA NAVYBLUE
+  lineColor: '#0073bc', // YOKOHAMA NAVYBLUE
   accentColor: '#008cd6',
   defaultCars: 10,
   defaultBounds: [

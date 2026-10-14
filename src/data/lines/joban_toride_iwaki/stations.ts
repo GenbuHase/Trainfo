@@ -25,7 +25,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -55,7 +54,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -87,7 +85,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -117,7 +114,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -147,7 +143,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -177,7 +172,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -207,7 +201,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -237,7 +230,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -267,7 +259,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -297,7 +288,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -327,7 +317,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -357,7 +346,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -389,7 +377,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -419,7 +406,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -449,7 +435,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -479,7 +464,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -512,7 +496,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -544,7 +527,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -574,7 +556,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -604,7 +585,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -634,7 +614,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -664,7 +643,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -694,7 +672,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -724,7 +701,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -754,7 +730,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -784,7 +759,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -814,7 +788,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -844,7 +817,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -874,7 +846,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -904,7 +875,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -934,7 +904,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -966,7 +935,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -996,7 +964,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -1026,7 +993,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],
@@ -1059,7 +1025,6 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "special_rapid",
       "limited_express"
     ],

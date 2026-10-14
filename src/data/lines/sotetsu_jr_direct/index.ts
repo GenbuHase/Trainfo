@@ -8,7 +8,7 @@ export const sotetsuJrDirectLine: LineDefinition = {
   name: '相鉄・JR直通線',
   shortName: '相鉄・JR直通線',
   operator: 'JR東日本',
-  lineColor: '#00ac9a',
+  lineColor: '#00ac84',
   accentColor: '#002b66',
   defaultCars: 10,
   defaultBounds: [

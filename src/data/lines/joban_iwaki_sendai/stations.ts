@@ -24,7 +24,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -53,7 +52,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -82,7 +80,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -111,7 +108,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -140,7 +136,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -169,7 +164,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -198,7 +192,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -227,7 +220,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -256,7 +248,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -285,7 +276,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -314,7 +304,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -343,7 +332,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -372,7 +360,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -401,7 +388,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -430,7 +416,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -459,7 +444,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -488,7 +472,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -517,7 +500,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -546,7 +528,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -575,7 +556,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -604,7 +584,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -633,7 +612,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -662,7 +640,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -691,7 +668,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -720,7 +696,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -749,7 +724,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -778,7 +752,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -807,7 +780,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -838,7 +810,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -869,7 +840,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -901,7 +871,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -932,7 +901,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -963,7 +931,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": false,
@@ -995,7 +962,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,
@@ -1032,7 +998,6 @@ export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limited_express"
     ],
     "isMajor": true,

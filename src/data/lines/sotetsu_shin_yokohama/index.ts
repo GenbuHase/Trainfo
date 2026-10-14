@@ -8,7 +8,7 @@ export const sotetsuShinYokohamaLine: LineDefinition = {
   name: '相鉄新横浜線',
   shortName: '相鉄新横浜線',
   operator: '相模鉄道',
-  lineColor: '#002b66', // YOKOHAMA NAVYBLUE
+  lineColor: '#0073bc', // YOKOHAMA NAVYBLUE
   accentColor: '#008cd6',
   defaultCars: 10,
   defaultBounds: [

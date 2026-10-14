@@ -8,7 +8,7 @@ export const odakyuTamaLine: LineDefinition = {
   name: '小田急多摩線',
   shortName: '多摩線',
   operator: '小田急電鉄',
-  lineColor: '#0065af',
+  lineColor: '#0085ce',
   accentColor: '#0065af',
   defaultCars: 8,
   stations: ODAKYU_TAMA_STATIONS,

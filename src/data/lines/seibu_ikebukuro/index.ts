@@ -8,7 +8,7 @@ export const seibuIkebukuroLine: LineDefinition = {
   name: '西武池袋線',
   shortName: '池袋線',
   operator: '西武鉄道',
-  lineColor: '#f39800', // 西武オレンジ
+  lineColor: '#ee7a00', // 西武オレンジ
   accentColor: '#003a8c', // 西武ブルー
   defaultCars: 10,
   defaultBounds: [

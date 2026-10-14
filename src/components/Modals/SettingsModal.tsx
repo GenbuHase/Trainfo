@@ -120,6 +120,29 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
               </div>
             </div>
           </section>
+
+          {/* 開発・デバッグメニュー */}
+          <section className="space-y-3 pt-3 border-t border-slate-200">
+            <h3 className="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
+              <span>開発・デバッグ</span>
+            </h3>
+            <button
+              type="button"
+              onClick={() => {
+                onClose();
+                ui.openDebug();
+              }}
+              className="w-full py-2.5 px-3 rounded-xl border border-slate-200 hover:border-blue-400 bg-slate-50 hover:bg-blue-50/50 text-slate-700 hover:text-blue-700 text-xs font-bold flex items-center justify-between transition-all group cursor-pointer shadow-2xs"
+            >
+              <div className="flex items-center gap-2">
+                <span className="w-2 h-2 rounded-full bg-blue-500" />
+                <span>路線・列車種別一覧（デバッグページ）</span>
+              </div>
+              <span className="text-[11px] text-slate-400 group-hover:text-blue-600 flex items-center gap-0.5">
+                開く →
+              </span>
+            </button>
+          </section>
         </div>
       </div>
     </div>

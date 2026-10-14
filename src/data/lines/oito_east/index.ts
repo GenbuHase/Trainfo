@@ -8,7 +8,7 @@ export const oitoEastLine: LineDefinition = {
   name: 'JR大糸線（松本～南小谷）',
   shortName: '大糸線（松本～南小谷）',
   operator: 'JR東日本',
-  lineColor: '#8a579e', // 大糸線パープル
+  lineColor: '#957490', // 大糸線パープル
   accentColor: '#734185',
   defaultCars: 2,
   defaultBounds: [

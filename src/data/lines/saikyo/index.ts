@@ -8,7 +8,7 @@ export const saikyoLine: LineDefinition = {
   name: 'JR埼京線',
   shortName: '埼京線',
   operator: 'JR東日本',
-  lineColor: '#00ac9a', // 埼京線エメラルドグリーン
+  lineColor: '#00ac84', // 埼京線エメラルドグリーン
   accentColor: '#007ac1', // 快速ブルー
   defaultCars: 10,
   defaultBounds: [

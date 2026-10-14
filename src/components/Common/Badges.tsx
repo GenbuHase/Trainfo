@@ -11,98 +11,98 @@ interface StationBadgeColor {
 const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   // 東武東上線
   TJ: {
-    borderColor: '#004b97',
+    borderColor: '#10428e',
     prefixColor: '#ed6d00',
-    numColor: '#004b97',
+    numColor: '#10428e',
   },
   // JR埼京線・JR川越線
   JA: {
-    borderColor: '#00ac9a',
-    prefixColor: '#00ac9a',
+    borderColor: '#00ac84',
+    prefixColor: '#00ac84',
     numColor: '#007060',
   },
   // JR武蔵野線
   JM: {
-    borderColor: '#f15a22',
-    prefixColor: '#f15a22',
+    borderColor: '#eb5c01',
+    prefixColor: '#eb5c01',
     numColor: '#c83e0c',
   },
   // JR京葉線
   JE: {
-    borderColor: '#c9252f',
-    prefixColor: '#c9252f',
+    borderColor: '#cf1225',
+    prefixColor: '#cf1225',
     numColor: '#a11820',
   },
   // JR中央線
   JC: {
-    borderColor: '#f15a22',
-    prefixColor: '#e65100',
+    borderColor: '#eb5c01',
+    prefixColor: '#eb5c01',
     numColor: '#b83b00',
   },
   // JR中央本線 (大月〜小淵沢)
   CO: {
-    borderColor: '#0072bc',
-    prefixColor: '#0072bc',
+    borderColor: '#0071c5',
+    prefixColor: '#0071c5',
     numColor: '#005bac',
   },
   // JR宇都宮線・高崎線 (大宮地上ホーム)
   JU: {
-    borderColor: '#f68b1f',
-    prefixColor: '#f68b1f',
+    borderColor: '#ff9845',
+    prefixColor: '#ff9845',
     numColor: '#cc6600',
   },
   // JR京浜東北線
   JK: {
-    borderColor: '#00a4e4',
-    prefixColor: '#00a4e4',
+    borderColor: '#00a7e3',
+    prefixColor: '#00a7e3',
     numColor: '#007aa8',
   },
   // JR湘南新宿ライン
   JS: {
-    borderColor: '#e21f26',
-    prefixColor: '#e21f26',
+    borderColor: '#de0515',
+    prefixColor: '#de0515',
     numColor: '#ad1117',
   },
   // つくばエクスプレス (首都圏新都市鉄道)
   TX: {
-    borderColor: '#003893',
+    borderColor: '#014081',
     prefixColor: '#df0011',
-    numColor: '#003893',
+    numColor: '#014081',
   },
   // JR篠ノ井線
   SN: {
-    borderColor: '#d56a29',
-    prefixColor: '#d56a29',
+    borderColor: '#cb5f12',
+    prefixColor: '#cb5f12',
     numColor: '#a84e15',
   },
   // JR東日本 大糸線
   OIE: {
-    borderColor: '#8a579e',
-    prefixColor: '#8a579e',
+    borderColor: '#957490',
+    prefixColor: '#957490',
     numColor: '#6c3b82',
   },
   // JR西日本 大糸線
   OW: {
-    borderColor: '#0067b8',
-    prefixColor: '#0067b8',
+    borderColor: '#0068b7',
+    prefixColor: '#0068b7',
     numColor: '#004d8a',
   },
   // 小田急小田原線
   OH: {
-    borderColor: '#0065af',
-    prefixColor: '#0065af',
+    borderColor: '#0085ce',
+    prefixColor: '#0085ce',
     numColor: '#004c85',
   },
   // 小田急江ノ島線
   OE: {
-    borderColor: '#0065af',
-    prefixColor: '#0065af',
+    borderColor: '#0085ce',
+    prefixColor: '#0085ce',
     numColor: '#004c85',
   },
   // 小田急多摩線
   OT: {
-    borderColor: '#0065af',
-    prefixColor: '#0065af',
+    borderColor: '#0085ce',
+    prefixColor: '#0085ce',
     numColor: '#004c85',
   },
   // 東京臨海高速鉄道りんかい線
@@ -119,51 +119,51 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   },
   // 東京メトロ副都心線
   F: {
-    borderColor: '#9c5f24',
-    prefixColor: '#9c5f24',
+    borderColor: '#9c5e31',
+    prefixColor: '#9c5e31',
     numColor: '#7a3e0c',
   },
   // 西武池袋線・西武有楽町線・西武秩父線
   SI: {
-    borderColor: '#f39800',
-    prefixColor: '#f39800',
+    borderColor: '#ee7a00',
+    prefixColor: '#ee7a00',
     numColor: '#b86600',
   },
   // JR八高線
   HA: {
-    borderColor: '#a8a39d',
-    prefixColor: '#a8a39d',
+    borderColor: '#a09d95',
+    prefixColor: '#a09d95',
     numColor: '#6e6964',
   },
   // 秩父鉄道秩父本線
   CR: {
-    borderColor: '#0073bc',
-    prefixColor: '#0073bc',
+    borderColor: '#01479d',
+    prefixColor: '#01479d',
     numColor: '#005b94',
   },
   // 東急東横線
   TY: {
-    borderColor: '#da0442',
-    prefixColor: '#da0442',
+    borderColor: '#da0042',
+    prefixColor: '#da0042',
     numColor: '#a80030',
   },
   // 横浜高速鉄道みなとみらい線
   MM: {
-    borderColor: '#002080',
-    prefixColor: '#002080',
-    numColor: '#001555',
+    borderColor: '#1a55a1',
+    prefixColor: '#1a55a1',
+    numColor: '#103d77',
   },
   // 東急新横浜線
   SH: {
-    borderColor: '#5b2d86',
-    prefixColor: '#5b2d86',
-    numColor: '#421d64',
+    borderColor: '#890d84',
+    prefixColor: '#890d84',
+    numColor: '#5c0859',
   },
   // 相模鉄道 (相鉄本線・いずみ野線・新横浜線)
   SO: {
-    borderColor: '#002b66',
-    prefixColor: '#002b66',
-    numColor: '#001b44',
+    borderColor: '#0073bc',
+    prefixColor: '#0073bc',
+    numColor: '#00558a',
   },
   // 東京メトロ千代田線
   C: {

@@ -85,8 +85,11 @@ flowchart TD
    * `name`: 正式路線名称（例: `東急東横線`、`相鉄本線`、`小田急小田原線`、`JR八高線`）
    * `shortName`: 略称（例: `東横線`、`本線`、`小田原線`、`八高線`）
    * `operator`: 運行事業者名（例: `東急電鉄`、`相模鉄道`、`小田急電鉄`、`JR東日本`）
-   * `lineColor`: 公式ラインカラー（HEX値、例: `#da0442`, `#002b66`, `#006cb7`）
-   * `accentColor`: アクセント/速達種別カラー（HEX値）
+   * `lineColor`: 公式ラインカラー（HEX値、例: `#da0042`, `#0073bc`, `#0085ce`）
+     * 原則としてニコニコ大百科「[鉄道路線のラインカラー一覧](https://dic.nicovideo.jp/a/%E9%89%84%E9%81%93%E8%B7%AF%E7%B7%9A%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%A9%E3%83%BC%E4%B8%80%E8%A6%A7)」に掲載された各社公式情報抽出カラーコードに準拠。
+   * `accentColor`: アクセント/副象徴カラー（HEX値）
+     * 看板速達種別（特快・急行など）、直通相手路線のシンボルカラー、車両帯のツートンカラー等から選定。
+     * 詳細は [`docs/LINE_COLORS_GUIDELINES.md`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/docs/LINE_COLORS_GUIDELINES.md) を参照。
    * `defaultBounds`: 初期表示バウンディングボックス（南西 `[lat, lng]`, 北東 `[lat, lng]`）
    * `directionNames`: 上り/下りの方向名（正式名称・短縮名称）
      * `inbound`: 例: `{ name: '上り 渋谷・副都心線方面', shortName: '渋谷方面' }`

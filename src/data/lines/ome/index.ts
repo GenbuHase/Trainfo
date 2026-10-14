@@ -8,7 +8,7 @@ export const omeLine: LineDefinition = {
   name: 'JR青梅線',
   shortName: '青梅線',
   operator: 'JR東日本',
-  lineColor: '#f15a22', // 中央線・青梅線オレンジバーミリオン
+  lineColor: '#eb5c01', // 中央線・青梅線オレンジバーミリオン
   accentColor: '#16a34a', // 青梅特快グリーン
   defaultCars: 10,
   defaultBounds: [

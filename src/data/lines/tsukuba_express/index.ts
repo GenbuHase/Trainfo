@@ -8,7 +8,7 @@ export const tsukubaExpressLine: LineDefinition = {
   name: '首都圏新都市鉄道つくばエクスプレス',
   shortName: 'つくばエクスプレス',
   operator: '首都圏新都市鉄道',
-  lineColor: '#003893', // TXディープブルー
+  lineColor: '#014081', // TXディープブルー
   accentColor: '#df0011', // TXスカーレットレッド
   defaultCars: 6,
   defaultBounds: [
