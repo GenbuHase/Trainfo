@@ -13,6 +13,14 @@ function timeToSec(t) {
   return h * 3600 + parts[1] * 60 + (parts[2] || 0);
 }
 
+function secToTime(sec) {
+  const norm = (Math.floor(sec) + 86400 * 2) % 86400;
+  const h = Math.floor(norm / 3600).toString().padStart(2, '0');
+  const m = Math.floor((norm % 3600) / 60).toString().padStart(2, '0');
+  const s = (norm % 60).toString().padStart(2, '0');
+  return `${h}:${m}:${s}`;
+}
+
 function extractYahooTrainId(tripId) {
   if (!tripId) return null;
   const parts = tripId.split('_');
@@ -171,9 +179,7 @@ function isLineDestinationMismatch(dest, targetLineId) {
   if (targetLineId === 'sotetsu_izumino') {
     return dest.includes('海老名');
   }
-  if (targetLineId === 'sotetsu_main') {
-    return dest.includes('湘南台');
-  }
+  // 相鉄本線（sotetsu_main）は西谷〜二俣川間をいずみ野線（湘南台方面）直通列車も走行するため除外しない
   return false;
 }
 
@@ -304,6 +310,14 @@ function linkPair({
         }
       }
 
+      // 相鉄新横浜線 -> 相鉄本線 (西谷駅下り)
+      // 湘南台行きは二俣川（SO-10）止まり（いずみ野線直通前提）のトリップに接続
+      if (lineAId === 'sotetsu_shin_yokohama' && lineBId === 'sotetsu_main') {
+        if (destA && destA.includes('湘南台') && tB.destinationStationId !== 'SO-10') {
+          continue;
+        }
+      }
+
       const stopB = allowMidStationB
         ? tB.stops.find((s) => s.stationId === stationBId)
         : tB.stops[0];
@@ -365,8 +379,27 @@ function linkPair({
       stopA.departureTime = syncArr;         // 先行路線は到着完了
       if (stopB) {
         stopB.arrivalTime = syncArr;         // 後続路線は到着した瞬間から発車待ち開始
-        if (timeToSec(stopB.departureTime) < timeToSec(syncArr)) {
+        const syncSec = timeToSec(syncArr);
+        if (timeToSec(stopB.departureTime) < syncSec) {
           stopB.departureTime = syncArr;
+        }
+
+        // 後続駅の時刻が境界駅の発車時刻より前になって逆転することを防止
+        const stopBIndex = bestB.stops.indexOf(stopB);
+        let curSec = timeToSec(stopB.departureTime);
+        for (let k = stopBIndex + 1; k < bestB.stops.length; k++) {
+          const s = bestB.stops[k];
+          let arrS = timeToSec(s.arrivalTime);
+          let depS = timeToSec(s.departureTime);
+          if (arrS !== null && arrS < curSec) {
+            s.arrivalTime = secToTime(curSec);
+            arrS = curSec;
+          }
+          if (depS !== null && depS < (arrS !== null ? arrS : curSec)) {
+            s.departureTime = secToTime(arrS !== null ? arrS : curSec);
+            depS = arrS !== null ? arrS : curSec;
+          }
+          curSec = depS !== null ? depS : (arrS !== null ? arrS : curSec);
         }
       }
 

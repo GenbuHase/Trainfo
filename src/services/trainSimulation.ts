@@ -161,14 +161,25 @@ export function calculateActiveTrains(
       const s = trip.stops[i];
       let arrSec = timeStringToSeconds(s.arrivalTime) + dayOffset;
       let depSec = timeStringToSeconds(s.departureTime) + dayOffset;
-      if (prevStopSec >= 0 && arrSec < prevStopSec) {
+
+      // 正当な日跨ぎ（深夜24〜27時台から早朝4時台以降への跨ぎ等）の場合のみ +86400
+      // （timeStringToSeconds は 0〜3時を 24〜27時に正規化するため、減少するのは4時跨ぎの約24時間巻き戻りのみ）
+      if (prevStopSec >= 0 && (prevStopSec - arrSec) > 12 * 3600) {
         dayOffset += 86400;
         arrSec += 86400;
         depSec += 86400;
-      } else if (prevStopSec >= 0 && depSec < arrSec) {
-        dayOffset += 86400;
-        depSec += 86400;
+      } else if (prevStopSec >= 0 && arrSec < prevStopSec) {
+        // 微小な時刻逆転（データ誤差・直通接続ズレ等）の場合は日跨ぎ（+24時間）と誤認させず前駅時刻でクランプ
+        arrSec = prevStopSec;
+        if (depSec < arrSec) {
+          depSec = arrSec;
+        }
       }
+
+      if (depSec < arrSec) {
+        depSec = arrSec;
+      }
+
       prevStopSec = depSec;
       stopTimes.push({ arrSec, depSec });
     }

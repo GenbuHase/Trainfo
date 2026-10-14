@@ -137,13 +137,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "05:24:00",
-        "departureTime": "05:25:00",
+        "departureTime": "05:24:00",
         "isPassing": false
       }
     ],
     "trainId": "111088",
     "prevTripId": "WD_OUT_SH-03_0510_111088",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0525_111088",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_0523_125056",
@@ -255,7 +257,9 @@
     ],
     "trainId": "111087",
     "prevTripId": "WD_OUT_SH-03_0531_111087",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0545_111087",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_0543_39200",
@@ -647,13 +651,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "06:38:00",
-        "departureTime": "06:39:00",
+        "departureTime": "06:38:00",
         "isPassing": false
       }
     ],
     "trainId": "106482",
     "prevTripId": "WD_OUT_SH-03_0623_106482",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0639_106482",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_0631_39203",
@@ -823,13 +829,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:00:00",
-        "departureTime": "07:01:00",
+        "departureTime": "07:00:00",
         "isPassing": false
       }
     ],
     "trainId": "82627",
     "prevTripId": "WD_OUT_SH-03_0642_82627",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0701_82627",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_0654_125142",
@@ -1075,11 +1083,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:18:00",
-        "departureTime": "07:22:00",
+        "departureTime": "07:18:00",
         "isPassing": false
       }
     ],
-    "trainId": "111089"
+    "trainId": "111089",
+    "throughTripId": "WD_OUT_SO-08_0722_111089",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_0716_125154",
@@ -1293,13 +1303,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:37:00",
-        "departureTime": "07:38:00",
+        "departureTime": "07:37:00",
         "isPassing": false
       }
     ],
     "trainId": "115273",
     "prevTripId": "WD_OUT_SH-03_0723_115273",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0738_115273",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_0733_125153",
@@ -1551,7 +1563,9 @@
     ],
     "trainId": "157861",
     "prevTripId": "WD_OUT_SH-03_0742_157861",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0756_157861",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_0752_125147",
@@ -1625,7 +1639,9 @@
     ],
     "trainId": "115272",
     "prevTripId": "WD_OUT_SH-03_0747_115272",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0802_115272",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_0756_125101",
@@ -1979,13 +1995,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:27:00",
-        "departureTime": "08:28:00",
+        "departureTime": "08:27:00",
         "isPassing": false
       }
     ],
     "trainId": "115256",
     "prevTripId": "WD_OUT_SH-03_0813_115256",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0828_115256",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-51_0822_39346",
@@ -2223,13 +2241,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:41:00",
-        "departureTime": "08:42:00",
+        "departureTime": "08:41:00",
         "isPassing": false
       }
     ],
     "trainId": "157862",
     "prevTripId": "WD_OUT_SH-03_0825_157862",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0842_157862",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_0840_125173",
@@ -2329,13 +2349,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:57:00",
-        "departureTime": "08:58:00",
+        "departureTime": "08:57:00",
         "isPassing": false
       }
     ],
     "trainId": "75567",
     "prevTripId": "WD_OUT_SH-03_0838_75567",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0858_75567",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_0850_125073",
@@ -3035,13 +3057,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:53:00",
-        "departureTime": "09:54:00",
+        "departureTime": "09:53:00",
         "isPassing": false
       }
     ],
     "trainId": "75588",
     "prevTripId": "WD_OUT_SH-03_0938_75588",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0954_75588",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_0953_125165",
@@ -3782,7 +3806,9 @@
     ],
     "trainId": "106468",
     "prevTripId": "WD_OUT_SH-03_1054_106468",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1112_106468",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-51_1112_39399",
@@ -4052,13 +4078,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "11:53:00",
-        "departureTime": "11:54:00",
+        "departureTime": "11:53:00",
         "isPassing": false
       }
     ],
     "trainId": "106469",
     "prevTripId": "WD_OUT_SH-03_1135_106469",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1154_106469",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1152_125206",
@@ -4266,13 +4294,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:23:00",
-        "departureTime": "12:24:00",
+        "departureTime": "12:23:00",
         "isPassing": false
       }
     ],
     "trainId": "75594",
     "prevTripId": "WD_OUT_SH-03_1209_75594",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1224_75594",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-51_1218_39406",
@@ -4512,13 +4542,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:53:00",
-        "departureTime": "12:54:00",
+        "departureTime": "12:53:00",
         "isPassing": false
       }
     ],
     "trainId": "115259",
     "prevTripId": "WD_OUT_SH-03_1239_115259",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1254_115259",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1252_125209",
@@ -4726,13 +4758,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "13:23:00",
-        "departureTime": "13:24:00",
+        "departureTime": "13:23:00",
         "isPassing": false
       }
     ],
     "trainId": "75596",
     "prevTripId": "WD_OUT_SH-03_1309_75596",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1324_75596",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1322_125180",
@@ -4940,13 +4974,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "13:53:00",
-        "departureTime": "13:54:00",
+        "departureTime": "13:53:00",
         "isPassing": false
       }
     ],
     "trainId": "115262",
     "prevTripId": "WD_OUT_SH-03_1339_115262",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1354_115262",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1352_125199",
@@ -5154,13 +5190,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "14:23:00",
-        "departureTime": "14:24:00",
+        "departureTime": "14:23:00",
         "isPassing": false
       }
     ],
     "trainId": "75598",
     "prevTripId": "WD_OUT_SH-03_1409_75598",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1424_75598",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1422_125182",
@@ -5368,13 +5406,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "14:53:00",
-        "departureTime": "14:54:00",
+        "departureTime": "14:53:00",
         "isPassing": false
       }
     ],
     "trainId": "115264",
     "prevTripId": "WD_OUT_SH-03_1439_115264",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1454_115264",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1452_125201",
@@ -5582,13 +5622,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "15:23:00",
-        "departureTime": "15:24:00",
+        "departureTime": "15:23:00",
         "isPassing": false
       }
     ],
     "trainId": "75600",
     "prevTripId": "WD_OUT_SH-03_1509_75600",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1524_75600",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1522_125149",
@@ -5796,13 +5838,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "15:53:00",
-        "departureTime": "15:54:00",
+        "departureTime": "15:53:00",
         "isPassing": false
       }
     ],
     "trainId": "115265",
     "prevTripId": "WD_OUT_SH-03_1539_115265",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1554_115265",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1552_125212",
@@ -6010,13 +6054,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "16:23:00",
-        "departureTime": "16:24:00",
+        "departureTime": "16:23:00",
         "isPassing": false
       }
     ],
     "trainId": "75601",
     "prevTripId": "WD_OUT_SH-03_1609_75601",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1624_75601",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1622_39258",
@@ -6192,13 +6238,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "16:43:00",
-        "departureTime": "16:44:00",
+        "departureTime": "16:43:00",
         "isPassing": false
       }
     ],
     "trainId": "106470",
     "prevTripId": "WD_OUT_SH-03_1629_106470",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1644_106470",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1641_39210",
@@ -6468,13 +6516,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:19:00",
-        "departureTime": "17:23:00",
+        "departureTime": "17:19:00",
         "isPassing": false
       }
     ],
     "trainId": "82624",
     "prevTripId": "WD_OUT_SH-03_1701_82624",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1723_82624",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1713_125221",
@@ -6610,13 +6660,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:30:00",
-        "departureTime": "17:31:00",
+        "departureTime": "17:30:00",
         "isPassing": false
       }
     ],
     "trainId": "75603",
     "prevTripId": "WD_OUT_SH-03_1716_75603",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1731_75603",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-52_1727_157847",
@@ -6896,13 +6948,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:00:00",
-        "departureTime": "18:01:00",
+        "departureTime": "18:00:00",
         "isPassing": false
       }
     ],
     "trainId": "115257",
     "prevTripId": "WD_OUT_SH-03_1746_115257",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1801_115257",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-51_1755_39428",
@@ -7108,13 +7162,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:15:00",
-        "departureTime": "18:17:00",
+        "departureTime": "18:15:00",
         "isPassing": false
       }
     ],
     "trainId": "75604",
     "prevTripId": "WD_OUT_SH-03_1801_75604",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1817_75604",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1810_125076",
@@ -7322,13 +7378,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:33:00",
-        "departureTime": "18:35:00",
+        "departureTime": "18:33:00",
         "isPassing": false
       }
     ],
     "trainId": "75605",
     "prevTripId": "WD_OUT_SH-03_1816_75605",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1835_75605",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1832_125170",
@@ -7650,13 +7708,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:04:00",
-        "departureTime": "19:05:00",
+        "departureTime": "19:04:00",
         "isPassing": false
       }
     ],
     "trainId": "75613",
     "prevTripId": "WD_OUT_SH-03_1846_75613",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1905_75613",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-51_1858_39460",
@@ -7826,13 +7886,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:15:00",
-        "departureTime": "19:18:00",
+        "departureTime": "19:15:00",
         "isPassing": false
       }
     ],
     "trainId": "115271",
     "prevTripId": "WD_OUT_SH-03_1901_115271",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1918_115271",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1914_125088",
@@ -8038,13 +8100,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:34:00",
-        "departureTime": "19:35:00",
+        "departureTime": "19:34:00",
         "isPassing": false
       }
     ],
     "trainId": "115268",
     "prevTripId": "WD_OUT_SH-03_1916_115268",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1935_115268",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_1934_125213",
@@ -8112,13 +8176,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:46:00",
-        "departureTime": "19:47:00",
+        "departureTime": "19:46:00",
         "isPassing": false
       }
     ],
     "trainId": "75589",
     "prevTripId": "WD_OUT_SH-03_1931_75589",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_1947_75589",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-51_1939_39462",
@@ -8326,13 +8392,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:05:00",
-        "departureTime": "20:06:00",
+        "departureTime": "20:05:00",
         "isPassing": false
       }
     ],
     "trainId": "75614",
     "prevTripId": "WD_OUT_SH-03_1946_75614",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_2006_75614",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-51_1958_39463",
@@ -8464,13 +8532,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:15:00",
-        "departureTime": "20:19:00",
+        "departureTime": "20:15:00",
         "isPassing": false
       }
     ],
     "trainId": "115253",
     "prevTripId": "WD_OUT_SH-03_2001_115253",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_2019_115253",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_2012_125133",
@@ -8678,13 +8748,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:34:00",
-        "departureTime": "20:39:00",
+        "departureTime": "20:34:00",
         "isPassing": false
       }
     ],
     "trainId": "75608",
     "prevTripId": "WD_OUT_SH-03_2017_75608",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_2039_75608",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_2034_125192",
@@ -8816,13 +8888,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:46:00",
-        "departureTime": "20:49:00",
+        "departureTime": "20:46:00",
         "isPassing": false
       }
     ],
     "trainId": "75609",
     "prevTripId": "WD_OUT_SH-03_2031_75609",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_2049_75609",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_2044_125080",
@@ -8966,13 +9040,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:05:00",
-        "departureTime": "21:06:00",
+        "departureTime": "21:05:00",
         "isPassing": false
       }
     ],
     "trainId": "106481",
     "prevTripId": "WD_OUT_SH-03_2051_106481",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_2106_106481",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-51_2059_39465",
@@ -9282,13 +9358,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:32:00",
-        "departureTime": "21:35:00",
+        "departureTime": "21:32:00",
         "isPassing": false
       }
     ],
     "trainId": "75611",
     "prevTripId": "WD_OUT_SH-03_2116_75611",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_2135_75611",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_2135_125215",
@@ -9502,13 +9580,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:03:00",
-        "departureTime": "22:05:00",
+        "departureTime": "22:03:00",
         "isPassing": false
       }
     ],
     "trainId": "115254",
     "prevTripId": "WD_OUT_SH-03_2146_115254",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_2205_115254",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_2155_39283",
@@ -9854,13 +9934,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:33:00",
-        "departureTime": "22:34:00",
+        "departureTime": "22:33:00",
         "isPassing": false
       }
     ],
     "trainId": "75612",
     "prevTripId": "WD_OUT_SH-03_2216_75612",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_2234_75612",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_2229_39221",
@@ -9959,11 +10041,14 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:43:00",
-        "departureTime": "22:45:00",
+        "departureTime": "22:43:00",
         "isPassing": false
       }
     ],
-    "trainId": "125050"
+    "trainId": "125050",
+    "throughTripId": "WD_OUT_SO-08_2245_125050",
+    "throughLineId": "sotetsu_main",
+    "customOrigin": "新横浜"
   },
   {
     "tripId": "WD_OUT_SO-51_2237_39442",
@@ -10207,13 +10292,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:16:00",
-        "departureTime": "23:17:00",
+        "departureTime": "23:16:00",
         "isPassing": false
       }
     ],
     "trainId": "115267",
     "prevTripId": "WD_OUT_SH-03_2301_115267",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_2317_115267",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_INB_SO-08_2314_125228",
@@ -10325,7 +10412,9 @@
     ],
     "trainId": "106472",
     "prevTripId": "WD_OUT_SH-03_2316_106472",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_2331_106472",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-51_2332_39445",
@@ -10505,7 +10594,9 @@
     ],
     "trainId": "106474",
     "prevTripId": "WD_OUT_SH-03_2342_106474",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "WD_OUT_SO-08_0000_106474",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "WD_OUT_SO-51_2354_39448",
@@ -10859,13 +10950,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "05:56:00",
-        "departureTime": "05:57:00",
+        "departureTime": "05:56:00",
         "isPassing": false
       }
     ],
     "trainId": "106467",
     "prevTripId": "HD_OUT_SH-03_0542_106467",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_0557_106467",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_0558_125057",
@@ -11042,7 +11135,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "125049"
+    "trainId": "125049",
+    "throughTripId": "HD_OUT_SO-08_0629_125049",
+    "throughLineId": "sotetsu_main",
+    "customOrigin": "新横浜"
   },
   {
     "tripId": "HD_INB_SO-08_0622_125069",
@@ -11756,13 +11852,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "07:52:00",
-        "departureTime": "07:55:00",
+        "departureTime": "07:52:00",
         "isPassing": false
       }
     ],
     "trainId": "115269",
     "prevTripId": "HD_OUT_SH-03_0737_115269",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_0755_115269",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_0747_39294",
@@ -11898,13 +11996,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:04:00",
-        "departureTime": "08:06:00",
+        "departureTime": "08:04:00",
         "isPassing": false
       }
     ],
     "trainId": "111086",
     "prevTripId": "HD_OUT_SH-03_0750_111086",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_0806_111086",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_0758_125155",
@@ -12142,11 +12242,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:27:00",
-        "departureTime": "08:29:00",
+        "departureTime": "08:27:00",
         "isPassing": false
       }
     ],
-    "trainId": "75590"
+    "trainId": "75590",
+    "throughTripId": "HD_OUT_SO-08_0829_75590",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-51_0822_39355",
@@ -12284,11 +12386,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:38:00",
-        "departureTime": "08:39:00",
+        "departureTime": "08:38:00",
         "isPassing": false
       }
     ],
-    "trainId": "157863"
+    "trainId": "157863",
+    "throughTripId": "HD_OUT_SO-08_0839_157863",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-51_0831_39347",
@@ -12382,13 +12486,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:43:00",
-        "departureTime": "08:46:00",
+        "departureTime": "08:43:00",
         "isPassing": false
       }
     ],
     "trainId": "82623",
     "prevTripId": "HD_OUT_SH-03_0829_82623",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_0846_82623",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_0843_125083",
@@ -12456,13 +12562,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "08:53:00",
-        "departureTime": "08:54:00",
+        "departureTime": "08:53:00",
         "isPassing": false
       }
     ],
     "trainId": "115270",
     "prevTripId": "HD_OUT_SH-03_0838_115270",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_0854_115270",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-51_0848_39356",
@@ -12736,13 +12844,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:16:00",
-        "departureTime": "09:18:00",
+        "departureTime": "09:16:00",
         "isPassing": false
       }
     ],
     "trainId": "157860",
     "prevTripId": "HD_OUT_SH-03_0902_157860",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_0918_157860",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_0914_39206",
@@ -13154,13 +13264,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "09:53:00",
-        "departureTime": "09:54:00",
+        "departureTime": "09:53:00",
         "isPassing": false
       }
     ],
     "trainId": "115250",
     "prevTripId": "HD_OUT_SH-03_0939_115250",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_0954_115250",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_0953_125203",
@@ -13442,13 +13554,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "10:23:00",
-        "departureTime": "10:24:00",
+        "departureTime": "10:23:00",
         "isPassing": false
       }
     ],
     "trainId": "75591",
     "prevTripId": "HD_OUT_SH-03_1009_75591",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1024_75591",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1019_125176",
@@ -13654,13 +13768,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "10:57:00",
-        "departureTime": "10:59:00",
+        "departureTime": "10:57:00",
         "isPassing": false
       }
     ],
     "trainId": "115251",
     "prevTripId": "HD_OUT_SH-03_1039_115251",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1059_115251",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1049_125204",
@@ -13932,13 +14048,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "11:23:00",
-        "departureTime": "11:24:00",
+        "departureTime": "11:23:00",
         "isPassing": false
       }
     ],
     "trainId": "75592",
     "prevTripId": "HD_OUT_SH-03_1109_75592",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1124_75592",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-51_1117_39400",
@@ -14176,13 +14294,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "11:53:00",
-        "departureTime": "11:54:00",
+        "departureTime": "11:53:00",
         "isPassing": false
       }
     ],
     "trainId": "115258",
     "prevTripId": "HD_OUT_SH-03_1139_115258",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1154_115258",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1152_125207",
@@ -14390,13 +14510,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:23:00",
-        "departureTime": "12:24:00",
+        "departureTime": "12:23:00",
         "isPassing": false
       }
     ],
     "trainId": "75593",
     "prevTripId": "HD_OUT_SH-03_1209_75593",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1224_75593",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-51_1218_39405",
@@ -14636,13 +14758,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "12:53:00",
-        "departureTime": "12:54:00",
+        "departureTime": "12:53:00",
         "isPassing": false
       }
     ],
     "trainId": "115260",
     "prevTripId": "HD_OUT_SH-03_1239_115260",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1254_115260",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1252_125208",
@@ -14850,13 +14974,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "13:23:00",
-        "departureTime": "13:24:00",
+        "departureTime": "13:23:00",
         "isPassing": false
       }
     ],
     "trainId": "75595",
     "prevTripId": "HD_OUT_SH-03_1309_75595",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1324_75595",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1322_125181",
@@ -15064,13 +15190,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "13:53:00",
-        "departureTime": "13:54:00",
+        "departureTime": "13:53:00",
         "isPassing": false
       }
     ],
     "trainId": "115261",
     "prevTripId": "HD_OUT_SH-03_1339_115261",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1354_115261",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1352_125210",
@@ -15278,13 +15406,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "14:23:00",
-        "departureTime": "14:24:00",
+        "departureTime": "14:23:00",
         "isPassing": false
       }
     ],
     "trainId": "75597",
     "prevTripId": "HD_OUT_SH-03_1409_75597",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1424_75597",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1422_125183",
@@ -15492,13 +15622,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "14:53:00",
-        "departureTime": "14:54:00",
+        "departureTime": "14:53:00",
         "isPassing": false
       }
     ],
     "trainId": "115263",
     "prevTripId": "HD_OUT_SH-03_1439_115263",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1454_115263",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1452_125200",
@@ -15706,13 +15838,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "15:23:00",
-        "departureTime": "15:24:00",
+        "departureTime": "15:23:00",
         "isPassing": false
       }
     ],
     "trainId": "75599",
     "prevTripId": "HD_OUT_SH-03_1509_75599",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1524_75599",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1522_125150",
@@ -15920,13 +16054,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "15:53:00",
-        "departureTime": "15:54:00",
+        "departureTime": "15:53:00",
         "isPassing": false
       }
     ],
     "trainId": "115266",
     "prevTripId": "HD_OUT_SH-03_1539_115266",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1554_115266",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1552_125211",
@@ -16134,13 +16270,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "16:23:00",
-        "departureTime": "16:24:00",
+        "departureTime": "16:23:00",
         "isPassing": false
       }
     ],
     "trainId": "75602",
     "prevTripId": "HD_OUT_SH-03_1609_75602",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1624_75602",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1622_39257",
@@ -16462,7 +16600,9 @@
     ],
     "trainId": "157864",
     "prevTripId": "HD_OUT_SH-03_1647_157864",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1703_157864",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1658_125130",
@@ -16710,7 +16850,9 @@
     ],
     "trainId": "157865",
     "prevTripId": "HD_OUT_SH-03_1717_157865",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1731_157865",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1726_39263",
@@ -16842,13 +16984,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "17:40:00",
-        "departureTime": "17:41:00",
+        "departureTime": "17:40:00",
         "isPassing": false
       }
     ],
     "trainId": "75565",
     "prevTripId": "HD_OUT_SH-03_1724_75565",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1741_75565",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-52_1739_76648",
@@ -17062,13 +17206,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:07:00",
-        "departureTime": "18:09:00",
+        "departureTime": "18:07:00",
         "isPassing": false
       }
     ],
     "trainId": "157866",
     "prevTripId": "HD_OUT_SH-03_1747_157866",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1809_157866",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-51_1759_39456",
@@ -17168,13 +17314,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:10:00",
-        "departureTime": "18:11:00",
+        "departureTime": "18:10:00",
         "isPassing": false
       }
     ],
     "trainId": "115252",
     "prevTripId": "HD_OUT_SH-03_1754_115252",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1811_115252",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1806_39266",
@@ -17450,13 +17598,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "18:38:00",
-        "departureTime": "18:41:00",
+        "departureTime": "18:38:00",
         "isPassing": false
       }
     ],
     "trainId": "75606",
     "prevTripId": "HD_OUT_SH-03_1824_75606",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1841_75606",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1833_125094",
@@ -17700,13 +17850,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:04:00",
-        "departureTime": "19:06:00",
+        "departureTime": "19:04:00",
         "isPassing": false
       }
     ],
     "trainId": "157867",
     "prevTripId": "HD_OUT_SH-03_1847_157867",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1906_157867",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-51_1858_39430",
@@ -17908,11 +18060,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:23:00",
-        "departureTime": "19:26:00",
+        "departureTime": "19:23:00",
         "isPassing": false
       }
     ],
-    "trainId": "82626"
+    "trainId": "82626",
+    "throughTripId": "HD_OUT_SO-08_1926_82626",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1917_125166",
@@ -17978,13 +18132,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "19:30:00",
-        "departureTime": "19:31:00",
+        "departureTime": "19:30:00",
         "isPassing": false
       }
     ],
     "trainId": "75566",
     "prevTripId": "HD_OUT_SH-03_1916_75566",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1931_75566",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1923_39271",
@@ -18158,7 +18314,9 @@
     ],
     "trainId": "76650",
     "prevTripId": "HD_OUT_SH-03_1932_76650",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_1946_76650",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_1943_125214",
@@ -18332,13 +18490,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:04:00",
-        "departureTime": "20:06:00",
+        "departureTime": "20:04:00",
         "isPassing": false
       }
     ],
     "trainId": "157868",
     "prevTripId": "HD_OUT_SH-03_1949_157868",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_2006_157868",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-51_1958_39433",
@@ -18506,13 +18666,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:24:00",
-        "departureTime": "20:26:00",
+        "departureTime": "20:24:00",
         "isPassing": false
       }
     ],
     "trainId": "75607",
     "prevTripId": "HD_OUT_SH-03_2009_75607",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_2026_75607",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-51_2018_39435",
@@ -18750,13 +18912,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "20:49:00",
-        "departureTime": "20:51:00",
+        "departureTime": "20:49:00",
         "isPassing": false
       }
     ],
     "trainId": "106471",
     "prevTripId": "HD_OUT_SH-03_2032_106471",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_2051_106471",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_2043_39277",
@@ -18956,13 +19120,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:15:00",
-        "departureTime": "21:18:00",
+        "departureTime": "21:15:00",
         "isPassing": false
       }
     ],
     "trainId": "75610",
     "prevTripId": "HD_OUT_SH-03_2058_75610",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_2118_75610",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_2109_126187",
@@ -19130,13 +19296,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "21:34:00",
-        "departureTime": "21:38:00",
+        "departureTime": "21:34:00",
         "isPassing": false
       }
     ],
     "trainId": "157869",
     "prevTripId": "HD_OUT_SH-03_2119_157869",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_2138_157869",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_INB_SO-08_2131_125085",
@@ -19520,13 +19688,15 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "22:23:00",
-        "departureTime": "22:26:00",
+        "departureTime": "22:23:00",
         "isPassing": false
       }
     ],
     "trainId": "115255",
     "prevTripId": "HD_OUT_SH-03_2208_115255",
-    "prevLineId": "tokyu_shin_yokohama"
+    "prevLineId": "tokyu_shin_yokohama",
+    "throughTripId": "HD_OUT_SO-08_2226_115255",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-52_2222_157848",
@@ -20019,11 +20189,13 @@
       {
         "stationId": "SO-08",
         "arrivalTime": "23:38:00",
-        "departureTime": "23:41:00",
+        "departureTime": "23:38:00",
         "isPassing": false
       }
     ],
-    "trainId": "106473"
+    "trainId": "106473",
+    "throughTripId": "HD_OUT_SO-08_2341_106473",
+    "throughLineId": "sotetsu_main"
   },
   {
     "tripId": "HD_OUT_SO-51_2334_39446",
