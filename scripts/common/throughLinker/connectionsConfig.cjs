@@ -392,5 +392,49 @@ module.exports = {
       maxTimeDiff: 300,
       allowMidStationA: true,
     },
+
+    // 18. 小田急小田原線 ↔ 東京メトロ千代田線 (代々木上原駅)
+    {
+      name: '小田急小田原線 -> 千代田線 (上り/我孫子方面直通)',
+      lineA: 'odakyu_odawara',
+      lineB: 'chiyoda',
+      stationA: 'OH-05',
+      stationB: 'C-01',
+      dirA: 'inbound',
+      dirB: 'outbound',
+      maxTimeDiff: 300,
+    },
+    {
+      name: '千代田線 -> 小田急小田原線 (下り/本厚木・小田原方面直通)',
+      lineA: 'chiyoda',
+      lineB: 'odakyu_odawara',
+      stationA: 'C-01',
+      stationB: 'OH-05',
+      dirA: 'inbound',
+      dirB: 'outbound',
+      maxTimeDiff: 300,
+    },
+
+    // 19. 東京メトロ千代田線 ↔ JR常磐線 (綾瀬駅)
+    {
+      name: '千代田線 -> JR常磐線 (下り/柏・我孫子・取手方面直通)',
+      lineA: 'chiyoda',
+      lineB: 'joban',
+      stationA: 'C-19',
+      stationB: 'JL-19',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 300,
+    },
+    {
+      name: 'JR常磐線 -> 千代田線 (上り/代々木上原方面直通)',
+      lineA: 'joban',
+      lineB: 'chiyoda',
+      stationA: 'JL-19',
+      stationB: 'C-19',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 300,
+    },
   ],
 };

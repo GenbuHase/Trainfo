@@ -6,7 +6,7 @@
   "homepage": "https://genbuhase.github.io/Trainfo",
   "scripts": {
     "dev": "vite --host",
-    "build": "tsc -b && vite build",
+    "build": "node --max-old-space-size=8192 ./node_modules/typescript/bin/tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
     "predeploy": "npm run build",

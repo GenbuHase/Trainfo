@@ -1,0 +1,55 @@
+// JR常磐線 列車種別設定
+import type { TrainTypeConfig } from '../../../types';
+
+export const JOBAN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
+  local: {
+    key: 'local',
+    name: '各駅停車',
+    nameEn: 'Local',
+    shortName: '各停',
+    color: '#00b261',
+    textColor: '#ffffff',
+    bgColor: '#00b261',
+    borderColor: '#008a4b',
+  },
+  semiExp: {
+    key: 'semiExp',
+    name: '準急',
+    nameEn: 'Semi Express',
+    shortName: '準急',
+    color: '#3cb371',
+    textColor: '#ffffff',
+    bgColor: '#3cb371',
+    borderColor: '#2e8b57',
+  },
+  commuter_semi: {
+    key: 'commuter_semi',
+    name: '通勤準急',
+    nameEn: 'Commuter Semi Express',
+    shortName: '通準',
+    color: '#2e8b57',
+    textColor: '#ffffff',
+    bgColor: '#2e8b57',
+    borderColor: '#1e5e3a',
+  },
+  express: {
+    key: 'express',
+    name: '急行',
+    nameEn: 'Express',
+    shortName: '急行',
+    color: '#e05a00',
+    textColor: '#ffffff',
+    bgColor: '#e05a00',
+    borderColor: '#b84900',
+  },
+  commuter_exp: {
+    key: 'commuter_exp',
+    name: '通勤急行',
+    nameEn: 'Commuter Express',
+    shortName: '通急',
+    color: '#d63031',
+    textColor: '#ffffff',
+    bgColor: '#d63031',
+    borderColor: '#b71540',
+  },
+};

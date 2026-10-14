@@ -165,6 +165,18 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#002b66',
     numColor: '#001b44',
   },
+  // 東京メトロ千代田線
+  C: {
+    borderColor: '#00bb85',
+    prefixColor: '#00bb85',
+    numColor: '#008a62',
+  },
+  // JR常磐線（各駅停車）
+  JL: {
+    borderColor: '#00b261',
+    prefixColor: '#00b261',
+    numColor: '#008548',
+  },
 };
 
 const DEFAULT_BADGE_COLOR: StationBadgeColor = {

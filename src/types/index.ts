@@ -31,6 +31,8 @@ export type LineId =
   | 'sotetsu_main'
   | 'sotetsu_izumino'
   | 'sotetsu_jr_direct'
+  | 'chiyoda'
+  | 'joban'
   | (string & {});
 
 

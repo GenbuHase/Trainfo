@@ -252,6 +252,22 @@ const TIMETABLE_LOADERS: Record<string, LoaderFn> = {
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
+  chiyoda: () =>
+    Promise.all([
+      import('./lines/chiyoda/globalTimetable.json'),
+      import('./lines/chiyoda/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  joban: () =>
+    Promise.all([
+      import('./lines/joban/globalTimetable.json'),
+      import('./lines/joban/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
 };
 
 // ロード済み路線のIDセット

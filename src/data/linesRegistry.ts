@@ -29,6 +29,8 @@ import { sotetsuShinYokohamaLine } from './lines/sotetsu_shin_yokohama';
 import { sotetsuMainLine } from './lines/sotetsu_main';
 import { sotetsuIzuminoLine } from './lines/sotetsu_izumino';
 import { sotetsuJrDirectLine } from './lines/sotetsu_jr_direct';
+import { chiyodaLine } from './lines/chiyoda';
+import { jobanLine } from './lines/joban';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -39,6 +41,8 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   rinkai: rinkaiLine,
   yurakucho: yurakuchoLine,
   fukutoshin: fukutoshinLine,
+  chiyoda: chiyodaLine,
+  joban: jobanLine,
   seibu_ikebukuro: seibuIkebukuroLine,
   seibu_yurakucho: seibuYurakuchoLine,
   tokyu_toyoko: tokyuToyokoLine,
