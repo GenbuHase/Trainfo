@@ -35,6 +35,8 @@ module.exports = {
     'S-TRAIN': 'strain',
     'Ｓ－ＴＲＡＩＮ': 'strain',
   },
+  // 西武有楽町線は全3駅ですが、直通便の準急・快速・快速急行・急行の案内種別を保持
+  preserveAllStopsTypes: ['semiExp', 'rapid', 'rapidExp', 'express', 'strain'],
   defaultCars: 10,
   baseSectionSeconds: {
     1: 90,  // 小竹向原 -> 新桜台

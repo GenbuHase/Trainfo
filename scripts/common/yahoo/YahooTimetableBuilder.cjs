@@ -323,6 +323,14 @@ class YahooTimetableBuilder {
       const originSt = firstStop.station;
       const destSt = lastStop.station;
 
+      // 始発駅名
+      const originalFirstStop = stopStation[0];
+      const resolvedFirstStopSt = this.resolveStation(originalFirstStop.stationName);
+      const isInternalOrigin = resolvedFirstStopSt && resolvedFirstStopSt.id === originSt.id;
+      const customOrigName = this.config.stationNameAliases?.[originalFirstStop.stationName] || originalFirstStop.stationName;
+      const customOrigin = isInternalOrigin ? undefined : customOrigName;
+
+      // 行き先名
       const originalLastStop = stopStation[stopStation.length - 1];
       const resolvedLastStopSt = this.resolveStation(originalLastStop.stationName);
       const isInternalDestination = resolvedLastStopSt && resolvedLastStopSt.id === destSt.id;
@@ -340,6 +348,7 @@ class YahooTimetableBuilder {
         direction,
         originStationId: originSt.id,
         destinationStationId: destSt.id,
+        customOrigin,
         customDestination,
         cars: this.config.defaultCars || 8,
         isHoliday,
@@ -479,6 +488,13 @@ class YahooTimetableBuilder {
     const originSt = firstStop.station;
     const destSt = lastStop.station;
 
+    // 始発駅名
+    const originalFirstStop = stopStation[0];
+    const resolvedFirstStopSt = this.resolveStation(originalFirstStop.stationName);
+    const isInternalOrigin = resolvedFirstStopSt && resolvedFirstStopSt.id === originSt.id;
+    const customOrigName = this.config.stationNameAliases?.[originalFirstStop.stationName] || originalFirstStop.stationName;
+    const customOrigin = isInternalOrigin ? undefined : customOrigName;
+
     // 行き先名
     const originalLastStop = stopStation[stopStation.length - 1];
     const resolvedLastStopSt = this.resolveStation(originalLastStop.stationName);
@@ -497,6 +513,7 @@ class YahooTimetableBuilder {
       direction,
       originStationId: originSt.id,
       destinationStationId: destSt.id,
+      customOrigin,
       customDestination,
       cars: this.config.resolveCars
         ? this.config.resolveCars({

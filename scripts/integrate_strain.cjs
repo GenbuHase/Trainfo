@@ -2,6 +2,23 @@
 const fs = require('fs');
 const path = require('path');
 
+function safeWriteJson(filePath, data) {
+  const content = typeof data === 'string' ? data : JSON.stringify(data, null, 2);
+  let attempts = 0;
+  while (attempts < 5) {
+    try {
+      fs.writeFileSync(filePath, content, 'utf8');
+      return;
+    } catch (e) {
+      attempts++;
+      if (attempts >= 5) throw e;
+      const start = Date.now();
+      while (Date.now() - start < 100) {}
+    }
+  }
+}
+
+
 // 秒数・時刻ヘルパー
 function toSec(hhmm) {
   if (!hhmm) return null;
@@ -471,10 +488,10 @@ function main() {
   }
 
   // globalTimetable.json の保存
-  fs.writeFileSync(yPath, JSON.stringify(yTrips, null, 2), 'utf8');
-  fs.writeFileSync(fPath, JSON.stringify(fTrips, null, 2), 'utf8');
-  fs.writeFileSync(syPath, JSON.stringify(syTrips, null, 2), 'utf8');
-  fs.writeFileSync(siPath, JSON.stringify(siTrips, null, 2), 'utf8');
+  safeWriteJson(yPath, yTrips);
+  safeWriteJson(fPath, fTrips);
+  safeWriteJson(syPath, syTrips);
+  safeWriteJson(siPath, siTrips);
   console.log('\n✨ 全4路線の globalTimetable.json に S-TRAIN 12便を完全注入・相互リンクしました！');
 
   // ============================================================
@@ -550,10 +567,10 @@ function main() {
   injectStrainDepartures(syTrips, syST);
   injectStrainDepartures(siTrips, siST);
 
-  fs.writeFileSync(ySTPath, JSON.stringify(yST, null, 2), 'utf8');
-  fs.writeFileSync(fSTPath, JSON.stringify(fST, null, 2), 'utf8');
-  fs.writeFileSync(sySTPath, JSON.stringify(syST, null, 2), 'utf8');
-  fs.writeFileSync(siSTPath, JSON.stringify(siST, null, 2), 'utf8');
+  safeWriteJson(ySTPath, yST);
+  safeWriteJson(fSTPath, fST);
+  safeWriteJson(sySTPath, syST);
+  safeWriteJson(siSTPath, siST);
 
   console.log('✅ 各駅時刻表（stationTimetables.json）への S-TRAIN 同期・クリーンアップ完了！');
 }

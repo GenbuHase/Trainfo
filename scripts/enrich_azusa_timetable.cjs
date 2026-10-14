@@ -32,15 +32,15 @@ const azusa38Defs = [
 ];
 
 for (const { trainId, isHoliday, prefix } of azusa38Defs) {
-  const oitoTripId = `${prefix}_INB_OE-29_1343_${trainId}`;
+  const oitoTripId = `${prefix}_INB_OIE-29_1343_${trainId}`;
   const shinonoiTripId = `sn_${prefix}_INB_SN-06_1450_${trainId}`;
   const chuoMainTripId = `cm_${prefix}_INB_CO-61_1458_${trainId}`;
   const chuoTripId = `${prefix}_INB_CO-57_1512_${trainId}`;
 
   // (A) 大糸線
-  const oitoTrip = oitoTrips.find((t) => t.tripId === oitoTripId);
+  const oitoTrip = oitoTrips.find((t) => t.tripId === oitoTripId || t.trainId === trainId);
   if (oitoTrip) {
-    oitoTrip.destinationStationId = 'OE-01';
+    oitoTrip.destinationStationId = 'OIE-01';
     oitoTrip.customOrigin = '白馬';
     oitoTrip.customDestination = '新宿';
     oitoTrip.throughTripId = shinonoiTripId;
@@ -379,11 +379,27 @@ for (const snTrip of shinonoiTrips) {
 }
 console.log(`  ✓ shinonoi: 上り ${snInbUpdated} 便、下り ${snOutUpdated} 便の customOrigin/直通先を整備`);
 
+function safeWriteJson(filePath, data) {
+  const content = JSON.stringify(data, null, 2);
+  let attempts = 0;
+  while (attempts < 10) {
+    try {
+      fs.writeFileSync(filePath, content, 'utf8');
+      return;
+    } catch (e) {
+      attempts++;
+      if (attempts >= 10) throw e;
+      const start = Date.now();
+      while (Date.now() - start < 150) {}
+    }
+  }
+}
+
 // 4. ファイル保存
-fs.writeFileSync(oitoPath, JSON.stringify(oitoTrips, null, 2), 'utf8');
-fs.writeFileSync(shinonoiPath, JSON.stringify(shinonoiTrips, null, 2), 'utf8');
-fs.writeFileSync(shinonoiStPath, JSON.stringify(shinonoiSt, null, 2), 'utf8');
-fs.writeFileSync(chuoMainPath, JSON.stringify(chuoMainTrips, null, 2), 'utf8');
-fs.writeFileSync(chuoPath, JSON.stringify(chuoTrips, null, 2), 'utf8');
+safeWriteJson(oitoPath, oitoTrips);
+safeWriteJson(shinonoiPath, shinonoiTrips);
+safeWriteJson(shinonoiStPath, shinonoiSt);
+safeWriteJson(chuoMainPath, chuoMainTrips);
+safeWriteJson(chuoPath, chuoTrips);
 
 console.log('\n✅ 全路線の globalTimetable.json および stationTimetables.json を正常に更新しました！');

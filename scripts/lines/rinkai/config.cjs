@@ -30,6 +30,8 @@ module.exports = {
     '快速': 'rapid',
     '通勤快速': 'commuter',
   },
+  // 埼京線直通の快速・通勤快速の案内種別を保持
+  preserveAllStopsTypes: ['rapid', 'commuter'],
   defaultCars: 10,
   baseSectionSeconds: {
     1: 150, // 新木場 -> 東雲

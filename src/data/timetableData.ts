@@ -289,3 +289,144 @@ export function getFullDayStationTimetable(
 
   return hourly;
 }
+
+// 全路線の全トリップの高速ルックアップ用Map（遅延初期化）
+let _globalTripMap: Map<string, TimetableTrip> | null = null;
+let _globalTrainIdMap: Map<string, TimetableTrip[]> | null = null;
+
+function ensureGlobalMaps() {
+  if (!_globalTripMap || !_globalTrainIdMap) {
+    _globalTripMap = new Map();
+    _globalTrainIdMap = new Map();
+    for (const trip of GLOBAL_TIMETABLE) {
+      _globalTripMap.set(trip.tripId, trip);
+      if (trip.trainId) {
+        if (!_globalTrainIdMap.has(trip.trainId)) {
+          _globalTrainIdMap.set(trip.trainId, []);
+        }
+        _globalTrainIdMap.get(trip.trainId)!.push(trip);
+      }
+    }
+  }
+}
+
+export function getGlobalTripMap(): Map<string, TimetableTrip> {
+  ensureGlobalMaps();
+  return _globalTripMap!;
+}
+
+/**
+ * 2つのトリップが同一運行チェーン（直通・スイッチバック）として接続可能か汎用判定
+ */
+function areTripsConnectable(tripA: TimetableTrip, tripB: TimetableTrip): boolean {
+  if (tripA.isHoliday !== tripB.isHoliday) return false;
+
+  const firstA = tripA.stops[0];
+  const lastA = tripA.stops[tripA.stops.length - 1];
+  const firstB = tripB.stops[0];
+  const lastB = tripB.stops[tripB.stops.length - 1];
+
+  if (!firstA || !lastA || !firstB || !lastB) return false;
+
+  const startA = timeStringToSeconds(firstA.departureTime || firstA.arrivalTime);
+  const endA = timeStringToSeconds(lastA.arrivalTime || lastA.departureTime);
+  const startB = timeStringToSeconds(firstB.departureTime || firstB.arrivalTime);
+  const endB = timeStringToSeconds(lastB.arrivalTime || lastB.departureTime);
+
+  // A -> B の順序の場合
+  const nameEndA = STATION_MAP.get(lastA.stationId)?.name;
+  const nameStartB = STATION_MAP.get(firstB.stationId)?.name;
+  const isSameStationAtoB = nameEndA && nameStartB && nameEndA === nameStartB;
+  const diffAtoB = startB - endA;
+
+  // B -> A の順序の場合
+  const nameEndB = STATION_MAP.get(lastB.stationId)?.name;
+  const nameStartA = STATION_MAP.get(firstA.stationId)?.name;
+  const isSameStationBtoA = nameEndB && nameStartA && nameEndB === nameStartA;
+  const diffBtoA = startA - endB;
+
+  // 1) 同一接続駅（スイッチバック・長時間停車等）の場合: -15分〜120分以内の接続を許容
+  if (isSameStationAtoB && diffAtoB >= -900 && diffAtoB <= 7200) return true;
+  if (isSameStationBtoA && diffBtoA >= -900 && diffBtoA <= 7200) return true;
+
+  // 2) 同一駅名が直接一致しない場合でも時間的に連続している場合（-10分〜45分以内）
+  if (diffAtoB >= -600 && diffAtoB <= 2700) return true;
+  if (diffBtoA >= -600 && diffBtoA <= 2700) return true;
+
+  // 3) 運転区間が重なっている場合（部分重複登録）
+  const overlap = Math.min(endA, endB) - Math.max(startA, startB);
+  if (overlap > 0 && Math.abs(startA - startB) <= 3600) return true;
+
+  return false;
+}
+
+/**
+ * 指定したtripIdが属する直通運行チェーン全体（祖先トリップから子孫トリップまでの全リスト、時系列順）を取得
+ * - throughTripId / prevTripId ポインタによるリンク
+ * - 同一 trainId（Yahoo路線情報の同一列車）を持つ他路線トリップの統合（特急列車・スイッチバック便等）
+ */
+export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
+  if (!initialTripId) return [];
+  ensureGlobalMaps();
+  const map = _globalTripMap!;
+  const trainIdMap = _globalTrainIdMap!;
+
+  const initialTrip = map.get(initialTripId);
+  if (!initialTrip) return [];
+
+  const visitedTripIds = new Set<string>([initialTrip.tripId]);
+  const queue: TimetableTrip[] = [initialTrip];
+  const chain: TimetableTrip[] = [];
+
+  while (queue.length > 0) {
+    const cur = queue.shift()!;
+    chain.push(cur);
+
+    // 1. 同一 trainId のトリップを収集 (汎用接続判定により、スイッチバックや路線間上下反転も正しく統合)
+    if (cur.trainId) {
+      const sameTrainIdTrips = trainIdMap.get(cur.trainId) || [];
+      for (const st of sameTrainIdTrips) {
+        if (!visitedTripIds.has(st.tripId) && areTripsConnectable(cur, st)) {
+          visitedTripIds.add(st.tripId);
+          queue.push(st);
+        }
+      }
+    }
+
+    // 2. prevTripId を遡る
+    if (cur.prevTripId && !visitedTripIds.has(cur.prevTripId)) {
+      const prev = map.get(cur.prevTripId);
+      if (prev) {
+        visitedTripIds.add(prev.tripId);
+        queue.push(prev);
+      }
+    }
+
+    // 3. throughTripId を辿る
+    if (cur.throughTripId && !visitedTripIds.has(cur.throughTripId)) {
+      const next = map.get(cur.throughTripId);
+      if (next) {
+        visitedTripIds.add(next.tripId);
+        queue.push(next);
+      }
+    }
+  }
+
+  // 始発駅の出発時刻順にソート
+  chain.sort((a, b) => {
+    const depA = a.stops[0]?.departureTime ? timeStringToSeconds(a.stops[0].departureTime) : 0;
+    const depB = b.stops[0]?.departureTime ? timeStringToSeconds(b.stops[0].departureTime) : 0;
+    return depA - depB;
+  });
+
+  return chain;
+}
+
+/**
+ * 指定したtripIdが属する直通運行チェーンに含まれるすべてのtripIdのSetを取得
+ */
+export function getThroughChainTripIds(initialTripId: string): Set<string> {
+  const trips = getThroughChainTrips(initialTripId);
+  return new Set(trips.map((t) => t.tripId));
+}
+
