@@ -1,9 +1,9 @@
 import type { Station } from '../../../types';
 
-export const JOBAN_SENDAI_STATIONS: Station[] = [
+export const JOBAN_IWAKI_SENDAI_STATIONS: Station[] = [
   {
     "id": "JSD-01",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 1,
     "name": "いわき",
     "nameKana": "いわき",
@@ -35,7 +35,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-02",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 2,
     "name": "草野",
     "nameKana": "くさの",
@@ -64,7 +64,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-03",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 3,
     "name": "四ツ倉",
     "nameKana": "よつくら",
@@ -93,7 +93,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-04",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 4,
     "name": "久ノ浜",
     "nameKana": "ひさのはま",
@@ -122,7 +122,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-05",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 5,
     "name": "末続",
     "nameKana": "すえつぎ",
@@ -151,7 +151,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-06",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 6,
     "name": "広野",
     "nameKana": "ひろの",
@@ -180,7 +180,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-07",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 7,
     "name": "Ｊヴィレッジ",
     "nameKana": "じぇいびれっじ",
@@ -209,7 +209,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-08",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 8,
     "name": "木戸",
     "nameKana": "きど",
@@ -238,7 +238,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-09",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 9,
     "name": "竜田",
     "nameKana": "たつた",
@@ -267,7 +267,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-10",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 10,
     "name": "富岡",
     "nameKana": "とみおか",
@@ -296,7 +296,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-11",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 11,
     "name": "夜ノ森",
     "nameKana": "よのもり",
@@ -325,7 +325,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-12",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 12,
     "name": "大野",
     "nameKana": "おおの",
@@ -354,7 +354,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-13",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 13,
     "name": "双葉",
     "nameKana": "ふたば",
@@ -383,7 +383,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-14",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 14,
     "name": "浪江",
     "nameKana": "なみえ",
@@ -412,7 +412,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-15",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 15,
     "name": "桃内",
     "nameKana": "ももうち",
@@ -441,7 +441,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-16",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 16,
     "name": "小高",
     "nameKana": "おだか",
@@ -470,7 +470,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-17",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 17,
     "name": "磐城太田",
     "nameKana": "いわきおおた",
@@ -499,7 +499,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-18",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 18,
     "name": "原ノ町",
     "nameKana": "はらのまち",
@@ -528,7 +528,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-19",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 19,
     "name": "鹿島",
     "nameKana": "かしま",
@@ -557,7 +557,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-20",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 20,
     "name": "日立木",
     "nameKana": "にったき",
@@ -586,7 +586,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-21",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 21,
     "name": "相馬",
     "nameKana": "そうま",
@@ -615,7 +615,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-22",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 22,
     "name": "駒ケ嶺",
     "nameKana": "こまがみね",
@@ -644,7 +644,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-23",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 23,
     "name": "新地",
     "nameKana": "しんち",
@@ -673,7 +673,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-24",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 24,
     "name": "坂元",
     "nameKana": "さかもと",
@@ -702,7 +702,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-25",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 25,
     "name": "山下",
     "nameKana": "やました",
@@ -731,7 +731,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-26",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 26,
     "name": "浜吉田",
     "nameKana": "はまよしだ",
@@ -760,7 +760,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-27",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 27,
     "name": "亘理",
     "nameKana": "わたり",
@@ -789,7 +789,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-28",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 28,
     "name": "逢隈",
     "nameKana": "おおくま",
@@ -818,7 +818,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-29",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 29,
     "name": "岩沼",
     "nameKana": "いわぬま",
@@ -849,7 +849,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-30",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 30,
     "name": "館腰",
     "nameKana": "たてこし",
@@ -880,7 +880,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-31",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 31,
     "name": "名取",
     "nameKana": "なとり",
@@ -912,7 +912,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-32",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 32,
     "name": "南仙台",
     "nameKana": "みなみせんだい",
@@ -943,7 +943,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-33",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 33,
     "name": "太子堂",
     "nameKana": "たいしどう",
@@ -974,7 +974,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-34",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 34,
     "name": "長町",
     "nameKana": "ながまち",
@@ -1006,7 +1006,7 @@ export const JOBAN_SENDAI_STATIONS: Station[] = [
   },
   {
     "id": "JSD-35",
-    "lineId": "joban_sendai",
+    "lineId": "joban_iwaki_sendai",
     "number": 35,
     "name": "仙台",
     "nameKana": "せんだい",

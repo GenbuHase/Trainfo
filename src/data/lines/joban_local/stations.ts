@@ -1,10 +1,10 @@
 // JR常磐線 駅メタデータ定義
 import type { Station } from '../../../types';
 
-export const JOBAN_STATIONS: Station[] = [
+export const JOBAN_LOCAL_STATIONS: Station[] = [
   {
     "id": "JL-19",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 19,
     "name": "綾瀬",
     "nameKana": "あやせ",
@@ -37,7 +37,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-20",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 20,
     "name": "亀有",
     "nameKana": "かめあり",
@@ -68,7 +68,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-21",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 21,
     "name": "金町",
     "nameKana": "かなまち",
@@ -101,7 +101,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-22",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 22,
     "name": "松戸",
     "nameKana": "まつど",
@@ -135,7 +135,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-23",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 23,
     "name": "北松戸",
     "nameKana": "きたまつど",
@@ -166,7 +166,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-24",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 24,
     "name": "馬橋",
     "nameKana": "まばし",
@@ -199,7 +199,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-25",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 25,
     "name": "新松戸",
     "nameKana": "しんまつど",
@@ -233,7 +233,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-26",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 26,
     "name": "北小金",
     "nameKana": "きたこがね",
@@ -264,7 +264,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-27",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 27,
     "name": "南柏",
     "nameKana": "みなみかしわ",
@@ -295,7 +295,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-28",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 28,
     "name": "柏",
     "nameKana": "かしわ",
@@ -329,7 +329,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-29",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 29,
     "name": "北柏",
     "nameKana": "きたかしわ",
@@ -360,7 +360,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-30",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 30,
     "name": "我孫子",
     "nameKana": "あびこ",
@@ -394,7 +394,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-31",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 31,
     "name": "天王台",
     "nameKana": "てんのうだい",
@@ -427,7 +427,7 @@ export const JOBAN_STATIONS: Station[] = [
   },
   {
     "id": "JL-32",
-    "lineId": "joban",
+    "lineId": "joban_local",
     "number": 32,
     "name": "取手",
     "nameKana": "とりで",

@@ -1,10 +1,10 @@
 import type { LineDefinition } from '../../../types';
-import { JOBAN_STATIONS } from './stations';
-import { JOBAN_TRACK_SEGMENTS } from './trackGeometry';
-import { JOBAN_TRAIN_TYPES } from './trainTypes';
+import { JOBAN_LOCAL_STATIONS } from './stations';
+import { JOBAN_LOCAL_TRACK_SEGMENTS } from './trackGeometry';
+import { JOBAN_LOCAL_TRAIN_TYPES } from './trainTypes';
 
-export const jobanLine: LineDefinition = {
-  id: 'joban',
+export const jobanLocalLine: LineDefinition = {
+  id: 'joban_local',
   name: 'JR常磐線各駅停車',
   shortName: '常磐線各停',
   operator: 'JR東日本',
@@ -23,9 +23,9 @@ export const jobanLine: LineDefinition = {
     inboundShort: '綾瀬方面',
     outboundShort: '取手方面',
   },
-  stations: JOBAN_STATIONS,
-  trackSegments: JOBAN_TRACK_SEGMENTS,
-  trainTypes: JOBAN_TRAIN_TYPES,
+  stations: JOBAN_LOCAL_STATIONS,
+  trackSegments: JOBAN_LOCAL_TRACK_SEGMENTS,
+  trainTypes: JOBAN_LOCAL_TRAIN_TYPES,
   stationTimetables: { weekday: {}, holiday: {} },
   globalTimetable: [],
 };

@@ -1,6 +1,6 @@
 import type { TrainTypeConfig } from '../../../types';
 
-export const JOBAN_NORTH_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
+export const JOBAN_IWAKI_SENDAI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
     key: 'local',
     name: '普通',
@@ -20,16 +20,6 @@ export const JOBAN_NORTH_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     textColor: '#ffffff',
     bgColor: '#005aaa',
     borderColor: '#004280',
-  },
-  special_rapid: {
-    key: 'special_rapid',
-    name: '特別快速',
-    nameEn: 'Special Rapid',
-    shortName: '特快',
-    color: '#003366',
-    textColor: '#ffffff',
-    bgColor: '#003366',
-    borderColor: '#002244',
   },
   limited_express: {
     key: 'limited_express',

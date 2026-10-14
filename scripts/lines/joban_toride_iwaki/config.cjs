@@ -1,11 +1,11 @@
-// JR常磐線(取手～いわき) Yahoo! 路線情報スクレイパー設定 (取手 〜 いわき 全35駅)
+// JR常磐線（取手～いわき） Yahoo! 路線情報スクレイパー設定 (取手 〜 いわき 全35駅)
 module.exports = {
-  lineId: 'joban_north',
-  name: 'JR常磐線(取手～いわき)',
-  stationsFilePath: 'src/data/lines/joban_north/stations.ts',
+  lineId: 'joban_toride_iwaki',
+  name: 'JR常磐線（取手～いわき）',
+  stationsFilePath: 'src/data/lines/joban_toride_iwaki/stations.ts',
   outputPaths: {
-    stationTimetables: 'src/data/lines/joban_north/stationTimetables.json',
-    globalTimetable: 'src/data/lines/joban_north/globalTimetable.json',
+    stationTimetables: 'src/data/lines/joban_toride_iwaki/stationTimetables.json',
+    globalTimetable: 'src/data/lines/joban_toride_iwaki/globalTimetable.json',
   },
   stations: [
     { id: 'JN-01', name: '取手', yahooStationId: '21673', inGroupId: null, outGroupId: '651' },

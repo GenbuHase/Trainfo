@@ -1,9 +1,9 @@
 import type { Station } from '../../../types';
 
-export const JOBAN_NORTH_STATIONS: Station[] = [
+export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
   {
     "id": "JN-01",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 1,
     "name": "取手",
     "nameKana": "とりで",
@@ -37,7 +37,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-02",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 2,
     "name": "藤代",
     "nameKana": "ふじしろ",
@@ -67,7 +67,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-03",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 3,
     "name": "龍ケ崎市",
     "nameKana": "りゅうがさきし",
@@ -99,7 +99,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-04",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 4,
     "name": "牛久",
     "nameKana": "うしく",
@@ -129,7 +129,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-05",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 5,
     "name": "ひたち野うしく",
     "nameKana": "ひたちのうしく",
@@ -159,7 +159,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-06",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 6,
     "name": "荒川沖",
     "nameKana": "あらかわおき",
@@ -189,7 +189,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-07",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 7,
     "name": "土浦",
     "nameKana": "つちうら",
@@ -219,7 +219,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-08",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 8,
     "name": "神立",
     "nameKana": "かんだつ",
@@ -249,7 +249,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-09",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 9,
     "name": "高浜",
     "nameKana": "たかはま",
@@ -279,7 +279,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-10",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 10,
     "name": "石岡",
     "nameKana": "いしおか",
@@ -309,7 +309,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-11",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 11,
     "name": "羽鳥",
     "nameKana": "はとり",
@@ -339,7 +339,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-12",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 12,
     "name": "岩間",
     "nameKana": "いわま",
@@ -369,7 +369,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-13",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 13,
     "name": "友部",
     "nameKana": "ともべ",
@@ -401,7 +401,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-14",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 14,
     "name": "内原",
     "nameKana": "うちはら",
@@ -431,7 +431,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-15",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 15,
     "name": "赤塚",
     "nameKana": "あかつか",
@@ -461,7 +461,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-16",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 16,
     "name": "偕楽園",
     "nameKana": "かいらくえん",
@@ -491,7 +491,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-17",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 17,
     "name": "水戸",
     "nameKana": "みと",
@@ -524,7 +524,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-18",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 18,
     "name": "勝田",
     "nameKana": "かつた",
@@ -556,7 +556,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-19",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 19,
     "name": "佐和",
     "nameKana": "さわ",
@@ -586,7 +586,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-20",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 20,
     "name": "東海",
     "nameKana": "とうかい",
@@ -616,7 +616,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-21",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 21,
     "name": "大甕",
     "nameKana": "おおみか",
@@ -646,7 +646,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-22",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 22,
     "name": "常陸多賀",
     "nameKana": "ひたちたが",
@@ -676,7 +676,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-23",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 23,
     "name": "日立",
     "nameKana": "ひたち",
@@ -706,7 +706,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-24",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 24,
     "name": "小木津",
     "nameKana": "おぎつ",
@@ -736,7 +736,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-25",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 25,
     "name": "十王",
     "nameKana": "じゅうおう",
@@ -766,7 +766,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-26",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 26,
     "name": "高萩",
     "nameKana": "たかはぎ",
@@ -796,7 +796,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-27",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 27,
     "name": "南中郷",
     "nameKana": "みなみなかごう",
@@ -826,7 +826,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-28",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 28,
     "name": "磯原",
     "nameKana": "いそはら",
@@ -856,7 +856,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-29",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 29,
     "name": "大津港",
     "nameKana": "おおつこう",
@@ -886,7 +886,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-30",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 30,
     "name": "勿来",
     "nameKana": "なこそ",
@@ -916,7 +916,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-31",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 31,
     "name": "植田",
     "nameKana": "うえだ",
@@ -946,7 +946,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-32",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 32,
     "name": "泉",
     "nameKana": "いずみ",
@@ -978,7 +978,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-33",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 33,
     "name": "湯本",
     "nameKana": "ゆもと",
@@ -1008,7 +1008,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-34",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 34,
     "name": "内郷",
     "nameKana": "うちごう",
@@ -1038,7 +1038,7 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
   },
   {
     "id": "JN-35",
-    "lineId": "joban_north",
+    "lineId": "joban_toride_iwaki",
     "number": 35,
     "name": "いわき",
     "nameKana": "いわき",

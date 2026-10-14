@@ -1,11 +1,11 @@
-// JR常磐線(いわき～仙台) Yahoo! 路線情報スクレイパー設定 (いわき 〜 仙台 全35駅)
+// JR常磐線（いわき～仙台） Yahoo! 路線情報スクレイパー設定 (いわき 〜 仙台 全35駅)
 module.exports = {
-  lineId: 'joban_sendai',
-  name: 'JR常磐線(いわき～仙台)',
-  stationsFilePath: 'src/data/lines/joban_sendai/stations.ts',
+  lineId: 'joban_iwaki_sendai',
+  name: 'JR常磐線（いわき～仙台）',
+  stationsFilePath: 'src/data/lines/joban_iwaki_sendai/stations.ts',
   outputPaths: {
-    stationTimetables: 'src/data/lines/joban_sendai/stationTimetables.json',
-    globalTimetable: 'src/data/lines/joban_sendai/globalTimetable.json',
+    stationTimetables: 'src/data/lines/joban_iwaki_sendai/stationTimetables.json',
+    globalTimetable: 'src/data/lines/joban_iwaki_sendai/globalTimetable.json',
   },
   stations: [
     { id: 'JSD-01', name: 'いわき', yahooStationId: '21435', inGroupId: null, outGroupId: '651' },

@@ -1,7 +1,7 @@
 // JR常磐線 線路ジオメトリデータ
 import type { TrackSegment } from '../../../types';
 
-export const JOBAN_TRACK_SEGMENTS: TrackSegment[] = [
+export const JOBAN_LOCAL_TRACK_SEGMENTS: TrackSegment[] = [
   {
     "fromStationId": "JL-19",
     "toStationId": "JL-20",

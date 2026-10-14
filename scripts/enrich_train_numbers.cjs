@@ -2156,17 +2156,17 @@ if (target === 'chichibu' || target === 'all') {
 if (target === 'chiyoda' || target === 'all') {
   enrichChiyoda();
 }
-if (target === 'joban' || target === 'jr' || target === 'all') {
-  enrichJoban();
+if (target === 'joban' || target === 'joban_local' || target === 'jr' || target === 'all') {
+  enrichJobanLocal();
 }
 if (target === 'joban_rapid' || target === 'jr' || target === 'all') {
   enrichJobanRapid();
 }
-if (target === 'joban_north' || target === 'jr' || target === 'all') {
-  enrichJobanNorth();
+if (target === 'joban_north' || target === 'joban_toride_iwaki' || target === 'jr' || target === 'all') {
+  enrichJobanTorideIwaki();
 }
-if (target === 'joban_sendai' || target === 'jr' || target === 'all') {
-  enrichJobanSendai();
+if (target === 'joban_sendai' || target === 'joban_iwaki_sendai' || target === 'jr' || target === 'all') {
+  enrichJobanIwakiSendai();
 }
 
 
@@ -3196,17 +3196,17 @@ function enrichChiyoda() {
 }
 
 /**
- * JR常磐線のエンリッチメント処理
+ * JR常磐線各駅停車のエンリッチメント処理
  */
-function enrichJoban() {
-  console.log('=== JR常磐線 公式列車番号エンリッチメント開始 ===');
+function enrichJobanLocal() {
+  console.log('=== JR常磐線各駅停車 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/joban/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/joban/stationTimetables.json');
-  const cacheDir = path.resolve('scripts/cache/yahoo/joban/stations');
+  const globalPath = path.resolve('src/data/lines/joban_local/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/joban_local/stationTimetables.json');
+  const cacheDir = path.resolve('scripts/cache/yahoo/joban_local/stations');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
-    console.warn('必要なデータファイルが見つかりません: JR常磐線');
+    console.warn('必要なデータファイルが見つかりません: JR常磐線各駅停車');
     return;
   }
 
@@ -3283,7 +3283,7 @@ function enrichJoban() {
     safeWriteJson(stationPath, stationTimetables);
     console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
   }
-  console.log('✅ JR常磐線の公式列車番号を正常に更新しました！\n');
+  console.log('✅ JR常磐線各駅停車の公式列車番号を正常に更新しました！\n');
 }
 
 /**
@@ -3378,17 +3378,17 @@ function enrichJobanRapid() {
 }
 
 /**
- * JR常磐線(取手以北)のエンリッチメント処理
+ * JR常磐線（取手～いわき）のエンリッチメント処理
  */
-function enrichJobanNorth() {
-  console.log('=== JR常磐線(取手以北) 公式列車番号エンリッチメント開始 ===');
+function enrichJobanTorideIwaki() {
+  console.log('=== JR常磐線（取手～いわき） 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/joban_north/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/joban_north/stationTimetables.json');
-  const cacheDir = path.resolve('scripts/cache/yahoo/joban_north/stations');
+  const globalPath = path.resolve('src/data/lines/joban_toride_iwaki/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/joban_toride_iwaki/stationTimetables.json');
+  const cacheDir = path.resolve('scripts/cache/yahoo/joban_toride_iwaki/stations');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
-    console.warn('必要なデータファイルが見つかりません: JR常磐線(取手以北)');
+    console.warn('必要なデータファイルが見つかりません: JR常磐線（取手～いわき）');
     return;
   }
 
@@ -3465,21 +3465,21 @@ function enrichJobanNorth() {
     safeWriteJson(stationPath, stationTimetables);
     console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
   }
-  console.log('✅ JR常磐線(取手～いわき)の公式列車番号を正常に更新しました！\n');
+  console.log('✅ JR常磐線（取手～いわき）の公式列車番号を正常に更新しました！\n');
 }
 
 /**
- * JR常磐線(いわき～仙台)のエンリッチメント処理
+ * JR常磐線（いわき～仙台）のエンリッチメント処理
  */
-function enrichJobanSendai() {
-  console.log('=== JR常磐線(いわき～仙台) 公式列車番号エンリッチメント開始 ===');
+function enrichJobanIwakiSendai() {
+  console.log('=== JR常磐線（いわき～仙台） 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/joban_sendai/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/joban_sendai/stationTimetables.json');
-  const cacheDir = path.resolve('scripts/cache/yahoo/joban_sendai/stations');
+  const globalPath = path.resolve('src/data/lines/joban_iwaki_sendai/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/joban_iwaki_sendai/stationTimetables.json');
+  const cacheDir = path.resolve('scripts/cache/yahoo/joban_iwaki_sendai/stations');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
-    console.warn('必要なデータファイルが見つかりません: JR常磐線(いわき～仙台)');
+    console.warn('必要なデータファイルが見つかりません: JR常磐線（いわき～仙台）');
     return;
   }
 
@@ -3556,7 +3556,7 @@ function enrichJobanSendai() {
     safeWriteJson(stationPath, stationTimetables);
     console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
   }
-  console.log('✅ JR常磐線(いわき～仙台)の公式列車番号を正常に更新しました！\n');
+  console.log('✅ JR常磐線（いわき～仙台）の公式列車番号を正常に更新しました！\n');
 }
 
 

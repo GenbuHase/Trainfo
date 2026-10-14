@@ -1,6 +1,6 @@
 import type { TrackSegment } from '../../../types';
 
-export const JOBAN_NORTH_TRACK_SEGMENTS: TrackSegment[] = [
+export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
   {
     "fromStationId": "JN-01",
     "toStationId": "JN-02",

@@ -32,10 +32,10 @@ export type LineId =
   | 'sotetsu_izumino'
   | 'sotetsu_jr_direct'
   | 'chiyoda'
-  | 'joban'
+  | 'joban_local'
   | 'joban_rapid'
-  | 'joban_north'
-  | 'joban_sendai'
+  | 'joban_toride_iwaki'
+  | 'joban_iwaki_sendai'
   | (string & {});
 
 

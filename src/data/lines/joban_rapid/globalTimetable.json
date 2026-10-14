@@ -789,7 +789,7 @@
     "trainId": "7050",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_0549_7050",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-03_0520_17757",
@@ -1202,7 +1202,7 @@
     "trainId": "10145",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-18_0427_10145",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_0551_22510",
@@ -1472,7 +1472,7 @@
     "trainId": "7051",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_0643_7051",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-03_0605_17749",
@@ -1623,7 +1623,7 @@
     "trainId": "7073",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-07_0547_7073",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_0613_22511",
@@ -2057,7 +2057,7 @@
     "trainId": "14382",
     "customOrigin": "我孫子",
     "throughTripId": "WD_OUT_JN-01_0633_14382",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-13_0627_22644",
@@ -2236,7 +2236,7 @@
     "trainId": "7032",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_0710_7032",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_0633_34403",
@@ -2372,7 +2372,7 @@
     "trainId": "7182",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_0733_7182",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-10_0637_10079",
@@ -2657,7 +2657,7 @@
     "trainId": "10146",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-18_0510_10146",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_0641_22514",
@@ -3299,7 +3299,7 @@
     "trainId": "7058",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-17_0537_7058",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_0702_34260",
@@ -3417,7 +3417,7 @@
     "trainId": "7028",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_0742_7028",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-13_0702_22648",
@@ -3432,7 +3432,7 @@
     "stops": [
       {
         "stationId": "JJ-13",
-        "arrivalTime": "07:02:00",
+        "arrivalTime": "06:57:00",
         "departureTime": "07:02:00",
         "isPassing": false
       },
@@ -3491,7 +3491,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "22648"
+    "trainId": "22648",
+    "customDestination": "上野",
+    "customOrigin": "水戸"
   },
   {
     "tripId": "WD_INB_JJ-13_0705_10083",
@@ -3587,7 +3589,7 @@
     "trainId": "10083",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_0640_10083",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_0708_34399",
@@ -3812,7 +3814,7 @@
     "trainId": "7060",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-17_0553_7060",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_0712_34094",
@@ -4299,7 +4301,7 @@
     "trainId": "7139",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_0820_7139",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_0722_34271",
@@ -4457,7 +4459,7 @@
     "trainId": "7033",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_0806_7033",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_0727_17813",
@@ -4586,7 +4588,7 @@
     "trainId": "10084",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_0655_10084",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_0729_34161",
@@ -5128,7 +5130,7 @@
     "trainId": "7090",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-18_0551_7090",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_0741_34394",
@@ -5378,7 +5380,7 @@
     "trainId": "10086",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_0717_10086",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_0746_34257",
@@ -5883,7 +5885,7 @@
     "trainId": "7062",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-17_0628_7062",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_0757_7017",
@@ -5961,7 +5963,7 @@
     "trainId": "7017",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_0840_7017",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-13_0759_22653",
@@ -5976,7 +5978,7 @@
     "stops": [
       {
         "stationId": "JJ-13",
-        "arrivalTime": "07:59:00",
+        "arrivalTime": "07:55:00",
         "departureTime": "07:59:00",
         "isPassing": false
       },
@@ -6035,7 +6037,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "22653"
+    "trainId": "22653",
+    "customDestination": "上野",
+    "customOrigin": "水戸"
   },
   {
     "tripId": "WD_OUT_JJ-01_0800_34395",
@@ -6250,7 +6254,7 @@
     "trainId": "10149",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-18_0613_10149",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_0806_34102",
@@ -6561,7 +6565,7 @@
     "trainId": "7074",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-07_0747_7074",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_0813_7113",
@@ -6714,7 +6718,7 @@
     "trainId": "7034",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_0855_7034",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-11_0815_40229",
@@ -7128,7 +7132,7 @@
     "trainId": "7036",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_0907_7036",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_0825_22528",
@@ -7418,7 +7422,7 @@
     "trainId": "10150",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-18_0633_10150",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_0834_34507",
@@ -7535,7 +7539,7 @@
     "trainId": "7018",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_0914_7018",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_0836_8355",
@@ -8119,7 +8123,7 @@
     "trainId": "10152",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-18_0712_10152",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_0848_34290",
@@ -8276,7 +8280,7 @@
     "trainId": "7037",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_0931_7037",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_0852_34405",
@@ -8852,7 +8856,7 @@
     "trainId": "7019",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_0945_7019",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_0907_17814",
@@ -8981,7 +8985,7 @@
     "trainId": "8333",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-26_0703_8333",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_0909_7143",
@@ -9077,7 +9081,7 @@
     "trainId": "7143",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1006_7143",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_0909_34220",
@@ -9709,7 +9713,7 @@
     "trainId": "10081",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_0900_10081",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_0927_34326",
@@ -9878,7 +9882,7 @@
     "trainId": "10155",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-18_0758_10155",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_0933_8341",
@@ -10219,7 +10223,7 @@
     "trainId": "7145",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1036_7145",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_0939_34180",
@@ -10736,7 +10740,7 @@
     "trainId": "7146",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1051_7146",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_0954_34223",
@@ -10872,7 +10876,7 @@
     "trainId": "10089",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_0930_10089",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1000_34351",
@@ -11440,7 +11444,7 @@
     "trainId": "7072",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-26_0741_7072",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1017_7149",
@@ -11536,7 +11540,7 @@
     "trainId": "7149",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1113_7149",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1020_34415",
@@ -11762,7 +11766,7 @@
     "trainId": "10082",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1000_10082",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-13_1027_22670",
@@ -12044,7 +12048,7 @@
     "trainId": "7151",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1133_7151",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_1037_8350",
@@ -12322,7 +12326,7 @@
     "trainId": "8337",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-26_0819_8337",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1045_10167",
@@ -12612,7 +12616,7 @@
     "trainId": "7153",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1151_7153",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-13_1055_10091",
@@ -12708,7 +12712,7 @@
     "trainId": "10091",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1029_10091",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-11_1057_40234",
@@ -13283,7 +13287,7 @@
     "trainId": "7154",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1213_7154",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1120_34419",
@@ -13459,7 +13463,7 @@
     "trainId": "10093",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1050_10093",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_1122_22544",
@@ -13783,7 +13787,7 @@
     "trainId": "7155",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1234_7155",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_1137_8338",
@@ -13998,7 +14002,7 @@
     "trainId": "10095",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1113_10095",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_1142_39187",
@@ -14426,7 +14430,7 @@
     "trainId": "7157",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1251_7157",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-11_1157_40235",
@@ -14585,7 +14589,7 @@
     "trainId": "10096",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1135_10096",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1200_34450",
@@ -15097,7 +15101,7 @@
     "trainId": "7158",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1313_7158",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1220_34421",
@@ -15273,7 +15277,7 @@
     "trainId": "10097",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1157_10097",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_1222_22549",
@@ -15630,7 +15634,7 @@
     "trainId": "7159",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1334_7159",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_1237_8349",
@@ -15878,7 +15882,7 @@
     "trainId": "10098",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1212_10098",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_1242_39188",
@@ -16231,7 +16235,7 @@
     "trainId": "7160",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1351_7160",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-11_1257_40236",
@@ -16390,7 +16394,7 @@
     "trainId": "10099",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1235_10099",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1300_34477",
@@ -16902,7 +16906,7 @@
     "trainId": "7161",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1413_7161",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1320_34465",
@@ -17078,7 +17082,7 @@
     "trainId": "10100",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1257_10100",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_1322_22553",
@@ -17468,7 +17472,7 @@
     "trainId": "7162",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1434_7162",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_1337_39591",
@@ -17683,7 +17687,7 @@
     "trainId": "10101",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1312_10101",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_1342_39189",
@@ -18036,7 +18040,7 @@
     "trainId": "7174",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1451_7174",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-11_1357_40237",
@@ -18195,7 +18199,7 @@
     "trainId": "10102",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1335_10102",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1400_34479",
@@ -18674,7 +18678,7 @@
     "trainId": "7184",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1513_7184",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1420_34467",
@@ -18850,7 +18854,7 @@
     "trainId": "10103",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1357_10103",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_1422_22557",
@@ -19174,7 +19178,7 @@
     "trainId": "7177",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1533_7177",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_1437_8351",
@@ -19389,7 +19393,7 @@
     "trainId": "10104",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1412_10104",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_1442_39190",
@@ -19775,7 +19779,7 @@
     "trainId": "7137",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1544_7137",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-11_1457_40239",
@@ -19934,7 +19938,7 @@
     "trainId": "10105",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1435_10105",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1500_34473",
@@ -20353,7 +20357,7 @@
     "trainId": "7038",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_1552_7038",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1515_7125",
@@ -20524,7 +20528,7 @@
     "trainId": "7164",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1613_7164",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1520_34469",
@@ -20700,7 +20704,7 @@
     "trainId": "10106",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1457_10106",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_1522_22560",
@@ -21024,7 +21028,7 @@
     "trainId": "10195",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1633_10195",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-13_1535_10108",
@@ -21120,7 +21124,7 @@
     "trainId": "10108",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1511_10108",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_1537_8345",
@@ -21699,7 +21703,7 @@
     "trainId": "7138",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1644_7138",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1600_34482",
@@ -21875,7 +21879,7 @@
     "trainId": "10112",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1534_10112",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_1602_22562",
@@ -22170,7 +22174,7 @@
     "trainId": "7029",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_1652_7029",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1615_7127",
@@ -22341,7 +22345,7 @@
     "trainId": "7165",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1713_7165",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-13_1618_7075",
@@ -22419,7 +22423,7 @@
     "trainId": "7075",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-07_1550_7075",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1620_34484",
@@ -22856,7 +22860,7 @@
     "trainId": "10114",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1610_10114",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1635_10196",
@@ -22952,7 +22956,7 @@
     "trainId": "10196",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1733_10196",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_1638_8352",
@@ -23610,7 +23614,7 @@
     "trainId": "7091",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-18_1524_7091",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1655_7186",
@@ -23706,7 +23710,7 @@
     "trainId": "7186",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1752_7186",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-13_1658_22695",
@@ -24122,7 +24126,7 @@
     "trainId": "10115",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1643_10115",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1709_34344",
@@ -24527,7 +24531,7 @@
     "trainId": "7191",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1818_7191",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_1724_42914",
@@ -24644,7 +24648,7 @@
     "trainId": "7094",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-18_1600_7094",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1728_34367",
@@ -25553,7 +25557,7 @@
     "trainId": "7043",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_1831_7043",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1748_7178",
@@ -25649,7 +25653,7 @@
     "trainId": "7178",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1850_7178",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1751_34335",
@@ -25807,7 +25811,7 @@
     "trainId": "7044",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_1837_7044",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1755_7130",
@@ -25978,7 +25982,7 @@
     "trainId": "7181",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1851_7181",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1757_34423",
@@ -26096,7 +26100,7 @@
     "trainId": "7063",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-17_1631_7063",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-03_1800_17735",
@@ -27107,7 +27111,7 @@
     "trainId": "10120",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1745_10120",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_1820_7020",
@@ -27185,7 +27189,7 @@
     "trainId": "7020",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_1906_7020",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_1821_34141",
@@ -27361,7 +27365,7 @@
     "trainId": "7193",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1919_7193",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-13_1824_38083",
@@ -27707,7 +27711,7 @@
     "trainId": "7097",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-18_1658_7097",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1833_38068",
@@ -28230,7 +28234,7 @@
     "trainId": "10123",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_1815_10123",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_1845_22575",
@@ -28650,7 +28654,7 @@
     "trainId": "7047",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_1939_7047",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1855_7196",
@@ -28746,7 +28750,7 @@
     "trainId": "7196",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_1955_7196",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1900_34372",
@@ -28897,7 +28901,7 @@
     "trainId": "7065",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-17_1734_7065",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1903_7131",
@@ -29738,7 +29742,7 @@
     "trainId": "10157",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-18_1752_10157",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1919_34388",
@@ -29896,7 +29900,7 @@
     "trainId": "7022",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_2009_7022",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-13_1922_22703",
@@ -30105,7 +30109,7 @@
     "trainId": "7198",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_2029_7198",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-13_1928_7078",
@@ -30183,7 +30187,7 @@
     "trainId": "7078",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-07_1900_7078",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1930_34346",
@@ -30945,7 +30949,7 @@
     "trainId": "10159",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-18_1808_10159",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1949_34318",
@@ -31081,7 +31085,7 @@
     "trainId": "7166",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_2052_7166",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_1954_34143",
@@ -31199,7 +31203,7 @@
     "trainId": "7025",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_2039_7025",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_1957_33781",
@@ -31534,7 +31538,7 @@
     "trainId": "10078",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-17_1838_10078",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_2004_22580",
@@ -32040,7 +32044,7 @@
     "trainId": "7079",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-07_1950_7079",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_2025_7169",
@@ -32136,7 +32140,7 @@
     "trainId": "7169",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_2121_7169",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_2025_34194",
@@ -32254,7 +32258,7 @@
     "trainId": "7031",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_2107_7031",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_2029_34338",
@@ -32778,7 +32782,7 @@
     "trainId": "10124",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_2012_10124",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_2045_10183",
@@ -33142,7 +33146,7 @@
     "trainId": "7170",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_2201_7170",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_2054_33722",
@@ -33260,7 +33264,7 @@
     "trainId": "7048",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_2138_7048",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_2100_34458",
@@ -33411,7 +33415,7 @@
     "trainId": "7098",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-18_1933_7098",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_2104_34195",
@@ -34000,7 +34004,7 @@
     "trainId": "10126",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-07_2058_10126",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_2124_34210",
@@ -34324,7 +34328,7 @@
     "trainId": "7049",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_2215_7049",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-03_2135_17733",
@@ -34533,7 +34537,7 @@
     "trainId": "7172",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_2236_7172",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-04_2139_8344",
@@ -34858,7 +34862,7 @@
     "trainId": "10161",
     "customDestination": "品川",
     "prevTripId": "WD_INB_JN-18_2008_10161",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_2150_34347",
@@ -35034,7 +35038,7 @@
     "trainId": "7199",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_2251_7199",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_2200_34516",
@@ -35494,7 +35498,7 @@
     "trainId": "7067",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-17_2055_7067",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_2215_7134",
@@ -35911,7 +35915,7 @@
     "trainId": "7082",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-07_2204_7082",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-04_2232_7026",
@@ -35989,7 +35993,7 @@
     "trainId": "7026",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_2312_7026",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_2233_34462",
@@ -36165,7 +36169,7 @@
     "trainId": "7200",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_2334_7200",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_2239_34322",
@@ -36512,7 +36516,7 @@
     "trainId": "7099",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-18_2102_7099",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_2249_17827",
@@ -36681,7 +36685,7 @@
     "trainId": "7173",
     "customOrigin": "品川",
     "throughTripId": "WD_OUT_JN-01_2352_7173",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JJ-01_2300_34464",
@@ -37070,7 +37074,7 @@
     "trainId": "7100",
     "customDestination": "上野",
     "prevTripId": "WD_INB_JN-18_2140_7100",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-03_2312_17747",
@@ -37729,7 +37733,7 @@
     "trainId": "7027",
     "customOrigin": "上野",
     "throughTripId": "WD_OUT_JN-01_0022_7027",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-13_2345_22715",
@@ -37946,7 +37950,7 @@
     "trainId": "14459",
     "customDestination": "我孫子",
     "prevTripId": "WD_INB_JN-18_2232_14459",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_INB_JJ-03_2354_17741",
@@ -38845,7 +38849,7 @@
     "trainId": "7050",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_0549_7050",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-03_0520_17757",
@@ -39258,7 +39262,7 @@
     "trainId": "10145",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-18_0427_10145",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_0551_22510",
@@ -39484,7 +39488,7 @@
     "trainId": "7051",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_0643_7051",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-03_0610_17750",
@@ -39635,7 +39639,7 @@
     "trainId": "7073",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-07_0547_7073",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_0613_22511",
@@ -40036,7 +40040,7 @@
     "trainId": "14382",
     "customOrigin": "我孫子",
     "throughTripId": "HD_OUT_JN-01_0633_14382",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_0627_22644",
@@ -40215,7 +40219,7 @@
     "trainId": "7032",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_0710_7032",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_0633_34404",
@@ -40351,7 +40355,7 @@
     "trainId": "7183",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_0733_7183",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-10_0637_10079",
@@ -40636,7 +40640,7 @@
     "trainId": "10147",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-18_0510_10147",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_0641_22515",
@@ -41213,7 +41217,7 @@
     "trainId": "7057",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-17_0537_7057",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_0701_22647",
@@ -41228,7 +41232,7 @@
     "stops": [
       {
         "stationId": "JJ-13",
-        "arrivalTime": "07:01:00",
+        "arrivalTime": "06:56:00",
         "departureTime": "07:01:00",
         "isPassing": false
       },
@@ -41287,7 +41291,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "22647"
+    "trainId": "22647",
+    "customDestination": "上野",
+    "customOrigin": "水戸"
   },
   {
     "tripId": "HD_INB_JJ-04_0702_34261",
@@ -41405,7 +41411,7 @@
     "trainId": "7028",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_0742_7028",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_0709_7059",
@@ -41483,7 +41489,7 @@
     "trainId": "7059",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-17_0553_7059",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_0710_34400",
@@ -42106,7 +42112,7 @@
     "trainId": "7140",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_0820_7140",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_0724_7033",
@@ -42184,7 +42190,7 @@
     "trainId": "7033",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_0806_7033",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-03_0727_34976",
@@ -42461,7 +42467,7 @@
     "trainId": "10085",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_0708_10085",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-11_0732_40227",
@@ -42985,7 +42991,7 @@
     "trainId": "7061",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-17_0628_7061",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_0746_34485",
@@ -43412,7 +43418,7 @@
     "trainId": "7016",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_0840_7016",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_0755_33870",
@@ -43627,7 +43633,7 @@
     "trainId": "10148",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-18_0613_10148",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-03_0800_39524",
@@ -44023,7 +44029,7 @@
     "trainId": "10087",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_0747_10087",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_0812_33868",
@@ -44620,7 +44626,7 @@
     "trainId": "7035",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_0907_7035",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_0825_34511",
@@ -44835,7 +44841,7 @@
     "trainId": "10151",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-18_0633_10151",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_0834_8354",
@@ -45374,7 +45380,7 @@
     "trainId": "10153",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-18_0712_10153",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_0845_10171",
@@ -45571,7 +45577,7 @@
     "trainId": "7037",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_0931_7037",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_0850_22659",
@@ -45821,7 +45827,7 @@
     "trainId": "7141",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_0951_7141",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_0856_10088",
@@ -45917,7 +45923,7 @@
     "trainId": "10088",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_0828_10088",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_0857_22531",
@@ -46388,7 +46394,7 @@
     "trainId": "8334",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-26_0703_8334",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_0909_7142",
@@ -46484,7 +46490,7 @@
     "trainId": "7142",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1006_7142",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_0909_34083",
@@ -47041,7 +47047,7 @@
     "trainId": "7144",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1029_7144",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_0924_10080",
@@ -47137,7 +47143,7 @@
     "trainId": "10080",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_0900_10080",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_0930_34327",
@@ -47705,7 +47711,7 @@
     "trainId": "10156",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-18_0758_10156",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-10_0944_8325",
@@ -48183,7 +48189,7 @@
     "trainId": "7147",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1051_7147",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_0958_10090",
@@ -48279,7 +48285,7 @@
     "trainId": "10090",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_0930_10090",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1000_34350",
@@ -48904,7 +48910,7 @@
     "trainId": "7148",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1113_7148",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_1016_7072",
@@ -48982,7 +48988,7 @@
     "trainId": "7072",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-26_0741_7072",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1017_22499",
@@ -49270,7 +49276,7 @@
     "trainId": "10082",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1000_10082",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_1027_22669",
@@ -49513,7 +49519,7 @@
     "trainId": "7150",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1133_7150",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_1033_34272",
@@ -49831,7 +49837,7 @@
     "trainId": "8336",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-26_0819_8336",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1045_10167",
@@ -50121,7 +50127,7 @@
     "trainId": "7152",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1151_7152",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_1055_10091",
@@ -50217,7 +50223,7 @@
     "trainId": "10091",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1029_10091",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-11_1057_40233",
@@ -50792,7 +50798,7 @@
     "trainId": "7154",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1213_7154",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1120_34420",
@@ -50968,7 +50974,7 @@
     "trainId": "10093",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1050_10093",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1122_22545",
@@ -51325,7 +51331,7 @@
     "trainId": "7155",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1234_7155",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_1137_8338",
@@ -51540,7 +51546,7 @@
     "trainId": "10094",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1113_10094",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1142_39186",
@@ -51893,7 +51899,7 @@
     "trainId": "7156",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1251_7156",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-11_1157_40235",
@@ -52052,7 +52058,7 @@
     "trainId": "10096",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1135_10096",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1200_34451",
@@ -52564,7 +52570,7 @@
     "trainId": "7158",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1313_7158",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1220_34422",
@@ -52740,7 +52746,7 @@
     "trainId": "10097",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1157_10097",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1222_22548",
@@ -53064,7 +53070,7 @@
     "trainId": "7159",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1334_7159",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_1237_8349",
@@ -53312,7 +53318,7 @@
     "trainId": "10098",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1212_10098",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1242_39188",
@@ -53665,7 +53671,7 @@
     "trainId": "7160",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1351_7160",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-11_1257_40236",
@@ -53824,7 +53830,7 @@
     "trainId": "10099",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1235_10099",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1300_34478",
@@ -54336,7 +54342,7 @@
     "trainId": "7161",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1413_7161",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1320_34465",
@@ -54512,7 +54518,7 @@
     "trainId": "10100",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1257_10100",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1322_22552",
@@ -54902,7 +54908,7 @@
     "trainId": "7163",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1434_7163",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_1337_39591",
@@ -55117,7 +55123,7 @@
     "trainId": "10101",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1312_10101",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1342_39189",
@@ -55470,7 +55476,7 @@
     "trainId": "7174",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1451_7174",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-11_1357_40238",
@@ -55629,7 +55635,7 @@
     "trainId": "10102",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1335_10102",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1400_34480",
@@ -56108,7 +56114,7 @@
     "trainId": "7184",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1513_7184",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1420_34466",
@@ -56284,7 +56290,7 @@
     "trainId": "10103",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1357_10103",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1422_22556",
@@ -56608,7 +56614,7 @@
     "trainId": "7176",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1533_7176",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_1437_8351",
@@ -56823,7 +56829,7 @@
     "trainId": "10104",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1412_10104",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1442_39191",
@@ -57209,7 +57215,7 @@
     "trainId": "7137",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1544_7137",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-11_1457_40239",
@@ -57368,7 +57374,7 @@
     "trainId": "10105",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1435_10105",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1500_34481",
@@ -57787,7 +57793,7 @@
     "trainId": "7038",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_1552_7038",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1515_7125",
@@ -57958,7 +57964,7 @@
     "trainId": "7164",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1613_7164",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1520_34468",
@@ -58134,7 +58140,7 @@
     "trainId": "10107",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1457_10107",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1522_22561",
@@ -58458,7 +58464,7 @@
     "trainId": "10195",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1633_10195",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_1537_8345",
@@ -58673,7 +58679,7 @@
     "trainId": "10109",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1511_10109",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1542_39192",
@@ -59059,7 +59065,7 @@
     "trainId": "7138",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1644_7138",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_1558_10111",
@@ -59155,7 +59161,7 @@
     "trainId": "10111",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1534_10111",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1600_34474",
@@ -59604,7 +59610,7 @@
     "trainId": "7029",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_1652_7029",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1615_7127",
@@ -59775,7 +59781,7 @@
     "trainId": "7165",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1713_7165",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_1618_7076",
@@ -59853,7 +59859,7 @@
     "trainId": "7076",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-07_1550_7076",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1620_34483",
@@ -60297,7 +60303,7 @@
     "trainId": "10113",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1610_10113",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1635_10196",
@@ -60393,7 +60399,7 @@
     "trainId": "10196",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1733_10196",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_1638_8352",
@@ -60965,7 +60971,7 @@
     "trainId": "7092",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-18_1524_7092",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1654_7185",
@@ -61061,7 +61067,7 @@
     "trainId": "7185",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1752_7185",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1700_34374",
@@ -61466,7 +61472,7 @@
     "trainId": "10116",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1643_10116",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1709_34455",
@@ -61750,7 +61756,7 @@
     "trainId": "7187",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1813_7187",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_1717_34203",
@@ -62040,7 +62046,7 @@
     "trainId": "7094",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-18_1600_7094",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1727_34366",
@@ -62095,7 +62101,7 @@
     "stops": [
       {
         "stationId": "JJ-13",
-        "arrivalTime": "17:31:00",
+        "arrivalTime": "17:26:00",
         "departureTime": "17:31:00",
         "isPassing": false
       },
@@ -62154,7 +62160,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "22697"
+    "trainId": "22697",
+    "customDestination": "上野",
+    "customOrigin": "勝田"
   },
   {
     "tripId": "HD_OUT_JJ-01_1733_34495",
@@ -62637,7 +62645,7 @@
     "trainId": "10117",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1713_10117",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1745_10180",
@@ -62961,7 +62969,7 @@
     "trainId": "7040",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_1831_7040",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1751_34316",
@@ -63137,7 +63145,7 @@
     "trainId": "7179",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1850_7179",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_1754_7064",
@@ -63215,7 +63223,7 @@
     "trainId": "7064",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-17_1631_7064",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1759_34436",
@@ -63992,7 +64000,7 @@
     "trainId": "10121",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1745_10119",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_1820_34295",
@@ -64168,7 +64176,7 @@
     "trainId": "7194",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1919_7194",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1824_7021",
@@ -64246,7 +64254,7 @@
     "trainId": "7021",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_1906_7021",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_1827_7095",
@@ -64324,7 +64332,7 @@
     "trainId": "7095",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-18_1658_7095",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_1829_34282",
@@ -64442,7 +64450,7 @@
     "trainId": "7096",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-18_1658_7096",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1831_34498",
@@ -64497,7 +64505,7 @@
     "stops": [
       {
         "stationId": "JJ-13",
-        "arrivalTime": "18:31:00",
+        "arrivalTime": "18:26:00",
         "departureTime": "18:31:00",
         "isPassing": false
       },
@@ -64556,7 +64564,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "22700"
+    "trainId": "22700",
+    "customDestination": "上野",
+    "customOrigin": "勝田"
   },
   {
     "tripId": "HD_OUT_JJ-01_1833_38067",
@@ -65005,7 +65015,7 @@
     "trainId": "10122",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_1815_10122",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-10_1846_10136",
@@ -65135,7 +65145,7 @@
     "stops": [
       {
         "stationId": "JJ-13",
-        "arrivalTime": "18:49:00",
+        "arrivalTime": "18:44:00",
         "departureTime": "18:49:00",
         "isPassing": false
       },
@@ -65212,7 +65222,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "38084"
+    "trainId": "38084",
+    "customDestination": "品川",
+    "customOrigin": "土浦"
   },
   {
     "tripId": "HD_INB_JJ-04_1850_34117",
@@ -65348,7 +65360,7 @@
     "trainId": "7195",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_1951_7195",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_1854_7046",
@@ -65426,7 +65438,7 @@
     "trainId": "7046",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_1939_7046",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1900_34371",
@@ -65750,7 +65762,7 @@
     "trainId": "7066",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-17_1734_7066",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-11_1903_40246",
@@ -66229,7 +66241,7 @@
     "trainId": "10158",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-18_1752_10158",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1918_34377",
@@ -66387,7 +66399,7 @@
     "trainId": "7023",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_2007_7023",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1926_7197",
@@ -66483,7 +66495,7 @@
     "trainId": "7197",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_2029_7197",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_1927_7077",
@@ -66561,7 +66573,7 @@
     "trainId": "7077",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-07_1900_7077",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1929_34514",
@@ -67283,7 +67295,7 @@
     "trainId": "10160",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-18_1808_10160",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1949_34317",
@@ -67458,7 +67470,7 @@
     "trainId": "7167",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_2050_7167",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_1954_34142",
@@ -67576,7 +67588,7 @@
     "trainId": "7024",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_2039_7024",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_1957_33782",
@@ -67896,7 +67908,7 @@
     "trainId": "10077",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-17_1838_10077",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_2004_39196",
@@ -68438,7 +68450,7 @@
     "trainId": "7030",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_2106_7030",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_2024_7079",
@@ -68516,7 +68528,7 @@
     "trainId": "7079",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-07_1950_7079",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_2025_7168",
@@ -68612,7 +68624,7 @@
     "trainId": "7168",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_2121_7168",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_2025_34193",
@@ -69170,7 +69182,7 @@
     "trainId": "10125",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_2012_10125",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_2045_10183",
@@ -69534,7 +69546,7 @@
     "trainId": "7171",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_2201_7171",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_2054_33721",
@@ -69652,7 +69664,7 @@
     "trainId": "7048",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_2138_7048",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_2100_34459",
@@ -69770,7 +69782,7 @@
     "trainId": "7098",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-18_1933_7098",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_2105_34196",
@@ -70359,7 +70371,7 @@
     "trainId": "10126",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-07_2058_10126",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_2125_34211",
@@ -70683,7 +70695,7 @@
     "trainId": "7049",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_2215_7049",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_2136_34460",
@@ -70859,7 +70871,7 @@
     "trainId": "7172",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_2236_7172",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_2139_8344",
@@ -71184,7 +71196,7 @@
     "trainId": "10161",
     "customDestination": "品川",
     "prevTripId": "HD_INB_JN-18_2008_10161",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_2150_34373",
@@ -71360,7 +71372,7 @@
     "trainId": "7199",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_2251_7199",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_2159_34515",
@@ -71787,7 +71799,7 @@
     "trainId": "7067",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-17_2055_7067",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_2215_7134",
@@ -72204,7 +72216,7 @@
     "trainId": "7082",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-07_2204_7082",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-04_2232_7026",
@@ -72282,7 +72294,7 @@
     "trainId": "7026",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_2312_7026",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_2233_34462",
@@ -72458,7 +72470,7 @@
     "trainId": "7200",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_2334_7200",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_2239_34323",
@@ -72805,7 +72817,7 @@
     "trainId": "7099",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-18_2102_7099",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-04_2254_34197",
@@ -72941,7 +72953,7 @@
     "trainId": "7173",
     "customOrigin": "品川",
     "throughTripId": "HD_OUT_JN-01_2352_7173",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_OUT_JJ-01_2300_34463",
@@ -73330,7 +73342,7 @@
     "trainId": "7100",
     "customDestination": "上野",
     "prevTripId": "HD_INB_JN-18_2140_7100",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-03_2312_17747",
@@ -73989,7 +74001,7 @@
     "trainId": "7027",
     "customOrigin": "上野",
     "throughTripId": "HD_OUT_JN-01_0022_7027",
-    "throughLineId": "joban_north"
+    "throughLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-13_2345_22716",
@@ -74206,7 +74218,7 @@
     "trainId": "14459",
     "customDestination": "我孫子",
     "prevTripId": "HD_INB_JN-18_2232_14459",
-    "prevLineId": "joban_north"
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-03_2354_17741",

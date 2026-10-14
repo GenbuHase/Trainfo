@@ -1,7 +1,7 @@
 // JR常磐線 列車種別設定
 import type { TrainTypeConfig } from '../../../types';
 
-export const JOBAN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
+export const JOBAN_LOCAL_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
     key: 'local',
     name: '各駅停車',

@@ -1,10 +1,10 @@
 import type { LineDefinition } from '../../../types';
-import { JOBAN_NORTH_STATIONS } from './stations';
-import { JOBAN_NORTH_TRAIN_TYPES } from './trainTypes';
-import { JOBAN_NORTH_TRACK_SEGMENTS } from './trackGeometry';
+import { JOBAN_TORIDE_IWAKI_STATIONS } from './stations';
+import { JOBAN_TORIDE_IWAKI_TRAIN_TYPES } from './trainTypes';
+import { JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS } from './trackGeometry';
 
-export const jobanNorthLine: LineDefinition = {
-  id: 'joban_north',
+export const jobanTorideIwakiLine: LineDefinition = {
+  id: 'joban_toride_iwaki',
   name: 'JR常磐線（取手～いわき）',
   shortName: '常磐線（取手～いわき）',
   operator: 'JR東日本',
@@ -23,9 +23,9 @@ export const jobanNorthLine: LineDefinition = {
     inboundShort: '上野方面',
     outboundShort: 'いわき方面',
   },
-  stations: JOBAN_NORTH_STATIONS,
-  trackSegments: JOBAN_NORTH_TRACK_SEGMENTS,
-  trainTypes: JOBAN_NORTH_TRAIN_TYPES,
+  stations: JOBAN_TORIDE_IWAKI_STATIONS,
+  trackSegments: JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS,
+  trainTypes: JOBAN_TORIDE_IWAKI_TRAIN_TYPES,
   stationTimetables: { weekday: {}, holiday: {} },
   globalTimetable: [],
 };

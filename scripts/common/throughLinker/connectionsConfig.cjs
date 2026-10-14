@@ -415,11 +415,11 @@ module.exports = {
       maxTimeDiff: 300,
     },
 
-    // 19. 東京メトロ千代田線 ↔ JR常磐線 (綾瀬駅)
+    // 19. 東京メトロ千代田線 ↔ JR常磐線各駅停車 (綾瀬駅)
     {
-      name: '千代田線 -> JR常磐線 (下り/柏・我孫子・取手方面直通)',
+      name: '千代田線 -> JR常磐線各停 (下り/柏・我孫子・取手方面直通)',
       lineA: 'chiyoda',
-      lineB: 'joban',
+      lineB: 'joban_local',
       stationA: 'C-19',
       stationB: 'JL-19',
       dirA: 'outbound',
@@ -427,8 +427,8 @@ module.exports = {
       maxTimeDiff: 300,
     },
     {
-      name: 'JR常磐線 -> 千代田線 (上り/代々木上原方面直通)',
-      lineA: 'joban',
+      name: 'JR常磐線各停 -> 千代田線 (上り/代々木上原方面直通)',
+      lineA: 'joban_local',
       lineB: 'chiyoda',
       stationA: 'JL-19',
       stationB: 'C-19',
@@ -437,11 +437,11 @@ module.exports = {
       maxTimeDiff: 300,
     },
 
-    // 20. JR常磐線快速 ↔ JR常磐線(取手～いわき) (取手駅)
+    // 20. JR常磐線快速 ↔ JR常磐線（取手～いわき） (取手駅)
     {
-      name: '常磐線快速 -> 常磐線(取手～いわき) (下り/土浦・水戸・いわき方面直通)',
+      name: '常磐線快速 -> 常磐線（取手～いわき） (下り/土浦・水戸・いわき方面直通)',
       lineA: 'joban_rapid',
-      lineB: 'joban_north',
+      lineB: 'joban_toride_iwaki',
       stationA: 'JJ-13',
       stationB: 'JN-01',
       dirA: 'outbound',
@@ -449,8 +449,8 @@ module.exports = {
       maxTimeDiff: 300,
     },
     {
-      name: '常磐線(取手～いわき) -> 常磐線快速 (上り/上野・東京・品川方面直通)',
-      lineA: 'joban_north',
+      name: '常磐線（取手～いわき） -> 常磐線快速 (上り/上野・東京・品川方面直通)',
+      lineA: 'joban_toride_iwaki',
       lineB: 'joban_rapid',
       stationA: 'JN-01',
       stationB: 'JJ-13',
@@ -459,11 +459,11 @@ module.exports = {
       maxTimeDiff: 300,
     },
 
-    // 21. JR常磐線(取手～いわき) ↔ JR常磐線(いわき～仙台) (いわき駅)
+    // 21. JR常磐線（取手～いわき） ↔ JR常磐線（いわき～仙台） (いわき駅)
     {
-      name: '常磐線(取手～いわき) -> 常磐線(いわき～仙台) (下り/原ノ町・仙台方面直通)',
-      lineA: 'joban_north',
-      lineB: 'joban_sendai',
+      name: '常磐線（取手～いわき） -> 常磐線（いわき～仙台） (下り/原ノ町・仙台方面直通)',
+      lineA: 'joban_toride_iwaki',
+      lineB: 'joban_iwaki_sendai',
       stationA: 'JN-35',
       stationB: 'JSD-01',
       dirA: 'outbound',
@@ -471,9 +471,9 @@ module.exports = {
       maxTimeDiff: 360,
     },
     {
-      name: '常磐線(いわき～仙台) -> 常磐線(取手～いわき) (上り/水戸・上野・品川方面直通)',
-      lineA: 'joban_sendai',
-      lineB: 'joban_north',
+      name: '常磐線（いわき～仙台） -> 常磐線（取手～いわき） (上り/水戸・上野・品川方面直通)',
+      lineA: 'joban_iwaki_sendai',
+      lineB: 'joban_toride_iwaki',
       stationA: 'JSD-01',
       stationB: 'JN-35',
       dirA: 'inbound',

@@ -1,11 +1,11 @@
 // JR常磐線（各駅停車） Yahoo! 路線情報スクレイパー設定 (綾瀬 〜 取手 全14駅)
 module.exports = {
-  lineId: 'joban',
-  name: 'JR常磐線',
-  stationsFilePath: 'src/data/lines/joban/stations.ts',
+  lineId: 'joban_local',
+  name: 'JR常磐線各駅停車',
+  stationsFilePath: 'src/data/lines/joban_local/stations.ts',
   outputPaths: {
-    stationTimetables: 'src/data/lines/joban/stationTimetables.json',
-    globalTimetable: 'src/data/lines/joban/globalTimetable.json',
+    stationTimetables: 'src/data/lines/joban_local/stationTimetables.json',
+    globalTimetable: 'src/data/lines/joban_local/globalTimetable.json',
   },
   stations: [
     { id: 'JL-19', name: '綾瀬', yahooStationId: '22499', inGroupId: null, outGroupId: '1001' },

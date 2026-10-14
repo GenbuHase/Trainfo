@@ -1,10 +1,10 @@
 import type { LineDefinition } from '../../../types';
-import { JOBAN_SENDAI_STATIONS } from './stations';
-import { JOBAN_SENDAI_TRAIN_TYPES } from './trainTypes';
-import { JOBAN_SENDAI_TRACK_SEGMENTS } from './trackGeometry';
+import { JOBAN_IWAKI_SENDAI_STATIONS } from './stations';
+import { JOBAN_IWAKI_SENDAI_TRAIN_TYPES } from './trainTypes';
+import { JOBAN_IWAKI_SENDAI_TRACK_SEGMENTS } from './trackGeometry';
 
-export const jobanSendaiLine: LineDefinition = {
-  id: 'joban_sendai',
+export const jobanIwakiSendaiLine: LineDefinition = {
+  id: 'joban_iwaki_sendai',
   name: 'JR常磐線（いわき～仙台）',
   shortName: '常磐線（いわき～仙台）',
   operator: 'JR東日本',
@@ -23,9 +23,9 @@ export const jobanSendaiLine: LineDefinition = {
     inboundShort: 'いわき方面',
     outboundShort: '仙台方面',
   },
-  stations: JOBAN_SENDAI_STATIONS,
-  trackSegments: JOBAN_SENDAI_TRACK_SEGMENTS,
-  trainTypes: JOBAN_SENDAI_TRAIN_TYPES,
+  stations: JOBAN_IWAKI_SENDAI_STATIONS,
+  trackSegments: JOBAN_IWAKI_SENDAI_TRACK_SEGMENTS,
+  trainTypes: JOBAN_IWAKI_SENDAI_TRAIN_TYPES,
   stationTimetables: { weekday: {}, holiday: {} },
   globalTimetable: [],
 };
