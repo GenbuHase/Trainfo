@@ -3,9 +3,9 @@ import type { TrainTypeConfig } from '../../../types';
 export const JOBAN_RAPID_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
     key: 'local',
-    name: '各駅停車',
+    name: '普通',
     nameEn: 'Local',
-    shortName: '各停',
+    shortName: '普通',
     color: '#0071c5',
     textColor: '#ffffff',
     bgColor: '#0071c5',

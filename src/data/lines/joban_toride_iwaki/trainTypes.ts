@@ -11,16 +11,6 @@ export const JOBAN_TORIDE_IWAKI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#0071c5',
     borderColor: '#005596',
   },
-  rapid: {
-    key: 'rapid',
-    name: '快速',
-    nameEn: 'Rapid',
-    shortName: '快速',
-    color: '#0071c5',
-    textColor: '#ffffff',
-    bgColor: '#0071c5',
-    borderColor: '#005596',
-  },
   special_rapid: {
     key: 'special_rapid',
     name: '特別快速',
