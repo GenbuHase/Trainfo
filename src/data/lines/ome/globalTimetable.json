@@ -50,7 +50,8 @@
     ],
     "trainId": "38507",
     "throughTripId": "WD_OUT_JC-55_0018_38507",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_OUT_JC-19_0014_28824",
@@ -235,7 +236,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9840"
+    "trainId": "9840",
+    "prevTripId": "WD_OUT_JC-01_2327_9840",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_0435_9968",
@@ -328,9 +332,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9968",
     "throughTripId": "WD_INB_JC-19_0504_9968",
     "throughLineId": "chuo",
-    "trainId": "9968"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0446_28753",
@@ -1205,13 +1210,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "06:01:00",
-        "departureTime": "06:04:00",
+        "departureTime": "06:01:00",
         "isPassing": false
       }
     ],
+    "trainId": "9969",
     "throughTripId": "WD_INB_JC-19_0604_9969",
     "throughLineId": "chuo",
-    "trainId": "9969"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0535_38469",
@@ -1264,7 +1270,8 @@
     ],
     "trainId": "38469",
     "throughTripId": "WD_OUT_JC-55_0548_38469",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-55_0537_38567",
@@ -1404,13 +1411,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "06:10:00",
-        "departureTime": "06:11:00",
+        "departureTime": "06:10:00",
         "isPassing": false
       }
     ],
+    "trainId": "9900",
     "throughTripId": "WD_INB_JC-19_0611_9900",
     "throughLineId": "chuo",
-    "trainId": "9900"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_0542_28970",
@@ -1775,13 +1783,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "06:21:00",
-        "departureTime": "06:22:00",
+        "departureTime": "06:21:00",
         "isPassing": false
       }
     ],
+    "trainId": "9970",
     "throughTripId": "WD_INB_JC-19_0622_9970",
     "throughLineId": "chuo",
-    "trainId": "9970"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0553_38471",
@@ -1834,7 +1843,8 @@
     ],
     "trainId": "38471",
     "throughTripId": "WD_OUT_JC-55_0606_38471",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_OUT_JC-19_0556_28761",
@@ -2398,7 +2408,8 @@
     ],
     "trainId": "38472",
     "throughTripId": "WD_OUT_JC-55_0625_38472",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_0609_9971",
@@ -2487,13 +2498,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "06:42:00",
-        "departureTime": "06:43:00",
+        "departureTime": "06:42:00",
         "isPassing": false
       }
     ],
+    "trainId": "9971",
     "throughTripId": "WD_INB_JC-19_0643_9971",
     "throughLineId": "chuo",
-    "trainId": "9971"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0610_9888",
@@ -2586,7 +2598,10 @@
       }
     ],
     "customOrigin": "武蔵小金井",
-    "trainId": "9888"
+    "trainId": "9888",
+    "prevTripId": "WD_OUT_JC-15_0554_9888",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0614_28746",
@@ -2755,13 +2770,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "06:53:00",
-        "departureTime": "06:54:00",
+        "departureTime": "06:53:00",
         "isPassing": false
       }
     ],
+    "trainId": "9972",
     "throughTripId": "WD_INB_JC-19_0654_9972",
     "throughLineId": "chuo",
-    "trainId": "9972"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0621_28766",
@@ -2946,7 +2962,10 @@
       }
     ],
     "customOrigin": "武蔵小金井",
-    "trainId": "9889"
+    "trainId": "9889",
+    "prevTripId": "WD_OUT_JC-15_0612_9889",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-55_0624_38571",
@@ -3090,9 +3109,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9973",
     "throughTripId": "WD_INB_JC-19_0703_9973",
     "throughLineId": "chuo",
-    "trainId": "9973"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0631_38474",
@@ -3145,7 +3165,8 @@
     ],
     "trainId": "38474",
     "throughTripId": "WD_OUT_JC-55_0645_38474",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-74_0631_28974",
@@ -3326,13 +3347,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "07:06:00",
-        "departureTime": "07:07:00",
+        "departureTime": "07:06:00",
         "isPassing": false
       }
     ],
+    "trainId": "9898",
     "throughTripId": "WD_INB_JC-19_0707_9898",
     "throughLineId": "chuo",
-    "trainId": "9898"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-55_0636_38572",
@@ -3476,7 +3498,10 @@
       }
     ],
     "customOrigin": "武蔵小金井",
-    "trainId": "9890"
+    "trainId": "9890",
+    "prevTripId": "WD_OUT_JC-15_0625_9890",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0643_38476",
@@ -3529,7 +3554,8 @@
     ],
     "trainId": "38476",
     "throughTripId": "WD_OUT_JC-55_0658_38476",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_0643_9974",
@@ -3618,13 +3644,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "07:15:00",
-        "departureTime": "07:16:00",
+        "departureTime": "07:15:00",
         "isPassing": false
       }
     ],
+    "trainId": "9974",
     "throughTripId": "WD_INB_JC-19_0716_9974",
     "throughLineId": "chuo",
-    "trainId": "9974"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0646_28747",
@@ -3873,13 +3900,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "07:26:00",
-        "departureTime": "07:28:00",
+        "departureTime": "07:26:00",
         "isPassing": false
       }
     ],
+    "trainId": "9975",
     "throughTripId": "WD_INB_JC-19_0728_9975",
     "throughLineId": "chuo",
-    "trainId": "9975"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0654_28769",
@@ -4116,7 +4144,8 @@
     ],
     "trainId": "38477",
     "throughTripId": "WD_OUT_JC-55_0717_38477",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-55_0658_38574",
@@ -4256,13 +4285,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "07:34:00",
-        "departureTime": "07:35:00",
+        "departureTime": "07:34:00",
         "isPassing": false
       }
     ],
+    "trainId": "9976",
     "throughTripId": "WD_INB_JC-19_0735_9976",
     "throughLineId": "chuo",
-    "trainId": "9976"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0702_9891",
@@ -4355,7 +4385,10 @@
       }
     ],
     "customOrigin": "武蔵小金井",
-    "trainId": "9891"
+    "trainId": "9891",
+    "prevTripId": "WD_OUT_JC-15_0641_9891",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_0709_9977",
@@ -4444,13 +4477,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "07:45:00",
-        "departureTime": "07:46:00",
+        "departureTime": "07:45:00",
         "isPassing": false
       }
     ],
+    "trainId": "9977",
     "throughTripId": "WD_INB_JC-19_0746_9977",
     "throughLineId": "chuo",
-    "trainId": "9977"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-60_0710_9894",
@@ -4527,13 +4561,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "07:38:00",
-        "departureTime": "07:39:00",
+        "departureTime": "07:38:00",
         "isPassing": false
       }
     ],
+    "trainId": "9894",
     "throughTripId": "WD_INB_JC-19_0739_9894",
     "throughLineId": "chuo",
-    "trainId": "9894"
+    "customOrigin": "河辺"
   },
   {
     "tripId": "WD_INB_JC-74_0710_28977",
@@ -4832,7 +4867,8 @@
     ],
     "trainId": "38479",
     "throughTripId": "WD_OUT_JC-55_0730_38479",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-55_0717_38576",
@@ -4972,13 +5008,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "07:54:00",
-        "departureTime": "07:55:00",
+        "departureTime": "07:54:00",
         "isPassing": false
       }
     ],
+    "trainId": "9978",
     "throughTripId": "WD_INB_JC-19_0755_9978",
     "throughLineId": "chuo",
-    "trainId": "9978"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0719_9791",
@@ -5071,7 +5108,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9791"
+    "trainId": "9791",
+    "prevTripId": "WD_OUT_JC-01_0622_9791",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-60_0721_28895",
@@ -5320,13 +5360,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "08:00:00",
-        "departureTime": "08:01:00",
+        "departureTime": "08:00:00",
         "isPassing": false
       }
     ],
+    "trainId": "9979",
     "throughTripId": "WD_INB_JC-19_0801_9979",
     "throughLineId": "chuo",
-    "trainId": "9979"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_0727_28834",
@@ -5562,7 +5603,10 @@
       }
     ],
     "customOrigin": "武蔵小金井",
-    "trainId": "9892"
+    "trainId": "9892",
+    "prevTripId": "WD_OUT_JC-15_0717_9892",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_0735_28908",
@@ -5707,7 +5751,8 @@
     ],
     "trainId": "38482",
     "throughTripId": "WD_OUT_JC-55_0752_38482",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_0743_9980",
@@ -5796,13 +5841,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "08:16:00",
-        "departureTime": "08:17:00",
+        "departureTime": "08:16:00",
         "isPassing": false
       }
     ],
+    "trainId": "9980",
     "throughTripId": "WD_INB_JC-19_0817_9980",
     "throughLineId": "chuo",
-    "trainId": "9980"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-55_0744_38579",
@@ -6038,7 +6084,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9792"
+    "trainId": "9792",
+    "prevTripId": "WD_OUT_JC-01_0651_9792",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0750_28745",
@@ -6228,13 +6277,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "08:24:00",
-        "departureTime": "08:26:00",
+        "departureTime": "08:24:00",
         "isPassing": false
       }
     ],
+    "trainId": "9899",
     "throughTripId": "WD_INB_JC-19_0826_9899",
     "throughLineId": "chuo",
-    "trainId": "9899"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0756_28773",
@@ -6495,13 +6545,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "08:37:00",
-        "departureTime": "08:38:00",
+        "departureTime": "08:37:00",
         "isPassing": false
       }
     ],
+    "trainId": "9981",
     "throughTripId": "WD_INB_JC-19_0838_9981",
     "throughLineId": "chuo",
-    "trainId": "9981"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_0803_28837",
@@ -6646,7 +6697,8 @@
     ],
     "trainId": "38483",
     "throughTripId": "WD_OUT_JC-55_0819_38483",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-55_0806_38582",
@@ -6970,13 +7022,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "08:49:00",
-        "departureTime": "08:50:00",
+        "departureTime": "08:49:00",
         "isPassing": false
       }
     ],
+    "trainId": "9982",
     "throughTripId": "WD_INB_JC-19_0850_9982",
     "throughLineId": "chuo",
-    "trainId": "9982"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0822_9793",
@@ -7069,7 +7122,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9793"
+    "trainId": "9793",
+    "prevTripId": "WD_OUT_JC-01_0729_9793",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_0824_9983",
@@ -7158,13 +7214,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "09:04:00",
-        "departureTime": "09:06:00",
+        "departureTime": "09:04:00",
         "isPassing": false
       }
     ],
+    "trainId": "9983",
     "throughTripId": "WD_INB_JC-19_0906_9983",
     "throughLineId": "chuo",
-    "trainId": "9983"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0826_38485",
@@ -7217,7 +7274,8 @@
     ],
     "trainId": "38485",
     "throughTripId": "WD_OUT_JC-55_0841_38485",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_OUT_JC-19_0830_28777",
@@ -7637,7 +7695,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9794"
+    "trainId": "9794",
+    "prevTripId": "WD_OUT_JC-01_0743_9794",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-55_0843_38585",
@@ -7781,7 +7842,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9795"
+    "trainId": "9795",
+    "prevTripId": "WD_OUT_JC-01_0757_9795",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0853_38486",
@@ -7834,7 +7898,8 @@
     ],
     "trainId": "38486",
     "throughTripId": "WD_OUT_JC-55_0906_38486",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_0854_28912",
@@ -8111,7 +8176,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9796"
+    "trainId": "9796",
+    "prevTripId": "WD_OUT_JC-01_0804_9796",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-55_0900_38587",
@@ -8251,13 +8319,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "09:33:00",
-        "departureTime": "09:37:00",
+        "departureTime": "09:33:00",
         "isPassing": false
       }
     ],
+    "trainId": "9984",
     "throughTripId": "WD_INB_JC-19_0937_9984",
     "throughLineId": "chuo",
-    "trainId": "9984"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0906_38487",
@@ -8310,7 +8379,8 @@
     ],
     "trainId": "38487",
     "throughTripId": "WD_OUT_JC-55_0925_38487",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_0912_28914",
@@ -8587,7 +8657,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9797"
+    "trainId": "9797",
+    "prevTripId": "WD_OUT_JC-01_0828_9797",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_0922_9985",
@@ -8676,13 +8749,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "09:51:00",
-        "departureTime": "09:54:00",
+        "departureTime": "09:51:00",
         "isPassing": false
       }
     ],
+    "trainId": "9985",
     "throughTripId": "WD_INB_JC-19_0954_9985",
     "throughLineId": "chuo",
-    "trainId": "9985"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_0923_28842",
@@ -8878,7 +8952,8 @@
     ],
     "trainId": "38489",
     "throughTripId": "WD_OUT_JC-55_0943_38489",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_0932_9906",
@@ -8967,13 +9042,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "10:02:00",
-        "departureTime": "10:04:00",
+        "departureTime": "10:02:00",
         "isPassing": false
       }
     ],
+    "trainId": "9906",
     "throughTripId": "WD_INB_JC-19_1004_9906",
     "throughLineId": "chuo",
-    "trainId": "9906"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_0932_28986",
@@ -9158,7 +9234,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9798"
+    "trainId": "9798",
+    "prevTripId": "WD_OUT_JC-01_0843_9798",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_0945_9986",
@@ -9251,9 +9330,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9986",
     "throughTripId": "WD_INB_JC-19_1015_9986",
     "throughLineId": "chuo",
-    "trainId": "9986"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_0948_28780",
@@ -9541,7 +9621,8 @@
     ],
     "trainId": "38490",
     "throughTripId": "WD_OUT_JC-55_1013_38490",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_1003_9987",
@@ -9630,13 +9711,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "10:38:00",
-        "departureTime": "10:39:00",
+        "departureTime": "10:38:00",
         "isPassing": false
       }
     ],
+    "trainId": "9987",
     "throughTripId": "WD_INB_JC-19_1039_9987",
     "throughLineId": "chuo",
-    "trainId": "9987"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1004_9799",
@@ -9729,7 +9811,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9799"
+    "trainId": "9799",
+    "prevTripId": "WD_OUT_JC-01_0908_9799",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_1014_28844",
@@ -9914,7 +9999,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9800"
+    "trainId": "9800",
+    "prevTripId": "WD_OUT_JC-01_0922_9800",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_1016_28988",
@@ -10095,13 +10183,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "10:48:00",
-        "departureTime": "10:49:00",
+        "departureTime": "10:48:00",
         "isPassing": false
       }
     ],
+    "trainId": "9988",
     "throughTripId": "WD_INB_JC-19_1049_9988",
     "throughLineId": "chuo",
-    "trainId": "9988"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1028_28917",
@@ -10378,7 +10467,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9801"
+    "trainId": "9801",
+    "prevTripId": "WD_OUT_JC-01_0941_9801",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1042_9908",
@@ -10471,9 +10563,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9908",
     "throughTripId": "WD_INB_JC-19_1112_9908",
     "throughLineId": "chuo",
-    "trainId": "9908"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1048_9802",
@@ -10566,7 +10659,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9802"
+    "trainId": "9802",
+    "prevTripId": "WD_OUT_JC-01_0950_9802",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1056_9989",
@@ -10655,13 +10751,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "11:25:00",
-        "departureTime": "11:26:00",
+        "departureTime": "11:25:00",
         "isPassing": false
       }
     ],
+    "trainId": "9989",
     "throughTripId": "WD_INB_JC-19_1126_9989",
     "throughLineId": "chuo",
-    "trainId": "9989"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_1057_28846",
@@ -10938,7 +11035,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9769"
+    "trainId": "9769",
+    "prevTripId": "WD_OUT_JC-01_1019_9769",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1112_28919",
@@ -11212,13 +11312,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "11:54:00",
-        "departureTime": "11:55:00",
+        "departureTime": "11:54:00",
         "isPassing": false
       }
     ],
+    "trainId": "9990",
     "throughTripId": "WD_INB_JC-19_1155_9990",
     "throughLineId": "chuo",
-    "trainId": "9990"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1126_28784",
@@ -11399,13 +11500,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "12:04:00",
-        "departureTime": "12:05:00",
+        "departureTime": "12:04:00",
         "isPassing": false
       }
     ],
+    "trainId": "9991",
     "throughTripId": "WD_INB_JC-19_1205_9991",
     "throughLineId": "chuo",
-    "trainId": "9991"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1140_9804",
@@ -11498,7 +11600,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9804"
+    "trainId": "9804",
+    "prevTripId": "WD_OUT_JC-01_1037_9804",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_1142_28848",
@@ -11771,13 +11876,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "12:17:00",
-        "departureTime": "12:18:00",
+        "departureTime": "12:17:00",
         "isPassing": false
       }
     ],
+    "trainId": "9992",
     "throughTripId": "WD_INB_JC-19_1218_9992",
     "throughLineId": "chuo",
-    "trainId": "9992"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1151_28786",
@@ -11958,13 +12064,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "12:26:00",
-        "departureTime": "12:27:00",
+        "departureTime": "12:26:00",
         "isPassing": false
       }
     ],
+    "trainId": "9911",
     "throughTripId": "WD_INB_JC-19_1227_9911",
     "throughLineId": "chuo",
-    "trainId": "9911"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1206_9805",
@@ -12057,7 +12164,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9805"
+    "trainId": "9805",
+    "prevTripId": "WD_OUT_JC-01_1109_9805",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1212_28922",
@@ -12242,7 +12352,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9773"
+    "trainId": "9773",
+    "prevTripId": "WD_OUT_JC-01_1134_9773",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1222_9993",
@@ -12331,13 +12444,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "12:54:00",
-        "departureTime": "12:55:00",
+        "departureTime": "12:54:00",
         "isPassing": false
       }
     ],
+    "trainId": "9993",
     "throughTripId": "WD_INB_JC-19_1255_9993",
     "throughLineId": "chuo",
-    "trainId": "9993"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1226_9806",
@@ -12430,7 +12544,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9806"
+    "trainId": "9806",
+    "prevTripId": "WD_OUT_JC-01_1129_9806",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_1227_28851",
@@ -12799,7 +12916,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9807"
+    "trainId": "9807",
+    "prevTripId": "WD_OUT_JC-01_1143_9807",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1248_9994",
@@ -12892,9 +13012,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9994",
     "throughTripId": "WD_INB_JC-19_1317_9994",
     "throughLineId": "chuo",
-    "trainId": "9994"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1251_28788",
@@ -13075,13 +13196,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "13:26:00",
-        "departureTime": "13:28:00",
+        "departureTime": "13:26:00",
         "isPassing": false
       }
     ],
+    "trainId": "9914",
     "throughTripId": "WD_INB_JC-19_1328_9914",
     "throughLineId": "chuo",
-    "trainId": "9914"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1302_9808",
@@ -13174,7 +13296,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9808"
+    "trainId": "9808",
+    "prevTripId": "WD_OUT_JC-01_1205_9808",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_1312_28997",
@@ -13359,9 +13484,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9995",
     "throughTripId": "WD_INB_JC-19_1342_9995",
     "throughLineId": "chuo",
-    "trainId": "9995"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_1314_28853",
@@ -13546,7 +13672,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9776"
+    "trainId": "9776",
+    "prevTripId": "WD_OUT_JC-01_1234_9776",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1322_9996",
@@ -13635,13 +13764,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "13:51:00",
-        "departureTime": "13:56:00",
+        "departureTime": "13:51:00",
         "isPassing": false
       }
     ],
+    "trainId": "9996",
     "throughTripId": "WD_INB_JC-19_1356_9996",
     "throughLineId": "chuo",
-    "trainId": "9996"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1327_28790",
@@ -13918,7 +14048,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9809"
+    "trainId": "9809",
+    "prevTripId": "WD_OUT_JC-01_1243_9809",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1347_9997",
@@ -14007,13 +14140,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "14:16:00",
-        "departureTime": "14:17:00",
+        "departureTime": "14:16:00",
         "isPassing": false
       }
     ],
+    "trainId": "9997",
     "throughTripId": "WD_INB_JC-19_1417_9997",
     "throughLineId": "chuo",
-    "trainId": "9997"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1351_9810",
@@ -14106,7 +14240,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9810"
+    "trainId": "9810",
+    "prevTripId": "WD_OUT_JC-01_1255_9810",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_1355_29000",
@@ -14287,13 +14424,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "14:26:00",
-        "departureTime": "14:27:00",
+        "departureTime": "14:26:00",
         "isPassing": false
       }
     ],
+    "trainId": "9917",
     "throughTripId": "WD_INB_JC-19_1427_9917",
     "throughLineId": "chuo",
-    "trainId": "9917"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_1357_28855",
@@ -14478,7 +14616,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9811"
+    "trainId": "9811",
+    "prevTripId": "WD_OUT_JC-01_1310_9811",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1413_28927",
@@ -14663,7 +14804,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9778"
+    "trainId": "9778",
+    "prevTripId": "WD_OUT_JC-01_1334_9778",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1422_9998",
@@ -14752,13 +14896,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "14:51:00",
-        "departureTime": "14:56:00",
+        "departureTime": "14:51:00",
         "isPassing": false
       }
     ],
+    "trainId": "9998",
     "throughTripId": "WD_INB_JC-19_1456_9998",
     "throughLineId": "chuo",
-    "trainId": "9998"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1427_28793",
@@ -14943,7 +15088,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9812"
+    "trainId": "9812",
+    "prevTripId": "WD_OUT_JC-01_1340_9812",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_1438_29002",
@@ -15124,13 +15272,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "15:08:00",
-        "departureTime": "15:13:00",
+        "departureTime": "15:08:00",
         "isPassing": false
       }
     ],
+    "trainId": "9999",
     "throughTripId": "WD_INB_JC-19_1513_9999",
     "throughLineId": "chuo",
-    "trainId": "9999"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_1440_28858",
@@ -15311,13 +15460,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "15:17:00",
-        "departureTime": "15:18:00",
+        "departureTime": "15:17:00",
         "isPassing": false
       }
     ],
+    "trainId": "10000",
     "throughTripId": "WD_INB_JC-19_1518_10000",
     "throughLineId": "chuo",
-    "trainId": "10000"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1451_28795",
@@ -15498,13 +15648,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "15:25:00",
-        "departureTime": "15:26:00",
+        "departureTime": "15:25:00",
         "isPassing": false
       }
     ],
+    "trainId": "9920",
     "throughTripId": "WD_INB_JC-19_1526_9920",
     "throughLineId": "chuo",
-    "trainId": "9920"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1505_9813",
@@ -15782,7 +15933,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9781"
+    "trainId": "9781",
+    "prevTripId": "WD_OUT_JC-01_1432_9781",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_1521_29004",
@@ -15963,13 +16117,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "15:51:00",
-        "departureTime": "15:54:00",
+        "departureTime": "15:51:00",
         "isPassing": false
       }
     ],
+    "trainId": "10001",
     "throughTripId": "WD_INB_JC-19_1554_10001",
     "throughLineId": "chuo",
-    "trainId": "10001"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_1522_28860",
@@ -16339,7 +16494,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9815"
+    "trainId": "9815",
+    "prevTripId": "WD_OUT_JC-01_1442_9815",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1546_10002",
@@ -16428,13 +16586,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "16:15:00",
-        "departureTime": "16:16:00",
+        "departureTime": "16:15:00",
         "isPassing": false
       }
     ],
+    "trainId": "10002",
     "throughTripId": "WD_INB_JC-19_1616_10002",
     "throughLineId": "chuo",
-    "trainId": "10002"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1551_28797",
@@ -16670,9 +16829,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "10003",
     "throughTripId": "WD_INB_JC-19_1628_10003",
     "throughLineId": "chuo",
-    "trainId": "10003"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1606_9816",
@@ -16765,7 +16925,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9816"
+    "trainId": "9816",
+    "prevTripId": "WD_OUT_JC-01_1507_9816",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_1606_29007",
@@ -17038,13 +17201,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "16:42:00",
-        "departureTime": "16:43:00",
+        "departureTime": "16:42:00",
         "isPassing": false
       }
     ],
+    "trainId": "10004",
     "throughTripId": "WD_INB_JC-19_1643_10004",
     "throughLineId": "chuo",
-    "trainId": "10004"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1616_38492",
@@ -17097,7 +17261,8 @@
     ],
     "trainId": "38492",
     "throughTripId": "WD_OUT_JC-55_1631_38492",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_1623_10005",
@@ -17186,13 +17351,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "16:52:00",
-        "departureTime": "16:53:00",
+        "departureTime": "16:52:00",
         "isPassing": false
       }
     ],
+    "trainId": "10005",
     "throughTripId": "WD_INB_JC-19_1653_10005",
     "throughLineId": "chuo",
-    "trainId": "10005"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1624_28799",
@@ -17701,13 +17867,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "17:20:00",
-        "departureTime": "17:24:00",
+        "departureTime": "17:20:00",
         "isPassing": false
       }
     ],
+    "trainId": "10006",
     "throughTripId": "WD_INB_JC-19_1724_10006",
     "throughLineId": "chuo",
-    "trainId": "10006"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1648_9818",
@@ -17800,7 +17967,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9818"
+    "trainId": "9818",
+    "prevTripId": "WD_OUT_JC-01_1545_9818",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-55_1649_38593",
@@ -17996,7 +18166,8 @@
     ],
     "trainId": "38493",
     "throughTripId": "WD_OUT_JC-55_1712_38493",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_1700_28934",
@@ -18181,7 +18352,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9819"
+    "trainId": "9819",
+    "prevTripId": "WD_OUT_JC-01_1606_9819",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_1709_28866",
@@ -18366,7 +18540,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9820"
+    "trainId": "9820",
+    "prevTripId": "WD_OUT_JC-01_1617_9820",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1713_10007",
@@ -18455,13 +18632,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "17:45:00",
-        "departureTime": "17:46:00",
+        "departureTime": "17:45:00",
         "isPassing": false
       }
     ],
+    "trainId": "10007",
     "throughTripId": "WD_INB_JC-19_1746_10007",
     "throughLineId": "chuo",
-    "trainId": "10007"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1715_38494",
@@ -18514,7 +18692,8 @@
     ],
     "trainId": "38494",
     "throughTripId": "WD_OUT_JC-55_1729_38494",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_OUT_JC-19_1722_28801",
@@ -18842,7 +19021,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9821"
+    "trainId": "9821",
+    "prevTripId": "WD_OUT_JC-01_1635_9821",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1733_10008",
@@ -18931,13 +19113,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "18:03:00",
-        "departureTime": "18:04:00",
+        "departureTime": "18:03:00",
         "isPassing": false
       }
     ],
+    "trainId": "10008",
     "throughTripId": "WD_INB_JC-19_1804_10008",
     "throughLineId": "chuo",
-    "trainId": "10008"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-55_1740_38597",
@@ -19133,7 +19316,8 @@
     ],
     "trainId": "38496",
     "throughTripId": "WD_OUT_JC-55_1755_38496",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_1744_10009",
@@ -19222,13 +19406,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "18:14:00",
-        "departureTime": "18:15:00",
+        "departureTime": "18:14:00",
         "isPassing": false
       }
     ],
+    "trainId": "10009",
     "throughTripId": "WD_INB_JC-19_1815_10009",
     "throughLineId": "chuo",
-    "trainId": "10009"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1747_28803",
@@ -19413,7 +19598,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9822"
+    "trainId": "9822",
+    "prevTripId": "WD_OUT_JC-01_1657_9822",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1754_10010",
@@ -19502,13 +19690,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "18:24:00",
-        "departureTime": "18:29:00",
+        "departureTime": "18:24:00",
         "isPassing": false
       }
     ],
+    "trainId": "10010",
     "throughTripId": "WD_INB_JC-19_1829_10010",
     "throughLineId": "chuo",
-    "trainId": "10010"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_1759_29013",
@@ -19653,7 +19842,8 @@
     ],
     "trainId": "38497",
     "throughTripId": "WD_OUT_JC-55_1814_38497",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_1800_28937",
@@ -19889,7 +20079,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9881"
+    "trainId": "9881",
+    "prevTripId": "WD_OUT_JC-01_1720_9881",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1814_9923",
@@ -19978,13 +20171,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "18:45:00",
-        "departureTime": "18:46:00",
+        "departureTime": "18:45:00",
         "isPassing": false
       }
     ],
+    "trainId": "9923",
     "throughTripId": "WD_INB_JC-19_1846_9923",
     "throughLineId": "chuo",
-    "trainId": "9923"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_1814_28870",
@@ -20221,7 +20415,8 @@
     ],
     "trainId": "38499",
     "throughTripId": "WD_OUT_JC-55_1842_38499",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-55_1826_38599",
@@ -20457,7 +20652,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9823"
+    "trainId": "9823",
+    "prevTripId": "WD_OUT_JC-01_1734_9823",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_1832_29015",
@@ -20781,13 +20979,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "19:11:00",
-        "departureTime": "19:12:00",
+        "departureTime": "19:11:00",
         "isPassing": false
       }
     ],
+    "trainId": "10011",
     "throughTripId": "WD_INB_JC-19_1912_10011",
     "throughLineId": "chuo",
-    "trainId": "10011"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1844_9824",
@@ -20880,7 +21079,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9824"
+    "trainId": "9824",
+    "prevTripId": "WD_OUT_JC-01_1747_9824",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1849_38500",
@@ -20933,7 +21135,8 @@
     ],
     "trainId": "38500",
     "throughTripId": "WD_OUT_JC-55_1903_38500",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_OUT_JC-19_1853_9825",
@@ -21026,7 +21229,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9825"
+    "trainId": "9825",
+    "prevTripId": "WD_OUT_JC-01_1758_9825",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1854_10012",
@@ -21115,13 +21321,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "19:26:00",
-        "departureTime": "19:27:00",
+        "departureTime": "19:26:00",
         "isPassing": false
       }
     ],
+    "trainId": "10012",
     "throughTripId": "WD_INB_JC-19_1927_10012",
     "throughLineId": "chuo",
-    "trainId": "10012"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_1854_28872",
@@ -21266,7 +21473,8 @@
     ],
     "trainId": "38501",
     "throughTripId": "WD_OUT_JC-55_1919_38501",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-55_1905_38601",
@@ -21406,13 +21614,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "19:35:00",
-        "departureTime": "19:36:00",
+        "departureTime": "19:35:00",
         "isPassing": false
       }
     ],
+    "trainId": "10013",
     "throughTripId": "WD_INB_JC-19_1936_10013",
     "throughLineId": "chuo",
-    "trainId": "10013"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1910_9826",
@@ -21505,7 +21714,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9826"
+    "trainId": "9826",
+    "prevTripId": "WD_OUT_JC-01_1813_9826",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_1911_29017",
@@ -21686,13 +21898,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "19:47:00",
-        "departureTime": "19:48:00",
+        "departureTime": "19:47:00",
         "isPassing": false
       }
     ],
+    "trainId": "10014",
     "throughTripId": "WD_INB_JC-19_1948_10014",
     "throughLineId": "chuo",
-    "trainId": "10014"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1918_9882",
@@ -21785,7 +21998,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9882"
+    "trainId": "9882",
+    "prevTripId": "WD_OUT_JC-01_1831_9882",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1925_28941",
@@ -22154,9 +22370,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "10015",
     "throughTripId": "WD_INB_JC-19_2005_10015",
     "throughLineId": "chuo",
-    "trainId": "10015"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1936_9827",
@@ -22249,7 +22466,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9827"
+    "trainId": "9827",
+    "prevTripId": "WD_OUT_JC-01_1841_9827",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1944_10016",
@@ -22338,13 +22558,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "20:15:00",
-        "departureTime": "20:16:00",
+        "departureTime": "20:15:00",
         "isPassing": false
       }
     ],
+    "trainId": "10016",
     "throughTripId": "WD_INB_JC-19_2016_10016",
     "throughLineId": "chuo",
-    "trainId": "10016"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_1944_29019",
@@ -22529,7 +22750,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9828"
+    "trainId": "9828",
+    "prevTripId": "WD_OUT_JC-01_1850_9828",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_1952_10017",
@@ -22618,13 +22842,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "20:26:00",
-        "departureTime": "20:30:00",
+        "departureTime": "20:26:00",
         "isPassing": false
       }
     ],
+    "trainId": "10017",
     "throughTripId": "WD_INB_JC-19_2030_10017",
     "throughLineId": "chuo",
-    "trainId": "10017"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_1953_38503",
@@ -22677,7 +22902,8 @@
     ],
     "trainId": "38503",
     "throughTripId": "WD_OUT_JC-55_2008_38503",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_OUT_JC-19_1955_9829",
@@ -22770,7 +22996,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9829"
+    "trainId": "9829",
+    "prevTripId": "WD_OUT_JC-01_1858_9829",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_1956_28876",
@@ -23035,9 +23264,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "10018",
     "throughTripId": "WD_INB_JC-19_2035_10018",
     "throughLineId": "chuo",
-    "trainId": "10018"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_2005_9830",
@@ -23130,7 +23360,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9830"
+    "trainId": "9830",
+    "prevTripId": "WD_OUT_JC-01_1908_9830",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-55_2007_38603",
@@ -23274,7 +23507,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9883"
+    "trainId": "9883",
+    "prevTripId": "WD_OUT_JC-01_1922_9883",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_2014_28943",
@@ -23551,7 +23787,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9831"
+    "trainId": "9831",
+    "prevTripId": "WD_OUT_JC-01_1920_9831",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_2022_28945",
@@ -23696,7 +23935,8 @@
     ],
     "trainId": "38504",
     "throughTripId": "WD_OUT_JC-55_2041_38504",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_2030_10019",
@@ -23785,13 +24025,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "21:00:00",
-        "departureTime": "21:04:00",
+        "departureTime": "21:00:00",
         "isPassing": false
       }
     ],
+    "trainId": "10019",
     "throughTripId": "WD_INB_JC-19_2104_10019",
     "throughLineId": "chuo",
-    "trainId": "10019"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_2032_9832",
@@ -23884,7 +24125,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9832"
+    "trainId": "9832",
+    "prevTripId": "WD_OUT_JC-01_1936_9832",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_2032_28878",
@@ -24069,7 +24313,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9833"
+    "trainId": "9833",
+    "prevTripId": "WD_OUT_JC-01_1943_9833",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-60_2043_28898",
@@ -24238,13 +24485,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "21:18:00",
-        "departureTime": "21:19:00",
+        "departureTime": "21:18:00",
         "isPassing": false
       }
     ],
+    "trainId": "10020",
     "throughTripId": "WD_INB_JC-19_2119_10020",
     "throughLineId": "chuo",
-    "trainId": "10020"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_2050_29023",
@@ -24517,13 +24765,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "21:26:00",
-        "departureTime": "21:27:00",
+        "departureTime": "21:26:00",
         "isPassing": false
       }
     ],
+    "trainId": "10021",
     "throughTripId": "WD_INB_JC-19_2127_10021",
     "throughLineId": "chuo",
-    "trainId": "10021"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_2100_9834",
@@ -24616,7 +24865,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9834"
+    "trainId": "9834",
+    "prevTripId": "WD_OUT_JC-01_2000_9834",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_2105_28880",
@@ -24801,7 +25053,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9884"
+    "trainId": "9884",
+    "prevTripId": "WD_OUT_JC-01_2022_9884",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-55_2112_38605",
@@ -24941,13 +25196,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "21:47:00",
-        "departureTime": "21:48:00",
+        "departureTime": "21:47:00",
         "isPassing": false
       }
     ],
+    "trainId": "10022",
     "throughTripId": "WD_INB_JC-19_2148_10022",
     "throughLineId": "chuo",
-    "trainId": "10022"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_2119_9835",
@@ -25040,7 +25296,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9835"
+    "trainId": "9835",
+    "prevTripId": "WD_OUT_JC-01_2019_9835",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-74_2123_29025",
@@ -25305,9 +25564,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "10023",
     "throughTripId": "WD_INB_JC-19_2157_10023",
     "throughLineId": "chuo",
-    "trainId": "10023"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_2136_28949",
@@ -25492,7 +25752,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9885"
+    "trainId": "9885",
+    "prevTripId": "WD_OUT_JC-01_2049_9885",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_2138_28882",
@@ -25637,7 +25900,8 @@
     ],
     "trainId": "38505",
     "throughTripId": "WD_OUT_JC-55_2156_38505",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_2145_10024",
@@ -25726,13 +25990,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "22:15:00",
-        "departureTime": "22:16:00",
+        "departureTime": "22:15:00",
         "isPassing": false
       }
     ],
+    "trainId": "10024",
     "throughTripId": "WD_INB_JC-19_2216_10024",
     "throughLineId": "chuo",
-    "trainId": "10024"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-55_2149_38606",
@@ -26061,7 +26326,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9837"
+    "trainId": "9837",
+    "prevTripId": "WD_OUT_JC-01_2106_9837",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-60_2200_28899",
@@ -26230,13 +26498,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "22:36:00",
-        "departureTime": "22:37:00",
+        "departureTime": "22:36:00",
         "isPassing": false
       }
     ],
+    "trainId": "10025",
     "throughTripId": "WD_INB_JC-19_2237_10025",
     "throughLineId": "chuo",
-    "trainId": "10025"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-19_2208_9886",
@@ -26329,7 +26598,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9886"
+    "trainId": "9886",
+    "prevTripId": "WD_OUT_JC-01_2121_9886",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_2210_28884",
@@ -26474,7 +26746,8 @@
     ],
     "trainId": "38506",
     "throughTripId": "WD_OUT_JC-55_2229_38506",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "WD_INB_JC-62_2216_28952",
@@ -26931,13 +27204,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "23:03:00",
-        "departureTime": "23:04:00",
+        "departureTime": "23:03:00",
         "isPassing": false
       }
     ],
+    "trainId": "9924",
     "throughTripId": "WD_INB_JC-19_2304_9924",
     "throughLineId": "chuo",
-    "trainId": "9924"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_2242_9925",
@@ -27026,13 +27300,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "23:12:00",
-        "departureTime": "23:13:00",
+        "departureTime": "23:12:00",
         "isPassing": false
       }
     ],
+    "trainId": "9925",
     "throughTripId": "WD_INB_JC-19_2313_9925",
     "throughLineId": "chuo",
-    "trainId": "9925"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "WD_OUT_JC-62_2243_28886",
@@ -27493,7 +27768,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9787"
+    "trainId": "9787",
+    "prevTripId": "WD_OUT_JC-01_2218_9787",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_2304_28957",
@@ -27678,7 +27956,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9838"
+    "trainId": "9838",
+    "prevTripId": "WD_OUT_JC-01_2214_9838",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_2318_28959",
@@ -27863,7 +28144,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9839"
+    "trainId": "9839",
+    "prevTripId": "WD_OUT_JC-01_2226_9839",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "WD_INB_JC-62_2327_28960",
@@ -28427,7 +28711,8 @@
     ],
     "trainId": "38508",
     "throughTripId": "HD_OUT_JC-55_0018_38508",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_OUT_JC-19_0014_28823",
@@ -28612,7 +28897,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9880"
+    "trainId": "9880",
+    "prevTripId": "HD_OUT_JC-01_2330_9880",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_0435_9926",
@@ -28705,9 +28993,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9926",
     "throughTripId": "HD_INB_JC-19_0504_9926",
     "throughLineId": "chuo",
-    "trainId": "9926"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_0446_28752",
@@ -29398,13 +29687,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "05:56:00",
-        "departureTime": "05:57:00",
+        "departureTime": "05:56:00",
         "isPassing": false
       }
     ],
+    "trainId": "9927",
     "throughTripId": "HD_INB_JC-19_0557_9927",
     "throughLineId": "chuo",
-    "trainId": "9927"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_0534_28759",
@@ -29692,7 +29982,8 @@
     ],
     "trainId": "38470",
     "throughTripId": "HD_OUT_JC-55_0557_38470",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_OUT_JC-62_0546_28827",
@@ -30149,13 +30440,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "06:34:00",
-        "departureTime": "06:36:00",
+        "departureTime": "06:34:00",
         "isPassing": false
       }
     ],
+    "trainId": "9928",
     "throughTripId": "HD_INB_JC-19_0636_9928",
     "throughLineId": "chuo",
-    "trainId": "9928"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_0605_28764",
@@ -30571,13 +30863,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "06:43:00",
-        "departureTime": "06:48:00",
+        "departureTime": "06:43:00",
         "isPassing": false
       }
     ],
+    "trainId": "9929",
     "throughTripId": "HD_INB_JC-19_0648_9929",
     "throughLineId": "chuo",
-    "trainId": "9929"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_0619_28765",
@@ -30722,7 +31015,8 @@
     ],
     "trainId": "38473",
     "throughTripId": "HD_OUT_JC-55_0641_38473",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_INB_JC-62_0628_9901",
@@ -30811,13 +31105,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "06:59:00",
-        "departureTime": "07:01:00",
+        "departureTime": "06:59:00",
         "isPassing": false
       }
     ],
+    "trainId": "9901",
     "throughTripId": "HD_INB_JC-19_0701_9901",
     "throughLineId": "chuo",
-    "trainId": "9901"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_0634_28975",
@@ -31146,7 +31441,8 @@
     ],
     "trainId": "38475",
     "throughTripId": "HD_OUT_JC-55_0658_38475",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_INB_JC-55_0640_38573",
@@ -31378,13 +31674,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "07:18:00",
-        "departureTime": "07:19:00",
+        "departureTime": "07:18:00",
         "isPassing": false
       }
     ],
+    "trainId": "9930",
     "throughTripId": "HD_INB_JC-19_0719_9930",
     "throughLineId": "chuo",
-    "trainId": "9930"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_0648_28768",
@@ -31565,13 +31862,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "07:29:00",
-        "departureTime": "07:30:00",
+        "departureTime": "07:29:00",
         "isPassing": false
       }
     ],
+    "trainId": "9931",
     "throughTripId": "HD_INB_JC-19_0730_9931",
     "throughLineId": "chuo",
-    "trainId": "9931"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_0659_28770",
@@ -31716,7 +32014,8 @@
     ],
     "trainId": "38478",
     "throughTripId": "HD_OUT_JC-55_0717_38478",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_INB_JC-74_0705_28976",
@@ -32228,7 +32527,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9788"
+    "trainId": "9788",
+    "prevTripId": "HD_OUT_JC-01_0630_9788",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_0719_28907",
@@ -32373,7 +32675,8 @@
     ],
     "trainId": "38480",
     "throughTripId": "HD_OUT_JC-55_0735_38480",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_INB_JC-74_0725_28978",
@@ -32558,7 +32861,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9841"
+    "trainId": "9841",
+    "prevTripId": "HD_OUT_JC-01_0634_9841",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-55_0730_38577",
@@ -32698,13 +33004,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "08:05:00",
-        "departureTime": "08:06:00",
+        "departureTime": "08:05:00",
         "isPassing": false
       }
     ],
+    "trainId": "9902",
     "throughTripId": "HD_INB_JC-19_0806_9902",
     "throughLineId": "chuo",
-    "trainId": "9902"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_0732_28835",
@@ -32849,7 +33156,8 @@
     ],
     "trainId": "38481",
     "throughTripId": "HD_OUT_JC-55_0755_38481",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_INB_JC-62_0739_9932",
@@ -32938,13 +33246,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "08:12:00",
-        "departureTime": "08:13:00",
+        "departureTime": "08:12:00",
         "isPassing": false
       }
     ],
+    "trainId": "9932",
     "throughTripId": "HD_INB_JC-19_0813_9932",
     "throughLineId": "chuo",
-    "trainId": "9932"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_0740_9893",
@@ -33037,7 +33346,10 @@
       }
     ],
     "customOrigin": "武蔵小金井",
-    "trainId": "9893"
+    "trainId": "9893",
+    "prevTripId": "HD_OUT_JC-15_0724_9893",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-55_0746_38580",
@@ -33503,13 +33815,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "08:29:00",
-        "departureTime": "08:31:00",
+        "departureTime": "08:29:00",
         "isPassing": false
       }
     ],
+    "trainId": "9903",
     "throughTripId": "HD_INB_JC-19_0831_9903",
     "throughLineId": "chuo",
-    "trainId": "9903"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_0801_28836",
@@ -33878,7 +34191,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9789"
+    "trainId": "9789",
+    "prevTripId": "HD_OUT_JC-01_0729_9789",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_0818_9933",
@@ -33967,13 +34283,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "08:47:00",
-        "departureTime": "08:48:00",
+        "departureTime": "08:47:00",
         "isPassing": false
       }
     ],
+    "trainId": "9933",
     "throughTripId": "HD_INB_JC-19_0848_9933",
     "throughLineId": "chuo",
-    "trainId": "9933"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_0820_38484",
@@ -34026,7 +34343,8 @@
     ],
     "trainId": "38484",
     "throughTripId": "HD_OUT_JC-55_0833_38484",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_INB_JC-55_0824_38584",
@@ -34262,7 +34580,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9842"
+    "trainId": "9842",
+    "prevTripId": "HD_OUT_JC-01_0725_9842",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_0825_28982",
@@ -34443,13 +34764,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "09:07:00",
-        "departureTime": "09:10:00",
+        "departureTime": "09:07:00",
         "isPassing": false
       }
     ],
+    "trainId": "9904",
     "throughTripId": "HD_INB_JC-19_0910_9904",
     "throughLineId": "chuo",
-    "trainId": "9904"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_INB_JC-55_0835_9764",
@@ -34594,7 +34916,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9766"
+    "trainId": "9766",
+    "prevTripId": "HD_OUT_JC-01_0755_9766",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-55_0844_38586",
@@ -35002,7 +35327,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9843"
+    "trainId": "9843",
+    "prevTripId": "HD_OUT_JC-01_0751_9843",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_0854_28983",
@@ -35183,13 +35511,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "09:24:00",
-        "departureTime": "09:25:00",
+        "departureTime": "09:24:00",
         "isPassing": false
       }
     ],
+    "trainId": "9934",
     "throughTripId": "HD_INB_JC-19_0925_9934",
     "throughLineId": "chuo",
-    "trainId": "9934"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_0855_28840",
@@ -35374,7 +35703,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9844"
+    "trainId": "9844",
+    "prevTripId": "HD_OUT_JC-01_0803_9844",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_0904_28913",
@@ -35559,7 +35891,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9790"
+    "trainId": "9790",
+    "prevTripId": "HD_OUT_JC-01_0822_9790",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_0914_9935",
@@ -35648,13 +35983,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "09:45:00",
-        "departureTime": "09:47:00",
+        "departureTime": "09:45:00",
         "isPassing": false
       }
     ],
+    "trainId": "9935",
     "throughTripId": "HD_INB_JC-19_0947_9935",
     "throughLineId": "chuo",
-    "trainId": "9935"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_0914_28841",
@@ -35799,7 +36135,8 @@
     ],
     "trainId": "38488",
     "throughTripId": "HD_OUT_JC-55_0929_38488",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_OUT_JC-19_0925_28779",
@@ -36060,13 +36397,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "10:01:00",
-        "departureTime": "10:02:00",
+        "departureTime": "10:01:00",
         "isPassing": false
       }
     ],
+    "trainId": "9905",
     "throughTripId": "HD_INB_JC-19_1002_9905",
     "throughLineId": "chuo",
-    "trainId": "9905"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_0930_28985",
@@ -36251,7 +36589,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9767"
+    "trainId": "9767",
+    "prevTripId": "HD_OUT_JC-01_0850_9767",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_0936_9936",
@@ -36340,13 +36681,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "10:09:00",
-        "departureTime": "10:13:00",
+        "departureTime": "10:09:00",
         "isPassing": false
       }
     ],
+    "trainId": "9936",
     "throughTripId": "HD_INB_JC-19_1013_9936",
     "throughLineId": "chuo",
-    "trainId": "9936"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_0938_28891",
@@ -36527,13 +36869,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "10:16:00",
-        "departureTime": "10:17:00",
+        "departureTime": "10:16:00",
         "isPassing": false
       }
     ],
+    "trainId": "9937",
     "throughTripId": "HD_INB_JC-19_1017_9937",
     "throughLineId": "chuo",
-    "trainId": "9937"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_0946_9845",
@@ -36626,7 +36969,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9845"
+    "trainId": "9845",
+    "prevTripId": "HD_OUT_JC-01_0853_9845",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_0950_28843",
@@ -36811,7 +37157,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9846"
+    "trainId": "9846",
+    "prevTripId": "HD_OUT_JC-01_0903_9846",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_0959_9938",
@@ -36900,13 +37249,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "10:32:00",
-        "departureTime": "10:33:00",
+        "departureTime": "10:32:00",
         "isPassing": false
       }
     ],
+    "trainId": "9938",
     "throughTripId": "HD_INB_JC-19_1033_9938",
     "throughLineId": "chuo",
-    "trainId": "9938"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_1001_28987",
@@ -37275,7 +37625,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9847"
+    "trainId": "9847",
+    "prevTripId": "HD_OUT_JC-01_0922_9847",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1021_9939",
@@ -37364,13 +37717,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "10:50:00",
-        "departureTime": "10:51:00",
+        "departureTime": "10:50:00",
         "isPassing": false
       }
     ],
+    "trainId": "9939",
     "throughTripId": "HD_INB_JC-19_1051_9939",
     "throughLineId": "chuo",
-    "trainId": "9939"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_1021_28989",
@@ -37555,7 +37909,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9848"
+    "trainId": "9848",
+    "prevTripId": "HD_OUT_JC-01_0926_9848",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1031_9940",
@@ -37644,13 +38001,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "11:00:00",
-        "departureTime": "11:01:00",
+        "departureTime": "11:00:00",
         "isPassing": false
       }
     ],
+    "trainId": "9940",
     "throughTripId": "HD_INB_JC-19_1101_9940",
     "throughLineId": "chuo",
-    "trainId": "9940"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1033_28845",
@@ -37835,7 +38193,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9768"
+    "trainId": "9768",
+    "prevTripId": "HD_OUT_JC-01_0955_9768",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1042_9907",
@@ -37928,9 +38289,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9907",
     "throughTripId": "HD_INB_JC-19_1115_9907",
     "throughLineId": "chuo",
-    "trainId": "9907"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1051_28783",
@@ -38295,13 +38657,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "11:37:00",
-        "departureTime": "11:38:00",
+        "departureTime": "11:37:00",
         "isPassing": false
       }
     ],
+    "trainId": "9909",
     "throughTripId": "HD_INB_JC-19_1138_9909",
     "throughLineId": "chuo",
-    "trainId": "9909"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1103_9770",
@@ -38394,7 +38757,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9770"
+    "trainId": "9770",
+    "prevTripId": "HD_OUT_JC-01_1020_9770",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1112_9941",
@@ -38483,13 +38849,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "11:42:00",
-        "departureTime": "11:43:00",
+        "departureTime": "11:42:00",
         "isPassing": false
       }
     ],
+    "trainId": "9941",
     "throughTripId": "HD_INB_JC-19_1143_9941",
     "throughLineId": "chuo",
-    "trainId": "9941"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1114_28847",
@@ -38674,7 +39041,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9849"
+    "trainId": "9849",
+    "prevTripId": "HD_OUT_JC-01_1023_9849",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1123_9910",
@@ -38763,13 +39133,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "11:52:00",
-        "departureTime": "11:53:00",
+        "departureTime": "11:52:00",
         "isPassing": false
       }
     ],
+    "trainId": "9910",
     "throughTripId": "HD_INB_JC-19_1153_9910",
     "throughLineId": "chuo",
-    "trainId": "9910"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1129_28785",
@@ -39046,7 +39417,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9850"
+    "trainId": "9850",
+    "prevTripId": "HD_OUT_JC-01_1041_9850",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1138_28920",
@@ -39231,7 +39605,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9771"
+    "trainId": "9771",
+    "prevTripId": "HD_OUT_JC-01_1106_9771",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1149_9942",
@@ -39320,13 +39697,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "12:21:00",
-        "departureTime": "12:22:00",
+        "departureTime": "12:21:00",
         "isPassing": false
       }
     ],
+    "trainId": "9942",
     "throughTripId": "HD_INB_JC-19_1222_9942",
     "throughLineId": "chuo",
-    "trainId": "9942"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1150_28849",
@@ -39511,9 +39889,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9912",
     "throughTripId": "HD_INB_JC-19_1233_9912",
     "throughLineId": "chuo",
-    "trainId": "9912"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1203_9851",
@@ -39791,7 +40170,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9772"
+    "trainId": "9772",
+    "prevTripId": "HD_OUT_JC-01_1128_9772",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1212_28921",
@@ -40068,9 +40450,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9913",
     "throughTripId": "HD_INB_JC-19_1254_9913",
     "throughLineId": "chuo",
-    "trainId": "9913"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1226_28787",
@@ -40251,13 +40634,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "13:06:00",
-        "departureTime": "13:07:00",
+        "departureTime": "13:06:00",
         "isPassing": false
       }
     ],
+    "trainId": "9943",
     "throughTripId": "HD_INB_JC-19_1307_9943",
     "throughLineId": "chuo",
-    "trainId": "9943"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1239_9852",
@@ -40350,7 +40734,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9852"
+    "trainId": "9852",
+    "prevTripId": "HD_OUT_JC-01_1141_9852",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_1240_28996",
@@ -40535,7 +40922,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9774"
+    "trainId": "9774",
+    "prevTripId": "HD_OUT_JC-01_1205_9774",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1249_9944",
@@ -40624,13 +41014,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "13:22:00",
-        "departureTime": "13:23:00",
+        "departureTime": "13:22:00",
         "isPassing": false
       }
     ],
+    "trainId": "9944",
     "throughTripId": "HD_INB_JC-19_1323_9944",
     "throughLineId": "chuo",
-    "trainId": "9944"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1258_28852",
@@ -40811,13 +41202,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "13:33:00",
-        "departureTime": "13:34:00",
+        "departureTime": "13:33:00",
         "isPassing": false
       }
     ],
+    "trainId": "9915",
     "throughTripId": "HD_INB_JC-19_1334_9915",
     "throughLineId": "chuo",
-    "trainId": "9915"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1303_28789",
@@ -41002,7 +41394,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9775"
+    "trainId": "9775",
+    "prevTripId": "HD_OUT_JC-01_1228_9775",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1311_28924",
@@ -41275,13 +41670,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "13:55:00",
-        "departureTime": "13:56:00",
+        "departureTime": "13:55:00",
         "isPassing": false
       }
     ],
+    "trainId": "9916",
     "throughTripId": "HD_INB_JC-19_1356_9916",
     "throughLineId": "chuo",
-    "trainId": "9916"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1326_9853",
@@ -41374,7 +41770,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9853"
+    "trainId": "9853",
+    "prevTripId": "HD_OUT_JC-01_1232_9853",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1328_28854",
@@ -41559,9 +41958,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9945",
     "throughTripId": "HD_INB_JC-19_1407_9945",
     "throughLineId": "chuo",
-    "trainId": "9945"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1339_28791",
@@ -41838,7 +42238,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9777"
+    "trainId": "9777",
+    "prevTripId": "HD_OUT_JC-01_1307_9777",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1350_28926",
@@ -42019,13 +42422,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "14:33:00",
-        "departureTime": "14:34:00",
+        "departureTime": "14:33:00",
         "isPassing": false
       }
     ],
+    "trainId": "9918",
     "throughTripId": "HD_INB_JC-19_1434_9918",
     "throughLineId": "chuo",
-    "trainId": "9918"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1401_28856",
@@ -42298,13 +42702,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "14:45:00",
-        "departureTime": "14:50:00",
+        "departureTime": "14:45:00",
         "isPassing": false
       }
     ],
+    "trainId": "9946",
     "throughTripId": "HD_INB_JC-19_1450_9946",
     "throughLineId": "chuo",
-    "trainId": "9946"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1417_9779",
@@ -42397,7 +42802,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9779"
+    "trainId": "9779",
+    "prevTripId": "HD_OUT_JC-01_1338_9779",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_1419_29001",
@@ -42578,13 +42986,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "14:53:00",
-        "departureTime": "14:54:00",
+        "departureTime": "14:53:00",
         "isPassing": false
       }
     ],
+    "trainId": "9919",
     "throughTripId": "HD_INB_JC-19_1454_9919",
     "throughLineId": "chuo",
-    "trainId": "9919"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1429_28794",
@@ -42857,13 +43266,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "15:06:00",
-        "departureTime": "15:07:00",
+        "departureTime": "15:06:00",
         "isPassing": false
       }
     ],
+    "trainId": "9947",
     "throughTripId": "HD_INB_JC-19_1507_9947",
     "throughLineId": "chuo",
-    "trainId": "9947"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1440_9854",
@@ -43141,7 +43551,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9780"
+    "trainId": "9780",
+    "prevTripId": "HD_OUT_JC-01_1408_9780",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1450_28928",
@@ -43326,7 +43739,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9855"
+    "trainId": "9855",
+    "prevTripId": "HD_OUT_JC-01_1403_9855",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1501_9921",
@@ -43415,13 +43831,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "15:33:00",
-        "departureTime": "15:34:00",
+        "departureTime": "15:33:00",
         "isPassing": false
       }
     ],
+    "trainId": "9921",
     "throughTripId": "HD_INB_JC-19_1534_9921",
     "throughLineId": "chuo",
-    "trainId": "9921"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1505_28859",
@@ -43606,7 +44023,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9856"
+    "trainId": "9856",
+    "prevTripId": "HD_OUT_JC-01_1417_9856",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1512_28930",
@@ -43879,13 +44299,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "15:53:00",
-        "departureTime": "15:54:00",
+        "departureTime": "15:53:00",
         "isPassing": false
       }
     ],
+    "trainId": "9948",
     "throughTripId": "HD_INB_JC-19_1554_9948",
     "throughLineId": "chuo",
-    "trainId": "9948"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_1525_29005",
@@ -44070,7 +44491,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9857"
+    "trainId": "9857",
+    "prevTripId": "HD_OUT_JC-01_1431_9857",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1531_9949",
@@ -44159,13 +44583,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "16:01:00",
-        "departureTime": "16:05:00",
+        "departureTime": "16:01:00",
         "isPassing": false
       }
     ],
+    "trainId": "9949",
     "throughTripId": "HD_INB_JC-19_1605_9949",
     "throughLineId": "chuo",
-    "trainId": "9949"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1533_28861",
@@ -44438,13 +44863,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "16:08:00",
-        "departureTime": "16:09:00",
+        "departureTime": "16:08:00",
         "isPassing": false
       }
     ],
+    "trainId": "9895",
     "throughTripId": "HD_INB_JC-19_1609_9895",
     "throughLineId": "chuo",
-    "trainId": "9895"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1547_9782",
@@ -44537,7 +44963,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9782"
+    "trainId": "9782",
+    "prevTripId": "HD_OUT_JC-01_1506_9782",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1547_9950",
@@ -44626,13 +45055,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "16:17:00",
-        "departureTime": "16:18:00",
+        "departureTime": "16:17:00",
         "isPassing": false
       }
     ],
+    "trainId": "9950",
     "throughTripId": "HD_INB_JC-19_1618_9950",
     "throughLineId": "chuo",
-    "trainId": "9950"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_INB_JC-55_1553_38590",
@@ -44776,7 +45206,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9858"
+    "trainId": "9858",
+    "prevTripId": "HD_OUT_JC-01_1502_9858",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_1556_29006",
@@ -44957,13 +45390,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "16:36:00",
-        "departureTime": "16:39:00",
+        "departureTime": "16:36:00",
         "isPassing": false
       }
     ],
+    "trainId": "9951",
     "throughTripId": "HD_INB_JC-19_1639_9951",
     "throughLineId": "chuo",
-    "trainId": "9951"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1610_9783",
@@ -45056,7 +45490,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9783"
+    "trainId": "9783",
+    "prevTripId": "HD_OUT_JC-01_1529_9783",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1610_9952",
@@ -45145,13 +45582,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "16:44:00",
-        "departureTime": "16:45:00",
+        "departureTime": "16:44:00",
         "isPassing": false
       }
     ],
+    "trainId": "9952",
     "throughTripId": "HD_INB_JC-19_1645_9952",
     "throughLineId": "chuo",
-    "trainId": "9952"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1613_38491",
@@ -45204,7 +45642,8 @@
     ],
     "trainId": "38491",
     "throughTripId": "HD_OUT_JC-55_1626_38491",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_OUT_JC-62_1619_28863",
@@ -45665,9 +46104,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9953",
     "throughTripId": "HD_INB_JC-19_1701_9953",
     "throughLineId": "chuo",
-    "trainId": "9953"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_1632_29008",
@@ -45852,7 +46292,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9784"
+    "trainId": "9784",
+    "prevTripId": "HD_OUT_JC-01_1550_9784",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1641_9954",
@@ -45945,9 +46388,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9954",
     "throughTripId": "HD_INB_JC-19_1710_9954",
     "throughLineId": "chuo",
-    "trainId": "9954"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1642_9859",
@@ -46040,7 +46484,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9859"
+    "trainId": "9859",
+    "prevTripId": "HD_OUT_JC-01_1540_9859",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1645_28865",
@@ -46221,13 +46668,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "17:23:00",
-        "departureTime": "17:24:00",
+        "departureTime": "17:23:00",
         "isPassing": false
       }
     ],
+    "trainId": "9896",
     "throughTripId": "HD_INB_JC-19_1724_9896",
     "throughLineId": "chuo",
-    "trainId": "9896"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1655_28800",
@@ -46504,7 +46952,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9860"
+    "trainId": "9860",
+    "prevTripId": "HD_OUT_JC-01_1609_9860",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1704_28935",
@@ -46828,13 +47279,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "17:45:00",
-        "departureTime": "17:46:00",
+        "departureTime": "17:45:00",
         "isPassing": false
       }
     ],
+    "trainId": "9955",
     "throughTripId": "HD_INB_JC-19_1746_9955",
     "throughLineId": "chuo",
-    "trainId": "9955"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1716_9861",
@@ -46927,7 +47379,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9861"
+    "trainId": "9861",
+    "prevTripId": "HD_OUT_JC-01_1618_9861",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1718_28867",
@@ -47072,7 +47527,8 @@
     ],
     "trainId": "38495",
     "throughTripId": "HD_OUT_JC-55_1737_38495",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_INB_JC-62_1727_9897",
@@ -47161,13 +47617,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "17:54:00",
-        "departureTime": "17:55:00",
+        "departureTime": "17:54:00",
         "isPassing": false
       }
     ],
+    "trainId": "9897",
     "throughTripId": "HD_INB_JC-19_1755_9897",
     "throughLineId": "chuo",
-    "trainId": "9897"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1731_9862",
@@ -47260,7 +47717,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9862"
+    "trainId": "9862",
+    "prevTripId": "HD_OUT_JC-01_1638_9862",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1735_28936",
@@ -47676,13 +48136,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "18:23:00",
-        "departureTime": "18:24:00",
+        "departureTime": "18:23:00",
         "isPassing": false
       }
     ],
+    "trainId": "9956",
     "throughTripId": "HD_INB_JC-19_1824_9956",
     "throughLineId": "chuo",
-    "trainId": "9956"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1752_9785",
@@ -47775,7 +48236,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9785"
+    "trainId": "9785",
+    "prevTripId": "HD_OUT_JC-01_1706_9785",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1801_9863",
@@ -47868,7 +48332,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9863"
+    "trainId": "9863",
+    "prevTripId": "HD_OUT_JC-01_1709_9863",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1803_9922",
@@ -47957,13 +48424,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "18:33:00",
-        "departureTime": "18:34:00",
+        "departureTime": "18:33:00",
         "isPassing": false
       }
     ],
+    "trainId": "9922",
     "throughTripId": "HD_INB_JC-19_1834_9922",
     "throughLineId": "chuo",
-    "trainId": "9922"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1804_28869",
@@ -48108,7 +48576,8 @@
     ],
     "trainId": "38498",
     "throughTripId": "HD_OUT_JC-55_1824_38498",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_INB_JC-62_1811_9957",
@@ -48201,8 +48670,6 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_INB_JC-19_1852_9957",
-    "throughLineId": "chuo",
     "trainId": "9957"
   },
   {
@@ -48296,7 +48763,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9864"
+    "trainId": "9864",
+    "prevTripId": "HD_OUT_JC-01_1720_9864",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_1819_29014",
@@ -48757,9 +49227,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9958",
     "throughTripId": "HD_INB_JC-19_1908_9958",
     "throughLineId": "chuo",
-    "trainId": "9958"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1840_9765",
@@ -48812,7 +49283,8 @@
     ],
     "trainId": "9765",
     "throughTripId": "HD_OUT_JC-55_1854_9765",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_OUT_JC-19_1845_9865",
@@ -48905,7 +49377,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9865"
+    "trainId": "9865",
+    "prevTripId": "HD_OUT_JC-01_1747_9865",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1849_9959",
@@ -48994,13 +49469,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "19:23:00",
-        "departureTime": "19:25:00",
+        "departureTime": "19:23:00",
         "isPassing": false
       }
     ],
+    "trainId": "9959",
     "throughTripId": "HD_INB_JC-19_1925_9959",
     "throughLineId": "chuo",
-    "trainId": "9959"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1853_9866",
@@ -49093,7 +49569,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9866"
+    "trainId": "9866",
+    "prevTripId": "HD_OUT_JC-01_1802_9866",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_1854_29016",
@@ -49274,13 +49753,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "19:31:00",
-        "departureTime": "19:32:00",
+        "departureTime": "19:31:00",
         "isPassing": false
       }
     ],
+    "trainId": "9960",
     "throughTripId": "HD_INB_JC-19_1932_9960",
     "throughLineId": "chuo",
-    "trainId": "9960"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1908_9867",
@@ -49373,7 +49853,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9867"
+    "trainId": "9867",
+    "prevTripId": "HD_OUT_JC-01_1811_9867",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1909_28873",
@@ -49650,7 +50133,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9868"
+    "trainId": "9868",
+    "prevTripId": "HD_OUT_JC-01_1825_9868",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_1926_28942",
@@ -50163,9 +50649,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9961",
     "throughTripId": "HD_INB_JC-19_2012_9961",
     "throughLineId": "chuo",
-    "trainId": "9961"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-62_1941_28875",
@@ -50310,7 +50797,8 @@
     ],
     "trainId": "38502",
     "throughTripId": "HD_OUT_JC-55_1959_38502",
-    "throughLineId": "itsukaichi"
+    "throughLineId": "itsukaichi",
+    "customOrigin": "立川"
   },
   {
     "tripId": "HD_INB_JC-62_1953_9962",
@@ -50403,9 +50891,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9962",
     "throughTripId": "HD_INB_JC-19_2023_9962",
     "throughLineId": "chuo",
-    "trainId": "9962"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_1957_28809",
@@ -50678,13 +51167,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "20:36:00",
-        "departureTime": "20:37:00",
+        "departureTime": "20:36:00",
         "isPassing": false
       }
     ],
+    "trainId": "9963",
     "throughTripId": "HD_INB_JC-19_2037_9963",
     "throughLineId": "chuo",
-    "trainId": "9963"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_2009_9870",
@@ -50777,7 +51267,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9870"
+    "trainId": "9870",
+    "prevTripId": "HD_OUT_JC-01_1913_9870",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_2016_28944",
@@ -51105,7 +51598,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9871"
+    "trainId": "9871",
+    "prevTripId": "HD_OUT_JC-01_1921_9871",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_2030_9872",
@@ -51198,7 +51694,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9872"
+    "trainId": "9872",
+    "prevTripId": "HD_OUT_JC-01_1936_9872",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_2030_9964",
@@ -51287,13 +51786,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "21:06:00",
-        "departureTime": "21:09:00",
+        "departureTime": "21:06:00",
         "isPassing": false
       }
     ],
+    "trainId": "9964",
     "throughTripId": "HD_INB_JC-19_2109_9964",
     "throughLineId": "chuo",
-    "trainId": "9964"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_INB_JC-74_2033_29022",
@@ -51478,7 +51978,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9873"
+    "trainId": "9873",
+    "prevTripId": "HD_OUT_JC-01_1948_9873",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_2043_28946",
@@ -51843,13 +52346,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "21:30:00",
-        "departureTime": "21:31:00",
+        "departureTime": "21:30:00",
         "isPassing": false
       }
     ],
+    "trainId": "9965",
     "throughTripId": "HD_INB_JC-19_2131_9965",
     "throughLineId": "chuo",
-    "trainId": "9965"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_2100_28812",
@@ -52126,7 +52630,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9874"
+    "trainId": "9874",
+    "prevTripId": "HD_OUT_JC-01_2017_9874",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_2114_9966",
@@ -52219,9 +52726,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "9966",
     "throughTripId": "HD_INB_JC-19_2147_9966",
     "throughLineId": "chuo",
-    "trainId": "9966"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_2124_28813",
@@ -52590,7 +53098,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9786"
+    "trainId": "9786",
+    "prevTripId": "HD_OUT_JC-01_2051_9786",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_2136_28948",
@@ -52867,7 +53378,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9875"
+    "trainId": "9875",
+    "prevTripId": "HD_OUT_JC-01_2048_9875",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_2146_28950",
@@ -53052,7 +53566,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9876"
+    "trainId": "9876",
+    "prevTripId": "HD_OUT_JC-01_2107_9876",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_2207_28951",
@@ -53329,7 +53846,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9877"
+    "trainId": "9877",
+    "prevTripId": "HD_OUT_JC-01_2119_9877",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_2217_28953",
@@ -53694,13 +54214,14 @@
       {
         "stationId": "JC-19",
         "arrivalTime": "23:04:00",
-        "departureTime": "23:05:00",
+        "departureTime": "23:04:00",
         "isPassing": false
       }
     ],
+    "trainId": "9967",
     "throughTripId": "HD_INB_JC-19_2305_9967",
     "throughLineId": "chuo",
-    "trainId": "9967"
+    "customOrigin": "青梅"
   },
   {
     "tripId": "HD_OUT_JC-19_2237_28817",
@@ -54345,7 +54866,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9878"
+    "trainId": "9878",
+    "prevTripId": "HD_OUT_JC-01_2219_9878",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_2315_28958",
@@ -54530,7 +55054,10 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "9879"
+    "trainId": "9879",
+    "prevTripId": "HD_OUT_JC-01_2228_9879",
+    "prevLineId": "chuo",
+    "customDestination": "青梅"
   },
   {
     "tripId": "HD_INB_JC-62_2329_28961",

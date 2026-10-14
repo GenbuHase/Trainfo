@@ -103,6 +103,7 @@ function linkPair({
   dirB,
   linkName,
   maxTimeDiff = 360,
+  requireIdMatch = false,
 }) {
   let linkedCount = 0;
   const candidatesB = tripsB.filter((tB) => {
@@ -140,11 +141,11 @@ function linkPair({
         break;
       }
       // 2. 公式列車番号一致
-      if (noA && noB && noA === noB && diff <= 180 && diff < minDiff) {
+      if (noA && noB && noA === noB && diff <= maxTimeDiff && diff < minDiff) {
         minDiff = diff;
         bestB = tB;
-      } else if (diff <= maxTimeDiff && diff < minDiff) {
-        // 3. 時刻近接最小 (境界駅の停車・交代時間に対応)
+      } else if (!requireIdMatch && diff <= maxTimeDiff && diff < minDiff) {
+        // 3. 時刻近接最小 (境界駅の停車・交代時間に対応: requireIdMatch 未指定時のみ)
         minDiff = diff;
         bestB = tB;
       }
@@ -332,6 +333,7 @@ function executeUniversalThroughLinker(options = {}) {
       dirB: conn.dirB,
       linkName: conn.name,
       maxTimeDiff: conn.maxTimeDiff || 360,
+      requireIdMatch: conn.requireIdMatch || false,
     });
   }
 

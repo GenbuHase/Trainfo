@@ -15,7 +15,7 @@ import {
 } from './services/trainSimulation';
 import type { SimulationState } from './services/trainSimulation';
 import { getAllLines } from './data/linesRegistry';
-import { formatTrainNumber } from './data/timetableData';
+import { formatTrainNumber, timeStringToSeconds } from './data/timetableData';
 import { STATION_MAP } from './data/stations';
 
 
@@ -114,11 +114,10 @@ export function App() {
       return found;
     }
 
-    // 直前の列車から直通先トリップ（throughTripId 照合）または同一列車番号・同一方向の後続トリップを引き継ぐ
+    // 直前の列車から直通先トリップ（throughTripId 照合）または直通元トリップ（prevTripId 照合）を引き継ぐ
     const prev = lastSelectedTrainRef.current;
     if (prev) {
-      const prevNo = formatTrainNumber(prev.trainNumber, prev.trainId, prev.tripId);
-      // 1. 直通先/直通元トリップID照合（最優先）
+      // 1. 直通先/直通元トリップID照合（最優先: 時間の前進・後退双方に対応）
       let successor = activeTrains.find(
         (t) =>
           t.tripId !== prev.tripId &&
@@ -127,31 +126,62 @@ export function App() {
             (prev.prevTripId && t.tripId === prev.prevTripId) ||
             (t.prevTripId && t.prevTripId === prev.tripId))
       );
-      // 2. 同一運行便ID（trainId）判定（会社境界で列車番号が変化する直通列車の確実な引き継ぎ）
-      if (!successor && prev.trainId) {
-        successor = activeTrains.find((t) => t.tripId !== prev.tripId && t.trainId === prev.trainId);
-      }
-      // 3. 同一列車番号かつ同一方向判定（フォールバック）
-      if (!successor && prevNo) {
-        successor = activeTrains.find(
-          (t) =>
-            t.tripId !== prev.tripId &&
-            formatTrainNumber(t.trainNumber, t.trainId, t.tripId) === prevNo &&
-            t.direction === prev.direction
-        );
-      }
-      // 4. 境界駅での同一物理駅・同一方向フォールバック判定（万が一リンク欠落時でも絶対に追尾を途切れさせない）
-      if (!successor) {
-        successor = activeTrains.find(
-          (t) =>
-            t.tripId !== prev.tripId &&
-            t.lineId !== prev.lineId &&
-            t.direction === prev.direction &&
-            (isSamePhysicalStation(t.currentStationId, prev.currentStationId) ||
+
+      // 時間巻き戻し等で、先行直通便が存在しない（＝全運行チェーンの最上流・始発駅発車便）かつ発車時刻前の場合、
+      // 別の無関係な列車をフォールバックで誤追従しないよう引き継ぎを遮断
+      const firstStop = prev.stops[0];
+      const isBeforeOriginDeparture = !prev.prevTripId && firstStop && firstStop.departureTime
+        ? simState.currentSec < timeStringToSeconds(firstStop.departureTime)
+        : false;
+
+      if (!successor && !isBeforeOriginDeparture) {
+        // 2. 同一運行便ID（trainId）判定（会社境界で列車番号が変化する直通列車の確実な引き継ぎ）
+        if (prev.trainId) {
+          successor = activeTrains.find((t) => t.tripId !== prev.tripId && t.trainId === prev.trainId);
+        }
+
+        // 3. 公式列車番号かつ同一方向判定（フォールバック）
+        // ※tripId末尾の汎用IDではなく、固有の公式列車番号（例: '576F', '1044K', '1001レ' 等）のみを照合
+        const prevOfficialNo = prev.trainNumber && !prev.trainNumber.includes('_') ? formatTrainNumber(prev.trainNumber) : null;
+        if (!successor && prevOfficialNo) {
+          successor = activeTrains.find(
+            (t) =>
+              t.tripId !== prev.tripId &&
+              t.trainNumber &&
+              !t.trainNumber.includes('_') &&
+              formatTrainNumber(t.trainNumber) === prevOfficialNo &&
+              t.direction === prev.direction
+          );
+        }
+
+        // 4. 境界駅での同一物理駅・同一方向フォールバック判定（万が一リンク欠落時でも絶対に追尾を途切れさせない）
+        // ※境界駅の接続便引き継ぎ用。境界駅の発着時刻が近い列車（10分以内）に限定
+        if (!successor) {
+          const prevStation = prev.stops[prev.stops.length - 1];
+          const prevTimeSec = prevStation ? timeStringToSeconds(prevStation.arrivalTime || prevStation.departureTime) : null;
+
+          successor = activeTrains.find((t) => {
+            if (t.tripId === prev.tripId || t.lineId === prev.lineId || t.direction !== prev.direction) {
+              return false;
+            }
+            const isPhysicalBoundary =
+              isSamePhysicalStation(t.currentStationId, prev.currentStationId) ||
               isSamePhysicalStation(t.originStationId, prev.destinationStationId) ||
-              isSamePhysicalStation(t.currentStationId, prev.destinationStationId))
-        );
+              isSamePhysicalStation(t.currentStationId, prev.destinationStationId);
+            if (!isPhysicalBoundary) return false;
+
+            if (prevTimeSec !== null) {
+              const tFirstStop = t.stops[0];
+              const tTimeSec = tFirstStop ? timeStringToSeconds(tFirstStop.departureTime || tFirstStop.arrivalTime) : null;
+              if (tTimeSec !== null && Math.abs(tTimeSec - prevTimeSec) > 600) {
+                return false;
+              }
+            }
+            return true;
+          });
+        }
       }
+
       if (successor) {
         const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
         if (prevOrigin && (!successor.customOrigin || successor.customOrigin === STATION_MAP.get(successor.originStationId)?.name)) {
@@ -164,7 +194,7 @@ export function App() {
       }
     }
     return null;
-  }, [activeTrains, selectedTrainId]);
+  }, [activeTrains, selectedTrainId, simState.currentSec]);
 
   // 選択列車が直通トリップへ切り替わった場合に selectedTrainId を同期更新
   useEffect(() => {

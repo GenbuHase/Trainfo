@@ -61,14 +61,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "05:26:00",
-        "departureTime": "05:27:00",
+        "departureTime": "05:26:00",
         "isPassing": false
       }
     ],
     "trainId": "23001",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_0527_23001",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_0509_28304",
@@ -244,14 +245,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "05:58:00",
-        "departureTime": "05:59:00",
+        "departureTime": "05:58:00",
         "isPassing": false
       }
     ],
     "trainId": "23002",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_0559_23002",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-24_0528_31944",
@@ -636,14 +638,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "06:13:00",
-        "departureTime": "06:18:00",
+        "departureTime": "06:13:00",
         "isPassing": false
       }
     ],
     "trainId": "23076",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_0618_23076",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "拝島"
   },
   {
     "tripId": "WD_OUT_HA-01_0551_23005",
@@ -707,14 +710,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "06:30:00",
-        "departureTime": "06:32:00",
+        "departureTime": "06:30:00",
         "isPassing": false
       }
     ],
     "trainId": "23005",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_0632_23005",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_0600_28305",
@@ -956,14 +960,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "06:58:00",
-        "departureTime": "06:59:00",
+        "departureTime": "06:58:00",
         "isPassing": false
       }
     ],
     "trainId": "23006",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_0659_23006",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-04_0613_28302",
@@ -1324,14 +1329,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "07:12:00",
-        "departureTime": "07:16:00",
+        "departureTime": "07:12:00",
         "isPassing": false
       }
     ],
     "trainId": "23008",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_0716_23008",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_0631_24555",
@@ -1400,7 +1406,10 @@
       }
     ],
     "trainId": "24555",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_0601_24555",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-09_0633_32084",
@@ -1623,7 +1632,10 @@
       }
     ],
     "trainId": "24558",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_0626_24558",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-04_0655_23079",
@@ -1669,14 +1681,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "07:28:00",
-        "departureTime": "07:29:00",
+        "departureTime": "07:28:00",
         "isPassing": false
       }
     ],
     "trainId": "23079",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_0729_23079",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "拝島"
   },
   {
     "tripId": "WD_INB_HA-24_0655_31936",
@@ -1846,14 +1859,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "07:50:00",
-        "departureTime": "07:52:00",
+        "departureTime": "07:50:00",
         "isPassing": false
       }
     ],
     "trainId": "23010",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_0752_23010",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-09_0701_32085",
@@ -2139,8 +2153,6 @@
       }
     ],
     "trainId": "23012",
-    "throughTripId": "WD_INB_JA-36_0816_23012",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -2472,14 +2484,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "08:42:00",
-        "departureTime": "08:47:00",
+        "departureTime": "08:42:00",
         "isPassing": false
       }
     ],
     "trainId": "23013",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_0847_23013",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_0751_24561",
@@ -2809,8 +2822,6 @@
       }
     ],
     "trainId": "23015",
-    "throughTripId": "WD_INB_JA-36_0905_23015",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -3136,14 +3147,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "09:19:00",
-        "departureTime": "09:23:00",
+        "departureTime": "09:19:00",
         "isPassing": false
       }
     ],
     "trainId": "23018",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_0923_23018",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_0844_24566",
@@ -3212,7 +3224,10 @@
       }
     ],
     "trainId": "24566",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_0819_24566",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_0845_28284",
@@ -3402,14 +3417,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "09:41:00",
-        "departureTime": "09:43:00",
+        "departureTime": "09:41:00",
         "isPassing": false
       }
     ],
     "trainId": "23020",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_0943_23020",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_0903_24568",
@@ -3478,7 +3494,10 @@
       }
     ],
     "trainId": "24568",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_0837_24568",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_0918_23021",
@@ -3542,14 +3561,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "10:07:00",
-        "departureTime": "10:09:00",
+        "departureTime": "10:07:00",
         "isPassing": false
       }
     ],
     "trainId": "23021",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_1009_23021",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-09_0920_32088",
@@ -3792,14 +3812,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "10:33:00",
-        "departureTime": "10:36:00",
+        "departureTime": "10:33:00",
         "isPassing": false
       }
     ],
     "trainId": "23023",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_1036_23023",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_0943_24571",
@@ -3868,7 +3889,10 @@
       }
     ],
     "trainId": "24571",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_0917_24571",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_INB_HA-24_0949_31948",
@@ -4047,7 +4071,10 @@
       }
     ],
     "trainId": "24573",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_0946_24573",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_1015_23026",
@@ -4111,14 +4138,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "11:00:00",
-        "departureTime": "11:04:00",
+        "departureTime": "11:00:00",
         "isPassing": false
       }
     ],
     "trainId": "23026",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_1104_23026",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_1034_24575",
@@ -4187,7 +4215,10 @@
       }
     ],
     "trainId": "24575",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1011_24575",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-09_1035_28297",
@@ -4300,8 +4331,6 @@
       }
     ],
     "trainId": "23027",
-    "throughTripId": "WD_INB_JA-36_1134_23027",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -4421,7 +4450,10 @@
       }
     ],
     "trainId": "24577",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1039_24577",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_1109_23028",
@@ -4490,8 +4522,6 @@
       }
     ],
     "trainId": "23028",
-    "throughTripId": "WD_INB_JA-36_1204_23028",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -4561,7 +4591,10 @@
       }
     ],
     "trainId": "24578",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1107_24578",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-09_1132_32089",
@@ -4784,8 +4817,6 @@
       }
     ],
     "trainId": "23031",
-    "throughTripId": "WD_INB_JA-36_1234_23031",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -5015,7 +5046,10 @@
       }
     ],
     "trainId": "24579",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1137_24579",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_1209_23033",
@@ -5084,8 +5118,6 @@
       }
     ],
     "trainId": "23033",
-    "throughTripId": "WD_INB_JA-36_1304_23033",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -5155,7 +5187,10 @@
       }
     ],
     "trainId": "24581",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1207_24581",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_1239_23035",
@@ -5224,8 +5259,6 @@
       }
     ],
     "trainId": "23035",
-    "throughTripId": "WD_INB_JA-36_1334_23035",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -5515,7 +5548,10 @@
       }
     ],
     "trainId": "24583",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1237_24583",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_1309_23037",
@@ -5584,8 +5620,6 @@
       }
     ],
     "trainId": "23037",
-    "throughTripId": "WD_INB_JA-36_1404_23037",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -5655,7 +5689,10 @@
       }
     ],
     "trainId": "24585",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1307_24585",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-09_1332_32091",
@@ -5834,8 +5871,6 @@
       }
     ],
     "trainId": "23039",
-    "throughTripId": "WD_INB_JA-36_1434_23039",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -6015,7 +6050,10 @@
       }
     ],
     "trainId": "24587",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1337_24587",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_1409_23040",
@@ -6084,8 +6122,6 @@
       }
     ],
     "trainId": "23040",
-    "throughTripId": "WD_INB_JA-36_1504_23040",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -6155,7 +6191,10 @@
       }
     ],
     "trainId": "24589",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1407_24589",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_1439_23043",
@@ -6224,8 +6263,6 @@
       }
     ],
     "trainId": "23043",
-    "throughTripId": "WD_INB_JA-36_1534_23043",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -6389,7 +6426,10 @@
       }
     ],
     "trainId": "24591",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1437_24591",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_1509_23045",
@@ -6458,8 +6498,6 @@
       }
     ],
     "trainId": "23045",
-    "throughTripId": "WD_INB_JA-36_1603_23045",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -6529,7 +6567,10 @@
       }
     ],
     "trainId": "24594",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1507_24594",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-19_1534_32100",
@@ -6643,14 +6684,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "16:26:00",
-        "departureTime": "16:29:00",
+        "departureTime": "16:26:00",
         "isPassing": false
       }
     ],
     "trainId": "23047",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_1629_23047",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-09_1545_32092",
@@ -6983,7 +7025,10 @@
       }
     ],
     "trainId": "24596",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1537_24596",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_1610_23049",
@@ -7047,14 +7092,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "16:55:00",
-        "departureTime": "16:56:00",
+        "departureTime": "16:55:00",
         "isPassing": false
       }
     ],
     "trainId": "23049",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_1656_23049",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_1629_24597",
@@ -7123,7 +7169,10 @@
       }
     ],
     "trainId": "24597",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1606_24597",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_INB_HA-24_1636_31941",
@@ -7319,14 +7368,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "17:37:00",
-        "departureTime": "17:38:00",
+        "departureTime": "17:37:00",
         "isPassing": false
       }
     ],
     "trainId": "23051",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_1738_23051",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_1700_24599",
@@ -7707,14 +7757,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "18:07:00",
-        "departureTime": "18:09:00",
+        "departureTime": "18:07:00",
         "isPassing": false
       }
     ],
     "trainId": "23053",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_1809_23053",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-13_1723_28324",
@@ -7827,7 +7878,10 @@
       }
     ],
     "trainId": "24601",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1701_24601",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_1733_28289",
@@ -8106,8 +8160,6 @@
       }
     ],
     "trainId": "23055",
-    "throughTripId": "WD_INB_JA-36_1842_23055",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -8177,7 +8229,10 @@
       }
     ],
     "trainId": "24603",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1727_24603",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_INB_HA-06_1801_28318",
@@ -8401,14 +8456,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "19:06:00",
-        "departureTime": "19:07:00",
+        "departureTime": "19:06:00",
         "isPassing": false
       }
     ],
     "trainId": "23057",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_1907_23057",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_1837_23058",
@@ -8472,14 +8528,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "19:30:00",
-        "departureTime": "19:31:00",
+        "departureTime": "19:30:00",
         "isPassing": false
       }
     ],
     "trainId": "23058",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_1931_23058",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_1837_24606",
@@ -8548,7 +8605,10 @@
       }
     ],
     "trainId": "24606",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1810_24606",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-09_1837_32094",
@@ -8727,7 +8787,10 @@
       }
     ],
     "trainId": "24608",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1835_24608",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_INB_HA-24_1857_31955",
@@ -8906,8 +8969,6 @@
       }
     ],
     "trainId": "23059",
-    "throughTripId": "WD_INB_JA-36_1951_23059",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -8977,7 +9038,10 @@
       }
     ],
     "trainId": "24610",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1855_24610",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_1922_23061",
@@ -9041,14 +9105,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "20:09:00",
-        "departureTime": "20:11:00",
+        "departureTime": "20:09:00",
         "isPassing": false
       }
     ],
     "trainId": "23061",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_2011_23061",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_1944_24611",
@@ -9117,7 +9182,10 @@
       }
     ],
     "trainId": "24611",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_1916_24611",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-09_1945_32095",
@@ -9291,14 +9359,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "20:28:00",
-        "departureTime": "20:30:00",
+        "departureTime": "20:28:00",
         "isPassing": false
       }
     ],
     "trainId": "23064",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_2030_23064",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-24_1951_31956",
@@ -9477,8 +9546,6 @@
       }
     ],
     "trainId": "23066",
-    "throughTripId": "WD_INB_JA-36_2113_23066",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -9617,8 +9684,6 @@
       }
     ],
     "trainId": "23067",
-    "throughTripId": "WD_INB_JA-36_2135_23067",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -9911,7 +9976,10 @@
       }
     ],
     "trainId": "24617",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_2041_24617",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_2107_23069",
@@ -9975,14 +10043,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "21:52:00",
-        "departureTime": "21:55:00",
+        "departureTime": "21:52:00",
         "isPassing": false
       }
     ],
     "trainId": "23069",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_2155_23069",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-09_2124_32096",
@@ -10161,7 +10230,10 @@
       }
     ],
     "trainId": "24619",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_2102_24619",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_2138_23071",
@@ -10225,14 +10297,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "22:19:00",
-        "departureTime": "22:21:00",
+        "departureTime": "22:19:00",
         "isPassing": false
       }
     ],
     "trainId": "23071",
+    "customDestination": "川越",
     "throughTripId": "WD_INB_JA-36_2221_23071",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "WD_INB_HA-24_2150_31942",
@@ -10351,7 +10424,10 @@
       }
     ],
     "trainId": "24621",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_2123_24621",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_OUT_HA-01_2206_23072",
@@ -10420,8 +10496,6 @@
       }
     ],
     "trainId": "23072",
-    "throughTripId": "WD_INB_JA-36_2306_23072",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -10690,8 +10764,6 @@
       }
     ],
     "trainId": "23075",
-    "throughTripId": "WD_INB_JA-36_2336_23075",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -10761,7 +10833,10 @@
       }
     ],
     "trainId": "24625",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_2224_24625",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "WD_INB_HA-09_2306_24554",
@@ -10812,7 +10887,10 @@
       }
     ],
     "trainId": "24554",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "WD_OUT_JA-31_2246_24554",
+    "prevLineId": "kawagoe",
+    "customDestination": "拝島"
   },
   {
     "tripId": "WD_OUT_HA-01_2321_28295",
@@ -10944,14 +11022,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "05:26:00",
-        "departureTime": "05:27:00",
+        "departureTime": "05:26:00",
         "isPassing": false
       }
     ],
     "trainId": "23000",
+    "customDestination": "川越",
     "throughTripId": "HD_INB_JA-36_0527_23000",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "HD_INB_HA-09_0509_28303",
@@ -11127,14 +11206,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "05:57:00",
-        "departureTime": "05:58:00",
+        "departureTime": "05:57:00",
         "isPassing": false
       }
     ],
     "trainId": "23003",
+    "customDestination": "川越",
     "throughTripId": "HD_INB_JA-36_0558_23003",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "HD_INB_HA-24_0528_31944",
@@ -11524,8 +11604,6 @@
       }
     ],
     "trainId": "23077",
-    "throughTripId": "HD_INB_JA-36_0629_23077",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -11595,8 +11673,6 @@
       }
     ],
     "trainId": "23004",
-    "throughTripId": "HD_INB_JA-36_0645_23004",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -11844,8 +11920,6 @@
       }
     ],
     "trainId": "23007",
-    "throughTripId": "HD_INB_JA-36_0703_23007",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -12025,7 +12099,10 @@
       }
     ],
     "trainId": "24556",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_0601_24556",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-13_0626_32097",
@@ -12340,8 +12417,6 @@
       }
     ],
     "trainId": "23078",
-    "throughTripId": "HD_INB_JA-36_0721_23078",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -12455,7 +12530,10 @@
       }
     ],
     "trainId": "24557",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_0624_24557",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_INB_HA-24_0655_31936",
@@ -12562,8 +12640,6 @@
       }
     ],
     "trainId": "23009",
-    "throughTripId": "HD_INB_JA-36_0806_23009",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -12633,7 +12709,10 @@
       }
     ],
     "trainId": "24552",
-    "customOrigin": "南古谷"
+    "customOrigin": "南古谷",
+    "prevTripId": "HD_OUT_JA-30_0630_24552",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-09_0701_32085",
@@ -12812,8 +12891,6 @@
       }
     ],
     "trainId": "23011",
-    "throughTripId": "HD_INB_JA-36_0823_23011",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -12883,7 +12960,10 @@
       }
     ],
     "trainId": "24560",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_0659_24560",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-21_0721_32102",
@@ -13300,8 +13380,6 @@
       }
     ],
     "trainId": "23014",
-    "throughTripId": "HD_INB_JA-36_0841_23014",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -13481,7 +13559,10 @@
       }
     ],
     "trainId": "24562",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_0733_24562",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_0813_23016",
@@ -13550,8 +13631,6 @@
       }
     ],
     "trainId": "23016",
-    "throughTripId": "HD_INB_JA-36_0902_23016",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -13621,7 +13700,10 @@
       }
     ],
     "trainId": "24564",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_0753_24564",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-09_0821_32087",
@@ -13839,14 +13921,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "09:18:00",
-        "departureTime": "09:19:00",
+        "departureTime": "09:18:00",
         "isPassing": false
       }
     ],
     "trainId": "23017",
+    "customDestination": "川越",
     "throughTripId": "HD_INB_JA-36_0919_23017",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "HD_INB_HA-09_0835_24565",
@@ -13915,7 +13998,10 @@
       }
     ],
     "trainId": "24565",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_0808_24565",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_0850_23019",
@@ -13979,14 +14065,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "09:36:00",
-        "departureTime": "09:39:00",
+        "departureTime": "09:36:00",
         "isPassing": false
       }
     ],
     "trainId": "23019",
+    "customDestination": "川越",
     "throughTripId": "HD_INB_JA-36_0939_23019",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "HD_INB_HA-24_0855_31938",
@@ -14279,14 +14366,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "10:00:00",
-        "departureTime": "10:04:00",
+        "departureTime": "10:00:00",
         "isPassing": false
       }
     ],
     "trainId": "23022",
+    "customDestination": "川越",
     "throughTripId": "HD_INB_JA-36_1004_23022",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "HD_INB_HA-09_0923_24569",
@@ -14529,14 +14617,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "10:31:00",
-        "departureTime": "10:34:00",
+        "departureTime": "10:31:00",
         "isPassing": false
       }
     ],
     "trainId": "23024",
+    "customDestination": "川越",
     "throughTripId": "HD_INB_JA-36_1034_23024",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "HD_INB_HA-09_1004_24572",
@@ -14605,7 +14694,10 @@
       }
     ],
     "trainId": "24572",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_0942_24572",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_1013_23025",
@@ -14674,8 +14766,6 @@
       }
     ],
     "trainId": "23025",
-    "throughTripId": "HD_INB_JA-36_1104_23025",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -14745,7 +14835,10 @@
       }
     ],
     "trainId": "24574",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1007_24574",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-09_1035_28297",
@@ -14976,7 +15069,10 @@
       }
     ],
     "trainId": "24576",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1037_24576",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_1109_23029",
@@ -15045,8 +15141,6 @@
       }
     ],
     "trainId": "23029",
-    "throughTripId": "HD_INB_JA-36_1204_23029",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -15338,8 +15432,6 @@
       }
     ],
     "trainId": "23030",
-    "throughTripId": "HD_INB_JA-36_1234_23030",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -15569,7 +15661,10 @@
       }
     ],
     "trainId": "24580",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1137_24580",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_1209_23032",
@@ -15638,8 +15733,6 @@
       }
     ],
     "trainId": "23032",
-    "throughTripId": "HD_INB_JA-36_1304_23032",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -15709,7 +15802,10 @@
       }
     ],
     "trainId": "24582",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1207_24582",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_1239_23034",
@@ -15778,8 +15874,6 @@
       }
     ],
     "trainId": "23034",
-    "throughTripId": "HD_INB_JA-36_1334_23034",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -16069,7 +16163,10 @@
       }
     ],
     "trainId": "24584",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1237_24584",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_1309_23036",
@@ -16138,8 +16235,6 @@
       }
     ],
     "trainId": "23036",
-    "throughTripId": "HD_INB_JA-36_1404_23036",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -16209,7 +16304,10 @@
       }
     ],
     "trainId": "24586",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1307_24586",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-09_1332_32091",
@@ -16388,8 +16486,6 @@
       }
     ],
     "trainId": "23038",
-    "throughTripId": "HD_INB_JA-36_1434_23038",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -16569,7 +16665,10 @@
       }
     ],
     "trainId": "24588",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1337_24588",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_1409_23041",
@@ -16638,8 +16737,6 @@
       }
     ],
     "trainId": "23041",
-    "throughTripId": "HD_INB_JA-36_1504_23041",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -16709,7 +16806,10 @@
       }
     ],
     "trainId": "24590",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1407_24590",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_1439_23042",
@@ -16778,8 +16878,6 @@
       }
     ],
     "trainId": "23042",
-    "throughTripId": "HD_INB_JA-36_1534_23042",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -16943,7 +17041,10 @@
       }
     ],
     "trainId": "24592",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1437_24592",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_1509_23044",
@@ -17012,8 +17113,6 @@
       }
     ],
     "trainId": "23044",
-    "throughTripId": "HD_INB_JA-36_1604_23044",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -17083,7 +17182,10 @@
       }
     ],
     "trainId": "24593",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1507_24593",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-19_1534_32100",
@@ -17202,8 +17304,6 @@
       }
     ],
     "trainId": "23046",
-    "throughTripId": "HD_INB_JA-36_1634_23046",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -17537,7 +17637,10 @@
       }
     ],
     "trainId": "24595",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1537_24595",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_1605_23048",
@@ -17601,14 +17704,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "16:57:00",
-        "departureTime": "17:02:00",
+        "departureTime": "16:57:00",
         "isPassing": false
       }
     ],
     "trainId": "23048",
+    "customDestination": "川越",
     "throughTripId": "HD_INB_JA-36_1702_23048",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_1625_28287",
@@ -17727,7 +17831,10 @@
       }
     ],
     "trainId": "24598",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1607_24598",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_INB_HA-24_1636_31941",
@@ -17890,8 +17997,6 @@
       }
     ],
     "trainId": "23050",
-    "throughTripId": "HD_INB_JA-36_1742_23050",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -18011,7 +18116,10 @@
       }
     ],
     "trainId": "24600",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1637_24600",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_INB_HA-24_1707_31953",
@@ -18235,14 +18343,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "17:59:00",
-        "departureTime": "18:03:00",
+        "departureTime": "17:59:00",
         "isPassing": false
       }
     ],
     "trainId": "23052",
+    "customDestination": "川越",
     "throughTripId": "HD_INB_JA-36_1803_23052",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "HD_INB_HA-13_1723_28324",
@@ -18355,7 +18464,10 @@
       }
     ],
     "trainId": "24602",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1708_24602",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_1734_28286",
@@ -18572,8 +18684,6 @@
       }
     ],
     "trainId": "23054",
-    "throughTripId": "HD_INB_JA-36_1844_23054",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -18860,8 +18970,6 @@
       }
     ],
     "trainId": "23056",
-    "throughTripId": "HD_INB_JA-36_1910_23056",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -19178,7 +19286,10 @@
       }
     ],
     "trainId": "24607",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_1812_24607",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_INB_HA-24_1857_31955",
@@ -19352,14 +19463,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "19:49:00",
-        "departureTime": "19:51:00",
+        "departureTime": "19:49:00",
         "isPassing": false
       }
     ],
     "trainId": "23060",
+    "customDestination": "川越",
     "throughTripId": "HD_INB_JA-36_1951_23060",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "HD_INB_HA-09_1901_24609",
@@ -19565,8 +19677,6 @@
       }
     ],
     "trainId": "23062",
-    "throughTripId": "HD_INB_JA-36_2027_23062",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -19636,8 +19746,6 @@
       }
     ],
     "trainId": "23063",
-    "throughTripId": "HD_INB_JA-36_2049_23063",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -19996,8 +20104,6 @@
       }
     ],
     "trainId": "23065",
-    "throughTripId": "HD_INB_JA-36_2110_23065",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -20067,7 +20173,10 @@
       }
     ],
     "trainId": "24615",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_2000_24615",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_2039_23068",
@@ -20136,8 +20245,6 @@
       }
     ],
     "trainId": "23068",
-    "throughTripId": "HD_INB_JA-36_2130_23068",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -20207,7 +20314,10 @@
       }
     ],
     "trainId": "24616",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_2021_24616",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-09_2042_28300",
@@ -20430,7 +20540,10 @@
       }
     ],
     "trainId": "24618",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_2042_24618",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-01_2110_28293",
@@ -20567,7 +20680,10 @@
       }
     ],
     "trainId": "24620",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_2103_24620",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_OUT_HA-09_2124_32096",
@@ -20741,14 +20857,15 @@
       {
         "stationId": "HA-09",
         "arrivalTime": "22:20:00",
-        "departureTime": "22:21:00",
+        "departureTime": "22:20:00",
         "isPassing": false
       }
     ],
     "trainId": "23070",
+    "customDestination": "川越",
     "throughTripId": "HD_INB_JA-36_2221_23070",
     "throughLineId": "kawagoe",
-    "customDestination": "川越"
+    "customOrigin": "八王子"
   },
   {
     "tripId": "HD_INB_HA-24_2150_31942",
@@ -20935,8 +21052,6 @@
       }
     ],
     "trainId": "23073",
-    "throughTripId": "HD_INB_JA-36_2306_23073",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -21205,8 +21320,6 @@
       }
     ],
     "trainId": "23074",
-    "throughTripId": "HD_INB_JA-36_2336_23074",
-    "throughLineId": "kawagoe",
     "customDestination": "川越"
   },
   {
@@ -21276,7 +21389,10 @@
       }
     ],
     "trainId": "24624",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_2220_24624",
+    "prevLineId": "kawagoe",
+    "customDestination": "八王子"
   },
   {
     "tripId": "HD_INB_HA-09_2306_24554",
@@ -21327,7 +21443,10 @@
       }
     ],
     "trainId": "24554",
-    "customOrigin": "川越"
+    "customOrigin": "川越",
+    "prevTripId": "HD_OUT_JA-31_2246_24554",
+    "prevLineId": "kawagoe",
+    "customDestination": "拝島"
   },
   {
     "tripId": "HD_OUT_HA-01_2316_28294",

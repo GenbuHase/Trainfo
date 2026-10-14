@@ -2164,14 +2164,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "05:58:00",
-        "departureTime": "05:59:00",
+        "departureTime": "05:58:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0559_114886",
-    "throughLineId": "yurakucho",
     "trainId": "114886",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "WD_OUT_Y-01_0559_114886",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-33_0508_114163",
@@ -2668,14 +2668,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "06:09:00",
-        "departureTime": "06:10:00",
+        "departureTime": "06:09:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0610_114887",
-    "throughLineId": "yurakucho",
     "trainId": "114887",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "WD_OUT_Y-01_0610_114887",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_0514_113682",
@@ -4263,9 +4263,9 @@
       }
     ],
     "trainId": "114932",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_0618_114932",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_0532_113734",
@@ -5505,9 +5505,9 @@
       }
     ],
     "trainId": "114931",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_0645_114931",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-39_0553_114227",
@@ -6664,7 +6664,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "06:10:00",
+        "arrivalTime": "06:05:00",
         "departureTime": "06:06:00",
         "isPassing": false
       },
@@ -6735,11 +6735,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "菊名",
+    "customOrigin": "新木場",
     "trainId": "77597",
-    "prevTripId": "WD_INB_F-16_0534_105509",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_0513_77597",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-30_0606_114889",
@@ -6870,14 +6870,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "07:00:00",
-        "departureTime": "07:01:00",
+        "departureTime": "07:00:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0701_114889",
-    "throughLineId": "yurakucho",
     "trainId": "114889",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "WD_OUT_Y-01_0701_114889",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-33_0609_114034",
@@ -7380,7 +7380,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77598"
+    "trainId": "77598",
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_0521_77598",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_0615_113938",
@@ -9004,9 +9007,9 @@
     ],
     "customOrigin": "武蔵小杉",
     "trainId": "106019",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_0551_106019",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_0633_113735",
@@ -9423,14 +9426,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "07:27:00",
-        "departureTime": "07:29:00",
+        "departureTime": "07:27:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0729_114892",
-    "throughLineId": "yurakucho",
     "trainId": "114892",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "WD_OUT_Y-01_0729_114892",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-22_0634_114561",
@@ -10043,14 +10046,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "07:11:00",
-        "departureTime": "07:12:00",
+        "departureTime": "07:11:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0712_114837",
-    "throughLineId": "yurakucho",
     "trainId": "114837",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_0712_114837",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-11_0644_106018",
@@ -10065,7 +10068,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "06:47:00",
+        "arrivalTime": "06:42:00",
         "departureTime": "06:44:00",
         "isPassing": false
       },
@@ -10136,11 +10139,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "菊名",
+    "customOrigin": "海老名",
     "trainId": "106018",
-    "prevTripId": "WD_INB_F-16_0607_105511",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_F-16_0612_106018",
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-30_0644_114988",
@@ -10276,9 +10279,9 @@
       }
     ],
     "trainId": "114988",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_0737_114988",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_0645_113942",
@@ -11333,7 +11336,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77590"
+    "trainId": "77590",
+    "customDestination": "志木",
+    "prevTripId": "WD_INB_Y-24_0558_77590",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-39_0652_114232",
@@ -12450,7 +12456,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "06:56:00",
+        "arrivalTime": "06:59:00",
         "departureTime": "07:00:00",
         "isPassing": false
       },
@@ -12523,9 +12529,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124727",
-    "prevTripId": "WD_INB_F-16_0619_105605",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_F-16_0629_124727",
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-14_0700_114915",
@@ -12565,9 +12571,9 @@
       }
     ],
     "trainId": "114915",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_0709_114915",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_0701_113606",
@@ -13146,14 +13152,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "07:57:00",
-        "departureTime": "07:58:00",
+        "departureTime": "07:57:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0758_114893",
-    "throughLineId": "yurakucho",
     "trainId": "114893",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "WD_OUT_Y-01_0758_114893",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_0706_113740",
@@ -13386,10 +13392,10 @@
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0734_114838",
-    "throughLineId": "yurakucho",
     "trainId": "114838",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_0734_114838",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-30_0706_114894",
@@ -13520,14 +13526,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "08:03:00",
-        "departureTime": "08:05:00",
+        "departureTime": "08:03:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0805_114894",
-    "throughLineId": "yurakucho",
     "trainId": "114894",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "WD_OUT_Y-01_0805_114894",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_0708_113736",
@@ -14334,14 +14340,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "07:19:00",
-        "departureTime": "07:20:00",
+        "departureTime": "07:19:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0720_114828",
-    "throughLineId": "yurakucho",
     "trainId": "114828",
-    "customOrigin": "志木"
+    "customOrigin": "志木",
+    "throughTripId": "WD_OUT_Y-01_0720_114828",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-11_0714_106024",
@@ -14381,9 +14387,9 @@
     ],
     "customOrigin": "菊名",
     "trainId": "106024",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_0638_106024",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_0715_113944",
@@ -15118,14 +15124,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "08:14:00",
-        "departureTime": "08:16:00",
+        "departureTime": "08:14:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0816_114896",
-    "throughLineId": "yurakucho",
     "trainId": "114896",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "WD_OUT_Y-01_0816_114896",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-33_0719_114041",
@@ -15415,9 +15421,9 @@
       }
     ],
     "trainId": "114952",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_0753_114952",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-30_0722_114730",
@@ -16774,14 +16780,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "08:34:00",
-        "departureTime": "08:35:00",
+        "departureTime": "08:34:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0835_114897",
-    "throughLineId": "yurakucho",
     "trainId": "114897",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "WD_OUT_Y-01_0835_114897",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_0738_113743",
@@ -16967,9 +16973,9 @@
       }
     ],
     "trainId": "114938",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_0747_114938",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_0739_113691",
@@ -17203,9 +17209,9 @@
       }
     ],
     "trainId": "114951",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_0808_114951",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-39_0740_114238",
@@ -17473,9 +17479,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106022",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_0702_106022",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_0745_113945",
@@ -18104,14 +18110,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "08:44:00",
-        "departureTime": "08:45:00",
+        "departureTime": "08:44:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0845_114898",
-    "throughLineId": "yurakucho",
     "trainId": "114898",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "WD_OUT_Y-01_0845_114898",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-10_0748_114335",
@@ -18200,7 +18206,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "07:45:00",
+        "arrivalTime": "07:48:00",
         "departureTime": "07:49:00",
         "isPassing": false
       },
@@ -18271,11 +18277,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "海老名",
+    "customOrigin": "新木場",
     "trainId": "77602",
-    "prevTripId": "WD_INB_F-16_0709_124796",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_0654_77602",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-33_0749_114045",
@@ -19758,7 +19764,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77603"
+    "trainId": "77603",
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_0705_77603",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_0800_113946",
@@ -20798,9 +20807,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124801",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_0732_124801",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-14_0810_114939",
@@ -20840,9 +20849,9 @@
       }
     ],
     "trainId": "114939",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_0819_114939",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_0811_113611",
@@ -22667,7 +22676,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "08:24:00",
+        "arrivalTime": "08:28:00",
         "departureTime": "08:29:00",
         "isPassing": false
       },
@@ -22786,11 +22795,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "横浜",
     "trainId": "106111",
-    "prevTripId": "WD_INB_F-16_0745_105610",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_F-16_0757_106111",
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_0829_114840",
@@ -22873,14 +22882,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "09:00:00",
-        "departureTime": "09:02:00",
+        "departureTime": "09:00:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0902_114840",
-    "throughLineId": "yurakucho",
     "trainId": "114840",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_0902_114840",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_0830_113948",
@@ -23279,7 +23288,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "08:28:00",
+        "arrivalTime": "08:30:00",
         "departureTime": "08:32:00",
         "isPassing": false
       },
@@ -23350,11 +23359,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "横浜",
+    "customOrigin": "新木場",
     "trainId": "77605",
-    "prevTripId": "WD_INB_F-16_0757_106111",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_0736_77605",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-33_0832_114050",
@@ -25209,14 +25218,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "09:19:00",
-        "departureTime": "09:21:00",
+        "departureTime": "09:19:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0921_114841",
-    "throughLineId": "yurakucho",
     "trainId": "114841",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_0921_114841",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_0848_113466",
@@ -25305,7 +25314,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "08:45:00",
+        "arrivalTime": "08:48:00",
         "departureTime": "08:49:00",
         "isPassing": false
       },
@@ -25376,11 +25385,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77607",
-    "prevTripId": "WD_INB_F-16_0813_105536",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_0752_77607",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-33_0850_114052",
@@ -26719,7 +26728,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "08:59:00",
+        "arrivalTime": "09:01:00",
         "departureTime": "09:02:00",
         "isPassing": false
       },
@@ -26840,9 +26849,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106112",
-    "prevTripId": "WD_INB_F-16_0821_105613",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_F-16_0828_106112",
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_0905_114643",
@@ -27124,9 +27133,9 @@
       }
     ],
     "trainId": "114994",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_0953_114994",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-11_0906_77592",
@@ -27141,7 +27150,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "09:01:00",
+        "arrivalTime": "09:05:00",
         "departureTime": "09:06:00",
         "isPassing": false
       },
@@ -27164,11 +27173,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77592",
-    "prevTripId": "WD_INB_F-16_0828_106112",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "customDestination": "志木",
+    "prevTripId": "WD_INB_Y-24_0812_77592",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_0907_113751",
@@ -27933,7 +27942,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "09:19:00",
+        "arrivalTime": "09:15:00",
         "departureTime": "09:16:00",
         "isPassing": false
       },
@@ -28004,11 +28013,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77608",
-    "prevTripId": "WD_INB_F-16_0840_105614",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_0820_77608",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-22_0917_114843",
@@ -28091,14 +28100,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "09:44:00",
-        "departureTime": "09:47:00",
+        "departureTime": "09:44:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_0947_114843",
-    "throughLineId": "yurakucho",
     "trainId": "114843",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_0947_114843",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-33_0917_114055",
@@ -29272,9 +29281,9 @@
       }
     ],
     "trainId": "114936",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_0937_114936",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_0930_113864",
@@ -29483,7 +29492,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "09:25:00",
+        "arrivalTime": "09:29:00",
         "departureTime": "09:30:00",
         "isPassing": false
       },
@@ -29602,11 +29611,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77659",
-    "prevTripId": "WD_INB_F-16_0846_105615",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_0836_77659",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_0932_113472",
@@ -29763,14 +29772,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "10:05:00",
-        "departureTime": "10:06:00",
+        "departureTime": "10:05:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1006_114844",
-    "throughLineId": "yurakucho",
     "trainId": "114844",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1006_114844",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-33_0936_114187",
@@ -30320,9 +30329,9 @@
       }
     ],
     "trainId": "114995",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1024_114995",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-14_0939_114506",
@@ -30735,7 +30744,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "09:45:00",
+        "arrivalTime": "09:42:00",
         "departureTime": "09:44:00",
         "isPassing": false
       },
@@ -30806,11 +30815,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77611",
-    "prevTripId": "WD_INB_F-16_0909_105554",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_0849_77611",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_0945_113867",
@@ -31404,9 +31413,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106114",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_0911_106114",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-33_0950_114058",
@@ -32275,7 +32284,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "09:56:00",
+        "arrivalTime": "09:59:00",
         "departureTime": "10:00:00",
         "isPassing": false
       },
@@ -32394,11 +32403,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77660",
-    "prevTripId": "WD_INB_F-16_0915_105617",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_0905_77660",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-39_1000_114252",
@@ -32925,7 +32934,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "10:01:00",
+        "arrivalTime": "10:03:00",
         "departureTime": "10:04:00",
         "isPassing": false
       },
@@ -33044,11 +33053,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77661",
-    "prevTripId": "WD_INB_F-16_0925_105556",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_0909_77661",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-30_1007_114996",
@@ -33184,9 +33193,9 @@
       }
     ],
     "trainId": "114996",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1056_114996",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1008_114847",
@@ -33269,14 +33278,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "10:37:00",
-        "departureTime": "10:38:00",
+        "departureTime": "10:37:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1038_114847",
-    "throughLineId": "yurakucho",
     "trainId": "114847",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1038_114847",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-33_1008_114059",
@@ -34486,9 +34495,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124856",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_F-16_0947_124856",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1021_114581",
@@ -34817,14 +34826,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "10:32:00",
-        "departureTime": "10:33:00",
+        "departureTime": "10:32:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_2106_77369",
-    "throughLineId": "yurakucho",
     "trainId": "114830",
-    "customOrigin": "志木"
+    "customOrigin": "志木",
+    "throughTripId": "WD_OUT_Y-01_1033_114830",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-11_1026_77662",
@@ -34959,7 +34968,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77662"
+    "trainId": "77662",
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_0932_77662",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-22_1027_114649",
@@ -35370,7 +35382,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "10:35:00",
+        "arrivalTime": "10:29:00",
         "departureTime": "10:31:00",
         "isPassing": false
       },
@@ -35441,11 +35453,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77613",
-    "prevTripId": "WD_INB_F-16_0958_105559",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_0936_77613",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1032_113759",
@@ -36156,14 +36168,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "11:10:00",
-        "departureTime": "11:11:00",
+        "departureTime": "11:10:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1111_114848",
-    "throughLineId": "yurakucho",
     "trainId": "114848",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1111_114848",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-33_1039_114061",
@@ -36549,9 +36561,9 @@
       }
     ],
     "trainId": "114962",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1126_114962",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1042_113623",
@@ -37754,7 +37766,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "10:51:00",
+        "arrivalTime": "10:54:00",
         "departureTime": "10:55:00",
         "isPassing": false
       },
@@ -37825,11 +37837,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77615",
-    "prevTripId": "WD_INB_F-16_1016_105622",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1001_77615",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1100_114001",
@@ -38111,9 +38123,9 @@
       }
     ],
     "trainId": "114918",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_1138_114918",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1102_113822",
@@ -38831,9 +38843,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106081",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1041_106081",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1110_113955",
@@ -39181,9 +39193,9 @@
       }
     ],
     "trainId": "114963",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1156_114963",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1111_114851",
@@ -39266,14 +39278,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "11:40:00",
-        "departureTime": "11:41:00",
+        "departureTime": "11:40:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1141_114851",
-    "throughLineId": "yurakucho",
     "trainId": "114851",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1141_114851",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-10_1112_114366",
@@ -39509,9 +39521,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106116",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_F-16_1037_106116",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1120_113845",
@@ -40452,7 +40464,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "11:22:00",
+        "arrivalTime": "11:25:00",
         "departureTime": "11:26:00",
         "isPassing": false
       },
@@ -40523,11 +40535,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77618",
-    "prevTripId": "WD_INB_F-16_1045_105625",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1031_77618",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1130_113876",
@@ -41875,9 +41887,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106086",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1110_106086",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1140_113878",
@@ -42207,9 +42219,9 @@
       }
     ],
     "trainId": "114965",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1226_114965",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1141_114853",
@@ -42292,14 +42304,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "12:10:00",
-        "departureTime": "12:11:00",
+        "departureTime": "12:10:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1211_114853",
-    "throughLineId": "yurakucho",
     "trainId": "114853",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1211_114853",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-10_1142_114372",
@@ -43220,7 +43232,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "12:00:00",
+        "arrivalTime": "11:55:00",
         "departureTime": "11:57:00",
         "isPassing": false
       },
@@ -43291,11 +43303,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77619",
-    "prevTripId": "WD_INB_F-16_1122_105567",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1059_77619",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1200_113880",
@@ -43577,9 +43589,9 @@
       }
     ],
     "trainId": "114921",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_1238_114921",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1201_113495",
@@ -44277,9 +44289,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106087",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1140_106087",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1210_113882",
@@ -44609,9 +44621,9 @@
       }
     ],
     "trainId": "114968",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1256_114968",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1211_114855",
@@ -44694,14 +44706,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "12:40:00",
-        "departureTime": "12:41:00",
+        "departureTime": "12:40:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1241_114855",
-    "throughLineId": "yurakucho",
     "trainId": "114855",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1241_114855",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1213_113499",
@@ -45011,9 +45023,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124864",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_F-16_1134_124864",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1220_113847",
@@ -45880,7 +45892,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "12:30:00",
+        "arrivalTime": "12:25:00",
         "departureTime": "12:27:00",
         "isPassing": false
       },
@@ -45951,11 +45963,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77621",
-    "prevTripId": "WD_INB_F-16_1152_105568",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1129_77621",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1230_113885",
@@ -47165,9 +47177,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106090",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1210_106090",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1240_113886",
@@ -47497,9 +47509,9 @@
       }
     ],
     "trainId": "114970",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1326_114970",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1241_114857",
@@ -47582,14 +47594,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "13:10:00",
-        "departureTime": "13:11:00",
+        "departureTime": "13:10:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1311_114857",
-    "throughLineId": "yurakucho",
     "trainId": "114857",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1311_114857",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-10_1242_114383",
@@ -48842,7 +48854,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "13:00:00",
+        "arrivalTime": "12:55:00",
         "departureTime": "12:57:00",
         "isPassing": false
       },
@@ -48913,11 +48925,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77624",
-    "prevTripId": "WD_INB_F-16_1222_105571",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1159_77624",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1300_113888",
@@ -49199,9 +49211,9 @@
       }
     ],
     "trainId": "114923",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_1338_114923",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1301_113507",
@@ -49779,9 +49791,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106092",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1240_106092",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1310_113891",
@@ -50111,9 +50123,9 @@
       }
     ],
     "trainId": "114972",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1356_114972",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1311_114858",
@@ -50196,14 +50208,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "13:40:00",
-        "departureTime": "13:41:00",
+        "departureTime": "13:40:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1341_114858",
-    "throughLineId": "yurakucho",
     "trainId": "114858",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1341_114858",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1313_113511",
@@ -50439,9 +50451,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124865",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_F-16_1234_124865",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-39_1318_114306",
@@ -51382,7 +51394,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "13:30:00",
+        "arrivalTime": "13:25:00",
         "departureTime": "13:27:00",
         "isPassing": false
       },
@@ -51453,11 +51465,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77625",
-    "prevTripId": "WD_INB_F-16_1252_105573",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1229_77625",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1330_113892",
@@ -52667,9 +52679,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106094",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1310_106094",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1340_113894",
@@ -52999,9 +53011,9 @@
       }
     ],
     "trainId": "114974",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1426_114974",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1341_114860",
@@ -53084,14 +53096,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "14:10:00",
-        "departureTime": "14:11:00",
+        "departureTime": "14:10:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1411_114860",
-    "throughLineId": "yurakucho",
     "trainId": "114860",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1411_114860",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-10_1342_114396",
@@ -54132,7 +54144,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "14:00:00",
+        "arrivalTime": "13:55:00",
         "departureTime": "13:57:00",
         "isPassing": false
       },
@@ -54203,11 +54215,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77627",
-    "prevTripId": "WD_INB_F-16_1322_105574",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1259_77627",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1400_113896",
@@ -54489,9 +54501,9 @@
       }
     ],
     "trainId": "114924",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_1438_114924",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1401_113519",
@@ -55263,9 +55275,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106095",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1340_106095",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1410_113956",
@@ -55613,9 +55625,9 @@
       }
     ],
     "trainId": "114976",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1456_114976",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1411_114863",
@@ -55698,14 +55710,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "14:40:00",
-        "departureTime": "14:41:00",
+        "departureTime": "14:40:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1441_114863",
-    "throughLineId": "yurakucho",
     "trainId": "114863",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1441_114863",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1413_113522",
@@ -55941,9 +55953,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124868",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_F-16_1334_124868",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-39_1418_114310",
@@ -56884,7 +56896,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "14:30:00",
+        "arrivalTime": "14:25:00",
         "departureTime": "14:27:00",
         "isPassing": false
       },
@@ -56955,11 +56967,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77628",
-    "prevTripId": "WD_INB_F-16_1352_105577",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1329_77628",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1430_113899",
@@ -58169,9 +58181,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106098",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1410_106098",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1440_113957",
@@ -58519,9 +58531,9 @@
       }
     ],
     "trainId": "114977",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1526_114977",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1441_114865",
@@ -58604,14 +58616,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "15:10:00",
-        "departureTime": "15:11:00",
+        "departureTime": "15:10:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1511_114865",
-    "throughLineId": "yurakucho",
     "trainId": "114865",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1511_114865",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-10_1442_114408",
@@ -59700,7 +59712,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "15:00:00",
+        "arrivalTime": "14:55:00",
         "departureTime": "14:57:00",
         "isPassing": false
       },
@@ -59771,11 +59783,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77630",
-    "prevTripId": "WD_INB_F-16_1422_105579",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1359_77630",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1500_113960",
@@ -60075,9 +60087,9 @@
       }
     ],
     "trainId": "114958",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_1537_114958",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1501_113531",
@@ -60849,9 +60861,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106100",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1440_106100",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1510_113961",
@@ -61146,14 +61158,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "15:40:00",
-        "departureTime": "15:41:00",
+        "departureTime": "15:40:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1541_114866",
-    "throughLineId": "yurakucho",
     "trainId": "114866",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1541_114866",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-30_1512_114997",
@@ -61289,9 +61301,9 @@
       }
     ],
     "trainId": "114997",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1559_114997",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1513_113534",
@@ -61479,9 +61491,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124858",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_1434_124858",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-39_1517_114258",
@@ -62404,7 +62416,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "15:30:00",
+        "arrivalTime": "15:25:00",
         "departureTime": "15:27:00",
         "isPassing": false
       },
@@ -62475,11 +62487,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77632",
-    "prevTripId": "WD_INB_F-16_1452_105580",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1429_77632",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-22_1529_114602",
@@ -63723,9 +63735,9 @@
       }
     ],
     "trainId": "114989",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1629_114989",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-39_1537_114260",
@@ -64063,9 +64075,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106102",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1510_106102",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1540_113964",
@@ -64360,14 +64372,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "16:10:00",
-        "departureTime": "16:11:00",
+        "departureTime": "16:10:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1611_114869",
-    "throughLineId": "yurakucho",
     "trainId": "114869",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1611_114869",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-10_1542_114419",
@@ -64555,9 +64567,9 @@
       }
     ],
     "trainId": "114944",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_1554_114944",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-33_1547_114066",
@@ -65286,7 +65298,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "16:00:00",
+        "arrivalTime": "15:55:00",
         "departureTime": "15:57:00",
         "isPassing": false
       },
@@ -65357,11 +65369,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77634",
-    "prevTripId": "WD_INB_F-16_1522_105582",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1459_77634",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-10_1558_114422",
@@ -66751,9 +66763,9 @@
       }
     ],
     "trainId": "114990",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1658_114990",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-39_1608_114261",
@@ -66945,9 +66957,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106103",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1540_106103",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1610_113903",
@@ -67401,9 +67413,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124860",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_1534_124860",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-33_1617_114068",
@@ -68286,7 +68298,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "16:30:00",
+        "arrivalTime": "16:25:00",
         "departureTime": "16:27:00",
         "isPassing": false
       },
@@ -68357,11 +68369,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77636",
-    "prevTripId": "WD_INB_F-16_1551_105584",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1529_77636",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-14_1627_114945",
@@ -68401,9 +68413,9 @@
       }
     ],
     "trainId": "114945",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_1637_114945",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1630_113968",
@@ -69651,9 +69663,9 @@
       }
     ],
     "trainId": "114991",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1728_114991",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-14_1638_114916",
@@ -69693,9 +69705,9 @@
       }
     ],
     "trainId": "114916",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_1646_114916",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-10_1639_114428",
@@ -69905,9 +69917,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106106",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1611_106106",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1640_113905",
@@ -71310,7 +71322,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "16:47:00",
+        "arrivalTime": "16:51:00",
         "departureTime": "16:52:00",
         "isPassing": false
       },
@@ -71335,9 +71347,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106121",
-    "prevTripId": "WD_INB_F-16_1607_75460",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "customDestination": "志木",
+    "prevTripId": "WD_INB_F-16_1615_106121",
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1653_114609",
@@ -71644,7 +71656,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "16:51:00",
+        "arrivalTime": "16:55:00",
         "departureTime": "16:56:00",
         "isPassing": false
       },
@@ -71715,11 +71727,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77637",
-    "prevTripId": "WD_INB_F-16_1615_106121",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1559_77637",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-33_1656_114071",
@@ -71956,14 +71968,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "17:05:00",
-        "departureTime": "17:07:00",
+        "departureTime": "17:05:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1707_114832",
-    "throughLineId": "yurakucho",
     "trainId": "114832",
-    "customOrigin": "志木"
+    "customOrigin": "志木",
+    "throughTripId": "WD_OUT_Y-01_1707_114832",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-39_1658_114266",
@@ -73231,9 +73243,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124871",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_F-16_1630_124871",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-30_1707_114930",
@@ -73369,9 +73381,9 @@
       }
     ],
     "trainId": "114930",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_1803_114930",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1708_113823",
@@ -74123,9 +74135,9 @@
       }
     ],
     "trainId": "114940",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_1723_114940",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1715_114871",
@@ -74208,14 +74220,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "17:44:00",
-        "departureTime": "17:45:00",
+        "departureTime": "17:44:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1745_114871",
-    "throughLineId": "yurakucho",
     "trainId": "114871",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1745_114871",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-33_1715_114072",
@@ -75430,7 +75442,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77638"
+    "trainId": "77638",
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1629_77638",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-22_1729_114670",
@@ -76505,14 +76520,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "18:05:00",
-        "departureTime": "18:06:00",
+        "departureTime": "18:05:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1806_114873",
-    "throughLineId": "yurakucho",
     "trainId": "114873",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1806_114873",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1736_113787",
@@ -76789,14 +76804,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "18:27:00",
-        "departureTime": "18:28:00",
+        "departureTime": "18:27:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1828_114901",
-    "throughLineId": "yurakucho",
     "trainId": "114901",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "WD_OUT_Y-01_1828_114901",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-39_1736_114269",
@@ -77379,7 +77394,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "17:47:00",
+        "arrivalTime": "17:43:00",
         "departureTime": "17:44:00",
         "isPassing": false
       },
@@ -77450,11 +77465,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77640",
-    "prevTripId": "WD_INB_F-16_1706_105589",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1645_77640",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1745_113555",
@@ -77616,9 +77631,9 @@
       }
     ],
     "trainId": "114927",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_1818_114927",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-33_1745_114133",
@@ -78607,7 +78622,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "17:51:00",
+        "arrivalTime": "17:53:00",
         "departureTime": "17:56:00",
         "isPassing": false
       },
@@ -78678,11 +78693,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "武蔵小杉",
+    "customOrigin": "新木場",
     "trainId": "77641",
-    "prevTripId": "WD_INB_F-16_1721_105532",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1655_77641",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1800_114012",
@@ -79340,9 +79355,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124861",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_1726_124861",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-33_1803_114075",
@@ -80772,9 +80787,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106115",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_1732_106115",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1815_113913",
@@ -81051,14 +81066,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "18:44:00",
-        "departureTime": "18:45:00",
+        "departureTime": "18:44:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1845_114874",
-    "throughLineId": "yurakucho",
     "trainId": "114874",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1845_114874",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1816_113723",
@@ -81431,7 +81446,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "18:23:00",
+        "arrivalTime": "18:15:00",
         "departureTime": "18:18:00",
         "isPassing": false
       },
@@ -81550,11 +81565,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77666",
-    "prevTripId": "WD_INB_F-16_1752_105538",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_1719_77666",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1820_113826",
@@ -82761,7 +82776,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "18:27:00",
+        "arrivalTime": "18:29:00",
         "departureTime": "18:31:00",
         "isPassing": false
       },
@@ -82832,11 +82847,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77642",
-    "prevTripId": "WD_INB_F-16_1747_105591",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1734_77642",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1832_113560",
@@ -83455,14 +83470,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "19:05:00",
-        "departureTime": "19:06:00",
+        "departureTime": "19:05:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1906_114875",
-    "throughLineId": "yurakucho",
     "trainId": "114875",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_1906_114875",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-14_1835_114531",
@@ -84378,9 +84393,9 @@
       }
     ],
     "trainId": "114941",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_1851_114941",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-39_1843_114274",
@@ -84476,9 +84491,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106122",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_1804_106122",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1844_114953",
@@ -84566,9 +84581,9 @@
       }
     ],
     "trainId": "114953",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_1915_114953",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1845_113562",
@@ -85600,9 +85615,9 @@
       }
     ],
     "trainId": "114912",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_1902_114912",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-39_1855_114276",
@@ -85747,7 +85762,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "18:57:00",
+        "arrivalTime": "18:54:00",
         "departureTime": "18:56:00",
         "isPassing": false
       },
@@ -85820,9 +85835,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106109",
-    "prevTripId": "WD_INB_F-16_1818_105592",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_F-16_1822_106109",
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1900_114016",
@@ -87453,7 +87468,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "19:03:00",
+        "arrivalTime": "19:07:00",
         "departureTime": "19:08:00",
         "isPassing": false
       },
@@ -87476,11 +87491,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77594",
-    "prevTripId": "WD_INB_F-16_1827_124846",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "customDestination": "志木",
+    "prevTripId": "WD_INB_Y-24_1812_77594",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-10_1909_114447",
@@ -87668,9 +87683,9 @@
       }
     ],
     "trainId": "114942",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_1921_114942",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_1914_114954",
@@ -87758,9 +87773,9 @@
       }
     ],
     "trainId": "114954",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_1944_114954",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1915_113918",
@@ -88067,7 +88082,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "19:12:00",
+        "arrivalTime": "19:15:00",
         "departureTime": "19:16:00",
         "isPassing": false
       },
@@ -88186,11 +88201,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77669",
-    "prevTripId": "WD_INB_F-16_1832_105655",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_1820_77669",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-33_1916_114139",
@@ -88611,7 +88626,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "19:17:00",
+        "arrivalTime": "19:20:00",
         "departureTime": "19:21:00",
         "isPassing": false
       },
@@ -88634,11 +88649,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "西谷",
     "trainId": "106123",
-    "prevTripId": "WD_INB_F-16_1842_124879",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "customDestination": "志木",
+    "prevTripId": "WD_INB_F-16_1844_106123",
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-30_1921_114906",
@@ -88769,14 +88784,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "20:13:00",
-        "departureTime": "20:15:00",
+        "departureTime": "20:13:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_2015_114906",
-    "throughLineId": "yurakucho",
     "trainId": "114906",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "WD_OUT_Y-01_2015_114906",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1922_113567",
@@ -89621,7 +89636,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77645"
+    "trainId": "77645",
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1835_77645",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1932_113569",
@@ -90239,9 +90257,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106020",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_1857_106020",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-33_1935_114084",
@@ -91115,9 +91133,9 @@
       }
     ],
     "trainId": "114999",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_1954_114999",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-39_1944_114279",
@@ -91474,7 +91492,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "19:43:00",
+        "arrivalTime": "19:46:00",
         "departureTime": "19:47:00",
         "isPassing": false
       },
@@ -91545,11 +91563,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77647",
-    "prevTripId": "WD_INB_F-16_1904_105658",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1850_77647",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-14_1947_114833",
@@ -91584,14 +91602,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "19:56:00",
-        "departureTime": "19:58:00",
+        "departureTime": "19:56:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_1958_114833",
-    "throughLineId": "yurakucho",
     "trainId": "114833",
-    "customOrigin": "志木"
+    "customOrigin": "志木",
+    "throughTripId": "WD_OUT_Y-01_1958_114833",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_1949_113921",
@@ -92360,7 +92378,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "19:50:00",
+        "arrivalTime": "19:53:00",
         "departureTime": "19:54:00",
         "isPassing": false
       },
@@ -92431,11 +92449,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77648",
-    "prevTripId": "WD_INB_F-16_1912_124829",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1858_77648",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-14_1954_114943",
@@ -92475,9 +92493,9 @@
       }
     ],
     "trainId": "114943",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_2002_114943",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_1956_113657",
@@ -93819,9 +93837,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124852",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_1927_124852",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-33_2004_114086",
@@ -93964,7 +93982,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77649"
+    "trainId": "77649",
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1906_77649",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_2008_113829",
@@ -94346,9 +94367,9 @@
       }
     ],
     "trainId": "115001",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_2020_115001",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-30_2013_114740",
@@ -94819,14 +94840,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "20:43:00",
-        "departureTime": "20:44:00",
+        "departureTime": "20:43:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_2044_114877",
-    "throughLineId": "yurakucho",
     "trainId": "114877",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_2044_114877",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_2016_113659",
@@ -95346,9 +95367,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124855",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_1942_124855",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_2020_113801",
@@ -96291,7 +96312,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "20:33:00",
+        "arrivalTime": "20:29:00",
         "departureTime": "20:31:00",
         "isPassing": false
       },
@@ -96362,11 +96383,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77650",
-    "prevTripId": "WD_INB_F-16_1957_105661",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_1933_77650",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-22_2031_114955",
@@ -96454,9 +96475,9 @@
       }
     ],
     "trainId": "114955",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_2059_114955",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_2032_113724",
@@ -97299,7 +97320,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "20:41:00",
+        "arrivalTime": "20:36:00",
         "departureTime": "20:38:00",
         "isPassing": false
       },
@@ -97418,11 +97439,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77671",
-    "prevTripId": "WD_INB_F-16_2004_105662",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_1941_77671",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-14_2038_114913",
@@ -97462,9 +97483,9 @@
       }
     ],
     "trainId": "114913",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_2047_114913",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_2041_113926",
@@ -98892,9 +98913,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124872",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_F-16_2012_124872",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_2050_114879",
@@ -98977,14 +98998,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "21:17:00",
-        "departureTime": "21:18:00",
+        "departureTime": "21:17:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_2118_114879",
-    "throughLineId": "yurakucho",
     "trainId": "114879",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_2118_114879",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-30_2051_114758",
@@ -99469,7 +99490,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "20:53:00",
+        "arrivalTime": "20:56:00",
         "departureTime": "20:57:00",
         "isPassing": false
       },
@@ -99492,11 +99513,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77595",
-    "prevTripId": "WD_INB_F-16_2022_105541",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "customDestination": "志木",
+    "prevTripId": "WD_INB_Y-24_2000_77595",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_2100_114023",
@@ -99796,9 +99817,9 @@
       }
     ],
     "trainId": "114956",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_2129_114956",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_2102_113985",
@@ -100707,7 +100728,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "21:02:00",
+        "arrivalTime": "21:06:00",
         "departureTime": "21:07:00",
         "isPassing": false
       },
@@ -100778,11 +100799,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77653",
-    "prevTripId": "WD_INB_F-16_2027_124830",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_2010_77653",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_2108_113830",
@@ -101333,7 +101354,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "21:12:00",
+        "arrivalTime": "21:14:00",
         "departureTime": "21:15:00",
         "isPassing": false
       },
@@ -101452,11 +101473,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77673",
-    "prevTripId": "WD_INB_F-16_2034_105663",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_2020_77673",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_2116_113662",
@@ -101806,9 +101827,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124853",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_2042_124853",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_2120_113805",
@@ -102579,7 +102600,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77596"
+    "trainId": "77596",
+    "customDestination": "志木",
+    "prevTripId": "WD_INB_Y-24_2035_77596",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-10_2131_114468",
@@ -102741,9 +102765,9 @@
       }
     ],
     "trainId": "114926",
+    "customOrigin": "川越市",
     "throughTripId": "WD_OUT_F-01_2159_114926",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_2132_113987",
@@ -103550,14 +103574,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "21:43:00",
-        "departureTime": "21:45:00",
+        "departureTime": "21:43:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_2145_114834",
-    "throughLineId": "yurakucho",
     "trainId": "114834",
-    "customOrigin": "志木"
+    "customOrigin": "志木",
+    "throughTripId": "WD_OUT_Y-01_2145_114834",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-22_2135_114881",
@@ -103640,14 +103664,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "22:01:00",
-        "departureTime": "22:03:00",
+        "departureTime": "22:01:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_2203_114881",
-    "throughLineId": "yurakucho",
     "trainId": "114881",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_2203_114881",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-30_2138_114992",
@@ -103783,9 +103807,9 @@
       }
     ],
     "trainId": "114992",
+    "customOrigin": "森林公園",
     "throughTripId": "WD_OUT_F-01_2230_114992",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_2140_113806",
@@ -104385,9 +104409,9 @@
       }
     ],
     "trainId": "114937",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_2154_114937",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_2146_113588",
@@ -104622,7 +104646,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77655"
+    "trainId": "77655",
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_2050_77655",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-33_2147_114146",
@@ -104970,9 +104997,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124851",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_2112_124851",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_2151_113932",
@@ -106618,9 +106645,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106110",
+    "customDestination": "川越市",
     "prevTripId": "WD_INB_F-16_2137_106110",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_2210_113833",
@@ -106903,7 +106930,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "22:15:00",
+        "arrivalTime": "22:11:00",
         "departureTime": "22:13:00",
         "isPassing": false
       },
@@ -107022,11 +107049,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77674",
-    "prevTripId": "WD_INB_F-16_2132_124848",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_2116_77674",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_2215_113667",
@@ -107207,14 +107234,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "22:44:00",
-        "departureTime": "22:45:00",
+        "departureTime": "22:44:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_2245_114883",
-    "throughLineId": "yurakucho",
     "trainId": "114883",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_2245_114883",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-33_2217_114147",
@@ -107461,14 +107488,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "22:26:00",
-        "departureTime": "22:27:00",
+        "departureTime": "22:26:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_2227_114835",
-    "throughLineId": "yurakucho",
     "trainId": "114835",
-    "customOrigin": "志木"
+    "customOrigin": "志木",
+    "throughTripId": "WD_OUT_Y-01_2227_114835",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_2220_113807",
@@ -108263,7 +108290,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77656"
+    "trainId": "77656",
+    "customDestination": "川越市",
+    "prevTripId": "WD_INB_Y-24_2132_77656",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-39_2231_114314",
@@ -108765,9 +108795,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106124",
+    "customDestination": "志木",
     "prevTripId": "WD_INB_F-16_2157_106124",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-22_2234_114884",
@@ -108850,14 +108880,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "23:03:00",
-        "departureTime": "23:05:00",
+        "departureTime": "23:03:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_2305_114884",
-    "throughLineId": "yurakucho",
     "trainId": "114884",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_2305_114884",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_2235_113595",
@@ -110090,7 +110120,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77677"
+    "trainId": "77677",
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_2153_77677",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_INB_TJ-22_2253_114681",
@@ -110470,9 +110503,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124874",
+    "customDestination": "森林公園",
     "prevTripId": "WD_INB_F-16_2216_124874",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-01_2300_114030",
@@ -111260,9 +111293,9 @@
       }
     ],
     "trainId": "115000",
+    "customOrigin": "志木",
     "throughTripId": "WD_OUT_F-01_2313_115000",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TJ-33_2304_114161",
@@ -111703,12 +111736,10 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "23:33:00",
-        "departureTime": "23:40:00",
+        "departureTime": "23:33:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_2340_114885",
-    "throughLineId": "yurakucho",
     "trainId": "114885",
     "customOrigin": "川越市"
   },
@@ -112061,14 +112092,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "23:43:00",
-        "departureTime": "23:46:00",
+        "departureTime": "23:43:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "WD_OUT_Y-01_2346_114836",
-    "throughLineId": "yurakucho",
     "trainId": "114836",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "WD_OUT_Y-01_2346_114836",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-11_2312_77678",
@@ -112083,7 +112114,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "23:14:00",
+        "arrivalTime": "23:10:00",
         "departureTime": "23:12:00",
         "isPassing": false
       },
@@ -112202,11 +112233,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77678",
-    "prevTripId": "WD_INB_F-16_2234_105670",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_2215_77678",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_2315_113672",
@@ -113615,7 +113646,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77680"
+    "trainId": "77680",
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_2242_77680",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_2338_113675",
@@ -114106,7 +114140,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "23:48:00",
+        "arrivalTime": "23:52:00",
         "departureTime": "23:53:00",
         "isPassing": false
       },
@@ -114227,9 +114261,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106113",
-    "prevTripId": "WD_INB_F-16_2308_105675",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_F-16_2321_106113",
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TJ-11_2355_77681",
@@ -114244,7 +114278,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "23:57:00",
+        "arrivalTime": "23:54:00",
         "departureTime": "23:55:00",
         "isPassing": false
       },
@@ -114363,11 +114397,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77681",
-    "prevTripId": "WD_INB_F-16_2317_105677",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "WD_INB_Y-24_2259_77681",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "WD_OUT_TJ-01_2358_114007",
@@ -117800,14 +117834,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "06:17:00",
-        "departureTime": "06:18:00",
+        "departureTime": "06:17:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_0618_114888",
-    "throughLineId": "yurakucho",
     "trainId": "114888",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "HD_OUT_Y-01_0618_114888",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_0530_113843",
@@ -118635,9 +118669,9 @@
       }
     ],
     "trainId": "114984",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_0631_114984",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_0540_113603",
@@ -119267,9 +119301,9 @@
       }
     ],
     "trainId": "114998",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_0636_114998",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-39_0553_114228",
@@ -120355,9 +120389,9 @@
       }
     ],
     "trainId": "114928",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_0645_114928",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-14_0604_114492",
@@ -120586,14 +120620,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "07:02:00",
-        "departureTime": "07:03:00",
+        "departureTime": "07:02:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_0703_114890",
-    "throughLineId": "yurakucho",
     "trainId": "114890",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "HD_OUT_Y-01_0703_114890",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_0609_113686",
@@ -121514,14 +121548,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "07:15:00",
-        "departureTime": "07:16:00",
+        "departureTime": "07:15:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_0716_114891",
-    "throughLineId": "yurakucho",
     "trainId": "114891",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "HD_OUT_Y-01_0716_114891",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-39_0619_114230",
@@ -121592,7 +121626,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "06:22:00",
+        "arrivalTime": "06:17:00",
         "departureTime": "06:20:00",
         "isPassing": false
       },
@@ -121663,11 +121697,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77599",
-    "prevTripId": "HD_INB_F-16_0546_105602",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_0525_77599",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_0624_113444",
@@ -122683,9 +122717,9 @@
       }
     ],
     "trainId": "114929",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_0740_114929",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-30_0643_114763",
@@ -123033,9 +123067,9 @@
     ],
     "customOrigin": "海老名",
     "trainId": "124799",
+    "customDestination": "小川町",
     "prevTripId": "HD_INB_F-16_0612_124799",
-    "prevLineId": "fukutoshin",
-    "customDestination": "小川町"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_0645_113941",
@@ -124270,7 +124304,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "06:59:00",
+        "arrivalTime": "06:52:00",
         "departureTime": "06:56:00",
         "isPassing": false
       },
@@ -124341,11 +124375,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "菊名",
+    "customOrigin": "新木場",
     "trainId": "77600",
-    "prevTripId": "HD_INB_F-16_0623_105507",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_0601_77600",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-22_0657_114948",
@@ -124433,9 +124467,9 @@
       }
     ],
     "trainId": "114948",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_0725_114948",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-30_0659_114727",
@@ -125100,7 +125134,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77591"
+    "trainId": "77591",
+    "customDestination": "志木",
+    "prevTripId": "HD_INB_Y-24_0607_77591",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-11_0709_77657",
@@ -125235,7 +125272,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77657"
+    "trainId": "77657",
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_Y-24_0614_77657",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-33_0709_114040",
@@ -125708,14 +125748,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "08:03:00",
-        "departureTime": "08:05:00",
+        "departureTime": "08:03:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_0805_114895",
-    "throughLineId": "yurakucho",
     "trainId": "114895",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "HD_OUT_Y-01_0805_114895",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-33_0711_114151",
@@ -127047,9 +127087,9 @@
       }
     ],
     "trainId": "114986",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_0827_114986",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-33_0728_114042",
@@ -128040,14 +128080,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "07:42:00",
-        "departureTime": "07:43:00",
+        "departureTime": "07:42:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_0743_114829",
-    "throughLineId": "yurakucho",
     "trainId": "114829",
-    "customOrigin": "志木"
+    "customOrigin": "志木",
+    "throughTripId": "HD_OUT_Y-01_0743_114829",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_0735_113858",
@@ -128328,7 +128368,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77601"
+    "trainId": "77601",
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_0641_77601",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-14_0738_114498",
@@ -128996,9 +129039,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106023",
+    "customDestination": "小川町",
     "prevTripId": "HD_INB_F-16_0711_106023",
-    "prevLineId": "fukutoshin",
-    "customDestination": "小川町"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_0744_114839",
@@ -129081,14 +129124,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "08:14:00",
-        "departureTime": "08:15:00",
+        "departureTime": "08:14:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_0815_114839",
-    "throughLineId": "yurakucho",
     "trainId": "114839",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_0815_114839",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_0745_113859",
@@ -129468,9 +129511,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124728",
+    "customDestination": "志木",
     "prevTripId": "HD_INB_F-16_0705_124728",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-39_0751_114239",
@@ -129974,9 +130017,9 @@
       }
     ],
     "trainId": "114933",
+    "customOrigin": "小川町",
     "throughTripId": "HD_OUT_F-01_0855_114933",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "小川町"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_0800_113998",
@@ -130835,7 +130878,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77658"
+    "trainId": "77658",
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_Y-24_0710_77658",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_0806_113694",
@@ -131112,14 +131158,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "09:03:00",
-        "departureTime": "09:04:00",
+        "departureTime": "09:03:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_0904_114899",
-    "throughLineId": "yurakucho",
     "trainId": "114899",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "HD_OUT_Y-01_0904_114899",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-14_0809_114501",
@@ -132189,9 +132235,9 @@
       }
     ],
     "trainId": "114957",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_0847_114957",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_0817_113460",
@@ -132474,7 +132520,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "08:16:00",
+        "arrivalTime": "08:19:00",
         "departureTime": "08:20:00",
         "isPassing": false
       },
@@ -132545,11 +132591,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77604",
-    "prevTripId": "HD_INB_F-16_0738_124833",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_0727_77604",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_0824_113462",
@@ -133565,9 +133611,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124857",
+    "customDestination": "志木",
     "prevTripId": "HD_INB_F-16_0757_124857",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-14_0834_114909",
@@ -133607,9 +133653,9 @@
       }
     ],
     "trainId": "114909",
+    "customOrigin": "志木",
     "throughTripId": "HD_OUT_F-01_0843_114909",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-30_0835_114753",
@@ -134281,9 +134327,9 @@
       }
     ],
     "trainId": "114993",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_0925_114993",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_0840_114573",
@@ -135161,9 +135207,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106107",
+    "customDestination": "小川町",
     "prevTripId": "HD_INB_F-16_0811_106107",
-    "prevLineId": "fukutoshin",
-    "customDestination": "小川町"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_0845_113613",
@@ -135422,7 +135468,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "08:48:00",
+        "arrivalTime": "08:46:00",
         "departureTime": "08:47:00",
         "isPassing": false
       },
@@ -135493,11 +135539,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77606",
-    "prevTripId": "HD_INB_F-16_0807_105612",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_0749_77606",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-10_0848_114346",
@@ -136147,9 +136193,9 @@
       }
     ],
     "trainId": "114935",
+    "customOrigin": "小川町",
     "throughTripId": "HD_OUT_F-01_0955_114935",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "小川町"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-30_0858_114710",
@@ -136916,14 +136962,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "09:37:00",
-        "departureTime": "09:38:00",
+        "departureTime": "09:37:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_0938_114842",
-    "throughLineId": "yurakucho",
     "trainId": "114842",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_0938_114842",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-11_0908_124800",
@@ -137011,9 +137057,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124800",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_F-16_0831_124800",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-33_0909_114054",
@@ -137497,9 +137543,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106078",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_0841_106078",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_0915_114644",
@@ -138849,9 +138895,9 @@
       }
     ],
     "trainId": "114910",
+    "customOrigin": "志木",
     "throughTripId": "HD_OUT_F-01_0932_114910",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-11_0926_77609",
@@ -138866,7 +138912,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "09:23:00",
+        "arrivalTime": "09:25:00",
         "departureTime": "09:26:00",
         "isPassing": false
       },
@@ -138937,11 +138983,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77609",
-    "prevTripId": "HD_INB_F-16_0847_105616",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_0833_77609",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-30_0927_114711",
@@ -139611,9 +139657,9 @@
       }
     ],
     "trainId": "114987",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1026_114987",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_0932_113700",
@@ -139940,14 +139986,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "10:07:00",
-        "departureTime": "10:08:00",
+        "departureTime": "10:07:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1008_114845",
-    "throughLineId": "yurakucho",
     "trainId": "114845",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1008_114845",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_0938_113820",
@@ -140230,7 +140276,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "09:37:00",
+        "arrivalTime": "09:39:00",
         "departureTime": "09:40:00",
         "isPassing": false
       },
@@ -140351,9 +140397,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106084",
-    "prevTripId": "HD_INB_F-16_0902_124797",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_F-16_0911_106084",
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-39_0940_114250",
@@ -141056,7 +141102,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "09:47:00",
+        "arrivalTime": "09:44:00",
         "departureTime": "09:45:00",
         "isPassing": false
       },
@@ -141127,11 +141173,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77610",
-    "prevTripId": "HD_INB_F-16_0907_105555",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_0849_77610",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-10_0946_114354",
@@ -141829,9 +141875,9 @@
       }
     ],
     "trainId": "114934",
+    "customOrigin": "小川町",
     "throughTripId": "HD_OUT_F-01_1056_114934",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "小川町"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1000_114003",
@@ -142468,14 +142514,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "10:35:00",
-        "departureTime": "10:37:00",
+        "departureTime": "10:35:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1037_114846",
-    "throughLineId": "yurakucho",
     "trainId": "114846",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1037_114846",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-14_1005_114507",
@@ -142855,9 +142901,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106079",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_0941_106079",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1010_113868",
@@ -143195,9 +143241,9 @@
       }
     ],
     "trainId": "114917",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_1041_114917",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1014_113620",
@@ -143797,9 +143843,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124854",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_F-16_0937_124854",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1020_113869",
@@ -144620,7 +144666,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "10:21:00",
+        "arrivalTime": "10:25:00",
         "departureTime": "10:26:00",
         "isPassing": false
       },
@@ -144691,11 +144737,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77612",
-    "prevTripId": "HD_INB_F-16_0946_105620",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_0931_77612",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1030_114004",
@@ -146034,7 +146080,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "10:35:00",
+        "arrivalTime": "10:38:00",
         "departureTime": "10:40:00",
         "isPassing": false
       },
@@ -146155,9 +146201,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106080",
-    "prevTripId": "HD_INB_F-16_1000_124834",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_F-16_1010_106080",
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1040_114849",
@@ -146240,14 +146286,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "11:10:00",
-        "departureTime": "11:11:00",
+        "departureTime": "11:10:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1111_114849",
-    "throughLineId": "yurakucho",
     "trainId": "114849",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1111_114849",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-30_1040_114961",
@@ -146383,9 +146429,9 @@
       }
     ],
     "trainId": "114961",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1126_114961",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1043_113625",
@@ -147268,7 +147314,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "10:51:00",
+        "arrivalTime": "10:55:00",
         "departureTime": "10:56:00",
         "isPassing": false
       },
@@ -147339,11 +147385,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77614",
-    "prevTripId": "HD_INB_F-16_1015_105623",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1000_77614",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1057_113821",
@@ -148447,9 +148493,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124862",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_F-16_1030_124862",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1107_114919",
@@ -148537,9 +148583,9 @@
       }
     ],
     "trainId": "114919",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_1138_114919",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-33_1107_114126",
@@ -148981,9 +149027,9 @@
       }
     ],
     "trainId": "114964",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1156_114964",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1111_114850",
@@ -149066,14 +149112,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "11:40:00",
-        "departureTime": "11:41:00",
+        "departureTime": "11:40:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1141_114850",
-    "throughLineId": "yurakucho",
     "trainId": "114850",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1141_114850",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1113_113487",
@@ -149162,7 +149208,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "11:15:00",
+        "arrivalTime": "11:12:00",
         "departureTime": "11:13:00",
         "isPassing": false
       },
@@ -149233,11 +149279,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77616",
-    "prevTripId": "HD_INB_F-16_1036_105563",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1017_77616",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-39_1117_114257",
@@ -150160,7 +150206,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "11:30:00",
+        "arrivalTime": "11:25:00",
         "departureTime": "11:27:00",
         "isPassing": false
       },
@@ -150231,11 +150277,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77617",
-    "prevTripId": "HD_INB_F-16_1051_105565",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1029_77617",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1130_113877",
@@ -151319,9 +151365,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106085",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_1110_106085",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1140_113879",
@@ -151651,9 +151697,9 @@
       }
     ],
     "trainId": "114966",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1226_114966",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1141_114852",
@@ -151736,14 +151782,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "12:10:00",
-        "departureTime": "12:11:00",
+        "departureTime": "12:10:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1211_114852",
-    "throughLineId": "yurakucho",
     "trainId": "114852",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1211_114852",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-10_1142_114371",
@@ -152784,7 +152830,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "12:00:00",
+        "arrivalTime": "11:55:00",
         "departureTime": "11:57:00",
         "isPassing": false
       },
@@ -152855,11 +152901,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77620",
-    "prevTripId": "HD_INB_F-16_1122_105566",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1059_77620",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1200_113881",
@@ -153141,9 +153187,9 @@
       }
     ],
     "trainId": "114920",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_1238_114920",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1201_113494",
@@ -153897,9 +153943,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106088",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_1140_106088",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1210_113883",
@@ -154229,9 +154275,9 @@
       }
     ],
     "trainId": "114967",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1256_114967",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1211_114854",
@@ -154314,14 +154360,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "12:40:00",
-        "departureTime": "12:41:00",
+        "departureTime": "12:40:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1241_114854",
-    "throughLineId": "yurakucho",
     "trainId": "114854",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1241_114854",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1213_113498",
@@ -154631,9 +154677,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124863",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_F-16_1134_124863",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1220_113847",
@@ -155538,7 +155584,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "12:30:00",
+        "arrivalTime": "12:25:00",
         "departureTime": "12:27:00",
         "isPassing": false
       },
@@ -155609,11 +155655,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77622",
-    "prevTripId": "HD_INB_F-16_1153_105569",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1129_77622",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1230_113884",
@@ -156823,9 +156869,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106089",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_1210_106089",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1240_113887",
@@ -157155,9 +157201,9 @@
       }
     ],
     "trainId": "114969",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1326_114969",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1241_114856",
@@ -157240,14 +157286,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "13:10:00",
-        "departureTime": "13:11:00",
+        "departureTime": "13:10:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1311_114856",
-    "throughLineId": "yurakucho",
     "trainId": "114856",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1311_114856",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-10_1242_114384",
@@ -158500,7 +158546,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "13:00:00",
+        "arrivalTime": "12:55:00",
         "departureTime": "12:57:00",
         "isPassing": false
       },
@@ -158571,11 +158617,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77623",
-    "prevTripId": "HD_INB_F-16_1222_105570",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1159_77623",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1300_113889",
@@ -158857,9 +158903,9 @@
       }
     ],
     "trainId": "114922",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_1338_114922",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1301_113506",
@@ -159437,9 +159483,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106091",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_1240_106091",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1310_113890",
@@ -159769,9 +159815,9 @@
       }
     ],
     "trainId": "114971",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1356_114971",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1311_114859",
@@ -159854,14 +159900,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "13:40:00",
-        "departureTime": "13:41:00",
+        "departureTime": "13:40:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1341_114859",
-    "throughLineId": "yurakucho",
     "trainId": "114859",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1341_114859",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1313_113510",
@@ -160097,9 +160143,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124866",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_F-16_1234_124866",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-39_1318_114305",
@@ -161040,7 +161086,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "13:30:00",
+        "arrivalTime": "13:25:00",
         "departureTime": "13:27:00",
         "isPassing": false
       },
@@ -161111,11 +161157,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77626",
-    "prevTripId": "HD_INB_F-16_1252_105572",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1229_77626",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1330_113893",
@@ -162325,9 +162371,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106093",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_1310_106093",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1340_113895",
@@ -162657,9 +162703,9 @@
       }
     ],
     "trainId": "114973",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1426_114973",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1341_114861",
@@ -162742,14 +162788,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "14:10:00",
-        "departureTime": "14:11:00",
+        "departureTime": "14:10:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1411_114861",
-    "throughLineId": "yurakucho",
     "trainId": "114861",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1411_114861",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-10_1342_114395",
@@ -163790,7 +163836,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "14:00:00",
+        "arrivalTime": "13:55:00",
         "departureTime": "13:57:00",
         "isPassing": false
       },
@@ -163861,11 +163907,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77627",
-    "prevTripId": "HD_INB_F-16_1322_105575",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1259_77627",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1400_113897",
@@ -164147,9 +164193,9 @@
       }
     ],
     "trainId": "114925",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_1438_114925",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1401_113518",
@@ -164921,9 +164967,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106096",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_1340_106096",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1410_113898",
@@ -165253,9 +165299,9 @@
       }
     ],
     "trainId": "114975",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1456_114975",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1411_114862",
@@ -165338,14 +165384,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "14:40:00",
-        "departureTime": "14:41:00",
+        "departureTime": "14:40:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1441_114862",
-    "throughLineId": "yurakucho",
     "trainId": "114862",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1441_114862",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1413_113523",
@@ -165581,9 +165627,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124867",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_F-16_1334_124867",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-39_1418_114309",
@@ -166524,7 +166570,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "14:30:00",
+        "arrivalTime": "14:25:00",
         "departureTime": "14:27:00",
         "isPassing": false
       },
@@ -166595,11 +166641,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77629",
-    "prevTripId": "HD_INB_F-16_1352_105576",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1329_77629",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1430_113900",
@@ -167809,9 +167855,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106097",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_1410_106097",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1440_113958",
@@ -168159,9 +168205,9 @@
       }
     ],
     "trainId": "114978",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1526_114978",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1441_114864",
@@ -168244,14 +168290,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "15:10:00",
-        "departureTime": "15:11:00",
+        "departureTime": "15:10:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1511_114864",
-    "throughLineId": "yurakucho",
     "trainId": "114864",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1511_114864",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-10_1442_114407",
@@ -169292,7 +169338,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "15:00:00",
+        "arrivalTime": "14:55:00",
         "departureTime": "14:57:00",
         "isPassing": false
       },
@@ -169363,11 +169409,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77631",
-    "prevTripId": "HD_INB_F-16_1422_105578",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1359_77631",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1500_113959",
@@ -169667,9 +169713,9 @@
       }
     ],
     "trainId": "115292",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_1538_115292",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1501_113530",
@@ -170441,9 +170487,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106099",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_1440_106099",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1510_113901",
@@ -170773,9 +170819,9 @@
       }
     ],
     "trainId": "114979",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1554_114979",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1511_114867",
@@ -170858,14 +170904,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "15:40:00",
-        "departureTime": "15:41:00",
+        "departureTime": "15:40:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1541_114867",
-    "throughLineId": "yurakucho",
     "trainId": "114867",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1541_114867",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1513_113535",
@@ -171101,9 +171147,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124869",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_F-16_1434_124869",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-39_1519_114259",
@@ -172064,7 +172110,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "15:30:00",
+        "arrivalTime": "15:25:00",
         "departureTime": "15:27:00",
         "isPassing": false
       },
@@ -172135,11 +172181,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77633",
-    "prevTripId": "HD_INB_F-16_1452_105581",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1429_77633",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1530_113963",
@@ -173439,9 +173485,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106101",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_1510_106101",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1540_113902",
@@ -173771,9 +173817,9 @@
       }
     ],
     "trainId": "114980",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1626_114980",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1541_114868",
@@ -173856,14 +173902,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "16:10:00",
-        "departureTime": "16:11:00",
+        "departureTime": "16:10:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1611_114868",
-    "throughLineId": "yurakucho",
     "trainId": "114868",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1611_114868",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-10_1542_114420",
@@ -174500,14 +174546,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "16:49:00",
-        "departureTime": "16:50:00",
+        "departureTime": "16:49:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1650_114900",
-    "throughLineId": "yurakucho",
     "trainId": "114900",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "HD_OUT_Y-01_1650_114900",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-22_1551_114603",
@@ -175034,7 +175080,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "15:50:00",
+        "arrivalTime": "15:54:00",
         "departureTime": "15:55:00",
         "isPassing": false
       },
@@ -175057,11 +175103,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77593",
-    "prevTripId": "HD_INB_F-16_1512_105642",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "customDestination": "志木",
+    "prevTripId": "HD_INB_Y-24_1459_77593",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-39_1556_114313",
@@ -175435,9 +175481,9 @@
       }
     ],
     "trainId": "114959",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_1633_114959",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1601_113540",
@@ -176347,9 +176393,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106104",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_1540_106104",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1610_113967",
@@ -176644,14 +176690,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "16:37:00",
-        "departureTime": "16:39:00",
+        "departureTime": "16:37:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1639_114870",
-    "throughLineId": "yurakucho",
     "trainId": "114870",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1639_114870",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-30_1611_114981",
@@ -176787,9 +176833,9 @@
       }
     ],
     "trainId": "114981",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1654_114981",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1614_113545",
@@ -176959,9 +177005,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124859",
+    "customDestination": "志木",
     "prevTripId": "HD_INB_F-16_1534_124859",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-39_1619_114262",
@@ -177690,7 +177736,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "16:22:00",
+        "arrivalTime": "16:25:00",
         "departureTime": "16:26:00",
         "isPassing": false
       },
@@ -177761,11 +177807,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77635",
-    "prevTripId": "HD_INB_F-16_1546_105645",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1529_77635",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-30_1629_114713",
@@ -179235,9 +179281,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106105",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_1610_106105",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1640_113904",
@@ -179641,9 +179687,9 @@
       }
     ],
     "trainId": "114982",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1726_114982",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1642_113783",
@@ -180479,9 +180525,9 @@
       }
     ],
     "trainId": "114911",
+    "customOrigin": "志木",
     "throughTripId": "HD_OUT_F-01_1656_114911",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1651_113906",
@@ -180710,14 +180756,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "16:58:00",
-        "departureTime": "16:59:00",
+        "departureTime": "16:58:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1659_114831",
-    "throughLineId": "yurakucho",
     "trainId": "114831",
-    "customOrigin": "志木"
+    "customOrigin": "志木",
+    "throughTripId": "HD_OUT_Y-01_1659_114831",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-33_1652_114070",
@@ -181064,7 +181110,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "16:52:00",
+        "arrivalTime": "16:54:00",
         "departureTime": "16:55:00",
         "isPassing": false
       },
@@ -181183,11 +181229,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77663",
-    "prevTripId": "HD_INB_F-16_1616_105647",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_Y-24_1559_77663",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1656_113548",
@@ -182285,9 +182331,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106077",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_F-16_1640_106077",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1709_113550",
@@ -182497,9 +182543,9 @@
       }
     ],
     "trainId": "114983",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_1756_114983",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_1714_114612",
@@ -183091,9 +183137,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124870",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_F-16_1634_124870",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1717_113639",
@@ -183796,7 +183842,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "17:21:00",
+        "arrivalTime": "17:23:00",
         "departureTime": "17:24:00",
         "isPassing": false
       },
@@ -183915,11 +183961,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77664",
-    "prevTripId": "HD_INB_F-16_1645_105651",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_Y-24_1629_77664",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1726_113552",
@@ -184922,14 +184968,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "18:01:00",
-        "departureTime": "18:02:00",
+        "departureTime": "18:01:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1802_114872",
-    "throughLineId": "yurakucho",
     "trainId": "114872",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_1802_114872",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1733_113786",
@@ -185188,7 +185234,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "17:30:00",
+        "arrivalTime": "17:34:00",
         "departureTime": "17:35:00",
         "isPassing": false
       },
@@ -185259,11 +185305,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77639",
-    "prevTripId": "HD_INB_F-16_1652_105588",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1641_77639",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-22_1738_114671",
@@ -185424,7 +185470,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "17:40:00",
+        "arrivalTime": "17:37:00",
         "departureTime": "17:38:00",
         "isPassing": false
       },
@@ -185543,11 +185589,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77665",
-    "prevTripId": "HD_INB_F-16_1703_124844",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_Y-24_1646_77665",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1739_113973",
@@ -185890,14 +185936,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "18:31:00",
-        "departureTime": "18:32:00",
+        "departureTime": "18:31:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1832_114902",
-    "throughLineId": "yurakucho",
     "trainId": "114902",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "HD_OUT_Y-01_1832_114902",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1740_113554",
@@ -186417,9 +186463,9 @@
       }
     ],
     "trainId": "114960",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_1818_114960",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1747_113722",
@@ -186895,9 +186941,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106108",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_1713_106108",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-10_1753_114438",
@@ -188491,9 +188537,9 @@
       }
     ],
     "trainId": "115293",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_1838_115293",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-30_1808_114903",
@@ -188624,14 +188670,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "18:59:00",
-        "departureTime": "19:00:00",
+        "departureTime": "18:59:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1900_114903",
-    "throughLineId": "yurakucho",
     "trainId": "114903",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "HD_OUT_Y-01_1900_114903",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1809_113557",
@@ -189151,9 +189197,9 @@
       }
     ],
     "trainId": "114946",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_1845_114946",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1817_113646",
@@ -189632,7 +189678,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "18:27:00",
+        "arrivalTime": "18:22:00",
         "departureTime": "18:23:00",
         "isPassing": false
       },
@@ -189751,11 +189797,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77667",
-    "prevTripId": "HD_INB_F-16_1747_105652",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_Y-24_1729_77667",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-22_1824_114618",
@@ -191062,7 +191108,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "18:32:00",
+        "arrivalTime": "18:35:00",
         "departureTime": "18:36:00",
         "isPassing": false
       },
@@ -191133,11 +191179,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77643",
-    "prevTripId": "HD_INB_F-16_1754_105653",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1741_77643",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-22_1838_114673",
@@ -191700,14 +191746,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "19:35:00",
-        "departureTime": "19:36:00",
+        "departureTime": "19:35:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_1936_114904",
-    "throughLineId": "yurakucho",
     "trainId": "114904",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "HD_OUT_Y-01_1936_114904",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-10_1841_114443",
@@ -192812,7 +192858,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "18:56:00",
+        "arrivalTime": "18:53:00",
         "departureTime": "18:55:00",
         "isPassing": false
       },
@@ -192931,11 +192977,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77668",
-    "prevTripId": "HD_INB_F-16_1827_105522",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_Y-24_1759_77668",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-39_1855_114275",
@@ -193926,7 +193972,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "19:07:00",
+        "arrivalTime": "19:00:00",
         "departureTime": "19:05:00",
         "isPassing": false
       },
@@ -193997,11 +194043,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77644",
-    "prevTripId": "HD_INB_F-16_1829_105654",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1805_77644",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1907_113979",
@@ -194516,14 +194562,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "20:02:00",
-        "departureTime": "20:04:00",
+        "departureTime": "20:02:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_2004_114905",
-    "throughLineId": "yurakucho",
     "trainId": "114905",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "HD_OUT_Y-01_2004_114905",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-33_1913_114138",
@@ -195043,9 +195089,9 @@
       }
     ],
     "trainId": "114947",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_1946_114947",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1917_113653",
@@ -195231,9 +195277,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106117",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_F-16_1839_106117",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1921_113919",
@@ -195644,7 +195690,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "19:22:00",
+        "arrivalTime": "19:24:00",
         "departureTime": "19:25:00",
         "isPassing": false
       },
@@ -195765,9 +195811,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106082",
-    "prevTripId": "HD_INB_F-16_1846_105656",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_F-16_1857_106082",
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_1926_113568",
@@ -196946,7 +196992,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "19:37:00",
+        "arrivalTime": "19:34:00",
         "departureTime": "19:35:00",
         "isPassing": false
       },
@@ -197017,11 +197063,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77646",
-    "prevTripId": "HD_INB_F-16_1900_105657",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1840_77646",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-22_1938_114625",
@@ -197298,14 +197344,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "20:29:00",
-        "departureTime": "20:30:00",
+        "departureTime": "20:29:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_2030_114907",
-    "throughLineId": "yurakucho",
     "trainId": "114907",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "HD_OUT_Y-01_2030_114907",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1939_113981",
@@ -198204,14 +198250,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "20:15:00",
-        "departureTime": "20:17:00",
+        "departureTime": "20:15:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_2017_114876",
-    "throughLineId": "yurakucho",
     "trainId": "114876",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_2017_114876",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_1947_113656",
@@ -198762,7 +198808,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "19:55:00",
+        "arrivalTime": "19:52:00",
         "departureTime": "19:53:00",
         "isPassing": false
       },
@@ -198881,11 +198927,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77670",
-    "prevTripId": "HD_INB_F-16_1927_105525",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_Y-24_1900_77670",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-39_1954_114280",
@@ -199971,9 +200017,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106118",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_F-16_1924_106118",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-30_2006_114908",
@@ -200104,14 +200150,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "20:57:00",
-        "departureTime": "20:58:00",
+        "departureTime": "20:57:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_2058_114908",
-    "throughLineId": "yurakucho",
     "trainId": "114908",
-    "customOrigin": "森林公園"
+    "customOrigin": "森林公園",
+    "throughTripId": "HD_OUT_Y-01_2058_114908",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_2007_113923",
@@ -200393,9 +200439,9 @@
       }
     ],
     "trainId": "115002",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_2038_115002",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_2009_113573",
@@ -200583,9 +200629,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124802",
+    "customDestination": "志木",
     "prevTripId": "HD_INB_F-16_1933_124802",
-    "prevLineId": "fukutoshin",
-    "customDestination": "志木"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-33_2012_114142",
@@ -201124,14 +201170,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "20:47:00",
-        "departureTime": "20:48:00",
+        "departureTime": "20:47:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_2048_114878",
-    "throughLineId": "yurakucho",
     "trainId": "114878",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_2048_114878",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-10_2016_114458",
@@ -202690,7 +202736,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "20:39:00",
+        "arrivalTime": "20:34:00",
         "departureTime": "20:36:00",
         "isPassing": false
       },
@@ -202761,11 +202807,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77651",
-    "prevTripId": "HD_INB_F-16_2012_105527",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_1942_77651",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-22_2037_114675",
@@ -203619,9 +203665,9 @@
       }
     ],
     "trainId": "114985",
+    "customOrigin": "森林公園",
     "throughTripId": "HD_OUT_F-01_2139_114985",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "森林公園"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_2046_114629",
@@ -204458,14 +204504,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "21:20:00",
-        "departureTime": "21:21:00",
+        "departureTime": "21:20:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_2121_114880",
-    "throughLineId": "yurakucho",
     "trainId": "114880",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_2121_114880",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-11_2054_77672",
@@ -204600,7 +204646,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77672"
+    "trainId": "77672",
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_Y-24_1958_77672",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-14_2055_114914",
@@ -204640,9 +204689,9 @@
       }
     ],
     "trainId": "114914",
+    "customOrigin": "志木",
     "throughTripId": "HD_OUT_F-01_2103_114914",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "志木"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_2056_113580",
@@ -205220,9 +205269,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "124873",
+    "customDestination": "川越市",
     "prevTripId": "HD_INB_F-16_2023_124873",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-22_2103_114630",
@@ -205455,7 +205504,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77652"
+    "trainId": "77652",
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_2009_77652",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_2107_113986",
@@ -207141,9 +207193,9 @@
       }
     ],
     "trainId": "114949",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_2156_114949",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_2126_113586",
@@ -207232,7 +207284,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "21:22:00",
+        "arrivalTime": "21:25:00",
         "departureTime": "21:26:00",
         "isPassing": false
       },
@@ -207303,11 +207355,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77654",
-    "prevTripId": "HD_INB_F-16_2047_105664",
-    "prevLineId": "fukutoshin",
-    "customDestination": "川越市"
+    "customDestination": "川越市",
+    "prevTripId": "HD_INB_Y-24_2031_77654",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-10_2129_114467",
@@ -208801,9 +208853,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106119",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_2100_106119",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-10_2140_114469",
@@ -209305,9 +209357,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106120",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_2109_106120",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_2151_113931",
@@ -209589,9 +209641,9 @@
       }
     ],
     "trainId": "114950",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_2226_114950",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-33_2152_114130",
@@ -210327,9 +210379,9 @@
       }
     ],
     "trainId": "115003",
+    "customOrigin": "川越市",
     "throughTripId": "HD_OUT_F-01_2230_115003",
-    "throughLineId": "fukutoshin",
-    "customOrigin": "川越市"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_2204_113832",
@@ -211251,9 +211303,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106083",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_2142_106083",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_INB_TJ-10_2212_114474",
@@ -211696,14 +211748,14 @@
       {
         "stationId": "TJ-11",
         "arrivalTime": "22:41:00",
-        "departureTime": "22:42:00",
+        "departureTime": "22:41:00",
         "isPassing": false
       }
     ],
-    "throughTripId": "HD_OUT_Y-01_2242_114882",
-    "throughLineId": "yurakucho",
     "trainId": "114882",
-    "customOrigin": "川越市"
+    "customOrigin": "川越市",
+    "throughTripId": "HD_OUT_Y-01_2242_114882",
+    "throughLineId": "yurakucho"
   },
   {
     "tripId": "HD_INB_TJ-14_2215_114549",
@@ -212230,7 +212282,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "22:23:00",
+        "arrivalTime": "22:26:00",
         "departureTime": "22:27:00",
         "isPassing": false
       },
@@ -212349,11 +212401,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77675",
-    "prevTripId": "HD_INB_F-16_2147_105667",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_Y-24_2135_77675",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_2232_113991",
@@ -213462,7 +213514,7 @@
     "stops": [
       {
         "stationId": "TJ-11",
-        "arrivalTime": "22:46:00",
+        "arrivalTime": "22:42:00",
         "departureTime": "22:45:00",
         "isPassing": false
       },
@@ -213581,11 +213633,11 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "元町・中華街",
+    "customOrigin": "新木場",
     "trainId": "77676",
-    "prevTripId": "HD_INB_F-16_2204_105669",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_Y-24_2147_77676",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_2251_113810",
@@ -215062,7 +215114,10 @@
       }
     ],
     "customOrigin": "新木場",
-    "trainId": "77679"
+    "trainId": "77679",
+    "customDestination": "森林公園",
+    "prevTripId": "HD_INB_Y-24_2218_77679",
+    "prevLineId": "yurakucho"
   },
   {
     "tripId": "HD_OUT_TJ-01_2317_113836",
@@ -215650,9 +215705,9 @@
     ],
     "customOrigin": "元町・中華街",
     "trainId": "106021",
+    "customDestination": "森林公園",
     "prevTripId": "HD_INB_F-16_2253_106021",
-    "prevLineId": "fukutoshin",
-    "customDestination": "森林公園"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TJ-01_2335_113838",
