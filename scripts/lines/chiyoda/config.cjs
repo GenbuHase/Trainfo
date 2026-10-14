@@ -26,7 +26,7 @@ module.exports = {
     { id: 'C-16', name: '西日暮里', yahooStationId: '22880', inGroupId: '3321', outGroupId: '3320' },
     { id: 'C-17', name: '町屋', yahooStationId: '22978', inGroupId: '3321', outGroupId: '3320' },
     { id: 'C-18', name: '北千住', yahooStationId: '22630', inGroupId: '3321', outGroupId: '3320' },
-    { id: 'C-19', name: '綾瀬', yahooStationId: '22499', inGroupId: '3321', outGroupId: null },
+    { id: 'C-19', name: '綾瀬', yahooStationId: '22499', inGroupId: '3321', outGroupId: ['3331', '1001'] }, // 3321: 代々木上原方面, 3331: 北綾瀬方面, 1001: 常磐線直通方面
     { id: 'C-20', name: '北綾瀬', yahooStationId: '22627', inGroupId: '3330', outGroupId: null },
   ],
   stationNameAliases: {

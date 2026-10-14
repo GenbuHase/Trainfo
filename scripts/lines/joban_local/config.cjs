@@ -8,7 +8,7 @@ module.exports = {
     globalTimetable: 'src/data/lines/joban_local/globalTimetable.json',
   },
   stations: [
-    { id: 'JL-19', name: '綾瀬', yahooStationId: '22499', inGroupId: null, outGroupId: '1001' },
+    { id: 'JL-19', name: '綾瀬', yahooStationId: '22499', inGroupId: '3321', outGroupId: '1001' }, // 3321: 代々木上原方面, 1001: 我孫子・取手方面
     { id: 'JL-20', name: '亀有', yahooStationId: '22611', inGroupId: '1000', outGroupId: '1001' },
     { id: 'JL-21', name: '金町', yahooStationId: '22598', inGroupId: '1000', outGroupId: '1001' },
     { id: 'JL-22', name: '松戸', yahooStationId: '22444', inGroupId: '1000', outGroupId: '1001' },
