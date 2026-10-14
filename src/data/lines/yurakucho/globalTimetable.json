@@ -1133,9 +1133,9 @@
       }
     ],
     "trainId": "77597",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_0606_77597",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0521_77598",
@@ -1295,9 +1295,9 @@
       }
     ],
     "trainId": "77598",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_0614_77598",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0522_77206",
@@ -1585,9 +1585,9 @@
       }
     ],
     "trainId": "77756",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0609_77756",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0530_77208",
@@ -2191,9 +2191,9 @@
       }
     ],
     "trainId": "77758",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0621_77758",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0544_77212",
@@ -2639,9 +2639,9 @@
       }
     ],
     "trainId": "77713",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0636_77713",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0554_77213",
@@ -2959,9 +2959,9 @@
       }
     ],
     "trainId": "77590",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_0651_77590",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0559_114886",
@@ -2971,6 +2971,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3119,11 +3120,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114886",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-30_0507_114886",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0602_77215",
@@ -3291,6 +3291,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3409,7 +3410,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144460",
     "prevTripId": "WD_INB_SI-06_0554_144460",
     "prevLineId": "seibu_yurakucho",
@@ -3543,9 +3543,9 @@
       }
     ],
     "trainId": "77759",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0645_77759",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0608_77217",
@@ -3871,6 +3871,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4019,11 +4020,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114887",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-30_0512_114887",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0613_77414",
@@ -5100,8 +5100,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "77760",
-    "customOrigin": "新木場"
+    "trainId": "77760"
   },
   {
     "tripId": "WD_OUT_Y-06_0632_144462",
@@ -5111,6 +5110,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5229,7 +5229,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144462",
     "prevTripId": "WD_INB_SI-06_0626_144462",
     "prevLineId": "seibu_yurakucho",
@@ -5837,9 +5836,9 @@
       }
     ],
     "trainId": "77685",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0721_77685",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0644_77420",
@@ -6127,9 +6126,9 @@
       }
     ],
     "trainId": "77800",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0731_77800",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0650_77226",
@@ -6447,9 +6446,9 @@
       }
     ],
     "trainId": "77602",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_0749_77602",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0656_77228",
@@ -6775,6 +6774,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6893,7 +6893,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144397",
     "prevTripId": "WD_INB_SI-06_0654_144397",
     "prevLineId": "seibu_yurakucho",
@@ -6907,6 +6906,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7055,11 +7055,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114889",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-30_0606_114889",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-09_0701_77195",
@@ -7299,9 +7298,9 @@
       }
     ],
     "trainId": "77802",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0743_77802",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0705_77603",
@@ -7461,9 +7460,9 @@
       }
     ],
     "trainId": "77603",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_0759_77603",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0707_77230",
@@ -7478,7 +7477,7 @@
     "stops": [
       {
         "stationId": "Y-01",
-        "arrivalTime": "07:08:00",
+        "arrivalTime": "07:07:00",
         "departureTime": "07:07:00",
         "isPassing": false
       },
@@ -7621,9 +7620,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "77230",
-    "customDestination": "新木場",
-    "customOrigin": "志木"
+    "trainId": "77230"
   },
   {
     "tripId": "WD_INB_Y-24_0709_77425",
@@ -7791,6 +7788,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7939,11 +7937,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114837",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_0642_114837",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0712_77686",
@@ -8073,9 +8070,9 @@
       }
     ],
     "trainId": "77686",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0752_77686",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0716_77427",
@@ -8401,6 +8398,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8519,7 +8517,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144424",
     "prevTripId": "WD_INB_SI-06_0713_144424",
     "prevLineId": "seibu_yurakucho",
@@ -8533,6 +8530,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8681,11 +8679,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "志木",
     "trainId": "114828",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-14_0712_114828",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0720_77428",
@@ -8963,6 +8960,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9081,7 +9079,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144465",
     "prevTripId": "WD_INB_SI-06_0720_144465",
     "prevLineId": "seibu_yurakucho",
@@ -9253,6 +9250,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9401,11 +9399,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114892",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-30_0633_114892",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0731_77235",
@@ -9693,9 +9690,9 @@
       }
     ],
     "trainId": "77738",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0813_77738",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0734_114838",
@@ -9705,6 +9702,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9853,11 +9851,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114838",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_0706_114838",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0736_77605",
@@ -10017,9 +10014,9 @@
       }
     ],
     "trainId": "77605",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_0832_77605",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_0737_144450",
@@ -10029,6 +10026,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -10147,7 +10145,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144450",
     "prevTripId": "WD_INB_SI-06_0730_144450",
     "prevLineId": "seibu_yurakucho",
@@ -10319,6 +10316,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -10437,7 +10435,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144398",
     "prevTripId": "WD_INB_SI-06_0736_144398",
     "prevLineId": "seibu_yurakucho",
@@ -11155,9 +11152,9 @@
       }
     ],
     "trainId": "77803",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0828_77803",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0750_77239",
@@ -11475,9 +11472,9 @@
       }
     ],
     "trainId": "77607",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_0849_77607",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_0753_144451",
@@ -11487,6 +11484,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -11605,7 +11603,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144451",
     "prevTripId": "WD_INB_SI-06_0746_144451",
     "prevLineId": "seibu_yurakucho",
@@ -11777,6 +11774,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -11925,11 +11923,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114893",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-30_0703_114893",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0800_77401",
@@ -12207,6 +12204,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -12325,7 +12323,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144375",
     "prevTripId": "WD_INB_SI-06_0755_144375",
     "prevLineId": "seibu_yurakucho",
@@ -12497,6 +12494,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -12645,11 +12643,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114894",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-30_0706_114894",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_0808_144452",
@@ -12659,6 +12656,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -12777,7 +12775,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144452",
     "prevTripId": "WD_INB_SI-06_0758_144452",
     "prevLineId": "seibu_yurakucho",
@@ -12911,9 +12908,9 @@
       }
     ],
     "trainId": "77687",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0849_77687",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-09_0809_77197",
@@ -13191,6 +13188,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -13309,7 +13307,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144425",
     "prevTripId": "WD_INB_SI-06_0805_144425",
     "prevLineId": "seibu_yurakucho",
@@ -13473,9 +13470,9 @@
       }
     ],
     "trainId": "77592",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_0906_77592",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0816_114896",
@@ -13485,6 +13482,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -13633,11 +13631,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114896",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-30_0718_114896",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0816_77440",
@@ -13955,9 +13952,9 @@
       }
     ],
     "trainId": "77608",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_0916_77608",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0821_77244",
@@ -14125,6 +14122,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "飯能",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -14243,7 +14241,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "飯能",
     "trainId": "144502",
     "prevTripId": "WD_INB_SI-06_0816_144502",
     "prevLineId": "seibu_yurakucho",
@@ -14377,9 +14374,9 @@
       }
     ],
     "trainId": "77762",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0907_77762",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0828_77443",
@@ -14705,6 +14702,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -14823,7 +14821,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144377",
     "prevTripId": "WD_INB_SI-06_0826_144377",
     "prevLineId": "seibu_yurakucho",
@@ -14957,9 +14954,9 @@
       }
     ],
     "trainId": "77682",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0912_77682",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0835_114897",
@@ -14969,6 +14966,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -15117,11 +15115,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114897",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-30_0734_114897",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0836_77659",
@@ -15281,9 +15278,9 @@
       }
     ],
     "trainId": "77659",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_0930_77659",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0838_77248",
@@ -15451,6 +15448,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -15569,7 +15567,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144453",
     "prevTripId": "WD_INB_SI-06_0831_144453",
     "prevLineId": "seibu_yurakucho",
@@ -15899,6 +15896,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -16047,11 +16045,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114898",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-30_0747_114898",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-09_0845_77198",
@@ -16171,6 +16168,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -16289,7 +16287,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144454",
     "prevTripId": "WD_INB_SI-06_0839_144454",
     "prevLineId": "seibu_yurakucho",
@@ -16453,9 +16450,9 @@
       }
     ],
     "trainId": "77611",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_0944_77611",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0850_77251",
@@ -16743,9 +16740,9 @@
       }
     ],
     "trainId": "77804",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0935_77804",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_0856_144443",
@@ -16755,6 +16752,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "所沢",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -16873,7 +16871,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "所沢",
     "trainId": "144443",
     "prevTripId": "WD_INB_SI-06_0850_144443",
     "prevLineId": "seibu_yurakucho",
@@ -17323,9 +17320,9 @@
       }
     ],
     "trainId": "77683",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0943_77683",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0902_114840",
@@ -17335,6 +17332,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -17483,11 +17481,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114840",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_0829_114840",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_0902_144427",
@@ -17497,6 +17494,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -17615,7 +17613,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144427",
     "prevTripId": "WD_INB_SI-06_0856_144427",
     "prevLineId": "seibu_yurakucho",
@@ -17779,9 +17776,9 @@
       }
     ],
     "trainId": "77660",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1000_77660",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0907_77254",
@@ -18099,9 +18096,9 @@
       }
     ],
     "trainId": "77661",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1004_77661",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0912_77690",
@@ -18231,9 +18228,9 @@
       }
     ],
     "trainId": "77690",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_0956_77690",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0916_77402",
@@ -18511,6 +18508,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -18659,11 +18657,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114841",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_0847_114841",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0923_77453",
@@ -18979,9 +18976,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "77454",
-    "customDestination": "森林公園",
-    "customOrigin": "新木場"
+    "trainId": "77454"
   },
   {
     "tripId": "WD_OUT_Y-01_0928_77258",
@@ -19149,6 +19144,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -19267,7 +19263,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144378",
     "prevTripId": "WD_INB_SI-06_0923_144378",
     "prevLineId": "seibu_yurakucho",
@@ -19431,9 +19426,9 @@
       }
     ],
     "trainId": "77662",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1026_77662",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0936_77613",
@@ -19593,9 +19588,9 @@
       }
     ],
     "trainId": "77613",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1031_77613",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0941_77260",
@@ -19883,9 +19878,9 @@
       }
     ],
     "trainId": "77801",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1024_77801",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0947_114843",
@@ -19895,6 +19890,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -20043,11 +20039,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114843",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_0917_114843",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_0947_77456",
@@ -20215,6 +20210,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -20333,7 +20329,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144429",
     "prevTripId": "WD_INB_SI-06_0939_144429",
     "prevLineId": "seibu_yurakucho",
@@ -20467,9 +20462,9 @@
       }
     ],
     "trainId": "77765",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1034_77765",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_0955_77262",
@@ -21055,9 +21050,9 @@
       }
     ],
     "trainId": "77615",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1055_77615",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1003_77264",
@@ -21225,6 +21220,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -21373,11 +21369,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114844",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_0933_114844",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1006_77715",
@@ -21507,9 +21502,9 @@
       }
     ],
     "trainId": "77715",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1046_77715",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1011_77458",
@@ -21677,6 +21672,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -21795,7 +21791,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144467",
     "prevTripId": "WD_INB_SI-06_1005_144467",
     "prevLineId": "seibu_yurakucho",
@@ -22403,9 +22398,9 @@
       }
     ],
     "trainId": "77767",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1103_77767",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1026_77460",
@@ -22881,9 +22876,9 @@
       }
     ],
     "trainId": "77618",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1126_77618",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1033_114830",
@@ -22893,6 +22888,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -23041,11 +23037,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "志木",
     "trainId": "114830",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-14_1025_114830",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1036_77717",
@@ -23175,9 +23170,9 @@
       }
     ],
     "trainId": "77717",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1117_77717",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1038_114847",
@@ -23187,6 +23182,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -23335,11 +23331,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114847",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1008_114847",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1041_77462",
@@ -24101,9 +24096,9 @@
       }
     ],
     "trainId": "77771",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1133_77771",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1059_77619",
@@ -24263,9 +24258,9 @@
       }
     ],
     "trainId": "77619",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1157_77619",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1105_77719",
@@ -24395,9 +24390,9 @@
       }
     ],
     "trainId": "77719",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1147_77719",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1111_114848",
@@ -24407,6 +24402,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -24555,11 +24551,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114848",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1039_114848",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1111_77465",
@@ -24727,6 +24722,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -24845,7 +24841,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144382",
     "prevTripId": "WD_INB_SI-06_1104_144382",
     "prevLineId": "seibu_yurakucho",
@@ -25017,6 +25012,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -25135,7 +25131,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144399",
     "prevTripId": "WD_INB_SI-06_1111_144399",
     "prevLineId": "seibu_yurakucho",
@@ -25427,9 +25422,9 @@
       }
     ],
     "trainId": "77773",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1203_77773",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1128_77277",
@@ -25747,9 +25742,9 @@
       }
     ],
     "trainId": "77621",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1227_77621",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1131_144471",
@@ -25759,6 +25754,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -25877,7 +25873,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144471",
     "prevTripId": "WD_INB_SI-06_1125_144471",
     "prevLineId": "seibu_yurakucho",
@@ -26011,9 +26006,9 @@
       }
     ],
     "trainId": "77720",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1217_77720",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1141_114851",
@@ -26023,6 +26018,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -26171,11 +26167,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114851",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1111_114851",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1141_77468",
@@ -26501,6 +26496,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "所沢",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -26619,7 +26615,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "所沢",
     "trainId": "144445",
     "prevTripId": "WD_INB_SI-06_1141_144445",
     "prevLineId": "seibu_yurakucho",
@@ -26911,9 +26906,9 @@
       }
     ],
     "trainId": "77775",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1233_77775",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1158_77280",
@@ -27231,9 +27226,9 @@
       }
     ],
     "trainId": "77624",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1257_77624",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1201_144472",
@@ -27243,6 +27238,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -27361,7 +27357,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144472",
     "prevTripId": "WD_INB_SI-06_1155_144472",
     "prevLineId": "seibu_yurakucho",
@@ -27495,9 +27490,9 @@
       }
     ],
     "trainId": "77722",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1247_77722",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1211_114853",
@@ -27507,6 +27502,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -27655,11 +27651,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114853",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1141_114853",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1211_77473",
@@ -27985,6 +27980,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -28103,7 +28099,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144402",
     "prevTripId": "WD_INB_SI-06_1211_144402",
     "prevLineId": "seibu_yurakucho",
@@ -28395,9 +28390,9 @@
       }
     ],
     "trainId": "77777",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1303_77777",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1228_77284",
@@ -28715,9 +28710,9 @@
       }
     ],
     "trainId": "77625",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1327_77625",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1231_144474",
@@ -28727,6 +28722,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -28845,7 +28841,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144474",
     "prevTripId": "WD_INB_SI-06_1225_144474",
     "prevLineId": "seibu_yurakucho",
@@ -28979,9 +28974,9 @@
       }
     ],
     "trainId": "77725",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1317_77725",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1241_114855",
@@ -28991,6 +28986,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -29139,11 +29135,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114855",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1211_114855",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1241_77476",
@@ -29469,6 +29464,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -29587,7 +29583,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144404",
     "prevTripId": "WD_INB_SI-06_1241_144404",
     "prevLineId": "seibu_yurakucho",
@@ -29879,9 +29874,9 @@
       }
     ],
     "trainId": "77778",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1333_77778",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1258_77288",
@@ -30199,9 +30194,9 @@
       }
     ],
     "trainId": "77627",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1357_77627",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1301_144475",
@@ -30211,6 +30206,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -30329,7 +30325,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144475",
     "prevTripId": "WD_INB_SI-06_1255_144475",
     "prevLineId": "seibu_yurakucho",
@@ -30463,9 +30458,9 @@
       }
     ],
     "trainId": "77727",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1347_77727",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1311_114857",
@@ -30475,6 +30470,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -30623,11 +30619,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114857",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1241_114857",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1311_77481",
@@ -30953,6 +30948,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -31071,7 +31067,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144406",
     "prevTripId": "WD_INB_SI-06_1311_144406",
     "prevLineId": "seibu_yurakucho",
@@ -31363,9 +31358,9 @@
       }
     ],
     "trainId": "77781",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1403_77781",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1328_77292",
@@ -31683,9 +31678,9 @@
       }
     ],
     "trainId": "77628",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1427_77628",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1331_144477",
@@ -31695,6 +31690,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -31813,7 +31809,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144477",
     "prevTripId": "WD_INB_SI-06_1325_144477",
     "prevLineId": "seibu_yurakucho",
@@ -31947,9 +31942,9 @@
       }
     ],
     "trainId": "77729",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1417_77729",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1341_114858",
@@ -31959,6 +31954,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -32107,11 +32103,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114858",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1311_114858",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1341_77484",
@@ -32437,6 +32432,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -32555,7 +32551,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144408",
     "prevTripId": "WD_INB_SI-06_1341_144408",
     "prevLineId": "seibu_yurakucho",
@@ -32847,9 +32842,9 @@
       }
     ],
     "trainId": "77783",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1433_77783",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1358_77296",
@@ -33167,9 +33162,9 @@
       }
     ],
     "trainId": "77630",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1457_77630",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1401_144479",
@@ -33179,6 +33174,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -33297,7 +33293,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144479",
     "prevTripId": "WD_INB_SI-06_1355_144479",
     "prevLineId": "seibu_yurakucho",
@@ -33431,9 +33426,9 @@
       }
     ],
     "trainId": "77730",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1447_77730",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1411_114860",
@@ -33443,6 +33438,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -33591,11 +33587,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114860",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1341_114860",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1411_77488",
@@ -33921,6 +33916,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -34039,7 +34035,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144410",
     "prevTripId": "WD_INB_SI-06_1411_144410",
     "prevLineId": "seibu_yurakucho",
@@ -34331,9 +34326,9 @@
       }
     ],
     "trainId": "77785",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1503_77785",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1428_77299",
@@ -34651,9 +34646,9 @@
       }
     ],
     "trainId": "77632",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1527_77632",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1431_144481",
@@ -34663,6 +34658,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -34781,7 +34777,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144481",
     "prevTripId": "WD_INB_SI-06_1425_144481",
     "prevLineId": "seibu_yurakucho",
@@ -34915,9 +34910,9 @@
       }
     ],
     "trainId": "77731",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1517_77731",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1441_114863",
@@ -34927,6 +34922,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -35075,11 +35071,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114863",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1411_114863",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1441_77493",
@@ -35405,6 +35400,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -35523,7 +35519,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144412",
     "prevTripId": "WD_INB_SI-06_1441_144412",
     "prevLineId": "seibu_yurakucho",
@@ -35815,9 +35810,9 @@
       }
     ],
     "trainId": "77786",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1533_77786",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1458_77304",
@@ -36135,9 +36130,9 @@
       }
     ],
     "trainId": "77634",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1557_77634",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1501_144483",
@@ -36147,6 +36142,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -36265,7 +36261,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144483",
     "prevTripId": "WD_INB_SI-06_1455_144483",
     "prevLineId": "seibu_yurakucho",
@@ -36399,9 +36394,9 @@
       }
     ],
     "trainId": "77732",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1547_77732",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1511_114865",
@@ -36411,6 +36406,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -36559,11 +36555,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114865",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1441_114865",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1511_77497",
@@ -36889,6 +36884,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -37007,7 +37003,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144414",
     "prevTripId": "WD_INB_SI-06_1511_144414",
     "prevLineId": "seibu_yurakucho",
@@ -37299,9 +37294,9 @@
       }
     ],
     "trainId": "77751",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1603_77751",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1528_77307",
@@ -37619,9 +37614,9 @@
       }
     ],
     "trainId": "77636",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1627_77636",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1531_144485",
@@ -37631,6 +37626,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -37749,7 +37745,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144485",
     "prevTripId": "WD_INB_SI-06_1525_144485",
     "prevLineId": "seibu_yurakucho",
@@ -37883,9 +37878,9 @@
       }
     ],
     "trainId": "77694",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1617_77694",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1541_114866",
@@ -37895,6 +37890,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -38043,11 +38039,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114866",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1511_114866",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1541_77501",
@@ -38373,6 +38368,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -38491,7 +38487,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144415",
     "prevTripId": "WD_INB_SI-06_1541_144415",
     "prevLineId": "seibu_yurakucho",
@@ -38783,9 +38778,9 @@
       }
     ],
     "trainId": "77789",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1634_77789",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1559_77637",
@@ -38945,9 +38940,9 @@
       }
     ],
     "trainId": "77637",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1656_77637",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1601_144487",
@@ -38957,6 +38952,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -39075,7 +39071,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144487",
     "prevTripId": "WD_INB_SI-06_1555_144487",
     "prevLineId": "seibu_yurakucho",
@@ -39367,9 +39362,9 @@
       }
     ],
     "trainId": "77753",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1647_77753",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1611_114869",
@@ -39379,6 +39374,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -39527,11 +39523,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114869",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1541_114869",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1611_77504",
@@ -39699,6 +39694,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -39817,7 +39813,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144416",
     "prevTripId": "WD_INB_SI-06_1604_144416",
     "prevLineId": "seibu_yurakucho",
@@ -40267,9 +40262,9 @@
       }
     ],
     "trainId": "77790",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1704_77790",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1626_77315",
@@ -40587,9 +40582,9 @@
       }
     ],
     "trainId": "77638",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1727_77638",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1631_77317",
@@ -40757,6 +40752,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -40875,7 +40871,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144489",
     "prevTripId": "WD_INB_SI-06_1625_144489",
     "prevLineId": "seibu_yurakucho",
@@ -41325,9 +41320,9 @@
       }
     ],
     "trainId": "77791",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1724_77791",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1643_77319",
@@ -41645,9 +41640,9 @@
       }
     ],
     "trainId": "77640",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1744_77640",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1650_144418",
@@ -41657,6 +41652,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -41775,7 +41771,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144418",
     "prevTripId": "WD_INB_SI-06_1643_144418",
     "prevLineId": "seibu_yurakucho",
@@ -41909,9 +41904,9 @@
       }
     ],
     "trainId": "77698",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1733_77698",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1651_77320",
@@ -42229,9 +42224,9 @@
       }
     ],
     "trainId": "77641",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1756_77641",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1700_77510",
@@ -42399,6 +42394,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -42517,7 +42513,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144491",
     "prevTripId": "WD_INB_SI-06_1655_144491",
     "prevLineId": "seibu_yurakucho",
@@ -42809,9 +42804,9 @@
       }
     ],
     "trainId": "77700",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1750_77700",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1707_114832",
@@ -42821,6 +42816,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -42969,11 +42965,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "志木",
     "trainId": "114832",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-14_1658_114832",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1710_77513",
@@ -43299,6 +43294,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -43417,7 +43413,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144385",
     "prevTripId": "WD_INB_SI-06_1702_144385",
     "prevLineId": "seibu_yurakucho",
@@ -43739,9 +43734,9 @@
       }
     ],
     "trainId": "77666",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1818_77666",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1720_77324",
@@ -44187,9 +44182,9 @@
       }
     ],
     "trainId": "77742",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1815_77742",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1732_144455",
@@ -44199,6 +44194,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -44317,7 +44313,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144455",
     "prevTripId": "WD_INB_SI-06_1726_144455",
     "prevLineId": "seibu_yurakucho",
@@ -44639,9 +44634,9 @@
       }
     ],
     "trainId": "77642",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1831_77642",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1737_77329",
@@ -44929,9 +44924,9 @@
       }
     ],
     "trainId": "77703",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1821_77703",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1741_144420",
@@ -44941,6 +44936,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -45059,7 +45055,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144420",
     "prevTripId": "WD_INB_SI-06_1734_144420",
     "prevLineId": "seibu_yurakucho",
@@ -45231,6 +45226,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -45379,11 +45375,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114871",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1715_114871",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1747_77520",
@@ -45867,6 +45862,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "所沢",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -45985,7 +45981,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "所沢",
     "trainId": "144446",
     "prevTripId": "WD_INB_SI-06_1749_144446",
     "prevLineId": "seibu_yurakucho",
@@ -46277,9 +46272,9 @@
       }
     ],
     "trainId": "77743",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1844_77743",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1804_77524",
@@ -46447,6 +46442,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -46565,7 +46561,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144456",
     "prevTripId": "WD_INB_SI-06_1756_144456",
     "prevLineId": "seibu_yurakucho",
@@ -46579,6 +46574,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -46727,11 +46723,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114873",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1735_114873",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1808_77704",
@@ -46861,9 +46856,9 @@
       }
     ],
     "trainId": "77704",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1851_77704",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1812_77336",
@@ -47181,9 +47176,9 @@
       }
     ],
     "trainId": "77594",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1908_77594",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1816_77526",
@@ -47351,6 +47346,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -47469,7 +47465,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144387",
     "prevTripId": "WD_INB_SI-06_1810_144387",
     "prevLineId": "seibu_yurakucho",
@@ -47633,9 +47628,9 @@
       }
     ],
     "trainId": "77669",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1916_77669",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1821_77337",
@@ -47923,9 +47918,9 @@
       }
     ],
     "trainId": "77734",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1906_77734",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1828_114901",
@@ -47935,6 +47930,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -48083,11 +48079,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114901",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-30_1736_114901",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1828_77528",
@@ -48255,6 +48250,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "所沢",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -48373,7 +48369,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "所沢",
     "trainId": "144442",
     "prevTripId": "WD_INB_SI-06_1826_144442",
     "prevLineId": "seibu_yurakucho",
@@ -48535,9 +48530,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "77529",
-    "customDestination": "川越市",
-    "customOrigin": "新木場"
+    "trainId": "77529"
   },
   {
     "tripId": "WD_INB_Y-24_1835_77645",
@@ -48697,9 +48690,9 @@
       }
     ],
     "trainId": "77645",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1931_77645",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1838_77339",
@@ -48987,9 +48980,9 @@
       }
     ],
     "trainId": "77706",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1921_77706",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1842_77340",
@@ -49315,6 +49308,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -49463,11 +49457,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114874",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1815_114874",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1846_77532",
@@ -49635,6 +49628,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -49753,7 +49747,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144389",
     "prevTripId": "WD_INB_SI-06_1840_144389",
     "prevLineId": "seibu_yurakucho",
@@ -49917,9 +49910,9 @@
       }
     ],
     "trainId": "77647",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1947_77647",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1853_77343",
@@ -50207,9 +50200,9 @@
       }
     ],
     "trainId": "77735",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_1936_77735",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1856_77344",
@@ -50527,9 +50520,9 @@
       }
     ],
     "trainId": "77648",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_1954_77648",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1902_77534",
@@ -50697,6 +50690,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -50815,7 +50809,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144457",
     "prevTripId": "WD_INB_SI-06_1856_144457",
     "prevLineId": "seibu_yurakucho",
@@ -50829,6 +50822,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -50977,11 +50971,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114875",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_1834_114875",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1906_77649",
@@ -51141,9 +51134,9 @@
       }
     ],
     "trainId": "77649",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2006_77649",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1911_77536",
@@ -51311,6 +51304,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -51429,7 +51423,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144390",
     "prevTripId": "WD_INB_SI-06_1904_144390",
     "prevLineId": "seibu_yurakucho",
@@ -52075,6 +52068,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -52193,7 +52187,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144433",
     "prevTripId": "WD_INB_SI-06_1920_144433",
     "prevLineId": "seibu_yurakucho",
@@ -52327,9 +52320,9 @@
       }
     ],
     "trainId": "77745",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2006_77745",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_1929_77540",
@@ -52647,9 +52640,9 @@
       }
     ],
     "trainId": "77650",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2031_77650",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1935_77352",
@@ -52817,6 +52810,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -52935,7 +52929,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144495",
     "prevTripId": "WD_INB_SI-06_1930_144495",
     "prevLineId": "seibu_yurakucho",
@@ -53069,9 +53062,9 @@
       }
     ],
     "trainId": "77707",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2020_77707",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_1940_77353",
@@ -53389,9 +53382,9 @@
       }
     ],
     "trainId": "77671",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2038_77671",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1943_144391",
@@ -53401,6 +53394,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -53519,7 +53513,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144391",
     "prevTripId": "WD_INB_SI-06_1934_144391",
     "prevLineId": "seibu_yurakucho",
@@ -54127,9 +54120,9 @@
       }
     ],
     "trainId": "77746",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2036_77746",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_1957_144434",
@@ -54139,6 +54132,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -54257,7 +54251,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144434",
     "prevTripId": "WD_INB_SI-06_1950_144434",
     "prevLineId": "seibu_yurakucho",
@@ -54271,6 +54264,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -54419,11 +54413,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "志木",
     "trainId": "114833",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-14_1947_114833",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_2000_77595",
@@ -54583,9 +54576,9 @@
       }
     ],
     "trainId": "77595",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2057_77595",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2005_77359",
@@ -54873,9 +54866,9 @@
       }
     ],
     "trainId": "77709",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2050_77709",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_2007_144503",
@@ -54885,6 +54878,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "飯能",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -55003,7 +54997,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "飯能",
     "trainId": "144503",
     "prevTripId": "WD_INB_SI-06_1958_144503",
     "prevLineId": "seibu_yurakucho",
@@ -55325,9 +55318,9 @@
       }
     ],
     "trainId": "77653",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2107_77653",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2015_114906",
@@ -55337,6 +55330,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -55485,11 +55479,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114906",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-30_1921_114906",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_2015_77548",
@@ -55807,9 +55800,9 @@
       }
     ],
     "trainId": "77673",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2115_77673",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2023_77363",
@@ -56097,9 +56090,9 @@
       }
     ],
     "trainId": "77711",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2106_77711",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2027_77364",
@@ -56415,9 +56408,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "77550",
-    "customDestination": "志木",
-    "customOrigin": "新木場"
+    "trainId": "77550"
   },
   {
     "tripId": "WD_OUT_Y-06_2033_144458",
@@ -56427,6 +56418,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -56545,7 +56537,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144458",
     "prevTripId": "WD_INB_SI-06_2028_144458",
     "prevLineId": "seibu_yurakucho",
@@ -56709,9 +56700,9 @@
       }
     ],
     "trainId": "77596",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2130_77596",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2040_77365",
@@ -57037,6 +57028,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -57185,11 +57177,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114877",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_2015_114877",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_2045_77793",
@@ -57319,9 +57310,9 @@
       }
     ],
     "trainId": "77793",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2125_77793",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_2047_144421",
@@ -57331,6 +57322,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -57449,7 +57441,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144421",
     "prevTripId": "WD_INB_SI-06_2041_144421",
     "prevLineId": "seibu_yurakucho",
@@ -57771,9 +57762,9 @@
       }
     ],
     "trainId": "77655",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2146_77655",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_2055_77554",
@@ -58061,9 +58052,9 @@
       }
     ],
     "trainId": "77737",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2144_77737",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2106_77369",
@@ -58221,8 +58212,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "77369",
-    "customOrigin": "志木"
+    "trainId": "77369"
   },
   {
     "tripId": "WD_INB_Y-24_2106_77557",
@@ -58380,8 +58370,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "77557",
-    "customDestination": "志木"
+    "trainId": "77557"
   },
   {
     "tripId": "WD_OUT_Y-06_2110_144393",
@@ -58391,6 +58380,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -58509,7 +58499,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144393",
     "prevTripId": "WD_INB_SI-06_2101_144393",
     "prevLineId": "seibu_yurakucho",
@@ -58839,6 +58828,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -58957,7 +58947,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144435",
     "prevTripId": "WD_INB_SI-06_2110_144435",
     "prevLineId": "seibu_yurakucho",
@@ -59121,9 +59110,9 @@
       }
     ],
     "trainId": "77674",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2213_77674",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2118_114879",
@@ -59133,6 +59122,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -59281,11 +59271,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114879",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_2050_114879",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2120_77373",
@@ -59573,9 +59562,9 @@
       }
     ],
     "trainId": "77747",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2201_77747",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_2127_77561",
@@ -59893,9 +59882,9 @@
       }
     ],
     "trainId": "77656",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2231_77656",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2135_77376",
@@ -60183,9 +60172,9 @@
       }
     ],
     "trainId": "77748",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2224_77748",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_2138_144497",
@@ -60195,6 +60184,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -60313,7 +60303,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144497",
     "prevTripId": "WD_INB_SI-06_2132_144497",
     "prevLineId": "seibu_yurakucho",
@@ -60643,6 +60632,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -60761,7 +60751,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144395",
     "prevTripId": "WD_INB_SI-06_2138_144395",
     "prevLineId": "seibu_yurakucho",
@@ -60775,6 +60764,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -60923,11 +60913,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "志木",
     "trainId": "114834",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-14_2135_114834",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_2148_77564",
@@ -61245,9 +61234,9 @@
       }
     ],
     "trainId": "77677",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2252_77677",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2157_77380",
@@ -61573,6 +61562,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -61691,7 +61681,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144437",
     "prevTripId": "WD_INB_SI-06_2154_144437",
     "prevLineId": "seibu_yurakucho",
@@ -61705,6 +61694,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -61853,11 +61843,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114881",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_2135_114881",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_2204_77805",
@@ -61987,9 +61976,9 @@
       }
     ],
     "trainId": "77805",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2245_77805",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_2207_144374",
@@ -61999,6 +61988,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -62117,7 +62107,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144374",
     "prevTripId": "WD_INB_SI-06_2202_144374",
     "prevLineId": "seibu_yurakucho",
@@ -62409,9 +62398,9 @@
       }
     ],
     "trainId": "77810",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2252_77810",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_2215_77678",
@@ -62571,9 +62560,9 @@
       }
     ],
     "trainId": "77678",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2312_77678",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2216_77384",
@@ -62861,9 +62850,9 @@
       }
     ],
     "trainId": "77796",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2303_77796",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_2226_77569",
@@ -63031,6 +63020,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "志木",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -63179,11 +63169,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "志木",
     "trainId": "114835",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-14_2219_114835",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_2231_77571",
@@ -63351,6 +63340,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -63469,7 +63459,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144422",
     "prevTripId": "WD_INB_SI-06_2226_144422",
     "prevLineId": "seibu_yurakucho",
@@ -63631,9 +63620,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "77572",
-    "customDestination": "森林公園",
-    "customOrigin": "新木場"
+    "trainId": "77572"
   },
   {
     "tripId": "WD_OUT_Y-01_2240_77388",
@@ -63951,9 +63938,9 @@
       }
     ],
     "trainId": "77680",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2335_77680",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2245_114883",
@@ -63963,6 +63950,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -64111,11 +64099,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114883",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_2215_114883",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-06_2247_144423",
@@ -64125,6 +64112,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -64243,7 +64231,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144423",
     "prevTripId": "WD_INB_SI-06_2242_144423",
     "prevLineId": "seibu_yurakucho",
@@ -64377,9 +64364,9 @@
       }
     ],
     "trainId": "77749",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2328_77749",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2250_77390",
@@ -64667,9 +64654,9 @@
       }
     ],
     "trainId": "77811",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_SI-37_2339_77811",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2255_77392",
@@ -64987,9 +64974,9 @@
       }
     ],
     "trainId": "77681",
-    "customOrigin": "新木場",
     "throughTripId": "WD_OUT_TJ-11_2355_77681",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "WD_OUT_Y-01_2301_77393",
@@ -65315,6 +65302,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -65463,11 +65451,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114884",
-    "customDestination": "新木場",
     "prevTripId": "WD_INB_TJ-22_2234_114884",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "WD_INB_Y-24_2310_77579",
@@ -66109,6 +66096,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -66227,7 +66215,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144498",
     "prevTripId": "WD_INB_SI-06_2318_144498",
     "prevLineId": "seibu_yurakucho",
@@ -66404,7 +66391,7 @@
     "stops": [
       {
         "stationId": "Y-01",
-        "arrivalTime": "23:33:00",
+        "arrivalTime": "23:31:00",
         "departureTime": "23:31:00",
         "isPassing": false
       },
@@ -66547,9 +66534,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "77397",
-    "customDestination": "新木場",
-    "customOrigin": "川越市"
+    "trainId": "77397"
   },
   {
     "tripId": "WD_INB_Y-24_2333_77586",
@@ -66717,6 +66702,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -66865,7 +66851,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114885"
   },
   {
@@ -67034,6 +67019,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-09",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -67092,11 +67078,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114836",
-    "customDestination": "池袋",
     "prevTripId": "WD_INB_TJ-22_2311_114836",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "池袋"
   },
   {
     "tripId": "WD_INB_Y-24_2350_77404",
@@ -68658,9 +68643,9 @@
       }
     ],
     "trainId": "77599",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_0620_77599",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0530_77209",
@@ -68948,9 +68933,9 @@
       }
     ],
     "trainId": "77757",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_0615_77757",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0537_77210",
@@ -69742,9 +69727,9 @@
       }
     ],
     "trainId": "77600",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_0656_77600",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_0601_144459",
@@ -69754,6 +69739,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -69872,7 +69858,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144459",
     "prevTripId": "HD_INB_SI-06_0553_144459",
     "prevLineId": "seibu_yurakucho",
@@ -70194,9 +70179,9 @@
       }
     ],
     "trainId": "77591",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_0705_77591",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_0614_77657",
@@ -70356,9 +70341,9 @@
       }
     ],
     "trainId": "77657",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_0709_77657",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_0617_144461",
@@ -70368,6 +70353,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -70486,7 +70472,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144461",
     "prevTripId": "HD_INB_SI-06_0610_144461",
     "prevLineId": "seibu_yurakucho",
@@ -70500,6 +70485,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -70648,11 +70634,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114888",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-30_0526_114888",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_0621_77416",
@@ -71256,9 +71241,9 @@
       }
     ],
     "trainId": "77684",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_0714_77684",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_0637_144463",
@@ -71268,6 +71253,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -71386,7 +71372,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144463",
     "prevTripId": "HD_INB_SI-06_0629_144463",
     "prevLineId": "seibu_yurakucho",
@@ -71708,9 +71693,9 @@
       }
     ],
     "trainId": "77601",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_0736_77601",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_0647_77421",
@@ -72036,6 +72021,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -72154,7 +72140,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144464",
     "prevTripId": "HD_INB_SI-06_0643_144464",
     "prevLineId": "seibu_yurakucho",
@@ -72446,9 +72431,9 @@
       }
     ],
     "trainId": "77750",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_0734_77750",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0659_77229",
@@ -72774,6 +72759,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -72922,11 +72908,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114890",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-30_0607_114890",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_0705_77424",
@@ -73402,9 +73387,9 @@
       }
     ],
     "trainId": "77658",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_0804_77658",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0716_114891",
@@ -73414,6 +73399,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -73562,11 +73548,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114891",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-30_0618_114891",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_0716_77426",
@@ -74050,6 +74035,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -74168,7 +74154,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144449",
     "prevTripId": "HD_INB_SI-06_0719_144449",
     "prevLineId": "seibu_yurakucho",
@@ -74332,9 +74317,9 @@
       }
     ],
     "trainId": "77604",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_0820_77604",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0731_77234",
@@ -74818,6 +74803,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -74936,7 +74922,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144466",
     "prevTripId": "HD_INB_SI-06_0734_144466",
     "prevLineId": "seibu_yurakucho",
@@ -74950,6 +74935,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "志木",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -75098,11 +75084,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "志木",
     "trainId": "114829",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-14_0734_114829",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_0743_77434",
@@ -75420,9 +75405,9 @@
       }
     ],
     "trainId": "77606",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_0847_77606",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0750_77238",
@@ -75590,6 +75575,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "飯能",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -75708,7 +75694,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "飯能",
     "trainId": "144501",
     "prevTripId": "HD_INB_SI-06_0746_144501",
     "prevLineId": "seibu_yurakucho",
@@ -75842,9 +75827,9 @@
       }
     ],
     "trainId": "77761",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_0834_77761",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_0759_77437",
@@ -76328,6 +76313,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -76476,11 +76462,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114895",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-30_0710_114895",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_0808_144376",
@@ -76490,6 +76475,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -76608,7 +76594,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144376",
     "prevTripId": "HD_INB_SI-06_0802_144376",
     "prevLineId": "seibu_yurakucho",
@@ -76742,9 +76727,9 @@
       }
     ],
     "trainId": "77688",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_0848_77688",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0811_77243",
@@ -77032,9 +77017,9 @@
       }
     ],
     "trainId": "77739",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_0854_77739",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0815_114839",
@@ -77044,6 +77029,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -77192,11 +77178,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114839",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_0744_114839",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_0819_77441",
@@ -78146,9 +78131,9 @@
       }
     ],
     "trainId": "77609",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_0926_77609",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_0834_144426",
@@ -78158,6 +78143,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -78276,7 +78262,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144426",
     "prevTripId": "HD_INB_SI-06_0825_144426",
     "prevLineId": "seibu_yurakucho",
@@ -78410,9 +78395,9 @@
       }
     ],
     "trainId": "77806",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_0917_77806",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0839_77249",
@@ -78888,9 +78873,9 @@
       }
     ],
     "trainId": "77610",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_0945_77610",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0850_77250",
@@ -79178,9 +79163,9 @@
       }
     ],
     "trainId": "77689",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_0935_77689",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_0857_144444",
@@ -79190,6 +79175,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "所沢",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -79308,7 +79294,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "所沢",
     "trainId": "144444",
     "prevTripId": "HD_INB_SI-06_0851_144444",
     "prevLineId": "seibu_yurakucho",
@@ -79638,6 +79623,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -79786,11 +79772,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114899",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-30_0808_114899",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_0906_77763",
@@ -79920,9 +79905,9 @@
       }
     ],
     "trainId": "77763",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_0946_77763",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_0908_144428",
@@ -79932,6 +79917,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -80050,7 +80036,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144428",
     "prevTripId": "HD_INB_SI-06_0859_144428",
     "prevLineId": "seibu_yurakucho",
@@ -80816,9 +80801,9 @@
       }
     ],
     "trainId": "77764",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1002_77764",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_0926_77691",
@@ -80948,9 +80933,9 @@
       }
     ],
     "trainId": "77691",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1006_77691",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0927_77257",
@@ -80965,7 +80950,7 @@
     "stops": [
       {
         "stationId": "Y-01",
-        "arrivalTime": "09:31:00",
+        "arrivalTime": "09:27:00",
         "departureTime": "09:27:00",
         "isPassing": false
       },
@@ -81108,9 +81093,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "77257",
-    "customDestination": "新木場",
-    "customOrigin": "志木"
+    "trainId": "77257"
   },
   {
     "tripId": "HD_INB_Y-24_0931_77612",
@@ -81270,9 +81253,9 @@
       }
     ],
     "trainId": "77612",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1026_77612",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0935_77259",
@@ -81440,6 +81423,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -81558,7 +81542,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144379",
     "prevTripId": "HD_INB_SI-06_0931_144379",
     "prevLineId": "seibu_yurakucho",
@@ -81692,9 +81675,9 @@
       }
     ],
     "trainId": "77807",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1018_77807",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0938_114842",
@@ -81704,6 +81687,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -81852,11 +81836,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114842",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_0907_114842",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_0943_77455",
@@ -82302,9 +82285,9 @@
       }
     ],
     "trainId": "77714",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1032_77714",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_0954_77692",
@@ -82434,9 +82417,9 @@
       }
     ],
     "trainId": "77692",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1037_77692",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_0958_77263",
@@ -82754,9 +82737,9 @@
       }
     ],
     "trainId": "77614",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1056_77614",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1003_77265",
@@ -82924,6 +82907,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -83042,7 +83026,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144430",
     "prevTripId": "HD_INB_SI-06_0959_144430",
     "prevLineId": "seibu_yurakucho",
@@ -83176,9 +83159,9 @@
       }
     ],
     "trainId": "77766",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1047_77766",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1008_114845",
@@ -83188,6 +83171,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -83336,11 +83320,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114845",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_0937_114845",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1011_77693",
@@ -83470,9 +83453,9 @@
       }
     ],
     "trainId": "77693",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1054_77693",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1017_77616",
@@ -83632,9 +83615,9 @@
       }
     ],
     "trainId": "77616",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1113_77616",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1022_77268",
@@ -83922,9 +83905,9 @@
       }
     ],
     "trainId": "77769",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1103_77769",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1026_144468",
@@ -83934,6 +83917,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -84052,7 +84036,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144468",
     "prevTripId": "HD_INB_SI-06_1020_144468",
     "prevLineId": "seibu_yurakucho",
@@ -84374,9 +84357,9 @@
       }
     ],
     "trainId": "77617",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1127_77617",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1031_144380",
@@ -84386,6 +84369,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -84504,7 +84488,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144380",
     "prevTripId": "HD_INB_SI-06_1025_144380",
     "prevLineId": "seibu_yurakucho",
@@ -84638,9 +84621,9 @@
       }
     ],
     "trainId": "77716",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1117_77716",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1037_114846",
@@ -84650,6 +84633,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -84798,11 +84782,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114846",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1004_114846",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1041_77461",
@@ -85128,6 +85111,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -85246,7 +85230,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144381",
     "prevTripId": "HD_INB_SI-06_1041_144381",
     "prevLineId": "seibu_yurakucho",
@@ -85538,9 +85521,9 @@
       }
     ],
     "trainId": "77770",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1133_77770",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1058_77274",
@@ -85858,9 +85841,9 @@
       }
     ],
     "trainId": "77620",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1157_77620",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1101_144469",
@@ -85870,6 +85853,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -85988,7 +85972,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144469",
     "prevTripId": "HD_INB_SI-06_1055_144469",
     "prevLineId": "seibu_yurakucho",
@@ -86122,9 +86105,9 @@
       }
     ],
     "trainId": "77718",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1147_77718",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1111_114849",
@@ -86134,6 +86117,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -86282,11 +86266,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114849",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1040_114849",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1111_77464",
@@ -86612,6 +86595,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -86730,7 +86714,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144400",
     "prevTripId": "HD_INB_SI-06_1111_144400",
     "prevLineId": "seibu_yurakucho",
@@ -87022,9 +87005,9 @@
       }
     ],
     "trainId": "77772",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1203_77772",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1129_77622",
@@ -87184,9 +87167,9 @@
       }
     ],
     "trainId": "77622",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1227_77622",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1131_144470",
@@ -87196,6 +87179,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -87314,7 +87298,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144470",
     "prevTripId": "HD_INB_SI-06_1125_144470",
     "prevLineId": "seibu_yurakucho",
@@ -87448,9 +87431,9 @@
       }
     ],
     "trainId": "77721",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1218_77721",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1141_114850",
@@ -87460,6 +87443,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -87608,11 +87592,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114850",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1111_114850",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1141_77469",
@@ -87780,6 +87763,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -87898,7 +87882,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144383",
     "prevTripId": "HD_INB_SI-06_1133_144383",
     "prevLineId": "seibu_yurakucho",
@@ -88070,6 +88053,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -88188,7 +88172,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144384",
     "prevTripId": "HD_INB_SI-06_1141_144384",
     "prevLineId": "seibu_yurakucho",
@@ -88480,9 +88463,9 @@
       }
     ],
     "trainId": "77774",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1233_77774",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1158_77280",
@@ -88800,9 +88783,9 @@
       }
     ],
     "trainId": "77623",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1257_77623",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1201_144473",
@@ -88812,6 +88795,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -88930,7 +88914,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144473",
     "prevTripId": "HD_INB_SI-06_1155_144473",
     "prevLineId": "seibu_yurakucho",
@@ -89064,9 +89047,9 @@
       }
     ],
     "trainId": "77723",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1247_77723",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1211_114852",
@@ -89076,6 +89059,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -89224,11 +89208,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114852",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1141_114852",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1211_77472",
@@ -89554,6 +89537,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -89672,7 +89656,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144401",
     "prevTripId": "HD_INB_SI-06_1211_144401",
     "prevLineId": "seibu_yurakucho",
@@ -89964,9 +89947,9 @@
       }
     ],
     "trainId": "77776",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1303_77776",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1228_77283",
@@ -90284,9 +90267,9 @@
       }
     ],
     "trainId": "77626",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1327_77626",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1231_144505",
@@ -90296,6 +90279,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "飯能",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -90414,7 +90398,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "飯能",
     "trainId": "144505",
     "prevTripId": "HD_INB_SI-06_1225_144505",
     "prevLineId": "seibu_yurakucho",
@@ -90548,9 +90531,9 @@
       }
     ],
     "trainId": "77724",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1317_77724",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1241_114854",
@@ -90560,6 +90543,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -90708,11 +90692,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114854",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1211_114854",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1241_77477",
@@ -91038,6 +91021,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -91156,7 +91140,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144403",
     "prevTripId": "HD_INB_SI-06_1241_144403",
     "prevLineId": "seibu_yurakucho",
@@ -91448,9 +91431,9 @@
       }
     ],
     "trainId": "77779",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1333_77779",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1258_77287",
@@ -91768,9 +91751,9 @@
       }
     ],
     "trainId": "77627",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1357_77627",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1301_144476",
@@ -91780,6 +91763,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -91898,7 +91882,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144476",
     "prevTripId": "HD_INB_SI-06_1255_144476",
     "prevLineId": "seibu_yurakucho",
@@ -92032,9 +92015,9 @@
       }
     ],
     "trainId": "77726",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1347_77726",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1311_114856",
@@ -92044,6 +92027,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -92192,11 +92176,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114856",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1241_114856",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1311_77480",
@@ -92522,6 +92505,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -92640,7 +92624,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144405",
     "prevTripId": "HD_INB_SI-06_1311_144405",
     "prevLineId": "seibu_yurakucho",
@@ -92932,9 +92915,9 @@
       }
     ],
     "trainId": "77780",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1403_77780",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1328_77291",
@@ -93252,9 +93235,9 @@
       }
     ],
     "trainId": "77629",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1427_77629",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1331_144478",
@@ -93264,6 +93247,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -93382,7 +93366,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144478",
     "prevTripId": "HD_INB_SI-06_1325_144478",
     "prevLineId": "seibu_yurakucho",
@@ -93516,9 +93499,9 @@
       }
     ],
     "trainId": "77728",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1417_77728",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1341_114859",
@@ -93528,6 +93511,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -93676,11 +93660,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114859",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1311_114859",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1341_77485",
@@ -94006,6 +93989,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -94124,7 +94108,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144407",
     "prevTripId": "HD_INB_SI-06_1341_144407",
     "prevLineId": "seibu_yurakucho",
@@ -94416,9 +94399,9 @@
       }
     ],
     "trainId": "77782",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1433_77782",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1358_77295",
@@ -94736,9 +94719,9 @@
       }
     ],
     "trainId": "77631",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1457_77631",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1401_144480",
@@ -94748,6 +94731,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -94866,7 +94850,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144480",
     "prevTripId": "HD_INB_SI-06_1355_144480",
     "prevLineId": "seibu_yurakucho",
@@ -95000,9 +94983,9 @@
       }
     ],
     "trainId": "77740",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1447_77740",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1411_114861",
@@ -95012,6 +94995,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -95160,11 +95144,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114861",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1341_114861",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1411_77489",
@@ -95490,6 +95473,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -95608,7 +95592,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144409",
     "prevTripId": "HD_INB_SI-06_1411_144409",
     "prevLineId": "seibu_yurakucho",
@@ -95900,9 +95883,9 @@
       }
     ],
     "trainId": "77784",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1503_77784",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1428_77300",
@@ -96220,9 +96203,9 @@
       }
     ],
     "trainId": "77633",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1527_77633",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1431_144482",
@@ -96232,6 +96215,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -96350,7 +96334,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144482",
     "prevTripId": "HD_INB_SI-06_1425_144482",
     "prevLineId": "seibu_yurakucho",
@@ -96484,9 +96467,9 @@
       }
     ],
     "trainId": "77799",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1517_77799",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1441_114862",
@@ -96496,6 +96479,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -96644,11 +96628,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114862",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1411_114862",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1441_77492",
@@ -96974,6 +96957,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -97092,7 +97076,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144411",
     "prevTripId": "HD_INB_SI-06_1441_144411",
     "prevLineId": "seibu_yurakucho",
@@ -97384,9 +97367,9 @@
       }
     ],
     "trainId": "77787",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1533_77787",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1458_77303",
@@ -97704,9 +97687,9 @@
       }
     ],
     "trainId": "77593",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1555_77593",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1501_144484",
@@ -97716,6 +97699,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -97834,7 +97818,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144484",
     "prevTripId": "HD_INB_SI-06_1455_144484",
     "prevLineId": "seibu_yurakucho",
@@ -97968,9 +97951,9 @@
       }
     ],
     "trainId": "77741",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1547_77741",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1511_114864",
@@ -97980,6 +97963,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -98128,11 +98112,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114864",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1441_114864",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1511_77496",
@@ -98458,6 +98441,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -98576,7 +98560,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144413",
     "prevTripId": "HD_INB_SI-06_1511_144413",
     "prevLineId": "seibu_yurakucho",
@@ -98868,9 +98851,9 @@
       }
     ],
     "trainId": "77788",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1603_77788",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1528_77308",
@@ -99188,9 +99171,9 @@
       }
     ],
     "trainId": "77635",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1626_77635",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1531_144486",
@@ -99200,6 +99183,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -99318,7 +99302,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144486",
     "prevTripId": "HD_INB_SI-06_1525_144486",
     "prevLineId": "seibu_yurakucho",
@@ -99452,9 +99435,9 @@
       }
     ],
     "trainId": "77733",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1617_77733",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1541_114867",
@@ -99464,6 +99447,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -99612,11 +99596,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114867",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1511_114867",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1541_77500",
@@ -99942,6 +99925,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -100060,7 +100044,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144431",
     "prevTripId": "HD_INB_SI-06_1541_144431",
     "prevLineId": "seibu_yurakucho",
@@ -100352,9 +100335,9 @@
       }
     ],
     "trainId": "77752",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1633_77752",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1556_77311",
@@ -100672,9 +100655,9 @@
       }
     ],
     "trainId": "77663",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1655_77663",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1601_144488",
@@ -100684,6 +100667,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -100802,7 +100786,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144488",
     "prevTripId": "HD_INB_SI-06_1555_144488",
     "prevLineId": "seibu_yurakucho",
@@ -100936,9 +100919,9 @@
       }
     ],
     "trainId": "77695",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1646_77695",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1611_114868",
@@ -100948,6 +100931,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -101096,11 +101080,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114868",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1541_114868",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1611_77505",
@@ -101426,6 +101409,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -101544,7 +101528,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144417",
     "prevTripId": "HD_INB_SI-06_1611_144417",
     "prevLineId": "seibu_yurakucho",
@@ -101836,9 +101819,9 @@
       }
     ],
     "trainId": "77696",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1707_77696",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1628_77316",
@@ -102156,9 +102139,9 @@
       }
     ],
     "trainId": "77664",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1724_77664",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1631_144490",
@@ -102168,6 +102151,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -102286,7 +102270,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144490",
     "prevTripId": "HD_INB_SI-06_1625_144490",
     "prevLineId": "seibu_yurakucho",
@@ -102420,9 +102403,9 @@
       }
     ],
     "trainId": "77697",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1716_77697",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1639_114870",
@@ -102432,6 +102415,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -102580,11 +102564,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114870",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1610_114870",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1641_77639",
@@ -102744,9 +102727,9 @@
       }
     ],
     "trainId": "77639",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1735_77639",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1646_77665",
@@ -102906,9 +102889,9 @@
       }
     ],
     "trainId": "77665",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1738_77665",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1647_144432",
@@ -102918,6 +102901,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -103036,7 +103020,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144432",
     "prevTripId": "HD_INB_SI-06_1641_144432",
     "prevLineId": "seibu_yurakucho",
@@ -103050,6 +103033,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -103198,11 +103182,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114900",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-30_1550_114900",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1651_77699",
@@ -103332,9 +103315,9 @@
       }
     ],
     "trainId": "77699",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1734_77699",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1657_77509",
@@ -103502,6 +103485,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "志木",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -103650,11 +103634,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "志木",
     "trainId": "114831",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-14_1651_114831",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1701_144492",
@@ -103664,6 +103647,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -103782,7 +103766,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144492",
     "prevTripId": "HD_INB_SI-06_1656_144492",
     "prevLineId": "seibu_yurakucho",
@@ -104390,9 +104373,9 @@
       }
     ],
     "trainId": "77701",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1753_77701",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1718_77515",
@@ -104560,6 +104543,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "保谷",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -104678,7 +104662,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "保谷",
     "trainId": "144419",
     "prevTripId": "HD_INB_SI-06_1711_144419",
     "prevLineId": "seibu_yurakucho",
@@ -105158,9 +105141,9 @@
       }
     ],
     "trainId": "77667",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1823_77667",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1731_77326",
@@ -105328,6 +105311,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -105446,7 +105430,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144493",
     "prevTripId": "HD_INB_SI-06_1725_144493",
     "prevLineId": "seibu_yurakucho",
@@ -105738,9 +105721,9 @@
       }
     ],
     "trainId": "77702",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1820_77702",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1741_77643",
@@ -105900,9 +105883,9 @@
       }
     ],
     "trainId": "77643",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1836_77643",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1741_144386",
@@ -105912,6 +105895,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -106030,7 +106014,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144386",
     "prevTripId": "HD_INB_SI-06_1735_144386",
     "prevLineId": "seibu_yurakucho",
@@ -106676,6 +106659,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "所沢",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -106794,7 +106778,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "所沢",
     "trainId": "144441",
     "prevTripId": "HD_INB_SI-06_1750_144441",
     "prevLineId": "seibu_yurakucho",
@@ -107116,9 +107099,9 @@
       }
     ],
     "trainId": "77668",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1855_77668",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1802_114872",
@@ -107128,6 +107111,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -107276,11 +107260,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114872",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1731_114872",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1805_77644",
@@ -107440,9 +107423,9 @@
       }
     ],
     "trainId": "77644",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1905_77644",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1806_77334",
@@ -107888,9 +107871,9 @@
       }
     ],
     "trainId": "77812",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1856_77812",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1815_77525",
@@ -108178,9 +108161,9 @@
       }
     ],
     "trainId": "77705",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1904_77705",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1825_77338",
@@ -108626,9 +108609,9 @@
       }
     ],
     "trainId": "77792",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1911_77792",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1831_144447",
@@ -108638,6 +108621,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "所沢",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -108756,7 +108740,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "所沢",
     "trainId": "144447",
     "prevTripId": "HD_INB_SI-06_1826_144447",
     "prevLineId": "seibu_yurakucho",
@@ -108770,6 +108753,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -108918,11 +108902,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114902",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-30_1739_114902",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1835_77530",
@@ -109240,9 +109223,9 @@
       }
     ],
     "trainId": "77646",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1935_77646",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-06_1843_144388",
@@ -109252,6 +109235,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -109370,7 +109354,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144388",
     "prevTripId": "HD_INB_SI-06_1835_144388",
     "prevLineId": "seibu_yurakucho",
@@ -109504,9 +109487,9 @@
       }
     ],
     "trainId": "77813",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1926_77813",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1847_77341",
@@ -109990,6 +109973,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -110108,7 +110092,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144494",
     "prevTripId": "HD_INB_SI-06_1845_144494",
     "prevLineId": "seibu_yurakucho",
@@ -110242,9 +110225,9 @@
       }
     ],
     "trainId": "77736",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1935_77736",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1900_114903",
@@ -110254,6 +110237,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -110402,11 +110386,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114903",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-30_1808_114903",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1900_77670",
@@ -110566,9 +110549,9 @@
       }
     ],
     "trainId": "77670",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_1953_77670",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1903_77345",
@@ -111172,9 +111155,9 @@
       }
     ],
     "trainId": "77809",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_1952_77809",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1917_77347",
@@ -111778,9 +111761,9 @@
       }
     ],
     "trainId": "77744",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_2006_77744",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1929_77351",
@@ -112106,6 +112089,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -112254,11 +112238,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114904",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-30_1840_114904",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1936_77542",
@@ -112734,9 +112717,9 @@
       }
     ],
     "trainId": "77651",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_2036_77651",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_1947_77544",
@@ -112904,6 +112887,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -113022,7 +113006,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144392",
     "prevTripId": "HD_INB_SI-06_1940_144392",
     "prevLineId": "seibu_yurakucho",
@@ -113472,9 +113455,9 @@
       }
     ],
     "trainId": "77708",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_2034_77708",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_1957_77358",
@@ -113792,9 +113775,9 @@
       }
     ],
     "trainId": "77672",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_2054_77672",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_2004_114905",
@@ -113804,6 +113787,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -113952,11 +113936,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114905",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-30_1909_114905",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_2004_77546",
@@ -114274,9 +114257,9 @@
       }
     ],
     "trainId": "77652",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_2105_77652",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_2012_77361",
@@ -114602,6 +114585,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -114750,11 +114734,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114876",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_1946_114876",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_2020_77549",
@@ -115200,9 +115183,9 @@
       }
     ],
     "trainId": "77710",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_2107_77710",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_2030_114907",
@@ -115212,6 +115195,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -115360,11 +115344,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114907",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-30_1938_114907",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_2031_77654",
@@ -115524,9 +115507,9 @@
       }
     ],
     "trainId": "77654",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_2126_77654",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_2037_77551",
@@ -115972,9 +115955,9 @@
       }
     ],
     "trainId": "77754",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_2122_77754",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_2048_114878",
@@ -115984,6 +115967,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -116132,11 +116116,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114878",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_2015_114878",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_2048_77553",
@@ -116304,6 +116287,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -116422,7 +116406,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144496",
     "prevTripId": "HD_INB_SI-06_2040_144496",
     "prevLineId": "seibu_yurakucho",
@@ -116556,9 +116539,9 @@
       }
     ],
     "trainId": "77755",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_2136_77755",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_2054_77368",
@@ -116726,6 +116709,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "森林公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -116874,11 +116858,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "森林公園",
     "trainId": "114908",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-30_2006_114908",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_2059_77555",
@@ -117482,9 +117465,9 @@
       }
     ],
     "trainId": "77794",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_2150_77794",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_2115_77372",
@@ -117810,6 +117793,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -117928,7 +117912,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144394",
     "prevTripId": "HD_INB_SI-06_2109_144394",
     "prevLineId": "seibu_yurakucho",
@@ -117942,6 +117925,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -118090,11 +118074,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114880",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_2053_114880",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_2122_77560",
@@ -118886,9 +118869,9 @@
       }
     ],
     "trainId": "77675",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_2227_77675",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_2141_77795",
@@ -119018,9 +119001,9 @@
       }
     ],
     "trainId": "77795",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_2222_77795",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_2142_77378",
@@ -119188,6 +119171,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -119306,7 +119290,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144436",
     "prevTripId": "HD_INB_SI-06_2139_144436",
     "prevLineId": "seibu_yurakucho",
@@ -119470,9 +119453,9 @@
       }
     ],
     "trainId": "77676",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_2245_77676",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_2151_77379",
@@ -119760,9 +119743,9 @@
       }
     ],
     "trainId": "77712",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_2235_77712",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_2200_77566",
@@ -120404,6 +120387,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "石神井公園",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -120522,7 +120506,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "石神井公園",
     "trainId": "144396",
     "prevTripId": "HD_INB_SI-06_2201_144396",
     "prevLineId": "seibu_yurakucho",
@@ -120656,9 +120639,9 @@
       }
     ],
     "trainId": "77798",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_2251_77798",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_2216_77385",
@@ -120976,9 +120959,9 @@
       }
     ],
     "trainId": "77679",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_TJ-11_2315_77679",
-    "throughLineId": "tojo"
+    "throughLineId": "tojo",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_2221_77386",
@@ -121778,6 +121761,7 @@
     "direction": "outbound",
     "originStationId": "Y-01",
     "destinationStationId": "Y-24",
+    "customOrigin": "川越市",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -121926,11 +121910,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "川越市",
     "trainId": "114882",
-    "customDestination": "新木場",
     "prevTripId": "HD_INB_TJ-22_2214_114882",
-    "prevLineId": "tojo"
+    "prevLineId": "tojo",
+    "customDestination": "新木場"
   },
   {
     "tripId": "HD_INB_Y-24_2245_77574",
@@ -122256,6 +122239,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "所沢",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -122374,7 +122358,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "所沢",
     "trainId": "144448",
     "prevTripId": "HD_INB_SI-06_2239_144448",
     "prevLineId": "seibu_yurakucho",
@@ -123336,6 +123319,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "清瀬",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -123454,7 +123438,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "清瀬",
     "trainId": "144438",
     "prevTripId": "HD_INB_SI-06_2307_144438",
     "prevLineId": "seibu_yurakucho",
@@ -123588,9 +123571,9 @@
       }
     ],
     "trainId": "77797",
-    "customOrigin": "新木場",
     "throughTripId": "HD_OUT_SI-37_0001_77797",
-    "throughLineId": "seibu_yurakucho"
+    "throughLineId": "seibu_yurakucho",
+    "customOrigin": "新木場"
   },
   {
     "tripId": "HD_OUT_Y-01_2323_77396",
@@ -123916,6 +123899,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -124034,7 +124018,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144499",
     "prevTripId": "HD_INB_SI-06_2324_144499",
     "prevLineId": "seibu_yurakucho",
@@ -124522,6 +124505,7 @@
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-24",
+    "customOrigin": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -124640,7 +124624,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "小手指",
     "trainId": "144500",
     "prevTripId": "HD_INB_SI-06_2337_144500",
     "prevLineId": "seibu_yurakucho",
@@ -124827,15 +124810,13 @@
   {
     "tripId": "WD_INB_Y-22_1729_77814",
     "lineId": "yurakucho",
-    "trainNumber": "77814",
+    "trainNumber": "A501M",
     "trainType": "strain",
     "direction": "inbound",
     "originStationId": "Y-22",
     "destinationStationId": "Y-06",
     "customOrigin": "豊洲",
     "customDestination": "小手指",
-    "throughTripId": "WD_OUT_SI-37_1802_77814",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -124941,20 +124922,21 @@
         "departureTime": "18:02:00",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_SI-37_1802_77814",
+    "throughLineId": "seibu_yurakucho",
+    "trainId": "77814"
   },
   {
     "tripId": "WD_INB_Y-22_1829_77815",
     "lineId": "yurakucho",
-    "trainNumber": "77815",
+    "trainNumber": "A703M",
     "trainType": "strain",
     "direction": "inbound",
     "originStationId": "Y-22",
     "destinationStationId": "Y-06",
     "customOrigin": "豊洲",
     "customDestination": "小手指",
-    "throughTripId": "WD_OUT_SI-37_1902_77815",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -125060,20 +125042,21 @@
         "departureTime": "19:02:00",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_SI-37_1902_77815",
+    "throughLineId": "seibu_yurakucho",
+    "trainId": "77815"
   },
   {
     "tripId": "WD_INB_Y-22_1929_77816",
     "lineId": "yurakucho",
-    "trainNumber": "77816",
+    "trainNumber": "A805M",
     "trainType": "strain",
     "direction": "inbound",
     "originStationId": "Y-22",
     "destinationStationId": "Y-06",
     "customOrigin": "豊洲",
     "customDestination": "小手指",
-    "throughTripId": "WD_OUT_SI-37_2001_77816",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -125179,20 +125162,21 @@
         "departureTime": "20:01:00",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_SI-37_2001_77816",
+    "throughLineId": "seibu_yurakucho",
+    "trainId": "77816"
   },
   {
     "tripId": "WD_INB_Y-22_2030_77817",
     "lineId": "yurakucho",
-    "trainNumber": "77817",
+    "trainNumber": "A907M",
     "trainType": "strain",
     "direction": "inbound",
     "originStationId": "Y-22",
     "destinationStationId": "Y-06",
     "customOrigin": "豊洲",
     "customDestination": "小手指",
-    "throughTripId": "WD_OUT_SI-37_2101_77817",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -125298,20 +125282,21 @@
         "departureTime": "21:01:00",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_SI-37_2101_77817",
+    "throughLineId": "seibu_yurakucho",
+    "trainId": "77817"
   },
   {
     "tripId": "WD_INB_Y-22_2130_77818",
     "lineId": "yurakucho",
-    "trainNumber": "77818",
+    "trainNumber": "A009M",
     "trainType": "strain",
     "direction": "inbound",
     "originStationId": "Y-22",
     "destinationStationId": "Y-06",
     "customOrigin": "豊洲",
     "customDestination": "小手指",
-    "throughTripId": "WD_OUT_SI-37_2158_77818",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -125417,20 +125402,21 @@
         "departureTime": "21:58:00",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_SI-37_2158_77818",
+    "throughLineId": "seibu_yurakucho",
+    "trainId": "77818"
   },
   {
     "tripId": "WD_OUT_Y-06_0651_144439",
     "lineId": "yurakucho",
-    "trainNumber": "144439",
+    "trainNumber": "A602M",
     "trainType": "strain",
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-22",
     "customOrigin": "所沢",
     "customDestination": "豊洲",
-    "throughTripId": "WD_INB_SI-06_0646_144439",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -125536,20 +125522,21 @@
         "departureTime": "07:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_SI-06_0646_144439",
+    "prevLineId": "seibu_yurakucho",
+    "trainId": "144439"
   },
   {
     "tripId": "WD_OUT_Y-06_0909_144440",
     "lineId": "yurakucho",
-    "trainNumber": "144440",
+    "trainNumber": "A904M",
     "trainType": "strain",
     "direction": "outbound",
     "originStationId": "Y-06",
     "destinationStationId": "Y-22",
     "customOrigin": "所沢",
     "customDestination": "豊洲",
-    "throughTripId": "WD_INB_SI-06_0903_144440",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -125655,6 +125642,9 @@
         "departureTime": "09:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_SI-06_0903_144440",
+    "prevLineId": "seibu_yurakucho",
+    "trainId": "144440"
   }
 ]

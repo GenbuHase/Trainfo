@@ -89,6 +89,94 @@ function deduplicateLineTrips(trips) {
   return { cleaned, dupCount };
 }
 
+function isExpressType(type) {
+  return type && type !== 'local' && type !== 'regular';
+}
+
+function areDestinationsCompatible(destA, destB) {
+  if (!destA || !destB) return true;
+  const cleanA = destA.replace(/\([^)]*\)/g, '').trim();
+  const cleanB = destB.replace(/\([^)]*\)/g, '').trim();
+  return cleanA === cleanB || cleanA.includes(cleanB) || cleanB.includes(cleanA);
+}
+
+function getEffectiveDestination(trip, stationMap) {
+  if (trip.customDestination) {
+    return trip.customDestination.replace(/\([^)]*\)/g, '').trim();
+  }
+  if (trip.destinationStationId && stationMap && stationMap.has(trip.destinationStationId)) {
+    return stationMap.get(trip.destinationStationId);
+  }
+  const lastStop = trip.stops && trip.stops[trip.stops.length - 1];
+  if (lastStop && lastStop.stationId && stationMap && stationMap.has(lastStop.stationId)) {
+    return stationMap.get(lastStop.stationId);
+  }
+  return null;
+}
+
+function getEffectiveOrigin(trip, stationMap) {
+  if (trip.customOrigin) {
+    return trip.customOrigin.replace(/\([^)]*\)/g, '').trim();
+  }
+  if (trip.originStationId && stationMap && stationMap.has(trip.originStationId)) {
+    return stationMap.get(trip.originStationId);
+  }
+  const firstStop = trip.stops && trip.stops[0];
+  if (firstStop && firstStop.stationId && stationMap && stationMap.has(firstStop.stationId)) {
+    return stationMap.get(firstStop.stationId);
+  }
+  return null;
+}
+
+const YURAKUCHO_DESTS = new Set(['新木場', '豊洲', '有楽町', '市ケ谷', '小川町(東武)']);
+const FUKUTOSHIN_DESTS = new Set(['元町・中華街', '渋谷', '横浜', '湘南台', '海老名', '武蔵小杉', '菊名', '日吉', '元住吉', '自由が丘']);
+
+// 目黒線・東京メトロ南北線・都営三田線・埼玉高速鉄道の駅群（未対応路線）
+const MEGURO_MITA_NANBOKU_STATIONS = new Set([
+  '浦和美園', '東川口', '戸塚安行', '新井宿', '鳩ケ谷', '鳩ヶ谷', '南鳩ヶ谷', '川口元郷',
+  '赤羽岩淵', '志茂', '王子神谷', '王子', '西ヶ原', '駒込', '本駒込', '東大前', '後楽園',
+  '溜池山王', '六本木一丁目', '麻布十番', '白金高輪', '白金台',
+  '西高島平', '新高島平', '高島平', '西台', '蓮根', '志村三丁目', '志村坂上', '本蓮沼',
+  '板橋本町', '板橋区役所前', '新板橋', '西巣鴨', '巣鴨', '千石', '白山', '春日',
+  '水道橋', '神保町', '大手町', '日比谷', '内幸町', '御成門', '芝公園', '三田',
+  '目黒', '不動前', '武蔵小山', '西小山', '洗足', '大岡山', '奥沢', '田園調布', '多摩川', '新丸子'
+]);
+
+// 東急東横線への直通が許可される行先（東横線・副都心線・東武東上線・西武線・みなとみらい線系統）
+const TOYOKO_ALLOWED_DESTS = new Set([
+  '渋谷', '新宿三丁目', '池袋', '千川', '要町', '雑司が谷', '西早稲田', '東新宿', '北参道', '明治神宮前',
+  '和光市', '地下鉄成増', '地下鉄赤塚', '平和台', '氷川台', '小竹向原',
+  '志木', '朝霞台', '朝霞', 'ふじみ野', '川越', '川越市', '森林公園', '小川町',
+  '武蔵小杉', '元町・中華街', '日本大通り', '馬車道', 'みなとみらい', '新高島', '横浜',
+  '清瀬', '所沢', '保谷', '小手指', '飯能', '石神井公園', 'ひばりヶ丘'
+]);
+
+// 東急東横線からの直通が許可される始発駅（東横線・副都心線・東武東上線・西武線系統）
+const TOYOKO_ALLOWED_ORIGINS = new Set([
+  '渋谷', '新宿三丁目', '池袋', '千川', '要町', '雑司が谷', '西早稲田', '東新宿', '北参道', '明治神宮前',
+  '和光市', '地下鉄成増', '地下鉄赤塚', '平和台', '氷川台', '小竹向原',
+  '志木', '朝霞台', '朝霞', 'ふじみ野', '川越', '川越市', '森林公園', '小川町',
+  '武蔵小杉', '元町・中華街', '日本大通り', '馬車道', 'みなとみらい', '新高島', '横浜',
+  '清瀬', '所沢', '保谷', '小手指', '飯能', '石神井公園', 'ひばりヶ丘'
+]);
+
+function isLineDestinationMismatch(dest, targetLineId) {
+  if (!dest) return false;
+  if (targetLineId === 'yurakucho') {
+    return FUKUTOSHIN_DESTS.has(dest);
+  }
+  if (targetLineId === 'fukutoshin') {
+    return YURAKUCHO_DESTS.has(dest);
+  }
+  if (targetLineId === 'sotetsu_izumino') {
+    return dest.includes('海老名');
+  }
+  if (targetLineId === 'sotetsu_main') {
+    return dest.includes('湘南台');
+  }
+  return false;
+}
+
 /**
  * 単一ペアのリンク処理
  */
@@ -102,65 +190,129 @@ function linkPair({
   dirA,
   dirB,
   linkName,
+  stationMap,
   maxTimeDiff = 360,
   requireIdMatch = false,
 }) {
   let linkedCount = 0;
-  const candidatesB = tripsB.filter((tB) => {
-    if (tB.direction !== dirB) return false;
-    const firstStop = tB.stops[0];
-    return firstStop && firstStop.stationId === stationBId;
-  });
 
-  for (const tA of tripsA) {
-    if (tA.direction !== dirA) continue;
+  // 1. stationAId で終了する tripsA を境界駅到着時刻順にソート（急行による追い抜き・順序逆転に対応）
+  const sortedTripsA = tripsA
+    .filter((tA) => {
+      if (tA.direction !== dirA) return false;
+      const lastStop = tA.stops[tA.stops.length - 1];
+      return lastStop && lastStop.stationId === stationAId && !tA.throughTripId;
+    })
+    .sort((a, b) => {
+      const aSec = timeToSec(a.stops[a.stops.length - 1].arrivalTime || a.stops[a.stops.length - 1].departureTime);
+      const bSec = timeToSec(b.stops[b.stops.length - 1].arrivalTime || b.stops[b.stops.length - 1].departureTime);
+      return aSec - bSec;
+    });
+
+  // 2. stationBId から出発する tripsB を境界駅出発時刻順にソート
+  const sortedCandidatesB = tripsB
+    .filter((tB) => {
+      if (tB.direction !== dirB) return false;
+      const firstStop = tB.stops[0];
+      return firstStop && firstStop.stationId === stationBId;
+    })
+    .sort((a, b) => {
+      const aSec = timeToSec(a.stops[0].departureTime || a.stops[0].arrivalTime);
+      const bSec = timeToSec(b.stops[0].departureTime || b.stops[0].arrivalTime);
+      return aSec - bSec;
+    });
+
+  for (const tA of sortedTripsA) {
     const lastStop = tA.stops[tA.stops.length - 1];
-    if (!lastStop || lastStop.stationId !== stationAId) continue;
-    if (tA.throughTripId) continue;
-
     const tASec = timeToSec(lastStop.arrivalTime || lastStop.departureTime);
     const yIdA = extractYahooTrainId(tA.tripId);
     const noA = tA.trainNumber;
+    const destA = getEffectiveDestination(tA, stationMap);
+
+    // 系統不一致フィルタ（有楽町線行きが副都心線に入ったり、その逆を完全に除外）
+    if (isLineDestinationMismatch(destA, lineBId)) {
+      continue;
+    }
+
+    // 【未対応直通先遮断ルール1】東急新横浜線 -> 東急東横線 (日吉駅上り)
+    // 目黒線・南北線・三田線方面（浦和美園、西高島平、赤羽岩淵、目黒等）行きは東横線へ直通させず日吉で運行終了
+    if (lineAId === 'tokyu_shin_yokohama' && lineBId === 'tokyu_toyoko') {
+      if (MEGURO_MITA_NANBOKU_STATIONS.has(destA) || !TOYOKO_ALLOWED_DESTS.has(destA)) {
+        continue;
+      }
+    }
 
     let bestB = null;
-    let minDiff = Infinity;
+    let bestScore = Infinity;
 
-    for (const tB of candidatesB) {
+    for (const tB of sortedCandidatesB) {
       if (tA.isHoliday !== tB.isHoliday) continue;
       if (tB.prevTripId) continue;
 
+      // 【未対応直通先遮断ルール2】東急東横線 -> 東急新横浜線 (日吉駅下り)
+      // 目黒線・南北線・三田線始発（浦和美園、西高島平、赤羽岩淵等）、または日吉始発等の東横線経由でない便は除外
+      if (lineAId === 'tokyu_toyoko' && lineBId === 'tokyu_shin_yokohama') {
+        const origB = getEffectiveOrigin(tB, stationMap);
+        if (MEGURO_MITA_NANBOKU_STATIONS.has(origB) || !TOYOKO_ALLOWED_ORIGINS.has(origB)) {
+          continue;
+        }
+      }
+
       const firstStop = tB.stops[0];
       const tBSec = timeToSec(firstStop.departureTime || firstStop.arrivalTime);
-      const diff = Math.abs(tBSec - tASec);
+      const waitSec = tBSec - tASec;
+      const diff = Math.abs(waitSec);
       const yIdB = extractYahooTrainId(tB.tripId);
       const noB = tB.trainNumber;
+      const destB = getEffectiveDestination(tB, stationMap);
 
-      // 1. Yahoo trainId 完全一致 (最優先)
-      if (yIdA && yIdB && yIdA === yIdB && diff <= maxTimeDiff) {
+      // 1. 完全一致 (Yahoo trainId または 公式列車番号)
+      if ((yIdA && yIdB && yIdA === yIdB && diff <= maxTimeDiff) || (noA && noB && noA === noB && diff <= maxTimeDiff)) {
         bestB = tB;
+        bestScore = -9999;
         break;
       }
-      // 2. 公式列車番号一致
-      if (noA && noB && noA === noB && diff <= maxTimeDiff && diff < minDiff) {
-        minDiff = diff;
-        bestB = tB;
-      } else if (!requireIdMatch && diff <= maxTimeDiff && diff < minDiff) {
-        // 3. 時刻近接最小 (境界駅の停車・交代時間に対応: requireIdMatch 未指定時のみ)
-        minDiff = diff;
+
+      if (requireIdMatch) continue;
+
+      // 2. 因果律: 出発時刻は到着時刻以降（ダイヤ丸め誤差 -30秒まで許容）
+      if (waitSec < -30 || waitSec > maxTimeDiff) continue;
+
+      let score = Math.max(0, waitSec); // 待機時間が短いほど好ましい
+
+      // 行先整合性スコア
+      if (destA && destB) {
+        if (areDestinationsCompatible(destA, destB)) {
+          score -= 2000; // 一致ボーナス
+        } else {
+          score += 8000; // 不一致ペナルティ（誤マッチ防止）
+        }
+      }
+
+      // 優等/普通整合性ボーナス
+      if (isExpressType(tA.trainType) === isExpressType(tB.trainType)) {
+        score -= 300;
+      }
+
+      if (score < bestScore) {
+        bestScore = score;
         bestB = tB;
       }
     }
 
-    if (bestB) {
+    if (bestB && bestScore < 5000) {
       tA.throughTripId = bestB.tripId;
       tA.throughLineId = lineBId;
       bestB.prevTripId = tA.tripId;
       bestB.prevLineId = lineAId;
 
       // 【必須】境界駅でのシームレス時刻同期 (空白時間による列車消失の完全防止)
-      const syncTime = lastStop.arrivalTime || lastStop.departureTime;
-      lastStop.departureTime = syncTime;        // 先行路線は到着完了
-      bestB.stops[0].arrivalTime = syncTime;    // 後続路線は到着した瞬間から発車待ち開始
+      const syncArr = lastStop.arrivalTime || lastStop.departureTime;
+      lastStop.departureTime = syncArr;         // 先行路線は到着完了
+      bestB.stops[0].arrivalTime = syncArr;     // 後続路線は到着した瞬間から発車待ち開始
+      if (timeToSec(bestB.stops[0].departureTime) < timeToSec(syncArr)) {
+        bestB.stops[0].departureTime = syncArr;
+      }
 
       linkedCount++;
     }
@@ -332,6 +484,7 @@ function executeUniversalThroughLinker(options = {}) {
       dirA: conn.dirA,
       dirB: conn.dirB,
       linkName: conn.name,
+      stationMap,
       maxTimeDiff: conn.maxTimeDiff || 360,
       requireIdMatch: conn.requireIdMatch || false,
     });
@@ -353,7 +506,19 @@ function executeUniversalThroughLinker(options = {}) {
   console.log('\n--- globalTimetable.json 保存 ---');
   for (const [lineId, trips] of lineTrips.entries()) {
     const filePath = path.resolve(`src/data/lines/${lineId}/globalTimetable.json`);
-    fs.writeFileSync(filePath, JSON.stringify(trips, null, 2), 'utf8');
+    const content = JSON.stringify(trips, null, 2);
+    let attempts = 0;
+    while (attempts < 5) {
+      try {
+        fs.writeFileSync(filePath, content, 'utf8');
+        break;
+      } catch (e) {
+        attempts++;
+        if (attempts >= 5) throw e;
+        const start = Date.now();
+        while (Date.now() - start < 100) {}
+      }
+    }
   }
 
   console.log('🎉 汎用直通リンカーによる全路線のシームレス同期 & 行先統一が完了しました！');

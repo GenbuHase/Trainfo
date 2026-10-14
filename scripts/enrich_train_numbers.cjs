@@ -5,6 +5,23 @@
 const fs = require('fs');
 const path = require('path');
 
+function safeWriteJson(filePath, data) {
+  const content = typeof data === 'string' ? data : JSON.stringify(data, null, 2);
+  let attempts = 0;
+  while (attempts < 5) {
+    try {
+      fs.writeFileSync(filePath, content, 'utf8');
+      return;
+    } catch (e) {
+      attempts++;
+      if (attempts >= 5) throw e;
+      const start = Date.now();
+      while (Date.now() - start < 100) {}
+    }
+  }
+}
+
+
 // 列車番号の正規化ルール
 function normalizeTrainNumber(rawNo) {
   if (!rawNo) return '';
@@ -167,8 +184,8 @@ function enrichTojo() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ 東武東上線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -197,6 +214,11 @@ function enrichYurakucho() {
   // 有料座席指定列車 S-TRAIN の公式列車番号特別辞書
   // 102号: A602M, 104号: A904M
   const S_TRAIN_SPECIAL = {
+    '77814': 'A501M',
+    '77815': 'A703M',
+    '77816': 'A805M',
+    '77817': 'A907M',
+    '77818': 'A009M',
     '144439': 'A602M',
     '144440': 'A904M',
   };
@@ -297,8 +319,8 @@ function enrichYurakucho() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ 東京メトロ有楽町線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -412,8 +434,8 @@ function enrichFukutoshin() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ 東京メトロ副都心線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -558,8 +580,8 @@ function enrichSeibuYurakucho() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ 西武有楽町線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -686,8 +708,8 @@ function enrichSeibuIkebukuro() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ 西武池袋線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -746,7 +768,8 @@ function enrichTx() {
         if (stop.isPassing) continue;
         const [sh, sm] = stop.departureTime.split(':').map(Number);
         const normH = sh >= 24 ? sh - 24 : sh;
-        const midKey = `${dayKey}:${stop.stationId}:${trip.direction}:${normH}:${sm}`;
+        const lookupStationId = stop.stationId.replace(/^OIE-/, 'OE-');
+        const midKey = `${dayKey}:${lookupStationId}:${trip.direction}:${normH}:${sm}`;
         const item = ekitanMap.get(midKey);
         if (item) {
           ekItem = item;
@@ -790,8 +813,8 @@ function enrichTx() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ つくばエクスプレスの globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -803,7 +826,7 @@ function enrichSaikyo() {
 
   const globalPath = path.resolve('src/data/lines/saikyo/globalTimetable.json');
   const stationPath = path.resolve('src/data/lines/saikyo/stationTimetables.json');
-  const ekitanPath = path.resolve('scripts/ekitan_saikyo_raw_timetables.json');
+  const ekitanPath = path.resolve('scripts/ekitan_kawagoe_all_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
     throw new Error('JR埼京線の必要なデータファイルが見つかりません。');
@@ -892,8 +915,8 @@ function enrichSaikyo() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ JR埼京線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -905,7 +928,7 @@ function enrichKawagoe() {
 
   const globalPath = path.resolve('src/data/lines/kawagoe/globalTimetable.json');
   const stationPath = path.resolve('src/data/lines/kawagoe/stationTimetables.json');
-  const ekitanPath = path.resolve('scripts/ekitan_saikyo_raw_timetables.json');
+  const ekitanPath = path.resolve('scripts/ekitan_kawagoe_all_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
     throw new Error('JR川越線の必要なデータファイルが見つかりません。');
@@ -933,8 +956,26 @@ function enrichKawagoe() {
     '43295': { trainNumber: '9027M' },
   };
 
+    // 八高線直通便の公式列車番号マップ作成
+  const hachikoPath = path.resolve('src/data/lines/hachiko/globalTimetable.json');
+  const hachikoMap = new Map();
+  if (fs.existsSync(hachikoPath)) {
+    try {
+      const hachikoTrips = JSON.parse(fs.readFileSync(hachikoPath, 'utf8'));
+      for (const ht of hachikoTrips) {
+        const hId = ht.trainId || ht.tripId?.split('_').pop();
+        if (hId && ht.trainNumber && ht.trainNumber !== hId && !/^\d+$/.test(ht.trainNumber)) {
+          hachikoMap.set(hId, ht.trainNumber);
+        }
+      }
+    } catch (e) {
+      console.warn('八高線データの読み込みに失敗しました:', e);
+    }
+  }
+
   let matchedSpecial = 0;
   let matchedCount = 0;
+  let matchedHachiko = 0;
   let fallbackCount = 0;
   const trainIdToOfficialNo = new Map();
 
@@ -987,6 +1028,10 @@ function enrichKawagoe() {
       trip.trainNumber = normalizeTrainNumber(ekItem.no);
       trainIdToOfficialNo.set(originalId, trip.trainNumber);
       matchedCount++;
+    } else if (hachikoMap.has(originalId)) {
+      trip.trainNumber = hachikoMap.get(originalId);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+      matchedHachiko++;
     } else {
       fallbackCount++;
       trip.trainNumber = originalId;
@@ -997,6 +1042,7 @@ function enrichKawagoe() {
   console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
   console.log(`  特急特別指定: ${matchedSpecial} 便`);
   console.log(`  駅探データより突合: ${matchedCount} 便`);
+  console.log(`  八高線直通より同期: ${matchedHachiko} 便`);
   console.log(`  未突合(フォールバック): ${fallbackCount} 便`);
 
   let stUpdatedCount = 0;
@@ -1019,8 +1065,8 @@ function enrichKawagoe() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ JR川越線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -1139,8 +1185,8 @@ function enrichMusashino() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ JR武蔵野線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -1241,8 +1287,8 @@ function enrichRinkai() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ 東京臨海高速鉄道りんかい線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -1343,8 +1389,8 @@ function enrichHachiko() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ JR八高線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -1374,6 +1420,13 @@ const SPECIAL_CHUO_LIMITED_EXP = {
   '38805': { trainNumber: '2115M' }, // 富士回遊15号 (休日)
   '38807': { trainNumber: '2115M' }, // 富士回遊15号 (平日)
   '38808': { trainNumber: '9193M' }, // 富士回遊93号 (臨時)
+
+  // 特急 しなの (臨時)
+  '25078': { trainNumber: '8083M' }, // しなの83号 (名古屋 -> 長野)
+  '25201': { trainNumber: '8086M' }, // しなの86号 (長野 -> 名古屋)
+
+  // 飯田線直通普通 (天竜峡 -> 松本)
+  '43237': { trainNumber: '1437M' }, // 辰野以北 1437M
 };
 
 /**
@@ -1473,8 +1526,8 @@ function enrichChuo() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ JR中央線快速の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -1575,8 +1628,8 @@ function enrichChuoMain() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ JR中央本線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -1677,8 +1730,8 @@ function enrichShinonoi() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ JR篠ノ井線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -1744,7 +1797,8 @@ function enrichOito() {
         if (stop.isPassing) continue;
         const [sh, sm] = stop.departureTime.split(':').map(Number);
         const normH = sh >= 24 ? sh - 24 : sh;
-        const midKey = `${dayKey}:${stop.stationId}:${trip.direction}:${normH}:${sm}`;
+        const lookupStationId = stop.stationId.replace(/^OIE-/, 'OE-');
+        const midKey = `${dayKey}:${lookupStationId}:${trip.direction}:${normH}:${sm}`;
         const item = ekitanMap.get(midKey);
         if (item) {
           ekItem = item;
@@ -1788,8 +1842,8 @@ function enrichOito() {
     }
     console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-    fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-    fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+    safeWriteJson(globalPath, trips);
+    safeWriteJson(stationPath, stationTimetables);
     console.log(`✅ ${secName} の globalTimetable.json および stationTimetables.json を正常に更新しました！\n`);
   }
 }
@@ -1909,8 +1963,8 @@ function enrichChichibu() {
 
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ 秩父鉄道秩父本線の公式列車番号エンリッチメントが正常に完了しました！\n');
 }
 
@@ -2014,8 +2068,8 @@ function enrichOgose() {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log('✅ 東武越生線の globalTimetable.json および stationTimetables.json を正常に更新しました！\n');
 }
 
@@ -2046,6 +2100,9 @@ if (target === 'tsukuba_express' || target === 'tx' || target === 'all') {
 if (target === 'saikyo' || target === 'jr' || target === 'all') {
   enrichSaikyo();
 }
+if (target === 'hachiko' || target === 'jr' || target === 'all') {
+  enrichHachiko();
+}
 if (target === 'kawagoe' || target === 'jr' || target === 'all') {
   enrichKawagoe();
 }
@@ -2055,11 +2112,14 @@ if (target === 'musashino' || target === 'jr' || target === 'all') {
 if (target === 'rinkai' || target === 'all') {
   enrichRinkai();
 }
-if (target === 'hachiko' || target === 'jr' || target === 'all') {
-  enrichHachiko();
-}
 if (target === 'chuo' || target === 'jr' || target === 'all') {
   enrichChuo();
+}
+if (target === 'ome' || target === 'jr' || target === 'all') {
+  enrichOme();
+}
+if (target === 'itsukaichi' || target === 'jr' || target === 'all') {
+  enrichItsukaichi();
 }
 if (target === 'chuo_main' || target === 'jr' || target === 'all') {
   enrichChuoMain();
@@ -2170,8 +2230,8 @@ function enrichOdakyuLine(lineName, globalPath, stationPath, ekitanPath) {
   }
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
-  fs.writeFileSync(stationPath, JSON.stringify(stationTimetables, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
+  safeWriteJson(stationPath, stationTimetables);
   console.log(`✅ ${lineName} の globalTimetable.json および stationTimetables.json を正常に更新しました！\n`);
 }
 
@@ -2200,6 +2260,17 @@ function enrichOdakyuOdawara() {
     path.resolve('src/data/lines/odakyu_odawara/stationTimetables.json'),
     path.resolve('scripts/ekitan_odakyu_odawara_timetables.json')
   );
+}
+
+
+if (target === 'odakyu' || target === 'odakyu_tama' || target === 'all') {
+  enrichOdakyuTama();
+}
+if (target === 'odakyu' || target === 'odakyu_enoshima' || target === 'all') {
+  enrichOdakyuEnoshima();
+}
+if (target === 'odakyu' || target === 'odakyu_odawara' || target === 'all') {
+  enrichOdakyuOdawara();
 }
 
 function enrichTokyuToyokoAndMinatomirai(targetLine) {
@@ -2291,7 +2362,7 @@ function enrichTokyuToyokoAndMinatomirai(targetLine) {
         updatedCount++;
       }
     }
-    fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
+    safeWriteJson(globalPath, trips);
     console.log(`✅ [${lineId}] globalTimetable: ${updatedCount} / ${trips.length} trips updated`);
 
     if (fs.existsSync(stationPath)) {
@@ -2336,7 +2407,7 @@ function enrichTokyuToyokoAndMinatomirai(targetLine) {
           }
         }
       }
-      fs.writeFileSync(stationPath, JSON.stringify(stationData, null, 2), 'utf8');
+      safeWriteJson(stationPath, stationData);
       console.log(`✅ [${lineId}] stationTimetables: ${stDepUpdated} departures updated`);
     }
   }
@@ -2379,6 +2450,47 @@ function enrichSotetsuAndTokyu(targetLine) {
   const allLines = ['tokyu_shin_yokohama', 'sotetsu_shin_yokohama', 'sotetsu_main', 'sotetsu_izumino'];
   const lines = (targetLine === 'all' || targetLine === 'sotetsu') ? allLines : [targetLine];
 
+  const SPECIAL_SOTETSU_TOKYU = {
+    // 相鉄新横浜線
+    sotetsu_shin_yokohama: {
+      '82633': '6555',
+      '39226': '231M',
+      '75570': '7901',
+      '82635': '6563',
+      '41484': '817F',
+      '75568': '7905',
+      '82816': '7953',
+      '39399': '919F',
+      '39423': '260M',
+      '82624': '7559',
+      '39428': '262M',
+      '39267': '1868F',
+      '82648': '6265',
+      '82640': '6603',
+      '82651': '6277',
+      '82641': '6605',
+      '75612': '7451',
+    },
+    // 相鉄いずみ野線
+    sotetsu_izumino: {
+      '82627': '642501',
+    },
+    // 東急新横浜線
+    tokyu_shin_yokohama: {
+      '157802': '457231', // 三田線57T直通 (西高島平 -> 新横浜)
+      '82653': '350071',
+      '82635': '231081',
+      '75569': '791171',
+      '82698': '643191',
+      '82680': '052201',
+      '82640': '212201',
+      '82700': '637211',
+      '82681': '463211',
+      '75616': '992231',
+      '76646': '218231',
+    },
+  };
+
   function findBestEkitanNo(lineId, trip) {
     const isHoli = trip.isHoliday;
     let bestCandidate = null;
@@ -2407,7 +2519,11 @@ function enrichSotetsuAndTokyu(targetLine) {
   for (const lineId of lines) {
     const globalPath = path.resolve(`src/data/lines/${lineId}/globalTimetable.json`);
     const stationPath = path.resolve(`src/data/lines/${lineId}/stationTimetables.json`);
+    const yahooCachePath = path.resolve(`scripts/cache/yahoo/${lineId}/all_train_details.json`);
     if (!fs.existsSync(globalPath)) continue;
+
+    const yahooCache = fs.existsSync(yahooCachePath) ? JSON.parse(fs.readFileSync(yahooCachePath, 'utf8')) : [];
+    const yahooMap = new Map(yahooCache.map(t => [t.trainId, t]));
 
     console.log(`=== [${lineId}] 公式列車番号エンリッチメント開始 ===`);
     const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -2418,13 +2534,37 @@ function enrichSotetsuAndTokyu(targetLine) {
       if (!trip.trainId && rawNo) {
         trip.trainId = rawNo;
       }
-      const officialNo = findBestEkitanNo(lineId, trip);
+
+      // 1. 特別辞書
+      let officialNo = SPECIAL_SOTETSU_TOKYU[lineId]?.[trip.trainId] || null;
+
+      // 2. Yahoo guideComment からの抽出
+      if (!officialNo) {
+        const yDetail = yahooMap.get(trip.trainId);
+        if (yDetail && yDetail.guideComment) {
+          const comment = yDetail.guideComment;
+          if (lineId === 'tokyu_shin_yokohama') {
+            const m = comment.match(/渋谷−新横浜間は([0-9-]+)(各駅停車|急行|特急)で運転/) ||
+                      comment.match(/目黒−新横浜間は([0-9-]+)(各駅停車|急行|特急)で運転/);
+            if (m) officialNo = m[1].replace('-', '');
+          } else if (lineId.startsWith('sotetsu')) {
+            const m = comment.match(/新横浜−(西谷|海老名|湘南台)間は([0-9]{4})(各駅停車|急行|特急|快速)で運転/);
+            if (m) officialNo = m[2];
+          }
+        }
+      }
+
+      // 3. 駅探キャッシュ突合
+      if (!officialNo) {
+        officialNo = findBestEkitanNo(lineId, trip);
+      }
+
       if (officialNo) {
         trip.trainNumber = officialNo;
         updatedCount++;
       }
     }
-    fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
+    safeWriteJson(globalPath, trips);
     console.log(`✅ [${lineId}] globalTimetable: ${updatedCount} / ${trips.length} trips updated`);
 
     if (fs.existsSync(stationPath)) {
@@ -2469,7 +2609,7 @@ function enrichSotetsuAndTokyu(targetLine) {
           }
         }
       }
-      fs.writeFileSync(stationPath, JSON.stringify(stationData, null, 2), 'utf8');
+      safeWriteJson(stationPath, stationData);
       console.log(`✅ [${lineId}] stationTimetables: ${stDepUpdated} departures updated`);
     }
   }
@@ -2524,6 +2664,15 @@ function enrichSotetsuJrDirect() {
     ekitanByStation.get(groupKey).push({ ...row, normSec: sec });
   }
 
+  const SPECIAL_SOTETSU_JR = {
+    // 湘南新宿ライン特別快速（小田原発高崎行）
+    '33494': '2840Y',
+    '33495': '2842Y',
+    '33496': '2844Y',
+    '33498': '2846Y',
+    '33497': '2846Y',
+  };
+
   let updatedCount = 0;
   for (const trip of trips) {
     const rawNo = trip.trainNumber;
@@ -2531,14 +2680,16 @@ function enrichSotetsuJrDirect() {
       trip.trainId = rawNo;
     }
 
-    let officialNo = null;
+    let officialNo = SPECIAL_SOTETSU_JR[trip.trainId] || null;
 
     // 1. Yahoo guideComment からの抽出 (例: "羽沢横浜国大−新宿間は120M各駅停車で運転。")
-    const yDetail = yahooMap.get(trip.trainId);
-    if (yDetail && yDetail.guideComment) {
-      const m = yDetail.guideComment.match(/([0-9]{3,4}[A-Za-z])/);
-      if (m) {
-        officialNo = m[1];
+    if (!officialNo) {
+      const yDetail = yahooMap.get(trip.trainId);
+      if (yDetail && yDetail.guideComment) {
+        const m = yDetail.guideComment.match(/([0-9]{3,4}[A-Za-z])/);
+        if (m) {
+          officialNo = m[1];
+        }
       }
     }
 
@@ -2571,7 +2722,7 @@ function enrichSotetsuJrDirect() {
     }
   }
 
-  fs.writeFileSync(globalPath, JSON.stringify(trips, null, 2), 'utf8');
+  safeWriteJson(globalPath, trips);
   console.log(`✅ [sotetsu_jr_direct] globalTimetable: ${updatedCount} / ${trips.length} trips updated`);
 
   if (fs.existsSync(stationPath)) {
@@ -2616,7 +2767,7 @@ function enrichSotetsuJrDirect() {
         }
       }
     }
-    fs.writeFileSync(stationPath, JSON.stringify(stationData, null, 2), 'utf8');
+    safeWriteJson(stationPath, stationData);
     console.log(`✅ [sotetsu_jr_direct] stationTimetables: ${stDepUpdated} departures updated`);
   }
 }
@@ -2636,3 +2787,234 @@ if (
 
 
 
+
+
+/**
+ * JR青梅線のエンリッチメント処理 (中央線直通便の公式列車番号を同期)
+ */
+function enrichOme() {
+  console.log('=== JR青梅線 公式列車番号エンリッチメント開始 ===');
+  const globalPath = path.resolve('src/data/lines/ome/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/ome/stationTimetables.json');
+  const ekitanPath = path.resolve('scripts/ekitan_ome_timetables.json');
+  const chuoPath = path.resolve('src/data/lines/chuo/globalTimetable.json');
+  if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath)) return;
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const ekitanData = JSON.parse(fs.readFileSync(ekitanPath, 'utf8'));
+  const stationTimetables = fs.existsSync(stationPath) ? JSON.parse(fs.readFileSync(stationPath, 'utf8')) : null;
+
+  const ekitanMap = new Map();
+  for (const day of ['weekday', 'holiday']) {
+    for (const stId of Object.keys(ekitanData[day] || {})) {
+      for (const dir of ['inbound', 'outbound']) {
+        for (const item of ekitanData[day][stId][dir] || []) {
+          const key = `${day}:${stId}:${dir}:${item.h}:${item.m}`;
+          ekitanMap.set(key, item);
+        }
+      }
+    }
+  }
+
+  // 中央線快速公式列車番号マップ
+  const chuoNoMap = new Map();
+  if (fs.existsSync(chuoPath)) {
+    const chuoTrips = JSON.parse(fs.readFileSync(chuoPath, 'utf8'));
+    for (const t of chuoTrips) {
+      const id = t.trainId || t.tripId?.split('_').pop();
+      if (id && t.trainNumber && t.trainNumber !== id && !/^\d+$/.test(t.trainNumber)) {
+        chuoNoMap.set(id, t.trainNumber);
+      }
+    }
+  }
+
+  // 臨時特急 鎌倉満喫五日市号など
+  const SPECIAL_OME = {
+    '9764': '9764M',
+    '9765': '9765M',
+  };
+
+  let matchedSpecial = 0;
+  let matchedChuo = 0;
+  let matchedEkitan = 0;
+  let fallbackCount = 0;
+  const trainIdToOfficialNo = new Map();
+
+  for (const trip of trips) {
+    const originalId = trip.trainId || trip.trainNumber || '';
+    trip.trainId = originalId;
+
+    if (SPECIAL_OME[originalId]) {
+      trip.trainNumber = SPECIAL_OME[originalId];
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+      matchedSpecial++;
+      continue;
+    }
+
+    if (chuoNoMap.has(originalId)) {
+      trip.trainNumber = chuoNoMap.get(originalId);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+      matchedChuo++;
+      continue;
+    }
+
+    const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+    let ekItem = null;
+
+    for (const stop of trip.stops) {
+      if (stop.isPassing) continue;
+      const [sh, sm] = stop.departureTime.split(':').map(Number);
+      const normH = sh >= 24 ? sh - 24 : sh;
+      const midKey = `${dayKey}:${stop.stationId}:${trip.direction}:${normH}:${sm}`;
+      const item = ekitanMap.get(midKey);
+      if (item) {
+        ekItem = item;
+        break;
+      }
+    }
+
+    if (ekItem && ekItem.no) {
+      trip.trainNumber = normalizeTrainNumber(ekItem.no);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+      matchedEkitan++;
+    } else {
+      fallbackCount++;
+      trip.trainNumber = originalId;
+      trainIdToOfficialNo.set(originalId, originalId);
+    }
+  }
+
+  console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
+  console.log(`  特急特別指定: ${matchedSpecial} 便`);
+  console.log(`  中央線直通より同期: ${matchedChuo} 便`);
+  console.log(`  駅探データより突合: ${matchedEkitan} 便`);
+  console.log(`  未突合(フォールバック): ${fallbackCount} 便`);
+  safeWriteJson(globalPath, trips);
+
+  if (stationTimetables) {
+    let stUpdatedCount = 0;
+    for (const day of ['weekday', 'holiday']) {
+      const dayData = stationTimetables[day] || {};
+      for (const stId of Object.keys(dayData)) {
+        for (const dir of ['inbound', 'outbound']) {
+          const deps = dayData[stId]?.[dir] || [];
+          for (const dep of deps) {
+            const lookupId = dep.trainId || dep.no;
+            if (lookupId && trainIdToOfficialNo.has(lookupId)) {
+              dep.trainId = lookupId;
+              dep.no = trainIdToOfficialNo.get(lookupId);
+              stUpdatedCount++;
+            }
+          }
+        }
+      }
+    }
+    safeWriteJson(stationPath, stationTimetables);
+    console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
+  }
+  console.log('✅ JR青梅線の公式列車番号を正常に更新しました！\n');
+}
+
+/**
+ * JR五日市線のエンリッチメント処理 (青梅線・中央線直通便の公式列車番号を同期)
+ */
+function enrichItsukaichi() {
+  console.log('=== JR五日市線 公式列車番号エンリッチメント開始 ===');
+  const globalPath = path.resolve('src/data/lines/itsukaichi/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/itsukaichi/stationTimetables.json');
+  const ekitanPath = path.resolve('scripts/ekitan_itsukaichi_timetables.json');
+  if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath)) return;
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const ekitanData = JSON.parse(fs.readFileSync(ekitanPath, 'utf8'));
+  const stationTimetables = fs.existsSync(stationPath) ? JSON.parse(fs.readFileSync(stationPath, 'utf8')) : null;
+
+  const ekitanMap = new Map();
+  for (const day of ['weekday', 'holiday']) {
+    for (const stId of Object.keys(ekitanData[day] || {})) {
+      for (const dir of ['inbound', 'outbound']) {
+        for (const item of ekitanData[day][stId][dir] || []) {
+          const key = `${day}:${stId}:${dir}:${item.h}:${item.m}`;
+          ekitanMap.set(key, item);
+        }
+      }
+    }
+  }
+
+  // 臨時特急 鎌倉満喫五日市号
+  const SPECIAL_ITSUKAICHI = {
+    '9764': '9764M',
+    '9765': '9765M',
+  };
+
+  let matchedSpecial = 0;
+  let matchedCount = 0;
+  let fallbackCount = 0;
+  const trainIdToOfficialNo = new Map();
+
+  for (const trip of trips) {
+    const originalId = trip.trainId || trip.trainNumber || '';
+    trip.trainId = originalId;
+
+    if (SPECIAL_ITSUKAICHI[originalId]) {
+      trip.trainNumber = SPECIAL_ITSUKAICHI[originalId];
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+      matchedSpecial++;
+      continue;
+    }
+
+    const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+    let ekItem = null;
+
+    for (const stop of trip.stops) {
+      if (stop.isPassing) continue;
+      const [sh, sm] = stop.departureTime.split(':').map(Number);
+      const normH = sh >= 24 ? sh - 24 : sh;
+      const midKey = `${dayKey}:${stop.stationId}:${trip.direction}:${normH}:${sm}`;
+      const item = ekitanMap.get(midKey);
+      if (item) {
+        ekItem = item;
+        break;
+      }
+    }
+
+    if (ekItem && ekItem.no) {
+      trip.trainNumber = normalizeTrainNumber(ekItem.no);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+      matchedCount++;
+    } else {
+      fallbackCount++;
+      trip.trainNumber = originalId;
+      trainIdToOfficialNo.set(originalId, originalId);
+    }
+  }
+
+  console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
+  console.log(`  特急特別指定: ${matchedSpecial} 便`);
+  console.log(`  駅探データより突合: ${matchedCount} 便`);
+  console.log(`  未突合(フォールバック): ${fallbackCount} 便`);
+  safeWriteJson(globalPath, trips);
+
+  if (stationTimetables) {
+    let stUpdatedCount = 0;
+    for (const day of ['weekday', 'holiday']) {
+      const dayData = stationTimetables[day] || {};
+      for (const stId of Object.keys(dayData)) {
+        for (const dir of ['inbound', 'outbound']) {
+          const deps = dayData[stId]?.[dir] || [];
+          for (const dep of deps) {
+            const lookupId = dep.trainId || dep.no;
+            if (lookupId && trainIdToOfficialNo.has(lookupId)) {
+              dep.trainId = lookupId;
+              dep.no = trainIdToOfficialNo.get(lookupId);
+              stUpdatedCount++;
+            }
+          }
+        }
+      }
+    }
+    safeWriteJson(stationPath, stationTimetables);
+    console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
+  }
+  console.log('✅ JR五日市線の公式列車番号を正常に更新しました！\n');
+}

@@ -391,6 +391,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "小竹向原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -482,8 +483,7 @@
     "trainId": "144369",
     "prevTripId": "WD_OUT_SI-37_0000_144369",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "小竹向原"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_OUT_SI-01_0014_143080",
@@ -707,6 +707,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -754,7 +755,6 @@
       }
     ],
     "trainId": "105755",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_0013_105755",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "保谷"
@@ -3616,6 +3616,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4727,6 +4728,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4777,6 +4779,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "小竹向原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4868,8 +4871,7 @@
     "trainId": "144368",
     "prevTripId": "WD_OUT_SI-37_0548_144368",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "小竹向原"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-36_0556_144119",
@@ -6548,6 +6550,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6649,6 +6652,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6740,8 +6744,7 @@
     "trainId": "77756",
     "prevTripId": "WD_OUT_SI-37_0609_77756",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_OUT_SI-26_0616_143396",
@@ -7421,6 +7424,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7905,6 +7909,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7996,8 +8001,7 @@
     "trainId": "77758",
     "prevTripId": "WD_OUT_SI-37_0621_77758",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-19_0628_143763",
@@ -9349,6 +9353,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9945,6 +9950,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9994,8 +10000,7 @@
     "trainId": "77713",
     "prevTripId": "WD_OUT_SI-37_0636_77713",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_OUT_SI-01_0646_143480",
@@ -10966,6 +10971,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -11057,8 +11063,7 @@
     "trainId": "77759",
     "prevTripId": "WD_OUT_SI-37_0645_77759",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_OUT_SI-01_0654_142867",
@@ -11142,6 +11147,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -11336,6 +11342,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "武蔵小杉",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -11373,8 +11380,7 @@
     "trainId": "105684",
     "prevTripId": "WD_OUT_SI-37_0651_105684",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "武蔵小杉"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_0658_143482",
@@ -11903,6 +11909,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "小竹向原",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -11970,8 +11977,7 @@
     "trainId": "144367",
     "prevTripId": "WD_OUT_SI-37_0655_144367",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "小竹向原"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "WD_INB_SI-15_0702_143701",
@@ -12713,6 +12719,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -13166,6 +13173,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -13216,6 +13224,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -13283,8 +13292,7 @@
     "trainId": "105795",
     "prevTripId": "WD_OUT_SI-37_0706_105795",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "元町・中華街"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "WD_INB_SI-19_0713_143766",
@@ -14228,6 +14236,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -14319,8 +14328,7 @@
     "trainId": "77760",
     "prevTripId": "WD_OUT_SI-37_0715_77760",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-19_0721_144452",
@@ -14432,6 +14440,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -15315,6 +15324,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -15352,8 +15362,7 @@
     "trainId": "77685",
     "prevTripId": "WD_OUT_SI-37_0721_77685",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_INB_SI-26_0727_143943",
@@ -15533,7 +15542,7 @@
     "direction": "inbound",
     "originStationId": "SI-10",
     "destinationStationId": "SI-06",
-    "customDestination": "湘南台",
+    "customDestination": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -16571,6 +16580,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -16650,8 +16660,7 @@
     "trainId": "77800",
     "prevTripId": "WD_OUT_SI-37_0731_77800",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "所沢",
-    "customOrigin": "新木場"
+    "customDestination": "所沢"
   },
   {
     "tripId": "WD_INB_SI-06_0738_144226",
@@ -16661,6 +16670,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -17086,6 +17096,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -17123,8 +17134,7 @@
     "trainId": "105772",
     "prevTripId": "WD_OUT_SI-37_0736_105772",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "武蔵小杉"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-26_0742_143401",
@@ -17730,6 +17740,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -17795,7 +17806,6 @@
       }
     ],
     "trainId": "105744",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_0740_105744",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "清瀬"
@@ -18138,6 +18148,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -18229,8 +18240,7 @@
     "trainId": "77802",
     "prevTripId": "WD_OUT_SI-37_0743_77802",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-26_0751_144635",
@@ -18563,6 +18573,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -18613,6 +18624,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -18692,8 +18704,7 @@
     "trainId": "105801",
     "prevTripId": "WD_OUT_SI-37_0749_105801",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "所沢",
-    "customOrigin": "武蔵小杉"
+    "customDestination": "所沢"
   },
   {
     "tripId": "WD_INB_SI-26_0755_143853",
@@ -19231,6 +19242,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -19268,8 +19280,7 @@
     "trainId": "77686",
     "prevTripId": "WD_OUT_SI-37_0752_77686",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_0759_142943",
@@ -20222,6 +20233,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -20313,8 +20325,7 @@
     "trainId": "105770",
     "prevTripId": "WD_OUT_SI-37_0757_105770",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-06_0807_144230",
@@ -20324,6 +20335,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -20650,7 +20662,7 @@
     "direction": "inbound",
     "originStationId": "SI-15",
     "destinationStationId": "SI-06",
-    "customDestination": "行先不明",
+    "customDestination": "武蔵小杉",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -20945,6 +20957,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -21034,7 +21047,6 @@
       }
     ],
     "trainId": "105762",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_0805_105762",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -21576,6 +21588,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -21643,8 +21656,7 @@
     "trainId": "77738",
     "prevTripId": "WD_OUT_SI-37_0813_77738",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "新木場"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "WD_INB_SI-19_0820_143769",
@@ -22118,6 +22130,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -23189,6 +23202,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -23236,7 +23250,6 @@
       }
     ],
     "trainId": "105753",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_0820_105753",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "保谷"
@@ -23615,6 +23628,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -23665,6 +23679,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -23756,8 +23771,7 @@
     "trainId": "77803",
     "prevTripId": "WD_OUT_SI-37_0828_77803",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-17_0834_144573",
@@ -24398,6 +24412,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -24489,8 +24504,7 @@
     "trainId": "105804",
     "prevTripId": "WD_OUT_SI-37_0838_105804",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-15_0845_143702",
@@ -24604,6 +24618,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -24994,6 +25009,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -25083,7 +25099,6 @@
       }
     ],
     "trainId": "105745",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_0843_105745",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -25349,6 +25364,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -25863,6 +25879,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -25900,8 +25917,7 @@
     "trainId": "77687",
     "prevTripId": "WD_OUT_SI-37_0849_77687",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_0857_143191",
@@ -26251,6 +26267,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -26340,7 +26357,6 @@
       }
     ],
     "trainId": "105821",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_0851_105821",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -26532,6 +26548,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -26599,8 +26616,7 @@
     "trainId": "105796",
     "prevTripId": "WD_OUT_SI-37_0856_105796",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "元町・中華街"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "WD_OUT_SI-01_0904_143157",
@@ -26780,6 +26796,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -27128,6 +27145,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -27217,7 +27235,6 @@
       }
     ],
     "trainId": "105734",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_0903_105734",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -27400,6 +27417,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -27450,7 +27468,7 @@
     "direction": "inbound",
     "originStationId": "SI-19",
     "destinationStationId": "SI-06",
-    "customDestination": "海老名",
+    "customDestination": "武蔵小杉",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -27678,6 +27696,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -27769,8 +27788,7 @@
     "trainId": "77762",
     "prevTripId": "WD_OUT_SI-37_0907_77762",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_OUT_SI-01_0916_143503",
@@ -27831,6 +27849,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -27922,8 +27941,7 @@
     "trainId": "77682",
     "prevTripId": "WD_OUT_SI-37_0912_77682",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-26_0918_143862",
@@ -28475,6 +28493,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -28525,6 +28544,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -28604,8 +28624,7 @@
     "trainId": "105737",
     "prevTripId": "WD_OUT_SI-37_0917_105737",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "所沢",
-    "customOrigin": "元町・中華街"
+    "customDestination": "所沢"
   },
   {
     "tripId": "WD_OUT_SI-01_0924_142875",
@@ -29489,6 +29508,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -29538,8 +29558,7 @@
     "trainId": "105789",
     "prevTripId": "WD_OUT_SI-37_0924_105789",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "元町・中華街"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-19_0930_144467",
@@ -30022,6 +30041,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -30508,6 +30528,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -30599,8 +30620,7 @@
     "trainId": "77804",
     "prevTripId": "WD_OUT_SI-37_0935_77804",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-26_0943_143863",
@@ -30831,6 +30851,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -30922,8 +30943,7 @@
     "trainId": "77683",
     "prevTripId": "WD_OUT_SI-37_0943_77683",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_OUT_SI-01_0949_143196",
@@ -31103,6 +31123,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -31609,6 +31630,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -32152,6 +32174,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -32189,8 +32212,7 @@
     "trainId": "77690",
     "prevTripId": "WD_OUT_SI-37_0956_77690",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-26_1002_143409",
@@ -32280,6 +32302,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -32654,7 +32677,7 @@
     "direction": "inbound",
     "originStationId": "SI-19",
     "destinationStationId": "SI-06",
-    "customDestination": "湘南台",
+    "customDestination": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -32926,6 +32949,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -33017,8 +33041,7 @@
     "trainId": "105764",
     "prevTripId": "WD_OUT_SI-37_1003_105764",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-10_1011_143636",
@@ -33102,6 +33125,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -33373,6 +33397,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -33462,7 +33487,6 @@
       }
     ],
     "trainId": "105742",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1010_105742",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -33967,6 +33991,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -34014,7 +34039,6 @@
       }
     ],
     "trainId": "105754",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1014_105754",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "保谷"
@@ -34580,6 +34604,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -35030,6 +35055,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -35109,8 +35135,7 @@
     "trainId": "77801",
     "prevTripId": "WD_OUT_SI-37_1024_77801",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "所沢",
-    "customOrigin": "新木場"
+    "customDestination": "所沢"
   },
   {
     "tripId": "WD_OUT_SI-01_1035_142951",
@@ -35756,6 +35781,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -35847,8 +35873,7 @@
     "trainId": "77765",
     "prevTripId": "WD_OUT_SI-37_1034_77765",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-06_1042_144255",
@@ -35858,6 +35883,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -36245,6 +36271,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -36336,8 +36363,7 @@
     "trainId": "105690",
     "prevTripId": "WD_OUT_SI-37_1043_105690",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "横浜"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-19_1048_144471",
@@ -36953,6 +36979,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -37002,8 +37029,7 @@
     "trainId": "77715",
     "prevTripId": "WD_OUT_SI-37_1046_77715",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-26_1054_143981",
@@ -37396,6 +37422,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -37616,6 +37643,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -37653,8 +37681,7 @@
     "trainId": "105774",
     "prevTripId": "WD_OUT_SI-37_1055_105774",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_1105_142953",
@@ -38120,6 +38147,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -38211,8 +38239,7 @@
     "trainId": "77767",
     "prevTripId": "WD_OUT_SI-37_1103_77767",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-36_1110_144146",
@@ -38302,6 +38329,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -38743,6 +38771,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -38832,7 +38861,6 @@
       }
     ],
     "trainId": "105691",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1113_105691",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -39337,6 +39365,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -39386,8 +39415,7 @@
     "trainId": "77717",
     "prevTripId": "WD_OUT_SI-37_1117_77717",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-19_1124_144583",
@@ -39950,6 +39978,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -40486,6 +40515,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -40521,7 +40551,6 @@
       }
     ],
     "trainId": "105809",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1124_105809",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -41016,6 +41045,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -41107,8 +41137,7 @@
     "trainId": "77771",
     "prevTripId": "WD_OUT_SI-37_1133_77771",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-06_1142_144262",
@@ -41118,6 +41147,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -41505,6 +41535,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -41596,8 +41627,7 @@
     "trainId": "105694",
     "prevTripId": "WD_OUT_SI-37_1143_105694",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-19_1148_144474",
@@ -42293,6 +42323,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -42342,8 +42373,7 @@
     "trainId": "77719",
     "prevTripId": "WD_OUT_SI-37_1147_77719",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-26_1154_143987",
@@ -42736,6 +42766,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -42956,6 +42987,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -42993,8 +43025,7 @@
     "trainId": "105776",
     "prevTripId": "WD_OUT_SI-37_1154_105776",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_1205_142956",
@@ -43460,6 +43491,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -43551,8 +43583,7 @@
     "trainId": "77773",
     "prevTripId": "WD_OUT_SI-37_1203_77773",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-36_1210_144153",
@@ -43758,6 +43789,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -44029,6 +44061,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -44120,8 +44153,7 @@
     "trainId": "105696",
     "prevTripId": "WD_OUT_SI-37_1213_105696",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-19_1219_144475",
@@ -44537,6 +44569,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -44586,8 +44619,7 @@
     "trainId": "77720",
     "prevTripId": "WD_OUT_SI-37_1217_77720",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-19_1224_144586",
@@ -45150,6 +45182,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -45746,6 +45779,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -45781,7 +45815,6 @@
       }
     ],
     "trainId": "105811",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1224_105811",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -46276,6 +46309,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -46367,8 +46401,7 @@
     "trainId": "77775",
     "prevTripId": "WD_OUT_SI-37_1233_77775",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-06_1242_144271",
@@ -46378,6 +46411,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -46765,6 +46799,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -46856,8 +46891,7 @@
     "trainId": "105697",
     "prevTripId": "WD_OUT_SI-37_1243_105697",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-19_1248_144477",
@@ -47553,6 +47587,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -47602,8 +47637,7 @@
     "trainId": "77722",
     "prevTripId": "WD_OUT_SI-37_1247_77722",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-26_1254_143992",
@@ -47996,6 +48030,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -48216,6 +48251,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -48253,8 +48289,7 @@
     "trainId": "105777",
     "prevTripId": "WD_OUT_SI-37_1254_105777",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_1305_142961",
@@ -48720,6 +48755,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -48811,8 +48847,7 @@
     "trainId": "77777",
     "prevTripId": "WD_OUT_SI-37_1303_77777",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-17_1311_143733",
@@ -48938,6 +48973,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -49289,6 +49325,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -49380,8 +49417,7 @@
     "trainId": "105700",
     "prevTripId": "WD_OUT_SI-37_1313_105700",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-19_1319_144479",
@@ -49797,6 +49833,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -49846,8 +49883,7 @@
     "trainId": "77725",
     "prevTripId": "WD_OUT_SI-37_1317_77725",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-19_1324_144590",
@@ -50410,6 +50446,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -51086,6 +51123,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -51121,7 +51159,6 @@
       }
     ],
     "trainId": "105814",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1324_105814",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -51536,6 +51573,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -51627,8 +51665,7 @@
     "trainId": "77778",
     "prevTripId": "WD_OUT_SI-37_1333_77778",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-06_1342_144279",
@@ -51638,6 +51675,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -52025,6 +52063,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -52114,7 +52153,6 @@
       }
     ],
     "trainId": "105702",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1343_105702",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -52813,6 +52851,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -52862,8 +52901,7 @@
     "trainId": "77727",
     "prevTripId": "WD_OUT_SI-37_1347_77727",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-26_1354_143999",
@@ -53256,6 +53294,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -53476,6 +53515,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -53513,8 +53553,7 @@
     "trainId": "105780",
     "prevTripId": "WD_OUT_SI-37_1354_105780",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_1405_142963",
@@ -53980,6 +54019,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -54071,8 +54111,7 @@
     "trainId": "77781",
     "prevTripId": "WD_OUT_SI-37_1403_77781",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-36_1410_144165",
@@ -54278,6 +54317,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -54549,6 +54589,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -54638,7 +54679,6 @@
       }
     ],
     "trainId": "105704",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1413_105704",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -55057,6 +55097,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -55106,8 +55147,7 @@
     "trainId": "77729",
     "prevTripId": "WD_OUT_SI-37_1417_77729",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-19_1424_144594",
@@ -55670,6 +55710,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -56266,6 +56307,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -56301,7 +56343,6 @@
       }
     ],
     "trainId": "105816",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1424_105816",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -56796,6 +56837,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -56887,8 +56929,7 @@
     "trainId": "77783",
     "prevTripId": "WD_OUT_SI-37_1433_77783",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-06_1442_144287",
@@ -56898,6 +56939,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -57285,6 +57327,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -57376,8 +57419,7 @@
     "trainId": "105706",
     "prevTripId": "WD_OUT_SI-37_1443_105706",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-19_1448_144485",
@@ -58073,6 +58115,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -58122,8 +58165,7 @@
     "trainId": "77730",
     "prevTripId": "WD_OUT_SI-37_1447_77730",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-26_1454_144007",
@@ -58516,6 +58558,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -58736,6 +58779,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -58773,8 +58817,7 @@
     "trainId": "105782",
     "prevTripId": "WD_OUT_SI-37_1454_105782",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_1505_142965",
@@ -59240,6 +59283,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -59331,8 +59375,7 @@
     "trainId": "77785",
     "prevTripId": "WD_OUT_SI-37_1503_77785",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-17_1511_143739",
@@ -59458,6 +59501,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -59809,6 +59853,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -59900,8 +59945,7 @@
     "trainId": "105708",
     "prevTripId": "WD_OUT_SI-37_1513_105708",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-19_1519_144487",
@@ -60317,6 +60361,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -60366,8 +60411,7 @@
     "trainId": "77731",
     "prevTripId": "WD_OUT_SI-37_1517_77731",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-26_1524_144009",
@@ -60930,6 +60974,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -61606,6 +61651,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -61641,7 +61687,6 @@
       }
     ],
     "trainId": "105817",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1524_105817",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -62110,6 +62155,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -62201,8 +62247,7 @@
     "trainId": "77786",
     "prevTripId": "WD_OUT_SI-37_1533_77786",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_OUT_SI-26_1541_143439",
@@ -62292,6 +62337,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -62739,6 +62785,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -62828,7 +62875,6 @@
       }
     ],
     "trainId": "105710",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1543_105710",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -63199,6 +63245,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -63248,8 +63295,7 @@
     "trainId": "77732",
     "prevTripId": "WD_OUT_SI-37_1547_77732",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-26_1554_144013",
@@ -63531,6 +63577,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -64106,6 +64153,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -64141,7 +64189,6 @@
       }
     ],
     "trainId": "105818",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1554_105818",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -64690,6 +64737,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -64856,6 +64904,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -64935,8 +64984,7 @@
     "trainId": "77751",
     "prevTripId": "WD_OUT_SI-37_1603_77751",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "所沢",
-    "customOrigin": "新木場"
+    "customDestination": "所沢"
   },
   {
     "tripId": "WD_OUT_SI-26_1613_143441",
@@ -65247,6 +65295,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -65338,8 +65387,7 @@
     "trainId": "105711",
     "prevTripId": "WD_OUT_SI-37_1613_105711",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-19_1619_144491",
@@ -66075,6 +66123,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -66112,8 +66161,7 @@
     "trainId": "77694",
     "prevTripId": "WD_OUT_SI-37_1617_77694",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_INB_SI-26_1626_144016",
@@ -66344,6 +66392,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -66684,6 +66733,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -66731,7 +66781,6 @@
       }
     ],
     "trainId": "105820",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1624_105820",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "保谷"
@@ -67894,6 +67943,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -67985,8 +68035,7 @@
     "trainId": "77789",
     "prevTripId": "WD_OUT_SI-37_1634_77789",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-06_1642_144304",
@@ -67996,6 +68045,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -68347,6 +68397,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -68436,7 +68487,6 @@
       }
     ],
     "trainId": "105714",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1643_105714",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -68968,6 +69018,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -69047,8 +69098,7 @@
     "trainId": "77753",
     "prevTripId": "WD_OUT_SI-37_1647_77753",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "所沢",
-    "customOrigin": "新木場"
+    "customDestination": "所沢"
   },
   {
     "tripId": "WD_INB_SI-12_1655_144551",
@@ -69118,6 +69168,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -69752,6 +69803,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -69787,7 +69839,6 @@
       }
     ],
     "trainId": "105819",
-    "customOrigin": "湘南台",
     "prevTripId": "WD_OUT_SI-37_1655_105819",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -70470,6 +70521,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -70561,8 +70613,7 @@
     "trainId": "77790",
     "prevTripId": "WD_OUT_SI-37_1704_77790",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-36_1710_144178",
@@ -70703,6 +70754,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -71513,6 +71565,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -71590,7 +71643,6 @@
       }
     ],
     "trainId": "105728",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1713_105728",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "所沢"
@@ -71705,6 +71757,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -71742,8 +71795,7 @@
     "trainId": "105746",
     "prevTripId": "WD_OUT_SI-37_1718_105746",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_INB_SI-36_1724_144105",
@@ -72896,6 +72948,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -73136,6 +73189,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -73227,8 +73281,7 @@
     "trainId": "77791",
     "prevTripId": "WD_OUT_SI-37_1724_77791",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_OUT_SI-01_1735_142917",
@@ -74042,6 +74095,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -74079,8 +74133,7 @@
     "trainId": "77698",
     "prevTripId": "WD_OUT_SI-37_1733_77698",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_1742_143576",
@@ -74779,6 +74832,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -74915,6 +74969,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "武蔵小杉",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -74982,8 +75037,7 @@
     "trainId": "105685",
     "prevTripId": "WD_OUT_SI-37_1743_105685",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "元町・中華街"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "WD_OUT_SI-01_1755_143061",
@@ -75492,6 +75546,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -75529,8 +75584,7 @@
     "trainId": "77700",
     "prevTripId": "WD_OUT_SI-37_1750_77700",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_INB_SI-17_1758_144442",
@@ -75848,6 +75902,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -75979,7 +76034,6 @@
       }
     ],
     "trainId": "105738",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1756_105738",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "飯能"
@@ -76108,6 +76162,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -77027,6 +77082,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -77076,8 +77132,7 @@
     "trainId": "105791",
     "prevTripId": "WD_OUT_SI-37_1806_105791",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "元町・中華街"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_OUT_SI-01_1815_143063",
@@ -77903,6 +77958,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -77970,8 +78026,7 @@
     "trainId": "77742",
     "prevTripId": "WD_OUT_SI-37_1815_77742",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "新木場"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "WD_INB_SI-06_1822_144321",
@@ -77981,6 +78036,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -78467,6 +78523,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -78504,8 +78561,7 @@
     "trainId": "77703",
     "prevTripId": "WD_OUT_SI-37_1821_77703",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_INB_SI-26_1827_144020",
@@ -79142,6 +79198,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -79273,7 +79330,6 @@
       }
     ],
     "trainId": "105739",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1825_105739",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "飯能"
@@ -79402,6 +79458,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -80247,6 +80304,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -80296,8 +80354,7 @@
     "trainId": "105792",
     "prevTripId": "WD_OUT_SI-37_1836_105792",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "元町・中華街"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-17_1844_143717",
@@ -81239,6 +81296,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -81306,8 +81364,7 @@
     "trainId": "77743",
     "prevTripId": "WD_OUT_SI-37_1844_77743",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "新木場"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "WD_INB_SI-06_1852_144325",
@@ -81317,6 +81374,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -81893,6 +81951,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -81930,8 +81989,7 @@
     "trainId": "77704",
     "prevTripId": "WD_OUT_SI-37_1851_77704",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_1858_143586",
@@ -82290,6 +82348,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -82369,8 +82428,7 @@
     "trainId": "105733",
     "prevTripId": "WD_OUT_SI-37_1856_105733",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "所沢",
-    "customOrigin": "元町・中華街"
+    "customDestination": "所沢"
   },
   {
     "tripId": "WD_INB_SI-26_1901_144503",
@@ -82640,6 +82698,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -83315,6 +83374,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -83364,8 +83424,7 @@
     "trainId": "77734",
     "prevTripId": "WD_OUT_SI-37_1906_77734",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_INB_SI-17_1914_143719",
@@ -84035,6 +84094,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -84100,7 +84160,6 @@
       }
     ],
     "trainId": "105756",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1915_105756",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "清瀬"
@@ -84113,6 +84172,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -84865,6 +84925,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -84902,8 +84963,7 @@
     "trainId": "77706",
     "prevTripId": "WD_OUT_SI-37_1921_77706",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_1928_143590",
@@ -85194,6 +85254,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -85325,7 +85386,6 @@
       }
     ],
     "trainId": "105740",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1925_105740",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "飯能"
@@ -85454,6 +85514,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -86543,6 +86604,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -86592,8 +86654,7 @@
     "trainId": "77735",
     "prevTripId": "WD_OUT_SI-37_1936_77735",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_OUT_SI-01_1945_143069",
@@ -86891,6 +86952,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -87335,6 +87397,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -87400,7 +87463,6 @@
       }
     ],
     "trainId": "105732",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1944_105732",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "清瀬"
@@ -87855,6 +87917,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -87892,8 +87955,7 @@
     "trainId": "105751",
     "prevTripId": "WD_OUT_SI-37_1951_105751",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_1958_143594",
@@ -88342,6 +88404,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -88431,7 +88494,6 @@
       }
     ],
     "trainId": "105735",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_1956_105735",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -88774,6 +88836,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -89375,6 +89438,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -89442,8 +89506,7 @@
     "trainId": "77745",
     "prevTripId": "WD_OUT_SI-37_2006_77745",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "新木場"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "WD_INB_SI-17_2014_143721",
@@ -89857,6 +89920,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -90163,6 +90227,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -90228,7 +90293,6 @@
       }
     ],
     "trainId": "105757",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_2015_105757",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "清瀬"
@@ -90955,6 +91019,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -90992,8 +91057,7 @@
     "trainId": "77707",
     "prevTripId": "WD_OUT_SI-37_2020_77707",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_2028_143598",
@@ -91284,6 +91348,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -91415,7 +91480,6 @@
       }
     ],
     "trainId": "105741",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_2026_105741",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "飯能"
@@ -91556,6 +91620,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -92586,6 +92651,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -92653,8 +92719,7 @@
     "trainId": "77746",
     "prevTripId": "WD_OUT_SI-37_2036_77746",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "新木場"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "WD_OUT_SI-01_2044_143600",
@@ -92875,6 +92940,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -93259,6 +93325,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -93336,7 +93403,6 @@
       }
     ],
     "trainId": "105760",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_2044_105760",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "所沢"
@@ -93839,6 +93905,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -93876,8 +93943,7 @@
     "trainId": "77709",
     "prevTripId": "WD_OUT_SI-37_2050_77709",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-01_2058_143602",
@@ -94108,6 +94174,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -94197,7 +94264,6 @@
       }
     ],
     "trainId": "105736",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_2056_105736",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -94508,6 +94574,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -95195,6 +95262,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -95232,8 +95300,7 @@
     "trainId": "77711",
     "prevTripId": "WD_OUT_SI-37_2106_77711",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_INB_SI-26_2114_143965",
@@ -95413,6 +95480,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -95799,6 +95867,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -95864,7 +95933,6 @@
       }
     ],
     "trainId": "105758",
-    "customOrigin": "横浜",
     "prevTripId": "WD_OUT_SI-37_2115_105758",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "清瀬"
@@ -96856,6 +96924,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -96992,6 +97061,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -97083,8 +97153,7 @@
     "trainId": "77793",
     "prevTripId": "WD_OUT_SI-37_2125_77793",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_OUT_SI-01_2133_143075",
@@ -97714,6 +97783,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -98232,6 +98302,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -98279,7 +98350,6 @@
       }
     ],
     "trainId": "105743",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_2136_105743",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "保谷"
@@ -98539,7 +98609,7 @@
     "direction": "inbound",
     "originStationId": "SI-15",
     "destinationStationId": "SI-06",
-    "customDestination": "湘南台",
+    "customDestination": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -98617,6 +98687,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -98666,8 +98737,7 @@
     "trainId": "77737",
     "prevTripId": "WD_OUT_SI-37_2144_77737",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "WD_OUT_SI-01_2152_143282",
@@ -98847,6 +98917,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -99294,6 +99365,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -99385,8 +99457,7 @@
     "trainId": "105808",
     "prevTripId": "WD_OUT_SI-37_2151_105808",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_OUT_SI-01_2200_143306",
@@ -99938,6 +100009,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -100005,8 +100077,7 @@
     "trainId": "77747",
     "prevTripId": "WD_OUT_SI-37_2201_77747",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "新木場"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "WD_OUT_SI-01_2210_142976",
@@ -100132,6 +100203,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -100751,6 +100823,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -100840,7 +100913,6 @@
       }
     ],
     "trainId": "105767",
-    "customOrigin": "元町・中華街",
     "prevTripId": "WD_OUT_SI-37_2213_105767",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -101309,6 +101381,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -101359,7 +101432,7 @@
     "direction": "inbound",
     "originStationId": "SI-17",
     "destinationStationId": "SI-06",
-    "customDestination": "湘南台",
+    "customDestination": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -101509,6 +101582,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -101576,8 +101650,7 @@
     "trainId": "77748",
     "prevTripId": "WD_OUT_SI-37_2224_77748",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "新木場"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "WD_OUT_SI-01_2230_143308",
@@ -102440,6 +102513,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -102692,6 +102766,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -102729,8 +102804,7 @@
     "trainId": "105786",
     "prevTripId": "WD_OUT_SI-37_2235_105786",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "WD_OUT_SI-26_2246_143466",
@@ -103246,6 +103320,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -103337,8 +103412,7 @@
     "trainId": "77805",
     "prevTripId": "WD_OUT_SI-37_2245_77805",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-19_2254_143790",
@@ -103527,6 +103601,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -103655,7 +103730,7 @@
     "direction": "inbound",
     "originStationId": "SI-19",
     "destinationStationId": "SI-06",
-    "customDestination": "行先不明",
+    "customDestination": "菊名",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -103927,6 +104002,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -104060,8 +104136,7 @@
     "trainId": "77810",
     "prevTripId": "WD_OUT_SI-37_2252_77810",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "飯能",
-    "customOrigin": "新木場"
+    "customDestination": "飯能"
   },
   {
     "tripId": "WD_INB_SI-10_2301_144541",
@@ -104071,7 +104146,7 @@
     "direction": "inbound",
     "originStationId": "SI-10",
     "destinationStationId": "SI-06",
-    "customDestination": "行先不明",
+    "customDestination": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -104715,7 +104790,7 @@
     "direction": "inbound",
     "originStationId": "SI-19",
     "destinationStationId": "SI-06",
-    "customDestination": "行先不明",
+    "customDestination": "元住吉",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -104817,6 +104892,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -104908,8 +104984,7 @@
     "trainId": "77796",
     "prevTripId": "WD_OUT_SI-37_2303_77796",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_OUT_SI-01_2312_143289",
@@ -105422,6 +105497,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -105693,6 +105769,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -105784,8 +105861,7 @@
     "trainId": "105769",
     "prevTripId": "WD_OUT_SI-37_2316_105769",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_INB_SI-17_2329_143751",
@@ -106167,6 +106243,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -106217,6 +106294,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -106284,8 +106362,7 @@
     "trainId": "77749",
     "prevTripId": "WD_OUT_SI-37_2328_77749",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "新木場"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "WD_OUT_SI-01_2339_143140",
@@ -106551,6 +106628,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -106642,8 +106720,7 @@
     "trainId": "77811",
     "prevTripId": "WD_OUT_SI-37_2339_77811",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "WD_OUT_SI-26_2344_143346",
@@ -106703,6 +106780,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -107009,6 +107087,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -107046,8 +107125,7 @@
     "trainId": "105787",
     "prevTripId": "WD_OUT_SI-37_2350_105787",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_OUT_SI-01_0003_142936",
@@ -107143,6 +107221,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -107234,8 +107313,7 @@
     "trainId": "77797",
     "prevTripId": "HD_OUT_SI-37_0001_77797",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_OUT_SI-01_0014_143079",
@@ -107459,6 +107537,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "小竹向原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -107508,8 +107587,7 @@
     "trainId": "144366",
     "prevTripId": "HD_OUT_SI-37_0013_144366",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "小竹向原"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_INB_SI-12_0425_143656",
@@ -109894,6 +109972,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -111029,6 +111108,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -111079,6 +111159,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "小竹向原",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -111212,8 +111293,7 @@
     "trainId": "144370",
     "prevTripId": "HD_OUT_SI-37_0548_144370",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "飯能",
-    "customOrigin": "小竹向原"
+    "customDestination": "飯能"
   },
   {
     "tripId": "HD_INB_SI-19_0558_143760",
@@ -112132,6 +112212,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -112823,6 +112904,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -112914,8 +112996,7 @@
     "trainId": "77757",
     "prevTripId": "HD_OUT_SI-37_0615_77757",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_OUT_SI-01_0624_143476",
@@ -112976,6 +113057,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -114181,6 +114263,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "菊名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -114272,8 +114355,7 @@
     "trainId": "105688",
     "prevTripId": "HD_OUT_SI-37_0628_105688",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "菊名"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-06_0640_144217",
@@ -114283,6 +114365,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -115189,6 +115272,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -115226,8 +115310,7 @@
     "trainId": "105771",
     "prevTripId": "HD_OUT_SI-37_0641_105771",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-06_0649_144218",
@@ -115237,6 +115320,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -117080,6 +117164,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -117147,8 +117232,7 @@
     "trainId": "105794",
     "prevTripId": "HD_OUT_SI-37_0658_105794",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "元町・中華街"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "HD_INB_SI-06_0706_144220",
@@ -117158,6 +117242,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -117599,6 +117684,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -117730,7 +117816,6 @@
       }
     ],
     "trainId": "105724",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_0703_105724",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "飯能"
@@ -118169,6 +118254,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -118517,6 +118603,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -118554,8 +118641,7 @@
     "trainId": "77684",
     "prevTripId": "HD_OUT_SI-37_0714_77684",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-36_0722_144127",
@@ -119428,6 +119514,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -119517,7 +119604,6 @@
       }
     ],
     "trainId": "105729",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_0724_105729",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -119954,6 +120040,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -120302,6 +120389,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -120381,8 +120469,7 @@
     "trainId": "77750",
     "prevTripId": "HD_OUT_SI-37_0734_77750",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "所沢",
-    "customOrigin": "新木場"
+    "customDestination": "所沢"
   },
   {
     "tripId": "HD_INB_SI-26_0742_143852",
@@ -120991,6 +121078,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -121080,7 +121168,6 @@
       }
     ],
     "trainId": "105722",
-    "customOrigin": "武蔵小杉",
     "prevTripId": "HD_OUT_SI-37_0744_105722",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -121647,6 +121734,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -121978,6 +122066,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "菊名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -122067,7 +122156,6 @@
       }
     ],
     "trainId": "105687",
-    "customOrigin": "菊名",
     "prevTripId": "HD_OUT_SI-37_0751_105687",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -122670,6 +122758,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -122720,6 +122809,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -122785,7 +122875,6 @@
       }
     ],
     "trainId": "105718",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_0802_105718",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "清瀬"
@@ -123503,6 +123592,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -123944,6 +124034,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -124023,8 +124114,7 @@
     "trainId": "105802",
     "prevTripId": "HD_OUT_SI-37_0814_105802",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "所沢",
-    "customOrigin": "武蔵小杉"
+    "customDestination": "所沢"
   },
   {
     "tripId": "HD_INB_SI-12_0824_143667",
@@ -125057,6 +125147,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -125148,8 +125239,7 @@
     "trainId": "105803",
     "prevTripId": "HD_OUT_SI-37_0825_105803",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-06_0833_144233",
@@ -125159,6 +125249,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -125773,6 +125864,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -125864,8 +125956,7 @@
     "trainId": "77761",
     "prevTripId": "HD_OUT_SI-37_0834_77761",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-26_0840_143858",
@@ -126301,6 +126392,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -126402,6 +126494,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -126451,8 +126544,7 @@
     "trainId": "105788",
     "prevTripId": "HD_OUT_SI-37_0841_105788",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "元町・中華街"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_OUT_SI-01_0850_143190",
@@ -127239,9 +127331,9 @@
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SI-26",
-    "destinationStationId": "CR-31",
+    "destinationStationId": "SI-35",
     "customDestination": "長瀞",
-    "cars": 4,
+    "cars": 10,
     "isHoliday": true,
     "stops": [
       {
@@ -127303,27 +127395,9 @@
         "arrivalTime": "09:40:00",
         "departureTime": "09:50:00",
         "isPassing": false
-      },
-      {
-        "stationId": "CR-31",
-        "arrivalTime": "09:54:00",
-        "departureTime": "09:54:00",
-        "isPassing": false
       }
     ],
-    "trainId": "145187",
-    "throughTripId": "HD_INB_CR-31_0956_145187",
-    "throughLineId": "chichibu",
-    "coupling": {
-      "coupledTripId": "HD_OUT_SI-26_0856_145186",
-      "coupledTrainNumber": "6001レ",
-      "coupledCars": 4,
-      "fromStationId": "SI-26",
-      "toStationId": "SI-35",
-      "role": "SECONDARY",
-      "coupledDestination": "三峰口"
-    },
-    "customOrigin": "飯能"
+    "trainId": "145187"
   },
   {
     "tripId": "HD_OUT_SI-26_0856_145186",
@@ -127332,9 +127406,9 @@
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SI-26",
-    "destinationStationId": "CR-32",
+    "destinationStationId": "SI-36",
     "customDestination": "三峰口",
-    "cars": 4,
+    "cars": 10,
     "isHoliday": true,
     "stops": [
       {
@@ -127402,27 +127476,9 @@
         "arrivalTime": "09:48:00",
         "departureTime": "09:57:00",
         "isPassing": false
-      },
-      {
-        "stationId": "CR-32",
-        "arrivalTime": "10:00:00",
-        "departureTime": "10:00:00",
-        "isPassing": false
       }
     ],
-    "trainId": "145186",
-    "throughTripId": "HD_OUT_CR-32_1001_145186",
-    "throughLineId": "chichibu",
-    "coupling": {
-      "coupledTripId": "HD_OUT_SI-26_0856_145187",
-      "coupledTrainNumber": "6001レ",
-      "coupledCars": 4,
-      "fromStationId": "SI-26",
-      "toStationId": "SI-35",
-      "role": "PRIMARY",
-      "coupledDestination": "長瀞"
-    },
-    "customOrigin": "飯能"
+    "trainId": "145186"
   },
   {
     "tripId": "HD_INB_SI-06_0857_144238",
@@ -127432,6 +127488,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -127482,6 +127539,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -127519,8 +127577,7 @@
     "trainId": "77688",
     "prevTripId": "HD_OUT_SI-37_0848_77688",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_OUT_SI-01_0900_143364",
@@ -127981,6 +128038,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -128048,8 +128106,7 @@
     "trainId": "77739",
     "prevTripId": "HD_OUT_SI-37_0854_77739",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "新木場"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "HD_OUT_SI-01_0903_143192",
@@ -128345,6 +128402,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -128434,7 +128492,6 @@
       }
     ],
     "trainId": "105763",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_0905_105763",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -128985,6 +129042,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -129086,6 +129144,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -129175,7 +129234,6 @@
       }
     ],
     "trainId": "105689",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_0914_105689",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -129860,6 +129918,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -129993,8 +130052,7 @@
     "trainId": "77806",
     "prevTripId": "HD_OUT_SI-37_0917_77806",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "飯能",
-    "customOrigin": "新木場"
+    "customDestination": "飯能"
   },
   {
     "tripId": "HD_INB_SI-10_0923_144379",
@@ -130770,6 +130828,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -130837,8 +130896,7 @@
     "trainId": "105797",
     "prevTripId": "HD_OUT_SI-37_0925_105797",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "元町・中華街"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "HD_OUT_SI-01_0932_143056",
@@ -131107,6 +131165,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -131922,6 +131981,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -131959,8 +132019,7 @@
     "trainId": "77689",
     "prevTripId": "HD_OUT_SI-37_0935_77689",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-12_0947_144549",
@@ -132030,6 +132089,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -132080,6 +132140,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "武蔵小杉",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -132171,8 +132232,7 @@
     "trainId": "105686",
     "prevTripId": "HD_OUT_SI-37_0943_105686",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_OUT_SI-01_0950_143197",
@@ -132403,6 +132463,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -132494,8 +132555,7 @@
     "trainId": "77763",
     "prevTripId": "HD_OUT_SI-37_0946_77763",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-26_0954_143976",
@@ -133027,6 +133087,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -133500,6 +133561,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -133549,8 +133611,7 @@
     "trainId": "105790",
     "prevTripId": "HD_OUT_SI-37_0955_105790",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "元町・中華街"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_OUT_SI-01_1004_143200",
@@ -133730,6 +133791,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -134108,6 +134170,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -134199,8 +134262,7 @@
     "trainId": "77764",
     "prevTripId": "HD_OUT_SI-37_1002_77764",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_OUT_SI-01_1010_143029",
@@ -134558,6 +134620,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -134595,8 +134658,7 @@
     "trainId": "77691",
     "prevTripId": "HD_OUT_SI-37_1006_77691",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-26_1014_143867",
@@ -134875,6 +134937,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -135006,7 +135069,6 @@
       }
     ],
     "trainId": "105716",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1013_105716",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "飯能"
@@ -135019,6 +135081,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -135341,6 +135404,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -135474,8 +135538,7 @@
     "trainId": "77807",
     "prevTripId": "HD_OUT_SI-37_1018_77807",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "飯能",
-    "customOrigin": "新木場"
+    "customDestination": "飯能"
   },
   {
     "tripId": "HD_OUT_SI-01_1024_142905",
@@ -136073,6 +136136,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -137166,6 +137230,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -137215,8 +137280,7 @@
     "trainId": "77714",
     "prevTripId": "HD_OUT_SI-37_1032_77714",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_OUT_SI-01_1040_143058",
@@ -137498,6 +137562,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -137769,6 +137834,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -137806,8 +137872,7 @@
     "trainId": "77692",
     "prevTripId": "HD_OUT_SI-37_1037_77692",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-12_1044_144550",
@@ -137979,6 +138044,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -138110,7 +138176,6 @@
       }
     ],
     "trainId": "105717",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1043_105717",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "飯能"
@@ -138463,6 +138528,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -138554,8 +138620,7 @@
     "trainId": "77766",
     "prevTripId": "HD_OUT_SI-37_1047_77766",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-26_1054_143980",
@@ -138795,6 +138860,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -139066,6 +139132,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -139103,8 +139170,7 @@
     "trainId": "77693",
     "prevTripId": "HD_OUT_SI-37_1054_77693",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-12_1104_143672",
@@ -139880,6 +139946,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -139971,8 +140038,7 @@
     "trainId": "77769",
     "prevTripId": "HD_OUT_SI-37_1103_77769",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-06_1112_144259",
@@ -139982,6 +140048,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -140449,6 +140516,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -140538,7 +140606,6 @@
       }
     ],
     "trainId": "105692",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1113_105692",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -140957,6 +141024,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -141006,8 +141074,7 @@
     "trainId": "77716",
     "prevTripId": "HD_OUT_SI-37_1117_77716",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_INB_SI-26_1124_144505",
@@ -141442,6 +141509,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -141978,6 +142046,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -142013,7 +142082,6 @@
       }
     ],
     "trainId": "105810",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1124_105810",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -142840,6 +142908,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -142931,8 +143000,7 @@
     "trainId": "77770",
     "prevTripId": "HD_OUT_SI-37_1133_77770",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-06_1142_144263",
@@ -142942,6 +143010,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -143421,6 +143490,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -143510,7 +143580,6 @@
       }
     ],
     "trainId": "105693",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1143_105693",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -144027,6 +144096,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -144076,8 +144146,7 @@
     "trainId": "77718",
     "prevTripId": "HD_OUT_SI-37_1147_77718",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_INB_SI-26_1154_143986",
@@ -144368,6 +144437,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -144588,6 +144658,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -144625,8 +144696,7 @@
     "trainId": "105775",
     "prevTripId": "HD_OUT_SI-37_1154_105775",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_OUT_SI-01_1205_142957",
@@ -145172,6 +145242,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -145263,8 +145334,7 @@
     "trainId": "77772",
     "prevTripId": "HD_OUT_SI-37_1203_77772",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-17_1211_143728",
@@ -145390,6 +145460,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -145741,6 +145812,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -145830,7 +145902,6 @@
       }
     ],
     "trainId": "105695",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1213_105695",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -146249,6 +146320,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -146298,8 +146370,7 @@
     "trainId": "77721",
     "prevTripId": "HD_OUT_SI-37_1218_77721",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_INB_SI-19_1224_144585",
@@ -146862,6 +146933,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -147458,6 +147530,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -147493,7 +147566,6 @@
       }
     ],
     "trainId": "105812",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1224_105812",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -147988,6 +148060,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -148079,8 +148152,7 @@
     "trainId": "77774",
     "prevTripId": "HD_OUT_SI-37_1233_77774",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-06_1242_144270",
@@ -148090,6 +148162,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -148787,6 +148860,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -148876,7 +148950,6 @@
       }
     ],
     "trainId": "105698",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1243_105698",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -149277,6 +149350,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -149326,8 +149400,7 @@
     "trainId": "77723",
     "prevTripId": "HD_OUT_SI-37_1247_77723",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_INB_SI-26_1254_143993",
@@ -149720,6 +149793,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -149940,6 +150014,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -149977,8 +150052,7 @@
     "trainId": "105778",
     "prevTripId": "HD_OUT_SI-37_1254_105778",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_OUT_SI-01_1305_142960",
@@ -150524,6 +150598,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -150615,8 +150690,7 @@
     "trainId": "77776",
     "prevTripId": "HD_OUT_SI-37_1303_77776",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-17_1311_143732",
@@ -150742,6 +150816,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -151093,6 +151168,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -151182,7 +151258,6 @@
       }
     ],
     "trainId": "105699",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1313_105699",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -151601,6 +151676,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -151650,8 +151726,7 @@
     "trainId": "77724",
     "prevTripId": "HD_OUT_SI-37_1317_77724",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_INB_SI-19_1324_144589",
@@ -152214,6 +152289,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -152810,6 +152886,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -152845,7 +152922,6 @@
       }
     ],
     "trainId": "105813",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1324_105813",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -153352,6 +153428,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -153443,8 +153520,7 @@
     "trainId": "77779",
     "prevTripId": "HD_OUT_SI-37_1333_77779",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-06_1342_144278",
@@ -153454,6 +153530,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -153921,6 +153998,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -154012,8 +154090,7 @@
     "trainId": "105701",
     "prevTripId": "HD_OUT_SI-37_1343_105701",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-19_1348_144482",
@@ -154629,6 +154706,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -154678,8 +154756,7 @@
     "trainId": "77726",
     "prevTripId": "HD_OUT_SI-37_1347_77726",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_INB_SI-26_1354_144000",
@@ -155072,6 +155149,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -155292,6 +155370,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -155329,8 +155408,7 @@
     "trainId": "105779",
     "prevTripId": "HD_OUT_SI-37_1354_105779",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "湘南台"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_OUT_SI-01_1405_142963",
@@ -155876,6 +155954,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -155967,8 +156046,7 @@
     "trainId": "77780",
     "prevTripId": "HD_OUT_SI-37_1403_77780",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-06_1412_144283",
@@ -155978,6 +156056,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -156445,6 +156524,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -156536,8 +156616,7 @@
     "trainId": "105703",
     "prevTripId": "HD_OUT_SI-37_1413_105703",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-19_1419_144484",
@@ -156953,6 +157032,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -157002,8 +157082,7 @@
     "trainId": "77728",
     "prevTripId": "HD_OUT_SI-37_1417_77728",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_INB_SI-26_1424_144002",
@@ -157566,6 +157645,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -158162,6 +158242,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -158197,7 +158278,6 @@
       }
     ],
     "trainId": "105815",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1424_105815",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -158886,6 +158966,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -158977,8 +159058,7 @@
     "trainId": "77782",
     "prevTripId": "HD_OUT_SI-37_1433_77782",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-06_1442_144286",
@@ -158988,6 +159068,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -159455,6 +159536,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -159544,7 +159626,6 @@
       }
     ],
     "trainId": "105705",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1443_105705",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -160277,6 +160358,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -160344,8 +160426,7 @@
     "trainId": "77740",
     "prevTripId": "HD_OUT_SI-37_1447_77740",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "新木場"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "HD_INB_SI-26_1454_144006",
@@ -160761,6 +160842,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -160811,6 +160893,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -160848,8 +160931,7 @@
     "trainId": "105781",
     "prevTripId": "HD_OUT_SI-37_1454_105781",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "湘南台"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_OUT_SI-01_1500_143293",
@@ -161622,6 +161704,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -161713,8 +161796,7 @@
     "trainId": "77784",
     "prevTripId": "HD_OUT_SI-37_1503_77784",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-36_1510_144169",
@@ -161920,6 +162002,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -162336,6 +162419,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -162425,7 +162509,6 @@
       }
     ],
     "trainId": "105707",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1513_105707",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -162839,6 +162922,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -162888,8 +162972,7 @@
     "trainId": "77799",
     "prevTripId": "HD_OUT_SI-37_1517_77799",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_INB_SI-26_1523_144008",
@@ -163619,6 +163702,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -163899,6 +163983,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -163936,8 +164021,7 @@
     "trainId": "105783",
     "prevTripId": "HD_OUT_SI-37_1524_105783",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_OUT_SI-01_1532_143143",
@@ -164656,6 +164740,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -164917,6 +165002,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -165008,8 +165094,7 @@
     "trainId": "77787",
     "prevTripId": "HD_OUT_SI-37_1533_77787",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-26_1544_143907",
@@ -165189,6 +165274,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -165280,8 +165366,7 @@
     "trainId": "105709",
     "prevTripId": "HD_OUT_SI-37_1543_105709",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-19_1549_144490",
@@ -165727,6 +165812,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -165794,8 +165880,7 @@
     "trainId": "77741",
     "prevTripId": "HD_OUT_SI-37_1547_77741",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "新木場"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "HD_INB_SI-12_1553_144417",
@@ -166188,6 +166273,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -166238,6 +166324,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -166275,8 +166362,7 @@
     "trainId": "105784",
     "prevTripId": "HD_OUT_SI-37_1554_105784",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_OUT_SI-01_1600_143295",
@@ -167103,6 +167189,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -167153,6 +167240,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -167244,8 +167332,7 @@
     "trainId": "77788",
     "prevTripId": "HD_OUT_SI-37_1603_77788",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_OUT_SI-01_1611_142944",
@@ -167934,6 +168021,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -168011,7 +168099,6 @@
       }
     ],
     "trainId": "105727",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1613_105727",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "所沢"
@@ -168921,7 +169008,7 @@
     "direction": "inbound",
     "originStationId": "SI-10",
     "destinationStationId": "SI-06",
-    "customDestination": "湘南台",
+    "customDestination": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -168969,6 +169056,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -169019,6 +169107,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -169068,8 +169157,7 @@
     "trainId": "77733",
     "prevTripId": "HD_OUT_SI-37_1617_77733",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_OUT_SI-01_1630_143377",
@@ -169309,6 +169397,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -169346,8 +169435,7 @@
     "trainId": "105785",
     "prevTripId": "HD_OUT_SI-37_1624_105785",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "元町・中華街"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_OUT_SI-01_1632_143160",
@@ -170254,6 +170342,7 @@
     "direction": "inbound",
     "originStationId": "SI-18",
     "destinationStationId": "SI-01",
+    "customOrigin": "西武球場前",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -170492,6 +170581,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -170542,6 +170632,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -170621,8 +170712,7 @@
     "trainId": "77752",
     "prevTripId": "HD_OUT_SI-37_1633_77752",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "所沢",
-    "customOrigin": "新木場"
+    "customDestination": "所沢"
   },
   {
     "tripId": "HD_INB_SI-26_1643_143912",
@@ -170802,6 +170892,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -170891,7 +170982,6 @@
       }
     ],
     "trainId": "105713",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1643_105713",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -171750,6 +171840,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -171787,8 +171878,7 @@
     "trainId": "77695",
     "prevTripId": "HD_OUT_SI-37_1646_77695",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-12_1656_144419",
@@ -171858,6 +171948,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -172078,6 +172169,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -172145,8 +172237,7 @@
     "trainId": "105798",
     "prevTripId": "HD_OUT_SI-37_1654_105798",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "元町・中華街"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "HD_INB_SI-36_1700_144177",
@@ -172534,6 +172625,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -172721,6 +172813,7 @@
     "direction": "inbound",
     "originStationId": "SI-18",
     "destinationStationId": "SI-01",
+    "customOrigin": "西武球場前",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -173117,6 +173210,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -173167,6 +173261,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -173204,8 +173299,7 @@
     "trainId": "77696",
     "prevTripId": "HD_OUT_SI-37_1707_77696",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-26_1715_143916",
@@ -173436,6 +173530,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -173525,7 +173620,6 @@
       }
     ],
     "trainId": "105723",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1713_105723",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -174517,6 +174611,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -174554,8 +174649,7 @@
     "trainId": "77697",
     "prevTripId": "HD_OUT_SI-37_1716_77697",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-06_1727_144314",
@@ -174565,6 +174659,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -174845,6 +174940,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -174936,8 +175032,7 @@
     "trainId": "105805",
     "prevTripId": "HD_OUT_SI-37_1724_105805",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-10_1731_144506",
@@ -175871,7 +175966,7 @@
     "direction": "inbound",
     "originStationId": "SI-15",
     "destinationStationId": "SI-06",
-    "customDestination": "海老名",
+    "customDestination": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -176119,6 +176214,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -176169,6 +176265,7 @@
     "direction": "inbound",
     "originStationId": "SI-18",
     "destinationStationId": "SI-01",
+    "customOrigin": "西武球場前",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -176565,6 +176662,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -176878,6 +176976,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -176955,7 +177054,6 @@
       }
     ],
     "trainId": "105720",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1744_105720",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "所沢"
@@ -177520,6 +177618,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -177740,6 +177839,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -177777,8 +177877,7 @@
     "trainId": "77701",
     "prevTripId": "HD_OUT_SI-37_1753_77701",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-26_1800_143922",
@@ -178166,6 +178265,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -178297,7 +178397,6 @@
       }
     ],
     "trainId": "105822",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1757_105822",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "飯能"
@@ -178844,6 +178943,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -178894,6 +178994,7 @@
     "direction": "inbound",
     "originStationId": "SI-18",
     "destinationStationId": "SI-01",
+    "customOrigin": "西武球場前",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -179144,6 +179245,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -179179,7 +179281,6 @@
       }
     ],
     "trainId": "105747",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1805_105747",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -179685,6 +179786,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -179762,7 +179864,6 @@
       }
     ],
     "trainId": "105721",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1815_105721",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "所沢"
@@ -180330,6 +180431,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -180956,6 +181058,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -180993,8 +181096,7 @@
     "trainId": "77702",
     "prevTripId": "HD_OUT_SI-37_1820_77702",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_OUT_SI-06_1832_105824",
@@ -181004,6 +181106,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -181135,7 +181238,6 @@
       }
     ],
     "trainId": "105824",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1827_105824",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "飯能"
@@ -182217,6 +182319,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -182395,6 +182498,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -182430,7 +182534,6 @@
       }
     ],
     "trainId": "105748",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1836_105748",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -182882,6 +182985,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -182973,8 +183077,7 @@
     "trainId": "105806",
     "prevTripId": "HD_OUT_SI-37_1842_105806",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-10_1847_144507",
@@ -183533,6 +183636,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -183583,6 +183687,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -183618,7 +183723,6 @@
       }
     ],
     "trainId": "105749",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1852_105749",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -183965,6 +184069,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -184098,8 +184203,7 @@
     "trainId": "77812",
     "prevTripId": "HD_OUT_SI-37_1856_77812",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "飯能",
-    "customOrigin": "新木場"
+    "customDestination": "飯能"
   },
   {
     "tripId": "HD_INB_SI-10_1903_144537",
@@ -184812,6 +184916,7 @@
     "direction": "inbound",
     "originStationId": "SI-18",
     "destinationStationId": "SI-01",
+    "customOrigin": "西武球場前",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -184934,6 +185039,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -184971,8 +185077,7 @@
     "trainId": "77705",
     "prevTripId": "HD_OUT_SI-37_1904_77705",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-06_1912_144328",
@@ -184982,6 +185087,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -185196,6 +185302,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -185287,8 +185394,7 @@
     "trainId": "77792",
     "prevTripId": "HD_OUT_SI-37_1911_77792",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_OUT_SI-01_1917_143589",
@@ -186320,6 +186426,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -186370,6 +186477,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -186405,7 +186513,6 @@
       }
     ],
     "trainId": "105750",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_1920_105750",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "石神井公園"
@@ -186764,6 +186871,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -186897,8 +187005,7 @@
     "trainId": "77813",
     "prevTripId": "HD_OUT_SI-37_1926_77813",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "飯能",
-    "customOrigin": "新木場"
+    "customDestination": "飯能"
   },
   {
     "tripId": "HD_INB_SI-10_1931_144392",
@@ -187305,7 +187412,7 @@
     "direction": "inbound",
     "originStationId": "SI-19",
     "destinationStationId": "SI-06",
-    "customDestination": "湘南台",
+    "customDestination": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -187693,6 +187800,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -187742,8 +187850,7 @@
     "trainId": "77736",
     "prevTripId": "HD_OUT_SI-37_1935_77736",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "新木場"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_OUT_SI-01_1942_142888",
@@ -187827,6 +187934,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -188226,6 +188334,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -188317,8 +188426,7 @@
     "trainId": "105807",
     "prevTripId": "HD_OUT_SI-37_1942_105807",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "元町・中華街"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_OUT_SI-01_1950_143269",
@@ -189077,6 +189185,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -189127,6 +189236,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -189260,8 +189370,7 @@
     "trainId": "77809",
     "prevTripId": "HD_OUT_SI-37_1952_77809",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "飯能",
-    "customOrigin": "新木場"
+    "customDestination": "飯能"
   },
   {
     "tripId": "HD_OUT_SI-01_2000_143302",
@@ -189441,6 +189550,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -189508,8 +189618,7 @@
     "trainId": "105799",
     "prevTripId": "HD_OUT_SI-37_1956_105799",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "元町・中華街"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "HD_OUT_SI-01_2002_143145",
@@ -190032,6 +190141,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -190332,6 +190442,7 @@
     "direction": "inbound",
     "originStationId": "SI-18",
     "destinationStationId": "SI-01",
+    "customOrigin": "西武球場前",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -190624,6 +190735,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -190691,8 +190803,7 @@
     "trainId": "77744",
     "prevTripId": "HD_OUT_SI-37_2006_77744",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "新木場"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "HD_OUT_SI-01_2017_143597",
@@ -191131,6 +191242,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -191262,7 +191374,6 @@
       }
     ],
     "trainId": "105725",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_2015_105725",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "飯能"
@@ -191621,6 +191732,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -191671,6 +191783,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -191760,7 +191873,6 @@
       }
     ],
     "trainId": "105765",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_2022_105765",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -192774,6 +192886,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-12",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -192823,8 +192936,7 @@
     "trainId": "105793",
     "prevTripId": "HD_OUT_SI-37_2026_105793",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "保谷",
-    "customOrigin": "元町・中華街"
+    "customDestination": "保谷"
   },
   {
     "tripId": "HD_OUT_SI-01_2038_142924",
@@ -192994,6 +193106,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -193214,6 +193327,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -193251,8 +193365,7 @@
     "trainId": "77708",
     "prevTripId": "HD_OUT_SI-37_2034_77708",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-26_2043_143936",
@@ -193432,6 +193545,7 @@
     "direction": "inbound",
     "originStationId": "SI-18",
     "destinationStationId": "SI-01",
+    "customOrigin": "西武球場前",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -193707,6 +193821,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -193774,8 +193889,7 @@
     "trainId": "105800",
     "prevTripId": "HD_OUT_SI-37_2041_105800",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "元町・中華街"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "HD_OUT_SI-01_2051_143167",
@@ -194187,6 +194301,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -194577,6 +194692,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -194654,7 +194770,6 @@
       }
     ],
     "trainId": "105761",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_2053_105761",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "所沢"
@@ -195132,6 +195247,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -195199,8 +195315,7 @@
     "trainId": "105719",
     "prevTripId": "HD_OUT_SI-37_2102_105719",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "清瀬",
-    "customOrigin": "元町・中華街"
+    "customDestination": "清瀬"
   },
   {
     "tripId": "HD_OUT_SI-01_2108_142997",
@@ -195461,6 +195576,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -195511,6 +195627,7 @@
     "direction": "inbound",
     "originStationId": "SI-18",
     "destinationStationId": "SI-01",
+    "customOrigin": "西武球場前",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -195803,6 +195920,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -195840,8 +195958,7 @@
     "trainId": "77710",
     "prevTripId": "HD_OUT_SI-37_2107_77710",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-36_2115_144192",
@@ -196546,6 +196663,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -196766,6 +196884,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -196845,8 +196964,7 @@
     "trainId": "77754",
     "prevTripId": "HD_OUT_SI-37_2122_77754",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "所沢",
-    "customOrigin": "新木場"
+    "customDestination": "所沢"
   },
   {
     "tripId": "HD_INB_SI-12_2129_144552",
@@ -197650,6 +197768,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -197781,7 +197900,6 @@
       }
     ],
     "trainId": "105726",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_2130_105726",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "飯能"
@@ -197917,6 +198035,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -197967,6 +198086,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -198046,8 +198166,7 @@
     "trainId": "77755",
     "prevTripId": "HD_OUT_SI-37_2136_77755",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "所沢",
-    "customOrigin": "新木場"
+    "customDestination": "所沢"
   },
   {
     "tripId": "HD_INB_SI-26_2141_143937",
@@ -198227,6 +198346,7 @@
     "direction": "inbound",
     "originStationId": "SI-18",
     "destinationStationId": "SI-01",
+    "customOrigin": "西武球場前",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -198896,6 +199016,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -198946,6 +199067,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -199037,8 +199159,7 @@
     "trainId": "77794",
     "prevTripId": "HD_OUT_SI-37_2150_77794",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_INB_SI-26_2155_144027",
@@ -199218,7 +199339,7 @@
     "direction": "inbound",
     "originStationId": "SI-17",
     "destinationStationId": "SI-06",
-    "customDestination": "湘南台",
+    "customDestination": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -199901,6 +200022,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -200121,6 +200243,7 @@
     "direction": "inbound",
     "originStationId": "SI-18",
     "destinationStationId": "SI-01",
+    "customOrigin": "西武球場前",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -200413,6 +200536,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -200502,7 +200626,6 @@
       }
     ],
     "trainId": "105766",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_2206_105766",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -200966,6 +201089,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -201096,6 +201220,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -201187,8 +201312,7 @@
     "trainId": "77795",
     "prevTripId": "HD_OUT_SI-37_2222_77795",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "小手指",
-    "customOrigin": "新木場"
+    "customDestination": "小手指"
   },
   {
     "tripId": "HD_OUT_SI-01_2230_143309",
@@ -202015,6 +202139,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -202065,6 +202190,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -202102,8 +202228,7 @@
     "trainId": "77712",
     "prevTripId": "HD_OUT_SI-37_2235_77712",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "石神井公園",
-    "customOrigin": "新木場"
+    "customDestination": "石神井公園"
   },
   {
     "tripId": "HD_INB_SI-15_2241_144438",
@@ -202191,6 +202316,7 @@
     "direction": "inbound",
     "originStationId": "SI-18",
     "destinationStationId": "SI-01",
+    "customOrigin": "西武球場前",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -202934,6 +203060,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -202984,6 +203111,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
+    "customOrigin": "新木場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -203117,8 +203245,7 @@
     "trainId": "77798",
     "prevTripId": "HD_OUT_SI-37_2251_77798",
     "prevLineId": "seibu_yurakucho",
-    "customDestination": "飯能",
-    "customOrigin": "新木場"
+    "customDestination": "飯能"
   },
   {
     "tripId": "HD_OUT_SI-01_2300_143310",
@@ -203749,6 +203876,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -203799,6 +203927,7 @@
     "direction": "inbound",
     "originStationId": "SI-18",
     "destinationStationId": "SI-01",
+    "customOrigin": "西武球場前",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -204177,6 +204306,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -204266,7 +204396,6 @@
       }
     ],
     "trainId": "105768",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_2308_105768",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -204548,6 +204677,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -204854,6 +204984,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-10",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -204888,8 +205019,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "105752",
-    "customOrigin": "元町・中華街"
+    "trainId": "105752"
   },
   {
     "tripId": "HD_OUT_SI-01_2340_143141",
@@ -205205,6 +205335,7 @@
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-01",
+    "customOrigin": "豊島園(西武線)",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -205255,6 +205386,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-15",
+    "customOrigin": "元町・中華街",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -205320,7 +205452,6 @@
       }
     ],
     "trainId": "105759",
-    "customOrigin": "菊名",
     "prevTripId": "HD_OUT_SI-37_2341_105759",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "清瀬"
@@ -205621,6 +205752,7 @@
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
+    "customOrigin": "武蔵小杉",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -205710,7 +205842,6 @@
       }
     ],
     "trainId": "105683",
-    "customOrigin": "元町・中華街",
     "prevTripId": "HD_OUT_SI-37_2350_105683",
     "prevLineId": "seibu_yurakucho",
     "customDestination": "小手指"
@@ -205718,21 +205849,19 @@
   {
     "tripId": "WD_OUT_SI-06_1808_77814",
     "lineId": "seibu_ikebukuro",
-    "trainNumber": "77814",
+    "trainNumber": "501M",
     "trainType": "strain",
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
     "customOrigin": "豊洲",
     "customDestination": "小手指",
-    "throughTripId": "WD_OUT_SI-37_1802_77814",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "SI-06",
-        "arrivalTime": "18:08:00",
+        "arrivalTime": "18:07:00",
         "departureTime": "18:08:00",
         "isPassing": false
       },
@@ -205814,26 +205943,27 @@
         "departureTime": "18:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_SI-37_1802_77814",
+    "prevLineId": "seibu_yurakucho",
+    "trainId": "77814"
   },
   {
     "tripId": "WD_OUT_SI-06_1908_77815",
     "lineId": "seibu_ikebukuro",
-    "trainNumber": "77815",
+    "trainNumber": "503M",
     "trainType": "strain",
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
     "customOrigin": "豊洲",
     "customDestination": "小手指",
-    "throughTripId": "WD_OUT_SI-37_1902_77815",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "SI-06",
-        "arrivalTime": "19:08:00",
+        "arrivalTime": "19:07:00",
         "departureTime": "19:08:00",
         "isPassing": false
       },
@@ -205915,26 +206045,27 @@
         "departureTime": "19:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_SI-37_1902_77815",
+    "prevLineId": "seibu_yurakucho",
+    "trainId": "77815"
   },
   {
     "tripId": "WD_OUT_SI-06_2007_77816",
     "lineId": "seibu_ikebukuro",
-    "trainNumber": "77816",
+    "trainNumber": "505M",
     "trainType": "strain",
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
     "customOrigin": "豊洲",
     "customDestination": "小手指",
-    "throughTripId": "WD_OUT_SI-37_2001_77816",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "SI-06",
-        "arrivalTime": "20:07:00",
+        "arrivalTime": "20:06:00",
         "departureTime": "20:07:00",
         "isPassing": false
       },
@@ -206016,26 +206147,27 @@
         "departureTime": "20:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_SI-37_2001_77816",
+    "prevLineId": "seibu_yurakucho",
+    "trainId": "77816"
   },
   {
     "tripId": "WD_OUT_SI-06_2107_77817",
     "lineId": "seibu_ikebukuro",
-    "trainNumber": "77817",
+    "trainNumber": "507M",
     "trainType": "strain",
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
     "customOrigin": "豊洲",
     "customDestination": "小手指",
-    "throughTripId": "WD_OUT_SI-37_2101_77817",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "SI-06",
-        "arrivalTime": "21:07:00",
+        "arrivalTime": "21:06:00",
         "departureTime": "21:07:00",
         "isPassing": false
       },
@@ -206117,26 +206249,27 @@
         "departureTime": "21:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_SI-37_2101_77817",
+    "prevLineId": "seibu_yurakucho",
+    "trainId": "77817"
   },
   {
     "tripId": "WD_OUT_SI-06_2210_77818",
     "lineId": "seibu_ikebukuro",
-    "trainNumber": "77818",
+    "trainNumber": "509M",
     "trainType": "strain",
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-19",
     "customOrigin": "豊洲",
     "customDestination": "小手指",
-    "throughTripId": "WD_OUT_SI-37_2158_77818",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "SI-06",
-        "arrivalTime": "22:10:00",
+        "arrivalTime": "22:09:00",
         "departureTime": "22:10:00",
         "isPassing": false
       },
@@ -206218,20 +206351,21 @@
         "departureTime": "22:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_SI-37_2158_77818",
+    "prevLineId": "seibu_yurakucho",
+    "trainId": "77818"
   },
   {
     "tripId": "WD_INB_SI-17_0623_144439",
     "lineId": "seibu_ikebukuro",
-    "trainNumber": "144439",
+    "trainNumber": "502M",
     "trainType": "strain",
     "direction": "inbound",
     "originStationId": "SI-17",
     "destinationStationId": "SI-06",
     "customOrigin": "所沢",
     "customDestination": "豊洲",
-    "throughTripId": "WD_INB_SI-06_0646_144439",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -206307,20 +206441,21 @@
         "departureTime": "06:46:00",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_SI-06_0646_144439",
+    "throughLineId": "seibu_yurakucho",
+    "trainId": "144439"
   },
   {
     "tripId": "WD_INB_SI-17_0839_144440",
     "lineId": "seibu_ikebukuro",
-    "trainNumber": "144440",
+    "trainNumber": "504M",
     "trainType": "strain",
     "direction": "inbound",
     "originStationId": "SI-17",
     "destinationStationId": "SI-06",
     "customOrigin": "所沢",
     "customDestination": "豊洲",
-    "throughTripId": "WD_INB_SI-06_0903_144440",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -206396,20 +206531,21 @@
         "departureTime": "09:03:00",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_SI-06_0903_144440",
+    "throughLineId": "seibu_yurakucho",
+    "trainId": "144440"
   },
   {
     "tripId": "HD_OUT_SI-06_0850_172007",
     "lineId": "seibu_ikebukuro",
-    "trainNumber": "172007",
+    "trainNumber": "401レ",
     "trainType": "strain",
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-36",
     "customOrigin": "元町・中華街",
     "customDestination": "西武秩父",
-    "throughTripId": "HD_OUT_SI-37_0846_172007",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -206599,20 +206735,21 @@
         "departureTime": "10:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_SI-37_0846_172007",
+    "prevLineId": "seibu_yurakucho",
+    "trainId": "172007"
   },
   {
     "tripId": "HD_OUT_SI-06_1756_105731",
     "lineId": "seibu_ikebukuro",
-    "trainNumber": "105731",
+    "trainNumber": "403レ",
     "trainType": "strain",
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-26",
     "customOrigin": "元町・中華街",
     "customDestination": "飯能",
-    "throughTripId": "HD_OUT_SI-37_1751_105731",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -206742,20 +206879,21 @@
         "departureTime": "18:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_SI-37_1751_105731",
+    "prevLineId": "seibu_yurakucho",
+    "trainId": "105731"
   },
   {
     "tripId": "HD_OUT_SI-06_2053_105730",
     "lineId": "seibu_ikebukuro",
-    "trainNumber": "105730",
+    "trainNumber": "405レ",
     "trainType": "strain",
     "direction": "outbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-17",
     "customOrigin": "元町・中華街",
     "customDestination": "所沢",
-    "throughTripId": "HD_OUT_SI-37_2049_105730",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -206831,20 +206969,21 @@
         "departureTime": "21:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_SI-37_2049_105730",
+    "prevLineId": "seibu_yurakucho",
+    "trainId": "105730"
   },
   {
     "tripId": "HD_INB_SI-26_0920_144626",
     "lineId": "seibu_ikebukuro",
-    "trainNumber": "144626",
+    "trainNumber": "402レ",
     "trainType": "strain",
     "direction": "inbound",
     "originStationId": "SI-26",
     "destinationStationId": "SI-06",
     "customOrigin": "飯能",
     "customDestination": "元町・中華街",
-    "throughTripId": "HD_INB_SI-06_0954_144626",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -206974,20 +207113,21 @@
         "departureTime": "09:54:00",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_SI-06_0954_144626",
+    "throughLineId": "seibu_yurakucho",
+    "trainId": "144626"
   },
   {
     "tripId": "HD_INB_SI-36_1707_172006",
     "lineId": "seibu_ikebukuro",
-    "trainNumber": "172006",
+    "trainNumber": "404レ",
     "trainType": "strain",
     "direction": "inbound",
     "originStationId": "SI-36",
     "destinationStationId": "SI-06",
     "customOrigin": "西武秩父",
     "customDestination": "元町・中華街",
-    "throughTripId": "HD_INB_SI-06_1832_172006",
-    "throughLineId": "seibu_yurakucho",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -207177,6 +207317,9 @@
         "departureTime": "18:32:00",
         "isPassing": true
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_SI-06_1832_172006",
+    "throughLineId": "seibu_yurakucho",
+    "trainId": "172006"
   }
 ]

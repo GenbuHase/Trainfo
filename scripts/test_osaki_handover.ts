@@ -45,7 +45,7 @@ console.log('=== 大崎駅 埼京線・りんかい線 相互ハンドオーバ�
 console.log('--- テスト1: 下り直通快速 26782便 (新木場 -> 大崎 -> 大宮 -> 川越 3路線全線貫通) ---');
 const rkTripId = 'WD_OUT_R-01_0609_26782';
 const skTripId = 'WD_OUT_JA-08_0630_26782';
-const kwTripId = 'kw_WD_OUT_JA-08_0630_26782';
+const kwTripId = 'WD_OUT_JA-26_0719_26782';
 
 const outTimes = [
   { time: '06:15:00', desc: 'りんかい線走行中（国際展示場〜東京テレポート）' },
@@ -94,7 +94,7 @@ if (trackedId === kwTripId) {
 // 埼京線: 大宮 06:21発 -> 大崎 07:21着 (WD_INB_JA-29_0605_23081)
 // りんかい線: 大崎 07:22発 -> 新木場 07:42着 (WD_INB_R-08_0722_23081)
 console.log('--- テスト2: 上り直通 23081便 (大宮 -> 大崎 -> 新木場) ---');
-const skInbTripId = 'WD_INB_JA-29_0605_23081';
+const skInbTripId = 'WD_INB_JA-26_0621_23081';
 const rkInbTripId = 'WD_INB_R-08_0722_23081';
 
 const inbTimes = [
@@ -207,7 +207,7 @@ console.log('--- テスト5: 【休日ダイヤ】 下り直通 26783便 (新木
 {
   const hdRkTripId = 'HD_OUT_R-01_0659_26783';
   const hdSkTripId = 'HD_OUT_JA-08_0720_26783';
-  const hdKwTripId = 'kw_HD_OUT_JA-08_0720_26783';
+  const hdKwTripId = 'HD_OUT_JA-26_0811_26783';
 
   const hdTimes = [
     { time: '07:10:00', desc: 'りんかい線走行中（天王洲アイル〜品川シーサイド）' },

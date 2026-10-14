@@ -289,3 +289,99 @@ export function getFullDayStationTimetable(
 
   return hourly;
 }
+
+// 全路線の全トリップの高速ルックアップ用Map（遅延初期化）
+let _globalTripMap: Map<string, TimetableTrip> | null = null;
+let _globalTrainIdMap: Map<string, TimetableTrip[]> | null = null;
+
+function ensureGlobalMaps() {
+  if (!_globalTripMap || !_globalTrainIdMap) {
+    _globalTripMap = new Map();
+    _globalTrainIdMap = new Map();
+    for (const trip of GLOBAL_TIMETABLE) {
+      _globalTripMap.set(trip.tripId, trip);
+      if (trip.trainId) {
+        if (!_globalTrainIdMap.has(trip.trainId)) {
+          _globalTrainIdMap.set(trip.trainId, []);
+        }
+        _globalTrainIdMap.get(trip.trainId)!.push(trip);
+      }
+    }
+  }
+}
+
+export function getGlobalTripMap(): Map<string, TimetableTrip> {
+  ensureGlobalMaps();
+  return _globalTripMap!;
+}
+
+/**
+ * 指定したtripIdが属する直通運行チェーン全体（祖先トリップから子孫トリップまでの全リスト、時系列順）を取得
+ * - throughTripId / prevTripId ポインタによるリンク
+ * - 同一 trainId（Yahoo路線情報の同一列車）を持つ他路線トリップの統合（特急列車等）
+ */
+export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
+  if (!initialTripId) return [];
+  ensureGlobalMaps();
+  const map = _globalTripMap!;
+  const trainIdMap = _globalTrainIdMap!;
+
+  const initialTrip = map.get(initialTripId);
+  if (!initialTrip) return [];
+
+  const visitedTripIds = new Set<string>([initialTrip.tripId]);
+  const queue: TimetableTrip[] = [initialTrip];
+  const chain: TimetableTrip[] = [];
+
+  while (queue.length > 0) {
+    const cur = queue.shift()!;
+    chain.push(cur);
+
+    // 1. 同一 trainId のトリップを収集 (同一方向・平日/休日一致)
+    if (cur.trainId) {
+      const sameTrainIdTrips = trainIdMap.get(cur.trainId) || [];
+      for (const st of sameTrainIdTrips) {
+        if (!visitedTripIds.has(st.tripId) && st.isHoliday === cur.isHoliday && st.direction === cur.direction) {
+          visitedTripIds.add(st.tripId);
+          queue.push(st);
+        }
+      }
+    }
+
+    // 2. prevTripId を遡る
+    if (cur.prevTripId && !visitedTripIds.has(cur.prevTripId)) {
+      const prev = map.get(cur.prevTripId);
+      if (prev) {
+        visitedTripIds.add(prev.tripId);
+        queue.push(prev);
+      }
+    }
+
+    // 3. throughTripId を辿る
+    if (cur.throughTripId && !visitedTripIds.has(cur.throughTripId)) {
+      const next = map.get(cur.throughTripId);
+      if (next) {
+        visitedTripIds.add(next.tripId);
+        queue.push(next);
+      }
+    }
+  }
+
+  // 始発駅の出発時刻順にソート
+  chain.sort((a, b) => {
+    const depA = a.stops[0]?.departureTime ? timeStringToSeconds(a.stops[0].departureTime) : 0;
+    const depB = b.stops[0]?.departureTime ? timeStringToSeconds(b.stops[0].departureTime) : 0;
+    return depA - depB;
+  });
+
+  return chain;
+}
+
+/**
+ * 指定したtripIdが属する直通運行チェーンに含まれるすべてのtripIdのSetを取得
+ */
+export function getThroughChainTripIds(initialTripId: string): Set<string> {
+  const trips = getThroughChainTrips(initialTripId);
+  return new Set(trips.map((t) => t.tripId));
+}
+
