@@ -1,0 +1,44 @@
+import type { TrainTypeConfig } from '../../../types';
+
+export const JOBAN_NORTH_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
+  local: {
+    key: 'local',
+    name: '普通',
+    nameEn: 'Local',
+    shortName: '普通',
+    color: '#005aaa',
+    textColor: '#ffffff',
+    bgColor: '#005aaa',
+    borderColor: '#004280',
+  },
+  rapid: {
+    key: 'rapid',
+    name: '快速',
+    nameEn: 'Rapid',
+    shortName: '快速',
+    color: '#005aaa',
+    textColor: '#ffffff',
+    bgColor: '#005aaa',
+    borderColor: '#004280',
+  },
+  special_rapid: {
+    key: 'special_rapid',
+    name: '特別快速',
+    nameEn: 'Special Rapid',
+    shortName: '特快',
+    color: '#003366',
+    textColor: '#ffffff',
+    bgColor: '#003366',
+    borderColor: '#002244',
+  },
+  limited_express: {
+    key: 'limited_express',
+    name: '特急',
+    nameEn: 'Limited Express',
+    shortName: '特急',
+    color: '#e60012',
+    textColor: '#ffffff',
+    bgColor: '#e60012',
+    borderColor: '#b8000e',
+  },
+};

@@ -177,6 +177,18 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#00b261',
     numColor: '#008548',
   },
+  // JR常磐線快速
+  JJ: {
+    borderColor: '#005aaa',
+    prefixColor: '#005aaa',
+    numColor: '#003e75',
+  },
+  // JR常磐線（取手以北）
+  JN: {
+    borderColor: '#005aaa',
+    prefixColor: '#005aaa',
+    numColor: '#003e75',
+  },
 };
 
 const DEFAULT_BADGE_COLOR: StationBadgeColor = {

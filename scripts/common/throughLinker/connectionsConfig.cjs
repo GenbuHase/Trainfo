@@ -436,5 +436,28 @@ module.exports = {
       dirB: 'inbound',
       maxTimeDiff: 300,
     },
+
+    // 20. JR常磐線快速 ↔ JR常磐線(取手以北) (取手駅)
+    {
+      name: '常磐線快速 -> 常磐線(取手以北) (下り/土浦・水戸・勝田方面直通)',
+      lineA: 'joban_rapid',
+      lineB: 'joban_north',
+      stationA: 'JJ-13',
+      stationB: 'JN-01',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 300,
+    },
+    {
+      name: '常磐線(取手以北) -> 常磐線快速 (上り/上野・東京・品川方面直通)',
+      lineA: 'joban_north',
+      lineB: 'joban_rapid',
+      stationA: 'JN-01',
+      stationB: 'JJ-13',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 300,
+    },
   ],
 };
+
