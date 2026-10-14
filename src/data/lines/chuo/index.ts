@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { CHUO_STATIONS } from './stations';
 import { CHUO_TRACK_SEGMENTS } from './trackGeometry';
 import { CHUO_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const chuoLine: LineDefinition = {
   id: 'chuo',
@@ -28,6 +26,6 @@ export const chuoLine: LineDefinition = {
   stations: CHUO_STATIONS,
   trackSegments: CHUO_TRACK_SEGMENTS,
   trainTypes: CHUO_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

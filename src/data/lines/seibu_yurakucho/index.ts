@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { SEIBU_YURAKUCHO_STATIONS } from './stations';
 import { SEIBU_YURAKUCHO_TRACK_SEGMENTS } from './trackGeometry';
 import { SEIBU_YURAKUCHO_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const seibuYurakuchoLine: LineDefinition = {
   id: 'seibu_yurakucho',
@@ -28,6 +26,6 @@ export const seibuYurakuchoLine: LineDefinition = {
   stations: SEIBU_YURAKUCHO_STATIONS,
   trackSegments: SEIBU_YURAKUCHO_TRACK_SEGMENTS,
   trainTypes: SEIBU_YURAKUCHO_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

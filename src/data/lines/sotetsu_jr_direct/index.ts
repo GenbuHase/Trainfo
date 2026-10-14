@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { SOTETSU_JR_DIRECT_STATIONS } from './stations';
 import { SOTETSU_JR_DIRECT_TRACK_SEGMENTS } from './trackGeometry';
 import { SOTETSU_JR_DIRECT_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const sotetsuJrDirectLine: LineDefinition = {
   id: 'sotetsu_jr_direct',
@@ -28,6 +26,6 @@ export const sotetsuJrDirectLine: LineDefinition = {
   stations: SOTETSU_JR_DIRECT_STATIONS,
   trackSegments: SOTETSU_JR_DIRECT_TRACK_SEGMENTS,
   trainTypes: SOTETSU_JR_DIRECT_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

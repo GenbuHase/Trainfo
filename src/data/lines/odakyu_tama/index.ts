@@ -2,8 +2,6 @@ import type { LineDefinition } from '../../../types';
 import { ODAKYU_TAMA_STATIONS } from './stations';
 import { ODAKYU_TAMA_TRACK_SEGMENTS } from './trackGeometry';
 import { ODAKYU_TAMA_TRAIN_TYPES } from './trainTypes';
-import odakyuTamaStationTimetables from './stationTimetables.json';
-import odakyuTamaGlobalTimetable from './globalTimetable.json';
 
 export const odakyuTamaLine: LineDefinition = {
   id: 'odakyu_tama',
@@ -16,8 +14,8 @@ export const odakyuTamaLine: LineDefinition = {
   stations: ODAKYU_TAMA_STATIONS,
   trackSegments: ODAKYU_TAMA_TRACK_SEGMENTS,
   trainTypes: ODAKYU_TAMA_TRAIN_TYPES,
-  stationTimetables: odakyuTamaStationTimetables as any,
-  globalTimetable: odakyuTamaGlobalTimetable as any,
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
   defaultBounds: [
     [35.58, 139.39],
     [35.65, 139.53],

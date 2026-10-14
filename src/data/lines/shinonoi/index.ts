@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { SHINONOI_STATIONS } from './stations';
 import { SHINONOI_TRACK_SEGMENTS } from './trackGeometry';
 import { SHINONOI_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const shinonoiLine: LineDefinition = {
   id: 'shinonoi',
@@ -28,6 +26,6 @@ export const shinonoiLine: LineDefinition = {
   stations: SHINONOI_STATIONS,
   trackSegments: SHINONOI_TRACK_SEGMENTS,
   trainTypes: SHINONOI_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

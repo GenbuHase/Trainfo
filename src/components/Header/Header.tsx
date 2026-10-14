@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react';
-import { Search, Train, MapPin, X, Calendar, Settings, HelpCircle, Download } from 'lucide-react';
+import { Search, Train, MapPin, X, Calendar, Settings, HelpCircle, Download, Loader2 } from 'lucide-react';
+
+
 import type { Station, ActiveTrain, LineId, Direction } from '../../types';
 import { getStations } from '../../data/stations';
 import { StationBadge, TrainTypeBadge } from '../Common/Badges';
@@ -214,11 +216,21 @@ export const Header: React.FC<HeaderProps> = ({
         <span className="whitespace-nowrap">{isHoliday ? '土休日ダイヤ' : '平日ダイヤ'}</span>
       </button>
 
-      {/* 走行中列車数 */}
+      {/* 走行中列車数 / ダイヤ読込中インジケーター */}
       <div className="pointer-events-auto shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-white/95 backdrop-blur-md text-xs font-semibold text-slate-700 shadow-md border border-slate-200">
-        <Train className="w-3.5 h-3.5 text-sky-600 shrink-0" />
-        <span className="whitespace-nowrap">走行中 <strong className="text-sky-700 font-bold">{activeTrains.length}</strong> 列車</span>
+        {simulation.isLoadingTimetables ? (
+          <>
+            <Loader2 className="w-3.5 h-3.5 text-sky-600 animate-spin shrink-0" />
+            <span className="whitespace-nowrap text-sky-700 font-medium">ダイヤ読込中...</span>
+          </>
+        ) : (
+          <>
+            <Train className="w-3.5 h-3.5 text-sky-600 shrink-0" />
+            <span className="whitespace-nowrap">走行中 <strong className="text-sky-700 font-bold">{activeTrains.length}</strong> 列車</span>
+          </>
+        )}
       </div>
+
 
       {/* アプリインストールボタン (ブラウザ起動時のみ) */}
       {!isStandalone && onOpenInstall && (

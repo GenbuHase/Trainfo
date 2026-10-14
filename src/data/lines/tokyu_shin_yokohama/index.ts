@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { TOKYU_SHIN_YOKOHAMA_STATIONS } from './stations';
 import { TOKYU_SHIN_YOKOHAMA_TRACK_SEGMENTS } from './trackGeometry';
 import { TOKYU_SHIN_YOKOHAMA_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const tokyuShinYokohamaLine: LineDefinition = {
   id: 'tokyu_shin_yokohama',
@@ -28,6 +26,6 @@ export const tokyuShinYokohamaLine: LineDefinition = {
   stations: TOKYU_SHIN_YOKOHAMA_STATIONS,
   trackSegments: TOKYU_SHIN_YOKOHAMA_TRACK_SEGMENTS,
   trainTypes: TOKYU_SHIN_YOKOHAMA_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { FUKUTOSHIN_STATIONS } from './stations';
 import { FUKUTOSHIN_TRACK_SEGMENTS } from './trackGeometry';
 import { FUKUTOSHIN_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const fukutoshinLine: LineDefinition = {
   id: 'fukutoshin',
@@ -28,6 +26,6 @@ export const fukutoshinLine: LineDefinition = {
   stations: FUKUTOSHIN_STATIONS,
   trackSegments: FUKUTOSHIN_TRACK_SEGMENTS,
   trainTypes: FUKUTOSHIN_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

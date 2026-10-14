@@ -9,6 +9,11 @@ import { loadSimulationFps, saveSimulationFps } from '../constants';
 import type { SimulationFps } from '../constants';
 import { useSelection } from './SelectionContext';
 import { useTrainTracker } from '../hooks/useTrainTracker';
+import {
+  loadLinesTimetables,
+  subscribeTimetableLoad,
+  areAllLinesLoaded,
+} from '../data/timetableLoader';
 
 interface SimulationContextValue {
   simState: SimulationState;
@@ -22,6 +27,7 @@ interface SimulationContextValue {
   simulationFps: SimulationFps;
   activeTrains: ActiveTrain[];
   selectedTrain: ActiveTrain | null;
+  isLoadingTimetables: boolean;
   seekTime: (sec: number) => void;
   togglePlay: () => void;
   setSpeed: (speed: number) => void;
@@ -31,6 +37,7 @@ interface SimulationContextValue {
   toggleHoliday: (val: boolean) => void;
   setSimulationFps: (fps: SimulationFps) => void;
 }
+
 
 const SimulationContext = createContext<SimulationContextValue | null>(null);
 
@@ -107,6 +114,37 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     return () => cancelAnimationFrame(animId);
   }, [isRealTimeSynced, simulationFps]);
 
+  // ダイヤデータの非同期ロード状態管理
+  const [timetableVersion, setTimetableVersion] = useState(0);
+  const [isLoadingTimetables, setIsLoadingTimetables] = useState<boolean>(() => !areAllLinesLoaded(selectedLineIds));
+
+  // 選択路線の変更に合わせて未ロードのダイヤデータを非同期オンデマンド読み込み
+  useEffect(() => {
+    let isMounted = true;
+    const loadNeeded = async () => {
+      if (!areAllLinesLoaded(selectedLineIds)) {
+        setIsLoadingTimetables(true);
+      }
+      await loadLinesTimetables(selectedLineIds);
+      if (isMounted) {
+        setIsLoadingTimetables(false);
+      }
+    };
+    loadNeeded();
+    return () => {
+      isMounted = false;
+    };
+  }, [selectedLineIds]);
+
+  // 他の路線（直通追尾など）でダイヤがロードされた通知を受け取りシミュレーションを更新
+  useEffect(() => {
+    const unsubscribe = subscribeTimetableLoad(() => {
+      setTimetableVersion((v) => v + 1);
+      setIsLoadingTimetables(!areAllLinesLoaded(selectedLineIds));
+    });
+    return unsubscribe;
+  }, [selectedLineIds]);
+
   // 列車位置の純粋算出（useEffectによるカスケードレンダリングを解消しパフォーマンス最大化）
   const fullSimState: SimulationState = useMemo(
     () => ({
@@ -118,7 +156,8 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
 
   const activeTrains = useMemo(() => {
     return calculateActiveTrains(fullSimState);
-  }, [fullSimState]);
+  }, [fullSimState, timetableVersion]);
+
 
 
   // 直通列車の追尾・自動ハンドオーバー
@@ -216,7 +255,9 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       simulationFps,
       activeTrains,
       selectedTrain,
+      isLoadingTimetables,
       seekTime,
+
       togglePlay,
       setSpeed,
       syncRealTime,
@@ -238,7 +279,9 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       simulationFps,
       activeTrains,
       selectedTrain,
+      isLoadingTimetables,
       seekTime,
+
       togglePlay,
       setSpeed,
       syncRealTime,

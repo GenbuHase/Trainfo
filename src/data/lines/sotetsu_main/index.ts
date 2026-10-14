@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { SOTETSU_MAIN_STATIONS } from './stations';
 import { SOTETSU_MAIN_TRACK_SEGMENTS } from './trackGeometry';
 import { SOTETSU_MAIN_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const sotetsuMainLine: LineDefinition = {
   id: 'sotetsu_main',
@@ -28,6 +26,6 @@ export const sotetsuMainLine: LineDefinition = {
   stations: SOTETSU_MAIN_STATIONS,
   trackSegments: SOTETSU_MAIN_TRACK_SEGMENTS,
   trainTypes: SOTETSU_MAIN_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

@@ -290,15 +290,21 @@ export function getFullDayStationTimetable(
   return hourly;
 }
 
-// 全路線の全トリップの高速ルックアップ用Map（遅延初期化）
+// 全路線の全トリップの高速ルックアップ用Map（動的初期化）
 let _globalTripMap: Map<string, TimetableTrip> | null = null;
 let _globalTrainIdMap: Map<string, TimetableTrip[]> | null = null;
+
+export function invalidateGlobalTripMaps() {
+  _globalTripMap = null;
+  _globalTrainIdMap = null;
+}
 
 function ensureGlobalMaps() {
   if (!_globalTripMap || !_globalTrainIdMap) {
     _globalTripMap = new Map();
     _globalTrainIdMap = new Map();
-    for (const trip of GLOBAL_TIMETABLE) {
+    const trips = getCombinedGlobalTimetable();
+    for (const trip of trips) {
       _globalTripMap.set(trip.tripId, trip);
       if (trip.trainId) {
         if (!_globalTrainIdMap.has(trip.trainId)) {
@@ -314,6 +320,7 @@ export function getGlobalTripMap(): Map<string, TimetableTrip> {
   ensureGlobalMaps();
   return _globalTripMap!;
 }
+
 
 /**
  * 2つのトリップが同一運行チェーン（直通・スイッチバック）として接続可能か汎用判定
