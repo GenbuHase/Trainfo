@@ -20,11 +20,12 @@ export function secondsToTimeString(sec: number): string {
 
 /**
  * 公式列車番号のTrainfo標準表記への正規化
- * - アルファベット末尾（576F, 9028M, E151K等）やハイフン付き（051-071等）: そのまま
- * - すでに「レ」付き（1001レ等）: そのまま
- * - 4桁以上の公式列車番号（相鉄4桁、東急・地下鉄・相鉄直通6桁等）: そのまま
+ * - アルファベット末尾（576F, 9028M, E151K, B2303S等）: そのまま
+ * - すでに「レ」付き（1001レ, 3235レ等）: そのまま
+ * - 6桁の純数字（東急・相鉄直通・地下鉄等: 例 022241）: 3桁-3桁にハイフンを挿入し「レ」を付与 (例: 022-241レ)
+ * - すでにハイフン付きの3桁-3桁数字（022-241等）: 末尾に「レ」を付与 (022-241レ)
+ * - その他の純数字（相鉄4桁 2099、JR短数字 546、秩父 105等）: 末尾に「レ」を付与 (2099レ, 546レ, 105レ)
  * - 併結表記（8078M + 9028M等）: 各パートを個別に正規化して結合
- * - 1〜3桁の純短数字（105等）: 末尾に「レ」を付与（105レ）
  */
 export function normalizeTrainNumber(rawNo?: string): string {
   if (!rawNo) return '';
@@ -35,10 +36,24 @@ export function normalizeTrainNumber(rawNo?: string): string {
       .map((part) => normalizeTrainNumber(part.trim()))
       .join(' + ');
   }
-  if (/[a-zA-Zレ]$/.test(trimmed) || trimmed.includes('-')) {
+  // すでに末尾に「レ」が付いている場合はそのまま
+  if (trimmed.endsWith('レ')) {
     return trimmed;
   }
-  if (/^\d{1,3}$/.test(trimmed)) {
+  // 末尾が英字（JR・メトロ・直通記号など）の場合はそのまま
+  if (/[a-zA-Z]$/.test(trimmed)) {
+    return trimmed;
+  }
+  // 6桁の純数字（東急・みなとみらい線・東急新横浜線・相鉄直通等）: XXX-XXXレ にフォーマット
+  if (/^\d{6}$/.test(trimmed)) {
+    return `${trimmed.slice(0, 3)}-${trimmed.slice(3)}レ`;
+  }
+  // すでにハイフン付きの純数字（051-071等）: 末尾に「レ」を付与
+  if (/^\d{3}-\d{3}$/.test(trimmed)) {
+    return `${trimmed}レ`;
+  }
+  // その他の数字のみ（相鉄4桁 2099、JR 546、秩父 105、東武TJ Y2476等）: 末尾に「レ」を付与
+  if (/^\d+$/.test(trimmed) || /^Y\d+$/i.test(trimmed)) {
     return `${trimmed}レ`;
   }
   return trimmed;

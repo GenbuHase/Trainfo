@@ -32,11 +32,24 @@ function normalizeTrainNumber(rawNo) {
       .map((p) => normalizeTrainNumber(p.trim()))
       .join(' + ');
   }
-  if (/[a-zA-Zレ]$/.test(trimmed) || trimmed.includes('-')) {
+  // すでに末尾に「レ」が付いている場合はそのまま
+  if (trimmed.endsWith('レ')) {
     return trimmed;
   }
-  // 1〜3桁の純短数字のみ「レ」を付与。4桁以上（相鉄・東急・地下鉄等）はそのまま保持
-  if (/^\d{1,3}$/.test(trimmed)) {
+  // 末尾が英字（JR・メトロ・直通記号など）の場合はそのまま
+  if (/[a-zA-Z]$/.test(trimmed)) {
+    return trimmed;
+  }
+  // 6桁の純数字（東急・みなとみらい線・東急新横浜線・相鉄直通等）: XXX-XXXレ にフォーマット
+  if (/^\d{6}$/.test(trimmed)) {
+    return `${trimmed.slice(0, 3)}-${trimmed.slice(3)}レ`;
+  }
+  // すでにハイフン付きの純数字（051-071等）: 末尾に「レ」を付与
+  if (/^\d{3}-\d{3}$/.test(trimmed)) {
+    return `${trimmed}レ`;
+  }
+  // その他の数字のみ（相鉄4桁 2099、JR 546、秩父 105、東武TJ Y2476等）: 末尾に「レ」を付与
+  if (/^\d+$/.test(trimmed) || /^Y\d+$/i.test(trimmed)) {
     return `${trimmed}レ`;
   }
   return trimmed;
