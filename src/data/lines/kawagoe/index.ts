@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { KAWAGOE_STATIONS } from './stations';
 import { KAWAGOE_TRACK_SEGMENTS } from './trackGeometry';
 import { KAWAGOE_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const kawagoeLine: LineDefinition = {
   id: 'kawagoe',
@@ -28,6 +26,6 @@ export const kawagoeLine: LineDefinition = {
   stations: KAWAGOE_STATIONS,
   trackSegments: KAWAGOE_TRACK_SEGMENTS,
   trainTypes: KAWAGOE_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

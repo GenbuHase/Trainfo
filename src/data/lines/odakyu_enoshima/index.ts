@@ -2,8 +2,6 @@ import type { LineDefinition } from '../../../types';
 import { ODAKYU_ENOSHIMA_STATIONS } from './stations';
 import { ODAKYU_ENOSHIMA_TRACK_SEGMENTS } from './trackGeometry';
 import { ODAKYU_ENOSHIMA_TRAIN_TYPES } from './trainTypes';
-import odakyuEnoshimaStationTimetables from './stationTimetables.json';
-import odakyuEnoshimaGlobalTimetable from './globalTimetable.json';
 
 export const odakyuEnoshimaLine: LineDefinition = {
   id: 'odakyu_enoshima',
@@ -16,8 +14,8 @@ export const odakyuEnoshimaLine: LineDefinition = {
   stations: ODAKYU_ENOSHIMA_STATIONS,
   trackSegments: ODAKYU_ENOSHIMA_TRACK_SEGMENTS,
   trainTypes: ODAKYU_ENOSHIMA_TRAIN_TYPES,
-  stationTimetables: odakyuEnoshimaStationTimetables as any,
-  globalTimetable: odakyuEnoshimaGlobalTimetable as any,
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
   defaultBounds: [
     [35.29, 139.42],
     [35.55, 139.51],

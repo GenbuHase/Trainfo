@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { HACHIKO_STATIONS } from './stations';
 import { HACHIKO_TRACK_SEGMENTS } from './trackGeometry';
 import { HACHIKO_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const hachikoLine: LineDefinition = {
   id: 'hachiko',
@@ -28,6 +26,6 @@ export const hachikoLine: LineDefinition = {
   stations: HACHIKO_STATIONS,
   trackSegments: HACHIKO_TRACK_SEGMENTS,
   trainTypes: HACHIKO_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

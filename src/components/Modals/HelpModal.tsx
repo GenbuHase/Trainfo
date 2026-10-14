@@ -2,12 +2,21 @@ import React from 'react';
 import { X, Train, MapPin, LocateFixed, Sliders, Layers, Download } from 'lucide-react';
 import { getLinesGroupedByOperator } from '../../data/linesRegistry';
 
-interface HelpModalProps {
-  isOpen: boolean;
-  onClose: () => void;
+import { useUI } from '../../contexts/UIContext';
+
+export interface HelpModalProps {
+  isOpen?: boolean;
+  onClose?: () => void;
 }
 
-export const HelpModal: React.FC<HelpModalProps> = ({ isOpen, onClose }) => {
+export const HelpModal: React.FC<HelpModalProps> = ({
+  isOpen: propIsOpen,
+  onClose: propOnClose,
+}) => {
+  const ui = useUI();
+  const isOpen = propIsOpen !== undefined ? propIsOpen : ui.isHelpOpen;
+  const onClose = propOnClose ?? ui.closeHelp;
+
   if (!isOpen) return null;
 
   const groupedLines = getLinesGroupedByOperator();

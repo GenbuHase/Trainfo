@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { CHICHIBU_STATIONS } from './stations';
 import { CHICHIBU_TRACK_SEGMENTS } from './trackGeometry';
 import { CHICHIBU_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const chichibuLine: LineDefinition = {
   id: 'chichibu',
@@ -28,6 +26,6 @@ export const chichibuLine: LineDefinition = {
   stations: CHICHIBU_STATIONS,
   trackSegments: CHICHIBU_TRACK_SEGMENTS,
   trainTypes: CHICHIBU_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

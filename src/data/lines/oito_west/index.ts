@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { OITO_WEST_STATIONS } from './stations';
 import { OITO_WEST_TRACK_SEGMENTS } from './trackGeometry';
 import { OITO_WEST_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const oitoWestLine: LineDefinition = {
   id: 'oito_west',
@@ -28,6 +26,6 @@ export const oitoWestLine: LineDefinition = {
   stations: OITO_WEST_STATIONS,
   trackSegments: OITO_WEST_TRACK_SEGMENTS,
   trainTypes: OITO_WEST_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

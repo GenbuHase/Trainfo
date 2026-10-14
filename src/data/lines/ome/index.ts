@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { OME_STATIONS } from './stations';
 import { OME_TRACK_SEGMENTS } from './trackGeometry';
 import { OME_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const omeLine: LineDefinition = {
   id: 'ome',
@@ -28,6 +26,6 @@ export const omeLine: LineDefinition = {
   stations: OME_STATIONS,
   trackSegments: OME_TRACK_SEGMENTS,
   trainTypes: OME_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

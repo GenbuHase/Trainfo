@@ -1,5 +1,7 @@
 import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react';
-import { Search, Train, MapPin, X, Calendar, Settings, HelpCircle, Download } from 'lucide-react';
+import { Search, Train, MapPin, X, Calendar, Settings, HelpCircle, Download, Loader2 } from 'lucide-react';
+
+
 import type { Station, ActiveTrain, LineId, Direction } from '../../types';
 import { getStations } from '../../data/stations';
 import { StationBadge, TrainTypeBadge } from '../Common/Badges';
@@ -9,23 +11,28 @@ import { DisplayFilterDock } from '../Map/DisplayFilterDock';
 import { TrackingBar } from '../Map/TrackingBar';
 import { isRunningStandalone, subscribeInstallState } from '../../services/pwaService';
 
-interface HeaderProps {
-  onSelectStation: (station: Station) => void;
-  onSelectTrain: (train: ActiveTrain) => void;
-  activeTrains: ActiveTrain[];
-  isHoliday: boolean;
-  onToggleHoliday: (val: boolean) => void;
-  onOpenSettings: () => void;
-  onOpenHelp: () => void;
+import { useSelection } from '../../contexts/SelectionContext';
+import { useSimulation } from '../../contexts/SimulationContext';
+import { useFilter } from '../../contexts/FilterContext';
+import { useUI } from '../../contexts/UIContext';
+
+export interface HeaderProps {
+  onSelectStation?: (station: Station) => void;
+  onSelectTrain?: (train: ActiveTrain) => void;
+  activeTrains?: ActiveTrain[];
+  isHoliday?: boolean;
+  onToggleHoliday?: (val: boolean) => void;
+  onOpenSettings?: () => void;
+  onOpenHelp?: () => void;
   onOpenInstall?: () => void;
-  isSidebarOpen: boolean;
+  isSidebarOpen?: boolean;
   onCloseSidebar?: () => void;
-  selectedLineIds: LineId[];
-  onChangeSelectedLines: (lineIds: LineId[]) => void;
-  filterDirection: 'all' | Direction;
-  onChangeFilterDirection: (direction: 'all' | Direction) => void;
-  filterType: 'all' | 'rapid' | 'local';
-  onChangeFilterType: (type: 'all' | 'rapid' | 'local') => void;
+  selectedLineIds?: LineId[];
+  onChangeSelectedLines?: (lineIds: LineId[]) => void;
+  filterDirection?: 'all' | Direction;
+  onChangeFilterDirection?: (direction: 'all' | Direction) => void;
+  filterType?: 'all' | 'rapid' | 'local';
+  onChangeFilterType?: (type: 'all' | 'rapid' | 'local') => void;
   selectedTrain?: ActiveTrain | null;
   isTrackingTrain?: boolean;
   onOpenSidebar?: () => void;
@@ -33,27 +40,65 @@ interface HeaderProps {
 }
 
 export const Header: React.FC<HeaderProps> = ({
-  onSelectStation,
-  onSelectTrain,
-  activeTrains,
-  isHoliday,
-  onToggleHoliday,
-  onOpenSettings,
-  onOpenHelp,
-  onOpenInstall,
-  isSidebarOpen,
-  onCloseSidebar,
-  selectedLineIds,
-  onChangeSelectedLines,
-  filterDirection,
-  onChangeFilterDirection,
-  filterType,
-  onChangeFilterType,
-  selectedTrain,
-  isTrackingTrain = false,
-  onOpenSidebar,
-  onStopTracking,
+  onSelectStation: propOnSelectStation,
+  onSelectTrain: propOnSelectTrain,
+  activeTrains: propActiveTrains,
+  isHoliday: propIsHoliday,
+  onToggleHoliday: propOnToggleHoliday,
+  onOpenSettings: propOnOpenSettings,
+  onOpenHelp: propOnOpenHelp,
+  onOpenInstall: propOnOpenInstall,
+  isSidebarOpen: propIsSidebarOpen,
+  onCloseSidebar: propOnCloseSidebar,
+  selectedLineIds: propSelectedLineIds,
+  onChangeSelectedLines: propOnChangeSelectedLines,
+  filterDirection: propFilterDirection,
+  onChangeFilterDirection: propOnChangeFilterDirection,
+  filterType: propFilterType,
+  onChangeFilterType: propOnChangeFilterType,
+  selectedTrain: propSelectedTrain,
+  isTrackingTrain: propIsTrackingTrain,
+  onOpenSidebar: propOnOpenSidebar,
+  onStopTracking: propOnStopTracking,
 }) => {
+  const selection = useSelection();
+  const simulation = useSimulation();
+  const filter = useFilter();
+  const ui = useUI();
+
+  const selectedLineIds = propSelectedLineIds ?? selection.selectedLineIds;
+  const onChangeSelectedLines = propOnChangeSelectedLines ?? selection.setSelectedLineIds;
+  const onSelectStation = propOnSelectStation ?? ((st: Station) => {
+    selection.selectStation(st);
+    ui.openSidebar();
+  });
+  const onSelectTrain = propOnSelectTrain ?? ((tr: ActiveTrain) => {
+    selection.selectTrain(tr);
+    ui.openSidebar();
+  });
+  const activeTrains = propActiveTrains ?? simulation.activeTrains;
+  const isHoliday = propIsHoliday ?? simulation.isHoliday;
+  const onToggleHoliday = propOnToggleHoliday ?? simulation.toggleHoliday;
+  const selectedTrain = propSelectedTrain ?? simulation.selectedTrain;
+  const isTrackingTrain = propIsTrackingTrain ?? selection.isTrackingTrain;
+  const onStopTracking = propOnStopTracking ?? selection.stopTracking;
+  const filterDirection = propFilterDirection ?? filter.filterDirection;
+  const onChangeFilterDirection = propOnChangeFilterDirection ?? filter.setFilterDirection;
+  const filterType = propFilterType ?? filter.filterType;
+  const onChangeFilterType = propOnChangeFilterType ?? filter.setFilterType;
+  const isSidebarOpen = propIsSidebarOpen ?? ui.isSidebarOpen;
+  const onCloseSidebar = propOnCloseSidebar ?? (() => {
+    ui.closeSidebar();
+    if (!selection.isTrackingTrain) {
+      selection.clearTargetSelection();
+    }
+  });
+  const onOpenSidebar = propOnOpenSidebar ?? ui.openSidebar;
+
+  const onOpenSettings = propOnOpenSettings ?? ui.openSettings;
+  const onOpenHelp = propOnOpenHelp ?? ui.openHelp;
+  const onOpenInstall = propOnOpenInstall ?? ui.openInstall;
+
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [canInstall, setCanInstall] = useState(false);
@@ -183,11 +228,21 @@ export const Header: React.FC<HeaderProps> = ({
         <span className="whitespace-nowrap">{isHoliday ? '土休日ダイヤ' : '平日ダイヤ'}</span>
       </button>
 
-      {/* 走行中列車数 */}
+      {/* 走行中列車数 / ダイヤ読込中インジケーター */}
       <div className="pointer-events-auto shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-white/95 backdrop-blur-md text-xs font-semibold text-slate-700 shadow-md border border-slate-200">
-        <Train className="w-3.5 h-3.5 text-sky-600 shrink-0" />
-        <span className="whitespace-nowrap">走行中 <strong className="text-sky-700 font-bold">{activeTrains.length}</strong> 列車</span>
+        {simulation.isLoadingTimetables ? (
+          <>
+            <Loader2 className="w-3.5 h-3.5 text-sky-600 animate-spin shrink-0" />
+            <span className="whitespace-nowrap text-sky-700 font-medium">ダイヤ読込中...</span>
+          </>
+        ) : (
+          <>
+            <Train className="w-3.5 h-3.5 text-sky-600 shrink-0" />
+            <span className="whitespace-nowrap">走行中 <strong className="text-sky-700 font-bold">{activeTrains.length}</strong> 列車</span>
+          </>
+        )}
       </div>
+
 
       {/* アプリインストールボタン (ブラウザ起動時のみ) */}
       {!isStandalone && onOpenInstall && (

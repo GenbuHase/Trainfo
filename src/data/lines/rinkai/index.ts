@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { RINKAI_STATIONS } from './stations';
 import { RINKAI_TRACK_SEGMENTS } from './trackGeometry';
 import { RINKAI_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const rinkaiLine: LineDefinition = {
   id: 'rinkai',
@@ -28,6 +26,6 @@ export const rinkaiLine: LineDefinition = {
   stations: RINKAI_STATIONS,
   trackSegments: RINKAI_TRACK_SEGMENTS,
   trainTypes: RINKAI_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };

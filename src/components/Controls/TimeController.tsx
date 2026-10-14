@@ -11,41 +11,63 @@ import {
 } from 'lucide-react';
 import { secondsToTimeString } from '../../data/timetableData';
 
-interface TimeControllerProps {
-  currentSec: number;
-  onSeek: (sec: number) => void;
-  isPlaying: boolean;
-  onTogglePlay: () => void;
-  speedMultiplier: number;
-  onChangeSpeed: (speed: number) => void;
-  onSyncRealTime: () => void;
-  isRealTimeSynced: boolean;
-  globalDelayMinutes: number;
-  onChangeDelay: (minutes: number) => void;
-  onToggleRandomDelay: () => void;
-  isRandomDelayActive: boolean;
+import { useSimulation } from '../../contexts/SimulationContext';
+import { useUI } from '../../contexts/UIContext';
+
+export interface TimeControllerProps {
+  currentSec?: number;
+  onSeek?: (sec: number) => void;
+  isPlaying?: boolean;
+  onTogglePlay?: () => void;
+  speedMultiplier?: number;
+  onChangeSpeed?: (speed: number) => void;
+  onSyncRealTime?: () => void;
+  isRealTimeSynced?: boolean;
+  globalDelayMinutes?: number;
+  onChangeDelay?: (minutes: number) => void;
+  onToggleRandomDelay?: () => void;
+  isRandomDelayActive?: boolean;
   isSidebarOpen?: boolean;
   isExpanded?: boolean;
   onToggleExpanded?: () => void;
 }
 
 export const TimeController: React.FC<TimeControllerProps> = ({
-  currentSec,
-  onSeek,
-  isPlaying,
-  onTogglePlay,
-  speedMultiplier,
-  onChangeSpeed,
-  onSyncRealTime,
-  isRealTimeSynced,
-  globalDelayMinutes,
-  onChangeDelay,
-  onToggleRandomDelay,
-  isRandomDelayActive,
-  isSidebarOpen = false,
-  isExpanded,
-  onToggleExpanded,
+  currentSec: propCurrentSec,
+  onSeek: propOnSeek,
+  isPlaying: propIsPlaying,
+  onTogglePlay: propOnTogglePlay,
+  speedMultiplier: propSpeedMultiplier,
+  onChangeSpeed: propOnChangeSpeed,
+  onSyncRealTime: propOnSyncRealTime,
+  isRealTimeSynced: propIsRealTimeSynced,
+  globalDelayMinutes: propGlobalDelayMinutes,
+  onChangeDelay: propOnChangeDelay,
+  onToggleRandomDelay: propOnToggleRandomDelay,
+  isRandomDelayActive: propIsRandomDelayActive,
+  isSidebarOpen: propIsSidebarOpen,
+  isExpanded: propIsExpanded,
+  onToggleExpanded: propOnToggleExpanded,
 }) => {
+  const simulation = useSimulation();
+  const ui = useUI();
+
+  const currentSec = propCurrentSec ?? simulation.currentSec;
+  const onSeek = propOnSeek ?? simulation.seekTime;
+  const isPlaying = propIsPlaying ?? simulation.isPlaying;
+  const onTogglePlay = propOnTogglePlay ?? simulation.togglePlay;
+  const speedMultiplier = propSpeedMultiplier ?? simulation.speedMultiplier;
+  const onChangeSpeed = propOnChangeSpeed ?? simulation.setSpeed;
+  const onSyncRealTime = propOnSyncRealTime ?? simulation.syncRealTime;
+  const isRealTimeSynced = propIsRealTimeSynced ?? simulation.isRealTimeSynced;
+  const globalDelayMinutes = propGlobalDelayMinutes ?? simulation.globalDelayMinutes;
+  const onChangeDelay = propOnChangeDelay ?? simulation.setDelay;
+  const onToggleRandomDelay = propOnToggleRandomDelay ?? simulation.toggleRandomDelay;
+  const isRandomDelayActive = propIsRandomDelayActive ?? (Object.keys(simulation.randomDelays).length > 0);
+  const isSidebarOpen = propIsSidebarOpen ?? ui.isSidebarOpen;
+  const onToggleExpanded = propOnToggleExpanded ?? ui.toggleTimeControllerExpanded;
+  const isExpanded = propIsExpanded ?? ui.isTimeControllerExpanded;
+
   const [internalExpanded, setInternalExpanded] = useState(false);
   const [isSpeedMenuOpen, setIsSpeedMenuOpen] = useState(false);
   const speedMenuRef = useRef<HTMLDivElement>(null);

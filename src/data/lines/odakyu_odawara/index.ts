@@ -2,8 +2,6 @@ import type { LineDefinition } from '../../../types';
 import { ODAKYU_ODAWARA_STATIONS } from './stations';
 import { ODAKYU_ODAWARA_TRACK_SEGMENTS } from './trackGeometry';
 import { ODAKYU_ODAWARA_TRAIN_TYPES } from './trainTypes';
-import odakyuOdawaraStationTimetables from './stationTimetables.json';
-import odakyuOdawaraGlobalTimetable from './globalTimetable.json';
 
 export const odakyuOdawaraLine: LineDefinition = {
   id: 'odakyu_odawara',
@@ -16,8 +14,8 @@ export const odakyuOdawaraLine: LineDefinition = {
   stations: ODAKYU_ODAWARA_STATIONS,
   trackSegments: ODAKYU_ODAWARA_TRACK_SEGMENTS,
   trainTypes: ODAKYU_ODAWARA_TRAIN_TYPES,
-  stationTimetables: odakyuOdawaraStationTimetables as any,
-  globalTimetable: odakyuOdawaraGlobalTimetable as any,
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
   defaultBounds: [
     [35.23, 139.13],
     [35.71, 139.72],

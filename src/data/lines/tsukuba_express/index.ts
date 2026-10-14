@@ -1,9 +1,7 @@
-import type { LineDefinition, StationTimetableStore, TimetableTrip } from '../../../types';
+import type { LineDefinition } from '../../../types';
 import { TX_STATIONS } from './stations';
 import { TX_TRACK_SEGMENTS } from './trackGeometry';
 import { TX_TRAIN_TYPES } from './trainTypes';
-import rawStationTimetables from './stationTimetables.json';
-import rawGlobalTimetable from './globalTimetable.json';
 
 export const tsukubaExpressLine: LineDefinition = {
   id: 'tsukuba_express',
@@ -28,6 +26,6 @@ export const tsukubaExpressLine: LineDefinition = {
   stations: TX_STATIONS,
   trackSegments: TX_TRACK_SEGMENTS,
   trainTypes: TX_TRAIN_TYPES,
-  stationTimetables: rawStationTimetables as unknown as StationTimetableStore,
-  globalTimetable: rawGlobalTimetable as unknown as TimetableTrip[],
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
 };
