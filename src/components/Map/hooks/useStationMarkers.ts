@@ -39,22 +39,15 @@ export function useStationMarkers({
 
   // 1. 路線変更時の駅マーカー生成（必要な駅のみ差分同期）
   useEffect(() => {
-    console.log('[useStationMarkers] useEffect called', {
-      hasMap: Boolean(mapRef.current),
-      hasLayer: Boolean(stationLayerRef.current),
-      selectedLineIds,
-    });
     if (!mapRef.current || !stationLayerRef.current) return;
 
     // レイヤーグループのインスタンスが再生成された場合はキャッシュをクリア
     if (prevStationLayerRef.current !== stationLayerRef.current) {
-      console.log('[useStationMarkers] layer changed, clearing cache');
       markersRef.current.clear();
       prevStationLayerRef.current = stationLayerRef.current;
     }
 
     const stations = getStations(selectedLineIds);
-    console.log('[useStationMarkers] stations count:', stations.length);
     const stationIdSet = new Set(stations.map((s) => s.id));
 
     // 不要になったマーカーを削除
