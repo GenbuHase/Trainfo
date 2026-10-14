@@ -31,7 +31,13 @@ export type LineId =
   | 'sotetsu_main'
   | 'sotetsu_izumino'
   | 'sotetsu_jr_direct'
+  | 'chiyoda'
+  | 'joban_local'
+  | 'joban_rapid'
+  | 'joban_toride_iwaki'
+  | 'joban_iwaki_sendai'
   | (string & {});
+
 
 
 // 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋東京メトロ＋西武線＋秩父鉄道＋汎用）

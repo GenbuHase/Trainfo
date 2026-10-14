@@ -1,0 +1,31 @@
+import type { LineDefinition } from '../../../types';
+import { JOBAN_TORIDE_IWAKI_STATIONS } from './stations';
+import { JOBAN_TORIDE_IWAKI_TRAIN_TYPES } from './trainTypes';
+import { JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS } from './trackGeometry';
+
+export const jobanTorideIwakiLine: LineDefinition = {
+  id: 'joban_toride_iwaki',
+  name: 'JR常磐線（取手～いわき）',
+  shortName: '常磐線（取手～いわき）',
+  operator: 'JR東日本',
+  lineColor: '#0071c5', // 常磐線（中距離電車）カラー
+  accentColor: '#0071c5',
+  defaultCars: 10,
+  defaultBounds: [
+    [35.890, 140.050], // 取手周辺
+    [37.070, 140.910], // いわき周辺
+  ],
+  directionNames: {
+    inbound: '土浦・上野・品川方面',
+    outbound: '水戸・いわき方面',
+    inboundFull: '上り 土浦・取手・上野・品川方面',
+    outboundFull: '下り 水戸・高萩・いわき方面',
+    inboundShort: '上野方面',
+    outboundShort: 'いわき方面',
+  },
+  stations: JOBAN_TORIDE_IWAKI_STATIONS,
+  trackSegments: JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS,
+  trainTypes: JOBAN_TORIDE_IWAKI_TRAIN_TYPES,
+  stationTimetables: { weekday: {}, holiday: {} },
+  globalTimetable: [],
+};

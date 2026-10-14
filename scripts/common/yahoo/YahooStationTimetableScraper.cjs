@@ -188,32 +188,50 @@ class YahooStationTimetableScraper {
 
         // 下り (outbound)
         if (st.outGroupId) {
-          const res = await this.fetchStationTimetable(st, st.outGroupId, day.kind, 'outbound', day.key);
-          store[day.key][st.id].outbound = res.departures;
-          for (const ref of res.trainRefs) {
-            const trainKey = `${ref.dayKey}_${ref.trainId}`;
-            const existing = uniqueTrainMap.get(trainKey);
-            if (!existing) {
-              uniqueTrainMap.set(trainKey, ref);
-            } else if (existing.trainType === 'local' && ref.trainType !== 'local') {
-              existing.trainType = ref.trainType;
+          const groupIds = Array.isArray(st.outGroupId) ? st.outGroupId : [st.outGroupId];
+          const allDeps = [];
+          for (const gid of groupIds) {
+            const res = await this.fetchStationTimetable(st, gid, day.kind, 'outbound', day.key);
+            allDeps.push(...res.departures);
+            for (const ref of res.trainRefs) {
+              const trainKey = `${ref.dayKey}_${ref.trainId}`;
+              const existing = uniqueTrainMap.get(trainKey);
+              if (!existing) {
+                uniqueTrainMap.set(trainKey, ref);
+              } else if (existing.trainType === 'local' && ref.trainType !== 'local') {
+                existing.trainType = ref.trainType;
+              }
             }
           }
+          allDeps.sort((a, b) => {
+            if (a.sec !== b.sec) return a.sec - b.sec;
+            return (a.no || '').localeCompare(b.no || '');
+          });
+          store[day.key][st.id].outbound = allDeps;
         }
 
         // 上り (inbound)
         if (st.inGroupId) {
-          const res = await this.fetchStationTimetable(st, st.inGroupId, day.kind, 'inbound', day.key);
-          store[day.key][st.id].inbound = res.departures;
-          for (const ref of res.trainRefs) {
-            const trainKey = `${ref.dayKey}_${ref.trainId}`;
-            const existing = uniqueTrainMap.get(trainKey);
-            if (!existing) {
-              uniqueTrainMap.set(trainKey, ref);
-            } else if (existing.trainType === 'local' && ref.trainType !== 'local') {
-              existing.trainType = ref.trainType;
+          const groupIds = Array.isArray(st.inGroupId) ? st.inGroupId : [st.inGroupId];
+          const allDeps = [];
+          for (const gid of groupIds) {
+            const res = await this.fetchStationTimetable(st, gid, day.kind, 'inbound', day.key);
+            allDeps.push(...res.departures);
+            for (const ref of res.trainRefs) {
+              const trainKey = `${ref.dayKey}_${ref.trainId}`;
+              const existing = uniqueTrainMap.get(trainKey);
+              if (!existing) {
+                uniqueTrainMap.set(trainKey, ref);
+              } else if (existing.trainType === 'local' && ref.trainType !== 'local') {
+                existing.trainType = ref.trainType;
+              }
             }
           }
+          allDeps.sort((a, b) => {
+            if (a.sec !== b.sec) return a.sec - b.sec;
+            return (a.no || '').localeCompare(b.no || '');
+          });
+          store[day.key][st.id].inbound = allDeps;
         }
 
         completedSteps++;

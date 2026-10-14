@@ -165,7 +165,38 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#002b66',
     numColor: '#001b44',
   },
+  // 東京メトロ千代田線
+  C: {
+    borderColor: '#00bb85',
+    prefixColor: '#00bb85',
+    numColor: '#008a62',
+  },
+  // JR常磐線各駅停車
+  JL: {
+    borderColor: '#9e9e9f',
+    prefixColor: '#9e9e9f',
+    numColor: '#707071',
+  },
+  // JR常磐線快速
+  JJ: {
+    borderColor: '#00c18a',
+    prefixColor: '#00c18a',
+    numColor: '#00966b',
+  },
+  // JR常磐線（取手～いわき）
+  JN: {
+    borderColor: '#0071c5',
+    prefixColor: '#0071c5',
+    numColor: '#005596',
+  },
+  // JR常磐線（いわき～仙台）
+  JSD: {
+    borderColor: '#0071c5',
+    prefixColor: '#0071c5',
+    numColor: '#005596',
+  },
 };
+
 
 const DEFAULT_BADGE_COLOR: StationBadgeColor = {
   borderColor: '#64748b',

@@ -107,8 +107,16 @@ export function useLeafletMap({
     return () => {
       if (resizeTimer) clearTimeout(resizeTimer);
       resizeObserver.disconnect();
+      polylineLayerRef.current?.clearLayers();
+      stationLayerRef.current?.clearLayers();
+      trainLayerRef.current?.clearLayers();
+      locationLayerRef.current?.clearLayers();
       map.remove();
       mapRef.current = null;
+      polylineLayerRef.current = null;
+      stationLayerRef.current = null;
+      trainLayerRef.current = null;
+      locationLayerRef.current = null;
     };
   }, []);
 

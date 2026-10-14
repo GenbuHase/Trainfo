@@ -59,5 +59,9 @@ export function useTrackPolylines({
       polylineLayerRef.current.addLayer(mainLine);
       polylineLayerRef.current.addLayer(accentDashLine);
     }
+
+    return () => {
+      polylineLayerRef.current?.clearLayers();
+    };
   }, [mapRef, polylineLayerRef, selectedLineIds]);
 }

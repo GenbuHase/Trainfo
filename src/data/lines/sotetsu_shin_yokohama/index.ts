@@ -6,7 +6,7 @@ import { SOTETSU_SHIN_YOKOHAMA_TRAIN_TYPES } from './trainTypes';
 export const sotetsuShinYokohamaLine: LineDefinition = {
   id: 'sotetsu_shin_yokohama',
   name: '相鉄新横浜線',
-  shortName: '新横浜線',
+  shortName: '相鉄新横浜線',
   operator: '相模鉄道',
   lineColor: '#002b66', // YOKOHAMA NAVYBLUE
   accentColor: '#008cd6',

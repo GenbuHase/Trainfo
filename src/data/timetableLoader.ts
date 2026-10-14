@@ -252,7 +252,48 @@ const TIMETABLE_LOADERS: Record<string, LoaderFn> = {
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
+  chiyoda: () =>
+    Promise.all([
+      import('./lines/chiyoda/globalTimetable.json'),
+      import('./lines/chiyoda/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  joban_local: () =>
+    Promise.all([
+      import('./lines/joban_local/globalTimetable.json'),
+      import('./lines/joban_local/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  joban_rapid: () =>
+    Promise.all([
+      import('./lines/joban_rapid/globalTimetable.json'),
+      import('./lines/joban_rapid/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  joban_toride_iwaki: () =>
+    Promise.all([
+      import('./lines/joban_toride_iwaki/globalTimetable.json'),
+      import('./lines/joban_toride_iwaki/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  joban_iwaki_sendai: () =>
+    Promise.all([
+      import('./lines/joban_iwaki_sendai/globalTimetable.json'),
+      import('./lines/joban_iwaki_sendai/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
 };
+
 
 // ロード済み路線のIDセット
 const loadedLinesSet = new Set<string>();

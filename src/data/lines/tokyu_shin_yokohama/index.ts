@@ -6,7 +6,7 @@ import { TOKYU_SHIN_YOKOHAMA_TRAIN_TYPES } from './trainTypes';
 export const tokyuShinYokohamaLine: LineDefinition = {
   id: 'tokyu_shin_yokohama',
   name: '東急新横浜線',
-  shortName: '新横浜線',
+  shortName: '東急新横浜線',
   operator: '東急電鉄',
   lineColor: '#5b2d86', // 東急新横浜線パープル
   accentColor: '#ea5504',

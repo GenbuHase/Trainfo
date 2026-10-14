@@ -6,7 +6,7 @@ import { SOTETSU_MAIN_TRAIN_TYPES } from './trainTypes';
 export const sotetsuMainLine: LineDefinition = {
   id: 'sotetsu_main',
   name: '相鉄本線',
-  shortName: '本線',
+  shortName: '相鉄線',
   operator: '相模鉄道',
   lineColor: '#002b66', // YOKOHAMA NAVYBLUE
   accentColor: '#008cd6',
