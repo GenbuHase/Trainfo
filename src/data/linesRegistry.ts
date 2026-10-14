@@ -33,6 +33,7 @@ import { chiyodaLine } from './lines/chiyoda';
 import { jobanLine } from './lines/joban';
 import { jobanRapidLine } from './lines/joban_rapid';
 import { jobanNorthLine } from './lines/joban_north';
+import { jobanSendaiLine } from './lines/joban_sendai';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -47,6 +48,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   joban: jobanLine,
   joban_rapid: jobanRapidLine,
   joban_north: jobanNorthLine,
+  joban_sendai: jobanSendaiLine,
   seibu_ikebukuro: seibuIkebukuroLine,
 
   seibu_yurakucho: seibuYurakuchoLine,

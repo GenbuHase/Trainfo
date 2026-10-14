@@ -43,5 +43,6 @@ function auditTrackFile(filePath, lineName) {
 auditTrackFile('src/data/lines/chiyoda/trackGeometry.ts', '東京メトロ千代田線');
 auditTrackFile('src/data/lines/joban/trackGeometry.ts', 'JR常磐線');
 auditTrackFile('src/data/lines/joban_rapid/trackGeometry.ts', 'JR常磐線快速');
-auditTrackFile('src/data/lines/joban_north/trackGeometry.ts', 'JR常磐線(取手以北)');
+auditTrackFile('src/data/lines/joban_north/trackGeometry.ts', 'JR常磐線(取手～いわき)');
+auditTrackFile('src/data/lines/joban_sendai/trackGeometry.ts', 'JR常磐線(いわき～仙台)');
 

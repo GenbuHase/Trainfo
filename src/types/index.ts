@@ -35,7 +35,9 @@ export type LineId =
   | 'joban'
   | 'joban_rapid'
   | 'joban_north'
+  | 'joban_sendai'
   | (string & {});
+
 
 
 // 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋東京メトロ＋西武線＋秩父鉄道＋汎用）

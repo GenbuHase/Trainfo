@@ -2165,6 +2165,9 @@ if (target === 'joban_rapid' || target === 'jr' || target === 'all') {
 if (target === 'joban_north' || target === 'jr' || target === 'all') {
   enrichJobanNorth();
 }
+if (target === 'joban_sendai' || target === 'jr' || target === 'all') {
+  enrichJobanSendai();
+}
 
 
 /**
@@ -3462,7 +3465,98 @@ function enrichJobanNorth() {
     safeWriteJson(stationPath, stationTimetables);
     console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
   }
-  console.log('✅ JR常磐線(取手以北)の公式列車番号を正常に更新しました！\n');
+  console.log('✅ JR常磐線(取手～いわき)の公式列車番号を正常に更新しました！\n');
+}
+
+/**
+ * JR常磐線(いわき～仙台)のエンリッチメント処理
+ */
+function enrichJobanSendai() {
+  console.log('=== JR常磐線(いわき～仙台) 公式列車番号エンリッチメント開始 ===');
+
+  const globalPath = path.resolve('src/data/lines/joban_sendai/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/joban_sendai/stationTimetables.json');
+  const cacheDir = path.resolve('scripts/cache/yahoo/joban_sendai/stations');
+
+  if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
+    console.warn('必要なデータファイルが見つかりません: JR常磐線(いわき～仙台)');
+    return;
+  }
+
+  const files = fs.readdirSync(cacheDir).filter(f => f.endsWith('.json'));
+  const trainMap = new Map(); // `${dayKey}_${trainId}` -> vendorTrainId
+  for (const f of files) {
+    const isHoliday = f.includes('_k4');
+    const dayKey = isHoliday ? 'holiday' : 'weekday';
+    const data = JSON.parse(fs.readFileSync(path.join(cacheDir, f), 'utf8'));
+    const tt = data?.timetableItem;
+    for (const h of tt?.hourTimeTable || []) {
+      for (const t of h.minTimeTable || []) {
+        if (t.trainId && t.vendorTrainId) {
+          const key = `${dayKey}_${t.trainId}`;
+          if (!trainMap.has(key)) {
+            trainMap.set(key, t.vendorTrainId);
+          }
+        }
+      }
+    }
+  }
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const stationTimetables = fs.existsSync(stationPath)
+    ? JSON.parse(fs.readFileSync(stationPath, 'utf8'))
+    : null;
+
+  let matchedCount = 0;
+  let fallbackCount = 0;
+  const trainIdToOfficialNo = new Map();
+
+  for (const trip of trips) {
+    const originalId = trip.trainId || trip.trainNumber;
+    trip.trainId = originalId;
+
+    const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+    const key = `${dayKey}_${originalId}`;
+
+    if (trainMap.has(key)) {
+      const vendorNo = trainMap.get(key);
+      trip.trainNumber = normalizeTrainNumber(vendorNo);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+      matchedCount++;
+    } else {
+      fallbackCount++;
+      trip.trainNumber = originalId;
+      trainIdToOfficialNo.set(originalId, originalId);
+    }
+  }
+
+  console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
+  console.log(`  公式列車番号突合: ${matchedCount} 便`);
+  console.log(`  未突合(フォールバック): ${fallbackCount} 便`);
+  safeWriteJson(globalPath, trips);
+
+  if (stationTimetables) {
+    let stUpdatedCount = 0;
+    for (const day of ['weekday', 'holiday']) {
+      const dayData = stationTimetables[day] || {};
+      for (const stId of Object.keys(dayData)) {
+        for (const dir of ['inbound', 'outbound']) {
+          const deps = dayData[stId]?.[dir] || [];
+          for (const dep of deps) {
+            const lookupId = dep.trainId || dep.no;
+            if (lookupId && trainIdToOfficialNo.has(lookupId)) {
+              dep.trainId = lookupId;
+              dep.no = trainIdToOfficialNo.get(lookupId);
+              stUpdatedCount++;
+            }
+          }
+        }
+      }
+    }
+    safeWriteJson(stationPath, stationTimetables);
+    console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
+  }
+  console.log('✅ JR常磐線(いわき～仙台)の公式列車番号を正常に更新しました！\n');
 }
 
 

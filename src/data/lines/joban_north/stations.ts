@@ -26,7 +26,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": true,
     "platforms": {
@@ -55,7 +56,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": false,
     "platforms": {
@@ -86,7 +88,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": false,
     "platforms": {
@@ -115,7 +118,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": false,
     "platforms": {
@@ -144,7 +148,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": false,
     "platforms": {
@@ -173,7 +178,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": false,
     "platforms": {
@@ -202,7 +208,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": true,
     "platforms": {
@@ -231,7 +238,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": false,
     "platforms": {
@@ -260,7 +268,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": false,
     "platforms": {
@@ -289,7 +298,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": true,
     "platforms": {
@@ -318,7 +328,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": false,
     "platforms": {
@@ -347,7 +358,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": false,
     "platforms": {
@@ -378,7 +390,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": true,
     "platforms": {
@@ -407,7 +420,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": false,
     "platforms": {
@@ -436,7 +450,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": false,
     "platforms": {
@@ -465,7 +480,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": false,
     "platforms": {
@@ -497,7 +513,8 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": true,
     "platforms": {
@@ -528,12 +545,528 @@ export const JOBAN_NORTH_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": true,
     "platforms": {
       "inbound": "2番線",
       "outbound": "3・4番線"
+    }
+  },
+  {
+    "id": "JN-19",
+    "lineId": "joban_north",
+    "number": 19,
+    "name": "佐和",
+    "nameKana": "さわ",
+    "nameEn": "Sawa",
+    "lat": 36.4299,
+    "lng": 140.5403,
+    "transfers": [],
+    "address": "茨城県ひたちなか市大字高場字向山558",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": false,
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-20",
+    "lineId": "joban_north",
+    "number": 20,
+    "name": "東海",
+    "nameKana": "とうかい",
+    "nameEn": "Tokai",
+    "lat": 36.4656,
+    "lng": 140.566,
+    "transfers": [],
+    "address": "茨城県那珂郡東海村舟石川駅東一丁目1-1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-21",
+    "lineId": "joban_north",
+    "number": 21,
+    "name": "大甕",
+    "nameKana": "おおみか",
+    "nameEn": "Omika",
+    "lat": 36.5131,
+    "lng": 140.6196,
+    "transfers": [],
+    "address": "茨城県日立市大みか町二丁目23-1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-22",
+    "lineId": "joban_north",
+    "number": 22,
+    "name": "常陸多賀",
+    "nameKana": "ひたちたが",
+    "nameEn": "Hitachi-Taga",
+    "lat": 36.552,
+    "lng": 140.6324,
+    "transfers": [],
+    "address": "茨城県日立市多賀町一丁目1-1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-23",
+    "lineId": "joban_north",
+    "number": 23,
+    "name": "日立",
+    "nameKana": "ひたち",
+    "nameEn": "Hitachi",
+    "lat": 36.5909,
+    "lng": 140.662,
+    "transfers": [],
+    "address": "茨城県日立市幸町一丁目1-1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-24",
+    "lineId": "joban_north",
+    "number": 24,
+    "name": "小木津",
+    "nameKana": "おぎつ",
+    "nameEn": "Ogitsu",
+    "lat": 36.6368,
+    "lng": 140.6752,
+    "transfers": [],
+    "address": "茨城県日立市日高町一丁目1-1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": false,
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-25",
+    "lineId": "joban_north",
+    "number": 25,
+    "name": "十王",
+    "nameKana": "じゅうおう",
+    "nameEn": "Juo",
+    "lat": 36.6714,
+    "lng": 140.6859,
+    "transfers": [],
+    "address": "茨城県日立市十王町友部字手綱",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": false,
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-26",
+    "lineId": "joban_north",
+    "number": 26,
+    "name": "高萩",
+    "nameKana": "たかはぎ",
+    "nameEn": "Takahagi",
+    "lat": 36.7146,
+    "lng": 140.717,
+    "transfers": [],
+    "address": "茨城県高萩市大字高萩1928",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-27",
+    "lineId": "joban_north",
+    "number": 27,
+    "name": "南中郷",
+    "nameKana": "みなみなかごう",
+    "nameEn": "Minami-Nakago",
+    "lat": 36.7533,
+    "lng": 140.7289,
+    "transfers": [],
+    "address": "茨城県北茨城市中郷町小野矢指",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": false,
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-28",
+    "lineId": "joban_north",
+    "number": 28,
+    "name": "磯原",
+    "nameKana": "いそはら",
+    "nameEn": "Isohara",
+    "lat": 36.7905,
+    "lng": 140.7459,
+    "transfers": [],
+    "address": "茨城県北茨城市磯原町磯原",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-29",
+    "lineId": "joban_north",
+    "number": 29,
+    "name": "大津港",
+    "nameKana": "おおつこう",
+    "nameEn": "Otsuko",
+    "lat": 36.8468,
+    "lng": 140.778,
+    "transfers": [],
+    "address": "茨城県北茨城市大津町",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": false,
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-30",
+    "lineId": "joban_north",
+    "number": 30,
+    "name": "勿来",
+    "nameKana": "なこそ",
+    "nameEn": "Nakoso",
+    "lat": 36.884,
+    "lng": 140.7868,
+    "transfers": [],
+    "address": "福島県いわき市勿来町関田関山",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-31",
+    "lineId": "joban_north",
+    "number": 31,
+    "name": "植田",
+    "nameKana": "うえだ",
+    "nameEn": "Ueda",
+    "lat": 36.9203,
+    "lng": 140.7966,
+    "transfers": [],
+    "address": "福島県いわき市植田町佐糠町",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-32",
+    "lineId": "joban_north",
+    "number": 32,
+    "name": "泉",
+    "nameKana": "いずみ",
+    "nameEn": "Izumi",
+    "lat": 36.9556,
+    "lng": 140.8541,
+    "transfers": [
+      "福島臨海鉄道本線(貨物)"
+    ],
+    "address": "福島県いわき市泉町滝尻字松原",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "2・3番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-33",
+    "lineId": "joban_north",
+    "number": 33,
+    "name": "湯本",
+    "nameKana": "ゆもと",
+    "nameEn": "Yumoto",
+    "lat": 37.0066,
+    "lng": 140.8501,
+    "transfers": [],
+    "address": "福島県いわき市常磐湯本町天王崎",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-34",
+    "lineId": "joban_north",
+    "number": 34,
+    "name": "内郷",
+    "nameKana": "うちごう",
+    "nameEn": "Uchigo",
+    "lat": 37.0357,
+    "lng": 140.8548,
+    "transfers": [],
+    "address": "福島県いわき市内郷綴町榎下",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": false,
+    "platforms": {
+      "inbound": "2番線",
+      "outbound": "1番線"
+    }
+  },
+  {
+    "id": "JN-35",
+    "lineId": "joban_north",
+    "number": 35,
+    "name": "いわき",
+    "nameKana": "いわき",
+    "nameEn": "Iwaki",
+    "lat": 37.0583,
+    "lng": 140.8922,
+    "transfers": [
+      "JR常磐線(いわき～仙台)",
+      "JR磐越東線"
+    ],
+    "address": "福島県いわき市平字田町1",
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "special_rapid",
+      "limited_express"
+    ],
+    "isMajor": true,
+    "platforms": {
+      "inbound": "1・2・3番線",
+      "outbound": "3・4・5番線"
     }
   }
 ];

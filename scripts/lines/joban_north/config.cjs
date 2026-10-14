@@ -1,7 +1,7 @@
-// JR常磐線(取手以北) Yahoo! 路線情報スクレイパー設定 (取手 〜 勝田 全18駅)
+// JR常磐線(取手～いわき) Yahoo! 路線情報スクレイパー設定 (取手 〜 いわき 全35駅)
 module.exports = {
   lineId: 'joban_north',
-  name: 'JR常磐線(取手以北)',
+  name: 'JR常磐線(取手～いわき)',
   stationsFilePath: 'src/data/lines/joban_north/stations.ts',
   outputPaths: {
     stationTimetables: 'src/data/lines/joban_north/stationTimetables.json',
@@ -25,7 +25,24 @@ module.exports = {
     { id: 'JN-15', name: '赤塚', yahooStationId: '21579', inGroupId: '650', outGroupId: '651' },
     { id: 'JN-16', name: '偕楽園', yahooStationId: '21687', inGroupId: null, outGroupId: null },
     { id: 'JN-17', name: '水戸', yahooStationId: '21710', inGroupId: '650', outGroupId: '651' },
-    { id: 'JN-18', name: '勝田', yahooStationId: '21615', inGroupId: '650', outGroupId: null },
+    { id: 'JN-18', name: '勝田', yahooStationId: '21615', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-19', name: '佐和', yahooStationId: '21638', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-20', name: '東海', yahooStationId: '21666', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-21', name: '大甕', yahooStationId: '21603', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-22', name: '常陸多賀', yahooStationId: '21698', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-23', name: '日立', yahooStationId: '21691', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-24', name: '小木津', yahooStationId: '21605', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-25', name: '十王', yahooStationId: '21622', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-26', name: '高萩', yahooStationId: '21655', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-27', name: '南中郷', yahooStationId: '21714', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-28', name: '磯原', yahooStationId: '21587', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-29', name: '大津港', yahooStationId: '21600', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-30', name: '勿来', yahooStationId: '21522', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-31', name: '植田', yahooStationId: '21445', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-32', name: '泉', yahooStationId: '21430', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-33', name: '湯本', yahooStationId: '21574', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-34', name: '内郷', yahooStationId: '21446', inGroupId: '650', outGroupId: '651' },
+    { id: 'JN-35', name: 'いわき', yahooStationId: '21435', inGroupId: '650', outGroupId: null },
   ],
   stationNameAliases: {},
   trainTypeMap: {
@@ -54,5 +71,22 @@ module.exports = {
     15: 240, // 赤塚 -> 偕楽園
     16: 180, // 偕楽園 -> 水戸
     17: 360, // 水戸 -> 勝田
+    18: 300, // 勝田 -> 佐和
+    19: 300, // 佐和 -> 東海
+    20: 420, // 東海 -> 大甕
+    21: 300, // 大甕 -> 常陸多賀
+    22: 300, // 常陸多賀 -> 日立
+    23: 360, // 日立 -> 小木津
+    24: 360, // 小木津 -> 十王
+    25: 420, // 十王 -> 高萩
+    26: 360, // 高萩 -> 南中郷
+    27: 300, // 南中郷 -> 磯原
+    28: 420, // 磯原 -> 大津港
+    29: 420, // 大津港 -> 勿来
+    30: 360, // 勿来 -> 植田
+    31: 360, // 植田 -> 泉
+    32: 360, // 泉 -> 湯本
+    33: 360, // 湯本 -> 内郷
+    34: 300, // 内郷 -> いわき
   },
 };

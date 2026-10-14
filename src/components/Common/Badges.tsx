@@ -183,13 +183,20 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#005aaa',
     numColor: '#003e75',
   },
-  // JR常磐線（取手以北）
+  // JR常磐線（取手～いわき）
   JN: {
     borderColor: '#005aaa',
     prefixColor: '#005aaa',
     numColor: '#003e75',
   },
+  // JR常磐線（いわき～仙台）
+  JSD: {
+    borderColor: '#005aaa',
+    prefixColor: '#005aaa',
+    numColor: '#003e75',
+  },
 };
+
 
 const DEFAULT_BADGE_COLOR: StationBadgeColor = {
   borderColor: '#64748b',
