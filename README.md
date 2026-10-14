@@ -145,8 +145,12 @@
 - **モジュラーカスタムフック & Context レイヤー分離**:
   - `TrainMap` の肥大化を解消し、6つの単一責務カスタムフック（`useLeafletMap`, `useTrackPolylines`, `useStationMarkers`, `useTrainMarkers`, `useMapCamera`, `useGeolocation`）に分離。
   - 状態管理を `SimulationContext`, `SelectionContext`, `FilterContext`, `UIContext` に階層化し、コンポーネント再レンダリングを局所化。
-- **モバイルパフォーマンス最適化**:
-  - モバイル端末閲覧時におけるGPU合成レイヤーの最適化を行い、長時間の倍速再生時でも白化やフリーズが発生しない滑らかなアニメーションを実現。
+- **モバイルパフォーマンス最適化（白化・フリーズ解消 & 60fps安定化）**:
+  - **GPUレイヤー合成負荷の極小化**: マーカーの重い `filter: drop-shadow` を廃止し軽量な CSS `shadow-md` に置き換え。選択時のみ `train-pulse`（`animate-ping`）を DOM 生成することで、非選択列車約390台による常時 GPU アニメーション負荷を全廃し、モバイル（iOS Safari / WebKit等）での VRAM 枯渇による白画面クラッシュ（White Screen of Death）を完全解消。
+  - **タイル白抜け＆リサイズ暴走防止**: Leaflet の `fadeAnimation: false` を設定しズーム・パン中のタイル透明化を遮断。`ResizeObserver` に 150ms デバウンスを導入し、アニメーション中の連続リサイズによるフリーズを防止。
+  - **駅マーカー（567駅）のキャッシュ＆差分更新**: 駅選択時の `clearLayers()`（全破棄・全再生成）を廃止し、選択駅要素の CSS クラス差分のみを即座に更新。
+  - **再レンダリングのスロットリング**: `SimulationContext` において秒数が変化していない描画フレームの更新を完全スキップし、毎秒数十回の無駄な全ツリー再計算を抑制。
+  - **CSS Containment**: マーカー要素に `contain: layout style; will-change: transform;` を指定し、リフロー影響範囲を局所化。
 
 ### 5. 🎛️ 事業者別セレクター & マップ直結フィルタードック（DisplayFilterDock）
 - **事業者ごとの階層化マルチ路線選択**:
