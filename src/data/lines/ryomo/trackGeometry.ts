@@ -11873,10 +11873,6 @@ export const RYOMO_TRACK_SEGMENTS: TrackSegment[] = [
         139.243102
       ],
       [
-        36.3596914,
-        139.2432474
-      ],
-      [
         36.3595789,
         139.2431097
       ],

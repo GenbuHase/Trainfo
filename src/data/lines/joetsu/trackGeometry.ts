@@ -7,8 +7,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-02",
     "coordinates": [
       [
-        36.322364,
-        139.0124871
+        36.3223687,
+        139.0126097
       ],
       [
         36.322897850000004,
@@ -266,8 +266,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         139.0228082
       ],
       [
-        36.3570702,
-        139.0230603
+        36.3570844,
+        139.0230202
       ]
     ]
   },
@@ -277,8 +277,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-04",
     "coordinates": [
       [
-        36.3570702,
-        139.0230603
+        36.3570844,
+        139.0230202
       ],
       [
         36.3578462,
@@ -457,8 +457,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         139.0462171
       ],
       [
-        36.3789162,
-        139.0469273
+        36.3788486,
+        139.0471407
       ]
     ]
   },
@@ -468,8 +468,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-05",
     "coordinates": [
       [
-        36.3789162,
-        139.0469273
+        36.3788486,
+        139.0471407
       ],
       [
         36.3794804,
@@ -1283,8 +1283,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         139.01932396666666
       ],
       [
-        36.4636602,
-        139.0191945
+        36.4636616,
+        139.0192174
       ]
     ]
   },
@@ -1294,8 +1294,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-07",
     "coordinates": [
       [
-        36.4636602,
-        139.0191945
+        36.4636616,
+        139.0192174
       ],
       [
         36.4644994,
@@ -1554,8 +1554,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         139.00833536666667
       ],
       [
-        36.4907208,
-        139.0085874
+        36.4906867,
+        139.0085523
       ]
     ]
   },
@@ -1565,8 +1565,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-08",
     "coordinates": [
       [
-        36.4907208,
-        139.0085874
+        36.4906867,
+        139.0085523
       ],
       [
         36.491190149999994,
@@ -2061,8 +2061,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         139.03397495000002
       ],
       [
-        36.5383322,
-        139.0338383
+        36.5383023,
+        139.0338283
       ]
     ]
   },
@@ -2072,8 +2072,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-09",
     "coordinates": [
       [
-        36.5383322,
-        139.0338383
+        36.5383023,
+        139.0338283
       ],
       [
         36.5384983,
@@ -2392,8 +2392,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         139.0432045
       ],
       [
-        36.5611239,
-        139.0428075
+        36.5611315,
+        139.0428322
       ]
     ]
   },
@@ -2403,8 +2403,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-10",
     "coordinates": [
       [
-        36.5611239,
-        139.0428075
+        36.5611315,
+        139.0428322
       ],
       [
         36.561376,
@@ -2919,8 +2919,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         139.0474328
       ],
       [
-        36.602963,
-        139.0471899
+        36.6030256,
+        139.0471049
       ]
     ]
   },
@@ -2930,8 +2930,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-11",
     "coordinates": [
       [
-        36.602963,
-        139.0471899
+        36.6030256,
+        139.0471049
       ],
       [
         36.60346676666667,
@@ -3709,8 +3709,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         139.001114675
       ],
       [
-        36.6793018,
-        139.0003
+        36.6792548,
+        139.0004095
       ]
     ]
   },
@@ -3720,8 +3720,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-13",
     "coordinates": [
       [
-        36.6793018,
-        139.0003
+        36.6792548,
+        139.0004095
       ],
       [
         36.679605249999994,
@@ -7166,8 +7166,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         138.8400001
       ],
       [
-        36.9242982,
-        138.8397445
+        36.9242628,
+        138.8397525
       ]
     ]
   },
@@ -7177,8 +7177,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-20",
     "coordinates": [
       [
-        36.9242982,
-        138.8397445
+        36.9242628,
+        138.8397525
       ],
       [
         36.9242757,
@@ -8184,8 +8184,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         138.80397593333333
       ],
       [
-        36.9893777,
-        138.8040403
+        36.9893095,
+        138.8040912
       ]
     ]
   },
@@ -8195,8 +8195,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-22",
     "coordinates": [
       [
-        36.9893777,
-        138.8040403
+        36.9893095,
+        138.8040912
       ],
       [
         36.98987365,
@@ -8885,8 +8885,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         138.8481762
       ],
       [
-        37.0416084,
-        138.8487402
+        37.041563,
+        138.8484348
       ]
     ]
   },
@@ -8896,8 +8896,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-25",
     "coordinates": [
       [
-        37.0416084,
-        138.8487402
+        37.041563,
+        138.8484348
       ],
       [
         37.0418613,
@@ -9180,8 +9180,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         138.8757029
       ],
       [
-        37.0671226,
-        138.8759778
+        37.0670998,
+        138.8759378
       ]
     ]
   },
@@ -9191,8 +9191,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-26",
     "coordinates": [
       [
-        37.0671226,
-        138.8759778
+        37.0670998,
+        138.8759378
       ],
       [
         37.0674405,
@@ -10512,8 +10512,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         138.9540248
       ],
       [
-        37.2335257,
-        138.9534583
+        37.2332881,
+        138.9534902
       ]
     ]
   },
@@ -10523,8 +10523,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-30",
     "coordinates": [
       [
-        37.2335257,
-        138.9534583
+        37.2332881,
+        138.9534902
       ],
       [
         37.233944050000005,
@@ -10894,8 +10894,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         138.8972213
       ],
       [
-        37.255703,
-        138.8964855
+        37.2557054,
+        138.8964258
       ]
     ]
   },
@@ -10905,8 +10905,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-32",
     "coordinates": [
       [
-        37.255703,
-        138.8964855
+        37.2557054,
+        138.8964258
       ],
       [
         37.25616803333333,
@@ -11121,8 +11121,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         138.8625875
       ],
       [
-        37.2728704,
-        138.8619237
+        37.2729129,
+        138.8619611
       ]
     ]
   },
@@ -11132,8 +11132,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-33",
     "coordinates": [
       [
-        37.2728704,
-        138.8619237
+        37.2729129,
+        138.8619611
       ],
       [
         37.2730176,
@@ -12115,8 +12115,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         138.83503355
       ],
       [
-        37.3688806,
-        138.8350229
+        37.3691078,
+        138.8350129
       ]
     ]
   },
@@ -12126,8 +12126,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-35",
     "coordinates": [
       [
-        37.3688806,
-        138.8350229
+        37.3691078,
+        138.8350129
       ],
       [
         37.369517,

@@ -470,8 +470,8 @@ export const JOETSU_STATIONS: Station[] = [
     "name": "土合",
     "nameKana": "どあい",
     "nameEn": "Doai",
-    "lat": 36.8304169,
-    "lng": 138.964686,
+    "lat": 36.829534,
+    "lng": 138.962617,
     "transfers": [
       "JR上越線"
     ],
@@ -795,8 +795,8 @@ export const JOETSU_STATIONS: Station[] = [
     "name": "浦佐",
     "nameKana": "うらさ",
     "nameEn": "Urasa",
-    "lat": 37.1672238,
-    "lng": 138.9228409,
+    "lat": 37.1678091,
+    "lng": 138.9228616,
     "transfers": [
       "JR上越線",
       "上越新幹線"
