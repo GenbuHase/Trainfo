@@ -5,12 +5,14 @@ import {
   interpolateTrackPosition,
   calculateHeading,
   calculateDistanceKm,
+  getTrackDistanceKm,
 } from '../data/trackGeometry';
 import {
   timeStringToSeconds,
   formatTrainNumber,
 } from '../data/timetableData';
 import { getCombinedGlobalTimetable } from '../data/linesRegistry';
+
 
 export interface SimulationState {
   currentSec: number;        // シミュレーション時刻（秒）0〜86399
@@ -129,6 +131,69 @@ export function isSamePhysicalStation(idA?: string, idB?: string): boolean {
   if (stA.name === stB.name) return true;
   return calculateDistanceKm(stA.lat, stA.lng, stB.lat, stB.lng) <= 0.5;
 }
+
+/**
+ * スムーズステップ関数 (Hermite interpolation)
+ * 入力 x: 0.0〜1.0 -> 出力 0.0〜1.0 (端点での微分係数 0)
+ */
+function smoothstep(x: number): number {
+  const t = Math.max(0, Math.min(1, x));
+  return t * t * (3 - 2 * t);
+}
+
+/**
+ * 駅間走行中の進行割合（progress）に応じた動的瞬時速度 (km/h) を計算
+ * - 発車時の滑らかな加速（0 -> 巡航速度）
+ * - 巡航区間
+ * - 停車前の滑らかな減速（巡航速度 -> 0）
+ * - 通過駅（isPassing: true）では減速せず巡航速度を維持
+ * - 所要時間 0 秒や負の値・NaN・Infinity を防護
+ */
+export function calculateDynamicSpeed({
+  progress,
+  avgSpeedKmh,
+  isDepPassing = false,
+  isArrPassing = false,
+}: {
+  progress: number;
+  avgSpeedKmh: number;
+  isDepPassing?: boolean;
+  isArrPassing?: boolean;
+}): number {
+  // ゼロ除算・非有限数（Infinity / NaN）・負値の防止ガード
+  if (!Number.isFinite(avgSpeedKmh) || avgSpeedKmh <= 0) {
+    return 0;
+  }
+
+  // 加速・減速区間の進捗割合（駅間の25%を使用）
+  const pAccel = isDepPassing ? 0 : 0.25;
+  const pDecel = isArrPassing ? 0 : 0.25;
+
+  // 平均速度係数: 加減速中の平均係数は 0.5（smoothstepの積分特性）
+  const avgFactor = 1 - 0.5 * pAccel - 0.5 * pDecel;
+  const cruiseSpeed = avgFactor > 0 ? avgSpeedKmh / avgFactor : avgSpeedKmh;
+
+  if (!Number.isFinite(cruiseSpeed) || cruiseSpeed <= 0) {
+    return 0;
+  }
+
+  let factor = 1.0;
+  if (pAccel > 0 && progress < pAccel) {
+    factor = smoothstep(progress / pAccel);
+  } else if (pDecel > 0 && progress > 1 - pDecel) {
+    factor = smoothstep((1 - progress) / pDecel);
+  }
+
+  // 走行中（RUNNING）の瞬間速度
+  let speed = cruiseSpeed * factor;
+
+  // 走行中は最低でも 5 km/h を下限とし、発車直後や停止直前にも「走行中」の動きを表現
+  speed = Math.max(5, speed);
+
+  return Math.round(speed * 10) / 10;
+}
+
+
 
 // 指定時刻における走行中の全列車を算出
 export function calculateActiveTrains(
@@ -301,16 +366,28 @@ export function calculateActiveTrains(
 
           // 速度計算 (km/h)
           const stNextObj = STATION_MAP.get(nextStop.stationId);
-          let speedKmh = 70;
-          if (stObj && stNextObj) {
-            const dist = calculateDistanceKm(stObj.lat, stObj.lng, stNextObj.lat, stNextObj.lng);
-            if (totalDuration > 0) {
-              speedKmh = Math.round((dist / (totalDuration / 3600)) * 10) / 10;
+          let avgSpeedKmh = 70;
+          if (stObj && stNextObj && totalDuration > 0) {
+            const trackDistKm = getTrackDistanceKm(curStop.stationId, nextStop.stationId);
+            const dist = trackDistKm !== null
+              ? trackDistKm
+              : calculateDistanceKm(stObj.lat, stObj.lng, stNextObj.lat, stNextObj.lng);
+            const calculated = dist / (totalDuration / 3600);
+            if (Number.isFinite(calculated) && calculated > 0) {
+              avgSpeedKmh = calculated;
             }
           }
 
           const nextStopStation = trip.stops.slice(i + 1).find((s) => !s.isPassing);
           const trainInfo = resolveActiveTrainInfo(trip, curStop.stationId, nextStop.stationId);
+
+          const dynamicSpeedKmh = calculateDynamicSpeed({
+            progress,
+            avgSpeedKmh,
+            isDepPassing: Boolean(curStop.isPassing),
+            isArrPassing: Boolean(nextStop.isPassing),
+          });
+
 
           activeTrains.push({
             tripId: trip.tripId,
@@ -340,7 +417,7 @@ export function calculateActiveTrains(
             nextStationId: nextStop.stationId,
             nextStopStationId: nextStopStation ? nextStopStation.stationId : nextStop.stationId,
             progressPercent: progress,
-            speedKmh: Math.min(105, Math.max(25, speedKmh)),
+            speedKmh: dynamicSpeedKmh,
             delayMinutes: trainDelay,
             departureTime: curStop.departureTime,
             arrivalTimeNext: nextStop.arrivalTime,

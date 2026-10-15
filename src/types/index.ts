@@ -37,6 +37,7 @@ export type LineId =
   | 'joban_toride_iwaki'
   | 'joban_iwaki_sendai'
   | 'tohoku_shinkansen'
+  | 'joetsu_shinkansen'
   | (string & {});
 
 
@@ -71,6 +72,8 @@ export type TrainTypeKey =
   | 'nasuno'                  // なすの（東北新幹線）
   | 'tsubasa'                 // つばさ（山形新幹線直通）
   | 'komachi'                 // こまち（秋田新幹線直通）
+  | 'toki'                    // とき（上越新幹線）
+  | 'tanigawa'                // たにがわ（上越新幹線）
   | (string & {});
 
 export interface TrainTypeConfig {
