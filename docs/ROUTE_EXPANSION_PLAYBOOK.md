@@ -14,8 +14,10 @@ Trainfo は、複数事業者の路線が同一マップ・同一シミュレー
 ```text
 Trainfo/
 ├── docs/
-│   ├── ROUTE_EXPANSION_PLAYBOOK.md     # 本手順書
-│   └── ODPT_INTEGRATION_KNOWLEDGE.md   # 将来設計ナレッジ
+│   ├── ROUTE_EXPANSION_PLAYBOOK.md            # 本手順書
+│   ├── ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md # 上下非対称・方向別軌道ルーティング設計指針
+│   ├── LINE_COLORS_GUIDELINES.md              # ラインカラー策定ガイドライン
+│   └── ODPT_INTEGRATION_KNOWLEDGE.md          # 将来設計ナレッジ
 ├── scripts/
 │   ├── runYahooImporter.cjs            # Yahoo! 乗換案内 共通インポーター CLI
 │   ├── runThroughLinker.cjs            # 汎用直通リンカー CLI（全接続ペア自動結合）
@@ -178,6 +180,10 @@ flowchart TD
      }
      ```
      > `stoppingTypes` はダイヤ合成時の通過駅判定における **Single Source of Truth** となります。
+
+4. **【重要】上下非対称路線（山岳ループ線・勾配緩和別線等）の設計基準**:
+   * 上越線（新清水トンネル vs 湯檜曽ループ線）、東海道本線（大垣〜関ケ原 新垂井線）、函館本線（藤城線）など、上りと下りで経路・トンネル・経由駅が物理的に異なる路線を追加する場合は、必ず [`docs/ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/docs/ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md) を参照してください。
+   * **要注意**: 地上ホームノードと地下ホームノードを混在させて探索すると、坑口へ向かって 1km 以上逆走・Uターンする異常パスが発生します。基準線（下り本線）または方向別セグメント（`direction: 'inbound' | 'outbound'`）に沿って駅座標と軌道を正確に整合させてください。
 
 ---
 
