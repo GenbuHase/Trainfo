@@ -47,8 +47,8 @@ export const JOETSU_STATIONS: Station[] = [
     "name": "高崎問屋町",
     "nameKana": "たかさきとんやまち",
     "nameEn": "Takasaki-Tonyamachi",
-    "lat": 36.3460185,
-    "lng": 139.0170821,
+    "lat": 36.3460252,
+    "lng": 139.0170636,
     "transfers": [
       "JR上越線",
       "JR両毛線",
@@ -142,8 +142,8 @@ export const JOETSU_STATIONS: Station[] = [
     "name": "群馬総社",
     "nameKana": "ぐんまそうじゃ",
     "nameEn": "Gumma-Soja",
-    "lat": 36.4155807,
-    "lng": 139.0322835,
+    "lat": 36.4159208,
+    "lng": 139.0321125,
     "transfers": [
       "JR上越線",
       "JR吾妻線"
@@ -321,8 +321,8 @@ export const JOETSU_STATIONS: Station[] = [
     "name": "沼田",
     "nameKana": "ぬまた",
     "nameEn": "Numata",
-    "lat": 36.6424053,
-    "lng": 139.0356609,
+    "lat": 36.6424116,
+    "lng": 139.035678,
     "transfers": [
       "JR上越線"
     ],
@@ -381,8 +381,8 @@ export const JOETSU_STATIONS: Station[] = [
     "name": "上牧",
     "nameKana": "かみもく",
     "nameEn": "Kamimoku",
-    "lat": 36.7354492,
-    "lng": 138.9845462,
+    "lat": 36.7354657,
+    "lng": 138.9845777,
     "transfers": [
       "JR上越線"
     ],
@@ -410,8 +410,8 @@ export const JOETSU_STATIONS: Station[] = [
     "name": "水上",
     "nameKana": "みなかみ",
     "nameEn": "Minakami",
-    "lat": 36.7786288,
-    "lng": 138.9689907,
+    "lat": 36.7787252,
+    "lng": 138.9689588,
     "transfers": [
       "JR上越線"
     ],
@@ -424,6 +424,630 @@ export const JOETSU_STATIONS: Station[] = [
       "local",
       "rapid",
       "limitedExp"
+    ],
+    "isMajor": true,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-15",
+    "lineId": "joetsu",
+    "number": 15,
+    "name": "湯檜曽",
+    "nameKana": "ゆびそ",
+    "nameEn": "Yubiso",
+    "lat": 36.8025972,
+    "lng": 138.9862757,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "群馬県利根郡みなかみ町湯檜曽",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-16",
+    "lineId": "joetsu",
+    "number": 16,
+    "name": "土合",
+    "nameKana": "どあい",
+    "nameEn": "Doai",
+    "lat": 36.8304169,
+    "lng": 138.964686,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "群馬県利根郡みなかみ町湯檜曽",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-17",
+    "lineId": "joetsu",
+    "number": 17,
+    "name": "土樽",
+    "nameKana": "つちたる",
+    "nameEn": "Tsuchitaru",
+    "lat": 36.8747483,
+    "lng": 138.8622042,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県南魚沼郡湯沢町大字土樽",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-18",
+    "lineId": "joetsu",
+    "number": 18,
+    "name": "越後中里",
+    "nameKana": "えちごなかざと",
+    "nameEn": "Echigo-Nakazato",
+    "lat": 36.909711,
+    "lng": 138.8484487,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県南魚沼郡湯沢町大字土樽",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-19",
+    "lineId": "joetsu",
+    "number": 19,
+    "name": "岩原スキー場前",
+    "nameKana": "いわっぱらすきーじょうまえ",
+    "nameEn": "Iwappara-Skiing-Ground",
+    "lat": 36.9242628,
+    "lng": 138.8397525,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県南魚沼郡湯沢町大字土樽",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-20",
+    "lineId": "joetsu",
+    "number": 20,
+    "name": "越後湯沢",
+    "nameKana": "えちごゆざわ",
+    "nameEn": "Echigo-Yuzawa",
+    "lat": 36.9358263,
+    "lng": 138.8103482,
+    "transfers": [
+      "JR上越線",
+      "上越新幹線",
+      "北越急行ほくほく線"
+    ],
+    "address": "新潟県南魚沼郡湯沢町大字湯沢",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid",
+      "limitedExp"
+    ],
+    "isMajor": true,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-21",
+    "lineId": "joetsu",
+    "number": 21,
+    "name": "石打",
+    "nameKana": "いしうち",
+    "nameEn": "Ishiuchi",
+    "lat": 36.9893095,
+    "lng": 138.8040912,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県南魚沼市上薬師堂",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-22",
+    "lineId": "joetsu",
+    "number": 22,
+    "name": "大沢",
+    "nameKana": "おおさわ",
+    "nameEn": "Osawa",
+    "lat": 37.0213756,
+    "lng": 138.8213997,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県南魚沼市大沢",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-23",
+    "lineId": "joetsu",
+    "number": 23,
+    "name": "上越国際スキー場前",
+    "nameKana": "じょうえつこくさいすきーじょうまえ",
+    "nameEn": "Joetsu-Kokusai-Skijo-mae",
+    "lat": 37.0288622,
+    "lng": 138.8284212,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県南魚沼市樺野沢",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-24",
+    "lineId": "joetsu",
+    "number": 24,
+    "name": "塩沢",
+    "nameKana": "しおざわ",
+    "nameEn": "Shiozawa",
+    "lat": 37.041563,
+    "lng": 138.8484348,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県南魚沼市塩沢",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-25",
+    "lineId": "joetsu",
+    "number": 25,
+    "name": "六日町",
+    "nameKana": "むいかまち",
+    "nameEn": "Muikamachi",
+    "lat": 37.0670998,
+    "lng": 138.8759378,
+    "transfers": [
+      "JR上越線",
+      "北越急行ほくほく線"
+    ],
+    "address": "新潟県南魚沼市六日町",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid"
+    ],
+    "isMajor": true,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-26",
+    "lineId": "joetsu",
+    "number": 26,
+    "name": "五日町",
+    "nameKana": "いつかまち",
+    "nameEn": "Itsukamachi",
+    "lat": 37.1195584,
+    "lng": 138.9080616,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県南魚沼市五日町",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-27",
+    "lineId": "joetsu",
+    "number": 27,
+    "name": "浦佐",
+    "nameKana": "うらさ",
+    "nameEn": "Urasa",
+    "lat": 37.1672238,
+    "lng": 138.9228409,
+    "transfers": [
+      "JR上越線",
+      "上越新幹線"
+    ],
+    "address": "新潟県南魚沼市浦佐",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid"
+    ],
+    "isMajor": true,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-28",
+    "lineId": "joetsu",
+    "number": 28,
+    "name": "八色",
+    "nameKana": "やいろ",
+    "nameEn": "Yairo",
+    "lat": 37.191982,
+    "lng": 138.9351497,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県南魚沼市浦佐",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-29",
+    "lineId": "joetsu",
+    "number": 29,
+    "name": "小出",
+    "nameKana": "こいで",
+    "nameEn": "Koide",
+    "lat": 37.2332881,
+    "lng": 138.9534902,
+    "transfers": [
+      "JR上越線",
+      "JR只見線"
+    ],
+    "address": "新潟県魚沼市四日町",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid"
+    ],
+    "isMajor": true,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-30",
+    "lineId": "joetsu",
+    "number": 30,
+    "name": "越後堀之内",
+    "nameKana": "えちごほりのうち",
+    "nameEn": "Echigo-Horinouchi",
+    "lat": 37.2390504,
+    "lng": 138.9278948,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県魚沼市堀之内",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-31",
+    "lineId": "joetsu",
+    "number": 31,
+    "name": "北堀之内",
+    "nameKana": "きたほりのうち",
+    "nameEn": "Kita-Horinouchi",
+    "lat": 37.2557054,
+    "lng": 138.8964258,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県魚沼市下島",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-32",
+    "lineId": "joetsu",
+    "number": 32,
+    "name": "越後川口",
+    "nameKana": "えちごかわぐち",
+    "nameEn": "Echigo-Kawaguchi",
+    "lat": 37.2729129,
+    "lng": 138.8619611,
+    "transfers": [
+      "JR上越線",
+      "JR飯山線"
+    ],
+    "address": "新潟県長岡市川口牛ケ島",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid"
+    ],
+    "isMajor": true,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-33",
+    "lineId": "joetsu",
+    "number": 33,
+    "name": "小千谷",
+    "nameKana": "おぢや",
+    "nameEn": "Ojiya",
+    "lat": 37.3098255,
+    "lng": 138.8133463,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県小千谷市東栄一丁目",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid"
+    ],
+    "isMajor": true,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-34",
+    "lineId": "joetsu",
+    "number": 34,
+    "name": "越後滝谷",
+    "nameKana": "えちごたきや",
+    "nameEn": "Echigo-Takiya",
+    "lat": 37.3691078,
+    "lng": 138.8350129,
+    "transfers": [
+      "JR上越線"
+    ],
+    "address": "新潟県長岡市滝谷町",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local"
+    ],
+    "isMajor": false,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
+  },
+  {
+    "id": "JOE-35",
+    "lineId": "joetsu",
+    "number": 35,
+    "name": "宮内",
+    "nameKana": "みやうち",
+    "nameEn": "Miyauchi",
+    "lat": 37.4228966,
+    "lng": 138.8403332,
+    "transfers": [
+      "JR上越線",
+      "JR信越本線"
+    ],
+    "address": "新潟県長岡市宮内三丁目",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid"
     ],
     "isMajor": true,
     "facilities": {

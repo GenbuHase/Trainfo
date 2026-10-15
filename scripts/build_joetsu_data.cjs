@@ -25,7 +25,7 @@ function findStationNode(st, nodeMap, adj) {
 }
 
 async function main() {
-  console.log('=== Building Joetsu Line Stations & Track Geometry ===');
+  console.log('=== Building Joetsu Line Stations & Track Geometry (Takasaki -> Miyauchi) ===');
 
   const osmFiles = [
     'cache/osm_joetsu.json',
@@ -54,7 +54,7 @@ async function main() {
   const ways = allElements.filter(e => e.type === 'way');
   console.log(`Loaded ${nodeMap.size} nodes, ${ways.length} ways from OSM files.`);
 
-  // 駅名定義
+  // 駅名定義 (全35駅)
   const stationDefs = [
     { id: 'JOE-01', name: '高崎', isMajor: true, stoppingTypes: ['local', 'rapid', 'limitedExp'] },
     { id: 'JOE-02', name: '高崎問屋町', stoppingTypes: ['local'] },
@@ -70,10 +70,31 @@ async function main() {
     { id: 'JOE-12', name: '後閑', stoppingTypes: ['local'] },
     { id: 'JOE-13', name: '上牧', stoppingTypes: ['local'] },
     { id: 'JOE-14', name: '水上', isMajor: true, stoppingTypes: ['local', 'rapid', 'limitedExp'] },
+    { id: 'JOE-15', name: '湯檜曽', stoppingTypes: ['local'] },
+    { id: 'JOE-16', name: '土合', stoppingTypes: ['local'] },
+    { id: 'JOE-17', name: '土樽', stoppingTypes: ['local'] },
+    { id: 'JOE-18', name: '越後中里', stoppingTypes: ['local'] },
+    { id: 'JOE-19', name: '岩原スキー場前', stoppingTypes: ['local'] },
+    { id: 'JOE-20', name: '越後湯沢', isMajor: true, stoppingTypes: ['local', 'rapid', 'limitedExp'] },
+    { id: 'JOE-21', name: '石打', stoppingTypes: ['local'] },
+    { id: 'JOE-22', name: '大沢', stoppingTypes: ['local'] },
+    { id: 'JOE-23', name: '上越国際スキー場前', stoppingTypes: ['local'] },
+    { id: 'JOE-24', name: '塩沢', stoppingTypes: ['local'] },
+    { id: 'JOE-25', name: '六日町', isMajor: true, stoppingTypes: ['local', 'rapid'] },
+    { id: 'JOE-26', name: '五日町', stoppingTypes: ['local'] },
+    { id: 'JOE-27', name: '浦佐', isMajor: true, stoppingTypes: ['local', 'rapid'] },
+    { id: 'JOE-28', name: '八色', stoppingTypes: ['local'] },
+    { id: 'JOE-29', name: '小出', isMajor: true, stoppingTypes: ['local', 'rapid'] },
+    { id: 'JOE-30', name: '越後堀之内', stoppingTypes: ['local'] },
+    { id: 'JOE-31', name: '北堀之内', stoppingTypes: ['local'] },
+    { id: 'JOE-32', name: '越後川口', isMajor: true, stoppingTypes: ['local', 'rapid'] },
+    { id: 'JOE-33', name: '小千谷', isMajor: true, stoppingTypes: ['local', 'rapid'] },
+    { id: 'JOE-34', name: '越後滝谷', stoppingTypes: ['local'] },
+    { id: 'JOE-35', name: '宮内', isMajor: true, stoppingTypes: ['local', 'rapid'] },
   ];
 
-  // OSMから駅ノードを取得
-  const osmStations = allElements.filter(e => e.type === 'node' && e.tags && (e.tags.railway === 'station' || e.tags.railway === 'halt'));
+  // OSMから駅ノードを取得 (station, halt, stop)
+  const osmStations = allElements.filter(e => e.type === 'node' && e.tags && (e.tags.railway === 'station' || e.tags.railway === 'halt' || e.tags.railway === 'stop'));
 
   const stations = [];
   for (let i = 0; i < stationDefs.length; i++) {
@@ -81,7 +102,6 @@ async function main() {
     const meta = STATION_META[def.name] || {};
 
     let lat, lng;
-    // 高崎・新前橋は既存ラインと座標を完全に一致させる
     if (def.name === '高崎') {
       lat = 36.3223687;
       lng = 139.0126097;
@@ -150,10 +170,10 @@ async function main() {
     const n1 = stationGraphNodes[i];
     const n2 = stationGraphNodes[i + 1];
 
-    console.log(`Routing segment ${s1.name} (${s1.id}) -> ${s2.name} (${s2.id})...`);
+    console.log(`Routing segment [${i + 1}/34] ${s1.name} (${s1.id}) -> ${s2.name} (${s2.id})...`);
     const pathNodeIds = dijkstraPath(adj, nodeMap, n1.id, n2.id);
 
-    if (pathNodeIds.length === 0) {
+    if (!pathNodeIds || pathNodeIds.length === 0) {
       throw new Error(`Failed to route between ${s1.name} and ${s2.name}`);
     }
 
@@ -168,10 +188,11 @@ async function main() {
     for (let j = 0; j < rawCoords.length - 1; j++) {
       pathDist += distMeters(rawCoords[j], rawCoords[j + 1]);
     }
-    console.log(`  Straight: ${(straightDist / 1000).toFixed(2)}km, Path: ${(pathDist / 1000).toFixed(2)}km (ratio: ${(pathDist / straightDist).toFixed(2)})`);
+    const ratio = pathDist / straightDist;
+    console.log(`  Straight: ${(straightDist / 1000).toFixed(2)}km, Path: ${(pathDist / 1000).toFixed(2)}km (ratio: ${ratio.toFixed(2)})`);
 
     if (pathDist > straightDist * 2.5 && straightDist > 1000) {
-      console.warn(`  WARNING: Segment ${s1.name} -> ${s2.name} might have detours!`);
+      console.warn(`  ⚠️ WARNING: Segment ${s1.name} -> ${s2.name} might have detours!`);
     }
 
     const smoothed = subdivideCoordinates(rawCoords, 100);
@@ -193,12 +214,12 @@ async function main() {
   // 1. stations.ts
   const stationsTs = `import type { Station } from '../../../types';\n\nexport const JOETSU_STATIONS: Station[] = ${JSON.stringify(stations, null, 2)};\n`;
   fs.writeFileSync(path.join(outDir, 'stations.ts'), stationsTs, 'utf8');
-  console.log(`Wrote stations.ts to ${outDir}`);
+  console.log(`Wrote stations.ts (${stations.length} stations) to ${outDir}`);
 
   // 2. trackGeometry.ts
   const trackTs = `import type { TrackSegment } from '../../../types';\n\nexport const JOETSU_TRACK_SEGMENTS: TrackSegment[] = ${JSON.stringify(trackSegments, null, 2)};\n`;
   fs.writeFileSync(path.join(outDir, 'trackGeometry.ts'), trackTs, 'utf8');
-  console.log(`Wrote trackGeometry.ts to ${outDir}`);
+  console.log(`Wrote trackGeometry.ts (${trackSegments.length} segments) to ${outDir}`);
 }
 
 main().catch(err => {
