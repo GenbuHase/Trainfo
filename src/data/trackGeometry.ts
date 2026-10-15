@@ -154,3 +154,46 @@ export function interpolateTrackPosition(
   const lastHeading = calculateHeading(prevLast[0], prevLast[1], last[0], last[1]);
   return { lat: last[0], lng: last[1], heading: lastHeading, bearing: lastHeading };
 }
+
+const TRACK_DISTANCE_CACHE = new Map<string, number>();
+
+/**
+ * 2駅間の実線路軌道距離（km）を取得（ポリライン総延長）
+ * セグメントが見つからない場合は null を返却
+ */
+export function getTrackDistanceKm(
+  fromStationId: string,
+  toStationId: string,
+  customSegments?: TrackSegment[]
+): number | null {
+  const cacheKey = `${fromStationId}_${toStationId}`;
+  if (!customSegments && TRACK_DISTANCE_CACHE.has(cacheKey)) {
+    return TRACK_DISTANCE_CACHE.get(cacheKey)!;
+  }
+
+  const segments = customSegments || getCombinedTrackSegments();
+  let segment = segments.find(
+    (s) => s.fromStationId === fromStationId && s.toStationId === toStationId
+  );
+  if (!segment) {
+    segment = segments.find(
+      (s) => s.fromStationId === toStationId && s.toStationId === fromStationId
+    );
+  }
+
+  if (!segment || segment.coordinates.length < 2) {
+    return null;
+  }
+
+  let totalMeters = 0;
+  for (let i = 0; i < segment.coordinates.length - 1; i++) {
+    totalMeters += getDistanceMeters(segment.coordinates[i], segment.coordinates[i + 1]);
+  }
+
+  const distKm = totalMeters / 1000;
+  if (!customSegments) {
+    TRACK_DISTANCE_CACHE.set(cacheKey, distKm);
+  }
+  return distKm;
+}
+
