@@ -195,6 +195,12 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#0071c5',
     numColor: '#005596',
   },
+  // JR東北新幹線
+  TS: {
+    borderColor: '#029849',
+    prefixColor: '#029849',
+    numColor: '#006631',
+  },
 };
 
 
