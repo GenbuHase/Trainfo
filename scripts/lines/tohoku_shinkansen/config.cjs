@@ -1,4 +1,5 @@
-// JR東北新幹線 Yahoo! 路線情報スクレイパー設定 (東京 〜 新青森 全23駅)
+const TOHOKU_SYSTEM_NAMES = ['はやぶさ', 'はやて', 'やまびこ', 'なすの', 'こまち', 'つばさ'];
+
 module.exports = {
   lineId: 'tohoku_shinkansen',
   name: 'JR東北新幹線',
@@ -37,6 +38,14 @@ module.exports = {
     '郡山(福島県)': '郡山',
     '福島(福島県)': '福島',
   },
+  // 上越・北陸新幹線など、東北新幹線系統以外の列車を除外（上野・大宮駅の上り東京行き等に混入する別線区新幹線）
+  shouldExcludeDeparture: ({ rawKindName }) => {
+    return !TOHOKU_SYSTEM_NAMES.some(name => rawKindName.includes(name));
+  },
+  shouldExcludeTrip: (trainDetail) => {
+    const name = trainDetail.displayName || '';
+    return !TOHOKU_SYSTEM_NAMES.some(trainName => name.includes(trainName));
+  },
   trainTypeMap: {
     'はやぶさ': 'hayabusa',
     'はやて': 'hayate',
@@ -46,6 +55,16 @@ module.exports = {
     'つばさ': 'tsubasa',
     '特急': 'limitedExp',
   },
+  // なすの・やまびこ等、区間全駅停車となる新幹線列車の種別を保持（各停/localへの強制書き換えを防止）
+  preserveAllStopsTypes: [
+    'hayabusa',
+    'hayate',
+    'yamabiko',
+    'nasuno',
+    'komachi',
+    'tsubasa',
+    'limitedExp',
+  ],
   defaultCars: 10,
   baseSectionSeconds: {
     1: 300,  // 東京 -> 上野

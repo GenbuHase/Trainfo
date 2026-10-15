@@ -65,7 +65,7 @@ export const TOHOKU_SHINKANSEN_TRAIN_TYPES: Record<TrainTypeKey, TrainTypeConfig
     key: 'limitedExp',
     name: '特急',
     nameEn: 'Limited Exp',
-    shortName: '特',
+    shortName: '特急',
     color: '#c9252d',
     textColor: '#ffffff',
     bgColor: '#c9252d',
