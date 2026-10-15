@@ -300,6 +300,14 @@ const TIMETABLE_LOADERS: Record<string, LoaderFn> = {
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
+  joetsu_shinkansen: () =>
+    Promise.all([
+      import('./lines/joetsu_shinkansen/globalTimetable.json'),
+      import('./lines/joetsu_shinkansen/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
 };
 
 

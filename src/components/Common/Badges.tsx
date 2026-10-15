@@ -201,6 +201,12 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#029849',
     numColor: '#006631',
   },
+  // JR上越新幹線
+  JOS: {
+    borderColor: '#f58d79',
+    prefixColor: '#f58d79',
+    numColor: '#c85a48',
+  },
 };
 
 
