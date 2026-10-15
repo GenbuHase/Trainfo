@@ -46,6 +46,7 @@ export type LineId =
   | 'yokosuka'
   | 'sobu_rapid'
   | 'ito'
+  | 'ryomo'
   | (string & {});
 
 

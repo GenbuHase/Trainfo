@@ -44,6 +44,7 @@ import { utsunomiyaLine } from './lines/utsunomiya';
 import { takasakiLine } from './lines/takasaki';
 import { shonanShinjukuLine } from './lines/shonan_shinjuku';
 import { uenoTokyoLine } from './lines/ueno_tokyo';
+import { ryomoLine } from './lines/ryomo';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -69,6 +70,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   takasaki: takasakiLine,
   shonan_shinjuku: shonanShinjukuLine,
   ueno_tokyo: uenoTokyoLine,
+  ryomo: ryomoLine,
   seibu_ikebukuro: seibuIkebukuroLine,
 
   seibu_yurakucho: seibuYurakuchoLine,
@@ -115,6 +117,7 @@ const OPERATOR_DISPLAY_ORDER = [
   '相模鉄道',
   '小田急電鉄',
   'JR東日本',
+  'JR東海',
   'JR西日本',
   '東京臨海高速鉄道',
   '首都圏新都市鉄道',

@@ -11,15 +11,15 @@ export const tokaidoLine: LineDefinition = {
   lineColor: '#f68b1e',
   accentColor: '#f68b1e',
   defaultCars: 15,
-  defaultBounds: [[35.09,139.06],[35.69,139.78]],
+  defaultBounds: [[35.09, 138.85], [35.69, 139.78]],
   directionNames: {
     'inbound': '品川・東京・上野方面',
-    'outbound': '横浜・小田原・熱海方面',
+    'outbound': '横浜・小田原・熱海・沼津方面',
     'inboundFull': '上り 品川・東京・上野方面',
-    'outboundFull': '下り 横浜・小田原・熱海方面',
+    'outboundFull': '下り 横浜・小田原・熱海・沼津方面',
     'inboundShort': '東京方面',
-    'outboundShort': '熱海方面'
-},
+    'outboundShort': '熱海・沼津方面'
+  },
   stations: TOKAIDO_STATIONS,
   trackSegments: TOKAIDO_TRACK_SEGMENTS,
   trainTypes: TOKAIDO_TRAIN_TYPES,

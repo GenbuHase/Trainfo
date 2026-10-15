@@ -231,6 +231,18 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#8b5a2b',
     numColor: '#5c3818',
   },
+  // JR東海 東海道本線
+  CA: {
+    borderColor: '#f68b1e',
+    prefixColor: '#f68b1e',
+    numColor: '#b85d00',
+  },
+  // JR両毛線
+  RY: {
+    borderColor: '#ffd400',
+    prefixColor: '#c8a200',
+    numColor: '#333333',
+  },
 };
 
 

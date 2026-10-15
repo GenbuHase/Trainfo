@@ -121,9 +121,9 @@
       }
     ],
     "trainId": "34158",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_0623_34158",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-25_0510_34287",
@@ -615,9 +615,9 @@
       }
     ],
     "trainId": "34094",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_0718_34094",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_0523_33390",
@@ -705,9 +705,9 @@
       }
     ],
     "trainId": "33390",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_0607_33390",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-18_0533_34160",
@@ -831,9 +831,9 @@
       }
     ],
     "trainId": "34160",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_0653_34160",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-18_0535_37790",
@@ -1061,9 +1061,9 @@
       }
     ],
     "trainId": "34081",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_0748_34081",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-02_0543_19267",
@@ -1637,9 +1637,9 @@
       }
     ],
     "trainId": "34324",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-16_0430_34324",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_0554_34213",
@@ -1714,7 +1714,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "05:46:00",
+        "arrivalTime": "05:35:00",
         "departureTime": "05:56:00",
         "isPassing": false
       },
@@ -1829,7 +1829,9 @@
     ],
     "trainId": "33438",
     "throughTripId": "WD_OUT_JS-24_0718_33438",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "prevTripId": "WD_OUT_RY-17_0531_33438",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_TK-18_0603_13934",
@@ -2111,9 +2113,9 @@
       }
     ],
     "trainId": "34102",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_0813_34102",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_0609_34161",
@@ -2237,9 +2239,9 @@
       }
     ],
     "trainId": "34161",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_0735_34161",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_0610_34250",
@@ -2427,9 +2429,9 @@
       }
     ],
     "trainId": "33376",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_0737_33376",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-02_0612_19268",
@@ -2675,9 +2677,9 @@
       }
     ],
     "trainId": "33391",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_0703_33391",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_0620_34348",
@@ -2843,9 +2845,9 @@
       }
     ],
     "trainId": "34348",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-21_0435_34348",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-25_0621_34296",
@@ -2862,7 +2864,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "06:14:00",
+        "arrivalTime": "06:04:00",
         "departureTime": "06:21:00",
         "isPassing": false
       },
@@ -3013,7 +3015,9 @@
     ],
     "trainId": "34296",
     "throughTripId": "WD_OUT_JT-01_0824_34296",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "WD_OUT_RY-17_0600_34296",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_TK-07_0622_5757",
@@ -3194,9 +3198,9 @@
       }
     ],
     "trainId": "33372",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_0752_33372",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_0629_10145",
@@ -3447,9 +3451,9 @@
       }
     ],
     "trainId": "34121",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_0836_34121",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_0633_34260",
@@ -3753,9 +3757,9 @@
       }
     ],
     "trainId": "34165",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_0800_34165",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-02_0640_19270",
@@ -4137,9 +4141,9 @@
       }
     ],
     "trainId": "34103",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_0849_34103",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_0644_7182",
@@ -4392,7 +4396,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "06:47:00",
+        "arrivalTime": "06:36:00",
         "departureTime": "06:48:00",
         "isPassing": false
       },
@@ -4543,7 +4547,9 @@
     ],
     "trainId": "34290",
     "throughTripId": "WD_OUT_JT-01_0856_34290",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "WD_OUT_RY-17_0633_34290",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_OUT_TK-01_0653_10176",
@@ -4761,7 +4767,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "06:56:00",
+        "arrivalTime": "06:45:00",
         "departureTime": "06:58:00",
         "isPassing": false
       },
@@ -4904,7 +4910,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40903"
+    "trainId": "40903",
+    "prevTripId": "WD_OUT_RY-17_0641_40903",
+    "prevLineId": "ryomo",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_TK-25_0702_33381",
@@ -5034,9 +5043,9 @@
       }
     ],
     "trainId": "33381",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_0828_33381",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-07_0703_5759",
@@ -5441,9 +5450,9 @@
       }
     ],
     "trainId": "33389",
+    "customOrigin": "深谷",
     "throughTripId": "WD_OUT_JS-24_0805_33389",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "深谷"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-02_0711_19257",
@@ -5725,9 +5734,9 @@
       }
     ],
     "trainId": "34082",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_0910_34082",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-04_0714_33550",
@@ -5857,9 +5866,9 @@
       }
     ],
     "trainId": "33550",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_0610_33550",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-07_0717_34257",
@@ -6199,9 +6208,9 @@
       }
     ],
     "trainId": "34399",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-14_0556_34399",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-25_0718_34087",
@@ -6367,9 +6376,9 @@
       }
     ],
     "trainId": "34087",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_0924_34087",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_0722_5700",
@@ -6493,7 +6502,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "07:25:00",
+        "arrivalTime": "07:12:00",
         "departureTime": "07:26:00",
         "isPassing": false
       },
@@ -6608,7 +6617,9 @@
     ],
     "trainId": "33436",
     "throughTripId": "WD_OUT_JS-24_0857_33436",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "prevTripId": "WD_OUT_RY-17_0708_33436",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_OUT_TK-01_0730_34408",
@@ -7380,9 +7391,9 @@
       }
     ],
     "trainId": "34378",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-11_0632_34378",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-25_0744_34104",
@@ -7548,9 +7559,9 @@
       }
     ],
     "trainId": "34104",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_0942_34104",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_0747_34492",
@@ -7732,9 +7743,9 @@
       }
     ],
     "trainId": "34394",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-14_0628_34394",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_0751_10083",
@@ -7936,9 +7947,9 @@
       }
     ],
     "trainId": "33541",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_0646_33541",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_0756_34500",
@@ -8255,9 +8266,9 @@
       }
     ],
     "trainId": "33383",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_0924_33383",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_0802_34443",
@@ -8580,9 +8591,9 @@
       }
     ],
     "trainId": "34395",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-14_0644_34395",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_0814_34502",
@@ -9011,9 +9022,9 @@
       }
     ],
     "trainId": "34167",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_0954_34167",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-25_0824_34089",
@@ -9179,9 +9190,9 @@
       }
     ],
     "trainId": "34089",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1018_34089",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-04_0824_33552",
@@ -9311,9 +9322,9 @@
       }
     ],
     "trainId": "33552",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_0714_33552",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_0825_40346",
@@ -9641,9 +9652,9 @@
       }
     ],
     "trainId": "34303",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-16_0652_34303",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_0830_33869",
@@ -9980,9 +9991,9 @@
       }
     ],
     "trainId": "34401",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-14_0707_34401",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_0836_8355",
@@ -10214,9 +10225,9 @@
       }
     ],
     "trainId": "33501",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_0732_33501",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_0845_34507",
@@ -10395,9 +10406,9 @@
       }
     ],
     "trainId": "34150",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1010_34150",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-25_0847_34105",
@@ -10563,9 +10574,9 @@
       }
     ],
     "trainId": "34105",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1047_34105",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_0848_34425",
@@ -10802,9 +10813,9 @@
       }
     ],
     "trainId": "34392",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-13_0733_34392",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_0856_34221",
@@ -11019,9 +11030,9 @@
       }
     ],
     "trainId": "33512",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_0750_33512",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_0902_34405",
@@ -11203,9 +11214,9 @@
       }
     ],
     "trainId": "34396",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-14_0743_34396",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_0907_8332",
@@ -11379,9 +11390,9 @@
       }
     ],
     "trainId": "33394",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_0957_33394",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_0911_34476",
@@ -11624,9 +11635,9 @@
       }
     ],
     "trainId": "33359",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_1028_33359",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_0916_34308",
@@ -11750,9 +11761,9 @@
       }
     ],
     "trainId": "34308",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-16_0747_34308",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_0918_7143",
@@ -11946,9 +11957,9 @@
       }
     ],
     "trainId": "34304",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-16_0750_34304",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_0921_13939",
@@ -12399,9 +12410,9 @@
       }
     ],
     "trainId": "34125",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1127_34125",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_0931_34410",
@@ -12704,9 +12715,9 @@
       }
     ],
     "trainId": "34326",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-16_0813_34326",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_0943_34168",
@@ -12830,9 +12841,9 @@
       }
     ],
     "trainId": "34168",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1108_34168",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-04_0943_33520",
@@ -12920,9 +12931,9 @@
       }
     ],
     "trainId": "33520",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_0829_33520",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_0945_33866",
@@ -13174,9 +13185,9 @@
       }
     ],
     "trainId": "34328",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-16_0827_34328",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_0951_8333",
@@ -13398,9 +13409,9 @@
       }
     ],
     "trainId": "34108",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1147_34108",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_0955_34226",
@@ -13925,9 +13936,9 @@
       }
     ],
     "trainId": "34351",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-21_0823_34351",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_1013_33395",
@@ -14015,9 +14026,9 @@
       }
     ],
     "trainId": "33395",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_1057_33395",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-25_1014_33360",
@@ -14147,9 +14158,9 @@
       }
     ],
     "trainId": "33360",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_1128_33360",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_1017_10155",
@@ -14515,9 +14526,9 @@
       }
     ],
     "trainId": "34126",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1227_34126",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-04_1028_33518",
@@ -14647,9 +14658,9 @@
       }
     ],
     "trainId": "33518",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_0920_33518",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1029_34415",
@@ -15072,9 +15083,9 @@
       }
     ],
     "trainId": "34380",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-11_0937_34380",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_1040_34170",
@@ -15198,9 +15209,9 @@
       }
     ],
     "trainId": "34170",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1206_34170",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_1043_34182",
@@ -15566,9 +15577,9 @@
       }
     ],
     "trainId": "34110",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1247_34110",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1059_34340",
@@ -15692,9 +15703,9 @@
       }
     ],
     "trainId": "34340",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-21_0909_34340",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_1059_10082",
@@ -16055,9 +16066,9 @@
       }
     ],
     "trainId": "33521",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1001_33521",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_1108_10128",
@@ -16231,9 +16242,9 @@
       }
     ],
     "trainId": "33397",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_1157_33397",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-25_1114_33363",
@@ -16363,9 +16374,9 @@
       }
     ],
     "trainId": "33363",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_1227_33363",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1119_34383",
@@ -16531,9 +16542,9 @@
       }
     ],
     "trainId": "34383",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-11_1014_34383",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_1122_34233",
@@ -16899,9 +16910,9 @@
       }
     ],
     "trainId": "34130",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1327_34130",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-04_1136_33491",
@@ -17031,9 +17042,9 @@
       }
     ],
     "trainId": "33491",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1034_33491",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_1137_8338",
@@ -17227,9 +17238,9 @@
       }
     ],
     "trainId": "34384",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-11_1038_34384",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_1141_34172",
@@ -17353,9 +17364,9 @@
       }
     ],
     "trainId": "34172",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1307_34172",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_1143_34185",
@@ -17693,9 +17704,9 @@
       }
     ],
     "trainId": "34111",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1347_34111",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1153_10163",
@@ -17847,9 +17858,9 @@
       }
     ],
     "trainId": "34309",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-16_1035_34309",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_1202_10093",
@@ -18051,9 +18062,9 @@
       }
     ],
     "trainId": "33544",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1101_33544",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_1208_8327",
@@ -18414,9 +18425,9 @@
       }
     ],
     "trainId": "33399",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_1257_33399",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-25_1214_33364",
@@ -18546,9 +18557,9 @@
       }
     ],
     "trainId": "33364",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_1327_33364",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1219_34330",
@@ -18714,9 +18725,9 @@
       }
     ],
     "trainId": "34330",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-16_1054_34330",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1223_7120",
@@ -19082,9 +19093,9 @@
       }
     ],
     "trainId": "34133",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1427_34133",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-04_1235_33493",
@@ -19214,9 +19225,9 @@
       }
     ],
     "trainId": "33493",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1134_33493",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_1237_8349",
@@ -19410,9 +19421,9 @@
       }
     ],
     "trainId": "34386",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-11_1140_34386",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_1241_34173",
@@ -19536,9 +19547,9 @@
       }
     ],
     "trainId": "34173",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1407_34173",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_1243_34189",
@@ -19904,9 +19915,9 @@
       }
     ],
     "trainId": "34113",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1447_34113",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1259_34310",
@@ -20030,9 +20041,9 @@
       }
     ],
     "trainId": "34310",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-16_1137_34310",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_1302_34277",
@@ -20234,9 +20245,9 @@
       }
     ],
     "trainId": "33522",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1202_33522",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1309_34477",
@@ -20410,9 +20421,9 @@
       }
     ],
     "trainId": "33410",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_1357_33410",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-25_1314_33367",
@@ -20542,9 +20553,9 @@
       }
     ],
     "trainId": "33367",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_1427_33367",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1319_34353",
@@ -20710,9 +20721,9 @@
       }
     ],
     "trainId": "34353",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-21_1134_34353",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1323_7121",
@@ -21020,9 +21031,9 @@
       }
     ],
     "trainId": "34135",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1527_34135",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1329_34465",
@@ -21210,9 +21221,9 @@
       }
     ],
     "trainId": "33494",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1234_33494",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_1337_39591",
@@ -21406,9 +21417,9 @@
       }
     ],
     "trainId": "34355",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-21_1153_34355",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_1341_33723",
@@ -21532,9 +21543,9 @@
       }
     ],
     "trainId": "33723",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1507_33723",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_1343_34191",
@@ -21872,9 +21883,9 @@
       }
     ],
     "trainId": "34136",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1547_34136",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1353_10164",
@@ -22026,9 +22037,9 @@
       }
     ],
     "trainId": "34312",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-16_1240_34312",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_1403_10100",
@@ -22230,9 +22241,9 @@
       }
     ],
     "trainId": "33524",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1301_33524",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-25_1406_37207",
@@ -22565,9 +22576,9 @@
       }
     ],
     "trainId": "33401",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_1456_33401",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-25_1414_33369",
@@ -22697,9 +22708,9 @@
       }
     ],
     "trainId": "33369",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_1528_33369",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1419_34357",
@@ -22865,9 +22876,9 @@
       }
     ],
     "trainId": "34357",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-21_1231_34357",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1423_7123",
@@ -23175,9 +23186,9 @@
       }
     ],
     "trainId": "34137",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1627_34137",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1429_34467",
@@ -23365,9 +23376,9 @@
       }
     ],
     "trainId": "33495",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1334_33495",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_1437_8351",
@@ -23561,9 +23572,9 @@
       }
     ],
     "trainId": "34359",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-21_1250_34359",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_1441_34151",
@@ -23687,9 +23698,9 @@
       }
     ],
     "trainId": "34151",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1607_34151",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_1443_34192",
@@ -24027,9 +24038,9 @@
       }
     ],
     "trainId": "34139",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1647_34139",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1453_10173",
@@ -24181,9 +24192,9 @@
       }
     ],
     "trainId": "34315",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-16_1335_34315",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_1503_10103",
@@ -24385,9 +24396,9 @@
       }
     ],
     "trainId": "33526",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1401_33526",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1509_34473",
@@ -24561,9 +24572,9 @@
       }
     ],
     "trainId": "33403",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_1557_33403",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-25_1514_33370",
@@ -24876,9 +24887,9 @@
       }
     ],
     "trainId": "34360",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-21_1335_34360",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_1522_34241",
@@ -25366,9 +25377,9 @@
       }
     ],
     "trainId": "33496",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1435_33496",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_1537_8345",
@@ -25562,9 +25573,9 @@
       }
     ],
     "trainId": "34363",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-21_1350_34363",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_1541_34153",
@@ -25688,9 +25699,9 @@
       }
     ],
     "trainId": "34153",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1707_34153",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_1543_33718",
@@ -26056,9 +26067,9 @@
       }
     ],
     "trainId": "34090",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1755_34090",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_1558_34175",
@@ -26182,9 +26193,9 @@
       }
     ],
     "trainId": "34175",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1717_34175",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1559_34331",
@@ -26350,9 +26361,9 @@
       }
     ],
     "trainId": "34331",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-16_1436_34331",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_1602_34266",
@@ -26554,9 +26565,9 @@
       }
     ],
     "trainId": "33528",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1501_33528",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1609_34482",
@@ -26772,9 +26783,9 @@
       }
     ],
     "trainId": "33385",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_1730_33385",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-18_1613_33405",
@@ -26862,9 +26873,9 @@
       }
     ],
     "trainId": "33405",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_1700_33405",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1619_34342",
@@ -26988,9 +26999,9 @@
       }
     ],
     "trainId": "34342",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-21_1433_34342",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-18_1621_34162",
@@ -27114,9 +27125,9 @@
       }
     ],
     "trainId": "34162",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1740_34162",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1623_7127",
@@ -27390,9 +27401,9 @@
       }
     ],
     "trainId": "34141",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1827_34141",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1629_34484",
@@ -27738,9 +27749,9 @@
       }
     ],
     "trainId": "33498",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1534_33498",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_1638_8352",
@@ -27934,9 +27945,9 @@
       }
     ],
     "trainId": "34364",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-21_1450_34364",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-25_1641_34294",
@@ -27953,7 +27964,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "16:27:00",
+        "arrivalTime": "16:17:00",
         "departureTime": "16:41:00",
         "isPassing": false
       },
@@ -28104,7 +28115,9 @@
     ],
     "trainId": "34294",
     "throughTripId": "WD_OUT_JT-01_1840_34294",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "WD_OUT_RY-17_1613_34294",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_OUT_TK-01_1644_10196",
@@ -28531,9 +28544,9 @@
       }
     ],
     "trainId": "34177",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1811_34177",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1653_39587",
@@ -28806,9 +28819,9 @@
       }
     ],
     "trainId": "34334",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-16_1538_34334",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-25_1659_34092",
@@ -28974,9 +28987,9 @@
       }
     ],
     "trainId": "34092",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_1855_34092",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_1704_38074",
@@ -29120,9 +29133,9 @@
       }
     ],
     "trainId": "33547",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1601_33547",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1708_34475",
@@ -29470,9 +29483,9 @@
       }
     ],
     "trainId": "33416",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_1757_33416",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-25_1713_33378",
@@ -29602,9 +29615,9 @@
       }
     ],
     "trainId": "33378",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_1833_33378",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1716_38050",
@@ -29756,9 +29769,9 @@
       }
     ],
     "trainId": "34344",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-21_1526_34344",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_1720_10114",
@@ -30686,9 +30699,9 @@
       }
     ],
     "trainId": "34367",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-21_1549_34367",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_1738_8339",
@@ -30925,9 +30938,9 @@
       }
     ],
     "trainId": "33499",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1634_33499",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_1741_8340",
@@ -31309,9 +31322,9 @@
       }
     ],
     "trainId": "34299",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1916_34299",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1759_7178",
@@ -31563,9 +31576,9 @@
       }
     ],
     "trainId": "34143",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_2002_34143",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-02_1800_19247",
@@ -31817,9 +31830,9 @@
       }
     ],
     "trainId": "34335",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-16_1636_34335",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1803_7130",
@@ -32295,9 +32308,9 @@
       }
     ],
     "trainId": "33530",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1703_33530",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_1808_10135",
@@ -32534,9 +32547,9 @@
       }
     ],
     "trainId": "34375",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-11_1714_34375",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-25_1815_33375",
@@ -32666,9 +32679,9 @@
       }
     ],
     "trainId": "33375",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_1935_33375",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1817_38066",
@@ -32906,9 +32919,9 @@
       }
     ],
     "trainId": "34163",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_1940_34163",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1823_10191",
@@ -33080,9 +33093,9 @@
       }
     ],
     "trainId": "33408",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_1912_33408",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-02_1830_19248",
@@ -33382,9 +33395,9 @@
       }
     ],
     "trainId": "34369",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-21_1646_34369",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-25_1831_34298",
@@ -33401,7 +33414,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "18:30:00",
+        "arrivalTime": "18:19:00",
         "departureTime": "18:31:00",
         "isPassing": false
       },
@@ -33552,7 +33565,9 @@
     ],
     "trainId": "34298",
     "throughTripId": "WD_OUT_JT-01_2022_34298",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "WD_OUT_RY-17_1815_34298",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_TK-02_1832_10118",
@@ -33824,9 +33839,9 @@
       }
     ],
     "trainId": "33515",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1733_33515",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1841_34497",
@@ -34252,9 +34267,9 @@
       }
     ],
     "trainId": "34345",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-21_1707_34345",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-25_1847_34144",
@@ -34420,9 +34435,9 @@
       }
     ],
     "trainId": "34144",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_2042_34144",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1853_10179",
@@ -35010,9 +35025,9 @@
       }
     ],
     "trainId": "33722",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_2102_33722",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_1908_10137",
@@ -35206,9 +35221,9 @@
       }
     ],
     "trainId": "34372",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-21_1731_34372",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-02_1909_19281",
@@ -35512,9 +35527,9 @@
       }
     ],
     "trainId": "33533",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1801_33533",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1912_7131",
@@ -35758,9 +35773,9 @@
       }
     ],
     "trainId": "33388",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_2036_33388",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-07_1918_34208",
@@ -35934,9 +35949,9 @@
       }
     ],
     "trainId": "33414",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_2003_33414",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1924_7133",
@@ -36157,9 +36172,9 @@
       }
     ],
     "trainId": "34388",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-11_1825_34388",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_1929_10123",
@@ -36337,7 +36352,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "19:29:00",
+        "arrivalTime": "19:17:00",
         "departureTime": "19:30:00",
         "isPassing": false
       },
@@ -36480,7 +36495,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40905"
+    "trainId": "40905",
+    "prevTripId": "WD_OUT_RY-17_1913_40905",
+    "prevLineId": "ryomo",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_OUT_TK-04_1930_33505",
@@ -36568,9 +36586,9 @@
       }
     ],
     "trainId": "33505",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1823_33505",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1931_34407",
@@ -36866,9 +36884,9 @@
       }
     ],
     "trainId": "34346",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-21_1751_34346",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-02_1941_19256",
@@ -37114,9 +37132,9 @@
       }
     ],
     "trainId": "33507",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1836_33507",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_1943_38069",
@@ -37338,9 +37356,9 @@
       }
     ],
     "trainId": "34097",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_2142_34097",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_1947_34491",
@@ -37578,9 +37596,9 @@
       }
     ],
     "trainId": "34318",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-16_1830_34318",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_1958_34194",
@@ -37920,9 +37938,9 @@
       }
     ],
     "trainId": "34302",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_2120_34302",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_2001_10157",
@@ -38202,9 +38220,9 @@
       }
     ],
     "trainId": "34098",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_2202_34098",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_2010_10139",
@@ -38358,13 +38376,15 @@
       {
         "stationId": "TK-25",
         "arrivalTime": "21:53:00",
-        "departureTime": "21:55:00",
+        "departureTime": "21:53:00",
         "isPassing": false
       }
     ],
     "trainId": "33715",
     "prevTripId": "WD_INB_JS-01_1904_33715",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "throughTripId": "WD_INB_RY-18_2209_33715",
+    "throughLineId": "ryomo"
   },
   {
     "tripId": "WD_OUT_TK-01_2013_38056",
@@ -38674,9 +38694,9 @@
       }
     ],
     "trainId": "34389",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-11_1916_34389",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-07_2020_34247",
@@ -39416,9 +39436,9 @@
       }
     ],
     "trainId": "33417",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_2124_33417",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_2037_8353",
@@ -39670,9 +39690,9 @@
       }
     ],
     "trainId": "34338",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-16_1915_34338",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-04_2040_33509",
@@ -39760,9 +39780,9 @@
       }
     ],
     "trainId": "33509",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1931_33509",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_2042_38071",
@@ -39956,9 +39976,9 @@
       }
     ],
     "trainId": "34146",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JT-01_2252_34146",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_2049_34438",
@@ -40168,9 +40188,9 @@
       }
     ],
     "trainId": "34155",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_2212_34155",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_2054_10183",
@@ -40380,9 +40400,9 @@
       }
     ],
     "trainId": "34517",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-21_1909_34517",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-02_2100_19251",
@@ -40818,9 +40838,9 @@
       }
     ],
     "trainId": "33380",
+    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_2226_33380",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_2108_10140",
@@ -40974,13 +40994,15 @@
       {
         "stationId": "TK-25",
         "arrivalTime": "22:51:00",
-        "departureTime": "22:52:00",
+        "departureTime": "22:51:00",
         "isPassing": false
       }
     ],
     "trainId": "33717",
     "prevTripId": "WD_INB_JS-01_2007_33717",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "throughTripId": "WD_INB_RY-18_2303_33717",
+    "throughLineId": "ryomo"
   },
   {
     "tripId": "WD_OUT_TK-01_2111_34458",
@@ -41162,9 +41184,9 @@
       }
     ],
     "trainId": "34164",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JT-01_2232_34164",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_2117_38057",
@@ -41444,9 +41466,9 @@
       }
     ],
     "trainId": "34390",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-11_2018_34390",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_2123_7136",
@@ -41562,9 +41584,9 @@
       }
     ],
     "trainId": "33420",
+    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_2211_33420",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-04_2127_33510",
@@ -41652,9 +41674,9 @@
       }
     ],
     "trainId": "33510",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_2021_33510",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-02_2129_10124",
@@ -42143,9 +42165,9 @@
       }
     ],
     "trainId": "34391",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JT-11_2039_34391",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_2139_8344",
@@ -42792,9 +42814,9 @@
       }
     ],
     "trainId": "33511",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_2053_33511",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_2201_34347",
@@ -42918,9 +42940,9 @@
       }
     ],
     "trainId": "34347",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-21_2018_34347",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_2204_7199",
@@ -43196,13 +43218,15 @@
       {
         "stationId": "TK-25",
         "arrivalTime": "00:05:00",
-        "departureTime": "00:06:00",
+        "departureTime": "00:05:00",
         "isPassing": false
       }
     ],
     "trainId": "34516",
     "prevTripId": "WD_INB_JT-14_2057_34516",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "throughTripId": "WD_INB_RY-18_0016_34516",
+    "throughLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_TK-02_2212_10126",
@@ -43518,9 +43542,9 @@
       }
     ],
     "trainId": "33554",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_2111_33554",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_2216_38061",
@@ -43816,9 +43840,9 @@
       }
     ],
     "trainId": "34321",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-16_2112_34321",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_TK-02_2231_10161",
@@ -44494,9 +44518,9 @@
       }
     ],
     "trainId": "33538",
+    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_2142_33538",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-01_2248_34322",
@@ -44620,9 +44644,9 @@
       }
     ],
     "trainId": "34322",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JT-16_2131_34322",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_TK-01_2253_7135",
@@ -45520,9 +45544,9 @@
       }
     ],
     "trainId": "33549",
+    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_2245_33549",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-18_0506_34157",
@@ -45646,9 +45670,9 @@
       }
     ],
     "trainId": "34157",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_0623_34157",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-25_0510_34288",
@@ -46062,9 +46086,9 @@
       }
     ],
     "trainId": "33415",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_0607_33415",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-25_0524_34100",
@@ -46230,9 +46254,9 @@
       }
     ],
     "trainId": "34100",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_0719_34100",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-18_0533_34159",
@@ -46356,9 +46380,9 @@
       }
     ],
     "trainId": "34159",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_0653_34159",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-18_0535_37790",
@@ -46586,9 +46610,9 @@
       }
     ],
     "trainId": "34101",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_0735_34101",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-02_0543_19267",
@@ -46912,9 +46936,9 @@
       }
     ],
     "trainId": "34095",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_0746_34095",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-18_0550_13932",
@@ -47196,9 +47220,9 @@
       }
     ],
     "trainId": "34324",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-16_0430_34324",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_0554_34212",
@@ -47422,9 +47446,9 @@
       }
     ],
     "trainId": "34085",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_0754_34085",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_0610_34251",
@@ -47860,9 +47884,9 @@
       }
     ],
     "trainId": "33392",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_0704_33392",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_0620_34349",
@@ -48028,9 +48052,9 @@
       }
     ],
     "trainId": "34349",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_0435_34349",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-25_0622_34289",
@@ -48047,7 +48071,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "06:14:00",
+        "arrivalTime": "06:04:00",
         "departureTime": "06:22:00",
         "isPassing": false
       },
@@ -48198,7 +48222,9 @@
     ],
     "trainId": "34289",
     "throughTripId": "HD_OUT_JT-01_0820_34289",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "HD_OUT_RY-17_0600_34289",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_TK-07_0622_5758",
@@ -48379,9 +48405,9 @@
       }
     ],
     "trainId": "33377",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_0749_33377",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_0629_10145",
@@ -48785,7 +48811,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "06:32:00",
+        "arrivalTime": "06:20:00",
         "departureTime": "06:47:00",
         "isPassing": false
       },
@@ -48936,7 +48962,9 @@
     ],
     "trainId": "34293",
     "throughTripId": "HD_OUT_JT-01_0847_34293",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "HD_OUT_RY-17_0616_34293",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_TK-01_0648_34975",
@@ -49182,9 +49210,9 @@
       }
     ],
     "trainId": "34166",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_0812_34166",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_0651_34523",
@@ -49344,7 +49372,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "06:56:00",
+        "arrivalTime": "06:45:00",
         "departureTime": "06:59:00",
         "isPassing": false
       },
@@ -49495,7 +49523,9 @@
     ],
     "trainId": "34291",
     "throughTripId": "HD_OUT_JT-01_0902_34291",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "HD_OUT_RY-17_0641_34291",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_TK-07_0704_5760",
@@ -49676,9 +49706,9 @@
       }
     ],
     "trainId": "33356",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_0820_33356",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_0707_34441",
@@ -49894,9 +49924,9 @@
       }
     ],
     "trainId": "34147",
+    "customOrigin": "深谷",
     "throughTripId": "HD_OUT_JT-01_0837_34147",
-    "throughLineId": "tokaido",
-    "customOrigin": "深谷"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_0708_34215",
@@ -50084,9 +50114,9 @@
       }
     ],
     "trainId": "33551",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_0610_33551",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-25_0717_34083",
@@ -50252,9 +50282,9 @@
       }
     ],
     "trainId": "34083",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_0915_34083",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_0718_34400",
@@ -50420,9 +50450,9 @@
       }
     ],
     "trainId": "34400",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-14_0556_34400",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_0723_10188",
@@ -50495,7 +50525,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "07:24:00",
+        "arrivalTime": "07:12:00",
         "departureTime": "07:26:00",
         "isPassing": false
       },
@@ -50646,7 +50676,9 @@
     ],
     "trainId": "34292",
     "throughTripId": "HD_OUT_JT-01_0926_34292",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "HD_OUT_RY-17_0708_34292",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_TK-01_0727_34976",
@@ -51155,9 +51187,9 @@
       }
     ],
     "trainId": "33382",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_0859_33382",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_0745_34414",
@@ -51381,9 +51413,9 @@
       }
     ],
     "trainId": "34122",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_0952_34122",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_0750_34379",
@@ -51549,9 +51581,9 @@
       }
     ],
     "trainId": "34379",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-11_0645_34379",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_0752_39588",
@@ -51753,9 +51785,9 @@
       }
     ],
     "trainId": "33539",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_0646_33539",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_0755_34485",
@@ -52075,9 +52107,9 @@
       }
     ],
     "trainId": "33357",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_0926_33357",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_0801_34444",
@@ -52314,9 +52346,9 @@
       }
     ],
     "trainId": "34306",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-16_0645_34306",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_0812_10085",
@@ -52361,7 +52393,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "08:13:00",
+        "arrivalTime": "08:02:00",
         "departureTime": "08:14:00",
         "isPassing": false
       },
@@ -52476,7 +52508,9 @@
     ],
     "trainId": "33437",
     "throughTripId": "HD_OUT_JS-24_0934_33437",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "prevTripId": "HD_OUT_RY-17_0758_33437",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_TK-01_0815_34509",
@@ -52627,9 +52661,9 @@
       }
     ],
     "trainId": "34148",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_0949_34148",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_0820_34218",
@@ -52939,9 +52973,9 @@
       }
     ],
     "trainId": "34088",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1018_34088",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_0825_40345",
@@ -53135,9 +53169,9 @@
       }
     ],
     "trainId": "34393",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-14_0710_34393",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_0832_34263",
@@ -53416,9 +53450,9 @@
       }
     ],
     "trainId": "34325",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-16_0708_34325",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-18_0842_34149",
@@ -53542,9 +53576,9 @@
       }
     ],
     "trainId": "34149",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_1009_34149",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-04_0842_33502",
@@ -53632,9 +53666,9 @@
       }
     ],
     "trainId": "33502",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_0737_33502",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_0843_10148",
@@ -53913,9 +53947,9 @@
       }
     ],
     "trainId": "34106",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1048_34106",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_0851_33871",
@@ -54529,9 +54563,9 @@
       }
     ],
     "trainId": "33393",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_0957_33393",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-07_0905_34222",
@@ -54811,9 +54845,9 @@
       }
     ],
     "trainId": "34123",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1107_34123",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-04_0906_33514",
@@ -54943,9 +54977,9 @@
       }
     ],
     "trainId": "33514",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_0758_33514",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_0911_34471",
@@ -55161,9 +55195,9 @@
       }
     ],
     "trainId": "33358",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_1027_33358",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_0916_34307",
@@ -55287,9 +55321,9 @@
       }
     ],
     "trainId": "34307",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-16_0747_34307",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-18_0917_13938",
@@ -55599,9 +55633,9 @@
       }
     ],
     "trainId": "34305",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-16_0755_34305",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_0924_7116",
@@ -55881,9 +55915,9 @@
       }
     ],
     "trainId": "34124",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1127_34124",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_0930_34445",
@@ -56279,9 +56313,9 @@
       }
     ],
     "trainId": "34327",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-16_0818_34327",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_0938_10088",
@@ -56691,9 +56725,9 @@
       }
     ],
     "trainId": "34107",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1147_34107",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_0955_34225",
@@ -56839,9 +56873,9 @@
       }
     ],
     "trainId": "33503",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_0849_33503",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_0959_34446",
@@ -57366,9 +57400,9 @@
       }
     ],
     "trainId": "34350",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_0823_34350",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1012_34503",
@@ -57483,9 +57517,9 @@
       }
     ],
     "trainId": "33396",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1057_33396",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-25_1014_33361",
@@ -57615,9 +57649,9 @@
       }
     ],
     "trainId": "33361",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_1128_33361",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1019_34487",
@@ -57983,9 +58017,9 @@
       }
     ],
     "trainId": "34127",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1227_34127",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1029_34416",
@@ -58317,9 +58351,9 @@
       }
     ],
     "trainId": "33519",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_0927_33519",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_1037_8350",
@@ -58513,9 +58547,9 @@
       }
     ],
     "trainId": "34381",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-11_0937_34381",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-18_1040_34169",
@@ -58639,9 +58673,9 @@
       }
     ],
     "trainId": "34169",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_1206_34169",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1042_34183",
@@ -59007,9 +59041,9 @@
       }
     ],
     "trainId": "34109",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1247_34109",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1059_34341",
@@ -59133,9 +59167,9 @@
       }
     ],
     "trainId": "34341",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-21_0909_34341",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_1059_10082",
@@ -59496,9 +59530,9 @@
       }
     ],
     "trainId": "33542",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1001_33542",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_1108_10128",
@@ -59672,9 +59706,9 @@
       }
     ],
     "trainId": "33398",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1157_33398",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-25_1114_33362",
@@ -59804,9 +59838,9 @@
       }
     ],
     "trainId": "33362",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_1227_33362",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1119_34382",
@@ -59972,9 +60006,9 @@
       }
     ],
     "trainId": "34382",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-11_1014_34382",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1123_7119",
@@ -60340,9 +60374,9 @@
       }
     ],
     "trainId": "34129",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1327_34129",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-04_1136_33490",
@@ -60472,9 +60506,9 @@
       }
     ],
     "trainId": "33490",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1034_33490",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_1137_8338",
@@ -60668,9 +60702,9 @@
       }
     ],
     "trainId": "34385",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-11_1038_34385",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-18_1141_34171",
@@ -60794,9 +60828,9 @@
       }
     ],
     "trainId": "34171",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_1307_34171",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1143_34186",
@@ -61134,9 +61168,9 @@
       }
     ],
     "trainId": "34112",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1347_34112",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1153_10163",
@@ -61288,9 +61322,9 @@
       }
     ],
     "trainId": "34397",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-14_1042_34397",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_1202_10093",
@@ -61492,9 +61526,9 @@
       }
     ],
     "trainId": "33545",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1101_33545",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_1208_8327",
@@ -61827,9 +61861,9 @@
       }
     ],
     "trainId": "33400",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1257_33400",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-25_1214_33365",
@@ -61959,9 +61993,9 @@
       }
     ],
     "trainId": "33365",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_1327_33365",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1219_34329",
@@ -62127,9 +62161,9 @@
       }
     ],
     "trainId": "34329",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-16_1054_34329",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1223_7120",
@@ -62495,9 +62529,9 @@
       }
     ],
     "trainId": "34132",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1427_34132",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-04_1235_33492",
@@ -62627,9 +62661,9 @@
       }
     ],
     "trainId": "33492",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1134_33492",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_1237_8349",
@@ -62823,9 +62857,9 @@
       }
     ],
     "trainId": "34387",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-11_1140_34387",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-18_1241_34174",
@@ -62949,9 +62983,9 @@
       }
     ],
     "trainId": "34174",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_1407_34174",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1243_34188",
@@ -63317,9 +63351,9 @@
       }
     ],
     "trainId": "34114",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1447_34114",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1259_34311",
@@ -63443,9 +63477,9 @@
       }
     ],
     "trainId": "34311",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-16_1137_34311",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1302_34276",
@@ -63647,9 +63681,9 @@
       }
     ],
     "trainId": "33523",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1203_33523",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1309_34478",
@@ -63823,9 +63857,9 @@
       }
     ],
     "trainId": "33409",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1357_33409",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-25_1314_33366",
@@ -63955,9 +63989,9 @@
       }
     ],
     "trainId": "33366",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_1427_33366",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1319_34352",
@@ -64123,9 +64157,9 @@
       }
     ],
     "trainId": "34352",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_1134_34352",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1323_7121",
@@ -64433,9 +64467,9 @@
       }
     ],
     "trainId": "34134",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1527_34134",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1329_34465",
@@ -64623,9 +64657,9 @@
       }
     ],
     "trainId": "33494",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1234_33494",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_1337_39591",
@@ -64819,9 +64853,9 @@
       }
     ],
     "trainId": "34354",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_1153_34354",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-18_1341_33724",
@@ -64945,9 +64979,9 @@
       }
     ],
     "trainId": "33724",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_1507_33724",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1343_34190",
@@ -65285,9 +65319,9 @@
       }
     ],
     "trainId": "34136",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1547_34136",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1353_10164",
@@ -65439,9 +65473,9 @@
       }
     ],
     "trainId": "34313",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-16_1240_34313",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_1403_10100",
@@ -65643,9 +65677,9 @@
       }
     ],
     "trainId": "33525",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1301_33525",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-25_1406_37207",
@@ -65978,9 +66012,9 @@
       }
     ],
     "trainId": "33402",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1456_33402",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-25_1414_33368",
@@ -66110,9 +66144,9 @@
       }
     ],
     "trainId": "33368",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_1528_33368",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1419_34356",
@@ -66278,9 +66312,9 @@
       }
     ],
     "trainId": "34356",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_1231_34356",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1423_7123",
@@ -66588,9 +66622,9 @@
       }
     ],
     "trainId": "34138",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1627_34138",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1429_34466",
@@ -66778,9 +66812,9 @@
       }
     ],
     "trainId": "33495",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1334_33495",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_1437_8351",
@@ -66974,9 +67008,9 @@
       }
     ],
     "trainId": "34358",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_1250_34358",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-18_1441_34152",
@@ -67100,9 +67134,9 @@
       }
     ],
     "trainId": "34152",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_1607_34152",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1443_34198",
@@ -67440,9 +67474,9 @@
       }
     ],
     "trainId": "34140",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1648_34140",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1453_10173",
@@ -67594,9 +67628,9 @@
       }
     ],
     "trainId": "34314",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-16_1335_34314",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_1503_10103",
@@ -67798,9 +67832,9 @@
       }
     ],
     "trainId": "33527",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1401_33527",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1509_34481",
@@ -68133,9 +68167,9 @@
       }
     ],
     "trainId": "33404",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1557_33404",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-25_1515_33371",
@@ -68448,9 +68482,9 @@
       }
     ],
     "trainId": "34361",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_1335_34361",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1521_34240",
@@ -68780,9 +68814,9 @@
       }
     ],
     "trainId": "33496",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1435_33496",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-25_1536_34116",
@@ -68948,9 +68982,9 @@
       }
     ],
     "trainId": "34116",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1739_34116",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_1537_8345",
@@ -69144,9 +69178,9 @@
       }
     ],
     "trainId": "34362",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_1350_34362",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-18_1541_34154",
@@ -69270,9 +69304,9 @@
       }
     ],
     "trainId": "34154",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_1707_34154",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_1544_10105",
@@ -69638,9 +69672,9 @@
       }
     ],
     "trainId": "34091",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1753_34091",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1559_34332",
@@ -69806,9 +69840,9 @@
       }
     ],
     "trainId": "34332",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-16_1436_34332",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-18_1559_34176",
@@ -69932,9 +69966,9 @@
       }
     ],
     "trainId": "34176",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_1717_34176",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1602_34267",
@@ -70136,9 +70170,9 @@
       }
     ],
     "trainId": "33529",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1501_33529",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1609_34474",
@@ -70354,9 +70388,9 @@
       }
     ],
     "trainId": "33384",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_1730_33384",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-18_1613_33406",
@@ -70444,9 +70478,9 @@
       }
     ],
     "trainId": "33406",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1700_33406",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1620_34343",
@@ -70570,9 +70604,9 @@
       }
     ],
     "trainId": "34343",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-21_1433_34343",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1623_7127",
@@ -70697,7 +70731,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "16:27:00",
+        "arrivalTime": "16:17:00",
         "departureTime": "16:28:00",
         "isPassing": false
       },
@@ -70848,7 +70882,9 @@
     ],
     "trainId": "34295",
     "throughTripId": "HD_OUT_JT-01_1827_34295",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "HD_OUT_RY-17_1613_34295",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_TK-01_1629_34483",
@@ -71194,9 +71230,9 @@
       }
     ],
     "trainId": "33497",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1534_33497",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_1638_8352",
@@ -71390,9 +71426,9 @@
       }
     ],
     "trainId": "34365",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_1450_34365",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-25_1641_34096",
@@ -71558,9 +71594,9 @@
       }
     ],
     "trainId": "34096",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1840_34096",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1644_10196",
@@ -72015,9 +72051,9 @@
       }
     ],
     "trainId": "34178",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_1813_34178",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1653_39587",
@@ -72385,9 +72421,9 @@
       }
     ],
     "trainId": "34117",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1857_34117",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1700_34333",
@@ -72553,9 +72589,9 @@
       }
     ],
     "trainId": "34333",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-16_1538_34333",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1703_7185",
@@ -72671,9 +72707,9 @@
       }
     ],
     "trainId": "33546",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1601_33546",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_1708_10134",
@@ -72825,9 +72861,9 @@
       }
     ],
     "trainId": "34374",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-11_1609_34374",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1709_34280",
@@ -73015,9 +73051,9 @@
       }
     ],
     "trainId": "33373",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_1835_33373",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_1714_38078",
@@ -73133,9 +73169,9 @@
       }
     ],
     "trainId": "33411",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1759_33411",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1715_38049",
@@ -74093,9 +74129,9 @@
       }
     ],
     "trainId": "34366",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_1549_34366",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_1738_8339",
@@ -74253,9 +74289,9 @@
       }
     ],
     "trainId": "33500",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1634_33500",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1743_34495",
@@ -74665,9 +74701,9 @@
       }
     ],
     "trainId": "34118",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_1942_34118",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1747_5764",
@@ -74956,9 +74992,9 @@
       }
     ],
     "trainId": "34300",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_1916_34300",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1759_34282",
@@ -75182,9 +75218,9 @@
       }
     ],
     "trainId": "34142",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_2002_34142",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_1800_34316",
@@ -75308,9 +75344,9 @@
       }
     ],
     "trainId": "34316",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-16_1636_34316",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_1802_38080",
@@ -75454,9 +75490,9 @@
       }
     ],
     "trainId": "33531",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1703_33531",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_1808_10135",
@@ -75901,9 +75937,9 @@
       }
     ],
     "trainId": "33407",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1859_33407",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-25_1815_33386",
@@ -76174,9 +76210,9 @@
       }
     ],
     "trainId": "34376",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-11_1720_34376",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-02_1822_19253",
@@ -76465,7 +76501,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "18:29:00",
+        "arrivalTime": "18:19:00",
         "departureTime": "18:30:00",
         "isPassing": false
       },
@@ -76616,7 +76652,9 @@
     ],
     "trainId": "34297",
     "throughTripId": "HD_OUT_JT-01_2022_34297",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "HD_OUT_RY-17_1815_34297",
+    "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_TK-01_1831_34368",
@@ -76782,9 +76820,9 @@
       }
     ],
     "trainId": "34368",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_1646_34368",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_1831_38081",
@@ -77114,9 +77152,9 @@
       }
     ],
     "trainId": "33516",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1733_33516",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1842_38067",
@@ -77310,9 +77348,9 @@
       }
     ],
     "trainId": "34370",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_1707_34370",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-25_1847_34119",
@@ -77478,9 +77516,9 @@
       }
     ],
     "trainId": "34119",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_2042_34119",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1849_34286",
@@ -78048,9 +78086,9 @@
       }
     ],
     "trainId": "33721",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_2102_33721",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_1907_10136",
@@ -78244,9 +78282,9 @@
       }
     ],
     "trainId": "34371",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_1731_34371",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-04_1910_33532",
@@ -78334,9 +78372,9 @@
       }
     ],
     "trainId": "33532",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1801_33532",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1911_38052",
@@ -78452,9 +78490,9 @@
       }
     ],
     "trainId": "33413",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1957_33413",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1914_34406",
@@ -78642,9 +78680,9 @@
       }
     ],
     "trainId": "33387",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_2034_33387",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-07_1919_34269",
@@ -79040,9 +79078,9 @@
       }
     ],
     "trainId": "34377",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-11_1825_34377",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-25_1930_40904",
@@ -79058,7 +79096,7 @@
     "stops": [
       {
         "stationId": "TK-25",
-        "arrivalTime": "19:29:00",
+        "arrivalTime": "19:17:00",
         "departureTime": "19:30:00",
         "isPassing": false
       },
@@ -79201,7 +79239,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40904"
+    "trainId": "40904",
+    "prevTripId": "HD_OUT_RY-17_1913_40904",
+    "prevLineId": "ryomo",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_OUT_TK-01_1932_34417",
@@ -79375,9 +79416,9 @@
       }
     ],
     "trainId": "33506",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1823_33506",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1935_7197",
@@ -79619,13 +79660,15 @@
       {
         "stationId": "TK-25",
         "arrivalTime": "21:51:00",
-        "departureTime": "21:55:00",
+        "departureTime": "21:51:00",
         "isPassing": false
       }
     ],
     "trainId": "34514",
     "prevTripId": "HD_INB_JT-21_1751_34514",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "throughTripId": "HD_INB_RY-18_2209_34514",
+    "throughLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_TK-04_1941_33553",
@@ -79755,9 +79798,9 @@
       }
     ],
     "trainId": "33553",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1836_33553",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_1942_38054",
@@ -80009,9 +80052,9 @@
       }
     ],
     "trainId": "34093",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_2142_34093",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_1949_40535",
@@ -80218,9 +80261,9 @@
       }
     ],
     "trainId": "34317",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-16_1830_34317",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-07_1957_34193",
@@ -80402,9 +80445,9 @@
       }
     ],
     "trainId": "34301",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_2120_34301",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_2001_10158",
@@ -80684,9 +80727,9 @@
       }
     ],
     "trainId": "34099",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_2202_34099",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-04_2009_33535",
@@ -80774,9 +80817,9 @@
       }
     ],
     "trainId": "33535",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1904_33535",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_2010_10138",
@@ -80998,9 +81041,9 @@
       }
     ],
     "trainId": "34336",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-16_1855_34336",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-02_2018_19282",
@@ -81690,9 +81733,9 @@
       }
     ],
     "trainId": "34120",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_2232_34120",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-18_2036_33418",
@@ -81780,9 +81823,9 @@
       }
     ],
     "trainId": "33418",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_2126_33418",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_2037_8353",
@@ -81934,9 +81977,9 @@
       }
     ],
     "trainId": "34319",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-16_1915_34319",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-04_2040_33508",
@@ -82024,9 +82067,9 @@
       }
     ],
     "trainId": "33508",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1931_33508",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_2041_38070",
@@ -82248,9 +82291,9 @@
       }
     ],
     "trainId": "34145",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JT-01_2252_34145",
-    "throughLineId": "tokaido",
-    "customOrigin": "高崎"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_2049_34457",
@@ -82460,9 +82503,9 @@
       }
     ],
     "trainId": "34156",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JT-01_2212_34156",
-    "throughLineId": "tokaido",
-    "customOrigin": "籠原"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_2054_10183",
@@ -82846,9 +82889,9 @@
       }
     ],
     "trainId": "34518",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_1909_34518",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-02_2101_19262",
@@ -83266,9 +83309,9 @@
       }
     ],
     "trainId": "33379",
+    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_2225_33379",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "高崎"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_2108_10140",
@@ -83592,9 +83635,9 @@
       }
     ],
     "trainId": "34398",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-14_2006_34398",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_2123_7136",
@@ -83710,9 +83753,9 @@
       }
     ],
     "trainId": "33419",
+    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_2210_33419",
-    "throughLineId": "shonan_shinjuku",
-    "customOrigin": "籠原"
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-07_2125_5752",
@@ -83893,9 +83936,9 @@
       }
     ],
     "trainId": "33517",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_2018_33517",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-02_2129_10125",
@@ -84291,9 +84334,9 @@
       }
     ],
     "trainId": "34320",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-16_2016_34320",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_2139_8344",
@@ -85106,9 +85149,9 @@
       }
     ],
     "trainId": "34373",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-21_2018_34373",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_2159_38091",
@@ -85266,9 +85309,9 @@
       }
     ],
     "trainId": "33537",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_2053_33537",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "高崎"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_2204_7199",
@@ -85544,13 +85587,15 @@
       {
         "stationId": "TK-25",
         "arrivalTime": "00:05:00",
-        "departureTime": "00:06:00",
+        "departureTime": "00:05:00",
         "isPassing": false
       }
     ],
     "trainId": "34515",
     "prevTripId": "HD_INB_JT-14_2057_34515",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "throughTripId": "HD_INB_RY-18_0016_34515",
+    "throughLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_TK-02_2212_10126",
@@ -86074,9 +86119,9 @@
       }
     ],
     "trainId": "34339",
+    "customDestination": "高崎",
     "prevTripId": "HD_INB_JT-16_2112_34339",
-    "prevLineId": "tokaido",
-    "customDestination": "高崎"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_TK-02_2231_10161",
@@ -86457,9 +86502,9 @@
       }
     ],
     "trainId": "33536",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_2132_33536",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_2241_34462",
@@ -86720,9 +86765,9 @@
       }
     ],
     "trainId": "34323",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JT-16_2131_34323",
-    "prevLineId": "tokaido",
-    "customDestination": "籠原"
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_TK-01_2253_7135",
@@ -87232,9 +87277,9 @@
       }
     ],
     "trainId": "33548",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_2212_33548",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_OUT_TK-01_2319_34977",
@@ -87710,8 +87755,8 @@
       }
     ],
     "trainId": "33549",
+    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_2245_33549",
-    "prevLineId": "shonan_shinjuku",
-    "customDestination": "籠原"
+    "prevLineId": "shonan_shinjuku"
   }
 ]

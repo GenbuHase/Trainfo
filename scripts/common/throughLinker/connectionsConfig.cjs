@@ -672,6 +672,30 @@ module.exports = {
       dirB: 'inbound',
       maxTimeDiff: 360,
     },
+
+    // 30. JR高崎線 ↔ JR両毛線 (高崎駅 / 新前橋駅経由・前橋直通)
+    {
+      name: '高崎線 -> 両毛線 (高崎経由・前橋方面直通)',
+      lineA: 'takasaki',
+      lineB: 'ryomo',
+      stationA: 'TK-25',
+      stationB: 'RY-18',
+      dirA: 'outbound',
+      dirB: 'inbound',
+      maxTimeDiff: 1200,
+      requireIdMatch: true,
+    },
+    {
+      name: '両毛線 -> 高崎線 (前橋発・高崎・上野・新宿方面直通)',
+      lineA: 'ryomo',
+      lineB: 'takasaki',
+      stationA: 'RY-18',
+      stationB: 'TK-25',
+      dirA: 'outbound',
+      dirB: 'inbound',
+      maxTimeDiff: 1800,
+      requireIdMatch: true,
+    },
   ],
 };
 
