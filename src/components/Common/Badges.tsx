@@ -207,6 +207,30 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#f58d79',
     numColor: '#c85a48',
   },
+  // JR東海道線・JR伊東線
+  JT: {
+    borderColor: '#f68b1e',
+    prefixColor: '#f68b1e',
+    numColor: '#b85d00',
+  },
+  // JR横須賀線・JR総武快速線
+  JO: {
+    borderColor: '#007ac0',
+    prefixColor: '#007ac0',
+    numColor: '#00558a',
+  },
+  // JR高崎線
+  TK: {
+    borderColor: '#f68b1e',
+    prefixColor: '#f68b1e',
+    numColor: '#b85d00',
+  },
+  // JR上野東京ライン
+  UT: {
+    borderColor: '#8b5a2b',
+    prefixColor: '#8b5a2b',
+    numColor: '#5c3818',
+  },
 };
 
 

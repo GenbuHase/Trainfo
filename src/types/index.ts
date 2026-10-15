@@ -38,6 +38,14 @@ export type LineId =
   | 'joban_iwaki_sendai'
   | 'tohoku_shinkansen'
   | 'joetsu_shinkansen'
+  | 'tokaido'
+  | 'takasaki'
+  | 'utsunomiya'
+  | 'ueno_tokyo'
+  | 'shonan_shinjuku'
+  | 'yokosuka'
+  | 'sobu_rapid'
+  | 'ito'
   | (string & {});
 
 
@@ -51,6 +59,9 @@ export type TrainTypeKey =
   | 'express'                 // 急行（急行秩父路等）
   | 'commuter_exp'            // 通勤急行（副都心線、西武線等）
   | 'rapid'                   // 快速（埼京線、つくばエクスプレス、中央線、西武線等）
+  | 'rapid_acty'              // 快速アクティー（東海道線）
+  | 'rapid_rabbit'            // 快速ラビット（宇都宮線）
+  | 'rapid_urban'             // 快速アーバン（高崎線）
   | 'commuter'                // 通勤快速（埼京線、中央線等）
   | 'semi_rapid'              // 区間快速（つくばエクスプレス等）
   | 'commuter_rapid'          // 通勤快速（つくばエクスプレス等）
@@ -224,10 +235,11 @@ export interface DepartureInfo {
 
 // 線路軌道セグメント
 export interface TrackSegment {
+  segmentId?: string;
   fromStationId: string;
   toStationId: string;
-  fromName: string;
-  toName: string;
+  fromName?: string;
+  toName?: string;
   coordinates: [number, number][];
 }
 

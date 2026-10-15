@@ -36,6 +36,14 @@ import { jobanTorideIwakiLine } from './lines/joban_toride_iwaki';
 import { jobanIwakiSendaiLine } from './lines/joban_iwaki_sendai';
 import { tohokuShinkansenLine } from './lines/tohoku_shinkansen';
 import { joetsuShinkansenLine } from './lines/joetsu_shinkansen';
+import { tokaidoLine } from './lines/tokaido';
+import { itoLine } from './lines/ito';
+import { yokosukaLine } from './lines/yokosuka';
+import { sobuRapidLine } from './lines/sobu_rapid';
+import { utsunomiyaLine } from './lines/utsunomiya';
+import { takasakiLine } from './lines/takasaki';
+import { shonanShinjukuLine } from './lines/shonan_shinjuku';
+import { uenoTokyoLine } from './lines/ueno_tokyo';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -53,6 +61,14 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   joban_iwaki_sendai: jobanIwakiSendaiLine,
   tohoku_shinkansen: tohokuShinkansenLine,
   joetsu_shinkansen: joetsuShinkansenLine,
+  tokaido: tokaidoLine,
+  ito: itoLine,
+  yokosuka: yokosukaLine,
+  sobu_rapid: sobuRapidLine,
+  utsunomiya: utsunomiyaLine,
+  takasaki: takasakiLine,
+  shonan_shinjuku: shonanShinjukuLine,
+  ueno_tokyo: uenoTokyoLine,
   seibu_ikebukuro: seibuIkebukuroLine,
 
   seibu_yurakucho: seibuYurakuchoLine,
