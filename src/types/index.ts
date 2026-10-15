@@ -39,6 +39,7 @@ export type LineId =
   | 'tohoku_shinkansen'
   | 'joetsu_shinkansen'
   | 'tokaido'
+  | 'tokaido_shizuoka'
   | 'takasaki'
   | 'utsunomiya'
   | 'ueno_tokyo'

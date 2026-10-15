@@ -137,6 +137,7 @@ const targetLines = [
   { id: 'takasaki', name: 'JR高崎線' },
   { id: 'shonan_shinjuku', name: 'JR湘南新宿ライン' },
   { id: 'ueno_tokyo', name: 'JR上野東京ライン' },
+  { id: 'tokaido_shizuoka', name: 'JR東海道線（静岡地区）' },
   { id: 'ryomo', name: 'JR両毛線' },
 ];
 

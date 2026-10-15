@@ -37,6 +37,7 @@ import { jobanIwakiSendaiLine } from './lines/joban_iwaki_sendai';
 import { tohokuShinkansenLine } from './lines/tohoku_shinkansen';
 import { joetsuShinkansenLine } from './lines/joetsu_shinkansen';
 import { tokaidoLine } from './lines/tokaido';
+import { tokaidoShizuokaLine } from './lines/tokaido_shizuoka';
 import { itoLine } from './lines/ito';
 import { yokosukaLine } from './lines/yokosuka';
 import { sobuRapidLine } from './lines/sobu_rapid';
@@ -63,6 +64,7 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tohoku_shinkansen: tohokuShinkansenLine,
   joetsu_shinkansen: joetsuShinkansenLine,
   tokaido: tokaidoLine,
+  tokaido_shizuoka: tokaidoShizuokaLine,
   ito: itoLine,
   yokosuka: yokosukaLine,
   sobu_rapid: sobuRapidLine,

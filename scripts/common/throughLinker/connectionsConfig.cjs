@@ -696,6 +696,27 @@ module.exports = {
       maxTimeDiff: 1800,
       requireIdMatch: true,
     },
+    // 31. JR東海道線 ↔ JR東海道線（静岡地区） (熱海駅)
+    {
+      name: '東海道線 -> 東海道線（静岡地区） (熱海経由・沼津・静岡方面直通)',
+      lineA: 'tokaido',
+      lineB: 'tokaido_shizuoka',
+      stationA: 'JT-21',
+      stationB: 'CA-00',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 360,
+    },
+    {
+      name: '東海道線（静岡地区） -> 東海道線 (熱海経由・東京・上野方面直通)',
+      lineA: 'tokaido_shizuoka',
+      lineB: 'tokaido',
+      stationA: 'CA-00',
+      stationB: 'JT-21',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 360,
+    },
   ],
 };
 

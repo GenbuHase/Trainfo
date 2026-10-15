@@ -153,27 +153,6 @@ module.exports = {
       "name": "熱海",
       "yahooStationId": "23452",
       "inGroupId": "1170",
-      "outGroupId": "1361"
-    },
-    {
-      "id": "CA-01",
-      "name": "函南",
-      "yahooStationId": "23515",
-      "inGroupId": "1360",
-      "outGroupId": "1361"
-    },
-    {
-      "id": "CA-02",
-      "name": "三島",
-      "yahooStationId": "23636",
-      "inGroupId": "1360",
-      "outGroupId": "1361"
-    },
-    {
-      "id": "CA-03",
-      "name": "沼津",
-      "yahooStationId": "23600",
-      "inGroupId": "1360",
       "outGroupId": null
     }
   ],
@@ -216,9 +195,6 @@ module.exports = {
     "17": 227,
     "18": 283,
     "19": 165,
-    "20": 288,
-    "21": 540,
-    "22": 300,
-    "23": 300
+    "20": 288
   }
 };

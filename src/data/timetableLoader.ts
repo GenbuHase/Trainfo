@@ -316,6 +316,14 @@ const TIMETABLE_LOADERS: Record<string, LoaderFn> = {
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
+  tokaido_shizuoka: () =>
+    Promise.all([
+      import('./lines/tokaido_shizuoka/globalTimetable.json'),
+      import('./lines/tokaido_shizuoka/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
   ito: () =>
     Promise.all([
       import('./lines/ito/globalTimetable.json'),
