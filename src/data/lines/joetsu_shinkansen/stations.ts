@@ -89,8 +89,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "name": "大宮",
     "nameKana": "おおみや",
     "nameEn": "Omiya",
-    "lat": 35.9121778,
-    "lng": 139.6206843,
+    "lat": 35.9095251,
+    "lng": 139.6217107,
     "transfers": [
       "JR東北新幹線",
       "JR埼京線",
@@ -129,8 +129,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "name": "熊谷",
     "nameKana": "くまがや",
     "nameEn": "Kumagaya",
-    "lat": 36.1393546,
-    "lng": 139.390041,
+    "lat": 36.138544,
+    "lng": 139.3921709,
     "transfers": [
       "JR高崎線",
       "JR湘南新宿ライン",
@@ -163,8 +163,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "name": "本庄早稲田",
     "nameKana": "ほんじょうわせだ",
     "nameEn": "Honjo-Waseda",
-    "lat": 36.2195043,
-    "lng": 139.1782115,
+    "lat": 36.2194767,
+    "lng": 139.1781883,
     "transfers": [],
     "address": "埼玉県本庄市早稲田の杜一丁目1-1",
     "platforms": {
@@ -192,8 +192,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "name": "高崎",
     "nameKana": "たかさき",
     "nameEn": "Takasaki",
-    "lat": 36.3223873,
-    "lng": 139.0129671,
+    "lat": 36.3223662,
+    "lng": 139.0130152,
     "transfers": [
       "JR北陸新幹線",
       "JR高崎線",
@@ -230,8 +230,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "name": "上毛高原",
     "nameKana": "じょうもうこうげん",
     "nameEn": "Jomo-Kogen",
-    "lat": 36.6937966,
-    "lng": 138.9773924,
+    "lat": 36.6931647,
+    "lng": 138.9775692,
     "transfers": [],
     "address": "群馬県利根郡みなかみ町月夜野1756",
     "platforms": {
@@ -259,8 +259,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "name": "越後湯沢",
     "nameKana": "えちごゆざわ",
     "nameEn": "Echigo-Yuzawa",
-    "lat": 36.9358885,
-    "lng": 138.8093678,
+    "lat": 36.9358386,
+    "lng": 138.8092615,
     "transfers": [
       "JR上越線",
       "北越急行ほくほく線"
@@ -291,8 +291,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "name": "浦佐",
     "nameKana": "うらさ",
     "nameEn": "Urasa",
-    "lat": 37.1673745,
-    "lng": 138.9227568,
+    "lat": 37.1673817,
+    "lng": 138.9225912,
     "transfers": [
       "JR上越線"
     ],
@@ -322,8 +322,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "name": "長岡",
     "nameKana": "ながおか",
     "nameEn": "Nagaoka",
-    "lat": 37.447808,
-    "lng": 138.8540646,
+    "lat": 37.447836,
+    "lng": 138.8539585,
     "transfers": [
       "JR信越本線",
       "JR上越線"
@@ -354,8 +354,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "name": "燕三条",
     "nameKana": "つばめさんじょう",
     "nameEn": "Tsubamesanjo",
-    "lat": 37.6495149,
-    "lng": 138.9396352,
+    "lat": 37.6495292,
+    "lng": 138.9395902,
     "transfers": [
       "JR弥彦線"
     ],
@@ -385,8 +385,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "name": "新潟",
     "nameKana": "にいがた",
     "nameEn": "Niigata",
-    "lat": 37.9120337,
-    "lng": 139.0614118,
+    "lat": 37.9119375,
+    "lng": 139.0614492,
     "transfers": [
       "JR信越本線",
       "JR白新線",
