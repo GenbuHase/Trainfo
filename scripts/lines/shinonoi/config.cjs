@@ -41,7 +41,7 @@ module.exports = {
   // 種別マッピング（最長一致スキャン対応）
   trainTypeMap: {
     '普通': 'regular',
-    '各駅停車': 'local',
+    '各駅停車': 'regular',
     '快速': 'rapid',
     '特急': 'limitedExp',
   },

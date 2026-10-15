@@ -13,17 +13,6 @@ export const SHINONOI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#0284c7',
     borderColor: '#38bdf8',
   },
-  // 各駅停車 (フォールバック用)
-  local: {
-    key: 'local',
-    name: '各駅停車',
-    nameEn: 'Local',
-    shortName: '各停',
-    color: '#475569',
-    textColor: '#ffffff',
-    bgColor: '#475569',
-    borderColor: '#64748b',
-  },
   // 快速 (みすず号等): オレンジ
   rapid: {
     key: 'rapid',

@@ -44,7 +44,7 @@ export type LineId =
 // 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋東京メトロ＋西武線＋秩父鉄道＋新幹線＋汎用）
 export type TrainTypeKey =
   | 'local'                   // 普通 / 各駅停車
-  | 'regular'                 // 普通（むさしの号・しもうさ号等）
+  | 'regular'                 // 普通（むさしの号・しもうさ号・中央本線・篠ノ井線・大糸線等）
   | 'semiExp'                 // 準急
   | 'commuter_semi'           // 通勤準急（西武線等）
   | 'express'                 // 急行（急行秩父路等）
