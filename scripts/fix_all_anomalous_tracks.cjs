@@ -148,7 +148,7 @@ async function main() {
     } else if (seg.segmentId === 'JO-13_JO-12') {
       seg.coordinates = coordsYokohamaHodogaya;
       console.log('  Fixed JO-13_JO-12 (Yokohama -> Hodogaya)');
-    } else if (seg.segmentId === 'JO-11_JO-10') {
+    } else if (seg.segmentId === 'JO-11_JO-10' && seg.coordinates.length > 80) {
       // 東戸塚 -> 戸塚 の戸塚駅南側行き過ぎ＆逆走スパイクを解消
       const totsuka = yStMap.get('JO-10');
       // idx 76 [35.4006169, 139.5344609] 付近が戸塚駅
@@ -185,6 +185,14 @@ async function main() {
   const joetsuStations = JSON.parse(fs.readFileSync(joetsuStationsPath, 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
   const joetsuTrack = JSON.parse(fs.readFileSync(joetsuTrackPath, 'utf8').match(/=\s*(\[[\s\S]*\]);/)[1]);
 
+  // 湯檜曽駅 (JOE-15) の下りホーム位置に駅座標をスナップ (36.8030084, 138.9856167)
+  const yubisoSt = joetsuStations.find(s => s.id === 'JOE-15');
+  if (yubisoSt) {
+    yubisoSt.lat = 36.8030084;
+    yubisoSt.lng = 138.9856167;
+    console.log('  Fixed Yubiso Station (JOE-15) coordinates to down platform position');
+  }
+
   // 土合駅 (JOE-16) の線路位置に駅座標をスナップ (36.829534, 138.962617)
   const doaiSt = joetsuStations.find(s => s.id === 'JOE-16');
   if (doaiSt) {
@@ -199,6 +207,44 @@ async function main() {
     urasaSt.lat = 37.1678091;
     urasaSt.lng = 138.9228616;
     console.log('  Fixed Urasa Station (JOE-27) coordinates to Joetsu Line platform position');
+  }
+
+  // 湯檜曽駅周辺の正規下り線ルート (新清水トンネル経由)
+  const osmJoetsuPath = path.resolve(__dirname, 'cache/osm_joetsu.json');
+  if (fs.existsSync(osmJoetsuPath)) {
+    const osmJoetsuData = JSON.parse(fs.readFileSync(osmJoetsuPath, 'utf8'));
+    const jNodeMap = new Map();
+    const jElements = [];
+    for (const el of osmJoetsuData.elements) {
+      if (el.type === 'node') {
+        jNodeMap.set(el.id, el);
+        jElements.push(el);
+      } else {
+        jElements.push(el);
+      }
+    }
+    const jWays = jElements.filter(e => e.type === 'way');
+    const jAdj = buildWeightedGraph(jElements, jNodeMap);
+    snapEndpoints(jWays, jNodeMap, jAdj, 30);
+
+    const minakamiId = 264814419;
+    const yubisoDownId = 264814630;
+    const doaiDownId = 264816040;
+
+    const pathMinakamiYubiso = dijkstraPath(jAdj, jNodeMap, minakamiId, yubisoDownId);
+    const pathYubisoDoai = dijkstraPath(jAdj, jNodeMap, yubisoDownId, doaiDownId);
+
+    const seg14_15 = joetsuTrack.find(s => s.segmentId === 'JOE-14_JOE-15');
+    if (seg14_15 && pathMinakamiYubiso) {
+      seg14_15.coordinates = subdivideCoordinates(pathMinakamiYubiso.map(id => [jNodeMap.get(id).lat, jNodeMap.get(id).lon]), 100);
+      console.log('  Fixed JOE-14_JOE-15 (Minakami -> Yubiso down track)');
+    }
+
+    const seg15_16 = joetsuTrack.find(s => s.segmentId === 'JOE-15_JOE-16');
+    if (seg15_16 && pathYubisoDoai) {
+      seg15_16.coordinates = subdivideCoordinates(pathYubisoDoai.map(id => [jNodeMap.get(id).lat, jNodeMap.get(id).lon]), 100);
+      console.log('  Fixed JOE-15_JOE-16 (Yubiso -> Doai down track, eliminated 1.3km overshoot U-turn)');
+    }
   }
 
   // セグメント端点を駅座標にスナップ
@@ -236,13 +282,13 @@ async function main() {
 
   for (let i = 0; i < tokaidoTrack.length; i++) {
     const seg = tokaidoTrack[i];
-    if (seg.segmentId === 'JT-06_JT-07') {
+    if (seg.segmentId === 'JT-06_JT-07' && seg.coordinates.length > 270) {
       // 戸塚 -> 大船: idx 268以降の大船南側行き過ぎをカット
       const ofuna = tStMap.get('JT-07');
       seg.coordinates = seg.coordinates.slice(0, 268);
       seg.coordinates.push([ofuna.lat, ofuna.lng]);
       console.log('  Fixed JT-06_JT-07 (Totsuka -> Ofuna overshoot & spike)');
-    } else if (seg.segmentId === 'JT-07_JT-08') {
+    } else if (seg.segmentId === 'JT-07_JT-08' && seg.coordinates.length > 260) {
       // 大船 -> 藤沢: 大船北側への逆走Uターンループ (idx 1..23) と藤沢駅西側への行き過ぎ (idx 276以降) をカット
       const ofuna = tStMap.get('JT-07');
       const fujisawa = tStMap.get('JT-08');
