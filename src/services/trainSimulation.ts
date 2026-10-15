@@ -1,5 +1,5 @@
 // リアルタイム列車位置計算シミュレーションエンジン
-import type { ActiveTrain, TimetableTrip, LineId, TrainTypeKey } from '../types';
+import type { ActiveTrain, TimetableTrip, LineId } from '../types';
 import { STATION_MAP } from '../data/stations';
 import {
   interpolateTrackPosition,
@@ -133,59 +133,6 @@ export function isSamePhysicalStation(idA?: string, idB?: string): boolean {
 }
 
 /**
- * 路線および列車種別に応じた営業最高速度・上限ガード速度 (km/h) を返却
- */
-export function getMaxSpeedKmh(lineId: LineId, trainType?: TrainTypeKey): number {
-  // 東北新幹線 (最高320km/h)
-  if (lineId === 'tohoku_shinkansen') {
-    return 320;
-  }
-  // 上越新幹線 (最高275km/h)
-  if (lineId === 'joetsu_shinkansen') {
-    return 275;
-  }
-  // つくばエクスプレス (最高130km/h)
-  if (lineId === 'tsukuba_express') {
-    return 130;
-  }
-  // 常磐線特急・快速 (特急ひたち・ときわ最高130km/h、快速120km/h)
-  if (
-    lineId === 'joban_rapid' ||
-    lineId === 'joban_toride_iwaki' ||
-    lineId === 'joban_iwaki_sendai'
-  ) {
-    if (trainType === 'limitedExp') return 130;
-    return 120;
-  }
-  // 中央線特急 (あずさ・かいじ最高130km/h、快速100km/h)
-  if (lineId === 'chuo' || lineId === 'chuo_main') {
-    if (trainType === 'limitedExp') return 130;
-    return 100;
-  }
-  // 一般JR線（埼京線・川越線・武蔵野線・八高線・篠ノ井線・大糸線等 最高110〜120km/h）
-  if (
-    lineId === 'saikyo' ||
-    lineId === 'kawagoe' ||
-    lineId === 'musashino' ||
-    lineId === 'hachiko' ||
-    lineId === 'shinonoi' ||
-    lineId === 'oito_east'
-  ) {
-    return 110;
-  }
-  // 西武特急（ラビュー・ちちぶ・むさし等 最高120km/h）
-  if (trainType === 'limitedExp') {
-    return 120;
-  }
-  // 東武東上線 (最高105km/h)
-  if (lineId === 'tojo') {
-    return 105;
-  }
-  // 私鉄・地下鉄一般（相鉄、東急、東京メトロ、秩父鉄道等 最高100〜105km/h）
-  return 105;
-}
-
-/**
  * スムーズステップ関数 (Hermite interpolation)
  * 入力 x: 0.0〜1.0 -> 出力 0.0〜1.0 (端点での微分係数 0)
  */
@@ -200,21 +147,23 @@ function smoothstep(x: number): number {
  * - 巡航区間
  * - 停車前の滑らかな減速（巡航速度 -> 0）
  * - 通過駅（isPassing: true）では減速せず巡航速度を維持
+ * - 所要時間 0 秒や負の値・NaN・Infinity を防護
  */
 export function calculateDynamicSpeed({
   progress,
   avgSpeedKmh,
   isDepPassing = false,
   isArrPassing = false,
-  maxSpeedKmh = 105,
 }: {
   progress: number;
   avgSpeedKmh: number;
   isDepPassing?: boolean;
   isArrPassing?: boolean;
-  maxSpeedKmh?: number;
 }): number {
-  if (avgSpeedKmh <= 0) return 0;
+  // ゼロ除算・非有限数（Infinity / NaN）・負値の防止ガード
+  if (!Number.isFinite(avgSpeedKmh) || avgSpeedKmh <= 0) {
+    return 0;
+  }
 
   // 加速・減速区間の進捗割合（駅間の25%を使用）
   const pAccel = isDepPassing ? 0 : 0.25;
@@ -222,10 +171,11 @@ export function calculateDynamicSpeed({
 
   // 平均速度係数: 加減速中の平均係数は 0.5（smoothstepの積分特性）
   const avgFactor = 1 - 0.5 * pAccel - 0.5 * pDecel;
-  const rawCruise = avgFactor > 0 ? avgSpeedKmh / avgFactor : avgSpeedKmh;
+  const cruiseSpeed = avgFactor > 0 ? avgSpeedKmh / avgFactor : avgSpeedKmh;
 
-  // 巡航速度の上限クランプ（最高速度に+5%のマージンを許容してダイヤ誤差を吸収）
-  const cruiseSpeed = Math.min(rawCruise, maxSpeedKmh * 1.05);
+  if (!Number.isFinite(cruiseSpeed) || cruiseSpeed <= 0) {
+    return 0;
+  }
 
   let factor = 1.0;
   if (pAccel > 0 && progress < pAccel) {
@@ -242,6 +192,7 @@ export function calculateDynamicSpeed({
 
   return Math.round(speed * 10) / 10;
 }
+
 
 
 // 指定時刻における走行中の全列車を算出
@@ -416,27 +367,27 @@ export function calculateActiveTrains(
           // 速度計算 (km/h)
           const stNextObj = STATION_MAP.get(nextStop.stationId);
           let avgSpeedKmh = 70;
-          if (stObj && stNextObj) {
+          if (stObj && stNextObj && totalDuration > 0) {
             const trackDistKm = getTrackDistanceKm(curStop.stationId, nextStop.stationId);
             const dist = trackDistKm !== null
               ? trackDistKm
               : calculateDistanceKm(stObj.lat, stObj.lng, stNextObj.lat, stNextObj.lng);
-            if (totalDuration > 0) {
-              avgSpeedKmh = dist / (totalDuration / 3600);
+            const calculated = dist / (totalDuration / 3600);
+            if (Number.isFinite(calculated) && calculated > 0) {
+              avgSpeedKmh = calculated;
             }
           }
 
           const nextStopStation = trip.stops.slice(i + 1).find((s) => !s.isPassing);
           const trainInfo = resolveActiveTrainInfo(trip, curStop.stationId, nextStop.stationId);
 
-          const maxSpeedKmh = getMaxSpeedKmh(lineId, trainInfo.trainType);
           const dynamicSpeedKmh = calculateDynamicSpeed({
             progress,
             avgSpeedKmh,
             isDepPassing: Boolean(curStop.isPassing),
             isArrPassing: Boolean(nextStop.isPassing),
-            maxSpeedKmh,
           });
+
 
           activeTrains.push({
             tripId: trip.tripId,
