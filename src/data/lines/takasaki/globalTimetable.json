@@ -291,7 +291,9 @@
     ],
     "trainId": "34287",
     "throughTripId": "WD_OUT_JT-01_0701_34287",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "WD_INB_JOE-04_0500_34287",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_TK-02_0513_19266",
@@ -8130,13 +8132,15 @@
       {
         "stationId": "TK-25",
         "arrivalTime": "08:46:00",
-        "departureTime": "08:47:00",
+        "departureTime": "08:46:00",
         "isPassing": false
       }
     ],
     "trainId": "10066",
     "prevTripId": "WD_INB_JS-20_0730_10066",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "throughTripId": "WD_OUT_JOE-01_0847_10066",
+    "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_TK-25_0759_33383",
@@ -22402,7 +22406,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "37207"
+    "trainId": "37207",
+    "prevTripId": "WD_INB_JOE-07_1349_37207",
+    "prevLineId": "joetsu",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_OUT_TK-01_1409_34479",
@@ -28362,7 +28369,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "37209"
+    "trainId": "37209",
+    "prevTripId": "WD_INB_JOE-07_1626_37209",
+    "prevLineId": "joetsu",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_OUT_TK-01_1649_34454",
@@ -29931,7 +29941,9 @@
     ],
     "trainId": "43395",
     "throughTripId": "WD_OUT_JS-24_1825_43395",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "prevTripId": "WD_INB_JOE-14_1638_43395",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_TK-01_1723_7128",
@@ -30533,7 +30545,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "42169"
+    "trainId": "42169",
+    "prevTripId": "WD_INB_JOE-04_1726_42169",
+    "prevLineId": "joetsu",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_OUT_TK-01_1738_34367",
@@ -45840,7 +45855,9 @@
     ],
     "trainId": "34288",
     "throughTripId": "HD_OUT_JT-01_0701_34288",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "HD_INB_JOE-04_0500_34288",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_TK-02_0513_19266",
@@ -47638,7 +47655,9 @@
     ],
     "trainId": "33439",
     "throughTripId": "HD_OUT_JS-24_0729_33439",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "prevTripId": "HD_INB_JOE-04_0536_33439",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_TK-02_0615_19269",
@@ -51971,13 +51990,15 @@
       {
         "stationId": "TK-25",
         "arrivalTime": "08:46:00",
-        "departureTime": "08:47:00",
+        "departureTime": "08:46:00",
         "isPassing": false
       }
     ],
     "trainId": "10066",
     "prevTripId": "HD_INB_JS-20_0730_10066",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "throughTripId": "HD_OUT_JOE-01_0847_10066",
+    "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_TK-25_0759_33357",
@@ -54224,13 +54245,15 @@
       {
         "stationId": "TK-25",
         "arrivalTime": "10:57:00",
-        "departureTime": "10:58:00",
+        "departureTime": "10:57:00",
         "isPassing": false
       }
     ],
     "trainId": "34513",
     "prevTripId": "HD_INB_JT-16_0730_34513",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "throughTripId": "HD_OUT_JOE-01_1058_34513",
+    "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_TK-02_0859_10087",
@@ -65838,7 +65861,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "37207"
+    "trainId": "37207",
+    "prevTripId": "HD_INB_JOE-07_1349_37207",
+    "prevLineId": "joetsu",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_OUT_TK-01_1409_34480",
@@ -68079,7 +68105,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "37208"
+    "trainId": "37208",
+    "prevTripId": "HD_INB_JOE-07_1455_37208",
+    "prevLineId": "joetsu",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_INB_TK-18_1513_33404",
@@ -71841,7 +71870,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "37209"
+    "trainId": "37209",
+    "prevTripId": "HD_INB_JOE-07_1626_37209",
+    "prevLineId": "joetsu",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_INB_TK-02_1647_10111",
@@ -73417,7 +73449,9 @@
     ],
     "trainId": "43395",
     "throughTripId": "HD_OUT_JS-24_1825_43395",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "prevTripId": "HD_INB_JOE-14_1638_43395",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_TK-01_1723_7128",

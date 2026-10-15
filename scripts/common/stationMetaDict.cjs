@@ -104,6 +104,19 @@ const STATION_META = {
   '渋谷': { nameKana: 'しぶや', nameEn: 'Shibuya', address: '東京都渋谷区道玄坂一丁目', transfers: ['JR山手線', 'JR埼京線', 'JR湘南新宿ライン', '相鉄・JR直通線', '東急東横線', '東急田園都市線', '京王井の頭線', '東京メトロ銀座線', '東京メトロ半蔵門線', '東京メトロ副都心線'] },
   '恵比寿': { nameKana: 'えびす', nameEn: 'Ebisu', address: '東京都渋谷区恵比寿南一丁目', transfers: ['JR山手線', 'JR埼京線', 'JR湘南新宿ライン', '相鉄・JR直通線', '東京メトロ日比谷線'] },
   '大崎': { nameKana: 'おおさき', nameEn: 'Osaki', address: '東京都品川区大崎一丁目', transfers: ['JR山手線', 'JR埼京線', 'JR湘南新宿ライン', '相鉄・JR直通線', '東京臨海高速鉄道りんかい線'] },
+  '高崎問屋町': { nameKana: 'たかさきとんやまち', nameEn: 'Takasaki-Tonyamachi', address: '群馬県高崎市貝沢町', transfers: ['JR上越線', 'JR両毛線', 'JR吾妻線'] },
+  '井野': { nameKana: 'いの', nameEn: 'Ino', address: '群馬県高崎市井野町', transfers: ['JR上越線', 'JR両毛線', 'JR吾妻線'] },
+  '新前橋': { nameKana: 'しんまえばし', nameEn: 'Shin-Maebashi', address: '群馬県前橋市古市町', transfers: ['JR上越線', 'JR両毛線', 'JR吾妻線'] },
+  '群馬総社': { nameKana: 'ぐんまそうじゃ', nameEn: 'Gumma-Soja', address: '群馬県前橋市総社町植野', transfers: ['JR上越線', 'JR吾妻線'] },
+  '八木原': { nameKana: 'やぎはら', nameEn: 'Yagihara', address: '群馬県渋川市八木原', transfers: ['JR上越線', 'JR吾妻線'] },
+  '渋川': { nameKana: 'しぶかわ', nameEn: 'Shibukawa', address: '群馬県渋川市渋川', transfers: ['JR上越線', 'JR吾妻線'] },
+  '敷島': { nameKana: 'しきしま', nameEn: 'Shikishima', address: '群馬県渋川市赤城町敷島', transfers: ['JR上越線'] },
+  '津久田': { nameKana: 'つくだ', nameEn: 'Tsukuda', address: '群馬県渋川市赤城町津久田', transfers: ['JR上越線'] },
+  '岩本': { nameKana: 'いわもと', nameEn: 'Iwamoto', address: '群馬県沼田市岩本町', transfers: ['JR上越線'] },
+  '沼田': { nameKana: 'ぬまた', nameEn: 'Numata', address: '群馬県沼田市清水町', transfers: ['JR上越線'] },
+  '後閑': { nameKana: 'ごかん', nameEn: 'Gokan', address: '群馬県利根郡みなかみ町後閑', transfers: ['JR上越線'] },
+  '上牧': { nameKana: 'かみもく', nameEn: 'Kamimoku', address: '群馬県利根郡みなかみ町上牧', transfers: ['JR上越線'] },
+  '水上': { nameKana: 'みなかみ', nameEn: 'Minakami', address: '群馬県利根郡みなかみ町鹿野沢', transfers: ['JR上越線'] },
 };
 
 module.exports = { STATION_META };

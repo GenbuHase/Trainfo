@@ -243,6 +243,12 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#c8a200',
     numColor: '#333333',
   },
+  // JR上越線
+  JOE: {
+    borderColor: '#00a0de',
+    prefixColor: '#00a0de',
+    numColor: '#006f9c',
+  },
 };
 
 

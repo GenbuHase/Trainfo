@@ -717,6 +717,54 @@ module.exports = {
       dirB: 'inbound',
       maxTimeDiff: 360,
     },
+
+    // 32. JR高崎線 ↔ JR上越線 (高崎駅)
+    {
+      name: '高崎線 -> 上越線 (高崎経由・渋川・水上方面直通)',
+      lineA: 'takasaki',
+      lineB: 'joetsu',
+      stationA: 'TK-25',
+      stationB: 'JOE-01',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 1800,
+      requireIdMatch: true,
+    },
+    {
+      name: '上越線 -> 高崎線 (新前橋・渋川・水上発・高崎・大宮・上野・新宿方面直通)',
+      lineA: 'joetsu',
+      lineB: 'takasaki',
+      stationA: 'JOE-01',
+      stationB: 'TK-25',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 1800,
+      requireIdMatch: true,
+    },
+
+    // 33. JR上越線 ↔ JR両毛線 (新前橋駅)
+    {
+      name: '両毛線 -> 上越線 (前橋発・新前橋経由・高崎方面直通)',
+      lineA: 'ryomo',
+      lineB: 'joetsu',
+      stationA: 'RY-18',
+      stationB: 'JOE-04',
+      dirA: 'outbound',
+      dirB: 'inbound',
+      maxTimeDiff: 1200,
+      requireIdMatch: true,
+    },
+    {
+      name: '上越線 -> 両毛線 (高崎発・新前橋経由・前橋・小山方面直通)',
+      lineA: 'joetsu',
+      lineB: 'ryomo',
+      stationA: 'JOE-04',
+      stationB: 'RY-18',
+      dirA: 'outbound',
+      dirB: 'inbound',
+      maxTimeDiff: 1200,
+      requireIdMatch: true,
+    },
   ],
 };
 
