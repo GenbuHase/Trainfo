@@ -35,16 +35,16 @@ export const OME_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#9333ea',
     borderColor: '#c084fc',
   },
-  // 青梅特快: グリーン
-  ome_special_rapid: {
-    key: 'ome_special_rapid',
-    name: '青梅特快',
-    nameEn: 'Ome Special Rapid',
-    shortName: '青特',
-    color: '#16a34a',
+  // 特別快速（ホリデー快速おくたま等）: スカイブルー
+  special_rapid: {
+    key: 'special_rapid',
+    name: '特別快速',
+    nameEn: 'Special Rapid',
+    shortName: '特快',
+    color: '#0284c7',
     textColor: '#ffffff',
-    bgColor: '#16a34a',
-    borderColor: '#4ade80',
+    bgColor: '#0284c7',
+    borderColor: '#38bdf8',
   },
   // 中央特快: スカイブルー
   chuo_special_rapid: {
@@ -57,16 +57,16 @@ export const OME_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#0284c7',
     borderColor: '#38bdf8',
   },
-  // 特別快速（ホリデー快速おくたま等）: スカイブルー
-  special_rapid: {
-    key: 'special_rapid',
-    name: '特別快速',
-    nameEn: 'Special Rapid',
-    shortName: '特快',
-    color: '#0284c7',
+  // 青梅特快: グリーン
+  ome_special_rapid: {
+    key: 'ome_special_rapid',
+    name: '青梅特快',
+    nameEn: 'Ome Special Rapid',
+    shortName: '青特',
+    color: '#16a34a',
     textColor: '#ffffff',
-    bgColor: '#0284c7',
-    borderColor: '#38bdf8',
+    bgColor: '#16a34a',
+    borderColor: '#4ade80',
   },
   // 通勤特快: レッド
   commuter_special_rapid: {

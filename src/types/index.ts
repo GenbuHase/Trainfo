@@ -36,14 +36,15 @@ export type LineId =
   | 'joban_rapid'
   | 'joban_toride_iwaki'
   | 'joban_iwaki_sendai'
+  | 'tohoku_shinkansen'
   | (string & {});
 
 
 
-// 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋東京メトロ＋西武線＋秩父鉄道＋汎用）
+// 列車種別キー（東上線＋埼京線＋武蔵野線＋つくばエクスプレス＋中央線＋東京メトロ＋西武線＋秩父鉄道＋新幹線＋汎用）
 export type TrainTypeKey =
   | 'local'                   // 普通 / 各駅停車
-  | 'regular'                 // 普通（むさしの号・しもうさ号等）
+  | 'regular'                 // 普通（むさしの号・しもうさ号・中央本線・篠ノ井線・大糸線等）
   | 'semiExp'                 // 準急
   | 'commuter_semi'           // 通勤準急（西武線等）
   | 'express'                 // 急行（急行秩父路等）
@@ -64,6 +65,12 @@ export type TrainTypeKey =
   | 'tjLiner'                 // TJライナー
   | 'strain'                  // S-TRAIN（西武・メトロ・東急直通）
   | 'sl'                      // SL（パレオエクスプレス）
+  | 'hayabusa'                // はやぶさ（東北新幹線）
+  | 'hayate'                  // はやて（東北新幹線）
+  | 'yamabiko'                // やまびこ（東北新幹線）
+  | 'nasuno'                  // なすの（東北新幹線）
+  | 'tsubasa'                 // つばさ（山形新幹線直通）
+  | 'komachi'                 // こまち（秋田新幹線直通）
   | (string & {});
 
 export interface TrainTypeConfig {
