@@ -36,6 +36,17 @@ import { jobanTorideIwakiLine } from './lines/joban_toride_iwaki';
 import { jobanIwakiSendaiLine } from './lines/joban_iwaki_sendai';
 import { tohokuShinkansenLine } from './lines/tohoku_shinkansen';
 import { joetsuShinkansenLine } from './lines/joetsu_shinkansen';
+import { tokaidoLine } from './lines/tokaido';
+import { tokaidoShizuokaLine } from './lines/tokaido_shizuoka';
+import { itoLine } from './lines/ito';
+import { yokosukaLine } from './lines/yokosuka';
+import { sobuRapidLine } from './lines/sobu_rapid';
+import { utsunomiyaLine } from './lines/utsunomiya';
+import { takasakiLine } from './lines/takasaki';
+import { shonanShinjukuLine } from './lines/shonan_shinjuku';
+import { uenoTokyoLine } from './lines/ueno_tokyo';
+import { ryomoLine } from './lines/ryomo';
+import { joetsuLine } from './lines/joetsu';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -53,6 +64,17 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   joban_iwaki_sendai: jobanIwakiSendaiLine,
   tohoku_shinkansen: tohokuShinkansenLine,
   joetsu_shinkansen: joetsuShinkansenLine,
+  tokaido: tokaidoLine,
+  tokaido_shizuoka: tokaidoShizuokaLine,
+  ito: itoLine,
+  yokosuka: yokosukaLine,
+  sobu_rapid: sobuRapidLine,
+  utsunomiya: utsunomiyaLine,
+  takasaki: takasakiLine,
+  shonan_shinjuku: shonanShinjukuLine,
+  ueno_tokyo: uenoTokyoLine,
+  ryomo: ryomoLine,
+  joetsu: joetsuLine,
   seibu_ikebukuro: seibuIkebukuroLine,
 
   seibu_yurakucho: seibuYurakuchoLine,
@@ -99,6 +121,7 @@ const OPERATOR_DISPLAY_ORDER = [
   '相模鉄道',
   '小田急電鉄',
   'JR東日本',
+  'JR東海',
   'JR西日本',
   '東京臨海高速鉄道',
   '首都圏新都市鉄道',

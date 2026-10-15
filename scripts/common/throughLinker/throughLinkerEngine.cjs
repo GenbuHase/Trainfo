@@ -168,6 +168,10 @@ const TOYOKO_ALLOWED_ORIGINS = new Set([
   '清瀬', '所沢', '保谷', '小手指', '飯能', '石神井公園', 'ひばりヶ丘'
 ]);
 
+const TAKASAKI_DESTS = new Set(['高崎', '籠原', '深谷', '本庄', '新前橋', '前橋', '渋川', '水上']);
+const UTSUNOMIYA_DESTS = new Set(['宇都宮', '小金井', '古河', '黒磯', '氏家', '宝積寺', '那須塩原']);
+const JOBAN_DESTS = new Set(['土浦', '勝田', '水戸', 'いわき', '高萩', '仙台', '取手', '成田', '我孫子', '神立', '友部', '日立', '原ノ町']);
+
 function isLineDestinationMismatch(dest, targetLineId) {
   if (!dest) return false;
   if (targetLineId === 'yurakucho') {
@@ -179,7 +183,12 @@ function isLineDestinationMismatch(dest, targetLineId) {
   if (targetLineId === 'sotetsu_izumino') {
     return dest.includes('海老名');
   }
-  // 相鉄本線（sotetsu_main）は西谷〜二俣川間をいずみ野線（湘南台方面）直通列車も走行するため除外しない
+  if (targetLineId === 'utsunomiya') {
+    return TAKASAKI_DESTS.has(dest) || JOBAN_DESTS.has(dest);
+  }
+  if (targetLineId === 'takasaki') {
+    return UTSUNOMIYA_DESTS.has(dest) || JOBAN_DESTS.has(dest);
+  }
   return false;
 }
 
@@ -206,6 +215,12 @@ function linkPair({
   requireIdMatch = false,
   allowMidStationA = false,
   allowMidStationB = false,
+  allowedDestinations = null,
+  disallowedDestinations = null,
+  allowedOrigins = null,
+  disallowedOrigins = null,
+  truncateAAtStation = false,
+  truncateBFromStation = false,
 }) {
   let linkedCount = 0;
 
@@ -214,6 +229,22 @@ function linkPair({
     .filter((tA) => {
       if (tA.direction !== dirA) return false;
       if (tA.throughTripId) return false;
+      if (allowedDestinations && allowedDestinations.length > 0) {
+        const dest = getEffectiveDestination(tA, stationMap);
+        if (!dest || !allowedDestinations.some(d => dest.includes(d))) return false;
+      }
+      if (disallowedDestinations && disallowedDestinations.length > 0) {
+        const dest = getEffectiveDestination(tA, stationMap);
+        if (dest && disallowedDestinations.some(d => dest.includes(d))) return false;
+      }
+      if (allowedOrigins && allowedOrigins.length > 0) {
+        const orig = getEffectiveOrigin(tA, stationMap);
+        if (!orig || !allowedOrigins.some(o => orig.includes(o))) return false;
+      }
+      if (disallowedOrigins && disallowedOrigins.length > 0) {
+        const orig = getEffectiveOrigin(tA, stationMap);
+        if (orig && disallowedOrigins.some(o => orig.includes(o))) return false;
+      }
       if (allowMidStationA) {
         return tA.stops.some((s) => s.stationId === stationAId);
       }
@@ -236,6 +267,14 @@ function linkPair({
   const sortedCandidatesB = tripsB
     .filter((tB) => {
       if (tB.direction !== dirB) return false;
+      if (allowedOrigins && allowedOrigins.length > 0) {
+        const orig = getEffectiveOrigin(tB, stationMap);
+        if (!orig || !allowedOrigins.some(o => orig.includes(o))) return false;
+      }
+      if (disallowedOrigins && disallowedOrigins.length > 0) {
+        const orig = getEffectiveOrigin(tB, stationMap);
+        if (orig && disallowedOrigins.some(o => orig.includes(o))) return false;
+      }
       if (allowMidStationB) {
         return tB.stops.some((s) => s.stationId === stationBId);
       }
@@ -400,6 +439,22 @@ function linkPair({
             depS = arrS !== null ? arrS : curSec;
           }
           curSec = depS !== null ? depS : (arrS !== null ? arrS : curSec);
+        }
+      }
+
+      // 境界駅以降・以前の不要区間切り詰め（重複区間解消・正しい境界発着化）
+      if (truncateAAtStation) {
+        const stopAIndex = tA.stops.findIndex((s) => s.stationId === stationAId);
+        if (stopAIndex !== -1 && stopAIndex < tA.stops.length - 1) {
+          tA.stops = tA.stops.slice(0, stopAIndex + 1);
+          tA.destinationStationId = stationAId;
+        }
+      }
+      if (truncateBFromStation) {
+        const stopBIndex = bestB.stops.findIndex((s) => s.stationId === stationBId);
+        if (stopBIndex > 0) {
+          bestB.stops = bestB.stops.slice(stopBIndex);
+          bestB.originStationId = stationBId;
         }
       }
 
@@ -578,6 +633,12 @@ function executeUniversalThroughLinker(options = {}) {
       requireIdMatch: conn.requireIdMatch || false,
       allowMidStationA: conn.allowMidStationA || false,
       allowMidStationB: conn.allowMidStationB || false,
+      allowedDestinations: conn.allowedDestinations || null,
+      disallowedDestinations: conn.disallowedDestinations || null,
+      allowedOrigins: conn.allowedOrigins || null,
+      disallowedOrigins: conn.disallowedOrigins || null,
+      truncateAAtStation: conn.truncateAAtStation || false,
+      truncateBFromStation: conn.truncateBFromStation || false,
     });
   }
 
