@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import type { Station, ActiveTrain, Direction } from '../../types';
 import { StationBadge, TrainTypeBadge } from '../Common/Badges';
-import { getStationDepartures } from '../../data/timetableData';
+import { getStationDepartures, getThroughChainTripIds } from '../../data/timetableData';
 import { STATION_MAP } from '../../data/stations';
 import { getLine, getAllLines } from '../../data/linesRegistry';
 import {
@@ -193,8 +193,16 @@ export const StationDetail: React.FC<StationDetailProps> = ({
                   const stop = trip.stops.find((s) => s.stationId === station.id);
                   const depTime = stop ? stop.departureTime.slice(0, 5) : '--:--';
                   
-                  // 該当する走行中列車が存在するか
-                  const liveTrain = activeTrains.find((t) => t.tripId === trip.tripId);
+                  // 該当する走行中列車が存在するか（同一tripId、直通運行チェーン、または列車番号による照合）
+                  const liveTrain = activeTrains.find((t) => {
+                    if (t.tripId === trip.tripId) return true;
+                    if (trip.tripId && !trip.tripId.startsWith('DEP_')) {
+                      const chain = getThroughChainTripIds(trip.tripId);
+                      if (chain.has(t.tripId)) return true;
+                    }
+                    if (t.lineId === trip.lineId && t.trainNumber === trip.trainNumber) return true;
+                    return false;
+                  });
                   const isCurrentStation = liveTrain?.currentStationId === station.id && liveTrain.status === 'STOPPING';
                   const isApproaching = liveTrain?.nextStopStationId === station.id;
 

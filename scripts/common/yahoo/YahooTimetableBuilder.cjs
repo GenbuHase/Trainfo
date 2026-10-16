@@ -604,12 +604,13 @@ class YahooTimetableBuilder {
           t: trip.trainType,
           d: destName,
           no: trip.trainNumber,
+          tripId: trip.tripId,
         };
 
         if (store[dayKey][stop.stationId]) {
-          // 重複チェック（同一列車番号・同一発車時刻の重複防止）
+          // 重複チェック（同一tripId、または同一列車番号・同一発車時刻の重複防止）
           const existing = store[dayKey][stop.stationId][dir];
-          if (!existing.some(e => e.no === entry.no && e.sec === entry.sec)) {
+          if (!existing.some(e => (entry.tripId && e.tripId === entry.tripId) || (e.no === entry.no && e.sec === entry.sec))) {
             existing.push(entry);
           }
         }

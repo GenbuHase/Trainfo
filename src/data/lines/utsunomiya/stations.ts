@@ -2,62 +2,18 @@ import type { Station } from '../../../types';
 
 export const UTSUNOMIYA_STATIONS: Station[] = [
   {
-    "id": "JU-01",
-    "lineId": "utsunomiya",
-    "number": 1,
-    "name": "東京",
-    "nameKana": "とうきょう",
-    "nameEn": "Tokyo",
-    "lat": 35.6811664,
-    "lng": 139.7669506,
-    "transfers": [
-      "JR山手線",
-      "JR京浜東北線",
-      "JR中央線",
-      "JR東海道線",
-      "JR横須賀線",
-      "JR総武快速線",
-      "JR京葉線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
-      "東海道新幹線",
-      "東京メトロ丸ノ内線"
-    ],
-    "address": "東京都千代田区丸の内一丁目",
-    "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
-    },
-    "stoppingTypes": [
-      "local",
-      "rapid",
-      "rapid_rabbit",
-      "commuter_rapid",
-      "limitedExp"
-    ],
-    "isMajor": true,
-    "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
-    }
-  },
-  {
     "id": "JU-02",
     "lineId": "utsunomiya",
-    "number": 2,
+    "number": 1,
     "name": "上野",
     "nameKana": "うえの",
     "nameEn": "Ueno",
     "lat": 35.7135081,
     "lng": 139.7763091,
     "transfers": [
+      "JR上野東京ライン",
       "JR山手線",
       "JR京浜東北線",
-      "JR宇都宮線",
       "JR高崎線",
       "JR常磐線快速",
       "東北新幹線",
@@ -91,7 +47,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-03",
     "lineId": "utsunomiya",
-    "number": 3,
+    "number": 2,
     "name": "尾久",
     "nameKana": "おく",
     "nameEn": "Oku",
@@ -121,7 +77,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-04",
     "lineId": "utsunomiya",
-    "number": 4,
+    "number": 3,
     "name": "赤羽",
     "nameKana": "あかばね",
     "nameEn": "Akabane",
@@ -158,7 +114,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-05",
     "lineId": "utsunomiya",
-    "number": 5,
+    "number": 4,
     "name": "浦和",
     "nameKana": "うらわ",
     "nameEn": "Urawa",
@@ -194,7 +150,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-06",
     "lineId": "utsunomiya",
-    "number": 6,
+    "number": 5,
     "name": "さいたま新都心",
     "nameKana": "さいたましんとしん",
     "nameEn": "Saitama-Shintoshin",
@@ -225,7 +181,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-07",
     "lineId": "utsunomiya",
-    "number": 7,
+    "number": 6,
     "name": "大宮",
     "nameKana": "おおみや",
     "nameEn": "Omiya",
@@ -269,7 +225,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-08",
     "lineId": "utsunomiya",
-    "number": 8,
+    "number": 7,
     "name": "土呂",
     "nameKana": "とろ",
     "nameEn": "Toro",
@@ -298,7 +254,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-09",
     "lineId": "utsunomiya",
-    "number": 9,
+    "number": 8,
     "name": "東大宮",
     "nameKana": "ひがしおおみや",
     "nameEn": "Higashi-Omiya",
@@ -327,7 +283,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-10",
     "lineId": "utsunomiya",
-    "number": 10,
+    "number": 9,
     "name": "蓮田",
     "nameKana": "はすだ",
     "nameEn": "Hasuda",
@@ -359,7 +315,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-11",
     "lineId": "utsunomiya",
-    "number": 11,
+    "number": 10,
     "name": "白岡",
     "nameKana": "しらおか",
     "nameEn": "Shiraoka",
@@ -388,7 +344,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-12",
     "lineId": "utsunomiya",
-    "number": 12,
+    "number": 11,
     "name": "新白岡",
     "nameKana": "しんしらおか",
     "nameEn": "Shin-Shiraoka",
@@ -417,7 +373,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-13",
     "lineId": "utsunomiya",
-    "number": 13,
+    "number": 12,
     "name": "久喜",
     "nameKana": "くき",
     "nameEn": "Kuki",
@@ -450,7 +406,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-14",
     "lineId": "utsunomiya",
-    "number": 14,
+    "number": 13,
     "name": "東鷲宮",
     "nameKana": "ひがしわしのみや",
     "nameEn": "Higashi-Washinomiya",
@@ -479,7 +435,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-15",
     "lineId": "utsunomiya",
-    "number": 15,
+    "number": 14,
     "name": "栗橋",
     "nameKana": "くりはし",
     "nameEn": "Kurihashi",
@@ -509,7 +465,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-16",
     "lineId": "utsunomiya",
-    "number": 16,
+    "number": 15,
     "name": "古河",
     "nameKana": "こが",
     "nameEn": "Koga",
@@ -541,7 +497,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-17",
     "lineId": "utsunomiya",
-    "number": 17,
+    "number": 16,
     "name": "野木",
     "nameKana": "のぎ",
     "nameEn": "Nogi",
@@ -570,7 +526,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-18",
     "lineId": "utsunomiya",
-    "number": 18,
+    "number": 17,
     "name": "間々田",
     "nameKana": "ままだ",
     "nameEn": "Mamada",
@@ -599,7 +555,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-19",
     "lineId": "utsunomiya",
-    "number": 19,
+    "number": 18,
     "name": "小山",
     "nameKana": "おやま",
     "nameEn": "Oyama",
@@ -634,7 +590,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-20",
     "lineId": "utsunomiya",
-    "number": 20,
+    "number": 19,
     "name": "小金井",
     "nameKana": "こがねい",
     "nameEn": "Koganei",
@@ -666,7 +622,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-21",
     "lineId": "utsunomiya",
-    "number": 21,
+    "number": 20,
     "name": "自治医大",
     "nameKana": "じちいだい",
     "nameEn": "Jichiidai",
@@ -698,7 +654,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-22",
     "lineId": "utsunomiya",
-    "number": 22,
+    "number": 21,
     "name": "石橋",
     "nameKana": "いしばし",
     "nameEn": "Ishibashi",
@@ -730,7 +686,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-23",
     "lineId": "utsunomiya",
-    "number": 23,
+    "number": 22,
     "name": "雀宮",
     "nameKana": "すずめのみや",
     "nameEn": "Suzumenomiya",
@@ -762,7 +718,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-24",
     "lineId": "utsunomiya",
-    "number": 24,
+    "number": 23,
     "name": "宇都宮",
     "nameKana": "うつのみや",
     "nameEn": "Utsunomiya",
@@ -798,7 +754,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-25",
     "lineId": "utsunomiya",
-    "number": 25,
+    "number": 24,
     "name": "岡本",
     "nameKana": "おかもと",
     "nameEn": "Okamoto",
@@ -828,7 +784,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-26",
     "lineId": "utsunomiya",
-    "number": 26,
+    "number": 25,
     "name": "宝積寺",
     "nameKana": "ほうしゃくじ",
     "nameEn": "Hoshakuji",
@@ -858,7 +814,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-27",
     "lineId": "utsunomiya",
-    "number": 27,
+    "number": 26,
     "name": "氏家",
     "nameKana": "うじいえ",
     "nameEn": "Ujiie",
@@ -887,7 +843,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-28",
     "lineId": "utsunomiya",
-    "number": 28,
+    "number": 27,
     "name": "蒲須坂",
     "nameKana": "かますさか",
     "nameEn": "Kamasusaka",
@@ -916,7 +872,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-29",
     "lineId": "utsunomiya",
-    "number": 29,
+    "number": 28,
     "name": "片岡",
     "nameKana": "かたおか",
     "nameEn": "Kataoka",
@@ -945,7 +901,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-30",
     "lineId": "utsunomiya",
-    "number": 30,
+    "number": 29,
     "name": "矢板",
     "nameKana": "やいた",
     "nameEn": "Yaita",
@@ -974,7 +930,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-31",
     "lineId": "utsunomiya",
-    "number": 31,
+    "number": 30,
     "name": "野崎",
     "nameKana": "のざき",
     "nameEn": "Nozaki",
@@ -1003,7 +959,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-32",
     "lineId": "utsunomiya",
-    "number": 32,
+    "number": 31,
     "name": "西那須野",
     "nameKana": "にしなすの",
     "nameEn": "Nishi-Nasuno",
@@ -1032,7 +988,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-33",
     "lineId": "utsunomiya",
-    "number": 33,
+    "number": 32,
     "name": "那須塩原",
     "nameKana": "なすしおばら",
     "nameEn": "Nasu-Shiobara",
@@ -1062,7 +1018,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-34",
     "lineId": "utsunomiya",
-    "number": 34,
+    "number": 33,
     "name": "黒磯",
     "nameKana": "くろいそ",
     "nameEn": "Kuroiso",

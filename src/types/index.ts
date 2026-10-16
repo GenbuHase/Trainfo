@@ -255,6 +255,7 @@ export interface RawStationDeparture {
   d: string;
   no: string;
   sec: number;
+  tripId?: string;
 }
 
 export type StationTimetableStore = {
