@@ -89,8 +89,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "name": "大宮",
     "nameKana": "おおみや",
     "nameEn": "Omiya",
-    "lat": 35.9095251,
-    "lng": 139.6217107,
+    "lat": 35.9060944,
+    "lng": 139.6230141,
     "transfers": [
       "JR東北新幹線",
       "JR埼京線",
@@ -129,8 +129,8 @@ export const JOETSU_SHINKANSEN_STATIONS: Station[] = [
     "name": "熊谷",
     "nameKana": "くまがや",
     "nameEn": "Kumagaya",
-    "lat": 36.138544,
-    "lng": 139.3921709,
+    "lat": 36.1394305,
+    "lng": 139.3897348,
     "transfers": [
       "JR高崎線",
       "JR湘南新宿ライン",

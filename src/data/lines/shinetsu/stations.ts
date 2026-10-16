@@ -151,8 +151,8 @@ export const SHINETSU_STATIONS: Station[] = [
     "name": "上下浜",
     "nameKana": "",
     "nameEn": "上下浜",
-    "lat": 37.252178,
-    "lng": 138.361569,
+    "lat": 37.2525746,
+    "lng": 138.362006,
     "transfers": [],
     "address": "新潟県上下浜駅",
     "platforms": {
@@ -399,8 +399,8 @@ export const SHINETSU_STATIONS: Station[] = [
     "name": "北条",
     "nameKana": "",
     "nameEn": "北条",
-    "lat": 37.338262,
-    "lng": 138.636954,
+    "lat": 37.3386688,
+    "lng": 138.6372948,
     "transfers": [],
     "address": "新潟県北条駅",
     "platforms": {
@@ -761,8 +761,8 @@ export const SHINETSU_STATIONS: Station[] = [
     "name": "東光寺",
     "nameKana": "",
     "nameEn": "東光寺",
-    "lat": 37.593098,
-    "lng": 138.942956,
+    "lat": 37.5940323,
+    "lng": 138.9436914,
     "transfers": [],
     "address": "新潟県東光寺駅",
     "platforms": {
@@ -1042,8 +1042,8 @@ export const SHINETSU_STATIONS: Station[] = [
     "name": "さつき野",
     "nameKana": "",
     "nameEn": "さつき野",
-    "lat": 37.812731,
-    "lng": 139.117466,
+    "lat": 37.8133093,
+    "lng": 139.117155,
     "transfers": [],
     "address": "新潟県さつき野駅",
     "platforms": {

@@ -595,8 +595,8 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "name": "山都",
     "nameKana": "",
     "nameEn": "山都",
-    "lat": 37.639228,
-    "lng": 139.766534,
+    "lat": 37.6388135,
+    "lng": 139.7657496,
     "transfers": [],
     "address": "福島県/新潟県山都駅",
     "platforms": {
@@ -623,8 +623,8 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "name": "荻野",
     "nameKana": "",
     "nameEn": "荻野",
-    "lat": 37.617613,
-    "lng": 139.722119,
+    "lat": 37.6179157,
+    "lng": 139.721421,
     "transfers": [],
     "address": "福島県/新潟県荻野駅",
     "platforms": {
@@ -814,8 +814,8 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "name": "鹿瀬",
     "nameKana": "",
     "nameEn": "鹿瀬",
-    "lat": 37.695656,
-    "lng": 139.479663,
+    "lat": 37.6957135,
+    "lng": 139.4790482,
     "transfers": [],
     "address": "福島県/新潟県鹿瀬駅",
     "platforms": {
@@ -871,8 +871,8 @@ export const BANETSU_WEST_STATIONS: Station[] = [
     "name": "三川",
     "nameKana": "",
     "nameEn": "三川",
-    "lat": 37.70835,
-    "lng": 139.381482,
+    "lat": 37.7079001,
+    "lng": 139.3815813,
     "transfers": [],
     "address": "福島県/新潟県三川駅",
     "platforms": {

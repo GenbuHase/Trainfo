@@ -136,8 +136,8 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "name": "熊谷",
     "nameKana": "くまがや",
     "nameEn": "Kumagaya",
-    "lat": 36.1400567,
-    "lng": 139.3878836,
+    "lat": 36.13943342,
+    "lng": 139.38958832,
     "transfers": [
       "JR高崎線",
       "上越新幹線",
@@ -196,8 +196,8 @@ export const HOKURIKU_SHINKANSEN_STATIONS: Station[] = [
     "name": "高崎",
     "nameKana": "たかさき",
     "nameEn": "Takasaki",
-    "lat": 36.3240949,
-    "lng": 139.01262,
+    "lat": 36.3223662,
+    "lng": 139.0130152,
     "transfers": [
       "JR高崎線",
       "JR上越線",

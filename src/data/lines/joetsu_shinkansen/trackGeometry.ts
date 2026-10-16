@@ -2558,6 +2558,18 @@ export const JOETSU_SHINKANSEN_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.9060944,
         139.6230141
+      ]
+    ]
+  },
+  {
+    "fromStationId": "JOS-03",
+    "toStationId": "JOS-04",
+    "fromName": "大宮",
+    "toName": "熊谷",
+    "coordinates": [
+      [
+        35.9060944,
+        139.6230141
       ],
       [
         35.9068732,
@@ -2583,18 +2595,6 @@ export const JOETSU_SHINKANSEN_TRACK_SEGMENTS: TrackSegment[] = [
         35.9092151,
         139.6218292
       ],
-      [
-        35.9095251,
-        139.6217107
-      ]
-    ]
-  },
-  {
-    "fromStationId": "JOS-03",
-    "toStationId": "JOS-04",
-    "fromName": "大宮",
-    "toName": "熊谷",
-    "coordinates": [
       [
         35.9095251,
         139.6217107
@@ -4030,6 +4030,14 @@ export const JOETSU_SHINKANSEN_TRACK_SEGMENTS: TrackSegment[] = [
       [
         36.138544,
         139.3921709
+      ],
+      [
+        36.1389872,
+        139.3909528
+      ],
+      [
+        36.1394305,
+        139.3897348
       ]
     ]
   },
@@ -4039,14 +4047,6 @@ export const JOETSU_SHINKANSEN_TRACK_SEGMENTS: TrackSegment[] = [
     "fromName": "熊谷",
     "toName": "本庄早稲田",
     "coordinates": [
-      [
-        36.138544,
-        139.3921709
-      ],
-      [
-        36.1389872,
-        139.3909528
-      ],
       [
         36.1394305,
         139.3897348
