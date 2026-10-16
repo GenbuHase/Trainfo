@@ -5,118 +5,6 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     "id": "JJ-01",
     "lineId": "joban_rapid",
     "number": 1,
-    "name": "品川",
-    "nameKana": "しながわ",
-    "nameEn": "Shinagawa",
-    "lat": 35.6284,
-    "lng": 139.739,
-    "transfers": [
-      "JR東海道線",
-      "JR山手線",
-      "JR京浜東北線",
-      "JR横須賀線",
-      "東海道新幹線",
-      "京急本線"
-    ],
-    "address": "東京都港区高輪三丁目26-27",
-    "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": false,
-      "ticketOffice": true
-    },
-    "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid"
-    ],
-    "isMajor": true,
-    "platforms": {
-      "inbound": "9・10番線",
-      "outbound": "臨時"
-    }
-  },
-  {
-    "id": "JJ-02",
-    "lineId": "joban_rapid",
-    "number": 2,
-    "name": "新橋",
-    "nameKana": "しんばし",
-    "nameEn": "Shimbashi",
-    "lat": 35.666,
-    "lng": 139.7586,
-    "transfers": [
-      "JR東海道線",
-      "JR山手線",
-      "JR京浜東北線",
-      "JR横須賀線",
-      "東京メトロ銀座線",
-      "都営浅草線",
-      "ゆりかもめ"
-    ],
-    "address": "東京都港区新橋二丁目17",
-    "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": false,
-      "ticketOffice": true
-    },
-    "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid"
-    ],
-    "isMajor": true,
-    "platforms": {
-      "inbound": "3番線",
-      "outbound": "4番線"
-    }
-  },
-  {
-    "id": "JJ-03",
-    "lineId": "joban_rapid",
-    "number": 3,
-    "name": "東京",
-    "nameKana": "とうきょう",
-    "nameEn": "Tokyo",
-    "lat": 35.6811274,
-    "lng": 139.7671827,
-    "transfers": [
-      "JR東海道線",
-      "JR山手線",
-      "JR京浜東北線",
-      "JR中央線",
-      "JR総武線快速",
-      "JR横須賀線",
-      "JR京葉線",
-      "JR新幹線",
-      "東京メトロ丸ノ内線"
-    ],
-    "address": "東京都千代田区丸の内一丁目",
-    "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
-    },
-    "stoppingTypes": [
-      "local",
-      "rapid",
-      "special_rapid"
-    ],
-    "isMajor": true,
-    "platforms": {
-      "inbound": "7・8番線",
-      "outbound": "9・10番線"
-    }
-  },
-  {
-    "id": "JJ-04",
-    "lineId": "joban_rapid",
-    "number": 4,
     "name": "上野",
     "nameKana": "うえの",
     "nameEn": "Ueno",
@@ -127,6 +15,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
       "JR京浜東北線",
       "JR宇都宮線",
       "JR高崎線",
+      "JR上野東京ライン",
       "JR新幹線",
       "東京メトロ銀座線",
       "東京メトロ日比谷線",
@@ -143,18 +32,19 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": true,
     "platforms": {
       "inbound": "3・4番線",
-      "outbound": "8・9・10・11・12番線"
+      "outbound": "8・9・10・11・12・16・17番線"
     }
   },
   {
-    "id": "JJ-05",
+    "id": "JJ-02",
     "lineId": "joban_rapid",
-    "number": 5,
+    "number": 2,
     "name": "日暮里",
     "nameKana": "にっぽり",
     "nameEn": "Nippori",
@@ -177,7 +67,8 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": true,
     "platforms": {
@@ -186,9 +77,9 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JJ-06",
+    "id": "JJ-03",
     "lineId": "joban_rapid",
-    "number": 6,
+    "number": 3,
     "name": "三河島",
     "nameKana": "みかわしま",
     "nameEn": "Mikawashima",
@@ -214,9 +105,9 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JJ-07",
+    "id": "JJ-04",
     "lineId": "joban_rapid",
-    "number": 7,
+    "number": 4,
     "name": "南千住",
     "nameKana": "みなみせんじゅ",
     "nameEn": "Minami-senju",
@@ -245,9 +136,9 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JJ-08",
+    "id": "JJ-05",
     "lineId": "joban_rapid",
-    "number": 8,
+    "number": 5,
     "name": "北千住",
     "nameKana": "きたせんじゅ",
     "nameEn": "Kita-senju",
@@ -271,7 +162,8 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": true,
     "platforms": {
@@ -280,9 +172,9 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JJ-09",
+    "id": "JJ-06",
     "lineId": "joban_rapid",
-    "number": 9,
+    "number": 6,
     "name": "松戸",
     "nameKana": "まつど",
     "nameEn": "Matsudo",
@@ -312,9 +204,9 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JJ-10",
+    "id": "JJ-07",
     "lineId": "joban_rapid",
-    "number": 10,
+    "number": 7,
     "name": "柏",
     "nameKana": "かしわ",
     "nameEn": "Kashiwa",
@@ -335,7 +227,8 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "special_rapid"
+      "special_rapid",
+      "limited_express"
     ],
     "isMajor": true,
     "platforms": {
@@ -344,9 +237,9 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JJ-11",
+    "id": "JJ-08",
     "lineId": "joban_rapid",
-    "number": 11,
+    "number": 8,
     "name": "我孫子",
     "nameKana": "あびこ",
     "nameEn": "Abiko",
@@ -376,9 +269,9 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JJ-12",
+    "id": "JJ-09",
     "lineId": "joban_rapid",
-    "number": 12,
+    "number": 9,
     "name": "天王台",
     "nameKana": "てんのうだい",
     "nameEn": "Tennodai",
@@ -407,9 +300,9 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JJ-13",
+    "id": "JJ-10",
     "lineId": "joban_rapid",
-    "number": 13,
+    "number": 10,
     "name": "取手",
     "nameKana": "とりで",
     "nameEn": "Toride",

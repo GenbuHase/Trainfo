@@ -12,15 +12,15 @@ export const jobanRapidLine: LineDefinition = {
   accentColor: '#00c18a',
   defaultCars: 15,
   defaultBounds: [
-    [35.620, 139.730], // 品川周辺
+    [35.700, 139.760], // 上野周辺
     [35.910, 140.080], // 取手周辺
   ],
   directionNames: {
-    inbound: '上野・東京・品川方面',
+    inbound: '上野方面',
     outbound: '柏・取手方面',
-    inboundFull: '上り 上野・東京・品川方面',
+    inboundFull: '上り 上野方面',
     outboundFull: '下り 松戸・柏・取手方面',
-    inboundShort: '品川方面',
+    inboundShort: '上野方面',
     outboundShort: '取手方面',
   },
   stations: JOBAN_RAPID_STATIONS,

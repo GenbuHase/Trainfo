@@ -21,7 +21,7 @@ function secToTime(sec) {
 }
 
 const rapidWeights = {
-  4: 240, 5: 150, 6: 150, 7: 180, 8: 480, 9: 480, 10: 240, 11: 180, 12: 210,
+  1: 240, 2: 150, 3: 150, 4: 180, 5: 480, 6: 480, 7: 240, 8: 180, 9: 210,
 };
 
 const northWeights = {
@@ -52,8 +52,9 @@ function bridgeJobanLimitedExpress() {
   const rapid = JSON.parse(fs.readFileSync(rapidPath, 'utf8'));
   const north = JSON.parse(fs.readFileSync(northPath, 'utf8'));
 
-  const rLtd = rapid.filter(t => t.trainType === 'limited_express');
-  const nLtd = north.filter(t => t.trainType === 'limited_express');
+  const isLtd = (t) => t.trainType === 'limited_express' || t.trainType === 'limitedExp';
+  const rLtd = rapid.filter(isLtd);
+  const nLtd = north.filter(isLtd);
 
   let bridgedCount = 0;
 
@@ -65,6 +66,8 @@ function bridgeJobanLimitedExpress() {
     if (!match) continue;
 
     bridgedCount++;
+    r.trainType = 'limited_express';
+    match.trainType = 'limited_express';
 
     if (r.direction === 'outbound') {
       const lastRStop = r.stops[r.stops.length - 1];
@@ -73,20 +76,16 @@ function bridgeJobanLimitedExpress() {
       const lastRNum = parseInt(lastRStop.stationId.replace('JJ-', ''), 10);
       const firstNNum = parseInt(firstNStop.stationId.replace('JN-', ''), 10);
 
-      if (lastRNum === 13 && firstNNum === 1) {
-        continue;
-      }
-
       const tDep = timeToSec(lastRStop.departureTime || lastRStop.arrivalTime);
       const tArr = timeToSec(firstNStop.arrivalTime || firstNStop.departureTime);
 
-      const wRapidGap = lastRNum < 13 ? getSectionWeight(true, lastRNum, 13) : 0;
+      const wRapidGap = lastRNum < 10 ? getSectionWeight(true, lastRNum, 10) : 0;
       const wNorthGap = firstNNum > 1 ? getSectionWeight(false, 1, firstNNum) : 0;
-      const wTotal = wRapidGap + wNorthGap;
+      const wTotal = wRapidGap + wNorthGap || 1;
       const deltaT = tArr - tDep;
 
-      if (lastRNum < 13) {
-        for (let num = lastRNum + 1; num <= 13; num++) {
+      if (lastRNum < 10) {
+        for (let num = lastRNum + 1; num <= 10; num++) {
           const w = getSectionWeight(true, lastRNum, num);
           const passSec = tDep + deltaT * (w / wTotal);
           const timeStr = secToTime(passSec);
@@ -97,7 +96,7 @@ function bridgeJobanLimitedExpress() {
             isPassing: true,
           });
         }
-        r.destinationStationId = 'JJ-13';
+        r.destinationStationId = 'JJ-10';
       }
 
       if (firstNNum > 1) {
@@ -116,6 +115,14 @@ function bridgeJobanLimitedExpress() {
         match.stops = [...addedStops, ...match.stops];
         match.originStationId = 'JN-01';
       }
+
+      // 境界駅（取手駅）の通過時刻を完全一致
+      const finalLastR = r.stops[r.stops.length - 1];
+      const finalFirstN = match.stops[0];
+      if (finalLastR && finalFirstN) {
+        finalFirstN.arrivalTime = finalLastR.departureTime || finalLastR.arrivalTime;
+        finalFirstN.departureTime = finalFirstN.arrivalTime;
+      }
     } else {
       const lastNStop = match.stops[match.stops.length - 1];
       const firstRStop = r.stops[0];
@@ -123,16 +130,12 @@ function bridgeJobanLimitedExpress() {
       const lastNNum = parseInt(lastNStop.stationId.replace('JN-', ''), 10);
       const firstRNum = parseInt(firstRStop.stationId.replace('JJ-', ''), 10);
 
-      if (lastNNum === 1 && firstRNum === 13) {
-        continue;
-      }
-
       const tDep = timeToSec(lastNStop.departureTime || lastNStop.arrivalTime);
       const tArr = timeToSec(firstRStop.arrivalTime || firstRStop.departureTime);
 
       const wNorthGap = lastNNum > 1 ? getSectionWeight(false, lastNNum, 1) : 0;
-      const wRapidGap = firstRNum < 13 ? getSectionWeight(true, 13, firstRNum) : 0;
-      const wTotal = wNorthGap + wRapidGap;
+      const wRapidGap = firstRNum < 10 ? getSectionWeight(true, 10, firstRNum) : 0;
+      const wTotal = wNorthGap + wRapidGap || 1;
       const deltaT = tArr - tDep;
 
       if (lastNNum > 1) {
@@ -150,10 +153,10 @@ function bridgeJobanLimitedExpress() {
         match.destinationStationId = 'JN-01';
       }
 
-      if (firstRNum < 13) {
+      if (firstRNum < 10) {
         const addedStops = [];
-        for (let num = 13; num > firstRNum; num--) {
-          const w = wNorthGap + getSectionWeight(true, 13, num);
+        for (let num = 10; num > firstRNum; num--) {
+          const w = wNorthGap + getSectionWeight(true, 10, num);
           const passSec = tDep + deltaT * (w / wTotal);
           const timeStr = secToTime(passSec);
           addedStops.push({
@@ -164,14 +167,39 @@ function bridgeJobanLimitedExpress() {
           });
         }
         r.stops = [...addedStops, ...r.stops];
-        r.originStationId = 'JJ-13';
+        r.originStationId = 'JJ-10';
+      }
+
+      // 境界駅（取手駅）の通過時刻を完全一致
+      const finalLastN = match.stops[match.stops.length - 1];
+      const finalFirstR = r.stops[0];
+      if (finalLastN && finalFirstR) {
+        finalFirstR.arrivalTime = finalLastN.departureTime || finalLastN.arrivalTime;
+        finalFirstR.departureTime = finalFirstR.arrivalTime;
       }
     }
   }
 
   console.log(`[Joban Ltd Bridge] Processed and bridged ${bridgedCount} limited express trains across Toride boundary.`);
-  fs.writeFileSync(rapidPath, JSON.stringify(rapid, null, 2), 'utf8');
-  fs.writeFileSync(northPath, JSON.stringify(north, null, 2), 'utf8');
+  
+  function safeWrite(filePath, data) {
+    const content = JSON.stringify(data, null, 2);
+    let attempts = 0;
+    while (attempts < 10) {
+      try {
+        fs.writeFileSync(filePath, content, 'utf8');
+        return;
+      } catch (e) {
+        attempts++;
+        if (attempts >= 10) throw e;
+        const start = Date.now();
+        while (Date.now() - start < 150) {}
+      }
+    }
+  }
+
+  safeWrite(rapidPath, rapid);
+  safeWrite(northPath, north);
 }
 
 module.exports = { bridgeJobanLimitedExpress };

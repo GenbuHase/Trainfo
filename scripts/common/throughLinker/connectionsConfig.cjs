@@ -442,7 +442,7 @@ module.exports = {
       name: '常磐線快速 -> 常磐線（取手～いわき） (下り/土浦・水戸・いわき方面直通)',
       lineA: 'joban_rapid',
       lineB: 'joban_toride_iwaki',
-      stationA: 'JJ-13',
+      stationA: 'JJ-10',
       stationB: 'JN-01',
       dirA: 'outbound',
       dirB: 'outbound',
@@ -453,7 +453,7 @@ module.exports = {
       lineA: 'joban_toride_iwaki',
       lineB: 'joban_rapid',
       stationA: 'JN-01',
-      stationB: 'JJ-13',
+      stationB: 'JJ-10',
       dirA: 'inbound',
       dirB: 'inbound',
       maxTimeDiff: 300,
@@ -593,6 +593,30 @@ module.exports = {
       dirB: 'inbound',
       disallowedOrigins: ['宇都宮', '小金井', '古河', '黒磯', '氏家', '宝積寺', '那須塩原', '土浦', '勝田', '水戸', 'いわき', '高萩', '仙台', '取手', '成田'],
       maxTimeDiff: 300,
+    },
+
+    // 25-3. JR上野東京ライン ↔ JR常磐線快速 (上野駅)
+    {
+      name: '上野東京ライン -> 常磐線快速 (上野経由・取手・水戸方面直通)',
+      lineA: 'ueno_tokyo',
+      lineB: 'joban_rapid',
+      stationA: 'UT-02',
+      stationB: 'JJ-01',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      allowedDestinations: ['土浦', '勝田', '水戸', 'いわき', '高萩', '仙台', '取手', '成田'],
+      maxTimeDiff: 360,
+    },
+    {
+      name: '常磐線快速 -> 上野東京ライン (上野経由・東京・品川方面直通)',
+      lineA: 'joban_rapid',
+      lineB: 'ueno_tokyo',
+      stationA: 'JJ-01',
+      stationB: 'UT-02',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      disallowedOrigins: ['宇都宮', '小金井', '古河', '黒磯', '氏家', '宝積寺', '那須塩原', '高崎', '籠原', '深谷', '本庄', '新前橋', '前橋', '渋川', '水上'],
+      maxTimeDiff: 360,
     },
 
     // 26. JR湘南新宿ライン ↔ JR宇都宮線 (大宮駅)
