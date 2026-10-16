@@ -122,8 +122,8 @@ export const TAKASAKI_STATIONS: Station[] = [
     "name": "浦和",
     "nameKana": "うらわ",
     "nameEn": "Urawa",
-    "lat": 35.8589467,
-    "lng": 139.6570738,
+    "lat": 35.8589661,
+    "lng": 139.6571243,
     "transfers": [
       "JR宇都宮線",
       "JR高崎線",
@@ -159,8 +159,8 @@ export const TAKASAKI_STATIONS: Station[] = [
     "name": "さいたま新都心",
     "nameKana": "さいたましんとしん",
     "nameEn": "Saitama-Shintoshin",
-    "lat": 35.8936292,
-    "lng": 139.6339271,
+    "lat": 35.8935861,
+    "lng": 139.6338292,
     "transfers": [
       "JR宇都宮線",
       "JR高崎線",
@@ -191,8 +191,8 @@ export const TAKASAKI_STATIONS: Station[] = [
     "name": "大宮",
     "nameKana": "おおみや",
     "nameEn": "Omiya",
-    "lat": 35.9063604,
-    "lng": 139.624254,
+    "lat": 35.9063522,
+    "lng": 139.6242153,
     "transfers": [
       "JR宇都宮線",
       "JR高崎線",
@@ -235,8 +235,8 @@ export const TAKASAKI_STATIONS: Station[] = [
     "name": "宮原",
     "nameKana": "みやはら",
     "nameEn": "Miyahara",
-    "lat": 35.9402425,
-    "lng": 139.6095081,
+    "lat": 35.9402349,
+    "lng": 139.6093632,
     "transfers": [
       "JR高崎線"
     ],
@@ -264,8 +264,8 @@ export const TAKASAKI_STATIONS: Station[] = [
     "name": "上尾",
     "nameKana": "あげお",
     "nameEn": "Ageo",
-    "lat": 35.9733715,
-    "lng": 139.5885608,
+    "lat": 35.9735077,
+    "lng": 139.5882483,
     "transfers": [
       "JR高崎線"
     ],
