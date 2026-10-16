@@ -88,8 +88,11 @@ flowchart TD
    * `name`: 正式路線名称（例: `東急東横線`、`相鉄本線`、`小田急小田原線`、`JR八高線`）
    * `shortName`: 略称（例: `東横線`、`本線`、`小田原線`、`八高線`）
    * `operator`: 運行事業者名（例: `東急電鉄`、`相模鉄道`、`小田急電鉄`、`JR東日本`）
-   * `lineColor`: 公式ラインカラー（HEX値、例: `#da0042`, `#0073bc`, `#0085ce`）
-     * 原則としてニコニコ大百科「[鉄道路線のラインカラー一覧](https://dic.nicovideo.jp/a/%E9%89%84%E9%81%93%E8%B7%AF%E7%B7%9A%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%A9%E3%83%BC%E4%B8%80%E8%A6%A7)」に掲載された各社公式情報抽出カラーコードに準拠。
+   * `lineColor`: 公式ラインカラー（HEX値、例: `#da0442`, `#041452`, `#2288cc`）
+     * **情報源の優先順位**:
+       1. **優先①**: [ニコニコ大百科「鉄道路線のラインカラー一覧」](https://dic.nicovideo.jp/a/%E9%89%84%E9%81%93%E8%B7%AF%E7%B7%9A%E3%81%AE%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%A9%E3%83%BC%E4%B8%80%E8%A6%A7)
+       2. **優先②**: [Wikipedia「日本の鉄道路線ラインカラー一覧」](https://ja.wikipedia.org/wiki/%E6%97%A5%E6%9C%AC%E3%81%AE%E9%89%84%E9%81%93%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%A9%E3%83%BC%E4%B8%80%E8%A6%A7)
+       3. **①・②どちらにも存在しない場合**: 独立ラインカラー未制定と判定し、事業者のコーポレートカラー、代表車両帯色、直通先案内色から選定して理由を記録・報告すること。
    * `accentColor`: アクセント/副象徴カラー（HEX値）
      * 看板速達種別（特快・急行など）、直通相手路線のシンボルカラー、車両帯のツートンカラー等から選定。
      * 詳細は [`docs/LINE_COLORS_GUIDELINES.md`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/docs/LINE_COLORS_GUIDELINES.md) を参照。
@@ -138,6 +141,12 @@ flowchart TD
 
 3. **種別定義の作成 ([`src/data/lines/<lineId>/trainTypes.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/lines/rinkai/trainTypes.ts))**:
    * 各種別の表示名、短縮名、背景色（`bgColor`）、文字色（`textColor`）、枠線色（`borderColor`）を定義。
+   * **種別カラーリングの適用原則**:
+     * **各駅停車（`local`）**: 原則として当該路線の `lineColor` と同色を流用・同期（※東武東上線・越生線のように実車表示を忠実に再現する黒ベース `#1e1c1c` の意図的例外を除く）。
+     * **優等種別（快速・特急等）**: 各事業者の公式種別案内色（情報源①・②の種別カラー表）を適用。
+     * **JR東日本など全社共通色がない線区**: 駅発車標（LED/LCD）や車両行先表示器で定着している実車案内色（特快スカイブルー、青梅特快グリーン、快速ブルー、特急レッド/ボルドー等）を採用。
+     * **相互直通種別**: S-TRAIN（`#99cc00`）のように直通先各路線で公式案内色を完全統一。
+     * 詳細は [`docs/LINE_COLORS_GUIDELINES.md`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/docs/LINE_COLORS_GUIDELINES.md) を参照。
 
 ---
 
@@ -448,6 +457,10 @@ Trainfo では、全路線の駅名マスタの自動走査・シームレス時
 
 1. **駅ナンバリングバッジの配色設定 ([`src/components/Common/Badges.tsx`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/components/Common/Badges.tsx))**:
    * `STATION_BADGE_COLORS` に新路線のプレフィックス（例: `TY`, `SH`, `MM`, `SO`, `OH`, `OE`, `OT`, `R`, `TX` 等）を登録。
+   * **公式ナンバリング準拠原則**:
+     * 各社が公式に制定した駅ナンバリング仕様・配色を厳格に適用します。
+     * 公式ナンバリングが存在しない線区・区間に独自の非公式ナンバリングを新設することは禁止します。
+     * 運行系統上の重複・直通区間（例: 高崎線の上野〜大宮は宇都宮線 `JU` と共通、大宮以北は公式ナンバリングなし）は公式仕様を厳守してください。
      ```typescript
      TY: {
        borderColor: '#da0442',
@@ -455,9 +468,9 @@ Trainfo では、全路線の駅名マスタの自動走査・シームレス時
        numColor: '#da0442',
      },
      SO: {
-       borderColor: '#002b66',
-       prefixColor: '#002b66',
-       numColor: '#002b66',
+       borderColor: '#041452',
+       prefixColor: '#041452',
+       numColor: '#041452',
      },
      ```
 2. **主要駅ハイライト設定 ([`src/data/lines/<lineId>/stations.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/lines/tokyu_toyoko/stations.ts))**:
@@ -818,9 +831,11 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 新規路線を追加する際は、以下のチェックリストを上から順に消化してください。
 
 ### Phase 1: 基本仕様 & 型定義
-- [ ] `lineId`, `name`, `operator`, `lineColor`, `defaultCars` を決定
+- [ ] `lineId`, `name`, `operator`, `defaultCars` を決定
+- [ ] 情報源①（ニコニコ大百科優先）または②（Wikipedia補完）に基づき公式 `lineColor` を決定（※未掲載時は代替方針を策定・報告）
+- [ ] `docs/LINE_COLORS_GUIDELINES.md` に基づき `accentColor`（パターンA〜D）を決定
 - [ ] `src/types/index.ts` の `LineId` 共用体に新路線IDを追加
-- [ ] `src/data/lines/<lineId>/trainTypes.ts` を作成（種別カラー・名称）
+- [ ] `src/data/lines/<lineId>/trainTypes.ts` を作成（各停のラインカラー同期、公式優等種別色、JR実車案内色、直通種別統一）
 
 ### Phase 2: 線路ジオメトリ & 駅座標構築
 - [ ] OSM Overpass API で路線のリレーション/ウェイを取得（`scripts/cache/` に保存）
@@ -862,7 +877,7 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 - [ ] 境界駅の `stations.ts` の `transfers` に相互路線名を追加
 
 ### Phase 7: UI & コンポーネント最適化
-- [ ] `src/components/Common/Badges.tsx` の `STATION_BADGE_COLORS` にプレフィックスを追加
+- [ ] `src/components/Common/Badges.tsx` の `STATION_BADGE_COLORS` に公式駅ナンバリングプレフィックスと配色を追加（※非公式ナンバリングの新設は禁止）
 - [ ] `stations.ts` の主要駅・ターミナル駅に `isMajor: true` を設定
 - [ ] 乗換駅・接続駅の駅名表記が他路線と一致していることを確認（同名駅リンク機能）
 - [ ] マーカーのインライン `filter: drop-shadow` や非選択時の `animate-ping` を排除し、GPU 負荷を最小化
@@ -870,6 +885,7 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 ### Phase 8: 包括的検証 & テスト
 - [ ] `npm run build` を実行し、型エラー・構文エラーがゼロであることを確認
 - [ ] `oxlint` でリントエラーがゼロであることを確認
+- [ ] ブラウザで `/#debug` を開き、新路線のカード、ラインカラーバー、アクセントカラー、列車種別バッジ、駅ナンバリングバッジの配色・コントラストを目視確認
 - [ ] **【必須】境界駅での連続走行テスト**: シミュレーション時刻を進め、境界駅で列車ピンが消滅・点滅することなく、停車〜発車がシームレスに引き継がれることを確認
 - [ ] **【必須】行先一貫性テスト**: 直通列車が路線境界を跨いだ際に行先表示（`customDestination`）が途中で切り替わらず、終始一貫していることを確認
 - [ ] 直通路線の追尾ハンドオーバーテストを実行し、全テスト合格を確認

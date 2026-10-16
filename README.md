@@ -312,7 +312,11 @@
 Trainfo/
 ├── docs/                               # ドキュメント・アセット
 │   ├── ROUTE_EXPANSION_PLAYBOOK.md     # 路線追加完全手順書・設計標準マニュアル
+│   ├── LINE_COLORS_GUIDELINES.md       # ラインカラー＆アクセントカラー選定ガイドライン
+│   ├── COLOR_AUDIT_REPORT.md           # 公式情報に基づかない路線・種別カラーリング監査レポート
+│   ├── ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md # 上下非対称軌道ルーティング設計指針
 │   ├── ODPT_INTEGRATION_KNOWLEDGE.md   # ODPT活用ナレッジ＆将来設計ガイド
+│   ├── PASSING_STOP_INTERPOLATION_SPEC.md # 通過・停車判定補間仕様書
 │   ├── logo.svg
 │   └── screenshot.png
 ├── public/                             # 静的公開ファイル
@@ -376,6 +380,7 @@ Trainfo/
 - 👉 [**Trainfo 路線追加完全プレイブック（docs/ROUTE_EXPANSION_PLAYBOOK.md）**](docs/ROUTE_EXPANSION_PLAYBOOK.md): 新路線追加の手順、OSM線路抽出、Yahoo! データ設定、直通ハンドオーバー設計、ハマりどころ防止策
 - 👉 [**上下非対称路線・方向別軌道ルーティング設計指針（docs/ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md）**](docs/ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md): 上越線（新清水トンネル vs 湯檜曽ループ線）、東海道新垂井線など上下線非対称区間の軌道設計仕様書: 新路線追加の手順、OSM線路抽出、Yahoo! データ設定、直通ハンドオーバー設計、ハマりどころ防止策
 - 👉 [**ラインカラー＆アクセントカラー選定ガイドライン（docs/LINE_COLORS_GUIDELINES.md）**](docs/LINE_COLORS_GUIDELINES.md): 全48路線のラインカラー・アクセントカラー選定基準、出典、種別カラー対応仕様書
+- 👉 [**公式情報に基づかない路線・種別カラーリング監査レポート（docs/COLOR_AUDIT_REPORT.md）**](docs/COLOR_AUDIT_REPORT.md): 全48路線・全列車種別の公式ラインカラー一覧との突合監査結果・分類レポート
 - 👉 [**ODPT活用ナレッジ＆将来設計ガイド（docs/ODPT_INTEGRATION_KNOWLEDGE.md）**](docs/ODPT_INTEGRATION_KNOWLEDGE.md): 公共交通オープンデータの活用可能性と推奨アーキテクチャ
 - 🛠️ **路線・種別デバッグ画面**: ブラウザで `/#debug`（または設定モーダル内のメニュー）を開くと、全48路線および列車種別のカラー設定・定義一覧を確認できます。
 
