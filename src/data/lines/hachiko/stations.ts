@@ -96,7 +96,7 @@ export const HACHIKO_STATIONS: Station[] = [
     number: 5,
     name: '東福生',
     nameKana: 'ひがしふっさ',
-    nameEn: '東福生',
+    nameEn: 'Higashi-Fussa',
     lat: 35.7458031,
     lng: 139.3359048,
     transfers: [],
