@@ -6,10 +6,10 @@ export const UENO_TOKYO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '普通',
     nameEn: 'Local',
     shortName: '普',
-    color: '#800080',
+    color: '#8f0079',
     textColor: '#ffffff',
-    bgColor: '#800080',
-    borderColor: '#800080',
+    bgColor: '#8f0079',
+    borderColor: '#8f0079',
   },
   rapid: {
     key: 'rapid',

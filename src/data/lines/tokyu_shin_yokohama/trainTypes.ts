@@ -8,10 +8,10 @@ export const TOKYU_SHIN_YOKOHAMA_TRAIN_TYPES: Record<string, TrainTypeConfig> = 
     name: '各駅停車',
     nameEn: 'Local',
     shortName: '各停',
-    color: '#0075c2',
+    color: '#8a1186',
     textColor: '#ffffff',
-    bgColor: '#0075c2',
-    borderColor: '#005a96',
+    bgColor: '#8a1186',
+    borderColor: '#8a1186',
   },
   // 急行: 赤
   express: {

@@ -8,10 +8,10 @@ export const TOKYU_TOYOKO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '各駅停車',
     nameEn: 'Local',
     shortName: '各停',
-    color: '#0075c2',
+    color: '#1359a9',
     textColor: '#ffffff',
-    bgColor: '#0075c2',
-    borderColor: '#005a96',
+    bgColor: '#1359a9',
+    borderColor: '#1359a9',
   },
   // 急行: 赤
   express: {
@@ -19,10 +19,10 @@ export const TOKYU_TOYOKO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '急行',
     nameEn: 'Express',
     shortName: '急行',
-    color: '#da0442',
+    color: '#ef3123',
     textColor: '#ffffff',
-    bgColor: '#da0442',
-    borderColor: '#b00335',
+    bgColor: '#ef3123',
+    borderColor: '#ef3123',
   },
   // 通勤特急: オレンジ
   commuter_ltd_exp: {
@@ -30,10 +30,10 @@ export const TOKYU_TOYOKO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '通勤特急',
     nameEn: 'Commuter Ltd. Exp.',
     shortName: '通特',
-    color: '#ea5504',
+    color: '#f7931d',
     textColor: '#ffffff',
-    bgColor: '#ea5504',
-    borderColor: '#c44400',
+    bgColor: '#f7931d',
+    borderColor: '#f7931d',
   },
   // 特急 (Fライナー含む): オレンジ
   ltd_exp: {
@@ -41,10 +41,10 @@ export const TOKYU_TOYOKO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',
-    color: '#ea5504',
+    color: '#f7931d',
     textColor: '#ffffff',
-    bgColor: '#ea5504',
-    borderColor: '#c44400',
+    bgColor: '#f7931d',
+    borderColor: '#f7931d',
   },
   // S-TRAIN: ライムグリーン
   strain: {
@@ -52,9 +52,9 @@ export const TOKYU_TOYOKO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: 'S-TRAIN',
     nameEn: 'S-TRAIN',
     shortName: 'S',
-    color: '#b4c300',
+    color: '#99cc00',
     textColor: '#ffffff',
-    bgColor: '#b4c300',
-    borderColor: '#8f9b00',
+    bgColor: '#99cc00',
+    borderColor: '#99cc00',
   },
 };

@@ -8,10 +8,10 @@ export const MUSASHINO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '各駅停車',
     nameEn: 'Local',
     shortName: '各停',
-    color: '#f15a22',
+    color: '#eb5c01',
     textColor: '#ffffff',
-    bgColor: '#f15a22',
-    borderColor: '#fb923c',
+    bgColor: '#eb5c01',
+    borderColor: '#eb5c01',
   },
   // 普通（むさしの号・しもうさ号等）: ディープオレンジ/アンバー (#e05a10)
   regular: {

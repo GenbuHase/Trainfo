@@ -8,10 +8,10 @@ export const TX_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '普通',
     nameEn: 'Local',
     shortName: '普通',
-    color: '#334155',
+    color: '#3e3a39',
     textColor: '#ffffff',
-    bgColor: '#334155',
-    borderColor: '#64748b',
+    bgColor: '#3e3a39',
+    borderColor: '#3e3a39',
   },
   // 区間快速: #0099d8 (TXスカイブルー)
   semi_rapid: {
@@ -19,10 +19,10 @@ export const TX_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '区間快速',
     nameEn: 'Semi-Rapid',
     shortName: '区快',
-    color: '#0099d8',
+    color: '#036eb8',
     textColor: '#ffffff',
-    bgColor: '#0099d8',
-    borderColor: '#38bdf8',
+    bgColor: '#036eb8',
+    borderColor: '#036eb8',
   },
   // 通勤快速: #ea5504 (TXオレンジ)
   commuter_rapid: {
@@ -30,10 +30,10 @@ export const TX_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '通勤快速',
     nameEn: 'Commuter Rapid',
     shortName: '通快',
-    color: '#ea5504',
+    color: '#f39800',
     textColor: '#ffffff',
-    bgColor: '#ea5504',
-    borderColor: '#fb923c',
+    bgColor: '#f39800',
+    borderColor: '#f39800',
   },
   // 快速: #df0011 (TXスカーレットレッド)
   rapid: {
@@ -41,9 +41,9 @@ export const TX_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '快速',
     nameEn: 'Rapid',
     shortName: '快速',
-    color: '#df0011',
+    color: '#d20012',
     textColor: '#ffffff',
-    bgColor: '#df0011',
-    borderColor: '#f87171',
+    bgColor: '#d20012',
+    borderColor: '#d20012',
   },
 };
