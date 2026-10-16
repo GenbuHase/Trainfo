@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const SOTETSU_IZUMINO_STATIONS: Station[] = [
   {
     "id": "SO-10",
+    "stationNumber": "SO-10",
     "lineId": "sotetsu_izumino",
     "number": 1,
     "name": "二俣川",
@@ -37,6 +38,7 @@ export const SOTETSU_IZUMINO_STATIONS: Station[] = [
   },
   {
     "id": "SO-31",
+    "stationNumber": "SO-31",
     "lineId": "sotetsu_izumino",
     "number": 2,
     "name": "南万騎が原",
@@ -66,6 +68,7 @@ export const SOTETSU_IZUMINO_STATIONS: Station[] = [
   },
   {
     "id": "SO-32",
+    "stationNumber": "SO-32",
     "lineId": "sotetsu_izumino",
     "number": 3,
     "name": "緑園都市",
@@ -95,6 +98,7 @@ export const SOTETSU_IZUMINO_STATIONS: Station[] = [
   },
   {
     "id": "SO-33",
+    "stationNumber": "SO-33",
     "lineId": "sotetsu_izumino",
     "number": 4,
     "name": "弥生台",
@@ -124,6 +128,7 @@ export const SOTETSU_IZUMINO_STATIONS: Station[] = [
   },
   {
     "id": "SO-34",
+    "stationNumber": "SO-34",
     "lineId": "sotetsu_izumino",
     "number": 5,
     "name": "いずみ野",
@@ -155,6 +160,7 @@ export const SOTETSU_IZUMINO_STATIONS: Station[] = [
   },
   {
     "id": "SO-35",
+    "stationNumber": "SO-35",
     "lineId": "sotetsu_izumino",
     "number": 6,
     "name": "いずみ中央",
@@ -184,6 +190,7 @@ export const SOTETSU_IZUMINO_STATIONS: Station[] = [
   },
   {
     "id": "SO-36",
+    "stationNumber": "SO-36",
     "lineId": "sotetsu_izumino",
     "number": 7,
     "name": "ゆめが丘",
@@ -215,6 +222,7 @@ export const SOTETSU_IZUMINO_STATIONS: Station[] = [
   },
   {
     "id": "SO-37",
+    "stationNumber": "SO-37",
     "lineId": "sotetsu_izumino",
     "number": 8,
     "name": "湘南台",

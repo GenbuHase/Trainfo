@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const OME_STATIONS: Station[] = [
   {
     "id": "JC-19",
+    "stationNumber": "JC-19",
     "lineId": "ome",
     "number": 1,
     "name": "立川",
@@ -43,6 +44,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-51",
+    "stationNumber": "JC-51",
     "lineId": "ome",
     "number": 2,
     "name": "西立川",
@@ -76,6 +78,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-52",
+    "stationNumber": "JC-52",
     "lineId": "ome",
     "number": 3,
     "name": "東中神",
@@ -108,6 +111,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-53",
+    "stationNumber": "JC-53",
     "lineId": "ome",
     "number": 4,
     "name": "中神",
@@ -140,6 +144,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-54",
+    "stationNumber": "JC-54",
     "lineId": "ome",
     "number": 5,
     "name": "昭島",
@@ -172,6 +177,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-55",
+    "stationNumber": "JC-55",
     "lineId": "ome",
     "number": 6,
     "name": "拝島",
@@ -210,6 +216,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-56",
+    "stationNumber": "JC-56",
     "lineId": "ome",
     "number": 7,
     "name": "牛浜",
@@ -242,6 +249,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-57",
+    "stationNumber": "JC-57",
     "lineId": "ome",
     "number": 8,
     "name": "福生",
@@ -275,6 +283,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-58",
+    "stationNumber": "JC-58",
     "lineId": "ome",
     "number": 9,
     "name": "羽村",
@@ -307,6 +316,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-59",
+    "stationNumber": "JC-59",
     "lineId": "ome",
     "number": 10,
     "name": "小作",
@@ -339,6 +349,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-60",
+    "stationNumber": "JC-60",
     "lineId": "ome",
     "number": 11,
     "name": "河辺",
@@ -371,6 +382,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-61",
+    "stationNumber": "JC-61",
     "lineId": "ome",
     "number": 12,
     "name": "東青梅",
@@ -403,6 +415,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-62",
+    "stationNumber": "JC-62",
     "lineId": "ome",
     "number": 13,
     "name": "青梅",
@@ -437,6 +450,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-63",
+    "stationNumber": "JC-63",
     "lineId": "ome",
     "number": 14,
     "name": "宮ノ平",
@@ -465,6 +479,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-64",
+    "stationNumber": "JC-64",
     "lineId": "ome",
     "number": 15,
     "name": "日向和田",
@@ -493,6 +508,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-65",
+    "stationNumber": "JC-65",
     "lineId": "ome",
     "number": 16,
     "name": "石神前",
@@ -521,6 +537,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-66",
+    "stationNumber": "JC-66",
     "lineId": "ome",
     "number": 17,
     "name": "二俣尾",
@@ -549,6 +566,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-67",
+    "stationNumber": "JC-67",
     "lineId": "ome",
     "number": 18,
     "name": "軍畑",
@@ -577,6 +595,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-68",
+    "stationNumber": "JC-68",
     "lineId": "ome",
     "number": 19,
     "name": "沢井",
@@ -605,6 +624,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-69",
+    "stationNumber": "JC-69",
     "lineId": "ome",
     "number": 20,
     "name": "御嶽",
@@ -634,6 +654,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-70",
+    "stationNumber": "JC-70",
     "lineId": "ome",
     "number": 21,
     "name": "川井",
@@ -662,6 +683,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-71",
+    "stationNumber": "JC-71",
     "lineId": "ome",
     "number": 22,
     "name": "古里",
@@ -690,6 +712,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-72",
+    "stationNumber": "JC-72",
     "lineId": "ome",
     "number": 23,
     "name": "鳩ノ巣",
@@ -718,6 +741,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-73",
+    "stationNumber": "JC-73",
     "lineId": "ome",
     "number": 24,
     "name": "白丸",
@@ -746,6 +770,7 @@ export const OME_STATIONS: Station[] = [
   },
   {
     "id": "JC-74",
+    "stationNumber": "JC-74",
     "lineId": "ome",
     "number": 25,
     "name": "奥多摩",

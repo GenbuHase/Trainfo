@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const CHIYODA_STATIONS: Station[] = [
   {
     "id": "C-01",
+    "stationNumber": "C-01",
     "lineId": "chiyoda",
     "number": 1,
     "name": "代々木上原",
@@ -38,6 +39,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-02",
+    "stationNumber": "C-02",
     "lineId": "chiyoda",
     "number": 2,
     "name": "代々木公園",
@@ -71,6 +73,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-03",
+    "stationNumber": "C-03",
     "lineId": "chiyoda",
     "number": 3,
     "name": "明治神宮前〈原宿〉",
@@ -105,6 +108,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-04",
+    "stationNumber": "C-04",
     "lineId": "chiyoda",
     "number": 4,
     "name": "表参道",
@@ -140,6 +144,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-05",
+    "stationNumber": "C-05",
     "lineId": "chiyoda",
     "number": 5,
     "name": "乃木坂",
@@ -171,6 +176,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-06",
+    "stationNumber": "C-06",
     "lineId": "chiyoda",
     "number": 6,
     "name": "赤坂",
@@ -202,6 +208,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-07",
+    "stationNumber": "C-07",
     "lineId": "chiyoda",
     "number": 7,
     "name": "国会議事堂前",
@@ -237,6 +244,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-08",
+    "stationNumber": "C-08",
     "lineId": "chiyoda",
     "number": 8,
     "name": "霞ケ関",
@@ -272,6 +280,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-09",
+    "stationNumber": "C-09",
     "lineId": "chiyoda",
     "number": 9,
     "name": "日比谷",
@@ -309,6 +318,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-10",
+    "stationNumber": "C-10",
     "lineId": "chiyoda",
     "number": 10,
     "name": "二重橋前〈丸の内〉",
@@ -343,6 +353,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-11",
+    "stationNumber": "C-11",
     "lineId": "chiyoda",
     "number": 11,
     "name": "大手町",
@@ -381,6 +392,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-12",
+    "stationNumber": "C-12",
     "lineId": "chiyoda",
     "number": 12,
     "name": "新御茶ノ水",
@@ -417,6 +429,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-13",
+    "stationNumber": "C-13",
     "lineId": "chiyoda",
     "number": 13,
     "name": "湯島",
@@ -448,6 +461,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-14",
+    "stationNumber": "C-14",
     "lineId": "chiyoda",
     "number": 14,
     "name": "根津",
@@ -479,6 +493,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-15",
+    "stationNumber": "C-15",
     "lineId": "chiyoda",
     "number": 15,
     "name": "千駄木",
@@ -510,6 +525,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-16",
+    "stationNumber": "C-16",
     "lineId": "chiyoda",
     "number": 16,
     "name": "西日暮里",
@@ -545,6 +561,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-17",
+    "stationNumber": "C-17",
     "lineId": "chiyoda",
     "number": 17,
     "name": "町屋",
@@ -579,6 +596,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-18",
+    "stationNumber": "C-18",
     "lineId": "chiyoda",
     "number": 18,
     "name": "北千住",
@@ -616,6 +634,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-19",
+    "stationNumber": "C-19",
     "lineId": "chiyoda",
     "number": 19,
     "name": "綾瀬",
@@ -649,6 +668,7 @@ export const CHIYODA_STATIONS: Station[] = [
   },
   {
     "id": "C-20",
+    "stationNumber": "C-20",
     "lineId": "chiyoda",
     "number": 20,
     "name": "北綾瀬",

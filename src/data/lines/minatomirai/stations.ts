@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const MINATOMIRAI_STATIONS: Station[] = [
   {
     "id": "MM-01",
+    "stationNumber": "MM-01",
     "lineId": "minatomirai",
     "number": 1,
     "name": "横浜",
@@ -46,6 +47,7 @@ export const MINATOMIRAI_STATIONS: Station[] = [
   },
   {
     "id": "MM-02",
+    "stationNumber": "MM-02",
     "lineId": "minatomirai",
     "number": 2,
     "name": "新高島",
@@ -72,6 +74,7 @@ export const MINATOMIRAI_STATIONS: Station[] = [
   },
   {
     "id": "MM-03",
+    "stationNumber": "MM-03",
     "lineId": "minatomirai",
     "number": 3,
     "name": "みなとみらい",
@@ -103,6 +106,7 @@ export const MINATOMIRAI_STATIONS: Station[] = [
   },
   {
     "id": "MM-04",
+    "stationNumber": "MM-04",
     "lineId": "minatomirai",
     "number": 4,
     "name": "馬車道",
@@ -134,6 +138,7 @@ export const MINATOMIRAI_STATIONS: Station[] = [
   },
   {
     "id": "MM-05",
+    "stationNumber": "MM-05",
     "lineId": "minatomirai",
     "number": 5,
     "name": "日本大通り",
@@ -165,6 +170,7 @@ export const MINATOMIRAI_STATIONS: Station[] = [
   },
   {
     "id": "MM-06",
+    "stationNumber": "MM-06",
     "lineId": "minatomirai",
     "number": 6,
     "name": "元町・中華街",

@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const UENO_TOKYO_STATIONS: Station[] = [
   {
     "id": "UT-01",
+    "stationNumber": "JU-01",
     "lineId": "ueno_tokyo",
     "number": 1,
     "name": "東京",
@@ -47,6 +48,7 @@ export const UENO_TOKYO_STATIONS: Station[] = [
   },
   {
     "id": "UT-02",
+    "stationNumber": "JU-02",
     "lineId": "ueno_tokyo",
     "number": 2,
     "name": "上野",

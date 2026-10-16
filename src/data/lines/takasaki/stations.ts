@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-02",
+    "stationNumber": "JU-02",
     "lineId": "takasaki",
     "number": 1,
     "name": "上野",
@@ -46,6 +47,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   },
   {
     "id": "TK-03",
+    "stationNumber": "JU-03",
     "lineId": "takasaki",
     "number": 2,
     "name": "尾久",
@@ -76,6 +78,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   },
   {
     "id": "TK-04",
+    "stationNumber": "JU-04",
     "lineId": "takasaki",
     "number": 3,
     "name": "赤羽",
@@ -113,6 +116,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   },
   {
     "id": "TK-05",
+    "stationNumber": "JU-05",
     "lineId": "takasaki",
     "number": 4,
     "name": "浦和",
@@ -149,6 +153,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   },
   {
     "id": "TK-06",
+    "stationNumber": "JU-06",
     "lineId": "takasaki",
     "number": 5,
     "name": "さいたま新都心",
@@ -180,6 +185,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   },
   {
     "id": "TK-07",
+    "stationNumber": "JU-07",
     "lineId": "takasaki",
     "number": 6,
     "name": "大宮",

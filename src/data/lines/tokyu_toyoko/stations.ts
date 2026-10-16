@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const TOKYU_TOYOKO_STATIONS: Station[] = [
   {
     "id": "TY-01",
+    "stationNumber": "TY-01",
     "lineId": "tokyu_toyoko",
     "number": 1,
     "name": "渋谷",
@@ -44,6 +45,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-02",
+    "stationNumber": "TY-02",
     "lineId": "tokyu_toyoko",
     "number": 2,
     "name": "代官山",
@@ -70,6 +72,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-03",
+    "stationNumber": "TY-03",
     "lineId": "tokyu_toyoko",
     "number": 3,
     "name": "中目黒",
@@ -103,6 +106,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-04",
+    "stationNumber": "TY-04",
     "lineId": "tokyu_toyoko",
     "number": 4,
     "name": "祐天寺",
@@ -129,6 +133,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-05",
+    "stationNumber": "TY-05",
     "lineId": "tokyu_toyoko",
     "number": 5,
     "name": "学芸大学",
@@ -157,6 +162,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-06",
+    "stationNumber": "TY-06",
     "lineId": "tokyu_toyoko",
     "number": 6,
     "name": "都立大学",
@@ -183,6 +189,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-07",
+    "stationNumber": "TY-07",
     "lineId": "tokyu_toyoko",
     "number": 7,
     "name": "自由が丘",
@@ -216,6 +223,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-08",
+    "stationNumber": "TY-08",
     "lineId": "tokyu_toyoko",
     "number": 8,
     "name": "田園調布",
@@ -246,6 +254,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-09",
+    "stationNumber": "TY-09",
     "lineId": "tokyu_toyoko",
     "number": 9,
     "name": "多摩川",
@@ -277,6 +286,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-10",
+    "stationNumber": "TY-10",
     "lineId": "tokyu_toyoko",
     "number": 10,
     "name": "新丸子",
@@ -305,6 +315,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-11",
+    "stationNumber": "TY-11",
     "lineId": "tokyu_toyoko",
     "number": 11,
     "name": "武蔵小杉",
@@ -343,6 +354,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-12",
+    "stationNumber": "TY-12",
     "lineId": "tokyu_toyoko",
     "number": 12,
     "name": "元住吉",
@@ -371,6 +383,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-13",
+    "stationNumber": "TY-13",
     "lineId": "tokyu_toyoko",
     "number": 13,
     "name": "日吉",
@@ -404,6 +417,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-14",
+    "stationNumber": "TY-14",
     "lineId": "tokyu_toyoko",
     "number": 14,
     "name": "綱島",
@@ -432,6 +446,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-15",
+    "stationNumber": "TY-15",
     "lineId": "tokyu_toyoko",
     "number": 15,
     "name": "大倉山",
@@ -458,6 +473,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-16",
+    "stationNumber": "TY-16",
     "lineId": "tokyu_toyoko",
     "number": 16,
     "name": "菊名",
@@ -490,6 +506,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-17",
+    "stationNumber": "TY-17",
     "lineId": "tokyu_toyoko",
     "number": 17,
     "name": "妙蓮寺",
@@ -516,6 +533,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-18",
+    "stationNumber": "TY-18",
     "lineId": "tokyu_toyoko",
     "number": 18,
     "name": "白楽",
@@ -542,6 +560,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-19",
+    "stationNumber": "TY-19",
     "lineId": "tokyu_toyoko",
     "number": 19,
     "name": "東白楽",
@@ -568,6 +587,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-20",
+    "stationNumber": "TY-20",
     "lineId": "tokyu_toyoko",
     "number": 20,
     "name": "反町",
@@ -594,6 +614,7 @@ export const TOKYU_TOYOKO_STATIONS: Station[] = [
   },
   {
     "id": "TY-21",
+    "stationNumber": "TY-21",
     "lineId": "tokyu_toyoko",
     "number": 21,
     "name": "横浜",

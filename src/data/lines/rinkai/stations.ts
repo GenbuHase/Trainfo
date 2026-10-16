@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const RINKAI_STATIONS: Station[] = [
   {
     "id": "R-01",
+    "stationNumber": "R-01",
     "lineId": "rinkai",
     "number": 1,
     "name": "新木場",
@@ -36,6 +37,7 @@ export const RINKAI_STATIONS: Station[] = [
   },
   {
     "id": "R-02",
+    "stationNumber": "R-02",
     "lineId": "rinkai",
     "number": 2,
     "name": "東雲",
@@ -65,6 +67,7 @@ export const RINKAI_STATIONS: Station[] = [
   },
   {
     "id": "R-03",
+    "stationNumber": "R-03",
     "lineId": "rinkai",
     "number": 3,
     "name": "国際展示場",
@@ -96,6 +99,7 @@ export const RINKAI_STATIONS: Station[] = [
   },
   {
     "id": "R-04",
+    "stationNumber": "R-04",
     "lineId": "rinkai",
     "number": 4,
     "name": "東京テレポート",
@@ -127,6 +131,7 @@ export const RINKAI_STATIONS: Station[] = [
   },
   {
     "id": "R-05",
+    "stationNumber": "R-05",
     "lineId": "rinkai",
     "number": 5,
     "name": "天王洲アイル",
@@ -158,6 +163,7 @@ export const RINKAI_STATIONS: Station[] = [
   },
   {
     "id": "R-06",
+    "stationNumber": "R-06",
     "lineId": "rinkai",
     "number": 6,
     "name": "品川シーサイド",
@@ -187,6 +193,7 @@ export const RINKAI_STATIONS: Station[] = [
   },
   {
     "id": "R-07",
+    "stationNumber": "R-07",
     "lineId": "rinkai",
     "number": 7,
     "name": "大井町",
@@ -219,6 +226,7 @@ export const RINKAI_STATIONS: Station[] = [
   },
   {
     "id": "R-08",
+    "stationNumber": "R-08",
     "lineId": "rinkai",
     "number": 8,
     "name": "大崎",

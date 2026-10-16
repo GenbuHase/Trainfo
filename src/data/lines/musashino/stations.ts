@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const MUSASHINO_STATIONS: Station[] = [
   {
     "id": "JM-35",
+    "stationNumber": "JM-35",
     "number": 35,
     "name": "府中本町",
     "nameKana": "ふちゅうほんまち",
@@ -32,6 +33,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-34",
+    "stationNumber": "JM-34",
     "number": 34,
     "name": "北府中",
     "nameKana": "きたふちゅう",
@@ -58,6 +60,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-33",
+    "stationNumber": "JM-33",
     "number": 33,
     "name": "西国分寺",
     "nameKana": "にしこくぶんじ",
@@ -87,6 +90,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-32",
+    "stationNumber": "JM-32",
     "number": 32,
     "name": "新小平",
     "nameKana": "しんこだいら",
@@ -116,6 +120,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-31",
+    "stationNumber": "JM-31",
     "number": 31,
     "name": "新秋津",
     "nameKana": "しんあきつ",
@@ -145,6 +150,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-30",
+    "stationNumber": "JM-30",
     "number": 30,
     "name": "東所沢",
     "nameKana": "ひがしところざわ",
@@ -172,6 +178,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-29",
+    "stationNumber": "JM-29",
     "number": 29,
     "name": "新座",
     "nameKana": "にいざ",
@@ -199,6 +206,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-28",
+    "stationNumber": "JM-28",
     "number": 28,
     "name": "北朝霞",
     "nameKana": "きたあさか",
@@ -229,6 +237,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-27",
+    "stationNumber": "JM-27",
     "number": 27,
     "name": "西浦和",
     "nameKana": "にしうらわ",
@@ -255,6 +264,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-26",
+    "stationNumber": "JM-26",
     "number": 26,
     "name": "武蔵浦和",
     "nameKana": "むさしうらわ",
@@ -285,6 +295,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-25",
+    "stationNumber": "JM-25",
     "number": 25,
     "name": "南浦和",
     "nameKana": "みなみうらわ",
@@ -316,6 +327,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-24",
+    "stationNumber": "JM-24",
     "number": 24,
     "name": "東浦和",
     "nameKana": "ひがしうらわ",
@@ -343,6 +355,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-23",
+    "stationNumber": "JM-23",
     "number": 23,
     "name": "東川口",
     "nameKana": "ひがしかわぐち",
@@ -372,6 +385,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-22",
+    "stationNumber": "JM-22",
     "number": 22,
     "name": "南越谷",
     "nameKana": "みなみこしがや",
@@ -403,6 +417,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-21",
+    "stationNumber": "JM-21",
     "number": 21,
     "name": "越谷レイクタウン",
     "nameKana": "こしがやれいくたうん",
@@ -430,6 +445,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-20",
+    "stationNumber": "JM-20",
     "number": 20,
     "name": "吉川",
     "nameKana": "よしかわ",
@@ -457,6 +473,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-19",
+    "stationNumber": "JM-19",
     "number": 19,
     "name": "吉川美南",
     "nameKana": "よしかわみなみ",
@@ -485,6 +502,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-18",
+    "stationNumber": "JM-18",
     "number": 18,
     "name": "新三郷",
     "nameKana": "しんみさと",
@@ -512,6 +530,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-17",
+    "stationNumber": "JM-17",
     "number": 17,
     "name": "三郷",
     "nameKana": "みさと",
@@ -539,6 +558,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-16",
+    "stationNumber": "JM-16",
     "number": 16,
     "name": "南流山",
     "nameKana": "みなみながれやま",
@@ -568,6 +588,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-15",
+    "stationNumber": "JM-15",
     "number": 15,
     "name": "新松戸",
     "nameKana": "しんまつど",
@@ -599,6 +620,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-14",
+    "stationNumber": "JM-14",
     "number": 14,
     "name": "新八柱",
     "nameKana": "しんやはしら",
@@ -628,6 +650,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-13",
+    "stationNumber": "JM-13",
     "number": 13,
     "name": "東松戸",
     "nameKana": "ひがしまつど",
@@ -658,6 +681,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-12",
+    "stationNumber": "JM-12",
     "number": 12,
     "name": "市川大野",
     "nameKana": "いちかわおおの",
@@ -685,6 +709,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-11",
+    "stationNumber": "JM-11",
     "number": 11,
     "name": "船橋法典",
     "nameKana": "ふなばしほうてん",
@@ -712,6 +737,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JM-10",
+    "stationNumber": "JM-10",
     "number": 10,
     "name": "西船橋",
     "nameKana": "にしふなばし",
@@ -745,6 +771,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-09",
+    "stationNumber": "JE-09",
     "number": 9,
     "name": "市川塩浜",
     "nameKana": "いちかわしおはま",
@@ -773,6 +800,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-08",
+    "stationNumber": "JE-08",
     "number": 8,
     "name": "新浦安",
     "nameKana": "しんうらやす",
@@ -799,6 +827,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-07",
+    "stationNumber": "JE-07",
     "number": 7,
     "name": "舞浜",
     "nameKana": "まいはま",
@@ -827,6 +856,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-06",
+    "stationNumber": "JE-06",
     "number": 6,
     "name": "葛西臨海公園",
     "nameKana": "かさいりんかいこうえん",
@@ -853,6 +883,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-05",
+    "stationNumber": "JE-05",
     "number": 5,
     "name": "新木場",
     "nameKana": "しんきば",
@@ -883,6 +914,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-04",
+    "stationNumber": "JE-04",
     "number": 4,
     "name": "潮見",
     "nameKana": "しおみ",
@@ -909,6 +941,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-03",
+    "stationNumber": "JE-03",
     "number": 3,
     "name": "越中島",
     "nameKana": "えっちゅうじま",
@@ -935,6 +968,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-02",
+    "stationNumber": "JE-02",
     "number": 2,
     "name": "八丁堀",
     "nameKana": "はっちょうぼり",
@@ -963,6 +997,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-01",
+    "stationNumber": "JE-01",
     "number": 1,
     "name": "東京",
     "nameKana": "とうきょう",
@@ -995,6 +1030,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-11",
+    "stationNumber": "JE-11",
     "number": 11,
     "name": "南船橋",
     "nameKana": "みなみふなばし",
@@ -1025,6 +1061,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-12",
+    "stationNumber": "JE-12",
     "number": 12,
     "name": "新習志野",
     "nameKana": "しんならしの",
@@ -1052,6 +1089,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-13",
+    "stationNumber": "JE-13",
     "number": 13,
     "name": "幕張豊砂",
     "nameKana": "まくはりとよすな",
@@ -1079,6 +1117,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JE-14",
+    "stationNumber": "JE-14",
     "number": 14,
     "name": "海浜幕張",
     "nameKana": "かいひんまくはり",
@@ -1109,6 +1148,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JU-07",
+    "stationNumber": "JU-07",
     "number": 7,
     "name": "大宮",
     "nameKana": "おおみや",
@@ -1142,6 +1182,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JC-18",
+    "stationNumber": "JC-18",
     "number": 18,
     "name": "国立",
     "nameKana": "くにたち",
@@ -1170,6 +1211,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JC-19",
+    "stationNumber": "JC-19",
     "number": 19,
     "name": "立川",
     "nameKana": "たちかわ",
@@ -1201,6 +1243,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JC-20",
+    "stationNumber": "JC-20",
     "number": 20,
     "name": "日野",
     "nameKana": "ひの",
@@ -1227,6 +1270,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JC-21",
+    "stationNumber": "JC-21",
     "number": 21,
     "name": "豊田",
     "nameKana": "とよだ",
@@ -1253,6 +1297,7 @@ export const MUSASHINO_STATIONS: Station[] = [
   },
   {
     "id": "JC-22",
+    "stationNumber": "JC-22",
     "number": 22,
     "name": "八王子",
     "nameKana": "はちおうじ",

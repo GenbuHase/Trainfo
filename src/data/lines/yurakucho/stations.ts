@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "Y-01",
+    "stationNumber": "Y-01",
     "lineId": "yurakucho",
     "number": 1,
     "name": "和光市",
@@ -34,6 +35,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-02",
+    "stationNumber": "Y-02",
     "lineId": "yurakucho",
     "number": 2,
     "name": "地下鉄成増",
@@ -64,6 +66,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-03",
+    "stationNumber": "Y-03",
     "lineId": "yurakucho",
     "number": 3,
     "name": "地下鉄赤塚",
@@ -94,6 +97,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-04",
+    "stationNumber": "Y-04",
     "lineId": "yurakucho",
     "number": 4,
     "name": "平和台",
@@ -123,6 +127,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-05",
+    "stationNumber": "Y-05",
     "lineId": "yurakucho",
     "number": 5,
     "name": "氷川台",
@@ -152,6 +157,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-06",
+    "stationNumber": "Y-06",
     "lineId": "yurakucho",
     "number": 6,
     "name": "小竹向原",
@@ -182,6 +188,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-07",
+    "stationNumber": "Y-07",
     "lineId": "yurakucho",
     "number": 7,
     "name": "千川",
@@ -211,6 +218,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-08",
+    "stationNumber": "Y-08",
     "lineId": "yurakucho",
     "number": 8,
     "name": "要町",
@@ -240,6 +248,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-09",
+    "stationNumber": "Y-09",
     "lineId": "yurakucho",
     "number": 9,
     "name": "池袋",
@@ -275,6 +284,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-10",
+    "stationNumber": "Y-10",
     "lineId": "yurakucho",
     "number": 10,
     "name": "東池袋",
@@ -304,6 +314,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-11",
+    "stationNumber": "Y-11",
     "lineId": "yurakucho",
     "number": 11,
     "name": "護国寺",
@@ -331,6 +342,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-12",
+    "stationNumber": "Y-12",
     "lineId": "yurakucho",
     "number": 12,
     "name": "江戸川橋",
@@ -358,6 +370,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-13",
+    "stationNumber": "Y-13",
     "lineId": "yurakucho",
     "number": 13,
     "name": "飯田橋",
@@ -391,6 +404,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-14",
+    "stationNumber": "Y-14",
     "lineId": "yurakucho",
     "number": 14,
     "name": "市ケ谷",
@@ -422,6 +436,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-15",
+    "stationNumber": "Y-15",
     "lineId": "yurakucho",
     "number": 15,
     "name": "麹町",
@@ -449,6 +464,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-16",
+    "stationNumber": "Y-16",
     "lineId": "yurakucho",
     "number": 16,
     "name": "永田町",
@@ -480,6 +496,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-17",
+    "stationNumber": "Y-17",
     "lineId": "yurakucho",
     "number": 17,
     "name": "桜田門",
@@ -507,6 +524,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-18",
+    "stationNumber": "Y-18",
     "lineId": "yurakucho",
     "number": 18,
     "name": "有楽町",
@@ -539,6 +557,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-19",
+    "stationNumber": "Y-19",
     "lineId": "yurakucho",
     "number": 19,
     "name": "銀座一丁目",
@@ -568,6 +587,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-20",
+    "stationNumber": "Y-20",
     "lineId": "yurakucho",
     "number": 20,
     "name": "新富町",
@@ -597,6 +617,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-21",
+    "stationNumber": "Y-21",
     "lineId": "yurakucho",
     "number": 21,
     "name": "月島",
@@ -626,6 +647,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-22",
+    "stationNumber": "Y-22",
     "lineId": "yurakucho",
     "number": 22,
     "name": "豊洲",
@@ -656,6 +678,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-23",
+    "stationNumber": "Y-23",
     "lineId": "yurakucho",
     "number": 23,
     "name": "辰巳",
@@ -683,6 +706,7 @@ export const YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "Y-24",
+    "stationNumber": "Y-24",
     "lineId": "yurakucho",
     "number": 24,
     "name": "新木場",

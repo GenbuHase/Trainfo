@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
   {
     id: 'SO-51',
+    stationNumber: 'SO-51',
     lineId: 'sotetsu_jr_direct',
     number: 1,
     name: '羽沢横浜国大',
@@ -31,6 +32,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
   },
   {
     id: 'JS-15',
+    stationNumber: 'JS-15',
     lineId: 'sotetsu_jr_direct',
     number: 2,
     name: '武蔵小杉',
@@ -62,6 +64,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
   },
   {
     id: 'JS-16',
+    stationNumber: 'JS-16',
     lineId: 'sotetsu_jr_direct',
     number: 3,
     name: '西大井',
@@ -89,6 +92,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
   },
   {
     id: 'JS-17',
+    stationNumber: 'JS-17',
     lineId: 'sotetsu_jr_direct',
     number: 4,
     name: '大崎',
@@ -119,6 +123,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
   },
   {
     id: 'JS-18',
+    stationNumber: 'JS-18',
     lineId: 'sotetsu_jr_direct',
     number: 5,
     name: '恵比寿',
@@ -148,6 +153,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
   },
   {
     id: 'JS-19',
+    stationNumber: 'JS-19',
     lineId: 'sotetsu_jr_direct',
     number: 6,
     name: '渋谷',
@@ -183,6 +189,7 @@ export const SOTETSU_JR_DIRECT_STATIONS: Station[] = [
   },
   {
     id: 'JS-20',
+    stationNumber: 'JS-20',
     lineId: 'sotetsu_jr_direct',
     number: 7,
     name: '新宿',

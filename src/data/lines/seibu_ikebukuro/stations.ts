@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   {
     "id": "SI-01",
+    "stationNumber": "SI-01",
     "lineId": "seibu_ikebukuro",
     "number": 1,
     "name": "池袋",
@@ -45,6 +46,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-02",
+    "stationNumber": "SI-02",
     "lineId": "seibu_ikebukuro",
     "number": 2,
     "name": "椎名町",
@@ -72,6 +74,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-03",
+    "stationNumber": "SI-03",
     "lineId": "seibu_ikebukuro",
     "number": 3,
     "name": "東長崎",
@@ -99,6 +102,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-04",
+    "stationNumber": "SI-04",
     "lineId": "seibu_ikebukuro",
     "number": 4,
     "name": "江古田",
@@ -126,6 +130,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-05",
+    "stationNumber": "SI-05",
     "lineId": "seibu_ikebukuro",
     "number": 5,
     "name": "桜台",
@@ -153,6 +158,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-06",
+    "stationNumber": "SI-06",
     "lineId": "seibu_ikebukuro",
     "number": 6,
     "name": "練馬",
@@ -189,6 +195,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-07",
+    "stationNumber": "SI-07",
     "lineId": "seibu_ikebukuro",
     "number": 7,
     "name": "中村橋",
@@ -216,6 +223,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-08",
+    "stationNumber": "SI-08",
     "lineId": "seibu_ikebukuro",
     "number": 8,
     "name": "富士見台",
@@ -243,6 +251,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-09",
+    "stationNumber": "SI-09",
     "lineId": "seibu_ikebukuro",
     "number": 9,
     "name": "練馬高野台",
@@ -270,6 +279,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-10",
+    "stationNumber": "SI-10",
     "lineId": "seibu_ikebukuro",
     "number": 10,
     "name": "石神井公園",
@@ -303,6 +313,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-11",
+    "stationNumber": "SI-11",
     "lineId": "seibu_ikebukuro",
     "number": 11,
     "name": "大泉学園",
@@ -334,6 +345,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-12",
+    "stationNumber": "SI-12",
     "lineId": "seibu_ikebukuro",
     "number": 12,
     "name": "保谷",
@@ -366,6 +378,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-13",
+    "stationNumber": "SI-13",
     "lineId": "seibu_ikebukuro",
     "number": 13,
     "name": "ひばりヶ丘",
@@ -397,6 +410,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-14",
+    "stationNumber": "SI-14",
     "lineId": "seibu_ikebukuro",
     "number": 14,
     "name": "東久留米",
@@ -429,6 +443,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-15",
+    "stationNumber": "SI-15",
     "lineId": "seibu_ikebukuro",
     "number": 15,
     "name": "清瀬",
@@ -459,6 +474,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-16",
+    "stationNumber": "SI-16",
     "lineId": "seibu_ikebukuro",
     "number": 16,
     "name": "秋津",
@@ -490,6 +506,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-17",
+    "stationNumber": "SI-17",
     "lineId": "seibu_ikebukuro",
     "number": 17,
     "name": "所沢",
@@ -527,6 +544,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-18",
+    "stationNumber": "SI-18",
     "lineId": "seibu_ikebukuro",
     "number": 18,
     "name": "西所沢",
@@ -563,6 +581,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-19",
+    "stationNumber": "SI-19",
     "lineId": "seibu_ikebukuro",
     "number": 19,
     "name": "小手指",
@@ -597,6 +616,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-20",
+    "stationNumber": "SI-20",
     "lineId": "seibu_ikebukuro",
     "number": 20,
     "name": "狭山ヶ丘",
@@ -628,6 +648,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-21",
+    "stationNumber": "SI-21",
     "lineId": "seibu_ikebukuro",
     "number": 21,
     "name": "武蔵藤沢",
@@ -659,6 +680,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-22",
+    "stationNumber": "SI-22",
     "lineId": "seibu_ikebukuro",
     "number": 22,
     "name": "稲荷山公園",
@@ -690,6 +712,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-23",
+    "stationNumber": "SI-23",
     "lineId": "seibu_ikebukuro",
     "number": 23,
     "name": "入間市",
@@ -724,6 +747,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-24",
+    "stationNumber": "SI-24",
     "lineId": "seibu_ikebukuro",
     "number": 24,
     "name": "仏子",
@@ -755,6 +779,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-25",
+    "stationNumber": "SI-25",
     "lineId": "seibu_ikebukuro",
     "number": 25,
     "name": "元加治",
@@ -786,6 +811,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-26",
+    "stationNumber": "SI-26",
     "lineId": "seibu_ikebukuro",
     "number": 26,
     "name": "飯能",
@@ -820,6 +846,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-27",
+    "stationNumber": "SI-27",
     "lineId": "seibu_ikebukuro",
     "number": 27,
     "name": "東飯能",
@@ -850,6 +877,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-28",
+    "stationNumber": "SI-28",
     "lineId": "seibu_ikebukuro",
     "number": 28,
     "name": "高麗",
@@ -878,6 +906,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-29",
+    "stationNumber": "SI-29",
     "lineId": "seibu_ikebukuro",
     "number": 29,
     "name": "武蔵横手",
@@ -906,6 +935,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-30",
+    "stationNumber": "SI-30",
     "lineId": "seibu_ikebukuro",
     "number": 30,
     "name": "東吾野",
@@ -934,6 +964,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-31",
+    "stationNumber": "SI-31",
     "lineId": "seibu_ikebukuro",
     "number": 31,
     "name": "吾野",
@@ -962,6 +993,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-32",
+    "stationNumber": "SI-32",
     "lineId": "seibu_ikebukuro",
     "number": 32,
     "name": "西吾野",
@@ -990,6 +1022,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-33",
+    "stationNumber": "SI-33",
     "lineId": "seibu_ikebukuro",
     "number": 33,
     "name": "正丸",
@@ -1018,6 +1051,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-34",
+    "stationNumber": "SI-34",
     "lineId": "seibu_ikebukuro",
     "number": 34,
     "name": "芦ヶ久保",
@@ -1046,6 +1080,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-35",
+    "stationNumber": "SI-35",
     "lineId": "seibu_ikebukuro",
     "number": 35,
     "name": "横瀬",
@@ -1075,6 +1110,7 @@ export const SEIBU_IKEBUKURO_STATIONS: Station[] = [
   },
   {
     "id": "SI-36",
+    "stationNumber": "SI-36",
     "lineId": "seibu_ikebukuro",
     "number": 36,
     "name": "西武秩父",

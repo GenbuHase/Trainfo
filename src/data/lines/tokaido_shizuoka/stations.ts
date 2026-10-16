@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const TOKAIDO_SHIZUOKA_STATIONS: Station[] = [
   {
     id: 'CA-00',
+    stationNumber: 'CA-00',
     lineId: 'tokaido_shizuoka',
     number: 0,
     name: '熱海',
@@ -36,6 +37,7 @@ export const TOKAIDO_SHIZUOKA_STATIONS: Station[] = [
   },
   {
     id: 'CA-01',
+    stationNumber: 'CA-01',
     lineId: 'tokaido_shizuoka',
     number: 1,
     name: '函南',
@@ -64,6 +66,7 @@ export const TOKAIDO_SHIZUOKA_STATIONS: Station[] = [
   },
   {
     id: 'CA-02',
+    stationNumber: 'CA-02',
     lineId: 'tokaido_shizuoka',
     number: 2,
     name: '三島',
@@ -96,6 +99,7 @@ export const TOKAIDO_SHIZUOKA_STATIONS: Station[] = [
   },
   {
     id: 'CA-03',
+    stationNumber: 'CA-03',
     lineId: 'tokaido_shizuoka',
     number: 3,
     name: '沼津',

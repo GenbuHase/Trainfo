@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const ITSUKAICHI_STATIONS: Station[] = [
   {
     "id": "JC-55",
+    "stationNumber": "JC-55",
     "lineId": "itsukaichi",
     "number": 1,
     "name": "拝島",
@@ -40,6 +41,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
   },
   {
     "id": "JC-81",
+    "stationNumber": "JC-81",
     "lineId": "itsukaichi",
     "number": 2,
     "name": "熊川",
@@ -71,6 +73,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
   },
   {
     "id": "JC-82",
+    "stationNumber": "JC-82",
     "lineId": "itsukaichi",
     "number": 3,
     "name": "東秋留",
@@ -102,6 +105,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
   },
   {
     "id": "JC-83",
+    "stationNumber": "JC-83",
     "lineId": "itsukaichi",
     "number": 4,
     "name": "秋川",
@@ -134,6 +138,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
   },
   {
     "id": "JC-84",
+    "stationNumber": "JC-84",
     "lineId": "itsukaichi",
     "number": 5,
     "name": "武蔵引田",
@@ -165,6 +170,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
   },
   {
     "id": "JC-85",
+    "stationNumber": "JC-85",
     "lineId": "itsukaichi",
     "number": 6,
     "name": "武蔵増戸",
@@ -196,6 +202,7 @@ export const ITSUKAICHI_STATIONS: Station[] = [
   },
   {
     "id": "JC-86",
+    "stationNumber": "JC-86",
     "lineId": "itsukaichi",
     "number": 7,
     "name": "武蔵五日市",

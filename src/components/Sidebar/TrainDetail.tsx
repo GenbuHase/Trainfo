@@ -221,7 +221,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                       >
                         {st.name}
                       </span>
-                      {!isPassing && <StationBadge id={st.id} size="sm" />}
+                      {!isPassing && st.stationNumber && <StationBadge id={st.stationNumber} size="sm" />}
                       {/* 区間別列車番号切り替えインジケーター */}
                       {train.trainNumberSections?.some((sec) => sec.fromStationId === stop.stationId) && (
                         <span className="text-[9px] text-amber-800 bg-amber-100/80 border border-amber-300 px-1.5 py-0.5 rounded font-mono font-bold">

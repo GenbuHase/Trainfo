@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const SHONAN_SHINJUKU_STATIONS: Station[] = [
   {
     "id": "JS-24",
+    "stationNumber": "JS-24",
     "lineId": "shonan_shinjuku",
     "number": 1,
     "name": "大宮",
@@ -46,6 +47,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
   },
   {
     "id": "JS-23",
+    "stationNumber": "JS-23",
     "lineId": "shonan_shinjuku",
     "number": 2,
     "name": "浦和",
@@ -81,6 +83,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
   },
   {
     "id": "JS-22",
+    "stationNumber": "JS-22",
     "lineId": "shonan_shinjuku",
     "number": 3,
     "name": "赤羽",
@@ -117,6 +120,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
   },
   {
     "id": "JS-21",
+    "stationNumber": "JS-21",
     "lineId": "shonan_shinjuku",
     "number": 4,
     "name": "池袋",
@@ -156,6 +160,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
   },
   {
     "id": "JS-20",
+    "stationNumber": "JS-20",
     "lineId": "shonan_shinjuku",
     "number": 5,
     "name": "新宿",
@@ -197,6 +202,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
   },
   {
     "id": "JS-19",
+    "stationNumber": "JS-19",
     "lineId": "shonan_shinjuku",
     "number": 6,
     "name": "渋谷",
@@ -238,6 +244,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
   },
   {
     "id": "JS-18",
+    "stationNumber": "JS-18",
     "lineId": "shonan_shinjuku",
     "number": 7,
     "name": "恵比寿",
@@ -272,6 +279,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
   },
   {
     "id": "JS-17",
+    "stationNumber": "JS-17",
     "lineId": "shonan_shinjuku",
     "number": 8,
     "name": "大崎",
@@ -307,6 +315,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
   },
   {
     "id": "JS-15",
+    "stationNumber": "JS-15",
     "lineId": "shonan_shinjuku",
     "number": 9,
     "name": "武蔵小杉",
@@ -344,6 +353,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
   },
   {
     "id": "JS-08",
+    "stationNumber": "JS-08",
     "lineId": "shonan_shinjuku",
     "number": 10,
     "name": "横浜",
@@ -386,6 +396,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
   },
   {
     "id": "JS-03",
+    "stationNumber": "JS-03",
     "lineId": "shonan_shinjuku",
     "number": 11,
     "name": "戸塚",
@@ -420,6 +431,7 @@ export const SHONAN_SHINJUKU_STATIONS: Station[] = [
   },
   {
     "id": "JS-01",
+    "stationNumber": "JS-01",
     "lineId": "shonan_shinjuku",
     "number": 12,
     "name": "大船",

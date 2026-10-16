@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const STATIONS: Station[] = [
   {
     "id": "TJ-26",
+    "stationNumber": "TJ-26",
     "lineId": "ogose",
     "number": 26,
     "name": "坂戸",
@@ -32,6 +33,7 @@ export const STATIONS: Station[] = [
   },
   {
     "id": "TJ-41",
+    "stationNumber": "TJ-41",
     "lineId": "ogose",
     "number": 41,
     "name": "一本松",
@@ -59,6 +61,7 @@ export const STATIONS: Station[] = [
   },
   {
     "id": "TJ-42",
+    "stationNumber": "TJ-42",
     "lineId": "ogose",
     "number": 42,
     "name": "西大家",
@@ -86,6 +89,7 @@ export const STATIONS: Station[] = [
   },
   {
     "id": "TJ-43",
+    "stationNumber": "TJ-43",
     "lineId": "ogose",
     "number": 43,
     "name": "川角",
@@ -113,6 +117,7 @@ export const STATIONS: Station[] = [
   },
   {
     "id": "TJ-44",
+    "stationNumber": "TJ-44",
     "lineId": "ogose",
     "number": 44,
     "name": "武州長瀬",
@@ -140,6 +145,7 @@ export const STATIONS: Station[] = [
   },
   {
     "id": "TJ-45",
+    "stationNumber": "TJ-45",
     "lineId": "ogose",
     "number": 45,
     "name": "東毛呂",
@@ -169,6 +175,7 @@ export const STATIONS: Station[] = [
   },
   {
     "id": "TJ-46",
+    "stationNumber": "TJ-46",
     "lineId": "ogose",
     "number": 46,
     "name": "武州唐沢",
@@ -196,6 +203,7 @@ export const STATIONS: Station[] = [
   },
   {
     "id": "TJ-47",
+    "stationNumber": "TJ-47",
     "lineId": "ogose",
     "number": 47,
     "name": "越生",

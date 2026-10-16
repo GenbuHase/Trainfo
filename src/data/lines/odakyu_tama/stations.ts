@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const ODAKYU_TAMA_STATIONS: Station[] = [
   {
     "id": "OH-23",
+    "stationNumber": "OH-23",
     "lineId": "odakyu_tama",
     "number": 1,
     "name": "新百合ヶ丘",
@@ -38,6 +39,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
   },
   {
     "id": "OT-01",
+    "stationNumber": "OT-01",
     "lineId": "odakyu_tama",
     "number": 2,
     "name": "五月台",
@@ -66,6 +68,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
   },
   {
     "id": "OT-02",
+    "stationNumber": "OT-02",
     "lineId": "odakyu_tama",
     "number": 3,
     "name": "栗平",
@@ -98,6 +101,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
   },
   {
     "id": "OT-03",
+    "stationNumber": "OT-03",
     "lineId": "odakyu_tama",
     "number": 4,
     "name": "黒川",
@@ -126,6 +130,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
   },
   {
     "id": "OT-04",
+    "stationNumber": "OT-04",
     "lineId": "odakyu_tama",
     "number": 5,
     "name": "はるひ野",
@@ -154,6 +159,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
   },
   {
     "id": "OT-05",
+    "stationNumber": "OT-05",
     "lineId": "odakyu_tama",
     "number": 6,
     "name": "小田急永山",
@@ -188,6 +194,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
   },
   {
     "id": "OT-06",
+    "stationNumber": "OT-06",
     "lineId": "odakyu_tama",
     "number": 7,
     "name": "小田急多摩センター",
@@ -223,6 +230,7 @@ export const ODAKYU_TAMA_STATIONS: Station[] = [
   },
   {
     "id": "OT-07",
+    "stationNumber": "OT-07",
     "lineId": "odakyu_tama",
     "number": 8,
     "name": "唐木田",

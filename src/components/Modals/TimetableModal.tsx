@@ -106,7 +106,7 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
         {/* モーダルヘッダー */}
         <div className="p-4 sm:p-5 border-b border-slate-200 flex items-center justify-between bg-slate-50">
           <div className="flex items-center gap-3">
-            <StationBadge id={station.id} size="lg" />
+            {station.stationNumber && <StationBadge id={station.stationNumber} size="lg" />}
             <div>
               <div className="flex items-center gap-2 flex-wrap">
                 <span

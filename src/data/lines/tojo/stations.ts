@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const STATIONS: Station[] = [
   {
     id: 'TJ-01',
+    stationNumber: 'TJ-01',
     lineId: 'tojo',
     number: 1,
     name: '池袋',
@@ -19,6 +20,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-02',
+    stationNumber: 'TJ-02',
     lineId: 'tojo',
     number: 2,
     name: '北池袋',
@@ -34,6 +36,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-03',
+    stationNumber: 'TJ-03',
     lineId: 'tojo',
     number: 3,
     name: '下板橋',
@@ -49,6 +52,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-04',
+    stationNumber: 'TJ-04',
     lineId: 'tojo',
     number: 4,
     name: '大山',
@@ -64,6 +68,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-05',
+    stationNumber: 'TJ-05',
     lineId: 'tojo',
     number: 5,
     name: '中板橋',
@@ -79,6 +84,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-06',
+    stationNumber: 'TJ-06',
     lineId: 'tojo',
     number: 6,
     name: 'ときわ台',
@@ -94,6 +100,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-07',
+    stationNumber: 'TJ-07',
     lineId: 'tojo',
     number: 7,
     name: '上板橋',
@@ -109,6 +116,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-08',
+    stationNumber: 'TJ-08',
     lineId: 'tojo',
     number: 8,
     name: '東武練馬',
@@ -124,6 +132,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-09',
+    stationNumber: 'TJ-09',
     lineId: 'tojo',
     number: 9,
     name: '下赤塚',
@@ -139,6 +148,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-10',
+    stationNumber: 'TJ-10',
     lineId: 'tojo',
     number: 10,
     name: '成増',
@@ -155,6 +165,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-11',
+    stationNumber: 'TJ-11',
     lineId: 'tojo',
     number: 11,
     name: '和光市',
@@ -171,6 +182,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-12',
+    stationNumber: 'TJ-12',
     lineId: 'tojo',
     number: 12,
     name: '朝霞',
@@ -186,6 +198,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-13',
+    stationNumber: 'TJ-13',
     lineId: 'tojo',
     number: 13,
     name: '朝霞台',
@@ -202,6 +215,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-14',
+    stationNumber: 'TJ-14',
     lineId: 'tojo',
     number: 14,
     name: '志木',
@@ -218,6 +232,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-15',
+    stationNumber: 'TJ-15',
     lineId: 'tojo',
     number: 15,
     name: '柳瀬川',
@@ -233,6 +248,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-16',
+    stationNumber: 'TJ-16',
     lineId: 'tojo',
     number: 16,
     name: 'みずほ台',
@@ -248,6 +264,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-17',
+    stationNumber: 'TJ-17',
     lineId: 'tojo',
     number: 17,
     name: '鶴瀬',
@@ -263,6 +280,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-18',
+    stationNumber: 'TJ-18',
     lineId: 'tojo',
     number: 18,
     name: 'ふじみ野',
@@ -279,6 +297,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-19',
+    stationNumber: 'TJ-19',
     lineId: 'tojo',
     number: 19,
     name: '上福岡',
@@ -294,6 +313,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-20',
+    stationNumber: 'TJ-20',
     lineId: 'tojo',
     number: 20,
     name: '新河岸',
@@ -309,6 +329,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-21',
+    stationNumber: 'TJ-21',
     lineId: 'tojo',
     number: 21,
     name: '川越',
@@ -325,6 +346,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-22',
+    stationNumber: 'TJ-22',
     lineId: 'tojo',
     number: 22,
     name: '川越市',
@@ -341,6 +363,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-23',
+    stationNumber: 'TJ-23',
     lineId: 'tojo',
     number: 23,
     name: '霞ヶ関',
@@ -356,6 +379,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-24',
+    stationNumber: 'TJ-24',
     lineId: 'tojo',
     number: 24,
     name: '鶴ヶ島',
@@ -371,6 +395,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-25',
+    stationNumber: 'TJ-25',
     lineId: 'tojo',
     number: 25,
     name: '若葉',
@@ -386,6 +411,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-26',
+    stationNumber: 'TJ-26',
     lineId: 'tojo',
     number: 26,
     name: '坂戸',
@@ -402,6 +428,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-27',
+    stationNumber: 'TJ-27',
     lineId: 'tojo',
     number: 27,
     name: '北坂戸',
@@ -417,6 +444,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-28',
+    stationNumber: 'TJ-28',
     lineId: 'tojo',
     number: 28,
     name: '高坂',
@@ -432,6 +460,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-29',
+    stationNumber: 'TJ-29',
     lineId: 'tojo',
     number: 29,
     name: '東松山',
@@ -447,6 +476,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-30',
+    stationNumber: 'TJ-30',
     lineId: 'tojo',
     number: 30,
     name: '森林公園',
@@ -463,6 +493,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-31',
+    stationNumber: 'TJ-31',
     lineId: 'tojo',
     number: 31,
     name: 'つきのわ',
@@ -478,6 +509,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-32',
+    stationNumber: 'TJ-32',
     lineId: 'tojo',
     number: 32,
     name: '武蔵嵐山',
@@ -493,6 +525,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-33',
+    stationNumber: 'TJ-33',
     lineId: 'tojo',
     number: 33,
     name: '小川町',
@@ -509,6 +542,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-34',
+    stationNumber: 'TJ-34',
     lineId: 'tojo',
     number: 34,
     name: '東武竹沢',
@@ -524,6 +558,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-35',
+    stationNumber: 'TJ-35',
     lineId: 'tojo',
     number: 35,
     name: 'みなみ寄居',
@@ -539,6 +574,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-36',
+    stationNumber: 'TJ-36',
     lineId: 'tojo',
     number: 36,
     name: '男衾',
@@ -554,6 +590,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-37',
+    stationNumber: 'TJ-37',
     lineId: 'tojo',
     number: 37,
     name: '鉢形',
@@ -569,6 +606,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-38',
+    stationNumber: 'TJ-38',
     lineId: 'tojo',
     number: 38,
     name: '玉淀',
@@ -584,6 +622,7 @@ export const STATIONS: Station[] = [
   },
   {
     id: 'TJ-39',
+    stationNumber: 'TJ-39',
     lineId: 'tojo',
     number: 39,
     name: '寄居',

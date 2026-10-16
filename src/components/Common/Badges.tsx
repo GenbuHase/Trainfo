@@ -259,17 +259,23 @@ const DEFAULT_BADGE_COLOR: StationBadgeColor = {
 };
 
 // 駅ナンバリングバッジ (TJ-XX, JA-XX, JM-XX, JE-XX, JC-XX, JU-XX 等のマルチライン対応)
-export const StationBadge: React.FC<{ id: string; size?: 'sm' | 'md' | 'lg' }> = ({
-  id,
-  size = 'md',
-}) => {
+export const StationBadge: React.FC<{
+  id?: string;
+  stationNumber?: string;
+  size?: 'sm' | 'md' | 'lg';
+}> = ({ id, stationNumber, size = 'md' }) => {
+  const badgeId = stationNumber || id;
+  if (!badgeId) return null;
+
   const sizeClasses = {
     sm: 'text-xs px-1.5 py-0.5 min-w-[38px]',
     md: 'text-xs px-2 py-0.5 min-w-[46px] font-bold',
     lg: 'text-sm px-2.5 py-1 min-w-[54px] font-bold',
   }[size];
 
-  const [prefix, num] = id.includes('-') ? id.split('-') : [id.slice(0, 2), id.slice(2)];
+  const [prefix, num] = badgeId.includes('-')
+    ? badgeId.split('-')
+    : [badgeId.slice(0, 2), badgeId.slice(2)];
   const badgeColor = STATION_BADGE_COLORS[prefix] || DEFAULT_BADGE_COLOR;
 
   return (
