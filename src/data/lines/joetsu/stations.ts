@@ -855,8 +855,8 @@ export const JOETSU_STATIONS: Station[] = [
     "name": "小出",
     "nameKana": "こいで",
     "nameEn": "Koide",
-    "lat": 37.2332881,
-    "lng": 138.9534902,
+    "lat": 37.2335257,
+    "lng": 138.9534583,
     "transfers": [
       "JR上越線",
       "JR只見線"

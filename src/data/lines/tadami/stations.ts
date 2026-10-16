@@ -956,14 +956,14 @@ export const TADAMI_STATIONS: Station[] = [
     "lineId": "tadami",
     "number": 36,
     "name": "小出",
-    "nameKana": "",
+    "nameKana": "こいで",
     "nameEn": "Koide",
-    "lat": 37.233581,
-    "lng": 138.953526,
+    "lat": 37.2334168,
+    "lng": 138.9539395,
     "transfers": [
       "JR上越線"
     ],
-    "address": "福島県/新潟県小出駅",
+    "address": "新潟県魚沼市四日町",
     "platforms": {
       "inbound": "上り 会津若松方面",
       "outbound": "下り 小出方面"

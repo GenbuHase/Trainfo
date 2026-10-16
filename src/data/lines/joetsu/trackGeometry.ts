@@ -10220,8 +10220,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
         138.9540248
       ],
       [
-        37.2332881,
-        138.9534902
+        37.2335257,
+        138.9534583
       ]
     ]
   },
@@ -10231,8 +10231,8 @@ export const JOETSU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JOE-30",
     "coordinates": [
       [
-        37.2332881,
-        138.9534902
+        37.2335257,
+        138.9534583
       ],
       [
         37.233944050000005,
