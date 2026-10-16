@@ -11,9 +11,9 @@ interface StationBadgeColor {
 const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   // 東武東上線
   TJ: {
-    borderColor: '#10428e',
+    borderColor: '#004098',
     prefixColor: '#ed6d00',
-    numColor: '#10428e',
+    numColor: '#004098',
   },
   // JR埼京線・JR川越線
   JA: {
@@ -65,9 +65,9 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   },
   // つくばエクスプレス (首都圏新都市鉄道)
   TX: {
-    borderColor: '#014081',
-    prefixColor: '#df0011',
-    numColor: '#014081',
+    borderColor: '#003b83',
+    prefixColor: '#d20012',
+    numColor: '#003b83',
   },
   // JR篠ノ井線
   SN: {
@@ -89,21 +89,21 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   },
   // 小田急小田原線
   OH: {
-    borderColor: '#0085ce',
-    prefixColor: '#0085ce',
-    numColor: '#004c85',
+    borderColor: '#2288cc',
+    prefixColor: '#2288cc',
+    numColor: '#005b9e',
   },
   // 小田急江ノ島線
   OE: {
-    borderColor: '#0085ce',
-    prefixColor: '#0085ce',
-    numColor: '#004c85',
+    borderColor: '#2288cc',
+    prefixColor: '#2288cc',
+    numColor: '#005b9e',
   },
   // 小田急多摩線
   OT: {
-    borderColor: '#0085ce',
-    prefixColor: '#0085ce',
-    numColor: '#004c85',
+    borderColor: '#2288cc',
+    prefixColor: '#2288cc',
+    numColor: '#005b9e',
   },
   // 東京臨海高速鉄道りんかい線
   R: {
@@ -125,9 +125,9 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   },
   // 西武池袋線・西武有楽町線・西武秩父線
   SI: {
-    borderColor: '#ee7a00',
-    prefixColor: '#ee7a00',
-    numColor: '#b86600',
+    borderColor: '#ff6600',
+    prefixColor: '#ff6600',
+    numColor: '#cc5200',
   },
   // JR八高線
   HA: {
@@ -143,27 +143,27 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   },
   // 東急東横線
   TY: {
-    borderColor: '#da0042',
-    prefixColor: '#da0042',
+    borderColor: '#da0442',
+    prefixColor: '#da0442',
     numColor: '#a80030',
   },
   // 横浜高速鉄道みなとみらい線
   MM: {
-    borderColor: '#1a55a1',
-    prefixColor: '#1a55a1',
-    numColor: '#103d77',
+    borderColor: '#09357f',
+    prefixColor: '#09357f',
+    numColor: '#052254',
   },
   // 東急新横浜線
   SH: {
-    borderColor: '#890d84',
-    prefixColor: '#890d84',
+    borderColor: '#8a1186',
+    prefixColor: '#8a1186',
     numColor: '#5c0859',
   },
   // 相模鉄道 (相鉄本線・いずみ野線・新横浜線)
   SO: {
-    borderColor: '#0073bc',
-    prefixColor: '#0073bc',
-    numColor: '#00558a',
+    borderColor: '#041452',
+    prefixColor: '#041452',
+    numColor: '#020b2b',
   },
   // 東京メトロ千代田線
   C: {
@@ -197,9 +197,9 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   },
   // JR東北新幹線
   TS: {
-    borderColor: '#029849',
-    prefixColor: '#029849',
-    numColor: '#006631',
+    borderColor: '#41934c',
+    prefixColor: '#41934c',
+    numColor: '#2b6333',
   },
   // JR上越新幹線
   JOS: {
@@ -209,33 +209,33 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   },
   // JR東海道線・JR伊東線
   JT: {
-    borderColor: '#f68b1e',
-    prefixColor: '#f68b1e',
-    numColor: '#b85d00',
+    borderColor: '#ff9845',
+    prefixColor: '#ff9845',
+    numColor: '#cc6600',
   },
   // JR横須賀線・JR総武快速線
   JO: {
-    borderColor: '#007ac0',
-    prefixColor: '#007ac0',
+    borderColor: '#0074be',
+    prefixColor: '#0074be',
     numColor: '#00558a',
   },
   // JR高崎線
   TK: {
-    borderColor: '#f68b1e',
-    prefixColor: '#f68b1e',
-    numColor: '#b85d00',
+    borderColor: '#ff9845',
+    prefixColor: '#ff9845',
+    numColor: '#cc6600',
   },
   // JR上野東京ライン
   UT: {
-    borderColor: '#8b5a2b',
-    prefixColor: '#8b5a2b',
-    numColor: '#5c3818',
+    borderColor: '#8f0079',
+    prefixColor: '#8f0079',
+    numColor: '#630054',
   },
   // JR東海 東海道本線
   CA: {
-    borderColor: '#f68b1e',
-    prefixColor: '#f68b1e',
-    numColor: '#b85d00',
+    borderColor: '#ff7322',
+    prefixColor: '#ff7322',
+    numColor: '#cc5200',
   },
   // JR両毛線
   RY: {
@@ -245,9 +245,9 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   },
   // JR上越線
   JOE: {
-    borderColor: '#00a0de',
-    prefixColor: '#00a0de',
-    numColor: '#006f9c',
+    borderColor: '#00b3e6',
+    prefixColor: '#00b3e6',
+    numColor: '#007ca0',
   },
 };
 

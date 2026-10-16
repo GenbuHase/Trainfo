@@ -8,7 +8,7 @@ export const seibuYurakuchoLine: LineDefinition = {
   name: '西武有楽町線',
   shortName: '西武有楽町線',
   operator: '西武鉄道',
-  lineColor: '#ee7a00', // 西武オレンジ
+  lineColor: '#ff6600', // 西武オレンジ
   accentColor: '#003a8c', // 西武ブルー
   defaultCars: 10,
   defaultBounds: [

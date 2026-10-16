@@ -8,8 +8,8 @@ export const takasakiLine: LineDefinition = {
   name: 'JR高崎線',
   shortName: '高崎線',
   operator: 'JR東日本',
-  lineColor: '#f68b1e',
-  accentColor: '#f68b1e',
+  lineColor: '#ff9845',
+  accentColor: '#ff9845',
   defaultCars: 15,
   defaultBounds: [[35.71, 139.77], [36.33, 139.02]],
   directionNames: {

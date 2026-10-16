@@ -8,8 +8,8 @@ export const sotetsuMainLine: LineDefinition = {
   name: '相鉄本線',
   shortName: '相鉄線',
   operator: '相模鉄道',
-  lineColor: '#0073bc', // YOKOHAMA NAVYBLUE
-  accentColor: '#008cd6',
+  lineColor: '#041452', // YOKOHAMA NAVYBLUE
+  accentColor: '#0073bc',
   defaultCars: 10,
   defaultBounds: [
     [35.440, 139.380], // 海老名周辺

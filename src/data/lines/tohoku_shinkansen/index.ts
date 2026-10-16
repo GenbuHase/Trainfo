@@ -8,7 +8,7 @@ export const tohokuShinkansenLine: LineDefinition = {
   name: 'JR東北新幹線',
   shortName: '東北新幹線',
   operator: 'JR東日本',
-  lineColor: '#029849',
+  lineColor: '#41934c',
   accentColor: '#e4007f',
   defaultCars: 10,
   defaultBounds: [

@@ -9,7 +9,7 @@ export const jobanLocalLine: LineDefinition = {
   shortName: '常磐線各停',
   operator: 'JR東日本',
   lineColor: '#9e9e9f', // 常磐線各駅停車（JLナンバリングカラー。駅案内: #00c18a）
-  accentColor: '#9e9e9f',
+  accentColor: '#00c18a',
   defaultCars: 10,
   defaultBounds: [
     [35.750, 139.810], // 綾瀬周辺

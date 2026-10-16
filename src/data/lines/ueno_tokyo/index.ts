@@ -8,8 +8,8 @@ export const uenoTokyoLine: LineDefinition = {
   name: 'JR上野東京ライン',
   shortName: '上野東京ライン',
   operator: 'JR東日本',
-  lineColor: '#8b5a2b',
-  accentColor: '#8b5a2b',
+  lineColor: '#8f0079',
+  accentColor: '#ff871c',
   defaultCars: 15,
   defaultBounds: [
     [35.675, 139.760],

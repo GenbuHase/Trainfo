@@ -8,8 +8,8 @@ export const shonanShinjukuLine: LineDefinition = {
   name: 'JR湘南新宿ライン',
   shortName: '湘南新宿ライン',
   operator: 'JR東日本',
-  lineColor: '#e25822',
-  accentColor: '#e25822',
+  lineColor: '#de0515',
+  accentColor: '#ff871c',
   defaultCars: 15,
   defaultBounds: [[35.35,139.53],[35.91,139.63]],
   directionNames: {

@@ -8,8 +8,8 @@ export const itoLine: LineDefinition = {
   name: 'JR伊東線',
   shortName: '伊東線',
   operator: 'JR東日本',
-  lineColor: '#f68b1e',
-  accentColor: '#f68b1e',
+  lineColor: '#378640',
+  accentColor: '#ff871c',
   defaultCars: 6,
   defaultBounds: [[34.96,139.08],[35.11,139.085]],
   directionNames: {

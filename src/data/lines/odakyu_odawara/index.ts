@@ -8,7 +8,7 @@ export const odakyuOdawaraLine: LineDefinition = {
   name: '小田急小田原線',
   shortName: '小田原線',
   operator: '小田急電鉄',
-  lineColor: '#0085ce',
+  lineColor: '#2288cc',
   accentColor: '#0065af',
   defaultCars: 10,
   stations: ODAKYU_ODAWARA_STATIONS,

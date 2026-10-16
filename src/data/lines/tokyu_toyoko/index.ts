@@ -8,7 +8,7 @@ export const tokyuToyokoLine: LineDefinition = {
   name: '東急東横線',
   shortName: '東横線',
   operator: '東急電鉄',
-  lineColor: '#da0042', // 東横線レッド
+  lineColor: '#da0442', // 東横線レッド
   accentColor: '#ea5504', // 特急オレンジ
   defaultCars: 8,
   defaultBounds: [
