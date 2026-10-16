@@ -7,9 +7,9 @@ export const OITO_EAST_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "name": "普通",
     "nameEn": "Local",
     "shortName": "普通",
-    "color": "#8a579e",
+    "color": "#957490",
     "textColor": "#ffffff",
-    "bgColor": "#8a579e",
+    "bgColor": "#957490",
     "borderColor": "#734185"
   },
   "rapid": {
