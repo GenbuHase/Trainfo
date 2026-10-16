@@ -586,14 +586,14 @@ export const SHINETSU_STATIONS: Station[] = [
     "lineId": "shinetsu",
     "number": 22,
     "name": "宮内",
-    "nameKana": "",
-    "nameEn": "宮内",
-    "lat": 37.422223,
-    "lng": 138.840204,
+    "nameKana": "みやうち",
+    "nameEn": "Miyauchi",
+    "lat": 37.4228265,
+    "lng": 138.840411,
     "transfers": [
       "JR上越線"
     ],
-    "address": "新潟県宮内駅",
+    "address": "新潟県長岡市宮内三丁目",
     "platforms": {
       "inbound": "上り 直江津方面",
       "outbound": "下り 新潟方面"
