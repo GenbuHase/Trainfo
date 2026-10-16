@@ -2,63 +2,19 @@ import type { Station } from '../../../types';
 
 export const TAKASAKI_STATIONS: Station[] = [
   {
-    "id": "TK-01",
-    "lineId": "takasaki",
-    "number": 1,
-    "name": "東京",
-    "nameKana": "とうきょう",
-    "nameEn": "Tokyo",
-    "lat": 35.6811274,
-    "lng": 139.7671827,
-    "transfers": [
-      "JR山手線",
-      "JR京浜東北線",
-      "JR中央線",
-      "JR東海道線",
-      "JR横須賀線",
-      "JR総武快速線",
-      "JR京葉線",
-      "東北新幹線",
-      "上越新幹線",
-      "北陸新幹線",
-      "東海道新幹線",
-      "東京メトロ丸ノ内線"
-    ],
-    "address": "東京都千代田区丸の内一丁目",
-    "platforms": {
-      "inbound": "上りホーム",
-      "outbound": "下りホーム"
-    },
-    "stoppingTypes": [
-      "local",
-      "rapid",
-      "rapid_urban",
-      "commuter_rapid",
-      "limitedExp"
-    ],
-    "isMajor": true,
-    "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
-    }
-  },
-  {
     "id": "TK-02",
     "lineId": "takasaki",
-    "number": 2,
+    "number": 1,
     "name": "上野",
     "nameKana": "うえの",
     "nameEn": "Ueno",
     "lat": 35.7134394,
     "lng": 139.7764768,
     "transfers": [
+      "JR上野東京ライン",
       "JR山手線",
       "JR京浜東北線",
       "JR宇都宮線",
-      "JR高崎線",
       "JR常磐線快速",
       "東北新幹線",
       "上越新幹線",
@@ -91,7 +47,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-03",
     "lineId": "takasaki",
-    "number": 3,
+    "number": 2,
     "name": "尾久",
     "nameKana": "おく",
     "nameEn": "Oku",
@@ -121,7 +77,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-04",
     "lineId": "takasaki",
-    "number": 4,
+    "number": 3,
     "name": "赤羽",
     "nameKana": "あかばね",
     "nameEn": "Akabane",
@@ -158,7 +114,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-05",
     "lineId": "takasaki",
-    "number": 5,
+    "number": 4,
     "name": "浦和",
     "nameKana": "うらわ",
     "nameEn": "Urawa",
@@ -194,7 +150,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-06",
     "lineId": "takasaki",
-    "number": 6,
+    "number": 5,
     "name": "さいたま新都心",
     "nameKana": "さいたましんとしん",
     "nameEn": "Saitama-Shintoshin",
@@ -225,7 +181,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-07",
     "lineId": "takasaki",
-    "number": 7,
+    "number": 6,
     "name": "大宮",
     "nameKana": "おおみや",
     "nameEn": "Omiya",
@@ -269,7 +225,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-08",
     "lineId": "takasaki",
-    "number": 8,
+    "number": 7,
     "name": "宮原",
     "nameKana": "みやはら",
     "nameEn": "Miyahara",
@@ -298,7 +254,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-09",
     "lineId": "takasaki",
-    "number": 9,
+    "number": 8,
     "name": "上尾",
     "nameKana": "あげお",
     "nameEn": "Ageo",
@@ -331,7 +287,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-10",
     "lineId": "takasaki",
-    "number": 10,
+    "number": 9,
     "name": "北上尾",
     "nameKana": "きたあげお",
     "nameEn": "Kita-Ageo",
@@ -360,7 +316,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-11",
     "lineId": "takasaki",
-    "number": 11,
+    "number": 10,
     "name": "桶川",
     "nameKana": "おけがわ",
     "nameEn": "Okegawa",
@@ -393,7 +349,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-12",
     "lineId": "takasaki",
-    "number": 12,
+    "number": 11,
     "name": "北本",
     "nameKana": "きたもと",
     "nameEn": "Kitamoto",
@@ -422,7 +378,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-13",
     "lineId": "takasaki",
-    "number": 13,
+    "number": 12,
     "name": "鴻巣",
     "nameKana": "こうのす",
     "nameEn": "Konosu",
@@ -455,7 +411,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-14",
     "lineId": "takasaki",
-    "number": 14,
+    "number": 13,
     "name": "北鴻巣",
     "nameKana": "きたこうのす",
     "nameEn": "Kita-Konosu",
@@ -484,7 +440,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-15",
     "lineId": "takasaki",
-    "number": 15,
+    "number": 14,
     "name": "吹上",
     "nameKana": "ふきあげ",
     "nameEn": "Fukiage",
@@ -513,7 +469,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-16",
     "lineId": "takasaki",
-    "number": 16,
+    "number": 15,
     "name": "行田",
     "nameKana": "ぎょうだ",
     "nameEn": "Gyoda",
@@ -542,7 +498,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-17",
     "lineId": "takasaki",
-    "number": 17,
+    "number": 16,
     "name": "熊谷",
     "nameKana": "くまがや",
     "nameEn": "Kumagaya",
@@ -578,7 +534,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-18",
     "lineId": "takasaki",
-    "number": 18,
+    "number": 17,
     "name": "籠原",
     "nameKana": "かごはら",
     "nameEn": "Kagohara",
@@ -610,7 +566,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-19",
     "lineId": "takasaki",
-    "number": 19,
+    "number": 18,
     "name": "深谷",
     "nameKana": "ふかや",
     "nameEn": "Fukaya",
@@ -643,7 +599,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-20",
     "lineId": "takasaki",
-    "number": 20,
+    "number": 19,
     "name": "岡部",
     "nameKana": "おかべ",
     "nameEn": "Okabe",
@@ -675,7 +631,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-21",
     "lineId": "takasaki",
-    "number": 21,
+    "number": 20,
     "name": "本庄",
     "nameKana": "ほんじょう",
     "nameEn": "Honjo",
@@ -708,7 +664,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-22",
     "lineId": "takasaki",
-    "number": 22,
+    "number": 21,
     "name": "神保原",
     "nameKana": "じんぼはら",
     "nameEn": "Jimbohara",
@@ -740,7 +696,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-23",
     "lineId": "takasaki",
-    "number": 23,
+    "number": 22,
     "name": "新町",
     "nameKana": "しんまち",
     "nameEn": "Shim-Machi",
@@ -772,7 +728,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-24",
     "lineId": "takasaki",
-    "number": 24,
+    "number": 23,
     "name": "倉賀野",
     "nameKana": "くらがの",
     "nameEn": "Kuragano",
@@ -805,7 +761,7 @@ export const TAKASAKI_STATIONS: Station[] = [
   {
     "id": "TK-25",
     "lineId": "takasaki",
-    "number": 25,
+    "number": 24,
     "name": "高崎",
     "nameKana": "たかさき",
     "nameEn": "Takasaki",

@@ -409,6 +409,14 @@ function linkPair({
       bestB.prevTripId = tA.tripId;
       bestB.prevLineId = lineAId;
 
+      // 公式列車番号の相互補完（片方が公式列車番号を持っていて他方が数字IDのみの場合）
+      const isOfficial = (no) => no && !/^\d+$/.test(no);
+      if (isOfficial(tA.trainNumber) && !isOfficial(bestB.trainNumber)) {
+        bestB.trainNumber = tA.trainNumber;
+      } else if (isOfficial(bestB.trainNumber) && !isOfficial(tA.trainNumber)) {
+        tA.trainNumber = bestB.trainNumber;
+      }
+
       // 【必須】境界駅でのシームレス時刻同期 (空白時間による列車消失の完全防止)
       const stopB = allowMidStationB
         ? bestB.stops.find((s) => s.stationId === stationBId)

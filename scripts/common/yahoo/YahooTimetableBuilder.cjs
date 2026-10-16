@@ -206,7 +206,47 @@ class YahooTimetableBuilder {
 
     // 長さが2以上の最長セグメントを自社線区間として採用
     // （例: 森林公園〜和光市の15駅と、副都心線池袋の1駅の場合、15駅側を採用）
-    const validSegments = segments.filter(seg => seg.length >= 2);
+    let validSegments = segments.filter(seg => seg.length >= 2);
+
+    // 【1駅停車直通列車の救出】自社線区間に1駅のみ停車し、他線へ直通通過する列車（常磐線特急ひたち号等）の救出
+    if (validSegments.length === 0 && segments.length > 0 && this.config.singleStopRescueRules) {
+      for (const rule of this.config.singleStopRescueRules) {
+        const singleSeg = segments.find(s => s.length === 1 && s[0].station.id === rule.singleStationId);
+        if (singleSeg) {
+          const singleStop = singleSeg[0];
+          const boundarySt = this.stById.get(rule.boundaryStationId);
+          if (!boundarySt) continue;
+
+          // 直通先駅が stopStation に含まれているか判定
+          const throughStopIndex = stopStation.findIndex(s => rule.throughStations.includes(s.stationName));
+          const singleIndex = stopStation.findIndex(s => s.stationName === singleStop.station.name);
+
+          if (throughStopIndex !== -1 && singleIndex !== -1) {
+            const isOutbound = throughStopIndex > singleIndex;
+            const diffSec = rule.estimatedSectionSeconds || 1500;
+            const boundarySec = isOutbound
+              ? (singleStop.depSec || singleStop.arrSec) + diffSec
+              : (singleStop.arrSec || singleStop.depSec) - diffSec;
+
+            const boundaryStopObj = {
+              station: boundarySt,
+              arrSec: boundarySec,
+              depSec: boundarySec,
+              rawStop: { stationName: boundarySt.name },
+              isPassing: true,
+            };
+
+            const rescuedStops = isOutbound
+              ? [singleStop, boundaryStopObj]
+              : [boundaryStopObj, singleStop];
+
+            validSegments = [rescuedStops];
+            break;
+          }
+        }
+      }
+    }
+
     if (validSegments.length === 0) {
       return null;
     }
@@ -389,7 +429,7 @@ class YahooTimetableBuilder {
       if (dep === null && arr !== null) dep = arr;
 
       if (arr !== null && dep !== null) {
-        knownMap.set(cur.station.number, { arrSec: arr, depSec: dep });
+        knownMap.set(cur.station.number, { arrSec: arr, depSec: dep, isPassing: Boolean(cur.isPassing) });
       }
     }
 
@@ -407,17 +447,17 @@ class YahooTimetableBuilder {
 
       const isOrigin = num === startNum;
       const isDest = num === endNum;
-      const isStopping = knownMap.has(num);
+      const knownEntry = knownMap.get(num);
+      const isStopping = knownEntry && !knownEntry.isPassing;
 
       let finalArrSec;
       let finalDepSec;
 
-      if (isStopping) {
-        const known = knownMap.get(num);
-        finalArrSec = known.arrSec;
-        finalDepSec = known.depSec;
+      if (knownEntry) {
+        finalArrSec = knownEntry.arrSec;
+        finalDepSec = knownEntry.depSec;
       } else {
-        // 通過駅の秒補間: 直前の既知停車駅と直後の既知停車駅を探索
+        // 通過駅の秒補間: 直前の既知駅と直後の既知駅を探索
         let prevIdx = i - 1;
         while (prevIdx >= 0 && !knownMap.has(allNums[prevIdx])) {
           prevIdx--;
@@ -464,7 +504,7 @@ class YahooTimetableBuilder {
 
     // 安全策1: 自社線区間内で通過駅が1駅も存在しない（全駅停車）場合、自社線内では普通/各停として運行
     // （他社線直通区間での種別「特急」「急行」の自社線各停区間への誤適用を防止。ただし特急・普通や指定種別は保持）
-    const preserveTypes = new Set(['limitedExp', 'regular', ...(this.config.preserveAllStopsTypes || [])]);
+    const preserveTypes = new Set(['limitedExp', 'limited_express', 'regular', ...(this.config.preserveAllStopsTypes || [])]);
     if (!hasPassingStop && trainType !== 'local' && !preserveTypes.has(trainType)) {
       trainType = this.config.defaultTrainType || 'local';
     }
@@ -604,12 +644,13 @@ class YahooTimetableBuilder {
           t: trip.trainType,
           d: destName,
           no: trip.trainNumber,
+          tripId: trip.tripId,
         };
 
         if (store[dayKey][stop.stationId]) {
-          // 重複チェック（同一列車番号・同一発車時刻の重複防止）
+          // 重複チェック（同一tripId、または同一列車番号・同一発車時刻の重複防止）
           const existing = store[dayKey][stop.stationId][dir];
-          if (!existing.some(e => e.no === entry.no && e.sec === entry.sec)) {
+          if (!existing.some(e => (entry.tripId && e.tripId === entry.tripId) || (e.no === entry.no && e.sec === entry.sec))) {
             existing.push(entry);
           }
         }

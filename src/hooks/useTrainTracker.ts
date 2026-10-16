@@ -4,7 +4,6 @@ import { STATION_MAP } from '../data/stations';
 import {
   formatTrainNumber,
   getThroughChainTrips,
-  getThroughChainTripIds,
   timeStringToSeconds,
 } from '../data/timetableData';
 
@@ -57,12 +56,23 @@ export function useTrainTracker({
     // 現在選択されている tripId が activeTrains 内に直接存在するか確認
     const found = activeTrains.find((t) => t.tripId === selectedTrainId);
     if (found) {
-      // 境界駅に到着した直通列車で、後続トリップが既に停車・運行中の場合は直ちに後続トリップへハンドオーバー
+      // 境界駅に到着・接近した直通列車で、後続トリップが既に停車・運行中の場合は直ちに後続トリップへハンドオーバー
       if (found.throughTripId) {
-        const isFoundEnding = found.stops[found.stops.length - 1]?.stationId === found.currentStationId;
-        if (isFoundEnding) {
-          const successor = activeTrains.find((t) => t.tripId === found.throughTripId);
-          if (successor) {
+        const lastStop = found.stops[found.stops.length - 1];
+        const isAtLastStop = lastStop?.stationId === found.currentStationId;
+        // 特急等の通過駅の場合: 最後の駅に向かって走行中（nextStationIdが最後の駅）または通過駅にいる
+        const isApproachingOrPassingLastStop =
+          Boolean(lastStop?.isPassing) &&
+          (found.nextStationId === lastStop?.stationId || found.currentStationId === lastStop?.stationId);
+
+        const successor = activeTrains.find((t) => t.tripId === found.throughTripId);
+        if (successor) {
+          // 先行列車が終着駅に到着/通過中、または後続列車が既に運行開始している場合
+          const isSuccessorRunning =
+            successor.currentStationId !== successor.stops[0]?.stationId ||
+            (successor.status === 'RUNNING' && successor.progressPercent > 0);
+
+          if (isAtLastStop || isApproachingOrPassingLastStop || isSuccessorRunning) {
             const foundOrigin = found.customOrigin || STATION_MAP.get(found.originStationId)?.name;
             if (
               foundOrigin &&
@@ -104,9 +114,18 @@ export function useTrainTracker({
 
     // 2. 直通運行チェーン全体（祖先・子孫を含む全トリップ）を網羅探索
     // 終点到着後の巻き戻しや、境界跨ぎ、早送りなど、同一列車チェーンのいずれかが走行中であれば正確に追尾を継続
-    const chainTripIds = getThroughChainTripIds(selectedTrainId);
-    const chainActive = activeTrains.find((t) => chainTripIds.has(t.tripId));
-    if (chainActive) {
+    const chainTrips = getThroughChainTrips(selectedTrainId);
+    const chainTripIds = new Set(chainTrips.map((t) => t.tripId));
+    const chainActiveCandidates = activeTrains.filter((t) => chainTripIds.has(t.tripId));
+    if (chainActiveCandidates.length > 0) {
+      // chainTrips は時系列順。複数候補がある場合はより進行方向（後続トリップ）を優先
+      chainActiveCandidates.sort((a, b) => {
+        const idxA = chainTrips.findIndex((ct) => ct.tripId === a.tripId);
+        const idxB = chainTrips.findIndex((ct) => ct.tripId === b.tripId);
+        return idxB - idxA;
+      });
+      const chainActive = chainActiveCandidates[0];
+
       const prev = lastSelectedTrainRef.current;
       if (prev) {
         const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;

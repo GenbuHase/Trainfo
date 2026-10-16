@@ -8007,7 +8007,7 @@
     ],
     "trainId": "105800",
     "customOrigin": "日吉",
-    "throughTripId": "WD_OUT_MM-01_0719_105811",
+    "throughTripId": "WD_OUT_MM-01_0722_105800",
     "throughLineId": "minatomirai"
   },
   {
@@ -70205,7 +70205,7 @@
   {
     "tripId": "WD_INB_TY-21_2015_105758",
     "lineId": "tokyu_toyoko",
-    "trainNumber": "713-202レ",
+    "trainNumber": "031-202レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "TY-21",
@@ -70217,14 +70217,14 @@
     "stops": [
       {
         "stationId": "TY-21",
-        "arrivalTime": "20:17:00",
-        "departureTime": "20:17:00",
+        "arrivalTime": "20:13:00",
+        "departureTime": "20:15:00",
         "isPassing": false
       },
       {
         "stationId": "TY-20",
-        "arrivalTime": "20:17:00",
-        "departureTime": "20:17:00",
+        "arrivalTime": "20:16:00",
+        "departureTime": "20:16:00",
         "isPassing": true
       },
       {
@@ -70344,9 +70344,7 @@
     ],
     "trainId": "105758",
     "throughTripId": "WD_INB_F-16_2047_105758",
-    "throughLineId": "fukutoshin",
-    "prevTripId": "WD_INB_MM-06_2008_105991",
-    "prevLineId": "minatomirai"
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_OUT_TY-01_2015_115295",
@@ -70780,7 +70778,9 @@
     ],
     "trainId": "105665",
     "throughTripId": "WD_INB_F-16_2105_105665",
-    "throughLineId": "fukutoshin"
+    "throughLineId": "fukutoshin",
+    "prevTripId": "WD_INB_MM-06_2008_105991",
+    "prevLineId": "minatomirai"
   },
   {
     "tripId": "WD_OUT_TY-01_2020_145140",

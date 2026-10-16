@@ -186,7 +186,7 @@ export function getStationDepartures(
       const depTime = `${d.h.toString().padStart(2, '0')}:${d.m.toString().padStart(2, '0')}:00`;
 
       return {
-        tripId: `DEP_${stationId}_${direction}_${d.h}_${d.m}_${idx}`,
+        tripId: d.tripId || `DEP_${stationId}_${direction}_${d.h}_${d.m}_${idx}`,
         lineId: finalLineId,
         trainNumber: d.no,
         trainType: d.t,

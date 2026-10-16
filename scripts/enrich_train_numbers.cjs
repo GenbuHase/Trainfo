@@ -2174,6 +2174,130 @@ if (target === 'tohoku_shinkansen' || target === 'shinkansen' || target === 'jr'
 if (target === 'joetsu_shinkansen' || target === 'shinkansen' || target === 'jr' || target === 'all') {
   enrichJoetsuShinkansen();
 }
+if (target === 'ueno_tokyo' || target === 'jr' || target === 'all') {
+  enrichGenericLine('ueno_tokyo', 'JR上野東京ライン');
+}
+if (target === 'tokaido' || target === 'jr' || target === 'all') {
+  enrichGenericLine('tokaido', 'JR東海道線');
+}
+if (target === 'utsunomiya' || target === 'jr' || target === 'all') {
+  enrichGenericLine('utsunomiya', 'JR宇都宮線');
+}
+if (target === 'takasaki' || target === 'jr' || target === 'all') {
+  enrichGenericLine('takasaki', 'JR高崎線');
+}
+if (target === 'shonan_shinjuku' || target === 'jr' || target === 'all') {
+  enrichGenericLine('shonan_shinjuku', 'JR湘南新宿ライン');
+}
+if (target === 'sobu_rapid' || target === 'jr' || target === 'all') {
+  enrichGenericLine('sobu_rapid', 'JR総武快速線');
+}
+if (target === 'yokosuka' || target === 'jr' || target === 'all') {
+  enrichGenericLine('yokosuka', 'JR横須賀線');
+}
+if (target === 'ito' || target === 'jr' || target === 'all') {
+  enrichGenericLine('ito', 'JR伊東線');
+}
+if (target === 'ryomo' || target === 'jr' || target === 'all') {
+  enrichGenericLine('ryomo', 'JR両毛線');
+}
+if (target === 'joetsu' || target === 'jr' || target === 'all') {
+  enrichGenericLine('joetsu', 'JR上越線');
+}
+if (target === 'tokaido_shizuoka' || target === 'jr' || target === 'all') {
+  enrichGenericLine('tokaido_shizuoka', 'JR東海道線（静岡地区）');
+}
+
+/**
+ * Yahoo駅時刻表キャッシュ（stations/*.json）からの汎用公式列車番号エンリッチメント
+ */
+function enrichGenericLine(lineId, lineName) {
+  console.log(`=== ${lineName} 公式列車番号エンリッチメント開始 ===`);
+
+  const globalPath = path.resolve(`src/data/lines/${lineId}/globalTimetable.json`);
+  const stationPath = path.resolve(`src/data/lines/${lineId}/stationTimetables.json`);
+  const cacheDir = path.resolve(`scripts/cache/yahoo/${lineId}/stations`);
+
+  if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
+    console.warn(`必要なデータファイルが見つかりません: ${lineName}`);
+    return;
+  }
+
+  const files = fs.readdirSync(cacheDir).filter(f => f.endsWith('.json'));
+  const trainMap = new Map(); // `${dayKey}_${trainId}` -> vendorTrainId
+  for (const f of files) {
+    const isHoliday = f.includes('_k4');
+    const dayKey = isHoliday ? 'holiday' : 'weekday';
+    const data = JSON.parse(fs.readFileSync(path.join(cacheDir, f), 'utf8'));
+    const tt = data?.timetableItem;
+    for (const h of tt?.hourTimeTable || []) {
+      for (const t of h.minTimeTable || []) {
+        if (t.trainId && t.vendorTrainId) {
+          const key = `${dayKey}_${t.trainId}`;
+          if (!trainMap.has(key)) {
+            trainMap.set(key, t.vendorTrainId);
+          }
+        }
+      }
+    }
+  }
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const stationTimetables = fs.existsSync(stationPath)
+    ? JSON.parse(fs.readFileSync(stationPath, 'utf8'))
+    : null;
+
+  let matchedCount = 0;
+  let fallbackCount = 0;
+  const trainIdToOfficialNo = new Map();
+
+  for (const trip of trips) {
+    const originalId = trip.trainId || trip.trainNumber;
+    trip.trainId = originalId;
+
+    const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+    const key = `${dayKey}_${originalId}`;
+
+    if (trainMap.has(key)) {
+      const vendorNo = trainMap.get(key);
+      trip.trainNumber = normalizeTrainNumber(vendorNo);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+      matchedCount++;
+    } else {
+      fallbackCount++;
+      trip.trainNumber = originalId;
+      trainIdToOfficialNo.set(originalId, originalId);
+    }
+  }
+
+  console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
+  console.log(`  公式列車番号突合: ${matchedCount} 便`);
+  console.log(`  未突合(フォールバック): ${fallbackCount} 便`);
+  safeWriteJson(globalPath, trips);
+
+  if (stationTimetables) {
+    let stUpdatedCount = 0;
+    for (const day of ['weekday', 'holiday']) {
+      const dayData = stationTimetables[day] || {};
+      for (const stId of Object.keys(dayData)) {
+        for (const dir of ['inbound', 'outbound']) {
+          const deps = dayData[stId]?.[dir] || [];
+          for (const dep of deps) {
+            const lookupId = dep.trainId || dep.no;
+            if (lookupId && trainIdToOfficialNo.has(lookupId)) {
+              dep.trainId = lookupId;
+              dep.no = trainIdToOfficialNo.get(lookupId);
+              stUpdatedCount++;
+            }
+          }
+        }
+      }
+    }
+    safeWriteJson(stationPath, stationTimetables);
+    console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
+  }
+  console.log(`✅ ${lineName} の globalTimetable.json および stationTimetables.json を正常に更新しました！\n`);
+}
 
 
 /**

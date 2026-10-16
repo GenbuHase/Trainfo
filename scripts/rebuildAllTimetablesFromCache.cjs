@@ -87,4 +87,4 @@ execSync('npx tsx scripts/integrate_strain.cjs', { stdio: 'inherit' });
 console.log('\n=== [Step 4] 汎用直通リンカー実行 (シームレス同期 & End-to-End行先解決) ===');
 execSync('node scripts/runThroughLinker.cjs', { stdio: 'inherit' });
 
-console.log('\n🌟🎉 全29路線の時刻表再生成・列車番号エンリッチ・直通リンクがすべて完璧に完了しました！ 🎉🌟\n');
+console.log('\n🌟🎉 全路線の時刻表再生成・列車番号エンリッチ・直通リンク・駅時刻表再集約がすべて完璧に完了しました！ 🎉🌟\n');

@@ -86,20 +86,10 @@ const LINE_SPECS = {
   ueno_tokyo: {
     name: 'JR上野東京ライン',
     defaultCars: 15,
-    getGroupIds: (name, isFirst, isLast) => {
-      if (isFirst) return { inGroupId: null, outGroupId: '600' }; // 大宮
-      if (isLast) return { inGroupId: '1170', outGroupId: null };  // 大船
-      if (['さいたま新都心', '浦和', '赤羽', '尾久'].includes(name)) {
-        return { inGroupId: '601', outGroupId: '600' };
-      }
-      if (name === '上野') {
-        return { inGroupId: '601', outGroupId: '7911' };
-      }
-      if (name === '東京') {
-        return { inGroupId: '7910', outGroupId: '1171' };
-      }
-      // 新橋〜戸塚
-      return { inGroupId: '1170', outGroupId: '1171' };
+    getGroupIds: (name) => {
+      if (name === '東京') return { inGroupId: null, outGroupId: '7910' };
+      if (name === '上野') return { inGroupId: '7911', outGroupId: null };
+      return { inGroupId: null, outGroupId: null };
     },
   },
 };

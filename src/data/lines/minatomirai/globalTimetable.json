@@ -3097,7 +3097,7 @@
   {
     "tripId": "WD_OUT_MM-01_0719_105811",
     "lineId": "minatomirai",
-    "trainNumber": "060-061レ",
+    "trainNumber": "019-061レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "MM-01",
@@ -3108,8 +3108,8 @@
     "stops": [
       {
         "stationId": "MM-01",
-        "arrivalTime": "07:20:00",
-        "departureTime": "07:20:00",
+        "arrivalTime": "07:18:00",
+        "departureTime": "07:19:00",
         "isPassing": false
       },
       {
@@ -3143,10 +3143,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "105811",
-    "customDestination": "元町・中華街",
-    "prevTripId": "WD_OUT_TY-13_0707_105800",
-    "prevLineId": "tokyu_toyoko"
+    "trainId": "105811"
   },
   {
     "tripId": "WD_INB_MM-06_0719_105875",
@@ -3305,7 +3302,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "105800"
+    "trainId": "105800",
+    "customDestination": "元町・中華街",
+    "prevTripId": "WD_OUT_TY-13_0707_105800",
+    "prevLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_OUT_MM-01_0724_75443",
@@ -24285,7 +24285,7 @@
     "direction": "inbound",
     "originStationId": "MM-06",
     "destinationStationId": "MM-01",
-    "customDestination": "清瀬",
+    "customDestination": "和光市",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -24328,7 +24328,7 @@
     ],
     "trainId": "105991",
     "customOrigin": "元町・中華街",
-    "throughTripId": "WD_INB_TY-21_2015_105758",
+    "throughTripId": "WD_INB_TY-21_2018_105665",
     "throughLineId": "tokyu_toyoko"
   },
   {
