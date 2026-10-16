@@ -811,6 +811,54 @@ module.exports = {
       maxTimeDiff: 1200,
       requireIdMatch: true,
     },
+
+    // 34. JR磐越西線 ↔ JR信越本線 (新津駅)
+    {
+      name: '磐越西線 -> 信越本線 (会津若松・五泉発・新津経由・新潟方面直通)',
+      lineA: 'banetsu_west',
+      lineB: 'shinetsu',
+      stationA: 'BW-42',
+      stationB: 'SE-37',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 1800,
+      requireIdMatch: true,
+    },
+    {
+      name: '信越本線 -> 磐越西線 (新潟発・新津経由・五泉・会津若松方面直通)',
+      lineA: 'shinetsu',
+      lineB: 'banetsu_west',
+      stationA: 'SE-37',
+      stationB: 'BW-42',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 1800,
+      requireIdMatch: true,
+    },
+
+    // 35. JR上越線 ↔ JR信越本線 (宮内駅)
+    {
+      name: '上越線 -> 信越本線 (水上・越後湯沢発・宮内経由・長岡・新潟方面直通)',
+      lineA: 'joetsu',
+      lineB: 'shinetsu',
+      stationA: 'JOE-35',
+      stationB: 'SE-22',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 1800,
+      requireIdMatch: true,
+    },
+    {
+      name: '信越本線 -> 上越線 (長岡発・宮内経由・越後湯沢・水上方面直通)',
+      lineA: 'shinetsu',
+      lineB: 'joetsu',
+      stationA: 'SE-22',
+      stationB: 'JOE-35',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 1800,
+      requireIdMatch: true,
+    },
   ],
 };
 

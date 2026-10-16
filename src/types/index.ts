@@ -49,6 +49,10 @@ export type LineId =
   | 'ito'
   | 'ryomo'
   | 'joetsu'
+  | 'shinetsu'
+  | 'tadami'
+  | 'banetsu_west'
+  | 'banetsu_east'
   | (string & {});
 
 

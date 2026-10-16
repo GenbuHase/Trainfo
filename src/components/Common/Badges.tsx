@@ -39,12 +39,6 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#eb5c01',
     numColor: '#b83b00',
   },
-  // JR中央本線 (大月〜小淵沢)
-  CO: {
-    borderColor: '#0071c5',
-    prefixColor: '#0071c5',
-    numColor: '#005bac',
-  },
   // JR宇都宮線・高崎線 (大宮地上ホーム)
   JU: {
     borderColor: '#f68b1e',
@@ -68,24 +62,6 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     borderColor: '#003b83',
     prefixColor: '#d20012',
     numColor: '#003b83',
-  },
-  // JR篠ノ井線
-  SN: {
-    borderColor: '#cb5f12',
-    prefixColor: '#cb5f12',
-    numColor: '#a84e15',
-  },
-  // JR東日本 大糸線
-  OIE: {
-    borderColor: '#957490',
-    prefixColor: '#957490',
-    numColor: '#6c3b82',
-  },
-  // JR西日本 大糸線
-  OW: {
-    borderColor: '#0068b7',
-    prefixColor: '#0068b7',
-    numColor: '#004d8a',
   },
   // 小田急小田原線
   OH: {
@@ -128,12 +104,6 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     borderColor: '#ff6600',
     prefixColor: '#ff6600',
     numColor: '#cc5200',
-  },
-  // JR八高線
-  HA: {
-    borderColor: '#a09d95',
-    prefixColor: '#a09d95',
-    numColor: '#6e6964',
   },
   // 秩父鉄道秩父本線
   CR: {
@@ -183,30 +153,6 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#00c18a',
     numColor: '#00966b',
   },
-  // JR常磐線（取手～いわき）
-  JN: {
-    borderColor: '#0071c5',
-    prefixColor: '#0071c5',
-    numColor: '#005596',
-  },
-  // JR常磐線（いわき～仙台）
-  JSD: {
-    borderColor: '#0071c5',
-    prefixColor: '#0071c5',
-    numColor: '#005596',
-  },
-  // JR東北新幹線
-  TS: {
-    borderColor: '#41934c',
-    prefixColor: '#41934c',
-    numColor: '#2b6333',
-  },
-  // JR上越新幹線
-  JOS: {
-    borderColor: '#f58d79',
-    prefixColor: '#f58d79',
-    numColor: '#c85a48',
-  },
   // JR東海道線・JR伊東線
   JT: {
     borderColor: '#f68b1e',
@@ -219,35 +165,11 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#0074be',
     numColor: '#00558a',
   },
-  // JR高崎線
-  TK: {
-    borderColor: '#f68b1e',
-    prefixColor: '#f68b1e',
-    numColor: '#cc6600',
-  },
-  // JR上野東京ライン
-  UT: {
-    borderColor: '#8f0079',
-    prefixColor: '#8f0079',
-    numColor: '#630054',
-  },
   // JR東海 東海道本線
   CA: {
     borderColor: '#ff7322',
     prefixColor: '#ff7322',
     numColor: '#cc5200',
-  },
-  // JR両毛線
-  RY: {
-    borderColor: '#ffd400',
-    prefixColor: '#c8a200',
-    numColor: '#333333',
-  },
-  // JR上越線
-  JOE: {
-    borderColor: '#00b3e6',
-    prefixColor: '#00b3e6',
-    numColor: '#007ca0',
   },
 };
 

@@ -396,6 +396,38 @@ const TIMETABLE_LOADERS: Record<string, LoaderFn> = {
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
+  shinetsu: () =>
+    Promise.all([
+      import('./lines/shinetsu/globalTimetable.json'),
+      import('./lines/shinetsu/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  tadami: () =>
+    Promise.all([
+      import('./lines/tadami/globalTimetable.json'),
+      import('./lines/tadami/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  banetsu_west: () =>
+    Promise.all([
+      import('./lines/banetsu_west/globalTimetable.json'),
+      import('./lines/banetsu_west/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  banetsu_east: () =>
+    Promise.all([
+      import('./lines/banetsu_east/globalTimetable.json'),
+      import('./lines/banetsu_east/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
 };
 
 
