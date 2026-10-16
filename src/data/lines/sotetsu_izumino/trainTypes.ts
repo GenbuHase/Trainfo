@@ -8,10 +8,10 @@ export const SOTETSU_IZUMINO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '各駅停車',
     nameEn: 'Local',
     shortName: '各停',
-    color: '#4b6584',
+    color: '#041452',
     textColor: '#ffffff',
-    bgColor: '#4b6584',
-    borderColor: '#34495e',
+    bgColor: '#041452',
+    borderColor: '#041452',
   },
   // 快速: 青
   rapid: {

@@ -383,7 +383,7 @@ export const Header: React.FC<HeaderProps> = ({
                         )}
                       </div>
                     </div>
-                    <StationBadge id={station.id} size="sm" />
+                    {station.stationNumber && <StationBadge id={station.stationNumber} size="sm" />}
                   </button>
                 );
               })}

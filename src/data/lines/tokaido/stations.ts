@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const TOKAIDO_STATIONS: Station[] = [
   {
     "id": "JT-01",
+    "stationNumber": "JT-01",
     "lineId": "tokaido",
     "number": 1,
     "name": "東京",
@@ -48,6 +49,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-02",
+    "stationNumber": "JT-02",
     "lineId": "tokaido",
     "number": 2,
     "name": "新橋",
@@ -88,6 +90,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-03",
+    "stationNumber": "JT-03",
     "lineId": "tokaido",
     "number": 3,
     "name": "品川",
@@ -127,6 +130,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-04",
+    "stationNumber": "JT-04",
     "lineId": "tokaido",
     "number": 4,
     "name": "川崎",
@@ -164,6 +168,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-05",
+    "stationNumber": "JT-05",
     "lineId": "tokaido",
     "number": 5,
     "name": "横浜",
@@ -208,6 +213,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-06",
+    "stationNumber": "JT-06",
     "lineId": "tokaido",
     "number": 6,
     "name": "戸塚",
@@ -244,6 +250,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-07",
+    "stationNumber": "JT-07",
     "lineId": "tokaido",
     "number": 7,
     "name": "大船",
@@ -282,6 +289,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-08",
+    "stationNumber": "JT-08",
     "lineId": "tokaido",
     "number": 8,
     "name": "藤沢",
@@ -319,6 +327,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-09",
+    "stationNumber": "JT-09",
     "lineId": "tokaido",
     "number": 9,
     "name": "辻堂",
@@ -351,6 +360,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-10",
+    "stationNumber": "JT-10",
     "lineId": "tokaido",
     "number": 10,
     "name": "茅ケ崎",
@@ -387,6 +397,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-11",
+    "stationNumber": "JT-11",
     "lineId": "tokaido",
     "number": 11,
     "name": "平塚",
@@ -421,6 +432,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-12",
+    "stationNumber": "JT-12",
     "lineId": "tokaido",
     "number": 12,
     "name": "大磯",
@@ -453,6 +465,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-13",
+    "stationNumber": "JT-13",
     "lineId": "tokaido",
     "number": 13,
     "name": "二宮",
@@ -485,6 +498,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-14",
+    "stationNumber": "JT-14",
     "lineId": "tokaido",
     "number": 14,
     "name": "国府津",
@@ -520,6 +534,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-15",
+    "stationNumber": "JT-15",
     "lineId": "tokaido",
     "number": 15,
     "name": "鴨宮",
@@ -552,6 +567,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-16",
+    "stationNumber": "JT-16",
     "lineId": "tokaido",
     "number": 16,
     "name": "小田原",
@@ -591,6 +607,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-17",
+    "stationNumber": "JT-17",
     "lineId": "tokaido",
     "number": 17,
     "name": "早川",
@@ -622,6 +639,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-18",
+    "stationNumber": "JT-18",
     "lineId": "tokaido",
     "number": 18,
     "name": "根府川",
@@ -653,6 +671,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-19",
+    "stationNumber": "JT-19",
     "lineId": "tokaido",
     "number": 19,
     "name": "真鶴",
@@ -684,6 +703,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-20",
+    "stationNumber": "JT-20",
     "lineId": "tokaido",
     "number": 20,
     "name": "湯河原",
@@ -716,6 +736,7 @@ export const TOKAIDO_STATIONS: Station[] = [
   },
   {
     "id": "JT-21",
+    "stationNumber": "JT-21",
     "lineId": "tokaido",
     "number": 21,
     "name": "熱海",

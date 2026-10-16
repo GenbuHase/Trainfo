@@ -19,10 +19,10 @@ export const CHUO_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '普通',
     nameEn: 'Local',
     shortName: '普通',
-    color: '#0072bc',
+    color: '#0071c5',
     textColor: '#ffffff',
-    bgColor: '#0072bc',
-    borderColor: '#38bdf8',
+    bgColor: '#0071c5',
+    borderColor: '#0071c5',
   },
   // 快速: オレンジバーミリオン
   rapid: {
@@ -30,10 +30,10 @@ export const CHUO_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '快速',
     nameEn: 'Rapid',
     shortName: '快速',
-    color: '#f15a22',
+    color: '#eb5c01',
     textColor: '#ffffff',
-    bgColor: '#f15a22',
-    borderColor: '#fb923c',
+    bgColor: '#eb5c01',
+    borderColor: '#eb5c01',
   },
   // 通勤快速: パープル
   commuter: {

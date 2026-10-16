@@ -30,10 +30,10 @@ export const CHUO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '快速',
     nameEn: 'Rapid',
     shortName: '快速',
-    color: '#f15a22',
+    color: '#eb5c01',
     textColor: '#ffffff',
-    bgColor: '#f15a22',
-    borderColor: '#fb923c',
+    bgColor: '#eb5c01',
+    borderColor: '#eb5c01',
   },
   // 通勤快速: パープル
   commuter: {

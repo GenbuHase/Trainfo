@@ -8,8 +8,8 @@ export const tokaidoShizuokaLine: LineDefinition = {
   name: 'JR東海道線（熱海～沼津）',
   shortName: '東海道線（静岡地区）',
   operator: 'JR東海',
-  lineColor: '#f68b1e',
-  accentColor: '#f68b1e',
+  lineColor: '#ff7322',
+  accentColor: '#ff7e1c',
   defaultCars: 3,
   defaultBounds: [[35.08, 138.84], [35.15, 139.09]],
   directionNames: {

@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const YOKOSUKA_STATIONS: Station[] = [
   {
     "id": "JO-19",
+    "stationNumber": "JO-19",
     "lineId": "yokosuka",
     "number": 1,
     "name": "東京",
@@ -45,6 +46,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-18",
+    "stationNumber": "JO-18",
     "lineId": "yokosuka",
     "number": 2,
     "name": "新橋",
@@ -81,6 +83,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-17",
+    "stationNumber": "JO-17",
     "lineId": "yokosuka",
     "number": 3,
     "name": "品川",
@@ -117,6 +120,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-16",
+    "stationNumber": "JO-16",
     "lineId": "yokosuka",
     "number": 4,
     "name": "西大井",
@@ -149,6 +153,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-15",
+    "stationNumber": "JO-15",
     "lineId": "yokosuka",
     "number": 5,
     "name": "武蔵小杉",
@@ -185,6 +190,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-14",
+    "stationNumber": "JO-14",
     "lineId": "yokosuka",
     "number": 6,
     "name": "新川崎",
@@ -216,6 +222,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-13",
+    "stationNumber": "JO-13",
     "lineId": "yokosuka",
     "number": 7,
     "name": "横浜",
@@ -257,6 +264,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-12",
+    "stationNumber": "JO-12",
     "lineId": "yokosuka",
     "number": 8,
     "name": "保土ケ谷",
@@ -288,6 +296,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-11",
+    "stationNumber": "JO-11",
     "lineId": "yokosuka",
     "number": 9,
     "name": "東戸塚",
@@ -319,6 +328,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-10",
+    "stationNumber": "JO-10",
     "lineId": "yokosuka",
     "number": 10,
     "name": "戸塚",
@@ -352,6 +362,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-09",
+    "stationNumber": "JO-09",
     "lineId": "yokosuka",
     "number": 11,
     "name": "大船",
@@ -387,6 +398,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-08",
+    "stationNumber": "JO-08",
     "lineId": "yokosuka",
     "number": 12,
     "name": "北鎌倉",
@@ -418,6 +430,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-07",
+    "stationNumber": "JO-07",
     "lineId": "yokosuka",
     "number": 13,
     "name": "鎌倉",
@@ -451,6 +464,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-06",
+    "stationNumber": "JO-06",
     "lineId": "yokosuka",
     "number": 14,
     "name": "逗子",
@@ -484,6 +498,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-05",
+    "stationNumber": "JO-05",
     "lineId": "yokosuka",
     "number": 15,
     "name": "東逗子",
@@ -514,6 +529,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-04",
+    "stationNumber": "JO-04",
     "lineId": "yokosuka",
     "number": 16,
     "name": "田浦",
@@ -544,6 +560,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-03",
+    "stationNumber": "JO-03",
     "lineId": "yokosuka",
     "number": 17,
     "name": "横須賀",
@@ -575,6 +592,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-02",
+    "stationNumber": "JO-02",
     "lineId": "yokosuka",
     "number": 18,
     "name": "衣笠",
@@ -605,6 +623,7 @@ export const YOKOSUKA_STATIONS: Station[] = [
   },
   {
     "id": "JO-01",
+    "stationNumber": "JO-01",
     "lineId": "yokosuka",
     "number": 19,
     "name": "久里浜",

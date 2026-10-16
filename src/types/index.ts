@@ -111,8 +111,9 @@ export interface StationFacilities {
 
 export interface Station {
   id: string;          // 例: 'TJ-01', 'JA-12'
+  stationNumber?: string; // 公式・表示用駅ナンバリング (例: 'JU-01', 'TJ-01')。ナンバリングなし駅は未定義
   lineId: LineId;      // 所属路線 ('tojo', 'saikyo' 等)
-  number: number;      // ナンバリング番号
+  number: number;      // ナンバリング番号または駅順
   name: string;        // '池袋'
   nameKana: string;    // 'いけぶくろ'
   nameEn: string;      // 'Ikebukuro'

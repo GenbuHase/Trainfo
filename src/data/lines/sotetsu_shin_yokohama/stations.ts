@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const SOTETSU_SHIN_YOKOHAMA_STATIONS: Station[] = [
   {
     "id": "SO-52",
+    "stationNumber": "SO-52",
     "lineId": "sotetsu_shin_yokohama",
     "number": 1,
     "name": "新横浜",
@@ -40,6 +41,7 @@ export const SOTETSU_SHIN_YOKOHAMA_STATIONS: Station[] = [
   },
   {
     "id": "SO-51",
+    "stationNumber": "SO-51",
     "lineId": "sotetsu_shin_yokohama",
     "number": 2,
     "name": "羽沢横浜国大",
@@ -73,6 +75,7 @@ export const SOTETSU_SHIN_YOKOHAMA_STATIONS: Station[] = [
   },
   {
     "id": "SO-08",
+    "stationNumber": "SO-08",
     "lineId": "sotetsu_shin_yokohama",
     "number": 3,
     "name": "西谷",

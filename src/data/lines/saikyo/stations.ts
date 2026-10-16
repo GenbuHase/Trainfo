@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const SAIKYO_STATIONS: Station[] = [
   {
     "id": "JA-08",
+    "stationNumber": "JA-08",
     "lineId": "saikyo",
     "number": 8,
     "name": "大崎",
@@ -38,6 +39,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-09",
+    "stationNumber": "JA-09",
     "lineId": "saikyo",
     "number": 9,
     "name": "恵比寿",
@@ -70,6 +72,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-10",
+    "stationNumber": "JA-10",
     "lineId": "saikyo",
     "number": 10,
     "name": "渋谷",
@@ -108,6 +111,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-11",
+    "stationNumber": "JA-11",
     "lineId": "saikyo",
     "number": 11,
     "name": "新宿",
@@ -148,6 +152,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-12",
+    "stationNumber": "JA-12",
     "lineId": "saikyo",
     "number": 12,
     "name": "池袋",
@@ -185,6 +190,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-13",
+    "stationNumber": "JA-13",
     "lineId": "saikyo",
     "number": 13,
     "name": "板橋",
@@ -215,6 +221,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-14",
+    "stationNumber": "JA-14",
     "lineId": "saikyo",
     "number": 14,
     "name": "十条",
@@ -243,6 +250,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-15",
+    "stationNumber": "JA-15",
     "lineId": "saikyo",
     "number": 15,
     "name": "赤羽",
@@ -277,6 +285,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-16",
+    "stationNumber": "JA-16",
     "lineId": "saikyo",
     "number": 16,
     "name": "北赤羽",
@@ -303,6 +312,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-17",
+    "stationNumber": "JA-17",
     "lineId": "saikyo",
     "number": 17,
     "name": "浮間舟渡",
@@ -329,6 +339,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-18",
+    "stationNumber": "JA-18",
     "lineId": "saikyo",
     "number": 18,
     "name": "戸田公園",
@@ -356,6 +367,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-19",
+    "stationNumber": "JA-19",
     "lineId": "saikyo",
     "number": 19,
     "name": "戸田",
@@ -382,6 +394,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-20",
+    "stationNumber": "JA-20",
     "lineId": "saikyo",
     "number": 20,
     "name": "北戸田",
@@ -408,6 +421,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-21",
+    "stationNumber": "JA-21",
     "lineId": "saikyo",
     "number": 21,
     "name": "武蔵浦和",
@@ -439,6 +453,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-22",
+    "stationNumber": "JA-22",
     "lineId": "saikyo",
     "number": 22,
     "name": "中浦和",
@@ -466,6 +481,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-23",
+    "stationNumber": "JA-23",
     "lineId": "saikyo",
     "number": 23,
     "name": "南与野",
@@ -493,6 +509,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-24",
+    "stationNumber": "JA-24",
     "lineId": "saikyo",
     "number": 24,
     "name": "与野本町",
@@ -520,6 +537,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-25",
+    "stationNumber": "JA-25",
     "lineId": "saikyo",
     "number": 25,
     "name": "北与野",
@@ -547,6 +565,7 @@ export const SAIKYO_STATIONS: Station[] = [
   },
   {
     "id": "JA-26",
+    "stationNumber": "JA-26",
     "lineId": "saikyo",
     "number": 26,
     "name": "大宮",

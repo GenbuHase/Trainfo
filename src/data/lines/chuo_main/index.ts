@@ -9,7 +9,7 @@ export const chuoMainLine: LineDefinition = {
   shortName: '中央本線',
   operator: 'JR東日本',
   lineColor: '#0071c5', // 中央東線ブルー
-  accentColor: '#f15a22', // 中央線オレンジ
+  accentColor: '#eb5c01', // 中央線オレンジ
   defaultCars: 6,
   defaultBounds: [
     [35.550, 137.920], // 塩尻周辺

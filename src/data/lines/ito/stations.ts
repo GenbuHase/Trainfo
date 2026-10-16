@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const ITO_STATIONS: Station[] = [
   {
     "id": "JT-21",
+    "stationNumber": "JT-21",
     "lineId": "ito",
     "number": 1,
     "name": "熱海",
@@ -36,6 +37,7 @@ export const ITO_STATIONS: Station[] = [
   },
   {
     "id": "JT-22",
+    "stationNumber": "JT-22",
     "lineId": "ito",
     "number": 2,
     "name": "来宮",
@@ -66,6 +68,7 @@ export const ITO_STATIONS: Station[] = [
   },
   {
     "id": "JT-23",
+    "stationNumber": "JT-23",
     "lineId": "ito",
     "number": 3,
     "name": "伊豆多賀",
@@ -96,6 +99,7 @@ export const ITO_STATIONS: Station[] = [
   },
   {
     "id": "JT-24",
+    "stationNumber": "JT-24",
     "lineId": "ito",
     "number": 4,
     "name": "網代",
@@ -127,6 +131,7 @@ export const ITO_STATIONS: Station[] = [
   },
   {
     "id": "JT-25",
+    "stationNumber": "JT-25",
     "lineId": "ito",
     "number": 5,
     "name": "宇佐美",
@@ -157,6 +162,7 @@ export const ITO_STATIONS: Station[] = [
   },
   {
     "id": "JT-26",
+    "stationNumber": "JT-26",
     "lineId": "ito",
     "number": 6,
     "name": "伊東",

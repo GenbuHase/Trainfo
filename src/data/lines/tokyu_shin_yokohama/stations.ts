@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const TOKYU_SHIN_YOKOHAMA_STATIONS: Station[] = [
   {
     "id": "SH-03",
+    "stationNumber": "SH-03",
     "lineId": "tokyu_shin_yokohama",
     "number": 1,
     "name": "日吉",
@@ -36,6 +37,7 @@ export const TOKYU_SHIN_YOKOHAMA_STATIONS: Station[] = [
   },
   {
     "id": "SH-02",
+    "stationNumber": "SH-02",
     "lineId": "tokyu_shin_yokohama",
     "number": 2,
     "name": "新綱島",
@@ -66,6 +68,7 @@ export const TOKYU_SHIN_YOKOHAMA_STATIONS: Station[] = [
   },
   {
     "id": "SH-01",
+    "stationNumber": "SH-01",
     "lineId": "tokyu_shin_yokohama",
     "number": 3,
     "name": "新横浜",

@@ -387,9 +387,9 @@ const LineCard: React.FC<LineCardProps> = ({
               <span className="text-[11px] font-mono text-slate-400 bg-slate-100 px-2 py-0.5 rounded-md">
                 id: {line.id}
               </span>
-              {sampleStation && (
+              {sampleStation?.stationNumber && (
                 <div className="scale-90 origin-left">
-                  <StationBadge id={sampleStation.id} size="sm" />
+                  <StationBadge id={sampleStation.stationNumber} size="sm" />
                 </div>
               )}
             </div>

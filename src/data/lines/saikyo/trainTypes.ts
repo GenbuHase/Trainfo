@@ -8,10 +8,10 @@ export const SAIKYO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '各駅停車',
     nameEn: 'Local',
     shortName: '各停',
-    color: '#00ac9a',
+    color: '#00ac84',
     textColor: '#ffffff',
-    bgColor: '#00ac9a',
-    borderColor: '#05c796',
+    bgColor: '#00ac84',
+    borderColor: '#00ac84',
   },
   // 快速: #007ac1 (JRブルー)
   rapid: {

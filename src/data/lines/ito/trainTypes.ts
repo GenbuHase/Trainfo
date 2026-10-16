@@ -6,10 +6,10 @@ export const ITO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '普通',
     nameEn: 'Local',
     shortName: '普',
-    color: '#00a88e',
+    color: '#378640',
     textColor: '#ffffff',
-    bgColor: '#00a88e',
-    borderColor: '#00a88e',
+    bgColor: '#378640',
+    borderColor: '#378640',
   },
   rapid: {
     key: 'rapid',

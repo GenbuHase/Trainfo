@@ -8,7 +8,7 @@ export const odakyuEnoshimaLine: LineDefinition = {
   name: '小田急江ノ島線',
   shortName: '江ノ島線',
   operator: '小田急電鉄',
-  lineColor: '#0085ce',
+  lineColor: '#2288cc',
   accentColor: '#0065af',
   defaultCars: 6,
   stations: ODAKYU_ENOSHIMA_STATIONS,

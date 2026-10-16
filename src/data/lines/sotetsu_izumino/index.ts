@@ -8,8 +8,8 @@ export const sotetsuIzuminoLine: LineDefinition = {
   name: '相鉄いずみ野線',
   shortName: 'いずみ野線',
   operator: '相模鉄道',
-  lineColor: '#0073bc', // YOKOHAMA NAVYBLUE
-  accentColor: '#008cd6',
+  lineColor: '#041452', // YOKOHAMA NAVYBLUE
+  accentColor: '#0073bc',
   defaultCars: 10,
   defaultBounds: [
     [35.390, 139.460], // 湘南台周辺

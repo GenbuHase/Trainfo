@@ -19,10 +19,10 @@ export const TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '準急',
     nameEn: 'Semi Express',
     shortName: '準急',
-    color: '#009a74',
+    color: '#009966',
     textColor: '#ffffff',
-    bgColor: '#009a74',
-    borderColor: '#05c796',
+    bgColor: '#009966',
+    borderColor: '#009966',
   },
   // 急行: #f62837
   express: {
@@ -30,10 +30,10 @@ export const TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '急行',
     nameEn: 'Express',
     shortName: '急行',
-    color: '#f62837',
+    color: '#ed1a3d',
     textColor: '#ffffff',
-    bgColor: '#f62837',
-    borderColor: '#ff6b76',
+    bgColor: '#ed1a3d',
+    borderColor: '#ed1a3d',
   },
   // 快速急行: #005789
   rapidExp: {
@@ -41,10 +41,10 @@ export const TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '快速急行',
     nameEn: 'Rapid Express',
     shortName: '快急',
-    color: '#005789',
+    color: '#006699',
     textColor: '#ffffff',
-    bgColor: '#005789',
-    borderColor: '#1e88e5',
+    bgColor: '#006699',
+    borderColor: '#006699',
   },
   // 川越特急: #e73799
   kawagoeExp: {
@@ -63,9 +63,9 @@ export const TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: 'TJライナー',
     nameEn: 'TJ Liner',
     shortName: 'TJ',
-    color: '#ff710a',
+    color: '#ff6600',
     textColor: '#ffffff',
-    bgColor: '#ff710a',
-    borderColor: '#ff9d47',
+    bgColor: '#ff6600',
+    borderColor: '#ff6600',
   },
 };

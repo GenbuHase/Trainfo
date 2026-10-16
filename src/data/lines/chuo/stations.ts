@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const CHUO_STATIONS: Station[] = [
   {
     "id": "JC-01",
+    "stationNumber": "JC-01",
     "lineId": "chuo",
     "number": 1,
     "name": "東京",
@@ -48,6 +49,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-02",
+    "stationNumber": "JC-02",
     "lineId": "chuo",
     "number": 2,
     "name": "神田",
@@ -83,6 +85,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-03",
+    "stationNumber": "JC-03",
     "lineId": "chuo",
     "number": 3,
     "name": "御茶ノ水",
@@ -118,6 +121,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-04",
+    "stationNumber": "JC-04",
     "lineId": "chuo",
     "number": 4,
     "name": "四ツ谷",
@@ -155,6 +159,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-05",
+    "stationNumber": "JC-05",
     "lineId": "chuo",
     "number": 5,
     "name": "新宿",
@@ -200,6 +205,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-06",
+    "stationNumber": "JC-06",
     "lineId": "chuo",
     "number": 6,
     "name": "中野",
@@ -235,6 +241,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-07",
+    "stationNumber": "JC-07",
     "lineId": "chuo",
     "number": 7,
     "name": "高円寺",
@@ -264,6 +271,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-08",
+    "stationNumber": "JC-08",
     "lineId": "chuo",
     "number": 8,
     "name": "阿佐ケ谷",
@@ -293,6 +301,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-09",
+    "stationNumber": "JC-09",
     "lineId": "chuo",
     "number": 9,
     "name": "荻窪",
@@ -324,6 +333,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-10",
+    "stationNumber": "JC-10",
     "lineId": "chuo",
     "number": 10,
     "name": "西荻窪",
@@ -353,6 +363,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-11",
+    "stationNumber": "JC-11",
     "lineId": "chuo",
     "number": 11,
     "name": "吉祥寺",
@@ -386,6 +397,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-12",
+    "stationNumber": "JC-12",
     "lineId": "chuo",
     "number": 12,
     "name": "三鷹",
@@ -421,6 +433,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-13",
+    "stationNumber": "JC-13",
     "lineId": "chuo",
     "number": 13,
     "name": "武蔵境",
@@ -451,6 +464,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-14",
+    "stationNumber": "JC-14",
     "lineId": "chuo",
     "number": 14,
     "name": "東小金井",
@@ -479,6 +493,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-15",
+    "stationNumber": "JC-15",
     "lineId": "chuo",
     "number": 15,
     "name": "武蔵小金井",
@@ -507,6 +522,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-16",
+    "stationNumber": "JC-16",
     "lineId": "chuo",
     "number": 16,
     "name": "国分寺",
@@ -543,6 +559,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-17",
+    "stationNumber": "JC-17",
     "lineId": "chuo",
     "number": 17,
     "name": "西国分寺",
@@ -574,6 +591,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-18",
+    "stationNumber": "JC-18",
     "lineId": "chuo",
     "number": 18,
     "name": "国立",
@@ -605,6 +623,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-19",
+    "stationNumber": "JC-19",
     "lineId": "chuo",
     "number": 19,
     "name": "立川",
@@ -644,6 +663,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-20",
+    "stationNumber": "JC-20",
     "lineId": "chuo",
     "number": 20,
     "name": "日野",
@@ -676,6 +696,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-21",
+    "stationNumber": "JC-21",
     "lineId": "chuo",
     "number": 21,
     "name": "豊田",
@@ -708,6 +729,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-22",
+    "stationNumber": "JC-22",
     "lineId": "chuo",
     "number": 22,
     "name": "八王子",
@@ -747,6 +769,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-23",
+    "stationNumber": "JC-23",
     "lineId": "chuo",
     "number": 23,
     "name": "西八王子",
@@ -780,6 +803,7 @@ export const CHUO_STATIONS: Station[] = [
   },
   {
     "id": "JC-24",
+    "stationNumber": "JC-24",
     "lineId": "chuo",
     "number": 24,
     "name": "高尾",

@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const JOBAN_LOCAL_STATIONS: Station[] = [
   {
     "id": "JL-19",
+    "stationNumber": "JL-19",
     "lineId": "joban_local",
     "number": 19,
     "name": "綾瀬",
@@ -37,6 +38,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-20",
+    "stationNumber": "JL-20",
     "lineId": "joban_local",
     "number": 20,
     "name": "亀有",
@@ -68,6 +70,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-21",
+    "stationNumber": "JL-21",
     "lineId": "joban_local",
     "number": 21,
     "name": "金町",
@@ -101,6 +104,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-22",
+    "stationNumber": "JL-22",
     "lineId": "joban_local",
     "number": 22,
     "name": "松戸",
@@ -135,6 +139,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-23",
+    "stationNumber": "JL-23",
     "lineId": "joban_local",
     "number": 23,
     "name": "北松戸",
@@ -166,6 +171,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-24",
+    "stationNumber": "JL-24",
     "lineId": "joban_local",
     "number": 24,
     "name": "馬橋",
@@ -199,6 +205,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-25",
+    "stationNumber": "JL-25",
     "lineId": "joban_local",
     "number": 25,
     "name": "新松戸",
@@ -233,6 +240,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-26",
+    "stationNumber": "JL-26",
     "lineId": "joban_local",
     "number": 26,
     "name": "北小金",
@@ -264,6 +272,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-27",
+    "stationNumber": "JL-27",
     "lineId": "joban_local",
     "number": 27,
     "name": "南柏",
@@ -295,6 +304,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-28",
+    "stationNumber": "JL-28",
     "lineId": "joban_local",
     "number": 28,
     "name": "柏",
@@ -329,6 +339,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-29",
+    "stationNumber": "JL-29",
     "lineId": "joban_local",
     "number": 29,
     "name": "北柏",
@@ -360,6 +371,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-30",
+    "stationNumber": "JL-30",
     "lineId": "joban_local",
     "number": 30,
     "name": "我孫子",
@@ -394,6 +406,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-31",
+    "stationNumber": "JL-31",
     "lineId": "joban_local",
     "number": 31,
     "name": "天王台",
@@ -427,6 +440,7 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
   },
   {
     "id": "JL-32",
+    "stationNumber": "JL-32",
     "lineId": "joban_local",
     "number": 32,
     "name": "取手",

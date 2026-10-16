@@ -91,7 +91,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
               <span className="text-xs text-white/70 tracking-wider font-mono">{station.nameEn}</span>
             </div>
             <div className="flex items-center gap-2.5">
-              <StationBadge id={station.id} size="lg" />
+              {station.stationNumber && <StationBadge id={station.stationNumber} size="lg" />}
               <h2 className="text-2xl font-black tracking-tight">{station.name}</h2>
             </div>
             <p className="text-xs text-white/70 mt-0.5">{station.nameKana}</p>
@@ -111,7 +111,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
                   className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-white/20 hover:bg-white/30 text-white text-xs font-semibold backdrop-blur-xs transition-colors cursor-pointer"
                 >
                   <ArrowLeftRight className="w-3.5 h-3.5" />
-                  <span>{alt.lineName}（{alt.station.id}）へ切替</span>
+                  <span>{alt.lineName}{alt.station.stationNumber ? `（${alt.station.stationNumber}）` : ''}へ切替</span>
                 </button>
               ))}
             </div>

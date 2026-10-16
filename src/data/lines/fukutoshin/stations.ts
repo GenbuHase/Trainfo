@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const FUKUTOSHIN_STATIONS: Station[] = [
   {
     "id": "F-01",
+    "stationNumber": "F-01",
     "lineId": "fukutoshin",
     "number": 1,
     "name": "和光市",
@@ -36,6 +37,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-02",
+    "stationNumber": "F-02",
     "lineId": "fukutoshin",
     "number": 2,
     "name": "地下鉄成増",
@@ -67,6 +69,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-03",
+    "stationNumber": "F-03",
     "lineId": "fukutoshin",
     "number": 3,
     "name": "地下鉄赤塚",
@@ -98,6 +101,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-04",
+    "stationNumber": "F-04",
     "lineId": "fukutoshin",
     "number": 4,
     "name": "平和台",
@@ -128,6 +132,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-05",
+    "stationNumber": "F-05",
     "lineId": "fukutoshin",
     "number": 5,
     "name": "氷川台",
@@ -158,6 +163,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-06",
+    "stationNumber": "F-06",
     "lineId": "fukutoshin",
     "number": 6,
     "name": "小竹向原",
@@ -190,6 +196,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-07",
+    "stationNumber": "F-07",
     "lineId": "fukutoshin",
     "number": 7,
     "name": "千川",
@@ -219,6 +226,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-08",
+    "stationNumber": "F-08",
     "lineId": "fukutoshin",
     "number": 8,
     "name": "要町",
@@ -248,6 +256,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-09",
+    "stationNumber": "F-09",
     "lineId": "fukutoshin",
     "number": 9,
     "name": "池袋",
@@ -286,6 +295,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-10",
+    "stationNumber": "F-10",
     "lineId": "fukutoshin",
     "number": 10,
     "name": "雑司が谷",
@@ -315,6 +325,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-11",
+    "stationNumber": "F-11",
     "lineId": "fukutoshin",
     "number": 11,
     "name": "西早稲田",
@@ -342,6 +353,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-12",
+    "stationNumber": "F-12",
     "lineId": "fukutoshin",
     "number": 12,
     "name": "東新宿",
@@ -371,6 +383,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-13",
+    "stationNumber": "F-13",
     "lineId": "fukutoshin",
     "number": 13,
     "name": "新宿三丁目",
@@ -404,6 +417,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-14",
+    "stationNumber": "F-14",
     "lineId": "fukutoshin",
     "number": 14,
     "name": "北参道",
@@ -431,6 +445,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-15",
+    "stationNumber": "F-15",
     "lineId": "fukutoshin",
     "number": 15,
     "name": "明治神宮前〈原宿〉",
@@ -462,6 +477,7 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
   },
   {
     "id": "F-16",
+    "stationNumber": "F-16",
     "lineId": "fukutoshin",
     "number": 16,
     "name": "渋谷",

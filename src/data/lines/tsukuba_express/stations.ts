@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const TX_STATIONS: Station[] = [
   {
     "id": "TX-01",
+    "stationNumber": "TX-01",
     "lineId": "tsukuba_express",
     "number": 1,
     "name": "秋葉原",
@@ -39,6 +40,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-02",
+    "stationNumber": "TX-02",
     "lineId": "tsukuba_express",
     "number": 2,
     "name": "新御徒町",
@@ -70,6 +72,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-03",
+    "stationNumber": "TX-03",
     "lineId": "tsukuba_express",
     "number": 3,
     "name": "浅草",
@@ -104,6 +107,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-04",
+    "stationNumber": "TX-04",
     "lineId": "tsukuba_express",
     "number": 4,
     "name": "南千住",
@@ -137,6 +141,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-05",
+    "stationNumber": "TX-05",
     "lineId": "tsukuba_express",
     "number": 5,
     "name": "北千住",
@@ -173,6 +178,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-06",
+    "stationNumber": "TX-06",
     "lineId": "tsukuba_express",
     "number": 6,
     "name": "青井",
@@ -199,6 +205,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-07",
+    "stationNumber": "TX-07",
     "lineId": "tsukuba_express",
     "number": 7,
     "name": "六町",
@@ -227,6 +234,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-08",
+    "stationNumber": "TX-08",
     "lineId": "tsukuba_express",
     "number": 8,
     "name": "八潮",
@@ -257,6 +265,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-09",
+    "stationNumber": "TX-09",
     "lineId": "tsukuba_express",
     "number": 9,
     "name": "三郷中央",
@@ -284,6 +293,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-10",
+    "stationNumber": "TX-10",
     "lineId": "tsukuba_express",
     "number": 10,
     "name": "南流山",
@@ -316,6 +326,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-11",
+    "stationNumber": "TX-11",
     "lineId": "tsukuba_express",
     "number": 11,
     "name": "流山セントラルパーク",
@@ -342,6 +353,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-12",
+    "stationNumber": "TX-12",
     "lineId": "tsukuba_express",
     "number": 12,
     "name": "流山おおたかの森",
@@ -374,6 +386,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-13",
+    "stationNumber": "TX-13",
     "lineId": "tsukuba_express",
     "number": 13,
     "name": "柏の葉キャンパス",
@@ -402,6 +415,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-14",
+    "stationNumber": "TX-14",
     "lineId": "tsukuba_express",
     "number": 14,
     "name": "柏たなか",
@@ -428,6 +442,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-15",
+    "stationNumber": "TX-15",
     "lineId": "tsukuba_express",
     "number": 15,
     "name": "守谷",
@@ -460,6 +475,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-16",
+    "stationNumber": "TX-16",
     "lineId": "tsukuba_express",
     "number": 16,
     "name": "みらい平",
@@ -487,6 +503,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-17",
+    "stationNumber": "TX-17",
     "lineId": "tsukuba_express",
     "number": 17,
     "name": "みどりの",
@@ -514,6 +531,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-18",
+    "stationNumber": "TX-18",
     "lineId": "tsukuba_express",
     "number": 18,
     "name": "万博記念公園",
@@ -541,6 +559,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-19",
+    "stationNumber": "TX-19",
     "lineId": "tsukuba_express",
     "number": 19,
     "name": "研究学園",
@@ -569,6 +588,7 @@ export const TX_STATIONS: Station[] = [
   },
   {
     "id": "TX-20",
+    "stationNumber": "TX-20",
     "lineId": "tsukuba_express",
     "number": 20,
     "name": "つくば",

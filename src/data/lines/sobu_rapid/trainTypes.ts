@@ -6,10 +6,10 @@ export const SOBU_RAPID_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '快速',
     nameEn: 'Rapid',
     shortName: '快',
-    color: '#007ac0',
+    color: '#0074be',
     textColor: '#ffffff',
-    bgColor: '#007ac0',
-    borderColor: '#007ac0',
+    bgColor: '#0074be',
+    borderColor: '#0074be',
   },
   commuter_rapid: {
     key: 'commuter_rapid',

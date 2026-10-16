@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const UTSUNOMIYA_STATIONS: Station[] = [
   {
     "id": "JU-02",
+    "stationNumber": "JU-02",
     "lineId": "utsunomiya",
     "number": 1,
     "name": "上野",
@@ -46,6 +47,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   },
   {
     "id": "JU-03",
+    "stationNumber": "JU-03",
     "lineId": "utsunomiya",
     "number": 2,
     "name": "尾久",
@@ -76,6 +78,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   },
   {
     "id": "JU-04",
+    "stationNumber": "JU-04",
     "lineId": "utsunomiya",
     "number": 3,
     "name": "赤羽",
@@ -113,6 +116,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   },
   {
     "id": "JU-05",
+    "stationNumber": "JU-05",
     "lineId": "utsunomiya",
     "number": 4,
     "name": "浦和",
@@ -149,6 +153,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   },
   {
     "id": "JU-06",
+    "stationNumber": "JU-06",
     "lineId": "utsunomiya",
     "number": 5,
     "name": "さいたま新都心",
@@ -180,6 +185,7 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
   },
   {
     "id": "JU-07",
+    "stationNumber": "JU-07",
     "lineId": "utsunomiya",
     "number": 6,
     "name": "大宮",

@@ -9,7 +9,7 @@ export const joetsuShinkansenLine: LineDefinition = {
   shortName: '上越新幹線',
   operator: 'JR東日本',
   lineColor: '#f58d79',
-  accentColor: '#029849',
+  accentColor: '#008000',
   defaultCars: 12,
   defaultBounds: [
     [35.681, 138.809],

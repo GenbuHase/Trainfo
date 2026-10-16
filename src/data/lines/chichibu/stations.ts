@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const CHICHIBU_STATIONS: Station[] = [
   {
     "id": "CR-01",
+    "stationNumber": "CR-01",
     "lineId": "chichibu",
     "number": 1,
     "name": "羽生",
@@ -34,6 +35,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-02",
+    "stationNumber": "CR-02",
     "lineId": "chichibu",
     "number": 2,
     "name": "西羽生",
@@ -61,6 +63,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-03",
+    "stationNumber": "CR-03",
     "lineId": "chichibu",
     "number": 3,
     "name": "新郷",
@@ -88,6 +91,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-04",
+    "stationNumber": "CR-04",
     "lineId": "chichibu",
     "number": 4,
     "name": "武州荒木",
@@ -115,6 +119,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-05",
+    "stationNumber": "CR-05",
     "lineId": "chichibu",
     "number": 5,
     "name": "東行田",
@@ -142,6 +147,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-06",
+    "stationNumber": "CR-06",
     "lineId": "chichibu",
     "number": 6,
     "name": "行田市",
@@ -170,6 +176,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-07",
+    "stationNumber": "CR-07",
     "lineId": "chichibu",
     "number": 7,
     "name": "持田",
@@ -197,6 +204,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-08",
+    "stationNumber": "CR-08",
     "lineId": "chichibu",
     "number": 8,
     "name": "ソシオ流通センター",
@@ -224,6 +232,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-09",
+    "stationNumber": "CR-09",
     "lineId": "chichibu",
     "number": 9,
     "name": "熊谷",
@@ -257,6 +266,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-10",
+    "stationNumber": "CR-10",
     "lineId": "chichibu",
     "number": 10,
     "name": "上熊谷",
@@ -284,6 +294,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-11",
+    "stationNumber": "CR-11",
     "lineId": "chichibu",
     "number": 11,
     "name": "石原",
@@ -311,6 +322,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-12",
+    "stationNumber": "CR-12",
     "lineId": "chichibu",
     "number": 12,
     "name": "ひろせ野鳥の森",
@@ -338,6 +350,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-13",
+    "stationNumber": "CR-13",
     "lineId": "chichibu",
     "number": 13,
     "name": "大麻生",
@@ -365,6 +378,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-14",
+    "stationNumber": "CR-14",
     "lineId": "chichibu",
     "number": 14,
     "name": "明戸",
@@ -392,6 +406,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-15",
+    "stationNumber": "CR-15",
     "lineId": "chichibu",
     "number": 15,
     "name": "武川",
@@ -420,6 +435,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-16",
+    "stationNumber": "CR-16",
     "lineId": "chichibu",
     "number": 16,
     "name": "永田",
@@ -447,6 +463,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-17",
+    "stationNumber": "CR-17",
     "lineId": "chichibu",
     "number": 17,
     "name": "ふかや花園",
@@ -476,6 +493,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-18",
+    "stationNumber": "CR-18",
     "lineId": "chichibu",
     "number": 18,
     "name": "小前田",
@@ -503,6 +521,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-19",
+    "stationNumber": "CR-19",
     "lineId": "chichibu",
     "number": 19,
     "name": "桜沢",
@@ -530,6 +549,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-20",
+    "stationNumber": "CR-20",
     "lineId": "chichibu",
     "number": 20,
     "name": "寄居",
@@ -562,6 +582,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-21",
+    "stationNumber": "CR-21",
     "lineId": "chichibu",
     "number": 21,
     "name": "波久礼",
@@ -589,6 +610,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-22",
+    "stationNumber": "CR-22",
     "lineId": "chichibu",
     "number": 22,
     "name": "樋口",
@@ -616,6 +638,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-23",
+    "stationNumber": "CR-23",
     "lineId": "chichibu",
     "number": 23,
     "name": "野上",
@@ -644,6 +667,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-24",
+    "stationNumber": "CR-24",
     "lineId": "chichibu",
     "number": 24,
     "name": "長瀞",
@@ -673,6 +697,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-25",
+    "stationNumber": "CR-25",
     "lineId": "chichibu",
     "number": 25,
     "name": "上長瀞",
@@ -700,6 +725,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-26",
+    "stationNumber": "CR-26",
     "lineId": "chichibu",
     "number": 26,
     "name": "親鼻",
@@ -727,6 +753,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-27",
+    "stationNumber": "CR-27",
     "lineId": "chichibu",
     "number": 27,
     "name": "皆野",
@@ -756,6 +783,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-28",
+    "stationNumber": "CR-28",
     "lineId": "chichibu",
     "number": 28,
     "name": "和銅黒谷",
@@ -783,6 +811,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-29",
+    "stationNumber": "CR-29",
     "lineId": "chichibu",
     "number": 29,
     "name": "大野原",
@@ -810,6 +839,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-30",
+    "stationNumber": "CR-30",
     "lineId": "chichibu",
     "number": 30,
     "name": "秩父",
@@ -839,6 +869,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-31",
+    "stationNumber": "CR-31",
     "lineId": "chichibu",
     "number": 31,
     "name": "御花畑",
@@ -870,6 +901,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-32",
+    "stationNumber": "CR-32",
     "lineId": "chichibu",
     "number": 32,
     "name": "影森",
@@ -898,6 +930,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-33",
+    "stationNumber": "CR-33",
     "lineId": "chichibu",
     "number": 33,
     "name": "浦山口",
@@ -925,6 +958,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-34",
+    "stationNumber": "CR-34",
     "lineId": "chichibu",
     "number": 34,
     "name": "武州中川",
@@ -952,6 +986,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-35",
+    "stationNumber": "CR-35",
     "lineId": "chichibu",
     "number": 35,
     "name": "武州日野",
@@ -979,6 +1014,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-36",
+    "stationNumber": "CR-36",
     "lineId": "chichibu",
     "number": 36,
     "name": "白久",
@@ -1006,6 +1042,7 @@ export const CHICHIBU_STATIONS: Station[] = [
   },
   {
     "id": "CR-37",
+    "stationNumber": "CR-37",
     "lineId": "chichibu",
     "number": 37,
     "name": "三峰口",

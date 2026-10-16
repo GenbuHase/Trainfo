@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const SOTETSU_MAIN_STATIONS: Station[] = [
   {
     "id": "SO-01",
+    "stationNumber": "SO-01",
     "lineId": "sotetsu_main",
     "number": 1,
     "name": "横浜",
@@ -45,6 +46,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-02",
+    "stationNumber": "SO-02",
     "lineId": "sotetsu_main",
     "number": 2,
     "name": "平沼橋",
@@ -73,6 +75,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-03",
+    "stationNumber": "SO-03",
     "lineId": "sotetsu_main",
     "number": 3,
     "name": "西横浜",
@@ -101,6 +104,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-04",
+    "stationNumber": "SO-04",
     "lineId": "sotetsu_main",
     "number": 4,
     "name": "天王町",
@@ -129,6 +133,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-05",
+    "stationNumber": "SO-05",
     "lineId": "sotetsu_main",
     "number": 5,
     "name": "星川",
@@ -158,6 +163,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-06",
+    "stationNumber": "SO-06",
     "lineId": "sotetsu_main",
     "number": 6,
     "name": "和田町",
@@ -186,6 +192,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-07",
+    "stationNumber": "SO-07",
     "lineId": "sotetsu_main",
     "number": 7,
     "name": "上星川",
@@ -214,6 +221,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-08",
+    "stationNumber": "SO-08",
     "lineId": "sotetsu_main",
     "number": 8,
     "name": "西谷",
@@ -248,6 +256,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-09",
+    "stationNumber": "SO-09",
     "lineId": "sotetsu_main",
     "number": 9,
     "name": "鶴ヶ峰",
@@ -279,6 +288,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-10",
+    "stationNumber": "SO-10",
     "lineId": "sotetsu_main",
     "number": 10,
     "name": "二俣川",
@@ -313,6 +323,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-11",
+    "stationNumber": "SO-11",
     "lineId": "sotetsu_main",
     "number": 11,
     "name": "希望ヶ丘",
@@ -342,6 +353,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-12",
+    "stationNumber": "SO-12",
     "lineId": "sotetsu_main",
     "number": 12,
     "name": "三ツ境",
@@ -371,6 +383,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-13",
+    "stationNumber": "SO-13",
     "lineId": "sotetsu_main",
     "number": 13,
     "name": "瀬谷",
@@ -400,6 +413,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-14",
+    "stationNumber": "SO-14",
     "lineId": "sotetsu_main",
     "number": 14,
     "name": "大和",
@@ -433,6 +447,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-15",
+    "stationNumber": "SO-15",
     "lineId": "sotetsu_main",
     "number": 15,
     "name": "相模大塚",
@@ -462,6 +477,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-16",
+    "stationNumber": "SO-16",
     "lineId": "sotetsu_main",
     "number": 16,
     "name": "さがみ野",
@@ -491,6 +507,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-17",
+    "stationNumber": "SO-17",
     "lineId": "sotetsu_main",
     "number": 17,
     "name": "かしわ台",
@@ -520,6 +537,7 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
   },
   {
     "id": "SO-18",
+    "stationNumber": "SO-18",
     "lineId": "sotetsu_main",
     "number": 18,
     "name": "海老名",

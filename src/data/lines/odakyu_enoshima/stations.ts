@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   {
     "id": "OH-28",
+    "stationNumber": "OH-28",
     "lineId": "odakyu_enoshima",
     "number": 1,
     "name": "相模大野",
@@ -36,6 +37,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-01",
+    "stationNumber": "OE-01",
     "lineId": "odakyu_enoshima",
     "number": 2,
     "name": "東林間",
@@ -62,6 +64,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-02",
+    "stationNumber": "OE-02",
     "lineId": "odakyu_enoshima",
     "number": 3,
     "name": "中央林間",
@@ -93,6 +96,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-03",
+    "stationNumber": "OE-03",
     "lineId": "odakyu_enoshima",
     "number": 4,
     "name": "南林間",
@@ -120,6 +124,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-04",
+    "stationNumber": "OE-04",
     "lineId": "odakyu_enoshima",
     "number": 5,
     "name": "鶴間",
@@ -146,6 +151,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-05",
+    "stationNumber": "OE-05",
     "lineId": "odakyu_enoshima",
     "number": 6,
     "name": "大和",
@@ -178,6 +184,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-06",
+    "stationNumber": "OE-06",
     "lineId": "odakyu_enoshima",
     "number": 7,
     "name": "桜ヶ丘",
@@ -204,6 +211,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-07",
+    "stationNumber": "OE-07",
     "lineId": "odakyu_enoshima",
     "number": 8,
     "name": "高座渋谷",
@@ -230,6 +238,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-08",
+    "stationNumber": "OE-08",
     "lineId": "odakyu_enoshima",
     "number": 9,
     "name": "長後",
@@ -257,6 +266,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-09",
+    "stationNumber": "OE-09",
     "lineId": "odakyu_enoshima",
     "number": 10,
     "name": "湘南台",
@@ -289,6 +299,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-10",
+    "stationNumber": "OE-10",
     "lineId": "odakyu_enoshima",
     "number": 11,
     "name": "六会日大前",
@@ -315,6 +326,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-11",
+    "stationNumber": "OE-11",
     "lineId": "odakyu_enoshima",
     "number": 12,
     "name": "善行",
@@ -341,6 +353,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-12",
+    "stationNumber": "OE-12",
     "lineId": "odakyu_enoshima",
     "number": 13,
     "name": "藤沢本町",
@@ -367,6 +380,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-13",
+    "stationNumber": "OE-13",
     "lineId": "odakyu_enoshima",
     "number": 14,
     "name": "藤沢",
@@ -400,6 +414,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-14",
+    "stationNumber": "OE-14",
     "lineId": "odakyu_enoshima",
     "number": 15,
     "name": "本鵠沼",
@@ -426,6 +441,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-15",
+    "stationNumber": "OE-15",
     "lineId": "odakyu_enoshima",
     "number": 16,
     "name": "鵠沼海岸",
@@ -452,6 +468,7 @@ export const ODAKYU_ENOSHIMA_STATIONS: Station[] = [
   },
   {
     "id": "OE-16",
+    "stationNumber": "OE-16",
     "lineId": "odakyu_enoshima",
     "number": 17,
     "name": "片瀬江ノ島",

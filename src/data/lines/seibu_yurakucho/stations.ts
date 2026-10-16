@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const SEIBU_YURAKUCHO_STATIONS: Station[] = [
   {
     "id": "SI-37",
+    "stationNumber": "SI-37",
     "lineId": "seibu_yurakucho",
     "number": 1,
     "name": "小竹向原",
@@ -37,6 +38,7 @@ export const SEIBU_YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "SI-38",
+    "stationNumber": "SI-38",
     "lineId": "seibu_yurakucho",
     "number": 2,
     "name": "新桜台",
@@ -64,6 +66,7 @@ export const SEIBU_YURAKUCHO_STATIONS: Station[] = [
   },
   {
     "id": "SI-06",
+    "stationNumber": "SI-06",
     "lineId": "seibu_yurakucho",
     "number": 3,
     "name": "練馬",

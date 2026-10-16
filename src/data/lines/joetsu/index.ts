@@ -8,8 +8,8 @@ export const joetsuLine: LineDefinition = {
   name: 'JR上越線',
   shortName: '上越線',
   operator: 'JR東日本',
-  lineColor: '#00a0de',
-  accentColor: '#00a0de',
+  lineColor: '#00b3e6',
+  accentColor: '#00b3e6',
   defaultCars: 4,
   defaultBounds: [[36.31, 138.78], [37.43, 139.08]],
   directionNames: {

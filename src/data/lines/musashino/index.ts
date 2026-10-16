@@ -9,7 +9,7 @@ export const musashinoLine: LineDefinition = {
   shortName: '武蔵野線',
   operator: 'JR東日本',
   lineColor: '#eb5c01', // 武蔵野線オレンジバーミリオン
-  accentColor: '#c9252d', // 京葉線ワインレッド
+  accentColor: '#cf1225', // 京葉線ワインレッド
   defaultCars: 8,
   defaultBounds: [
     [35.600, 139.300], // 南西（八王子・東京湾岸）

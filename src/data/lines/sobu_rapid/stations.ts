@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const SOBU_RAPID_STATIONS: Station[] = [
   {
     "id": "JO-19",
+    "stationNumber": "JO-19",
     "lineId": "sobu_rapid",
     "number": 1,
     "name": "東京",
@@ -46,6 +47,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JO-20",
+    "stationNumber": "JO-20",
     "lineId": "sobu_rapid",
     "number": 2,
     "name": "新日本橋",
@@ -79,6 +81,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JO-21",
+    "stationNumber": "JO-21",
     "lineId": "sobu_rapid",
     "number": 3,
     "name": "馬喰町",
@@ -112,6 +115,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JO-22",
+    "stationNumber": "JO-22",
     "lineId": "sobu_rapid",
     "number": 4,
     "name": "錦糸町",
@@ -146,6 +150,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JO-23",
+    "stationNumber": "JO-23",
     "lineId": "sobu_rapid",
     "number": 5,
     "name": "新小岩",
@@ -177,6 +182,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JO-24",
+    "stationNumber": "JO-24",
     "lineId": "sobu_rapid",
     "number": 6,
     "name": "市川",
@@ -208,6 +214,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JO-25",
+    "stationNumber": "JO-25",
     "lineId": "sobu_rapid",
     "number": 7,
     "name": "船橋",
@@ -243,6 +250,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JO-26",
+    "stationNumber": "JO-26",
     "lineId": "sobu_rapid",
     "number": 8,
     "name": "津田沼",
@@ -275,6 +283,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JO-27",
+    "stationNumber": "JO-27",
     "lineId": "sobu_rapid",
     "number": 9,
     "name": "稲毛",
@@ -307,6 +316,7 @@ export const SOBU_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JO-28",
+    "stationNumber": "JO-28",
     "lineId": "sobu_rapid",
     "number": 10,
     "name": "千葉",

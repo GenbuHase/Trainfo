@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   {
     "id": "OH-01",
+    "stationNumber": "OH-01",
     "lineId": "odakyu_odawara",
     "number": 1,
     "name": "新宿",
@@ -45,6 +46,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-02",
+    "stationNumber": "OH-02",
     "lineId": "odakyu_odawara",
     "number": 2,
     "name": "南新宿",
@@ -71,6 +73,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-03",
+    "stationNumber": "OH-03",
     "lineId": "odakyu_odawara",
     "number": 3,
     "name": "参宮橋",
@@ -97,6 +100,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-04",
+    "stationNumber": "OH-04",
     "lineId": "odakyu_odawara",
     "number": 4,
     "name": "代々木八幡",
@@ -125,6 +129,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-05",
+    "stationNumber": "OH-05",
     "lineId": "odakyu_odawara",
     "number": 5,
     "name": "代々木上原",
@@ -160,6 +165,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-06",
+    "stationNumber": "OH-06",
     "lineId": "odakyu_odawara",
     "number": 6,
     "name": "東北沢",
@@ -186,6 +192,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-07",
+    "stationNumber": "OH-07",
     "lineId": "odakyu_odawara",
     "number": 7,
     "name": "下北沢",
@@ -220,6 +227,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-08",
+    "stationNumber": "OH-08",
     "lineId": "odakyu_odawara",
     "number": 8,
     "name": "世田谷代田",
@@ -246,6 +254,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-09",
+    "stationNumber": "OH-09",
     "lineId": "odakyu_odawara",
     "number": 9,
     "name": "梅ヶ丘",
@@ -272,6 +281,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-10",
+    "stationNumber": "OH-10",
     "lineId": "odakyu_odawara",
     "number": 10,
     "name": "豪徳寺",
@@ -300,6 +310,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-11",
+    "stationNumber": "OH-11",
     "lineId": "odakyu_odawara",
     "number": 11,
     "name": "経堂",
@@ -330,6 +341,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-12",
+    "stationNumber": "OH-12",
     "lineId": "odakyu_odawara",
     "number": 12,
     "name": "千歳船橋",
@@ -356,6 +368,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-13",
+    "stationNumber": "OH-13",
     "lineId": "odakyu_odawara",
     "number": 13,
     "name": "祖師ヶ谷大蔵",
@@ -382,6 +395,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-14",
+    "stationNumber": "OH-14",
     "lineId": "odakyu_odawara",
     "number": 14,
     "name": "成城学園前",
@@ -414,6 +428,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-15",
+    "stationNumber": "OH-15",
     "lineId": "odakyu_odawara",
     "number": 15,
     "name": "喜多見",
@@ -440,6 +455,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-16",
+    "stationNumber": "OH-16",
     "lineId": "odakyu_odawara",
     "number": 16,
     "name": "狛江",
@@ -466,6 +482,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-17",
+    "stationNumber": "OH-17",
     "lineId": "odakyu_odawara",
     "number": 17,
     "name": "和泉多摩川",
@@ -492,6 +509,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-18",
+    "stationNumber": "OH-18",
     "lineId": "odakyu_odawara",
     "number": 18,
     "name": "登戸",
@@ -526,6 +544,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-19",
+    "stationNumber": "OH-19",
     "lineId": "odakyu_odawara",
     "number": 19,
     "name": "向ヶ丘遊園",
@@ -558,6 +577,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-20",
+    "stationNumber": "OH-20",
     "lineId": "odakyu_odawara",
     "number": 20,
     "name": "生田",
@@ -586,6 +606,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-21",
+    "stationNumber": "OH-21",
     "lineId": "odakyu_odawara",
     "number": 21,
     "name": "読売ランド前",
@@ -614,6 +635,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-22",
+    "stationNumber": "OH-22",
     "lineId": "odakyu_odawara",
     "number": 22,
     "name": "百合ヶ丘",
@@ -642,6 +664,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-23",
+    "stationNumber": "OH-23",
     "lineId": "odakyu_odawara",
     "number": 23,
     "name": "新百合ヶ丘",
@@ -677,6 +700,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-24",
+    "stationNumber": "OH-24",
     "lineId": "odakyu_odawara",
     "number": 24,
     "name": "柿生",
@@ -705,6 +729,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-25",
+    "stationNumber": "OH-25",
     "lineId": "odakyu_odawara",
     "number": 25,
     "name": "鶴川",
@@ -733,6 +758,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-26",
+    "stationNumber": "OH-26",
     "lineId": "odakyu_odawara",
     "number": 26,
     "name": "玉川学園前",
@@ -761,6 +787,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-27",
+    "stationNumber": "OH-27",
     "lineId": "odakyu_odawara",
     "number": 27,
     "name": "町田",
@@ -795,6 +822,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-28",
+    "stationNumber": "OH-28",
     "lineId": "odakyu_odawara",
     "number": 28,
     "name": "相模大野",
@@ -829,6 +857,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-29",
+    "stationNumber": "OH-29",
     "lineId": "odakyu_odawara",
     "number": 29,
     "name": "小田急相模原",
@@ -857,6 +886,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-30",
+    "stationNumber": "OH-30",
     "lineId": "odakyu_odawara",
     "number": 30,
     "name": "相武台前",
@@ -885,6 +915,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-31",
+    "stationNumber": "OH-31",
     "lineId": "odakyu_odawara",
     "number": 31,
     "name": "座間",
@@ -913,6 +944,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-32",
+    "stationNumber": "OH-32",
     "lineId": "odakyu_odawara",
     "number": 32,
     "name": "海老名",
@@ -948,6 +980,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-33",
+    "stationNumber": "OH-33",
     "lineId": "odakyu_odawara",
     "number": 33,
     "name": "厚木",
@@ -978,6 +1011,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-34",
+    "stationNumber": "OH-34",
     "lineId": "odakyu_odawara",
     "number": 34,
     "name": "本厚木",
@@ -1010,6 +1044,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-35",
+    "stationNumber": "OH-35",
     "lineId": "odakyu_odawara",
     "number": 35,
     "name": "愛甲石田",
@@ -1039,6 +1074,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-36",
+    "stationNumber": "OH-36",
     "lineId": "odakyu_odawara",
     "number": 36,
     "name": "伊勢原",
@@ -1070,6 +1106,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-37",
+    "stationNumber": "OH-37",
     "lineId": "odakyu_odawara",
     "number": 37,
     "name": "鶴巻温泉",
@@ -1099,6 +1136,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-38",
+    "stationNumber": "OH-38",
     "lineId": "odakyu_odawara",
     "number": 38,
     "name": "東海大学前",
@@ -1128,6 +1166,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-39",
+    "stationNumber": "OH-39",
     "lineId": "odakyu_odawara",
     "number": 39,
     "name": "秦野",
@@ -1159,6 +1198,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-40",
+    "stationNumber": "OH-40",
     "lineId": "odakyu_odawara",
     "number": 40,
     "name": "渋沢",
@@ -1188,6 +1228,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-41",
+    "stationNumber": "OH-41",
     "lineId": "odakyu_odawara",
     "number": 41,
     "name": "新松田",
@@ -1221,6 +1262,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-42",
+    "stationNumber": "OH-42",
     "lineId": "odakyu_odawara",
     "number": 42,
     "name": "開成",
@@ -1248,6 +1290,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-43",
+    "stationNumber": "OH-43",
     "lineId": "odakyu_odawara",
     "number": 43,
     "name": "栢山",
@@ -1274,6 +1317,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-44",
+    "stationNumber": "OH-44",
     "lineId": "odakyu_odawara",
     "number": 44,
     "name": "富水",
@@ -1300,6 +1344,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-45",
+    "stationNumber": "OH-45",
     "lineId": "odakyu_odawara",
     "number": 45,
     "name": "螢田",
@@ -1326,6 +1371,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-46",
+    "stationNumber": "OH-46",
     "lineId": "odakyu_odawara",
     "number": 46,
     "name": "足柄",
@@ -1352,6 +1398,7 @@ export const ODAKYU_ODAWARA_STATIONS: Station[] = [
   },
   {
     "id": "OH-47",
+    "stationNumber": "OH-47",
     "lineId": "odakyu_odawara",
     "number": 47,
     "name": "小田原",

@@ -4,6 +4,7 @@ import type { Station } from '../../../types';
 export const CHUO_MAIN_STATIONS: Station[] = [
   {
     "id": "JC-24",
+    "stationNumber": "JC-24",
     "lineId": "chuo_main",
     "number": 24,
     "name": "高尾",

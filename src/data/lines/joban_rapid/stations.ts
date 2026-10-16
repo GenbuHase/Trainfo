@@ -3,6 +3,7 @@ import type { Station } from '../../../types';
 export const JOBAN_RAPID_STATIONS: Station[] = [
   {
     "id": "JJ-01",
+    "stationNumber": "JJ-01",
     "lineId": "joban_rapid",
     "number": 1,
     "name": "上野",
@@ -43,6 +44,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JJ-02",
+    "stationNumber": "JJ-02",
     "lineId": "joban_rapid",
     "number": 2,
     "name": "日暮里",
@@ -78,6 +80,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JJ-03",
+    "stationNumber": "JJ-03",
     "lineId": "joban_rapid",
     "number": 3,
     "name": "三河島",
@@ -106,6 +109,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JJ-04",
+    "stationNumber": "JJ-04",
     "lineId": "joban_rapid",
     "number": 4,
     "name": "南千住",
@@ -137,6 +141,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JJ-05",
+    "stationNumber": "JJ-05",
     "lineId": "joban_rapid",
     "number": 5,
     "name": "北千住",
@@ -173,6 +178,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JJ-06",
+    "stationNumber": "JJ-06",
     "lineId": "joban_rapid",
     "number": 6,
     "name": "松戸",
@@ -205,6 +211,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JJ-07",
+    "stationNumber": "JJ-07",
     "lineId": "joban_rapid",
     "number": 7,
     "name": "柏",
@@ -238,6 +245,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JJ-08",
+    "stationNumber": "JJ-08",
     "lineId": "joban_rapid",
     "number": 8,
     "name": "我孫子",
@@ -270,6 +278,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JJ-09",
+    "stationNumber": "JJ-09",
     "lineId": "joban_rapid",
     "number": 9,
     "name": "天王台",
@@ -301,6 +310,7 @@ export const JOBAN_RAPID_STATIONS: Station[] = [
   },
   {
     "id": "JJ-10",
+    "stationNumber": "JJ-10",
     "lineId": "joban_rapid",
     "number": 10,
     "name": "取手",

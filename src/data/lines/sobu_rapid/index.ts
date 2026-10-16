@@ -8,8 +8,8 @@ export const sobuRapidLine: LineDefinition = {
   name: 'JR総武快速線',
   shortName: '総武快速線',
   operator: 'JR東日本',
-  lineColor: '#007ac0',
-  accentColor: '#007ac0',
+  lineColor: '#0074be',
+  accentColor: '#0074be',
   defaultCars: 15,
   defaultBounds: [[35.6,139.76],[35.71,140.13]],
   directionNames: {

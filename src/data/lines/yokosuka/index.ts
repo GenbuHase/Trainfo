@@ -8,8 +8,8 @@ export const yokosukaLine: LineDefinition = {
   name: 'JR横須賀線',
   shortName: '横須賀線',
   operator: 'JR東日本',
-  lineColor: '#007ac0',
-  accentColor: '#007ac0',
+  lineColor: '#0074be',
+  accentColor: '#0074be',
   defaultCars: 15,
   defaultBounds: [[35.21,139.69],[35.69,139.78]],
   directionNames: {

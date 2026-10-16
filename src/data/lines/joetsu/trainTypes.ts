@@ -6,10 +6,10 @@ export const JOETSU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '普通',
     nameEn: 'Local',
     shortName: '普通',
-    color: '#808080',
+    color: '#00b3e6',
     textColor: '#ffffff',
-    bgColor: '#808080',
-    borderColor: '#808080',
+    bgColor: '#00b3e6',
+    borderColor: '#00b3e6',
   },
   rapid: {
     key: 'rapid',
