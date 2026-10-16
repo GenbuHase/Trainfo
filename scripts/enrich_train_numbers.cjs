@@ -2207,6 +2207,18 @@ if (target === 'joetsu' || target === 'jr' || target === 'all') {
 if (target === 'tokaido_shizuoka' || target === 'jr' || target === 'all') {
   enrichGenericLine('tokaido_shizuoka', 'JR東海道線（静岡地区）');
 }
+if (target === 'shinetsu' || target === 'jr' || target === 'all') {
+  enrichGenericLine('shinetsu', 'JR信越本線');
+}
+if (target === 'tadami' || target === 'jr' || target === 'all') {
+  enrichGenericLine('tadami', 'JR只見線');
+}
+if (target === 'banetsu_west' || target === 'jr' || target === 'all') {
+  enrichGenericLine('banetsu_west', 'JR磐越西線');
+}
+if (target === 'banetsu_east' || target === 'jr' || target === 'all') {
+  enrichGenericLine('banetsu_east', 'JR磐越東線');
+}
 
 /**
  * Yahoo駅時刻表キャッシュ（stations/*.json）からの汎用公式列車番号エンリッチメント

@@ -47,6 +47,10 @@ import { shonanShinjukuLine } from './lines/shonan_shinjuku';
 import { uenoTokyoLine } from './lines/ueno_tokyo';
 import { ryomoLine } from './lines/ryomo';
 import { joetsuLine } from './lines/joetsu';
+import { shinetsuLine } from './lines/shinetsu';
+import { tadamiLine } from './lines/tadami';
+import { banetsuWestLine } from './lines/banetsu_west';
+import { banetsuEastLine } from './lines/banetsu_east';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -75,6 +79,10 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   ueno_tokyo: uenoTokyoLine,
   ryomo: ryomoLine,
   joetsu: joetsuLine,
+  shinetsu: shinetsuLine,
+  tadami: tadamiLine,
+  banetsu_west: banetsuWestLine,
+  banetsu_east: banetsuEastLine,
   seibu_ikebukuro: seibuIkebukuroLine,
 
   seibu_yurakucho: seibuYurakuchoLine,

@@ -249,6 +249,30 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#00b3e6',
     numColor: '#007ca0',
   },
+  // JR信越本線
+  SE: {
+    borderColor: '#00acd1',
+    prefixColor: '#00acd1',
+    numColor: '#007b96',
+  },
+  // JR只見線
+  TD: {
+    borderColor: '#0081b8',
+    prefixColor: '#0081b8',
+    numColor: '#005f88',
+  },
+  // JR磐越西線
+  BW: {
+    borderColor: '#bc6e23',
+    prefixColor: '#bc6e23',
+    numColor: '#8a4e16',
+  },
+  // JR磐越東線
+  BE: {
+    borderColor: '#c5527a',
+    prefixColor: '#c5527a',
+    numColor: '#933555',
+  },
 };
 
 
