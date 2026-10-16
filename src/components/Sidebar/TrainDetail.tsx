@@ -352,7 +352,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
             )}
           </div>
 
-          <div className="relative pl-6 space-y-4 before:absolute before:left-2.5 before:top-2 before:bottom-2 before:w-0.5 before:bg-slate-200">
+          <div className="relative pl-6 space-y-4 before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-0.5 before:bg-slate-200">
             {displayStops.map((stop, idx) => {
               const st = STATION_MAP.get(stop.stationId);
               if (!st) return null;
@@ -362,42 +362,11 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
               const itemLineColor = isFullMode ? stop.lineColor : lineColor;
 
               return (
-                <div key={`${stop.lineId}_${stop.stationId}_${idx}`} className="relative">
-                  {/* 全区間モード時: 始発路線ヘッダー（先頭駅の上） */}
-                  {isFullMode && idx === 0 && (
-                    <div className="relative mb-3.5 -ml-6 flex items-center gap-2 select-none">
-                      <div className="w-5 border-t-2" style={{ borderColor: stop.lineColor }} />
-                      <div
-                        className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold text-white shadow-2xs shrink-0"
-                        style={{ backgroundColor: stop.lineColor }}
-                      >
-                        <span className="text-[10px] opacity-90">▼</span>
-                        <span className="font-extrabold">{stop.lineShortName}</span>
-                        <TrainTypeBadge type={stop.trainType} size="sm" lineId={stop.lineId} />
-                        {stop.trainNumber && (
-                          <span className="font-mono text-[10px] font-bold bg-black/20 px-1.5 py-0.5 rounded text-white">
-                            {formatTrainNumber(stop.trainNumber)}
-                          </span>
-                        )}
-                      </div>
-                      <div className="flex-1 border-t-2 opacity-30" style={{ borderColor: stop.lineColor }} />
-                    </div>
-                  )}
-
-                  {/* レール縦線（全区間モードで路線カラーを反映） */}
-                  {!isLast && (
-                    <div
-                      className="absolute -left-[18px] top-4 bottom-[-16px] w-0.5 pointer-events-none z-0"
-                      style={{
-                        backgroundColor: itemLineColor,
-                      }}
-                    />
-                  )}
-
+                <React.Fragment key={`${stop.lineId}_${stop.stationId}_${idx}`}>
                   <div
                     role="button"
                     tabIndex={0}
-                    className="relative group cursor-pointer select-none z-10"
+                    className="relative group cursor-pointer select-none"
                     onClick={() => onSelectStation(st)}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' || e.key === ' ') {
@@ -406,17 +375,19 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                       }
                     }}
                   >
-                    {/* ピンマーカー */}
-                    <div
-                      className={`absolute -left-6 top-1 w-3.5 h-3.5 rounded-full border-2 transition-transform group-hover:scale-125 z-10 ${
-                        stop.isCurrent
-                          ? 'bg-amber-500 border-white ring-4 ring-amber-300 ring-opacity-70 animate-pulse'
-                          : isPassing
-                          ? 'bg-slate-200 border-slate-300 w-2 h-2 -left-[21px] top-1.5'
-                          : 'bg-white'
-                      }`}
-                      style={!stop.isCurrent && !isPassing ? { borderColor: itemLineColor } : {}}
-                    />
+                    {/* ピンマーカー (コンテナ中央揃えにより停車・通過・現在位置を行の上下中央に完全同軸化) */}
+                    <div className="absolute -left-6 inset-y-0 w-6 flex items-center justify-center pointer-events-none z-10">
+                      <div
+                        className={`rounded-full transition-transform group-hover:scale-125 ${
+                          stop.isCurrent
+                            ? 'w-3.5 h-3.5 bg-amber-500 border-2 border-white ring-4 ring-amber-300 ring-opacity-70 animate-pulse'
+                            : isPassing
+                            ? 'w-2 h-2 bg-slate-300 border border-slate-300'
+                            : 'w-3.5 h-3.5 bg-white border-2'
+                        }`}
+                        style={!stop.isCurrent && !isPassing ? { borderColor: itemLineColor } : {}}
+                      />
+                    </div>
 
                     {/* 駅名と時刻 */}
                     <div className="flex items-center justify-between text-xs py-0.5">
@@ -485,7 +456,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                     const nextLine = getLine(stop.boundaryInfo.nextLineId);
                     const nextLineColor = nextLine?.lineColor || '#004b97';
                     return (
-                      <div className="relative my-3.5 -ml-6 flex items-center gap-2 select-none">
+                      <div className="relative py-1 -ml-6 flex items-center gap-2 select-none">
                         {/* 左側の水平線 */}
                         <div className="w-5 border-t-2" style={{ borderColor: nextLineColor }} />
 
@@ -494,7 +465,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                           className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold text-white shadow-2xs shrink-0"
                           style={{ backgroundColor: nextLineColor }}
                         >
-                          <span className="text-[10px] opacity-90">▼</span>
+                          <span className="text-[10px] opacity-90">▼ ここから</span>
                           <span className="font-extrabold">{stop.boundaryInfo.nextLineName}</span>
                           {stop.boundaryInfo.nextTrainType && (
                             <TrainTypeBadge
@@ -515,7 +486,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                       </div>
                     );
                   })()}
-                </div>
+                </React.Fragment>
               );
             })}
 
