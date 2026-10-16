@@ -1,4 +1,13 @@
-import type { TimetableTrip, TrainTypeKey, Direction, LineId, StationTimetableStore, RawStationDeparture } from '../types';
+import type {
+  TimetableTrip,
+  TrainTypeKey,
+  Direction,
+  LineId,
+  StationTimetableStore,
+  RawStationDeparture,
+  ThroughChainStop,
+  ThroughChainSummary,
+} from '../types';
 import { STATION_MAP } from './stations';
 import { getCombinedStationTimetables, getCombinedGlobalTimetable, getLine } from './linesRegistry';
 
@@ -453,3 +462,130 @@ export function getThroughChainTripIds(initialTripId: string): Set<string> {
   return new Set(trips.map((t) => t.tripId));
 }
 
+/**
+ * 直通運転チェーンのTimetableTrip群から、境界駅を統合した全区間タイムラインサマリーを生成
+ */
+export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughChainSummary {
+  if (!chainTrips || chainTrips.length === 0) {
+    return {
+      trips: [],
+      stops: [],
+      lines: [],
+      hasMultipleLines: false,
+    };
+  }
+
+  // 経由路線リストの収集
+  const linesMap = new Map<
+    string,
+    {
+      lineId: LineId;
+      name: string;
+      shortName: string;
+      lineColor: string;
+      initialTrainType: TrainTypeKey;
+      initialTrainNumber?: string;
+    }
+  >();
+
+  for (const trip of chainTrips) {
+    if (!linesMap.has(trip.lineId)) {
+      const line = getLine(trip.lineId);
+      linesMap.set(trip.lineId, {
+        lineId: trip.lineId,
+        name: line?.name || trip.lineId,
+        shortName: line?.shortName || line?.name || trip.lineId,
+        lineColor: line?.lineColor || '#004b97',
+        initialTrainType: trip.trainType,
+        initialTrainNumber: trip.trainNumber,
+      });
+    }
+  }
+
+  const lines = Array.from(linesMap.values());
+  const hasMultipleLines = chainTrips.length > 1 || lines.length > 1;
+
+  const stops: ThroughChainStop[] = [];
+
+  for (let tripIdx = 0; tripIdx < chainTrips.length; tripIdx++) {
+    const trip = chainTrips[tripIdx];
+    const line = getLine(trip.lineId);
+    const lineName = line?.name || trip.lineId;
+    const lineShortName = line?.shortName || line?.name || trip.lineId;
+    const lineColor = line?.lineColor || '#004b97';
+
+    for (let stopIdx = 0; stopIdx < trip.stops.length; stopIdx++) {
+      const s = trip.stops[stopIdx];
+      const station = STATION_MAP.get(s.stationId);
+      const stationName = station?.name || s.stationId;
+
+      // 区間別列車番号
+      let currentTrainNumber = trip.trainNumber;
+      let trainNumberChange: string | undefined;
+      if (trip.trainNumberSections) {
+        const sec = trip.trainNumberSections.find((ts) => ts.fromStationId === s.stationId);
+        if (sec) {
+          trainNumberChange = sec.trainNumber;
+          currentTrainNumber = sec.trainNumber;
+        }
+      }
+
+      // 併結開始
+      const couplingStart = trip.coupling?.fromStationId === s.stationId;
+
+      // 直前の駅との境界判定 (先行トリップの末尾駅と後続トリップの先頭駅)
+      if (tripIdx > 0 && stopIdx === 0 && stops.length > 0) {
+        const prevStop = stops[stops.length - 1];
+        const isSameStation =
+          prevStop.stationId === s.stationId ||
+          prevStop.stationName === stationName;
+
+        if (isSameStation) {
+          // 境界駅の統合: 直前に追加された先行トリップの末尾駅を更新
+          prevStop.departureTime = s.departureTime || s.arrivalTime || prevStop.departureTime;
+          // 両方が通過の場合のみ通過、どちらかが停車なら停車
+          prevStop.isPassing = Boolean(prevStop.isPassing && s.isPassing);
+          prevStop.isBoundary = true;
+          prevStop.boundaryInfo = {
+            prevLineId: prevStop.lineId,
+            nextLineId: trip.lineId,
+            prevLineName: prevStop.lineShortName,
+            nextLineName: lineShortName,
+            prevTrainType: prevStop.trainType,
+            nextTrainType: trip.trainType,
+            prevTrainNumber: prevStop.trainNumber,
+            nextTrainNumber: trip.trainNumber,
+          };
+          // 先頭駅は統合されたのでスキップ
+          continue;
+        }
+      }
+
+      stops.push({
+        stationId: s.stationId,
+        stationName,
+        stationNumber: station?.stationNumber,
+        lineId: trip.lineId,
+        lineName,
+        lineShortName,
+        lineColor,
+        arrivalTime: s.arrivalTime,
+        departureTime: s.departureTime,
+        isPassing: Boolean(s.isPassing),
+        tripId: trip.tripId,
+        trainType: trip.trainType,
+        trainNumber: currentTrainNumber,
+        isBoundary: false,
+        trainNumberChange,
+        couplingStart,
+      });
+    }
+  }
+
+  return {
+    trips: chainTrips,
+    stops,
+    lines,
+    hasMultipleLines,
+  };
+}

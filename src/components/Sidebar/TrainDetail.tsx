@@ -1,8 +1,9 @@
-import React from 'react';
-import type { ActiveTrain, Station } from '../../types';
+import React, { useState, useEffect, useMemo, useRef } from 'react';
+import type { ActiveTrain, Station, LineId, TrainTypeKey, ThroughChainStop, TimetableTrip } from '../../types';
 import { TrainTypeBadge, StationBadge } from '../Common/Badges';
 import { STATION_MAP } from '../../data/stations';
-import { formatTrainNumber } from '../../data/timetableData';
+import { formatTrainNumber, getThroughChainTrips, buildThroughChainSummary } from '../../data/timetableData';
+import { loadLinesTimetables, isLineLoaded, subscribeTimetableLoad } from '../../data/timetableLoader';
 import { getLine } from '../../data/linesRegistry';
 import {
   Navigation,
@@ -20,6 +21,25 @@ interface TrainDetailProps {
   onSelectStation: (station: Station) => void;
 }
 
+interface DisplayStop {
+  stationId: string;
+  name: string;
+  stationNumber?: string;
+  arrivalTime: string;
+  departureTime: string;
+  isPassing: boolean;
+  lineId: LineId;
+  lineColor: string;
+  lineShortName: string;
+  trainType: TrainTypeKey;
+  trainNumber?: string;
+  isCurrent: boolean;
+  isBoundary?: boolean;
+  boundaryInfo?: ThroughChainStop['boundaryInfo'];
+  trainNumberChange?: string;
+  couplingStart?: boolean;
+}
+
 export const TrainDetail: React.FC<TrainDetailProps> = ({
   train,
   isTracking,
@@ -33,6 +53,136 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
   const currentStation = train.currentStationId ? STATION_MAP.get(train.currentStationId) : null;
   const nextStation = STATION_MAP.get(train.nextStationId);
   const nextStopStation = STATION_MAP.get(train.nextStopStationId);
+
+  // 表示モード（初期表示は「〇〇線内」）
+  const [timelineMode, setTimelineMode] = useState<'current' | 'full'>('current');
+  const [chainTrips, setChainTrips] = useState<TimetableTrip[]>(() => getThroughChainTrips(train.tripId));
+
+  // 直前の直通チェーンに含まれる tripId の Set を記憶（直通先への切り替わり時にモードを維持するため）
+  const prevChainTripIdsRef = useRef<Set<string>>(new Set(chainTrips.map((t) => t.tripId)));
+
+  useEffect(() => {
+    const newChain = getThroughChainTrips(train.tripId);
+    setChainTrips(newChain);
+
+    const isSameChain = prevChainTripIdsRef.current.has(train.tripId);
+    if (!isSameChain) {
+      // 完全に別の列車へ切り替わった場合は初期表示の「〇〇線内」に設定
+      setTimelineMode('current');
+    }
+    // 同一直通チェーン内での直通先への移行時は、現在の timelineMode（全区間 / 線内）をそのまま維持
+
+    prevChainTripIdsRef.current = new Set(newChain.map((t) => t.tripId));
+  }, [train.tripId]);
+
+  // 直通先・直通元路線の自動非同期ロード & ロード完了リスナー
+  useEffect(() => {
+    const needed: LineId[] = [];
+    if (train.throughLineId && !isLineLoaded(train.throughLineId) && !needed.includes(train.throughLineId)) {
+      needed.push(train.throughLineId);
+    }
+    if (train.prevLineId && !isLineLoaded(train.prevLineId) && !needed.includes(train.prevLineId)) {
+      needed.push(train.prevLineId);
+    }
+    for (const t of chainTrips) {
+      if (t.lineId && !isLineLoaded(t.lineId) && !needed.includes(t.lineId)) {
+        needed.push(t.lineId);
+      }
+    }
+
+    if (needed.length > 0) {
+      loadLinesTimetables(needed);
+    }
+
+    const unsubscribe = subscribeTimetableLoad(() => {
+      setChainTrips(getThroughChainTrips(train.tripId));
+    });
+
+    return unsubscribe;
+  }, [train.tripId, train.throughLineId, train.prevLineId, chainTrips]);
+
+  // 直通運行チェーン全体のサマリーを計算
+  const throughSummary = useMemo(() => {
+    if (chainTrips.length > 0) {
+      return buildThroughChainSummary(chainTrips);
+    }
+    return buildThroughChainSummary([
+      {
+        tripId: train.tripId,
+        lineId: train.lineId,
+        trainId: train.trainId,
+        trainNumber: train.trainNumber,
+        trainType: train.trainType,
+        direction: train.direction,
+        originStationId: train.originStationId,
+        destinationStationId: train.destinationStationId,
+        cars: train.cars,
+        isHoliday: false,
+        stops: train.stops,
+      } as TimetableTrip,
+    ]);
+  }, [chainTrips, train]);
+
+  const hasThroughLines = throughSummary.hasMultipleLines || Boolean(train.throughLineId || train.prevLineId);
+
+  // 路線内スコープ名（例: 埼京線内、東上線内）
+  const lineShortName = line?.shortName || line?.name || '当線';
+  const currentLineScopeLabel = lineShortName.endsWith('線') ? `${lineShortName}内` : `${lineShortName}線内`;
+
+  const isFullMode = timelineMode === 'full' && hasThroughLines;
+
+  // 表示する停車駅リストの作成
+  const displayStops: DisplayStop[] = useMemo(() => {
+    if (isFullMode && throughSummary.stops.length > 0) {
+      return throughSummary.stops.map((s) => {
+        const isCurrent = train.currentStationId === s.stationId;
+        return {
+          stationId: s.stationId,
+          name: s.stationName,
+          stationNumber: s.stationNumber,
+          arrivalTime: s.arrivalTime,
+          departureTime: s.departureTime,
+          isPassing: s.isPassing,
+          lineId: s.lineId,
+          lineColor: s.lineColor,
+          lineShortName: s.lineShortName,
+          trainType: s.trainType,
+          trainNumber: s.trainNumber,
+          isCurrent,
+          isBoundary: s.isBoundary,
+          boundaryInfo: s.boundaryInfo,
+          trainNumberChange: s.trainNumberChange,
+          couplingStart: s.couplingStart,
+        };
+      });
+    }
+
+    // 運行区間（自路線のみ）モード
+    return train.stops.map((s) => {
+      const st = STATION_MAP.get(s.stationId);
+      const isCurrent = train.currentStationId === s.stationId;
+      const trainNumberChange = train.trainNumberSections?.find((sec) => sec.fromStationId === s.stationId)?.trainNumber;
+      const couplingStart = train.coupling?.fromStationId === s.stationId;
+
+      return {
+        stationId: s.stationId,
+        name: st?.name || s.stationId,
+        stationNumber: st?.stationNumber,
+        arrivalTime: s.arrivalTime,
+        departureTime: s.departureTime,
+        isPassing: Boolean(s.isPassing),
+        lineId: train.lineId,
+        lineColor,
+        lineShortName,
+        trainType: train.trainType,
+        trainNumber: train.trainNumber,
+        isCurrent,
+        isBoundary: false,
+        trainNumberChange,
+        couplingStart,
+      };
+    });
+  }, [isFullMode, throughSummary.stops, train, lineColor, lineShortName]);
 
   return (
     <div className="flex flex-col h-full bg-white text-slate-800 overflow-y-auto">
@@ -164,109 +314,169 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
 
         {/* 停車駅タイムライン (グラフィカル路線図) */}
         <section>
-          <div className="flex items-center justify-between mb-2">
+          <div className="flex items-center justify-between mb-3">
             <h3 className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
               <Navigation className="w-3.5 h-3.5 text-slate-500" />
               <span>運行ルート・停車駅</span>
             </h3>
-            <span className="text-[11px] text-slate-400">駅名クリックで詳細</span>
+
+            {/* 「〇〇線内 / 全区間」切り替えタブ */}
+            {hasThroughLines && (
+              <div className="flex items-center p-0.5 bg-slate-100 rounded-lg border border-slate-200 text-xs">
+                <button
+                  onClick={() => setTimelineMode('current')}
+                  className={`px-2.5 py-1 text-[11px] font-bold rounded-md transition-all ${
+                    !isFullMode
+                      ? 'bg-white text-slate-900 shadow-2xs font-extrabold'
+                      : 'text-slate-500 hover:text-slate-800'
+                  }`}
+                >
+                  {currentLineScopeLabel}
+                </button>
+                <button
+                  onClick={() => setTimelineMode('full')}
+                  className={`px-2.5 py-1 text-[11px] font-bold rounded-md transition-all flex items-center gap-1.5 ${
+                    isFullMode
+                      ? 'bg-white text-slate-900 shadow-2xs font-extrabold'
+                      : 'text-slate-500 hover:text-slate-800'
+                  }`}
+                >
+                  <span>全区間</span>
+                  {throughSummary.lines.length > 1 && (
+                    <span className="text-[9px] px-1.5 py-0.2 bg-slate-200/90 text-slate-700 rounded-full font-mono">
+                      {throughSummary.lines.length}路線
+                    </span>
+                  )}
+                </button>
+              </div>
+            )}
           </div>
 
           <div className="relative pl-6 space-y-4 before:absolute before:left-2.5 before:top-2 before:bottom-2 before:w-0.5 before:bg-slate-200">
-            {train.stops.map((stop, idx) => {
+            {displayStops.map((stop, idx) => {
               const st = STATION_MAP.get(stop.stationId);
               if (!st) return null;
 
-              const isCurrent = train.currentStationId === stop.stationId;
               const isPassing = stop.isPassing;
-              const isLast = idx === train.stops.length - 1;
+              const isLast = idx === displayStops.length - 1;
+              const itemLineColor = isFullMode ? stop.lineColor : lineColor;
 
               return (
-                <div
-                  key={stop.stationId}
-                  role="button"
-                  tabIndex={0}
-                  className="relative group cursor-pointer select-none"
-                  onClick={() => onSelectStation(st)}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter' || e.key === ' ') {
-                      e.preventDefault();
-                      onSelectStation(st);
-                    }
-                  }}
-                >
-                  {/* ピンマーカー */}
+                <div key={`${stop.lineId}_${stop.stationId}_${idx}`} className="relative">
                   <div
-                    className={`absolute -left-6 top-1 w-3.5 h-3.5 rounded-full border-2 transition-transform group-hover:scale-125 ${
-                      isCurrent
-                        ? 'bg-amber-500 border-white ring-4 ring-amber-300 ring-opacity-70 animate-pulse'
-                        : isPassing
-                        ? 'bg-slate-200 border-slate-300 w-2 h-2 -left-[21px] top-1.5'
-                        : 'bg-white'
-                    }`}
-                    style={!isCurrent && !isPassing ? { borderColor: lineColor } : {}}
-                  />
+                    role="button"
+                    tabIndex={0}
+                    className="relative group cursor-pointer select-none"
+                    onClick={() => onSelectStation(st)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        onSelectStation(st);
+                      }
+                    }}
+                  >
+                    {/* ピンマーカー */}
+                    <div
+                      className={`absolute -left-6 top-1 w-3.5 h-3.5 rounded-full border-2 transition-transform group-hover:scale-125 z-10 ${
+                        stop.isCurrent
+                          ? 'bg-amber-500 border-white ring-4 ring-amber-300 ring-opacity-70 animate-pulse'
+                          : isPassing
+                          ? 'bg-slate-200 border-slate-300 w-2 h-2 -left-[21px] top-1.5'
+                          : 'bg-white'
+                      }`}
+                      style={!stop.isCurrent && !isPassing ? { borderColor: itemLineColor } : {}}
+                    />
 
-                  {/* 駅名と時刻 */}
-                  <div className="flex items-center justify-between text-xs py-0.5">
-                    <div className="flex items-center gap-1.5">
-                      <span
-                        className={`font-semibold ${
-                          isCurrent
-                            ? 'text-amber-600 font-black'
-                            : isPassing
-                            ? 'text-slate-400 text-[11px]'
-                            : 'text-slate-800'
-                        }`}
-                      >
-                        {st.name}
-                      </span>
-                      {!isPassing && st.stationNumber && <StationBadge id={st.stationNumber} size="sm" />}
-                      {/* 区間別列車番号切り替えインジケーター */}
-                      {train.trainNumberSections?.some((sec) => sec.fromStationId === stop.stationId) && (
-                        <span className="text-[9px] text-amber-800 bg-amber-100/80 border border-amber-300 px-1.5 py-0.5 rounded font-mono font-bold">
-                          ここから {train.trainNumberSections.find((sec) => sec.fromStationId === stop.stationId)?.trainNumber}
+                    {/* 駅名と時刻 */}
+                    <div className="flex items-center justify-between text-xs py-0.5">
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        <span
+                          className={`font-semibold ${
+                            stop.isCurrent
+                              ? 'text-amber-600 font-black'
+                              : isPassing
+                              ? 'text-slate-400 text-[11px]'
+                              : 'text-slate-800'
+                          }`}
+                        >
+                          {st.name}
                         </span>
-                      )}
-                      {/* 併結開始駅インジケーター */}
-                      {train.coupling?.fromStationId === stop.stationId && (
-                        <span className="text-[9px] text-sky-800 bg-sky-100/80 border border-sky-300 px-1.5 py-0.5 rounded font-bold">
-                          🔗 併結開始
-                        </span>
-                      )}
-                      {isPassing && (
-                        <span className="text-[10px] text-slate-400 bg-slate-100 px-1 py-0.5 rounded flex items-center gap-1">
-                          通過
-                          {idx === 0 && <span className="text-[9px] text-sky-600 font-medium">直通元</span>}
-                          {isLast && <span className="text-[9px] text-sky-600 font-medium">直通先</span>}
-                        </span>
-                      )}
-                    </div>
+                        {!isPassing && st.stationNumber && <StationBadge id={st.stationNumber} size="sm" />}
+                        {/* 区間別列車番号切り替えインジケーター */}
+                        {stop.trainNumberChange && (
+                          <span className="text-[9px] text-amber-800 bg-amber-100/80 border border-amber-300 px-1.5 py-0.5 rounded font-mono font-bold">
+                            ここから {stop.trainNumberChange}
+                          </span>
+                        )}
+                        {/* 併結開始駅インジケーター */}
+                        {stop.couplingStart && (
+                          <span className="text-[9px] text-sky-800 bg-sky-100/80 border border-sky-300 px-1.5 py-0.5 rounded font-bold">
+                            🔗 併結開始
+                          </span>
+                        )}
+                        {isPassing && (
+                          <span className="text-[10px] text-slate-400 bg-slate-100 px-1 py-0.5 rounded flex items-center gap-1">
+                            通過
+                            {!isFullMode && idx === 0 && <span className="text-[9px] text-sky-600 font-medium">直通元</span>}
+                            {!isFullMode && isLast && <span className="text-[9px] text-sky-600 font-medium">直通先</span>}
+                          </span>
+                        )}
+                      </div>
 
-                    <div className="flex items-center gap-2 shrink-0">
-                      {isCurrent && (
-                        <span className="text-[10px] font-bold text-amber-600 bg-amber-50 px-1.5 py-0.5 rounded">
-                          現在位置
-                        </span>
-                      )}
-                      {!isPassing && (
-                        <div className="text-[11px] font-mono text-right flex flex-col items-end leading-tight">
-                          {idx > 0 && (
-                            <span className="text-slate-500">
-                              {(stop.arrivalTime || stop.departureTime).slice(0, 5)}
-                              <span className="text-[9px] text-slate-400 ml-0.5">着</span>
-                            </span>
-                          )}
-                          {!isLast && (
-                            <span className="text-slate-700 font-medium">
-                              {stop.departureTime.slice(0, 5)}
-                              <span className="text-[9px] text-slate-400 ml-0.5">発</span>
-                            </span>
-                          )}
-                        </div>
-                      )}
+                      <div className="flex items-center gap-2 shrink-0">
+                        {stop.isCurrent && (
+                          <span className="text-[10px] font-bold text-amber-600 bg-amber-50 px-1.5 py-0.5 rounded">
+                            現在位置
+                          </span>
+                        )}
+                        {!isPassing && (
+                          <div className="text-[11px] font-mono text-right flex flex-col items-end leading-tight">
+                            {idx > 0 && (
+                              <span className="text-slate-500">
+                                {(stop.arrivalTime || stop.departureTime).slice(0, 5)}
+                                <span className="text-[9px] text-slate-400 ml-0.5">着</span>
+                              </span>
+                            )}
+                            {!isLast && (
+                              <span className="text-slate-700 font-medium">
+                                {stop.departureTime.slice(0, 5)}
+                                <span className="text-[9px] text-slate-400 ml-0.5">発</span>
+                              </span>
+                            )}
+                          </div>
+                        )}
+                      </div>
                     </div>
                   </div>
+
+                  {/* 路線境界セパレータ（全区間モード時） */}
+                  {isFullMode && stop.isBoundary && stop.boundaryInfo && (
+                    <div className="my-2.5 ml-0 p-2 rounded-lg bg-slate-50 border border-slate-200/90 shadow-2xs flex items-center justify-between flex-wrap gap-2 text-xs">
+                      <div className="flex items-center gap-1.5 flex-wrap">
+                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
+                          路線切替
+                        </span>
+                        <span
+                          className="text-[10px] font-bold px-1.5 py-0.5 rounded text-white shadow-2xs"
+                          style={{ backgroundColor: getLine(stop.boundaryInfo.nextLineId)?.lineColor || '#004b97' }}
+                        >
+                          {stop.boundaryInfo.nextLineName}
+                        </span>
+                        {stop.boundaryInfo.nextTrainType && (
+                          <TrainTypeBadge
+                            type={stop.boundaryInfo.nextTrainType}
+                            size="sm"
+                            lineId={stop.boundaryInfo.nextLineId}
+                          />
+                        )}
+                        {stop.boundaryInfo.nextTrainNumber && (
+                          <span className="font-mono text-[10px] font-bold text-slate-700 bg-white px-1.5 py-0.5 rounded border border-slate-200">
+                            {formatTrainNumber(stop.boundaryInfo.nextTrainNumber)}
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  )}
                 </div>
               );
             })}
