@@ -11,7 +11,7 @@ export const joetsuLine: LineDefinition = {
   lineColor: '#00b3e6',
   accentColor: '#00b3e6',
   defaultCars: 4,
-  defaultBounds: [[36.31, 138.78], [37.43, 139.08]],
+  defaultBounds: [[36.31, 138.78], [37.46, 139.08]],
   directionNames: {
     'inbound': '高崎方面',
     'outbound': '水上・長岡方面',

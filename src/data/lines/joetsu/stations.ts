@@ -1057,5 +1057,36 @@ export const JOETSU_STATIONS: Station[] = [
       "waitingRoom": true,
       "ticketOffice": true
     }
+  },
+  {
+    "id": "JOE-36",
+    "lineId": "joetsu",
+    "number": 36,
+    "name": "長岡",
+    "nameKana": "ながおか",
+    "nameEn": "Nagaoka",
+    "lat": 37.447787,
+    "lng": 138.853927,
+    "transfers": [
+      "上越新幹線",
+      "JR信越本線"
+    ],
+    "address": "新潟県長岡市城内町二丁目",
+    "platforms": {
+      "inbound": "上りホーム",
+      "outbound": "下りホーム"
+    },
+    "stoppingTypes": [
+      "local",
+      "rapid"
+    ],
+    "isMajor": true,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
   }
 ];

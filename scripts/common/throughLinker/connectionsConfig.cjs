@@ -836,27 +836,29 @@ module.exports = {
       requireIdMatch: true,
     },
 
-    // 35. JR上越線 ↔ JR信越本線 (宮内駅)
+    // 35. JR上越線 ↔ JR信越本線 (長岡駅)
     {
-      name: '上越線 -> 信越本線 (水上・越後湯沢発・宮内経由・長岡・新潟方面直通)',
+      name: '上越線 -> 信越本線 (水上・越後湯沢発・長岡経由・新潟方面直通)',
       lineA: 'joetsu',
       lineB: 'shinetsu',
-      stationA: 'JOE-35',
-      stationB: 'SE-22',
+      stationA: 'JOE-36',
+      stationB: 'SE-23',
       dirA: 'outbound',
       dirB: 'outbound',
       maxTimeDiff: 1800,
+      allowMidStationB: true,
       requireIdMatch: true,
     },
     {
-      name: '信越本線 -> 上越線 (長岡発・宮内経由・越後湯沢・水上方面直通)',
+      name: '信越本線 -> 上越線 (新潟発・長岡経由・越後湯沢・水上方面直通)',
       lineA: 'shinetsu',
       lineB: 'joetsu',
-      stationA: 'SE-22',
-      stationB: 'JOE-35',
+      stationA: 'SE-23',
+      stationB: 'JOE-36',
       dirA: 'inbound',
       dirB: 'inbound',
       maxTimeDiff: 1800,
+      allowMidStationA: true,
       requireIdMatch: true,
     },
 

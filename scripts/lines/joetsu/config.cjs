@@ -42,7 +42,8 @@ module.exports = {
     { "id": "JOE-32", "name": "越後川口", "yahooStationId": "23923", "inGroupId": "870", "outGroupId": "871" },
     { "id": "JOE-33", "name": "小千谷", "yahooStationId": "23948", "inGroupId": "870", "outGroupId": "871" },
     { "id": "JOE-34", "name": "越後滝谷", "yahooStationId": "23929", "inGroupId": "870", "outGroupId": "871" },
-    { "id": "JOE-35", "name": "宮内", "yahooStationId": "24077", "inGroupId": "870", "outGroupId": null }
+    { "id": "JOE-35", "name": "宮内", "yahooStationId": "24077", "inGroupId": "870", "outGroupId": "7641" },
+    { "id": "JOE-36", "name": "長岡", "yahooStationId": "24029", "inGroupId": "870", "outGroupId": null }
   ],
   "trainTypeMap": {
     "各駅停車": "local",
@@ -90,6 +91,7 @@ module.exports = {
     "31": 240,
     "32": 360,
     "33": 420,
-    "34": 360
+    "34": 360,
+    "35": 240
   }
 };
