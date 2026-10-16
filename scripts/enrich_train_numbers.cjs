@@ -2219,6 +2219,21 @@ if (target === 'banetsu_west' || target === 'jr' || target === 'all') {
 if (target === 'banetsu_east' || target === 'jr' || target === 'all') {
   enrichGenericLine('banetsu_east', 'JR磐越東線');
 }
+if (target === 'hokuriku_shinkansen' || target === 'shinkansen' || target === 'jr' || target === 'all') {
+  enrichGenericLine('hokuriku_shinkansen', 'JR北陸新幹線');
+}
+if (target === 'myoko_haneuma' || target === 'echigo' || target === 'all') {
+  enrichGenericLine('myoko_haneuma', 'えちごトキめき鉄道妙高はねうまライン');
+}
+if (target === 'nihonkai_hisui' || target === 'echigo' || target === 'all') {
+  enrichGenericLine('nihonkai_hisui', 'えちごトキめき鉄道日本海ひすいライン');
+}
+if (target === 'hokuhoku' || target === 'all') {
+  enrichGenericLine('hokuhoku', '北越急行ほくほく線');
+}
+if (target === 'kita_shinano' || target === 'shinano' || target === 'all') {
+  enrichGenericLine('kita_shinano', 'しなの鉄道北しなの線');
+}
 
 /**
  * Yahoo駅時刻表キャッシュ（stations/*.json）からの汎用公式列車番号エンリッチメント

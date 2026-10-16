@@ -138,6 +138,427 @@ const STATION_META = {
   '小千谷': { nameKana: 'おぢや', nameEn: 'Ojiya', address: '新潟県小千谷市東栄一丁目', transfers: ['JR上越線'] },
   '越後滝谷': { nameKana: 'えちごたきや', nameEn: 'Echigo-Takiya', address: '新潟県長岡市滝谷町', transfers: ['JR上越線'] },
   '宮内': { nameKana: 'みやうち', nameEn: 'Miyauchi', address: '新潟県長岡市宮内三丁目', transfers: ['JR上越線', 'JR信越本線'] },
+  '妙高高原': {
+    "nameKana": "みょうこうこうげん",
+    "nameEn": "Myoko-Kogen",
+    "address": "新潟県妙高市大字田口312",
+    "transfers": [
+      "妙高はねうまライン",
+      "しなの鉄道北しなの線"
+    ]
+  },
+  '関山': {
+    "nameKana": "せきやま",
+    "nameEn": "Sekiyama",
+    "address": "新潟県妙高市大字関山1213-15",
+    "transfers": []
+  },
+  '二本木': {
+    "nameKana": "にほんぎ",
+    "nameEn": "Nihongi",
+    "address": "新潟県上越市中郷区板橋552",
+    "transfers": []
+  },
+  '新井': {
+    "nameKana": "あらい",
+    "nameEn": "Arai",
+    "address": "東京都中野区上高田5丁目43-20",
+    "transfers": [
+      "妙高はねうまライン",
+      "北越急行ほくほく線直通"
+    ]
+  },
+  '北新井': {
+    "nameKana": "きたあらい",
+    "nameEn": "Kita-Arai",
+    "address": "新潟県妙高市柳井田町1丁目10-20",
+    "transfers": []
+  },
+  '上越妙高': {
+    "nameKana": "じょうえつみょうこう",
+    "nameEn": "Joetsu-Myoko",
+    "address": "新潟県上越市大和",
+    "transfers": [
+      "北陸新幹線",
+      "妙高はねうまライン"
+    ]
+  },
+  '南高田': {
+    "nameKana": "みなみたかだ",
+    "nameEn": "Minami-Takada",
+    "address": "新潟県上越市南高田町1-1",
+    "transfers": []
+  },
+  '高田': {
+    "nameKana": "たかだ",
+    "nameEn": "Takada",
+    "address": "東京都新宿区高田馬場1丁目35-2",
+    "transfers": []
+  },
+  '春日山': {
+    "nameKana": "かすがやま",
+    "nameEn": "Kasugayama",
+    "address": "新潟県上越市春日山町3丁目1-1",
+    "transfers": []
+  },
+  '直江津': {
+    "nameKana": "なおえつ",
+    "nameEn": "Naoetsu",
+    "address": "新潟県上越市東町1-1",
+    "transfers": [
+      "JR信越本線",
+      "妙高はねうまライン",
+      "日本海ひすいライン",
+      "北越急行ほくほく線"
+    ]
+  },
+  '長野': {
+    "nameKana": "ながの",
+    "nameEn": "Nagano",
+    "address": "長野県長野市南千歳1-25",
+    "transfers": [
+      "JR北陸新幹線",
+      "JR篠ノ井線",
+      "JR信越本線",
+      "しなの鉄道北しなの線",
+      "長野電鉄長野線"
+    ]
+  },
+  '北長野': {
+    "nameKana": "きたながの",
+    "nameEn": "Kita-Nagano",
+    "address": "長野県長野市中越2丁目34-34",
+    "transfers": []
+  },
+  '三才': {
+    "nameKana": "さんさい",
+    "nameEn": "Sansai",
+    "address": "長野県長野市大字三才2207",
+    "transfers": []
+  },
+  '豊野': {
+    "nameKana": "とよの",
+    "nameEn": "Toyono",
+    "address": "長野県長野市豊野町豊野1002",
+    "transfers": []
+  },
+  '牟礼': {
+    "nameKana": "むれ",
+    "nameEn": "Mure",
+    "address": "長野県上水内郡飯綱町大字豊野4921-1",
+    "transfers": []
+  },
+  '古間': {
+    "nameKana": "ふるま",
+    "nameEn": "Furuma",
+    "address": "長野県上水内郡信濃町大字富濃409",
+    "transfers": []
+  },
+  '黒姫': {
+    "nameKana": "くろひめ",
+    "nameEn": "Kurohime",
+    "address": "長野県上水内郡信濃町大字柏原2711",
+    "transfers": []
+  },
+  '谷浜': {
+    "nameKana": "たにはま",
+    "nameEn": "Tanihama",
+    "address": "新潟県上越市大字長浜122",
+    "transfers": []
+  },
+  '有間川': {
+    "nameKana": "ありまがわ",
+    "nameEn": "Arimagawa",
+    "address": "新潟県上越市大字有間川1075",
+    "transfers": []
+  },
+  '名立': {
+    "nameKana": "なだち",
+    "nameEn": "Nadachi",
+    "address": "新潟県上越市名立区名立大町1009",
+    "transfers": []
+  },
+  '筒石': {
+    "nameKana": "つついし",
+    "nameEn": "Tsutsuishi",
+    "address": "新潟県糸魚川市大字仙納927-2",
+    "transfers": []
+  },
+  '能生': {
+    "nameKana": "のう",
+    "nameEn": "No",
+    "address": "新潟県糸魚川市大字能生2583",
+    "transfers": []
+  },
+  '浦本': {
+    "nameKana": "うらもと",
+    "nameEn": "Uramoto",
+    "address": "新潟県糸魚川市大字間脇813",
+    "transfers": []
+  },
+  '梶屋敷': {
+    "nameKana": "かじやしき",
+    "nameEn": "Kajiyashiki",
+    "address": "新潟県糸魚川市大字田伏368",
+    "transfers": []
+  },
+  'えちご押上ひすい海岸': {
+    "nameKana": "えちごおしあげひすいかいがん",
+    "nameEn": "Echigo-Oshiage-Hisuikaigan",
+    "address": "新潟県糸魚川市押上2丁目107",
+    "transfers": []
+  },
+  '糸魚川': {
+    "nameKana": "いといがわ",
+    "nameEn": "Itoigawa",
+    "address": "新潟県糸魚川市大町1丁目7-47",
+    "transfers": [
+      "JR北陸新幹線",
+      "JR大糸線",
+      "日本海ひすいライン"
+    ]
+  },
+  '青海': {
+    "nameKana": "おうみ",
+    "nameEn": "Omi",
+    "address": "新潟県糸魚川市大字青海",
+    "transfers": []
+  },
+  '親不知': {
+    "nameKana": "おやしらず",
+    "nameEn": "Oyashirazu",
+    "address": "新潟県糸魚川市大字歌18",
+    "transfers": []
+  },
+  '市振': {
+    "nameKana": "いちぶり",
+    "nameEn": "Ichiburi",
+    "address": "新潟県糸魚川市大字市振910-3",
+    "transfers": [
+      "日本海ひすいライン",
+      "あいの風とやま鉄道"
+    ]
+  },
+  '魚沼丘陵': {
+    "nameKana": "うおぬまきゅうりょう",
+    "nameEn": "Uonuma-Kyuryo",
+    "address": "新潟県南魚沼市野田228-5",
+    "transfers": []
+  },
+  '美佐島': {
+    "nameKana": "みさじま",
+    "nameEn": "Misajima",
+    "address": "新潟県十日町市午",
+    "transfers": []
+  },
+  'しんざ': {
+    "nameKana": "しんざ",
+    "nameEn": "Shinza",
+    "address": "新潟県十日町市新座甲",
+    "transfers": []
+  },
+  '十日町': {
+    "nameKana": "とおかまち",
+    "nameEn": "Tokamachi",
+    "address": "新潟県十日町市旭町261-22",
+    "transfers": [
+      "JR飯山線",
+      "北越急行ほくほく線"
+    ]
+  },
+  'まつだい': {
+    "nameKana": "まつだい",
+    "nameEn": "Matsudai",
+    "address": "新潟県十日町市松代3701-2",
+    "transfers": []
+  },
+  'ほくほく大島': {
+    "nameKana": "ほくほくおおしま",
+    "nameEn": "Hokuhoku-Oshima",
+    "address": "新潟県上越市大島区下達269-7",
+    "transfers": []
+  },
+  '虫川大杉': {
+    "nameKana": "むしがわおおすぎ",
+    "nameEn": "Mushigawa-Osugi",
+    "address": "新潟県上越市浦川原区虫川",
+    "transfers": []
+  },
+  'うらがわら': {
+    "nameKana": "うらがわら",
+    "nameEn": "Uragawara",
+    "address": "新潟県上越市浦川原区顕聖寺",
+    "transfers": []
+  },
+  '大池いこいの森': {
+    "nameKana": "おおいけいこいのもり",
+    "nameEn": "Oike-Ikoinomori",
+    "address": "新潟県上越市頸城区大蒲生田",
+    "transfers": []
+  },
+  'くびき': {
+    "nameKana": "くびき",
+    "nameEn": "Kubiki",
+    "address": "新潟県上越市頸城区手島",
+    "transfers": []
+  },
+  '犀潟': {
+    "nameKana": "さいがた",
+    "nameEn": "Saigata",
+    "address": "新潟県上越市大潟区犀潟600-1",
+    "transfers": [
+      "JR信越本線",
+      "北越急行ほくほく線"
+    ]
+  },
+  '本庄早稲田': {
+    "nameKana": "ほんじょうわせだ",
+    "nameEn": "Honjo-Waseda",
+    "address": "埼玉県本庄市早稲田の杜1丁目1-1",
+    "transfers": []
+  },
+  '安中榛名': {
+    "nameKana": "あんなかはるな",
+    "nameEn": "Annaka-Haruna",
+    "address": "群馬県安中市東上秋間2552-5",
+    "transfers": []
+  },
+  '軽井沢': {
+    "nameKana": "かるいざわ",
+    "nameEn": "Karuizawa",
+    "address": "長野県北佐久郡軽井沢町大字軽井沢1178-1246",
+    "transfers": [
+      "JR北陸新幹線",
+      "しなの鉄道線"
+    ]
+  },
+  '佐久平': {
+    "nameKana": "さくだいら",
+    "nameEn": "Sakudaira",
+    "address": "長野県佐久市佐久平駅東52",
+    "transfers": [
+      "JR北陸新幹線",
+      "JR小海線"
+    ]
+  },
+  '上田': {
+    "nameKana": "うえだ",
+    "nameEn": "Ueda",
+    "address": "長野県上田市天神1丁目1-1",
+    "transfers": [
+      "JR北陸新幹線",
+      "しなの鉄道線",
+      "上田電鉄別所線"
+    ]
+  },
+  '飯山': {
+    "nameKana": "いいやま",
+    "nameEn": "Iiyama",
+    "address": "長野県飯山市大字飯山770-3",
+    "transfers": [
+      "JR北陸新幹線",
+      "JR飯山線"
+    ]
+  },
+  '黒部宇奈月温泉': {
+    "nameKana": "くろべうなづきおんせん",
+    "nameEn": "Kurobe-Unazukionsen",
+    "address": "富山県黒部市若栗3210-3",
+    "transfers": [
+      "JR北陸新幹線",
+      "富山地方鉄道本線（新黒部）"
+    ]
+  },
+  '富山': {
+    "nameKana": "とやま",
+    "nameEn": "Toyama",
+    "address": "富山県富山市明輪町1-225",
+    "transfers": [
+      "JR北陸新幹線",
+      "JR高山本線",
+      "あいの風とやま鉄道",
+      "富山地方鉄道本線",
+      "富山地方鉄道富山軌道線"
+    ]
+  },
+  '新高岡': {
+    "nameKana": "しんたかおか",
+    "nameEn": "Shin-Takaoka",
+    "address": "富山県高岡市下黒田3011",
+    "transfers": [
+      "JR北陸新幹線",
+      "JR城端線"
+    ]
+  },
+  '金沢': {
+    "nameKana": "かなざわ",
+    "nameEn": "Kanazawa",
+    "address": "石川県金沢市木ノ新保町1-1",
+    "transfers": [
+      "JR北陸新幹線",
+      "IRいしかわ鉄道",
+      "北陸鉄道浅野川線"
+    ]
+  },
+  '小松': {
+    "nameKana": "こまつ",
+    "nameEn": "Komatsu",
+    "address": "石川県小松市土居原町466番",
+    "transfers": [
+      "JR北陸新幹線",
+      "IRいしかわ鉄道"
+    ]
+  },
+  '加賀温泉': {
+    "nameKana": "かがおんせん",
+    "nameEn": "Kagaonsen",
+    "address": "石川県加賀市作見町ヲ58",
+    "transfers": [
+      "JR北陸新幹線",
+      "IRいしかわ鉄道"
+    ]
+  },
+  '芦原温泉': {
+    "nameKana": "あわらおんせん",
+    "nameEn": "Awaraonsen",
+    "address": "福井県あわら市春宮1丁目12-15",
+    "transfers": [
+      "JR北陸新幹線",
+      "ハピラインふくい"
+    ]
+  },
+  '福井': {
+    "nameKana": "ふくい",
+    "nameEn": "Fukui",
+    "address": "福井県福井市中央1丁目1番1号",
+    "transfers": [
+      "JR北陸新幹線",
+      "ハピラインふくい",
+      "JR越美北線",
+      "えちぜん鉄道勝山永平寺線",
+      "福井鉄道福武線"
+    ]
+  },
+  '越前たけふ': {
+    "nameKana": "えちぜんたけふ",
+    "nameEn": "Echizen-Takefu",
+    "address": "福井県越前市大屋町39-10-5",
+    "transfers": [
+      "JR北陸新幹線"
+    ]
+  },
+  '敦賀': {
+    "nameKana": "つるが",
+    "nameEn": "Tsuruga",
+    "address": "福井県敦賀市鉄輪町一丁目1-24",
+    "transfers": [
+      "JR北陸新幹線",
+      "JR北陸本線",
+      "JR小浜線",
+      "ハピラインふくい"
+    ]
+  },
+
 };
 
 module.exports = { STATION_META };

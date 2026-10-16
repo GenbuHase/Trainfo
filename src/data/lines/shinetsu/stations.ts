@@ -12,7 +12,8 @@ export const SHINETSU_STATIONS: Station[] = [
     "lng": 138.242265,
     "transfers": [
       "えちごトキめき鉄道妙高はねうまライン",
-      "えちごトキめき鉄道日本海ひすいライン"
+      "えちごトキめき鉄道日本海ひすいライン",
+      "北越急行ほくほく線"
     ],
     "address": "新潟県直江津駅",
     "platforms": {
@@ -69,7 +70,9 @@ export const SHINETSU_STATIONS: Station[] = [
     "nameEn": "犀潟",
     "lat": 37.210345,
     "lng": 138.305154,
-    "transfers": [],
+    "transfers": [
+      "北越急行ほくほく線"
+    ],
     "address": "新潟県犀潟駅",
     "platforms": {
       "inbound": "上り 直江津方面",

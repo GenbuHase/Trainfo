@@ -292,11 +292,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "05:37:00",
-        "departureTime": "05:38:00",
+        "departureTime": "05:37:00",
         "isPassing": false
       }
     ],
-    "trainId": "33744"
+    "trainId": "33744",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_0538_33744",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-37_0532_32176",
@@ -348,9 +351,9 @@
       }
     ],
     "trainId": "32176",
+    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-38_0514_32176",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-23_0536_33244",
@@ -1149,9 +1152,9 @@
       }
     ],
     "trainId": "31125",
+    "customOrigin": "新潟",
     "throughTripId": "WD_INB_BW-42_0659_31125",
-    "throughLineId": "banetsu_west",
-    "customOrigin": "新潟"
+    "throughLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-01_0630_19227",
@@ -1465,9 +1468,9 @@
       }
     ],
     "trainId": "29359",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-32_0619_29340",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_0645_19030",
@@ -1653,9 +1656,9 @@
       }
     ],
     "trainId": "32173",
+    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-25_0517_32173",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-23_0651_33242",
@@ -1819,11 +1822,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "07:01:00",
-        "departureTime": "07:02:00",
+        "departureTime": "07:01:00",
         "isPassing": false
       }
     ],
-    "trainId": "33745"
+    "trainId": "33745",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_0702_33745",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_0653_19007",
@@ -2156,11 +2162,14 @@
       {
         "stationId": "SE-01",
         "arrivalTime": "07:39:00",
-        "departureTime": "07:44:00",
+        "departureTime": "07:39:00",
         "isPassing": false
       }
     ],
-    "trainId": "34099"
+    "trainId": "34099",
+    "customOrigin": "柏崎",
+    "throughTripId": "WD_INB_ETM-10_0744_34099",
+    "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_INB_SE-42_0706_19511",
@@ -2766,7 +2775,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40353"
+    "trainId": "40353",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_0608_40353",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-22_0714_29358",
@@ -2794,9 +2806,9 @@
       }
     ],
     "trainId": "29358",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-32_0652_29339",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_0716_31122",
@@ -2848,9 +2860,9 @@
       }
     ],
     "trainId": "31122",
+    "customOrigin": "新潟",
     "throughTripId": "WD_INB_BW-42_0740_31122",
-    "throughLineId": "banetsu_west",
-    "customOrigin": "新潟"
+    "throughLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-37_0719_32175",
@@ -2902,9 +2914,9 @@
       }
     ],
     "trainId": "32175",
+    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-36_0643_32175",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-23_0727_29366",
@@ -3072,7 +3084,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40369"
+    "trainId": "40369",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_0735_40369",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-22_0728_11362",
@@ -3214,9 +3229,9 @@
       }
     ],
     "trainId": "11362",
+    "customDestination": "新潟",
     "prevTripId": "WD_OUT_JOE-21_0625_11351",
-    "prevLineId": "joetsu",
-    "customDestination": "新潟"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_SE-37_0731_19246",
@@ -3276,7 +3291,7 @@
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-01",
-    "customDestination": "新井(新潟県)",
+    "customDestination": "新井",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3529,11 +3544,14 @@
       {
         "stationId": "SE-01",
         "arrivalTime": "09:23:00",
-        "departureTime": "09:25:00",
+        "departureTime": "09:23:00",
         "isPassing": false
       }
     ],
-    "trainId": "34095"
+    "trainId": "34095",
+    "customOrigin": "新潟",
+    "throughTripId": "WD_INB_ETM-10_0925_34095",
+    "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_OUT_SE-37_0737_32174",
@@ -3585,9 +3603,9 @@
       }
     ],
     "trainId": "32174",
+    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-36_0709_32174",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_INB_SE-42_0741_19031",
@@ -3754,7 +3772,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40354"
+    "trainId": "40354",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_0642_40354",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-01_0748_19228",
@@ -3934,9 +3955,9 @@
       }
     ],
     "trainId": "11363",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-20_0634_11352",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_SE-37_0753_19247",
@@ -4088,9 +4109,9 @@
       }
     ],
     "trainId": "32172",
+    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-15_0528_32172",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_INB_SE-23_0806_18995",
@@ -4275,7 +4296,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40370"
+    "trainId": "40370",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_0819_40370",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-23_0815_19215",
@@ -4512,9 +4536,9 @@
       }
     ],
     "trainId": "11376",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-18_0657_11365",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_0829_31124",
@@ -4566,9 +4590,9 @@
       }
     ],
     "trainId": "31124",
+    "customOrigin": "新潟",
     "throughTripId": "WD_INB_BW-42_0851_31124",
-    "throughLineId": "banetsu_west",
-    "customOrigin": "新潟"
+    "throughLineId": "banetsu_west"
   },
   {
     "tripId": "WD_INB_SE-03_0833_40355",
@@ -4601,7 +4625,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40355"
+    "trainId": "40355",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_0733_40355",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_0835_19009",
@@ -4838,9 +4865,9 @@
       }
     ],
     "trainId": "32178",
+    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-38_0832_32178",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-01_0903_33749",
@@ -4869,11 +4896,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "09:10:00",
-        "departureTime": "09:11:00",
+        "departureTime": "09:10:00",
         "isPassing": false
       }
     ],
-    "trainId": "33749"
+    "trainId": "33749",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_0911_33749",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-23_0906_33245",
@@ -5111,9 +5141,9 @@
       }
     ],
     "trainId": "11377",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-18_0745_11366",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_0920_19010",
@@ -5398,7 +5428,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35091"
+    "trainId": "35091",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_0843_35091",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-01_0951_19229",
@@ -5579,11 +5612,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "10:03:00",
-        "departureTime": "10:04:00",
+        "departureTime": "10:03:00",
         "isPassing": false
       }
     ],
-    "trainId": "33750"
+    "trainId": "33750",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_1004_33750",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-23_0957_18996",
@@ -5898,9 +5934,9 @@
       }
     ],
     "trainId": "11371",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-14_0823_11360",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_1023_34094",
@@ -6163,11 +6199,14 @@
       {
         "stationId": "SE-01",
         "arrivalTime": "12:09:00",
-        "departureTime": "12:11:00",
+        "departureTime": "12:09:00",
         "isPassing": false
       }
     ],
-    "trainId": "34094"
+    "trainId": "34094",
+    "customOrigin": "新潟",
+    "throughTripId": "WD_INB_ETM-10_1211_34094",
+    "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_OUT_SE-37_1026_19248",
@@ -6434,7 +6473,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35092"
+    "trainId": "35092",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_0936_35092",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-23_1038_19216",
@@ -6578,7 +6620,7 @@
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
-    "customOrigin": "新井(新潟県)",
+    "customOrigin": "新井",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6835,7 +6877,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38936"
+    "trainId": "38936",
+    "customDestination": "新潟",
+    "prevTripId": "WD_OUT_ETM-04_1023_38936",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_INB_SE-42_1048_19013",
@@ -7453,11 +7498,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "11:29:00",
-        "departureTime": "11:30:00",
+        "departureTime": "11:29:00",
         "isPassing": false
       }
     ],
-    "trainId": "33746"
+    "trainId": "33746",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_1130_33746",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1128_19014",
@@ -7535,9 +7583,9 @@
       }
     ],
     "trainId": "11372",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-14_0942_11361",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_SE-23_1143_19217",
@@ -8090,7 +8138,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35098"
+    "trainId": "35098",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_1102_35098",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-37_1221_19251",
@@ -8610,7 +8661,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35096"
+    "trainId": "35096",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_1158_35096",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-01_1301_40371",
@@ -8639,11 +8693,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "13:08:00",
-        "departureTime": "13:09:00",
+        "departureTime": "13:08:00",
         "isPassing": false
       }
     ],
-    "trainId": "40371"
+    "trainId": "40371",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_1309_40371",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1305_34096",
@@ -8906,11 +8963,14 @@
       {
         "stationId": "SE-01",
         "arrivalTime": "14:50:00",
-        "departureTime": "14:51:00",
+        "departureTime": "14:50:00",
         "isPassing": false
       }
     ],
-    "trainId": "34096"
+    "trainId": "34096",
+    "customOrigin": "新潟",
+    "throughTripId": "WD_INB_ETM-10_1451_34096",
+    "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_INB_SE-42_1308_19034",
@@ -9361,7 +9421,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38937"
+    "trainId": "38937",
+    "customDestination": "新潟",
+    "prevTripId": "WD_OUT_ETM-06_1309_38937",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_INB_SE-23_1327_18990",
@@ -9475,9 +9538,9 @@
       }
     ],
     "trainId": "11365",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-20_1214_11354",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_1328_42189",
@@ -9793,11 +9856,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "14:12:00",
-        "departureTime": "14:13:00",
+        "departureTime": "14:12:00",
         "isPassing": false
       }
     ],
-    "trainId": "33747"
+    "trainId": "33747",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_1413_33747",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1408_19035",
@@ -9983,9 +10049,9 @@
       }
     ],
     "trainId": "32177",
+    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-38_1354_32177",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-01_1418_19232",
@@ -10403,9 +10469,9 @@
       }
     ],
     "trainId": "11366",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-20_1314_11355",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_1428_19019",
@@ -10641,9 +10707,9 @@
       }
     ],
     "trainId": "31123",
+    "customOrigin": "新潟",
     "throughTripId": "WD_INB_BW-42_1509_31123",
-    "throughLineId": "banetsu_west",
-    "customOrigin": "新潟"
+    "throughLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-37_1458_33250",
@@ -11058,9 +11124,9 @@
       }
     ],
     "trainId": "11374",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-14_1330_11363",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_1528_19020",
@@ -11480,7 +11546,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40356"
+    "trainId": "40356",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_1450_40356",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-37_1555_19254",
@@ -11672,9 +11741,9 @@
       }
     ],
     "trainId": "11361",
+    "customDestination": "新潟",
     "prevTripId": "WD_OUT_JOE-20_1447_11350",
-    "prevLineId": "joetsu",
-    "customDestination": "新潟"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_SE-01_1607_33752",
@@ -11707,7 +11776,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33752"
+    "trainId": "33752",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_1614_33752",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1609_19037",
@@ -12035,7 +12107,7 @@
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-01",
-    "customDestination": "新井(新潟県)",
+    "customDestination": "新井",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -12288,11 +12360,14 @@
       {
         "stationId": "SE-01",
         "arrivalTime": "18:07:00",
-        "departureTime": "18:09:00",
+        "departureTime": "18:07:00",
         "isPassing": false
       }
     ],
-    "trainId": "34097"
+    "trainId": "34097",
+    "customOrigin": "新潟",
+    "throughTripId": "WD_INB_ETM-10_1809_34097",
+    "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_OUT_SE-22_1626_11367",
@@ -12320,9 +12395,9 @@
       }
     ],
     "trainId": "11367",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-20_1512_11356",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_1628_19022",
@@ -12844,7 +12919,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40357"
+    "trainId": "40357",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_1544_40357",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-23_1653_19001",
@@ -13214,7 +13292,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33753"
+    "trainId": "33753",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_1710_33753",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1703_19006",
@@ -13692,9 +13773,9 @@
       }
     ],
     "trainId": "11368",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-20_1610_11357",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_SE-37_1733_19257",
@@ -14213,7 +14294,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38938"
+    "trainId": "38938",
+    "customDestination": "新潟",
+    "prevTripId": "WD_OUT_ETM-06_1723_38938",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_OUT_SE-23_1739_33247",
@@ -14533,7 +14617,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40359"
+    "trainId": "40359",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_1639_40359",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1753_19005",
@@ -14700,7 +14787,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33754"
+    "trainId": "33754",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_1806_33754",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1805_19039",
@@ -14964,9 +15054,9 @@
       }
     ],
     "trainId": "11378",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-18_1708_11367",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_1833_19040",
@@ -16190,7 +16280,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35097"
+    "trainId": "35097",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_1826_35097",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-23_1927_19222",
@@ -16486,7 +16579,7 @@
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
-    "customOrigin": "新井(新潟県)",
+    "customOrigin": "新井",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -16743,7 +16836,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38935"
+    "trainId": "38935",
+    "customDestination": "新潟",
+    "prevTripId": "WD_OUT_ETM-04_1918_38935",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_INB_SE-42_1947_19025",
@@ -16826,7 +16922,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33755"
+    "trainId": "33755",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_1955_33755",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-37_1957_19260",
@@ -16904,9 +17003,9 @@
       }
     ],
     "trainId": "11375",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-14_1748_11364",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_2006_31126",
@@ -16958,9 +17057,9 @@
       }
     ],
     "trainId": "31126",
+    "customOrigin": "新潟",
     "throughTripId": "WD_INB_BW-42_2027_31126",
-    "throughLineId": "banetsu_west",
-    "customOrigin": "新潟"
+    "throughLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-23_2011_19223",
@@ -17127,7 +17226,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40358"
+    "trainId": "40358",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_1918_40358",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-23_2023_18992",
@@ -17646,7 +17748,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40372"
+    "trainId": "40372",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_2051_40372",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_2046_19026",
@@ -18199,7 +18304,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35093"
+    "trainId": "35093",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_2026_35093",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-01_2131_19237",
@@ -18429,9 +18537,9 @@
       }
     ],
     "trainId": "11379",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-18_2010_11368",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_2200_42190",
@@ -18747,11 +18855,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "22:26:00",
-        "departureTime": "22:27:00",
+        "departureTime": "22:26:00",
         "isPassing": false
       }
     ],
-    "trainId": "40373"
+    "trainId": "40373",
+    "customOrigin": "直江津",
+    "throughTripId": "WD_INB_HK-12_2227_40373",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-03_2221_35094",
@@ -18784,7 +18895,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35094"
+    "trainId": "35094",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_2119_35094",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-37_2223_19262",
@@ -18912,9 +19026,9 @@
       }
     ],
     "trainId": "11370",
+    "customDestination": "長岡",
     "prevTripId": "WD_OUT_JOE-14_2052_11359",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_2249_19045",
@@ -19486,7 +19600,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35095"
+    "trainId": "35095",
+    "customDestination": "直江津",
+    "prevTripId": "WD_OUT_HK-01_2249_35095",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_0514_19047",
@@ -19781,11 +19898,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "05:37:00",
-        "departureTime": "05:38:00",
+        "departureTime": "05:37:00",
         "isPassing": false
       }
     ],
-    "trainId": "33744"
+    "trainId": "33744",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_0538_33744",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-37_0532_32176",
@@ -19837,9 +19957,9 @@
       }
     ],
     "trainId": "32176",
+    "customDestination": "新潟",
     "prevTripId": "HD_OUT_BW-38_0514_32176",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-23_0536_33244",
@@ -20638,9 +20758,9 @@
       }
     ],
     "trainId": "31125",
+    "customOrigin": "新潟",
     "throughTripId": "HD_INB_BW-42_0659_31125",
-    "throughLineId": "banetsu_west",
-    "customOrigin": "新潟"
+    "throughLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-01_0630_19227",
@@ -20954,9 +21074,9 @@
       }
     ],
     "trainId": "29359",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-32_0619_29340",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_0645_19030",
@@ -21142,9 +21262,9 @@
       }
     ],
     "trainId": "32173",
+    "customDestination": "新潟",
     "prevTripId": "HD_OUT_BW-25_0517_32173",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-23_0651_33242",
@@ -21308,11 +21428,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "07:01:00",
-        "departureTime": "07:02:00",
+        "departureTime": "07:01:00",
         "isPassing": false
       }
     ],
-    "trainId": "33745"
+    "trainId": "33745",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_0702_33745",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_0653_19007",
@@ -21645,11 +21768,14 @@
       {
         "stationId": "SE-01",
         "arrivalTime": "07:39:00",
-        "departureTime": "07:44:00",
+        "departureTime": "07:39:00",
         "isPassing": false
       }
     ],
-    "trainId": "34099"
+    "trainId": "34099",
+    "customOrigin": "柏崎",
+    "throughTripId": "HD_INB_ETM-10_0744_34099",
+    "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_INB_SE-42_0706_19511",
@@ -22250,9 +22376,9 @@
       }
     ],
     "trainId": "29358",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-32_0652_29339",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_0716_31122",
@@ -22304,9 +22430,9 @@
       }
     ],
     "trainId": "31122",
+    "customOrigin": "新潟",
     "throughTripId": "HD_INB_BW-42_0740_31122",
-    "throughLineId": "banetsu_west",
-    "customOrigin": "新潟"
+    "throughLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-23_0727_29366",
@@ -22583,9 +22709,9 @@
       }
     ],
     "trainId": "11362",
+    "customDestination": "新潟",
     "prevTripId": "HD_OUT_JOE-21_0625_11351",
-    "prevLineId": "joetsu",
-    "customDestination": "新潟"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_SE-37_0731_19246",
@@ -22645,7 +22771,7 @@
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-01",
-    "customDestination": "新井(新潟県)",
+    "customDestination": "新井",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -22898,11 +23024,14 @@
       {
         "stationId": "SE-01",
         "arrivalTime": "09:23:00",
-        "departureTime": "09:25:00",
+        "departureTime": "09:23:00",
         "isPassing": false
       }
     ],
-    "trainId": "34095"
+    "trainId": "34095",
+    "customOrigin": "新潟",
+    "throughTripId": "HD_INB_ETM-10_0925_34095",
+    "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_OUT_SE-37_0737_32174",
@@ -22954,9 +23083,9 @@
       }
     ],
     "trainId": "32174",
+    "customDestination": "新潟",
     "prevTripId": "HD_OUT_BW-36_0709_32174",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "HD_INB_SE-42_0741_19031",
@@ -23123,7 +23252,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40354"
+    "trainId": "40354",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_0642_40354",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-01_0748_19228",
@@ -23303,9 +23435,9 @@
       }
     ],
     "trainId": "11363",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-20_0634_11352",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_SE-37_0753_19247",
@@ -23407,9 +23539,9 @@
       }
     ],
     "trainId": "32172",
+    "customDestination": "新潟",
     "prevTripId": "HD_OUT_BW-15_0528_32172",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "HD_INB_SE-23_0806_18995",
@@ -23594,7 +23726,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40370"
+    "trainId": "40370",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_0819_40370",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-23_0815_19215",
@@ -23831,9 +23966,9 @@
       }
     ],
     "trainId": "11376",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-18_0657_11365",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_0829_31124",
@@ -23885,9 +24020,9 @@
       }
     ],
     "trainId": "31124",
+    "customOrigin": "新潟",
     "throughTripId": "HD_INB_BW-42_0851_31124",
-    "throughLineId": "banetsu_west",
-    "customOrigin": "新潟"
+    "throughLineId": "banetsu_west"
   },
   {
     "tripId": "HD_INB_SE-03_0833_40355",
@@ -23920,7 +24055,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40355"
+    "trainId": "40355",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_0733_40355",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_0835_19009",
@@ -24157,9 +24295,9 @@
       }
     ],
     "trainId": "32178",
+    "customDestination": "新潟",
     "prevTripId": "HD_OUT_BW-38_0832_32178",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-01_0903_33749",
@@ -24188,11 +24326,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "09:10:00",
-        "departureTime": "09:11:00",
+        "departureTime": "09:10:00",
         "isPassing": false
       }
     ],
-    "trainId": "33749"
+    "trainId": "33749",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_0911_33749",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-23_0906_33245",
@@ -24430,9 +24571,9 @@
       }
     ],
     "trainId": "11377",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-18_0745_11366",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_0920_19010",
@@ -24717,7 +24858,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35091"
+    "trainId": "35091",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_0843_35091",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-01_0951_19229",
@@ -24898,11 +25042,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "10:03:00",
-        "departureTime": "10:04:00",
+        "departureTime": "10:03:00",
         "isPassing": false
       }
     ],
-    "trainId": "33750"
+    "trainId": "33750",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_1004_33750",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-23_0957_18996",
@@ -25217,9 +25364,9 @@
       }
     ],
     "trainId": "11371",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-14_0823_11360",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_SE-01_1018_38939",
@@ -25486,7 +25633,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38939"
+    "trainId": "38939",
+    "customDestination": "新潟",
+    "prevTripId": "HD_OUT_ETM-06_1002_38934",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_INB_SE-42_1023_34094",
@@ -25749,11 +25899,14 @@
       {
         "stationId": "SE-01",
         "arrivalTime": "12:09:00",
-        "departureTime": "12:11:00",
+        "departureTime": "12:09:00",
         "isPassing": false
       }
     ],
-    "trainId": "34094"
+    "trainId": "34094",
+    "customOrigin": "新潟",
+    "throughTripId": "HD_INB_ETM-10_1211_34094",
+    "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_OUT_SE-37_1026_19248",
@@ -26020,7 +26173,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35092"
+    "trainId": "35092",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_0936_35092",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-23_1038_19216",
@@ -26164,7 +26320,7 @@
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
-    "customOrigin": "新井(新潟県)",
+    "customOrigin": "新井",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -26421,7 +26577,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38936"
+    "trainId": "38936",
+    "customDestination": "新潟",
+    "prevTripId": "HD_OUT_ETM-04_1023_38936",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_INB_SE-42_1048_19013",
@@ -27039,11 +27198,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "11:29:00",
-        "departureTime": "11:30:00",
+        "departureTime": "11:29:00",
         "isPassing": false
       }
     ],
-    "trainId": "33746"
+    "trainId": "33746",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_1130_33746",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1128_19014",
@@ -27121,9 +27283,9 @@
       }
     ],
     "trainId": "11372",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-14_0942_11361",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_SE-23_1143_19217",
@@ -27676,7 +27838,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35098"
+    "trainId": "35098",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_1102_35098",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-37_1221_19251",
@@ -27956,9 +28121,9 @@
       }
     ],
     "trainId": "11364",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-20_1123_11353",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_SE-23_1240_19218",
@@ -28226,7 +28391,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35096"
+    "trainId": "35096",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_1158_35096",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-01_1301_40371",
@@ -28236,7 +28404,7 @@
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
-    "customDestination": "六日町",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -28255,11 +28423,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "13:08:00",
-        "departureTime": "13:09:00",
+        "departureTime": "13:08:00",
         "isPassing": false
       }
     ],
-    "trainId": "40371"
+    "trainId": "40371",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_1309_33751",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1305_34096",
@@ -28522,11 +28693,14 @@
       {
         "stationId": "SE-01",
         "arrivalTime": "14:50:00",
-        "departureTime": "14:51:00",
+        "departureTime": "14:50:00",
         "isPassing": false
       }
     ],
-    "trainId": "34096"
+    "trainId": "34096",
+    "customOrigin": "新潟",
+    "throughTripId": "HD_INB_ETM-10_1451_34096",
+    "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_INB_SE-42_1308_19034",
@@ -28977,7 +29151,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38937"
+    "trainId": "38937",
+    "customDestination": "新潟",
+    "prevTripId": "HD_OUT_ETM-06_1309_38937",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_INB_SE-23_1327_18990",
@@ -29091,9 +29268,9 @@
       }
     ],
     "trainId": "11365",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-20_1214_11354",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_1328_42189",
@@ -29409,11 +29586,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "14:12:00",
-        "departureTime": "14:13:00",
+        "departureTime": "14:12:00",
         "isPassing": false
       }
     ],
-    "trainId": "33747"
+    "trainId": "33747",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_1413_33747",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1408_19035",
@@ -29599,9 +29779,9 @@
       }
     ],
     "trainId": "32177",
+    "customDestination": "新潟",
     "prevTripId": "HD_OUT_BW-38_1354_32177",
-    "prevLineId": "banetsu_west",
-    "customDestination": "新潟"
+    "prevLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-01_1418_19232",
@@ -30019,9 +30199,9 @@
       }
     ],
     "trainId": "11366",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-20_1314_11355",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_1428_19019",
@@ -30257,9 +30437,9 @@
       }
     ],
     "trainId": "31123",
+    "customOrigin": "新潟",
     "throughTripId": "HD_INB_BW-42_1509_31123",
-    "throughLineId": "banetsu_west",
-    "customOrigin": "新潟"
+    "throughLineId": "banetsu_west"
   },
   {
     "tripId": "HD_INB_SE-03_1449_35099",
@@ -30292,7 +30472,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35099"
+    "trainId": "35099",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_1343_35099",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-37_1458_33250",
@@ -30639,11 +30822,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "15:14:00",
-        "departureTime": "15:22:00",
+        "departureTime": "15:14:00",
         "isPassing": false
       }
     ],
-    "trainId": "33748"
+    "trainId": "33748",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_1522_33748",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1508_19036",
@@ -31007,9 +31193,9 @@
       }
     ],
     "trainId": "11374",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-14_1330_11363",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_1528_19020",
@@ -31429,7 +31615,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40356"
+    "trainId": "40356",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_1450_40356",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-37_1555_19254",
@@ -31621,9 +31810,9 @@
       }
     ],
     "trainId": "11361",
+    "customDestination": "新潟",
     "prevTripId": "HD_OUT_JOE-20_1447_11350",
-    "prevLineId": "joetsu",
-    "customDestination": "新潟"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_SE-01_1607_33752",
@@ -31656,7 +31845,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33752"
+    "trainId": "33752",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_1614_33752",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1609_19037",
@@ -31984,7 +32176,7 @@
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-01",
-    "customDestination": "新井(新潟県)",
+    "customDestination": "新井",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -32237,11 +32429,14 @@
       {
         "stationId": "SE-01",
         "arrivalTime": "18:07:00",
-        "departureTime": "18:09:00",
+        "departureTime": "18:07:00",
         "isPassing": false
       }
     ],
-    "trainId": "34097"
+    "trainId": "34097",
+    "customOrigin": "新潟",
+    "throughTripId": "HD_INB_ETM-10_1809_34097",
+    "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_OUT_SE-22_1626_11367",
@@ -32269,9 +32464,9 @@
       }
     ],
     "trainId": "11367",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-20_1512_11356",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_1628_19022",
@@ -32770,7 +32965,7 @@
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
-    "customOrigin": "六日町",
+    "customOrigin": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -32793,7 +32988,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40357"
+    "trainId": "40357",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_1544_40357",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-23_1653_19001",
@@ -33163,7 +33361,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33753"
+    "trainId": "33753",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_1710_33753",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1703_19006",
@@ -33641,9 +33842,9 @@
       }
     ],
     "trainId": "11368",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-20_1610_11357",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_SE-37_1733_19257",
@@ -34162,7 +34363,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38938"
+    "trainId": "38938",
+    "customDestination": "新潟",
+    "prevTripId": "HD_OUT_ETM-06_1723_38938",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_OUT_SE-23_1739_33247",
@@ -34459,7 +34663,7 @@
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
-    "customOrigin": "六日町",
+    "customOrigin": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -34482,7 +34686,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40359"
+    "trainId": "40359",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_1639_40359",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1753_19005",
@@ -34649,7 +34856,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33754"
+    "trainId": "33754",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_1806_33754",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1805_19039",
@@ -34913,9 +35123,9 @@
       }
     ],
     "trainId": "11378",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-18_1708_11367",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_1833_19040",
@@ -36139,7 +36349,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35097"
+    "trainId": "35097",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_1826_35097",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-23_1927_19222",
@@ -36435,7 +36648,7 @@
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
-    "customOrigin": "新井(新潟県)",
+    "customOrigin": "新井",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -36692,7 +36905,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38935"
+    "trainId": "38935",
+    "customDestination": "新潟",
+    "prevTripId": "HD_OUT_ETM-04_1918_38935",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_INB_SE-42_1947_19025",
@@ -36775,7 +36991,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33755"
+    "trainId": "33755",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_1955_33755",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-37_1957_19260",
@@ -36853,9 +37072,9 @@
       }
     ],
     "trainId": "11375",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-14_1748_11364",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_2006_31126",
@@ -36907,9 +37126,9 @@
       }
     ],
     "trainId": "31126",
+    "customOrigin": "新潟",
     "throughTripId": "HD_INB_BW-42_2027_31126",
-    "throughLineId": "banetsu_west",
-    "customOrigin": "新潟"
+    "throughLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-23_2011_19223",
@@ -37076,7 +37295,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40358"
+    "trainId": "40358",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_1918_40358",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-23_2023_18992",
@@ -37595,7 +37817,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40372"
+    "trainId": "40372",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_2051_40372",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_2046_19026",
@@ -38148,7 +38373,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35093"
+    "trainId": "35093",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_2026_35093",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-01_2131_19237",
@@ -38378,9 +38606,9 @@
       }
     ],
     "trainId": "11379",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-18_2010_11368",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_2200_42190",
@@ -38696,11 +38924,14 @@
       {
         "stationId": "SE-03",
         "arrivalTime": "22:26:00",
-        "departureTime": "22:27:00",
+        "departureTime": "22:26:00",
         "isPassing": false
       }
     ],
-    "trainId": "40373"
+    "trainId": "40373",
+    "customOrigin": "直江津",
+    "throughTripId": "HD_INB_HK-12_2227_40373",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-03_2221_35094",
@@ -38733,7 +38964,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35094"
+    "trainId": "35094",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_2119_35094",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-37_2223_19262",
@@ -38861,9 +39095,9 @@
       }
     ],
     "trainId": "11370",
+    "customDestination": "長岡",
     "prevTripId": "HD_OUT_JOE-14_2052_11359",
-    "prevLineId": "joetsu",
-    "customDestination": "長岡"
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_2249_19045",
@@ -39435,6 +39669,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35095"
+    "trainId": "35095",
+    "customDestination": "直江津",
+    "prevTripId": "HD_OUT_HK-01_2249_35095",
+    "prevLineId": "hokuhoku"
   }
 ]

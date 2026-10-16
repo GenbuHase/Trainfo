@@ -845,9 +845,9 @@
       }
     ],
     "trainId": "11351",
+    "customOrigin": "石打",
     "throughTripId": "WD_OUT_SE-22_0728_11362",
-    "throughLineId": "shinetsu",
-    "customOrigin": "石打"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_INB_JOE-04_0628_18888",
@@ -1057,9 +1057,9 @@
       }
     ],
     "trainId": "11352",
+    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_SE-22_0751_11363",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_INB_JOE-04_0637_34290",
@@ -1297,7 +1297,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33725"
+    "trainId": "33725",
+    "customDestination": "越後湯沢",
+    "prevTripId": "WD_INB_HK-12_0538_33744",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_0646_40903",
@@ -1601,9 +1604,9 @@
       }
     ],
     "trainId": "11365",
+    "customOrigin": "越後中里",
     "throughTripId": "WD_OUT_SE-22_0822_11376",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後中里"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_INB_JOE-04_0659_18889",
@@ -2324,9 +2327,9 @@
       }
     ],
     "trainId": "11366",
+    "customOrigin": "越後中里",
     "throughTripId": "WD_OUT_SE-22_0915_11377",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後中里"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_INB_JOE-35_0756_11337",
@@ -2623,7 +2626,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33726"
+    "trainId": "33726",
+    "customDestination": "越後湯沢",
+    "prevTripId": "WD_INB_HK-12_0702_33745",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_JOE-20_0820_35072",
@@ -2670,11 +2676,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "08:37:00",
-        "departureTime": "08:43:00",
+        "departureTime": "08:37:00",
         "isPassing": false
       }
     ],
-    "trainId": "35072"
+    "trainId": "35072",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "WD_OUT_HK-01_0843_35091",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-14_0823_13897",
@@ -2902,9 +2911,9 @@
       }
     ],
     "trainId": "11360",
+    "customOrigin": "水上",
     "throughTripId": "WD_OUT_SE-22_1014_11371",
-    "throughLineId": "shinetsu",
-    "customOrigin": "水上"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_OUT_JOE-01_0827_13878",
@@ -3576,11 +3585,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "09:31:00",
-        "departureTime": "09:36:00",
+        "departureTime": "09:31:00",
         "isPassing": false
       }
     ],
-    "trainId": "35073"
+    "trainId": "35073",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "WD_OUT_HK-01_0936_35092",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_0918_18891",
@@ -3809,9 +3821,9 @@
       }
     ],
     "trainId": "11361",
+    "customOrigin": "水上",
     "throughTripId": "WD_OUT_SE-22_1143_11372",
-    "throughLineId": "shinetsu",
-    "customOrigin": "水上"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_OUT_JOE-04_0944_13890",
@@ -4103,7 +4115,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33730"
+    "trainId": "33730",
+    "customDestination": "越後湯沢",
+    "prevTripId": "WD_INB_HK-12_0911_33749",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_JOE-01_1024_13879",
@@ -4476,11 +4491,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "10:57:00",
-        "departureTime": "11:02:00",
+        "departureTime": "10:57:00",
         "isPassing": false
       }
     ],
-    "trainId": "35079"
+    "trainId": "35079",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "WD_OUT_HK-01_1102_35098",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-14_1045_13899",
@@ -4611,7 +4629,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33731"
+    "trainId": "33731",
+    "customDestination": "越後湯沢",
+    "prevTripId": "WD_INB_HK-12_1004_33750",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-35_1108_11332",
@@ -4911,7 +4932,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35077"
+    "trainId": "35077",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "WD_OUT_HK-01_1158_35096",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-14_1157_13907",
@@ -5258,9 +5282,9 @@
       }
     ],
     "trainId": "11354",
+    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_SE-22_1327_11365",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_INB_JOE-07_1225_24828",
@@ -5350,7 +5374,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33727"
+    "trainId": "33727",
+    "customDestination": "越後湯沢",
+    "prevTripId": "WD_INB_HK-12_1130_33746",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-35_1239_11339",
@@ -5752,9 +5779,9 @@
       }
     ],
     "trainId": "11355",
+    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_SE-22_1428_11366",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_INB_JOE-14_1317_13900",
@@ -5881,11 +5908,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "13:42:00",
-        "departureTime": "13:43:00",
+        "departureTime": "13:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "41432"
+    "trainId": "41432",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "WD_OUT_HK-01_1343_41463",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_JOE-14_1330_11363",
@@ -6033,9 +6063,9 @@
       }
     ],
     "trainId": "11363",
+    "customOrigin": "水上",
     "throughTripId": "WD_OUT_SE-22_1528_11374",
-    "throughLineId": "shinetsu",
-    "customOrigin": "水上"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_INB_JOE-04_1338_18856",
@@ -6722,9 +6752,9 @@
       }
     ],
     "trainId": "11350",
+    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_SE-22_1557_11361",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_OUT_JOE-04_1449_13891",
@@ -6958,9 +6988,9 @@
       }
     ],
     "trainId": "11356",
+    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_SE-22_1626_11367",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_INB_JOE-20_1525_43395",
@@ -7149,7 +7179,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33728"
+    "trainId": "33728",
+    "customDestination": "越後湯沢",
+    "prevTripId": "WD_INB_HK-12_1413_33747",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-07_1531_24821",
@@ -7700,9 +7733,9 @@
       }
     ],
     "trainId": "11357",
+    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_SE-22_1724_11368",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_INB_JOE-04_1618_34294",
@@ -8407,9 +8440,9 @@
       }
     ],
     "trainId": "11367",
+    "customOrigin": "越後中里",
     "throughTripId": "WD_OUT_SE-22_1832_11378",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後中里"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_OUT_JOE-20_1710_41431",
@@ -8456,11 +8489,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "17:27:00",
-        "departureTime": "17:33:00",
+        "departureTime": "17:27:00",
         "isPassing": false
       }
     ],
-    "trainId": "41431"
+    "trainId": "41431",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "WD_OUT_HK-01_1733_41462",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-25_1713_33733",
@@ -8511,7 +8547,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33733"
+    "trainId": "33733",
+    "customDestination": "越後湯沢",
+    "prevTripId": "WD_INB_HK-12_1614_33752",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_1721_18892",
@@ -9035,9 +9074,9 @@
       }
     ],
     "trainId": "11364",
+    "customOrigin": "水上",
     "throughTripId": "WD_OUT_SE-22_2006_11375",
-    "throughLineId": "shinetsu",
-    "customOrigin": "水上"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_INB_JOE-35_1802_11343",
@@ -9207,11 +9246,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "18:23:00",
-        "departureTime": "18:26:00",
+        "departureTime": "18:23:00",
         "isPassing": false
       }
     ],
-    "trainId": "35078"
+    "trainId": "35078",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "WD_OUT_HK-01_1826_35097",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-25_1808_33734",
@@ -9262,7 +9304,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33734"
+    "trainId": "33734",
+    "customDestination": "越後湯沢",
+    "prevTripId": "WD_INB_HK-12_1710_33753",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_1811_18893",
@@ -9809,7 +9854,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33735"
+    "trainId": "33735",
+    "customDestination": "越後湯沢",
+    "prevTripId": "WD_INB_HK-12_1806_33754",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-35_1905_11335",
@@ -10540,11 +10588,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "20:23:00",
-        "departureTime": "20:26:00",
+        "departureTime": "20:23:00",
         "isPassing": false
       }
     ],
-    "trainId": "35074"
+    "trainId": "35074",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "WD_OUT_HK-01_2026_35093",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_2010_18864",
@@ -10707,9 +10758,9 @@
       }
     ],
     "trainId": "11368",
+    "customOrigin": "越後中里",
     "throughTripId": "WD_OUT_SE-22_2143_11379",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後中里"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_INB_JOE-14_2016_13901",
@@ -11155,9 +11206,9 @@
       }
     ],
     "trainId": "11359",
+    "customOrigin": "水上",
     "throughTripId": "WD_OUT_SE-22_2248_11370",
-    "throughLineId": "shinetsu",
-    "customOrigin": "水上"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "WD_INB_JOE-04_2100_18872",
@@ -11246,11 +11297,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "21:18:00",
-        "departureTime": "21:19:00",
+        "departureTime": "21:18:00",
         "isPassing": false
       }
     ],
-    "trainId": "35075"
+    "trainId": "35075",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "WD_OUT_HK-01_2119_35094",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-25_2103_33736",
@@ -11301,7 +11355,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33736"
+    "trainId": "33736",
+    "customDestination": "越後湯沢",
+    "prevTripId": "WD_INB_HK-12_1955_33755",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-35_2104_11341",
@@ -11871,11 +11928,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "22:48:00",
-        "departureTime": "22:49:00",
+        "departureTime": "22:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "35076"
+    "trainId": "35076",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "WD_OUT_HK-01_2249_35095",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_2242_18874",
@@ -13051,9 +13111,9 @@
       }
     ],
     "trainId": "11351",
+    "customOrigin": "石打",
     "throughTripId": "HD_OUT_SE-22_0728_11362",
-    "throughLineId": "shinetsu",
-    "customOrigin": "石打"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-04_0628_18888",
@@ -13263,9 +13323,9 @@
       }
     ],
     "trainId": "11352",
+    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_SE-22_0751_11363",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-35_0638_11345",
@@ -13463,7 +13523,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33725"
+    "trainId": "33725",
+    "customDestination": "越後湯沢",
+    "prevTripId": "HD_INB_HK-12_0538_33744",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_0646_34291",
@@ -13767,9 +13830,9 @@
       }
     ],
     "trainId": "11365",
+    "customOrigin": "越後中里",
     "throughTripId": "HD_OUT_SE-22_0822_11376",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後中里"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-04_0659_18889",
@@ -14490,9 +14553,9 @@
       }
     ],
     "trainId": "11366",
+    "customOrigin": "越後中里",
     "throughTripId": "HD_OUT_SE-22_0915_11377",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後中里"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-35_0756_11337",
@@ -14829,7 +14892,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33726"
+    "trainId": "33726",
+    "customDestination": "越後湯沢",
+    "prevTripId": "HD_INB_HK-12_0702_33745",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_JOE-20_0820_35072",
@@ -14876,11 +14942,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "08:37:00",
-        "departureTime": "08:43:00",
+        "departureTime": "08:37:00",
         "isPassing": false
       }
     ],
-    "trainId": "35072"
+    "trainId": "35072",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "HD_OUT_HK-01_0843_35091",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-14_0823_13897",
@@ -15108,9 +15177,9 @@
       }
     ],
     "trainId": "11360",
+    "customOrigin": "水上",
     "throughTripId": "HD_OUT_SE-22_1014_11371",
-    "throughLineId": "shinetsu",
-    "customOrigin": "水上"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_OUT_JOE-01_0827_13878",
@@ -15929,11 +15998,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "09:31:00",
-        "departureTime": "09:36:00",
+        "departureTime": "09:31:00",
         "isPassing": false
       }
     ],
-    "trainId": "35073"
+    "trainId": "35073",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "HD_OUT_HK-01_0936_35092",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_0918_18891",
@@ -16162,9 +16234,9 @@
       }
     ],
     "trainId": "11361",
+    "customOrigin": "水上",
     "throughTripId": "HD_OUT_SE-22_1143_11372",
-    "throughLineId": "shinetsu",
-    "customOrigin": "水上"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_OUT_JOE-04_0944_13890",
@@ -16567,7 +16639,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33730"
+    "trainId": "33730",
+    "customDestination": "越後湯沢",
+    "prevTripId": "HD_INB_HK-12_0911_33749",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_JOE-01_1024_13879",
@@ -16940,11 +17015,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "10:57:00",
-        "departureTime": "11:02:00",
+        "departureTime": "10:57:00",
         "isPassing": false
       }
     ],
-    "trainId": "35079"
+    "trainId": "35079",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "HD_OUT_HK-01_1102_35098",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-14_1045_13899",
@@ -17117,7 +17195,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33731"
+    "trainId": "33731",
+    "customDestination": "越後湯沢",
+    "prevTripId": "HD_INB_HK-12_1004_33750",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-35_1108_11332",
@@ -17436,9 +17517,9 @@
       }
     ],
     "trainId": "11353",
+    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_SE-22_1233_11364",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-04_1139_18878",
@@ -17678,7 +17759,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35077"
+    "trainId": "35077",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "HD_OUT_HK-01_1158_35096",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-14_1157_13907",
@@ -18025,9 +18109,9 @@
       }
     ],
     "trainId": "11354",
+    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_SE-22_1327_11365",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-07_1225_24828",
@@ -18117,7 +18201,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33727"
+    "trainId": "33727",
+    "customDestination": "越後湯沢",
+    "prevTripId": "HD_INB_HK-12_1130_33746",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-35_1239_11339",
@@ -18519,9 +18606,9 @@
       }
     ],
     "trainId": "11355",
+    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_SE-22_1428_11366",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-14_1317_13900",
@@ -18611,7 +18698,7 @@
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
-    "customDestination": "犀潟",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -18648,11 +18735,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "13:42:00",
-        "departureTime": "13:43:00",
+        "departureTime": "13:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "41432"
+    "trainId": "41432",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "HD_OUT_HK-01_1343_35099",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_JOE-14_1330_11363",
@@ -18800,9 +18890,9 @@
       }
     ],
     "trainId": "11363",
+    "customOrigin": "水上",
     "throughTripId": "HD_OUT_SE-22_1528_11374",
-    "throughLineId": "shinetsu",
-    "customOrigin": "水上"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-04_1338_18856",
@@ -19141,7 +19231,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33732"
+    "trainId": "33732",
+    "customDestination": "越後湯沢",
+    "prevTripId": "HD_INB_HK-12_1309_33751",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-07_1422_24822",
@@ -19540,9 +19633,9 @@
       }
     ],
     "trainId": "11350",
+    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_SE-22_1557_11361",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_OUT_JOE-04_1449_13891",
@@ -19836,9 +19929,9 @@
       }
     ],
     "trainId": "11356",
+    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_SE-22_1626_11367",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-20_1525_43395",
@@ -20023,11 +20116,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "15:42:00",
-        "departureTime": "15:44:00",
+        "departureTime": "15:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "35081"
+    "trainId": "35081",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "HD_OUT_HK-01_1544_40357",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-25_1528_33728",
@@ -20078,7 +20174,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33728"
+    "trainId": "33728",
+    "customDestination": "越後湯沢",
+    "prevTripId": "HD_INB_HK-12_1413_33747",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-07_1531_24821",
@@ -20629,9 +20728,9 @@
       }
     ],
     "trainId": "11357",
+    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_SE-22_1724_11368",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後湯沢"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-04_1618_34295",
@@ -20722,7 +20821,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33729"
+    "trainId": "33729",
+    "customDestination": "越後湯沢",
+    "prevTripId": "HD_INB_HK-12_1522_33748",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_JOE-20_1623_35082",
@@ -20773,7 +20875,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "35082"
+    "trainId": "35082",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "HD_OUT_HK-01_1639_40359",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-07_1626_37209",
@@ -21438,9 +21543,9 @@
       }
     ],
     "trainId": "11367",
+    "customOrigin": "越後中里",
     "throughTripId": "HD_OUT_SE-22_1832_11378",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後中里"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_OUT_JOE-20_1710_41431",
@@ -21487,11 +21592,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "17:27:00",
-        "departureTime": "17:33:00",
+        "departureTime": "17:27:00",
         "isPassing": false
       }
     ],
-    "trainId": "41431"
+    "trainId": "41431",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "HD_OUT_HK-01_1733_41462",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-25_1713_33733",
@@ -21542,7 +21650,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33733"
+    "trainId": "33733",
+    "customDestination": "越後湯沢",
+    "prevTripId": "HD_INB_HK-12_1614_33752",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_1721_18892",
@@ -22024,9 +22135,9 @@
       }
     ],
     "trainId": "11364",
+    "customOrigin": "水上",
     "throughTripId": "HD_OUT_SE-22_2006_11375",
-    "throughLineId": "shinetsu",
-    "customOrigin": "水上"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-35_1802_11343",
@@ -22196,11 +22307,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "18:23:00",
-        "departureTime": "18:26:00",
+        "departureTime": "18:23:00",
         "isPassing": false
       }
     ],
-    "trainId": "35078"
+    "trainId": "35078",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "HD_OUT_HK-01_1826_35097",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-25_1808_33734",
@@ -22251,7 +22365,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33734"
+    "trainId": "33734",
+    "customDestination": "越後湯沢",
+    "prevTripId": "HD_INB_HK-12_1710_33753",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_1811_18893",
@@ -22798,7 +22915,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33735"
+    "trainId": "33735",
+    "customDestination": "越後湯沢",
+    "prevTripId": "HD_INB_HK-12_1806_33754",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-35_1905_11335",
@@ -23529,11 +23649,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "20:23:00",
-        "departureTime": "20:26:00",
+        "departureTime": "20:23:00",
         "isPassing": false
       }
     ],
-    "trainId": "35074"
+    "trainId": "35074",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "HD_OUT_HK-01_2026_35093",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_2010_18864",
@@ -23696,9 +23819,9 @@
       }
     ],
     "trainId": "11368",
+    "customOrigin": "越後中里",
     "throughTripId": "HD_OUT_SE-22_2143_11379",
-    "throughLineId": "shinetsu",
-    "customOrigin": "越後中里"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-14_2016_13901",
@@ -24144,9 +24267,9 @@
       }
     ],
     "trainId": "11359",
+    "customOrigin": "水上",
     "throughTripId": "HD_OUT_SE-22_2248_11370",
-    "throughLineId": "shinetsu",
-    "customOrigin": "水上"
+    "throughLineId": "shinetsu"
   },
   {
     "tripId": "HD_INB_JOE-04_2100_18872",
@@ -24235,11 +24358,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "21:18:00",
-        "departureTime": "21:19:00",
+        "departureTime": "21:18:00",
         "isPassing": false
       }
     ],
-    "trainId": "35075"
+    "trainId": "35075",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "HD_OUT_HK-01_2119_35094",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-25_2103_33736",
@@ -24290,7 +24416,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33736"
+    "trainId": "33736",
+    "customDestination": "越後湯沢",
+    "prevTripId": "HD_INB_HK-12_1955_33755",
+    "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-35_2104_11341",
@@ -24860,11 +24989,14 @@
       {
         "stationId": "JOE-25",
         "arrivalTime": "22:48:00",
-        "departureTime": "22:49:00",
+        "departureTime": "22:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "35076"
+    "trainId": "35076",
+    "customOrigin": "越後湯沢",
+    "throughTripId": "HD_OUT_HK-01_2249_35095",
+    "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_2242_18874",

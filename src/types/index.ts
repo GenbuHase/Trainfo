@@ -53,6 +53,11 @@ export type LineId =
   | 'tadami'
   | 'banetsu_west'
   | 'banetsu_east'
+  | 'myoko_haneuma'
+  | 'kita_shinano'
+  | 'nihonkai_hisui'
+  | 'hokuhoku'
+  | 'hokuriku_shinkansen'
   | (string & {});
 
 
@@ -92,6 +97,10 @@ export type TrainTypeKey =
   | 'komachi'                 // こまち（秋田新幹線直通）
   | 'toki'                    // とき（上越新幹線）
   | 'tanigawa'                // たにがわ（上越新幹線）
+  | 'kagayaki'                // かがやき（北陸新幹線）
+  | 'hakutaka'                // はくたか（北陸新幹線）
+  | 'asama'                   // あさま（北陸新幹線）
+  | 'tsurugi'                 // つるぎ（北陸新幹線）
   | (string & {});
 
 export interface TrainTypeConfig {
