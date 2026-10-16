@@ -363,10 +363,41 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
 
               return (
                 <div key={`${stop.lineId}_${stop.stationId}_${idx}`} className="relative">
+                  {/* 全区間モード時: 始発路線ヘッダー（先頭駅の上） */}
+                  {isFullMode && idx === 0 && (
+                    <div className="relative mb-3.5 -ml-6 flex items-center gap-2 select-none">
+                      <div className="w-5 border-t-2" style={{ borderColor: stop.lineColor }} />
+                      <div
+                        className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold text-white shadow-2xs shrink-0"
+                        style={{ backgroundColor: stop.lineColor }}
+                      >
+                        <span className="text-[10px] opacity-90">▼</span>
+                        <span className="font-extrabold">{stop.lineShortName}</span>
+                        <TrainTypeBadge type={stop.trainType} size="sm" lineId={stop.lineId} />
+                        {stop.trainNumber && (
+                          <span className="font-mono text-[10px] font-bold bg-black/20 px-1.5 py-0.5 rounded text-white">
+                            {formatTrainNumber(stop.trainNumber)}
+                          </span>
+                        )}
+                      </div>
+                      <div className="flex-1 border-t-2 opacity-30" style={{ borderColor: stop.lineColor }} />
+                    </div>
+                  )}
+
+                  {/* レール縦線（全区間モードで路線カラーを反映） */}
+                  {!isLast && (
+                    <div
+                      className="absolute -left-[18px] top-4 bottom-[-16px] w-0.5 pointer-events-none z-0"
+                      style={{
+                        backgroundColor: itemLineColor,
+                      }}
+                    />
+                  )}
+
                   <div
                     role="button"
                     tabIndex={0}
-                    className="relative group cursor-pointer select-none"
+                    className="relative group cursor-pointer select-none z-10"
                     onClick={() => onSelectStation(st)}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' || e.key === ' ') {
@@ -449,37 +480,45 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                     </div>
                   </div>
 
-                  {/* 路線境界セパレータ（全区間モード時） */}
-                  {isFullMode && stop.isBoundary && stop.boundaryInfo && (
-                    <div className="my-2.5 ml-0 p-2 rounded-lg bg-slate-50 border border-slate-200/90 shadow-2xs flex items-center justify-between flex-wrap gap-2 text-xs">
-                      <div className="flex items-center gap-1.5 flex-wrap">
-                        <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">
-                          路線切替
-                        </span>
-                        <span
-                          className="text-[10px] font-bold px-1.5 py-0.5 rounded text-white shadow-2xs"
-                          style={{ backgroundColor: getLine(stop.boundaryInfo.nextLineId)?.lineColor || '#004b97' }}
+                  {/* 路線境界ヘッダー（全区間モード時: 境界駅の下） */}
+                  {isFullMode && stop.isBoundary && stop.boundaryInfo && (() => {
+                    const nextLine = getLine(stop.boundaryInfo.nextLineId);
+                    const nextLineColor = nextLine?.lineColor || '#004b97';
+                    return (
+                      <div className="relative my-3.5 -ml-6 flex items-center gap-2 select-none">
+                        {/* 左側の水平線 */}
+                        <div className="w-5 border-t-2" style={{ borderColor: nextLineColor }} />
+
+                        {/* セパレータ本体 */}
+                        <div
+                          className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold text-white shadow-2xs shrink-0"
+                          style={{ backgroundColor: nextLineColor }}
                         >
-                          {stop.boundaryInfo.nextLineName}
-                        </span>
-                        {stop.boundaryInfo.nextTrainType && (
-                          <TrainTypeBadge
-                            type={stop.boundaryInfo.nextTrainType}
-                            size="sm"
-                            lineId={stop.boundaryInfo.nextLineId}
-                          />
-                        )}
-                        {stop.boundaryInfo.nextTrainNumber && (
-                          <span className="font-mono text-[10px] font-bold text-slate-700 bg-white px-1.5 py-0.5 rounded border border-slate-200">
-                            {formatTrainNumber(stop.boundaryInfo.nextTrainNumber)}
-                          </span>
-                        )}
+                          <span className="text-[10px] opacity-90">▼</span>
+                          <span className="font-extrabold">{stop.boundaryInfo.nextLineName}</span>
+                          {stop.boundaryInfo.nextTrainType && (
+                            <TrainTypeBadge
+                              type={stop.boundaryInfo.nextTrainType}
+                              size="sm"
+                              lineId={stop.boundaryInfo.nextLineId}
+                            />
+                          )}
+                          {stop.boundaryInfo.nextTrainNumber && (
+                            <span className="font-mono text-[10px] font-bold bg-black/20 px-1.5 py-0.5 rounded text-white">
+                              {formatTrainNumber(stop.boundaryInfo.nextTrainNumber)}
+                            </span>
+                          )}
+                        </div>
+
+                        {/* 右側に伸びる水平線 */}
+                        <div className="flex-1 border-t-2 opacity-30" style={{ borderColor: nextLineColor }} />
                       </div>
-                    </div>
-                  )}
+                    );
+                  })()}
                 </div>
               );
             })}
+
           </div>
         </section>
       </div>
