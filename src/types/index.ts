@@ -299,4 +299,51 @@ export interface LineDefinition extends LineMeta {
   globalTimetable: TimetableTrip[];
 }
 
+/**
+ * 直通運転連結タイムライン用の駅停車情報
+ */
+export interface ThroughChainStop {
+  stationId: string;
+  stationName: string;
+  stationNumber?: string;
+  lineId: LineId;
+  lineName: string;
+  lineShortName: string;
+  lineColor: string;
+  arrivalTime: string;
+  departureTime: string;
+  isPassing: boolean;
+  tripId: string;
+  trainType: TrainTypeKey;
+  trainNumber?: string;
+  isBoundary?: boolean;
+  boundaryInfo?: {
+    prevLineId: LineId;
+    nextLineId: LineId;
+    prevLineName: string;
+    nextLineName: string;
+    prevTrainType?: TrainTypeKey;
+    nextTrainType?: TrainTypeKey;
+    prevTrainNumber?: string;
+    nextTrainNumber?: string;
+  };
+  trainNumberChange?: string;
+  couplingStart?: boolean;
+}
 
+/**
+ * 列車詳細における直通運行チェーン全体のサマリー
+ */
+export interface ThroughChainSummary {
+  trips: TimetableTrip[];
+  stops: ThroughChainStop[];
+  lines: {
+    lineId: LineId;
+    name: string;
+    shortName: string;
+    lineColor: string;
+    initialTrainType: TrainTypeKey;
+    initialTrainNumber?: string;
+  }[];
+  hasMultipleLines: boolean;
+}
