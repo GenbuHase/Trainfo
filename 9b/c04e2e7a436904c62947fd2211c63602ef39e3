@@ -1,0 +1,108 @@
+README.md
+  h_949a05ab995868 142-144,151-155,157-159,172-173,175-176,178-179,182,185-186
+src/components/Common/Badges.tsx
+  h_949a05ab995868 262-269,276-278
+src/components/Debug/DebugLinesPage.tsx
+  h_949a05ab995868 390,392
+src/components/Header/Header.tsx
+  h_949a05ab995868 386
+src/components/Map/hooks/useStationMarkers.ts
+  h_949a05ab995868 92
+src/components/Modals/TimetableModal.tsx
+  h_949a05ab995868 109
+src/components/Sidebar/Sidebar.tsx
+  h_949a05ab995868 136
+src/components/Sidebar/StationDetail.tsx
+  h_949a05ab995868 94,114
+src/components/Sidebar/TrainDetail.tsx
+  h_949a05ab995868 224
+src/data/lines/chichibu/stations.ts
+  h_949a05ab995868 7,38,66,94,122,150,179,207,235,269,297,325,353,381,409,438,466,496,524,552,585,613,641,670,700,728,756,786,814,842,872,904,933,961,989,1017,1045
+src/data/lines/chiyoda/stations.ts
+  h_949a05ab995868 7,42,76,111,147,179,211,247,283,321,356,395,432,464,496,528,564,599,637,671
+src/data/lines/chuo/stations.ts
+  h_949a05ab995868 7,52,88,124,162,208,244,274,304,336,366,400,436,467,496,525,562,594,626,666,699,732,772,806
+src/data/lines/chuo_main/stations.ts
+  h_949a05ab995868 7
+src/data/lines/fukutoshin/stations.ts
+  h_949a05ab995868 7,40,72,104,135,166,199,229,259,298,328,356,386,420,448,480
+src/data/lines/ito/stations.ts
+  h_949a05ab995868 6,40,71,102,134,165
+src/data/lines/itsukaichi/stations.ts
+  h_949a05ab995868 7,44,76,108,141,173,205
+src/data/lines/joban_local/stations.ts
+  h_949a05ab995868 7,41,73,107,142,174,208,243,275,307,342,374,409,443
+src/data/lines/joban_rapid/stations.ts
+  h_949a05ab995868 6,47,83,112,144,181,214,248,281,313
+src/data/lines/kawagoe/stations.ts
+  h_949a05ab995868 7
+src/data/lines/minatomirai/stations.ts
+  h_949a05ab995868 7,50,77,109,141,173
+src/data/lines/musashino/stations.ts
+  h_949a05ab995868 6,36,63,93,123,153,181,209,240,267,298,330,358,388,420,448,476,505,533,561,591,623,653,684,712,740,774,803,830,859,886,917,944,971,1000,1033,1064,1092,1120,1151,1185,1214,1246,1273,1300
+src/data/lines/odakyu_enoshima/stations.ts
+  h_949a05ab995868 7,40,67,99,127,154,187,214,241,269,302,329,356,383,417,444,471
+src/data/lines/odakyu_odawara/stations.ts
+  h_949a05ab995868 7,49,76,103,132,168,195,230,257,284,313,344,371,398,431,458,485,512,547,580,609,638,667,703,732,761,790,825,860,889,918,947,983,1014,1047,1077,1109,1139,1169,1201,1231,1265,1293,1320,1347,1374,1401
+src/data/lines/odakyu_tama/stations.ts
+  h_949a05ab995868 7,42,71,104,133,162,197,233
+src/data/lines/ogose/stations.ts
+  h_949a05ab995868 6,36,64,92,120,148,178,206
+src/data/lines/ome/stations.ts
+  h_949a05ab995868 7,47,81,114,147,180,219,252,286,319,352,385,418,453,482,511,540,569,598,627,657,686,715,744,773
+src/data/lines/rinkai/stations.ts
+  h_949a05ab995868 7,40,70,102,134,166,196,229
+src/data/lines/saikyo/stations.ts
+  h_949a05ab995868 7,42,75,114,155,193,224,253,288,315,342,370,397,424,456,484,512,540,568
+src/data/lines/seibu_ikebukuro/stations.ts
+  h_949a05ab995868 6,49,77,105,133,161,198,226,254,282,316,348,381,413,446,477,509,547,584,619,651,683,715,750,782,814,849,880,909,938,967,996,1025,1054,1083,1113
+src/data/lines/seibu_yurakucho/stations.ts
+  h_949a05ab995868 6,41,69
+src/data/lines/shonan_shinjuku/stations.ts
+  h_949a05ab995868 6,50,86,123,163,205,247,282,318,356,399,434
+src/data/lines/sobu_rapid/stations.ts
+  h_949a05ab995868 6,50,84,118,153,185,217,253,286,319
+src/data/lines/sotetsu_izumino/stations.ts
+  h_949a05ab995868 7,41,71,101,131,163,193,225
+src/data/lines/sotetsu_jr_direct/stations.ts
+  h_949a05ab995868 7,35,67,95,126,156,192
+src/data/lines/sotetsu_main/stations.ts
+  h_949a05ab995868 7,49,78,107,136,166,195,224,259,291,326,356,386,416,450,480,510,540
+src/data/lines/sotetsu_shin_yokohama/stations.ts
+  h_949a05ab995868 7,44,78
+src/data/lines/takasaki/stations.ts
+  h_949a05ab995868 6,50,81,119,156,188
+src/data/lines/tojo/stations.ts
+  h_949a05ab995868 6,23,39,55,71,87,103,119,135,151,168,185,201,218,235,251,267,283,300,316,332,349,366,382,398,414,431,447,463,479,496,512,528,545,561,577,593,609,625
+src/data/lines/tokaido/stations.ts
+  h_949a05ab995868 6,52,93,133,171,216,253,292,330,363,400,435,468,501,537,570,610,642,674,706,739
+src/data/lines/tokaido_shizuoka/stations.ts
+  h_949a05ab995868 6,40,69,102
+src/data/lines/tokyu_shin_yokohama/stations.ts
+  h_949a05ab995868 7,40,71
+src/data/lines/tokyu_toyoko/stations.ts
+  h_949a05ab995868 7,48,75,109,136,165,192,226,257,289,318,357,386,420,449,476,509,536,563,590,617
+src/data/lines/tsukuba_express/stations.ts
+  h_949a05ab995868 7,43,75,110,144,181,208,237,268,296,329,356,389,418,445,478,506,534,562,591
+src/data/lines/ueno_tokyo/stations.ts
+  h_949a05ab995868 6,51
+src/data/lines/utsunomiya/stations.ts
+  h_949a05ab995868 6,50,81,119,156,188
+src/data/lines/yokosuka/stations.ts
+  h_949a05ab995868 6,49,86,123,156,193,225,267,299,331,365,401,433,467,501,532,563,595,626
+src/data/lines/yurakucho/stations.ts
+  h_949a05ab995868 7,38,69,100,130,160,191,221,251,287,317,345,373,407,439,467,499,527,560,590,620,650,681,709
+src/types/index.ts
+  h_949a05ab995868 114,116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9bc04e2e7a436904c62947fd2211c63602ef39e3",
+  "prompts": {},
+  "humans": {
+    "h_949a05ab995868": {
+      "author": "Genbu Hase <14960841+GenbuHase@users.noreply.github.com>"
+    }
+  }
+}
