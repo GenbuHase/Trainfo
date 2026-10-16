@@ -8,8 +8,8 @@ export const tokaidoLine: LineDefinition = {
   name: 'JR東海道線',
   shortName: '東海道線',
   operator: 'JR東日本',
-  lineColor: '#ff9845',
-  accentColor: '#ff9845',
+  lineColor: '#f68b1e',
+  accentColor: '#f68b1e',
   defaultCars: 15,
   defaultBounds: [[35.09, 139.06], [35.69, 139.78]],
   directionNames: {

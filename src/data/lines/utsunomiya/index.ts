@@ -8,8 +8,8 @@ export const utsunomiyaLine: LineDefinition = {
   name: 'JR宇都宮線',
   shortName: '宇都宮線',
   operator: 'JR東日本',
-  lineColor: '#ff9845',
-  accentColor: '#ff9845',
+  lineColor: '#f68b1e',
+  accentColor: '#f68b1e',
   defaultCars: 15,
   defaultBounds: [[35.71, 139.77], [36.98, 140.06]],
   directionNames: {

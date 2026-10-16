@@ -47,8 +47,8 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   },
   // JR宇都宮線・高崎線 (大宮地上ホーム)
   JU: {
-    borderColor: '#ff9845',
-    prefixColor: '#ff9845',
+    borderColor: '#f68b1e',
+    prefixColor: '#f68b1e',
     numColor: '#cc6600',
   },
   // JR京浜東北線
@@ -209,8 +209,8 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   },
   // JR東海道線・JR伊東線
   JT: {
-    borderColor: '#ff9845',
-    prefixColor: '#ff9845',
+    borderColor: '#f68b1e',
+    prefixColor: '#f68b1e',
     numColor: '#cc6600',
   },
   // JR横須賀線・JR総武快速線
@@ -221,8 +221,8 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
   },
   // JR高崎線
   TK: {
-    borderColor: '#ff9845',
-    prefixColor: '#ff9845',
+    borderColor: '#f68b1e',
+    prefixColor: '#f68b1e',
     numColor: '#cc6600',
   },
   // JR上野東京ライン

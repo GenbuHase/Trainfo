@@ -6,10 +6,10 @@ export const TAKASAKI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     name: '普通',
     nameEn: 'Local',
     shortName: '普',
-    color: '#ff9845',
+    color: '#f68b1e',
     textColor: '#ffffff',
-    bgColor: '#ff9845',
-    borderColor: '#ff9845',
+    bgColor: '#f68b1e',
+    borderColor: '#f68b1e',
   },
   rapid: {
     key: 'rapid',
