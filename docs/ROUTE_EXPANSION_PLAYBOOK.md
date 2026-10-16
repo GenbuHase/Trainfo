@@ -15,6 +15,7 @@ Trainfo は、複数事業者の路線が同一マップ・同一シミュレー
 Trainfo/
 ├── docs/
 │   ├── ROUTE_EXPANSION_PLAYBOOK.md            # 本手順書
+│   ├── PASSING_STOP_INTERPOLATION_SPEC.md     # 通過駅時刻補間・境界駅シームレス同期技術仕様書
 │   ├── ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md # 上下非対称・方向別軌道ルーティング設計指針
 │   ├── LINE_COLORS_GUIDELINES.md              # ラインカラー策定ガイドライン
 │   └── ODPT_INTEGRATION_KNOWLEDGE.md          # 将来設計ナレッジ
@@ -601,10 +602,12 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 * **事象**: 東武東上線に乗り入れる地下鉄直通列車（副都心線内「通勤急行」等）が、東上線内の各駅停車区間で「通過」と誤認される。
 * **防止策**: 路線定義に存在しない他社線種別が渡された場合、あるいは自社線内で全駅停車となる区間では、安全に自社線内の標準種別（`local` 等）へフォールバックさせる。
 
-### 5. 短絡線・特急・臨時列車の通過駅補間 (`junctionPassingRules` / `directStops`)
-* **事象**: 武蔵野線の大宮支線（大宮 ↔ 武蔵浦和/南浦和）や貨物線経由の特急（鎌倉号、川越号等）で、中間の信号場や短絡線の線路セグメントが飛び越えられ、列車がワープする。
+### 5. 短絡線・特急・臨時列車の通過駅補間 (`junctionPassingRules` / `directStops` / `singleStopRescueRules`)
+* **事象**: 武蔵野線の大宮支線（大宮 ↔ 武蔵浦和/南浦和）や貨物線経由の特急（鎌倉号、川越号等）、常磐線特急（ひたち・ときわ）で、中間の信号場や通過駅が飛び越えられ、列車がワープしたりトリップが破棄される。
 * **防止策**: 
   * 停車駅リストに存在しないが物理的に経由する駅（例: 大宮から南浦和へ向かう際の武蔵浦和）を `junctionPassingRules` で通過駅（`isPassing: true`）として中間補間する。
+  * 自社線内に1駅しか停車しない直通特急は `singleStopRescueRules` で境界通過駅を補完する。
+  * 詳しい重み付け線形補間の計算式や境界駅1秒同期仕様は、[docs/PASSING_STOP_INTERPOLATION_SPEC.md](PASSING_STOP_INTERPOLATION_SPEC.md) を参照。
   * 特殊直通路線では `directStops: true` を指定し、実停車駅シーケンスから線路追従トリップを組み立てる。
 
 ### 6. 発着番線と駅ナンバリングの実態整合（大宮駅問題）
