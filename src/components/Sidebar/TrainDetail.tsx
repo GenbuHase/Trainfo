@@ -352,7 +352,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
             )}
           </div>
 
-          <div className="relative pl-6 space-y-4 before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-0.5 before:bg-slate-200">
+          <div className="relative pl-7 space-y-4 before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-0.5 before:bg-slate-200">
             {displayStops.map((stop, idx) => {
               const st = STATION_MAP.get(stop.stationId);
               if (!st) return null;
@@ -376,7 +376,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                     }}
                   >
                     {/* ピンマーカー (コンテナ中央揃えにより停車・通過・現在位置を行の上下中央に完全同軸化) */}
-                    <div className="absolute -left-6 inset-y-0 w-6 flex items-center justify-center pointer-events-none z-10">
+                    <div className="absolute -left-7 inset-y-0 w-6 flex items-center justify-center pointer-events-none z-10">
                       <div
                         className={`rounded-full transition-transform group-hover:scale-125 ${
                           stop.isCurrent
@@ -465,7 +465,6 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                           className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-bold text-white shadow-2xs shrink-0"
                           style={{ backgroundColor: nextLineColor }}
                         >
-                          <span className="text-[10px] opacity-90">▼ ここから</span>
                           <span className="font-extrabold">{stop.boundaryInfo.nextLineName}</span>
                           {stop.boundaryInfo.nextTrainType && (
                             <TrainTypeBadge
