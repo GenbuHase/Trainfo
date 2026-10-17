@@ -428,6 +428,46 @@ const TIMETABLE_LOADERS: Record<string, LoaderFn> = {
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
+  hokuriku_shinkansen: () =>
+    Promise.all([
+      import('./lines/hokuriku_shinkansen/globalTimetable.json'),
+      import('./lines/hokuriku_shinkansen/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  myoko_haneuma: () =>
+    Promise.all([
+      import('./lines/myoko_haneuma/globalTimetable.json'),
+      import('./lines/myoko_haneuma/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  nihonkai_hisui: () =>
+    Promise.all([
+      import('./lines/nihonkai_hisui/globalTimetable.json'),
+      import('./lines/nihonkai_hisui/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  hokuhoku: () =>
+    Promise.all([
+      import('./lines/hokuhoku/globalTimetable.json'),
+      import('./lines/hokuhoku/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  kita_shinano: () =>
+    Promise.all([
+      import('./lines/kita_shinano/globalTimetable.json'),
+      import('./lines/kita_shinano/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
 };
 
 

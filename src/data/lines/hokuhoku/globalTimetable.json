@@ -1,0 +1,6356 @@
+[
+  {
+    "tripId": "WD_OUT_HK-01_0512_40282",
+    "lineId": "hokuhoku",
+    "trainNumber": "820M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "05:12:00",
+        "departureTime": "05:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "05:16:00",
+        "departureTime": "05:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "05:23:00",
+        "departureTime": "05:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "05:26:00",
+        "departureTime": "05:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "05:28:00",
+        "departureTime": "05:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "05:39:00",
+        "departureTime": "05:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "05:47:00",
+        "departureTime": "05:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "05:53:00",
+        "departureTime": "05:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "05:57:00",
+        "departureTime": "05:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "06:01:00",
+        "departureTime": "06:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "06:04:00",
+        "departureTime": "06:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "06:10:00",
+        "departureTime": "06:10:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40282"
+  },
+  {
+    "tripId": "WD_INB_HK-12_0538_33744",
+    "lineId": "hokuhoku",
+    "trainNumber": "821M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "05:37:00",
+        "departureTime": "05:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "05:43:00",
+        "departureTime": "05:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "05:45:00",
+        "departureTime": "05:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "05:50:00",
+        "departureTime": "05:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "05:53:00",
+        "departureTime": "05:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "05:59:00",
+        "departureTime": "05:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "06:07:00",
+        "departureTime": "06:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "06:17:00",
+        "departureTime": "06:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "06:27:00",
+        "departureTime": "06:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "06:30:00",
+        "departureTime": "06:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "06:41:00",
+        "departureTime": "06:41:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33744",
+    "throughTripId": "WD_INB_JOE-25_0642_33725",
+    "throughLineId": "joetsu",
+    "prevTripId": "WD_OUT_SE-01_0528_33744",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_0608_40353",
+    "lineId": "hokuhoku",
+    "trainNumber": "822M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "06:08:00",
+        "departureTime": "06:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "06:11:00",
+        "departureTime": "06:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "06:19:00",
+        "departureTime": "06:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "06:22:00",
+        "departureTime": "06:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "06:24:00",
+        "departureTime": "06:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "06:36:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "06:50:00",
+        "departureTime": "06:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "06:55:00",
+        "departureTime": "06:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "06:58:00",
+        "departureTime": "06:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "07:03:00",
+        "departureTime": "07:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "07:07:00",
+        "departureTime": "07:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "07:13:00",
+        "departureTime": "07:13:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40353",
+    "customOrigin": "六日町",
+    "throughTripId": "WD_INB_SE-03_0713_40353",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_0619_21902",
+    "lineId": "hokuhoku",
+    "trainNumber": "823M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "06:19:00",
+        "departureTime": "06:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "06:24:00",
+        "departureTime": "06:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "06:27:00",
+        "departureTime": "06:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "06:32:00",
+        "departureTime": "06:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "06:35:00",
+        "departureTime": "06:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "06:40:00",
+        "departureTime": "06:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "06:48:00",
+        "departureTime": "06:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "06:59:00",
+        "departureTime": "07:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "07:05:00",
+        "departureTime": "07:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "07:08:00",
+        "departureTime": "07:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "07:15:00",
+        "departureTime": "07:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "07:19:00",
+        "departureTime": "07:19:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "21902"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_0642_40354",
+    "lineId": "hokuhoku",
+    "trainNumber": "824M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "06:42:00",
+        "departureTime": "06:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "06:46:00",
+        "departureTime": "06:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "06:53:00",
+        "departureTime": "06:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "06:56:00",
+        "departureTime": "06:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "06:59:00",
+        "departureTime": "06:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "07:17:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "07:23:00",
+        "departureTime": "07:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "07:26:00",
+        "departureTime": "07:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "07:31:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "07:34:00",
+        "departureTime": "07:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "07:46:00",
+        "departureTime": "07:46:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40354",
+    "customOrigin": "六日町",
+    "throughTripId": "WD_INB_SE-03_0747_40354",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_0702_33745",
+    "lineId": "hokuhoku",
+    "trainNumber": "825M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "07:01:00",
+        "departureTime": "07:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "07:07:00",
+        "departureTime": "07:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "07:14:00",
+        "departureTime": "07:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "07:18:00",
+        "departureTime": "07:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "07:29:00",
+        "departureTime": "07:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "07:37:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "07:48:00",
+        "departureTime": "07:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "07:56:00",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "07:59:00",
+        "departureTime": "08:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "08:07:00",
+        "departureTime": "08:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "08:11:00",
+        "departureTime": "08:11:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33745",
+    "throughTripId": "WD_INB_JOE-25_0812_33726",
+    "throughLineId": "joetsu",
+    "prevTripId": "WD_OUT_SE-01_0652_33745",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_0733_40355",
+    "lineId": "hokuhoku",
+    "trainNumber": "826M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "07:37:00",
+        "departureTime": "07:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "07:44:00",
+        "departureTime": "07:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "07:47:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "07:49:00",
+        "departureTime": "07:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "08:01:00",
+        "departureTime": "08:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "08:09:00",
+        "departureTime": "08:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "08:14:00",
+        "departureTime": "08:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "08:17:00",
+        "departureTime": "08:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "08:22:00",
+        "departureTime": "08:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "08:25:00",
+        "departureTime": "08:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "08:30:00",
+        "departureTime": "08:30:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40355",
+    "customOrigin": "六日町",
+    "throughTripId": "WD_INB_SE-03_0833_40355",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_0735_40369",
+    "lineId": "hokuhoku",
+    "trainNumber": "827M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "07:35:00",
+        "departureTime": "07:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "07:43:00",
+        "departureTime": "07:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "07:48:00",
+        "departureTime": "07:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "07:51:00",
+        "departureTime": "07:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "07:57:00",
+        "departureTime": "07:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "08:11:00",
+        "departureTime": "08:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "08:21:00",
+        "departureTime": "08:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "08:28:00",
+        "departureTime": "08:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "08:31:00",
+        "departureTime": "08:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "08:38:00",
+        "departureTime": "08:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "08:42:00",
+        "departureTime": "08:42:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40369",
+    "customDestination": "六日町",
+    "prevTripId": "WD_OUT_SE-01_0728_40369",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_0819_40370",
+    "lineId": "hokuhoku",
+    "trainNumber": "829M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "08:19:00",
+        "departureTime": "08:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "08:25:00",
+        "departureTime": "08:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "08:30:00",
+        "departureTime": "08:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "08:35:00",
+        "departureTime": "08:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "08:38:00",
+        "departureTime": "08:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "08:43:00",
+        "departureTime": "08:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "08:51:00",
+        "departureTime": "08:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "09:02:00",
+        "departureTime": "09:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "09:04:00",
+        "departureTime": "09:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "09:08:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "09:15:00",
+        "departureTime": "09:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "09:19:00",
+        "departureTime": "09:19:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40370",
+    "customDestination": "六日町",
+    "prevTripId": "WD_OUT_SE-01_0812_40370",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_0843_35091",
+    "lineId": "hokuhoku",
+    "trainNumber": "828M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "08:37:00",
+        "departureTime": "08:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "08:47:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "08:54:00",
+        "departureTime": "08:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "08:57:00",
+        "departureTime": "08:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "08:59:00",
+        "departureTime": "09:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "09:12:00",
+        "departureTime": "09:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "09:20:00",
+        "departureTime": "09:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "09:26:00",
+        "departureTime": "09:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "09:30:00",
+        "departureTime": "09:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "09:34:00",
+        "departureTime": "09:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "09:37:00",
+        "departureTime": "09:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:43:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35091",
+    "prevTripId": "WD_OUT_JOE-20_0820_35072",
+    "prevLineId": "joetsu",
+    "throughTripId": "WD_INB_SE-03_0943_35091",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_0911_33749",
+    "lineId": "hokuhoku",
+    "trainNumber": "831M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "09:10:00",
+        "departureTime": "09:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "09:16:00",
+        "departureTime": "09:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "09:18:00",
+        "departureTime": "09:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "09:23:00",
+        "departureTime": "09:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "09:26:00",
+        "departureTime": "09:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "09:32:00",
+        "departureTime": "09:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "09:40:00",
+        "departureTime": "09:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "09:55:00",
+        "departureTime": "09:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "09:58:00",
+        "departureTime": "09:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "10:05:00",
+        "departureTime": "10:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "10:09:00",
+        "departureTime": "10:09:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33749",
+    "throughTripId": "WD_INB_JOE-25_1010_33730",
+    "throughLineId": "joetsu",
+    "prevTripId": "WD_OUT_SE-01_0903_33749",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_0936_35092",
+    "lineId": "hokuhoku",
+    "trainNumber": "830M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "09:31:00",
+        "departureTime": "09:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "09:39:00",
+        "departureTime": "09:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "09:47:00",
+        "departureTime": "09:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "09:52:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "10:17:00",
+        "departureTime": "10:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "10:23:00",
+        "departureTime": "10:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "10:28:00",
+        "departureTime": "10:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "10:30:00",
+        "departureTime": "10:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "10:36:00",
+        "departureTime": "10:36:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35092",
+    "prevTripId": "WD_OUT_JOE-20_0914_35073",
+    "prevLineId": "joetsu",
+    "throughTripId": "WD_INB_SE-03_1036_35092",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_1004_33750",
+    "lineId": "hokuhoku",
+    "trainNumber": "833M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "10:09:00",
+        "departureTime": "10:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "10:12:00",
+        "departureTime": "10:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "10:19:00",
+        "departureTime": "10:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "10:25:00",
+        "departureTime": "10:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "10:33:00",
+        "departureTime": "10:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "10:44:00",
+        "departureTime": "10:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "10:46:00",
+        "departureTime": "10:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "10:49:00",
+        "departureTime": "10:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "10:57:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "11:01:00",
+        "departureTime": "11:01:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33750",
+    "throughTripId": "WD_INB_JOE-25_1105_33731",
+    "throughLineId": "joetsu",
+    "prevTripId": "WD_OUT_SE-01_0956_33750",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_1102_35098",
+    "lineId": "hokuhoku",
+    "trainNumber": "832M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "10:57:00",
+        "departureTime": "11:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "11:05:00",
+        "departureTime": "11:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "11:13:00",
+        "departureTime": "11:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "11:16:00",
+        "departureTime": "11:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "11:18:00",
+        "departureTime": "11:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "11:38:00",
+        "departureTime": "11:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "11:44:00",
+        "departureTime": "11:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "11:49:00",
+        "departureTime": "11:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "11:54:00",
+        "departureTime": "11:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "11:57:00",
+        "departureTime": "11:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "12:02:00",
+        "departureTime": "12:02:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35098",
+    "prevTripId": "WD_OUT_JOE-20_1041_35079",
+    "prevLineId": "joetsu",
+    "throughTripId": "WD_INB_SE-03_1211_35098",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_1130_33746",
+    "lineId": "hokuhoku",
+    "trainNumber": "835M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "11:29:00",
+        "departureTime": "11:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "11:35:00",
+        "departureTime": "11:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "11:38:00",
+        "departureTime": "11:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "11:43:00",
+        "departureTime": "11:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "11:46:00",
+        "departureTime": "11:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "11:51:00",
+        "departureTime": "11:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "11:59:00",
+        "departureTime": "12:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "12:10:00",
+        "departureTime": "12:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "12:17:00",
+        "departureTime": "12:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "12:20:00",
+        "departureTime": "12:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "12:28:00",
+        "departureTime": "12:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "12:32:00",
+        "departureTime": "12:32:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33746",
+    "throughTripId": "WD_INB_JOE-25_1235_33727",
+    "throughLineId": "joetsu",
+    "prevTripId": "WD_OUT_SE-01_1121_33746",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_1158_35096",
+    "lineId": "hokuhoku",
+    "trainNumber": "834M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "11:58:00",
+        "departureTime": "11:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "12:02:00",
+        "departureTime": "12:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "12:09:00",
+        "departureTime": "12:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "12:12:00",
+        "departureTime": "12:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "12:15:00",
+        "departureTime": "12:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "12:26:00",
+        "departureTime": "12:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "12:34:00",
+        "departureTime": "12:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "12:39:00",
+        "departureTime": "12:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "12:42:00",
+        "departureTime": "12:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "12:47:00",
+        "departureTime": "12:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "12:50:00",
+        "departureTime": "12:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "12:55:00",
+        "departureTime": "12:55:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35096",
+    "prevTripId": "WD_OUT_JOE-20_1141_35077",
+    "prevLineId": "joetsu",
+    "throughTripId": "WD_INB_SE-03_1259_35096",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_1309_40371",
+    "lineId": "hokuhoku",
+    "trainNumber": "837M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "13:08:00",
+        "departureTime": "13:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "13:14:00",
+        "departureTime": "13:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "13:16:00",
+        "departureTime": "13:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "13:21:00",
+        "departureTime": "13:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "13:24:00",
+        "departureTime": "13:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "13:30:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "13:38:00",
+        "departureTime": "13:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "13:48:00",
+        "departureTime": "14:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "14:02:00",
+        "departureTime": "14:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "14:05:00",
+        "departureTime": "14:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "14:12:00",
+        "departureTime": "14:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "14:16:00",
+        "departureTime": "14:16:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40371",
+    "customDestination": "六日町",
+    "prevTripId": "WD_OUT_SE-01_1301_40371",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_1343_41463",
+    "lineId": "hokuhoku",
+    "trainNumber": "836M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "13:42:00",
+        "departureTime": "13:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "13:46:00",
+        "departureTime": "13:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "13:54:00",
+        "departureTime": "13:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "13:57:00",
+        "departureTime": "13:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "13:59:00",
+        "departureTime": "14:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "14:12:00",
+        "departureTime": "14:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "14:20:00",
+        "departureTime": "14:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "14:26:00",
+        "departureTime": "14:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "14:32:00",
+        "departureTime": "14:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "14:36:00",
+        "departureTime": "14:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "14:39:00",
+        "departureTime": "14:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "14:45:00",
+        "departureTime": "14:45:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "41463",
+    "customDestination": "犀潟",
+    "prevTripId": "WD_OUT_JOE-20_1326_41432",
+    "prevLineId": "joetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_1413_33747",
+    "lineId": "hokuhoku",
+    "trainNumber": "839M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "14:12:00",
+        "departureTime": "14:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "14:18:00",
+        "departureTime": "14:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "14:20:00",
+        "departureTime": "14:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "14:25:00",
+        "departureTime": "14:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "14:28:00",
+        "departureTime": "14:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "14:34:00",
+        "departureTime": "14:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "14:42:00",
+        "departureTime": "14:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "14:52:00",
+        "departureTime": "15:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "15:12:00",
+        "departureTime": "15:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "15:15:00",
+        "departureTime": "15:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "15:23:00",
+        "departureTime": "15:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "15:27:00",
+        "departureTime": "15:27:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33747",
+    "throughTripId": "WD_INB_JOE-25_1528_33728",
+    "throughLineId": "joetsu",
+    "prevTripId": "WD_OUT_SE-01_1405_33747",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_1450_40356",
+    "lineId": "hokuhoku",
+    "trainNumber": "838M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "14:50:00",
+        "departureTime": "14:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "14:53:00",
+        "departureTime": "14:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "15:01:00",
+        "departureTime": "15:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "15:04:00",
+        "departureTime": "15:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "15:06:00",
+        "departureTime": "15:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "15:20:00",
+        "departureTime": "15:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "15:28:00",
+        "departureTime": "15:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "15:34:00",
+        "departureTime": "15:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "15:41:00",
+        "departureTime": "15:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "15:46:00",
+        "departureTime": "15:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "15:49:00",
+        "departureTime": "15:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "15:54:00",
+        "departureTime": "15:54:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40356",
+    "customOrigin": "六日町",
+    "throughTripId": "WD_INB_SE-03_1555_40356",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_1522_21903",
+    "lineId": "hokuhoku",
+    "trainNumber": "841M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "15:22:00",
+        "departureTime": "15:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "15:27:00",
+        "departureTime": "15:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "15:30:00",
+        "departureTime": "15:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "15:35:00",
+        "departureTime": "15:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "15:38:00",
+        "departureTime": "15:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "15:43:00",
+        "departureTime": "15:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "15:51:00",
+        "departureTime": "15:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "16:02:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "16:05:00",
+        "departureTime": "16:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "16:08:00",
+        "departureTime": "16:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "16:15:00",
+        "departureTime": "16:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:19:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "21903"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_1544_40357",
+    "lineId": "hokuhoku",
+    "trainNumber": "840M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "15:44:00",
+        "departureTime": "15:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "15:47:00",
+        "departureTime": "15:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "15:55:00",
+        "departureTime": "15:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "15:58:00",
+        "departureTime": "15:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "16:00:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "16:13:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "16:21:00",
+        "departureTime": "16:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "16:27:00",
+        "departureTime": "16:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "16:33:00",
+        "departureTime": "16:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "16:38:00",
+        "departureTime": "16:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "16:41:00",
+        "departureTime": "16:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "16:46:00",
+        "departureTime": "16:46:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40357",
+    "customOrigin": "六日町",
+    "throughTripId": "WD_INB_SE-03_1647_40357",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_1614_33752",
+    "lineId": "hokuhoku",
+    "trainNumber": "843M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "16:14:00",
+        "departureTime": "16:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "16:22:00",
+        "departureTime": "16:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "16:27:00",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "16:30:00",
+        "departureTime": "16:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "16:35:00",
+        "departureTime": "16:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "16:43:00",
+        "departureTime": "16:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "16:54:00",
+        "departureTime": "16:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "16:58:00",
+        "departureTime": "16:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "17:01:00",
+        "departureTime": "17:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "17:09:00",
+        "departureTime": "17:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "17:13:00",
+        "departureTime": "17:13:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33752",
+    "throughTripId": "WD_INB_JOE-25_1713_33733",
+    "throughLineId": "joetsu",
+    "prevTripId": "WD_OUT_SE-01_1607_33752",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_1639_40359",
+    "lineId": "hokuhoku",
+    "trainNumber": "842M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "16:39:00",
+        "departureTime": "16:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "16:43:00",
+        "departureTime": "16:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "16:50:00",
+        "departureTime": "16:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "16:53:00",
+        "departureTime": "16:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "16:56:00",
+        "departureTime": "16:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "17:14:00",
+        "departureTime": "17:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "17:20:00",
+        "departureTime": "17:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "17:29:00",
+        "departureTime": "17:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "17:34:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "17:42:00",
+        "departureTime": "17:42:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40359",
+    "customOrigin": "六日町",
+    "throughTripId": "WD_INB_SE-03_1743_40359",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_1710_33753",
+    "lineId": "hokuhoku",
+    "trainNumber": "845M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "17:18:00",
+        "departureTime": "17:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "17:23:00",
+        "departureTime": "17:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "17:26:00",
+        "departureTime": "17:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "17:32:00",
+        "departureTime": "17:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "17:40:00",
+        "departureTime": "17:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "17:50:00",
+        "departureTime": "17:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "17:53:00",
+        "departureTime": "17:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "17:56:00",
+        "departureTime": "17:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "18:03:00",
+        "departureTime": "18:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "18:07:00",
+        "departureTime": "18:07:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33753",
+    "throughTripId": "WD_INB_JOE-25_1808_33734",
+    "throughLineId": "joetsu",
+    "prevTripId": "WD_OUT_SE-01_1703_33753",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_1733_41462",
+    "lineId": "hokuhoku",
+    "trainNumber": "844M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "17:27:00",
+        "departureTime": "17:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "17:44:00",
+        "departureTime": "17:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "17:47:00",
+        "departureTime": "17:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "17:49:00",
+        "departureTime": "17:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "18:10:00",
+        "departureTime": "18:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "18:25:00",
+        "departureTime": "18:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "18:30:00",
+        "departureTime": "18:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "18:33:00",
+        "departureTime": "18:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "18:38:00",
+        "departureTime": "18:38:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "41462",
+    "customDestination": "犀潟",
+    "prevTripId": "WD_OUT_JOE-20_1710_41431",
+    "prevLineId": "joetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_1806_33754",
+    "lineId": "hokuhoku",
+    "trainNumber": "847M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "18:06:00",
+        "departureTime": "18:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "18:14:00",
+        "departureTime": "18:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "18:19:00",
+        "departureTime": "18:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "18:22:00",
+        "departureTime": "18:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "18:35:00",
+        "departureTime": "18:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "18:48:00",
+        "departureTime": "18:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "18:52:00",
+        "departureTime": "18:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "18:59:00",
+        "departureTime": "19:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "19:03:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33754",
+    "throughTripId": "WD_INB_JOE-25_1904_33735",
+    "throughLineId": "joetsu",
+    "prevTripId": "WD_OUT_SE-01_1759_33754",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_1826_35097",
+    "lineId": "hokuhoku",
+    "trainNumber": "846M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "18:23:00",
+        "departureTime": "18:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "18:29:00",
+        "departureTime": "18:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "18:37:00",
+        "departureTime": "18:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "18:42:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "18:56:00",
+        "departureTime": "18:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "19:04:00",
+        "departureTime": "19:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "19:13:00",
+        "departureTime": "19:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "19:18:00",
+        "departureTime": "19:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "19:21:00",
+        "departureTime": "19:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "19:26:00",
+        "departureTime": "19:26:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35097",
+    "prevTripId": "WD_OUT_JOE-20_1806_35078",
+    "prevLineId": "joetsu",
+    "throughTripId": "WD_INB_SE-03_1927_35097",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_1855_21904",
+    "lineId": "hokuhoku",
+    "trainNumber": "849M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "18:55:00",
+        "departureTime": "18:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "19:00:00",
+        "departureTime": "19:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "19:02:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "19:07:00",
+        "departureTime": "19:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "19:16:00",
+        "departureTime": "19:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "19:24:00",
+        "departureTime": "19:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "19:37:00",
+        "departureTime": "19:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "19:41:00",
+        "departureTime": "19:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "19:48:00",
+        "departureTime": "19:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "21904"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_1918_40358",
+    "lineId": "hokuhoku",
+    "trainNumber": "848M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "19:18:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "19:22:00",
+        "departureTime": "19:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "19:29:00",
+        "departureTime": "19:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "19:32:00",
+        "departureTime": "19:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "19:34:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "19:45:00",
+        "departureTime": "19:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "19:53:00",
+        "departureTime": "19:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "19:59:00",
+        "departureTime": "19:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "20:02:00",
+        "departureTime": "20:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "20:06:00",
+        "departureTime": "20:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "20:09:00",
+        "departureTime": "20:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "20:15:00",
+        "departureTime": "20:15:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40358",
+    "customOrigin": "六日町",
+    "throughTripId": "WD_INB_SE-03_2015_40358",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_1955_33755",
+    "lineId": "hokuhoku",
+    "trainNumber": "851M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "19:55:00",
+        "departureTime": "19:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "20:01:00",
+        "departureTime": "20:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "20:17:00",
+        "departureTime": "20:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "20:20:00",
+        "departureTime": "20:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "20:26:00",
+        "departureTime": "20:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "20:34:00",
+        "departureTime": "20:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "20:44:00",
+        "departureTime": "20:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "20:47:00",
+        "departureTime": "20:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "20:50:00",
+        "departureTime": "20:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "20:58:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "21:02:00",
+        "departureTime": "21:02:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33755",
+    "throughTripId": "WD_INB_JOE-25_2103_33736",
+    "throughLineId": "joetsu",
+    "prevTripId": "WD_OUT_SE-01_1948_33755",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_2026_35093",
+    "lineId": "hokuhoku",
+    "trainNumber": "850M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "20:23:00",
+        "departureTime": "20:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "20:30:00",
+        "departureTime": "20:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "20:55:00",
+        "departureTime": "20:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "21:03:00",
+        "departureTime": "21:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "21:09:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "21:13:00",
+        "departureTime": "21:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "21:20:00",
+        "departureTime": "21:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "21:23:00",
+        "departureTime": "21:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "21:28:00",
+        "departureTime": "21:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35093",
+    "prevTripId": "WD_OUT_JOE-20_2006_35074",
+    "prevLineId": "joetsu",
+    "throughTripId": "WD_INB_SE-03_2130_35093",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_2051_40372",
+    "lineId": "hokuhoku",
+    "trainNumber": "853M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "20:51:00",
+        "departureTime": "20:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "20:56:00",
+        "departureTime": "20:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "20:59:00",
+        "departureTime": "21:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "21:04:00",
+        "departureTime": "21:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "21:09:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "21:15:00",
+        "departureTime": "21:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "21:23:00",
+        "departureTime": "21:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "21:34:00",
+        "departureTime": "21:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "21:38:00",
+        "departureTime": "21:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "21:41:00",
+        "departureTime": "21:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "21:48:00",
+        "departureTime": "21:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "21:52:00",
+        "departureTime": "21:52:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40372",
+    "customDestination": "六日町",
+    "prevTripId": "WD_OUT_SE-01_2044_40372",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_2119_35094",
+    "lineId": "hokuhoku",
+    "trainNumber": "852M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "21:18:00",
+        "departureTime": "21:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "21:22:00",
+        "departureTime": "21:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "21:33:00",
+        "departureTime": "21:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "21:35:00",
+        "departureTime": "21:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "21:46:00",
+        "departureTime": "21:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "21:54:00",
+        "departureTime": "21:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "21:59:00",
+        "departureTime": "22:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "22:02:00",
+        "departureTime": "22:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "22:07:00",
+        "departureTime": "22:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "22:10:00",
+        "departureTime": "22:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "22:15:00",
+        "departureTime": "22:15:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35094",
+    "prevTripId": "WD_OUT_JOE-20_2101_35075",
+    "prevLineId": "joetsu",
+    "throughTripId": "WD_INB_SE-03_2221_35094",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_INB_HK-12_2227_40373",
+    "lineId": "hokuhoku",
+    "trainNumber": "855M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "22:26:00",
+        "departureTime": "22:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "22:32:00",
+        "departureTime": "22:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "22:35:00",
+        "departureTime": "22:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "22:39:00",
+        "departureTime": "22:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "22:42:00",
+        "departureTime": "22:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "22:48:00",
+        "departureTime": "22:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "22:56:00",
+        "departureTime": "22:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "23:07:00",
+        "departureTime": "23:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "23:09:00",
+        "departureTime": "23:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "23:12:00",
+        "departureTime": "23:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "23:20:00",
+        "departureTime": "23:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "23:24:00",
+        "departureTime": "23:24:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40373",
+    "customDestination": "六日町",
+    "prevTripId": "WD_OUT_SE-01_2219_40373",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "WD_OUT_HK-01_2249_35095",
+    "lineId": "hokuhoku",
+    "trainNumber": "854M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "22:48:00",
+        "departureTime": "22:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "22:52:00",
+        "departureTime": "22:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "23:00:00",
+        "departureTime": "23:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "23:03:00",
+        "departureTime": "23:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "23:05:00",
+        "departureTime": "23:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "23:17:00",
+        "departureTime": "23:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "23:25:00",
+        "departureTime": "23:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "23:31:00",
+        "departureTime": "23:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "23:34:00",
+        "departureTime": "23:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "23:38:00",
+        "departureTime": "23:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "23:41:00",
+        "departureTime": "23:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "23:47:00",
+        "departureTime": "23:47:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35095",
+    "prevTripId": "WD_OUT_JOE-20_2231_35076",
+    "prevLineId": "joetsu",
+    "throughTripId": "WD_INB_SE-03_2347_35095",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_0512_40282",
+    "lineId": "hokuhoku",
+    "trainNumber": "820M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "05:12:00",
+        "departureTime": "05:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "05:16:00",
+        "departureTime": "05:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "05:23:00",
+        "departureTime": "05:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "05:26:00",
+        "departureTime": "05:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "05:28:00",
+        "departureTime": "05:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "05:39:00",
+        "departureTime": "05:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "05:47:00",
+        "departureTime": "05:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "05:53:00",
+        "departureTime": "05:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "05:57:00",
+        "departureTime": "05:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "06:01:00",
+        "departureTime": "06:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "06:04:00",
+        "departureTime": "06:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "06:10:00",
+        "departureTime": "06:10:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40282"
+  },
+  {
+    "tripId": "HD_INB_HK-12_0538_33744",
+    "lineId": "hokuhoku",
+    "trainNumber": "821M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "05:37:00",
+        "departureTime": "05:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "05:43:00",
+        "departureTime": "05:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "05:45:00",
+        "departureTime": "05:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "05:50:00",
+        "departureTime": "05:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "05:53:00",
+        "departureTime": "05:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "05:59:00",
+        "departureTime": "05:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "06:07:00",
+        "departureTime": "06:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "06:17:00",
+        "departureTime": "06:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "06:27:00",
+        "departureTime": "06:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "06:30:00",
+        "departureTime": "06:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "06:41:00",
+        "departureTime": "06:41:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33744",
+    "throughTripId": "HD_INB_JOE-25_0642_33725",
+    "throughLineId": "joetsu",
+    "prevTripId": "HD_OUT_SE-01_0528_33744",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_0619_21902",
+    "lineId": "hokuhoku",
+    "trainNumber": "823M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "06:19:00",
+        "departureTime": "06:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "06:24:00",
+        "departureTime": "06:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "06:27:00",
+        "departureTime": "06:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "06:32:00",
+        "departureTime": "06:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "06:35:00",
+        "departureTime": "06:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "06:40:00",
+        "departureTime": "06:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "06:48:00",
+        "departureTime": "06:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "06:59:00",
+        "departureTime": "07:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "07:05:00",
+        "departureTime": "07:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "07:08:00",
+        "departureTime": "07:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "07:15:00",
+        "departureTime": "07:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "07:19:00",
+        "departureTime": "07:19:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "21902"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_0642_40354",
+    "lineId": "hokuhoku",
+    "trainNumber": "824M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "06:42:00",
+        "departureTime": "06:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "06:46:00",
+        "departureTime": "06:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "06:53:00",
+        "departureTime": "06:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "06:56:00",
+        "departureTime": "06:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "06:59:00",
+        "departureTime": "06:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "07:17:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "07:23:00",
+        "departureTime": "07:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "07:26:00",
+        "departureTime": "07:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "07:31:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "07:34:00",
+        "departureTime": "07:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "07:46:00",
+        "departureTime": "07:46:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40354",
+    "customOrigin": "六日町",
+    "throughTripId": "HD_INB_SE-03_0747_40354",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_0702_33745",
+    "lineId": "hokuhoku",
+    "trainNumber": "825M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "07:01:00",
+        "departureTime": "07:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "07:07:00",
+        "departureTime": "07:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "07:14:00",
+        "departureTime": "07:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "07:18:00",
+        "departureTime": "07:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "07:29:00",
+        "departureTime": "07:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "07:37:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "07:48:00",
+        "departureTime": "07:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "07:56:00",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "07:59:00",
+        "departureTime": "08:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "08:07:00",
+        "departureTime": "08:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "08:11:00",
+        "departureTime": "08:11:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33745",
+    "throughTripId": "HD_INB_JOE-25_0812_33726",
+    "throughLineId": "joetsu",
+    "prevTripId": "HD_OUT_SE-01_0652_33745",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_0733_40355",
+    "lineId": "hokuhoku",
+    "trainNumber": "826M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "07:37:00",
+        "departureTime": "07:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "07:44:00",
+        "departureTime": "07:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "07:47:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "07:49:00",
+        "departureTime": "07:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "08:01:00",
+        "departureTime": "08:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "08:09:00",
+        "departureTime": "08:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "08:14:00",
+        "departureTime": "08:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "08:17:00",
+        "departureTime": "08:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "08:22:00",
+        "departureTime": "08:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "08:25:00",
+        "departureTime": "08:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "08:30:00",
+        "departureTime": "08:30:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40355",
+    "customOrigin": "六日町",
+    "throughTripId": "HD_INB_SE-03_0833_40355",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_0819_40370",
+    "lineId": "hokuhoku",
+    "trainNumber": "829M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "08:19:00",
+        "departureTime": "08:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "08:25:00",
+        "departureTime": "08:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "08:30:00",
+        "departureTime": "08:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "08:35:00",
+        "departureTime": "08:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "08:38:00",
+        "departureTime": "08:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "08:43:00",
+        "departureTime": "08:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "08:51:00",
+        "departureTime": "08:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "09:02:00",
+        "departureTime": "09:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "09:04:00",
+        "departureTime": "09:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "09:08:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "09:15:00",
+        "departureTime": "09:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "09:19:00",
+        "departureTime": "09:19:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40370",
+    "customDestination": "六日町",
+    "prevTripId": "HD_OUT_SE-01_0812_40370",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_0843_35091",
+    "lineId": "hokuhoku",
+    "trainNumber": "828M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "08:37:00",
+        "departureTime": "08:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "08:47:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "08:54:00",
+        "departureTime": "08:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "08:57:00",
+        "departureTime": "08:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "08:59:00",
+        "departureTime": "09:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "09:12:00",
+        "departureTime": "09:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "09:20:00",
+        "departureTime": "09:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "09:26:00",
+        "departureTime": "09:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "09:30:00",
+        "departureTime": "09:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "09:34:00",
+        "departureTime": "09:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "09:37:00",
+        "departureTime": "09:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:43:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35091",
+    "prevTripId": "HD_OUT_JOE-20_0820_35072",
+    "prevLineId": "joetsu",
+    "throughTripId": "HD_INB_SE-03_0943_35091",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_0911_33749",
+    "lineId": "hokuhoku",
+    "trainNumber": "831M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "09:10:00",
+        "departureTime": "09:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "09:16:00",
+        "departureTime": "09:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "09:18:00",
+        "departureTime": "09:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "09:23:00",
+        "departureTime": "09:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "09:26:00",
+        "departureTime": "09:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "09:32:00",
+        "departureTime": "09:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "09:40:00",
+        "departureTime": "09:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "09:55:00",
+        "departureTime": "09:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "09:58:00",
+        "departureTime": "09:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "10:05:00",
+        "departureTime": "10:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "10:09:00",
+        "departureTime": "10:09:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33749",
+    "throughTripId": "HD_INB_JOE-25_1010_33730",
+    "throughLineId": "joetsu",
+    "prevTripId": "HD_OUT_SE-01_0903_33749",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_0936_35092",
+    "lineId": "hokuhoku",
+    "trainNumber": "830M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "09:31:00",
+        "departureTime": "09:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "09:39:00",
+        "departureTime": "09:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "09:47:00",
+        "departureTime": "09:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "09:52:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "10:17:00",
+        "departureTime": "10:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "10:23:00",
+        "departureTime": "10:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "10:28:00",
+        "departureTime": "10:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "10:30:00",
+        "departureTime": "10:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "10:36:00",
+        "departureTime": "10:36:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35092",
+    "prevTripId": "HD_OUT_JOE-20_0914_35073",
+    "prevLineId": "joetsu",
+    "throughTripId": "HD_INB_SE-03_1036_35092",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_1004_33750",
+    "lineId": "hokuhoku",
+    "trainNumber": "833M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "10:09:00",
+        "departureTime": "10:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "10:12:00",
+        "departureTime": "10:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "10:19:00",
+        "departureTime": "10:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "10:25:00",
+        "departureTime": "10:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "10:33:00",
+        "departureTime": "10:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "10:44:00",
+        "departureTime": "10:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "10:46:00",
+        "departureTime": "10:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "10:49:00",
+        "departureTime": "10:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "10:57:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "11:01:00",
+        "departureTime": "11:01:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33750",
+    "throughTripId": "HD_INB_JOE-25_1105_33731",
+    "throughLineId": "joetsu",
+    "prevTripId": "HD_OUT_SE-01_0956_33750",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_1102_35098",
+    "lineId": "hokuhoku",
+    "trainNumber": "832M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "10:57:00",
+        "departureTime": "11:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "11:05:00",
+        "departureTime": "11:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "11:13:00",
+        "departureTime": "11:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "11:16:00",
+        "departureTime": "11:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "11:18:00",
+        "departureTime": "11:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "11:38:00",
+        "departureTime": "11:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "11:44:00",
+        "departureTime": "11:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "11:49:00",
+        "departureTime": "11:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "11:54:00",
+        "departureTime": "11:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "11:57:00",
+        "departureTime": "11:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "12:02:00",
+        "departureTime": "12:02:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35098",
+    "prevTripId": "HD_OUT_JOE-20_1041_35079",
+    "prevLineId": "joetsu",
+    "throughTripId": "HD_INB_SE-03_1211_35098",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_1130_33746",
+    "lineId": "hokuhoku",
+    "trainNumber": "835M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "11:29:00",
+        "departureTime": "11:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "11:35:00",
+        "departureTime": "11:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "11:38:00",
+        "departureTime": "11:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "11:43:00",
+        "departureTime": "11:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "11:46:00",
+        "departureTime": "11:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "11:51:00",
+        "departureTime": "11:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "11:59:00",
+        "departureTime": "12:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "12:10:00",
+        "departureTime": "12:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "12:17:00",
+        "departureTime": "12:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "12:20:00",
+        "departureTime": "12:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "12:28:00",
+        "departureTime": "12:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "12:32:00",
+        "departureTime": "12:32:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33746",
+    "throughTripId": "HD_INB_JOE-25_1235_33727",
+    "throughLineId": "joetsu",
+    "prevTripId": "HD_OUT_SE-01_1121_33746",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_1158_35096",
+    "lineId": "hokuhoku",
+    "trainNumber": "834M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "11:58:00",
+        "departureTime": "11:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "12:02:00",
+        "departureTime": "12:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "12:09:00",
+        "departureTime": "12:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "12:12:00",
+        "departureTime": "12:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "12:15:00",
+        "departureTime": "12:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "12:26:00",
+        "departureTime": "12:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "12:34:00",
+        "departureTime": "12:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "12:39:00",
+        "departureTime": "12:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "12:42:00",
+        "departureTime": "12:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "12:47:00",
+        "departureTime": "12:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "12:50:00",
+        "departureTime": "12:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "12:55:00",
+        "departureTime": "12:55:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35096",
+    "prevTripId": "HD_OUT_JOE-20_1141_35077",
+    "prevLineId": "joetsu",
+    "throughTripId": "HD_INB_SE-03_1259_35096",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_1309_33751",
+    "lineId": "hokuhoku",
+    "trainNumber": "837M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "13:08:00",
+        "departureTime": "13:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "13:14:00",
+        "departureTime": "13:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "13:16:00",
+        "departureTime": "13:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "13:21:00",
+        "departureTime": "13:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "13:24:00",
+        "departureTime": "13:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "13:30:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "13:38:00",
+        "departureTime": "13:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "13:48:00",
+        "departureTime": "14:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "14:02:00",
+        "departureTime": "14:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "14:05:00",
+        "departureTime": "14:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "14:12:00",
+        "departureTime": "14:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "14:16:00",
+        "departureTime": "14:16:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33751",
+    "throughTripId": "HD_INB_JOE-25_1420_33732",
+    "throughLineId": "joetsu",
+    "prevTripId": "HD_OUT_SE-01_1301_40371",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_1343_35099",
+    "lineId": "hokuhoku",
+    "trainNumber": "836M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "13:42:00",
+        "departureTime": "13:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "13:46:00",
+        "departureTime": "13:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "13:54:00",
+        "departureTime": "13:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "13:57:00",
+        "departureTime": "13:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "13:59:00",
+        "departureTime": "14:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "14:12:00",
+        "departureTime": "14:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "14:20:00",
+        "departureTime": "14:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "14:26:00",
+        "departureTime": "14:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "14:32:00",
+        "departureTime": "14:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "14:36:00",
+        "departureTime": "14:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "14:39:00",
+        "departureTime": "14:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "14:45:00",
+        "departureTime": "14:45:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35099",
+    "prevTripId": "HD_OUT_JOE-20_1326_41432",
+    "prevLineId": "joetsu",
+    "throughTripId": "HD_INB_SE-03_1449_35099",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_1413_33747",
+    "lineId": "hokuhoku",
+    "trainNumber": "839M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "14:12:00",
+        "departureTime": "14:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "14:18:00",
+        "departureTime": "14:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "14:20:00",
+        "departureTime": "14:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "14:25:00",
+        "departureTime": "14:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "14:28:00",
+        "departureTime": "14:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "14:34:00",
+        "departureTime": "14:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "14:42:00",
+        "departureTime": "14:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "14:52:00",
+        "departureTime": "15:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "15:12:00",
+        "departureTime": "15:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "15:15:00",
+        "departureTime": "15:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "15:23:00",
+        "departureTime": "15:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "15:27:00",
+        "departureTime": "15:27:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33747",
+    "throughTripId": "HD_INB_JOE-25_1528_33728",
+    "throughLineId": "joetsu",
+    "prevTripId": "HD_OUT_SE-01_1405_33747",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_1450_40356",
+    "lineId": "hokuhoku",
+    "trainNumber": "838M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "14:50:00",
+        "departureTime": "14:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "14:53:00",
+        "departureTime": "14:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "15:01:00",
+        "departureTime": "15:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "15:04:00",
+        "departureTime": "15:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "15:06:00",
+        "departureTime": "15:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "15:20:00",
+        "departureTime": "15:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "15:28:00",
+        "departureTime": "15:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "15:34:00",
+        "departureTime": "15:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "15:41:00",
+        "departureTime": "15:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "15:46:00",
+        "departureTime": "15:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "15:49:00",
+        "departureTime": "15:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "15:54:00",
+        "departureTime": "15:54:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40356",
+    "customOrigin": "六日町",
+    "throughTripId": "HD_INB_SE-03_1555_40356",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_1522_33748",
+    "lineId": "hokuhoku",
+    "trainNumber": "841M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "15:14:00",
+        "departureTime": "15:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "15:27:00",
+        "departureTime": "15:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "15:30:00",
+        "departureTime": "15:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "15:35:00",
+        "departureTime": "15:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "15:38:00",
+        "departureTime": "15:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "15:43:00",
+        "departureTime": "15:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "15:51:00",
+        "departureTime": "15:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "16:02:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "16:05:00",
+        "departureTime": "16:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "16:08:00",
+        "departureTime": "16:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "16:15:00",
+        "departureTime": "16:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:19:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33748",
+    "throughTripId": "HD_INB_JOE-25_1620_33729",
+    "throughLineId": "joetsu",
+    "prevTripId": "HD_OUT_SE-01_1507_33748",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_1544_40357",
+    "lineId": "hokuhoku",
+    "trainNumber": "840M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "15:42:00",
+        "departureTime": "15:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "15:47:00",
+        "departureTime": "15:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "15:55:00",
+        "departureTime": "15:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "15:58:00",
+        "departureTime": "15:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "16:00:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "16:13:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "16:21:00",
+        "departureTime": "16:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "16:27:00",
+        "departureTime": "16:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "16:33:00",
+        "departureTime": "16:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "16:38:00",
+        "departureTime": "16:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "16:41:00",
+        "departureTime": "16:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "16:46:00",
+        "departureTime": "16:46:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40357",
+    "customOrigin": "越後湯沢",
+    "prevTripId": "HD_OUT_JOE-20_1526_35081",
+    "prevLineId": "joetsu",
+    "throughTripId": "HD_INB_SE-03_1647_40357",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_1614_33752",
+    "lineId": "hokuhoku",
+    "trainNumber": "843M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "16:14:00",
+        "departureTime": "16:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "16:22:00",
+        "departureTime": "16:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "16:27:00",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "16:30:00",
+        "departureTime": "16:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "16:35:00",
+        "departureTime": "16:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "16:43:00",
+        "departureTime": "16:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "16:54:00",
+        "departureTime": "16:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "16:58:00",
+        "departureTime": "16:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "17:01:00",
+        "departureTime": "17:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "17:09:00",
+        "departureTime": "17:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "17:13:00",
+        "departureTime": "17:13:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33752",
+    "throughTripId": "HD_INB_JOE-25_1713_33733",
+    "throughLineId": "joetsu",
+    "prevTripId": "HD_OUT_SE-01_1607_33752",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_1639_40359",
+    "lineId": "hokuhoku",
+    "trainNumber": "842M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "16:39:00",
+        "departureTime": "16:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "16:43:00",
+        "departureTime": "16:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "16:50:00",
+        "departureTime": "16:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "16:53:00",
+        "departureTime": "16:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "16:56:00",
+        "departureTime": "16:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "17:14:00",
+        "departureTime": "17:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "17:20:00",
+        "departureTime": "17:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "17:29:00",
+        "departureTime": "17:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "17:34:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "17:42:00",
+        "departureTime": "17:42:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40359",
+    "customOrigin": "越後湯沢",
+    "prevTripId": "HD_OUT_JOE-20_1623_35082",
+    "prevLineId": "joetsu",
+    "throughTripId": "HD_INB_SE-03_1743_40359",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_1710_33753",
+    "lineId": "hokuhoku",
+    "trainNumber": "845M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "17:18:00",
+        "departureTime": "17:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "17:23:00",
+        "departureTime": "17:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "17:26:00",
+        "departureTime": "17:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "17:32:00",
+        "departureTime": "17:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "17:40:00",
+        "departureTime": "17:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "17:50:00",
+        "departureTime": "17:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "17:53:00",
+        "departureTime": "17:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "17:56:00",
+        "departureTime": "17:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "18:03:00",
+        "departureTime": "18:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "18:07:00",
+        "departureTime": "18:07:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33753",
+    "throughTripId": "HD_INB_JOE-25_1808_33734",
+    "throughLineId": "joetsu",
+    "prevTripId": "HD_OUT_SE-01_1703_33753",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_1733_41462",
+    "lineId": "hokuhoku",
+    "trainNumber": "844M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "17:27:00",
+        "departureTime": "17:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "17:44:00",
+        "departureTime": "17:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "17:47:00",
+        "departureTime": "17:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "17:49:00",
+        "departureTime": "17:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "18:10:00",
+        "departureTime": "18:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "18:25:00",
+        "departureTime": "18:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "18:30:00",
+        "departureTime": "18:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "18:33:00",
+        "departureTime": "18:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "18:38:00",
+        "departureTime": "18:38:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "41462",
+    "customDestination": "犀潟",
+    "prevTripId": "HD_OUT_JOE-20_1710_41431",
+    "prevLineId": "joetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_1806_33754",
+    "lineId": "hokuhoku",
+    "trainNumber": "847M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "18:06:00",
+        "departureTime": "18:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "18:14:00",
+        "departureTime": "18:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "18:19:00",
+        "departureTime": "18:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "18:22:00",
+        "departureTime": "18:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "18:35:00",
+        "departureTime": "18:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "18:48:00",
+        "departureTime": "18:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "18:52:00",
+        "departureTime": "18:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "18:59:00",
+        "departureTime": "19:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "19:03:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33754",
+    "throughTripId": "HD_INB_JOE-25_1904_33735",
+    "throughLineId": "joetsu",
+    "prevTripId": "HD_OUT_SE-01_1759_33754",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_1826_35097",
+    "lineId": "hokuhoku",
+    "trainNumber": "846M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "18:23:00",
+        "departureTime": "18:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "18:29:00",
+        "departureTime": "18:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "18:37:00",
+        "departureTime": "18:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "18:42:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "18:56:00",
+        "departureTime": "18:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "19:04:00",
+        "departureTime": "19:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "19:13:00",
+        "departureTime": "19:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "19:18:00",
+        "departureTime": "19:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "19:21:00",
+        "departureTime": "19:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "19:26:00",
+        "departureTime": "19:26:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35097",
+    "prevTripId": "HD_OUT_JOE-20_1806_35078",
+    "prevLineId": "joetsu",
+    "throughTripId": "HD_INB_SE-03_1927_35097",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_1855_21904",
+    "lineId": "hokuhoku",
+    "trainNumber": "849M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "18:55:00",
+        "departureTime": "18:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "19:00:00",
+        "departureTime": "19:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "19:02:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "19:07:00",
+        "departureTime": "19:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "19:16:00",
+        "departureTime": "19:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "19:24:00",
+        "departureTime": "19:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "19:37:00",
+        "departureTime": "19:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "19:41:00",
+        "departureTime": "19:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "19:48:00",
+        "departureTime": "19:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "21904"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_1918_40358",
+    "lineId": "hokuhoku",
+    "trainNumber": "848M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "19:18:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "19:22:00",
+        "departureTime": "19:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "19:29:00",
+        "departureTime": "19:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "19:32:00",
+        "departureTime": "19:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "19:34:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "19:45:00",
+        "departureTime": "19:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "19:53:00",
+        "departureTime": "19:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "19:59:00",
+        "departureTime": "19:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "20:02:00",
+        "departureTime": "20:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "20:06:00",
+        "departureTime": "20:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "20:09:00",
+        "departureTime": "20:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "20:15:00",
+        "departureTime": "20:15:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40358",
+    "customOrigin": "六日町",
+    "throughTripId": "HD_INB_SE-03_2015_40358",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_1955_33755",
+    "lineId": "hokuhoku",
+    "trainNumber": "851M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "19:55:00",
+        "departureTime": "19:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "20:01:00",
+        "departureTime": "20:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "20:17:00",
+        "departureTime": "20:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "20:20:00",
+        "departureTime": "20:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "20:26:00",
+        "departureTime": "20:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "20:34:00",
+        "departureTime": "20:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "20:44:00",
+        "departureTime": "20:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "20:47:00",
+        "departureTime": "20:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "20:50:00",
+        "departureTime": "20:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "20:58:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "21:02:00",
+        "departureTime": "21:02:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "33755",
+    "throughTripId": "HD_INB_JOE-25_2103_33736",
+    "throughLineId": "joetsu",
+    "prevTripId": "HD_OUT_SE-01_1948_33755",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_2026_35093",
+    "lineId": "hokuhoku",
+    "trainNumber": "850M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "20:23:00",
+        "departureTime": "20:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "20:30:00",
+        "departureTime": "20:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "20:55:00",
+        "departureTime": "20:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "21:03:00",
+        "departureTime": "21:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "21:09:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "21:13:00",
+        "departureTime": "21:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "21:20:00",
+        "departureTime": "21:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "21:23:00",
+        "departureTime": "21:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "21:28:00",
+        "departureTime": "21:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35093",
+    "prevTripId": "HD_OUT_JOE-20_2006_35074",
+    "prevLineId": "joetsu",
+    "throughTripId": "HD_INB_SE-03_2130_35093",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_2051_40372",
+    "lineId": "hokuhoku",
+    "trainNumber": "853M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "20:51:00",
+        "departureTime": "20:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "20:56:00",
+        "departureTime": "20:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "20:59:00",
+        "departureTime": "21:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "21:04:00",
+        "departureTime": "21:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "21:09:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "21:15:00",
+        "departureTime": "21:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "21:23:00",
+        "departureTime": "21:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "21:34:00",
+        "departureTime": "21:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "21:38:00",
+        "departureTime": "21:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "21:41:00",
+        "departureTime": "21:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "21:48:00",
+        "departureTime": "21:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "21:52:00",
+        "departureTime": "21:52:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40372",
+    "customDestination": "六日町",
+    "prevTripId": "HD_OUT_SE-01_2044_40372",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_2119_35094",
+    "lineId": "hokuhoku",
+    "trainNumber": "852M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "21:18:00",
+        "departureTime": "21:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "21:22:00",
+        "departureTime": "21:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "21:33:00",
+        "departureTime": "21:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "21:35:00",
+        "departureTime": "21:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "21:46:00",
+        "departureTime": "21:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "21:54:00",
+        "departureTime": "21:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "21:59:00",
+        "departureTime": "22:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "22:02:00",
+        "departureTime": "22:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "22:07:00",
+        "departureTime": "22:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "22:10:00",
+        "departureTime": "22:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "22:15:00",
+        "departureTime": "22:15:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35094",
+    "prevTripId": "HD_OUT_JOE-20_2101_35075",
+    "prevLineId": "joetsu",
+    "throughTripId": "HD_INB_SE-03_2221_35094",
+    "throughLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_INB_HK-12_2227_40373",
+    "lineId": "hokuhoku",
+    "trainNumber": "855M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "HK-12",
+    "destinationStationId": "HK-01",
+    "customOrigin": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "22:26:00",
+        "departureTime": "22:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "22:32:00",
+        "departureTime": "22:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "22:35:00",
+        "departureTime": "22:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "22:39:00",
+        "departureTime": "22:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "22:42:00",
+        "departureTime": "22:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "22:48:00",
+        "departureTime": "22:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "22:56:00",
+        "departureTime": "22:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "23:07:00",
+        "departureTime": "23:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "23:09:00",
+        "departureTime": "23:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "23:12:00",
+        "departureTime": "23:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "23:20:00",
+        "departureTime": "23:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "23:24:00",
+        "departureTime": "23:24:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "40373",
+    "customDestination": "六日町",
+    "prevTripId": "HD_OUT_SE-01_2219_40373",
+    "prevLineId": "shinetsu"
+  },
+  {
+    "tripId": "HD_OUT_HK-01_2249_35095",
+    "lineId": "hokuhoku",
+    "trainNumber": "854M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "HK-01",
+    "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "HK-01",
+        "arrivalTime": "22:48:00",
+        "departureTime": "22:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-02",
+        "arrivalTime": "22:52:00",
+        "departureTime": "22:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-03",
+        "arrivalTime": "23:00:00",
+        "departureTime": "23:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-04",
+        "arrivalTime": "23:03:00",
+        "departureTime": "23:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-05",
+        "arrivalTime": "23:05:00",
+        "departureTime": "23:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-06",
+        "arrivalTime": "23:17:00",
+        "departureTime": "23:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-07",
+        "arrivalTime": "23:25:00",
+        "departureTime": "23:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-08",
+        "arrivalTime": "23:31:00",
+        "departureTime": "23:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-09",
+        "arrivalTime": "23:34:00",
+        "departureTime": "23:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-10",
+        "arrivalTime": "23:38:00",
+        "departureTime": "23:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-11",
+        "arrivalTime": "23:41:00",
+        "departureTime": "23:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "HK-12",
+        "arrivalTime": "23:47:00",
+        "departureTime": "23:47:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35095",
+    "prevTripId": "HD_OUT_JOE-20_2231_35076",
+    "prevLineId": "joetsu",
+    "throughTripId": "HD_INB_SE-03_2347_35095",
+    "throughLineId": "shinetsu"
+  }
+]

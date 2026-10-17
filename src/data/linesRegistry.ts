@@ -51,6 +51,11 @@ import { shinetsuLine } from './lines/shinetsu';
 import { tadamiLine } from './lines/tadami';
 import { banetsuWestLine } from './lines/banetsu_west';
 import { banetsuEastLine } from './lines/banetsu_east';
+import { myokoHaneumaLine } from './lines/myoko_haneuma';
+import { kitaShinanoLine } from './lines/kita_shinano';
+import { nihonkaiHisuiLine } from './lines/nihonkai_hisui';
+import { hokuhokuLine } from './lines/hokuhoku';
+import { hokurikuShinkansenLine } from './lines/hokuriku_shinkansen';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -83,6 +88,11 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tadami: tadamiLine,
   banetsu_west: banetsuWestLine,
   banetsu_east: banetsuEastLine,
+  hokuriku_shinkansen: hokurikuShinkansenLine,
+  myoko_haneuma: myokoHaneumaLine,
+  nihonkai_hisui: nihonkaiHisuiLine,
+  hokuhoku: hokuhokuLine,
+  kita_shinano: kitaShinanoLine,
   seibu_ikebukuro: seibuIkebukuroLine,
 
   seibu_yurakucho: seibuYurakuchoLine,
@@ -134,6 +144,9 @@ const OPERATOR_DISPLAY_ORDER = [
   '東京臨海高速鉄道',
   '首都圏新都市鉄道',
   '秩父鉄道',
+  '北越急行',
+  'えちごトキめき鉄道',
+  'しなの鉄道',
 ];
 
 // 運行会社ごとにグループ化した路線リストを取得

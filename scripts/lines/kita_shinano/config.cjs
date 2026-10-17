@@ -1,0 +1,36 @@
+module.exports = {
+  lineId: 'kita_shinano',
+  name: 'しなの鉄道北しなの線',
+  stationsFilePath: 'src/data/lines/kita_shinano/stations.ts',
+  outputPaths: {
+    stationTimetables: 'src/data/lines/kita_shinano/stationTimetables.json',
+    globalTimetable: 'src/data/lines/kita_shinano/globalTimetable.json',
+  },
+  stations: [
+    { id: 'SRK-01', name: '長野', yahooStationId: '24282', inGroupId: null, outGroupId: '7901' },
+    { id: 'SRK-02', name: '北長野', yahooStationId: '24176', inGroupId: '7900', outGroupId: '7901' },
+    { id: 'SRK-03', name: '三才', yahooStationId: '24202', inGroupId: '7900', outGroupId: '7901' },
+    { id: 'SRK-04', name: '豊野', yahooStationId: '24271', inGroupId: '7900', outGroupId: '7901' },
+    { id: 'SRK-05', name: '牟礼', yahooStationId: '24343', inGroupId: '7900', outGroupId: '7901' },
+    { id: 'SRK-06', name: '古間', yahooStationId: '24317', inGroupId: '7900', outGroupId: '7901' },
+    { id: 'SRK-07', name: '黒姫', yahooStationId: '24185', inGroupId: '7900', outGroupId: '7901' },
+    { id: 'SRK-08', name: '妙高高原', yahooStationId: '24071', inGroupId: '7900', outGroupId: null },
+  ],
+  trainTypeMap: {
+    '各駅停車': 'local',
+    '普通': 'local',
+    '快速': 'rapid',
+    '特別快速': 'rapid',
+  },
+  preserveAllStopsTypes: ['rapid'],
+  defaultCars: 3,
+  baseSectionSeconds: {
+    1: 240,
+    2: 240,
+    3: 300,
+    4: 420,
+    5: 360,
+    6: 240,
+    7: 480,
+  },
+};

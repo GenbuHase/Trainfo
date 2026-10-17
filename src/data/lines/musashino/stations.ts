@@ -1147,31 +1147,37 @@ export const MUSASHINO_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JU-07",
+    "id": "JM-00",
     "stationNumber": "JU-07",
-    "number": 7,
+    "number": 0,
     "name": "大宮",
     "nameKana": "おおみや",
     "nameEn": "Omiya",
     "transfers": [
-      "JR各線",
+      "JR宇都宮線",
+      "JR高崎線",
       "JR埼京線",
+      "JR川越線",
+      "JR湘南新宿ライン",
+      "東北新幹線",
+      "上越新幹線",
+      "北陸新幹線",
       "東武野田線",
       "埼玉新都市交通ニューシャトル"
     ],
     "address": "埼玉県さいたま市大宮区錦町",
     "isMajor": true,
     "platforms": {
-      "inbound": "3・4・6・7番線",
-      "outbound": "3・4・6・7番線"
+      "inbound": "3番線",
+      "outbound": "3番線"
     },
     "stoppingTypes": [
       "regular",
       "limitedExp"
     ],
     "lineId": "musashino",
-    "lat": 35.905691,
-    "lng": 139.624673,
+    "lat": 35.9064378,
+    "lng": 139.6246184,
     "facilities": {
       "elevator": true,
       "restroom": true,
