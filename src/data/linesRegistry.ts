@@ -265,6 +265,18 @@ export function getTrainTypeConfig(type: string, lineId?: LineId): TrainTypeConf
     const config = LINES_REGISTRY[lineId].trainTypes[type];
     if (config) return config;
   }
+  if (type === 'test_run') {
+    return {
+      key: 'test_run',
+      name: '試運転',
+      nameEn: 'Test Run',
+      shortName: '試',
+      color: '#0284c7',
+      textColor: '#ffffff',
+      bgColor: '#0284c7',
+      borderColor: '#0369a1',
+    };
+  }
   for (const line of getAllLines()) {
     if (line.trainTypes[type]) return line.trainTypes[type];
   }

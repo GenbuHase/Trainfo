@@ -10,6 +10,7 @@ interface UIContextValue {
   isHelpOpen: boolean;
   isInstallOpen: boolean;
   isDebugOpen: boolean;
+  isTestRunOpen: boolean;
   openSidebar: () => void;
   closeSidebar: () => void;
   toggleSidebar: () => void;
@@ -25,6 +26,8 @@ interface UIContextValue {
   closeInstall: () => void;
   openDebug: () => void;
   closeDebug: () => void;
+  openTestRun: () => void;
+  closeTestRun: () => void;
 }
 
 const UIContext = createContext<UIContextValue | null>(null);
@@ -50,6 +53,7 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
   const [isHelpOpen, setIsHelpOpen] = useState(false);
   const [isInstallOpen, setIsInstallOpen] = useState(false);
   const [isDebugOpen, setIsDebugOpen] = useState(checkIsDebugUrl);
+  const [isTestRunOpen, setIsTestRunOpen] = useState(false);
 
   // URLハッシュやブラウザ履歴との同期
   React.useEffect(() => {
@@ -98,6 +102,9 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
     setIsDebugOpen(false);
   }, []);
 
+  const openTestRun = useCallback(() => setIsTestRunOpen(true), []);
+  const closeTestRun = useCallback(() => setIsTestRunOpen(false), []);
+
   const value = useMemo(
     () => ({
       isSidebarOpen,
@@ -108,6 +115,7 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
       isHelpOpen,
       isInstallOpen,
       isDebugOpen,
+      isTestRunOpen,
       openSidebar,
       closeSidebar,
       toggleSidebar,
@@ -123,6 +131,8 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
       closeInstall,
       openDebug,
       closeDebug,
+      openTestRun,
+      closeTestRun,
     }),
     [
       isSidebarOpen,
@@ -133,6 +143,7 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
       isHelpOpen,
       isInstallOpen,
       isDebugOpen,
+      isTestRunOpen,
       openSidebar,
       closeSidebar,
       toggleSidebar,
@@ -147,6 +158,8 @@ export const UIProvider: React.FC<{ children: React.ReactNode }> = ({ children }
       closeInstall,
       openDebug,
       closeDebug,
+      openTestRun,
+      closeTestRun,
     ]
   );
 

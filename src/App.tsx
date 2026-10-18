@@ -8,6 +8,7 @@ import { TimetableModal } from './components/Modals/TimetableModal';
 import { SettingsModal } from './components/Modals/SettingsModal';
 import { HelpModal } from './components/Modals/HelpModal';
 import { InstallModal } from './components/Modals/InstallModal';
+import { TestRunModal } from './components/Modals/TestRunModal';
 import { DebugLinesPage } from './components/Debug/DebugLinesPage';
 
 function AppContent() {
@@ -38,6 +39,9 @@ function AppContent() {
 
       {/* PWAインストールモーダル */}
       <InstallModal />
+
+      {/* 試運転・試験走行モーダル */}
+      <TestRunModal />
 
       {/* 路線・列車種別一覧デバッグ用ページ（全画面オーバーレイ） */}
       {ui.isDebugOpen && (

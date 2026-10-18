@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react';
-import { Search, Train, MapPin, X, Calendar, Settings, HelpCircle, Download, Loader2 } from 'lucide-react';
+import { Search, Train, MapPin, X, Calendar, Settings, HelpCircle, Download, Loader2, FlaskConical } from 'lucide-react';
 
 
 import type { Station, ActiveTrain, LineId, Direction } from '../../types';
@@ -243,6 +243,25 @@ export const Header: React.FC<HeaderProps> = ({
         )}
       </div>
 
+      {/* 試験走行（試運転）列車ランチャー */}
+      <button
+        type="button"
+        onClick={ui.openTestRun}
+        className={`pointer-events-auto shrink-0 flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg backdrop-blur-md text-xs font-semibold shadow-md border transition-all ${
+          simulation.testTrainTrips.length > 0
+            ? 'bg-cyan-50 text-cyan-800 border-cyan-300 hover:bg-cyan-100'
+            : 'bg-white/95 text-slate-700 border-slate-200 hover:bg-slate-50'
+        }`}
+        title="試験走行（試運転）列車を発車・管理"
+      >
+        <FlaskConical className={`w-3.5 h-3.5 ${simulation.testTrainTrips.length > 0 ? 'text-cyan-600 animate-pulse' : 'text-slate-500'} shrink-0`} />
+        <span className="whitespace-nowrap">
+          {simulation.testTrainTrips.length > 0
+            ? `試運転中 (${simulation.testTrainTrips.length})`
+            : '試運転'}
+        </span>
+      </button>
+
 
       {/* アプリインストールボタン (ブラウザ起動時のみ) */}
       {!isStandalone && onOpenInstall && (
@@ -314,7 +333,7 @@ export const Header: React.FC<HeaderProps> = ({
               )}
             </div>
 
-            {/* 一体型ボタン: インストール(↓) ＆ ヘルプ(?) ＆ 設定(⚙) */}
+            {/* 一体型ボタン: インストール(↓) ＆ 試運転(🧪) ＆ ヘルプ(?) ＆ 設定(⚙) */}
             <div className="flex items-center gap-0.5 border-l border-slate-200 pl-1.5 shrink-0">
               {!isStandalone && onOpenInstall && (
                 <button
@@ -329,6 +348,17 @@ export const Header: React.FC<HeaderProps> = ({
                   )}
                 </button>
               )}
+              <button
+                type="button"
+                onClick={ui.openTestRun}
+                className="p-1.5 text-cyan-600 hover:text-cyan-800 hover:bg-cyan-50 rounded-md transition-colors relative"
+                title="試験走行（試運転）列車を発車"
+              >
+                <FlaskConical className="w-4 h-4" />
+                {simulation.testTrainTrips.length > 0 && (
+                  <span className="absolute top-1 right-1 w-2 h-2 rounded-full bg-cyan-500 animate-pulse ring-1 ring-white" />
+                )}
+              </button>
               <button
                 type="button"
                 onClick={onOpenHelp}

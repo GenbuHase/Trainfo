@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import type { ActiveTrain } from '../types';
+import type { ActiveTrain, LineId, Direction, TimetableTrip } from '../types';
 import {
   calculateActiveTrains,
   getRealCurrentSeconds,
@@ -14,6 +14,8 @@ import {
   subscribeTimetableLoad,
   areAllLinesLoaded,
 } from '../data/timetableLoader';
+import { getCombinedGlobalTimetable } from '../data/linesRegistry';
+import { createTestTrainTrip } from '../services/testTrainService';
 
 interface SimulationContextValue {
   simState: SimulationState;
@@ -28,6 +30,7 @@ interface SimulationContextValue {
   activeTrains: ActiveTrain[];
   selectedTrain: ActiveTrain | null;
   isLoadingTimetables: boolean;
+  testTrainTrips: TimetableTrip[];
   seekTime: (sec: number) => void;
   togglePlay: () => void;
   setSpeed: (speed: number) => void;
@@ -36,6 +39,8 @@ interface SimulationContextValue {
   toggleRandomDelay: () => void;
   toggleHoliday: (val: boolean) => void;
   setSimulationFps: (fps: SimulationFps) => void;
+  launchTestTrain: (lineId: LineId, direction?: Direction, options?: { speedMultiplier?: number }) => string;
+  clearTestTrains: () => void;
 }
 
 
@@ -150,6 +155,9 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     return unsubscribe;
   }, [selectedLineIds]);
 
+  // 試験走行（試運転）列車の状態管理
+  const [testTrainTrips, setTestTrainTrips] = useState<TimetableTrip[]>([]);
+
   // 列車位置の純粋算出（useEffectによるカスケードレンダリングを解消しパフォーマンス最大化）
   const fullSimState: SimulationState = useMemo(
     () => ({
@@ -160,8 +168,48 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
   );
 
   const activeTrains = useMemo(() => {
-    return calculateActiveTrains(fullSimState);
-  }, [fullSimState, timetableVersion]);
+    if (testTrainTrips.length === 0) {
+      return calculateActiveTrains(fullSimState);
+    }
+    const baseTimetable = getCombinedGlobalTimetable(fullSimState.selectedLineIds);
+    return calculateActiveTrains(fullSimState, [...baseTimetable, ...testTrainTrips]);
+  }, [fullSimState, timetableVersion, testTrainTrips]);
+
+  // 試験走行列車を発車・自動追尾
+  const launchTestTrain = useCallback(
+    (lineId: LineId, direction: Direction = 'outbound', options?: { speedMultiplier?: number }): string => {
+      // 路線が未選択なら選択路線に追加
+      addLines([lineId]);
+
+      // 現在のシミュレーション時刻から始点〜終点の試運転トリップを作成
+      const trips = createTestTrainTrip(lineId, direction, simState.currentSec);
+      setTestTrainTrips((prev) => [...prev.filter((t) => t.lineId !== lineId), ...trips]);
+
+      // 現在の平日/休日設定に応じたトリップIDを取得
+      const targetTrip = simState.isHoliday ? trips.find((t) => t.isHoliday) : trips.find((t) => !t.isHoliday);
+      const targetTripId = targetTrip?.tripId || trips[0].tripId;
+
+      // 列車を選択状態にして自動カメラ追従（追尾モード）を即座に起動
+      setSelectedTrainId(targetTripId);
+      setIsTrackingTrain(true);
+
+      // シミュレーションを再生状態にし、快適に観測できる倍速（指定なし時は最低5倍速）に設定
+      setSimState((prev) => ({
+        ...prev,
+        isPlaying: true,
+        speedMultiplier: options?.speedMultiplier || Math.max(prev.speedMultiplier, 5),
+      }));
+      setIsRealTimeSynced(false);
+
+      return targetTripId;
+    },
+    [addLines, simState.currentSec, simState.isHoliday, setSelectedTrainId, setIsTrackingTrain]
+  );
+
+  // 試運転列車を全消去
+  const clearTestTrains = useCallback(() => {
+    setTestTrainTrips([]);
+  }, []);
 
 
 
@@ -261,6 +309,7 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       activeTrains,
       selectedTrain,
       isLoadingTimetables,
+      testTrainTrips,
       seekTime,
 
       togglePlay,
@@ -270,6 +319,8 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       toggleRandomDelay,
       toggleHoliday,
       setSimulationFps,
+      launchTestTrain,
+      clearTestTrains,
     }),
     [
       fullSimState,
@@ -285,6 +336,7 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       activeTrains,
       selectedTrain,
       isLoadingTimetables,
+      testTrainTrips,
       seekTime,
 
       togglePlay,
@@ -294,6 +346,8 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       toggleRandomDelay,
       toggleHoliday,
       setSimulationFps,
+      launchTestTrain,
+      clearTestTrains,
     ]
   );
 
