@@ -254,6 +254,150 @@ class YahooTimetableBuilder {
     validSegments.sort((a, b) => b.length - a.length);
     const lineStops = validSegments[0];
 
+    // 【境界駅通過直通列車の境界駅延長】（自社線区間の境界駅を通過して他線へ直通する特急等の救出）
+    if (this.config.boundaryPassingRules) {
+      for (const rule of this.config.boundaryPassingRules) {
+        const boundarySt = this.stById.get(rule.boundaryStationId);
+        if (!boundarySt) continue;
+
+        const firstLineStop = lineStops[0];
+        const lastLineStop = lineStops[lineStops.length - 1];
+
+        // 既に始点または終点が境界駅なら何もしない
+        if (firstLineStop.station.id === boundarySt.id || lastLineStop.station.id === boundarySt.id) {
+          continue;
+        }
+
+        // stopStation 全体における自社線内停車駅のインデックスを特定
+        const firstLineIdxInAll = stopStation.findIndex(s => s.stationName === firstLineStop.station.name);
+        const lastLineIdxInAll = stopStation.findIndex(s => s.stationName === lastLineStop.station.name);
+
+        if (firstLineIdxInAll === -1 || lastLineIdxInAll === -1) continue;
+
+        // 1. スカイツリーライン側 下り: 自社線終着駅の後続に throughStations がある場合 (末尾に push)
+        if (lastLineIdxInAll < stopStation.length - 1 && boundarySt.number > lastLineStop.station.number) {
+          const nextThroughRaw = stopStation[lastLineIdxInAll + 1];
+          if (rule.throughStations.includes(nextThroughRaw.stationName)) {
+            const nextThroughArr = this.parseTimeToSeconds(nextThroughRaw.arrivalTime || nextThroughRaw.departureTime);
+            const lastDep = lastLineStop.depSec !== null ? lastLineStop.depSec : lastLineStop.arrSec;
+
+            let boundarySec = null;
+            if (lastDep !== null && nextThroughArr !== null && nextThroughArr > lastDep) {
+              const nextStationName = nextThroughRaw.stationName;
+              let ratio = 0.3;
+              if (nextStationName === '板倉東洋大前' || nextStationName === '栃木') ratio = 0.23;
+              else if (nextStationName === '久喜' || nextStationName === '加須') ratio = 0.5;
+
+              boundarySec = Math.round(lastDep + (nextThroughArr - lastDep) * ratio);
+            } else if (lastDep !== null) {
+              boundarySec = lastDep + 300;
+            }
+
+            if (boundarySec !== null) {
+              lineStops.push({
+                station: boundarySt,
+                arrSec: boundarySec,
+                depSec: boundarySec,
+                rawStop: { stationName: boundarySt.name },
+                isPassing: true,
+              });
+            }
+          }
+        }
+
+        // 2. スカイツリーライン側 上り: 自社線始発駅の先行に throughStations がある場合 (先頭に unshift)
+        if (firstLineIdxInAll > 0 && boundarySt.number > firstLineStop.station.number) {
+          const prevThroughRaw = stopStation[firstLineIdxInAll - 1];
+          if (rule.throughStations.includes(prevThroughRaw.stationName)) {
+            const prevThroughDep = this.parseTimeToSeconds(prevThroughRaw.departureTime || prevThroughRaw.arrivalTime);
+            const firstArr = firstLineStop.arrSec !== null ? firstLineStop.arrSec : firstLineStop.depSec;
+
+            let boundarySec = null;
+            if (prevThroughDep !== null && firstArr !== null && firstArr > prevThroughDep) {
+              const prevStationName = prevThroughRaw.stationName;
+              let ratio = 0.23;
+              if (prevStationName === '板倉東洋大前' || prevStationName === '栃木') ratio = 0.23;
+              else if (prevStationName === '久喜' || prevStationName === '加須') ratio = 0.5;
+
+              boundarySec = Math.round(firstArr - (firstArr - prevThroughDep) * ratio);
+            } else if (firstArr !== null) {
+              boundarySec = firstArr - 300;
+            }
+
+            if (boundarySec !== null) {
+              lineStops.unshift({
+                station: boundarySt,
+                arrSec: boundarySec,
+                depSec: boundarySec,
+                rawStop: { stationName: boundarySt.name },
+                isPassing: true,
+              });
+            }
+          }
+        }
+
+        // 3. 日光線・伊勢崎線側 下り: 自社線先頭駅の先行に throughStations がある場合 (先頭に unshift)
+        if (firstLineIdxInAll > 0 && boundarySt.number < firstLineStop.station.number) {
+          const prevThroughRaw = stopStation[firstLineIdxInAll - 1];
+          if (rule.throughStations.includes(prevThroughRaw.stationName)) {
+            const prevThroughDep = this.parseTimeToSeconds(prevThroughRaw.departureTime || prevThroughRaw.arrivalTime);
+            const firstArr = firstLineStop.arrSec !== null ? firstLineStop.arrSec : firstLineStop.depSec;
+
+            let boundarySec = null;
+            if (prevThroughDep !== null && firstArr !== null && firstArr > prevThroughDep) {
+              const prevStationName = prevThroughRaw.stationName;
+              let ratio = 0.23;
+              if (prevStationName === '春日部') {
+                if (firstLineStop.station.name === '板倉東洋大前' || firstLineStop.station.name === '栃木') ratio = 0.23;
+                else if (firstLineStop.station.name === '久喜') ratio = 0.5;
+              }
+              boundarySec = Math.round(prevThroughDep + (firstArr - prevThroughDep) * ratio);
+            } else if (firstArr !== null) {
+              boundarySec = firstArr - 1000;
+            }
+
+            if (boundarySec !== null) {
+              lineStops.unshift({
+                station: boundarySt,
+                arrSec: boundarySec,
+                depSec: boundarySec,
+                rawStop: { stationName: boundarySt.name },
+                isPassing: true,
+              });
+            }
+          }
+        }
+
+        // 4. 日光線・伊勢崎線側 上り: 自社線終着駅の後続に throughStations がある場合 (末尾に push)
+        if (lastLineIdxInAll < stopStation.length - 1 && boundarySt.number < lastLineStop.station.number) {
+          const nextThroughRaw = stopStation[lastLineIdxInAll + 1];
+          if (rule.throughStations.includes(nextThroughRaw.stationName)) {
+            const nextThroughArr = this.parseTimeToSeconds(nextThroughRaw.arrivalTime || nextThroughRaw.departureTime);
+            const lastDep = lastLineStop.depSec !== null ? lastLineStop.depSec : lastLineStop.arrSec;
+
+            let boundarySec = null;
+            if (lastDep !== null && nextThroughArr !== null && nextThroughArr > lastDep) {
+              let ratio = 0.77;
+              if (lastLineStop.station.name === '久喜') ratio = 0.5;
+              boundarySec = Math.round(lastDep + (nextThroughArr - lastDep) * ratio);
+            } else if (lastDep !== null) {
+              boundarySec = lastDep + 1000;
+            }
+
+            if (boundarySec !== null) {
+              lineStops.push({
+                station: boundarySt,
+                arrSec: boundarySec,
+                depSec: boundarySec,
+                rawStop: { stationName: boundarySt.name },
+                isPassing: true,
+              });
+            }
+          }
+        }
+      }
+    }
+
     const firstStop = lineStops[0];
     const lastStop = lineStops[lineStops.length - 1];
 
@@ -435,9 +579,18 @@ class YahooTimetableBuilder {
 
     // 始発から終着までの全駅セグメントを走査して stops を生成
     const stops = [];
-    const allNums = [];
+    let allNums = [];
     for (let n = startNum; isOutbound ? n <= endNum : n >= endNum; n += step) {
       allNums.push(n);
+    }
+
+    // 分岐線の駅が通過駅として誤混入するのを防ぐ除外ルール
+    if (this.config.branchExclusionRules) {
+      for (const bRule of this.config.branchExclusionRules) {
+        if (lineStops.some(s => bRule.ifContains.includes(s.station.number))) {
+          allNums = allNums.filter(n => !bRule.excludeNumbers.includes(n));
+        }
+      }
     }
 
     for (let i = 0; i < allNums.length; i++) {

@@ -253,4 +253,12 @@ module.exports = {
   "24": 150,
   "25": 150
 },
+  boundaryPassingRules: [
+    {
+      boundaryStationId: 'TSK-30',
+      throughStations: [
+        '浅草', 'とうきょうスカイツリー', '曳舟', '北千住', '春日部', 'せんげん台', '越谷', '新越谷', '草加'
+      ]
+    }
+  ],
 };
