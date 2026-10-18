@@ -112,8 +112,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "name": "曳舟",
     "nameKana": "ひきふね",
     "nameEn": "Hikifune",
-    "lat": 35.7183121,
-    "lng": 139.8166638,
+    "lat": 35.7183011,
+    "lng": 139.8168537,
     "transfers": [
       "東武スカイツリーライン",
       "東武亀戸線"
@@ -277,8 +277,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "name": "北千住",
     "nameKana": "きたせんじゅ",
     "nameEn": "Kita-Senju",
-    "lat": 35.7504062,
-    "lng": 139.805866,
+    "lat": 35.7507089,
+    "lng": 139.8056059,
     "transfers": [
       "東武スカイツリーライン",
       "東京メトロ日比谷線",
@@ -316,8 +316,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "name": "小菅",
     "nameKana": "こすげ",
     "nameEn": "Kosuge",
-    "lat": 35.7589978,
-    "lng": 139.8129643,
+    "lat": 35.7591008,
+    "lng": 139.8129082,
     "transfers": [
       "東武スカイツリーライン"
     ],
@@ -406,8 +406,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "name": "西新井",
     "nameKana": "にしあらい",
     "nameEn": "Nishi-Arai",
-    "lat": 35.7772881,
-    "lng": 139.7903751,
+    "lat": 35.7772965,
+    "lng": 139.7900257,
     "transfers": [
       "東武スカイツリーライン",
       "東武大師線"
@@ -471,8 +471,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "name": "谷塚",
     "nameKana": "やつか",
     "nameEn": "Yatsuka",
-    "lat": 35.8148614,
-    "lng": 139.8015407,
+    "lat": 35.8150143,
+    "lng": 139.801453,
     "transfers": [
       "東武スカイツリーライン"
     ],
@@ -696,8 +696,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "name": "北越谷",
     "nameKana": "きたこしがや",
     "nameEn": "Kita-Koshigaya",
-    "lat": 35.9015309,
-    "lng": 139.7799894,
+    "lat": 35.9015228,
+    "lng": 139.7799253,
     "transfers": [
       "東武スカイツリーライン"
     ],
@@ -796,8 +796,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "name": "武里",
     "nameKana": "たけさと",
     "nameEn": "Takesato",
-    "lat": 35.9486213,
-    "lng": 139.7707383,
+    "lat": 35.9486172,
+    "lng": 139.7706979,
     "transfers": [
       "東武スカイツリーライン"
     ],
@@ -828,8 +828,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "name": "一ノ割",
     "nameKana": "いちのわり",
     "nameEn": "Ichinowari",
-    "lat": 35.9642131,
-    "lng": 139.7661288,
+    "lat": 35.9642077,
+    "lng": 139.7660835,
     "transfers": [
       "東武スカイツリーライン"
     ],
@@ -897,8 +897,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "name": "北春日部",
     "nameKana": "きたかすかべ",
     "nameEn": "Kita-Kasukabe",
-    "lat": 35.9904729,
-    "lng": 139.744117,
+    "lat": 35.9904503,
+    "lng": 139.7439761,
     "transfers": [
       "東武スカイツリーライン"
     ],
@@ -961,8 +961,8 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     "name": "東武動物公園",
     "nameKana": "とうぶどうぶつこうえん",
     "nameEn": "Tobu-dobutsu-koen",
-    "lat": 36.024616,
-    "lng": 139.7270874,
+    "lat": 36.0246822,
+    "lng": 139.7267148,
     "transfers": [
       "東武スカイツリーライン",
       "東武伊勢崎線",
