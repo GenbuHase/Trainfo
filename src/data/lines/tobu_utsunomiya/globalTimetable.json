@@ -74,10 +74,13 @@
       {
         "stationId": "TN-12",
         "arrivalTime": "05:28:00",
-        "departureTime": "05:42:00",
+        "departureTime": "05:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_TN-12_0542_113926",
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "東武宇都宮"
   },
   {
     "tripId": "WD_OUT_TN-12_0459_113883",
@@ -1208,7 +1211,10 @@
         "departureTime": "08:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_TN-03_0648_113908",
+    "prevLineId": "tobu_nikko",
+    "customDestination": "東武宇都宮"
   },
   {
     "tripId": "WD_INB_TN-40_0741_113930",
@@ -7046,10 +7052,13 @@
       {
         "stationId": "TN-12",
         "arrivalTime": "05:28:00",
-        "departureTime": "05:42:00",
+        "departureTime": "05:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_TN-12_0542_113926",
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "東武宇都宮"
   },
   {
     "tripId": "HD_OUT_TN-12_0459_113883",
@@ -8180,7 +8189,10 @@
         "departureTime": "08:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_TN-03_0648_113908",
+    "prevLineId": "tobu_nikko",
+    "customDestination": "東武宇都宮"
   },
   {
     "tripId": "HD_INB_TN-40_0741_113930",

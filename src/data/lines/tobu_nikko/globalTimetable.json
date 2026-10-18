@@ -1080,7 +1080,10 @@
         "departureTime": "06:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_TN-40_0455_113926",
+    "prevLineId": "tobu_utsunomiya",
+    "customDestination": "南栗橋"
   },
   {
     "tripId": "WD_INB_TN-25_0545_113618",
@@ -2588,10 +2591,13 @@
       {
         "stationId": "TN-12",
         "arrivalTime": "07:27:00",
-        "departureTime": "07:39:00",
+        "departureTime": "07:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_TN-12_0739_113908",
+    "throughLineId": "tobu_utsunomiya",
+    "customOrigin": "南栗橋"
   },
   {
     "tripId": "WD_INB_TN-03_0650_113549",
@@ -10279,7 +10285,10 @@
         "departureTime": "11:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_TN-58_1028_113016",
+    "prevLineId": "tobu_kinugawa",
+    "customDestination": "東武日光"
   },
   {
     "tripId": "WD_INB_TN-03_1118_113065",
@@ -12880,7 +12889,9 @@
       "coupledDestination": "浅草"
     },
     "throughTripId": "WD_INB_TSK-30_1333_42865",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "prevTripId": "WD_INB_TN-58_1150_42865",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "WD_INB_TN-03_1238_113074",
@@ -20257,9 +20268,9 @@
         "isPassing": false
       }
     ],
+    "customOrigin": "南栗橋",
     "throughTripId": "WD_INB_TSK-30_1740_38073",
-    "throughLineId": "tobu_skytree",
-    "customOrigin": "南栗橋"
+    "throughLineId": "tobu_skytree"
   },
   {
     "tripId": "WD_INB_TN-12_1725_113939",
@@ -26866,7 +26877,10 @@
         "departureTime": "22:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_TN-58_2130_113017",
+    "prevLineId": "tobu_kinugawa",
+    "customDestination": "東武日光"
   },
   {
     "tripId": "WD_INB_TN-12_2208_113945",
@@ -29004,7 +29018,10 @@
         "departureTime": "06:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_TN-40_0455_113926",
+    "prevLineId": "tobu_utsunomiya",
+    "customDestination": "南栗橋"
   },
   {
     "tripId": "HD_INB_TN-25_0545_113618",
@@ -30430,10 +30447,13 @@
       {
         "stationId": "TN-12",
         "arrivalTime": "07:27:00",
-        "departureTime": "07:39:00",
+        "departureTime": "07:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_TN-12_0739_113908",
+    "throughLineId": "tobu_utsunomiya",
+    "customOrigin": "南栗橋"
   },
   {
     "tripId": "HD_OUT_TSK-30_0651_111457",
@@ -38426,7 +38446,10 @@
         "departureTime": "11:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_TN-58_1028_113016",
+    "prevLineId": "tobu_kinugawa",
+    "customDestination": "東武日光"
   },
   {
     "tripId": "HD_OUT_TSK-30_1111_25118",
@@ -41200,7 +41223,9 @@
       "coupledDestination": "浅草"
     },
     "throughTripId": "HD_INB_TSK-30_1333_42865",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "prevTripId": "HD_INB_TN-58_1150_42865",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "HD_INB_TN-03_1238_113073",
@@ -55541,7 +55566,10 @@
         "departureTime": "22:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_TN-58_2130_113017",
+    "prevLineId": "tobu_kinugawa",
+    "customDestination": "東武日光"
   },
   {
     "tripId": "HD_INB_TN-12_2208_113945",

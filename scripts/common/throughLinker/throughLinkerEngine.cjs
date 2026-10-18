@@ -131,7 +131,14 @@ function areDestinationsCompatible(destA, destB) {
   if (!destA || !destB) return true;
   const cleanA = destA.replace(/\([^)]*\)/g, '').trim();
   const cleanB = destB.replace(/\([^)]*\)/g, '').trim();
-  return cleanA === cleanB || cleanA.includes(cleanB) || cleanB.includes(cleanA);
+  if (cleanA === cleanB || cleanA.includes(cleanB) || cleanB.includes(cleanA)) return true;
+
+  // 会津若松・喜多方の互換性（会津鉄道から只見線・磐越西線直通）
+  if ((cleanA === '会津若松' && cleanB === '喜多方') || (cleanA === '喜多方' && cleanB === '会津若松')) {
+    return true;
+  }
+
+  return false;
 }
 
 function getEffectiveDestination(trip, stationMap) {

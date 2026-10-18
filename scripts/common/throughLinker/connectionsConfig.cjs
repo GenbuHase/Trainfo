@@ -1081,7 +1081,7 @@ module.exports = {
       stationB: 'TN-12',
       dirA: 'outbound',
       dirB: 'outbound',
-      maxTimeDiff: 600,
+      maxTimeDiff: 900,
       allowMidStationA: true,
     },
     {
@@ -1092,7 +1092,7 @@ module.exports = {
       stationB: 'TN-12',
       dirA: 'inbound',
       dirB: 'inbound',
-      maxTimeDiff: 600,
+      maxTimeDiff: 900,
       allowMidStationB: true,
     },
 
@@ -1116,8 +1116,19 @@ module.exports = {
       stationB: 'TN-23',
       dirA: 'inbound',
       dirB: 'inbound',
-      maxTimeDiff: 600,
+      maxTimeDiff: 900,
       allowMidStationB: true,
+    },
+    {
+      name: '鬼怒川線 -> 日光線 (下今市経由 東武日光方面直通)',
+      lineA: 'tobu_kinugawa',
+      lineB: 'tobu_nikko',
+      stationA: 'TN-23',
+      stationB: 'TN-23',
+      dirA: 'inbound',
+      dirB: 'outbound',
+      maxTimeDiff: 600,
+      allowedDestinations: ['東武日光', '日光'],
     },
 
     // 47. 東武鬼怒川線 ↔ 野岩鉄道会津鬼怒川線 (新藤原駅)
