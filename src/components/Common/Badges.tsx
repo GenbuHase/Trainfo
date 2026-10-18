@@ -9,10 +9,34 @@ interface StationBadgeColor {
 }
 
 const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
-  // 東武東上線
+  // 東武東上線・越生線
   TJ: {
     borderColor: '#004098',
     prefixColor: '#ed6d00',
+    numColor: '#004098',
+  },
+  // 東武スカイツリーライン・亀戸線・大師線
+  TS: {
+    borderColor: '#004098',
+    prefixColor: '#226bb8',
+    numColor: '#004098',
+  },
+  // 東武伊勢崎線・佐野線・小泉線・桐生線
+  TI: {
+    borderColor: '#004098',
+    prefixColor: '#e40012',
+    numColor: '#004098',
+  },
+  // 東武日光線・宇都宮線・鬼怒川線
+  TN: {
+    borderColor: '#004098',
+    prefixColor: '#f6a202',
+    numColor: '#004098',
+  },
+  // 東武アーバンパークライン（野田線）
+  TD: {
+    borderColor: '#004098',
+    prefixColor: '#41b3e5',
     numColor: '#004098',
   },
   // JR埼京線・JR川越線

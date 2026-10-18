@@ -559,6 +559,1527 @@ const STATION_META = {
     ]
   },
 
+  '浅草': {
+    "nameKana": "あさくさ",
+    "nameEn": "Asakusa",
+    "address": "東京都台東区花川戸一丁目4-1",
+    "transfers": [
+      "東武スカイツリーライン",
+      "東京メトロ銀座線",
+      "都営浅草線"
+    ]
+  },
+  'とうきょうスカイツリー': {
+    "nameKana": "とうきょうすかいつりー",
+    "nameEn": "TOKYO SKYTREE",
+    "address": "東京都墨田区押上一丁目1-2",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '押上': {
+    "nameKana": "おしあげ",
+    "nameEn": "Oshiage",
+    "address": "東京都墨田区押上一丁目10-2",
+    "transfers": [
+      "東武スカイツリーライン",
+      "東京メトロ半蔵門線",
+      "都営浅草線",
+      "京成押上線"
+    ]
+  },
+  '曳舟': {
+    "nameKana": "ひきふね",
+    "nameEn": "Hikifune",
+    "address": "東京都墨田区東向島二丁目26-1",
+    "transfers": [
+      "東武スカイツリーライン",
+      "東武亀戸線"
+    ]
+  },
+  '東向島': {
+    "nameKana": "ひがしむこうじま",
+    "nameEn": "Higashi-Mukojima",
+    "address": "東京都墨田区東向島四丁目29-17",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '鐘ヶ淵': {
+    "nameKana": "かねがふち",
+    "nameEn": "Kanegafuchi",
+    "address": "東京都墨田区墨田五丁目50-2",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '堀切': {
+    "nameKana": "ほりきり",
+    "nameEn": "Horikiri",
+    "address": "東京都足立区千住曙町34-1",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '牛田': {
+    "nameKana": "うしだ",
+    "nameEn": "Ushida",
+    "address": "東京都足立区千住曙町1-2",
+    "transfers": [
+      "東武スカイツリーライン",
+      "京成本線（京成関屋）"
+    ]
+  },
+  '北千住': {
+    "nameKana": "きたせんじゅ",
+    "nameEn": "Kita-Senju",
+    "address": "東京都足立区千住旭町42-1",
+    "transfers": [
+      "東武スカイツリーライン",
+      "東京メトロ日比谷線",
+      "東京メトロ千代田線",
+      "JR常磐線快速",
+      "つくばエクスプレス"
+    ]
+  },
+  '小菅': {
+    "nameKana": "こすげ",
+    "nameEn": "Kosuge",
+    "address": "東京都足立区足立二丁目47-14",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '五反野': {
+    "nameKana": "ごたんの",
+    "nameEn": "Gotanno",
+    "address": "東京都足立区足立四丁目38-11",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '梅島': {
+    "nameKana": "うめじま",
+    "nameEn": "Umejima",
+    "address": "東京都足立区梅島三丁目32-15",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '西新井': {
+    "nameKana": "にしあらい",
+    "nameEn": "Nishi-Arai",
+    "address": "東京都足立区西新井栄町二丁目1-1",
+    "transfers": [
+      "東武スカイツリーライン",
+      "東武大師線"
+    ]
+  },
+  '竹ノ塚': {
+    "nameKana": "たけのつか",
+    "nameEn": "Takenotsuka",
+    "address": "東京都足立区竹の塚六丁目6-1",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '谷塚': {
+    "nameKana": "やつか",
+    "nameEn": "Yatsuka",
+    "address": "埼玉県草加市谷塚一丁目1-21",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '草加': {
+    "nameKana": "そうか",
+    "nameEn": "Soka",
+    "address": "埼玉県草加市高砂二丁目5-25",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '獨協大学前': {
+    "nameKana": "どっきょうだいがくまえ",
+    "nameEn": "Dokkyodaigakumae",
+    "address": "埼玉県草加市松原一丁目1-1",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '新田': {
+    "nameKana": "しんでん",
+    "nameEn": "Shinden",
+    "address": "埼玉県草加市金明町273-2",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '蒲生': {
+    "nameKana": "がもう",
+    "nameEn": "Gamo",
+    "address": "埼玉県越谷市蒲生寿町17-1",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '新越谷': {
+    "nameKana": "しんこしがや",
+    "nameEn": "Shin-Koshigaya",
+    "address": "埼玉県越谷市南越谷一丁目11-4",
+    "transfers": [
+      "東武スカイツリーライン",
+      "JR武蔵野線（南越谷）"
+    ]
+  },
+  '越谷': {
+    "nameKana": "こしがや",
+    "nameEn": "Koshigaya",
+    "address": "埼玉県越谷市弥生町4-11",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '北越谷': {
+    "nameKana": "きたこしがや",
+    "nameEn": "Kita-Koshigaya",
+    "address": "埼玉県越谷市大沢三丁目4-1",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '大袋': {
+    "nameKana": "おおぶくろ",
+    "nameEn": "Obukuro",
+    "address": "埼玉県越谷市大字袋山1389",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  'せんげん台': {
+    "nameKana": "せんげんだい",
+    "nameEn": "Sengendai",
+    "address": "埼玉県越谷市千間台東一丁目61",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '武里': {
+    "nameKana": "たけさと",
+    "nameEn": "Takesato",
+    "address": "埼玉県春日部市大場450",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '一ノ割': {
+    "nameKana": "いちのわり",
+    "nameEn": "Ichinowari",
+    "address": "埼玉県春日部市一ノ割一丁目1-1",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '春日部': {
+    "nameKana": "かすかべ",
+    "nameEn": "Kasukabe",
+    "address": "埼玉県春日部市粕壁一丁目10-1",
+    "transfers": [
+      "東武スカイツリーライン",
+      "東武アーバンパークライン"
+    ]
+  },
+  '北春日部': {
+    "nameKana": "きたかすかべ",
+    "nameEn": "Kita-Kasukabe",
+    "address": "埼玉県春日部市梅田本町一丁目22-7",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '姫宮': {
+    "nameKana": "ひめみや",
+    "nameEn": "Himemiya",
+    "address": "埼玉県南埼玉郡宮代町字川端379",
+    "transfers": [
+      "東武スカイツリーライン"
+    ]
+  },
+  '東武動物公園': {
+    "nameKana": "とうぶどうぶつこうえん",
+    "nameEn": "Tobu-dobutsu-koen",
+    "address": "埼玉県南埼玉郡宮代町百間二丁目3-45",
+    "transfers": [
+      "東武スカイツリーライン",
+      "東武伊勢崎線",
+      "東武日光線"
+    ]
+  },
+  '和戸': {
+    "nameKana": "わど",
+    "nameEn": "Wado",
+    "address": "埼玉県南埼玉郡宮代町大字和戸410",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '鷲宮': {
+    "nameKana": "わしのみや",
+    "nameEn": "Washinomiya",
+    "address": "埼玉県久喜市鷲宮中央一丁目1-1",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '花崎': {
+    "nameKana": "はなさき",
+    "nameEn": "Hanasaki",
+    "address": "埼玉県加須市花崎一丁目26-1",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '加須': {
+    "nameKana": "かぞ",
+    "nameEn": "Kazo",
+    "address": "埼玉県加須市大門町20-58",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '南羽生': {
+    "nameKana": "みなみはにゅう",
+    "nameEn": "Minami-Hanyu",
+    "address": "埼玉県羽生市大字南羽生一丁目19-1",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '羽生': {
+    "nameKana": "はにゅう",
+    "nameEn": "Hanyu",
+    "address": "埼玉県羽生市南一丁目1-55",
+    "transfers": [
+      "東武伊勢崎線",
+      "秩父鉄道秩父本線"
+    ]
+  },
+  '川俣': {
+    "nameKana": "かわまた",
+    "nameEn": "Kawamata",
+    "address": "群馬県邑楽郡明和町中谷398-1",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '茂林寺前': {
+    "nameKana": "もりんじまえ",
+    "nameEn": "Morinjimae",
+    "address": "群馬県館林市堀工町1570",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '館林': {
+    "nameKana": "たてばやし",
+    "nameEn": "Tatebayashi",
+    "address": "群馬県館林市本町二丁目1-1",
+    "transfers": [
+      "東武伊勢崎線",
+      "東武佐野線",
+      "東武小泉線"
+    ]
+  },
+  '多々良': {
+    "nameKana": "たたら",
+    "nameEn": "Tatara",
+    "address": "群馬県館林市日向町1060",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '県': {
+    "nameKana": "あがた",
+    "nameEn": "Agata",
+    "address": "栃木県足利市県町1380",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '福居': {
+    "nameKana": "ふくい",
+    "nameEn": "Fukui",
+    "address": "栃木県足利市福居町1275",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '東武和泉': {
+    "nameKana": "とうぶいずみ",
+    "nameEn": "Tobu-Izumi",
+    "address": "栃木県足利市福居町2174",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '足利市': {
+    "nameKana": "あしかがし",
+    "nameEn": "Ashikagashi",
+    "address": "栃木県足利市南町4216",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '野州山辺': {
+    "nameKana": "やしゅうやまべ",
+    "nameEn": "Yashu-Yamabe",
+    "address": "栃木県足利市八幡町一丁目19-2",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '韮川': {
+    "nameKana": "にらがわ",
+    "nameEn": "Niragawa",
+    "address": "群馬県太田市台之郷町1104",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '太田': {
+    "nameKana": "おおた",
+    "nameEn": "Ota",
+    "address": "群馬県太田市東本町16-1",
+    "transfers": [
+      "東武伊勢崎線",
+      "東武桐生線",
+      "東武小泉線"
+    ]
+  },
+  '細谷': {
+    "nameKana": "ほそや",
+    "nameEn": "Hosoya",
+    "address": "群馬県太田市細谷町1298",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '木崎': {
+    "nameKana": "きざき",
+    "nameEn": "Kizaki",
+    "address": "群馬県太田市新田木崎町1250",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '世良田': {
+    "nameKana": "せらだ",
+    "nameEn": "Serada",
+    "address": "群馬県太田市世良田町1553-2",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '境町': {
+    "nameKana": "さかいまち",
+    "nameEn": "Sakaimachi",
+    "address": "群馬県伊勢崎市境百々414",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '剛志': {
+    "nameKana": "ごうし",
+    "nameEn": "Goshi",
+    "address": "群馬県伊勢崎市境寸木419",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '新伊勢崎': {
+    "nameKana": "しんいせさき",
+    "nameEn": "Shin-Isesaki",
+    "address": "群馬県伊勢崎市中央町24-11",
+    "transfers": [
+      "東武伊勢崎線"
+    ]
+  },
+  '伊勢崎': {
+    "nameKana": "いせさき",
+    "nameEn": "Isesaki",
+    "address": "群馬県伊勢崎市曲輪町2-1",
+    "transfers": [
+      "東武伊勢崎線",
+      "JR両毛線"
+    ]
+  },
+  '小村井': {
+    "nameKana": "おむらい",
+    "nameEn": "Omurai",
+    "address": "東京都墨田区文花二丁目11-13",
+    "transfers": [
+      "東武亀戸線"
+    ]
+  },
+  '東あずま': {
+    "nameKana": "ひがしあずま",
+    "nameEn": "Higashi-Azuma",
+    "address": "東京都墨田区立花二丁目24-7",
+    "transfers": [
+      "東武亀戸線"
+    ]
+  },
+  '亀戸水神': {
+    "nameKana": "かめいどすいじん",
+    "nameEn": "Kameidosuijin",
+    "address": "東京都江東区亀戸八丁目5-1",
+    "transfers": [
+      "東武亀戸線"
+    ]
+  },
+  '亀戸': {
+    "nameKana": "かめいど",
+    "nameEn": "Kameido",
+    "address": "東京都江東区亀戸五丁目1-1",
+    "transfers": [
+      "東武亀戸線",
+      "JR中央・総武線各駅停車"
+    ]
+  },
+  '大師前': {
+    "nameKana": "だいしまえ",
+    "nameEn": "Daishimae",
+    "address": "東京都足立区西新井一丁目3-1",
+    "transfers": [
+      "東武大師線"
+    ]
+  },
+  '渡瀬': {
+    "nameKana": "わたらせ",
+    "nameEn": "Watarase",
+    "address": "群馬県館林市足次町972",
+    "transfers": [
+      "東武佐野線"
+    ]
+  },
+  '田島': {
+    "nameKana": "たじま",
+    "nameEn": "Tajima",
+    "address": "栃木県佐野市田島町171",
+    "transfers": [
+      "東武佐野線"
+    ]
+  },
+  '佐野市': {
+    "nameKana": "さのし",
+    "nameEn": "Sanoshi",
+    "address": "栃木県佐野市植上町1553",
+    "transfers": [
+      "東武佐野線"
+    ]
+  },
+  '佐野': {
+    "nameKana": "さの",
+    "nameEn": "Sano",
+    "address": "栃木県佐野市若松町488",
+    "transfers": [
+      "東武佐野線",
+      "JR両毛線"
+    ]
+  },
+  '堀米': {
+    "nameKana": "ほりごめ",
+    "nameEn": "Horigome",
+    "address": "栃木県佐野市堀米町610",
+    "transfers": [
+      "東武佐野線"
+    ]
+  },
+  '吉水': {
+    "nameKana": "よしみず",
+    "nameEn": "Yoshimizu",
+    "address": "栃木県佐野市新吉水町345",
+    "transfers": [
+      "東武佐野線"
+    ]
+  },
+  '田沼': {
+    "nameKana": "たぬま",
+    "nameEn": "Tanuma",
+    "address": "栃木県佐野市田沼町642",
+    "transfers": [
+      "東武佐野線"
+    ]
+  },
+  '多田': {
+    "nameKana": "ただ",
+    "nameEn": "Tada",
+    "address": "栃木県佐野市多田町945",
+    "transfers": [
+      "東武佐野線"
+    ]
+  },
+  '葛生': {
+    "nameKana": "くずう",
+    "nameEn": "Kuzu",
+    "address": "栃木県佐野市葛生東一丁目1-19",
+    "transfers": [
+      "東武佐野線"
+    ]
+  },
+  '成島': {
+    "nameKana": "なるしま",
+    "nameEn": "Narushima",
+    "address": "群馬県館林市成島町451",
+    "transfers": [
+      "東武小泉線"
+    ]
+  },
+  '本中野': {
+    "nameKana": "ほんなかの",
+    "nameEn": "Hon-Nakano",
+    "address": "群馬県邑楽郡邑楽町大字中野2528",
+    "transfers": [
+      "東武小泉線"
+    ]
+  },
+  '篠塚': {
+    "nameKana": "しのづか",
+    "nameEn": "Shinozuka",
+    "address": "群馬県邑楽郡邑楽町大字篠塚1529",
+    "transfers": [
+      "東武小泉線"
+    ]
+  },
+  '東小泉': {
+    "nameKana": "ひがしこいずみ",
+    "nameEn": "Higashi-Koizumi",
+    "address": "群馬県邑楽郡大泉町東小泉一丁目1-1",
+    "transfers": [
+      "東武小泉線"
+    ]
+  },
+  '小泉町': {
+    "nameKana": "こいずみまち",
+    "nameEn": "Koizumimachi",
+    "address": "群馬県邑楽郡大泉町城之内二丁目11-1",
+    "transfers": [
+      "東武小泉線"
+    ]
+  },
+  '西小泉': {
+    "nameKana": "にしこいずみ",
+    "nameEn": "Nishi-Koizumi",
+    "address": "群馬県邑楽郡大泉町西小泉四丁目11-1",
+    "transfers": [
+      "東武小泉線"
+    ]
+  },
+  '竜舞': {
+    "nameKana": "りゅうまい",
+    "nameEn": "Ryumai",
+    "address": "群馬県太田市龍舞町2103",
+    "transfers": [
+      "東武小泉線"
+    ]
+  },
+  '三枚橋': {
+    "nameKana": "さんまいばし",
+    "nameEn": "Sammaibashi",
+    "address": "群馬県太田市鳥山町709",
+    "transfers": [
+      "東武桐生線"
+    ]
+  },
+  '治良門橋': {
+    "nameKana": "じろえんばし",
+    "nameEn": "Jiroembashi",
+    "address": "群馬県太田市成塚町168-1",
+    "transfers": [
+      "東武桐生線"
+    ]
+  },
+  '藪塚': {
+    "nameKana": "やぶづか",
+    "nameEn": "Yabuzuka",
+    "address": "群馬県太田市藪塚町2388",
+    "transfers": [
+      "東武桐生線"
+    ]
+  },
+  '阿左美': {
+    "nameKana": "あざみ",
+    "nameEn": "Azami",
+    "address": "群馬県みどり市笠懸町阿左美1032-1",
+    "transfers": [
+      "東武桐生線"
+    ]
+  },
+  '新桐生': {
+    "nameKana": "しんきりゅう",
+    "nameEn": "Shin-Kiryū",
+    "address": "群馬県桐生市広沢町二丁目2985-2",
+    "transfers": [
+      "東武桐生線"
+    ]
+  },
+  '相老': {
+    "nameKana": "あいおい",
+    "nameEn": "Aioi",
+    "address": "群馬県桐生市相生町二丁目274-1",
+    "transfers": [
+      "東武桐生線",
+      "わたらせ渓谷鐵道わたらせ渓谷線"
+    ]
+  },
+  '赤城': {
+    "nameKana": "あかぎ",
+    "nameEn": "Akagi",
+    "address": "群馬県みどり市大間々町大間々1445-1",
+    "transfers": [
+      "東武桐生線",
+      "上毛電気鉄道上毛線"
+    ]
+  },
+  '杉戸高野台': {
+    "nameKana": "すぎとたかのだい",
+    "nameEn": "Sugito-Takanodai",
+    "address": "埼玉県北葛飾郡杉戸町高野台東一丁目1-1",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '幸手': {
+    "nameKana": "さって",
+    "nameEn": "Satte",
+    "address": "埼玉県幸手市中一丁目1-1",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '南栗橋': {
+    "nameKana": "みなみくりはし",
+    "nameEn": "Minami-Kurihashi",
+    "address": "埼玉県久喜市南栗橋一丁目20-1",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '新古河': {
+    "nameKana": "しんこが",
+    "nameEn": "Shin-Koga",
+    "address": "埼玉県加須市向古河769",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '柳生': {
+    "nameKana": "やぎゅう",
+    "nameEn": "Yagyu",
+    "address": "埼玉県加須市柳生2111",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '板倉東洋大前': {
+    "nameKana": "いたくらとうようだいまえ",
+    "nameEn": "Itakura-toyodaimae",
+    "address": "群馬県邑楽郡板倉町朝日野一丁目1-1",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '藤岡': {
+    "nameKana": "ふじおか",
+    "nameEn": "Fujioka",
+    "address": "栃木県栃木市藤岡町藤岡186",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '静和': {
+    "nameKana": "しずわ",
+    "nameEn": "Shizuwa",
+    "address": "栃木県栃木市岩舟町静和2072",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '新大平下': {
+    "nameKana": "しんおおひらした",
+    "nameEn": "Shin-Ohirashita",
+    "address": "栃木県栃木市大平町富田530",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '栃木': {
+    "nameKana": "とちぎ",
+    "nameEn": "Tochigi",
+    "address": "栃木県栃木市沼和田町1-1",
+    "transfers": [
+      "東武日光線",
+      "JR両毛線"
+    ]
+  },
+  '新栃木': {
+    "nameKana": "しんとちぎ",
+    "nameEn": "Shin-Tochigi",
+    "address": "栃木県栃木市平柳町一丁目1-18",
+    "transfers": [
+      "東武日光線",
+      "東武宇都宮線"
+    ]
+  },
+  '合戦場': {
+    "nameKana": "かっせんば",
+    "nameEn": "Kassemba",
+    "address": "栃木県栃木市都賀町合戦場616",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '家中': {
+    "nameKana": "いえなか",
+    "nameEn": "Ienaka",
+    "address": "栃木県栃木市都賀町家中5932",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '東武金崎': {
+    "nameKana": "とうぶかなさき",
+    "nameEn": "Tobu-Kanasaki",
+    "address": "栃木県栃木市西方町金崎341",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '楡木': {
+    "nameKana": "にれぎ",
+    "nameEn": "Niregi",
+    "address": "栃木県鹿沼市楡木町336",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '樅山': {
+    "nameKana": "もみやま",
+    "nameEn": "Momiyama",
+    "address": "栃木県鹿沼市樅山町344",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '新鹿沼': {
+    "nameKana": "しんかぬま",
+    "nameEn": "Shin-Kanuma",
+    "address": "栃木県鹿沼市鳥居跡町1003-3",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '北鹿沼': {
+    "nameKana": "きたかぬま",
+    "nameEn": "Kita-Kanuma",
+    "address": "栃木県鹿沼市玉田町604",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '板荷': {
+    "nameKana": "いたが",
+    "nameEn": "Itaga",
+    "address": "栃木県鹿沼市板荷211",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '下小代': {
+    "nameKana": "しもごしろ",
+    "nameEn": "Shimo-Goshiro",
+    "address": "栃木県日光市小代285-3",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '明神': {
+    "nameKana": "みょうじん",
+    "nameEn": "Myojin",
+    "address": "栃木県日光市明神114",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '下今市': {
+    "nameKana": "しもいまいち",
+    "nameEn": "Shimo-Imaichi",
+    "address": "栃木県日光市今市1110",
+    "transfers": [
+      "東武日光線",
+      "東武鬼怒川線"
+    ]
+  },
+  '上今市': {
+    "nameKana": "かみいまいち",
+    "nameEn": "Kami-Imaichi",
+    "address": "栃木県日光市今市392",
+    "transfers": [
+      "東武日光線"
+    ]
+  },
+  '東武日光': {
+    "nameKana": "とうぶにっこう",
+    "nameEn": "Tobu-Nikko",
+    "address": "栃木県日光市松原町4-3",
+    "transfers": [
+      "東武日光線",
+      "JR日光線（日光）"
+    ]
+  },
+  '野州平川': {
+    "nameKana": "やしゅうひらかわ",
+    "nameEn": "Yashu-Hirakawa",
+    "address": "栃木県栃木市大平町川連653",
+    "transfers": [
+      "東武宇都宮線"
+    ]
+  },
+  '野州大塚': {
+    "nameKana": "やしゅうおおつか",
+    "nameEn": "Yashu-Otsuka",
+    "address": "栃木県栃木市大塚町1430",
+    "transfers": [
+      "東武宇都宮線"
+    ]
+  },
+  '壬生': {
+    "nameKana": "みぶ",
+    "nameEn": "Mibu",
+    "address": "栃木県下都賀郡壬生町駅東町1-1",
+    "transfers": [
+      "東武宇都宮線"
+    ]
+  },
+  '国谷': {
+    "nameKana": "くにや",
+    "nameEn": "Kuniya",
+    "address": "栃木県下都賀郡壬生町大字壬生甲3773",
+    "transfers": [
+      "東武宇都宮線"
+    ]
+  },
+  'おもちゃのまち': {
+    "nameKana": "おもちゃのまち",
+    "nameEn": "Omochanomachi",
+    "address": "栃木県下都賀郡壬生町幸町一丁目19-1",
+    "transfers": [
+      "東武宇都宮線"
+    ]
+  },
+  '安塚': {
+    "nameKana": "やすづか",
+    "nameEn": "Yasuzuka",
+    "address": "栃木県下都賀郡壬生町大字安塚854",
+    "transfers": [
+      "東武宇都宮線"
+    ]
+  },
+  '西川田': {
+    "nameKana": "にしかわだ",
+    "nameEn": "Nishi-Kawada",
+    "address": "栃木県宇都宮市西川田五丁目1-1",
+    "transfers": [
+      "東武宇都宮線"
+    ]
+  },
+  '江曽島': {
+    "nameKana": "えそじま",
+    "nameEn": "Esojima",
+    "address": "栃木県宇都宮市大和二丁目11-1",
+    "transfers": [
+      "東武宇都宮線"
+    ]
+  },
+  '南宇都宮': {
+    "nameKana": "みなみうつのみや",
+    "nameEn": "Minami-Utsunomiya",
+    "address": "栃木県宇都宮市吉野二丁目8-23",
+    "transfers": [
+      "東武宇都宮線"
+    ]
+  },
+  '東武宇都宮': {
+    "nameKana": "とうぶうつのみや",
+    "nameEn": "Tobu-Utsunomiya",
+    "address": "栃木県宇都宮市宮園町4-1",
+    "transfers": [
+      "東武宇都宮線"
+    ]
+  },
+  '大谷向': {
+    "nameKana": "だいやむこう",
+    "nameEn": "Daiyamuko",
+    "address": "栃木県日光市今市1291",
+    "transfers": [
+      "東武鬼怒川線"
+    ]
+  },
+  '大桑': {
+    "nameKana": "おおくわ",
+    "nameEn": "Okuwa",
+    "address": "栃木県日光市大桑町468",
+    "transfers": [
+      "東武鬼怒川線"
+    ]
+  },
+  '新高徳': {
+    "nameKana": "しんたかとく",
+    "nameEn": "Shin-Takatoku",
+    "address": "栃木県日光市高徳384",
+    "transfers": [
+      "東武鬼怒川線"
+    ]
+  },
+  '小佐越': {
+    "nameKana": "こさごえ",
+    "nameEn": "Kosagoe",
+    "address": "栃木県日光市鬼怒川温泉大原450",
+    "transfers": [
+      "東武鬼怒川線"
+    ]
+  },
+  '東武ワールドスクウェア': {
+    "nameKana": "とうぶわーるどすくうぇあ",
+    "nameEn": "Tobu World Square",
+    "address": "栃木県日光市鬼怒川温泉大原209-1",
+    "transfers": [
+      "東武鬼怒川線"
+    ]
+  },
+  '鬼怒川温泉': {
+    "nameKana": "きぬがわおんせん",
+    "nameEn": "Kinugawa-Onsen",
+    "address": "栃木県日光市鬼怒川温泉大原1390",
+    "transfers": [
+      "東武鬼怒川線"
+    ]
+  },
+  '鬼怒川公園': {
+    "nameKana": "きぬがわこうえん",
+    "nameEn": "Kinugawa-Koen",
+    "address": "栃木県日光市藤原19",
+    "transfers": [
+      "東武鬼怒川線"
+    ]
+  },
+  '新藤原': {
+    "nameKana": "しんふじはら",
+    "nameEn": "Shin-Fujihara",
+    "address": "栃木県日光市藤原497",
+    "transfers": [
+      "東武鬼怒川線",
+      "野岩鉄道会津鬼怒川線"
+    ]
+  },
+  '北大宮': {
+    "nameKana": "きたおおみや",
+    "nameEn": "Kita-Omiya",
+    "address": "埼玉県さいたま市大宮区土手町三丁目285",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '大宮公園': {
+    "nameKana": "おおみやこうえん",
+    "nameEn": "Omiya-koen",
+    "address": "埼玉県さいたま市大宮区寿能町一丁目41",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '大和田': {
+    "nameKana": "おおわだ",
+    "nameEn": "Owada",
+    "address": "埼玉県さいたま市見沼区大和田町二丁目1774",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '七里': {
+    "nameKana": "ななさと",
+    "nameEn": "Nanasato",
+    "address": "埼玉県さいたま市見沼区大字風渡野601-3",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '岩槻': {
+    "nameKana": "いわつき",
+    "nameEn": "Iwatsuki",
+    "address": "埼玉県さいたま市岩槻区本町一丁目1-1",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '東岩槻': {
+    "nameKana": "ひがしいわつき",
+    "nameEn": "Higashi-Iwatsuki",
+    "address": "埼玉県さいたま市岩槻区東岩槻一丁目1-1",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '豊春': {
+    "nameKana": "とよはる",
+    "nameEn": "Toyoharu",
+    "address": "埼玉県春日部市上蛭田261",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '八木崎': {
+    "nameKana": "やぎさき",
+    "nameEn": "Yagisaki",
+    "address": "埼玉県春日部市粕壁6943",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '藤の牛島': {
+    "nameKana": "ふじのうしじま",
+    "nameEn": "Fujino-Ushijima",
+    "address": "埼玉県春日部市牛島1585",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '南桜井': {
+    "nameKana": "みなみさくらい",
+    "nameEn": "Minami-Sakurai",
+    "address": "埼玉県春日部市米島1185",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '川間': {
+    "nameKana": "かわま",
+    "nameEn": "Kawama",
+    "address": "千葉県野田市尾崎847",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '七光台': {
+    "nameKana": "ななこうだい",
+    "nameEn": "Nanakodai",
+    "address": "千葉県野田市七光台402",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '清水公園': {
+    "nameKana": "しみずこうえん",
+    "nameEn": "Shimizu-koen",
+    "address": "千葉県野田市清水402",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '愛宕': {
+    "nameKana": "あたご",
+    "nameEn": "Atago",
+    "address": "千葉県野田市中野台246",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '野田市': {
+    "nameKana": "のだし",
+    "nameEn": "Nodashi",
+    "address": "千葉県野田市野田128",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '梅郷': {
+    "nameKana": "うめさと",
+    "nameEn": "Umesato",
+    "address": "千葉県野田市山崎1890",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '運河': {
+    "nameKana": "うんが",
+    "nameEn": "Unga",
+    "address": "千葉県流山市東深井字運河404",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '江戸川台': {
+    "nameKana": "えどがわだい",
+    "nameEn": "Edogawadai",
+    "address": "千葉県流山市江戸川台東一丁目1",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '初石': {
+    "nameKana": "はついし",
+    "nameEn": "Hatsuishi",
+    "address": "千葉県流山市西初石三丁目100",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '流山おおたかの森': {
+    "nameKana": "ながれやまおおたかのもり",
+    "nameEn": "Nagareyama-otakanomori",
+    "address": "千葉県流山市おおたかの森西一丁目1-1",
+    "transfers": [
+      "東武アーバンパークライン",
+      "つくばエクスプレス"
+    ]
+  },
+  '豊四季': {
+    "nameKana": "とよしき",
+    "nameEn": "Toyoshiki",
+    "address": "千葉県柏市豊四季159",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '柏': {
+    "nameKana": "かしわ",
+    "nameEn": "Kashiwa",
+    "address": "千葉県柏市柏一丁目1-1",
+    "transfers": [
+      "東武アーバンパークライン",
+      "JR常磐線快速",
+      "JR常磐線各駅停車"
+    ]
+  },
+  '新柏': {
+    "nameKana": "しんかしわ",
+    "nameEn": "Shin-Kashiwa",
+    "address": "千葉県柏市新柏一丁目1507",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '増尾': {
+    "nameKana": "ますお",
+    "nameEn": "Masuo",
+    "address": "千葉県柏市増尾一丁目1-1",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '逆井': {
+    "nameKana": "さかさい",
+    "nameEn": "Sakasai",
+    "address": "千葉県柏市逆井字原分172",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '高柳': {
+    "nameKana": "たかやなぎ",
+    "nameEn": "Takayanagi",
+    "address": "千葉県柏市高柳1492",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '六実': {
+    "nameKana": "むつみ",
+    "nameEn": "Mutsumi",
+    "address": "千葉県松戸市六実四丁目4-1",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '新鎌ヶ谷': {
+    "nameKana": "しんかまがや",
+    "nameEn": "Shin-Kamagaya",
+    "address": "千葉県鎌ケ谷市新鎌ケ谷一丁目13-1",
+    "transfers": [
+      "東武アーバンパークライン",
+      "北総鉄道北総線",
+      "京成成田空港線",
+      "新京成線"
+    ]
+  },
+  '鎌ヶ谷': {
+    "nameKana": "かまがや",
+    "nameEn": "Kamagaya",
+    "address": "千葉県鎌ケ谷市道野辺中央二丁目1-1",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '馬込沢': {
+    "nameKana": "まごめざわ",
+    "nameEn": "Magomezawa",
+    "address": "千葉県船橋市藤原七丁目2-1",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '塚田': {
+    "nameKana": "つかだ",
+    "nameEn": "Tsukada",
+    "address": "千葉県船橋市前貝塚町565-11",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '新船橋': {
+    "nameKana": "しんふなばし",
+    "nameEn": "Shin-Funabashi",
+    "address": "千葉県船橋市山手一丁目1-1",
+    "transfers": [
+      "東武アーバンパークライン"
+    ]
+  },
+  '龍王峡': {
+    "nameKana": "りゅうおうきょう",
+    "nameEn": "Ryuokyo",
+    "address": "栃木県日光市藤原1357",
+    "transfers": [
+      "野岩鉄道会津鬼怒川線"
+    ]
+  },
+  '川治温泉': {
+    "nameKana": "かわじおんせん",
+    "nameEn": "Kawaji-Onsen",
+    "address": "栃木県日光市川治温泉川治",
+    "transfers": [
+      "野岩鉄道会津鬼怒川線"
+    ]
+  },
+  '川治湯元': {
+    "nameKana": "かわじゆもと",
+    "nameEn": "Kawaji-Yumoto",
+    "address": "栃木県日光市川治温泉川治22",
+    "transfers": [
+      "野岩鉄道会津鬼怒川線"
+    ]
+  },
+  '湯西川温泉': {
+    "nameKana": "ゆにしがわおんせん",
+    "nameEn": "Yunishigawa-Onsen",
+    "address": "栃木県日光市西川",
+    "transfers": [
+      "野岩鉄道会津鬼怒川線"
+    ]
+  },
+  '中三依温泉': {
+    "nameKana": "なかみよりおんせん",
+    "nameEn": "Nakamiyori-Onsen",
+    "address": "栃木県日光市中三依",
+    "transfers": [
+      "野岩鉄道会津鬼怒川線"
+    ]
+  },
+  '上三依塩原温泉口': {
+    "nameKana": "かみみよりしおばらおんせんぐち",
+    "nameEn": "Kamimiyori-Shiobaraonsen-guchi",
+    "address": "栃木県日光市上三依",
+    "transfers": [
+      "野岩鉄道会津鬼怒川線"
+    ]
+  },
+  '男鹿高原': {
+    "nameKana": "おじかこうげん",
+    "nameEn": "Ojika-Kogen",
+    "address": "栃木県日光市横川",
+    "transfers": [
+      "野岩鉄道会津鬼怒川線"
+    ]
+  },
+  '会津高原尾瀬口': {
+    "nameKana": "あいづこうげんおぜぐち",
+    "nameEn": "Aizu-Kogen-Ozeguchi",
+    "address": "福島県南会津郡南会津町滝原字羽根原",
+    "transfers": [
+      "野岩鉄道会津鬼怒川線",
+      "会津鉄道会津線"
+    ]
+  },
+  '七ヶ岳登山口': {
+    "nameKana": "ななつがたけとざんぐち",
+    "nameEn": "Nanatsugatake-Tozanguchi",
+    "address": "福島県南会津郡南会津町糸沢字下平",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '会津山村道場': {
+    "nameKana": "あいづさんそんどうじょう",
+    "nameEn": "Aizu-Sanson-Dojo",
+    "address": "福島県南会津郡南会津町糸沢字今泉",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '会津荒海': {
+    "nameKana": "あいづあらかい",
+    "nameEn": "Aizu-Arakai",
+    "address": "福島県南会津郡南会津町関本字百刈",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '中荒井': {
+    "nameKana": "なかあらい",
+    "nameEn": "Naka-Arai",
+    "address": "福島県南会津郡南会津町中荒井字長宿",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '会津田島': {
+    "nameKana": "あいづたじま",
+    "nameEn": "Aizu-Tajima",
+    "address": "福島県南会津郡南会津町田島字西町甲",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '田島高校前': {
+    "nameKana": "たじまこうこうまえ",
+    "nameEn": "Tajima-Kokomae",
+    "address": "福島県南会津郡南会津町田島字田島裏",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '会津長野': {
+    "nameKana": "あいづながの",
+    "nameEn": "Aizu-Nagano",
+    "address": "福島県南会津郡南会津町長野字下川原",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '養鱒公園': {
+    "nameKana": "ようそんこうえん",
+    "nameEn": "Yoson-Koen",
+    "address": "福島県南会津郡下郷町大字落合字下ノ原",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  'ふるさと公園': {
+    "nameKana": "ふるさとうこうえん",
+    "nameEn": "Furusato-Koen",
+    "address": "福島県南会津郡下郷町大字沢田字下林",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '会津下郷': {
+    "nameKana": "あいづしもごう",
+    "nameEn": "Aizu-Shimogo",
+    "address": "福島県南会津郡下郷町大字豊成字下モ",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '弥五島': {
+    "nameKana": "やごしま",
+    "nameEn": "Yagoshima",
+    "address": "福島県南会津郡下郷町大字弥五島字寺下",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '塔のへつり': {
+    "nameKana": "とうのへつり",
+    "nameEn": "Tonohetsuri",
+    "address": "福島県南会津郡下郷町大字弥五島字下林",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '湯野上温泉': {
+    "nameKana": "ゆのかみおんせん",
+    "nameEn": "Yunokami-Onsen",
+    "address": "福島県南会津郡下郷町大字湯野上字大島",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '芦ノ牧温泉南': {
+    "nameKana": "あしのまきおんせんみなみ",
+    "nameEn": "Ashinomaki-Onsen-Minami",
+    "address": "福島県会津若松市大戸町大字大川乙",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '大川ダム公園': {
+    "nameKana": "おおかわだむこうえん",
+    "nameEn": "Okawa-Dam-Koen",
+    "address": "福島県会津若松市大戸町大字大川甲",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '芦ノ牧温泉': {
+    "nameKana": "あしのまきおんせん",
+    "nameEn": "Ashinomaki-Onsen",
+    "address": "福島県会津若松市大戸町大字上三寄乙",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  'あまや': {
+    "nameKana": "あまや",
+    "nameEn": "Amaya",
+    "address": "福島県会津若松市大戸町大字雨屋",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '門田': {
+    "nameKana": "もんでん",
+    "nameEn": "Monden",
+    "address": "福島県会津若松市門田町大字面川",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '南若松': {
+    "nameKana": "みなみわかまつ",
+    "nameEn": "Minami-Wakamatsu",
+    "address": "福島県会津若松市門田町大字一ノ後",
+    "transfers": [
+      "会津鉄道会津線"
+    ]
+  },
+  '西若松': {
+    "nameKana": "にしわかまつ",
+    "nameEn": "Nishi-Wakamatsu",
+    "address": "福島県会津若松市材木町一丁目9-1",
+    "transfers": [
+      "会津鉄道会津線",
+      "JR只見線"
+    ]
+  },
+  '会津若松': {
+    "nameKana": "あいづわかまつ",
+    "nameEn": "Aizu-Wakamatsu",
+    "address": "福島県会津若松市駅前町1-1",
+    "transfers": [
+      "JR磐越西線",
+      "JR只見線",
+      "会津鉄道会津線"
+    ]
+  },
 };
 
 module.exports = { STATION_META };

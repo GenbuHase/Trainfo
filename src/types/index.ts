@@ -58,6 +58,19 @@ export type LineId =
   | 'nihonkai_hisui'
   | 'hokuhoku'
   | 'hokuriku_shinkansen'
+  | 'tobu_skytree'
+  | 'tobu_isesaki'
+  | 'tobu_kameido'
+  | 'tobu_daishi'
+  | 'tobu_sano'
+  | 'tobu_koizumi'
+  | 'tobu_kiryu'
+  | 'tobu_nikko'
+  | 'tobu_utsunomiya'
+  | 'tobu_kinugawa'
+  | 'tobu_urban_park'
+  | 'yagan'
+  | 'aizu'
   | (string & {});
 
 
@@ -66,29 +79,34 @@ export type LineId =
 export type TrainTypeKey =
   | 'local'                   // 普通 / 各駅停車
   | 'regular'                 // 普通（むさしの号・しもうさ号・中央本線・篠ノ井線・大糸線等）
+  | 'section_semi'            // 区間準急（東武線等）
   | 'semiExp'                 // 準急
   | 'commuter_semi'           // 通勤準急（西武線等）
-  | 'express'                 // 急行（急行秩父路等）
+  | 'section_exp'             // 区間急行（東武線等）
+  | 'express'                 // 急行（急行秩父路、東武線等）
   | 'commuter_exp'            // 通勤急行（副都心線、西武線等）
-  | 'rapid'                   // 快速（埼京線、つくばエクスプレス、中央線、西武線等）
+  | 'rapid'                   // 快速（埼京線、つくばエクスプレス、中央線、西武線、会津・野岩線等）
   | 'rapid_acty'              // 快速アクティー（東海道線）
   | 'rapid_rabbit'            // 快速ラビット（宇都宮線）
   | 'rapid_urban'             // 快速アーバン（高崎線）
   | 'commuter'                // 通勤快速（埼京線、中央線等）
-  | 'semi_rapid'              // 区間快速（つくばエクスプレス等）
+  | 'semi_rapid'              // 区間快速（つくばエクスプレス、東武線等）
   | 'commuter_rapid'          // 通勤快速（つくばエクスプレス等）
   | 'special_rapid'           // 特別快速（中央線等）
   | 'chuo_special_rapid'      // 中央特快（中央線）
   | 'ome_special_rapid'       // 青梅特快（中央線）
   | 'commuter_special_rapid'  // 通勤特快（中央線）
-  | 'limitedExp'              // 特急（あずさ・かいじ・ラビュー・ちちぶ・むさし等）
+  | 'limitedExp'              // 特急（あずさ・かいじ・スペーシア・リバティ・りょうもう・きぬ・けごん等）
   | 'commuter_ltd_exp'        // 通勤特急（東急東横線・みなとみらい線等）
   | 'ltd_exp'                 // 特急（東急東横線・みなとみらい線等）
   | 'rapidExp'                // 快速急行
   | 'kawagoeExp'              // 川越特急
   | 'tjLiner'                 // TJライナー
+  | 'th_liner'                // THライナー（日比谷線・東武スカイツリーライン直通）
   | 'strain'                  // S-TRAIN（西武・メトロ・東急直通）
   | 'sl'                      // SL（パレオエクスプレス）
+  | 'sl_taiju'                // SL大樹（東武鬼怒川線・日光線）
+  | 'aizu_mount_exp'          // AIZUマウントエクスプレス（会津鉄道・野岩鉄道・東武線）
   | 'hayabusa'                // はやぶさ（東北新幹線）
   | 'hayate'                  // はやて（東北新幹線）
   | 'yamabiko'                // やまびこ（東北新幹線）
@@ -252,6 +270,7 @@ export interface DepartureInfo {
 
 // 線路軌道セグメント
 export interface TrackSegment {
+  id?: string;
   segmentId?: string;
   fromStationId: string;
   toStationId: string;
