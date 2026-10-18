@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const TOBU_KAMEIDO_STATIONS: Station[] = [
   {
-    "id": "TS-04",
+    "id": "TSK-04",
     "stationNumber": "TS-04",
     "lineId": "tobu_kameido",
     "number": 1,
@@ -33,7 +33,7 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-41",
+    "id": "TSK-41",
     "stationNumber": "TS-41",
     "lineId": "tobu_kameido",
     "number": 2,
@@ -63,7 +63,7 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-42",
+    "id": "TSK-42",
     "stationNumber": "TS-42",
     "lineId": "tobu_kameido",
     "number": 3,
@@ -93,7 +93,7 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-43",
+    "id": "TSK-43",
     "stationNumber": "TS-43",
     "lineId": "tobu_kameido",
     "number": 4,
@@ -123,7 +123,7 @@ export const TOBU_KAMEIDO_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-44",
+    "id": "TSK-44",
     "stationNumber": "TS-44",
     "lineId": "tobu_kameido",
     "number": 5,

@@ -2,9 +2,9 @@ import type { TrackSegment } from '../../../types';
 
 export const TOBU_KAMEIDO_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "id": "tobu_kameido_TS-04_TS-41",
-    "fromStationId": "TS-04",
-    "toStationId": "TS-41",
+    "id": "tobu_kameido_TSK-04_TSK-41",
+    "fromStationId": "TSK-04",
+    "toStationId": "TSK-41",
     "coordinates": [
       [
         35.7183011,
@@ -321,9 +321,9 @@ export const TOBU_KAMEIDO_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_kameido_TS-41_TS-42",
-    "fromStationId": "TS-41",
-    "toStationId": "TS-42",
+    "id": "tobu_kameido_TSK-41_TSK-42",
+    "fromStationId": "TSK-41",
+    "toStationId": "TSK-42",
     "coordinates": [
       [
         35.71035,
@@ -508,9 +508,9 @@ export const TOBU_KAMEIDO_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_kameido_TS-42_TS-43",
-    "fromStationId": "TS-42",
-    "toStationId": "TS-43",
+    "id": "tobu_kameido_TSK-42_TSK-43",
+    "fromStationId": "TSK-42",
+    "toStationId": "TSK-43",
     "coordinates": [
       [
         35.707072,
@@ -687,9 +687,9 @@ export const TOBU_KAMEIDO_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_kameido_TS-43_TS-44",
-    "fromStationId": "TS-43",
-    "toStationId": "TS-44",
+    "id": "tobu_kameido_TSK-43_TSK-44",
+    "fromStationId": "TSK-43",
+    "toStationId": "TSK-44",
     "coordinates": [
       [
         35.6999506,

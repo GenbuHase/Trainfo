@@ -2,9 +2,9 @@ import type { TrackSegment } from '../../../types';
 
 export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "id": "tobu_urban_park_TD-01_TD-02",
-    "fromStationId": "TD-01",
-    "toStationId": "TD-02",
+    "id": "tobu_urban_park_TUP-01_TUP-02",
+    "fromStationId": "TUP-01",
+    "toStationId": "TUP-02",
     "coordinates": [
       [
         35.907778,
@@ -133,9 +133,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-02_TD-03",
-    "fromStationId": "TD-02",
-    "toStationId": "TD-03",
+    "id": "tobu_urban_park_TUP-02_TUP-03",
+    "fromStationId": "TUP-02",
+    "toStationId": "TUP-03",
     "coordinates": [
       [
         35.9170855,
@@ -272,9 +272,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-03_TD-04",
-    "fromStationId": "TD-03",
-    "toStationId": "TD-04",
+    "id": "tobu_urban_park_TUP-03_TUP-04",
+    "fromStationId": "TUP-03",
+    "toStationId": "TUP-04",
     "coordinates": [
       [
         35.9238418,
@@ -455,9 +455,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-04_TD-05",
-    "fromStationId": "TD-04",
-    "toStationId": "TD-05",
+    "id": "tobu_urban_park_TUP-04_TUP-05",
+    "fromStationId": "TUP-04",
+    "toStationId": "TUP-05",
     "coordinates": [
       [
         35.9292803,
@@ -638,9 +638,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-05_TD-06",
-    "fromStationId": "TD-05",
-    "toStationId": "TD-06",
+    "id": "tobu_urban_park_TUP-05_TUP-06",
+    "fromStationId": "TUP-05",
+    "toStationId": "TUP-06",
     "coordinates": [
       [
         35.936403,
@@ -953,9 +953,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-06_TD-07",
-    "fromStationId": "TD-06",
-    "toStationId": "TD-07",
+    "id": "tobu_urban_park_TUP-06_TUP-07",
+    "fromStationId": "TUP-06",
+    "toStationId": "TUP-07",
     "coordinates": [
       [
         35.9502507,
@@ -1236,9 +1236,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-07_TD-08",
-    "fromStationId": "TD-07",
-    "toStationId": "TD-08",
+    "id": "tobu_urban_park_TUP-07_TUP-08",
+    "fromStationId": "TUP-07",
+    "toStationId": "TUP-08",
     "coordinates": [
       [
         35.9633357,
@@ -1395,9 +1395,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-08_TD-09",
-    "fromStationId": "TD-08",
-    "toStationId": "TD-09",
+    "id": "tobu_urban_park_TUP-08_TUP-09",
+    "fromStationId": "TUP-08",
+    "toStationId": "TUP-09",
     "coordinates": [
       [
         35.9680508,
@@ -1578,9 +1578,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-09_TD-10",
-    "fromStationId": "TD-09",
-    "toStationId": "TD-10",
+    "id": "tobu_urban_park_TUP-09_TUP-10",
+    "fromStationId": "TUP-09",
+    "toStationId": "TUP-10",
     "coordinates": [
       [
         35.9781411,
@@ -1749,9 +1749,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-10_TD-11",
-    "fromStationId": "TD-10",
-    "toStationId": "TD-11",
+    "id": "tobu_urban_park_TUP-10_TUP-11",
+    "fromStationId": "TUP-10",
+    "toStationId": "TUP-11",
     "coordinates": [
       [
         35.9800499,
@@ -2104,9 +2104,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-11_TD-12",
-    "fromStationId": "TD-11",
-    "toStationId": "TD-12",
+    "id": "tobu_urban_park_TUP-11_TUP-12",
+    "fromStationId": "TUP-11",
+    "toStationId": "TUP-12",
     "coordinates": [
       [
         35.9802876,
@@ -2407,9 +2407,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-12_TD-13",
-    "fromStationId": "TD-12",
-    "toStationId": "TD-13",
+    "id": "tobu_urban_park_TUP-12_TUP-13",
+    "fromStationId": "TUP-12",
+    "toStationId": "TUP-13",
     "coordinates": [
       [
         35.9804661,
@@ -2666,9 +2666,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-13_TD-14",
-    "fromStationId": "TD-13",
-    "toStationId": "TD-14",
+    "id": "tobu_urban_park_TUP-13_TUP-14",
+    "fromStationId": "TUP-13",
+    "toStationId": "TUP-14",
     "coordinates": [
       [
         35.9792349,
@@ -2893,9 +2893,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-14_TD-15",
-    "fromStationId": "TD-14",
-    "toStationId": "TD-15",
+    "id": "tobu_urban_park_TUP-14_TUP-15",
+    "fromStationId": "TUP-14",
+    "toStationId": "TUP-15",
     "coordinates": [
       [
         35.9710264,
@@ -3064,9 +3064,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-15_TD-16",
-    "fromStationId": "TD-15",
-    "toStationId": "TD-16",
+    "id": "tobu_urban_park_TUP-15_TUP-16",
+    "fromStationId": "TUP-15",
+    "toStationId": "TUP-16",
     "coordinates": [
       [
         35.9595468,
@@ -3227,9 +3227,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-16_TD-17",
-    "fromStationId": "TD-16",
-    "toStationId": "TD-17",
+    "id": "tobu_urban_park_TUP-16_TUP-17",
+    "fromStationId": "TUP-16",
+    "toStationId": "TUP-17",
     "coordinates": [
       [
         35.9500288,
@@ -3354,9 +3354,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-17_TD-18",
-    "fromStationId": "TD-17",
-    "toStationId": "TD-18",
+    "id": "tobu_urban_park_TUP-17_TUP-18",
+    "fromStationId": "TUP-17",
+    "toStationId": "TUP-18",
     "coordinates": [
       [
         35.9435957,
@@ -3633,9 +3633,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-18_TD-19",
-    "fromStationId": "TD-18",
-    "toStationId": "TD-19",
+    "id": "tobu_urban_park_TUP-18_TUP-19",
+    "fromStationId": "TUP-18",
+    "toStationId": "TUP-19",
     "coordinates": [
       [
         35.9312368,
@@ -3916,9 +3916,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-19_TD-20",
-    "fromStationId": "TD-19",
-    "toStationId": "TD-20",
+    "id": "tobu_urban_park_TUP-19_TUP-20",
+    "fromStationId": "TUP-19",
+    "toStationId": "TUP-20",
     "coordinates": [
       [
         35.9143484,
@@ -4127,9 +4127,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-20_TD-21",
-    "fromStationId": "TD-20",
-    "toStationId": "TD-21",
+    "id": "tobu_urban_park_TUP-20_TUP-21",
+    "fromStationId": "TUP-20",
+    "toStationId": "TUP-21",
     "coordinates": [
       [
         35.8974168,
@@ -4318,9 +4318,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-21_TD-22",
-    "fromStationId": "TD-21",
-    "toStationId": "TD-22",
+    "id": "tobu_urban_park_TUP-21_TUP-22",
+    "fromStationId": "TUP-21",
+    "toStationId": "TUP-22",
     "coordinates": [
       [
         35.8835002,
@@ -4497,9 +4497,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-22_TD-23",
-    "fromStationId": "TD-22",
-    "toStationId": "TD-23",
+    "id": "tobu_urban_park_TUP-22_TUP-23",
+    "fromStationId": "TUP-22",
+    "toStationId": "TUP-23",
     "coordinates": [
       [
         35.8720837,
@@ -4636,9 +4636,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-23_TD-24",
-    "fromStationId": "TD-23",
-    "toStationId": "TD-24",
+    "id": "tobu_urban_park_TUP-23_TUP-24",
+    "fromStationId": "TUP-23",
+    "toStationId": "TUP-24",
     "coordinates": [
       [
         35.8665091,
@@ -5011,9 +5011,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-24_TD-25",
-    "fromStationId": "TD-24",
-    "toStationId": "TD-25",
+    "id": "tobu_urban_park_TUP-24_TUP-25",
+    "fromStationId": "TUP-24",
+    "toStationId": "TUP-25",
     "coordinates": [
       [
         35.861853,
@@ -5370,9 +5370,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-25_TD-26",
-    "fromStationId": "TD-25",
-    "toStationId": "TD-26",
+    "id": "tobu_urban_park_TUP-25_TUP-26",
+    "fromStationId": "TUP-25",
+    "toStationId": "TUP-26",
     "coordinates": [
       [
         35.8385351,
@@ -5509,9 +5509,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-26_TD-27",
-    "fromStationId": "TD-26",
-    "toStationId": "TD-27",
+    "id": "tobu_urban_park_TUP-26_TUP-27",
+    "fromStationId": "TUP-26",
+    "toStationId": "TUP-27",
     "coordinates": [
       [
         35.8295952,
@@ -5608,9 +5608,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-27_TD-28",
-    "fromStationId": "TD-27",
-    "toStationId": "TD-28",
+    "id": "tobu_urban_park_TUP-27_TUP-28",
+    "fromStationId": "TUP-27",
+    "toStationId": "TUP-28",
     "coordinates": [
       [
         35.8232472,
@@ -5871,9 +5871,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-28_TD-29",
-    "fromStationId": "TD-28",
-    "toStationId": "TD-29",
+    "id": "tobu_urban_park_TUP-28_TUP-29",
+    "fromStationId": "TUP-28",
+    "toStationId": "TUP-29",
     "coordinates": [
       [
         35.8082156,
@@ -6058,9 +6058,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-29_TD-30",
-    "fromStationId": "TD-29",
-    "toStationId": "TD-30",
+    "id": "tobu_urban_park_TUP-29_TUP-30",
+    "fromStationId": "TUP-29",
+    "toStationId": "TUP-30",
     "coordinates": [
       [
         35.7938659,
@@ -6229,9 +6229,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-30_TD-31",
-    "fromStationId": "TD-30",
-    "toStationId": "TD-31",
+    "id": "tobu_urban_park_TUP-30_TUP-31",
+    "fromStationId": "TUP-30",
+    "toStationId": "TUP-31",
     "coordinates": [
       [
         35.7803435,
@@ -6432,9 +6432,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-31_TD-32",
-    "fromStationId": "TD-31",
-    "toStationId": "TD-32",
+    "id": "tobu_urban_park_TUP-31_TUP-32",
+    "fromStationId": "TUP-31",
+    "toStationId": "TUP-32",
     "coordinates": [
       [
         35.7640429,
@@ -6691,9 +6691,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-32_TD-33",
-    "fromStationId": "TD-32",
-    "toStationId": "TD-33",
+    "id": "tobu_urban_park_TUP-32_TUP-33",
+    "fromStationId": "TUP-32",
+    "toStationId": "TUP-33",
     "coordinates": [
       [
         35.7415698,
@@ -6958,9 +6958,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-33_TD-34",
-    "fromStationId": "TD-33",
-    "toStationId": "TD-34",
+    "id": "tobu_urban_park_TUP-33_TUP-34",
+    "fromStationId": "TUP-33",
+    "toStationId": "TUP-34",
     "coordinates": [
       [
         35.721657,
@@ -7105,9 +7105,9 @@ export const TOBU_URBAN_PARK_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_urban_park_TD-34_TD-35",
-    "fromStationId": "TD-34",
-    "toStationId": "TD-35",
+    "id": "tobu_urban_park_TUP-34_TUP-35",
+    "fromStationId": "TUP-34",
+    "toStationId": "TUP-35",
     "coordinates": [
       [
         35.7106527,

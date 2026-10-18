@@ -2,9 +2,9 @@ import type { TrackSegment } from '../../../types';
 
 export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "id": "tobu_skytree_TS-01_TS-02",
-    "fromStationId": "TS-01",
-    "toStationId": "TS-02",
+    "id": "tobu_skytree_TSK-01_TSK-02",
+    "fromStationId": "TSK-01",
+    "toStationId": "TSK-02",
     "coordinates": [
       [
         35.7121581,
@@ -309,9 +309,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-02_TS-03",
-    "fromStationId": "TS-02",
-    "toStationId": "TS-03",
+    "id": "tobu_skytree_TSK-02_TSK-04",
+    "fromStationId": "TSK-02",
+    "toStationId": "TSK-04",
     "coordinates": [
       [
         35.7105143,
@@ -544,249 +544,13 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.7183229,
         139.816549
-      ],
-      [
-        35.718560999999994,
-        139.8165759
-      ],
-      [
-        35.7187991,
-        139.8166028
-      ],
-      [
-        35.7189013,
-        139.8166192
-      ],
-      [
-        35.7190231,
-        139.8166448
-      ],
-      [
-        35.7190826,
-        139.8166603
-      ],
-      [
-        35.7191648,
-        139.8166835
-      ],
-      [
-        35.7192764,
-        139.816717
-      ],
-      [
-        35.7194702,
-        139.816783
-      ],
-      [
-        35.7195629,
-        139.8168174
-      ],
-      [
-        35.7196492,
-        139.8168517
-      ],
-      [
-        35.7195775,
-        139.8168252
-      ],
-      [
-        35.7194983,
-        139.8167987
-      ],
-      [
-        35.7194445,
-        139.816786
-      ],
-      [
-        35.7193185,
-        139.816758
-      ],
-      [
-        35.7192287,
-        139.8167437
-      ],
-      [
-        35.71916,
-        139.8167341
-      ],
-      [
-        35.7189971,
-        139.8167192
-      ],
-      [
-        35.7188156,
-        139.8167051
-      ],
-      [
-        35.718563849999995,
-        139.81668445
-      ],
-      [
-        35.7183121,
-        139.8166638
-      ],
-      [
-        35.718063099999995,
-        139.8166417
-      ],
-      [
-        35.7178141,
-        139.8166196
-      ],
-      [
-        35.717566899999994,
-        139.81659945
-      ],
-      [
-        35.7173197,
-        139.8165793
-      ],
-      [
-        35.7171076,
-        139.8165563
-      ],
-      [
-        35.7169485,
-        139.8165444
-      ],
-      [
-        35.7167897,
-        139.8165349
-      ],
-      [
-        35.7166425,
-        139.8165331
-      ],
-      [
-        35.71628715,
-        139.81653115
-      ],
-      [
-        35.7159318,
-        139.8165292
-      ],
-      [
-        35.7156914,
-        139.8165321
-      ],
-      [
-        35.7152908,
-        139.8165462
-      ],
-      [
-        35.715166,
-        139.8165471
-      ],
-      [
-        35.7150488,
-        139.8165433
-      ],
-      [
-        35.7149559,
-        139.8165369
-      ],
-      [
-        35.7148609,
-        139.8165254
-      ],
-      [
-        35.7146666,
-        139.8164981
-      ],
-      [
-        35.7143945,
-        139.8164136
-      ],
-      [
-        35.7141166,
-        139.8162872
-      ],
-      [
-        35.7138737,
-        139.8161506
-      ],
-      [
-        35.7135858,
-        139.8159564
-      ],
-      [
-        35.7133121,
-        139.8157661
-      ],
-      [
-        35.7130671,
-        139.8155598
-      ],
-      [
-        35.7128312,
-        139.8153452
-      ],
-      [
-        35.7126476,
-        139.8150802
-      ],
-      [
-        35.7124666,
-        139.8147634
-      ],
-      [
-        35.7123036,
-        139.8144624
-      ],
-      [
-        35.7121336,
-        139.814127
-      ],
-      [
-        35.7119418,
-        139.8138108
-      ],
-      [
-        35.7117079,
-        139.8135177
-      ],
-      [
-        35.7115647,
-        139.8134081
-      ],
-      [
-        35.7114972,
-        139.8133571
-      ],
-      [
-        35.711439,
-        139.8133182
-      ],
-      [
-        35.711295,
-        139.813237
-      ],
-      [
-        35.711214,
-        139.8132034
-      ],
-      [
-        35.7111541,
-        139.8131847
-      ],
-      [
-        35.7109994,
-        139.8131383
-      ],
-      [
-        35.7108678,
-        139.8131132
-      ],
-      [
-        35.7106266,
-        139.8131034
       ]
     ]
   },
   {
-    "id": "tobu_skytree_TS-03_TS-04",
-    "fromStationId": "TS-03",
-    "toStationId": "TS-04",
+    "id": "tobu_skytree_TSK-03_TSK-04",
+    "fromStationId": "TSK-03",
+    "toStationId": "TSK-04",
     "coordinates": [
       [
         35.7106266,
@@ -951,9 +715,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-04_TS-05",
-    "fromStationId": "TS-04",
-    "toStationId": "TS-05",
+    "id": "tobu_skytree_TSK-04_TSK-05",
+    "fromStationId": "TSK-04",
+    "toStationId": "TSK-05",
     "coordinates": [
       [
         35.7183121,
@@ -1134,9 +898,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-05_TS-06",
-    "fromStationId": "TS-05",
-    "toStationId": "TS-06",
+    "id": "tobu_skytree_TSK-05_TSK-06",
+    "fromStationId": "TSK-05",
+    "toStationId": "TSK-06",
     "coordinates": [
       [
         35.7242844,
@@ -1389,9 +1153,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-06_TS-07",
-    "fromStationId": "TS-06",
-    "toStationId": "TS-07",
+    "id": "tobu_skytree_TSK-06_TSK-07",
+    "fromStationId": "TSK-06",
+    "toStationId": "TSK-07",
     "coordinates": [
       [
         35.7335814,
@@ -1640,9 +1404,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-07_TS-08",
-    "fromStationId": "TS-07",
-    "toStationId": "TS-08",
+    "id": "tobu_skytree_TSK-07_TSK-08",
+    "fromStationId": "TSK-07",
+    "toStationId": "TSK-08",
     "coordinates": [
       [
         35.7429878,
@@ -10347,9 +10111,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-08_TS-09",
-    "fromStationId": "TS-08",
-    "toStationId": "TS-09",
+    "id": "tobu_skytree_TSK-08_TSK-09",
+    "fromStationId": "TSK-08",
+    "toStationId": "TSK-09",
     "coordinates": [
       [
         35.7446431,
@@ -17178,9 +16942,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-09_TS-10",
-    "fromStationId": "TS-09",
-    "toStationId": "TS-10",
+    "id": "tobu_skytree_TSK-09_TSK-10",
+    "fromStationId": "TSK-09",
+    "toStationId": "TSK-10",
     "coordinates": [
       [
         35.7504062,
@@ -17389,9 +17153,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-10_TS-11",
-    "fromStationId": "TS-10",
-    "toStationId": "TS-11",
+    "id": "tobu_skytree_TSK-10_TSK-11",
+    "fromStationId": "TSK-10",
+    "toStationId": "TSK-11",
     "coordinates": [
       [
         35.7589978,
@@ -23172,9 +22936,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-11_TS-12",
-    "fromStationId": "TS-11",
-    "toStationId": "TS-12",
+    "id": "tobu_skytree_TSK-11_TSK-12",
+    "fromStationId": "TSK-11",
+    "toStationId": "TSK-12",
     "coordinates": [
       [
         35.7658371,
@@ -23339,9 +23103,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-12_TS-13",
-    "fromStationId": "TS-12",
-    "toStationId": "TS-13",
+    "id": "tobu_skytree_TSK-12_TSK-13",
+    "fromStationId": "TSK-12",
+    "toStationId": "TSK-13",
     "coordinates": [
       [
         35.7723245,
@@ -23490,9 +23254,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-13_TS-14",
-    "fromStationId": "TS-13",
-    "toStationId": "TS-14",
+    "id": "tobu_skytree_TSK-13_TSK-14",
+    "fromStationId": "TSK-13",
+    "toStationId": "TSK-14",
     "coordinates": [
       [
         35.7772881,
@@ -23909,9 +23673,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-14_TS-15",
-    "fromStationId": "TS-14",
-    "toStationId": "TS-15",
+    "id": "tobu_skytree_TSK-14_TSK-15",
+    "fromStationId": "TSK-14",
+    "toStationId": "TSK-15",
     "coordinates": [
       [
         35.7944796,
@@ -27692,9 +27456,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-15_TS-16",
-    "fromStationId": "TS-15",
-    "toStationId": "TS-16",
+    "id": "tobu_skytree_TSK-15_TSK-16",
+    "fromStationId": "TSK-15",
+    "toStationId": "TSK-16",
     "coordinates": [
       [
         35.8148614,
@@ -30899,9 +30663,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-16_TS-17",
-    "fromStationId": "TS-16",
-    "toStationId": "TS-17",
+    "id": "tobu_skytree_TSK-16_TSK-17",
+    "fromStationId": "TSK-16",
+    "toStationId": "TSK-17",
     "coordinates": [
       [
         35.8283815,
@@ -31114,9 +30878,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-17_TS-18",
-    "fromStationId": "TS-17",
-    "toStationId": "TS-18",
+    "id": "tobu_skytree_TSK-17_TSK-18",
+    "fromStationId": "TSK-17",
+    "toStationId": "TSK-18",
     "coordinates": [
       [
         35.8433939,
@@ -31249,9 +31013,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-18_TS-19",
-    "fromStationId": "TS-18",
-    "toStationId": "TS-19",
+    "id": "tobu_skytree_TSK-18_TSK-19",
+    "fromStationId": "TSK-18",
+    "toStationId": "TSK-19",
     "coordinates": [
       [
         35.8543217,
@@ -31416,9 +31180,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-19_TS-20",
-    "fromStationId": "TS-19",
-    "toStationId": "TS-20",
+    "id": "tobu_skytree_TSK-19_TSK-20",
+    "fromStationId": "TSK-19",
+    "toStationId": "TSK-20",
     "coordinates": [
       [
         35.8671164,
@@ -31523,9 +31287,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-20_TS-21",
-    "fromStationId": "TS-20",
-    "toStationId": "TS-21",
+    "id": "tobu_skytree_TSK-20_TSK-21",
+    "fromStationId": "TSK-20",
+    "toStationId": "TSK-21",
     "coordinates": [
       [
         35.8755004,
@@ -31662,9 +31426,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-21_TS-22",
-    "fromStationId": "TS-21",
-    "toStationId": "TS-22",
+    "id": "tobu_skytree_TSK-21_TSK-22",
+    "fromStationId": "TSK-21",
+    "toStationId": "TSK-22",
     "coordinates": [
       [
         35.8872129,
@@ -33089,9 +32853,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-22_TS-23",
-    "fromStationId": "TS-22",
-    "toStationId": "TS-23",
+    "id": "tobu_skytree_TSK-22_TSK-23",
+    "fromStationId": "TSK-22",
+    "toStationId": "TSK-23",
     "coordinates": [
       [
         35.9015309,
@@ -34056,9 +33820,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-23_TS-24",
-    "fromStationId": "TS-23",
-    "toStationId": "TS-24",
+    "id": "tobu_skytree_TSK-23_TSK-24",
+    "fromStationId": "TSK-23",
+    "toStationId": "TSK-24",
     "coordinates": [
       [
         35.9241648,
@@ -34195,9 +33959,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-24_TS-25",
-    "fromStationId": "TS-24",
-    "toStationId": "TS-25",
+    "id": "tobu_skytree_TSK-24_TSK-25",
+    "fromStationId": "TSK-24",
+    "toStationId": "TSK-25",
     "coordinates": [
       [
         35.9357906,
@@ -34494,9 +34258,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-25_TS-26",
-    "fromStationId": "TS-25",
-    "toStationId": "TS-26",
+    "id": "tobu_skytree_TSK-25_TSK-26",
+    "fromStationId": "TSK-25",
+    "toStationId": "TSK-26",
     "coordinates": [
       [
         35.9486213,
@@ -34677,9 +34441,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-26_TS-27",
-    "fromStationId": "TS-26",
-    "toStationId": "TS-27",
+    "id": "tobu_skytree_TSK-26_TSK-27",
+    "fromStationId": "TSK-26",
+    "toStationId": "TSK-27",
     "coordinates": [
       [
         35.9642131,
@@ -35156,9 +34920,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-27_TS-28",
-    "fromStationId": "TS-27",
-    "toStationId": "TS-28",
+    "id": "tobu_skytree_TSK-27_TSK-28",
+    "fromStationId": "TSK-27",
+    "toStationId": "TSK-28",
     "coordinates": [
       [
         35.9803787,
@@ -36071,9 +35835,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-28_TS-29",
-    "fromStationId": "TS-28",
-    "toStationId": "TS-29",
+    "id": "tobu_skytree_TSK-28_TSK-29",
+    "fromStationId": "TSK-28",
+    "toStationId": "TSK-29",
     "coordinates": [
       [
         35.9904729,
@@ -37338,9 +37102,9 @@ export const TOBU_SKYTREE_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "id": "tobu_skytree_TS-29_TS-30",
-    "fromStationId": "TS-29",
-    "toStationId": "TS-30",
+    "id": "tobu_skytree_TSK-29_TSK-30",
+    "fromStationId": "TSK-29",
+    "toStationId": "TSK-30",
     "coordinates": [
       [
         36.0040947,

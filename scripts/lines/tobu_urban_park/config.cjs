@@ -9,245 +9,245 @@ module.exports = {
   },
   stations: [
   {
-    "id": "TD-01",
+    "id": "TUP-01",
     "name": "大宮",
     "yahooStationId": "21987",
     "inGroupId": null,
     "outGroupId": "2771"
   },
   {
-    "id": "TD-02",
+    "id": "TUP-02",
     "name": "北大宮",
     "yahooStationId": "22018",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-03",
+    "id": "TUP-03",
     "name": "大宮公園",
     "yahooStationId": "21988",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-04",
+    "id": "TUP-04",
     "name": "大和田",
     "yahooStationId": "21989",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-05",
+    "id": "TUP-05",
     "name": "七里",
     "yahooStationId": "22088",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-06",
+    "id": "TUP-06",
     "name": "岩槻",
     "yahooStationId": "21979",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-07",
+    "id": "TUP-07",
     "name": "東岩槻",
     "yahooStationId": "22108",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-08",
+    "id": "TUP-08",
     "name": "豊春",
     "yahooStationId": "22083",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-09",
+    "id": "TUP-09",
     "name": "八木崎",
     "yahooStationId": "22160",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-10",
+    "id": "TUP-10",
     "name": "春日部",
     "yahooStationId": "22002",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-11",
+    "id": "TUP-11",
     "name": "藤の牛島",
     "yahooStationId": "22123",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-12",
+    "id": "TUP-12",
     "name": "南桜井",
     "yahooStationId": "22146",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-13",
+    "id": "TUP-13",
     "name": "川間",
     "yahooStationId": "22253",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-14",
+    "id": "TUP-14",
     "name": "七光台",
     "yahooStationId": "22386",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-15",
+    "id": "TUP-15",
     "name": "清水公園",
     "yahooStationId": "22316",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-16",
+    "id": "TUP-16",
     "name": "愛宕",
     "yahooStationId": "22180",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-17",
+    "id": "TUP-17",
     "name": "野田市",
     "yahooStationId": "22402",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-18",
+    "id": "TUP-18",
     "name": "梅郷",
     "yahooStationId": "22205",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-19",
+    "id": "TUP-19",
     "name": "運河",
     "yahooStationId": "22207",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-20",
+    "id": "TUP-20",
     "name": "江戸川台",
     "yahooStationId": "22208",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-21",
+    "id": "TUP-21",
     "name": "初石",
     "yahooStationId": "22403",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-22",
+    "id": "TUP-22",
     "name": "流山おおたかの森",
     "yahooStationId": "29403",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-23",
+    "id": "TUP-23",
     "name": "豊四季",
     "yahooStationId": "22378",
     "inGroupId": "2770",
     "outGroupId": "2771"
   },
   {
-    "id": "TD-24",
+    "id": "TUP-24",
     "name": "柏",
     "yahooStationId": "22228",
     "inGroupId": "2770",
     "outGroupId": "2781"
   },
   {
-    "id": "TD-25",
+    "id": "TUP-25",
     "name": "新柏",
     "yahooStationId": "22325",
     "inGroupId": "2780",
     "outGroupId": "2781"
   },
   {
-    "id": "TD-26",
+    "id": "TUP-26",
     "name": "増尾",
     "yahooStationId": "22441",
     "inGroupId": "2780",
     "outGroupId": "2781"
   },
   {
-    "id": "TD-27",
+    "id": "TUP-27",
     "name": "逆井",
     "yahooStationId": "22304",
     "inGroupId": "2780",
     "outGroupId": "2781"
   },
   {
-    "id": "TD-28",
+    "id": "TUP-28",
     "name": "高柳",
     "yahooStationId": "22347",
     "inGroupId": "2780",
     "outGroupId": "2781"
   },
   {
-    "id": "TD-29",
+    "id": "TUP-29",
     "name": "六実",
     "yahooStationId": "22460",
     "inGroupId": "2780",
     "outGroupId": "2781"
   },
   {
-    "id": "TD-30",
+    "id": "TUP-30",
     "name": "新鎌ヶ谷",
     "yahooStationId": "22326",
     "inGroupId": "2780",
     "outGroupId": "2781"
   },
   {
-    "id": "TD-31",
+    "id": "TUP-31",
     "name": "鎌ヶ谷",
     "yahooStationId": "22249",
     "inGroupId": "2780",
     "outGroupId": "2781"
   },
   {
-    "id": "TD-32",
+    "id": "TUP-32",
     "name": "馬込沢",
     "yahooStationId": "22440",
     "inGroupId": "2780",
     "outGroupId": "2781"
   },
   {
-    "id": "TD-33",
+    "id": "TUP-33",
     "name": "塚田",
     "yahooStationId": "22367",
     "inGroupId": "2780",
     "outGroupId": "2781"
   },
   {
-    "id": "TD-34",
+    "id": "TUP-34",
     "name": "新船橋",
     "yahooStationId": "22331",
     "inGroupId": "2780",
     "outGroupId": "2781"
   },
   {
-    "id": "TD-35",
+    "id": "TUP-35",
     "name": "船橋",
     "yahooStationId": "22427",
     "inGroupId": "2780",

@@ -796,8 +796,8 @@ export const TADAMI_STATIONS: Station[] = [
     "name": "入広瀬",
     "nameKana": "いりひろせ",
     "nameEn": "Irihirose",
-    "lat": 37.358818,
-    "lng": 139.06599,
+    "lat": 37.3589411,
+    "lng": 139.0656947,
     "transfers": [],
     "address": "福島県/新潟県入広瀬駅",
     "platforms": {

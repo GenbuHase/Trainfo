@@ -9,35 +9,35 @@ module.exports = {
   },
   stations: [
   {
-    "id": "TS-04",
+    "id": "TSK-04",
     "name": "曳舟",
     "yahooStationId": "22946",
     "inGroupId": null,
     "outGroupId": "2681"
   },
   {
-    "id": "TS-41",
+    "id": "TSK-41",
     "name": "小村井",
     "yahooStationId": "22586",
     "inGroupId": "2680",
     "outGroupId": "2681"
   },
   {
-    "id": "TS-42",
+    "id": "TSK-42",
     "name": "東あずま",
     "yahooStationId": "22923",
     "inGroupId": "2680",
     "outGroupId": "2681"
   },
   {
-    "id": "TS-43",
+    "id": "TSK-43",
     "name": "亀戸水神",
     "yahooStationId": "22613",
     "inGroupId": "2680",
     "outGroupId": "2681"
   },
   {
-    "id": "TS-44",
+    "id": "TSK-44",
     "name": "亀戸",
     "yahooStationId": "22612",
     "inGroupId": "2680",

@@ -10869,14 +10869,6 @@ export const TADAMI_TRACK_SEGMENTS: TrackSegment[] = [
       [
         37.3589411,
         139.0656947
-      ],
-      [
-        37.358928,
-        139.0658265
-      ],
-      [
-        37.3587457,
-        139.0659177
       ]
     ]
   },
@@ -10886,12 +10878,8 @@ export const TADAMI_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "TD-31",
     "coordinates": [
       [
-        37.3587457,
-        139.0659177
-      ],
-      [
-        37.358928,
-        139.0658265
+        37.3589411,
+        139.0656947
       ],
       [
         37.359107,

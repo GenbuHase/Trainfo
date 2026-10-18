@@ -9,7 +9,7 @@ module.exports = {
   },
   stations: [
   {
-    "id": "TS-30",
+    "id": "TSK-30",
     "name": "東武動物公園",
     "yahooStationId": "22079",
     "inGroupId": null,

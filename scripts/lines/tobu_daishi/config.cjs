@@ -9,14 +9,14 @@ module.exports = {
   },
   stations: [
   {
-    "id": "TS-13",
+    "id": "TSK-13",
     "name": "西新井",
     "yahooStationId": "22863",
     "inGroupId": null,
     "outGroupId": "2691"
   },
   {
-    "id": "TS-51",
+    "id": "TSK-51",
     "name": "大師前",
     "yahooStationId": "22813",
     "inGroupId": "2690",

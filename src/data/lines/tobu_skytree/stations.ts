@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const TOBU_SKYTREE_STATIONS: Station[] = [
   {
-    "id": "TS-01",
+    "id": "TSK-01",
     "stationNumber": "TS-01",
     "lineId": "tobu_skytree",
     "number": 1,
@@ -37,7 +37,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-02",
+    "id": "TSK-02",
     "stationNumber": "TS-02",
     "lineId": "tobu_skytree",
     "number": 2,
@@ -70,7 +70,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-03",
+    "id": "TSK-03",
     "stationNumber": "TS-03",
     "lineId": "tobu_skytree",
     "number": 3,
@@ -105,7 +105,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-04",
+    "id": "TSK-04",
     "stationNumber": "TS-04",
     "lineId": "tobu_skytree",
     "number": 4,
@@ -141,7 +141,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-05",
+    "id": "TSK-05",
     "stationNumber": "TS-05",
     "lineId": "tobu_skytree",
     "number": 5,
@@ -173,7 +173,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-06",
+    "id": "TSK-06",
     "stationNumber": "TS-06",
     "lineId": "tobu_skytree",
     "number": 6,
@@ -205,7 +205,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-07",
+    "id": "TSK-07",
     "stationNumber": "TS-07",
     "lineId": "tobu_skytree",
     "number": 7,
@@ -237,7 +237,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-08",
+    "id": "TSK-08",
     "stationNumber": "TS-08",
     "lineId": "tobu_skytree",
     "number": 8,
@@ -270,7 +270,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-09",
+    "id": "TSK-09",
     "stationNumber": "TS-09",
     "lineId": "tobu_skytree",
     "number": 9,
@@ -309,7 +309,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-10",
+    "id": "TSK-10",
     "stationNumber": "TS-10",
     "lineId": "tobu_skytree",
     "number": 10,
@@ -339,7 +339,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-11",
+    "id": "TSK-11",
     "stationNumber": "TS-11",
     "lineId": "tobu_skytree",
     "number": 11,
@@ -369,7 +369,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-12",
+    "id": "TSK-12",
     "stationNumber": "TS-12",
     "lineId": "tobu_skytree",
     "number": 12,
@@ -399,7 +399,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-13",
+    "id": "TSK-13",
     "stationNumber": "TS-13",
     "lineId": "tobu_skytree",
     "number": 13,
@@ -434,7 +434,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-14",
+    "id": "TSK-14",
     "stationNumber": "TS-14",
     "lineId": "tobu_skytree",
     "number": 14,
@@ -464,7 +464,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-15",
+    "id": "TSK-15",
     "stationNumber": "TS-15",
     "lineId": "tobu_skytree",
     "number": 15,
@@ -494,7 +494,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-16",
+    "id": "TSK-16",
     "stationNumber": "TS-16",
     "lineId": "tobu_skytree",
     "number": 16,
@@ -529,7 +529,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-17",
+    "id": "TSK-17",
     "stationNumber": "TS-17",
     "lineId": "tobu_skytree",
     "number": 17,
@@ -559,7 +559,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-18",
+    "id": "TSK-18",
     "stationNumber": "TS-18",
     "lineId": "tobu_skytree",
     "number": 18,
@@ -589,7 +589,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-19",
+    "id": "TSK-19",
     "stationNumber": "TS-19",
     "lineId": "tobu_skytree",
     "number": 19,
@@ -619,7 +619,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-20",
+    "id": "TSK-20",
     "stationNumber": "TS-20",
     "lineId": "tobu_skytree",
     "number": 20,
@@ -655,7 +655,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-21",
+    "id": "TSK-21",
     "stationNumber": "TS-21",
     "lineId": "tobu_skytree",
     "number": 21,
@@ -689,7 +689,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-22",
+    "id": "TSK-22",
     "stationNumber": "TS-22",
     "lineId": "tobu_skytree",
     "number": 22,
@@ -721,7 +721,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-23",
+    "id": "TSK-23",
     "stationNumber": "TS-23",
     "lineId": "tobu_skytree",
     "number": 23,
@@ -753,7 +753,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-24",
+    "id": "TSK-24",
     "stationNumber": "TS-24",
     "lineId": "tobu_skytree",
     "number": 24,
@@ -789,7 +789,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-25",
+    "id": "TSK-25",
     "stationNumber": "TS-25",
     "lineId": "tobu_skytree",
     "number": 25,
@@ -821,7 +821,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-26",
+    "id": "TSK-26",
     "stationNumber": "TS-26",
     "lineId": "tobu_skytree",
     "number": 26,
@@ -853,7 +853,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-27",
+    "id": "TSK-27",
     "stationNumber": "TS-27",
     "lineId": "tobu_skytree",
     "number": 27,
@@ -890,7 +890,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-28",
+    "id": "TSK-28",
     "stationNumber": "TS-28",
     "lineId": "tobu_skytree",
     "number": 28,
@@ -922,7 +922,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-29",
+    "id": "TSK-29",
     "stationNumber": "TS-29",
     "lineId": "tobu_skytree",
     "number": 29,
@@ -954,7 +954,7 @@ export const TOBU_SKYTREE_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-30",
+    "id": "TSK-30",
     "stationNumber": "TS-30",
     "lineId": "tobu_skytree",
     "number": 30,

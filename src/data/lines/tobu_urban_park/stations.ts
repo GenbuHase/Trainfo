@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const TOBU_URBAN_PARK_STATIONS: Station[] = [
   {
-    "id": "TD-01",
+    "id": "TUP-01",
     "stationNumber": "TD-01",
     "lineId": "tobu_urban_park",
     "number": 1,
@@ -45,7 +45,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-02",
+    "id": "TUP-02",
     "stationNumber": "TD-02",
     "lineId": "tobu_urban_park",
     "number": 2,
@@ -75,7 +75,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-03",
+    "id": "TUP-03",
     "stationNumber": "TD-03",
     "lineId": "tobu_urban_park",
     "number": 3,
@@ -105,7 +105,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-04",
+    "id": "TUP-04",
     "stationNumber": "TD-04",
     "lineId": "tobu_urban_park",
     "number": 4,
@@ -135,7 +135,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-05",
+    "id": "TUP-05",
     "stationNumber": "TD-05",
     "lineId": "tobu_urban_park",
     "number": 5,
@@ -165,7 +165,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-06",
+    "id": "TUP-06",
     "stationNumber": "TD-06",
     "lineId": "tobu_urban_park",
     "number": 6,
@@ -197,7 +197,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-07",
+    "id": "TUP-07",
     "stationNumber": "TD-07",
     "lineId": "tobu_urban_park",
     "number": 7,
@@ -227,7 +227,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-08",
+    "id": "TUP-08",
     "stationNumber": "TD-08",
     "lineId": "tobu_urban_park",
     "number": 8,
@@ -257,7 +257,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-09",
+    "id": "TUP-09",
     "stationNumber": "TD-09",
     "lineId": "tobu_urban_park",
     "number": 9,
@@ -287,7 +287,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-10",
+    "id": "TUP-10",
     "stationNumber": "TD-10",
     "lineId": "tobu_urban_park",
     "number": 10,
@@ -320,7 +320,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-11",
+    "id": "TUP-11",
     "stationNumber": "TD-11",
     "lineId": "tobu_urban_park",
     "number": 11,
@@ -352,7 +352,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-12",
+    "id": "TUP-12",
     "stationNumber": "TD-12",
     "lineId": "tobu_urban_park",
     "number": 12,
@@ -384,7 +384,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-13",
+    "id": "TUP-13",
     "stationNumber": "TD-13",
     "lineId": "tobu_urban_park",
     "number": 13,
@@ -416,7 +416,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-14",
+    "id": "TUP-14",
     "stationNumber": "TD-14",
     "lineId": "tobu_urban_park",
     "number": 14,
@@ -448,7 +448,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-15",
+    "id": "TUP-15",
     "stationNumber": "TD-15",
     "lineId": "tobu_urban_park",
     "number": 15,
@@ -480,7 +480,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-16",
+    "id": "TUP-16",
     "stationNumber": "TD-16",
     "lineId": "tobu_urban_park",
     "number": 16,
@@ -512,7 +512,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-17",
+    "id": "TUP-17",
     "stationNumber": "TD-17",
     "lineId": "tobu_urban_park",
     "number": 17,
@@ -544,7 +544,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-18",
+    "id": "TUP-18",
     "stationNumber": "TD-18",
     "lineId": "tobu_urban_park",
     "number": 18,
@@ -576,7 +576,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-19",
+    "id": "TUP-19",
     "stationNumber": "TD-19",
     "lineId": "tobu_urban_park",
     "number": 19,
@@ -608,7 +608,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-20",
+    "id": "TUP-20",
     "stationNumber": "TD-20",
     "lineId": "tobu_urban_park",
     "number": 20,
@@ -639,7 +639,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-21",
+    "id": "TUP-21",
     "stationNumber": "TD-21",
     "lineId": "tobu_urban_park",
     "number": 21,
@@ -670,7 +670,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-22",
+    "id": "TUP-22",
     "stationNumber": "TD-22",
     "lineId": "tobu_urban_park",
     "number": 22,
@@ -703,7 +703,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-23",
+    "id": "TUP-23",
     "stationNumber": "TD-23",
     "lineId": "tobu_urban_park",
     "number": 23,
@@ -734,7 +734,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-24",
+    "id": "TUP-24",
     "stationNumber": "TD-24",
     "lineId": "tobu_urban_park",
     "number": 24,
@@ -768,7 +768,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-25",
+    "id": "TUP-25",
     "stationNumber": "TD-25",
     "lineId": "tobu_urban_park",
     "number": 25,
@@ -798,7 +798,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-26",
+    "id": "TUP-26",
     "stationNumber": "TD-26",
     "lineId": "tobu_urban_park",
     "number": 26,
@@ -828,7 +828,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-27",
+    "id": "TUP-27",
     "stationNumber": "TD-27",
     "lineId": "tobu_urban_park",
     "number": 27,
@@ -858,7 +858,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-28",
+    "id": "TUP-28",
     "stationNumber": "TD-28",
     "lineId": "tobu_urban_park",
     "number": 28,
@@ -889,7 +889,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-29",
+    "id": "TUP-29",
     "stationNumber": "TD-29",
     "lineId": "tobu_urban_park",
     "number": 29,
@@ -919,7 +919,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-30",
+    "id": "TUP-30",
     "stationNumber": "TD-30",
     "lineId": "tobu_urban_park",
     "number": 30,
@@ -953,7 +953,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-31",
+    "id": "TUP-31",
     "stationNumber": "TD-31",
     "lineId": "tobu_urban_park",
     "number": 31,
@@ -983,7 +983,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-32",
+    "id": "TUP-32",
     "stationNumber": "TD-32",
     "lineId": "tobu_urban_park",
     "number": 32,
@@ -1013,7 +1013,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-33",
+    "id": "TUP-33",
     "stationNumber": "TD-33",
     "lineId": "tobu_urban_park",
     "number": 33,
@@ -1043,7 +1043,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-34",
+    "id": "TUP-34",
     "stationNumber": "TD-34",
     "lineId": "tobu_urban_park",
     "number": 34,
@@ -1073,7 +1073,7 @@ export const TOBU_URBAN_PARK_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TD-35",
+    "id": "TUP-35",
     "stationNumber": "TD-35",
     "lineId": "tobu_urban_park",
     "number": 35,

@@ -2,8 +2,8 @@ import type { TrackSegment } from '../../../types';
 
 export const TOBU_ISESAKI_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "id": "tobu_isesaki_TS-30_TI-01",
-    "fromStationId": "TS-30",
+    "id": "tobu_isesaki_TSK-30_TI-01",
+    "fromStationId": "TSK-30",
     "toStationId": "TI-01",
     "coordinates": [
       [

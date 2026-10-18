@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const TOBU_DAISHI_STATIONS: Station[] = [
   {
-    "id": "TS-13",
+    "id": "TSK-13",
     "stationNumber": "TS-13",
     "lineId": "tobu_daishi",
     "number": 1,
@@ -33,7 +33,7 @@ export const TOBU_DAISHI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "TS-51",
+    "id": "TSK-51",
     "stationNumber": "TS-51",
     "lineId": "tobu_daishi",
     "number": 2,
