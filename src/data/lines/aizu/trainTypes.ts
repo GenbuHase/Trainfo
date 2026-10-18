@@ -42,4 +42,24 @@ export const TRAIN_TYPES: Record<string, TrainTypeConfig> = {
       "bgColor": "#e67e22",
       "borderColor": "#27ae60"
   },
+  aizu_mount_exp: {
+      "key": "aizu_mount_exp",
+      "name": "AIZUマウントエクスプレス",
+      "nameEn": "AIZU Mount Express",
+      "shortName": "マウント",
+      "color": "#c8102e",
+      "textColor": "#ffffff",
+      "bgColor": "#c8102e",
+      "borderColor": "#c8102e"
+  },
+  section_rapid: {
+      "key": "section_rapid",
+      "name": "区間快速",
+      "nameEn": "Section Rapid",
+      "shortName": "区快",
+      "color": "#008080",
+      "textColor": "#ffffff",
+      "bgColor": "#008080",
+      "borderColor": "#008080"
+  },
 };

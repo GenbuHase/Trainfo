@@ -42,4 +42,14 @@ export const TRAIN_TYPES: Record<string, TrainTypeConfig> = {
       "bgColor": "#2b2b2b",
       "borderColor": "#d4af37"
   },
+  aizu_mount_exp: {
+      "key": "aizu_mount_exp",
+      "name": "AIZUマウントエクスプレス",
+      "nameEn": "AIZU Mount Express",
+      "shortName": "マウント",
+      "color": "#c8102e",
+      "textColor": "#ffffff",
+      "bgColor": "#c8102e",
+      "borderColor": "#c8102e"
+  },
 };
