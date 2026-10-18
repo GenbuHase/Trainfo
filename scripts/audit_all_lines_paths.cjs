@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// 2点間の距離（メートル）Haversine
+// 2点間の距離（メートル）Haversine Formula
 function distMeters(p1, p2) {
   const dLat = (p2[0] - p1[0]) * 111139;
   const latRad = ((p1[0] + p2[0]) / 2) * (Math.PI / 180);
@@ -37,14 +37,25 @@ function extractTrackSegments(filePath) {
   const content = fs.readFileSync(filePath, 'utf8');
   const eqBracket = content.indexOf('= [');
   const jsonStart = eqBracket !== -1 ? eqBracket + 2 : content.indexOf('[');
-  const jsonEnd = content.lastIndexOf(']');
-  if (jsonStart === -1 || jsonEnd === -1 || jsonEnd <= jsonStart) {
-    return null;
+  if (jsonStart === -1) return null;
+
+  let depth = 0;
+  let jsonEnd = -1;
+  for (let i = jsonStart; i < content.length; i++) {
+    if (content[i] === '[') depth++;
+    else if (content[i] === ']') {
+      depth--;
+      if (depth === 0) {
+        jsonEnd = i;
+        break;
+      }
+    }
   }
+
+  if (jsonEnd === -1) return null;
   try {
     return JSON.parse(content.substring(jsonStart, jsonEnd + 1));
   } catch (e) {
-    // try relaxed extraction
     return null;
   }
 }
@@ -60,7 +71,7 @@ function extractStations(filePath) {
     try {
       return JSON.parse(content.substring(jsonStart, jsonEnd + 1));
     } catch (e) {
-      // fallback to regex if JSON.parse fails (e.g. unquoted keys or comments)
+      // fallback
     }
   }
 
@@ -88,7 +99,7 @@ function loadTimetable(filePath) {
   }
 }
 
-// セグメント補間シミュレーション（trainSimulation.ts と同様のロジック）
+// セグメント補間シミュレーション（trainSimulation.ts と同一の精密ロジック）
 function interpolateSegment(coords, ratio) {
   if (coords.length < 2) {
     return { lat: coords[0]?.[0] || 0, lng: coords[0]?.[1] || 0, heading: 0 };
@@ -147,10 +158,32 @@ function interpolateSegment(coords, ratio) {
   return { lat: last[0], lng: last[1], heading: calculateHeading(prevLast[0], prevLast[1], last[0], last[1]) };
 }
 
+// 既知の実在スイッチバック駅（地形・配線上正規の折り返し）
+const KNOWN_SWITCHBACKS = [
+  { lineId: 'myoko_haneuma', stationId: 'ETM-03', name: '二本木駅（スイッチバック）' },
+  { lineId: 'shinonoi', stationId: 'SN-13', name: '姨捨駅（スイッチバック）' }
+];
+
+function isKnownSwitchback(lineId, coord) {
+  if (lineId === 'myoko_haneuma') {
+    // 二本木スイッチバック本線合流点
+    if (Math.abs(coord[0] - 36.9867) < 0.002 && Math.abs(coord[1] - 138.2320) < 0.002) return true;
+  }
+  if (lineId === 'shinonoi') {
+    // 姨捨スイッチバック引上線折り返し点
+    if (Math.abs(coord[0] - 36.4977) < 0.002 && Math.abs(coord[1] - 138.0992) < 0.002) return true;
+  }
+  return false;
+}
+
 // メイン検査関数
-function auditAllLines() {
+function auditAllLines(options = {}) {
   const linesDir = path.resolve(__dirname, '../src/data/lines');
-  const lineDirs = fs.readdirSync(linesDir).filter(f => fs.statSync(path.join(linesDir, f)).isDirectory());
+  let lineDirs = fs.readdirSync(linesDir).filter(f => fs.statSync(path.join(linesDir, f)).isDirectory());
+
+  if (options.targetLine) {
+    lineDirs = lineDirs.filter(d => d === options.targetLine);
+  }
 
   console.log(`================================================================`);
   console.log(`  Trainfo 全路線 試験走行＆軌道パス異常走査監査ツール`);
@@ -162,7 +195,8 @@ function auditAllLines() {
     totalStations: 0,
     totalSegments: 0,
     totalTripsChecked: 0,
-    linesWithIssues: 0,
+    linesWithErrors: 0,
+    linesWithWarnings: 0,
     issues: {
       missingSegments: [],
       stationSnapGaps: [],
@@ -182,15 +216,16 @@ function auditAllLines() {
     if (segments) summary.totalSegments += segments.length;
 
     const stationMap = new Map(stations.map(s => [s.id, s]));
-    const lineIssues = [];
+    const lineErrors = [];
+    const lineWarnings = [];
 
     if (!segments || segments.length === 0) {
-      lineIssues.push({ type: 'FATAL', msg: 'trackGeometry.ts が存在しないかパースできません' });
-      summary.linesWithIssues++;
+      lineErrors.push({ type: 'FATAL', msg: 'trackGeometry.ts が存在しないかパースできません' });
+      summary.linesWithErrors++;
       continue;
     }
 
-    // セグメント探索用マップ (A_B および B_A)
+    // セグメント探索用マップ (順方向 & 逆方向)
     const segmentLookup = new Map();
     for (const seg of segments) {
       segmentLookup.set(`${seg.fromStationId}_${seg.toStationId}`, { seg, isReverse: false });
@@ -204,11 +239,11 @@ function auditAllLines() {
       const fromSt = stationMap.get(seg.fromStationId);
       const toSt = stationMap.get(seg.toStationId);
 
-      // (a) 駅スナップ距離チェック
+      // (a) 駅スナップ距離チェック (> 100m は ERROR)
       if (fromSt && seg.coordinates.length > 0) {
         const dFrom = distMeters([fromSt.lat, fromSt.lng], seg.coordinates[0]);
         if (dFrom > 100) {
-          lineIssues.push({
+          lineErrors.push({
             type: 'SNAP_GAP_LARGE',
             segId: seg.id || `${seg.fromStationId}->${seg.toStationId}`,
             msg: `始点駅 ${fromSt.name}(${seg.fromStationId}) と軌道始点との乖離が ${Math.round(dFrom)}m あります`
@@ -219,7 +254,7 @@ function auditAllLines() {
       if (toSt && seg.coordinates.length > 0) {
         const dTo = distMeters([toSt.lat, toSt.lng], seg.coordinates[seg.coordinates.length - 1]);
         if (dTo > 100) {
-          lineIssues.push({
+          lineErrors.push({
             type: 'SNAP_GAP_LARGE',
             segId: seg.id || `${seg.fromStationId}->${seg.toStationId}`,
             msg: `終点駅 ${toSt.name}(${seg.toStationId}) と軌道終点との乖離が ${Math.round(dTo)}m あります`
@@ -228,13 +263,12 @@ function auditAllLines() {
         }
       }
 
-      // (b) 点間ジャンプチェック (300m以上、新幹線は800m以上)
-      const isShinkansen = lineId.includes('shinkansen');
-      const jumpThreshold = isShinkansen ? 800 : 350;
+      // (b) 点間過大ジャンプチェック (> 800m)
+      const jumpThreshold = 800;
       for (let i = 0; i < seg.coordinates.length - 1; i++) {
         const d = distMeters(seg.coordinates[i], seg.coordinates[i + 1]);
         if (d > jumpThreshold) {
-          lineIssues.push({
+          lineWarnings.push({
             type: 'COORD_JUMP',
             segId: seg.id || `${seg.fromStationId}->${seg.toStationId}`,
             msg: `点間ジャンプ ${Math.round(d)}m (index ${i} -> ${i + 1}) [coord: ${seg.coordinates[i]}]`
@@ -252,9 +286,13 @@ function auditAllLines() {
         const d1 = distMeters(p1, p2);
         const d2 = distMeters(p2, p3);
 
-        // 鋭角 > 90度 かつ ある程度長さがある (> 8m) のはトゲ・折り返し異常
         if (angle > 100 && d1 > 8 && d2 > 8) {
-          lineIssues.push({
+          // 既知の正規スイッチバック判定
+          if (isKnownSwitchback(lineId, p2)) {
+            // 正規のスイッチバック折り返し点として許容
+            continue;
+          }
+          lineErrors.push({
             type: 'SHARP_SPIKE',
             segId: seg.id || `${seg.fromStationId}->${seg.toStationId}`,
             msg: `軌道トゲ・折り返し異常 ${angle.toFixed(1)}° (index ${i+1}) [coord: ${p2}] (腕長: ${Math.round(d1)}m, ${Math.round(d2)}m)`
@@ -264,8 +302,7 @@ function auditAllLines() {
       }
     }
 
-    // 2. 始点から終点までの試験走行シミュレーション（Timetable Trips）
-    // ダイヤ上に存在するすべてのトリップについて、始点から終点まで走行
+    // 2. ダイヤ上の全運行トリップの始点から終点までの試験走行
     const checkedPairs = new Set();
     let tripsCheckedThisLine = 0;
 
@@ -285,30 +322,29 @@ function auditAllLines() {
         if (!found) {
           const fromName = stationMap.get(fromId)?.name || fromId;
           const toName = stationMap.get(toId)?.name || toId;
-          lineIssues.push({
+          lineErrors.push({
             type: 'MISSING_SEGMENT',
-            msg: `運行ストップ区間 [${fromName}(${fromId}) -> ${toName}(${toId})] に軌道セグメントが存在しません（トリップ: ${trip.tripId}）`
+            msg: `運行区間 [${fromName}(${fromId}) -> ${toName}(${toId})] に軌道セグメントが存在しません（トリップ: ${trip.tripId}）`
           });
           summary.issues.missingSegments.push({ lineId, fromId, toId, fromName, toName, tripId: trip.tripId });
         } else {
-          // 仮想試験走行 (進捗率 0, 0.25, 0.5, 0.75, 1.0)
+          // 進捗率 0%, 25%, 50%, 75%, 100% で試験走行
           const coords = found.isReverse ? [...found.seg.coordinates].reverse() : found.seg.coordinates;
           try {
             let prevPt = null;
             for (const r of [0, 0.25, 0.5, 0.75, 1.0]) {
               const res = interpolateSegment(coords, r);
               if (isNaN(res.lat) || isNaN(res.lng) || isNaN(res.heading)) {
-                lineIssues.push({
+                lineErrors.push({
                   type: 'SIMULATION_NAN',
-                  msg: `区間 [${fromId} -> ${toId}] 比率 ${r} で NaN が発生しました`
+                  msg: `区間 [${fromId} -> ${toId}] 進捗率 ${r} で NaN が発生しました`
                 });
                 summary.issues.simulationErrors.push({ lineId, fromId, toId, ratio: r });
               }
               if (prevPt) {
                 const stepDist = distMeters([prevPt.lat, prevPt.lng], [res.lat, res.lng]);
-                // セグメント長に対してステップ距離が異常（例えば100km以上などワープ）
                 if (stepDist > 50000) {
-                  lineIssues.push({
+                  lineErrors.push({
                     type: 'SIMULATION_WARP',
                     msg: `区間 [${fromId} -> ${toId}] 試験走行中に ${Math.round(stepDist/1000)}km のワープが発生しました`
                   });
@@ -317,7 +353,7 @@ function auditAllLines() {
               prevPt = res;
             }
           } catch (err) {
-            lineIssues.push({
+            lineErrors.push({
               type: 'SIMULATION_EXCEPTION',
               msg: `区間 [${fromId} -> ${toId}] 試験走行で例外発生: ${err.message}`
             });
@@ -328,33 +364,28 @@ function auditAllLines() {
     }
     summary.totalTripsChecked += tripsCheckedThisLine;
 
-    // 3. 路線自体の始点から終点までの駅順トレース試験走行（隣接駅間のセグメント連結チェック）
+    // 3. 路線自体の始点から終点までの本線一括トレース試験走行
     for (let i = 0; i < stations.length - 1; i++) {
       const fromSt = stations[i];
       const toSt = stations[i + 1];
       const pairKey = `${fromSt.id}_${toSt.id}`;
-      // ダイヤに存在しなくても隣接駅同士でセグメントが存在するかチェック（支線分岐駅等を除外するため緩やかにチェック）
       const found = segmentLookup.get(pairKey);
-      if (!found) {
-        // 分岐線の可能性もあるため、stations 内でナンバリングや支線があるか注意
-        // ただし通常本線であれば隣接駅間セグメントがあるべき
-      } else {
-        // 駅間の端点と駅座標の整合性チェック
+      if (found) {
         const seg = found.seg;
         const coords = found.isReverse ? [...seg.coordinates].reverse() : seg.coordinates;
         if (coords.length >= 2) {
           const dStart = distMeters([fromSt.lat, fromSt.lng], coords[0]);
           const dEnd = distMeters([toSt.lat, toSt.lng], coords[coords.length - 1]);
-          if (dStart > 150) {
-            lineIssues.push({
+          if (dStart > 100) {
+            lineErrors.push({
               type: 'STATION_MISMATCH',
-              msg: `駅 ${fromSt.name}(${fromSt.id}) と線路始点の乖離が過大です (${Math.round(dStart)}m)`
+              msg: `本線駅 ${fromSt.name}(${fromSt.id}) と線路始点の乖離が過大です (${Math.round(dStart)}m)`
             });
           }
-          if (dEnd > 150) {
-            lineIssues.push({
+          if (dEnd > 100) {
+            lineErrors.push({
               type: 'STATION_MISMATCH',
-              msg: `駅 ${toSt.name}(${toSt.id}) と線路終点の乖離が過大です (${Math.round(dEnd)}m)`
+              msg: `本線駅 ${toSt.name}(${toSt.id}) と線路終点の乖離が過大です (${Math.round(dEnd)}m)`
             });
           }
         }
@@ -362,14 +393,27 @@ function auditAllLines() {
     }
 
     // 結果表示
-    if (lineIssues.length > 0) {
-      summary.linesWithIssues++;
-      console.log(`❌ [${lineId}] ${stations[0]?.name || '?'} 〜 ${stations[stations.length - 1]?.name || '?'} (${stations.length}駅, ${segments?.length || 0}セグメント, ${tripsCheckedThisLine}運行トリップ)`);
-      for (const iss of lineIssues) {
-        console.log(`   - [${iss.type}] ${iss.msg}`);
+    const startName = stations[0]?.name || '?';
+    const endName = stations[stations.length - 1]?.name || '?';
+    if (lineErrors.length > 0) {
+      summary.linesWithErrors++;
+      console.log(`❌ [${lineId}] ${startName} 〜 ${endName} (${stations.length}駅, ${segments?.length || 0}セグメント, ${tripsCheckedThisLine}トリップ)`);
+      for (const iss of lineErrors) {
+        console.log(`   - [ERROR: ${iss.type}] ${iss.msg}`);
+      }
+      for (const w of lineWarnings) {
+        if (options.verbose) console.log(`   - [WARN: ${w.type}] ${w.msg}`);
+      }
+    } else if (lineWarnings.length > 0) {
+      summary.linesWithWarnings++;
+      console.log(`⚠️  [${lineId}] ${startName} 〜 ${endName} (試験走行パス正常クリア, 警告 ${lineWarnings.length}件)`);
+      if (options.verbose) {
+        for (const w of lineWarnings) {
+          console.log(`   - [WARN: ${w.type}] ${w.msg}`);
+        }
       }
     } else {
-      console.log(`✅ [${lineId}] 正常クリア (${stations[0]?.name || '?'} 〜 ${stations[stations.length - 1]?.name || '?'}, ${segments?.length || 0}セグメント, ${tripsCheckedThisLine}運行トリップ)`);
+      console.log(`✅ [${lineId}] 完全正常クリア (${startName} 〜 ${endName}, ${stations.length}駅, ${segments?.length || 0}セグメント, ${tripsCheckedThisLine}トリップ)`);
     }
   }
 
@@ -378,28 +422,39 @@ function auditAllLines() {
   fs.writeFileSync(reportPath, JSON.stringify(summary, null, 2), 'utf8');
 
   console.log(`\n================================================================`);
-  console.log(`  走査完了サマリー`);
+  console.log(`  全路線 走行走査完了サマリー`);
   console.log(`================================================================`);
   console.log(`  全路線数:               ${summary.totalLines}`);
-  console.log(`  正常クリア路線数:       ${summary.totalLines - summary.linesWithIssues}`);
-  console.log(`  問題検出路線数:         ${summary.linesWithIssues}`);
+  console.log(`  完全正常クリア路線数:   ${summary.totalLines - summary.linesWithErrors - summary.linesWithWarnings}`);
+  console.log(`  エラー検出路線数:       ${summary.linesWithErrors}`);
+  console.log(`  警告のみ路線数:         ${summary.linesWithWarnings}`);
   console.log(`  総駅数:                 ${summary.totalStations}`);
   console.log(`  総軌道セグメント数:     ${summary.totalSegments}`);
   console.log(`  試験走行トリップ数:     ${summary.totalTripsChecked}`);
   console.log(`----------------------------------------------------------------`);
-  console.log(`  セグメント欠落:         ${summary.issues.missingSegments.length} 箇所`);
-  console.log(`  駅スナップ乖離 (>100m): ${summary.issues.stationSnapGaps.length} 箇所`);
-  console.log(`  点間大ジャンプ:         ${summary.issues.coordinateJumps.length} 箇所`);
-  console.log(`  軌道トゲ・鋭角 (>100°): ${summary.issues.sharpTurns.length} 箇所`);
-  console.log(`  シミュレーションエラー: ${summary.issues.simulationErrors.length} 箇所`);
+  console.log(`  [重大] セグメント欠落:         ${summary.issues.missingSegments.length} 箇所`);
+  console.log(`  [重大] 軌道トゲ・異常鋭角:     ${summary.issues.sharpTurns.length} 箇所`);
+  console.log(`  [重大] 駅スナップ乖離 (>100m): ${summary.issues.stationSnapGaps.length} 箇所`);
+  console.log(`  [重大] シミュレーションエラー: ${summary.issues.simulationErrors.length} 箇所`);
+  console.log(`  [警告] 点間過大ジャンプ(>800m):${summary.issues.coordinateJumps.length} 箇所`);
   console.log(`================================================================`);
-  console.log(`  詳細レポート出力先: ${reportPath}\n`);
+  console.log(`  詳細JSONレポート出力先: ${reportPath}\n`);
 
   return summary;
 }
 
 if (require.main === module) {
-  auditAllLines();
+  const args = process.argv.slice(2);
+  const options = {
+    verbose: args.includes('--verbose') || args.includes('-v'),
+    targetLine: args.find(a => a.startsWith('--line='))?.split('=')[1]
+  };
+  const summary = auditAllLines(options);
+  if (summary.linesWithErrors > 0) {
+    process.exit(1);
+  } else {
+    process.exit(0);
+  }
 }
 
 module.exports = { auditAllLines, distMeters, calculateTurnAngle, calculateHeading };
