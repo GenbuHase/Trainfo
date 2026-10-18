@@ -1163,6 +1163,28 @@ module.exports = {
       dirB: 'inbound',
       maxTimeDiff: 600,
     },
+
+    // 49. 会津鉄道会津線 ↔ JR只見線 (西若松駅)
+    {
+      name: 'JR只見線 -> 会津鉄道 (下り 会津若松発 西若松経由 会津田島・会津高原尾瀬口・鬼怒川方面直通)',
+      lineA: 'tadami',
+      lineB: 'aizu',
+      stationA: 'TD-03',
+      stationB: 'AIZ-21',
+      dirA: 'outbound',
+      dirB: 'inbound',
+      maxTimeDiff: 360,
+    },
+    {
+      name: '会津鉄道 -> JR只見線 (上り 会津田島・会津高原尾瀬口発 西若松経由 会津若松方面直通)',
+      lineA: 'aizu',
+      lineB: 'tadami',
+      stationA: 'AIZ-21',
+      stationB: 'TD-03',
+      dirA: 'outbound',
+      dirB: 'inbound',
+      maxTimeDiff: 360,
+    },
   ],
 };
 

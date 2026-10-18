@@ -154,15 +154,8 @@ module.exports = {
     "yahooStationId": "21531",
     "inGroupId": "4641",
     "outGroupId": "700"
-  },
-  {
-    "id": "AIZ-22",
-    "name": "会津若松",
-    "yahooStationId": "21420",
-    "inGroupId": "701",
-    "outGroupId": null
   }
-],
+  ],
   stationNameAliases: {},
   trainTypeMap: {
   "普通": "local",

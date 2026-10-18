@@ -720,11 +720,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "07:01:00",
-        "departureTime": "07:02:00",
+        "departureTime": "07:01:00",
         "isPassing": false
       }
     ],
-    "trainId": "40453"
+    "trainId": "40453",
+    "throughTripId": "WD_INB_AIZ-21_0702_40453",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "WD_INB_TD-21_0706_6823",
@@ -897,7 +900,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40457"
+    "trainId": "40457",
+    "prevTripId": "WD_OUT_AIZ-06_0612_40457",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "WD_OUT_TD-01_0741_1089",
@@ -1066,11 +1072,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "07:56:00",
-        "departureTime": "07:57:00",
+        "departureTime": "07:56:00",
         "isPassing": false
       }
     ],
-    "trainId": "40383"
+    "trainId": "40383",
+    "throughTripId": "WD_INB_AIZ-21_0757_40383",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "WD_INB_TD-03_0831_40464",
@@ -1103,7 +1112,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40464"
+    "trainId": "40464",
+    "prevTripId": "WD_OUT_AIZ-01_0707_40464",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "WD_OUT_TD-01_0902_40384",
@@ -1132,11 +1144,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "09:07:00",
-        "departureTime": "09:09:00",
+        "departureTime": "09:07:00",
         "isPassing": false
       }
     ],
-    "trainId": "40384"
+    "trainId": "40384",
+    "throughTripId": "WD_INB_AIZ-21_0909_40384",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "WD_INB_TD-03_1044_40458",
@@ -1169,7 +1184,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40458"
+    "trainId": "40458",
+    "prevTripId": "WD_OUT_AIZ-06_0944_40458",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "WD_OUT_TD-01_1126_40390",
@@ -1198,11 +1216,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "11:31:00",
-        "departureTime": "11:32:00",
+        "departureTime": "11:31:00",
         "isPassing": false
       }
     ],
-    "trainId": "40390"
+    "trainId": "40390",
+    "throughTripId": "WD_INB_AIZ-21_1132_40390",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "WD_INB_TD-03_1150_38077",
@@ -1235,7 +1256,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38077"
+    "trainId": "38077",
+    "prevTripId": "WD_OUT_AIZ-01_1024_38077",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "WD_INB_TD-21_1229_6824",
@@ -1404,11 +1428,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "12:54:00",
-        "departureTime": "12:55:00",
+        "departureTime": "12:54:00",
         "isPassing": false
       }
     ],
-    "trainId": "40385"
+    "trainId": "40385",
+    "throughTripId": "WD_INB_AIZ-21_1255_40385",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "WD_OUT_TD-01_1305_1094",
@@ -1901,7 +1928,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40459"
+    "trainId": "40459",
+    "prevTripId": "WD_OUT_AIZ-06_1302_40459",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "WD_OUT_TD-01_1437_40391",
@@ -1930,11 +1960,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "14:43:00",
-        "departureTime": "14:44:00",
+        "departureTime": "14:43:00",
         "isPassing": false
       }
     ],
-    "trainId": "40391"
+    "trainId": "40391",
+    "throughTripId": "WD_INB_AIZ-21_1444_40391",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "WD_INB_TD-03_1517_40456",
@@ -1967,7 +2000,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40456"
+    "trainId": "40456",
+    "prevTripId": "WD_OUT_AIZ-06_1423_40456",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "WD_INB_TD-36_1612_6819",
@@ -2226,11 +2262,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "16:26:00",
-        "departureTime": "16:28:00",
+        "departureTime": "16:26:00",
         "isPassing": false
       }
     ],
-    "trainId": "40386"
+    "trainId": "40386",
+    "throughTripId": "WD_INB_AIZ-21_1628_40386",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "WD_OUT_TD-01_1700_1095",
@@ -2493,7 +2532,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40460"
+    "trainId": "40460",
+    "prevTripId": "WD_OUT_AIZ-06_1601_40460",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "WD_OUT_TD-01_1742_1088",
@@ -2652,11 +2694,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "18:11:00",
-        "departureTime": "18:13:00",
+        "departureTime": "18:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "40387"
+    "trainId": "40387",
+    "throughTripId": "WD_INB_AIZ-21_1813_40387",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "WD_INB_TD-09_1827_6821",
@@ -2757,7 +2802,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40461"
+    "trainId": "40461",
+    "prevTripId": "WD_OUT_AIZ-06_1746_40461",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "WD_OUT_TD-29_1852_1099",
@@ -2848,11 +2896,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "19:34:00",
-        "departureTime": "19:36:00",
+        "departureTime": "19:34:00",
         "isPassing": false
       }
     ],
-    "trainId": "40388"
+    "trainId": "40388",
+    "throughTripId": "WD_INB_AIZ-21_1936_40388",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "WD_OUT_TD-01_1942_1090",
@@ -3087,7 +3138,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40463"
+    "trainId": "40463",
+    "prevTripId": "WD_OUT_AIZ-01_1921_40463",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "WD_OUT_TD-01_2110_40389",
@@ -3116,11 +3170,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "21:15:00",
-        "departureTime": "21:17:00",
+        "departureTime": "21:15:00",
         "isPassing": false
       }
     ],
-    "trainId": "40389"
+    "trainId": "40389",
+    "throughTripId": "WD_INB_AIZ-21_2117_40389",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "WD_OUT_TD-01_2146_1091",
@@ -3293,7 +3350,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40462"
+    "trainId": "40462",
+    "prevTripId": "WD_OUT_AIZ-06_2050_40462",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "WD_OUT_TD-01_2208_1087",
@@ -4048,11 +4108,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "07:01:00",
-        "departureTime": "07:02:00",
+        "departureTime": "07:01:00",
         "isPassing": false
       }
     ],
-    "trainId": "40453"
+    "trainId": "40453",
+    "throughTripId": "HD_INB_AIZ-21_0702_40453",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "HD_INB_TD-21_0706_6823",
@@ -4225,7 +4288,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40457"
+    "trainId": "40457",
+    "prevTripId": "HD_OUT_AIZ-06_0612_40457",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_0741_1089",
@@ -4394,11 +4460,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "07:56:00",
-        "departureTime": "07:57:00",
+        "departureTime": "07:56:00",
         "isPassing": false
       }
     ],
-    "trainId": "40383"
+    "trainId": "40383",
+    "throughTripId": "HD_INB_AIZ-21_0757_40383",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "HD_INB_TD-03_0831_40464",
@@ -4431,7 +4500,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40464"
+    "trainId": "40464",
+    "prevTripId": "HD_OUT_AIZ-01_0707_40464",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_0902_40384",
@@ -4460,11 +4532,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "09:07:00",
-        "departureTime": "09:09:00",
+        "departureTime": "09:07:00",
         "isPassing": false
       }
     ],
-    "trainId": "40384"
+    "trainId": "40384",
+    "throughTripId": "HD_INB_AIZ-21_0909_40384",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "HD_INB_TD-03_0926_40454",
@@ -4497,7 +4572,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40454"
+    "trainId": "40454",
+    "prevTripId": "HD_OUT_AIZ-06_0826_40454",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_0950_40381",
@@ -4526,11 +4604,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "09:56:00",
-        "departureTime": "10:00:00",
+        "departureTime": "09:56:00",
         "isPassing": false
       }
     ],
-    "trainId": "40381"
+    "trainId": "40381",
+    "throughTripId": "HD_INB_AIZ-21_1000_40381",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "HD_INB_TD-03_1044_40458",
@@ -4563,7 +4644,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40458"
+    "trainId": "40458",
+    "prevTripId": "HD_OUT_AIZ-06_0944_40458",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_1126_40390",
@@ -4592,44 +4676,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "11:31:00",
-        "departureTime": "11:32:00",
+        "departureTime": "11:31:00",
         "isPassing": false
       }
     ],
-    "trainId": "40390"
-  },
-  {
-    "tripId": "HD_INB_TD-03_1150_38077",
-    "lineId": "tadami",
-    "trainNumber": "3156D",
-    "trainType": "local",
-    "direction": "inbound",
-    "originStationId": "TD-03",
-    "destinationStationId": "TD-01",
-    "customOrigin": "鬼怒川温泉",
-    "cars": 2,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "TD-03",
-        "arrivalTime": "11:49:00",
-        "departureTime": "11:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TD-02",
-        "arrivalTime": "11:53:00",
-        "departureTime": "11:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TD-01",
-        "arrivalTime": "11:57:00",
-        "departureTime": "11:57:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "38077"
+    "trainId": "40390",
+    "throughTripId": "HD_INB_AIZ-21_1132_40390",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "HD_INB_TD-03_1150_38078",
@@ -4832,45 +4886,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "12:54:00",
-        "departureTime": "12:55:00",
+        "departureTime": "12:54:00",
         "isPassing": false
       }
     ],
-    "trainId": "40385"
-  },
-  {
-    "tripId": "HD_OUT_TD-01_1248_42270",
-    "lineId": "tadami",
-    "trainNumber": "2311D",
-    "trainType": "local",
-    "direction": "outbound",
-    "originStationId": "TD-01",
-    "destinationStationId": "TD-03",
-    "customOrigin": "喜多方",
-    "customDestination": "会津田島",
-    "cars": 2,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "TD-01",
-        "arrivalTime": "12:45:00",
-        "departureTime": "12:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TD-02",
-        "arrivalTime": "12:51:00",
-        "departureTime": "12:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TD-03",
-        "arrivalTime": "12:54:00",
-        "departureTime": "12:55:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "42270"
+    "trainId": "40385",
+    "throughTripId": "HD_INB_AIZ-21_1255_40385",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_1305_1094",
@@ -5363,7 +5386,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40455"
+    "trainId": "40455",
+    "prevTripId": "HD_OUT_AIZ-06_1158_40455",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_1334_40382",
@@ -5392,11 +5418,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "13:40:00",
-        "departureTime": "13:41:00",
+        "departureTime": "13:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "40382"
+    "trainId": "40382",
+    "throughTripId": "HD_INB_AIZ-21_1341_40382",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "HD_INB_TD-03_1401_40459",
@@ -5429,7 +5458,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40459"
+    "trainId": "40459",
+    "prevTripId": "HD_OUT_AIZ-06_1302_40459",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_1437_40391",
@@ -5458,11 +5490,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "14:43:00",
-        "departureTime": "14:44:00",
+        "departureTime": "14:43:00",
         "isPassing": false
       }
     ],
-    "trainId": "40391"
+    "trainId": "40391",
+    "throughTripId": "HD_INB_AIZ-21_1444_40391",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "HD_INB_TD-03_1517_40456",
@@ -5495,7 +5530,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40456"
+    "trainId": "40456",
+    "prevTripId": "HD_OUT_AIZ-06_1423_40456",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "HD_INB_TD-36_1612_6819",
@@ -5754,11 +5792,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "16:26:00",
-        "departureTime": "16:28:00",
+        "departureTime": "16:26:00",
         "isPassing": false
       }
     ],
-    "trainId": "40386"
+    "trainId": "40386",
+    "throughTripId": "HD_INB_AIZ-21_1628_40386",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_1700_1095",
@@ -6021,7 +6062,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40460"
+    "trainId": "40460",
+    "prevTripId": "HD_OUT_AIZ-06_1601_40460",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_1742_1088",
@@ -6118,11 +6162,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "18:11:00",
-        "departureTime": "18:13:00",
+        "departureTime": "18:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "40387"
+    "trainId": "40387",
+    "throughTripId": "HD_INB_AIZ-21_1813_40387",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "HD_INB_TD-09_1827_6821",
@@ -6223,7 +6270,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40461"
+    "trainId": "40461",
+    "prevTripId": "HD_OUT_AIZ-06_1746_40461",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_1928_40388",
@@ -6252,11 +6302,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "19:34:00",
-        "departureTime": "19:36:00",
+        "departureTime": "19:34:00",
         "isPassing": false
       }
     ],
-    "trainId": "40388"
+    "trainId": "40388",
+    "throughTripId": "HD_INB_AIZ-21_1936_40388",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_1942_1090",
@@ -6491,7 +6544,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40463"
+    "trainId": "40463",
+    "prevTripId": "HD_OUT_AIZ-01_1921_40463",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_2110_40389",
@@ -6520,11 +6576,14 @@
       {
         "stationId": "TD-03",
         "arrivalTime": "21:15:00",
-        "departureTime": "21:17:00",
+        "departureTime": "21:15:00",
         "isPassing": false
       }
     ],
-    "trainId": "40389"
+    "trainId": "40389",
+    "throughTripId": "HD_INB_AIZ-21_2117_40389",
+    "throughLineId": "aizu",
+    "customOrigin": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_2146_1091",
@@ -6697,7 +6756,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40462"
+    "trainId": "40462",
+    "prevTripId": "HD_OUT_AIZ-06_2050_40462",
+    "prevLineId": "aizu",
+    "customDestination": "会津若松"
   },
   {
     "tripId": "HD_OUT_TD-01_2208_1087",

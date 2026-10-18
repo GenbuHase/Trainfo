@@ -55,8 +55,25 @@ function buildUniversalStationMap() {
   return stationMap;
 }
 
+function sortDuplicates(a, b) {
+  // 1. 直通元・直通先情報を持つものを最優先
+  const aThrough = (a.prevTripId ? 100 : 0) + (a.throughTripId ? 50 : 0);
+  const bThrough = (b.prevTripId ? 100 : 0) + (b.throughTripId ? 50 : 0);
+  if (bThrough !== aThrough) return bThrough - aThrough;
+
+  // 2. 停車駅数が多い方を優先（急行・各停の完全重複時は停車駅の多い各停か、設定された停車駅リストを優先）
+  const stopsDiff = (b.stops?.length || 0) - (a.stops?.length || 0);
+  if (stopsDiff !== 0) return stopsDiff;
+
+  // 3. customDestination を持つ方を優先
+  const aDest = a.customDestination ? 1 : 0;
+  const bDest = b.customDestination ? 1 : 0;
+  return bDest - aDest;
+}
+
 /**
  * 同一区間・同一時刻の重複ゴーストトリップを安全に除去
+ * （併結特急など異なる列車番号を持つ列車は保護して保持）
  */
 function deduplicateLineTrips(trips) {
   const grouped = new Map();
@@ -76,22 +93,31 @@ function deduplicateLineTrips(trips) {
       cleaned.push(list[0]);
       continue;
     }
+
+    // 併結列車（特急など異なる列車番号・行先を持つ列車）の判定
+    const byTrainNo = new Map();
+    for (const t of list) {
+      const trainKey = t.trainNumber || extractYahooTrainId(t.tripId) || t.tripId;
+      if (!byTrainNo.has(trainKey)) byTrainNo.set(trainKey, []);
+      byTrainNo.get(trainKey).push(t);
+    }
+
+    // 異なる列車番号を持つ優等列車または併結設定列車が存在する場合、それぞれの列車を保護
+    if (byTrainNo.size > 1 && list.some(t => isExpressType(t.trainType) || t.coupling)) {
+      for (const subList of byTrainNo.values()) {
+        if (subList.length === 1) {
+          cleaned.push(subList[0]);
+        } else {
+          dupCount += (subList.length - 1);
+          subList.sort(sortDuplicates);
+          cleaned.push(subList[0]);
+        }
+      }
+      continue;
+    }
+
     dupCount += (list.length - 1);
-    list.sort((a, b) => {
-      // 1. 直通元・直通先情報を持つものを最優先
-      const aThrough = (a.prevTripId ? 100 : 0) + (a.throughTripId ? 50 : 0);
-      const bThrough = (b.prevTripId ? 100 : 0) + (b.throughTripId ? 50 : 0);
-      if (bThrough !== aThrough) return bThrough - aThrough;
-
-      // 2. 停車駅数が多い方を優先（急行・各停の完全重複時は停車駅の多い各停か、設定された停車駅リストを優先）
-      const stopsDiff = (b.stops?.length || 0) - (a.stops?.length || 0);
-      if (stopsDiff !== 0) return stopsDiff;
-
-      // 3. customDestination を持つ方を優先
-      const aDest = a.customDestination ? 1 : 0;
-      const bDest = b.customDestination ? 1 : 0;
-      return bDest - aDest;
-    });
+    list.sort(sortDuplicates);
     cleaned.push(list[0]);
   }
   return { cleaned, dupCount };

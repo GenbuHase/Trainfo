@@ -626,38 +626,5 @@ export const AIZU_STATIONS: Station[] = [
       "inbound": "1番線",
       "outbound": "2番線"
     }
-  },
-  {
-    "id": "AIZ-22",
-    "lineId": "aizu",
-    "number": 22,
-    "name": "会津若松",
-    "nameKana": "あいづわかまつ",
-    "nameEn": "Aizu-Wakamatsu",
-    "lat": 37.4879726,
-    "lng": 139.9141994,
-    "transfers": [
-      "JR磐越西線",
-      "JR只見線",
-      "会津鉄道会津線"
-    ],
-    "address": "福島県会津若松市駅前町1-1",
-    "facilities": {
-      "elevator": true,
-      "restroom": true,
-      "multipurposeToilet": true,
-      "waitingRoom": true,
-      "ticketOffice": true
-    },
-    "stoppingTypes": [
-      "local",
-      "rapid",
-      "aizu_ozeto"
-    ],
-    "isMajor": true,
-    "platforms": {
-      "inbound": "1番線",
-      "outbound": "2番線"
-    }
   }
 ];
