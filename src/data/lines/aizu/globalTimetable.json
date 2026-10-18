@@ -2,7 +2,7 @@
   {
     "tripId": "WD_INB_AIZ-06_0518_1062",
     "lineId": "aizu",
-    "trainNumber": "1062",
+    "trainNumber": "501D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -46,12 +46,13 @@
         "departureTime": "05:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "1062"
   },
   {
     "tripId": "WD_OUT_AIZ-01_0546_33196",
     "lineId": "aizu",
-    "trainNumber": "33196",
+    "trainNumber": "504D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -95,7 +96,8 @@
         "departureTime": "06:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "33196"
   },
   {
     "tripId": "WD_OUT_AIZ-06_0612_40457",
@@ -207,13 +209,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40457",
     "throughTripId": "WD_INB_TD-03_0723_40457",
     "throughLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-06_0640_1063",
     "lineId": "aizu",
-    "trainNumber": "1063",
+    "trainNumber": "503D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -257,7 +260,8 @@
         "departureTime": "07:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "1063"
   },
   {
     "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -399,6 +403,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "40453",
     "throughTripId": "WD_INB_YAG-09_0824_40453",
     "throughLineId": "yagan",
     "prevTripId": "WD_OUT_TD-01_0656_40453",
@@ -544,6 +549,7 @@
       }
     ],
     "customOrigin": "会津高原尾瀬口",
+    "trainId": "40464",
     "throughTripId": "WD_INB_TD-03_0831_40464",
     "throughLineId": "tadami"
   },
@@ -657,13 +663,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40383",
     "prevTripId": "WD_OUT_TD-01_0751_40383",
     "prevLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_0846_41241",
     "lineId": "aizu",
-    "trainNumber": "41241",
+    "trainNumber": "805M",
     "trainType": "section_rapid",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -710,13 +717,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "41241",
     "prevTripId": "WD_OUT_YAG-01_0810_41241",
     "prevLineId": "yagan"
   },
   {
     "tripId": "WD_INB_AIZ-06_0908_43011",
     "lineId": "aizu",
-    "trainNumber": "43011",
+    "trainNumber": "314M",
     "trainType": "section_rapid",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -763,6 +771,7 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "43011",
     "throughTripId": "WD_INB_YAG-09_0928_43011",
     "throughLineId": "yagan"
   },
@@ -876,13 +885,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40384",
     "prevTripId": "WD_OUT_TD-01_0902_40384",
     "prevLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_0926_25154",
     "lineId": "aizu",
-    "trainNumber": "25154",
+    "trainNumber": "1101M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -929,6 +939,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "25154",
     "prevTripId": "WD_OUT_YAG-01_0848_25154",
     "prevLineId": "yagan"
   },
@@ -1042,6 +1053,7 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40458",
     "throughTripId": "WD_INB_TD-03_1044_40458",
     "throughLineId": "tadami"
   },
@@ -1185,6 +1197,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "38077",
     "prevTripId": "WD_OUT_YAG-01_0948_38077",
     "prevLineId": "yagan",
     "throughTripId": "WD_INB_TD-03_1150_38077",
@@ -1193,7 +1206,7 @@
   {
     "tripId": "WD_INB_AIZ-06_1050_42865",
     "lineId": "aizu",
-    "trainNumber": "42865",
+    "trainNumber": "1128M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -1240,6 +1253,7 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "42865",
     "throughTripId": "WD_INB_YAG-09_1108_42865",
     "throughLineId": "yagan"
   },
@@ -1383,13 +1397,14 @@
       }
     ],
     "customDestination": "会津高原尾瀬口",
+    "trainId": "40390",
     "prevTripId": "WD_OUT_TD-01_1126_40390",
     "prevLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1222_25151",
     "lineId": "aizu",
-    "trainNumber": "25151",
+    "trainNumber": "1113M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -1436,6 +1451,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "25151",
     "prevTripId": "WD_OUT_YAG-01_1146_25151",
     "prevLineId": "yagan"
   },
@@ -1549,6 +1565,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40385",
     "prevTripId": "WD_OUT_TD-01_1248_40385",
     "prevLineId": "tadami"
   },
@@ -1662,13 +1679,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40459",
     "throughTripId": "WD_INB_TD-03_1401_40459",
     "throughLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-06_1303_42866",
     "lineId": "aizu",
-    "trainNumber": "42866",
+    "trainNumber": "1136M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -1715,13 +1733,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "42866",
     "throughTripId": "WD_INB_YAG-09_1321_42866",
     "throughLineId": "yagan"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1322_33197",
     "lineId": "aizu",
-    "trainNumber": "33197",
+    "trainNumber": "514D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -1765,12 +1784,13 @@
         "departureTime": "13:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "33197"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1353_25152",
     "lineId": "aizu",
-    "trainNumber": "25152",
+    "trainNumber": "1119M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -1817,6 +1837,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "25152",
     "prevTripId": "WD_OUT_YAG-01_1316_25152",
     "prevLineId": "yagan"
   },
@@ -1930,6 +1951,7 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40456",
     "throughTripId": "WD_INB_TD-03_1517_40456",
     "throughLineId": "tadami"
   },
@@ -2073,13 +2095,14 @@
       }
     ],
     "customDestination": "会津高原尾瀬口",
+    "trainId": "40391",
     "prevTripId": "WD_OUT_TD-01_1437_40391",
     "prevLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-06_1500_42868",
     "lineId": "aizu",
-    "trainNumber": "42868",
+    "trainNumber": "1142M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -2126,13 +2149,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "42868",
     "throughTripId": "WD_INB_YAG-09_1520_42868",
     "throughLineId": "yagan"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1520_41244",
     "lineId": "aizu",
-    "trainNumber": "41244",
+    "trainNumber": "319M",
     "trainType": "section_rapid",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -2179,13 +2203,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "41244",
     "prevTripId": "WD_OUT_YAG-01_1444_41244",
     "prevLineId": "yagan"
   },
   {
     "tripId": "WD_INB_AIZ-06_1542_43013",
     "lineId": "aizu",
-    "trainNumber": "43013",
+    "trainNumber": "806M",
     "trainType": "section_rapid",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -2232,6 +2257,7 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "43013",
     "throughTripId": "WD_INB_YAG-09_1600_43013",
     "throughLineId": "yagan"
   },
@@ -2345,6 +2371,7 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40460",
     "throughTripId": "WD_INB_TD-03_1707_40460",
     "throughLineId": "tadami"
   },
@@ -2458,13 +2485,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40386",
     "prevTripId": "WD_OUT_TD-01_1621_40386",
     "prevLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1642_33198",
     "lineId": "aizu",
-    "trainNumber": "33198",
+    "trainNumber": "520D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -2508,12 +2536,13 @@
         "departureTime": "17:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "33198"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1726_25153",
     "lineId": "aizu",
-    "trainNumber": "25153",
+    "trainNumber": "1131M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -2560,6 +2589,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "25153",
     "prevTripId": "WD_OUT_YAG-01_1651_25153",
     "prevLineId": "yagan"
   },
@@ -2673,13 +2703,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40461",
     "throughTripId": "WD_INB_TD-03_1847_40461",
     "throughLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-06_1748_42867",
     "lineId": "aizu",
-    "trainNumber": "42867",
+    "trainNumber": "1154M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -2726,13 +2757,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "42867",
     "throughTripId": "WD_INB_YAG-09_1806_42867",
     "throughLineId": "yagan"
   },
   {
     "tripId": "WD_INB_AIZ-06_1810_1064",
     "lineId": "aizu",
-    "trainNumber": "1064",
+    "trainNumber": "517D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -2776,7 +2808,8 @@
         "departureTime": "18:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "1064"
   },
   {
     "tripId": "WD_INB_AIZ-21_1813_40387",
@@ -2888,13 +2921,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40387",
     "prevTripId": "WD_OUT_TD-01_1806_40387",
     "prevLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-06_1918_1065",
     "lineId": "aizu",
-    "trainNumber": "1065",
+    "trainNumber": "521D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -2938,7 +2972,8 @@
         "departureTime": "19:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "1065"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1921_40463",
@@ -3080,6 +3115,7 @@
       }
     ],
     "customOrigin": "会津高原尾瀬口",
+    "trainId": "40463",
     "throughTripId": "WD_INB_TD-03_2040_40463",
     "throughLineId": "tadami"
   },
@@ -3193,13 +3229,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40388",
     "prevTripId": "WD_OUT_TD-01_1928_40388",
     "prevLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1948_33199",
     "lineId": "aizu",
-    "trainNumber": "33199",
+    "trainNumber": "526D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -3243,12 +3280,13 @@
         "departureTime": "20:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "33199"
   },
   {
     "tripId": "WD_INB_AIZ-06_2045_1066",
     "lineId": "aizu",
-    "trainNumber": "1066",
+    "trainNumber": "525D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -3292,7 +3330,8 @@
         "departureTime": "21:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "1066"
   },
   {
     "tripId": "WD_OUT_AIZ-06_2050_40462",
@@ -3404,13 +3443,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40462",
     "throughTripId": "WD_INB_TD-03_2154_40462",
     "throughLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_2116_33200",
     "lineId": "aizu",
-    "trainNumber": "33200",
+    "trainNumber": "530D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -3454,7 +3494,8 @@
         "departureTime": "21:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "33200"
   },
   {
     "tripId": "WD_INB_AIZ-21_2117_40389",
@@ -3566,13 +3607,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40389",
     "prevTripId": "WD_OUT_TD-01_2110_40389",
     "prevLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-06_0518_1062",
     "lineId": "aizu",
-    "trainNumber": "1062",
+    "trainNumber": "501D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -3616,12 +3658,13 @@
         "departureTime": "05:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "1062"
   },
   {
     "tripId": "HD_OUT_AIZ-01_0546_33196",
     "lineId": "aizu",
-    "trainNumber": "33196",
+    "trainNumber": "504D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -3665,7 +3708,8 @@
         "departureTime": "06:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "33196"
   },
   {
     "tripId": "HD_OUT_AIZ-06_0612_40457",
@@ -3777,13 +3821,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40457",
     "throughTripId": "HD_INB_TD-03_0723_40457",
     "throughLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-06_0640_1063",
     "lineId": "aizu",
-    "trainNumber": "1063",
+    "trainNumber": "503D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -3827,7 +3872,8 @@
         "departureTime": "07:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "1063"
   },
   {
     "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -3969,6 +4015,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "40453",
     "throughTripId": "HD_INB_YAG-09_0824_40453",
     "throughLineId": "yagan",
     "prevTripId": "HD_OUT_TD-01_0656_40453",
@@ -4114,6 +4161,7 @@
       }
     ],
     "customOrigin": "会津高原尾瀬口",
+    "trainId": "40464",
     "throughTripId": "HD_INB_TD-03_0831_40464",
     "throughLineId": "tadami"
   },
@@ -4227,6 +4275,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40383",
     "prevTripId": "HD_OUT_TD-01_0751_40383",
     "prevLineId": "tadami"
   },
@@ -4340,13 +4389,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40454",
     "throughTripId": "HD_INB_TD-03_0926_40454",
     "throughLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_0846_41241",
     "lineId": "aizu",
-    "trainNumber": "41241",
+    "trainNumber": "805M",
     "trainType": "section_rapid",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -4393,13 +4443,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "41241",
     "prevTripId": "HD_OUT_YAG-01_0810_41241",
     "prevLineId": "yagan"
   },
   {
     "tripId": "HD_INB_AIZ-06_0908_43011",
     "lineId": "aizu",
-    "trainNumber": "43011",
+    "trainNumber": "314M",
     "trainType": "section_rapid",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -4446,6 +4497,7 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "43011",
     "throughTripId": "HD_INB_YAG-09_0928_43011",
     "throughLineId": "yagan"
   },
@@ -4559,13 +4611,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40384",
     "prevTripId": "HD_OUT_TD-01_0902_40384",
     "prevLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_0926_25154",
     "lineId": "aizu",
-    "trainNumber": "25154",
+    "trainNumber": "1101M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -4612,6 +4665,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "25154",
     "prevTripId": "HD_OUT_YAG-01_0848_25154",
     "prevLineId": "yagan"
   },
@@ -4725,6 +4779,7 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40458",
     "throughTripId": "HD_INB_TD-03_1044_40458",
     "throughLineId": "tadami"
   },
@@ -4838,6 +4893,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40381",
     "prevTripId": "HD_OUT_TD-01_0950_40381",
     "prevLineId": "tadami"
   },
@@ -4981,6 +5037,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "38077",
     "prevTripId": "HD_OUT_YAG-01_0948_38077",
     "prevLineId": "yagan",
     "throughTripId": "HD_INB_TD-03_1150_38078",
@@ -4989,7 +5046,7 @@
   {
     "tripId": "HD_INB_AIZ-06_1050_42865",
     "lineId": "aizu",
-    "trainNumber": "42865",
+    "trainNumber": "1128M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -5036,6 +5093,7 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "42865",
     "throughTripId": "HD_INB_YAG-09_1108_42865",
     "throughLineId": "yagan"
   },
@@ -5179,6 +5237,7 @@
       }
     ],
     "customDestination": "会津高原尾瀬口",
+    "trainId": "40390",
     "prevTripId": "HD_OUT_TD-01_1126_40390",
     "prevLineId": "tadami"
   },
@@ -5292,13 +5351,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40455",
     "throughTripId": "HD_INB_TD-03_1317_40455",
     "throughLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1222_25151",
     "lineId": "aizu",
-    "trainNumber": "25151",
+    "trainNumber": "1113M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -5345,6 +5405,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "25151",
     "prevTripId": "HD_OUT_YAG-01_1146_25151",
     "prevLineId": "yagan"
   },
@@ -5458,6 +5519,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40385",
     "prevTripId": "HD_OUT_TD-01_1248_40385",
     "prevLineId": "tadami"
   },
@@ -5571,13 +5633,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40459",
     "throughTripId": "HD_INB_TD-03_1401_40459",
     "throughLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-06_1303_42866",
     "lineId": "aizu",
-    "trainNumber": "42866",
+    "trainNumber": "1136M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -5624,13 +5687,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "42866",
     "throughTripId": "HD_INB_YAG-09_1321_42866",
     "throughLineId": "yagan"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1322_33197",
     "lineId": "aizu",
-    "trainNumber": "33197",
+    "trainNumber": "514D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -5674,7 +5738,8 @@
         "departureTime": "13:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "33197"
   },
   {
     "tripId": "HD_INB_AIZ-21_1341_40382",
@@ -5786,13 +5851,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40382",
     "prevTripId": "HD_OUT_TD-01_1334_40382",
     "prevLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1353_25152",
     "lineId": "aizu",
-    "trainNumber": "25152",
+    "trainNumber": "1119M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -5839,6 +5905,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "25152",
     "prevTripId": "HD_OUT_YAG-01_1316_25152",
     "prevLineId": "yagan"
   },
@@ -5952,6 +6019,7 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40456",
     "throughTripId": "HD_INB_TD-03_1517_40456",
     "throughLineId": "tadami"
   },
@@ -6095,13 +6163,14 @@
       }
     ],
     "customDestination": "会津高原尾瀬口",
+    "trainId": "40391",
     "prevTripId": "HD_OUT_TD-01_1437_40391",
     "prevLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-06_1500_42868",
     "lineId": "aizu",
-    "trainNumber": "42868",
+    "trainNumber": "1142M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -6148,13 +6217,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "42868",
     "throughTripId": "HD_INB_YAG-09_1520_42868",
     "throughLineId": "yagan"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1520_41244",
     "lineId": "aizu",
-    "trainNumber": "41244",
+    "trainNumber": "319M",
     "trainType": "section_rapid",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -6201,13 +6271,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "41244",
     "prevTripId": "HD_OUT_YAG-01_1444_41244",
     "prevLineId": "yagan"
   },
   {
     "tripId": "HD_INB_AIZ-06_1542_43013",
     "lineId": "aizu",
-    "trainNumber": "43013",
+    "trainNumber": "806M",
     "trainType": "section_rapid",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -6254,6 +6325,7 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "43013",
     "throughTripId": "HD_INB_YAG-09_1600_43013",
     "throughLineId": "yagan"
   },
@@ -6367,6 +6439,7 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40460",
     "throughTripId": "HD_INB_TD-03_1707_40460",
     "throughLineId": "tadami"
   },
@@ -6480,13 +6553,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40386",
     "prevTripId": "HD_OUT_TD-01_1621_40386",
     "prevLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1642_33198",
     "lineId": "aizu",
-    "trainNumber": "33198",
+    "trainNumber": "520D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -6530,12 +6604,13 @@
         "departureTime": "17:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "33198"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1726_25153",
     "lineId": "aizu",
-    "trainNumber": "25153",
+    "trainNumber": "1131M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -6582,6 +6657,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "25153",
     "prevTripId": "HD_OUT_YAG-01_1651_25153",
     "prevLineId": "yagan"
   },
@@ -6695,13 +6771,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40461",
     "throughTripId": "HD_INB_TD-03_1847_40461",
     "throughLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-06_1748_42867",
     "lineId": "aizu",
-    "trainNumber": "42867",
+    "trainNumber": "1154M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -6748,13 +6825,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "42867",
     "throughTripId": "HD_INB_YAG-09_1806_42867",
     "throughLineId": "yagan"
   },
   {
     "tripId": "HD_INB_AIZ-06_1810_1064",
     "lineId": "aizu",
-    "trainNumber": "1064",
+    "trainNumber": "517D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -6798,7 +6876,8 @@
         "departureTime": "18:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "1064"
   },
   {
     "tripId": "HD_INB_AIZ-21_1813_40387",
@@ -6910,13 +6989,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40387",
     "prevTripId": "HD_OUT_TD-01_1806_40387",
     "prevLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-06_1918_1065",
     "lineId": "aizu",
-    "trainNumber": "1065",
+    "trainNumber": "521D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -6960,7 +7040,8 @@
         "departureTime": "19:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "1065"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1921_40463",
@@ -7102,6 +7183,7 @@
       }
     ],
     "customOrigin": "会津高原尾瀬口",
+    "trainId": "40463",
     "throughTripId": "HD_INB_TD-03_2040_40463",
     "throughLineId": "tadami"
   },
@@ -7215,13 +7297,14 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40388",
     "prevTripId": "HD_OUT_TD-01_1928_40388",
     "prevLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1948_33199",
     "lineId": "aizu",
-    "trainNumber": "33199",
+    "trainNumber": "526D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -7265,12 +7348,13 @@
         "departureTime": "20:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "33199"
   },
   {
     "tripId": "HD_INB_AIZ-06_2045_1066",
     "lineId": "aizu",
-    "trainNumber": "1066",
+    "trainNumber": "525D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AIZ-06",
@@ -7314,7 +7398,8 @@
         "departureTime": "21:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "1066"
   },
   {
     "tripId": "HD_OUT_AIZ-06_2050_40462",
@@ -7426,13 +7511,14 @@
       }
     ],
     "customOrigin": "会津田島",
+    "trainId": "40462",
     "throughTripId": "HD_INB_TD-03_2154_40462",
     "throughLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_2116_33200",
     "lineId": "aizu",
-    "trainNumber": "33200",
+    "trainNumber": "530D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AIZ-01",
@@ -7476,7 +7562,8 @@
         "departureTime": "21:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "33200"
   },
   {
     "tripId": "HD_INB_AIZ-21_2117_40389",
@@ -7588,6 +7675,7 @@
       }
     ],
     "customDestination": "会津田島",
+    "trainId": "40389",
     "prevTripId": "HD_OUT_TD-01_2110_40389",
     "prevLineId": "tadami"
   }

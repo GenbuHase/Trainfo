@@ -2,7 +2,7 @@
   {
     "tripId": "WD_INB_TN-40_0455_113926",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113926",
+    "trainNumber": "402N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -78,14 +78,15 @@
         "isPassing": false
       }
     ],
+    "customOrigin": "東武宇都宮",
+    "trainId": "113926",
     "throughTripId": "WD_INB_TN-12_0542_113926",
-    "throughLineId": "tobu_nikko",
-    "customOrigin": "東武宇都宮"
+    "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_0459_113883",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113883",
+    "trainNumber": "401N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -159,12 +160,13 @@
         "departureTime": "05:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113883"
   },
   {
     "tripId": "WD_OUT_TN-12_0535_113901",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113901",
+    "trainNumber": "403N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -241,13 +243,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113901",
     "prevTripId": "WD_OUT_TN-11_0530_113901",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_0539_113927",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113927",
+    "trainNumber": "404N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -324,13 +327,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113927",
     "throughTripId": "WD_INB_TN-12_0612_113927",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_0557_113884",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113884",
+    "trainNumber": "405N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -404,12 +408,13 @@
         "departureTime": "06:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113884"
   },
   {
     "tripId": "WD_INB_TN-40_0604_113946",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113946",
+    "trainNumber": "406N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -483,12 +488,13 @@
         "departureTime": "06:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113946"
   },
   {
     "tripId": "WD_OUT_TN-12_0617_113885",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113885",
+    "trainNumber": "407N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -562,12 +568,13 @@
         "departureTime": "06:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113885"
   },
   {
     "tripId": "WD_INB_TN-40_0621_113928",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113928",
+    "trainNumber": "408N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -644,13 +651,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113928",
     "throughTripId": "WD_INB_TN-12_0700_113928",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_0638_113947",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113947",
+    "trainNumber": "410N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -724,12 +732,13 @@
         "departureTime": "07:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113947"
   },
   {
     "tripId": "WD_OUT_TN-12_0640_113906",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113906",
+    "trainNumber": "409N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -806,13 +815,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113906",
     "prevTripId": "WD_OUT_TN-03_0600_113906",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_0658_113907",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113907",
+    "trainNumber": "411N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -889,13 +899,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113907",
     "prevTripId": "WD_OUT_TN-03_0619_113907",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_0702_113929",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113929",
+    "trainNumber": "412N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -972,13 +983,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113929",
     "throughTripId": "WD_INB_TN-12_0738_113929",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_0716_113886",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113886",
+    "trainNumber": "413N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -1052,12 +1064,13 @@
         "departureTime": "07:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113886"
   },
   {
     "tripId": "WD_INB_TN-40_0722_113948",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113948",
+    "trainNumber": "414N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -1131,12 +1144,13 @@
         "departureTime": "07:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113948"
   },
   {
     "tripId": "WD_OUT_TN-12_0739_113908",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113908",
+    "trainNumber": "415N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -1212,14 +1226,15 @@
         "isPassing": false
       }
     ],
+    "customDestination": "東武宇都宮",
+    "trainId": "113908",
     "prevTripId": "WD_OUT_TN-03_0648_113908",
-    "prevLineId": "tobu_nikko",
-    "customDestination": "東武宇都宮"
+    "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_0741_113930",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113930",
+    "trainNumber": "416N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -1296,13 +1311,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113930",
     "throughTripId": "WD_INB_TN-12_0816_113930",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_0752_113909",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113909",
+    "trainNumber": "417N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -1379,13 +1395,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113909",
     "prevTripId": "WD_OUT_TN-03_0707_113909",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_0800_113949",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113949",
+    "trainNumber": "418N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -1459,12 +1476,13 @@
         "departureTime": "08:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113949"
   },
   {
     "tripId": "WD_OUT_TN-12_0806_113902",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113902",
+    "trainNumber": "419N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -1541,13 +1559,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113902",
     "prevTripId": "WD_OUT_TN-11_0802_113902",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_0819_113950",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113950",
+    "trainNumber": "420N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -1621,12 +1640,13 @@
         "departureTime": "08:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113950"
   },
   {
     "tripId": "WD_OUT_TN-12_0823_113910",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113910",
+    "trainNumber": "421N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -1703,13 +1723,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113910",
     "prevTripId": "WD_OUT_TN-03_0738_113910",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_0836_113931",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113931",
+    "trainNumber": "422N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -1786,13 +1807,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113931",
     "throughTripId": "WD_INB_TN-12_0910_113931",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_0853_113951",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113951",
+    "trainNumber": "424N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -1866,12 +1888,13 @@
         "departureTime": "09:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113951"
   },
   {
     "tripId": "WD_OUT_TN-12_0854_113911",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113911",
+    "trainNumber": "423N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -1948,13 +1971,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113911",
     "prevTripId": "WD_OUT_TN-03_0757_113911",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_0917_113952",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113952",
+    "trainNumber": "426N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -2028,12 +2052,13 @@
         "departureTime": "09:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113952"
   },
   {
     "tripId": "WD_OUT_TN-12_0938_113912",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113912",
+    "trainNumber": "425N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -2110,13 +2135,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113912",
     "prevTripId": "WD_OUT_TN-03_0848_113912",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_0953_113932",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113932",
+    "trainNumber": "428N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -2193,13 +2219,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113932",
     "throughTripId": "WD_INB_TN-12_1030_113932",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_0957_113887",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113887",
+    "trainNumber": "427N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -2273,12 +2300,13 @@
         "departureTime": "10:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113887"
   },
   {
     "tripId": "WD_INB_TN-40_1020_113933",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113933",
+    "trainNumber": "430N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -2355,13 +2383,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113933",
     "throughTripId": "WD_INB_TN-12_1057_113933",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_1021_113913",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113913",
+    "trainNumber": "429N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -2438,13 +2467,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113913",
     "prevTripId": "WD_OUT_TN-03_0938_113913",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_1049_113934",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113934",
+    "trainNumber": "432N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -2521,13 +2551,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113934",
     "throughTripId": "WD_INB_TN-12_1124_113934",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_1102_113888",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113888",
+    "trainNumber": "431N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -2601,12 +2632,13 @@
         "departureTime": "11:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113888"
   },
   {
     "tripId": "WD_INB_TN-40_1120_113953",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113953",
+    "trainNumber": "434N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -2680,12 +2712,13 @@
         "departureTime": "11:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113953"
   },
   {
     "tripId": "WD_OUT_TN-12_1126_113914",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113914",
+    "trainNumber": "433N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -2762,13 +2795,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113914",
     "prevTripId": "WD_OUT_TN-03_1046_113914",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_1150_113935",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113935",
+    "trainNumber": "436N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -2845,13 +2879,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113935",
     "throughTripId": "WD_INB_TN-12_1230_113935",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_1157_113915",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113915",
+    "trainNumber": "435N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -2928,13 +2963,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113915",
     "prevTripId": "WD_OUT_TN-03_1102_113915",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_1220_113889",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113889",
+    "trainNumber": "437N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -3008,12 +3044,13 @@
         "departureTime": "12:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113889"
   },
   {
     "tripId": "WD_INB_TN-40_1220_113954",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113954",
+    "trainNumber": "438N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -3087,12 +3124,13 @@
         "departureTime": "12:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113954"
   },
   {
     "tripId": "WD_INB_TN-40_1250_113955",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113955",
+    "trainNumber": "440N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -3166,12 +3204,13 @@
         "departureTime": "13:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113955"
   },
   {
     "tripId": "WD_OUT_TN-12_1259_113890",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113890",
+    "trainNumber": "439N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -3245,12 +3284,13 @@
         "departureTime": "13:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113890"
   },
   {
     "tripId": "WD_OUT_TN-12_1319_113916",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113916",
+    "trainNumber": "441N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -3327,13 +3367,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113916",
     "prevTripId": "WD_OUT_TN-03_1232_113916",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_1320_113956",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113956",
+    "trainNumber": "442N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -3407,12 +3448,13 @@
         "departureTime": "13:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113956"
   },
   {
     "tripId": "WD_OUT_TN-12_1348_113891",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113891",
+    "trainNumber": "443N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -3486,12 +3528,13 @@
         "departureTime": "14:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113891"
   },
   {
     "tripId": "WD_INB_TN-40_1350_113936",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113936",
+    "trainNumber": "444N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -3568,13 +3611,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113936",
     "throughTripId": "WD_INB_TN-12_1430_113936",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_1420_113917",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113917",
+    "trainNumber": "445N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -3651,13 +3695,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113917",
     "prevTripId": "WD_OUT_TN-03_1332_113917",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_1420_113957",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113957",
+    "trainNumber": "446N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -3731,12 +3776,13 @@
         "departureTime": "14:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113957"
   },
   {
     "tripId": "WD_OUT_TN-12_1449_113892",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113892",
+    "trainNumber": "447N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -3810,12 +3856,13 @@
         "departureTime": "15:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113892"
   },
   {
     "tripId": "WD_INB_TN-40_1450_113958",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113958",
+    "trainNumber": "448N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -3889,12 +3936,13 @@
         "departureTime": "15:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113958"
   },
   {
     "tripId": "WD_INB_TN-40_1510_113937",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113937",
+    "trainNumber": "450N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -3971,13 +4019,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113937",
     "throughTripId": "WD_INB_TN-12_1546_113937",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_1519_113918",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113918",
+    "trainNumber": "449N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -4054,13 +4103,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113918",
     "prevTripId": "WD_OUT_TN-03_1432_113918",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_1539_113938",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113938",
+    "trainNumber": "452N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -4137,13 +4187,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113938",
     "throughTripId": "WD_INB_TN-12_1616_113938",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_1544_113903",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113903",
+    "trainNumber": "451N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -4220,13 +4271,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113903",
     "prevTripId": "WD_OUT_TN-11_1540_113903",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_1601_113893",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113893",
+    "trainNumber": "453N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -4300,12 +4352,13 @@
         "departureTime": "16:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113893"
   },
   {
     "tripId": "WD_INB_TN-40_1602_113959",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113959",
+    "trainNumber": "454N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -4379,12 +4432,13 @@
         "departureTime": "16:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113959"
   },
   {
     "tripId": "WD_OUT_TN-12_1622_113919",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113919",
+    "trainNumber": "455N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -4461,13 +4515,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113919",
     "prevTripId": "WD_OUT_TN-03_1532_113919",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_1626_113960",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113960",
+    "trainNumber": "456N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -4541,12 +4596,13 @@
         "departureTime": "16:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113960"
   },
   {
     "tripId": "WD_OUT_TN-12_1646_113894",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113894",
+    "trainNumber": "457N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -4620,12 +4676,13 @@
         "departureTime": "17:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113894"
   },
   {
     "tripId": "WD_INB_TN-40_1647_113939",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113939",
+    "trainNumber": "458N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -4702,13 +4759,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113939",
     "throughTripId": "WD_INB_TN-12_1725_113939",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_1704_113920",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113920",
+    "trainNumber": "459N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -4785,13 +4843,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113920",
     "prevTripId": "WD_OUT_TN-03_1624_113920",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_1707_113961",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113961",
+    "trainNumber": "460N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -4865,12 +4924,13 @@
         "departureTime": "17:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113961"
   },
   {
     "tripId": "WD_INB_TN-40_1726_113940",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113940",
+    "trainNumber": "462N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -4947,13 +5007,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113940",
     "throughTripId": "WD_INB_TN-12_1759_113940",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_1729_113895",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113895",
+    "trainNumber": "461N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -5027,12 +5088,13 @@
         "departureTime": "18:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113895"
   },
   {
     "tripId": "WD_INB_TN-40_1748_113962",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113962",
+    "trainNumber": "464N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -5106,12 +5168,13 @@
         "departureTime": "18:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113962"
   },
   {
     "tripId": "WD_OUT_TN-12_1750_113896",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113896",
+    "trainNumber": "463N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -5185,12 +5248,13 @@
         "departureTime": "18:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113896"
   },
   {
     "tripId": "WD_OUT_TN-12_1810_113921",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113921",
+    "trainNumber": "465N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -5267,13 +5331,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113921",
     "prevTripId": "WD_OUT_TN-03_1730_113921",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_1811_113941",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113941",
+    "trainNumber": "466N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -5350,13 +5415,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113941",
     "throughTripId": "WD_INB_TN-12_1845_113941",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_1830_113897",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113897",
+    "trainNumber": "467N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -5430,12 +5496,13 @@
         "departureTime": "19:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113897"
   },
   {
     "tripId": "WD_INB_TN-40_1833_113963",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113963",
+    "trainNumber": "468N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -5509,12 +5576,13 @@
         "departureTime": "19:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113963"
   },
   {
     "tripId": "WD_OUT_TN-12_1851_113922",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113922",
+    "trainNumber": "469N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -5591,13 +5659,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113922",
     "prevTripId": "WD_OUT_TN-03_1812_113922",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_1853_113942",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113942",
+    "trainNumber": "470N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -5674,13 +5743,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113942",
     "throughTripId": "WD_INB_TN-12_1930_113942",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_1912_113943",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113943",
+    "trainNumber": "472N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -5757,13 +5827,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113943",
     "throughTripId": "WD_INB_TN-25_1845_113635",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_1920_113923",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113923",
+    "trainNumber": "471N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -5840,13 +5911,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113923",
     "prevTripId": "WD_OUT_TN-03_1835_113923",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_1935_113964",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113964",
+    "trainNumber": "474N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -5920,12 +5992,13 @@
         "departureTime": "20:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113964"
   },
   {
     "tripId": "WD_OUT_TN-12_1945_113898",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113898",
+    "trainNumber": "473N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -5999,12 +6072,13 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113898"
   },
   {
     "tripId": "WD_OUT_TN-12_2001_113924",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113924",
+    "trainNumber": "475N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -6081,13 +6155,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113924",
     "prevTripId": "WD_OUT_TN-03_1913_113924",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_2009_113965",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113965",
+    "trainNumber": "476N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -6161,12 +6236,13 @@
         "departureTime": "20:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113965"
   },
   {
     "tripId": "WD_OUT_TN-12_2023_113899",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113899",
+    "trainNumber": "477N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -6240,12 +6316,13 @@
         "departureTime": "20:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113899"
   },
   {
     "tripId": "WD_INB_TN-40_2039_113944",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113944",
+    "trainNumber": "478N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -6322,13 +6399,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113944",
     "throughTripId": "WD_INB_TN-12_2120_113944",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_2054_113900",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113900",
+    "trainNumber": "479N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -6402,12 +6480,13 @@
         "departureTime": "21:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113900"
   },
   {
     "tripId": "WD_INB_TN-40_2104_113966",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113966",
+    "trainNumber": "480N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -6481,12 +6560,13 @@
         "departureTime": "21:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113966"
   },
   {
     "tripId": "WD_OUT_TN-12_2132_113925",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113925",
+    "trainNumber": "481N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -6563,13 +6643,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113925",
     "prevTripId": "WD_OUT_TN-03_2052_113925",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_2132_113945",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113945",
+    "trainNumber": "482N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -6646,13 +6727,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113945",
     "throughTripId": "WD_INB_TN-12_2208_113945",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_2217_113967",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113967",
+    "trainNumber": "484N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -6729,13 +6811,14 @@
     ],
     "customDestination": "栃木",
     "customOrigin": "東武宇都宮",
+    "trainId": "113967",
     "throughTripId": "WD_INB_TN-25_2152_113616",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_OUT_TN-12_2221_113904",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113904",
+    "trainNumber": "483N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -6812,13 +6895,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113904",
     "prevTripId": "WD_OUT_TN-11_2217_113904",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "WD_INB_TN-40_2307_113968",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113968",
+    "trainNumber": "486N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -6892,12 +6976,13 @@
         "departureTime": "23:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113968"
   },
   {
     "tripId": "WD_OUT_TN-12_2321_113905",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113905",
+    "trainNumber": "485N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -6974,13 +7059,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113905",
     "prevTripId": "WD_OUT_TN-11_2317_113905",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_0455_113926",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113926",
+    "trainNumber": "402N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -7056,14 +7142,15 @@
         "isPassing": false
       }
     ],
+    "customOrigin": "東武宇都宮",
+    "trainId": "113926",
     "throughTripId": "HD_INB_TN-12_0542_113926",
-    "throughLineId": "tobu_nikko",
-    "customOrigin": "東武宇都宮"
+    "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_0459_113883",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113883",
+    "trainNumber": "401N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -7137,12 +7224,13 @@
         "departureTime": "05:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113883"
   },
   {
     "tripId": "HD_OUT_TN-12_0535_113901",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113901",
+    "trainNumber": "403N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -7219,13 +7307,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113901",
     "prevTripId": "HD_OUT_TN-11_0530_113901",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_0539_113927",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113927",
+    "trainNumber": "404N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -7302,13 +7391,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113927",
     "throughTripId": "HD_INB_TN-12_0612_113927",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_0557_113884",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113884",
+    "trainNumber": "405N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -7382,12 +7472,13 @@
         "departureTime": "06:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113884"
   },
   {
     "tripId": "HD_INB_TN-40_0604_113946",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113946",
+    "trainNumber": "406N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -7461,12 +7552,13 @@
         "departureTime": "06:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113946"
   },
   {
     "tripId": "HD_OUT_TN-12_0617_113885",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113885",
+    "trainNumber": "407N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -7540,12 +7632,13 @@
         "departureTime": "06:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113885"
   },
   {
     "tripId": "HD_INB_TN-40_0621_113928",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113928",
+    "trainNumber": "408N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -7622,13 +7715,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113928",
     "throughTripId": "HD_INB_TN-12_0700_113928",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_0638_113947",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113947",
+    "trainNumber": "410N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -7702,12 +7796,13 @@
         "departureTime": "07:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113947"
   },
   {
     "tripId": "HD_OUT_TN-12_0640_113906",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113906",
+    "trainNumber": "409N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -7784,13 +7879,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113906",
     "prevTripId": "HD_OUT_TN-03_0600_113906",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_0658_113907",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113907",
+    "trainNumber": "411N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -7867,13 +7963,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113907",
     "prevTripId": "HD_OUT_TN-03_0619_113907",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_0702_113929",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113929",
+    "trainNumber": "412N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -7950,13 +8047,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113929",
     "throughTripId": "HD_INB_TN-12_0738_113929",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_0716_113886",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113886",
+    "trainNumber": "413N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -8030,12 +8128,13 @@
         "departureTime": "07:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113886"
   },
   {
     "tripId": "HD_INB_TN-40_0722_113948",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113948",
+    "trainNumber": "414N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -8109,12 +8208,13 @@
         "departureTime": "07:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113948"
   },
   {
     "tripId": "HD_OUT_TN-12_0739_113908",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113908",
+    "trainNumber": "415N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -8190,14 +8290,15 @@
         "isPassing": false
       }
     ],
+    "customDestination": "東武宇都宮",
+    "trainId": "113908",
     "prevTripId": "HD_OUT_TN-03_0648_113908",
-    "prevLineId": "tobu_nikko",
-    "customDestination": "東武宇都宮"
+    "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_0741_113930",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113930",
+    "trainNumber": "416N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -8274,13 +8375,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113930",
     "throughTripId": "HD_INB_TN-12_0816_113930",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_0752_113909",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113909",
+    "trainNumber": "417N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -8357,13 +8459,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113909",
     "prevTripId": "HD_OUT_TN-03_0707_113909",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_0800_113949",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113949",
+    "trainNumber": "418N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -8437,12 +8540,13 @@
         "departureTime": "08:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113949"
   },
   {
     "tripId": "HD_OUT_TN-12_0806_113902",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113902",
+    "trainNumber": "419N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -8519,13 +8623,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113902",
     "prevTripId": "HD_OUT_TN-11_0802_113902",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_0819_113950",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113950",
+    "trainNumber": "420N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -8599,12 +8704,13 @@
         "departureTime": "08:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113950"
   },
   {
     "tripId": "HD_OUT_TN-12_0823_113910",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113910",
+    "trainNumber": "421N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -8681,13 +8787,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113910",
     "prevTripId": "HD_OUT_TN-03_0738_113910",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_0836_113931",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113931",
+    "trainNumber": "422N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -8764,13 +8871,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113931",
     "throughTripId": "HD_INB_TN-12_0910_113931",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_0853_113951",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113951",
+    "trainNumber": "424N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -8844,12 +8952,13 @@
         "departureTime": "09:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113951"
   },
   {
     "tripId": "HD_OUT_TN-12_0854_113911",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113911",
+    "trainNumber": "423N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -8926,13 +9035,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113911",
     "prevTripId": "HD_OUT_TN-03_0757_113911",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_0917_113952",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113952",
+    "trainNumber": "426N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -9006,12 +9116,13 @@
         "departureTime": "09:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113952"
   },
   {
     "tripId": "HD_OUT_TN-12_0938_113912",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113912",
+    "trainNumber": "425N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -9088,13 +9199,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113912",
     "prevTripId": "HD_OUT_TN-03_0848_113912",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_0953_113932",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113932",
+    "trainNumber": "428N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -9171,13 +9283,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113932",
     "throughTripId": "HD_INB_TN-12_1030_113932",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_0957_113887",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113887",
+    "trainNumber": "427N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -9251,12 +9364,13 @@
         "departureTime": "10:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113887"
   },
   {
     "tripId": "HD_INB_TN-40_1020_113933",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113933",
+    "trainNumber": "430N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -9333,13 +9447,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113933",
     "throughTripId": "HD_INB_TN-12_1057_113933",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_1021_113913",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113913",
+    "trainNumber": "429N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -9416,13 +9531,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113913",
     "prevTripId": "HD_OUT_TN-03_0938_113913",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_1049_113934",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113934",
+    "trainNumber": "432N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -9499,13 +9615,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113934",
     "throughTripId": "HD_INB_TN-12_1124_113934",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_1102_113888",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113888",
+    "trainNumber": "431N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -9579,12 +9696,13 @@
         "departureTime": "11:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113888"
   },
   {
     "tripId": "HD_INB_TN-40_1120_113953",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113953",
+    "trainNumber": "434N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -9658,12 +9776,13 @@
         "departureTime": "11:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113953"
   },
   {
     "tripId": "HD_OUT_TN-12_1126_113914",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113914",
+    "trainNumber": "433N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -9740,13 +9859,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113914",
     "prevTripId": "HD_OUT_TN-03_1046_113914",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_1150_113935",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113935",
+    "trainNumber": "436N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -9823,13 +9943,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113935",
     "throughTripId": "HD_INB_TN-12_1230_113935",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_1157_113915",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113915",
+    "trainNumber": "435N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -9906,13 +10027,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113915",
     "prevTripId": "HD_OUT_TN-03_1102_113915",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_1220_113889",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113889",
+    "trainNumber": "437N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -9986,12 +10108,13 @@
         "departureTime": "12:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113889"
   },
   {
     "tripId": "HD_INB_TN-40_1220_113954",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113954",
+    "trainNumber": "438N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -10065,12 +10188,13 @@
         "departureTime": "12:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113954"
   },
   {
     "tripId": "HD_INB_TN-40_1250_113955",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113955",
+    "trainNumber": "440N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -10144,12 +10268,13 @@
         "departureTime": "13:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113955"
   },
   {
     "tripId": "HD_OUT_TN-12_1259_113890",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113890",
+    "trainNumber": "439N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -10223,12 +10348,13 @@
         "departureTime": "13:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113890"
   },
   {
     "tripId": "HD_OUT_TN-12_1319_113916",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113916",
+    "trainNumber": "441N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -10305,13 +10431,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113916",
     "prevTripId": "HD_OUT_TN-03_1232_113916",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_1320_113956",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113956",
+    "trainNumber": "442N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -10385,12 +10512,13 @@
         "departureTime": "13:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113956"
   },
   {
     "tripId": "HD_OUT_TN-12_1348_113891",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113891",
+    "trainNumber": "443N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -10464,12 +10592,13 @@
         "departureTime": "14:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113891"
   },
   {
     "tripId": "HD_INB_TN-40_1350_113936",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113936",
+    "trainNumber": "444N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -10546,13 +10675,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113936",
     "throughTripId": "HD_INB_TN-12_1430_113936",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_1420_113917",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113917",
+    "trainNumber": "445N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -10629,13 +10759,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113917",
     "prevTripId": "HD_OUT_TN-03_1332_113917",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_1420_113957",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113957",
+    "trainNumber": "446N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -10709,12 +10840,13 @@
         "departureTime": "14:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113957"
   },
   {
     "tripId": "HD_OUT_TN-12_1449_113892",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113892",
+    "trainNumber": "447N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -10788,12 +10920,13 @@
         "departureTime": "15:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113892"
   },
   {
     "tripId": "HD_INB_TN-40_1450_113958",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113958",
+    "trainNumber": "448N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -10867,12 +11000,13 @@
         "departureTime": "15:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113958"
   },
   {
     "tripId": "HD_INB_TN-40_1510_113937",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113937",
+    "trainNumber": "450N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -10949,13 +11083,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113937",
     "throughTripId": "HD_INB_TN-12_1546_113937",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_1519_113918",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113918",
+    "trainNumber": "449N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -11032,13 +11167,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113918",
     "prevTripId": "HD_OUT_TN-03_1432_113918",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_1539_113938",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113938",
+    "trainNumber": "452N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -11115,13 +11251,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113938",
     "throughTripId": "HD_INB_TN-12_1616_113938",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_1544_113903",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113903",
+    "trainNumber": "451N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -11198,13 +11335,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113903",
     "prevTripId": "HD_OUT_TN-11_1540_113903",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_1601_113893",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113893",
+    "trainNumber": "453N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -11278,12 +11416,13 @@
         "departureTime": "16:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113893"
   },
   {
     "tripId": "HD_INB_TN-40_1602_113959",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113959",
+    "trainNumber": "454N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -11357,12 +11496,13 @@
         "departureTime": "16:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113959"
   },
   {
     "tripId": "HD_OUT_TN-12_1622_113919",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113919",
+    "trainNumber": "455N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -11439,13 +11579,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113919",
     "prevTripId": "HD_OUT_TN-03_1532_113919",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_1626_113960",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113960",
+    "trainNumber": "456N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -11519,12 +11660,13 @@
         "departureTime": "16:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113960"
   },
   {
     "tripId": "HD_OUT_TN-12_1646_113894",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113894",
+    "trainNumber": "457N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -11598,12 +11740,13 @@
         "departureTime": "17:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113894"
   },
   {
     "tripId": "HD_INB_TN-40_1647_113939",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113939",
+    "trainNumber": "458N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -11680,13 +11823,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113939",
     "throughTripId": "HD_INB_TN-12_1725_113939",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_1704_113920",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113920",
+    "trainNumber": "459N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -11763,13 +11907,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113920",
     "prevTripId": "HD_OUT_TN-03_1624_113920",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_1707_113961",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113961",
+    "trainNumber": "460N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -11843,12 +11988,13 @@
         "departureTime": "17:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113961"
   },
   {
     "tripId": "HD_INB_TN-40_1726_113940",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113940",
+    "trainNumber": "462N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -11925,13 +12071,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113940",
     "throughTripId": "HD_INB_TN-12_1759_113940",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_1729_113895",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113895",
+    "trainNumber": "461N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -12005,12 +12152,13 @@
         "departureTime": "18:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113895"
   },
   {
     "tripId": "HD_INB_TN-40_1748_113962",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113962",
+    "trainNumber": "464N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -12084,12 +12232,13 @@
         "departureTime": "18:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113962"
   },
   {
     "tripId": "HD_OUT_TN-12_1750_113896",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113896",
+    "trainNumber": "463N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -12163,12 +12312,13 @@
         "departureTime": "18:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113896"
   },
   {
     "tripId": "HD_OUT_TN-12_1810_113921",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113921",
+    "trainNumber": "465N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -12245,13 +12395,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113921",
     "prevTripId": "HD_OUT_TN-03_1730_113921",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_1811_113941",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113941",
+    "trainNumber": "466N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -12328,13 +12479,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113941",
     "throughTripId": "HD_INB_TN-12_1845_113941",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_1830_113897",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113897",
+    "trainNumber": "467N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -12408,12 +12560,13 @@
         "departureTime": "19:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113897"
   },
   {
     "tripId": "HD_INB_TN-40_1833_113963",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113963",
+    "trainNumber": "468N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -12487,12 +12640,13 @@
         "departureTime": "19:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113963"
   },
   {
     "tripId": "HD_OUT_TN-12_1851_113922",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113922",
+    "trainNumber": "469N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -12569,13 +12723,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113922",
     "prevTripId": "HD_OUT_TN-03_1812_113922",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_1853_113942",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113942",
+    "trainNumber": "470N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -12652,13 +12807,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113942",
     "throughTripId": "HD_INB_TN-12_1930_113942",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_1912_113943",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113943",
+    "trainNumber": "472N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -12735,13 +12891,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113943",
     "throughTripId": "HD_INB_TN-25_1845_113635",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_1920_113923",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113923",
+    "trainNumber": "471N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -12818,13 +12975,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113923",
     "prevTripId": "HD_OUT_TN-03_1835_113923",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_1935_113964",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113964",
+    "trainNumber": "474N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -12898,12 +13056,13 @@
         "departureTime": "20:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113964"
   },
   {
     "tripId": "HD_OUT_TN-12_1945_113898",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113898",
+    "trainNumber": "473N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -12977,12 +13136,13 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113898"
   },
   {
     "tripId": "HD_OUT_TN-12_2001_113924",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113924",
+    "trainNumber": "475N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -13059,13 +13219,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113924",
     "prevTripId": "HD_OUT_TN-03_1913_113924",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_2009_113965",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113965",
+    "trainNumber": "476N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -13139,12 +13300,13 @@
         "departureTime": "20:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113965"
   },
   {
     "tripId": "HD_OUT_TN-12_2023_113899",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113899",
+    "trainNumber": "477N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -13218,12 +13380,13 @@
         "departureTime": "20:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113899"
   },
   {
     "tripId": "HD_INB_TN-40_2039_113944",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113944",
+    "trainNumber": "478N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -13300,13 +13463,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113944",
     "throughTripId": "HD_INB_TN-12_2120_113944",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_2054_113900",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113900",
+    "trainNumber": "479N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -13380,12 +13544,13 @@
         "departureTime": "21:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113900"
   },
   {
     "tripId": "HD_INB_TN-40_2104_113966",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113966",
+    "trainNumber": "480N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -13459,12 +13624,13 @@
         "departureTime": "21:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113966"
   },
   {
     "tripId": "HD_OUT_TN-12_2132_113925",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113925",
+    "trainNumber": "481N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -13541,13 +13707,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113925",
     "prevTripId": "HD_OUT_TN-03_2052_113925",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_2132_113945",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113945",
+    "trainNumber": "482N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -13624,13 +13791,14 @@
       }
     ],
     "customOrigin": "東武宇都宮",
+    "trainId": "113945",
     "throughTripId": "HD_INB_TN-12_2208_113945",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_2217_113967",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113967",
+    "trainNumber": "484N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -13707,13 +13875,14 @@
     ],
     "customDestination": "栃木",
     "customOrigin": "東武宇都宮",
+    "trainId": "113967",
     "throughTripId": "HD_INB_TN-25_2152_113616",
     "throughLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_OUT_TN-12_2221_113904",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113904",
+    "trainNumber": "483N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -13790,13 +13959,14 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113904",
     "prevTripId": "HD_OUT_TN-11_2217_113904",
     "prevLineId": "tobu_nikko"
   },
   {
     "tripId": "HD_INB_TN-40_2307_113968",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113968",
+    "trainNumber": "486N",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TN-40",
@@ -13870,12 +14040,13 @@
         "departureTime": "23:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "113968"
   },
   {
     "tripId": "HD_OUT_TN-12_2321_113905",
     "lineId": "tobu_utsunomiya",
-    "trainNumber": "113905",
+    "trainNumber": "485N",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "TN-12",
@@ -13952,6 +14123,7 @@
       }
     ],
     "customDestination": "東武宇都宮",
+    "trainId": "113905",
     "prevTripId": "HD_OUT_TN-11_2317_113905",
     "prevLineId": "tobu_nikko"
   }

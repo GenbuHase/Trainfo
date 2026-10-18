@@ -2234,6 +2234,45 @@ if (target === 'hokuhoku' || target === 'all') {
 if (target === 'kita_shinano' || target === 'shinano' || target === 'all') {
   enrichGenericLine('kita_shinano', 'しなの鉄道北しなの線');
 }
+if (target === 'tobu_skytree' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('tobu_skytree', '東武スカイツリーライン');
+}
+if (target === 'tobu_isesaki' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('tobu_isesaki', '東武伊勢崎線');
+}
+if (target === 'tobu_kameido' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('tobu_kameido', '東武亀戸線');
+}
+if (target === 'tobu_daishi' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('tobu_daishi', '東武大師線');
+}
+if (target === 'tobu_sano' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('tobu_sano', '東武佐野線');
+}
+if (target === 'tobu_koizumi' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('tobu_koizumi', '東武小泉線');
+}
+if (target === 'tobu_kiryu' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('tobu_kiryu', '東武桐生線');
+}
+if (target === 'tobu_nikko' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('tobu_nikko', '東武日光線');
+}
+if (target === 'tobu_utsunomiya' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('tobu_utsunomiya', '東武宇都宮線');
+}
+if (target === 'tobu_kinugawa' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('tobu_kinugawa', '東武鬼怒川線');
+}
+if (target === 'tobu_urban_park' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('tobu_urban_park', '東武アーバンパークライン');
+}
+if (target === 'yagan' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('yagan', '野岩鉄道会津鬼怒川線');
+}
+if (target === 'aizu' || target === 'tobu' || target === 'all') {
+  enrichGenericLine('aizu', '会津鉄道会津線');
+}
 
 /**
  * Yahoo駅時刻表キャッシュ（stations/*.json）からの汎用公式列車番号エンリッチメント
@@ -2269,6 +2308,40 @@ function enrichGenericLine(lineId, lineName) {
     }
   }
 
+  // 近隣路線キャッシュの遅延ロード用
+  let fallbackMap = null;
+  function getFallbackVendorNo(dayKey, originalId) {
+    if (!fallbackMap) {
+      fallbackMap = new Map();
+      const neighborLines = [
+        'tobu_skytree', 'tobu_isesaki', 'tobu_nikko', 'tobu_kinugawa',
+        'yagan', 'aizu', 'tadami', 'ueno_tokyo', 'tokaido', 'utsunomiya', 'takasaki'
+      ];
+      for (const nLine of neighborLines) {
+        if (nLine === lineId) continue;
+        const nDir = path.resolve(`scripts/cache/yahoo/${nLine}/stations`);
+        if (!fs.existsSync(nDir)) continue;
+        const nFiles = fs.readdirSync(nDir).filter(f => f.endsWith('.json'));
+        for (const f of nFiles) {
+          const isH = f.includes('_k4');
+          const dKey = isH ? 'holiday' : 'weekday';
+          try {
+            const d = JSON.parse(fs.readFileSync(path.join(nDir, f), 'utf8'));
+            for (const h of d?.timetableItem?.hourTimeTable || []) {
+              for (const t of h.minTimeTable || []) {
+                if (t.trainId && t.vendorTrainId) {
+                  const k = `${dKey}_${t.trainId}`;
+                  if (!fallbackMap.has(k)) fallbackMap.set(k, t.vendorTrainId);
+                }
+              }
+            }
+          } catch (e) {}
+        }
+      }
+    }
+    return fallbackMap.get(`${dayKey}_${originalId}`) || null;
+  }
+
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
   const stationTimetables = fs.existsSync(stationPath)
     ? JSON.parse(fs.readFileSync(stationPath, 'utf8'))
@@ -2279,14 +2352,19 @@ function enrichGenericLine(lineId, lineName) {
   const trainIdToOfficialNo = new Map();
 
   for (const trip of trips) {
-    const originalId = trip.trainId || trip.trainNumber;
+    const tripIdSuffix = trip.tripId ? trip.tripId.split('_').pop() : '';
+    const originalId = trip.trainId || (/^\d+$/.test(tripIdSuffix) ? tripIdSuffix : (trip.trainNumber || tripIdSuffix));
     trip.trainId = originalId;
 
     const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
     const key = `${dayKey}_${originalId}`;
 
-    if (trainMap.has(key)) {
-      const vendorNo = trainMap.get(key);
+    let vendorNo = trainMap.get(key);
+    if (!vendorNo) {
+      vendorNo = getFallbackVendorNo(dayKey, originalId);
+    }
+
+    if (vendorNo) {
       trip.trainNumber = normalizeTrainNumber(vendorNo);
       trainIdToOfficialNo.set(originalId, trip.trainNumber);
       matchedCount++;

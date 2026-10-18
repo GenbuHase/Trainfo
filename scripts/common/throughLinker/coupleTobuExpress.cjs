@@ -8,6 +8,21 @@ const YahooTimetableBuilder = require('../yahoo/YahooTimetableBuilder.cjs');
  * （deduplicateLineTrips で消去されていた 25154 等の併結列車を復元）
  */
 function restoreSkytreeTrips() {
+  const outPath = path.resolve('src/data/lines/tobu_skytree/globalTimetable.json');
+  if (fs.existsSync(outPath)) {
+    const existing = JSON.parse(fs.readFileSync(outPath, 'utf8'));
+    const hasLibertyAizu = existing.some(t =>
+      t.trainId === '25154' ||
+      t.trainNumber === '25154' ||
+      t.trainNumber === '1101レ' ||
+      (t.tripId && t.tripId.includes('25154'))
+    );
+    if (hasLibertyAizu) {
+      console.log('[coupleTobuExpress] tobu_skytree trips already intact, skipping rebuild');
+      return;
+    }
+  }
+
   const cachePath = path.resolve('scripts/cache/yahoo/tobu_skytree/all_train_details.json');
   if (!fs.existsSync(cachePath)) {
     console.warn('[coupleTobuExpress] tobu_skytree cache not found:', cachePath);
@@ -16,9 +31,20 @@ function restoreSkytreeTrips() {
   const details = JSON.parse(fs.readFileSync(cachePath, 'utf8'));
   const builder = new YahooTimetableBuilder(config);
   const trips = builder.buildGlobalTimetable(details);
-  const outPath = path.resolve('src/data/lines/tobu_skytree/globalTimetable.json');
   fs.writeFileSync(outPath, JSON.stringify(trips, null, 2), 'utf8');
   console.log(`[coupleTobuExpress] Restored ${trips.length} trips in tobu_skytree/globalTimetable.json`);
+}
+
+/**
+ * トリップが指定したYahoo trainIdに一致するか判定
+ */
+function matchesTripId(trip, isHoliday, direction, targetId) {
+  if (!trip || trip.isHoliday !== isHoliday || trip.direction !== direction) return false;
+  return (
+    trip.trainId === targetId ||
+    trip.trainNumber === targetId ||
+    (trip.tripId && trip.tripId.endsWith(`_${targetId}`))
+  );
 }
 
 /**
@@ -58,8 +84,8 @@ function coupleTobuExpress() {
     // ---------------- 下り列車 ----------------
     for (const pair of DOWN_PAIRS) {
       // 1. スカイツリーライン側 (浅草 -> 東武動物公園)
-      const skyNikko = skytree.find(t => t.isHoliday === isHoliday && t.direction === 'outbound' && t.trainNumber === pair.nikkoId);
-      const skyOther = skytree.find(t => t.isHoliday === isHoliday && t.direction === 'outbound' && t.trainNumber === pair.otherId);
+      const skyNikko = skytree.find(t => matchesTripId(t, isHoliday, 'outbound', pair.nikkoId));
+      const skyOther = skytree.find(t => matchesTripId(t, isHoliday, 'outbound', pair.otherId));
 
       if (skyNikko && skyOther) {
         skyNikko.cars = 3;
@@ -86,8 +112,8 @@ function coupleTobuExpress() {
       }
 
       // 2. 日光線側 (東武動物公園 -> 下今市)
-      const nikkoTrip = nikko.find(t => t.isHoliday === isHoliday && t.direction === 'outbound' && t.trainNumber === pair.nikkoId);
-      const otherTrip = nikko.find(t => t.isHoliday === isHoliday && t.direction === 'outbound' && t.trainNumber === pair.otherId);
+      const nikkoTrip = nikko.find(t => matchesTripId(t, isHoliday, 'outbound', pair.nikkoId));
+      const otherTrip = nikko.find(t => matchesTripId(t, isHoliday, 'outbound', pair.otherId));
 
       if (nikkoTrip && otherTrip) {
         nikkoTrip.cars = 3;
@@ -117,8 +143,8 @@ function coupleTobuExpress() {
     // ---------------- 上り列車 ----------------
     for (const pair of UP_PAIRS) {
       // 1. 日光線側 (下今市 -> 東武動物公園)
-      const nikkoTrip = nikko.find(t => t.isHoliday === isHoliday && t.direction === 'inbound' && t.trainNumber === pair.nikkoId);
-      const otherTrip = nikko.find(t => t.isHoliday === isHoliday && t.direction === 'inbound' && t.trainNumber === pair.otherId);
+      const nikkoTrip = nikko.find(t => matchesTripId(t, isHoliday, 'inbound', pair.nikkoId));
+      const otherTrip = nikko.find(t => matchesTripId(t, isHoliday, 'inbound', pair.otherId));
 
       if (nikkoTrip && otherTrip) {
         nikkoTrip.cars = 3;
@@ -145,8 +171,8 @@ function coupleTobuExpress() {
       }
 
       // 2. スカイツリーライン側 (東武動物公園 -> 浅草)
-      const skyNikko = skytree.find(t => t.isHoliday === isHoliday && t.direction === 'inbound' && t.trainNumber === pair.nikkoId);
-      const skyOther = skytree.find(t => t.isHoliday === isHoliday && t.direction === 'inbound' && t.trainNumber === pair.otherId);
+      const skyNikko = skytree.find(t => matchesTripId(t, isHoliday, 'inbound', pair.nikkoId));
+      const skyOther = skytree.find(t => matchesTripId(t, isHoliday, 'inbound', pair.otherId));
 
       if (skyNikko && skyOther) {
         skyNikko.cars = 3;
