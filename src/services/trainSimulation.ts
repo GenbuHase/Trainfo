@@ -101,7 +101,10 @@ export function resolveActiveTrainInfo(
         }
         if (trip.coupling.coupledDestination && resolvedCustomDest) {
           if (!resolvedCustomDest.includes(trip.coupling.coupledDestination)) {
-            resolvedCustomDest = `${trip.coupling.coupledDestination}・${resolvedCustomDest}`;
+            resolvedCustomDest =
+              trip.coupling.role === 'SECONDARY'
+                ? `${trip.coupling.coupledDestination}・${resolvedCustomDest}`
+                : `${resolvedCustomDest}・${trip.coupling.coupledDestination}`;
           }
         }
       }

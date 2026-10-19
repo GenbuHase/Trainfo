@@ -361,6 +361,7 @@ export interface ThroughChainStop {
   };
   trainNumberChange?: string;
   couplingStart?: boolean;
+  couplingEnd?: boolean;
 }
 
 /**

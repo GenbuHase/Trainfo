@@ -530,8 +530,9 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
         }
       }
 
-      // 併結開始
+      // 併結開始 / 解結（切り離し）
       const couplingStart = trip.coupling?.fromStationId === s.stationId;
+      const couplingEnd = trip.coupling?.toStationId === s.stationId;
 
       // 直前の駅との境界判定 (先行トリップの末尾駅と後続トリップの先頭駅)
       if (tripIdx > 0 && stopIdx === 0 && stops.length > 0) {
@@ -556,6 +557,9 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
             prevTrainNumber: prevStop.trainNumber,
             nextTrainNumber: trip.trainNumber,
           };
+          if (couplingEnd) {
+            prevStop.couplingEnd = true;
+          }
           // 先頭駅は統合されたのでスキップ
           continue;
         }
@@ -578,6 +582,7 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
         isBoundary: false,
         trainNumberChange,
         couplingStart,
+        couplingEnd,
       });
     }
   }

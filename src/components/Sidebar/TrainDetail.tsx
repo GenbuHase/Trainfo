@@ -38,6 +38,7 @@ interface DisplayStop {
   boundaryInfo?: ThroughChainStop['boundaryInfo'];
   trainNumberChange?: string;
   couplingStart?: boolean;
+  couplingEnd?: boolean;
 }
 
 export const TrainDetail: React.FC<TrainDetailProps> = ({
@@ -153,6 +154,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
           boundaryInfo: s.boundaryInfo,
           trainNumberChange: s.trainNumberChange,
           couplingStart: s.couplingStart,
+          couplingEnd: s.couplingEnd,
         };
       });
     }
@@ -163,6 +165,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
       const isCurrent = train.currentStationId === s.stationId;
       const trainNumberChange = train.trainNumberSections?.find((sec) => sec.fromStationId === s.stationId)?.trainNumber;
       const couplingStart = train.coupling?.fromStationId === s.stationId;
+      const couplingEnd = train.coupling?.toStationId === s.stationId;
 
       return {
         stationId: s.stationId,
@@ -180,6 +183,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
         isBoundary: false,
         trainNumberChange,
         couplingStart,
+        couplingEnd,
       };
     });
   }, [isFullMode, throughSummary.stops, train, lineColor, lineShortName]);
@@ -216,7 +220,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
             <p className="text-xs text-slate-400 mt-1">
               始発: {train.customOrigin || originStation?.name || '始発駅'} 発
             </p>
-            {train.coupling && (
+            {train.isCoupledActive && train.coupling && (
               <p className="text-[11px] text-sky-300 mt-1.5 flex items-center gap-1 bg-sky-950/60 px-2 py-0.5 rounded border border-sky-800/60">
                 <span>🔗 併結相手:</span>
                 <strong className="font-mono">{train.coupling.coupledTrainNumber}</strong>
@@ -414,6 +418,12 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                         {stop.couplingStart && (
                           <span className="text-[9px] text-sky-800 bg-sky-100/80 border border-sky-300 px-1.5 py-0.5 rounded font-bold">
                             🔗 併結開始
+                          </span>
+                        )}
+                        {/* 切り離し（解結）駅インジケーター */}
+                        {stop.couplingEnd && (
+                          <span className="text-[9px] text-amber-800 bg-amber-100/80 border border-amber-300 px-1.5 py-0.5 rounded font-bold">
+                            ✂️ 切り離し
                           </span>
                         )}
                         {isPassing && (
