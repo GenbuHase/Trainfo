@@ -2,7 +2,6 @@ import { useEffect, useRef, useMemo } from 'react';
 import type { ActiveTrain, LineId } from '../types';
 import { STATION_MAP } from '../data/stations';
 import {
-  formatTrainNumber,
   getThroughChainTrips,
   timeStringToSeconds,
   getGlobalTripMap,
@@ -24,22 +23,29 @@ interface UseTrainTrackerResult {
   clearSelection: () => void;
 }
 
+interface CouplingConfigItem {
+  tripId: string;
+  coupling: NonNullable<import('../types').TimetableTrip['coupling']>;
+}
+
 /**
- * 指定したtripId、またはその直通運行チェーン内に存在する併結設定を取得
+ * 指定したtripId、またはその直通運行チェーン内に存在するすべての併結設定を取得
  */
-function findCouplingConfig(tripId: string) {
+function findAllCouplingConfigs(tripId: string): CouplingConfigItem[] {
   const tripMap = getGlobalTripMap();
-  const trip = tripMap.get(tripId);
-  if (trip?.coupling) {
-    return { trip, coupling: trip.coupling };
-  }
+  const results: CouplingConfigItem[] = [];
+  const seenTripIds = new Set<string>();
+
   const chainTrips = getThroughChainTrips(tripId);
-  for (const t of chainTrips) {
-    if (t.coupling) {
-      return { trip: t, coupling: t.coupling };
+  const allTrips = chainTrips.length > 0 ? chainTrips : [tripMap.get(tripId)].filter(Boolean) as import('../types').TimetableTrip[];
+
+  for (const t of allTrips) {
+    if (t.coupling && !seenTripIds.has(t.tripId)) {
+      seenTripIds.add(t.tripId);
+      results.push({ tripId: t.tripId, coupling: t.coupling });
     }
   }
-  return null;
+  return results;
 }
 
 /**
@@ -129,11 +135,10 @@ export function useTrainTracker({
     }
 
     // C. 併結運転（Coupling）のハンドオーバー判定
-    // 自列車が併結元の従属編成（SECONDARY）である場合、または自列車が activeTrains に見つからない場合：
-    // 併結相手（PRIMARY）が併結状態（isCoupledActive: true）で走行・停車中であれば PRIMARY へシームレスにハンドオーバー
-    const couplingInfo = findCouplingConfig(selectedTrainId);
-    if (couplingInfo) {
-      const coupledTripId = couplingInfo.coupling.coupledTripId;
+    // 自列車の直通運行チェーン内に存在するすべての併結設定から、現在運行中かつ併結アクティブな主編成（PRIMARY）を探索
+    const couplingConfigs = findAllCouplingConfigs(selectedTrainId);
+    for (const info of couplingConfigs) {
+      const coupledTripId = info.coupling.coupledTripId;
       const coupledChain = getThroughChainTrips(coupledTripId);
       const coupledChainIds = new Set(coupledChain.map((t) => t.tripId));
       coupledChainIds.add(coupledTripId);
@@ -152,17 +157,15 @@ export function useTrainTracker({
         if (
           !selfActive ||
           selfActive.isCoupledActive ||
-          (couplingInfo.coupling.role === 'SECONDARY' &&
-            selfActive.currentStationId === couplingInfo.coupling.fromStationId)
+          (info.coupling.role === 'SECONDARY' &&
+            selfActive.currentStationId === info.coupling.fromStationId)
         ) {
-          // 自列車（SECONDARY）本来の始発駅をチェーンおよび直前情報から探索
+          // 自列車（SECONDARY）本来の始発駅をチェーン情報から探索
           const selfChain = getThroughChainTrips(selectedTrainId);
           const firstSelfTrip = selfChain[0];
           const selfOrigin =
             firstSelfTrip?.customOrigin ||
-            (firstSelfTrip ? STATION_MAP.get(firstSelfTrip.originStationId)?.name : undefined) ||
-            lastSelectedTrainRef.current?.customOrigin ||
-            (lastSelectedTrainRef.current ? STATION_MAP.get(lastSelectedTrainRef.current.originStationId)?.name : undefined);
+            (firstSelfTrip ? STATION_MAP.get(firstSelfTrip.originStationId)?.name : undefined);
 
           // primaryCandidate 自体のオブジェクトを汚染しないようシャローコピーを作成し、
           // 自列車の始発駅を反映して返す
@@ -177,20 +180,16 @@ export function useTrainTracker({
 
     // D. 自系統が運行中の場合は selfActive を返す
     if (selfActive) {
-      const prev = lastSelectedTrainRef.current;
+      const selfChain = getThroughChainTrips(selectedTrainId);
+      const firstSelfTrip = selfChain[0];
+      const selfOrigin =
+        firstSelfTrip?.customOrigin ||
+        (firstSelfTrip ? STATION_MAP.get(firstSelfTrip.originStationId)?.name : undefined);
       if (
-        prev &&
-        (prev.tripId === selfActive.tripId ||
-          formatTrainNumber(prev.trainNumber, prev.tripId) ===
-            formatTrainNumber(selfActive.trainNumber, selfActive.tripId))
+        selfOrigin &&
+        (!selfActive.customOrigin || selfActive.customOrigin === STATION_MAP.get(selfActive.originStationId)?.name)
       ) {
-        const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
-        if (
-          prevOrigin &&
-          (!selfActive.customOrigin || selfActive.customOrigin === STATION_MAP.get(selfActive.originStationId)?.name)
-        ) {
-          selfActive.customOrigin = prevOrigin;
-        }
+        selfActive.customOrigin = selfOrigin;
       }
       return selfActive;
     }
@@ -245,12 +244,14 @@ export function useTrainTracker({
     }
 
     // 併結相手の直通チェーンの路線も自動追加
-    const couplingInfo = findCouplingConfig(baseTripId);
-    if (couplingInfo?.coupling?.coupledTripId) {
-      const coupledChain = getThroughChainTrips(couplingInfo.coupling.coupledTripId);
-      for (const t of coupledChain) {
-        if (t.lineId && !selectedLineIds.includes(t.lineId) && !neededLines.includes(t.lineId)) {
-          neededLines.push(t.lineId);
+    const couplingConfigs = findAllCouplingConfigs(baseTripId);
+    for (const info of couplingConfigs) {
+      if (info.coupling.coupledTripId) {
+        const coupledChain = getThroughChainTrips(info.coupling.coupledTripId);
+        for (const t of coupledChain) {
+          if (t.lineId && !selectedLineIds.includes(t.lineId) && !neededLines.includes(t.lineId)) {
+            neededLines.push(t.lineId);
+          }
         }
       }
     }
@@ -267,10 +268,12 @@ export function useTrainTracker({
 
     const chainTrips = getThroughChainTrips(baseTripId);
     const allTrips = [...chainTrips];
-    const couplingInfo = findCouplingConfig(baseTripId);
-    if (couplingInfo?.coupling?.coupledTripId) {
-      const coupledChain = getThroughChainTrips(couplingInfo.coupling.coupledTripId);
-      allTrips.push(...coupledChain);
+    const couplingConfigs = findAllCouplingConfigs(baseTripId);
+    for (const info of couplingConfigs) {
+      if (info.coupling.coupledTripId) {
+        const coupledChain = getThroughChainTrips(info.coupling.coupledTripId);
+        allTrips.push(...coupledChain);
+      }
     }
 
     const runningTrip = allTrips.find((t) => {
@@ -302,10 +305,12 @@ export function useTrainTracker({
       if (baseTripId) {
         const chainTrips = getThroughChainTrips(baseTripId);
         const allTrips = [...chainTrips];
-        const couplingInfo = findCouplingConfig(baseTripId);
-        if (couplingInfo?.coupling?.coupledTripId) {
-          const coupledChain = getThroughChainTrips(couplingInfo.coupling.coupledTripId);
-          allTrips.push(...coupledChain);
+        const couplingConfigs = findAllCouplingConfigs(baseTripId);
+        for (const info of couplingConfigs) {
+          if (info.coupling.coupledTripId) {
+            const coupledChain = getThroughChainTrips(info.coupling.coupledTripId);
+            allTrips.push(...coupledChain);
+          }
         }
 
         if (allTrips.length > 0) {

@@ -77,18 +77,20 @@ export function resolveActiveTrainInfo(
       const maxIdx = Math.max(fromIdx, toIdx);
 
       // 解結駅（toStationId）に到着した時点、または解結駅より先へ走行している場合は解結済み（isCoupledActive = false）
-      // 併結中となるのは: fromIdx から toIdx の手前まで（走行中は次駅が toIdx を超えないこと）
+      // ただし直通先（throughTripId）へ併結が継続している場合、境界駅（maxIdx）は解結駅ではないため併結を維持
+      const continuesThrough = Boolean(trip.throughTripId);
       let inCoupledRange = false;
       if (nextStationId) {
         const nextIdx = trip.stops.findIndex((s) => s.stationId === nextStationId);
         if (nextIdx !== -1) {
-          inCoupledRange = curIdx >= minIdx && nextIdx <= maxIdx;
+          inCoupledRange = curIdx >= minIdx && (continuesThrough ? nextIdx <= maxIdx : nextIdx < maxIdx);
         } else {
-          inCoupledRange = curIdx >= minIdx && curIdx < maxIdx;
+          inCoupledRange = curIdx >= minIdx && (continuesThrough ? curIdx <= maxIdx : curIdx < maxIdx);
         }
       } else {
-        // 停車中の場合: 解結駅（maxIdx）では既に分割作業・別発車となるため解結済み
-        inCoupledRange = curIdx >= minIdx && curIdx < maxIdx;
+        // 停車中の場合: 解結駅（maxIdx）では通常分割作業となるため解結済みだが、
+        // 直通先へ継続する場合は境界駅でも併結状態を維持
+        inCoupledRange = curIdx >= minIdx && (continuesThrough ? curIdx <= maxIdx : curIdx < maxIdx);
       }
 
       if (inCoupledRange) {
