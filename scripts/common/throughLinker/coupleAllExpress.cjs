@@ -39,6 +39,27 @@ function restoreTohokuDownTrips(thTrips) {
   const yDetails = JSON.parse(fs.readFileSync(yPath, 'utf8'));
   const aDetails = JSON.parse(fs.readFileSync(aPath, 'utf8'));
 
+  // 山形新幹線・秋田新幹線のエンリッチ済み globalTimetable から trainId -> trainNumber マップを構築
+  const officialNoMap = new Map();
+  const yGtPath = path.resolve('src/data/lines/yamagata_shinkansen/globalTimetable.json');
+  const aGtPath = path.resolve('src/data/lines/akita_shinkansen/globalTimetable.json');
+  if (fs.existsSync(yGtPath)) {
+    const yGt = JSON.parse(fs.readFileSync(yGtPath, 'utf8'));
+    for (const t of yGt) {
+      if (t.trainId && t.trainNumber && !/^\d+$/.test(t.trainNumber)) {
+        officialNoMap.set(t.trainId, t.trainNumber);
+      }
+    }
+  }
+  if (fs.existsSync(aGtPath)) {
+    const aGt = JSON.parse(fs.readFileSync(aGtPath, 'utf8'));
+    for (const t of aGt) {
+      if (t.trainId && t.trainNumber && !/^\d+$/.test(t.trainNumber)) {
+        officialNoMap.set(t.trainId, t.trainNumber);
+      }
+    }
+  }
+
   const yDown = yDetails.filter(t => t.direction === 'outbound' && t.displayName.includes('つばさ') && t.stopStation.some(s => s.stationName === '東京'));
   const aDown = aDetails.filter(t => t.direction === 'outbound' && t.displayName.includes('こまち') && t.stopStation.some(s => s.stationName === '東京'));
 
@@ -49,14 +70,36 @@ function restoreTohokuDownTrips(thTrips) {
 
   let added = 0;
   for (const t of [...generatedY, ...generatedA]) {
-    const key = t.tripId || `${t.isHoliday ? 'H' : 'W'}_${t.direction}_${t.trainId || t.trainNumber}`;
+    const originalTrainId = t.trainId || t.trainNumber;
+    t.trainId = originalTrainId;
+
+    // 公式列車番号の解決: 1) エンリッチ済み時刻表マップ、2) displayName からの号数抽出
+    if (officialNoMap.has(originalTrainId)) {
+      t.trainNumber = officialNoMap.get(originalTrainId);
+    } else {
+      const detail = yDetails.find(d => d.trainId === originalTrainId) || aDetails.find(d => d.trainId === originalTrainId);
+      if (detail && detail.displayName) {
+        const tsubasaMatch = detail.displayName.match(/つばさ(\d+)号/);
+        if (tsubasaMatch) {
+          const num = parseInt(tsubasaMatch[1], 10);
+          t.trainNumber = `${num >= 70 && num <= 99 ? 8000 + num : num}M`;
+        }
+        const komachiMatch = detail.displayName.match(/こまち(\d+)号/);
+        if (komachiMatch) {
+          const num = parseInt(komachiMatch[1], 10);
+          t.trainNumber = `${num >= 60 && num <= 99 ? 8000 + num : 3000 + num}M`;
+        }
+      }
+    }
+
+    const key = t.tripId || `${t.isHoliday ? 'H' : 'W'}_${t.direction}_${originalTrainId}`;
     if (!existingIds.has(key)) {
       thTrips.push(t);
       existingIds.add(key);
       added++;
     }
   }
-  console.log(`[coupleAllExpress] 東北新幹線に下りつばさ・こまち ${added} 便を復元注入`);
+  console.log(`[coupleAllExpress] 東北新幹線に下りつばさ・こまち ${added} 便を公式番号で復元注入`);
   return thTrips;
 }
 
@@ -231,6 +274,17 @@ function coupleTohokuShinkansen() {
 
           count += 2;
         }
+      }
+    }
+  }
+
+  // 併結相手（coupledTripId）の最新 trainNumber で coupledTrainNumber を全件確実に同期
+  const tripMap = new Map(trips.map(t => [t.tripId, t]));
+  for (const t of trips) {
+    if (t.coupling && t.coupling.coupledTripId) {
+      const partner = tripMap.get(t.coupling.coupledTripId);
+      if (partner && partner.trainNumber && !/^\d+$/.test(partner.trainNumber)) {
+        t.coupling.coupledTrainNumber = partner.trainNumber;
       }
     }
   }

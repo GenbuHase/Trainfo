@@ -761,6 +761,25 @@ function executeUniversalThroughLinker(options = {}) {
     console.log(`🧹 相手が存在しない孤立カップリングを ${orphanCouplingCount} 件クリーンアップしました`);
   }
 
+  // 5.6 併結相手（coupledTripId）の最新 trainNumber で coupledTrainNumber を全自動同期
+  let updatedCoupledNoCount = 0;
+  for (const trips of lineTrips.values()) {
+    for (const t of trips) {
+      if (t.coupling && t.coupling.coupledTripId) {
+        const partner = allTripsMap.get(t.coupling.coupledTripId);
+        if (partner && partner.trainNumber && !/^\d+$/.test(partner.trainNumber)) {
+          if (t.coupling.coupledTrainNumber !== partner.trainNumber) {
+            t.coupling.coupledTrainNumber = partner.trainNumber;
+            updatedCoupledNoCount++;
+          }
+        }
+      }
+    }
+  }
+  if (updatedCoupledNoCount > 0) {
+    console.log(`🔗 併結相手の公式列車番号（coupledTrainNumber）を ${updatedCoupledNoCount} 件同期更新しました`);
+  }
+
   // 6. 全路線の globalTimetable.json を安全に書き出し
   console.log('\n--- globalTimetable.json 保存 ---');
   for (const [lineId, trips] of lineTrips.entries()) {

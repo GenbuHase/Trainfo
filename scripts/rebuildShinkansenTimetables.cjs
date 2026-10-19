@@ -110,6 +110,20 @@ for (const lineId of SHINKANSEN_LINES) {
     hasAnomaly = true;
   }
 
+  // 新幹線路線に未反映の生数字列車番号が残っていないか監査
+  const rawNumberTrips = gt.filter(t => !t.trainNumber || /^\d+$/.test(t.trainNumber));
+  if (rawNumberTrips.length > 0) {
+    console.error(`❌ [Anomaly] ${lineId} に未反映の列車番号が ${rawNumberTrips.length} 件存在します！ (例: ${rawNumberTrips[0].trainNumber || 'empty'})`);
+    hasAnomaly = true;
+  }
+
+  // 併結相手の列車番号（coupledTrainNumber）が生数字のまま残っていないか監査
+  const rawCoupledTrips = gt.filter(t => t.coupling && t.coupling.coupledTrainNumber && /^\d+$/.test(t.coupling.coupledTrainNumber));
+  if (rawCoupledTrips.length > 0) {
+    console.error(`❌ [Anomaly] ${lineId} に未反映の併結列車番号（coupledTrainNumber）が ${rawCoupledTrips.length} 件存在します！ (例: ${rawCoupledTrips[0].coupling.coupledTrainNumber})`);
+    hasAnomaly = true;
+  }
+
   // 駅時刻表の監査
   if (fs.existsSync(stPath)) {
     const st = JSON.parse(fs.readFileSync(stPath, 'utf8'));
