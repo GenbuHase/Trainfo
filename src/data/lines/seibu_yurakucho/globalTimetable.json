@@ -401,11 +401,13 @@
       {
         "stationId": "SI-37",
         "arrivalTime": "06:44:00",
-        "departureTime": "06:50:00",
+        "departureTime": "06:44:00",
         "isPassing": false
       }
     ],
     "trainId": "144613",
+    "throughTripId": "WD_OUT_F-06_0650_144613",
+    "throughLineId": "fukutoshin",
     "prevTripId": "WD_INB_SI-19_0602_144613",
     "prevLineId": "seibu_ikebukuro"
   },
@@ -706,6 +708,8 @@
       }
     ],
     "trainId": "77760",
+    "prevTripId": "WD_INB_Y-24_0629_77760",
+    "prevLineId": "yurakucho",
     "throughTripId": "WD_OUT_SI-06_0721_77760",
     "throughLineId": "seibu_ikebukuro"
   },
@@ -2713,13 +2717,15 @@
       {
         "stationId": "SI-06",
         "arrivalTime": "09:50:00",
-        "departureTime": "09:56:00",
+        "departureTime": "09:50:00",
         "isPassing": false
       }
     ],
     "trainId": "105773",
     "prevTripId": "WD_INB_F-16_0921_105773",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "throughTripId": "WD_OUT_SI-06_0956_105773",
+    "throughLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "WD_INB_SI-06_0950_144641",
@@ -8411,11 +8417,13 @@
       {
         "stationId": "SI-37",
         "arrivalTime": "19:15:00",
-        "departureTime": "19:21:00",
+        "departureTime": "19:15:00",
         "isPassing": false
       }
     ],
     "trainId": "144556",
+    "throughTripId": "WD_OUT_F-06_1921_144556",
+    "throughLineId": "fukutoshin",
     "prevTripId": "WD_INB_SI-12_1855_144556",
     "prevLineId": "seibu_ikebukuro"
   },
@@ -11181,7 +11189,9 @@
     ],
     "trainId": "144621",
     "throughTripId": "HD_OUT_F-06_0701_144621",
-    "throughLineId": "fukutoshin"
+    "throughLineId": "fukutoshin",
+    "prevTripId": "HD_INB_SI-19_0616_144621",
+    "prevLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_OUT_SI-37_0658_105794",
@@ -17519,13 +17529,15 @@
       {
         "stationId": "SI-06",
         "arrivalTime": "17:38:00",
-        "departureTime": "17:45:00",
+        "departureTime": "17:38:00",
         "isPassing": false
       }
     ],
     "trainId": "77699",
     "prevTripId": "HD_INB_Y-24_1651_77699",
-    "prevLineId": "yurakucho"
+    "prevLineId": "yurakucho",
+    "throughTripId": "HD_OUT_SI-06_1745_77699",
+    "throughLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_INB_SI-06_1735_144386",
@@ -17561,7 +17573,9 @@
     ],
     "trainId": "144386",
     "throughTripId": "HD_OUT_Y-06_1741_144386",
-    "throughLineId": "yurakucho"
+    "throughLineId": "yurakucho",
+    "prevTripId": "HD_INB_SI-10_1721_144386",
+    "prevLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_INB_SI-06_1741_144506",
@@ -18243,7 +18257,9 @@
     ],
     "trainId": "144494",
     "throughTripId": "HD_OUT_Y-06_1855_144494",
-    "throughLineId": "yurakucho"
+    "throughLineId": "yurakucho",
+    "prevTripId": "HD_INB_SI-19_1803_144494",
+    "prevLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_OUT_SI-37_1852_105749",
@@ -18393,7 +18409,9 @@
     ],
     "trainId": "144507",
     "throughTripId": "HD_OUT_F-06_1907_144507",
-    "throughLineId": "fukutoshin"
+    "throughLineId": "fukutoshin",
+    "prevTripId": "HD_INB_SI-10_1847_144507",
+    "prevLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_OUT_SI-37_1904_77705",
@@ -19145,11 +19163,13 @@
       {
         "stationId": "SI-37",
         "arrivalTime": "20:24:00",
-        "departureTime": "20:31:00",
+        "departureTime": "20:24:00",
         "isPassing": false
       }
     ],
     "trainId": "144638",
+    "throughTripId": "HD_OUT_F-06_2031_144638",
+    "throughLineId": "fukutoshin",
     "prevTripId": "HD_INB_SI-26_1926_144638",
     "prevLineId": "seibu_ikebukuro"
   },
@@ -19485,11 +19505,15 @@
       {
         "stationId": "SI-37",
         "arrivalTime": "21:05:00",
-        "departureTime": "21:11:00",
+        "departureTime": "21:05:00",
         "isPassing": false
       }
     ],
-    "trainId": "144565"
+    "trainId": "144565",
+    "throughTripId": "HD_OUT_F-06_2111_144565",
+    "throughLineId": "fukutoshin",
+    "prevTripId": "HD_INB_SI-15_2033_144565",
+    "prevLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_OUT_SI-37_2102_105719",
@@ -19633,11 +19657,13 @@
       {
         "stationId": "SI-37",
         "arrivalTime": "21:24:00",
-        "departureTime": "21:30:00",
+        "departureTime": "21:24:00",
         "isPassing": false
       }
     ],
     "trainId": "144611",
+    "throughTripId": "HD_OUT_F-06_2130_144611",
+    "throughLineId": "fukutoshin",
     "prevTripId": "HD_INB_SI-19_2044_144611",
     "prevLineId": "seibu_ikebukuro"
   },
@@ -19865,7 +19891,9 @@
     ],
     "trainId": "144552",
     "throughTripId": "HD_OUT_F-06_2155_144552",
-    "throughLineId": "fukutoshin"
+    "throughLineId": "fukutoshin",
+    "prevTripId": "HD_INB_SI-12_2129_144552",
+    "prevLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_OUT_SI-37_2150_77794",
@@ -19939,7 +19967,9 @@
     ],
     "trainId": "144396",
     "throughTripId": "HD_OUT_Y-06_2211_144396",
-    "throughLineId": "yurakucho"
+    "throughLineId": "yurakucho",
+    "prevTripId": "HD_INB_SI-10_2146_144396",
+    "prevLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_OUT_SI-37_2206_105766",
@@ -20007,11 +20037,13 @@
       {
         "stationId": "SI-37",
         "arrivalTime": "22:15:00",
-        "departureTime": "22:25:00",
+        "departureTime": "22:15:00",
         "isPassing": false
       }
     ],
     "trainId": "144567",
+    "throughTripId": "HD_OUT_F-06_2225_144567",
+    "throughLineId": "fukutoshin",
     "prevTripId": "HD_INB_SI-15_2145_144567",
     "prevLineId": "seibu_ikebukuro"
   },
@@ -20385,13 +20417,15 @@
       {
         "stationId": "SI-06",
         "arrivalTime": "23:31:00",
-        "departureTime": "23:38:00",
+        "departureTime": "23:31:00",
         "isPassing": false
       }
     ],
     "trainId": "105752",
     "prevTripId": "HD_INB_F-16_2301_105752",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "throughTripId": "HD_OUT_SI-06_2338_105752",
+    "throughLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_INB_SI-06_2330_144371",

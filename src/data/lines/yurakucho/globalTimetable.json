@@ -5096,11 +5096,14 @@
       {
         "stationId": "Y-06",
         "arrivalTime": "07:08:00",
-        "departureTime": "07:15:00",
+        "departureTime": "07:08:00",
         "isPassing": false
       }
     ],
-    "trainId": "77760"
+    "trainId": "77760",
+    "customOrigin": "新木場",
+    "throughTripId": "WD_OUT_SI-37_0715_77760",
+    "throughLineId": "seibu_yurakucho"
   },
   {
     "tripId": "WD_OUT_Y-06_0632_144462",
@@ -66851,7 +66854,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114885"
+    "trainId": "114885",
+    "customDestination": "新木場",
+    "prevTripId": "WD_INB_TJ-22_2306_114885",
+    "prevLineId": "tojo"
   },
   {
     "tripId": "WD_INB_Y-24_2340_77588",

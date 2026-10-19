@@ -1604,11 +1604,14 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "16:48:00",
-        "departureTime": "16:50:00",
+        "departureTime": "16:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "8688"
+    "trainId": "8688",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1707_6161",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1535_35567",
@@ -2734,7 +2737,9 @@
       }
     ],
     "trainId": "35594",
-    "customDestination": "秋田"
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1720_35594",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_2000_35597",
@@ -4824,11 +4829,14 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "16:48:00",
-        "departureTime": "16:50:00",
+        "departureTime": "16:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "8688"
+    "trainId": "8688",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1707_6161",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1535_35567",

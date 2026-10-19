@@ -3469,7 +3469,7 @@
     "stops": [
       {
         "stationId": "CB-04",
-        "arrivalTime": "11:50:00",
+        "arrivalTime": "11:47:00",
         "departureTime": "11:58:00",
         "isPassing": false
       },
@@ -3511,7 +3511,10 @@
       }
     ],
     "trainId": "39002",
-    "trainName": "ふじさん3号"
+    "trainName": "ふじさん3号",
+    "customDestination": "御殿場",
+    "prevTripId": "WD_OUT_OH-01_1040_38877",
+    "prevLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_INB_CB-18_1218_18076",
@@ -5136,7 +5139,7 @@
     "stops": [
       {
         "stationId": "CB-04",
-        "arrivalTime": "15:49:00",
+        "arrivalTime": "15:46:00",
         "departureTime": "15:57:00",
         "isPassing": false
       },
@@ -5178,7 +5181,10 @@
       }
     ],
     "trainId": "39004",
-    "trainName": "ふじさん5号"
+    "trainName": "ふじさん5号",
+    "customDestination": "御殿場",
+    "prevTripId": "WD_OUT_OH-01_1440_38879",
+    "prevLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_INB_CB-18_1600_18078",
@@ -11913,7 +11919,7 @@
     "stops": [
       {
         "stationId": "CB-04",
-        "arrivalTime": "11:50:00",
+        "arrivalTime": "11:47:00",
         "departureTime": "11:58:00",
         "isPassing": false
       },
@@ -11955,7 +11961,10 @@
       }
     ],
     "trainId": "39003",
-    "trainName": "ふじさん3号"
+    "trainName": "ふじさん3号",
+    "customDestination": "御殿場",
+    "prevTripId": "HD_OUT_OH-01_1040_38878",
+    "prevLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_INB_CB-18_1218_18076",
@@ -13584,7 +13593,7 @@
     "stops": [
       {
         "stationId": "CB-04",
-        "arrivalTime": "15:49:00",
+        "arrivalTime": "15:46:00",
         "departureTime": "15:57:00",
         "isPassing": false
       },
@@ -13626,7 +13635,10 @@
       }
     ],
     "trainId": "39005",
-    "trainName": "ふじさん5号"
+    "trainName": "ふじさん5号",
+    "customDestination": "御殿場",
+    "prevTripId": "HD_OUT_OH-01_1440_38880",
+    "prevLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_INB_CB-18_1600_18078",

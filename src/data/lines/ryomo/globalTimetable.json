@@ -7233,8 +7233,8 @@
     ],
     "trainId": "33439",
     "customOrigin": "前橋",
-    "throughTripId": "HD_INB_JOE-04_0536_33439",
-    "throughLineId": "joetsu"
+    "throughTripId": "HD_INB_TK-25_0610_33439",
+    "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_INB_RY-12_0552_37437",
@@ -13922,7 +13922,7 @@
     "stops": [
       {
         "stationId": "RY-18",
-        "arrivalTime": "23:02:00",
+        "arrivalTime": "22:31:00",
         "departureTime": "23:03:00",
         "isPassing": false
       },
@@ -13933,7 +13933,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33716"
+    "trainId": "33716",
+    "customDestination": "前橋",
+    "prevTripId": "HD_OUT_TK-04_2054_33716",
+    "prevLineId": "takasaki"
   },
   {
     "tripId": "HD_OUT_RY-01_2312_10064",

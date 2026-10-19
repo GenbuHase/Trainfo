@@ -414,8 +414,9 @@ function linkPair({
       const destB = getEffectiveDestination(tB, stationMap);
 
       // 1. 完全一致 (Yahoo trainId または 公式列車番号)
-      const isIdMatch = (yIdA && yIdB && yIdA === yIdB && diff <= maxTimeDiff) || (noA && noB && noA === noB && diff <= maxTimeDiff);
-      if (isIdMatch) {
+      // 同一列車番号またはYahoo IDを持つ列車は一意であるため、因果律を満たしていれば固定のmaxTimeDiffに縛られず自動マッチ（連結作業や長時間停車にも完全対応）
+      const isIdMatch = (yIdA && yIdB && yIdA === yIdB) || (noA && noB && noA === noB);
+      if (isIdMatch && waitSec >= -60 && waitSec <= 7200) {
         // 行先が両方存在し、かつ互換性がない場合は誤マッチ（併結列車の別編成など）なので即決しない
         if (destA && destB && !areDestinationsCompatible(destA, destB)) {
           // スキップして次の候補へ
@@ -429,7 +430,13 @@ function linkPair({
       if (requireIdMatch) continue;
 
       // 2. 因果律: 出発時刻は到着時刻以降（ダイヤ丸め誤差 -30秒まで許容）
-      if (waitSec < -30 || waitSec > maxTimeDiff) continue;
+      // 行先が相手路線を明示している直通便は最大1800秒（30分）まで自動許容、一般普通列車はデフォルト900秒（15分）
+      const isDestCompatible = destA && destB && areDestinationsCompatible(destA, destB);
+      const effectiveMaxWait = isDestCompatible
+        ? Math.max(maxTimeDiff || 900, 1800)
+        : (maxTimeDiff || 900);
+
+      if (waitSec < -30 || waitSec > effectiveMaxWait) continue;
 
       let score = Math.max(0, waitSec); // 待機時間が短いほど好ましい
 
@@ -445,6 +452,28 @@ function linkPair({
       // 優等/普通整合性ボーナス
       if (isExpressType(tA.trainType) === isExpressType(tB.trainType)) {
         score -= 300;
+      }
+
+      // 併結・分割支線列車（富士回遊 _fuji 等）の親・子系統整合性ボーナス
+      const fujiNumbers = new Set(['2103M', '2107M', '2111M', '2115M', '8111M', '9193M', '2132M', '2136M', '2144M', '2148M', '8194M', '9178M']);
+      const isFujiA = (tA.tripId && tA.tripId.includes('_fuji')) ||
+                      (tA.customDestination && tA.customDestination.includes('河口湖')) ||
+                      tA.destinationStationId === 'FJ-18' ||
+                      tA.originStationId === 'FJ-18' ||
+                      tA.prevLineId === 'fujikyu' ||
+                      tA.throughLineId === 'fujikyu' ||
+                      fujiNumbers.has(tA.trainNumber);
+      const isFujiB = (tB.tripId && tB.tripId.includes('_fuji')) ||
+                      (tB.customDestination && tB.customDestination.includes('河口湖')) ||
+                      tB.destinationStationId === 'FJ-18' ||
+                      tB.originStationId === 'FJ-18' ||
+                      tB.prevLineId === 'fujikyu' ||
+                      tB.throughLineId === 'fujikyu' ||
+                      fujiNumbers.has(tB.trainNumber);
+      if (isFujiA && isFujiB) {
+        score -= 4000;
+      } else if (isFujiA !== isFujiB) {
+        score += 4000; // 富士回遊が甲府行きかいじとクロス誤マッチするのを防止
       }
 
       if (score < bestScore) {

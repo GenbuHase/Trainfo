@@ -940,7 +940,7 @@
     ],
     "trainId": "32692",
     "customOrigin": "熱海",
-    "throughTripId": "WD_OUT_IZ-01_1045_39558",
+    "throughTripId": "WD_OUT_IZ-01_1048_32711",
     "throughLineId": "izukyu"
   },
   {
@@ -1050,7 +1050,7 @@
     "trainId": "39527",
     "prevTripId": "WD_OUT_JT-01_0900_39527",
     "prevLineId": "tokaido",
-    "throughTripId": "WD_OUT_IZ-01_1048_32711",
+    "throughTripId": "WD_OUT_IZ-01_1045_39558",
     "throughLineId": "izukyu"
   },
   {
@@ -1724,7 +1724,7 @@
     "stops": [
       {
         "stationId": "JT-26",
-        "arrivalTime": "13:01:00",
+        "arrivalTime": "12:36:00",
         "departureTime": "13:05:00",
         "isPassing": false
       },
@@ -1762,7 +1762,7 @@
     "trainId": "31146",
     "throughTripId": "WD_INB_JT-21_1332_31146",
     "throughLineId": "tokaido",
-    "prevTripId": "WD_INB_IZ-16_1206_31165",
+    "prevTripId": "WD_INB_IZ-16_1131_31164",
     "prevLineId": "izukyu"
   },
   {
@@ -3756,7 +3756,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "42914"
+    "trainId": "42914",
+    "customDestination": "伊東",
+    "prevTripId": "WD_OUT_JT-01_1732_42914",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_JT-26_1944_29706",
@@ -5467,7 +5470,7 @@
     ],
     "trainId": "32692",
     "customOrigin": "熱海",
-    "throughTripId": "HD_OUT_IZ-01_1045_39558",
+    "throughTripId": "HD_OUT_IZ-01_1048_32711",
     "throughLineId": "izukyu"
   },
   {
@@ -5577,7 +5580,7 @@
     "trainId": "39527",
     "prevTripId": "HD_OUT_JT-01_0900_39527",
     "prevLineId": "tokaido",
-    "throughTripId": "HD_OUT_IZ-01_1048_32711",
+    "throughTripId": "HD_OUT_IZ-01_1045_39558",
     "throughLineId": "izukyu"
   },
   {
@@ -6363,7 +6366,7 @@
     "stops": [
       {
         "stationId": "JT-26",
-        "arrivalTime": "13:01:00",
+        "arrivalTime": "12:36:00",
         "departureTime": "13:05:00",
         "isPassing": false
       },
@@ -6401,7 +6404,7 @@
     "trainId": "31146",
     "throughTripId": "HD_INB_JT-21_1332_31146",
     "throughLineId": "tokaido",
-    "prevTripId": "HD_INB_IZ-16_1206_31165",
+    "prevTripId": "HD_INB_IZ-16_1131_31164",
     "prevLineId": "izukyu"
   },
   {
@@ -7378,11 +7381,13 @@
       {
         "stationId": "JT-21",
         "arrivalTime": "15:54:00",
-        "departureTime": "16:00:00",
+        "departureTime": "15:54:00",
         "isPassing": false
       }
     ],
     "trainId": "31150",
+    "throughTripId": "HD_INB_JT-21_1600_31150",
+    "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IZ-16_1434_31169",
     "prevLineId": "izukyu"
   },
@@ -7814,7 +7819,9 @@
     ],
     "trainId": "42165",
     "throughTripId": "HD_INB_JT-21_1728_42165",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "prevTripId": "HD_INB_IZ-16_1601_42196",
+    "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1706_32686",
@@ -8501,7 +8508,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "33720"
+    "trainId": "33720",
+    "customDestination": "伊東",
+    "prevTripId": "HD_OUT_JT-01_1730_33720",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_1944_29706",

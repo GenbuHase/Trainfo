@@ -58213,7 +58213,7 @@
     "stops": [
       {
         "stationId": "OH-05",
-        "arrivalTime": "10:17:00",
+        "arrivalTime": "09:54:00",
         "departureTime": "10:18:00",
         "isPassing": false
       },
@@ -58274,7 +58274,7 @@
     ],
     "trainId": "34868",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_0935_34945",
+    "prevTripId": "WD_INB_C-19_0906_34944",
     "prevLineId": "chiyoda"
   },
   {
@@ -61894,13 +61894,13 @@
     "direction": "outbound",
     "originStationId": "OH-05",
     "destinationStationId": "OH-14",
-    "customOrigin": "綾瀬",
+    "customOrigin": "我孫子",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-05",
-        "arrivalTime": "10:37:00",
+        "arrivalTime": "10:17:00",
         "departureTime": "10:39:00",
         "isPassing": false
       },
@@ -61961,7 +61961,7 @@
     ],
     "trainId": "75669",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_0956_75831",
+    "prevTripId": "WD_INB_C-19_0935_34945",
     "prevLineId": "chiyoda"
   },
   {
@@ -62406,7 +62406,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38877"
+    "trainId": "38877",
+    "customOrigin": "新宿",
+    "throughTripId": "WD_OUT_CB-04_1158_39002",
+    "throughLineId": "gotemba"
   },
   {
     "tripId": "WD_OUT_OH-27_1040_93785",
@@ -100201,7 +100204,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38879"
+    "trainId": "38879",
+    "customOrigin": "新宿",
+    "throughTripId": "WD_OUT_CB-04_1557_39004",
+    "throughLineId": "gotemba"
   },
   {
     "tripId": "WD_OUT_OH-01_1441_93660",
@@ -240912,7 +240918,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38878"
+    "trainId": "38878",
+    "customOrigin": "新宿",
+    "throughTripId": "HD_OUT_CB-04_1158_39003",
+    "throughLineId": "gotemba"
   },
   {
     "tripId": "HD_OUT_OH-27_1040_93786",
@@ -281649,7 +281658,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38880"
+    "trainId": "38880",
+    "customOrigin": "新宿",
+    "throughTripId": "HD_OUT_CB-04_1557_39005",
+    "throughLineId": "gotemba"
   },
   {
     "tripId": "HD_OUT_OH-01_1441_93661",

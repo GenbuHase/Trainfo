@@ -6288,12 +6288,16 @@
       },
       {
         "stationId": "TN-23",
-        "arrivalTime": "08:48:00",
+        "arrivalTime": "08:22:00",
         "departureTime": "08:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "113608"
+    "trainId": "113608",
+    "customDestination": "下今市",
+    "customOrigin": "新藤原",
+    "prevTripId": "WD_INB_TN-58_0750_112996",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "WD_OUT_TN-03_0848_113912",
@@ -7525,12 +7529,16 @@
       },
       {
         "stationId": "TN-23",
-        "arrivalTime": "09:32:00",
+        "arrivalTime": "09:09:00",
         "departureTime": "09:32:00",
         "isPassing": false
       }
     ],
-    "trainId": "113609"
+    "trainId": "113609",
+    "customDestination": "下今市",
+    "customOrigin": "新藤原",
+    "prevTripId": "WD_INB_TN-58_0837_112997",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "WD_OUT_TSK-30_0926_111403",
@@ -17598,12 +17606,16 @@
       },
       {
         "stationId": "TN-23",
-        "arrivalTime": "15:49:00",
+        "arrivalTime": "15:33:00",
         "departureTime": "15:49:00",
         "isPassing": false
       }
     ],
-    "trainId": "113613"
+    "trainId": "113613",
+    "customDestination": "下今市",
+    "customOrigin": "新藤原",
+    "prevTripId": "WD_INB_TN-58_1456_113003",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "WD_OUT_TSK-30_1541_25125",
@@ -22894,9 +22906,7 @@
     ],
     "customDestination": "南栗橋",
     "customOrigin": "東武宇都宮",
-    "trainId": "113635",
-    "prevTripId": "WD_INB_TN-40_1912_113943",
-    "prevLineId": "tobu_utsunomiya"
+    "trainId": "113635"
   },
   {
     "tripId": "WD_OUT_TSK-30_1851_25141",
@@ -25171,7 +25181,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "113943"
+    "trainId": "113943",
+    "customDestination": "南栗橋",
+    "prevTripId": "WD_INB_TN-40_1912_113943",
+    "prevLineId": "tobu_utsunomiya"
   },
   {
     "tripId": "WD_INB_TN-03_2011_113114",
@@ -34528,12 +34541,16 @@
       },
       {
         "stationId": "TN-23",
-        "arrivalTime": "08:48:00",
+        "arrivalTime": "08:22:00",
         "departureTime": "08:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "113608"
+    "trainId": "113608",
+    "customDestination": "下今市",
+    "customOrigin": "新藤原",
+    "prevTripId": "HD_INB_TN-58_0750_112996",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "HD_OUT_TSK-30_0844_111401",
@@ -35849,12 +35866,16 @@
       },
       {
         "stationId": "TN-23",
-        "arrivalTime": "09:32:00",
+        "arrivalTime": "09:09:00",
         "departureTime": "09:32:00",
         "isPassing": false
       }
     ],
-    "trainId": "113609"
+    "trainId": "113609",
+    "customDestination": "下今市",
+    "customOrigin": "新藤原",
+    "prevTripId": "HD_INB_TN-58_0837_112997",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "HD_OUT_TSK-30_0924_111356",
@@ -42934,15 +42955,15 @@
       },
       {
         "stationId": "TN-23",
-        "arrivalTime": "13:38:00",
+        "arrivalTime": "13:29:00",
         "departureTime": "13:48:00",
         "isPassing": false
       }
     ],
     "customDestination": "下今市",
-    "customOrigin": "新藤原",
+    "customOrigin": "鬼怒川温泉",
     "trainId": "113611",
-    "prevTripId": "HD_INB_TN-58_1258_113001",
+    "prevTripId": "HD_INB_TN-56_1253_112989",
     "prevLineId": "tobu_kinugawa"
   },
   {
@@ -46444,12 +46465,16 @@
       },
       {
         "stationId": "TN-23",
-        "arrivalTime": "15:49:00",
+        "arrivalTime": "15:33:00",
         "departureTime": "15:49:00",
         "isPassing": false
       }
     ],
-    "trainId": "113613"
+    "trainId": "113613",
+    "customDestination": "下今市",
+    "customOrigin": "新藤原",
+    "prevTripId": "HD_INB_TN-58_1456_113003",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "HD_OUT_TSK-30_1541_25125",
@@ -52004,9 +52029,7 @@
     ],
     "customDestination": "南栗橋",
     "customOrigin": "東武宇都宮",
-    "trainId": "113635",
-    "prevTripId": "HD_INB_TN-40_1912_113943",
-    "prevLineId": "tobu_utsunomiya"
+    "trainId": "113635"
   },
   {
     "tripId": "HD_INB_TN-03_1852_113108",
@@ -54113,7 +54136,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "113943"
+    "trainId": "113943",
+    "customDestination": "南栗橋",
+    "prevTripId": "HD_INB_TN-40_1912_113943",
+    "prevLineId": "tobu_utsunomiya"
   },
   {
     "tripId": "HD_OUT_TSK-30_2006_77939",

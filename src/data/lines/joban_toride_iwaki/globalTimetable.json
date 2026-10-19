@@ -5102,11 +5102,14 @@
       {
         "stationId": "JN-35",
         "arrivalTime": "08:48:00",
-        "departureTime": "09:24:00",
+        "departureTime": "08:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "14365"
+    "trainId": "14365",
+    "customOrigin": "水戸",
+    "throughTripId": "WD_OUT_JSD-01_0924_14365",
+    "throughLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "WD_OUT_JN-01_0733_7182",
@@ -7823,7 +7826,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "14440"
+    "trainId": "14440",
+    "customDestination": "水戸",
+    "prevTripId": "WD_INB_JSD-18_0652_14440",
+    "prevLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "WD_OUT_JN-13_0843_10050",
@@ -10469,11 +10475,14 @@
       {
         "stationId": "JN-35",
         "arrivalTime": "11:43:00",
-        "departureTime": "12:14:00",
+        "departureTime": "11:43:00",
         "isPassing": false
       }
     ],
-    "trainId": "14366"
+    "trainId": "14366",
+    "customOrigin": "水戸",
+    "throughTripId": "WD_OUT_JSD-01_1214_14366",
+    "throughLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "WD_OUT_JN-17_1005_14367",
@@ -12269,7 +12278,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "14442"
+    "trainId": "14442",
+    "customDestination": "水戸",
+    "prevTripId": "WD_INB_JSD-18_0845_14442",
+    "prevLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "WD_INB_JN-07_1050_10093",
@@ -21775,11 +21787,14 @@
       {
         "stationId": "JN-35",
         "arrivalTime": "17:08:00",
-        "departureTime": "17:17:00",
+        "departureTime": "17:08:00",
         "isPassing": false
       }
     ],
-    "trainId": "14368"
+    "trainId": "14368",
+    "customOrigin": "水戸",
+    "throughTripId": "WD_OUT_JSD-01_1717_14368",
+    "throughLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "WD_INB_JN-35_1543_14443",
@@ -21908,7 +21923,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "14443"
+    "trainId": "14443",
+    "customDestination": "水戸",
+    "prevTripId": "WD_INB_JSD-18_1408_14443",
+    "prevLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "WD_OUT_JN-01_1544_7137",
@@ -22947,11 +22965,14 @@
       {
         "stationId": "JN-35",
         "arrivalTime": "17:40:00",
-        "departureTime": "18:00:00",
+        "departureTime": "17:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "14369"
+    "trainId": "14369",
+    "customOrigin": "水戸",
+    "throughTripId": "WD_OUT_JSD-01_1800_14369",
+    "throughLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "WD_OUT_JN-01_1613_7164",
@@ -24188,7 +24209,7 @@
     ],
     "trainId": "10135",
     "customOrigin": "勝田",
-    "throughTripId": "WD_INB_JJ-10_1744_10118",
+    "throughTripId": "WD_INB_JJ-07_1746_10135",
     "throughLineId": "joban_rapid"
   },
   {
@@ -25354,7 +25375,7 @@
     ],
     "trainId": "10118",
     "customOrigin": "土浦",
-    "throughTripId": "WD_INB_JJ-07_1746_10135",
+    "throughTripId": "WD_INB_JJ-10_1744_10118",
     "throughLineId": "joban_rapid"
   },
   {
@@ -26999,7 +27020,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "14444"
+    "trainId": "14444",
+    "customDestination": "水戸",
+    "prevTripId": "WD_INB_JSD-18_1620_14444",
+    "prevLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "WD_OUT_JN-03_1803_7128",
@@ -29010,11 +29034,14 @@
       {
         "stationId": "JN-35",
         "arrivalTime": "20:09:00",
-        "departureTime": "20:20:00",
+        "departureTime": "20:09:00",
         "isPassing": false
       }
     ],
-    "trainId": "14370"
+    "trainId": "14370",
+    "customOrigin": "水戸",
+    "throughTripId": "WD_OUT_JSD-01_2020_14370",
+    "throughLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "WD_OUT_JN-03_1843_7130",
@@ -31494,7 +31521,7 @@
     "direction": "inbound",
     "originStationId": "JN-35",
     "destinationStationId": "JN-17",
-    "customOrigin": "広野(福島県)",
+    "customOrigin": "広野",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -31613,7 +31640,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "14466"
+    "trainId": "14466",
+    "customDestination": "水戸",
+    "prevTripId": "WD_INB_JSD-06_1914_14466",
+    "prevLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "WD_OUT_JN-03_1954_7131",
@@ -41592,11 +41622,14 @@
       {
         "stationId": "JN-35",
         "arrivalTime": "08:48:00",
-        "departureTime": "09:24:00",
+        "departureTime": "08:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "14365"
+    "trainId": "14365",
+    "customOrigin": "水戸",
+    "throughTripId": "HD_OUT_JSD-01_0924_14365",
+    "throughLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "HD_OUT_JN-01_0733_7183",
@@ -44562,7 +44595,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "14440"
+    "trainId": "14440",
+    "customDestination": "水戸",
+    "prevTripId": "HD_INB_JSD-18_0652_14440",
+    "prevLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "HD_OUT_JN-13_0843_10050",
@@ -47022,11 +47058,14 @@
       {
         "stationId": "JN-35",
         "arrivalTime": "11:43:00",
-        "departureTime": "12:14:00",
+        "departureTime": "11:43:00",
         "isPassing": false
       }
     ],
-    "trainId": "14366"
+    "trainId": "14366",
+    "customOrigin": "水戸",
+    "throughTripId": "HD_OUT_JSD-01_1214_14366",
+    "throughLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "HD_OUT_JN-01_1006_7142",
@@ -48370,7 +48409,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "14442"
+    "trainId": "14442",
+    "customDestination": "水戸",
+    "prevTripId": "HD_INB_JSD-18_0845_14442",
+    "prevLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "HD_INB_JN-07_1050_10093",
@@ -57618,11 +57660,14 @@
       {
         "stationId": "JN-35",
         "arrivalTime": "17:08:00",
-        "departureTime": "17:17:00",
+        "departureTime": "17:08:00",
         "isPassing": false
       }
     ],
-    "trainId": "14368"
+    "trainId": "14368",
+    "customOrigin": "水戸",
+    "throughTripId": "HD_OUT_JSD-01_1717_14368",
+    "throughLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "HD_INB_JN-35_1543_14443",
@@ -57751,7 +57796,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "14443"
+    "trainId": "14443",
+    "customDestination": "水戸",
+    "prevTripId": "HD_INB_JSD-18_1408_14443",
+    "prevLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "HD_OUT_JN-01_1544_7137",
@@ -58790,11 +58838,14 @@
       {
         "stationId": "JN-35",
         "arrivalTime": "17:40:00",
-        "departureTime": "18:00:00",
+        "departureTime": "17:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "14369"
+    "trainId": "14369",
+    "customOrigin": "水戸",
+    "throughTripId": "HD_OUT_JSD-01_1800_14369",
+    "throughLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "HD_OUT_JN-01_1613_7164",
@@ -62403,7 +62454,7 @@
     ],
     "trainId": "10136",
     "customOrigin": "勝田",
-    "throughTripId": "HD_INB_JJ-07_1846_10136",
+    "throughTripId": "HD_INB_JJ-10_1845_10122",
     "throughLineId": "joban_rapid"
   },
   {
@@ -62457,11 +62508,14 @@
       {
         "stationId": "JN-01",
         "arrivalTime": "18:17:00",
-        "departureTime": "18:18:00",
+        "departureTime": "18:17:00",
         "isPassing": false
       }
     ],
-    "trainId": "10121"
+    "trainId": "10121",
+    "customOrigin": "土浦",
+    "throughTripId": "HD_INB_JJ-07_1846_10136",
+    "throughLineId": "joban_rapid"
   },
   {
     "tripId": "HD_OUT_JN-01_1752_7185",
@@ -62842,7 +62896,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "14444"
+    "trainId": "14444",
+    "customDestination": "水戸",
+    "prevTripId": "HD_INB_JSD-18_1620_14444",
+    "prevLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "HD_OUT_JN-03_1803_7128",
@@ -63643,7 +63700,7 @@
     ],
     "trainId": "10122",
     "customOrigin": "土浦",
-    "throughTripId": "HD_INB_JJ-10_1845_10122",
+    "throughTripId": "HD_INB_JJ-10_1849_38084",
     "throughLineId": "joban_rapid"
   },
   {
@@ -64727,11 +64784,14 @@
       {
         "stationId": "JN-35",
         "arrivalTime": "20:09:00",
-        "departureTime": "20:20:00",
+        "departureTime": "20:09:00",
         "isPassing": false
       }
     ],
-    "trainId": "14370"
+    "trainId": "14370",
+    "customOrigin": "水戸",
+    "throughTripId": "HD_OUT_JSD-01_2020_14370",
+    "throughLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "HD_OUT_JN-13_1846_10052",
@@ -66932,7 +66992,7 @@
     "direction": "inbound",
     "originStationId": "JN-35",
     "destinationStationId": "JN-17",
-    "customOrigin": "広野(福島県)",
+    "customOrigin": "広野",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -67051,7 +67111,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "14466"
+    "trainId": "14466",
+    "customDestination": "水戸",
+    "prevTripId": "HD_INB_JSD-06_1914_14466",
+    "prevLineId": "joban_iwaki_sendai"
   },
   {
     "tripId": "HD_OUT_JN-03_2006_7132",
