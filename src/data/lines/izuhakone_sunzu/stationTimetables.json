@@ -1,7 +1,28 @@
 {
   "weekday": {
     "IS-01": {
-      "inbound": [],
+      "inbound": [
+        {
+          "h": 13,
+          "m": 4,
+          "time": "04",
+          "sec": 47040,
+          "t": "limitedExp",
+          "d": "東京",
+          "no": "4024M",
+          "tripId": "WD_INB_IS-13_1235_41964"
+        },
+        {
+          "h": 16,
+          "m": 6,
+          "time": "06",
+          "sec": 57960,
+          "t": "limitedExp",
+          "d": "東京",
+          "no": "4030M",
+          "tripId": "WD_INB_IS-13_1539_41966"
+        }
+      ],
       "outbound": [
         {
           "h": 5,
@@ -15319,7 +15340,38 @@
   },
   "holiday": {
     "IS-01": {
-      "inbound": [],
+      "inbound": [
+        {
+          "h": 13,
+          "m": 4,
+          "time": "04",
+          "sec": 47040,
+          "t": "limitedExp",
+          "d": "東京",
+          "no": "4024M",
+          "tripId": "HD_INB_IS-13_1235_41964"
+        },
+        {
+          "h": 14,
+          "m": 45,
+          "time": "45",
+          "sec": 53100,
+          "t": "limitedExp",
+          "d": "東京",
+          "no": "8078M",
+          "tripId": "HD_INB_IS-13_1418_41965"
+        },
+        {
+          "h": 16,
+          "m": 6,
+          "time": "06",
+          "sec": 57960,
+          "t": "limitedExp",
+          "d": "東京",
+          "no": "4030M",
+          "tripId": "HD_INB_IS-13_1539_41966"
+        }
+      ],
       "outbound": [
         {
           "h": 5,

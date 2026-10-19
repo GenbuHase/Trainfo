@@ -777,8 +777,10 @@ class YahooTimetableBuilder {
 
       for (let i = 0; i < trip.stops.length; i++) {
         const stop = trip.stops[i];
-        // 終着駅は発車しないため除外
-        if (i === trip.stops.length - 1) continue;
+        // 終着駅は発車しないため除外（ただし直通先へ発車するトリップで departureTime が設定されている場合は含める）
+        if (i === trip.stops.length - 1) {
+          if (!trip.throughTripId || !stop.departureTime) continue;
+        }
         if (stop.isPassing) continue;
 
         const [h, m, s = 0] = stop.departureTime.split(':').map(Number);

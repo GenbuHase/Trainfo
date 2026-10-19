@@ -509,6 +509,10 @@ function linkPair({
         if (timeToSec(stopB.departureTime) < syncSec) {
           stopB.departureTime = syncArr;
         }
+        // 先行路線の境界駅発車時刻も後続路線の発車時刻に同期（境界駅停車時間・発車標時刻の統一）
+        if (stopB.departureTime && timeToSec(stopB.departureTime) >= syncSec) {
+          stopA.departureTime = stopB.departureTime;
+        }
 
         // 後続駅の時刻が境界駅の発車時刻より前になって逆転することを防止
         const stopBIndex = bestB.stops.indexOf(stopB);

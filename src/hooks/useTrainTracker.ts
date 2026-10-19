@@ -5,6 +5,7 @@ import {
   formatTrainNumber,
   getThroughChainTrips,
   timeStringToSeconds,
+  getGlobalTripMap,
 } from '../data/timetableData';
 
 interface UseTrainTrackerParams {
@@ -24,7 +25,25 @@ interface UseTrainTrackerResult {
 }
 
 /**
- * 直通運転の自動ハンドオーバー・自動路線追加・追尾猶予タイマーを管理するカスタムフック
+ * 指定したtripId、またはその直通運行チェーン内に存在する併結設定を取得
+ */
+function findCouplingConfig(tripId: string) {
+  const tripMap = getGlobalTripMap();
+  const trip = tripMap.get(tripId);
+  if (trip?.coupling) {
+    return { trip, coupling: trip.coupling };
+  }
+  const chainTrips = getThroughChainTrips(tripId);
+  for (const t of chainTrips) {
+    if (t.coupling) {
+      return { trip: t, coupling: t.coupling };
+    }
+  }
+  return null;
+}
+
+/**
+ * 直通運転および併結運転の自動ハンドオーバー・自動路線追加・追尾猶予タイマーを管理するカスタムフック
  */
 export function useTrainTracker({
   selectedTrainId,
@@ -46,119 +65,157 @@ export function useTrainTracker({
     }
   }, [selectedTrainId]);
 
-  // 1. 選択中の列車オブジェクトをリアルタイム算出（直通運転チェーンの網羅探索）
+  // 1. 選択中の列車オブジェクトをリアルタイム算出（直通運転チェーンおよび併結運転の網羅探索）
   const selectedTrain = useMemo(() => {
     // 列車が選択されていない場合は常に null
     if (!selectedTrainId) {
       return null;
     }
 
-    // 現在選択されている tripId が activeTrains 内に直接存在するか確認
-    const found = activeTrains.find((t) => t.tripId === selectedTrainId);
-    if (found) {
-      // 境界駅に到着・接近した直通列車で、後続トリップが既に停車・運行中の場合は直ちに後続トリップへハンドオーバー
-      if (found.throughTripId) {
-        const lastStop = found.stops[found.stops.length - 1];
-        const isAtLastStop = lastStop?.stationId === found.currentStationId;
-        // 特急等の通過駅の場合: 最後の駅に向かって走行中（nextStationIdが最後の駅）または通過駅にいる
-        const isApproachingOrPassingLastStop =
-          Boolean(lastStop?.isPassing) &&
-          (found.nextStationId === lastStop?.stationId || found.currentStationId === lastStop?.stationId);
+    // 自系統の直通運行チェーン全体（祖先・子孫を含む全トリップ）を取得
+    const chainTrips = getThroughChainTrips(selectedTrainId);
+    const chainTripIds = new Set(chainTrips.map((t) => t.tripId));
 
-        const successor = activeTrains.find((t) => t.tripId === found.throughTripId);
-        if (successor) {
-          // 先行列車が終着駅に到着/通過中、または後続列車が既に運行開始している場合
-          const isSuccessorRunning =
-            successor.currentStationId !== successor.stops[0]?.stationId ||
-            (successor.status === 'RUNNING' && successor.progressPercent > 0);
+    // A. 現在選択されている tripId または直通チェーン内のトリップが activeTrains 内に直接存在するか確認
+    let selfActive = activeTrains.find((t) => t.tripId === selectedTrainId);
+    if (!selfActive && chainTrips.length > 0) {
+      const candidates = activeTrains.filter((t) => chainTripIds.has(t.tripId));
+      if (candidates.length > 0) {
+        // chainTrips は時系列順。複数候補がある場合はより進行方向（後続トリップ）を優先
+        candidates.sort((a, b) => {
+          const idxA = chainTrips.findIndex((ct) => ct.tripId === a.tripId);
+          const idxB = chainTrips.findIndex((ct) => ct.tripId === b.tripId);
+          return idxB - idxA;
+        });
+        selfActive = candidates[0];
+      }
+    }
 
-          if (isAtLastStop || isApproachingOrPassingLastStop || isSuccessorRunning) {
-            const foundOrigin = found.customOrigin || STATION_MAP.get(found.originStationId)?.name;
-            if (
-              foundOrigin &&
-              (!successor.customOrigin || successor.customOrigin === STATION_MAP.get(successor.originStationId)?.name)
-            ) {
-              successor.customOrigin = foundOrigin;
-            }
-            if (
-              found.customDestination &&
-              !successor.customDestination &&
-              !found.isCoupledActive
-            ) {
-              successor.customDestination = found.customDestination;
-            }
-            return successor;
+    // B. 直通列車の境界駅ハンドオーバー判定
+    if (selfActive?.throughTripId) {
+      const throughTripId = selfActive.throughTripId;
+      const lastStop = selfActive.stops[selfActive.stops.length - 1];
+      const isAtLastStop = lastStop?.stationId === selfActive.currentStationId;
+      // 特急等の通過駅の場合: 最後の駅に向かって走行中（nextStationIdが最後の駅）または通過駅にいる
+      const isApproachingOrPassingLastStop =
+        Boolean(lastStop?.isPassing) &&
+        (selfActive.nextStationId === lastStop?.stationId || selfActive.currentStationId === lastStop?.stationId);
+
+      const successor = activeTrains.find((t) => t.tripId === throughTripId);
+      if (successor) {
+        // 先行列車が終着駅に到着/通過中、または後続列車が既に運行開始している場合
+        const isSuccessorRunning =
+          successor.currentStationId !== successor.stops[0]?.stationId ||
+          (successor.status === 'RUNNING' && successor.progressPercent > 0);
+
+        if (isAtLastStop || isApproachingOrPassingLastStop || isSuccessorRunning) {
+          const foundOrigin = selfActive.customOrigin || STATION_MAP.get(selfActive.originStationId)?.name;
+          if (
+            foundOrigin &&
+            (!successor.customOrigin || successor.customOrigin === STATION_MAP.get(successor.originStationId)?.name)
+          ) {
+            successor.customOrigin = foundOrigin;
           }
+          if (
+            selfActive.customDestination &&
+            !successor.customDestination &&
+            !selfActive.isCoupledActive
+          ) {
+            successor.customDestination = selfActive.customDestination;
+          }
+          selfActive = successor;
         }
       }
+    }
 
+    // C. 併結運転（Coupling）のハンドオーバー判定
+    // 自列車が併結元の従属編成（SECONDARY）である場合、または自列車が activeTrains に見つからない場合：
+    // 併結相手（PRIMARY）が併結状態（isCoupledActive: true）で走行・停車中であれば PRIMARY へシームレスにハンドオーバー
+    const couplingInfo = findCouplingConfig(selectedTrainId);
+    if (couplingInfo) {
+      const coupledTripId = couplingInfo.coupling.coupledTripId;
+      const coupledChain = getThroughChainTrips(coupledTripId);
+      const coupledChainIds = new Set(coupledChain.map((t) => t.tripId));
+      coupledChainIds.add(coupledTripId);
+
+      // 併結相手（PRIMARY）で現在運行中かつ併結アクティブな列車を探索
+      const primaryCandidate = activeTrains.find(
+        (t) => coupledChainIds.has(t.tripId) && Boolean(t.isCoupledActive)
+      );
+
+      if (primaryCandidate) {
+        // 自列車が SECONDARY の場合：
+        // 1) 自列車が activeTrains に存在しない（除外済み）
+        // 2) 自列車が既に isCoupledActive === true
+        // 3) 自列車が併結開始駅（fromStationId）に到着している
+        // のいずれかであれば、主編成（PRIMARY）へハンドオーバー
+        if (
+          !selfActive ||
+          selfActive.isCoupledActive ||
+          (couplingInfo.coupling.role === 'SECONDARY' &&
+            selfActive.currentStationId === couplingInfo.coupling.fromStationId)
+        ) {
+          const prev = lastSelectedTrainRef.current;
+          if (prev) {
+            const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
+            if (prevOrigin && !primaryCandidate.customOrigin) {
+              primaryCandidate.customOrigin = prevOrigin;
+            }
+          }
+          return primaryCandidate;
+        }
+      }
+    }
+
+    // D. 自系統が運行中の場合は selfActive を返す
+    if (selfActive) {
       const prev = lastSelectedTrainRef.current;
       if (
         prev &&
-        (prev.tripId === found.tripId ||
-          formatTrainNumber(prev.trainNumber, prev.tripId) === formatTrainNumber(found.trainNumber, found.tripId))
+        (prev.tripId === selfActive.tripId ||
+          formatTrainNumber(prev.trainNumber, prev.tripId) ===
+            formatTrainNumber(selfActive.trainNumber, selfActive.tripId))
       ) {
-        const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
-        if (prevOrigin && (!found.customOrigin || found.customOrigin === STATION_MAP.get(found.originStationId)?.name)) {
-          found.customOrigin = prevOrigin;
-        }
-      }
-      return found;
-    }
-
-    // 2. 直通運行チェーン全体（祖先・子孫を含む全トリップ）を網羅探索
-    // 終点到着後の巻き戻しや、境界跨ぎ、早送りなど、同一列車チェーンのいずれかが走行中であれば正確に追尾を継続
-    const chainTrips = getThroughChainTrips(selectedTrainId);
-    const chainTripIds = new Set(chainTrips.map((t) => t.tripId));
-    const chainActiveCandidates = activeTrains.filter((t) => chainTripIds.has(t.tripId));
-    if (chainActiveCandidates.length > 0) {
-      // chainTrips は時系列順。複数候補がある場合はより進行方向（後続トリップ）を優先
-      chainActiveCandidates.sort((a, b) => {
-        const idxA = chainTrips.findIndex((ct) => ct.tripId === a.tripId);
-        const idxB = chainTrips.findIndex((ct) => ct.tripId === b.tripId);
-        return idxB - idxA;
-      });
-      const chainActive = chainActiveCandidates[0];
-
-      const prev = lastSelectedTrainRef.current;
-      if (prev) {
         const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
         if (
           prevOrigin &&
-          (!chainActive.customOrigin || chainActive.customOrigin === STATION_MAP.get(chainActive.originStationId)?.name)
+          (!selfActive.customOrigin || selfActive.customOrigin === STATION_MAP.get(selfActive.originStationId)?.name)
         ) {
-          chainActive.customOrigin = prevOrigin;
-        }
-        if (
-          prev.customDestination &&
-          !chainActive.customDestination &&
-          !prev.isCoupledActive
-        ) {
-          chainActive.customDestination = prev.customDestination;
+          selfActive.customOrigin = prevOrigin;
         }
       }
-      return chainActive;
+      return selfActive;
     }
 
     return null;
   }, [activeTrains, selectedTrainId]);
 
   // 2. 選択列車が直通トリップへ切り替わった場合に selectedTrainId を同期更新
+  // ※ 併結代理追尾中（自系統の直通チェーン外である PRIMARY 列車を追尾中）は、
+  // 解結時や巻き戻し時に元の自系統へ自動復帰できるよう selectedTrainId を上書きしない
   useEffect(() => {
-    if (selectedTrain) {
+    if (selectedTrain && selectedTrainId) {
       lastSelectedTrainRef.current = selectedTrain;
-      if (selectedTrain.tripId !== selectedTrainId) {
+
+      const chainTrips = getThroughChainTrips(selectedTrainId);
+      const chainTripIds = new Set(chainTrips.map((t) => t.tripId));
+
+      // 自系統の直通チェーンに含まれる正規の直通先トリップの場合のみ selectedTrainId を更新
+      if (chainTripIds.has(selectedTrain.tripId) && selectedTrain.tripId !== selectedTrainId) {
         setSelectedTrainId(selectedTrain.tripId);
       }
     }
   }, [selectedTrain, selectedTrainId, setSelectedTrainId]);
 
-  // 3. 直通列車を選択中、直通チェーンに含まれる未選択路線を自動追加
+  // 3. 直通列車・併結列車を選択中、直通チェーンおよび併結相手に含まれる未選択路線を自動追加
   useEffect(() => {
     if (!selectedTrain) return;
 
-    const chainTrips = getThroughChainTrips(selectedTrain.tripId);
+    const baseTripId = selectedTrainId || selectedTrain.tripId;
+    const chainTrips = getThroughChainTrips(baseTripId);
     const neededLines: LineId[] = [];
+
+    // 自系統の直通チェーンの路線
     for (const t of chainTrips) {
       if (t.lineId && !selectedLineIds.includes(t.lineId) && !neededLines.includes(t.lineId)) {
         neededLines.push(t.lineId);
@@ -179,10 +236,21 @@ export function useTrainTracker({
       neededLines.push(selectedTrain.prevLineId);
     }
 
+    // 併結相手の直通チェーンの路線も自動追加
+    const couplingInfo = findCouplingConfig(baseTripId);
+    if (couplingInfo?.coupling?.coupledTripId) {
+      const coupledChain = getThroughChainTrips(couplingInfo.coupling.coupledTripId);
+      for (const t of coupledChain) {
+        if (t.lineId && !selectedLineIds.includes(t.lineId) && !neededLines.includes(t.lineId)) {
+          neededLines.push(t.lineId);
+        }
+      }
+    }
+
     if (neededLines.length > 0) {
       onAddLines(neededLines);
     }
-  }, [selectedTrain, selectedLineIds, onAddLines]);
+  }, [selectedTrain, selectedTrainId, selectedLineIds, onAddLines]);
 
   // 4. 追尾中の列車が時間を巻き戻すなどして未選択路線へ移動した場合の自動ロード
   useEffect(() => {
@@ -190,7 +258,14 @@ export function useTrainTracker({
     if (!baseTripId || selectedTrain) return;
 
     const chainTrips = getThroughChainTrips(baseTripId);
-    const runningTrip = chainTrips.find((t) => {
+    const allTrips = [...chainTrips];
+    const couplingInfo = findCouplingConfig(baseTripId);
+    if (couplingInfo?.coupling?.coupledTripId) {
+      const coupledChain = getThroughChainTrips(couplingInfo.coupling.coupledTripId);
+      allTrips.push(...coupledChain);
+    }
+
+    const runningTrip = allTrips.find((t) => {
       const first = t.stops[0];
       const last = t.stops[t.stops.length - 1];
       if (!first || !last) return false;
@@ -218,26 +293,40 @@ export function useTrainTracker({
 
       if (baseTripId) {
         const chainTrips = getThroughChainTrips(baseTripId);
-        if (chainTrips.length > 0) {
-          const firstTrip = chainTrips[0];
-          const lastTrip = chainTrips[chainTrips.length - 1];
-          const firstStop = firstTrip.stops[0];
-          const lastStop = lastTrip.stops[lastTrip.stops.length - 1];
-          const startSec = firstStop
-            ? Math.min(
+        const allTrips = [...chainTrips];
+        const couplingInfo = findCouplingConfig(baseTripId);
+        if (couplingInfo?.coupling?.coupledTripId) {
+          const coupledChain = getThroughChainTrips(couplingInfo.coupling.coupledTripId);
+          allTrips.push(...coupledChain);
+        }
+
+        if (allTrips.length > 0) {
+          let minStartSec = Infinity;
+          let maxEndSec = -Infinity;
+
+          for (const trip of allTrips) {
+            const firstStop = trip.stops[0];
+            const lastStop = trip.stops[trip.stops.length - 1];
+            if (firstStop) {
+              const start = Math.min(
                 timeStringToSeconds(firstStop.arrivalTime || firstStop.departureTime),
                 timeStringToSeconds(firstStop.departureTime)
-              )
-            : 0;
-          const endSec = lastStop
-            ? Math.max(
+              );
+              if (start < minStartSec) minStartSec = start;
+            }
+            if (lastStop) {
+              const end = Math.max(
                 timeStringToSeconds(lastStop.arrivalTime),
                 timeStringToSeconds(lastStop.departureTime || lastStop.arrivalTime)
-              )
-            : 0;
+              );
+              if (end > maxEndSec) maxEndSec = end;
+            }
+          }
 
-          if (currentSec >= startSec && currentSec <= endSec) {
-            isWithinOperatingWindow = true;
+          if (Number.isFinite(minStartSec) && Number.isFinite(maxEndSec)) {
+            if (currentSec >= minStartSec && currentSec <= maxEndSec) {
+              isWithinOperatingWindow = true;
+            }
           }
         }
       }
