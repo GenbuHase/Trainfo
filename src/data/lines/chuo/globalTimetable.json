@@ -153535,7 +153535,7 @@
     "stops": [
       {
         "stationId": "JC-24",
-        "arrivalTime": "17:42:00",
+        "arrivalTime": "17:47:23",
         "departureTime": "17:47:23",
         "isPassing": true
       },
@@ -153665,7 +153665,7 @@
       "coupledCars": 3,
       "coupledDestination": "新宿"
     },
-    "prevTripId": "cm_HD_INB_CO-43_1559_33597",
+    "prevTripId": "cm_HD_INB_CO-61_1524_6925",
     "prevLineId": "chuo_main"
   },
   {
@@ -155170,7 +155170,7 @@
     "stops": [
       {
         "stationId": "JC-24",
-        "arrivalTime": "17:47:23",
+        "arrivalTime": "18:06:52",
         "departureTime": "18:06:52",
         "isPassing": true
       },
@@ -155291,8 +155291,17 @@
     ],
     "trainId": "6927",
     "customDestination": "新宿",
-    "prevTripId": "cm_HD_INB_CO-61_1524_6925",
-    "prevLineId": "chuo_main"
+    "prevTripId": "cm_HD_INB_CO-61_1558_6927",
+    "prevLineId": "chuo_main",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "JC-24",
+      "toStationId": "JC-05",
+      "coupledTripId": "HD_INB_JC-22_1812_39450_fuji",
+      "coupledTrainNumber": "2144M",
+      "coupledCars": 3,
+      "coupledDestination": "新宿"
+    }
   },
   {
     "tripId": "HD_OUT_JC-01_1815_31124",
@@ -155790,7 +155799,7 @@
     "stops": [
       {
         "stationId": "JC-24",
-        "arrivalTime": "18:06:52",
+        "arrivalTime": "18:14:23",
         "departureTime": "18:14:23",
         "isPassing": true
       },
@@ -155911,7 +155920,7 @@
     ],
     "trainId": "6924",
     "customDestination": "新宿",
-    "prevTripId": "cm_HD_INB_CO-61_1558_6927",
+    "prevTripId": "cm_HD_INB_CO-61_1605_6924",
     "prevLineId": "chuo_main"
   },
   {
@@ -157072,7 +157081,7 @@
     "direction": "inbound",
     "originStationId": "JC-24",
     "destinationStationId": "JC-05",
-    "customOrigin": "河口湖",
+    "customOrigin": "松本",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -157199,7 +157208,7 @@
     ],
     "trainId": "6907",
     "customDestination": "新宿",
-    "prevTripId": "cm_HD_INB_JC-32_1745_39450",
+    "prevTripId": "cm_HD_INB_CO-61_1638_6907",
     "prevLineId": "chuo_main"
   },
   {
@@ -181994,6 +182003,153 @@
       "coupledDestination": "新宿"
     },
     "prevTripId": "cm_HD_INB_JC-32_1843_39453",
+    "prevLineId": "chuo_main"
+  },
+  {
+    "tripId": "HD_INB_JC-22_1812_39450_fuji",
+    "lineId": "chuo",
+    "trainNumber": "2144M",
+    "trainType": "limitedExp",
+    "direction": "inbound",
+    "originStationId": "JC-24",
+    "destinationStationId": "JC-05",
+    "customOrigin": "河口湖",
+    "cars": 3,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JC-24",
+        "arrivalTime": "17:47:23",
+        "departureTime": "18:06:52",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-23",
+        "arrivalTime": "18:08:56",
+        "departureTime": "18:08:56",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-22",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JC-21",
+        "arrivalTime": "18:14:48",
+        "departureTime": "18:14:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-20",
+        "arrivalTime": "18:16:54",
+        "departureTime": "18:16:54",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-19",
+        "arrivalTime": "18:19:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JC-18",
+        "arrivalTime": "18:22:22",
+        "departureTime": "18:22:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-17",
+        "arrivalTime": "18:23:56",
+        "departureTime": "18:23:56",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-16",
+        "arrivalTime": "18:25:31",
+        "departureTime": "18:25:31",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-15",
+        "arrivalTime": "18:27:53",
+        "departureTime": "18:27:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-14",
+        "arrivalTime": "18:29:27",
+        "departureTime": "18:29:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-13",
+        "arrivalTime": "18:31:02",
+        "departureTime": "18:31:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-12",
+        "arrivalTime": "18:32:36",
+        "departureTime": "18:32:36",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-11",
+        "arrivalTime": "18:34:58",
+        "departureTime": "18:34:58",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-10",
+        "arrivalTime": "18:36:33",
+        "departureTime": "18:36:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-09",
+        "arrivalTime": "18:38:07",
+        "departureTime": "18:38:07",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-08",
+        "arrivalTime": "18:39:42",
+        "departureTime": "18:39:42",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-07",
+        "arrivalTime": "18:41:16",
+        "departureTime": "18:41:16",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-06",
+        "arrivalTime": "18:42:51",
+        "departureTime": "18:42:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JC-05",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "39450",
+    "customDestination": "新宿",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "JC-24",
+      "toStationId": "JC-05",
+      "coupledTripId": "HD_INB_JC-22_1812_6927",
+      "coupledTrainNumber": "44M",
+      "coupledCars": 9,
+      "coupledDestination": "新宿"
+    },
+    "prevTripId": "cm_HD_INB_JC-32_1745_39450",
     "prevLineId": "chuo_main"
   }
 ]

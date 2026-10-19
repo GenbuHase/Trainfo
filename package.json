@@ -9,6 +9,7 @@
     "build": "node --max-old-space-size=8192 ./node_modules/typescript/bin/tsc -b && vite build",
     "audit:paths": "node scripts/audit_all_lines_paths.cjs",
     "audit:stations": "node scripts/scan_stations_position.cjs",
+    "audit:couplings": "node scripts/audit_all_couplings.mjs && node scripts/audit_coupling_and_through_trips.mjs",
     "lint": "oxlint",
     "preview": "vite preview",
     "predeploy": "npm run build",

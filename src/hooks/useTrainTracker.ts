@@ -155,14 +155,22 @@ export function useTrainTracker({
           (couplingInfo.coupling.role === 'SECONDARY' &&
             selfActive.currentStationId === couplingInfo.coupling.fromStationId)
         ) {
-          const prev = lastSelectedTrainRef.current;
-          if (prev) {
-            const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
-            if (prevOrigin && !primaryCandidate.customOrigin) {
-              primaryCandidate.customOrigin = prevOrigin;
-            }
-          }
-          return primaryCandidate;
+          // 自列車（SECONDARY）本来の始発駅をチェーンおよび直前情報から探索
+          const selfChain = getThroughChainTrips(selectedTrainId);
+          const firstSelfTrip = selfChain[0];
+          const selfOrigin =
+            firstSelfTrip?.customOrigin ||
+            (firstSelfTrip ? STATION_MAP.get(firstSelfTrip.originStationId)?.name : undefined) ||
+            lastSelectedTrainRef.current?.customOrigin ||
+            (lastSelectedTrainRef.current ? STATION_MAP.get(lastSelectedTrainRef.current.originStationId)?.name : undefined);
+
+          // primaryCandidate 自体のオブジェクトを汚染しないようシャローコピーを作成し、
+          // 自列車の始発駅を反映して返す
+          const delegatedTrain: ActiveTrain = {
+            ...primaryCandidate,
+            customOrigin: selfOrigin || primaryCandidate.customOrigin,
+          };
+          return delegatedTrain;
         }
       }
     }

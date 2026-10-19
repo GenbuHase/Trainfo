@@ -57438,7 +57438,7 @@
       "coupledCars": 3,
       "coupledDestination": "新宿"
     },
-    "throughTripId": "HD_INB_JC-22_1812_6927",
+    "throughTripId": "HD_INB_JC-22_1753_6925",
     "throughLineId": "chuo"
   },
   {
@@ -58106,7 +58106,7 @@
       "coupledCars": 3,
       "coupledDestination": "新宿"
     },
-    "throughTripId": "HD_INB_JC-22_1820_6924",
+    "throughTripId": "HD_INB_JC-22_1812_6927",
     "throughLineId": "chuo"
   },
   {
@@ -58495,9 +58495,7 @@
       "coupledTrainNumber": "42M",
       "coupledCars": 9,
       "coupledDestination": "新宿"
-    },
-    "throughTripId": "HD_INB_JC-22_1753_6925",
-    "throughLineId": "chuo"
+    }
   },
   {
     "tripId": "cm_HD_OUT_JC-05_1600_6863",
@@ -58989,7 +58987,9 @@
     ],
     "customDestination": "新宿",
     "trainId": "6924",
-    "customOrigin": "松本"
+    "customOrigin": "松本",
+    "throughTripId": "HD_INB_JC-22_1820_6924",
+    "throughLineId": "chuo"
   },
   {
     "tripId": "cm_HD_INB_CO-43_1611_33573",
@@ -59956,7 +59956,9 @@
     ],
     "customDestination": "新宿",
     "trainId": "6907",
-    "customOrigin": "松本"
+    "customOrigin": "松本",
+    "throughTripId": "HD_INB_JC-22_1832_6907",
+    "throughLineId": "chuo"
   },
   {
     "tripId": "cm_HD_OUT_JC-01_1645_6835",
@@ -63082,7 +63084,7 @@
     },
     "prevTripId": "HD_INB_FJ-18_1648_39575",
     "prevLineId": "fujikyu",
-    "throughTripId": "HD_INB_JC-22_1832_6907",
+    "throughTripId": "HD_INB_JC-22_1812_39450_fuji",
     "throughLineId": "chuo"
   },
   {
@@ -71857,8 +71859,6 @@
         "isPassing": true
       }
     ],
-    "throughTripId": "sn_WD_OUT_JC-05_2358_42781",
-    "throughLineId": "shinonoi",
     "trainId": "42781",
     "prevTripId": "WD_OUT_JC-05_2358_42781",
     "prevLineId": "chuo"
@@ -72105,8 +72105,6 @@
         "isPassing": true
       }
     ],
-    "throughTripId": "sn_HD_OUT_JC-05_2358_42781",
-    "throughLineId": "shinonoi",
     "trainId": "42781",
     "prevTripId": "HD_OUT_JC-05_2358_42781",
     "prevLineId": "chuo"
