@@ -419,6 +419,43 @@ export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
       const sameTrainIdTrips = trainIdMap.get(cur.trainId) || [];
       for (const st of sameTrainIdTrips) {
         if (!visitedTripIds.has(st.tripId) && areTripsConnectable(cur, st)) {
+          // すでに cur.prevTripId が明示されている場合、st が先行トリップ（st -> cur）なら誤接続を防ぐためスキップ
+          const firstCur = cur.stops[0];
+          const lastSt = st.stops[st.stops.length - 1];
+          const isStBeforeCur = Boolean(
+            firstCur &&
+            lastSt &&
+            (firstCur.stationId === lastSt.stationId ||
+              STATION_MAP.get(firstCur.stationId)?.name === STATION_MAP.get(lastSt.stationId)?.name)
+          );
+          if (cur.prevTripId && isStBeforeCur) {
+            continue;
+          }
+
+          // すでに cur.throughTripId が明示されている場合、st が後続トリップ（cur -> st）なら誤接続を防ぐためスキップ
+          const lastCur = cur.stops[cur.stops.length - 1];
+          const firstSt = st.stops[0];
+          const isStAfterCur = Boolean(
+            lastCur &&
+            firstSt &&
+            (lastCur.stationId === firstSt.stationId ||
+              STATION_MAP.get(lastCur.stationId)?.name === STATION_MAP.get(firstSt.stationId)?.name)
+          );
+          if (cur.throughTripId && isStAfterCur) {
+            continue;
+          }
+
+          // すでに収集済みのトリップ群と区間駅が大幅に重複しているトリップは別系統の重複とみなしスキップ
+          const stStationIds = new Set(st.stops.map((s) => s.stationId));
+          const hasHeavyOverlap = chain.some((existing) => {
+            if (existing.lineId !== st.lineId) return false;
+            const overlapCount = existing.stops.filter((s) => stStationIds.has(s.stationId)).length;
+            return overlapCount > 1;
+          });
+          if (hasHeavyOverlap) {
+            continue;
+          }
+
           visitedTripIds.add(st.tripId);
           queue.push(st);
         }
@@ -509,15 +546,26 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
 
   for (let tripIdx = 0; tripIdx < chainTrips.length; tripIdx++) {
     const trip = chainTrips[tripIdx];
+    const prevTrip = tripIdx > 0 ? chainTrips[tripIdx - 1] : undefined;
+    const nextTrip = tripIdx < chainTrips.length - 1 ? chainTrips[tripIdx + 1] : undefined;
+
     const line = getLine(trip.lineId);
     const lineName = line?.name || trip.lineId;
     const lineShortName = line?.shortName || line?.name || trip.lineId;
     const lineColor = line?.lineColor || '#004b97';
 
+    // 先行トリップから併結が継続しているか判定
+    const continuesCouplingFromPrev = Boolean(prevTrip?.coupling && trip.coupling);
+    // 後続トリップへ併結が継続するか判定
+    const continuesCouplingToNext = Boolean(trip.coupling && nextTrip?.coupling);
+
     for (let stopIdx = 0; stopIdx < trip.stops.length; stopIdx++) {
       const s = trip.stops[stopIdx];
       const station = STATION_MAP.get(s.stationId);
       const stationName = station?.name || s.stationId;
+      const isTripFirstStop = stopIdx === 0;
+      const isTripLastStop = stopIdx === trip.stops.length - 1;
+      const isChainLastStop = tripIdx === chainTrips.length - 1 && isTripLastStop;
 
       // 区間別列車番号
       let currentTrainNumber = trip.trainNumber;
@@ -531,11 +579,21 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
       }
 
       // 併結開始 / 解結（切り離し）
-      const couplingStart = trip.coupling?.fromStationId === s.stationId;
-      const couplingEnd = trip.coupling?.toStationId === s.stationId;
+      // 1) 境界駅で先行トリップから併結が継続している場合は「併結開始」を抑制
+      let couplingStart = Boolean(trip.coupling?.fromStationId === s.stationId);
+      if (isTripFirstStop && continuesCouplingFromPrev) {
+        couplingStart = false;
+      }
+
+      // 2) 境界駅で後続トリップへ併結が継続している場合は「切り離し」を抑制
+      // 3) 運行の最終駅（終着駅）での到着時は切り離し作業ではない（終着）ため抑制
+      let couplingEnd = Boolean(trip.coupling?.toStationId === s.stationId);
+      if ((isTripLastStop && continuesCouplingToNext) || isChainLastStop) {
+        couplingEnd = false;
+      }
 
       // 直前の駅との境界判定 (先行トリップの末尾駅と後続トリップの先頭駅)
-      if (tripIdx > 0 && stopIdx === 0 && stops.length > 0) {
+      if (tripIdx > 0 && isTripFirstStop && stops.length > 0) {
         const prevStop = stops[stops.length - 1];
         const isSameStation =
           prevStop.stationId === s.stationId ||

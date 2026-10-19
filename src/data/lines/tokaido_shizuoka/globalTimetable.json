@@ -151,7 +151,7 @@
       {
         "stationId": "CA-00",
         "arrivalTime": "05:43:00",
-        "departureTime": "05:43:00",
+        "departureTime": "05:45:00",
         "isPassing": false
       }
     ],
@@ -258,7 +258,7 @@
       {
         "stationId": "CA-00",
         "arrivalTime": "06:11:00",
-        "departureTime": "06:11:00",
+        "departureTime": "06:16:00",
         "isPassing": false
       }
     ],
@@ -327,7 +327,7 @@
       {
         "stationId": "CA-00",
         "arrivalTime": "06:25:00",
-        "departureTime": "06:25:00",
+        "departureTime": "06:30:00",
         "isPassing": false
       }
     ],
@@ -473,7 +473,7 @@
       {
         "stationId": "CA-00",
         "arrivalTime": "06:52:00",
-        "departureTime": "06:52:00",
+        "departureTime": "06:57:00",
         "isPassing": false
       }
     ],
@@ -885,7 +885,7 @@
       {
         "stationId": "CA-00",
         "arrivalTime": "07:53:00",
-        "departureTime": "07:53:00",
+        "departureTime": "07:54:00",
         "isPassing": false
       }
     ],
@@ -1231,7 +1231,7 @@
       {
         "stationId": "CA-00",
         "arrivalTime": "08:49:00",
-        "departureTime": "08:49:00",
+        "departureTime": "08:51:00",
         "isPassing": false
       }
     ],
@@ -1937,7 +1937,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "41930"
+    "trainId": "41930",
+    "prevTripId": "WD_OUT_JT-01_0900_41961",
+    "prevLineId": "tokaido",
+    "throughTripId": "WD_OUT_IS-01_1040_41961",
+    "throughLineId": "izuhakone_sunzu"
   },
   {
     "tripId": "WD_OUT_CA-00_1031_18237",
@@ -2818,7 +2822,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "41933"
+    "trainId": "41933",
+    "prevTripId": "WD_INB_IS-13_1235_41964",
+    "prevLineId": "izuhakone_sunzu"
   },
   {
     "tripId": "WD_INB_CA-03_1306_1903",
@@ -2969,7 +2975,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "41932"
+    "trainId": "41932",
+    "prevTripId": "WD_OUT_JT-01_1200_41963",
+    "prevLineId": "tokaido",
+    "throughTripId": "WD_OUT_IS-01_1340_41963",
+    "throughLineId": "izuhakone_sunzu"
   },
   {
     "tripId": "WD_OUT_CA-00_1331_18246",
@@ -3851,7 +3861,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "41935"
+    "trainId": "41935",
+    "prevTripId": "WD_INB_IS-13_1539_41966",
+    "prevLineId": "izuhakone_sunzu"
   },
   {
     "tripId": "WD_INB_CA-03_1609_1848",
@@ -6367,7 +6379,7 @@
       {
         "stationId": "CA-00",
         "arrivalTime": "05:43:00",
-        "departureTime": "05:43:00",
+        "departureTime": "05:45:00",
         "isPassing": false
       }
     ],
@@ -6474,7 +6486,7 @@
       {
         "stationId": "CA-00",
         "arrivalTime": "06:11:00",
-        "departureTime": "06:11:00",
+        "departureTime": "06:16:00",
         "isPassing": false
       }
     ],
@@ -6543,7 +6555,7 @@
       {
         "stationId": "CA-00",
         "arrivalTime": "06:25:00",
-        "departureTime": "06:25:00",
+        "departureTime": "06:30:00",
         "isPassing": false
       }
     ],
@@ -6689,7 +6701,7 @@
       {
         "stationId": "CA-00",
         "arrivalTime": "06:52:00",
-        "departureTime": "06:52:00",
+        "departureTime": "06:57:00",
         "isPassing": false
       }
     ],
@@ -7101,7 +7113,7 @@
       {
         "stationId": "CA-00",
         "arrivalTime": "07:53:00",
-        "departureTime": "07:53:00",
+        "departureTime": "07:54:00",
         "isPassing": false
       }
     ],
@@ -7447,7 +7459,7 @@
       {
         "stationId": "CA-00",
         "arrivalTime": "08:49:00",
-        "departureTime": "08:49:00",
+        "departureTime": "08:51:00",
         "isPassing": false
       }
     ],
@@ -8153,7 +8165,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "41930"
+    "trainId": "41930",
+    "prevTripId": "HD_OUT_JT-01_0900_41961",
+    "prevLineId": "tokaido",
+    "throughTripId": "HD_OUT_IS-01_1040_41961",
+    "throughLineId": "izuhakone_sunzu"
   },
   {
     "tripId": "HD_OUT_CA-00_1031_18237",
@@ -8669,7 +8685,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "41931"
+    "trainId": "41931",
+    "prevTripId": "HD_OUT_JT-01_1030_41962",
+    "prevLineId": "tokaido",
+    "throughTripId": "HD_OUT_IS-01_1211_41962",
+    "throughLineId": "izuhakone_sunzu"
   },
   {
     "tripId": "HD_INB_CA-03_1202_1900",
@@ -9068,7 +9088,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "41933"
+    "trainId": "41933",
+    "prevTripId": "HD_INB_IS-13_1235_41964",
+    "prevLineId": "izuhakone_sunzu"
   },
   {
     "tripId": "HD_INB_CA-03_1306_1903",
@@ -9219,7 +9241,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "41932"
+    "trainId": "41932",
+    "prevTripId": "HD_OUT_JT-01_1200_41963",
+    "prevLineId": "tokaido",
+    "throughTripId": "HD_OUT_IS-01_1340_41963",
+    "throughLineId": "izuhakone_sunzu"
   },
   {
     "tripId": "HD_OUT_CA-00_1331_18246",
@@ -9658,7 +9684,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "41934"
+    "trainId": "41934",
+    "prevTripId": "HD_INB_IS-13_1418_41965",
+    "prevLineId": "izuhakone_sunzu"
   },
   {
     "tripId": "HD_INB_CA-03_1449_1907",
@@ -10135,7 +10163,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "41935"
+    "trainId": "41935",
+    "prevTripId": "HD_INB_IS-13_1539_41966",
+    "prevLineId": "izuhakone_sunzu"
   },
   {
     "tripId": "HD_INB_CA-03_1609_1848",

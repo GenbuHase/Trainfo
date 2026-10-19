@@ -28,6 +28,8 @@ export function useMapCamera({
     const currentKey = selectedLineIds.slice().sort().join(',');
     if (currentKey !== prevLineIdsRef.current) {
       prevLineIdsRef.current = currentKey;
+      // 列車追従中は路線全体への flyToBounds を行わず追従カメラを最優先
+      if (isTrackingTrain) return;
       const bounds = calculateBoundsForLines(selectedLineIds);
       mapRef.current.flyToBounds(bounds, {
         padding: [60, 60],
@@ -35,7 +37,7 @@ export function useMapCamera({
         easeLinearity: 0.25,
       });
     }
-  }, [mapRef, selectedLineIds]);
+  }, [mapRef, selectedLineIds, isTrackingTrain]);
 
   // 2. 列車追従モード初期化フラグのリセット
   useEffect(() => {

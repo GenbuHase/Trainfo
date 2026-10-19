@@ -94,17 +94,28 @@ function deduplicateLineTrips(trips) {
       continue;
     }
 
-    // 併結列車（特急など異なる列車番号・行先を持つ列車）の判定
-    const byTrainNo = new Map();
+    // 併結列車（特急など異なる列車番号・行先を持つ列車、または coupling を持つ列車）の判定
+    const byTrainOrDest = new Map();
     for (const t of list) {
-      const trainKey = t.trainNumber || extractYahooTrainId(t.tripId) || t.tripId;
-      if (!byTrainNo.has(trainKey)) byTrainNo.set(trainKey, []);
-      byTrainNo.get(trainKey).push(t);
+      let trainKey = t.tripId;
+      if (t.coupling) {
+        trainKey = `${t.trainNumber || ''}_${t.coupling.role}_${t.customDestination || ''}`;
+      } else if (t.tripId && t.tripId.includes('_fuji')) {
+        trainKey = `${t.trainNumber || ''}_fuji_${t.customDestination || ''}`;
+      } else if (t.trainNumber && t.customDestination) {
+        trainKey = `${t.trainNumber}_${t.customDestination}`;
+      } else if (t.trainNumber) {
+        trainKey = t.trainNumber;
+      } else if (extractYahooTrainId(t.tripId)) {
+        trainKey = extractYahooTrainId(t.tripId);
+      }
+      if (!byTrainOrDest.has(trainKey)) byTrainOrDest.set(trainKey, []);
+      byTrainOrDest.get(trainKey).push(t);
     }
 
-    // 異なる列車番号を持つ優等列車または併結設定列車が存在する場合、それぞれの列車を保護
-    if (byTrainNo.size > 1 && list.some(t => isExpressType(t.trainType) || t.coupling)) {
-      for (const subList of byTrainNo.values()) {
+    // 異なる列車キーを持つ優等列車または併結設定列車が存在する場合、それぞれの列車を保護
+    if (byTrainOrDest.size > 1 && list.some(t => isExpressType(t.trainType) || t.coupling || (t.tripId && t.tripId.includes('_fuji')))) {
+      for (const subList of byTrainOrDest.values()) {
         if (subList.length === 1) {
           cleaned.push(subList[0]);
         } else {
@@ -403,16 +414,29 @@ function linkPair({
       const destB = getEffectiveDestination(tB, stationMap);
 
       // 1. 完全一致 (Yahoo trainId または 公式列車番号)
-      if ((yIdA && yIdB && yIdA === yIdB && diff <= maxTimeDiff) || (noA && noB && noA === noB && diff <= maxTimeDiff)) {
-        bestB = tB;
-        bestScore = -9999;
-        break;
+      // 同一列車番号またはYahoo IDを持つ列車は一意であるため、因果律を満たしていれば固定のmaxTimeDiffに縛られず自動マッチ（連結作業や長時間停車にも完全対応）
+      const isIdMatch = (yIdA && yIdB && yIdA === yIdB) || (noA && noB && noA === noB);
+      if (isIdMatch && waitSec >= -60 && waitSec <= 7200) {
+        // 行先が両方存在し、かつ互換性がない場合は誤マッチ（併結列車の別編成など）なので即決しない
+        if (destA && destB && !areDestinationsCompatible(destA, destB)) {
+          // スキップして次の候補へ
+        } else {
+          bestB = tB;
+          bestScore = -9999;
+          break;
+        }
       }
 
       if (requireIdMatch) continue;
 
       // 2. 因果律: 出発時刻は到着時刻以降（ダイヤ丸め誤差 -30秒まで許容）
-      if (waitSec < -30 || waitSec > maxTimeDiff) continue;
+      // 行先が相手路線を明示している直通便は最大1800秒（30分）まで自動許容、一般普通列車はデフォルト900秒（15分）
+      const isDestCompatible = destA && destB && areDestinationsCompatible(destA, destB);
+      const effectiveMaxWait = isDestCompatible
+        ? Math.max(maxTimeDiff || 900, 1800)
+        : (maxTimeDiff || 900);
+
+      if (waitSec < -30 || waitSec > effectiveMaxWait) continue;
 
       let score = Math.max(0, waitSec); // 待機時間が短いほど好ましい
 
@@ -428,6 +452,28 @@ function linkPair({
       // 優等/普通整合性ボーナス
       if (isExpressType(tA.trainType) === isExpressType(tB.trainType)) {
         score -= 300;
+      }
+
+      // 併結・分割支線列車（富士回遊 _fuji 等）の親・子系統整合性ボーナス
+      const fujiNumbers = new Set(['2103M', '2107M', '2111M', '2115M', '8111M', '9193M', '2132M', '2136M', '2144M', '2148M', '8194M', '9178M']);
+      const isFujiA = (tA.tripId && tA.tripId.includes('_fuji')) ||
+                      (tA.customDestination && tA.customDestination.includes('河口湖')) ||
+                      tA.destinationStationId === 'FJ-18' ||
+                      tA.originStationId === 'FJ-18' ||
+                      tA.prevLineId === 'fujikyu' ||
+                      tA.throughLineId === 'fujikyu' ||
+                      fujiNumbers.has(tA.trainNumber);
+      const isFujiB = (tB.tripId && tB.tripId.includes('_fuji')) ||
+                      (tB.customDestination && tB.customDestination.includes('河口湖')) ||
+                      tB.destinationStationId === 'FJ-18' ||
+                      tB.originStationId === 'FJ-18' ||
+                      tB.prevLineId === 'fujikyu' ||
+                      tB.throughLineId === 'fujikyu' ||
+                      fujiNumbers.has(tB.trainNumber);
+      if (isFujiA && isFujiB) {
+        score -= 4000;
+      } else if (isFujiA !== isFujiB) {
+        score += 4000; // 富士回遊が甲府行きかいじとクロス誤マッチするのを防止
       }
 
       if (score < bestScore) {
@@ -462,6 +508,10 @@ function linkPair({
         const syncSec = timeToSec(syncArr);
         if (timeToSec(stopB.departureTime) < syncSec) {
           stopB.departureTime = syncArr;
+        }
+        // 先行路線の境界駅発車時刻も後続路線の発車時刻に同期（境界駅停車時間・発車標時刻の統一）
+        if (stopB.departureTime && timeToSec(stopB.departureTime) >= syncSec) {
+          stopA.departureTime = stopB.departureTime;
         }
 
         // 後続駅の時刻が境界駅の発車時刻より前になって逆転することを防止
@@ -694,6 +744,41 @@ function executeUniversalThroughLinker(options = {}) {
 
   const updatedDestCount = resolveAllChainDestinations(allTripsMap, stationMap);
   console.log(`✅ End-to-End 行先同期完了: ${updatedDestCount} トリップの customDestination を同期・統一`);
+
+  // 5.5 相手が存在しない孤立カップリングの自動クリーンアップ
+  let orphanCouplingCount = 0;
+  for (const trips of lineTrips.values()) {
+    for (const t of trips) {
+      if (t.coupling && t.coupling.coupledTripId) {
+        if (!allTripsMap.has(t.coupling.coupledTripId)) {
+          delete t.coupling;
+          orphanCouplingCount++;
+        }
+      }
+    }
+  }
+  if (orphanCouplingCount > 0) {
+    console.log(`🧹 相手が存在しない孤立カップリングを ${orphanCouplingCount} 件クリーンアップしました`);
+  }
+
+  // 5.6 併結相手（coupledTripId）の最新 trainNumber で coupledTrainNumber を全自動同期
+  let updatedCoupledNoCount = 0;
+  for (const trips of lineTrips.values()) {
+    for (const t of trips) {
+      if (t.coupling && t.coupling.coupledTripId) {
+        const partner = allTripsMap.get(t.coupling.coupledTripId);
+        if (partner && partner.trainNumber && !/^\d+$/.test(partner.trainNumber)) {
+          if (t.coupling.coupledTrainNumber !== partner.trainNumber) {
+            t.coupling.coupledTrainNumber = partner.trainNumber;
+            updatedCoupledNoCount++;
+          }
+        }
+      }
+    }
+  }
+  if (updatedCoupledNoCount > 0) {
+    console.log(`🔗 併結相手の公式列車番号（coupledTrainNumber）を ${updatedCoupledNoCount} 件同期更新しました`);
+  }
 
   // 6. 全路線の globalTimetable.json を安全に書き出し
   console.log('\n--- globalTimetable.json 保存 ---');

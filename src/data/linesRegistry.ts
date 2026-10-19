@@ -69,6 +69,12 @@ import { tobuKinugawaLine } from './lines/tobu_kinugawa';
 import { tobuUrbanParkLine } from './lines/tobu_urban_park';
 import { yaganLine } from './lines/yagan';
 import { aizuLine } from './lines/aizu';
+import { yamagataShinkansenLine } from './lines/yamagata_shinkansen';
+import { akitaShinkansenLine } from './lines/akita_shinkansen';
+import { fujikyuLine } from './lines/fujikyu';
+import { gotembaLine } from './lines/gotemba';
+import { izukyuLine } from './lines/izukyu';
+import { izuhakoneSunzuLine } from './lines/izuhakone_sunzu';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -143,6 +149,12 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tobu_urban_park: tobuUrbanParkLine,
   yagan: yaganLine,
   aizu: aizuLine,
+  yamagata_shinkansen: yamagataShinkansenLine,
+  akita_shinkansen: akitaShinkansenLine,
+  fujikyu: fujikyuLine,
+  gotemba: gotembaLine,
+  izukyu: izukyuLine,
+  izuhakone_sunzu: izuhakoneSunzuLine,
 };
 
 // 登録されている全路線の配列を取得
@@ -166,6 +178,9 @@ const OPERATOR_DISPLAY_ORDER = [
   '横浜高速鉄道',
   '相模鉄道',
   '小田急電鉄',
+  '富士山麓電気鉄道',
+  '伊豆急行',
+  '伊豆箱根鉄道',
   'JR東日本',
   'JR東海',
   'JR西日本',

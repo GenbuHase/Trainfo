@@ -655,9 +655,18 @@ class YahooTimetableBuilder {
 
     const hasPassingStop = stops.some(s => s.isPassing);
 
-    // 安全策1: 自社線区間内で通過駅が1駅も存在しない（全駅停車）場合、自社線内では普通/各停として運行
-    // （他社線直通区間での種別「特急」「急行」の自社線各停区間への誤適用を防止。ただし特急・普通や指定種別は保持）
-    const preserveTypes = new Set(['limitedExp', 'limited_express', 'regular', ...(this.config.preserveAllStopsTypes || [])]);
+    // 新幹線種別および特急種別は、各駅停車区間であっても普通列車化しない
+    const SHINKANSEN_TYPES = [
+      'hayabusa', 'hayate', 'yamabiko', 'nasuno', 'komachi', 'tsubasa',
+      'toki', 'tanigawa', 'kagayaki', 'hakutaka', 'asama', 'tsurugi',
+    ];
+    const preserveTypes = new Set([
+      'limitedExp',
+      'limited_express',
+      'regular',
+      ...SHINKANSEN_TYPES,
+      ...(this.config.preserveAllStopsTypes || []),
+    ]);
     if (!hasPassingStop && trainType !== 'local' && !preserveTypes.has(trainType)) {
       trainType = this.config.defaultTrainType || 'local';
     }
@@ -777,8 +786,10 @@ class YahooTimetableBuilder {
 
       for (let i = 0; i < trip.stops.length; i++) {
         const stop = trip.stops[i];
-        // 終着駅は発車しないため除外
-        if (i === trip.stops.length - 1) continue;
+        // 終着駅は発車しないため除外（ただし直通先へ発車するトリップで departureTime が設定されている場合は含める）
+        if (i === trip.stops.length - 1) {
+          if (!trip.throughTripId || !stop.departureTime) continue;
+        }
         if (stop.isPassing) continue;
 
         const [h, m, s = 0] = stop.departureTime.split(':').map(Number);

@@ -74,6 +74,7 @@ const { execSync } = require('child_process');
 
 console.log('=== [Step 2] 全路線の公式列車番号エンリッチメント実行 ===');
 execSync('node scripts/enrich_train_numbers.cjs all', { stdio: 'inherit' });
+execSync('node scripts/enrich_6_lines.cjs', { stdio: 'inherit' });
 
 console.log('\n=== [Step 2.1] 特急あずさ松本〜上諏訪間・塩尻通過ダイヤ補完実行 ===');
 execSync('node scripts/enrich_azusa_timetable.cjs', { stdio: 'inherit' });

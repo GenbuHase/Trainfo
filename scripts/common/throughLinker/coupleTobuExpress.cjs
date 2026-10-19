@@ -90,6 +90,8 @@ function coupleTobuExpress() {
       if (skyNikko && skyOther) {
         skyNikko.cars = 3;
         skyOther.cars = 3;
+        skyNikko.customDestination = '東武日光';
+        skyOther.customDestination = pair.otherDest;
         skyNikko.coupling = {
           role: 'PRIMARY',
           fromStationId: 'TSK-01',
@@ -118,6 +120,8 @@ function coupleTobuExpress() {
       if (nikkoTrip && otherTrip) {
         nikkoTrip.cars = 3;
         otherTrip.cars = 3;
+        nikkoTrip.customDestination = '東武日光';
+        otherTrip.customDestination = pair.otherDest;
         nikkoTrip.coupling = {
           role: 'PRIMARY',
           fromStationId: 'TSK-30',

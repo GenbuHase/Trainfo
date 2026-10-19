@@ -160,12 +160,30 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
     }
 
     // 運行区間（自路線のみ）モード
+    const curTripIdx = chainTrips.findIndex((t) => t.tripId === train.tripId);
+    const prevTrip = curTripIdx > 0 ? chainTrips[curTripIdx - 1] : undefined;
+    const nextTrip = curTripIdx >= 0 && curTripIdx < chainTrips.length - 1 ? chainTrips[curTripIdx + 1] : undefined;
+    const continuesCouplingFromPrev = Boolean(prevTrip?.coupling && train.coupling);
+    const continuesCouplingToNext = Boolean(train.coupling && nextTrip?.coupling);
+
+    const firstStopId = train.stops[0]?.stationId;
+    const lastStopId = train.stops[train.stops.length - 1]?.stationId;
+    const isChainLastStop = !nextTrip || curTripIdx === chainTrips.length - 1;
+
     return train.stops.map((s) => {
       const st = STATION_MAP.get(s.stationId);
       const isCurrent = train.currentStationId === s.stationId;
       const trainNumberChange = train.trainNumberSections?.find((sec) => sec.fromStationId === s.stationId)?.trainNumber;
-      const couplingStart = train.coupling?.fromStationId === s.stationId;
-      const couplingEnd = train.coupling?.toStationId === s.stationId;
+      
+      let couplingStart = Boolean(train.coupling?.fromStationId === s.stationId);
+      if (s.stationId === firstStopId && continuesCouplingFromPrev) {
+        couplingStart = false;
+      }
+
+      let couplingEnd = Boolean(train.coupling?.toStationId === s.stationId);
+      if ((s.stationId === lastStopId && continuesCouplingToNext) || (s.stationId === lastStopId && isChainLastStop)) {
+        couplingEnd = false;
+      }
 
       return {
         stationId: s.stationId,
@@ -186,7 +204,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
         couplingEnd,
       };
     });
-  }, [isFullMode, throughSummary.stops, train, lineColor, lineShortName]);
+  }, [isFullMode, throughSummary.stops, train, lineColor, lineShortName, chainTrips]);
 
   return (
     <div className="flex flex-col h-full bg-white text-slate-800 overflow-y-auto">

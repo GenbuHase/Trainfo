@@ -3828,6 +3828,20 @@ function enrichTohokuShinkansen() {
     }
   }
 
+  // all_train_details.json から displayName を収集（東北・山形・秋田）
+  const detailsMap = new Map();
+  for (const subLine of ['tohoku_shinkansen', 'yamagata_shinkansen', 'akita_shinkansen']) {
+    const dPath = path.resolve(`scripts/cache/yahoo/${subLine}/all_train_details.json`);
+    if (fs.existsSync(dPath)) {
+      const details = JSON.parse(fs.readFileSync(dPath, 'utf8'));
+      for (const d of details) {
+        if (!detailsMap.has(d.trainId)) {
+          detailsMap.set(d.trainId, d);
+        }
+      }
+    }
+  }
+
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
   const stationTimetables = fs.existsSync(stationPath)
     ? JSON.parse(fs.readFileSync(stationPath, 'utf8'))
@@ -3844,9 +3858,47 @@ function enrichTohokuShinkansen() {
     const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
     const key = `${dayKey}_${originalId}`;
 
+    let officialNo = null;
+
+    // 1. vendorTrainId からの解決
     if (trainMap.has(key)) {
-      const vendorNo = trainMap.get(key);
-      trip.trainNumber = normalizeTrainNumber(vendorNo);
+      officialNo = normalizeTrainNumber(trainMap.get(key));
+    }
+
+    // 2. displayName からの号数抽出フォールバック
+    if (!officialNo) {
+      const detail = detailsMap.get(originalId);
+      if (detail && detail.displayName) {
+        const hayabusaMatch = detail.displayName.match(/はやぶさ(\d+)号/);
+        if (hayabusaMatch) {
+          const num = parseInt(hayabusaMatch[1], 10);
+          officialNo = `${num >= 50 && num <= 99 ? 5000 + num : num}B`;
+        }
+        const yamabikoMatch = detail.displayName.match(/やまびこ(\d+)号/);
+        if (yamabikoMatch) {
+          const num = parseInt(yamabikoMatch[1], 10);
+          officialNo = `${num >= 70 && num <= 99 ? 9000 + num : num}B`;
+        }
+        const nasunoMatch = detail.displayName.match(/なすの(\d+)号/);
+        if (nasunoMatch) {
+          const num = parseInt(nasunoMatch[1], 10);
+          officialNo = `${num}B`;
+        }
+        const tsubasaMatch = detail.displayName.match(/つばさ(\d+)号/);
+        if (tsubasaMatch) {
+          const num = parseInt(tsubasaMatch[1], 10);
+          officialNo = `${num >= 70 && num <= 99 ? 8000 + num : num}M`;
+        }
+        const komachiMatch = detail.displayName.match(/こまち(\d+)号/);
+        if (komachiMatch) {
+          const num = parseInt(komachiMatch[1], 10);
+          officialNo = `${num >= 60 && num <= 99 ? 8000 + num : 3000 + num}M`;
+        }
+      }
+    }
+
+    if (officialNo) {
+      trip.trainNumber = officialNo;
       trainIdToOfficialNo.set(originalId, trip.trainNumber);
       matchedCount++;
     } else {
