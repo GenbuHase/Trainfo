@@ -3558,7 +3558,10 @@
       }
     ],
     "customDestination": "東京",
-    "trainId": "39456"
+    "trainId": "39456",
+    "customOrigin": "河口湖",
+    "prevTripId": "WD_INB_FJ-18_0549_39581",
+    "prevLineId": "fujikyu"
   },
   {
     "tripId": "cm_WD_OUT_CO-57_0654_38000",
@@ -3742,7 +3745,7 @@
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "CO-61",
-    "customDestination": "松本",
+    "customDestination": "甲府",
     "cars": 9,
     "isHoliday": false,
     "stops": [
@@ -3995,7 +3998,7 @@
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "CO-61",
-    "customDestination": "松本",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4237,7 +4240,7 @@
       "coupledTripId": "cm_WD_OUT_JC-05_0700_6842",
       "coupledTrainNumber": "1M",
       "coupledCars": 9,
-      "coupledDestination": "甲府・松本"
+      "coupledDestination": "甲府"
     }
   },
   {
@@ -5191,7 +5194,10 @@
       }
     ],
     "customDestination": "東京",
-    "trainId": "39457"
+    "trainId": "39457",
+    "customOrigin": "河口湖",
+    "prevTripId": "WD_INB_FJ-18_0615_39582",
+    "prevLineId": "fujikyu"
   },
   {
     "tripId": "cm_WD_OUT_CO-43_0723_6874",
@@ -5385,11 +5391,14 @@
       {
         "stationId": "JC-32",
         "arrivalTime": "08:10:00",
-        "departureTime": "08:19:00",
+        "departureTime": "08:10:00",
         "isPassing": false
       }
     ],
-    "trainId": "38121"
+    "trainId": "38121",
+    "customOrigin": "高尾",
+    "throughTripId": "WD_OUT_FJ-01_0819_38246",
+    "throughLineId": "fujikyu"
   },
   {
     "tripId": "cm_WD_INB_CO-51_0728_33613",
@@ -7414,7 +7423,7 @@
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "CO-61",
-    "customDestination": "松本",
+    "customDestination": "甲府",
     "cars": 9,
     "isHoliday": false,
     "stops": [
@@ -8036,6 +8045,8 @@
       }
     ],
     "trainId": "10031",
+    "customDestination": "河口湖",
+    "customOrigin": "高尾",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-24",
@@ -8043,8 +8054,10 @@
       "coupledTripId": "cm_WD_OUT_JC-05_0805_6845",
       "coupledTrainNumber": "9077M",
       "coupledCars": 9,
-      "coupledDestination": "甲府・松本"
-    }
+      "coupledDestination": "甲府"
+    },
+    "throughTripId": "WD_OUT_FJ-01_0916_92367",
+    "throughLineId": "fujikyu"
   },
   {
     "tripId": "cm_WD_OUT_JC-05_0830_31129",
@@ -21212,9 +21225,9 @@
     ],
     "customDestination": "新宿",
     "trainId": "39444",
-    "prevTripId": "WD_INB_FJ-17_1458_39569",
-    "prevLineId": "fujikyu",
-    "customOrigin": "河口湖"
+    "customOrigin": "河口湖",
+    "prevTripId": "WD_INB_FJ-18_1458_39569",
+    "prevLineId": "fujikyu"
   },
   {
     "tripId": "cm_WD_OUT_JC-24_1557_6891",
@@ -22823,9 +22836,9 @@
     ],
     "customDestination": "新宿",
     "trainId": "39447",
-    "prevTripId": "WD_INB_FJ-17_1539_39572",
-    "prevLineId": "fujikyu",
-    "customOrigin": "河口湖"
+    "customOrigin": "河口湖",
+    "prevTripId": "WD_INB_FJ-18_1539_39572",
+    "prevLineId": "fujikyu"
   },
   {
     "tripId": "cm_WD_INB_CO-61_1638_6906",
@@ -24261,7 +24274,7 @@
         "isPassing": true
       }
     ],
-    "customDestination": "新宿",
+    "customDestination": "甲府",
     "trainId": "6928",
     "customOrigin": "松本",
     "coupling": {
@@ -24911,6 +24924,7 @@
       }
     ],
     "trainId": "33619",
+    "customDestination": "河口湖",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-32",
@@ -24918,7 +24932,7 @@
       "coupledTripId": "cm_WD_INB_CO-61_1710_6928",
       "coupledTrainNumber": "9084M",
       "coupledCars": 9,
-      "coupledDestination": "甲府・松本"
+      "coupledDestination": "甲府"
     }
   },
   {
@@ -25672,7 +25686,7 @@
         "isPassing": true
       }
     ],
-    "customDestination": "新宿",
+    "customDestination": "甲府",
     "trainId": "6916",
     "customOrigin": "松本",
     "coupling": {
@@ -26206,9 +26220,9 @@
     ],
     "customDestination": "新宿",
     "trainId": "39449",
-    "prevTripId": "WD_INB_FJ-17_1648_39574",
-    "prevLineId": "fujikyu",
-    "customOrigin": "河口湖"
+    "customOrigin": "河口湖",
+    "prevTripId": "WD_INB_FJ-18_1648_39574",
+    "prevLineId": "fujikyu"
   },
   {
     "tripId": "cm_WD_INB_CO-51_1745_33621",
@@ -26391,6 +26405,7 @@
       }
     ],
     "trainId": "33621",
+    "customDestination": "河口湖",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-32",
@@ -26398,7 +26413,7 @@
       "coupledTripId": "cm_WD_INB_CO-61_1734_6916",
       "coupledTrainNumber": "9086M",
       "coupledCars": 9,
-      "coupledDestination": "甲府・松本"
+      "coupledDestination": "甲府"
     }
   },
   {
@@ -27003,12 +27018,14 @@
       {
         "stationId": "JC-32",
         "arrivalTime": "20:00:00",
-        "departureTime": "20:09:00",
+        "departureTime": "20:00:00",
         "isPassing": false
       }
     ],
     "customOrigin": "東京",
-    "trainId": "38795"
+    "trainId": "38795",
+    "throughTripId": "WD_OUT_FJ-01_2009_38920",
+    "throughLineId": "fujikyu"
   },
   {
     "tripId": "cm_WD_OUT_JC-01_1815_31125",
@@ -28392,7 +28409,7 @@
         "isPassing": true
       }
     ],
-    "customDestination": "新宿",
+    "customDestination": "甲府",
     "trainId": "6914",
     "customOrigin": "松本",
     "coupling": {
@@ -28791,6 +28808,7 @@
       }
     ],
     "trainId": "7013",
+    "customDestination": "甲府",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-32",
@@ -29707,7 +29725,7 @@
         "isPassing": true
       }
     ],
-    "customDestination": "新宿",
+    "customDestination": "河口湖",
     "trainId": "6918",
     "customOrigin": "松本",
     "coupling": {
@@ -29717,7 +29735,7 @@
       "coupledTripId": "cm_WD_INB_CO-61_1859_7013",
       "coupledTrainNumber": "446M",
       "coupledCars": 9,
-      "coupledDestination": "甲府・松本"
+      "coupledDestination": "甲府"
     }
   },
   {
@@ -31451,6 +31469,7 @@
       }
     ],
     "trainId": "10047",
+    "customDestination": "河口湖",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-32",
@@ -31458,7 +31477,7 @@
       "coupledTripId": "cm_WD_INB_CO-61_1849_6914",
       "coupledTrainNumber": "54M",
       "coupledCars": 9,
-      "coupledDestination": "甲府・松本"
+      "coupledDestination": "甲府"
     }
   },
   {
@@ -37644,16 +37663,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "6890",
-    "coupling": {
-      "role": "PRIMARY",
-      "fromStationId": "JC-24",
-      "toStationId": "JC-32",
-      "coupledTripId": "cm_HD_OUT_JC-24_0643_6889",
-      "coupledTrainNumber": "429M",
-      "coupledCars": 3,
-      "coupledDestination": "河口湖"
-    }
+    "trainId": "6890"
   },
   {
     "tripId": "cm_HD_INB_CO-46_0643_33636",
@@ -38089,7 +38099,10 @@
       }
     ],
     "customDestination": "東京",
-    "trainId": "39454"
+    "trainId": "39454",
+    "customOrigin": "河口湖",
+    "prevTripId": "HD_INB_FJ-18_0549_39579",
+    "prevLineId": "fujikyu"
   },
   {
     "tripId": "cm_HD_OUT_CO-57_0654_38000",
@@ -38273,7 +38286,7 @@
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "CO-61",
-    "customDestination": "松本",
+    "customDestination": "甲府",
     "cars": 9,
     "isHoliday": true,
     "stops": [
@@ -38526,7 +38539,7 @@
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "CO-61",
-    "customDestination": "松本",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -38768,7 +38781,7 @@
       "coupledTripId": "cm_HD_OUT_JC-05_0700_6842",
       "coupledTrainNumber": "1M",
       "coupledCars": 9,
-      "coupledDestination": "甲府・松本"
+      "coupledDestination": "甲府"
     }
   },
   {
@@ -39966,7 +39979,10 @@
       }
     ],
     "customDestination": "東京",
-    "trainId": "39455"
+    "trainId": "39455",
+    "customOrigin": "河口湖",
+    "prevTripId": "HD_INB_FJ-18_0615_39580",
+    "prevLineId": "fujikyu"
   },
   {
     "tripId": "cm_HD_OUT_CO-43_0723_6874",
@@ -40160,11 +40176,14 @@
       {
         "stationId": "JC-32",
         "arrivalTime": "08:10:00",
-        "departureTime": "08:19:00",
+        "departureTime": "08:10:00",
         "isPassing": false
       }
     ],
-    "trainId": "38120"
+    "trainId": "38120",
+    "customOrigin": "高尾",
+    "throughTripId": "HD_OUT_FJ-01_0819_38245",
+    "throughLineId": "fujikyu"
   },
   {
     "tripId": "cm_HD_INB_CO-51_0728_33612",
@@ -42055,7 +42074,7 @@
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "CO-61",
-    "customDestination": "松本",
+    "customDestination": "甲府",
     "cars": 9,
     "isHoliday": true,
     "stops": [
@@ -43055,6 +43074,7 @@
       }
     ],
     "trainId": "10030",
+    "customDestination": "河口湖",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-24",
@@ -43062,7 +43082,7 @@
       "coupledTripId": "cm_HD_OUT_JC-05_0805_6845",
       "coupledTrainNumber": "9077M",
       "coupledCars": 9,
-      "coupledDestination": "甲府・松本"
+      "coupledDestination": "甲府"
     }
   },
   {
@@ -56996,9 +57016,9 @@
     ],
     "customDestination": "新宿",
     "trainId": "39445",
-    "prevTripId": "HD_INB_FJ-17_1458_39571",
-    "prevLineId": "fujikyu",
-    "customOrigin": "河口湖"
+    "customOrigin": "河口湖",
+    "prevTripId": "HD_INB_FJ-18_1458_39571",
+    "prevLineId": "fujikyu"
   },
   {
     "tripId": "cm_HD_INB_CO-61_1558_6927",
@@ -61614,7 +61634,7 @@
         "isPassing": true
       }
     ],
-    "customDestination": "新宿",
+    "customDestination": "甲府",
     "trainId": "6916",
     "customOrigin": "松本",
     "coupling": {
@@ -62148,9 +62168,9 @@
     ],
     "customDestination": "新宿",
     "trainId": "39450",
-    "prevTripId": "HD_INB_FJ-17_1648_39575",
-    "prevLineId": "fujikyu",
-    "customOrigin": "河口湖"
+    "customOrigin": "河口湖",
+    "prevTripId": "HD_INB_FJ-18_1648_39575",
+    "prevLineId": "fujikyu"
   },
   {
     "tripId": "cm_HD_INB_CO-51_1745_33621",
@@ -62333,6 +62353,7 @@
       }
     ],
     "trainId": "33621",
+    "customDestination": "河口湖",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-32",
@@ -62340,7 +62361,7 @@
       "coupledTripId": "cm_HD_INB_CO-61_1734_6916",
       "coupledTrainNumber": "9086M",
       "coupledCars": 9,
-      "coupledDestination": "甲府・松本"
+      "coupledDestination": "甲府"
     }
   },
   {
@@ -63099,12 +63120,14 @@
       {
         "stationId": "JC-32",
         "arrivalTime": "20:00:00",
-        "departureTime": "20:09:00",
+        "departureTime": "20:00:00",
         "isPassing": false
       }
     ],
     "customOrigin": "東京",
-    "trainId": "38793"
+    "trainId": "38793",
+    "throughTripId": "HD_OUT_FJ-01_2009_38918",
+    "throughLineId": "fujikyu"
   },
   {
     "tripId": "cm_HD_OUT_JC-24_1822_6894",
@@ -64380,7 +64403,7 @@
         "isPassing": true
       }
     ],
-    "customDestination": "新宿",
+    "customDestination": "甲府",
     "trainId": "6915",
     "customOrigin": "松本",
     "coupling": {
@@ -64710,6 +64733,7 @@
       }
     ],
     "trainId": "7013",
+    "customDestination": "甲府",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-32",
@@ -65557,7 +65581,7 @@
         "isPassing": true
       }
     ],
-    "customDestination": "新宿",
+    "customDestination": "河口湖",
     "trainId": "6918",
     "customOrigin": "松本",
     "coupling": {
@@ -65567,7 +65591,7 @@
       "coupledTripId": "cm_HD_INB_CO-61_1859_7013",
       "coupledTrainNumber": "446M",
       "coupledCars": 9,
-      "coupledDestination": "甲府・松本"
+      "coupledDestination": "甲府"
     }
   },
   {
@@ -67370,6 +67394,7 @@
       }
     ],
     "trainId": "10046",
+    "customDestination": "河口湖",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-32",
@@ -67377,7 +67402,7 @@
       "coupledTripId": "cm_HD_INB_CO-61_1849_6915",
       "coupledTrainNumber": "54M",
       "coupledCars": 9,
-      "coupledDestination": "甲府・松本"
+      "coupledDestination": "甲府"
     }
   },
   {

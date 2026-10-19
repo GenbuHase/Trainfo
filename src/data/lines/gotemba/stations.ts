@@ -3,27 +3,24 @@ import type { Station } from '../../../types';
 export const GOTEMBA_STATIONS: Station[] = [
   {
     "id": "CB-00",
-    "stationNumber": "CB-00",
+    "stationNumber": "CB00",
     "lineId": "gotemba",
     "number": 1,
     "name": "国府津",
     "nameKana": "こうづ",
     "nameEn": "Kozu",
-    "lat": 35.2812092,
-    "lng": 139.2142253,
+    "lat": 35.281209,
+    "lng": 139.214225,
     "transfers": [
-      "ＪＲ東海道本線",
-      "ＪＲ御殿場線"
+      "JR東海道線"
     ],
-    "address": "神奈川県小田原市国府津4丁目1-1",
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": true,
     "facilities": {
@@ -36,26 +33,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-01",
-    "stationNumber": "CB-01",
+    "stationNumber": "CB01",
     "lineId": "gotemba",
     "number": 2,
     "name": "下曽我",
     "nameKana": "しもそが",
     "nameEn": "Shimo-Soga",
-    "lat": 35.303524448067,
-    "lng": 139.18337980917,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "神奈川県小田原市曽我別所805-1",
+    "lat": 35.3045,
+    "lng": 139.1824,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -68,26 +61,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-02",
-    "stationNumber": "CB-02",
+    "stationNumber": "CB02",
     "lineId": "gotemba",
     "number": 3,
     "name": "上大井",
     "nameKana": "かみおおい",
     "nameEn": "Kami-Oi",
-    "lat": 35.321882596111,
-    "lng": 139.16360366452,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "神奈川県足柄上郡大井町上大井617",
+    "lat": 35.32282,
+    "lng": 139.16253,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -100,26 +89,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-03",
-    "stationNumber": "CB-03",
+    "stationNumber": "CB03",
     "lineId": "gotemba",
     "number": 4,
     "name": "相模金子",
     "nameKana": "さがみかねこ",
     "nameEn": "Sagami-Kaneko",
-    "lat": 35.333768868228,
-    "lng": 139.15065944569,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "神奈川県足柄上郡大井町金子",
+    "lat": 35.33454,
+    "lng": 139.14971,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -132,28 +117,27 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-04",
-    "stationNumber": "CB-04",
+    "stationNumber": "CB04",
     "lineId": "gotemba",
     "number": 5,
     "name": "松田",
     "nameKana": "まつだ",
     "nameEn": "Matsuda",
-    "lat": 35.3456,
-    "lng": 139.1402,
+    "lat": 35.344702,
+    "lng": 139.139599,
     "transfers": [
-      "ＪＲ御殿場線"
+      "小田急小田原線（新松田駅）"
     ],
-    "address": "神奈川県足柄上郡松田町松田惣領1879-3",
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limitedExp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -164,26 +148,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-05",
-    "stationNumber": "CB-05",
+    "stationNumber": "CB05",
     "lineId": "gotemba",
     "number": 6,
     "name": "東山北",
     "nameKana": "ひがしやまきた",
     "nameEn": "Higashi-Yamakita",
-    "lat": 35.357708662144,
-    "lng": 139.10780328852,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "神奈川県足柄上郡山北町向原",
+    "lat": 35.35792,
+    "lng": 139.10733,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -196,28 +176,25 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-06",
-    "stationNumber": "CB-06",
+    "stationNumber": "CB06",
     "lineId": "gotemba",
     "number": 7,
     "name": "山北",
     "nameKana": "やまきた",
     "nameEn": "Yamakita",
-    "lat": 35.360679205298,
-    "lng": 139.08036123738,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "神奈川県足柄上郡山北町山北1889-43",
+    "lat": 35.36055,
+    "lng": 139.079,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limitedExp"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -228,26 +205,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-07",
-    "stationNumber": "CB-07",
+    "stationNumber": "CB07",
     "lineId": "gotemba",
     "number": 8,
     "name": "谷峨",
     "nameKana": "やが",
     "nameEn": "Yaga",
-    "lat": 35.36548253358,
-    "lng": 139.03850534944,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "神奈川県足柄上郡山北町谷ケ",
+    "lat": 35.36694,
+    "lng": 139.03815,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -260,25 +233,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-08",
-    "stationNumber": "CB-08",
+    "stationNumber": "CB08",
     "lineId": "gotemba",
     "number": 9,
     "name": "駿河小山",
     "nameKana": "するがおやま",
     "nameEn": "Suruga-Oyama",
-    "lat": 35.358981268934,
-    "lng": 138.99795511508,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "静岡県駿東郡小山町小山631-31",
+    "lat": 35.35958,
+    "lng": 138.99636,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limitedExp"
     ],
     "isMajor": false,
@@ -292,26 +262,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-09",
-    "stationNumber": "CB-09",
+    "stationNumber": "CB09",
     "lineId": "gotemba",
     "number": 10,
     "name": "足柄",
     "nameKana": "あしがら",
     "nameEn": "Ashigara",
-    "lat": 35.332151579916,
-    "lng": 138.98170813441,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "静岡県駿東郡小山町竹之下",
+    "lat": 35.3332,
+    "lng": 138.98159,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -324,25 +290,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-10",
-    "stationNumber": "CB-10",
+    "stationNumber": "CB10",
     "lineId": "gotemba",
     "number": 11,
     "name": "御殿場",
     "nameKana": "ごてんば",
     "nameEn": "Gotemba",
-    "lat": 35.300126219196,
-    "lng": 138.93435326678,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "静岡県御殿場市新橋1898-3",
+    "lat": 35.30085,
+    "lng": 138.93498,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
       "local",
-      "rapid",
       "limitedExp"
     ],
     "isMajor": true,
@@ -356,28 +319,24 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-11",
-    "stationNumber": "CB-11",
+    "stationNumber": "CB11",
     "lineId": "gotemba",
     "number": 12,
     "name": "南御殿場",
     "nameKana": "みなみごてんば",
     "nameEn": "Minami-Gotemba",
-    "lat": 35.277239603785,
-    "lng": 138.92566011954,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "静岡県御殿場市竈",
+    "lat": 35.27789,
+    "lng": 138.92609,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
-    "isMajor": true,
+    "isMajor": false,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -388,26 +347,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-12",
-    "stationNumber": "CB-12",
+    "stationNumber": "CB12",
     "lineId": "gotemba",
     "number": 13,
     "name": "富士岡",
     "nameKana": "ふじおか",
     "nameEn": "Fujioka",
-    "lat": 35.25604882142,
-    "lng": 138.92018959049,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "静岡県御殿場市中山",
+    "lat": 35.25599,
+    "lng": 138.92005,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -420,26 +375,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-13",
-    "stationNumber": "CB-13",
+    "stationNumber": "CB13",
     "lineId": "gotemba",
     "number": 14,
     "name": "岩波",
     "nameKana": "いわなみ",
     "nameEn": "Iwanami",
-    "lat": 35.21605442749,
-    "lng": 138.91907928677,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "静岡県裾野市岩波64-1",
+    "lat": 35.21395,
+    "lng": 138.91918,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -452,28 +403,24 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-14",
-    "stationNumber": "CB-14",
+    "stationNumber": "CB14",
     "lineId": "gotemba",
     "number": 15,
     "name": "裾野",
     "nameKana": "すその",
     "nameEn": "Susono",
-    "lat": 35.171586897123,
-    "lng": 138.90947024566,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "静岡県裾野市平松字滝ノ窪378-11",
+    "lat": 35.17036,
+    "lng": 138.90876,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
-    "isMajor": false,
+    "isMajor": true,
     "facilities": {
       "elevator": true,
       "restroom": true,
@@ -484,26 +431,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-15",
-    "stationNumber": "CB-15",
+    "stationNumber": "CB15",
     "lineId": "gotemba",
     "number": 16,
     "name": "長泉なめり",
     "nameKana": "ながいずみなめり",
     "nameEn": "Nagaizumi-Nameri",
-    "lat": 35.147451492667,
-    "lng": 138.89936051472,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "静岡県駿東郡長泉町納米里58-6",
+    "lat": 35.14812,
+    "lng": 138.89951,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -516,26 +459,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-16",
-    "stationNumber": "CB-16",
+    "stationNumber": "CB16",
     "lineId": "gotemba",
     "number": 17,
     "name": "下土狩",
     "nameKana": "しもとがり",
     "nameEn": "Shimo-Togari",
-    "lat": 35.128814509189,
-    "lng": 138.89505542099,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "静岡県駿東郡長泉町下土狩字新田東1283-9",
+    "lat": 35.12761,
+    "lng": 138.89514,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -548,26 +487,22 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-17",
-    "stationNumber": "CB-17",
+    "stationNumber": "CB17",
     "lineId": "gotemba",
     "number": 18,
     "name": "大岡",
     "nameKana": "おおおか",
     "nameEn": "Ooka",
-    "lat": 35.115788391358,
-    "lng": 138.88089029907,
-    "transfers": [
-      "ＪＲ御殿場線"
-    ],
-    "address": "静岡県沼津市大岡2477-1",
+    "lat": 35.11582,
+    "lng": 138.88105,
+    "transfers": [],
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": false,
     "facilities": {
@@ -580,27 +515,24 @@ export const GOTEMBA_STATIONS: Station[] = [
   },
   {
     "id": "CB-18",
-    "stationNumber": "CB-18",
+    "stationNumber": "CB18",
     "lineId": "gotemba",
     "number": 19,
     "name": "沼津",
     "nameKana": "ぬまづ",
     "nameEn": "Numazu",
-    "lat": 35.1031271,
-    "lng": 138.8593352,
+    "lat": 35.103127,
+    "lng": 138.859335,
     "transfers": [
-      "ＪＲ御殿場線",
-      "ＪＲ東海道本線"
+      "JR東海道本線"
     ],
-    "address": "静岡県沼津市大手町1丁目",
+    "address": "",
     "platforms": {
       "inbound": "上りホーム",
       "outbound": "下りホーム"
     },
     "stoppingTypes": [
-      "local",
-      "rapid",
-      "limitedExp"
+      "local"
     ],
     "isMajor": true,
     "facilities": {

@@ -1,4 +1,3 @@
-// 伊豆箱根鉄道駿豆線 Yahoo! 路線情報スクレイパー設定
 module.exports = {
   "lineId": "izuhakone_sunzu",
   "name": "伊豆箱根鉄道駿豆線",
@@ -60,45 +59,65 @@ module.exports = {
     {
       "id": "IS-08",
       "name": "韮山",
-      "yahooStationId": "23597",
+      "yahooStationId": "23599",
       "inGroupId": "4940",
       "outGroupId": "4941"
     },
     {
       "id": "IS-09",
       "name": "伊豆長岡",
-      "yahooStationId": "23465",
+      "yahooStationId": "23467",
       "inGroupId": "4940",
       "outGroupId": "4941"
     },
     {
       "id": "IS-10",
-      "name": "大仁",
-      "yahooStationId": "23491",
+      "name": "田京",
+      "yahooStationId": "23572",
       "inGroupId": "4940",
       "outGroupId": "4941"
     },
     {
       "id": "IS-11",
+      "name": "大仁",
+      "yahooStationId": "23488",
+      "inGroupId": "4940",
+      "outGroupId": "4941"
+    },
+    {
+      "id": "IS-12",
       "name": "牧之郷",
       "yahooStationId": "23632",
       "inGroupId": "4940",
       "outGroupId": "4941"
     },
     {
-      "id": "IS-12",
+      "id": "IS-13",
       "name": "修善寺",
       "yahooStationId": "23542",
       "inGroupId": "4940",
       "outGroupId": null
     }
   ],
+  "stationNameAliases": {},
   "trainTypeMap": {
-    "普通": "local",
     "各駅停車": "local",
-    "快速": "rapid",
-    "特急": "limitedExp",
-    "踊り子": "limitedExp"
+    "普通": "local",
+    "特急": "limitedExp"
   },
-  "defaultCars": 3
+  "defaultCars": 3,
+  "baseSectionSeconds": {
+    "1": 100,
+    "2": 90,
+    "3": 90,
+    "4": 180,
+    "5": 120,
+    "6": 120,
+    "7": 120,
+    "8": 120,
+    "9": 150,
+    "10": 150,
+    "11": 120,
+    "12": 120
+  }
 };

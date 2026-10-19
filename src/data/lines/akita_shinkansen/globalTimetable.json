@@ -2,12 +2,12 @@
   {
     "tripId": "WD_INB_AS-06_0609_8662",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8662",
+    "trainNumber": "3006M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -44,20 +44,24 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "07:35:00",
-        "departureTime": "07:37:00",
+        "departureTime": "07:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8662",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_0737_8658",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_0716_8727",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8727",
+    "trainNumber": "3010M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -94,20 +98,24 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "08:48:00",
-        "departureTime": "08:50:00",
+        "departureTime": "08:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8727",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_0850_8723",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_0738_8663",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8663",
+    "trainNumber": "5050M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -144,15 +152,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "09:25:00",
-        "departureTime": "09:26:00",
+        "departureTime": "09:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8663",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_0926_8659",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_0758_35625",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35625",
+    "trainNumber": "3095M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -197,17 +209,18 @@
         "departureTime": "09:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35625"
   },
   {
     "tripId": "WD_INB_AS-06_0811_8665",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8665",
+    "trainNumber": "3012M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -244,20 +257,24 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "09:46:00",
-        "departureTime": "09:50:00",
+        "departureTime": "09:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8665",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_0950_8661",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_0825_8666",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8666",
+    "trainNumber": "8052M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -294,15 +311,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "10:15:00",
-        "departureTime": "10:17:00",
+        "departureTime": "10:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8666",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1017_8662",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_0848_35549",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35549",
+    "trainNumber": "3001M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -347,12 +368,16 @@
         "departureTime": "10:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35549",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_0632_35549",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_0912_35551",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35551",
+    "trainNumber": "5051M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -397,17 +422,21 @@
         "departureTime": "10:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35551",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_0656_35551",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_0912_8728",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8728",
+    "trainNumber": "3014M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -444,15 +473,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "10:49:00",
-        "departureTime": "10:51:00",
+        "departureTime": "10:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8728",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1051_8724",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_0946_35552",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35552",
+    "trainNumber": "3003M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -497,17 +530,21 @@
         "departureTime": "11:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35552",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_0732_35552",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1007_8669",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8669",
+    "trainNumber": "3016M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -544,65 +581,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "11:47:00",
-        "departureTime": "11:50:00",
+        "departureTime": "11:47:00",
         "isPassing": false
       }
-    ]
-  },
-  {
-    "tripId": "WD_INB_AS-06_1007_8672",
-    "lineId": "akita_shinkansen",
-    "trainNumber": "8672",
-    "trainType": "komachi",
-    "direction": "inbound",
-    "originStationId": "AS-06",
-    "destinationStationId": "AS-01",
-    "customDestination": "東京",
-    "cars": 7,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "AS-06",
-        "arrivalTime": "10:07:00",
-        "departureTime": "10:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-05",
-        "arrivalTime": "10:43:00",
-        "departureTime": "10:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-04",
-        "arrivalTime": "10:55:00",
-        "departureTime": "10:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-03",
-        "arrivalTime": "11:08:00",
-        "departureTime": "11:09:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-02",
-        "arrivalTime": "11:28:00",
-        "departureTime": "11:28:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "AS-01",
-        "arrivalTime": "11:47:00",
-        "departureTime": "11:50:00",
-        "isPassing": false
-      }
-    ]
+    ],
+    "trainId": "8669",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1150_8668",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1018_35626",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35626",
+    "trainNumber": "5055M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -647,12 +638,13 @@
         "departureTime": "12:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35626"
   },
   {
     "tripId": "WD_OUT_AS-01_1057_35554",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35554",
+    "trainNumber": "3007M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -697,17 +689,21 @@
         "departureTime": "12:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35554",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_0837_35554",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1107_8676",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8676",
+    "trainNumber": "3018M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -744,65 +740,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "12:49:00",
-        "departureTime": "12:50:00",
+        "departureTime": "12:49:00",
         "isPassing": false
       }
-    ]
-  },
-  {
-    "tripId": "WD_INB_AS-06_1107_8677",
-    "lineId": "akita_shinkansen",
-    "trainNumber": "8677",
-    "trainType": "komachi",
-    "direction": "inbound",
-    "originStationId": "AS-06",
-    "destinationStationId": "AS-01",
-    "customDestination": "東京",
-    "cars": 7,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "AS-06",
-        "arrivalTime": "11:07:00",
-        "departureTime": "11:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-05",
-        "arrivalTime": "11:44:00",
-        "departureTime": "11:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-04",
-        "arrivalTime": "11:57:00",
-        "departureTime": "11:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-03",
-        "arrivalTime": "12:13:00",
-        "departureTime": "12:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-02",
-        "arrivalTime": "12:31:00",
-        "departureTime": "12:31:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "AS-01",
-        "arrivalTime": "12:49:00",
-        "departureTime": "12:50:00",
-        "isPassing": false
-      }
-    ]
+    ],
+    "trainId": "8676",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1250_8672",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1123_35606",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35606",
+    "trainNumber": "3009M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -847,17 +797,21 @@
         "departureTime": "13:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35606",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_0908_35606",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1213_8679",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8679",
+    "trainNumber": "3020M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -894,15 +848,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "13:48:00",
-        "departureTime": "13:50:00",
+        "departureTime": "13:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8679",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1350_8675",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1222_35555",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35555",
+    "trainNumber": "5013M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -947,12 +905,16 @@
         "departureTime": "13:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35555",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1003_35555",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1235_35610",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35610",
+    "trainNumber": "3015M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -997,12 +959,16 @@
         "departureTime": "14:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35610",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1018_35610",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1303_35547",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35547",
+    "trainNumber": "9017M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -1047,17 +1013,21 @@
         "departureTime": "14:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35547",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1045_35547",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1306_8729",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8729",
+    "trainNumber": "3024M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1094,15 +1064,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "14:48:00",
-        "departureTime": "14:50:00",
+        "departureTime": "14:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8729",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1450_8725",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1335_35556",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35556",
+    "trainNumber": "3019M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -1147,12 +1121,16 @@
         "departureTime": "15:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35556",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1120_35556",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1335_35558",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35558",
+    "trainNumber": "3019M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -1197,17 +1175,19 @@
         "departureTime": "15:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35558",
+    "customDestination": "秋田"
   },
   {
     "tripId": "WD_INB_AS-06_1337_8682",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8682",
+    "trainNumber": "5026M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1244,15 +1224,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "15:15:00",
-        "departureTime": "15:17:00",
+        "departureTime": "15:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8682",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1517_8678",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1414_35560",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35560",
+    "trainNumber": "5021M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -1297,17 +1281,21 @@
         "departureTime": "15:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35560",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1156_35560",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1414_8683",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8683",
+    "trainNumber": "3028M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1344,15 +1332,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "15:48:00",
-        "departureTime": "15:50:00",
+        "departureTime": "15:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8683",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1550_8679",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1435_35561",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35561",
+    "trainNumber": "3023M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -1397,12 +1389,16 @@
         "departureTime": "16:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35561",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1220_35561",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1435_35563",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35563",
+    "trainNumber": "3023M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -1447,12 +1443,14 @@
         "departureTime": "16:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35563",
+    "customDestination": "秋田"
   },
   {
     "tripId": "WD_OUT_AS-01_1501_35566",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35566",
+    "trainNumber": "5059M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -1497,17 +1495,21 @@
         "departureTime": "16:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35566",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1244_35566",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1506_8686",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8686",
+    "trainNumber": "3032M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1544,15 +1546,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "16:48:00",
-        "departureTime": "16:50:00",
+        "departureTime": "16:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8686",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1650_8682",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1510_8688",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8688",
+    "trainNumber": "3032M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
@@ -1597,12 +1603,13 @@
         "departureTime": "16:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8688"
   },
   {
     "tripId": "WD_OUT_AS-01_1535_35567",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35567",
+    "trainNumber": "3025M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -1647,12 +1654,16 @@
         "departureTime": "17:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35567",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1320_35567",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1535_35569",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35569",
+    "trainNumber": "3025M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -1697,17 +1708,19 @@
         "departureTime": "17:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35569",
+    "customDestination": "秋田"
   },
   {
     "tripId": "WD_INB_AS-06_1612_8731",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8731",
+    "trainNumber": "3034M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1744,20 +1757,24 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "17:48:00",
-        "departureTime": "17:50:00",
+        "departureTime": "17:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8731",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1750_8727",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1634_8693",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8693",
+    "trainNumber": "3036M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1794,15 +1811,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "18:14:00",
-        "departureTime": "18:16:00",
+        "departureTime": "18:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8693",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1816_8689",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1635_35571",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35571",
+    "trainNumber": "3027M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -1847,12 +1868,16 @@
         "departureTime": "18:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35571",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1420_35571",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1635_35576",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35576",
+    "trainNumber": "3027M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -1897,12 +1922,14 @@
         "departureTime": "18:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35576",
+    "customDestination": "秋田"
   },
   {
     "tripId": "WD_OUT_AS-01_1700_35579",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35579",
+    "trainNumber": "5029M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -1947,17 +1974,21 @@
         "departureTime": "18:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35579",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1444_35579",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1710_8697",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8697",
+    "trainNumber": "3038M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1994,15 +2025,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "18:49:00",
-        "departureTime": "18:50:00",
+        "departureTime": "18:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8697",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1850_8693",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1716_8704",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8704",
+    "trainNumber": "3038M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
@@ -2047,12 +2082,13 @@
         "departureTime": "18:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8704"
   },
   {
     "tripId": "WD_OUT_AS-01_1735_35612",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35612",
+    "trainNumber": "3031M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -2097,12 +2133,16 @@
         "departureTime": "19:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35612",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1520_35612",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1735_35617",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35617",
+    "trainNumber": "3031M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -2147,12 +2187,14 @@
         "departureTime": "19:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35617",
+    "customDestination": "秋田"
   },
   {
     "tripId": "WD_OUT_AS-01_1800_35580",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35580",
+    "trainNumber": "5045M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -2197,17 +2239,21 @@
         "departureTime": "19:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35580",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1544_35580",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1816_8707",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8707",
+    "trainNumber": "3042M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -2244,15 +2290,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "19:48:00",
-        "departureTime": "19:50:00",
+        "departureTime": "19:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8707",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_1950_8703",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1835_35581",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35581",
+    "trainNumber": "3033M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -2297,12 +2347,16 @@
         "departureTime": "20:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35581",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1620_35581",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1835_35583",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35583",
+    "trainNumber": "3033M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -2347,12 +2401,14 @@
         "departureTime": "20:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35583",
+    "customDestination": "秋田"
   },
   {
     "tripId": "WD_OUT_AS-01_1901_35588",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35588",
+    "trainNumber": "5063M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -2397,17 +2453,21 @@
         "departureTime": "20:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35588",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1644_35588",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1910_8712",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8712",
+    "trainNumber": "3044M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -2444,65 +2504,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "20:49:00",
-        "departureTime": "20:50:00",
+        "departureTime": "20:49:00",
         "isPassing": false
       }
-    ]
-  },
-  {
-    "tripId": "WD_INB_AS-06_1910_8713",
-    "lineId": "akita_shinkansen",
-    "trainNumber": "8713",
-    "trainType": "komachi",
-    "direction": "inbound",
-    "originStationId": "AS-06",
-    "destinationStationId": "AS-01",
-    "customDestination": "東京",
-    "cars": 7,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "AS-06",
-        "arrivalTime": "19:10:00",
-        "departureTime": "19:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-05",
-        "arrivalTime": "19:40:00",
-        "departureTime": "19:43:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-04",
-        "arrivalTime": "19:58:00",
-        "departureTime": "19:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-03",
-        "arrivalTime": "20:12:00",
-        "departureTime": "20:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-02",
-        "arrivalTime": "20:30:30",
-        "departureTime": "20:30:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "AS-01",
-        "arrivalTime": "20:49:00",
-        "departureTime": "20:50:00",
-        "isPassing": false
-      }
-    ]
+    ],
+    "trainId": "8712",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_2050_8709",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_1919_8717",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8717",
+    "trainNumber": "3044M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
@@ -2547,12 +2561,13 @@
         "departureTime": "20:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8717"
   },
   {
     "tripId": "WD_OUT_AS-01_1935_35589",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35589",
+    "trainNumber": "3035M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -2597,12 +2612,16 @@
         "departureTime": "21:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35589",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1720_35589",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_1935_35590",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35590",
+    "trainNumber": "3035M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -2647,12 +2666,14 @@
         "departureTime": "21:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35590",
+    "customDestination": "秋田"
   },
   {
     "tripId": "WD_OUT_AS-01_1935_35594",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35594",
+    "trainNumber": "3035M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -2697,12 +2718,14 @@
         "departureTime": "21:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35594",
+    "customDestination": "秋田"
   },
   {
     "tripId": "WD_OUT_AS-01_2000_35597",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35597",
+    "trainNumber": "8065M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -2747,12 +2770,16 @@
         "departureTime": "21:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35597",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1744_35597",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_2014_8719",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8719",
+    "trainNumber": "3096M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
@@ -2794,15 +2821,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "21:49:00",
-        "departureTime": "21:51:00",
+        "departureTime": "21:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8719",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_2151_8715",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_2014_8720",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8720",
+    "trainNumber": "3096M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
@@ -2844,15 +2875,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "21:54:00",
-        "departureTime": "21:55:00",
+        "departureTime": "21:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8720",
+    "customOrigin": "秋田",
+    "throughTripId": "WD_INB_TS-18_2155_8716",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_AS-06_2023_8725",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8725",
+    "trainNumber": "3096M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
@@ -2897,12 +2932,13 @@
         "departureTime": "21:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8725"
   },
   {
     "tripId": "WD_OUT_AS-01_2035_35619",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35619",
+    "trainNumber": "3037M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -2947,12 +2983,16 @@
         "departureTime": "22:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35619",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1820_35619",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_2035_35620",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35620",
+    "trainNumber": "3037M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -2997,12 +3037,16 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35620",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1820_35623",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_2136_35601",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35601",
+    "trainNumber": "3039M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -3047,12 +3091,16 @@
         "departureTime": "23:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35601",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_1920_35601",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_AS-01_2136_35603",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35603",
+    "trainNumber": "3039M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -3097,12 +3145,14 @@
         "departureTime": "23:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35603",
+    "customDestination": "秋田"
   },
   {
     "tripId": "WD_OUT_AS-01_2230_35604",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35604",
+    "trainNumber": "3041M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -3147,17 +3197,21 @@
         "departureTime": "23:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35604",
+    "customDestination": "秋田",
+    "prevTripId": "WD_OUT_TS-01_2016_35604",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_0609_8662",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8662",
+    "trainNumber": "3006M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3194,20 +3248,24 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "07:35:00",
-        "departureTime": "07:37:00",
+        "departureTime": "07:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8662",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_0737_8658",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_0716_8727",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8727",
+    "trainNumber": "3010M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3244,20 +3302,24 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "08:48:00",
-        "departureTime": "08:50:00",
+        "departureTime": "08:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8727",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_0850_8723",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_0738_8663",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8663",
+    "trainNumber": "5050M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3294,15 +3356,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "09:25:00",
-        "departureTime": "09:26:00",
+        "departureTime": "09:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8663",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_0926_8659",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_0758_35625",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35625",
+    "trainNumber": "3095M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -3347,17 +3413,18 @@
         "departureTime": "09:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35625"
   },
   {
     "tripId": "HD_INB_AS-06_0811_8665",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8665",
+    "trainNumber": "3012M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3394,20 +3461,24 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "09:46:00",
-        "departureTime": "09:50:00",
+        "departureTime": "09:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8665",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_0950_8661",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_0825_8666",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8666",
+    "trainNumber": "8052M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3444,15 +3515,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "10:15:00",
-        "departureTime": "10:17:00",
+        "departureTime": "10:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8666",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1017_8662",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_0848_35549",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35549",
+    "trainNumber": "3001M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -3497,12 +3572,16 @@
         "departureTime": "10:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35549",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_0632_35549",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_0912_35551",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35551",
+    "trainNumber": "5051M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -3547,17 +3626,21 @@
         "departureTime": "10:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35551",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_0656_35551",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_0912_8728",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8728",
+    "trainNumber": "3014M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3594,15 +3677,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "10:49:00",
-        "departureTime": "10:51:00",
+        "departureTime": "10:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8728",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1051_8724",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_0946_35552",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35552",
+    "trainNumber": "3003M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -3647,17 +3734,21 @@
         "departureTime": "11:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35552",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_0732_35552",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1007_8669",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8669",
+    "trainNumber": "3016M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3694,65 +3785,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "11:47:00",
-        "departureTime": "11:50:00",
+        "departureTime": "11:47:00",
         "isPassing": false
       }
-    ]
-  },
-  {
-    "tripId": "HD_INB_AS-06_1007_8672",
-    "lineId": "akita_shinkansen",
-    "trainNumber": "8672",
-    "trainType": "komachi",
-    "direction": "inbound",
-    "originStationId": "AS-06",
-    "destinationStationId": "AS-01",
-    "customDestination": "東京",
-    "cars": 7,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "AS-06",
-        "arrivalTime": "10:07:00",
-        "departureTime": "10:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-05",
-        "arrivalTime": "10:43:00",
-        "departureTime": "10:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-04",
-        "arrivalTime": "10:55:00",
-        "departureTime": "10:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-03",
-        "arrivalTime": "11:08:00",
-        "departureTime": "11:09:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-02",
-        "arrivalTime": "11:28:00",
-        "departureTime": "11:28:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "AS-01",
-        "arrivalTime": "11:47:00",
-        "departureTime": "11:50:00",
-        "isPassing": false
-      }
-    ]
+    ],
+    "trainId": "8669",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1150_8668",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1018_35626",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35626",
+    "trainNumber": "5055M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -3797,12 +3842,13 @@
         "departureTime": "12:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35626"
   },
   {
     "tripId": "HD_OUT_AS-01_1057_35554",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35554",
+    "trainNumber": "3007M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -3847,17 +3893,21 @@
         "departureTime": "12:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35554",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_0837_35554",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1107_8676",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8676",
+    "trainNumber": "3018M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3894,65 +3944,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "12:49:00",
-        "departureTime": "12:50:00",
+        "departureTime": "12:49:00",
         "isPassing": false
       }
-    ]
-  },
-  {
-    "tripId": "HD_INB_AS-06_1107_8677",
-    "lineId": "akita_shinkansen",
-    "trainNumber": "8677",
-    "trainType": "komachi",
-    "direction": "inbound",
-    "originStationId": "AS-06",
-    "destinationStationId": "AS-01",
-    "customDestination": "東京",
-    "cars": 7,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "AS-06",
-        "arrivalTime": "11:07:00",
-        "departureTime": "11:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-05",
-        "arrivalTime": "11:44:00",
-        "departureTime": "11:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-04",
-        "arrivalTime": "11:57:00",
-        "departureTime": "11:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-03",
-        "arrivalTime": "12:13:00",
-        "departureTime": "12:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "AS-02",
-        "arrivalTime": "12:31:00",
-        "departureTime": "12:31:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "AS-01",
-        "arrivalTime": "12:49:00",
-        "departureTime": "12:50:00",
-        "isPassing": false
-      }
-    ]
+    ],
+    "trainId": "8676",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1250_8672",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1123_35606",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35606",
+    "trainNumber": "3009M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -3997,17 +4001,21 @@
         "departureTime": "13:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35606",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_0908_35606",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1213_8679",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8679",
+    "trainNumber": "3020M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -4044,15 +4052,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "13:48:00",
-        "departureTime": "13:50:00",
+        "departureTime": "13:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8679",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1350_8675",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1222_35555",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35555",
+    "trainNumber": "5013M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -4097,12 +4109,16 @@
         "departureTime": "13:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35555",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1003_35555",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1235_35610",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35610",
+    "trainNumber": "3015M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -4147,12 +4163,16 @@
         "departureTime": "14:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35610",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1018_35610",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1303_35547",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35547",
+    "trainNumber": "9017M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -4197,17 +4217,21 @@
         "departureTime": "14:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35547",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1045_35547",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1306_8729",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8729",
+    "trainNumber": "3024M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -4244,15 +4268,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "14:48:00",
-        "departureTime": "14:50:00",
+        "departureTime": "14:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8729",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1450_8725",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1335_35556",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35556",
+    "trainNumber": "3019M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -4297,12 +4325,16 @@
         "departureTime": "15:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35556",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1120_35556",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1335_35558",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35558",
+    "trainNumber": "3019M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -4347,17 +4379,19 @@
         "departureTime": "15:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35558",
+    "customDestination": "秋田"
   },
   {
     "tripId": "HD_INB_AS-06_1337_8682",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8682",
+    "trainNumber": "5026M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -4394,15 +4428,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "15:15:00",
-        "departureTime": "15:17:00",
+        "departureTime": "15:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8682",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1517_8678",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1414_35560",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35560",
+    "trainNumber": "5021M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -4447,17 +4485,21 @@
         "departureTime": "15:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35560",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1156_35560",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1414_8683",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8683",
+    "trainNumber": "3028M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -4494,15 +4536,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "15:48:00",
-        "departureTime": "15:50:00",
+        "departureTime": "15:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8683",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1550_8679",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1435_35561",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35561",
+    "trainNumber": "3023M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -4547,12 +4593,16 @@
         "departureTime": "16:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35561",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1220_35561",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1435_35563",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35563",
+    "trainNumber": "3023M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -4597,12 +4647,14 @@
         "departureTime": "16:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35563",
+    "customDestination": "秋田"
   },
   {
     "tripId": "HD_OUT_AS-01_1501_35566",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35566",
+    "trainNumber": "5059M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -4647,17 +4699,21 @@
         "departureTime": "16:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35566",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1244_35566",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1506_8686",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8686",
+    "trainNumber": "3032M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -4694,15 +4750,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "16:48:00",
-        "departureTime": "16:50:00",
+        "departureTime": "16:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8686",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1650_8682",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1510_8688",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8688",
+    "trainNumber": "3032M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
@@ -4747,12 +4807,13 @@
         "departureTime": "16:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8688"
   },
   {
     "tripId": "HD_OUT_AS-01_1535_35567",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35567",
+    "trainNumber": "3025M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -4797,12 +4858,16 @@
         "departureTime": "17:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35567",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1320_35567",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1535_35569",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35569",
+    "trainNumber": "3025M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -4847,17 +4912,19 @@
         "departureTime": "17:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35569",
+    "customDestination": "秋田"
   },
   {
     "tripId": "HD_INB_AS-06_1612_8731",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8731",
+    "trainNumber": "3034M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -4894,20 +4961,24 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "17:48:00",
-        "departureTime": "17:50:00",
+        "departureTime": "17:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8731",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1750_8727",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1634_8693",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8693",
+    "trainNumber": "3036M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -4944,15 +5015,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "18:14:00",
-        "departureTime": "18:16:00",
+        "departureTime": "18:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8693",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1816_8689",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1635_35571",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35571",
+    "trainNumber": "3027M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -4997,12 +5072,16 @@
         "departureTime": "18:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35571",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1420_35571",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1635_35576",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35576",
+    "trainNumber": "3027M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5047,12 +5126,14 @@
         "departureTime": "18:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35576",
+    "customDestination": "秋田"
   },
   {
     "tripId": "HD_OUT_AS-01_1700_35579",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35579",
+    "trainNumber": "5029M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5097,17 +5178,21 @@
         "departureTime": "18:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35579",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1444_35579",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1710_8697",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8697",
+    "trainNumber": "3038M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -5144,15 +5229,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "18:49:00",
-        "departureTime": "18:50:00",
+        "departureTime": "18:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8697",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1850_8693",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1716_8704",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8704",
+    "trainNumber": "3038M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
@@ -5197,12 +5286,13 @@
         "departureTime": "18:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8704"
   },
   {
     "tripId": "HD_OUT_AS-01_1735_35612",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35612",
+    "trainNumber": "3031M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5247,12 +5337,16 @@
         "departureTime": "19:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35612",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1520_35612",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1735_35617",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35617",
+    "trainNumber": "3031M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5297,12 +5391,14 @@
         "departureTime": "19:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35617",
+    "customDestination": "秋田"
   },
   {
     "tripId": "HD_OUT_AS-01_1800_35580",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35580",
+    "trainNumber": "5045M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5347,17 +5443,21 @@
         "departureTime": "19:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35580",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1544_35580",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1816_8707",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8707",
+    "trainNumber": "3042M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -5394,15 +5494,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "19:48:00",
-        "departureTime": "19:50:00",
+        "departureTime": "19:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8707",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_1950_8703",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1835_35581",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35581",
+    "trainNumber": "3033M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5447,12 +5551,16 @@
         "departureTime": "20:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35581",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1620_35581",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1835_35583",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35583",
+    "trainNumber": "3033M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5497,12 +5605,14 @@
         "departureTime": "20:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35583",
+    "customDestination": "秋田"
   },
   {
     "tripId": "HD_OUT_AS-01_1901_35588",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35588",
+    "trainNumber": "5063M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5547,17 +5657,21 @@
         "departureTime": "20:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35588",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1644_35588",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1910_8712",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8712",
+    "trainNumber": "3044M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
     "destinationStationId": "AS-01",
-    "customDestination": "東京",
+    "customDestination": "秋田",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -5594,15 +5708,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "20:49:00",
-        "departureTime": "20:50:00",
+        "departureTime": "20:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8712",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_2050_8709",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_1919_8717",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8717",
+    "trainNumber": "3044M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
@@ -5647,12 +5765,13 @@
         "departureTime": "20:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8717"
   },
   {
     "tripId": "HD_OUT_AS-01_1935_35589",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35589",
+    "trainNumber": "3035M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5697,12 +5816,16 @@
         "departureTime": "21:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35589",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1720_35589",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_1935_35594",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35594",
+    "trainNumber": "3035M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5747,12 +5870,14 @@
         "departureTime": "21:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35594",
+    "customDestination": "秋田"
   },
   {
     "tripId": "HD_INB_AS-06_2014_8719",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8719",
+    "trainNumber": "3096M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
@@ -5794,15 +5919,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "21:49:00",
-        "departureTime": "21:51:00",
+        "departureTime": "21:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8719",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_2151_8715",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_AS-06_2023_8725",
     "lineId": "akita_shinkansen",
-    "trainNumber": "8725",
+    "trainNumber": "3096M",
     "trainType": "komachi",
     "direction": "inbound",
     "originStationId": "AS-06",
@@ -5844,15 +5973,19 @@
       {
         "stationId": "AS-01",
         "arrivalTime": "21:54:00",
-        "departureTime": "21:55:00",
+        "departureTime": "21:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8725",
+    "customOrigin": "秋田",
+    "throughTripId": "HD_INB_TS-18_2155_8716",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_2035_35619",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35619",
+    "trainNumber": "3037M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5897,12 +6030,16 @@
         "departureTime": "22:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35619",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1820_35619",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_2035_35623",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35623",
+    "trainNumber": "3037M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5947,12 +6084,14 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35623",
+    "customDestination": "秋田"
   },
   {
     "tripId": "HD_OUT_AS-01_2136_35601",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35601",
+    "trainNumber": "3039M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -5997,12 +6136,16 @@
         "departureTime": "23:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35601",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_1920_35601",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_AS-01_2136_35603",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35603",
+    "trainNumber": "3039M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -6047,12 +6190,14 @@
         "departureTime": "23:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35603",
+    "customDestination": "秋田"
   },
   {
     "tripId": "HD_OUT_AS-01_2230_35604",
     "lineId": "akita_shinkansen",
-    "trainNumber": "35604",
+    "trainNumber": "3041M",
     "trainType": "komachi",
     "direction": "outbound",
     "originStationId": "AS-01",
@@ -6097,6 +6242,10 @@
         "departureTime": "23:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "35604",
+    "customDestination": "秋田",
+    "prevTripId": "HD_OUT_TS-01_2016_35604",
+    "prevLineId": "tohoku_shinkansen"
   }
 ]

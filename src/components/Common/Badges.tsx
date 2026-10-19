@@ -195,6 +195,30 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#ff7322',
     numColor: '#cc5200',
   },
+  // 富士急行線
+  FJ: {
+    borderColor: '#0066b3',
+    prefixColor: '#0066b3',
+    numColor: '#0066b3',
+  },
+  // JR御殿場線
+  CB: {
+    borderColor: '#1b75bc',
+    prefixColor: '#1b75bc',
+    numColor: '#1b75bc',
+  },
+  // 伊豆急行線
+  IZ: {
+    borderColor: '#0099cc',
+    prefixColor: '#0099cc',
+    numColor: '#0099cc',
+  },
+  // 伊豆箱根鉄道駿豆線
+  IS: {
+    borderColor: '#0073be',
+    prefixColor: '#0073be',
+    numColor: '#0073be',
+  },
 };
 
 

@@ -10863,7 +10863,7 @@
       "fromStationId": "JT-01",
       "toStationId": "JT-21",
       "coupledTripId": "WD_OUT_JT-01_0900_41961",
-      "coupledTrainNumber": "41961",
+      "coupledTrainNumber": "4021M",
       "coupledCars": 5,
       "coupledDestination": "修善寺"
     },
@@ -18168,7 +18168,7 @@
       "fromStationId": "JT-01",
       "toStationId": "JT-21",
       "coupledTripId": "WD_OUT_JT-01_1200_41963",
-      "coupledTrainNumber": "41963",
+      "coupledTrainNumber": "4029M",
       "coupledCars": 5,
       "coupledDestination": "修善寺"
     },
@@ -55326,7 +55326,7 @@
       "fromStationId": "JT-01",
       "toStationId": "JT-21",
       "coupledTripId": "HD_OUT_JT-01_0900_41961",
-      "coupledTrainNumber": "41961",
+      "coupledTrainNumber": "4021M",
       "coupledCars": 5,
       "coupledDestination": "修善寺"
     },
@@ -59007,7 +59007,7 @@
       "fromStationId": "JT-01",
       "toStationId": "JT-21",
       "coupledTripId": "HD_OUT_JT-01_1030_41962",
-      "coupledTrainNumber": "41962",
+      "coupledTrainNumber": "8077M",
       "coupledCars": 5,
       "coupledDestination": "修善寺"
     },
@@ -62904,7 +62904,7 @@
       "fromStationId": "JT-01",
       "toStationId": "JT-21",
       "coupledTripId": "HD_OUT_JT-01_1200_41963",
-      "coupledTrainNumber": "41963",
+      "coupledTrainNumber": "4029M",
       "coupledCars": 5,
       "coupledDestination": "修善寺"
     },
@@ -89932,6 +89932,7 @@
       }
     ],
     "destinationStationName": "修善寺",
+    "customOrigin": "東京",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-01",
@@ -89942,8 +89943,7 @@
       "coupledDestination": "伊豆急下田"
     },
     "throughTripId": "WD_OUT_CA-00_1025_41930",
-    "throughLineId": "tokaido_shizuoka",
-    "customOrigin": "東京"
+    "throughLineId": "tokaido_shizuoka"
   },
   {
     "tripId": "WD_OUT_JT-01_1200_41963",
@@ -90085,6 +90085,7 @@
       }
     ],
     "destinationStationName": "修善寺",
+    "customOrigin": "東京",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-01",
@@ -90095,8 +90096,7 @@
       "coupledDestination": "伊豆急下田"
     },
     "throughTripId": "WD_OUT_CA-00_1325_41932",
-    "throughLineId": "tokaido_shizuoka",
-    "customOrigin": "東京"
+    "throughLineId": "tokaido_shizuoka"
   },
   {
     "tripId": "HD_OUT_JT-01_0900_41961",
@@ -90238,6 +90238,7 @@
       }
     ],
     "destinationStationName": "修善寺",
+    "customOrigin": "東京",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-01",
@@ -90248,8 +90249,7 @@
       "coupledDestination": "伊豆急下田"
     },
     "throughTripId": "HD_OUT_CA-00_1025_41930",
-    "throughLineId": "tokaido_shizuoka",
-    "customOrigin": "東京"
+    "throughLineId": "tokaido_shizuoka"
   },
   {
     "tripId": "HD_OUT_JT-01_1030_41962",
@@ -90391,6 +90391,7 @@
       }
     ],
     "destinationStationName": "修善寺",
+    "customOrigin": "東京",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-01",
@@ -90401,8 +90402,7 @@
       "coupledDestination": "伊豆急下田"
     },
     "throughTripId": "HD_OUT_CA-00_1156_41931",
-    "throughLineId": "tokaido_shizuoka",
-    "customOrigin": "東京"
+    "throughLineId": "tokaido_shizuoka"
   },
   {
     "tripId": "HD_OUT_JT-01_1200_41963",
@@ -90544,6 +90544,7 @@
       }
     ],
     "destinationStationName": "修善寺",
+    "customOrigin": "東京",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-01",
@@ -90554,7 +90555,6 @@
       "coupledDestination": "伊豆急下田"
     },
     "throughTripId": "HD_OUT_CA-00_1325_41932",
-    "throughLineId": "tokaido_shizuoka",
-    "customOrigin": "東京"
+    "throughLineId": "tokaido_shizuoka"
   }
 ]

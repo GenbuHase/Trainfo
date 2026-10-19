@@ -2,7 +2,7 @@
   {
     "tripId": "WD_INB_IZ-06_0518_42883",
     "lineId": "izukyu",
-    "trainNumber": "42883",
+    "trainNumber": "624レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-06",
@@ -46,12 +46,13 @@
         "departureTime": "05:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42883"
   },
   {
     "tripId": "WD_INB_IZ-16_0538_42890",
     "lineId": "izukyu",
-    "trainNumber": "42890",
+    "trainNumber": "702レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -155,12 +156,13 @@
         "departureTime": "06:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42890"
   },
   {
     "tripId": "WD_OUT_IZ-01_0548_42873",
     "lineId": "izukyu",
-    "trainNumber": "42873",
+    "trainNumber": "621レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -264,12 +266,13 @@
         "departureTime": "06:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42873"
   },
   {
     "tripId": "WD_INB_IZ-06_0556_42884",
     "lineId": "izukyu",
-    "trainNumber": "42884",
+    "trainNumber": "626レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-06",
@@ -313,7 +316,8 @@
         "departureTime": "06:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42884"
   },
   {
     "tripId": "WD_INB_IZ-16_0607_29714",
@@ -424,14 +428,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "29714",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_0715_29695",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_0624_42874",
     "lineId": "izukyu",
-    "trainNumber": "42874",
+    "trainNumber": "623レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -535,12 +540,13 @@
         "departureTime": "07:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42874"
   },
   {
     "tripId": "WD_INB_IZ-16_0634_42886",
     "lineId": "izukyu",
-    "trainNumber": "42886",
+    "trainNumber": "630レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -614,7 +620,8 @@
         "departureTime": "07:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42886"
   },
   {
     "tripId": "WD_OUT_IZ-01_0655_32706",
@@ -725,9 +732,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32706",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_0628_32687",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_0701_29715",
@@ -838,9 +846,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29715",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_0809_29696",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-06_0717_29709",
@@ -891,14 +900,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "29709",
+    "customOrigin": "伊豆高原",
     "throughTripId": "WD_INB_JT-26_0739_29690",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆高原"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_0743_42891",
     "lineId": "izukyu",
-    "trainNumber": "42891",
+    "trainNumber": "634レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -1002,7 +1012,8 @@
         "departureTime": "08:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42891"
   },
   {
     "tripId": "WD_OUT_IZ-01_0750_32707",
@@ -1113,14 +1124,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32707",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_0723_32688",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_0820_42875",
     "lineId": "izukyu",
-    "trainNumber": "42875",
+    "trainNumber": "629レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -1224,12 +1236,13 @@
         "departureTime": "09:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42875"
   },
   {
     "tripId": "WD_INB_IZ-16_0825_42887",
     "lineId": "izukyu",
-    "trainNumber": "42887",
+    "trainNumber": "636レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -1303,7 +1316,8 @@
         "departureTime": "09:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42887"
   },
   {
     "tripId": "WD_OUT_IZ-01_0850_32708",
@@ -1414,14 +1428,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32708",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_0826_32689",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_0902_42869",
     "lineId": "izukyu",
-    "trainNumber": "42869",
+    "trainNumber": "601レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -1465,7 +1480,8 @@
         "departureTime": "09:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42869"
   },
   {
     "tripId": "WD_INB_IZ-16_0906_29716",
@@ -1576,9 +1592,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29716",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1017_29697",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-06_0911_29710",
@@ -1629,9 +1646,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29710",
+    "customOrigin": "伊豆高原",
     "throughTripId": "WD_INB_JT-26_0934_29691",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆高原"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_0926_32709",
@@ -1742,9 +1760,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32709",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_0903_32690",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_0940_29717",
@@ -1855,9 +1874,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29717",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1057_29698",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1003_32710",
@@ -1968,9 +1988,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32710",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_0940_32691",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1009_31163",
@@ -2081,9 +2102,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31163",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1108_31144",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1016_29718",
@@ -2194,14 +2216,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "29718",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1135_29699",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1019_39614",
     "lineId": "izukyu",
-    "trainNumber": "39614",
+    "trainNumber": "8095M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -2306,12 +2329,13 @@
         "departureTime": "11:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "39614"
   },
   {
     "tripId": "WD_OUT_IZ-01_1045_39558",
     "lineId": "izukyu",
-    "trainNumber": "5637M",
+    "trainNumber": "3021M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -2417,14 +2441,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "39558",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1010_32692",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1048_32711",
     "lineId": "izukyu",
-    "trainNumber": "3021M",
+    "trainNumber": "5637M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -2530,14 +2555,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32711",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1023_39527",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1101_42888",
     "lineId": "izukyu",
-    "trainNumber": "42888",
+    "trainNumber": "644レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -2611,7 +2637,8 @@
         "departureTime": "11:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42888"
   },
   {
     "tripId": "WD_OUT_IZ-01_1108_32712",
@@ -2722,14 +2749,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32712",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1045_32693",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1131_31164",
     "lineId": "izukyu",
-    "trainNumber": "31164",
+    "trainNumber": "8056M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -2834,7 +2862,8 @@
         "departureTime": "12:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "31164"
   },
   {
     "tripId": "WD_INB_IZ-16_1140_29719",
@@ -2945,9 +2974,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29719",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1253_29700",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1146_39559",
@@ -3058,9 +3088,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39559",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1121_39528",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-06_1152_29711",
@@ -3111,9 +3142,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29711",
+    "customOrigin": "伊豆高原",
     "throughTripId": "WD_INB_JT-26_1215_29692",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆高原"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1157_32713",
@@ -3224,14 +3256,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32713",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1132_32694",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1206_39553",
     "lineId": "izukyu",
-    "trainNumber": "39553",
+    "trainNumber": "8059M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -3336,7 +3369,8 @@
         "departureTime": "13:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "39553"
   },
   {
     "tripId": "WD_INB_IZ-16_1206_31165",
@@ -3447,9 +3481,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31165",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1305_31146",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1213_29720",
@@ -3560,9 +3595,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29720",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1345_29701",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1222_39561",
@@ -3673,9 +3709,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39561",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1154_39530",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1231_31161",
@@ -3786,9 +3823,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31161",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1334_31142",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1237_39556",
@@ -3899,9 +3937,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39556",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1219_39525",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1252_32714",
@@ -4012,9 +4051,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32714",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1224_32695",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1302_31166",
@@ -4125,9 +4165,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31166",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1405_31147",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1309_29721",
@@ -4238,9 +4279,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29721",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1420_29702",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1335_32703",
@@ -4291,9 +4333,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32703",
+    "customDestination": "伊豆高原",
     "prevTripId": "WD_OUT_JT-21_1310_32684",
-    "prevLineId": "ito",
-    "customDestination": "伊豆高原"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1342_31167",
@@ -4404,9 +4447,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31167",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1441_31148",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1348_39563",
@@ -4517,9 +4561,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39563",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1323_39532",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1350_29722",
@@ -4630,9 +4675,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29722",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1521_29703",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1410_32715",
@@ -4743,9 +4789,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32715",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1341_32696",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1418_31159",
@@ -4856,9 +4903,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31159",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1510_31140",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1425_39557",
@@ -4969,9 +5017,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39557",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1351_39526",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-06_1425_29712",
@@ -5022,9 +5071,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29712",
+    "customOrigin": "伊豆高原",
     "throughTripId": "WD_INB_JT-26_1455_29693",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆高原"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1442_29723",
@@ -5135,9 +5185,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29723",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1550_29704",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1444_39564",
@@ -5248,9 +5299,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39564",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1422_39533",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1452_32716",
@@ -5361,9 +5413,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32716",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1429_32697",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1508_31170",
@@ -5474,9 +5527,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31170",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1602_31151",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1521_39565",
@@ -5587,14 +5641,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "39565",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1455_39534",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1524_31171",
     "lineId": "izukyu",
-    "trainNumber": "31171",
+    "trainNumber": "8062M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -5699,7 +5754,8 @@
         "departureTime": "16:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "31171"
   },
   {
     "tripId": "WD_INB_IZ-16_1536_29724",
@@ -5810,9 +5866,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29724",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1647_29705",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1539_32717",
@@ -5923,14 +5980,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32717",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1505_32698",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1601_31162",
     "lineId": "izukyu",
-    "trainNumber": "31162",
+    "trainNumber": "8064M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -6035,7 +6093,8 @@
         "departureTime": "17:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "31162"
   },
   {
     "tripId": "WD_OUT_IZ-01_1623_32718",
@@ -6146,14 +6205,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32718",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1557_32699",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1626_42892",
     "lineId": "izukyu",
-    "trainNumber": "42892",
+    "trainNumber": "704レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -6257,7 +6317,8 @@
         "departureTime": "17:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42892"
   },
   {
     "tripId": "WD_INB_IZ-16_1639_31160",
@@ -6368,9 +6429,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31160",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1735_31141",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-06_1654_29713",
@@ -6421,9 +6483,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29713",
+    "customOrigin": "伊豆高原",
     "throughTripId": "WD_INB_JT-26_1722_29694",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆高原"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1655_31172",
@@ -6534,9 +6597,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31172",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1759_31153",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-01_1702_32704",
@@ -6587,14 +6651,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32704",
+    "customDestination": "伊豆高原",
     "prevTripId": "WD_OUT_JT-21_1633_32685",
-    "prevLineId": "ito",
-    "customDestination": "伊豆高原"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1719_42893",
     "lineId": "izukyu",
-    "trainNumber": "42893",
+    "trainNumber": "706レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -6698,12 +6763,13 @@
         "departureTime": "18:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42893"
   },
   {
     "tripId": "WD_OUT_IZ-06_1733_42880",
     "lineId": "izukyu",
-    "trainNumber": "42880",
+    "trainNumber": "657レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-06",
@@ -6777,7 +6843,8 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42880"
   },
   {
     "tripId": "WD_OUT_IZ-01_1734_32705",
@@ -6828,14 +6895,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32705",
+    "customDestination": "伊豆高原",
     "prevTripId": "WD_OUT_JT-21_1706_32686",
-    "prevLineId": "ito",
-    "customDestination": "伊豆高原"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-16_1758_42894",
     "lineId": "izukyu",
-    "trainNumber": "42894",
+    "trainNumber": "666レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -6939,12 +7007,13 @@
         "departureTime": "19:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42894"
   },
   {
     "tripId": "WD_OUT_IZ-06_1805_42881",
     "lineId": "izukyu",
-    "trainNumber": "42881",
+    "trainNumber": "659レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-06",
@@ -7018,12 +7087,13 @@
         "departureTime": "18:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42881"
   },
   {
     "tripId": "WD_OUT_IZ-01_1806_42870",
     "lineId": "izukyu",
-    "trainNumber": "42870",
+    "trainNumber": "661レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -7067,7 +7137,8 @@
         "departureTime": "18:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42870"
   },
   {
     "tripId": "WD_INB_IZ-16_1830_29725",
@@ -7178,14 +7249,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "29725",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "WD_INB_JT-26_1944_29706",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_IZ-06_1833_42882",
     "lineId": "izukyu",
-    "trainNumber": "42882",
+    "trainNumber": "761レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-06",
@@ -7259,12 +7331,13 @@
         "departureTime": "19:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42882"
   },
   {
     "tripId": "WD_OUT_IZ-01_1845_42876",
     "lineId": "izukyu",
-    "trainNumber": "42876",
+    "trainNumber": "701レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -7368,12 +7441,13 @@
         "departureTime": "20:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42876"
   },
   {
     "tripId": "WD_INB_IZ-16_1922_42895",
     "lineId": "izukyu",
-    "trainNumber": "42895",
+    "trainNumber": "670レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -7477,7 +7551,8 @@
         "departureTime": "20:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42895"
   },
   {
     "tripId": "WD_OUT_IZ-01_1925_32719",
@@ -7588,14 +7663,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32719",
+    "customDestination": "伊豆急下田",
     "prevTripId": "WD_OUT_JT-21_1902_32700",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "WD_INB_IZ-06_1934_42885",
     "lineId": "izukyu",
-    "trainNumber": "42885",
+    "trainNumber": "708レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-06",
@@ -7639,12 +7715,13 @@
         "departureTime": "20:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42885"
   },
   {
     "tripId": "WD_OUT_IZ-01_1957_42871",
     "lineId": "izukyu",
-    "trainNumber": "42871",
+    "trainNumber": "703レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -7688,12 +7765,13 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42871"
   },
   {
     "tripId": "WD_INB_IZ-16_2024_42896",
     "lineId": "izukyu",
-    "trainNumber": "42896",
+    "trainNumber": "674レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -7797,12 +7875,13 @@
         "departureTime": "21:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42896"
   },
   {
     "tripId": "WD_OUT_IZ-01_2026_42877",
     "lineId": "izukyu",
-    "trainNumber": "42877",
+    "trainNumber": "667レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -7906,12 +7985,13 @@
         "departureTime": "21:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42877"
   },
   {
     "tripId": "WD_OUT_IZ-01_2102_42878",
     "lineId": "izukyu",
-    "trainNumber": "42878",
+    "trainNumber": "669レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -8015,12 +8095,13 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42878"
   },
   {
     "tripId": "WD_INB_IZ-16_2124_42897",
     "lineId": "izukyu",
-    "trainNumber": "42897",
+    "trainNumber": "678レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -8124,12 +8205,13 @@
         "departureTime": "22:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42897"
   },
   {
     "tripId": "WD_OUT_IZ-01_2201_42879",
     "lineId": "izukyu",
-    "trainNumber": "42879",
+    "trainNumber": "673レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -8233,12 +8315,13 @@
         "departureTime": "23:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42879"
   },
   {
     "tripId": "WD_INB_IZ-16_2228_42889",
     "lineId": "izukyu",
-    "trainNumber": "42889",
+    "trainNumber": "604レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -8312,12 +8395,13 @@
         "departureTime": "23:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42889"
   },
   {
     "tripId": "WD_OUT_IZ-01_2247_42872",
     "lineId": "izukyu",
-    "trainNumber": "42872",
+    "trainNumber": "675レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -8361,12 +8445,13 @@
         "departureTime": "23:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42872"
   },
   {
     "tripId": "HD_INB_IZ-06_0518_42883",
     "lineId": "izukyu",
-    "trainNumber": "42883",
+    "trainNumber": "624レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-06",
@@ -8410,12 +8495,13 @@
         "departureTime": "05:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42883"
   },
   {
     "tripId": "HD_INB_IZ-16_0538_42890",
     "lineId": "izukyu",
-    "trainNumber": "42890",
+    "trainNumber": "702レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -8519,12 +8605,13 @@
         "departureTime": "06:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42890"
   },
   {
     "tripId": "HD_OUT_IZ-01_0548_42873",
     "lineId": "izukyu",
-    "trainNumber": "42873",
+    "trainNumber": "621レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -8628,12 +8715,13 @@
         "departureTime": "06:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42873"
   },
   {
     "tripId": "HD_INB_IZ-06_0556_42884",
     "lineId": "izukyu",
-    "trainNumber": "42884",
+    "trainNumber": "626レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-06",
@@ -8677,7 +8765,8 @@
         "departureTime": "06:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42884"
   },
   {
     "tripId": "HD_INB_IZ-16_0607_29714",
@@ -8788,14 +8877,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "29714",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_0715_29695",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_0624_42874",
     "lineId": "izukyu",
-    "trainNumber": "42874",
+    "trainNumber": "623レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -8899,12 +8989,13 @@
         "departureTime": "07:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42874"
   },
   {
     "tripId": "HD_INB_IZ-16_0634_42886",
     "lineId": "izukyu",
-    "trainNumber": "42886",
+    "trainNumber": "630レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -8978,7 +9069,8 @@
         "departureTime": "07:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42886"
   },
   {
     "tripId": "HD_OUT_IZ-01_0655_32706",
@@ -9089,9 +9181,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32706",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_0628_32687",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_0701_29715",
@@ -9202,9 +9295,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29715",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_0809_29696",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-06_0717_29709",
@@ -9255,14 +9349,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "29709",
+    "customOrigin": "伊豆高原",
     "throughTripId": "HD_INB_JT-26_0739_29690",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆高原"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_0743_42891",
     "lineId": "izukyu",
-    "trainNumber": "42891",
+    "trainNumber": "634レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -9366,7 +9461,8 @@
         "departureTime": "08:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42891"
   },
   {
     "tripId": "HD_OUT_IZ-01_0750_32707",
@@ -9477,14 +9573,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32707",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_0723_32688",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_0820_42875",
     "lineId": "izukyu",
-    "trainNumber": "42875",
+    "trainNumber": "629レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -9588,12 +9685,13 @@
         "departureTime": "09:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42875"
   },
   {
     "tripId": "HD_INB_IZ-16_0825_42887",
     "lineId": "izukyu",
-    "trainNumber": "42887",
+    "trainNumber": "636レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -9667,7 +9765,8 @@
         "departureTime": "09:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42887"
   },
   {
     "tripId": "HD_OUT_IZ-01_0850_32708",
@@ -9778,14 +9877,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32708",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_0826_32689",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_0902_42869",
     "lineId": "izukyu",
-    "trainNumber": "42869",
+    "trainNumber": "601レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -9829,7 +9929,8 @@
         "departureTime": "09:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42869"
   },
   {
     "tripId": "HD_INB_IZ-16_0906_29716",
@@ -9940,9 +10041,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29716",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1017_29697",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-06_0911_29710",
@@ -9993,9 +10095,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29710",
+    "customOrigin": "伊豆高原",
     "throughTripId": "HD_INB_JT-26_0934_29691",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆高原"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_0926_32709",
@@ -10106,9 +10209,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32709",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_0903_32690",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_0940_29717",
@@ -10219,9 +10323,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29717",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1057_29698",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_0945_39555",
@@ -10332,9 +10437,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39555",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_0920_39524",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1003_32710",
@@ -10445,9 +10551,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32710",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_0940_32691",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1009_31163",
@@ -10558,9 +10665,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31163",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1108_31144",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1016_29718",
@@ -10671,14 +10779,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "29718",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1135_29699",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1019_39614",
     "lineId": "izukyu",
-    "trainNumber": "39614",
+    "trainNumber": "8095M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -10783,12 +10892,13 @@
         "departureTime": "11:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "39614"
   },
   {
     "tripId": "HD_OUT_IZ-01_1045_39558",
     "lineId": "izukyu",
-    "trainNumber": "5637M",
+    "trainNumber": "3021M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -10894,14 +11004,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "39558",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1010_32692",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1048_32711",
     "lineId": "izukyu",
-    "trainNumber": "3021M",
+    "trainNumber": "5637M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -11007,14 +11118,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32711",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1023_39527",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1101_42888",
     "lineId": "izukyu",
-    "trainNumber": "42888",
+    "trainNumber": "644レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -11088,7 +11200,8 @@
         "departureTime": "11:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42888"
   },
   {
     "tripId": "HD_OUT_IZ-01_1108_32712",
@@ -11199,9 +11312,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32712",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1045_32693",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1121_42193",
@@ -11312,14 +11426,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "42193",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1056_42162",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1131_31164",
     "lineId": "izukyu",
-    "trainNumber": "31164",
+    "trainNumber": "8056M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -11424,7 +11539,8 @@
         "departureTime": "12:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "31164"
   },
   {
     "tripId": "HD_INB_IZ-16_1140_29719",
@@ -11535,9 +11651,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29719",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1253_29700",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1146_39559",
@@ -11648,9 +11765,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39559",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1121_39528",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-06_1152_29711",
@@ -11701,9 +11819,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29711",
+    "customOrigin": "伊豆高原",
     "throughTripId": "HD_INB_JT-26_1215_29692",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆高原"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1157_32713",
@@ -11814,14 +11933,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32713",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1132_32694",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1206_39553",
     "lineId": "izukyu",
-    "trainNumber": "39553",
+    "trainNumber": "8059M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -11926,7 +12046,8 @@
         "departureTime": "13:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "39553"
   },
   {
     "tripId": "HD_INB_IZ-16_1206_31165",
@@ -12037,9 +12158,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31165",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1305_31146",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1213_29720",
@@ -12150,9 +12272,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29720",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1345_29701",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1222_39560",
@@ -12263,14 +12386,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "39560",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1154_39529",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1222_39561",
     "lineId": "izukyu",
-    "trainNumber": "39561",
+    "trainNumber": "8027M",
     "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -12375,7 +12499,8 @@
         "departureTime": "13:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "39561"
   },
   {
     "tripId": "HD_INB_IZ-16_1231_31161",
@@ -12486,9 +12611,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31161",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1334_31142",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1237_39556",
@@ -12599,9 +12725,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39556",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1219_39525",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1252_32714",
@@ -12712,9 +12839,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32714",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1224_32695",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1302_31166",
@@ -12825,9 +12953,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31166",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1405_31147",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1309_29721",
@@ -12938,9 +13067,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29721",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1420_29702",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1318_39562",
@@ -13051,9 +13181,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39562",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1251_39531",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1335_32703",
@@ -13104,9 +13235,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32703",
+    "customDestination": "伊豆高原",
     "prevTripId": "HD_OUT_JT-21_1310_32684",
-    "prevLineId": "ito",
-    "customDestination": "伊豆高原"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1342_31168",
@@ -13217,14 +13349,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "31168",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1441_31149",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1342_31167",
     "lineId": "izukyu",
-    "trainNumber": "31167",
+    "trainNumber": "8028M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -13329,7 +13462,8 @@
         "departureTime": "14:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "31167"
   },
   {
     "tripId": "HD_OUT_IZ-01_1348_39563",
@@ -13440,9 +13574,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39563",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1323_39532",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1350_29722",
@@ -13553,9 +13688,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29722",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1521_29703",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1410_32715",
@@ -13666,9 +13802,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32715",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1341_32696",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1418_31159",
@@ -13779,9 +13916,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31159",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1510_31140",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1425_39615",
@@ -13892,9 +14030,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39615",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1351_39584",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-06_1425_29712",
@@ -13945,9 +14084,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29712",
+    "customOrigin": "伊豆高原",
     "throughTripId": "HD_INB_JT-26_1455_29693",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆高原"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1434_31169",
@@ -14058,9 +14198,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31169",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1531_31150",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1442_29723",
@@ -14171,9 +14312,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29723",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1550_29704",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1444_39564",
@@ -14284,9 +14426,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "39564",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1422_39533",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1452_32716",
@@ -14397,9 +14540,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "32716",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1429_32697",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1508_31170",
@@ -14510,9 +14654,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31170",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1602_31151",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1521_39565",
@@ -14623,14 +14768,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "39565",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1455_39534",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1524_31171",
     "lineId": "izukyu",
-    "trainNumber": "31171",
+    "trainNumber": "8062M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -14735,7 +14881,8 @@
         "departureTime": "16:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "31171"
   },
   {
     "tripId": "HD_INB_IZ-16_1536_29724",
@@ -14846,9 +14993,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29724",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1647_29705",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1539_32717",
@@ -14959,14 +15107,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32717",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1505_32698",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1601_31162",
     "lineId": "izukyu",
-    "trainNumber": "31162",
+    "trainNumber": "8064M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -15071,12 +15220,13 @@
         "departureTime": "17:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "31162"
   },
   {
     "tripId": "HD_INB_IZ-16_1601_42196",
     "lineId": "izukyu",
-    "trainNumber": "42196",
+    "trainNumber": "8092M",
     "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -15181,7 +15331,8 @@
         "departureTime": "17:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42196"
   },
   {
     "tripId": "HD_OUT_IZ-01_1623_32718",
@@ -15292,14 +15443,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32718",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1557_32699",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1626_42892",
     "lineId": "izukyu",
-    "trainNumber": "42892",
+    "trainNumber": "704レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -15403,7 +15555,8 @@
         "departureTime": "17:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42892"
   },
   {
     "tripId": "HD_INB_IZ-16_1639_31160",
@@ -15514,9 +15667,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31160",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1735_31141",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-06_1654_29713",
@@ -15567,9 +15721,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "29713",
+    "customOrigin": "伊豆高原",
     "throughTripId": "HD_INB_JT-26_1722_29694",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆高原"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1655_31172",
@@ -15680,9 +15835,10 @@
         "isPassing": false
       }
     ],
+    "trainId": "31172",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1759_31153",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-01_1702_32704",
@@ -15733,14 +15889,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32704",
+    "customDestination": "伊豆高原",
     "prevTripId": "HD_OUT_JT-21_1633_32685",
-    "prevLineId": "ito",
-    "customDestination": "伊豆高原"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1719_42893",
     "lineId": "izukyu",
-    "trainNumber": "42893",
+    "trainNumber": "706レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -15844,12 +16001,13 @@
         "departureTime": "18:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42893"
   },
   {
     "tripId": "HD_OUT_IZ-06_1733_42880",
     "lineId": "izukyu",
-    "trainNumber": "42880",
+    "trainNumber": "657レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-06",
@@ -15923,7 +16081,8 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42880"
   },
   {
     "tripId": "HD_OUT_IZ-01_1734_32705",
@@ -15974,14 +16133,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32705",
+    "customDestination": "伊豆高原",
     "prevTripId": "HD_OUT_JT-21_1706_32686",
-    "prevLineId": "ito",
-    "customDestination": "伊豆高原"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-16_1758_42894",
     "lineId": "izukyu",
-    "trainNumber": "42894",
+    "trainNumber": "666レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -16085,12 +16245,13 @@
         "departureTime": "19:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42894"
   },
   {
     "tripId": "HD_OUT_IZ-06_1805_42881",
     "lineId": "izukyu",
-    "trainNumber": "42881",
+    "trainNumber": "659レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-06",
@@ -16164,12 +16325,13 @@
         "departureTime": "18:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42881"
   },
   {
     "tripId": "HD_OUT_IZ-01_1806_42870",
     "lineId": "izukyu",
-    "trainNumber": "42870",
+    "trainNumber": "661レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -16213,7 +16375,8 @@
         "departureTime": "18:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42870"
   },
   {
     "tripId": "HD_INB_IZ-16_1830_29725",
@@ -16324,14 +16487,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "29725",
+    "customOrigin": "伊豆急下田",
     "throughTripId": "HD_INB_JT-26_1944_29706",
-    "throughLineId": "ito",
-    "customOrigin": "伊豆急下田"
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_IZ-06_1833_42882",
     "lineId": "izukyu",
-    "trainNumber": "42882",
+    "trainNumber": "761レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-06",
@@ -16405,12 +16569,13 @@
         "departureTime": "19:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42882"
   },
   {
     "tripId": "HD_OUT_IZ-01_1845_42876",
     "lineId": "izukyu",
-    "trainNumber": "42876",
+    "trainNumber": "701レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -16514,12 +16679,13 @@
         "departureTime": "20:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42876"
   },
   {
     "tripId": "HD_INB_IZ-16_1922_42895",
     "lineId": "izukyu",
-    "trainNumber": "42895",
+    "trainNumber": "670レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -16623,7 +16789,8 @@
         "departureTime": "20:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42895"
   },
   {
     "tripId": "HD_OUT_IZ-01_1925_32719",
@@ -16734,14 +16901,15 @@
         "isPassing": false
       }
     ],
+    "trainId": "32719",
+    "customDestination": "伊豆急下田",
     "prevTripId": "HD_OUT_JT-21_1902_32700",
-    "prevLineId": "ito",
-    "customDestination": "伊豆急下田"
+    "prevLineId": "ito"
   },
   {
     "tripId": "HD_INB_IZ-06_1934_42885",
     "lineId": "izukyu",
-    "trainNumber": "42885",
+    "trainNumber": "708レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-06",
@@ -16785,12 +16953,13 @@
         "departureTime": "20:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42885"
   },
   {
     "tripId": "HD_OUT_IZ-01_1957_42871",
     "lineId": "izukyu",
-    "trainNumber": "42871",
+    "trainNumber": "703レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -16834,12 +17003,13 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42871"
   },
   {
     "tripId": "HD_INB_IZ-16_2024_42896",
     "lineId": "izukyu",
-    "trainNumber": "42896",
+    "trainNumber": "674レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -16943,12 +17113,13 @@
         "departureTime": "21:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42896"
   },
   {
     "tripId": "HD_OUT_IZ-01_2026_42877",
     "lineId": "izukyu",
-    "trainNumber": "42877",
+    "trainNumber": "667レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -17052,12 +17223,13 @@
         "departureTime": "21:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42877"
   },
   {
     "tripId": "HD_OUT_IZ-01_2102_42878",
     "lineId": "izukyu",
-    "trainNumber": "42878",
+    "trainNumber": "669レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -17161,12 +17333,13 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42878"
   },
   {
     "tripId": "HD_INB_IZ-16_2124_42897",
     "lineId": "izukyu",
-    "trainNumber": "42897",
+    "trainNumber": "678レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -17270,12 +17443,13 @@
         "departureTime": "22:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42897"
   },
   {
     "tripId": "HD_OUT_IZ-01_2201_42879",
     "lineId": "izukyu",
-    "trainNumber": "42879",
+    "trainNumber": "673レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -17379,12 +17553,13 @@
         "departureTime": "23:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42879"
   },
   {
     "tripId": "HD_INB_IZ-16_2228_42889",
     "lineId": "izukyu",
-    "trainNumber": "42889",
+    "trainNumber": "604レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "IZ-16",
@@ -17458,12 +17633,13 @@
         "departureTime": "23:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42889"
   },
   {
     "tripId": "HD_OUT_IZ-01_2247_42872",
     "lineId": "izukyu",
-    "trainNumber": "42872",
+    "trainNumber": "675レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "IZ-01",
@@ -17507,6 +17683,7 @@
         "departureTime": "23:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42872"
   }
 ]

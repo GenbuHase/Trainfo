@@ -2,12 +2,12 @@
   {
     "tripId": "WD_INB_YS-11_0540_21604",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21604",
+    "trainNumber": "122M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -74,20 +74,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "07:37:00",
-        "departureTime": "07:39:00",
+        "departureTime": "07:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21604",
+    "customOrigin": "新庄",
+    "throughTripId": "WD_INB_TS-09_0739_21586",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-06_0559_21573",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21573",
+    "trainNumber": "8172M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -124,15 +128,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "07:07:00",
-        "departureTime": "07:10:00",
+        "departureTime": "07:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21573",
+    "customOrigin": "山形",
+    "throughTripId": "WD_INB_TS-09_0710_21555",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-06_0659_8115",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8115",
+    "trainNumber": "171M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-06",
@@ -176,17 +184,18 @@
         "departureTime": "07:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8115"
   },
   {
     "tripId": "WD_INB_YS-06_0712_21571",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21571",
+    "trainNumber": "124M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -223,20 +232,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "08:17:00",
-        "departureTime": "08:19:00",
+        "departureTime": "08:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21571",
+    "customOrigin": "山形",
+    "throughTripId": "WD_INB_TS-09_0819_21553",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-11_0715_21607",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21607",
+    "trainNumber": "128M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -303,15 +316,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "09:14:00",
-        "departureTime": "09:16:00",
+        "departureTime": "09:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21607",
+    "customOrigin": "新庄",
+    "throughTripId": "WD_INB_TS-09_0916_21589",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-06_0737_21585",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21585",
+    "trainNumber": "9074M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
@@ -353,15 +370,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "09:02:00",
-        "departureTime": "09:05:00",
+        "departureTime": "09:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21585",
+    "customOrigin": "山形",
+    "throughTripId": "WD_INB_TS-09_0905_21567",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_0748_8632",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8632",
+    "trainNumber": "121M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -436,12 +457,16 @@
         "departureTime": "09:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8632",
+    "customDestination": "新庄",
+    "prevTripId": "WD_OUT_TS-01_0612_8632",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_0831_8656",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8656",
+    "trainNumber": "9073M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -516,12 +541,16 @@
         "departureTime": "10:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8656",
+    "customDestination": "新庄",
+    "prevTripId": "WD_OUT_TS-01_0648_8656",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-06_0847_21579",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21579",
+    "trainNumber": "9076M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
@@ -563,15 +592,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "10:00:00",
-        "departureTime": "10:02:00",
+        "departureTime": "10:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21579",
+    "customOrigin": "山形",
+    "throughTripId": "WD_INB_TS-09_1002_21561",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_0848_8640",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8640",
+    "trainNumber": "123M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -646,17 +679,21 @@
         "departureTime": "10:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8640",
+    "customDestination": "新庄",
+    "prevTripId": "WD_OUT_TS-01_0712_8640",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-06_0900_21574",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21574",
+    "trainNumber": "132M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -693,15 +730,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "10:12:00",
-        "departureTime": "10:14:00",
+        "departureTime": "10:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21574",
+    "customOrigin": "山形",
+    "throughTripId": "WD_INB_TS-09_1014_21556",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-11_0915_21595",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21595",
+    "trainNumber": "136M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-11",
@@ -776,12 +817,13 @@
         "departureTime": "11:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21595"
   },
   {
     "tripId": "WD_OUT_YS-01_0933_8657",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8657",
+    "trainNumber": "9075M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -826,12 +868,16 @@
         "departureTime": "10:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8657",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_0800_8657",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_0949_8623",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8623",
+    "trainNumber": "127M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -876,12 +922,16 @@
         "departureTime": "11:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8623",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_0807_8623",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1033_8634",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8634",
+    "trainNumber": "129M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -926,12 +976,16 @@
         "departureTime": "11:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8634",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_0900_8634",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1045_8660",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8660",
+    "trainNumber": "131M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -1006,17 +1060,21 @@
         "departureTime": "12:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8660",
+    "customDestination": "新庄",
+    "prevTripId": "WD_OUT_TS-01_0924_8660",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-06_1100_21587",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21587",
+    "trainNumber": "138M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1053,20 +1111,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "12:14:00",
-        "departureTime": "12:16:00",
+        "departureTime": "12:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21587",
+    "customOrigin": "山形",
+    "throughTripId": "WD_INB_TS-09_1216_21569",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-11_1112_21593",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21593",
+    "trainNumber": "140M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1133,15 +1195,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "13:14:00",
-        "departureTime": "13:16:00",
+        "departureTime": "13:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21593",
+    "customOrigin": "新庄",
+    "throughTripId": "WD_INB_TS-09_1316_21575",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1122_8633",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8633",
+    "trainNumber": "8177M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -1216,12 +1282,16 @@
         "departureTime": "13:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8633",
+    "customDestination": "新庄",
+    "prevTripId": "WD_OUT_TS-01_0948_8633",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1135_8636",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8636",
+    "trainNumber": "133M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -1296,12 +1366,16 @@
         "departureTime": "13:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8636",
+    "customDestination": "新庄",
+    "prevTripId": "WD_OUT_TS-01_1000_8636",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1222_8658",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8658",
+    "trainNumber": "9079M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -1346,12 +1420,16 @@
         "departureTime": "13:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8658",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_1052_8658",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1235_8624",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8624",
+    "trainNumber": "135M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -1396,17 +1474,21 @@
         "departureTime": "13:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8624",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_1100_8624",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-06_1304_21589",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21589",
+    "trainNumber": "142M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1443,20 +1525,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "14:14:00",
-        "departureTime": "14:16:00",
+        "departureTime": "14:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21589",
+    "customOrigin": "山形",
+    "throughTripId": "WD_INB_TS-09_1416_21571",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-11_1318_21596",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21596",
+    "trainNumber": "144M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1523,95 +1609,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "15:14:00",
-        "departureTime": "15:16:00",
+        "departureTime": "15:14:00",
         "isPassing": false
       }
-    ]
-  },
-  {
-    "tripId": "WD_INB_YS-11_1318_21597",
-    "lineId": "yamagata_shinkansen",
-    "trainNumber": "21597",
-    "trainType": "tsubasa",
-    "direction": "inbound",
-    "originStationId": "YS-11",
-    "destinationStationId": "YS-01",
-    "customDestination": "東京",
-    "cars": 7,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "YS-11",
-        "arrivalTime": "13:18:00",
-        "departureTime": "13:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-10",
-        "arrivalTime": "13:32:00",
-        "departureTime": "13:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-09",
-        "arrivalTime": "13:42:00",
-        "departureTime": "13:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-08",
-        "arrivalTime": "13:47:00",
-        "departureTime": "13:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-07",
-        "arrivalTime": "13:53:00",
-        "departureTime": "13:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-06",
-        "arrivalTime": "14:02:00",
-        "departureTime": "14:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-05",
-        "arrivalTime": "14:13:00",
-        "departureTime": "14:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-04",
-        "arrivalTime": "14:27:00",
-        "departureTime": "14:27:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-03",
-        "arrivalTime": "14:32:00",
-        "departureTime": "14:32:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "YS-02",
-        "arrivalTime": "14:37:00",
-        "departureTime": "14:38:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-01",
-        "arrivalTime": "15:14:00",
-        "departureTime": "15:16:00",
-        "isPassing": false
-      }
-    ]
+    ],
+    "trainId": "21596",
+    "customOrigin": "新庄",
+    "throughTripId": "WD_INB_TS-09_1516_21578",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1323_8643",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8643",
+    "trainNumber": "9081M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -1656,12 +1666,16 @@
         "departureTime": "14:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8643",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_1152_8643",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1335_8637",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8637",
+    "trainNumber": "137M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -1736,12 +1750,16 @@
         "departureTime": "15:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8637",
+    "customDestination": "新庄",
+    "prevTripId": "WD_OUT_TS-01_1200_8637",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-06_1340_21584",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21584",
+    "trainNumber": "9086M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
@@ -1783,20 +1801,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "15:02:00",
-        "departureTime": "15:05:00",
+        "departureTime": "15:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21584",
+    "customOrigin": "山形",
+    "throughTripId": "WD_INB_TS-09_1505_21566",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-11_1357_21600",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21600",
+    "trainNumber": "8188M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1863,15 +1885,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "16:02:00",
-        "departureTime": "16:04:00",
+        "departureTime": "16:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21600",
+    "customOrigin": "新庄",
+    "throughTripId": "WD_INB_TS-09_1604_21582",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1435_8625",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8625",
+    "trainNumber": "139M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -1916,17 +1942,21 @@
         "departureTime": "15:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8625",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_1300_8625",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-06_1503_21590",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21590",
+    "trainNumber": "146M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -1963,20 +1993,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "16:14:00",
-        "departureTime": "16:16:00",
+        "departureTime": "16:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21590",
+    "customOrigin": "山形",
+    "throughTripId": "WD_INB_TS-09_1616_21572",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-11_1517_21594",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21594",
+    "trainNumber": "150M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -2043,15 +2077,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "17:14:00",
-        "departureTime": "17:16:00",
+        "departureTime": "17:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21594",
+    "customOrigin": "新庄",
+    "throughTripId": "WD_INB_TS-09_1716_21576",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1535_8638",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8638",
+    "trainNumber": "141M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -2126,12 +2164,16 @@
         "departureTime": "17:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8638",
+    "customDestination": "新庄",
+    "prevTripId": "WD_OUT_TS-01_1400_8638",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-06_1546_21575",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21575",
+    "trainNumber": "148M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-06",
@@ -2176,12 +2218,13 @@
         "departureTime": "17:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21575"
   },
   {
     "tripId": "WD_INB_YS-11_1551_21603",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21603",
+    "trainNumber": "9090M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-11",
@@ -2253,15 +2296,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "18:02:00",
-        "departureTime": "18:05:00",
+        "departureTime": "18:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21603",
+    "customOrigin": "新庄",
+    "throughTripId": "WD_INB_TS-09_1805_21584",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1635_8626",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8626",
+    "trainNumber": "143M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -2306,17 +2353,21 @@
         "departureTime": "17:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8626",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_1500_8626",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-06_1705_21592",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21592",
+    "trainNumber": "154M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -2353,20 +2404,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "18:15:00",
-        "departureTime": "18:16:00",
+        "departureTime": "18:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21592",
+    "customOrigin": "山形",
+    "throughTripId": "WD_INB_TS-09_1816_21574",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-11_1712_21598",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21598",
+    "trainNumber": "156M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -2433,15 +2488,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "19:14:00",
-        "departureTime": "19:16:00",
+        "departureTime": "19:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21598",
+    "customOrigin": "新庄",
+    "throughTripId": "WD_INB_TS-09_1916_21580",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1722_8647",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8647",
+    "trainNumber": "6069M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -2486,17 +2545,21 @@
         "departureTime": "18:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8647",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_1556_8647",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-06_1732_21577",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21577",
+    "trainNumber": "8192M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": false,
     "stops": [
@@ -2533,15 +2596,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "19:01:00",
-        "departureTime": "19:04:00",
+        "departureTime": "19:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21577",
+    "customOrigin": "山形",
+    "throughTripId": "WD_INB_TS-09_1904_21559",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1735_8639",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8639",
+    "trainNumber": "145M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -2616,12 +2683,16 @@
         "departureTime": "19:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8639",
+    "customDestination": "新庄",
+    "prevTripId": "WD_OUT_TS-01_1600_8639",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1824_8651",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8651",
+    "trainNumber": "9091M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -2696,12 +2767,16 @@
         "departureTime": "20:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8651",
+    "customDestination": "新庄",
+    "prevTripId": "WD_OUT_TS-01_1648_8651",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_1836_8627",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8627",
+    "trainNumber": "149M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -2746,12 +2821,16 @@
         "departureTime": "19:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8627",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_1700_8627",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-11_1843_21608",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21608",
+    "trainNumber": "158M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-11",
@@ -2826,12 +2905,13 @@
         "departureTime": "20:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21608"
   },
   {
     "tripId": "WD_OUT_YS-01_1936_8635",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8635",
+    "trainNumber": "153M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -2876,12 +2956,16 @@
         "departureTime": "20:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8635",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_1800_8635",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_INB_YS-11_1957_21599",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21599",
+    "trainNumber": "160M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-11",
@@ -2953,15 +3037,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "21:52:00",
-        "departureTime": "21:56:00",
+        "departureTime": "21:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21599",
+    "customOrigin": "新庄",
+    "throughTripId": "WD_INB_TS-09_2156_21581",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_2036_8628",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8628",
+    "trainNumber": "8195M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -3006,12 +3094,16 @@
         "departureTime": "21:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8628",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_1848_8628",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_2056_8641",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8641",
+    "trainNumber": "157M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -3086,92 +3178,16 @@
         "departureTime": "22:46:00",
         "isPassing": false
       }
-    ]
-  },
-  {
-    "tripId": "WD_OUT_YS-01_2056_8642",
-    "lineId": "yamagata_shinkansen",
-    "trainNumber": "8642",
-    "trainType": "tsubasa",
-    "direction": "outbound",
-    "originStationId": "YS-01",
-    "destinationStationId": "YS-11",
-    "customOrigin": "東京",
-    "cars": 7,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "YS-01",
-        "arrivalTime": "20:53:00",
-        "departureTime": "20:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-02",
-        "arrivalTime": "21:27:00",
-        "departureTime": "21:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-03",
-        "arrivalTime": "21:35:30",
-        "departureTime": "21:35:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "YS-04",
-        "arrivalTime": "21:43:00",
-        "departureTime": "21:43:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "YS-05",
-        "arrivalTime": "21:50:30",
-        "departureTime": "21:50:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "YS-06",
-        "arrivalTime": "21:58:00",
-        "departureTime": "22:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-07",
-        "arrivalTime": "22:09:00",
-        "departureTime": "22:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-08",
-        "arrivalTime": "22:15:00",
-        "departureTime": "22:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-09",
-        "arrivalTime": "22:20:00",
-        "departureTime": "22:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-10",
-        "arrivalTime": "22:30:00",
-        "departureTime": "22:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-11",
-        "arrivalTime": "22:46:00",
-        "departureTime": "22:46:00",
-        "isPassing": false
-      }
-    ]
+    ],
+    "trainId": "8641",
+    "customDestination": "新庄",
+    "prevTripId": "WD_OUT_TS-01_1916_8641",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_2128_8630",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8630",
+    "trainNumber": "9097M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -3216,12 +3232,16 @@
         "departureTime": "22:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8630",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_1952_8630",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "WD_OUT_YS-01_2218_8631",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8631",
+    "trainNumber": "159M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -3266,17 +3286,21 @@
         "departureTime": "23:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8631",
+    "customDestination": "山形",
+    "prevTripId": "WD_OUT_TS-01_2044_8631",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-11_0540_21604",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21604",
+    "trainNumber": "122M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3343,20 +3367,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "07:37:00",
-        "departureTime": "07:39:00",
+        "departureTime": "07:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21604",
+    "customOrigin": "新庄",
+    "throughTripId": "HD_INB_TS-09_0739_21586",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-06_0559_21573",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21573",
+    "trainNumber": "8172M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3393,15 +3421,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "07:07:00",
-        "departureTime": "07:10:00",
+        "departureTime": "07:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21573",
+    "customOrigin": "山形",
+    "throughTripId": "HD_INB_TS-09_0710_21555",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-06_0659_8115",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8115",
+    "trainNumber": "171M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-06",
@@ -3445,17 +3477,18 @@
         "departureTime": "07:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8115"
   },
   {
     "tripId": "HD_INB_YS-06_0712_21571",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21571",
+    "trainNumber": "124M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3492,20 +3525,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "08:17:00",
-        "departureTime": "08:19:00",
+        "departureTime": "08:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21571",
+    "customOrigin": "山形",
+    "throughTripId": "HD_INB_TS-09_0819_21553",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-11_0715_21607",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21607",
+    "trainNumber": "128M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3572,15 +3609,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "09:14:00",
-        "departureTime": "09:16:00",
+        "departureTime": "09:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21607",
+    "customOrigin": "新庄",
+    "throughTripId": "HD_INB_TS-09_0916_21589",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-06_0737_21585",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21585",
+    "trainNumber": "9074M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
@@ -3622,15 +3663,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "09:02:00",
-        "departureTime": "09:05:00",
+        "departureTime": "09:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21585",
+    "customOrigin": "山形",
+    "throughTripId": "HD_INB_TS-09_0905_21567",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_0748_8632",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8632",
+    "trainNumber": "121M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -3705,12 +3750,16 @@
         "departureTime": "09:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8632",
+    "customDestination": "新庄",
+    "prevTripId": "HD_OUT_TS-01_0612_8632",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_0831_8656",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8656",
+    "trainNumber": "9073M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -3785,12 +3834,16 @@
         "departureTime": "10:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8656",
+    "customDestination": "新庄",
+    "prevTripId": "HD_OUT_TS-01_0648_8656",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-06_0847_21579",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21579",
+    "trainNumber": "9076M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
@@ -3832,15 +3885,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "10:00:00",
-        "departureTime": "10:02:00",
+        "departureTime": "10:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21579",
+    "customOrigin": "山形",
+    "throughTripId": "HD_INB_TS-09_1002_21561",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_0848_8640",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8640",
+    "trainNumber": "123M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -3915,17 +3972,21 @@
         "departureTime": "10:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8640",
+    "customDestination": "新庄",
+    "prevTripId": "HD_OUT_TS-01_0712_8640",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-06_0900_21574",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21574",
+    "trainNumber": "132M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -3962,15 +4023,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "10:12:00",
-        "departureTime": "10:14:00",
+        "departureTime": "10:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21574",
+    "customOrigin": "山形",
+    "throughTripId": "HD_INB_TS-09_1014_21556",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-11_0915_21595",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21595",
+    "trainNumber": "136M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-11",
@@ -4045,12 +4110,13 @@
         "departureTime": "11:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21595"
   },
   {
     "tripId": "HD_OUT_YS-01_0933_8657",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8657",
+    "trainNumber": "9075M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -4095,12 +4161,16 @@
         "departureTime": "10:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8657",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_0800_8657",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_0949_8623",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8623",
+    "trainNumber": "127M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -4145,12 +4215,16 @@
         "departureTime": "11:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8623",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_0807_8623",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1033_8634",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8634",
+    "trainNumber": "129M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -4195,12 +4269,16 @@
         "departureTime": "11:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8634",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_0900_8634",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1045_8660",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8660",
+    "trainNumber": "131M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -4275,17 +4353,21 @@
         "departureTime": "12:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8660",
+    "customDestination": "新庄",
+    "prevTripId": "HD_OUT_TS-01_0924_8660",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-06_1100_21587",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21587",
+    "trainNumber": "138M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -4322,20 +4404,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "12:14:00",
-        "departureTime": "12:16:00",
+        "departureTime": "12:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21587",
+    "customOrigin": "山形",
+    "throughTripId": "HD_INB_TS-09_1216_21569",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-11_1112_21593",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21593",
+    "trainNumber": "140M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -4402,15 +4488,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "13:14:00",
-        "departureTime": "13:16:00",
+        "departureTime": "13:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21593",
+    "customOrigin": "新庄",
+    "throughTripId": "HD_INB_TS-09_1316_21575",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1122_8633",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8633",
+    "trainNumber": "8177M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -4485,12 +4575,16 @@
         "departureTime": "13:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8633",
+    "customDestination": "新庄",
+    "prevTripId": "HD_OUT_TS-01_0948_8633",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1135_8636",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8636",
+    "trainNumber": "133M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -4565,12 +4659,16 @@
         "departureTime": "13:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8636",
+    "customDestination": "新庄",
+    "prevTripId": "HD_OUT_TS-01_1000_8636",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1222_8658",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8658",
+    "trainNumber": "9079M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -4615,12 +4713,16 @@
         "departureTime": "13:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8658",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_1052_8658",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1235_8624",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8624",
+    "trainNumber": "135M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -4665,17 +4767,21 @@
         "departureTime": "13:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8624",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_1100_8624",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-06_1304_21589",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21589",
+    "trainNumber": "142M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -4712,20 +4818,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "14:14:00",
-        "departureTime": "14:16:00",
+        "departureTime": "14:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21589",
+    "customOrigin": "山形",
+    "throughTripId": "HD_INB_TS-09_1416_21571",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-11_1318_21596",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21596",
+    "trainNumber": "144M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -4792,95 +4902,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "15:14:00",
-        "departureTime": "15:16:00",
+        "departureTime": "15:14:00",
         "isPassing": false
       }
-    ]
-  },
-  {
-    "tripId": "HD_INB_YS-11_1318_21597",
-    "lineId": "yamagata_shinkansen",
-    "trainNumber": "21597",
-    "trainType": "tsubasa",
-    "direction": "inbound",
-    "originStationId": "YS-11",
-    "destinationStationId": "YS-01",
-    "customDestination": "東京",
-    "cars": 7,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "YS-11",
-        "arrivalTime": "13:18:00",
-        "departureTime": "13:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-10",
-        "arrivalTime": "13:32:00",
-        "departureTime": "13:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-09",
-        "arrivalTime": "13:42:00",
-        "departureTime": "13:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-08",
-        "arrivalTime": "13:47:00",
-        "departureTime": "13:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-07",
-        "arrivalTime": "13:53:00",
-        "departureTime": "13:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-06",
-        "arrivalTime": "14:02:00",
-        "departureTime": "14:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-05",
-        "arrivalTime": "14:13:00",
-        "departureTime": "14:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-04",
-        "arrivalTime": "14:27:00",
-        "departureTime": "14:27:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-03",
-        "arrivalTime": "14:32:00",
-        "departureTime": "14:32:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "YS-02",
-        "arrivalTime": "14:37:00",
-        "departureTime": "14:38:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-01",
-        "arrivalTime": "15:14:00",
-        "departureTime": "15:16:00",
-        "isPassing": false
-      }
-    ]
+    ],
+    "trainId": "21596",
+    "customOrigin": "新庄",
+    "throughTripId": "HD_INB_TS-09_1516_21578",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1323_8643",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8643",
+    "trainNumber": "9081M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -4925,12 +4959,16 @@
         "departureTime": "14:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8643",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_1152_8643",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1335_8637",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8637",
+    "trainNumber": "137M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -5005,12 +5043,16 @@
         "departureTime": "15:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8637",
+    "customDestination": "新庄",
+    "prevTripId": "HD_OUT_TS-01_1200_8637",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-06_1340_21584",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21584",
+    "trainNumber": "9086M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
@@ -5052,20 +5094,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "15:02:00",
-        "departureTime": "15:05:00",
+        "departureTime": "15:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21584",
+    "customOrigin": "山形",
+    "throughTripId": "HD_INB_TS-09_1505_21566",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-11_1357_21600",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21600",
+    "trainNumber": "8188M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -5132,15 +5178,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "16:02:00",
-        "departureTime": "16:04:00",
+        "departureTime": "16:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21600",
+    "customOrigin": "新庄",
+    "throughTripId": "HD_INB_TS-09_1604_21582",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1435_8625",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8625",
+    "trainNumber": "139M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -5185,17 +5235,21 @@
         "departureTime": "15:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8625",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_1300_8625",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-06_1503_21590",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21590",
+    "trainNumber": "146M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -5232,20 +5286,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "16:14:00",
-        "departureTime": "16:16:00",
+        "departureTime": "16:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21590",
+    "customOrigin": "山形",
+    "throughTripId": "HD_INB_TS-09_1616_21572",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-11_1517_21594",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21594",
+    "trainNumber": "150M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -5312,15 +5370,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "17:14:00",
-        "departureTime": "17:16:00",
+        "departureTime": "17:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21594",
+    "customOrigin": "新庄",
+    "throughTripId": "HD_INB_TS-09_1716_21576",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1535_8638",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8638",
+    "trainNumber": "141M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -5395,12 +5457,16 @@
         "departureTime": "17:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8638",
+    "customDestination": "新庄",
+    "prevTripId": "HD_OUT_TS-01_1400_8638",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-06_1546_21575",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21575",
+    "trainNumber": "148M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-06",
@@ -5445,12 +5511,13 @@
         "departureTime": "17:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21575"
   },
   {
     "tripId": "HD_INB_YS-11_1551_21603",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21603",
+    "trainNumber": "9090M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-11",
@@ -5522,15 +5589,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "18:02:00",
-        "departureTime": "18:05:00",
+        "departureTime": "18:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21603",
+    "customOrigin": "新庄",
+    "throughTripId": "HD_INB_TS-09_1805_21584",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1635_8626",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8626",
+    "trainNumber": "143M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -5575,17 +5646,21 @@
         "departureTime": "17:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8626",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_1500_8626",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-06_1705_21592",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21592",
+    "trainNumber": "154M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -5622,20 +5697,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "18:15:00",
-        "departureTime": "18:16:00",
+        "departureTime": "18:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21592",
+    "customOrigin": "山形",
+    "throughTripId": "HD_INB_TS-09_1816_21574",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-11_1712_21598",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21598",
+    "trainNumber": "156M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-11",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -5702,20 +5781,24 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "19:14:00",
-        "departureTime": "19:16:00",
+        "departureTime": "19:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21598",
+    "customOrigin": "新庄",
+    "throughTripId": "HD_INB_TS-09_1916_21580",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-06_1732_21577",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21577",
+    "trainNumber": "8192M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-06",
     "destinationStationId": "YS-01",
-    "customDestination": "東京",
+    "customDestination": "新庄",
     "cars": 7,
     "isHoliday": true,
     "stops": [
@@ -5752,15 +5835,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "19:01:00",
-        "departureTime": "19:04:00",
+        "departureTime": "19:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21577",
+    "customOrigin": "山形",
+    "throughTripId": "HD_INB_TS-09_1904_21559",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1735_8639",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8639",
+    "trainNumber": "145M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -5835,12 +5922,16 @@
         "departureTime": "19:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8639",
+    "customDestination": "新庄",
+    "prevTripId": "HD_OUT_TS-01_1600_8639",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1824_8651",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8651",
+    "trainNumber": "9091M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -5915,12 +6006,16 @@
         "departureTime": "20:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8651",
+    "customDestination": "新庄",
+    "prevTripId": "HD_OUT_TS-01_1648_8651",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_1836_8627",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8627",
+    "trainNumber": "149M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -5965,12 +6060,16 @@
         "departureTime": "19:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8627",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_1700_8627",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-11_1843_21608",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21608",
+    "trainNumber": "158M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "YS-11",
@@ -6045,12 +6144,13 @@
         "departureTime": "20:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21608"
   },
   {
     "tripId": "HD_OUT_YS-01_1936_8635",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8635",
+    "trainNumber": "153M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -6095,12 +6195,16 @@
         "departureTime": "20:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8635",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_1800_8635",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_INB_YS-11_1957_21599",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "21599",
+    "trainNumber": "160M",
     "trainType": "tsubasa",
     "direction": "inbound",
     "originStationId": "YS-11",
@@ -6172,15 +6276,19 @@
       {
         "stationId": "YS-01",
         "arrivalTime": "21:52:00",
-        "departureTime": "21:56:00",
+        "departureTime": "21:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "21599",
+    "customOrigin": "新庄",
+    "throughTripId": "HD_INB_TS-09_2156_21581",
+    "throughLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_2036_8628",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8628",
+    "trainNumber": "8195M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -6225,12 +6333,16 @@
         "departureTime": "21:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8628",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_1848_8628",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_2056_8641",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8641",
+    "trainNumber": "157M",
     "trainType": "tsubasa",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -6305,92 +6417,16 @@
         "departureTime": "22:46:00",
         "isPassing": false
       }
-    ]
-  },
-  {
-    "tripId": "HD_OUT_YS-01_2056_8642",
-    "lineId": "yamagata_shinkansen",
-    "trainNumber": "8642",
-    "trainType": "tsubasa",
-    "direction": "outbound",
-    "originStationId": "YS-01",
-    "destinationStationId": "YS-11",
-    "customOrigin": "東京",
-    "cars": 7,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "YS-01",
-        "arrivalTime": "20:53:00",
-        "departureTime": "20:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-02",
-        "arrivalTime": "21:27:00",
-        "departureTime": "21:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-03",
-        "arrivalTime": "21:35:30",
-        "departureTime": "21:35:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "YS-04",
-        "arrivalTime": "21:43:00",
-        "departureTime": "21:43:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "YS-05",
-        "arrivalTime": "21:50:30",
-        "departureTime": "21:50:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "YS-06",
-        "arrivalTime": "21:58:00",
-        "departureTime": "22:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-07",
-        "arrivalTime": "22:09:00",
-        "departureTime": "22:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-08",
-        "arrivalTime": "22:15:00",
-        "departureTime": "22:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-09",
-        "arrivalTime": "22:20:00",
-        "departureTime": "22:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-10",
-        "arrivalTime": "22:30:00",
-        "departureTime": "22:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "YS-11",
-        "arrivalTime": "22:46:00",
-        "departureTime": "22:46:00",
-        "isPassing": false
-      }
-    ]
+    ],
+    "trainId": "8641",
+    "customDestination": "新庄",
+    "prevTripId": "HD_OUT_TS-01_1916_8641",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_2128_8630",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8630",
+    "trainNumber": "9097M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -6435,12 +6471,16 @@
         "departureTime": "22:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8630",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_1952_8630",
+    "prevLineId": "tohoku_shinkansen"
   },
   {
     "tripId": "HD_OUT_YS-01_2218_8631",
     "lineId": "yamagata_shinkansen",
-    "trainNumber": "8631",
+    "trainNumber": "159M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "YS-01",
@@ -6485,6 +6525,10 @@
         "departureTime": "23:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "8631",
+    "customDestination": "山形",
+    "prevTripId": "HD_OUT_TS-01_2044_8631",
+    "prevLineId": "tohoku_shinkansen"
   }
 ]

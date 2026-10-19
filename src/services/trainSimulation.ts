@@ -107,6 +107,26 @@ export function resolveActiveTrainInfo(
                 : `${resolvedCustomDest}・${trip.coupling.coupledDestination}`;
           }
         }
+      } else {
+        // 単独運行時（解結後または併結前）: 相手列車の行先や列車番号が混入していれば除去して自列車本来の単独行先に戻す
+        if (trip.coupling!.coupledDestination && resolvedCustomDest) {
+          const parts = resolvedCustomDest.split(/[・/]/).map((p) => p.trim());
+          if (parts.length > 1 && parts.includes(trip.coupling!.coupledDestination)) {
+            const filtered = parts.filter((p) => p !== trip.coupling!.coupledDestination);
+            if (filtered.length > 0) {
+              resolvedCustomDest = filtered.join('・');
+            }
+          }
+        }
+        if (trip.coupling!.coupledTrainNumber && resolvedNumber) {
+          const parts = resolvedNumber.split('+').map((p) => p.trim());
+          if (parts.length > 1 && parts.includes(trip.coupling!.coupledTrainNumber)) {
+            const filtered = parts.filter((p) => p !== trip.coupling!.coupledTrainNumber);
+            if (filtered.length > 0) {
+              resolvedNumber = filtered.join(' + ');
+            }
+          }
+        }
       }
     }
   }
