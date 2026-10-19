@@ -958,8 +958,8 @@ export const TADAMI_STATIONS: Station[] = [
     "name": "小出",
     "nameKana": "こいで",
     "nameEn": "Koide",
-    "lat": 37.2334168,
-    "lng": 138.9539395,
+    "lat": 37.2335257,
+    "lng": 138.9534583,
     "transfers": [
       "JR上越線"
     ],

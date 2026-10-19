@@ -513,8 +513,8 @@ export const FUKUTOSHIN_TRACK_SEGMENTS: TrackSegment[] = [
         139.6786885
       ],
       [
-        35.7428773,
-        139.6806313
+        35.7429781,
+        139.6807045
       ]
     ]
   },
@@ -525,8 +525,8 @@ export const FUKUTOSHIN_TRACK_SEGMENTS: TrackSegment[] = [
     "toName": "千川",
     "coordinates": [
       [
-        35.7428773,
-        139.6806313
+        35.7429781,
+        139.6807045
       ],
       [
         35.7426993,

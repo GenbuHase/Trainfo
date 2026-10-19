@@ -2815,8 +2815,8 @@ export const MYOKO_HANEUMA_TRACK_SEGMENTS: TrackSegment[] = [
         138.24170514999997
       ],
       [
-        37.1701133,
-        138.2423883
+        37.170251,
+        138.242265
       ]
     ]
   }

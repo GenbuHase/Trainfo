@@ -425,8 +425,8 @@ export const SOTETSU_SHIN_YOKOHAMA_TRACK_SEGMENTS: TrackSegment[] = [
         139.5863868
       ],
       [
-        35.4812677,
-        139.5862425
+        35.4812978,
+        139.5862267
       ]
     ]
   },
@@ -437,8 +437,8 @@ export const SOTETSU_SHIN_YOKOHAMA_TRACK_SEGMENTS: TrackSegment[] = [
     "toName": "西谷",
     "coordinates": [
       [
-        35.4812677,
-        139.5862425
+        35.4812978,
+        139.5862267
       ],
       [
         35.48094,

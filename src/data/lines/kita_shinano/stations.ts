@@ -8,8 +8,8 @@ export const KITA_SHINANO_STATIONS: Station[] = [
     "name": "長野",
     "nameKana": "ながの",
     "nameEn": "Nagano",
-    "lat": 36.6438932,
-    "lng": 138.1896132,
+    "lat": 36.643211,
+    "lng": 138.1884854,
     "transfers": [
       "JR北陸新幹線",
       "JR篠ノ井線",

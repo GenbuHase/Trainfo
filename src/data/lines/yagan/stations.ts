@@ -8,8 +8,8 @@ export const YAGAN_STATIONS: Station[] = [
     "name": "新藤原",
     "nameKana": "しんふじはら",
     "nameEn": "Shin-Fujihara",
-    "lat": 36.8525109,
-    "lng": 139.7331205,
+    "lat": 36.8524603,
+    "lng": 139.7329134,
     "transfers": [
       "東武鬼怒川線",
       "野岩鉄道会津鬼怒川線"

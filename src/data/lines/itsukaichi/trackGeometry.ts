@@ -9,8 +9,8 @@ export const ITSUKAICHI_TRACK_SEGMENTS: TrackSegment[] = [
     "toName": "熊川",
     "coordinates": [
       [
-        35.7211549,
-        139.3434109
+        35.7211908,
+        139.3434833
       ],
       [
         35.7217588,

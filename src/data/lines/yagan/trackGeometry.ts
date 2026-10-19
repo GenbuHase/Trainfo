@@ -7,12 +7,12 @@ export const YAGAN_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "YAG-02",
     "coordinates": [
       [
-        36.8525109,
-        139.7331205
+        36.8524603,
+        139.7329134
       ],
       [
-        36.8526916,
-        139.7330463
+        36.85275,
+        139.73298
       ],
       [
         36.8530539,

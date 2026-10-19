@@ -9,8 +9,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "name": "東武動物公園",
     "nameKana": "とうぶどうぶつこうえん",
     "nameEn": "Tobu-dobutsu-koen",
-    "lat": 36.0247838,
-    "lng": 139.7267597,
+    "lat": 36.0246822,
+    "lng": 139.7267148,
     "transfers": [
       "東武スカイツリーライン",
       "東武伊勢崎線",
@@ -738,8 +738,8 @@ export const TOBU_NIKKO_STATIONS: Station[] = [
     "name": "下今市",
     "nameKana": "しもいまいち",
     "nameEn": "Shimo-Imaichi",
-    "lat": 36.7255951,
-    "lng": 139.692581,
+    "lat": 36.7256575,
+    "lng": 139.6926346,
     "transfers": [
       "東武日光線",
       "東武鬼怒川線"

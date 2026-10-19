@@ -8,8 +8,8 @@ export const AIZU_STATIONS: Station[] = [
     "name": "会津高原尾瀬口",
     "nameKana": "あいづこうげんおぜぐち",
     "nameEn": "Aizu-Kogen-Ozeguchi",
-    "lat": 37.089971,
-    "lng": 139.705192,
+    "lat": 37.0900108,
+    "lng": 139.7053594,
     "transfers": [
       "野岩鉄道会津鬼怒川線",
       "会津鉄道会津線"

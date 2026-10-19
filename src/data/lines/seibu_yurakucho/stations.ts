@@ -9,8 +9,8 @@ export const SEIBU_YURAKUCHO_STATIONS: Station[] = [
     "name": "小竹向原",
     "nameKana": "こたけむかいはら",
     "nameEn": "Kotake-mukaihara",
-    "lat": 35.743596,
-    "lng": 139.679006,
+    "lat": 35.7429781,
+    "lng": 139.6807045,
     "transfers": [
       "東京メトロ有楽町線",
       "東京メトロ副都心線"

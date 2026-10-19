@@ -9,8 +9,8 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "name": "東京",
     "nameKana": "とうきょう",
     "nameEn": "Tokyo",
-    "lat": 35.6811274,
-    "lng": 139.7671827,
+    "lat": 35.6818223,
+    "lng": 139.7655658,
     "transfers": [
       "JR山手線",
       "JR京浜東北線",

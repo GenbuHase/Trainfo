@@ -8,8 +8,8 @@ export const HOKUHOKU_STATIONS: Station[] = [
     "name": "六日町",
     "nameKana": "むいかまち",
     "nameEn": "Muikamachi",
-    "lat": 37.0672382,
-    "lng": 138.8756807,
+    "lat": 37.0670998,
+    "lng": 138.8759378,
     "transfers": [
       "JR上越線",
       "北越急行ほくほく線"
@@ -322,8 +322,8 @@ export const HOKUHOKU_STATIONS: Station[] = [
     "name": "犀潟",
     "nameKana": "さいがた",
     "nameEn": "Saigata",
-    "lat": 37.210472,
-    "lng": 138.3056615,
+    "lat": 37.210345,
+    "lng": 138.305154,
     "transfers": [
       "JR信越本線",
       "北越急行ほくほく線"

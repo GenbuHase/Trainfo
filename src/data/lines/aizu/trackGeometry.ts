@@ -7,8 +7,8 @@ export const AIZU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "AIZ-02",
     "coordinates": [
       [
-        37.089971,
-        139.705192
+        37.0900108,
+        139.7053594
       ],
       [
         37.0902178,

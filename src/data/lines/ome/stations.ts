@@ -10,8 +10,8 @@ export const OME_STATIONS: Station[] = [
     "name": "立川",
     "nameKana": "たちかわ",
     "nameEn": "Tachikawa",
-    "lat": 35.6980787,
-    "lng": 139.4135506,
+    "lat": 35.697771,
+    "lng": 139.413715,
     "transfers": [
       "JR中央線",
       "JR中央本線",

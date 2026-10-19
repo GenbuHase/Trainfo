@@ -47,8 +47,8 @@ export const SOTETSU_SHIN_YOKOHAMA_STATIONS: Station[] = [
     "name": "羽沢横浜国大",
     "nameKana": "はざわよこはまこくだい",
     "nameEn": "Hazawa yokohama-kokudai",
-    "lat": 35.4812677,
-    "lng": 139.5862425,
+    "lat": 35.4812978,
+    "lng": 139.5862267,
     "transfers": [
       "JR埼京線(相鉄・JR直通線)"
     ],

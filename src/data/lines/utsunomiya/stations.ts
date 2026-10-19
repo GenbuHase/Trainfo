@@ -9,8 +9,8 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "name": "上野",
     "nameKana": "うえの",
     "nameEn": "Ueno",
-    "lat": 35.7135081,
-    "lng": 139.7763091,
+    "lat": 35.7134394,
+    "lng": 139.7764768,
     "transfers": [
       "JR上野東京ライン",
       "JR山手線",
@@ -53,8 +53,8 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "name": "尾久",
     "nameKana": "おく",
     "nameEn": "Oku",
-    "lat": 35.7468666,
-    "lng": 139.7536457,
+    "lat": 35.7469489,
+    "lng": 139.7536899,
     "transfers": [
       "JR宇都宮線",
       "JR高崎線"
@@ -84,8 +84,8 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "name": "赤羽",
     "nameKana": "あかばね",
     "nameEn": "Akabane",
-    "lat": 35.7781087,
-    "lng": 139.720731,
+    "lat": 35.7780922,
+    "lng": 139.7206948,
     "transfers": [
       "JR宇都宮線",
       "JR高崎線",
@@ -191,8 +191,8 @@ export const UTSUNOMIYA_STATIONS: Station[] = [
     "name": "大宮",
     "nameKana": "おおみや",
     "nameEn": "Omiya",
-    "lat": 35.9063192,
-    "lng": 139.6240596,
+    "lat": 35.9063522,
+    "lng": 139.6242153,
     "transfers": [
       "JR宇都宮線",
       "JR高崎線",

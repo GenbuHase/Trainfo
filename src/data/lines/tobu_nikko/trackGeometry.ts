@@ -7,8 +7,8 @@ export const TOBU_NIKKO_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "TN-01",
     "coordinates": [
       [
-        36.0247838,
-        139.7267597
+        36.0246822,
+        139.7267148
       ],
       [
         36.02497016666667,
@@ -9397,8 +9397,8 @@ export const TOBU_NIKKO_TRACK_SEGMENTS: TrackSegment[] = [
         139.6928962
       ],
       [
-        36.7255951,
-        139.692581
+        36.7256575,
+        139.6926346
       ]
     ]
   },
@@ -9408,8 +9408,8 @@ export const TOBU_NIKKO_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "TN-24",
     "coordinates": [
       [
-        36.7255951,
-        139.692581
+        36.7256575,
+        139.6926346
       ],
       [
         36.7257211,
