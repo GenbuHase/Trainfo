@@ -210,6 +210,7 @@ export interface TimetableTrip {
   trainNumberSections?: TrainNumberSection[]; // 区間別列車番号リスト
   coupling?: CouplingConfig;                  // 併結運転設定
   trainType: TrainTypeKey;
+  trainName?: string;         // 列車名・愛称・号数 (例: 'あずさ9号', 'DLばんえつ物語', 'ひたち1号')
   direction: Direction;
   originStationId: string;
   destinationStationId: string;
@@ -231,6 +232,7 @@ export interface ActiveTrain {
   lineId: LineId;            // 所属路線
   trainId?: string;          // 内部ID
   trainNumber?: string;      // 現在走行区間の公式列車番号（併結時は '8078M + 9028M'）
+  trainName?: string;        // 列車名・愛称・号数 (例: 'あずさ9号', 'DLばんえつ物語')
   trainNumberSections?: TrainNumberSection[];
   coupling?: CouplingConfig;
   isCoupledActive?: boolean; // 現在併結状態で走行中か
@@ -265,6 +267,7 @@ export interface DepartureInfo {
   tripId: string;
   lineId: LineId;
   trainType: TrainTypeKey;
+  trainName?: string;
   destination: string;
   departureTime: string;
   platform: string;
@@ -354,6 +357,7 @@ export interface ThroughChainStop {
   tripId: string;
   trainType: TrainTypeKey;
   trainNumber?: string;
+  trainName?: string;
   isBoundary?: boolean;
   boundaryInfo?: {
     prevLineId: LineId;

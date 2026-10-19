@@ -1,5 +1,6 @@
 import { calculateActiveTrains } from '../src/services/trainSimulation';
 import { formatTrainNumber, timeStringToSeconds } from '../src/data/timetableData';
+import { loadLinesTimetables } from '../src/data/timetableLoader';
 import type { ActiveTrain } from '../src/types';
 
 // App.tsx の selectedTrain 判定ロジック（修正後）
@@ -59,6 +60,8 @@ function resolveSelectedTrain(
 
 console.log('=== 特急アルプス（42781便）全線ハンドオーバー & 始発駅保持テスト ===\n');
 
+await loadLinesTimetables(['chuo', 'chuo_main', 'shinonoi', 'oito_east']);
+
 const testPoints = [
   { time: '23:58:30', desc: '新宿発車直後 (chuo)', expectedLine: 'chuo', expectedOrigin: 'JC-05', expectedCustomOrigin: undefined },
   { time: '00:35:00', desc: '立川発車 (chuo)', expectedLine: 'chuo', expectedOrigin: 'JC-05', expectedCustomOrigin: undefined },
@@ -69,9 +72,9 @@ const testPoints = [
   { time: '03:30:00', desc: '小淵沢通過 (chuo_main)', expectedLine: 'chuo_main', expectedOrigin: 'JC-24', expectedCustomOrigin: '新宿' },
   { time: '04:31:00', desc: '塩尻通過・篠ノ井線進入 (shinonoi)', expectedLine: 'shinonoi', expectedOrigin: 'SN-01', expectedCustomOrigin: '新宿' },
   { time: '04:47:00', desc: '松本駅停車中 (shinonoi)', expectedLine: 'shinonoi', expectedOrigin: 'SN-01', expectedCustomOrigin: '新宿' },
-  { time: '04:50:00', desc: '松本駅発車直後 (oito_east)', expectedLine: 'oito_east', expectedOrigin: 'OE-01', expectedCustomOrigin: '新宿' },
-  { time: '05:23:30', desc: '信濃大町停車中 (oito_east)', expectedLine: 'oito_east', expectedOrigin: 'OE-01', expectedCustomOrigin: '新宿' },
-  { time: '05:48:00', desc: '白馬駅接近 (oito_east)', expectedLine: 'oito_east', expectedOrigin: 'OE-01', expectedCustomOrigin: '新宿' },
+  { time: '04:50:00', desc: '松本駅発車直後 (oito_east)', expectedLine: 'oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
+  { time: '05:23:30', desc: '信濃大町停車中 (oito_east)', expectedLine: 'oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
+  { time: '05:48:00', desc: '白馬駅接近 (oito_east)', expectedLine: 'oito_east', expectedOrigin: 'OIE-01', expectedCustomOrigin: '新宿' },
 ];
 
 for (const isHoliday of [false, true]) {

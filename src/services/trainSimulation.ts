@@ -38,6 +38,7 @@ export function resolveActiveTrainInfo(
 ): {
   trainId: string;
   trainNumber?: string;
+  trainName?: string;
   trainType: TimetableTrip['trainType'];
   cars: number;
   isCoupledActive: boolean;
@@ -152,6 +153,7 @@ export function resolveActiveTrainInfo(
   return {
     trainId,
     trainNumber: resolvedNumber,
+    trainName: trip.trainName,
     trainType: resolvedType,
     cars: isCoupledActive ? totalCars : trip.cars,
     isCoupledActive,
@@ -355,6 +357,7 @@ export function calculateActiveTrains(
           lineId,
           trainId: trainInfo.trainId,
           trainNumber: trainInfo.trainNumber,
+          trainName: trainInfo.trainName,
           trainNumberSections: trip.trainNumberSections,
           coupling: trip.coupling,
           isCoupledActive: trainInfo.isCoupledActive,
@@ -435,6 +438,7 @@ export function calculateActiveTrains(
             lineId,
             trainId: trainInfo.trainId,
             trainNumber: trainInfo.trainNumber,
+            trainName: trainInfo.trainName,
             trainNumberSections: trip.trainNumberSections,
             coupling: trip.coupling,
             isCoupledActive: trainInfo.isCoupledActive,

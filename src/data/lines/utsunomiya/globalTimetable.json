@@ -151,9 +151,9 @@
       }
     ],
     "trainId": "34213",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_0620_34213",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-02_0510_5518",
@@ -435,9 +435,9 @@
       }
     ],
     "trainId": "34250",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_0638_34250",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-24_0513_33421",
@@ -561,9 +561,9 @@
       }
     ],
     "trainId": "33421",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_0643_33421",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_0516_5535",
@@ -1204,9 +1204,9 @@
       }
     ],
     "trainId": "34260",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_0702_34260",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-24_0540_34214",
@@ -1360,9 +1360,9 @@
       }
     ],
     "trainId": "34214",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_0735_34214",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-19_0543_5534",
@@ -1748,9 +1748,9 @@
       }
     ],
     "trainId": "33423",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_0712_33423",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_0550_34158",
@@ -1932,9 +1932,9 @@
       }
     ],
     "trainId": "34271",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_0722_34271",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-24_0550_5536",
@@ -2725,9 +2725,9 @@
       }
     ],
     "trainId": "34181",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_0812_34181",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_0614_37664",
@@ -2890,9 +2890,9 @@
       }
     ],
     "trainId": "34257",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_0746_34257",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-34_0617_5714",
@@ -3157,9 +3157,9 @@
       }
     ],
     "trainId": "33434",
-    "customOrigin": "小金井",
     "throughTripId": "WD_OUT_JS-24_0729_33434",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_0626_34287",
@@ -3421,9 +3421,9 @@
       }
     ],
     "trainId": "34252",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_0801_34252",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-24_0633_33425",
@@ -3547,9 +3547,9 @@
       }
     ],
     "trainId": "33425",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_0758_33425",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-02_0636_34519",
@@ -3679,9 +3679,9 @@
       }
     ],
     "trainId": "34519",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_0630_34519",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_0637_13933",
@@ -3739,6 +3739,7 @@
     "lineId": "utsunomiya",
     "trainNumber": "4002M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ2号",
     "direction": "inbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-02",
@@ -3935,15 +3936,16 @@
       }
     ],
     "trainId": "33481",
-    "customOrigin": "小金井",
     "throughTripId": "WD_OUT_JS-24_0746_33481",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-02_0648_34403",
     "lineId": "utsunomiya",
     "trainNumber": "3620E",
     "trainType": "rapid_rabbit",
+    "trainName": "ラビット",
     "direction": "outbound",
     "originStationId": "JU-02",
     "destinationStationId": "JU-24",
@@ -4091,9 +4093,9 @@
       }
     ],
     "trainId": "34403",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_0641_34403",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_0648_5701",
@@ -4884,9 +4886,9 @@
       }
     ],
     "trainId": "34248",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_0839_34248",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-24_0701_34217",
@@ -5040,9 +5042,9 @@
       }
     ],
     "trainId": "34217",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_0859_34217",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-20_0708_33484",
@@ -5142,9 +5144,9 @@
       }
     ],
     "trainId": "33484",
-    "customOrigin": "小金井",
     "throughTripId": "WD_OUT_JS-24_0812_33484",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-34_0708_5717",
@@ -5231,6 +5233,7 @@
     "lineId": "utsunomiya",
     "trainNumber": "4004M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ4号",
     "direction": "inbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-02",
@@ -5414,9 +5417,9 @@
       }
     ],
     "trainId": "34239",
-    "customOrigin": "古河",
     "throughTripId": "WD_INB_UT-02_0822_34239",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_INB_JU-07_0713_34081",
@@ -5622,9 +5625,9 @@
       }
     ],
     "trainId": "34442",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_0707_34442",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-20_0718_34249",
@@ -5754,9 +5757,9 @@
       }
     ],
     "trainId": "34249",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_0855_34249",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-24_0720_34220",
@@ -5910,9 +5913,9 @@
       }
     ],
     "trainId": "34220",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_0909_34220",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-26_0720_37678",
@@ -6428,9 +6431,9 @@
       }
     ],
     "trainId": "34408",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_0730_34408",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-24_0737_34221",
@@ -6584,9 +6587,9 @@
       }
     ],
     "trainId": "34221",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_0924_34221",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-04_0738_33556",
@@ -6686,9 +6689,9 @@
       }
     ],
     "trainId": "33556",
-    "customDestination": "小金井",
     "prevTripId": "WD_INB_JS-17_0709_33556",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-24_0738_5539",
@@ -6870,6 +6873,7 @@
     "lineId": "utsunomiya",
     "trainNumber": "3622E",
     "trainType": "rapid_rabbit",
+    "trainName": "ラビット",
     "direction": "outbound",
     "originStationId": "JU-02",
     "destinationStationId": "JU-24",
@@ -7017,9 +7021,9 @@
       }
     ],
     "trainId": "34418",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_0737_34418",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_0748_34296",
@@ -7225,9 +7229,9 @@
       }
     ],
     "trainId": "34180",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_0939_34180",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-02_0755_34492",
@@ -7381,9 +7385,9 @@
       }
     ],
     "trainId": "34492",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_0747_34492",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_0756_13936",
@@ -7800,9 +7804,9 @@
       }
     ],
     "trainId": "34223",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_0954_34223",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-16_0807_33431",
@@ -7878,9 +7882,9 @@
       }
     ],
     "trainId": "33431",
-    "customOrigin": "古河",
     "throughTripId": "WD_OUT_JS-24_0846_33431",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_INB_JU-07_0808_13937",
@@ -8085,9 +8089,9 @@
       }
     ],
     "trainId": "34443",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_0802_34443",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_0810_37666",
@@ -8244,9 +8248,9 @@
       }
     ],
     "trainId": "33574",
-    "customDestination": "小金井",
     "prevTripId": "WD_INB_JS-17_0747_33574",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-24_0816_5702",
@@ -8498,9 +8502,9 @@
       }
     ],
     "trainId": "33487",
-    "customOrigin": "小金井",
     "throughTripId": "WD_OUT_JS-24_0917_33487",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-34_0816_5751",
@@ -8864,9 +8868,9 @@
       }
     ],
     "trainId": "33458",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_0943_33458",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-02_0823_33865",
@@ -8996,15 +9000,16 @@
       }
     ],
     "trainId": "33865",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_0817_33865",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-05_0827_6560",
     "lineId": "utsunomiya",
     "trainNumber": "8121M",
     "trainType": "limitedExp",
+    "trainName": "日光21号",
     "direction": "outbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-07",
@@ -9146,9 +9151,9 @@
       }
     ],
     "trainId": "33562",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_0805_33562",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_0834_34226",
@@ -9302,9 +9307,9 @@
       }
     ],
     "trainId": "34226",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_1021_34226",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_0835_34082",
@@ -9590,9 +9595,9 @@
       }
     ],
     "trainId": "33869",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_0830_33869",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-02_0846_34493",
@@ -9746,9 +9751,9 @@
       }
     ],
     "trainId": "34493",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_0840_34493",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-34_0847_5720",
@@ -10010,9 +10015,9 @@
       }
     ],
     "trainId": "34425",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_0848_34425",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-04_0854_33575",
@@ -10112,9 +10117,9 @@
       }
     ],
     "trainId": "33575",
-    "customDestination": "小金井",
     "prevTripId": "WD_INB_JS-17_0826_33575",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-24_0854_33459",
@@ -10238,9 +10243,9 @@
       }
     ],
     "trainId": "33459",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1011_33459",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_0905_34104",
@@ -10370,9 +10375,9 @@
       }
     ],
     "trainId": "34405",
-    "customDestination": "古河",
     "prevTripId": "WD_OUT_UT-01_0902_34405",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_OUT_JU-04_0911_33576",
@@ -10472,9 +10477,9 @@
       }
     ],
     "trainId": "33576",
-    "customDestination": "小金井",
     "prevTripId": "WD_INB_JS-17_0840_33576",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-26_0911_37680",
@@ -10514,6 +10519,7 @@
     "lineId": "utsunomiya",
     "trainNumber": "4008M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ8号",
     "direction": "inbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-02",
@@ -10872,9 +10878,9 @@
       }
     ],
     "trainId": "34476",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_0911_34476",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_0918_34167",
@@ -11080,9 +11086,9 @@
       }
     ],
     "trainId": "34182",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_1111_34182",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-04_0927_33566",
@@ -11206,9 +11212,9 @@
       }
     ],
     "trainId": "33566",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_0857_33566",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-20_0929_34254",
@@ -11338,9 +11344,9 @@
       }
     ],
     "trainId": "34254",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_1051_34254",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_0933_34150",
@@ -11522,9 +11528,9 @@
       }
     ],
     "trainId": "34410",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_0931_34410",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-24_0936_33441",
@@ -11648,9 +11654,9 @@
       }
     ],
     "trainId": "33441",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1042_33441",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_0944_34089",
@@ -11964,9 +11970,9 @@
       }
     ],
     "trainId": "33866",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_0945_33866",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-04_0956_33563",
@@ -12090,9 +12096,9 @@
       }
     ],
     "trainId": "33563",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_0925_33563",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_0956_33461",
@@ -12216,15 +12222,16 @@
       }
     ],
     "trainId": "33461",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1113_33461",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-05_0958_6562",
     "lineId": "utsunomiya",
     "trainNumber": "1091M",
     "trainType": "limitedExp",
+    "trainName": "スペーシア日光1号",
     "direction": "outbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-07",
@@ -12372,9 +12379,9 @@
       }
     ],
     "trainId": "34273",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_1131_34273",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-02_1006_34447",
@@ -12528,9 +12535,9 @@
       }
     ],
     "trainId": "34447",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_0959_34447",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1007_13939",
@@ -12657,9 +12664,9 @@
       }
     ],
     "trainId": "33555",
-    "customDestination": "古河",
     "prevTripId": "WD_INB_JS-17_0942_33555",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_INB_JU-07_1013_34105",
@@ -12725,7 +12732,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JU-24",
-    "destinationStationId": "JU-07",
+    "destinationStationId": "JU-02",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -12835,14 +12842,44 @@
       {
         "stationId": "JU-07",
         "arrivalTime": "11:38:00",
-        "departureTime": "11:57:00",
+        "departureTime": "11:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JU-06",
+        "arrivalTime": "11:45:00",
+        "departureTime": "11:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JU-05",
+        "arrivalTime": "11:50:00",
+        "departureTime": "11:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JU-04",
+        "arrivalTime": "11:58:00",
+        "departureTime": "11:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JU-03",
+        "arrivalTime": "12:03:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JU-02",
+        "arrivalTime": "12:09:00",
+        "departureTime": "12:11:00",
         "isPassing": false
       }
     ],
     "trainId": "34185",
-    "customOrigin": "宇都宮",
-    "throughTripId": "WD_OUT_JS-24_1157_33397",
-    "throughLineId": "shonan_shinjuku"
+    "throughTripId": "WD_INB_UT-02_1211_34185",
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_1021_5544",
@@ -13132,9 +13169,9 @@
       }
     ],
     "trainId": "34472",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_1019_34472",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-24_1033_37667",
@@ -13291,9 +13328,9 @@
       }
     ],
     "trainId": "33444",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1142_33444",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-02_1036_34415",
@@ -13447,9 +13484,9 @@
       }
     ],
     "trainId": "34415",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_1029_34415",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1036_34168",
@@ -13607,9 +13644,9 @@
       }
     ],
     "trainId": "34233",
-    "customOrigin": "古河",
     "throughTripId": "WD_INB_UT-02_1151_34233",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_OUT_JU-24_1048_5545",
@@ -13945,15 +13982,16 @@
       }
     ],
     "trainId": "33568",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1023_33568",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-05_1054_37203",
     "lineId": "utsunomiya",
     "trainNumber": "1083M",
     "trainType": "limitedExp",
+    "trainName": "きぬがわ3号",
     "direction": "outbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-07",
@@ -14095,9 +14133,9 @@
       }
     ],
     "trainId": "33463",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1212_33463",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-02_1055_34411",
@@ -14227,9 +14265,9 @@
       }
     ],
     "trainId": "34411",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_1049_34411",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-20_1101_34275",
@@ -14359,9 +14397,9 @@
       }
     ],
     "trainId": "34275",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_1231_34275",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-04_1101_33577",
@@ -14461,9 +14499,9 @@
       }
     ],
     "trainId": "33577",
-    "customDestination": "小金井",
     "prevTripId": "WD_INB_JS-17_1034_33577",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_1113_34108",
@@ -14641,9 +14679,9 @@
       }
     ],
     "trainId": "34449",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_1109_34449",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_1119_34189",
@@ -14797,9 +14835,9 @@
       }
     ],
     "trainId": "34189",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_1311_34189",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_1123_5546",
@@ -15083,9 +15121,9 @@
       }
     ],
     "trainId": "33609",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1057_33609",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1133_34170",
@@ -15243,9 +15281,9 @@
       }
     ],
     "trainId": "34419",
-    "customDestination": "古河",
     "prevTripId": "WD_OUT_UT-01_1129_34419",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_INB_JU-24_1135_33445",
@@ -15369,9 +15407,9 @@
       }
     ],
     "trainId": "33445",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1242_33445",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-16_1142_34234",
@@ -15477,9 +15515,9 @@
       }
     ],
     "trainId": "34234",
-    "customOrigin": "古河",
     "throughTripId": "WD_INB_UT-02_1251_34234",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_OUT_JU-24_1146_5547",
@@ -15821,9 +15859,9 @@
       }
     ],
     "trainId": "34426",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_1149_34426",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-04_1155_33565",
@@ -15947,9 +15985,9 @@
       }
     ],
     "trainId": "33565",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1125_33565",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_1155_33465",
@@ -16073,9 +16111,9 @@
       }
     ],
     "trainId": "33465",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1313_33465",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-20_1200_34277",
@@ -16205,9 +16243,9 @@
       }
     ],
     "trainId": "34277",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_1331_34277",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_1213_34110",
@@ -16385,9 +16423,9 @@
       }
     ],
     "trainId": "34450",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_1209_34450",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-26_1215_37682",
@@ -16574,9 +16612,9 @@
       }
     ],
     "trainId": "34191",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_1411_34191",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_1220_5548",
@@ -16860,9 +16898,9 @@
       }
     ],
     "trainId": "33610",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1156_33610",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1233_34172",
@@ -17053,9 +17091,9 @@
       }
     ],
     "trainId": "34421",
-    "customDestination": "古河",
     "prevTripId": "WD_OUT_UT-01_1229_34421",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_INB_JU-24_1235_33448",
@@ -17179,9 +17217,9 @@
       }
     ],
     "trainId": "33448",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1342_33448",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-16_1247_34235",
@@ -17287,9 +17325,9 @@
       }
     ],
     "trainId": "34235",
-    "customOrigin": "古河",
     "throughTripId": "WD_INB_UT-02_1351_34235",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_INB_JU-34_1248_5728",
@@ -17631,9 +17669,9 @@
       }
     ],
     "trainId": "34427",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_1249_34427",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-04_1255_33595",
@@ -17757,9 +17795,9 @@
       }
     ],
     "trainId": "33595",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1225_33595",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_1255_33466",
@@ -17883,9 +17921,9 @@
       }
     ],
     "trainId": "33466",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1412_33466",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-20_1300_34279",
@@ -18015,9 +18053,9 @@
       }
     ],
     "trainId": "34279",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_1431_34279",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_1313_34111",
@@ -18195,9 +18233,9 @@
       }
     ],
     "trainId": "34477",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_1309_34477",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_1318_34192",
@@ -18351,9 +18389,9 @@
       }
     ],
     "trainId": "34192",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_1511_34192",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_1321_5550",
@@ -18637,9 +18675,9 @@
       }
     ],
     "trainId": "33612",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1255_33612",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_1332_33449",
@@ -18763,9 +18801,9 @@
       }
     ],
     "trainId": "33449",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1442_33449",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1333_34173",
@@ -18923,9 +18961,9 @@
       }
     ],
     "trainId": "34465",
-    "customDestination": "古河",
     "prevTripId": "WD_OUT_UT-01_1329_34465",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_OUT_JU-24_1345_5551",
@@ -19111,9 +19149,9 @@
       }
     ],
     "trainId": "34238",
-    "customOrigin": "古河",
     "throughTripId": "WD_INB_UT-02_1451_34238",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_INB_JU-34_1347_5730",
@@ -19317,9 +19355,9 @@
       }
     ],
     "trainId": "33469",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1512_33469",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1353_34133",
@@ -19525,9 +19563,9 @@
       }
     ],
     "trainId": "34452",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_1349_34452",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-04_1355_33597",
@@ -19651,9 +19689,9 @@
       }
     ],
     "trainId": "33597",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1325_33597",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-20_1357_34264",
@@ -19783,9 +19821,9 @@
       }
     ],
     "trainId": "34264",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_1531_34264",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_1413_34113",
@@ -19996,9 +20034,9 @@
       }
     ],
     "trainId": "33718",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_1612_33718",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-02_1417_34479",
@@ -20152,9 +20190,9 @@
       }
     ],
     "trainId": "34479",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_1409_34479",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_1418_5552",
@@ -20438,9 +20476,9 @@
       }
     ],
     "trainId": "33614",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1355_33614",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1433_33723",
@@ -20631,9 +20669,9 @@
       }
     ],
     "trainId": "34467",
-    "customDestination": "古河",
     "prevTripId": "WD_OUT_UT-01_1429_34467",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_INB_JU-24_1435_33451",
@@ -20757,9 +20795,9 @@
       }
     ],
     "trainId": "33451",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1542_33451",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_1445_5553",
@@ -21025,9 +21063,9 @@
       }
     ],
     "trainId": "34241",
-    "customOrigin": "古河",
     "throughTripId": "WD_INB_UT-02_1551_34241",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_INB_JU-24_1450_33470",
@@ -21151,9 +21189,9 @@
       }
     ],
     "trainId": "33470",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1612_33470",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1452_34135",
@@ -21335,9 +21373,9 @@
       }
     ],
     "trainId": "34431",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_1449_34431",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-04_1455_33599",
@@ -21461,9 +21499,9 @@
       }
     ],
     "trainId": "33599",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1425_33599",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-20_1500_34266",
@@ -21593,15 +21631,16 @@
       }
     ],
     "trainId": "34266",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_1631_34266",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_1500_37207",
     "lineId": "utsunomiya",
     "trainNumber": "3002M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万2号",
     "direction": "inbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-02",
@@ -21852,9 +21891,9 @@
       }
     ],
     "trainId": "34204",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_1718_34204",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-34_1514_5733",
@@ -22064,9 +22103,9 @@
       }
     ],
     "trainId": "34473",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_1509_34473",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-24_1519_5554",
@@ -22303,9 +22342,9 @@
       }
     ],
     "trainId": "33617",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1455_33617",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1533_34151",
@@ -22453,9 +22492,9 @@
       }
     ],
     "trainId": "33453",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1647_33453",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-02_1535_34469",
@@ -22561,9 +22600,9 @@
       }
     ],
     "trainId": "34469",
-    "customDestination": "古河",
     "prevTripId": "WD_OUT_UT-01_1529_34469",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_INB_JU-34_1542_5734",
@@ -22829,9 +22868,9 @@
       }
     ],
     "trainId": "34243",
-    "customOrigin": "古河",
     "throughTripId": "WD_INB_UT-02_1652_34243",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_INB_JU-20_1550_5762",
@@ -23141,9 +23180,9 @@
       }
     ],
     "trainId": "34433",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_1549_34433",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-04_1555_33600",
@@ -23267,9 +23306,9 @@
       }
     ],
     "trainId": "33600",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1525_33600",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_1555_33473",
@@ -23393,9 +23432,9 @@
       }
     ],
     "trainId": "33473",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1712_33473",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-20_1609_34281",
@@ -23524,7 +23563,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "34281"
+    "trainId": "34281",
+    "throughTripId": "WD_INB_UT-02_1741_34281",
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-24_1610_5556",
@@ -23758,9 +23800,9 @@
       }
     ],
     "trainId": "34199",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_1801_34199",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1613_34139",
@@ -23966,9 +24008,9 @@
       }
     ],
     "trainId": "34482",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_1609_34482",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-34_1616_5735",
@@ -24172,9 +24214,9 @@
       }
     ],
     "trainId": "33619",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1555_33619",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-20_1626_34268",
@@ -24304,9 +24346,9 @@
       }
     ],
     "trainId": "34268",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_1754_34268",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_1633_34153",
@@ -24484,9 +24526,9 @@
       }
     ],
     "trainId": "34484",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_1629_34484",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_1637_33455",
@@ -24610,9 +24652,9 @@
       }
     ],
     "trainId": "33455",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1745_33455",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-20_1641_5763",
@@ -25186,9 +25228,9 @@
       }
     ],
     "trainId": "34259",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_1829_34259",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_1652_13916",
@@ -25393,9 +25435,9 @@
       }
     ],
     "trainId": "34454",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_1649_34454",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_1655_33474",
@@ -25519,9 +25561,9 @@
       }
     ],
     "trainId": "33474",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1819_33474",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-04_1656_33569",
@@ -25597,9 +25639,9 @@
       }
     ],
     "trainId": "33569",
-    "customDestination": "古河",
     "prevTripId": "WD_INB_JS-17_1625_33569",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_OUT_JU-02_1700_5509",
@@ -25809,9 +25851,9 @@
       }
     ],
     "trainId": "34245",
-    "customOrigin": "古河",
     "throughTripId": "WD_INB_UT-02_1814_34245",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_INB_JU-07_1706_34162",
@@ -25965,9 +26007,9 @@
       }
     ],
     "trainId": "34284",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_1841_34284",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-24_1715_34229",
@@ -26121,9 +26163,9 @@
       }
     ],
     "trainId": "34229",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_1903_34229",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-34_1715_5737",
@@ -26333,9 +26375,9 @@
       }
     ],
     "trainId": "34475",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_1708_34475",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_1717_34090",
@@ -26663,9 +26705,9 @@
       }
     ],
     "trainId": "33621",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1656_33621",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-02_1735_34470",
@@ -26771,9 +26813,9 @@
       }
     ],
     "trainId": "34470",
-    "customDestination": "古河",
     "prevTripId": "WD_OUT_UT-01_1729_34470",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_INB_JU-07_1735_34177",
@@ -27059,9 +27101,9 @@
       }
     ],
     "trainId": "34207",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_1940_34207",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-34_1742_5738",
@@ -27148,6 +27190,7 @@
     "lineId": "utsunomiya",
     "trainNumber": "3004M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万4号",
     "direction": "inbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-02",
@@ -27322,9 +27365,9 @@
       }
     ],
     "trainId": "34255",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_1917_34255",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-02_1750_34494",
@@ -27478,9 +27521,9 @@
       }
     ],
     "trainId": "34494",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_1742_34494",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1753_34141",
@@ -27686,9 +27729,9 @@
       }
     ],
     "trainId": "34208",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_1947_34208",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_1754_5560",
@@ -27868,9 +27911,9 @@
       }
     ],
     "trainId": "33580",
-    "customDestination": "小金井",
     "prevTripId": "WD_INB_JS-17_1727_33580",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-02_1757_34434",
@@ -28000,9 +28043,9 @@
       }
     ],
     "trainId": "34434",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_1751_34434",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-24_1802_33477",
@@ -28126,9 +28169,9 @@
       }
     ],
     "trainId": "33477",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1925_33477",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1806_34294",
@@ -28228,9 +28271,9 @@
       }
     ],
     "trainId": "33433",
-    "customOrigin": "古河",
     "throughTripId": "WD_OUT_JS-24_1851_33433",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_OUT_JU-24_1812_5561",
@@ -28416,9 +28459,9 @@
       }
     ],
     "trainId": "34423",
-    "customDestination": "古河",
     "prevTripId": "WD_OUT_UT-01_1807_34423",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_INB_JU-34_1815_5739",
@@ -28505,6 +28548,7 @@
     "lineId": "utsunomiya",
     "trainNumber": "3551M",
     "trainType": "rapid_rabbit",
+    "trainName": "ラビット",
     "direction": "outbound",
     "originStationId": "JU-02",
     "destinationStationId": "JU-24",
@@ -28826,9 +28870,9 @@
       }
     ],
     "trainId": "33426",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_1947_33426",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-02_1827_34413",
@@ -28958,9 +29002,9 @@
       }
     ],
     "trainId": "34413",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_1821_34413",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-04_1828_33602",
@@ -29084,9 +29128,9 @@
       }
     ],
     "trainId": "33602",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1757_33602",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_1834_5562",
@@ -29552,9 +29596,9 @@
       }
     ],
     "trainId": "34194",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_2025_34194",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1841_34299",
@@ -29760,9 +29804,9 @@
       }
     ],
     "trainId": "34497",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_1841_34497",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1849_13942",
@@ -29937,9 +29981,9 @@
       }
     ],
     "trainId": "33427",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_2012_33427",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_1851_5563",
@@ -30119,9 +30163,9 @@
       }
     ],
     "trainId": "33582",
-    "customDestination": "小金井",
     "prevTripId": "WD_INB_JS-17_1823_33582",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-02_1856_5512",
@@ -30406,9 +30450,9 @@
       }
     ],
     "trainId": "34246",
-    "customOrigin": "古河",
     "throughTripId": "WD_INB_UT-02_2005_34246",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_INB_JU-34_1900_5741",
@@ -30618,9 +30662,9 @@
       }
     ],
     "trainId": "34488",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_1858_34488",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_1906_34163",
@@ -30826,9 +30870,9 @@
       }
     ],
     "trainId": "34195",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_2104_34195",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-34_1913_5743",
@@ -30915,6 +30959,7 @@
     "lineId": "utsunomiya",
     "trainNumber": "3553M",
     "trainType": "rapid_rabbit",
+    "trainName": "ラビット",
     "direction": "outbound",
     "originStationId": "JU-02",
     "destinationStationId": "JU-24",
@@ -31294,9 +31339,9 @@
       }
     ],
     "trainId": "34499",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_1915_34499",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-04_1925_33571",
@@ -31372,9 +31417,9 @@
       }
     ],
     "trainId": "33571",
-    "customDestination": "古河",
     "prevTripId": "WD_INB_JS-17_1857_33571",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_INB_JU-07_1926_34143",
@@ -31678,9 +31723,9 @@
       }
     ],
     "trainId": "33478",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_2045_33478",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-34_1936_5744",
@@ -31866,9 +31911,9 @@
       }
     ],
     "trainId": "34407",
-    "customDestination": "古河",
     "prevTripId": "WD_OUT_UT-01_1931_34407",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_INB_JU-24_1937_34210",
@@ -32022,9 +32067,9 @@
       }
     ],
     "trainId": "34210",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_2124_34210",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-07_1943_13944",
@@ -32181,9 +32226,9 @@
       }
     ],
     "trainId": "34247",
-    "customOrigin": "古河",
     "throughTripId": "WD_INB_UT-02_2047_34247",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_OUT_JU-24_1945_5565",
@@ -32445,9 +32490,9 @@
       }
     ],
     "trainId": "34491",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_1947_34491",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-02_1955_5527",
@@ -32723,9 +32768,9 @@
       }
     ],
     "trainId": "33604",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_1926_33604",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_1958_34231",
@@ -32879,9 +32924,9 @@
       }
     ],
     "trainId": "34231",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_2145_34231",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_1959_37671",
@@ -33233,9 +33278,9 @@
       }
     ],
     "trainId": "33781",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_2006_33781",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_2018_5566",
@@ -33543,9 +33588,9 @@
       }
     ],
     "trainId": "33572",
-    "customDestination": "古河",
     "prevTripId": "WD_INB_JS-17_1957_33572",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_OUT_JU-02_2027_34521",
@@ -33675,9 +33720,9 @@
       }
     ],
     "trainId": "34521",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_2021_34521",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_2027_33722",
@@ -33885,9 +33930,9 @@
       }
     ],
     "trainId": "33480",
-    "customOrigin": "古河",
     "throughTripId": "WD_OUT_JS-24_2109_33480",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_INB_JU-20_2035_5767",
@@ -34169,9 +34214,9 @@
       }
     ],
     "trainId": "34456",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_2029_34456",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-24_2036_33429",
@@ -34295,9 +34340,9 @@
       }
     ],
     "trainId": "33429",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_OUT_JS-24_2153_33429",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_2040_5568",
@@ -34583,9 +34628,9 @@
       }
     ],
     "trainId": "34201",
-    "customOrigin": "宇都宮",
     "throughTripId": "WD_INB_UT-02_2234_34201",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-02_2050_5528",
@@ -34998,9 +35043,9 @@
       }
     ],
     "trainId": "34438",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_2049_34438",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-04_2056_33573",
@@ -35076,9 +35121,9 @@
       }
     ],
     "trainId": "33573",
-    "customDestination": "古河",
     "prevTripId": "WD_INB_JS-17_2025_33573",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "古河"
   },
   {
     "tripId": "WD_INB_JU-26_2058_37685",
@@ -35349,9 +35394,9 @@
       }
     ],
     "trainId": "41324",
-    "customOrigin": "古河",
     "throughTripId": "WD_INB_UT-02_2219_41324",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "WD_OUT_JU-02_2114_5514",
@@ -35898,9 +35943,9 @@
       }
     ],
     "trainId": "34458",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_2111_34458",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-20_2127_34256",
@@ -36030,9 +36075,9 @@
       }
     ],
     "trainId": "34256",
-    "customOrigin": "小金井",
     "throughTripId": "WD_INB_UT-02_2254_34256",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_2128_34098",
@@ -36214,9 +36259,9 @@
       }
     ],
     "trainId": "34439",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_2130_34439",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-24_2136_5708",
@@ -36544,9 +36589,9 @@
       }
     ],
     "trainId": "33606",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_INB_JS-17_2110_33606",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_2140_5570",
@@ -36983,9 +37028,9 @@
       }
     ],
     "trainId": "34461",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_2145_34461",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_INB_JU-34_2151_5749",
@@ -37920,9 +37965,9 @@
       }
     ],
     "trainId": "33779",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_2220_33779",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_OUT_JU-04_2231_33590",
@@ -38022,9 +38067,9 @@
       }
     ],
     "trainId": "33590",
-    "customDestination": "小金井",
     "prevTripId": "WD_INB_JS-17_2202_33590",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_2239_40526",
@@ -38352,9 +38397,9 @@
       }
     ],
     "trainId": "34462",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_2241_34462",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-24_2246_37673",
@@ -38723,9 +38768,9 @@
       }
     ],
     "trainId": "34464",
-    "customDestination": "宇都宮",
     "prevTripId": "WD_OUT_UT-01_2308_34464",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "WD_OUT_JU-04_2317_33559",
@@ -38825,9 +38870,9 @@
       }
     ],
     "trainId": "33559",
-    "customDestination": "小金井",
     "prevTripId": "WD_INB_JS-17_2249_33559",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_2322_13947",
@@ -39187,9 +39232,9 @@
       }
     ],
     "trainId": "34522",
-    "customDestination": "小金井",
     "prevTripId": "WD_OUT_UT-01_2332_34522",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "WD_INB_JU-07_2348_13925",
@@ -39394,9 +39439,9 @@
       }
     ],
     "trainId": "34212",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_0620_34212",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_0510_5518",
@@ -39678,9 +39723,9 @@
       }
     ],
     "trainId": "34251",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_0638_34251",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-24_0515_33422",
@@ -39804,9 +39849,9 @@
       }
     ],
     "trainId": "33422",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_0643_33422",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_0516_5535",
@@ -40423,9 +40468,9 @@
       }
     ],
     "trainId": "34261",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_0702_34261",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-24_0540_34215",
@@ -40579,9 +40624,9 @@
       }
     ],
     "trainId": "34215",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_0735_34215",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-19_0543_5534",
@@ -40997,9 +41042,9 @@
       }
     ],
     "trainId": "34270",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_0721_34270",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-24_0550_5536",
@@ -41283,9 +41328,9 @@
       }
     ],
     "trainId": "33424",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_0719_33424",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-20_0600_5760",
@@ -41764,9 +41809,9 @@
       }
     ],
     "trainId": "34216",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_0809_34216",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_0614_37664",
@@ -42146,9 +42191,9 @@
       }
     ],
     "trainId": "34262",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_0758_34262",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-34_0631_5715",
@@ -42382,9 +42427,9 @@
       }
     ],
     "trainId": "34202",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_0821_34202",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_0636_34520",
@@ -42514,9 +42559,9 @@
       }
     ],
     "trainId": "34520",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_0630_34520",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_0637_13932",
@@ -42667,9 +42712,9 @@
       }
     ],
     "trainId": "33482",
-    "customOrigin": "小金井",
     "throughTripId": "HD_OUT_JS-24_0743_33482",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_0646_34100",
@@ -42728,6 +42773,7 @@
     "lineId": "utsunomiya",
     "trainNumber": "3620E",
     "trainType": "rapid_rabbit",
+    "trainName": "ラビット",
     "direction": "outbound",
     "originStationId": "JU-02",
     "destinationStationId": "JU-24",
@@ -42875,9 +42921,9 @@
       }
     ],
     "trainId": "34404",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_0641_34404",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_0649_33457",
@@ -43001,9 +43047,9 @@
       }
     ],
     "trainId": "33457",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_0811_33457",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-34_0649_5716",
@@ -43491,9 +43537,9 @@
       }
     ],
     "trainId": "34523",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_0651_34523",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_0702_34218",
@@ -43647,9 +43693,9 @@
       }
     ],
     "trainId": "34218",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_0847_34218",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-34_0708_5717",
@@ -43968,9 +44014,9 @@
       }
     ],
     "trainId": "34441",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_0707_34441",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_0718_34219",
@@ -44124,9 +44170,9 @@
       }
     ],
     "trainId": "34219",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_0914_34219",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_0720_34085",
@@ -44421,9 +44467,9 @@
       }
     ],
     "trainId": "34263",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_0904_34263",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-34_0732_5718",
@@ -44685,9 +44731,9 @@
       }
     ],
     "trainId": "34409",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_0729_34409",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-24_0737_34179",
@@ -44841,9 +44887,9 @@
       }
     ],
     "trainId": "34179",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_0922_34179",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-04_0738_33560",
@@ -44967,9 +45013,9 @@
       }
     ],
     "trainId": "33560",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_0710_33560",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-20_0738_33485",
@@ -45069,9 +45115,9 @@
       }
     ],
     "trainId": "33485",
-    "customOrigin": "小金井",
     "throughTripId": "HD_OUT_JS-24_0838_33485",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-24_0738_5539",
@@ -45401,9 +45447,9 @@
       }
     ],
     "trainId": "34222",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_0931_34222",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_0750_34414",
@@ -45557,9 +45603,9 @@
       }
     ],
     "trainId": "34414",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_0745_34414",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-34_0757_5719",
@@ -45646,6 +45692,7 @@
     "lineId": "utsunomiya",
     "trainNumber": "3622E",
     "trainType": "rapid_rabbit",
+    "trainName": "ラビット",
     "direction": "outbound",
     "originStationId": "JU-02",
     "destinationStationId": "JU-24",
@@ -45793,9 +45840,9 @@
       }
     ],
     "trainId": "34485",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_0755_34485",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_0802_34147",
@@ -46081,9 +46128,9 @@
       }
     ],
     "trainId": "34444",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_0801_34444",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_0807_34224",
@@ -46237,9 +46284,9 @@
       }
     ],
     "trainId": "34224",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_0954_34224",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_0810_37666",
@@ -46424,9 +46471,9 @@
       }
     ],
     "trainId": "33486",
-    "customOrigin": "小金井",
     "throughTripId": "HD_OUT_JS-24_0918_33486",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-34_0816_5750",
@@ -46839,9 +46886,9 @@
       }
     ],
     "trainId": "33592",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_0755_33592",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_0827_34291",
@@ -46900,6 +46947,7 @@
     "lineId": "utsunomiya",
     "trainNumber": "8121M",
     "trainType": "limitedExp",
+    "trainName": "日光21号",
     "direction": "outbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-07",
@@ -47071,9 +47119,9 @@
       }
     ],
     "trainId": "34225",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1024_34225",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_0830_33868",
@@ -47227,9 +47275,9 @@
       }
     ],
     "trainId": "33868",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_0821_33868",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_0835_5541",
@@ -47433,9 +47481,9 @@
       }
     ],
     "trainId": "33440",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_0943_33440",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-20_0838_5761",
@@ -47999,9 +48047,9 @@
       }
     ],
     "trainId": "33557",
-    "customDestination": "小金井",
     "prevTripId": "HD_INB_JS-17_0827_33557",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-24_0855_33460",
@@ -48125,9 +48173,9 @@
       }
     ],
     "trainId": "33460",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1012_33460",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_0907_34148",
@@ -48333,9 +48381,9 @@
       }
     ],
     "trainId": "33780",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_0903_33780",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-20_0910_34272",
@@ -48465,9 +48513,9 @@
       }
     ],
     "trainId": "34272",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1033_34272",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-26_0911_37680",
@@ -48842,9 +48890,9 @@
       }
     ],
     "trainId": "34471",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_0911_34471",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-24_0923_34183",
@@ -48998,9 +49046,9 @@
       }
     ],
     "trainId": "34183",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1111_34183",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-04_0925_33558",
@@ -49100,9 +49148,9 @@
       }
     ],
     "trainId": "33558",
-    "customDestination": "小金井",
     "prevTripId": "HD_INB_JS-17_0857_33558",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-20_0928_34253",
@@ -49232,9 +49280,9 @@
       }
     ],
     "trainId": "34253",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1051_34253",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_0930_34149",
@@ -49440,9 +49488,9 @@
       }
     ],
     "trainId": "34445",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_0930_34445",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_0938_33442",
@@ -49566,9 +49614,9 @@
       }
     ],
     "trainId": "33442",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1044_33442",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-04_0941_33567",
@@ -49692,9 +49740,9 @@
       }
     ],
     "trainId": "33567",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_0912_33567",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_0943_34088",
@@ -50008,9 +50056,9 @@
       }
     ],
     "trainId": "33867",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_0948_33867",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-24_0956_33462",
@@ -50134,15 +50182,16 @@
       }
     ],
     "trainId": "33462",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1113_33462",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-05_0958_6562",
     "lineId": "utsunomiya",
     "trainNumber": "1091M",
     "trainType": "limitedExp",
+    "trainName": "スペーシア日光1号",
     "direction": "outbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-07",
@@ -50290,9 +50339,9 @@
       }
     ],
     "trainId": "34274",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1131_34274",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_1003_13938",
@@ -50497,9 +50546,9 @@
       }
     ],
     "trainId": "34446",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_0959_34446",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_1006_34184",
@@ -50653,9 +50702,9 @@
       }
     ],
     "trainId": "34184",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1151_34184",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-04_1011_33564",
@@ -50779,9 +50828,9 @@
       }
     ],
     "trainId": "33564",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_0942_33564",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1013_34106",
@@ -51043,9 +51092,9 @@
       }
     ],
     "trainId": "34186",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1211_34186",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_1021_5544",
@@ -51335,9 +51384,9 @@
       }
     ],
     "trainId": "34487",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_1019_34487",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-24_1033_37667",
@@ -51546,9 +51595,9 @@
       }
     ],
     "trainId": "33443",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1142_33443",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_1037_34416",
@@ -51702,9 +51751,9 @@
       }
     ],
     "trainId": "34416",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1029_34416",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_1045_34227",
@@ -51858,9 +51907,9 @@
       }
     ],
     "trainId": "34227",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1231_34227",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_1048_5545",
@@ -52196,15 +52245,16 @@
       }
     ],
     "trainId": "33607",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1023_33607",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-05_1054_37203",
     "lineId": "utsunomiya",
     "trainNumber": "1083M",
     "trainType": "limitedExp",
+    "trainName": "きぬがわ3号",
     "direction": "outbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-07",
@@ -52352,9 +52402,9 @@
       }
     ],
     "trainId": "34412",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_1049_34412",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-04_1101_33578",
@@ -52454,9 +52504,9 @@
       }
     ],
     "trainId": "33578",
-    "customDestination": "小金井",
     "prevTripId": "HD_INB_JS-17_1034_33578",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-24_1103_34187",
@@ -52610,9 +52660,9 @@
       }
     ],
     "trainId": "34187",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1251_34187",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1113_34107",
@@ -52736,9 +52786,9 @@
       }
     ],
     "trainId": "33488",
-    "customOrigin": "小金井",
     "throughTripId": "HD_OUT_JS-24_1212_33488",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-02_1116_34448",
@@ -52892,9 +52942,9 @@
       }
     ],
     "trainId": "34448",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1109_34448",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_1119_34188",
@@ -53048,9 +53098,9 @@
       }
     ],
     "trainId": "34188",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1311_34188",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_1123_5546",
@@ -53334,9 +53384,9 @@
       }
     ],
     "trainId": "33608",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1056_33608",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1133_34169",
@@ -53494,9 +53544,9 @@
       }
     ],
     "trainId": "34420",
-    "customDestination": "古河",
     "prevTripId": "HD_OUT_UT-01_1129_34420",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "HD_INB_JU-24_1135_33446",
@@ -53620,9 +53670,9 @@
       }
     ],
     "trainId": "33446",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1242_33446",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_1146_5547",
@@ -53906,9 +53956,9 @@
       }
     ],
     "trainId": "33464",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1313_33464",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1153_34127",
@@ -54090,9 +54140,9 @@
       }
     ],
     "trainId": "34426",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_1149_34426",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-04_1155_33593",
@@ -54216,9 +54266,9 @@
       }
     ],
     "trainId": "33593",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1125_33593",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-20_1200_34276",
@@ -54348,9 +54398,9 @@
       }
     ],
     "trainId": "34276",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1331_34276",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-24_1212_34190",
@@ -54504,9 +54554,9 @@
       }
     ],
     "trainId": "34190",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1411_34190",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1213_34109",
@@ -54684,9 +54734,9 @@
       }
     ],
     "trainId": "34451",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1209_34451",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-26_1215_37682",
@@ -55003,9 +55053,9 @@
       }
     ],
     "trainId": "33611",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1155_33611",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1233_34171",
@@ -55196,9 +55246,9 @@
       }
     ],
     "trainId": "34422",
-    "customDestination": "古河",
     "prevTripId": "HD_OUT_UT-01_1229_34422",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "HD_INB_JU-24_1235_33447",
@@ -55322,9 +55372,9 @@
       }
     ],
     "trainId": "33447",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1342_33447",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-16_1247_34236",
@@ -55430,9 +55480,9 @@
       }
     ],
     "trainId": "34236",
-    "customOrigin": "古河",
     "throughTripId": "HD_INB_UT-02_1351_34236",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "HD_INB_JU-34_1248_5728",
@@ -55774,9 +55824,9 @@
       }
     ],
     "trainId": "34428",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_1249_34428",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-04_1255_33594",
@@ -55900,9 +55950,9 @@
       }
     ],
     "trainId": "33594",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1225_33594",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_1255_33467",
@@ -56026,9 +56076,9 @@
       }
     ],
     "trainId": "33467",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1412_33467",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-20_1300_34278",
@@ -56158,9 +56208,9 @@
       }
     ],
     "trainId": "34278",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1431_34278",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_1313_34112",
@@ -56338,9 +56388,9 @@
       }
     ],
     "trainId": "34478",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1309_34478",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_1318_34198",
@@ -56494,9 +56544,9 @@
       }
     ],
     "trainId": "34198",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1511_34198",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_1321_5550",
@@ -56780,9 +56830,9 @@
       }
     ],
     "trainId": "33613",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1256_33613",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1333_34174",
@@ -56958,9 +57008,9 @@
       }
     ],
     "trainId": "33450",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1442_33450",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_1335_34465",
@@ -57066,9 +57116,9 @@
       }
     ],
     "trainId": "34465",
-    "customDestination": "古河",
     "prevTripId": "HD_OUT_UT-01_1329_34465",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "HD_OUT_JU-24_1345_5551",
@@ -57254,9 +57304,9 @@
       }
     ],
     "trainId": "34237",
-    "customOrigin": "古河",
     "throughTripId": "HD_INB_UT-02_1451_34237",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "HD_INB_JU-34_1347_5730",
@@ -57460,9 +57510,9 @@
       }
     ],
     "trainId": "33468",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1512_33468",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1353_34132",
@@ -57644,9 +57694,9 @@
       }
     ],
     "trainId": "34429",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_1349_34429",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-04_1355_33596",
@@ -57770,9 +57820,9 @@
       }
     ],
     "trainId": "33596",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1325_33596",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-20_1357_34265",
@@ -57902,9 +57952,9 @@
       }
     ],
     "trainId": "34265",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1531_34265",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_1413_34114",
@@ -58115,9 +58165,9 @@
       }
     ],
     "trainId": "33719",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1612_33719",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_1417_34480",
@@ -58271,9 +58321,9 @@
       }
     ],
     "trainId": "34480",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1409_34480",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_1418_5552",
@@ -58557,9 +58607,9 @@
       }
     ],
     "trainId": "33615",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1356_33615",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1433_33724",
@@ -58750,9 +58800,9 @@
       }
     ],
     "trainId": "34466",
-    "customDestination": "古河",
     "prevTripId": "HD_OUT_UT-01_1429_34466",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "HD_INB_JU-24_1435_33452",
@@ -58876,9 +58926,9 @@
       }
     ],
     "trainId": "33452",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1542_33452",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-16_1445_34240",
@@ -58984,9 +59034,9 @@
       }
     ],
     "trainId": "34240",
-    "customOrigin": "古河",
     "throughTripId": "HD_INB_UT-02_1551_34240",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "HD_OUT_JU-24_1445_5553",
@@ -59322,9 +59372,9 @@
       }
     ],
     "trainId": "33471",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1614_33471",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_1455_34430",
@@ -59454,9 +59504,9 @@
       }
     ],
     "trainId": "34430",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_1449_34430",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-04_1455_33598",
@@ -59580,9 +59630,9 @@
       }
     ],
     "trainId": "33598",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1425_33598",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-20_1500_34267",
@@ -59712,15 +59762,16 @@
       }
     ],
     "trainId": "34267",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1631_34267",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_1500_37207",
     "lineId": "utsunomiya",
     "trainNumber": "3002M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万2号",
     "direction": "inbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-02",
@@ -59919,9 +59970,9 @@
       }
     ],
     "trainId": "34203",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1717_34203",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1514_34136",
@@ -60207,9 +60258,9 @@
       }
     ],
     "trainId": "34481",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1509_34481",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_1519_5554",
@@ -60446,9 +60497,9 @@
       }
     ],
     "trainId": "33616",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1455_33616",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1533_34152",
@@ -60596,9 +60647,9 @@
       }
     ],
     "trainId": "33454",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1646_33454",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_1535_34468",
@@ -60704,9 +60755,9 @@
       }
     ],
     "trainId": "34468",
-    "customDestination": "古河",
     "prevTripId": "HD_OUT_UT-01_1529_34468",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "HD_INB_JU-34_1542_5734",
@@ -60972,9 +61023,9 @@
       }
     ],
     "trainId": "34242",
-    "customOrigin": "古河",
     "throughTripId": "HD_INB_UT-02_1651_34242",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "HD_INB_JU-20_1548_33720",
@@ -61104,9 +61155,9 @@
       }
     ],
     "trainId": "33720",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1723_33720",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_1553_34138",
@@ -61282,9 +61333,9 @@
       }
     ],
     "trainId": "33472",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1716_33472",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_1555_34432",
@@ -61414,9 +61465,9 @@
       }
     ],
     "trainId": "34432",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_1549_34432",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-04_1555_33579",
@@ -61516,9 +61567,9 @@
       }
     ],
     "trainId": "33579",
-    "customDestination": "小金井",
     "prevTripId": "HD_INB_JS-17_1525_33579",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-20_1608_34280",
@@ -61648,15 +61699,16 @@
       }
     ],
     "trainId": "34280",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1741_34280",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_1608_37208",
     "lineId": "utsunomiya",
     "trainNumber": "4034M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万34号",
     "direction": "inbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-02",
@@ -61935,9 +61987,9 @@
       }
     ],
     "trainId": "34205",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1759_34205",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_1615_34474",
@@ -62067,9 +62119,9 @@
       }
     ],
     "trainId": "34474",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_1609_34474",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_1616_34140",
@@ -62325,9 +62377,9 @@
       }
     ],
     "trainId": "33618",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1555_33618",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1633_34154",
@@ -62505,9 +62557,9 @@
       }
     ],
     "trainId": "34483",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1629_34483",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_1637_33456",
@@ -62631,9 +62683,9 @@
       }
     ],
     "trainId": "33456",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1744_33456",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1642_34176",
@@ -62999,9 +63051,9 @@
       }
     ],
     "trainId": "34244",
-    "customOrigin": "古河",
     "throughTripId": "HD_INB_UT-02_1752_34244",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "古河"
   },
   {
     "tripId": "HD_INB_JU-34_1647_5736",
@@ -63211,9 +63263,9 @@
       }
     ],
     "trainId": "34282",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1829_34282",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-02_1655_34453",
@@ -63367,9 +63419,9 @@
       }
     ],
     "trainId": "34453",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1649_34453",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-04_1656_33570",
@@ -63445,9 +63497,9 @@
       }
     ],
     "trainId": "33570",
-    "customDestination": "古河",
     "prevTripId": "HD_INB_JS-17_1625_33570",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "古河"
   },
   {
     "tripId": "HD_INB_JU-24_1657_33475",
@@ -63571,9 +63623,9 @@
       }
     ],
     "trainId": "33475",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1818_33475",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_1700_5511",
@@ -63855,9 +63907,9 @@
       }
     ],
     "trainId": "34285",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1842_34285",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-20_1711_5577",
@@ -64195,9 +64247,9 @@
       }
     ],
     "trainId": "34228",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1900_34228",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-34_1715_5737",
@@ -64483,9 +64535,9 @@
       }
     ],
     "trainId": "34455",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1719_34455",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-04_1725_33620",
@@ -64609,9 +64661,9 @@
       }
     ],
     "trainId": "33620",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1656_33620",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_1735_34486",
@@ -64717,9 +64769,9 @@
       }
     ],
     "trainId": "34486",
-    "customDestination": "古河",
     "prevTripId": "HD_OUT_UT-01_1729_34486",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "HD_INB_JU-24_1735_34206",
@@ -64873,9 +64925,9 @@
       }
     ],
     "trainId": "34206",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_1929_34206",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1736_34178",
@@ -65065,6 +65117,7 @@
     "lineId": "utsunomiya",
     "trainNumber": "3004M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万4号",
     "direction": "inbound",
     "originStationId": "JU-07",
     "destinationStationId": "JU-02",
@@ -65239,9 +65292,9 @@
       }
     ],
     "trainId": "34286",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1917_34286",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-02_1750_34495",
@@ -65395,9 +65448,9 @@
       }
     ],
     "trainId": "34495",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1743_34495",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1752_34295",
@@ -65653,9 +65706,9 @@
       }
     ],
     "trainId": "33601",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1724_33601",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_1756_33476",
@@ -65779,9 +65832,9 @@
       }
     ],
     "trainId": "33476",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_1912_33476",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_1757_34435",
@@ -65911,9 +65964,9 @@
       }
     ],
     "trainId": "34435",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_1751_34435",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_1806_34096",
@@ -66041,9 +66094,9 @@
       }
     ],
     "trainId": "33432",
-    "customOrigin": "古河",
     "throughTripId": "HD_OUT_JS-24_1846_33432",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "古河"
   },
   {
     "tripId": "HD_OUT_JU-24_1812_5561",
@@ -66277,9 +66330,9 @@
       }
     ],
     "trainId": "34209",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_2006_34209",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-34_1815_5739",
@@ -66489,9 +66542,9 @@
       }
     ],
     "trainId": "34436",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_1809_34436",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_1822_34117",
@@ -66673,9 +66726,9 @@
       }
     ],
     "trainId": "34269",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_1945_34269",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-04_1826_33581",
@@ -66775,15 +66828,16 @@
       }
     ],
     "trainId": "33581",
-    "customDestination": "小金井",
     "prevTripId": "HD_INB_JS-17_1757_33581",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-02_1829_5505",
     "lineId": "utsunomiya",
     "trainNumber": "3551M",
     "trainType": "rapid_rabbit",
+    "trainName": "ラビット",
     "direction": "outbound",
     "originStationId": "JU-02",
     "destinationStationId": "JU-24",
@@ -67083,9 +67137,9 @@
       }
     ],
     "trainId": "34496",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1827_34496",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_1834_5562",
@@ -67399,9 +67453,9 @@
       }
     ],
     "trainId": "34193",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_2025_34193",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1841_34300",
@@ -67607,9 +67661,9 @@
       }
     ],
     "trainId": "34498",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1839_34498",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_1851_5563",
@@ -67789,9 +67843,9 @@
       }
     ],
     "trainId": "33583",
-    "customDestination": "小金井",
     "prevTripId": "HD_INB_JS-17_1823_33583",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_1854_13917",
@@ -67996,9 +68050,9 @@
       }
     ],
     "trainId": "34230",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_2047_34230",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-34_1900_5741",
@@ -68208,9 +68262,9 @@
       }
     ],
     "trainId": "34489",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_1858_34489",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-16_1905_33479",
@@ -68286,9 +68340,9 @@
       }
     ],
     "trainId": "33479",
-    "customOrigin": "古河",
     "throughTripId": "HD_OUT_JS-24_1942_33479",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "古河"
   },
   {
     "tripId": "HD_INB_JU-20_1906_33435",
@@ -68388,9 +68442,9 @@
       }
     ],
     "trainId": "33435",
-    "customOrigin": "小金井",
     "throughTripId": "HD_OUT_JS-24_2013_33435",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_1907_34118",
@@ -68568,9 +68622,9 @@
       }
     ],
     "trainId": "34196",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_2105_34196",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-34_1913_5742",
@@ -68756,9 +68810,9 @@
       }
     ],
     "trainId": "34406",
-    "customDestination": "古河",
     "prevTripId": "HD_OUT_UT-01_1914_34406",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "HD_OUT_JU-24_1920_5564",
@@ -69142,15 +69196,16 @@
       }
     ],
     "trainId": "33603",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1856_33603",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_1928_5508",
     "lineId": "utsunomiya",
     "trainNumber": "3553M",
     "trainType": "rapid_rabbit",
+    "trainName": "ラビット",
     "direction": "outbound",
     "originStationId": "JU-02",
     "destinationStationId": "JU-24",
@@ -69420,9 +69475,9 @@
       }
     ],
     "trainId": "33428",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_2046_33428",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-34_1936_5744",
@@ -69656,9 +69711,9 @@
       }
     ],
     "trainId": "34417",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_1932_34417",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-24_1942_34211",
@@ -69812,9 +69867,9 @@
       }
     ],
     "trainId": "34211",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_2125_34211",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_1943_13943",
@@ -70127,9 +70182,9 @@
       }
     ],
     "trainId": "34490",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_1946_34490",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-04_1956_33584",
@@ -70229,9 +70284,9 @@
       }
     ],
     "trainId": "33584",
-    "customDestination": "小金井",
     "prevTripId": "HD_INB_JS-17_1926_33584",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-24_1959_34232",
@@ -70385,9 +70440,9 @@
       }
     ],
     "trainId": "34232",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_2145_34232",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_1959_37671",
@@ -70657,9 +70712,9 @@
       }
     ],
     "trainId": "33489",
-    "customOrigin": "小金井",
     "throughTripId": "HD_OUT_JS-24_2108_33489",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-02_2011_33782",
@@ -70813,9 +70868,9 @@
       }
     ],
     "trainId": "33782",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_2006_33782",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_2019_5567",
@@ -71223,9 +71278,9 @@
       }
     ],
     "trainId": "33605",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_INB_JS-17_1956_33605",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-34_2029_5746",
@@ -71459,9 +71514,9 @@
       }
     ],
     "trainId": "34524",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_2025_34524",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_2037_34424",
@@ -71567,9 +71622,9 @@
       }
     ],
     "trainId": "34424",
-    "customDestination": "古河",
     "prevTripId": "HD_OUT_UT-01_2030_34424",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "古河"
   },
   {
     "tripId": "HD_INB_JU-24_2037_33430",
@@ -71693,9 +71748,9 @@
       }
     ],
     "trainId": "33430",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_OUT_JS-24_2154_33430",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_2040_5568",
@@ -71981,9 +72036,9 @@
       }
     ],
     "trainId": "34200",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_2235_34200",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_2048_40904",
@@ -72268,9 +72323,9 @@
       }
     ],
     "trainId": "41325",
-    "customOrigin": "小金井",
     "throughTripId": "HD_INB_UT-02_2215_41325",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "小金井"
   },
   {
     "tripId": "HD_INB_JU-34_2053_5747",
@@ -72504,9 +72559,9 @@
       }
     ],
     "trainId": "34457",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_2049_34457",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-26_2058_37685",
@@ -72825,9 +72880,9 @@
       }
     ],
     "trainId": "34197",
-    "customOrigin": "宇都宮",
     "throughTripId": "HD_INB_UT-02_2254_34197",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-04_2109_33586",
@@ -72927,9 +72982,9 @@
       }
     ],
     "trainId": "33586",
-    "customDestination": "小金井",
     "prevTripId": "HD_INB_JS-17_2039_33586",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-02_2114_5513",
@@ -73324,9 +73379,9 @@
       }
     ],
     "trainId": "34459",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_2111_34459",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-07_2128_34099",
@@ -73840,9 +73895,9 @@
       }
     ],
     "trainId": "34440",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_2130_34440",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-24_2140_5570",
@@ -74022,9 +74077,9 @@
       }
     ],
     "trainId": "33587",
-    "customDestination": "小金井",
     "prevTripId": "HD_INB_JS-17_2110_33587",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_2146_13945",
@@ -74381,9 +74436,9 @@
       }
     ],
     "trainId": "34460",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_2145_34460",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_INB_JU-34_2151_5749",
@@ -75312,9 +75367,9 @@
       }
     ],
     "trainId": "33588",
-    "customDestination": "小金井",
     "prevTripId": "HD_INB_JS-17_2148_33588",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_OUT_JU-02_2227_33778",
@@ -75444,9 +75499,9 @@
       }
     ],
     "trainId": "33778",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_2220_33778",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_2231_13946",
@@ -75825,9 +75880,9 @@
       }
     ],
     "trainId": "34462",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_2241_34462",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-24_2246_37673",
@@ -76091,9 +76146,9 @@
       }
     ],
     "trainId": "33591",
-    "customDestination": "小金井",
     "prevTripId": "HD_INB_JS-17_2230_33591",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_2305_13922",
@@ -76298,9 +76353,9 @@
       }
     ],
     "trainId": "34463",
-    "customDestination": "宇都宮",
     "prevTripId": "HD_OUT_UT-01_2308_34463",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "宇都宮"
   },
   {
     "tripId": "HD_OUT_JU-02_2328_5516",
@@ -76609,9 +76664,9 @@
       }
     ],
     "trainId": "34522",
-    "customDestination": "小金井",
     "prevTripId": "HD_OUT_UT-01_2332_34522",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "小金井"
   },
   {
     "tripId": "HD_INB_JU-07_2348_13925",

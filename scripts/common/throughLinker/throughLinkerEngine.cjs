@@ -496,6 +496,13 @@ function linkPair({
         tA.trainNumber = bestB.trainNumber;
       }
 
+      // 列車名（愛称・号数）の相互補完
+      if (tA.trainName && !bestB.trainName) {
+        bestB.trainName = tA.trainName;
+      } else if (bestB.trainName && !tA.trainName) {
+        tA.trainName = bestB.trainName;
+      }
+
       // 【必須】境界駅でのシームレス時刻同期 (空白時間による列車消失の完全防止)
       const stopB = allowMidStationB
         ? bestB.stops.find((s) => s.stationId === stationBId)

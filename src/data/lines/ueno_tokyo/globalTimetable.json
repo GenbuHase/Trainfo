@@ -185,9 +185,9 @@
       }
     ],
     "trainId": "34519",
-    "customOrigin": "東京",
     "throughTripId": "WD_OUT_JU-02_0636_34519",
-    "throughLineId": "utsunomiya"
+    "throughLineId": "utsunomiya",
+    "customOrigin": "東京"
   },
   {
     "tripId": "WD_INB_UT-02_0638_34250",
@@ -226,6 +226,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "3620E",
     "trainType": "local",
+    "trainName": "ラビット",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -343,15 +344,16 @@
       }
     ],
     "trainId": "34974",
-    "customOrigin": "東京",
     "throughTripId": "WD_OUT_TK-02_0655_34974",
-    "throughLineId": "takasaki"
+    "throughLineId": "takasaki",
+    "customOrigin": "東京"
   },
   {
     "tripId": "WD_OUT_UT-01_0653_10176",
     "lineId": "ueno_tokyo",
     "trainNumber": "1M",
     "trainType": "limitedExp",
+    "trainName": "ひたち1号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -480,6 +482,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "52M",
     "trainType": "limitedExp",
+    "trainName": "ときわ52号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -608,6 +611,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "51M",
     "trainType": "limitedExp",
+    "trainName": "ときわ51号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -736,6 +740,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "54M",
     "trainType": "limitedExp",
+    "trainName": "ときわ54号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -832,6 +837,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "3622E",
     "trainType": "local",
+    "trainName": "ラビット",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -1088,6 +1094,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "3M",
     "trainType": "limitedExp",
+    "trainName": "ひたち3号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -1173,9 +1180,9 @@
       }
     ],
     "trainId": "34500",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JT-16_0623_34500",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_UT-02_0758_40344",
@@ -1278,6 +1285,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "56M",
     "trainType": "limitedExp",
+    "trainName": "ときわ56号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -1331,9 +1339,9 @@
       }
     ],
     "trainId": "34501",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JT-16_0633_34501",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_UT-02_0806_34102",
@@ -1489,9 +1497,9 @@
       }
     ],
     "trainId": "34502",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JT-16_0637_34502",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_UT-02_0814_10084",
@@ -1647,9 +1655,9 @@
       }
     ],
     "trainId": "34508",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JT-11_0708_34508",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_UT-02_0822_34239",
@@ -1688,6 +1696,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "53M",
     "trainType": "limitedExp",
+    "trainName": "ときわ53号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -1752,6 +1761,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "3920E",
     "trainType": "local",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -1901,9 +1911,9 @@
       }
     ],
     "trainId": "34510",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JT-11_0723_34510",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_OUT_UT-01_0836_34401",
@@ -1942,6 +1952,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "2M",
     "trainType": "limitedExp",
+    "trainName": "ひたち2号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -2091,9 +2102,9 @@
       }
     ],
     "trainId": "34507",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JT-09_0747_34507",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_UT-02_0845_10149",
@@ -2217,15 +2228,16 @@
       }
     ],
     "trainId": "34512",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JT-14_0724_34512",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_OUT_UT-01_0853_10170",
     "lineId": "ueno_tokyo",
     "trainNumber": "5M",
     "trainType": "limitedExp",
+    "trainName": "ひたち5号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -2343,9 +2355,9 @@
       }
     ],
     "trainId": "33872",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JT-21_0657_33872",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_UT-02_0859_34217",
@@ -2480,6 +2492,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "58M",
     "trainType": "limitedExp",
+    "trainName": "ときわ58号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -2597,9 +2610,9 @@
       }
     ],
     "trainId": "37662",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JT-21_0713_37662",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_UT-02_0914_10150",
@@ -2734,6 +2747,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "3922E",
     "trainType": "local",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -2766,6 +2780,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "55M",
     "trainType": "limitedExp",
+    "trainName": "ときわ55号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -2798,6 +2813,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "55M",
     "trainType": "limitedExp",
+    "trainName": "ときわ55号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -2881,9 +2897,9 @@
       }
     ],
     "trainId": "34506",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JT-21_0730_34506",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_UT-02_0929_10152",
@@ -2954,6 +2970,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "4M",
     "trainType": "limitedExp",
+    "trainName": "ひたち4号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -3242,6 +3259,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "7M",
     "trainType": "limitedExp",
+    "trainName": "ひたち7号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -3434,6 +3452,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "60M",
     "trainType": "limitedExp",
+    "trainName": "ときわ60号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -3626,6 +3645,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "57M",
     "trainType": "limitedExp",
+    "trainName": "ときわ57号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -3722,6 +3742,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "8094M",
     "trainType": "limitedExp",
+    "trainName": "ときわ94号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -3775,15 +3796,16 @@
       }
     ],
     "trainId": "40536",
-    "customOrigin": "上野",
     "throughTripId": "WD_OUT_JT-01_1037_40536",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "customOrigin": "上野"
   },
   {
     "tripId": "WD_INB_UT-02_1037_8350",
     "lineId": "ueno_tokyo",
     "trainNumber": "6M",
     "trainType": "limitedExp",
+    "trainName": "ひたち6号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -4008,6 +4030,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "9M",
     "trainType": "limitedExp",
+    "trainName": "ひたち9号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -4168,6 +4191,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "62M",
     "trainType": "limitedExp",
+    "trainName": "ときわ62号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -4328,6 +4352,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "59M",
     "trainType": "limitedExp",
+    "trainName": "ときわ59号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -4488,6 +4513,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "8M",
     "trainType": "limitedExp",
+    "trainName": "ひたち8号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -4712,6 +4738,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "11M",
     "trainType": "limitedExp",
+    "trainName": "ひたち11号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -4872,6 +4899,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "64M",
     "trainType": "limitedExp",
+    "trainName": "ときわ64号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -4936,6 +4964,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "64M",
     "trainType": "limitedExp",
+    "trainName": "ときわ64号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -4962,6 +4991,38 @@
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_JJ-07_1150_8328",
     "prevLineId": "joban_rapid"
+  },
+  {
+    "tripId": "WD_INB_UT-02_1211_34185",
+    "lineId": "ueno_tokyo",
+    "trainNumber": "1565E",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "UT-02",
+    "destinationStationId": "UT-01",
+    "customOrigin": "宇都宮",
+    "customDestination": "平塚",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "UT-02",
+        "arrivalTime": "12:09:00",
+        "departureTime": "12:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "UT-01",
+        "arrivalTime": "12:16:00",
+        "departureTime": "12:17:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "34185",
+    "throughTripId": "WD_OUT_JT-01_1217_34185",
+    "throughLineId": "tokaido",
+    "prevTripId": "WD_INB_JU-24_1021_34185",
+    "prevLineId": "utsunomiya"
   },
   {
     "tripId": "WD_OUT_UT-01_1219_34330",
@@ -5032,6 +5093,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "61M",
     "trainType": "limitedExp",
+    "trainName": "ときわ61号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -5192,6 +5254,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "10M",
     "trainType": "limitedExp",
+    "trainName": "ひたち10号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -5416,6 +5479,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "13M",
     "trainType": "limitedExp",
+    "trainName": "ひたち13号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -5608,6 +5672,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "66M",
     "trainType": "limitedExp",
+    "trainName": "ときわ66号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -5736,6 +5801,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "63M",
     "trainType": "limitedExp",
+    "trainName": "ときわ63号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -5896,6 +5962,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "12M",
     "trainType": "limitedExp",
+    "trainName": "ひたち12号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -6120,6 +6187,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "15M",
     "trainType": "limitedExp",
+    "trainName": "ひたち15号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -6312,6 +6380,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "68M",
     "trainType": "limitedExp",
+    "trainName": "ときわ68号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -6440,6 +6509,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "65M",
     "trainType": "limitedExp",
+    "trainName": "ときわ65号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -6600,6 +6670,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "14M",
     "trainType": "limitedExp",
+    "trainName": "ひたち14号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -6824,6 +6895,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "17M",
     "trainType": "limitedExp",
+    "trainName": "ひたち17号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -7016,6 +7088,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "70M",
     "trainType": "limitedExp",
+    "trainName": "ときわ70号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -7144,6 +7217,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "67M",
     "trainType": "limitedExp",
+    "trainName": "ときわ67号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -7304,6 +7378,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "16M",
     "trainType": "limitedExp",
+    "trainName": "ひたち16号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -7528,6 +7603,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "19M",
     "trainType": "limitedExp",
+    "trainName": "ひたち19号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -7720,6 +7796,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "72M",
     "trainType": "limitedExp",
+    "trainName": "ときわ72号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -7848,6 +7925,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "69M",
     "trainType": "limitedExp",
+    "trainName": "ときわ69号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -8008,6 +8086,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "18M",
     "trainType": "limitedExp",
+    "trainName": "ひたち18号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -8200,6 +8279,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "21M",
     "trainType": "limitedExp",
+    "trainName": "ひたち21号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -8424,6 +8504,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "74M",
     "trainType": "limitedExp",
+    "trainName": "ときわ74号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -8616,6 +8697,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "71M",
     "trainType": "limitedExp",
+    "trainName": "ときわ71号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -8669,9 +8751,9 @@
       }
     ],
     "trainId": "42914",
-    "customOrigin": "上野",
     "throughTripId": "WD_OUT_JT-01_1732_42914",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "customOrigin": "上野"
   },
   {
     "tripId": "WD_OUT_UT-01_1729_34470",
@@ -8838,6 +8920,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "20M",
     "trainType": "limitedExp",
+    "trainName": "ひたち20号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -8902,6 +8985,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "20M",
     "trainType": "limitedExp",
+    "trainName": "ひたち20号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -8928,6 +9012,38 @@
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_JJ-10_1714_8340",
     "prevLineId": "joban_rapid"
+  },
+  {
+    "tripId": "WD_INB_UT-02_1741_34281",
+    "lineId": "ueno_tokyo",
+    "trainNumber": "1599E",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "UT-02",
+    "destinationStationId": "UT-01",
+    "customOrigin": "小金井",
+    "customDestination": "熱海",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "UT-02",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "UT-01",
+        "arrivalTime": "17:46:00",
+        "departureTime": "17:48:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "34281",
+    "throughTripId": "WD_OUT_JT-01_1748_34281",
+    "throughLineId": "tokaido",
+    "prevTripId": "WD_INB_JU-20_1609_34281",
+    "prevLineId": "utsunomiya"
   },
   {
     "tripId": "WD_OUT_UT-01_1742_34494",
@@ -9062,6 +9178,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "23M",
     "trainType": "limitedExp",
+    "trainName": "ひたち23号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -9222,6 +9339,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "9095M",
     "trainType": "limitedExp",
+    "trainName": "ときわ95号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -9350,6 +9468,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "76M",
     "trainType": "limitedExp",
+    "trainName": "ときわ76号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -9403,9 +9522,9 @@
       }
     ],
     "trainId": "40532",
-    "customOrigin": "上野",
     "throughTripId": "WD_OUT_JT-01_1817_40532",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "customOrigin": "上野"
   },
   {
     "tripId": "WD_OUT_UT-01_1814_34375",
@@ -9604,6 +9723,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "73M",
     "trainType": "limitedExp",
+    "trainName": "ときわ73号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -9636,6 +9756,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "73M",
     "trainType": "limitedExp",
+    "trainName": "ときわ73号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -9664,6 +9785,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "8096M",
     "trainType": "limitedExp",
+    "trainName": "ときわ96号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -9856,6 +9978,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "22M",
     "trainType": "limitedExp",
+    "trainName": "ひたち22号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -10048,6 +10171,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "25M",
     "trainType": "limitedExp",
+    "trainName": "ひたち25号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -10101,9 +10225,9 @@
       }
     ],
     "trainId": "40534",
-    "customOrigin": "上野",
     "throughTripId": "WD_OUT_JT-01_1902_40534",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "customOrigin": "上野"
   },
   {
     "tripId": "WD_OUT_UT-01_1858_34488",
@@ -10238,6 +10362,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "78M",
     "trainType": "limitedExp",
+    "trainName": "ときわ78号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -10334,6 +10459,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "8097M",
     "trainType": "limitedExp",
+    "trainName": "ときわ97号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -10494,6 +10620,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "75M",
     "trainType": "limitedExp",
+    "trainName": "ときわ75号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -10547,9 +10674,9 @@
       }
     ],
     "trainId": "40537",
-    "customOrigin": "上野",
     "throughTripId": "WD_OUT_JT-01_1933_40537",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "customOrigin": "上野"
   },
   {
     "tripId": "WD_OUT_UT-01_1928_34388",
@@ -10716,6 +10843,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "24M",
     "trainType": "limitedExp",
+    "trainName": "ひたち24号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -10972,6 +11100,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "27M",
     "trainType": "limitedExp",
+    "trainName": "ひたち27号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -11196,6 +11325,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "80M",
     "trainType": "limitedExp",
+    "trainName": "ときわ80号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -11345,9 +11475,9 @@
       }
     ],
     "trainId": "34521",
-    "customOrigin": "東京",
     "throughTripId": "WD_OUT_JU-02_2027_34521",
-    "throughLineId": "utsunomiya"
+    "throughLineId": "utsunomiya",
+    "customOrigin": "東京"
   },
   {
     "tripId": "WD_INB_UT-02_2022_38087",
@@ -11386,6 +11516,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "77M",
     "trainType": "limitedExp",
+    "trainName": "ときわ77号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -11578,6 +11709,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "26M",
     "trainType": "limitedExp",
+    "trainName": "ひたち26号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -11770,6 +11902,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "29M",
     "trainType": "limitedExp",
+    "trainName": "ひたち29号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -11962,6 +12095,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "82M",
     "trainType": "limitedExp",
+    "trainName": "ときわ82号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -12154,6 +12288,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "79M",
     "trainType": "limitedExp",
+    "trainName": "ときわ79号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -12378,6 +12513,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "28M",
     "trainType": "limitedExp",
+    "trainName": "ひたち28号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -12506,6 +12642,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "81M",
     "trainType": "limitedExp",
+    "trainName": "ときわ81号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -12698,6 +12835,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "84M",
     "trainType": "limitedExp",
+    "trainName": "ときわ84号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -12890,6 +13028,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "83M",
     "trainType": "limitedExp",
+    "trainName": "ときわ83号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -13082,6 +13221,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "30M",
     "trainType": "limitedExp",
+    "trainName": "ひたち30号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -13242,6 +13382,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "85M",
     "trainType": "limitedExp",
+    "trainName": "ときわ85号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -13359,9 +13500,9 @@
       }
     ],
     "trainId": "40526",
-    "customDestination": "東京",
     "prevTripId": "WD_INB_TK-18_2155_40526",
-    "prevLineId": "takasaki"
+    "prevLineId": "takasaki",
+    "customDestination": "東京"
   },
   {
     "tripId": "WD_OUT_UT-01_2308_34464",
@@ -13400,6 +13541,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "86M",
     "trainType": "limitedExp",
+    "trainName": "ときわ86号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -13453,9 +13595,9 @@
       }
     ],
     "trainId": "34978",
-    "customOrigin": "東京",
     "throughTripId": "WD_OUT_TK-02_2325_34978",
-    "throughLineId": "takasaki"
+    "throughLineId": "takasaki",
+    "customOrigin": "東京"
   },
   {
     "tripId": "WD_OUT_UT-01_2332_34522",
@@ -13483,9 +13625,9 @@
       }
     ],
     "trainId": "34522",
-    "customOrigin": "東京",
     "throughTripId": "WD_OUT_JU-02_2338_34522",
-    "throughLineId": "utsunomiya"
+    "throughLineId": "utsunomiya",
+    "customOrigin": "東京"
   },
   {
     "tripId": "HD_OUT_UT-01_0553_34324",
@@ -13673,9 +13815,9 @@
       }
     ],
     "trainId": "34520",
-    "customOrigin": "東京",
     "throughTripId": "HD_OUT_JU-02_0636_34520",
-    "throughLineId": "utsunomiya"
+    "throughLineId": "utsunomiya",
+    "customOrigin": "東京"
   },
   {
     "tripId": "HD_INB_UT-02_0638_34251",
@@ -13714,6 +13856,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "3620E",
     "trainType": "local",
+    "trainName": "ラビット",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -13831,9 +13974,9 @@
       }
     ],
     "trainId": "34975",
-    "customOrigin": "東京",
     "throughTripId": "HD_OUT_TK-02_0655_34975",
-    "throughLineId": "takasaki"
+    "throughLineId": "takasaki",
+    "customOrigin": "東京"
   },
   {
     "tripId": "HD_OUT_UT-01_0651_34523",
@@ -13861,15 +14004,16 @@
       }
     ],
     "trainId": "34523",
-    "customOrigin": "東京",
     "throughTripId": "HD_OUT_JU-02_0659_34523",
-    "throughLineId": "utsunomiya"
+    "throughLineId": "utsunomiya",
+    "customOrigin": "東京"
   },
   {
     "tripId": "HD_OUT_UT-01_0653_10176",
     "lineId": "ueno_tokyo",
     "trainNumber": "1M",
     "trainType": "limitedExp",
+    "trainName": "ひたち1号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -13998,6 +14142,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "52M",
     "trainType": "limitedExp",
+    "trainName": "ときわ52号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -14126,6 +14271,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "51M",
     "trainType": "limitedExp",
+    "trainName": "ときわ51号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -14211,9 +14357,9 @@
       }
     ],
     "trainId": "34976",
-    "customOrigin": "東京",
     "throughTripId": "HD_OUT_TK-02_0733_34976",
-    "throughLineId": "takasaki"
+    "throughLineId": "takasaki",
+    "customOrigin": "東京"
   },
   {
     "tripId": "HD_OUT_UT-01_0729_34409",
@@ -14284,6 +14430,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "54M",
     "trainType": "limitedExp",
+    "trainName": "ときわ54号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -14401,9 +14548,9 @@
       }
     ],
     "trainId": "34504",
-    "customDestination": "上野",
     "prevTripId": "HD_INB_JT-21_0539_34504",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_INB_UT-02_0740_34095",
@@ -14538,6 +14685,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "3M",
     "trainType": "limitedExp",
+    "trainName": "ひたち3号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -14602,6 +14750,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "3622E",
     "trainType": "local",
+    "trainName": "ラビット",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -14698,6 +14847,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "56M",
     "trainType": "limitedExp",
+    "trainName": "ときわ56号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -14751,9 +14901,9 @@
       }
     ],
     "trainId": "33870",
-    "customDestination": "上野",
     "prevTripId": "HD_INB_JT-21_0616_33870",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_INB_UT-02_0805_34166",
@@ -14909,9 +15059,9 @@
       }
     ],
     "trainId": "34509",
-    "customDestination": "上野",
     "prevTripId": "HD_INB_JT-11_0708_34509",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_INB_UT-02_0815_34289",
@@ -15014,6 +15164,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "53M",
     "trainType": "limitedExp",
+    "trainName": "ときわ53号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -15078,6 +15229,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "3920E",
     "trainType": "local",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -15142,6 +15294,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "2M",
     "trainType": "limitedExp",
+    "trainName": "ひたち2号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -15195,9 +15348,9 @@
       }
     ],
     "trainId": "34511",
-    "customDestination": "上野",
     "prevTripId": "HD_INB_JT-11_0727_34511",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_OUT_UT-01_0839_34325",
@@ -15321,9 +15474,9 @@
       }
     ],
     "trainId": "34505",
-    "customDestination": "上野",
     "prevTripId": "HD_INB_JT-21_0649_34505",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_INB_UT-02_0847_34218",
@@ -15383,15 +15536,16 @@
       }
     ],
     "trainId": "33871",
-    "customDestination": "上野",
     "prevTripId": "HD_INB_JT-21_0657_33871",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_OUT_UT-01_0853_10171",
     "lineId": "ueno_tokyo",
     "trainNumber": "5M",
     "trainType": "limitedExp",
+    "trainName": "ひたち5号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -15616,6 +15770,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "58M",
     "trainType": "limitedExp",
+    "trainName": "ときわ58号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -15872,6 +16027,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "3922E",
     "trainType": "local",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -15936,6 +16092,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "55M",
     "trainType": "limitedExp",
+    "trainName": "ときわ55号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -16064,6 +16221,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "4M",
     "trainType": "limitedExp",
+    "trainName": "ひたち4号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -16320,6 +16478,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "7M",
     "trainType": "limitedExp",
+    "trainName": "ひたち7号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -16512,6 +16671,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "60M",
     "trainType": "limitedExp",
+    "trainName": "ときわ60号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -16597,9 +16757,9 @@
       }
     ],
     "trainId": "34503",
-    "customDestination": "上野",
     "prevTripId": "HD_INB_JT-16_0852_34503",
-    "prevLineId": "tokaido"
+    "prevLineId": "tokaido",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_INB_UT-02_1012_34088",
@@ -16702,6 +16862,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "57M",
     "trainType": "limitedExp",
+    "trainName": "ときわ57号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -16830,6 +16991,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "8094M",
     "trainType": "limitedExp",
+    "trainName": "ときわ94号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -16894,6 +17056,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "6M",
     "trainType": "limitedExp",
+    "trainName": "ひたち6号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -17118,6 +17281,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "9M",
     "trainType": "limitedExp",
+    "trainName": "ひたち9号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -17278,6 +17442,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "62M",
     "trainType": "limitedExp",
+    "trainName": "ときわ62号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -17438,6 +17603,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "59M",
     "trainType": "limitedExp",
+    "trainName": "ときわ59号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -17598,6 +17764,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "8M",
     "trainType": "limitedExp",
+    "trainName": "ひたち8号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -17822,6 +17989,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "11M",
     "trainType": "limitedExp",
+    "trainName": "ひたち11号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -17982,6 +18150,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "64M",
     "trainType": "limitedExp",
+    "trainName": "ときわ64号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -18142,6 +18311,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "61M",
     "trainType": "limitedExp",
+    "trainName": "ときわ61号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -18302,6 +18472,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "10M",
     "trainType": "limitedExp",
+    "trainName": "ひたち10号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -18526,6 +18697,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "13M",
     "trainType": "limitedExp",
+    "trainName": "ひたち13号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -18718,6 +18890,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "66M",
     "trainType": "limitedExp",
+    "trainName": "ときわ66号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -18846,6 +19019,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "63M",
     "trainType": "limitedExp",
+    "trainName": "ときわ63号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -19006,6 +19180,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "12M",
     "trainType": "limitedExp",
+    "trainName": "ひたち12号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -19230,6 +19405,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "15M",
     "trainType": "limitedExp",
+    "trainName": "ひたち15号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -19422,6 +19598,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "68M",
     "trainType": "limitedExp",
+    "trainName": "ときわ68号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -19550,6 +19727,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "65M",
     "trainType": "limitedExp",
+    "trainName": "ときわ65号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -19710,6 +19888,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "14M",
     "trainType": "limitedExp",
+    "trainName": "ひたち14号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -19934,6 +20113,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "17M",
     "trainType": "limitedExp",
+    "trainName": "ひたち17号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -20126,6 +20306,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "70M",
     "trainType": "limitedExp",
+    "trainName": "ときわ70号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -20254,6 +20435,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "67M",
     "trainType": "limitedExp",
+    "trainName": "ときわ67号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -20414,6 +20596,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "16M",
     "trainType": "limitedExp",
+    "trainName": "ひたち16号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -20638,6 +20821,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "19M",
     "trainType": "limitedExp",
+    "trainName": "ひたち19号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -20830,6 +21014,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "72M",
     "trainType": "limitedExp",
+    "trainName": "ときわ72号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -20958,6 +21143,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "69M",
     "trainType": "limitedExp",
+    "trainName": "ときわ69号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -21118,6 +21304,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "18M",
     "trainType": "limitedExp",
+    "trainName": "ひたち18号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -21342,6 +21529,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "21M",
     "trainType": "limitedExp",
+    "trainName": "ひたち21号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -21470,6 +21658,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "74M",
     "trainType": "limitedExp",
+    "trainName": "ときわ74号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -21726,6 +21915,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "71M",
     "trainType": "limitedExp",
+    "trainName": "ときわ71号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -21918,6 +22108,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "20M",
     "trainType": "limitedExp",
+    "trainName": "ひたち20号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -22142,6 +22333,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "23M",
     "trainType": "limitedExp",
+    "trainName": "ひたち23号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -22366,6 +22558,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "76M",
     "trainType": "limitedExp",
+    "trainName": "ときわ76号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -22483,9 +22676,9 @@
       }
     ],
     "trainId": "40533",
-    "customOrigin": "上野",
     "throughTripId": "HD_OUT_JT-01_1820_40533",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "customOrigin": "上野"
   },
   {
     "tripId": "HD_OUT_UT-01_1818_34376",
@@ -22556,6 +22749,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "73M",
     "trainType": "limitedExp",
+    "trainName": "ときわ73号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -22844,6 +23038,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "22M",
     "trainType": "limitedExp",
+    "trainName": "ひたち22号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -23004,6 +23199,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "25M",
     "trainType": "limitedExp",
+    "trainName": "ひたち25号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -23196,10 +23392,11 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "78M",
     "trainType": "limitedExp",
+    "trainName": "ときわ78号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
-    "customOrigin": "勝田",
+    "customOrigin": "土浦",
     "customDestination": "品川",
     "cars": 15,
     "isHoliday": true,
@@ -23388,6 +23585,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "75M",
     "trainType": "limitedExp",
+    "trainName": "ときわ75号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -23423,7 +23621,7 @@
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
-    "customOrigin": "土浦",
+    "customOrigin": "勝田",
     "customDestination": "品川",
     "cars": 15,
     "isHoliday": true,
@@ -23445,7 +23643,8 @@
     "throughTripId": "HD_OUT_JT-01_1930_10122",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_JJ-10_1845_10122",
-    "prevLineId": "joban_rapid"
+    "prevLineId": "joban_rapid",
+    "trainName": "ときわ78号"
   },
   {
     "tripId": "HD_OUT_UT-01_1927_34377",
@@ -23644,6 +23843,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "24M",
     "trainType": "limitedExp",
+    "trainName": "ひたち24号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -23825,9 +24025,9 @@
       }
     ],
     "trainId": "40535",
-    "customOrigin": "上野",
     "throughTripId": "HD_OUT_JT-01_1956_40535",
-    "throughLineId": "tokaido"
+    "throughLineId": "tokaido",
+    "customOrigin": "上野"
   },
   {
     "tripId": "HD_INB_UT-02_1952_38086",
@@ -23866,6 +24066,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "27M",
     "trainType": "limitedExp",
+    "trainName": "ひたち27号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -24090,6 +24291,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "80M",
     "trainType": "limitedExp",
+    "trainName": "ときわ80号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -24218,6 +24420,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "77M",
     "trainType": "limitedExp",
+    "trainName": "ときわ77号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -24271,9 +24474,9 @@
       }
     ],
     "trainId": "34524",
-    "customOrigin": "東京",
     "throughTripId": "HD_OUT_JU-02_2032_34524",
-    "throughLineId": "utsunomiya"
+    "throughLineId": "utsunomiya",
+    "customOrigin": "東京"
   },
   {
     "tripId": "HD_INB_UT-02_2025_34193",
@@ -24440,6 +24643,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "26M",
     "trainType": "limitedExp",
+    "trainName": "ひたち26号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -24664,6 +24868,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "29M",
     "trainType": "limitedExp",
+    "trainName": "ひたち29号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -24856,6 +25061,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "82M",
     "trainType": "limitedExp",
+    "trainName": "ときわ82号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -25048,6 +25254,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "79M",
     "trainType": "limitedExp",
+    "trainName": "ときわ79号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -25272,6 +25479,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "28M",
     "trainType": "limitedExp",
+    "trainName": "ひたち28号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -25400,6 +25608,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "81M",
     "trainType": "limitedExp",
+    "trainName": "ときわ81号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -25592,6 +25801,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "84M",
     "trainType": "limitedExp",
+    "trainName": "ときわ84号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -25784,6 +25994,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "83M",
     "trainType": "limitedExp",
+    "trainName": "ときわ83号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -25976,6 +26187,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "30M",
     "trainType": "limitedExp",
+    "trainName": "ひたち30号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -26136,6 +26348,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "85M",
     "trainType": "limitedExp",
+    "trainName": "ときわ85号",
     "direction": "outbound",
     "originStationId": "UT-01",
     "destinationStationId": "UT-02",
@@ -26253,9 +26466,9 @@
       }
     ],
     "trainId": "40525",
-    "customDestination": "東京",
     "prevTripId": "HD_INB_TK-18_2155_40525",
-    "prevLineId": "takasaki"
+    "prevLineId": "takasaki",
+    "customDestination": "東京"
   },
   {
     "tripId": "HD_OUT_UT-01_2308_34463",
@@ -26294,6 +26507,7 @@
     "lineId": "ueno_tokyo",
     "trainNumber": "86M",
     "trainType": "limitedExp",
+    "trainName": "ときわ86号",
     "direction": "inbound",
     "originStationId": "UT-02",
     "destinationStationId": "UT-01",
@@ -26347,9 +26561,9 @@
       }
     ],
     "trainId": "34977",
-    "customOrigin": "東京",
     "throughTripId": "HD_OUT_TK-02_2325_34977",
-    "throughLineId": "takasaki"
+    "throughLineId": "takasaki",
+    "customOrigin": "東京"
   },
   {
     "tripId": "HD_OUT_UT-01_2332_34522",
@@ -26377,8 +26591,8 @@
       }
     ],
     "trainId": "34522",
-    "customOrigin": "東京",
     "throughTripId": "HD_OUT_JU-02_2338_34522",
-    "throughLineId": "utsunomiya"
+    "throughLineId": "utsunomiya",
+    "customOrigin": "東京"
   }
 ]

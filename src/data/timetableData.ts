@@ -193,12 +193,20 @@ export function getStationDepartures(
         destId = direction === 'outbound' ? lineTerminusStationId : lineOriginStationId;
       }
       const depTime = `${d.h.toString().padStart(2, '0')}:${d.m.toString().padStart(2, '0')}:00`;
+      let trainName: string | undefined;
+      if (d.tripId) {
+        const fullTrip = getGlobalTripMap().get(d.tripId);
+        if (fullTrip?.trainName) {
+          trainName = fullTrip.trainName;
+        }
+      }
 
       return {
         tripId: d.tripId || `DEP_${stationId}_${direction}_${d.h}_${d.m}_${idx}`,
         lineId: finalLineId,
         trainNumber: d.no,
         trainType: d.t,
+        trainName,
         direction,
         originStationId: stationId,
         destinationStationId: destId,
@@ -618,6 +626,9 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
           if (couplingEnd) {
             prevStop.couplingEnd = true;
           }
+          if (!prevStop.trainName && trip.trainName) {
+            prevStop.trainName = trip.trainName;
+          }
           // 先頭駅は統合されたのでスキップ
           continue;
         }
@@ -637,6 +648,7 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
         tripId: trip.tripId,
         trainType: trip.trainType,
         trainNumber: currentTrainNumber,
+        trainName: trip.trainName,
         isBoundary: false,
         trainNumberChange,
         couplingStart,

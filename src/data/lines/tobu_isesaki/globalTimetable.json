@@ -30,10 +30,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111329",
     "prevTripId": "WD_OUT_TSK-03_2325_111329",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_0458_112785",
@@ -114,10 +114,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112785",
     "throughTripId": "WD_INB_TSK-30_0535_112785",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-25_0458_112837",
@@ -227,11 +227,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112837",
     "prevTripId": "WD_INB_TI-39_0510_114118",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_INB_TI-18_0459_112949",
@@ -299,11 +299,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "佐野",
     "trainId": "112949",
     "prevTripId": "WD_INB_TI-34_0507_114117",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "佐野"
   },
   {
     "tripId": "WD_OUT_TI-18_0459_112601",
@@ -556,10 +556,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112347",
     "prevTripId": "WD_OUT_TSK-28_0507_112347",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-25_0514_112838",
@@ -669,17 +669,18 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112838",
     "prevTripId": "WD_INB_TI-46_0525_114002",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "WD_INB_TI-10_0526_112783",
     "lineId": "tobu_isesaki",
     "trainNumber": "1502レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう2号",
     "direction": "inbound",
     "originStationId": "TI-10",
     "destinationStationId": "TSK-30",
@@ -754,10 +755,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112783",
     "throughTripId": "WD_INB_TSK-30_0554_112783",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-10_0527_112787",
@@ -838,10 +839,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112787",
     "throughTripId": "WD_INB_TSK-30_0604_112787",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_OUT_TI-10_0532_112568",
@@ -1062,16 +1063,17 @@
       }
     ],
     "trainId": "112839",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_0545_114119",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_INB_TI-18_0542_112833",
     "lineId": "tobu_isesaki",
     "trainNumber": "1404レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう4号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -1194,10 +1196,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "太田",
     "trainId": "112833",
     "throughTripId": "WD_INB_TSK-30_0636_112833",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "太田"
   },
   {
     "tripId": "WD_OUT_TSK-30_0543_112348",
@@ -1278,10 +1280,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112348",
     "prevTripId": "WD_OUT_TSK-28_0537_112348",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-10_0553_112789",
@@ -1362,10 +1364,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112789",
     "throughTripId": "WD_INB_TSK-30_0631_112789",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_OUT_TI-10_0554_112569",
@@ -1585,11 +1587,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112840",
     "prevTripId": "WD_INB_TI-39_0613_114120",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TSK-30_0605_112328",
@@ -1670,10 +1672,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112328",
     "prevTripId": "WD_OUT_TSK-01_0511_112328",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-10_0606_112790",
@@ -1754,10 +1756,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112790",
     "throughTripId": "WD_INB_TSK-30_0644_112790",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-25_0610_112841",
@@ -1868,16 +1870,17 @@
       }
     ],
     "trainId": "112841",
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "prevTripId": "WD_INB_TI-46_0621_114004",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "WD_INB_TI-02_0612_175031",
     "lineId": "tobu_isesaki",
     "trainNumber": "A4643T",
     "trainType": "th_liner",
+    "trainName": "THライナー2号",
     "direction": "inbound",
     "originStationId": "TI-02",
     "destinationStationId": "TSK-30",
@@ -1904,10 +1907,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "175031",
     "throughTripId": "WD_INB_TSK-30_0619_175031",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_0616_112791",
@@ -1988,10 +1991,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112791",
     "throughTripId": "WD_INB_TSK-30_0655_112791",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_OUT_TSK-30_0620_112329",
@@ -2072,10 +2075,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112329",
     "prevTripId": "WD_OUT_TSK-01_0530_112329",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_OUT_TI-10_0625_112570",
@@ -2266,10 +2269,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112794",
     "throughTripId": "WD_INB_TSK-30_0705_112794",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_OUT_TSK-30_0633_111330",
@@ -2302,10 +2305,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111330",
     "prevTripId": "WD_OUT_TSK-03_0547_111330",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_0636_112795",
@@ -2386,16 +2389,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112795",
     "throughTripId": "WD_INB_TSK-30_0715_112795",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-18_0636_116483",
     "lineId": "tobu_isesaki",
     "trainNumber": "1806レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう6号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -2714,10 +2718,10 @@
       }
     ],
     "trainId": "112842",
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "prevTripId": "WD_INB_TI-46_0649_114005",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "WD_OUT_TI-18_0641_112602",
@@ -2970,10 +2974,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112798",
     "throughTripId": "WD_INB_TSK-30_0724_112798",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-02_0651_113235",
@@ -3006,10 +3010,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113235",
     "throughTripId": "WD_INB_TSK-30_0659_113235",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_0652_112800",
@@ -3090,10 +3094,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112800",
     "throughTripId": "WD_INB_TSK-30_0736_112800",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-18_0654_112950",
@@ -3162,10 +3166,10 @@
       }
     ],
     "trainId": "112950",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_0636_114121",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TSK-30_0657_112554",
@@ -3356,10 +3360,10 @@
       }
     ],
     "trainId": "112843",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_0708_114122",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TI-10_0659_112572",
@@ -3502,10 +3506,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113258",
     "throughTripId": "WD_INB_TSK-30_0711_113258",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_0704_112802",
@@ -3586,10 +3590,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112802",
     "throughTripId": "WD_INB_TSK-30_0743_112802",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_OUT_TSK-30_0713_112555",
@@ -3750,10 +3754,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112804",
     "throughTripId": "WD_INB_TSK-30_0754_112804",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_OUT_TI-10_0715_112573",
@@ -3973,17 +3977,18 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112844",
     "prevTripId": "WD_INB_TI-39_0736_114123",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_INB_TI-25_0722_112782",
     "lineId": "tobu_isesaki",
     "trainNumber": "1310レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう10号",
     "direction": "inbound",
     "originStationId": "TI-25",
     "destinationStationId": "TSK-30",
@@ -4148,10 +4153,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "伊勢崎",
     "trainId": "112782",
     "throughTripId": "WD_INB_TSK-30_0842_112782",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "伊勢崎"
   },
   {
     "tripId": "WD_INB_TI-10_0725_112805",
@@ -4232,16 +4237,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112805",
     "throughTripId": "WD_INB_TSK-30_0803_112805",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-18_0726_116485",
     "lineId": "tobu_isesaki",
     "trainNumber": "1808レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう8号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -4376,6 +4382,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1801レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう1号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -4664,10 +4671,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112807",
     "throughTripId": "WD_INB_TSK-30_0818_112807",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_OUT_TI-10_0735_112574",
@@ -4887,11 +4894,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112845",
     "prevTripId": "WD_INB_TI-46_0815_114008",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "WD_OUT_TSK-30_0743_112332",
@@ -4972,10 +4979,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112332",
     "prevTripId": "WD_OUT_TSK-01_0650_112332",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-10_0747_112809",
@@ -5056,10 +5063,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112809",
     "throughTripId": "WD_INB_TSK-30_0826_112809",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-25_0752_112846",
@@ -5250,10 +5257,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112333",
     "prevTripId": "WD_OUT_TSK-01_0703_112333",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-10_0758_112810",
@@ -5334,10 +5341,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112810",
     "throughTripId": "WD_INB_TSK-30_0836_112810",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_OUT_TI-10_0800_112575",
@@ -5528,10 +5535,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112335",
     "prevTripId": "WD_OUT_TSK-01_0710_112335",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-25_0809_112834",
@@ -5600,6 +5607,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "A4845T",
     "trainType": "th_liner",
+    "trainName": "THライナー4号",
     "direction": "inbound",
     "originStationId": "TI-02",
     "destinationStationId": "TSK-30",
@@ -5626,10 +5634,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "175033",
     "throughTripId": "WD_INB_TSK-30_0821_175033",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_0819_112812",
@@ -5710,16 +5718,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112812",
     "throughTripId": "WD_INB_TSK-30_0857_112812",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_OUT_TSK-30_0820_116453",
     "lineId": "tobu_isesaki",
     "trainNumber": "1803レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう3号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -5957,11 +5966,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112847",
     "prevTripId": "WD_INB_TI-39_0813_114124",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TSK-30_0823_112304",
@@ -6042,10 +6051,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112304",
     "prevTripId": "WD_OUT_TSK-01_0718_112304",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_OUT_TI-10_0825_112557",
@@ -6120,6 +6129,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1814レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう14号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -6254,6 +6264,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1612レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう12号",
     "direction": "inbound",
     "originStationId": "TI-10",
     "destinationStationId": "TSK-30",
@@ -6434,10 +6445,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111252",
     "prevTripId": "WD_OUT_TSK-03_0751_111252",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-25_0843_112848",
@@ -6547,11 +6558,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112848",
     "prevTripId": "WD_INB_TI-39_0841_114125",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TSK-30_0844_112306",
@@ -6632,10 +6643,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112306",
     "prevTripId": "WD_OUT_TSK-01_0733_112306",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-10_0852_112818",
@@ -6716,16 +6727,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112818",
     "throughTripId": "WD_INB_TSK-30_0937_112818",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-18_0900_116469",
     "lineId": "tobu_isesaki",
     "trainNumber": "1816レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう16号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -7044,10 +7056,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112308",
     "prevTripId": "WD_OUT_TSK-01_0752_112308",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-10_0907_112874",
@@ -7148,10 +7160,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113241",
     "throughTripId": "WD_INB_TSK-30_0920_113241",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-18_0914_112603",
@@ -7324,16 +7336,17 @@
       }
     ],
     "trainId": "112849",
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "prevTripId": "WD_INB_TI-46_0930_114010",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "WD_OUT_TSK-30_0920_116454",
     "lineId": "tobu_isesaki",
     "trainNumber": "1805レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう5号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -7494,10 +7507,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111243",
     "prevTripId": "WD_OUT_TSK-03_0817_111243",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-10_0923_112558",
@@ -7646,10 +7659,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112819",
     "throughTripId": "WD_INB_TSK-30_1011_112819",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_OUT_TSK-30_0931_112310",
@@ -7730,16 +7743,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112310",
     "prevTripId": "WD_OUT_TSK-01_0821_112310",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-18_0931_116470",
     "lineId": "tobu_isesaki",
     "trainNumber": "1818レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう18号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -7900,10 +7914,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111281",
     "prevTripId": "WD_OUT_TSK-03_0837_111281",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_0945_113239",
@@ -7936,10 +7950,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113239",
     "throughTripId": "WD_INB_TSK-30_0954_113239",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-25_0947_112850",
@@ -8049,11 +8063,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112850",
     "prevTripId": "WD_INB_TI-39_1008_114127",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TI-02_0953_112512",
@@ -8400,10 +8414,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111278",
     "prevTripId": "WD_OUT_TSK-03_0901_111278",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1012_113261",
@@ -8436,10 +8450,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113261",
     "throughTripId": "WD_INB_TSK-30_1020_113261",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-25_1013_112851",
@@ -8550,10 +8564,10 @@
       }
     ],
     "trainId": "112851",
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "prevTripId": "WD_INB_TI-46_1023_114011",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "WD_OUT_TI-02_1015_112513",
@@ -8696,6 +8710,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1807レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう7号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -8904,10 +8919,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112312",
     "prevTripId": "WD_OUT_TSK-01_0913_112312",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-02_1029_113262",
@@ -8940,16 +8955,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113262",
     "throughTripId": "WD_INB_TSK-30_1039_113262",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-18_1029_116471",
     "lineId": "tobu_isesaki",
     "trainNumber": "1820レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう20号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -9110,10 +9126,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111244",
     "prevTripId": "WD_OUT_TSK-03_0944_111244",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-10_1033_112578",
@@ -9324,10 +9340,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111286",
     "prevTripId": "WD_OUT_TSK-03_1005_111286",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-25_1051_112852",
@@ -9437,11 +9453,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112852",
     "prevTripId": "WD_INB_TI-46_1124_114012",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "WD_INB_TI-02_1054_113177",
@@ -9474,16 +9490,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113177",
     "throughTripId": "WD_INB_TSK-30_1103_113177",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TSK-30_1059_112295",
     "lineId": "tobu_isesaki",
     "trainNumber": "1409レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう9号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -9606,10 +9623,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "太田",
     "trainId": "112295",
     "prevTripId": "WD_OUT_TSK-01_1020_112295",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "太田"
   },
   {
     "tripId": "WD_OUT_TI-02_1059_112515",
@@ -9846,10 +9863,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111287",
     "prevTripId": "WD_OUT_TSK-03_1025_111287",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_1115_112885",
@@ -9950,10 +9967,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113179",
     "throughTripId": "WD_INB_TSK-30_1124_113179",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-02_1119_112516",
@@ -10028,6 +10045,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1811レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう11号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -10162,6 +10180,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1822レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう22号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -10322,10 +10341,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111257",
     "prevTripId": "WD_OUT_TSK-03_1045_111257",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1133_113181",
@@ -10358,10 +10377,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113181",
     "throughTripId": "WD_INB_TSK-30_1141_113181",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-10_1134_112579",
@@ -10785,11 +10804,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112853",
     "prevTripId": "WD_INB_TI-46_1224_114013",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "WD_OUT_TSK-30_1151_111289",
@@ -10822,10 +10841,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111289",
     "prevTripId": "WD_OUT_TSK-03_1105_111289",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1153_113183",
@@ -10858,10 +10877,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113183",
     "throughTripId": "WD_INB_TSK-30_1201_113183",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_1157_112889",
@@ -11098,10 +11117,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111292",
     "prevTripId": "WD_OUT_TSK-03_1125_111292",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1213_113185",
@@ -11134,10 +11153,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113185",
     "throughTripId": "WD_INB_TSK-30_1221_113185",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-02_1218_112519",
@@ -11280,6 +11299,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1813レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう13号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -11414,6 +11434,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1824レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう24号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -11574,10 +11595,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111258",
     "prevTripId": "WD_OUT_TSK-03_1145_111258",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1233_113187",
@@ -11610,10 +11631,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113187",
     "throughTripId": "WD_INB_TSK-30_1241_113187",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-10_1234_112580",
@@ -11928,10 +11949,10 @@
       }
     ],
     "trainId": "112953",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_1208_114129",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_INB_TI-25_1250_112854",
@@ -12041,11 +12062,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112854",
     "prevTripId": "WD_INB_TI-46_1324_114014",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "WD_OUT_TSK-30_1251_111295",
@@ -12078,10 +12099,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111295",
     "prevTripId": "WD_OUT_TSK-03_1205_111295",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1253_113188",
@@ -12114,10 +12135,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113188",
     "throughTripId": "WD_INB_TSK-30_1301_113188",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_1257_112895",
@@ -12354,10 +12375,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111297",
     "prevTripId": "WD_OUT_TSK-03_1225_111297",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1313_113192",
@@ -12390,10 +12411,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113192",
     "throughTripId": "WD_INB_TSK-30_1321_113192",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-02_1318_112522",
@@ -12536,6 +12557,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1815レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう15号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -12670,6 +12692,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1826レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう26号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -12830,10 +12853,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111299",
     "prevTripId": "WD_OUT_TSK-03_1245_111299",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1333_113194",
@@ -12866,10 +12889,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113194",
     "throughTripId": "WD_INB_TSK-30_1341_113194",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-10_1334_112581",
@@ -13184,10 +13207,10 @@
       }
     ],
     "trainId": "112954",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_1308_114130",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_INB_TI-25_1350_112855",
@@ -13297,11 +13320,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112855",
     "prevTripId": "WD_INB_TI-46_1424_114015",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "WD_OUT_TSK-30_1351_111301",
@@ -13334,10 +13357,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111301",
     "prevTripId": "WD_OUT_TSK-03_1305_111301",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1353_113196",
@@ -13370,10 +13393,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113196",
     "throughTripId": "WD_INB_TSK-30_1401_113196",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_1357_112901",
@@ -13610,10 +13633,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111303",
     "prevTripId": "WD_OUT_TSK-03_1325_111303",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1413_113197",
@@ -13646,10 +13669,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113197",
     "throughTripId": "WD_INB_TSK-30_1421_113197",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-02_1418_112525",
@@ -13792,6 +13815,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1817レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう17号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -13926,6 +13950,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1828レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう28号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -14086,10 +14111,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111304",
     "prevTripId": "WD_OUT_TSK-03_1345_111304",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1433_113200",
@@ -14122,10 +14147,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113200",
     "throughTripId": "WD_INB_TSK-30_1441_113200",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-10_1434_112582",
@@ -14440,10 +14465,10 @@
       }
     ],
     "trainId": "112955",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_1408_114131",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_INB_TI-25_1446_112856",
@@ -14553,11 +14578,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112856",
     "prevTripId": "WD_INB_TI-46_1520_114016",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "WD_OUT_TSK-30_1451_111306",
@@ -14590,10 +14615,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111306",
     "prevTripId": "WD_OUT_TSK-03_1405_111306",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1453_113204",
@@ -14626,10 +14651,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113204",
     "throughTripId": "WD_INB_TSK-30_1503_113204",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_1457_112907",
@@ -14866,10 +14891,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111308",
     "prevTripId": "WD_OUT_TSK-03_1425_111308",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1513_113206",
@@ -14902,10 +14927,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113206",
     "throughTripId": "WD_INB_TSK-30_1521_113206",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_1517_112909",
@@ -15048,6 +15073,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1830レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう30号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -15182,6 +15208,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1819レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう19号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -15342,10 +15369,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111310",
     "prevTripId": "WD_OUT_TSK-03_1445_111310",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-10_1532_112583",
@@ -15488,10 +15515,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113209",
     "throughTripId": "WD_INB_TSK-30_1541_113209",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_1537_112910",
@@ -15628,10 +15655,10 @@
       }
     ],
     "trainId": "112956",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_1506_114132",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TI-02_1538_112529",
@@ -15732,10 +15759,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111260",
     "prevTripId": "WD_OUT_TSK-03_1455_111260",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1553_113243",
@@ -15768,10 +15795,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113243",
     "throughTripId": "WD_INB_TSK-30_1602_113243",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-02_1554_112530",
@@ -15846,6 +15873,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1432レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう32号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -15968,10 +15996,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "太田",
     "trainId": "112828",
     "throughTripId": "WD_INB_TSK-30_1646_112828",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "太田"
   },
   {
     "tripId": "WD_INB_TI-25_1557_112857",
@@ -16082,10 +16110,10 @@
       }
     ],
     "trainId": "112857",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_1609_114134",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_INB_TI-10_1558_112912",
@@ -16270,6 +16298,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1421レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう21号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -16392,10 +16421,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "太田",
     "trainId": "112293",
     "prevTripId": "WD_OUT_TSK-01_1520_112293",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "太田"
   },
   {
     "tripId": "WD_OUT_TSK-30_1601_111262",
@@ -16428,10 +16457,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111262",
     "prevTripId": "WD_OUT_TSK-03_1515_111262",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-18_1601_112957",
@@ -16500,10 +16529,10 @@
       }
     ],
     "trainId": "112957",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_1541_114133",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TI-10_1608_112585",
@@ -16714,10 +16743,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113244",
     "throughTripId": "WD_INB_TSK-30_1621_113244",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-02_1617_112531",
@@ -16818,16 +16847,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111264",
     "prevTripId": "WD_OUT_TSK-03_1535_111264",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-18_1625_116477",
     "lineId": "tobu_isesaki",
     "trainNumber": "1834レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう34号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -16962,6 +16992,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1823レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう23号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -17200,10 +17231,10 @@
       }
     ],
     "trainId": "112858",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_1641_114135",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_INB_TI-02_1633_113245",
@@ -17236,10 +17267,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113245",
     "throughTripId": "WD_INB_TSK-30_1641_113245",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_1635_112917",
@@ -17518,10 +17549,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111266",
     "prevTripId": "WD_OUT_TSK-03_1555_111266",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_1652_112919",
@@ -17622,10 +17653,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113215",
     "throughTripId": "WD_INB_TSK-30_1700_113215",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-02_1654_112533",
@@ -17700,6 +17731,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1436レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう36号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -17822,16 +17854,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "太田",
     "trainId": "112829",
     "throughTripId": "WD_INB_TSK-30_1746_112829",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "太田"
   },
   {
     "tripId": "WD_OUT_TSK-30_1658_112294",
     "lineId": "tobu_isesaki",
     "trainNumber": "1425レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう25号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -17954,10 +17987,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "太田",
     "trainId": "112294",
     "prevTripId": "WD_OUT_TSK-01_1620_112294",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "太田"
   },
   {
     "tripId": "WD_INB_TI-25_1700_112859",
@@ -18068,10 +18101,10 @@
       }
     ],
     "trainId": "112859",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_1711_114136",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TSK-30_1703_111268",
@@ -18104,10 +18137,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111268",
     "prevTripId": "WD_OUT_TSK-03_1615_111268",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1705_113236",
@@ -18140,10 +18173,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113236",
     "throughTripId": "WD_INB_TSK-30_1713_113236",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-10_1707_112587",
@@ -18422,10 +18455,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111279",
     "prevTripId": "WD_OUT_TSK-03_1635_111279",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1724_113237",
@@ -18458,16 +18491,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113237",
     "throughTripId": "WD_INB_TSK-30_1731_113237",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-18_1728_116478",
     "lineId": "tobu_isesaki",
     "trainNumber": "1838レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう38号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -18602,6 +18636,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1827レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう27号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -18840,10 +18875,10 @@
       }
     ],
     "trainId": "112860",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_1740_114137",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_INB_TI-10_1735_112922",
@@ -19122,10 +19157,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111272",
     "prevTripId": "WD_OUT_TSK-03_1655_111272",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1746_113223",
@@ -19158,16 +19193,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113223",
     "throughTripId": "WD_INB_TSK-30_1754_113223",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TSK-30_1750_112298",
     "lineId": "tobu_isesaki",
     "trainNumber": "1429レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう29号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -19290,10 +19326,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "太田",
     "trainId": "112298",
     "prevTripId": "WD_OUT_TSK-01_1709_112298",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "太田"
   },
   {
     "tripId": "WD_INB_TI-10_1752_112924",
@@ -19368,6 +19404,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1440レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう40号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -19490,10 +19527,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "太田",
     "trainId": "112830",
     "throughTripId": "WD_INB_TSK-30_1846_112830",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "太田"
   },
   {
     "tripId": "WD_INB_TI-25_1758_112861",
@@ -19604,10 +19641,10 @@
       }
     ],
     "trainId": "112861",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_1806_114138",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TI-02_1800_112536",
@@ -19708,10 +19745,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111274",
     "prevTripId": "WD_OUT_TSK-03_1715_111274",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1806_113240",
@@ -19744,10 +19781,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113240",
     "throughTripId": "WD_INB_TSK-30_1813_113240",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_1808_112927",
@@ -20006,10 +20043,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112313",
     "prevTripId": "WD_OUT_TSK-01_1702_112313",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-25_1818_112862",
@@ -20120,16 +20157,17 @@
       }
     ],
     "trainId": "112862",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_1839_114139",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TSK-30_1820_116461",
     "lineId": "tobu_isesaki",
     "trainNumber": "1831レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう31号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -20290,10 +20328,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111247",
     "prevTripId": "WD_OUT_TSK-03_1735_111247",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1823_113249",
@@ -20326,10 +20364,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113249",
     "throughTripId": "WD_INB_TSK-30_1832_113249",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_1823_112820",
@@ -20410,16 +20448,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112820",
     "throughTripId": "WD_INB_TSK-30_1906_112820",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-18_1826_116479",
     "lineId": "tobu_isesaki",
     "trainNumber": "1842レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう42号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -20874,10 +20913,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112314",
     "prevTripId": "WD_OUT_TSK-01_1722_112314",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_OUT_TSK-30_1843_111249",
@@ -20910,10 +20949,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111249",
     "prevTripId": "WD_OUT_TSK-03_1755_111249",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1843_113250",
@@ -20946,10 +20985,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113250",
     "throughTripId": "WD_INB_TSK-30_1851_113250",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-25_1849_112863",
@@ -21059,17 +21098,18 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112863",
     "prevTripId": "WD_INB_TI-46_1854_114023",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "WD_OUT_TSK-30_1850_112299",
     "lineId": "tobu_isesaki",
     "trainNumber": "1433レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう33号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -21192,10 +21232,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "太田",
     "trainId": "112299",
     "prevTripId": "WD_OUT_TSK-01_1809_112299",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "太田"
   },
   {
     "tripId": "WD_INB_TI-10_1852_112931",
@@ -21344,16 +21384,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112338",
     "prevTripId": "WD_OUT_TSK-01_1752_112338",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-18_1854_112831",
     "lineId": "tobu_isesaki",
     "trainNumber": "1444レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう44号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -21476,10 +21517,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "太田",
     "trainId": "112831",
     "throughTripId": "WD_INB_TSK-30_1946_112831",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "太田"
   },
   {
     "tripId": "WD_OUT_TI-10_1854_112591",
@@ -21622,10 +21663,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111245",
     "prevTripId": "WD_OUT_TSK-03_1815_111245",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1904_113251",
@@ -21658,10 +21699,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113251",
     "throughTripId": "WD_INB_TSK-30_1912_113251",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-10_1906_112592",
@@ -21950,10 +21991,10 @@
       }
     ],
     "trainId": "112864",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "WD_INB_TI-39_1912_114140",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TI-02_1915_112541",
@@ -22028,6 +22069,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1835レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう35号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -22188,10 +22230,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111316",
     "prevTripId": "WD_OUT_TSK-03_1835_111316",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1923_113253",
@@ -22224,16 +22266,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113253",
     "throughTripId": "WD_INB_TSK-30_1931_113253",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-18_1925_116480",
     "lineId": "tobu_isesaki",
     "trainNumber": "1846レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう46号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -22688,10 +22731,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112318",
     "prevTripId": "WD_OUT_TSK-01_1822_112318",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-25_1940_112865",
@@ -22801,11 +22844,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112865",
     "prevTripId": "WD_INB_TI-39_1939_114141",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TSK-30_1943_111280",
@@ -22838,10 +22881,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111280",
     "prevTripId": "WD_OUT_TSK-03_1855_111280",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_1945_113254",
@@ -22874,16 +22917,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113254",
     "throughTripId": "WD_INB_TSK-30_1954_113254",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TSK-30_1950_116463",
     "lineId": "tobu_isesaki",
     "trainNumber": "1837レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう37号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -23160,10 +23204,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112339",
     "prevTripId": "WD_OUT_TSK-01_1852_112339",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_OUT_TI-10_1953_112564",
@@ -23238,6 +23282,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1448レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう48号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -23360,10 +23405,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "太田",
     "trainId": "112832",
     "throughTripId": "WD_INB_TSK-30_2046_112832",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "太田"
   },
   {
     "tripId": "WD_INB_TI-02_2004_113232",
@@ -23396,10 +23441,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113232",
     "throughTripId": "WD_INB_TSK-30_2011_113232",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TSK-30_2005_111321",
@@ -23432,10 +23477,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111321",
     "prevTripId": "WD_OUT_TSK-03_1915_111321",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_2005_112940",
@@ -23723,11 +23768,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112866",
     "prevTripId": "WD_INB_TI-39_2010_114142",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TI-02_2016_112544",
@@ -23802,6 +23847,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1339レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう39号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-25",
@@ -23966,10 +24012,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "伊勢崎",
     "trainId": "112301",
     "prevTripId": "WD_OUT_TSK-01_1939_112301",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "伊勢崎"
   },
   {
     "tripId": "WD_INB_TI-02_2022_113263",
@@ -24002,10 +24048,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113263",
     "throughTripId": "WD_INB_TSK-30_2030_113263",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TSK-30_2024_111323",
@@ -24038,16 +24084,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111323",
     "prevTripId": "WD_OUT_TSK-03_1935_111323",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-18_2025_116481",
     "lineId": "tobu_isesaki",
     "trainNumber": "1850レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう50号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -24454,10 +24501,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "112302",
     "prevTripId": "WD_OUT_TSK-01_1922_112302",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_OUT_TSK-30_2043_111324",
@@ -24490,10 +24537,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111324",
     "prevTripId": "WD_OUT_TSK-03_1955_111324",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_2043_113233",
@@ -24526,10 +24573,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113233",
     "throughTripId": "WD_INB_TSK-30_2050_113233",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-25_2045_112867",
@@ -24639,17 +24686,18 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112867",
     "prevTripId": "WD_INB_TI-39_2046_114143",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TSK-30_2050_116464",
     "lineId": "tobu_isesaki",
     "trainNumber": "1841レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう41号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -24810,10 +24858,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "112780",
     "throughTripId": "WD_INB_TSK-30_2100_112780",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TSK-30_2053_112340",
@@ -24894,10 +24942,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112340",
     "prevTripId": "WD_OUT_TSK-01_1952_112340",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-10_2054_112821",
@@ -24978,10 +25026,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112821",
     "throughTripId": "WD_INB_TSK-30_2131_112821",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-02_2103_113257",
@@ -25014,10 +25062,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113257",
     "throughTripId": "WD_INB_TSK-30_2111_113257",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TI-10_2103_112596",
@@ -25160,10 +25208,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111284",
     "prevTripId": "WD_OUT_TSK-03_2015_111284",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-25_2110_112868",
@@ -25273,11 +25321,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112868",
     "prevTripId": "WD_INB_TI-39_2119_114144",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_INB_TI-10_2114_112944",
@@ -25420,6 +25468,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1643レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう43号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-10",
@@ -25580,10 +25629,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112322",
     "prevTripId": "WD_OUT_TSK-01_2012_112322",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_OUT_TI-10_2132_112597",
@@ -25803,11 +25852,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112869",
     "prevTripId": "WD_INB_TI-39_2150_114145",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TSK-30_2144_111325",
@@ -25840,10 +25889,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111325",
     "prevTripId": "WD_OUT_TSK-03_2055_111325",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-02_2144_113172",
@@ -25876,10 +25925,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113172",
     "throughTripId": "WD_INB_TSK-30_2152_113172",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_2144_112948",
@@ -25966,6 +26015,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1845レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう45号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -26328,10 +26378,10 @@
       }
     ],
     "trainId": "112835",
-    "customDestination": "太田",
-    "customOrigin": "赤城",
     "prevTripId": "WD_INB_TI-57_2129_114054",
-    "prevLineId": "tobu_kiryu"
+    "prevLineId": "tobu_kiryu",
+    "customDestination": "太田",
+    "customOrigin": "赤城"
   },
   {
     "tripId": "WD_OUT_TSK-30_2159_112324",
@@ -26412,10 +26462,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112324",
     "prevTripId": "WD_OUT_TSK-01_2042_112324",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_OUT_TI-02_2159_112551",
@@ -26516,10 +26566,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113259",
     "throughTripId": "WD_INB_TSK-30_2208_113259",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "WD_OUT_TSK-30_2205_111328",
@@ -26552,10 +26602,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111328",
     "prevTripId": "WD_OUT_TSK-03_2115_111328",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "WD_INB_TI-10_2210_112822",
@@ -26636,10 +26686,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112822",
     "throughTripId": "WD_INB_TSK-30_2247_112822",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-25_2215_112870",
@@ -26749,17 +26799,18 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112870",
     "prevTripId": "WD_INB_TI-39_2213_114146",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TSK-30_2220_112300",
     "lineId": "tobu_isesaki",
     "trainNumber": "1447レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう47号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -26882,10 +26933,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "太田",
     "trainId": "112300",
     "prevTripId": "WD_OUT_TSK-01_2139_112300",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "太田"
   },
   {
     "tripId": "WD_OUT_TI-10_2223_112599",
@@ -27076,10 +27127,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112325",
     "prevTripId": "WD_OUT_TSK-01_2112_112325",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-10_2234_112815",
@@ -27160,10 +27211,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112815",
     "throughTripId": "WD_INB_TSK-30_2311_112815",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "WD_INB_TI-25_2241_112871",
@@ -27273,11 +27324,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112871",
     "prevTripId": "WD_INB_TI-39_2302_114147",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "WD_OUT_TSK-30_2249_112343",
@@ -27358,10 +27409,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112343",
     "prevTripId": "WD_OUT_TSK-01_2152_112343",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_OUT_TI-10_2252_112600",
@@ -27478,6 +27529,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1549レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう49号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-10",
@@ -27552,10 +27604,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112297",
     "prevTripId": "WD_OUT_TSK-01_2219_112297",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_INB_TI-25_2306_112836",
@@ -27618,10 +27670,10 @@
       }
     ],
     "trainId": "112836",
-    "customDestination": "太田",
-    "customOrigin": "赤城",
     "prevTripId": "WD_INB_TI-57_2244_114056",
-    "prevLineId": "tobu_kiryu"
+    "prevLineId": "tobu_kiryu",
+    "customDestination": "太田",
+    "customOrigin": "赤城"
   },
   {
     "tripId": "WD_OUT_TI-10_2314_112565",
@@ -27770,10 +27822,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112326",
     "prevTripId": "WD_OUT_TSK-01_2212_112326",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_OUT_TI-10_2330_112566",
@@ -27922,10 +27974,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112344",
     "prevTripId": "WD_OUT_TSK-01_2242_112344",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "WD_OUT_TSK-30_2355_112346",
@@ -28006,10 +28058,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112346",
     "prevTripId": "WD_OUT_TSK-01_2302_112346",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-10_0458_112784",
@@ -28090,10 +28142,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112784",
     "throughTripId": "HD_INB_TSK-30_0535_112784",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_INB_TI-25_0458_112837",
@@ -28203,11 +28255,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112837",
     "prevTripId": "HD_INB_TI-39_0510_114118",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_INB_TI-18_0459_112949",
@@ -28275,11 +28327,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "佐野",
     "trainId": "112949",
     "prevTripId": "HD_INB_TI-34_0507_114117",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "佐野"
   },
   {
     "tripId": "HD_OUT_TI-18_0459_112601",
@@ -28532,10 +28584,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112347",
     "prevTripId": "HD_OUT_TSK-28_0507_112347",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-25_0514_112838",
@@ -28645,17 +28697,18 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112838",
     "prevTripId": "HD_INB_TI-46_0525_114002",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "HD_INB_TI-10_0526_112783",
     "lineId": "tobu_isesaki",
     "trainNumber": "1502レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう2号",
     "direction": "inbound",
     "originStationId": "TI-10",
     "destinationStationId": "TSK-30",
@@ -28730,10 +28783,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112783",
     "throughTripId": "HD_INB_TSK-30_0554_112783",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_INB_TI-10_0527_112786",
@@ -28814,10 +28867,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112786",
     "throughTripId": "HD_INB_TSK-30_0604_112786",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_OUT_TI-10_0532_112568",
@@ -29038,16 +29091,17 @@
       }
     ],
     "trainId": "112839",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_0545_114119",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_INB_TI-18_0542_112833",
     "lineId": "tobu_isesaki",
     "trainNumber": "1404レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう4号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -29170,10 +29224,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "太田",
     "trainId": "112833",
     "throughTripId": "HD_INB_TSK-30_0636_112833",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "太田"
   },
   {
     "tripId": "HD_OUT_TSK-30_0543_112348",
@@ -29254,10 +29308,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112348",
     "prevTripId": "HD_OUT_TSK-28_0537_112348",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-10_0553_112788",
@@ -29338,10 +29392,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112788",
     "throughTripId": "HD_INB_TSK-30_0631_112788",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_OUT_TI-10_0554_112569",
@@ -29561,11 +29615,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112840",
     "prevTripId": "HD_INB_TI-39_0613_114120",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_INB_TI-02_0604_113260",
@@ -29598,10 +29652,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113260",
     "throughTripId": "HD_INB_TSK-30_0612_113260",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TSK-30_0605_112328",
@@ -29682,10 +29736,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112328",
     "prevTripId": "HD_OUT_TSK-01_0511_112328",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-25_0610_112841",
@@ -29796,10 +29850,10 @@
       }
     ],
     "trainId": "112841",
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "prevTripId": "HD_INB_TI-46_0621_114004",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "HD_INB_TI-10_0616_112792",
@@ -29880,10 +29934,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112792",
     "throughTripId": "HD_INB_TSK-30_0657_112792",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_OUT_TSK-30_0620_112330",
@@ -29964,10 +30018,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112330",
     "prevTripId": "HD_OUT_TSK-01_0530_112330",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_OUT_TI-10_0625_112570",
@@ -30158,10 +30212,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112793",
     "throughTripId": "HD_INB_TSK-30_0705_112793",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_INB_TI-10_0636_112796",
@@ -30242,16 +30296,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112796",
     "throughTripId": "HD_INB_TSK-30_0715_112796",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_INB_TI-18_0636_116482",
     "lineId": "tobu_isesaki",
     "trainNumber": "1806レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう6号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -30570,10 +30625,10 @@
       }
     ],
     "trainId": "112842",
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "prevTripId": "HD_INB_TI-46_0649_114005",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "HD_OUT_TI-18_0641_112602",
@@ -30826,10 +30881,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112797",
     "throughTripId": "HD_INB_TSK-30_0724_112797",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_INB_TI-10_0652_112799",
@@ -30910,10 +30965,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112799",
     "throughTripId": "HD_INB_TSK-30_0736_112799",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_INB_TI-18_0654_112950",
@@ -30982,10 +31037,10 @@
       }
     ],
     "trainId": "112950",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_0636_114121",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TSK-30_0657_112554",
@@ -31176,10 +31231,10 @@
       }
     ],
     "trainId": "112843",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_0708_114122",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TI-10_0659_112572",
@@ -31370,10 +31425,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112801",
     "throughTripId": "HD_INB_TSK-30_0743_112801",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_OUT_TSK-30_0713_112555",
@@ -31534,10 +31589,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112803",
     "throughTripId": "HD_INB_TSK-30_0753_112803",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_OUT_TI-10_0715_112573",
@@ -31757,17 +31812,18 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112844",
     "prevTripId": "HD_INB_TI-39_0736_114123",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_INB_TI-25_0722_112782",
     "lineId": "tobu_isesaki",
     "trainNumber": "1310レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう10号",
     "direction": "inbound",
     "originStationId": "TI-25",
     "destinationStationId": "TSK-30",
@@ -31932,10 +31988,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "伊勢崎",
     "trainId": "112782",
     "throughTripId": "HD_INB_TSK-30_0842_112782",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "伊勢崎"
   },
   {
     "tripId": "HD_INB_TI-10_0725_112806",
@@ -32016,16 +32072,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112806",
     "throughTripId": "HD_INB_TSK-30_0803_112806",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_INB_TI-18_0726_116484",
     "lineId": "tobu_isesaki",
     "trainNumber": "1808レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう8号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -32160,6 +32217,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1801レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう1号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -32587,11 +32645,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112845",
     "prevTripId": "HD_INB_TI-46_0815_114008",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "HD_OUT_TSK-30_0745_112331",
@@ -32672,10 +32730,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112331",
     "prevTripId": "HD_OUT_TSK-01_0650_112331",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-10_0747_112808",
@@ -32756,10 +32814,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112808",
     "throughTripId": "HD_INB_TSK-30_0825_112808",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_INB_TI-25_0752_112846",
@@ -32950,10 +33008,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112334",
     "prevTripId": "HD_OUT_TSK-01_0703_112334",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-10_0758_112811",
@@ -33034,10 +33092,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112811",
     "throughTripId": "HD_INB_TSK-30_0837_112811",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_OUT_TI-10_0800_112575",
@@ -33216,6 +33274,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "A4845T",
     "trainType": "th_liner",
+    "trainName": "THライナー2号",
     "direction": "inbound",
     "originStationId": "TI-02",
     "destinationStationId": "TSK-30",
@@ -33242,10 +33301,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "175032",
     "throughTripId": "HD_INB_TSK-30_0820_175032",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_0819_112813",
@@ -33326,16 +33385,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112813",
     "throughTripId": "HD_INB_TSK-30_0857_112813",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_OUT_TSK-30_0820_116453",
     "lineId": "tobu_isesaki",
     "trainNumber": "1803レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう3号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -33573,11 +33633,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112847",
     "prevTripId": "HD_INB_TI-39_0813_114124",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TSK-30_0823_112336",
@@ -33658,10 +33718,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112336",
     "prevTripId": "HD_OUT_TSK-01_0722_112336",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_OUT_TI-10_0825_112557",
@@ -33736,6 +33796,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1814レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう14号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -33870,6 +33931,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1612レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう12号",
     "direction": "inbound",
     "originStationId": "TI-10",
     "destinationStationId": "TSK-30",
@@ -34030,10 +34092,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112305",
     "prevTripId": "HD_OUT_TSK-01_0733_112305",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-10_0839_112816",
@@ -34114,10 +34176,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112816",
     "throughTripId": "HD_INB_TSK-30_0916_112816",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_INB_TI-25_0843_112848",
@@ -34227,11 +34289,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112848",
     "prevTripId": "HD_INB_TI-39_0841_114125",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_INB_TI-10_0852_112817",
@@ -34312,10 +34374,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112817",
     "throughTripId": "HD_INB_TSK-30_0936_112817",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_OUT_TSK-30_0854_112307",
@@ -34396,16 +34458,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112307",
     "prevTripId": "HD_OUT_TSK-01_0743_112307",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-18_0900_116469",
     "lineId": "tobu_isesaki",
     "trainNumber": "1816レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう16号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -34792,10 +34855,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112309",
     "prevTripId": "HD_OUT_TSK-01_0752_112309",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_OUT_TSK-30_0912_111285",
@@ -34828,10 +34891,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111285",
     "prevTripId": "HD_OUT_TSK-03_0825_111285",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-18_0914_112603",
@@ -35004,16 +35067,17 @@
       }
     ],
     "trainId": "112849",
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "prevTripId": "HD_INB_TI-46_0930_114010",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "HD_OUT_TSK-30_0920_116454",
     "lineId": "tobu_isesaki",
     "trainNumber": "1805レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう5号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -35148,6 +35212,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "A4947T",
     "trainType": "th_liner",
+    "trainName": "THライナー4号",
     "direction": "inbound",
     "originStationId": "TI-02",
     "destinationStationId": "TSK-30",
@@ -35174,10 +35239,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "175034",
     "throughTripId": "HD_INB_TSK-30_0928_175034",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-10_0923_112558",
@@ -35406,16 +35471,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112311",
     "prevTripId": "HD_OUT_TSK-01_0821_112311",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-18_0931_116470",
     "lineId": "tobu_isesaki",
     "trainNumber": "1818レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう18号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -35644,10 +35710,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111253",
     "prevTripId": "HD_OUT_TSK-03_0858_111253",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_0945_113173",
@@ -35680,10 +35746,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113173",
     "throughTripId": "HD_INB_TSK-30_0952_113173",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-25_0947_112850",
@@ -35793,11 +35859,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112850",
     "prevTripId": "HD_INB_TI-39_1008_114127",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TI-02_0953_112512",
@@ -36076,10 +36142,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111254",
     "prevTripId": "HD_OUT_TSK-03_0913_111254",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-18_1004_112951",
@@ -36228,10 +36294,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112337",
     "prevTripId": "HD_OUT_TSK-01_0913_112337",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-25_1013_112851",
@@ -36342,10 +36408,10 @@
       }
     ],
     "trainId": "112851",
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "prevTripId": "HD_INB_TI-46_1023_114011",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "HD_INB_TI-10_1015_112878",
@@ -36446,16 +36512,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113174",
     "throughTripId": "HD_INB_TSK-30_1024_113174",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TSK-30_1020_116455",
     "lineId": "tobu_isesaki",
     "trainNumber": "1807レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう7号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -36616,16 +36683,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111282",
     "prevTripId": "HD_OUT_TSK-03_0921_111282",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-18_1029_116471",
     "lineId": "tobu_isesaki",
     "trainNumber": "1820レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう20号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -36896,10 +36964,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113175",
     "throughTripId": "HD_INB_TSK-30_1044_113175",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_1037_112880",
@@ -37068,10 +37136,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111255",
     "prevTripId": "HD_OUT_TSK-03_1004_111255",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-25_1051_112852",
@@ -37181,11 +37249,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112852",
     "prevTripId": "HD_INB_TI-46_1124_114012",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "HD_INB_TI-02_1053_113176",
@@ -37218,16 +37286,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113176",
     "throughTripId": "HD_INB_TSK-30_1103_113176",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TSK-30_1059_112295",
     "lineId": "tobu_isesaki",
     "trainNumber": "1409レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう9号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -37350,10 +37419,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "太田",
     "trainId": "112295",
     "prevTripId": "HD_OUT_TSK-01_1020_112295",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "太田"
   },
   {
     "tripId": "HD_OUT_TI-02_1059_112515",
@@ -37590,10 +37659,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111288",
     "prevTripId": "HD_OUT_TSK-03_1025_111288",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_1115_112884",
@@ -37694,10 +37763,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113178",
     "throughTripId": "HD_INB_TSK-30_1124_113178",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-02_1119_112516",
@@ -37772,6 +37841,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1811レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう11号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -37906,6 +37976,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1822レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう22号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -38066,10 +38137,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111256",
     "prevTripId": "HD_OUT_TSK-03_1045_111256",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1133_113180",
@@ -38102,10 +38173,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113180",
     "throughTripId": "HD_INB_TSK-30_1141_113180",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-10_1134_112579",
@@ -38529,11 +38600,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112853",
     "prevTripId": "HD_INB_TI-46_1224_114013",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "HD_OUT_TSK-30_1151_111290",
@@ -38566,10 +38637,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111290",
     "prevTripId": "HD_OUT_TSK-03_1105_111290",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1153_113182",
@@ -38602,10 +38673,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113182",
     "throughTripId": "HD_INB_TSK-30_1201_113182",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_1157_112888",
@@ -38842,10 +38913,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111291",
     "prevTripId": "HD_OUT_TSK-03_1125_111291",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1213_113184",
@@ -38878,10 +38949,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113184",
     "throughTripId": "HD_INB_TSK-30_1221_113184",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-02_1218_112519",
@@ -39024,6 +39095,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1813レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう13号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -39158,6 +39230,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1824レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう24号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -39318,10 +39391,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111293",
     "prevTripId": "HD_OUT_TSK-03_1145_111293",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1233_113186",
@@ -39354,10 +39427,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113186",
     "throughTripId": "HD_INB_TSK-30_1241_113186",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-10_1234_112580",
@@ -39672,10 +39745,10 @@
       }
     ],
     "trainId": "112953",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_1208_114129",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_INB_TI-25_1250_112854",
@@ -39785,11 +39858,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112854",
     "prevTripId": "HD_INB_TI-46_1324_114014",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "HD_OUT_TSK-30_1251_111294",
@@ -39822,10 +39895,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111294",
     "prevTripId": "HD_OUT_TSK-03_1205_111294",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1253_113189",
@@ -39858,10 +39931,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113189",
     "throughTripId": "HD_INB_TSK-30_1301_113189",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_1257_112894",
@@ -40098,10 +40171,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111296",
     "prevTripId": "HD_OUT_TSK-03_1225_111296",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1313_113190",
@@ -40134,10 +40207,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113190",
     "throughTripId": "HD_INB_TSK-30_1321_113190",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-02_1318_112522",
@@ -40280,6 +40353,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1815レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう15号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -40414,6 +40488,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1826レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう26号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -40574,10 +40649,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111298",
     "prevTripId": "HD_OUT_TSK-03_1245_111298",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1333_113193",
@@ -40610,10 +40685,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113193",
     "throughTripId": "HD_INB_TSK-30_1341_113193",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-10_1334_112581",
@@ -40928,10 +41003,10 @@
       }
     ],
     "trainId": "112954",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_1308_114130",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_INB_TI-25_1350_112855",
@@ -41041,11 +41116,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112855",
     "prevTripId": "HD_INB_TI-46_1424_114015",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "HD_OUT_TSK-30_1351_111300",
@@ -41078,10 +41153,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111300",
     "prevTripId": "HD_OUT_TSK-03_1305_111300",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1353_113195",
@@ -41114,10 +41189,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113195",
     "throughTripId": "HD_INB_TSK-30_1401_113195",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_1357_112900",
@@ -41354,10 +41429,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111302",
     "prevTripId": "HD_OUT_TSK-03_1325_111302",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1413_113199",
@@ -41390,10 +41465,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113199",
     "throughTripId": "HD_INB_TSK-30_1421_113199",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-02_1418_112525",
@@ -41536,6 +41611,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1817レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう17号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -41670,6 +41746,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1828レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう28号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -41830,10 +41907,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111305",
     "prevTripId": "HD_OUT_TSK-03_1345_111305",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1433_113201",
@@ -41866,10 +41943,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113201",
     "throughTripId": "HD_INB_TSK-30_1441_113201",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-10_1434_112582",
@@ -42184,10 +42261,10 @@
       }
     ],
     "trainId": "112955",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_1408_114131",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_INB_TI-25_1446_112856",
@@ -42297,11 +42374,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112856",
     "prevTripId": "HD_INB_TI-46_1520_114016",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "HD_OUT_TSK-30_1451_111307",
@@ -42334,10 +42411,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111307",
     "prevTripId": "HD_OUT_TSK-03_1405_111307",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1453_113203",
@@ -42370,10 +42447,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113203",
     "throughTripId": "HD_INB_TSK-30_1503_113203",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_1457_112906",
@@ -42610,10 +42687,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111309",
     "prevTripId": "HD_OUT_TSK-03_1425_111309",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1513_113208",
@@ -42646,10 +42723,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113208",
     "throughTripId": "HD_INB_TSK-30_1521_113208",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_1517_112908",
@@ -42792,6 +42869,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1830レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう30号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -42926,6 +43004,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1819レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう19号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -43086,10 +43165,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111311",
     "prevTripId": "HD_OUT_TSK-03_1445_111311",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-10_1532_112583",
@@ -43232,10 +43311,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113242",
     "throughTripId": "HD_INB_TSK-30_1541_113242",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_1537_112911",
@@ -43372,10 +43451,10 @@
       }
     ],
     "trainId": "112956",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_1506_114132",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TI-02_1538_112529",
@@ -43476,10 +43555,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111259",
     "prevTripId": "HD_OUT_TSK-03_1455_111259",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1553_113171",
@@ -43512,10 +43591,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113171",
     "throughTripId": "HD_INB_TSK-30_1602_113171",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-02_1554_112530",
@@ -43590,6 +43669,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1432レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう32号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -43712,10 +43792,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "太田",
     "trainId": "112828",
     "throughTripId": "HD_INB_TSK-30_1646_112828",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "太田"
   },
   {
     "tripId": "HD_INB_TI-25_1557_112857",
@@ -43826,10 +43906,10 @@
       }
     ],
     "trainId": "112857",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_1609_114134",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_INB_TI-10_1558_112913",
@@ -44014,6 +44094,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1421レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう21号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -44136,10 +44217,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "太田",
     "trainId": "112293",
     "prevTripId": "HD_OUT_TSK-01_1520_112293",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "太田"
   },
   {
     "tripId": "HD_OUT_TSK-30_1601_111261",
@@ -44172,10 +44253,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111261",
     "prevTripId": "HD_OUT_TSK-03_1515_111261",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-18_1601_112957",
@@ -44244,10 +44325,10 @@
       }
     ],
     "trainId": "112957",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_1541_114133",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TI-10_1608_112585",
@@ -44458,10 +44539,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113213",
     "throughTripId": "HD_INB_TSK-30_1621_113213",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-02_1617_112531",
@@ -44562,16 +44643,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111263",
     "prevTripId": "HD_OUT_TSK-03_1535_111263",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-18_1625_116477",
     "lineId": "tobu_isesaki",
     "trainNumber": "1834レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう34号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -44706,6 +44788,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1823レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう23号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -44944,10 +45027,10 @@
       }
     ],
     "trainId": "112858",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_1641_114135",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_INB_TI-02_1633_113246",
@@ -44980,10 +45063,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113246",
     "throughTripId": "HD_INB_TSK-30_1641_113246",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_1635_112916",
@@ -45262,10 +45345,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111265",
     "prevTripId": "HD_OUT_TSK-03_1555_111265",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_1652_112918",
@@ -45366,10 +45449,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113217",
     "throughTripId": "HD_INB_TSK-30_1700_113217",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-02_1654_112533",
@@ -45444,6 +45527,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1436レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう36号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -45566,16 +45650,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "太田",
     "trainId": "112829",
     "throughTripId": "HD_INB_TSK-30_1746_112829",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "太田"
   },
   {
     "tripId": "HD_OUT_TSK-30_1658_112294",
     "lineId": "tobu_isesaki",
     "trainNumber": "1425レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう25号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -45698,10 +45783,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "太田",
     "trainId": "112294",
     "prevTripId": "HD_OUT_TSK-01_1620_112294",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "太田"
   },
   {
     "tripId": "HD_INB_TI-25_1700_112859",
@@ -45812,10 +45897,10 @@
       }
     ],
     "trainId": "112859",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_1711_114136",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TSK-30_1703_111267",
@@ -45848,10 +45933,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111267",
     "prevTripId": "HD_OUT_TSK-03_1615_111267",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1705_113247",
@@ -45884,10 +45969,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113247",
     "throughTripId": "HD_INB_TSK-30_1712_113247",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-10_1707_112587",
@@ -46166,10 +46251,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111269",
     "prevTripId": "HD_OUT_TSK-03_1635_111269",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1724_113219",
@@ -46202,16 +46287,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113219",
     "throughTripId": "HD_INB_TSK-30_1731_113219",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-18_1728_116478",
     "lineId": "tobu_isesaki",
     "trainNumber": "1838レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう38号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -46346,6 +46432,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1827レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう27号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -46584,10 +46671,10 @@
       }
     ],
     "trainId": "112860",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_1740_114137",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_INB_TI-10_1735_112923",
@@ -46866,10 +46953,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111270",
     "prevTripId": "HD_OUT_TSK-03_1655_111270",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1746_113222",
@@ -46902,16 +46989,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113222",
     "throughTripId": "HD_INB_TSK-30_1754_113222",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TSK-30_1750_112298",
     "lineId": "tobu_isesaki",
     "trainNumber": "1429レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう29号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -47034,10 +47122,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "太田",
     "trainId": "112298",
     "prevTripId": "HD_OUT_TSK-01_1709_112298",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "太田"
   },
   {
     "tripId": "HD_INB_TI-10_1752_112925",
@@ -47112,6 +47200,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1440レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう40号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -47234,10 +47323,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "太田",
     "trainId": "112830",
     "throughTripId": "HD_INB_TSK-30_1846_112830",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "太田"
   },
   {
     "tripId": "HD_INB_TI-25_1758_112861",
@@ -47348,10 +47437,10 @@
       }
     ],
     "trainId": "112861",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_1806_114138",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TI-02_1800_112536",
@@ -47452,10 +47541,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111273",
     "prevTripId": "HD_OUT_TSK-03_1715_111273",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1806_113248",
@@ -47488,10 +47577,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113248",
     "throughTripId": "HD_INB_TSK-30_1813_113248",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_1808_112926",
@@ -47848,16 +47937,17 @@
       }
     ],
     "trainId": "112862",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_1839_114139",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TSK-30_1820_116461",
     "lineId": "tobu_isesaki",
     "trainNumber": "1831レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう31号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -48018,10 +48108,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113225",
     "throughTripId": "HD_INB_TSK-30_1831_113225",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TSK-30_1823_111275",
@@ -48054,10 +48144,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111275",
     "prevTripId": "HD_OUT_TSK-03_1735_111275",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_1823_112928",
@@ -48132,6 +48222,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1842レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう42号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -48586,10 +48677,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112315",
     "prevTripId": "HD_OUT_TSK-01_1722_112315",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-02_1844_113228",
@@ -48622,10 +48713,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113228",
     "throughTripId": "HD_INB_TSK-30_1852_113228",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TSK-30_1845_111312",
@@ -48658,10 +48749,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111312",
     "prevTripId": "HD_OUT_TSK-03_1755_111312",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-25_1849_112863",
@@ -48771,17 +48862,18 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "西小泉",
     "trainId": "112863",
     "prevTripId": "HD_INB_TI-46_1854_114023",
-    "prevLineId": "tobu_koizumi"
+    "prevLineId": "tobu_koizumi",
+    "customDestination": "館林",
+    "customOrigin": "西小泉"
   },
   {
     "tripId": "HD_OUT_TSK-30_1850_112299",
     "lineId": "tobu_isesaki",
     "trainNumber": "1433レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう33号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -48904,10 +48996,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "太田",
     "trainId": "112299",
     "prevTripId": "HD_OUT_TSK-01_1809_112299",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "太田"
   },
   {
     "tripId": "HD_INB_TI-10_1852_112932",
@@ -49056,16 +49148,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112317",
     "prevTripId": "HD_OUT_TSK-01_1742_112317",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-18_1854_112831",
     "lineId": "tobu_isesaki",
     "trainNumber": "1444レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう44号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -49188,10 +49281,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "太田",
     "trainId": "112831",
     "throughTripId": "HD_INB_TSK-30_1946_112831",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "太田"
   },
   {
     "tripId": "HD_OUT_TI-10_1854_112591",
@@ -49334,10 +49427,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111276",
     "prevTripId": "HD_OUT_TSK-03_1815_111276",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1904_113252",
@@ -49370,10 +49463,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113252",
     "throughTripId": "HD_INB_TSK-30_1912_113252",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-10_1906_112592",
@@ -49662,10 +49755,10 @@
       }
     ],
     "trainId": "112864",
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "prevTripId": "HD_INB_TI-39_1912_114140",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TI-02_1915_112540",
@@ -49740,6 +49833,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1835レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう35号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -49900,10 +49994,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111315",
     "prevTripId": "HD_OUT_TSK-03_1835_111315",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1923_113230",
@@ -49936,16 +50030,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113230",
     "throughTripId": "HD_INB_TSK-30_1933_113230",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-18_1925_116480",
     "lineId": "tobu_isesaki",
     "trainNumber": "1846レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう46号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -50400,10 +50495,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112319",
     "prevTripId": "HD_OUT_TSK-01_1822_112319",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-25_1940_112865",
@@ -50513,11 +50608,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112865",
     "prevTripId": "HD_INB_TI-39_1939_114141",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TSK-30_1943_111318",
@@ -50550,10 +50645,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111318",
     "prevTripId": "HD_OUT_TSK-03_1855_111318",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_1945_113231",
@@ -50586,16 +50681,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113231",
     "throughTripId": "HD_INB_TSK-30_1954_113231",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TSK-30_1950_116463",
     "lineId": "tobu_isesaki",
     "trainNumber": "1837レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう37号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -50872,10 +50968,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112320",
     "prevTripId": "HD_OUT_TSK-01_1842_112320",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_OUT_TI-10_1953_112564",
@@ -50950,6 +51046,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1448レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう48号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -51072,10 +51169,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "太田",
     "trainId": "112832",
     "throughTripId": "HD_INB_TSK-30_2046_112832",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "太田"
   },
   {
     "tripId": "HD_OUT_TSK-30_2004_111277",
@@ -51108,10 +51205,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111277",
     "prevTripId": "HD_OUT_TSK-03_1915_111277",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_2004_113255",
@@ -51144,10 +51241,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113255",
     "throughTripId": "HD_INB_TSK-30_2011_113255",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_2005_112939",
@@ -51435,11 +51532,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112866",
     "prevTripId": "HD_INB_TI-39_2010_114142",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TI-02_2016_112545",
@@ -51514,6 +51611,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1339レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう39号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-25",
@@ -51678,10 +51776,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "伊勢崎",
     "trainId": "112301",
     "prevTripId": "HD_OUT_TSK-01_1939_112301",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "伊勢崎"
   },
   {
     "tripId": "HD_OUT_TSK-30_2024_111322",
@@ -51714,10 +51812,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111322",
     "prevTripId": "HD_OUT_TSK-03_1935_111322",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_2024_113256",
@@ -51750,16 +51848,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113256",
     "throughTripId": "HD_INB_TSK-30_2033_113256",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-18_2025_116481",
     "lineId": "tobu_isesaki",
     "trainNumber": "1850レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう50号",
     "direction": "inbound",
     "originStationId": "TI-18",
     "destinationStationId": "TSK-30",
@@ -52166,10 +52265,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "112303",
     "prevTripId": "HD_OUT_TSK-01_1922_112303",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-02_2043_113234",
@@ -52202,10 +52301,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113234",
     "throughTripId": "HD_INB_TSK-30_2050_113234",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_INB_TI-25_2045_112867",
@@ -52315,17 +52414,18 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112867",
     "prevTripId": "HD_INB_TI-39_2046_114143",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TSK-30_2050_116464",
     "lineId": "tobu_isesaki",
     "trainNumber": "1841レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう41号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -52614,10 +52714,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112321",
     "prevTripId": "HD_OUT_TSK-01_1942_112321",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-02_2058_112781",
@@ -52650,10 +52750,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "112781",
     "throughTripId": "HD_INB_TSK-30_2106_112781",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TI-10_2103_112596",
@@ -52796,10 +52896,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111251",
     "prevTripId": "HD_OUT_TSK-03_2015_111251",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-25_2110_112868",
@@ -52909,11 +53009,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112868",
     "prevTripId": "HD_INB_TI-39_2119_114144",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_INB_TI-10_2114_112943",
@@ -53056,6 +53156,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1643レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう43号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-10",
@@ -53216,10 +53317,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112323",
     "prevTripId": "HD_OUT_TSK-01_2022_112323",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_OUT_TI-10_2132_112597",
@@ -53439,11 +53540,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112869",
     "prevTripId": "HD_INB_TI-39_2150_114145",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TSK-30_2144_111326",
@@ -53476,10 +53577,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "久喜",
     "trainId": "111326",
     "prevTripId": "HD_OUT_TSK-03_2055_111326",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "久喜"
   },
   {
     "tripId": "HD_INB_TI-10_2144_112947",
@@ -53592,16 +53693,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "久喜",
     "trainId": "113238",
     "throughTripId": "HD_INB_TSK-30_2155_113238",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "久喜"
   },
   {
     "tripId": "HD_OUT_TSK-30_2150_116465",
     "lineId": "tobu_isesaki",
     "trainNumber": "1845レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう45号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -53964,10 +54066,10 @@
       }
     ],
     "trainId": "112835",
-    "customDestination": "太田",
-    "customOrigin": "赤城",
     "prevTripId": "HD_INB_TI-57_2129_114054",
-    "prevLineId": "tobu_kiryu"
+    "prevLineId": "tobu_kiryu",
+    "customDestination": "太田",
+    "customOrigin": "赤城"
   },
   {
     "tripId": "HD_OUT_TI-02_2159_112550",
@@ -54116,10 +54218,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112341",
     "prevTripId": "HD_OUT_TSK-01_2112_112341",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-10_2210_112823",
@@ -54200,10 +54302,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112823",
     "throughTripId": "HD_INB_TSK-30_2247_112823",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_INB_TI-25_2215_112870",
@@ -54313,17 +54415,18 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112870",
     "prevTripId": "HD_INB_TI-39_2213_114146",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TSK-30_2220_112300",
     "lineId": "tobu_isesaki",
     "trainNumber": "1447レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう47号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-18",
@@ -54446,10 +54549,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "太田",
     "trainId": "112300",
     "prevTripId": "HD_OUT_TSK-01_2139_112300",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "太田"
   },
   {
     "tripId": "HD_OUT_TI-10_2223_112599",
@@ -54640,10 +54743,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112342",
     "prevTripId": "HD_OUT_TSK-01_2132_112342",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-10_2234_112814",
@@ -54724,10 +54827,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "館林",
     "trainId": "112814",
     "throughTripId": "HD_INB_TSK-30_2311_112814",
-    "throughLineId": "tobu_skytree"
+    "throughLineId": "tobu_skytree",
+    "customOrigin": "館林"
   },
   {
     "tripId": "HD_INB_TI-25_2241_112871",
@@ -54837,11 +54940,11 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
-    "customOrigin": "葛生",
     "trainId": "112871",
     "prevTripId": "HD_INB_TI-39_2302_114147",
-    "prevLineId": "tobu_sano"
+    "prevLineId": "tobu_sano",
+    "customDestination": "館林",
+    "customOrigin": "葛生"
   },
   {
     "tripId": "HD_OUT_TSK-30_2249_112343",
@@ -54922,10 +55025,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112343",
     "prevTripId": "HD_OUT_TSK-01_2152_112343",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_OUT_TI-10_2252_112600",
@@ -55042,6 +55145,7 @@
     "lineId": "tobu_isesaki",
     "trainNumber": "1549レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう49号",
     "direction": "outbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TI-10",
@@ -55116,10 +55220,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112297",
     "prevTripId": "HD_OUT_TSK-01_2219_112297",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_INB_TI-25_2306_112836",
@@ -55182,10 +55286,10 @@
       }
     ],
     "trainId": "112836",
-    "customDestination": "太田",
-    "customOrigin": "赤城",
     "prevTripId": "HD_INB_TI-57_2244_114056",
-    "prevLineId": "tobu_kiryu"
+    "prevLineId": "tobu_kiryu",
+    "customDestination": "太田",
+    "customOrigin": "赤城"
   },
   {
     "tripId": "HD_OUT_TI-10_2314_112565",
@@ -55334,10 +55438,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112327",
     "prevTripId": "HD_OUT_TSK-01_2212_112327",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_OUT_TI-10_2330_112566",
@@ -55486,10 +55590,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112344",
     "prevTripId": "HD_OUT_TSK-01_2242_112344",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   },
   {
     "tripId": "HD_OUT_TSK-30_2355_112345",
@@ -55570,9 +55674,9 @@
         "isPassing": false
       }
     ],
-    "customDestination": "館林",
     "trainId": "112345",
     "prevTripId": "HD_OUT_TSK-01_2301_112345",
-    "prevLineId": "tobu_skytree"
+    "prevLineId": "tobu_skytree",
+    "customDestination": "館林"
   }
 ]

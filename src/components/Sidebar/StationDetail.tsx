@@ -217,8 +217,13 @@ export const StationDetail: React.FC<StationDetailProps> = ({
                       }`}
                     >
                       {/* 種別 */}
-                      <div className="col-span-3">
+                      <div className="col-span-3 flex items-center gap-1 overflow-hidden">
                         <TrainTypeBadge type={trip.trainType} size="sm" lineId={station.lineId} />
+                        {(trip.trainName || liveTrain?.trainName) && (
+                          <span className="text-[10px] text-amber-300 font-bold truncate">
+                            {trip.trainName || liveTrain?.trainName}
+                          </span>
+                        )}
                       </div>
 
                       {/* 時刻 */}

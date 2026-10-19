@@ -64,6 +64,7 @@ for (const { trainId, isHoliday, prefix } of azusa38Defs) {
     lineId: 'shinonoi',
     trainId,
     trainNumber: '38M',
+    trainName: 'あずさ38号',
     trainType: 'limitedExp',
     direction: 'inbound',
     originStationId: 'SN-06',
@@ -124,6 +125,7 @@ for (const { trainId, isHoliday, prefix } of azusa38Defs) {
       tripId: chuoMainTripId,
       trainId,
       trainNumber: '38M',
+      trainName: 'あずさ38号',
       trainType: 'limitedExp',
       direction: 'inbound',
       originStationId: 'CO-61',
@@ -162,6 +164,7 @@ const outboundNonstopDefs = [
     isHoliday: false,
     prefix: 'WD',
     trainNumber: '9M',
+    trainName: 'あずさ9号',
     cmTripId: 'cm_WD_OUT_JC-05_0900_6862',
     snTripId: 'sn_WD_OUT_SN-01_1130_6862',
     times: {
@@ -182,6 +185,7 @@ const outboundNonstopDefs = [
     isHoliday: true,
     prefix: 'HD',
     trainNumber: '9M',
+    trainName: 'あずさ9号',
     cmTripId: 'cm_HD_OUT_JC-05_0900_6861',
     snTripId: 'sn_HD_OUT_SN-01_1130_6861',
     times: {
@@ -203,6 +207,7 @@ const outboundNonstopDefs = [
     isHoliday: false,
     prefix: 'WD',
     trainNumber: '37M',
+    trainName: 'あずさ37号',
     cmTripId: 'cm_WD_OUT_JC-05_1600_6864',
     snTripId: 'sn_WD_OUT_SN-01_1820_6864',
     times: {
@@ -223,6 +228,7 @@ const outboundNonstopDefs = [
     isHoliday: true,
     prefix: 'HD',
     trainNumber: '37M',
+    trainName: 'あずさ37号',
     cmTripId: 'cm_HD_OUT_JC-05_1600_6863',
     snTripId: 'sn_HD_OUT_SN-01_1820_6863',
     times: {
@@ -241,7 +247,7 @@ const outboundNonstopDefs = [
 ];
 
 for (const def of outboundNonstopDefs) {
-  const { trainId, isHoliday, trainNumber, cmTripId, snTripId, times } = def;
+  const { trainId, isHoliday, trainNumber, trainName, cmTripId, snTripId, times } = def;
 
   // 中央本線トリップ延伸 (上諏訪 -> 塩尻)
   const cmTrip = chuoMainTrips.find((t) => t.tripId === cmTripId || t.trainId === trainId);
@@ -249,6 +255,7 @@ for (const def of outboundNonstopDefs) {
     cmTrip.destinationStationId = 'CO-61';
     cmTrip.customOrigin = '新宿';
     cmTrip.customDestination = '松本';
+    cmTrip.trainName = trainName;
     cmTrip.throughTripId = snTripId;
     cmTrip.throughLineId = 'shinonoi';
 
@@ -280,6 +287,7 @@ for (const def of outboundNonstopDefs) {
     lineId: 'shinonoi',
     trainId,
     trainNumber,
+    trainName,
     trainType: 'limitedExp',
     direction: 'outbound',
     originStationId: 'SN-01',

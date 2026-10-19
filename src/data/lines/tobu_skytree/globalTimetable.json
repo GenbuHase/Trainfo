@@ -829,10 +829,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25146",
     "throughTripId": "WD_OUT_TSK-30_0548_25146",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_0458_112350",
@@ -1245,10 +1245,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "北春日部",
     "trainId": "112347",
     "throughTripId": "WD_OUT_TSK-30_0512_112347",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "北春日部"
   },
   {
     "tripId": "WD_INB_TSK-14_0508_113265",
@@ -1871,10 +1871,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112328",
     "throughTripId": "WD_OUT_TSK-30_0605_112328",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_0512_113025",
@@ -2875,10 +2875,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "北千住",
     "trainId": "25108",
     "throughTripId": "WD_OUT_TSK-30_0621_25108",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "北千住"
   },
   {
     "tripId": "WD_INB_TSK-30_0529_113466",
@@ -3214,10 +3214,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112329",
     "throughTripId": "WD_OUT_TSK-30_0620_112329",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_0530_112607",
@@ -3436,6 +3436,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1002レ",
     "trainType": "th_liner",
+    "trainName": "スカイツリーライナー2号",
     "direction": "inbound",
     "originStationId": "TSK-27",
     "destinationStationId": "TSK-01",
@@ -3788,10 +3789,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112785",
     "prevTripId": "WD_INB_TI-10_0458_112785",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_0537_113148",
@@ -4010,10 +4011,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "北春日部",
     "trainId": "112348",
     "throughTripId": "WD_OUT_TSK-30_0543_112348",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "北春日部"
   },
   {
     "tripId": "WD_INB_TSK-22_0542_113319",
@@ -5095,11 +5096,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1502レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう2号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "館林",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -5277,10 +5279,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112783",
     "prevTripId": "WD_INB_TI-10_0526_112783",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_0558_112354",
@@ -6231,10 +6233,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112787",
     "prevTripId": "WD_INB_TI-10_0527_112787",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_0607_113141",
@@ -6996,10 +6998,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25134",
     "throughTripId": "WD_OUT_TSK-30_0724_25134",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_0616_112612",
@@ -7251,11 +7253,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1206レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん206号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "新栃木",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -7433,10 +7436,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38076",
     "prevTripId": "WD_INB_TN-12_0539_38076",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-14_0619_113269",
@@ -7494,6 +7497,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "A4643T",
     "trainType": "th_liner",
+    "trainName": "THライナー2号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-20",
@@ -8222,6 +8226,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1001レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん1号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -8404,6 +8409,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25128",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-01",
@@ -8413,16 +8419,16 @@
       "coupledCars": 3,
       "coupledDestination": "会津田島"
     },
-    "customOrigin": "浅草",
-    "trainId": "25128",
     "throughTripId": "WD_OUT_TSK-30_0709_25128",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_0630_25154",
     "lineId": "tobu_skytree",
     "trainNumber": "1101レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津101号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -8605,6 +8611,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25154",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-01",
@@ -8614,10 +8621,9 @@
       "coupledCars": 3,
       "coupledDestination": "東武日光"
     },
-    "customOrigin": "浅草",
-    "trainId": "25154",
     "throughTripId": "WD_OUT_TSK-30_0709_25154",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_0630_112614",
@@ -8967,10 +8973,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112789",
     "prevTripId": "WD_INB_TI-10_0553_112789",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-03_0634_111468",
@@ -9310,6 +9316,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1404レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう4号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -9492,10 +9499,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112833",
     "prevTripId": "WD_INB_TI-18_0542_112833",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-14_0637_112509",
@@ -10399,10 +10406,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112790",
     "prevTripId": "WD_INB_TI-10_0606_112790",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_0646_77698",
@@ -10762,11 +10769,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1801レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう1号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -10944,10 +10952,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116452",
     "throughTripId": "WD_OUT_TSK-30_0729_116452",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_0650_112332",
@@ -11136,10 +11144,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112332",
     "throughTripId": "WD_OUT_TSK-30_0743_112332",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_0650_77642",
@@ -11245,11 +11253,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1008レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん8号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "南栗橋",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -11861,10 +11870,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112791",
     "prevTripId": "WD_INB_TI-10_0616_112791",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_0655_77700",
@@ -12923,10 +12932,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112333",
     "throughTripId": "WD_OUT_TSK-30_0756_112333",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-28_0703_113437",
@@ -13411,10 +13420,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112794",
     "prevTripId": "WD_INB_TI-10_0627_112794",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-03_0705_111334",
@@ -14311,10 +14320,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112335",
     "throughTripId": "WD_OUT_TSK-30_0804_112335",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_0710_77704",
@@ -15223,10 +15232,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112795",
     "prevTripId": "WD_INB_TI-10_0636_112795",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_0716_113050",
@@ -15601,10 +15610,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112304",
     "throughTripId": "WD_OUT_TSK-30_0823_112304",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-03_0719_111459",
@@ -16360,10 +16369,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112798",
     "prevTripId": "WD_INB_TI-10_0645_112798",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-14_0724_113279",
@@ -16972,6 +16981,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1806レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう6号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -17154,16 +17164,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116483",
     "prevTripId": "WD_INB_TI-18_0636_116483",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_0730_116488",
     "lineId": "tobu_skytree",
     "trainNumber": "1105レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ105号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -17346,10 +17357,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116488",
     "throughTripId": "WD_OUT_TSK-30_0811_116488",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_0732_113551",
@@ -17688,10 +17699,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112306",
     "throughTripId": "WD_OUT_TSK-30_0844_112306",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-03_0734_111461",
@@ -18162,10 +18173,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112800",
     "prevTripId": "WD_INB_TI-10_0652_112800",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_0737_113342",
@@ -18322,6 +18333,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1803レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう3号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -18504,10 +18516,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116453",
     "throughTripId": "WD_OUT_TSK-30_0820_116453",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_0740_113054",
@@ -19169,10 +19181,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112802",
     "prevTripId": "WD_INB_TI-10_0704_112802",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_0744_113343",
@@ -20067,6 +20079,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1007レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX1号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -20249,10 +20262,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25110",
     "throughTripId": "WD_OUT_TSK-30_0832_25110",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-03_0751_111252",
@@ -20876,10 +20889,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112308",
     "throughTripId": "WD_OUT_TSK-30_0904_112308",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_0754_112804",
@@ -21068,10 +21081,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112804",
     "prevTripId": "WD_INB_TI-10_0715_112804",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_0756_113347",
@@ -21919,10 +21932,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112805",
     "prevTripId": "WD_INB_TI-10_0725_112805",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-03_0805_111400",
@@ -22397,6 +22410,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1110レ",
     "trainType": "limitedExp",
+    "trainName": "きぬ110号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -22579,10 +22593,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116503",
     "prevTripId": "WD_INB_TN-23_0702_116503",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_0810_38068",
@@ -22771,10 +22785,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38068",
     "prevTripId": "WD_INB_TN-03_0754_38068",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_0811_112494",
@@ -23143,11 +23157,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1808レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう8号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -23325,10 +23340,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116485",
     "prevTripId": "WD_INB_TI-18_0726_116485",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_0815_113352",
@@ -23901,10 +23916,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112807",
     "prevTripId": "WD_INB_TI-10_0735_112807",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_0821_112310",
@@ -24093,16 +24108,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112310",
     "throughTripId": "WD_OUT_TSK-30_0931_112310",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_0821_175033",
     "lineId": "tobu_skytree",
     "trainNumber": "A4845T",
     "trainType": "th_liner",
+    "trainName": "THライナー4号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-20",
@@ -24864,10 +24880,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112809",
     "prevTripId": "WD_INB_TI-10_0747_112809",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_0828_113027",
@@ -25195,6 +25211,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1109レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ109号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -25377,10 +25394,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116489",
     "throughTripId": "WD_OUT_TSK-30_0912_116489",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_0832_25148",
@@ -25569,10 +25586,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25148",
     "throughTripId": "WD_OUT_TSK-30_0931_25148",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-14_0832_113282",
@@ -26196,10 +26213,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112810",
     "prevTripId": "WD_INB_TI-10_0758_112810",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-03_0837_111281",
@@ -26491,6 +26508,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1805レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう5号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -26673,16 +26691,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116454",
     "throughTripId": "WD_OUT_TSK-30_0920_116454",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_0842_112782",
     "lineId": "tobu_skytree",
     "trainNumber": "1310レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう10号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -26865,10 +26884,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112782",
     "prevTripId": "WD_INB_TI-25_0722_112782",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_0843_112360",
@@ -27119,10 +27138,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38070",
     "prevTripId": "WD_INB_TN-03_0828_38070",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_0845_77724",
@@ -27923,6 +27942,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1012レ",
     "trainType": "limitedExp",
+    "trainName": "けごん12号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -28105,10 +28125,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38064",
     "prevTripId": "WD_INB_TN-25_0737_38064",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_0852_113034",
@@ -28663,10 +28683,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112812",
     "prevTripId": "WD_INB_TI-10_0819_112812",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_0857_77645",
@@ -28724,6 +28744,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1011レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX3号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -28906,10 +28927,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25113",
     "throughTripId": "WD_OUT_TSK-30_0941_25113",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_0900_77728",
@@ -29620,10 +29641,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25139",
     "throughTripId": "WD_OUT_TSK-30_1016_25139",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_0904_113361",
@@ -29780,11 +29801,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1612レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう12号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "葛生",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -29962,10 +29984,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116487",
     "prevTripId": "WD_INB_TI-10_0837_116487",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-03_0910_111332",
@@ -30439,10 +30461,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112312",
     "throughTripId": "WD_OUT_TSK-30_1026_112312",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_0913_112764",
@@ -31466,11 +31488,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1814レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう14号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -31648,10 +31671,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116468",
     "prevTripId": "WD_INB_TI-18_0836_116468",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_0925_113365",
@@ -32141,6 +32164,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1013レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん13号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -32323,6 +32347,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25116",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-01",
@@ -32332,16 +32357,16 @@
       "coupledCars": 3,
       "coupledDestination": "会津田島"
     },
-    "customOrigin": "浅草",
-    "trainId": "25116",
     "throughTripId": "WD_OUT_TSK-30_1011_25116",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_0930_25151",
     "lineId": "tobu_skytree",
     "trainNumber": "1113レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津113号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -32524,6 +32549,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25151",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-01",
@@ -32533,10 +32559,9 @@
       "coupledCars": 3,
       "coupledDestination": "東武日光"
     },
-    "customOrigin": "浅草",
-    "trainId": "25151",
     "throughTripId": "WD_OUT_TSK-30_1011_25151",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-03_0930_111338",
@@ -33171,10 +33196,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112818",
     "prevTripId": "WD_INB_TI-10_0852_112818",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_0937_77648",
@@ -33379,6 +33404,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1807レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう7号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -33561,10 +33587,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116455",
     "throughTripId": "WD_OUT_TSK-30_1020_116455",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_0943_112366",
@@ -34262,6 +34288,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1816レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう16号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -34444,10 +34471,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116469",
     "prevTripId": "WD_INB_TI-18_0900_116469",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_0948_77649",
@@ -35595,6 +35622,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1015レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX5号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -35777,10 +35805,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25117",
     "throughTripId": "WD_OUT_TSK-30_1040_25117",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1000_77856",
@@ -36365,6 +36393,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1014レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん14号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -36547,6 +36576,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "38046",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-30",
@@ -36556,16 +36586,16 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "38046",
     "prevTripId": "WD_INB_TN-25_0850_38046",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1003_116504",
     "lineId": "tobu_skytree",
     "trainNumber": "1114レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ114号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -36748,6 +36778,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "116504",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-30",
@@ -36757,10 +36788,9 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "116504",
     "prevTripId": "WD_INB_TN-23_0905_116504",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_1004_113372",
@@ -37285,10 +37315,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112819",
     "prevTripId": "WD_INB_TI-10_0930_112819",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1011_77816",
@@ -37839,11 +37869,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1818レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう18号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -38021,10 +38052,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116470",
     "prevTripId": "WD_INB_TI-18_0931_116470",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1018_77858",
@@ -38178,11 +38209,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1409レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう9号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "太田",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -38360,10 +38392,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112295",
     "throughTripId": "WD_OUT_TSK-30_1059_112295",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1020_113261",
@@ -39349,6 +39381,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1116レ",
     "trainType": "limitedExp",
+    "trainName": "きぬ116号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -39531,10 +39564,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116498",
     "prevTripId": "WD_INB_TN-23_0934_116498",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_1034_112625",
@@ -40963,6 +40996,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1811レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう11号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -41145,10 +41179,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116456",
     "throughTripId": "WD_OUT_TSK-30_1129_116456",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_1052_112380",
@@ -42095,6 +42129,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1019レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん19号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -42277,6 +42312,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25120",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-01",
@@ -42286,16 +42322,16 @@
       "coupledCars": 3,
       "coupledDestination": "会津田島"
     },
-    "customOrigin": "浅草",
-    "trainId": "25120",
     "throughTripId": "WD_OUT_TSK-30_1141_25120",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_1100_25152",
     "lineId": "tobu_skytree",
     "trainNumber": "1119レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津119号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -42478,6 +42514,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25152",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-01",
@@ -42487,10 +42524,9 @@
       "coupledCars": 3,
       "coupledDestination": "東武日光"
     },
-    "customOrigin": "浅草",
-    "trainId": "25152",
     "throughTripId": "WD_OUT_TSK-30_1141_25152",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_1102_112382",
@@ -43943,6 +43979,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1820レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう20号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -44125,10 +44162,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116471",
     "prevTripId": "WD_INB_TI-18_1029_116471",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1118_77867",
@@ -45072,6 +45109,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1021レ",
     "trainType": "limitedExp",
+    "trainName": "けごん21号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -45254,16 +45292,17 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25121",
     "throughTripId": "WD_OUT_TSK-30_1211_25121",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1131_38048",
     "lineId": "tobu_skytree",
     "trainNumber": "1020レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX2号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -45446,10 +45485,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38048",
     "prevTripId": "WD_INB_TN-25_1020_38048",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_1132_112388",
@@ -47012,11 +47051,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1813レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう13号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -47194,10 +47234,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116457",
     "throughTripId": "WD_OUT_TSK-30_1229_116457",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1151_113068",
@@ -47452,6 +47492,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1122レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ122号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -47634,10 +47675,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116499",
     "prevTripId": "WD_INB_TN-23_1052_116499",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_1154_112639",
@@ -49595,6 +49636,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1822レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう22号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -49777,10 +49819,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116472",
     "prevTripId": "WD_INB_TI-18_1129_116472",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1218_77876",
@@ -50724,6 +50766,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1123レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX7号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -50906,10 +50949,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116492",
     "throughTripId": "WD_OUT_TSK-30_1311_116492",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1231_113072",
@@ -51164,6 +51207,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1124レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ124号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -51346,10 +51390,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116500",
     "prevTripId": "WD_INB_TN-23_1135_116500",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_1234_112647",
@@ -52664,11 +52708,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1815レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう15号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -52846,10 +52891,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116458",
     "throughTripId": "WD_OUT_TSK-30_1329_116458",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1251_113074",
@@ -53646,6 +53691,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1025レ",
     "trainType": "limitedExp",
+    "trainName": "けごん25号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -53828,10 +53874,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25122",
     "throughTripId": "WD_OUT_TSK-30_1341_25122",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1301_113188",
@@ -54086,6 +54132,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1026レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX4号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -54268,10 +54315,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38049",
     "prevTripId": "WD_INB_TN-25_1155_38049",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_1304_112652",
@@ -55439,6 +55486,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1824レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう24号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -55621,10 +55669,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116473",
     "prevTripId": "WD_INB_TI-18_1230_116473",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1318_77883",
@@ -56568,6 +56616,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1027レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん27号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -56750,6 +56799,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25123",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-01",
@@ -56759,16 +56809,16 @@
       "coupledCars": 3,
       "coupledDestination": "鬼怒川温泉"
     },
-    "customOrigin": "浅草",
-    "trainId": "25123",
     "throughTripId": "WD_OUT_TSK-30_1411_25123",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_1330_116490",
     "lineId": "tobu_skytree",
     "trainNumber": "1127レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ127号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -56951,6 +57001,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "116490",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-01",
@@ -56960,10 +57011,9 @@
       "coupledCars": 3,
       "coupledDestination": "東武日光"
     },
-    "customOrigin": "浅草",
-    "trainId": "116490",
     "throughTripId": "WD_OUT_TSK-30_1411_116490",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1331_113077",
@@ -57218,6 +57268,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1028レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん28号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -57400,6 +57451,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "38050",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-30",
@@ -57409,16 +57461,16 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "38050",
     "prevTripId": "WD_INB_TN-25_1218_38050",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1333_42865",
     "lineId": "tobu_skytree",
     "trainNumber": "1128レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津128号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -57601,6 +57653,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "42865",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-30",
@@ -57610,10 +57663,9 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "42865",
     "prevTripId": "WD_INB_TN-23_1235_42865",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_1334_112659",
@@ -58928,6 +58980,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1817レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう17号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -59110,10 +59163,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116459",
     "throughTripId": "WD_OUT_TSK-30_1429_116459",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1351_113080",
@@ -59910,6 +59963,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1129レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX9号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -60092,10 +60146,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116493",
     "throughTripId": "WD_OUT_TSK-30_1441_116493",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1401_113196",
@@ -60350,6 +60404,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1030レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX6号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -60532,10 +60587,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38051",
     "prevTripId": "WD_INB_TN-25_1255_38051",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_1404_112665",
@@ -61703,6 +61758,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1826レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう26号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -61885,10 +61941,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116474",
     "prevTripId": "WD_INB_TI-18_1330_116474",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1418_77892",
@@ -62832,6 +62888,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1031レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん31号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -63014,6 +63071,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25124",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-01",
@@ -63023,16 +63081,16 @@
       "coupledCars": 3,
       "coupledDestination": "会津田島"
     },
-    "customOrigin": "浅草",
-    "trainId": "25124",
     "throughTripId": "WD_OUT_TSK-30_1510_25124",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_1430_25153",
     "lineId": "tobu_skytree",
     "trainNumber": "1131レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津131号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -63215,6 +63273,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25153",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-01",
@@ -63224,10 +63283,9 @@
       "coupledCars": 3,
       "coupledDestination": "東武日光"
     },
-    "customOrigin": "浅草",
-    "trainId": "25153",
     "throughTripId": "WD_OUT_TSK-30_1510_25153",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1431_113042",
@@ -64410,6 +64468,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1032レ",
     "trainType": "limitedExp",
+    "trainName": "けごん32号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -64592,10 +64651,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38052",
     "prevTripId": "WD_INB_TN-25_1335_38052",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_1444_112673",
@@ -64997,6 +65056,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1819レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう19号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -65179,10 +65239,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116460",
     "throughTripId": "WD_OUT_TSK-30_1529_116460",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1451_113089",
@@ -65979,6 +66039,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1033レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX11号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -66161,10 +66222,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25125",
     "throughTripId": "WD_OUT_TSK-30_1541_25125",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_1502_112430",
@@ -67580,11 +67641,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1828レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう28号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -67762,10 +67824,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116475",
     "prevTripId": "WD_INB_TI-18_1430_116475",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1518_77930",
@@ -67973,6 +68035,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1421レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう21号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -68155,10 +68218,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112293",
     "throughTripId": "WD_OUT_TSK-30_1559_112293",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1521_113206",
@@ -69254,6 +69317,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1036レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん36号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -69436,6 +69500,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "38055",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-30",
@@ -69445,16 +69510,16 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "38055",
     "prevTripId": "WD_INB_TN-25_1423_38055",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1533_42866",
     "lineId": "tobu_skytree",
     "trainNumber": "1136レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津136号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -69637,6 +69702,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "42866",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-30",
@@ -69646,10 +69712,9 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "42866",
     "prevTripId": "WD_INB_TN-23_1435_42866",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_1534_112683",
@@ -70964,6 +71029,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1823レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう23号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -71146,10 +71212,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116448",
     "throughTripId": "WD_OUT_TSK-30_1628_116448",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1551_113126",
@@ -71934,6 +72000,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1037レ",
     "trainType": "limitedExp",
+    "trainName": "けごん37号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -72116,10 +72183,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25127",
     "throughTripId": "WD_OUT_TSK-30_1640_25127",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_1602_112442",
@@ -72374,6 +72441,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1038レ",
     "trainType": "limitedExp",
+    "trainName": "けごん38号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -72556,10 +72624,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38056",
     "prevTripId": "WD_INB_TN-25_1457_38056",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_1604_112689",
@@ -73790,11 +73858,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1830レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう30号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -73972,10 +74041,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116476",
     "prevTripId": "WD_INB_TI-18_1528_116476",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1618_77905",
@@ -74129,11 +74198,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1425レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう25号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "太田",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -74311,10 +74381,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112294",
     "throughTripId": "WD_OUT_TSK-30_1658_112294",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1621_113244",
@@ -76691,11 +76761,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1432レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう32号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "太田",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -76873,10 +76944,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112828",
     "prevTripId": "WD_INB_TI-18_1555_112828",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1648_77910",
@@ -77081,11 +77152,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1827レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう27号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -77263,16 +77335,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116449",
     "throughTripId": "WD_OUT_TSK-30_1729_116449",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1650_116496",
     "lineId": "tobu_skytree",
     "trainNumber": "1140レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX8号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -77455,10 +77528,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116496",
     "prevTripId": "WD_INB_TN-23_1550_116496",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1651_113131",
@@ -77833,10 +77906,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25140",
     "throughTripId": "WD_OUT_TSK-30_1759_25140",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1652_77655",
@@ -78340,6 +78413,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1139レ",
     "trainType": "limitedExp",
+    "trainName": "きぬ139号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -78522,10 +78596,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116491",
     "throughTripId": "WD_OUT_TSK-30_1742_116491",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1700_113215",
@@ -78999,10 +79073,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112313",
     "throughTripId": "WD_OUT_TSK-30_1810_112313",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1702_113561",
@@ -79521,11 +79595,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1429レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう29号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "太田",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -79703,10 +79778,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112298",
     "throughTripId": "WD_OUT_TSK-30_1750_112298",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1711_77744",
@@ -80386,6 +80461,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1834レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう34号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -80568,10 +80644,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116477",
     "prevTripId": "WD_INB_TI-18_1625_116477",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1718_113527",
@@ -81057,10 +81133,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112314",
     "throughTripId": "WD_OUT_TSK-30_1836_112314",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1723_113120",
@@ -82229,10 +82305,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25141",
     "throughTripId": "WD_OUT_TSK-30_1851_25141",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-16_1732_113307",
@@ -82649,6 +82725,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1042レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん42号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -82831,6 +82908,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "38065",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-30",
@@ -82840,16 +82918,16 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "38065",
     "prevTripId": "WD_INB_TN-25_1620_38065",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1735_42868",
     "lineId": "tobu_skytree",
     "trainNumber": "1142レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津142号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -83032,6 +83110,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "42868",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-30",
@@ -83041,10 +83120,9 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "42868",
     "prevTripId": "WD_INB_TN-23_1634_42868",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1738_77748",
@@ -83150,11 +83228,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1831レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう31号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -83332,10 +83411,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116461",
     "throughTripId": "WD_OUT_TSK-30_1820_116461",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1740_38073",
@@ -83524,10 +83603,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38073",
     "prevTripId": "WD_INB_TN-03_1725_38073",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_1742_112496",
@@ -84383,6 +84462,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1436レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう36号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -84565,10 +84645,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112829",
     "prevTripId": "WD_INB_TI-18_1657_112829",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1748_77750",
@@ -85003,10 +85083,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112338",
     "throughTripId": "WD_OUT_TSK-30_1853_112338",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1753_77686",
@@ -85672,6 +85752,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1141レ",
     "trainType": "limitedExp",
+    "trainName": "きぬ141号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -85854,10 +85935,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116494",
     "throughTripId": "WD_OUT_TSK-30_1836_116494",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1800_113534",
@@ -86499,6 +86580,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1144レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX10号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -86681,10 +86763,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116497",
     "prevTripId": "WD_INB_TN-23_1702_116497",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_1804_112714",
@@ -87224,6 +87306,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1433レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう33号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -87406,10 +87489,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112299",
     "throughTripId": "WD_OUT_TSK-30_1850_112299",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-16_1810_113309",
@@ -88439,6 +88522,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1838レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう38号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -88621,10 +88705,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116478",
     "prevTripId": "WD_INB_TI-18_1728_116478",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1816_77937",
@@ -88781,6 +88865,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1043レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん43号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -88963,10 +89048,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25130",
     "throughTripId": "WD_OUT_TSK-30_1856_25130",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1821_77839",
@@ -89290,10 +89375,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112318",
     "throughTripId": "WD_OUT_TSK-30_1935_112318",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1822_113134",
@@ -90226,10 +90311,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25142",
     "throughTripId": "WD_OUT_TSK-30_1946_25142",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1832_113249",
@@ -90422,6 +90507,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1046レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん46号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -90604,6 +90690,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "38060",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-30",
@@ -90613,16 +90700,16 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "38060",
     "prevTripId": "WD_INB_TN-25_1722_38060",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1832_116501",
     "lineId": "tobu_skytree",
     "trainNumber": "1146レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ146号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -90805,6 +90892,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "116501",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-30",
@@ -90814,10 +90902,9 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "116501",
     "prevTripId": "WD_INB_TN-23_1735_116501",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1833_77758",
@@ -91270,6 +91357,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1835レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう35号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -91452,10 +91540,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116462",
     "throughTripId": "WD_OUT_TSK-30_1920_116462",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-28_1841_112762",
@@ -92623,11 +92711,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1440レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう40号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "太田",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -92805,10 +92894,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112830",
     "prevTripId": "WD_INB_TI-18_1756_112830",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-14_1847_113298",
@@ -93016,6 +93105,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1045レ",
     "trainType": "th_liner",
+    "trainName": "スカイツリーライナー1号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-27",
@@ -93534,6 +93624,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1048レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX12号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -93716,10 +93807,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38061",
     "prevTripId": "WD_INB_TN-25_1744_38061",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_1852_112339",
@@ -93908,10 +93999,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112339",
     "throughTripId": "WD_OUT_TSK-30_1953_112339",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1853_77764",
@@ -94833,10 +94924,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25143",
     "throughTripId": "WD_OUT_TSK-30_2013_25143",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_1903_113396",
@@ -95496,10 +95587,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112820",
     "prevTripId": "WD_INB_TI-10_1823_112820",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1906_77765",
@@ -95605,6 +95696,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1837レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう37号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -95787,10 +95879,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116463",
     "throughTripId": "WD_OUT_TSK-30_1950_116463",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1910_77767",
@@ -96869,6 +96961,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1842レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう42号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -97051,10 +97144,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116479",
     "prevTripId": "WD_INB_TI-18_1826_116479",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_1918_113399",
@@ -97160,6 +97253,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1047レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん47号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -97342,10 +97436,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25131",
     "throughTripId": "WD_OUT_TSK-30_1956_25131",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1919_77916",
@@ -97681,10 +97775,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112302",
     "throughTripId": "WD_OUT_TSK-30_2034_112302",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_1922_113401",
@@ -99143,10 +99237,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25144",
     "throughTripId": "WD_OUT_TSK-30_2046_25144",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1933_77772",
@@ -99636,11 +99730,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1339レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう39号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "伊勢崎",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -99818,10 +99913,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112301",
     "throughTripId": "WD_OUT_TSK-30_2020_112301",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1939_112774",
@@ -100641,11 +100736,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1444レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう44号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "太田",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -100823,10 +100919,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112831",
     "prevTripId": "WD_INB_TI-18_1854_112831",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_1946_77841",
@@ -101019,6 +101115,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1052レ",
     "trainType": "limitedExp",
+    "trainName": "けごん52号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -101201,10 +101298,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38063",
     "prevTripId": "WD_INB_TN-25_1841_38063",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_1950_113405",
@@ -101492,10 +101589,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112340",
     "throughTripId": "WD_OUT_TSK-30_2053_112340",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_1954_113254",
@@ -102171,6 +102268,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1049レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん49号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -102353,10 +102451,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25132",
     "throughTripId": "WD_OUT_TSK-30_2036_25132",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_2000_113406",
@@ -103411,6 +103509,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1841レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう41号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -103593,10 +103692,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116464",
     "throughTripId": "WD_OUT_TSK-30_2050_116464",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_2009_77842",
@@ -104106,10 +104205,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112322",
     "throughTripId": "WD_OUT_TSK-30_2132_112322",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_2013_77665",
@@ -104599,11 +104698,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1846レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう46号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -104781,10 +104881,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116480",
     "prevTripId": "WD_INB_TI-18_1925_116480",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_2017_77779",
@@ -104941,6 +105041,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1154レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津154号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -105123,10 +105224,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "42867",
     "prevTripId": "WD_INB_TN-23_1921_42867",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_2022_112499",
@@ -106346,10 +106447,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25145",
     "throughTripId": "WD_OUT_TSK-30_2145_25145",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-03_2035_111479",
@@ -106926,11 +107027,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1643レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう43号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "葛生",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -107108,10 +107210,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116466",
     "throughTripId": "WD_OUT_TSK-30_2120_116466",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_2040_77667",
@@ -107498,10 +107600,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112324",
     "throughTripId": "WD_OUT_TSK-30_2159_112324",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_2044_112730",
@@ -107855,6 +107957,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1448レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう48号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -108037,10 +108140,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112832",
     "prevTripId": "WD_INB_TI-18_1956_112832",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-14_2048_113302",
@@ -108397,6 +108500,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1156レ",
     "trainType": "limitedExp",
+    "trainName": "きぬ156号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -108579,10 +108683,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116502",
     "prevTripId": "WD_INB_TN-23_1953_116502",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_2053_77785",
@@ -109060,6 +109164,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1051レ",
     "trainType": "limitedExp",
+    "trainName": "けごん51号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -109242,10 +109347,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25133",
     "throughTripId": "WD_OUT_TSK-30_2135_25133",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_2059_77786",
@@ -109533,10 +109638,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112780",
     "prevTripId": "WD_INB_TI-02_2052_112780",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_2102_112466",
@@ -110153,11 +110258,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1845レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう45号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -110335,10 +110441,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116465",
     "throughTripId": "WD_OUT_TSK-30_2150_116465",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_2111_113257",
@@ -110713,10 +110819,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112325",
     "throughTripId": "WD_OUT_TSK-30_2225_112325",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-28_2112_113465",
@@ -111106,11 +111212,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1850レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう50号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -111288,10 +111395,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116481",
     "prevTripId": "WD_INB_TI-18_2025_116481",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_2116_77671",
@@ -111349,6 +111456,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1053レ",
     "trainType": "th_liner",
+    "trainName": "スカイツリーライナー3号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-27",
@@ -112494,10 +112602,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112821",
     "prevTripId": "WD_INB_TI-10_2054_112821",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_2132_112469",
@@ -112913,6 +113021,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1447レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう47号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -113095,10 +113204,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112300",
     "throughTripId": "WD_OUT_TSK-30_2220_112300",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_2139_77792",
@@ -114392,10 +114501,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112343",
     "throughTripId": "WD_OUT_TSK-30_2249_112343",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_2152_113172",
@@ -115271,6 +115380,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1255レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん255号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -115453,10 +115563,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25129",
     "throughTripId": "WD_OUT_TSK-30_2237_25129",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-01_2202_112472",
@@ -116324,10 +116434,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112326",
     "throughTripId": "WD_OUT_TSK-30_2317_112326",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-09_2214_112743",
@@ -116681,11 +116791,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1549レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう49号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "館林",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": false,
     "stops": [
       {
@@ -116863,10 +116974,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112297",
     "throughTripId": "WD_OUT_TSK-30_2300_112297",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_2221_113144",
@@ -118432,10 +118543,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112344",
     "throughTripId": "WD_OUT_TSK-30_2337_112344",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-03_2245_111352",
@@ -118810,10 +118921,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112822",
     "prevTripId": "WD_INB_TI-10_2210_112822",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_OUT_TSK-09_2250_77803",
@@ -119519,10 +119630,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "北千住",
     "trainId": "38075",
     "prevTripId": "WD_INB_TN-03_2245_38075",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "北千住"
   },
   {
     "tripId": "WD_OUT_TSK-01_2302_112346",
@@ -119711,10 +119822,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112346",
     "throughTripId": "WD_OUT_TSK-30_2355_112346",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-22_2302_113024",
@@ -120360,10 +120471,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112815",
     "prevTripId": "WD_INB_TI-10_2234_112815",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "WD_INB_TSK-30_2312_113648",
@@ -120546,10 +120657,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "押上",
     "trainId": "113648",
     "prevTripId": "WD_INB_TN-03_2259_113648",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "押上"
   },
   {
     "tripId": "WD_OUT_TSK-03_2313_111398",
@@ -121573,10 +121684,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "北千住",
     "trainId": "38072",
     "prevTripId": "WD_INB_TN-03_2318_38072",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "北千住"
   },
   {
     "tripId": "WD_OUT_TSK-09_2333_77810",
@@ -123499,10 +123610,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25146",
     "throughTripId": "HD_OUT_TSK-30_0548_25146",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0458_112349",
@@ -123915,10 +124026,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "北春日部",
     "trainId": "112347",
     "throughTripId": "HD_OUT_TSK-30_0512_112347",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "北春日部"
   },
   {
     "tripId": "HD_INB_TSK-14_0508_113266",
@@ -124541,10 +124652,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112328",
     "throughTripId": "HD_OUT_TSK-30_0605_112328",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-22_0512_113026",
@@ -125494,10 +125605,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "北千住",
     "trainId": "25107",
     "throughTripId": "HD_OUT_TSK-30_0621_25107",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "北千住"
   },
   {
     "tripId": "HD_INB_TSK-30_0529_113467",
@@ -125833,10 +125944,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112330",
     "throughTripId": "HD_OUT_TSK-30_0620_112330",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_0530_112607",
@@ -126052,6 +126163,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1002レ",
     "trainType": "th_liner",
+    "trainName": "スカイツリーライナー2号",
     "direction": "inbound",
     "originStationId": "TSK-27",
     "destinationStationId": "TSK-01",
@@ -126404,10 +126516,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112784",
     "prevTripId": "HD_INB_TI-10_0458_112784",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0537_113169",
@@ -126626,10 +126738,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "北春日部",
     "trainId": "112348",
     "throughTripId": "HD_OUT_TSK-30_0543_112348",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "北春日部"
   },
   {
     "tripId": "HD_INB_TSK-22_0544_113320",
@@ -127711,11 +127823,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1502レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう2号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "館林",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -127893,10 +128006,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112783",
     "prevTripId": "HD_INB_TI-10_0526_112783",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_0558_112354",
@@ -128641,16 +128754,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112786",
     "prevTripId": "HD_INB_TI-10_0527_112786",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-27_0607_112759",
     "lineId": "tobu_skytree",
     "trainNumber": "1004レ",
     "trainType": "th_liner",
+    "trainName": "スカイツリーライナー4号",
     "direction": "inbound",
     "originStationId": "TSK-27",
     "destinationStationId": "TSK-01",
@@ -129525,10 +129639,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25135",
     "throughTripId": "HD_OUT_TSK-30_0724_25135",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-22_0615_113324",
@@ -129879,11 +129993,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1206レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん206号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "新栃木",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -130061,10 +130176,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38076",
     "prevTripId": "HD_INB_TN-12_0539_38076",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0619_77694",
@@ -130667,6 +130782,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1001レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん1号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -130849,6 +130965,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25128",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-01",
@@ -130858,16 +130975,16 @@
       "coupledCars": 3,
       "coupledDestination": "会津田島"
     },
-    "customOrigin": "浅草",
-    "trainId": "25128",
     "throughTripId": "HD_OUT_TSK-30_0709_25128",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_0630_25154",
     "lineId": "tobu_skytree",
     "trainNumber": "1101レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津101号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -131050,6 +131167,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25154",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-01",
@@ -131059,10 +131177,9 @@
       "coupledCars": 3,
       "coupledDestination": "東武日光"
     },
-    "customOrigin": "浅草",
-    "trainId": "25154",
     "throughTripId": "HD_OUT_TSK-30_0709_25154",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_0630_112613",
@@ -131313,10 +131430,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112788",
     "prevTripId": "HD_INB_TI-10_0553_112788",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0631_77697",
@@ -131704,6 +131821,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1404レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう4号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -131886,10 +132004,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112833",
     "prevTripId": "HD_INB_TI-18_0542_112833",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0638_113150",
@@ -132575,10 +132693,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38067",
     "prevTripId": "HD_INB_TN-03_0633_38067",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-14_0645_113274",
@@ -132636,11 +132754,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1801レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう1号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -132818,10 +132937,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116452",
     "throughTripId": "HD_OUT_TSK-30_0729_116452",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0649_77699",
@@ -133109,10 +133228,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112331",
     "throughTripId": "HD_OUT_TSK-30_0745_112331",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_0652_112615",
@@ -133364,11 +133483,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1008レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん8号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "南栗橋",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -134020,10 +134140,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112792",
     "prevTripId": "HD_INB_TI-10_0616_112792",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0658_77701",
@@ -134276,6 +134396,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1003レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん3号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -134458,10 +134579,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25109",
     "throughTripId": "HD_OUT_TSK-30_0743_25109",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-14_0700_113276",
@@ -134986,10 +135107,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112334",
     "throughTripId": "HD_OUT_TSK-30_0756_112334",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_0705_112618",
@@ -135240,10 +135361,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112793",
     "prevTripId": "HD_INB_TI-10_0626_112793",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0707_77703",
@@ -135966,10 +136087,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25147",
     "throughTripId": "HD_OUT_TSK-30_0814_25147",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0714_77705",
@@ -136257,10 +136378,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112796",
     "prevTripId": "HD_INB_TI-10_0636_112796",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-22_0716_113339",
@@ -137100,10 +137221,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112336",
     "throughTripId": "HD_OUT_TSK-30_0823_112336",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0723_77927",
@@ -137577,16 +137698,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112797",
     "prevTripId": "HD_INB_TI-10_0645_112797",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0729_116482",
     "lineId": "tobu_skytree",
     "trainNumber": "1806レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう6号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -137769,16 +137891,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116482",
     "prevTripId": "HD_INB_TI-18_0636_116482",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_0730_116488",
     "lineId": "tobu_skytree",
     "trainNumber": "1105レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ105号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -137961,10 +138084,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116488",
     "throughTripId": "HD_OUT_TSK-30_0811_116488",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0732_113142",
@@ -138339,10 +138462,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112305",
     "throughTripId": "HD_OUT_TSK-30_0839_112305",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-03_0733_111462",
@@ -138813,10 +138936,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112799",
     "prevTripId": "HD_INB_TI-10_0652_112799",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0738_113053",
@@ -139108,6 +139231,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1803レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう3号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -139290,10 +139414,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116453",
     "throughTripId": "HD_OUT_TSK-30_0820_116453",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_0743_112307",
@@ -139482,10 +139606,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112307",
     "throughTripId": "HD_OUT_TSK-30_0854_112307",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0743_112801",
@@ -139674,10 +139798,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112801",
     "prevTripId": "HD_INB_TI-10_0704_112801",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0745_77711",
@@ -140251,6 +140375,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1007レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX1号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -140433,10 +140558,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25110",
     "throughTripId": "HD_OUT_TSK-30_0832_25110",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0751_77712",
@@ -140724,10 +140849,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112309",
     "throughTripId": "HD_OUT_TSK-30_0908_112309",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0753_112803",
@@ -140916,10 +141041,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112803",
     "prevTripId": "HD_INB_TI-10_0715_112803",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-22_0754_113346",
@@ -141917,10 +142042,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112806",
     "prevTripId": "HD_INB_TI-10_0725_112806",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0806_77643",
@@ -142077,6 +142202,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1110レ",
     "trainType": "limitedExp",
+    "trainName": "きぬ110号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -142259,10 +142385,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116503",
     "prevTripId": "HD_INB_TN-23_0702_116503",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0808_113033",
@@ -142634,10 +142760,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38069",
     "prevTripId": "HD_INB_TN-03_0754_38069",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_0813_25136",
@@ -142826,21 +142952,22 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25136",
     "throughTripId": "HD_OUT_TSK-30_0918_25136",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0814_116484",
     "lineId": "tobu_skytree",
     "trainNumber": "1808レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう8号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -143018,10 +143145,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116484",
     "prevTripId": "HD_INB_TI-18_0726_116484",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-03_0814_111402",
@@ -143661,6 +143788,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "A4845T",
     "trainType": "th_liner",
+    "trainName": "THライナー2号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-20",
@@ -143927,10 +144055,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112311",
     "throughTripId": "HD_OUT_TSK-30_0931_112311",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-22_0821_113353",
@@ -144218,10 +144346,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112808",
     "prevTripId": "HD_INB_TI-10_0747_112808",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-03_0825_111285",
@@ -144513,6 +144641,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1109レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ109号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -144695,10 +144824,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116489",
     "throughTripId": "HD_OUT_TSK-30_0912_116489",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0831_77720",
@@ -145828,16 +145957,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112811",
     "prevTripId": "HD_INB_TI-10_0758_112811",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_0840_116454",
     "lineId": "tobu_skytree",
     "trainNumber": "1805レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう5号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -146020,10 +146150,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116454",
     "throughTripId": "HD_OUT_TSK-30_0920_116454",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0840_77723",
@@ -146311,16 +146441,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25137",
     "throughTripId": "HD_OUT_TSK-30_0954_25137",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0842_112782",
     "lineId": "tobu_skytree",
     "trainNumber": "1310レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう10号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -146503,10 +146634,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112782",
     "prevTripId": "HD_INB_TI-25_0722_112782",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-22_0842_113357",
@@ -147031,10 +147162,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38071",
     "prevTripId": "HD_INB_TN-03_0835_38071",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0849_77725",
@@ -147202,6 +147333,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1012レ",
     "trainType": "limitedExp",
+    "trainName": "けごん12号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -147384,10 +147516,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38064",
     "prevTripId": "HD_INB_TN-25_0737_38064",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0852_113041",
@@ -148008,10 +148140,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112813",
     "prevTripId": "HD_INB_TI-10_0819_112813",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-03_0858_111253",
@@ -148204,6 +148336,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1011レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX3号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -148386,10 +148519,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25113",
     "throughTripId": "HD_OUT_TSK-30_0941_25113",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-22_0902_113360",
@@ -148827,10 +148960,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25138",
     "throughTripId": "HD_OUT_TSK-30_1012_25138",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0904_77850",
@@ -148984,11 +149117,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1612レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう12号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "葛生",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -149166,10 +149300,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116486",
     "prevTripId": "HD_INB_TI-10_0837_116486",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0909_77730",
@@ -149556,10 +149690,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112337",
     "throughTripId": "HD_OUT_TSK-30_1007_112337",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-03_0913_111254",
@@ -150120,10 +150254,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112816",
     "prevTripId": "HD_INB_TI-10_0839_112816",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0919_77732",
@@ -150576,11 +150710,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1814レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう14号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -150758,16 +150893,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116467",
     "prevTripId": "HD_INB_TI-18_0836_116467",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0928_175034",
     "lineId": "tobu_skytree",
     "trainNumber": "A4947T",
     "trainType": "th_liner",
+    "trainName": "THライナー4号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-20",
@@ -150951,6 +151087,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1013レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん13号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -151133,6 +151270,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25116",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-01",
@@ -151142,16 +151280,16 @@
       "coupledCars": 3,
       "coupledDestination": "会津田島"
     },
-    "customOrigin": "浅草",
-    "trainId": "25116",
     "throughTripId": "HD_OUT_TSK-30_1011_25116",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_0930_25151",
     "lineId": "tobu_skytree",
     "trainNumber": "1113レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津113号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -151334,6 +151472,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25151",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-01",
@@ -151343,10 +151482,9 @@
       "coupledCars": 3,
       "coupledDestination": "東武日光"
     },
-    "customOrigin": "浅草",
-    "trainId": "25151",
     "throughTripId": "HD_OUT_TSK-30_1011_25151",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0930_113153",
@@ -151969,10 +152107,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112817",
     "prevTripId": "HD_INB_TI-10_0852_112817",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0936_77852",
@@ -152225,6 +152363,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1807レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう7号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -152407,10 +152546,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116455",
     "throughTripId": "HD_OUT_TSK-30_1020_116455",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_0942_77735",
@@ -152884,16 +153023,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25149",
     "throughTripId": "HD_OUT_TSK-30_1045_25149",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_0946_116469",
     "lineId": "tobu_skytree",
     "trainNumber": "1816レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう16号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -153076,10 +153216,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116469",
     "prevTripId": "HD_INB_TI-18_0900_116469",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-03_0946_111382",
@@ -154557,6 +154697,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1015レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX5号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -154739,10 +154880,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25117",
     "throughTripId": "HD_OUT_TSK-30_1040_25117",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1002_112369",
@@ -154997,6 +155138,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1014レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん14号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -155179,6 +155321,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "38046",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-30",
@@ -155188,16 +155331,16 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "38046",
     "prevTripId": "HD_INB_TN-25_0850_38046",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1003_116504",
     "lineId": "tobu_skytree",
     "trainNumber": "1114レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ114号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -155380,6 +155523,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "116504",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-30",
@@ -155389,10 +155533,9 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "116504",
     "prevTripId": "HD_INB_TN-23_0905_116504",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-03_1004_111255",
@@ -156152,11 +156295,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1818レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう18号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -156334,10 +156478,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116470",
     "prevTripId": "HD_INB_TI-18_0931_116470",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-03_1016_111357",
@@ -156677,11 +156821,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1409レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう9号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "太田",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -156859,10 +157004,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112295",
     "throughTripId": "HD_OUT_TSK-30_1059_112295",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1022_112373",
@@ -157735,6 +157880,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1017レ",
     "trainType": "limitedExp",
+    "trainName": "けごん17号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -157917,10 +158063,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25118",
     "throughTripId": "HD_OUT_TSK-30_1111_25118",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1032_112375",
@@ -157989,6 +158135,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1116レ",
     "trainType": "limitedExp",
+    "trainName": "きぬ116号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -158171,10 +158318,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116498",
     "prevTripId": "HD_INB_TN-23_0934_116498",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_1034_112625",
@@ -159600,6 +159747,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1811レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう11号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -159782,10 +159930,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116456",
     "throughTripId": "HD_OUT_TSK-30_1129_116456",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1052_112379",
@@ -160681,6 +160829,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1019レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん19号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -160863,6 +161012,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25120",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-01",
@@ -160872,16 +161022,16 @@
       "coupledCars": 3,
       "coupledDestination": "会津田島"
     },
-    "customOrigin": "浅草",
-    "trainId": "25120",
     "throughTripId": "HD_OUT_TSK-30_1141_25120",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1100_25152",
     "lineId": "tobu_skytree",
     "trainNumber": "1119レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津119号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -161064,6 +161214,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25152",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-01",
@@ -161073,10 +161224,9 @@
       "coupledCars": 3,
       "coupledDestination": "東武日光"
     },
-    "customOrigin": "浅草",
-    "trainId": "25152",
     "throughTripId": "HD_OUT_TSK-30_1141_25152",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1102_112381",
@@ -161331,6 +161481,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1018レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん18号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -161513,10 +161664,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38047",
     "prevTripId": "HD_INB_TN-25_0957_38047",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_1104_112629",
@@ -162684,6 +162835,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1820レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう20号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -162866,10 +163018,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116471",
     "prevTripId": "HD_INB_TI-18_1029_116471",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1118_77866",
@@ -163813,6 +163965,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1021レ",
     "trainType": "limitedExp",
+    "trainName": "けごん21号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -163995,16 +164148,17 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25121",
     "throughTripId": "HD_OUT_TSK-30_1211_25121",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1131_38048",
     "lineId": "tobu_skytree",
     "trainNumber": "1020レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX2号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -164187,10 +164341,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38048",
     "prevTripId": "HD_INB_TN-25_1020_38048",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1132_112387",
@@ -165753,11 +165907,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1813レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう13号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -165935,10 +166090,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116457",
     "throughTripId": "HD_OUT_TSK-30_1229_116457",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1151_113067",
@@ -166193,6 +166348,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1122レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ122号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -166375,10 +166531,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116499",
     "prevTripId": "HD_INB_TN-23_1052_116499",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_1154_112638",
@@ -168336,6 +168492,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1822レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう22号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -168518,10 +168675,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116472",
     "prevTripId": "HD_INB_TI-18_1129_116472",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1218_77875",
@@ -169465,6 +169622,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1123レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX7号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -169647,10 +169805,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116492",
     "throughTripId": "HD_OUT_TSK-30_1311_116492",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1231_113071",
@@ -169905,6 +170063,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1124レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ124号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -170087,10 +170246,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116500",
     "prevTripId": "HD_INB_TN-23_1135_116500",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_1234_112646",
@@ -171405,11 +171564,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1815レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう15号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -171587,10 +171747,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116458",
     "throughTripId": "HD_OUT_TSK-30_1329_116458",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1251_113073",
@@ -172387,6 +172547,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1025レ",
     "trainType": "limitedExp",
+    "trainName": "けごん25号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -172569,10 +172730,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25122",
     "throughTripId": "HD_OUT_TSK-30_1341_25122",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1301_113189",
@@ -172827,6 +172988,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1026レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX4号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -173009,10 +173171,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38049",
     "prevTripId": "HD_INB_TN-25_1155_38049",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_1304_112653",
@@ -174180,6 +174342,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1824レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう24号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -174362,10 +174525,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116473",
     "prevTripId": "HD_INB_TI-18_1230_116473",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1318_77884",
@@ -175309,6 +175472,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1027レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん27号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -175491,6 +175655,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25123",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-01",
@@ -175500,16 +175665,16 @@
       "coupledCars": 3,
       "coupledDestination": "鬼怒川温泉"
     },
-    "customOrigin": "浅草",
-    "trainId": "25123",
     "throughTripId": "HD_OUT_TSK-30_1411_25123",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1330_116490",
     "lineId": "tobu_skytree",
     "trainNumber": "1127レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ127号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -175692,6 +175857,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "116490",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-01",
@@ -175701,10 +175867,9 @@
       "coupledCars": 3,
       "coupledDestination": "東武日光"
     },
-    "customOrigin": "浅草",
-    "trainId": "116490",
     "throughTripId": "HD_OUT_TSK-30_1411_116490",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1331_113078",
@@ -175959,6 +176124,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1028レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん28号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -176141,6 +176307,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "38050",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-30",
@@ -176150,16 +176317,16 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "38050",
     "prevTripId": "HD_INB_TN-25_1218_38050",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1333_42865",
     "lineId": "tobu_skytree",
     "trainNumber": "1128レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津128号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -176342,6 +176509,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "42865",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-30",
@@ -176351,10 +176519,9 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "42865",
     "prevTripId": "HD_INB_TN-23_1235_42865",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_1334_112658",
@@ -177669,6 +177836,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1817レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう17号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -177851,10 +178019,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116459",
     "throughTripId": "HD_OUT_TSK-30_1429_116459",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1351_113081",
@@ -178651,6 +178819,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1129レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX9号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -178833,10 +179002,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116493",
     "throughTripId": "HD_OUT_TSK-30_1441_116493",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1401_113195",
@@ -179091,6 +179260,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1030レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX6号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -179273,10 +179443,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38051",
     "prevTripId": "HD_INB_TN-25_1255_38051",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_1404_112664",
@@ -180444,6 +180614,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1826レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう26号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -180626,10 +180797,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116474",
     "prevTripId": "HD_INB_TI-18_1330_116474",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1418_77891",
@@ -181573,6 +181744,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1031レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん31号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -181755,6 +181927,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25124",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-01",
@@ -181764,16 +181937,16 @@
       "coupledCars": 3,
       "coupledDestination": "会津田島"
     },
-    "customOrigin": "浅草",
-    "trainId": "25124",
     "throughTripId": "HD_OUT_TSK-30_1510_25124",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1430_25153",
     "lineId": "tobu_skytree",
     "trainNumber": "1131レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津131号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -181956,6 +182129,7 @@
         "isPassing": true
       }
     ],
+    "trainId": "25153",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-01",
@@ -181965,10 +182139,9 @@
       "coupledCars": 3,
       "coupledDestination": "東武日光"
     },
-    "customOrigin": "浅草",
-    "trainId": "25153",
     "throughTripId": "HD_OUT_TSK-30_1510_25153",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1431_113085",
@@ -183151,6 +183324,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1032レ",
     "trainType": "limitedExp",
+    "trainName": "けごん32号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -183333,10 +183507,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38052",
     "prevTripId": "HD_INB_TN-25_1335_38052",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_1444_112672",
@@ -183738,6 +183912,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1819レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう19号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -183920,10 +184095,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116460",
     "throughTripId": "HD_OUT_TSK-30_1529_116460",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1451_113088",
@@ -184720,6 +184895,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1033レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX11号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -184902,10 +185078,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25125",
     "throughTripId": "HD_OUT_TSK-30_1541_25125",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1502_112429",
@@ -186321,11 +186497,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1828レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう28号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -186503,10 +186680,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116475",
     "prevTripId": "HD_INB_TI-18_1430_116475",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1518_77931",
@@ -186663,6 +186840,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1421レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう21号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -186845,10 +187023,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112293",
     "throughTripId": "HD_OUT_TSK-30_1559_112293",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1521_113208",
@@ -187041,6 +187219,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1034レ",
     "trainType": "limitedExp",
+    "trainName": "けごん34号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -187223,10 +187402,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38053",
     "prevTripId": "HD_INB_TN-25_1410_38053",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1522_112433",
@@ -187837,6 +188016,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1035レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん35号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -188019,10 +188199,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25126",
     "throughTripId": "HD_OUT_TSK-30_1611_25126",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1532_112435",
@@ -188277,6 +188457,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1036レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん36号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -188459,6 +188640,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "38055",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-30",
@@ -188468,16 +188650,16 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "38055",
     "prevTripId": "HD_INB_TN-25_1423_38055",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1533_42866",
     "lineId": "tobu_skytree",
     "trainNumber": "1136レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津136号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -188660,6 +188842,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "42866",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-30",
@@ -188669,10 +188852,9 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "42866",
     "prevTripId": "HD_INB_TN-23_1435_42866",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_1534_112682",
@@ -189987,6 +190169,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1823レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう23号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -190169,10 +190352,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116448",
     "throughTripId": "HD_OUT_TSK-30_1628_116448",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1551_113127",
@@ -191008,6 +191191,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1037レ",
     "trainType": "limitedExp",
+    "trainName": "けごん37号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -191190,10 +191374,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25127",
     "throughTripId": "HD_OUT_TSK-30_1640_25127",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1602_112441",
@@ -191448,6 +191632,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1038レ",
     "trainType": "limitedExp",
+    "trainName": "けごん38号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -191630,10 +191815,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38056",
     "prevTripId": "HD_INB_TN-25_1457_38056",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_1604_112688",
@@ -192813,11 +192998,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1830レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう30号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -192995,10 +193181,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116476",
     "prevTripId": "HD_INB_TI-18_1528_116476",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1618_77906",
@@ -193152,11 +193338,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1425レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう25号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "太田",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -193334,10 +193521,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112294",
     "throughTripId": "HD_OUT_TSK-30_1658_112294",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1621_113213",
@@ -195708,11 +195895,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1432レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう32号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "太田",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -195890,10 +196078,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112828",
     "prevTripId": "HD_INB_TI-18_1555_112828",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1648_77911",
@@ -196047,11 +196235,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1827レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう27号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -196229,16 +196418,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116449",
     "throughTripId": "HD_OUT_TSK-30_1729_116449",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1650_116496",
     "lineId": "tobu_skytree",
     "trainNumber": "1140レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX8号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -196421,10 +196611,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116496",
     "prevTripId": "HD_INB_TN-23_1550_116496",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1651_113132",
@@ -197224,6 +197414,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1139レ",
     "trainType": "limitedExp",
+    "trainName": "きぬ139号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -197406,10 +197597,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116491",
     "throughTripId": "HD_OUT_TSK-30_1742_116491",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1700_113217",
@@ -198287,11 +198478,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1429レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう29号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "太田",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -198469,10 +198661,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112298",
     "throughTripId": "HD_OUT_TSK-30_1750_112298",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1712_112452",
@@ -198975,6 +199167,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1834レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう34号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -199157,10 +199350,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116477",
     "prevTripId": "HD_INB_TI-18_1625_116477",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1716_77745",
@@ -199844,10 +200037,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112315",
     "throughTripId": "HD_OUT_TSK-30_1836_112315",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1723_113100",
@@ -201030,6 +201223,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1042レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん42号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -201212,6 +201406,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "38065",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-30",
@@ -201221,16 +201416,16 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "38065",
     "prevTripId": "HD_INB_TN-25_1620_38065",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1735_42868",
     "lineId": "tobu_skytree",
     "trainNumber": "1142レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津142号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -201413,6 +201608,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "42868",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-30",
@@ -201422,21 +201618,21 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "42868",
     "prevTripId": "HD_INB_TN-23_1634_42868",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1739_116461",
     "lineId": "tobu_skytree",
     "trainNumber": "1831レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう31号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -201614,10 +201810,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116461",
     "throughTripId": "HD_OUT_TSK-30_1820_116461",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1739_77912",
@@ -202199,10 +202395,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112317",
     "throughTripId": "HD_OUT_TSK-30_1853_112317",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-28_1742_112760",
@@ -202819,6 +203015,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1436レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう36号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -203001,10 +203198,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112829",
     "prevTripId": "HD_INB_TI-18_1657_112829",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1746_77749",
@@ -203951,6 +204148,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1141レ",
     "trainType": "limitedExp",
+    "trainName": "きぬ141号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -204133,10 +204331,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116494",
     "throughTripId": "HD_OUT_TSK-30_1836_116494",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1801_77913",
@@ -204625,6 +204823,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1144レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX10号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -204807,10 +205006,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116497",
     "prevTripId": "HD_INB_TN-23_1702_116497",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_1804_112713",
@@ -205350,6 +205549,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1433レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう33号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -205532,10 +205732,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112299",
     "throughTripId": "HD_OUT_TSK-30_1850_112299",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1810_112766",
@@ -206424,6 +206624,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1838レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう38号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -206606,10 +206807,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116478",
     "prevTripId": "HD_INB_TI-18_1728_116478",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1816_77756",
@@ -206715,6 +206916,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1043レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん43号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -206897,10 +207099,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25130",
     "throughTripId": "HD_OUT_TSK-30_1856_25130",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-22_1820_113390",
@@ -207188,10 +207390,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112319",
     "throughTripId": "HD_OUT_TSK-30_1934_112319",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1822_77938",
@@ -208265,6 +208467,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1046レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん46号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -208447,6 +208650,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "38060",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "TSK-30",
@@ -208456,16 +208660,16 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "38060",
     "prevTripId": "HD_INB_TN-25_1722_38060",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1832_116501",
     "lineId": "tobu_skytree",
     "trainNumber": "1146レ",
     "trainType": "limitedExp",
+    "trainName": "リバティきぬ146号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -208648,6 +208852,7 @@
         "isPassing": false
       }
     ],
+    "trainId": "116501",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "TSK-30",
@@ -208657,10 +208862,9 @@
       "coupledCars": 3,
       "coupledDestination": "浅草"
     },
-    "customDestination": "浅草",
-    "trainId": "116501",
     "prevTripId": "HD_INB_TN-23_1735_116501",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1833_113538",
@@ -209161,6 +209365,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1835レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう35号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -209343,10 +209548,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116462",
     "throughTripId": "HD_OUT_TSK-30_1920_116462",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1840_77914",
@@ -209868,10 +210073,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112320",
     "throughTripId": "HD_OUT_TSK-30_1953_112320",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1843_112769",
@@ -210314,11 +210519,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1440レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう40号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "太田",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -210496,10 +210702,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112830",
     "prevTripId": "HD_INB_TI-18_1756_112830",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-22_1846_113393",
@@ -210704,6 +210910,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1048レ",
     "trainType": "limitedExp",
+    "trainName": "スペーシアX12号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -210886,10 +211093,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38061",
     "prevTripId": "HD_INB_TN-25_1744_38061",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_1852_112457",
@@ -212697,6 +212904,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1837レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう37号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -212879,10 +213087,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116463",
     "throughTripId": "HD_OUT_TSK-30_1950_116463",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1909_113540",
@@ -213632,6 +213840,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1842レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう42号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -213814,10 +214023,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116479",
     "prevTripId": "HD_INB_TI-18_1826_116479",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1916_77840",
@@ -213959,6 +214168,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1047レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん47号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -214141,21 +214351,22 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25131",
     "throughTripId": "HD_OUT_TSK-30_1956_25131",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1919_38062",
     "lineId": "tobu_skytree",
     "trainNumber": "1050レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん50号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "東武日光",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -214333,10 +214544,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38062",
     "prevTripId": "HD_INB_TN-25_1810_38062",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1920_112772",
@@ -214911,10 +215122,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112303",
     "throughTripId": "HD_OUT_TSK-30_2035_112303",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_1924_112724",
@@ -216098,11 +216309,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1339レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう39号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "伊勢崎",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -216280,10 +216492,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112301",
     "throughTripId": "HD_OUT_TSK-30_2020_112301",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_1940_112775",
@@ -216810,10 +217022,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112321",
     "throughTripId": "HD_OUT_TSK-30_2055_112321",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-16_1942_113312",
@@ -217416,11 +217628,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1444レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう44号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "太田",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -217598,10 +217811,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112831",
     "prevTripId": "HD_INB_TI-18_1854_112831",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-22_1948_113404",
@@ -217707,6 +217920,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1052レ",
     "trainType": "limitedExp",
+    "trainName": "けごん52号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -217889,10 +218103,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38063",
     "prevTripId": "HD_INB_TN-25_1841_38063",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_1951_77775",
@@ -218528,6 +218742,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1049レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん49号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -218710,10 +218925,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25132",
     "throughTripId": "HD_OUT_TSK-30_2036_25132",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_2000_77918",
@@ -219827,6 +220042,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1841レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう41号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -220009,10 +220225,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116464",
     "throughTripId": "HD_OUT_TSK-30_2050_116464",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_2011_113255",
@@ -220801,11 +221017,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1846レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう46号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -220983,16 +221200,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116480",
     "prevTripId": "HD_INB_TI-18_1925_116480",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_2020_42867",
     "lineId": "tobu_skytree",
     "trainNumber": "1154レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津154号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -221175,10 +221393,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "42867",
     "prevTripId": "HD_INB_TN-23_1921_42867",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_2022_112323",
@@ -221367,10 +221585,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112323",
     "throughTripId": "HD_OUT_TSK-30_2132_112323",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_2022_77919",
@@ -222976,11 +223194,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1643レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう43号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "葛生",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -223158,10 +223377,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116466",
     "throughTripId": "HD_OUT_TSK-30_2120_116466",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_2039_77941",
@@ -223793,6 +224012,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1448レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう48号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -223975,10 +224195,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112832",
     "prevTripId": "HD_INB_TI-18_1956_112832",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_2049_77784",
@@ -224467,6 +224687,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1156レ",
     "trainType": "limitedExp",
+    "trainName": "きぬ156号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
@@ -224649,10 +224870,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116502",
     "prevTripId": "HD_INB_TN-23_1953_116502",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_2053_113157",
@@ -225265,6 +225486,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1051レ",
     "trainType": "limitedExp",
+    "trainName": "けごん51号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -225447,10 +225669,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25133",
     "throughTripId": "HD_OUT_TSK-30_2135_25133",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_2100_77920",
@@ -226045,10 +226267,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112781",
     "prevTripId": "HD_INB_TI-02_2058_112781",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_2108_77787",
@@ -226154,11 +226376,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1845レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう45号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -226336,10 +226559,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "116465",
     "throughTripId": "HD_OUT_TSK-30_2150_116465",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-01_2112_112341",
@@ -226528,10 +226751,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112341",
     "throughTripId": "HD_OUT_TSK-30_2207_112341",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_2113_77670",
@@ -226961,11 +227184,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1850レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう50号",
     "direction": "inbound",
     "originStationId": "TSK-30",
     "destinationStationId": "TSK-01",
     "customOrigin": "赤城",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -227143,10 +227367,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "116481",
     "prevTripId": "HD_INB_TI-18_2025_116481",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-14_2117_113304",
@@ -227303,6 +227527,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1053レ",
     "trainType": "th_liner",
+    "trainName": "スカイツリーライナー3号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-27",
@@ -228550,10 +228775,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112342",
     "throughTripId": "HD_OUT_TSK-30_2230_112342",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-09_2134_112736",
@@ -229138,6 +229363,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1447レ",
     "trainType": "limitedExp",
+    "trainName": "りょうもう47号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -229320,10 +229546,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112300",
     "throughTripId": "HD_OUT_TSK-30_2220_112300",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_2140_77793",
@@ -229921,10 +230147,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "38074",
     "prevTripId": "HD_INB_TN-03_2133_38074",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_2151_77794",
@@ -230212,10 +230438,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112343",
     "throughTripId": "HD_OUT_TSK-30_2249_112343",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-03_2155_111349",
@@ -230915,6 +231141,7 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1255レ",
     "trainType": "limitedExp",
+    "trainName": "リバティけごん255号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
@@ -231097,10 +231324,10 @@
         "isPassing": true
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "25129",
     "throughTripId": "HD_OUT_TSK-30_2237_25129",
-    "throughLineId": "tobu_nikko"
+    "throughLineId": "tobu_nikko",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_2201_77843",
@@ -231830,10 +232057,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112327",
     "throughTripId": "HD_OUT_TSK-30_2317_112327",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_2213_77796",
@@ -232286,11 +232513,12 @@
     "lineId": "tobu_skytree",
     "trainNumber": "1549レ",
     "trainType": "limitedExp",
+    "trainName": "リバティりょうもう49号",
     "direction": "outbound",
     "originStationId": "TSK-01",
     "destinationStationId": "TSK-30",
     "customDestination": "館林",
-    "cars": 6,
+    "cars": 3,
     "isHoliday": true,
     "stops": [
       {
@@ -232468,10 +232696,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112297",
     "throughTripId": "HD_OUT_TSK-30_2300_112297",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-30_2221_113161",
@@ -234084,10 +234312,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112344",
     "throughTripId": "HD_OUT_TSK-30_2337_112344",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-03_2245_111394",
@@ -234462,10 +234690,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112823",
     "prevTripId": "HD_INB_TI-10_2210_112823",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-09_2250_77802",
@@ -235410,10 +235638,10 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "浅草",
     "trainId": "112345",
     "throughTripId": "HD_OUT_TSK-30_2355_112345",
-    "throughLineId": "tobu_isesaki"
+    "throughLineId": "tobu_isesaki",
+    "customOrigin": "浅草"
   },
   {
     "tripId": "HD_INB_TSK-22_2302_113023",
@@ -236245,10 +236473,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "浅草",
     "trainId": "112814",
     "prevTripId": "HD_INB_TI-10_2234_112814",
-    "prevLineId": "tobu_isesaki"
+    "prevLineId": "tobu_isesaki",
+    "customDestination": "浅草"
   },
   {
     "tripId": "HD_OUT_TSK-03_2312_111397",
@@ -237089,10 +237317,10 @@
         "isPassing": false
       }
     ],
-    "customDestination": "北千住",
     "trainId": "38072",
     "prevTripId": "HD_INB_TN-03_2318_38072",
-    "prevLineId": "tobu_nikko"
+    "prevLineId": "tobu_nikko",
+    "customDestination": "北千住"
   },
   {
     "tripId": "HD_OUT_TSK-03_2330_111353",

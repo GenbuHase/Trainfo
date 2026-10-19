@@ -270,16 +270,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "新藤原",
     "trainId": "41241",
     "throughTripId": "WD_OUT_AIZ-01_0846_41241",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "customOrigin": "新藤原"
   },
   {
     "tripId": "WD_INB_YAG-09_0824_40453",
     "lineId": "yagan",
     "trainNumber": "3152レ",
     "trainType": "aizu_mount_exp",
+    "trainName": "AIZUマウントエクスプレス2号",
     "direction": "inbound",
     "originStationId": "YAG-09",
     "destinationStationId": "YAG-01",
@@ -354,6 +355,7 @@
     "lineId": "yagan",
     "trainNumber": "1101レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津101号",
     "direction": "outbound",
     "originStationId": "YAG-01",
     "destinationStationId": "YAG-09",
@@ -502,6 +504,7 @@
     "lineId": "yagan",
     "trainNumber": "3155レ",
     "trainType": "aizu_mount_exp",
+    "trainName": "AIZUマウントエクスプレス1号",
     "direction": "outbound",
     "originStationId": "YAG-01",
     "destinationStationId": "YAG-09",
@@ -576,6 +579,7 @@
     "lineId": "yagan",
     "trainNumber": "1128レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津128号",
     "direction": "inbound",
     "originStationId": "YAG-09",
     "destinationStationId": "YAG-01",
@@ -650,6 +654,7 @@
     "lineId": "yagan",
     "trainNumber": "1113レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津113号",
     "direction": "outbound",
     "originStationId": "YAG-01",
     "destinationStationId": "YAG-09",
@@ -724,6 +729,7 @@
     "lineId": "yagan",
     "trainNumber": "1119レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津119号",
     "direction": "outbound",
     "originStationId": "YAG-01",
     "destinationStationId": "YAG-09",
@@ -798,6 +804,7 @@
     "lineId": "yagan",
     "trainNumber": "1136レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津136号",
     "direction": "inbound",
     "originStationId": "YAG-09",
     "destinationStationId": "YAG-01",
@@ -946,6 +953,7 @@
     "lineId": "yagan",
     "trainNumber": "1142レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津142号",
     "direction": "inbound",
     "originStationId": "YAG-09",
     "destinationStationId": "YAG-01",
@@ -1082,16 +1090,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "新藤原",
     "trainId": "43013",
     "prevTripId": "WD_INB_AIZ-06_1542_43013",
-    "prevLineId": "aizu"
+    "prevLineId": "aizu",
+    "customDestination": "新藤原"
   },
   {
     "tripId": "WD_OUT_YAG-01_1651_25153",
     "lineId": "yagan",
     "trainNumber": "1131レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津131号",
     "direction": "outbound",
     "originStationId": "YAG-01",
     "destinationStationId": "YAG-09",
@@ -1166,6 +1175,7 @@
     "lineId": "yagan",
     "trainNumber": "1154レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津154号",
     "direction": "inbound",
     "originStationId": "YAG-09",
     "destinationStationId": "YAG-01",
@@ -1710,16 +1720,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "新藤原",
     "trainId": "41241",
     "throughTripId": "HD_OUT_AIZ-01_0846_41241",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "customOrigin": "新藤原"
   },
   {
     "tripId": "HD_INB_YAG-09_0824_40453",
     "lineId": "yagan",
     "trainNumber": "3152レ",
     "trainType": "aizu_mount_exp",
+    "trainName": "AIZUマウントエクスプレス2号",
     "direction": "inbound",
     "originStationId": "YAG-09",
     "destinationStationId": "YAG-01",
@@ -1794,6 +1805,7 @@
     "lineId": "yagan",
     "trainNumber": "1101レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津101号",
     "direction": "outbound",
     "originStationId": "YAG-01",
     "destinationStationId": "YAG-09",
@@ -1942,6 +1954,7 @@
     "lineId": "yagan",
     "trainNumber": "3155レ",
     "trainType": "aizu_mount_exp",
+    "trainName": "AIZUマウントエクスプレス1号",
     "direction": "outbound",
     "originStationId": "YAG-01",
     "destinationStationId": "YAG-09",
@@ -2009,6 +2022,79 @@
     "prevTripId": "HD_OUT_TN-56_0938_38077",
     "prevLineId": "tobu_kinugawa",
     "throughTripId": "HD_OUT_AIZ-01_1024_38077",
+    "throughLineId": "aizu"
+  },
+  {
+    "tripId": "HD_OUT_YAG-01_0948_38078",
+    "lineId": "yagan",
+    "trainNumber": "3155レ",
+    "trainType": "aizu_mount_exp",
+    "trainName": "AIZUマウントエクスプレス1号",
+    "direction": "outbound",
+    "originStationId": "YAG-01",
+    "destinationStationId": "YAG-09",
+    "customOrigin": "鬼怒川温泉",
+    "customDestination": "喜多方",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "YAG-01",
+        "arrivalTime": "09:46:00",
+        "departureTime": "09:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "YAG-02",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "YAG-03",
+        "arrivalTime": "09:54:00",
+        "departureTime": "09:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "YAG-04",
+        "arrivalTime": "09:58:00",
+        "departureTime": "09:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "YAG-05",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "YAG-06",
+        "arrivalTime": "10:09:00",
+        "departureTime": "10:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "YAG-07",
+        "arrivalTime": "10:14:00",
+        "departureTime": "10:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "YAG-08",
+        "arrivalTime": "10:18:30",
+        "departureTime": "10:18:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "YAG-09",
+        "arrivalTime": "10:23:00",
+        "departureTime": "10:24:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "38078",
+    "throughTripId": "HD_OUT_AIZ-01_1024_38078",
     "throughLineId": "aizu"
   },
   {
@@ -2084,6 +2170,7 @@
     "lineId": "yagan",
     "trainNumber": "1128レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津128号",
     "direction": "inbound",
     "originStationId": "YAG-09",
     "destinationStationId": "YAG-01",
@@ -2158,6 +2245,7 @@
     "lineId": "yagan",
     "trainNumber": "1113レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津113号",
     "direction": "outbound",
     "originStationId": "YAG-01",
     "destinationStationId": "YAG-09",
@@ -2300,6 +2388,7 @@
     "lineId": "yagan",
     "trainNumber": "1119レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津119号",
     "direction": "outbound",
     "originStationId": "YAG-01",
     "destinationStationId": "YAG-09",
@@ -2374,6 +2463,7 @@
     "lineId": "yagan",
     "trainNumber": "1136レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津136号",
     "direction": "inbound",
     "originStationId": "YAG-09",
     "destinationStationId": "YAG-01",
@@ -2522,6 +2612,7 @@
     "lineId": "yagan",
     "trainNumber": "1142レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津142号",
     "direction": "inbound",
     "originStationId": "YAG-09",
     "destinationStationId": "YAG-01",
@@ -2658,16 +2749,17 @@
         "isPassing": false
       }
     ],
-    "customDestination": "新藤原",
     "trainId": "43013",
     "prevTripId": "HD_INB_AIZ-06_1542_43013",
-    "prevLineId": "aizu"
+    "prevLineId": "aizu",
+    "customDestination": "新藤原"
   },
   {
     "tripId": "HD_OUT_YAG-01_1651_25153",
     "lineId": "yagan",
     "trainNumber": "1131レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津131号",
     "direction": "outbound",
     "originStationId": "YAG-01",
     "destinationStationId": "YAG-09",
@@ -2742,6 +2834,7 @@
     "lineId": "yagan",
     "trainNumber": "1154レ",
     "trainType": "limitedExp",
+    "trainName": "リバティ会津154号",
     "direction": "inbound",
     "originStationId": "YAG-09",
     "destinationStationId": "YAG-01",

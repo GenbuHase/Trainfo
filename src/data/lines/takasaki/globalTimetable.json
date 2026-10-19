@@ -115,9 +115,9 @@
       }
     ],
     "trainId": "34158",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_0617_34158",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_0510_34287",
@@ -599,9 +599,9 @@
       }
     ],
     "trainId": "34094",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_0712_34094",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_0523_33390",
@@ -689,9 +689,9 @@
       }
     ],
     "trainId": "33390",
-    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_0607_33390",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-18_0533_34160",
@@ -809,9 +809,9 @@
       }
     ],
     "trainId": "34160",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_0647_34160",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-18_0535_37790",
@@ -1033,9 +1033,9 @@
       }
     ],
     "trainId": "34081",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_0741_34081",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_0543_19267",
@@ -1316,6 +1316,7 @@
     "lineId": "takasaki",
     "trainNumber": "4002M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ2号",
     "direction": "inbound",
     "originStationId": "TK-21",
     "destinationStationId": "TK-02",
@@ -1504,7 +1505,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customOrigin": "前橋",
     "customDestination": "小田原",
     "cars": 15,
@@ -1621,7 +1622,25 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "07:17:00",
-        "departureTime": "07:17:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "07:19:39",
+        "departureTime": "07:19:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "07:24:00",
+        "departureTime": "07:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:34:00",
         "isPassing": false
       }
     ],
@@ -1787,9 +1806,9 @@
       }
     ],
     "trainId": "34324",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_0553_34324",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_0603_13934",
@@ -2065,9 +2084,9 @@
       }
     ],
     "trainId": "34102",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_0806_34102",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_0609_34161",
@@ -2185,9 +2204,9 @@
       }
     ],
     "trainId": "34161",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_0729_34161",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_0610_34250",
@@ -2369,9 +2388,9 @@
       }
     ],
     "trainId": "33376",
-    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_0805_33389",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_0612_19268",
@@ -2617,9 +2636,9 @@
       }
     ],
     "trainId": "33391",
-    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_0703_33391",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_0621_34296",
@@ -2994,9 +3013,9 @@
       }
     ],
     "trainId": "34348",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_0620_34348",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_0626_33372",
@@ -3005,7 +3024,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -3121,12 +3140,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "07:50:00",
-        "departureTime": "07:50:00",
+        "departureTime": "07:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "07:53:55",
+        "departureTime": "07:53:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "07:59:00",
+        "departureTime": "07:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "08:09:00",
+        "departureTime": "08:10:00",
         "isPassing": false
       }
     ],
-    "trainId": "33372",
-    "customOrigin": "高崎"
+    "trainId": "33372"
   },
   {
     "tripId": "WD_INB_TK-25_0631_34121",
@@ -3286,9 +3322,9 @@
       }
     ],
     "trainId": "34121",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_0830_34121",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_0633_34260",
@@ -3580,9 +3616,9 @@
       }
     ],
     "trainId": "34165",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_0754_34165",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_0640_19270",
@@ -3900,15 +3936,16 @@
       }
     ],
     "trainId": "34103",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_0843_34103",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-13_0645_13929",
     "lineId": "takasaki",
     "trainNumber": "4004M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ4号",
     "direction": "inbound",
     "originStationId": "TK-13",
     "destinationStationId": "TK-02",
@@ -4438,9 +4475,9 @@
       }
     ],
     "trainId": "34974",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_0648_34974",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_0658_40903",
@@ -4600,9 +4637,9 @@
       }
     ],
     "trainId": "40903",
-    "customDestination": "上野",
     "prevTripId": "WD_OUT_RY-17_0641_40903",
-    "prevLineId": "ryomo"
+    "prevLineId": "ryomo",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_TK-25_0702_33381",
@@ -4611,7 +4648,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -4727,12 +4764,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "08:27:00",
-        "departureTime": "08:27:00",
+        "departureTime": "08:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "08:29:55",
+        "departureTime": "08:29:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "08:35:00",
+        "departureTime": "08:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "08:46:00",
+        "departureTime": "08:47:00",
         "isPassing": false
       }
     ],
-    "trainId": "33381",
-    "customOrigin": "高崎"
+    "trainId": "33381"
   },
   {
     "tripId": "WD_INB_TK-07_0703_5759",
@@ -4960,7 +5014,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-19",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": false,
@@ -5040,12 +5094,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "08:02:00",
-        "departureTime": "08:02:00",
+        "departureTime": "08:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "08:07:12",
+        "departureTime": "08:07:12",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "08:13:00",
+        "departureTime": "08:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "08:23:00",
+        "departureTime": "08:24:00",
         "isPassing": false
       }
     ],
-    "trainId": "33389",
-    "customOrigin": "深谷"
+    "trainId": "33389"
   },
   {
     "tripId": "WD_OUT_TK-02_0711_19257",
@@ -5321,9 +5392,9 @@
       }
     ],
     "trainId": "34082",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_0904_34082",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-04_0714_33550",
@@ -5453,9 +5524,9 @@
       }
     ],
     "trainId": "33550",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_0610_33550",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_0717_34257",
@@ -5755,9 +5826,9 @@
       }
     ],
     "trainId": "34087",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_0917_34087",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_0722_5700",
@@ -5968,9 +6039,9 @@
       }
     ],
     "trainId": "34399",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_0718_34399",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_0726_33436",
@@ -6293,6 +6364,7 @@
     "lineId": "takasaki",
     "trainNumber": "4006M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ6号",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-07",
@@ -6416,9 +6488,9 @@
       }
     ],
     "trainId": "40861",
-    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_0840_40861",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_0741_34181",
@@ -6630,9 +6702,9 @@
       }
     ],
     "trainId": "34104",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_0936_34104",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_0749_34378",
@@ -6792,9 +6864,9 @@
       }
     ],
     "trainId": "34378",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_0743_34378",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_0752_34239",
@@ -6934,15 +7006,16 @@
       }
     ],
     "trainId": "33541",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_0646_33541",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-07_0758_10066",
     "lineId": "takasaki",
     "trainNumber": "9073M",
     "trainType": "limitedExp",
+    "trainName": "谷川岳もぐら",
     "direction": "outbound",
     "originStationId": "TK-07",
     "destinationStationId": "TK-25",
@@ -7079,7 +7152,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -7195,12 +7268,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "09:23:00",
-        "departureTime": "09:23:00",
+        "departureTime": "09:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "09:25:39",
+        "departureTime": "09:25:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "09:30:00",
+        "departureTime": "09:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "09:39:00",
+        "departureTime": "09:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "33383",
-    "customOrigin": "高崎"
+    "trainId": "33383"
   },
   {
     "tripId": "WD_OUT_TK-02_0800_34394",
@@ -7318,9 +7408,9 @@
       }
     ],
     "trainId": "34394",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_0750_34394",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_0804_34248",
@@ -7541,9 +7631,9 @@
       }
     ],
     "trainId": "34395",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_0809_34395",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_0824_34249",
@@ -7713,9 +7803,9 @@
       }
     ],
     "trainId": "34167",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_0948_34167",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_0824_34089",
@@ -7875,9 +7965,9 @@
       }
     ],
     "trainId": "34089",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1012_34089",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-04_0824_33552",
@@ -8007,15 +8097,16 @@
       }
     ],
     "trainId": "33552",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_0714_33552",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-21_0825_13928",
     "lineId": "takasaki",
     "trainNumber": "4008M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ8号",
     "direction": "inbound",
     "originStationId": "TK-21",
     "destinationStationId": "TK-02",
@@ -8202,6 +8293,7 @@
     "lineId": "takasaki",
     "trainNumber": "3920E",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -8355,9 +8447,9 @@
       }
     ],
     "trainId": "34303",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_0826_34303",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_0841_34220",
@@ -8497,9 +8589,9 @@
       }
     ],
     "trainId": "33501",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_0732_33501",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_0842_34401",
@@ -8659,9 +8751,9 @@
       }
     ],
     "trainId": "34401",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_0836_34401",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_0847_34150",
@@ -8779,9 +8871,9 @@
       }
     ],
     "trainId": "34150",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1003_34150",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_0847_34105",
@@ -8941,9 +9033,9 @@
       }
     ],
     "trainId": "34105",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1041_34105",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_0856_34221",
@@ -9125,9 +9217,9 @@
       }
     ],
     "trainId": "33512",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_0750_33512",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_0902_34392",
@@ -9245,9 +9337,9 @@
       }
     ],
     "trainId": "34392",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_0855_34392",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_0908_34180",
@@ -9308,7 +9400,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -9382,12 +9474,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "09:56:00",
-        "departureTime": "09:56:00",
+        "departureTime": "09:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "09:58:22",
+        "departureTime": "09:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "10:02:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33394",
-    "customOrigin": "籠原"
+    "trainId": "33394"
   },
   {
     "tripId": "WD_OUT_TK-02_0915_34396",
@@ -9505,9 +9614,9 @@
       }
     ],
     "trainId": "34396",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_0906_34396",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_0915_33359",
@@ -9516,7 +9625,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -9632,12 +9741,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "10:27:00",
-        "departureTime": "10:27:00",
+        "departureTime": "10:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "10:29:22",
+        "departureTime": "10:29:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "10:33:00",
+        "departureTime": "10:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "10:42:00",
+        "departureTime": "10:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "33359",
-    "customOrigin": "高崎"
+    "trainId": "33359"
   },
   {
     "tripId": "WD_INB_TK-18_0921_13939",
@@ -9871,9 +9997,9 @@
       }
     ],
     "trainId": "34308",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_0916_34308",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_0926_34223",
@@ -9932,6 +10058,7 @@
     "lineId": "takasaki",
     "trainNumber": "3922E",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -10085,9 +10212,9 @@
       }
     ],
     "trainId": "34304",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_0921_34304",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_0929_34125",
@@ -10247,9 +10374,9 @@
       }
     ],
     "trainId": "34125",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1121_34125",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_0938_5702",
@@ -10418,9 +10545,9 @@
       }
     ],
     "trainId": "34168",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1102_34168",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-04_0943_33520",
@@ -10508,9 +10635,9 @@
       }
     ],
     "trainId": "33520",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_0829_33520",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_0945_34326",
@@ -10670,9 +10797,9 @@
       }
     ],
     "trainId": "34326",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_0939_34326",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_0954_34108",
@@ -10832,9 +10959,9 @@
       }
     ],
     "trainId": "34108",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1141_34108",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_0955_34226",
@@ -11046,15 +11173,16 @@
       }
     ],
     "trainId": "34328",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_0950_34328",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_1000_6557",
     "lineId": "takasaki",
     "trainNumber": "3001M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万1号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -11216,7 +11344,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -11290,12 +11418,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "10:56:00",
-        "departureTime": "10:56:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "10:58:22",
+        "departureTime": "10:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "11:02:00",
+        "departureTime": "11:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "11:11:00",
+        "departureTime": "11:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33395",
-    "customOrigin": "籠原"
+    "trainId": "33395"
   },
   {
     "tripId": "WD_INB_TK-25_1014_33360",
@@ -11304,7 +11449,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -11420,12 +11565,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "11:26:00",
-        "departureTime": "11:26:00",
+        "departureTime": "11:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "11:29:55",
+        "departureTime": "11:29:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "11:35:00",
+        "departureTime": "11:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "11:43:00",
+        "departureTime": "11:44:00",
         "isPassing": false
       }
     ],
-    "trainId": "33360",
-    "customOrigin": "高崎"
+    "trainId": "33360"
   },
   {
     "tripId": "WD_OUT_TK-02_1015_34351",
@@ -11585,9 +11747,9 @@
       }
     ],
     "trainId": "34351",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1009_34351",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_1024_34254",
@@ -11799,9 +11961,9 @@
       }
     ],
     "trainId": "34126",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1221_34126",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-04_1028_33518",
@@ -11931,9 +12093,9 @@
       }
     ],
     "trainId": "33518",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_0920_33518",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_1030_19258",
@@ -12167,9 +12329,9 @@
       }
     ],
     "trainId": "34170",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1200_34170",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1043_34182",
@@ -12353,9 +12515,9 @@
       }
     ],
     "trainId": "34380",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1039_34380",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1054_34110",
@@ -12515,9 +12677,9 @@
       }
     ],
     "trainId": "34110",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1241_34110",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_1101_34273",
@@ -12576,6 +12738,7 @@
     "lineId": "takasaki",
     "trainNumber": "9083M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万83号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -12846,9 +13009,9 @@
       }
     ],
     "trainId": "34340",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_1059_34340",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-04_1106_33521",
@@ -12936,9 +13099,9 @@
       }
     ],
     "trainId": "33521",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1001_33521",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-18_1113_33397",
@@ -12947,7 +13110,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -13021,12 +13184,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "11:56:00",
-        "departureTime": "11:56:00",
+        "departureTime": "11:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "11:58:39",
+        "departureTime": "11:58:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "12:03:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "12:11:00",
+        "departureTime": "12:12:00",
         "isPassing": false
       }
     ],
-    "trainId": "33397",
-    "customOrigin": "籠原"
+    "trainId": "33397"
   },
   {
     "tripId": "WD_INB_TK-25_1114_33363",
@@ -13035,7 +13215,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -13151,12 +13331,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "12:26:00",
-        "departureTime": "12:26:00",
+        "departureTime": "12:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "12:28:39",
+        "departureTime": "12:28:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "12:33:00",
+        "departureTime": "12:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "12:41:00",
+        "departureTime": "12:41:00",
         "isPassing": false
       }
     ],
-    "trainId": "33363",
-    "customOrigin": "高崎"
+    "trainId": "33363"
   },
   {
     "tripId": "WD_INB_TK-07_1122_34233",
@@ -13368,9 +13565,9 @@
       }
     ],
     "trainId": "34383",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1119_34383",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1132_34130",
@@ -13530,9 +13727,9 @@
       }
     ],
     "trainId": "34130",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1321_34130",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-04_1136_33491",
@@ -13662,9 +13859,9 @@
       }
     ],
     "trainId": "33491",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1034_33491",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_1141_34172",
@@ -13782,9 +13979,9 @@
       }
     ],
     "trainId": "34172",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1301_34172",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1143_34185",
@@ -13793,7 +13990,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TK-07",
-    "destinationStationId": "TK-02",
+    "destinationStationId": "TK-07",
     "customOrigin": "宇都宮",
     "customDestination": "平塚",
     "cars": 15,
@@ -13802,41 +13999,13 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "11:38:00",
-        "departureTime": "11:43:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-06",
-        "arrivalTime": "11:45:00",
-        "departureTime": "11:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-05",
-        "arrivalTime": "11:50:00",
-        "departureTime": "11:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-04",
-        "arrivalTime": "11:58:00",
-        "departureTime": "11:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-03",
-        "arrivalTime": "12:03:00",
-        "departureTime": "12:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-02",
-        "arrivalTime": "12:09:00",
-        "departureTime": "12:11:00",
+        "departureTime": "11:57:00",
         "isPassing": false
       }
     ],
-    "trainId": "34185"
+    "trainId": "34185",
+    "throughTripId": "WD_OUT_JS-24_1157_33397",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-02_1145_34384",
@@ -13996,9 +14165,9 @@
       }
     ],
     "trainId": "34384",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1139_34384",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1152_34111",
@@ -14158,9 +14327,9 @@
       }
     ],
     "trainId": "34111",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1341_34111",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_1203_34275",
@@ -14330,9 +14499,9 @@
       }
     ],
     "trainId": "34309",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_1159_34309",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-04_1205_33544",
@@ -14420,15 +14589,16 @@
       }
     ],
     "trainId": "33544",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1101_33544",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_1210_6559",
     "lineId": "takasaki",
     "trainNumber": "3003M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万3号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -14590,7 +14760,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -14664,12 +14834,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "12:56:00",
-        "departureTime": "12:56:00",
+        "departureTime": "12:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "12:58:22",
+        "departureTime": "12:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "13:02:00",
+        "departureTime": "13:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "13:11:00",
+        "departureTime": "13:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33399",
-    "customOrigin": "籠原"
+    "trainId": "33399"
   },
   {
     "tripId": "WD_INB_TK-25_1214_33364",
@@ -14678,7 +14865,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -14794,12 +14981,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "13:26:00",
-        "departureTime": "13:26:00",
+        "departureTime": "13:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "13:28:39",
+        "departureTime": "13:28:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "13:33:00",
+        "departureTime": "13:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "13:42:00",
+        "departureTime": "13:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "33364",
-    "customOrigin": "高崎"
+    "trainId": "33364"
   },
   {
     "tripId": "WD_INB_TK-07_1225_34234",
@@ -15011,9 +15215,9 @@
       }
     ],
     "trainId": "34330",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1219_34330",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1232_34133",
@@ -15173,9 +15377,9 @@
       }
     ],
     "trainId": "34133",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1421_34133",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-04_1235_33493",
@@ -15305,9 +15509,9 @@
       }
     ],
     "trainId": "33493",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1134_33493",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_1241_34173",
@@ -15425,9 +15629,9 @@
       }
     ],
     "trainId": "34173",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1401_34173",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1243_34189",
@@ -15611,9 +15815,9 @@
       }
     ],
     "trainId": "34386",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1239_34386",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1253_34113",
@@ -15773,9 +15977,9 @@
       }
     ],
     "trainId": "34113",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1441_34113",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_1302_34277",
@@ -15945,9 +16149,9 @@
       }
     ],
     "trainId": "34310",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_1259_34310",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-04_1305_33522",
@@ -16035,9 +16239,9 @@
       }
     ],
     "trainId": "33522",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1202_33522",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-18_1313_33410",
@@ -16125,9 +16329,9 @@
       }
     ],
     "trainId": "33410",
-    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_1357_33410",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_1314_33367",
@@ -16136,7 +16340,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -16252,12 +16456,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "14:26:00",
-        "departureTime": "14:26:00",
+        "departureTime": "14:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "14:28:39",
+        "departureTime": "14:28:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "14:33:00",
+        "departureTime": "14:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "14:41:00",
+        "departureTime": "14:41:00",
         "isPassing": false
       }
     ],
-    "trainId": "33367",
-    "customOrigin": "高崎"
+    "trainId": "33367"
   },
   {
     "tripId": "WD_INB_TK-07_1323_34235",
@@ -16469,9 +16690,9 @@
       }
     ],
     "trainId": "34353",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1319_34353",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1328_34135",
@@ -16631,9 +16852,9 @@
       }
     ],
     "trainId": "34135",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1521_34135",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-04_1335_33494",
@@ -16763,9 +16984,9 @@
       }
     ],
     "trainId": "33494",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1234_33494",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_1341_33723",
@@ -16883,9 +17104,9 @@
       }
     ],
     "trainId": "33723",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1500_33723",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1343_34191",
@@ -17097,9 +17318,9 @@
       }
     ],
     "trainId": "34355",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1339_34355",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1349_34136",
@@ -17259,9 +17480,9 @@
       }
     ],
     "trainId": "34136",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1541_34136",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_1403_34279",
@@ -17431,9 +17652,9 @@
       }
     ],
     "trainId": "34312",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_1359_34312",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-04_1405_33524",
@@ -17521,15 +17742,16 @@
       }
     ],
     "trainId": "33524",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1301_33524",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_1406_37207",
     "lineId": "takasaki",
     "trainNumber": "3002M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万2号",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-02",
@@ -17683,9 +17905,9 @@
       }
     ],
     "trainId": "37207",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JOE-07_1349_37207",
-    "prevLineId": "joetsu"
+    "prevLineId": "joetsu",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_TK-18_1412_33401",
@@ -17694,7 +17916,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -17768,12 +17990,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "14:55:00",
-        "departureTime": "14:55:00",
+        "departureTime": "14:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "14:57:39",
+        "departureTime": "14:57:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "15:02:00",
+        "departureTime": "15:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "15:11:00",
+        "departureTime": "15:12:00",
         "isPassing": false
       }
     ],
-    "trainId": "33401",
-    "customOrigin": "籠原"
+    "trainId": "33401"
   },
   {
     "tripId": "WD_INB_TK-25_1414_33369",
@@ -17782,7 +18021,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -17898,12 +18137,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "15:26:00",
-        "departureTime": "15:26:00",
+        "departureTime": "15:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "15:29:22",
+        "departureTime": "15:29:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "15:33:00",
+        "departureTime": "15:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "15:42:00",
+        "departureTime": "15:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "33369",
-    "customOrigin": "高崎"
+    "trainId": "33369"
   },
   {
     "tripId": "WD_INB_TK-07_1423_34238",
@@ -18115,9 +18371,9 @@
       }
     ],
     "trainId": "34357",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1419_34357",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1428_34137",
@@ -18277,9 +18533,9 @@
       }
     ],
     "trainId": "34137",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1621_34137",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-04_1435_33495",
@@ -18409,9 +18665,9 @@
       }
     ],
     "trainId": "33495",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1334_33495",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_1441_34151",
@@ -18529,9 +18785,9 @@
       }
     ],
     "trainId": "34151",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1600_34151",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1443_34192",
@@ -18715,9 +18971,9 @@
       }
     ],
     "trainId": "34359",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1439_34359",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1452_34139",
@@ -18877,9 +19133,9 @@
       }
     ],
     "trainId": "34139",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1642_34139",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_1503_34264",
@@ -19021,9 +19277,9 @@
       }
     ],
     "trainId": "34315",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_1459_34315",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-04_1505_33526",
@@ -19111,9 +19367,9 @@
       }
     ],
     "trainId": "33526",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1401_33526",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-18_1513_33403",
@@ -19122,7 +19378,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -19196,12 +19452,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "15:56:00",
-        "departureTime": "15:56:00",
+        "departureTime": "15:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "15:58:22",
+        "departureTime": "15:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "16:02:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "16:11:00",
+        "departureTime": "16:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33403",
-    "customOrigin": "籠原"
+    "trainId": "33403"
   },
   {
     "tripId": "WD_INB_TK-25_1514_33370",
@@ -19560,9 +19833,9 @@
       }
     ],
     "trainId": "34360",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1519_34360",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1530_13916",
@@ -19850,9 +20123,9 @@
       }
     ],
     "trainId": "33496",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1435_33496",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_1541_34153",
@@ -19970,9 +20243,9 @@
       }
     ],
     "trainId": "34153",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1701_34153",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1543_33718",
@@ -20184,9 +20457,9 @@
       }
     ],
     "trainId": "34363",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1539_34363",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1555_34090",
@@ -20346,9 +20619,9 @@
       }
     ],
     "trainId": "34090",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1747_34090",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_1558_34175",
@@ -20466,9 +20739,9 @@
       }
     ],
     "trainId": "34175",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1711_34175",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1602_34266",
@@ -20652,9 +20925,9 @@
       }
     ],
     "trainId": "34331",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1559_34331",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-04_1605_33528",
@@ -20742,9 +21015,9 @@
       }
     ],
     "trainId": "33528",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1501_33528",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_1611_33385",
@@ -20874,9 +21147,9 @@
       }
     ],
     "trainId": "33385",
-    "customOrigin": "高崎",
     "throughTripId": "WD_OUT_JS-24_1757_33416",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_1613_33405",
@@ -20885,7 +21158,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -20959,12 +21232,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "16:59:00",
-        "departureTime": "16:59:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "17:01:39",
+        "departureTime": "17:01:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:15:00",
         "isPassing": false
       }
     ],
-    "trainId": "33405",
-    "customOrigin": "籠原"
+    "trainId": "33405"
   },
   {
     "tripId": "WD_INB_TK-18_1621_34162",
@@ -21082,9 +21372,9 @@
       }
     ],
     "trainId": "34162",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1733_34162",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_1625_34342",
@@ -21202,9 +21492,9 @@
       }
     ],
     "trainId": "34342",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_1619_34342",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1625_34243",
@@ -21213,7 +21503,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TK-07",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-02",
     "customOrigin": "古河",
     "customDestination": "小田原",
     "cars": 15,
@@ -21222,7 +21512,37 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "16:24:00",
-        "departureTime": "16:24:00",
+        "departureTime": "16:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "16:28:00",
+        "departureTime": "16:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "16:32:00",
+        "departureTime": "16:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "16:40:00",
+        "departureTime": "16:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-03",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-02",
+        "arrivalTime": "16:51:00",
+        "departureTime": "16:52:00",
         "isPassing": false
       }
     ],
@@ -21386,9 +21706,9 @@
       }
     ],
     "trainId": "34141",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1821_34141",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_1632_19274",
@@ -21676,9 +21996,9 @@
       }
     ],
     "trainId": "33498",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1534_33498",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1641_34294",
@@ -22002,9 +22322,9 @@
       }
     ],
     "trainId": "34364",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1639_34364",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_1646_34204",
@@ -22063,6 +22383,7 @@
     "lineId": "takasaki",
     "trainNumber": "3004M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万4号",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-02",
@@ -22216,9 +22537,9 @@
       }
     ],
     "trainId": "37209",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JOE-07_1626_37209",
-    "prevLineId": "joetsu"
+    "prevLineId": "joetsu",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_TK-18_1650_34177",
@@ -22336,9 +22657,9 @@
       }
     ],
     "trainId": "34177",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1805_34177",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1658_5762",
@@ -22549,9 +22870,9 @@
       }
     ],
     "trainId": "34092",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1849_34092",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_1705_34334",
@@ -22711,9 +23032,9 @@
       }
     ],
     "trainId": "34334",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1659_34334",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-04_1705_33547",
@@ -22801,9 +23122,9 @@
       }
     ],
     "trainId": "33547",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1601_33547",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1710_34281",
@@ -22980,7 +23301,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -23054,12 +23375,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "17:56:00",
-        "departureTime": "17:56:00",
+        "departureTime": "17:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "17:58:22",
+        "departureTime": "17:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "18:12:00",
+        "departureTime": "18:12:00",
         "isPassing": false
       }
     ],
-    "trainId": "33416",
-    "customOrigin": "籠原"
+    "trainId": "33416"
   },
   {
     "tripId": "WD_INB_TK-25_1713_33378",
@@ -23068,7 +23406,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": false,
@@ -23184,18 +23522,36 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "18:32:00",
-        "departureTime": "18:32:00",
+        "departureTime": "18:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "18:34:55",
+        "departureTime": "18:34:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "18:48:00",
+        "departureTime": "18:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "33378",
-    "customOrigin": "高崎"
+    "trainId": "33378"
   },
   {
     "tripId": "WD_INB_TK-25_1722_43395",
     "lineId": "takasaki",
     "trainNumber": "9076M",
     "trainType": "limitedExp",
+    "trainName": "谷川岳ループ",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-07",
@@ -23493,9 +23849,9 @@
       }
     ],
     "trainId": "34344",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_1719_34344",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1729_34199",
@@ -23865,9 +24221,9 @@
       }
     ],
     "trainId": "42169",
-    "customDestination": "上野",
     "prevTripId": "WD_INB_JOE-04_1726_42169",
-    "prevLineId": "joetsu"
+    "prevLineId": "joetsu",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_INB_TK-07_1739_5763",
@@ -24048,9 +24404,9 @@
       }
     ],
     "trainId": "33499",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1634_33499",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_1744_34367",
@@ -24210,9 +24566,9 @@
       }
     ],
     "trainId": "34367",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1738_34367",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_1746_34245",
@@ -24382,9 +24738,9 @@
       }
     ],
     "trainId": "34299",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1910_34299",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1759_34259",
@@ -24596,15 +24952,16 @@
       }
     ],
     "trainId": "34143",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_1954_34143",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_1800_19247",
     "lineId": "takasaki",
     "trainNumber": "4001M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ1号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-13",
@@ -25046,9 +25403,9 @@
       }
     ],
     "trainId": "33530",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1703_33530",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_1809_34335",
@@ -25208,9 +25565,9 @@
       }
     ],
     "trainId": "34335",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1802_34335",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_1813_34284",
@@ -25271,7 +25628,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -25387,12 +25744,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "19:34:00",
-        "departureTime": "19:34:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "19:36:39",
+        "departureTime": "19:36:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "19:41:00",
+        "departureTime": "19:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "19:49:00",
+        "departureTime": "19:50:00",
         "isPassing": false
       }
     ],
-    "trainId": "33375",
-    "customOrigin": "高崎"
+    "trainId": "33375"
   },
   {
     "tripId": "WD_OUT_TK-02_1822_34375",
@@ -25510,9 +25884,9 @@
       }
     ],
     "trainId": "34375",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_1814_34375",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-18_1822_34163",
@@ -25630,9 +26004,9 @@
       }
     ],
     "trainId": "34163",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_1934_34163",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-18_1827_33408",
@@ -25720,15 +26094,16 @@
       }
     ],
     "trainId": "33408",
-    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_1935_33375",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_1830_19248",
     "lineId": "takasaki",
     "trainNumber": "4003M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ3号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-21",
@@ -26232,9 +26607,9 @@
       }
     ],
     "trainId": "34369",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1831_34369",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-04_1840_33515",
@@ -26364,15 +26739,16 @@
       }
     ],
     "trainId": "33515",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_1733_33515",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_1842_19254",
     "lineId": "takasaki",
     "trainNumber": "3931M",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -26708,9 +27084,9 @@
       }
     ],
     "trainId": "34144",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_2034_34144",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_1852_34345",
@@ -26828,9 +27204,9 @@
       }
     ],
     "trainId": "34345",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_1846_34345",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-18_1858_13944",
@@ -26953,6 +27329,7 @@
     "lineId": "takasaki",
     "trainNumber": "4005M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ5号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-21",
@@ -27240,9 +27617,9 @@
       }
     ],
     "trainId": "33722",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_2054_33722",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_1909_19281",
@@ -27540,9 +27917,9 @@
       }
     ],
     "trainId": "33533",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1801_33533",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_1914_34372",
@@ -27702,9 +28079,9 @@
       }
     ],
     "trainId": "34372",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1909_34372",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_1917_33388",
@@ -27713,7 +28090,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -27829,12 +28206,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "20:35:00",
-        "departureTime": "20:35:00",
+        "departureTime": "20:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "20:37:22",
+        "departureTime": "20:37:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "20:41:00",
+        "departureTime": "20:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "20:50:00",
+        "departureTime": "20:50:00",
         "isPassing": false
       }
     ],
-    "trainId": "33388",
-    "customOrigin": "高崎"
+    "trainId": "33388"
   },
   {
     "tripId": "WD_INB_TK-07_1918_34208",
@@ -27974,15 +28368,16 @@
       }
     ],
     "trainId": "33414",
-    "customOrigin": "籠原",
     "throughTripId": "WD_OUT_JS-24_2003_33414",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_1930_19250",
     "lineId": "takasaki",
     "trainNumber": "4007M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ7号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-21",
@@ -28270,9 +28665,9 @@
       }
     ],
     "trainId": "40905",
-    "customDestination": "上野",
     "prevTripId": "WD_OUT_RY-17_1913_40905",
-    "prevLineId": "ryomo"
+    "prevLineId": "ryomo",
+    "customDestination": "上野"
   },
   {
     "tripId": "WD_OUT_TK-04_1930_33505",
@@ -28360,9 +28755,9 @@
       }
     ],
     "trainId": "33505",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1823_33505",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_1934_34388",
@@ -28522,9 +28917,9 @@
       }
     ],
     "trainId": "34388",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_1928_34388",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_1937_34246",
@@ -28583,6 +28978,7 @@
     "lineId": "takasaki",
     "trainNumber": "3933M",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -28822,9 +29218,9 @@
       }
     ],
     "trainId": "33507",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1836_33507",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_1946_34097",
@@ -28984,9 +29380,9 @@
       }
     ],
     "trainId": "34097",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_2136_34097",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_1947_34346",
@@ -29104,9 +29500,9 @@
       }
     ],
     "trainId": "34346",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_1939_34346",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_1958_34194",
@@ -29165,6 +29561,7 @@
     "lineId": "takasaki",
     "trainNumber": "4009M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ9号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -29434,9 +29831,9 @@
       }
     ],
     "trainId": "34302",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_2113_34302",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_2003_34318",
@@ -29554,9 +29951,9 @@
       }
     ],
     "trainId": "34318",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_1958_34318",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_2007_34098",
@@ -29716,9 +30113,9 @@
       }
     ],
     "trainId": "34098",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_2154_34098",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-04_2011_33715",
@@ -30152,9 +30549,9 @@
       }
     ],
     "trainId": "34389",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_2017_34389",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_2024_5765",
@@ -30530,7 +30927,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -30604,12 +31001,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "21:23:00",
-        "departureTime": "21:23:00",
+        "departureTime": "21:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "21:25:55",
+        "departureTime": "21:25:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "21:31:00",
+        "departureTime": "21:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "21:41:00",
+        "departureTime": "21:41:00",
         "isPassing": false
       }
     ],
-    "trainId": "33417",
-    "customOrigin": "籠原"
+    "trainId": "33417"
   },
   {
     "tripId": "WD_INB_TK-07_2037_34195",
@@ -30749,9 +31163,9 @@
       }
     ],
     "trainId": "33509",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_1931_33509",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_2044_34338",
@@ -30911,9 +31325,9 @@
       }
     ],
     "trainId": "34338",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_2038_34338",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_2048_34146",
@@ -31073,9 +31487,9 @@
       }
     ],
     "trainId": "34146",
-    "customOrigin": "高崎",
     "throughTripId": "WD_INB_UT-02_2245_34146",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_2051_34155",
@@ -31193,9 +31607,9 @@
       }
     ],
     "trainId": "34155",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_2205_34155",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_2058_34210",
@@ -31226,6 +31640,7 @@
     "lineId": "takasaki",
     "trainNumber": "8081M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ81号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-21",
@@ -31478,7 +31893,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": false,
@@ -31594,12 +32009,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "22:24:00",
-        "departureTime": "22:24:00",
+        "departureTime": "22:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "22:27:22",
+        "departureTime": "22:27:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "22:31:00",
+        "departureTime": "22:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "22:39:00",
+        "departureTime": "22:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "33380",
-    "customOrigin": "高崎"
+    "trainId": "33380"
   },
   {
     "tripId": "WD_OUT_TK-02_2107_34517",
@@ -31717,9 +32149,9 @@
       }
     ],
     "trainId": "34517",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_2059_34517",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-04_2110_33717",
@@ -31971,9 +32403,9 @@
       }
     ],
     "trainId": "34164",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_2224_34164",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_2117_34231",
@@ -32034,7 +32466,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -32108,12 +32540,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "22:10:00",
-        "departureTime": "22:10:00",
+        "departureTime": "22:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "22:12:22",
+        "departureTime": "22:12:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "22:16:00",
+        "departureTime": "22:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "22:25:00",
+        "departureTime": "22:25:00",
         "isPassing": false
       }
     ],
-    "trainId": "33420",
-    "customOrigin": "籠原"
+    "trainId": "33420"
   },
   {
     "tripId": "WD_OUT_TK-02_2126_34390",
@@ -32273,9 +32722,9 @@
       }
     ],
     "trainId": "34390",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_2120_34390",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-04_2127_33510",
@@ -32363,9 +32812,9 @@
       }
     ],
     "trainId": "33510",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_2021_33510",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_2130_13919",
@@ -32785,9 +33234,9 @@
       }
     ],
     "trainId": "34391",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_2139_34391",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-25_2146_13921",
@@ -33115,9 +33564,9 @@
       }
     ],
     "trainId": "40526",
-    "customOrigin": "籠原",
     "throughTripId": "WD_INB_UT-02_2306_40526",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-04_2200_33511",
@@ -33205,9 +33654,9 @@
       }
     ],
     "trainId": "33511",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_2053_33511",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_2206_34201",
@@ -33349,9 +33798,9 @@
       }
     ],
     "trainId": "34347",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_2201_34347",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-25_2215_13923",
@@ -33639,9 +34088,9 @@
       }
     ],
     "trainId": "33554",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_2111_33554",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_2219_34516",
@@ -34184,9 +34633,9 @@
       }
     ],
     "trainId": "34321",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_2230_34321",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-18_2237_13947",
@@ -34483,9 +34932,9 @@
       }
     ],
     "trainId": "33538",
-    "customDestination": "高崎",
     "prevTripId": "WD_INB_JS-01_2142_33538",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_2254_34322",
@@ -34603,9 +35052,9 @@
       }
     ],
     "trainId": "34322",
-    "customDestination": "籠原",
     "prevTripId": "WD_OUT_UT-01_2248_34322",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "WD_INB_TK-07_2255_5708",
@@ -35045,9 +35494,9 @@
       }
     ],
     "trainId": "34978",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_UT-01_2319_34978",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "WD_INB_TK-07_2335_5711",
@@ -35302,9 +35751,9 @@
       }
     ],
     "trainId": "33549",
-    "customDestination": "籠原",
     "prevTripId": "WD_INB_JS-01_2245_33549",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-18_0506_34157",
@@ -35422,9 +35871,9 @@
       }
     ],
     "trainId": "34157",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_0617_34157",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_0510_34288",
@@ -35755,7 +36204,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -35829,12 +36278,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "06:06:00",
-        "departureTime": "06:06:00",
+        "departureTime": "06:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "06:08:39",
+        "departureTime": "06:08:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "06:13:00",
+        "departureTime": "06:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "06:21:00",
+        "departureTime": "06:22:00",
         "isPassing": false
       }
     ],
-    "trainId": "33415",
-    "customOrigin": "籠原"
+    "trainId": "33415"
   },
   {
     "tripId": "HD_INB_TK-25_0524_34100",
@@ -35994,9 +36460,9 @@
       }
     ],
     "trainId": "34100",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_0713_34100",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_0533_34159",
@@ -36114,9 +36580,9 @@
       }
     ],
     "trainId": "34159",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_0647_34159",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-18_0535_37790",
@@ -36338,9 +36804,9 @@
       }
     ],
     "trainId": "34101",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_0729_34101",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_0543_19267",
@@ -36658,9 +37124,9 @@
       }
     ],
     "trainId": "34095",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_0740_34095",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_0550_13932",
@@ -36988,9 +37454,9 @@
       }
     ],
     "trainId": "34085",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_0747_34085",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_0600_34324",
@@ -37150,9 +37616,9 @@
       }
     ],
     "trainId": "34324",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_0553_34324",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_0610_34251",
@@ -37584,9 +38050,9 @@
       }
     ],
     "trainId": "33392",
-    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_0704_33392",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_0622_5758",
@@ -37961,9 +38427,9 @@
       }
     ],
     "trainId": "34349",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_0620_34349",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_0628_33377",
@@ -38093,9 +38559,9 @@
       }
     ],
     "trainId": "33377",
-    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_0749_33377",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_0633_34261",
@@ -38587,9 +39053,9 @@
       }
     ],
     "trainId": "34166",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_0805_34166",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_0652_34270",
@@ -38759,9 +39225,9 @@
       }
     ],
     "trainId": "34975",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_0648_34975",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_0659_34291",
@@ -38985,7 +39451,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -39101,12 +39567,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "08:19:00",
-        "departureTime": "08:19:00",
+        "departureTime": "08:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "08:21:39",
+        "departureTime": "08:21:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "08:26:00",
+        "departureTime": "08:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "08:34:00",
+        "departureTime": "08:35:00",
         "isPassing": false
       }
     ],
-    "trainId": "33356",
-    "customOrigin": "高崎"
+    "trainId": "33356"
   },
   {
     "tripId": "HD_INB_TK-19_0707_34147",
@@ -39230,9 +39713,9 @@
       }
     ],
     "trainId": "34147",
-    "customOrigin": "深谷",
     "throughTripId": "HD_INB_UT-02_0830_34147",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "深谷"
   },
   {
     "tripId": "HD_INB_TK-07_0708_34215",
@@ -39414,9 +39897,9 @@
       }
     ],
     "trainId": "33551",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_0610_33551",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_0717_34083",
@@ -39576,9 +40059,9 @@
       }
     ],
     "trainId": "34083",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_0909_34083",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_0724_34400",
@@ -39738,9 +40221,9 @@
       }
     ],
     "trainId": "34400",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_0718_34400",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_0726_34292",
@@ -40074,9 +40557,9 @@
       }
     ],
     "trainId": "34976",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_0727_34976",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_0740_34216",
@@ -40258,9 +40741,9 @@
       }
     ],
     "trainId": "33382",
-    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_0926_33357",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_0746_34122",
@@ -40420,9 +40903,9 @@
       }
     ],
     "trainId": "34122",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_0947_34122",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_0754_34202",
@@ -40534,9 +41017,9 @@
       }
     ],
     "trainId": "33539",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_0646_33539",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-02_0757_34379",
@@ -40696,15 +41179,16 @@
       }
     ],
     "trainId": "34379",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_0750_34379",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-07_0758_10066",
     "lineId": "takasaki",
     "trainNumber": "9073M",
     "trainType": "limitedExp",
+    "trainName": "谷川岳もぐら",
     "direction": "outbound",
     "originStationId": "TK-07",
     "destinationStationId": "TK-25",
@@ -40841,7 +41325,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -40957,12 +41441,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "09:24:00",
-        "departureTime": "09:24:00",
+        "departureTime": "09:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "09:27:39",
+        "departureTime": "09:27:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "09:32:00",
+        "departureTime": "09:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "09:41:00",
+        "departureTime": "09:41:00",
         "isPassing": false
       }
     ],
-    "trainId": "33357",
-    "customOrigin": "高崎"
+    "trainId": "33357"
   },
   {
     "tripId": "HD_INB_TK-25_0814_33437",
@@ -41214,9 +41715,9 @@
       }
     ],
     "trainId": "34306",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_0811_34306",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-18_0819_34148",
@@ -41334,9 +41835,9 @@
       }
     ],
     "trainId": "34148",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_0941_34148",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_0820_34218",
@@ -41548,9 +42049,9 @@
       }
     ],
     "trainId": "34088",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1012_34088",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_0832_34263",
@@ -41581,6 +42082,7 @@
     "lineId": "takasaki",
     "trainNumber": "3920E",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -41734,9 +42236,9 @@
       }
     ],
     "trainId": "34393",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_0829_34393",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_0842_34149",
@@ -41854,9 +42356,9 @@
       }
     ],
     "trainId": "34149",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_1001_34149",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-04_0842_33502",
@@ -41944,9 +42446,9 @@
       }
     ],
     "trainId": "33502",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_0737_33502",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_0844_34219",
@@ -42158,9 +42660,9 @@
       }
     ],
     "trainId": "34325",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_0839_34325",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_0847_34106",
@@ -42320,9 +42822,9 @@
       }
     ],
     "trainId": "34106",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1042_34106",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_0856_34179",
@@ -42381,6 +42883,7 @@
     "lineId": "takasaki",
     "trainNumber": "4031M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万31号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -42706,7 +43209,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
@@ -42780,12 +43283,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "09:53:00",
-        "departureTime": "09:53:00",
+        "departureTime": "09:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "09:58:39",
+        "departureTime": "09:58:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:12:00",
         "isPassing": false
       }
     ],
-    "trainId": "33393",
-    "customOrigin": "籠原"
+    "trainId": "33393"
   },
   {
     "tripId": "HD_INB_TK-07_0905_34222",
@@ -42997,9 +43517,9 @@
       }
     ],
     "trainId": "34123",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1101_34123",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-04_0906_33514",
@@ -43129,9 +43649,9 @@
       }
     ],
     "trainId": "33514",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_0758_33514",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_0912_33358",
@@ -43140,7 +43660,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -43256,12 +43776,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "10:26:00",
-        "departureTime": "10:26:00",
+        "departureTime": "10:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "10:28:39",
+        "departureTime": "10:28:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "10:33:00",
+        "departureTime": "10:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "10:41:00",
+        "departureTime": "10:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "33358",
-    "customOrigin": "高崎"
+    "trainId": "33358"
   },
   {
     "tripId": "HD_INB_TK-18_0917_13938",
@@ -43495,9 +44032,9 @@
       }
     ],
     "trainId": "34307",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_0916_34307",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_0927_34224",
@@ -43709,15 +44246,16 @@
       }
     ],
     "trainId": "34124",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1121_34124",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_0930_34305",
     "lineId": "takasaki",
     "trainNumber": "3922E",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -43871,9 +44409,9 @@
       }
     ],
     "trainId": "34305",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_0921_34305",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_0935_13940",
@@ -44200,9 +44738,9 @@
       }
     ],
     "trainId": "34327",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_0938_34327",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_0949_5703",
@@ -44413,9 +44951,9 @@
       }
     ],
     "trainId": "34107",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1141_34107",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_0955_34225",
@@ -44555,15 +45093,16 @@
       }
     ],
     "trainId": "33503",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_0849_33503",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-02_1000_6557",
     "lineId": "takasaki",
     "trainNumber": "3001M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万1号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -44777,7 +45316,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
@@ -44851,12 +45390,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "10:56:00",
-        "departureTime": "10:56:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "10:58:22",
+        "departureTime": "10:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "11:02:00",
+        "departureTime": "11:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "11:11:00",
+        "departureTime": "11:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33396",
-    "customOrigin": "籠原"
+    "trainId": "33396"
   },
   {
     "tripId": "HD_OUT_TK-02_1014_34350",
@@ -45016,9 +45572,9 @@
       }
     ],
     "trainId": "34350",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1009_34350",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1014_33361",
@@ -45027,7 +45583,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -45143,12 +45699,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "11:26:00",
-        "departureTime": "11:26:00",
+        "departureTime": "11:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "11:29:55",
+        "departureTime": "11:29:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "11:35:00",
+        "departureTime": "11:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "11:43:00",
+        "departureTime": "11:44:00",
         "isPassing": false
       }
     ],
-    "trainId": "33361",
-    "customOrigin": "高崎"
+    "trainId": "33361"
   },
   {
     "tripId": "HD_INB_TK-07_1024_34253",
@@ -45360,9 +45933,9 @@
       }
     ],
     "trainId": "34127",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1221_34127",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_1030_19259",
@@ -45608,9 +46181,9 @@
       }
     ],
     "trainId": "33519",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_0927_33519",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_1040_34169",
@@ -45728,9 +46301,9 @@
       }
     ],
     "trainId": "34169",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_1200_34169",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_1042_34183",
@@ -45914,9 +46487,9 @@
       }
     ],
     "trainId": "34381",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1039_34381",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1054_34109",
@@ -46076,9 +46649,9 @@
       }
     ],
     "trainId": "34109",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1241_34109",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_1102_34274",
@@ -46137,6 +46710,7 @@
     "lineId": "takasaki",
     "trainNumber": "9083M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万83号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -46407,9 +46981,9 @@
       }
     ],
     "trainId": "34341",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_1059_34341",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-04_1106_33542",
@@ -46497,9 +47071,9 @@
       }
     ],
     "trainId": "33542",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1001_33542",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-18_1113_33398",
@@ -46508,7 +47082,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
@@ -46582,12 +47156,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "11:56:00",
-        "departureTime": "11:56:00",
+        "departureTime": "11:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "11:58:39",
+        "departureTime": "11:58:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "12:03:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "12:11:00",
+        "departureTime": "12:12:00",
         "isPassing": false
       }
     ],
-    "trainId": "33398",
-    "customOrigin": "籠原"
+    "trainId": "33398"
   },
   {
     "tripId": "HD_INB_TK-25_1114_33362",
@@ -46596,7 +47187,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -46712,12 +47303,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "12:26:00",
-        "departureTime": "12:26:00",
+        "departureTime": "12:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "12:28:39",
+        "departureTime": "12:28:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "12:33:00",
+        "departureTime": "12:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "12:41:00",
+        "departureTime": "12:41:00",
         "isPassing": false
       }
     ],
-    "trainId": "33362",
-    "customOrigin": "高崎"
+    "trainId": "33362"
   },
   {
     "tripId": "HD_INB_TK-07_1123_34184",
@@ -46929,9 +47537,9 @@
       }
     ],
     "trainId": "34382",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1119_34382",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1132_34129",
@@ -47091,9 +47699,9 @@
       }
     ],
     "trainId": "34129",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1321_34129",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-04_1136_33490",
@@ -47223,9 +47831,9 @@
       }
     ],
     "trainId": "33490",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1034_33490",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_1141_34171",
@@ -47343,9 +47951,9 @@
       }
     ],
     "trainId": "34171",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_1301_34171",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_1143_34186",
@@ -47529,9 +48137,9 @@
       }
     ],
     "trainId": "34385",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1139_34385",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1152_34112",
@@ -47691,9 +48299,9 @@
       }
     ],
     "trainId": "34112",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1341_34112",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_1203_34227",
@@ -47863,9 +48471,9 @@
       }
     ],
     "trainId": "34397",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_1159_34397",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-04_1205_33545",
@@ -47953,15 +48561,16 @@
       }
     ],
     "trainId": "33545",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1101_33545",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-02_1210_6559",
     "lineId": "takasaki",
     "trainNumber": "3003M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万3号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -48123,7 +48732,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
@@ -48197,12 +48806,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "12:56:00",
-        "departureTime": "12:56:00",
+        "departureTime": "12:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "12:58:22",
+        "departureTime": "12:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "13:02:00",
+        "departureTime": "13:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "13:11:00",
+        "departureTime": "13:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33400",
-    "customOrigin": "籠原"
+    "trainId": "33400"
   },
   {
     "tripId": "HD_INB_TK-25_1214_33365",
@@ -48211,7 +48837,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -48327,12 +48953,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "13:26:00",
-        "departureTime": "13:26:00",
+        "departureTime": "13:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "13:28:39",
+        "departureTime": "13:28:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "13:33:00",
+        "departureTime": "13:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "13:42:00",
+        "departureTime": "13:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "33365",
-    "customOrigin": "高崎"
+    "trainId": "33365"
   },
   {
     "tripId": "HD_INB_TK-07_1225_34187",
@@ -48544,9 +49187,9 @@
       }
     ],
     "trainId": "34329",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1219_34329",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1232_34132",
@@ -48706,9 +49349,9 @@
       }
     ],
     "trainId": "34132",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1421_34132",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-04_1235_33492",
@@ -48838,9 +49481,9 @@
       }
     ],
     "trainId": "33492",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1134_33492",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_1241_34174",
@@ -48958,9 +49601,9 @@
       }
     ],
     "trainId": "34174",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_1401_34174",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_1243_34188",
@@ -49144,9 +49787,9 @@
       }
     ],
     "trainId": "34387",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1239_34387",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1253_34114",
@@ -49306,9 +49949,9 @@
       }
     ],
     "trainId": "34114",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1441_34114",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_1302_34276",
@@ -49478,9 +50121,9 @@
       }
     ],
     "trainId": "34311",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_1259_34311",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-04_1306_33523",
@@ -49568,9 +50211,9 @@
       }
     ],
     "trainId": "33523",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1203_33523",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-18_1313_33409",
@@ -49658,9 +50301,9 @@
       }
     ],
     "trainId": "33409",
-    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1357_33409",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_1314_33366",
@@ -49669,7 +50312,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -49785,12 +50428,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "14:26:00",
-        "departureTime": "14:26:00",
+        "departureTime": "14:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "14:28:39",
+        "departureTime": "14:28:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "14:33:00",
+        "departureTime": "14:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "14:41:00",
+        "departureTime": "14:41:00",
         "isPassing": false
       }
     ],
-    "trainId": "33366",
-    "customOrigin": "高崎"
+    "trainId": "33366"
   },
   {
     "tripId": "HD_INB_TK-07_1323_34236",
@@ -50002,9 +50662,9 @@
       }
     ],
     "trainId": "34352",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1319_34352",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1328_34134",
@@ -50164,9 +50824,9 @@
       }
     ],
     "trainId": "34134",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1521_34134",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-04_1335_33494",
@@ -50296,9 +50956,9 @@
       }
     ],
     "trainId": "33494",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1234_33494",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_1341_33724",
@@ -50416,9 +51076,9 @@
       }
     ],
     "trainId": "33724",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_1500_33724",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_1343_34190",
@@ -50630,9 +51290,9 @@
       }
     ],
     "trainId": "34354",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1339_34354",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1349_34136",
@@ -50792,9 +51452,9 @@
       }
     ],
     "trainId": "34136",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1541_34136",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_1403_34278",
@@ -50964,9 +51624,9 @@
       }
     ],
     "trainId": "34313",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_1359_34313",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-04_1405_33525",
@@ -51054,15 +51714,16 @@
       }
     ],
     "trainId": "33525",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1301_33525",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_1406_37207",
     "lineId": "takasaki",
     "trainNumber": "3002M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万2号",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-02",
@@ -51216,9 +51877,9 @@
       }
     ],
     "trainId": "37207",
-    "customDestination": "上野",
     "prevTripId": "HD_INB_JOE-07_1349_37207",
-    "prevLineId": "joetsu"
+    "prevLineId": "joetsu",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_INB_TK-18_1412_33402",
@@ -51306,9 +51967,9 @@
       }
     ],
     "trainId": "33402",
-    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1456_33402",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_1414_33368",
@@ -51317,7 +51978,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -51433,12 +52094,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "15:26:00",
-        "departureTime": "15:26:00",
+        "departureTime": "15:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "15:29:22",
+        "departureTime": "15:29:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "15:33:00",
+        "departureTime": "15:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "15:42:00",
+        "departureTime": "15:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "33368",
-    "customOrigin": "高崎"
+    "trainId": "33368"
   },
   {
     "tripId": "HD_INB_TK-07_1423_34237",
@@ -51650,9 +52328,9 @@
       }
     ],
     "trainId": "34356",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1419_34356",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1428_34138",
@@ -51812,9 +52490,9 @@
       }
     ],
     "trainId": "34138",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1621_34138",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-04_1435_33495",
@@ -51944,9 +52622,9 @@
       }
     ],
     "trainId": "33495",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1334_33495",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_1441_34152",
@@ -52064,9 +52742,9 @@
       }
     ],
     "trainId": "34152",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_1600_34152",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_1443_34198",
@@ -52278,9 +52956,9 @@
       }
     ],
     "trainId": "34358",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1439_34358",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1452_34140",
@@ -52440,9 +53118,9 @@
       }
     ],
     "trainId": "34140",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1643_34140",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_1503_34265",
@@ -52584,9 +53262,9 @@
       }
     ],
     "trainId": "34314",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_1459_34314",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-04_1505_33527",
@@ -52674,15 +53352,16 @@
       }
     ],
     "trainId": "33527",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1401_33527",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_1513_37208",
     "lineId": "takasaki",
     "trainNumber": "4034M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万34号",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-02",
@@ -52836,9 +53515,9 @@
       }
     ],
     "trainId": "37208",
-    "customDestination": "上野",
     "prevTripId": "HD_INB_JOE-07_1455_37208",
-    "prevLineId": "joetsu"
+    "prevLineId": "joetsu",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_INB_TK-18_1513_33404",
@@ -52847,7 +53526,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
@@ -52921,12 +53600,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "15:56:00",
-        "departureTime": "15:56:00",
+        "departureTime": "15:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "15:58:22",
+        "departureTime": "15:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "16:02:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "16:11:00",
+        "departureTime": "16:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33404",
-    "customOrigin": "籠原"
+    "trainId": "33404"
   },
   {
     "tripId": "HD_INB_TK-25_1515_33371",
@@ -53285,9 +53981,9 @@
       }
     ],
     "trainId": "34361",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1520_34361",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-04_1535_33496",
@@ -53417,9 +54113,9 @@
       }
     ],
     "trainId": "33496",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1435_33496",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1536_34116",
@@ -53579,9 +54275,9 @@
       }
     ],
     "trainId": "34116",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1733_34116",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_1541_34154",
@@ -53699,9 +54395,9 @@
       }
     ],
     "trainId": "34154",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_1701_34154",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_1544_33719",
@@ -53913,9 +54609,9 @@
       }
     ],
     "trainId": "34362",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1539_34362",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1555_34091",
@@ -54075,9 +54771,9 @@
       }
     ],
     "trainId": "34091",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1746_34091",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_1559_34176",
@@ -54195,9 +54891,9 @@
       }
     ],
     "trainId": "34176",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_1711_34176",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_1602_34267",
@@ -54381,9 +55077,9 @@
       }
     ],
     "trainId": "34332",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1559_34332",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-04_1605_33529",
@@ -54471,9 +55167,9 @@
       }
     ],
     "trainId": "33529",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1501_33529",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_1611_33384",
@@ -54482,7 +55178,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -54598,12 +55294,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "17:29:00",
-        "departureTime": "17:29:00",
+        "departureTime": "17:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "17:31:22",
+        "departureTime": "17:31:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "17:35:00",
+        "departureTime": "17:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "17:44:00",
+        "departureTime": "17:44:00",
         "isPassing": false
       }
     ],
-    "trainId": "33384",
-    "customOrigin": "高崎"
+    "trainId": "33384"
   },
   {
     "tripId": "HD_INB_TK-18_1613_33406",
@@ -54612,7 +55325,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
@@ -54686,12 +55399,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "16:59:00",
-        "departureTime": "16:59:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "17:01:39",
+        "departureTime": "17:01:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:15:00",
         "isPassing": false
       }
     ],
-    "trainId": "33406",
-    "customOrigin": "籠原"
+    "trainId": "33406"
   },
   {
     "tripId": "HD_INB_TK-07_1624_34242",
@@ -54700,7 +55430,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TK-07",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-02",
     "customOrigin": "古河",
     "customDestination": "小田原",
     "cars": 15,
@@ -54709,7 +55439,37 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "16:23:00",
-        "departureTime": "16:23:00",
+        "departureTime": "16:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "16:26:00",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "16:31:00",
+        "departureTime": "16:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "16:39:00",
+        "departureTime": "16:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-03",
+        "arrivalTime": "16:44:00",
+        "departureTime": "16:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-02",
+        "arrivalTime": "16:50:00",
+        "departureTime": "16:51:00",
         "isPassing": false
       }
     ],
@@ -54831,9 +55591,9 @@
       }
     ],
     "trainId": "34343",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_1620_34343",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_1628_34295",
@@ -55285,9 +56045,9 @@
       }
     ],
     "trainId": "33497",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1534_33497",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1641_34096",
@@ -55447,9 +56207,9 @@
       }
     ],
     "trainId": "34096",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1834_34096",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_1645_34365",
@@ -55609,9 +56369,9 @@
       }
     ],
     "trainId": "34365",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1640_34365",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_1645_34203",
@@ -55670,6 +56430,7 @@
     "lineId": "takasaki",
     "trainNumber": "3004M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万4号",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-02",
@@ -55823,9 +56584,9 @@
       }
     ],
     "trainId": "37209",
-    "customDestination": "上野",
     "prevTripId": "HD_INB_JOE-07_1626_37209",
-    "prevLineId": "joetsu"
+    "prevLineId": "joetsu",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_INB_TK-18_1651_34178",
@@ -55943,9 +56704,9 @@
       }
     ],
     "trainId": "34178",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_1804_34178",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_1655_33720",
@@ -56273,9 +57034,9 @@
       }
     ],
     "trainId": "34117",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1850_34117",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_1705_34333",
@@ -56435,9 +57196,9 @@
       }
     ],
     "trainId": "34333",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1700_34333",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-04_1705_33546",
@@ -56525,9 +57286,9 @@
       }
     ],
     "trainId": "33546",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1601_33546",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_1709_34280",
@@ -56709,9 +57470,9 @@
       }
     ],
     "trainId": "33373",
-    "customOrigin": "高崎",
     "throughTripId": "HD_OUT_JS-24_1835_33373",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_1714_34374",
@@ -56829,9 +57590,9 @@
       }
     ],
     "trainId": "34374",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_1709_34374",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-18_1714_33411",
@@ -56919,15 +57680,16 @@
       }
     ],
     "trainId": "33411",
-    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1759_33411",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_1722_43395",
     "lineId": "takasaki",
     "trainNumber": "9076M",
     "trainType": "limitedExp",
+    "trainName": "谷川岳ループ",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-07",
@@ -57605,9 +58367,9 @@
       }
     ],
     "trainId": "33500",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1634_33500",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_1742_34366",
@@ -57767,9 +58529,9 @@
       }
     ],
     "trainId": "34366",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1736_34366",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_1746_19278",
@@ -58138,9 +58900,9 @@
       }
     ],
     "trainId": "34118",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1936_34118",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_1756_34300",
@@ -58258,9 +59020,9 @@
       }
     ],
     "trainId": "34300",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_1910_34300",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_1759_34282",
@@ -58472,9 +59234,9 @@
       }
     ],
     "trainId": "34142",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_1954_34142",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_1805_34316",
@@ -58592,9 +59354,9 @@
       }
     ],
     "trainId": "34316",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_1800_34316",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-04_1807_33531",
@@ -58682,9 +59444,9 @@
       }
     ],
     "trainId": "33531",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1703_33531",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-02_1810_19280",
@@ -58982,9 +59744,9 @@
       }
     ],
     "trainId": "33407",
-    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1859_33407",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_1815_33386",
@@ -59138,6 +59900,7 @@
     "lineId": "takasaki",
     "trainNumber": "3931M",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -59407,9 +60170,9 @@
       }
     ],
     "trainId": "34376",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_1818_34376",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_1830_34297",
@@ -59785,9 +60548,9 @@
       }
     ],
     "trainId": "34368",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1831_34368",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-04_1841_33516",
@@ -59917,9 +60680,9 @@
       }
     ],
     "trainId": "33516",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1733_33516",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1847_34119",
@@ -60079,9 +60842,9 @@
       }
     ],
     "trainId": "34119",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_2034_34119",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_1849_34286",
@@ -60293,9 +61056,9 @@
       }
     ],
     "trainId": "34370",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1846_34370",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_1857_13943",
@@ -60623,9 +61386,9 @@
       }
     ],
     "trainId": "33721",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_2054_33721",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-04_1910_33532",
@@ -60713,9 +61476,9 @@
       }
     ],
     "trainId": "33532",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1801_33532",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-18_1913_33413",
@@ -60803,9 +61566,9 @@
       }
     ],
     "trainId": "33413",
-    "customOrigin": "籠原",
     "throughTripId": "HD_OUT_JS-24_1957_33413",
-    "throughLineId": "shonan_shinjuku"
+    "throughLineId": "shonan_shinjuku",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-02_1915_34371",
@@ -60965,9 +61728,9 @@
       }
     ],
     "trainId": "34371",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_1908_34371",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_1915_33387",
@@ -60976,7 +61739,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -61092,12 +61855,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "20:33:00",
-        "departureTime": "20:33:00",
+        "departureTime": "20:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "20:35:39",
+        "departureTime": "20:35:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "20:48:00",
+        "departureTime": "20:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "33387",
-    "customOrigin": "高崎"
+    "trainId": "33387"
   },
   {
     "tripId": "HD_INB_TK-07_1919_34269",
@@ -61156,6 +61936,7 @@
     "lineId": "takasaki",
     "trainNumber": "3933M",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -61467,9 +62248,9 @@
       }
     ],
     "trainId": "40904",
-    "customDestination": "上野",
     "prevTripId": "HD_OUT_RY-17_1913_40904",
-    "prevLineId": "ryomo"
+    "prevLineId": "ryomo",
+    "customDestination": "上野"
   },
   {
     "tripId": "HD_OUT_TK-02_1933_34377",
@@ -61587,9 +62368,9 @@
       }
     ],
     "trainId": "34377",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_1927_34377",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-04_1934_33506",
@@ -61677,9 +62458,9 @@
       }
     ],
     "trainId": "33506",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1823_33506",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_1936_34209",
@@ -61688,7 +62469,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TK-07",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-02",
     "customOrigin": "宇都宮",
     "customDestination": "小田原",
     "cars": 15,
@@ -61697,7 +62478,37 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "19:32:00",
-        "departureTime": "19:32:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "19:39:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "19:43:00",
+        "departureTime": "19:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-03",
+        "arrivalTime": "19:57:00",
+        "departureTime": "19:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-02",
+        "arrivalTime": "20:04:00",
+        "departureTime": "20:06:00",
         "isPassing": false
       }
     ],
@@ -61831,9 +62642,9 @@
       }
     ],
     "trainId": "33553",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_1836_33553",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_1946_34514",
@@ -62157,9 +62968,9 @@
       }
     ],
     "trainId": "34093",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_2136_34093",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_1957_34193",
@@ -62329,9 +63140,9 @@
       }
     ],
     "trainId": "34301",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_2113_34301",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-02_2004_34317",
@@ -62449,9 +63260,9 @@
       }
     ],
     "trainId": "34317",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_1957_34317",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_2007_34099",
@@ -62611,9 +63422,9 @@
       }
     ],
     "trainId": "34099",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_2154_34099",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-04_2009_33535",
@@ -62701,9 +63512,9 @@
       }
     ],
     "trainId": "33535",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1904_33535",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-02_2018_19282",
@@ -63073,9 +63884,9 @@
       }
     ],
     "trainId": "34336",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_2016_34336",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_2032_5766",
@@ -63338,9 +64149,9 @@
       }
     ],
     "trainId": "34120",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_2224_34120",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_2036_33418",
@@ -63349,7 +64160,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -63423,12 +64234,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "21:23:00",
-        "departureTime": "21:23:00",
+        "departureTime": "21:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "21:27:55",
+        "departureTime": "21:27:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "21:33:00",
+        "departureTime": "21:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "21:41:00",
+        "departureTime": "21:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "33418",
-    "customOrigin": "籠原"
+    "trainId": "33418"
   },
   {
     "tripId": "HD_OUT_TK-04_2040_33508",
@@ -63516,9 +64344,9 @@
       }
     ],
     "trainId": "33508",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_1931_33508",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-02_2044_34319",
@@ -63636,9 +64464,9 @@
       }
     ],
     "trainId": "34319",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_2038_34319",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_2048_34145",
@@ -63798,9 +64626,9 @@
       }
     ],
     "trainId": "34145",
-    "customOrigin": "高崎",
     "throughTripId": "HD_INB_UT-02_2245_34145",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "高崎"
   },
   {
     "tripId": "HD_INB_TK-18_2051_34156",
@@ -63918,9 +64746,9 @@
       }
     ],
     "trainId": "34156",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_2205_34156",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-04_2054_33716",
@@ -64319,7 +65147,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": true,
@@ -64435,12 +65263,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "22:24:00",
-        "departureTime": "22:24:00",
+        "departureTime": "22:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "22:26:39",
+        "departureTime": "22:26:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "22:31:00",
+        "departureTime": "22:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "22:39:00",
+        "departureTime": "22:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "33379",
-    "customOrigin": "高崎"
+    "trainId": "33379"
   },
   {
     "tripId": "HD_OUT_TK-02_2106_34518",
@@ -64600,9 +65445,9 @@
       }
     ],
     "trainId": "34518",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_2059_34518",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_2117_34232",
@@ -64663,7 +65508,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -64737,12 +65582,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "22:09:00",
-        "departureTime": "22:09:00",
+        "departureTime": "22:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "22:11:39",
+        "departureTime": "22:11:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "22:16:00",
+        "departureTime": "22:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "22:24:00",
+        "departureTime": "22:25:00",
         "isPassing": false
       }
     ],
-    "trainId": "33419",
-    "customOrigin": "籠原"
+    "trainId": "33419"
   },
   {
     "tripId": "HD_INB_TK-07_2125_5752",
@@ -64911,9 +65773,9 @@
       }
     ],
     "trainId": "34398",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_2120_34398",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-04_2126_33517",
@@ -65043,9 +65905,9 @@
       }
     ],
     "trainId": "33517",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_2018_33517",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-25_2131_13920",
@@ -65372,9 +66234,9 @@
       }
     ],
     "trainId": "34320",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_2139_34320",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-25_2146_13922",
@@ -65818,9 +66680,9 @@
       }
     ],
     "trainId": "40525",
-    "customOrigin": "籠原",
     "throughTripId": "HD_INB_UT-02_2306_40525",
-    "throughLineId": "ueno_tokyo"
+    "throughLineId": "ueno_tokyo",
+    "customOrigin": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-04_2159_33537",
@@ -65950,9 +66812,9 @@
       }
     ],
     "trainId": "33537",
-    "customDestination": "高崎",
     "prevTripId": "HD_INB_JS-01_2053_33537",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-02_2205_34373",
@@ -66112,9 +66974,9 @@
       }
     ],
     "trainId": "34373",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_2159_34373",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_2206_34200",
@@ -66881,9 +67743,9 @@
       }
     ],
     "trainId": "34339",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_2230_34339",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_OUT_TK-04_2240_33536",
@@ -66971,9 +67833,9 @@
       }
     ],
     "trainId": "33536",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_2132_33536",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_2244_5753",
@@ -67142,9 +68004,9 @@
       }
     ],
     "trainId": "34323",
-    "customDestination": "籠原",
     "prevTripId": "HD_OUT_UT-01_2248_34323",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_INB_TK-07_2255_5707",
@@ -67512,9 +68374,9 @@
       }
     ],
     "trainId": "33548",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_2212_33548",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   },
   {
     "tripId": "HD_OUT_TK-02_2325_34977",
@@ -67674,9 +68536,9 @@
       }
     ],
     "trainId": "34977",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_UT-01_2319_34977",
-    "prevLineId": "ueno_tokyo"
+    "prevLineId": "ueno_tokyo",
+    "customDestination": "高崎"
   },
   {
     "tripId": "HD_INB_TK-07_2335_5710",
@@ -67931,8 +68793,8 @@
       }
     ],
     "trainId": "33549",
-    "customDestination": "籠原",
     "prevTripId": "HD_INB_JS-01_2245_33549",
-    "prevLineId": "shonan_shinjuku"
+    "prevLineId": "shonan_shinjuku",
+    "customDestination": "籠原"
   }
 ]

@@ -611,9 +611,9 @@
       }
     ],
     "trainId": "34099",
-    "customDestination": "妙高高原",
     "prevTripId": "WD_INB_SE-12_0658_34099",
-    "prevLineId": "shinetsu"
+    "prevLineId": "shinetsu",
+    "customDestination": "妙高高原"
   },
   {
     "tripId": "WD_OUT_ETM-04_0753_14947",
@@ -960,6 +960,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9348M",
     "trainType": "local",
+    "trainName": "オータム信越号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-01",
@@ -1029,15 +1030,16 @@
       }
     ],
     "trainId": "11655",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_SRK-08_0958_11655",
-    "throughLineId": "kita_shinano"
+    "throughLineId": "kita_shinano",
+    "customOrigin": "直江津"
   },
   {
     "tripId": "WD_INB_ETM-10_0925_34095",
     "lineId": "myoko_haneuma",
     "trainNumber": "52M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき2号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-04",
@@ -1089,9 +1091,9 @@
       }
     ],
     "trainId": "34095",
-    "customDestination": "新井",
     "prevTripId": "WD_INB_SE-42_0735_34095",
-    "prevLineId": "shinetsu"
+    "prevLineId": "shinetsu",
+    "customDestination": "新井"
   },
   {
     "tripId": "WD_INB_ETM-10_0945_14918",
@@ -1308,6 +1310,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "51M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき1号",
     "direction": "outbound",
     "originStationId": "ETM-04",
     "destinationStationId": "ETM-10",
@@ -1359,9 +1362,9 @@
       }
     ],
     "trainId": "38936",
-    "customOrigin": "新井",
     "throughTripId": "WD_OUT_SE-01_1048_38936",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu",
+    "customOrigin": "新井"
   },
   {
     "tripId": "WD_INB_ETM-10_1049_38812",
@@ -1425,6 +1428,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9324M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-04",
@@ -1611,6 +1615,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9325M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "outbound",
     "originStationId": "ETM-04",
     "destinationStationId": "ETM-10",
@@ -1741,6 +1746,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "54M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき4号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-06",
@@ -1780,9 +1786,9 @@
       }
     ],
     "trainId": "34094",
-    "customDestination": "上越妙高",
     "prevTripId": "WD_INB_SE-42_1023_34094",
-    "prevLineId": "shinetsu"
+    "prevLineId": "shinetsu",
+    "customDestination": "上越妙高"
   },
   {
     "tripId": "WD_INB_ETM-10_1238_14920",
@@ -1937,6 +1943,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9326M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-04",
@@ -1993,6 +2000,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "53M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき3号",
     "direction": "outbound",
     "originStationId": "ETM-06",
     "destinationStationId": "ETM-10",
@@ -2032,9 +2040,9 @@
       }
     ],
     "trainId": "38937",
-    "customOrigin": "上越妙高",
     "throughTripId": "WD_OUT_SE-01_1325_38937",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu",
+    "customOrigin": "上越妙高"
   },
   {
     "tripId": "WD_INB_ETM-10_1333_14906",
@@ -2097,6 +2105,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9327M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "outbound",
     "originStationId": "ETM-04",
     "destinationStationId": "ETM-10",
@@ -2153,6 +2162,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9355M",
     "trainType": "local",
+    "trainName": "オータム信越号",
     "direction": "outbound",
     "originStationId": "ETM-01",
     "destinationStationId": "ETM-10",
@@ -2222,9 +2232,9 @@
       }
     ],
     "trainId": "11656",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_SRK-01_1330_11656",
-    "prevLineId": "kita_shinano"
+    "prevLineId": "kita_shinano",
+    "customDestination": "直江津"
   },
   {
     "tripId": "WD_OUT_ETM-04_1421_14951",
@@ -2361,6 +2371,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "56M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき6号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-06",
@@ -2400,9 +2411,9 @@
       }
     ],
     "trainId": "34096",
-    "customDestination": "上越妙高",
     "prevTripId": "WD_INB_SE-42_1305_34096",
-    "prevLineId": "shinetsu"
+    "prevLineId": "shinetsu",
+    "customDestination": "上越妙高"
   },
   {
     "tripId": "WD_OUT_ETM-01_1509_14937",
@@ -2539,6 +2550,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9381M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "outbound",
     "originStationId": "ETM-06",
     "destinationStationId": "ETM-10",
@@ -3121,6 +3133,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "55M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき5号",
     "direction": "outbound",
     "originStationId": "ETM-06",
     "destinationStationId": "ETM-10",
@@ -3160,9 +3173,9 @@
       }
     ],
     "trainId": "38938",
-    "customOrigin": "上越妙高",
     "throughTripId": "WD_OUT_SE-01_1738_38938",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu",
+    "customOrigin": "上越妙高"
   },
   {
     "tripId": "WD_OUT_ETM-01_1754_14940",
@@ -3317,6 +3330,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "58M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき8号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-04",
@@ -3368,9 +3382,9 @@
       }
     ],
     "trainId": "34097",
-    "customDestination": "新井",
     "prevTripId": "WD_INB_SE-42_1625_34097",
-    "prevLineId": "shinetsu"
+    "prevLineId": "shinetsu",
+    "customDestination": "新井"
   },
   {
     "tripId": "WD_OUT_ETM-01_1827_14941",
@@ -3599,6 +3613,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "57M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき7号",
     "direction": "outbound",
     "originStationId": "ETM-04",
     "destinationStationId": "ETM-10",
@@ -3650,9 +3665,9 @@
       }
     ],
     "trainId": "38935",
-    "customOrigin": "新井",
     "throughTripId": "WD_OUT_SE-01_1941_38935",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu",
+    "customOrigin": "新井"
   },
   {
     "tripId": "WD_INB_ETM-10_1939_14927",
@@ -3807,6 +3822,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9334M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-04",
@@ -3863,6 +3879,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9335M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "outbound",
     "originStationId": "ETM-04",
     "destinationStationId": "ETM-10",
@@ -4972,9 +4989,9 @@
       }
     ],
     "trainId": "34099",
-    "customDestination": "妙高高原",
     "prevTripId": "HD_INB_SE-12_0658_34099",
-    "prevLineId": "shinetsu"
+    "prevLineId": "shinetsu",
+    "customDestination": "妙高高原"
   },
   {
     "tripId": "HD_OUT_ETM-04_0753_14947",
@@ -5333,6 +5350,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9348M",
     "trainType": "local",
+    "trainName": "オータム信越号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-01",
@@ -5402,15 +5420,16 @@
       }
     ],
     "trainId": "11655",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_SRK-08_0958_11655",
-    "throughLineId": "kita_shinano"
+    "throughLineId": "kita_shinano",
+    "customOrigin": "直江津"
   },
   {
     "tripId": "HD_INB_ETM-10_0925_34095",
     "lineId": "myoko_haneuma",
     "trainNumber": "52M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき2号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-04",
@@ -5462,9 +5481,9 @@
       }
     ],
     "trainId": "34095",
-    "customDestination": "新井",
     "prevTripId": "HD_INB_SE-42_0735_34095",
-    "prevLineId": "shinetsu"
+    "prevLineId": "shinetsu",
+    "customDestination": "新井"
   },
   {
     "tripId": "HD_OUT_ETM-01_0939_14933",
@@ -5619,6 +5638,53 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "8361D",
     "trainType": "rapid",
+    "trainName": "ゆざわShu＊Kura",
+    "direction": "outbound",
+    "originStationId": "ETM-06",
+    "destinationStationId": "ETM-10",
+    "customDestination": "越後湯沢",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "ETM-06",
+        "arrivalTime": "10:02:00",
+        "departureTime": "10:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "ETM-07",
+        "arrivalTime": "10:04:00",
+        "departureTime": "10:04:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "ETM-08",
+        "arrivalTime": "10:06:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "ETM-09",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:11:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "ETM-10",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:18:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "38934"
+  },
+  {
+    "tripId": "HD_OUT_ETM-06_1002_38939",
+    "lineId": "myoko_haneuma",
+    "trainNumber": "8361D",
+    "trainType": "rapid",
+    "trainName": "柳都Shu＊Kura",
     "direction": "outbound",
     "originStationId": "ETM-06",
     "destinationStationId": "ETM-10",
@@ -5653,12 +5719,57 @@
       {
         "stationId": "ETM-10",
         "arrivalTime": "10:16:00",
-        "departureTime": "10:16:00",
+        "departureTime": "10:18:00",
         "isPassing": false
       }
     ],
-    "trainId": "38934",
-    "customOrigin": "上越妙高"
+    "trainId": "38939"
+  },
+  {
+    "tripId": "HD_OUT_ETM-06_1002_35033",
+    "lineId": "myoko_haneuma",
+    "trainNumber": "8361D",
+    "trainType": "rapid",
+    "trainName": "越乃Shu＊Kura",
+    "direction": "outbound",
+    "originStationId": "ETM-06",
+    "destinationStationId": "ETM-10",
+    "customDestination": "十日町",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "ETM-06",
+        "arrivalTime": "10:02:00",
+        "departureTime": "10:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "ETM-07",
+        "arrivalTime": "10:04:00",
+        "departureTime": "10:04:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "ETM-08",
+        "arrivalTime": "10:06:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "ETM-09",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:11:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "ETM-10",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:18:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "35033"
   },
   {
     "tripId": "HD_OUT_ETM-01_1013_14934",
@@ -5739,6 +5850,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "51M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき1号",
     "direction": "outbound",
     "originStationId": "ETM-04",
     "destinationStationId": "ETM-10",
@@ -5790,9 +5902,9 @@
       }
     ],
     "trainId": "38936",
-    "customOrigin": "新井",
     "throughTripId": "HD_OUT_SE-01_1048_38936",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu",
+    "customOrigin": "新井"
   },
   {
     "tripId": "HD_INB_ETM-10_1049_38812",
@@ -5856,6 +5968,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9324M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-04",
@@ -6042,6 +6155,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9325M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "outbound",
     "originStationId": "ETM-04",
     "destinationStationId": "ETM-10",
@@ -6172,6 +6286,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "54M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき4号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-06",
@@ -6211,9 +6326,9 @@
       }
     ],
     "trainId": "34094",
-    "customDestination": "上越妙高",
     "prevTripId": "HD_INB_SE-42_1023_34094",
-    "prevLineId": "shinetsu"
+    "prevLineId": "shinetsu",
+    "customDestination": "上越妙高"
   },
   {
     "tripId": "HD_INB_ETM-10_1238_14920",
@@ -6368,6 +6483,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9326M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-04",
@@ -6424,6 +6540,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "53M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき3号",
     "direction": "outbound",
     "originStationId": "ETM-06",
     "destinationStationId": "ETM-10",
@@ -6463,9 +6580,9 @@
       }
     ],
     "trainId": "38937",
-    "customOrigin": "上越妙高",
     "throughTripId": "HD_OUT_SE-01_1325_38937",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu",
+    "customOrigin": "上越妙高"
   },
   {
     "tripId": "HD_INB_ETM-10_1333_14906",
@@ -6528,6 +6645,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9327M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "outbound",
     "originStationId": "ETM-04",
     "destinationStationId": "ETM-10",
@@ -6584,6 +6702,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9355M",
     "trainType": "local",
+    "trainName": "オータム信越号",
     "direction": "outbound",
     "originStationId": "ETM-01",
     "destinationStationId": "ETM-10",
@@ -6653,9 +6772,9 @@
       }
     ],
     "trainId": "11656",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_SRK-01_1330_11656",
-    "prevLineId": "kita_shinano"
+    "prevLineId": "kita_shinano",
+    "customDestination": "直江津"
   },
   {
     "tripId": "HD_OUT_ETM-04_1421_14951",
@@ -6792,6 +6911,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "56M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき6号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-06",
@@ -6831,9 +6951,9 @@
       }
     ],
     "trainId": "34096",
-    "customDestination": "上越妙高",
     "prevTripId": "HD_INB_SE-42_1305_34096",
-    "prevLineId": "shinetsu"
+    "prevLineId": "shinetsu",
+    "customDestination": "上越妙高"
   },
   {
     "tripId": "HD_OUT_ETM-01_1509_14937",
@@ -6970,6 +7090,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9381M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "outbound",
     "originStationId": "ETM-06",
     "destinationStationId": "ETM-10",
@@ -7552,6 +7673,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "55M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき5号",
     "direction": "outbound",
     "originStationId": "ETM-06",
     "destinationStationId": "ETM-10",
@@ -7591,9 +7713,9 @@
       }
     ],
     "trainId": "38938",
-    "customOrigin": "上越妙高",
     "throughTripId": "HD_OUT_SE-01_1738_38938",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu",
+    "customOrigin": "上越妙高"
   },
   {
     "tripId": "HD_OUT_ETM-01_1754_14940",
@@ -7748,6 +7870,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "58M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき8号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-04",
@@ -7799,9 +7922,9 @@
       }
     ],
     "trainId": "34097",
-    "customDestination": "新井",
     "prevTripId": "HD_INB_SE-42_1625_34097",
-    "prevLineId": "shinetsu"
+    "prevLineId": "shinetsu",
+    "customDestination": "新井"
   },
   {
     "tripId": "HD_OUT_ETM-01_1827_14941",
@@ -8030,6 +8153,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "57M",
     "trainType": "limitedExp",
+    "trainName": "しらゆき7号",
     "direction": "outbound",
     "originStationId": "ETM-04",
     "destinationStationId": "ETM-10",
@@ -8081,9 +8205,9 @@
       }
     ],
     "trainId": "38935",
-    "customOrigin": "新井",
     "throughTripId": "HD_OUT_SE-01_1941_38935",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu",
+    "customOrigin": "新井"
   },
   {
     "tripId": "HD_INB_ETM-10_1939_14927",
@@ -8238,6 +8362,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9334M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "inbound",
     "originStationId": "ETM-10",
     "destinationStationId": "ETM-04",
@@ -8294,6 +8419,7 @@
     "lineId": "myoko_haneuma",
     "trainNumber": "9335M",
     "trainType": "local",
+    "trainName": "越後・謙信SAKEまつり号",
     "direction": "outbound",
     "originStationId": "ETM-04",
     "destinationStationId": "ETM-10",

@@ -106,6 +106,44 @@ class YahooTimetableBuilder {
   }
 
   /**
+   * Yahooの displayName から固有の列車名・愛称・号数（例: "あずさ9号", "DLばんえつ物語", "ひたち1号"）を抽出
+   * 固有の愛称がない普通列車や単なる「快速」「特急」等の場合は null を返す
+   * @param {string} rawName
+   * @returns {string|null}
+   */
+  extractTrainName(rawName) {
+    if (!rawName) return null;
+    // 1. 全角英数・記号の半角化、余分な空白の正規化
+    let normalized = rawName
+      .replace(/[Ａ-Ｚａ-ｚ０-９]/g, s => String.fromCharCode(s.charCodeAt(0) - 0xFEE0))
+      .replace(/　/g, ' ')
+      .trim();
+
+    // 2. 単なる種別名のみの場合は除外（愛称なし）
+    const genericTypes = new Set([
+      '普通', '各駅停車', '快速', '通勤快速', '特別快速', '通勤特快',
+      '中央特快', '青梅特快', '区間快速', '急行', '快速急行', '区間急行',
+      '準急', '通勤準急', '区間準急', '特急', '通勤特急', 'ライナー'
+    ]);
+    if (genericTypes.has(normalized)) {
+      return null;
+    }
+
+    // 3. 先頭の種別プレフィックス（「特急 」「快速 」「急行 」「普通 」など）を除去
+    // 例: "特急 あずさ9号" -> "あずさ9号"
+    // 例: "快速 DLばんえつ物語" -> "DLばんえつ物語"
+    // 例: "特急あずさ9号" -> "あずさ9号"
+    const prefixRegex = /^(超特急|特急|通勤特急|快速急行|通勤急行|区間急行|急行|特別快速|通勤特快|中央特快|青梅特快|通勤快速|区間快速|快速|区間準急|通勤準急|準急|普通|各駅停車)\s*/;
+    const stripped = normalized.replace(prefixRegex, '').trim();
+
+    if (!stripped || genericTypes.has(stripped)) {
+      return null;
+    }
+
+    return stripped;
+  }
+
+  /**
    * HHMM 文字列を秒数に変換
    * @param {string} timeStr - "1400" など
    * @returns {number|null}
@@ -168,6 +206,7 @@ class YahooTimetableBuilder {
   buildTrip(trainDetail) {
     const { trainId, dayKey, stopStation, displayName } = trainDetail;
     const isHoliday = dayKey === 'holiday';
+    const trainName = this.extractTrainName(displayName);
 
     // 【路線固有の除外フィルター】他路線集約列車（むさしの号等）の除外判定
     if (this.config.shouldExcludeTrip && this.config.shouldExcludeTrip(trainDetail)) {
@@ -529,6 +568,7 @@ class YahooTimetableBuilder {
         lineId: this.config.lineId,
         trainNumber: trainId,
         trainType,
+        ...(trainName ? { trainName } : {}),
         direction,
         originStationId: originSt.id,
         destinationStationId: destSt.id,
@@ -712,6 +752,7 @@ class YahooTimetableBuilder {
       lineId: this.config.lineId,
       trainNumber: trainId,
       trainType,
+      ...(trainName ? { trainName } : {}),
       direction,
       originStationId: originSt.id,
       destinationStationId: destSt.id,

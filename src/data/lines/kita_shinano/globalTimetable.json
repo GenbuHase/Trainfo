@@ -1138,6 +1138,7 @@
     "lineId": "kita_shinano",
     "trainNumber": "9326M",
     "trainType": "local",
+    "trainName": "オータム信越号",
     "direction": "inbound",
     "originStationId": "SRK-08",
     "destinationStationId": "SRK-01",
@@ -1195,15 +1196,16 @@
       }
     ],
     "trainId": "11655",
-    "customDestination": "長野",
     "prevTripId": "WD_INB_ETM-10_0902_11655",
-    "prevLineId": "myoko_haneuma"
+    "prevLineId": "myoko_haneuma",
+    "customDestination": "長野"
   },
   {
     "tripId": "WD_OUT_SRK-01_1018_10078",
     "lineId": "kita_shinano",
     "trainNumber": "9325M",
     "trainType": "rapid",
+    "trainName": "信越Rapid1号",
     "direction": "outbound",
     "originStationId": "SRK-01",
     "destinationStationId": "SRK-08",
@@ -2209,6 +2211,7 @@
     "lineId": "kita_shinano",
     "trainNumber": "9331M",
     "trainType": "local",
+    "trainName": "オータム信越号",
     "direction": "outbound",
     "originStationId": "SRK-01",
     "destinationStationId": "SRK-08",
@@ -2266,9 +2269,9 @@
       }
     ],
     "trainId": "11656",
-    "customOrigin": "長野",
     "throughTripId": "WD_OUT_ETM-01_1417_11656",
-    "throughLineId": "myoko_haneuma"
+    "throughLineId": "myoko_haneuma",
+    "customOrigin": "長野"
   },
   {
     "tripId": "WD_OUT_SRK-01_1405_35039",
@@ -2589,6 +2592,7 @@
     "lineId": "kita_shinano",
     "trainNumber": "9332M",
     "trainType": "rapid",
+    "trainName": "信越Rapid2号",
     "direction": "inbound",
     "originStationId": "SRK-08",
     "destinationStationId": "SRK-01",
@@ -5287,6 +5291,7 @@
     "lineId": "kita_shinano",
     "trainNumber": "9326M",
     "trainType": "local",
+    "trainName": "オータム信越号",
     "direction": "inbound",
     "originStationId": "SRK-08",
     "destinationStationId": "SRK-01",
@@ -5344,15 +5349,16 @@
       }
     ],
     "trainId": "11655",
-    "customDestination": "長野",
     "prevTripId": "HD_INB_ETM-10_0902_11655",
-    "prevLineId": "myoko_haneuma"
+    "prevLineId": "myoko_haneuma",
+    "customDestination": "長野"
   },
   {
     "tripId": "HD_OUT_SRK-01_1018_10078",
     "lineId": "kita_shinano",
     "trainNumber": "9325M",
     "trainType": "rapid",
+    "trainName": "信越Rapid1号",
     "direction": "outbound",
     "originStationId": "SRK-01",
     "destinationStationId": "SRK-08",
@@ -5612,6 +5618,7 @@
     "lineId": "kita_shinano",
     "trainNumber": "6301M",
     "trainType": "rapid",
+    "trainName": "軽井沢リゾート1号",
     "direction": "outbound",
     "originStationId": "SRK-01",
     "destinationStationId": "SRK-08",
@@ -5826,6 +5833,7 @@
     "lineId": "kita_shinano",
     "trainNumber": "6302M",
     "trainType": "rapid",
+    "trainName": "軽井沢リゾート2号",
     "direction": "inbound",
     "originStationId": "SRK-08",
     "destinationStationId": "SRK-01",
@@ -6360,6 +6368,7 @@
     "lineId": "kita_shinano",
     "trainNumber": "9331M",
     "trainType": "local",
+    "trainName": "オータム信越号",
     "direction": "outbound",
     "originStationId": "SRK-01",
     "destinationStationId": "SRK-08",
@@ -6417,9 +6426,9 @@
       }
     ],
     "trainId": "11656",
-    "customOrigin": "長野",
     "throughTripId": "HD_OUT_ETM-01_1417_11656",
-    "throughLineId": "myoko_haneuma"
+    "throughLineId": "myoko_haneuma",
+    "customOrigin": "長野"
   },
   {
     "tripId": "HD_OUT_SRK-01_1405_35039",
@@ -6740,6 +6749,7 @@
     "lineId": "kita_shinano",
     "trainNumber": "9332M",
     "trainType": "rapid",
+    "trainName": "信越Rapid2号",
     "direction": "inbound",
     "originStationId": "SRK-08",
     "destinationStationId": "SRK-01",

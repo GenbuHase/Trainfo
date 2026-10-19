@@ -72,7 +72,7 @@ function enrichTojo() {
   const yahooCachePath = path.resolve('scripts/cache/yahoo/tojo/all_train_details.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(yahooCachePath)) {
-    throw new Error('東武東上線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -212,7 +212,7 @@ function enrichYurakucho() {
   const yahooCachePath = path.resolve('scripts/cache/yahoo/yurakucho/all_train_details.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(yahooCachePath)) {
-    throw new Error('東京メトロ有楽町線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -347,7 +347,7 @@ function enrichFukutoshin() {
   const yahooCachePath = path.resolve('scripts/cache/yahoo/fukutoshin/all_train_details.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(yahooCachePath)) {
-    throw new Error('東京メトロ副都心線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -480,7 +480,7 @@ function enrichSeibuYurakucho() {
   const yahooCachePath = path.resolve('scripts/cache/yahoo/seibu_yurakucho/all_train_details.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(yahooCachePath)) {
-    throw new Error('西武有楽町線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -608,7 +608,7 @@ function enrichSeibuIkebukuro() {
   const yahooCachePath = path.resolve('scripts/cache/yahoo/seibu_ikebukuro/all_train_details.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(yahooCachePath)) {
-    throw new Error('西武池袋線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -735,7 +735,7 @@ function enrichTx() {
   const ekitanPath = path.resolve('scripts/ekitan_tx_raw_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
-    throw new Error('つくばエクスプレスの必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -840,7 +840,7 @@ function enrichSaikyo() {
   const ekitanPath = path.resolve('scripts/ekitan_saikyo_raw_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
-    throw new Error('JR埼京線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -951,7 +951,7 @@ function enrichKawagoe() {
   const ekitanPath = path.resolve('scripts/ekitan_kawagoe_all_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
-    throw new Error('JR川越線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -1101,7 +1101,7 @@ function enrichMusashino() {
   const ekitanPath = path.resolve('scripts/ekitan_musashino_raw_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
-    throw new Error('JR武蔵野線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -1221,7 +1221,7 @@ function enrichRinkai() {
   const ekitanPath = path.resolve('scripts/ekitan_rinkai_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
-    throw new Error('りんかい線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -1323,7 +1323,7 @@ function enrichHachiko() {
   const ekitanPath = path.resolve('scripts/ekitan_hachiko_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
-    throw new Error('JR八高線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -1460,7 +1460,7 @@ function enrichChuo() {
   const ekitanPath = path.resolve('scripts/ekitan_chuo_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
-    throw new Error('JR中央線快速の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -1562,7 +1562,7 @@ function enrichChuoMain() {
   const ekitanPath = path.resolve('scripts/ekitan_chuo_main_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
-    throw new Error('JR中央本線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -1664,7 +1664,7 @@ function enrichShinonoi() {
   const ekitanPath = path.resolve('scripts/ekitan_shinonoi_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath) || !fs.existsSync(stationPath)) {
-    throw new Error('JR篠ノ井線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -1763,7 +1763,8 @@ function enrichOito() {
 
   const ekitanPath = path.resolve('scripts/ekitan_oito_timetables.json');
   if (!fs.existsSync(ekitanPath)) {
-    throw new Error('JR大糸線の駅探データファイルが見つかりません。');
+    console.warn('JR大糸線の駅探データファイルが見つかりません。' + ' スキップします。');
+    return;
   }
 
   const ekitanData = JSON.parse(fs.readFileSync(ekitanPath, 'utf8'));
@@ -1885,7 +1886,7 @@ function enrichChichibu() {
   const ekitanPath = path.resolve('scripts/ekitan_chichibu_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(stationPath) || !fs.existsSync(ekitanPath)) {
-    throw new Error('秩父鉄道の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
@@ -1999,7 +2000,7 @@ function enrichOgose() {
   const ekitanPath = path.resolve('scripts/cache/ekitan_ogose_timetables.json');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(ekitanPath)) {
-    throw new Error('東武越生線の必要なデータファイルが見つかりません。');
+    console.warn( + ' スキップします。'); return;
   }
 
   const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));

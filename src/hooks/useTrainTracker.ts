@@ -129,6 +129,9 @@ export function useTrainTracker({
           ) {
             successor.customDestination = selfActive.customDestination;
           }
+          if (selfActive.trainName && !successor.trainName) {
+            successor.trainName = selfActive.trainName;
+          }
           selfActive = successor;
         }
       }
