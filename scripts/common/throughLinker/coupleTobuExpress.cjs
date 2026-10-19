@@ -200,8 +200,98 @@ function coupleTobuExpress() {
     }
   }
 
+  // ---------------- 特急両数の正常化（リバティ3両化・スペーシア6両化） ----------------
+  console.log('[coupleTobuExpress] 特急列車の編成両数（リバティ3両・スペーシア6両）の正常化開始...');
+  const kinugawaPath = path.resolve('src/data/lines/tobu_kinugawa/globalTimetable.json');
+  const yaganPath = path.resolve('src/data/lines/yagan/globalTimetable.json');
+  const aizuPath = path.resolve('src/data/lines/aizu/globalTimetable.json');
+
+  const kinugawa = JSON.parse(fs.readFileSync(kinugawaPath, 'utf8'));
+  const yagan = JSON.parse(fs.readFileSync(yaganPath, 'utf8'));
+  const aizu = JSON.parse(fs.readFileSync(aizuPath, 'utf8'));
+
+  const LIBERTY_IDS = new Set([
+    // 会津
+    '25154', '25151', '25152', '25153', '42865', '42866', '42868', '42867',
+    // きぬ
+    '116490', '116504', '116501', '116488', '116489', '116499', '116500',
+    // けごん
+    '25109', '25116', '25120', '25123', '25124', '25126', '25128', '25129', '25130', '25131', '25132',
+    '38046', '38047', '38050', '38055', '38060', '38065',
+    // りょうもう
+    '116453', '116454'
+  ]);
+
+  function isLibertyTrip(trip) {
+    if (!trip) return false;
+    const id = trip.trainId || (trip.tripId && trip.tripId.split('_').pop());
+    if (id && LIBERTY_IDS.has(id)) return true;
+    if (trip.trainNumber && /^(1001|1003|1013|1014|1018|1019|1027|1028|1031|1035|1036|1042|1043|1046|1047|1049|1101|1105|1109|1113|1114|1119|1122|1124|1127|1128|1131|1136|1142|1146|1154|1255)レ?$/.test(trip.trainNumber)) return true;
+    if (trip.trainNumber && /^(1101|1113|1119|1131|1128|1136|1142|1154)M$/.test(trip.trainNumber)) return true;
+    if (trip.trainName && trip.trainName.includes('リバティ')) return true;
+    return false;
+  }
+
+  // 1. スカイツリーラインの特急両数是正（デフォルト10両から、リバティ3両・他特急6両へ）
+  let skyExpFixed = 0;
+  for (const t of skytree) {
+    if (t.trainType === 'limitedExp') {
+      if (t.coupling) {
+        t.cars = 3;
+      } else if (isLibertyTrip(t)) {
+        t.cars = 3;
+        skyExpFixed++;
+      } else {
+        t.cars = 6;
+        skyExpFixed++;
+      }
+    }
+  }
+
+  // 2. 日光線の特急両数是正（単独リバティを3両へ）
+  let nikkoExpFixed = 0;
+  for (const t of nikko) {
+    if (t.trainType === 'limitedExp' && !t.coupling && isLibertyTrip(t)) {
+      t.cars = 3;
+      nikkoExpFixed++;
+    }
+  }
+
+  // 3. 鬼怒川線の特急両数是正（リバティを3両へ）
+  let kinuExpFixed = 0;
+  for (const t of kinugawa) {
+    if (t.trainType === 'limitedExp' && isLibertyTrip(t)) {
+      t.cars = 3;
+      kinuExpFixed++;
+    }
+  }
+
+  // 4. 野岩鉄道の特急両数是正（デフォルト2両からリバティ3両へ）
+  let yaganExpFixed = 0;
+  for (const t of yagan) {
+    if (t.trainType === 'limitedExp' || isLibertyTrip(t)) {
+      t.cars = 3;
+      yaganExpFixed++;
+    }
+  }
+
+  // 5. 会津鉄道の特急両数是正（デフォルト2両からリバティ3両へ）
+  let aizuExpFixed = 0;
+  for (const t of aizu) {
+    if (t.trainType === 'limitedExp' || isLibertyTrip(t)) {
+      t.cars = 3;
+      aizuExpFixed++;
+    }
+  }
+
+  console.log(`[coupleTobuExpress] 特急両数是正完了: スカイツリー=${skyExpFixed}, 日光=${nikkoExpFixed}, 鬼怒川=${kinuExpFixed}, 野岩=${yaganExpFixed}, 会津=${aizuExpFixed}`);
+
   fs.writeFileSync(skytreePath, JSON.stringify(skytree, null, 2), 'utf8');
   fs.writeFileSync(nikkoPath, JSON.stringify(nikko, null, 2), 'utf8');
+  fs.writeFileSync(kinugawaPath, JSON.stringify(kinugawa, null, 2), 'utf8');
+  fs.writeFileSync(yaganPath, JSON.stringify(yagan, null, 2), 'utf8');
+  fs.writeFileSync(aizuPath, JSON.stringify(aizu, null, 2), 'utf8');
+
   console.log(`✅ 東武併結特急カップリング完了: 合計 ${coupledCount} トリップに coupling 設定を付与しました`);
 }
 
