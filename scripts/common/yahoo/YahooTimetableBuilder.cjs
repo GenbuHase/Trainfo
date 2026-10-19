@@ -128,7 +128,7 @@ class YahooTimetableBuilder {
       '普通', '各駅停車', '快速', '通勤快速', '特別快速', '通勤特快',
       '中央特快', '青梅特快', '区間快速', '急行', '快速急行', '区間急行',
       '準急', '通勤準急', '区間準急', '特急', '通勤特急', 'ライナー',
-      '新幹線', 'S-TRAIN', 'S−TRAIN'
+      '新幹線', 'S-TRAIN', 'S−TRAIN', '川越特急'
     ]);
     if (genericTypes.has(normalized)) {
       return null;
@@ -139,7 +139,7 @@ class YahooTimetableBuilder {
     // 例: "特急 あずさ9号" -> "あずさ9号"
     // 例: "快速 DLばんえつ物語" -> "DLばんえつ物語"
     // 例: "特急あずさ9号" -> "あずさ9号"
-    const prefixRegex = /^(?:JR)?(?:新幹線|超特急|特急|通勤特急|快速急行|通勤急行|区間急行|急行|特別快速|通勤特快|中央特快|青梅特快|通勤快速|区間快速|快速|区間準急|通勤準急|準急|普通|各駅停車)\s*/;
+    const prefixRegex = /^(?:JR)?(?:新幹線|超特急|特急|川越特急|通勤特急|快速急行|通勤急行|区間急行|急行|特別快速|通勤特快|中央特快|青梅特快|通勤快速|区間快速|快速|区間準急|通勤準急|準急|普通|各駅停車)\s*/;
     const stripped = normalized.replace(prefixRegex, '').trim();
 
     if (!stripped || genericTypes.has(stripped)) {

@@ -808,6 +808,7 @@
     "customDestination": "東京",
     "trainId": "33565",
     "customOrigin": "甲府",
+    "trainName": "かいじ70号",
     "throughTripId": "WD_INB_JC-24_0646_1707",
     "throughLineId": "chuo"
   },
@@ -2427,7 +2428,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6839"
+    "trainId": "6839",
+    "trainName": "あずさ71号"
   },
   {
     "tripId": "cm_WD_OUT_JC-32_0625_31148",
@@ -2899,6 +2901,7 @@
     "customDestination": "東京",
     "trainId": "6919",
     "customOrigin": "松本",
+    "trainName": "あずさ4号",
     "throughTripId": "WD_INB_JC-24_0831_1722",
     "throughLineId": "chuo"
   },
@@ -3760,6 +3763,7 @@
     "customDestination": "東京",
     "trainId": "33625",
     "customOrigin": "竜王",
+    "trainName": "かいじ2号",
     "throughTripId": "WD_INB_JC-24_0801_1718",
     "throughLineId": "chuo"
   },
@@ -4006,6 +4010,7 @@
     ],
     "customOrigin": "新宿",
     "trainId": "6842",
+    "trainName": "あずさ1号",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-24",
@@ -4259,6 +4264,7 @@
     ],
     "customOrigin": "新宿",
     "trainId": "6843",
+    "trainName": "あずさ1号",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-24",
@@ -4952,6 +4958,7 @@
     "customDestination": "東京",
     "trainId": "6896",
     "customOrigin": "松本",
+    "trainName": "あずさ8号",
     "throughTripId": "WD_INB_JC-24_0908_1727",
     "throughLineId": "chuo"
   },
@@ -5860,6 +5867,7 @@
     ],
     "customOrigin": "千葉",
     "trainId": "39459",
+    "trainName": "あずさ3号",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-24",
@@ -6726,6 +6734,7 @@
     "customDestination": "東京",
     "trainId": "33627",
     "customOrigin": "竜王",
+    "trainName": "かいじ6号",
     "throughTripId": "WD_INB_JC-24_0854_1725",
     "throughLineId": "chuo"
   },
@@ -7241,7 +7250,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "42780"
+    "trainId": "42780",
+    "trainName": "あずさ5号"
   },
   {
     "tripId": "cm_WD_OUT_CO-56_0801_42912",
@@ -7714,7 +7724,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6845"
+    "trainId": "6845",
+    "trainName": "あずさ77号"
   },
   {
     "tripId": "cm_WD_OUT_CO-59_0808_43234",
@@ -8025,6 +8036,7 @@
     "customDestination": "東京",
     "trainId": "6922",
     "customOrigin": "松本",
+    "trainName": "あずさ12号",
     "throughTripId": "WD_INB_JC-24_1025_1555",
     "throughLineId": "chuo"
   },
@@ -8238,6 +8250,7 @@
     "customOrigin": "新宿",
     "trainId": "31129",
     "customDestination": "甲府",
+    "trainName": "かいじ7号",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-24",
@@ -8653,6 +8666,7 @@
     "customDestination": "東京",
     "trainId": "33567",
     "customOrigin": "甲府",
+    "trainName": "かいじ10号",
     "throughTripId": "WD_INB_JC-24_0950_1730",
     "throughLineId": "chuo"
   },
@@ -10133,6 +10147,7 @@
     "customDestination": "東京",
     "trainId": "6930",
     "customOrigin": "松本",
+    "trainName": "あずさ16号",
     "throughTripId": "WD_INB_JC-24_1119_1560",
     "throughLineId": "chuo"
   },
@@ -10372,6 +10387,7 @@
     "customOrigin": "新宿",
     "trainId": "31144",
     "customDestination": "甲府",
+    "trainName": "かいじ11号",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-24",
@@ -10637,6 +10653,7 @@
     "customDestination": "東京",
     "trainId": "33568",
     "customOrigin": "甲府",
+    "trainName": "かいじ14号",
     "throughTripId": "WD_INB_JC-24_1048_1734",
     "throughLineId": "chuo"
   },
@@ -11278,7 +11295,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6855"
+    "trainId": "6855",
+    "trainName": "あずさ13号"
   },
   {
     "tripId": "cm_WD_OUT_JC-05_1004_6851",
@@ -12172,6 +12190,7 @@
     "customOrigin": "新宿",
     "trainId": "31133",
     "customDestination": "甲府",
+    "trainName": "かいじ15号",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-24",
@@ -12889,7 +12908,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6866"
+    "trainId": "6866",
+    "trainName": "あずさ17号"
   },
   {
     "tripId": "cm_WD_INB_CO-61_1103_6947",
@@ -13996,7 +14016,8 @@
     ],
     "customOrigin": "新宿",
     "trainId": "31135",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ19号"
   },
   {
     "tripId": "cm_WD_INB_CO-43_1132_33546",
@@ -14132,7 +14153,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "33546",
-    "customOrigin": "甲府"
+    "customOrigin": "甲府",
+    "trainName": "かいじ20号"
   },
   {
     "tripId": "cm_WD_OUT_JC-05_1134_38808",
@@ -15014,7 +15036,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6856"
+    "trainId": "6856",
+    "trainName": "あずさ21号"
   },
   {
     "tripId": "cm_WD_INB_CO-61_1218_6901",
@@ -15469,7 +15492,8 @@
     ],
     "customOrigin": "新宿",
     "trainId": "31137",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ23号"
   },
   {
     "tripId": "cm_WD_INB_CO-43_1236_33548",
@@ -15605,7 +15629,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "33548",
-    "customOrigin": "甲府"
+    "customOrigin": "甲府",
+    "trainName": "かいじ24号"
   },
   {
     "tripId": "cm_WD_OUT_JC-32_1236_31149",
@@ -16087,7 +16112,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6867"
+    "trainId": "6867",
+    "trainName": "あずさ25号"
   },
   {
     "tripId": "cm_WD_OUT_CO-43_1309_31160",
@@ -16839,7 +16865,8 @@
     ],
     "customOrigin": "新宿",
     "trainId": "31139",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ27号"
   },
   {
     "tripId": "cm_WD_INB_CO-43_1332_33550",
@@ -16975,7 +17002,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "33550",
-    "customOrigin": "甲府"
+    "customOrigin": "甲府",
+    "trainName": "かいじ28号"
   },
   {
     "tripId": "cm_WD_INB_CO-61_1332_6936",
@@ -17771,7 +17799,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "6912",
-    "customOrigin": "松本"
+    "customOrigin": "松本",
+    "trainName": "あずさ34号"
   },
   {
     "tripId": "cm_WD_OUT_JC-05_1400_6859",
@@ -18015,7 +18044,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6859"
+    "trainId": "6859",
+    "trainName": "あずさ29号"
   },
   {
     "tripId": "cm_WD_OUT_CO-51_1405_6881",
@@ -19005,7 +19035,8 @@
     ],
     "customOrigin": "新宿",
     "trainId": "31141",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ31号"
   },
   {
     "tripId": "cm_WD_INB_CO-61_1434_6945",
@@ -19918,7 +19949,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6868"
+    "trainId": "6868",
+    "trainName": "あずさ33号"
   },
   {
     "tripId": "cm_WD_OUT_JC-24_1500_31201",
@@ -20623,7 +20655,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31114",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ35号"
   },
   {
     "tripId": "cm_WD_INB_CO-43_1515_33553",
@@ -21139,6 +21172,7 @@
     "customDestination": "新宿",
     "trainId": "6904",
     "customOrigin": "松本",
+    "trainName": "あずさ42号",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-32",
@@ -22852,7 +22886,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31115",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ39号"
   },
   {
     "tripId": "cm_WD_OUT_JC-24_1624_31203",
@@ -23387,7 +23422,8 @@
     "customDestination": "新宿",
     "trainId": "6906",
     "customOrigin": "松本",
-    "throughTripId": "WD_INB_JC-22_1831_6906"
+    "throughTripId": "WD_INB_JC-22_1831_6906",
+    "trainName": "あずさ46号"
   },
   {
     "tripId": "cm_WD_INB_CO-46_1643_33631",
@@ -23669,7 +23705,8 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "6834"
+    "trainId": "6834",
+    "trainName": "あずさ41号"
   },
   {
     "tripId": "cm_WD_INB_CO-51_1645_33618",
@@ -24732,7 +24769,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31117",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ43号"
   },
   {
     "tripId": "cm_WD_OUT_JC-24_1717_31205",
@@ -25565,7 +25603,8 @@
       }
     ],
     "trainId": "39462",
-    "customOrigin": "松本"
+    "customOrigin": "松本",
+    "trainName": "あずさ50号"
   },
   {
     "tripId": "cm_WD_OUT_CO-43_1730_6880",
@@ -26010,7 +26049,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "6916",
-    "customOrigin": "松本"
+    "customOrigin": "松本",
+    "trainName": "あずさ86号"
   },
   {
     "tripId": "cm_WD_OUT_CO-51_1737_7015",
@@ -26463,7 +26503,8 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "6830"
+    "trainId": "6830",
+    "trainName": "あずさ45号"
   },
   {
     "tripId": "cm_WD_INB_JC-32_1745_39449",
@@ -27505,7 +27546,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31125",
-    "customDestination": "竜王"
+    "customDestination": "竜王",
+    "trainName": "かいじ47号"
   },
   {
     "tripId": "cm_WD_OUT_JC-24_1819_6893",
@@ -28457,7 +28499,8 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "6837"
+    "trainId": "6837",
+    "trainName": "あずさ49号"
   },
   {
     "tripId": "cm_WD_INB_JC-32_1848_1437",
@@ -29322,7 +29365,8 @@
     "customDestination": "新宿",
     "trainId": "33560",
     "customOrigin": "甲府",
-    "throughTripId": "WD_INB_JC-22_2004_33560"
+    "throughTripId": "WD_INB_JC-22_2004_33560",
+    "trainName": "かいじ52号"
   },
   {
     "tripId": "cm_WD_OUT_JC-01_1904_38796",
@@ -29393,6 +29437,7 @@
     ],
     "customOrigin": "東京",
     "trainId": "38796",
+    "trainName": "かいじ51号",
     "throughTripId": "WD_OUT_FJ-01_2111_38921",
     "throughLineId": "fujikyu",
     "prevTripId": "WD_OUT_JC-01_1904_38796",
@@ -29576,7 +29621,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31126",
-    "customDestination": "竜王"
+    "customDestination": "竜王",
+    "trainName": "かいじ51号"
   },
   {
     "tripId": "cm_WD_OUT_CO-43_1920_31158",
@@ -30531,7 +30577,8 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "6833"
+    "trainId": "6833",
+    "trainName": "あずさ53号"
   },
   {
     "tripId": "cm_WD_INB_CO-46_1947_33633",
@@ -31414,7 +31461,8 @@
     "customDestination": "新宿",
     "trainId": "33562",
     "customOrigin": "甲府",
-    "throughTripId": "WD_INB_JC-22_2106_33562"
+    "throughTripId": "WD_INB_JC-22_2106_33562",
+    "trainName": "かいじ56号"
   },
   {
     "tripId": "cm_WD_INB_CO-43_2007_33600",
@@ -31792,7 +31840,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "6909",
-    "customOrigin": "松本"
+    "customOrigin": "松本",
+    "trainName": "あずさ60号"
   },
   {
     "tripId": "cm_WD_INB_JC-32_2018_10047",
@@ -32295,7 +32344,8 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "6829"
+    "trainId": "6829",
+    "trainName": "あずさ55号"
   },
   {
     "tripId": "cm_WD_INB_CO-46_2046_33634",
@@ -33707,7 +33757,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31121",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ57号"
   },
   {
     "tripId": "cm_WD_OUT_JC-24_2145_31197",
@@ -34764,7 +34815,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31123",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ59号"
   },
   {
     "tripId": "cm_WD_INB_CO-59_2254_43216",
@@ -37460,7 +37512,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6839"
+    "trainId": "6839",
+    "trainName": "あずさ71号"
   },
   {
     "tripId": "cm_HD_OUT_JC-32_0624_31147",
@@ -37863,6 +37916,7 @@
     "customDestination": "東京",
     "trainId": "6920",
     "customOrigin": "松本",
+    "trainName": "あずさ4号",
     "throughTripId": "HD_INB_JC-24_0831_1546",
     "throughLineId": "chuo"
   },
@@ -38724,6 +38778,7 @@
     "customDestination": "東京",
     "trainId": "33626",
     "customOrigin": "竜王",
+    "trainName": "かいじ2号",
     "throughTripId": "HD_INB_JC-24_0804_39455",
     "throughLineId": "chuo"
   },
@@ -38970,6 +39025,7 @@
     ],
     "customOrigin": "新宿",
     "trainId": "6842",
+    "trainName": "あずさ1号",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-24",
@@ -39223,6 +39279,7 @@
     ],
     "customOrigin": "新宿",
     "trainId": "6843",
+    "trainName": "あずさ1号",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-24",
@@ -40164,6 +40221,7 @@
     "trainId": "6897",
     "customOrigin": "松本",
     "throughTripId": "HD_INB_JC-22_0912_6897",
+    "trainName": "あずさ8号",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-32",
@@ -41950,6 +42008,7 @@
     "customDestination": "東京",
     "trainId": "33628",
     "customOrigin": "竜王",
+    "trainName": "かいじ6号",
     "throughTripId": "HD_INB_JC-24_0853_1636",
     "throughLineId": "chuo"
   },
@@ -42465,7 +42524,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "42779"
+    "trainId": "42779",
+    "trainName": "あずさ5号"
   },
   {
     "tripId": "cm_HD_OUT_CO-56_0801_42912",
@@ -42805,6 +42865,7 @@
     ],
     "customOrigin": "新宿",
     "trainId": "6845",
+    "trainName": "あずさ77号",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-24",
@@ -43505,6 +43566,7 @@
     "customDestination": "東京",
     "trainId": "6921",
     "customOrigin": "松本",
+    "trainName": "あずさ12号",
     "throughTripId": "HD_INB_JC-24_1018_1554",
     "throughLineId": "chuo"
   },
@@ -43727,6 +43789,7 @@
     "customOrigin": "新宿",
     "trainId": "31142",
     "customDestination": "甲府",
+    "trainName": "かいじ7号",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-24",
@@ -44142,6 +44205,7 @@
     "customDestination": "東京",
     "trainId": "33566",
     "customOrigin": "甲府",
+    "trainName": "かいじ10号",
     "throughTripId": "HD_INB_JC-24_0948_1641",
     "throughLineId": "chuo"
   },
@@ -45854,6 +45918,7 @@
     "customDestination": "東京",
     "trainId": "6929",
     "customOrigin": "松本",
+    "trainName": "あずさ16号",
     "throughTripId": "HD_INB_JC-24_1117_1644",
     "throughLineId": "chuo"
   },
@@ -46232,6 +46297,7 @@
     "customOrigin": "新宿",
     "trainId": "31143",
     "customDestination": "甲府",
+    "trainName": "かいじ11号",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-24",
@@ -46499,6 +46565,7 @@
     "customDestination": "東京",
     "trainId": "33569",
     "customOrigin": "甲府",
+    "trainName": "かいじ14号",
     "throughTripId": "HD_INB_JC-24_1057_1643",
     "throughLineId": "chuo"
   },
@@ -47140,7 +47207,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6854"
+    "trainId": "6854",
+    "trainName": "あずさ13号"
   },
   {
     "tripId": "cm_HD_OUT_JC-05_1004_6851",
@@ -48043,6 +48111,7 @@
     "customOrigin": "新宿",
     "trainId": "31145",
     "customDestination": "甲府",
+    "trainName": "かいじ15号",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-24",
@@ -48760,7 +48829,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6865"
+    "trainId": "6865",
+    "trainName": "あずさ17号"
   },
   {
     "tripId": "cm_HD_INB_CO-61_1103_6946",
@@ -49867,7 +49937,8 @@
     ],
     "customOrigin": "新宿",
     "trainId": "31134",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ19号"
   },
   {
     "tripId": "cm_HD_INB_CO-43_1132_33545",
@@ -50004,7 +50075,8 @@
     "customDestination": "新宿",
     "trainId": "33545",
     "customOrigin": "甲府",
-    "throughTripId": "HD_INB_JC-22_1233_33545"
+    "throughTripId": "HD_INB_JC-22_1233_33545",
+    "trainName": "かいじ20号"
   },
   {
     "tripId": "cm_HD_INB_JC-32_1147_40805",
@@ -50822,7 +50894,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6857"
+    "trainId": "6857",
+    "trainName": "あずさ21号"
   },
   {
     "tripId": "cm_HD_INB_CO-61_1218_6900",
@@ -51277,7 +51350,8 @@
     ],
     "customOrigin": "新宿",
     "trainId": "31136",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ23号"
   },
   {
     "tripId": "cm_HD_INB_CO-43_1236_33547",
@@ -51413,7 +51487,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "33547",
-    "customOrigin": "甲府"
+    "customOrigin": "甲府",
+    "trainName": "かいじ24号"
   },
   {
     "tripId": "cm_HD_OUT_JC-32_1242_31150",
@@ -51895,7 +51970,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6867"
+    "trainId": "6867",
+    "trainName": "あずさ25号"
   },
   {
     "tripId": "cm_HD_OUT_CO-43_1309_31160",
@@ -52575,7 +52651,8 @@
     ],
     "customOrigin": "新宿",
     "trainId": "31138",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ27号"
   },
   {
     "tripId": "cm_HD_OUT_JC-01_1331_28393",
@@ -52783,7 +52860,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "33549",
-    "customOrigin": "甲府"
+    "customOrigin": "甲府",
+    "trainName": "かいじ28号"
   },
   {
     "tripId": "cm_HD_INB_CO-61_1332_6936",
@@ -53579,7 +53657,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "6913",
-    "customOrigin": "松本"
+    "customOrigin": "松本",
+    "trainName": "あずさ34号"
   },
   {
     "tripId": "cm_HD_OUT_JC-05_1400_6858",
@@ -53823,7 +53902,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6858"
+    "trainId": "6858",
+    "trainName": "あずさ29号"
   },
   {
     "tripId": "cm_HD_OUT_CO-51_1405_6881",
@@ -55060,7 +55140,8 @@
     ],
     "customOrigin": "新宿",
     "trainId": "31140",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ31号"
   },
   {
     "tripId": "cm_HD_INB_CO-61_1434_6945",
@@ -55973,7 +56054,8 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "6869"
+    "trainId": "6869",
+    "trainName": "あずさ33号"
   },
   {
     "tripId": "cm_HD_OUT_JC-24_1500_31202",
@@ -56678,7 +56760,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31113",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ35号"
   },
   {
     "tripId": "cm_HD_INB_CO-43_1515_33571",
@@ -58945,7 +59028,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "6924",
-    "customOrigin": "松本"
+    "customOrigin": "松本",
+    "trainName": "あずさ82号"
   },
   {
     "tripId": "cm_HD_INB_CO-43_1611_33573",
@@ -59452,7 +59536,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31116",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ39号"
   },
   {
     "tripId": "cm_HD_OUT_JC-24_1627_31204",
@@ -59911,7 +59996,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "6907",
-    "customOrigin": "松本"
+    "customOrigin": "松本",
+    "trainName": "あずさ46号"
   },
   {
     "tripId": "cm_HD_OUT_JC-01_1645_6835",
@@ -60155,7 +60241,8 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "6835"
+    "trainId": "6835",
+    "trainName": "あずさ41号"
   },
   {
     "tripId": "cm_HD_INB_CO-51_1645_33618",
@@ -61209,7 +61296,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31118",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ43号"
   },
   {
     "tripId": "cm_HD_OUT_JC-24_1718_31206",
@@ -62040,7 +62128,8 @@
       }
     ],
     "trainId": "39463",
-    "customOrigin": "松本"
+    "customOrigin": "松本",
+    "trainName": "あずさ50号"
   },
   {
     "tripId": "cm_HD_INB_JC-32_1730_1430",
@@ -62942,6 +63031,7 @@
     ],
     "customOrigin": "東京",
     "trainId": "6831",
+    "trainName": "あずさ45号",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JC-24",
@@ -63934,7 +64024,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31124",
-    "customDestination": "竜王"
+    "customDestination": "竜王",
+    "trainName": "かいじ47号"
   },
   {
     "tripId": "cm_HD_OUT_JC-01_1821_38793",
@@ -64933,7 +65024,8 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "6836"
+    "trainId": "6836",
+    "trainName": "あずさ49号"
   },
   {
     "tripId": "cm_HD_OUT_JC-01_1847_28716",
@@ -65797,7 +65889,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "33559",
-    "customOrigin": "甲府"
+    "customOrigin": "甲府",
+    "trainName": "かいじ52号"
   },
   {
     "tripId": "cm_HD_OUT_JC-01_1909_38794",
@@ -66051,7 +66144,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31127",
-    "customDestination": "竜王"
+    "customDestination": "竜王",
+    "trainName": "かいじ51号"
   },
   {
     "tripId": "cm_HD_OUT_CO-43_1920_31158",
@@ -67006,7 +67100,8 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "6832"
+    "trainId": "6832",
+    "trainName": "あずさ53号"
   },
   {
     "tripId": "cm_HD_INB_CO-46_1947_33633",
@@ -67889,7 +67984,8 @@
     "customDestination": "新宿",
     "trainId": "33561",
     "customOrigin": "甲府",
-    "throughTripId": "HD_INB_JC-22_2105_33561"
+    "throughTripId": "HD_INB_JC-22_2105_33561",
+    "trainName": "かいじ56号"
   },
   {
     "tripId": "cm_HD_INB_CO-43_2007_33600",
@@ -68267,7 +68363,8 @@
     ],
     "customDestination": "新宿",
     "trainId": "6908",
-    "customOrigin": "松本"
+    "customOrigin": "松本",
+    "trainName": "あずさ60号"
   },
   {
     "tripId": "cm_HD_INB_JC-32_2018_10046",
@@ -68770,7 +68867,8 @@
       }
     ],
     "customOrigin": "東京",
-    "trainId": "6828"
+    "trainId": "6828",
+    "trainName": "あずさ55号"
   },
   {
     "tripId": "cm_HD_INB_CO-46_2046_33634",
@@ -70182,7 +70280,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31120",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ57号"
   },
   {
     "tripId": "cm_HD_OUT_JC-24_2145_31197",
@@ -71239,7 +71338,8 @@
     ],
     "customOrigin": "東京",
     "trainId": "31122",
-    "customDestination": "甲府"
+    "customDestination": "甲府",
+    "trainName": "かいじ59号"
   },
   {
     "tripId": "cm_HD_INB_CO-59_2254_43216",

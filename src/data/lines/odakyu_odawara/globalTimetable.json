@@ -17018,12 +17018,12 @@
   {
     "tripId": "WD_OUT_OH-01_0640_38876",
     "lineId": "odakyu_odawara",
-    "trainNumber": "38876",
+    "trainNumber": "0401M",
     "trainType": "limitedExp",
     "trainName": "ふじさん1号",
     "direction": "outbound",
     "originStationId": "OH-01",
-    "destinationStationId": "OH-39",
+    "destinationStationId": "OH-41",
     "customDestination": "御殿場",
     "cars": 10,
     "isHoliday": false,
@@ -17261,8 +17261,23 @@
         "arrivalTime": "07:34:00",
         "departureTime": "07:35:00",
         "isPassing": false
+      },
+      {
+        "stationId": "OH-40",
+        "arrivalTime": "07:39:00",
+        "departureTime": "07:39:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "OH-41",
+        "arrivalTime": "07:43:00",
+        "departureTime": "07:47:00",
+        "isPassing": true
       }
-    ]
+    ],
+    "customOrigin": "新宿",
+    "throughTripId": "WD_OUT_CB-04_0747_39001",
+    "throughLineId": "gotemba"
   },
   {
     "tripId": "WD_OUT_OH-01_0641_93727",
@@ -49470,16 +49485,28 @@
   {
     "tripId": "WD_INB_OH-39_0926_31210",
     "lineId": "odakyu_odawara",
-    "trainNumber": "31210",
+    "trainNumber": "0402M",
     "trainType": "limitedExp",
     "trainName": "ふじさん2号",
     "direction": "inbound",
-    "originStationId": "OH-39",
+    "originStationId": "OH-41",
     "destinationStationId": "OH-01",
     "customOrigin": "御殿場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
+      {
+        "stationId": "OH-41",
+        "arrivalTime": "09:14:00",
+        "departureTime": "09:17:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "OH-40",
+        "arrivalTime": "09:21:00",
+        "departureTime": "09:21:00",
+        "isPassing": true
+      },
       {
         "stationId": "OH-39",
         "arrivalTime": "09:25:00",
@@ -49714,7 +49741,10 @@
         "departureTime": "10:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customDestination": "新宿",
+    "prevTripId": "WD_INB_CB-10_0848_31305",
+    "prevLineId": "gotemba"
   },
   {
     "tripId": "WD_OUT_OH-27_0927_95022",
@@ -61781,12 +61811,12 @@
   {
     "tripId": "WD_OUT_OH-01_1040_38877",
     "lineId": "odakyu_odawara",
-    "trainNumber": "38877",
+    "trainNumber": "0403M",
     "trainType": "limitedExp",
     "trainName": "ふじさん3号",
     "direction": "outbound",
     "originStationId": "OH-01",
-    "destinationStationId": "OH-39",
+    "destinationStationId": "OH-41",
     "customDestination": "御殿場",
     "cars": 10,
     "isHoliday": false,
@@ -62024,8 +62054,23 @@
         "arrivalTime": "11:36:00",
         "departureTime": "11:38:00",
         "isPassing": false
+      },
+      {
+        "stationId": "OH-40",
+        "arrivalTime": "11:42:00",
+        "departureTime": "11:42:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "OH-41",
+        "arrivalTime": "11:46:00",
+        "departureTime": "11:58:00",
+        "isPassing": true
       }
-    ]
+    ],
+    "customOrigin": "新宿",
+    "throughTripId": "WD_OUT_CB-04_1158_39002",
+    "throughLineId": "gotemba"
   },
   {
     "tripId": "WD_OUT_OH-27_1040_93785",
@@ -87427,16 +87472,28 @@
   {
     "tripId": "WD_INB_OH-39_1327_31211",
     "lineId": "odakyu_odawara",
-    "trainNumber": "31211",
+    "trainNumber": "0404M",
     "trainType": "limitedExp",
     "trainName": "ふじさん4号",
     "direction": "inbound",
-    "originStationId": "OH-39",
+    "originStationId": "OH-41",
     "destinationStationId": "OH-01",
     "customOrigin": "御殿場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
+      {
+        "stationId": "OH-41",
+        "arrivalTime": "13:14:00",
+        "departureTime": "13:18:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "OH-40",
+        "arrivalTime": "13:22:00",
+        "departureTime": "13:22:00",
+        "isPassing": true
+      },
       {
         "stationId": "OH-39",
         "arrivalTime": "13:26:00",
@@ -87671,7 +87728,10 @@
         "departureTime": "14:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customDestination": "新宿",
+    "prevTripId": "WD_INB_CB-10_1248_31306",
+    "prevLineId": "gotemba"
   },
   {
     "tripId": "WD_OUT_OH-05_1328_40885",
@@ -99380,12 +99440,12 @@
   {
     "tripId": "WD_OUT_OH-01_1440_38879",
     "lineId": "odakyu_odawara",
-    "trainNumber": "38879",
+    "trainNumber": "0405M",
     "trainType": "limitedExp",
     "trainName": "ふじさん5号",
     "direction": "outbound",
     "originStationId": "OH-01",
-    "destinationStationId": "OH-39",
+    "destinationStationId": "OH-41",
     "customDestination": "御殿場",
     "cars": 10,
     "isHoliday": false,
@@ -99623,8 +99683,23 @@
         "arrivalTime": "15:36:00",
         "departureTime": "15:37:00",
         "isPassing": false
+      },
+      {
+        "stationId": "OH-40",
+        "arrivalTime": "15:41:00",
+        "departureTime": "15:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "OH-41",
+        "arrivalTime": "15:45:00",
+        "departureTime": "15:57:00",
+        "isPassing": true
       }
-    ]
+    ],
+    "customOrigin": "新宿",
+    "throughTripId": "WD_OUT_CB-04_1557_39004",
+    "throughLineId": "gotemba"
   },
   {
     "tripId": "WD_OUT_OH-01_1441_93660",
@@ -135439,16 +135514,28 @@
   {
     "tripId": "WD_INB_OH-39_1807_31213",
     "lineId": "odakyu_odawara",
-    "trainNumber": "31213",
+    "trainNumber": "0406M",
     "trainType": "limitedExp",
     "trainName": "ふじさん6号",
     "direction": "inbound",
-    "originStationId": "OH-39",
+    "originStationId": "OH-41",
     "destinationStationId": "OH-01",
     "customOrigin": "御殿場",
     "cars": 10,
     "isHoliday": false,
     "stops": [
+      {
+        "stationId": "OH-41",
+        "arrivalTime": "17:50:00",
+        "departureTime": "17:58:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "OH-40",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": true
+      },
       {
         "stationId": "OH-39",
         "arrivalTime": "18:06:00",
@@ -135683,7 +135770,10 @@
         "departureTime": "19:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customDestination": "新宿",
+    "prevTripId": "WD_INB_CB-10_1723_31308",
+    "prevLineId": "gotemba"
   },
   {
     "tripId": "WD_INB_OH-41_1809_94466",
@@ -200797,12 +200887,12 @@
   {
     "tripId": "HD_OUT_OH-01_0640_38875",
     "lineId": "odakyu_odawara",
-    "trainNumber": "38875",
+    "trainNumber": "0401M",
     "trainType": "limitedExp",
     "trainName": "ふじさん1号",
     "direction": "outbound",
     "originStationId": "OH-01",
-    "destinationStationId": "OH-39",
+    "destinationStationId": "OH-41",
     "customDestination": "御殿場",
     "cars": 10,
     "isHoliday": true,
@@ -201040,8 +201130,23 @@
         "arrivalTime": "07:34:00",
         "departureTime": "07:35:00",
         "isPassing": false
+      },
+      {
+        "stationId": "OH-40",
+        "arrivalTime": "07:39:00",
+        "departureTime": "07:39:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "OH-41",
+        "arrivalTime": "07:43:00",
+        "departureTime": "07:47:00",
+        "isPassing": true
       }
-    ]
+    ],
+    "customOrigin": "新宿",
+    "throughTripId": "HD_OUT_CB-04_0747_39000",
+    "throughLineId": "gotemba"
   },
   {
     "tripId": "HD_OUT_OH-01_0641_94993",
@@ -226998,16 +227103,28 @@
   {
     "tripId": "HD_INB_OH-39_0926_31209",
     "lineId": "odakyu_odawara",
-    "trainNumber": "31209",
+    "trainNumber": "0402M",
     "trainType": "limitedExp",
     "trainName": "ふじさん2号",
     "direction": "inbound",
-    "originStationId": "OH-39",
+    "originStationId": "OH-41",
     "destinationStationId": "OH-01",
     "customOrigin": "御殿場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
+      {
+        "stationId": "OH-41",
+        "arrivalTime": "09:14:00",
+        "departureTime": "09:17:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "OH-40",
+        "arrivalTime": "09:21:00",
+        "departureTime": "09:21:00",
+        "isPassing": true
+      },
       {
         "stationId": "OH-39",
         "arrivalTime": "09:25:00",
@@ -227242,7 +227359,10 @@
         "departureTime": "10:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customDestination": "新宿",
+    "prevTripId": "HD_INB_CB-10_0848_31304",
+    "prevLineId": "gotemba"
   },
   {
     "tripId": "HD_INB_OH-47_0927_96057",
@@ -239341,12 +239461,12 @@
   {
     "tripId": "HD_OUT_OH-01_1040_38878",
     "lineId": "odakyu_odawara",
-    "trainNumber": "38878",
+    "trainNumber": "0403M",
     "trainType": "limitedExp",
     "trainName": "ふじさん3号",
     "direction": "outbound",
     "originStationId": "OH-01",
-    "destinationStationId": "OH-39",
+    "destinationStationId": "OH-41",
     "customDestination": "御殿場",
     "cars": 10,
     "isHoliday": true,
@@ -239584,8 +239704,23 @@
         "arrivalTime": "11:37:00",
         "departureTime": "11:38:00",
         "isPassing": false
+      },
+      {
+        "stationId": "OH-40",
+        "arrivalTime": "11:42:00",
+        "departureTime": "11:42:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "OH-41",
+        "arrivalTime": "11:46:00",
+        "departureTime": "11:58:00",
+        "isPassing": true
       }
-    ]
+    ],
+    "customOrigin": "新宿",
+    "throughTripId": "HD_OUT_CB-04_1158_39003",
+    "throughLineId": "gotemba"
   },
   {
     "tripId": "HD_OUT_OH-27_1040_93786",
@@ -267782,16 +267917,28 @@
   {
     "tripId": "HD_INB_OH-39_1327_31212",
     "lineId": "odakyu_odawara",
-    "trainNumber": "31212",
+    "trainNumber": "0404M",
     "trainType": "limitedExp",
     "trainName": "ふじさん4号",
     "direction": "inbound",
-    "originStationId": "OH-39",
+    "originStationId": "OH-41",
     "destinationStationId": "OH-01",
     "customOrigin": "御殿場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
+      {
+        "stationId": "OH-41",
+        "arrivalTime": "13:14:00",
+        "departureTime": "13:18:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "OH-40",
+        "arrivalTime": "13:22:00",
+        "departureTime": "13:22:00",
+        "isPassing": true
+      },
       {
         "stationId": "OH-39",
         "arrivalTime": "13:26:00",
@@ -268026,7 +268173,10 @@
         "departureTime": "14:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customDestination": "新宿",
+    "prevTripId": "HD_INB_CB-10_1248_31307",
+    "prevLineId": "gotemba"
   },
   {
     "tripId": "HD_OUT_OH-05_1328_40886",
@@ -279870,12 +280020,12 @@
   {
     "tripId": "HD_OUT_OH-01_1440_38880",
     "lineId": "odakyu_odawara",
-    "trainNumber": "38880",
+    "trainNumber": "0405M",
     "trainType": "limitedExp",
     "trainName": "ふじさん5号",
     "direction": "outbound",
     "originStationId": "OH-01",
-    "destinationStationId": "OH-39",
+    "destinationStationId": "OH-41",
     "customDestination": "御殿場",
     "cars": 10,
     "isHoliday": true,
@@ -280113,8 +280263,23 @@
         "arrivalTime": "15:36:00",
         "departureTime": "15:37:00",
         "isPassing": false
+      },
+      {
+        "stationId": "OH-40",
+        "arrivalTime": "15:41:00",
+        "departureTime": "15:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "OH-41",
+        "arrivalTime": "15:45:00",
+        "departureTime": "15:57:00",
+        "isPassing": true
       }
-    ]
+    ],
+    "customOrigin": "新宿",
+    "throughTripId": "HD_OUT_CB-04_1557_39005",
+    "throughLineId": "gotemba"
   },
   {
     "tripId": "HD_OUT_OH-01_1441_93661",
@@ -315144,16 +315309,28 @@
   {
     "tripId": "HD_INB_OH-39_1809_31214",
     "lineId": "odakyu_odawara",
-    "trainNumber": "31214",
+    "trainNumber": "0406M",
     "trainType": "limitedExp",
     "trainName": "ふじさん6号",
     "direction": "inbound",
-    "originStationId": "OH-39",
+    "originStationId": "OH-41",
     "destinationStationId": "OH-01",
     "customOrigin": "御殿場",
     "cars": 10,
     "isHoliday": true,
     "stops": [
+      {
+        "stationId": "OH-41",
+        "arrivalTime": "17:50:00",
+        "departureTime": "18:00:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "OH-40",
+        "arrivalTime": "18:04:00",
+        "departureTime": "18:04:00",
+        "isPassing": true
+      },
       {
         "stationId": "OH-39",
         "arrivalTime": "18:08:00",
@@ -315388,7 +315565,10 @@
         "departureTime": "19:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customDestination": "新宿",
+    "prevTripId": "HD_INB_CB-10_1723_31309",
+    "prevLineId": "gotemba"
   },
   {
     "tripId": "HD_OUT_OH-01_1810_94964",

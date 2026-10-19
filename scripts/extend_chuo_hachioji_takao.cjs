@@ -24,15 +24,29 @@ function secToStr(sec) {
 
 const cmMap = new Map();
 for (const t of chuoMainTrips) {
-  cmMap.set(t.trainId, t);
+  const yId = t.trainId || (t.tripId ? t.tripId.split('_').pop() : '');
+  if (yId) {
+    const key = `${yId}_${t.isHoliday ? 'HD' : 'WD'}`;
+    cmMap.set(key, t);
+  }
 }
 
 let extendedOutbound = 0;
 let extendedInbound = 0;
+let syncedTrainName = 0;
 
 for (const trip of chuoTrips) {
+  const yId = trip.trainId || (trip.tripId ? trip.tripId.split('_').pop() : '');
+  const key = `${yId}_${trip.isHoliday ? 'HD' : 'WD'}`;
+  const cm = yId ? cmMap.get(key) : null;
+
+  // trainName の同期（chuo -> chuo_main）
+  if (cm && trip.trainName && !cm.trainName) {
+    cm.trainName = trip.trainName;
+    syncedTrainName++;
+  }
+
   if (trip.trainType !== 'limitedExp') continue;
-  const cm = cmMap.get(trip.trainId);
 
   if (trip.direction === 'outbound') {
     const last = trip.stops[trip.stops.length - 1];
@@ -102,4 +116,6 @@ function safeWriteJson(filePath, data) {
 }
 
 safeWriteJson(chuoPath, chuoTrips);
+safeWriteJson(chuoMainPath, chuoMainTrips);
 console.log(`✅ [chuo] 中央線快速特急を高尾へ延伸完了: 下り ${extendedOutbound} 便, 上り ${extendedInbound} 便`);
+console.log(`✅ [chuo_main] 中央本線特急へ trainName を ${syncedTrainName} 便同期完了`);
