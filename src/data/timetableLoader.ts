@@ -516,6 +516,14 @@ const TIMETABLE_LOADERS: Record<string, LoaderFn> = {
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
+  tobu_koizumi_branch: () =>
+    Promise.all([
+      import('./lines/tobu_koizumi_branch/globalTimetable.json'),
+      import('./lines/tobu_koizumi_branch/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
   tobu_kiryu: () =>
     Promise.all([
       import('./lines/tobu_kiryu/globalTimetable.json'),

@@ -65,9 +65,7 @@ module.exports = {
     "outGroupId": null
   }
 ],
-  stationNameAliases: {
-    '東小泉': '太田',
-  },
+  stationNameAliases: {},
   trainTypeMap: {
   "普通": "local",
   "各駅停車": "local",

@@ -7,6 +7,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -55,11 +56,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "05:28:00",
-        "departureTime": "05:33:00",
+        "departureTime": "05:28:00",
         "isPassing": false
       }
     ],
-    "trainId": "114032"
+    "trainId": "114032",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_0533_114032",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_0514_114059",
@@ -131,6 +135,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -179,11 +184,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "05:53:00",
-        "departureTime": "05:56:00",
+        "departureTime": "05:53:00",
         "isPassing": false
       }
     ],
-    "trainId": "114033"
+    "trainId": "114033",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_0556_114033",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_0554_114062",
@@ -193,6 +201,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -245,7 +254,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114062"
+    "trainId": "114062",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_0545_114062",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_0604_114034",
@@ -255,6 +267,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -307,7 +320,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114034"
+    "trainId": "114034",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_0632_114034",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_0610_116483",
@@ -370,8 +386,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116483",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_0636_116483",
     "throughLineId": "tobu_isesaki"
   },
@@ -383,6 +399,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -435,7 +452,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114063"
+    "trainId": "114063",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_0607_114063",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_0645_114035",
@@ -445,6 +465,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -493,11 +514,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "07:13:00",
-        "departureTime": "07:17:00",
+        "departureTime": "07:13:00",
         "isPassing": false
       }
     ],
-    "trainId": "114035"
+    "trainId": "114035",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_0717_114035",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_0656_116485",
@@ -560,8 +584,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116485",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_0726_116485",
     "throughLineId": "tobu_isesaki"
   },
@@ -573,6 +597,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -625,7 +650,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114064"
+    "trainId": "114064",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_0653_114064",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_0714_114036",
@@ -635,6 +663,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -683,11 +712,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "07:42:00",
-        "departureTime": "07:49:00",
+        "departureTime": "07:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "114036"
+    "trainId": "114036",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_0749_114036",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_0739_114037",
@@ -697,6 +729,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -759,6 +792,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -811,7 +845,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114065"
+    "trainId": "114065",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_0732_114065",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_0805_116468",
@@ -874,8 +911,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116468",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_0836_116468",
     "throughLineId": "tobu_isesaki"
   },
@@ -1002,8 +1039,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116452",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_0729_116452",
     "prevLineId": "tobu_isesaki"
   },
@@ -1068,8 +1105,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116469",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_0900_116469",
     "throughLineId": "tobu_isesaki"
   },
@@ -1081,6 +1118,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1196,8 +1234,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116470",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_0931_116470",
     "throughLineId": "tobu_isesaki"
   },
@@ -1262,8 +1300,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116453",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_0820_116453",
     "prevLineId": "tobu_isesaki"
   },
@@ -1275,6 +1313,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1323,11 +1362,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "09:55:00",
-        "departureTime": "10:05:00",
+        "departureTime": "09:55:00",
         "isPassing": false
       }
     ],
-    "trainId": "114038"
+    "trainId": "114038",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_1005_114038",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_0938_114067",
@@ -1337,6 +1379,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1389,7 +1432,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114067"
+    "trainId": "114067",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_0926_114067",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_1000_116471",
@@ -1452,8 +1498,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116471",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1029_116471",
     "throughLineId": "tobu_isesaki"
   },
@@ -1518,8 +1564,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116454",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_0920_116454",
     "prevLineId": "tobu_isesaki"
   },
@@ -1531,6 +1577,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1579,11 +1626,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "10:58:00",
-        "departureTime": "11:05:00",
+        "departureTime": "10:58:00",
         "isPassing": false
       }
     ],
-    "trainId": "114039"
+    "trainId": "114039",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_1105_114039",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_1050_114068",
@@ -1593,6 +1643,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1708,8 +1759,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116472",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1129_116472",
     "throughLineId": "tobu_isesaki"
   },
@@ -1774,8 +1825,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116455",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1020_116455",
     "prevLineId": "tobu_isesaki"
   },
@@ -1787,6 +1838,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1835,11 +1887,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "12:01:00",
-        "departureTime": "12:05:00",
+        "departureTime": "12:01:00",
         "isPassing": false
       }
     ],
-    "trainId": "114040"
+    "trainId": "114040",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_1205_114040",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_1153_114069",
@@ -1849,6 +1904,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1964,8 +2020,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116473",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1230_116473",
     "throughLineId": "tobu_isesaki"
   },
@@ -2030,8 +2086,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116456",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1129_116456",
     "prevLineId": "tobu_isesaki"
   },
@@ -2043,6 +2099,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2091,11 +2148,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "13:01:00",
-        "departureTime": "13:05:00",
+        "departureTime": "13:01:00",
         "isPassing": false
       }
     ],
-    "trainId": "114041"
+    "trainId": "114041",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_1305_114041",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_1253_114070",
@@ -2105,6 +2165,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2220,8 +2281,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116474",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1330_116474",
     "throughLineId": "tobu_isesaki"
   },
@@ -2286,8 +2347,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116457",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1229_116457",
     "prevLineId": "tobu_isesaki"
   },
@@ -2299,6 +2360,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2347,11 +2409,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "14:02:00",
-        "departureTime": "14:05:00",
+        "departureTime": "14:02:00",
         "isPassing": false
       }
     ],
-    "trainId": "114042"
+    "trainId": "114042",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_1405_114042",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_1353_114071",
@@ -2361,6 +2426,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2476,8 +2542,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116475",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1430_116475",
     "throughLineId": "tobu_isesaki"
   },
@@ -2542,8 +2608,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116458",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1329_116458",
     "prevLineId": "tobu_isesaki"
   },
@@ -2555,6 +2621,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2603,11 +2670,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "15:01:00",
-        "departureTime": "15:08:00",
+        "departureTime": "15:01:00",
         "isPassing": false
       }
     ],
-    "trainId": "114043"
+    "trainId": "114043",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_1508_114043",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_1452_114072",
@@ -2617,6 +2687,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2732,8 +2803,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116476",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1528_116476",
     "throughLineId": "tobu_isesaki"
   },
@@ -2798,8 +2869,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116459",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1429_116459",
     "prevLineId": "tobu_isesaki"
   },
@@ -2811,6 +2882,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2873,6 +2945,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2925,7 +2998,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114073"
+    "trainId": "114073",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_1525_114073",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_1557_116477",
@@ -2988,8 +3064,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116477",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1625_116477",
     "throughLineId": "tobu_isesaki"
   },
@@ -3001,6 +3077,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3053,7 +3130,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114074"
+    "trainId": "114074",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_1548_114074",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_1612_114045",
@@ -3063,6 +3143,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3111,11 +3192,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "16:40:00",
-        "departureTime": "16:41:00",
+        "departureTime": "16:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "114045"
+    "trainId": "114045",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_1641_114045",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_1615_116460",
@@ -3178,8 +3262,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116460",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1529_116460",
     "prevLineId": "tobu_isesaki"
   },
@@ -3191,6 +3275,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3239,11 +3324,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "17:10:00",
-        "departureTime": "17:16:00",
+        "departureTime": "17:10:00",
         "isPassing": false
       }
     ],
-    "trainId": "114046"
+    "trainId": "114046",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_1716_114046",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_1647_114075",
@@ -3253,6 +3341,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3305,7 +3394,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114075"
+    "trainId": "114075",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_1630_114075",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_1700_116478",
@@ -3368,8 +3460,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116478",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1728_116478",
     "throughLineId": "tobu_isesaki"
   },
@@ -3434,8 +3526,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116448",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1628_116448",
     "prevLineId": "tobu_isesaki"
   },
@@ -3447,6 +3539,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3495,11 +3588,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "17:53:00",
-        "departureTime": "18:03:00",
+        "departureTime": "17:53:00",
         "isPassing": false
       }
     ],
-    "trainId": "114047"
+    "trainId": "114047",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_1803_114047",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_1728_114076",
@@ -3509,6 +3605,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3561,7 +3658,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114076"
+    "trainId": "114076",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_1716_114076",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_1800_116479",
@@ -3624,8 +3724,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116479",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1826_116479",
     "throughLineId": "tobu_isesaki"
   },
@@ -3637,6 +3737,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3689,7 +3790,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114077"
+    "trainId": "114077",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_1748_114077",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_1811_114048",
@@ -3699,6 +3803,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3747,11 +3852,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "18:42:00",
-        "departureTime": "18:49:00",
+        "departureTime": "18:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "114048"
+    "trainId": "114048",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_1849_114048",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_1818_116449",
@@ -3814,8 +3922,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116449",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1729_116449",
     "prevLineId": "tobu_isesaki"
   },
@@ -3827,6 +3935,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3889,6 +3998,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3941,7 +4051,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114078"
+    "trainId": "114078",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_1838_114078",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_1900_116480",
@@ -4004,8 +4117,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116480",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1925_116480",
     "throughLineId": "tobu_isesaki"
   },
@@ -4070,8 +4183,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116461",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1820_116461",
     "prevLineId": "tobu_isesaki"
   },
@@ -4083,6 +4196,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4131,11 +4245,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "19:51:00",
-        "departureTime": "20:01:00",
+        "departureTime": "19:51:00",
         "isPassing": false
       }
     ],
-    "trainId": "114050"
+    "trainId": "114050",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_2001_114050",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_1927_114079",
@@ -4145,6 +4262,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4197,7 +4315,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114079"
+    "trainId": "114079",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_1910_114079",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_1956_116481",
@@ -4260,8 +4381,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116481",
+    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_2025_116481",
     "throughLineId": "tobu_isesaki"
   },
@@ -4273,6 +4394,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4335,6 +4457,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4450,8 +4573,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116462",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1920_116462",
     "prevLineId": "tobu_isesaki"
   },
@@ -4463,6 +4586,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4511,11 +4635,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "21:07:00",
-        "departureTime": "21:17:00",
+        "departureTime": "21:07:00",
         "isPassing": false
       }
     ],
-    "trainId": "114052"
+    "trainId": "114052",
+    "customOrigin": "赤城",
+    "throughTripId": "WD_INB_TI-18_2117_114052",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_OUT_TI-18_2044_116463",
@@ -4578,8 +4705,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116463",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1950_116463",
     "prevLineId": "tobu_isesaki"
   },
@@ -4591,6 +4718,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4653,6 +4781,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4705,7 +4834,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114082"
+    "trainId": "114082",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_2108_114082",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "WD_INB_TI-57_2129_114054",
@@ -4830,8 +4962,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116464",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_2050_116464",
     "prevLineId": "tobu_isesaki"
   },
@@ -5020,8 +5152,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116465",
+    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_2150_116465",
     "prevLineId": "tobu_isesaki"
   },
@@ -5157,6 +5289,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -5209,7 +5342,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114083"
+    "trainId": "114083",
+    "customDestination": "赤城",
+    "prevTripId": "WD_OUT_TI-44_2311_114083",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_0502_114032",
@@ -5219,6 +5355,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -5267,11 +5404,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "05:28:00",
-        "departureTime": "05:33:00",
+        "departureTime": "05:28:00",
         "isPassing": false
       }
     ],
-    "trainId": "114032"
+    "trainId": "114032",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_0533_114032",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_0514_114059",
@@ -5343,6 +5483,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -5391,11 +5532,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "05:53:00",
-        "departureTime": "05:56:00",
+        "departureTime": "05:53:00",
         "isPassing": false
       }
     ],
-    "trainId": "114033"
+    "trainId": "114033",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_0556_114033",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_0554_114062",
@@ -5405,6 +5549,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -5457,7 +5602,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114062"
+    "trainId": "114062",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_0545_114062",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_0604_114034",
@@ -5467,6 +5615,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -5519,7 +5668,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114034"
+    "trainId": "114034",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_0632_114034",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_0610_116482",
@@ -5582,8 +5734,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116482",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_0636_116482",
     "throughLineId": "tobu_isesaki"
   },
@@ -5595,6 +5747,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -5647,7 +5800,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114063"
+    "trainId": "114063",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_0607_114063",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_0645_114035",
@@ -5657,6 +5813,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -5705,11 +5862,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "07:13:00",
-        "departureTime": "07:17:00",
+        "departureTime": "07:13:00",
         "isPassing": false
       }
     ],
-    "trainId": "114035"
+    "trainId": "114035",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_0717_114035",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_0656_116484",
@@ -5772,8 +5932,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116484",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_0726_116484",
     "throughLineId": "tobu_isesaki"
   },
@@ -5785,6 +5945,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -5837,7 +5998,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114064"
+    "trainId": "114064",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_0653_114064",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_0714_114036",
@@ -5847,6 +6011,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -5895,11 +6060,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "07:42:00",
-        "departureTime": "07:49:00",
+        "departureTime": "07:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "114036"
+    "trainId": "114036",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_0749_114036",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_0739_114037",
@@ -5909,6 +6077,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -5971,6 +6140,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6023,7 +6193,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114065"
+    "trainId": "114065",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_0732_114065",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_0805_116467",
@@ -6086,8 +6259,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116467",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_0836_116467",
     "throughLineId": "tobu_isesaki"
   },
@@ -6214,8 +6387,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116452",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_0729_116452",
     "prevLineId": "tobu_isesaki"
   },
@@ -6280,8 +6453,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116469",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_0900_116469",
     "throughLineId": "tobu_isesaki"
   },
@@ -6293,6 +6466,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6408,8 +6582,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116470",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_0931_116470",
     "throughLineId": "tobu_isesaki"
   },
@@ -6474,8 +6648,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116453",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_0820_116453",
     "prevLineId": "tobu_isesaki"
   },
@@ -6487,6 +6661,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6535,11 +6710,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "09:55:00",
-        "departureTime": "10:05:00",
+        "departureTime": "09:55:00",
         "isPassing": false
       }
     ],
-    "trainId": "114038"
+    "trainId": "114038",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_1005_114038",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_0938_114067",
@@ -6549,6 +6727,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6601,7 +6780,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114067"
+    "trainId": "114067",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_0926_114067",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_1000_116471",
@@ -6664,8 +6846,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116471",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1029_116471",
     "throughLineId": "tobu_isesaki"
   },
@@ -6730,8 +6912,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116454",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_0920_116454",
     "prevLineId": "tobu_isesaki"
   },
@@ -6743,6 +6925,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6791,11 +6974,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "10:58:00",
-        "departureTime": "11:05:00",
+        "departureTime": "10:58:00",
         "isPassing": false
       }
     ],
-    "trainId": "114039"
+    "trainId": "114039",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_1105_114039",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_1050_114068",
@@ -6805,6 +6991,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6920,8 +7107,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116472",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1129_116472",
     "throughLineId": "tobu_isesaki"
   },
@@ -6986,8 +7173,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116455",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1020_116455",
     "prevLineId": "tobu_isesaki"
   },
@@ -6999,6 +7186,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7047,11 +7235,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "12:01:00",
-        "departureTime": "12:05:00",
+        "departureTime": "12:01:00",
         "isPassing": false
       }
     ],
-    "trainId": "114040"
+    "trainId": "114040",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_1205_114040",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_1153_114069",
@@ -7061,6 +7252,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7176,8 +7368,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116473",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1230_116473",
     "throughLineId": "tobu_isesaki"
   },
@@ -7242,8 +7434,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116456",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1129_116456",
     "prevLineId": "tobu_isesaki"
   },
@@ -7255,6 +7447,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7303,11 +7496,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "13:01:00",
-        "departureTime": "13:05:00",
+        "departureTime": "13:01:00",
         "isPassing": false
       }
     ],
-    "trainId": "114041"
+    "trainId": "114041",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_1305_114041",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_1253_114070",
@@ -7317,6 +7513,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7432,8 +7629,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116474",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1330_116474",
     "throughLineId": "tobu_isesaki"
   },
@@ -7498,8 +7695,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116457",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1229_116457",
     "prevLineId": "tobu_isesaki"
   },
@@ -7511,6 +7708,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7559,11 +7757,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "14:02:00",
-        "departureTime": "14:05:00",
+        "departureTime": "14:02:00",
         "isPassing": false
       }
     ],
-    "trainId": "114042"
+    "trainId": "114042",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_1405_114042",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_1353_114071",
@@ -7573,6 +7774,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7688,8 +7890,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116475",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1430_116475",
     "throughLineId": "tobu_isesaki"
   },
@@ -7754,8 +7956,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116458",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1329_116458",
     "prevLineId": "tobu_isesaki"
   },
@@ -7767,6 +7969,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7815,11 +8018,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "15:01:00",
-        "departureTime": "15:08:00",
+        "departureTime": "15:01:00",
         "isPassing": false
       }
     ],
-    "trainId": "114043"
+    "trainId": "114043",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_1508_114043",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_1452_114072",
@@ -7829,6 +8035,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7944,8 +8151,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116476",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1528_116476",
     "throughLineId": "tobu_isesaki"
   },
@@ -8010,8 +8217,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116459",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1429_116459",
     "prevLineId": "tobu_isesaki"
   },
@@ -8023,6 +8230,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8085,6 +8293,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8137,7 +8346,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114073"
+    "trainId": "114073",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_1525_114073",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_1557_116477",
@@ -8200,8 +8412,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116477",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1625_116477",
     "throughLineId": "tobu_isesaki"
   },
@@ -8213,6 +8425,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8265,7 +8478,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114074"
+    "trainId": "114074",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_1548_114074",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_1612_114045",
@@ -8275,6 +8491,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8323,11 +8540,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "16:40:00",
-        "departureTime": "16:41:00",
+        "departureTime": "16:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "114045"
+    "trainId": "114045",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_1641_114045",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_1615_116460",
@@ -8390,8 +8610,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116460",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1529_116460",
     "prevLineId": "tobu_isesaki"
   },
@@ -8403,6 +8623,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8451,11 +8672,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "17:10:00",
-        "departureTime": "17:16:00",
+        "departureTime": "17:10:00",
         "isPassing": false
       }
     ],
-    "trainId": "114046"
+    "trainId": "114046",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_1716_114046",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_1647_114075",
@@ -8465,6 +8689,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8517,7 +8742,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114075"
+    "trainId": "114075",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_1630_114075",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_1700_116478",
@@ -8580,8 +8808,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116478",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1728_116478",
     "throughLineId": "tobu_isesaki"
   },
@@ -8646,8 +8874,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116448",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1628_116448",
     "prevLineId": "tobu_isesaki"
   },
@@ -8659,6 +8887,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8707,11 +8936,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "17:53:00",
-        "departureTime": "18:03:00",
+        "departureTime": "17:53:00",
         "isPassing": false
       }
     ],
-    "trainId": "114047"
+    "trainId": "114047",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_1803_114047",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_1728_114076",
@@ -8721,6 +8953,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8773,7 +9006,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114076"
+    "trainId": "114076",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_1716_114076",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_1800_116479",
@@ -8836,8 +9072,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116479",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1826_116479",
     "throughLineId": "tobu_isesaki"
   },
@@ -8849,6 +9085,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8901,7 +9138,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114077"
+    "trainId": "114077",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_1748_114077",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_1811_114048",
@@ -8911,6 +9151,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8959,11 +9200,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "18:42:00",
-        "departureTime": "18:49:00",
+        "departureTime": "18:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "114048"
+    "trainId": "114048",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_1849_114048",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_1818_116449",
@@ -9026,8 +9270,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116449",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1729_116449",
     "prevLineId": "tobu_isesaki"
   },
@@ -9039,6 +9283,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9101,6 +9346,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9153,7 +9399,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114078"
+    "trainId": "114078",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_1838_114078",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_1900_116480",
@@ -9216,8 +9465,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116480",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1925_116480",
     "throughLineId": "tobu_isesaki"
   },
@@ -9282,8 +9531,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116461",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1820_116461",
     "prevLineId": "tobu_isesaki"
   },
@@ -9295,6 +9544,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9343,11 +9593,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "19:51:00",
-        "departureTime": "20:01:00",
+        "departureTime": "19:51:00",
         "isPassing": false
       }
     ],
-    "trainId": "114050"
+    "trainId": "114050",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_2001_114050",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_1927_114079",
@@ -9357,6 +9610,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9409,7 +9663,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114079"
+    "trainId": "114079",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_1910_114079",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_1956_116481",
@@ -9472,8 +9729,8 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "赤城",
     "trainId": "116481",
+    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_2025_116481",
     "throughLineId": "tobu_isesaki"
   },
@@ -9485,6 +9742,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9547,6 +9805,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9662,8 +9921,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116462",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1920_116462",
     "prevLineId": "tobu_isesaki"
   },
@@ -9675,6 +9934,7 @@
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customDestination": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9723,11 +9983,14 @@
       {
         "stationId": "TI-18",
         "arrivalTime": "21:07:00",
-        "departureTime": "21:17:00",
+        "departureTime": "21:07:00",
         "isPassing": false
       }
     ],
-    "trainId": "114052"
+    "trainId": "114052",
+    "customOrigin": "赤城",
+    "throughTripId": "HD_INB_TI-18_2117_114052",
+    "throughLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_OUT_TI-18_2044_116463",
@@ -9790,8 +10053,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116463",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1950_116463",
     "prevLineId": "tobu_isesaki"
   },
@@ -9803,6 +10066,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9865,6 +10129,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9917,7 +10182,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "114082"
+    "trainId": "114082",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_2108_114082",
+    "prevLineId": "tobu_koizumi_branch"
   },
   {
     "tripId": "HD_INB_TI-57_2129_114054",
@@ -10042,8 +10310,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116464",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_2050_116464",
     "prevLineId": "tobu_isesaki"
   },
@@ -10232,8 +10500,8 @@
         "isPassing": false
       }
     ],
-    "customDestination": "赤城",
     "trainId": "116465",
+    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_2150_116465",
     "prevLineId": "tobu_isesaki"
   },
@@ -10369,6 +10637,7 @@
     "direction": "outbound",
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
+    "customOrigin": "東小泉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -10421,6 +10690,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "114083"
+    "trainId": "114083",
+    "customDestination": "赤城",
+    "prevTripId": "HD_OUT_TI-44_2311_114083",
+    "prevLineId": "tobu_koizumi_branch"
   }
 ]
