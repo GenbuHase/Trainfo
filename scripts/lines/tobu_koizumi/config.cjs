@@ -7,57 +7,72 @@ module.exports = {
     stationTimetables: 'src/data/lines/tobu_koizumi/stationTimetables.json',
     globalTimetable: 'src/data/lines/tobu_koizumi/globalTimetable.json',
   },
+  directStops: true,
   stations: [
-  {
-    "id": "TI-10",
-    "name": "館林",
-    "yahooStationId": "21915",
-    "inGroupId": null,
-    "outGroupId": "2721"
-  },
-  {
-    "id": "TI-41",
-    "name": "成島",
-    "yahooStationId": "21923",
-    "inGroupId": "2720",
-    "outGroupId": "2721"
-  },
-  {
-    "id": "TI-42",
-    "name": "本中野",
-    "yahooStationId": "21945",
-    "inGroupId": "2720",
-    "outGroupId": "2721"
-  },
-  {
-    "id": "TI-43",
-    "name": "篠塚",
-    "yahooStationId": "21892",
-    "inGroupId": "2720",
-    "outGroupId": "2721"
-  },
-  {
-    "id": "TI-44",
-    "name": "東小泉",
-    "yahooStationId": "21938",
-    "inGroupId": "2720",
-    "outGroupId": "2721"
-  },
-  {
-    "id": "TI-45",
-    "name": "小泉町",
-    "yahooStationId": "21882",
-    "inGroupId": "2720",
-    "outGroupId": "2721"
-  },
-  {
-    "id": "TI-46",
-    "name": "西小泉",
-    "yahooStationId": "21928",
-    "inGroupId": "2720",
-    "outGroupId": null
-  }
-],
+    {
+      "id": "TI-10",
+      "name": "館林",
+      "yahooStationId": "21915",
+      "inGroupId": null,
+      "outGroupId": "2721"
+    },
+    {
+      "id": "TI-41",
+      "name": "成島",
+      "yahooStationId": "21923",
+      "inGroupId": "2720",
+      "outGroupId": "2721"
+    },
+    {
+      "id": "TI-42",
+      "name": "本中野",
+      "yahooStationId": "21945",
+      "inGroupId": "2720",
+      "outGroupId": "2721"
+    },
+    {
+      "id": "TI-43",
+      "name": "篠塚",
+      "yahooStationId": "21892",
+      "inGroupId": "2720",
+      "outGroupId": "2721"
+    },
+    {
+      "id": "TI-44",
+      "name": "東小泉",
+      "yahooStationId": "21938",
+      "inGroupId": "2720",
+      "outGroupId": ["2721", "2730"]
+    },
+    {
+      "id": "TI-45",
+      "name": "小泉町",
+      "yahooStationId": "21882",
+      "inGroupId": "2720",
+      "outGroupId": "2721"
+    },
+    {
+      "id": "TI-46",
+      "name": "西小泉",
+      "yahooStationId": "21928",
+      "inGroupId": "2720",
+      "outGroupId": null
+    },
+    {
+      "id": "TI-47",
+      "name": "竜舞",
+      "yahooStationId": "21971",
+      "inGroupId": "2731",
+      "outGroupId": "2730"
+    },
+    {
+      "id": "TI-18",
+      "name": "太田",
+      "yahooStationId": "21855",
+      "inGroupId": "2731",
+      "outGroupId": null
+    }
+  ],
   stationNameAliases: {},
   trainTypeMap: {
   "普通": "local",

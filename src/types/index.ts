@@ -64,7 +64,6 @@ export type LineId =
   | 'tobu_daishi'
   | 'tobu_sano'
   | 'tobu_koizumi'
-  | 'tobu_koizumi_branch'
   | 'tobu_kiryu'
   | 'tobu_nikko'
   | 'tobu_utsunomiya'

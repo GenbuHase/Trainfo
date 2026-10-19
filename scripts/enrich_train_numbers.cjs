@@ -2252,9 +2252,6 @@ if (target === 'tobu_sano' || target === 'tobu' || target === 'all') {
 if (target === 'tobu_koizumi' || target === 'tobu' || target === 'all') {
   enrichGenericLine('tobu_koizumi', '東武小泉線');
 }
-if (target === 'tobu_koizumi_branch' || target === 'tobu' || target === 'all') {
-  enrichGenericLine('tobu_koizumi_branch', '東武小泉線（支線）');
-}
 if (target === 'tobu_kiryu' || target === 'tobu' || target === 'all') {
   enrichGenericLine('tobu_kiryu', '東武桐生線');
 }

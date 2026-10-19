@@ -62,7 +62,6 @@ import { tobuKameidoLine } from './lines/tobu_kameido';
 import { tobuDaishiLine } from './lines/tobu_daishi';
 import { tobuSanoLine } from './lines/tobu_sano';
 import { tobuKoizumiLine } from './lines/tobu_koizumi';
-import { tobuKoizumiBranchLine } from './lines/tobu_koizumi_branch';
 import { tobuKiryuLine } from './lines/tobu_kiryu';
 import { tobuNikkoLine } from './lines/tobu_nikko';
 import { tobuUtsunomiyaLine } from './lines/tobu_utsunomiya';
@@ -137,7 +136,6 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tobu_daishi: tobuDaishiLine,
   tobu_sano: tobuSanoLine,
   tobu_koizumi: tobuKoizumiLine,
-  tobu_koizumi_branch: tobuKoizumiBranchLine,
   tobu_kiryu: tobuKiryuLine,
   tobu_nikko: tobuNikkoLine,
   tobu_utsunomiya: tobuUtsunomiyaLine,

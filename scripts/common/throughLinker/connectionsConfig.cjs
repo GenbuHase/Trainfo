@@ -1072,26 +1072,26 @@ module.exports = {
       allowMidStationB: true,
     },
 
-    // 45. 東武桐生線 ↔ 東武小泉線（支線） (太田駅)
+    // 45. 東武桐生線 ↔ 東武小泉線 (太田駅)
     {
-      name: '桐生線 -> 小泉線支線 (上り 太田経由 東小泉方面直通)',
+      name: '桐生線 -> 小泉線 (上り 太田経由 東小泉方面直通)',
       lineA: 'tobu_kiryu',
-      lineB: 'tobu_koizumi_branch',
+      lineB: 'tobu_koizumi',
       stationA: 'TI-18',
       stationB: 'TI-18',
       dirA: 'inbound',
       dirB: 'inbound',
-      maxTimeDiff: 600,
+      maxTimeDiff: 1500,
     },
     {
-      name: '小泉線支線 -> 桐生線 (下り 太田経由 赤城方面直通)',
-      lineA: 'tobu_koizumi_branch',
+      name: '小泉線 -> 桐生線 (下り 太田経由 赤城方面直通)',
+      lineA: 'tobu_koizumi',
       lineB: 'tobu_kiryu',
       stationA: 'TI-18',
       stationB: 'TI-18',
       dirA: 'outbound',
       dirB: 'outbound',
-      maxTimeDiff: 600,
+      maxTimeDiff: 1500,
     },
 
     // 46. 東武日光線 ↔ 東武宇都宮線 (新栃木駅)
