@@ -572,6 +572,54 @@ const TIMETABLE_LOADERS: Record<string, LoaderFn> = {
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
+  yamagata_shinkansen: () =>
+    Promise.all([
+      import('./lines/yamagata_shinkansen/globalTimetable.json'),
+      import('./lines/yamagata_shinkansen/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  akita_shinkansen: () =>
+    Promise.all([
+      import('./lines/akita_shinkansen/globalTimetable.json'),
+      import('./lines/akita_shinkansen/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  fujikyu: () =>
+    Promise.all([
+      import('./lines/fujikyu/globalTimetable.json'),
+      import('./lines/fujikyu/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  gotemba: () =>
+    Promise.all([
+      import('./lines/gotemba/globalTimetable.json'),
+      import('./lines/gotemba/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  izukyu: () =>
+    Promise.all([
+      import('./lines/izukyu/globalTimetable.json'),
+      import('./lines/izukyu/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  izuhakone_sunzu: () =>
+    Promise.all([
+      import('./lines/izuhakone_sunzu/globalTimetable.json'),
+      import('./lines/izuhakone_sunzu/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
 };
 
 

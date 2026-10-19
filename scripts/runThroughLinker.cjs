@@ -2,14 +2,14 @@
 // 使い方: node scripts/runThroughLinker.cjs
 const { executeUniversalThroughLinker } = require('./common/throughLinker/throughLinkerEngine.cjs');
 const { bridgeJobanLimitedExpress } = require('./bridgeJobanLimitedExpress.cjs');
-const { coupleTobuExpress } = require('./common/throughLinker/coupleTobuExpress.cjs');
+const { runAllCoupling } = require('./common/throughLinker/coupleAllExpress.cjs');
 const { rebuildAllStationTimetables } = require('./rebuildAllStationTimetables.cjs');
 
 // 1. 境界駅を通過する特急列車（ひたち・ときわ等）のstops欠落を補間
 bridgeJobanLimitedExpress();
 
-// 2. 東武併結特急（リバティけごん・会津・きぬ等）のカップリング設定と欠落便復元
-coupleTobuExpress();
+// 2. 全路線の併結特急（東武・東北新幹線・中央本線・東海道線・小田急等）カップリング設定と欠落便復元
+runAllCoupling();
 
 // 3. 全路線直通リンカーを実行
 executeUniversalThroughLinker();

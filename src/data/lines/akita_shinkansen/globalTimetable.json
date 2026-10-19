@@ -1,0 +1,6102 @@
+[
+  {
+    "tripId": "WD_INB_AS-06_0609_8662",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8662",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "06:09:00",
+        "departureTime": "06:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "06:39:00",
+        "departureTime": "06:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "06:54:30",
+        "departureTime": "06:54:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "07:08:00",
+        "departureTime": "07:08:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "07:21:30",
+        "departureTime": "07:21:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "07:35:00",
+        "departureTime": "07:37:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_0716_8727",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8727",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "07:16:00",
+        "departureTime": "07:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "07:46:00",
+        "departureTime": "07:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "07:58:00",
+        "departureTime": "07:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "08:12:00",
+        "departureTime": "08:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "08:32:00",
+        "departureTime": "08:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "08:48:00",
+        "departureTime": "08:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_0738_8663",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8663",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "07:38:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "08:08:00",
+        "departureTime": "08:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "08:20:00",
+        "departureTime": "08:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "08:40:00",
+        "departureTime": "08:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "09:02:30",
+        "departureTime": "09:02:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "09:25:00",
+        "departureTime": "09:26:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_0758_35625",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35625",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "仙台",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "07:49:00",
+        "departureTime": "07:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "08:14:30",
+        "departureTime": "08:14:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "08:31:00",
+        "departureTime": "08:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "08:45:00",
+        "departureTime": "08:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "08:58:00",
+        "departureTime": "09:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "09:32:00",
+        "departureTime": "09:32:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_0811_8665",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8665",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "08:11:00",
+        "departureTime": "08:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "08:41:00",
+        "departureTime": "08:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "08:55:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "09:09:00",
+        "departureTime": "09:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "09:27:30",
+        "departureTime": "09:27:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "09:46:00",
+        "departureTime": "09:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_0825_8666",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8666",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "08:25:00",
+        "departureTime": "08:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "08:56:00",
+        "departureTime": "08:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "09:09:00",
+        "departureTime": "09:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "09:30:00",
+        "departureTime": "09:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "09:53:00",
+        "departureTime": "09:53:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "10:15:00",
+        "departureTime": "10:17:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_0848_35549",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35549",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "08:44:00",
+        "departureTime": "08:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "09:04:30",
+        "departureTime": "09:04:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "09:21:00",
+        "departureTime": "09:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "09:35:00",
+        "departureTime": "09:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "09:45:00",
+        "departureTime": "09:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "10:24:00",
+        "departureTime": "10:24:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_0912_35551",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35551",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "09:10:00",
+        "departureTime": "09:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "09:27:30",
+        "departureTime": "09:27:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "09:57:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "10:10:00",
+        "departureTime": "10:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "10:55:00",
+        "departureTime": "10:55:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_0912_8728",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8728",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "09:12:00",
+        "departureTime": "09:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "09:47:00",
+        "departureTime": "09:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "10:00:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "10:13:00",
+        "departureTime": "10:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "10:34:00",
+        "departureTime": "10:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "10:49:00",
+        "departureTime": "10:51:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_0946_35552",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35552",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "09:44:00",
+        "departureTime": "09:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "10:05:30",
+        "departureTime": "10:05:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "10:25:00",
+        "departureTime": "10:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "10:39:00",
+        "departureTime": "10:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "10:50:00",
+        "departureTime": "10:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "11:25:00",
+        "departureTime": "11:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1007_8669",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8669",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "10:07:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "10:37:00",
+        "departureTime": "10:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "10:54:00",
+        "departureTime": "10:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "11:08:00",
+        "departureTime": "11:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "11:27:30",
+        "departureTime": "11:27:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "11:47:00",
+        "departureTime": "11:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1007_8672",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8672",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "10:07:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "10:43:00",
+        "departureTime": "10:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "10:55:00",
+        "departureTime": "10:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "11:08:00",
+        "departureTime": "11:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "11:28:00",
+        "departureTime": "11:28:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "11:47:00",
+        "departureTime": "11:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1018_35626",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35626",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "上野",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "10:14:00",
+        "departureTime": "10:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "10:37:30",
+        "departureTime": "10:37:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "10:57:00",
+        "departureTime": "10:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "11:18:00",
+        "departureTime": "11:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "11:31:00",
+        "departureTime": "11:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "12:04:00",
+        "departureTime": "12:04:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1057_35554",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35554",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "10:55:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "11:12:30",
+        "departureTime": "11:12:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "11:28:00",
+        "departureTime": "11:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "11:41:00",
+        "departureTime": "11:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "11:52:00",
+        "departureTime": "11:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:30:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1107_8676",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8676",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "11:07:00",
+        "departureTime": "11:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "11:39:00",
+        "departureTime": "11:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "11:56:00",
+        "departureTime": "11:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "12:11:00",
+        "departureTime": "12:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "12:30:30",
+        "departureTime": "12:30:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "12:49:00",
+        "departureTime": "12:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1107_8677",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8677",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "11:07:00",
+        "departureTime": "11:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "11:44:00",
+        "departureTime": "11:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "11:57:00",
+        "departureTime": "11:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "12:13:00",
+        "departureTime": "12:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "12:31:00",
+        "departureTime": "12:31:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "12:49:00",
+        "departureTime": "12:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1123_35606",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35606",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "11:20:00",
+        "departureTime": "11:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "11:38:00",
+        "departureTime": "11:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "11:59:00",
+        "departureTime": "12:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "12:18:00",
+        "departureTime": "12:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "12:29:00",
+        "departureTime": "12:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "13:02:00",
+        "departureTime": "13:02:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1213_8679",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8679",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "12:13:00",
+        "departureTime": "12:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "12:44:00",
+        "departureTime": "12:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "12:56:00",
+        "departureTime": "12:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "13:10:00",
+        "departureTime": "13:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "13:29:30",
+        "departureTime": "13:29:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "13:48:00",
+        "departureTime": "13:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1222_35555",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35555",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "12:20:00",
+        "departureTime": "12:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "12:38:00",
+        "departureTime": "12:38:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "12:54:00",
+        "departureTime": "12:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "13:07:00",
+        "departureTime": "13:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "13:18:00",
+        "departureTime": "13:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "13:52:00",
+        "departureTime": "13:52:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1235_35610",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35610",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "12:32:00",
+        "departureTime": "12:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "12:49:00",
+        "departureTime": "12:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "13:10:00",
+        "departureTime": "13:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "13:24:00",
+        "departureTime": "13:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "13:35:00",
+        "departureTime": "13:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "14:08:00",
+        "departureTime": "14:08:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1303_35547",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35547",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "13:01:00",
+        "departureTime": "13:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "13:18:30",
+        "departureTime": "13:18:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "13:34:00",
+        "departureTime": "13:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "13:49:00",
+        "departureTime": "13:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "14:03:00",
+        "departureTime": "14:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "14:48:00",
+        "departureTime": "14:48:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1306_8729",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8729",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "13:06:00",
+        "departureTime": "13:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "13:36:00",
+        "departureTime": "13:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "13:49:00",
+        "departureTime": "13:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "14:04:00",
+        "departureTime": "14:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "14:30:00",
+        "departureTime": "14:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "14:48:00",
+        "departureTime": "14:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1335_35556",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35556",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "13:51:00",
+        "departureTime": "13:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "14:07:00",
+        "departureTime": "14:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "14:20:00",
+        "departureTime": "14:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "14:31:00",
+        "departureTime": "14:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "15:04:00",
+        "departureTime": "15:04:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1335_35558",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35558",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "13:52:00",
+        "departureTime": "13:52:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "14:09:00",
+        "departureTime": "14:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "14:22:00",
+        "departureTime": "14:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "14:33:00",
+        "departureTime": "14:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "15:09:00",
+        "departureTime": "15:09:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1337_8682",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8682",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "13:37:00",
+        "departureTime": "13:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "14:12:00",
+        "departureTime": "14:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "14:23:00",
+        "departureTime": "14:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "14:39:00",
+        "departureTime": "14:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "14:57:30",
+        "departureTime": "14:57:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "15:15:00",
+        "departureTime": "15:17:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1414_35560",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35560",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "14:11:00",
+        "departureTime": "14:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "14:28:30",
+        "departureTime": "14:28:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "14:43:00",
+        "departureTime": "14:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "14:57:00",
+        "departureTime": "14:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "15:08:00",
+        "departureTime": "15:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1414_8683",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8683",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "14:14:00",
+        "departureTime": "14:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "14:45:00",
+        "departureTime": "14:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "14:57:00",
+        "departureTime": "14:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "15:11:00",
+        "departureTime": "15:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "15:30:00",
+        "departureTime": "15:30:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "15:48:00",
+        "departureTime": "15:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1435_35561",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35561",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "14:32:00",
+        "departureTime": "14:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "14:52:00",
+        "departureTime": "14:52:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "15:09:00",
+        "departureTime": "15:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "15:25:00",
+        "departureTime": "15:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "15:35:00",
+        "departureTime": "15:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "16:08:00",
+        "departureTime": "16:08:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1435_35563",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35563",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "14:32:00",
+        "departureTime": "14:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "14:52:00",
+        "departureTime": "14:52:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "15:09:00",
+        "departureTime": "15:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "15:25:00",
+        "departureTime": "15:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "15:35:00",
+        "departureTime": "15:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "16:13:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1501_35566",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35566",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "14:58:00",
+        "departureTime": "15:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "15:18:00",
+        "departureTime": "15:18:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "15:35:00",
+        "departureTime": "15:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "15:51:00",
+        "departureTime": "15:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "16:05:00",
+        "departureTime": "16:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "16:54:00",
+        "departureTime": "16:54:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1506_8686",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8686",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "15:06:00",
+        "departureTime": "15:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "16:05:00",
+        "departureTime": "16:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "16:28:00",
+        "departureTime": "16:28:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1510_8688",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8688",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "15:10:00",
+        "departureTime": "15:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "15:42:00",
+        "departureTime": "15:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "15:54:00",
+        "departureTime": "15:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "16:08:00",
+        "departureTime": "16:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "16:28:00",
+        "departureTime": "16:28:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1535_35567",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35567",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "15:32:00",
+        "departureTime": "15:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "15:51:00",
+        "departureTime": "15:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "16:07:00",
+        "departureTime": "16:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "16:20:00",
+        "departureTime": "16:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "16:31:00",
+        "departureTime": "16:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "17:08:00",
+        "departureTime": "17:08:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1535_35569",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35569",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "15:32:00",
+        "departureTime": "15:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "15:51:00",
+        "departureTime": "15:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "16:07:00",
+        "departureTime": "16:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "16:22:00",
+        "departureTime": "16:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "16:36:00",
+        "departureTime": "16:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:15:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1612_8731",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8731",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "16:12:00",
+        "departureTime": "16:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "16:57:00",
+        "departureTime": "16:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "17:11:00",
+        "departureTime": "17:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "17:32:00",
+        "departureTime": "17:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "17:48:00",
+        "departureTime": "17:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1634_8693",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8693",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "16:34:00",
+        "departureTime": "16:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "17:18:00",
+        "departureTime": "17:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "17:34:00",
+        "departureTime": "17:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "17:54:00",
+        "departureTime": "17:54:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "18:14:00",
+        "departureTime": "18:16:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1635_35571",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35571",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "16:33:00",
+        "departureTime": "16:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "16:52:30",
+        "departureTime": "16:52:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "17:28:00",
+        "departureTime": "17:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "17:39:00",
+        "departureTime": "17:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "18:12:00",
+        "departureTime": "18:12:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1635_35576",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35576",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "16:33:00",
+        "departureTime": "16:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "16:53:30",
+        "departureTime": "16:53:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "17:12:00",
+        "departureTime": "17:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "17:31:00",
+        "departureTime": "17:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "17:42:00",
+        "departureTime": "17:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "18:18:00",
+        "departureTime": "18:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1700_35579",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35579",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "16:58:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "17:17:30",
+        "departureTime": "17:17:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "17:35:00",
+        "departureTime": "17:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "18:00:00",
+        "departureTime": "18:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "18:58:00",
+        "departureTime": "18:58:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1710_8697",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8697",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "17:40:00",
+        "departureTime": "17:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "17:54:00",
+        "departureTime": "17:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "18:08:00",
+        "departureTime": "18:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "18:29:30",
+        "departureTime": "18:29:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "18:49:00",
+        "departureTime": "18:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1716_8704",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8704",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "17:16:00",
+        "departureTime": "17:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "17:46:00",
+        "departureTime": "17:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "17:59:00",
+        "departureTime": "17:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "18:13:00",
+        "departureTime": "18:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:31:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "18:49:00",
+        "departureTime": "18:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1735_35612",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35612",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "17:32:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "17:48:00",
+        "departureTime": "17:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "18:08:00",
+        "departureTime": "18:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "18:22:00",
+        "departureTime": "18:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "18:32:00",
+        "departureTime": "18:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "19:06:00",
+        "departureTime": "19:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1735_35617",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35617",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "17:32:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "17:52:00",
+        "departureTime": "17:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "18:12:00",
+        "departureTime": "18:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "18:38:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "19:18:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1800_35580",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35580",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "17:58:00",
+        "departureTime": "18:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "18:23:00",
+        "departureTime": "18:23:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "19:00:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "19:13:00",
+        "departureTime": "19:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "19:53:00",
+        "departureTime": "19:53:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1816_8707",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8707",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "18:58:00",
+        "departureTime": "18:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "19:12:00",
+        "departureTime": "19:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "19:30:00",
+        "departureTime": "19:30:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "19:48:00",
+        "departureTime": "19:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1835_35581",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35581",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "18:33:00",
+        "departureTime": "18:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "18:52:30",
+        "departureTime": "18:52:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "19:26:00",
+        "departureTime": "19:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "19:38:00",
+        "departureTime": "19:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1835_35583",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35583",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "18:33:00",
+        "departureTime": "18:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "18:52:30",
+        "departureTime": "18:52:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "19:29:00",
+        "departureTime": "19:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "19:43:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "20:22:00",
+        "departureTime": "20:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1901_35588",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35588",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "18:58:00",
+        "departureTime": "19:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "19:18:00",
+        "departureTime": "19:18:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "19:49:00",
+        "departureTime": "19:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "20:07:00",
+        "departureTime": "20:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1910_8712",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8712",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "19:40:00",
+        "departureTime": "19:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "19:53:00",
+        "departureTime": "19:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "20:07:00",
+        "departureTime": "20:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "20:29:00",
+        "departureTime": "20:29:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1910_8713",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8713",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "19:40:00",
+        "departureTime": "19:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "19:58:00",
+        "departureTime": "19:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "20:30:30",
+        "departureTime": "20:30:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_1919_8717",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8717",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "19:19:00",
+        "departureTime": "19:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "19:50:00",
+        "departureTime": "19:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "20:02:00",
+        "departureTime": "20:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "20:16:00",
+        "departureTime": "20:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "20:32:30",
+        "departureTime": "20:32:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1935_35589",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35589",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "19:33:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "19:51:00",
+        "departureTime": "19:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "20:07:00",
+        "departureTime": "20:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "20:20:00",
+        "departureTime": "20:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "20:31:00",
+        "departureTime": "20:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "21:04:00",
+        "departureTime": "21:04:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1935_35590",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35590",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "19:33:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "19:51:00",
+        "departureTime": "19:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "20:07:00",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "20:25:00",
+        "departureTime": "20:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "20:36:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "21:10:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_1935_35594",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35594",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "19:33:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:52:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "20:09:00",
+        "departureTime": "20:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "20:29:00",
+        "departureTime": "20:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "21:14:00",
+        "departureTime": "21:14:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_2000_35597",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35597",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "19:57:00",
+        "departureTime": "20:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "20:15:30",
+        "departureTime": "20:15:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "20:31:00",
+        "departureTime": "20:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "20:45:00",
+        "departureTime": "20:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "21:06:00",
+        "departureTime": "21:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "21:39:00",
+        "departureTime": "21:39:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_2014_8719",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8719",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "仙台",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "20:14:00",
+        "departureTime": "20:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "20:45:00",
+        "departureTime": "20:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "20:56:00",
+        "departureTime": "20:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "21:10:00",
+        "departureTime": "21:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:30:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "21:49:00",
+        "departureTime": "21:51:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_2014_8720",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8720",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "仙台",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "20:14:00",
+        "departureTime": "20:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "20:56:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "21:07:00",
+        "departureTime": "21:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "21:21:00",
+        "departureTime": "21:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "21:37:30",
+        "departureTime": "21:37:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "21:54:00",
+        "departureTime": "21:55:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_AS-06_2023_8725",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8725",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "仙台",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "20:23:00",
+        "departureTime": "20:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "20:56:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "21:07:00",
+        "departureTime": "21:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "21:21:00",
+        "departureTime": "21:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "21:37:30",
+        "departureTime": "21:37:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "21:54:00",
+        "departureTime": "21:55:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_2035_35619",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35619",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "20:33:00",
+        "departureTime": "20:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "20:48:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "21:08:00",
+        "departureTime": "21:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "21:24:00",
+        "departureTime": "21:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "21:34:00",
+        "departureTime": "21:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "22:07:00",
+        "departureTime": "22:07:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_2035_35620",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35620",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "20:33:00",
+        "departureTime": "20:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "20:48:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "21:08:00",
+        "departureTime": "21:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "21:29:00",
+        "departureTime": "21:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "21:39:00",
+        "departureTime": "21:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "22:12:00",
+        "departureTime": "22:12:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_2136_35601",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35601",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "21:33:00",
+        "departureTime": "21:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "21:50:30",
+        "departureTime": "21:50:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "22:05:00",
+        "departureTime": "22:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "22:19:00",
+        "departureTime": "22:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "22:30:00",
+        "departureTime": "22:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "23:02:00",
+        "departureTime": "23:02:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_2136_35603",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35603",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "21:33:00",
+        "departureTime": "21:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "21:55:00",
+        "departureTime": "21:55:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "22:14:00",
+        "departureTime": "22:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "22:27:00",
+        "departureTime": "22:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "22:38:00",
+        "departureTime": "22:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "23:11:00",
+        "departureTime": "23:11:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_AS-01_2230_35604",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35604",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "22:27:00",
+        "departureTime": "22:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "22:42:45",
+        "departureTime": "22:42:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "22:55:30",
+        "departureTime": "22:55:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "23:08:15",
+        "departureTime": "23:08:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "23:21:00",
+        "departureTime": "23:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "23:53:00",
+        "departureTime": "23:53:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_0609_8662",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8662",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "06:09:00",
+        "departureTime": "06:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "06:39:00",
+        "departureTime": "06:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "06:54:30",
+        "departureTime": "06:54:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "07:08:00",
+        "departureTime": "07:08:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "07:21:30",
+        "departureTime": "07:21:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "07:35:00",
+        "departureTime": "07:37:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_0716_8727",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8727",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "07:16:00",
+        "departureTime": "07:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "07:46:00",
+        "departureTime": "07:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "07:58:00",
+        "departureTime": "07:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "08:12:00",
+        "departureTime": "08:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "08:32:00",
+        "departureTime": "08:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "08:48:00",
+        "departureTime": "08:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_0738_8663",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8663",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "07:38:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "08:08:00",
+        "departureTime": "08:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "08:20:00",
+        "departureTime": "08:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "08:40:00",
+        "departureTime": "08:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "09:02:30",
+        "departureTime": "09:02:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "09:25:00",
+        "departureTime": "09:26:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_0758_35625",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35625",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "仙台",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "07:49:00",
+        "departureTime": "07:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "08:14:30",
+        "departureTime": "08:14:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "08:31:00",
+        "departureTime": "08:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "08:45:00",
+        "departureTime": "08:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "08:58:00",
+        "departureTime": "09:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "09:32:00",
+        "departureTime": "09:32:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_0811_8665",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8665",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "08:11:00",
+        "departureTime": "08:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "08:41:00",
+        "departureTime": "08:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "08:55:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "09:09:00",
+        "departureTime": "09:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "09:27:30",
+        "departureTime": "09:27:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "09:46:00",
+        "departureTime": "09:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_0825_8666",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8666",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "08:25:00",
+        "departureTime": "08:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "08:56:00",
+        "departureTime": "08:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "09:09:00",
+        "departureTime": "09:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "09:30:00",
+        "departureTime": "09:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "09:53:00",
+        "departureTime": "09:53:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "10:15:00",
+        "departureTime": "10:17:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_0848_35549",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35549",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "08:44:00",
+        "departureTime": "08:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "09:04:30",
+        "departureTime": "09:04:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "09:21:00",
+        "departureTime": "09:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "09:35:00",
+        "departureTime": "09:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "09:45:00",
+        "departureTime": "09:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "10:24:00",
+        "departureTime": "10:24:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_0912_35551",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35551",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "09:10:00",
+        "departureTime": "09:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "09:27:30",
+        "departureTime": "09:27:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "09:57:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "10:10:00",
+        "departureTime": "10:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "10:55:00",
+        "departureTime": "10:55:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_0912_8728",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8728",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "09:12:00",
+        "departureTime": "09:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "09:47:00",
+        "departureTime": "09:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "10:00:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "10:13:00",
+        "departureTime": "10:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "10:34:00",
+        "departureTime": "10:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "10:49:00",
+        "departureTime": "10:51:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_0946_35552",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35552",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "09:44:00",
+        "departureTime": "09:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "10:05:30",
+        "departureTime": "10:05:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "10:25:00",
+        "departureTime": "10:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "10:39:00",
+        "departureTime": "10:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "10:50:00",
+        "departureTime": "10:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "11:25:00",
+        "departureTime": "11:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1007_8669",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8669",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "10:07:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "10:37:00",
+        "departureTime": "10:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "10:54:00",
+        "departureTime": "10:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "11:08:00",
+        "departureTime": "11:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "11:27:30",
+        "departureTime": "11:27:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "11:47:00",
+        "departureTime": "11:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1007_8672",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8672",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "10:07:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "10:43:00",
+        "departureTime": "10:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "10:55:00",
+        "departureTime": "10:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "11:08:00",
+        "departureTime": "11:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "11:28:00",
+        "departureTime": "11:28:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "11:47:00",
+        "departureTime": "11:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1018_35626",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35626",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "上野",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "10:14:00",
+        "departureTime": "10:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "10:37:30",
+        "departureTime": "10:37:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "10:57:00",
+        "departureTime": "10:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "11:18:00",
+        "departureTime": "11:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "11:31:00",
+        "departureTime": "11:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "12:04:00",
+        "departureTime": "12:04:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1057_35554",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35554",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "10:55:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "11:12:30",
+        "departureTime": "11:12:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "11:28:00",
+        "departureTime": "11:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "11:41:00",
+        "departureTime": "11:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "11:52:00",
+        "departureTime": "11:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:30:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1107_8676",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8676",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "11:07:00",
+        "departureTime": "11:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "11:39:00",
+        "departureTime": "11:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "11:56:00",
+        "departureTime": "11:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "12:11:00",
+        "departureTime": "12:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "12:30:30",
+        "departureTime": "12:30:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "12:49:00",
+        "departureTime": "12:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1107_8677",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8677",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "11:07:00",
+        "departureTime": "11:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "11:44:00",
+        "departureTime": "11:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "11:57:00",
+        "departureTime": "11:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "12:13:00",
+        "departureTime": "12:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "12:31:00",
+        "departureTime": "12:31:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "12:49:00",
+        "departureTime": "12:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1123_35606",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35606",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "11:20:00",
+        "departureTime": "11:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "11:38:00",
+        "departureTime": "11:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "11:59:00",
+        "departureTime": "12:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "12:18:00",
+        "departureTime": "12:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "12:29:00",
+        "departureTime": "12:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "13:02:00",
+        "departureTime": "13:02:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1213_8679",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8679",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "12:13:00",
+        "departureTime": "12:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "12:44:00",
+        "departureTime": "12:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "12:56:00",
+        "departureTime": "12:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "13:10:00",
+        "departureTime": "13:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "13:29:30",
+        "departureTime": "13:29:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "13:48:00",
+        "departureTime": "13:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1222_35555",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35555",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "12:20:00",
+        "departureTime": "12:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "12:38:00",
+        "departureTime": "12:38:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "12:54:00",
+        "departureTime": "12:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "13:07:00",
+        "departureTime": "13:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "13:18:00",
+        "departureTime": "13:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "13:52:00",
+        "departureTime": "13:52:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1235_35610",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35610",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "12:32:00",
+        "departureTime": "12:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "12:49:00",
+        "departureTime": "12:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "13:10:00",
+        "departureTime": "13:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "13:24:00",
+        "departureTime": "13:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "13:35:00",
+        "departureTime": "13:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "14:08:00",
+        "departureTime": "14:08:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1303_35547",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35547",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "13:01:00",
+        "departureTime": "13:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "13:18:30",
+        "departureTime": "13:18:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "13:34:00",
+        "departureTime": "13:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "13:49:00",
+        "departureTime": "13:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "14:03:00",
+        "departureTime": "14:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "14:48:00",
+        "departureTime": "14:48:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1306_8729",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8729",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "13:06:00",
+        "departureTime": "13:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "13:36:00",
+        "departureTime": "13:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "13:49:00",
+        "departureTime": "13:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "14:04:00",
+        "departureTime": "14:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "14:30:00",
+        "departureTime": "14:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "14:48:00",
+        "departureTime": "14:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1335_35556",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35556",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "13:51:00",
+        "departureTime": "13:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "14:07:00",
+        "departureTime": "14:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "14:20:00",
+        "departureTime": "14:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "14:31:00",
+        "departureTime": "14:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "15:04:00",
+        "departureTime": "15:04:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1335_35558",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35558",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "13:52:00",
+        "departureTime": "13:52:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "14:09:00",
+        "departureTime": "14:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "14:22:00",
+        "departureTime": "14:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "14:33:00",
+        "departureTime": "14:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "15:09:00",
+        "departureTime": "15:09:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1337_8682",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8682",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "13:37:00",
+        "departureTime": "13:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "14:12:00",
+        "departureTime": "14:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "14:23:00",
+        "departureTime": "14:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "14:39:00",
+        "departureTime": "14:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "14:57:30",
+        "departureTime": "14:57:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "15:15:00",
+        "departureTime": "15:17:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1414_35560",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35560",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "14:11:00",
+        "departureTime": "14:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "14:28:30",
+        "departureTime": "14:28:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "14:43:00",
+        "departureTime": "14:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "14:57:00",
+        "departureTime": "14:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "15:08:00",
+        "departureTime": "15:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1414_8683",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8683",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "14:14:00",
+        "departureTime": "14:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "14:45:00",
+        "departureTime": "14:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "14:57:00",
+        "departureTime": "14:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "15:11:00",
+        "departureTime": "15:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "15:30:00",
+        "departureTime": "15:30:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "15:48:00",
+        "departureTime": "15:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1435_35561",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35561",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "14:32:00",
+        "departureTime": "14:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "14:52:00",
+        "departureTime": "14:52:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "15:09:00",
+        "departureTime": "15:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "15:25:00",
+        "departureTime": "15:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "15:35:00",
+        "departureTime": "15:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "16:08:00",
+        "departureTime": "16:08:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1435_35563",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35563",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "14:32:00",
+        "departureTime": "14:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "14:52:00",
+        "departureTime": "14:52:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "15:09:00",
+        "departureTime": "15:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "15:25:00",
+        "departureTime": "15:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "15:35:00",
+        "departureTime": "15:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "16:13:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1501_35566",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35566",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "14:58:00",
+        "departureTime": "15:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "15:18:00",
+        "departureTime": "15:18:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "15:35:00",
+        "departureTime": "15:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "15:51:00",
+        "departureTime": "15:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "16:05:00",
+        "departureTime": "16:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "16:54:00",
+        "departureTime": "16:54:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1506_8686",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8686",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "15:06:00",
+        "departureTime": "15:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "16:05:00",
+        "departureTime": "16:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "16:28:00",
+        "departureTime": "16:28:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1510_8688",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8688",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "15:10:00",
+        "departureTime": "15:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "15:42:00",
+        "departureTime": "15:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "15:54:00",
+        "departureTime": "15:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "16:08:00",
+        "departureTime": "16:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "16:28:00",
+        "departureTime": "16:28:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1535_35567",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35567",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "15:32:00",
+        "departureTime": "15:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "15:51:00",
+        "departureTime": "15:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "16:07:00",
+        "departureTime": "16:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "16:20:00",
+        "departureTime": "16:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "16:31:00",
+        "departureTime": "16:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "17:08:00",
+        "departureTime": "17:08:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1535_35569",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35569",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "15:32:00",
+        "departureTime": "15:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "15:51:00",
+        "departureTime": "15:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "16:07:00",
+        "departureTime": "16:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "16:22:00",
+        "departureTime": "16:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "16:36:00",
+        "departureTime": "16:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:15:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1612_8731",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8731",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "16:12:00",
+        "departureTime": "16:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "16:57:00",
+        "departureTime": "16:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "17:11:00",
+        "departureTime": "17:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "17:32:00",
+        "departureTime": "17:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "17:48:00",
+        "departureTime": "17:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1634_8693",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8693",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "16:34:00",
+        "departureTime": "16:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "17:18:00",
+        "departureTime": "17:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "17:34:00",
+        "departureTime": "17:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "17:54:00",
+        "departureTime": "17:54:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "18:14:00",
+        "departureTime": "18:16:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1635_35571",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35571",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "16:33:00",
+        "departureTime": "16:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "16:52:30",
+        "departureTime": "16:52:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "17:28:00",
+        "departureTime": "17:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "17:39:00",
+        "departureTime": "17:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "18:12:00",
+        "departureTime": "18:12:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1635_35576",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35576",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "16:33:00",
+        "departureTime": "16:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "16:53:30",
+        "departureTime": "16:53:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "17:12:00",
+        "departureTime": "17:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "17:31:00",
+        "departureTime": "17:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "17:42:00",
+        "departureTime": "17:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "18:18:00",
+        "departureTime": "18:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1700_35579",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35579",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "16:58:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "17:17:30",
+        "departureTime": "17:17:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "17:35:00",
+        "departureTime": "17:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "18:00:00",
+        "departureTime": "18:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "18:58:00",
+        "departureTime": "18:58:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1710_8697",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8697",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "17:40:00",
+        "departureTime": "17:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "17:54:00",
+        "departureTime": "17:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "18:08:00",
+        "departureTime": "18:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "18:29:30",
+        "departureTime": "18:29:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "18:49:00",
+        "departureTime": "18:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1716_8704",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8704",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "17:16:00",
+        "departureTime": "17:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "17:46:00",
+        "departureTime": "17:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "17:59:00",
+        "departureTime": "17:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "18:13:00",
+        "departureTime": "18:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:31:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "18:49:00",
+        "departureTime": "18:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1735_35612",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35612",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "17:32:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "17:48:00",
+        "departureTime": "17:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "18:08:00",
+        "departureTime": "18:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "18:22:00",
+        "departureTime": "18:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "18:32:00",
+        "departureTime": "18:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "19:06:00",
+        "departureTime": "19:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1735_35617",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35617",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "17:32:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "17:52:00",
+        "departureTime": "17:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "18:12:00",
+        "departureTime": "18:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "18:38:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "19:18:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1800_35580",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35580",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "17:58:00",
+        "departureTime": "18:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "18:23:00",
+        "departureTime": "18:23:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "19:00:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "19:13:00",
+        "departureTime": "19:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "19:53:00",
+        "departureTime": "19:53:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1816_8707",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8707",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "18:58:00",
+        "departureTime": "18:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "19:12:00",
+        "departureTime": "19:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "19:30:00",
+        "departureTime": "19:30:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "19:48:00",
+        "departureTime": "19:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1835_35581",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35581",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "18:33:00",
+        "departureTime": "18:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "18:52:30",
+        "departureTime": "18:52:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "19:26:00",
+        "departureTime": "19:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "19:38:00",
+        "departureTime": "19:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1835_35583",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35583",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "18:33:00",
+        "departureTime": "18:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "18:52:30",
+        "departureTime": "18:52:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "19:29:00",
+        "departureTime": "19:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "19:43:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "20:22:00",
+        "departureTime": "20:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1901_35588",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35588",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "18:58:00",
+        "departureTime": "19:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "19:18:00",
+        "departureTime": "19:18:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "19:49:00",
+        "departureTime": "19:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "20:07:00",
+        "departureTime": "20:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1910_8712",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8712",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "19:40:00",
+        "departureTime": "19:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "19:53:00",
+        "departureTime": "19:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "20:07:00",
+        "departureTime": "20:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "20:29:00",
+        "departureTime": "20:29:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_1919_8717",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8717",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "19:19:00",
+        "departureTime": "19:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "19:50:00",
+        "departureTime": "19:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "20:02:00",
+        "departureTime": "20:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "20:16:00",
+        "departureTime": "20:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "20:32:30",
+        "departureTime": "20:32:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1935_35589",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35589",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "19:33:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "19:51:00",
+        "departureTime": "19:51:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "20:07:00",
+        "departureTime": "20:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "20:20:00",
+        "departureTime": "20:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "20:31:00",
+        "departureTime": "20:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "21:04:00",
+        "departureTime": "21:04:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_1935_35594",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35594",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "19:33:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:52:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "20:09:00",
+        "departureTime": "20:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "20:29:00",
+        "departureTime": "20:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "21:14:00",
+        "departureTime": "21:14:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_2014_8719",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8719",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "仙台",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "20:14:00",
+        "departureTime": "20:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "20:45:00",
+        "departureTime": "20:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "20:56:00",
+        "departureTime": "20:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "21:10:00",
+        "departureTime": "21:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:30:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "21:49:00",
+        "departureTime": "21:51:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_AS-06_2023_8725",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "8725",
+    "trainType": "komachi",
+    "direction": "inbound",
+    "originStationId": "AS-06",
+    "destinationStationId": "AS-01",
+    "customDestination": "仙台",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "20:23:00",
+        "departureTime": "20:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "20:56:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "21:07:00",
+        "departureTime": "21:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "21:21:00",
+        "departureTime": "21:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "21:37:30",
+        "departureTime": "21:37:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "21:54:00",
+        "departureTime": "21:55:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_2035_35619",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35619",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "20:33:00",
+        "departureTime": "20:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "20:48:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "21:08:00",
+        "departureTime": "21:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "21:24:00",
+        "departureTime": "21:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "21:34:00",
+        "departureTime": "21:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "22:07:00",
+        "departureTime": "22:07:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_2035_35623",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35623",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "20:33:00",
+        "departureTime": "20:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "20:51:00",
+        "departureTime": "20:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "21:11:00",
+        "departureTime": "21:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "21:29:00",
+        "departureTime": "21:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "21:39:00",
+        "departureTime": "21:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "22:12:00",
+        "departureTime": "22:12:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_2136_35601",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35601",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "21:33:00",
+        "departureTime": "21:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "21:50:30",
+        "departureTime": "21:50:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "22:05:00",
+        "departureTime": "22:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "22:19:00",
+        "departureTime": "22:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "22:30:00",
+        "departureTime": "22:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "23:02:00",
+        "departureTime": "23:02:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_2136_35603",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35603",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "21:33:00",
+        "departureTime": "21:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "21:55:00",
+        "departureTime": "21:55:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "22:14:00",
+        "departureTime": "22:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "22:27:00",
+        "departureTime": "22:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "22:38:00",
+        "departureTime": "22:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "23:11:00",
+        "departureTime": "23:11:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_AS-01_2230_35604",
+    "lineId": "akita_shinkansen",
+    "trainNumber": "35604",
+    "trainType": "komachi",
+    "direction": "outbound",
+    "originStationId": "AS-01",
+    "destinationStationId": "AS-06",
+    "customOrigin": "東京",
+    "cars": 7,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "AS-01",
+        "arrivalTime": "22:27:00",
+        "departureTime": "22:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-02",
+        "arrivalTime": "22:42:45",
+        "departureTime": "22:42:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-03",
+        "arrivalTime": "22:55:30",
+        "departureTime": "22:55:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-04",
+        "arrivalTime": "23:08:15",
+        "departureTime": "23:08:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "AS-05",
+        "arrivalTime": "23:21:00",
+        "departureTime": "23:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "AS-06",
+        "arrivalTime": "23:53:00",
+        "departureTime": "23:53:00",
+        "isPassing": false
+      }
+    ]
+  }
+]

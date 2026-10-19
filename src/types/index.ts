@@ -71,6 +71,12 @@ export type LineId =
   | 'tobu_urban_park'
   | 'yagan'
   | 'aizu'
+  | 'yamagata_shinkansen'
+  | 'akita_shinkansen'
+  | 'fujikyu'
+  | 'gotemba'
+  | 'izukyu'
+  | 'izuhakone_sunzu'
   | (string & {});
 
 

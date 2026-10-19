@@ -228401,7 +228401,7 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
-    "cars": 10,
+    "cars": 6,
     "isHoliday": true,
     "stops": [
       {
@@ -228687,7 +228687,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "96057"
+    "trainId": "96057",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-28_1012_95558",
+      "coupledTrainNumber": "530レ",
+      "coupledCars": 4,
+      "coupledDestination": "片瀬江ノ島"
+    }
   },
   {
     "tripId": "HD_OUT_OH-05_0928_75652",
@@ -235960,7 +235969,7 @@
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
     "customOrigin": "片瀬江ノ島",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -236132,7 +236141,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95558"
+    "trainId": "95558",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-47_0927_96057",
+      "coupledTrainNumber": "330レ",
+      "coupledCars": 6,
+      "coupledDestination": "箱根湯本"
+    }
   },
   {
     "tripId": "HD_OUT_OH-01_1015_93586",
@@ -237954,7 +237972,7 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
-    "cars": 10,
+    "cars": 6,
     "isHoliday": true,
     "stops": [
       {
@@ -238240,7 +238258,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "96058"
+    "trainId": "96058",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-28_1112_95559",
+      "coupledTrainNumber": "532レ",
+      "coupledCars": 4,
+      "coupledDestination": "片瀬江ノ島"
+    }
   },
   {
     "tripId": "HD_OUT_OH-27_1024_93784",
@@ -246677,7 +246704,7 @@
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
     "customOrigin": "片瀬江ノ島",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -246849,7 +246876,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95559"
+    "trainId": "95559",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-47_1022_96058",
+      "coupledTrainNumber": "332レ",
+      "coupledCars": 6,
+      "coupledDestination": "箱根湯本"
+    }
   },
   {
     "tripId": "HD_OUT_OH-01_1115_93460",
@@ -258099,7 +258135,7 @@
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
     "customDestination": "片瀬江ノ島",
-    "cars": 10,
+    "cars": 6,
     "isHoliday": true,
     "stops": [
       {
@@ -258271,7 +258307,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95006"
+    "trainId": "95006",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "OH-01",
+      "toStationId": "OH-28",
+      "coupledTripId": "HD_OUT_OH-01_1220_96027",
+      "coupledTrainNumber": "537レ",
+      "coupledCars": 4,
+      "coupledDestination": "片瀬江ノ島"
+    }
   },
   {
     "tripId": "HD_OUT_OH-01_1220_96027",
@@ -258282,7 +258327,7 @@
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
     "customDestination": "箱根湯本",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -258568,7 +258613,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "96027"
+    "trainId": "96027",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "OH-01",
+      "toStationId": "OH-28",
+      "coupledTripId": "HD_OUT_OH-01_1220_95006",
+      "coupledTrainNumber": "537レ",
+      "coupledCars": 6,
+      "coupledDestination": "箱根湯本"
+    }
   },
   {
     "tripId": "HD_OUT_OH-01_1221_93647",
@@ -259028,7 +259082,7 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
-    "cars": 10,
+    "cars": 6,
     "isHoliday": true,
     "stops": [
       {
@@ -259314,7 +259368,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "96059"
+    "trainId": "96059",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-28_1315_95560",
+      "coupledTrainNumber": "534レ",
+      "coupledCars": 4,
+      "coupledDestination": "片瀬江ノ島"
+    }
   },
   {
     "tripId": "HD_OUT_OH-01_1225_93588",
@@ -267177,7 +267240,7 @@
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
     "customOrigin": "片瀬江ノ島",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -267349,7 +267412,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95560"
+    "trainId": "95560",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-47_1224_96059",
+      "coupledTrainNumber": "334レ",
+      "coupledCars": 6,
+      "coupledDestination": "箱根湯本"
+    }
   },
   {
     "tripId": "HD_INB_OH-47_1318_94161",
@@ -275688,7 +275760,7 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
-    "cars": 10,
+    "cars": 6,
     "isHoliday": true,
     "stops": [
       {
@@ -275974,7 +276046,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "96060"
+    "trainId": "96060",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-28_1455_95561",
+      "coupledTrainNumber": "536レ",
+      "coupledCars": 4,
+      "coupledDestination": "片瀬江ノ島"
+    }
   },
   {
     "tripId": "HD_OUT_OH-01_1410_94940",
@@ -277675,7 +277756,7 @@
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
     "customDestination": "片瀬江ノ島",
-    "cars": 10,
+    "cars": 6,
     "isHoliday": true,
     "stops": [
       {
@@ -277847,7 +277928,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95007"
+    "trainId": "95007",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "OH-01",
+      "toStationId": "OH-28",
+      "coupledTripId": "HD_OUT_OH-01_1420_96029",
+      "coupledTrainNumber": "539レ",
+      "coupledCars": 4,
+      "coupledDestination": "片瀬江ノ島"
+    }
   },
   {
     "tripId": "HD_OUT_OH-01_1420_96029",
@@ -277858,7 +277948,7 @@
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
     "customDestination": "箱根湯本",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -278144,7 +278234,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "96029"
+    "trainId": "96029",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "OH-01",
+      "toStationId": "OH-28",
+      "coupledTripId": "HD_OUT_OH-01_1420_95007",
+      "coupledTrainNumber": "539レ",
+      "coupledCars": 6,
+      "coupledDestination": "箱根湯本"
+    }
   },
   {
     "tripId": "HD_INB_OH-34_1420_94330",
@@ -283961,7 +284060,7 @@
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
     "customOrigin": "片瀬江ノ島",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -284133,7 +284232,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95561"
+    "trainId": "95561",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-47_1409_96060",
+      "coupledTrainNumber": "336レ",
+      "coupledCars": 6,
+      "coupledDestination": "箱根湯本"
+    }
   },
   {
     "tripId": "HD_INB_OH-28_1459_95477",
@@ -287611,7 +287719,7 @@
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
     "customDestination": "片瀬江ノ島",
-    "cars": 10,
+    "cars": 6,
     "isHoliday": true,
     "stops": [
       {
@@ -287783,7 +287891,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95008"
+    "trainId": "95008",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "OH-01",
+      "toStationId": "OH-28",
+      "coupledTripId": "HD_OUT_OH-01_1520_96030",
+      "coupledTrainNumber": "541レ",
+      "coupledCars": 4,
+      "coupledDestination": "片瀬江ノ島"
+    }
   },
   {
     "tripId": "HD_OUT_OH-01_1520_96030",
@@ -287794,7 +287911,7 @@
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
     "customDestination": "箱根湯本",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -288080,7 +288197,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "96030"
+    "trainId": "96030",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "OH-01",
+      "toStationId": "OH-28",
+      "coupledTripId": "HD_OUT_OH-01_1520_95008",
+      "coupledTrainNumber": "541レ",
+      "coupledCars": 6,
+      "coupledDestination": "箱根湯本"
+    }
   },
   {
     "tripId": "HD_INB_OH-34_1520_94341",
@@ -296309,7 +296435,7 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
-    "cars": 10,
+    "cars": 6,
     "isHoliday": true,
     "stops": [
       {
@@ -296595,7 +296721,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "96062"
+    "trainId": "96062",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-28_1655_95562",
+      "coupledTrainNumber": "538レ",
+      "coupledCars": 4,
+      "coupledDestination": "片瀬江ノ島"
+    }
   },
   {
     "tripId": "HD_OUT_OH-05_1612_34846",
@@ -304273,7 +304408,7 @@
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
     "customOrigin": "片瀬江ノ島",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -304445,7 +304580,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95562"
+    "trainId": "95562",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-47_1610_96062",
+      "coupledTrainNumber": "338レ",
+      "coupledCars": 6,
+      "coupledDestination": "箱根湯本"
+    }
   },
   {
     "tripId": "HD_INB_OH-47_1657_94179",
@@ -306487,7 +306631,7 @@
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
     "customOrigin": "箱根湯本",
-    "cars": 10,
+    "cars": 6,
     "isHoliday": true,
     "stops": [
       {
@@ -306773,7 +306917,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "96063"
+    "trainId": "96063",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-28_1755_95563",
+      "coupledTrainNumber": "540レ",
+      "coupledCars": 4,
+      "coupledDestination": "片瀬江ノ島"
+    }
   },
   {
     "tripId": "HD_INB_OH-34_1711_94364",
@@ -314178,7 +314331,7 @@
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
     "customOrigin": "片瀬江ノ島",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -314350,7 +314503,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95563"
+    "trainId": "95563",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-47_1710_96063",
+      "coupledTrainNumber": "340レ",
+      "coupledCars": 6,
+      "coupledDestination": "箱根湯本"
+    }
   },
   {
     "tripId": "HD_INB_OH-47_1758_94181",
@@ -316297,7 +316459,7 @@
     "destinationStationId": "OH-14",
     "customOrigin": "箱根湯本",
     "customDestination": "北千住",
-    "cars": 10,
+    "cars": 6,
     "isHoliday": true,
     "stops": [
       {
@@ -316505,7 +316667,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95987"
+    "trainId": "95987",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-28_1851_95991",
+      "coupledTrainNumber": "590レ",
+      "coupledCars": 4,
+      "coupledDestination": "片瀬江ノ島"
+    }
   },
   {
     "tripId": "HD_INB_OH-39_1809_31214",
@@ -323730,7 +323901,7 @@
     "destinationStationId": "OH-14",
     "customOrigin": "片瀬江ノ島",
     "customDestination": "北千住",
-    "cars": 10,
+    "cars": 4,
     "isHoliday": true,
     "stops": [
       {
@@ -323824,7 +323995,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95991"
+    "trainId": "95991",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "OH-28",
+      "toStationId": "OH-01",
+      "coupledTripId": "HD_INB_OH-47_1807_95987",
+      "coupledTrainNumber": "490レ",
+      "coupledCars": 6,
+      "coupledDestination": "箱根湯本"
+    }
   },
   {
     "tripId": "HD_OUT_OH-01_1852_95749",

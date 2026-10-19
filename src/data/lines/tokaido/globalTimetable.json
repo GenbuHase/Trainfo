@@ -10726,7 +10726,7 @@
     "originStationId": "JT-01",
     "destinationStationId": "JT-21",
     "customDestination": "伊豆急下田",
-    "cars": 15,
+    "cars": 9,
     "isHoliday": false,
     "stops": [
       {
@@ -10858,6 +10858,15 @@
     ],
     "trainId": "39527",
     "customOrigin": "東京",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "JT-01",
+      "toStationId": "JT-21",
+      "coupledTripId": "WD_OUT_JT-01_0900_41961",
+      "coupledTrainNumber": "41961",
+      "coupledCars": 5,
+      "coupledDestination": "修善寺"
+    },
     "throughTripId": "WD_OUT_JT-21_1023_39527",
     "throughLineId": "ito"
   },
@@ -18022,7 +18031,7 @@
     "originStationId": "JT-01",
     "destinationStationId": "JT-21",
     "customDestination": "伊豆急下田",
-    "cars": 15,
+    "cars": 9,
     "isHoliday": false,
     "stops": [
       {
@@ -18154,6 +18163,15 @@
     ],
     "trainId": "39532",
     "customOrigin": "東京",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "JT-01",
+      "toStationId": "JT-21",
+      "coupledTripId": "WD_OUT_JT-01_1200_41963",
+      "coupledTrainNumber": "41963",
+      "coupledCars": 5,
+      "coupledDestination": "修善寺"
+    },
     "throughTripId": "WD_OUT_JT-21_1323_39532",
     "throughLineId": "ito"
   },
@@ -55171,7 +55189,7 @@
     "originStationId": "JT-01",
     "destinationStationId": "JT-21",
     "customDestination": "伊豆急下田",
-    "cars": 15,
+    "cars": 9,
     "isHoliday": true,
     "stops": [
       {
@@ -55303,6 +55321,15 @@
     ],
     "trainId": "39527",
     "customOrigin": "東京",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "JT-01",
+      "toStationId": "JT-21",
+      "coupledTripId": "HD_OUT_JT-01_0900_41961",
+      "coupledTrainNumber": "41961",
+      "coupledCars": 5,
+      "coupledDestination": "修善寺"
+    },
     "throughTripId": "HD_OUT_JT-21_1023_39527",
     "throughLineId": "ito"
   },
@@ -58843,7 +58870,7 @@
     "originStationId": "JT-01",
     "destinationStationId": "JT-21",
     "customDestination": "伊豆急下田",
-    "cars": 15,
+    "cars": 9,
     "isHoliday": true,
     "stops": [
       {
@@ -58975,6 +59002,15 @@
     ],
     "trainId": "39529",
     "customOrigin": "東京",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "JT-01",
+      "toStationId": "JT-21",
+      "coupledTripId": "HD_OUT_JT-01_1030_41962",
+      "coupledTrainNumber": "41962",
+      "coupledCars": 5,
+      "coupledDestination": "修善寺"
+    },
     "throughTripId": "HD_OUT_JT-21_1154_39529",
     "throughLineId": "ito"
   },
@@ -62731,7 +62767,7 @@
     "originStationId": "JT-01",
     "destinationStationId": "JT-21",
     "customDestination": "伊豆急下田",
-    "cars": 15,
+    "cars": 9,
     "isHoliday": true,
     "stops": [
       {
@@ -62863,6 +62899,15 @@
     ],
     "trainId": "39532",
     "customOrigin": "東京",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "JT-01",
+      "toStationId": "JT-21",
+      "coupledTripId": "HD_OUT_JT-01_1200_41963",
+      "coupledTrainNumber": "41963",
+      "coupledCars": 5,
+      "coupledDestination": "修善寺"
+    },
     "throughTripId": "HD_OUT_JT-21_1323_39532",
     "throughLineId": "ito"
   },
@@ -89746,5 +89791,770 @@
       }
     ],
     "trainId": "17741"
+  },
+  {
+    "tripId": "WD_OUT_JT-01_0900_41961",
+    "lineId": "tokaido",
+    "trainNumber": "4021M",
+    "trainType": "limitedExp",
+    "direction": "outbound",
+    "originStationId": "JT-01",
+    "destinationStationId": "JT-21",
+    "customDestination": "修善寺",
+    "cars": 5,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JT-01",
+        "arrivalTime": "09:00:00",
+        "departureTime": "09:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-02",
+        "arrivalTime": "09:02:02",
+        "departureTime": "09:02:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-03",
+        "arrivalTime": "09:07:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-04",
+        "arrivalTime": "09:16:00",
+        "departureTime": "09:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-05",
+        "arrivalTime": "09:24:00",
+        "departureTime": "09:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-06",
+        "arrivalTime": "09:32:48",
+        "departureTime": "09:32:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-07",
+        "arrivalTime": "09:37:00",
+        "departureTime": "09:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-08",
+        "arrivalTime": "09:39:55",
+        "departureTime": "09:39:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-09",
+        "arrivalTime": "09:42:18",
+        "departureTime": "09:42:18",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-10",
+        "arrivalTime": "09:44:39",
+        "departureTime": "09:44:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-11",
+        "arrivalTime": "09:48:08",
+        "departureTime": "09:48:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-12",
+        "arrivalTime": "09:50:34",
+        "departureTime": "09:50:34",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-13",
+        "arrivalTime": "09:54:01",
+        "departureTime": "09:54:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-14",
+        "arrivalTime": "09:56:54",
+        "departureTime": "09:56:54",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-15",
+        "arrivalTime": "09:58:58",
+        "departureTime": "09:58:58",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-16",
+        "arrivalTime": "10:01:00",
+        "departureTime": "10:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-17",
+        "arrivalTime": "10:02:46",
+        "departureTime": "10:02:46",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-18",
+        "arrivalTime": "10:06:13",
+        "departureTime": "10:06:13",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-19",
+        "arrivalTime": "10:10:30",
+        "departureTime": "10:10:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-20",
+        "arrivalTime": "10:13:00",
+        "departureTime": "10:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-21",
+        "arrivalTime": "10:20:00",
+        "departureTime": "10:20:00",
+        "isPassing": false
+      }
+    ],
+    "destinationStationName": "修善寺",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "JT-01",
+      "toStationId": "JT-21",
+      "coupledTripId": "WD_OUT_JT-01_0900_39527",
+      "coupledTrainNumber": "3021M",
+      "coupledCars": 9,
+      "coupledDestination": "伊豆急下田"
+    },
+    "throughTripId": "WD_OUT_CA-00_1025_41930",
+    "throughLineId": "tokaido_shizuoka",
+    "customOrigin": "東京"
+  },
+  {
+    "tripId": "WD_OUT_JT-01_1200_41963",
+    "lineId": "tokaido",
+    "trainNumber": "4029M",
+    "trainType": "limitedExp",
+    "direction": "outbound",
+    "originStationId": "JT-01",
+    "destinationStationId": "JT-21",
+    "customDestination": "修善寺",
+    "cars": 5,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JT-01",
+        "arrivalTime": "12:00:00",
+        "departureTime": "12:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-02",
+        "arrivalTime": "12:02:02",
+        "departureTime": "12:02:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-03",
+        "arrivalTime": "12:07:00",
+        "departureTime": "12:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-04",
+        "arrivalTime": "12:16:00",
+        "departureTime": "12:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-05",
+        "arrivalTime": "12:23:00",
+        "departureTime": "12:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-06",
+        "arrivalTime": "12:32:07",
+        "departureTime": "12:32:07",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-07",
+        "arrivalTime": "12:36:00",
+        "departureTime": "12:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-08",
+        "arrivalTime": "12:39:48",
+        "departureTime": "12:39:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-09",
+        "arrivalTime": "12:42:05",
+        "departureTime": "12:42:05",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-10",
+        "arrivalTime": "12:44:20",
+        "departureTime": "12:44:20",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-11",
+        "arrivalTime": "12:47:41",
+        "departureTime": "12:47:41",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-12",
+        "arrivalTime": "12:50:00",
+        "departureTime": "12:50:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-13",
+        "arrivalTime": "12:53:19",
+        "departureTime": "12:53:19",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-14",
+        "arrivalTime": "12:56:04",
+        "departureTime": "12:56:04",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-15",
+        "arrivalTime": "12:58:03",
+        "departureTime": "12:58:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-16",
+        "arrivalTime": "13:00:00",
+        "departureTime": "13:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-17",
+        "arrivalTime": "13:02:46",
+        "departureTime": "13:02:46",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-18",
+        "arrivalTime": "13:06:13",
+        "departureTime": "13:06:13",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-19",
+        "arrivalTime": "13:10:30",
+        "departureTime": "13:10:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-20",
+        "arrivalTime": "13:13:00",
+        "departureTime": "13:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-21",
+        "arrivalTime": "13:20:00",
+        "departureTime": "13:20:00",
+        "isPassing": false
+      }
+    ],
+    "destinationStationName": "修善寺",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "JT-01",
+      "toStationId": "JT-21",
+      "coupledTripId": "WD_OUT_JT-01_1200_39532",
+      "coupledTrainNumber": "3029M",
+      "coupledCars": 9,
+      "coupledDestination": "伊豆急下田"
+    },
+    "throughTripId": "WD_OUT_CA-00_1325_41932",
+    "throughLineId": "tokaido_shizuoka",
+    "customOrigin": "東京"
+  },
+  {
+    "tripId": "HD_OUT_JT-01_0900_41961",
+    "lineId": "tokaido",
+    "trainNumber": "4021M",
+    "trainType": "limitedExp",
+    "direction": "outbound",
+    "originStationId": "JT-01",
+    "destinationStationId": "JT-21",
+    "customDestination": "修善寺",
+    "cars": 5,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JT-01",
+        "arrivalTime": "09:00:00",
+        "departureTime": "09:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-02",
+        "arrivalTime": "09:02:02",
+        "departureTime": "09:02:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-03",
+        "arrivalTime": "09:07:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-04",
+        "arrivalTime": "09:16:00",
+        "departureTime": "09:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-05",
+        "arrivalTime": "09:24:00",
+        "departureTime": "09:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-06",
+        "arrivalTime": "09:32:48",
+        "departureTime": "09:32:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-07",
+        "arrivalTime": "09:37:00",
+        "departureTime": "09:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-08",
+        "arrivalTime": "09:39:55",
+        "departureTime": "09:39:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-09",
+        "arrivalTime": "09:42:18",
+        "departureTime": "09:42:18",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-10",
+        "arrivalTime": "09:44:39",
+        "departureTime": "09:44:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-11",
+        "arrivalTime": "09:48:08",
+        "departureTime": "09:48:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-12",
+        "arrivalTime": "09:50:34",
+        "departureTime": "09:50:34",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-13",
+        "arrivalTime": "09:54:01",
+        "departureTime": "09:54:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-14",
+        "arrivalTime": "09:56:54",
+        "departureTime": "09:56:54",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-15",
+        "arrivalTime": "09:58:58",
+        "departureTime": "09:58:58",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-16",
+        "arrivalTime": "10:01:00",
+        "departureTime": "10:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-17",
+        "arrivalTime": "10:02:46",
+        "departureTime": "10:02:46",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-18",
+        "arrivalTime": "10:06:13",
+        "departureTime": "10:06:13",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-19",
+        "arrivalTime": "10:10:30",
+        "departureTime": "10:10:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-20",
+        "arrivalTime": "10:13:00",
+        "departureTime": "10:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-21",
+        "arrivalTime": "10:20:00",
+        "departureTime": "10:20:00",
+        "isPassing": false
+      }
+    ],
+    "destinationStationName": "修善寺",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "JT-01",
+      "toStationId": "JT-21",
+      "coupledTripId": "HD_OUT_JT-01_0900_39527",
+      "coupledTrainNumber": "3021M",
+      "coupledCars": 9,
+      "coupledDestination": "伊豆急下田"
+    },
+    "throughTripId": "HD_OUT_CA-00_1025_41930",
+    "throughLineId": "tokaido_shizuoka",
+    "customOrigin": "東京"
+  },
+  {
+    "tripId": "HD_OUT_JT-01_1030_41962",
+    "lineId": "tokaido",
+    "trainNumber": "8077M",
+    "trainType": "limitedExp",
+    "direction": "outbound",
+    "originStationId": "JT-01",
+    "destinationStationId": "JT-21",
+    "customDestination": "修善寺",
+    "cars": 5,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JT-01",
+        "arrivalTime": "10:30:00",
+        "departureTime": "10:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-02",
+        "arrivalTime": "10:32:02",
+        "departureTime": "10:32:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-03",
+        "arrivalTime": "10:37:00",
+        "departureTime": "10:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-04",
+        "arrivalTime": "10:46:00",
+        "departureTime": "10:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-05",
+        "arrivalTime": "10:53:00",
+        "departureTime": "10:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-06",
+        "arrivalTime": "11:02:48",
+        "departureTime": "11:02:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-07",
+        "arrivalTime": "11:07:00",
+        "departureTime": "11:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-08",
+        "arrivalTime": "11:09:55",
+        "departureTime": "11:09:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-09",
+        "arrivalTime": "11:12:18",
+        "departureTime": "11:12:18",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-10",
+        "arrivalTime": "11:14:39",
+        "departureTime": "11:14:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-11",
+        "arrivalTime": "11:18:08",
+        "departureTime": "11:18:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-12",
+        "arrivalTime": "11:20:34",
+        "departureTime": "11:20:34",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-13",
+        "arrivalTime": "11:24:01",
+        "departureTime": "11:24:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-14",
+        "arrivalTime": "11:26:54",
+        "departureTime": "11:26:54",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-15",
+        "arrivalTime": "11:28:58",
+        "departureTime": "11:28:58",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-16",
+        "arrivalTime": "11:31:00",
+        "departureTime": "11:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-17",
+        "arrivalTime": "11:32:55",
+        "departureTime": "11:32:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-18",
+        "arrivalTime": "11:36:39",
+        "departureTime": "11:36:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-19",
+        "arrivalTime": "11:41:18",
+        "departureTime": "11:41:18",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-20",
+        "arrivalTime": "11:44:00",
+        "departureTime": "11:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-21",
+        "arrivalTime": "11:51:00",
+        "departureTime": "11:51:00",
+        "isPassing": false
+      }
+    ],
+    "destinationStationName": "修善寺",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "JT-01",
+      "toStationId": "JT-21",
+      "coupledTripId": "HD_OUT_JT-01_1030_39529",
+      "coupledTrainNumber": "9027M",
+      "coupledCars": 9,
+      "coupledDestination": "伊豆急下田"
+    },
+    "throughTripId": "HD_OUT_CA-00_1156_41931",
+    "throughLineId": "tokaido_shizuoka",
+    "customOrigin": "東京"
+  },
+  {
+    "tripId": "HD_OUT_JT-01_1200_41963",
+    "lineId": "tokaido",
+    "trainNumber": "4029M",
+    "trainType": "limitedExp",
+    "direction": "outbound",
+    "originStationId": "JT-01",
+    "destinationStationId": "JT-21",
+    "customDestination": "修善寺",
+    "cars": 5,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JT-01",
+        "arrivalTime": "12:00:00",
+        "departureTime": "12:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-02",
+        "arrivalTime": "12:02:02",
+        "departureTime": "12:02:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-03",
+        "arrivalTime": "12:07:00",
+        "departureTime": "12:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-04",
+        "arrivalTime": "12:16:00",
+        "departureTime": "12:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-05",
+        "arrivalTime": "12:23:00",
+        "departureTime": "12:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-06",
+        "arrivalTime": "12:32:07",
+        "departureTime": "12:32:07",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-07",
+        "arrivalTime": "12:36:00",
+        "departureTime": "12:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-08",
+        "arrivalTime": "12:39:48",
+        "departureTime": "12:39:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-09",
+        "arrivalTime": "12:42:05",
+        "departureTime": "12:42:05",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-10",
+        "arrivalTime": "12:44:20",
+        "departureTime": "12:44:20",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-11",
+        "arrivalTime": "12:47:41",
+        "departureTime": "12:47:41",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-12",
+        "arrivalTime": "12:50:00",
+        "departureTime": "12:50:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-13",
+        "arrivalTime": "12:53:19",
+        "departureTime": "12:53:19",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-14",
+        "arrivalTime": "12:56:04",
+        "departureTime": "12:56:04",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-15",
+        "arrivalTime": "12:58:03",
+        "departureTime": "12:58:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-16",
+        "arrivalTime": "13:00:00",
+        "departureTime": "13:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-17",
+        "arrivalTime": "13:02:46",
+        "departureTime": "13:02:46",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-18",
+        "arrivalTime": "13:06:13",
+        "departureTime": "13:06:13",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-19",
+        "arrivalTime": "13:10:30",
+        "departureTime": "13:10:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-20",
+        "arrivalTime": "13:13:00",
+        "departureTime": "13:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-21",
+        "arrivalTime": "13:20:00",
+        "departureTime": "13:20:00",
+        "isPassing": false
+      }
+    ],
+    "destinationStationName": "修善寺",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "JT-01",
+      "toStationId": "JT-21",
+      "coupledTripId": "HD_OUT_JT-01_1200_39532",
+      "coupledTrainNumber": "3029M",
+      "coupledCars": 9,
+      "coupledDestination": "伊豆急下田"
+    },
+    "throughTripId": "HD_OUT_CA-00_1325_41932",
+    "throughLineId": "tokaido_shizuoka",
+    "customOrigin": "東京"
   }
 ]
