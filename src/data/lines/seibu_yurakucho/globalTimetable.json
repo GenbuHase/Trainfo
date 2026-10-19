@@ -30,9 +30,9 @@
         "isPassing": false
       }
     ],
+    "customOrigin": "小竹向原",
     "throughTripId": "WD_OUT_SI-06_0008_144369",
-    "throughLineId": "seibu_ikebukuro",
-    "customOrigin": "小竹向原"
+    "throughLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "WD_OUT_SI-37_0013_105755",
@@ -102,9 +102,9 @@
         "isPassing": false
       }
     ],
+    "customDestination": "小竹向原",
     "prevTripId": "WD_INB_SI-19_0501_144373",
-    "prevLineId": "seibu_ikebukuro",
-    "customDestination": "小竹向原"
+    "prevLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "WD_OUT_SI-37_0548_144368",
@@ -137,9 +137,9 @@
         "isPassing": false
       }
     ],
+    "customOrigin": "小竹向原",
     "throughTripId": "WD_OUT_SI-06_0554_144368",
-    "throughLineId": "seibu_ikebukuro",
-    "customOrigin": "小竹向原"
+    "throughLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "WD_INB_SI-06_0554_144460",
@@ -542,9 +542,9 @@
         "isPassing": false
       }
     ],
+    "customOrigin": "小竹向原",
     "throughTripId": "WD_OUT_SI-06_0701_144367",
-    "throughLineId": "seibu_ikebukuro",
-    "customOrigin": "小竹向原"
+    "throughLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "WD_OUT_SI-37_0706_105795",
@@ -8792,9 +8792,9 @@
         "isPassing": false
       }
     ],
+    "trainName": "211号",
     "throughTripId": "WD_OUT_F-06_2021_144546",
     "throughLineId": "fukutoshin",
-    "trainName": "211号",
     "prevTripId": "WD_INB_SI-10_2000_144546",
     "prevLineId": "seibu_ikebukuro"
   },
@@ -10309,9 +10309,9 @@
         "isPassing": false
       }
     ],
+    "customDestination": "小竹向原",
     "prevTripId": "WD_INB_SI-15_2259_144372",
-    "prevLineId": "seibu_ikebukuro",
-    "customDestination": "小竹向原"
+    "prevLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "WD_INB_SI-06_2336_144644",
@@ -10529,9 +10529,9 @@
         "isPassing": false
       }
     ],
+    "customOrigin": "小竹向原",
     "throughTripId": "HD_OUT_SI-06_0022_144366",
-    "throughLineId": "seibu_ikebukuro",
-    "customOrigin": "小竹向原"
+    "throughLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_INB_SI-06_0534_144373",
@@ -10564,9 +10564,9 @@
         "isPassing": false
       }
     ],
+    "customDestination": "小竹向原",
     "prevTripId": "HD_INB_SI-19_0501_144373",
-    "prevLineId": "seibu_ikebukuro",
-    "customDestination": "小竹向原"
+    "prevLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_OUT_SI-37_0548_144370",
@@ -10599,9 +10599,9 @@
         "isPassing": false
       }
     ],
+    "customOrigin": "小竹向原",
     "throughTripId": "HD_OUT_SI-06_0553_144370",
-    "throughLineId": "seibu_ikebukuro",
-    "customOrigin": "小竹向原"
+    "throughLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_INB_SI-06_0553_144459",
@@ -11240,7 +11240,7 @@
     "direction": "outbound",
     "originStationId": "SI-37",
     "destinationStationId": "SI-06",
-    "customOrigin": "元町・中華街",
+    "customOrigin": "菊名",
     "customDestination": "小手指",
     "cars": 10,
     "isHoliday": true,
@@ -12313,7 +12313,7 @@
     "direction": "outbound",
     "originStationId": "SI-37",
     "destinationStationId": "SI-06",
-    "customOrigin": "武蔵小杉",
+    "customOrigin": "元町・中華街",
     "customDestination": "小手指",
     "cars": 10,
     "isHoliday": true,
@@ -12374,9 +12374,9 @@
         "isPassing": false
       }
     ],
+    "trainName": "S−TRAIN2号",
     "throughTripId": "HD_OUT_F-06_0951_144578",
     "throughLineId": "fukutoshin",
-    "trainName": "S−TRAIN2号",
     "prevTripId": "HD_INB_SI-19_0922_144578",
     "prevLineId": "seibu_ikebukuro"
   },
@@ -19922,9 +19922,9 @@
         "isPassing": false
       }
     ],
+    "customDestination": "小竹向原",
     "prevTripId": "HD_INB_SI-10_2321_144371",
-    "prevLineId": "seibu_ikebukuro",
-    "customDestination": "小竹向原"
+    "prevLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_INB_SI-06_2337_144500",
@@ -20079,6 +20079,7 @@
     "lineId": "seibu_yurakucho",
     "trainNumber": "77814",
     "trainType": "strain",
+    "trainName": "S-TRAIN 101号",
     "direction": "outbound",
     "originStationId": "SI-37",
     "destinationStationId": "SI-06",
@@ -20116,6 +20117,7 @@
     "lineId": "seibu_yurakucho",
     "trainNumber": "77815",
     "trainType": "strain",
+    "trainName": "S-TRAIN 103号",
     "direction": "outbound",
     "originStationId": "SI-37",
     "destinationStationId": "SI-06",
@@ -20153,6 +20155,7 @@
     "lineId": "seibu_yurakucho",
     "trainNumber": "77816",
     "trainType": "strain",
+    "trainName": "S-TRAIN 105号",
     "direction": "outbound",
     "originStationId": "SI-37",
     "destinationStationId": "SI-06",
@@ -20190,6 +20193,7 @@
     "lineId": "seibu_yurakucho",
     "trainNumber": "77817",
     "trainType": "strain",
+    "trainName": "S-TRAIN 107号",
     "direction": "outbound",
     "originStationId": "SI-37",
     "destinationStationId": "SI-06",
@@ -20227,6 +20231,7 @@
     "lineId": "seibu_yurakucho",
     "trainNumber": "77818",
     "trainType": "strain",
+    "trainName": "S-TRAIN 109号",
     "direction": "outbound",
     "originStationId": "SI-37",
     "destinationStationId": "SI-06",
@@ -20264,6 +20269,7 @@
     "lineId": "seibu_yurakucho",
     "trainNumber": "144439",
     "trainType": "strain",
+    "trainName": "S-TRAIN 102号",
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-37",
@@ -20301,6 +20307,7 @@
     "lineId": "seibu_yurakucho",
     "trainNumber": "144440",
     "trainType": "strain",
+    "trainName": "S-TRAIN 104号",
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-37",
@@ -20336,8 +20343,9 @@
   {
     "tripId": "HD_OUT_SI-37_0846_172007",
     "lineId": "seibu_yurakucho",
-    "trainNumber": "171-072レ",
+    "trainNumber": "172007",
     "trainType": "strain",
+    "trainName": "S-TRAIN 1号",
     "direction": "outbound",
     "originStationId": "SI-37",
     "destinationStationId": "SI-06",
@@ -20367,15 +20375,15 @@
     ],
     "prevTripId": "HD_INB_F-16_0827_172007",
     "prevLineId": "fukutoshin",
-    "trainName": "S−TRAIN1号",
     "throughTripId": "HD_OUT_SI-06_0850_172007",
     "throughLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_OUT_SI-37_1751_105731",
     "lineId": "seibu_yurakucho",
-    "trainNumber": "173-162レ",
+    "trainNumber": "105731",
     "trainType": "strain",
+    "trainName": "S-TRAIN 3号",
     "direction": "outbound",
     "originStationId": "SI-37",
     "destinationStationId": "SI-06",
@@ -20405,15 +20413,15 @@
     ],
     "prevTripId": "HD_INB_F-16_1732_105731",
     "prevLineId": "fukutoshin",
-    "trainName": "S−TRAIN3号",
     "throughTripId": "HD_OUT_SI-06_1756_105731",
     "throughLineId": "seibu_ikebukuro"
   },
   {
     "tripId": "HD_OUT_SI-37_2049_105730",
     "lineId": "seibu_yurakucho",
-    "trainNumber": "733-192レ",
+    "trainNumber": "105730",
     "trainType": "strain",
+    "trainName": "S-TRAIN 5号",
     "direction": "outbound",
     "originStationId": "SI-37",
     "destinationStationId": "SI-06",
@@ -20449,8 +20457,9 @@
   {
     "tripId": "HD_INB_SI-06_0954_144626",
     "lineId": "seibu_yurakucho",
-    "trainNumber": "789-101レ",
+    "trainNumber": "144626",
     "trainType": "strain",
+    "trainName": "S-TRAIN 2号",
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-37",
@@ -20486,8 +20495,9 @@
   {
     "tripId": "HD_INB_SI-06_1832_172006",
     "lineId": "seibu_yurakucho",
-    "trainNumber": "174-181レ",
+    "trainNumber": "172006",
     "trainType": "strain",
+    "trainName": "S-TRAIN 4号",
     "direction": "inbound",
     "originStationId": "SI-06",
     "destinationStationId": "SI-37",
@@ -20517,7 +20527,6 @@
     ],
     "throughTripId": "HD_OUT_F-06_1837_172006",
     "throughLineId": "fukutoshin",
-    "trainName": "S−TRAIN4号",
     "prevTripId": "HD_INB_SI-36_1707_172006",
     "prevLineId": "seibu_ikebukuro"
   }

@@ -116,15 +116,19 @@ class YahooTimetableBuilder {
     // 1. 全角英数・記号の半角化、余分な空白の正規化
     let normalized = rawName
       .replace(/[Ａ-Ｚａ-ｚ０-９]/g, s => String.fromCharCode(s.charCodeAt(0) - 0xFEE0))
+      .replace(/[−－―]/g, '-')
       .replace(/　/g, ' ')
       .trim();
+
+    // S-TRAIN の表記揺れ正規化（例: "S-TRAIN1号" -> "S-TRAIN 1号"）
+    normalized = normalized.replace(/^S-TRAIN\s*(\d+号)$/i, 'S-TRAIN $1');
 
     // 2. 単なる種別名のみの場合は除外（愛称なし）
     const genericTypes = new Set([
       '普通', '各駅停車', '快速', '通勤快速', '特別快速', '通勤特快',
       '中央特快', '青梅特快', '区間快速', '急行', '快速急行', '区間急行',
       '準急', '通勤準急', '区間準急', '特急', '通勤特急', 'ライナー',
-      '新幹線'
+      '新幹線', 'S-TRAIN', 'S−TRAIN'
     ]);
     if (genericTypes.has(normalized)) {
       return null;

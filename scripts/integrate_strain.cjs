@@ -156,6 +156,7 @@ function main() {
       lineId: 'yurakucho',
       trainNumber: s.num,
       trainType: 'strain',
+      trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
       originStationId: 'Y-22',
       destinationStationId: 'Y-06',
@@ -178,6 +179,7 @@ function main() {
       lineId: 'seibu_yurakucho',
       trainNumber: s.num,
       trainType: 'strain',
+      trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
       originStationId: 'SI-37',
       destinationStationId: 'SI-06',
@@ -204,6 +206,7 @@ function main() {
       lineId: 'seibu_ikebukuro',
       trainNumber: s.num,
       trainType: 'strain',
+      trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
       originStationId: 'SI-06',
       destinationStationId: 'SI-19',
@@ -244,6 +247,7 @@ function main() {
       lineId: 'seibu_ikebukuro',
       trainNumber: s.num,
       trainType: 'strain',
+      trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
       originStationId: 'SI-17',
       destinationStationId: 'SI-06',
@@ -266,6 +270,7 @@ function main() {
       lineId: 'seibu_yurakucho',
       trainNumber: s.num,
       trainType: 'strain',
+      trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
       originStationId: 'SI-06',
       destinationStationId: 'SI-37',
@@ -290,6 +295,7 @@ function main() {
       lineId: 'yurakucho',
       trainNumber: s.num,
       trainType: 'strain',
+      trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
       originStationId: 'Y-06',
       destinationStationId: 'Y-22',
@@ -331,6 +337,7 @@ function main() {
       lineId: 'fukutoshin',
       trainNumber: s.num,
       trainType: 'strain',
+      trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
       originStationId: 'F-16',
       destinationStationId: 'F-06',
@@ -353,6 +360,7 @@ function main() {
       lineId: 'seibu_yurakucho',
       trainNumber: s.num,
       trainType: 'strain',
+      trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
       originStationId: 'SI-37',
       destinationStationId: 'SI-06',
@@ -381,6 +389,7 @@ function main() {
       lineId: 'seibu_ikebukuro',
       trainNumber: s.num,
       trainType: 'strain',
+      trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
       originStationId: 'SI-06',
       destinationStationId: s.destId,
@@ -426,6 +435,7 @@ function main() {
       lineId: 'seibu_ikebukuro',
       trainNumber: s.num,
       trainType: 'strain',
+      trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
       originStationId: s.origId,
       destinationStationId: 'SI-06',
@@ -448,6 +458,7 @@ function main() {
       lineId: 'seibu_yurakucho',
       trainNumber: s.num,
       trainType: 'strain',
+      trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
       originStationId: 'SI-06',
       destinationStationId: 'SI-37',
@@ -472,6 +483,7 @@ function main() {
       lineId: 'fukutoshin',
       trainNumber: s.num,
       trainType: 'strain',
+      trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
       originStationId: 'F-06',
       destinationStationId: 'F-16',
@@ -541,13 +553,15 @@ function main() {
           d: destName,
           no: trip.trainNumber,
           sec,
+          tripId: trip.tripId,
+          trainName: trip.trainName,
         };
 
         if (!stStore[day][stop.stationId]) {
           stStore[day][stop.stationId] = { inbound: [], outbound: [] };
         }
         const list = stStore[day][stop.stationId][dir];
-        if (!list.some(e => e.no === entry.no && e.sec === entry.sec)) {
+        if (!list.some(e => (e.tripId && e.tripId === entry.tripId) || (e.no === entry.no && e.sec === entry.sec))) {
           list.push(entry);
         }
       }

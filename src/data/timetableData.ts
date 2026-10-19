@@ -200,6 +200,17 @@ export function getStationDepartures(
           trainName = fullTrip.trainName;
         }
       }
+      if (!trainName && d.trainName) {
+        trainName = d.trainName;
+      }
+      if (!trainName && d.no) {
+        const matched = Array.from(getGlobalTripMap().values()).find(
+          (t) => t.trainNumber === d.no && t.trainName
+        );
+        if (matched?.trainName) {
+          trainName = matched.trainName;
+        }
+      }
 
       return {
         tripId: d.tripId || `DEP_${stationId}_${direction}_${d.h}_${d.m}_${idx}`,
