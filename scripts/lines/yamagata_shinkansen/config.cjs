@@ -91,5 +91,10 @@ module.exports = {
     "やまびこ": "yamabiko",
     "特急": "tsubasa"
   },
+  "preserveAllStopsTypes": [
+    "tsubasa",
+    "yamabiko",
+    "limitedExp"
+  ],
   "defaultCars": 7
 };

@@ -56,5 +56,10 @@ module.exports = {
     "はやぶさ": "hayabusa",
     "特急": "komachi"
   },
+  "preserveAllStopsTypes": [
+    "komachi",
+    "hayabusa",
+    "limitedExp"
+  ],
   "defaultCars": 7
 };

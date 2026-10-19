@@ -103,6 +103,13 @@ for (const lineId of SHINKANSEN_LINES) {
     }
   }
 
+  // 新幹線路線に普通列車（trainType: 'local'）が混入していないか監査
+  const localTrips = gt.filter(t => t.trainType === 'local');
+  if (localTrips.length > 0) {
+    console.error(`❌ [Anomaly] ${lineId} に普通列車（local）が ${localTrips.length} 件存在します！`);
+    hasAnomaly = true;
+  }
+
   // 駅時刻表の監査
   if (fs.existsSync(stPath)) {
     const st = JSON.parse(fs.readFileSync(stPath, 'utf8'));
@@ -128,6 +135,21 @@ for (const lineId of SHINKANSEN_LINES) {
       if (akitaAkita.length > 0) {
         console.error(`❌ [Anomaly] 秋田駅上り発車標に「秋田行き」が ${akitaAkita.length} 件存在します！`);
         hasAnomaly = true;
+      }
+    }
+
+    // 駅時刻表の発車標に普通列車（t: 'local'）が混入していないか監査
+    for (const day of ['weekday', 'holiday']) {
+      const dayData = st[day] || {};
+      for (const [stId, dirs] of Object.entries(dayData)) {
+        for (const dirKey of ['inbound', 'outbound']) {
+          const deps = dirs[dirKey] || [];
+          const localDeps = deps.filter(d => d.t === 'local');
+          if (localDeps.length > 0) {
+            console.error(`❌ [Anomaly] ${lineId} の駅 ${stId} (${day} ${dirKey}) に普通列車（local）が ${localDeps.length} 件存在します！`);
+            hasAnomaly = true;
+          }
+        }
       }
     }
   }
