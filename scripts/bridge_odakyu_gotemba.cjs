@@ -26,7 +26,7 @@ function bridgeOdakyuGotemba() {
   const odakyuTt = JSON.parse(fs.readFileSync(odakyuPath, 'utf8'));
   const gotembaTt = JSON.parse(fs.readFileSync(gotembaPath, 'utf8'));
 
-  // 1. 小田急線側のふじさん号に OH-40 (渋沢), OH-41 (新松田) を補間
+  // 1. 小田急線側のふじさん号に OH-40 (渋沢・通過), CB-04 (松田・停車) を補間
   let odakyuModified = 0;
   for (const t of odakyuTt) {
     if (!t.trainNumber || !/0?40[1-6]/.test(t.trainNumber)) continue;
@@ -34,8 +34,12 @@ function bridgeOdakyuGotemba() {
 
     // 下り (新宿 -> 御殿場方面)
     if (t.direction === 'outbound') {
+      // 既存の OH-40 / OH-41 / CB-04 を除去して秦野(OH-39)まで巻き戻す（冪等性）
+      while (t.stops.length > 0 && ['OH-40', 'OH-41', 'CB-04'].includes(t.stops[t.stops.length - 1].stationId)) {
+        t.stops.pop();
+      }
       const lastStop = t.stops[t.stops.length - 1];
-      if (lastStop.stationId === 'OH-39') {
+      if (lastStop && lastStop.stationId === 'OH-39') {
         const depTime = lastStop.departureTime || lastStop.arrivalTime; // e.g. "07:35:00"
         const [h, m, s] = depTime.split(':').map(Number);
         
@@ -43,9 +47,9 @@ function bridgeOdakyuGotemba() {
         const sec40 = (h * 3600 + m * 60 + (s || 0)) + 240;
         const time40 = `${String(Math.floor(sec40 / 3600) % 24).padStart(2, '0')}:${String(Math.floor((sec40 % 3600) / 60)).padStart(2, '0')}:${String(sec40 % 60).padStart(2, '0')}`;
         
-        // 新松田 OH-41 (約9分後着/発)
-        const sec41 = (h * 3600 + m * 60 + (s || 0)) + 540;
-        const time41 = `${String(Math.floor(sec41 / 3600) % 24).padStart(2, '0')}:${String(Math.floor((sec41 % 3600) / 60)).padStart(2, '0')}:${String(sec41 % 60).padStart(2, '0')}`;
+        // 松田 CB-04 (約9分後着/発)
+        const secCB04 = (h * 3600 + m * 60 + (s || 0)) + 540;
+        const timeCB04 = `${String(Math.floor(secCB04 / 3600) % 24).padStart(2, '0')}:${String(Math.floor((secCB04 % 3600) / 60)).padStart(2, '0')}:${String(secCB04 % 60).padStart(2, '0')}`;
 
         t.stops.push({
           stationId: 'OH-40',
@@ -54,26 +58,30 @@ function bridgeOdakyuGotemba() {
           isPassing: true
         });
         t.stops.push({
-          stationId: 'OH-41',
-          arrivalTime: time41,
-          departureTime: time41,
+          stationId: 'CB-04',
+          arrivalTime: timeCB04,
+          departureTime: timeCB04,
           isPassing: false
         });
-        t.destinationStationId = 'OH-41';
+        t.destinationStationId = 'CB-04';
         odakyuModified++;
       }
     }
 
     // 上り (御殿場 -> 新宿方面)
     if (t.direction === 'inbound') {
+      // 既存の CB-04 / OH-41 / OH-40 を除去して秦野(OH-39)まで巻き戻す（冪等性）
+      while (t.stops.length > 0 && ['OH-40', 'OH-41', 'CB-04'].includes(t.stops[0].stationId)) {
+        t.stops.shift();
+      }
       const firstStop = t.stops[0];
-      if (firstStop.stationId === 'OH-39') {
+      if (firstStop && firstStop.stationId === 'OH-39') {
         const arrTime = firstStop.arrivalTime || firstStop.departureTime; // e.g. "09:25:00"
         const [h, m, s] = arrTime.split(':').map(Number);
 
-        // 新松田 OH-41 (約8分前発)
-        const sec41 = (h * 3600 + m * 60 + (s || 0)) - 480;
-        const time41 = `${String(Math.floor(sec41 / 3600) % 24).padStart(2, '0')}:${String(Math.floor((sec41 % 3600) / 60)).padStart(2, '0')}:${String(sec41 % 60).padStart(2, '0')}`;
+        // 松田 CB-04 (約9分前発)
+        const secCB04 = (h * 3600 + m * 60 + (s || 0)) - 540;
+        const timeCB04 = `${String(Math.floor(secCB04 / 3600) % 24).padStart(2, '0')}:${String(Math.floor((secCB04 % 3600) / 60)).padStart(2, '0')}:${String(secCB04 % 60).padStart(2, '0')}`;
 
         // 渋沢 OH-40 (約4分前通過)
         const sec40 = (h * 3600 + m * 60 + (s || 0)) - 240;
@@ -86,12 +94,12 @@ function bridgeOdakyuGotemba() {
           isPassing: true
         });
         t.stops.unshift({
-          stationId: 'OH-41',
-          arrivalTime: time41,
-          departureTime: time41,
+          stationId: 'CB-04',
+          arrivalTime: timeCB04,
+          departureTime: timeCB04,
           isPassing: false
         });
-        t.originStationId = 'OH-41';
+        t.originStationId = 'CB-04';
         odakyuModified++;
       }
     }

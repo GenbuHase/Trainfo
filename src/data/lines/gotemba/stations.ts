@@ -123,8 +123,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "松田",
     "nameKana": "まつだ",
     "nameEn": "Matsuda",
-    "lat": 35.3447025,
-    "lng": 139.1395994,
+    "lat": 35.3462321,
+    "lng": 139.1385751,
     "transfers": [
       "小田急小田原線（新松田駅）"
     ],

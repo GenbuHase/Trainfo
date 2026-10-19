@@ -1305,26 +1305,24 @@ module.exports = {
       maxTimeDiff: 600,
     },
 
-    // 53. 小田急小田原線 ↔ JR御殿場線 (新松田/松田駅)
+    // 53. 小田急小田原線 ↔ JR御殿場線 (松田駅)
     {
       name: '小田急線 -> 御殿場線 (下り 松田駅経由 御殿場方面直通 特急ふじさん)',
       lineA: 'odakyu_odawara',
       lineB: 'gotemba',
-      stationA: 'OH-41',
+      stationA: 'CB-04',
       stationB: 'CB-04',
       dirA: 'outbound',
       dirB: 'outbound',
-      maxTimeDiff: 600,
     },
     {
       name: '御殿場線 -> 小田急線 (上り 松田駅経由 新宿方面直通 特急ふじさん)',
       lineA: 'gotemba',
       lineB: 'odakyu_odawara',
       stationA: 'CB-04',
-      stationB: 'OH-41',
+      stationB: 'CB-04',
       dirA: 'inbound',
       dirB: 'inbound',
-      maxTimeDiff: 600,
     },
 
     // 54. JR東海道線 ↔ JR御殿場線 (国府津駅)
