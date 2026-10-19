@@ -4,7 +4,19 @@ const { coupleTobuExpress } = require('./coupleTobuExpress.cjs');
 const YahooTimetableBuilder = require('../yahoo/YahooTimetableBuilder.cjs');
 
 function safeWriteJson(filePath, data) {
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+  const content = JSON.stringify(data, null, 2);
+  let attempts = 0;
+  while (attempts < 5) {
+    try {
+      fs.writeFileSync(filePath, content, 'utf8');
+      break;
+    } catch (e) {
+      attempts++;
+      if (attempts >= 5) throw e;
+      const start = Date.now();
+      while (Date.now() - start < 100) {}
+    }
+  }
 }
 
 function timeToSec(t) {
@@ -209,21 +221,217 @@ function coupleTohokuShinkansen() {
 }
 
 /**
- * 2. 中央本線（あずさ/かいじ ＋ 富士回遊）の併結
+ * 中央線快速の富士回遊トリップ（下り・上り）を復元注入
+ */
+function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
+  // 既存の復元済み _fuji トリップを初期化（完全な冪等性を確保）
+  chuoTrips = chuoTrips.filter(t => !t.tripId.includes('_fuji'));
+  const existingIds = new Set(chuoTrips.map(t => t.tripId));
+  const fujiNumbers = ['2103M', '2107M', '2111M', '2115M', '8111M', '9193M', '2132M', '2136M', '2144M', '2148M', '8194M', '9178M'];
+
+  let addedOut = 0;
+  let addedIn = 0;
+
+  // 1. 下り (Outbound): 新宿 -> 高尾
+  const cmOutFuji = cmTrips.filter(t => t.direction === 'outbound' && (t.throughLineId === 'fujikyu' || fujiNumbers.includes(t.trainNumber)));
+  for (const fujiCM of cmOutFuji) {
+    const fujiDepTakao = fujiCM.stops[0]?.departureTime;
+    if (!fujiDepTakao) continue;
+    const fujiSec = timeToSec(fujiDepTakao);
+
+    // すでに Chuo 側に単独の河口湖行トリップ（臨時富士回遊など）が存在する場合は復元不要
+    const existingSolo = chuoTrips.find(c =>
+      c.direction === 'outbound' &&
+      c.isHoliday === fujiCM.isHoliday &&
+      !c.tripId.includes('_fuji') &&
+      c.customDestination === '河口湖' &&
+      Math.abs(timeToSec(c.stops[c.stops.length - 1]?.arrivalTime) - fujiSec) <= 180
+    );
+    if (existingSolo) {
+      existingSolo.throughTripId = fujiCM.tripId;
+      existingSolo.throughLineId = 'chuo_main';
+      fujiCM.prevTripId = existingSolo.tripId;
+      fujiCM.prevLineId = 'chuo';
+      continue;
+    }
+
+    // 高尾到着時刻が最も近い Chuo トリップを探索（±180秒許容）
+    const candidates = chuoTrips.filter(c =>
+      c.direction === 'outbound' &&
+      c.isHoliday === fujiCM.isHoliday &&
+      c.stops[c.stops.length - 1]?.stationId === 'JC-24' &&
+      Math.abs(timeToSec(c.stops[c.stops.length - 1]?.arrivalTime) - fujiSec) <= 180
+    );
+
+    // 特急（limitedExp）を最優先、次に時刻差が小さいもの
+    candidates.sort((a, b) => {
+      const expA = a.trainType === 'limitedExp' ? 1 : 0;
+      const expB = b.trainType === 'limitedExp' ? 1 : 0;
+      if (expA !== expB) return expB - expA;
+      const diffA = Math.abs(timeToSec(a.stops[a.stops.length - 1]?.arrivalTime) - fujiSec);
+      const diffB = Math.abs(timeToSec(b.stops[b.stops.length - 1]?.arrivalTime) - fujiSec);
+      return diffA - diffB;
+    });
+
+    const parentChuo = candidates[0];
+
+    if (parentChuo) {
+      // 親（あずさ/かいじ）が富士回遊と同じ列車番号になっていた場合、中央本線側のあずさ/かいじの列車番号を探索して分離
+      if (parentChuo.trainNumber === fujiCM.trainNumber) {
+        const azusaCM = cmTrips.find(c =>
+          c.direction === 'outbound' &&
+          c.isHoliday === fujiCM.isHoliday &&
+          c.tripId !== fujiCM.tripId &&
+          c.stops[0]?.stationId === 'JC-24' &&
+          Math.abs(timeToSec(c.stops[0]?.departureTime) - fujiSec) <= 60 &&
+          c.trainNumber !== fujiCM.trainNumber
+        );
+        if (azusaCM && azusaCM.trainNumber) {
+          parentChuo.trainNumber = azusaCM.trainNumber;
+          parentChuo.customDestination = azusaCM.customDestination || '松本';
+        }
+      }
+
+      const yId = fujiCM.trainId || fujiCM.tripId.split('_').pop();
+      const fujiTripId = parentChuo.tripId.replace(/_\d+$/, `_${yId}_fuji`);
+      if (!existingIds.has(fujiTripId)) {
+        const newTrip = {
+          ...JSON.parse(JSON.stringify(parentChuo)),
+          tripId: fujiTripId,
+          trainId: yId,
+          trainNumber: fujiCM.trainNumber || parentChuo.trainNumber,
+          customDestination: '河口湖',
+          cars: 3,
+          throughTripId: fujiCM.tripId,
+          throughLineId: 'chuo_main',
+        };
+        // 高尾到着時刻を中央本線側の発車時刻と完全同期
+        const lastStop = newTrip.stops[newTrip.stops.length - 1];
+        if (lastStop) {
+          lastStop.arrivalTime = fujiDepTakao;
+          lastStop.departureTime = fujiDepTakao;
+        }
+        delete newTrip.coupling;
+        chuoTrips.push(newTrip);
+        existingIds.add(fujiTripId);
+        fujiCM.prevTripId = fujiTripId;
+        fujiCM.prevLineId = 'chuo';
+        addedOut++;
+      }
+    }
+  }
+
+  // 2. 上り (Inbound): 高尾 -> 新宿
+  const cmInFuji = cmTrips.filter(t => t.direction === 'inbound' && (t.prevLineId === 'fujikyu' || fujiNumbers.includes(t.trainNumber)));
+  for (const fujiCM of cmInFuji) {
+    const fujiArrTakao = fujiCM.stops[fujiCM.stops.length - 1]?.arrivalTime;
+    if (!fujiArrTakao) continue;
+    const fujiSec = timeToSec(fujiArrTakao);
+
+    // すでに Chuo 側にこの fujiCM に直通する単独トリップが存在する場合は復元不要
+    const existingSolo = chuoTrips.find(c =>
+      c.direction === 'inbound' &&
+      c.isHoliday === fujiCM.isHoliday &&
+      !c.tripId.includes('_fuji') &&
+      c.stops[0]?.stationId === 'JC-24' &&
+      c.prevTripId === fujiCM.tripId
+    );
+    if (existingSolo) continue;
+
+    // 高尾発車時刻が最も近い Chuo トリップを探索（±180秒許容）
+    const candidates = chuoTrips.filter(c =>
+      c.direction === 'inbound' &&
+      c.isHoliday === fujiCM.isHoliday &&
+      c.stops[0]?.stationId === 'JC-24' &&
+      Math.abs(timeToSec(c.stops[0]?.departureTime) - fujiSec) <= 180
+    );
+
+    // 特急（limitedExp）を最優先、次に時刻差が小さいもの
+    candidates.sort((a, b) => {
+      const expA = a.trainType === 'limitedExp' ? 1 : 0;
+      const expB = b.trainType === 'limitedExp' ? 1 : 0;
+      if (expA !== expB) return expB - expA;
+      const diffA = Math.abs(timeToSec(a.stops[0]?.departureTime) - fujiSec);
+      const diffB = Math.abs(timeToSec(b.stops[0]?.departureTime) - fujiSec);
+      return diffA - diffB;
+    });
+
+    const parentChuo = candidates[0];
+
+    if (parentChuo) {
+      // 親（かいじ/あずさ）の列車番号が富士回遊と同じになっていた場合、中央本線側の対応便を探索して分離
+      if (parentChuo.trainNumber === fujiCM.trainNumber) {
+        const azusaCM = cmTrips.find(c =>
+          c.direction === 'inbound' &&
+          c.isHoliday === fujiCM.isHoliday &&
+          c.tripId !== fujiCM.tripId &&
+          c.stops[c.stops.length - 1]?.stationId === 'JC-24' &&
+          Math.abs(timeToSec(c.stops[c.stops.length - 1]?.arrivalTime) - fujiSec) <= 60 &&
+          c.trainNumber !== fujiCM.trainNumber
+        );
+        if (azusaCM && azusaCM.trainNumber) {
+          parentChuo.trainNumber = azusaCM.trainNumber;
+        }
+      }
+
+      const yId = fujiCM.trainId || fujiCM.tripId.split('_').pop();
+      const fujiTripId = parentChuo.tripId.replace(/_\d+$/, `_${yId}_fuji`);
+      if (!existingIds.has(fujiTripId)) {
+        const newTrip = {
+          ...JSON.parse(JSON.stringify(parentChuo)),
+          tripId: fujiTripId,
+          trainId: yId,
+          trainNumber: fujiCM.trainNumber || parentChuo.trainNumber,
+          customDestination: '新宿',
+          cars: 3,
+          prevTripId: fujiCM.tripId,
+          prevLineId: 'chuo_main',
+        };
+        // 高尾発車時刻を中央本線側の到着時刻と完全同期
+        const firstStop = newTrip.stops[0];
+        if (firstStop) {
+          firstStop.departureTime = fujiArrTakao;
+          firstStop.arrivalTime = fujiArrTakao;
+        }
+        delete newTrip.coupling;
+        chuoTrips.push(newTrip);
+        existingIds.add(fujiTripId);
+        fujiCM.throughTripId = fujiTripId;
+        fujiCM.throughLineId = 'chuo';
+        addedIn++;
+      }
+    }
+  }
+
+  console.log(`[coupleAllExpress] 中央線快速に下り富士回遊 ${addedOut} 便、上り富士回遊 ${addedIn} 便を復元注入`);
+  return chuoTrips;
+}
+
+/**
+ * 2. 中央線快速・中央本線（あずさ/かいじ ＋ 富士回遊）の併結
  */
 function coupleChuoFujiKaiyu() {
-  console.log('\n=== 🏔️ 中央本線（あずさ/かいじ + 富士回遊）カップリング ===');
-  const filePath = path.resolve('src/data/lines/chuo_main/globalTimetable.json');
-  if (!fs.existsSync(filePath)) return;
-  const trips = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  for (const t of trips) delete t.coupling;
+  console.log('\n=== 🏔️ 中央線・中央本線（あずさ/かいじ + 富士回遊）カップリング ===');
+  const cmPath = path.resolve('src/data/lines/chuo_main/globalTimetable.json');
+  const chuoPath = path.resolve('src/data/lines/chuo/globalTimetable.json');
+  if (!fs.existsSync(cmPath) || !fs.existsSync(chuoPath)) return;
 
-  let count = 0;
+  const cmTrips = JSON.parse(fs.readFileSync(cmPath, 'utf8'));
+  let chuoTrips = JSON.parse(fs.readFileSync(chuoPath, 'utf8'));
 
+  // 1. 中央線快速に双方向の富士回遊トリップを復元注入し、高尾駅での直通を相互リンク
+  chuoTrips = restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips);
+
+  for (const t of cmTrips) delete t.coupling;
+  for (const t of chuoTrips) delete t.coupling;
+
+  let countCM = 0;
+  let countChuo = 0;
+
+  // (A) 中央本線 (高尾〜大月間) のカップリング
   for (const isHoliday of [false, true]) {
     for (const dir of ['outbound', 'inbound']) {
-      const dirTrips = trips.filter(t => t.isHoliday === isHoliday && t.direction === dir);
-
+      const dirTrips = cmTrips.filter(t => t.isHoliday === isHoliday && t.direction === dir);
       const ltdExps = dirTrips.filter(t =>
         (t.trainType === 'limitedExp' || t.trainType === 'regular') &&
         t.stops.some(s => s.stationId === 'JC-32')
@@ -234,27 +442,33 @@ function coupleChuoFujiKaiyu() {
         if (t1.coupling) continue;
         const s1 = t1.stops.find(s => s.stationId === 'JC-32');
         if (!s1) continue;
-        const time1 = dir === 'outbound' ? s1.departureTime : s1.arrivalTime;
+        const time1 = dir === 'outbound' ? (s1.arrivalTime || s1.departureTime) : (s1.departureTime || s1.arrivalTime);
 
         for (let j = i + 1; j < ltdExps.length; j++) {
           const t2 = ltdExps[j];
           if (t2.coupling) continue;
           const s2 = t2.stops.find(s => s.stationId === 'JC-32');
           if (!s2) continue;
-          const time2 = dir === 'outbound' ? s2.departureTime : s2.arrivalTime;
+          const time2 = dir === 'outbound' ? (s2.arrivalTime || s2.departureTime) : (s2.departureTime || s2.arrivalTime);
 
           if (Math.abs(timeToSec(time1) - timeToSec(time2)) <= 120) {
-            const isT1Fuji = (t1.destinationStationName && t1.destinationStationName.includes('河口湖')) || (t1.trainNumber && t1.trainNumber.includes('富士回遊'));
+            const isT1Fuji = (t1.destinationStationName && t1.destinationStationName.includes('河口湖')) ||
+                             (t1.customDestination && t1.customDestination.includes('河口湖')) ||
+                             (t1.throughLineId === 'fujikyu') ||
+                             (t1.prevLineId === 'fujikyu') ||
+                             (t1.trainNumber && t1.trainNumber.includes('富士回遊')) ||
+                             (dir === 'outbound' && t1.stops[t1.stops.length - 1]?.stationId === 'JC-32') ||
+                             (dir === 'inbound' && t1.stops[0]?.stationId === 'JC-32');
             const pri = isT1Fuji ? t2 : t1;
             const sec = isT1Fuji ? t1 : t2;
 
-            const fromSt = dir === 'outbound' ? (pri.stops[0]?.stationId || 'JC-01') : 'JC-32';
-            const toSt = dir === 'outbound' ? 'JC-32' : (pri.stops[pri.stops.length - 1]?.stationId || 'JC-01');
+            const fromSt = dir === 'outbound' ? (pri.stops[0]?.stationId || 'JC-24') : 'JC-32';
+            const toSt = dir === 'outbound' ? 'JC-32' : (pri.stops[pri.stops.length - 1]?.stationId || 'JC-24');
 
             pri.cars = 9;
             sec.cars = 3;
-            pri.customDestination = pri.destinationStationName || '甲府';
-            sec.customDestination = '河口湖';
+            pri.customDestination = pri.destinationStationName || pri.customDestination || '甲府';
+            sec.customDestination = dir === 'outbound' ? '河口湖' : '新宿';
 
             pri.coupling = {
               role: 'PRIMARY',
@@ -263,7 +477,7 @@ function coupleChuoFujiKaiyu() {
               coupledTripId: sec.tripId,
               coupledTrainNumber: sec.trainNumber,
               coupledCars: 3,
-              coupledDestination: sec.destinationStationName || '河口湖'
+              coupledDestination: dir === 'outbound' ? '河口湖' : '新宿'
             };
 
             sec.coupling = {
@@ -273,10 +487,10 @@ function coupleChuoFujiKaiyu() {
               coupledTripId: pri.tripId,
               coupledTrainNumber: pri.trainNumber,
               coupledCars: 9,
-              coupledDestination: pri.destinationStationName || '甲府'
+              coupledDestination: pri.customDestination || '甲府'
             };
 
-            count += 2;
+            countCM += 2;
             break;
           }
         }
@@ -284,8 +498,76 @@ function coupleChuoFujiKaiyu() {
     }
   }
 
-  safeWriteJson(filePath, trips);
-  console.log(`  -> 中央本線: ${count} 件の併結トリップを設定完了`);
+  // (B) 中央線快速 (新宿〜高尾間) のカップリング
+  for (const isHoliday of [false, true]) {
+    for (const dir of ['outbound', 'inbound']) {
+      const dirTrips = chuoTrips.filter(t => t.isHoliday === isHoliday && t.direction === dir);
+      const ltdExps = dirTrips.filter(t =>
+        (t.trainType === 'limitedExp' || t.trainType === 'regular') &&
+        t.stops.some(s => s.stationId === 'JC-24')
+      );
+
+      for (let i = 0; i < ltdExps.length; i++) {
+        const t1 = ltdExps[i];
+        if (t1.coupling) continue;
+        const s1 = t1.stops.find(s => s.stationId === 'JC-24');
+        if (!s1) continue;
+        const time1 = dir === 'outbound' ? s1.arrivalTime : s1.departureTime;
+
+        for (let j = i + 1; j < ltdExps.length; j++) {
+          const t2 = ltdExps[j];
+          if (t2.coupling) continue;
+          const s2 = t2.stops.find(s => s.stationId === 'JC-24');
+          if (!s2) continue;
+          const time2 = dir === 'outbound' ? s2.arrivalTime : s2.departureTime;
+
+          if (Math.abs(timeToSec(time1) - timeToSec(time2)) <= 60) {
+            const isT1Fuji = (t1.customDestination && t1.customDestination.includes('河口湖')) ||
+                             (t1.throughLineId === 'fujikyu') ||
+                             (t1.trainNumber && t1.trainNumber.includes('富士回遊')) ||
+                             (t1.tripId.includes('_fuji'));
+            const pri = isT1Fuji ? t2 : t1;
+            const sec = isT1Fuji ? t1 : t2;
+
+            const fromSt = dir === 'outbound' ? (pri.stops[0]?.stationId || 'JC-05') : 'JC-24';
+            const toSt = dir === 'outbound' ? 'JC-24' : (pri.stops[pri.stops.length - 1]?.stationId || 'JC-05');
+
+            pri.cars = 9;
+            sec.cars = 3;
+            pri.customDestination = pri.destinationStationName || pri.customDestination || '甲府';
+            sec.customDestination = dir === 'outbound' ? '河口湖' : '新宿';
+
+            pri.coupling = {
+              role: 'PRIMARY',
+              fromStationId: fromSt,
+              toStationId: toSt,
+              coupledTripId: sec.tripId,
+              coupledTrainNumber: sec.trainNumber,
+              coupledCars: 3,
+              coupledDestination: dir === 'outbound' ? '河口湖' : '新宿'
+            };
+
+            sec.coupling = {
+              role: 'SECONDARY',
+              fromStationId: fromSt,
+              toStationId: toSt,
+              coupledTripId: pri.tripId,
+              coupledTrainNumber: pri.trainNumber,
+              coupledCars: 9,
+              coupledDestination: pri.customDestination || '甲府'
+            };
+
+            countChuo += 2;
+            break;
+          }
+        }
+      }
+    }
+  }
+
+  safeWriteJson(cmPath, cmTrips);
+  safeWriteJson(chuoPath, chuoTrips);
+  console.log(`  -> 中央本線: ${countCM} 件、中央線快速: ${countChuo} 件の併結トリップを設定完了`);
 }
 
 /**

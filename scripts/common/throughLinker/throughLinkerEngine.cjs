@@ -94,17 +94,28 @@ function deduplicateLineTrips(trips) {
       continue;
     }
 
-    // 併結列車（特急など異なる列車番号・行先を持つ列車）の判定
-    const byTrainNo = new Map();
+    // 併結列車（特急など異なる列車番号・行先を持つ列車、または coupling を持つ列車）の判定
+    const byTrainOrDest = new Map();
     for (const t of list) {
-      const trainKey = t.trainNumber || extractYahooTrainId(t.tripId) || t.tripId;
-      if (!byTrainNo.has(trainKey)) byTrainNo.set(trainKey, []);
-      byTrainNo.get(trainKey).push(t);
+      let trainKey = t.tripId;
+      if (t.coupling) {
+        trainKey = `${t.trainNumber || ''}_${t.coupling.role}_${t.customDestination || ''}`;
+      } else if (t.tripId && t.tripId.includes('_fuji')) {
+        trainKey = `${t.trainNumber || ''}_fuji_${t.customDestination || ''}`;
+      } else if (t.trainNumber && t.customDestination) {
+        trainKey = `${t.trainNumber}_${t.customDestination}`;
+      } else if (t.trainNumber) {
+        trainKey = t.trainNumber;
+      } else if (extractYahooTrainId(t.tripId)) {
+        trainKey = extractYahooTrainId(t.tripId);
+      }
+      if (!byTrainOrDest.has(trainKey)) byTrainOrDest.set(trainKey, []);
+      byTrainOrDest.get(trainKey).push(t);
     }
 
-    // 異なる列車番号を持つ優等列車または併結設定列車が存在する場合、それぞれの列車を保護
-    if (byTrainNo.size > 1 && list.some(t => isExpressType(t.trainType) || t.coupling)) {
-      for (const subList of byTrainNo.values()) {
+    // 異なる列車キーを持つ優等列車または併結設定列車が存在する場合、それぞれの列車を保護
+    if (byTrainOrDest.size > 1 && list.some(t => isExpressType(t.trainType) || t.coupling || (t.tripId && t.tripId.includes('_fuji')))) {
+      for (const subList of byTrainOrDest.values()) {
         if (subList.length === 1) {
           cleaned.push(subList[0]);
         } else {
@@ -403,10 +414,16 @@ function linkPair({
       const destB = getEffectiveDestination(tB, stationMap);
 
       // 1. 完全一致 (Yahoo trainId または 公式列車番号)
-      if ((yIdA && yIdB && yIdA === yIdB && diff <= maxTimeDiff) || (noA && noB && noA === noB && diff <= maxTimeDiff)) {
-        bestB = tB;
-        bestScore = -9999;
-        break;
+      const isIdMatch = (yIdA && yIdB && yIdA === yIdB && diff <= maxTimeDiff) || (noA && noB && noA === noB && diff <= maxTimeDiff);
+      if (isIdMatch) {
+        // 行先が両方存在し、かつ互換性がない場合は誤マッチ（併結列車の別編成など）なので即決しない
+        if (destA && destB && !areDestinationsCompatible(destA, destB)) {
+          // スキップして次の候補へ
+        } else {
+          bestB = tB;
+          bestScore = -9999;
+          break;
+        }
       }
 
       if (requireIdMatch) continue;

@@ -1272,7 +1272,7 @@ module.exports = {
       stationB: 'FJ-01',
       dirA: 'outbound',
       dirB: 'outbound',
-      maxTimeDiff: 600,
+      maxTimeDiff: 1200,
     },
     {
       name: '富士急行線 -> 中央本線 (上り 大月駅経由 新宿・東京・高尾方面直通 富士回遊・普通)',
@@ -1280,6 +1280,28 @@ module.exports = {
       lineB: 'chuo_main',
       stationA: 'FJ-01',
       stationB: 'JC-32',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 1200,
+    },
+
+    // 52-2. JR中央線 ↔ JR中央本線 (高尾駅)
+    {
+      name: '中央線 -> 中央本線 (下り 高尾駅経由 大月・甲府・松本・河口湖方面直通 特急あずさ・かいじ・富士回遊・快速等)',
+      lineA: 'chuo',
+      lineB: 'chuo_main',
+      stationA: 'JC-24',
+      stationB: 'JC-24',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 600,
+    },
+    {
+      name: '中央本線 -> 中央線 (上り 高尾駅経由 新宿・東京方面直通 特急あずさ・かいじ・富士回遊・普通・快速等)',
+      lineA: 'chuo_main',
+      lineB: 'chuo',
+      stationA: 'JC-24',
+      stationB: 'JC-24',
       dirA: 'inbound',
       dirB: 'inbound',
       maxTimeDiff: 600,

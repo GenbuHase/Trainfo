@@ -9,8 +9,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "国府津",
     "nameKana": "こうづ",
     "nameEn": "Kozu",
-    "lat": 35.281209,
-    "lng": 139.214225,
+    "lat": 35.2812092,
+    "lng": 139.2142253,
     "transfers": [
       "JR東海道線"
     ],
@@ -39,8 +39,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "下曽我",
     "nameKana": "しもそが",
     "nameEn": "Shimo-Soga",
-    "lat": 35.3045,
-    "lng": 139.1824,
+    "lat": 35.3037445,
+    "lng": 139.183086,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -67,8 +67,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "上大井",
     "nameKana": "かみおおい",
     "nameEn": "Kami-Oi",
-    "lat": 35.32282,
-    "lng": 139.16253,
+    "lat": 35.3222284,
+    "lng": 139.1631762,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -95,8 +95,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "相模金子",
     "nameKana": "さがみかねこ",
     "nameEn": "Sagami-Kaneko",
-    "lat": 35.33454,
-    "lng": 139.14971,
+    "lat": 35.3338379,
+    "lng": 139.1505493,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -123,8 +123,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "松田",
     "nameKana": "まつだ",
     "nameEn": "Matsuda",
-    "lat": 35.344702,
-    "lng": 139.139599,
+    "lat": 35.3447025,
+    "lng": 139.1395994,
     "transfers": [
       "小田急小田原線（新松田駅）"
     ],
@@ -154,8 +154,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "東山北",
     "nameKana": "ひがしやまきた",
     "nameEn": "Higashi-Yamakita",
-    "lat": 35.35792,
-    "lng": 139.10733,
+    "lat": 35.3564098,
+    "lng": 139.1092192,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -182,8 +182,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "山北",
     "nameKana": "やまきた",
     "nameEn": "Yamakita",
-    "lat": 35.36055,
-    "lng": 139.079,
+    "lat": 35.3607487,
+    "lng": 139.080168,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -211,8 +211,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "谷峨",
     "nameKana": "やが",
     "nameEn": "Yaga",
-    "lat": 35.36694,
-    "lng": 139.03815,
+    "lat": 35.3668455,
+    "lng": 139.0381971,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -239,8 +239,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "駿河小山",
     "nameKana": "するがおやま",
     "nameEn": "Suruga-Oyama",
-    "lat": 35.35958,
-    "lng": 138.99636,
+    "lat": 35.3595824,
+    "lng": 138.9962701,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -268,8 +268,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "足柄",
     "nameKana": "あしがら",
     "nameEn": "Ashigara",
-    "lat": 35.3332,
-    "lng": 138.98159,
+    "lat": 35.3333087,
+    "lng": 138.9814826,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -296,8 +296,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "御殿場",
     "nameKana": "ごてんば",
     "nameEn": "Gotemba",
-    "lat": 35.30085,
-    "lng": 138.93498,
+    "lat": 35.3016804,
+    "lng": 138.9356804,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -325,8 +325,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "南御殿場",
     "nameKana": "みなみごてんば",
     "nameEn": "Minami-Gotemba",
-    "lat": 35.27789,
-    "lng": 138.92609,
+    "lat": 35.2793595,
+    "lng": 138.9269364,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -353,8 +353,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "富士岡",
     "nameKana": "ふじおか",
     "nameEn": "Fujioka",
-    "lat": 35.25599,
-    "lng": 138.92005,
+    "lat": 35.2565648,
+    "lng": 138.9202576,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -381,8 +381,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "岩波",
     "nameKana": "いわなみ",
     "nameEn": "Iwanami",
-    "lat": 35.21395,
-    "lng": 138.91918,
+    "lat": 35.2142376,
+    "lng": 138.919229,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -409,8 +409,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "裾野",
     "nameKana": "すその",
     "nameEn": "Susono",
-    "lat": 35.17036,
-    "lng": 138.90876,
+    "lat": 35.1706885,
+    "lng": 138.9090606,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -437,8 +437,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "長泉なめり",
     "nameKana": "ながいずみなめり",
     "nameEn": "Nagaizumi-Nameri",
-    "lat": 35.14812,
-    "lng": 138.89951,
+    "lat": 35.1490749,
+    "lng": 138.8997132,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -465,8 +465,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "下土狩",
     "nameKana": "しもとがり",
     "nameEn": "Shimo-Togari",
-    "lat": 35.12761,
-    "lng": 138.89514,
+    "lat": 35.128054,
+    "lng": 138.8952699,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -493,8 +493,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "大岡",
     "nameKana": "おおおか",
     "nameEn": "Ooka",
-    "lat": 35.11582,
-    "lng": 138.88105,
+    "lat": 35.1159367,
+    "lng": 138.8813066,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -521,8 +521,8 @@ export const GOTEMBA_STATIONS: Station[] = [
     "name": "沼津",
     "nameKana": "ぬまづ",
     "nameEn": "Numazu",
-    "lat": 35.103127,
-    "lng": 138.859335,
+    "lat": 35.1031271,
+    "lng": 138.8593352,
     "transfers": [
       "JR東海道本線"
     ],

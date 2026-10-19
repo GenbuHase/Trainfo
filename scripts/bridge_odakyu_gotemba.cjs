@@ -2,7 +2,19 @@ const fs = require('fs');
 const path = require('path');
 
 function safeWriteJson(filePath, data) {
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + '\n', 'utf8');
+  const content = JSON.stringify(data, null, 2) + '\n';
+  let attempts = 0;
+  while (attempts < 5) {
+    try {
+      fs.writeFileSync(filePath, content, 'utf8');
+      break;
+    } catch (e) {
+      attempts++;
+      if (attempts >= 5) throw e;
+      const start = Date.now();
+      while (Date.now() - start < 100) {}
+    }
+  }
 }
 
 function bridgeOdakyuGotemba() {

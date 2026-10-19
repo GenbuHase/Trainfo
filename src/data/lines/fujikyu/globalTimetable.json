@@ -1357,7 +1357,7 @@
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
-    "customOrigin": "高尾",
+    "customOrigin": "東京",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1727,7 +1727,7 @@
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
-    "customOrigin": "新宿",
+    "customOrigin": "千葉",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2211,7 +2211,7 @@
     ],
     "trainId": "92367",
     "customDestination": "河口湖",
-    "customOrigin": "高尾",
+    "customOrigin": "東京",
     "prevTripId": "cm_WD_OUT_JC-24_0826_10031",
     "prevLineId": "chuo_main"
   },
@@ -3081,7 +3081,7 @@
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
-    "customDestination": "高尾(東京都)",
+    "customDestination": "高尾",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3190,11 +3190,14 @@
       {
         "stationId": "FJ-01",
         "arrivalTime": "11:35:00",
-        "departureTime": "11:50:00",
+        "departureTime": "11:35:00",
         "isPassing": false
       }
     ],
-    "trainId": "40933"
+    "trainId": "40933",
+    "customOrigin": "河口湖",
+    "throughTripId": "cm_WD_INB_JC-32_1150_40806",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_1042_38929",
@@ -5887,11 +5890,14 @@
       {
         "stationId": "FJ-01",
         "arrivalTime": "14:56:00",
-        "departureTime": "15:07:00",
+        "departureTime": "14:56:00",
         "isPassing": false
       }
     ],
-    "trainId": "39568"
+    "trainId": "39568",
+    "customOrigin": "河口湖",
+    "throughTripId": "cm_WD_INB_JC-32_1507_39443",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_1425_92376",
@@ -8462,11 +8468,14 @@
       {
         "stationId": "FJ-01",
         "arrivalTime": "18:28:00",
-        "departureTime": "18:43:00",
+        "departureTime": "18:28:00",
         "isPassing": false
       }
     ],
-    "trainId": "39576"
+    "trainId": "39576",
+    "customOrigin": "河口湖",
+    "throughTripId": "cm_WD_INB_JC-32_1843_39451",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_1747_92381",
@@ -10057,7 +10066,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38921"
+    "trainId": "38921",
+    "customDestination": "河口湖",
+    "prevTripId": "cm_WD_OUT_JC-01_1904_38796",
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "WD_INB_FJ-18_2116_92445",
@@ -12149,7 +12161,7 @@
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
-    "customOrigin": "高尾",
+    "customOrigin": "東京",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -12519,7 +12531,7 @@
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
-    "customOrigin": "新宿",
+    "customOrigin": "千葉",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -13138,7 +13150,7 @@
     "stops": [
       {
         "stationId": "FJ-01",
-        "arrivalTime": "09:19:00",
+        "arrivalTime": "09:08:00",
         "departureTime": "09:19:00",
         "isPassing": false
       },
@@ -13245,7 +13257,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "92368"
+    "trainId": "92368",
+    "customDestination": "河口湖",
+    "customOrigin": "東京",
+    "prevTripId": "cm_HD_OUT_JC-24_0824_10030",
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_0942_38922",
@@ -13995,7 +14011,7 @@
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
-    "customDestination": "高尾(東京都)",
+    "customDestination": "高尾",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -14104,11 +14120,12 @@
       {
         "stationId": "FJ-01",
         "arrivalTime": "11:35:00",
-        "departureTime": "11:47:00",
+        "departureTime": "11:35:00",
         "isPassing": false
       }
     ],
-    "trainId": "40932"
+    "trainId": "40932",
+    "customOrigin": "河口湖"
   },
   {
     "tripId": "HD_OUT_FJ-01_1042_38927",
@@ -16675,11 +16692,14 @@
       {
         "stationId": "FJ-01",
         "arrivalTime": "14:56:00",
-        "departureTime": "15:07:00",
+        "departureTime": "14:56:00",
         "isPassing": false
       }
     ],
-    "trainId": "39566"
+    "trainId": "39566",
+    "customOrigin": "河口湖",
+    "throughTripId": "cm_HD_INB_JC-32_1507_39442",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_1425_92376",
@@ -18022,11 +18042,14 @@
       {
         "stationId": "FJ-01",
         "arrivalTime": "17:10:00",
-        "departureTime": "17:23:00",
+        "departureTime": "17:10:00",
         "isPassing": false
       }
     ],
-    "trainId": "39573"
+    "trainId": "39573",
+    "customOrigin": "河口湖",
+    "throughTripId": "cm_HD_INB_JC-32_1723_39448",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_FJ-18_1628_92434",
@@ -19003,11 +19026,14 @@
       {
         "stationId": "FJ-01",
         "arrivalTime": "18:28:00",
-        "departureTime": "18:43:00",
+        "departureTime": "18:28:00",
         "isPassing": false
       }
     ],
-    "trainId": "39577"
+    "trainId": "39577",
+    "customOrigin": "河口湖",
+    "throughTripId": "cm_HD_INB_JC-32_1843_39453",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_1747_92381",
@@ -20598,7 +20624,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "38919"
+    "trainId": "38919",
+    "customDestination": "河口湖",
+    "prevTripId": "cm_HD_OUT_JC-01_1909_38794",
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_FJ-18_2116_92445",

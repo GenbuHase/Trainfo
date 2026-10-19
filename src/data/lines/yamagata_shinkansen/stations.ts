@@ -8,8 +8,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "name": "福島",
     "nameKana": "ふくしま",
     "nameEn": "Fukushima",
-    "lat": 37.754408,
-    "lng": 140.458623,
+    "lat": 37.7544085,
+    "lng": 140.4586226,
     "transfers": [
       "東北新幹線",
       "JR東北本線"
@@ -38,8 +38,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "name": "米沢",
     "nameKana": "よねざわ",
     "nameEn": "Yonezawa",
-    "lat": 37.90759,
-    "lng": 140.12887,
+    "lat": 37.90739,
+    "lng": 140.1289914,
     "transfers": [
       "JR米坂線"
     ],
@@ -67,8 +67,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "name": "高畠",
     "nameKana": "たかはた",
     "nameEn": "Takahata",
-    "lat": 37.99145,
-    "lng": 140.15277,
+    "lat": 37.9904732,
+    "lng": 140.1528001,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -94,8 +94,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "name": "赤湯",
     "nameKana": "あかゆ",
     "nameEn": "Akayu",
-    "lat": 38.04789,
-    "lng": 140.14917,
+    "lat": 38.0481525,
+    "lng": 140.1491277,
     "transfers": [
       "山形鉄道フラワー長井線"
     ],
@@ -123,8 +123,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "name": "かみのやま温泉",
     "nameKana": "かみのやまおんせん",
     "nameEn": "Kaminoyama-Onsen",
-    "lat": 38.15263,
-    "lng": 140.27894,
+    "lat": 38.1521869,
+    "lng": 140.2787263,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -150,8 +150,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "name": "山形",
     "nameKana": "やまがた",
     "nameEn": "Yamagata",
-    "lat": 38.24922,
-    "lng": 140.32789,
+    "lat": 38.2493587,
+    "lng": 140.3278969,
     "transfers": [
       "JR仙山線",
       "JR左沢線"
@@ -180,8 +180,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "name": "天童",
     "nameKana": "てんどう",
     "nameEn": "Tendo",
-    "lat": 38.35946,
-    "lng": 140.36931,
+    "lat": 38.3585464,
+    "lng": 140.369195,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -207,8 +207,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "name": "さくらんぼ東根",
     "nameKana": "さくらんぼひがしね",
     "nameEn": "Sakuranbo-Higashine",
-    "lat": 38.4294,
-    "lng": 140.38087,
+    "lat": 38.4291456,
+    "lng": 140.3808975,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -234,8 +234,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "name": "村山",
     "nameKana": "むらやま",
     "nameEn": "Murayama",
-    "lat": 38.47787,
-    "lng": 140.3864,
+    "lat": 38.4769779,
+    "lng": 140.3864089,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -261,8 +261,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "name": "大石田",
     "nameKana": "おおいしだ",
     "nameEn": "Oishida",
-    "lat": 38.59529,
-    "lng": 140.37577,
+    "lat": 38.5940058,
+    "lng": 140.3767066,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -288,8 +288,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "name": "新庄",
     "nameKana": "しんじょう",
     "nameEn": "Shinjo",
-    "lat": 38.76386,
-    "lng": 140.3059,
+    "lat": 38.763783,
+    "lng": 140.3059794,
     "transfers": [
       "JR奥羽本線",
       "JR陸羽西線",
