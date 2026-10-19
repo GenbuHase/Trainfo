@@ -31,10 +31,6 @@ export const YAMAGATA_SHINKANSEN_TRACK_SEGMENTS: TrackSegment[] = [
         140.4586638
       ],
       [
-        37.7566776,
-        140.458578
-      ],
-      [
         37.7575294,
         140.4586304
       ],
@@ -10672,18 +10668,6 @@ export const YAMAGATA_SHINKANSEN_TRACK_SEGMENTS: TrackSegment[] = [
       [
         38.7585808,
         140.3065681
-      ],
-      [
-        38.7590007,
-        140.3065147
-      ],
-      [
-        38.7587464,
-        140.3065757
-      ],
-      [
-        38.7585219,
-        140.3066259
       ],
       [
         38.7590065,

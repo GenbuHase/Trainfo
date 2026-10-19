@@ -10,6 +10,7 @@ import {
 import {
   timeStringToSeconds,
   formatTrainNumber,
+  getGlobalTripMap,
 } from '../data/timetableData';
 import { getCombinedGlobalTimetable } from '../data/linesRegistry';
 
@@ -76,21 +77,36 @@ export function resolveActiveTrainInfo(
       const minIdx = Math.min(fromIdx, toIdx);
       const maxIdx = Math.max(fromIdx, toIdx);
 
-      // 解結駅（toStationId）に到着した時点、または解結駅より先へ走行している場合は解結済み（isCoupledActive = false）
-      // ただし直通先（throughTripId）へ併結が継続している場合、境界駅（maxIdx）は解結駅ではないため併結を維持
-      const continuesThrough = Boolean(trip.throughTripId);
+      // 併結有効区間の判定:
+      // minIdx <= curIdx < maxIdx の場合、走行中（解結駅 maxIdx へ向かう区間を含む）および途中停車中は併結走行中
+      // 解結駅（maxIdx）に到着・停車した時点、または解結駅より先へ走行している場合は原則として解結済み
+      // ただし直通先（throughTripId）へ併結が継続している場合（直通先トリップも coupling を持つ場合）のみ、解結駅停車中も併結状態を維持
       let inCoupledRange = false;
-      if (nextStationId) {
-        const nextIdx = trip.stops.findIndex((s) => s.stationId === nextStationId);
-        if (nextIdx !== -1) {
-          inCoupledRange = curIdx >= minIdx && (continuesThrough ? nextIdx <= maxIdx : nextIdx < maxIdx);
+      if (curIdx < minIdx) {
+        inCoupledRange = false;
+      } else if (curIdx < maxIdx) {
+        // 併結開始駅から解結駅の手前まで（新花巻〜盛岡間など、次の駅が解結駅 maxIdx であっても走行中は併結中）
+        inCoupledRange = true;
+      } else if (curIdx === maxIdx) {
+        // 解結駅に到着・停車中、または解結駅を出発後
+        const isRunningBeyond = nextStationId
+          ? trip.stops.findIndex((s) => s.stationId === nextStationId) > maxIdx
+          : false;
+
+        if (isRunningBeyond) {
+          inCoupledRange = false;
         } else {
-          inCoupledRange = curIdx >= minIdx && (continuesThrough ? curIdx <= maxIdx : curIdx < maxIdx);
+          // 解結駅停車中: 直通先でも併結が継続しているか判定
+          let nextHasCoupling = false;
+          if (trip.throughTripId) {
+            const tripMap = getGlobalTripMap();
+            const nextTrip = tripMap.get(trip.throughTripId);
+            nextHasCoupling = Boolean(nextTrip?.coupling);
+          }
+          inCoupledRange = nextHasCoupling;
         }
       } else {
-        // 停車中の場合: 解結駅（maxIdx）では通常分割作業となるため解結済みだが、
-        // 直通先へ継続する場合は境界駅でも併結状態を維持
-        inCoupledRange = curIdx >= minIdx && (continuesThrough ? curIdx <= maxIdx : curIdx < maxIdx);
+        inCoupledRange = false;
       }
 
       if (inCoupledRange) {

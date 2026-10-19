@@ -9,8 +9,8 @@ export const IZUHAKONE_SUNZU_STATIONS: Station[] = [
     "name": "三島",
     "nameKana": "みしま",
     "nameEn": "Mishima",
-    "lat": 35.1264,
-    "lng": 138.9109,
+    "lat": 35.1259904,
+    "lng": 138.9111786,
     "transfers": [
       "JR東海道本線",
       "東海道新幹線"

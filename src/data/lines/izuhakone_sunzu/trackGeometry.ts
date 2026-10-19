@@ -7,10 +7,6 @@ export const IZUHAKONE_SUNZU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "IS-02",
     "coordinates": [
       [
-        35.1264,
-        138.9109
-      ],
-      [
         35.1259904,
         138.9111786
       ],
