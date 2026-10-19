@@ -745,6 +745,22 @@ function executeUniversalThroughLinker(options = {}) {
   const updatedDestCount = resolveAllChainDestinations(allTripsMap, stationMap);
   console.log(`✅ End-to-End 行先同期完了: ${updatedDestCount} トリップの customDestination を同期・統一`);
 
+  // 5.5 相手が存在しない孤立カップリングの自動クリーンアップ
+  let orphanCouplingCount = 0;
+  for (const trips of lineTrips.values()) {
+    for (const t of trips) {
+      if (t.coupling && t.coupling.coupledTripId) {
+        if (!allTripsMap.has(t.coupling.coupledTripId)) {
+          delete t.coupling;
+          orphanCouplingCount++;
+        }
+      }
+    }
+  }
+  if (orphanCouplingCount > 0) {
+    console.log(`🧹 相手が存在しない孤立カップリングを ${orphanCouplingCount} 件クリーンアップしました`);
+  }
+
   // 6. 全路線の globalTimetable.json を安全に書き出し
   console.log('\n--- globalTimetable.json 保存 ---');
   for (const [lineId, trips] of lineTrips.entries()) {

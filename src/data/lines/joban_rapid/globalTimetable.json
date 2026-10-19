@@ -45693,14 +45693,14 @@
     "direction": "inbound",
     "originStationId": "JJ-10",
     "destinationStationId": "JJ-01",
-    "customOrigin": "勝田",
+    "customOrigin": "土浦",
     "customDestination": "品川",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JJ-10",
-        "arrivalTime": "18:39:07",
+        "arrivalTime": "18:17:00",
         "departureTime": "18:45:00",
         "isPassing": false
       },
@@ -45760,7 +45760,7 @@
       }
     ],
     "trainId": "10122",
-    "prevTripId": "HD_INB_JN-18_1747_10136",
+    "prevTripId": "HD_INB_JN-07_1748_10121",
     "prevLineId": "joban_toride_iwaki",
     "throughTripId": "HD_INB_UT-02_1924_10122",
     "throughLineId": "ueno_tokyo"
@@ -45773,27 +45773,27 @@
     "direction": "inbound",
     "originStationId": "JJ-10",
     "destinationStationId": "JJ-01",
-    "customOrigin": "土浦",
+    "customOrigin": "勝田",
     "customDestination": "品川",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JJ-10",
-        "arrivalTime": "18:17:00",
-        "departureTime": "18:39:07",
+        "arrivalTime": "18:39:07",
+        "departureTime": "18:45:00",
         "isPassing": true
       },
       {
         "stationId": "JJ-09",
-        "arrivalTime": "18:41:04",
-        "departureTime": "18:41:04",
+        "arrivalTime": "18:45:00",
+        "departureTime": "18:45:00",
         "isPassing": true
       },
       {
         "stationId": "JJ-08",
-        "arrivalTime": "18:42:45",
-        "departureTime": "18:42:45",
+        "arrivalTime": "18:45:00",
+        "departureTime": "18:45:00",
         "isPassing": true
       },
       {
@@ -45840,7 +45840,7 @@
       }
     ],
     "trainId": "10136",
-    "prevTripId": "HD_INB_JN-07_1748_10121",
+    "prevTripId": "HD_INB_JN-18_1747_10136",
     "prevLineId": "joban_toride_iwaki",
     "throughTripId": "HD_INB_UT-02_1907_10136",
     "throughLineId": "ueno_tokyo"

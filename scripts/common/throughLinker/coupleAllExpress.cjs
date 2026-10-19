@@ -101,6 +101,21 @@ function coupleTohokuShinkansen() {
 
   trips = restoreTohokuDownTrips(trips);
 
+  const thConfig = require('../../lines/tohoku_shinkansen/config.cjs');
+  const thStationsMap = new Map((thConfig.stations || []).map(s => [s.id, s.name]));
+
+  function getTripFinalDest(trip) {
+    if (trip.customDestination) return trip.customDestination;
+    if (trip.destinationStationId && thStationsMap.has(trip.destinationStationId)) {
+      return thStationsMap.get(trip.destinationStationId);
+    }
+    const last = trip.stops && trip.stops[trip.stops.length - 1];
+    if (last && last.stationId && thStationsMap.has(last.stationId)) {
+      return thStationsMap.get(last.stationId);
+    }
+    return '';
+  }
+
   // 既存の coupling をクリアして再計算可能に
   for (const t of trips) {
     delete t.coupling;
@@ -136,8 +151,10 @@ function coupleTohokuShinkansen() {
 
           y.cars = 10;
           match.cars = 7;
-          y.customDestination = y.destinationStationName || '仙台';
-          match.customDestination = match.destinationStationName || '新庄';
+          if (dir === 'inbound') {
+            if (y.destinationStationId === 'TS-01') delete y.customDestination;
+            if (match.destinationStationId === 'TS-01') delete match.customDestination;
+          }
 
           y.coupling = {
             role: 'PRIMARY',
@@ -146,7 +163,7 @@ function coupleTohokuShinkansen() {
             coupledTripId: match.tripId,
             coupledTrainNumber: match.trainNumber,
             coupledCars: 7,
-            coupledDestination: match.destinationStationName || '新庄'
+            coupledDestination: getTripFinalDest(match) || (dir === 'outbound' ? '新庄' : '東京')
           };
 
           match.coupling = {
@@ -156,7 +173,7 @@ function coupleTohokuShinkansen() {
             coupledTripId: y.tripId,
             coupledTrainNumber: y.trainNumber,
             coupledCars: 10,
-            coupledDestination: y.destinationStationName || '仙台'
+            coupledDestination: getTripFinalDest(y) || (dir === 'outbound' ? '仙台' : '東京')
           };
 
           count += 2;
@@ -187,8 +204,10 @@ function coupleTohokuShinkansen() {
 
           h.cars = 10;
           match.cars = 7;
-          h.customDestination = h.destinationStationName || '新函館北斗';
-          match.customDestination = match.destinationStationName || '秋田';
+          if (dir === 'inbound') {
+            if (h.destinationStationId === 'TS-01') delete h.customDestination;
+            if (match.destinationStationId === 'TS-01') delete match.customDestination;
+          }
 
           h.coupling = {
             role: 'PRIMARY',
@@ -197,7 +216,7 @@ function coupleTohokuShinkansen() {
             coupledTripId: match.tripId,
             coupledTrainNumber: match.trainNumber,
             coupledCars: 7,
-            coupledDestination: match.destinationStationName || '秋田'
+            coupledDestination: getTripFinalDest(match) || (dir === 'outbound' ? '秋田' : '東京')
           };
 
           match.coupling = {
@@ -207,7 +226,7 @@ function coupleTohokuShinkansen() {
             coupledTripId: h.tripId,
             coupledTrainNumber: h.trainNumber,
             coupledCars: 10,
-            coupledDestination: h.destinationStationName || '新函館北斗'
+            coupledDestination: getTripFinalDest(h) || (dir === 'outbound' ? '新函館北斗' : '東京')
           };
 
           count += 2;
@@ -628,8 +647,13 @@ function coupleTokaidoOdoriko() {
 
               pri.cars = 9;
               sec.cars = 5;
-              pri.customDestination = '伊豆急下田';
-              sec.customDestination = '修善寺';
+              if (dir === 'outbound') {
+                pri.customDestination = '伊豆急下田';
+                sec.customDestination = '修善寺';
+              } else {
+                delete pri.customDestination;
+                delete sec.customDestination;
+              }
 
               pri.coupling = {
                 role: 'PRIMARY',
@@ -638,7 +662,7 @@ function coupleTokaidoOdoriko() {
                 coupledTripId: sec.tripId,
                 coupledTrainNumber: sec.trainNumber,
                 coupledCars: 5,
-                coupledDestination: '修善寺'
+                coupledDestination: dir === 'outbound' ? '修善寺' : '東京'
               };
 
               sec.coupling = {
@@ -648,7 +672,7 @@ function coupleTokaidoOdoriko() {
                 coupledTripId: pri.tripId,
                 coupledTrainNumber: pri.trainNumber,
                 coupledCars: 9,
-                coupledDestination: '伊豆急下田'
+                coupledDestination: dir === 'outbound' ? '伊豆急下田' : '東京'
               };
 
               count += 2;
