@@ -10,8 +10,8 @@ export const ITSUKAICHI_STATIONS: Station[] = [
     "name": "拝島",
     "nameKana": "はいじま",
     "nameEn": "Haijima",
-    "lat": 35.7211549,
-    "lng": 139.3434109,
+    "lat": 35.7211908,
+    "lng": 139.3434833,
     "transfers": [
       "JR青梅線",
       "JR八高線",

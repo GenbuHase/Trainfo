@@ -273,8 +273,8 @@ export const MYOKO_HANEUMA_STATIONS: Station[] = [
     "name": "直江津",
     "nameKana": "なおえつ",
     "nameEn": "Naoetsu",
-    "lat": 37.1701133,
-    "lng": 138.2423883,
+    "lat": 37.170251,
+    "lng": 138.242265,
     "transfers": [
       "JR信越本線",
       "妙高はねうまライン",

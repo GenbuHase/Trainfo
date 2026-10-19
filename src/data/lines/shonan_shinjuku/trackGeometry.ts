@@ -7,8 +7,8 @@ export const SHONAN_SHINJUKU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JS-23",
     "coordinates": [
       [
-        35.9063604,
-        139.624254
+        35.9063522,
+        139.6242153
       ],
       [
         35.9056519,
@@ -455,8 +455,8 @@ export const SHONAN_SHINJUKU_TRACK_SEGMENTS: TrackSegment[] = [
         139.6567784
       ],
       [
-        35.8589467,
-        139.6570738
+        35.8589661,
+        139.6571243
       ]
     ]
   },
@@ -466,8 +466,8 @@ export const SHONAN_SHINJUKU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JS-22",
     "coordinates": [
       [
-        35.8589467,
-        139.6570738
+        35.8589661,
+        139.6571243
       ],
       [
         35.85834475,
@@ -6091,8 +6091,8 @@ export const SHONAN_SHINJUKU_TRACK_SEGMENTS: TrackSegment[] = [
         139.6225716
       ],
       [
-        35.4658955,
-        139.6221174
+        35.4657932,
+        139.6222892
       ]
     ]
   },
@@ -6102,8 +6102,8 @@ export const SHONAN_SHINJUKU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JS-03",
     "coordinates": [
       [
-        35.4658955,
-        139.6221174
+        35.4657932,
+        139.6222892
       ],
       [
         35.4655092,
@@ -7018,8 +7018,8 @@ export const SHONAN_SHINJUKU_TRACK_SEGMENTS: TrackSegment[] = [
         139.5342829
       ],
       [
-        35.4006169,
-        139.5344609
+        35.400582,
+        139.5342993
       ]
     ]
   },
@@ -7029,8 +7029,8 @@ export const SHONAN_SHINJUKU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JS-01",
     "coordinates": [
       [
-        35.4006169,
-        139.5344609
+        35.400582,
+        139.5342993
       ],
       [
         35.400275,
@@ -7457,16 +7457,16 @@ export const SHONAN_SHINJUKU_TRACK_SEGMENTS: TrackSegment[] = [
         139.5313575
       ],
       [
-        35.3547045,
-        139.5313313
+        35.35455075,
+        139.53138635
       ],
       [
-        35.3544551,
-        139.5312308
+        35.3544263,
+        139.5313362
       ],
       [
-        35.354372,
-        139.5311941
+        35.3543387,
+        139.5313165
       ]
     ]
   }

@@ -82,8 +82,8 @@ export function useTrainTracker({
             }
             if (
               found.customDestination &&
-              (!successor.customDestination ||
-                successor.customDestination === STATION_MAP.get(successor.destinationStationId)?.name)
+              !successor.customDestination &&
+              !found.isCoupledActive
             ) {
               successor.customDestination = found.customDestination;
             }
@@ -101,12 +101,6 @@ export function useTrainTracker({
         const prevOrigin = prev.customOrigin || STATION_MAP.get(prev.originStationId)?.name;
         if (prevOrigin && (!found.customOrigin || found.customOrigin === STATION_MAP.get(found.originStationId)?.name)) {
           found.customOrigin = prevOrigin;
-        }
-        if (
-          prev.customDestination &&
-          (!found.customDestination || found.customDestination === STATION_MAP.get(found.destinationStationId)?.name)
-        ) {
-          found.customDestination = prev.customDestination;
         }
       }
       return found;
@@ -137,8 +131,8 @@ export function useTrainTracker({
         }
         if (
           prev.customDestination &&
-          (!chainActive.customDestination ||
-            chainActive.customDestination === STATION_MAP.get(chainActive.destinationStationId)?.name)
+          !chainActive.customDestination &&
+          !prev.isCoupledActive
         ) {
           chainActive.customDestination = prev.customDestination;
         }

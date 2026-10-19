@@ -110,8 +110,8 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     "name": "松戸",
     "nameKana": "まつど",
     "nameEn": "Matsudo",
-    "lat": 35.7844587,
-    "lng": 139.9006882,
+    "lat": 35.7845283,
+    "lng": 139.9004334,
     "transfers": [
       "JR常磐線快速",
       "新京成線"
@@ -310,8 +310,8 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     "name": "柏",
     "nameKana": "かしわ",
     "nameEn": "Kashiwa",
-    "lat": 35.8623047,
-    "lng": 139.9710976,
+    "lat": 35.8623843,
+    "lng": 139.9709425,
     "transfers": [
       "JR常磐線快速",
       "東武アーバンパークライン"
@@ -377,8 +377,8 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     "name": "我孫子",
     "nameKana": "あびこ",
     "nameEn": "Abiko",
-    "lat": 35.8726835,
-    "lng": 140.0107674,
+    "lat": 35.8729998,
+    "lng": 140.0107446,
     "transfers": [
       "JR常磐線快速",
       "JR成田線（我孫子支線）"
@@ -446,8 +446,8 @@ export const JOBAN_LOCAL_STATIONS: Station[] = [
     "name": "取手",
     "nameKana": "とりで",
     "nameEn": "Toride",
-    "lat": 35.8953081,
-    "lng": 140.062923,
+    "lat": 35.8956226,
+    "lng": 140.0627766,
     "transfers": [
       "JR常磐線快速",
       "関東鉄道常総線"

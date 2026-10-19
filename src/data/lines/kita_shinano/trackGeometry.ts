@@ -7,8 +7,16 @@ export const KITA_SHINANO_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "SRK-02",
     "coordinates": [
       [
-        36.6438932,
-        138.1896132
+        36.643211,
+        138.1884854
+      ],
+      [
+        36.64355,
+        138.18905
+      ],
+      [
+        36.64355,
+        138.18905
       ],
       [
         36.6441441,

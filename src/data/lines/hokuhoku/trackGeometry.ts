@@ -7,12 +7,12 @@ export const HOKUHOKU_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "HK-02",
     "coordinates": [
       [
-        37.0672382,
-        138.8756807
+        37.0670998,
+        138.8759378
       ],
       [
-        37.0676373,
-        138.8760817
+        37.06747,
+        138.87601
       ],
       [
         37.067847,
@@ -3261,8 +3261,8 @@ export const HOKUHOKU_TRACK_SEGMENTS: TrackSegment[] = [
         138.3064707
       ],
       [
-        37.210472,
-        138.3056615
+        37.210345,
+        138.305154
       ]
     ]
   }

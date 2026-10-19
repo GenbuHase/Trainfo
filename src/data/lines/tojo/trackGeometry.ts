@@ -1687,12 +1687,12 @@ export const STATION_TRACK_SEGMENTS: TrackSegment[] = [
         139.613924
       ],
       [
-        35.788229,
-        139.612799
+        35.788061,
+        139.613396
       ],
       [
-        35.788401,
-        139.6124
+        35.7883529,
+        139.6128678
       ]
     ]
   },
@@ -1703,8 +1703,8 @@ export const STATION_TRACK_SEGMENTS: TrackSegment[] = [
     "toName": "朝霞",
     "coordinates": [
       [
-        35.788401,
-        139.6124
+        35.7883529,
+        139.6128678
       ],
       [
         35.788959,

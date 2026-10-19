@@ -7,16 +7,16 @@ export const UTSUNOMIYA_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JU-03",
     "coordinates": [
       [
-        35.7135081,
-        139.7763091
+        35.7134394,
+        139.7764768
       ],
       [
-        35.7136322,
-        139.7763912
+        35.7135518,
+        139.7765525
       ],
       [
-        35.7142338,
-        139.7768031
+        35.7140785,
+        139.7769091
       ],
       [
         35.7143406,
@@ -619,8 +619,8 @@ export const UTSUNOMIYA_TRACK_SEGMENTS: TrackSegment[] = [
         139.7539908
       ],
       [
-        35.7468666,
-        139.7536457
+        35.7469489,
+        139.7536899
       ]
     ]
   },
@@ -630,8 +630,8 @@ export const UTSUNOMIYA_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JU-04",
     "coordinates": [
       [
-        35.7468666,
-        139.7536457
+        35.7469489,
+        139.7536899
       ],
       [
         35.7469123,
@@ -1150,8 +1150,8 @@ export const UTSUNOMIYA_TRACK_SEGMENTS: TrackSegment[] = [
         139.7211532
       ],
       [
-        35.7781087,
-        139.720731
+        35.7780922,
+        139.7206948
       ]
     ]
   },
@@ -1161,8 +1161,8 @@ export const UTSUNOMIYA_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JU-05",
     "coordinates": [
       [
-        35.7781087,
-        139.720731
+        35.7780922,
+        139.7206948
       ],
       [
         35.778847,
@@ -2499,8 +2499,8 @@ export const UTSUNOMIYA_TRACK_SEGMENTS: TrackSegment[] = [
         139.6243312
       ],
       [
-        35.9063192,
-        139.6240596
+        35.9063522,
+        139.6242153
       ]
     ]
   },
@@ -2510,8 +2510,8 @@ export const UTSUNOMIYA_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JU-08",
     "coordinates": [
       [
-        35.9063192,
-        139.6240596
+        35.9063522,
+        139.6242153
       ],
       [
         35.9068426,

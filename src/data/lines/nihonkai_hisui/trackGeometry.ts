@@ -3936,8 +3936,8 @@ export const NIHONKAI_HISUI_TRACK_SEGMENTS: TrackSegment[] = [
         138.241521225
       ],
       [
-        37.1703299,
-        138.2422008
+        37.170251,
+        138.242265
       ]
     ]
   }

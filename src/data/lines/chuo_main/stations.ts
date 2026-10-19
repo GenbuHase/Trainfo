@@ -1103,8 +1103,8 @@ export const CHUO_MAIN_STATIONS: Station[] = [
     "name": "塩尻",
     "nameKana": "しおじり",
     "nameEn": "Shiojiri",
-    "lat": 36.114384,
-    "lng": 137.947792,
+    "lat": 36.1144795,
+    "lng": 137.9475995,
     "transfers": [
       "JR中央本線(西線)",
       "JR篠ノ井線"

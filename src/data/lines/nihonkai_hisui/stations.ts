@@ -351,8 +351,8 @@ export const NIHONKAI_HISUI_STATIONS: Station[] = [
     "name": "直江津",
     "nameKana": "なおえつ",
     "nameEn": "Naoetsu",
-    "lat": 37.1703299,
-    "lng": 138.2422008,
+    "lat": 37.170251,
+    "lng": 138.242265,
     "transfers": [
       "JR信越本線",
       "妙高はねうまライン",

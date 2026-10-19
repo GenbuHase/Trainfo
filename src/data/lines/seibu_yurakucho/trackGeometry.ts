@@ -8,8 +8,16 @@ export const SEIBU_YURAKUCHO_TRACK_SEGMENTS: TrackSegment[] = [
     "toName": "新桜台",
     "coordinates": [
       [
-        35.743596,
-        139.679006
+        35.7429781,
+        139.6807045
+      ],
+      [
+        35.743367,
+        139.679685
+      ],
+      [
+        35.743367,
+        139.679685
       ],
       [
         35.743756,

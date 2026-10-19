@@ -169,8 +169,8 @@ export const FUKUTOSHIN_STATIONS: Station[] = [
     "name": "小竹向原",
     "nameKana": "こたけむかいはら",
     "nameEn": "Kotake-mukaihara",
-    "lat": 35.7428773,
-    "lng": 139.6806313,
+    "lat": 35.7429781,
+    "lng": 139.6807045,
     "transfers": [
       "西武有楽町線",
       "東京メトロ有楽町線"

@@ -9,8 +9,8 @@ export const OITO_EAST_STATIONS: Station[] = [
     "name": "松本",
     "nameKana": "まつもと",
     "nameEn": "Matsumoto",
-    "lat": 36.2307332,
-    "lng": 137.9644409,
+    "lat": 36.230739,
+    "lng": 137.9643862,
     "transfers": [
       "JR篠ノ井線",
       "アルピコ交通上高地線"

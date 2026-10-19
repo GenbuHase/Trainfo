@@ -56,6 +56,19 @@ import { kitaShinanoLine } from './lines/kita_shinano';
 import { nihonkaiHisuiLine } from './lines/nihonkai_hisui';
 import { hokuhokuLine } from './lines/hokuhoku';
 import { hokurikuShinkansenLine } from './lines/hokuriku_shinkansen';
+import { tobuSkytreeLine } from './lines/tobu_skytree';
+import { tobuIsesakiLine } from './lines/tobu_isesaki';
+import { tobuKameidoLine } from './lines/tobu_kameido';
+import { tobuDaishiLine } from './lines/tobu_daishi';
+import { tobuSanoLine } from './lines/tobu_sano';
+import { tobuKoizumiLine } from './lines/tobu_koizumi';
+import { tobuKiryuLine } from './lines/tobu_kiryu';
+import { tobuNikkoLine } from './lines/tobu_nikko';
+import { tobuUtsunomiyaLine } from './lines/tobu_utsunomiya';
+import { tobuKinugawaLine } from './lines/tobu_kinugawa';
+import { tobuUrbanParkLine } from './lines/tobu_urban_park';
+import { yaganLine } from './lines/yagan';
+import { aizuLine } from './lines/aizu';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -117,6 +130,19 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   odakyu_odawara: odakyuOdawaraLine,
   odakyu_enoshima: odakyuEnoshimaLine,
   odakyu_tama: odakyuTamaLine,
+  tobu_skytree: tobuSkytreeLine,
+  tobu_isesaki: tobuIsesakiLine,
+  tobu_kameido: tobuKameidoLine,
+  tobu_daishi: tobuDaishiLine,
+  tobu_sano: tobuSanoLine,
+  tobu_koizumi: tobuKoizumiLine,
+  tobu_kiryu: tobuKiryuLine,
+  tobu_nikko: tobuNikkoLine,
+  tobu_utsunomiya: tobuUtsunomiyaLine,
+  tobu_kinugawa: tobuKinugawaLine,
+  tobu_urban_park: tobuUrbanParkLine,
+  yagan: yaganLine,
+  aizu: aizuLine,
 };
 
 // 登録されている全路線の配列を取得
@@ -133,6 +159,8 @@ export interface OperatorLinesGroup {
 const OPERATOR_DISPLAY_ORDER = [
   '東京メトロ',
   '東武鉄道',
+  '野岩鉄道',
+  '会津鉄道',
   '西武鉄道',
   '東急電鉄',
   '横浜高速鉄道',
@@ -236,6 +264,18 @@ export function getTrainTypeConfig(type: string, lineId?: LineId): TrainTypeConf
   if (lineId && LINES_REGISTRY[lineId]) {
     const config = LINES_REGISTRY[lineId].trainTypes[type];
     if (config) return config;
+  }
+  if (type === 'test_run') {
+    return {
+      key: 'test_run',
+      name: '試運転',
+      nameEn: 'Test Run',
+      shortName: '試',
+      color: '#0284c7',
+      textColor: '#ffffff',
+      bgColor: '#0284c7',
+      borderColor: '#0369a1',
+    };
   }
   for (const line of getAllLines()) {
     if (line.trainTypes[type]) return line.trainTypes[type];

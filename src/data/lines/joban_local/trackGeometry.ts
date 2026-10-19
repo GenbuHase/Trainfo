@@ -537,8 +537,8 @@ export const JOBAN_LOCAL_TRACK_SEGMENTS: TrackSegment[] = [
         139.9003179
       ],
       [
-        35.7844587,
-        139.9006882
+        35.7845283,
+        139.9004334
       ]
     ]
   },
@@ -549,8 +549,8 @@ export const JOBAN_LOCAL_TRACK_SEGMENTS: TrackSegment[] = [
     "toName": "北松戸",
     "coordinates": [
       [
-        35.7844587,
-        139.9006882
+        35.7845283,
+        139.9004334
       ],
       [
         35.7855612,
@@ -1117,8 +1117,8 @@ export const JOBAN_LOCAL_TRACK_SEGMENTS: TrackSegment[] = [
         139.97054725
       ],
       [
-        35.8623047,
-        139.9710976
+        35.8623843,
+        139.9709425
       ]
     ]
   },
@@ -1129,8 +1129,8 @@ export const JOBAN_LOCAL_TRACK_SEGMENTS: TrackSegment[] = [
     "toName": "北柏",
     "coordinates": [
       [
-        35.8623047,
-        139.9710976
+        35.8623843,
+        139.9709425
       ],
       [
         35.8629953,
@@ -1385,8 +1385,8 @@ export const JOBAN_LOCAL_TRACK_SEGMENTS: TrackSegment[] = [
         140.0092904
       ],
       [
-        35.8726835,
-        140.0107674
+        35.8729998,
+        140.0107446
       ]
     ]
   },
@@ -1397,12 +1397,12 @@ export const JOBAN_LOCAL_TRACK_SEGMENTS: TrackSegment[] = [
     "toName": "天王台",
     "coordinates": [
       [
-        35.8726835,
-        140.0107674
+        35.8729998,
+        140.0107446
       ],
       [
-        35.8727311,
-        140.0115532
+        35.87285,
+        140.01155
       ],
       [
         35.8727811,
@@ -1737,8 +1737,8 @@ export const JOBAN_LOCAL_TRACK_SEGMENTS: TrackSegment[] = [
         140.0622896
       ],
       [
-        35.8953081,
-        140.062923
+        35.8956226,
+        140.0627766
       ]
     ]
   }
