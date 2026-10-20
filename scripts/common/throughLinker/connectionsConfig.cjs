@@ -1305,6 +1305,28 @@ module.exports = {
       maxTimeDiff: 600,
     },
 
+    // 52-3. JR中央本線 ↔ JR篠ノ井線 (塩尻駅)
+    {
+      name: '中央本線 -> 篠ノ井線 (下り 塩尻駅経由 松本・長野方面直通 特急あずさ・しなの・普通)',
+      lineA: 'chuo_main',
+      lineB: 'shinonoi',
+      stationA: 'CO-61',
+      stationB: 'SN-01',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 600,
+    },
+    {
+      name: '篠ノ井線 -> 中央本線 (上り 塩尻駅経由 新宿・東京方面直通 特急あずさ・普通)',
+      lineA: 'shinonoi',
+      lineB: 'chuo_main',
+      stationA: 'SN-01',
+      stationB: 'CO-61',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 600,
+    },
+
     // 53. 小田急小田原線 ↔ JR御殿場線 (松田駅)
     {
       name: '小田急線 -> 御殿場線 (下り 松田駅経由 御殿場方面直通 特急ふじさん)',

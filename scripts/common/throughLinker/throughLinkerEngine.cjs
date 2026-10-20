@@ -98,16 +98,19 @@ function deduplicateLineTrips(trips) {
     const byTrainOrDest = new Map();
     for (const t of list) {
       let trainKey = t.tripId;
+      const yId = extractYahooTrainId(t.tripId);
       if (t.coupling) {
-        trainKey = `${t.trainNumber || ''}_${t.coupling.role}_${t.customDestination || ''}`;
+        trainKey = `${t.trainNumber || ''}_${t.coupling.role}_${t.customDestination || ''}_${yId || ''}`;
       } else if (t.tripId && t.tripId.includes('_fuji')) {
-        trainKey = `${t.trainNumber || ''}_fuji_${t.customDestination || ''}`;
+        trainKey = `${t.trainNumber || ''}_fuji_${t.customDestination || ''}_${yId || ''}`;
+      } else if (isExpressType(t.trainType) && yId) {
+        trainKey = `${t.trainNumber || ''}_${yId}`;
       } else if (t.trainNumber && t.customDestination) {
         trainKey = `${t.trainNumber}_${t.customDestination}`;
       } else if (t.trainNumber) {
         trainKey = t.trainNumber;
-      } else if (extractYahooTrainId(t.tripId)) {
-        trainKey = extractYahooTrainId(t.tripId);
+      } else if (yId) {
+        trainKey = yId;
       }
       if (!byTrainOrDest.has(trainKey)) byTrainOrDest.set(trainKey, []);
       byTrainOrDest.get(trainKey).push(t);
@@ -146,6 +149,11 @@ function areDestinationsCompatible(destA, destB) {
 
   // 会津若松・喜多方の互換性（会津鉄道から只見線・磐越西線直通）
   if ((cleanA === '会津若松' && cleanB === '喜多方') || (cleanA === '喜多方' && cleanB === '会津若松')) {
+    return true;
+  }
+
+  // 東京・新宿の互換性（中央線・中央本線特急の直通先揺れを許容）
+  if ((cleanA === '東京' && cleanB === '新宿') || (cleanA === '新宿' && cleanB === '東京')) {
     return true;
   }
 
@@ -414,9 +422,9 @@ function linkPair({
       const destB = getEffectiveDestination(tB, stationMap);
 
       // 1. 完全一致 (Yahoo trainId または 公式列車番号)
-      // 同一列車番号またはYahoo IDを持つ列車は一意であるため、因果律を満たしていれば固定のmaxTimeDiffに縛られず自動マッチ（連結作業や長時間停車にも完全対応）
+      // 同一列車番号またはYahoo IDを持つ列車は一意であるため、因果律を満たしていれば固定のmaxTimeDiffに縛られず自動マッチ（連結作業や長時間停車、線区間通過時刻誤差にも完全対応）
       const isIdMatch = (yIdA && yIdB && yIdA === yIdB) || (noA && noB && noA === noB);
-      if (isIdMatch && waitSec >= -60 && waitSec <= 7200) {
+      if (isIdMatch && waitSec >= -300 && waitSec <= 7200) {
         // 行先が両方存在し、かつ互換性がない場合は誤マッチ（併結列車の別編成など）なので即決しない
         if (destA && destB && !areDestinationsCompatible(destA, destB)) {
           // スキップして次の候補へ
@@ -428,6 +436,11 @@ function linkPair({
       }
 
       if (requireIdMatch) continue;
+
+      // 特急列車が一般普通・快速列車に誤接続するのを絶対に禁止
+      if (isExpressType(tA.trainType) !== isExpressType(tB.trainType)) {
+        continue;
+      }
 
       // 2. 因果律: 出発時刻は到着時刻以降（ダイヤ丸め誤差 -30秒まで許容）
       // 行先が相手路線を明示している直通便は最大1800秒（30分）まで自動許容、一般普通列車はデフォルト900秒（15分）
@@ -470,10 +483,11 @@ function linkPair({
                       tB.prevLineId === 'fujikyu' ||
                       tB.throughLineId === 'fujikyu' ||
                       fujiNumbers.has(tB.trainNumber);
+      if (isFujiA !== isFujiB) {
+        continue; // 富士回遊(河口湖系統)とあずさ・かいじ(松本/甲府系統)のクロス誤マッチを絶対に禁止
+      }
       if (isFujiA && isFujiB) {
         score -= 4000;
-      } else if (isFujiA !== isFujiB) {
-        score += 4000; // 富士回遊が甲府行きかいじとクロス誤マッチするのを防止
       }
 
       if (score < bestScore) {

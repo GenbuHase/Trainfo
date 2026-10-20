@@ -12,13 +12,14 @@ const shinonoiStPath = path.resolve('src/data/lines/shinonoi/stationTimetables.j
 const chuoMainPath = path.resolve('src/data/lines/chuo_main/globalTimetable.json');
 const chuoPath = path.resolve('src/data/lines/chuo/globalTimetable.json');
 
-const oitoTrips = JSON.parse(fs.readFileSync(oitoPath, 'utf8'));
-const shinonoiTrips = JSON.parse(fs.readFileSync(shinonoiPath, 'utf8'));
-const shinonoiSt = JSON.parse(fs.readFileSync(shinonoiStPath, 'utf8'));
-const chuoMainTrips = JSON.parse(fs.readFileSync(chuoMainPath, 'utf8'));
-const chuoTrips = JSON.parse(fs.readFileSync(chuoPath, 'utf8'));
+function enrichAzusaTimetable() {
+  const oitoTrips = JSON.parse(fs.readFileSync(oitoPath, 'utf8'));
+  const shinonoiTrips = JSON.parse(fs.readFileSync(shinonoiPath, 'utf8'));
+  const shinonoiSt = JSON.parse(fs.readFileSync(shinonoiStPath, 'utf8'));
+  const chuoMainTrips = JSON.parse(fs.readFileSync(chuoMainPath, 'utf8'));
+  const chuoTrips = JSON.parse(fs.readFileSync(chuoPath, 'utf8'));
 
-console.log('=== 特急あずさ ダイヤ補完・エンリッチメント開始 ===\n');
+  console.log('=== 特急あずさ ダイヤ補完・エンリッチメント開始 ===\n');
 
 // ==========================================
 // 1. あずさ38号（平日: 42025 / 休日: 42026）
@@ -297,8 +298,8 @@ for (const def of outboundNonstopDefs) {
     cars: 9,
     isHoliday,
     stops: snStops,
-    throughTripId: cmTripId,
-    throughLineId: 'chuo_main',
+    prevTripId: cmTripId,
+    prevLineId: 'chuo_main',
   };
 
   if (snExistingIdx !== -1) {
@@ -307,6 +308,89 @@ for (const def of outboundNonstopDefs) {
     shinonoiTrips.push(snTripData);
   }
   console.log(`  ✓ shinonoi ${snTripId} を新設/更新 (松本着 ${times.matsumotoArr})`);
+}
+
+// ==========================================
+// 2-2. 各あずさ便の行先・愛称・通過時刻補正
+// ==========================================
+console.log('\n--- 2-2. 各あずさ便の行先・愛称・通過時刻補正 ---');
+
+// (A) あずさ1号 (6843): customDestination を '松本' に補正（富士回遊併結の名残を解消）
+for (const trips of [chuoMainTrips, chuoTrips]) {
+  for (const trip of trips) {
+    if (trip.trainId === '6843' || (trip.tripId && trip.tripId.includes('6843'))) {
+      trip.customDestination = '松本';
+      trip.customOrigin = '新宿';
+    }
+  }
+}
+
+// (B) あずさ8号 休日 (6897): customDestination を '東京' に補正
+for (const trips of [chuoMainTrips, chuoTrips]) {
+  for (const trip of trips) {
+    if (trip.isHoliday && (trip.trainId === '6897' || (trip.tripId && trip.tripId.includes('6897')))) {
+      trip.customDestination = '東京';
+      trip.customOrigin = '松本';
+    }
+  }
+}
+
+// (C) あずさ44号 平日 (6926): trainName を 'あずさ44号'、customDestination を '新宿' に補正
+for (const trips of [chuoMainTrips, chuoTrips]) {
+  for (const trip of trips) {
+    if (!trip.isHoliday && (trip.trainId === '6926' || (trip.tripId && trip.tripId.includes('6926')))) {
+      trip.trainName = 'あずさ44号';
+      trip.customDestination = '新宿';
+      trip.customOrigin = '松本';
+    }
+  }
+}
+
+// (D) あずさ78号 休日 (6925): trainName を 'あずさ78号'、customDestination を '新宿' に補正
+for (const trips of [chuoMainTrips, chuoTrips]) {
+  for (const trip of trips) {
+    if (trip.isHoliday && (trip.trainId === '6925' || (trip.tripId && trip.tripId.includes('6925')))) {
+      trip.trainName = 'あずさ78号';
+      trip.customDestination = '新宿';
+      trip.customOrigin = '松本';
+    }
+  }
+}
+
+// (E) あずさ88号 (6918) と あずさ60号 (6909/6908):
+for (const trip of chuoMainTrips) {
+  if (trip.trainId === '6918' || (trip.tripId && trip.tripId.includes('6918'))) {
+    trip.trainName = 'あずさ88号';
+    const takao = trip.stops && trip.stops.find(s => s.stationId === 'JC-24');
+    if (takao) {
+      takao.arrivalTime = '21:53:57';
+      takao.departureTime = '21:53:57';
+      takao.isPassing = true;
+    }
+  }
+  if (trip.trainId === '33564' || trip.trainId === '33563' || (trip.tripId && (trip.tripId.includes('33564') || trip.tripId.includes('33563')))) {
+    trip.trainName = 'かいじ58号';
+  }
+  if (trip.trainId === '6909' || trip.trainId === '6908' || (trip.tripId && (trip.tripId.includes('6909') || trip.tripId.includes('6908')))) {
+    trip.trainName = 'あずさ60号';
+    const takao = trip.stops && trip.stops.find(s => s.stationId === 'JC-24');
+    if (takao) {
+      takao.arrivalTime = '22:08:53';
+      takao.departureTime = '22:08:53';
+      takao.isPassing = true;
+    }
+  }
+}
+
+// (F) 普通列車445M (6891/6892) の誤愛称クリーンアップ
+for (const trips of [chuoMainTrips, shinonoiTrips]) {
+  for (const trip of trips) {
+    if (trip.trainId === '6891' || trip.trainId === '6892' || (trip.tripId && (trip.tripId.includes('6891') || trip.tripId.includes('6892')))) {
+      if (trip.trainType !== 'limitedExp') {
+        delete trip.trainName;
+      }
+    }
+  }
 }
 
 // ==========================================
@@ -340,52 +424,100 @@ for (const trip of chuoTrips) {
 }
 console.log(`  ✓ chuo: ${chUpdatedCount} 便の上りあずさの customOrigin を '塩尻' から '松本' に更新`);
 
-// (C) shinonoi の全あずさの始発駅・直通リンク整備
+// (C) shinonoi と chuo_main の全あずさの始発駅・直通リンク整備
 let snInbUpdated = 0;
 let snOutUpdated = 0;
 
 for (const snTrip of shinonoiTrips) {
-  if (snTrip.trainType === 'limitedExp') {
+  if (snTrip.trainType === 'limitedExp' || (snTrip.trainName && snTrip.trainName.includes('あずさ'))) {
     const isHoliday = snTrip.isHoliday;
-    const trainId = snTrip.trainId;
+    const yId = snTrip.trainId || (snTrip.tripId ? snTrip.tripId.split('_').pop() : '');
+    if (!yId) continue;
 
     if (snTrip.direction === 'inbound') {
+      // 上りあずさ (松本 -> 塩尻 -> 新宿)
+      // 篠ノ井線(先行) -> 中央本線(後続)
       if (!snTrip.customOrigin && snTrip.originStationId === 'SN-06') {
         snTrip.customOrigin = '松本';
+      }
+      const matchedCm = chuoMainTrips.find(
+        (t) => (t.trainId === yId || (t.tripId && t.tripId.endsWith(`_${yId}`))) &&
+               t.direction === 'inbound' &&
+               t.isHoliday === isHoliday
+      );
+      if (matchedCm) {
+        snTrip.throughTripId = matchedCm.tripId;
+        snTrip.throughLineId = 'chuo_main';
+        matchedCm.prevTripId = snTrip.tripId;
+        matchedCm.prevLineId = 'shinonoi';
+
+        if (!matchedCm.trainName && snTrip.trainName) matchedCm.trainName = snTrip.trainName;
+        if (!snTrip.trainName && matchedCm.trainName) snTrip.trainName = matchedCm.trainName;
+
+        matchedCm.customOrigin = snTrip.customOrigin || '松本';
+        snTrip.customDestination = matchedCm.customDestination || '新宿';
+
+        // 塩尻駅(SN-01 / CO-61)の時刻同期
+        const snLast = snTrip.stops[snTrip.stops.length - 1];
+        const cmFirst = matchedCm.stops[0];
+        if (snLast && cmFirst) {
+          const syncTime = snLast.arrivalTime || cmFirst.departureTime;
+          snLast.arrivalTime = syncTime;
+          snLast.departureTime = syncTime;
+          cmFirst.arrivalTime = syncTime;
+          cmFirst.departureTime = syncTime;
+        }
+
         snInbUpdated++;
       }
-      // 対応する chuo_main トリップへの throughTripId を紐付け
-      if (!snTrip.throughTripId && trainId) {
-        const matchedCm = chuoMainTrips.find(
-          (t) => t.trainId === trainId && t.direction === 'inbound' && t.isHoliday === isHoliday
-        );
-        if (matchedCm) {
-          snTrip.throughTripId = matchedCm.tripId;
-          snTrip.throughLineId = 'chuo_main';
-          if (!matchedCm.throughTripId) {
-            matchedCm.throughTripId = snTrip.tripId;
-            matchedCm.throughLineId = 'shinonoi';
-          }
-        }
-      }
     } else if (snTrip.direction === 'outbound') {
-      // 下りあずさ
-      if (!snTrip.customOrigin && snTrip.originStationId === 'SN-01') {
-        const matchedCm = chuoMainTrips.find(
-          (t) => t.trainId === trainId && t.direction === 'outbound' && t.isHoliday === isHoliday
-        );
-        if (matchedCm) {
-          snTrip.customOrigin = matchedCm.customOrigin || '新宿';
-          snTrip.customDestination = matchedCm.customDestination || '松本';
-          snTrip.throughTripId = matchedCm.tripId;
-          snTrip.throughLineId = 'chuo_main';
-          snOutUpdated++;
+      // 下りあずさ (新宿 -> 塩尻 -> 松本)
+      // 中央本線(先行) -> 篠ノ井線(後続)
+      const matchedCm = chuoMainTrips.find(
+        (t) => (t.trainId === yId || (t.tripId && t.tripId.endsWith(`_${yId}`))) &&
+               t.direction === 'outbound' &&
+               t.isHoliday === isHoliday
+      );
+      if (matchedCm) {
+        matchedCm.throughTripId = snTrip.tripId;
+        matchedCm.throughLineId = 'shinonoi';
+        snTrip.prevTripId = matchedCm.tripId;
+        snTrip.prevLineId = 'chuo_main';
+
+        if (!snTrip.trainName && matchedCm.trainName) snTrip.trainName = matchedCm.trainName;
+        if (!matchedCm.trainName && snTrip.trainName) matchedCm.trainName = snTrip.trainName;
+
+        snTrip.customOrigin = matchedCm.customOrigin || '新宿';
+        snTrip.customDestination = '松本';
+        matchedCm.customDestination = '松本';
+
+        // 塩尻駅(CO-61 / SN-01)の時刻同期
+        const cmLast = matchedCm.stops[matchedCm.stops.length - 1];
+        const snFirst = snTrip.stops[0];
+        if (cmLast && snFirst) {
+          const syncTime = cmLast.arrivalTime || snFirst.departureTime;
+          cmLast.arrivalTime = syncTime;
+          cmLast.departureTime = syncTime;
+          snFirst.arrivalTime = syncTime;
+          snFirst.departureTime = syncTime;
         }
+
+        snOutUpdated++;
       }
     }
   }
 }
-console.log(`  ✓ shinonoi: 上り ${snInbUpdated} 便、下り ${snOutUpdated} 便の customOrigin/直通先を整備`);
+  console.log(`  ✓ shinonoi ↔ chuo_main: 上り ${snInbUpdated} 便、下り ${snOutUpdated} 便を相互直通リンク & 時刻同期`);
+
+  // 4. ファイル保存
+  safeWriteJson(oitoPath, oitoTrips);
+  safeWriteJson(shinonoiPath, shinonoiTrips);
+  safeWriteJson(shinonoiStPath, shinonoiSt);
+  safeWriteJson(chuoMainPath, chuoMainTrips);
+  safeWriteJson(chuoPath, chuoTrips);
+
+  console.log('\n✅ 全路線の globalTimetable.json および stationTimetables.json を正常に更新しました！');
+}
 
 function safeWriteJson(filePath, data) {
   const content = JSON.stringify(data, null, 2);
@@ -403,11 +535,8 @@ function safeWriteJson(filePath, data) {
   }
 }
 
-// 4. ファイル保存
-safeWriteJson(oitoPath, oitoTrips);
-safeWriteJson(shinonoiPath, shinonoiTrips);
-safeWriteJson(shinonoiStPath, shinonoiSt);
-safeWriteJson(chuoMainPath, chuoMainTrips);
-safeWriteJson(chuoPath, chuoTrips);
+module.exports = { enrichAzusaTimetable };
 
-console.log('\n✅ 全路線の globalTimetable.json および stationTimetables.json を正常に更新しました！');
+if (require.main === module) {
+  enrichAzusaTimetable();
+}

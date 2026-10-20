@@ -10435,11 +10435,14 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "12:07:00",
-        "departureTime": "12:07:00",
+        "departureTime": "12:17:00",
         "isPassing": false
       }
     ],
-    "trainId": "5362"
+    "trainId": "5362",
+    "customDestination": "新宿",
+    "throughTripId": "WD_OUT_JO-19_1217_29297",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1141_41030",
@@ -12680,11 +12683,14 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "14:07:00",
-        "departureTime": "14:07:00",
+        "departureTime": "14:17:00",
         "isPassing": false
       }
     ],
-    "trainId": "5363"
+    "trainId": "5363",
+    "customDestination": "新宿",
+    "throughTripId": "WD_OUT_JO-19_1417_29299",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1341_41037",
@@ -16303,14 +16309,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "新宿",
+    "customOrigin": "逗子",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "16:31:00",
+        "arrivalTime": "16:36:00",
         "departureTime": "16:37:00",
         "isPassing": false
       },
@@ -16371,7 +16377,7 @@
     ],
     "trainId": "41457",
     "trainName": "成田エクスプレス41号",
-    "prevTripId": "WD_INB_JO-17_1624_31139",
+    "prevTripId": "WD_INB_JO-06_1538_41457",
     "prevLineId": "yokosuka"
   },
   {
@@ -16816,14 +16822,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "逗子",
+    "customOrigin": "大船",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "16:36:00",
+        "arrivalTime": "16:56:00",
         "departureTime": "17:03:00",
         "isPassing": false
       },
@@ -16883,7 +16889,7 @@
       }
     ],
     "trainId": "29334",
-    "prevTripId": "WD_INB_JO-06_1538_41457",
+    "prevTripId": "WD_INB_JO-09_1610_29334",
     "prevLineId": "yokosuka"
   },
   {
@@ -16961,9 +16967,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "31120",
-    "prevTripId": "WD_INB_JO-09_1610_29334",
-    "prevLineId": "yokosuka"
+    "trainId": "31120"
   },
   {
     "tripId": "WD_OUT_JO-19_1705_5074",
@@ -35949,11 +35953,14 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "12:07:00",
-        "departureTime": "12:07:00",
+        "departureTime": "12:17:00",
         "isPassing": false
       }
     ],
-    "trainId": "5362"
+    "trainId": "5362",
+    "customDestination": "新宿",
+    "throughTripId": "HD_OUT_JO-19_1217_29297",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1141_42219",
@@ -38190,11 +38197,14 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "14:07:00",
-        "departureTime": "14:07:00",
+        "departureTime": "14:17:00",
         "isPassing": false
       }
     ],
-    "trainId": "5363"
+    "trainId": "5363",
+    "customDestination": "新宿",
+    "throughTripId": "HD_OUT_JO-19_1417_29299",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1341_42223",
@@ -41875,14 +41885,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "新宿",
+    "customOrigin": "逗子",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "16:31:00",
+        "arrivalTime": "16:36:00",
         "departureTime": "16:37:00",
         "isPassing": false
       },
@@ -41943,7 +41953,7 @@
     ],
     "trainId": "41458",
     "trainName": "成田エクスプレス41号",
-    "prevTripId": "HD_INB_JO-17_1624_31139",
+    "prevTripId": "HD_INB_JO-06_1538_41458",
     "prevLineId": "yokosuka"
   },
   {
@@ -42482,9 +42492,7 @@
       }
     ],
     "trainId": "4949",
-    "customOrigin": "逗子",
-    "prevTripId": "HD_INB_JO-06_1538_41458",
-    "prevLineId": "yokosuka"
+    "customOrigin": "逗子"
   },
   {
     "tripId": "HD_INB_JO-28_1709_42923",

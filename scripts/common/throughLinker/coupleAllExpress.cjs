@@ -525,13 +525,23 @@ function coupleChuoFujiKaiyu() {
           const time2 = dir === 'outbound' ? (s2.arrivalTime || s2.departureTime) : (s2.departureTime || s2.arrivalTime);
 
           if (Math.abs(timeToSec(time1) - timeToSec(time2)) <= 120) {
-            const isT1Fuji = (t1.destinationStationName && t1.destinationStationName.includes('河口湖')) ||
-                             (t1.customDestination && t1.customDestination.includes('河口湖')) ||
-                             (t1.throughLineId === 'fujikyu') ||
-                             (t1.prevLineId === 'fujikyu') ||
-                             (t1.trainNumber && t1.trainNumber.includes('富士回遊')) ||
-                             (dir === 'outbound' && t1.stops[t1.stops.length - 1]?.stationId === 'JC-32') ||
-                             (dir === 'inbound' && t1.stops[0]?.stationId === 'JC-32');
+            const checkFuji = (t) => {
+              return (t.destinationStationName && t.destinationStationName.includes('河口湖')) ||
+                     (t.customDestination && t.customDestination.includes('河口湖')) ||
+                     (t.throughLineId === 'fujikyu') ||
+                     (t.prevLineId === 'fujikyu') ||
+                     (t.trainNumber && t.trainNumber.includes('富士回遊')) ||
+                     (t.tripId && t.tripId.includes('_fuji')) ||
+                     (dir === 'outbound' && t.stops[t.stops.length - 1]?.stationId === 'JC-32') ||
+                     (dir === 'inbound' && t.stops[0]?.stationId === 'JC-32');
+            };
+
+            const isT1Fuji = checkFuji(t1);
+            const isT2Fuji = checkFuji(t2);
+
+            // 片方のみが富士回遊（または大月発着）の場合のみカップリング対象
+            if (isT1Fuji === isT2Fuji) continue;
+
             const pri = isT1Fuji ? t2 : t1;
             const sec = isT1Fuji ? t1 : t2;
 
@@ -540,8 +550,13 @@ function coupleChuoFujiKaiyu() {
 
             pri.cars = 9;
             sec.cars = 3;
-            pri.customDestination = pri.destinationStationName || pri.customDestination || '甲府';
-            sec.customDestination = dir === 'outbound' ? '河口湖' : '新宿';
+            if (dir === 'outbound') {
+              pri.customDestination = pri.destinationStationName || pri.customDestination || '甲府';
+              sec.customDestination = '河口湖';
+            } else {
+              pri.customDestination = pri.destinationStationName || pri.customDestination || '新宿';
+              sec.customDestination = '新宿';
+            }
 
             pri.coupling = {
               role: 'PRIMARY',
@@ -560,7 +575,7 @@ function coupleChuoFujiKaiyu() {
               coupledTripId: pri.tripId,
               coupledTrainNumber: pri.trainNumber,
               coupledCars: 9,
-              coupledDestination: pri.customDestination || '甲府'
+              coupledDestination: dir === 'outbound' ? (pri.customDestination || '甲府') : '新宿'
             };
 
             countCM += 2;
@@ -595,10 +610,18 @@ function coupleChuoFujiKaiyu() {
           const time2 = dir === 'outbound' ? s2.arrivalTime : s2.departureTime;
 
           if (Math.abs(timeToSec(time1) - timeToSec(time2)) <= 60) {
-            const isT1Fuji = (t1.customDestination && t1.customDestination.includes('河口湖')) ||
-                             (t1.throughLineId === 'fujikyu') ||
-                             (t1.trainNumber && t1.trainNumber.includes('富士回遊')) ||
-                             (t1.tripId.includes('_fuji'));
+            const checkFuji = (t) => {
+              return (t.customDestination && t.customDestination.includes('河口湖')) ||
+                     (t.throughLineId === 'fujikyu') ||
+                     (t.trainNumber && t.trainNumber.includes('富士回遊')) ||
+                     (t.tripId && t.tripId.includes('_fuji'));
+            };
+
+            const isT1Fuji = checkFuji(t1);
+            const isT2Fuji = checkFuji(t2);
+
+            if (isT1Fuji === isT2Fuji) continue;
+
             const pri = isT1Fuji ? t2 : t1;
             const sec = isT1Fuji ? t1 : t2;
 
@@ -607,8 +630,13 @@ function coupleChuoFujiKaiyu() {
 
             pri.cars = 9;
             sec.cars = 3;
-            pri.customDestination = pri.destinationStationName || pri.customDestination || '甲府';
-            sec.customDestination = dir === 'outbound' ? '河口湖' : '新宿';
+            if (dir === 'outbound') {
+              pri.customDestination = pri.destinationStationName || pri.customDestination || '甲府';
+              sec.customDestination = '河口湖';
+            } else {
+              pri.customDestination = pri.destinationStationName || pri.customDestination || '新宿';
+              sec.customDestination = '新宿';
+            }
 
             pri.coupling = {
               role: 'PRIMARY',
@@ -627,7 +655,7 @@ function coupleChuoFujiKaiyu() {
               coupledTripId: pri.tripId,
               coupledTrainNumber: pri.trainNumber,
               coupledCars: 9,
-              coupledDestination: pri.customDestination || '甲府'
+              coupledDestination: dir === 'outbound' ? (pri.customDestination || '甲府') : '新宿'
             };
 
             countChuo += 2;
