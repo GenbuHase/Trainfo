@@ -2669,7 +2669,10 @@
         "departureTime": "08:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customDestination": "塩尻",
+    "prevTripId": "WD_INB_OIE-20_0648_29273",
+    "prevLineId": "oito_east"
   },
   {
     "tripId": "WD_OUT_SN-01_0754_7019",
@@ -13657,7 +13660,9 @@
       }
     ],
     "throughTripId": "cm_WD_INB_CO-61_1830_42024",
-    "throughLineId": "chuo_main"
+    "throughLineId": "chuo_main",
+    "prevTripId": "WD_INB_OIE-20_1713_42024",
+    "prevLineId": "oito_east"
   },
   {
     "tripId": "WD_INB_SN-19_1817_7011",
@@ -20175,7 +20180,10 @@
         "departureTime": "08:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customDestination": "塩尻",
+    "prevTripId": "HD_INB_OIE-20_0648_29273",
+    "prevLineId": "oito_east"
   },
   {
     "tripId": "HD_OUT_SN-01_0754_7019",
@@ -31659,7 +31667,9 @@
       }
     ],
     "throughTripId": "cm_HD_INB_CO-61_1830_42024",
-    "throughLineId": "chuo_main"
+    "throughLineId": "chuo_main",
+    "prevTripId": "HD_INB_OIE-20_1713_42024",
+    "prevLineId": "oito_east"
   },
   {
     "tripId": "HD_INB_SN-19_1817_7011",
@@ -35506,7 +35516,9 @@
       }
     ],
     "throughTripId": "cm_WD_INB_CO-61_1458_42025",
-    "throughLineId": "chuo_main"
+    "throughLineId": "chuo_main",
+    "prevTripId": "WD_INB_OIE-29_1343_42025",
+    "prevLineId": "oito_east"
   },
   {
     "tripId": "sn_HD_INB_SN-06_1450_42026",
@@ -35561,7 +35573,9 @@
       }
     ],
     "throughTripId": "cm_HD_INB_CO-61_1458_42026",
-    "throughLineId": "chuo_main"
+    "throughLineId": "chuo_main",
+    "prevTripId": "HD_INB_OIE-29_1343_42026",
+    "prevLineId": "oito_east"
   },
   {
     "tripId": "sn_WD_OUT_SN-01_1130_6862",
@@ -35782,5 +35796,119 @@
     ],
     "prevTripId": "cm_HD_OUT_JC-05_1600_6863",
     "prevLineId": "chuo_main"
+  },
+  {
+    "tripId": "sn_WD_OUT_JC-05_2358_42781",
+    "lineId": "shinonoi",
+    "trainId": "42781",
+    "trainNumber": "9011M",
+    "trainName": "アルプス",
+    "trainType": "limitedExp",
+    "direction": "outbound",
+    "originStationId": "SN-01",
+    "destinationStationId": "SN-06",
+    "customOrigin": "新宿",
+    "customDestination": "白馬",
+    "cars": 9,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SN-01",
+        "arrivalTime": "04:30:00",
+        "departureTime": "04:30:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-02",
+        "arrivalTime": "04:34:00",
+        "departureTime": "04:34:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-03",
+        "arrivalTime": "04:37:00",
+        "departureTime": "04:37:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-04",
+        "arrivalTime": "04:39:00",
+        "departureTime": "04:39:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-05",
+        "arrivalTime": "04:42:00",
+        "departureTime": "04:42:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-06",
+        "arrivalTime": "04:46:00",
+        "departureTime": "04:49:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "cm_WD_OUT_JC-05_2358_42781",
+    "prevLineId": "chuo_main",
+    "throughTripId": "WD_OUT_OIE-01_0449_42781",
+    "throughLineId": "oito_east"
+  },
+  {
+    "tripId": "sn_HD_OUT_JC-05_2358_42781",
+    "lineId": "shinonoi",
+    "trainId": "42781",
+    "trainNumber": "9011M",
+    "trainName": "アルプス",
+    "trainType": "limitedExp",
+    "direction": "outbound",
+    "originStationId": "SN-01",
+    "destinationStationId": "SN-06",
+    "customOrigin": "新宿",
+    "customDestination": "白馬",
+    "cars": 9,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SN-01",
+        "arrivalTime": "04:30:00",
+        "departureTime": "04:30:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-02",
+        "arrivalTime": "04:34:00",
+        "departureTime": "04:34:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-03",
+        "arrivalTime": "04:37:00",
+        "departureTime": "04:37:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-04",
+        "arrivalTime": "04:39:00",
+        "departureTime": "04:39:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-05",
+        "arrivalTime": "04:42:00",
+        "departureTime": "04:42:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "SN-06",
+        "arrivalTime": "04:46:00",
+        "departureTime": "04:49:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "cm_HD_OUT_JC-05_2358_42781",
+    "prevLineId": "chuo_main",
+    "throughTripId": "HD_OUT_OIE-01_0449_42781",
+    "throughLineId": "oito_east"
   }
 ]

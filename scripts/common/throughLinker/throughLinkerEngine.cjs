@@ -414,7 +414,11 @@ function linkPair({
         : tB.stops[0];
       if (!stopB) continue;
 
-      const tBSec = timeToSec(stopB.departureTime || stopB.arrivalTime);
+      let tBSec = timeToSec(stopB.departureTime || stopB.arrivalTime);
+      if (tBSec !== null && tASec !== null) {
+        if (tBSec - tASec < -43200) tBSec += 86400;
+        else if (tBSec - tASec > 43200) tBSec -= 86400;
+      }
       const waitSec = tBSec - tASec;
       const diff = Math.abs(waitSec);
       const yIdB = extractYahooTrainId(tB.tripId);
@@ -527,21 +531,35 @@ function linkPair({
       if (stopB) {
         stopB.arrivalTime = syncArr;         // 後続路線は到着した瞬間から発車待ち開始
         const syncSec = timeToSec(syncArr);
-        if (timeToSec(stopB.departureTime) < syncSec) {
+        let bDepSec = timeToSec(stopB.departureTime);
+        if (bDepSec !== null && bDepSec < syncSec && bDepSec + 86400 >= syncSec) {
+          bDepSec += 86400;
+        }
+        if (bDepSec !== null && bDepSec < syncSec) {
           stopB.departureTime = syncArr;
+          bDepSec = syncSec;
         }
         // 先行路線の境界駅発車時刻も後続路線の発車時刻に同期（境界駅停車時間・発車標時刻の統一）
-        if (stopB.departureTime && timeToSec(stopB.departureTime) >= syncSec) {
+        if (stopB.departureTime && bDepSec !== null && bDepSec >= syncSec) {
           stopA.departureTime = stopB.departureTime;
         }
 
         // 後続駅の時刻が境界駅の発車時刻より前になって逆転することを防止
         const stopBIndex = bestB.stops.indexOf(stopB);
-        let curSec = timeToSec(stopB.departureTime);
+        let curSec = bDepSec !== null ? bDepSec : timeToSec(stopB.departureTime);
         for (let k = stopBIndex + 1; k < bestB.stops.length; k++) {
           const s = bestB.stops[k];
           let arrS = timeToSec(s.arrivalTime);
           let depS = timeToSec(s.departureTime);
+
+          // 夜行列車・日付跨ぎ対応: 24時間加算で curSec 以上になる場合は翌日進行と判定
+          if (arrS !== null && arrS < curSec && arrS + 86400 >= curSec) {
+            arrS += 86400;
+          }
+          if (depS !== null && depS < (arrS !== null ? arrS : curSec) && depS + 86400 >= (arrS !== null ? arrS : curSec)) {
+            depS += 86400;
+          }
+
           if (arrS !== null && arrS < curSec) {
             s.arrivalTime = secToTime(curSec);
             arrS = curSec;

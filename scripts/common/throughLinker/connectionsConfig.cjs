@@ -1327,6 +1327,28 @@ module.exports = {
       maxTimeDiff: 600,
     },
 
+    // 52-4. JR篠ノ井線 ↔ JR大糸線 (松本駅)
+    {
+      name: '篠ノ井線 -> 大糸線 (下り 松本駅経由 信濃大町・白馬方面直通 特急あずさ・アルプス・普通)',
+      lineA: 'shinonoi',
+      lineB: 'oito_east',
+      stationA: 'SN-06',
+      stationB: 'OIE-01',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 900,
+    },
+    {
+      name: '大糸線 -> 篠ノ井線 (上り 松本駅経由 塩尻・新宿・東京方面直通 特急あずさ・普通)',
+      lineA: 'oito_east',
+      lineB: 'shinonoi',
+      stationA: 'OIE-01',
+      stationB: 'SN-06',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 900,
+    },
+
     // 53. 小田急小田原線 ↔ JR御殿場線 (松田駅)
     {
       name: '小田急線 -> 御殿場線 (下り 松田駅経由 御殿場方面直通 特急ふじさん)',

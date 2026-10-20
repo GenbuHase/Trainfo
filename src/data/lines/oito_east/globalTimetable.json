@@ -2,14 +2,14 @@
   {
     "tripId": "WD_OUT_OIE-01_0449_42781",
     "lineId": "oito_east",
-    "trainNumber": "42781",
+    "trainNumber": "9011M",
     "trainType": "limitedExp",
     "trainName": "アルプス",
     "direction": "outbound",
     "originStationId": "OIE-01",
     "destinationStationId": "OIE-29",
     "customOrigin": "新宿",
-    "cars": 3,
+    "cars": 9,
     "isHoliday": false,
     "stops": [
       {
@@ -186,7 +186,10 @@
         "departureTime": "05:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customDestination": "白馬",
+    "prevTripId": "sn_WD_OUT_JC-05_2358_42781",
+    "prevLineId": "shinonoi"
   },
   {
     "tripId": "WD_INB_OIE-20_0530_29311",
@@ -1361,7 +1364,10 @@
         "departureTime": "07:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customOrigin": "信濃大町",
+    "throughTripId": "WD_INB_SN-06_0750_29273",
+    "throughLineId": "shinonoi"
   },
   {
     "tripId": "WD_OUT_OIE-20_0706_29300",
@@ -4676,7 +4682,7 @@
   {
     "tripId": "WD_INB_OIE-29_1343_42025",
     "lineId": "oito_east",
-    "trainNumber": "42025",
+    "trainNumber": "38M",
     "trainType": "limitedExp",
     "trainName": "あずさ38号",
     "direction": "inbound",
@@ -6232,7 +6238,7 @@
   {
     "tripId": "WD_INB_OIE-20_1713_42024",
     "lineId": "oito_east",
-    "trainNumber": "42024",
+    "trainNumber": "1542M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OIE-20",
@@ -6361,7 +6367,10 @@
         "departureTime": "18:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customOrigin": "信濃大町",
+    "throughTripId": "WD_INB_SN-06_1813_42024",
+    "throughLineId": "shinonoi"
   },
   {
     "tripId": "WD_OUT_OIE-01_1718_29276",
@@ -8666,14 +8675,14 @@
   {
     "tripId": "HD_OUT_OIE-01_0449_42781",
     "lineId": "oito_east",
-    "trainNumber": "42781",
+    "trainNumber": "9011M",
     "trainType": "limitedExp",
     "trainName": "アルプス",
     "direction": "outbound",
     "originStationId": "OIE-01",
     "destinationStationId": "OIE-29",
     "customOrigin": "新宿",
-    "cars": 3,
+    "cars": 9,
     "isHoliday": true,
     "stops": [
       {
@@ -8850,7 +8859,10 @@
         "departureTime": "05:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customDestination": "白馬",
+    "prevTripId": "sn_HD_OUT_JC-05_2358_42781",
+    "prevLineId": "shinonoi"
   },
   {
     "tripId": "HD_INB_OIE-20_0530_29311",
@@ -10025,7 +10037,10 @@
         "departureTime": "07:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customOrigin": "信濃大町",
+    "throughTripId": "HD_INB_SN-06_0750_29273",
+    "throughLineId": "shinonoi"
   },
   {
     "tripId": "HD_OUT_OIE-20_0706_29300",
@@ -13741,7 +13756,7 @@
   {
     "tripId": "HD_INB_OIE-29_1343_42026",
     "lineId": "oito_east",
-    "trainNumber": "42026",
+    "trainNumber": "38M",
     "trainType": "limitedExp",
     "trainName": "あずさ38号",
     "direction": "inbound",
@@ -15784,7 +15799,7 @@
   {
     "tripId": "HD_INB_OIE-20_1713_42024",
     "lineId": "oito_east",
-    "trainNumber": "42024",
+    "trainNumber": "1542M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OIE-20",
@@ -15913,7 +15928,10 @@
         "departureTime": "18:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customOrigin": "信濃大町",
+    "throughTripId": "HD_INB_SN-06_1813_42024",
+    "throughLineId": "shinonoi"
   },
   {
     "tripId": "HD_OUT_OIE-01_1718_29276",
