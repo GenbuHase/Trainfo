@@ -500,14 +500,101 @@ export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
     }
   }
 
-  // 始発駅の出発時刻順にソート
-  chain.sort((a, b) => {
+  // 有向直通リンク (prevTripId / throughTripId) と日付跨ぎを考慮したトポロジカル整列
+  return sortThroughChainTrips(chain);
+}
+
+/**
+ * 直通運行チェーン内のトリップ群を、有向直通リンク (prevTripId / throughTripId) と
+ * 日付跨ぎを考慮した正しい運行順序（始発路線 -> 終着路線）にトポロジカル整列
+ */
+function sortThroughChainTrips(chain: TimetableTrip[]): TimetableTrip[] {
+  if (chain.length <= 1) return chain;
+
+  const chainSet = new Map<string, TimetableTrip>(chain.map((t) => [t.tripId, t]));
+  const nextMap = new Map<string, Set<string>>();
+  const prevMap = new Map<string, Set<string>>();
+  const inDegree = new Map<string, number>();
+
+  for (const t of chain) {
+    nextMap.set(t.tripId, new Set());
+    prevMap.set(t.tripId, new Set());
+    inDegree.set(t.tripId, 0);
+  }
+
+  for (const t of chain) {
+    // 1. throughTripId による後続関係
+    if (t.throughTripId && chainSet.has(t.throughTripId)) {
+      nextMap.get(t.tripId)!.add(t.throughTripId);
+      prevMap.get(t.throughTripId)!.add(t.tripId);
+    }
+    // 2. prevTripId による先行関係
+    if (t.prevTripId && chainSet.has(t.prevTripId)) {
+      nextMap.get(t.prevTripId)!.add(t.tripId);
+      prevMap.get(t.tripId)!.add(t.prevTripId);
+    }
+  }
+
+  for (const [id, prevs] of prevMap.entries()) {
+    inDegree.set(id, prevs.size);
+  }
+
+  // 入次数0（最上流・始発路線）のノードをキューに追加
+  const queue = chain.filter((t) => (inDegree.get(t.tripId) || 0) === 0);
+  queue.sort((a, b) => {
     const depA = a.stops[0]?.departureTime ? timeStringToSeconds(a.stops[0].departureTime) : 0;
     const depB = b.stops[0]?.departureTime ? timeStringToSeconds(b.stops[0].departureTime) : 0;
     return depA - depB;
   });
 
-  return chain;
+  const sorted: TimetableTrip[] = [];
+  const visited = new Set<string>();
+
+  while (queue.length > 0) {
+    const cur = queue.shift()!;
+    if (visited.has(cur.tripId)) continue;
+    visited.add(cur.tripId);
+    sorted.push(cur);
+
+    const nexts = Array.from(nextMap.get(cur.tripId) || [])
+      .map((id) => chainSet.get(id))
+      .filter((t): t is TimetableTrip => Boolean(t));
+
+    for (const next of nexts) {
+      const curDeg = (inDegree.get(next.tripId) || 0) - 1;
+      inDegree.set(next.tripId, curDeg);
+      if (curDeg <= 0 && !visited.has(next.tripId)) {
+        queue.push(next);
+      }
+    }
+  }
+
+  // サイクルや未接続ノードが存在する場合のフォールバック
+  if (sorted.length < chain.length) {
+    const remaining = chain.filter((t) => !visited.has(t.tripId));
+    let lastSec = 0;
+    if (sorted.length > 0) {
+      const lastStops = sorted[sorted.length - 1].stops;
+      if (lastStops.length > 0) {
+        const lastStop = lastStops[lastStops.length - 1];
+        lastSec = timeStringToSeconds(lastStop.arrivalTime || lastStop.departureTime);
+      }
+    }
+
+    remaining.sort((a, b) => {
+      let depA = a.stops[0]?.departureTime ? timeStringToSeconds(a.stops[0].departureTime) : 0;
+      let depB = b.stops[0]?.departureTime ? timeStringToSeconds(b.stops[0].departureTime) : 0;
+      if (depA < lastSec && depA + 86400 >= lastSec) depA += 86400;
+      if (depB < lastSec && depB + 86400 >= lastSec) depB += 86400;
+      return depA - depB;
+    });
+
+    for (const r of remaining) {
+      sorted.push(r);
+    }
+  }
+
+  return sorted;
 }
 
 /**
