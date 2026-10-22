@@ -4536,8 +4536,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38102",
     "customOrigin": "本厚木",
+    "trainId": "B549E",
     "throughTripId": "WD_OUT_C-01_0631_38196",
     "throughLineId": "chiyoda"
   },
@@ -6024,10 +6024,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38103",
     "customOrigin": "本厚木",
-    "throughTripId": "WD_OUT_C-01_0623_38197",
-    "throughLineId": "chiyoda"
+    "trainId": "B561E"
   },
   {
     "tripId": "WD_INB_OH-23_0532_95876",
@@ -6917,7 +6915,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95016"
+    "trainId": "95016",
+    "throughTripId": "WD_OUT_OH-28_0542_95016",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "WD_OUT_OH-34_0540_93868",
@@ -8577,10 +8578,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38104",
     "customOrigin": "本厚木",
-    "throughTripId": "WD_OUT_C-01_0645_38198",
-    "throughLineId": "chiyoda"
+    "trainId": "B555S"
   },
   {
     "tripId": "WD_INB_OH-47_0552_93943",
@@ -9333,16 +9332,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39081",
     "customOrigin": "伊勢原",
-    "throughTripId": "WD_OUT_C-01_0725_39175",
-    "throughLineId": "chiyoda"
+    "trainId": "B553E"
   },
   {
     "tripId": "WD_INB_OH-28_0556_94217",
     "lineId": "odakyu_odawara",
     "trainNumber": "990レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ90号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -10826,7 +10824,7 @@
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
-    "customOrigin": "大和(神奈川県)",
+    "customOrigin": "大和",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -11006,6 +11004,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "904レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ4号",
     "direction": "inbound",
     "originStationId": "OH-39",
     "destinationStationId": "OH-01",
@@ -11254,6 +11253,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "902レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ2号",
     "direction": "inbound",
     "originStationId": "OH-34",
     "destinationStationId": "OH-01",
@@ -11716,10 +11716,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38106",
     "customOrigin": "本厚木",
-    "throughTripId": "WD_OUT_C-01_0700_38200",
-    "throughLineId": "chiyoda"
+    "trainId": "B613K"
   },
   {
     "tripId": "WD_OUT_OH-01_0612_93722",
@@ -12175,6 +12173,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "992レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ92号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -13071,10 +13070,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94492",
     "customOrigin": "伊勢原",
-    "throughTripId": "WD_OUT_C-01_0738_94814",
-    "throughLineId": "chiyoda"
+    "trainId": "B651E"
   },
   {
     "tripId": "WD_INB_OH-47_0617_94067",
@@ -14867,6 +14864,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "940レ",
     "trainType": "limitedExp",
+    "trainName": "メトロモーニングウェイ40号",
     "direction": "inbound",
     "originStationId": "OH-34",
     "destinationStationId": "OH-27",
@@ -15160,6 +15158,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "906レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ6号",
     "direction": "inbound",
     "originStationId": "OH-39",
     "destinationStationId": "OH-01",
@@ -16152,6 +16151,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "980レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ80号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -17114,6 +17114,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "0401M",
     "trainType": "limitedExp",
+    "trainName": "ふじさん1号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "CB-04",
@@ -17357,20 +17358,19 @@
       },
       {
         "stationId": "OH-40",
-        "arrivalTime": "07:39:00",
-        "departureTime": "07:39:00",
+        "arrivalTime": "07:38:36",
+        "departureTime": "07:38:36",
         "isPassing": true
       },
       {
         "stationId": "CB-04",
-        "arrivalTime": "07:44:00",
+        "arrivalTime": "07:43:00",
         "departureTime": "07:47:00",
         "isPassing": false
       }
     ],
-    "trainId": "38876",
     "customOrigin": "新宿",
-    "trainName": "ふじさん1号",
+    "trainId": "0401M",
     "throughTripId": "WD_OUT_CB-04_0747_39001",
     "throughLineId": "gotemba"
   },
@@ -18219,6 +18219,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "950レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ50号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -18422,7 +18423,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95034"
+    "trainId": "95034",
+    "throughTripId": "WD_OUT_OH-28_0651_95034",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "WD_OUT_OH-32_0646_93861",
@@ -18957,10 +18961,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38101",
     "customOrigin": "本厚木",
-    "throughTripId": "WD_OUT_C-01_0759_38195",
-    "throughLineId": "chiyoda"
+    "trainId": "B645E"
   },
   {
     "tripId": "WD_INB_OH-47_0647_94069",
@@ -19379,7 +19381,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95018"
+    "trainId": "95018",
+    "throughTripId": "WD_OUT_OH-28_0655_95018",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "WD_OUT_OH-01_0651_93728",
@@ -20673,10 +20678,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38053",
     "customOrigin": "成城学園前",
-    "throughTripId": "WD_OUT_C-01_0709_38147",
-    "throughLineId": "chiyoda"
+    "trainId": "B643E"
   },
   {
     "tripId": "WD_INB_OH-47_0658_94123",
@@ -20817,6 +20820,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "791レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ91号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -21393,10 +21397,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38098",
     "customOrigin": "相模大野",
-    "throughTripId": "WD_OUT_C-01_0750_38192",
-    "throughLineId": "chiyoda"
+    "trainId": "B757E"
   },
   {
     "tripId": "WD_INB_OH-34_0701_94248",
@@ -21797,7 +21799,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94995"
+    "trainId": "94995",
+    "throughTripId": "WD_OUT_OH-28_0746_94995",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_0704_93416",
@@ -22494,10 +22499,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39078",
     "customOrigin": "海老名",
-    "throughTripId": "WD_OUT_C-01_0808_39172",
-    "throughLineId": "chiyoda"
+    "trainId": "B757S"
   },
   {
     "tripId": "WD_INB_OH-23_0705_95774",
@@ -22677,7 +22680,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95035"
+    "trainId": "95035",
+    "throughTripId": "WD_OUT_OH-28_0707_95035",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "WD_INB_OH-28_0708_95519",
@@ -23070,8 +23076,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39073",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B747E",
     "throughTripId": "WD_OUT_C-01_0744_39167",
     "throughLineId": "chiyoda"
   },
@@ -23080,6 +23086,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "501レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま1号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -23256,13 +23263,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "94998"
+    "trainId": "94998",
+    "throughTripId": "WD_OUT_OH-28_0740_94998",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-47_0710_93933",
     "lineId": "odakyu_odawara",
     "trainNumber": "908レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ8号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -23559,6 +23570,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "982レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ82号",
     "direction": "inbound",
     "originStationId": "OH-39",
     "destinationStationId": "OH-01",
@@ -24347,10 +24359,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39079",
     "customOrigin": "本厚木",
-    "throughTripId": "WD_OUT_C-01_0819_39173",
-    "throughLineId": "chiyoda"
+    "trainId": "B763E"
   },
   {
     "tripId": "WD_INB_OH-47_0712_94071",
@@ -24941,10 +24951,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39066",
     "customOrigin": "成城学園前",
-    "throughTripId": "WD_OUT_C-01_0729_39160",
-    "throughLineId": "chiyoda"
+    "trainId": "B759E"
   },
   {
     "tripId": "WD_INB_OH-23_0717_95775",
@@ -25104,6 +25112,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "293レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ93号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-36",
@@ -26591,8 +26600,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39074",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B765E",
     "throughTripId": "WD_OUT_C-01_0756_39168",
     "throughLineId": "chiyoda"
   },
@@ -26938,10 +26947,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38100",
     "customOrigin": "海老名",
-    "throughTripId": "WD_OUT_C-01_0830_38194",
-    "throughLineId": "chiyoda"
+    "trainId": "B761S"
   },
   {
     "tripId": "WD_INB_OH-23_0727_95783",
@@ -27277,7 +27284,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94996"
+    "trainId": "94996",
+    "throughTripId": "WD_OUT_OH-28_0810_94996",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-28_0729_95521",
@@ -27881,8 +27891,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38087",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B703K",
     "throughTripId": "WD_OUT_C-01_0805_38181",
     "throughLineId": "chiyoda"
   },
@@ -28079,10 +28089,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39080",
     "customOrigin": "本厚木",
-    "throughTripId": "WD_OUT_C-01_0841_39174",
-    "throughLineId": "chiyoda"
+    "trainId": "B753S"
   },
   {
     "tripId": "WD_INB_OH-36_0732_38110",
@@ -28289,10 +28297,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38110",
     "customOrigin": "伊勢原",
-    "throughTripId": "WD_OUT_C-01_0851_38204",
-    "throughLineId": "chiyoda"
+    "trainId": "B759S"
   },
   {
     "tripId": "WD_OUT_OH-01_0734_93732",
@@ -28962,6 +28968,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "741レ",
     "trainType": "limitedExp",
+    "trainName": "はこね41号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -30523,8 +30530,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38088",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B731S",
     "throughTripId": "WD_OUT_C-01_0814_38182",
     "throughLineId": "chiyoda"
   },
@@ -30679,7 +30686,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95674"
+    "trainId": "95674",
+    "throughTripId": "WD_OUT_OH-23_0812_95674",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-18_0744_95773",
@@ -30730,7 +30740,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95773"
+    "trainId": "95773",
+    "throughTripId": "WD_OUT_OH-23_0751_95773",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "登戸"
   },
   {
     "tripId": "WD_OUT_OH-28_0744_93844",
@@ -31494,8 +31507,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34888",
     "customDestination": "成城学園前",
+    "trainId": "A647S",
     "prevTripId": "WD_INB_C-19_0706_34965",
     "prevLineId": "chiyoda"
   },
@@ -32269,8 +32282,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75665",
     "customDestination": "成城学園前",
+    "trainId": "A727S",
     "prevTripId": "WD_INB_C-20_0703_75827",
     "prevLineId": "chiyoda"
   },
@@ -32377,8 +32390,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38089",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B725S",
     "throughTripId": "WD_OUT_C-01_0824_38183",
     "throughLineId": "chiyoda"
   },
@@ -32387,6 +32400,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "910レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ10号",
     "direction": "inbound",
     "originStationId": "OH-39",
     "destinationStationId": "OH-01",
@@ -32811,7 +32825,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94997"
+    "trainId": "94997",
+    "throughTripId": "WD_OUT_OH-28_0833_94997",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-36_0755_94448",
@@ -34141,8 +34158,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34889",
     "customDestination": "成城学園前",
+    "trainId": "A609K",
     "prevTripId": "WD_INB_C-19_0717_34966",
     "prevLineId": "chiyoda"
   },
@@ -34486,8 +34503,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75668",
     "customDestination": "相模大野",
+    "trainId": "A755E",
     "prevTripId": "WD_INB_C-20_0714_75830",
     "prevLineId": "chiyoda"
   },
@@ -34890,8 +34907,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38090",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B817K",
     "throughTripId": "WD_OUT_C-01_0835_38184",
     "throughLineId": "chiyoda"
   },
@@ -35046,7 +35063,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95681"
+    "trainId": "95681",
+    "throughTripId": "WD_OUT_OH-23_0832_95681",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-28_0805_95539",
@@ -35313,7 +35333,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94904"
+    "trainId": "94904",
+    "throughTripId": "WD_OUT_OH-28_0846_94904",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-23_0808_95778",
@@ -35998,8 +36021,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34890",
     "customDestination": "成城学園前",
+    "trainId": "A635S",
     "prevTripId": "WD_INB_C-19_0727_34967",
     "prevLineId": "chiyoda"
   },
@@ -36008,6 +36031,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "721レ",
     "trainType": "limitedExp",
+    "trainName": "はこね21号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -36373,8 +36397,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34891",
     "customDestination": "成城学園前",
+    "trainId": "A637S",
     "prevTripId": "WD_INB_C-19_0729_34968",
     "prevLineId": "chiyoda"
   },
@@ -36481,8 +36505,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39075",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B805K",
     "throughTripId": "WD_OUT_C-01_0846_39169",
     "throughLineId": "chiyoda"
   },
@@ -37447,7 +37471,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95675"
+    "trainId": "95675",
+    "throughTripId": "WD_OUT_OH-23_0846_95675",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-47_0817_94076",
@@ -37740,6 +37767,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "942レ",
     "trainType": "limitedExp",
+    "trainName": "メトロモーニングウェイ42号",
     "direction": "inbound",
     "originStationId": "OH-34",
     "destinationStationId": "OH-27",
@@ -37871,8 +37899,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34892",
     "customDestination": "成城学園前",
+    "trainId": "A613S2",
     "prevTripId": "WD_INB_C-19_0736_34969",
     "prevLineId": "chiyoda"
   },
@@ -38920,13 +38948,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "94906"
+    "trainId": "94906",
+    "throughTripId": "WD_OUT_OH-28_0906_94906",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-47_0826_93936",
     "lineId": "odakyu_odawara",
     "trainNumber": "790レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ90号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -39988,8 +40020,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75666",
     "customDestination": "成城学園前",
+    "trainId": "A719S",
     "prevTripId": "WD_INB_C-20_0737_75828",
     "prevLineId": "chiyoda"
   },
@@ -39998,6 +40030,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "301レ",
     "trainType": "limitedExp",
+    "trainName": "はこね1号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -41116,7 +41149,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95676"
+    "trainId": "95676",
+    "throughTripId": "WD_OUT_OH-23_0907_95676",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-19_0836_94212",
@@ -41615,8 +41651,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34893",
     "customDestination": "成城学園前",
+    "trainId": "A741E",
     "prevTripId": "WD_INB_C-19_0752_34970",
     "prevLineId": "chiyoda"
   },
@@ -41625,6 +41661,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "960レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ60号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -42166,6 +42203,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "912レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ12号",
     "direction": "inbound",
     "originStationId": "OH-34",
     "destinationStationId": "OH-01",
@@ -42682,10 +42720,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38055",
     "customOrigin": "成城学園前",
-    "throughTripId": "WD_OUT_C-01_0900_38149",
-    "throughLineId": "chiyoda"
+    "trainId": "B827S"
   },
   {
     "tripId": "WD_OUT_OH-05_0843_34872",
@@ -43260,7 +43296,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94908"
+    "trainId": "94908",
+    "throughTripId": "WD_OUT_OH-28_0927_94908",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-28_0847_95527",
@@ -43954,8 +43993,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34894",
     "customDestination": "成城学園前",
+    "trainId": "A721S",
     "prevTripId": "WD_INB_C-19_0803_34971",
     "prevLineId": "chiyoda"
   },
@@ -44110,7 +44149,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95685"
+    "trainId": "95685",
+    "throughTripId": "WD_OUT_OH-23_0922_95685",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-47_0853_93971",
@@ -44481,8 +44523,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38062",
     "customOrigin": "成城学園前",
+    "trainId": "B847S",
     "throughTripId": "WD_OUT_C-01_0911_38156",
     "throughLineId": "chiyoda"
   },
@@ -44749,8 +44791,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34895",
     "customDestination": "成城学園前",
+    "trainId": "A733S",
     "prevTripId": "WD_INB_C-19_0810_34972",
     "prevLineId": "chiyoda"
   },
@@ -45659,10 +45701,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39067",
     "customOrigin": "成城学園前",
-    "throughTripId": "WD_OUT_C-01_0916_39161",
-    "throughLineId": "chiyoda"
+    "trainId": "B913S"
   },
   {
     "tripId": "WD_OUT_OH-01_0903_93711",
@@ -45955,8 +45995,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34881",
     "customDestination": "成城学園前",
+    "trainId": "A749E",
     "prevTripId": "WD_INB_C-19_0815_34958",
     "prevLineId": "chiyoda"
   },
@@ -46546,8 +46586,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75677",
     "customDestination": "成城学園前",
+    "trainId": "A859E",
     "prevTripId": "WD_INB_C-19_0822_75840",
     "prevLineId": "chiyoda"
   },
@@ -46624,10 +46664,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94472",
     "customOrigin": "成城学園前",
-    "throughTripId": "WD_OUT_C-01_0926_94793",
-    "throughLineId": "chiyoda"
+    "trainId": "B909K"
   },
   {
     "tripId": "WD_OUT_OH-01_0911_94911",
@@ -46810,7 +46848,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94911"
+    "trainId": "94911",
+    "throughTripId": "WD_OUT_OH-28_0947_94911",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_0911_94269",
@@ -47361,7 +47402,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95687"
+    "trainId": "95687",
+    "throughTripId": "WD_OUT_OH-23_0942_95687",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-47_0914_93973",
@@ -47762,8 +47806,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39076",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B915S",
     "throughTripId": "WD_OUT_C-01_0946_39170",
     "throughLineId": "chiyoda"
   },
@@ -47792,7 +47836,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95021"
+    "trainId": "95021",
+    "throughTripId": "WD_OUT_OH-28_0920_95021",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "WD_OUT_OH-01_0916_93438",
@@ -48085,8 +48132,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39069",
     "customOrigin": "成城学園前",
+    "trainId": "B919S",
     "throughTripId": "WD_OUT_C-01_0937_39163",
     "throughLineId": "chiyoda"
   },
@@ -48235,6 +48282,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "771レ",
     "trainType": "limitedExp",
+    "trainName": "はこね71号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -49192,7 +49240,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95688"
+    "trainId": "95688",
+    "throughTripId": "WD_OUT_OH-23_0953_95688",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_0925_93439",
@@ -49761,6 +49812,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "0402M",
     "trainType": "limitedExp",
+    "trainName": "ふじさん2号",
     "direction": "inbound",
     "originStationId": "CB-04",
     "destinationStationId": "OH-01",
@@ -49771,13 +49823,13 @@
       {
         "stationId": "CB-04",
         "arrivalTime": "09:14:00",
-        "departureTime": "09:16:00",
+        "departureTime": "09:17:00",
         "isPassing": false
       },
       {
         "stationId": "OH-40",
-        "arrivalTime": "09:21:00",
-        "departureTime": "09:21:00",
+        "arrivalTime": "09:21:24",
+        "departureTime": "09:21:24",
         "isPassing": true
       },
       {
@@ -50015,9 +50067,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "31210",
     "customDestination": "新宿",
-    "trainName": "ふじさん2号",
+    "trainId": "0402M",
     "prevTripId": "WD_INB_CB-10_0848_31305",
     "prevLineId": "gotemba"
   },
@@ -50046,7 +50097,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95022"
+    "trainId": "95022",
+    "throughTripId": "WD_OUT_OH-28_0930_95022",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "WD_OUT_OH-28_0928_93851",
@@ -50581,7 +50635,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94913"
+    "trainId": "94913",
+    "throughTripId": "WD_OUT_OH-28_1006_94913",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_0931_95689",
@@ -50734,7 +50791,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95689"
+    "trainId": "95689",
+    "throughTripId": "WD_OUT_OH-23_1002_95689",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-23_0934_95797",
@@ -50992,10 +51052,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39070",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_0953_39164",
-    "throughLineId": "chiyoda"
+    "trainId": "B929K"
   },
   {
     "tripId": "WD_OUT_OH-01_0935_93442",
@@ -52084,6 +52142,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "351レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ51号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -52709,7 +52768,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95691"
+    "trainId": "95691",
+    "throughTripId": "WD_OUT_OH-23_1012_95691",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_0941_94274",
@@ -53325,10 +53387,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38056",
     "customOrigin": "成城学園前",
-    "throughTripId": "WD_OUT_C-01_1000_38150",
-    "throughLineId": "chiyoda"
+    "trainId": "B921S"
   },
   {
     "tripId": "WD_OUT_OH-27_0947_95023",
@@ -53355,7 +53415,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95023"
+    "trainId": "95023",
+    "throughTripId": "WD_OUT_OH-28_0950_95023",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "WD_OUT_OH-28_0948_93852",
@@ -53672,7 +53735,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94915"
+    "trainId": "94915",
+    "throughTripId": "WD_OUT_OH-28_1024_94915",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_0950_94276",
@@ -53972,6 +54038,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "2レ",
     "trainType": "limitedExp",
+    "trainName": "はこね2号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -54415,7 +54482,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95694"
+    "trainId": "95694",
+    "throughTripId": "WD_OUT_OH-23_1022_95694",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-28_0953_95543",
@@ -54517,8 +54587,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34867",
     "customDestination": "成城学園前",
+    "trainId": "A807K",
     "prevTripId": "WD_INB_C-20_0857_75805",
     "prevLineId": "chiyoda"
   },
@@ -55165,10 +55235,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39068",
     "customOrigin": "成城学園前",
-    "throughTripId": "WD_OUT_C-01_1012_39162",
-    "throughLineId": "chiyoda"
+    "trainId": "B937S"
   },
   {
     "tripId": "WD_INB_OH-47_0958_94141",
@@ -55596,16 +55664,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "38069",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_1019_38163",
-    "throughLineId": "chiyoda"
+    "trainId": "B953E"
   },
   {
     "tripId": "WD_OUT_OH-01_1000_96007",
     "lineId": "odakyu_odawara",
     "trainNumber": "3レ",
     "trainType": "limitedExp",
+    "trainName": "はこね3号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -57051,9 +57118,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "75679",
-    "prevTripId": "WD_INB_C-19_0924_75842",
-    "prevLineId": "chiyoda"
+    "trainId": "A927K",
+    "throughTripId": "WD_OUT_OH-23_1032_75679",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_INB_OH-14_1008_94473",
@@ -57128,10 +57195,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94473",
     "customOrigin": "成城学園前",
-    "throughTripId": "WD_OUT_C-01_1024_94794",
-    "throughLineId": "chiyoda"
+    "trainId": "B1033S"
   },
   {
     "tripId": "WD_OUT_OH-01_1010_94917",
@@ -57314,7 +57379,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94917"
+    "trainId": "94917",
+    "throughTripId": "WD_OUT_OH-28_1045_94917",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1010_94280",
@@ -57685,7 +57753,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95695"
+    "trainId": "95695",
+    "throughTripId": "WD_OUT_OH-23_1042_95695",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1015_93449",
@@ -58274,8 +58345,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34868",
     "customDestination": "成城学園前",
+    "trainId": "A843E",
     "prevTripId": "WD_INB_C-19_0906_34944",
     "prevLineId": "chiyoda"
   },
@@ -58382,10 +58453,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38070",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_1039_38164",
-    "throughLineId": "chiyoda"
+    "trainId": "B1055S"
   },
   {
     "tripId": "WD_INB_OH-47_1018_94143",
@@ -59808,16 +59877,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "94474",
     "customOrigin": "成城学園前",
-    "throughTripId": "WD_OUT_C-01_1044_94795",
-    "throughLineId": "chiyoda"
+    "trainId": "B1007K"
   },
   {
     "tripId": "WD_INB_OH-47_1029_96064",
     "lineId": "odakyu_odawara",
     "trainNumber": "730レ",
     "trainType": "limitedExp",
+    "trainName": "はこね30号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -60291,7 +60359,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94918"
+    "trainId": "94918",
+    "throughTripId": "WD_OUT_OH-28_1104_94918",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1030_94283",
@@ -60662,7 +60733,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95697"
+    "trainId": "95697",
+    "throughTripId": "WD_OUT_OH-23_1102_95697",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-23_1032_42880",
@@ -60792,15 +60866,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "42880",
-    "throughTripId": "WD_OUT_C-01_1059_42983",
-    "throughLineId": "chiyoda"
+    "trainId": "B1035S"
   },
   {
     "tripId": "WD_OUT_OH-14_1032_95971",
     "lineId": "odakyu_odawara",
     "trainNumber": "421レ",
     "trainType": "limitedExp",
+    "trainName": "メトロはこね21号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-47",
@@ -61961,10 +62034,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75669",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_0935_34945",
-    "prevLineId": "chiyoda"
+    "trainId": "A919K"
   },
   {
     "tripId": "WD_INB_OH-28_1039_95450",
@@ -62154,6 +62225,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "0403M",
     "trainType": "limitedExp",
+    "trainName": "ふじさん3号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "CB-04",
@@ -62397,20 +62469,19 @@
       },
       {
         "stationId": "OH-40",
-        "arrivalTime": "11:42:00",
-        "departureTime": "11:42:00",
+        "arrivalTime": "11:41:36",
+        "departureTime": "11:41:36",
         "isPassing": true
       },
       {
         "stationId": "CB-04",
-        "arrivalTime": "11:47:00",
+        "arrivalTime": "11:46:00",
         "departureTime": "11:58:00",
         "isPassing": false
       }
     ],
-    "trainId": "38877",
     "customOrigin": "新宿",
-    "trainName": "ふじさん3号",
+    "trainId": "0403M",
     "throughTripId": "WD_OUT_CB-04_1158_39002",
     "throughLineId": "gotemba"
   },
@@ -63567,9 +63638,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40872",
-    "prevTripId": "WD_INB_C-19_1007_40968",
-    "prevLineId": "chiyoda"
+    "trainId": "A931S",
+    "throughTripId": "WD_OUT_OH-23_1112_40872",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_OUT_OH-01_1050_94920",
@@ -63752,7 +63823,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94920"
+    "trainId": "94920",
+    "throughTripId": "WD_OUT_OH-28_1124_94920",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1051_95699",
@@ -63905,7 +63979,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95699"
+    "trainId": "95699",
+    "throughTripId": "WD_OUT_OH-23_1122_95699",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-23_1052_42881",
@@ -64035,15 +64112,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "42881",
-    "throughTripId": "WD_OUT_C-01_1119_42984",
-    "throughLineId": "chiyoda"
+    "trainId": "B1023K"
   },
   {
     "tripId": "WD_INB_OH-47_1054_96035",
     "lineId": "odakyu_odawara",
     "trainNumber": "4レ",
     "trainType": "limitedExp",
+    "trainName": "はこね4号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -65536,6 +65612,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "5レ",
     "trainType": "limitedExp",
+    "trainName": "はこね5号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -66623,9 +66700,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40873",
-    "prevTripId": "WD_INB_C-19_1028_40969",
-    "prevLineId": "chiyoda"
+    "trainId": "A961S",
+    "throughTripId": "WD_OUT_OH-23_1132_40873",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_OUT_OH-01_1110_94922",
@@ -66808,7 +66885,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94922"
+    "trainId": "94922",
+    "throughTripId": "WD_OUT_OH-28_1144_94922",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1111_95701",
@@ -66961,7 +67041,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95701"
+    "trainId": "95701",
+    "throughTripId": "WD_OUT_OH-23_1142_95701",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1111_94292",
@@ -67309,9 +67392,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42882",
-    "throughTripId": "WD_OUT_C-01_1139_42985",
-    "throughLineId": "chiyoda"
+    "trainId": "B1027K"
   },
   {
     "tripId": "WD_OUT_OH-01_1115_93461",
@@ -68513,6 +68594,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "723レ",
     "trainType": "limitedExp",
+    "trainName": "はこね23号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -69600,9 +69682,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40874",
-    "prevTripId": "WD_INB_C-19_1048_40970",
-    "prevLineId": "chiyoda"
+    "trainId": "A1059S",
+    "throughTripId": "WD_OUT_OH-23_1152_40874",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_INB_OH-34_1129_94295",
@@ -69827,6 +69909,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "732レ",
     "trainType": "limitedExp",
+    "trainName": "はこね32号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -70300,7 +70383,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94924"
+    "trainId": "94924",
+    "throughTripId": "WD_OUT_OH-28_1204_94924",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1131_95703",
@@ -70453,7 +70539,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95703"
+    "trainId": "95703",
+    "throughTripId": "WD_OUT_OH-23_1202_95703",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-23_1132_42883",
@@ -70583,9 +70672,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42883",
-    "throughTripId": "WD_OUT_C-01_1159_42986",
-    "throughLineId": "chiyoda"
+    "trainId": "B1153S"
   },
   {
     "tripId": "WD_INB_OH-47_1134_93988",
@@ -72577,9 +72664,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40876",
-    "prevTripId": "WD_INB_C-19_1108_40972",
-    "prevLineId": "chiyoda"
+    "trainId": "A1031K",
+    "throughTripId": "WD_OUT_OH-23_1212_40876",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_OUT_OH-01_1150_94926",
@@ -72762,7 +72849,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94926"
+    "trainId": "94926",
+    "throughTripId": "WD_OUT_OH-28_1224_94926",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1151_95705",
@@ -72915,7 +73005,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95705"
+    "trainId": "95705",
+    "throughTripId": "WD_OUT_OH-23_1222_95705",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1151_94300",
@@ -73263,15 +73356,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "42884",
-    "throughTripId": "WD_OUT_C-01_1219_42987",
-    "throughLineId": "chiyoda"
+    "trainId": "B1131S"
   },
   {
     "tripId": "WD_INB_OH-47_1153_96036",
     "lineId": "odakyu_odawara",
     "trainNumber": "6レ",
     "trainType": "limitedExp",
+    "trainName": "はこね6号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -74764,6 +74856,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "7レ",
     "trainType": "limitedExp",
+    "trainName": "はこね7号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -75851,9 +75944,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40878",
-    "prevTripId": "WD_INB_C-19_1128_40974",
-    "prevLineId": "chiyoda"
+    "trainId": "A1003S",
+    "throughTripId": "WD_OUT_OH-23_1232_40878",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_OUT_OH-01_1210_94929",
@@ -76036,7 +76129,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94929"
+    "trainId": "94929",
+    "throughTripId": "WD_OUT_OH-28_1244_94929",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1211_95707",
@@ -76189,7 +76285,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95707"
+    "trainId": "95707",
+    "throughTripId": "WD_OUT_OH-23_1242_95707",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1211_94303",
@@ -76537,9 +76636,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42886",
-    "throughTripId": "WD_OUT_C-01_1239_42989",
-    "throughLineId": "chiyoda"
+    "trainId": "B1161S"
   },
   {
     "tripId": "WD_OUT_OH-01_1215_93471",
@@ -77741,6 +77838,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "725レ",
     "trainType": "limitedExp",
+    "trainName": "はこね25号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -78828,15 +78926,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "40880",
-    "prevTripId": "WD_INB_C-19_1148_40976",
-    "prevLineId": "chiyoda"
+    "trainId": "A1111S",
+    "throughTripId": "WD_OUT_OH-23_1252_40880",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_INB_OH-47_1229_93929",
     "lineId": "odakyu_odawara",
     "trainNumber": "150レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ50号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -79309,7 +79408,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94931"
+    "trainId": "94931",
+    "throughTripId": "WD_OUT_OH-28_1304_94931",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1231_95710",
@@ -79462,7 +79564,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95710"
+    "trainId": "95710",
+    "throughTripId": "WD_OUT_OH-23_1302_95710",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1231_94308",
@@ -79810,9 +79915,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42888",
-    "throughTripId": "WD_OUT_C-01_1259_42991",
-    "throughLineId": "chiyoda"
+    "trainId": "B1259S"
   },
   {
     "tripId": "WD_OUT_OH-01_1235_93474",
@@ -81804,9 +81907,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40881",
-    "prevTripId": "WD_INB_C-19_1208_40977",
-    "prevLineId": "chiyoda"
+    "trainId": "A1153E",
+    "throughTripId": "WD_OUT_OH-23_1312_40881",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_OUT_OH-01_1250_94932",
@@ -81989,7 +82092,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94932"
+    "trainId": "94932",
+    "throughTripId": "WD_OUT_OH-28_1324_94932",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1250_94311",
@@ -82360,7 +82466,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95711"
+    "trainId": "95711",
+    "throughTripId": "WD_OUT_OH-23_1322_95711",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-23_1252_42891",
@@ -82490,15 +82599,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "42891",
-    "throughTripId": "WD_OUT_C-01_1319_42994",
-    "throughLineId": "chiyoda"
+    "trainId": "B1245S"
   },
   {
     "tripId": "WD_INB_OH-47_1254_96039",
     "lineId": "odakyu_odawara",
     "trainNumber": "8レ",
     "trainType": "limitedExp",
+    "trainName": "はこね8号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -83991,6 +84099,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "9レ",
     "trainType": "limitedExp",
+    "trainName": "はこね9号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -85078,9 +85187,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40883",
-    "prevTripId": "WD_INB_C-19_1228_40979",
-    "prevLineId": "chiyoda"
+    "trainId": "A1155S",
+    "throughTripId": "WD_OUT_OH-23_1332_40883",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_OUT_OH-01_1310_94935",
@@ -85263,7 +85372,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94935"
+    "trainId": "94935",
+    "throughTripId": "WD_OUT_OH-28_1344_94935",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1311_95713",
@@ -85416,7 +85528,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95713"
+    "trainId": "95713",
+    "throughTripId": "WD_OUT_OH-23_1342_95713",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1311_94315",
@@ -85764,9 +85879,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42893",
-    "throughTripId": "WD_OUT_C-01_1339_42996",
-    "throughLineId": "chiyoda"
+    "trainId": "B1231K"
   },
   {
     "tripId": "WD_OUT_OH-01_1315_93482",
@@ -86968,6 +87081,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "727レ",
     "trainType": "limitedExp",
+    "trainName": "はこね27号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -87932,6 +88046,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "0404M",
     "trainType": "limitedExp",
+    "trainName": "ふじさん4号",
     "direction": "inbound",
     "originStationId": "CB-04",
     "destinationStationId": "OH-01",
@@ -87942,13 +88057,13 @@
       {
         "stationId": "CB-04",
         "arrivalTime": "13:14:00",
-        "departureTime": "13:17:00",
+        "departureTime": "13:18:00",
         "isPassing": false
       },
       {
         "stationId": "OH-40",
-        "arrivalTime": "13:22:00",
-        "departureTime": "13:22:00",
+        "arrivalTime": "13:22:24",
+        "departureTime": "13:22:24",
         "isPassing": true
       },
       {
@@ -88186,9 +88301,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "31211",
     "customDestination": "新宿",
-    "trainName": "ふじさん4号",
+    "trainId": "0404M",
     "prevTripId": "WD_INB_CB-10_1248_31306",
     "prevLineId": "gotemba"
   },
@@ -88320,15 +88434,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "40885",
-    "prevTripId": "WD_INB_C-19_1248_40981",
-    "prevLineId": "chiyoda"
+    "trainId": "A1235S",
+    "throughTripId": "WD_OUT_OH-23_1352_40885",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_INB_OH-47_1329_96066",
     "lineId": "odakyu_odawara",
     "trainNumber": "734レ",
     "trainType": "limitedExp",
+    "trainName": "はこね34号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -88802,7 +88917,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94937"
+    "trainId": "94937",
+    "throughTripId": "WD_OUT_OH-28_1404_94937",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1331_95715",
@@ -88955,7 +89073,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95715"
+    "trainId": "95715",
+    "throughTripId": "WD_OUT_OH-23_1402_95715",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1331_94319",
@@ -89303,9 +89424,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42894",
-    "throughTripId": "WD_OUT_C-01_1359_42997",
-    "throughLineId": "chiyoda"
+    "trainId": "B1311S"
   },
   {
     "tripId": "WD_OUT_OH-01_1335_93485",
@@ -91297,9 +91416,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40887",
-    "prevTripId": "WD_INB_C-19_1308_40983",
-    "prevLineId": "chiyoda"
+    "trainId": "A1223K",
+    "throughTripId": "WD_OUT_OH-23_1412_40887",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_OUT_OH-01_1350_94938",
@@ -91482,7 +91601,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94938"
+    "trainId": "94938",
+    "throughTripId": "WD_OUT_OH-28_1424_94938",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1350_94323",
@@ -91853,7 +91975,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95717"
+    "trainId": "95717",
+    "throughTripId": "WD_OUT_OH-23_1422_95717",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-23_1352_42897",
@@ -91983,15 +92108,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "42897",
-    "throughTripId": "WD_OUT_C-01_1419_43000",
-    "throughLineId": "chiyoda"
+    "trainId": "B1357S"
   },
   {
     "tripId": "WD_INB_OH-47_1354_96041",
     "lineId": "odakyu_odawara",
     "trainNumber": "10レ",
     "trainType": "limitedExp",
+    "trainName": "はこね10号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -93484,6 +93608,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "11レ",
     "trainType": "limitedExp",
+    "trainName": "はこね11号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -94571,9 +94696,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40889",
-    "prevTripId": "WD_INB_C-19_1328_40985",
-    "prevLineId": "chiyoda"
+    "trainId": "A1227K",
+    "throughTripId": "WD_OUT_OH-23_1432_40889",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_OUT_OH-01_1410_94941",
@@ -94756,7 +94881,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94941"
+    "trainId": "94941",
+    "throughTripId": "WD_OUT_OH-28_1444_94941",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1411_95719",
@@ -94909,7 +95037,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95719"
+    "trainId": "95719",
+    "throughTripId": "WD_OUT_OH-23_1442_95719",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1411_94327",
@@ -95257,15 +95388,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "42899",
-    "throughTripId": "WD_OUT_C-01_1439_43002",
-    "throughLineId": "chiyoda"
+    "trainId": "B1355S"
   },
   {
     "tripId": "WD_INB_OH-47_1412_96068",
     "lineId": "odakyu_odawara",
     "trainNumber": "740レ",
     "trainType": "limitedExp",
+    "trainName": "はこね40号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -96758,6 +96888,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "353レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ53号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -97844,9 +97975,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40891",
-    "prevTripId": "WD_INB_C-19_1348_40987",
-    "prevLineId": "chiyoda"
+    "trainId": "A1353S",
+    "throughTripId": "WD_OUT_OH-23_1452_40891",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_OUT_OH-01_1430_94943",
@@ -98029,7 +98160,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94943"
+    "trainId": "94943",
+    "throughTripId": "WD_OUT_OH-28_1504_94943",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1430_94331",
@@ -98400,7 +98534,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95721"
+    "trainId": "95721",
+    "throughTripId": "WD_OUT_OH-23_1502_95721",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-23_1432_42901",
@@ -98530,9 +98667,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42901",
-    "throughTripId": "WD_OUT_C-01_1459_43004",
-    "throughLineId": "chiyoda"
+    "trainId": "B1435S"
   },
   {
     "tripId": "WD_INB_OH-47_1433_94006",
@@ -99053,6 +99188,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "420レ",
     "trainType": "limitedExp",
+    "trainName": "メトロはこね20号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-14",
@@ -99954,6 +100090,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "0405M",
     "trainType": "limitedExp",
+    "trainName": "ふじさん5号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "CB-04",
@@ -100197,20 +100334,19 @@
       },
       {
         "stationId": "OH-40",
-        "arrivalTime": "15:41:00",
-        "departureTime": "15:41:00",
+        "arrivalTime": "15:40:36",
+        "departureTime": "15:40:36",
         "isPassing": true
       },
       {
         "stationId": "CB-04",
-        "arrivalTime": "15:46:00",
+        "arrivalTime": "15:45:00",
         "departureTime": "15:57:00",
         "isPassing": false
       }
     ],
-    "trainId": "38879",
     "customOrigin": "新宿",
-    "trainName": "ふじさん5号",
+    "trainId": "0405M",
     "throughTripId": "WD_OUT_CB-04_1557_39004",
     "throughLineId": "gotemba"
   },
@@ -101009,9 +101145,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40893",
-    "prevTripId": "WD_INB_C-19_1408_40989",
-    "prevLineId": "chiyoda"
+    "trainId": "A1331S",
+    "throughTripId": "WD_OUT_OH-23_1512_40893",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_OUT_OH-01_1450_94944",
@@ -101194,7 +101330,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94944"
+    "trainId": "94944",
+    "throughTripId": "WD_OUT_OH-28_1524_94944",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1451_95723",
@@ -101347,7 +101486,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95723"
+    "trainId": "95723",
+    "throughTripId": "WD_OUT_OH-23_1522_95723",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1451_94335",
@@ -101695,9 +101837,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42903",
-    "throughTripId": "WD_OUT_C-01_1519_43006",
-    "throughLineId": "chiyoda"
+    "trainId": "B1423K"
   },
   {
     "tripId": "WD_OUT_OH-01_1455_93499",
@@ -102899,6 +103039,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "13レ",
     "trainType": "limitedExp",
+    "trainName": "はこね13号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -103986,9 +104127,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40895",
-    "prevTripId": "WD_INB_C-19_1428_40991",
-    "prevLineId": "chiyoda"
+    "trainId": "A1361S",
+    "throughTripId": "WD_OUT_OH-23_1532_40895",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_OUT_OH-01_1510_94947",
@@ -104171,7 +104312,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94947"
+    "trainId": "94947",
+    "throughTripId": "WD_OUT_OH-28_1544_94947",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1511_95725",
@@ -104324,7 +104468,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95725"
+    "trainId": "95725",
+    "throughTripId": "WD_OUT_OH-23_1542_95725",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1511_94339",
@@ -104672,15 +104819,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "42905",
-    "throughTripId": "WD_OUT_C-01_1539_43008",
-    "throughLineId": "chiyoda"
+    "trainId": "B1427K"
   },
   {
     "tripId": "WD_INB_OH-47_1514_96044",
     "lineId": "odakyu_odawara",
     "trainNumber": "12レ",
     "trainType": "limitedExp",
+    "trainName": "はこね12号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -105955,6 +106101,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "355レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ55号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -107136,6 +107283,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "52レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ52号",
     "direction": "inbound",
     "originStationId": "OH-32",
     "destinationStationId": "OH-01",
@@ -107465,15 +107613,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "40897",
-    "prevTripId": "WD_INB_C-19_1448_40993",
-    "prevLineId": "chiyoda"
+    "trainId": "A1459S",
+    "throughTripId": "WD_OUT_OH-23_1552_40897",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_INB_OH-47_1529_96067",
     "lineId": "odakyu_odawara",
     "trainNumber": "736レ",
     "trainType": "limitedExp",
+    "trainName": "はこね36号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -107947,7 +108096,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94949"
+    "trainId": "94949",
+    "throughTripId": "WD_OUT_OH-28_1604_94949",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1531_95727",
@@ -108100,7 +108252,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95727"
+    "trainId": "95727",
+    "throughTripId": "WD_OUT_OH-23_1602_95727",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1531_94343",
@@ -108448,9 +108603,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42907",
-    "throughTripId": "WD_OUT_C-01_1559_43010",
-    "throughLineId": "chiyoda"
+    "trainId": "B1553S"
   },
   {
     "tripId": "WD_OUT_OH-01_1535_93507",
@@ -109652,6 +109805,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "757レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ57号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-34",
@@ -110624,9 +110778,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40900",
-    "prevTripId": "WD_INB_C-19_1508_40996",
-    "prevLineId": "chiyoda"
+    "trainId": "A1445S",
+    "throughTripId": "WD_OUT_OH-23_1612_40900",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "WD_INB_OH-34_1549_94347",
@@ -111027,7 +111181,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94950"
+    "trainId": "94950",
+    "throughTripId": "WD_OUT_OH-28_1624_94950",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1551_95729",
@@ -111180,13 +111337,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95729"
+    "trainId": "95729",
+    "throughTripId": "WD_OUT_OH-23_1622_95729",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-47_1551_93935",
     "lineId": "odakyu_odawara",
     "trainNumber": "710レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ10号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -112825,6 +112986,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "729レ",
     "trainType": "limitedExp",
+    "trainName": "はこね29号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -113220,10 +113382,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39072",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_1625_39166",
-    "throughLineId": "chiyoda"
+    "trainId": "B1531S"
   },
   {
     "tripId": "WD_OUT_OH-01_1601_93667",
@@ -114665,7 +114825,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94952"
+    "trainId": "94952",
+    "throughTripId": "WD_OUT_OH-28_1644_94952",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1610_94351",
@@ -115141,7 +115304,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95732"
+    "trainId": "95732",
+    "throughTripId": "WD_OUT_OH-23_1642_95732",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-23_1612_95838",
@@ -115301,6 +115467,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "14レ",
     "trainType": "limitedExp",
+    "trainName": "はこね14号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -115884,8 +116051,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34869",
     "customDestination": "成城学園前",
+    "trainId": "A1525S",
     "prevTripId": "WD_INB_C-19_1537_34946",
     "prevLineId": "chiyoda"
   },
@@ -116449,16 +116616,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "94482",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_1643_94803",
-    "throughLineId": "chiyoda"
+    "trainId": "B1661S"
   },
   {
     "tripId": "WD_OUT_OH-01_1620_95009",
     "lineId": "odakyu_odawara",
     "trainNumber": "503レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま3号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -116635,7 +116801,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95009"
+    "trainId": "95009",
+    "throughTripId": "WD_OUT_OH-28_1652_95009",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1621_93669",
@@ -118103,10 +118272,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75671",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_1546_75833",
-    "prevLineId": "chiyoda"
+    "trainId": "A1503K"
   },
   {
     "tripId": "WD_OUT_OH-01_1630_94954",
@@ -118289,7 +118456,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94954"
+    "trainId": "94954",
+    "throughTripId": "WD_OUT_OH-28_1704_94954",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1630_94355",
@@ -118660,7 +118830,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95734"
+    "trainId": "95734",
+    "throughTripId": "WD_OUT_OH-23_1702_95734",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-23_1632_95841",
@@ -119181,13 +119354,13 @@
     "direction": "outbound",
     "originStationId": "OH-05",
     "destinationStationId": "OH-14",
-    "customOrigin": "北綾瀬",
+    "customOrigin": "綾瀬",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "OH-05",
-        "arrivalTime": "16:36:00",
+        "arrivalTime": "16:26:00",
         "departureTime": "16:38:00",
         "isPassing": false
       },
@@ -119246,9 +119419,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "75667",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-20_1549_75829",
+    "trainId": "A1509K",
+    "prevTripId": "WD_INB_C-19_1546_75833",
     "prevLineId": "chiyoda"
   },
   {
@@ -119657,6 +119830,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "759レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ59号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-34",
@@ -119973,10 +120147,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38081",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_1703_38175",
-    "throughLineId": "chiyoda"
+    "trainId": "B1653E"
   },
   {
     "tripId": "WD_OUT_OH-01_1641_93611",
@@ -121438,7 +121610,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94956"
+    "trainId": "94956",
+    "throughTripId": "WD_OUT_OH-28_1724_94956",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-05_1650_34838",
@@ -121513,10 +121688,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34838",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_1608_34915",
-    "prevLineId": "chiyoda"
+    "trainId": "A1557S"
   },
   {
     "tripId": "WD_OUT_OH-01_1651_95737",
@@ -121669,7 +121842,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95737"
+    "trainId": "95737",
+    "throughTripId": "WD_OUT_OH-23_1723_95737",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1651_94359",
@@ -122175,10 +122351,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38086",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_1715_38180",
-    "throughLineId": "chiyoda"
+    "trainId": "B1631K"
   },
   {
     "tripId": "WD_INB_OH-23_1652_95844",
@@ -122338,6 +122512,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "356レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ56号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -123182,6 +123357,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "601レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ1号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -125146,7 +125322,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94958"
+    "trainId": "94958",
+    "throughTripId": "WD_OUT_OH-28_1745_94958",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1710_94363",
@@ -125371,6 +125550,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "16レ",
     "trainType": "limitedExp",
+    "trainName": "はこね16号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -125919,8 +126099,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94476",
     "customOrigin": "成城学園前",
+    "trainId": "B1703K",
     "throughTripId": "WD_OUT_C-01_1729_94797",
     "throughLineId": "chiyoda"
   },
@@ -125929,6 +126109,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "54レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ54号",
     "direction": "inbound",
     "originStationId": "OH-32",
     "destinationStationId": "OH-01",
@@ -126281,7 +126462,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95739"
+    "trainId": "95739",
+    "throughTripId": "WD_OUT_OH-23_1743_95739",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1714_93523",
@@ -127228,6 +127412,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "681レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ81号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -127404,7 +127589,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95010"
+    "trainId": "95010",
+    "throughTripId": "WD_OUT_OH-28_1755_95010",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-05_1720_34839",
@@ -127479,10 +127667,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34839",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_1639_34916",
-    "prevLineId": "chiyoda"
+    "trainId": "A1643S"
   },
   {
     "tripId": "WD_OUT_OH-01_1721_93673",
@@ -128575,8 +128761,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94477",
     "customOrigin": "成城学園前",
+    "trainId": "B1709K",
     "throughTripId": "WD_OUT_C-01_1741_94798",
     "throughLineId": "chiyoda"
   },
@@ -129057,7 +129243,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94961"
+    "trainId": "94961",
+    "throughTripId": "WD_OUT_OH-28_1806_94961",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1730_94367",
@@ -129772,7 +129961,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95742"
+    "trainId": "95742",
+    "throughTripId": "WD_OUT_OH-23_1802_95742",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-14_1733_38063",
@@ -129847,8 +130039,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38063",
     "customOrigin": "成城学園前",
+    "trainId": "B1719K",
     "throughTripId": "WD_OUT_C-01_1750_38157",
     "throughLineId": "chiyoda"
   },
@@ -130469,8 +130661,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94485",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B1745S",
     "throughTripId": "WD_OUT_C-01_1803_94806",
     "throughLineId": "chiyoda"
   },
@@ -130756,10 +130948,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34840",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_1658_34917",
-    "prevLineId": "chiyoda"
+    "trainId": "A1601K"
   },
   {
     "tripId": "WD_INB_OH-34_1739_94369",
@@ -130984,6 +131174,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "603レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ3号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -132143,8 +132334,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38097",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B1729K",
     "throughTripId": "WD_OUT_C-01_1811_38191",
     "throughLineId": "chiyoda"
   },
@@ -133166,7 +133357,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94963"
+    "trainId": "94963",
+    "throughTripId": "WD_OUT_OH-28_1829_94963",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-47_1751_94087",
@@ -133558,7 +133752,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95744"
+    "trainId": "95744",
+    "throughTripId": "WD_OUT_OH-23_1822_95744",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1754_93531",
@@ -133992,6 +134189,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "605レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ5号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -135236,16 +135434,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "38061",
     "customOrigin": "成城学園前",
-    "throughTripId": "WD_OUT_C-01_1820_38155",
-    "throughLineId": "chiyoda"
+    "trainId": "B1759S"
   },
   {
     "tripId": "WD_OUT_OH-14_1803_95980",
     "lineId": "odakyu_odawara",
     "trainNumber": "641レ",
     "trainType": "limitedExp",
+    "trainName": "メトロホームウェイ41号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-34",
@@ -135387,6 +135584,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "18レ",
     "trainType": "limitedExp",
+    "trainName": "はこね18号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -136198,6 +136396,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "0406M",
     "trainType": "limitedExp",
+    "trainName": "ふじさん6号",
     "direction": "inbound",
     "originStationId": "CB-04",
     "destinationStationId": "OH-01",
@@ -136208,13 +136407,13 @@
       {
         "stationId": "CB-04",
         "arrivalTime": "17:50:00",
-        "departureTime": "17:57:00",
+        "departureTime": "17:58:00",
         "isPassing": false
       },
       {
         "stationId": "OH-40",
-        "arrivalTime": "18:02:00",
-        "departureTime": "18:02:00",
+        "arrivalTime": "18:02:24",
+        "departureTime": "18:02:24",
         "isPassing": true
       },
       {
@@ -136452,9 +136651,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "31213",
     "customDestination": "新宿",
-    "trainName": "ふじさん6号",
+    "trainId": "0406M",
     "prevTripId": "WD_INB_CB-10_1723_31308",
     "prevLineId": "gotemba"
   },
@@ -136955,7 +137153,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94965"
+    "trainId": "94965",
+    "throughTripId": "WD_OUT_OH-28_1848_94965",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-05_1810_34862",
@@ -137162,10 +137363,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34862",
     "customDestination": "伊勢原",
-    "prevTripId": "WD_INB_C-19_1726_34939",
-    "prevLineId": "chiyoda"
+    "trainId": "A1621K"
   },
   {
     "tripId": "WD_INB_OH-34_1811_94375",
@@ -137719,7 +137918,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95746"
+    "trainId": "95746",
+    "throughTripId": "WD_OUT_OH-23_1842_95746",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1814_93534",
@@ -138012,10 +138214,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38054",
     "customOrigin": "成城学園前",
-    "throughTripId": "WD_OUT_C-01_1830_38148",
-    "throughLineId": "chiyoda"
+    "trainId": "B1849E"
   },
   {
     "tripId": "WD_INB_OH-19_1815_39077",
@@ -138120,8 +138320,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39077",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B1835S",
     "throughTripId": "WD_OUT_C-01_1843_39171",
     "throughLineId": "chiyoda"
   },
@@ -138635,6 +138835,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "502レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま2号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -138818,6 +139019,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "683レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ83号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -138994,7 +139196,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95013"
+    "trainId": "95013",
+    "throughTripId": "WD_OUT_OH-28_1856_95013",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-05_1820_75646",
@@ -140366,7 +140571,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94967"
+    "trainId": "94967",
+    "throughTripId": "WD_OUT_OH-28_1908_94967",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-05_1830_75657",
@@ -140573,10 +140781,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75657",
     "customDestination": "伊勢原",
-    "prevTripId": "WD_INB_C-20_1744_75819",
-    "prevLineId": "chiyoda"
+    "trainId": "A1751E"
   },
   {
     "tripId": "WD_INB_OH-34_1831_94379",
@@ -141003,7 +141209,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95747"
+    "trainId": "95747",
+    "throughTripId": "WD_OUT_OH-23_1902_95747",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-14_1833_94475",
@@ -141078,10 +141287,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94475",
     "customOrigin": "成城学園前",
-    "throughTripId": "WD_OUT_C-01_1849_94796",
-    "throughLineId": "chiyoda"
+    "trainId": "B1857S"
   },
   {
     "tripId": "WD_OUT_OH-01_1834_93537",
@@ -142036,10 +142243,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38082",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_1859_38176",
-    "throughLineId": "chiyoda"
+    "trainId": "B1821S"
   },
   {
     "tripId": "WD_INB_OH-47_1837_94090",
@@ -142102,6 +142307,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "607レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ7号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-39",
@@ -142418,10 +142624,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34842",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_1758_34919",
-    "prevLineId": "chiyoda"
+    "trainId": "A1745E"
   },
   {
     "tripId": "WD_INB_OH-41_1840_94467",
@@ -144313,7 +144517,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94969"
+    "trainId": "94969",
+    "throughTripId": "WD_OUT_OH-28_1929_94969",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1851_94383",
@@ -144538,6 +144745,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "120レ",
     "trainType": "limitedExp",
+    "trainName": "はこね20号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -144981,7 +145189,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95750"
+    "trainId": "95750",
+    "throughTripId": "WD_OUT_OH-23_1922_95750",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1854_93541",
@@ -145570,8 +145781,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94478",
     "customOrigin": "成城学園前",
+    "trainId": "B1843S",
     "throughTripId": "WD_OUT_C-01_1913_94799",
     "throughLineId": "chiyoda"
   },
@@ -146014,8 +146225,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38092",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B1823K",
     "throughTripId": "WD_OUT_C-01_1922_38186",
     "throughLineId": "chiyoda"
   },
@@ -146185,6 +146396,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "609レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ9号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -147311,6 +147523,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "643レ",
     "trainType": "limitedExp",
+    "trainName": "メトロホームウェイ43号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-34",
@@ -147824,8 +148037,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38093",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B1803S",
     "throughTripId": "WD_OUT_C-01_1931_38187",
     "throughLineId": "chiyoda"
   },
@@ -148010,7 +148223,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94971"
+    "trainId": "94971",
+    "throughTripId": "WD_OUT_OH-28_1948_94971",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-05_1910_75658",
@@ -148217,10 +148433,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75658",
     "customDestination": "伊勢原",
-    "prevTripId": "WD_INB_C-20_1824_75820",
-    "prevLineId": "chiyoda"
+    "trainId": "A1803K"
   },
   {
     "tripId": "WD_INB_OH-34_1911_94388",
@@ -148445,6 +148659,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "58レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ58号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -148741,6 +148956,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "504レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま4号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -149070,7 +149286,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95752"
+    "trainId": "95752",
+    "throughTripId": "WD_OUT_OH-23_1942_95752",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1914_93544",
@@ -149393,8 +149612,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38094",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B1961S",
     "throughTripId": "WD_OUT_C-01_1940_38188",
     "throughLineId": "chiyoda"
   },
@@ -150386,6 +150605,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "685レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ85号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -150562,7 +150782,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94999"
+    "trainId": "94999",
+    "throughTripId": "WD_OUT_OH-28_1956_94999",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-05_1920_75649",
@@ -152052,7 +152275,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94973"
+    "trainId": "94973",
+    "throughTripId": "WD_OUT_OH-28_2008_94973",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-05_1930_75659",
@@ -152259,10 +152485,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75659",
     "customDestination": "伊勢原",
-    "prevTripId": "WD_INB_C-20_1845_75821",
-    "prevLineId": "chiyoda"
+    "trainId": "A1851S"
   },
   {
     "tripId": "WD_INB_OH-34_1931_94391",
@@ -152689,7 +152913,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95754"
+    "trainId": "95754",
+    "throughTripId": "WD_OUT_OH-23_2003_95754",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1934_93547",
@@ -153491,10 +153718,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94484",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_2000_94805",
-    "throughLineId": "chiyoda"
+    "trainId": "B1907K"
   },
   {
     "tripId": "WD_INB_OH-47_1938_94094",
@@ -153557,6 +153782,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "611レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ11号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-39",
@@ -153873,10 +154099,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34877",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_1859_34954",
-    "prevLineId": "chiyoda"
+    "trainId": "A1815K"
   },
   {
     "tripId": "WD_INB_OH-41_1940_94468",
@@ -155836,7 +156060,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94975"
+    "trainId": "94975",
+    "throughTripId": "WD_OUT_OH-28_2029_94975",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_1951_94395",
@@ -156207,7 +156434,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95756"
+    "trainId": "95756",
+    "throughTripId": "WD_OUT_OH-23_2022_95756",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_1954_93550",
@@ -156500,8 +156730,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38064",
     "customOrigin": "成城学園前",
+    "trainId": "B1901K",
     "throughTripId": "WD_OUT_C-01_2011_38158",
     "throughLineId": "chiyoda"
   },
@@ -157240,10 +157470,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38083",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_2020_38177",
-    "throughLineId": "chiyoda"
+    "trainId": "B1943E"
   },
   {
     "tripId": "WD_OUT_OH-05_1958_75650",
@@ -157355,6 +157583,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "613レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ13号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -158481,6 +158710,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "645レ",
     "trainType": "limitedExp",
+    "trainName": "メトロホームウェイ45号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-34",
@@ -158938,8 +159168,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94486",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B1921K",
     "throughTripId": "WD_OUT_C-01_2033_94807",
     "throughLineId": "chiyoda"
   },
@@ -158948,6 +159178,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "22レ",
     "trainType": "limitedExp",
+    "trainName": "はこね22号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -159421,7 +159652,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94976"
+    "trainId": "94976",
+    "throughTripId": "WD_OUT_OH-28_2048_94976",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-05_2010_34863",
@@ -159628,10 +159862,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34863",
     "customDestination": "伊勢原",
-    "prevTripId": "WD_INB_C-19_1929_34940",
-    "prevLineId": "chiyoda"
+    "trainId": "A1837S"
   },
   {
     "tripId": "WD_INB_OH-47_2010_94096",
@@ -159912,6 +160144,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "506レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま6号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -160241,7 +160474,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95758"
+    "trainId": "95758",
+    "throughTripId": "WD_OUT_OH-23_2042_95758",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_2014_93552",
@@ -160824,8 +161060,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94487",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B2009K",
     "throughTripId": "WD_OUT_C-01_2042_94808",
     "throughLineId": "chiyoda"
   },
@@ -161339,6 +161575,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "687レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ87号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -161515,7 +161752,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95000"
+    "trainId": "95000",
+    "throughTripId": "WD_OUT_OH-28_2056_95000",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-05_2020_34878",
@@ -161590,10 +161830,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34878",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_1938_34955",
-    "prevLineId": "chiyoda"
+    "trainId": "A1919K"
   },
   {
     "tripId": "WD_OUT_OH-01_2021_93686",
@@ -163148,7 +163386,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94979"
+    "trainId": "94979",
+    "throughTripId": "WD_OUT_OH-28_2106_94979",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_2031_94403",
@@ -163575,7 +163816,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95760"
+    "trainId": "95760",
+    "throughTripId": "WD_OUT_OH-23_2104_95760",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-19_2033_38095",
@@ -163680,8 +163924,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38095",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B2013K",
     "throughTripId": "WD_OUT_C-01_2102_38189",
     "throughLineId": "chiyoda"
   },
@@ -163976,8 +164220,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38065",
     "customOrigin": "成城学園前",
+    "trainId": "B2015K",
     "throughTripId": "WD_OUT_C-01_2051_38159",
     "throughLineId": "chiyoda"
   },
@@ -164626,6 +164870,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "615レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ15号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-39",
@@ -166272,10 +166517,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38085",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_2112_38179",
-    "throughLineId": "chiyoda"
+    "trainId": "B2045S"
   },
   {
     "tripId": "WD_OUT_OH-41_2045_93916",
@@ -166702,10 +166945,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34882",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_2007_34959",
-    "prevLineId": "chiyoda"
+    "trainId": "A1925S"
   },
   {
     "tripId": "WD_OUT_OH-01_2050_94981",
@@ -166888,7 +167129,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94981"
+    "trainId": "94981",
+    "throughTripId": "WD_OUT_OH-28_2129_94981",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_2051_94407",
@@ -167259,13 +167503,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95762"
+    "trainId": "95762",
+    "throughTripId": "WD_OUT_OH-23_2124_95762",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-47_2052_93931",
     "lineId": "odakyu_odawara",
     "trainNumber": "360レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ60号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -168237,6 +168485,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "617レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ17号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-39",
@@ -168673,10 +168922,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34879",
     "customDestination": "本厚木",
-    "prevTripId": "WD_INB_C-19_2017_34956",
-    "prevLineId": "chiyoda"
+    "trainId": "A1949E"
   },
   {
     "tripId": "WD_OUT_OH-01_2101_93689",
@@ -169211,8 +169458,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94488",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B2003K",
     "throughTripId": "WD_OUT_C-01_2131_94809",
     "throughLineId": "chiyoda"
   },
@@ -169221,6 +169468,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "647レ",
     "trainType": "limitedExp",
+    "trainName": "メトロホームウェイ47号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-34",
@@ -169746,10 +169994,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94480",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_2121_94801",
-    "throughLineId": "chiyoda"
+    "trainId": "B2149S"
   },
   {
     "tripId": "WD_OUT_OH-05_2108_34880",
@@ -169956,10 +170202,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34880",
     "customDestination": "伊勢原",
-    "prevTripId": "WD_INB_C-19_2027_34957",
-    "prevLineId": "chiyoda"
+    "trainId": "A2009S"
   },
   {
     "tripId": "WD_INB_OH-47_2109_94100",
@@ -170198,7 +170442,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94982"
+    "trainId": "94982",
+    "throughTripId": "WD_OUT_OH-28_2147_94982",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_2111_94411",
@@ -170569,7 +170816,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95763"
+    "trainId": "95763",
+    "throughTripId": "WD_OUT_OH-23_2144_95763",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_2114_93562",
@@ -171158,10 +171408,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34883",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_2037_34960",
-    "prevLineId": "chiyoda"
+    "trainId": "A1961E"
   },
   {
     "tripId": "WD_OUT_OH-41_2118_93918",
@@ -171224,6 +171472,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "689レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ89号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -171400,7 +171649,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95002"
+    "trainId": "95002",
+    "throughTripId": "WD_OUT_OH-28_2155_95002",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_2121_93691",
@@ -172420,10 +172672,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94481",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "WD_OUT_C-01_2145_94802",
-    "throughLineId": "chiyoda"
+    "trainId": "B2133S"
   },
   {
     "tripId": "WD_INB_OH-47_2125_94111",
@@ -172728,10 +172978,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34887",
     "customDestination": "伊勢原",
-    "prevTripId": "WD_INB_C-19_2047_34964",
-    "prevLineId": "chiyoda"
+    "trainId": "A2027K"
   },
   {
     "tripId": "WD_OUT_OH-01_2130_94985",
@@ -172914,7 +173162,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94985"
+    "trainId": "94985",
+    "throughTripId": "WD_OUT_OH-28_2206_94985",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_2131_95766",
@@ -173067,7 +173318,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95766"
+    "trainId": "95766",
+    "throughTripId": "WD_OUT_OH-23_2203_95766",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-41_2132_93919",
@@ -173312,6 +173566,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "792レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ92号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -174337,8 +174592,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38066",
     "customOrigin": "成城学園前",
+    "trainId": "B2125S",
     "throughTripId": "WD_OUT_C-01_2156_38160",
     "throughLineId": "chiyoda"
   },
@@ -174347,6 +174602,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "619レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ19号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -175604,10 +175860,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34843",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_2106_34920",
-    "prevLineId": "chiyoda"
+    "trainId": "A2015S"
   },
   {
     "tripId": "WD_INB_OH-28_2147_95550",
@@ -175873,7 +176127,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94987"
+    "trainId": "94987",
+    "throughTripId": "WD_OUT_OH-28_2227_94987",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_2151_95768",
@@ -176026,7 +176283,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95768"
+    "trainId": "95768",
+    "throughTripId": "WD_OUT_OH-23_2223_95768",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_2154_93606",
@@ -176797,13 +177057,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95031"
+    "trainId": "95031",
+    "throughTripId": "WD_OUT_OH-28_2200_95031",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "WD_OUT_OH-14_2159_95983",
     "lineId": "odakyu_odawara",
     "trainNumber": "649レ",
     "trainType": "limitedExp",
+    "trainName": "メトロホームウェイ49号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-34",
@@ -177001,6 +177265,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "621レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ21号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-39",
@@ -178272,7 +178537,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95677"
+    "trainId": "95677",
+    "throughTripId": "WD_OUT_OH-23_2233_95677",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-05_2208_75676",
@@ -178479,10 +178747,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75676",
     "customDestination": "伊勢原",
-    "prevTripId": "WD_INB_C-19_2125_75839",
-    "prevLineId": "chiyoda"
+    "trainId": "A2147E"
   },
   {
     "tripId": "WD_OUT_OH-41_2208_93921",
@@ -179157,8 +179423,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94489",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B2253S",
     "throughTripId": "WD_OUT_C-01_2240_94810",
     "throughLineId": "chiyoda"
   },
@@ -179313,7 +179579,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95770"
+    "trainId": "95770",
+    "throughTripId": "WD_OUT_OH-23_2247_95770",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_2215_93569",
@@ -179558,13 +179827,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95032"
+    "trainId": "95032",
+    "throughTripId": "WD_OUT_OH-28_2223_95032",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "WD_OUT_OH-01_2220_93760",
     "lineId": "odakyu_odawara",
     "trainNumber": "631レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ31号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-34",
@@ -180015,7 +180288,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94989"
+    "trainId": "94989",
+    "throughTripId": "WD_OUT_OH-28_2256_94989",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_2221_94423",
@@ -180386,7 +180662,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95665"
+    "trainId": "95665",
+    "throughTripId": "WD_OUT_OH-23_2321_95665",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-36_2227_93879",
@@ -180679,10 +180958,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34865",
     "customDestination": "伊勢原",
-    "prevTripId": "WD_INB_C-19_2146_34942",
-    "prevLineId": "chiyoda"
+    "trainId": "A2123S"
   },
   {
     "tripId": "WD_OUT_OH-41_2229_93922",
@@ -180891,7 +181168,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95771"
+    "trainId": "95771",
+    "throughTripId": "WD_OUT_OH-23_2301_95771",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-47_2231_94058",
@@ -181803,6 +182083,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "633レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ33号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-34",
@@ -182970,7 +183251,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94990"
+    "trainId": "94990",
+    "throughTripId": "WD_OUT_OH-28_2322_94990",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_2247_93572",
@@ -183395,10 +183679,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34866",
     "customDestination": "伊勢原",
-    "prevTripId": "WD_INB_C-19_2214_34943",
-    "prevLineId": "chiyoda"
+    "trainId": "A2143E"
   },
   {
     "tripId": "WD_OUT_OH-01_2256_93713",
@@ -183873,7 +184155,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95033"
+    "trainId": "95033",
+    "throughTripId": "WD_OUT_OH-28_2302_95033",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "WD_INB_OH-47_2257_94106",
@@ -184506,6 +184791,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "635レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ35号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-34",
@@ -185262,7 +185548,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95667"
+    "trainId": "95667",
+    "throughTripId": "WD_OUT_OH-23_0003_95667",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_OH-34_2313_94429",
@@ -186027,7 +186316,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95669"
+    "trainId": "95669",
+    "throughTripId": "WD_OUT_OH-23_0015_95669",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-36_2327_93881",
@@ -186188,10 +186480,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75673",
     "customDestination": "成城学園前",
-    "prevTripId": "WD_INB_C-19_2246_75835",
-    "prevLineId": "chiyoda"
+    "trainId": "A2257E"
   },
   {
     "tripId": "WD_INB_OH-34_2329_94431",
@@ -187061,7 +187351,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95671"
+    "trainId": "95671",
+    "throughTripId": "WD_OUT_OH-23_0028_95671",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-01_2346_93758",
@@ -187628,7 +187921,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95672"
+    "trainId": "95672",
+    "throughTripId": "WD_OUT_OH-23_0045_95672",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_OH-28_2348_93846",
@@ -194276,7 +194572,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95017"
+    "trainId": "95017",
+    "throughTripId": "HD_OUT_OH-28_0542_95017",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "HD_OUT_OH-01_0540_93718",
@@ -195510,10 +195809,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38105",
     "customOrigin": "本厚木",
-    "throughTripId": "HD_OUT_C-01_0638_38199",
-    "throughLineId": "chiyoda"
+    "trainId": "B537S"
   },
   {
     "tripId": "HD_OUT_OH-32_0553_93860",
@@ -195806,7 +196103,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94992"
+    "trainId": "94992",
+    "throughTripId": "HD_OUT_OH-28_0637_94992",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_0556_94242",
@@ -196087,6 +196387,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "990レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ90号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -198181,10 +198482,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38099",
     "customOrigin": "海老名",
-    "throughTripId": "HD_OUT_C-01_0700_38193",
-    "throughLineId": "chiyoda"
+    "trainId": "B639S"
   },
   {
     "tripId": "HD_INB_OH-47_0614_93955",
@@ -198788,6 +199087,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "992レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ92号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -199995,6 +200295,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "902レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ2号",
     "direction": "inbound",
     "originStationId": "OH-34",
     "destinationStationId": "OH-01",
@@ -200401,10 +200702,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38107",
     "customOrigin": "本厚木",
-    "throughTripId": "HD_OUT_C-01_0721_38201",
-    "throughLineId": "chiyoda"
+    "trainId": "B649E"
   },
   {
     "tripId": "HD_OUT_OH-19_0627_93837",
@@ -201919,6 +202218,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "0401M",
     "trainType": "limitedExp",
+    "trainName": "ふじさん1号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "CB-04",
@@ -202162,20 +202462,19 @@
       },
       {
         "stationId": "OH-40",
-        "arrivalTime": "07:39:00",
-        "departureTime": "07:39:00",
+        "arrivalTime": "07:38:36",
+        "departureTime": "07:38:36",
         "isPassing": true
       },
       {
         "stationId": "CB-04",
-        "arrivalTime": "07:44:00",
+        "arrivalTime": "07:43:00",
         "departureTime": "07:47:00",
         "isPassing": false
       }
     ],
-    "trainId": "38875",
     "customOrigin": "新宿",
-    "trainName": "ふじさん1号",
+    "trainId": "0401M",
     "throughTripId": "HD_OUT_CB-04_0747_39000",
     "throughLineId": "gotemba"
   },
@@ -202360,7 +202659,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94993"
+    "trainId": "94993",
+    "throughTripId": "HD_OUT_OH-28_0721_94993",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-23_0642_95781",
@@ -203109,10 +203411,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38108",
     "customOrigin": "本厚木",
-    "throughTripId": "HD_OUT_C-01_0739_38202",
-    "throughLineId": "chiyoda"
+    "trainId": "B641S"
   },
   {
     "tripId": "HD_OUT_OH-36_0648_93877",
@@ -204311,6 +204611,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "1レ",
     "trainType": "limitedExp",
+    "trainName": "はこね1号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -204784,13 +205085,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "94994"
+    "trainId": "94994",
+    "throughTripId": "HD_OUT_OH-28_0739_94994",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_0702_94435",
     "lineId": "odakyu_odawara",
     "trainNumber": "904レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ4号",
     "direction": "inbound",
     "originStationId": "OH-34",
     "destinationStationId": "OH-01",
@@ -205794,13 +206099,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95019"
+    "trainId": "95019",
+    "throughTripId": "HD_OUT_OH-28_0708_95019",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "HD_INB_OH-39_0706_94454",
     "lineId": "odakyu_odawara",
     "trainNumber": "906レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ6号",
     "direction": "inbound",
     "originStationId": "OH-39",
     "destinationStationId": "OH-01",
@@ -206195,7 +206504,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95678"
+    "trainId": "95678",
+    "throughTripId": "HD_OUT_OH-23_0742_95678",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_0712_94249",
@@ -207331,16 +207643,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "38052",
     "customOrigin": "町田",
-    "throughTripId": "HD_OUT_C-01_0759_38146",
-    "throughLineId": "chiyoda"
+    "trainId": "B645E"
   },
   {
     "tripId": "HD_OUT_OH-01_0720_95003",
     "lineId": "odakyu_odawara",
     "trainNumber": "531レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま31号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -207517,13 +207828,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95003"
+    "trainId": "95003",
+    "throughTripId": "HD_OUT_OH-28_0752_95003",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_0720_96022",
     "lineId": "odakyu_odawara",
     "trainNumber": "531レ",
     "trainType": "limitedExp",
+    "trainName": "はこね31号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -208041,7 +208356,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94902"
+    "trainId": "94902",
+    "throughTripId": "HD_OUT_OH-28_0756_94902",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-23_0721_95788",
@@ -209374,7 +209692,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95679"
+    "trainId": "95679",
+    "throughTripId": "HD_OUT_OH-23_0802_95679",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_0732_94251",
@@ -211923,16 +212244,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "75656",
     "customDestination": "相模大野",
-    "prevTripId": "HD_INB_C-20_0704_75818",
-    "prevLineId": "chiyoda"
+    "trainId": "A755E"
   },
   {
     "tripId": "HD_INB_OH-47_0749_93934",
     "lineId": "odakyu_odawara",
     "trainNumber": "910レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ10号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -212405,7 +212725,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94903"
+    "trainId": "94903",
+    "throughTripId": "HD_OUT_OH-28_0825_94903",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_0750_94133",
@@ -212698,7 +213021,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95680"
+    "trainId": "95680",
+    "throughTripId": "HD_OUT_OH-23_0822_95680",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-27_0751_93777",
@@ -212845,6 +213171,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "908レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ8号",
     "direction": "inbound",
     "originStationId": "OH-34",
     "destinationStationId": "OH-01",
@@ -213603,6 +213930,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "3レ",
     "trainType": "limitedExp",
+    "trainName": "はこね3号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -214216,10 +214544,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38067",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_0819_38161",
-    "throughLineId": "chiyoda"
+    "trainId": "B829S"
   },
   {
     "tripId": "HD_OUT_OH-01_0801_93623",
@@ -215470,7 +215796,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94905"
+    "trainId": "94905",
+    "throughTripId": "HD_OUT_OH-28_0844_94905",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_0810_94258",
@@ -215841,7 +216170,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95682"
+    "trainId": "95682",
+    "throughTripId": "HD_OUT_OH-23_0842_95682",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-23_0811_94490",
@@ -215970,10 +216302,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94490",
     "customOrigin": "新百合ヶ丘",
-    "throughTripId": "HD_OUT_C-01_0839_94811",
-    "throughLineId": "chiyoda"
+    "trainId": "B743S"
   },
   {
     "tripId": "HD_INB_OH-47_0814_93968",
@@ -217035,6 +217365,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "533レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま33号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -217211,13 +217542,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95004"
+    "trainId": "95004",
+    "throughTripId": "HD_OUT_OH-28_0854_95004",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_0820_96023",
     "lineId": "odakyu_odawara",
     "trainNumber": "533レ",
     "trainType": "limitedExp",
+    "trainName": "はこね33号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -218334,6 +218669,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "790レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ90号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -218735,6 +219071,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "930レ",
     "trainType": "limitedExp",
+    "trainName": "メトロモーニングウェイ30号",
     "direction": "inbound",
     "originStationId": "OH-34",
     "destinationStationId": "OH-14",
@@ -219052,7 +219389,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94907"
+    "trainId": "94907",
+    "throughTripId": "HD_OUT_OH-28_0905_94907",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_0832_95683",
@@ -219205,7 +219545,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95683"
+    "trainId": "95683",
+    "throughTripId": "HD_OUT_OH-23_0902_95683",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_0832_94262",
@@ -220661,10 +221004,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38068",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_0859_38162",
-    "throughLineId": "chiyoda"
+    "trainId": "B821S"
   },
   {
     "tripId": "HD_INB_OH-23_0841_95792",
@@ -221012,10 +221353,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38109",
     "customOrigin": "本厚木",
-    "throughTripId": "HD_OUT_C-01_0939_38203",
-    "throughLineId": "chiyoda"
+    "trainId": "B861E"
   },
   {
     "tripId": "HD_OUT_OH-01_0844_93432",
@@ -221442,10 +221781,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34833",
     "customDestination": "成城学園前",
-    "prevTripId": "HD_INB_C-19_0804_34910",
-    "prevLineId": "chiyoda"
+    "trainId": "A741E"
   },
   {
     "tripId": "HD_OUT_OH-01_0849_94909",
@@ -221628,7 +221965,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94909"
+    "trainId": "94909",
+    "throughTripId": "HD_OUT_OH-28_0924_94909",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_0849_94264",
@@ -222036,6 +222376,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "770レ",
     "trainType": "limitedExp",
+    "trainName": "はこね70号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -222479,7 +222820,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95684"
+    "trainId": "95684",
+    "throughTripId": "HD_OUT_OH-23_0922_95684",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-41_0852_93897",
@@ -223056,6 +223400,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "960レ",
     "trainType": "limitedExp",
+    "trainName": "モーニングウェイ60号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -223307,10 +223652,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34834",
     "customDestination": "成城学園前",
-    "prevTripId": "HD_INB_C-19_0815_34911",
-    "prevLineId": "chiyoda"
+    "trainId": "A701S"
   },
   {
     "tripId": "HD_INB_OH-47_0858_94136",
@@ -223457,6 +223800,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "705レ",
     "trainType": "limitedExp",
+    "trainName": "スーパーはこね5号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -223852,10 +224196,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94479",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_0919_94800",
-    "throughLineId": "chiyoda"
+    "trainId": "B905K"
   },
   {
     "tripId": "HD_OUT_OH-01_0901_93626",
@@ -225084,7 +225426,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94910"
+    "trainId": "94910",
+    "throughTripId": "HD_OUT_OH-28_0945_94910",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_0910_94268",
@@ -225329,7 +225674,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95020"
+    "trainId": "95020",
+    "throughTripId": "HD_OUT_OH-28_0919_95020",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "HD_OUT_OH-01_0912_95686",
@@ -225482,7 +225830,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95686"
+    "trainId": "95686",
+    "throughTripId": "HD_OUT_OH-23_0944_95686",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_0914_93974",
@@ -226501,6 +226852,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "7レ",
     "trainType": "limitedExp",
+    "trainName": "はこね7号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -226981,6 +227333,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "591レ",
     "trainType": "limitedExp",
+    "trainName": "メトロえのしま91号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-28",
@@ -227080,13 +227433,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95975"
+    "trainId": "95975",
+    "throughTripId": "HD_OUT_OH-28_0947_95975",
+    "throughLineId": "odakyu_enoshima"
   },
   {
     "tripId": "HD_OUT_OH-14_0920_95973",
     "lineId": "odakyu_odawara",
     "trainNumber": "591レ",
     "trainType": "limitedExp",
+    "trainName": "メトロはこね91号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-47",
@@ -228260,6 +228616,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "0402M",
     "trainType": "limitedExp",
+    "trainName": "ふじさん2号",
     "direction": "inbound",
     "originStationId": "CB-04",
     "destinationStationId": "OH-01",
@@ -228270,13 +228627,13 @@
       {
         "stationId": "CB-04",
         "arrivalTime": "09:14:00",
-        "departureTime": "09:16:00",
+        "departureTime": "09:17:00",
         "isPassing": false
       },
       {
         "stationId": "OH-40",
-        "arrivalTime": "09:21:00",
-        "departureTime": "09:21:00",
+        "arrivalTime": "09:21:24",
+        "departureTime": "09:21:24",
         "isPassing": true
       },
       {
@@ -228514,9 +228871,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "31209",
     "customDestination": "新宿",
-    "trainName": "ふじさん2号",
+    "trainId": "0402M",
     "prevTripId": "HD_INB_CB-10_0848_31304",
     "prevLineId": "gotemba"
   },
@@ -228525,6 +228881,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "330レ",
     "trainType": "limitedExp",
+    "trainName": "はこね30号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -229112,7 +229469,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94912"
+    "trainId": "94912",
+    "throughTripId": "HD_OUT_OH-28_1005_94912",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_0932_95690",
@@ -229265,7 +229625,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95690"
+    "trainId": "95690",
+    "throughTripId": "HD_OUT_OH-23_1006_95690",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-19_0932_38091",
@@ -229370,8 +229733,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38091",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B813K",
     "throughTripId": "HD_OUT_C-01_0959_38185",
     "throughLineId": "chiyoda"
   },
@@ -230047,6 +230410,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "711レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ11号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -231326,7 +231690,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95692"
+    "trainId": "95692",
+    "throughTripId": "HD_OUT_OH-23_1015_95692",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_0944_93443",
@@ -231619,10 +231986,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34835",
     "customDestination": "成城学園前",
-    "prevTripId": "HD_INB_C-19_0908_34912",
-    "prevLineId": "chiyoda"
+    "trainId": "A801K"
   },
   {
     "tripId": "HD_INB_OH-23_0948_95799",
@@ -231958,7 +232323,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94914"
+    "trainId": "94914",
+    "throughTripId": "HD_OUT_OH-28_1025_94914",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-27_0949_94191",
@@ -232141,6 +232509,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "2レ",
     "trainType": "limitedExp",
+    "trainName": "はこね2号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -232936,7 +233305,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95693"
+    "trainId": "95693",
+    "throughTripId": "HD_OUT_OH-23_1025_95693",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_0954_93445",
@@ -233525,10 +233897,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34836",
     "customDestination": "成城学園前",
-    "prevTripId": "HD_INB_C-19_0917_34913",
-    "prevLineId": "chiyoda"
+    "trainId": "A849E"
   },
   {
     "tripId": "HD_OUT_OH-27_0959_93781",
@@ -233675,6 +234045,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "709レ",
     "trainType": "limitedExp",
+    "trainName": "スーパーはこね9号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -235095,10 +235466,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38057",
     "customOrigin": "成城学園前",
-    "throughTripId": "HD_OUT_C-01_1019_38151",
-    "throughLineId": "chiyoda"
+    "trainId": "B1001S"
   },
   {
     "tripId": "HD_INB_OH-23_1007_95801",
@@ -235715,7 +236084,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94916"
+    "trainId": "94916",
+    "throughTripId": "HD_OUT_OH-28_1044_94916",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1010_94279",
@@ -236086,13 +236458,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95696"
+    "trainId": "95696",
+    "throughTripId": "HD_OUT_OH-23_1046_95696",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-28_1012_95558",
     "lineId": "odakyu_odawara",
     "trainNumber": "530レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま30号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -236909,16 +237285,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "38078",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_1039_38172",
-    "throughLineId": "chiyoda"
+    "trainId": "B1023K"
   },
   {
     "tripId": "HD_OUT_OH-01_1020_95005",
     "lineId": "odakyu_odawara",
     "trainNumber": "535レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま35号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -237095,13 +237470,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95005"
+    "trainId": "95005",
+    "throughTripId": "HD_OUT_OH-28_1055_95005",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1020_96025",
     "lineId": "odakyu_odawara",
     "trainNumber": "535レ",
     "trainType": "limitedExp",
+    "trainName": "はこね35号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -238096,6 +238475,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "332レ",
     "trainType": "limitedExp",
+    "trainName": "はこね32号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -238682,6 +239062,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "11レ",
     "trainType": "limitedExp",
+    "trainName": "はこね11号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -239418,10 +239799,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34837",
     "customDestination": "成城学園前",
-    "prevTripId": "HD_INB_C-19_0948_34914",
-    "prevLineId": "chiyoda"
+    "trainId": "A933S"
   },
   {
     "tripId": "HD_INB_OH-27_1028_94193",
@@ -239780,7 +240159,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94919"
+    "trainId": "94919",
+    "throughTripId": "HD_OUT_OH-28_1106_94919",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1032_94284",
@@ -240151,7 +240533,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95698"
+    "trainId": "95698",
+    "throughTripId": "HD_OUT_OH-23_1106_95698",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1035_93453",
@@ -240672,6 +241057,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "0403M",
     "trainType": "limitedExp",
+    "trainName": "ふじさん3号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "CB-04",
@@ -240915,20 +241301,19 @@
       },
       {
         "stationId": "OH-40",
-        "arrivalTime": "11:42:00",
-        "departureTime": "11:42:00",
+        "arrivalTime": "11:41:36",
+        "departureTime": "11:41:36",
         "isPassing": true
       },
       {
         "stationId": "CB-04",
-        "arrivalTime": "11:47:00",
+        "arrivalTime": "11:46:00",
         "departureTime": "11:58:00",
         "isPassing": false
       }
     ],
-    "trainId": "38878",
     "customOrigin": "新宿",
-    "trainName": "ふじさん3号",
+    "trainId": "0403M",
     "throughTripId": "HD_OUT_CB-04_1158_39003",
     "throughLineId": "gotemba"
   },
@@ -241077,6 +241462,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "4レ",
     "trainType": "limitedExp",
+    "trainName": "はこね4号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -242497,10 +242883,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38058",
     "customOrigin": "成城学園前",
-    "throughTripId": "HD_OUT_C-01_1059_38152",
-    "throughLineId": "chiyoda"
+    "trainId": "B1001K"
   },
   {
     "tripId": "HD_OUT_OH-05_1048_34860",
@@ -243413,7 +243797,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94921"
+    "trainId": "94921",
+    "throughTripId": "HD_OUT_OH-28_1125_94921",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1051_94288",
@@ -243784,7 +244171,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95700"
+    "trainId": "95700",
+    "throughTripId": "HD_OUT_OH-23_1125_95700",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1055_93456",
@@ -244134,16 +244524,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "38079",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_1119_38173",
-    "throughLineId": "chiyoda"
+    "trainId": "B1013S"
   },
   {
     "tripId": "HD_INB_OH-47_1059_95988",
     "lineId": "odakyu_odawara",
     "trainNumber": "420レ",
     "trainType": "limitedExp",
+    "trainName": "メトロはこね20号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-14",
@@ -244364,6 +244753,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "13レ",
     "trainType": "limitedExp",
+    "trainName": "はこね13号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -245924,10 +246314,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75670",
     "customDestination": "成城学園前",
-    "prevTripId": "HD_INB_C-19_1025_75832",
-    "prevLineId": "chiyoda"
+    "trainId": "A1005S"
   },
   {
     "tripId": "HD_INB_OH-23_1108_95807",
@@ -246439,7 +246827,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94923"
+    "trainId": "94923",
+    "throughTripId": "HD_OUT_OH-28_1149_94923",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1110_94291",
@@ -246684,7 +247075,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95024"
+    "trainId": "95024",
+    "throughTripId": "HD_OUT_OH-28_1113_95024",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "HD_OUT_OH-01_1112_95702",
@@ -246837,13 +247231,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95702"
+    "trainId": "95702",
+    "throughTripId": "HD_OUT_OH-23_1145_95702",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-28_1112_95559",
     "lineId": "odakyu_odawara",
     "trainNumber": "532レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま32号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -247830,6 +248228,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "315レ",
     "trainType": "limitedExp",
+    "trainName": "はこね15号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -248606,6 +249005,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "593レ",
     "trainType": "limitedExp",
+    "trainName": "メトロえのしま93号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-28",
@@ -248705,13 +249105,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "95976"
+    "trainId": "95976",
+    "throughTripId": "HD_OUT_OH-28_1146_95976",
+    "throughLineId": "odakyu_enoshima"
   },
   {
     "tripId": "HD_OUT_OH-14_1121_95974",
     "lineId": "odakyu_odawara",
     "trainNumber": "593レ",
     "trainType": "limitedExp",
+    "trainName": "メトロはこね93号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-47",
@@ -249436,16 +249839,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "38059",
     "customOrigin": "成城学園前",
-    "throughTripId": "HD_OUT_C-01_1139_38153",
-    "throughLineId": "chiyoda"
+    "trainId": "B1133S"
   },
   {
     "tripId": "HD_INB_OH-39_1125_94450",
     "lineId": "odakyu_odawara",
     "trainNumber": "150レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ50号",
     "direction": "inbound",
     "originStationId": "OH-39",
     "destinationStationId": "OH-01",
@@ -250146,9 +250548,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "75680",
-    "prevTripId": "HD_INB_C-19_1047_75843",
-    "prevLineId": "chiyoda"
+    "trainId": "A1029K",
+    "throughTripId": "HD_OUT_OH-23_1155_75680",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_OUT_OH-01_1130_94925",
@@ -250331,13 +250733,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "94925"
+    "trainId": "94925",
+    "throughTripId": "HD_OUT_OH-28_1205_94925",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1130_96070",
     "lineId": "odakyu_odawara",
     "trainNumber": "772レ",
     "trainType": "limitedExp",
+    "trainName": "はこね72号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -250781,7 +251187,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95704"
+    "trainId": "95704",
+    "throughTripId": "HD_OUT_OH-23_1203_95704",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1132_94296",
@@ -251630,10 +252039,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38080",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_1159_38174",
-    "throughLineId": "chiyoda"
+    "trainId": "B1131S"
   },
   {
     "tripId": "HD_INB_OH-28_1139_95457",
@@ -253111,9 +253518,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40875",
-    "prevTripId": "HD_INB_C-19_1108_40971",
-    "prevLineId": "chiyoda"
+    "trainId": "A1027K",
+    "throughTripId": "HD_OUT_OH-23_1213_40875",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_OUT_OH-01_1150_94927",
@@ -253296,7 +253703,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94927"
+    "trainId": "94927",
+    "throughTripId": "HD_OUT_OH-28_1224_94927",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1150_94299",
@@ -253667,7 +254077,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95706"
+    "trainId": "95706",
+    "throughTripId": "HD_OUT_OH-23_1223_95706",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-23_1153_42885",
@@ -253797,15 +254210,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "42885",
-    "throughTripId": "HD_OUT_C-01_1219_42988",
-    "throughLineId": "chiyoda"
+    "trainId": "B1149E"
   },
   {
     "tripId": "HD_INB_OH-47_1153_96037",
     "lineId": "odakyu_odawara",
     "trainNumber": "6レ",
     "trainType": "limitedExp",
+    "trainName": "はこね6号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -254940,6 +255352,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "17レ",
     "trainType": "limitedExp",
+    "trainName": "はこね17号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -256385,9 +256798,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40877",
-    "prevTripId": "HD_INB_C-19_1128_40973",
-    "prevLineId": "chiyoda"
+    "trainId": "A1003K",
+    "throughTripId": "HD_OUT_OH-23_1233_40877",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_OUT_OH-01_1209_94928",
@@ -256570,7 +256983,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94928"
+    "trainId": "94928",
+    "throughTripId": "HD_OUT_OH-28_1244_94928",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1210_93991",
@@ -257019,7 +257435,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95708"
+    "trainId": "95708",
+    "throughTripId": "HD_OUT_OH-23_1243_95708",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1212_94304",
@@ -257367,9 +257786,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42887",
-    "throughTripId": "HD_OUT_C-01_1239_42990",
-    "throughLineId": "chiyoda"
+    "trainId": "B1163E"
   },
   {
     "tripId": "HD_OUT_OH-01_1215_93472",
@@ -258275,6 +258692,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "537レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま37号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -258452,6 +258870,8 @@
       }
     ],
     "trainId": "95006",
+    "throughTripId": "HD_OUT_OH-28_1254_95006",
+    "throughLineId": "odakyu_enoshima",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "OH-01",
@@ -258460,13 +258880,15 @@
       "coupledTrainNumber": "537レ",
       "coupledCars": 4,
       "coupledDestination": "片瀬江ノ島"
-    }
+    },
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1220_96027",
     "lineId": "odakyu_odawara",
     "trainNumber": "537レ",
     "trainType": "limitedExp",
+    "trainName": "はこね37号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -259222,6 +259644,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "334レ",
     "trainType": "limitedExp",
+    "trainName": "はこね34号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -259881,9 +260304,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40879",
-    "prevTripId": "HD_INB_C-19_1148_40975",
-    "prevLineId": "chiyoda"
+    "trainId": "A1113K",
+    "throughTripId": "HD_OUT_OH-23_1253_40879",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_OUT_OH-01_1230_94930",
@@ -260066,7 +260489,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94930"
+    "trainId": "94930",
+    "throughTripId": "HD_OUT_OH-28_1304_94930",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1230_94307",
@@ -260437,7 +260863,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95709"
+    "trainId": "95709",
+    "throughTripId": "HD_OUT_OH-23_1303_95709",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-23_1234_42889",
@@ -260567,9 +260996,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42889",
-    "throughTripId": "HD_OUT_C-01_1259_42992",
-    "throughLineId": "chiyoda"
+    "trainId": "B1205S"
   },
   {
     "tripId": "HD_OUT_OH-01_1235_93589",
@@ -261783,6 +262210,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "761レ",
     "trainType": "limitedExp",
+    "trainName": "はこね61号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -262870,9 +263298,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40882",
-    "prevTripId": "HD_INB_C-19_1208_40978",
-    "prevLineId": "chiyoda"
+    "trainId": "A1101S",
+    "throughTripId": "HD_OUT_OH-23_1313_40882",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_OUT_OH-01_1250_94933",
@@ -263055,13 +263483,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "94933"
+    "trainId": "94933",
+    "throughTripId": "HD_OUT_OH-28_1325_94933",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1250_96038",
     "lineId": "odakyu_odawara",
     "trainNumber": "8レ",
     "trainType": "limitedExp",
+    "trainName": "はこね8号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -263723,7 +264155,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95712"
+    "trainId": "95712",
+    "throughTripId": "HD_OUT_OH-23_1323_95712",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-23_1253_42890",
@@ -263853,9 +264288,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42890",
-    "throughTripId": "HD_OUT_C-01_1319_42993",
-    "throughLineId": "chiyoda"
+    "trainId": "B1227K"
   },
   {
     "tripId": "HD_OUT_OH-01_1254_93477",
@@ -264839,6 +265272,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "19レ",
     "trainType": "limitedExp",
+    "trainName": "はこね19号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -266144,9 +266578,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40884",
-    "prevTripId": "HD_INB_C-19_1228_40980",
-    "prevLineId": "chiyoda"
+    "trainId": "A1123K",
+    "throughTripId": "HD_OUT_OH-23_1333_40884",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_INB_OH-28_1309_95545",
@@ -266356,7 +266790,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94934"
+    "trainId": "94934",
+    "throughTripId": "HD_OUT_OH-28_1344_94934",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1312_95714",
@@ -266509,7 +266946,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95714"
+    "trainId": "95714",
+    "throughTripId": "HD_OUT_OH-23_1343_95714",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1312_94316",
@@ -267153,9 +267593,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42892",
-    "throughTripId": "HD_OUT_C-01_1339_42995",
-    "throughLineId": "chiyoda"
+    "trainId": "B1203K"
   },
   {
     "tripId": "HD_OUT_OH-01_1315_93481",
@@ -267380,6 +267818,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "534レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま34号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -268035,6 +268474,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "321レ",
     "trainType": "limitedExp",
+    "trainName": "はこね21号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -269019,7 +269459,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95025"
+    "trainId": "95025",
+    "throughTripId": "HD_OUT_OH-28_1329_95025",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "HD_OUT_OH-01_1325_93590",
@@ -269256,6 +269699,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "0404M",
     "trainType": "limitedExp",
+    "trainName": "ふじさん4号",
     "direction": "inbound",
     "originStationId": "CB-04",
     "destinationStationId": "OH-01",
@@ -269266,13 +269710,13 @@
       {
         "stationId": "CB-04",
         "arrivalTime": "13:14:00",
-        "departureTime": "13:17:00",
+        "departureTime": "13:18:00",
         "isPassing": false
       },
       {
         "stationId": "OH-40",
-        "arrivalTime": "13:22:00",
-        "departureTime": "13:22:00",
+        "arrivalTime": "13:22:24",
+        "departureTime": "13:22:24",
         "isPassing": true
       },
       {
@@ -269510,9 +269954,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "31212",
     "customDestination": "新宿",
-    "trainName": "ふじさん4号",
+    "trainId": "0404M",
     "prevTripId": "HD_INB_CB-10_1248_31307",
     "prevLineId": "gotemba"
   },
@@ -269644,9 +270087,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40886",
-    "prevTripId": "HD_INB_C-19_1248_40982",
-    "prevLineId": "chiyoda"
+    "trainId": "A1201K",
+    "throughTripId": "HD_OUT_OH-23_1353_40886",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_OUT_OH-01_1330_94936",
@@ -269829,7 +270272,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94936"
+    "trainId": "94936",
+    "throughTripId": "HD_OUT_OH-28_1404_94936",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1331_94320",
@@ -270054,6 +270500,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "10レ",
     "trainType": "limitedExp",
+    "trainName": "はこね10号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -270497,7 +270944,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95716"
+    "trainId": "95716",
+    "throughTripId": "HD_OUT_OH-23_1403_95716",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1333_93999",
@@ -270923,9 +271373,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42895",
-    "throughTripId": "HD_OUT_C-01_1359_42998",
-    "throughLineId": "chiyoda"
+    "trainId": "B1313K"
   },
   {
     "tripId": "HD_OUT_OH-01_1335_93484",
@@ -272633,9 +273081,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40888",
-    "prevTripId": "HD_INB_C-19_1308_40984",
-    "prevLineId": "chiyoda"
+    "trainId": "A1213S",
+    "throughTripId": "HD_OUT_OH-23_1413_40888",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_OUT_OH-01_1350_94939",
@@ -272818,7 +273266,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94939"
+    "trainId": "94939",
+    "throughTripId": "HD_OUT_OH-28_1424_94939",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1350_94324",
@@ -273485,7 +273936,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95718"
+    "trainId": "95718",
+    "throughTripId": "HD_OUT_OH-23_1423_95718",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-23_1353_42896",
@@ -273615,15 +274069,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "42896",
-    "throughTripId": "HD_OUT_C-01_1419_42999",
-    "throughLineId": "chiyoda"
+    "trainId": "B1329K"
   },
   {
     "tripId": "HD_INB_OH-47_1353_96042",
     "lineId": "odakyu_odawara",
     "trainNumber": "12レ",
     "trainType": "limitedExp",
+    "trainName": "はこね12号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -274820,6 +275273,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "23レ",
     "trainType": "limitedExp",
+    "trainName": "はこね23号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -275907,15 +276361,16 @@
         "isPassing": false
       }
     ],
-    "trainId": "40890",
-    "prevTripId": "HD_INB_C-19_1328_40986",
-    "prevLineId": "chiyoda"
+    "trainId": "A1233S",
+    "throughTripId": "HD_OUT_OH-23_1433_40890",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_INB_OH-47_1409_96060",
     "lineId": "odakyu_odawara",
     "trainNumber": "336レ",
     "trainType": "limitedExp",
+    "trainName": "はこね36号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -276398,7 +276853,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94940"
+    "trainId": "94940",
+    "throughTripId": "HD_OUT_OH-28_1444_94940",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-28_1410_95546",
@@ -276796,7 +277254,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95720"
+    "trainId": "95720",
+    "throughTripId": "HD_OUT_OH-23_1443_95720",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1412_94003",
@@ -277222,9 +277683,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42898",
-    "throughTripId": "HD_OUT_C-01_1439_43001",
-    "throughLineId": "chiyoda"
+    "trainId": "B1323K"
   },
   {
     "tripId": "HD_OUT_OH-01_1415_93491",
@@ -277912,6 +278371,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "539レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま39号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -278089,6 +278549,8 @@
       }
     ],
     "trainId": "95007",
+    "throughTripId": "HD_OUT_OH-28_1454_95007",
+    "throughLineId": "odakyu_enoshima",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "OH-01",
@@ -278097,13 +278559,15 @@
       "coupledTrainNumber": "539レ",
       "coupledCars": 4,
       "coupledDestination": "片瀬江ノ島"
-    }
+    },
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1420_96029",
     "lineId": "odakyu_odawara",
     "trainNumber": "539レ",
     "trainType": "limitedExp",
+    "trainName": "はこね39号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -279097,7 +279561,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95026"
+    "trainId": "95026",
+    "throughTripId": "HD_OUT_OH-28_1429_95026",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "HD_OUT_OH-01_1425_93493",
@@ -279445,9 +279912,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40892",
-    "prevTripId": "HD_INB_C-19_1348_40988",
-    "prevLineId": "chiyoda"
+    "trainId": "A1331S",
+    "throughTripId": "HD_OUT_OH-23_1453_40892",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_OUT_OH-01_1430_94942",
@@ -279630,7 +280097,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94942"
+    "trainId": "94942",
+    "throughTripId": "HD_OUT_OH-28_1504_94942",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1430_94005",
@@ -280297,7 +280767,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95722"
+    "trainId": "95722",
+    "throughTripId": "HD_OUT_OH-23_1503_95722",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-23_1433_42900",
@@ -280427,15 +280900,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "42900",
-    "throughTripId": "HD_OUT_C-01_1459_43003",
-    "throughLineId": "chiyoda"
+    "trainId": "B1401S"
   },
   {
     "tripId": "HD_INB_OH-47_1434_96054",
     "lineId": "odakyu_odawara",
     "trainNumber": "114レ",
     "trainType": "limitedExp",
+    "trainName": "はこね14号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -281414,6 +281886,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "0405M",
     "trainType": "limitedExp",
+    "trainName": "ふじさん5号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "CB-04",
@@ -281657,20 +282130,19 @@
       },
       {
         "stationId": "OH-40",
-        "arrivalTime": "15:41:00",
-        "departureTime": "15:41:00",
+        "arrivalTime": "15:40:36",
+        "departureTime": "15:40:36",
         "isPassing": true
       },
       {
         "stationId": "CB-04",
-        "arrivalTime": "15:46:00",
+        "arrivalTime": "15:45:00",
         "departureTime": "15:57:00",
         "isPassing": false
       }
     ],
-    "trainId": "38880",
     "customOrigin": "新宿",
-    "trainName": "ふじさん5号",
+    "trainId": "0405M",
     "throughTripId": "HD_OUT_CB-04_1557_39005",
     "throughLineId": "gotemba"
   },
@@ -282699,9 +283171,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40894",
-    "prevTripId": "HD_INB_C-19_1408_40990",
-    "prevLineId": "chiyoda"
+    "trainId": "A1349E",
+    "throughTripId": "HD_OUT_OH-23_1513_40894",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_INB_OH-28_1449_95547",
@@ -282911,7 +283383,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94945"
+    "trainId": "94945",
+    "throughTripId": "HD_OUT_OH-28_1524_94945",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1452_95724",
@@ -283064,7 +283539,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95724"
+    "trainId": "95724",
+    "throughTripId": "HD_OUT_OH-23_1523_95724",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1452_94336",
@@ -283289,6 +283767,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "16レ",
     "trainType": "limitedExp",
+    "trainName": "はこね16号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -283709,9 +284188,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42902",
-    "throughTripId": "HD_OUT_C-01_1519_43005",
-    "throughLineId": "chiyoda"
+    "trainId": "B1401K"
   },
   {
     "tripId": "HD_OUT_OH-01_1455_93498",
@@ -284232,6 +284709,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "536レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま36号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -284747,6 +285225,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "25レ",
     "trainType": "limitedExp",
+    "trainName": "はこね25号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -285871,7 +286350,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95027"
+    "trainId": "95027",
+    "throughTripId": "HD_OUT_OH-28_1509_95027",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "HD_OUT_OH-01_1505_93500",
@@ -286219,9 +286701,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40896",
-    "prevTripId": "HD_INB_C-19_1428_40992",
-    "prevLineId": "chiyoda"
+    "trainId": "A1363E",
+    "throughTripId": "HD_OUT_OH-23_1533_40896",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_OUT_OH-01_1510_94946",
@@ -286404,7 +286886,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94946"
+    "trainId": "94946",
+    "throughTripId": "HD_OUT_OH-28_1544_94946",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1511_94340",
@@ -286775,7 +287260,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95726"
+    "trainId": "95726",
+    "throughTripId": "HD_OUT_OH-23_1543_95726",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1513_94009",
@@ -287201,9 +287689,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42904",
-    "throughTripId": "HD_OUT_C-01_1539_43007",
-    "throughLineId": "chiyoda"
+    "trainId": "B1433S"
   },
   {
     "tripId": "HD_OUT_OH-01_1515_93502",
@@ -287891,6 +288377,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "541レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま41号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -288068,6 +288555,8 @@
       }
     ],
     "trainId": "95008",
+    "throughTripId": "HD_OUT_OH-28_1554_95008",
+    "throughLineId": "odakyu_enoshima",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "OH-01",
@@ -288076,13 +288565,15 @@
       "coupledTrainNumber": "541レ",
       "coupledCars": 4,
       "coupledDestination": "片瀬江ノ島"
-    }
+    },
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1520_96030",
     "lineId": "odakyu_odawara",
     "trainNumber": "541レ",
     "trainType": "limitedExp",
+    "trainName": "はこね41号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -289397,9 +289888,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40898",
-    "prevTripId": "HD_INB_C-19_1448_40994",
-    "prevLineId": "chiyoda"
+    "trainId": "A1405S",
+    "throughTripId": "HD_OUT_OH-23_1553_40898",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_OUT_OH-01_1530_94948",
@@ -289582,13 +290073,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "94948"
+    "trainId": "94948",
+    "throughTripId": "HD_OUT_OH-28_1604_94948",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1531_96061",
     "lineId": "odakyu_odawara",
     "trainNumber": "318レ",
     "trainType": "limitedExp",
+    "trainName": "はこね18号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -290032,7 +290527,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95728"
+    "trainId": "95728",
+    "throughTripId": "HD_OUT_OH-23_1603_95728",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1532_94344",
@@ -290676,9 +291174,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42906",
-    "throughTripId": "HD_OUT_C-01_1559_43009",
-    "throughLineId": "chiyoda"
+    "trainId": "B1531S"
   },
   {
     "tripId": "HD_OUT_OH-01_1535_93506",
@@ -291366,6 +291862,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "127レ",
     "trainType": "limitedExp",
+    "trainName": "はこね27号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -292683,9 +293180,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "40899",
-    "prevTripId": "HD_INB_C-19_1508_40995",
-    "prevLineId": "chiyoda"
+    "trainId": "A1427K",
+    "throughTripId": "HD_OUT_OH-23_1613_40899",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_OUT_OH-01_1550_94951",
@@ -292868,7 +293365,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94951"
+    "trainId": "94951",
+    "throughTripId": "HD_OUT_OH-28_1624_94951",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1552_95730",
@@ -293021,7 +293521,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95730"
+    "trainId": "95730",
+    "throughTripId": "HD_OUT_OH-23_1623_95730",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1552_94348",
@@ -293246,6 +293749,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "20レ",
     "trainType": "limitedExp",
+    "trainName": "はこね20号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -293666,9 +294170,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42908",
-    "throughTripId": "HD_OUT_C-01_1619_43011",
-    "throughLineId": "chiyoda"
+    "trainId": "B1549E"
   },
   {
     "tripId": "HD_INB_OH-47_1554_94013",
@@ -294870,6 +295372,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "151レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ51号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -295761,7 +296264,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95731"
+    "trainId": "95731",
+    "throughTripId": "HD_OUT_OH-23_1633_95731",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1606_93512",
@@ -295986,6 +296492,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "421レ",
     "trainType": "limitedExp",
+    "trainName": "メトロはこね21号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-47",
@@ -296382,7 +296889,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94953"
+    "trainId": "94953",
+    "throughTripId": "HD_OUT_OH-28_1646_94953",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1610_94352",
@@ -296607,6 +297117,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "338レ",
     "trainType": "limitedExp",
+    "trainName": "はこね38号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -297141,9 +297652,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42909",
-    "throughTripId": "HD_OUT_C-01_1639_43012",
-    "throughLineId": "chiyoda"
+    "trainId": "B1563E"
   },
   {
     "tripId": "HD_OUT_OH-01_1613_95733",
@@ -297296,7 +297805,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95733"
+    "trainId": "95733",
+    "throughTripId": "HD_OUT_OH-23_1643_95733",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1613_94015",
@@ -298504,6 +299016,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "329レ",
     "trainType": "limitedExp",
+    "trainName": "はこね29号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -299826,13 +300339,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "94955"
+    "trainId": "94955",
+    "throughTripId": "HD_OUT_OH-28_1706_94955",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1630_95990",
     "lineId": "odakyu_odawara",
     "trainNumber": "422レ",
     "trainType": "limitedExp",
+    "trainName": "メトロはこね22号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-14",
@@ -300522,7 +301039,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95735"
+    "trainId": "95735",
+    "throughTripId": "HD_OUT_OH-23_1703_95735",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-23_1633_42910",
@@ -300652,9 +301172,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "42910",
-    "throughTripId": "HD_OUT_C-01_1659_43013",
-    "throughLineId": "chiyoda"
+    "trainId": "B1605S"
   },
   {
     "tripId": "HD_INB_OH-47_1634_94017",
@@ -301492,6 +302010,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "153レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ53号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -302383,7 +302902,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95736"
+    "trainId": "95736",
+    "throughTripId": "HD_OUT_OH-23_1713_95736",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1643_94358",
@@ -303142,7 +303664,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94957"
+    "trainId": "94957",
+    "throughTripId": "HD_OUT_OH-28_1726_94957",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1652_94360",
@@ -303595,15 +304120,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "42911",
-    "throughTripId": "HD_OUT_C-01_1719_43014",
-    "throughLineId": "chiyoda"
+    "trainId": "B1627K"
   },
   {
     "tripId": "HD_INB_OH-47_1652_96047",
     "lineId": "odakyu_odawara",
     "trainNumber": "22レ",
     "trainType": "limitedExp",
+    "trainName": "はこね22号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -304047,7 +304571,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95738"
+    "trainId": "95738",
+    "throughTripId": "HD_OUT_OH-23_1722_95738",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1655_93595",
@@ -304580,6 +305107,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "538レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま38号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -305095,6 +305623,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "601レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ1号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -306479,7 +307008,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95028"
+    "trainId": "95028",
+    "throughTripId": "HD_OUT_OH-28_1709_95028",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "HD_OUT_OH-28_1708_93854",
@@ -306796,13 +307328,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "94959"
+    "trainId": "94959",
+    "throughTripId": "HD_OUT_OH-28_1746_94959",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1710_96063",
     "lineId": "odakyu_odawara",
     "trainNumber": "340レ",
     "trainType": "limitedExp",
+    "trainName": "はこね40号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -307578,7 +308114,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95740"
+    "trainId": "95740",
+    "throughTripId": "HD_OUT_OH-23_1743_95740",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1714_94021",
@@ -308738,16 +309277,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "38071",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_1739_38165",
-    "throughLineId": "chiyoda"
+    "trainId": "B1713K"
   },
   {
     "tripId": "HD_OUT_OH-01_1720_95011",
     "lineId": "odakyu_odawara",
     "trainNumber": "681レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ81号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -308924,7 +309462,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95011"
+    "trainId": "95011",
+    "throughTripId": "HD_OUT_OH-28_1754_95011",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1721_93674",
@@ -310096,7 +310637,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94960"
+    "trainId": "94960",
+    "throughTripId": "HD_OUT_OH-28_1806_94960",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1731_94368",
@@ -310572,13 +311116,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95741"
+    "trainId": "95741",
+    "throughTripId": "HD_OUT_OH-23_1803_95741",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1733_96049",
     "lineId": "odakyu_odawara",
     "trainNumber": "24レ",
     "trainType": "limitedExp",
+    "trainName": "はこね24号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -311671,10 +312219,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38072",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_1759_38166",
-    "throughLineId": "chiyoda"
+    "trainId": "B1729K"
   },
   {
     "tripId": "HD_INB_OH-47_1739_94130",
@@ -311815,6 +312361,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "603レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ3号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -313494,7 +314041,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94962"
+    "trainId": "94962",
+    "throughTripId": "HD_OUT_OH-28_1826_94962",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-28_1751_95548",
@@ -313674,7 +314224,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95743"
+    "trainId": "95743",
+    "throughTripId": "HD_OUT_OH-23_1824_95743",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1752_94372",
@@ -313967,10 +314520,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34841",
     "customDestination": "成城学園前",
-    "prevTripId": "HD_INB_C-19_1711_34918",
-    "prevLineId": "chiyoda"
+    "trainId": "A1601K"
   },
   {
     "tripId": "HD_INB_OH-47_1752_94025",
@@ -314503,6 +315054,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "540レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま40号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -315116,16 +315668,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "38073",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_1821_38167",
-    "throughLineId": "chiyoda"
+    "trainId": "B1723K"
   },
   {
     "tripId": "HD_OUT_OH-01_1800_96002",
     "lineId": "odakyu_odawara",
     "trainNumber": "605レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ5号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -316630,6 +317181,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "490レ",
     "trainType": "limitedExp",
+    "trainName": "メトロはこね90号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-14",
@@ -316859,6 +317411,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "0406M",
     "trainType": "limitedExp",
+    "trainName": "ふじさん6号",
     "direction": "inbound",
     "originStationId": "CB-04",
     "destinationStationId": "OH-01",
@@ -316869,13 +317422,13 @@
       {
         "stationId": "CB-04",
         "arrivalTime": "17:50:00",
-        "departureTime": "17:59:00",
+        "departureTime": "18:00:00",
         "isPassing": false
       },
       {
         "stationId": "OH-40",
-        "arrivalTime": "18:04:00",
-        "departureTime": "18:04:00",
+        "arrivalTime": "18:04:24",
+        "departureTime": "18:04:24",
         "isPassing": true
       },
       {
@@ -317113,9 +317666,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "31214",
     "customDestination": "新宿",
-    "trainName": "ふじさん6号",
+    "trainId": "0406M",
     "prevTripId": "HD_INB_CB-10_1723_31309",
     "prevLineId": "gotemba"
   },
@@ -317300,7 +317852,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94964"
+    "trainId": "94964",
+    "throughTripId": "HD_OUT_OH-28_1846_94964",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1812_94376",
@@ -317776,7 +318331,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95745"
+    "trainId": "95745",
+    "throughTripId": "HD_OUT_OH-23_1843_95745",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1814_94027",
@@ -318718,16 +319276,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "38074",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_1838_38168",
-    "throughLineId": "chiyoda"
+    "trainId": "B1801S"
   },
   {
     "tripId": "HD_OUT_OH-01_1820_95012",
     "lineId": "odakyu_odawara",
     "trainNumber": "683レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ83号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -318904,7 +319461,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95012"
+    "trainId": "95012",
+    "throughTripId": "HD_OUT_OH-28_1853_95012",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1821_93678",
@@ -320411,7 +320971,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94966"
+    "trainId": "94966",
+    "throughTripId": "HD_OUT_OH-28_1906_94966",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1833_95748",
@@ -320564,13 +321127,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95748"
+    "trainId": "95748",
+    "throughTripId": "HD_OUT_OH-23_1903_95748",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1833_96051",
     "lineId": "odakyu_odawara",
     "trainNumber": "26レ",
     "trainType": "limitedExp",
+    "trainName": "はこね26号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -321923,6 +322490,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "607レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ7号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -322736,10 +323304,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38060",
     "customOrigin": "成城学園前",
-    "throughTripId": "HD_OUT_C-01_1859_38154",
-    "throughLineId": "chiyoda"
+    "trainId": "B1813S"
   },
   {
     "tripId": "HD_INB_OH-28_1842_95549",
@@ -323599,10 +324165,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75644",
     "customDestination": "成城学園前",
-    "prevTripId": "HD_INB_C-20_1759_75806",
-    "prevLineId": "chiyoda"
+    "trainId": "A1709S"
   },
   {
     "tripId": "HD_OUT_OH-01_1850_94968",
@@ -323785,7 +324349,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94968"
+    "trainId": "94968",
+    "throughTripId": "HD_OUT_OH-28_1926_94968",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_1851_94031",
@@ -324088,6 +324655,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "590レ",
     "trainType": "limitedExp",
+    "trainName": "メトロえのしま90号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-14",
@@ -324349,7 +324917,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95749"
+    "trainId": "95749",
+    "throughTripId": "HD_OUT_OH-23_1924_95749",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1852_94384",
@@ -324872,16 +325443,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "75672",
     "customDestination": "成城学園前",
-    "prevTripId": "HD_INB_C-19_1816_75834",
-    "prevLineId": "chiyoda"
+    "trainId": "A1827S"
   },
   {
     "tripId": "HD_INB_OH-47_1858_96056",
     "lineId": "odakyu_odawara",
     "trainNumber": "128レ",
     "trainType": "limitedExp",
+    "trainName": "はこね28号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -325580,6 +326150,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "609レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ9号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -326270,10 +326841,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "94483",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_1927_94804",
-    "throughLineId": "chiyoda"
+    "trainId": "B1933S"
   },
   {
     "tripId": "HD_INB_OH-47_1901_94184",
@@ -327054,9 +327623,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "75681",
-    "prevTripId": "HD_INB_C-20_1819_75844",
-    "prevLineId": "chiyoda"
+    "trainId": "A1819S",
+    "throughTripId": "HD_OUT_OH-23_1933_75681",
+    "throughLineId": "odakyu_tama"
   },
   {
     "tripId": "HD_OUT_OH-01_1909_94970",
@@ -327239,7 +327808,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94970"
+    "trainId": "94970",
+    "throughTripId": "HD_OUT_OH-28_1945_94970",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1910_94387",
@@ -327610,7 +328182,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95751"
+    "trainId": "95751",
+    "throughTripId": "HD_OUT_OH-23_1943_95751",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1915_93545",
@@ -328770,16 +329345,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "38075",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_1938_38169",
-    "throughLineId": "chiyoda"
+    "trainId": "B1905K"
   },
   {
     "tripId": "HD_OUT_OH-01_1920_95014",
     "lineId": "odakyu_odawara",
     "trainNumber": "685レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ85号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -328956,7 +329530,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95014"
+    "trainId": "95014",
+    "throughTripId": "HD_OUT_OH-28_1953_95014",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1921_93681",
@@ -330063,7 +330640,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94972"
+    "trainId": "94972",
+    "throughTripId": "HD_OUT_OH-28_2005_94972",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1931_95753",
@@ -330216,7 +330796,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95753"
+    "trainId": "95753",
+    "throughTripId": "HD_OUT_OH-23_2002_95753",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1932_94392",
@@ -330564,15 +331147,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "95970",
-    "throughTripId": "HD_OUT_C-01_1956_96296",
-    "throughLineId": "chiyoda"
+    "trainId": "B1903K"
   },
   {
     "tripId": "HD_INB_OH-47_1933_93928",
     "lineId": "odakyu_odawara",
-    "trainNumber": "860レ",
+    "trainNumber": "52レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ52号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -331566,6 +332148,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "611レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ11号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -333095,8 +333678,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34870",
     "customDestination": "成城学園前",
+    "trainId": "A1861E",
     "prevTripId": "HD_INB_C-19_1902_34947",
     "prevLineId": "chiyoda"
   },
@@ -333305,10 +333888,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75660",
     "customDestination": "伊勢原",
-    "prevTripId": "HD_INB_C-20_1859_75822",
-    "prevLineId": "chiyoda"
+    "trainId": "A1803S"
   },
   {
     "tripId": "HD_OUT_OH-01_1950_94974",
@@ -333491,7 +334072,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94974"
+    "trainId": "94974",
+    "throughTripId": "HD_OUT_OH-28_2024_94974",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_1951_95755",
@@ -333644,7 +334228,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95755"
+    "trainId": "95755",
+    "throughTripId": "HD_OUT_OH-23_2022_95755",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_1952_94396",
@@ -334395,6 +334982,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "502レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま2号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -335217,6 +335805,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "613レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ13号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -336060,10 +336649,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "39071",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_2019_39165",
-    "throughLineId": "chiyoda"
+    "trainId": "B2041S"
   },
   {
     "tripId": "HD_OUT_OH-01_2005_93602",
@@ -336581,13 +337168,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "94977"
+    "trainId": "94977",
+    "throughTripId": "HD_OUT_OH-28_2046_94977",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_2010_96071",
     "lineId": "odakyu_odawara",
     "trainNumber": "774レ",
     "trainType": "limitedExp",
+    "trainName": "はこね74号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -337031,7 +337622,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95757"
+    "trainId": "95757",
+    "throughTripId": "HD_OUT_OH-23_2042_95757",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_2012_94400",
@@ -338093,6 +338687,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "687レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ87号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -338269,7 +338864,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95015"
+    "trainId": "95015",
+    "throughTripId": "HD_OUT_OH-28_2051_95015",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-19_2020_38076",
@@ -338374,10 +338972,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38076",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_2037_38170",
-    "throughLineId": "chiyoda"
+    "trainId": "B1919S"
   },
   {
     "tripId": "HD_OUT_OH-01_2021_93685",
@@ -338833,6 +339429,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "641レ",
     "trainType": "limitedExp",
+    "trainName": "メトロホームウェイ41号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-34",
@@ -339691,7 +340288,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94978"
+    "trainId": "94978",
+    "throughTripId": "HD_OUT_OH-28_2105_94978",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_2031_95759",
@@ -339844,7 +340444,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95759"
+    "trainId": "95759",
+    "throughTripId": "HD_OUT_OH-23_2102_95759",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_2032_94404",
@@ -340583,6 +341186,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "504レ",
     "trainType": "limitedExp",
+    "trainName": "えのしま4号",
     "direction": "inbound",
     "originStationId": "OH-28",
     "destinationStationId": "OH-01",
@@ -341307,6 +341911,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "615レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ15号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-34",
@@ -342036,10 +342641,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38084",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_2106_38178",
-    "throughLineId": "chiyoda"
+    "trainId": "B2013K"
   },
   {
     "tripId": "HD_OUT_OH-01_2044_93558",
@@ -342452,16 +343055,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "94491",
     "customOrigin": "本厚木",
-    "throughTripId": "HD_OUT_C-01_2142_94813",
-    "throughLineId": "chiyoda"
+    "trainId": "B2053E"
   },
   {
     "tripId": "HD_INB_OH-47_2046_93938",
     "lineId": "odakyu_odawara",
     "trainNumber": "792レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ92号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -343166,10 +343768,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75675",
     "customDestination": "本厚木",
-    "prevTripId": "HD_INB_C-19_2006_75837",
-    "prevLineId": "chiyoda"
+    "trainId": "A2049E"
   },
   {
     "tripId": "HD_OUT_OH-01_2050_94980",
@@ -343352,7 +343952,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94980"
+    "trainId": "94980",
+    "throughTripId": "HD_OUT_OH-28_2125_94980",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_2051_95761",
@@ -343505,7 +344108,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95761"
+    "trainId": "95761",
+    "throughTripId": "HD_OUT_OH-23_2122_95761",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-27_2051_95029",
@@ -343532,7 +344138,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95029"
+    "trainId": "95029",
+    "throughTripId": "HD_OUT_OH-28_2053_95029",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "HD_INB_OH-34_2052_94408",
@@ -344438,6 +345047,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "617レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ17号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-47",
@@ -344832,10 +345442,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38077",
     "customOrigin": "向ヶ丘遊園",
-    "throughTripId": "HD_OUT_C-01_2118_38171",
-    "throughLineId": "chiyoda"
+    "trainId": "B2131S"
   },
   {
     "tripId": "HD_OUT_OH-01_2101_93688",
@@ -346008,7 +346616,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94983"
+    "trainId": "94983",
+    "throughTripId": "HD_OUT_OH-28_2146_94983",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_2112_95764",
@@ -346161,7 +346772,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95764"
+    "trainId": "95764",
+    "throughTripId": "HD_OUT_OH-23_2143_95764",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_2113_94412",
@@ -347133,6 +347747,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "689レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ89号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-28",
@@ -347309,7 +347924,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95001"
+    "trainId": "95001",
+    "throughTripId": "HD_OUT_OH-28_2153_95001",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_2121_93690",
@@ -347765,6 +348383,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "643レ",
     "trainType": "limitedExp",
+    "trainName": "メトロホームウェイ43号",
     "direction": "outbound",
     "originStationId": "OH-14",
     "destinationStationId": "OH-34",
@@ -348354,10 +348973,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75661",
     "customDestination": "伊勢原",
-    "prevTripId": "HD_INB_C-20_2037_75823",
-    "prevLineId": "chiyoda"
+    "trainId": "A2005S"
   },
   {
     "tripId": "HD_OUT_OH-01_2129_94984",
@@ -348540,7 +349157,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94984"
+    "trainId": "94984",
+    "throughTripId": "HD_OUT_OH-28_2205_94984",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_2130_94414",
@@ -348911,13 +349531,17 @@
         "isPassing": false
       }
     ],
-    "trainId": "95765"
+    "trainId": "95765",
+    "throughTripId": "HD_OUT_OH-23_2202_95765",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_2131_93939",
     "lineId": "odakyu_odawara",
     "trainNumber": "794レ",
     "trainType": "limitedExp",
+    "trainName": "さがみ94号",
     "direction": "inbound",
     "originStationId": "OH-47",
     "destinationStationId": "OH-01",
@@ -349971,6 +350595,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "619レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ19号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-39",
@@ -350688,8 +351313,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "38096",
     "customOrigin": "向ヶ丘遊園",
+    "trainId": "B2133S",
     "throughTripId": "HD_OUT_C-01_2211_38190",
     "throughLineId": "chiyoda"
   },
@@ -351740,10 +352365,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75662",
     "customDestination": "伊勢原",
-    "prevTripId": "HD_INB_C-20_2101_75824",
-    "prevLineId": "chiyoda"
+    "trainId": "A2137S"
   },
   {
     "tripId": "HD_OUT_OH-01_2150_94986",
@@ -351926,7 +352549,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94986"
+    "trainId": "94986",
+    "throughTripId": "HD_OUT_OH-28_2224_94986",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-19_2150_93838",
@@ -352189,7 +352815,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95767"
+    "trainId": "95767",
+    "throughTripId": "HD_OUT_OH-23_2223_95767",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_2152_94418",
@@ -352948,7 +353577,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95030"
+    "trainId": "95030",
+    "throughTripId": "HD_OUT_OH-28_2200_95030",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "町田"
   },
   {
     "tripId": "HD_INB_OH-47_2158_94102",
@@ -353347,6 +353979,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "621レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ21号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-34",
@@ -354497,10 +355130,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "34864",
     "customDestination": "伊勢原",
-    "prevTripId": "HD_INB_C-19_2124_34941",
-    "prevLineId": "chiyoda"
+    "trainId": "A2059E"
   },
   {
     "tripId": "HD_OUT_OH-01_2210_93609",
@@ -354835,7 +355466,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95769"
+    "trainId": "95769",
+    "throughTripId": "HD_OUT_OH-23_2245_95769",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_2214_93568",
@@ -355552,7 +356186,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94988"
+    "trainId": "94988",
+    "throughTripId": "HD_OUT_OH-28_2254_94988",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-23_2221_95872",
@@ -356118,7 +356755,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95666"
+    "trainId": "95666",
+    "throughTripId": "HD_OUT_OH-23_2321_95666",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-34_2226_94424",
@@ -356925,16 +357565,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "75663",
     "customDestination": "伊勢原",
-    "prevTripId": "HD_INB_C-20_2143_75825",
-    "prevLineId": "chiyoda"
+    "trainId": "A2135S"
   },
   {
     "tripId": "HD_OUT_OH-01_2230_93761",
     "lineId": "odakyu_odawara",
     "trainNumber": "631レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ31号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-34",
@@ -358902,7 +359541,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "94991"
+    "trainId": "94991",
+    "throughTripId": "HD_OUT_OH-28_2321_94991",
+    "throughLineId": "odakyu_enoshima",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_2248_93573",
@@ -359329,7 +359971,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95772"
+    "trainId": "95772",
+    "throughTripId": "HD_OUT_OH-23_2330_95772",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-05_2254_75664",
@@ -359536,10 +360181,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "75664",
     "customDestination": "伊勢原",
-    "prevTripId": "HD_INB_C-20_2205_75826",
-    "prevLineId": "chiyoda"
+    "trainId": "A2215K"
   },
   {
     "tripId": "HD_OUT_OH-01_2256_93392",
@@ -360459,6 +361102,7 @@
     "lineId": "odakyu_odawara",
     "trainNumber": "635レ",
     "trainType": "limitedExp",
+    "trainName": "ホームウェイ35号",
     "direction": "outbound",
     "originStationId": "OH-01",
     "destinationStationId": "OH-34",
@@ -361928,7 +362572,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95668"
+    "trainId": "95668",
+    "throughTripId": "HD_OUT_OH-23_0015_95668",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-36_2325_93880",
@@ -362884,7 +363531,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95670"
+    "trainId": "95670",
+    "throughTripId": "HD_OUT_OH-23_0028_95670",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_OH-01_2346_93759",
@@ -363475,7 +364125,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "95673"
+    "trainId": "95673",
+    "throughTripId": "HD_OUT_OH-23_0045_95673",
+    "throughLineId": "odakyu_tama",
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_OH-47_2349_94122",

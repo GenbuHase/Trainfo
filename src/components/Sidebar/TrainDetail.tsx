@@ -33,6 +33,7 @@ interface DisplayStop {
   lineShortName: string;
   trainType: TrainTypeKey;
   trainNumber?: string;
+  trainName?: string;
   isCurrent: boolean;
   isBoundary?: boolean;
   boundaryInfo?: ThroughChainStop['boundaryInfo'];
@@ -149,6 +150,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
           lineShortName: s.lineShortName,
           trainType: s.trainType,
           trainNumber: s.trainNumber,
+          trainName: s.trainName,
           isCurrent,
           isBoundary: s.isBoundary,
           boundaryInfo: s.boundaryInfo,
@@ -197,6 +199,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
         lineShortName,
         trainType: train.trainType,
         trainNumber: train.trainNumber,
+        trainName: train.trainName,
         isCurrent,
         isBoundary: false,
         trainNumberChange,
@@ -221,7 +224,14 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                   {line.name}
                 </span>
               )}
-              <TrainTypeBadge type={train.trainType} size="md" lineId={train.lineId} />
+              <div className="flex items-center gap-1.5">
+                <TrainTypeBadge type={train.trainType} size="md" lineId={train.lineId} />
+                {train.trainName && (
+                  <span className="font-bold text-sm tracking-wide text-white drop-shadow-xs">
+                    {train.trainName}
+                  </span>
+                )}
+              </div>
               <span className="font-mono text-sm tracking-wider text-amber-300 font-bold">
                 {formatTrainNumber(train.trainNumber, train.trainId, train.tripId)}
               </span>

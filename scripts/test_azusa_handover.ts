@@ -1,5 +1,6 @@
 import { calculateActiveTrains } from '../src/services/trainSimulation';
 import { formatTrainNumber, timeStringToSeconds } from '../src/data/timetableData';
+import { loadLinesTimetables } from '../src/data/timetableLoader';
 import { STATION_MAP } from '../src/data/stations';
 import type { ActiveTrain } from '../src/types';
 
@@ -82,6 +83,8 @@ function resolveSelectedTrain(
 
 console.log('=== 特急あずさ ハンドオーバー & 始発駅表示保持テスト ===\n');
 
+await loadLinesTimetables(['oito_east', 'shinonoi', 'chuo_main', 'chuo']);
+
 // ----------------------------------------------------------------------
 // テスト1: 白馬発あずさ38号（平日: 42025 / 休日: 42026）全区間追尾
 // 白馬 13:43 -> 松本 14:47着/14:50発 -> 塩尻 14:58通過 -> 上諏訪 15:11着/15:12発 -> 新宿 17:26着
@@ -104,7 +107,7 @@ const azusa38Points = [
 
 for (const isHoliday of [false, true]) {
   console.log(`\n================== 【あずさ38号（白馬発）: ${isHoliday ? '休日ダイヤ' : '平日ダイヤ'}】 ==================`);
-  const initialTripId = isHoliday ? 'HD_INB_OE-29_1343_42026' : 'WD_INB_OE-29_1343_42025';
+  const initialTripId = isHoliday ? 'HD_INB_OIE-29_1343_42026' : 'WD_INB_OIE-29_1343_42025';
   let trackedId: string | null = initialTripId;
   let lastSelected: ActiveTrain | null = null;
   const selectedLines = ['oito_east', 'shinonoi', 'chuo_main', 'chuo'];
@@ -132,6 +135,7 @@ for (const isHoliday of [false, true]) {
 
     console.log(`[時刻 ${pt.time}] ${pt.desc}`);
     console.log(`  追尾ID: ${trackedId} | 路線: ${selected?.lineId}`);
+    console.log(`  列車名（愛称）: ${selected?.trainName || 'なし'}`);
     console.log(`  始発駅表示: ${originName} (customOrigin: ${selected?.customOrigin})`);
     console.log(`  行先表示: ${destName}`);
     console.log(`  現在駅: ${selected?.currentStationId} -> 次: ${selected?.nextStationId}`);

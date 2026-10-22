@@ -98,16 +98,19 @@ function deduplicateLineTrips(trips) {
     const byTrainOrDest = new Map();
     for (const t of list) {
       let trainKey = t.tripId;
+      const yId = extractYahooTrainId(t.tripId);
       if (t.coupling) {
-        trainKey = `${t.trainNumber || ''}_${t.coupling.role}_${t.customDestination || ''}`;
+        trainKey = `${t.trainNumber || ''}_${t.coupling.role}_${t.customDestination || ''}_${yId || ''}`;
       } else if (t.tripId && t.tripId.includes('_fuji')) {
-        trainKey = `${t.trainNumber || ''}_fuji_${t.customDestination || ''}`;
+        trainKey = `${t.trainNumber || ''}_fuji_${t.customDestination || ''}_${yId || ''}`;
+      } else if (isExpressType(t.trainType) && yId) {
+        trainKey = `${t.trainNumber || ''}_${yId}`;
       } else if (t.trainNumber && t.customDestination) {
         trainKey = `${t.trainNumber}_${t.customDestination}`;
       } else if (t.trainNumber) {
         trainKey = t.trainNumber;
-      } else if (extractYahooTrainId(t.tripId)) {
-        trainKey = extractYahooTrainId(t.tripId);
+      } else if (yId) {
+        trainKey = yId;
       }
       if (!byTrainOrDest.has(trainKey)) byTrainOrDest.set(trainKey, []);
       byTrainOrDest.get(trainKey).push(t);
@@ -146,6 +149,11 @@ function areDestinationsCompatible(destA, destB) {
 
   // 会津若松・喜多方の互換性（会津鉄道から只見線・磐越西線直通）
   if ((cleanA === '会津若松' && cleanB === '喜多方') || (cleanA === '喜多方' && cleanB === '会津若松')) {
+    return true;
+  }
+
+  // 東京・新宿の互換性（中央線・中央本線特急の直通先揺れを許容）
+  if ((cleanA === '東京' && cleanB === '新宿') || (cleanA === '新宿' && cleanB === '東京')) {
     return true;
   }
 
@@ -406,7 +414,11 @@ function linkPair({
         : tB.stops[0];
       if (!stopB) continue;
 
-      const tBSec = timeToSec(stopB.departureTime || stopB.arrivalTime);
+      let tBSec = timeToSec(stopB.departureTime || stopB.arrivalTime);
+      if (tBSec !== null && tASec !== null) {
+        if (tBSec - tASec < -43200) tBSec += 86400;
+        else if (tBSec - tASec > 43200) tBSec -= 86400;
+      }
       const waitSec = tBSec - tASec;
       const diff = Math.abs(waitSec);
       const yIdB = extractYahooTrainId(tB.tripId);
@@ -414,9 +426,9 @@ function linkPair({
       const destB = getEffectiveDestination(tB, stationMap);
 
       // 1. 完全一致 (Yahoo trainId または 公式列車番号)
-      // 同一列車番号またはYahoo IDを持つ列車は一意であるため、因果律を満たしていれば固定のmaxTimeDiffに縛られず自動マッチ（連結作業や長時間停車にも完全対応）
+      // 同一列車番号またはYahoo IDを持つ列車は一意であるため、因果律を満たしていれば固定のmaxTimeDiffに縛られず自動マッチ（連結作業や長時間停車、線区間通過時刻誤差にも完全対応）
       const isIdMatch = (yIdA && yIdB && yIdA === yIdB) || (noA && noB && noA === noB);
-      if (isIdMatch && waitSec >= -60 && waitSec <= 7200) {
+      if (isIdMatch && waitSec >= -300 && waitSec <= 7200) {
         // 行先が両方存在し、かつ互換性がない場合は誤マッチ（併結列車の別編成など）なので即決しない
         if (destA && destB && !areDestinationsCompatible(destA, destB)) {
           // スキップして次の候補へ
@@ -428,6 +440,11 @@ function linkPair({
       }
 
       if (requireIdMatch) continue;
+
+      // 特急列車が一般普通・快速列車に誤接続するのを絶対に禁止
+      if (isExpressType(tA.trainType) !== isExpressType(tB.trainType)) {
+        continue;
+      }
 
       // 2. 因果律: 出発時刻は到着時刻以降（ダイヤ丸め誤差 -30秒まで許容）
       // 行先が相手路線を明示している直通便は最大1800秒（30分）まで自動許容、一般普通列車はデフォルト900秒（15分）
@@ -470,10 +487,11 @@ function linkPair({
                       tB.prevLineId === 'fujikyu' ||
                       tB.throughLineId === 'fujikyu' ||
                       fujiNumbers.has(tB.trainNumber);
+      if (isFujiA !== isFujiB) {
+        continue; // 富士回遊(河口湖系統)とあずさ・かいじ(松本/甲府系統)のクロス誤マッチを絶対に禁止
+      }
       if (isFujiA && isFujiB) {
         score -= 4000;
-      } else if (isFujiA !== isFujiB) {
-        score += 4000; // 富士回遊が甲府行きかいじとクロス誤マッチするのを防止
       }
 
       if (score < bestScore) {
@@ -496,6 +514,13 @@ function linkPair({
         tA.trainNumber = bestB.trainNumber;
       }
 
+      // 列車名（愛称・号数）の相互補完
+      if (tA.trainName && !bestB.trainName) {
+        bestB.trainName = tA.trainName;
+      } else if (bestB.trainName && !tA.trainName) {
+        tA.trainName = bestB.trainName;
+      }
+
       // 【必須】境界駅でのシームレス時刻同期 (空白時間による列車消失の完全防止)
       const stopB = allowMidStationB
         ? bestB.stops.find((s) => s.stationId === stationBId)
@@ -506,21 +531,35 @@ function linkPair({
       if (stopB) {
         stopB.arrivalTime = syncArr;         // 後続路線は到着した瞬間から発車待ち開始
         const syncSec = timeToSec(syncArr);
-        if (timeToSec(stopB.departureTime) < syncSec) {
+        let bDepSec = timeToSec(stopB.departureTime);
+        if (bDepSec !== null && bDepSec < syncSec && bDepSec + 86400 >= syncSec) {
+          bDepSec += 86400;
+        }
+        if (bDepSec !== null && bDepSec < syncSec) {
           stopB.departureTime = syncArr;
+          bDepSec = syncSec;
         }
         // 先行路線の境界駅発車時刻も後続路線の発車時刻に同期（境界駅停車時間・発車標時刻の統一）
-        if (stopB.departureTime && timeToSec(stopB.departureTime) >= syncSec) {
+        if (stopB.departureTime && bDepSec !== null && bDepSec >= syncSec) {
           stopA.departureTime = stopB.departureTime;
         }
 
         // 後続駅の時刻が境界駅の発車時刻より前になって逆転することを防止
         const stopBIndex = bestB.stops.indexOf(stopB);
-        let curSec = timeToSec(stopB.departureTime);
+        let curSec = bDepSec !== null ? bDepSec : timeToSec(stopB.departureTime);
         for (let k = stopBIndex + 1; k < bestB.stops.length; k++) {
           const s = bestB.stops[k];
           let arrS = timeToSec(s.arrivalTime);
           let depS = timeToSec(s.departureTime);
+
+          // 夜行列車・日付跨ぎ対応: 24時間加算で curSec 以上になる場合は翌日進行と判定
+          if (arrS !== null && arrS < curSec && arrS + 86400 >= curSec) {
+            arrS += 86400;
+          }
+          if (depS !== null && depS < (arrS !== null ? arrS : curSec) && depS + 86400 >= (arrS !== null ? arrS : curSec)) {
+            depS += 86400;
+          }
+
           if (arrS !== null && arrS < curSec) {
             s.arrivalTime = secToTime(curSec);
             arrS = curSec;

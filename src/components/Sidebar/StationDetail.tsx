@@ -210,14 +210,14 @@ export const StationDetail: React.FC<StationDetailProps> = ({
                     <div
                       key={trip.tripId}
                       onClick={() => liveTrain && onSelectTrain(liveTrain)}
-                      className={`grid grid-cols-12 items-center px-1.5 py-1.5 rounded transition-colors text-xs ${
+                      className={`grid grid-cols-12 items-center px-1.5 py-1.5 rounded transition-colors text-xs min-h-[38px] ${
                         liveTrain
                           ? 'cursor-pointer hover:bg-slate-800/80 bg-slate-800/40 border border-slate-700/50'
                           : 'opacity-85'
                       }`}
                     >
                       {/* 種別 */}
-                      <div className="col-span-3">
+                      <div className="col-span-3 flex items-center overflow-hidden">
                         <TrainTypeBadge type={trip.trainType} size="sm" lineId={station.lineId} />
                       </div>
 
@@ -226,10 +226,20 @@ export const StationDetail: React.FC<StationDetailProps> = ({
                         {depTime}
                       </div>
 
-                      {/* 行先 */}
-                      <div className="col-span-4 font-bold text-white flex items-center gap-1 truncate">
-                        <span>{trip.customDestination || destStation?.name || '行先未定'}</span>
-                        <span className="text-[10px] text-slate-400 font-normal">({trip.cars}両)</span>
+                      {/* 行先 & 列車愛称・号数 */}
+                      <div className="col-span-4 flex flex-col justify-center min-w-0 pr-1">
+                        {(trip.trainName || liveTrain?.trainName) && (
+                          <span
+                            className="text-[10px] text-amber-300 font-bold truncate leading-tight tracking-tight"
+                            title={trip.trainName || liveTrain?.trainName}
+                          >
+                            {trip.trainName || liveTrain?.trainName}
+                          </span>
+                        )}
+                        <div className="font-bold text-white flex items-center gap-1 truncate text-xs">
+                          <span>{trip.customDestination || destStation?.name || '行先未定'}</span>
+                          <span className="text-[10px] text-slate-400 font-normal shrink-0">({trip.cars}両)</span>
+                        </div>
                       </div>
 
                       {/* 運行情報・接近表示 */}

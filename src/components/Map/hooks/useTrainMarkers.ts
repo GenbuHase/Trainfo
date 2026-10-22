@@ -51,6 +51,7 @@ function generateTrainMarkerHtml(train: ActiveTrain, isSelected: boolean): strin
         isSelected ? 'opacity-100 ring-1 ring-amber-400' : 'opacity-0 group-hover:opacity-100'
       }">
         <span class="train-type-badge px-1 py-0.2 rounded text-[9px] text-white font-bold" style="background-color: ${typeConfig.bgColor}">${typeConfig.shortName}</span>
+        ${train.trainName ? `<span class="train-name text-amber-300 font-bold">${train.trainName}</span>` : ''}
         <span class="train-dest">${destText}</span>
         <span class="train-no text-slate-400 font-mono font-normal">${trainNo}</span>
       </div>
@@ -105,6 +106,30 @@ function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: b
     infoLabelEl.classList.toggle('ring-1', isSelected);
     infoLabelEl.classList.toggle('ring-amber-400', isSelected);
     infoLabelEl.classList.toggle('opacity-0', !isSelected);
+  }
+
+  const nameEl = el.querySelector('.train-name');
+  if (train.trainName) {
+    if (nameEl) {
+      if (nameEl.textContent !== train.trainName) {
+        nameEl.textContent = train.trainName;
+      }
+    } else {
+      const label = el.querySelector('.train-info-label');
+      if (label) {
+        const dest = label.querySelector('.train-dest');
+        const span = document.createElement('span');
+        span.className = 'train-name text-amber-300 font-bold';
+        span.textContent = train.trainName;
+        if (dest) {
+          label.insertBefore(span, dest);
+        } else {
+          label.appendChild(span);
+        }
+      }
+    }
+  } else if (nameEl) {
+    nameEl.remove();
   }
 
   const destEl = el.querySelector('.train-dest');

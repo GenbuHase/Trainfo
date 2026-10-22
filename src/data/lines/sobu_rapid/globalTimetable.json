@@ -1012,6 +1012,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2001M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス1号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -1084,6 +1085,83 @@
     "trainId": "29322",
     "prevTripId": "WD_INB_JO-09_0528_29322",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_0618_31108",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2201M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス1号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "06:16:00",
+        "departureTime": "06:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "06:19:03",
+        "departureTime": "06:19:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "06:20:07",
+        "departureTime": "06:20:07",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "06:21:59",
+        "departureTime": "06:21:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "06:24:57",
+        "departureTime": "06:24:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "06:28:01",
+        "departureTime": "06:28:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "06:32:57",
+        "departureTime": "06:32:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "06:35:09",
+        "departureTime": "06:35:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "06:40:57",
+        "departureTime": "06:40:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "06:43:00",
+        "departureTime": "06:44:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31108"
   },
   {
     "tripId": "WD_INB_JO-28_0621_5237",
@@ -1426,6 +1504,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "5003M",
     "trainType": "limitedExp",
+    "trainName": "あずさ3号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-22",
@@ -1477,6 +1556,64 @@
       }
     ],
     "trainId": "39553"
+  },
+  {
+    "tripId": "WD_INB_JO-28_0638_39555",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2103M",
+    "trainType": "limitedExp",
+    "trainName": "富士回遊3号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-22",
+    "customDestination": "河口湖",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "06:38:00",
+        "departureTime": "06:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "06:40:52",
+        "departureTime": "06:40:52",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "06:48:56",
+        "departureTime": "06:48:56",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "06:52:00",
+        "departureTime": "06:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "06:58:51",
+        "departureTime": "06:58:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "07:02:30",
+        "departureTime": "07:02:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "07:06:00",
+        "departureTime": "07:07:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "39555"
   },
   {
     "tripId": "WD_INB_JO-28_0640_42915",
@@ -1561,6 +1698,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4002M",
     "trainType": "limitedExp",
+    "trainName": "しおさい2号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -1973,6 +2111,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2003M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス3号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -2045,6 +2184,83 @@
     "trainId": "29323",
     "prevTripId": "WD_INB_JO-09_0606_29323",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_0700_31109",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2203M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス3号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "06:58:00",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "07:01:06",
+        "departureTime": "07:01:06",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "07:02:12",
+        "departureTime": "07:02:12",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "07:04:09",
+        "departureTime": "07:04:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "07:07:13",
+        "departureTime": "07:07:13",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "07:10:25",
+        "departureTime": "07:10:25",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "07:15:33",
+        "departureTime": "07:15:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "07:17:50",
+        "departureTime": "07:17:50",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "07:23:52",
+        "departureTime": "07:23:52",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "07:26:00",
+        "departureTime": "07:26:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31109"
   },
   {
     "tripId": "WD_INB_JO-28_0701_42921",
@@ -2195,6 +2411,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4004M",
     "trainType": "limitedExp",
+    "trainName": "しおさい4号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -2781,6 +2998,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4006M",
     "trainType": "limitedExp",
+    "trainName": "しおさい6号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -3074,6 +3292,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2005M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス5号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -3146,6 +3365,83 @@
     "trainId": "29324",
     "prevTripId": "WD_INB_JO-09_0638_29324",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_0731_31110",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2205M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス5号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "07:29:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "07:32:09",
+        "departureTime": "07:32:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "07:33:17",
+        "departureTime": "07:33:17",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "07:35:18",
+        "departureTime": "07:35:18",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "07:38:30",
+        "departureTime": "07:38:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "07:41:49",
+        "departureTime": "07:41:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "07:47:09",
+        "departureTime": "07:47:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "07:49:31",
+        "departureTime": "07:49:31",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "07:55:47",
+        "departureTime": "07:55:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "07:58:00",
+        "departureTime": "07:58:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31110"
   },
   {
     "tripId": "WD_INB_JO-28_0731_5391",
@@ -3383,6 +3679,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4001M",
     "trainType": "limitedExp",
+    "trainName": "しおさい1号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -3524,6 +3821,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "9051M",
     "trainType": "limitedExp",
+    "trainName": "新宿わかしお1号",
     "direction": "outbound",
     "originStationId": "JO-22",
     "destinationStationId": "JO-28",
@@ -4143,6 +4441,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2007M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス7号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -4215,6 +4514,83 @@
     "trainId": "29325",
     "prevTripId": "WD_INB_JO-09_0700_29325",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_0756_31111",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2207M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス7号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "07:52:00",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "07:57:24",
+        "departureTime": "07:57:24",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "07:58:47",
+        "departureTime": "07:58:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "08:01:15",
+        "departureTime": "08:01:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "08:05:10",
+        "departureTime": "08:05:10",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "08:09:14",
+        "departureTime": "08:09:14",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "08:15:44",
+        "departureTime": "08:15:44",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "08:18:38",
+        "departureTime": "08:18:38",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "08:26:17",
+        "departureTime": "08:26:17",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "08:29:00",
+        "departureTime": "08:30:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31111"
   },
   {
     "tripId": "WD_INB_JO-28_0756_5393",
@@ -4877,6 +5253,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2002M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス2号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -4948,6 +5325,85 @@
     ],
     "trainId": "29290",
     "throughTripId": "WD_OUT_JO-19_0854_29290",
+    "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_0814_29319",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2202M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス2号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "08:13:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "08:17:08",
+        "departureTime": "08:17:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "08:25:56",
+        "departureTime": "08:25:56",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "08:29:16",
+        "departureTime": "08:29:16",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "08:36:46",
+        "departureTime": "08:36:46",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "08:41:27",
+        "departureTime": "08:41:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "08:45:57",
+        "departureTime": "08:45:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "08:48:47",
+        "departureTime": "08:48:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "08:50:24",
+        "departureTime": "08:50:24",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "08:52:00",
+        "departureTime": "09:22:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29319",
+    "throughTripId": "WD_OUT_JO-19_0922_29318",
     "throughLineId": "yokosuka"
   },
   {
@@ -6111,6 +6567,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2004M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス4号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -6180,9 +6637,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "29318",
-    "throughTripId": "WD_OUT_JO-19_0922_29318",
-    "throughLineId": "yokosuka"
+    "trainId": "29318"
   },
   {
     "tripId": "WD_INB_JO-26_0853_41420",
@@ -6411,6 +6866,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2011M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス11号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -6489,6 +6945,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4008M",
     "trainType": "limitedExp",
+    "trainName": "しおさい8号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -7082,6 +7539,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2006M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス6号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -7153,6 +7611,85 @@
     ],
     "trainId": "29291",
     "throughTripId": "WD_OUT_JO-19_0956_29291",
+    "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_0929_29321",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2206M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス6号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "09:28:00",
+        "departureTime": "09:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "09:31:03",
+        "departureTime": "09:31:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "09:36:51",
+        "departureTime": "09:36:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "09:39:03",
+        "departureTime": "09:39:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "09:43:59",
+        "departureTime": "09:43:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "09:47:03",
+        "departureTime": "09:47:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "09:50:01",
+        "departureTime": "09:50:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "09:51:53",
+        "departureTime": "09:51:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "09:52:57",
+        "departureTime": "09:52:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "09:54:00",
+        "departureTime": "10:19:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29321",
+    "throughTripId": "WD_OUT_JO-19_1019_29295",
     "throughLineId": "yokosuka"
   },
   {
@@ -7834,6 +8371,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2015M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス15号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -7906,6 +8444,83 @@
     "trainId": "29327",
     "prevTripId": "WD_INB_JO-09_0910_29327",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_1003_31113",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2215M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス15号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "10:01:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "10:04:01",
+        "departureTime": "10:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "10:05:02",
+        "departureTime": "10:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "10:06:49",
+        "departureTime": "10:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "10:09:40",
+        "departureTime": "10:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "10:12:37",
+        "departureTime": "10:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "10:17:21",
+        "departureTime": "10:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "10:19:28",
+        "departureTime": "10:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "10:25:02",
+        "departureTime": "10:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "10:27:00",
+        "departureTime": "10:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31113"
   },
   {
     "tripId": "WD_INB_JO-28_1003_5255",
@@ -8064,6 +8679,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4003M",
     "trainType": "limitedExp",
+    "trainName": "しおさい3号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -8295,6 +8911,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2010M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス10号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -8367,6 +8984,83 @@
     "trainId": "29278",
     "throughTripId": "WD_OUT_JO-19_1047_29278",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_1019_29307",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2210M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス10号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "10:19:00",
+        "departureTime": "10:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "10:21:08",
+        "departureTime": "10:21:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "10:27:10",
+        "departureTime": "10:27:10",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "10:29:27",
+        "departureTime": "10:29:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "10:34:35",
+        "departureTime": "10:34:35",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "10:37:47",
+        "departureTime": "10:37:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "10:40:51",
+        "departureTime": "10:40:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "10:42:48",
+        "departureTime": "10:42:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "10:43:54",
+        "departureTime": "10:43:54",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "10:45:00",
+        "departureTime": "10:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29307"
   },
   {
     "tripId": "WD_OUT_JO-19_1025_5103",
@@ -8978,6 +9672,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2019M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス19号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -9050,6 +9745,83 @@
     "trainId": "29328",
     "prevTripId": "WD_INB_JO-09_1010_29328",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_1103_31114",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2219M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス19号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "11:00:00",
+        "departureTime": "11:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "11:04:01",
+        "departureTime": "11:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "11:05:02",
+        "departureTime": "11:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "11:06:49",
+        "departureTime": "11:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "11:09:40",
+        "departureTime": "11:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "11:12:37",
+        "departureTime": "11:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "11:17:21",
+        "departureTime": "11:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "11:19:28",
+        "departureTime": "11:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "11:25:02",
+        "departureTime": "11:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "11:27:00",
+        "departureTime": "11:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31114"
   },
   {
     "tripId": "WD_OUT_JO-19_1105_5107",
@@ -9286,6 +10058,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2014M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス14号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -9358,6 +10131,83 @@
     "trainId": "29279",
     "throughTripId": "WD_OUT_JO-19_1146_29279",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_1119_29308",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2214M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス14号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "11:18:00",
+        "departureTime": "11:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "11:21:03",
+        "departureTime": "11:21:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "11:26:51",
+        "departureTime": "11:26:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "11:29:03",
+        "departureTime": "11:29:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "11:33:59",
+        "departureTime": "11:33:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "11:37:03",
+        "departureTime": "11:37:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "11:40:01",
+        "departureTime": "11:40:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "11:41:53",
+        "departureTime": "11:41:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "11:42:57",
+        "departureTime": "11:42:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "11:44:00",
+        "departureTime": "11:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29308"
   },
   {
     "tripId": "WD_OUT_JO-19_1125_41028",
@@ -9520,6 +10370,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4010M",
     "trainType": "limitedExp",
+    "trainName": "しおさい10号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -9584,11 +10435,14 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "12:07:00",
-        "departureTime": "12:07:00",
+        "departureTime": "12:17:00",
         "isPassing": false
       }
     ],
-    "trainId": "5362"
+    "trainId": "5362",
+    "customDestination": "新宿",
+    "throughTripId": "WD_OUT_JO-19_1217_29297",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1141_41030",
@@ -9982,6 +10836,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2023M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス23号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -10054,6 +10909,83 @@
     "trainId": "29329",
     "prevTripId": "WD_INB_JO-09_1110_29329",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_1203_31115",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2223M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス23号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "12:01:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "12:04:01",
+        "departureTime": "12:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "12:05:02",
+        "departureTime": "12:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "12:06:49",
+        "departureTime": "12:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "12:09:40",
+        "departureTime": "12:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "12:12:37",
+        "departureTime": "12:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "12:17:21",
+        "departureTime": "12:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "12:19:28",
+        "departureTime": "12:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "12:25:02",
+        "departureTime": "12:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "12:27:00",
+        "departureTime": "12:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31115"
   },
   {
     "tripId": "WD_OUT_JO-19_1205_5111",
@@ -10290,6 +11222,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2018M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス18号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -10362,6 +11295,83 @@
     "trainId": "29280",
     "throughTripId": "WD_OUT_JO-19_1246_29280",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_1219_29309",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2218M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス18号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "12:18:00",
+        "departureTime": "12:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "12:21:03",
+        "departureTime": "12:21:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "12:26:51",
+        "departureTime": "12:26:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "12:29:03",
+        "departureTime": "12:29:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "12:33:59",
+        "departureTime": "12:33:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "12:37:03",
+        "departureTime": "12:37:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "12:40:01",
+        "departureTime": "12:40:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "12:41:53",
+        "departureTime": "12:41:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "12:42:57",
+        "departureTime": "12:42:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "12:44:00",
+        "departureTime": "12:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29309"
   },
   {
     "tripId": "WD_OUT_JO-19_1225_41031",
@@ -10910,6 +11920,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2027M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス27号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -10982,6 +11993,83 @@
     "trainId": "29330",
     "prevTripId": "WD_INB_JO-09_1210_29330",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_1303_31116",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2227M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス27号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "13:01:00",
+        "departureTime": "13:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "13:04:01",
+        "departureTime": "13:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "13:05:02",
+        "departureTime": "13:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "13:06:49",
+        "departureTime": "13:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "13:09:40",
+        "departureTime": "13:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "13:12:37",
+        "departureTime": "13:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "13:17:21",
+        "departureTime": "13:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "13:19:28",
+        "departureTime": "13:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "13:25:02",
+        "departureTime": "13:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "13:27:00",
+        "departureTime": "13:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31116"
   },
   {
     "tripId": "WD_OUT_JO-19_1305_5116",
@@ -11218,6 +12306,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2022M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス22号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -11290,6 +12379,83 @@
     "trainId": "29281",
     "throughTripId": "WD_OUT_JO-19_1347_29281",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_1320_29310",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2222M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス22号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "13:19:00",
+        "departureTime": "13:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "13:22:03",
+        "departureTime": "13:22:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "13:27:51",
+        "departureTime": "13:27:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "13:30:03",
+        "departureTime": "13:30:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "13:34:59",
+        "departureTime": "13:34:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "13:38:03",
+        "departureTime": "13:38:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "13:41:01",
+        "departureTime": "13:41:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "13:42:53",
+        "departureTime": "13:42:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "13:43:57",
+        "departureTime": "13:43:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "13:45:00",
+        "departureTime": "13:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29310"
   },
   {
     "tripId": "WD_OUT_JO-19_1325_41035",
@@ -11452,6 +12618,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4012M",
     "trainType": "limitedExp",
+    "trainName": "しおさい12号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -11516,11 +12683,14 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "14:07:00",
-        "departureTime": "14:07:00",
+        "departureTime": "14:17:00",
         "isPassing": false
       }
     ],
-    "trainId": "5363"
+    "trainId": "5363",
+    "customDestination": "新宿",
+    "throughTripId": "WD_OUT_JO-19_1417_29299",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1341_41037",
@@ -11913,6 +13083,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2031M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス31号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -11985,6 +13156,83 @@
     "trainId": "29331",
     "prevTripId": "WD_INB_JO-09_1310_29331",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_1403_31117",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2231M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス31号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "14:01:00",
+        "departureTime": "14:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "14:04:01",
+        "departureTime": "14:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "14:05:02",
+        "departureTime": "14:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "14:06:49",
+        "departureTime": "14:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "14:09:40",
+        "departureTime": "14:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "14:12:37",
+        "departureTime": "14:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "14:17:21",
+        "departureTime": "14:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "14:19:28",
+        "departureTime": "14:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "14:25:02",
+        "departureTime": "14:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "14:27:00",
+        "departureTime": "14:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31117"
   },
   {
     "tripId": "WD_OUT_JO-19_1405_5121",
@@ -12221,6 +13469,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2026M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス26号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -12293,6 +13542,83 @@
     "trainId": "29282",
     "throughTripId": "WD_OUT_JO-19_1447_29282",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_1419_29311",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2226M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス26号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "14:18:00",
+        "departureTime": "14:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "14:21:08",
+        "departureTime": "14:21:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "14:27:10",
+        "departureTime": "14:27:10",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "14:29:27",
+        "departureTime": "14:29:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "14:34:35",
+        "departureTime": "14:34:35",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "14:37:47",
+        "departureTime": "14:37:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "14:40:51",
+        "departureTime": "14:40:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "14:42:48",
+        "departureTime": "14:42:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "14:43:54",
+        "departureTime": "14:43:54",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "14:45:00",
+        "departureTime": "14:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29311"
   },
   {
     "tripId": "WD_OUT_JO-19_1425_41039",
@@ -12455,6 +13781,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4005M",
     "trainType": "limitedExp",
+    "trainName": "しおさい5号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -12916,6 +14243,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2035M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス35号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -12988,6 +14316,83 @@
     "trainId": "29332",
     "prevTripId": "WD_INB_JO-09_1410_29332",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_1503_31118",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2235M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス35号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "15:00:00",
+        "departureTime": "15:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "15:04:01",
+        "departureTime": "15:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "15:05:02",
+        "departureTime": "15:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "15:06:49",
+        "departureTime": "15:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "15:09:40",
+        "departureTime": "15:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "15:12:37",
+        "departureTime": "15:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "15:17:21",
+        "departureTime": "15:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "15:19:28",
+        "departureTime": "15:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "15:25:02",
+        "departureTime": "15:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "15:27:00",
+        "departureTime": "15:27:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31118"
   },
   {
     "tripId": "WD_OUT_JO-19_1505_5125",
@@ -13224,6 +14629,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2030M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス30号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -13296,6 +14702,83 @@
     "trainId": "29283",
     "throughTripId": "WD_OUT_JO-19_1547_29283",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_1520_29312",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2230M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス30号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "15:19:00",
+        "departureTime": "15:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "15:22:03",
+        "departureTime": "15:22:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "15:27:51",
+        "departureTime": "15:27:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "15:30:03",
+        "departureTime": "15:30:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "15:34:59",
+        "departureTime": "15:34:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "15:38:03",
+        "departureTime": "15:38:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "15:41:01",
+        "departureTime": "15:41:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "15:42:53",
+        "departureTime": "15:42:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "15:43:57",
+        "departureTime": "15:43:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "15:45:00",
+        "departureTime": "15:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29312"
   },
   {
     "tripId": "WD_OUT_JO-19_1525_41041",
@@ -13922,6 +15405,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2039M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス39号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -13994,6 +15478,83 @@
     "trainId": "29333",
     "prevTripId": "WD_INB_JO-09_1510_29333",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_1603_31119",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2239M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス39号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "16:00:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "16:04:01",
+        "departureTime": "16:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "16:05:02",
+        "departureTime": "16:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "16:06:49",
+        "departureTime": "16:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "16:09:40",
+        "departureTime": "16:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "16:12:37",
+        "departureTime": "16:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "16:17:21",
+        "departureTime": "16:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "16:19:28",
+        "departureTime": "16:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "16:25:02",
+        "departureTime": "16:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "16:27:00",
+        "departureTime": "16:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31119"
   },
   {
     "tripId": "WD_OUT_JO-19_1606_4945",
@@ -14289,6 +15850,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2034M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス34号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -14361,6 +15923,83 @@
     "trainId": "29284",
     "throughTripId": "WD_OUT_JO-19_1647_29284",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_1619_29313",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2234M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス34号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "16:21:08",
+        "departureTime": "16:21:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "16:27:10",
+        "departureTime": "16:27:10",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "16:29:27",
+        "departureTime": "16:29:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "16:34:35",
+        "departureTime": "16:34:35",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "16:37:47",
+        "departureTime": "16:37:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "16:40:51",
+        "departureTime": "16:40:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "16:42:48",
+        "departureTime": "16:42:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "16:43:54",
+        "departureTime": "16:43:54",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:50:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29313"
   },
   {
     "tripId": "WD_INB_JO-26_1621_41424",
@@ -14670,14 +16309,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "新宿",
+    "customOrigin": "逗子",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "16:31:00",
+        "arrivalTime": "16:36:00",
         "departureTime": "16:37:00",
         "isPassing": false
       },
@@ -14737,7 +16376,8 @@
       }
     ],
     "trainId": "41457",
-    "prevTripId": "WD_INB_JO-17_1624_31139",
+    "trainName": "成田エクスプレス41号",
+    "prevTripId": "WD_INB_JO-06_1538_41457",
     "prevLineId": "yokosuka"
   },
   {
@@ -15178,17 +16818,18 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2043M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス43号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "逗子",
+    "customOrigin": "大船",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "16:36:00",
+        "arrivalTime": "16:56:00",
         "departureTime": "17:03:00",
         "isPassing": false
       },
@@ -15248,8 +16889,85 @@
       }
     ],
     "trainId": "29334",
-    "prevTripId": "WD_INB_JO-06_1538_41457",
+    "prevTripId": "WD_INB_JO-09_1610_29334",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_1703_31120",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2243M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス43号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "大船",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "16:56:00",
+        "departureTime": "17:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "17:04:03",
+        "departureTime": "17:04:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "17:05:07",
+        "departureTime": "17:05:07",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "17:06:59",
+        "departureTime": "17:06:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "17:09:57",
+        "departureTime": "17:09:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "17:13:01",
+        "departureTime": "17:13:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "17:17:57",
+        "departureTime": "17:17:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "17:20:09",
+        "departureTime": "17:20:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "17:25:57",
+        "departureTime": "17:25:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "17:28:00",
+        "departureTime": "17:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31120"
   },
   {
     "tripId": "WD_OUT_JO-19_1705_5074",
@@ -15465,14 +17183,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "大船",
+    "customOrigin": "久里浜",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "16:56:00",
+        "arrivalTime": "17:07:00",
         "departureTime": "17:09:00",
         "isPassing": false
       },
@@ -15532,7 +17250,7 @@
       }
     ],
     "trainId": "41476",
-    "prevTripId": "WD_INB_JO-09_1610_29334",
+    "prevTripId": "WD_INB_JO-01_1542_41476",
     "prevLineId": "yokosuka"
   },
   {
@@ -15688,6 +17406,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2038M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス38号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -15760,6 +17479,83 @@
     "trainId": "29285",
     "throughTripId": "WD_OUT_JO-19_1747_29285",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_1719_29314",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2238M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス38号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "17:18:00",
+        "departureTime": "17:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "17:21:08",
+        "departureTime": "17:21:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "17:27:10",
+        "departureTime": "17:27:10",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "17:29:27",
+        "departureTime": "17:29:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "17:34:35",
+        "departureTime": "17:34:35",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "17:37:47",
+        "departureTime": "17:37:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "17:40:51",
+        "departureTime": "17:40:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "17:42:48",
+        "departureTime": "17:42:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "17:43:54",
+        "departureTime": "17:43:54",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "17:45:00",
+        "departureTime": "17:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29314"
   },
   {
     "tripId": "WD_OUT_JO-19_1720_42968",
@@ -15988,17 +17784,18 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2045M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス45号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "久里浜",
+    "customOrigin": "新宿",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "17:07:00",
+        "arrivalTime": "17:31:00",
         "departureTime": "17:33:00",
         "isPassing": false
       },
@@ -16058,7 +17855,7 @@
       }
     ],
     "trainId": "31127",
-    "prevTripId": "WD_INB_JO-01_1542_41476",
+    "prevTripId": "WD_INB_JO-17_1724_31127",
     "prevLineId": "yokosuka"
   },
   {
@@ -16506,14 +18303,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "新宿",
+    "customOrigin": "逗子",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "17:31:00",
+        "arrivalTime": "17:46:00",
         "departureTime": "17:50:00",
         "isPassing": false
       },
@@ -16573,7 +18370,7 @@
       }
     ],
     "trainId": "41460",
-    "prevTripId": "WD_INB_JO-17_1724_31127",
+    "prevTripId": "WD_INB_JO-06_1646_41460",
     "prevLineId": "yokosuka"
   },
   {
@@ -16799,17 +18596,18 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2047M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス47号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "逗子",
+    "customOrigin": "大船",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "17:46:00",
+        "arrivalTime": "17:56:00",
         "departureTime": "18:03:00",
         "isPassing": false
       },
@@ -16869,8 +18667,85 @@
       }
     ],
     "trainId": "29335",
-    "prevTripId": "WD_INB_JO-06_1646_41460",
+    "prevTripId": "WD_INB_JO-09_1710_29335",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_1803_31121",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2247M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス47号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "18:00:00",
+        "departureTime": "18:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "18:04:03",
+        "departureTime": "18:04:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "18:05:07",
+        "departureTime": "18:05:07",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "18:06:59",
+        "departureTime": "18:06:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "18:09:57",
+        "departureTime": "18:09:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "18:13:01",
+        "departureTime": "18:13:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "18:17:57",
+        "departureTime": "18:17:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "18:20:09",
+        "departureTime": "18:20:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "18:25:57",
+        "departureTime": "18:25:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "18:28:00",
+        "departureTime": "18:29:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31121"
   },
   {
     "tripId": "WD_OUT_JO-19_1805_5139",
@@ -16954,14 +18829,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "大船",
+    "customOrigin": "久里浜",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "17:56:00",
+        "arrivalTime": "18:07:00",
         "departureTime": "18:08:00",
         "isPassing": false
       },
@@ -17021,7 +18896,7 @@
       }
     ],
     "trainId": "41477",
-    "prevTripId": "WD_INB_JO-09_1710_29335",
+    "prevTripId": "WD_INB_JO-01_1642_41477",
     "prevLineId": "yokosuka"
   },
   {
@@ -17313,6 +19188,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2042M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス42号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -17696,17 +19572,18 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2049M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス49号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "久里浜",
+    "customOrigin": "新宿",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "18:07:00",
+        "arrivalTime": "18:31:00",
         "departureTime": "18:33:00",
         "isPassing": false
       },
@@ -17766,7 +19643,7 @@
       }
     ],
     "trainId": "31128",
-    "prevTripId": "WD_INB_JO-01_1642_41477",
+    "prevTripId": "WD_INB_JO-17_1824_31128",
     "prevLineId": "yokosuka"
   },
   {
@@ -18062,14 +19939,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "新宿",
+    "customOrigin": "逗子",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "18:31:00",
+        "arrivalTime": "18:40:00",
         "departureTime": "18:41:00",
         "isPassing": false
       },
@@ -18129,7 +20006,7 @@
       }
     ],
     "trainId": "41461",
-    "prevTripId": "WD_INB_JO-17_1824_31128",
+    "prevTripId": "WD_INB_JO-06_1743_41461",
     "prevLineId": "yokosuka"
   },
   {
@@ -18215,6 +20092,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4007M",
     "trainType": "limitedExp",
+    "trainName": "しおさい7号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -18586,6 +20464,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4014M",
     "trainType": "limitedExp",
+    "trainName": "しおさい14号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -18739,17 +20618,18 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2051M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス51号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "逗子",
+    "customOrigin": "大船",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "18:40:00",
+        "arrivalTime": "18:56:00",
         "departureTime": "19:03:00",
         "isPassing": false
       },
@@ -18809,8 +20689,85 @@
       }
     ],
     "trainId": "29336",
-    "prevTripId": "WD_INB_JO-06_1743_41461",
+    "prevTripId": "WD_INB_JO-09_1810_29336",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_1903_31122",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2251M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス51号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "19:00:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "19:04:09",
+        "departureTime": "19:04:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "19:05:17",
+        "departureTime": "19:05:17",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "19:07:18",
+        "departureTime": "19:07:18",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "19:10:30",
+        "departureTime": "19:10:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "19:13:49",
+        "departureTime": "19:13:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "19:19:09",
+        "departureTime": "19:19:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "19:21:31",
+        "departureTime": "19:21:31",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "19:27:47",
+        "departureTime": "19:27:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "19:30:00",
+        "departureTime": "19:31:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31122"
   },
   {
     "tripId": "WD_OUT_JO-19_1905_5078",
@@ -18882,14 +20839,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "大船",
+    "customOrigin": "久里浜",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "18:56:00",
+        "arrivalTime": "19:07:00",
         "departureTime": "19:09:00",
         "isPassing": false
       },
@@ -18949,7 +20906,7 @@
       }
     ],
     "trainId": "41478",
-    "prevTripId": "WD_INB_JO-09_1810_29336",
+    "prevTripId": "WD_INB_JO-01_1740_41478",
     "prevLineId": "yokosuka"
   },
   {
@@ -19312,6 +21269,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2046M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス46号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -19383,6 +21341,85 @@
     ],
     "trainId": "29287",
     "throughTripId": "WD_OUT_JO-19_1947_29287",
+    "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_1920_29315",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2246M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス46号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "19:19:00",
+        "departureTime": "19:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "19:22:03",
+        "departureTime": "19:22:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "19:27:51",
+        "departureTime": "19:27:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "19:30:03",
+        "departureTime": "19:30:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "19:34:59",
+        "departureTime": "19:34:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "19:38:03",
+        "departureTime": "19:38:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "19:41:01",
+        "departureTime": "19:41:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "19:42:53",
+        "departureTime": "19:42:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "19:43:57",
+        "departureTime": "19:43:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "19:45:00",
+        "departureTime": "20:15:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29315",
+    "throughTripId": "WD_OUT_JO-19_2015_29304",
     "throughLineId": "yokosuka"
   },
   {
@@ -19478,7 +21515,7 @@
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "19:07:00",
+        "arrivalTime": "19:25:00",
         "departureTime": "19:26:00",
         "isPassing": false
       },
@@ -19538,7 +21575,7 @@
       }
     ],
     "trainId": "41443",
-    "prevTripId": "WD_INB_JO-01_1740_41478",
+    "prevTripId": "WD_INB_JO-01_1800_41443",
     "prevLineId": "yokosuka"
   },
   {
@@ -19852,6 +21889,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4009M",
     "trainType": "limitedExp",
+    "trainName": "しおさい9号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -20376,6 +22414,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2053M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス53号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -20448,6 +22487,83 @@
     "trainId": "29337",
     "prevTripId": "WD_INB_JO-09_1910_29337",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_OUT_JO-19_2003_31123",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2253M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス53号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "20:00:00",
+        "departureTime": "20:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "20:04:21",
+        "departureTime": "20:04:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "20:05:42",
+        "departureTime": "20:05:42",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "20:08:06",
+        "departureTime": "20:08:06",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "20:11:53",
+        "departureTime": "20:11:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "20:15:50",
+        "departureTime": "20:15:50",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "20:22:09",
+        "departureTime": "20:22:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "20:24:57",
+        "departureTime": "20:24:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "20:32:22",
+        "departureTime": "20:32:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "20:35:00",
+        "departureTime": "20:35:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31123"
   },
   {
     "tripId": "WD_OUT_JO-19_2005_5053",
@@ -20838,6 +22954,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2050M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス50号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -20910,6 +23027,83 @@
     "trainId": "29288",
     "throughTripId": "WD_OUT_JO-19_2053_29288",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_2022_29316",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2250M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス50号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "20:21:00",
+        "departureTime": "20:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "20:24:23",
+        "departureTime": "20:24:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "20:31:06",
+        "departureTime": "20:31:06",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "20:33:39",
+        "departureTime": "20:33:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "20:39:23",
+        "departureTime": "20:39:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "20:42:57",
+        "departureTime": "20:42:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "20:46:23",
+        "departureTime": "20:46:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "20:48:33",
+        "departureTime": "20:48:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "20:49:46",
+        "departureTime": "20:49:46",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "20:51:00",
+        "departureTime": "20:56:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29316"
   },
   {
     "tripId": "WD_INB_JO-28_2024_42193",
@@ -21072,6 +23266,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "5050M",
     "trainType": "limitedExp",
+    "trainName": "あずさ50号",
     "direction": "outbound",
     "originStationId": "JO-22",
     "destinationStationId": "JO-28",
@@ -21435,6 +23630,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4011M",
     "trainType": "limitedExp",
+    "trainName": "しおさい11号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -22049,6 +24245,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2052M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス52号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -22121,6 +24318,83 @@
     "trainId": "29289",
     "throughTripId": "WD_OUT_JO-19_2145_29289",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "WD_INB_JO-28_2114_29317",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2252M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス52号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "21:13:00",
+        "departureTime": "21:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "21:16:23",
+        "departureTime": "21:16:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "21:23:06",
+        "departureTime": "21:23:06",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "21:25:39",
+        "departureTime": "21:25:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "21:31:23",
+        "departureTime": "21:31:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "21:34:57",
+        "departureTime": "21:34:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "21:38:23",
+        "departureTime": "21:38:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "21:40:33",
+        "departureTime": "21:40:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "21:41:46",
+        "departureTime": "21:41:46",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "21:43:00",
+        "departureTime": "21:48:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29317"
   },
   {
     "tripId": "WD_INB_JO-28_2116_42236",
@@ -22744,6 +25018,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4013M",
     "trainType": "limitedExp",
+    "trainName": "しおさい13号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -25751,6 +28026,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2001M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス1号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -25823,6 +28099,83 @@
     "trainId": "29322",
     "prevTripId": "HD_INB_JO-09_0528_29322",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_0618_31108",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2201M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス1号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "06:16:00",
+        "departureTime": "06:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "06:19:03",
+        "departureTime": "06:19:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "06:20:07",
+        "departureTime": "06:20:07",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "06:21:59",
+        "departureTime": "06:21:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "06:24:57",
+        "departureTime": "06:24:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "06:28:01",
+        "departureTime": "06:28:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "06:32:57",
+        "departureTime": "06:32:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "06:35:09",
+        "departureTime": "06:35:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "06:40:57",
+        "departureTime": "06:40:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "06:43:00",
+        "departureTime": "06:44:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31108"
   },
   {
     "tripId": "HD_INB_JO-28_0624_5239",
@@ -26059,6 +28412,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "5003M",
     "trainType": "limitedExp",
+    "trainName": "あずさ3号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-22",
@@ -26110,6 +28464,64 @@
       }
     ],
     "trainId": "39552"
+  },
+  {
+    "tripId": "HD_INB_JO-28_0638_39554",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2103M",
+    "trainType": "limitedExp",
+    "trainName": "富士回遊3号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-22",
+    "customDestination": "河口湖",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "06:38:00",
+        "departureTime": "06:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "06:40:52",
+        "departureTime": "06:40:52",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "06:48:56",
+        "departureTime": "06:48:56",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "06:52:00",
+        "departureTime": "06:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "06:58:51",
+        "departureTime": "06:58:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "07:02:30",
+        "departureTime": "07:02:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "07:06:00",
+        "departureTime": "07:07:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "39554"
   },
   {
     "tripId": "HD_INB_JO-28_0642_42916",
@@ -26425,6 +28837,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2003M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス3号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -26497,6 +28910,83 @@
     "trainId": "29323",
     "prevTripId": "HD_INB_JO-09_0606_29323",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_0700_31109",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2203M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス3号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "06:58:00",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "07:01:06",
+        "departureTime": "07:01:06",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "07:02:12",
+        "departureTime": "07:02:12",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "07:04:09",
+        "departureTime": "07:04:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "07:07:13",
+        "departureTime": "07:07:13",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "07:10:25",
+        "departureTime": "07:10:25",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "07:15:33",
+        "departureTime": "07:15:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "07:17:50",
+        "departureTime": "07:17:50",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "07:23:52",
+        "departureTime": "07:23:52",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "07:26:00",
+        "departureTime": "07:26:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31109"
   },
   {
     "tripId": "HD_INB_JO-28_0702_5388",
@@ -27249,6 +29739,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2005M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス5号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -27321,6 +29812,83 @@
     "trainId": "29324",
     "prevTripId": "HD_INB_JO-09_0638_29324",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_0731_31110",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2205M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス5号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "07:29:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "07:32:09",
+        "departureTime": "07:32:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "07:33:17",
+        "departureTime": "07:33:17",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "07:35:18",
+        "departureTime": "07:35:18",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "07:38:30",
+        "departureTime": "07:38:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "07:41:49",
+        "departureTime": "07:41:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "07:47:09",
+        "departureTime": "07:47:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "07:49:31",
+        "departureTime": "07:49:31",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "07:55:47",
+        "departureTime": "07:55:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "07:58:00",
+        "departureTime": "07:58:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31110"
   },
   {
     "tripId": "HD_OUT_JO-19_0734_5087",
@@ -27479,6 +30047,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4001M",
     "trainType": "limitedExp",
+    "trainName": "しおさい1号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -27554,6 +30123,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "9051M",
     "trainType": "limitedExp",
+    "trainName": "新宿わかしお1号",
     "direction": "outbound",
     "originStationId": "JO-22",
     "destinationStationId": "JO-28",
@@ -27924,6 +30494,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2007M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス7号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -27996,6 +30567,83 @@
     "trainId": "29325",
     "prevTripId": "HD_INB_JO-09_0700_29325",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_0756_31111",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2207M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス7号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "07:52:00",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "07:57:24",
+        "departureTime": "07:57:24",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "07:58:47",
+        "departureTime": "07:58:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "08:01:15",
+        "departureTime": "08:01:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "08:05:10",
+        "departureTime": "08:05:10",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "08:09:14",
+        "departureTime": "08:09:14",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "08:15:44",
+        "departureTime": "08:15:44",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "08:18:38",
+        "departureTime": "08:18:38",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "08:26:17",
+        "departureTime": "08:26:17",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "08:29:00",
+        "departureTime": "08:30:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31111"
   },
   {
     "tripId": "HD_INB_JO-28_0756_5392",
@@ -28382,6 +31030,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "9041M",
     "trainType": "limitedExp",
+    "trainName": "新宿さざなみ1号",
     "direction": "outbound",
     "originStationId": "JO-22",
     "destinationStationId": "JO-28",
@@ -28518,6 +31167,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2002M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス2号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -28589,6 +31239,85 @@
     ],
     "trainId": "29290",
     "throughTripId": "HD_OUT_JO-19_0854_29290",
+    "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_0814_29320",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2202M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス2号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "08:13:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "08:17:08",
+        "departureTime": "08:17:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "08:25:56",
+        "departureTime": "08:25:56",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "08:29:16",
+        "departureTime": "08:29:16",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "08:36:46",
+        "departureTime": "08:36:46",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "08:41:27",
+        "departureTime": "08:41:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "08:45:57",
+        "departureTime": "08:45:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "08:48:47",
+        "departureTime": "08:48:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "08:50:24",
+        "departureTime": "08:50:24",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "08:52:00",
+        "departureTime": "09:22:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29320",
+    "throughTripId": "HD_OUT_JO-19_0922_29318",
     "throughLineId": "yokosuka"
   },
   {
@@ -29340,6 +32069,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2004M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス4号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -29409,9 +32139,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "29318",
-    "throughTripId": "HD_OUT_JO-19_0922_29318",
-    "throughLineId": "yokosuka"
+    "trainId": "29318"
   },
   {
     "tripId": "HD_OUT_JO-19_0855_5034",
@@ -29571,6 +32299,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2011M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス11号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -29727,6 +32456,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4008M",
     "trainType": "limitedExp",
+    "trainName": "しおさい8号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -30254,6 +32984,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2006M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス6号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -30325,6 +33056,85 @@
     ],
     "trainId": "29291",
     "throughTripId": "HD_OUT_JO-19_0956_29291",
+    "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_0929_29321",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2206M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス6号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "09:28:00",
+        "departureTime": "09:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "09:31:03",
+        "departureTime": "09:31:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "09:36:51",
+        "departureTime": "09:36:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "09:39:03",
+        "departureTime": "09:39:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "09:43:59",
+        "departureTime": "09:43:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "09:47:03",
+        "departureTime": "09:47:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "09:50:01",
+        "departureTime": "09:50:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "09:51:53",
+        "departureTime": "09:51:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "09:52:57",
+        "departureTime": "09:52:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "09:54:00",
+        "departureTime": "10:19:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29321",
+    "throughTripId": "HD_OUT_JO-19_1019_29295",
     "throughLineId": "yokosuka"
   },
   {
@@ -30863,6 +33673,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2015M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス15号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -30935,6 +33746,83 @@
     "trainId": "29327",
     "prevTripId": "HD_INB_JO-09_0910_29327",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_1003_31112",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2215M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス15号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "10:00:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "10:04:01",
+        "departureTime": "10:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "10:05:02",
+        "departureTime": "10:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "10:06:49",
+        "departureTime": "10:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "10:09:40",
+        "departureTime": "10:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "10:12:37",
+        "departureTime": "10:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "10:17:21",
+        "departureTime": "10:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "10:19:28",
+        "departureTime": "10:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "10:25:02",
+        "departureTime": "10:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "10:27:00",
+        "departureTime": "10:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31112"
   },
   {
     "tripId": "HD_OUT_JO-19_1005_41025",
@@ -31097,6 +33985,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4003M",
     "trainType": "limitedExp",
+    "trainName": "しおさい3号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -31386,6 +34275,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2010M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス10号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -31458,6 +34348,83 @@
     "trainId": "29278",
     "throughTripId": "HD_OUT_JO-19_1047_29278",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_1019_29307",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2210M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス10号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "10:19:00",
+        "departureTime": "10:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "10:21:08",
+        "departureTime": "10:21:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "10:27:10",
+        "departureTime": "10:27:10",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "10:29:27",
+        "departureTime": "10:29:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "10:34:35",
+        "departureTime": "10:34:35",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "10:37:47",
+        "departureTime": "10:37:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "10:40:51",
+        "departureTime": "10:40:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "10:42:48",
+        "departureTime": "10:42:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "10:43:54",
+        "departureTime": "10:43:54",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "10:45:00",
+        "departureTime": "10:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29307"
   },
   {
     "tripId": "HD_OUT_JO-19_1020_41026",
@@ -32160,6 +35127,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2019M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス19号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -32232,6 +35200,83 @@
     "trainId": "29328",
     "prevTripId": "HD_INB_JO-09_1010_29328",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_1103_31114",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2219M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス19号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "11:00:00",
+        "departureTime": "11:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "11:04:01",
+        "departureTime": "11:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "11:05:02",
+        "departureTime": "11:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "11:06:49",
+        "departureTime": "11:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "11:09:40",
+        "departureTime": "11:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "11:12:37",
+        "departureTime": "11:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "11:17:21",
+        "departureTime": "11:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "11:19:28",
+        "departureTime": "11:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "11:25:02",
+        "departureTime": "11:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "11:27:00",
+        "departureTime": "11:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31114"
   },
   {
     "tripId": "HD_OUT_JO-19_1105_5106",
@@ -32531,6 +35576,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2014M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス14号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -32603,6 +35649,83 @@
     "trainId": "29279",
     "throughTripId": "HD_OUT_JO-19_1146_29279",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_1119_29308",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2214M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス14号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "11:18:00",
+        "departureTime": "11:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "11:21:03",
+        "departureTime": "11:21:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "11:26:51",
+        "departureTime": "11:26:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "11:29:03",
+        "departureTime": "11:29:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "11:33:59",
+        "departureTime": "11:33:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "11:37:03",
+        "departureTime": "11:37:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "11:40:01",
+        "departureTime": "11:40:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "11:41:53",
+        "departureTime": "11:41:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "11:42:57",
+        "departureTime": "11:42:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "11:44:00",
+        "departureTime": "11:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29308"
   },
   {
     "tripId": "HD_OUT_JO-19_1125_41029",
@@ -32765,6 +35888,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4010M",
     "trainType": "limitedExp",
+    "trainName": "しおさい10号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -32829,11 +35953,14 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "12:07:00",
-        "departureTime": "12:07:00",
+        "departureTime": "12:17:00",
         "isPassing": false
       }
     ],
-    "trainId": "5362"
+    "trainId": "5362",
+    "customDestination": "新宿",
+    "throughTripId": "HD_OUT_JO-19_1217_29297",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1141_42219",
@@ -33223,6 +36350,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2023M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス23号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -33295,6 +36423,83 @@
     "trainId": "29329",
     "prevTripId": "HD_INB_JO-09_1110_29329",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_1203_31115",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2223M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス23号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "12:01:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "12:04:01",
+        "departureTime": "12:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "12:05:02",
+        "departureTime": "12:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "12:06:49",
+        "departureTime": "12:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "12:09:40",
+        "departureTime": "12:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "12:12:37",
+        "departureTime": "12:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "12:17:21",
+        "departureTime": "12:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "12:19:28",
+        "departureTime": "12:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "12:25:02",
+        "departureTime": "12:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "12:27:00",
+        "departureTime": "12:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31115"
   },
   {
     "tripId": "HD_OUT_JO-19_1205_5113",
@@ -33531,6 +36736,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2018M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス18号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -33603,6 +36809,83 @@
     "trainId": "29280",
     "throughTripId": "HD_OUT_JO-19_1246_29280",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_1219_29309",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2218M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス18号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "12:18:00",
+        "departureTime": "12:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "12:21:03",
+        "departureTime": "12:21:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "12:26:51",
+        "departureTime": "12:26:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "12:29:03",
+        "departureTime": "12:29:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "12:33:59",
+        "departureTime": "12:33:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "12:37:03",
+        "departureTime": "12:37:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "12:40:01",
+        "departureTime": "12:40:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "12:41:53",
+        "departureTime": "12:41:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "12:42:57",
+        "departureTime": "12:42:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "12:44:00",
+        "departureTime": "12:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29309"
   },
   {
     "tripId": "HD_OUT_JO-19_1225_41032",
@@ -34151,6 +37434,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2027M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス27号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -34223,6 +37507,83 @@
     "trainId": "29330",
     "prevTripId": "HD_INB_JO-09_1210_29330",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_1303_31116",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2227M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス27号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "13:01:00",
+        "departureTime": "13:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "13:04:01",
+        "departureTime": "13:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "13:05:02",
+        "departureTime": "13:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "13:06:49",
+        "departureTime": "13:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "13:09:40",
+        "departureTime": "13:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "13:12:37",
+        "departureTime": "13:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "13:17:21",
+        "departureTime": "13:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "13:19:28",
+        "departureTime": "13:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "13:25:02",
+        "departureTime": "13:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "13:27:00",
+        "departureTime": "13:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31116"
   },
   {
     "tripId": "HD_OUT_JO-19_1305_5118",
@@ -34459,6 +37820,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2022M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス22号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -34531,6 +37893,83 @@
     "trainId": "29281",
     "throughTripId": "HD_OUT_JO-19_1347_29281",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_1320_29310",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2222M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス22号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "13:19:00",
+        "departureTime": "13:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "13:22:03",
+        "departureTime": "13:22:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "13:27:51",
+        "departureTime": "13:27:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "13:30:03",
+        "departureTime": "13:30:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "13:34:59",
+        "departureTime": "13:34:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "13:38:03",
+        "departureTime": "13:38:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "13:41:01",
+        "departureTime": "13:41:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "13:42:53",
+        "departureTime": "13:42:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "13:43:57",
+        "departureTime": "13:43:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "13:45:00",
+        "departureTime": "13:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29310"
   },
   {
     "tripId": "HD_OUT_JO-19_1325_41036",
@@ -34693,6 +38132,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4012M",
     "trainType": "limitedExp",
+    "trainName": "しおさい12号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -34757,11 +38197,14 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "14:07:00",
-        "departureTime": "14:07:00",
+        "departureTime": "14:17:00",
         "isPassing": false
       }
     ],
-    "trainId": "5363"
+    "trainId": "5363",
+    "customDestination": "新宿",
+    "throughTripId": "HD_OUT_JO-19_1417_29299",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1341_42223",
@@ -35154,6 +38597,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2031M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス31号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -35226,6 +38670,83 @@
     "trainId": "29331",
     "prevTripId": "HD_INB_JO-09_1310_29331",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_1403_31117",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2231M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス31号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "14:01:00",
+        "departureTime": "14:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "14:04:01",
+        "departureTime": "14:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "14:05:02",
+        "departureTime": "14:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "14:06:49",
+        "departureTime": "14:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "14:09:40",
+        "departureTime": "14:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "14:12:37",
+        "departureTime": "14:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "14:17:21",
+        "departureTime": "14:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "14:19:28",
+        "departureTime": "14:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "14:25:02",
+        "departureTime": "14:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "14:27:00",
+        "departureTime": "14:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31117"
   },
   {
     "tripId": "HD_OUT_JO-19_1405_5122",
@@ -35462,6 +38983,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2026M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス26号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -35534,6 +39056,83 @@
     "trainId": "29282",
     "throughTripId": "HD_OUT_JO-19_1447_29282",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_1419_29311",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2226M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス26号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "14:18:00",
+        "departureTime": "14:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "14:21:08",
+        "departureTime": "14:21:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "14:27:10",
+        "departureTime": "14:27:10",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "14:29:27",
+        "departureTime": "14:29:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "14:34:35",
+        "departureTime": "14:34:35",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "14:37:47",
+        "departureTime": "14:37:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "14:40:51",
+        "departureTime": "14:40:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "14:42:48",
+        "departureTime": "14:42:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "14:43:54",
+        "departureTime": "14:43:54",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "14:45:00",
+        "departureTime": "14:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29311"
   },
   {
     "tripId": "HD_OUT_JO-19_1425_41040",
@@ -35696,6 +39295,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4005M",
     "trainType": "limitedExp",
+    "trainName": "しおさい5号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -36219,6 +39819,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2035M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス35号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -36291,6 +39892,83 @@
     "trainId": "29332",
     "prevTripId": "HD_INB_JO-09_1410_29332",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_1503_31118",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2235M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス35号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "15:00:00",
+        "departureTime": "15:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "15:04:01",
+        "departureTime": "15:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "15:05:02",
+        "departureTime": "15:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "15:06:49",
+        "departureTime": "15:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "15:09:40",
+        "departureTime": "15:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "15:12:37",
+        "departureTime": "15:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "15:17:21",
+        "departureTime": "15:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "15:19:28",
+        "departureTime": "15:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "15:25:02",
+        "departureTime": "15:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "15:27:00",
+        "departureTime": "15:27:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31118"
   },
   {
     "tripId": "HD_OUT_JO-19_1505_5126",
@@ -36527,6 +40205,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2030M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス30号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -36599,6 +40278,83 @@
     "trainId": "29283",
     "throughTripId": "HD_OUT_JO-19_1547_29283",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_1520_29312",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2230M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス30号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "15:19:00",
+        "departureTime": "15:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "15:22:03",
+        "departureTime": "15:22:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "15:27:51",
+        "departureTime": "15:27:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "15:30:03",
+        "departureTime": "15:30:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "15:34:59",
+        "departureTime": "15:34:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "15:38:03",
+        "departureTime": "15:38:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "15:41:01",
+        "departureTime": "15:41:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "15:42:53",
+        "departureTime": "15:42:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "15:43:57",
+        "departureTime": "15:43:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "15:45:00",
+        "departureTime": "15:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29312"
   },
   {
     "tripId": "HD_OUT_JO-19_1525_41042",
@@ -37225,6 +40981,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2039M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス39号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -37297,6 +41054,83 @@
     "trainId": "29333",
     "prevTripId": "HD_INB_JO-09_1510_29333",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_1603_31119",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2239M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス39号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "16:00:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "16:04:01",
+        "departureTime": "16:04:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "16:05:02",
+        "departureTime": "16:05:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "16:06:49",
+        "departureTime": "16:06:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "16:09:40",
+        "departureTime": "16:09:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "16:12:37",
+        "departureTime": "16:12:37",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "16:17:21",
+        "departureTime": "16:17:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "16:19:28",
+        "departureTime": "16:19:28",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "16:25:02",
+        "departureTime": "16:25:02",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "16:27:00",
+        "departureTime": "16:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31119"
   },
   {
     "tripId": "HD_OUT_JO-19_1607_4946",
@@ -37596,6 +41430,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2034M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス34号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -37668,6 +41503,83 @@
     "trainId": "29284",
     "throughTripId": "HD_OUT_JO-19_1647_29284",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_1619_29313",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2234M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス34号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "16:21:08",
+        "departureTime": "16:21:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "16:27:10",
+        "departureTime": "16:27:10",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "16:29:27",
+        "departureTime": "16:29:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "16:34:35",
+        "departureTime": "16:34:35",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "16:37:47",
+        "departureTime": "16:37:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "16:40:51",
+        "departureTime": "16:40:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "16:42:48",
+        "departureTime": "16:42:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "16:43:54",
+        "departureTime": "16:43:54",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:50:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29313"
   },
   {
     "tripId": "HD_INB_JO-28_1623_41402",
@@ -37973,14 +41885,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "新宿",
+    "customOrigin": "逗子",
     "customDestination": "成田空港(鉄道)",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "16:31:00",
+        "arrivalTime": "16:36:00",
         "departureTime": "16:37:00",
         "isPassing": false
       },
@@ -38040,7 +41952,8 @@
       }
     ],
     "trainId": "41458",
-    "prevTripId": "HD_INB_JO-17_1624_31139",
+    "trainName": "成田エクスプレス41号",
+    "prevTripId": "HD_INB_JO-06_1538_41458",
     "prevLineId": "yokosuka"
   },
   {
@@ -38354,6 +42267,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2043M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス43号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -38426,6 +42340,83 @@
     "trainId": "29334",
     "prevTripId": "HD_INB_JO-09_1610_29334",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_1703_31120",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2243M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス43号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "17:00:00",
+        "departureTime": "17:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "17:04:03",
+        "departureTime": "17:04:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "17:05:07",
+        "departureTime": "17:05:07",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "17:06:59",
+        "departureTime": "17:06:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "17:09:57",
+        "departureTime": "17:09:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "17:13:01",
+        "departureTime": "17:13:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "17:17:57",
+        "departureTime": "17:17:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "17:20:09",
+        "departureTime": "17:20:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "17:25:57",
+        "departureTime": "17:25:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "17:28:00",
+        "departureTime": "17:28:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31120"
   },
   {
     "tripId": "HD_OUT_JO-19_1705_4949",
@@ -38501,9 +42492,7 @@
       }
     ],
     "trainId": "4949",
-    "customOrigin": "逗子",
-    "prevTripId": "HD_INB_JO-06_1538_41458",
-    "prevLineId": "yokosuka"
+    "customOrigin": "逗子"
   },
   {
     "tripId": "HD_INB_JO-28_1709_42923",
@@ -38794,6 +42783,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2038M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス38号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -38866,6 +42856,83 @@
     "trainId": "29285",
     "throughTripId": "HD_OUT_JO-19_1747_29285",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_1719_29314",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2238M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス38号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "17:18:00",
+        "departureTime": "17:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "17:21:08",
+        "departureTime": "17:21:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "17:27:10",
+        "departureTime": "17:27:10",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "17:29:27",
+        "departureTime": "17:29:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "17:34:35",
+        "departureTime": "17:34:35",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "17:37:47",
+        "departureTime": "17:37:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "17:40:51",
+        "departureTime": "17:40:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "17:42:48",
+        "departureTime": "17:42:48",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "17:43:54",
+        "departureTime": "17:43:54",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "17:45:00",
+        "departureTime": "17:49:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29314"
   },
   {
     "tripId": "HD_INB_JO-28_1722_42233",
@@ -38950,6 +43017,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "9048M",
     "trainType": "limitedExp",
+    "trainName": "新宿さざなみ4号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-22",
@@ -39152,6 +43220,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2045M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス45号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -39383,6 +43452,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "9058M",
     "trainType": "limitedExp",
+    "trainName": "新宿わかしお2号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-22",
@@ -39893,6 +43963,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2047M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス47号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -39965,6 +44036,83 @@
     "trainId": "29335",
     "prevTripId": "HD_INB_JO-09_1710_29335",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_1803_31121",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2247M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス47号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "18:00:00",
+        "departureTime": "18:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "18:04:03",
+        "departureTime": "18:04:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "18:05:07",
+        "departureTime": "18:05:07",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "18:06:59",
+        "departureTime": "18:06:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "18:09:57",
+        "departureTime": "18:09:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "18:13:01",
+        "departureTime": "18:13:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "18:17:57",
+        "departureTime": "18:17:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "18:20:09",
+        "departureTime": "18:20:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "18:25:57",
+        "departureTime": "18:25:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "18:28:00",
+        "departureTime": "18:29:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31121"
   },
   {
     "tripId": "HD_OUT_JO-19_1805_4952",
@@ -40202,6 +44350,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2042M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス42号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -40507,6 +44656,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2049M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス49号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -40960,6 +45110,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4007M",
     "trainType": "limitedExp",
+    "trainName": "しおさい7号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -41191,6 +45342,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "4014M",
     "trainType": "limitedExp",
+    "trainName": "しおさい14号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -41266,6 +45418,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2051M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス51号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -41338,6 +45491,83 @@
     "trainId": "29336",
     "prevTripId": "HD_INB_JO-09_1810_29336",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_1903_31122",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2251M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス51号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "19:00:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "19:04:09",
+        "departureTime": "19:04:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "19:05:17",
+        "departureTime": "19:05:17",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "19:07:18",
+        "departureTime": "19:07:18",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "19:10:30",
+        "departureTime": "19:10:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "19:13:49",
+        "departureTime": "19:13:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "19:19:09",
+        "departureTime": "19:19:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "19:21:31",
+        "departureTime": "19:21:31",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "19:27:47",
+        "departureTime": "19:27:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "19:30:00",
+        "departureTime": "19:31:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31122"
   },
   {
     "tripId": "HD_INB_JO-28_1903_41408",
@@ -41646,6 +45876,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2046M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス46号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -41717,6 +45948,85 @@
     ],
     "trainId": "29287",
     "throughTripId": "HD_OUT_JO-19_1947_29287",
+    "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_1920_29315",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2246M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス46号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "19:19:00",
+        "departureTime": "19:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "19:22:03",
+        "departureTime": "19:22:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "19:27:51",
+        "departureTime": "19:27:51",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "19:30:03",
+        "departureTime": "19:30:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "19:34:59",
+        "departureTime": "19:34:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "19:38:03",
+        "departureTime": "19:38:03",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "19:41:01",
+        "departureTime": "19:41:01",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "19:42:53",
+        "departureTime": "19:42:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "19:43:57",
+        "departureTime": "19:43:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "19:45:00",
+        "departureTime": "20:15:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29315",
+    "throughTripId": "HD_OUT_JO-19_2015_29304",
     "throughLineId": "yokosuka"
   },
   {
@@ -42408,6 +46718,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2053M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス53号",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -42480,6 +46791,83 @@
     "trainId": "29337",
     "prevTripId": "HD_INB_JO-09_1910_29337",
     "prevLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_OUT_JO-19_2003_31123",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2253M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス53号",
+    "direction": "outbound",
+    "originStationId": "JO-19",
+    "destinationStationId": "JO-28",
+    "customOrigin": "新宿",
+    "customDestination": "成田空港(鉄道)",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "20:00:00",
+        "departureTime": "20:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "20:04:21",
+        "departureTime": "20:04:21",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "20:05:42",
+        "departureTime": "20:05:42",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "20:08:06",
+        "departureTime": "20:08:06",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "20:11:53",
+        "departureTime": "20:11:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "20:15:50",
+        "departureTime": "20:15:50",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "20:22:09",
+        "departureTime": "20:22:09",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "20:24:57",
+        "departureTime": "20:24:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "20:32:22",
+        "departureTime": "20:32:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "20:35:00",
+        "departureTime": "20:35:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "31123"
   },
   {
     "tripId": "HD_OUT_JO-19_2005_5149",
@@ -42872,6 +47260,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2050M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス50号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -42944,6 +47333,83 @@
     "trainId": "29288",
     "throughTripId": "HD_OUT_JO-19_2053_29288",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_2022_29316",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2250M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス50号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "20:21:00",
+        "departureTime": "20:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "20:24:23",
+        "departureTime": "20:24:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "20:31:06",
+        "departureTime": "20:31:06",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "20:33:39",
+        "departureTime": "20:33:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "20:39:23",
+        "departureTime": "20:39:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "20:42:57",
+        "departureTime": "20:42:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "20:46:23",
+        "departureTime": "20:46:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "20:48:33",
+        "departureTime": "20:48:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "20:49:46",
+        "departureTime": "20:49:46",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "20:51:00",
+        "departureTime": "20:56:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29316"
   },
   {
     "tripId": "HD_INB_JO-28_2025_42204",
@@ -43028,6 +47494,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "5050M",
     "trainType": "limitedExp",
+    "trainName": "あずさ50号",
     "direction": "outbound",
     "originStationId": "JO-22",
     "destinationStationId": "JO-28",
@@ -43784,6 +48251,7 @@
     "lineId": "sobu_rapid",
     "trainNumber": "2052M",
     "trainType": "limitedExp",
+    "trainName": "成田エクスプレス52号",
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
@@ -43856,6 +48324,83 @@
     "trainId": "29289",
     "throughTripId": "HD_OUT_JO-19_2145_29289",
     "throughLineId": "yokosuka"
+  },
+  {
+    "tripId": "HD_INB_JO-28_2114_29317",
+    "lineId": "sobu_rapid",
+    "trainNumber": "2252M",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス52号",
+    "direction": "inbound",
+    "originStationId": "JO-28",
+    "destinationStationId": "JO-19",
+    "customOrigin": "成田空港(鉄道)",
+    "customDestination": "新宿",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JO-28",
+        "arrivalTime": "21:13:00",
+        "departureTime": "21:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-27",
+        "arrivalTime": "21:16:23",
+        "departureTime": "21:16:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-26",
+        "arrivalTime": "21:23:06",
+        "departureTime": "21:23:06",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-25",
+        "arrivalTime": "21:25:39",
+        "departureTime": "21:25:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-24",
+        "arrivalTime": "21:31:23",
+        "departureTime": "21:31:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-23",
+        "arrivalTime": "21:34:57",
+        "departureTime": "21:34:57",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-22",
+        "arrivalTime": "21:38:23",
+        "departureTime": "21:38:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-21",
+        "arrivalTime": "21:40:33",
+        "departureTime": "21:40:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-20",
+        "arrivalTime": "21:41:46",
+        "departureTime": "21:41:46",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-19",
+        "arrivalTime": "21:43:00",
+        "departureTime": "21:48:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "29317"
   },
   {
     "tripId": "HD_INB_JO-28_2116_42235",

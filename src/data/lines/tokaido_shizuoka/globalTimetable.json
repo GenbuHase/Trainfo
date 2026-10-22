@@ -122,6 +122,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "5032M",
     "trainType": "limitedExp",
+    "trainName": "寝台特急 サンライズ瀬戸",
     "direction": "inbound",
     "originStationId": "CA-03",
     "destinationStationId": "CA-00",
@@ -1910,6 +1911,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "4021M",
     "trainType": "limitedExp",
+    "trainName": "踊り子1号",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-02",
@@ -1938,7 +1940,7 @@
       }
     ],
     "trainId": "41930",
-    "prevTripId": "WD_OUT_JT-01_0900_41961",
+    "prevTripId": "WD_OUT_JT-01_0900_41930",
     "prevLineId": "tokaido",
     "throughTripId": "WD_OUT_IS-01_1040_41961",
     "throughLineId": "izuhakone_sunzu"
@@ -2795,6 +2797,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "4024M",
     "trainType": "limitedExp",
+    "trainName": "踊り子4号",
     "direction": "inbound",
     "originStationId": "CA-02",
     "destinationStationId": "CA-00",
@@ -2823,6 +2826,8 @@
       }
     ],
     "trainId": "41933",
+    "throughTripId": "WD_INB_JT-21_1332_41933",
+    "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IS-13_1235_41964",
     "prevLineId": "izuhakone_sunzu"
   },
@@ -2948,6 +2953,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "4029M",
     "trainType": "limitedExp",
+    "trainName": "踊り子9号",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-02",
@@ -2976,7 +2982,7 @@
       }
     ],
     "trainId": "41932",
-    "prevTripId": "WD_OUT_JT-01_1200_41963",
+    "prevTripId": "WD_OUT_JT-01_1200_41932",
     "prevLineId": "tokaido",
     "throughTripId": "WD_OUT_IS-01_1340_41963",
     "throughLineId": "izuhakone_sunzu"
@@ -3834,6 +3840,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "4030M",
     "trainType": "limitedExp",
+    "trainName": "踊り子10号",
     "direction": "inbound",
     "originStationId": "CA-02",
     "destinationStationId": "CA-00",
@@ -3862,6 +3869,8 @@
       }
     ],
     "trainId": "41935",
+    "throughTripId": "WD_INB_JT-21_1629_41935",
+    "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IS-13_1539_41966",
     "prevLineId": "izuhakone_sunzu"
   },
@@ -6041,6 +6050,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "5031M",
     "trainType": "limitedExp",
+    "trainName": "寝台特急 サンライズ出雲",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
@@ -6076,6 +6086,92 @@
     ],
     "trainId": "37351",
     "prevTripId": "WD_OUT_JT-01_2126_37351",
+    "prevLineId": "tokaido"
+  },
+  {
+    "tripId": "WD_OUT_CA-00_2257_37872",
+    "lineId": "tokaido_shizuoka",
+    "trainNumber": "5031M",
+    "trainType": "limitedExp",
+    "trainName": "寝台特急 サンライズ瀬戸",
+    "direction": "outbound",
+    "originStationId": "CA-00",
+    "destinationStationId": "CA-03",
+    "customOrigin": "東京",
+    "customDestination": "高松(香川県)",
+    "cars": 3,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CA-00",
+        "arrivalTime": "22:55:00",
+        "departureTime": "22:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CA-01",
+        "arrivalTime": "22:59:44",
+        "departureTime": "22:59:44",
+        "isPassing": true
+      },
+      {
+        "stationId": "CA-02",
+        "arrivalTime": "23:09:33",
+        "departureTime": "23:09:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "CA-03",
+        "arrivalTime": "23:15:00",
+        "departureTime": "23:16:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "37872",
+    "prevTripId": "WD_OUT_JT-01_2126_37872",
+    "prevLineId": "tokaido"
+  },
+  {
+    "tripId": "WD_OUT_CA-00_2257_37873",
+    "lineId": "tokaido_shizuoka",
+    "trainNumber": "5031M",
+    "trainType": "limitedExp",
+    "trainName": "寝台特急 サンライズ瀬戸",
+    "direction": "outbound",
+    "originStationId": "CA-00",
+    "destinationStationId": "CA-03",
+    "customOrigin": "東京",
+    "customDestination": "琴平",
+    "cars": 3,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "CA-00",
+        "arrivalTime": "22:55:00",
+        "departureTime": "22:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CA-01",
+        "arrivalTime": "22:59:44",
+        "departureTime": "22:59:44",
+        "isPassing": true
+      },
+      {
+        "stationId": "CA-02",
+        "arrivalTime": "23:09:33",
+        "departureTime": "23:09:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "CA-03",
+        "arrivalTime": "23:15:00",
+        "departureTime": "23:16:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "37873",
+    "prevTripId": "WD_OUT_JT-01_2126_37873",
     "prevLineId": "tokaido"
   },
   {
@@ -6350,6 +6446,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "5032M",
     "trainType": "limitedExp",
+    "trainName": "寝台特急 サンライズ瀬戸",
     "direction": "inbound",
     "originStationId": "CA-03",
     "destinationStationId": "CA-00",
@@ -8138,6 +8235,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "4021M",
     "trainType": "limitedExp",
+    "trainName": "踊り子1号",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-02",
@@ -8166,7 +8264,7 @@
       }
     ],
     "trainId": "41930",
-    "prevTripId": "HD_OUT_JT-01_0900_41961",
+    "prevTripId": "HD_OUT_JT-01_0900_41930",
     "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IS-01_1040_41961",
     "throughLineId": "izuhakone_sunzu"
@@ -8658,6 +8756,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "8077M",
     "trainType": "limitedExp",
+    "trainName": "踊り子7号",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-02",
@@ -8686,7 +8785,7 @@
       }
     ],
     "trainId": "41931",
-    "prevTripId": "HD_OUT_JT-01_1030_41962",
+    "prevTripId": "HD_OUT_JT-01_1030_41931",
     "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IS-01_1211_41962",
     "throughLineId": "izuhakone_sunzu"
@@ -9061,6 +9160,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "4024M",
     "trainType": "limitedExp",
+    "trainName": "踊り子4号",
     "direction": "inbound",
     "originStationId": "CA-02",
     "destinationStationId": "CA-00",
@@ -9089,6 +9189,8 @@
       }
     ],
     "trainId": "41933",
+    "throughTripId": "HD_INB_JT-21_1332_41933",
+    "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IS-13_1235_41964",
     "prevLineId": "izuhakone_sunzu"
   },
@@ -9214,6 +9316,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "4029M",
     "trainType": "limitedExp",
+    "trainName": "踊り子9号",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-02",
@@ -9242,7 +9345,7 @@
       }
     ],
     "trainId": "41932",
-    "prevTripId": "HD_OUT_JT-01_1200_41963",
+    "prevTripId": "HD_OUT_JT-01_1200_41932",
     "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IS-01_1340_41963",
     "throughLineId": "izuhakone_sunzu"
@@ -9657,6 +9760,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "8078M",
     "trainType": "limitedExp",
+    "trainName": "踊り子8号",
     "direction": "inbound",
     "originStationId": "CA-02",
     "destinationStationId": "CA-00",
@@ -9685,6 +9789,8 @@
       }
     ],
     "trainId": "41934",
+    "throughTripId": "HD_INB_JT-21_1508_41934",
+    "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IS-13_1418_41965",
     "prevLineId": "izuhakone_sunzu"
   },
@@ -10136,6 +10242,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "4030M",
     "trainType": "limitedExp",
+    "trainName": "踊り子10号",
     "direction": "inbound",
     "originStationId": "CA-02",
     "destinationStationId": "CA-00",
@@ -10164,6 +10271,8 @@
       }
     ],
     "trainId": "41935",
+    "throughTripId": "HD_INB_JT-21_1629_41935",
+    "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IS-13_1539_41966",
     "prevLineId": "izuhakone_sunzu"
   },
@@ -12343,6 +12452,7 @@
     "lineId": "tokaido_shizuoka",
     "trainNumber": "5031M",
     "trainType": "limitedExp",
+    "trainName": "寝台特急 サンライズ出雲",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
@@ -12378,6 +12488,92 @@
     ],
     "trainId": "37351",
     "prevTripId": "HD_OUT_JT-01_2126_37351",
+    "prevLineId": "tokaido"
+  },
+  {
+    "tripId": "HD_OUT_CA-00_2257_37872",
+    "lineId": "tokaido_shizuoka",
+    "trainNumber": "5031M",
+    "trainType": "limitedExp",
+    "trainName": "寝台特急 サンライズ瀬戸",
+    "direction": "outbound",
+    "originStationId": "CA-00",
+    "destinationStationId": "CA-03",
+    "customOrigin": "東京",
+    "customDestination": "高松(香川県)",
+    "cars": 3,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CA-00",
+        "arrivalTime": "22:55:00",
+        "departureTime": "22:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CA-01",
+        "arrivalTime": "22:59:44",
+        "departureTime": "22:59:44",
+        "isPassing": true
+      },
+      {
+        "stationId": "CA-02",
+        "arrivalTime": "23:09:33",
+        "departureTime": "23:09:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "CA-03",
+        "arrivalTime": "23:15:00",
+        "departureTime": "23:16:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "37872",
+    "prevTripId": "HD_OUT_JT-01_2126_37872",
+    "prevLineId": "tokaido"
+  },
+  {
+    "tripId": "HD_OUT_CA-00_2257_37873",
+    "lineId": "tokaido_shizuoka",
+    "trainNumber": "5031M",
+    "trainType": "limitedExp",
+    "trainName": "寝台特急 サンライズ瀬戸",
+    "direction": "outbound",
+    "originStationId": "CA-00",
+    "destinationStationId": "CA-03",
+    "customOrigin": "東京",
+    "customDestination": "琴平",
+    "cars": 3,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "CA-00",
+        "arrivalTime": "22:55:00",
+        "departureTime": "22:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "CA-01",
+        "arrivalTime": "22:59:44",
+        "departureTime": "22:59:44",
+        "isPassing": true
+      },
+      {
+        "stationId": "CA-02",
+        "arrivalTime": "23:09:33",
+        "departureTime": "23:09:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "CA-03",
+        "arrivalTime": "23:15:00",
+        "departureTime": "23:16:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "37873",
+    "prevTripId": "HD_OUT_JT-01_2126_37873",
     "prevLineId": "tokaido"
   },
   {

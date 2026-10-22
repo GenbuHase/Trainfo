@@ -82,13 +82,14 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
 
   // CSVダウンロード
   const handleDownloadCsv = () => {
-    let csv = `時,分,種別,行先,列車番号\n`;
+    let csv = `時,分,種別,列車名,行先,列車番号\n`;
     for (const row of fullDayData) {
       const departures = direction === 'inbound' ? row.inbound : row.outbound;
       for (const dep of departures) {
         const typeName = trainTypesMap[dep.type]?.name || dep.type;
         const csvHour = row.hour >= 24 ? String(row.hour - 24) : String(row.hour);
-        csv += `${csvHour},${dep.time},${typeName},${dep.destination},${formatTrainNumber(dep.trainNumber, dep.tripId)}\n`;
+        const trainName = dep.trainName || '';
+        csv += `${csvHour},${dep.time},${typeName},${trainName},${dep.destination},${formatTrainNumber(dep.trainNumber, dep.tripId)}\n`;
       }
     }
     const blob = new Blob([new Uint8Array([0xef, 0xbb, 0xbf]), csv], { type: 'text/csv;charset=utf-8;' });
@@ -230,39 +231,60 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
                 if ((row.hour < 4 || row.hour >= 26) && departures.length === 0) return null;
 
                 return (
-                  <div key={row.hour} className="flex items-start hover:bg-slate-50/80 transition-colors">
+                  <div key={row.hour} className="flex hover:bg-slate-50/80 transition-colors">
                     {/* 時間ヘッダー (左カラム) */}
-                    <div className="w-14 sm:w-16 py-3 px-2 text-center bg-slate-100 font-black text-slate-800 text-base font-mono border-r border-slate-200 shrink-0">
+                    <div className="w-14 sm:w-16 py-3 px-2 flex items-center justify-center text-center bg-slate-100 font-black text-slate-800 text-base font-mono border-r border-slate-200 shrink-0">
                       {row.displayHour || row.hour}
                     </div>
 
                     {/* 発車分グリッド */}
-                    <div className="flex-1 p-2 sm:p-3 flex flex-wrap gap-2 items-center">
+                    <div className="flex-1 p-2 sm:p-3 flex flex-wrap gap-1.5 sm:gap-2 items-start">
                       {departures.length === 0 ? (
-                        <span className="text-slate-300 text-xs font-mono">-</span>
+                        <span className="text-slate-300 text-xs font-mono py-1 self-center">-</span>
                       ) : (
                         departures.map((dep, idx) => {
                           const conf = trainTypesMap[dep.type] || trainTypesMap.local || TRAIN_TYPES.local;
+                          const destLen = dep.destination.length;
+                          const destClass =
+                            destLen <= 2
+                              ? 'text-[10px]'
+                              : destLen === 3
+                              ? 'text-[9.5px] tracking-tight'
+                              : destLen === 4
+                              ? 'text-[8.5px] tracking-tighter'
+                              : 'text-[8px] tracking-tighter';
                           return (
                             <div
                               key={idx}
-                              className="group relative flex flex-col items-center cursor-default"
-                              title={`${conf.name} ${dep.destination}行 (${formatTrainNumber(dep.trainNumber, dep.tripId)})`}
+                              className="group relative flex flex-col items-center cursor-default w-11 sm:w-12 shrink-0"
+                              title={`${conf.name}${dep.trainName ? ` ${dep.trainName}` : ''} ${dep.destination}行 (${formatTrainNumber(dep.trainNumber, dep.tripId)})`}
                             >
                               <div
-                                className="px-2 py-1 rounded text-xs font-black font-mono shadow-2xs transition-transform group-hover:scale-110 text-white"
+                                className="w-8 py-1 rounded text-xs font-black font-mono shadow-2xs transition-transform group-hover:scale-110 text-white text-center"
                                 style={{ backgroundColor: conf.bgColor }}
                               >
                                 {dep.time}
                               </div>
-                              <span className="text-[10px] text-slate-500 font-sans mt-0.5 max-w-[42px] truncate">
+                              <span className={`w-full ${destClass} text-slate-500 font-sans mt-0.5 truncate text-center leading-tight`}>
                                 {dep.destination}
                               </span>
+                              {dep.trainName && (
+                                <span
+                                  className="w-full text-[8.5px] text-amber-600 font-bold font-sans tracking-tighter truncate leading-tight mt-0.5 text-center"
+                                  title={dep.trainName}
+                                >
+                                  {dep.trainName}
+                                </span>
+                              )}
 
                               {/* ホバーツールチップ */}
-                              <div className="absolute bottom-full mb-1 hidden group-hover:flex flex-col items-center z-50 whitespace-nowrap bg-slate-900 text-white text-[11px] py-1 px-2 rounded shadow-lg">
-                                <span className="font-bold">{conf.name} {dep.destination}行</span>
-                                <span className="text-[10px] text-slate-300">{row.hour}:{dep.time}発 ({formatTrainNumber(dep.trainNumber, dep.tripId)})</span>
+                              <div className="absolute bottom-full mb-1 hidden group-hover:flex flex-col items-center z-50 whitespace-nowrap bg-slate-900 text-white text-[11px] py-1 px-2 rounded shadow-lg pointer-events-none">
+                                <span className="font-bold">
+                                  {conf.name} {dep.trainName ? `${dep.trainName} ` : ''}{dep.destination}行
+                                </span>
+                                <span className="text-[10px] text-slate-300">
+                                  {row.hour}:{dep.time}発 ({formatTrainNumber(dep.trainNumber, dep.tripId)})
+                                </span>
                               </div>
                             </div>
                           );

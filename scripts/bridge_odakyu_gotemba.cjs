@@ -1,188 +1,192 @@
 const fs = require('fs');
 const path = require('path');
 
+function toSec(t) {
+  if (!t) return 0;
+  const [h, m, s] = t.split(':').map(Number);
+  let norm = h < 4 ? h + 24 : h;
+  return norm * 3600 + m * 60 + (s || 0);
+}
+
+function secToStr(sec) {
+  const norm = (Math.floor(sec) + 86400 * 2) % 86400;
+  const h = Math.floor(norm / 3600).toString().padStart(2, '0');
+  const m = Math.floor((norm % 3600) / 60).toString().padStart(2, '0');
+  const s = (norm % 60).toString().padStart(2, '0');
+  return `${h}:${m}:${s}`;
+}
+
 function safeWriteJson(filePath, data) {
   const content = JSON.stringify(data, null, 2) + '\n';
   let attempts = 0;
-  while (attempts < 5) {
+  while (attempts < 10) {
     try {
       fs.writeFileSync(filePath, content, 'utf8');
-      break;
+      return;
     } catch (e) {
       attempts++;
-      if (attempts >= 5) throw e;
+      if (attempts >= 10) throw e;
       const start = Date.now();
-      while (Date.now() - start < 100) {}
+      while (Date.now() - start < 150) {}
     }
   }
 }
 
 function bridgeOdakyuGotemba() {
-  console.log("=== Bridging Odakyu Odawara <-> Gotemba (Fujisan Limited Express) ===");
+  console.log("=== 🗻 Bridging Odakyu Odawara <-> Gotemba (Fujisan Limited Express via Connection Track) ===");
 
   const odakyuPath = path.resolve('src/data/lines/odakyu_odawara/globalTimetable.json');
   const gotembaPath = path.resolve('src/data/lines/gotemba/globalTimetable.json');
 
-  const odakyuTt = JSON.parse(fs.readFileSync(odakyuPath, 'utf8'));
-  const gotembaTt = JSON.parse(fs.readFileSync(gotembaPath, 'utf8'));
+  if (!fs.existsSync(odakyuPath) || !fs.existsSync(gotembaPath)) {
+    console.error('File not found:', odakyuPath, gotembaPath);
+    return;
+  }
 
-  // 1. 小田急線側のふじさん号に OH-40 (渋沢・通過), CB-04 (松田・停車) を補間
-  let odakyuModified = 0;
-  for (const t of odakyuTt) {
-    if (!t.trainNumber || !/0?40[1-6]/.test(t.trainNumber)) continue;
-    if (t.trainType !== 'limitedExp') continue;
+  const odakyuTrips = JSON.parse(fs.readFileSync(odakyuPath, 'utf8'));
+  const gotembaTrips = JSON.parse(fs.readFileSync(gotembaPath, 'utf8'));
 
-    // 下り (新宿 -> 御殿場方面)
-    if (t.direction === 'outbound') {
-      // 既存の OH-40 / OH-41 / CB-04 を除去して秦野(OH-39)まで巻き戻す（冪等性）
-      while (t.stops.length > 0 && ['OH-40', 'OH-41', 'CB-04'].includes(t.stops[t.stops.length - 1].stationId)) {
-        t.stops.pop();
-      }
-      const lastStop = t.stops[t.stops.length - 1];
-      if (lastStop && lastStop.stationId === 'OH-39') {
-        let arrCB04 = '07:44:00';
-        let depCB04 = '07:47:00';
-        let name = 'ふじさん1号';
-        if (t.trainNumber.includes('403')) {
-          arrCB04 = '11:47:00';
-          depCB04 = '11:58:00';
-          name = 'ふじさん3号';
-        } else if (t.trainNumber.includes('405')) {
-          arrCB04 = '15:46:00';
-          depCB04 = '15:57:00';
-          name = 'ふじさん5号';
-        }
+  // 下り便のペアリング (新宿 -> 御殿場)
+  // 特急ふじさん号は新松田駅ホームを経由せず、渋沢手前の連絡線を経由して直接JR松田駅(CB-04)へ進入
+  const downPairs = [
+    // 平日
+    { odakyuId: '38876', gotembaId: '39001', holiday: false, name: 'ふじさん1号', trainNum: '0401M' },
+    { odakyuId: '38877', gotembaId: '39002', holiday: false, name: 'ふじさん3号', trainNum: '0403M' },
+    { odakyuId: '38879', gotembaId: '39004', holiday: false, name: 'ふじさん5号', trainNum: '0405M' },
+    // 土休日
+    { odakyuId: '38875', gotembaId: '39000', holiday: true, name: 'ふじさん1号', trainNum: '0401M' },
+    { odakyuId: '38878', gotembaId: '39003', holiday: true, name: 'ふじさん3号', trainNum: '0403M' },
+    { odakyuId: '38880', gotembaId: '39005', holiday: true, name: 'ふじさん5号', trainNum: '0405M' },
+  ];
 
-        const depTime = lastStop.departureTime || lastStop.arrivalTime; // e.g. "07:35:00"
-        const [h, m, s] = depTime.split(':').map(Number);
-        
-        // 渋沢 OH-40 (約4分後通過)
-        const sec40 = (h * 3600 + m * 60 + (s || 0)) + 240;
-        const time40 = `${String(Math.floor(sec40 / 3600) % 24).padStart(2, '0')}:${String(Math.floor((sec40 % 3600) / 60)).padStart(2, '0')}:${String(sec40 % 60).padStart(2, '0')}`;
+  let linkedDown = 0;
+  for (const pair of downPairs) {
+    const odTrip = odakyuTrips.find(t => t.tripId.includes(pair.odakyuId) && t.isHoliday === pair.holiday);
+    const gtTrip = gotembaTrips.find(t => t.tripId.includes(pair.gotembaId) && t.isHoliday === pair.holiday);
 
-        t.stops.push({
-          stationId: 'OH-40',
-          arrivalTime: time40,
-          departureTime: time40,
-          isPassing: true
-        });
-        t.stops.push({
-          stationId: 'CB-04',
-          arrivalTime: arrCB04,
-          departureTime: depCB04,
-          isPassing: false
-        });
-        t.trainName = name;
-        t.destinationStationId = 'CB-04';
-        odakyuModified++;
-      }
+    if (!odTrip || !gtTrip) {
+      console.warn(`[Skip] Pair not found for ${pair.name} (holiday: ${pair.holiday})`);
+      continue;
     }
 
-    // 上り (御殿場 -> 新宿方面)
-    if (t.direction === 'inbound') {
-      // 既存の CB-04 / OH-41 / OH-40 を除去して秦野(OH-39)まで巻き戻す（冪等性）
-      while (t.stops.length > 0 && ['OH-40', 'OH-41', 'CB-04'].includes(t.stops[0].stationId)) {
-        t.stops.shift();
-      }
-      const firstStop = t.stops[0];
-      if (firstStop && firstStop.stationId === 'OH-39') {
-        let arrCB04 = '09:14:00';
-        let depCB04 = '09:16:00';
-        let name = 'ふじさん2号';
-        if (t.trainNumber.includes('404')) {
-          arrCB04 = '13:14:00';
-          depCB04 = '13:17:00';
-          name = 'ふじさん4号';
-        } else if (t.trainNumber.includes('406')) {
-          arrCB04 = '17:50:00';
-          depCB04 = t.isHoliday ? '17:59:00' : '17:57:00';
-          name = 'ふじさん6号';
-        }
+    // 1. 小田急側トリップを秦野(OH-39)から渋沢(OH-40, 通過)を経て松田(CB-04, 停車)へ延伸
+    // 既存の OH-40 / OH-41 / CB-04 を一旦巻き戻す（冪等性担保）
+    while (odTrip.stops.length > 0 && ['OH-40', 'OH-41', 'CB-04'].includes(odTrip.stops[odTrip.stops.length - 1].stationId)) {
+      odTrip.stops.pop();
+    }
 
-        const arrTime = firstStop.arrivalTime || firstStop.departureTime; // e.g. "09:25:00"
-        const [h, m, s] = arrTime.split(':').map(Number);
+    const hadanoStop = odTrip.stops.find(s => s.stationId === 'OH-39');
+    const matsudaStop = gtTrip.stops.find(s => s.stationId === 'CB-04');
 
-        // 渋沢 OH-40 (約4分前通過)
-        const sec40 = (h * 3600 + m * 60 + (s || 0)) - 240;
-        const time40 = `${String(Math.floor(sec40 / 3600) % 24).padStart(2, '0')}:${String(Math.floor((sec40 % 3600) / 60)).padStart(2, '0')}:${String(sec40 % 60).padStart(2, '0')}`;
+    if (hadanoStop && matsudaStop) {
+      const hadanoDepSec = toSec(hadanoStop.departureTime || hadanoStop.arrivalTime);
+      const matsudaArrSec = toSec(matsudaStop.arrivalTime || matsudaStop.departureTime);
+      const shibusawaSec = Math.round(hadanoDepSec + (matsudaArrSec - hadanoDepSec) * 0.45);
 
-        t.stops.unshift({
-          stationId: 'OH-40',
-          arrivalTime: time40,
-          departureTime: time40,
-          isPassing: true
-        });
-        t.stops.unshift({
-          stationId: 'CB-04',
-          arrivalTime: arrCB04,
-          departureTime: depCB04,
-          isPassing: false
-        });
-        t.trainName = name;
-        t.originStationId = 'CB-04';
-        odakyuModified++;
-      }
+      odTrip.stops.push({
+        stationId: 'OH-40', // 渋沢 (通過)
+        arrivalTime: secToStr(shibusawaSec),
+        departureTime: secToStr(shibusawaSec),
+        isPassing: true,
+      });
+      odTrip.stops.push({
+        stationId: 'CB-04', // 松田 (停車・境界駅)
+        arrivalTime: matsudaStop.arrivalTime,
+        departureTime: matsudaStop.departureTime,
+        isPassing: false,
+      });
+      odTrip.destinationStationId = 'CB-04';
+
+      // 2. 相互直通リンク & 行先設定
+      odTrip.throughTripId = gtTrip.tripId;
+      odTrip.throughLineId = 'gotemba';
+      odTrip.customOrigin = '新宿';
+      odTrip.customDestination = '御殿場';
+      if (!odTrip.trainName) odTrip.trainName = pair.name;
+
+      gtTrip.prevTripId = odTrip.tripId;
+      gtTrip.prevLineId = 'odakyu_odawara';
+      gtTrip.customOrigin = '新宿';
+      gtTrip.customDestination = '御殿場';
+      if (!gtTrip.trainName) gtTrip.trainName = pair.name;
+      if (pair.trainNum) gtTrip.trainNumber = pair.trainNum;
+
+      linkedDown++;
     }
   }
 
-  // 2. 御殿場線側のふじさん号の公式番号、列車名、および松田駅着発時刻を整備
-  let gotembaModified = 0;
-  for (const t of gotembaTt) {
-    if (t.stops && (t.stops[0].stationId === 'CB-04' || t.stops[t.stops.length - 1].stationId === 'CB-04')) {
-      if (t.trainNumber === '1M' || t.tripId.includes('39000') || t.tripId.includes('39001')) {
-        t.trainNumber = '0401M';
-        t.trainName = 'ふじさん1号';
-        t.trainType = 'limitedExp';
-        t.stops[0].arrivalTime = '07:44:00';
-        t.stops[0].departureTime = '07:47:00';
-        gotembaModified++;
-      } else if (t.trainNumber === '3M' || t.tripId.includes('39002') || t.tripId.includes('39003')) {
-        t.trainNumber = '0403M';
-        t.trainName = 'ふじさん3号';
-        t.trainType = 'limitedExp';
-        t.stops[0].arrivalTime = '11:47:00';
-        t.stops[0].departureTime = '11:58:00';
-        gotembaModified++;
-      } else if (t.trainNumber === '5M' || t.tripId.includes('39004') || t.tripId.includes('39005')) {
-        t.trainNumber = '0405M';
-        t.trainName = 'ふじさん5号';
-        t.trainType = 'limitedExp';
-        t.stops[0].arrivalTime = '15:46:00';
-        t.stops[0].departureTime = '15:57:00';
-        gotembaModified++;
-      } else if (t.trainNumber === '0402M' || t.tripId.includes('31304') || t.tripId.includes('31305')) {
-        t.trainNumber = '0402M';
-        t.trainName = 'ふじさん2号';
-        t.trainType = 'limitedExp';
-        const last = t.stops[t.stops.length - 1];
-        last.arrivalTime = '09:14:00';
-        last.departureTime = '09:16:00';
-        gotembaModified++;
-      } else if (t.trainNumber === '0404M' || t.tripId.includes('31306') || t.tripId.includes('31307')) {
-        t.trainNumber = '0404M';
-        t.trainName = 'ふじさん4号';
-        t.trainType = 'limitedExp';
-        const last = t.stops[t.stops.length - 1];
-        last.arrivalTime = '13:14:00';
-        last.departureTime = '13:17:00';
-        gotembaModified++;
-      } else if (t.trainNumber === '0406M' || t.tripId.includes('31308') || t.tripId.includes('31309')) {
-        t.trainNumber = '0406M';
-        t.trainName = 'ふじさん6号';
-        t.trainType = 'limitedExp';
-        const last = t.stops[t.stops.length - 1];
-        last.arrivalTime = '17:50:00';
-        last.departureTime = t.isHoliday ? '17:59:00' : '17:57:00';
-        gotembaModified++;
-      }
+  // 上り便のペアリング (御殿場 -> 新宿)
+  // JR松田駅(CB-04)から連絡線を経由して渋沢(OH-40, 通過)から小田急小田原線へ合流
+  const upPairs = [
+    // 平日
+    { odakyuId: '31210', gotembaId: '31305', holiday: false, name: 'ふじさん2号', trainNum: '0402M' },
+    { odakyuId: '31211', gotembaId: '31306', holiday: false, name: 'ふじさん4号', trainNum: '0404M' },
+    { odakyuId: '31213', gotembaId: '31308', holiday: false, name: 'ふじさん6号', trainNum: '0406M' },
+    // 土休日
+    { odakyuId: '31209', gotembaId: '31304', holiday: true, name: 'ふじさん2号', trainNum: '0402M' },
+    { odakyuId: '31212', gotembaId: '31307', holiday: true, name: 'ふじさん4号', trainNum: '0404M' },
+    { odakyuId: '31214', gotembaId: '31309', holiday: true, name: 'ふじさん6号', trainNum: '0406M' },
+  ];
+
+  let linkedUp = 0;
+  for (const pair of upPairs) {
+    const odTrip = odakyuTrips.find(t => t.tripId.includes(pair.odakyuId) && t.isHoliday === pair.holiday);
+    const gtTrip = gotembaTrips.find(t => t.tripId.includes(pair.gotembaId) && t.isHoliday === pair.holiday);
+
+    if (!odTrip || !gtTrip) {
+      console.warn(`[Skip] Pair not found for ${pair.name} (holiday: ${pair.holiday})`);
+      continue;
+    }
+
+    // 1. 小田急側トリップを松田(CB-04, 停車)から渋沢(OH-40, 通過)を経て秦野(OH-39)へ延伸（先頭に追加）
+    // 既存の CB-04 / OH-41 / OH-40 を一旦巻き戻す（冪等性担保）
+    while (odTrip.stops.length > 0 && ['OH-40', 'OH-41', 'CB-04'].includes(odTrip.stops[0].stationId)) {
+      odTrip.stops.shift();
+    }
+
+    const hadanoStop = odTrip.stops.find(s => s.stationId === 'OH-39');
+    const matsudaStop = gtTrip.stops.find(s => s.stationId === 'CB-04');
+
+    if (hadanoStop && matsudaStop) {
+      const matsudaDepSec = toSec(matsudaStop.departureTime || matsudaStop.arrivalTime);
+      const hadanoArrSec = toSec(hadanoStop.arrivalTime || hadanoStop.departureTime);
+      const shibusawaSec = Math.round(matsudaDepSec + (hadanoArrSec - matsudaDepSec) * 0.55);
+
+      odTrip.stops.unshift({
+        stationId: 'OH-40', // 渋沢 (通過)
+        arrivalTime: secToStr(shibusawaSec),
+        departureTime: secToStr(shibusawaSec),
+        isPassing: true,
+      });
+      odTrip.stops.unshift({
+        stationId: 'CB-04', // 松田 (停車・境界駅)
+        arrivalTime: matsudaStop.arrivalTime,
+        departureTime: matsudaStop.departureTime,
+        isPassing: false,
+      });
+      odTrip.originStationId = 'CB-04';
+
+      // 2. 相互直通リンク & 行先設定
+      gtTrip.throughTripId = odTrip.tripId;
+      gtTrip.throughLineId = 'odakyu_odawara';
+      gtTrip.customOrigin = '御殿場';
+      gtTrip.customDestination = '新宿';
+      if (!gtTrip.trainName) gtTrip.trainName = pair.name;
+      if (pair.trainNum) gtTrip.trainNumber = pair.trainNum;
+
+      odTrip.prevTripId = gtTrip.tripId;
+      odTrip.prevLineId = 'gotemba';
+      odTrip.customOrigin = '御殿場';
+      odTrip.customDestination = '新宿';
+      if (!odTrip.trainName) odTrip.trainName = pair.name;
+
+      linkedUp++;
     }
   }
 
-  safeWriteJson(odakyuPath, odakyuTt);
-  safeWriteJson(gotembaPath, gotembaTt);
-
-  console.log(`Odakyu modified trips: ${odakyuModified}`);
-  console.log(`Gotemba modified trips: ${gotembaModified}`);
+  safeWriteJson(odakyuPath, odakyuTrips);
+  safeWriteJson(gotembaPath, gotembaTrips);
+  console.log(`🎉 特急ふじさん全12便（下り ${linkedDown} 便, 上り ${linkedUp} 便）の連絡線経由・直通リンク完了！\n`);
 }
 
 module.exports = { bridgeOdakyuGotemba };

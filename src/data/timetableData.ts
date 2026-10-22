@@ -193,12 +193,14 @@ export function getStationDepartures(
         destId = direction === 'outbound' ? lineTerminusStationId : lineOriginStationId;
       }
       const depTime = `${d.h.toString().padStart(2, '0')}:${d.m.toString().padStart(2, '0')}:00`;
+      const trainName = resolveDepartureTrainName(d);
 
       return {
         tripId: d.tripId || `DEP_${stationId}_${direction}_${d.h}_${d.m}_${idx}`,
         lineId: finalLineId,
         trainNumber: d.no,
         trainType: d.t,
+        trainName,
         direction,
         originStationId: stationId,
         destinationStationId: destId,
@@ -224,11 +226,20 @@ export function getStationDepartures(
 }
 
 // 特定駅の全日時刻表（1時間ごと）を取得
+export interface HourlyStationTimetableItem {
+  time: string;
+  tripId: string;
+  trainNumber: string;
+  type: TrainTypeKey;
+  destination: string;
+  trainName?: string;
+}
+
 export interface HourlyStationTimetable {
   hour: number;
   displayHour: string;
-  inbound: { time: string; tripId: string; trainNumber: string; type: TrainTypeKey; destination: string }[];
-  outbound: { time: string; tripId: string; trainNumber: string; type: TrainTypeKey; destination: string }[];
+  inbound: HourlyStationTimetableItem[];
+  outbound: HourlyStationTimetableItem[];
 }
 
 export function getFullDayStationTimetable(
@@ -283,10 +294,12 @@ export function getFullDayStationTimetable(
     const targetHour = mapTo24hCycle(dep.h);
     const target = hourly.find((item) => item.hour === targetHour);
     if (target) {
+      const trainName = resolveDepartureTrainName(dep);
       target.inbound.push({
         time: dep.time,
-        tripId: `IN_${stationId}_${dep.h}_${dep.m}_${dep.no}`,
+        tripId: dep.tripId || `IN_${stationId}_${dep.h}_${dep.m}_${dep.no}`,
         trainNumber: dep.no,
+        trainName,
         type: dep.t,
         destination: dep.d,
       });
@@ -297,10 +310,12 @@ export function getFullDayStationTimetable(
     const targetHour = mapTo24hCycle(dep.h);
     const target = hourly.find((item) => item.hour === targetHour);
     if (target) {
+      const trainName = resolveDepartureTrainName(dep);
       target.outbound.push({
         time: dep.time,
-        tripId: `OUT_${stationId}_${dep.h}_${dep.m}_${dep.no}`,
+        tripId: dep.tripId || `OUT_${stationId}_${dep.h}_${dep.m}_${dep.no}`,
         trainNumber: dep.no,
+        trainName,
         type: dep.t,
         destination: dep.d,
       });
@@ -318,19 +333,25 @@ export function getFullDayStationTimetable(
 // 全路線の全トリップの高速ルックアップ用Map（動的初期化）
 let _globalTripMap: Map<string, TimetableTrip> | null = null;
 let _globalTrainIdMap: Map<string, TimetableTrip[]> | null = null;
+let _globalTrainNameByNumberMap: Map<string, string> | null = null;
 
 export function invalidateGlobalTripMaps() {
   _globalTripMap = null;
   _globalTrainIdMap = null;
+  _globalTrainNameByNumberMap = null;
 }
 
 function ensureGlobalMaps() {
-  if (!_globalTripMap || !_globalTrainIdMap) {
+  if (!_globalTripMap || !_globalTrainIdMap || !_globalTrainNameByNumberMap) {
     _globalTripMap = new Map();
     _globalTrainIdMap = new Map();
+    _globalTrainNameByNumberMap = new Map();
     const trips = getCombinedGlobalTimetable();
     for (const trip of trips) {
       _globalTripMap.set(trip.tripId, trip);
+      if (trip.trainName && trip.trainNumber) {
+        _globalTrainNameByNumberMap.set(trip.trainNumber, trip.trainName);
+      }
       if (trip.trainId) {
         if (!_globalTrainIdMap.has(trip.trainId)) {
           _globalTrainIdMap.set(trip.trainId, []);
@@ -339,6 +360,22 @@ function ensureGlobalMaps() {
       }
     }
   }
+}
+
+/**
+ * 発車標・全日時刻表データから固有列車名称（愛称・号数）を高速解決
+ */
+export function resolveDepartureTrainName(d: RawStationDeparture): string | undefined {
+  if (d.trainName) return d.trainName;
+  if (d.tripId) {
+    const fullTrip = getGlobalTripMap().get(d.tripId);
+    if (fullTrip?.trainName) return fullTrip.trainName;
+  }
+  ensureGlobalMaps();
+  if (d.no && _globalTrainNameByNumberMap?.has(d.no)) {
+    return _globalTrainNameByNumberMap.get(d.no);
+  }
+  return undefined;
 }
 
 export function getGlobalTripMap(): Map<string, TimetableTrip> {
@@ -481,14 +518,101 @@ export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
     }
   }
 
-  // 始発駅の出発時刻順にソート
-  chain.sort((a, b) => {
+  // 有向直通リンク (prevTripId / throughTripId) と日付跨ぎを考慮したトポロジカル整列
+  return sortThroughChainTrips(chain);
+}
+
+/**
+ * 直通運行チェーン内のトリップ群を、有向直通リンク (prevTripId / throughTripId) と
+ * 日付跨ぎを考慮した正しい運行順序（始発路線 -> 終着路線）にトポロジカル整列
+ */
+function sortThroughChainTrips(chain: TimetableTrip[]): TimetableTrip[] {
+  if (chain.length <= 1) return chain;
+
+  const chainSet = new Map<string, TimetableTrip>(chain.map((t) => [t.tripId, t]));
+  const nextMap = new Map<string, Set<string>>();
+  const prevMap = new Map<string, Set<string>>();
+  const inDegree = new Map<string, number>();
+
+  for (const t of chain) {
+    nextMap.set(t.tripId, new Set());
+    prevMap.set(t.tripId, new Set());
+    inDegree.set(t.tripId, 0);
+  }
+
+  for (const t of chain) {
+    // 1. throughTripId による後続関係
+    if (t.throughTripId && chainSet.has(t.throughTripId)) {
+      nextMap.get(t.tripId)!.add(t.throughTripId);
+      prevMap.get(t.throughTripId)!.add(t.tripId);
+    }
+    // 2. prevTripId による先行関係
+    if (t.prevTripId && chainSet.has(t.prevTripId)) {
+      nextMap.get(t.prevTripId)!.add(t.tripId);
+      prevMap.get(t.tripId)!.add(t.prevTripId);
+    }
+  }
+
+  for (const [id, prevs] of prevMap.entries()) {
+    inDegree.set(id, prevs.size);
+  }
+
+  // 入次数0（最上流・始発路線）のノードをキューに追加
+  const queue = chain.filter((t) => (inDegree.get(t.tripId) || 0) === 0);
+  queue.sort((a, b) => {
     const depA = a.stops[0]?.departureTime ? timeStringToSeconds(a.stops[0].departureTime) : 0;
     const depB = b.stops[0]?.departureTime ? timeStringToSeconds(b.stops[0].departureTime) : 0;
     return depA - depB;
   });
 
-  return chain;
+  const sorted: TimetableTrip[] = [];
+  const visited = new Set<string>();
+
+  while (queue.length > 0) {
+    const cur = queue.shift()!;
+    if (visited.has(cur.tripId)) continue;
+    visited.add(cur.tripId);
+    sorted.push(cur);
+
+    const nexts = Array.from(nextMap.get(cur.tripId) || [])
+      .map((id) => chainSet.get(id))
+      .filter((t): t is TimetableTrip => Boolean(t));
+
+    for (const next of nexts) {
+      const curDeg = (inDegree.get(next.tripId) || 0) - 1;
+      inDegree.set(next.tripId, curDeg);
+      if (curDeg <= 0 && !visited.has(next.tripId)) {
+        queue.push(next);
+      }
+    }
+  }
+
+  // サイクルや未接続ノードが存在する場合のフォールバック
+  if (sorted.length < chain.length) {
+    const remaining = chain.filter((t) => !visited.has(t.tripId));
+    let lastSec = 0;
+    if (sorted.length > 0) {
+      const lastStops = sorted[sorted.length - 1].stops;
+      if (lastStops.length > 0) {
+        const lastStop = lastStops[lastStops.length - 1];
+        lastSec = timeStringToSeconds(lastStop.arrivalTime || lastStop.departureTime);
+      }
+    }
+
+    remaining.sort((a, b) => {
+      let depA = a.stops[0]?.departureTime ? timeStringToSeconds(a.stops[0].departureTime) : 0;
+      let depB = b.stops[0]?.departureTime ? timeStringToSeconds(b.stops[0].departureTime) : 0;
+      if (depA < lastSec && depA + 86400 >= lastSec) depA += 86400;
+      if (depB < lastSec && depB + 86400 >= lastSec) depB += 86400;
+      return depA - depB;
+    });
+
+    for (const r of remaining) {
+      sorted.push(r);
+    }
+  }
+
+  return sorted;
 }
 
 /**
@@ -618,6 +742,9 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
           if (couplingEnd) {
             prevStop.couplingEnd = true;
           }
+          if (!prevStop.trainName && trip.trainName) {
+            prevStop.trainName = trip.trainName;
+          }
           // 先頭駅は統合されたのでスキップ
           continue;
         }
@@ -637,6 +764,7 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
         tripId: trip.tripId,
         trainType: trip.trainType,
         trainNumber: currentTrainNumber,
+        trainName: trip.trainName,
         isBoundary: false,
         trainNumberChange,
         couplingStart,

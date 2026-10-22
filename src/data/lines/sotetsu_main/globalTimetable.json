@@ -17842,12 +17842,12 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "09:07:00",
-        "departureTime": "09:17:00",
+        "departureTime": "09:14:00",
         "isPassing": false
       },
       {
         "stationId": "SO-09",
-        "arrivalTime": "09:17:00",
+        "arrivalTime": "09:16:00",
         "departureTime": "09:17:00",
         "isPassing": false
       },
@@ -41991,7 +41991,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-10",
-    "customOrigin": "渋谷",
+    "customOrigin": "和光市",
     "customDestination": "湘南台",
     "cars": 10,
     "isHoliday": false,
@@ -52707,7 +52707,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-10",
-    "customOrigin": "森林公園",
+    "customOrigin": "和光市",
     "customDestination": "湘南台",
     "cars": 10,
     "isHoliday": false,
@@ -53665,7 +53665,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-10",
-    "customOrigin": "川越市",
+    "customOrigin": "和光市",
     "customDestination": "湘南台",
     "cars": 10,
     "isHoliday": false,
@@ -54515,7 +54515,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-10",
-    "customOrigin": "和光市",
+    "customOrigin": "川越市",
     "customDestination": "湘南台",
     "cars": 10,
     "isHoliday": false,
@@ -56417,7 +56417,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-10",
-    "customOrigin": "志木",
+    "customOrigin": "和光市",
     "customDestination": "湘南台",
     "cars": 10,
     "isHoliday": false,
@@ -57537,7 +57537,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-10",
-    "customOrigin": "和光市",
+    "customOrigin": "志木",
     "customDestination": "湘南台",
     "cars": 10,
     "isHoliday": false,
@@ -62181,7 +62181,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-10",
-    "customOrigin": "志木",
+    "customOrigin": "和光市",
     "customDestination": "湘南台",
     "cars": 10,
     "isHoliday": false,
@@ -63283,7 +63283,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-10",
-    "customOrigin": "和光市",
+    "customOrigin": "志木",
     "customDestination": "湘南台",
     "cars": 10,
     "isHoliday": false,
@@ -74088,7 +74088,7 @@
   {
     "tripId": "HD_OUT_SO-01_0738_125576",
     "lineId": "sotetsu_main",
-    "trainNumber": "051-071レ",
+    "trainNumber": "146709",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-01",
@@ -74154,13 +74154,13 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "07:56:00",
-        "departureTime": "08:00:00",
+        "departureTime": "08:03:00",
         "isPassing": false
       }
     ],
     "trainId": "125576",
     "customOrigin": "横浜",
-    "throughTripId": "HD_OUT_SO-10_0800_115269",
+    "throughTripId": "HD_OUT_SO-10_0803_125576",
     "throughLineId": "sotetsu_izumino"
   },
   {
@@ -74993,14 +74993,14 @@
       {
         "stationId": "SO-10",
         "arrivalTime": "07:59:00",
-        "departureTime": "08:03:00",
+        "departureTime": "08:00:00",
         "isPassing": false
       }
     ],
     "trainId": "115269",
     "prevTripId": "HD_OUT_SO-52_0746_115269",
     "prevLineId": "sotetsu_shin_yokohama",
-    "throughTripId": "HD_OUT_SO-10_0803_125576",
+    "throughTripId": "HD_OUT_SO-10_0800_115269",
     "throughLineId": "sotetsu_izumino"
   },
   {
@@ -76637,7 +76637,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-18",
-    "customOrigin": "指扇",
+    "customOrigin": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -77349,7 +77349,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-18",
-    "customOrigin": "武蔵浦和",
+    "customOrigin": "指扇",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -78415,7 +78415,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-18",
-    "customOrigin": "川越",
+    "customOrigin": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -79049,7 +79049,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-18",
-    "customOrigin": "大宮",
+    "customOrigin": "川越",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -80145,7 +80145,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-18",
-    "customOrigin": "指扇",
+    "customOrigin": "大宮",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -81305,7 +81305,7 @@
     "direction": "outbound",
     "originStationId": "SO-08",
     "destinationStationId": "SO-18",
-    "customOrigin": "武蔵浦和",
+    "customOrigin": "指扇",
     "cars": 10,
     "isHoliday": true,
     "stops": [

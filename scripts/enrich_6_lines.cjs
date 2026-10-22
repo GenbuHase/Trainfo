@@ -3,7 +3,18 @@ const path = require('path');
 
 function safeWriteJson(filePath, data) {
   const content = typeof data === 'string' ? data : JSON.stringify(data, null, 2);
-  fs.writeFileSync(filePath, content, 'utf8');
+  let attempts = 0;
+  while (attempts < 10) {
+    try {
+      fs.writeFileSync(filePath, content, 'utf8');
+      return;
+    } catch (e) {
+      attempts++;
+      if (attempts >= 10) throw e;
+      const start = Date.now();
+      while (Date.now() - start < 150) {}
+    }
+  }
 }
 
 function normalizeTrainNumber(rawNo) {

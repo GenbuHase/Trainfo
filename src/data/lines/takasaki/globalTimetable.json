@@ -1316,6 +1316,7 @@
     "lineId": "takasaki",
     "trainNumber": "4002M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ2号",
     "direction": "inbound",
     "originStationId": "TK-21",
     "destinationStationId": "TK-02",
@@ -1504,7 +1505,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customOrigin": "前橋",
     "customDestination": "小田原",
     "cars": 15,
@@ -1621,7 +1622,25 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "07:17:00",
-        "departureTime": "07:17:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "07:19:39",
+        "departureTime": "07:19:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "07:24:00",
+        "departureTime": "07:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:34:00",
         "isPassing": false
       }
     ],
@@ -2369,9 +2388,7 @@
       }
     ],
     "trainId": "33376",
-    "customOrigin": "高崎",
-    "throughTripId": "WD_OUT_JS-24_0805_33389",
-    "throughLineId": "shonan_shinjuku"
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_OUT_TK-02_0612_19268",
@@ -3005,7 +3022,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -3121,12 +3138,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "07:50:00",
-        "departureTime": "07:50:00",
+        "departureTime": "07:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "07:53:55",
+        "departureTime": "07:53:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "07:59:00",
+        "departureTime": "07:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "08:09:00",
+        "departureTime": "08:10:00",
         "isPassing": false
       }
     ],
-    "trainId": "33372",
-    "customOrigin": "高崎"
+    "trainId": "33372"
   },
   {
     "tripId": "WD_INB_TK-25_0631_34121",
@@ -3909,6 +3943,7 @@
     "lineId": "takasaki",
     "trainNumber": "4004M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ4号",
     "direction": "inbound",
     "originStationId": "TK-13",
     "destinationStationId": "TK-02",
@@ -4611,7 +4646,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -4727,12 +4762,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "08:27:00",
-        "departureTime": "08:27:00",
+        "departureTime": "08:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "08:29:55",
+        "departureTime": "08:29:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "08:35:00",
+        "departureTime": "08:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "08:46:00",
+        "departureTime": "08:47:00",
         "isPassing": false
       }
     ],
-    "trainId": "33381",
-    "customOrigin": "高崎"
+    "trainId": "33381"
   },
   {
     "tripId": "WD_INB_TK-07_0703_5759",
@@ -4960,7 +5012,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-19",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": false,
@@ -5040,12 +5092,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "08:02:00",
-        "departureTime": "08:02:00",
+        "departureTime": "08:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "08:07:12",
+        "departureTime": "08:07:12",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "08:13:00",
+        "departureTime": "08:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "08:23:00",
+        "departureTime": "08:24:00",
         "isPassing": false
       }
     ],
-    "trainId": "33389",
-    "customOrigin": "深谷"
+    "trainId": "33389"
   },
   {
     "tripId": "WD_OUT_TK-02_0711_19257",
@@ -6293,6 +6362,7 @@
     "lineId": "takasaki",
     "trainNumber": "4006M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ6号",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-07",
@@ -6803,7 +6873,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TK-07",
-    "destinationStationId": "TK-02",
+    "destinationStationId": "TK-07",
     "customOrigin": "古河",
     "customDestination": "国府津",
     "cars": 15,
@@ -6812,41 +6882,13 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "07:50:00",
-        "departureTime": "07:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-06",
-        "arrivalTime": "07:55:00",
-        "departureTime": "07:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-05",
-        "arrivalTime": "08:00:00",
-        "departureTime": "08:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-04",
-        "arrivalTime": "08:10:00",
-        "departureTime": "08:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-03",
-        "arrivalTime": "08:15:00",
-        "departureTime": "08:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-02",
-        "arrivalTime": "08:21:00",
-        "departureTime": "08:22:00",
+        "departureTime": "08:05:00",
         "isPassing": false
       }
     ],
-    "trainId": "34239"
+    "trainId": "34239",
+    "throughTripId": "WD_OUT_JS-24_0805_33389",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-04_0755_33541",
@@ -6943,6 +6985,7 @@
     "lineId": "takasaki",
     "trainNumber": "9073M",
     "trainType": "limitedExp",
+    "trainName": "谷川岳もぐら",
     "direction": "outbound",
     "originStationId": "TK-07",
     "destinationStationId": "TK-25",
@@ -7079,7 +7122,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -7195,12 +7238,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "09:23:00",
-        "departureTime": "09:23:00",
+        "departureTime": "09:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "09:25:39",
+        "departureTime": "09:25:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "09:30:00",
+        "departureTime": "09:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "09:39:00",
+        "departureTime": "09:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "33383",
-    "customOrigin": "高崎"
+    "trainId": "33383"
   },
   {
     "tripId": "WD_OUT_TK-02_0800_34394",
@@ -8016,6 +8076,7 @@
     "lineId": "takasaki",
     "trainNumber": "4008M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ8号",
     "direction": "inbound",
     "originStationId": "TK-21",
     "destinationStationId": "TK-02",
@@ -8202,6 +8263,7 @@
     "lineId": "takasaki",
     "trainNumber": "3920E",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -9308,7 +9370,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -9382,12 +9444,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "09:56:00",
-        "departureTime": "09:56:00",
+        "departureTime": "09:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "09:58:22",
+        "departureTime": "09:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "10:02:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33394",
-    "customOrigin": "籠原"
+    "trainId": "33394"
   },
   {
     "tripId": "WD_OUT_TK-02_0915_34396",
@@ -9632,12 +9711,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "10:27:00",
-        "departureTime": "10:27:00",
+        "departureTime": "10:28:00",
         "isPassing": false
       }
     ],
     "trainId": "33359",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "WD_OUT_JS-24_1028_33359",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-18_0921_13939",
@@ -9932,6 +10013,7 @@
     "lineId": "takasaki",
     "trainNumber": "3922E",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -11055,6 +11137,7 @@
     "lineId": "takasaki",
     "trainNumber": "3001M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万1号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -11216,7 +11299,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -11290,12 +11373,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "10:56:00",
-        "departureTime": "10:56:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "10:58:22",
+        "departureTime": "10:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "11:02:00",
+        "departureTime": "11:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "11:11:00",
+        "departureTime": "11:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33395",
-    "customOrigin": "籠原"
+    "trainId": "33395"
   },
   {
     "tripId": "WD_INB_TK-25_1014_33360",
@@ -11420,12 +11520,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "11:26:00",
-        "departureTime": "11:26:00",
+        "departureTime": "11:28:00",
         "isPassing": false
       }
     ],
     "trainId": "33360",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "WD_OUT_JS-24_1128_33360",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-02_1015_34351",
@@ -12576,6 +12678,7 @@
     "lineId": "takasaki",
     "trainNumber": "9083M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万83号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -12947,7 +13050,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -13021,12 +13124,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "11:56:00",
-        "departureTime": "11:56:00",
+        "departureTime": "11:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "11:58:39",
+        "departureTime": "11:58:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "12:03:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "12:11:00",
+        "departureTime": "12:12:00",
         "isPassing": false
       }
     ],
-    "trainId": "33397",
-    "customOrigin": "籠原"
+    "trainId": "33397"
   },
   {
     "tripId": "WD_INB_TK-25_1114_33363",
@@ -13151,12 +13271,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "12:26:00",
-        "departureTime": "12:26:00",
+        "departureTime": "12:27:00",
         "isPassing": false
       }
     ],
     "trainId": "33363",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "WD_OUT_JS-24_1227_33363",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-07_1122_34233",
@@ -13793,7 +13915,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TK-07",
-    "destinationStationId": "TK-02",
+    "destinationStationId": "TK-07",
     "customOrigin": "宇都宮",
     "customDestination": "平塚",
     "cars": 15,
@@ -13802,41 +13924,13 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "11:38:00",
-        "departureTime": "11:43:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-06",
-        "arrivalTime": "11:45:00",
-        "departureTime": "11:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-05",
-        "arrivalTime": "11:50:00",
-        "departureTime": "11:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-04",
-        "arrivalTime": "11:58:00",
-        "departureTime": "11:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-03",
-        "arrivalTime": "12:03:00",
-        "departureTime": "12:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-02",
-        "arrivalTime": "12:09:00",
-        "departureTime": "12:11:00",
+        "departureTime": "11:57:00",
         "isPassing": false
       }
     ],
-    "trainId": "34185"
+    "trainId": "34185",
+    "throughTripId": "WD_OUT_JS-24_1157_33397",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-02_1145_34384",
@@ -14429,6 +14523,7 @@
     "lineId": "takasaki",
     "trainNumber": "3003M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万3号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -14590,7 +14685,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -14664,12 +14759,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "12:56:00",
-        "departureTime": "12:56:00",
+        "departureTime": "12:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "12:58:22",
+        "departureTime": "12:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "13:02:00",
+        "departureTime": "13:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "13:11:00",
+        "departureTime": "13:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33399",
-    "customOrigin": "籠原"
+    "trainId": "33399"
   },
   {
     "tripId": "WD_INB_TK-25_1214_33364",
@@ -14794,12 +14906,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "13:26:00",
-        "departureTime": "13:26:00",
+        "departureTime": "13:27:00",
         "isPassing": false
       }
     ],
     "trainId": "33364",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "WD_OUT_JS-24_1327_33364",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-07_1225_34234",
@@ -16252,12 +16366,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "14:26:00",
-        "departureTime": "14:26:00",
+        "departureTime": "14:27:00",
         "isPassing": false
       }
     ],
     "trainId": "33367",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "WD_OUT_JS-24_1427_33367",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-07_1323_34235",
@@ -17530,6 +17646,7 @@
     "lineId": "takasaki",
     "trainNumber": "3002M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万2号",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-02",
@@ -17694,7 +17811,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -17768,12 +17885,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "14:55:00",
-        "departureTime": "14:55:00",
+        "departureTime": "14:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "14:57:39",
+        "departureTime": "14:57:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "15:02:00",
+        "departureTime": "15:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "15:11:00",
+        "departureTime": "15:12:00",
         "isPassing": false
       }
     ],
-    "trainId": "33401",
-    "customOrigin": "籠原"
+    "trainId": "33401"
   },
   {
     "tripId": "WD_INB_TK-25_1414_33369",
@@ -17898,12 +18032,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "15:26:00",
-        "departureTime": "15:26:00",
+        "departureTime": "15:28:00",
         "isPassing": false
       }
     ],
     "trainId": "33369",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "WD_OUT_JS-24_1528_33369",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-07_1423_34238",
@@ -18901,9 +19037,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "34264",
-    "throughTripId": "WD_OUT_JS-24_1528_33369",
-    "throughLineId": "shonan_shinjuku"
+    "trainId": "34264"
   },
   {
     "tripId": "WD_OUT_TK-02_1505_34315",
@@ -19122,7 +19256,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -19196,12 +19330,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "15:56:00",
-        "departureTime": "15:56:00",
+        "departureTime": "15:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "15:58:22",
+        "departureTime": "15:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "16:02:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "16:11:00",
+        "departureTime": "16:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33403",
-    "customOrigin": "籠原"
+    "trainId": "33403"
   },
   {
     "tripId": "WD_INB_TK-25_1514_33370",
@@ -19210,7 +19361,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-04",
+    "destinationStationId": "TK-07",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -19328,27 +19479,12 @@
         "arrivalTime": "16:26:00",
         "departureTime": "16:27:00",
         "isPassing": false
-      },
-      {
-        "stationId": "TK-06",
-        "arrivalTime": "16:28:39",
-        "departureTime": "16:28:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "TK-05",
-        "arrivalTime": "16:33:00",
-        "departureTime": "16:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-04",
-        "arrivalTime": "16:41:00",
-        "departureTime": "16:41:00",
-        "isPassing": false
       }
     ],
-    "trainId": "33370"
+    "trainId": "33370",
+    "customOrigin": "高崎",
+    "throughTripId": "WD_OUT_JS-24_1627_33370",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-07_1522_34241",
@@ -20490,9 +20626,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "34266",
-    "throughTripId": "WD_OUT_JS-24_1627_33370",
-    "throughLineId": "shonan_shinjuku"
+    "trainId": "34266"
   },
   {
     "tripId": "WD_OUT_TK-02_1605_34331",
@@ -20874,9 +21008,7 @@
       }
     ],
     "trainId": "33385",
-    "customOrigin": "高崎",
-    "throughTripId": "WD_OUT_JS-24_1757_33416",
-    "throughLineId": "shonan_shinjuku"
+    "customOrigin": "高崎"
   },
   {
     "tripId": "WD_INB_TK-18_1613_33405",
@@ -20885,7 +21017,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
@@ -20959,12 +21091,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "16:59:00",
-        "departureTime": "16:59:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "17:01:39",
+        "departureTime": "17:01:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:15:00",
         "isPassing": false
       }
     ],
-    "trainId": "33405",
-    "customOrigin": "籠原"
+    "trainId": "33405"
   },
   {
     "tripId": "WD_INB_TK-18_1621_34162",
@@ -21213,7 +21362,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TK-07",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-02",
     "customOrigin": "古河",
     "customDestination": "小田原",
     "cars": 15,
@@ -21222,7 +21371,37 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "16:24:00",
-        "departureTime": "16:24:00",
+        "departureTime": "16:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "16:28:00",
+        "departureTime": "16:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "16:32:00",
+        "departureTime": "16:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "16:40:00",
+        "departureTime": "16:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-03",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-02",
+        "arrivalTime": "16:51:00",
+        "departureTime": "16:52:00",
         "isPassing": false
       }
     ],
@@ -22063,6 +22242,7 @@
     "lineId": "takasaki",
     "trainNumber": "3004M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万4号",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-02",
@@ -22980,7 +23160,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -23054,12 +23234,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "17:56:00",
-        "departureTime": "17:56:00",
+        "departureTime": "17:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "17:58:22",
+        "departureTime": "17:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "18:12:00",
+        "departureTime": "18:12:00",
         "isPassing": false
       }
     ],
-    "trainId": "33416",
-    "customOrigin": "籠原"
+    "trainId": "33416"
   },
   {
     "tripId": "WD_INB_TK-25_1713_33378",
@@ -23068,7 +23265,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": false,
@@ -23184,18 +23381,36 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "18:32:00",
-        "departureTime": "18:32:00",
+        "departureTime": "18:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "18:34:55",
+        "departureTime": "18:34:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "18:48:00",
+        "departureTime": "18:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "33378",
-    "customOrigin": "高崎"
+    "trainId": "33378"
   },
   {
     "tripId": "WD_INB_TK-25_1722_43395",
     "lineId": "takasaki",
     "trainNumber": "9076M",
     "trainType": "limitedExp",
+    "trainName": "谷川岳ループ",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-07",
@@ -24221,7 +24436,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TK-07",
-    "destinationStationId": "TK-02",
+    "destinationStationId": "TK-07",
     "customOrigin": "古河",
     "customDestination": "小田原",
     "cars": 15,
@@ -24230,41 +24445,13 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "17:41:00",
-        "departureTime": "17:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-06",
-        "arrivalTime": "17:48:00",
-        "departureTime": "17:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-05",
-        "arrivalTime": "17:53:00",
-        "departureTime": "17:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-04",
-        "arrivalTime": "18:01:00",
-        "departureTime": "18:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-03",
-        "arrivalTime": "18:06:00",
-        "departureTime": "18:06:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-02",
-        "arrivalTime": "18:12:00",
-        "departureTime": "18:14:00",
+        "departureTime": "17:57:00",
         "isPassing": false
       }
     ],
-    "trainId": "34245"
+    "trainId": "34245",
+    "throughTripId": "WD_OUT_JS-24_1757_33416",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_INB_TK-18_1756_34299",
@@ -24605,6 +24792,7 @@
     "lineId": "takasaki",
     "trainNumber": "4001M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ1号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-13",
@@ -25387,12 +25575,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "19:34:00",
-        "departureTime": "19:34:00",
+        "departureTime": "19:35:00",
         "isPassing": false
       }
     ],
     "trainId": "33375",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "WD_OUT_JS-24_1935_33375",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "WD_OUT_TK-02_1822_34375",
@@ -25720,15 +25910,14 @@
       }
     ],
     "trainId": "33408",
-    "customOrigin": "籠原",
-    "throughTripId": "WD_OUT_JS-24_1935_33375",
-    "throughLineId": "shonan_shinjuku"
+    "customOrigin": "籠原"
   },
   {
     "tripId": "WD_OUT_TK-02_1830_19248",
     "lineId": "takasaki",
     "trainNumber": "4003M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ3号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-21",
@@ -26373,6 +26562,7 @@
     "lineId": "takasaki",
     "trainNumber": "3931M",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -26953,6 +27143,7 @@
     "lineId": "takasaki",
     "trainNumber": "4005M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ5号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-21",
@@ -27713,7 +27904,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -27829,12 +28020,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "20:35:00",
-        "departureTime": "20:35:00",
+        "departureTime": "20:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "20:37:22",
+        "departureTime": "20:37:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "20:41:00",
+        "departureTime": "20:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "20:50:00",
+        "departureTime": "20:50:00",
         "isPassing": false
       }
     ],
-    "trainId": "33388",
-    "customOrigin": "高崎"
+    "trainId": "33388"
   },
   {
     "tripId": "WD_INB_TK-07_1918_34208",
@@ -27983,6 +28191,7 @@
     "lineId": "takasaki",
     "trainNumber": "4007M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ7号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-21",
@@ -28583,6 +28792,7 @@
     "lineId": "takasaki",
     "trainNumber": "3933M",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -29165,6 +29375,7 @@
     "lineId": "takasaki",
     "trainNumber": "4009M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ9号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -30530,7 +30741,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -30604,12 +30815,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "21:23:00",
-        "departureTime": "21:23:00",
+        "departureTime": "21:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "21:25:55",
+        "departureTime": "21:25:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "21:31:00",
+        "departureTime": "21:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "21:41:00",
+        "departureTime": "21:41:00",
         "isPassing": false
       }
     ],
-    "trainId": "33417",
-    "customOrigin": "籠原"
+    "trainId": "33417"
   },
   {
     "tripId": "WD_INB_TK-07_2037_34195",
@@ -31226,6 +31454,7 @@
     "lineId": "takasaki",
     "trainNumber": "8081M",
     "trainType": "limitedExp",
+    "trainName": "あかぎ81号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-21",
@@ -31478,7 +31707,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": false,
@@ -31594,12 +31823,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "22:24:00",
-        "departureTime": "22:24:00",
+        "departureTime": "22:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "22:27:22",
+        "departureTime": "22:27:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "22:31:00",
+        "departureTime": "22:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "22:39:00",
+        "departureTime": "22:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "33380",
-    "customOrigin": "高崎"
+    "trainId": "33380"
   },
   {
     "tripId": "WD_OUT_TK-02_2107_34517",
@@ -32034,7 +32280,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
@@ -32108,12 +32354,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "22:10:00",
-        "departureTime": "22:10:00",
+        "departureTime": "22:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "22:12:22",
+        "departureTime": "22:12:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "22:16:00",
+        "departureTime": "22:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "22:25:00",
+        "departureTime": "22:25:00",
         "isPassing": false
       }
     ],
-    "trainId": "33420",
-    "customOrigin": "籠原"
+    "trainId": "33420"
   },
   {
     "tripId": "WD_OUT_TK-02_2126_34390",
@@ -35755,7 +36018,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -35829,12 +36092,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "06:06:00",
-        "departureTime": "06:06:00",
+        "departureTime": "06:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "06:08:39",
+        "departureTime": "06:08:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "06:13:00",
+        "departureTime": "06:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "06:21:00",
+        "departureTime": "06:22:00",
         "isPassing": false
       }
     ],
-    "trainId": "33415",
-    "customOrigin": "籠原"
+    "trainId": "33415"
   },
   {
     "tripId": "HD_INB_TK-25_0524_34100",
@@ -39101,12 +39381,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "08:19:00",
-        "departureTime": "08:19:00",
+        "departureTime": "08:20:00",
         "isPassing": false
       }
     ],
     "trainId": "33356",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "HD_OUT_JS-24_0820_33356",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-19_0707_34147",
@@ -40444,9 +40726,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "34202",
-    "throughTripId": "HD_OUT_JS-24_0820_33356",
-    "throughLineId": "shonan_shinjuku"
+    "trainId": "34202"
   },
   {
     "tripId": "HD_OUT_TK-04_0754_33539",
@@ -40705,6 +40985,7 @@
     "lineId": "takasaki",
     "trainNumber": "9073M",
     "trainType": "limitedExp",
+    "trainName": "谷川岳もぐら",
     "direction": "outbound",
     "originStationId": "TK-07",
     "destinationStationId": "TK-25",
@@ -40841,7 +41122,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -40957,12 +41238,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "09:24:00",
-        "departureTime": "09:24:00",
+        "departureTime": "09:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "09:27:39",
+        "departureTime": "09:27:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "09:32:00",
+        "departureTime": "09:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "09:41:00",
+        "departureTime": "09:41:00",
         "isPassing": false
       }
     ],
-    "trainId": "33357",
-    "customOrigin": "高崎"
+    "trainId": "33357"
   },
   {
     "tripId": "HD_INB_TK-25_0814_33437",
@@ -41581,6 +41879,7 @@
     "lineId": "takasaki",
     "trainNumber": "3920E",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -42381,6 +42680,7 @@
     "lineId": "takasaki",
     "trainNumber": "4031M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万31号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -42706,7 +43006,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
@@ -42780,12 +43080,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "09:53:00",
-        "departureTime": "09:53:00",
+        "departureTime": "09:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "09:58:39",
+        "departureTime": "09:58:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:12:00",
         "isPassing": false
       }
     ],
-    "trainId": "33393",
-    "customOrigin": "籠原"
+    "trainId": "33393"
   },
   {
     "tripId": "HD_INB_TK-07_0905_34222",
@@ -43256,12 +43573,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "10:26:00",
-        "departureTime": "10:26:00",
+        "departureTime": "10:27:00",
         "isPassing": false
       }
     ],
     "trainId": "33358",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "HD_OUT_JS-24_1027_33358",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-18_0917_13938",
@@ -43718,6 +44037,7 @@
     "lineId": "takasaki",
     "trainNumber": "3922E",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -44564,6 +44884,7 @@
     "lineId": "takasaki",
     "trainNumber": "3001M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万1号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -44777,7 +45098,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
@@ -44851,12 +45172,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "10:56:00",
-        "departureTime": "10:56:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "10:58:22",
+        "departureTime": "10:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "11:02:00",
+        "departureTime": "11:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "11:11:00",
+        "departureTime": "11:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33396",
-    "customOrigin": "籠原"
+    "trainId": "33396"
   },
   {
     "tripId": "HD_OUT_TK-02_1014_34350",
@@ -45143,12 +45481,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "11:26:00",
-        "departureTime": "11:26:00",
+        "departureTime": "11:28:00",
         "isPassing": false
       }
     ],
     "trainId": "33361",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "HD_OUT_JS-24_1128_33361",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-07_1024_34253",
@@ -46137,6 +46477,7 @@
     "lineId": "takasaki",
     "trainNumber": "9083M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万83号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -46508,7 +46849,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
@@ -46582,12 +46923,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "11:56:00",
-        "departureTime": "11:56:00",
+        "departureTime": "11:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "11:58:39",
+        "departureTime": "11:58:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "12:03:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "12:11:00",
+        "departureTime": "12:12:00",
         "isPassing": false
       }
     ],
-    "trainId": "33398",
-    "customOrigin": "籠原"
+    "trainId": "33398"
   },
   {
     "tripId": "HD_INB_TK-25_1114_33362",
@@ -46712,12 +47070,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "12:26:00",
-        "departureTime": "12:26:00",
+        "departureTime": "12:27:00",
         "isPassing": false
       }
     ],
     "trainId": "33362",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "HD_OUT_JS-24_1227_33362",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-07_1123_34184",
@@ -47962,6 +48322,7 @@
     "lineId": "takasaki",
     "trainNumber": "3003M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万3号",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -48123,7 +48484,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
@@ -48197,12 +48558,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "12:56:00",
-        "departureTime": "12:56:00",
+        "departureTime": "12:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "12:58:22",
+        "departureTime": "12:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "13:02:00",
+        "departureTime": "13:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "13:11:00",
+        "departureTime": "13:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33400",
-    "customOrigin": "籠原"
+    "trainId": "33400"
   },
   {
     "tripId": "HD_INB_TK-25_1214_33365",
@@ -48327,12 +48705,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "13:26:00",
-        "departureTime": "13:26:00",
+        "departureTime": "13:27:00",
         "isPassing": false
       }
     ],
     "trainId": "33365",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "HD_OUT_JS-24_1327_33365",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-07_1225_34187",
@@ -49785,12 +50165,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "14:26:00",
-        "departureTime": "14:26:00",
+        "departureTime": "14:27:00",
         "isPassing": false
       }
     ],
     "trainId": "33366",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "HD_OUT_JS-24_1427_33366",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-07_1323_34236",
@@ -51063,6 +51445,7 @@
     "lineId": "takasaki",
     "trainNumber": "3002M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万2号",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-02",
@@ -51433,12 +51816,14 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "15:26:00",
-        "departureTime": "15:26:00",
+        "departureTime": "15:28:00",
         "isPassing": false
       }
     ],
     "trainId": "33368",
-    "customOrigin": "高崎"
+    "customOrigin": "高崎",
+    "throughTripId": "HD_OUT_JS-24_1528_33368",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-07_1423_34237",
@@ -52464,9 +52849,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "34265",
-    "throughTripId": "HD_OUT_JS-24_1528_33368",
-    "throughLineId": "shonan_shinjuku"
+    "trainId": "34265"
   },
   {
     "tripId": "HD_OUT_TK-02_1505_34314",
@@ -52683,6 +53066,7 @@
     "lineId": "takasaki",
     "trainNumber": "4034M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万34号",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-02",
@@ -52847,7 +53231,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
@@ -52921,12 +53305,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "15:56:00",
-        "departureTime": "15:56:00",
+        "departureTime": "15:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "15:58:22",
+        "departureTime": "15:58:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "16:02:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "16:11:00",
+        "departureTime": "16:11:00",
         "isPassing": false
       }
     ],
-    "trainId": "33404",
-    "customOrigin": "籠原"
+    "trainId": "33404"
   },
   {
     "tripId": "HD_INB_TK-25_1515_33371",
@@ -52935,7 +53336,7 @@
     "trainType": "special_rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-04",
+    "destinationStationId": "TK-07",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -53053,27 +53454,12 @@
         "arrivalTime": "16:26:00",
         "departureTime": "16:27:00",
         "isPassing": false
-      },
-      {
-        "stationId": "TK-06",
-        "arrivalTime": "16:28:39",
-        "departureTime": "16:28:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "TK-05",
-        "arrivalTime": "16:33:00",
-        "departureTime": "16:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "TK-04",
-        "arrivalTime": "16:42:00",
-        "departureTime": "16:42:00",
-        "isPassing": false
       }
     ],
-    "trainId": "33371"
+    "trainId": "33371",
+    "customOrigin": "高崎",
+    "throughTripId": "HD_OUT_JS-24_1627_33371",
+    "throughLineId": "shonan_shinjuku"
   },
   {
     "tripId": "HD_INB_TK-07_1521_34240",
@@ -54219,9 +54605,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "34267",
-    "throughTripId": "HD_OUT_JS-24_1627_33371",
-    "throughLineId": "shonan_shinjuku"
+    "trainId": "34267"
   },
   {
     "tripId": "HD_OUT_TK-02_1605_34332",
@@ -54482,7 +54866,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -54598,12 +54982,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "17:29:00",
-        "departureTime": "17:29:00",
+        "departureTime": "17:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "17:31:22",
+        "departureTime": "17:31:22",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "17:35:00",
+        "departureTime": "17:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "17:44:00",
+        "departureTime": "17:44:00",
         "isPassing": false
       }
     ],
-    "trainId": "33384",
-    "customOrigin": "高崎"
+    "trainId": "33384"
   },
   {
     "tripId": "HD_INB_TK-18_1613_33406",
@@ -54612,7 +55013,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
@@ -54686,12 +55087,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "16:59:00",
-        "departureTime": "16:59:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "17:01:39",
+        "departureTime": "17:01:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:15:00",
         "isPassing": false
       }
     ],
-    "trainId": "33406",
-    "customOrigin": "籠原"
+    "trainId": "33406"
   },
   {
     "tripId": "HD_INB_TK-07_1624_34242",
@@ -54700,7 +55118,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TK-07",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-02",
     "customOrigin": "古河",
     "customDestination": "小田原",
     "cars": 15,
@@ -54709,7 +55127,37 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "16:23:00",
-        "departureTime": "16:23:00",
+        "departureTime": "16:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "16:26:00",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "16:31:00",
+        "departureTime": "16:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "16:39:00",
+        "departureTime": "16:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-03",
+        "arrivalTime": "16:44:00",
+        "departureTime": "16:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-02",
+        "arrivalTime": "16:50:00",
+        "departureTime": "16:51:00",
         "isPassing": false
       }
     ],
@@ -55670,6 +56118,7 @@
     "lineId": "takasaki",
     "trainNumber": "3004M",
     "trainType": "limitedExp",
+    "trainName": "草津・四万4号",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-02",
@@ -56928,6 +57377,7 @@
     "lineId": "takasaki",
     "trainNumber": "9076M",
     "trainType": "limitedExp",
+    "trainName": "谷川岳ループ",
     "direction": "inbound",
     "originStationId": "TK-25",
     "destinationStationId": "TK-07",
@@ -59138,6 +59588,7 @@
     "lineId": "takasaki",
     "trainNumber": "3931M",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -60976,7 +61427,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -61092,12 +61543,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "20:33:00",
-        "departureTime": "20:33:00",
+        "departureTime": "20:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "20:35:39",
+        "departureTime": "20:35:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "20:48:00",
+        "departureTime": "20:48:00",
         "isPassing": false
       }
     ],
-    "trainId": "33387",
-    "customOrigin": "高崎"
+    "trainId": "33387"
   },
   {
     "tripId": "HD_INB_TK-07_1919_34269",
@@ -61156,6 +61624,7 @@
     "lineId": "takasaki",
     "trainNumber": "3933M",
     "trainType": "rapid_urban",
+    "trainName": "アーバン",
     "direction": "outbound",
     "originStationId": "TK-02",
     "destinationStationId": "TK-25",
@@ -61688,7 +62157,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TK-07",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-02",
     "customOrigin": "宇都宮",
     "customDestination": "小田原",
     "cars": 15,
@@ -61697,7 +62166,37 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "19:32:00",
-        "departureTime": "19:32:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "19:39:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "19:43:00",
+        "departureTime": "19:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-03",
+        "arrivalTime": "19:57:00",
+        "departureTime": "19:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-02",
+        "arrivalTime": "20:04:00",
+        "departureTime": "20:06:00",
         "isPassing": false
       }
     ],
@@ -63349,7 +63848,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -63423,12 +63922,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "21:23:00",
-        "departureTime": "21:23:00",
+        "departureTime": "21:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "21:27:55",
+        "departureTime": "21:27:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "21:33:00",
+        "departureTime": "21:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "21:41:00",
+        "departureTime": "21:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "33418",
-    "customOrigin": "籠原"
+    "trainId": "33418"
   },
   {
     "tripId": "HD_OUT_TK-04_2040_33508",
@@ -64319,7 +64835,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-25",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": true,
@@ -64435,12 +64951,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "22:24:00",
-        "departureTime": "22:24:00",
+        "departureTime": "22:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "22:26:39",
+        "departureTime": "22:26:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "22:31:00",
+        "departureTime": "22:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "22:39:00",
+        "departureTime": "22:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "33379",
-    "customOrigin": "高崎"
+    "trainId": "33379"
   },
   {
     "tripId": "HD_OUT_TK-02_2106_34518",
@@ -64663,7 +65196,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "TK-18",
-    "destinationStationId": "TK-07",
+    "destinationStationId": "TK-04",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
@@ -64737,12 +65270,29 @@
       {
         "stationId": "TK-07",
         "arrivalTime": "22:09:00",
-        "departureTime": "22:09:00",
+        "departureTime": "22:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-06",
+        "arrivalTime": "22:11:39",
+        "departureTime": "22:11:39",
+        "isPassing": true
+      },
+      {
+        "stationId": "TK-05",
+        "arrivalTime": "22:16:00",
+        "departureTime": "22:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TK-04",
+        "arrivalTime": "22:24:00",
+        "departureTime": "22:25:00",
         "isPassing": false
       }
     ],
-    "trainId": "33419",
-    "customOrigin": "籠原"
+    "trainId": "33419"
   },
   {
     "tripId": "HD_INB_TK-07_2125_5752",
