@@ -82,13 +82,14 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
 
   // CSVダウンロード
   const handleDownloadCsv = () => {
-    let csv = `時,分,種別,行先,列車番号\n`;
+    let csv = `時,分,種別,列車名,行先,列車番号\n`;
     for (const row of fullDayData) {
       const departures = direction === 'inbound' ? row.inbound : row.outbound;
       for (const dep of departures) {
         const typeName = trainTypesMap[dep.type]?.name || dep.type;
         const csvHour = row.hour >= 24 ? String(row.hour - 24) : String(row.hour);
-        csv += `${csvHour},${dep.time},${typeName},${dep.destination},${formatTrainNumber(dep.trainNumber, dep.tripId)}\n`;
+        const trainName = dep.trainName || '';
+        csv += `${csvHour},${dep.time},${typeName},${trainName},${dep.destination},${formatTrainNumber(dep.trainNumber, dep.tripId)}\n`;
       }
     }
     const blob = new Blob([new Uint8Array([0xef, 0xbb, 0xbf]), csv], { type: 'text/csv;charset=utf-8;' });
@@ -247,7 +248,7 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
                             <div
                               key={idx}
                               className="group relative flex flex-col items-center cursor-default"
-                              title={`${conf.name} ${dep.destination}行 (${formatTrainNumber(dep.trainNumber, dep.tripId)})`}
+                              title={`${conf.name}${dep.trainName ? ` ${dep.trainName}` : ''} ${dep.destination}行 (${formatTrainNumber(dep.trainNumber, dep.tripId)})`}
                             >
                               <div
                                 className="px-2 py-1 rounded text-xs font-black font-mono shadow-2xs transition-transform group-hover:scale-110 text-white"
@@ -255,14 +256,26 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
                               >
                                 {dep.time}
                               </div>
-                              <span className="text-[10px] text-slate-500 font-sans mt-0.5 max-w-[42px] truncate">
+                              <span className="text-[10px] text-slate-500 font-sans mt-0.5 max-w-[48px] truncate text-center">
                                 {dep.destination}
                               </span>
+                              {dep.trainName && (
+                                <span
+                                  className="text-[9px] text-amber-600 font-bold font-sans max-w-[56px] truncate leading-tight mt-0.5 text-center"
+                                  title={dep.trainName}
+                                >
+                                  {dep.trainName}
+                                </span>
+                              )}
 
                               {/* ホバーツールチップ */}
-                              <div className="absolute bottom-full mb-1 hidden group-hover:flex flex-col items-center z-50 whitespace-nowrap bg-slate-900 text-white text-[11px] py-1 px-2 rounded shadow-lg">
-                                <span className="font-bold">{conf.name} {dep.destination}行</span>
-                                <span className="text-[10px] text-slate-300">{row.hour}:{dep.time}発 ({formatTrainNumber(dep.trainNumber, dep.tripId)})</span>
+                              <div className="absolute bottom-full mb-1 hidden group-hover:flex flex-col items-center z-50 whitespace-nowrap bg-slate-900 text-white text-[11px] py-1 px-2 rounded shadow-lg pointer-events-none">
+                                <span className="font-bold">
+                                  {conf.name} {dep.trainName ? `${dep.trainName} ` : ''}{dep.destination}行
+                                </span>
+                                <span className="text-[10px] text-slate-300">
+                                  {row.hour}:{dep.time}発 ({formatTrainNumber(dep.trainNumber, dep.tripId)})
+                                </span>
                               </div>
                             </div>
                           );

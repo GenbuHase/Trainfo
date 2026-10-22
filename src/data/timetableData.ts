@@ -193,24 +193,7 @@ export function getStationDepartures(
         destId = direction === 'outbound' ? lineTerminusStationId : lineOriginStationId;
       }
       const depTime = `${d.h.toString().padStart(2, '0')}:${d.m.toString().padStart(2, '0')}:00`;
-      let trainName: string | undefined;
-      if (d.tripId) {
-        const fullTrip = getGlobalTripMap().get(d.tripId);
-        if (fullTrip?.trainName) {
-          trainName = fullTrip.trainName;
-        }
-      }
-      if (!trainName && d.trainName) {
-        trainName = d.trainName;
-      }
-      if (!trainName && d.no) {
-        const matched = Array.from(getGlobalTripMap().values()).find(
-          (t) => t.trainNumber === d.no && t.trainName
-        );
-        if (matched?.trainName) {
-          trainName = matched.trainName;
-        }
-      }
+      const trainName = resolveDepartureTrainName(d);
 
       return {
         tripId: d.tripId || `DEP_${stationId}_${direction}_${d.h}_${d.m}_${idx}`,
@@ -243,11 +226,20 @@ export function getStationDepartures(
 }
 
 // 特定駅の全日時刻表（1時間ごと）を取得
+export interface HourlyStationTimetableItem {
+  time: string;
+  tripId: string;
+  trainNumber: string;
+  type: TrainTypeKey;
+  destination: string;
+  trainName?: string;
+}
+
 export interface HourlyStationTimetable {
   hour: number;
   displayHour: string;
-  inbound: { time: string; tripId: string; trainNumber: string; type: TrainTypeKey; destination: string }[];
-  outbound: { time: string; tripId: string; trainNumber: string; type: TrainTypeKey; destination: string }[];
+  inbound: HourlyStationTimetableItem[];
+  outbound: HourlyStationTimetableItem[];
 }
 
 export function getFullDayStationTimetable(
@@ -302,10 +294,12 @@ export function getFullDayStationTimetable(
     const targetHour = mapTo24hCycle(dep.h);
     const target = hourly.find((item) => item.hour === targetHour);
     if (target) {
+      const trainName = resolveDepartureTrainName(dep);
       target.inbound.push({
         time: dep.time,
-        tripId: `IN_${stationId}_${dep.h}_${dep.m}_${dep.no}`,
+        tripId: dep.tripId || `IN_${stationId}_${dep.h}_${dep.m}_${dep.no}`,
         trainNumber: dep.no,
+        trainName,
         type: dep.t,
         destination: dep.d,
       });
@@ -316,10 +310,12 @@ export function getFullDayStationTimetable(
     const targetHour = mapTo24hCycle(dep.h);
     const target = hourly.find((item) => item.hour === targetHour);
     if (target) {
+      const trainName = resolveDepartureTrainName(dep);
       target.outbound.push({
         time: dep.time,
-        tripId: `OUT_${stationId}_${dep.h}_${dep.m}_${dep.no}`,
+        tripId: dep.tripId || `OUT_${stationId}_${dep.h}_${dep.m}_${dep.no}`,
         trainNumber: dep.no,
+        trainName,
         type: dep.t,
         destination: dep.d,
       });
@@ -337,19 +333,25 @@ export function getFullDayStationTimetable(
 // 全路線の全トリップの高速ルックアップ用Map（動的初期化）
 let _globalTripMap: Map<string, TimetableTrip> | null = null;
 let _globalTrainIdMap: Map<string, TimetableTrip[]> | null = null;
+let _globalTrainNameByNumberMap: Map<string, string> | null = null;
 
 export function invalidateGlobalTripMaps() {
   _globalTripMap = null;
   _globalTrainIdMap = null;
+  _globalTrainNameByNumberMap = null;
 }
 
 function ensureGlobalMaps() {
-  if (!_globalTripMap || !_globalTrainIdMap) {
+  if (!_globalTripMap || !_globalTrainIdMap || !_globalTrainNameByNumberMap) {
     _globalTripMap = new Map();
     _globalTrainIdMap = new Map();
+    _globalTrainNameByNumberMap = new Map();
     const trips = getCombinedGlobalTimetable();
     for (const trip of trips) {
       _globalTripMap.set(trip.tripId, trip);
+      if (trip.trainName && trip.trainNumber) {
+        _globalTrainNameByNumberMap.set(trip.trainNumber, trip.trainName);
+      }
       if (trip.trainId) {
         if (!_globalTrainIdMap.has(trip.trainId)) {
           _globalTrainIdMap.set(trip.trainId, []);
@@ -358,6 +360,22 @@ function ensureGlobalMaps() {
       }
     }
   }
+}
+
+/**
+ * 発車標・全日時刻表データから固有列車名称（愛称・号数）を高速解決
+ */
+export function resolveDepartureTrainName(d: RawStationDeparture): string | undefined {
+  if (d.trainName) return d.trainName;
+  if (d.tripId) {
+    const fullTrip = getGlobalTripMap().get(d.tripId);
+    if (fullTrip?.trainName) return fullTrip.trainName;
+  }
+  ensureGlobalMaps();
+  if (d.no && _globalTrainNameByNumberMap?.has(d.no)) {
+    return _globalTrainNameByNumberMap.get(d.no);
+  }
+  return undefined;
 }
 
 export function getGlobalTripMap(): Map<string, TimetableTrip> {
