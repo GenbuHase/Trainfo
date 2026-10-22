@@ -2,7 +2,7 @@
   {
     "tripId": "WD_OUT_OH-23_0003_95667",
     "lineId": "odakyu_tama",
-    "trainNumber": "95667",
+    "trainNumber": "7903レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -59,12 +59,13 @@
         "departureTime": "00:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95667"
   },
   {
     "tripId": "WD_INB_OT-07_0007_95968",
     "lineId": "odakyu_tama",
-    "trainNumber": "95968",
+    "trainNumber": "7696レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -120,12 +121,13 @@
         "departureTime": "00:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95968"
   },
   {
     "tripId": "WD_OUT_OH-23_0015_95669",
     "lineId": "odakyu_tama",
-    "trainNumber": "95669",
+    "trainNumber": "7905レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -182,12 +184,13 @@
         "departureTime": "00:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95669"
   },
   {
     "tripId": "WD_OUT_OH-23_0028_95671",
     "lineId": "odakyu_tama",
-    "trainNumber": "95671",
+    "trainNumber": "7907レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -244,12 +247,13 @@
         "departureTime": "00:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95671"
   },
   {
     "tripId": "WD_OUT_OH-23_0045_95672",
     "lineId": "odakyu_tama",
-    "trainNumber": "95672",
+    "trainNumber": "7909レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -306,12 +310,13 @@
         "departureTime": "00:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95672"
   },
   {
     "tripId": "WD_INB_OT-07_0455_95874",
     "lineId": "odakyu_tama",
-    "trainNumber": "95874",
+    "trainNumber": "7900レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -368,12 +373,15 @@
         "departureTime": "05:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95874",
+    "throughTripId": "WD_INB_OH-23_0515_95874",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_INB_OT-07_0517_95876",
     "lineId": "odakyu_tama",
-    "trainNumber": "95876",
+    "trainNumber": "7902レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -430,12 +438,15 @@
         "departureTime": "05:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95876",
+    "throughTripId": "WD_INB_OH-23_0532_95876",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_INB_OT-07_0537_95880",
     "lineId": "odakyu_tama",
-    "trainNumber": "95880",
+    "trainNumber": "7600レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -491,12 +502,13 @@
         "departureTime": "05:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95880"
   },
   {
     "tripId": "WD_OUT_OH-23_0542_95572",
     "lineId": "odakyu_tama",
-    "trainNumber": "95572",
+    "trainNumber": "7601レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -552,12 +564,13 @@
         "departureTime": "05:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95572"
   },
   {
     "tripId": "WD_INB_OT-07_0549_95882",
     "lineId": "odakyu_tama",
-    "trainNumber": "95882",
+    "trainNumber": "7602レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -613,12 +626,13 @@
         "departureTime": "06:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95882"
   },
   {
     "tripId": "WD_INB_OT-07_0556_95785",
     "lineId": "odakyu_tama",
-    "trainNumber": "95785",
+    "trainNumber": "2700レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -675,12 +689,15 @@
         "departureTime": "06:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95785",
+    "throughTripId": "WD_INB_OH-23_0612_95785",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_0602_95574",
     "lineId": "odakyu_tama",
-    "trainNumber": "95574",
+    "trainNumber": "7603レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -736,12 +753,13 @@
         "departureTime": "06:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95574"
   },
   {
     "tripId": "WD_INB_OT-07_0603_95884",
     "lineId": "odakyu_tama",
-    "trainNumber": "95884",
+    "trainNumber": "7604レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -797,12 +815,13 @@
         "departureTime": "06:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95884"
   },
   {
     "tripId": "WD_INB_OT-07_0611_95786",
     "lineId": "odakyu_tama",
-    "trainNumber": "95786",
+    "trainNumber": "2702レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -859,12 +878,15 @@
         "departureTime": "06:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95786",
+    "throughTripId": "WD_INB_OH-23_0628_95786",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_0613_95575",
     "lineId": "odakyu_tama",
-    "trainNumber": "95575",
+    "trainNumber": "7605レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -920,12 +942,13 @@
         "departureTime": "06:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95575"
   },
   {
     "tripId": "WD_INB_OT-07_0620_95878",
     "lineId": "odakyu_tama",
-    "trainNumber": "95878",
+    "trainNumber": "7904レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -982,12 +1005,15 @@
         "departureTime": "06:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95878",
+    "throughTripId": "WD_INB_OH-23_0638_95878",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_0627_95577",
     "lineId": "odakyu_tama",
-    "trainNumber": "95577",
+    "trainNumber": "7607レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -1043,12 +1069,13 @@
         "departureTime": "06:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95577"
   },
   {
     "tripId": "WD_INB_OT-07_0630_95886",
     "lineId": "odakyu_tama",
-    "trainNumber": "95886",
+    "trainNumber": "7606レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -1104,12 +1131,13 @@
         "departureTime": "06:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95886"
   },
   {
     "tripId": "WD_INB_OT-07_0634_95782",
     "lineId": "odakyu_tama",
-    "trainNumber": "95782",
+    "trainNumber": "3800レ",
     "trainType": "commuter_exp",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -1166,12 +1194,15 @@
         "departureTime": "06:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95782",
+    "throughTripId": "WD_INB_OH-23_0648_95782",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_INB_OT-07_0637_95888",
     "lineId": "odakyu_tama",
-    "trainNumber": "95888",
+    "trainNumber": "7608レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -1227,12 +1258,13 @@
         "departureTime": "06:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95888"
   },
   {
     "tripId": "WD_OUT_OH-23_0643_95579",
     "lineId": "odakyu_tama",
-    "trainNumber": "95579",
+    "trainNumber": "7609レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -1288,12 +1320,13 @@
         "departureTime": "06:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95579"
   },
   {
     "tripId": "WD_INB_OT-07_0647_95890",
     "lineId": "odakyu_tama",
-    "trainNumber": "95890",
+    "trainNumber": "7610レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -1349,12 +1382,13 @@
         "departureTime": "07:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95890"
   },
   {
     "tripId": "WD_INB_OT-06_0655_95774",
     "lineId": "odakyu_tama",
-    "trainNumber": "95774",
+    "trainNumber": "3902レ",
     "trainType": "commuter_exp",
     "direction": "inbound",
     "originStationId": "OT-06",
@@ -1405,12 +1439,15 @@
         "departureTime": "07:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95774",
+    "throughTripId": "WD_INB_OH-23_0705_95774",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_0659_95581",
     "lineId": "odakyu_tama",
-    "trainNumber": "95581",
+    "trainNumber": "7611レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -1466,12 +1503,13 @@
         "departureTime": "07:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95581"
   },
   {
     "tripId": "WD_INB_OT-07_0700_95892",
     "lineId": "odakyu_tama",
-    "trainNumber": "95892",
+    "trainNumber": "7612レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -1527,12 +1565,13 @@
         "departureTime": "07:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95892"
   },
   {
     "tripId": "WD_OUT_OH-23_0707_95583",
     "lineId": "odakyu_tama",
-    "trainNumber": "95583",
+    "trainNumber": "7613レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -1588,12 +1627,13 @@
         "departureTime": "07:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95583"
   },
   {
     "tripId": "WD_INB_OT-06_0707_95775",
     "lineId": "odakyu_tama",
-    "trainNumber": "95775",
+    "trainNumber": "3904レ",
     "trainType": "commuter_exp",
     "direction": "inbound",
     "originStationId": "OT-06",
@@ -1644,12 +1684,15 @@
         "departureTime": "07:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95775",
+    "throughTripId": "WD_INB_OH-23_0717_95775",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_INB_OT-07_0709_95893",
     "lineId": "odakyu_tama",
-    "trainNumber": "95893",
+    "trainNumber": "7614レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -1705,12 +1748,13 @@
         "departureTime": "07:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95893"
   },
   {
     "tripId": "WD_OUT_OH-23_0713_95584",
     "lineId": "odakyu_tama",
-    "trainNumber": "95584",
+    "trainNumber": "7615レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -1766,12 +1810,13 @@
         "departureTime": "07:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95584"
   },
   {
     "tripId": "WD_INB_OT-07_0714_95783",
     "lineId": "odakyu_tama",
-    "trainNumber": "95783",
+    "trainNumber": "3806レ",
     "trainType": "commuter_exp",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -1828,12 +1873,15 @@
         "departureTime": "07:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95783",
+    "throughTripId": "WD_INB_OH-23_0727_95783",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_INB_OT-07_0718_95895",
     "lineId": "odakyu_tama",
-    "trainNumber": "95895",
+    "trainNumber": "7616レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -1889,12 +1937,13 @@
         "departureTime": "07:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95895"
   },
   {
     "tripId": "WD_OUT_OH-23_0719_95586",
     "lineId": "odakyu_tama",
-    "trainNumber": "95586",
+    "trainNumber": "7617レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -1950,12 +1999,13 @@
         "departureTime": "07:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95586"
   },
   {
     "tripId": "WD_OUT_OH-23_0725_95587",
     "lineId": "odakyu_tama",
-    "trainNumber": "95587",
+    "trainNumber": "7619レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -2011,12 +2061,13 @@
         "departureTime": "07:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95587"
   },
   {
     "tripId": "WD_INB_OT-06_0727_95776",
     "lineId": "odakyu_tama",
-    "trainNumber": "95776",
+    "trainNumber": "3908レ",
     "trainType": "commuter_exp",
     "direction": "inbound",
     "originStationId": "OT-06",
@@ -2067,12 +2118,15 @@
         "departureTime": "07:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95776",
+    "throughTripId": "WD_INB_OH-23_0737_95776",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_INB_OT-07_0730_95896",
     "lineId": "odakyu_tama",
-    "trainNumber": "95896",
+    "trainNumber": "7618レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -2128,12 +2182,13 @@
         "departureTime": "07:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95896"
   },
   {
     "tripId": "WD_OUT_OH-23_0734_95589",
     "lineId": "odakyu_tama",
-    "trainNumber": "95589",
+    "trainNumber": "7621レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -2189,12 +2244,13 @@
         "departureTime": "07:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95589"
   },
   {
     "tripId": "WD_INB_OT-06_0736_95777",
     "lineId": "odakyu_tama",
-    "trainNumber": "95777",
+    "trainNumber": "3910レ",
     "trainType": "commuter_exp",
     "direction": "inbound",
     "originStationId": "OT-06",
@@ -2245,12 +2301,15 @@
         "departureTime": "07:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95777",
+    "throughTripId": "WD_INB_OH-23_0747_95777",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_INB_OT-07_0740_95898",
     "lineId": "odakyu_tama",
-    "trainNumber": "95898",
+    "trainNumber": "7620レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -2306,12 +2365,13 @@
         "departureTime": "07:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95898"
   },
   {
     "tripId": "WD_OUT_OH-23_0742_95590",
     "lineId": "odakyu_tama",
-    "trainNumber": "95590",
+    "trainNumber": "7623レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -2367,12 +2427,13 @@
         "departureTime": "07:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95590"
   },
   {
     "tripId": "WD_INB_OT-07_0744_95784",
     "lineId": "odakyu_tama",
-    "trainNumber": "95784",
+    "trainNumber": "3812レ",
     "trainType": "commuter_exp",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -2429,12 +2490,15 @@
         "departureTime": "07:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95784",
+    "throughTripId": "WD_INB_OH-23_0757_95784",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_INB_OT-07_0749_95899",
     "lineId": "odakyu_tama",
-    "trainNumber": "95899",
+    "trainNumber": "7622レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -2490,12 +2554,13 @@
         "departureTime": "08:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95899"
   },
   {
     "tripId": "WD_OUT_OH-23_0751_95773",
     "lineId": "odakyu_tama",
-    "trainNumber": "95773",
+    "trainNumber": "3701レ",
     "trainType": "rapidExp",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -2552,12 +2617,13 @@
         "departureTime": "08:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95773"
   },
   {
     "tripId": "WD_OUT_OH-23_0753_95591",
     "lineId": "odakyu_tama",
-    "trainNumber": "95591",
+    "trainNumber": "7625レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -2613,12 +2679,13 @@
         "departureTime": "08:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95591"
   },
   {
     "tripId": "WD_INB_OT-06_0757_95778",
     "lineId": "odakyu_tama",
-    "trainNumber": "95778",
+    "trainNumber": "3914レ",
     "trainType": "commuter_exp",
     "direction": "inbound",
     "originStationId": "OT-06",
@@ -2669,12 +2736,15 @@
         "departureTime": "08:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95778",
+    "throughTripId": "WD_INB_OH-23_0808_95778",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_0801_95593",
     "lineId": "odakyu_tama",
-    "trainNumber": "95593",
+    "trainNumber": "7627レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -2730,12 +2800,13 @@
         "departureTime": "08:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95593"
   },
   {
     "tripId": "WD_INB_OT-07_0801_95901",
     "lineId": "odakyu_tama",
-    "trainNumber": "95901",
+    "trainNumber": "7624レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -2791,12 +2862,13 @@
         "departureTime": "08:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95901"
   },
   {
     "tripId": "WD_OUT_OH-23_0808_95594",
     "lineId": "odakyu_tama",
-    "trainNumber": "95594",
+    "trainNumber": "7629レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -2852,12 +2924,13 @@
         "departureTime": "08:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95594"
   },
   {
     "tripId": "WD_INB_OT-06_0810_95779",
     "lineId": "odakyu_tama",
-    "trainNumber": "95779",
+    "trainNumber": "3916レ",
     "trainType": "commuter_exp",
     "direction": "inbound",
     "originStationId": "OT-06",
@@ -2908,12 +2981,15 @@
         "departureTime": "08:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95779",
+    "throughTripId": "WD_INB_OH-23_0821_95779",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_INB_OT-07_0811_95902",
     "lineId": "odakyu_tama",
-    "trainNumber": "95902",
+    "trainNumber": "7626レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -2969,12 +3045,13 @@
         "departureTime": "08:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95902"
   },
   {
     "tripId": "WD_OUT_OH-23_0812_95674",
     "lineId": "odakyu_tama",
-    "trainNumber": "95674",
+    "trainNumber": "3703レ",
     "trainType": "rapidExp",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -3031,12 +3108,13 @@
         "departureTime": "08:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95674"
   },
   {
     "tripId": "WD_INB_OT-07_0820_95904",
     "lineId": "odakyu_tama",
-    "trainNumber": "95904",
+    "trainNumber": "7628レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -3092,12 +3170,13 @@
         "departureTime": "08:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95904"
   },
   {
     "tripId": "WD_OUT_OH-23_0821_95596",
     "lineId": "odakyu_tama",
-    "trainNumber": "95596",
+    "trainNumber": "7631レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -3153,12 +3232,13 @@
         "departureTime": "08:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95596"
   },
   {
     "tripId": "WD_INB_OT-07_0828_95793",
     "lineId": "odakyu_tama",
-    "trainNumber": "95793",
+    "trainNumber": "2704レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -3215,12 +3295,15 @@
         "departureTime": "08:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95793",
+    "throughTripId": "WD_INB_OH-23_0844_95793",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_0832_95681",
     "lineId": "odakyu_tama",
-    "trainNumber": "95681",
+    "trainNumber": "2701レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -3277,12 +3360,13 @@
         "departureTime": "08:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95681"
   },
   {
     "tripId": "WD_INB_OT-07_0837_95906",
     "lineId": "odakyu_tama",
-    "trainNumber": "95906",
+    "trainNumber": "7630レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -3338,12 +3422,13 @@
         "departureTime": "08:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95906"
   },
   {
     "tripId": "WD_OUT_OH-23_0840_95598",
     "lineId": "odakyu_tama",
-    "trainNumber": "95598",
+    "trainNumber": "7633レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -3399,12 +3484,13 @@
         "departureTime": "08:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95598"
   },
   {
     "tripId": "WD_INB_OT-07_0845_95907",
     "lineId": "odakyu_tama",
-    "trainNumber": "95907",
+    "trainNumber": "7632レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -3460,12 +3546,13 @@
         "departureTime": "09:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95907"
   },
   {
     "tripId": "WD_OUT_OH-23_0846_95675",
     "lineId": "odakyu_tama",
-    "trainNumber": "95675",
+    "trainNumber": "3705レ",
     "trainType": "rapidExp",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -3522,12 +3609,13 @@
         "departureTime": "08:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95675"
   },
   {
     "tripId": "WD_OUT_OH-23_0850_95599",
     "lineId": "odakyu_tama",
-    "trainNumber": "95599",
+    "trainNumber": "7635レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -3583,12 +3671,13 @@
         "departureTime": "09:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95599"
   },
   {
     "tripId": "WD_INB_OT-07_0856_95795",
     "lineId": "odakyu_tama",
-    "trainNumber": "95795",
+    "trainNumber": "2706レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -3645,12 +3734,15 @@
         "departureTime": "09:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95795",
+    "throughTripId": "WD_INB_OH-23_0911_95795",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_0858_95601",
     "lineId": "odakyu_tama",
-    "trainNumber": "95601",
+    "trainNumber": "7637レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -3706,12 +3798,13 @@
         "departureTime": "09:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95601"
   },
   {
     "tripId": "WD_OUT_OH-23_0907_95676",
     "lineId": "odakyu_tama",
-    "trainNumber": "95676",
+    "trainNumber": "3707レ",
     "trainType": "rapidExp",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -3768,12 +3861,13 @@
         "departureTime": "09:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95676"
   },
   {
     "tripId": "WD_INB_OT-07_0907_95909",
     "lineId": "odakyu_tama",
-    "trainNumber": "95909",
+    "trainNumber": "7634レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -3829,12 +3923,13 @@
         "departureTime": "09:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95909"
   },
   {
     "tripId": "WD_OUT_OH-23_0909_95602",
     "lineId": "odakyu_tama",
-    "trainNumber": "95602",
+    "trainNumber": "7639レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -3890,12 +3985,13 @@
         "departureTime": "09:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95602"
   },
   {
     "tripId": "WD_INB_OT-07_0918_95797",
     "lineId": "odakyu_tama",
-    "trainNumber": "95797",
+    "trainNumber": "2708レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -3952,12 +4048,15 @@
         "departureTime": "09:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95797",
+    "throughTripId": "WD_INB_OH-23_0934_95797",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_0922_95685",
     "lineId": "odakyu_tama",
-    "trainNumber": "95685",
+    "trainNumber": "2703レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -4014,12 +4113,13 @@
         "departureTime": "09:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95685"
   },
   {
     "tripId": "WD_INB_OT-07_0929_95911",
     "lineId": "odakyu_tama",
-    "trainNumber": "95911",
+    "trainNumber": "7636レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -4075,12 +4175,13 @@
         "departureTime": "09:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95911"
   },
   {
     "tripId": "WD_OUT_OH-23_0930_95604",
     "lineId": "odakyu_tama",
-    "trainNumber": "95604",
+    "trainNumber": "7641レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -4136,12 +4237,13 @@
         "departureTime": "09:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95604"
   },
   {
     "tripId": "WD_INB_OT-07_0941_95800",
     "lineId": "odakyu_tama",
-    "trainNumber": "95800",
+    "trainNumber": "2710レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -4198,12 +4300,15 @@
         "departureTime": "10:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95800",
+    "throughTripId": "WD_INB_OH-23_1000_95800",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_0942_95687",
     "lineId": "odakyu_tama",
-    "trainNumber": "95687",
+    "trainNumber": "2705レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -4260,12 +4365,13 @@
         "departureTime": "09:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95687"
   },
   {
     "tripId": "WD_INB_OT-07_0952_95913",
     "lineId": "odakyu_tama",
-    "trainNumber": "95913",
+    "trainNumber": "7638レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -4321,12 +4427,13 @@
         "departureTime": "10:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95913"
   },
   {
     "tripId": "WD_OUT_OH-23_0953_95688",
     "lineId": "odakyu_tama",
-    "trainNumber": "95688",
+    "trainNumber": "2707レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -4383,12 +4490,13 @@
         "departureTime": "10:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95688"
   },
   {
     "tripId": "WD_OUT_OH-23_1002_95689",
     "lineId": "odakyu_tama",
-    "trainNumber": "95689",
+    "trainNumber": "2709レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -4445,12 +4553,13 @@
         "departureTime": "10:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95689"
   },
   {
     "tripId": "WD_INB_OT-07_1004_95802",
     "lineId": "odakyu_tama",
-    "trainNumber": "95802",
+    "trainNumber": "2712レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -4507,12 +4616,15 @@
         "departureTime": "10:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95802",
+    "throughTripId": "WD_INB_OH-23_1021_95802",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1012_95691",
     "lineId": "odakyu_tama",
-    "trainNumber": "95691",
+    "trainNumber": "2711レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -4569,12 +4681,13 @@
         "departureTime": "10:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95691"
   },
   {
     "tripId": "WD_INB_OT-07_1014_42880",
     "lineId": "odakyu_tama",
-    "trainNumber": "42880",
+    "trainNumber": "2000レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -4631,12 +4744,15 @@
         "departureTime": "10:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42880",
+    "throughTripId": "WD_INB_OH-23_1032_42880",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1022_95694",
     "lineId": "odakyu_tama",
-    "trainNumber": "95694",
+    "trainNumber": "2713レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -4693,12 +4809,13 @@
         "departureTime": "10:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95694"
   },
   {
     "tripId": "WD_INB_OT-07_1024_95804",
     "lineId": "odakyu_tama",
-    "trainNumber": "95804",
+    "trainNumber": "2714レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -4755,12 +4872,15 @@
         "departureTime": "10:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95804",
+    "throughTripId": "WD_INB_OH-23_1041_95804",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1032_75679",
     "lineId": "odakyu_tama",
-    "trainNumber": "75679",
+    "trainNumber": "2001レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -4817,12 +4937,13 @@
         "departureTime": "10:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "75679"
   },
   {
     "tripId": "WD_INB_OT-07_1034_42881",
     "lineId": "odakyu_tama",
-    "trainNumber": "42881",
+    "trainNumber": "2002レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -4879,12 +5000,15 @@
         "departureTime": "10:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42881",
+    "throughTripId": "WD_INB_OH-23_1052_42881",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1042_95695",
     "lineId": "odakyu_tama",
-    "trainNumber": "95695",
+    "trainNumber": "2715レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -4941,12 +5065,13 @@
         "departureTime": "10:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95695"
   },
   {
     "tripId": "WD_INB_OT-07_1044_95806",
     "lineId": "odakyu_tama",
-    "trainNumber": "95806",
+    "trainNumber": "2716レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -5003,12 +5128,15 @@
         "departureTime": "11:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95806",
+    "throughTripId": "WD_INB_OH-23_1101_95806",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1052_95608",
     "lineId": "odakyu_tama",
-    "trainNumber": "95608",
+    "trainNumber": "7643レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -5064,12 +5192,13 @@
         "departureTime": "11:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95608"
   },
   {
     "tripId": "WD_INB_OT-07_1054_42882",
     "lineId": "odakyu_tama",
-    "trainNumber": "42882",
+    "trainNumber": "2004レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -5126,12 +5255,15 @@
         "departureTime": "11:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42882",
+    "throughTripId": "WD_INB_OH-23_1112_42882",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1102_95697",
     "lineId": "odakyu_tama",
-    "trainNumber": "95697",
+    "trainNumber": "2717レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -5188,12 +5320,13 @@
         "departureTime": "11:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95697"
   },
   {
     "tripId": "WD_INB_OT-07_1104_95808",
     "lineId": "odakyu_tama",
-    "trainNumber": "95808",
+    "trainNumber": "2718レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -5250,12 +5383,15 @@
         "departureTime": "11:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95808",
+    "throughTripId": "WD_INB_OH-23_1121_95808",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1112_40872",
     "lineId": "odakyu_tama",
-    "trainNumber": "40872",
+    "trainNumber": "2003レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -5312,12 +5448,13 @@
         "departureTime": "11:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40872"
   },
   {
     "tripId": "WD_INB_OT-07_1114_42883",
     "lineId": "odakyu_tama",
-    "trainNumber": "42883",
+    "trainNumber": "2006レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -5374,12 +5511,15 @@
         "departureTime": "11:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42883",
+    "throughTripId": "WD_INB_OH-23_1132_42883",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1122_95699",
     "lineId": "odakyu_tama",
-    "trainNumber": "95699",
+    "trainNumber": "2719レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -5436,12 +5576,13 @@
         "departureTime": "11:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95699"
   },
   {
     "tripId": "WD_INB_OT-07_1124_95810",
     "lineId": "odakyu_tama",
-    "trainNumber": "95810",
+    "trainNumber": "2720レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -5498,12 +5639,15 @@
         "departureTime": "11:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95810",
+    "throughTripId": "WD_INB_OH-23_1141_95810",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1132_40873",
     "lineId": "odakyu_tama",
-    "trainNumber": "40873",
+    "trainNumber": "2005レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -5560,12 +5704,13 @@
         "departureTime": "11:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40873"
   },
   {
     "tripId": "WD_INB_OT-07_1134_42884",
     "lineId": "odakyu_tama",
-    "trainNumber": "42884",
+    "trainNumber": "2008レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -5622,12 +5767,15 @@
         "departureTime": "11:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42884",
+    "throughTripId": "WD_INB_OH-23_1152_42884",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1142_95701",
     "lineId": "odakyu_tama",
-    "trainNumber": "95701",
+    "trainNumber": "2721レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -5684,12 +5832,13 @@
         "departureTime": "11:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95701"
   },
   {
     "tripId": "WD_INB_OT-07_1144_95811",
     "lineId": "odakyu_tama",
-    "trainNumber": "95811",
+    "trainNumber": "2722レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -5746,12 +5895,15 @@
         "departureTime": "12:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95811",
+    "throughTripId": "WD_INB_OH-23_1201_95811",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1152_40874",
     "lineId": "odakyu_tama",
-    "trainNumber": "40874",
+    "trainNumber": "2007レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -5808,12 +5960,13 @@
         "departureTime": "12:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40874"
   },
   {
     "tripId": "WD_INB_OT-07_1154_42886",
     "lineId": "odakyu_tama",
-    "trainNumber": "42886",
+    "trainNumber": "2010レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -5870,12 +6023,15 @@
         "departureTime": "12:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42886",
+    "throughTripId": "WD_INB_OH-23_1212_42886",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1202_95703",
     "lineId": "odakyu_tama",
-    "trainNumber": "95703",
+    "trainNumber": "2723レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -5932,12 +6088,13 @@
         "departureTime": "12:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95703"
   },
   {
     "tripId": "WD_INB_OT-07_1204_95813",
     "lineId": "odakyu_tama",
-    "trainNumber": "95813",
+    "trainNumber": "2724レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -5994,12 +6151,15 @@
         "departureTime": "12:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95813",
+    "throughTripId": "WD_INB_OH-23_1221_95813",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1212_40876",
     "lineId": "odakyu_tama",
-    "trainNumber": "40876",
+    "trainNumber": "2009レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -6056,12 +6216,13 @@
         "departureTime": "12:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40876"
   },
   {
     "tripId": "WD_INB_OT-07_1214_42888",
     "lineId": "odakyu_tama",
-    "trainNumber": "42888",
+    "trainNumber": "2012レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -6118,12 +6279,15 @@
         "departureTime": "12:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42888",
+    "throughTripId": "WD_INB_OH-23_1232_42888",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1222_95705",
     "lineId": "odakyu_tama",
-    "trainNumber": "95705",
+    "trainNumber": "2725レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -6180,12 +6344,13 @@
         "departureTime": "12:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95705"
   },
   {
     "tripId": "WD_INB_OT-07_1224_95816",
     "lineId": "odakyu_tama",
-    "trainNumber": "95816",
+    "trainNumber": "2726レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -6242,12 +6407,15 @@
         "departureTime": "12:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95816",
+    "throughTripId": "WD_INB_OH-23_1241_95816",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1232_40878",
     "lineId": "odakyu_tama",
-    "trainNumber": "40878",
+    "trainNumber": "2011レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -6304,12 +6472,13 @@
         "departureTime": "12:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40878"
   },
   {
     "tripId": "WD_INB_OT-07_1234_42891",
     "lineId": "odakyu_tama",
-    "trainNumber": "42891",
+    "trainNumber": "2014レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -6366,12 +6535,15 @@
         "departureTime": "12:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42891",
+    "throughTripId": "WD_INB_OH-23_1252_42891",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1242_95707",
     "lineId": "odakyu_tama",
-    "trainNumber": "95707",
+    "trainNumber": "2727レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -6428,12 +6600,13 @@
         "departureTime": "12:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95707"
   },
   {
     "tripId": "WD_INB_OT-07_1244_95818",
     "lineId": "odakyu_tama",
-    "trainNumber": "95818",
+    "trainNumber": "2728レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -6490,12 +6663,15 @@
         "departureTime": "13:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95818",
+    "throughTripId": "WD_INB_OH-23_1301_95818",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1252_40880",
     "lineId": "odakyu_tama",
-    "trainNumber": "40880",
+    "trainNumber": "2013レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -6552,12 +6728,13 @@
         "departureTime": "13:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40880"
   },
   {
     "tripId": "WD_INB_OT-07_1254_42893",
     "lineId": "odakyu_tama",
-    "trainNumber": "42893",
+    "trainNumber": "2016レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -6614,12 +6791,15 @@
         "departureTime": "13:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42893",
+    "throughTripId": "WD_INB_OH-23_1312_42893",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1302_95710",
     "lineId": "odakyu_tama",
-    "trainNumber": "95710",
+    "trainNumber": "2729レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -6676,12 +6856,13 @@
         "departureTime": "13:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95710"
   },
   {
     "tripId": "WD_INB_OT-07_1304_95820",
     "lineId": "odakyu_tama",
-    "trainNumber": "95820",
+    "trainNumber": "2730レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -6738,12 +6919,15 @@
         "departureTime": "13:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95820",
+    "throughTripId": "WD_INB_OH-23_1321_95820",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1312_40881",
     "lineId": "odakyu_tama",
-    "trainNumber": "40881",
+    "trainNumber": "2015レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -6800,12 +6984,13 @@
         "departureTime": "13:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40881"
   },
   {
     "tripId": "WD_INB_OT-07_1314_42894",
     "lineId": "odakyu_tama",
-    "trainNumber": "42894",
+    "trainNumber": "2018レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -6862,12 +7047,15 @@
         "departureTime": "13:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42894",
+    "throughTripId": "WD_INB_OH-23_1332_42894",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1322_95711",
     "lineId": "odakyu_tama",
-    "trainNumber": "95711",
+    "trainNumber": "2731レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -6924,12 +7112,13 @@
         "departureTime": "13:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95711"
   },
   {
     "tripId": "WD_INB_OT-07_1324_95822",
     "lineId": "odakyu_tama",
-    "trainNumber": "95822",
+    "trainNumber": "2732レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -6986,12 +7175,15 @@
         "departureTime": "13:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95822",
+    "throughTripId": "WD_INB_OH-23_1341_95822",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1332_40883",
     "lineId": "odakyu_tama",
-    "trainNumber": "40883",
+    "trainNumber": "2017レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -7048,12 +7240,13 @@
         "departureTime": "13:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40883"
   },
   {
     "tripId": "WD_INB_OT-07_1334_42897",
     "lineId": "odakyu_tama",
-    "trainNumber": "42897",
+    "trainNumber": "2020レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -7110,12 +7303,15 @@
         "departureTime": "13:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42897",
+    "throughTripId": "WD_INB_OH-23_1352_42897",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1342_95713",
     "lineId": "odakyu_tama",
-    "trainNumber": "95713",
+    "trainNumber": "2733レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -7172,12 +7368,13 @@
         "departureTime": "13:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95713"
   },
   {
     "tripId": "WD_INB_OT-07_1344_95824",
     "lineId": "odakyu_tama",
-    "trainNumber": "95824",
+    "trainNumber": "2734レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -7234,12 +7431,15 @@
         "departureTime": "14:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95824",
+    "throughTripId": "WD_INB_OH-23_1401_95824",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1352_40885",
     "lineId": "odakyu_tama",
-    "trainNumber": "40885",
+    "trainNumber": "2019レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -7296,12 +7496,13 @@
         "departureTime": "14:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40885"
   },
   {
     "tripId": "WD_INB_OT-07_1354_42899",
     "lineId": "odakyu_tama",
-    "trainNumber": "42899",
+    "trainNumber": "2022レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -7358,12 +7559,15 @@
         "departureTime": "14:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42899",
+    "throughTripId": "WD_INB_OH-23_1412_42899",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1402_95715",
     "lineId": "odakyu_tama",
-    "trainNumber": "95715",
+    "trainNumber": "2735レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -7420,12 +7624,13 @@
         "departureTime": "14:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95715"
   },
   {
     "tripId": "WD_INB_OT-07_1404_95826",
     "lineId": "odakyu_tama",
-    "trainNumber": "95826",
+    "trainNumber": "2736レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -7482,12 +7687,15 @@
         "departureTime": "14:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95826",
+    "throughTripId": "WD_INB_OH-23_1421_95826",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1412_40887",
     "lineId": "odakyu_tama",
-    "trainNumber": "40887",
+    "trainNumber": "2021レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -7544,12 +7752,13 @@
         "departureTime": "14:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40887"
   },
   {
     "tripId": "WD_INB_OT-07_1414_42901",
     "lineId": "odakyu_tama",
-    "trainNumber": "42901",
+    "trainNumber": "2024レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -7606,12 +7815,15 @@
         "departureTime": "14:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42901",
+    "throughTripId": "WD_INB_OH-23_1432_42901",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1422_95717",
     "lineId": "odakyu_tama",
-    "trainNumber": "95717",
+    "trainNumber": "2737レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -7668,12 +7880,13 @@
         "departureTime": "14:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95717"
   },
   {
     "tripId": "WD_INB_OT-07_1424_95828",
     "lineId": "odakyu_tama",
-    "trainNumber": "95828",
+    "trainNumber": "2738レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -7730,12 +7943,15 @@
         "departureTime": "14:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95828",
+    "throughTripId": "WD_INB_OH-23_1441_95828",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1432_40889",
     "lineId": "odakyu_tama",
-    "trainNumber": "40889",
+    "trainNumber": "2023レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -7792,12 +8008,13 @@
         "departureTime": "14:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40889"
   },
   {
     "tripId": "WD_INB_OT-07_1434_42903",
     "lineId": "odakyu_tama",
-    "trainNumber": "42903",
+    "trainNumber": "2026レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -7854,12 +8071,15 @@
         "departureTime": "14:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42903",
+    "throughTripId": "WD_INB_OH-23_1452_42903",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1442_95719",
     "lineId": "odakyu_tama",
-    "trainNumber": "95719",
+    "trainNumber": "2739レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -7916,12 +8136,13 @@
         "departureTime": "14:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95719"
   },
   {
     "tripId": "WD_INB_OT-07_1444_95830",
     "lineId": "odakyu_tama",
-    "trainNumber": "95830",
+    "trainNumber": "2740レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -7978,12 +8199,15 @@
         "departureTime": "15:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95830",
+    "throughTripId": "WD_INB_OH-23_1501_95830",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1452_40891",
     "lineId": "odakyu_tama",
-    "trainNumber": "40891",
+    "trainNumber": "2025レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -8040,12 +8264,13 @@
         "departureTime": "15:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40891"
   },
   {
     "tripId": "WD_INB_OT-07_1454_42905",
     "lineId": "odakyu_tama",
-    "trainNumber": "42905",
+    "trainNumber": "2028レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -8102,12 +8327,15 @@
         "departureTime": "15:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42905",
+    "throughTripId": "WD_INB_OH-23_1512_42905",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1502_95721",
     "lineId": "odakyu_tama",
-    "trainNumber": "95721",
+    "trainNumber": "2741レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -8164,12 +8392,13 @@
         "departureTime": "15:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95721"
   },
   {
     "tripId": "WD_INB_OT-07_1504_95832",
     "lineId": "odakyu_tama",
-    "trainNumber": "95832",
+    "trainNumber": "2742レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -8226,12 +8455,15 @@
         "departureTime": "15:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95832",
+    "throughTripId": "WD_INB_OH-23_1521_95832",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1512_40893",
     "lineId": "odakyu_tama",
-    "trainNumber": "40893",
+    "trainNumber": "2027レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -8288,12 +8520,13 @@
         "departureTime": "15:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40893"
   },
   {
     "tripId": "WD_INB_OT-07_1514_42907",
     "lineId": "odakyu_tama",
-    "trainNumber": "42907",
+    "trainNumber": "2030レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -8350,12 +8583,15 @@
         "departureTime": "15:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42907",
+    "throughTripId": "WD_INB_OH-23_1532_42907",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1522_95723",
     "lineId": "odakyu_tama",
-    "trainNumber": "95723",
+    "trainNumber": "2743レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -8412,12 +8648,13 @@
         "departureTime": "15:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95723"
   },
   {
     "tripId": "WD_INB_OT-07_1524_95834",
     "lineId": "odakyu_tama",
-    "trainNumber": "95834",
+    "trainNumber": "2744レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -8474,12 +8711,15 @@
         "departureTime": "15:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95834",
+    "throughTripId": "WD_INB_OH-23_1541_95834",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1532_40895",
     "lineId": "odakyu_tama",
-    "trainNumber": "40895",
+    "trainNumber": "2029レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -8536,12 +8776,13 @@
         "departureTime": "15:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40895"
   },
   {
     "tripId": "WD_INB_OT-07_1534_95835",
     "lineId": "odakyu_tama",
-    "trainNumber": "95835",
+    "trainNumber": "2746レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -8598,12 +8839,15 @@
         "departureTime": "15:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95835",
+    "throughTripId": "WD_INB_OH-23_1552_95835",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1542_95725",
     "lineId": "odakyu_tama",
-    "trainNumber": "95725",
+    "trainNumber": "2745レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -8660,12 +8904,13 @@
         "departureTime": "15:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95725"
   },
   {
     "tripId": "WD_INB_OT-07_1543_95836",
     "lineId": "odakyu_tama",
-    "trainNumber": "95836",
+    "trainNumber": "2748レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -8722,12 +8967,15 @@
         "departureTime": "16:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95836",
+    "throughTripId": "WD_INB_OH-23_1601_95836",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1552_40897",
     "lineId": "odakyu_tama",
-    "trainNumber": "40897",
+    "trainNumber": "2031レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -8784,12 +9032,13 @@
         "departureTime": "16:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40897"
   },
   {
     "tripId": "WD_INB_OT-07_1554_95838",
     "lineId": "odakyu_tama",
-    "trainNumber": "95838",
+    "trainNumber": "2750レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -8846,12 +9095,15 @@
         "departureTime": "16:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95838",
+    "throughTripId": "WD_INB_OH-23_1612_95838",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1602_95727",
     "lineId": "odakyu_tama",
-    "trainNumber": "95727",
+    "trainNumber": "2747レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -8908,12 +9160,13 @@
         "departureTime": "16:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95727"
   },
   {
     "tripId": "WD_INB_OT-07_1603_95839",
     "lineId": "odakyu_tama",
-    "trainNumber": "95839",
+    "trainNumber": "2752レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -8970,12 +9223,15 @@
         "departureTime": "16:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95839",
+    "throughTripId": "WD_INB_OH-23_1621_95839",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1612_40900",
     "lineId": "odakyu_tama",
-    "trainNumber": "40900",
+    "trainNumber": "2033レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -9032,12 +9288,13 @@
         "departureTime": "16:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40900"
   },
   {
     "tripId": "WD_INB_OT-07_1614_95841",
     "lineId": "odakyu_tama",
-    "trainNumber": "95841",
+    "trainNumber": "2754レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -9094,12 +9351,15 @@
         "departureTime": "16:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95841",
+    "throughTripId": "WD_INB_OH-23_1632_95841",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1622_95729",
     "lineId": "odakyu_tama",
-    "trainNumber": "95729",
+    "trainNumber": "2749レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -9156,12 +9416,13 @@
         "departureTime": "16:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95729"
   },
   {
     "tripId": "WD_INB_OT-07_1623_95842",
     "lineId": "odakyu_tama",
-    "trainNumber": "95842",
+    "trainNumber": "2756レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -9218,12 +9479,15 @@
         "departureTime": "16:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95842",
+    "throughTripId": "WD_INB_OH-23_1641_95842",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1632_95612",
     "lineId": "odakyu_tama",
-    "trainNumber": "95612",
+    "trainNumber": "7645レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -9279,12 +9543,13 @@
         "departureTime": "16:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95612"
   },
   {
     "tripId": "WD_INB_OT-07_1634_95844",
     "lineId": "odakyu_tama",
-    "trainNumber": "95844",
+    "trainNumber": "2758レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -9341,12 +9606,15 @@
         "departureTime": "16:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95844",
+    "throughTripId": "WD_INB_OH-23_1652_95844",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1642_95732",
     "lineId": "odakyu_tama",
-    "trainNumber": "95732",
+    "trainNumber": "2751レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -9403,12 +9671,13 @@
         "departureTime": "16:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95732"
   },
   {
     "tripId": "WD_INB_OT-07_1644_95919",
     "lineId": "odakyu_tama",
-    "trainNumber": "95919",
+    "trainNumber": "7640レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -9464,12 +9733,13 @@
         "departureTime": "16:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95919"
   },
   {
     "tripId": "WD_OUT_OH-23_1652_95613",
     "lineId": "odakyu_tama",
-    "trainNumber": "95613",
+    "trainNumber": "7647レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -9525,12 +9795,13 @@
         "departureTime": "17:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95613"
   },
   {
     "tripId": "WD_INB_OT-07_1654_95921",
     "lineId": "odakyu_tama",
-    "trainNumber": "95921",
+    "trainNumber": "7642レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -9586,12 +9857,13 @@
         "departureTime": "17:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95921"
   },
   {
     "tripId": "WD_OUT_OH-23_1702_95734",
     "lineId": "odakyu_tama",
-    "trainNumber": "95734",
+    "trainNumber": "2753レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -9648,12 +9920,13 @@
         "departureTime": "17:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95734"
   },
   {
     "tripId": "WD_INB_OT-07_1705_95922",
     "lineId": "odakyu_tama",
-    "trainNumber": "95922",
+    "trainNumber": "7644レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -9709,12 +9982,13 @@
         "departureTime": "17:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95922"
   },
   {
     "tripId": "WD_OUT_OH-23_1712_95615",
     "lineId": "odakyu_tama",
-    "trainNumber": "95615",
+    "trainNumber": "7649レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -9770,12 +10044,13 @@
         "departureTime": "17:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95615"
   },
   {
     "tripId": "WD_INB_OT-07_1718_95847",
     "lineId": "odakyu_tama",
-    "trainNumber": "95847",
+    "trainNumber": "2760レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -9832,12 +10107,15 @@
         "departureTime": "17:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95847",
+    "throughTripId": "WD_INB_OH-23_1736_95847",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1723_95737",
     "lineId": "odakyu_tama",
-    "trainNumber": "95737",
+    "trainNumber": "2755レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -9894,12 +10172,13 @@
         "departureTime": "17:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95737"
   },
   {
     "tripId": "WD_INB_OT-07_1725_95849",
     "lineId": "odakyu_tama",
-    "trainNumber": "95849",
+    "trainNumber": "2762レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -9956,12 +10235,15 @@
         "departureTime": "17:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95849",
+    "throughTripId": "WD_INB_OH-23_1744_95849",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1729_95616",
     "lineId": "odakyu_tama",
-    "trainNumber": "95616",
+    "trainNumber": "7651レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -10017,12 +10299,13 @@
         "departureTime": "17:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95616"
   },
   {
     "tripId": "WD_INB_OT-07_1732_95924",
     "lineId": "odakyu_tama",
-    "trainNumber": "95924",
+    "trainNumber": "7646レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -10078,12 +10361,13 @@
         "departureTime": "17:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95924"
   },
   {
     "tripId": "WD_OUT_OH-23_1736_95618",
     "lineId": "odakyu_tama",
-    "trainNumber": "95618",
+    "trainNumber": "7653レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -10139,12 +10423,13 @@
         "departureTime": "17:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95618"
   },
   {
     "tripId": "WD_INB_OT-07_1739_95850",
     "lineId": "odakyu_tama",
-    "trainNumber": "95850",
+    "trainNumber": "2764レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -10201,12 +10486,15 @@
         "departureTime": "17:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95850",
+    "throughTripId": "WD_INB_OH-23_1756_95850",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1743_95739",
     "lineId": "odakyu_tama",
-    "trainNumber": "95739",
+    "trainNumber": "2757レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -10263,12 +10551,13 @@
         "departureTime": "17:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95739"
   },
   {
     "tripId": "WD_INB_OT-07_1747_95926",
     "lineId": "odakyu_tama",
-    "trainNumber": "95926",
+    "trainNumber": "7648レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -10324,12 +10613,13 @@
         "departureTime": "18:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95926"
   },
   {
     "tripId": "WD_OUT_OH-23_1749_95619",
     "lineId": "odakyu_tama",
-    "trainNumber": "95619",
+    "trainNumber": "7655レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -10385,12 +10675,13 @@
         "departureTime": "18:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95619"
   },
   {
     "tripId": "WD_OUT_OH-23_1756_95621",
     "lineId": "odakyu_tama",
-    "trainNumber": "95621",
+    "trainNumber": "7657レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -10446,12 +10737,13 @@
         "departureTime": "18:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95621"
   },
   {
     "tripId": "WD_INB_OT-07_1759_95852",
     "lineId": "odakyu_tama",
-    "trainNumber": "95852",
+    "trainNumber": "2766レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -10508,12 +10800,15 @@
         "departureTime": "18:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95852",
+    "throughTripId": "WD_INB_OH-23_1816_95852",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1802_95742",
     "lineId": "odakyu_tama",
-    "trainNumber": "95742",
+    "trainNumber": "2759レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -10570,12 +10865,13 @@
         "departureTime": "18:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95742"
   },
   {
     "tripId": "WD_INB_OT-07_1808_95928",
     "lineId": "odakyu_tama",
-    "trainNumber": "95928",
+    "trainNumber": "7650レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -10631,12 +10927,13 @@
         "departureTime": "18:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95928"
   },
   {
     "tripId": "WD_OUT_OH-23_1809_95622",
     "lineId": "odakyu_tama",
-    "trainNumber": "95622",
+    "trainNumber": "7659レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -10692,12 +10989,13 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95622"
   },
   {
     "tripId": "WD_OUT_OH-23_1816_95624",
     "lineId": "odakyu_tama",
-    "trainNumber": "95624",
+    "trainNumber": "7661レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -10753,12 +11051,13 @@
         "departureTime": "18:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95624"
   },
   {
     "tripId": "WD_INB_OT-07_1818_95854",
     "lineId": "odakyu_tama",
-    "trainNumber": "95854",
+    "trainNumber": "2768レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -10815,12 +11114,15 @@
         "departureTime": "18:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95854",
+    "throughTripId": "WD_INB_OH-23_1835_95854",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1822_95744",
     "lineId": "odakyu_tama",
-    "trainNumber": "95744",
+    "trainNumber": "2761レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -10877,12 +11179,13 @@
         "departureTime": "18:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95744"
   },
   {
     "tripId": "WD_OUT_OH-23_1828_95625",
     "lineId": "odakyu_tama",
-    "trainNumber": "95625",
+    "trainNumber": "7663レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -10938,12 +11241,13 @@
         "departureTime": "18:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95625"
   },
   {
     "tripId": "WD_INB_OT-07_1828_95930",
     "lineId": "odakyu_tama",
-    "trainNumber": "95930",
+    "trainNumber": "7652レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -10999,12 +11303,13 @@
         "departureTime": "18:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95930"
   },
   {
     "tripId": "WD_OUT_OH-23_1835_95627",
     "lineId": "odakyu_tama",
-    "trainNumber": "95627",
+    "trainNumber": "7665レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -11060,12 +11365,13 @@
         "departureTime": "18:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95627"
   },
   {
     "tripId": "WD_INB_OT-07_1838_95856",
     "lineId": "odakyu_tama",
-    "trainNumber": "95856",
+    "trainNumber": "2770レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -11122,12 +11428,15 @@
         "departureTime": "18:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95856",
+    "throughTripId": "WD_INB_OH-23_1855_95856",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1842_95746",
     "lineId": "odakyu_tama",
-    "trainNumber": "95746",
+    "trainNumber": "2763レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -11184,12 +11493,13 @@
         "departureTime": "18:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95746"
   },
   {
     "tripId": "WD_INB_OT-07_1847_95932",
     "lineId": "odakyu_tama",
-    "trainNumber": "95932",
+    "trainNumber": "7654レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -11245,12 +11555,13 @@
         "departureTime": "19:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95932"
   },
   {
     "tripId": "WD_OUT_OH-23_1848_95628",
     "lineId": "odakyu_tama",
-    "trainNumber": "95628",
+    "trainNumber": "7667レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -11306,12 +11617,13 @@
         "departureTime": "19:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95628"
   },
   {
     "tripId": "WD_OUT_OH-23_1855_95630",
     "lineId": "odakyu_tama",
-    "trainNumber": "95630",
+    "trainNumber": "7669レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -11367,12 +11679,13 @@
         "departureTime": "19:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95630"
   },
   {
     "tripId": "WD_INB_OT-07_1858_95858",
     "lineId": "odakyu_tama",
-    "trainNumber": "95858",
+    "trainNumber": "2772レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -11429,12 +11742,15 @@
         "departureTime": "19:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95858",
+    "throughTripId": "WD_INB_OH-23_1916_95858",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1902_95747",
     "lineId": "odakyu_tama",
-    "trainNumber": "95747",
+    "trainNumber": "2765レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -11491,12 +11807,13 @@
         "departureTime": "19:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95747"
   },
   {
     "tripId": "WD_OUT_OH-23_1909_95631",
     "lineId": "odakyu_tama",
-    "trainNumber": "95631",
+    "trainNumber": "7671レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -11552,12 +11869,13 @@
         "departureTime": "19:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95631"
   },
   {
     "tripId": "WD_INB_OT-07_1910_95860",
     "lineId": "odakyu_tama",
-    "trainNumber": "95860",
+    "trainNumber": "2774レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -11614,12 +11932,15 @@
         "departureTime": "19:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95860",
+    "throughTripId": "WD_INB_OH-23_1926_95860",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1916_95633",
     "lineId": "odakyu_tama",
-    "trainNumber": "95633",
+    "trainNumber": "7673レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -11675,12 +11996,13 @@
         "departureTime": "19:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95633"
   },
   {
     "tripId": "WD_INB_OT-07_1921_95934",
     "lineId": "odakyu_tama",
-    "trainNumber": "95934",
+    "trainNumber": "7656レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -11736,12 +12058,13 @@
         "departureTime": "19:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95934"
   },
   {
     "tripId": "WD_OUT_OH-23_1922_95750",
     "lineId": "odakyu_tama",
-    "trainNumber": "95750",
+    "trainNumber": "2767レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -11798,12 +12121,13 @@
         "departureTime": "19:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95750"
   },
   {
     "tripId": "WD_INB_OT-07_1929_95935",
     "lineId": "odakyu_tama",
-    "trainNumber": "95935",
+    "trainNumber": "7658レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -11859,12 +12183,13 @@
         "departureTime": "19:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95935"
   },
   {
     "tripId": "WD_OUT_OH-23_1934_95634",
     "lineId": "odakyu_tama",
-    "trainNumber": "95634",
+    "trainNumber": "7675レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -11920,12 +12245,13 @@
         "departureTime": "19:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95634"
   },
   {
     "tripId": "WD_INB_OT-07_1938_95862",
     "lineId": "odakyu_tama",
-    "trainNumber": "95862",
+    "trainNumber": "2776レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -11982,12 +12308,15 @@
         "departureTime": "19:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95862",
+    "throughTripId": "WD_INB_OH-23_1955_95862",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_1942_95752",
     "lineId": "odakyu_tama",
-    "trainNumber": "95752",
+    "trainNumber": "2769レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -12044,12 +12373,13 @@
         "departureTime": "19:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95752"
   },
   {
     "tripId": "WD_OUT_OH-23_1949_95635",
     "lineId": "odakyu_tama",
-    "trainNumber": "95635",
+    "trainNumber": "7677レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -12105,12 +12435,13 @@
         "departureTime": "20:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95635"
   },
   {
     "tripId": "WD_INB_OT-07_1949_95937",
     "lineId": "odakyu_tama",
-    "trainNumber": "95937",
+    "trainNumber": "7660レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -12166,12 +12497,13 @@
         "departureTime": "20:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95937"
   },
   {
     "tripId": "WD_OUT_OH-23_1956_95637",
     "lineId": "odakyu_tama",
-    "trainNumber": "95637",
+    "trainNumber": "7679レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -12227,12 +12559,13 @@
         "departureTime": "20:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95637"
   },
   {
     "tripId": "WD_INB_OT-07_2002_95864",
     "lineId": "odakyu_tama",
-    "trainNumber": "95864",
+    "trainNumber": "2778レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -12289,12 +12622,15 @@
         "departureTime": "20:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95864",
+    "throughTripId": "WD_INB_OH-23_2017_95864",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_2003_95754",
     "lineId": "odakyu_tama",
-    "trainNumber": "95754",
+    "trainNumber": "2771レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -12351,12 +12687,13 @@
         "departureTime": "20:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95754"
   },
   {
     "tripId": "WD_INB_OT-07_2008_95939",
     "lineId": "odakyu_tama",
-    "trainNumber": "95939",
+    "trainNumber": "7662レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -12412,12 +12749,13 @@
         "departureTime": "20:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95939"
   },
   {
     "tripId": "WD_OUT_OH-23_2011_95638",
     "lineId": "odakyu_tama",
-    "trainNumber": "95638",
+    "trainNumber": "7681レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -12473,12 +12811,13 @@
         "departureTime": "20:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95638"
   },
   {
     "tripId": "WD_INB_OT-07_2016_95941",
     "lineId": "odakyu_tama",
-    "trainNumber": "95941",
+    "trainNumber": "7664レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -12534,12 +12873,13 @@
         "departureTime": "20:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95941"
   },
   {
     "tripId": "WD_OUT_OH-23_2018_95640",
     "lineId": "odakyu_tama",
-    "trainNumber": "95640",
+    "trainNumber": "7683レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -12595,12 +12935,13 @@
         "departureTime": "20:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95640"
   },
   {
     "tripId": "WD_OUT_OH-23_2022_95756",
     "lineId": "odakyu_tama",
-    "trainNumber": "95756",
+    "trainNumber": "2773レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -12657,12 +12998,13 @@
         "departureTime": "20:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95756"
   },
   {
     "tripId": "WD_INB_OT-07_2027_95942",
     "lineId": "odakyu_tama",
-    "trainNumber": "95942",
+    "trainNumber": "7666レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -12718,12 +13060,13 @@
         "departureTime": "20:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95942"
   },
   {
     "tripId": "WD_OUT_OH-23_2029_95641",
     "lineId": "odakyu_tama",
-    "trainNumber": "95641",
+    "trainNumber": "7685レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -12779,12 +13122,13 @@
         "departureTime": "20:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95641"
   },
   {
     "tripId": "WD_OUT_OH-23_2036_95643",
     "lineId": "odakyu_tama",
-    "trainNumber": "95643",
+    "trainNumber": "7687レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -12840,12 +13184,13 @@
         "departureTime": "20:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95643"
   },
   {
     "tripId": "WD_INB_OT-07_2038_95944",
     "lineId": "odakyu_tama",
-    "trainNumber": "95944",
+    "trainNumber": "7668レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -12901,12 +13246,13 @@
         "departureTime": "20:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95944"
   },
   {
     "tripId": "WD_OUT_OH-23_2042_95758",
     "lineId": "odakyu_tama",
-    "trainNumber": "95758",
+    "trainNumber": "2775レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -12963,12 +13309,13 @@
         "departureTime": "20:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95758"
   },
   {
     "tripId": "WD_INB_OT-07_2047_95945",
     "lineId": "odakyu_tama",
-    "trainNumber": "95945",
+    "trainNumber": "7670レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -13024,12 +13371,13 @@
         "departureTime": "21:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95945"
   },
   {
     "tripId": "WD_OUT_OH-23_2050_95644",
     "lineId": "odakyu_tama",
-    "trainNumber": "95644",
+    "trainNumber": "7689レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -13085,12 +13433,13 @@
         "departureTime": "21:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95644"
   },
   {
     "tripId": "WD_OUT_OH-23_2057_95646",
     "lineId": "odakyu_tama",
-    "trainNumber": "95646",
+    "trainNumber": "7691レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -13146,12 +13495,13 @@
         "departureTime": "21:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95646"
   },
   {
     "tripId": "WD_INB_OT-07_2058_95947",
     "lineId": "odakyu_tama",
-    "trainNumber": "95947",
+    "trainNumber": "7672レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -13207,12 +13557,13 @@
         "departureTime": "21:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95947"
   },
   {
     "tripId": "WD_OUT_OH-23_2104_95760",
     "lineId": "odakyu_tama",
-    "trainNumber": "95760",
+    "trainNumber": "2777レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -13269,12 +13620,13 @@
         "departureTime": "21:19:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95760"
   },
   {
     "tripId": "WD_INB_OT-07_2107_95948",
     "lineId": "odakyu_tama",
-    "trainNumber": "95948",
+    "trainNumber": "7674レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -13330,12 +13682,13 @@
         "departureTime": "21:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95948"
   },
   {
     "tripId": "WD_OUT_OH-23_2111_95647",
     "lineId": "odakyu_tama",
-    "trainNumber": "95647",
+    "trainNumber": "7693レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -13391,12 +13744,13 @@
         "departureTime": "21:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95647"
   },
   {
     "tripId": "WD_INB_OT-07_2116_95950",
     "lineId": "odakyu_tama",
-    "trainNumber": "95950",
+    "trainNumber": "7676レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -13452,12 +13806,13 @@
         "departureTime": "21:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95950"
   },
   {
     "tripId": "WD_OUT_OH-23_2118_95649",
     "lineId": "odakyu_tama",
-    "trainNumber": "95649",
+    "trainNumber": "7695レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -13513,12 +13868,13 @@
         "departureTime": "21:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95649"
   },
   {
     "tripId": "WD_OUT_OH-23_2124_95762",
     "lineId": "odakyu_tama",
-    "trainNumber": "95762",
+    "trainNumber": "2779レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -13575,12 +13931,13 @@
         "departureTime": "21:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95762"
   },
   {
     "tripId": "WD_INB_OT-07_2127_95951",
     "lineId": "odakyu_tama",
-    "trainNumber": "95951",
+    "trainNumber": "7678レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -13636,12 +13993,13 @@
         "departureTime": "21:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95951"
   },
   {
     "tripId": "WD_OUT_OH-23_2136_95651",
     "lineId": "odakyu_tama",
-    "trainNumber": "95651",
+    "trainNumber": "7697レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -13697,12 +14055,13 @@
         "departureTime": "21:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95651"
   },
   {
     "tripId": "WD_INB_OT-07_2137_95953",
     "lineId": "odakyu_tama",
-    "trainNumber": "95953",
+    "trainNumber": "7680レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -13758,12 +14117,13 @@
         "departureTime": "21:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95953"
   },
   {
     "tripId": "WD_OUT_OH-23_2144_95763",
     "lineId": "odakyu_tama",
-    "trainNumber": "95763",
+    "trainNumber": "2781レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -13820,12 +14180,13 @@
         "departureTime": "21:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95763"
   },
   {
     "tripId": "WD_INB_OT-07_2147_95871",
     "lineId": "odakyu_tama",
-    "trainNumber": "95871",
+    "trainNumber": "2780レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -13882,12 +14243,15 @@
         "departureTime": "22:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95871",
+    "throughTripId": "WD_INB_OH-23_2203_95871",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "WD_OUT_OH-23_2154_95653",
     "lineId": "odakyu_tama",
-    "trainNumber": "95653",
+    "trainNumber": "7699レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -13943,12 +14307,13 @@
         "departureTime": "22:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95653"
   },
   {
     "tripId": "WD_INB_OT-07_2202_95955",
     "lineId": "odakyu_tama",
-    "trainNumber": "95955",
+    "trainNumber": "7682レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -14004,12 +14369,13 @@
         "departureTime": "22:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95955"
   },
   {
     "tripId": "WD_OUT_OH-23_2203_95766",
     "lineId": "odakyu_tama",
-    "trainNumber": "95766",
+    "trainNumber": "2783レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -14066,12 +14432,13 @@
         "departureTime": "22:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95766"
   },
   {
     "tripId": "WD_OUT_OH-23_2213_95654",
     "lineId": "odakyu_tama",
-    "trainNumber": "95654",
+    "trainNumber": "7701レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -14127,12 +14494,13 @@
         "departureTime": "22:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95654"
   },
   {
     "tripId": "WD_INB_OT-07_2215_95956",
     "lineId": "odakyu_tama",
-    "trainNumber": "95956",
+    "trainNumber": "7684レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -14188,12 +14556,13 @@
         "departureTime": "22:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95956"
   },
   {
     "tripId": "WD_OUT_OH-23_2223_95768",
     "lineId": "odakyu_tama",
-    "trainNumber": "95768",
+    "trainNumber": "2785レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -14250,12 +14619,13 @@
         "departureTime": "22:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95768"
   },
   {
     "tripId": "WD_INB_OT-07_2232_95958",
     "lineId": "odakyu_tama",
-    "trainNumber": "95958",
+    "trainNumber": "7686レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -14311,12 +14681,13 @@
         "departureTime": "22:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95958"
   },
   {
     "tripId": "WD_OUT_OH-23_2233_95677",
     "lineId": "odakyu_tama",
-    "trainNumber": "95677",
+    "trainNumber": "3709レ",
     "trainType": "rapidExp",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -14373,12 +14744,13 @@
         "departureTime": "22:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95677"
   },
   {
     "tripId": "WD_OUT_OH-23_2237_95656",
     "lineId": "odakyu_tama",
-    "trainNumber": "95656",
+    "trainNumber": "7703レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -14434,12 +14806,13 @@
         "departureTime": "22:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95656"
   },
   {
     "tripId": "WD_OUT_OH-23_2247_95770",
     "lineId": "odakyu_tama",
-    "trainNumber": "95770",
+    "trainNumber": "2787レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -14496,12 +14869,13 @@
         "departureTime": "23:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95770"
   },
   {
     "tripId": "WD_INB_OT-07_2248_95961",
     "lineId": "odakyu_tama",
-    "trainNumber": "95961",
+    "trainNumber": "7688レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -14557,12 +14931,13 @@
         "departureTime": "23:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95961"
   },
   {
     "tripId": "WD_OUT_OH-23_2301_95771",
     "lineId": "odakyu_tama",
-    "trainNumber": "95771",
+    "trainNumber": "2789レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -14619,12 +14994,13 @@
         "departureTime": "23:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95771"
   },
   {
     "tripId": "WD_INB_OT-07_2303_95963",
     "lineId": "odakyu_tama",
-    "trainNumber": "95963",
+    "trainNumber": "7690レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -14680,12 +15056,13 @@
         "departureTime": "23:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95963"
   },
   {
     "tripId": "WD_OUT_OH-23_2312_95660",
     "lineId": "odakyu_tama",
-    "trainNumber": "95660",
+    "trainNumber": "7705レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -14741,12 +15118,13 @@
         "departureTime": "23:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95660"
   },
   {
     "tripId": "WD_OUT_OH-23_2321_95665",
     "lineId": "odakyu_tama",
-    "trainNumber": "95665",
+    "trainNumber": "7901レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -14803,12 +15181,13 @@
         "departureTime": "23:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95665"
   },
   {
     "tripId": "WD_INB_OT-07_2324_95965",
     "lineId": "odakyu_tama",
-    "trainNumber": "95965",
+    "trainNumber": "7692レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -14864,12 +15243,13 @@
         "departureTime": "23:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95965"
   },
   {
     "tripId": "WD_OUT_OH-23_2335_95661",
     "lineId": "odakyu_tama",
-    "trainNumber": "95661",
+    "trainNumber": "7707レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -14925,12 +15305,13 @@
         "departureTime": "23:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95661"
   },
   {
     "tripId": "WD_INB_OT-07_2345_95967",
     "lineId": "odakyu_tama",
-    "trainNumber": "95967",
+    "trainNumber": "7694レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -14986,12 +15367,13 @@
         "departureTime": "23:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95967"
   },
   {
     "tripId": "WD_OUT_OH-23_2347_95663",
     "lineId": "odakyu_tama",
-    "trainNumber": "95663",
+    "trainNumber": "7709レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -15047,12 +15429,13 @@
         "departureTime": "00:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95663"
   },
   {
     "tripId": "HD_OUT_OH-23_0006_95664",
     "lineId": "odakyu_tama",
-    "trainNumber": "95664",
+    "trainNumber": "7677レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -15108,12 +15491,13 @@
         "departureTime": "00:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95664"
   },
   {
     "tripId": "HD_INB_OT-07_0007_95969",
     "lineId": "odakyu_tama",
-    "trainNumber": "95969",
+    "trainNumber": "7680レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -15169,12 +15553,13 @@
         "departureTime": "00:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95969"
   },
   {
     "tripId": "HD_OUT_OH-23_0015_95668",
     "lineId": "odakyu_tama",
-    "trainNumber": "95668",
+    "trainNumber": "7903レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -15231,12 +15616,13 @@
         "departureTime": "00:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95668"
   },
   {
     "tripId": "HD_OUT_OH-23_0028_95670",
     "lineId": "odakyu_tama",
-    "trainNumber": "95670",
+    "trainNumber": "7905レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -15293,12 +15679,13 @@
         "departureTime": "00:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95670"
   },
   {
     "tripId": "HD_OUT_OH-23_0045_95673",
     "lineId": "odakyu_tama",
-    "trainNumber": "95673",
+    "trainNumber": "7907レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -15355,12 +15742,13 @@
         "departureTime": "00:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95673"
   },
   {
     "tripId": "HD_INB_OT-07_0455_95873",
     "lineId": "odakyu_tama",
-    "trainNumber": "95873",
+    "trainNumber": "7900レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -15417,12 +15805,15 @@
         "departureTime": "05:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95873",
+    "throughTripId": "HD_INB_OH-23_0515_95873",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_INB_OT-07_0517_95875",
     "lineId": "odakyu_tama",
-    "trainNumber": "95875",
+    "trainNumber": "7902レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -15479,12 +15870,15 @@
         "departureTime": "05:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95875",
+    "throughTripId": "HD_INB_OH-23_0532_95875",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_INB_OT-07_0539_95881",
     "lineId": "odakyu_tama",
-    "trainNumber": "95881",
+    "trainNumber": "7600レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -15540,12 +15934,13 @@
         "departureTime": "05:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95881"
   },
   {
     "tripId": "HD_OUT_OH-23_0542_95571",
     "lineId": "odakyu_tama",
-    "trainNumber": "95571",
+    "trainNumber": "7601レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -15601,12 +15996,13 @@
         "departureTime": "05:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95571"
   },
   {
     "tripId": "HD_INB_OT-07_0553_95883",
     "lineId": "odakyu_tama",
-    "trainNumber": "95883",
+    "trainNumber": "7602レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -15662,12 +16058,13 @@
         "departureTime": "06:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95883"
   },
   {
     "tripId": "HD_OUT_OH-23_0601_95573",
     "lineId": "odakyu_tama",
-    "trainNumber": "95573",
+    "trainNumber": "7603レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -15723,12 +16120,13 @@
         "departureTime": "06:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95573"
   },
   {
     "tripId": "HD_INB_OT-07_0602_95877",
     "lineId": "odakyu_tama",
-    "trainNumber": "95877",
+    "trainNumber": "7904レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -15785,12 +16183,15 @@
         "departureTime": "06:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95877",
+    "throughTripId": "HD_INB_OH-23_0617_95877",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_INB_OT-07_0609_95780",
     "lineId": "odakyu_tama",
-    "trainNumber": "95780",
+    "trainNumber": "3700レ",
     "trainType": "rapidExp",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -15847,12 +16248,15 @@
         "departureTime": "06:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95780",
+    "throughTripId": "HD_INB_OH-23_0622_95780",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_INB_OT-07_0620_95885",
     "lineId": "odakyu_tama",
-    "trainNumber": "95885",
+    "trainNumber": "7604レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -15908,12 +16312,13 @@
         "departureTime": "06:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95885"
   },
   {
     "tripId": "HD_OUT_OH-23_0622_95576",
     "lineId": "odakyu_tama",
-    "trainNumber": "95576",
+    "trainNumber": "7605レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -15969,12 +16374,13 @@
         "departureTime": "06:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95576"
   },
   {
     "tripId": "HD_INB_OT-07_0629_95781",
     "lineId": "odakyu_tama",
-    "trainNumber": "95781",
+    "trainNumber": "3702レ",
     "trainType": "rapidExp",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -16031,12 +16437,15 @@
         "departureTime": "06:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95781",
+    "throughTripId": "HD_INB_OH-23_0642_95781",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_INB_OT-07_0632_95887",
     "lineId": "odakyu_tama",
-    "trainNumber": "95887",
+    "trainNumber": "7606レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -16092,12 +16501,13 @@
         "departureTime": "06:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95887"
   },
   {
     "tripId": "HD_OUT_OH-23_0638_95578",
     "lineId": "odakyu_tama",
-    "trainNumber": "95578",
+    "trainNumber": "7607レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -16153,12 +16563,13 @@
         "departureTime": "06:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95578"
   },
   {
     "tripId": "HD_INB_OT-07_0641_95889",
     "lineId": "odakyu_tama",
-    "trainNumber": "95889",
+    "trainNumber": "7608レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -16214,12 +16625,13 @@
         "departureTime": "06:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95889"
   },
   {
     "tripId": "HD_INB_OT-07_0647_95787",
     "lineId": "odakyu_tama",
-    "trainNumber": "95787",
+    "trainNumber": "2700レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -16276,12 +16688,15 @@
         "departureTime": "07:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95787",
+    "throughTripId": "HD_INB_OH-23_0703_95787",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_0651_95580",
     "lineId": "odakyu_tama",
-    "trainNumber": "95580",
+    "trainNumber": "7609レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -16337,12 +16752,13 @@
         "departureTime": "07:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95580"
   },
   {
     "tripId": "HD_INB_OT-07_0657_95891",
     "lineId": "odakyu_tama",
-    "trainNumber": "95891",
+    "trainNumber": "7610レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -16398,12 +16814,13 @@
         "departureTime": "07:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95891"
   },
   {
     "tripId": "HD_INB_OT-07_0703_95788",
     "lineId": "odakyu_tama",
-    "trainNumber": "95788",
+    "trainNumber": "2702レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -16460,12 +16877,15 @@
         "departureTime": "07:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95788",
+    "throughTripId": "HD_INB_OH-23_0721_95788",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_0704_95582",
     "lineId": "odakyu_tama",
-    "trainNumber": "95582",
+    "trainNumber": "7611レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -16521,12 +16941,13 @@
         "departureTime": "07:19:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95582"
   },
   {
     "tripId": "HD_INB_OT-07_0713_95894",
     "lineId": "odakyu_tama",
-    "trainNumber": "95894",
+    "trainNumber": "7612レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -16582,12 +17003,13 @@
         "departureTime": "07:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95894"
   },
   {
     "tripId": "HD_OUT_OH-23_0716_95585",
     "lineId": "odakyu_tama",
-    "trainNumber": "95585",
+    "trainNumber": "7613レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -16643,12 +17065,13 @@
         "departureTime": "07:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95585"
   },
   {
     "tripId": "HD_INB_OT-07_0724_95789",
     "lineId": "odakyu_tama",
-    "trainNumber": "95789",
+    "trainNumber": "2704レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -16705,12 +17128,15 @@
         "departureTime": "07:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95789",
+    "throughTripId": "HD_INB_OH-23_0741_95789",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_0731_95588",
     "lineId": "odakyu_tama",
-    "trainNumber": "95588",
+    "trainNumber": "7615レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -16766,12 +17192,13 @@
         "departureTime": "07:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95588"
   },
   {
     "tripId": "HD_INB_OT-07_0735_95897",
     "lineId": "odakyu_tama",
-    "trainNumber": "95897",
+    "trainNumber": "7614レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -16827,12 +17254,13 @@
         "departureTime": "07:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95897"
   },
   {
     "tripId": "HD_OUT_OH-23_0742_95678",
     "lineId": "odakyu_tama",
-    "trainNumber": "95678",
+    "trainNumber": "2701レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -16889,12 +17317,13 @@
         "departureTime": "07:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95678"
   },
   {
     "tripId": "HD_INB_OT-07_0743_95790",
     "lineId": "odakyu_tama",
-    "trainNumber": "95790",
+    "trainNumber": "2706レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -16951,12 +17380,15 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95790",
+    "throughTripId": "HD_INB_OH-23_0801_95790",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_INB_OT-07_0753_95900",
     "lineId": "odakyu_tama",
-    "trainNumber": "95900",
+    "trainNumber": "7616レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -17012,12 +17444,13 @@
         "departureTime": "08:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95900"
   },
   {
     "tripId": "HD_OUT_OH-23_0754_95592",
     "lineId": "odakyu_tama",
-    "trainNumber": "95592",
+    "trainNumber": "7617レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -17073,12 +17506,13 @@
         "departureTime": "08:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95592"
   },
   {
     "tripId": "HD_OUT_OH-23_0802_95679",
     "lineId": "odakyu_tama",
-    "trainNumber": "95679",
+    "trainNumber": "2703レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -17135,12 +17569,13 @@
         "departureTime": "08:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95679"
   },
   {
     "tripId": "HD_INB_OT-07_0804_95791",
     "lineId": "odakyu_tama",
-    "trainNumber": "95791",
+    "trainNumber": "2708レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -17197,12 +17632,15 @@
         "departureTime": "08:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95791",
+    "throughTripId": "HD_INB_OH-23_0821_95791",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_0812_95595",
     "lineId": "odakyu_tama",
-    "trainNumber": "95595",
+    "trainNumber": "7619レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -17258,12 +17696,13 @@
         "departureTime": "08:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95595"
   },
   {
     "tripId": "HD_INB_OT-07_0813_95903",
     "lineId": "odakyu_tama",
-    "trainNumber": "95903",
+    "trainNumber": "7618レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -17319,12 +17758,13 @@
         "departureTime": "08:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95903"
   },
   {
     "tripId": "HD_OUT_OH-23_0822_95680",
     "lineId": "odakyu_tama",
-    "trainNumber": "95680",
+    "trainNumber": "2705レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -17381,12 +17821,13 @@
         "departureTime": "08:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95680"
   },
   {
     "tripId": "HD_INB_OT-07_0824_95792",
     "lineId": "odakyu_tama",
-    "trainNumber": "95792",
+    "trainNumber": "2710レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -17443,12 +17884,15 @@
         "departureTime": "08:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95792",
+    "throughTripId": "HD_INB_OH-23_0841_95792",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_0832_95597",
     "lineId": "odakyu_tama",
-    "trainNumber": "95597",
+    "trainNumber": "7621レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -17504,12 +17948,13 @@
         "departureTime": "08:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95597"
   },
   {
     "tripId": "HD_INB_OT-07_0833_95905",
     "lineId": "odakyu_tama",
-    "trainNumber": "95905",
+    "trainNumber": "7620レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -17565,12 +18010,13 @@
         "departureTime": "08:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95905"
   },
   {
     "tripId": "HD_OUT_OH-23_0842_95682",
     "lineId": "odakyu_tama",
-    "trainNumber": "95682",
+    "trainNumber": "2707レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -17627,12 +18073,13 @@
         "departureTime": "08:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95682"
   },
   {
     "tripId": "HD_INB_OT-07_0843_95794",
     "lineId": "odakyu_tama",
-    "trainNumber": "95794",
+    "trainNumber": "2712レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -17689,12 +18136,15 @@
         "departureTime": "09:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95794",
+    "throughTripId": "HD_INB_OH-23_0901_95794",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_0852_95600",
     "lineId": "odakyu_tama",
-    "trainNumber": "95600",
+    "trainNumber": "7623レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -17750,12 +18200,13 @@
         "departureTime": "09:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95600"
   },
   {
     "tripId": "HD_INB_OT-07_0853_95908",
     "lineId": "odakyu_tama",
-    "trainNumber": "95908",
+    "trainNumber": "7622レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -17811,12 +18262,13 @@
         "departureTime": "09:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95908"
   },
   {
     "tripId": "HD_OUT_OH-23_0902_95683",
     "lineId": "odakyu_tama",
-    "trainNumber": "95683",
+    "trainNumber": "2709レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -17873,12 +18325,13 @@
         "departureTime": "09:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95683"
   },
   {
     "tripId": "HD_INB_OT-07_0904_95796",
     "lineId": "odakyu_tama",
-    "trainNumber": "95796",
+    "trainNumber": "2714レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -17935,12 +18388,15 @@
         "departureTime": "09:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95796",
+    "throughTripId": "HD_INB_OH-23_0921_95796",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_0912_95603",
     "lineId": "odakyu_tama",
-    "trainNumber": "95603",
+    "trainNumber": "7625レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -17996,12 +18452,13 @@
         "departureTime": "09:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95603"
   },
   {
     "tripId": "HD_INB_OT-07_0914_95910",
     "lineId": "odakyu_tama",
-    "trainNumber": "95910",
+    "trainNumber": "7624レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -18057,12 +18514,13 @@
         "departureTime": "09:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95910"
   },
   {
     "tripId": "HD_OUT_OH-23_0922_95684",
     "lineId": "odakyu_tama",
-    "trainNumber": "95684",
+    "trainNumber": "2711レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -18119,12 +18577,13 @@
         "departureTime": "09:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95684"
   },
   {
     "tripId": "HD_INB_OT-07_0922_95798",
     "lineId": "odakyu_tama",
-    "trainNumber": "95798",
+    "trainNumber": "2716レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -18181,12 +18640,15 @@
         "departureTime": "09:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95798",
+    "throughTripId": "HD_INB_OH-23_0938_95798",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_INB_OT-07_0931_95799",
     "lineId": "odakyu_tama",
-    "trainNumber": "95799",
+    "trainNumber": "2718レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -18243,12 +18705,15 @@
         "departureTime": "09:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95799",
+    "throughTripId": "HD_INB_OH-23_0948_95799",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_0932_95605",
     "lineId": "odakyu_tama",
-    "trainNumber": "95605",
+    "trainNumber": "7627レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -18304,12 +18769,13 @@
         "departureTime": "09:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95605"
   },
   {
     "tripId": "HD_INB_OT-07_0940_95912",
     "lineId": "odakyu_tama",
-    "trainNumber": "95912",
+    "trainNumber": "7626レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -18365,12 +18831,13 @@
         "departureTime": "09:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95912"
   },
   {
     "tripId": "HD_OUT_OH-23_0944_95686",
     "lineId": "odakyu_tama",
-    "trainNumber": "95686",
+    "trainNumber": "2713レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -18427,12 +18894,13 @@
         "departureTime": "09:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95686"
   },
   {
     "tripId": "HD_INB_OT-07_0948_95801",
     "lineId": "odakyu_tama",
-    "trainNumber": "95801",
+    "trainNumber": "2720レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -18489,12 +18957,15 @@
         "departureTime": "10:07:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95801",
+    "throughTripId": "HD_INB_OH-23_1007_95801",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_0956_95606",
     "lineId": "odakyu_tama",
-    "trainNumber": "95606",
+    "trainNumber": "7629レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -18550,12 +19021,13 @@
         "departureTime": "10:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95606"
   },
   {
     "tripId": "HD_INB_OT-07_0957_95914",
     "lineId": "odakyu_tama",
-    "trainNumber": "95914",
+    "trainNumber": "7628レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -18611,12 +19083,13 @@
         "departureTime": "10:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95914"
   },
   {
     "tripId": "HD_OUT_OH-23_1006_95690",
     "lineId": "odakyu_tama",
-    "trainNumber": "95690",
+    "trainNumber": "2715レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -18673,12 +19146,13 @@
         "departureTime": "10:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95690"
   },
   {
     "tripId": "HD_INB_OT-07_1008_95803",
     "lineId": "odakyu_tama",
-    "trainNumber": "95803",
+    "trainNumber": "2722レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -18735,12 +19209,15 @@
         "departureTime": "10:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95803",
+    "throughTripId": "HD_INB_OH-23_1027_95803",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1015_95692",
     "lineId": "odakyu_tama",
-    "trainNumber": "95692",
+    "trainNumber": "2717レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -18797,12 +19274,13 @@
         "departureTime": "10:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95692"
   },
   {
     "tripId": "HD_INB_OT-07_1018_95915",
     "lineId": "odakyu_tama",
-    "trainNumber": "95915",
+    "trainNumber": "7630レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -18858,12 +19336,13 @@
         "departureTime": "10:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95915"
   },
   {
     "tripId": "HD_OUT_OH-23_1025_95693",
     "lineId": "odakyu_tama",
-    "trainNumber": "95693",
+    "trainNumber": "2719レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -18920,12 +19399,13 @@
         "departureTime": "10:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95693"
   },
   {
     "tripId": "HD_INB_OT-07_1028_95805",
     "lineId": "odakyu_tama",
-    "trainNumber": "95805",
+    "trainNumber": "2724レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -18982,12 +19462,15 @@
         "departureTime": "10:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95805",
+    "throughTripId": "HD_INB_OH-23_1048_95805",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1037_95607",
     "lineId": "odakyu_tama",
-    "trainNumber": "95607",
+    "trainNumber": "7631レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -19043,12 +19526,13 @@
         "departureTime": "10:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95607"
   },
   {
     "tripId": "HD_INB_OT-07_1038_95916",
     "lineId": "odakyu_tama",
-    "trainNumber": "95916",
+    "trainNumber": "7632レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -19104,12 +19588,13 @@
         "departureTime": "10:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95916"
   },
   {
     "tripId": "HD_OUT_OH-23_1046_95696",
     "lineId": "odakyu_tama",
-    "trainNumber": "95696",
+    "trainNumber": "2721レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -19166,12 +19651,13 @@
         "departureTime": "11:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95696"
   },
   {
     "tripId": "HD_INB_OT-07_1049_95807",
     "lineId": "odakyu_tama",
-    "trainNumber": "95807",
+    "trainNumber": "2726レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -19228,12 +19714,15 @@
         "departureTime": "11:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95807",
+    "throughTripId": "HD_INB_OH-23_1108_95807",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1056_95609",
     "lineId": "odakyu_tama",
-    "trainNumber": "95609",
+    "trainNumber": "7633レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -19289,12 +19778,13 @@
         "departureTime": "11:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95609"
   },
   {
     "tripId": "HD_INB_OT-07_1057_95917",
     "lineId": "odakyu_tama",
-    "trainNumber": "95917",
+    "trainNumber": "7634レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -19350,12 +19840,13 @@
         "departureTime": "11:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95917"
   },
   {
     "tripId": "HD_OUT_OH-23_1106_95698",
     "lineId": "odakyu_tama",
-    "trainNumber": "95698",
+    "trainNumber": "2723レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -19412,12 +19903,13 @@
         "departureTime": "11:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95698"
   },
   {
     "tripId": "HD_INB_OT-07_1108_95809",
     "lineId": "odakyu_tama",
-    "trainNumber": "95809",
+    "trainNumber": "2728レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -19474,12 +19966,15 @@
         "departureTime": "11:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95809",
+    "throughTripId": "HD_INB_OH-23_1128_95809",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1115_95610",
     "lineId": "odakyu_tama",
-    "trainNumber": "95610",
+    "trainNumber": "7635レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -19535,12 +20030,13 @@
         "departureTime": "11:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95610"
   },
   {
     "tripId": "HD_INB_OT-07_1118_95918",
     "lineId": "odakyu_tama",
-    "trainNumber": "95918",
+    "trainNumber": "7636レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -19596,12 +20092,13 @@
         "departureTime": "11:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95918"
   },
   {
     "tripId": "HD_OUT_OH-23_1125_95700",
     "lineId": "odakyu_tama",
-    "trainNumber": "95700",
+    "trainNumber": "2725レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -19658,12 +20155,13 @@
         "departureTime": "11:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95700"
   },
   {
     "tripId": "HD_INB_OT-07_1128_95879",
     "lineId": "odakyu_tama",
-    "trainNumber": "95879",
+    "trainNumber": "7906レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -19720,12 +20218,15 @@
         "departureTime": "11:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95879",
+    "throughTripId": "HD_INB_OH-23_1147_95879",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1134_95611",
     "lineId": "odakyu_tama",
-    "trainNumber": "95611",
+    "trainNumber": "7637レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -19781,12 +20282,13 @@
         "departureTime": "11:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95611"
   },
   {
     "tripId": "HD_INB_OT-07_1138_42885",
     "lineId": "odakyu_tama",
-    "trainNumber": "42885",
+    "trainNumber": "2000レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -19843,12 +20345,15 @@
         "departureTime": "11:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42885",
+    "throughTripId": "HD_INB_OH-23_1153_42885",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1145_95702",
     "lineId": "odakyu_tama",
-    "trainNumber": "95702",
+    "trainNumber": "2727レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -19905,12 +20410,13 @@
         "departureTime": "11:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95702"
   },
   {
     "tripId": "HD_INB_OT-07_1145_95812",
     "lineId": "odakyu_tama",
-    "trainNumber": "95812",
+    "trainNumber": "2730レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -19967,12 +20473,15 @@
         "departureTime": "12:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95812",
+    "throughTripId": "HD_INB_OH-23_1202_95812",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1155_75680",
     "lineId": "odakyu_tama",
-    "trainNumber": "75680",
+    "trainNumber": "2001レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -20029,12 +20538,13 @@
         "departureTime": "12:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "75680"
   },
   {
     "tripId": "HD_INB_OT-07_1155_42887",
     "lineId": "odakyu_tama",
-    "trainNumber": "42887",
+    "trainNumber": "2002レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -20091,12 +20601,15 @@
         "departureTime": "12:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42887",
+    "throughTripId": "HD_INB_OH-23_1213_42887",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1203_95704",
     "lineId": "odakyu_tama",
-    "trainNumber": "95704",
+    "trainNumber": "2729レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -20153,12 +20666,13 @@
         "departureTime": "12:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95704"
   },
   {
     "tripId": "HD_INB_OT-07_1204_95814",
     "lineId": "odakyu_tama",
-    "trainNumber": "95814",
+    "trainNumber": "2732レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -20215,12 +20729,15 @@
         "departureTime": "12:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95814",
+    "throughTripId": "HD_INB_OH-23_1221_95814",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1213_40875",
     "lineId": "odakyu_tama",
-    "trainNumber": "40875",
+    "trainNumber": "2003レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -20277,12 +20794,13 @@
         "departureTime": "12:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40875"
   },
   {
     "tripId": "HD_INB_OT-07_1214_42889",
     "lineId": "odakyu_tama",
-    "trainNumber": "42889",
+    "trainNumber": "2004レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -20339,12 +20857,15 @@
         "departureTime": "12:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42889",
+    "throughTripId": "HD_INB_OH-23_1234_42889",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1223_95706",
     "lineId": "odakyu_tama",
-    "trainNumber": "95706",
+    "trainNumber": "2731レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -20401,12 +20922,13 @@
         "departureTime": "12:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95706"
   },
   {
     "tripId": "HD_INB_OT-07_1223_95815",
     "lineId": "odakyu_tama",
-    "trainNumber": "95815",
+    "trainNumber": "2734レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -20463,12 +20985,15 @@
         "departureTime": "12:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95815",
+    "throughTripId": "HD_INB_OH-23_1241_95815",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1233_40877",
     "lineId": "odakyu_tama",
-    "trainNumber": "40877",
+    "trainNumber": "2005レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -20525,12 +21050,13 @@
         "departureTime": "12:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40877"
   },
   {
     "tripId": "HD_INB_OT-07_1233_42890",
     "lineId": "odakyu_tama",
-    "trainNumber": "42890",
+    "trainNumber": "2006レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -20587,12 +21113,15 @@
         "departureTime": "12:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42890",
+    "throughTripId": "HD_INB_OH-23_1253_42890",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1243_95708",
     "lineId": "odakyu_tama",
-    "trainNumber": "95708",
+    "trainNumber": "2733レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -20649,12 +21178,13 @@
         "departureTime": "12:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95708"
   },
   {
     "tripId": "HD_INB_OT-07_1243_95817",
     "lineId": "odakyu_tama",
-    "trainNumber": "95817",
+    "trainNumber": "2736レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -20711,12 +21241,15 @@
         "departureTime": "13:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95817",
+    "throughTripId": "HD_INB_OH-23_1301_95817",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1253_40879",
     "lineId": "odakyu_tama",
-    "trainNumber": "40879",
+    "trainNumber": "2007レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -20773,12 +21306,13 @@
         "departureTime": "13:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40879"
   },
   {
     "tripId": "HD_INB_OT-07_1253_42892",
     "lineId": "odakyu_tama",
-    "trainNumber": "42892",
+    "trainNumber": "2008レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -20835,12 +21369,15 @@
         "departureTime": "13:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42892",
+    "throughTripId": "HD_INB_OH-23_1313_42892",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1303_95709",
     "lineId": "odakyu_tama",
-    "trainNumber": "95709",
+    "trainNumber": "2735レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -20897,12 +21434,13 @@
         "departureTime": "13:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95709"
   },
   {
     "tripId": "HD_INB_OT-07_1303_95819",
     "lineId": "odakyu_tama",
-    "trainNumber": "95819",
+    "trainNumber": "2738レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -20959,12 +21497,15 @@
         "departureTime": "13:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95819",
+    "throughTripId": "HD_INB_OH-23_1321_95819",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1313_40882",
     "lineId": "odakyu_tama",
-    "trainNumber": "40882",
+    "trainNumber": "2009レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -21021,12 +21562,13 @@
         "departureTime": "13:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40882"
   },
   {
     "tripId": "HD_INB_OT-07_1314_42895",
     "lineId": "odakyu_tama",
-    "trainNumber": "42895",
+    "trainNumber": "2010レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -21083,12 +21625,15 @@
         "departureTime": "13:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42895",
+    "throughTripId": "HD_INB_OH-23_1333_42895",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1323_95712",
     "lineId": "odakyu_tama",
-    "trainNumber": "95712",
+    "trainNumber": "2737レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -21145,12 +21690,13 @@
         "departureTime": "13:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95712"
   },
   {
     "tripId": "HD_INB_OT-07_1323_95821",
     "lineId": "odakyu_tama",
-    "trainNumber": "95821",
+    "trainNumber": "2740レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -21207,12 +21753,15 @@
         "departureTime": "13:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95821",
+    "throughTripId": "HD_INB_OH-23_1341_95821",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1333_40884",
     "lineId": "odakyu_tama",
-    "trainNumber": "40884",
+    "trainNumber": "2011レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -21269,12 +21818,13 @@
         "departureTime": "13:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40884"
   },
   {
     "tripId": "HD_INB_OT-07_1333_42896",
     "lineId": "odakyu_tama",
-    "trainNumber": "42896",
+    "trainNumber": "2012レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -21331,12 +21881,15 @@
         "departureTime": "13:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42896",
+    "throughTripId": "HD_INB_OH-23_1353_42896",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1343_95714",
     "lineId": "odakyu_tama",
-    "trainNumber": "95714",
+    "trainNumber": "2739レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -21393,12 +21946,13 @@
         "departureTime": "13:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95714"
   },
   {
     "tripId": "HD_INB_OT-07_1343_95823",
     "lineId": "odakyu_tama",
-    "trainNumber": "95823",
+    "trainNumber": "2742レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -21455,12 +22009,15 @@
         "departureTime": "14:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95823",
+    "throughTripId": "HD_INB_OH-23_1400_95823",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1353_40886",
     "lineId": "odakyu_tama",
-    "trainNumber": "40886",
+    "trainNumber": "2013レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -21517,12 +22074,13 @@
         "departureTime": "14:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40886"
   },
   {
     "tripId": "HD_INB_OT-07_1353_42898",
     "lineId": "odakyu_tama",
-    "trainNumber": "42898",
+    "trainNumber": "2014レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -21579,12 +22137,15 @@
         "departureTime": "14:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42898",
+    "throughTripId": "HD_INB_OH-23_1413_42898",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1403_95716",
     "lineId": "odakyu_tama",
-    "trainNumber": "95716",
+    "trainNumber": "2741レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -21641,12 +22202,13 @@
         "departureTime": "14:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95716"
   },
   {
     "tripId": "HD_INB_OT-07_1403_95825",
     "lineId": "odakyu_tama",
-    "trainNumber": "95825",
+    "trainNumber": "2744レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -21703,12 +22265,15 @@
         "departureTime": "14:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95825",
+    "throughTripId": "HD_INB_OH-23_1421_95825",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1413_40888",
     "lineId": "odakyu_tama",
-    "trainNumber": "40888",
+    "trainNumber": "2015レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -21765,12 +22330,13 @@
         "departureTime": "14:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40888"
   },
   {
     "tripId": "HD_INB_OT-07_1413_42900",
     "lineId": "odakyu_tama",
-    "trainNumber": "42900",
+    "trainNumber": "2016レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -21827,12 +22393,15 @@
         "departureTime": "14:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42900",
+    "throughTripId": "HD_INB_OH-23_1433_42900",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1423_95718",
     "lineId": "odakyu_tama",
-    "trainNumber": "95718",
+    "trainNumber": "2743レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -21889,12 +22458,13 @@
         "departureTime": "14:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95718"
   },
   {
     "tripId": "HD_INB_OT-07_1423_95827",
     "lineId": "odakyu_tama",
-    "trainNumber": "95827",
+    "trainNumber": "2746レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -21951,12 +22521,15 @@
         "departureTime": "14:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95827",
+    "throughTripId": "HD_INB_OH-23_1441_95827",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1433_40890",
     "lineId": "odakyu_tama",
-    "trainNumber": "40890",
+    "trainNumber": "2017レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -22013,12 +22586,13 @@
         "departureTime": "14:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40890"
   },
   {
     "tripId": "HD_INB_OT-07_1433_42902",
     "lineId": "odakyu_tama",
-    "trainNumber": "42902",
+    "trainNumber": "2018レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -22075,12 +22649,15 @@
         "departureTime": "14:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42902",
+    "throughTripId": "HD_INB_OH-23_1453_42902",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1443_95720",
     "lineId": "odakyu_tama",
-    "trainNumber": "95720",
+    "trainNumber": "2745レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -22137,12 +22714,13 @@
         "departureTime": "14:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95720"
   },
   {
     "tripId": "HD_INB_OT-07_1443_95829",
     "lineId": "odakyu_tama",
-    "trainNumber": "95829",
+    "trainNumber": "2748レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -22199,12 +22777,15 @@
         "departureTime": "15:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95829",
+    "throughTripId": "HD_INB_OH-23_1501_95829",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1453_40892",
     "lineId": "odakyu_tama",
-    "trainNumber": "40892",
+    "trainNumber": "2019レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -22261,12 +22842,13 @@
         "departureTime": "15:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40892"
   },
   {
     "tripId": "HD_INB_OT-07_1453_42904",
     "lineId": "odakyu_tama",
-    "trainNumber": "42904",
+    "trainNumber": "2020レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -22323,12 +22905,15 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42904",
+    "throughTripId": "HD_INB_OH-23_1513_42904",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1503_95722",
     "lineId": "odakyu_tama",
-    "trainNumber": "95722",
+    "trainNumber": "2747レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -22385,12 +22970,13 @@
         "departureTime": "15:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95722"
   },
   {
     "tripId": "HD_INB_OT-07_1503_95831",
     "lineId": "odakyu_tama",
-    "trainNumber": "95831",
+    "trainNumber": "2750レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -22447,12 +23033,15 @@
         "departureTime": "15:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95831",
+    "throughTripId": "HD_INB_OH-23_1521_95831",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1513_40894",
     "lineId": "odakyu_tama",
-    "trainNumber": "40894",
+    "trainNumber": "2021レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -22509,12 +23098,13 @@
         "departureTime": "15:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40894"
   },
   {
     "tripId": "HD_INB_OT-07_1513_42906",
     "lineId": "odakyu_tama",
-    "trainNumber": "42906",
+    "trainNumber": "2022レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -22571,12 +23161,15 @@
         "departureTime": "15:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42906",
+    "throughTripId": "HD_INB_OH-23_1533_42906",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1523_95724",
     "lineId": "odakyu_tama",
-    "trainNumber": "95724",
+    "trainNumber": "2749レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -22633,12 +23226,13 @@
         "departureTime": "15:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95724"
   },
   {
     "tripId": "HD_INB_OT-07_1523_95833",
     "lineId": "odakyu_tama",
-    "trainNumber": "95833",
+    "trainNumber": "2752レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -22695,12 +23289,15 @@
         "departureTime": "15:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95833",
+    "throughTripId": "HD_INB_OH-23_1541_95833",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1533_40896",
     "lineId": "odakyu_tama",
-    "trainNumber": "40896",
+    "trainNumber": "2023レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -22757,12 +23354,13 @@
         "departureTime": "15:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40896"
   },
   {
     "tripId": "HD_INB_OT-07_1533_42908",
     "lineId": "odakyu_tama",
-    "trainNumber": "42908",
+    "trainNumber": "2024レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -22819,12 +23417,15 @@
         "departureTime": "15:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42908",
+    "throughTripId": "HD_INB_OH-23_1553_42908",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1543_95726",
     "lineId": "odakyu_tama",
-    "trainNumber": "95726",
+    "trainNumber": "2751レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -22881,12 +23482,13 @@
         "departureTime": "15:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95726"
   },
   {
     "tripId": "HD_INB_OT-07_1543_95837",
     "lineId": "odakyu_tama",
-    "trainNumber": "95837",
+    "trainNumber": "2754レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -22943,12 +23545,15 @@
         "departureTime": "16:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95837",
+    "throughTripId": "HD_INB_OH-23_1601_95837",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1553_40898",
     "lineId": "odakyu_tama",
-    "trainNumber": "40898",
+    "trainNumber": "2025レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -23005,12 +23610,13 @@
         "departureTime": "16:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40898"
   },
   {
     "tripId": "HD_INB_OT-07_1553_42909",
     "lineId": "odakyu_tama",
-    "trainNumber": "42909",
+    "trainNumber": "2026レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -23067,12 +23673,15 @@
         "departureTime": "16:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42909",
+    "throughTripId": "HD_INB_OH-23_1612_42909",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1603_95728",
     "lineId": "odakyu_tama",
-    "trainNumber": "95728",
+    "trainNumber": "2753レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -23129,12 +23738,13 @@
         "departureTime": "16:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95728"
   },
   {
     "tripId": "HD_INB_OT-07_1604_95840",
     "lineId": "odakyu_tama",
-    "trainNumber": "95840",
+    "trainNumber": "2756レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -23191,12 +23801,15 @@
         "departureTime": "16:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95840",
+    "throughTripId": "HD_INB_OH-23_1621_95840",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1613_40899",
     "lineId": "odakyu_tama",
-    "trainNumber": "40899",
+    "trainNumber": "2027レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -23253,12 +23866,13 @@
         "departureTime": "16:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "40899"
   },
   {
     "tripId": "HD_INB_OT-07_1613_42910",
     "lineId": "odakyu_tama",
-    "trainNumber": "42910",
+    "trainNumber": "2028レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -23315,12 +23929,15 @@
         "departureTime": "16:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42910",
+    "throughTripId": "HD_INB_OH-23_1633_42910",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1623_95730",
     "lineId": "odakyu_tama",
-    "trainNumber": "95730",
+    "trainNumber": "2755レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -23377,12 +23994,13 @@
         "departureTime": "16:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95730"
   },
   {
     "tripId": "HD_INB_OT-07_1623_95843",
     "lineId": "odakyu_tama",
-    "trainNumber": "95843",
+    "trainNumber": "2758レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -23439,12 +24057,15 @@
         "departureTime": "16:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95843",
+    "throughTripId": "HD_INB_OH-23_1641_95843",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1633_95731",
     "lineId": "odakyu_tama",
-    "trainNumber": "95731",
+    "trainNumber": "2757レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -23501,12 +24122,13 @@
         "departureTime": "16:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95731"
   },
   {
     "tripId": "HD_INB_OT-07_1633_42911",
     "lineId": "odakyu_tama",
-    "trainNumber": "42911",
+    "trainNumber": "2030レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -23563,12 +24185,15 @@
         "departureTime": "16:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "42911",
+    "throughTripId": "HD_INB_OH-23_1652_42911",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1643_95733",
     "lineId": "odakyu_tama",
-    "trainNumber": "95733",
+    "trainNumber": "2759レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -23625,12 +24250,13 @@
         "departureTime": "16:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95733"
   },
   {
     "tripId": "HD_INB_OT-07_1643_95845",
     "lineId": "odakyu_tama",
-    "trainNumber": "95845",
+    "trainNumber": "2760レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -23687,12 +24313,15 @@
         "departureTime": "17:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95845",
+    "throughTripId": "HD_INB_OH-23_1701_95845",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1653_95614",
     "lineId": "odakyu_tama",
-    "trainNumber": "95614",
+    "trainNumber": "7639レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -23748,12 +24377,13 @@
         "departureTime": "17:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95614"
   },
   {
     "tripId": "HD_INB_OT-07_1653_95920",
     "lineId": "odakyu_tama",
-    "trainNumber": "95920",
+    "trainNumber": "7638レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -23809,12 +24439,13 @@
         "departureTime": "17:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95920"
   },
   {
     "tripId": "HD_OUT_OH-23_1703_95735",
     "lineId": "odakyu_tama",
-    "trainNumber": "95735",
+    "trainNumber": "2761レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -23871,12 +24502,13 @@
         "departureTime": "17:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95735"
   },
   {
     "tripId": "HD_INB_OT-07_1703_95846",
     "lineId": "odakyu_tama",
-    "trainNumber": "95846",
+    "trainNumber": "2762レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -23933,12 +24565,15 @@
         "departureTime": "17:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95846",
+    "throughTripId": "HD_INB_OH-23_1721_95846",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1713_95736",
     "lineId": "odakyu_tama",
-    "trainNumber": "95736",
+    "trainNumber": "2763レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -23995,12 +24630,13 @@
         "departureTime": "17:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95736"
   },
   {
     "tripId": "HD_INB_OT-07_1713_95923",
     "lineId": "odakyu_tama",
-    "trainNumber": "95923",
+    "trainNumber": "7640レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -24056,12 +24692,13 @@
         "departureTime": "17:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95923"
   },
   {
     "tripId": "HD_OUT_OH-23_1722_95738",
     "lineId": "odakyu_tama",
-    "trainNumber": "95738",
+    "trainNumber": "2765レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -24118,12 +24755,13 @@
         "departureTime": "17:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95738"
   },
   {
     "tripId": "HD_INB_OT-07_1723_95848",
     "lineId": "odakyu_tama",
-    "trainNumber": "95848",
+    "trainNumber": "2764レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -24180,12 +24818,15 @@
         "departureTime": "17:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95848",
+    "throughTripId": "HD_INB_OH-23_1741_95848",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1733_95617",
     "lineId": "odakyu_tama",
-    "trainNumber": "95617",
+    "trainNumber": "7641レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -24241,12 +24882,13 @@
         "departureTime": "17:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95617"
   },
   {
     "tripId": "HD_INB_OT-07_1733_95925",
     "lineId": "odakyu_tama",
-    "trainNumber": "95925",
+    "trainNumber": "7642レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -24302,12 +24944,13 @@
         "departureTime": "17:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95925"
   },
   {
     "tripId": "HD_OUT_OH-23_1743_95740",
     "lineId": "odakyu_tama",
-    "trainNumber": "95740",
+    "trainNumber": "2767レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -24364,12 +25007,13 @@
         "departureTime": "17:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95740"
   },
   {
     "tripId": "HD_INB_OT-07_1744_95851",
     "lineId": "odakyu_tama",
-    "trainNumber": "95851",
+    "trainNumber": "2766レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -24426,12 +25070,15 @@
         "departureTime": "18:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95851",
+    "throughTripId": "HD_INB_OH-23_1801_95851",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1754_95620",
     "lineId": "odakyu_tama",
-    "trainNumber": "95620",
+    "trainNumber": "7643レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -24487,12 +25134,13 @@
         "departureTime": "18:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95620"
   },
   {
     "tripId": "HD_INB_OT-07_1754_95927",
     "lineId": "odakyu_tama",
-    "trainNumber": "95927",
+    "trainNumber": "7644レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -24548,12 +25196,13 @@
         "departureTime": "18:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95927"
   },
   {
     "tripId": "HD_OUT_OH-23_1803_95741",
     "lineId": "odakyu_tama",
-    "trainNumber": "95741",
+    "trainNumber": "2769レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -24610,12 +25259,13 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95741"
   },
   {
     "tripId": "HD_INB_OT-07_1803_95853",
     "lineId": "odakyu_tama",
-    "trainNumber": "95853",
+    "trainNumber": "2768レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -24672,12 +25322,15 @@
         "departureTime": "18:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95853",
+    "throughTripId": "HD_INB_OH-23_1821_95853",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1814_95623",
     "lineId": "odakyu_tama",
-    "trainNumber": "95623",
+    "trainNumber": "7645レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -24733,12 +25386,13 @@
         "departureTime": "18:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95623"
   },
   {
     "tripId": "HD_INB_OT-07_1814_95929",
     "lineId": "odakyu_tama",
-    "trainNumber": "95929",
+    "trainNumber": "7646レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -24794,12 +25448,13 @@
         "departureTime": "18:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95929"
   },
   {
     "tripId": "HD_OUT_OH-23_1824_95743",
     "lineId": "odakyu_tama",
-    "trainNumber": "95743",
+    "trainNumber": "2771レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -24856,12 +25511,13 @@
         "departureTime": "18:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95743"
   },
   {
     "tripId": "HD_INB_OT-07_1824_95855",
     "lineId": "odakyu_tama",
-    "trainNumber": "95855",
+    "trainNumber": "2770レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -24918,12 +25574,15 @@
         "departureTime": "18:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95855",
+    "throughTripId": "HD_INB_OH-23_1841_95855",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1834_95626",
     "lineId": "odakyu_tama",
-    "trainNumber": "95626",
+    "trainNumber": "7647レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -24979,12 +25638,13 @@
         "departureTime": "18:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95626"
   },
   {
     "tripId": "HD_INB_OT-07_1834_95931",
     "lineId": "odakyu_tama",
-    "trainNumber": "95931",
+    "trainNumber": "7648レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -25040,12 +25700,13 @@
         "departureTime": "18:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95931"
   },
   {
     "tripId": "HD_OUT_OH-23_1843_95745",
     "lineId": "odakyu_tama",
-    "trainNumber": "95745",
+    "trainNumber": "2773レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -25102,12 +25763,13 @@
         "departureTime": "18:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95745"
   },
   {
     "tripId": "HD_INB_OT-07_1846_95857",
     "lineId": "odakyu_tama",
-    "trainNumber": "95857",
+    "trainNumber": "2772レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -25164,12 +25826,15 @@
         "departureTime": "19:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95857",
+    "throughTripId": "HD_INB_OH-23_1903_95857",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1854_95629",
     "lineId": "odakyu_tama",
-    "trainNumber": "95629",
+    "trainNumber": "7649レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -25225,12 +25890,13 @@
         "departureTime": "19:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95629"
   },
   {
     "tripId": "HD_INB_OT-07_1854_95933",
     "lineId": "odakyu_tama",
-    "trainNumber": "95933",
+    "trainNumber": "7650レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -25286,12 +25952,13 @@
         "departureTime": "19:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95933"
   },
   {
     "tripId": "HD_OUT_OH-23_1903_95748",
     "lineId": "odakyu_tama",
-    "trainNumber": "95748",
+    "trainNumber": "2775レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -25348,12 +26015,13 @@
         "departureTime": "19:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95748"
   },
   {
     "tripId": "HD_INB_OT-07_1904_95859",
     "lineId": "odakyu_tama",
-    "trainNumber": "95859",
+    "trainNumber": "2774レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -25410,12 +26078,15 @@
         "departureTime": "19:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95859",
+    "throughTripId": "HD_INB_OH-23_1921_95859",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1914_95632",
     "lineId": "odakyu_tama",
-    "trainNumber": "95632",
+    "trainNumber": "7651レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -25471,12 +26142,13 @@
         "departureTime": "19:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95632"
   },
   {
     "tripId": "HD_INB_OT-07_1914_95970",
     "lineId": "odakyu_tama",
-    "trainNumber": "95970",
+    "trainNumber": "2032レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -25533,12 +26205,15 @@
         "departureTime": "19:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95970",
+    "throughTripId": "HD_INB_OH-23_1933_95970",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_INB_OT-07_1923_95861",
     "lineId": "odakyu_tama",
-    "trainNumber": "95861",
+    "trainNumber": "2776レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -25595,12 +26270,15 @@
         "departureTime": "19:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95861",
+    "throughTripId": "HD_INB_OH-23_1941_95861",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_1924_95749",
     "lineId": "odakyu_tama",
-    "trainNumber": "95749",
+    "trainNumber": "2777レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -25657,12 +26335,13 @@
         "departureTime": "19:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95749"
   },
   {
     "tripId": "HD_OUT_OH-23_1933_75681",
     "lineId": "odakyu_tama",
-    "trainNumber": "75681",
+    "trainNumber": "2029レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -25719,12 +26398,13 @@
         "departureTime": "19:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "75681"
   },
   {
     "tripId": "HD_INB_OT-07_1933_95936",
     "lineId": "odakyu_tama",
-    "trainNumber": "95936",
+    "trainNumber": "7652レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -25780,12 +26460,13 @@
         "departureTime": "19:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95936"
   },
   {
     "tripId": "HD_OUT_OH-23_1943_95751",
     "lineId": "odakyu_tama",
-    "trainNumber": "95751",
+    "trainNumber": "2779レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -25842,12 +26523,13 @@
         "departureTime": "19:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95751"
   },
   {
     "tripId": "HD_INB_OT-07_1943_95863",
     "lineId": "odakyu_tama",
-    "trainNumber": "95863",
+    "trainNumber": "2778レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -25904,12 +26586,15 @@
         "departureTime": "20:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95863",
+    "throughTripId": "HD_INB_OH-23_2002_95863",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_INB_OT-07_1952_95938",
     "lineId": "odakyu_tama",
-    "trainNumber": "95938",
+    "trainNumber": "7654レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -25965,12 +26650,13 @@
         "departureTime": "20:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95938"
   },
   {
     "tripId": "HD_OUT_OH-23_1954_95636",
     "lineId": "odakyu_tama",
-    "trainNumber": "95636",
+    "trainNumber": "7653レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -26026,12 +26712,13 @@
         "departureTime": "20:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95636"
   },
   {
     "tripId": "HD_OUT_OH-23_2002_95753",
     "lineId": "odakyu_tama",
-    "trainNumber": "95753",
+    "trainNumber": "2781レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -26088,12 +26775,13 @@
         "departureTime": "20:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95753"
   },
   {
     "tripId": "HD_INB_OT-07_2004_95865",
     "lineId": "odakyu_tama",
-    "trainNumber": "95865",
+    "trainNumber": "2780レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -26150,12 +26838,15 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95865",
+    "throughTripId": "HD_INB_OH-23_2021_95865",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_2013_95639",
     "lineId": "odakyu_tama",
-    "trainNumber": "95639",
+    "trainNumber": "7655レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -26211,12 +26902,13 @@
         "departureTime": "20:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95639"
   },
   {
     "tripId": "HD_INB_OT-07_2013_95940",
     "lineId": "odakyu_tama",
-    "trainNumber": "95940",
+    "trainNumber": "7656レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -26272,12 +26964,13 @@
         "departureTime": "20:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95940"
   },
   {
     "tripId": "HD_OUT_OH-23_2022_95755",
     "lineId": "odakyu_tama",
-    "trainNumber": "95755",
+    "trainNumber": "2783レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -26334,12 +27027,13 @@
         "departureTime": "20:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95755"
   },
   {
     "tripId": "HD_INB_OT-07_2023_95866",
     "lineId": "odakyu_tama",
-    "trainNumber": "95866",
+    "trainNumber": "2782レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -26396,12 +27090,15 @@
         "departureTime": "20:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95866",
+    "throughTripId": "HD_INB_OH-23_2041_95866",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_2033_95642",
     "lineId": "odakyu_tama",
-    "trainNumber": "95642",
+    "trainNumber": "7657レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -26457,12 +27154,13 @@
         "departureTime": "20:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95642"
   },
   {
     "tripId": "HD_INB_OT-07_2033_95943",
     "lineId": "odakyu_tama",
-    "trainNumber": "95943",
+    "trainNumber": "7658レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -26518,12 +27216,13 @@
         "departureTime": "20:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95943"
   },
   {
     "tripId": "HD_OUT_OH-23_2042_95757",
     "lineId": "odakyu_tama",
-    "trainNumber": "95757",
+    "trainNumber": "2785レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -26580,12 +27279,13 @@
         "departureTime": "20:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95757"
   },
   {
     "tripId": "HD_INB_OT-07_2043_95867",
     "lineId": "odakyu_tama",
-    "trainNumber": "95867",
+    "trainNumber": "2784レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -26642,12 +27342,15 @@
         "departureTime": "21:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95867",
+    "throughTripId": "HD_INB_OH-23_2101_95867",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_2053_95645",
     "lineId": "odakyu_tama",
-    "trainNumber": "95645",
+    "trainNumber": "7659レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -26703,12 +27406,13 @@
         "departureTime": "21:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95645"
   },
   {
     "tripId": "HD_INB_OT-07_2053_95946",
     "lineId": "odakyu_tama",
-    "trainNumber": "95946",
+    "trainNumber": "7660レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -26764,12 +27468,13 @@
         "departureTime": "21:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95946"
   },
   {
     "tripId": "HD_OUT_OH-23_2102_95759",
     "lineId": "odakyu_tama",
-    "trainNumber": "95759",
+    "trainNumber": "2787レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -26826,12 +27531,13 @@
         "departureTime": "21:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95759"
   },
   {
     "tripId": "HD_INB_OT-07_2104_95868",
     "lineId": "odakyu_tama",
-    "trainNumber": "95868",
+    "trainNumber": "2786レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -26888,12 +27594,15 @@
         "departureTime": "21:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95868",
+    "throughTripId": "HD_INB_OH-23_2121_95868",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_2113_95648",
     "lineId": "odakyu_tama",
-    "trainNumber": "95648",
+    "trainNumber": "7661レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -26949,12 +27658,13 @@
         "departureTime": "21:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95648"
   },
   {
     "tripId": "HD_INB_OT-07_2113_95949",
     "lineId": "odakyu_tama",
-    "trainNumber": "95949",
+    "trainNumber": "7662レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -27010,12 +27720,13 @@
         "departureTime": "21:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95949"
   },
   {
     "tripId": "HD_OUT_OH-23_2122_95761",
     "lineId": "odakyu_tama",
-    "trainNumber": "95761",
+    "trainNumber": "2789レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -27072,12 +27783,13 @@
         "departureTime": "21:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95761"
   },
   {
     "tripId": "HD_INB_OT-07_2123_95869",
     "lineId": "odakyu_tama",
-    "trainNumber": "95869",
+    "trainNumber": "2788レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -27134,12 +27846,15 @@
         "departureTime": "21:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95869",
+    "throughTripId": "HD_INB_OH-23_2140_95869",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_2133_95650",
     "lineId": "odakyu_tama",
-    "trainNumber": "95650",
+    "trainNumber": "7663レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -27195,12 +27910,13 @@
         "departureTime": "21:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95650"
   },
   {
     "tripId": "HD_INB_OT-07_2133_95952",
     "lineId": "odakyu_tama",
-    "trainNumber": "95952",
+    "trainNumber": "7664レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -27256,12 +27972,13 @@
         "departureTime": "21:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95952"
   },
   {
     "tripId": "HD_OUT_OH-23_2143_95764",
     "lineId": "odakyu_tama",
-    "trainNumber": "95764",
+    "trainNumber": "2791レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -27318,12 +28035,13 @@
         "departureTime": "21:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95764"
   },
   {
     "tripId": "HD_INB_OT-07_2143_95870",
     "lineId": "odakyu_tama",
-    "trainNumber": "95870",
+    "trainNumber": "2790レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -27380,12 +28098,15 @@
         "departureTime": "21:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95870",
+    "throughTripId": "HD_INB_OH-23_2159_95870",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_2153_95652",
     "lineId": "odakyu_tama",
-    "trainNumber": "95652",
+    "trainNumber": "7665レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -27441,12 +28162,13 @@
         "departureTime": "22:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95652"
   },
   {
     "tripId": "HD_INB_OT-07_2153_95954",
     "lineId": "odakyu_tama",
-    "trainNumber": "95954",
+    "trainNumber": "7666レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -27502,12 +28224,13 @@
         "departureTime": "22:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95954"
   },
   {
     "tripId": "HD_OUT_OH-23_2202_95765",
     "lineId": "odakyu_tama",
-    "trainNumber": "95765",
+    "trainNumber": "2793レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -27564,12 +28287,13 @@
         "departureTime": "22:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95765"
   },
   {
     "tripId": "HD_INB_OT-07_2204_95872",
     "lineId": "odakyu_tama",
-    "trainNumber": "95872",
+    "trainNumber": "2792レ",
     "trainType": "express",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -27626,12 +28350,15 @@
         "departureTime": "22:21:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95872",
+    "throughTripId": "HD_INB_OH-23_2221_95872",
+    "throughLineId": "odakyu_odawara"
   },
   {
     "tripId": "HD_OUT_OH-23_2213_95655",
     "lineId": "odakyu_tama",
-    "trainNumber": "95655",
+    "trainNumber": "7667レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -27687,12 +28414,13 @@
         "departureTime": "22:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95655"
   },
   {
     "tripId": "HD_INB_OT-07_2215_95957",
     "lineId": "odakyu_tama",
-    "trainNumber": "95957",
+    "trainNumber": "7668レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -27748,12 +28476,13 @@
         "departureTime": "22:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95957"
   },
   {
     "tripId": "HD_OUT_OH-23_2223_95767",
     "lineId": "odakyu_tama",
-    "trainNumber": "95767",
+    "trainNumber": "2795レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -27810,12 +28539,13 @@
         "departureTime": "22:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95767"
   },
   {
     "tripId": "HD_INB_OT-07_2232_95959",
     "lineId": "odakyu_tama",
-    "trainNumber": "95959",
+    "trainNumber": "7670レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -27871,12 +28601,13 @@
         "departureTime": "22:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95959"
   },
   {
     "tripId": "HD_OUT_OH-23_2237_95657",
     "lineId": "odakyu_tama",
-    "trainNumber": "95657",
+    "trainNumber": "7669レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -27932,12 +28663,13 @@
         "departureTime": "22:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95657"
   },
   {
     "tripId": "HD_OUT_OH-23_2245_95769",
     "lineId": "odakyu_tama",
-    "trainNumber": "95769",
+    "trainNumber": "2797レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -27994,12 +28726,13 @@
         "departureTime": "23:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95769"
   },
   {
     "tripId": "HD_INB_OT-07_2248_95960",
     "lineId": "odakyu_tama",
-    "trainNumber": "95960",
+    "trainNumber": "7672レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -28055,12 +28788,13 @@
         "departureTime": "23:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95960"
   },
   {
     "tripId": "HD_OUT_OH-23_2256_95658",
     "lineId": "odakyu_tama",
-    "trainNumber": "95658",
+    "trainNumber": "7671レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -28116,12 +28850,13 @@
         "departureTime": "23:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95658"
   },
   {
     "tripId": "HD_INB_OT-07_2301_95962",
     "lineId": "odakyu_tama",
-    "trainNumber": "95962",
+    "trainNumber": "7674レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -28177,12 +28912,13 @@
         "departureTime": "23:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95962"
   },
   {
     "tripId": "HD_OUT_OH-23_2312_95659",
     "lineId": "odakyu_tama",
-    "trainNumber": "95659",
+    "trainNumber": "7673レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -28238,12 +28974,13 @@
         "departureTime": "23:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95659"
   },
   {
     "tripId": "HD_OUT_OH-23_2321_95666",
     "lineId": "odakyu_tama",
-    "trainNumber": "95666",
+    "trainNumber": "7901レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -28300,12 +29037,13 @@
         "departureTime": "23:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95666"
   },
   {
     "tripId": "HD_INB_OT-07_2322_95964",
     "lineId": "odakyu_tama",
-    "trainNumber": "95964",
+    "trainNumber": "7676レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -28361,12 +29099,13 @@
         "departureTime": "23:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95964"
   },
   {
     "tripId": "HD_OUT_OH-23_2330_95772",
     "lineId": "odakyu_tama",
-    "trainNumber": "95772",
+    "trainNumber": "2799レ",
     "trainType": "express",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -28423,12 +29162,13 @@
         "departureTime": "23:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95772"
   },
   {
     "tripId": "HD_INB_OT-07_2342_95966",
     "lineId": "odakyu_tama",
-    "trainNumber": "95966",
+    "trainNumber": "7678レ",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "OT-07",
@@ -28484,12 +29224,13 @@
         "departureTime": "23:57:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95966"
   },
   {
     "tripId": "HD_OUT_OH-23_2347_95662",
     "lineId": "odakyu_tama",
-    "trainNumber": "95662",
+    "trainNumber": "7675レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "OH-23",
@@ -28545,6 +29286,7 @@
         "departureTime": "00:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "trainId": "95662"
   }
 ]
