@@ -63,7 +63,7 @@ export const ODAKYU_ODAWARA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   },
   limitedExp: {
     key: 'limitedExp',
-    name: '特急ロマンスカー',
+    name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',
     color: '#dd3c00',
