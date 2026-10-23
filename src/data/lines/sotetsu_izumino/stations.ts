@@ -1,4 +1,3 @@
-// 相鉄いずみ野線 駅メタデータ定義
 import type { Station } from '../../../types';
 
 export const SOTETSU_IZUMINO_STATIONS: Station[] = [
@@ -134,8 +133,8 @@ export const SOTETSU_IZUMINO_STATIONS: Station[] = [
     "name": "いずみ野",
     "nameKana": "いずみの",
     "nameEn": "Izumino",
-    "lat": 35.4295908,
-    "lng": 139.495126,
+    "lat": 35.4293613,
+    "lng": 139.4950869,
     "transfers": [],
     "address": "神奈川県横浜市泉区和泉町6214-1",
     "facilities": {
