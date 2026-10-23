@@ -75,6 +75,12 @@ import { fujikyuLine } from './lines/fujikyu';
 import { gotembaLine } from './lines/gotemba';
 import { izukyuLine } from './lines/izukyu';
 import { izuhakoneSunzuLine } from './lines/izuhakone_sunzu';
+import { hibiyaLine } from './lines/hibiya';
+import { marunouchiLine } from './lines/marunouchi';
+import { hanzomonLine } from './lines/hanzomon';
+import { ginzaLine } from './lines/ginza';
+import { nambokuLine } from './lines/namboku';
+import { tozaiLine } from './lines/tozai';
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
@@ -86,6 +92,12 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   yurakucho: yurakuchoLine,
   fukutoshin: fukutoshinLine,
   chiyoda: chiyodaLine,
+  hibiya: hibiyaLine,
+  marunouchi: marunouchiLine,
+  hanzomon: hanzomonLine,
+  ginza: ginzaLine,
+  namboku: nambokuLine,
+  tozai: tozaiLine,
   joban_local: jobanLocalLine,
   joban_rapid: jobanRapidLine,
   joban_toride_iwaki: jobanTorideIwakiLine,

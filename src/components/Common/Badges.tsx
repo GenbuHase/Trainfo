@@ -165,6 +165,52 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#00bb85',
     numColor: '#008a62',
   },
+  // 東京メトロ日比谷線
+  H: {
+    borderColor: '#9caeb7',
+    prefixColor: '#9caeb7',
+    numColor: '#60727b',
+  },
+  // 東京メトロ丸ノ内線
+  M: {
+    borderColor: '#e60012',
+    prefixColor: '#e60012',
+    numColor: '#b3000e',
+  },
+  Mb: {
+    borderColor: '#e60012',
+    prefixColor: '#e60012',
+    numColor: '#b3000e',
+  },
+  m: {
+    borderColor: '#e60012',
+    prefixColor: '#e60012',
+    numColor: '#b3000e',
+  },
+  // 東京メトロ半蔵門線
+  Z: {
+    borderColor: '#9b7cb6',
+    prefixColor: '#9b7cb6',
+    numColor: '#785694',
+  },
+  // 東京メトロ銀座線
+  G: {
+    borderColor: '#f39700',
+    prefixColor: '#f39700',
+    numColor: '#b87200',
+  },
+  // 東京メトロ南北線
+  N: {
+    borderColor: '#00ac9a',
+    prefixColor: '#00ac9a',
+    numColor: '#008274',
+  },
+  // 東京メトロ東西線
+  T: {
+    borderColor: '#00a7db',
+    prefixColor: '#00a7db',
+    numColor: '#007ea6',
+  },
   // JR常磐線各駅停車
   JL: {
     borderColor: '#9e9e9f',

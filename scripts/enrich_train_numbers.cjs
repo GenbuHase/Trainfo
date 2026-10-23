@@ -2157,6 +2157,24 @@ if (target === 'chichibu' || target === 'all') {
 if (target === 'chiyoda' || target === 'all') {
   enrichChiyoda();
 }
+if (target === 'hibiya' || target === 'metro' || target === 'all') {
+  enrichMetroLine('hibiya', '東京メトロ日比谷線');
+}
+if (target === 'marunouchi' || target === 'metro' || target === 'all') {
+  enrichMetroLine('marunouchi', '東京メトロ丸ノ内線');
+}
+if (target === 'hanzomon' || target === 'metro' || target === 'all') {
+  enrichMetroLine('hanzomon', '東京メトロ半蔵門線');
+}
+if (target === 'ginza' || target === 'metro' || target === 'all') {
+  enrichMetroLine('ginza', '東京メトロ銀座線');
+}
+if (target === 'namboku' || target === 'metro' || target === 'all') {
+  enrichMetroLine('namboku', '東京メトロ南北線');
+}
+if (target === 'tozai' || target === 'metro' || target === 'all') {
+  enrichMetroLine('tozai', '東京メトロ東西線');
+}
 if (target === 'joban' || target === 'joban_local' || target === 'jr' || target === 'all') {
   enrichJobanLocal();
 }
@@ -4027,6 +4045,108 @@ function enrichJoetsuShinkansen() {
     console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
   }
   console.log('✅ JR上越新幹線の公式列車番号を正常に更新しました！\n');
+}
+
+/**
+ * 東京メトロ6路線のエンリッチメント汎用関数
+ */
+function enrichMetroLine(lineId, lineName) {
+  console.log(`=== ${lineName} 公式列車番号エンリッチメント開始 ===`);
+
+  const globalPath = path.resolve(`src/data/lines/${lineId}/globalTimetable.json`);
+  const stationPath = path.resolve(`src/data/lines/${lineId}/stationTimetables.json`);
+  const ekitanPath = path.resolve(`scripts/ekitan_${lineId}_timetables.json`);
+
+  if (!fs.existsSync(globalPath) || !fs.existsSync(stationPath) || !fs.existsSync(ekitanPath)) {
+    console.warn(`必要なデータファイルが見つかりません: ${lineName}`);
+    return;
+  }
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const stationTimetables = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
+  const ekitanData = JSON.parse(fs.readFileSync(ekitanPath, 'utf8'));
+
+  let matchedCount = 0;
+  let fallbackCount = 0;
+  const trainIdToOfficialNo = new Map();
+
+  const isReversed = (lineId === 'marunouchi' || lineId === 'namboku');
+
+  for (const trip of trips) {
+    const originalId = trip.trainId || trip.trainNumber;
+    trip.trainId = originalId;
+
+    const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+    const dayEkitan = ekitanData[dayKey] || {};
+
+    let officialNo = null;
+
+    const primaryDir = isReversed ? (trip.direction === 'inbound' ? 'outbound' : 'inbound') : trip.direction;
+    const secondaryDir = isReversed ? trip.direction : (trip.direction === 'inbound' ? 'outbound' : 'inbound');
+
+    for (const stop of trip.stops) {
+      if (stop.isPassing || !stop.departureTime) continue;
+      const [h, m] = stop.departureTime.split(':').map(Number);
+      const stDirs = dayEkitan[stop.stationId] || {};
+
+      const match1 = (stDirs[primaryDir] || []).find(d => d.hour === h && d.minute === m);
+      if (match1 && match1.trainNo) {
+        let cleaned = match1.trainNo.trim();
+        cleaned = cleaned.replace(/^H[A-Z]([AB])/, '$1');
+        cleaned = cleaned.replace(/^H[HMZGN][AB]/, (m) => m[m.length - 1]);
+        cleaned = cleaned.replace(/^[HK][YF]/, '');
+        officialNo = cleaned;
+        break;
+      }
+
+      const match2 = (stDirs[secondaryDir] || []).find(d => d.hour === h && d.minute === m);
+      if (match2 && match2.trainNo) {
+        let cleaned = match2.trainNo.trim();
+        cleaned = cleaned.replace(/^H[A-Z]([AB])/, '$1');
+        cleaned = cleaned.replace(/^H[HMZGN][AB]/, (m) => m[m.length - 1]);
+        cleaned = cleaned.replace(/^[HK][YF]/, '');
+        officialNo = cleaned;
+        break;
+      }
+    }
+
+    if (officialNo) {
+      trip.trainNumber = normalizeTrainNumber(officialNo);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+      matchedCount++;
+    } else {
+      fallbackCount++;
+      trip.trainNumber = normalizeTrainNumber(originalId);
+      trainIdToOfficialNo.set(originalId, trip.trainNumber);
+    }
+  }
+
+  console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
+  console.log(`  公式列車番号突合: ${matchedCount} 便 (${((matchedCount/trips.length)*100).toFixed(1)}%)`);
+  console.log(`  未突合(フォールバック): ${fallbackCount} 便`);
+  safeWriteJson(globalPath, trips);
+
+  let stUpdatedCount = 0;
+  for (const day of ['weekday', 'holiday']) {
+    const dayData = stationTimetables[day] || {};
+    for (const stId of Object.keys(dayData)) {
+      for (const dir of ['inbound', 'outbound']) {
+        const deps = dayData[stId]?.[dir] || [];
+        for (const dep of deps) {
+          const lookupId = dep.trainId || dep.no;
+          if (lookupId && trainIdToOfficialNo.has(lookupId)) {
+            dep.trainId = lookupId;
+            dep.no = trainIdToOfficialNo.get(lookupId);
+            stUpdatedCount++;
+          }
+        }
+      }
+    }
+  }
+
+  safeWriteJson(stationPath, stationTimetables);
+  console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
+  console.log(`✅ ${lineName} の公式列車番号を正常に更新しました！\n`);
 }
 
 
