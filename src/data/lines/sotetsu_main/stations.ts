@@ -1,4 +1,3 @@
-// 相鉄本線 駅メタデータ定義
 import type { Station } from '../../../types';
 
 export const SOTETSU_MAIN_STATIONS: Station[] = [
@@ -389,8 +388,8 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "name": "瀬谷",
     "nameKana": "せや",
     "nameEn": "Seya",
-    "lat": 35.4705267,
-    "lng": 139.4828959,
+    "lat": 35.4703037,
+    "lng": 139.4829271,
     "transfers": [],
     "address": "神奈川県横浜市瀬谷区瀬谷四丁目1-1",
     "facilities": {
@@ -419,8 +418,8 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "name": "大和",
     "nameKana": "やまと",
     "nameEn": "Yamato",
-    "lat": 35.4700147,
-    "lng": 139.4614084,
+    "lat": 35.4698665,
+    "lng": 139.4613315,
     "transfers": [
       "小田急江ノ島線"
     ],
@@ -513,8 +512,8 @@ export const SOTETSU_MAIN_STATIONS: Station[] = [
     "name": "かしわ台",
     "nameKana": "かしわだい",
     "nameEn": "Kashiwadai",
-    "lat": 35.4668983,
-    "lng": 139.415601,
+    "lat": 35.4667724,
+    "lng": 139.4156634,
     "transfers": [],
     "address": "神奈川県海老名市柏ケ谷1002",
     "facilities": {

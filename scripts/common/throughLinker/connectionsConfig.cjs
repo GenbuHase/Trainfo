@@ -1456,6 +1456,50 @@ module.exports = {
       dirB: 'inbound',
       maxTimeDiff: 600,
     },
+
+    // 58. 東京メトロ日比谷線 ↔ 東武スカイツリーライン (北千住駅)
+    {
+      name: '日比谷線 -> スカイツリーライン (下り 北千住経由 東武動物公園・南栗橋・久喜方面直通)',
+      lineA: 'hibiya',
+      lineB: 'tobu_skytree',
+      stationA: 'H-22',
+      stationB: 'TSK-09',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 600,
+    },
+    {
+      name: 'スカイツリーライン -> 日比谷線 (上り 北千住経由 上野・銀座・中目黒方面直通)',
+      lineA: 'tobu_skytree',
+      lineB: 'hibiya',
+      stationA: 'TSK-09',
+      stationB: 'H-22',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 600,
+    },
+
+    // 59. 東京メトロ半蔵門線 ↔ 東武スカイツリーライン (押上駅)
+    {
+      name: '半蔵門線 -> スカイツリーライン (下り 押上経由 東武動物公園・久喜・南栗橋方面直通)',
+      lineA: 'hanzomon',
+      lineB: 'tobu_skytree',
+      stationA: 'Z-14',
+      stationB: 'TSK-03',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 600,
+    },
+    {
+      name: 'スカイツリーライン -> 半蔵門線 (上り 押上経由 渋谷・中央林間方面直通)',
+      lineA: 'tobu_skytree',
+      lineB: 'hanzomon',
+      stationA: 'TSK-03',
+      stationB: 'Z-14',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 600,
+    },
   ],
 };
 

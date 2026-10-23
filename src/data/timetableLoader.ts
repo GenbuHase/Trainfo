@@ -260,6 +260,54 @@ const TIMETABLE_LOADERS: Record<string, LoaderFn> = {
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
+  hibiya: () =>
+    Promise.all([
+      import('./lines/hibiya/globalTimetable.json'),
+      import('./lines/hibiya/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  marunouchi: () =>
+    Promise.all([
+      import('./lines/marunouchi/globalTimetable.json'),
+      import('./lines/marunouchi/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  hanzomon: () =>
+    Promise.all([
+      import('./lines/hanzomon/globalTimetable.json'),
+      import('./lines/hanzomon/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  ginza: () =>
+    Promise.all([
+      import('./lines/ginza/globalTimetable.json'),
+      import('./lines/ginza/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  namboku: () =>
+    Promise.all([
+      import('./lines/namboku/globalTimetable.json'),
+      import('./lines/namboku/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  tozai: () =>
+    Promise.all([
+      import('./lines/tozai/globalTimetable.json'),
+      import('./lines/tozai/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
   joban_local: () =>
     Promise.all([
       import('./lines/joban_local/globalTimetable.json'),

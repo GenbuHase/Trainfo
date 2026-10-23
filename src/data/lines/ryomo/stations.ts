@@ -8,8 +8,8 @@ export const RYOMO_STATIONS: Station[] = [
     "name": "小山",
     "nameKana": "おやま",
     "nameEn": "Oyama",
-    "lat": 36.3129,
-    "lng": 139.806,
+    "lat": 36.3130895,
+    "lng": 139.8061087,
     "transfers": [
       "JR宇都宮線",
       "JR水戸線",
@@ -40,8 +40,8 @@ export const RYOMO_STATIONS: Station[] = [
     "name": "思川",
     "nameKana": "おもいがわ",
     "nameEn": "Omoigawa",
-    "lat": 36.3507283,
-    "lng": 139.7816502,
+    "lat": 36.3506655,
+    "lng": 139.7818838,
     "transfers": [],
     "address": "群馬県/栃木県",
     "platforms": {
@@ -98,8 +98,8 @@ export const RYOMO_STATIONS: Station[] = [
     "name": "大平下",
     "nameKana": "おおひらした",
     "nameEn": "Ohirashita",
-    "lat": 36.3443513,
-    "lng": 139.6975422,
+    "lat": 36.3442887,
+    "lng": 139.6972165,
     "transfers": [],
     "address": "群馬県/栃木県",
     "platforms": {
@@ -354,8 +354,8 @@ export const RYOMO_STATIONS: Station[] = [
     "name": "国定",
     "nameKana": "くにさだ",
     "nameEn": "Kunisada",
-    "lat": 36.3587439,
-    "lng": 139.2421072,
+    "lat": 36.3590487,
+    "lng": 139.2423029,
     "transfers": [],
     "address": "群馬県/栃木県",
     "platforms": {
@@ -382,8 +382,8 @@ export const RYOMO_STATIONS: Station[] = [
     "name": "伊勢崎",
     "nameKana": "いせさき",
     "nameEn": "Isesaki",
-    "lat": 36.3268395,
-    "lng": 139.1942704,
+    "lat": 36.3268802,
+    "lng": 139.1938776,
     "transfers": [
       "東武伊勢崎線"
     ],
@@ -500,8 +500,8 @@ export const RYOMO_STATIONS: Station[] = [
     "name": "新前橋",
     "nameKana": "しんまえばし",
     "nameEn": "Shin-Maebashi",
-    "lat": 36.3788486,
-    "lng": 139.0471407,
+    "lat": 36.3789162,
+    "lng": 139.0469273,
     "transfers": [
       "JR高崎線",
       "JR上越線",
