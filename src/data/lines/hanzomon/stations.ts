@@ -444,8 +444,8 @@ export const HANZOMON_STATIONS: Station[] = [
     "name": "押上",
     "nameKana": "おしあげ",
     "nameEn": "Oshiage",
-    "lat": 35.7099434,
-    "lng": 139.8133278,
+    "lat": 35.7106266,
+    "lng": 139.8131034,
     "transfers": [
       "東武スカイツリーライン",
       "京成押上線",

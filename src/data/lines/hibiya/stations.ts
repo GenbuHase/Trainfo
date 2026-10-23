@@ -662,8 +662,8 @@ export const HIBIYA_STATIONS: Station[] = [
     "name": "北千住",
     "nameKana": "きたせんじゅ",
     "nameEn": "Kita-senju",
-    "lat": 35.7495176,
-    "lng": 139.8055555,
+    "lat": 35.7507089,
+    "lng": 139.8056059,
     "transfers": [
       "東武スカイツリーライン",
       "東京メトロ千代田線",
