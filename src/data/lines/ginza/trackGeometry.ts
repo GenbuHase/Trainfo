@@ -1219,17 +1219,6 @@ export const GINZA_TRACK_SEGMENTS: TrackSegment[] = [
       [
         35.7078315,
         139.7729685
-      ]
-    ]
-  },
-  {
-    "segmentId": "G-16_G-17",
-    "fromStationId": "G-16",
-    "toStationId": "G-17",
-    "coordinates": [
-      [
-        35.7078315,
-        139.7729685
       ],
       [
         35.7079479,
@@ -1295,6 +1284,17 @@ export const GINZA_TRACK_SEGMENTS: TrackSegment[] = [
         35.7116809,
         139.7759986
       ],
+      [
+        35.7117224,
+        139.776143
+      ]
+    ]
+  },
+  {
+    "segmentId": "G-16_G-17",
+    "fromStationId": "G-16",
+    "toStationId": "G-17",
+    "coordinates": [
       [
         35.7117224,
         139.776143

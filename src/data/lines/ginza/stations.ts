@@ -483,8 +483,8 @@ export const GINZA_STATIONS: Station[] = [
     "name": "上野",
     "nameKana": "うえの",
     "nameEn": "Ueno",
-    "lat": 35.7078315,
-    "lng": 139.7729685,
+    "lat": 35.7117224,
+    "lng": 139.776143,
     "transfers": [
       "東京メトロ日比谷線",
       "JR山手線",
