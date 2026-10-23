@@ -2,15 +2,15 @@ import type { Station } from '../../../types';
 
 export const MARUNOUCHI_STATIONS: Station[] = [
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-01",
     "stationNumber": "M-01",
     "number": 1,
     "name": "荻窪",
     "nameKana": "おぎくぼ",
     "nameEn": "Ogikubo",
-    "lat": 35.704499,
-    "lng": 139.620232,
+    "lat": 35.7042091,
+    "lng": 139.6200067,
     "transfers": [
       "JR中央線",
       "JR中央・総武線各駅停車"
@@ -33,7 +33,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-02",
     "stationNumber": "M-02",
     "number": 2,
@@ -61,7 +61,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-03",
     "stationNumber": "M-03",
     "number": 3,
@@ -89,7 +89,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-04",
     "stationNumber": "M-04",
     "number": 4,
@@ -117,7 +117,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-05",
     "stationNumber": "M-05",
     "number": 5,
@@ -145,7 +145,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-06",
     "stationNumber": "M-06",
     "number": 6,
@@ -176,7 +176,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-07",
     "stationNumber": "M-07",
     "number": 7,
@@ -204,15 +204,15 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-08",
     "stationNumber": "M-08",
     "number": 8,
     "name": "新宿",
     "nameKana": "しんじゅく",
     "nameEn": "Shinjuku",
-    "lat": 35.689525,
-    "lng": 139.70035,
+    "lat": 35.6921592,
+    "lng": 139.7006065,
     "transfers": [
       "JR山手線",
       "JR埼京線",
@@ -244,15 +244,15 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-09",
     "stationNumber": "M-09",
     "number": 9,
     "name": "新宿三丁目",
     "nameKana": "しんじゅくさんちょうめ",
     "nameEn": "Shinjuku-sanchome",
-    "lat": 35.690713,
-    "lng": 139.7048282,
+    "lat": 35.6911647,
+    "lng": 139.7040655,
     "transfers": [
       "東京メトロ副都心線",
       "都営新宿線"
@@ -275,7 +275,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-10",
     "stationNumber": "M-10",
     "number": 10,
@@ -303,7 +303,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-11",
     "stationNumber": "M-11",
     "number": 11,
@@ -331,15 +331,15 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-12",
     "stationNumber": "M-12",
     "number": 12,
     "name": "四ツ谷",
     "nameKana": "よつや",
     "nameEn": "Yotsuya",
-    "lat": 35.685957,
-    "lng": 139.730556,
+    "lat": 35.6846783,
+    "lng": 139.7299561,
     "transfers": [
       "東京メトロ南北線",
       "JR中央線",
@@ -363,7 +363,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-13",
     "stationNumber": "M-13",
     "number": 13,
@@ -396,15 +396,15 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-14",
     "stationNumber": "M-14",
     "number": 14,
     "name": "国会議事堂前",
     "nameKana": "こっかいぎじどうまえ",
     "nameEn": "Kokkai-gijidomae",
-    "lat": 35.6737567,
-    "lng": 139.743424,
+    "lat": 35.6745316,
+    "lng": 139.7455674,
     "transfers": [
       "東京メトロ千代田線",
       "東京メトロ銀座線（溜池山王駅）",
@@ -428,15 +428,15 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-15",
     "stationNumber": "M-15",
     "number": 15,
     "name": "霞ケ関",
     "nameKana": "かすみがせき",
     "nameEn": "Kasumigaseki",
-    "lat": 35.6725562,
-    "lng": 139.751661,
+    "lat": 35.6741465,
+    "lng": 139.7528602,
     "transfers": [
       "東京メトロ日比谷線",
       "東京メトロ千代田線"
@@ -459,7 +459,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-16",
     "stationNumber": "M-16",
     "number": 16,
@@ -490,15 +490,15 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-17",
     "stationNumber": "M-17",
     "number": 17,
     "name": "東京",
     "nameKana": "とうきょう",
     "nameEn": "Tokyo",
-    "lat": 35.681767,
-    "lng": 139.766411,
+    "lat": 35.6820169,
+    "lng": 139.7650253,
     "transfers": [
       "JR山手線",
       "JR京浜東北線",
@@ -530,15 +530,15 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-18",
     "stationNumber": "M-18",
     "number": 18,
     "name": "大手町",
     "nameKana": "おおてまち",
     "nameEn": "Otemachi",
-    "lat": 35.6867813,
-    "lng": 139.763575,
+    "lat": 35.6867885,
+    "lng": 139.7662381,
     "transfers": [
       "東京メトロ東西線",
       "東京メトロ千代田線",
@@ -563,7 +563,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-19",
     "stationNumber": "M-19",
     "number": 19,
@@ -594,15 +594,15 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-20",
     "stationNumber": "M-20",
     "number": 20,
     "name": "御茶ノ水",
     "nameKana": "おちゃのみず",
     "nameEn": "Ochanomizu",
-    "lat": 35.699484,
-    "lng": 139.76498,
+    "lat": 35.7005916,
+    "lng": 139.7640859,
     "transfers": [
       "JR中央線",
       "JR中央・総武線各駅停車"
@@ -625,7 +625,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-21",
     "stationNumber": "M-21",
     "number": 21,
@@ -655,7 +655,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-22",
     "stationNumber": "M-22",
     "number": 22,
@@ -687,7 +687,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-23",
     "stationNumber": "M-23",
     "number": 23,
@@ -715,7 +715,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-24",
     "stationNumber": "M-24",
     "number": 24,
@@ -743,15 +743,15 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "M-25",
     "stationNumber": "M-25",
     "number": 25,
     "name": "池袋",
     "nameKana": "いけぶくろ",
     "nameEn": "Ikebukuro",
-    "lat": 35.7297098,
-    "lng": 139.7097272,
+    "lat": 35.7302077,
+    "lng": 139.7117715,
     "transfers": [
       "東京メトロ有楽町線",
       "東京メトロ副都心線",
@@ -779,7 +779,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "Mb-03",
     "stationNumber": "Mb-03",
     "number": 26,
@@ -807,7 +807,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "Mb-04",
     "stationNumber": "Mb-04",
     "number": 27,
@@ -835,7 +835,7 @@ export const MARUNOUCHI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'marunouchi',
+    "lineId": "marunouchi",
     "id": "Mb-05",
     "stationNumber": "Mb-05",
     "number": 28,

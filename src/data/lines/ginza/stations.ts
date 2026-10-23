@@ -2,15 +2,15 @@ import type { Station } from '../../../types';
 
 export const GINZA_STATIONS: Station[] = [
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-01",
     "stationNumber": "G-01",
     "number": 1,
     "name": "渋谷",
     "nameKana": "しぶや",
     "nameEn": "Shibuya",
-    "lat": 35.6586186,
-    "lng": 139.7027508,
+    "lat": 35.6590617,
+    "lng": 139.7024251,
     "transfers": [
       "東京メトロ半蔵門線",
       "東京メトロ副都心線",
@@ -40,15 +40,15 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-02",
     "stationNumber": "G-02",
     "number": 2,
     "name": "表参道",
     "nameKana": "おもてさんどう",
     "nameEn": "Omote-sando",
-    "lat": 35.6652821,
-    "lng": 139.7124388,
+    "lat": 35.6650556,
+    "lng": 139.7124195,
     "transfers": [
       "東京メトロ千代田線",
       "東京メトロ半蔵門線"
@@ -71,7 +71,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-03",
     "stationNumber": "G-03",
     "number": 3,
@@ -99,7 +99,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-04",
     "stationNumber": "G-04",
     "number": 4,
@@ -130,7 +130,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-05",
     "stationNumber": "G-05",
     "number": 5,
@@ -163,7 +163,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-06",
     "stationNumber": "G-06",
     "number": 6,
@@ -195,7 +195,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-07",
     "stationNumber": "G-07",
     "number": 7,
@@ -225,7 +225,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-08",
     "stationNumber": "G-08",
     "number": 8,
@@ -260,7 +260,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-09",
     "stationNumber": "G-09",
     "number": 9,
@@ -291,7 +291,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-10",
     "stationNumber": "G-10",
     "number": 10,
@@ -321,7 +321,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-11",
     "stationNumber": "G-11",
     "number": 11,
@@ -352,7 +352,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-12",
     "stationNumber": "G-12",
     "number": 12,
@@ -383,15 +383,15 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-13",
     "stationNumber": "G-13",
     "number": 13,
     "name": "神田",
     "nameKana": "かんだ",
     "nameEn": "Kanda",
-    "lat": 35.691846,
-    "lng": 139.770699,
+    "lat": 35.6937035,
+    "lng": 139.7708227,
     "transfers": [
       "JR山手線",
       "JR京浜東北線",
@@ -415,7 +415,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-14",
     "stationNumber": "G-14",
     "number": 14,
@@ -443,7 +443,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-15",
     "stationNumber": "G-15",
     "number": 15,
@@ -476,7 +476,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-16",
     "stationNumber": "G-16",
     "number": 16,
@@ -515,7 +515,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-17",
     "stationNumber": "G-17",
     "number": 17,
@@ -543,7 +543,7 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-18",
     "stationNumber": "G-18",
     "number": 18,
@@ -573,15 +573,15 @@ export const GINZA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'ginza',
+    "lineId": "ginza",
     "id": "G-19",
     "stationNumber": "G-19",
     "number": 19,
     "name": "浅草",
     "nameKana": "あさくさ",
     "nameEn": "Asakusa",
-    "lat": 35.7121581,
-    "lng": 139.7983811,
+    "lat": 35.7108521,
+    "lng": 139.7978001,
     "transfers": [
       "東武スカイツリーライン",
       "都営浅草線",

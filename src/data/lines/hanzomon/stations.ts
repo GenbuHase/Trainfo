@@ -2,15 +2,15 @@ import type { Station } from '../../../types';
 
 export const HANZOMON_STATIONS: Station[] = [
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-01",
     "stationNumber": "Z-01",
     "number": 1,
     "name": "渋谷",
     "nameKana": "しぶや",
     "nameEn": "Shibuya",
-    "lat": 35.6586186,
-    "lng": 139.7027508,
+    "lat": 35.6595562,
+    "lng": 139.7020805,
     "transfers": [
       "東急田園都市線",
       "東急東横線",
@@ -42,15 +42,15 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-02",
     "stationNumber": "Z-02",
     "number": 2,
     "name": "表参道",
     "nameKana": "おもてさんどう",
     "nameEn": "Omote-sando",
-    "lat": 35.6652821,
-    "lng": 139.7124388,
+    "lat": 35.6651381,
+    "lng": 139.7122804,
     "transfers": [
       "東京メトロ銀座線",
       "東京メトロ千代田線"
@@ -75,7 +75,7 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-03",
     "stationNumber": "Z-03",
     "number": 3,
@@ -108,15 +108,15 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-04",
     "stationNumber": "Z-04",
     "number": 4,
     "name": "永田町",
     "nameKana": "ながたちょう",
     "nameEn": "Nagatacho",
-    "lat": 35.6779889,
-    "lng": 139.7416145,
+    "lat": 35.6784077,
+    "lng": 139.7386335,
     "transfers": [
       "東京メトロ有楽町線",
       "東京メトロ南北線",
@@ -143,7 +143,7 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-05",
     "stationNumber": "Z-05",
     "number": 5,
@@ -173,7 +173,7 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-06",
     "stationNumber": "Z-06",
     "number": 6,
@@ -206,7 +206,7 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-07",
     "stationNumber": "Z-07",
     "number": 7,
@@ -239,15 +239,15 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-08",
     "stationNumber": "Z-08",
     "number": 8,
     "name": "大手町",
     "nameKana": "おおてまち",
     "nameEn": "Otemachi",
-    "lat": 35.6867813,
-    "lng": 139.763575,
+    "lat": 35.6867555,
+    "lng": 139.7650427,
     "transfers": [
       "東京メトロ丸ノ内線",
       "東京メトロ東西線",
@@ -274,7 +274,7 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-09",
     "stationNumber": "Z-09",
     "number": 9,
@@ -307,7 +307,7 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-10",
     "stationNumber": "Z-10",
     "number": 10,
@@ -340,7 +340,7 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-11",
     "stationNumber": "Z-11",
     "number": 11,
@@ -372,7 +372,7 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-12",
     "stationNumber": "Z-12",
     "number": 12,
@@ -404,7 +404,7 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-13",
     "stationNumber": "Z-13",
     "number": 13,
@@ -437,15 +437,15 @@ export const HANZOMON_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hanzomon',
+    "lineId": "hanzomon",
     "id": "Z-14",
     "stationNumber": "Z-14",
     "number": 14,
     "name": "押上",
     "nameKana": "おしあげ",
     "nameEn": "Oshiage",
-    "lat": 35.7106266,
-    "lng": 139.8131034,
+    "lat": 35.7099434,
+    "lng": 139.8133278,
     "transfers": [
       "東武スカイツリーライン",
       "京成押上線",

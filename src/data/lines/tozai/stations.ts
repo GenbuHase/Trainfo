@@ -2,15 +2,15 @@ import type { Station } from '../../../types';
 
 export const TOZAI_STATIONS: Station[] = [
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-01",
     "stationNumber": "T-01",
     "number": 1,
     "name": "中野",
     "nameKana": "なかの",
     "nameEn": "Nakano",
-    "lat": 35.705946,
-    "lng": 139.66553,
+    "lat": 35.7057104,
+    "lng": 139.6655421,
     "transfers": [
       "JR中央線",
       "JR中央・総武線各駅停車"
@@ -35,7 +35,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-02",
     "stationNumber": "T-02",
     "number": 2,
@@ -65,7 +65,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-03",
     "stationNumber": "T-03",
     "number": 3,
@@ -98,7 +98,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-04",
     "stationNumber": "T-04",
     "number": 4,
@@ -130,7 +130,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-05",
     "stationNumber": "T-05",
     "number": 5,
@@ -160,15 +160,15 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-06",
     "stationNumber": "T-06",
     "number": 6,
     "name": "飯田橋",
     "nameKana": "いいだばし",
     "nameEn": "Iidabashi",
-    "lat": 35.7015617,
-    "lng": 139.7436174,
+    "lat": 35.7016963,
+    "lng": 139.7459787,
     "transfers": [
       "東京メトロ有楽町線",
       "東京メトロ南北線",
@@ -195,7 +195,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-07",
     "stationNumber": "T-07",
     "number": 7,
@@ -228,7 +228,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-08",
     "stationNumber": "T-08",
     "number": 8,
@@ -258,15 +258,15 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-09",
     "stationNumber": "T-09",
     "number": 9,
     "name": "大手町",
     "nameKana": "おおてまち",
     "nameEn": "Otemachi",
-    "lat": 35.6867813,
-    "lng": 139.763575,
+    "lat": 35.6845587,
+    "lng": 139.7663354,
     "transfers": [
       "東京メトロ丸ノ内線",
       "東京メトロ千代田線",
@@ -293,7 +293,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-10",
     "stationNumber": "T-10",
     "number": 10,
@@ -326,7 +326,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-11",
     "stationNumber": "T-11",
     "number": 11,
@@ -358,7 +358,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-12",
     "stationNumber": "T-12",
     "number": 12,
@@ -390,7 +390,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-13",
     "stationNumber": "T-13",
     "number": 13,
@@ -420,7 +420,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-14",
     "stationNumber": "T-14",
     "number": 14,
@@ -450,7 +450,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-15",
     "stationNumber": "T-15",
     "number": 15,
@@ -478,7 +478,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-16",
     "stationNumber": "T-16",
     "number": 16,
@@ -506,7 +506,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-17",
     "stationNumber": "T-17",
     "number": 17,
@@ -534,7 +534,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-18",
     "stationNumber": "T-18",
     "number": 18,
@@ -564,7 +564,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-19",
     "stationNumber": "T-19",
     "number": 19,
@@ -593,7 +593,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-20",
     "stationNumber": "T-20",
     "number": 20,
@@ -622,7 +622,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-21",
     "stationNumber": "T-21",
     "number": 21,
@@ -651,7 +651,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-22",
     "stationNumber": "T-22",
     "number": 22,
@@ -680,7 +680,7 @@ export const TOZAI_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'tozai',
+    "lineId": "tozai",
     "id": "T-23",
     "stationNumber": "T-23",
     "number": 23,

@@ -2,15 +2,15 @@ import type { Station } from '../../../types';
 
 export const HIBIYA_STATIONS: Station[] = [
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-01",
     "stationNumber": "H-01",
     "number": 1,
     "name": "中目黒",
     "nameKana": "なかめぐろ",
     "nameEn": "Naka-meguro",
-    "lat": 35.6442023,
-    "lng": 139.6987133,
+    "lat": 35.6440782,
+    "lng": 139.6987828,
     "transfers": [
       "東急東横線"
     ],
@@ -32,7 +32,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-02",
     "stationNumber": "H-02",
     "number": 2,
@@ -64,7 +64,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-03",
     "stationNumber": "H-03",
     "number": 3,
@@ -92,7 +92,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-04",
     "stationNumber": "H-04",
     "number": 4,
@@ -122,7 +122,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-05",
     "stationNumber": "H-05",
     "number": 5,
@@ -150,7 +150,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-06",
     "stationNumber": "H-06",
     "number": 6,
@@ -180,15 +180,15 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-07",
     "stationNumber": "H-07",
     "number": 7,
     "name": "霞ケ関",
     "nameKana": "かすみがせき",
     "nameEn": "Kasumigaseki",
-    "lat": 35.6725562,
-    "lng": 139.751661,
+    "lat": 35.6738438,
+    "lng": 139.7511156,
     "transfers": [
       "東京メトロ丸ノ内線",
       "東京メトロ千代田線"
@@ -212,15 +212,15 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-08",
     "stationNumber": "H-08",
     "number": 8,
     "name": "日比谷",
     "nameKana": "ひびや",
     "nameEn": "Hibiya",
-    "lat": 35.6737764,
-    "lng": 139.7583081,
+    "lat": 35.6744007,
+    "lng": 139.7603293,
     "transfers": [
       "東京メトロ千代田線",
       "都営三田線",
@@ -247,7 +247,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-09",
     "stationNumber": "H-09",
     "number": 9,
@@ -279,7 +279,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-10",
     "stationNumber": "H-10",
     "number": 10,
@@ -309,7 +309,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-11",
     "stationNumber": "H-11",
     "number": 11,
@@ -339,7 +339,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-12",
     "stationNumber": "H-12",
     "number": 12,
@@ -369,7 +369,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-13",
     "stationNumber": "H-13",
     "number": 13,
@@ -399,7 +399,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-14",
     "stationNumber": "H-14",
     "number": 14,
@@ -429,7 +429,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-15",
     "stationNumber": "H-15",
     "number": 15,
@@ -457,7 +457,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-16",
     "stationNumber": "H-16",
     "number": 16,
@@ -493,7 +493,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-17",
     "stationNumber": "H-17",
     "number": 17,
@@ -526,7 +526,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-18",
     "stationNumber": "H-18",
     "number": 18,
@@ -566,7 +566,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-19",
     "stationNumber": "H-19",
     "number": 19,
@@ -594,7 +594,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-20",
     "stationNumber": "H-20",
     "number": 20,
@@ -624,7 +624,7 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-21",
     "stationNumber": "H-21",
     "number": 21,
@@ -655,15 +655,15 @@ export const HIBIYA_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'hibiya',
+    "lineId": "hibiya",
     "id": "H-22",
     "stationNumber": "H-22",
     "number": 22,
     "name": "北千住",
     "nameKana": "きたせんじゅ",
     "nameEn": "Kita-senju",
-    "lat": 35.7496771,
-    "lng": 139.8044308,
+    "lat": 35.7495176,
+    "lng": 139.8055555,
     "transfers": [
       "東武スカイツリーライン",
       "東京メトロ千代田線",

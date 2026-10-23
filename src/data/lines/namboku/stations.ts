@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const NAMBOKU_STATIONS: Station[] = [
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-01",
     "stationNumber": "N-01",
     "number": 1,
@@ -35,7 +35,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-02",
     "stationNumber": "N-02",
     "number": 2,
@@ -66,7 +66,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-03",
     "stationNumber": "N-03",
     "number": 3,
@@ -97,7 +97,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-04",
     "stationNumber": "N-04",
     "number": 4,
@@ -128,7 +128,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-05",
     "stationNumber": "N-05",
     "number": 5,
@@ -157,7 +157,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-06",
     "stationNumber": "N-06",
     "number": 6,
@@ -190,15 +190,15 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-07",
     "stationNumber": "N-07",
     "number": 7,
     "name": "永田町",
     "nameKana": "ながたちょう",
     "nameEn": "Nagatacho",
-    "lat": 35.6779889,
-    "lng": 139.7416145,
+    "lat": 35.6784978,
+    "lng": 139.7391381,
     "transfers": [
       "東京メトロ有楽町線",
       "東京メトロ半蔵門線",
@@ -224,15 +224,15 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-08",
     "stationNumber": "N-08",
     "number": 8,
     "name": "四ツ谷",
     "nameKana": "よつや",
     "nameEn": "Yotsuya",
-    "lat": 35.685957,
-    "lng": 139.730556,
+    "lat": 35.6855806,
+    "lng": 139.7294234,
     "transfers": [
       "東京メトロ丸ノ内線",
       "JR中央線",
@@ -257,15 +257,15 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-09",
     "stationNumber": "N-09",
     "number": 9,
     "name": "市ケ谷",
     "nameKana": "いちがや",
     "nameEn": "Ichigaya",
-    "lat": 35.6923634,
-    "lng": 139.7367792,
+    "lat": 35.6933168,
+    "lng": 139.7366992,
     "transfers": [
       "東京メトロ有楽町線",
       "都営新宿線",
@@ -290,15 +290,15 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-10",
     "stationNumber": "N-10",
     "number": 10,
     "name": "飯田橋",
     "nameKana": "いいだばし",
     "nameEn": "Iidabashi",
-    "lat": 35.7015617,
-    "lng": 139.7436174,
+    "lat": 35.7015212,
+    "lng": 139.7436617,
     "transfers": [
       "東京メトロ東西線",
       "東京メトロ有楽町線",
@@ -324,7 +324,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-11",
     "stationNumber": "N-11",
     "number": 11,
@@ -357,7 +357,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-12",
     "stationNumber": "N-12",
     "number": 12,
@@ -386,7 +386,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-13",
     "stationNumber": "N-13",
     "number": 13,
@@ -415,7 +415,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-14",
     "stationNumber": "N-14",
     "number": 14,
@@ -446,7 +446,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-15",
     "stationNumber": "N-15",
     "number": 15,
@@ -475,7 +475,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-16",
     "stationNumber": "N-16",
     "number": 16,
@@ -507,7 +507,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-17",
     "stationNumber": "N-17",
     "number": 17,
@@ -536,7 +536,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-18",
     "stationNumber": "N-18",
     "number": 18,
@@ -565,7 +565,7 @@ export const NAMBOKU_STATIONS: Station[] = [
     }
   },
   {
-    lineId: 'namboku',
+    "lineId": "namboku",
     "id": "N-19",
     "stationNumber": "N-19",
     "number": 19,
