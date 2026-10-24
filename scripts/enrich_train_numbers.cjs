@@ -2226,8 +2226,8 @@ if (target === 'joetsu' || target === 'jr' || target === 'all') {
 if (target === 'tokaido_shizuoka' || target === 'jr' || target === 'all') {
   enrichGenericLine('tokaido_shizuoka', 'JR東海道線（静岡地区）');
 }
-if (target === 'shinetsu' || target === 'jr' || target === 'all') {
-  enrichGenericLine('shinetsu', 'JR信越本線');
+if (target === 'shinetsu_naoetsu_niigata' || target === 'jr' || target === 'all') {
+  enrichGenericLine('shinetsu_naoetsu_niigata', 'JR信越本線（直江津～新潟）');
 }
 if (target === 'tadami' || target === 'jr' || target === 'all') {
   enrichGenericLine('tadami', 'JR只見線');
@@ -4160,9 +4160,9 @@ function enrichMetroLine(lineId, lineName) {
 function enrichShinetsuTakasaki() {
   console.log('=== JR信越本線（高崎～横川） 公式列車番号エンリッチメント開始 ===');
 
-  const globalPath = path.resolve('src/data/lines/shinetsu_takasaki/globalTimetable.json');
-  const stationPath = path.resolve('src/data/lines/shinetsu_takasaki/stationTimetables.json');
-  const cacheDir = path.resolve('scripts/cache/yahoo/shinetsu_takasaki/stations');
+  const globalPath = path.resolve('src/data/lines/shinetsu_takasaki_yokokawa/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/shinetsu_takasaki_yokokawa/stationTimetables.json');
+  const cacheDir = path.resolve('scripts/cache/yahoo/shinetsu_takasaki_yokokawa/stations');
 
   if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
     console.warn('必要なデータファイルが見つかりません: JR信越本線（高崎～横川）');
@@ -4276,7 +4276,7 @@ function enrichShinetsuTakasaki() {
   console.log('✅ JR信越本線（高崎～横川）の公式列車番号を正常に更新しました！\n');
 }
 
-if (target === 'shinetsu_takasaki' || target === 'all') {
+if (target === 'shinetsu_takasaki_yokokawa' || target === 'all') {
   enrichShinetsuTakasaki();
 }
 

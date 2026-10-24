@@ -816,7 +816,7 @@ module.exports = {
     {
       name: '磐越西線 -> 信越本線 (会津若松・五泉発・新津経由・新潟方面直通)',
       lineA: 'banetsu_west',
-      lineB: 'shinetsu',
+      lineB: 'shinetsu_naoetsu_niigata',
       stationA: 'BW-42',
       stationB: 'SE-37',
       dirA: 'outbound',
@@ -826,7 +826,7 @@ module.exports = {
     },
     {
       name: '信越本線 -> 磐越西線 (新潟発・新津経由・五泉・会津若松方面直通)',
-      lineA: 'shinetsu',
+      lineA: 'shinetsu_naoetsu_niigata',
       lineB: 'banetsu_west',
       stationA: 'SE-37',
       stationB: 'BW-42',
@@ -840,7 +840,7 @@ module.exports = {
     {
       name: '上越線 -> 信越本線 (水上・越後湯沢発・長岡経由・新潟方面直通)',
       lineA: 'joetsu',
-      lineB: 'shinetsu',
+      lineB: 'shinetsu_naoetsu_niigata',
       stationA: 'JOE-36',
       stationB: 'SE-23',
       dirA: 'outbound',
@@ -851,7 +851,7 @@ module.exports = {
     },
     {
       name: '信越本線 -> 上越線 (新潟発・長岡経由・越後湯沢・水上方面直通)',
-      lineA: 'shinetsu',
+      lineA: 'shinetsu_naoetsu_niigata',
       lineB: 'joetsu',
       stationA: 'SE-23',
       stationB: 'JOE-36',
@@ -890,7 +890,7 @@ module.exports = {
     {
       name: 'ほくほく線 -> 信越本線 (六日町発・犀潟経由・直江津方面直通)',
       lineA: 'hokuhoku',
-      lineB: 'shinetsu',
+      lineB: 'shinetsu_naoetsu_niigata',
       stationA: 'HK-12',
       stationB: 'SE-03',
       dirA: 'outbound',
@@ -900,7 +900,7 @@ module.exports = {
     },
     {
       name: '信越本線 -> ほくほく線 (直江津発・犀潟経由・六日町方面直通)',
-      lineA: 'shinetsu',
+      lineA: 'shinetsu_naoetsu_niigata',
       lineB: 'hokuhoku',
       stationA: 'SE-03',
       stationB: 'HK-12',
@@ -913,7 +913,7 @@ module.exports = {
     // 38. JR信越本線 ↔ えちごトキめき鉄道妙高はねうまライン (直江津駅)
     {
       name: '信越本線 -> 妙高はねうまライン (特急しらゆき 新潟発・直江津経由・新井・上越妙高方面直通)',
-      lineA: 'shinetsu',
+      lineA: 'shinetsu_naoetsu_niigata',
       lineB: 'myoko_haneuma',
       stationA: 'SE-01',
       stationB: 'ETM-10',
@@ -924,7 +924,7 @@ module.exports = {
     {
       name: '妙高はねうまライン -> 信越本線 (特急しらゆき 新井・上越妙高発・直江津経由・新潟方面直通)',
       lineA: 'myoko_haneuma',
-      lineB: 'shinetsu',
+      lineB: 'shinetsu_naoetsu_niigata',
       stationA: 'ETM-10',
       stationB: 'SE-01',
       dirA: 'outbound',

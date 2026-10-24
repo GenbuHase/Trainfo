@@ -444,18 +444,18 @@ const TIMETABLE_LOADERS: Record<string, LoaderFn> = {
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
-  shinetsu: () =>
+  shinetsu_naoetsu_niigata: () =>
     Promise.all([
-      import('./lines/shinetsu/globalTimetable.json'),
-      import('./lines/shinetsu/stationTimetables.json'),
+      import('./lines/shinetsu_naoetsu_niigata/globalTimetable.json'),
+      import('./lines/shinetsu_naoetsu_niigata/stationTimetables.json'),
     ]).then(([g, s]) => ({
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
-  shinetsu_takasaki: () =>
+  shinetsu_takasaki_yokokawa: () =>
     Promise.all([
-      import('./lines/shinetsu_takasaki/globalTimetable.json'),
-      import('./lines/shinetsu_takasaki/stationTimetables.json'),
+      import('./lines/shinetsu_takasaki_yokokawa/globalTimetable.json'),
+      import('./lines/shinetsu_takasaki_yokokawa/stationTimetables.json'),
     ]).then(([g, s]) => ({
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,

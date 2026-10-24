@@ -1,10 +1,10 @@
 module.exports = {
-  lineId: 'shinetsu_takasaki',
-  name: 'JR信越本線',
-  stationsFilePath: 'src/data/lines/shinetsu_takasaki/stations.ts',
+  lineId: 'shinetsu_takasaki_yokokawa',
+  name: 'JR信越本線（高崎～横川）',
+  stationsFilePath: 'src/data/lines/shinetsu_takasaki_yokokawa/stations.ts',
   outputPaths: {
-    stationTimetables: 'src/data/lines/shinetsu_takasaki/stationTimetables.json',
-    globalTimetable: 'src/data/lines/shinetsu_takasaki/globalTimetable.json',
+    stationTimetables: 'src/data/lines/shinetsu_takasaki_yokokawa/stationTimetables.json',
+    globalTimetable: 'src/data/lines/shinetsu_takasaki_yokokawa/globalTimetable.json',
   },
   // Yahoo! 路線情報の駅IDと方向グループID
   // 信越本線(高崎〜横川): 上り(高崎方面)=770 / 下り(横川方面)=771

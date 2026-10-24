@@ -3,7 +3,7 @@ import type { Station } from '../../../types';
 export const SHINETSU_TAKASAKI_STATIONS: Station[] = [
   {
     id: 'ST-01',
-    lineId: 'shinetsu_takasaki',
+    lineId: 'shinetsu_takasaki_yokokawa',
     number: 1,
     name: '高崎',
     nameKana: 'たかさき',
@@ -37,7 +37,7 @@ export const SHINETSU_TAKASAKI_STATIONS: Station[] = [
   },
   {
     id: 'ST-02',
-    lineId: 'shinetsu_takasaki',
+    lineId: 'shinetsu_takasaki_yokokawa',
     number: 2,
     name: '北高崎',
     nameKana: 'きたたかさき',
@@ -62,7 +62,7 @@ export const SHINETSU_TAKASAKI_STATIONS: Station[] = [
   },
   {
     id: 'ST-03',
-    lineId: 'shinetsu_takasaki',
+    lineId: 'shinetsu_takasaki_yokokawa',
     number: 3,
     name: '群馬八幡',
     nameKana: 'ぐんまやわた',
@@ -87,7 +87,7 @@ export const SHINETSU_TAKASAKI_STATIONS: Station[] = [
   },
   {
     id: 'ST-04',
-    lineId: 'shinetsu_takasaki',
+    lineId: 'shinetsu_takasaki_yokokawa',
     number: 4,
     name: '安中',
     nameKana: 'あんなか',
@@ -112,7 +112,7 @@ export const SHINETSU_TAKASAKI_STATIONS: Station[] = [
   },
   {
     id: 'ST-05',
-    lineId: 'shinetsu_takasaki',
+    lineId: 'shinetsu_takasaki_yokokawa',
     number: 5,
     name: '磯部',
     nameKana: 'いそべ',
@@ -137,7 +137,7 @@ export const SHINETSU_TAKASAKI_STATIONS: Station[] = [
   },
   {
     id: 'ST-06',
-    lineId: 'shinetsu_takasaki',
+    lineId: 'shinetsu_takasaki_yokokawa',
     number: 6,
     name: '松井田',
     nameKana: 'まついだ',
@@ -162,7 +162,7 @@ export const SHINETSU_TAKASAKI_STATIONS: Station[] = [
   },
   {
     id: 'ST-07',
-    lineId: 'shinetsu_takasaki',
+    lineId: 'shinetsu_takasaki_yokokawa',
     number: 7,
     name: '西松井田',
     nameKana: 'にしまついだ',
@@ -187,7 +187,7 @@ export const SHINETSU_TAKASAKI_STATIONS: Station[] = [
   },
   {
     id: 'ST-08',
-    lineId: 'shinetsu_takasaki',
+    lineId: 'shinetsu_takasaki_yokokawa',
     number: 8,
     name: '横川',
     nameKana: 'よこかわ',

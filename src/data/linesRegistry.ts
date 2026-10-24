@@ -47,8 +47,8 @@ import { shonanShinjukuLine } from './lines/shonan_shinjuku';
 import { uenoTokyoLine } from './lines/ueno_tokyo';
 import { ryomoLine } from './lines/ryomo';
 import { joetsuLine } from './lines/joetsu';
-import { shinetsuLine } from './lines/shinetsu';
-import { shinetsuTakasakiLine } from './lines/shinetsu_takasaki';
+import { shinetsuNaoetsuNiigataLine } from './lines/shinetsu_naoetsu_niigata';
+import { shinetsuTakasakiYokokawaLine } from './lines/shinetsu_takasaki_yokokawa';
 import { tadamiLine } from './lines/tadami';
 import { banetsuWestLine } from './lines/banetsu_west';
 import { banetsuEastLine } from './lines/banetsu_east';
@@ -116,8 +116,8 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   ueno_tokyo: uenoTokyoLine,
   ryomo: ryomoLine,
   joetsu: joetsuLine,
-  shinetsu: shinetsuLine,
-  shinetsu_takasaki: shinetsuTakasakiLine,
+  shinetsu_naoetsu_niigata: shinetsuNaoetsuNiigataLine,
+  shinetsu_takasaki_yokokawa: shinetsuTakasakiYokokawaLine,
   tadami: tadamiLine,
   banetsu_west: banetsuWestLine,
   banetsu_east: banetsuEastLine,

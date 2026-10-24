@@ -3,9 +3,9 @@ import { SHINETSU_TAKASAKI_STATIONS } from './stations';
 import { SHINETSU_TAKASAKI_TRACK_SEGMENTS } from './trackGeometry';
 import { SHINETSU_TAKASAKI_TRAIN_TYPES } from './trainTypes';
 
-export const shinetsuTakasakiLine: LineDefinition = {
-  id: 'shinetsu_takasaki',
-  name: 'JR信越本線',
+export const shinetsuTakasakiYokokawaLine: LineDefinition = {
+  id: 'shinetsu_takasaki_yokokawa',
+  name: 'JR信越本線（高崎～横川）',
   shortName: '信越本線（高崎～横川）',
   operator: 'JR東日本',
   lineColor: '#73c11d',

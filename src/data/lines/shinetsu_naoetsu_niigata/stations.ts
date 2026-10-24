@@ -3,7 +3,7 @@ import type { Station } from '../../../types';
 export const SHINETSU_STATIONS: Station[] = [
   {
     "id": "SE-01",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 1,
     "name": "直江津",
     "nameKana": "なおえつ",
@@ -36,7 +36,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-02",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 2,
     "name": "黒井",
     "nameKana": "くろい",
@@ -63,7 +63,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-03",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 3,
     "name": "犀潟",
     "nameKana": "さいがた",
@@ -92,7 +92,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-04",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 4,
     "name": "土底浜",
     "nameKana": "どそこはま",
@@ -119,7 +119,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-05",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 5,
     "name": "潟町",
     "nameKana": "かたまち",
@@ -146,7 +146,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-06",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 6,
     "name": "上下浜",
     "nameKana": "じょうげはま",
@@ -173,7 +173,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-07",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 7,
     "name": "柿崎",
     "nameKana": "かきざき",
@@ -201,7 +201,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-08",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 8,
     "name": "米山",
     "nameKana": "よねやま",
@@ -228,7 +228,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-09",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 9,
     "name": "笠島",
     "nameKana": "かさしま",
@@ -255,7 +255,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-10",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 10,
     "name": "青海川",
     "nameKana": "おうみがわ",
@@ -282,7 +282,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-11",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 11,
     "name": "鯨波",
     "nameKana": "くじらなみ",
@@ -309,7 +309,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-12",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 12,
     "name": "柏崎",
     "nameKana": "かしわざき",
@@ -340,7 +340,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-13",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 13,
     "name": "茨目",
     "nameKana": "いばらめ",
@@ -367,7 +367,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-14",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 14,
     "name": "安田",
     "nameKana": "やすだ",
@@ -394,7 +394,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-15",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 15,
     "name": "北条",
     "nameKana": "きたじょう",
@@ -421,7 +421,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-16",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 16,
     "name": "越後広田",
     "nameKana": "えちごひろた",
@@ -448,7 +448,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-17",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 17,
     "name": "長鳥",
     "nameKana": "ながとり",
@@ -475,7 +475,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-18",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 18,
     "name": "塚山",
     "nameKana": "つかやま",
@@ -502,7 +502,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-19",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 19,
     "name": "越後岩塚",
     "nameKana": "えちごいわつか",
@@ -529,7 +529,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-20",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 20,
     "name": "来迎寺",
     "nameKana": "らいこうじ",
@@ -556,7 +556,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-21",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 21,
     "name": "前川",
     "nameKana": "まえかわ",
@@ -583,7 +583,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-22",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 22,
     "name": "宮内",
     "nameKana": "みやうち",
@@ -614,7 +614,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-23",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 23,
     "name": "長岡",
     "nameKana": "ながおか",
@@ -646,7 +646,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-24",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 24,
     "name": "北長岡",
     "nameKana": "きたながおか",
@@ -673,7 +673,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-25",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 25,
     "name": "押切",
     "nameKana": "おしきり",
@@ -700,7 +700,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-26",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 26,
     "name": "見附",
     "nameKana": "みつけ",
@@ -729,7 +729,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-27",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 27,
     "name": "帯織",
     "nameKana": "おびおり",
@@ -756,7 +756,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-28",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 28,
     "name": "東光寺",
     "nameKana": "とうこうじ",
@@ -783,7 +783,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-29",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 29,
     "name": "三条",
     "nameKana": "さんじょう",
@@ -810,7 +810,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-30",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 30,
     "name": "東三条",
     "nameKana": "ひがしさんじょう",
@@ -841,7 +841,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-31",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 31,
     "name": "保内",
     "nameKana": "ほない",
@@ -868,7 +868,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-32",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 32,
     "name": "加茂",
     "nameKana": "かも",
@@ -897,7 +897,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-33",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 33,
     "name": "羽生田",
     "nameKana": "はにゅうだ",
@@ -924,7 +924,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-34",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 34,
     "name": "田上",
     "nameKana": "たがみ",
@@ -951,7 +951,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-35",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 35,
     "name": "矢代田",
     "nameKana": "やしろだ",
@@ -978,7 +978,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-36",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 36,
     "name": "古津",
     "nameKana": "ふるつ",
@@ -1005,7 +1005,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-37",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 37,
     "name": "新津",
     "nameKana": "にいつ",
@@ -1037,7 +1037,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-38",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 38,
     "name": "さつき野",
     "nameKana": "さつきの",
@@ -1064,7 +1064,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-39",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 39,
     "name": "荻川",
     "nameKana": "おぎかわ",
@@ -1091,7 +1091,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-40",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 40,
     "name": "亀田",
     "nameKana": "かめだ",
@@ -1118,7 +1118,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-41",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 41,
     "name": "越後石山",
     "nameKana": "えちごいしやま",
@@ -1145,7 +1145,7 @@ export const SHINETSU_STATIONS: Station[] = [
   },
   {
     "id": "SE-42",
-    "lineId": "shinetsu",
+    "lineId": "shinetsu_naoetsu_niigata",
     "number": 42,
     "name": "新潟",
     "nameKana": "にいがた",
