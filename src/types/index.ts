@@ -57,6 +57,8 @@ export type LineId =
   | 'joetsu'
   | 'shinetsu_naoetsu_niigata'
   | 'shinetsu_takasaki_yokokawa'
+  | 'hakushin'
+  | 'uetsu_main'
   | 'tadami'
   | 'banetsu_west'
   | 'banetsu_east'

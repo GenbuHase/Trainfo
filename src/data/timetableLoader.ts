@@ -460,6 +460,22 @@ const TIMETABLE_LOADERS: Record<string, LoaderFn> = {
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
+  hakushin: () =>
+    Promise.all([
+      import('./lines/hakushin/globalTimetable.json'),
+      import('./lines/hakushin/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
+  uetsu_main: () =>
+    Promise.all([
+      import('./lines/uetsu_main/globalTimetable.json'),
+      import('./lines/uetsu_main/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
   tadami: () =>
     Promise.all([
       import('./lines/tadami/globalTimetable.json'),
