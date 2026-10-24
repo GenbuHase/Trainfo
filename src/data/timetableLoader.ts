@@ -452,6 +452,14 @@ const TIMETABLE_LOADERS: Record<string, LoaderFn> = {
       globalTimetable: g.default as unknown as TimetableTrip[],
       stationTimetables: s.default as unknown as StationTimetableStore,
     })),
+  shinetsu_takasaki: () =>
+    Promise.all([
+      import('./lines/shinetsu_takasaki/globalTimetable.json'),
+      import('./lines/shinetsu_takasaki/stationTimetables.json'),
+    ]).then(([g, s]) => ({
+      globalTimetable: g.default as unknown as TimetableTrip[],
+      stationTimetables: s.default as unknown as StationTimetableStore,
+    })),
   tadami: () =>
     Promise.all([
       import('./lines/tadami/globalTimetable.json'),

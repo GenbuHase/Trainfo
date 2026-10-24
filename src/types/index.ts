@@ -56,6 +56,7 @@ export type LineId =
   | 'ryomo'
   | 'joetsu'
   | 'shinetsu'
+  | 'shinetsu_takasaki'
   | 'tadami'
   | 'banetsu_west'
   | 'banetsu_east'
