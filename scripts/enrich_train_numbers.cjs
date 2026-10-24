@@ -2226,8 +2226,8 @@ if (target === 'joetsu' || target === 'jr' || target === 'all') {
 if (target === 'tokaido_shizuoka' || target === 'jr' || target === 'all') {
   enrichGenericLine('tokaido_shizuoka', 'JR東海道線（静岡地区）');
 }
-if (target === 'shinetsu' || target === 'jr' || target === 'all') {
-  enrichGenericLine('shinetsu', 'JR信越本線');
+if (target === 'shinetsu_naoetsu_niigata' || target === 'jr' || target === 'all') {
+  enrichGenericLine('shinetsu_naoetsu_niigata', 'JR信越本線（直江津～新潟）');
 }
 if (target === 'tadami' || target === 'jr' || target === 'all') {
   enrichGenericLine('tadami', 'JR只見線');
@@ -4148,6 +4148,138 @@ function enrichMetroLine(lineId, lineName) {
   console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
   console.log(`✅ ${lineName} の公式列車番号を正常に更新しました！\n`);
 }
+
+/**
+ * JR信越本線（高崎～横川）のエンリッチメント処理
+ * Yahoo! 駅時刻表キャッシュの vendorTrainId（JR公式列車番号、例: 121M）を
+ * 発車時刻による突合で各トリップに注入し、stationTimetables.json と同期する。
+ * ※ globalTimetable の trainId は Yahoo 駅時刻表内部ID（例: 2987）と
+ *    キャッシュの詳細ページID（例: 7919）が異なるID空間のため、
+ *    発車駅・発車時刻による時刻突合を採用する。
+ */
+function enrichShinetsuTakasaki() {
+  console.log('=== JR信越本線（高崎～横川） 公式列車番号エンリッチメント開始 ===');
+
+  const globalPath = path.resolve('src/data/lines/shinetsu_takasaki_yokokawa/globalTimetable.json');
+  const stationPath = path.resolve('src/data/lines/shinetsu_takasaki_yokokawa/stationTimetables.json');
+  const cacheDir = path.resolve('scripts/cache/yahoo/shinetsu_takasaki_yokokawa/stations');
+
+  if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
+    console.warn('必要なデータファイルが見つかりません: JR信越本線（高崎～横川）');
+    return;
+  }
+
+  const GROUP_TO_DIR = { '770': 'inbound', '771': 'outbound' }; // 770=高崎方面(上り), 771=横川方面(下り)
+
+  // キャッシュから時刻→vendorTrainId の逆引きマップを構築
+  // key: `${dayKey}_${stationId}_${direction}_${hh}:${mm}` -> vendorTrainId
+  const timeToVendor = new Map();
+  // キャッシュの trainId → officialNo（stationTimetables 同期用。dep.no はキャッシュの trainId と一致）
+  const trainIdToOfficialNo = new Map();
+
+  const files = fs.readdirSync(cacheDir).filter(f => f.endsWith('.json'));
+  for (const f of files) {
+    const isHoliday = f.includes('_k4');
+    const dayKey = isHoliday ? 'holiday' : 'weekday';
+    const parts = f.replace('.json', '').split('_'); // ["station","ST-01","771","k1"]
+    const stationId = parts[1];
+    const group = parts[2];
+    const dir = GROUP_TO_DIR[group];
+    if (!dir) continue;
+
+    const data = JSON.parse(fs.readFileSync(path.join(cacheDir, f), 'utf8'));
+    const tt = data?.timetableItem;
+    for (const h of tt?.hourTimeTable || []) {
+      for (const t of h.minTimeTable || []) {
+        if (!t.vendorTrainId) continue;
+        const timeKey = `${dayKey}_${stationId}_${dir}_${parseInt(h.hour, 10)}:${parseInt(t.minute, 10)}`;
+        if (!timeToVendor.has(timeKey)) {
+          timeToVendor.set(timeKey, t.vendorTrainId);
+        }
+        if (t.trainId) {
+          const idKey = `${dayKey}_${t.trainId}`;
+          if (!trainIdToOfficialNo.has(idKey)) {
+            trainIdToOfficialNo.set(idKey, normalizeTrainNumber(t.vendorTrainId));
+          }
+        }
+      }
+    }
+  }
+
+  const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+  const stationTimetables = fs.existsSync(stationPath)
+    ? JSON.parse(fs.readFileSync(stationPath, 'utf8'))
+    : null;
+
+  let matchedCount = 0;
+  let fallbackCount = 0;
+  const tripTrainIdToOfficialNo = new Map();
+
+  for (const trip of trips) {
+    const originalId = trip.trainId || trip.trainNumber || '';
+    trip.trainId = originalId;
+
+    const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+    const origin = trip.stops[0];
+    let officialNo = null;
+
+    if (origin && origin.departureTime) {
+      const [hStr, mStr] = origin.departureTime.split(':');
+      const timeKey = `${dayKey}_${origin.stationId}_${trip.direction}_${parseInt(hStr, 10)}:${parseInt(mStr, 10)}`;
+      officialNo = timeToVendor.get(timeKey) || null;
+    }
+
+    if (officialNo) {
+      trip.trainNumber = normalizeTrainNumber(officialNo);
+      tripTrainIdToOfficialNo.set(originalId, trip.trainNumber);
+      matchedCount++;
+    } else {
+      fallbackCount++;
+      trip.trainNumber = normalizeTrainNumber(originalId);
+      tripTrainIdToOfficialNo.set(originalId, trip.trainNumber);
+    }
+  }
+
+  console.log(`GlobalTimetable 処理完了: 全 ${trips.length} 便`);
+  console.log(`  公式列車番号突合: ${matchedCount} 便`);
+  console.log(`  未突合(フォールバック): ${fallbackCount} 便`);
+  safeWriteJson(globalPath, trips);
+
+  if (stationTimetables) {
+    let stUpdatedCount = 0;
+    for (const day of ['weekday', 'holiday']) {
+      const dayData = stationTimetables[day] || {};
+      for (const stId of Object.keys(dayData)) {
+        for (const dir of ['inbound', 'outbound']) {
+          const deps = dayData[stId]?.[dir] || [];
+          for (const dep of deps) {
+            const lookupId = dep.trainId || dep.no;
+            let officialNo = null;
+            // 駅発車標の no はキャッシュの trainId と一致する
+            if (trainIdToOfficialNo.has(`${day}_${lookupId}`)) {
+              officialNo = trainIdToOfficialNo.get(`${day}_${lookupId}`);
+            } else if (tripTrainIdToOfficialNo.has(lookupId)) {
+              officialNo = tripTrainIdToOfficialNo.get(lookupId);
+            }
+            if (officialNo) {
+              dep.trainId = lookupId;
+              dep.no = officialNo;
+              stUpdatedCount++;
+            }
+          }
+        }
+      }
+    }
+    safeWriteJson(stationPath, stationTimetables);
+    console.log(`StationTimetables 同期更新完了: ${stUpdatedCount} 件`);
+  }
+  console.log('✅ JR信越本線（高崎～横川）の公式列車番号を正常に更新しました！\n');
+}
+
+if (target === 'shinetsu_takasaki_yokokawa' || target === 'all') {
+  enrichShinetsuTakasaki();
+}
+
 
 
 

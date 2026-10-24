@@ -1,10 +1,10 @@
 module.exports = {
-  "lineId": "shinetsu",
-  "name": "JR信越本線",
-  "stationsFilePath": "src/data/lines/shinetsu/stations.ts",
+  "lineId": "shinetsu_naoetsu_niigata",
+  "name": "JR信越本線（直江津～新潟）",
+  "stationsFilePath": "src/data/lines/shinetsu_naoetsu_niigata/stations.ts",
   "outputPaths": {
-    "stationTimetables": "src/data/lines/shinetsu/stationTimetables.json",
-    "globalTimetable": "src/data/lines/shinetsu/globalTimetable.json"
+    "stationTimetables": "src/data/lines/shinetsu_naoetsu_niigata/stationTimetables.json",
+    "globalTimetable": "src/data/lines/shinetsu_naoetsu_niigata/globalTimetable.json"
   },
   "stations": [
     {

@@ -3,10 +3,10 @@ import { SHINETSU_STATIONS } from './stations';
 import { SHINETSU_TRACK_SEGMENTS } from './trackGeometry';
 import { SHINETSU_TRAIN_TYPES } from './trainTypes';
 
-export const shinetsuLine: LineDefinition = {
-  id: 'shinetsu',
-  name: 'JR信越本線',
-  shortName: '信越本線',
+export const shinetsuNaoetsuNiigataLine: LineDefinition = {
+  id: 'shinetsu_naoetsu_niigata',
+  name: 'JR信越本線（直江津～新潟）',
+  shortName: '信越本線（直江津～新潟）',
   operator: 'JR東日本',
   lineColor: '#00acd1',
   accentColor: '#f18d00',
