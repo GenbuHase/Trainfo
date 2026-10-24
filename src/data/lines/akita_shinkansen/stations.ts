@@ -126,7 +126,9 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
     "lat": 39.4655956,
     "lng": 140.479913,
     "transfers": [
-      "JR奥羽本線"
+      "JR奥羽本線（新庄～大曲）",
+      "JR奥羽本線（大曲～秋田）",
+      "JR田沢湖線"
     ],
     "address": "",
     "platforms": {
@@ -155,7 +157,8 @@ export const AKITA_SHINKANSEN_STATIONS: Station[] = [
     "lat": 39.7185949,
     "lng": 140.1299529,
     "transfers": [
-      "JR奥羽本線",
+      "JR奥羽本線（大曲～秋田）",
+      "JR奥羽本線（秋田～青森）",
       "JR羽越本線",
       "JR男鹿線"
     ],

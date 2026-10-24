@@ -1500,6 +1500,49 @@ module.exports = {
       dirB: 'inbound',
       maxTimeDiff: 600,
     },
+
+    // 60. JR奥羽本線（新庄～大曲） ↔ JR奥羽本線（大曲～秋田） (大曲駅)
+    {
+      name: '奥羽本線（新庄～大曲） -> 奥羽本線（大曲～秋田） (下り 大曲経由 秋田方面直通)',
+      lineA: 'ou_shinjo_omagari',
+      lineB: 'ou_omagari_akita',
+      stationA: 'OSO-20',
+      stationB: 'OOA-01',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 300,
+    },
+    {
+      name: '奥羽本線（大曲～秋田） -> 奥羽本線（新庄～大曲） (上り 大曲経由 新庄・横手方面直通)',
+      lineA: 'ou_omagari_akita',
+      lineB: 'ou_shinjo_omagari',
+      stationA: 'OOA-01',
+      stationB: 'OSO-20',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 300,
+    },
+
+    // 61. JR奥羽本線（大曲～秋田） ↔ JR奥羽本線（秋田～青森） (秋田駅)
+    {
+      name: '奥羽本線（大曲～秋田） -> 奥羽本線（秋田～青森） (下り 秋田経由 追分・青森方面直通)',
+      lineA: 'ou_omagari_akita',
+      lineB: 'ou_akita_aomori',
+      stationA: 'OOA-09',
+      stationB: 'OAA-01',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 300,
+    },
+    {
+      name: '奥羽本線（秋田～青森） -> 奥羽本線（大曲～秋田） (上り 秋田経由 大曲方面直通)',
+      lineA: 'ou_akita_aomori',
+      lineB: 'ou_omagari_akita',
+      stationA: 'OAA-01',
+      stationB: 'OOA-09',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 300,
+    },
   ],
 };
-

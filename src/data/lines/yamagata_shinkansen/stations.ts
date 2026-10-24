@@ -12,7 +12,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "lng": 140.4586226,
     "transfers": [
       "東北新幹線",
-      "JR東北本線"
+      "JR東北本線",
+      "JR奥羽本線（福島～新庄）"
     ],
     "address": "",
     "platforms": {
@@ -41,7 +42,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "lat": 37.90739,
     "lng": 140.1289914,
     "transfers": [
-      "JR米坂線"
+      "JR米坂線",
+      "JR奥羽本線（福島～新庄）"
     ],
     "address": "",
     "platforms": {
@@ -69,7 +71,9 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "nameEn": "Takahata",
     "lat": 37.9904732,
     "lng": 140.1528001,
-    "transfers": [],
+    "transfers": [
+      "JR奥羽本線（福島～新庄）"
+    ],
     "address": "",
     "platforms": {
       "inbound": "上りホーム",
@@ -97,7 +101,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "lat": 38.0481525,
     "lng": 140.1491277,
     "transfers": [
-      "山形鉄道フラワー長井線"
+      "山形鉄道フラワー長井線",
+      "JR奥羽本線（福島～新庄）"
     ],
     "address": "",
     "platforms": {
@@ -125,7 +130,9 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "nameEn": "Kaminoyama-Onsen",
     "lat": 38.1521869,
     "lng": 140.2787263,
-    "transfers": [],
+    "transfers": [
+      "JR奥羽本線（福島～新庄）"
+    ],
     "address": "",
     "platforms": {
       "inbound": "上りホーム",
@@ -154,7 +161,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "lng": 140.3278969,
     "transfers": [
       "JR仙山線",
-      "JR左沢線"
+      "JR左沢線",
+      "JR奥羽本線（福島～新庄）"
     ],
     "address": "",
     "platforms": {
@@ -182,7 +190,9 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "nameEn": "Tendo",
     "lat": 38.3585464,
     "lng": 140.369195,
-    "transfers": [],
+    "transfers": [
+      "JR奥羽本線（福島～新庄）"
+    ],
     "address": "",
     "platforms": {
       "inbound": "上りホーム",
@@ -209,7 +219,9 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "nameEn": "Sakuranbo-Higashine",
     "lat": 38.4291456,
     "lng": 140.3808975,
-    "transfers": [],
+    "transfers": [
+      "JR奥羽本線（福島～新庄）"
+    ],
     "address": "",
     "platforms": {
       "inbound": "上りホーム",
@@ -236,7 +248,9 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "nameEn": "Murayama",
     "lat": 38.4769779,
     "lng": 140.3864089,
-    "transfers": [],
+    "transfers": [
+      "JR奥羽本線（福島～新庄）"
+    ],
     "address": "",
     "platforms": {
       "inbound": "上りホーム",
@@ -263,7 +277,9 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "nameEn": "Oishida",
     "lat": 38.5940058,
     "lng": 140.3767066,
-    "transfers": [],
+    "transfers": [
+      "JR奥羽本線（福島～新庄）"
+    ],
     "address": "",
     "platforms": {
       "inbound": "上りホーム",
@@ -291,7 +307,8 @@ export const YAMAGATA_SHINKANSEN_STATIONS: Station[] = [
     "lat": 38.763783,
     "lng": 140.3059794,
     "transfers": [
-      "JR奥羽本線",
+      "JR奥羽本線（福島～新庄）",
+      "JR奥羽本線（新庄～大曲）",
       "JR陸羽西線",
       "JR陸羽東線"
     ],

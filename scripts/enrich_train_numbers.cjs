@@ -2292,6 +2292,18 @@ if (target === 'yagan' || target === 'tobu' || target === 'all') {
 if (target === 'aizu' || target === 'tobu' || target === 'all') {
   enrichGenericLine('aizu', '会津鉄道会津線');
 }
+if (target === 'ou_fukushima_shinjo' || target === 'ou' || target === 'jr' || target === 'all') {
+  enrichGenericLine('ou_fukushima_shinjo', 'JR奥羽本線（福島～新庄）');
+}
+if (target === 'ou_shinjo_omagari' || target === 'ou' || target === 'jr' || target === 'all') {
+  enrichGenericLine('ou_shinjo_omagari', 'JR奥羽本線（新庄～大曲）');
+}
+if (target === 'ou_omagari_akita' || target === 'ou' || target === 'jr' || target === 'all') {
+  enrichGenericLine('ou_omagari_akita', 'JR奥羽本線（大曲～秋田）');
+}
+if (target === 'ou_akita_aomori' || target === 'ou' || target === 'jr' || target === 'all') {
+  enrichGenericLine('ou_akita_aomori', 'JR奥羽本線（秋田～青森）');
+}
 
 /**
  * Yahoo駅時刻表キャッシュ（stations/*.json）からの汎用公式列車番号エンリッチメント

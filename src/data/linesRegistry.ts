@@ -72,6 +72,10 @@ import { yaganLine } from './lines/yagan';
 import { aizuLine } from './lines/aizu';
 import { yamagataShinkansenLine } from './lines/yamagata_shinkansen';
 import { akitaShinkansenLine } from './lines/akita_shinkansen';
+import { ouFukushimaShinjoLine } from './lines/ou_fukushima_shinjo';
+import { ouShinjoOmagariLine } from './lines/ou_shinjo_omagari';
+import { ouOmagariAkitaLine } from './lines/ou_omagari_akita';
+import { ouAkitaAomoriLine } from './lines/ou_akita_aomori';
 import { fujikyuLine } from './lines/fujikyu';
 import { gotembaLine } from './lines/gotemba';
 import { izukyuLine } from './lines/izukyu';
@@ -165,6 +169,10 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   aizu: aizuLine,
   yamagata_shinkansen: yamagataShinkansenLine,
   akita_shinkansen: akitaShinkansenLine,
+  ou_fukushima_shinjo: ouFukushimaShinjoLine,
+  ou_shinjo_omagari: ouShinjoOmagariLine,
+  ou_omagari_akita: ouOmagariAkitaLine,
+  ou_akita_aomori: ouAkitaAomoriLine,
   fujikyu: fujikyuLine,
   gotemba: gotembaLine,
   izukyu: izukyuLine,
