@@ -49,6 +49,8 @@ import { ryomoLine } from './lines/ryomo';
 import { joetsuLine } from './lines/joetsu';
 import { shinetsuNaoetsuNiigataLine } from './lines/shinetsu_naoetsu_niigata';
 import { shinetsuTakasakiYokokawaLine } from './lines/shinetsu_takasaki_yokokawa';
+import { hakushinLine } from './lines/hakushin';
+import { uetsuMainLine } from './lines/uetsu_main';
 import { tadamiLine } from './lines/tadami';
 import { banetsuWestLine } from './lines/banetsu_west';
 import { banetsuEastLine } from './lines/banetsu_east';
@@ -118,6 +120,8 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   joetsu: joetsuLine,
   shinetsu_naoetsu_niigata: shinetsuNaoetsuNiigataLine,
   shinetsu_takasaki_yokokawa: shinetsuTakasakiYokokawaLine,
+  hakushin: hakushinLine,
+  uetsu_main: uetsuMainLine,
   tadami: tadamiLine,
   banetsu_west: banetsuWestLine,
   banetsu_east: banetsuEastLine,
