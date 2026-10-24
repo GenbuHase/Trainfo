@@ -1,0 +1,128 @@
+docs/LINE_COLORS_GUIDELINES.md
+  h_949a05ab995868 182-185
+scripts/audit_ou_9108.cjs
+  h_949a05ab995868 1-8
+scripts/audit_ou_d_trains.cjs
+  h_949a05ab995868 1-23
+scripts/audit_ou_splits.cjs
+  h_949a05ab995868 1-18
+scripts/audit_ou_timetable.cjs
+  h_949a05ab995868 1-69
+scripts/audit_ou_unknown_stops.cjs
+  h_949a05ab995868 1-38
+scripts/common/throughLinker/connectionsConfig.cjs
+  h_949a05ab995868 1503-1546
+scripts/common/yahoo/YahooTimetableBuilder.cjs
+  h_949a05ab995868 299-320,592-594,605-606,778-780,791-792,807-829,842-846
+scripts/enrich_train_numbers.cjs
+  h_949a05ab995868 2295-2306
+scripts/fetch_ou_missing_stops.cjs
+  h_949a05ab995868 1-49
+scripts/fetch_ou_osm.cjs
+  h_949a05ab995868 1-59
+scripts/fetch_ou_osm_full.cjs
+  h_949a05ab995868 1-55
+scripts/fetch_ou_osm_relations.cjs
+  h_949a05ab995868 1-52
+scripts/fetch_ou_stop_names.cjs
+  h_949a05ab995868 1-47
+scripts/fetch_tendominami_osm.cjs
+  h_949a05ab995868 1-27
+scripts/fill_ou_empty_boards.cjs
+  h_949a05ab995868 1-29
+scripts/generate_ou_line.cjs
+  h_949a05ab995868 1-780
+scripts/inspect_ou_kitayamagata.cjs
+  h_949a05ab995868 1-31
+scripts/inspect_ou_osm.cjs
+  h_949a05ab995868 1-24
+scripts/lines/ou_akita_aomori/config.cjs
+  h_949a05ab995868 1-329
+scripts/lines/ou_fukushima_shinjo/config.cjs
+  h_949a05ab995868 1-294
+scripts/lines/ou_omagari_akita/config.cjs
+  h_949a05ab995868 1-112
+scripts/lines/ou_shinjo_omagari/config.cjs
+  h_949a05ab995868 1-189
+scripts/probe_jumonji.cjs
+  h_949a05ab995868 1-34
+scripts/probe_ou_yahoo.cjs
+  h_949a05ab995868 1-186
+scripts/probe_tendominami.cjs
+  h_949a05ab995868 1-36
+scripts/run_ou_import.cjs
+  h_949a05ab995868 1-34
+scripts/test_ou_handover.cjs
+  h_949a05ab995868 1-90
+src/data/lines/akita_shinkansen/stations.ts
+  h_949a05ab995868 129-131,160-161
+src/data/lines/ou_akita_aomori/globalTimetable.json
+  h_949a05ab995868 1-28365
+src/data/lines/ou_akita_aomori/index.ts
+  h_949a05ab995868 1-28
+src/data/lines/ou_akita_aomori/stationTimetables.json
+  h_949a05ab995868 1-29982
+src/data/lines/ou_akita_aomori/stations.ts
+  h_949a05ab995868 1-1124
+src/data/lines/ou_akita_aomori/trackGeometry.ts
+  h_949a05ab995868 1-9005
+src/data/lines/ou_akita_aomori/trainTypes.ts
+  h_949a05ab995868 1-34
+src/data/lines/ou_fukushima_shinjo/globalTimetable.json
+  h_949a05ab995868 1-17834
+src/data/lines/ou_fukushima_shinjo/index.ts
+  h_949a05ab995868 1-28
+src/data/lines/ou_fukushima_shinjo/stationTimetables.json
+  h_949a05ab995868 1-21098
+src/data/lines/ou_fukushima_shinjo/stations.ts
+  h_949a05ab995868 1-963
+src/data/lines/ou_fukushima_shinjo/trackGeometry.ts
+  h_949a05ab995868 1-8702
+src/data/lines/ou_fukushima_shinjo/trainTypes.ts
+  h_949a05ab995868 1-24
+src/data/lines/ou_omagari_akita/globalTimetable.json
+  h_949a05ab995868 1-6066
+src/data/lines/ou_omagari_akita/index.ts
+  h_949a05ab995868 1-28
+src/data/lines/ou_omagari_akita/stationTimetables.json
+  h_949a05ab995868 1-7113
+src/data/lines/ou_omagari_akita/stations.ts
+  h_949a05ab995868 1-254
+src/data/lines/ou_omagari_akita/trackGeometry.ts
+  h_949a05ab995868 1-2944
+src/data/lines/ou_omagari_akita/trainTypes.ts
+  h_949a05ab995868 1-24
+src/data/lines/ou_shinjo_omagari/globalTimetable.json
+  h_949a05ab995868 1-9800
+src/data/lines/ou_shinjo_omagari/index.ts
+  h_949a05ab995868 1-28
+src/data/lines/ou_shinjo_omagari/stationTimetables.json
+  h_949a05ab995868 1-10284
+src/data/lines/ou_shinjo_omagari/stations.ts
+  h_949a05ab995868 1-549
+src/data/lines/ou_shinjo_omagari/trackGeometry.ts
+  h_949a05ab995868 1-4461
+src/data/lines/ou_shinjo_omagari/trainTypes.ts
+  h_949a05ab995868 1-24
+src/data/lines/tohoku_shinkansen/stations.ts
+  h_949a05ab995868 189,497
+src/data/lines/yamagata_shinkansen/stations.ts
+  h_949a05ab995868 15-16,45-46,74-76,104-105,133-135,164-165,193-195,222-224,251-253,280-282,310-311
+src/data/linesRegistry.ts
+  h_949a05ab995868 75-78,172-175
+src/data/timetableLoader.ts
+  h_949a05ab995868 647-678
+src/types/index.ts
+  h_949a05ab995868 83-86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "67a8bec2e63b00f781ef3e1249081a92e1e05288",
+  "prompts": {},
+  "humans": {
+    "h_949a05ab995868": {
+      "author": "Genbu Hase <14960841+GenbuHase@users.noreply.github.com>"
+    }
+  }
+}
