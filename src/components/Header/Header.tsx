@@ -266,13 +266,13 @@ export const Header: React.FC<HeaderProps> = ({
             ? 'bg-cyan-50 text-cyan-800 border-cyan-300 hover:bg-cyan-100'
             : 'bg-white/95 text-slate-700 border-slate-200 hover:bg-slate-50'
         }`}
-        title="試運転・臨時列車クリエイターを開く"
+        title="試運転・臨時列車作成"
       >
         <FlaskConical className={`w-3.5 h-3.5 ${activeCustomTrainCount > 0 ? 'text-cyan-600 animate-pulse' : 'text-slate-500'} shrink-0`} />
         <span className="whitespace-nowrap">
           {activeCustomTrainCount > 0
-            ? `試運転・臨時 (${activeCustomTrainCount})`
-            : '試運転・臨時'}
+            ? `列車作成 (${activeCustomTrainCount})`
+            : '列車作成'}
         </span>
       </button>
 
@@ -366,7 +366,7 @@ export const Header: React.FC<HeaderProps> = ({
                 type="button"
                 onClick={ui.openTestRun}
                 className="p-1.5 text-cyan-600 hover:text-cyan-800 hover:bg-cyan-50 rounded-md transition-colors relative"
-                title="試運転・臨時列車クリエイターを開く"
+                title="試運転・臨時列車作成"
               >
                 <FlaskConical className="w-4 h-4" />
                 {activeCustomTrainCount > 0 && (
