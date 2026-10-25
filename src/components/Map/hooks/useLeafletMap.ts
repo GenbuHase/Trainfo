@@ -27,6 +27,19 @@ export function useLeafletMap({
   const polylineLayerRef = useRef<L.LayerGroup | null>(null);
   const locationLayerRef = useRef<L.LayerGroup | null>(null);
 
+  // 最新コールバック・初期設定のRef保持（イベントリスナー内の古いクロージャ参照を防止）
+  const onCloseSidebarRef = useRef(onCloseSidebar);
+  const onMapDragRef = useRef(onMapDrag);
+  const initialLineIdsRef = useRef(selectedLineIds);
+
+  useEffect(() => {
+    onCloseSidebarRef.current = onCloseSidebar;
+  }, [onCloseSidebar]);
+
+  useEffect(() => {
+    onMapDragRef.current = onMapDrag;
+  }, [onMapDrag]);
+
   const [tileType, setTileType] = useState<TileType>('standard');
   const [showLayerMenu, setShowLayerMenu] = useState(false);
 
@@ -53,13 +66,16 @@ export function useLeafletMap({
     },
   }), [cartoApiKey]);
 
+  const initialStandardTileRef = useRef(tileUrls.standard);
+
   // 地図の初期化
   useEffect(() => {
-    if (!mapContainerRef.current || mapRef.current) return;
+    const container = mapContainerRef.current;
+    if (!container || mapRef.current) return;
 
-    const initialBounds = calculateBoundsForLines(selectedLineIds);
+    const initialBounds = calculateBoundsForLines(initialLineIdsRef.current);
 
-    const map = L.map(mapContainerRef.current, {
+    const map = L.map(container, {
       zoomControl: false,
       scrollWheelZoom: false,
       smoothWheelZoom: true,
@@ -72,26 +88,31 @@ export function useLeafletMap({
 
     map.fitBounds(initialBounds, { padding: [40, 40] });
 
-    const tile = L.tileLayer(tileUrls.standard.url, {
-      attribution: tileUrls.standard.attribution,
+    const tile = L.tileLayer(initialStandardTileRef.current.url, {
+      attribution: initialStandardTileRef.current.attribution,
       maxZoom: 19,
     }).addTo(map);
 
+    const polylineLayer = L.layerGroup().addTo(map);
+    const stationLayer = L.layerGroup().addTo(map);
+    const trainLayer = L.layerGroup().addTo(map);
+    const locationLayer = L.layerGroup().addTo(map);
+
     tileLayerRef.current = tile;
-    polylineLayerRef.current = L.layerGroup().addTo(map);
-    stationLayerRef.current = L.layerGroup().addTo(map);
-    trainLayerRef.current = L.layerGroup().addTo(map);
-    locationLayerRef.current = L.layerGroup().addTo(map);
+    polylineLayerRef.current = polylineLayer;
+    stationLayerRef.current = stationLayer;
+    trainLayerRef.current = trainLayer;
+    locationLayerRef.current = locationLayer;
     mapRef.current = map;
 
     // 地図背景クリックでサイドバーを閉じる
     map.on('click', () => {
-      onCloseSidebar?.();
+      onCloseSidebarRef.current?.();
     });
 
     // 地図ドラッグ操作
     map.on('dragstart', () => {
-      onMapDrag?.();
+      onMapDragRef.current?.();
     });
 
     // リサイズ監視（デバウンスしてアニメーション中の連続invalidateSizeによる白化フリーズを防止）
@@ -102,15 +123,15 @@ export function useLeafletMap({
         map.invalidateSize();
       }, 150);
     });
-    resizeObserver.observe(mapContainerRef.current);
+    resizeObserver.observe(container);
 
     return () => {
       if (resizeTimer) clearTimeout(resizeTimer);
       resizeObserver.disconnect();
-      polylineLayerRef.current?.clearLayers();
-      stationLayerRef.current?.clearLayers();
-      trainLayerRef.current?.clearLayers();
-      locationLayerRef.current?.clearLayers();
+      polylineLayer.clearLayers();
+      stationLayer.clearLayers();
+      trainLayer.clearLayers();
+      locationLayer.clearLayers();
       map.remove();
       mapRef.current = null;
       polylineLayerRef.current = null;

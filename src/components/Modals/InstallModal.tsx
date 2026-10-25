@@ -1,35 +1,32 @@
 import React, { useEffect, useState } from 'react';
 import { X, Download, Share, PlusSquare, Smartphone, Monitor, CheckCircle2 } from 'lucide-react';
-import { promptPwaInstall, canPromptPwaInstall, isRunningStandalone, isIosSafari } from '../../services/pwaService';
+import {
+  promptPwaInstall,
+  canPromptPwaInstall,
+  isRunningStandalone,
+  isIosSafari,
+  subscribeInstallState,
+} from '../../services/pwaService';
 
 import { useUI } from '../../contexts/UIContext';
 
-export interface InstallModalProps {
-  isOpen?: boolean;
-  onClose?: () => void;
-}
+export const InstallModal: React.FC = () => {
+  const { isInstallOpen: isOpen, closeInstall: onClose } = useUI();
 
-export const InstallModal: React.FC<InstallModalProps> = ({
-  isOpen: propIsOpen,
-  onClose: propOnClose,
-}) => {
-  const ui = useUI();
-  const isOpen = propIsOpen !== undefined ? propIsOpen : ui.isInstallOpen;
-  const onClose = propOnClose ?? ui.closeInstall;
-
-  const [canPrompt, setCanPrompt] = useState(false);
-  const [isInstalled, setIsInstalled] = useState(false);
-  const [isIos, setIsIos] = useState(false);
+  const [canPromptState, setCanPromptState] = useState(() => canPromptPwaInstall());
 
   useEffect(() => {
-    if (isOpen) {
-      setCanPrompt(canPromptPwaInstall());
-      setIsInstalled(isRunningStandalone());
-      setIsIos(isIosSafari());
-    }
-  }, [isOpen]);
+    const unsubscribe = subscribeInstallState((val) => {
+      setCanPromptState(val);
+    });
+    return unsubscribe;
+  }, []);
 
   if (!isOpen) return null;
+
+  const canPrompt = canPromptState || canPromptPwaInstall();
+  const isInstalled = isRunningStandalone();
+  const isIos = isIosSafari();
 
   const handleInstallClick = async () => {
     const outcome = await promptPwaInstall();

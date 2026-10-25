@@ -11,22 +11,9 @@ import type {
 } from '../types';
 import { STATION_MAP } from './stations';
 import { getCombinedStationTimetables, getCombinedGlobalTimetable, getLine } from './linesRegistry';
+import { timeStringToSeconds, secondsToTimeString } from '../utils/timeUtils';
 
-// 時間文字列 (HH:MM:SS) を一日の秒数に変換（深夜0〜3時は翌日24〜27時として扱う）
-export function timeStringToSeconds(t: string): number {
-  const [h, m, s] = t.split(':').map(Number);
-  const normalizedHour = h < 4 ? h + 24 : h;
-  return normalizedHour * 3600 + m * 60 + (s || 0);
-}
-
-// 秒数から時間文字列 (HH:MM:SS) に変換
-export function secondsToTimeString(sec: number): string {
-  const norm = (Math.floor(sec) + 86400 * 2) % 86400;
-  const h = Math.floor(norm / 3600).toString().padStart(2, '0');
-  const m = Math.floor((norm % 3600) / 60).toString().padStart(2, '0');
-  const s = (norm % 60).toString().padStart(2, '0');
-  return `${h}:${m}:${s}`;
-}
+export { timeStringToSeconds, secondsToTimeString };
 
 /**
  * 公式列車番号のTrainfo標準表記への正規化
@@ -194,14 +181,17 @@ function extractDynamicStationDepartures(
   return { inbound, outbound };
 }
 
-// 特定駅の時刻表一覧（直近の発車情報）を取得
-export function getStationDepartures(
+/**
+ * 駅時刻表データと所属路線IDを解決し、動的試運転・臨時列車の停車情報をマージして返す内部ヘルパー
+ */
+function resolveStationTimetableData(
   stationId: string,
-  currentTimeSec: number,
   isHoliday: boolean,
-  limit: number = 6,
   lineId?: LineId
-): { inbound: TimetableTrip[]; outbound: TimetableTrip[] } {
+): {
+  resolvedLineId: LineId;
+  targetData: { inbound: RawStationDeparture[]; outbound: RawStationDeparture[] };
+} {
   const dayKey = isHoliday ? 'holiday' : 'weekday';
   let resolvedLineId = lineId;
   let stData: { inbound: RawStationDeparture[]; outbound: RawStationDeparture[] } | undefined;
@@ -237,10 +227,28 @@ export function getStationDepartures(
 
   // 4. 動的試運転・臨時列車の停車発車をマージ
   const dynamicDeps = extractDynamicStationDepartures(stationId, isHoliday, finalLineId);
-  const targetData = {
-    inbound: [...baseData.inbound, ...dynamicDeps.inbound],
-    outbound: [...baseData.outbound, ...dynamicDeps.outbound],
+  return {
+    resolvedLineId: finalLineId,
+    targetData: {
+      inbound: [...baseData.inbound, ...dynamicDeps.inbound],
+      outbound: [...baseData.outbound, ...dynamicDeps.outbound],
+    },
   };
+}
+
+// 特定駅の時刻表一覧（直近の発車情報）を取得
+export function getStationDepartures(
+  stationId: string,
+  currentTimeSec: number,
+  isHoliday: boolean,
+  limit: number = 6,
+  lineId?: LineId
+): { inbound: TimetableTrip[]; outbound: TimetableTrip[] } {
+  const { resolvedLineId: finalLineId, targetData } = resolveStationTimetableData(
+    stationId,
+    isHoliday,
+    lineId
+  );
 
   function convertToTrips(deps: RawStationDeparture[], direction: Direction): TimetableTrip[] {
     const valid = deps.filter((d) => {
@@ -327,42 +335,7 @@ export function getFullDayStationTimetable(
   isHoliday: boolean,
   lineId?: LineId
 ): HourlyStationTimetable[] {
-  const dayKey = isHoliday ? 'holiday' : 'weekday';
-  let resolvedLineId = lineId;
-  let stData: { inbound: RawStationDeparture[]; outbound: RawStationDeparture[] } | undefined;
-
-  // 1. 指定路線から駅時刻表を取得
-  if (resolvedLineId) {
-    const line = getLine(resolvedLineId);
-    if (line?.stationTimetables?.[dayKey]?.[stationId]) {
-      stData = line.stationTimetables[dayKey][stationId];
-    }
-  }
-
-  // 2. 指定路線にない、または未指定の場合は STATION_MAP から駅所属路線を取得して試行
-  if (!stData) {
-    const currentSt = STATION_MAP.get(stationId);
-    if (currentSt?.lineId) {
-      resolvedLineId = resolvedLineId || currentSt.lineId;
-      const line = getLine(currentSt.lineId);
-      if (line?.stationTimetables?.[dayKey]?.[stationId]) {
-        stData = line.stationTimetables[dayKey][stationId];
-      }
-    }
-  }
-
-  // 3. それでも見つからない場合のフォールバック（統合ストア）
-  if (!stData) {
-    const timetables = getCombinedStationTimetables();
-    stData = timetables[dayKey]?.[stationId] || { inbound: [], outbound: [] };
-  }
-
-  const baseData = stData || { inbound: [], outbound: [] };
-  const dynamicDeps = extractDynamicStationDepartures(stationId, isHoliday, resolvedLineId);
-  const targetData = {
-    inbound: [...baseData.inbound, ...dynamicDeps.inbound],
-    outbound: [...baseData.outbound, ...dynamicDeps.outbound],
-  };
+  const { targetData } = resolveStationTimetableData(stationId, isHoliday, lineId);
 
   const hourly: HourlyStationTimetable[] = [];
   for (let h = 4; h <= 27; h++) {

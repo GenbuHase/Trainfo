@@ -20,6 +20,7 @@ export function useStationMarkers({
   onSelectStation,
 }: UseStationMarkersOptions) {
   const onSelectStationRef = useRef(onSelectStation);
+  const selectedStationIdRef = useRef<string | null>(selectedStation?.id ?? null);
   const prevSelectedStationIdRef = useRef<string | null>(null);
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
   const prevStationLayerRef = useRef<L.LayerGroup | null>(null);
@@ -28,23 +29,30 @@ export function useStationMarkers({
     onSelectStationRef.current = onSelectStation;
   }, [onSelectStation]);
 
+  useEffect(() => {
+    selectedStationIdRef.current = selectedStation?.id ?? null;
+  }, [selectedStation]);
+
   // コンポーネント破棄時またはレイヤー切り替え時のクリーンアップ
   useEffect(() => {
+    const layer = stationLayerRef.current;
+    const markers = markersRef.current;
     return () => {
-      stationLayerRef.current?.clearLayers();
-      markersRef.current.clear();
+      layer?.clearLayers();
+      markers.clear();
       prevStationLayerRef.current = null;
     };
   }, [stationLayerRef]);
 
   // 1. 路線変更時の駅マーカー生成（必要な駅のみ差分同期）
   useEffect(() => {
-    if (!mapRef.current || !stationLayerRef.current) return;
+    const layer = stationLayerRef.current;
+    if (!mapRef.current || !layer) return;
 
     // レイヤーグループのインスタンスが再生成された場合はキャッシュをクリア
-    if (prevStationLayerRef.current !== stationLayerRef.current) {
+    if (prevStationLayerRef.current !== layer) {
       markersRef.current.clear();
-      prevStationLayerRef.current = stationLayerRef.current;
+      prevStationLayerRef.current = layer;
     }
 
     const stations = getStations(selectedLineIds);
@@ -53,7 +61,7 @@ export function useStationMarkers({
     // 不要になったマーカーを削除
     for (const [stId, marker] of markersRef.current.entries()) {
       if (!stationIdSet.has(stId)) {
-        stationLayerRef.current.removeLayer(marker);
+        layer.removeLayer(marker);
         markersRef.current.delete(stId);
       }
     }
@@ -62,13 +70,13 @@ export function useStationMarkers({
     stations.forEach((st) => {
       const existingMarker = markersRef.current.get(st.id);
       if (existingMarker) {
-        if (!stationLayerRef.current?.hasLayer(existingMarker)) {
-          stationLayerRef.current?.addLayer(existingMarker);
+        if (!layer.hasLayer(existingMarker)) {
+          layer.addLayer(existingMarker);
         }
         return;
       }
 
-      const isSelected = selectedStation?.id === st.id;
+      const isSelected = selectedStationIdRef.current === st.id;
       const isMajor = st.isMajor ?? false;
       const line = getLine(st.lineId);
       const stationColor = line?.lineColor || '#004b97';
@@ -113,7 +121,7 @@ export function useStationMarkers({
         mapRef.current?.panTo([st.lat, st.lng], { animate: true, duration: 0.4 });
       });
 
-      stationLayerRef.current?.addLayer(marker);
+      layer.addLayer(marker);
       markersRef.current.set(st.id, marker);
     });
   }, [mapRef, stationLayerRef, selectedLineIds]);

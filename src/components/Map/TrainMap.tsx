@@ -1,5 +1,5 @@
-import React, { useCallback } from 'react';
-import type { Station, ActiveTrain, Direction, LineId } from '../../types';
+import React, { useCallback, useEffect, useRef } from 'react';
+import type { Station, ActiveTrain } from '../../types';
 import { calculateBoundsForLines } from '../../data/linesRegistry';
 import {
   Layers,
@@ -22,76 +22,48 @@ import { useTrainMarkers } from './hooks/useTrainMarkers';
 import { useMapCamera } from './hooks/useMapCamera';
 import { useGeolocation } from './hooks/useGeolocation';
 
-export interface TrainMapProps {
-  activeTrains?: ActiveTrain[];
-  selectedStation?: Station | null;
-  selectedTrain?: ActiveTrain | null;
-  onSelectStation?: (station: Station) => void;
-  onSelectTrain?: (train: ActiveTrain) => void;
-  isTrackingTrain?: boolean;
-  trackingTrainId?: string | null;
-  isSidebarOpen?: boolean;
-  onCloseSidebar?: () => void;
-  selectedLineIds?: LineId[];
-  filterDirection?: 'all' | Direction;
-  filterType?: 'all' | 'rapid' | 'local';
-  isTimeControllerExpanded?: boolean;
-  onStopTracking?: () => void;
-}
+export const TrainMap: React.FC = () => {
+  const {
+    selectedStation,
+    selectedLineIds,
+    isTrackingTrain,
+    selectStation,
+    selectTrain,
+    clearTargetSelection,
+    stopTracking,
+  } = useSelection();
+  const { activeTrains, selectedTrain } = useSimulation();
+  const { filterDirection, filterType } = useFilter();
+  const { isSidebarOpen, isTimeControllerExpanded, openSidebar, closeSidebar } = useUI();
 
-export const TrainMap: React.FC<TrainMapProps> = ({
-  activeTrains: propActiveTrains,
-  selectedStation: propSelectedStation,
-  selectedTrain: propSelectedTrain,
-  onSelectStation: propOnSelectStation,
-  onSelectTrain: propOnSelectTrain,
-  isTrackingTrain: propIsTrackingTrain,
-  trackingTrainId: propTrackingTrainId,
-  isSidebarOpen: propIsSidebarOpen,
-  onCloseSidebar: propOnCloseSidebar,
-  selectedLineIds: propSelectedLineIds,
-  filterDirection: propFilterDirection,
-  filterType: propFilterType,
-  isTimeControllerExpanded: propIsTimeControllerExpanded,
-  onStopTracking: propOnStopTracking,
-}) => {
-  const selection = useSelection();
-  const simulation = useSimulation();
-  const filter = useFilter();
-  const ui = useUI();
+  const handleSelectStation = useCallback(
+    (st: Station) => {
+      selectStation(st);
+      openSidebar();
+    },
+    [selectStation, openSidebar]
+  );
 
-  const activeTrains = propActiveTrains ?? simulation.activeTrains;
-  const selectedStation = propSelectedStation ?? selection.selectedStation;
-  const selectedTrain = propSelectedTrain ?? simulation.selectedTrain;
-  const defaultOnSelectStation = useCallback((st: Station) => {
-    selection.selectStation(st);
-    ui.openSidebar();
-  }, [selection.selectStation, ui.openSidebar]);
+  const handleSelectTrain = useCallback(
+    (tr: ActiveTrain) => {
+      selectTrain(tr);
+      openSidebar();
+    },
+    [selectTrain, openSidebar]
+  );
 
-  const defaultOnSelectTrain = useCallback((tr: ActiveTrain) => {
-    selection.selectTrain(tr);
-    ui.openSidebar();
-  }, [selection.selectTrain, ui.openSidebar]);
-
-  const defaultOnCloseSidebar = useCallback(() => {
-    ui.closeSidebar();
-    if (!selection.isTrackingTrain) {
-      selection.clearTargetSelection();
+  const handleCloseSidebar = useCallback(() => {
+    closeSidebar();
+    if (!isTrackingTrain) {
+      clearTargetSelection();
     }
-  }, [ui.closeSidebar, selection.isTrackingTrain, selection.clearTargetSelection]);
+  }, [closeSidebar, isTrackingTrain, clearTargetSelection]);
 
-  const onSelectStation = propOnSelectStation ?? defaultOnSelectStation;
-  const onSelectTrain = propOnSelectTrain ?? defaultOnSelectTrain;
-  const isTrackingTrain = propIsTrackingTrain ?? selection.isTrackingTrain;
-  const trackingTrainId = propTrackingTrainId ?? (simulation.selectedTrain?.tripId || null);
-  const isSidebarOpen = propIsSidebarOpen ?? ui.isSidebarOpen;
-  const onCloseSidebar = propOnCloseSidebar ?? defaultOnCloseSidebar;
-
-  const selectedLineIds = propSelectedLineIds ?? selection.selectedLineIds;
-  const filterDirection = propFilterDirection ?? filter.filterDirection;
-  const filterType = propFilterType ?? filter.filterType;
-  const isTimeControllerExpanded = propIsTimeControllerExpanded ?? ui.isTimeControllerExpanded;
-  const onStopTracking = propOnStopTracking ?? selection.stopTracking;
+  const trackingTrainId = selectedTrain?.tripId || null;
+  const onMapDragRef = useRef<(() => void) | undefined>(undefined);
+  const handleMapDragCallback = useCallback(() => {
+    onMapDragRef.current?.();
+  }, []);
 
   // 1. 地図・タイル管理
   const {
@@ -108,7 +80,8 @@ export const TrainMap: React.FC<TrainMapProps> = ({
   } = useLeafletMap({
     selectedLineIds,
     isSidebarOpen,
-    onCloseSidebar,
+    onCloseSidebar: handleCloseSidebar,
+    onMapDrag: handleMapDragCallback,
   });
 
   // 2. 現在地情報 (Geolocation)
@@ -118,11 +91,15 @@ export const TrainMap: React.FC<TrainMapProps> = ({
     isTrackingLocation,
     locationErrorMessage,
     handleToggleLocation,
+    handleMapDrag,
   } = useGeolocation({
     mapRef,
     locationLayerRef,
-    onStopTracking,
+    onStopTracking: stopTracking,
   });
+  useEffect(() => {
+    onMapDragRef.current = handleMapDrag;
+  }, [handleMapDrag]);
 
   // 3. 路線ポリライン描画
   useTrackPolylines({
@@ -137,7 +114,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
     stationLayerRef,
     selectedLineIds,
     selectedStation,
-    onSelectStation,
+    onSelectStation: handleSelectStation,
   });
 
   // 5. 列車マーカー描画 & DOM差分更新
@@ -148,7 +125,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
     selectedTrain,
     filterDirection,
     filterType,
-    onSelectTrain,
+    onSelectTrain: handleSelectTrain,
   });
 
   // 6. カメラワーク（路線フィット & 列車自動追従）
@@ -291,7 +268,7 @@ export const TrainMap: React.FC<TrainMapProps> = ({
         <button
           type="button"
           onClick={() => {
-            onStopTracking?.();
+            stopTracking();
             const bounds = calculateBoundsForLines(selectedLineIds);
             mapRef.current?.flyToBounds(bounds, { padding: [50, 50] });
           }}

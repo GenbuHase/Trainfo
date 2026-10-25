@@ -135,7 +135,7 @@ export const DebugLinesPage: React.FC<DebugLinesPageProps> = ({ onBackToMap }) =
                 </span>
               </div>
               <p className="text-xs text-slate-500 hidden sm:block">
-                ニコニコ大百科「鉄道路線のラインカラー一覧」準拠のカラー設定および全35路線の種別定義
+                ニコニコ大百科「鉄道路線のラインカラー一覧」準拠のカラー設定および全{stats.totalLines}路線の種別定義
               </p>
             </div>
           </div>
@@ -212,9 +212,9 @@ export const DebugLinesPage: React.FC<DebugLinesPageProps> = ({ onBackToMap }) =
           <div className="flex items-center justify-between text-xs font-bold text-slate-600">
             <span className="flex items-center gap-1.5">
               <Palette className="w-4 h-4 text-blue-500" />
-              全35路線ラインカラーパレット（クリックで各路線へスクロール）
+              全{stats.totalLines}路線ラインカラーパレット（クリックで各路線へスクロール）
             </span>
-            <span className="text-slate-400 font-normal">全35色</span>
+            <span className="text-slate-400 font-normal">全{stats.totalLines}色</span>
           </div>
           <div className="flex flex-wrap gap-1.5 pt-1">
             {allLines.map((line) => (

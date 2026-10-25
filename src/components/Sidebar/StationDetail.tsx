@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useMemo } from 'react';
 import type { Station, ActiveTrain, Direction } from '../../types';
 import { StationBadge, TrainTypeBadge } from '../Common/Badges';
 import { getStationDepartures, getThroughChainTripIds } from '../../data/timetableData';
 import { STATION_MAP } from '../../data/stations';
-import { getLine, getAllLines } from '../../data/linesRegistry';
+import { getLine, getAlternateStations } from '../../data/linesRegistry';
 import {
   Clock,
   Accessibility,
@@ -38,33 +38,22 @@ export const StationDetail: React.FC<StationDetailProps> = ({
   const isFirstStation = line ? line.stations[0]?.id === station.id : station.number === 1;
   const isLastStation = line ? line.stations[line.stations.length - 1]?.id === station.id : false;
 
-  const [selectedDirection, setSelectedDirection] = useState<Direction>(() =>
+  const [selectedDirectionState, setSelectedDirection] = useState<Direction>(() =>
     isFirstStation ? 'outbound' : isLastStation ? 'inbound' : 'outbound'
   );
 
-  // 駅変更時に方向を追従
-  useEffect(() => {
-    if (isFirstStation) {
-      setSelectedDirection('outbound');
-    } else if (isLastStation) {
-      setSelectedDirection('inbound');
-    }
-  }, [station.id, isFirstStation, isLastStation]);
+  // 始発駅・終着駅の場合は自動的に進行方向を固定
+  const selectedDirection: Direction = isFirstStation
+    ? 'outbound'
+    : isLastStation
+    ? 'inbound'
+    : selectedDirectionState;
 
   // 同名駅（他路線）の検索（例: 東上線川越駅 <-> JR川越駅）
-  const alternateStations = useMemo(() => {
-    const allLines = getAllLines();
-    const matches: { station: Station; lineName: string }[] = [];
-    allLines.forEach((l) => {
-      if (l.id !== station.lineId) {
-        const match = l.stations.find((s) => s.name === station.name);
-        if (match) {
-          matches.push({ station: match, lineName: l.name });
-        }
-      }
-    });
-    return matches;
-  }, [station.name, station.lineId]);
+  const alternateStations = useMemo(
+    () => getAlternateStations(station),
+    [station]
+  );
 
   // 直近の発車スケジュールを取得
   const departures = getStationDepartures(station.id, currentSec, isHoliday, 5, station.lineId);

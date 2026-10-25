@@ -15,8 +15,9 @@ export function useTrackPolylines({
   selectedLineIds,
 }: UseTrackPolylinesOptions) {
   useEffect(() => {
-    if (!mapRef.current || !polylineLayerRef.current) return;
-    polylineLayerRef.current.clearLayers();
+    const layer = polylineLayerRef.current;
+    if (!mapRef.current || !layer) return;
+    layer.clearLayers();
 
     for (const lineId of selectedLineIds) {
       const line = getLine(lineId);
@@ -55,13 +56,13 @@ export function useTrackPolylines({
         opacity: 0.9,
       });
 
-      polylineLayerRef.current.addLayer(glowLine);
-      polylineLayerRef.current.addLayer(mainLine);
-      polylineLayerRef.current.addLayer(accentDashLine);
+      layer.addLayer(glowLine);
+      layer.addLayer(mainLine);
+      layer.addLayer(accentDashLine);
     }
 
     return () => {
-      polylineLayerRef.current?.clearLayers();
+      layer.clearLayers();
     };
   }, [mapRef, polylineLayerRef, selectedLineIds]);
 }
