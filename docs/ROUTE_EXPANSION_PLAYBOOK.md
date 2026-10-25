@@ -39,12 +39,15 @@ Trainfo/
 │   └── test_<boundary>_handover.ts     # 境界駅・追尾ハンドオーバー検証テスト
 ├── src/
 │   ├── types/index.ts                  # LineId, TrainTypeKey などの型定義
+│   ├── utils/
+│   │   └── timeUtils.ts                # 鉄道運行日基準（04:00起点）時刻変換共通ユーティリティ
 │   ├── contexts/                       # グローバル状態管理（Simulation, Selection, Filter, UI）
 │   ├── hooks/
 │   │   └── useTrainTracker.ts          # 直通列車自動追従・耐障害ハンドオーバーフック
 │   ├── data/
-│   │   ├── linesRegistry.ts            # 全路線の集約レジストリ・事業者表示順序
-│   │   ├── timetableLoader.ts          # オンデマンド動的時刻表ローダー（66MB→1.4MB軽量化）
+│   │   ├── linesRegistry.ts            # 全路線の集約レジストリ・事業者表示順序・getAlternateStations
+│   │   ├── timetableLoader.ts          # オンデマンド動的時刻表ローダー（import.meta.glob による自動チャンク分割）
+│   │   ├── timetableData.ts            # 時刻表・駅発車標解決ユーティリティ（resolveStationTimetableData）
 │   │   └── lines/
 │   │       └── <lineId>/               # 各路線のデータモジュール
 │   │           ├── index.ts            # LineDefinition（路線メタデータ統合）
@@ -55,11 +58,14 @@ Trainfo/
 │   │           └── globalTimetable.json   # 全列車ダイヤ（動的ロード対象）
 │   ├── components/
 │   │   ├── Common/Badges.tsx           # 駅ナンバリング・種別バッジ
+│   │   ├── Debug/DebugLinesPage.tsx    # 路線・種別デバッグ一覧ページ
 │   │   ├── Header/Header.tsx           # ヘッダー・事業者別路線ドロワー
 │   │   ├── Map/                        # Leaflet 地図描画・DisplayFilterDock・TrackingBar
 │   │   │   └── hooks/                  # モジュラーカスタムフック群（Leaflet, マーカー, カメラ等）
+│   │   ├── Modals/                     # 各種モーダル & TestRunModal/（試運転・臨時列車サブコンポーネント群）
 │   │   └── Sidebar/StationDetail.tsx   # 駅詳細・同名駅/乗換路線切り替え
 │   └── services/
+│       ├── testTrainService.ts         # 試運転・臨時列車プラン作成・直通計算・プリセット管理
 │       └── trainSimulation.ts          # シミュレーション計算・直通追尾・重なり除外
 ```
 
@@ -392,18 +398,9 @@ node scripts/runYahooImporter.cjs --line <lineId>
    * 作成した路線オブジェクトをインポートし、`LINES_REGISTRY` オブジェクトに登録。
    * 新しい運行事業者の場合は `OPERATOR_DISPLAY_ORDER` 配列に事業者名を追加（サイドバーやセレクターの表示順序を制御）。
 
-3. **オンデマンド動的ローダーへの登録 ([`src/data/timetableLoader.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/timetableLoader.ts))**:
-   * `TIMETABLE_LOADERS` オブジェクトに新路線の動的インポート関数を追加：
-     ```typescript
-     tokyu_toyoko: () =>
-       Promise.all([
-         import('./lines/tokyu_toyoko/globalTimetable.json'),
-         import('./lines/tokyu_toyoko/stationTimetables.json'),
-       ]).then(([g, s]) => ({
-         globalTimetable: g.default as unknown as TimetableTrip[],
-         stationTimetables: s.default as unknown as StationTimetableStore,
-       })),
-     ```
+3. **オンデマンド動的ローダーによる自動チャンク分割 ([`src/data/timetableLoader.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/timetableLoader.ts))**:
+   * `timetableLoader.ts` では Vite の `import.meta.glob('./lines/*/globalTimetable.json')` および `import.meta.glob('./lines/*/stationTimetables.json')`（Node.js `tsx` 実行時は動的 `import()` フォールバック）を使用しています。
+   * そのため、`src/data/lines/<lineId>/` 配下に `globalTimetable.json` と `stationTimetables.json` を配置し、`LINES_REGISTRY` に登録するだけで自動的に路線別チャンクとして分割・遅延ロードされます（手動での `timetableLoader.ts` 編集は不要です）。
    * これにより、ユーザーがその路線を選択・表示した瞬間にのみブラウザが非同期にJSONチャンクをダウンロードし、初期描画の圧倒的な軽快性が保たれます。
 
 ---
@@ -507,8 +504,8 @@ Trainfo では、全路線の駅名マスタの自動走査・シームレス時
      ```
 2. **主要駅ハイライト設定 ([`src/data/lines/<lineId>/stations.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/lines/tokyu_toyoko/stations.ts))**:
    * ズームアウト時にも常時表示させたいターミナル駅・乗換駅・主要駅は、`stations.ts` の定義に `isMajor: true` を付与。
-3. **他路線との同名駅切替リンク ([`src/components/Sidebar/StationDetail.tsx`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/components/Sidebar/StationDetail.tsx))**:
-   * 駅名（`station.name`）が一致する駅同士は自動的に相互切り替えボタンが表示されます。
+3. **他路線との同名駅切替リンク ([`src/data/linesRegistry.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/linesRegistry.ts) / [`src/components/Sidebar/StationDetail.tsx`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/components/Sidebar/StationDetail.tsx))**:
+   * `getAlternateStations(station)` ヘルパーにより、駅名（`station.name`）が一致する他路線の乗換駅が検索され、`StationDetail.tsx` および `TimetableModal.tsx` で自動的に相互切り替えボタンが表示されます。
    * 表記揺れ（例: 「新横浜」「日吉」「横浜」「大宮」等）がないことを確認。
 4. **モジュラーカスタムフック & パフォーマンスガイドラインの遵守 ([`src/components/Map/hooks/`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/components/Map/hooks/))**:
    * 地図描画・マーカー生成は単一責務カスタムフック群（`useLeafletMap`, `useStationMarkers`, `useTrainMarkers`, `useMapCamera`, `useGeolocation`, `useTrackPolylines`）に分離されています。
@@ -846,10 +843,11 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
   * 駅マーカーインスタンスを `Map<string, L.Marker>` でキャッシュし、駅選択（`selectedStation`）時は全破棄せず、選択された駅要素の CSS クラス（`ring-4`, `scale-125`, `opacity-100` 等）の差分切り替えのみに最適化する。
 
 ### 31. 動的時刻表ローディングと初期バンドル分割（66MB→1.4MB軽量化）
-* **事象**: 全30路線の `stationTimetables.json`（各数MB）および `globalTimetable.json`（各数MB）を路線モジュール（`index.ts`）で直接静的 `import` すると、初期バンドルサイズが 66MB 超に膨れ上がり、初回ロードが著しく重くなる。
+* **事象**: 全路線の `stationTimetables.json`（各数MB）および `globalTimetable.json`（各数MB）を路線モジュール（`index.ts`）で直接静的 `import` すると、初期バンドルサイズが数十MB超に膨れ上がり、初回ロードが著しく重くなる。
 * **防止策（ベストプラクティス）**:
-  * 各路線の `index.ts` では空の `stationTimetables: { weekday: {}, holiday: {} }` / `globalTimetable: []` を初期値とし、[`src/data/timetableLoader.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/timetableLoader.ts) の `TIMETABLE_LOADERS` に Vite の動的 `import()`（チャンク分割）を登録する。
+  * 各路線の `index.ts` では空の `stationTimetables: { weekday: {}, holiday: {} }` / `globalTimetable: []` を初期値とし、[`src/data/timetableLoader.ts`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/data/timetableLoader.ts) の `import.meta.glob` によって Vite の動的チャンク分割を自動適用する。
   * ユーザーが選択した路線および直通接続先路線のみを非同期にオンデマンド読み込みし、初期バンドルを 1.4MB（gzip 411KB）に抑える。
+  * さらに [`src/contexts/SimulationContext.tsx`](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/src/contexts/SimulationContext.tsx) では、全選択路線のダイヤ結合配列（`effectiveTimetable`）を毎秒60フレームの `currentSec` 更新から分離してメモ化し、路線選択・ダイヤロード・試験列車変更時のみ再構築することでフレームレート低下を防ぐ。
 
 ### 32. 駅探スクレイピングにおける曜日パラメータ（`dw`）の定義と平日/土曜誤突合防止
 * **事象**: 駅探のURLパラメータ `dw=1` を「平日」、`dw=2` を「休日」と誤認してスクレイピングを行うと、平日のキャッシュファイルに**土曜ダイヤ**が保存されてしまう（駅探の仕様は `dw=0`: 平日、`dw=1`: 土曜、`dw=2`: 休日）。  
@@ -939,7 +937,7 @@ OSMのルートリレーションに含まれるウェイ（Way）は、必ず�
 - [ ] `src/data/lines/<lineId>/index.ts` を作成（`stationTimetables` / `globalTimetable` は空配列・空オブジェクトで初期化）
 - [ ] `src/data/linesRegistry.ts` の `LINES_REGISTRY` に新路線を追加
 - [ ] 事業者が新規の場合、`OPERATOR_DISPLAY_ORDER` に追加
-- [ ] `src/data/timetableLoader.ts` の `TIMETABLE_LOADERS` に動的 `import()` を追加（初期バンドルの肥大化防止）
+- [ ] `src/data/lines/<lineId>/globalTimetable.json` と `stationTimetables.json` が配置され、`timetableLoader.ts`（`import.meta.glob`）から動的ロード可能であることを確認
 
 ### Phase 6: 直通運転・ハンドオーバー構築（※直通路線のみ）
 - [ ] 境界駅の Yahoo! グループIDを片側のみ（上りのみ / 下りのみ）に設定

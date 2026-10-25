@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import type { ActiveTrain, Station, LineId, TrainTypeKey, ThroughChainStop, TimetableTrip, CustomTrainTypeConfig } from '../../types';
 import { TrainTypeBadge, StationBadge } from '../Common/Badges';
 import { STATION_MAP } from '../../data/stations';
@@ -57,26 +57,26 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
   const nextStation = STATION_MAP.get(train.nextStationId);
   const nextStopStation = STATION_MAP.get(train.nextStopStationId);
 
-  // 表示モード（初期表示は「〇〇線内」）
-  const [timelineMode, setTimelineMode] = useState<'current' | 'full'>('current');
-  const [chainTrips, setChainTrips] = useState<TimetableTrip[]>(() => getThroughChainTrips(train.tripId));
+  // 直通運行チェーンの動的再計算用トリガー
+  const [timetableLoadTick, setTimetableLoadTick] = useState(0);
+  const chainTrips = useMemo(() => {
+    void timetableLoadTick;
+    return getThroughChainTrips(train.tripId);
+  }, [train.tripId, timetableLoadTick]);
 
-  // 直前の直通チェーンに含まれる tripId の Set を記憶（直通先への切り替わり時にモードを維持するため）
-  const prevChainTripIdsRef = useRef<Set<string>>(new Set(chainTrips.map((t) => t.tripId)));
+  // 直通チェーンの起点 tripId をキーとして表示モードを保持（同一チェーン内の直通移行時は維持、別列車選択時は 'current' にリセット）
+  const currentChainRootId = chainTrips[0]?.tripId || train.tripId;
+  const [timelineModeState, setTimelineModeState] = useState<{
+    chainRootId: string;
+    mode: 'current' | 'full';
+  }>({ chainRootId: currentChainRootId, mode: 'current' });
 
-  useEffect(() => {
-    const newChain = getThroughChainTrips(train.tripId);
-    setChainTrips(newChain);
+  const timelineMode: 'current' | 'full' =
+    timelineModeState.chainRootId === currentChainRootId ? timelineModeState.mode : 'current';
 
-    const isSameChain = prevChainTripIdsRef.current.has(train.tripId);
-    if (!isSameChain) {
-      // 完全に別の列車へ切り替わった場合は初期表示の「〇〇線内」に設定
-      setTimelineMode('current');
-    }
-    // 同一直通チェーン内での直通先への移行時は、現在の timelineMode（全区間 / 線内）をそのまま維持
-
-    prevChainTripIdsRef.current = new Set(newChain.map((t) => t.tripId));
-  }, [train.tripId]);
+  const setTimelineMode = (mode: 'current' | 'full') => {
+    setTimelineModeState({ chainRootId: currentChainRootId, mode });
+  };
 
   // 直通先・直通元路線の自動非同期ロード & ロード完了リスナー
   useEffect(() => {
@@ -98,7 +98,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
     }
 
     const unsubscribe = subscribeTimetableLoad(() => {
-      setChainTrips(getThroughChainTrips(train.tripId));
+      setTimetableLoadTick((tick) => tick + 1);
     });
 
     return unsubscribe;

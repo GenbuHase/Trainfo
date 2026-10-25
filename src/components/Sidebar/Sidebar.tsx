@@ -1,5 +1,4 @@
 import React from 'react';
-import type { Station, ActiveTrain, LineId } from '../../types';
 import { StationDetail } from './StationDetail';
 import { TrainDetail } from './TrainDetail';
 import { X, ChevronRight } from 'lucide-react';
@@ -11,60 +10,26 @@ import { useSelection } from '../../contexts/SelectionContext';
 import { useSimulation } from '../../contexts/SimulationContext';
 import { useUI } from '../../contexts/UIContext';
 
-export interface SidebarProps {
-  isOpen?: boolean;
-  onClose?: () => void;
-  selectedStation?: Station | null;
-  selectedTrain?: ActiveTrain | null;
-  currentSec?: number;
-  isHoliday?: boolean;
-  activeTrains?: ActiveTrain[];
-  isTrackingTrain?: boolean;
-  onToggleTrackingTrain?: () => void;
-  onSelectStation?: (station: Station) => void;
-  onSelectTrain?: (train: ActiveTrain) => void;
-  onOpenFullTimetable?: (station: Station) => void;
-  selectedLineIds?: LineId[];
-}
+export const Sidebar: React.FC = () => {
+  const {
+    selectedStation,
+    selectedLineIds,
+    isTrackingTrain,
+    setIsTrackingTrain,
+    selectStation: onSelectStation,
+    selectTrain: onSelectTrain,
+    clearTargetSelection,
+  } = useSelection();
+  const { selectedTrain, currentSec, isHoliday, activeTrains } = useSimulation();
+  const { isSidebarOpen: isOpen, closeSidebar, openTimetable: onOpenFullTimetable } = useUI();
 
-export const Sidebar: React.FC<SidebarProps> = ({
-  isOpen: propIsOpen,
-  onClose: propOnClose,
-  selectedStation: propSelectedStation,
-  selectedTrain: propSelectedTrain,
-  currentSec: propCurrentSec,
-  isHoliday: propIsHoliday,
-  activeTrains: propActiveTrains,
-  isTrackingTrain: propIsTrackingTrain,
-  onToggleTrackingTrain: propOnToggleTrackingTrain,
-  onSelectStation: propOnSelectStation,
-  onSelectTrain: propOnSelectTrain,
-  onOpenFullTimetable: propOnOpenFullTimetable,
-  selectedLineIds: propSelectedLineIds,
-}) => {
-  const selection = useSelection();
-  const simulation = useSimulation();
-  const ui = useUI();
-
-  const isOpen = propIsOpen ?? ui.isSidebarOpen;
-  const onClose = propOnClose ?? (() => {
-    ui.closeSidebar();
-    if (!selection.isTrackingTrain) {
-      selection.clearTargetSelection();
+  const onClose = () => {
+    closeSidebar();
+    if (!isTrackingTrain) {
+      clearTargetSelection();
     }
-  });
-
-  const selectedStation = propSelectedStation ?? selection.selectedStation;
-  const selectedTrain = propSelectedTrain ?? simulation.selectedTrain;
-  const currentSec = propCurrentSec ?? simulation.currentSec;
-  const isHoliday = propIsHoliday ?? simulation.isHoliday;
-  const activeTrains = propActiveTrains ?? simulation.activeTrains;
-  const isTrackingTrain = propIsTrackingTrain ?? selection.isTrackingTrain;
-  const onToggleTrackingTrain = propOnToggleTrackingTrain ?? (() => selection.setIsTrackingTrain((prev) => !prev));
-  const onSelectStation = propOnSelectStation ?? selection.selectStation;
-  const onSelectTrain = propOnSelectTrain ?? selection.selectTrain;
-  const onOpenFullTimetable = propOnOpenFullTimetable ?? ui.openTimetable;
-  const selectedLineIds = propSelectedLineIds ?? selection.selectedLineIds;
+  };
+  const onToggleTrackingTrain = () => setIsTrackingTrain((prev) => !prev);
 
   if (!isOpen) return null;
 

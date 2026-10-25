@@ -30,8 +30,9 @@ flowchart TD
 | `src/data/lines/<lineId>/stationTimetables.json` | 各駅の時刻表モーダル表示用データ（`globalTimetable.json` から自動生成） | **編集不要（自動生成）** |
 | `scripts/lines/<lineId>/config.cjs` | Yahoo! スクレイパー用の駅ID・方面グループID・所要時間設定 | 中（路線追加・ダイヤ更新時） |
 | `scripts/common/throughLinker/connectionsConfig.cjs` | 路線間の直通運転ペア定義ファイル | 中（直通路線追加時） |
-| `src/data/linesRegistry.ts` | アプリ画面に表示する全路線の登録リスト | 中（路線追加時） |
-| `src/data/timetableLoader.ts` | ダイヤJSONの動的遅延読み込み（Lazy Load）マップ | 中（路線追加時） |
+| `src/data/linesRegistry.ts` | アプリ画面に表示する全路線の登録リスト & 乗換駅検索ヘルパー（`getAlternateStations`） | 中（路線追加時） |
+| `src/data/timetableLoader.ts` | `import.meta.glob` によるダイヤJSONの動的遅延読み込み（Lazy Load）ローダー | **編集不要（自動検出）** |
+| `src/utils/timeUtils.ts` | 鉄道運行日基準（04:00起点）の時刻変換・現在時刻解決共通ユーティリティ | 低 |
 
 ---
 
@@ -308,13 +309,13 @@ node scripts/runYahooImporter.cjs --line <lineId>
 ```
 * これにより `src/data/lines/<lineId>/globalTimetable.json` と `stationTimetables.json` が生成され、公式列車番号も自動注入されます。
 
-### Step 5: フロントエンドへの登録（3ファイル）
+### Step 5: フロントエンドへの登録（2ファイル）
 1. **`src/types/index.ts`**:
    `LineId` ユニオン型に `| '<lineId>'` を追加します。
 2. **`src/data/linesRegistry.ts`**:
    作成した `index.ts` から路線定義をインポートし、`LINES_REGISTRY` に追加します。
-3. **`src/data/timetableLoader.ts`**:
-   `globalTimetableLoaders` と `stationTimetableLoaders` の双方に動的 `import()` エントリを追加します。
+   > [!NOTE]
+   > `src/data/timetableLoader.ts` は Vite の `import.meta.glob('./lines/*/globalTimetable.json')`（および Node.js `tsx` 用の動的 `import()` フォールバック）によって `src/data/lines/<lineId>/` 配下の JSON を自動検出するため、手動でのローダー追記は不要です。
 
 ### Step 6: 直通設定・監査・ビルド確認
 1. 他路線と直通する場合は `scripts/common/throughLinker/connectionsConfig.cjs` に接続ペアを追記し、`node scripts/runThroughLinker.cjs` を実行します。

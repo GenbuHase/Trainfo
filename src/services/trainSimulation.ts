@@ -13,6 +13,9 @@ import {
   getGlobalTripMap,
 } from '../data/timetableData';
 import { getCombinedGlobalTimetable } from '../data/linesRegistry';
+import { getRealCurrentSeconds } from '../utils/timeUtils';
+
+export { getRealCurrentSeconds };
 
 
 export interface SimulationState {
@@ -574,14 +577,6 @@ export function calculateActiveTrains(
   }
 
   return uniqueTrains;
-}
-
-// 現在のリアルタイム時刻（秒）を取得（深夜0〜3時は翌日24〜27時として計算）
-export function getRealCurrentSeconds(): number {
-  const now = new Date();
-  const h = now.getHours();
-  const normalizedHour = h < 4 ? h + 24 : h;
-  return normalizedHour * 3600 + now.getMinutes() * 60 + now.getSeconds();
 }
 
 // 指定駅を通過中または直近に停車する列車を検索

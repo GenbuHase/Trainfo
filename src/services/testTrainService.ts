@@ -12,34 +12,13 @@ import type {
 import { getLine, getAllLines } from '../data/linesRegistry';
 import { getTrackDistanceKm, calculateDistanceKm } from '../data/trackGeometry';
 import { STATION_MAP } from '../data/stations';
+import {
+  secondsToTimeString,
+  secondsToHHMM,
+  hhmmToSeconds,
+} from '../utils/timeUtils';
 
-export function secondsToTimeString(sec: number): string {
-  const normalized = ((Math.floor(sec) % 86400) + 86400) % 86400;
-  const h = Math.floor(normalized / 3600);
-  const m = Math.floor((normalized % 3600) / 60);
-  const s = normalized % 60;
-  return `${h.toString().padStart(2, '0')}:${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
-}
-
-export function secondsToHHMM(sec: number): string {
-  return secondsToTimeString(sec).slice(0, 5);
-}
-
-export function hhmmToSeconds(hhmm: string, referenceSec?: number): number {
-  const parts = hhmm.trim().split(':').map(Number);
-  if (parts.length < 2 || Number.isNaN(parts[0]) || Number.isNaN(parts[1])) {
-    return referenceSec ?? 12 * 3600;
-  }
-  const h = parts[0];
-  const m = parts[1];
-  const s = parts[2] || 0;
-  const normalizedH = h < 4 ? h + 24 : h;
-  let result = normalizedH * 3600 + m * 60 + s;
-  if (referenceSec !== undefined && result < referenceSec - 12 * 3600) {
-    result += 86400;
-  }
-  return result;
-}
+export { secondsToTimeString, secondsToHHMM, hhmmToSeconds };
 
 /**
  * 各駅の停車・通過および時刻設定

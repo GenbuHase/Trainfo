@@ -195,9 +195,11 @@ export function useTrainMarkers({
 
   // コンポーネント破棄時またはレイヤー切り替え時のクリーンアップ
   useEffect(() => {
+    const layer = trainLayerRef.current;
+    const markers = markersRef.current;
     return () => {
-      trainLayerRef.current?.clearLayers();
-      markersRef.current.clear();
+      layer?.clearLayers();
+      markers.clear();
       prevTrainLayerRef.current = null;
     };
   }, [trainLayerRef]);

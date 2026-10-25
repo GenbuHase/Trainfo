@@ -1,58 +1,41 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import type { Station, Direction } from '../../types';
 import { getFullDayStationTimetable, formatTrainNumber } from '../../data/timetableData';
 import { StationBadge } from '../Common/Badges';
 import { TRAIN_TYPES } from '../../data/trainTypes';
-import { getLine, getAllLines, getTrainTypeConfig } from '../../data/linesRegistry';
+import { getLine, getAlternateStations, getTrainTypeConfig } from '../../data/linesRegistry';
 import { X, Download, ArrowLeftRight } from 'lucide-react';
 
 import { useUI } from '../../contexts/UIContext';
 import { useSimulation } from '../../contexts/SimulationContext';
 import { useSelection } from '../../contexts/SelectionContext';
 
-export interface TimetableModalProps {
-  station?: Station | null;
-  isOpen?: boolean;
-  onClose?: () => void;
-  defaultIsHoliday?: boolean;
-  onSwitchStation?: (station: Station) => void;
-}
-
-export const TimetableModal: React.FC<TimetableModalProps> = ({
-  station: propStation,
-  isOpen: propIsOpen,
-  onClose: propOnClose,
-  defaultIsHoliday: propDefaultIsHoliday,
-  onSwitchStation: propOnSwitchStation,
-}) => {
+export const TimetableModal: React.FC = () => {
   const ui = useUI();
   const simulation = useSimulation();
   const selection = useSelection();
 
-  const station = propStation !== undefined ? propStation : ui.timetableStation;
-  const isOpen = propIsOpen !== undefined ? propIsOpen : ui.isTimetableOpen;
-  const onClose = propOnClose ?? ui.closeTimetable;
-  const defaultIsHoliday = propDefaultIsHoliday !== undefined ? propDefaultIsHoliday : simulation.isHoliday;
-  const onSwitchStation = propOnSwitchStation ?? ((st: Station) => {
+  const station = ui.timetableStation;
+  const isOpen = ui.isTimetableOpen;
+  const onClose = ui.closeTimetable;
+  const defaultIsHoliday = simulation.isHoliday;
+  const onSwitchStation = (st: Station) => {
     ui.setTimetableStation(st);
     selection.selectStation(st);
-  });
+  };
 
   const line = station ? getLine(station.lineId) : undefined;
   const isFirstStation = line ? line.stations[0]?.id === station?.id : false;
   const isLastStation = line ? line.stations[line.stations.length - 1]?.id === station?.id : false;
 
-  const [direction, setDirection] = useState<Direction>(() => (isFirstStation ? 'outbound' : 'inbound'));
+  const [directionState, setDirection] = useState<Direction>(() => (isFirstStation ? 'outbound' : 'inbound'));
   const [isHoliday, setIsHoliday] = useState<boolean>(defaultIsHoliday);
 
-  // 駅が切り替わったときに始発・終点に合わせて方向を更新
-  useEffect(() => {
-    if (isFirstStation) {
-      setDirection('outbound');
-    } else if (isLastStation) {
-      setDirection('inbound');
-    }
-  }, [station?.id, isFirstStation, isLastStation]);
+  const direction: Direction = isFirstStation
+    ? 'outbound'
+    : isLastStation
+    ? 'inbound'
+    : directionState;
 
   if (!isOpen || !station) return null;
 
@@ -66,16 +49,7 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
   const themeColor = line?.lineColor || '#004b97';
 
   // 同名駅（他路線）の検索（例: 東上線川越駅 <-> JR川越駅）
-  const allLines = getAllLines();
-  const alternateStations: { station: Station; lineName: string }[] = [];
-  allLines.forEach((l) => {
-    if (l.id !== station.lineId) {
-      const match = l.stations.find((s) => s.name === station.name);
-      if (match) {
-        alternateStations.push({ station: match, lineName: l.name });
-      }
-    }
-  });
+  const alternateStations = getAlternateStations(station);
 
   // 全日時刻表データの取得
   const fullDayData = getFullDayStationTimetable(station.id, isHoliday, station.lineId);

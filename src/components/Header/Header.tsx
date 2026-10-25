@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect, useCallback, useMemo } from 'react'
 import { Search, Train, MapPin, X, Calendar, Settings, HelpCircle, Download, Loader2, FlaskConical } from 'lucide-react';
 
 
-import type { Station, ActiveTrain, LineId, Direction } from '../../types';
+import type { Station, ActiveTrain } from '../../types';
 import { getStations } from '../../data/stations';
 import { StationBadge, TrainTypeBadge } from '../Common/Badges';
 import { formatTrainNumber } from '../../data/timetableData';
@@ -16,93 +16,42 @@ import { useSimulation } from '../../contexts/SimulationContext';
 import { useFilter } from '../../contexts/FilterContext';
 import { useUI } from '../../contexts/UIContext';
 
-export interface HeaderProps {
-  onSelectStation?: (station: Station) => void;
-  onSelectTrain?: (train: ActiveTrain) => void;
-  activeTrains?: ActiveTrain[];
-  isHoliday?: boolean;
-  onToggleHoliday?: (val: boolean) => void;
-  onOpenSettings?: () => void;
-  onOpenHelp?: () => void;
-  onOpenInstall?: () => void;
-  isSidebarOpen?: boolean;
-  onCloseSidebar?: () => void;
-  selectedLineIds?: LineId[];
-  onChangeSelectedLines?: (lineIds: LineId[]) => void;
-  filterDirection?: 'all' | Direction;
-  onChangeFilterDirection?: (direction: 'all' | Direction) => void;
-  filterType?: 'all' | 'rapid' | 'local';
-  onChangeFilterType?: (type: 'all' | 'rapid' | 'local') => void;
-  selectedTrain?: ActiveTrain | null;
-  isTrackingTrain?: boolean;
-  onOpenSidebar?: () => void;
-  onStopTracking?: () => void;
-}
-
-export const Header: React.FC<HeaderProps> = ({
-  onSelectStation: propOnSelectStation,
-  onSelectTrain: propOnSelectTrain,
-  activeTrains: propActiveTrains,
-  isHoliday: propIsHoliday,
-  onToggleHoliday: propOnToggleHoliday,
-  onOpenSettings: propOnOpenSettings,
-  onOpenHelp: propOnOpenHelp,
-  onOpenInstall: propOnOpenInstall,
-  isSidebarOpen: propIsSidebarOpen,
-  onCloseSidebar: propOnCloseSidebar,
-  selectedLineIds: propSelectedLineIds,
-  onChangeSelectedLines: propOnChangeSelectedLines,
-  filterDirection: propFilterDirection,
-  onChangeFilterDirection: propOnChangeFilterDirection,
-  filterType: propFilterType,
-  onChangeFilterType: propOnChangeFilterType,
-  selectedTrain: propSelectedTrain,
-  isTrackingTrain: propIsTrackingTrain,
-  onOpenSidebar: propOnOpenSidebar,
-  onStopTracking: propOnStopTracking,
-}) => {
+export const Header: React.FC = () => {
   const selection = useSelection();
   const simulation = useSimulation();
   const filter = useFilter();
   const ui = useUI();
 
-  const selectedLineIds = propSelectedLineIds ?? selection.selectedLineIds;
-  const onChangeSelectedLines = propOnChangeSelectedLines ?? selection.setSelectedLineIds;
-  const onSelectStation = propOnSelectStation ?? ((st: Station) => {
+  const { selectedLineIds, isTrackingTrain, stopTracking: onStopTracking } = selection;
+  const { activeTrains, isHoliday, toggleHoliday: onToggleHoliday, selectedTrain } = simulation;
+  const { filterDirection, filterType } = filter;
+  const {
+    isSidebarOpen,
+    openSidebar: onOpenSidebar,
+    openSettings: onOpenSettings,
+    openHelp: onOpenHelp,
+    openInstall: onOpenInstall,
+  } = ui;
+
+  const onSelectStation = (st: Station) => {
     selection.selectStation(st);
     ui.openSidebar();
-  });
-  const onSelectTrain = propOnSelectTrain ?? ((tr: ActiveTrain) => {
+  };
+  const onSelectTrain = (tr: ActiveTrain) => {
     selection.selectTrain(tr);
     ui.openSidebar();
-  });
-  const activeTrains = propActiveTrains ?? simulation.activeTrains;
-  const isHoliday = propIsHoliday ?? simulation.isHoliday;
-  const onToggleHoliday = propOnToggleHoliday ?? simulation.toggleHoliday;
-  const selectedTrain = propSelectedTrain ?? simulation.selectedTrain;
-  const isTrackingTrain = propIsTrackingTrain ?? selection.isTrackingTrain;
-  const onStopTracking = propOnStopTracking ?? selection.stopTracking;
-  const filterDirection = propFilterDirection ?? filter.filterDirection;
-  const onChangeFilterDirection = propOnChangeFilterDirection ?? filter.setFilterDirection;
-  const filterType = propFilterType ?? filter.filterType;
-  const onChangeFilterType = propOnChangeFilterType ?? filter.setFilterType;
-  const isSidebarOpen = propIsSidebarOpen ?? ui.isSidebarOpen;
-  const onCloseSidebar = propOnCloseSidebar ?? (() => {
+  };
+  const onCloseSidebar = () => {
     ui.closeSidebar();
     if (!selection.isTrackingTrain) {
       selection.clearTargetSelection();
     }
-  });
-  const onOpenSidebar = propOnOpenSidebar ?? ui.openSidebar;
-
-  const onOpenSettings = propOnOpenSettings ?? ui.openSettings;
-  const onOpenHelp = propOnOpenHelp ?? ui.openHelp;
-  const onOpenInstall = propOnOpenInstall ?? ui.openInstall;
+  };
 
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [canInstall, setCanInstall] = useState(false);
-  const [isStandalone, setIsStandalone] = useState(false);
+  const [isStandalone, setIsStandalone] = useState(() => isRunningStandalone());
   const containerRef = useRef<HTMLDivElement>(null);
 
   // 現在登録されている試運転・臨時列車の編成数（平日/土休日別でユニークなtrainId数）
@@ -119,9 +68,9 @@ export const Header: React.FC<HeaderProps> = ({
 
   // PWAインストール状態の監視
   useEffect(() => {
-    setIsStandalone(isRunningStandalone());
     const unsubscribe = subscribeInstallState((canPrompt) => {
       setCanInstall(canPrompt);
+      setIsStandalone(isRunningStandalone());
     });
     return unsubscribe;
   }, []);
@@ -488,15 +437,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="flex items-center gap-1.5">
             {statusCapsulesJsx}
           </div>
-          <DisplayFilterDock
-            selectedLineIds={selectedLineIds}
-            onChangeSelectedLines={onChangeSelectedLines}
-            filterDirection={filterDirection}
-            onChangeFilterDirection={onChangeFilterDirection}
-            filterType={filterType}
-            onChangeFilterType={onChangeFilterType}
-            mode="desktop"
-          />
+          <DisplayFilterDock mode="desktop" />
         </div>
       </div>
 
@@ -509,15 +450,7 @@ export const Header: React.FC<HeaderProps> = ({
             style={scrollMaskStyle}
             className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5 px-0.5 w-full"
           >
-            <DisplayFilterDock
-              selectedLineIds={selectedLineIds}
-              onChangeSelectedLines={onChangeSelectedLines}
-              filterDirection={filterDirection}
-              onChangeFilterDirection={onChangeFilterDirection}
-              filterType={filterType}
-              onChangeFilterType={onChangeFilterType}
-              mode="mobile"
-            />
+            <DisplayFilterDock mode="mobile" />
             {statusCapsulesJsx}
           </div>
         </div>

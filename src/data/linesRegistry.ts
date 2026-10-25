@@ -451,3 +451,20 @@ export function calculateBoundsForLines(selectedLineIds: LineId[]): [[number, nu
     [maxLat + latPadding, maxLng + lngPadding],
   ];
 }
+
+// 同一駅名を持つ他路線の乗換駅候補リストを取得
+export function getAlternateStations(
+  station: Station | null | undefined
+): { station: Station; lineName: string }[] {
+  if (!station) return [];
+  const results: { station: Station; lineName: string }[] = [];
+  for (const line of getAllLines()) {
+    if (line.id !== station.lineId) {
+      const found = line.stations.find((s) => s.name === station.name);
+      if (found) {
+        results.push({ station: found, lineName: line.name });
+      }
+    }
+  }
+  return results;
+}

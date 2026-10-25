@@ -188,15 +188,17 @@
 ### 4. ⚡ オンデマンド動的時刻表ローディング & 高性能アーキテクチャ
 - **オンデマンド動的時刻表ローディング (Dynamic Timetable Loading)**:
   - 初期バンドルサイズを従来の **66MBから1.4MBへ97.8%削減**。
-  - 選択中の路線および直通先路線の時刻表JSONのみを動的にストリーミング取得し、初期ロード時間の極小化と省メモリ化を実現。
-- **モジュラーカスタムフック & Context レイヤー分離**:
-  - `TrainMap` の肥大化を解消し、6つの単一責務カスタムフック（`useLeafletMap`, `useTrackPolylines`, `useStationMarkers`, `useTrainMarkers`, `useMapCamera`, `useGeolocation`）に分離。
-  - 状態管理を `SimulationContext`, `SelectionContext`, `FilterContext`, `UIContext` に階層化し、コンポーネント再レンダリングを局所化。
+  - `src/data/timetableLoader.ts` にて Vite の `import.meta.glob`（および Node.js `tsx` 実行環境向け動的 `import()` フォールバック）を採用し、選択中の路線および直通先路線の時刻表JSONのみを動的にストリーミング取得。新路線追加時の手動ローダー記述も不要化。
+- **モジュラーカスタムフック & Context / ユーティリティ層の責務分離**:
+  - `TrainMap` を6つの単一責務カスタムフック（`useLeafletMap`, `useTrackPolylines`, `useStationMarkers`, `useTrainMarkers`, `useMapCamera`, `useGeolocation`）に分離し、コールバックの最新参照維持（Ref化）とクリーンアップを徹底。
+  - 状態管理を `SimulationContext`, `SelectionContext`, `FilterContext`, `UIContext` に階層化し、各UIコンポーネントからレガシーなバケツリレー Props を排除。
+  - 試運転・臨時列車作成モーダル（`TestRunModal`）を機能別サブコンポーネント（`RouteTab`, `StopsTab`, `CustomizeTab`, `PresetsTab`, `ActiveTestTrainsBanner`）へモジュール分割。
+  - 時刻変換共通ユーティリティ（`src/utils/timeUtils.ts`）、駅時刻表解決ヘルパー（`resolveStationTimetableData`）、同名乗換駅検索ヘルパー（`getAlternateStations`）によりデータ・サービス層の重複ロジックを統一。
 - **モバイルパフォーマンス最適化（白化・フリーズ解消 & 60fps安定化）**:
   - **GPUレイヤー合成負荷の極小化**: マーカーの重い `filter: drop-shadow` を廃止し軽量な CSS `shadow-md` に置き換え。選択時のみ `train-pulse`（`animate-ping`）を DOM 生成することで、非選択列車約390台による常時 GPU アニメーション負荷を全廃し、モバイル（iOS Safari / WebKit等）での VRAM 枯渇による白画面クラッシュ（White Screen of Death）を完全解消。
   - **タイル白抜け＆リサイズ暴走防止**: Leaflet の `fadeAnimation: false` を設定しズーム・パン中のタイル透明化を遮断。`ResizeObserver` に 150ms デバウンスを導入し、アニメーション中の連続リサイズによるフリーズを防止。
   - **駅マーカー（778駅）のキャッシュ＆差分更新**: 駅選択時の `clearLayers()`（全破棄・全再生成）を廃止し、選択駅要素の CSS クラス差分のみを即座に更新。
-  - **再レンダリングのスロットリング**: `SimulationContext` において秒数が変化していない描画フレームの更新を完全スキップし、毎秒数十回の無駄な全ツリー再計算を抑制。
+  - **ダイヤ配列結合のメモ化分離 & スロットリング**: `SimulationContext` において全選択路線のダイヤ結合（`effectiveTimetable`）を毎フレームの時刻更新から分離してメモ化し、さらに秒数が変化していない描画フレームの更新をスキップすることで、60fps アニメーション中の CPU / GC 負荷を最小化。
   - **CSS Containment**: マーカー要素に `contain: layout style; will-change: transform;` を指定し、リフロー影響範囲を局所化。
 
 ### 5. 🎛️ 事業者別セレクター & マップ直結フィルタードック（DisplayFilterDock）
@@ -311,6 +313,7 @@
 ```text
 Trainfo/
 ├── docs/                               # ドキュメント・アセット
+│   ├── MAINTENANCE_GUIDE.md            # 人力運用・日常保守ガイド（コマンドリファレンス）
 │   ├── ROUTE_EXPANSION_PLAYBOOK.md     # 路線追加完全手順書・設計標準マニュアル
 │   ├── LINE_COLORS_GUIDELINES.md       # ラインカラー＆アクセントカラー選定ガイドライン
 │   ├── COLOR_AUDIT_REPORT.md           # 公式情報に基づかない路線・種別カラーリング監査レポート
@@ -338,34 +341,39 @@ Trainfo/
 │   │   └── throughLinker/              # 汎用直通リンカー基盤
 │   │       ├── connectionsConfig.cjs   # 全路線の直通ペア宣言的設定
 │   │       └── throughLinkerEngine.cjs # 直通トリップ探索・時刻補正エンジン
-│   └── lines/                          # 全48路線のスクレイパー設定（config.cjs）
+│   └── lines/                          # 各路線のスクレイパー設定（config.cjs）
 ├── src/
 │   ├── components/
 │   │   ├── Common/                     # 駅ナンバリング・種別バッジ（Badges.tsx）
 │   │   ├── Controls/                   # タイムスライダー・各種操作パネル（TimeController.tsx）
+│   │   ├── Debug/                      # 路線・種別デバッグ一覧画面（DebugLinesPage.tsx）
 │   │   ├── Header/                     # ヘッダー・路線選択ドロワー（Header.tsx）
 │   │   ├── Map/                        # Leaflet 地図描画・DisplayFilterDock・TrackingBar
 │   │   │   └── hooks/                  # Leaflet地図・マーカー・カメラ・GPS制御カスタムフック群
 │   │   ├── Modals/                     # 時刻表・設定・ヘルプ・PWAインストールモーダル
+│   │   │   └── TestRunModal/           # 試運転・臨時列車作成モーダル（タブ別サブコンポーネント群）
 │   │   └── Sidebar/                    # 駅詳細（StationDetail）・列車詳細（TrainDetail）
 │   ├── contexts/                       # グローバル状態管理レイヤー（Context API）
 │   │   ├── AppProviders.tsx            # Context統合プロバイダー
-│   │   ├── SimulationContext.tsx       # シミュレーション時刻・再生制御
+│   │   ├── SimulationContext.tsx       # シミュレーション時刻・再生制御・ダイヤ結合メモ化
 │   │   ├── SelectionContext.tsx        # 選択路線・駅・列車管理
 │   │   ├── FilterContext.tsx           # 表示フィルター（種別・方向等）
 │   │   └── UIContext.tsx               # モーダル・サイドバー・UI状態
 │   ├── data/
-│   │   ├── lines/                      # 全48路線のデータモジュール（stations, track, timetables）
-│   │   ├── linesRegistry.ts            # プラグイン型 路線統合レジストリ（13事業者グループ化）
-│   │   ├── timetableLoader.ts          # オンデマンド動的時刻表ローダー（66MB→1.4MB軽量化）
+│   │   ├── lines/                      # 各路線のデータモジュール（stations, track, timetables）
+│   │   ├── linesRegistry.ts            # プラグイン型 路線統合レジストリ & 乗換駅検索ヘルパー
+│   │   ├── timetableLoader.ts          # オンデマンド動的時刻表ローダー（import.meta.glob によるチャンク分割）
 │   │   ├── stations.ts                 # 統合駅データユーティリティ
 │   │   ├── trackGeometry.ts            # 統合軌道・補間計算エンジン
-│   │   └── timetableData.ts            # 統合時刻表ユーティリティ
+│   │   └── timetableData.ts            # 統合時刻表・駅発車標解決ユーティリティ
 │   ├── hooks/
 │   │   └── useTrainTracker.ts          # 直通列車自動追従・耐障害ハンドオーバーフック
 │   ├── services/
 │   │   ├── pwaService.ts               # PWA Service Worker & インストール管理
+│   │   ├── testTrainService.ts         # 試運転・臨時列車プラン作成・直通計算・プリセット管理
 │   │   └── trainSimulation.ts          # リアルタイム列車走行シミュレーションエンジン
+│   ├── utils/
+│   │   └── timeUtils.ts                # 鉄道運行日基準（04:00起点）時刻変換共通ユーティリティ
 │   ├── types/                          # TypeScript 型定義 (LineDefinition, TrainTypeKey等)
 │   ├── App.tsx                         # メインアプリケーションコンポーネント
 │   └── main.tsx                        # エントリーポイント
@@ -377,12 +385,14 @@ Trainfo/
 
 ## 📖 開発・設計ドキュメント
 
+- 👉 [**Trainfo メンテナンス手順書（docs/MAINTENANCE_GUIDE.md）**](docs/MAINTENANCE_GUIDE.md): 日常保守・ダイヤ改正対応・データ修正・新規路線追加のコマンドリファレンス＆実践ガイド
 - 👉 [**Trainfo 路線追加完全プレイブック（docs/ROUTE_EXPANSION_PLAYBOOK.md）**](docs/ROUTE_EXPANSION_PLAYBOOK.md): 新路線追加の手順、OSM線路抽出、Yahoo! データ設定、直通ハンドオーバー設計、ハマりどころ防止策
-- 👉 [**上下非対称路線・方向別軌道ルーティング設計指針（docs/ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md）**](docs/ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md): 上越線（新清水トンネル vs 湯檜曽ループ線）、東海道新垂井線など上下線非対称区間の軌道設計仕様書: 新路線追加の手順、OSM線路抽出、Yahoo! データ設定、直通ハンドオーバー設計、ハマりどころ防止策
-- 👉 [**ラインカラー＆アクセントカラー選定ガイドライン（docs/LINE_COLORS_GUIDELINES.md）**](docs/LINE_COLORS_GUIDELINES.md): 全48路線のラインカラー・アクセントカラー選定基準、出典、種別カラー対応仕様書
-- 👉 [**公式情報に基づかない路線・種別カラーリング監査レポート（docs/COLOR_AUDIT_REPORT.md）**](docs/COLOR_AUDIT_REPORT.md): 全48路線・全列車種別の公式ラインカラー一覧との突合監査結果・分類レポート
+- 👉 [**上下非対称路線・方向別軌道ルーティング設計指針（docs/ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md）**](docs/ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md): 上越線（新清水トンネル vs 湯檜曽ループ線）、東海道新垂井線など上下線非対称区間の軌道設計仕様書
+- 👉 [**通過駅時刻補間・境界駅シームレス同期仕様書（docs/PASSING_STOP_INTERPOLATION_SPEC.md）**](docs/PASSING_STOP_INTERPOLATION_SPEC.md): 通過駅の重み付け線形補間・1駅停車特急救出・境界駅1秒単位同期のアルゴリズム仕様書
+- 👉 [**ラインカラー＆アクセントカラー選定ガイドライン（docs/LINE_COLORS_GUIDELINES.md）**](docs/LINE_COLORS_GUIDELINES.md): 各路線のラインカラー・アクセントカラー選定基準、出典、種別カラー対応仕様書
+- 👉 [**公式情報に基づかない路線・種別カラーリング監査レポート（docs/COLOR_AUDIT_REPORT.md）**](docs/COLOR_AUDIT_REPORT.md): 各路線・全列車種別の公式ラインカラー一覧との突合監査結果・分類レポート
 - 👉 [**ODPT活用ナレッジ＆将来設計ガイド（docs/ODPT_INTEGRATION_KNOWLEDGE.md）**](docs/ODPT_INTEGRATION_KNOWLEDGE.md): 公共交通オープンデータの活用可能性と推奨アーキテクチャ
-- 🛠️ **路線・種別デバッグ画面**: ブラウザで `/#debug`（または設定モーダル内のメニュー）を開くと、全48路線および列車種別のカラー設定・定義一覧を確認できます。
+- 🛠️ **路線・種別デバッグ画面**: ブラウザで `/#debug`（または設定モーダル内のメニュー）を開くと、全登録路線および列車種別のカラー設定・定義一覧を確認できます。
 
 ---
 

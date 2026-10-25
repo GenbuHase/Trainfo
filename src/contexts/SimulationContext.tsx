@@ -4,6 +4,7 @@ import {
   calculateActiveTrains,
   getRealCurrentSeconds,
 } from '../services/trainSimulation';
+import { isCurrentDayWeekend } from '../utils/timeUtils';
 import type { SimulationState } from '../services/trainSimulation';
 import { loadSimulationFps, saveSimulationFps } from '../constants';
 import type { SimulationFps } from '../constants';
@@ -63,20 +64,15 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     addLines,
   } = useSelection();
 
-  // 実時間から初期化
-  const initialRealSec = getRealCurrentSeconds();
-  const today = new Date();
-  const isWeekend = today.getDay() === 0 || today.getDay() === 6;
-
-  // シミュレーション状態
-  const [simState, setSimState] = useState<Omit<SimulationState, 'selectedLineIds'>>({
-    currentSec: initialRealSec,
+  // シミュレーション状態（初期値は実時間・曜日から遅延評価で取得）
+  const [simState, setSimState] = useState<Omit<SimulationState, 'selectedLineIds'>>(() => ({
+    currentSec: getRealCurrentSeconds(),
     isPlaying: true,
     speedMultiplier: 1,
-    isHoliday: isWeekend,
+    isHoliday: isCurrentDayWeekend(),
     globalDelayMinutes: 0,
     randomDelays: {},
-  });
+  }));
 
   const [isRealTimeSynced, setIsRealTimeSynced] = useState<boolean>(true);
   const [simulationFps, setSimulationFpsState] = useState<SimulationFps>(() => loadSimulationFps());
@@ -179,13 +175,20 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     [simState, selectedLineIds]
   );
 
-  const activeTrains = useMemo(() => {
+  // 選択路線・ダイヤロード状態・臨時列車に応じた統合時刻表配列をメモ化（毎フレームの再結合を回避）
+  const effectiveTimetable = useMemo(() => {
+    void timetableVersion;
+    const baseTimetable = getCombinedGlobalTimetable(selectedLineIds);
     if (testTrainTrips.length === 0) {
-      return calculateActiveTrains(fullSimState);
+      return baseTimetable;
     }
-    const baseTimetable = getCombinedGlobalTimetable(fullSimState.selectedLineIds);
-    return calculateActiveTrains(fullSimState, [...baseTimetable, ...testTrainTrips]);
-  }, [fullSimState, timetableVersion, testTrainTrips]);
+    return [...baseTimetable, ...testTrainTrips];
+  }, [selectedLineIds, timetableVersion, testTrainTrips]);
+
+  const activeTrains = useMemo(
+    () => calculateActiveTrains(fullSimState, effectiveTimetable),
+    [fullSimState, effectiveTimetable]
+  );
 
   // カスタム試運転・臨時列車プランを発車・自動追尾
   const launchCustomTrain = useCallback(

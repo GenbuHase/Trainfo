@@ -4,18 +4,8 @@ import { getLinesGroupedByOperator } from '../../data/linesRegistry';
 
 import { useUI } from '../../contexts/UIContext';
 
-export interface HelpModalProps {
-  isOpen?: boolean;
-  onClose?: () => void;
-}
-
-export const HelpModal: React.FC<HelpModalProps> = ({
-  isOpen: propIsOpen,
-  onClose: propOnClose,
-}) => {
-  const ui = useUI();
-  const isOpen = propIsOpen !== undefined ? propIsOpen : ui.isHelpOpen;
-  const onClose = propOnClose ?? ui.closeHelp;
+export const HelpModal: React.FC = () => {
+  const { isHelpOpen: isOpen, closeHelp: onClose } = useUI();
 
   if (!isOpen) return null;
 
@@ -87,7 +77,7 @@ export const HelpModal: React.FC<HelpModalProps> = ({
               <span>タイムマシン＆遅延シミュレーション</span>
             </h3>
             <p>
-              画面下部のコントローラーで、早送り（最大600倍速）、一時停止、時間帯ジャンプ（朝ラッシュ、夕ラッシュ、終電帯など）が可能です。また、任意の遅延（+5分、+15分、ランダム遅延）を発生させるシミュレーションも行えます。
+              画面下部のコントローラーで、早送り（最大3600倍速）、一時停止、時間帯ジャンプ（朝ラッシュ、夕ラッシュ、終電帯など）が可能です。また、任意の遅延（+5分、+15分、ランダム遅延）を発生させるシミュレーションも行えます。
             </p>
           </section>
 
