@@ -10,7 +10,6 @@ import {
   Plus,
   ArrowUpDown,
   Clock,
-  Sparkles,
   Bookmark,
   Save,
   RotateCcw,
@@ -44,7 +43,6 @@ import {
   secondsToHHMM,
   secondsToTimeString,
   hhmmToSeconds,
-  BUILTIN_TRAIN_TEMPLATES,
   loadSavedCustomTrainPresets,
   saveCustomTrainPreset,
   deleteCustomTrainPreset,
@@ -329,7 +327,7 @@ export const TestRunModal: React.FC = () => {
     handleUpdateSegmentStations(segIdx, seg.toStationId, seg.fromStationId);
   };
 
-  // 全ルートを丸ごと逆転（往復折り返し作成に便利）
+  // 全ルートを丸ごと逆転
   const handleReverseEntireRoute = () => {
     setPlan((prev) => {
       const reversedSegments = [...prev.segments].reverse().map((seg) => {
@@ -371,8 +369,6 @@ export const TestRunModal: React.FC = () => {
         false
       );
 
-      // 種別として test_run 以外（急行・普通・特急等）が明示選択された場合、
-      // まだデフォルトの「試運転」固定のままなら、路線別の種別名がそのまま出るモードへスマートに切り替え
       let nextUseCustomType = prev.useCustomType;
       if (
         trainType !== 'test_run' &&
@@ -422,7 +418,6 @@ export const TestRunModal: React.FC = () => {
       const nextStops = [...seg.stops];
       const target = { ...nextStops[stopIdx] };
 
-      // 全区間の始発駅と終着駅は必ず停車
       const isGlobalFirst = segIdx === 0 && stopIdx === 0;
       const isGlobalLast =
         segIdx === nextSegments.length - 1 && stopIdx === nextStops.length - 1;
@@ -536,7 +531,6 @@ export const TestRunModal: React.FC = () => {
         currentComputed.segments[segIdx]?.stops[stopIdx]?.arrivalSec ?? sim.currentSec;
       const newSec = hhmmToSeconds(newHHMM, refSec);
 
-      // もし全区間の始発駅(segIdx===0, stopIdx===0)の時刻を変えた場合は、時刻指定モードに切り替えて始発時刻自体を更新
       if (segIdx === 0 && stopIdx === 0) {
         return recalculatePlanSchedule(
           {
@@ -589,7 +583,7 @@ export const TestRunModal: React.FC = () => {
     });
   };
 
-  // 個別駅の発車時刻（HH:MM）を手動変更（到着時刻との差分から停車時間を自動設定）
+  // 個別駅の発車時刻（HH:MM）を手動変更
   const handleManualDepartureTimeChange = (
     segIdx: number,
     stopIdx: number,
@@ -691,12 +685,11 @@ export const TestRunModal: React.FC = () => {
     const lastSegStops = segs[segs.length - 1].stops;
     const lastStop = lastSegStops[lastSegStops.length - 1];
 
-    // 重複する境界駅を除いた総駅数・停車駅数
     let totalStations = 0;
     let stoppingStations = 0;
     segs.forEach((s, idx) => {
       s.stops.forEach((st, stIdx) => {
-        if (idx > 0 && stIdx === 0) return; // 境界重複を除外
+        if (idx > 0 && stIdx === 0) return;
         totalStations++;
         if (!st.isPassing) stoppingStations++;
       });
@@ -730,26 +723,23 @@ export const TestRunModal: React.FC = () => {
         onClick={(e) => e.stopPropagation()}
       >
         {/* ==================== ヘッダー ==================== */}
-        <div className="flex items-center justify-between px-4 sm:px-6 py-3.5 border-b border-slate-200 bg-gradient-to-r from-slate-900 to-slate-800 text-white shrink-0">
-          <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-sky-500/20 text-sky-400 flex items-center justify-center border border-sky-400/30 shrink-0">
-              <Train className="w-5 h-5" />
+        <div className="flex items-center justify-between px-4 sm:px-6 py-3 border-b border-slate-200 bg-gradient-to-r from-slate-900 to-slate-800 text-white shrink-0">
+          <div className="flex items-center gap-2.5 min-w-0">
+            <div className="w-8 h-8 rounded-xl bg-sky-500/20 text-sky-400 flex items-center justify-center border border-sky-400/30 shrink-0">
+              <Train className="w-4 h-4" />
             </div>
-            <div>
-              <h3 className="text-sm sm:text-base font-extrabold tracking-tight flex items-center gap-2">
-                <span>試運転・臨時列車クリエイター</span>
-                <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-sky-500/20 text-sky-300 border border-sky-400/30">
-                  直通・カスタムダイヤ対応
-                </span>
+            <div className="min-w-0">
+              <h3 className="text-sm sm:text-base font-extrabold tracking-tight truncate">
+                試運転・臨時列車作成
               </h3>
-              <p className="text-[11px] text-slate-300 hidden sm:block">
-                種別選択・複数路線直通・停車駅＆発着時刻カスタマイズ・固有列車名を設定して走らせます
+              <p className="text-[11px] text-slate-300 hidden sm:block truncate">
+                路線、種別、停車駅、発着時刻等を自由に設定できます
               </p>
             </div>
           </div>
           <button
             onClick={ui.closeTestRun}
-            className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-white/10 transition-colors"
+            className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-white/10 transition-colors shrink-0"
             title="閉じる"
           >
             <X className="w-5 h-5" />
@@ -762,7 +752,7 @@ export const TestRunModal: React.FC = () => {
             <div className="flex items-center justify-between text-xs font-bold text-sky-950 mb-1.5">
               <span className="flex items-center gap-1.5">
                 <LocateFixed className="w-3.5 h-3.5 text-sky-600 animate-pulse" />
-                現在エントリー中の試運転・臨時列車 ({registeredCustomChains.length}編成)
+                登録済み ({registeredCustomChains.length}編成)
               </span>
               <button
                 onClick={sim.clearTestTrains}
@@ -779,7 +769,7 @@ export const TestRunModal: React.FC = () => {
                 return (
                   <div
                     key={item.chainKey}
-                    className="flex items-center justify-between gap-2.5 bg-white px-2.5 py-1.5 rounded-lg border border-sky-200/80 text-xs shadow-2xs shrink-0 min-w-[260px]"
+                    className="flex items-center justify-between gap-2.5 bg-white px-2.5 py-1.5 rounded-lg border border-sky-200/80 text-xs shadow-2xs shrink-0 min-w-[240px]"
                   >
                     <div className="flex items-center gap-1.5 min-w-0">
                       <TrainTypeBadge
@@ -836,136 +826,88 @@ export const TestRunModal: React.FC = () => {
           </div>
         )}
 
-        {/* ==================== ステップ・タブナビゲーション ==================== */}
-        <div className="flex items-center border-b border-slate-200 bg-slate-50 px-3 sm:px-6 pt-2 gap-1 overflow-x-auto no-scrollbar shrink-0">
+        {/* ==================== ステップ・タブナビゲーション (4等分固定グリッドではみ出し防止) ==================== */}
+        <div className="grid grid-cols-4 border-b border-slate-200 bg-slate-50 px-2 sm:px-6 pt-2 gap-1 shrink-0">
           <button
             type="button"
             onClick={() => setActiveTab('route')}
-            className={`flex items-center gap-1.5 px-3 sm:px-4 py-2.5 text-xs font-bold border-b-2 transition-all whitespace-nowrap ${
+            className={`flex items-center justify-center gap-1 sm:gap-1.5 px-1.5 sm:px-3 py-2.5 text-[11px] sm:text-xs font-bold border-b-2 transition-all min-w-0 ${
               activeTab === 'route'
                 ? 'border-sky-600 text-sky-700 bg-white rounded-t-lg shadow-2xs'
                 : 'border-transparent text-slate-500 hover:text-slate-800 hover:bg-slate-100/70 rounded-t-lg'
             }`}
           >
-            <span className="w-4 h-4 rounded-full bg-sky-100 text-sky-700 text-[10px] flex items-center justify-center font-black">
+            <span className="w-4 h-4 rounded-full bg-sky-100 text-sky-700 text-[10px] flex items-center justify-center font-black shrink-0">
               1
             </span>
-            <span>路線・直通＆種別</span>
-            {computedPlan.segments.length > 1 && (
-              <span className="px-1.5 py-0.2 bg-sky-600 text-white rounded-full text-[10px]">
-                {computedPlan.segments.length}路線
-              </span>
-            )}
+            <span className="truncate sm:hidden">路線・種別</span>
+            <span className="truncate hidden sm:inline">路線・種別</span>
           </button>
 
           <button
             type="button"
             onClick={() => setActiveTab('stops')}
-            className={`flex items-center gap-1.5 px-3 sm:px-4 py-2.5 text-xs font-bold border-b-2 transition-all whitespace-nowrap ${
+            className={`flex items-center justify-center gap-1 sm:gap-1.5 px-1.5 sm:px-3 py-2.5 text-[11px] sm:text-xs font-bold border-b-2 transition-all min-w-0 ${
               activeTab === 'stops'
                 ? 'border-sky-600 text-sky-700 bg-white rounded-t-lg shadow-2xs'
                 : 'border-transparent text-slate-500 hover:text-slate-800 hover:bg-slate-100/70 rounded-t-lg'
             }`}
           >
-            <span className="w-4 h-4 rounded-full bg-sky-100 text-sky-700 text-[10px] flex items-center justify-center font-black">
+            <span className="w-4 h-4 rounded-full bg-sky-100 text-sky-700 text-[10px] flex items-center justify-center font-black shrink-0">
               2
             </span>
-            <span>停車駅・発着時刻</span>
-            {routeSummary && (
-              <span className="px-1.5 py-0.2 bg-slate-200 text-slate-700 rounded-full text-[10px] font-mono">
-                {routeSummary.stoppingStations}駅停車
-              </span>
-            )}
+            <span className="truncate sm:hidden">停車駅</span>
+            <span className="truncate hidden sm:inline">停車駅</span>
           </button>
 
           <button
             type="button"
             onClick={() => setActiveTab('customize')}
-            className={`flex items-center gap-1.5 px-3 sm:px-4 py-2.5 text-xs font-bold border-b-2 transition-all whitespace-nowrap ${
+            className={`flex items-center justify-center gap-1 sm:gap-1.5 px-1.5 sm:px-3 py-2.5 text-[11px] sm:text-xs font-bold border-b-2 transition-all min-w-0 ${
               activeTab === 'customize'
                 ? 'border-sky-600 text-sky-700 bg-white rounded-t-lg shadow-2xs'
                 : 'border-transparent text-slate-500 hover:text-slate-800 hover:bg-slate-100/70 rounded-t-lg'
             }`}
           >
-            <span className="w-4 h-4 rounded-full bg-sky-100 text-sky-700 text-[10px] flex items-center justify-center font-black">
+            <span className="w-4 h-4 rounded-full bg-sky-100 text-sky-700 text-[10px] flex items-center justify-center font-black shrink-0">
               3
             </span>
-            <span>種別名・列車名・編成</span>
+            <span className="truncate sm:hidden">名称・編成</span>
+            <span className="truncate hidden sm:inline">名称・編成</span>
           </button>
 
           <button
             type="button"
             onClick={() => setActiveTab('presets')}
-            className={`flex items-center gap-1.5 px-3 sm:px-4 py-2.5 text-xs font-bold border-b-2 transition-all whitespace-nowrap ml-auto ${
+            className={`flex items-center justify-center gap-1 sm:gap-1.5 px-1.5 sm:px-3 py-2.5 text-[11px] sm:text-xs font-bold border-b-2 transition-all min-w-0 ${
               activeTab === 'presets'
                 ? 'border-amber-500 text-amber-700 bg-white rounded-t-lg shadow-2xs'
                 : 'border-transparent text-slate-500 hover:text-slate-800 hover:bg-slate-100/70 rounded-t-lg'
             }`}
           >
-            <Bookmark className="w-3.5 h-3.5 text-amber-500" />
-            <span>テンプレート・保存 ({savedPresets.length})</span>
+            <Bookmark className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+            <span className="truncate sm:hidden">
+              保存{savedPresets.length > 0 ? `(${savedPresets.length})` : ''}
+            </span>
+            <span className="truncate hidden sm:inline">
+              プリセット{savedPresets.length > 0 ? ` (${savedPresets.length})` : ''}
+            </span>
           </button>
         </div>
 
         {/* ==================== メインコンテンツエリア ==================== */}
-        <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-5 bg-slate-50/40">
+        <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-4 bg-slate-50/40">
           {/* ----------------------------------------------------------------
               TAB 1: 路線・直通 ＆ 種別設定
           ---------------------------------------------------------------- */}
           {activeTab === 'route' && (
             <div className="space-y-4">
-              {/* クイック直通テンプレートバー */}
-              <div className="bg-gradient-to-r from-sky-50 to-indigo-50/60 border border-sky-200/80 rounded-xl p-3">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-[11px] font-bold text-slate-700 flex items-center gap-1.5">
-                    <Sparkles className="w-3.5 h-3.5 text-sky-600" />
-                    ワンクリック直通・臨時列車サンプル
-                  </span>
-                  <button
-                    type="button"
-                    onClick={handleReverseEntireRoute}
-                    className="text-[11px] font-bold text-sky-700 hover:text-sky-900 bg-white px-2.5 py-1 rounded-md border border-sky-200 shadow-2xs flex items-center gap-1 transition-colors"
-                    title="全路線の始発と終着を反転します"
-                  >
-                    <ArrowUpDown className="w-3 h-3" />
-                    全ルートの進行方向を反転
-                  </button>
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
-                  {BUILTIN_TRAIN_TEMPLATES.map((tpl) => (
-                    <button
-                      key={tpl.id}
-                      type="button"
-                      onClick={() => setPlan(tpl.buildPlan(sim.currentSec))}
-                      className="text-left p-2 rounded-lg bg-white hover:bg-sky-50/50 border border-slate-200/90 hover:border-sky-400 transition-all shadow-2xs group"
-                    >
-                      <div className="flex items-center justify-between gap-1 mb-0.5">
-                        <span
-                          className="text-[9px] font-bold px-1.5 py-0.2 rounded text-white"
-                          style={{ backgroundColor: tpl.badgeColor }}
-                        >
-                          {tpl.badgeText}
-                        </span>
-                        <span className="text-[10px] text-sky-600 font-bold opacity-0 group-hover:opacity-100 transition-opacity">
-                          読込 ➔
-                        </span>
-                      </div>
-                      <div className="text-xs font-bold text-slate-800 truncate">{tpl.title}</div>
-                      <div className="text-[10px] text-slate-500 truncate mt-0.5">
-                        {tpl.description}
-                      </div>
-                    </button>
-                  ))}
-                </div>
-              </div>
-
               {/* 路線セグメント一覧 */}
               <div className="space-y-3">
                 {computedPlan.segments.map((seg, segIdx) => {
                   const line = getLine(seg.lineId);
                   if (!line) return null;
 
-                  // 路線内の全種別リスト + 試運転
                   const availableTypes = Object.values(line.trainTypes || {});
                   const prevSeg = segIdx > 0 ? computedPlan.segments[segIdx - 1] : null;
                   const prevEndSt = prevSeg ? STATION_MAP.get(prevSeg.toStationId) : null;
@@ -976,17 +918,15 @@ export const TestRunModal: React.FC = () => {
                       {/* 直通境界コネクター表示 */}
                       {segIdx > 0 && (
                         <div className="flex items-center justify-center gap-2 py-0.5">
-                          <div className="h-4 w-0.5 bg-sky-300" />
                           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-100/90 border border-sky-300 text-sky-900 text-[11px] font-bold shadow-2xs">
                             <Link2 className="w-3.5 h-3.5 text-sky-600" />
                             <span>
-                              直通境界：{prevEndSt?.name || '前駅'}
+                              {prevEndSt?.name || '前駅'}
                               {prevEndSt?.name !== curStartSt?.name && curStartSt
                                 ? ` ➔ ${curStartSt.name}`
-                                : ' 駅で相互直通'}
+                                : ' 駅'}
                             </span>
                           </div>
-                          <div className="h-4 w-0.5 bg-sky-300" />
                         </div>
                       )}
 
@@ -1044,7 +984,7 @@ export const TestRunModal: React.FC = () => {
                           <div className="grid grid-cols-1 sm:grid-cols-11 gap-2 items-center bg-slate-50 p-3 rounded-xl border border-slate-200/70">
                             <div className="sm:col-span-5">
                               <label className="text-[10px] font-bold text-slate-500 block mb-1">
-                                {segIdx === 0 ? '始発駅（出発駅）' : '直通開始駅（境界駅）'}
+                                {segIdx === 0 ? '始発駅' : '接続駅'}
                               </label>
                               <select
                                 value={seg.fromStationId}
@@ -1075,7 +1015,7 @@ export const TestRunModal: React.FC = () => {
                                 type="button"
                                 onClick={() => handleReverseSegment(segIdx)}
                                 className="p-1.5 rounded-full bg-white border border-slate-200 text-sky-600 hover:bg-sky-50 hover:border-sky-300 transition-colors shadow-2xs"
-                                title="開始駅と終了駅を入れ替え（上下反転）"
+                                title="始発駅と終着駅を入れ替え"
                               >
                                 <ArrowUpDown className="w-3.5 h-3.5 rotate-90" />
                               </button>
@@ -1084,8 +1024,8 @@ export const TestRunModal: React.FC = () => {
                             <div className="sm:col-span-5">
                               <label className="text-[10px] font-bold text-slate-500 block mb-1">
                                 {segIdx === computedPlan.segments.length - 1
-                                  ? '終着駅（行先）'
-                                  : '直通終了駅（次路線への接続駅）'}
+                                  ? '終着駅'
+                                  : '接続駅'}
                               </label>
                               <select
                                 value={seg.toStationId}
@@ -1116,7 +1056,7 @@ export const TestRunModal: React.FC = () => {
                           <div>
                             <div className="flex items-center justify-between mb-1.5">
                               <label className="text-[11px] font-bold text-slate-700">
-                                この路線での列車種別（選択すると標準停車駅が自動反映されます）
+                                列車種別
                               </label>
                               <span className="text-[10px] text-slate-400">
                                 {seg.direction === 'outbound'
@@ -1175,10 +1115,10 @@ export const TestRunModal: React.FC = () => {
                             </div>
                           </div>
 
-                          {/* 区間固有の列車番号・巡航速度（複数路線時などに便利） */}
+                          {/* 区間固有の列車番号・巡航速度 */}
                           <div className="flex items-center justify-between gap-3 pt-1 border-t border-slate-100 text-[11px] flex-wrap">
                             <div className="flex items-center gap-1.5">
-                              <span className="text-slate-500 font-semibold">区間列車番号:</span>
+                              <span className="text-slate-500 font-semibold">列車番号:</span>
                               <input
                                 type="text"
                                 value={seg.trainNumber || ''}
@@ -1200,12 +1140,12 @@ export const TestRunModal: React.FC = () => {
                                 }
                                 className="px-2 py-0.5 border border-slate-200 rounded font-mono text-xs text-slate-700 bg-slate-50"
                               >
-                                <option value={55}>55 km/h (各停・地下鉄)</option>
-                                <option value={75}>75 km/h (標準・急行)</option>
-                                <option value={95}>95 km/h (高速・特急)</option>
-                                <option value={120}>120 km/h (幹線特急)</option>
-                                <option value={210}>210 km/h (新幹線)</option>
-                                <option value={275}>275 km/h (高速新幹線)</option>
+                                <option value={55}>55 km/h</option>
+                                <option value={75}>75 km/h</option>
+                                <option value={95}>95 km/h</option>
+                                <option value={120}>120 km/h</option>
+                                <option value={210}>210 km/h</option>
+                                <option value={275}>275 km/h</option>
                               </select>
                             </div>
                           </div>
@@ -1222,33 +1162,42 @@ export const TestRunModal: React.FC = () => {
                   <div>
                     <h4 className="text-xs font-extrabold text-slate-800 flex items-center gap-1.5">
                       <Plus className="w-4 h-4 text-sky-600" />
-                      <span>複数路線を跨ぐ直通路線を追加</span>
+                      <span>直通路線を追加</span>
                     </h4>
-                    <p className="text-[11px] text-slate-500">
-                      接続駅（和光市・渋谷・横浜・大宮・新宿・新横浜など）を自動検出してルートを連結します
-                    </p>
                   </div>
-                  <button
-                    type="button"
-                    onClick={() => {
-                      setEditingSegmentIdxForLine(null);
-                      setAddingLineModalOpen(true);
-                    }}
-                    className="px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold shadow-xs transition-colors flex items-center gap-1"
-                  >
-                    <Search className="w-3.5 h-3.5" />
-                    <span>全路線リストから追加...</span>
-                  </button>
+                  <div className="flex items-center gap-2">
+                    {computedPlan.segments.length > 1 && (
+                      <button
+                        type="button"
+                        onClick={handleReverseEntireRoute}
+                        className="px-2.5 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition-colors flex items-center gap-1"
+                        title="全路線の始発駅と終着駅を反転します"
+                      >
+                        <ArrowUpDown className="w-3.5 h-3.5" />
+                        <span>全ルート反転</span>
+                      </button>
+                    )}
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setEditingSegmentIdxForLine(null);
+                        setAddingLineModalOpen(true);
+                      }}
+                      className="px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold shadow-xs transition-colors flex items-center gap-1"
+                    >
+                      <Search className="w-3.5 h-3.5" />
+                      <span>全路線リストから追加...</span>
+                    </button>
+                  </div>
                 </div>
 
                 {/* おすすめ接続路線チップ */}
                 {connectableNextLines.length > 0 && (
                   <div>
                     <span className="text-[10px] font-bold text-slate-400 block mb-1.5">
-                      🔗 現在の路線（
+                      🔗 
                       {getLine(computedPlan.segments[computedPlan.segments.length - 1].lineId)
-                        ?.shortName || ''}
-                      ）と直通・乗換接続できる路線：
+                        ?.shortName || ''}の接続路線：
                     </span>
                     <div className="flex flex-wrap gap-1.5">
                       {connectableNextLines.map(({ line, bestPair, isDirectAtCurrentEnd }) => (
@@ -1363,7 +1312,7 @@ export const TestRunModal: React.FC = () => {
                   <div>
                     <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 mb-1.5">
                       <Clock className="w-3.5 h-3.5 text-sky-600" />
-                      <span>始発駅の発車時刻設定</span>
+                      <span>発車時刻</span>
                     </label>
                     <div className="flex items-center gap-2 flex-wrap">
                       <div className="inline-flex rounded-lg bg-slate-100 p-0.5 border border-slate-200">
@@ -1406,7 +1355,7 @@ export const TestRunModal: React.FC = () => {
                               : 'text-slate-600 hover:text-slate-900'
                           }`}
                         >
-                          時刻を指定
+                          時刻指定
                         </button>
                       </div>
 
@@ -1438,7 +1387,7 @@ export const TestRunModal: React.FC = () => {
                               }
                               className="rounded text-sky-600"
                             />
-                            <span>発車時にこの時刻へ移動</span>
+                            <span>発車時に指定された時刻へ移動</span>
                           </label>
                         </div>
                       )}
@@ -1458,7 +1407,7 @@ export const TestRunModal: React.FC = () => {
                         title="個別に編集した時刻をすべて自動計算に戻します"
                       >
                         <RotateCcw className="w-3 h-3" />
-                        手動時刻をすべて自動計算に戻す
+                        設定された時刻を自動計算に戻す
                       </button>
                     </div>
                     <div className="flex items-center gap-1.5">
@@ -1505,7 +1454,7 @@ export const TestRunModal: React.FC = () => {
                       onClick={() => handleApplyBatchStopPattern('type_default')}
                       className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors"
                     >
-                      種別標準に戻す
+                      種別標準
                     </button>
                     <button
                       type="button"
@@ -1527,7 +1476,7 @@ export const TestRunModal: React.FC = () => {
                       className="px-2.5 py-1 rounded-lg text-[11px] font-bold bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-200 transition-colors"
                       title="始発・終着以外をすべて通過にします。その後、停めたい駅（池袋・川越・坂戸など）をクリックするだけで独自の臨時列車が作れます"
                     >
-                      始発・終着以外をすべて通過にする
+                      始発・終着以外をすべて通過
                     </button>
                   </div>
 
@@ -1560,7 +1509,7 @@ export const TestRunModal: React.FC = () => {
                   <button
                     type="button"
                     onClick={() => setSelectedStopSegmentFilter('all')}
-                    className={`px-3 py-1 rounded-full text-xs font-bold transition-all ${
+                    className={`px-3 py-1 rounded-full text-xs font-bold whitespace-nowrap transition-all ${
                       selectedStopSegmentFilter === 'all'
                         ? 'bg-slate-800 text-white'
                         : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-100'
@@ -1570,27 +1519,24 @@ export const TestRunModal: React.FC = () => {
                   </button>
                   {computedPlan.segments.map((seg, idx) => {
                     const l = getLine(seg.lineId);
-                    const active = selectedStopSegmentFilter === seg.id;
+                    const stopCount = seg.stops.filter((s) => !s.isPassing).length;
                     return (
                       <button
                         key={seg.id}
                         type="button"
                         onClick={() => setSelectedStopSegmentFilter(seg.id)}
-                        className={`px-3 py-1 rounded-full text-xs font-bold flex items-center gap-1.5 transition-all shrink-0 ${
-                          active
-                            ? 'text-white shadow-2xs'
-                            : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-50'
+                        className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold whitespace-nowrap transition-all ${
+                          selectedStopSegmentFilter === seg.id
+                            ? 'bg-sky-600 text-white shadow-2xs'
+                            : 'bg-white border border-slate-200 text-slate-700 hover:bg-slate-100'
                         }`}
-                        style={active ? { backgroundColor: l?.lineColor || '#0284c7' } : {}}
                       >
-                        {!active && (
-                          <span
-                            className="w-2 h-2 rounded-full"
-                            style={{ backgroundColor: l?.lineColor || '#0284c7' }}
-                          />
-                        )}
+                        <span
+                          className="w-2 h-2 rounded-full"
+                          style={{ backgroundColor: l?.lineColor }}
+                        />
                         <span>
-                          {idx + 1}. {l?.shortName}
+                          区間{idx + 1}: {l?.shortName} ({stopCount}/{seg.stops.length}駅停車)
                         </span>
                       </button>
                     );
@@ -1604,7 +1550,7 @@ export const TestRunModal: React.FC = () => {
                   <div className="col-span-5 sm:col-span-4">駅名 / 路線</div>
                   <div className="col-span-3 sm:col-span-2 text-center">停車 / 通過</div>
                   <div className="col-span-4 sm:col-span-6 text-right sm:text-left sm:pl-4">
-                    到着時刻 ・ 発車時刻 ・ 停車時間
+                    到着時刻 / 発車時刻 / 停車時間
                   </div>
                 </div>
 
@@ -1643,7 +1589,6 @@ export const TestRunModal: React.FC = () => {
                           const st = STATION_MAP.get(stop.stationId);
                           if (!st) return null;
 
-                          // 駅名検索フィルター適用中
                           if (
                             q &&
                             !st.name.toLowerCase().includes(q) &&
@@ -1840,9 +1785,6 @@ export const TestRunModal: React.FC = () => {
             <div className="space-y-4">
               {/* リアルタイム表示プレビュー */}
               <div className="bg-gradient-to-r from-slate-900 to-slate-800 rounded-xl p-4 text-white shadow-md">
-                <div className="text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-2">
-                  列車表示プレビュー（マップ・詳細パネル・駅発車標）
-                </div>
                 <div className="flex flex-wrap items-center justify-between gap-4">
                   <div className="space-y-1.5">
                     <div className="flex items-center gap-2 flex-wrap">
@@ -1915,11 +1857,8 @@ export const TestRunModal: React.FC = () => {
                   <div>
                     <h4 className="text-xs font-extrabold text-slate-800 flex items-center gap-1.5">
                       <Palette className="w-4 h-4 text-sky-600" />
-                      <span>種別名の表示モード（デフォルト：試運転）</span>
+                      <span>種別名</span>
                     </h4>
-                    <p className="text-[11px] text-slate-500">
-                      任意の種別名（試運転・臨時・団体など）を設定するか、各路線で選んだ標準種別名（急行・特急など）を使うか選べます
-                    </p>
                   </div>
 
                   <div className="inline-flex rounded-lg bg-slate-100 p-0.5 border border-slate-200">
@@ -1932,7 +1871,7 @@ export const TestRunModal: React.FC = () => {
                           : 'text-slate-600 hover:text-slate-900'
                       }`}
                     >
-                      任意の種別名を設定
+                      任意の種別
                     </button>
                     <button
                       type="button"
@@ -1943,7 +1882,7 @@ export const TestRunModal: React.FC = () => {
                           : 'text-slate-600 hover:text-slate-900'
                       }`}
                     >
-                      各路線の標準種別名を使用
+                      標準種別
                     </button>
                   </div>
                 </div>
@@ -1953,7 +1892,7 @@ export const TestRunModal: React.FC = () => {
                     {/* クイック種別チップ */}
                     <div>
                       <span className="text-[10px] font-bold text-slate-400 block mb-1.5">
-                        よく使う種別プリセット：
+                        プリセット：
                       </span>
                       <div className="flex flex-wrap gap-1.5">
                         {CUSTOM_TYPE_PRESETS.map((preset) => (
@@ -1982,7 +1921,7 @@ export const TestRunModal: React.FC = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
                       <div>
                         <label className="text-[11px] font-bold text-slate-700 block mb-1">
-                          種別名（フル表記）
+                          種別名
                         </label>
                         <input
                           type="text"
@@ -2005,7 +1944,7 @@ export const TestRunModal: React.FC = () => {
 
                       <div>
                         <label className="text-[11px] font-bold text-slate-700 block mb-1">
-                          マップアイコン略称（1〜2文字）
+                          種別略称
                         </label>
                         <input
                           type="text"
@@ -2027,7 +1966,7 @@ export const TestRunModal: React.FC = () => {
 
                       <div>
                         <label className="text-[11px] font-bold text-slate-700 block mb-1">
-                          バッジ・ピンカラー
+                          カラー
                         </label>
                         <div className="flex items-center gap-1.5 flex-wrap">
                           {COLOR_SWATCHES.map((hex) => (
@@ -2077,13 +2016,13 @@ export const TestRunModal: React.FC = () => {
               <div className="bg-white rounded-xl border border-slate-200 p-4 space-y-4 shadow-2xs">
                 <h4 className="text-xs font-extrabold text-slate-800 flex items-center gap-1.5">
                   <Sliders className="w-4 h-4 text-sky-600" />
-                  <span>固有列車名称（愛称）・列車番号・両数設定</span>
+                  <span>列車名称・列車番号・両数</span>
                 </h4>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                   <div>
                     <label className="text-[11px] font-bold text-slate-700 block mb-1">
-                      固有列車名称・愛称（デフォルト：なし）
+                      列車名称
                     </label>
                     <div className="flex gap-1.5">
                       <input
@@ -2109,7 +2048,7 @@ export const TestRunModal: React.FC = () => {
 
                   <div>
                     <label className="text-[11px] font-bold text-slate-700 block mb-1">
-                      代表列車番号
+                      列車番号
                     </label>
                     <input
                       type="text"
@@ -2150,7 +2089,7 @@ export const TestRunModal: React.FC = () => {
                   {/* 観測再生倍速 */}
                   <div>
                     <label className="text-[11px] font-bold text-slate-700 block mb-1.5">
-                      発車時の観測再生倍速
+                      観測再生倍速
                     </label>
                     <div className="flex items-center gap-1.5 flex-wrap">
                       {[1, 2, 5, 10, 30, 60].map((s) => (
@@ -2175,7 +2114,7 @@ export const TestRunModal: React.FC = () => {
           )}
 
           {/* ----------------------------------------------------------------
-              TAB 4: テンプレート・プリセット保存＆呼び出し
+              TAB 4: プリセット保存＆呼び出し
           ---------------------------------------------------------------- */}
           {activeTab === 'presets' && (
             <div className="space-y-4">

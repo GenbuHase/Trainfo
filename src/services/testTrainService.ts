@@ -124,7 +124,6 @@ export function findConnectingStationPairs(
 
   for (let idxA = 0; idxA < lineA.stations.length; idxA++) {
     const stA = lineA.stations[idxA];
-    // 路線Aの開始駅と同じ駅は、路線A内の走行区間が0駅になるため優先度を下げる
     const isSameAsOriginA = preferOriginOfA ? stA.id === preferOriginOfA : false;
 
     for (let idxB = 0; idxB < lineB.stations.length; idxB++) {
@@ -137,11 +136,6 @@ export function findConnectingStationPairs(
       const isTerminalA = idxA === 0 || idxA === lineA.stations.length - 1;
       const isTerminalB = idxB === 0 || idxB === lineB.stations.length - 1;
 
-      // スコアリング:
-      // 1) 同名駅を優先 (+100)
-      // 2) 次路線Bの端駅（和光市 F-01、渋谷 TY-01、横浜 MM-01 等）は直通境界である確率が極めて高い (+80)
-      // 3) 前路線Aの端駅も境界になりやすい (+50)
-      // 4) 前路線Aの開始駅と同一駅になってしまう場合は大幅減点 (-500)
       let score = 0;
       if (isExactName) score += 100;
       if (isTerminalB) score += 80;
@@ -189,7 +183,6 @@ export function getConnectableLines(
     const pairs = findConnectingStationPairs(fromLineId, candidateLine.id, currentStartStationId);
     if (pairs.length === 0) continue;
 
-    // 現在の終了駅で直接接続できるペアがあるか確認
     const directPair = currentEndSt
       ? pairs.find(
           (p) =>
@@ -270,7 +263,6 @@ export function shouldStationStopByType(
     return true;
   }
 
-  // 路線内にその種別の停車駅定義が存在するか確認
   if (lineStations && lineStations.length > 0) {
     const hasAnyDefined = lineStations.some((s) => s.stoppingTypes.includes(trainType));
     if (hasAnyDefined) {
@@ -377,7 +369,6 @@ export function recalculatePlanSchedule(
       return { ...seg, stops };
     }
 
-    // 1. まず標準走行時間と手動停車時間で仮計算しつつ、manualArrivalSec が指定されている場合は区間補間を行う
     let lastStopIndex = 0;
 
     for (let i = 0; i < stops.length; i++) {
@@ -388,14 +379,12 @@ export function recalculatePlanSchedule(
 
       if (isFirstInSeg) {
         if (segIdx === 0) {
-          // 全区間の始発駅
           const arr = cur.manualArrivalSec !== undefined ? cur.manualArrivalSec : cursorSec;
           cur.arrivalSec = arr;
           cur.stopDurationSec = 0;
           cur.departureSec = arr;
           cursorSec = arr;
         } else {
-          // 直通境界駅（前セグメントの最終駅と接続）
           const prevSeg = plan.segments[segIdx - 1];
           const prevLastStop = prevSeg?.stops[prevSeg.stops.length - 1];
           const prevSt = prevLastStop ? STATION_MAP.get(prevLastStop.stationId) : undefined;
@@ -404,7 +393,6 @@ export function recalculatePlanSchedule(
             prevSt && curSt && areStationsConnectable(prevSt, curSt);
 
           if (!isSameBoundary && prevLastStop) {
-            // 離れている駅間の場合は移動時間を加算
             cursorSec += calcStationRunSeconds(prevLastStop.stationId, cur.stationId, speedKmh);
           }
 
@@ -426,19 +414,15 @@ export function recalculatePlanSchedule(
         continue;
       }
 
-      // 前の駅からの標準走行秒数を加算
       const prev = stops[i - 1];
       const segRunSec = calcStationRunSeconds(prev.stationId, cur.stationId, speedKmh);
       let arrSec = cursorSec + segRunSec;
 
-      // この駅に手動到着時刻（manualArrivalSec）が設定されている場合:
-      // 直前の停車駅 (lastStopIndex) からの所要時間を再配分し、途中の通過駅の時刻も距離比例で滑らかに補間する
       if (cur.manualArrivalSec !== undefined) {
         const anchorStop = stops[lastStopIndex];
         const minRequiredSec = anchorStop.departureSec + (i - lastStopIndex) * 15;
         const targetArrSec = Math.max(minRequiredSec, cur.manualArrivalSec);
 
-        // anchorStop (lastStopIndex) から cur (i) までの各駅間標準所要時間の比率で通過駅を再補間
         if (i - lastStopIndex > 1) {
           const intervalRuns: number[] = [];
           let totalStdRun = 0;
@@ -465,9 +449,7 @@ export function recalculatePlanSchedule(
       cur.arrivalSec = arrSec;
 
       if (cur.isPassing || isLastInPlan || (isLastInSeg && segIdx < plan.segments.length - 1)) {
-        // 通過駅、または全区間の終着駅、または直通境界の先行側末尾駅（境界停車時間は後続セグメント先頭駅側で持つ）
         if (isLastInSeg && segIdx < plan.segments.length - 1) {
-          // ただし先行側末尾駅に手動停車時間が設定されている場合は保持
           const stopDur = cur.manualStopDurationSec ?? 0;
           cur.stopDurationSec = stopDur;
           cur.departureSec = arrSec + stopDur;
@@ -494,7 +476,7 @@ export function recalculatePlanSchedule(
     };
   });
 
-  // 境界駅の時刻同期（先行セグメント末尾駅のdepartureSecを後続セグメント先頭駅のdepartureSecに揃える）
+  // 境界駅の時刻同期
   for (let segIdx = 0; segIdx < updatedSegments.length - 1; segIdx++) {
     const curSeg = updatedSegments[segIdx];
     const nextSeg = updatedSegments[segIdx + 1];
@@ -581,14 +563,12 @@ export function appendConnectedSegment(
   const lastSegIdx = prevSegments.length - 1;
   const lastSeg = { ...prevSegments[lastSegIdx] };
 
-  // 直前の路線と次の路線の最適接続駅ペアを検索
   const pairs = findConnectingStationPairs(lastSeg.lineId, nextLineId, lastSeg.fromStationId);
 
   let nextFromStationId = nextLine.stations[0].id;
   let nextToStationId = nextLine.stations[nextLine.stations.length - 1].id;
 
   if (pairs.length > 0) {
-    // 現在のlastSeg.toStationIdで直接接続できるペアがあるか確認
     const curEndSt = STATION_MAP.get(lastSeg.toStationId);
     const directMatch = curEndSt
       ? pairs.find((p) => areStationsConnectable(p.stationA, curEndSt))
@@ -596,11 +576,7 @@ export function appendConnectedSegment(
 
     const chosenPair = directMatch || pairs[0];
 
-    // もし直前の路線(例: 東上線 森林公園 -> 池袋)の終点が池袋だが、副都心線との最適接続駅が和光市や池袋の場合、
-    // あるいは直前の路線(例: 東上線 池袋 -> 寄居)から副都心線へ直通したい場合に、
-    // 直前路線の終了駅を接続駅(chosenPair.stationA)に自動調整する
     if (lastSeg.toStationId !== chosenPair.stationA.id) {
-      // 開始駅と接続駅が同じになってしまった場合は、開始駅を反対側の終点に自動調整
       let adjustedFromId = lastSeg.fromStationId;
       if (adjustedFromId === chosenPair.stationA.id) {
         const prevLine = getLine(lastSeg.lineId);
@@ -627,7 +603,6 @@ export function appendConnectedSegment(
     }
 
     nextFromStationId = chosenPair.stationB.id;
-    // 次路線の終了駅は、nextFromStationIdから最も遠い端駅を選択
     const bIdx = nextLine.stations.findIndex((s) => s.id === nextFromStationId);
     if (bIdx <= nextLine.stations.length / 2) {
       nextToStationId = nextLine.stations[nextLine.stations.length - 1].id;
@@ -636,7 +611,6 @@ export function appendConnectedSegment(
     }
   }
 
-  // 次路線の種別は、前路線の種別が次路線にも存在すれば引き継ぎ、なければ前路線がlocalならlocal、それ以外はtest_runまたはexpress等
   let nextTrainType: TrainTypeKey = lastSeg.trainType;
   if (
     nextTrainType !== 'test_run' &&
@@ -717,7 +691,6 @@ export function createCustomTrainTrips(
         isPassing: s.isPassing,
       }));
 
-      // カスタム種別解決: セグメント個別設定 > プラン全体設定
       let resolvedCustomType: CustomTrainTypeConfig | undefined;
       if (seg.useCustomType && seg.customTrainType?.name?.trim()) {
         resolvedCustomType = seg.customTrainType;
@@ -801,179 +774,6 @@ export function createDefaultCustomTrainPlan(
 
   return recalculatePlanSchedule(basePlan, currentSimSec);
 }
-
-/**
- * 組み込みのサンプルテンプレート一覧（複数路線直通・臨時列車をワンクリックで構築）
- */
-export interface BuiltinTrainTemplate {
-  id: string;
-  title: string;
-  description: string;
-  badgeText: string;
-  badgeColor: string;
-  buildPlan: (currentSimSec: number) => CustomTrainPlan;
-}
-
-export const BUILTIN_TRAIN_TEMPLATES: BuiltinTrainTemplate[] = [
-  {
-    id: 'tojo_fukutoshin_toyoko_mm',
-    title: '東上線〜副都心線〜東横線〜みなとみらい線 4社直通',
-    description: '川越市 → 和光市 → 渋谷 → 横浜 → 元町・中華街（急行・特急直通）',
-    badgeText: '4路線直通',
-    badgeColor: '#9c5e31',
-    buildPlan: (currentSimSec: number) => {
-      const seg1 = createRouteSegment('tojo', {
-        fromStationId: 'TJ-22', // 森林公園（または川越市）
-        toStationId: 'TJ-11',   // 和光市
-        trainType: 'express',
-        trainNumber: 'F1002T',
-        defaultStopSec: 25,
-      });
-      const seg2 = createRouteSegment('fukutoshin', {
-        fromStationId: 'F-01',  // 和光市
-        toStationId: 'F-16',    // 渋谷
-        trainType: 'express',
-        trainNumber: 'B1002T',
-        defaultStopSec: 25,
-      });
-      const seg3 = createRouteSegment('tokyu_toyoko', {
-        fromStationId: 'TY-01', // 渋谷
-        toStationId: 'TY-21',   // 横浜
-        trainType: 'ltd_exp',
-        trainNumber: '002-101レ',
-        defaultStopSec: 25,
-      });
-      const seg4 = createRouteSegment('minatomirai', {
-        fromStationId: 'MM-01', // 横浜
-        toStationId: 'MM-06',   // 元町・中華街
-        trainType: 'ltd_exp',
-        trainNumber: '002-101レ',
-        defaultStopSec: 25,
-      });
-
-      return recalculatePlanSchedule(
-        {
-          id: `tpl_4line_${Date.now()}`,
-          trainName: 'Fライナー',
-          defaultTrainNumber: 'F1002T',
-          cars: 10,
-          useCustomType: false,
-          customTrainType: { name: '試運転', shortName: '試', color: '#0284c7' },
-          departureMode: 'now',
-          scheduledStartSec: Math.floor(currentSimSec / 60) * 60,
-          seekToStartOnLaunch: true,
-          defaultStopSec: 25,
-          speedMultiplier: 10,
-          segments: [seg1, seg2, seg3, seg4],
-        },
-        currentSimSec
-      );
-    },
-  },
-  {
-    id: 'tojo_special_selected_stops',
-    title: '東上線 臨時直通快速（池袋・川越・坂戸・小川町のみ停車）',
-    description: '池袋 → 川越 → 坂戸 → 小川町（途中駅を厳選した特別臨時列車）',
-    badgeText: '臨時列車',
-    badgeColor: '#7c3aed',
-    buildPlan: (currentSimSec: number) => {
-      const seg = createRouteSegment('tojo', {
-        fromStationId: 'TJ-01', // 池袋
-        toStationId: 'TJ-33',   // 小川町
-        trainType: 'kawagoeExp',
-        trainNumber: '臨9091レ',
-        defaultStopSec: 30,
-      });
-      const allowedStops = new Set(['TJ-01', 'TJ-21', 'TJ-26', 'TJ-33']); // 池袋, 川越, 坂戸, 小川町
-      seg.stops = seg.stops.map((s) => ({
-        ...s,
-        isPassing: !allowedStops.has(s.stationId),
-        stopDurationSec: allowedStops.has(s.stationId) ? 30 : 0,
-      }));
-
-      return recalculatePlanSchedule(
-        {
-          id: `tpl_tojo_sp_${Date.now()}`,
-          trainName: '小川町観光号',
-          defaultTrainNumber: '臨9091レ',
-          cars: 10,
-          useCustomType: true,
-          customTrainType: { name: '臨時特急', shortName: '臨特', color: '#7c3aed' },
-          departureMode: 'now',
-          scheduledStartSec: Math.floor(currentSimSec / 60) * 60,
-          seekToStartOnLaunch: true,
-          defaultStopSec: 30,
-          speedMultiplier: 10,
-          segments: [seg],
-        },
-        currentSimSec
-      );
-    },
-  },
-  {
-    id: 'sotetsu_tokyu_fukutoshin_tojo',
-    title: '相鉄〜東急新横浜〜東横〜副都心〜東上線 5路線直通試運転',
-    description: '海老名 → 西谷 → 新横浜 → 日吉 → 渋谷 → 和光市 → 川越市',
-    badgeText: '5路線試運転',
-    badgeColor: '#0284c7',
-    buildPlan: (currentSimSec: number) => {
-      const seg1 = createRouteSegment('sotetsu_main', {
-        fromStationId: 'SO-18', // 海老名
-        toStationId: 'SO-08',   // 西谷
-        trainType: 'express',
-        trainNumber: '試9902レ',
-      });
-      const seg2 = createRouteSegment('sotetsu_shin_yokohama', {
-        fromStationId: 'SO-08', // 西谷
-        toStationId: 'SO-52',   // 新横浜
-        trainType: 'local',
-        trainNumber: '試9902レ',
-      });
-      const seg3 = createRouteSegment('tokyu_shin_yokohama', {
-        fromStationId: 'SH-01', // 新横浜
-        toStationId: 'SH-03',   // 日吉
-        trainType: 'express',
-        trainNumber: '試9902G',
-      });
-      const seg4 = createRouteSegment('tokyu_toyoko', {
-        fromStationId: 'TY-13', // 日吉
-        toStationId: 'TY-01',   // 渋谷
-        trainType: 'express',
-        trainNumber: '試9902G',
-      });
-      const seg5 = createRouteSegment('fukutoshin', {
-        fromStationId: 'F-16',  // 渋谷
-        toStationId: 'F-01',    // 和光市
-        trainType: 'commuter_exp',
-        trainNumber: '試A9902G',
-      });
-      const seg6 = createRouteSegment('tojo', {
-        fromStationId: 'TJ-11', // 和光市
-        toStationId: 'TJ-22',   // 森林公園
-        trainType: 'local',
-        trainNumber: '試T9902G',
-      });
-
-      return recalculatePlanSchedule(
-        {
-          id: `tpl_sotetsu_tojo_${Date.now()}`,
-          trainName: '直通検測',
-          defaultTrainNumber: '試9902レ',
-          cars: 10,
-          useCustomType: true,
-          customTrainType: { name: '試運転', shortName: '試', color: '#0284c7' },
-          departureMode: 'now',
-          scheduledStartSec: Math.floor(currentSimSec / 60) * 60,
-          seekToStartOnLaunch: true,
-          defaultStopSec: 20,
-          speedMultiplier: 10,
-          segments: [seg1, seg2, seg3, seg4, seg5, seg6],
-        },
-        currentSimSec
-      );
-    },
-  },
-];
 
 // LocalStorage プリセット管理
 const STORAGE_KEY = 'trainfo_custom_train_presets_v1';
