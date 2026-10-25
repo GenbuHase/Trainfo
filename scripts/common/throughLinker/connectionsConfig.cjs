@@ -1501,7 +1501,58 @@ module.exports = {
       maxTimeDiff: 600,
     },
 
-    // 60. JR奥羽本線（新庄～大曲） ↔ JR奥羽本線（大曲～秋田） (大曲駅)
+    // 60. JR白新線 ↔ JR羽越本線 (新発田駅)
+    {
+      name: '白新線 -> 羽越本線 (下り 新潟発・新発田経由・村上・酒田・鶴岡・秋田方面直通)',
+      lineA: 'hakushin',
+      lineB: 'uetsu_main',
+      stationA: 'HS-10',
+      stationB: 'UE-07',
+      dirA: 'outbound',
+      dirB: 'outbound',
+      maxTimeDiff: 300,
+    },
+    {
+      name: '羽越本線 -> 白新線 (上り 秋田発・新発田経由・新潟方面直通)',
+      lineA: 'uetsu_main',
+      lineB: 'hakushin',
+      stationA: 'UE-07',
+      stationB: 'HS-10',
+      dirA: 'inbound',
+      dirB: 'inbound',
+      maxTimeDiff: 300,
+    },
+
+    // 61. JR信越本線 ↔ JR羽越本線 (新津駅)
+    // 【実態】Yahoo/時刻表データ上、新津で信越本線↔羽越本線の直通運転は存在しない
+    // （羽越本線列車は新津で終始・折返しし、列車番号の交差は 0 件。
+    //   時刻接近ペア [2226D→2121D 3分] はダイヤ上の乗換接続であり直通ではない）。
+    // したがって requireIdMatch: true で時刻のみによる非実在直通の捏造を抑止し、
+    // dir は各線の方向規約（信越: inbound=新潟→直江津、羽越: outbound=新津→秋田）に合わせる。
+    {
+      name: '信越本線 -> 羽越本線 (下り 直江津・長岡発・新津経由・村上・酒田・秋田方面直通)',
+      lineA: 'shinetsu_naoetsu_niigata',
+      lineB: 'uetsu_main',
+      stationA: 'SE-37',
+      stationB: 'UE-01',
+      dirA: 'inbound',
+      dirB: 'outbound',
+      maxTimeDiff: 300,
+      requireIdMatch: true,
+    },
+    {
+      name: '羽越本線 -> 信越本線 (上り 秋田発・新津経由・長岡・直江津方面直通)',
+      lineA: 'uetsu_main',
+      lineB: 'shinetsu_naoetsu_niigata',
+      stationA: 'UE-01',
+      stationB: 'SE-37',
+      dirA: 'inbound',
+      dirB: 'outbound',
+      maxTimeDiff: 300,
+      requireIdMatch: true,
+    },
+
+    // 62. JR奥羽本線（新庄～大曲） ↔ JR奥羽本線（大曲～秋田） (大曲駅)
     {
       name: '奥羽本線（新庄～大曲） -> 奥羽本線（大曲～秋田） (下り 大曲経由 秋田方面直通)',
       lineA: 'ou_shinjo_omagari',
@@ -1523,7 +1574,7 @@ module.exports = {
       maxTimeDiff: 300,
     },
 
-    // 61. JR奥羽本線（大曲～秋田） ↔ JR奥羽本線（秋田～青森） (秋田駅)
+    // 63. JR奥羽本線（大曲～秋田） ↔ JR奥羽本線（秋田～青森） (秋田駅)
     {
       name: '奥羽本線（大曲～秋田） -> 奥羽本線（秋田～青森） (下り 秋田経由 追分・青森方面直通)',
       lineA: 'ou_omagari_akita',

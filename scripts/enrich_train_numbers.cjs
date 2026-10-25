@@ -2229,6 +2229,12 @@ if (target === 'tokaido_shizuoka' || target === 'jr' || target === 'all') {
 if (target === 'shinetsu_naoetsu_niigata' || target === 'jr' || target === 'all') {
   enrichGenericLine('shinetsu_naoetsu_niigata', 'JR信越本線（直江津～新潟）');
 }
+if (target === 'hakushin' || target === 'jr' || target === 'all') {
+  enrichGenericLine('hakushin', 'JR白新線', ['shinetsu_naoetsu_niigata', 'uetsu_main']);
+}
+if (target === 'uetsu_main' || target === 'jr' || target === 'all') {
+  enrichGenericLine('uetsu_main', 'JR羽越本線', ['shinetsu_naoetsu_niigata', 'banetsu_west', 'hakushin']);
+}
 if (target === 'tadami' || target === 'jr' || target === 'all') {
   enrichGenericLine('tadami', 'JR只見線');
 }
@@ -2308,7 +2314,7 @@ if (target === 'ou_akita_aomori' || target === 'ou' || target === 'jr' || target
 /**
  * Yahoo駅時刻表キャッシュ（stations/*.json）からの汎用公式列車番号エンリッチメント
  */
-function enrichGenericLine(lineId, lineName) {
+function enrichGenericLine(lineId, lineName, neighborLinesOverride) {
   console.log(`=== ${lineName} 公式列車番号エンリッチメント開始 ===`);
 
   const globalPath = path.resolve(`src/data/lines/${lineId}/globalTimetable.json`);
