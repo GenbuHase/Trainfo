@@ -20,6 +20,9 @@ import {
   Sliders,
   ChevronRight,
   Pin,
+  Pencil,
+  GripVertical,
+  Check,
 } from 'lucide-react';
 import { useUI } from '../../contexts/UIContext';
 import { useSimulation } from '../../contexts/SimulationContext';
@@ -45,6 +48,8 @@ import {
   hhmmToSeconds,
   loadSavedCustomTrainPresets,
   saveCustomTrainPreset,
+  reorderCustomTrainPresets,
+  renameCustomTrainPreset,
   deleteCustomTrainPreset,
   type CustomTrainPlan,
 } from '../../services/testTrainService';
@@ -96,12 +101,16 @@ export const TestRunModal: React.FC = () => {
   const [selectedStopSegmentFilter, setSelectedStopSegmentFilter] = useState<string>('all');
   const [stationSearchQuery, setStationSearchQuery] = useState('');
 
-  // プリセット保存用の入力状態
+  // プリセット保存・並び替え・リネーム用の状態
   const [savedPresets, setSavedPresets] = useState<CustomTrainPlan[]>(() =>
     loadSavedCustomTrainPresets()
   );
   const [presetNameInput, setPresetNameInput] = useState('');
   const [saveSuccessMessage, setSaveSuccessMessage] = useState<string | null>(null);
+  const [draggedPresetIdx, setDraggedPresetIdx] = useState<number | null>(null);
+  const [dragOverPresetIdx, setDragOverPresetIdx] = useState<number | null>(null);
+  const [editingPresetId, setEditingPresetId] = useState<string | null>(null);
+  const [editingPresetNameValue, setEditingPresetNameValue] = useState('');
 
   const allLines = useMemo(() => getAllLines(), []);
   const groupedByOperator = useMemo(() => getLinesGroupedByOperator(), []);
@@ -656,6 +665,56 @@ export const TestRunModal: React.FC = () => {
     setPresetNameInput('');
     setSaveSuccessMessage(`「${nameToUse}」を保存しました`);
     setTimeout(() => setSaveSuccessMessage(null), 3000);
+  };
+
+  // プリセットのドラッグ＆ドロップ並び替えハンドラー
+  const handlePresetDragStart = (e: React.DragEvent<HTMLDivElement>, index: number) => {
+    setDraggedPresetIdx(index);
+    e.dataTransfer.effectAllowed = 'move';
+    e.dataTransfer.setData('text/plain', String(index));
+  };
+
+  const handlePresetDragOver = (e: React.DragEvent<HTMLDivElement>, index: number) => {
+    e.preventDefault();
+    e.dataTransfer.dropEffect = 'move';
+    if (dragOverPresetIdx !== index) {
+      setDragOverPresetIdx(index);
+    }
+  };
+
+  const handlePresetDrop = (e: React.DragEvent<HTMLDivElement>, dropIndex: number) => {
+    e.preventDefault();
+    if (draggedPresetIdx !== null && draggedPresetIdx !== dropIndex) {
+      const next = [...savedPresets];
+      const [moved] = next.splice(draggedPresetIdx, 1);
+      next.splice(dropIndex, 0, moved);
+      setSavedPresets(reorderCustomTrainPresets(next));
+    }
+    setDraggedPresetIdx(null);
+    setDragOverPresetIdx(null);
+  };
+
+  const handlePresetDragEnd = () => {
+    setDraggedPresetIdx(null);
+    setDragOverPresetIdx(null);
+  };
+
+  // プリセット名リネームハンドラー
+  const handleStartRenamePreset = (preset: CustomTrainPlan) => {
+    setEditingPresetId(preset.id);
+    setEditingPresetNameValue(preset.presetName || 'マイプリセット');
+  };
+
+  const handleCommitRenamePreset = (presetId: string) => {
+    const trimmed = editingPresetNameValue.trim();
+    if (trimmed) {
+      setSavedPresets(renameCustomTrainPreset(presetId, trimmed));
+    }
+    setEditingPresetId(null);
+  };
+
+  const handleCancelRenamePreset = () => {
+    setEditingPresetId(null);
   };
 
   // 発車実行
@@ -2122,14 +2181,14 @@ export const TestRunModal: React.FC = () => {
               <div className="bg-white rounded-xl border border-slate-200 p-4 space-y-3 shadow-2xs">
                 <h4 className="text-xs font-extrabold text-slate-800 flex items-center gap-1.5">
                   <Save className="w-4 h-4 text-sky-600" />
-                  <span>現在作成中の列車プランをブラウザに保存</span>
+                  <span>新規保存</span>
                 </h4>
                 <div className="flex gap-2">
                   <input
                     type="text"
                     value={presetNameInput}
                     onChange={(e) => setPresetNameInput(e.target.value)}
-                    placeholder="プリセット名を入力（例：東上〜みなとみらい4社直通急行）"
+                    placeholder="プリセット名"
                     className="flex-1 px-3 py-2 border border-slate-300 rounded-lg text-xs font-bold text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-sky-500"
                   />
                   <button
@@ -2146,61 +2205,133 @@ export const TestRunModal: React.FC = () => {
                 )}
               </div>
 
-              {/* 保存済みマイプリセット一覧 */}
+              {/* プリセット一覧 */}
               <div className="bg-white rounded-xl border border-slate-200 p-4 space-y-3 shadow-2xs">
-                <h4 className="text-xs font-extrabold text-slate-800">
-                  保存済みマイプリセット ({savedPresets.length}件)
-                </h4>
+                <div className="flex items-center justify-between">
+                  <h4 className="text-xs font-extrabold text-slate-800">
+                    プリセット ({savedPresets.length}件)
+                  </h4>
+                  {savedPresets.length > 1 && (
+                    <span className="text-[10px] text-slate-400 font-medium">
+                      ドラッグ＆ドロップで並び替え
+                    </span>
+                  )}
+                </div>
                 {savedPresets.length === 0 ? (
                   <p className="text-xs text-slate-400 py-4 text-center">
-                    まだ保存されたプリセットはありません。上のフォームからいつでも保存できます。
+                    保存されたプリセットはありません
                   </p>
                 ) : (
                   <div className="space-y-2">
-                    {savedPresets.map((p) => {
+                    {savedPresets.map((p, idx) => {
                       const firstLine = getLine(p.segments[0]?.lineId);
                       const lastLine = getLine(p.segments[p.segments.length - 1]?.lineId);
+                      const isDragging = draggedPresetIdx === idx;
+                      const isDragOver =
+                        dragOverPresetIdx === idx && draggedPresetIdx !== null && draggedPresetIdx !== idx;
+                      const isEditingName = editingPresetId === p.id;
+
                       return (
                         <div
                           key={p.id}
-                          className="flex items-center justify-between p-3 rounded-xl border border-slate-200 hover:border-sky-300 bg-slate-50/60 transition-all"
+                          draggable={!isEditingName}
+                          onDragStart={(e) => handlePresetDragStart(e, idx)}
+                          onDragOver={(e) => handlePresetDragOver(e, idx)}
+                          onDrop={(e) => handlePresetDrop(e, idx)}
+                          onDragEnd={handlePresetDragEnd}
+                          className={`group flex items-center justify-between gap-2 p-3 rounded-xl border transition-all select-none ${
+                            isDragging
+                              ? 'opacity-45 border-sky-400 bg-sky-50/40'
+                              : isDragOver
+                              ? 'border-sky-500 ring-2 ring-sky-500/20 bg-sky-50/70'
+                              : 'border-slate-200 hover:border-sky-300 bg-slate-50/60'
+                          }`}
                         >
-                          <div className="space-y-0.5 min-w-0">
-                            <div className="flex items-center gap-2">
-                              <span className="font-extrabold text-xs text-slate-800">
-                                {p.presetName || 'マイプリセット'}
-                              </span>
-                              <span className="text-[10px] px-1.5 py-0.2 rounded bg-sky-100 text-sky-800 font-bold">
-                                {p.segments.length}路線
-                              </span>
-                              {p.trainName && (
-                                <span className="text-[10px] font-bold text-amber-700">
-                                  「{p.trainName}」
-                                </span>
-                              )}
+                          <div className="flex items-center gap-2.5 min-w-0 flex-1">
+                            <div
+                              className="p-1 -ml-1 text-slate-400 group-hover:text-slate-600 cursor-grab active:cursor-grabbing shrink-0"
+                              title="ドラッグして並び替え"
+                            >
+                              <GripVertical className="w-4 h-4" />
                             </div>
-                            <p className="text-[11px] text-slate-500 truncate">
-                              {firstLine?.shortName} (
-                              {STATION_MAP.get(p.segments[0]?.fromStationId)?.name}) ➔{' '}
-                              {lastLine?.shortName} (
-                              {
-                                STATION_MAP.get(
-                                  p.segments[p.segments.length - 1]?.toStationId
-                                )?.name
-                              }
-                              )
-                            </p>
+                            <div className="space-y-0.5 min-w-0 flex-1">
+                              {isEditingName ? (
+                                <div className="flex items-center gap-1.5">
+                                  <input
+                                    type="text"
+                                    value={editingPresetNameValue}
+                                    onChange={(e) => setEditingPresetNameValue(e.target.value)}
+                                    onKeyDown={(e) => {
+                                      if (e.key === 'Enter') handleCommitRenamePreset(p.id);
+                                      if (e.key === 'Escape') handleCancelRenamePreset();
+                                    }}
+                                    autoFocus
+                                    className="flex-1 min-w-0 px-2 py-1 bg-white border border-sky-400 rounded-md text-xs font-bold text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-sky-500"
+                                  />
+                                  <button
+                                    type="button"
+                                    onClick={() => handleCommitRenamePreset(p.id)}
+                                    className="p-1 rounded-md bg-sky-600 text-white hover:bg-sky-700 transition-colors shrink-0"
+                                    title="名前を保存"
+                                  >
+                                    <Check className="w-3.5 h-3.5" />
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={handleCancelRenamePreset}
+                                    className="p-1 rounded-md text-slate-400 hover:text-slate-600 hover:bg-slate-200/70 transition-colors shrink-0"
+                                    title="キャンセル"
+                                  >
+                                    <X className="w-3.5 h-3.5" />
+                                  </button>
+                                </div>
+                              ) : (
+                                <div className="flex items-center gap-2 flex-wrap">
+                                  <span className="font-extrabold text-xs text-slate-800 truncate">
+                                    {p.presetName || 'マイプリセット'}
+                                  </span>
+                                  <span className="text-[10px] px-1.5 py-0.2 rounded bg-sky-100 text-sky-800 font-bold shrink-0">
+                                    {p.segments.length}路線
+                                  </span>
+                                  {p.trainName && (
+                                    <span className="text-[10px] font-bold text-amber-700 truncate">
+                                      「{p.trainName}」
+                                    </span>
+                                  )}
+                                </div>
+                              )}
+                              <p className="text-[11px] text-slate-500 truncate">
+                                {firstLine?.shortName} (
+                                {STATION_MAP.get(p.segments[0]?.fromStationId)?.name}) ➔{' '}
+                                {lastLine?.shortName} (
+                                {
+                                  STATION_MAP.get(
+                                    p.segments[p.segments.length - 1]?.toStationId
+                                  )?.name
+                                }
+                                )
+                              </p>
+                            </div>
                           </div>
                           <div className="flex items-center gap-1.5 shrink-0">
                             <button
                               type="button"
                               onClick={() => {
                                 setPlan(recalculatePlanSchedule(p, sim.currentSec));
-                                setActiveTab('route');
+                                setPresetNameInput(p.presetName || '');
+                                setActiveTab('customize');
                               }}
                               className="px-3 py-1.5 rounded-lg bg-sky-600 hover:bg-sky-700 text-white text-xs font-bold transition-colors"
                             >
-                              読み込む
+                              読込
+                            </button>
+                            <button
+                              type="button"
+                              onClick={() => handleStartRenamePreset(p)}
+                              className="p-1.5 rounded-lg text-slate-400 hover:text-sky-600 hover:bg-sky-50 transition-colors"
+                              title="プリセット名を変更"
+                            >
+                              <Pencil className="w-4 h-4" />
                             </button>
                             <button
                               type="button"

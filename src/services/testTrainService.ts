@@ -792,17 +792,55 @@ export function loadSavedCustomTrainPresets(): CustomTrainPlan[] {
 
 export function saveCustomTrainPreset(plan: CustomTrainPlan, presetName: string): CustomTrainPlan[] {
   const existing = loadSavedCustomTrainPresets();
-  const toSave: CustomTrainPlan = {
-    ...plan,
-    id: plan.id || `preset_${Date.now()}`,
-    presetName: presetName.trim() || 'マイ臨時列車',
-  };
-  const filtered = existing.filter((p) => p.id !== toSave.id && p.presetName !== toSave.presetName);
-  const updated = [toSave, ...filtered].slice(0, 30);
+  const normalizedName = presetName.trim() || 'マイ臨時列車';
+  const existingIdx = existing.findIndex(
+    (p) => p.presetName === normalizedName || (p.id === plan.id && p.presetName === normalizedName)
+  );
+
+  let updated: CustomTrainPlan[];
+  if (existingIdx !== -1) {
+    // 既存プリセットの上書き時は並び順を維持して更新
+    updated = [...existing];
+    updated[existingIdx] = {
+      ...plan,
+      id: existing[existingIdx].id,
+      presetName: normalizedName,
+    };
+  } else {
+    const toSave: CustomTrainPlan = {
+      ...plan,
+      id: `preset_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+      presetName: normalizedName,
+    };
+    updated = [toSave, ...existing].slice(0, 30);
+  }
+
   try {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
   } catch {
     // ストレージ上限時等は無視
+  }
+  return updated;
+}
+
+export function reorderCustomTrainPresets(presets: CustomTrainPlan[]): CustomTrainPlan[] {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(presets));
+  } catch {
+    // 無視
+  }
+  return presets;
+}
+
+export function renameCustomTrainPreset(presetId: string, newName: string): CustomTrainPlan[] {
+  const existing = loadSavedCustomTrainPresets();
+  const trimmed = newName.trim();
+  if (!trimmed) return existing;
+  const updated = existing.map((p) => (p.id === presetId ? { ...p, presetName: trimmed } : p));
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+  } catch {
+    // 無視
   }
   return updated;
 }
