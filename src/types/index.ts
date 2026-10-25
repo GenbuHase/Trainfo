@@ -138,6 +138,7 @@ export type TrainTypeKey =
   | 'hakutaka'                // はくたか（北陸新幹線）
   | 'asama'                   // あさま（北陸新幹線）
   | 'tsurugi'                 // つるぎ（北陸新幹線）
+  | 'test_run'                // 試運転・臨時列車デフォルト
   | (string & {});
 
 export interface TrainTypeConfig {
@@ -149,6 +150,15 @@ export interface TrainTypeConfig {
   textColor: string;   // HEX
   bgColor: string;     // HEX
   borderColor: string;
+}
+
+/**
+ * 試運転・臨時列車用のカスタム種別設定
+ */
+export interface CustomTrainTypeConfig {
+  name: string;        // 任意の種別名 (例: '試運転', '臨時', '団体', 'Fライナー急行')
+  shortName?: string;  // 任意の略称 (例: '試', '臨', '団')
+  color?: string;      // 任意のバッジ・ピンカラー (HEX, 例: '#0284c7')
 }
 
 export interface StationFacilities {
@@ -223,7 +233,9 @@ export interface TimetableTrip {
   trainNumberSections?: TrainNumberSection[]; // 区間別列車番号リスト
   coupling?: CouplingConfig;                  // 併結運転設定
   trainType: TrainTypeKey;
+  customTrainType?: CustomTrainTypeConfig;    // カスタム種別名・カラー設定
   trainName?: string;         // 列車名・愛称・号数 (例: 'あずさ9号', 'DLばんえつ物語', 'ひたち1号')
+  isTestTrain?: boolean;      // 試運転・臨時列車クリエイターによる生成フラグ
   direction: Direction;
   originStationId: string;
   destinationStationId: string;
@@ -251,6 +263,8 @@ export interface ActiveTrain {
   isCoupledActive?: boolean; // 現在併結状態で走行中か
   totalCars?: number;        // 併結時の合計両数 (例: 14両)
   trainType: TrainTypeKey;
+  customTrainType?: CustomTrainTypeConfig;
+  isTestTrain?: boolean;
   direction: Direction;
   originStationId: string;
   destinationStationId: string;
@@ -280,6 +294,7 @@ export interface DepartureInfo {
   tripId: string;
   lineId: LineId;
   trainType: TrainTypeKey;
+  customTrainType?: CustomTrainTypeConfig;
   trainName?: string;
   destination: string;
   departureTime: string;
@@ -312,6 +327,7 @@ export interface RawStationDeparture {
   sec: number;
   tripId?: string;
   trainName?: string;
+  customTrainType?: CustomTrainTypeConfig;
 }
 
 export type StationTimetableStore = {
@@ -370,6 +386,7 @@ export interface ThroughChainStop {
   isPassing: boolean;
   tripId: string;
   trainType: TrainTypeKey;
+  customTrainType?: CustomTrainTypeConfig;
   trainNumber?: string;
   trainName?: string;
   isBoundary?: boolean;
@@ -380,6 +397,8 @@ export interface ThroughChainStop {
     nextLineName: string;
     prevTrainType?: TrainTypeKey;
     nextTrainType?: TrainTypeKey;
+    prevCustomTrainType?: CustomTrainTypeConfig;
+    nextCustomTrainType?: CustomTrainTypeConfig;
     prevTrainNumber?: string;
     nextTrainNumber?: string;
   };
@@ -400,6 +419,7 @@ export interface ThroughChainSummary {
     shortName: string;
     lineColor: string;
     initialTrainType: TrainTypeKey;
+    initialCustomTrainType?: CustomTrainTypeConfig;
     initialTrainNumber?: string;
   }[];
   hasMultipleLines: boolean;

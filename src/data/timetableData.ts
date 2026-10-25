@@ -7,6 +7,7 @@ import type {
   RawStationDeparture,
   ThroughChainStop,
   ThroughChainSummary,
+  CustomTrainTypeConfig,
 } from '../types';
 import { STATION_MAP } from './stations';
 import { getCombinedStationTimetables, getCombinedGlobalTimetable, getLine } from './linesRegistry';
@@ -121,9 +122,76 @@ export const STATION_TIMETABLES: StationTimetableStore = getCombinedStationTimet
 // 全登録路線の統合ダイヤ（静的アクセス互換用）
 export const GLOBAL_TIMETABLE: TimetableTrip[] = getCombinedGlobalTimetable();
 
+// 動的に生成された試運転・臨時列車トリップの保持リスト（直通チェーン探索・駅発車標統合用）
+let _dynamicTestTrainTrips: TimetableTrip[] = [];
+
+export function setDynamicTestTrainTrips(trips: TimetableTrip[]) {
+  _dynamicTestTrainTrips = trips;
+  invalidateGlobalTripMaps();
+}
+
+export function getDynamicTestTrainTrips(): TimetableTrip[] {
+  return _dynamicTestTrainTrips;
+}
+
 // 路線ID指定でダイヤを取得するヘルパー関数
 export function getTimetableTrips(selectedLineIds?: LineId[]): TimetableTrip[] {
   return getCombinedGlobalTimetable(selectedLineIds);
+}
+
+/**
+ * 動的試運転・臨時列車から特定駅の発車データを抽出
+ */
+function extractDynamicStationDepartures(
+  stationId: string,
+  isHoliday: boolean,
+  lineId?: LineId
+): { inbound: RawStationDeparture[]; outbound: RawStationDeparture[] } {
+  const inbound: RawStationDeparture[] = [];
+  const outbound: RawStationDeparture[] = [];
+
+  for (const trip of _dynamicTestTrainTrips) {
+    if (trip.isHoliday !== isHoliday) continue;
+    if (lineId && trip.lineId !== lineId) continue;
+
+    // 該当駅の停車インデックスを検索
+    const stopIdx = trip.stops.findIndex((s) => s.stationId === stationId);
+    if (stopIdx === -1) continue;
+    const stop = trip.stops[stopIdx];
+    if (stop.isPassing) continue;
+
+    // 終着駅（トリップの最後の駅）の場合は発車しないので除外
+    if (stopIdx === trip.stops.length - 1) continue;
+
+    const depTimeStr = stop.departureTime || stop.arrivalTime;
+    if (!depTimeStr) continue;
+
+    const [rawH, rawM] = depTimeStr.split(':').map(Number);
+    const sec = timeStringToSeconds(depTimeStr);
+    const destSt = STATION_MAP.get(trip.destinationStationId);
+    const destName = trip.customDestination || destSt?.name || '終着';
+
+    const rawDep: RawStationDeparture = {
+      h: rawH,
+      m: rawM,
+      time: String(rawM).padStart(2, '0'),
+      t: trip.trainType,
+      d: destName,
+      no: trip.trainNumber || '試運転',
+      sec,
+      tripId: trip.tripId,
+      trainName: trip.trainName,
+      customTrainType: trip.customTrainType,
+    };
+
+    if (trip.direction === 'inbound') {
+      inbound.push(rawDep);
+    } else {
+      outbound.push(rawDep);
+    }
+  }
+
+  return { inbound, outbound };
 }
 
 // 特定駅の時刻表一覧（直近の発車情報）を取得
@@ -165,7 +233,14 @@ export function getStationDepartures(
   }
 
   const finalLineId = resolvedLineId || 'tojo';
-  const targetData = stData || { inbound: [], outbound: [] };
+  const baseData = stData || { inbound: [], outbound: [] };
+
+  // 4. 動的試運転・臨時列車の停車発車をマージ
+  const dynamicDeps = extractDynamicStationDepartures(stationId, isHoliday, finalLineId);
+  const targetData = {
+    inbound: [...baseData.inbound, ...dynamicDeps.inbound],
+    outbound: [...baseData.outbound, ...dynamicDeps.outbound],
+  };
 
   function convertToTrips(deps: RawStationDeparture[], direction: Direction): TimetableTrip[] {
     const valid = deps.filter((d) => {
@@ -187,8 +262,10 @@ export function getStationDepartures(
     const defaultCars = lineDef?.defaultCars ?? 10;
 
     return valid.slice(0, limit).map((d, idx) => {
+      // 動的トリップやフルTimetableTripがMapにあれば両数・カスタム種別等を引き継ぐ
+      const mappedTrip = d.tripId ? getGlobalTripMap().get(d.tripId) : undefined;
       const destSt = Array.from(STATION_MAP.values()).find((s) => s.name === d.d);
-      let destId = destSt ? destSt.id : '';
+      let destId = mappedTrip?.destinationStationId || (destSt ? destSt.id : '');
       if (!destId) {
         destId = direction === 'outbound' ? lineTerminusStationId : lineOriginStationId;
       }
@@ -200,12 +277,14 @@ export function getStationDepartures(
         lineId: finalLineId,
         trainNumber: d.no,
         trainType: d.t,
+        customTrainType: d.customTrainType || mappedTrip?.customTrainType,
+        isTestTrain: Boolean(mappedTrip?.isTestTrain || d.tripId?.startsWith('TEST_')),
         trainName,
         direction,
         originStationId: stationId,
         destinationStationId: destId,
         customDestination: d.d,
-        cars: defaultCars,
+        cars: mappedTrip?.cars ?? defaultCars,
         isHoliday,
         stops: [
           {
@@ -231,6 +310,7 @@ export interface HourlyStationTimetableItem {
   tripId: string;
   trainNumber: string;
   type: TrainTypeKey;
+  customTrainType?: CustomTrainTypeConfig;
   destination: string;
   trainName?: string;
 }
@@ -248,11 +328,12 @@ export function getFullDayStationTimetable(
   lineId?: LineId
 ): HourlyStationTimetable[] {
   const dayKey = isHoliday ? 'holiday' : 'weekday';
+  let resolvedLineId = lineId;
   let stData: { inbound: RawStationDeparture[]; outbound: RawStationDeparture[] } | undefined;
 
   // 1. 指定路線から駅時刻表を取得
-  if (lineId) {
-    const line = getLine(lineId);
+  if (resolvedLineId) {
+    const line = getLine(resolvedLineId);
     if (line?.stationTimetables?.[dayKey]?.[stationId]) {
       stData = line.stationTimetables[dayKey][stationId];
     }
@@ -262,6 +343,7 @@ export function getFullDayStationTimetable(
   if (!stData) {
     const currentSt = STATION_MAP.get(stationId);
     if (currentSt?.lineId) {
+      resolvedLineId = resolvedLineId || currentSt.lineId;
       const line = getLine(currentSt.lineId);
       if (line?.stationTimetables?.[dayKey]?.[stationId]) {
         stData = line.stationTimetables[dayKey][stationId];
@@ -275,7 +357,12 @@ export function getFullDayStationTimetable(
     stData = timetables[dayKey]?.[stationId] || { inbound: [], outbound: [] };
   }
 
-  const targetData = stData || { inbound: [], outbound: [] };
+  const baseData = stData || { inbound: [], outbound: [] };
+  const dynamicDeps = extractDynamicStationDepartures(stationId, isHoliday, resolvedLineId);
+  const targetData = {
+    inbound: [...baseData.inbound, ...dynamicDeps.inbound],
+    outbound: [...baseData.outbound, ...dynamicDeps.outbound],
+  };
 
   const hourly: HourlyStationTimetable[] = [];
   for (let h = 4; h <= 27; h++) {
@@ -301,6 +388,7 @@ export function getFullDayStationTimetable(
         trainNumber: dep.no,
         trainName,
         type: dep.t,
+        customTrainType: dep.customTrainType,
         destination: dep.d,
       });
     }
@@ -317,6 +405,7 @@ export function getFullDayStationTimetable(
         trainNumber: dep.no,
         trainName,
         type: dep.t,
+        customTrainType: dep.customTrainType,
         destination: dep.d,
       });
     }
@@ -346,7 +435,7 @@ function ensureGlobalMaps() {
     _globalTripMap = new Map();
     _globalTrainIdMap = new Map();
     _globalTrainNameByNumberMap = new Map();
-    const trips = getCombinedGlobalTimetable();
+    const trips = [...getCombinedGlobalTimetable(), ..._dynamicTestTrainTrips];
     for (const trip of trips) {
       _globalTripMap.set(trip.tripId, trip);
       if (trip.trainName && trip.trainNumber) {
@@ -645,6 +734,7 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
       shortName: string;
       lineColor: string;
       initialTrainType: TrainTypeKey;
+      initialCustomTrainType?: CustomTrainTypeConfig;
       initialTrainNumber?: string;
     }
   >();
@@ -658,6 +748,7 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
         shortName: line?.shortName || line?.name || trip.lineId,
         lineColor: line?.lineColor || '#004b97',
         initialTrainType: trip.trainType,
+        initialCustomTrainType: trip.customTrainType,
         initialTrainNumber: trip.trainNumber,
       });
     }
@@ -736,6 +827,8 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
             nextLineName: lineShortName,
             prevTrainType: prevStop.trainType,
             nextTrainType: trip.trainType,
+            prevCustomTrainType: prevStop.customTrainType,
+            nextCustomTrainType: trip.customTrainType,
             prevTrainNumber: prevStop.trainNumber,
             nextTrainNumber: trip.trainNumber,
           };
@@ -763,6 +856,7 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
         isPassing: Boolean(s.isPassing),
         tripId: trip.tripId,
         trainType: trip.trainType,
+        customTrainType: trip.customTrainType,
         trainNumber: currentTrainNumber,
         trainName: trip.trainName,
         isBoundary: false,

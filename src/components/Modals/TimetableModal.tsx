@@ -3,7 +3,7 @@ import type { Station, Direction } from '../../types';
 import { getFullDayStationTimetable, formatTrainNumber } from '../../data/timetableData';
 import { StationBadge } from '../Common/Badges';
 import { TRAIN_TYPES } from '../../data/trainTypes';
-import { getLine, getAllLines } from '../../data/linesRegistry';
+import { getLine, getAllLines, getTrainTypeConfig } from '../../data/linesRegistry';
 import { X, Download, ArrowLeftRight } from 'lucide-react';
 
 import { useUI } from '../../contexts/UIContext';
@@ -86,7 +86,8 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
     for (const row of fullDayData) {
       const departures = direction === 'inbound' ? row.inbound : row.outbound;
       for (const dep of departures) {
-        const typeName = trainTypesMap[dep.type]?.name || dep.type;
+        const typeConf = getTrainTypeConfig(dep.type, station.lineId, dep.customTrainType);
+        const typeName = typeConf.name || dep.type;
         const csvHour = row.hour >= 24 ? String(row.hour - 24) : String(row.hour);
         const trainName = dep.trainName || '';
         csv += `${csvHour},${dep.time},${typeName},${trainName},${dep.destination},${formatTrainNumber(dep.trainNumber, dep.tripId)}\n`;
@@ -243,7 +244,7 @@ export const TimetableModal: React.FC<TimetableModalProps> = ({
                         <span className="text-slate-300 text-xs font-mono py-1 self-center">-</span>
                       ) : (
                         departures.map((dep, idx) => {
-                          const conf = trainTypesMap[dep.type] || trainTypesMap.local || TRAIN_TYPES.local;
+                          const conf = getTrainTypeConfig(dep.type, station.lineId, dep.customTrainType);
                           const destLen = dep.destination.length;
                           const destClass =
                             destLen <= 2

@@ -24,7 +24,7 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
   const nextStation = STATION_MAP.get(train.nextStationId);
 
   return (
-    <div className="pointer-events-auto w-full sm:w-[420px] md:w-[440px] bg-slate-900/95 backdrop-blur-md text-white rounded-xl shadow-2xl border border-slate-700/80 p-2.5 sm:px-3 animate-in fade-in slide-in-from-top-2 duration-200">
+    <div className="pointer-events-auto w-full sm:w-[420px] md:w-[460px] bg-slate-900/95 backdrop-blur-md text-white rounded-xl shadow-2xl border border-slate-700/80 p-2.5 sm:px-3 animate-in fade-in slide-in-from-top-2 duration-200">
       <div className="flex items-center justify-between gap-2">
         {/* 左側: 追尾中バッジ & 列車主要情報 */}
         <div className="flex items-center gap-2 min-w-0 flex-1">
@@ -45,7 +45,17 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
                   {line.shortName}
                 </span>
               )}
-              <TrainTypeBadge type={train.trainType} size="sm" lineId={train.lineId} />
+              <TrainTypeBadge
+                type={train.trainType}
+                size="sm"
+                lineId={train.lineId}
+                customType={train.customTrainType}
+              />
+              {train.trainName && (
+                <span className="text-[11px] font-bold text-amber-200 truncate max-w-[120px]">
+                  {train.trainName}
+                </span>
+              )}
               <span className="font-mono text-xs text-amber-300 font-bold shrink-0">
                 {formatTrainNumber(train.trainNumber, train.trainId, train.tripId)}
               </span>

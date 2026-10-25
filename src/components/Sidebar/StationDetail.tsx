@@ -218,7 +218,12 @@ export const StationDetail: React.FC<StationDetailProps> = ({
                     >
                       {/* 種別 */}
                       <div className="col-span-3 flex items-center overflow-hidden">
-                        <TrainTypeBadge type={trip.trainType} size="sm" lineId={station.lineId} />
+                        <TrainTypeBadge
+                          type={trip.trainType}
+                          size="sm"
+                          lineId={station.lineId}
+                          customType={trip.customTrainType || liveTrain?.customTrainType}
+                        />
                       </div>
 
                       {/* 時刻 */}

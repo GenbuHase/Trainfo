@@ -15,7 +15,12 @@ import {
   areAllLinesLoaded,
 } from '../data/timetableLoader';
 import { getCombinedGlobalTimetable } from '../data/linesRegistry';
-import { createTestTrainTrip } from '../services/testTrainService';
+import { setDynamicTestTrainTrips, getThroughChainTripIds } from '../data/timetableData';
+import {
+  createTestTrainTrip,
+  createCustomTrainTrips,
+  type CustomTrainPlan,
+} from '../services/testTrainService';
 
 interface SimulationContextValue {
   simState: SimulationState;
@@ -40,6 +45,8 @@ interface SimulationContextValue {
   toggleHoliday: (val: boolean) => void;
   setSimulationFps: (fps: SimulationFps) => void;
   launchTestTrain: (lineId: LineId, direction?: Direction, options?: { speedMultiplier?: number }) => string;
+  launchCustomTrain: (plan: CustomTrainPlan) => string;
+  removeTestTrain: (tripId: string) => void;
   clearTestTrains: () => void;
 }
 
@@ -155,8 +162,13 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     return unsubscribe;
   }, [selectedLineIds]);
 
-  // 試験走行（試運転）列車の状態管理
+  // 試験走行（試運転）・臨時列車の状態管理
   const [testTrainTrips, setTestTrainTrips] = useState<TimetableTrip[]>([]);
+
+  // testTrainTrips が変化したらグローバルトリップマップ・駅発車標ストアに同期
+  useEffect(() => {
+    setDynamicTestTrainTrips(testTrainTrips);
+  }, [testTrainTrips]);
 
   // 列車位置の純粋算出（useEffectによるカスケードレンダリングを解消しパフォーマンス最大化）
   const fullSimState: SimulationState = useMemo(
@@ -175,25 +187,76 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     return calculateActiveTrains(fullSimState, [...baseTimetable, ...testTrainTrips]);
   }, [fullSimState, timetableVersion, testTrainTrips]);
 
-  // 試験走行列車を発車・自動追尾
-  const launchTestTrain = useCallback(
-    (lineId: LineId, direction: Direction = 'outbound', options?: { speedMultiplier?: number }): string => {
-      // 路線が未選択なら選択路線に追加
-      addLines([lineId]);
+  // カスタム試運転・臨時列車プランを発車・自動追尾
+  const launchCustomTrain = useCallback(
+    (plan: CustomTrainPlan): string => {
+      const involvedLineIds = Array.from(new Set(plan.segments.map((s) => s.lineId)));
+      if (involvedLineIds.length > 0) {
+        addLines(involvedLineIds);
+      }
 
-      // 現在のシミュレーション時刻から始点〜終点の試運転トリップを作成
-      const trips = createTestTrainTrip(lineId, direction, simState.currentSec);
-      setTestTrainTrips((prev) => [...prev.filter((t) => t.lineId !== lineId), ...trips]);
+      const {
+        trips,
+        initialTripIdWeekday,
+        initialTripIdHoliday,
+        startSec,
+      } = createCustomTrainTrips(plan, simState.currentSec);
 
-      // 現在の平日/休日設定に応じたトリップIDを取得
-      const targetTrip = simState.isHoliday ? trips.find((t) => t.isHoliday) : trips.find((t) => !t.isHoliday);
-      const targetTripId = targetTrip?.tripId || trips[0].tripId;
+      setTestTrainTrips((prev) => {
+        const next = [...prev, ...trips];
+        setDynamicTestTrainTrips(next);
+        return next;
+      });
+
+      const targetTripId = simState.isHoliday ? initialTripIdHoliday : initialTripIdWeekday;
 
       // 列車を選択状態にして自動カメラ追従（追尾モード）を即座に起動
       setSelectedTrainId(targetTripId);
       setIsTrackingTrain(true);
 
-      // シミュレーションを再生状態にし、快適に観測できる倍速（指定なし時は最低5倍速）に設定
+      // シミュレーションを再生状態にし、指定時刻ジャンプが有効な場合は始発時刻へシーク
+      setSimState((prev) => {
+        let nextCurrentSec = prev.currentSec;
+        if (plan.departureMode === 'scheduled' && plan.seekToStartOnLaunch) {
+          nextCurrentSec = startSec;
+          if (nextCurrentSec < 4 * 3600) {
+            nextCurrentSec += 86400;
+          } else if (nextCurrentSec >= 28 * 3600) {
+            nextCurrentSec = ((nextCurrentSec - 4 * 3600) % 86400) + 4 * 3600;
+          }
+        }
+        return {
+          ...prev,
+          currentSec: nextCurrentSec,
+          isPlaying: true,
+          speedMultiplier: plan.speedMultiplier || Math.max(prev.speedMultiplier, 5),
+        };
+      });
+      setIsRealTimeSynced(false);
+
+      return targetTripId;
+    },
+    [addLines, simState.currentSec, simState.isHoliday, setSelectedTrainId, setIsTrackingTrain]
+  );
+
+  // 簡易試験走行列車を発車・自動追尾（後方互換）
+  const launchTestTrain = useCallback(
+    (lineId: LineId, direction: Direction = 'outbound', options?: { speedMultiplier?: number }): string => {
+      addLines([lineId]);
+
+      const trips = createTestTrainTrip(lineId, direction, simState.currentSec);
+      setTestTrainTrips((prev) => {
+        const next = [...prev, ...trips];
+        setDynamicTestTrainTrips(next);
+        return next;
+      });
+
+      const targetTrip = simState.isHoliday ? trips.find((t) => t.isHoliday) : trips.find((t) => !t.isHoliday);
+      const targetTripId = targetTrip?.tripId || trips[0].tripId;
+
+      setSelectedTrainId(targetTripId);
+      setIsTrackingTrain(true);
+
       setSimState((prev) => ({
         ...prev,
         isPlaying: true,
@@ -206,8 +269,31 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
     [addLines, simState.currentSec, simState.isHoliday, setSelectedTrainId, setIsTrackingTrain]
   );
 
+  // 個別の試運転・臨時列車（およびその直通チェーン・平日休日ペア）を削除
+  const removeTestTrain = useCallback((tripId: string) => {
+    setTestTrainTrips((prev) => {
+      const targetTrip = prev.find((t) => t.tripId === tripId);
+      const chainIds = getThroughChainTripIds(tripId);
+      // baseId（WD/HD共通プレフィックス）を抽出してペアごと消去
+      const basePrefix = targetTrip?.trainId
+        ? targetTrip.trainId.replace(/_(WD|HD)$/, '')
+        : tripId.replace(/_SEG\d+_.*$/, '');
+
+      const next = prev.filter((t) => {
+        if (t.tripId === tripId || chainIds.has(t.tripId)) return false;
+        if (basePrefix && (t.tripId.startsWith(basePrefix) || t.trainId?.startsWith(basePrefix))) {
+          return false;
+        }
+        return true;
+      });
+      setDynamicTestTrainTrips(next);
+      return next;
+    });
+  }, []);
+
   // 試運転列車を全消去
   const clearTestTrains = useCallback(() => {
+    setDynamicTestTrainTrips([]);
     setTestTrainTrips([]);
   }, []);
 
@@ -320,6 +406,8 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       toggleHoliday,
       setSimulationFps,
       launchTestTrain,
+      launchCustomTrain,
+      removeTestTrain,
       clearTestTrains,
     }),
     [
@@ -347,6 +435,8 @@ export const SimulationProvider: React.FC<{ children: React.ReactNode }> = ({ ch
       toggleHoliday,
       setSimulationFps,
       launchTestTrain,
+      launchCustomTrain,
+      removeTestTrain,
       clearTestTrains,
     ]
   );
