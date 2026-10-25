@@ -199,6 +199,86 @@ Yahoo! 路線情報の列車詳細には「停車駅」しか載っておらず�
 
 ---
 
+### ケース6: ダイヤを増やしたい（臨時列車・増発便の追加／取得系統の拡張）
+
+目的によって以下の3つの方法があります。
+
+#### パターンA: 特定の列車（臨時列車・団体列車・独自の増発便）を手動で1〜数本追加する
+
+既存の似た列車（同じ種別・同じ走行区間のトリップ）をコピーして時刻を書き換えるのが最も安全で簡単です。
+
+1. **既存トリップのコピーと編集**:
+   `src/data/lines/<lineId>/globalTimetable.json` を開き、同じ方向・同じ停車パターンのトリップを1つコピーして配列末尾（または該当時刻の位置）に貼り付けます。
+   ```json
+   {
+     "tripId": "HD_OUT_JC-05_0830_9081M", // ← ① 重複しない一意のIDに変更
+     "lineId": "chuo",
+     "trainId": "9081M",                  // ← 直通させる場合は接続先と同じ trainId にする
+     "trainNumber": "9081M",              // ← ② 表示する列車番号
+     "trainType": "limitedExp",           // ← 種別ID
+     "trainName": "臨時あずさ81号",        // ← 列車愛称（任意）
+     "direction": "outbound",             // ← 'outbound'(下り) | 'inbound'(上り)
+     "originStationId": "JC-05",
+     "destinationStationId": "JC-24",
+     "customOrigin": "新宿",
+     "customDestination": "松本",
+     "cars": 9,
+     "isHoliday": true,                   // ← false: 平日ダイヤ, true: 土休日ダイヤ
+     "stops": [
+       {
+         "stationId": "JC-05",
+         "arrivalTime": "08:30:00",
+         "departureTime": "08:30:00",
+         "isPassing": false
+       },
+       {
+         "stationId": "JC-06",
+         "arrivalTime": "08:32:10",
+         "departureTime": "08:32:10",
+         "isPassing": true                // ← ③ 通過駅も省略せず順番通りにすべて含める
+       }
+       // ... 終着駅まで順番に記述
+     ]
+   }
+   ```
+   > [!IMPORTANT]
+   > **ダイヤ手動追加時の3つの鉄則**:
+   > 1. **`tripId` は必ずユニーク（一意）にする**: 他の便と同じ `tripId` があると画面上で列車が重複・点滅します。
+   > 2. **`stops` には通過駅（`isPassing: true`）もすべて順番通りに含める**: シミュレーションエンジンは隣接駅の座標セグメントを順番に辿って列車を走らせます。途中の通過駅を配列から消してしまうと、駅間でワープしたり走行が停止したりするため、**既存の同種別トリップの `stops` を丸ごとコピーして時刻だけシフトさせる**のが確実です。
+   > 3. **時刻は `"HH:MM:SS"` 形式**: 深夜0時〜3時台の列車も `"24:15:00"` ではなく `"00:15:00"` と記述します（エンジン側で自動的に深夜帯として処理されます）。
+
+2. **駅時刻表と直通リンクへの自動反映**:
+   ファイルを保存したら、以下のコマンドを実行します。
+   ```bash
+   node scripts/runThroughLinker.cjs
+   ```
+   これだけで、追加した列車の停車駅発車時刻が全駅の `stationTimetables.json` に自動で挿入・時刻順ソートされ、他路線との直通設定も自動リンクされます。
+
+#### パターンB: キャッシュ再生成時にも消えない「恒久的な増発スクリプト」として登録する
+
+パターンAで `globalTimetable.json` を直接編集した場合、将来 `rebuildAllTimetablesFromCache.cjs` 等でキャッシュから全路線を白紙再生成すると、手動追加した便が上書きされて消えることがあります。
+恒久的に残したい特別列車（例：夜行特急アルプスや S-TRAIN など）は、以下のようにスクリプト化しておくと安全です。
+
+1. `scripts/extendAlpsTimetable.cjs` や `scripts/integrate_strain.cjs` を参考に、対象路線の `globalTimetable.json` を読み込んでトリップを `push`（既存があれば上書き）するスクリプトを作成します。
+2. `scripts/runThroughLinker.cjs` の冒頭（Step 1）にその関数の呼び出しを1行追加します。
+   * これにより、今後何度キャッシュから再生成しても、`runThroughLinker.cjs` を実行するだけで常に増発便が自動注入されます。
+
+#### パターンC: Yahoo! 路線情報から取得する列車本数・途中駅始発便・区間を増やす
+
+「路線の一部の駅しか登録していなかったため、途中駅始発・終着の区間列車が漏れていた」「路線を延伸してダイヤを増やしたい」という場合の手順です。
+
+1. **`src/data/lines/<lineId>/stations.ts` と `trackGeometry.ts` に駅・軌道を追記**（区間延伸時）。
+2. **`scripts/lines/<lineId>/config.cjs` の `stations` 配列に駅を追加**:
+   * 途中駅始発の列車を漏れなく拾うには、その始発駅の `yahooStationId` と `outGroupId` / `inGroupId` が `config.cjs` に登録されている必要があります。
+3. **インポーターと直通リンカーを実行**:
+   ```bash
+   node scripts/runYahooImporter.cjs --line <lineId>
+   node scripts/runThroughLinker.cjs
+   ```
+   これで追加した駅の発車標から新規列車（`trainId`）が自動検出され、詳細時刻のスクレイピングと公式列車番号の注入が行われます。
+
+---
+
 ## 4. 新規路線を手動で追加する手順（全6ステップ）
 
 新しい路線（例：`my_new_line`）を一から手動で追加する際のチェックリストです。より詳細な背景仕様については [`docs/ROUTE_EXPANSION_PLAYBOOK.md`](./ROUTE_EXPANSION_PLAYBOOK.md) も参照してください。
