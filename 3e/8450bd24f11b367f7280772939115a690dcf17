@@ -1,0 +1,82 @@
+.oxlintrc.json
+  h_949a05ab995868 4,8-16
+README.md
+  h_949a05ab995868 191-196,201,316,344,349,354,358,363-365,368,373,375-376,388,390-393,395
+docs/MAINTENANCE_GUIDE.md
+  h_949a05ab995868 33-35,312,317-318
+docs/ROUTE_EXPANSION_PLAYBOOK.md
+  h_949a05ab995868 42-43,48-50,61,65,68,401-403,507-508,846,848,850,940
+src/components/Controls/TimeController.tsx
+  h_949a05ab995868 17-36,38
+src/components/Debug/DebugLinesPage.tsx
+  h_949a05ab995868 138,215,217
+src/components/Header/Header.tsx
+  h_949a05ab995868 5,19,25-36,39-40,43-44,49,54,73,440,453
+src/components/Map/DisplayFilterDock.tsx
+  h_949a05ab995868 4,17-23
+src/components/Map/TrainMap.tsx
+  h_949a05ab995868 1-2,25-37,39-45,47-53,55-58,60,62-66,83-84,94,98,100-102,117,128,271
+src/components/Map/hooks/useLeafletMap.ts
+  h_949a05ab995868 30-42,69-70,73-74,76,78,91-92,96-100,102-105,110,115,126,131-134
+src/components/Map/hooks/useStationMarkers.ts
+  h_949a05ab995868 23,32-35,38-39,41-42,49-50,53,55,64,73-74,79,124
+src/components/Map/hooks/useTrackPolylines.ts
+  h_949a05ab995868 18-20,59-61,65
+src/components/Map/hooks/useTrainMarkers.ts
+  h_949a05ab995868 198-199,201-202
+src/components/Modals/HelpModal.tsx
+  h_949a05ab995868 7-8,80
+src/components/Modals/InstallModal.tsx
+  h_949a05ab995868 3-9,13-14,16,19-23,27-30
+src/components/Modals/SettingsModal.tsx
+  h_949a05ab995868 1,13,15-17,19,26
+src/components/Modals/TestRunModal.tsx
+  h_949a05ab995868 1
+src/components/Modals/TestRunModal/ActiveTestTrainsBanner.tsx
+  h_949a05ab995868 1-99
+src/components/Modals/TestRunModal/CustomizeTab.tsx
+  h_949a05ab995868 1-354
+src/components/Modals/TestRunModal/PresetsTab.tsx
+  h_949a05ab995868 1-243
+src/components/Modals/TestRunModal/RouteTab.tsx
+  h_949a05ab995868 1-471
+src/components/Modals/TestRunModal/StopsTab.tsx
+  h_949a05ab995868 1-529
+src/components/Modals/TestRunModal/constants.ts
+  h_949a05ab995868 1-47
+src/components/Modals/TestRunModal/index.tsx
+  h_949a05ab995868 1-974
+src/components/Modals/TimetableModal.tsx
+  h_949a05ab995868 1,6,13,18-22,25,31,34-38,52
+src/components/Sidebar/Sidebar.tsx
+  h_949a05ab995868 13-24,26-29,31-32
+src/components/Sidebar/StationDetail.tsx
+  h_949a05ab995868 1,6,41,45-50,53-56
+src/components/Sidebar/TrainDetail.tsx
+  h_949a05ab995868 1,60-65,67-72,74-75,77-79,101
+src/contexts/SimulationContext.tsx
+  h_949a05ab995868 7,67-69,72,75,178-181,183,185-191
+src/data/linesRegistry.ts
+  h_949a05ab995868 454-470
+src/data/timetableData.ts
+  h_949a05ab995868 14,16,184-187,191-194,230-235,237-251,338
+src/data/timetableLoader.ts
+  h_949a05ab995868 10-12,14-35,38-39,41-50,79,92
+src/services/testTrainService.ts
+  h_949a05ab995868 15-19,21
+src/services/trainSimulation.ts
+  h_949a05ab995868 16-18
+src/utils/timeUtils.ts
+  h_949a05ab995868 1-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3e8450bd24f11b367f7280772939115a690dcf17",
+  "prompts": {},
+  "humans": {
+    "h_949a05ab995868": {
+      "author": "Genbu Hase <14960841+GenbuHase@users.noreply.github.com>"
+    }
+  }
+}
