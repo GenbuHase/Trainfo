@@ -132,11 +132,11 @@ function main() {
   // 1. 平日下り S-TRAIN 101, 103, 105, 107, 109号 (豊洲 -> 小手指)
   // ============================================================
   const weekdayDownStrains = [
-    { num: '77814', name: '101号', toyosuDep: '1729', yuraArr: '1735', yuraDep: '1736', iidaArr: '1745', iidaDep: '1746', kotakeArr: '1802', kotakeDep: '1802', nerimaArr: '1807', nerimaDep: '1808', shakuArr: '1812', shakuDep: '1813', hoyaArr: '1816', hoyaDep: '1817', tokoArr: '1828', tokoDep: '1829', nishiArr: '1832', nishiDep: '1833', koteArr: '1835' },
-    { num: '77815', name: '103号', toyosuDep: '1829', yuraArr: '1835', yuraDep: '1836', iidaArr: '1845', iidaDep: '1846', kotakeArr: '1902', kotakeDep: '1902', nerimaArr: '1907', nerimaDep: '1908', shakuArr: '1912', shakuDep: '1912', hoyaArr: '1916', hoyaDep: '1917', tokoArr: '1928', tokoDep: '1929', nishiArr: '1932', nishiDep: '1933', koteArr: '1935' },
-    { num: '77816', name: '105号', toyosuDep: '1929', yuraArr: '1935', yuraDep: '1936', iidaArr: '1944', iidaDep: '1946', kotakeArr: '2001', kotakeDep: '2001', nerimaArr: '2006', nerimaDep: '2007', shakuArr: '2012', shakuDep: '2012', hoyaArr: '2016', hoyaDep: '2017', tokoArr: '2028', tokoDep: '2029', nishiArr: '2032', nishiDep: '2033', koteArr: '2035' },
-    { num: '77817', name: '107号', toyosuDep: '2030', yuraArr: '2036', yuraDep: '2037', iidaArr: '2045', iidaDep: '2047', kotakeArr: '2101', kotakeDep: '2101', nerimaArr: '2106', nerimaDep: '2107', shakuArr: '2112', shakuDep: '2112', hoyaArr: '2116', hoyaDep: '2117', tokoArr: '2128', tokoDep: '2129', nishiArr: '2132', nishiDep: '2132', koteArr: '2135' },
-    { num: '77818', name: '109号', toyosuDep: '2130', yuraArr: '2136', yuraDep: '2137', iidaArr: '2145', iidaDep: '2147', kotakeArr: '2158', kotakeDep: '2158', nerimaArr: '2209', nerimaDep: '2210', shakuArr: '2214', shakuDep: '2214', hoyaArr: '2218', hoyaDep: '2219', tokoArr: '2228', tokoDep: '2228', nishiArr: '2231', nishiDep: '2232', koteArr: '2235' },
+    { num: '77814', trainNo: 'B1751M', name: '101号', toyosuDep: '1729', yuraArr: '1735', yuraDep: '1736', iidaArr: '1745', iidaDep: '1746', kotakeArr: '1802', kotakeDep: '1802', nerimaArr: '1807', nerimaDep: '1808', shakuArr: '1812', shakuDep: '1813', hoyaArr: '1816', hoyaDep: '1817', tokoArr: '1828', tokoDep: '1829', nishiArr: '1832', nishiDep: '1833', koteArr: '1835' },
+    { num: '77815', trainNo: 'B1853M', name: '103号', toyosuDep: '1829', yuraArr: '1835', yuraDep: '1836', iidaArr: '1845', iidaDep: '1846', kotakeArr: '1902', kotakeDep: '1902', nerimaArr: '1907', nerimaDep: '1908', shakuArr: '1912', shakuDep: '1912', hoyaArr: '1916', hoyaDep: '1917', tokoArr: '1928', tokoDep: '1929', nishiArr: '1932', nishiDep: '1933', koteArr: '1935' },
+    { num: '77816', trainNo: 'B1955M', name: '105号', toyosuDep: '1929', yuraArr: '1935', yuraDep: '1936', iidaArr: '1944', iidaDep: '1946', kotakeArr: '2001', kotakeDep: '2001', nerimaArr: '2006', nerimaDep: '2007', shakuArr: '2012', shakuDep: '2012', hoyaArr: '2016', hoyaDep: '2017', tokoArr: '2028', tokoDep: '2029', nishiArr: '2032', nishiDep: '2033', koteArr: '2035' },
+    { num: '77817', trainNo: 'B2057M', name: '107号', toyosuDep: '2030', yuraArr: '2036', yuraDep: '2037', iidaArr: '2045', iidaDep: '2047', kotakeArr: '2101', kotakeDep: '2101', nerimaArr: '2106', nerimaDep: '2107', shakuArr: '2112', shakuDep: '2112', hoyaArr: '2116', hoyaDep: '2117', tokoArr: '2128', tokoDep: '2129', nishiArr: '2132', nishiDep: '2132', koteArr: '2135' },
+    { num: '77818', trainNo: 'B2159M', name: '109号', toyosuDep: '2130', yuraArr: '2136', yuraDep: '2137', iidaArr: '2145', iidaDep: '2147', kotakeArr: '2158', kotakeDep: '2158', nerimaArr: '2209', nerimaDep: '2210', shakuArr: '2214', shakuDep: '2214', hoyaArr: '2218', hoyaDep: '2219', tokoArr: '2228', tokoDep: '2228', nishiArr: '2231', nishiDep: '2232', koteArr: '2235' },
   ];
 
   for (const s of weekdayDownStrains) {
@@ -154,7 +154,8 @@ function main() {
     yTrips.push({
       tripId: yTripId,
       lineId: 'yurakucho',
-      trainNumber: s.num,
+      trainId: s.num,
+      trainNumber: s.trainNo || s.num,
       trainType: 'strain',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
@@ -177,7 +178,8 @@ function main() {
     syTrips.push({
       tripId: syTripId,
       lineId: 'seibu_yurakucho',
-      trainNumber: s.num,
+      trainId: s.num,
+      trainNumber: s.trainNo || s.num,
       trainType: 'strain',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
@@ -204,7 +206,8 @@ function main() {
     siTrips.push({
       tripId: siTripId,
       lineId: 'seibu_ikebukuro',
-      trainNumber: s.num,
+      trainId: s.num,
+      trainNumber: s.trainNo || s.num,
       trainType: 'strain',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
@@ -226,8 +229,8 @@ function main() {
   // 2. 平日上り S-TRAIN 102, 104号 (所沢 -> 豊洲)
   // ============================================================
   const weekdayUpStrains = [
-    { num: '144439', name: '102号', tokoDep: '0623', hoyaArr: '0634', hoyaDep: '0635', shakuArr: '0639', shakuDep: '0641', nerimaArr: '0646', nerimaDep: '0646', kotakeArr: '0651', kotakeDep: '0651', iidaArr: '0707', iidaDep: '0708', yuraArr: '0717', yuraDep: '0718', toyosuArr: '0724' },
-    { num: '144440', name: '104号', tokoDep: '0839', hoyaArr: '0850', hoyaDep: '0851', shakuArr: '0855', shakuDep: '0857', nerimaArr: '0903', nerimaDep: '0903', kotakeArr: '0909', kotakeDep: '0909', iidaArr: '0925', iidaDep: '0927', yuraArr: '0937', yuraDep: '0939', toyosuArr: '0947' },
+    { num: '144439', trainNo: 'A652M', name: '102号', tokoDep: '0623', hoyaArr: '0634', hoyaDep: '0635', shakuArr: '0639', shakuDep: '0641', nerimaArr: '0646', nerimaDep: '0646', kotakeArr: '0651', kotakeDep: '0651', iidaArr: '0707', iidaDep: '0708', yuraArr: '0717', yuraDep: '0718', toyosuArr: '0724' },
+    { num: '144440', trainNo: 'A854M', name: '104号', tokoDep: '0839', hoyaArr: '0850', hoyaDep: '0851', shakuArr: '0855', shakuDep: '0857', nerimaArr: '0903', nerimaDep: '0903', kotakeArr: '0909', kotakeDep: '0909', iidaArr: '0925', iidaDep: '0927', yuraArr: '0937', yuraDep: '0939', toyosuArr: '0947' },
   ];
 
   for (const s of weekdayUpStrains) {
@@ -245,7 +248,8 @@ function main() {
     siTrips.push({
       tripId: siTripId,
       lineId: 'seibu_ikebukuro',
-      trainNumber: s.num,
+      trainId: s.num,
+      trainNumber: s.trainNo || s.num,
       trainType: 'strain',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
@@ -268,7 +272,8 @@ function main() {
     syTrips.push({
       tripId: syTripId,
       lineId: 'seibu_yurakucho',
-      trainNumber: s.num,
+      trainId: s.num,
+      trainNumber: s.trainNo || s.num,
       trainType: 'strain',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
@@ -293,7 +298,8 @@ function main() {
     yTrips.push({
       tripId: yTripId,
       lineId: 'yurakucho',
-      trainNumber: s.num,
+      trainId: s.num,
+      trainNumber: s.trainNo || s.num,
       trainType: 'strain',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
@@ -315,9 +321,9 @@ function main() {
   // 3. 土休日下り S-TRAIN 1, 3, 5号 (元町・中華街 -> 西武秩父/飯能/所沢)
   // ============================================================
   const holidayDownStrains = [
-    { num: '172007', name: '1号', shibuyaArr: '0826', shibuyaDep: '0827', shinArr: '0832', shinDep: '0833', ikeArr: '0839', ikeDep: '0841', kotakeArr: '0846', kotakeDep: '0846', nerimaArr: '0850', nerimaDep: '0850', shakuArr: '0854', shakuDep: '0854', tokoArr: '0906', tokoDep: '0907', irumaArr: '0917', irumaDep: '0918', hannoArr: '0925', hannoDep: '0928', chichibuArr: '1003', destId: 'SI-36', destName: '西武秩父' },
-    { num: '105731', name: '3号', shibuyaArr: '1731', shibuyaDep: '1732', shinArr: '1737', shinDep: '1738', ikeArr: '1744', ikeDep: '1746', kotakeArr: '1751', kotakeDep: '1751', nerimaArr: '1756', nerimaDep: '1756', shakuArr: '1801', shakuDep: '1801', tokoArr: '1813', tokoDep: '1814', irumaArr: '1825', irumaDep: '1826', hannoArr: '1833', destId: 'SI-26', destName: '飯能' },
-    { num: '105730', name: '5号', shibuyaArr: '2030', shibuyaDep: '2031', shinArr: '2036', shinDep: '2037', ikeArr: '2043', ikeDep: '2044', kotakeArr: '2049', kotakeDep: '2049', nerimaArr: '2053', nerimaDep: '2053', shakuArr: '2057', shakuDep: '2057', tokoArr: '2109', destId: 'SI-17', destName: '所沢' },
+    { num: '172007', trainNo: 'A851M', name: '1号', shibuyaArr: '0826', shibuyaDep: '0827', shinArr: '0832', shinDep: '0833', ikeArr: '0839', ikeDep: '0841', kotakeArr: '0846', kotakeDep: '0846', nerimaArr: '0850', nerimaDep: '0850', shakuArr: '0854', shakuDep: '0854', tokoArr: '0906', tokoDep: '0907', irumaArr: '0917', irumaDep: '0918', hannoArr: '0925', hannoDep: '0928', chichibuArr: '1003', destId: 'SI-36', destName: '西武秩父' },
+    { num: '105731', trainNo: 'A1753M', name: '3号', shibuyaArr: '1731', shibuyaDep: '1732', shinArr: '1737', shinDep: '1738', ikeArr: '1744', ikeDep: '1746', kotakeArr: '1751', kotakeDep: '1751', nerimaArr: '1756', nerimaDep: '1756', shakuArr: '1801', shakuDep: '1801', tokoArr: '1813', tokoDep: '1814', irumaArr: '1825', irumaDep: '1826', hannoArr: '1833', destId: 'SI-26', destName: '飯能' },
+    { num: '105730', trainNo: 'A2055M', name: '5号', shibuyaArr: '2030', shibuyaDep: '2031', shinArr: '2036', shinDep: '2037', ikeArr: '2043', ikeDep: '2044', kotakeArr: '2049', kotakeDep: '2049', nerimaArr: '2053', nerimaDep: '2053', shakuArr: '2057', shakuDep: '2057', tokoArr: '2109', destId: 'SI-17', destName: '所沢' },
   ];
 
   for (const s of holidayDownStrains) {
@@ -335,7 +341,8 @@ function main() {
     fTrips.push({
       tripId: fTripId,
       lineId: 'fukutoshin',
-      trainNumber: s.num,
+      trainId: s.num,
+      trainNumber: s.trainNo || s.num,
       trainType: 'strain',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
@@ -358,7 +365,8 @@ function main() {
     syTrips.push({
       tripId: syTripId,
       lineId: 'seibu_yurakucho',
-      trainNumber: s.num,
+      trainId: s.num,
+      trainNumber: s.trainNo || s.num,
       trainType: 'strain',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
@@ -387,7 +395,8 @@ function main() {
     siTrips.push({
       tripId: siTripId,
       lineId: 'seibu_ikebukuro',
-      trainNumber: s.num,
+      trainId: s.num,
+      trainNumber: s.trainNo || s.num,
       trainType: 'strain',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',
@@ -409,8 +418,8 @@ function main() {
   // 4. 土休日上り S-TRAIN 2, 4号 (飯能/西武秩父 -> 元町・中華街)
   // ============================================================
   const holidayUpStrains = [
-    { num: '144626', name: '2号', origId: 'SI-26', origName: '飯能', hannoDep: '0920', irumaArr: '0926', irumaDep: '0927', tokoArr: '0937', tokoDep: '0938', shakuArr: '0949', shakuDep: '0950', nerimaArr: '0954', nerimaDep: '0954', kotakeArr: '0958', kotakeDep: '0958', ikeArr: '1002', ikeDep: '1003', shinArr: '1009', shinDep: '1010', shibuyaArr: '1015', shibuyaDep: '1018' },
-    { num: '172006', name: '4号', origId: 'SI-36', origName: '西武秩父', chichibuDep: '1707', hannoArr: '1745', hannoDep: '1750', irumaArr: '1757', irumaDep: '1758', tokoArr: '1811', tokoDep: '1812', shakuArr: '1826', shakuDep: '1827', nerimaArr: '1832', nerimaDep: '1832', kotakeArr: '1837', kotakeDep: '1837', ikeArr: '1842', ikeDep: '1844', shinArr: '1850', shinDep: '1851', shibuyaArr: '1856', shibuyaDep: '1859' },
+    { num: '144626', trainNo: 'B952M', name: '2号', origId: 'SI-26', origName: '飯能', hannoDep: '0920', irumaArr: '0926', irumaDep: '0927', tokoArr: '0937', tokoDep: '0938', shakuArr: '0949', shakuDep: '0950', nerimaArr: '0954', nerimaDep: '0954', kotakeArr: '0958', kotakeDep: '0958', ikeArr: '1002', ikeDep: '1003', shinArr: '1009', shinDep: '1010', shibuyaArr: '1015', shibuyaDep: '1018' },
+    { num: '172006', trainNo: 'B1754M', name: '4号', origId: 'SI-36', origName: '西武秩父', chichibuDep: '1707', hannoArr: '1745', hannoDep: '1750', irumaArr: '1757', irumaDep: '1758', tokoArr: '1811', tokoDep: '1812', shakuArr: '1826', shakuDep: '1827', nerimaArr: '1832', nerimaDep: '1832', kotakeArr: '1837', kotakeDep: '1837', ikeArr: '1842', ikeDep: '1844', shinArr: '1850', shinDep: '1851', shibuyaArr: '1856', shibuyaDep: '1859' },
   ];
 
   for (const s of holidayUpStrains) {
@@ -433,7 +442,8 @@ function main() {
     siTrips.push({
       tripId: siTripId,
       lineId: 'seibu_ikebukuro',
-      trainNumber: s.num,
+      trainId: s.num,
+      trainNumber: s.trainNo || s.num,
       trainType: 'strain',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
@@ -456,7 +466,8 @@ function main() {
     syTrips.push({
       tripId: syTripId,
       lineId: 'seibu_yurakucho',
-      trainNumber: s.num,
+      trainId: s.num,
+      trainNumber: s.trainNo || s.num,
       trainType: 'strain',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'inbound',
@@ -481,7 +492,8 @@ function main() {
     fTrips.push({
       tripId: fTripId,
       lineId: 'fukutoshin',
-      trainNumber: s.num,
+      trainId: s.num,
+      trainNumber: s.trainNo || s.num,
       trainType: 'strain',
       trainName: `S-TRAIN ${s.name}`,
       direction: 'outbound',

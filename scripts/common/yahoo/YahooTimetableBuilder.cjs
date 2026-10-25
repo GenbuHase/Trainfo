@@ -2,6 +2,24 @@
 const fs = require('fs');
 const path = require('path');
 
+// 列車番号の正規化ルール
+function normalizeTrainNumber(rawNo) {
+  if (!rawNo) return '';
+  const trimmed = rawNo.trim();
+  if (trimmed.includes('+')) {
+    return trimmed
+      .split('+')
+      .map((p) => normalizeTrainNumber(p.trim()))
+      .join(' + ');
+  }
+  if (trimmed.endsWith('レ')) return trimmed;
+  if (/[a-zA-Z]$/.test(trimmed)) return trimmed;
+  if (/^\d{6}$/.test(trimmed)) return `${trimmed.slice(0, 3)}-${trimmed.slice(3)}レ`;
+  if (/^\d{3}-\d{3}$/.test(trimmed)) return `${trimmed}レ`;
+  if (/^\d+$/.test(trimmed) || /^Y\d+$/i.test(trimmed)) return `${trimmed}レ`;
+  return trimmed;
+}
+
 class YahooTimetableBuilder {
   /**
    * @param {Object} config - LineScraperConfig
@@ -9,6 +27,93 @@ class YahooTimetableBuilder {
   constructor(config) {
     this.config = config;
     this.loadStations();
+    this.loadVendorTrainNumbers();
+  }
+
+  /**
+   * 駅キャッシュ（scripts/cache/yahoo/<lineId>/stations/）から vendorTrainId をロード
+   */
+  loadVendorTrainNumbers() {
+    this.trainIdToVendor = new Map();
+    this.timeToVendor = new Map();
+
+    const lineId = this.config.lineId;
+    if (!lineId) return;
+
+    const cacheDir = path.resolve(process.cwd(), 'scripts/cache/yahoo', lineId, 'stations');
+    if (!fs.existsSync(cacheDir)) return;
+
+    try {
+      const files = fs.readdirSync(cacheDir).filter(f => f.endsWith('.json'));
+      for (const f of files) {
+        const isHoliday = f.includes('_k4');
+        const dayKey = isHoliday ? 'holiday' : 'weekday';
+        const parts = f.replace('.json', '').split('_');
+        const stationId = parts[1];
+
+        const fileContent = fs.readFileSync(path.join(cacheDir, f), 'utf8');
+        const data = JSON.parse(fileContent);
+        for (const h of data?.timetableItem?.hourTimeTable || []) {
+          const hour = parseInt(h.hour, 10);
+          for (const m of h.minTimeTable || []) {
+            if (!m.vendorTrainId) continue;
+            const norm = normalizeTrainNumber(m.vendorTrainId);
+            if (m.trainId) {
+              this.trainIdToVendor.set(`${dayKey}_${m.trainId}`, norm);
+              if (!this.trainIdToVendor.has(m.trainId)) {
+                this.trainIdToVendor.set(m.trainId, norm);
+              }
+            }
+            const min = parseInt(m.minute, 10);
+            const timeKey = `${dayKey}_${stationId}_${hour}:${min}`;
+            if (!this.timeToVendor.has(timeKey)) {
+              this.timeToVendor.set(timeKey, norm);
+            }
+          }
+        }
+      }
+    } catch (err) {
+      console.warn(`[YahooTimetableBuilder] Failed to load vendorTrainNumbers for ${lineId}:`, err.message);
+    }
+  }
+
+  /**
+   * 公式列車番号を解決（駅キャッシュ vendorTrainId / guideComment / フォールバック）
+   */
+  resolveTrainNumber(trainDetail, stops, isHoliday) {
+    const trainId = trainDetail.trainId;
+    const dayKey = isHoliday ? 'holiday' : 'weekday';
+
+    // 1. 駅キャッシュから trainId で突合
+    let vendorNo = this.trainIdToVendor.get(`${dayKey}_${trainId}`) || this.trainIdToVendor.get(trainId);
+
+    // 2. なければ各停車の時刻キーで突合
+    if (!vendorNo && stops && stops.length > 0) {
+      for (const stop of stops) {
+        if (!stop.departureTime || stop.isPassing) continue;
+        const [hh, mm] = stop.departureTime.split(':').map(Number);
+        const timeKey = `${dayKey}_${stop.stationId}_${hh}:${mm}`;
+        const found = this.timeToVendor.get(timeKey);
+        if (found) {
+          vendorNo = found;
+          break;
+        }
+      }
+    }
+
+    // 3. なければ guideComment から英数字列車番号を抽出
+    if (!vendorNo && trainDetail.guideComment) {
+      const m = trainDetail.guideComment.match(/\b([0-9]{2,4}[A-Za-z]|[A-Za-z][0-9]{2,4}[A-Za-z]?)\b/);
+      if (m) {
+        vendorNo = m[1];
+      }
+    }
+
+    if (vendorNo) {
+      return normalizeTrainNumber(vendorNo);
+    }
+
+    return trainId;
   }
 
   /**
@@ -296,6 +401,28 @@ class YahooTimetableBuilder {
       return null;
     }
 
+    // 他線を挟んで自線に戻る列車（例: 奥羽本線のリゾートしらかみ。東能代で五能線へ抜け、川部で復帰）は
+    // 区間ごとに独立したトリップにする。内陸の通過駅補間で別経路を走らせない。
+    if (this.config.keepAllLineSegments && !trainDetail._segmentBuilt && validSegments.length > 1) {
+      const originalStops = stopStation;
+      const trips = [];
+      for (let i = 0; i < validSegments.length; i++) {
+        const seg = validSegments[i];
+        const subStops = seg.map(s => s.rawStop).filter(raw => raw && raw.stationName);
+        if (subStops.length < 2) continue;
+        const sub = this.buildTrip({
+          ...trainDetail,
+          stopStation: subStops,
+          _segmentBuilt: true,
+          _segmentIndex: i,
+          _forceOriginName: originalStops[0]?.stationName,
+          _forceDestName: originalStops[originalStops.length - 1]?.stationName,
+        });
+        if (sub) trips.push(sub);
+      }
+      return trips.length > 0 ? trips : null;
+    }
+
     validSegments.sort((a, b) => b.length - a.length);
     const lineStops = validSegments[0];
 
@@ -567,19 +694,22 @@ class YahooTimetableBuilder {
       const customDestination = isInternalDestination ? undefined : customDestName;
 
       const firstDepTime = stops[0].departureTime.replace(/:/g, '').slice(0, 4);
-      const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}`;
+      const segSuffix = trainDetail._segmentIndex !== undefined ? `_s${trainDetail._segmentIndex}` : '';
+      const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}${segSuffix}`;
+      const forcedEndpoints = this.resolveForcedEndpoints(trainDetail, originSt, destSt);
 
       return {
         tripId,
         lineId: this.config.lineId,
-        trainNumber: trainId,
+        trainId,
+        trainNumber: this.resolveTrainNumber(trainDetail, stops, isHoliday),
         trainType,
         ...(trainName ? { trainName } : {}),
         direction,
         originStationId: originSt.id,
         destinationStationId: destSt.id,
-        customOrigin,
-        customDestination,
+        customOrigin: forcedEndpoints.customOrigin !== undefined ? forcedEndpoints.customOrigin : customOrigin,
+        customDestination: forcedEndpoints.customDestination !== undefined ? forcedEndpoints.customDestination : customDestination,
         cars: this.config.defaultCars || 8,
         isHoliday,
         stops,
@@ -751,19 +881,22 @@ class YahooTimetableBuilder {
     const customDestination = isInternalDestination ? undefined : customDestName;
 
     const firstDepTime = stops[0].departureTime.replace(/:/g, '').slice(0, 4);
-    const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}`;
+    const segSuffix = trainDetail._segmentIndex !== undefined ? `_s${trainDetail._segmentIndex}` : '';
+    const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}${segSuffix}`;
+    const forcedEndpoints = this.resolveForcedEndpoints(trainDetail, originSt, destSt);
 
     return {
       tripId,
       lineId: this.config.lineId,
-      trainNumber: trainId,
+      trainId,
+      trainNumber: this.resolveTrainNumber(trainDetail, stops, isHoliday),
       trainType,
       ...(trainName ? { trainName } : {}),
       direction,
       originStationId: originSt.id,
       destinationStationId: destSt.id,
-      customOrigin,
-      customDestination,
+      customOrigin: forcedEndpoints.customOrigin !== undefined ? forcedEndpoints.customOrigin : customOrigin,
+      customDestination: forcedEndpoints.customDestination !== undefined ? forcedEndpoints.customDestination : customDestination,
       cars: this.config.resolveCars
         ? this.config.resolveCars({
             originStationId: originSt.id,
@@ -779,6 +912,29 @@ class YahooTimetableBuilder {
   }
 
   /**
+   * 他線を挟んだ分割トリップでも、列車全体の始発・終着を行先表示に残す。
+   * @returns {{ customOrigin?: string, customDestination?: string }}
+   */
+  resolveForcedEndpoints(trainDetail, originSt, destSt) {
+    const result = {};
+    if (trainDetail._forceOriginName) {
+      const forced = this.config.stationNameAliases?.[trainDetail._forceOriginName] || trainDetail._forceOriginName;
+      const resolved = this.resolveStation(trainDetail._forceOriginName);
+      if (!resolved || resolved.id !== originSt.id) {
+        result.customOrigin = forced;
+      }
+    }
+    if (trainDetail._forceDestName) {
+      const forced = this.config.stationNameAliases?.[trainDetail._forceDestName] || trainDetail._forceDestName;
+      const resolved = this.resolveStation(trainDetail._forceDestName);
+      if (!resolved || resolved.id !== destSt.id) {
+        result.customDestination = forced;
+      }
+    }
+    return result;
+  }
+
+  /**
    * 全列車詳細マップから TimetableTrip 配列を合成
    * @param {Map<string, Object>|Array<Object>} trainDetails
    * @returns {Array<Object>}
@@ -790,7 +946,11 @@ class YahooTimetableBuilder {
     for (const detail of list) {
       try {
         const trip = this.buildTrip(detail);
-        if (trip) {
+        if (Array.isArray(trip)) {
+          for (const item of trip) {
+            if (item) trips.push(item);
+          }
+        } else if (trip) {
           trips.push(trip);
         }
       } catch (err) {
