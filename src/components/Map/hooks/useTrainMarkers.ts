@@ -7,7 +7,7 @@ import { isLocalTrainType } from '../../../data/trainTypes';
 import { getTrainTypeConfig } from '../../../data/linesRegistry';
 
 function generateTrainMarkerHtml(train: ActiveTrain, isSelected: boolean): string {
-  const typeConfig = getTrainTypeConfig(train.trainType, train.lineId);
+  const typeConfig = getTrainTypeConfig(train.trainType, train.lineId, train.customTrainType);
   const destSt = STATION_MAP.get(train.destinationStationId);
   const destText = train.customDestination || destSt?.name || '行先';
   const trainNo = formatTrainNumber(train.trainNumber, train.trainId, train.tripId);
@@ -60,6 +60,8 @@ function generateTrainMarkerHtml(train: ActiveTrain, isSelected: boolean): strin
 }
 
 function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: boolean) {
+  const typeConfig = getTrainTypeConfig(train.trainType, train.lineId, train.customTrainType);
+
   let pulseEl = el.querySelector('.train-pulse');
   if (isSelected) {
     if (!pulseEl) {
@@ -71,13 +73,26 @@ function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: b
     pulseEl.remove();
   }
 
-  const badgeEl = el.querySelector('.train-badge');
+  const badgeEl = el.querySelector<HTMLElement>('.train-badge');
   if (badgeEl) {
     badgeEl.classList.toggle('scale-125', isSelected);
     badgeEl.classList.toggle('ring-2', isSelected);
     badgeEl.classList.toggle('ring-white', isSelected);
     badgeEl.classList.toggle('shadow-xl', isSelected);
     badgeEl.classList.toggle('hover:scale-110', !isSelected);
+    if (badgeEl.style.backgroundColor !== typeConfig.bgColor) {
+      badgeEl.style.backgroundColor = typeConfig.bgColor;
+    }
+  }
+
+  const typeBadgeEl = el.querySelector<HTMLElement>('.train-type-badge');
+  if (typeBadgeEl) {
+    if (typeBadgeEl.style.backgroundColor !== typeConfig.bgColor) {
+      typeBadgeEl.style.backgroundColor = typeConfig.bgColor;
+    }
+    if (typeBadgeEl.textContent !== typeConfig.shortName) {
+      typeBadgeEl.textContent = typeConfig.shortName;
+    }
   }
 
   const pointerEl = el.querySelector<HTMLElement>('.train-arrow-pointer');

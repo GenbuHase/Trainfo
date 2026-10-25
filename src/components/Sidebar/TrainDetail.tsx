@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
-import type { ActiveTrain, Station, LineId, TrainTypeKey, ThroughChainStop, TimetableTrip } from '../../types';
+import type { ActiveTrain, Station, LineId, TrainTypeKey, ThroughChainStop, TimetableTrip, CustomTrainTypeConfig } from '../../types';
 import { TrainTypeBadge, StationBadge } from '../Common/Badges';
 import { STATION_MAP } from '../../data/stations';
 import { formatTrainNumber, getThroughChainTrips, buildThroughChainSummary } from '../../data/timetableData';
@@ -32,6 +32,7 @@ interface DisplayStop {
   lineColor: string;
   lineShortName: string;
   trainType: TrainTypeKey;
+  customTrainType?: CustomTrainTypeConfig;
   trainNumber?: string;
   trainName?: string;
   isCurrent: boolean;
@@ -115,6 +116,8 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
         trainId: train.trainId,
         trainNumber: train.trainNumber,
         trainType: train.trainType,
+        customTrainType: train.customTrainType,
+        trainName: train.trainName,
         direction: train.direction,
         originStationId: train.originStationId,
         destinationStationId: train.destinationStationId,
@@ -149,6 +152,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
           lineColor: s.lineColor,
           lineShortName: s.lineShortName,
           trainType: s.trainType,
+          customTrainType: s.customTrainType,
           trainNumber: s.trainNumber,
           trainName: s.trainName,
           isCurrent,
@@ -198,6 +202,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
         lineColor,
         lineShortName,
         trainType: train.trainType,
+        customTrainType: train.customTrainType,
         trainNumber: train.trainNumber,
         trainName: train.trainName,
         isCurrent,
@@ -225,7 +230,12 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                 </span>
               )}
               <div className="flex items-center gap-1.5">
-                <TrainTypeBadge type={train.trainType} size="md" lineId={train.lineId} />
+                <TrainTypeBadge
+                  type={train.trainType}
+                  size="md"
+                  lineId={train.lineId}
+                  customType={train.customTrainType}
+                />
                 {train.trainName && (
                   <span className="font-bold text-sm tracking-wide text-white drop-shadow-xs">
                     {train.trainName}
@@ -509,6 +519,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                               type={stop.boundaryInfo.nextTrainType}
                               size="sm"
                               lineId={stop.boundaryInfo.nextLineId}
+                              customType={stop.boundaryInfo.nextCustomTrainType}
                             />
                           )}
                           {stop.boundaryInfo.nextTrainNumber && (

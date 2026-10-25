@@ -1,5 +1,5 @@
 import React from 'react';
-import type { TrainTypeKey, LineId } from '../../types';
+import type { TrainTypeKey, LineId, CustomTrainTypeConfig } from '../../types';
 import { getTrainTypeConfig } from '../../data/linesRegistry';
 
 interface StationBadgeColor {
@@ -315,14 +315,15 @@ export const StationBadge: React.FC<{
   );
 };
 
-// 列車種別バッジ (普通, 準急, 急行, 快速急行, 川越特急, TJライナー, 快速, 通勤快速 等)
+// 列車種別バッジ (普通, 準急, 急行, 快速急行, 川越特急, TJライナー, 快速, 通勤快速, カスタム種別 等)
 export const TrainTypeBadge: React.FC<{
   type: TrainTypeKey;
   size?: 'sm' | 'md' | 'lg';
   showFullName?: boolean;
   lineId?: LineId;
-}> = ({ type, size = 'md', showFullName = true, lineId }) => {
-  const config = getTrainTypeConfig(type, lineId);
+  customType?: CustomTrainTypeConfig;
+}> = ({ type, size = 'md', showFullName = true, lineId, customType }) => {
+  const config = getTrainTypeConfig(type, lineId, customType);
 
   const sizeClasses = {
     sm: 'text-[10px] px-1.5 py-0.5 font-medium rounded',

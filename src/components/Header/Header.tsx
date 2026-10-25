@@ -105,6 +105,18 @@ export const Header: React.FC<HeaderProps> = ({
   const [isStandalone, setIsStandalone] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
 
+  // 現在登録されている試運転・臨時列車の編成数（平日/土休日別でユニークなtrainId数）
+  const activeCustomTrainCount = useMemo(() => {
+    const runningCount = activeTrains.filter((t) => t.isTestTrain || t.trainType === 'test_run').length;
+    if (runningCount > 0) return runningCount;
+    const uniqueChains = new Set(
+      simulation.testTrainTrips
+        .filter((t) => t.isHoliday === isHoliday)
+        .map((t) => t.trainId || t.tripId)
+    );
+    return uniqueChains.size;
+  }, [activeTrains, simulation.testTrainTrips, isHoliday]);
+
   // PWAインストール状態の監視
   useEffect(() => {
     setIsStandalone(isRunningStandalone());
@@ -207,6 +219,8 @@ export const Header: React.FC<HeaderProps> = ({
           (t) =>
             t.tripId.toLowerCase().includes(normalizedQuery) ||
             (t.trainNumber && t.trainNumber.toLowerCase().includes(normalizedQuery)) ||
+            (t.trainName && t.trainName.toLowerCase().includes(normalizedQuery)) ||
+            (t.customTrainType?.name && t.customTrainType.name.toLowerCase().includes(normalizedQuery)) ||
             (t.trainId && t.trainId.toLowerCase().includes(normalizedQuery)) ||
             t.destinationStationId.toLowerCase().includes(normalizedQuery) ||
             (t.customDestination && t.customDestination.toLowerCase().includes(normalizedQuery))
@@ -243,22 +257,22 @@ export const Header: React.FC<HeaderProps> = ({
         )}
       </div>
 
-      {/* 試験走行（試運転）列車ランチャー */}
+      {/* 試験走行（試運転）・臨時列車ランチャー */}
       <button
         type="button"
         onClick={ui.openTestRun}
         className={`pointer-events-auto shrink-0 flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg backdrop-blur-md text-xs font-semibold shadow-md border transition-all ${
-          simulation.testTrainTrips.length > 0
+          activeCustomTrainCount > 0
             ? 'bg-cyan-50 text-cyan-800 border-cyan-300 hover:bg-cyan-100'
             : 'bg-white/95 text-slate-700 border-slate-200 hover:bg-slate-50'
         }`}
-        title="試験走行（試運転）列車を発車・管理"
+        title="試運転・臨時列車クリエイターを開く"
       >
-        <FlaskConical className={`w-3.5 h-3.5 ${simulation.testTrainTrips.length > 0 ? 'text-cyan-600 animate-pulse' : 'text-slate-500'} shrink-0`} />
+        <FlaskConical className={`w-3.5 h-3.5 ${activeCustomTrainCount > 0 ? 'text-cyan-600 animate-pulse' : 'text-slate-500'} shrink-0`} />
         <span className="whitespace-nowrap">
-          {simulation.testTrainTrips.length > 0
-            ? `試運転中 (${simulation.testTrainTrips.length})`
-            : '試運転'}
+          {activeCustomTrainCount > 0
+            ? `試運転・臨時 (${activeCustomTrainCount})`
+            : '試運転・臨時'}
         </span>
       </button>
 
@@ -352,10 +366,10 @@ export const Header: React.FC<HeaderProps> = ({
                 type="button"
                 onClick={ui.openTestRun}
                 className="p-1.5 text-cyan-600 hover:text-cyan-800 hover:bg-cyan-50 rounded-md transition-colors relative"
-                title="試験走行（試運転）列車を発車"
+                title="試運転・臨時列車クリエイターを開く"
               >
                 <FlaskConical className="w-4 h-4" />
-                {simulation.testTrainTrips.length > 0 && (
+                {activeCustomTrainCount > 0 && (
                   <span className="absolute top-1 right-1 w-2 h-2 rounded-full bg-cyan-500 animate-pulse ring-1 ring-white" />
                 )}
               </button>
@@ -442,6 +456,9 @@ export const Header: React.FC<HeaderProps> = ({
                           <span className="font-mono text-sm font-semibold text-slate-800">
                             {formatTrainNumber(train.trainNumber, train.trainId, train.tripId)}
                           </span>
+                          {train.trainName && (
+                            <span className="text-xs font-bold text-amber-600">{train.trainName}</span>
+                          )}
                           <span className="text-xs text-slate-500">
                             {train.customDestination ? `${train.customDestination}行` : (train.direction === 'inbound' ? '上り' : '下り')}
                           </span>
@@ -453,7 +470,12 @@ export const Header: React.FC<HeaderProps> = ({
                         )}
                       </div>
                     </div>
-                    <TrainTypeBadge type={train.trainType} size="sm" lineId={train.lineId} />
+                    <TrainTypeBadge
+                      type={train.trainType}
+                      size="sm"
+                      lineId={train.lineId}
+                      customType={train.customTrainType}
+                    />
                   </button>
                 );
               })}

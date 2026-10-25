@@ -40,6 +40,8 @@ export function resolveActiveTrainInfo(
   trainNumber?: string;
   trainName?: string;
   trainType: TimetableTrip['trainType'];
+  customTrainType?: TimetableTrip['customTrainType'];
+  isTestTrain?: boolean;
   cars: number;
   isCoupledActive: boolean;
   totalCars?: number;
@@ -155,6 +157,8 @@ export function resolveActiveTrainInfo(
     trainNumber: resolvedNumber,
     trainName: trip.trainName,
     trainType: resolvedType,
+    customTrainType: trip.customTrainType,
+    isTestTrain: Boolean(trip.isTestTrain || trip.tripId?.startsWith('TEST_')),
     cars: isCoupledActive ? totalCars : trip.cars,
     isCoupledActive,
     totalCars: isCoupledActive ? totalCars : undefined,
@@ -363,6 +367,8 @@ export function calculateActiveTrains(
           isCoupledActive: trainInfo.isCoupledActive,
           totalCars: trainInfo.totalCars,
           trainType: trainInfo.trainType,
+          customTrainType: trainInfo.customTrainType,
+          isTestTrain: trainInfo.isTestTrain,
           direction: trip.direction,
           originStationId: trip.originStationId,
           destinationStationId: trip.destinationStationId,
@@ -444,6 +450,8 @@ export function calculateActiveTrains(
             isCoupledActive: trainInfo.isCoupledActive,
             totalCars: trainInfo.totalCars,
             trainType: trainInfo.trainType,
+            customTrainType: trainInfo.customTrainType,
+            isTestTrain: trainInfo.isTestTrain,
             direction: trip.direction,
             originStationId: trip.originStationId,
             destinationStationId: trip.destinationStationId,
@@ -551,7 +559,10 @@ export function calculateActiveTrains(
   const seenTrainKeys = new Set<string>();
 
   for (const train of candidateTrains) {
-    const primaryId = train.trainId || train.trainNumber || formatTrainNumber(train.trainNumber, train.trainId, train.tripId);
+    // 試運転・臨時列車は個別のtripIdを優先して複数本同時運行を許容
+    const primaryId = train.isTestTrain
+      ? train.tripId
+      : train.trainId || train.trainNumber || formatTrainNumber(train.trainNumber, train.trainId, train.tripId);
     const dest = train.customDestination || train.destinationStationId;
     const key = `${train.lineId}_${train.direction}_${primaryId}_${dest}`;
 

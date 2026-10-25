@@ -1,4 +1,4 @@
-import type { LineDefinition, LineId, Station, TrackSegment, TrainTypeConfig, TimetableTrip, StationTimetableStore } from '../types';
+import type { LineDefinition, LineId, Station, TrackSegment, TrainTypeConfig, TimetableTrip, StationTimetableStore, CustomTrainTypeConfig } from '../types';
 import { tojoLine } from './lines/tojo';
 import { ogoseLine } from './lines/ogose';
 import { saikyoLine } from './lines/saikyo';
@@ -300,14 +300,20 @@ export function getCombinedTrainTypes(selectedLineIds?: LineId[]): Record<string
   return combined;
 }
 
-// 路線と種別キーから種別設定を取得（路線固有の設定を優先、未指定時は全登録路線から検索）
-export function getTrainTypeConfig(type: string, lineId?: LineId): TrainTypeConfig {
+// 路線と種別キーから種別設定を取得（路線固有の設定を優先、未指定時は全登録路線から検索、カスタム種別の上書きに対応）
+export function getTrainTypeConfig(
+  type: string,
+  lineId?: LineId,
+  customTrainType?: CustomTrainTypeConfig
+): TrainTypeConfig {
+  let baseConfig: TrainTypeConfig | undefined;
+
   if (lineId && LINES_REGISTRY[lineId]) {
-    const config = LINES_REGISTRY[lineId].trainTypes[type];
-    if (config) return config;
+    baseConfig = LINES_REGISTRY[lineId].trainTypes[type];
   }
-  if (type === 'test_run') {
-    return {
+
+  if (!baseConfig && type === 'test_run') {
+    baseConfig = {
       key: 'test_run',
       name: '試運転',
       nameEn: 'Test Run',
@@ -318,19 +324,46 @@ export function getTrainTypeConfig(type: string, lineId?: LineId): TrainTypeConf
       borderColor: '#0369a1',
     };
   }
-  for (const line of getAllLines()) {
-    if (line.trainTypes[type]) return line.trainTypes[type];
+
+  if (!baseConfig) {
+    for (const line of getAllLines()) {
+      if (line.trainTypes[type]) {
+        baseConfig = line.trainTypes[type];
+        break;
+      }
+    }
   }
-  return {
-    key: type,
-    name: type,
-    nameEn: type,
-    shortName: type,
-    color: '#1e1c1c',
-    textColor: '#ffffff',
-    bgColor: '#1e1c1c',
-    borderColor: '#4a4646',
-  };
+
+  if (!baseConfig) {
+    baseConfig = {
+      key: type,
+      name: type,
+      nameEn: type,
+      shortName: type.slice(0, 2),
+      color: '#1e1c1c',
+      textColor: '#ffffff',
+      bgColor: '#1e1c1c',
+      borderColor: '#4a4646',
+    };
+  }
+
+  if (customTrainType && (customTrainType.name || customTrainType.color || customTrainType.shortName)) {
+    const resolvedName = customTrainType.name?.trim() || baseConfig.name;
+    const resolvedShort =
+      customTrainType.shortName?.trim() ||
+      (customTrainType.name?.trim() ? customTrainType.name.trim().slice(0, 2) : baseConfig.shortName);
+    const resolvedColor = customTrainType.color || baseConfig.bgColor;
+    return {
+      ...baseConfig,
+      name: resolvedName,
+      shortName: resolvedShort,
+      color: resolvedColor,
+      bgColor: resolvedColor,
+      borderColor: resolvedColor,
+    };
+  }
+
+  return baseConfig;
 }
 
 // 選択された路線（または全路線）のダイヤ（全列車）を取得
