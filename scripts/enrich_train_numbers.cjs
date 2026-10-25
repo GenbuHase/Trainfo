@@ -4301,3 +4301,177 @@ if (target === 'shinetsu_takasaki_yokokawa' || target === 'all') {
 
 
 
+
+/**
+ * 駅キャッシュ（scripts/cache/yahoo/<lineId>/stations/）の vendorTrainId による
+ * 全路線の汎用自動エンリッチメント処理
+ */
+function enrichAllLinesFromStationCache(specifiedLineId = null) {
+  console.log('=== 全路線 駅キャッシュ（vendorTrainId）汎用自動エンリッチメント開始 ===');
+
+  const linesDir = path.resolve('src/data/lines');
+  const lineFolders = specifiedLineId
+    ? [specifiedLineId]
+    : fs.readdirSync(linesDir).filter(f => fs.statSync(path.join(linesDir, f)).isDirectory());
+
+  let totalUpdatedTrips = 0;
+  let totalUpdatedStations = 0;
+
+  for (const lineId of lineFolders) {
+    const globalPath = path.join(linesDir, lineId, 'globalTimetable.json');
+    const stationPath = path.join(linesDir, lineId, 'stationTimetables.json');
+    const cacheDir = path.resolve('scripts/cache/yahoo', lineId, 'stations');
+
+    if (!fs.existsSync(globalPath) || !fs.existsSync(cacheDir)) {
+      continue;
+    }
+
+    const files = fs.readdirSync(cacheDir).filter(f => f.endsWith('.json'));
+    if (files.length === 0) continue;
+
+    // キャッシュからマップ構築
+    const trainIdToVendor = new Map();
+    const timeToVendor = new Map();
+
+    for (const f of files) {
+      const isHoliday = f.includes('_k4');
+      const dayKey = isHoliday ? 'holiday' : 'weekday';
+      const parts = f.replace('.json', '').split('_');
+      const stationId = parts[1];
+
+      try {
+        const fileContent = fs.readFileSync(path.join(cacheDir, f), 'utf8');
+        const data = JSON.parse(fileContent);
+        for (const h of data?.timetableItem?.hourTimeTable || []) {
+          const hour = parseInt(h.hour, 10);
+          for (const m of h.minTimeTable || []) {
+            if (!m.vendorTrainId) continue;
+            const norm = normalizeTrainNumber(m.vendorTrainId);
+            if (m.trainId) {
+              trainIdToVendor.set(`${dayKey}_${m.trainId}`, norm);
+              if (!trainIdToVendor.has(m.trainId)) {
+                trainIdToVendor.set(m.trainId, norm);
+              }
+            }
+            const min = parseInt(m.minute, 10);
+            const timeKey = `${dayKey}_${stationId}_${hour}:${min}`;
+            if (!timeToVendor.has(timeKey)) {
+              timeToVendor.set(timeKey, norm);
+            }
+          }
+        }
+      } catch (err) {}
+    }
+
+    if (trainIdToVendor.size === 0 && timeToVendor.size === 0) continue;
+
+    const trips = JSON.parse(fs.readFileSync(globalPath, 'utf8'));
+    let tripsUpdated = 0;
+    const tripIdToNo = new Map();
+    const trainIdToNo = new Map();
+
+    for (const trip of trips) {
+      const originalId = trip.trainId || trip.tripId.split('_').pop();
+      if (!trip.trainId) trip.trainId = originalId;
+
+      const dayKey = trip.isHoliday ? 'holiday' : 'weekday';
+      const curNo = trip.trainNumber;
+
+      // すでに公式列車番号（英字やレ付き、6桁など）になっている場合は尊重
+      const isAlreadyOfficial = Boolean(curNo && (curNo !== originalId || /[A-Za-zレ]/.test(curNo) || /^\d{6}$/.test(curNo)));
+
+      let officialNo = isAlreadyOfficial ? curNo : null;
+
+      if (!officialNo) {
+        // 1. trainId で突合
+        officialNo = trainIdToVendor.get(`${dayKey}_${originalId}`) || trainIdToVendor.get(originalId);
+
+        // 2. なければ停車駅時刻で突合
+        if (!officialNo && trip.stops) {
+          for (const s of trip.stops) {
+            if (!s.departureTime || s.isPassing) continue;
+            const [hh, mm] = s.departureTime.split(':').map(Number);
+            const found = timeToVendor.get(`${dayKey}_${s.stationId}_${hh}:${mm}`);
+            if (found) {
+              officialNo = found;
+              break;
+            }
+          }
+        }
+
+        // 3. なければ guideComment で突合
+        if (!officialNo && trip.guideComment) {
+          const m = trip.guideComment.match(/\b([0-9]{2,4}[A-Za-z]|[A-Za-z][0-9]{2,4}[A-Za-z]?)\b/);
+          if (m) officialNo = normalizeTrainNumber(m[1]);
+        }
+      }
+
+      if (officialNo && officialNo !== curNo) {
+        trip.trainNumber = officialNo;
+        tripsUpdated++;
+      }
+
+      if (trip.trainNumber) {
+        tripIdToNo.set(trip.tripId, trip.trainNumber);
+        trainIdToNo.set(`${dayKey}_${originalId}`, trip.trainNumber);
+        trainIdToNo.set(originalId, trip.trainNumber);
+      }
+    }
+
+    if (tripsUpdated > 0) {
+      safeWriteJson(globalPath, trips);
+      totalUpdatedTrips += tripsUpdated;
+      console.log(`[Universal Enrich] ${lineId.padEnd(20)}: ${tripsUpdated} 便に公式列車番号を注入`);
+    }
+
+    // stationTimetables.json の同期
+    if (fs.existsSync(stationPath)) {
+      try {
+        const stationTimetables = JSON.parse(fs.readFileSync(stationPath, 'utf8'));
+        let stUpdated = 0;
+
+        for (const day of ['weekday', 'holiday']) {
+          const dayData = stationTimetables[day] || {};
+          for (const stId of Object.keys(dayData)) {
+            for (const dir of ['inbound', 'outbound']) {
+              const deps = dayData[stId]?.[dir] || [];
+              for (const dep of deps) {
+                const lookupId = dep.trainId || dep.no;
+                let targetNo = null;
+
+                if (dep.tripId && tripIdToNo.has(dep.tripId)) {
+                  targetNo = tripIdToNo.get(dep.tripId);
+                } else if (trainIdToNo.has(`${day}_${lookupId}`)) {
+                  targetNo = trainIdToNo.get(`${day}_${lookupId}`);
+                } else if (trainIdToNo.has(lookupId)) {
+                  targetNo = trainIdToNo.get(lookupId);
+                }
+
+                if (targetNo && dep.no !== targetNo) {
+                  dep.trainId = lookupId;
+                  dep.no = targetNo;
+                  stUpdated++;
+                }
+              }
+            }
+          }
+        }
+
+        if (stUpdated > 0) {
+          safeWriteJson(stationPath, stationTimetables);
+          totalUpdatedStations += stUpdated;
+        }
+      } catch (e) {}
+    }
+  }
+
+  console.log(`\n🎉 全路線汎用エンリッチメント完了: 全 ${totalUpdatedTrips} 便 / 発車標 ${totalUpdatedStations} 件を更新\n`);
+}
+
+// 最後に全路線汎用エンリッチを実行（targetが指定された場合もフォールバックとして実行）
+if (target === 'all' || !target) {
+  enrichAllLinesFromStationCache();
+} else {
+  // 指定された路線単独の汎用エンリッチ
+  enrichAllLinesFromStationCache(target);
+}
