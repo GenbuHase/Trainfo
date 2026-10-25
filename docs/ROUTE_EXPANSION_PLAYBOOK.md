@@ -14,7 +14,8 @@ Trainfo は、複数事業者の路線が同一マップ・同一シミュレー
 ```text
 Trainfo/
 ├── docs/
-│   ├── ROUTE_EXPANSION_PLAYBOOK.md            # 本手順書
+│   ├── MAINTENANCE_GUIDE.md                   # 人力運用・日常保守ガイド（コマンドリファレンス）
+│   ├── ROUTE_EXPANSION_PLAYBOOK.md            # 本手順書（路線拡張詳細プレイブック）
 │   ├── PASSING_STOP_INTERPOLATION_SPEC.md     # 通過駅時刻補間・境界駅シームレス同期技術仕様書
 │   ├── ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md # 上下非対称・方向別軌道ルーティング設計指針
 │   ├── LINE_COLORS_GUIDELINES.md              # ラインカラー策定ガイドライン
@@ -281,15 +282,18 @@ node scripts/runYahooImporter.cjs --line <lineId>
 
 ---
 
-### Phase 4: 公式列車番号エンリッチメント（駅探ハイブリッド突合 & trainId/trainNumber分離）
+### Phase 4: 公式列車番号エンリッチメント（自動注入 & 駅探ハイブリッド突合）
 
-Yahoo! 路線情報から生成されたダイヤデータには、内部数字ID（例: `113841`, `28422`）しか含まれません。  
-鉄道本来の公式列車番号（例: `1001レ`, `2425T`, `1349M`, `002051`, `057051`, `A504S`, `9011M`）を注入し、ドメインモデルとして `trainId` と `trainNumber` を分離するため、駅探（Ekitan）データとのハイブリッド突合パイプラインを実行します。
+鉄道本来の公式列車番号（例: `1001レ`, `2425T`, `1349M`, `002051`, `057051`, `A504S`, `9011M`, `B1853M`）を保持し、ドメインモデルとして `trainId`（直通判定用システム内部ID）と `trainNumber`（表示用公式列車番号）を分離・注入します。
 
-#### 1. 駅探路線コードの特定 & 各駅コードの調査
-* **【推奨・高速アプローチ】Yahoo! 駅時刻表キャッシュの `vendorTrainId` による直接突合**:
-  * JR東日本や一部の私鉄線区では、Phase 3 で保存された駅時刻表キャッシュ（`scripts/cache/yahoo/<lineId>/stations/`）の `timetableItem.hourTimeTable[].minTimeTable[].vendorTrainId` に、公式列車番号（例: `120M`, `121M`, `2425M` 等）がすでに格納されている場合があります。
-  * この場合、駅探を新規スクレイピングすることなく、発車駅・発車時刻（`${dayKey}_${stationId}_${dir}_${hh}:${mm}`）をキーとした逆引きマップを構築して `globalTimetable.json` および `stationTimetables.json` に注入することで、**即座に突合率100.0%を達成可能**です（信越本線高崎～横川 `scripts/enrich_train_numbers.cjs` 内の `enrichShinetsuTakasaki` 実装を参照）。キャッシュに `vendorTrainId` が存在しない場合は、以下の駅探ハイブリッド突合パイプラインを実行します。
+> [!TIP]
+> **【自動注入アーキテクチャ】Phase 3 での完全自動注入**:  
+> `YahooTimetableBuilder.cjs` は、Phase 3 で保存された駅時刻表キャッシュ（`scripts/cache/yahoo/<lineId>/stations/`）の `timetableItem.hourTimeTable[].minTimeTable[].vendorTrainId` を自動的に読み込み、トリップ構築時に正規化された公式列車番号を最初から注入します。  
+> そのため、JR東日本各線や主要地下鉄・私鉄では、**個別スクリプトの作成不要で Phase 3 のインポーター実行時点で突合率 100.0% が自動達成**されます。  
+> 今後タイムテーブルを再生成（rebuild）しても、列車番号が生IDで上書きされて外れることはありません。
+
+#### 1. キャッシュに `vendorTrainId` がない路線の駅探ハイブリッド突合
+駅キャッシュに公式列車番号が存在しない事業者（つくばエクスプレス等）や、特定列車（Yahoo発車標のvendorTrainIdが空欄の座席指定列車等）に限り、駅探データとの突合パイプラインを実行します。
 * 駅探の時刻表URL体系: `https://ekitan.com/timetable/railway/line-station/<lineCode>-<stationIndex>/<direction>?dw=<dw>`
   * **曜日コード (`dw`) の厳密な仕様**:
     * `dw=0`: **平日ダイヤ**
@@ -337,10 +341,10 @@ Yahoo! 路線情報から生成されたダイヤデータには、内部数字I
    node scripts/enrich_train_numbers.cjs <lineId>
    ```
 
-> [!CAUTION]
-> **【厳重注意】ダイヤ再生成時の列車番号上書きと再エンリッチの必須化**:  
-> 後日、駅の追加、秒補間調整、欠落修正などで `runYahooImporter.cjs` を再実行した場合、`globalTimetable.json` と `stationTimetables.json` は再び数字列の生IDで上書きされます。  
-> **インポーターを実行した後は、必ず `node scripts/enrich_train_numbers.cjs <lineId>` を再実行して公式列車番号を復元してください。**
+> [!NOTE]
+> **【恒久耐障害性】ダイヤ再生成時の列車番号保護**:  
+> `YahooTimetableBuilder.cjs` および `enrich_train_numbers.cjs` に全路線汎用の自動注入機構が組み込まれているため、駅の追加や秒補間調整、新路線追加に伴う全路線再生成（`node scripts/rebuildAllTimetablesFromCache.cjs`）を実行しても、公式列車番号が消失することはありません。  
+> 必要に応じて `node scripts/audit_all_lines_status.cjs` を実行すれば、全路線の公式列車番号反映率（100.0%）をいつでも検証・監査できます。
 
 ---
 
