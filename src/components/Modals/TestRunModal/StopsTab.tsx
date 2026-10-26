@@ -7,6 +7,8 @@ import {
   Circle,
   CheckCircle2,
   Pin,
+  Timer,
+  CheckSquare2,
 } from 'lucide-react';
 import { getLine } from '../../../data/linesRegistry';
 import { STATION_MAP } from '../../../data/stations';
@@ -62,7 +64,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
           <div className="space-y-2">
             <div className="flex items-center gap-2 flex-wrap">
               <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 shrink-0">
-                <Clock className="w-3.5 h-3.5 text-sky-600" />
+                <Clock className="w-3.5 h-3.5 text-slate-400" />
                 <span>発車時刻</span>
               </label>
               <div className="inline-flex rounded-lg bg-slate-100 p-0.5 border border-slate-200">
@@ -147,8 +149,9 @@ export const StopsTab: React.FC<StopsTabProps> = ({
           {/* 標準停車時間 & 手動時刻リセット */}
           <div>
             <div className="flex items-center justify-between mb-1.5">
-              <label className="text-[11px] font-bold text-slate-700">
-                各駅の標準停車時間
+              <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1">
+                <Timer className="w-3.5 h-3.5 text-slate-400" />
+                <span>各駅の標準停車時間</span>
               </label>
               <button
                 type="button"
@@ -199,6 +202,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-1.5 flex-wrap">
             <span className="text-[11px] font-bold text-slate-500 mr-1 flex items-center gap-1">
+              <CheckSquare2 className="w-3.5 h-3.5 text-slate-400" />
               <span>停車駅一括設定:</span>
               {selectedStopSegmentFilter !== 'all' ? (
                 <span className="text-[10px] text-sky-700 bg-sky-50 px-1.5 py-0.5 rounded border border-sky-200">

@@ -7,6 +7,9 @@ import {
   Search,
   Gauge,
   Hash,
+  MapPin,
+  Flag,
+  Tag,
 } from 'lucide-react';
 import type { LineId, TrainTypeKey, LineDefinition } from '../../../types';
 import { getLine } from '../../../data/linesRegistry';
@@ -154,8 +157,9 @@ export const RouteTab: React.FC<RouteTabProps> = ({
                   {/* 開始駅 ➔ 終了駅 セレクタ */}
                   <div className="grid grid-cols-1 sm:grid-cols-11 gap-2 items-center bg-slate-50 p-3 rounded-xl border border-slate-200/70">
                     <div className="sm:col-span-5">
-                      <label className="text-[10px] font-bold text-slate-500 block mb-1">
-                        {segIdx === 0 ? '始発駅' : '接続駅'}
+                      <label className="text-[10px] font-bold text-slate-500 flex items-center gap-1 mb-1">
+                        <MapPin className="w-3 h-3 text-slate-400" />
+                        <span>{segIdx === 0 ? '始発駅' : '接続駅'}</span>
                       </label>
                       <select
                         value={seg.fromStationId}
@@ -193,10 +197,13 @@ export const RouteTab: React.FC<RouteTabProps> = ({
                     </div>
 
                     <div className="sm:col-span-5">
-                      <label className="text-[10px] font-bold text-slate-500 block mb-1">
-                        {segIdx === computedPlan.segments.length - 1
-                          ? '終着駅'
-                          : '接続駅'}
+                      <label className="text-[10px] font-bold text-slate-500 flex items-center gap-1 mb-1">
+                        <Flag className="w-3 h-3 text-slate-400" />
+                        <span>
+                          {segIdx === computedPlan.segments.length - 1
+                            ? '終着駅'
+                            : '接続駅'}
+                        </span>
                       </label>
                       <select
                         value={seg.toStationId}
@@ -226,8 +233,9 @@ export const RouteTab: React.FC<RouteTabProps> = ({
                   {/* この路線での列車種別セレクタ */}
                   <div>
                     <div className="flex items-center justify-between mb-1.5">
-                      <label className="text-[11px] font-bold text-slate-700">
-                        列車種別
+                      <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1">
+                        <Tag className="w-3.5 h-3.5 text-slate-400" />
+                        <span>列車種別</span>
                       </label>
                       <span className="text-[10px] text-slate-400">
                         {seg.direction === 'outbound'
