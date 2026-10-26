@@ -59,12 +59,12 @@ export const StopsTab: React.FC<StopsTabProps> = ({
       <div className="bg-white rounded-xl border border-slate-200 p-4 space-y-3 shadow-2xs">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pb-3 border-b border-slate-100">
           {/* 始発駅の発車時刻モード */}
-          <div>
-            <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 mb-1.5">
-              <Clock className="w-3.5 h-3.5 text-sky-600" />
-              <span>発車時刻</span>
-            </label>
+          <div className="space-y-2">
             <div className="flex items-center gap-2 flex-wrap">
+              <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 shrink-0">
+                <Clock className="w-3.5 h-3.5 text-sky-600" />
+                <span>発車時刻</span>
+              </label>
               <div className="inline-flex rounded-lg bg-slate-100 p-0.5 border border-slate-200">
                 <button
                   type="button"
@@ -108,40 +108,40 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                   時刻指定
                 </button>
               </div>
-
-              {computedPlan.departureMode === 'scheduled' && (
-                <div className="flex items-center gap-2">
-                  <input
-                    type="time"
-                    value={secondsToHHMM(computedPlan.scheduledStartSec)}
-                    onChange={(e) => {
-                      const newSec = hhmmToSeconds(e.target.value);
-                      onSetPlan((prev) =>
-                        recalculatePlanSchedule(
-                          { ...prev, scheduledStartSec: newSec },
-                          currentSec
-                        )
-                      );
-                    }}
-                    className="px-2 py-1 border border-sky-300 rounded-lg text-xs font-mono font-bold text-slate-800 bg-sky-50/40"
-                  />
-                  <label className="inline-flex items-center gap-1 text-[11px] text-slate-600 cursor-pointer select-none">
-                    <input
-                      type="checkbox"
-                      checked={computedPlan.seekToStartOnLaunch}
-                      onChange={(e) =>
-                        onSetPlan((prev) => ({
-                          ...prev,
-                          seekToStartOnLaunch: e.target.checked,
-                        }))
-                      }
-                      className="rounded text-sky-600"
-                    />
-                    <span>発車時に指定された時刻へ移動</span>
-                  </label>
-                </div>
-              )}
             </div>
+
+            {computedPlan.departureMode === 'scheduled' && (
+              <div className="flex items-center gap-2 flex-wrap">
+                <input
+                  type="time"
+                  value={secondsToHHMM(computedPlan.scheduledStartSec)}
+                  onChange={(e) => {
+                    const newSec = hhmmToSeconds(e.target.value);
+                    onSetPlan((prev) =>
+                      recalculatePlanSchedule(
+                        { ...prev, scheduledStartSec: newSec },
+                        currentSec
+                      )
+                    );
+                  }}
+                  className="px-2.5 py-1 border border-sky-300 rounded-lg text-xs font-mono font-bold text-slate-800 bg-sky-50/40 focus:bg-white focus:outline-hidden focus:border-sky-500 shadow-2xs"
+                />
+                <label className="inline-flex items-center gap-1.5 text-[11px] text-slate-600 cursor-pointer select-none">
+                  <input
+                    type="checkbox"
+                    checked={computedPlan.seekToStartOnLaunch}
+                    onChange={(e) =>
+                      onSetPlan((prev) => ({
+                        ...prev,
+                        seekToStartOnLaunch: e.target.checked,
+                      }))
+                    }
+                    className="rounded text-sky-600"
+                  />
+                  <span>発車時に指定された時刻へ移動</span>
+                </label>
+              </div>
+            )}
           </div>
 
           {/* 標準停車時間 & 手動時刻リセット */}
