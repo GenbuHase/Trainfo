@@ -369,7 +369,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                   </div>
                   <div className="text-xs font-bold text-white truncate">
                     {train.trainName ? `${train.trainName} ` : ''}
-                    <span className="font-mono">{formatTrainNumber(train.trainNumber, train.trainId, train.tripId)}</span>
+                    <span className="font-mono text-sm text-amber-300 font-bold">{formatTrainNumber(train.trainNumber, train.trainId, train.tripId)}</span>
                   </div>
                 </div>
                 <div className="text-[11px] text-sky-200/90 truncate mt-1">
@@ -394,7 +394,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                   </div>
                   <div className="text-xs font-bold text-slate-200 group-hover:text-white truncate">
                     {coupledTrainName ? `${coupledTrainName} ` : ''}
-                    <span className="font-mono">{train.coupling.coupledTrainNumber}</span>
+                    <span className="font-mono text-sm text-amber-300 font-bold">{train.coupling.coupledTrainNumber}</span>
                   </div>
                 </div>
                 <div className="text-[11px] text-slate-400 group-hover:text-slate-200 truncate mt-1 flex items-center justify-between">
