@@ -342,67 +342,69 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
             <p className="text-xs text-slate-400 mt-1">
               始発: {train.customOrigin || originStation?.name || '始発駅'} 発
             </p>
-            {train.isCoupledActive && train.coupling && (
-              <div className="mt-3 bg-slate-900/90 rounded-xl p-2.5 border border-sky-500/30 shadow-inner">
-                <div className="flex items-center justify-between mb-2 text-[11px]">
-                  <span className="font-bold text-sky-300 flex items-center gap-1">
-                    <Link2 className="w-3.5 h-3.5 text-sky-400 shrink-0" />
-                    併結 ({train.totalCars || train.cars + train.coupling.coupledCars}両)
-                  </span>
-                  <span className="text-[10px] text-slate-400">タップして切替</span>
-                </div>
-
-                <div className="grid grid-cols-2 gap-2">
-                  {/* 現在フォーカス中の編成 */}
-                  <div className="bg-sky-500/20 border border-sky-400/80 rounded-lg p-2 flex flex-col justify-between shadow-xs">
-                    <div>
-                      <div className="flex items-center justify-between text-[10px] mb-0.5">
-                        <span className="font-bold text-sky-300 flex items-center gap-1">
-                          <CheckCircle2 className="w-3 h-3 text-sky-400" />
-                          {train.coupling.role === 'PRIMARY' ? '主編成' : '併結編成'}
-                        </span>
-                        <span className="text-slate-300 font-mono text-[10px]">{train.cars}両</span>
-                      </div>
-                      <div className="text-xs font-bold text-white truncate">
-                        {train.trainName ? `${train.trainName} ` : ''}
-                        <span className="font-mono">{formatTrainNumber(train.trainNumber, train.trainId, train.tripId)}</span>
-                      </div>
-                    </div>
-                    <div className="text-[11px] text-sky-200/90 truncate mt-1">
-                      {train.customDestination || destStation?.name} 行
-                    </div>
-                  </div>
-
-                  {/* 併結相手の編成（クリックで切り替え） */}
-                  <button
-                    type="button"
-                    onClick={handleSwitchCoupledFocus}
-                    className="bg-slate-800/90 hover:bg-slate-700 active:scale-98 border border-slate-700 hover:border-sky-400/60 rounded-lg p-2 flex flex-col justify-between text-left transition-all group cursor-pointer shadow-xs"
-                    title="この編成にフォーカスを切り替える"
-                  >
-                    <div>
-                      <div className="flex items-center justify-between text-[10px] mb-0.5">
-                        <span className="text-slate-400 group-hover:text-sky-300 font-medium flex items-center gap-1 transition-colors">
-                          <ArrowLeftRight className="w-3 h-3 text-sky-400 group-hover:rotate-180 transition-transform duration-300" />
-                          {train.coupling.role === 'PRIMARY' ? '併結編成' : '主編成'}
-                        </span>
-                        <span className="text-slate-400 font-mono text-[10px]">{train.coupling.coupledCars}両</span>
-                      </div>
-                      <div className="text-xs font-bold text-slate-200 group-hover:text-white truncate">
-                        {coupledTrainName ? `${coupledTrainName} ` : ''}
-                        <span className="font-mono">{train.coupling.coupledTrainNumber}</span>
-                      </div>
-                    </div>
-                    <div className="text-[11px] text-slate-400 group-hover:text-slate-200 truncate mt-1 flex items-center justify-between">
-                      <span className="truncate">{coupledDestination || '行先未定'} 行</span>
-                      <span className="text-[10px] text-sky-400 font-bold ml-1 shrink-0">切替</span>
-                    </div>
-                  </button>
-                </div>
-              </div>
-            )}
           </div>
         </div>
+
+        {/* 併結フォーカス切替パネル（追尾ボタンと同等のフル幅で配置） */}
+        {train.isCoupledActive && train.coupling && (
+          <div className="mt-3.5 bg-slate-900/90 rounded-xl p-2.5 border border-sky-500/30 shadow-inner w-full">
+            <div className="flex items-center justify-between mb-2 text-[11px]">
+              <span className="font-bold text-sky-300 flex items-center gap-1">
+                <Link2 className="w-3.5 h-3.5 text-sky-400 shrink-0" />
+                併結 ({train.totalCars || train.cars + train.coupling.coupledCars}両)
+              </span>
+              <span className="text-[10px] text-slate-400">タップして切替</span>
+            </div>
+
+            <div className="grid grid-cols-2 gap-2">
+              {/* 現在フォーカス中の編成 */}
+              <div className="bg-sky-500/20 border border-sky-400/80 rounded-lg p-2 flex flex-col justify-between shadow-xs">
+                <div>
+                  <div className="flex items-center justify-between text-[10px] mb-0.5">
+                    <span className="font-bold text-sky-300 flex items-center gap-1">
+                      <CheckCircle2 className="w-3 h-3 text-sky-400" />
+                      {train.coupling.role === 'PRIMARY' ? '主編成' : '併結編成'}
+                    </span>
+                    <span className="text-slate-300 font-mono text-[10px]">{train.cars}両</span>
+                  </div>
+                  <div className="text-xs font-bold text-white truncate">
+                    {train.trainName ? `${train.trainName} ` : ''}
+                    <span className="font-mono">{formatTrainNumber(train.trainNumber, train.trainId, train.tripId)}</span>
+                  </div>
+                </div>
+                <div className="text-[11px] text-sky-200/90 truncate mt-1">
+                  {train.customDestination || destStation?.name} 行
+                </div>
+              </div>
+
+              {/* 併結相手の編成（クリックで切り替え） */}
+              <button
+                type="button"
+                onClick={handleSwitchCoupledFocus}
+                className="bg-slate-800/90 hover:bg-slate-700 active:scale-98 border border-slate-700 hover:border-sky-400/60 rounded-lg p-2 flex flex-col justify-between text-left transition-all group cursor-pointer shadow-xs"
+                title="この編成にフォーカスを切り替える"
+              >
+                <div>
+                  <div className="flex items-center justify-between text-[10px] mb-0.5">
+                    <span className="text-slate-400 group-hover:text-sky-300 font-medium flex items-center gap-1 transition-colors">
+                      <ArrowLeftRight className="w-3.5 h-3.5 text-sky-400 group-hover:rotate-180 transition-transform duration-300" />
+                      {train.coupling.role === 'PRIMARY' ? '併結編成' : '主編成'}へ
+                    </span>
+                    <span className="text-slate-400 font-mono text-[10px]">{train.coupling.coupledCars}両</span>
+                  </div>
+                  <div className="text-xs font-bold text-slate-200 group-hover:text-white truncate">
+                    {coupledTrainName ? `${coupledTrainName} ` : ''}
+                    <span className="font-mono">{train.coupling.coupledTrainNumber}</span>
+                  </div>
+                </div>
+                <div className="text-[11px] text-slate-400 group-hover:text-slate-200 truncate mt-1 flex items-center justify-between">
+                  <span className="truncate">{coupledDestination || '行先未定'} 行</span>
+                  <span className="text-[10px] text-sky-400 font-bold ml-1 shrink-0">切替</span>
+                </div>
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* 列車追尾トグルボタン */}
         <div className="mt-4">
