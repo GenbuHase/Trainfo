@@ -14,6 +14,8 @@ import {
   LocateFixed,
   Eye,
   EyeOff,
+  ChevronDown,
+  ChevronUp,
 } from 'lucide-react';
 import { useSelection } from '../../contexts/SelectionContext';
 
@@ -82,6 +84,19 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
     setTimelineModeState({ chainRootId: currentChainRootId, mode });
   };
 
+  const isTerminated = train.status === 'TERMINATED';
+  const [passedCollapsedState, setPassedCollapsedState] = useState<{
+    tripId: string;
+    isCollapsed: boolean;
+  }>({ tripId: train.tripId, isCollapsed: !isTerminated });
+
+  const isPassedCollapsed =
+    passedCollapsedState.tripId === train.tripId ? passedCollapsedState.isCollapsed : !isTerminated;
+
+  const setIsPassedCollapsed = (isCollapsed: boolean) => {
+    setPassedCollapsedState({ tripId: train.tripId, isCollapsed });
+  };
+
   // 直通先・直通元路線の自動非同期ロード & ロード完了リスナー
   useEffect(() => {
     const needed: LineId[] = [];
@@ -144,7 +159,10 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
   const displayStops: DisplayStop[] = useMemo(() => {
     if (isFullMode && throughSummary.stops.length > 0) {
       return throughSummary.stops.map((s) => {
-        const isCurrent = train.currentStationId === s.stationId;
+        const isCurrent =
+          train.status === 'STOPPING' &&
+          train.currentStationId === s.stationId &&
+          (!train.lineId || s.lineId === train.lineId);
         return {
           stationId: s.stationId,
           name: s.stationName,
@@ -182,7 +200,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
 
     return train.stops.map((s) => {
       const st = STATION_MAP.get(s.stationId);
-      const isCurrent = train.currentStationId === s.stationId;
+      const isCurrent = train.status === 'STOPPING' && train.currentStationId === s.stationId;
       const trainNumberChange = train.trainNumberSections?.find((sec) => sec.fromStationId === s.stationId)?.trainNumber;
       
       let couplingStart = Boolean(train.coupling?.fromStationId === s.stationId);
@@ -217,6 +235,43 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
       };
     });
   }, [isFullMode, throughSummary.stops, train, lineColor, lineShortName, chainTrips]);
+
+  // 通過済み停車駅数の算出
+  const passedCount = useMemo(() => {
+    if (displayStops.length === 0) return 0;
+    if (train.status === 'TERMINATED') {
+      return displayStops.length;
+    }
+
+    if (train.status === 'STOPPING') {
+      // 停車中: 停車駅より前の駅が通過済み
+      let curIdx = displayStops.findIndex(
+        (s) => s.stationId === train.currentStationId && (!isFullMode || s.lineId === train.lineId)
+      );
+      if (curIdx === -1) {
+        curIdx = displayStops.findIndex((s) => s.stationId === train.currentStationId);
+      }
+      return curIdx > 0 ? curIdx : 0;
+    } else {
+      // 走行中: 次駅（nextStationId）より前の駅が通過済み（現駅 currentStationId も発車済みのため含む）
+      let nextIdx = displayStops.findIndex(
+        (s) => s.stationId === train.nextStationId && (!isFullMode || s.lineId === train.lineId)
+      );
+      if (nextIdx === -1) {
+        nextIdx = displayStops.findIndex((s) => s.stationId === train.nextStationId);
+      }
+      if (nextIdx > 0) {
+        return nextIdx;
+      }
+      let curIdx = displayStops.findIndex(
+        (s) => s.stationId === train.currentStationId && (!isFullMode || s.lineId === train.lineId)
+      );
+      if (curIdx === -1) {
+        curIdx = displayStops.findIndex((s) => s.stationId === train.currentStationId);
+      }
+      return curIdx >= 0 ? curIdx + 1 : 0;
+    }
+  }, [displayStops, train.status, train.currentStationId, train.nextStationId, train.lineId, isFullMode]);
 
   return (
     <div className="flex flex-col h-full bg-white text-slate-800 overflow-y-auto">
@@ -428,7 +483,64 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
           </div>
 
           <div className="relative pl-7 space-y-4 before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-0.5 before:bg-slate-200">
+            {/* 通過済み駅の折り畳み表示バー (折り畳み時) */}
+            {passedCount > 0 && isPassedCollapsed && (
+              <div className="relative">
+                <div className="absolute -left-7 inset-y-0 w-6 flex items-center justify-center pointer-events-none z-10">
+                  <div className="w-2.5 h-2.5 rounded-full bg-slate-300 border-2 border-white ring-2 ring-slate-200" />
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setIsPassedCollapsed(false)}
+                  className="w-full flex items-center justify-between px-3 py-1.5 text-xs text-slate-600 bg-slate-50 hover:bg-slate-100/90 active:bg-slate-200 border border-slate-200/90 rounded-lg transition-colors group cursor-pointer shadow-2xs"
+                  title="通過済みの駅を表示"
+                >
+                  <div className="flex items-center gap-1.5 min-w-0">
+                    <span className="font-bold text-slate-700 text-[11px] whitespace-nowrap">
+                      通過済み {passedCount}駅
+                    </span>
+                    <span className="text-[10px] text-slate-400 truncate">
+                      ({displayStops[0]?.name} 〜 {displayStops[passedCount - 1]?.name})
+                    </span>
+                  </div>
+                  <div className="flex items-center gap-1 text-[11px] text-slate-500 group-hover:text-slate-700 font-medium shrink-0 ml-1.5">
+                    <span>表示</span>
+                    <ChevronDown className="w-3.5 h-3.5 transition-transform group-hover:translate-y-0.5" />
+                  </div>
+                </button>
+              </div>
+            )}
+
+            {/* 通過済み駅の折り畳みボタン (展開時) */}
+            {passedCount > 0 && !isPassedCollapsed && (
+              <div className="relative">
+                <div className="absolute -left-7 inset-y-0 w-6 flex items-center justify-center pointer-events-none z-10">
+                  <div className="w-2 h-2 rounded-full bg-slate-300" />
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setIsPassedCollapsed(true)}
+                  className="w-full flex items-center justify-between px-3 py-1 text-xs text-slate-500 bg-slate-50/80 hover:bg-slate-100 active:bg-slate-200 border border-dashed border-slate-200 rounded-lg transition-colors group cursor-pointer"
+                  title="通過済みの駅を折り畳む"
+                >
+                  <span className="font-semibold text-slate-600 text-[11px]">
+                    通過済みの駅 ({passedCount}駅) を折り畳む
+                  </span>
+                  <div className="flex items-center gap-1 text-[11px] text-slate-400 group-hover:text-slate-600 shrink-0">
+                    <span>折り畳む</span>
+                    <ChevronUp className="w-3.5 h-3.5 transition-transform group-hover:-translate-y-0.5" />
+                  </div>
+                </button>
+              </div>
+            )}
+
+            {/* 停車駅一覧 */}
             {displayStops.map((stop, idx) => {
+              const isPassed = idx < passedCount;
+              if (isPassed && isPassedCollapsed) {
+                return null;
+              }
+
               const st = STATION_MAP.get(stop.stationId);
               if (!st) return null;
 
@@ -436,12 +548,37 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
               const isLast = idx === displayStops.length - 1;
               const itemLineColor = isFullMode ? stop.lineColor : lineColor;
 
+              // 走行中（RUNNING）かつ通過済み区間の直後の駅の手前に「区間走行中」インジケーターを表示
+              const showRunningIndicatorBeforeThis = train.status === 'RUNNING' && idx === passedCount;
+
               return (
                 <React.Fragment key={`${stop.lineId}_${stop.stationId}_${idx}`}>
+                  {showRunningIndicatorBeforeThis && (
+                    <div className="relative py-0.5 select-none flex items-center gap-2">
+                      <div className="absolute -left-7 inset-y-0 w-6 flex items-center justify-center pointer-events-none z-10">
+                        <div className="relative flex items-center justify-center">
+                          <div className="w-3 h-3 rounded-full bg-amber-400 animate-ping absolute opacity-70" />
+                          <div className="w-2.5 h-2.5 rounded-full bg-amber-500 border border-white" />
+                        </div>
+                      </div>
+                      <div className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-amber-50 text-amber-800 border border-amber-200/90 shadow-2xs">
+                        <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
+                        <span>区間走行中</span>
+                        {train.speedKmh > 0 && (
+                          <span className="font-mono text-[10px] text-amber-700 font-bold ml-0.5">
+                            {Math.round(train.speedKmh)} km/h
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  )}
+
                   <div
                     role="button"
                     tabIndex={0}
-                    className="relative group cursor-pointer select-none"
+                    className={`relative group cursor-pointer select-none transition-opacity ${
+                      isPassed ? 'opacity-40 hover:opacity-90' : ''
+                    }`}
                     onClick={() => onSelectStation(st)}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' || e.key === ' ') {
@@ -458,9 +595,11 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                             ? 'w-3.5 h-3.5 bg-amber-500 border-2 border-white ring-4 ring-amber-300 ring-opacity-70 animate-pulse'
                             : isPassing
                             ? 'w-2 h-2 bg-slate-300 border border-slate-300'
+                            : isPassed
+                            ? 'w-3 h-3 bg-slate-100 border-2 border-slate-300'
                             : 'w-3.5 h-3.5 bg-white border-2'
                         }`}
-                        style={!stop.isCurrent && !isPassing ? { borderColor: itemLineColor } : {}}
+                        style={!stop.isCurrent && !isPassing && !isPassed ? { borderColor: itemLineColor } : {}}
                       />
                     </div>
 
@@ -473,6 +612,8 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                               ? 'text-amber-600 font-black'
                               : isPassing
                               ? 'text-slate-400 text-[11px]'
+                              : isPassed
+                              ? 'text-slate-500'
                               : 'text-slate-800'
                           }`}
                         >
@@ -537,7 +678,11 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                     const nextLine = getLine(stop.boundaryInfo.nextLineId);
                     const nextLineColor = nextLine?.lineColor || '#004b97';
                     return (
-                      <div className="relative py-1 -ml-6 flex items-center gap-2 select-none">
+                      <div
+                        className={`relative py-1 -ml-6 flex items-center gap-2 select-none transition-opacity ${
+                          isPassed ? 'opacity-40 hover:opacity-80' : ''
+                        }`}
+                      >
                         {/* 左側の水平線 */}
                         <div className="w-5 border-t-2" style={{ borderColor: nextLineColor }} />
 
@@ -571,6 +716,17 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
               );
             })}
 
+            {/* 運行終了インジケーター */}
+            {train.status === 'TERMINATED' && (
+              <div className="relative py-1 select-none flex items-center gap-2">
+                <div className="absolute -left-7 inset-y-0 w-6 flex items-center justify-center pointer-events-none z-10">
+                  <div className="w-2.5 h-2.5 rounded-full bg-slate-400" />
+                </div>
+                <div className="px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 text-slate-600 border border-slate-200">
+                  運行終了（全区間走破）
+                </div>
+              </div>
+            )}
           </div>
         </section>
       </div>
