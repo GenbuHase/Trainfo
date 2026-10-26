@@ -16,6 +16,7 @@ import {
   EyeOff,
   ChevronDown,
   ChevronUp,
+  ArrowDown,
 } from 'lucide-react';
 import { useSelection } from '../../contexts/SelectionContext';
 
@@ -513,59 +514,75 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
 
               return (
                 <React.Fragment key={`${stop.lineId}_${stop.stationId}_${idx}`}>
-                  {/* 通過済み区切りライン（レール上にノード点を配置し、右へ伸びる ── 通過済み ── デザイン） */}
+                  {/* 通過済み区切りライン（ユーザー指定: --- 通過済み (n駅) --------------------） */}
                   {showPassedDividerBeforeThis && (
-                    <div className="relative flex items-center gap-2 select-none pt-0.5 z-20">
-                      {/* レール上のノード点 */}
-                      <div className="absolute -left-7 inset-y-0 w-6 flex items-center justify-center pointer-events-none z-10">
-                        <div className="w-2 h-2 rounded-full bg-slate-400 border border-white" />
+                    <div className="relative py-2 -ml-7 flex items-center select-none z-20">
+                      {/* レールを貫通して全幅に伸びる水平ライン */}
+                      <div className="absolute inset-0 flex items-center" aria-hidden="true">
+                        <div className="w-full border-t border-slate-200" />
                       </div>
 
-                      {/* 通過済みバッジ本体 */}
-                      {olderPassedCount > 0 ? (
-                        <button
-                          type="button"
-                          onClick={() => setIsPassedCollapsed(!isPassedCollapsed)}
-                          className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300/80 shadow-2xs transition-colors cursor-pointer shrink-0"
-                          title={isPassedCollapsed ? '通過済みの駅を展開' : '通過済みの駅を折り畳む'}
-                        >
-                          <span>通過済み</span>
-                          <span className="text-[10px] text-slate-500 font-normal font-mono">
-                            {olderPassedCount}駅
-                          </span>
-                          {isPassedCollapsed ? (
-                            <ChevronDown className="w-3.5 h-3.5 text-slate-500" />
-                          ) : (
-                            <ChevronUp className="w-3.5 h-3.5 text-slate-500" />
-                          )}
-                        </button>
-                      ) : (
-                        <div className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-slate-100 text-slate-600 border border-slate-300/80 shadow-2xs shrink-0">
-                          <span>通過済み</span>
-                        </div>
-                      )}
-
-                      {/* 右側の水平ライン */}
-                      <div className="flex-1 border-t border-slate-300" />
+                      {/* 水平線上に乗る「通過済み (n駅)」バッジ（左端の●は廃止） */}
+                      <div className="relative flex items-center ml-7">
+                        {olderPassedCount > 0 ? (
+                          <button
+                            type="button"
+                            onClick={() => setIsPassedCollapsed(!isPassedCollapsed)}
+                            className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-white hover:bg-slate-50 text-slate-600 hover:text-slate-800 border border-slate-300 shadow-2xs transition-colors cursor-pointer"
+                            title={isPassedCollapsed ? '通過済みの駅を展開' : '通過済みの駅を折り畳む'}
+                          >
+                            <span>通過済み</span>
+                            <span className="text-[10px] text-slate-500 font-normal font-mono">
+                              ({olderPassedCount}駅)
+                            </span>
+                            {isPassedCollapsed ? (
+                              <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
+                            ) : (
+                              <ChevronUp className="w-3.5 h-3.5 text-slate-400" />
+                            )}
+                          </button>
+                        ) : (
+                          <div className="px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-white text-slate-500 border border-slate-200 shadow-2xs">
+                            <span>通過済み</span>
+                          </div>
+                        )}
+                      </div>
                     </div>
                   )}
 
                   {showRunningIndicatorBeforeThis && (
-                    <div className="relative py-0.5 select-none flex items-center gap-2">
+                    <div className="relative py-1 select-none flex items-center gap-2">
+                      {/* レール上の現在走行位置インジケーター（路線カラーと連動した洗練されたピン） */}
                       <div className="absolute -left-7 inset-y-0 w-6 flex items-center justify-center pointer-events-none z-10">
                         <div className="relative flex items-center justify-center">
-                          <div className="w-3 h-3 rounded-full bg-amber-400 animate-ping absolute opacity-70" />
-                          <div className="w-2.5 h-2.5 rounded-full bg-amber-500 border border-white" />
+                          <div
+                            className="w-3.5 h-3.5 rounded-full animate-ping absolute opacity-40"
+                            style={{ backgroundColor: itemLineColor }}
+                          />
+                          <div
+                            className="w-2.5 h-2.5 rounded-full border-2 border-white shadow-2xs"
+                            style={{ backgroundColor: itemLineColor }}
+                          />
                         </div>
                       </div>
-                      <div className="flex items-center gap-1.5 px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-amber-50 text-amber-800 border border-amber-200/90 shadow-2xs">
-                        <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
-                        <span>区間走行中</span>
-                        {train.speedKmh > 0 && (
-                          <span className="font-mono text-[10px] text-amber-700 font-bold ml-0.5">
-                            {Math.round(train.speedKmh)} km/h
+
+                      {/* 走行中情報（野暮ったい黄色バッジを廃止し、タイムラインに自然に溶け込むインラインデザイン） */}
+                      <div className="flex items-center justify-between text-xs py-0.5 flex-1">
+                        <div className="flex items-center gap-2">
+                          <span className="text-slate-500 font-medium text-[11px] flex items-center gap-1">
+                            <ArrowDown className="w-3 h-3 text-slate-400" />
+                            <span>
+                              {displayStops[idx]?.name
+                                ? `${displayStops[idx].name} へ走行中`
+                                : '走行中'}
+                            </span>
                           </span>
-                        )}
+                          {train.speedKmh > 0 && (
+                            <span className="inline-flex items-center px-1.5 py-0.2 rounded bg-slate-100 text-slate-600 font-mono text-[10px] font-semibold border border-slate-200/80 shadow-2xs">
+                              {Math.round(train.speedKmh)} km/h
+                            </span>
+                          )}
+                        </div>
                       </div>
                     </div>
                   )}
@@ -587,10 +604,10 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                     {/* 折りたたみ時の一駅前（直前駅）の上部シャドウオーバーレイ */}
                     {isPrevStopShadowed && (
                       <div
-                        className="absolute -left-11 -right-4 -top-1.5 h-7 pointer-events-none z-10 transition-opacity group-hover:opacity-0"
+                        className="absolute -left-7 right-0 -top-1 h-7 pointer-events-none z-10 transition-opacity group-hover:opacity-0"
                         style={{
                           background:
-                            'linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.75) 40%, rgba(15, 23, 42, 0.05) 75%, transparent 100%)',
+                            'linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.75) 25%, rgba(15, 23, 42, 0.05) 50%, transparent 100%)',
                         }}
                       />
                     )}
