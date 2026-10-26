@@ -140,6 +140,7 @@ export function useTrainTracker({
     // C. 併結運転（Coupling）のハンドオーバー判定
     // 自列車の直通運行チェーン内に存在するすべての併結設定から、現在運行中かつ併結アクティブな主編成（PRIMARY）を探索
     const couplingConfigs = findAllCouplingConfigs(selectedTrainId);
+    const tripMap = getGlobalTripMap();
     for (const info of couplingConfigs) {
       const coupledTripId = info.coupling.coupledTripId;
       const coupledChain = getThroughChainTrips(coupledTripId);
@@ -156,19 +157,77 @@ export function useTrainTracker({
         // 1) 自列車が activeTrains に存在しない（除外済み）
         // 2) 自列車が既に isCoupledActive === true
         // 3) 自列車が併結開始駅（fromStationId）に到着している
-        // のいずれかであれば、主編成（PRIMARY）へハンドオーバー
+        // のいずれかであれば、主編成（PRIMARY）の現在位置・走行状態と同期して追従
         if (
           !selfActive ||
           selfActive.isCoupledActive ||
           (info.coupling.role === 'SECONDARY' &&
             selfActive.currentStationId === info.coupling.fromStationId)
         ) {
-          // 自列車（SECONDARY）本来の始発駅をチェーン情報から探索
+          // 自列車（SECONDARY）本来の始発駅・終着駅・トリップ情報を探索
           const selfChain = getThroughChainTrips(selectedTrainId);
           const firstSelfTrip = selfChain[0];
+          const lastSelfTrip = selfChain[selfChain.length - 1];
+          const secondaryTrip = tripMap.get(info.tripId) || tripMap.get(selectedTrainId);
+
           const selfOrigin =
             firstSelfTrip?.customOrigin ||
             (firstSelfTrip ? STATION_MAP.get(firstSelfTrip.originStationId)?.name : undefined);
+          const selfDest =
+            lastSelfTrip?.customDestination ||
+            (lastSelfTrip ? STATION_MAP.get(lastSelfTrip.destinationStationId)?.name : secondaryTrip?.customDestination);
+
+          if (secondaryTrip) {
+            // 次の停車駅（nextStopStationId）の算出
+            let nextStop = primaryCandidate.nextStopStationId;
+            const curIdx = secondaryTrip.stops.findIndex((s) => s.stationId === primaryCandidate.currentStationId);
+            const searchStartIdx = curIdx >= 0 ? curIdx + 1 : 0;
+            for (let i = searchStartIdx; i < secondaryTrip.stops.length; i++) {
+              if (!secondaryTrip.stops[i].isPassing) {
+                nextStop = secondaryTrip.stops[i].stationId;
+                break;
+              }
+            }
+
+            const delegatedSecondaryTrain: ActiveTrain = {
+              tripId: secondaryTrip.tripId,
+              lineId: secondaryTrip.lineId,
+              trainId: secondaryTrip.trainId,
+              trainNumber: secondaryTrip.trainNumber,
+              trainName: secondaryTrip.trainName,
+              trainNumberSections: secondaryTrip.trainNumberSections,
+              coupling: secondaryTrip.coupling,
+              isCoupledActive: true,
+              totalCars: primaryCandidate.totalCars,
+              trainType: secondaryTrip.trainType,
+              customTrainType: secondaryTrip.customTrainType,
+              isTestTrain: secondaryTrip.isTestTrain,
+              direction: secondaryTrip.direction,
+              originStationId: secondaryTrip.originStationId,
+              destinationStationId: secondaryTrip.destinationStationId,
+              customOrigin: selfOrigin || secondaryTrip.customOrigin,
+              customDestination: selfDest || secondaryTrip.customDestination,
+              throughTripId: secondaryTrip.throughTripId,
+              throughLineId: secondaryTrip.throughLineId,
+              prevTripId: secondaryTrip.prevTripId,
+              prevLineId: secondaryTrip.prevLineId,
+              cars: secondaryTrip.cars,
+              status: primaryCandidate.status,
+              currentLat: primaryCandidate.currentLat,
+              currentLng: primaryCandidate.currentLng,
+              heading: primaryCandidate.heading,
+              currentStationId: primaryCandidate.currentStationId,
+              nextStationId: primaryCandidate.nextStationId,
+              nextStopStationId: nextStop,
+              progressPercent: primaryCandidate.progressPercent,
+              speedKmh: primaryCandidate.speedKmh,
+              delayMinutes: primaryCandidate.delayMinutes,
+              departureTime: primaryCandidate.departureTime,
+              arrivalTimeNext: primaryCandidate.arrivalTimeNext,
+              stops: secondaryTrip.stops,
+            };
+            return delegatedSecondaryTrain;
+          }
 
           // primaryCandidate 自体のオブジェクトを汚染しないようシャローコピーを作成し、
           // 自列車の始発駅を反映して返す
@@ -188,13 +247,29 @@ export function useTrainTracker({
       const selfOrigin =
         firstSelfTrip?.customOrigin ||
         (firstSelfTrip ? STATION_MAP.get(firstSelfTrip.originStationId)?.name : undefined);
+
+      let resultTrain = selfActive;
       if (
         selfOrigin &&
         (!selfActive.customOrigin || selfActive.customOrigin === STATION_MAP.get(selfActive.originStationId)?.name)
       ) {
-        selfActive.customOrigin = selfOrigin;
+        resultTrain = { ...resultTrain, customOrigin: selfOrigin };
       }
-      return selfActive;
+
+      // PRIMARYとして併結運行中の場合、自編成単体の列車番号・行先・両数を自列車詳細向けに保持
+      if (resultTrain.isCoupledActive && resultTrain.coupling?.role === 'PRIMARY') {
+        const primaryTrip = tripMap.get(resultTrain.tripId);
+        if (primaryTrip) {
+          resultTrain = {
+            ...resultTrain,
+            trainNumber: primaryTrip.trainNumber || resultTrain.trainNumber,
+            customDestination: primaryTrip.customDestination || resultTrain.customDestination,
+            cars: primaryTrip.cars || resultTrain.cars,
+          };
+        }
+      }
+
+      return resultTrain;
     }
 
     return null;

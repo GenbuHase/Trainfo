@@ -107,30 +107,52 @@ function restoreTohokuDownTrips(thTrips) {
  * 東海道線の下り修善寺踊り子トリップを復元注入
  */
 function restoreTokaidoDownTrips(tkTrips) {
+  // 以前の誤ったダミートリップを掃除
+  const redundantIds = new Set([
+    'WD_OUT_JT-01_0900_41961',
+    'WD_OUT_JT-01_1200_41963',
+    'HD_OUT_JT-01_0900_41961',
+    'HD_OUT_JT-01_1030_41962',
+    'HD_OUT_JT-01_1200_41963',
+  ]);
+  const cleaned = tkTrips.filter((t) => !redundantIds.has(t.tripId));
+
+  // すでに東海道線に下り修善寺行き踊り子が存在する場合は重複注入を行わない
+  const hasShuzenji = cleaned.some(
+    (t) =>
+      t.direction === 'outbound' &&
+      ((t.customDestination && t.customDestination.includes('修善寺')) ||
+        (t.destinationStationName && t.destinationStationName.includes('修善寺')) ||
+        (t.trainNumber && /^4\d{3}/.test(t.trainNumber)))
+  );
+  if (hasShuzenji) {
+    return cleaned;
+  }
+
   const tkConfig = require('../../lines/tokaido/config.cjs');
   const tkBuilder = new YahooTimetableBuilder(tkConfig);
 
   const sunPath = path.resolve('scripts/cache/yahoo/izuhakone_sunzu/all_train_details.json');
-  if (!fs.existsSync(sunPath)) return tkTrips;
+  if (!fs.existsSync(sunPath)) return cleaned;
 
   const sunDetails = JSON.parse(fs.readFileSync(sunPath, 'utf8'));
   const sunDown = sunDetails.filter(t => t.direction === 'outbound' && t.displayName.includes('踊り子') && t.stopStation.some(s => s.stationName === '東京'));
 
   const generated = tkBuilder.buildGlobalTimetable(sunDown);
-  const existingIds = new Set(tkTrips.map(t => t.tripId || `${t.isHoliday ? 'H' : 'W'}_${t.direction}_${t.trainId || t.trainNumber}`));
+  const existingIds = new Set(cleaned.map(t => t.tripId || `${t.isHoliday ? 'H' : 'W'}_${t.direction}_${t.trainId || t.trainNumber}`));
 
   let added = 0;
   for (const t of generated) {
     const key = t.tripId || `${t.isHoliday ? 'H' : 'W'}_${t.direction}_${t.trainId || t.trainNumber}`;
     if (!existingIds.has(key)) {
       t.destinationStationName = '修善寺';
-      tkTrips.push(t);
+      cleaned.push(t);
       existingIds.add(key);
       added++;
     }
   }
   console.log(`[coupleAllExpress] 東海道線に下り修善寺踊り子 ${added} 便を復元注入`);
-  return tkTrips;
+  return cleaned;
 }
 
 /**
@@ -717,8 +739,18 @@ function coupleTokaidoOdoriko() {
           );
 
           if (tokyoMatch || Math.abs(timeToSec(time1) - timeToSec(time2)) <= 300) {
-            const isT1Shuzenji = (t1.destinationStationName && t1.destinationStationName.includes('修善寺'));
-            const isT2Shuzenji = (t2.destinationStationName && t2.destinationStationName.includes('修善寺'));
+            const isT1Shuzenji = Boolean(
+              (t1.customDestination && t1.customDestination.includes('修善寺')) ||
+              (t1.destinationStationName && t1.destinationStationName.includes('修善寺')) ||
+              (t1.prevTripId && t1.prevTripId.includes('CA-02')) ||
+              (t1.trainNumber && /^4\d{3}/.test(t1.trainNumber))
+            );
+            const isT2Shuzenji = Boolean(
+              (t2.customDestination && t2.customDestination.includes('修善寺')) ||
+              (t2.destinationStationName && t2.destinationStationName.includes('修善寺')) ||
+              (t2.prevTripId && t2.prevTripId.includes('CA-02')) ||
+              (t2.trainNumber && /^4\d{3}/.test(t2.trainNumber))
+            );
 
             if ((isT1Shuzenji || isT2Shuzenji) && isT1Shuzenji !== isT2Shuzenji) {
               const pri = isT1Shuzenji ? t2 : t1;

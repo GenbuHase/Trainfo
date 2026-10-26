@@ -24,6 +24,7 @@ import {
   appendConnectedSegment,
   getConnectableLines,
   findConnectingStationPairs,
+  areStationsConnectable,
   secondsToHHMM,
   hhmmToSeconds,
   loadSavedCustomTrainPresets,
@@ -85,10 +86,7 @@ export const TestRunModal: React.FC = () => {
   const connectableNextLines = useMemo(() => {
     if (computedPlan.segments.length === 0) return [];
     const lastSeg = computedPlan.segments[computedPlan.segments.length - 1];
-    const usedLineIds = new Set(computedPlan.segments.map((s) => s.lineId));
-    return getConnectableLines(lastSeg.lineId, lastSeg.toStationId, lastSeg.fromStationId)
-      .filter((item) => !usedLineIds.has(item.line.id))
-      .slice(0, 8);
+    return getConnectableLines(lastSeg.lineId, lastSeg.toStationId, lastSeg.fromStationId).slice(0, 10);
   }, [computedPlan.segments]);
 
   // 路線ピッカー用のフィルタリング済み路線
@@ -428,10 +426,17 @@ export const TestRunModal: React.FC = () => {
 
   // 一括停車パターン変更（全駅停車 / 主要駅のみ / ノンストップ / 種別標準）
   const handleApplyBatchStopPattern = (
-    pattern: 'type_default' | 'all_stop' | 'major_only' | 'nonstop'
+    pattern: 'type_default' | 'all_stop' | 'major_only' | 'nonstop',
+    targetSegId?: string
   ) => {
     setPlan((prev) => {
+      const effectiveSegId = targetSegId || (selectedStopSegmentFilter !== 'all' ? selectedStopSegmentFilter : undefined);
+
       const nextSegments = prev.segments.map((seg, segIdx) => {
+        if (effectiveSegId && seg.id !== effectiveSegId) {
+          return seg;
+        }
+
         const line = getLine(seg.lineId);
         if (pattern === 'type_default') {
           const rebuilt = buildSegmentStops(
@@ -488,8 +493,8 @@ export const TestRunModal: React.FC = () => {
   ) => {
     setPlan((prev) => {
       const currentComputed = recalculatePlanSchedule(prev, sim.currentSec);
-      const refSec =
-        currentComputed.segments[segIdx]?.stops[stopIdx]?.arrivalSec ?? sim.currentSec;
+      const curStop = currentComputed.segments[segIdx]?.stops[stopIdx];
+      const refSec = curStop?.arrivalSec ?? sim.currentSec;
       const newSec = hhmmToSeconds(newHHMM, refSec);
 
       if (segIdx === 0 && stopIdx === 0) {
@@ -504,13 +509,39 @@ export const TestRunModal: React.FC = () => {
       }
 
       const nextSegments = prev.segments.map((seg, sIdx) => {
-        if (sIdx !== segIdx) return seg;
         const nextStops = seg.stops.map((st, idx) => {
-          if (idx !== stopIdx) return st;
-          return {
-            ...st,
-            manualArrivalSec: newSec,
-          };
+          const isTarget = sIdx === segIdx && idx === stopIdx;
+          const isPrevBoundaryPair =
+            sIdx === segIdx - 1 &&
+            idx === seg.stops.length - 1 &&
+            stopIdx === 0;
+          const isNextBoundaryPair =
+            sIdx === segIdx + 1 &&
+            idx === 0 &&
+            stopIdx === prev.segments[segIdx].stops.length - 1;
+
+          let isBoundaryMatch = false;
+          if (isPrevBoundaryPair || isNextBoundaryPair) {
+            const stTarget = STATION_MAP.get(curStop?.stationId || '');
+            const stOther = STATION_MAP.get(st.stationId);
+            if (stTarget && stOther && areStationsConnectable(stTarget, stOther)) {
+              isBoundaryMatch = true;
+            }
+          }
+
+          if (isTarget || isBoundaryMatch) {
+            let stopDuration = st.stopDurationSec;
+            if (st.manualDepartureSec !== undefined) {
+              stopDuration = Math.max(0, st.manualDepartureSec - newSec);
+            }
+            return {
+              ...st,
+              manualArrivalSec: newSec,
+              manualStopDurationSec: stopDuration,
+              stopDurationSec: stopDuration,
+            };
+          }
+          return st;
         });
         return { ...seg, stops: nextStops };
       });
@@ -527,24 +558,51 @@ export const TestRunModal: React.FC = () => {
   ) => {
     const clamped = Math.max(0, Math.min(3600, newDurationSec));
     setPlan((prev) => {
+      const currentComputed = recalculatePlanSchedule(prev, sim.currentSec);
+      const curStop = currentComputed.segments[segIdx]?.stops[stopIdx];
+      const curArrival = curStop?.arrivalSec ?? sim.currentSec;
+      const newDepSec = curArrival + clamped;
+
       const nextSegments = prev.segments.map((seg, sIdx) => {
-        if (sIdx !== segIdx) return seg;
         const nextStops = seg.stops.map((st, idx) => {
-          if (idx !== stopIdx) return st;
-          return {
-            ...st,
-            isPassing: clamped === 0 ? st.isPassing : false,
-            stopDurationSec: clamped,
-            manualStopDurationSec: clamped,
-          };
+          const isTarget = sIdx === segIdx && idx === stopIdx;
+          const isPrevBoundaryPair =
+            sIdx === segIdx - 1 &&
+            idx === seg.stops.length - 1 &&
+            stopIdx === 0;
+          const isNextBoundaryPair =
+            sIdx === segIdx + 1 &&
+            idx === 0 &&
+            stopIdx === prev.segments[segIdx].stops.length - 1;
+
+          let isBoundaryMatch = false;
+          if (isPrevBoundaryPair || isNextBoundaryPair) {
+            const stTarget = STATION_MAP.get(curStop?.stationId || '');
+            const stOther = STATION_MAP.get(st.stationId);
+            if (stTarget && stOther && areStationsConnectable(stTarget, stOther)) {
+              isBoundaryMatch = true;
+            }
+          }
+
+          if (isTarget || isBoundaryMatch) {
+            return {
+              ...st,
+              isPassing: clamped === 0 ? st.isPassing : false,
+              manualDepartureSec: newDepSec,
+              stopDurationSec: clamped,
+              manualStopDurationSec: clamped,
+            };
+          }
+          return st;
         });
         return { ...seg, stops: nextStops };
       });
+
       return recalculatePlanSchedule({ ...prev, segments: nextSegments }, sim.currentSec);
     });
   };
 
-  // 個別駅の発車時刻（HH:MM）を手動変更
+  // 個別駅の発車時刻（HH:MM または HH:MM:SS）を手動変更
   const handleManualDepartureTimeChange = (
     segIdx: number,
     stopIdx: number,
@@ -571,15 +629,36 @@ export const TestRunModal: React.FC = () => {
       const durationSec = Math.max(0, targetDepSec - curStop.arrivalSec);
 
       const nextSegments = prev.segments.map((seg, sIdx) => {
-        if (sIdx !== segIdx) return seg;
         const nextStops = seg.stops.map((st, idx) => {
-          if (idx !== stopIdx) return st;
-          return {
-            ...st,
-            isPassing: false,
-            stopDurationSec: durationSec,
-            manualStopDurationSec: durationSec,
-          };
+          const isTarget = sIdx === segIdx && idx === stopIdx;
+          const isPrevBoundaryPair =
+            sIdx === segIdx - 1 &&
+            idx === seg.stops.length - 1 &&
+            stopIdx === 0;
+          const isNextBoundaryPair =
+            sIdx === segIdx + 1 &&
+            idx === 0 &&
+            stopIdx === prev.segments[segIdx].stops.length - 1;
+
+          let isBoundaryMatch = false;
+          if (isPrevBoundaryPair || isNextBoundaryPair) {
+            const stTarget = STATION_MAP.get(curStop?.stationId || '');
+            const stOther = STATION_MAP.get(st.stationId);
+            if (stTarget && stOther && areStationsConnectable(stTarget, stOther)) {
+              isBoundaryMatch = true;
+            }
+          }
+
+          if (isTarget || isBoundaryMatch) {
+            return {
+              ...st,
+              isPassing: false,
+              manualDepartureSec: targetDepSec,
+              stopDurationSec: durationSec,
+              manualStopDurationSec: durationSec,
+            };
+          }
+          return st;
         });
         return { ...seg, stops: nextStops };
       });
@@ -596,6 +675,7 @@ export const TestRunModal: React.FC = () => {
         stops: seg.stops.map((st) => ({
           ...st,
           manualArrivalSec: undefined,
+          manualDepartureSec: undefined,
           manualStopDurationSec: undefined,
           stopDurationSec: st.isPassing ? 0 : prev.defaultStopSec,
         })),
@@ -607,14 +687,24 @@ export const TestRunModal: React.FC = () => {
   // プリセットの保存
   const handleSavePreset = () => {
     const defaultName =
+      presetNameInput.trim() ||
+      computedPlan.presetName?.trim() ||
       computedPlan.trainName.trim() ||
       `${STATION_MAP.get(computedPlan.segments[0]?.fromStationId)?.name || '始発'}→${
         STATION_MAP.get(computedPlan.segments[computedPlan.segments.length - 1]?.toStationId)?.name || '終着'
       }`;
-    const nameToUse = presetNameInput.trim() || defaultName;
+    const nameToUse = defaultName;
     const updated = saveCustomTrainPreset(computedPlan, nameToUse);
     setSavedPresets(updated);
-    setPresetNameInput('');
+    const savedPreset = updated.find((p) => p.presetName === nameToUse);
+    if (savedPreset) {
+      setPlan((prev) => ({
+        ...prev,
+        id: savedPreset.id,
+        presetName: savedPreset.presetName,
+      }));
+    }
+    setPresetNameInput(nameToUse);
     setSaveSuccessMessage(`「${nameToUse}」を保存しました`);
     setTimeout(() => setSaveSuccessMessage(null), 3000);
   };
@@ -660,7 +750,12 @@ export const TestRunModal: React.FC = () => {
   const handleCommitRenamePreset = (presetId: string) => {
     const trimmed = editingPresetNameValue.trim();
     if (trimmed) {
-      setSavedPresets(renameCustomTrainPreset(presetId, trimmed));
+      const updated = renameCustomTrainPreset(presetId, trimmed);
+      setSavedPresets(updated);
+      if (plan.id === presetId) {
+        setPlan((prev) => ({ ...prev, presetName: trimmed }));
+        setPresetNameInput(trimmed);
+      }
     }
     setEditingPresetId(null);
   };

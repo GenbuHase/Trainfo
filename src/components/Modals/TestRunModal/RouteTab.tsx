@@ -5,6 +5,11 @@ import {
   ArrowUpDown,
   Plus,
   Search,
+  Gauge,
+  Hash,
+  MapPin,
+  Flag,
+  Tag,
 } from 'lucide-react';
 import type { LineId, TrainTypeKey, LineDefinition } from '../../../types';
 import { getLine } from '../../../data/linesRegistry';
@@ -13,6 +18,7 @@ import type {
   CustomTrainPlan,
   ConnectingStationPair,
 } from '../../../services/testTrainService';
+import { SPEED_PRESET_GROUPS, ALL_SPEED_PRESET_VALUES } from './constants';
 
 interface ConnectableNextLineItem {
   line: LineDefinition;
@@ -151,8 +157,9 @@ export const RouteTab: React.FC<RouteTabProps> = ({
                   {/* 開始駅 ➔ 終了駅 セレクタ */}
                   <div className="grid grid-cols-1 sm:grid-cols-11 gap-2 items-center bg-slate-50 p-3 rounded-xl border border-slate-200/70">
                     <div className="sm:col-span-5">
-                      <label className="text-[10px] font-bold text-slate-500 block mb-1">
-                        {segIdx === 0 ? '始発駅' : '接続駅'}
+                      <label className="text-[10px] font-bold text-slate-500 flex items-center gap-1 mb-1">
+                        <MapPin className="w-3 h-3 text-slate-400" />
+                        <span>{segIdx === 0 ? '始発駅' : '接続駅'}</span>
                       </label>
                       <select
                         value={seg.fromStationId}
@@ -190,10 +197,13 @@ export const RouteTab: React.FC<RouteTabProps> = ({
                     </div>
 
                     <div className="sm:col-span-5">
-                      <label className="text-[10px] font-bold text-slate-500 block mb-1">
-                        {segIdx === computedPlan.segments.length - 1
-                          ? '終着駅'
-                          : '接続駅'}
+                      <label className="text-[10px] font-bold text-slate-500 flex items-center gap-1 mb-1">
+                        <Flag className="w-3 h-3 text-slate-400" />
+                        <span>
+                          {segIdx === computedPlan.segments.length - 1
+                            ? '終着駅'
+                            : '接続駅'}
+                        </span>
                       </label>
                       <select
                         value={seg.toStationId}
@@ -223,8 +233,9 @@ export const RouteTab: React.FC<RouteTabProps> = ({
                   {/* この路線での列車種別セレクタ */}
                   <div>
                     <div className="flex items-center justify-between mb-1.5">
-                      <label className="text-[11px] font-bold text-slate-700">
-                        列車種別
+                      <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1">
+                        <Tag className="w-3.5 h-3.5 text-slate-400" />
+                        <span>列車種別</span>
                       </label>
                       <span className="text-[10px] text-slate-400">
                         {seg.direction === 'outbound'
@@ -284,9 +295,12 @@ export const RouteTab: React.FC<RouteTabProps> = ({
                   </div>
 
                   {/* 区間固有の列車番号・巡航速度 */}
-                  <div className="flex items-center justify-between gap-3 pt-1 border-t border-slate-100 text-[11px] flex-wrap">
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-slate-500 font-semibold">列車番号:</span>
+                  <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 sm:gap-3 pt-1.5 border-t border-slate-100 text-[11px]">
+                    <div className="flex items-center gap-1.5 shrink-0">
+                      <span className="text-slate-500 font-semibold flex items-center gap-1 shrink-0">
+                        <Hash className="w-3.5 h-3.5 text-slate-400" />
+                        列車番号:
+                      </span>
                       <input
                         type="text"
                         value={seg.trainNumber || ''}
@@ -294,27 +308,64 @@ export const RouteTab: React.FC<RouteTabProps> = ({
                           onUpdateSegmentMeta(segIdx, { trainNumber: e.target.value })
                         }
                         placeholder={computedPlan.defaultTrainNumber || '試9001レ'}
-                        className="w-28 px-2 py-0.5 border border-slate-200 rounded font-mono text-xs text-slate-700 bg-slate-50 focus:bg-white"
+                        className="w-24 sm:w-28 px-2 py-0.5 border border-slate-200 rounded font-mono text-xs text-slate-700 bg-slate-50 focus:bg-white"
                       />
                     </div>
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-slate-500 font-semibold">標準巡航速度:</span>
-                      <select
-                        value={seg.speedKmh}
-                        onChange={(e) =>
-                          onUpdateSegmentMeta(segIdx, {
-                            speedKmh: Number(e.target.value),
-                          })
-                        }
-                        className="px-2 py-0.5 border border-slate-200 rounded font-mono text-xs text-slate-700 bg-slate-50"
-                      >
-                        <option value={55}>55 km/h</option>
-                        <option value={75}>75 km/h</option>
-                        <option value={95}>95 km/h</option>
-                        <option value={120}>120 km/h</option>
-                        <option value={210}>210 km/h</option>
-                        <option value={275}>275 km/h</option>
-                      </select>
+                    <div className="flex items-center justify-between sm:justify-start gap-1.5 min-w-0 flex-wrap sm:flex-nowrap">
+                      <span className="text-slate-500 font-semibold flex items-center gap-1 shrink-0">
+                        <Gauge className="w-3.5 h-3.5 text-slate-400" />
+                        標準巡航速度:
+                      </span>
+                      <div className="inline-flex items-center gap-1.5 min-w-0 flex-1 sm:flex-none">
+                        {/* 直接数値入力フィールド */}
+                        <div className="relative flex items-center shrink-0">
+                          <input
+                            type="number"
+                            min={1}
+                            max={400}
+                            step={1}
+                            value={seg.speedKmh}
+                            onChange={(e) => {
+                              const val = parseInt(e.target.value, 10);
+                              if (!isNaN(val)) {
+                                onUpdateSegmentMeta(segIdx, {
+                                  speedKmh: Math.max(1, Math.min(400, val)),
+                                });
+                              }
+                            }}
+                            className="w-14 sm:w-16 px-1.5 py-0.5 border border-slate-200 rounded font-mono text-xs font-bold text-slate-800 bg-white text-right focus:border-sky-400 focus:outline-none shadow-2xs"
+                            title="キーボードから任意の巡航速度(km/h)を直接入力できます"
+                          />
+                          <span className="ml-1 text-[11px] font-mono font-medium text-slate-500">km/h</span>
+                        </div>
+
+                        {/* 細分化プリセットドロップダウン（スマホではみ出さないよう max-w と truncate を指定） */}
+                        <select
+                          value={ALL_SPEED_PRESET_VALUES.includes(seg.speedKmh) ? seg.speedKmh : 'custom'}
+                          onChange={(e) => {
+                            if (e.target.value !== 'custom') {
+                              onUpdateSegmentMeta(segIdx, {
+                                speedKmh: Number(e.target.value),
+                              });
+                            }
+                          }}
+                          className="min-w-0 max-w-[130px] xs:max-w-[155px] sm:max-w-[185px] px-1.5 py-0.5 border border-slate-200 rounded font-mono text-xs text-slate-700 bg-slate-50 hover:bg-slate-100 cursor-pointer shadow-2xs truncate"
+                          title="速度プリセットから選択"
+                        >
+                          {!ALL_SPEED_PRESET_VALUES.includes(seg.speedKmh) && (
+                            <option value="custom">指定 ({seg.speedKmh}km/h)</option>
+                          )}
+                          {SPEED_PRESET_GROUPS.map((group) => (
+                            <optgroup key={group.groupName} label={group.groupName}>
+                              {group.options.map((opt) => (
+                                <option key={opt.value} value={opt.value}>
+                                  {opt.label}
+                                </option>
+                              ))}
+                            </optgroup>
+                          ))}
+                        </select>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -369,9 +420,9 @@ export const RouteTab: React.FC<RouteTabProps> = ({
               の接続路線：
             </span>
             <div className="flex flex-wrap gap-1.5">
-              {connectableNextLines.map(({ line, bestPair, isDirectAtCurrentEnd }) => (
+              {connectableNextLines.map(({ line, bestPair, isDirectAtCurrentEnd }, idx) => (
                 <button
-                  key={line.id}
+                  key={`${line.id}_${idx}`}
                   type="button"
                   onClick={() => onAddConnectedLine(line.id)}
                   className={`inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-bold border transition-all ${

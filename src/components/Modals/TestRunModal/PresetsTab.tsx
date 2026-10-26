@@ -6,6 +6,7 @@ import {
   X,
   Pencil,
   Trash2,
+  Bookmark,
 } from 'lucide-react';
 import { getLine } from '../../../data/linesRegistry';
 import { STATION_MAP } from '../../../data/stations';
@@ -96,8 +97,9 @@ export const PresetsTab: React.FC<PresetsTabProps> = ({
       {/* プリセット一覧 */}
       <div className="bg-white rounded-xl border border-slate-200 p-4 space-y-3 shadow-2xs">
         <div className="flex items-center justify-between">
-          <h4 className="text-xs font-extrabold text-slate-800">
-            プリセット ({savedPresets.length}件)
+          <h4 className="text-xs font-extrabold text-slate-800 flex items-center gap-1.5">
+            <Bookmark className="w-4 h-4 text-sky-600" />
+            <span>プリセット ({savedPresets.length}件)</span>
           </h4>
           {savedPresets.length > 1 && (
             <span className="text-[10px] text-slate-400 font-medium">

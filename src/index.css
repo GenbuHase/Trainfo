@@ -91,3 +91,15 @@ html, body, #root {
 .pulse-train {
   animation: pulse-subtle 2s infinite ease-in-out;
 }
+
+/* 通過済み直前駅のフェードマスク（折りたたみ時に上半分を隠し、ホバーで復帰） */
+.prev-stop-faded {
+  mask-image: linear-gradient(180deg, transparent 0%, transparent 15%, rgba(0, 0, 0, 0.5) 45%, rgba(0, 0, 0, 0.95) 80%, #000 100%);
+  -webkit-mask-image: linear-gradient(180deg, transparent 0%, transparent 15%, rgba(0, 0, 0, 0.5) 45%, rgba(0, 0, 0, 0.95) 80%, #000 100%);
+  transition: -webkit-mask-image 0.2s ease, mask-image 0.2s ease, opacity 0.2s ease;
+}
+
+.group:hover .prev-stop-faded {
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+}

@@ -30,6 +30,7 @@ export interface CustomTrainStopSetting {
   departureSec: number;
   stopDurationSec: number;
   manualArrivalSec?: number;       // ユーザーが到着時刻を手動指定した場合の秒数（4:00起算サイクル）
+  manualDepartureSec?: number;     // ユーザーが発車時刻を手動指定した場合の秒数
   manualStopDurationSec?: number;  // ユーザーが停車時間（または発車時刻）を手動指定した場合の秒数
 }
 
@@ -158,7 +159,22 @@ export function getConnectableLines(
   }[] = [];
 
   for (const candidateLine of allLines) {
-    if (candidateLine.id === fromLineId) continue;
+    if (candidateLine.id === fromLineId) {
+      if (currentEndSt) {
+        results.push({
+          line: candidateLine,
+          bestPair: {
+            stationA: currentEndSt,
+            stationB: currentEndSt,
+            isExactName: true,
+            distKm: 0,
+            score: 110,
+          },
+          isDirectAtCurrentEnd: true,
+        });
+      }
+      continue;
+    }
     const pairs = findConnectingStationPairs(fromLineId, candidateLine.id, currentStartStationId);
     if (pairs.length === 0) continue;
 
@@ -302,6 +318,7 @@ export function buildSegmentStops(
       departureSec: prev?.departureSec ?? 0,
       stopDurationSec,
       manualArrivalSec: prev?.manualArrivalSec,
+      manualDepartureSec: isPassing ? undefined : prev?.manualDepartureSec,
       manualStopDurationSec: isPassing ? undefined : prev?.manualStopDurationSec,
     };
   });
@@ -340,12 +357,16 @@ export function recalculatePlanSchedule(
 
   let cursorSec = startSec;
 
-  const updatedSegments: CustomTrainSegment[] = plan.segments.map((seg, segIdx) => {
+  const updatedSegments: CustomTrainSegment[] = [];
+
+  for (let segIdx = 0; segIdx < plan.segments.length; segIdx++) {
+    const seg = plan.segments[segIdx];
     const speedKmh = seg.speedKmh || (seg.lineId.includes('shinkansen') ? 210 : 75);
     const stops: CustomTrainStopSetting[] = seg.stops.map((s) => ({ ...s }));
 
     if (stops.length === 0) {
-      return { ...seg, stops };
+      updatedSegments.push({ ...seg, stops });
+      continue;
     }
 
     let lastStopIndex = 0;
@@ -364,30 +385,68 @@ export function recalculatePlanSchedule(
           cur.departureSec = arr;
           cursorSec = arr;
         } else {
-          const prevSeg = plan.segments[segIdx - 1];
+          const prevSeg = updatedSegments[segIdx - 1];
           const prevLastStop = prevSeg?.stops[prevSeg.stops.length - 1];
           const prevSt = prevLastStop ? STATION_MAP.get(prevLastStop.stationId) : undefined;
           const curSt = STATION_MAP.get(cur.stationId);
           const isSameBoundary =
             prevSt && curSt && areStationsConnectable(prevSt, curSt);
 
-          if (!isSameBoundary && prevLastStop) {
-            cursorSec += calcStationRunSeconds(prevLastStop.stationId, cur.stationId, speedKmh);
-          }
+          if (isSameBoundary && prevLastStop) {
+            // 同一境界駅の場合:
+            // 前セグメント最終駅と次セグメント先頭駅の停車時間・発着時刻を完全同期する
+            const manualStopDur = cur.manualStopDurationSec ?? prevLastStop.manualStopDurationSec;
+            const stopDur = cur.isPassing
+              ? 0
+              : manualStopDur !== undefined
+              ? manualStopDur
+              : defaultStopSec;
 
-          const arr =
-            cur.manualArrivalSec !== undefined && cur.manualArrivalSec >= cursorSec
-              ? cur.manualArrivalSec
-              : cursorSec;
-          cur.arrivalSec = arr;
-          const stopDur = cur.isPassing
-            ? 0
-            : cur.manualStopDurationSec !== undefined
-            ? cur.manualStopDurationSec
-            : defaultStopSec;
-          cur.stopDurationSec = stopDur;
-          cur.departureSec = arr + stopDur;
-          cursorSec = cur.departureSec;
+            // 境界駅への到着時刻（前区間の到着時刻）
+            const arr = prevLastStop.arrivalSec;
+            cur.arrivalSec = arr;
+            prevLastStop.arrivalSec = arr;
+
+            // 境界駅からの発車時刻
+            const manualDep = cur.manualDepartureSec ?? prevLastStop.manualDepartureSec;
+            const dep = manualDep !== undefined && manualDep >= arr ? manualDep : arr + stopDur;
+
+            cur.departureSec = dep;
+            prevLastStop.departureSec = dep;
+
+            const finalDur = Math.max(0, dep - arr);
+            cur.stopDurationSec = finalDur;
+            prevLastStop.stopDurationSec = finalDur;
+
+            if (manualStopDur !== undefined) {
+              cur.manualStopDurationSec = manualStopDur;
+              prevLastStop.manualStopDurationSec = manualStopDur;
+            }
+            if (manualDep !== undefined) {
+              cur.manualDepartureSec = manualDep;
+              prevLastStop.manualDepartureSec = manualDep;
+            }
+
+            cursorSec = dep;
+          } else {
+            if (prevLastStop) {
+              cursorSec += calcStationRunSeconds(prevLastStop.stationId, cur.stationId, speedKmh);
+            }
+
+            const arr =
+              cur.manualArrivalSec !== undefined && cur.manualArrivalSec >= cursorSec
+                ? cur.manualArrivalSec
+                : cursorSec;
+            cur.arrivalSec = arr;
+            const stopDur = cur.isPassing
+              ? 0
+              : cur.manualStopDurationSec !== undefined
+              ? cur.manualStopDurationSec
+              : defaultStopSec;
+            cur.stopDurationSec = stopDur;
+            cur.departureSec = arr + stopDur;
+            cursorSec = cur.departureSec;
+          }
         }
         lastStopIndex = 0;
         continue;
@@ -429,9 +488,14 @@ export function recalculatePlanSchedule(
 
       if (cur.isPassing || isLastInPlan || (isLastInSeg && segIdx < plan.segments.length - 1)) {
         if (isLastInSeg && segIdx < plan.segments.length - 1) {
-          const stopDur = cur.manualStopDurationSec ?? 0;
+          const stopDur =
+            cur.manualStopDurationSec !== undefined ? cur.manualStopDurationSec : defaultStopSec;
           cur.stopDurationSec = stopDur;
-          cur.departureSec = arrSec + stopDur;
+          cur.departureSec =
+            cur.manualDepartureSec !== undefined && cur.manualDepartureSec >= arrSec
+              ? cur.manualDepartureSec
+              : arrSec + stopDur;
+          cur.stopDurationSec = Math.max(0, cur.departureSec - arrSec);
         } else {
           cur.stopDurationSec = 0;
           cur.departureSec = arrSec;
@@ -440,7 +504,11 @@ export function recalculatePlanSchedule(
         const stopDur =
           cur.manualStopDurationSec !== undefined ? cur.manualStopDurationSec : defaultStopSec;
         cur.stopDurationSec = stopDur;
-        cur.departureSec = arrSec + stopDur;
+        cur.departureSec =
+          cur.manualDepartureSec !== undefined && cur.manualDepartureSec >= arrSec
+            ? cur.manualDepartureSec
+            : arrSec + stopDur;
+        cur.stopDurationSec = Math.max(0, cur.departureSec - arrSec);
       }
 
       cursorSec = cur.departureSec;
@@ -449,13 +517,13 @@ export function recalculatePlanSchedule(
       }
     }
 
-    return {
+    updatedSegments.push({
       ...seg,
       stops,
-    };
-  });
+    });
+  }
 
-  // 境界駅の時刻同期
+  // 境界駅の最終整合性チェック
   for (let segIdx = 0; segIdx < updatedSegments.length - 1; segIdx++) {
     const curSeg = updatedSegments[segIdx];
     const nextSeg = updatedSegments[segIdx + 1];
@@ -465,8 +533,27 @@ export function recalculatePlanSchedule(
       const stA = STATION_MAP.get(lastStop.stationId);
       const stB = STATION_MAP.get(firstNext.stationId);
       if (stA && stB && areStationsConnectable(stA, stB)) {
-        lastStop.departureSec = firstNext.departureSec;
-        lastStop.stopDurationSec = firstNext.stopDurationSec;
+        const boundaryArr = lastStop.arrivalSec;
+        const boundaryDep = Math.max(lastStop.departureSec, firstNext.departureSec);
+        const boundaryDur = Math.max(0, boundaryDep - boundaryArr);
+
+        lastStop.arrivalSec = boundaryArr;
+        firstNext.arrivalSec = boundaryArr;
+        lastStop.departureSec = boundaryDep;
+        firstNext.departureSec = boundaryDep;
+        lastStop.stopDurationSec = boundaryDur;
+        firstNext.stopDurationSec = boundaryDur;
+
+        const manualDur = lastStop.manualStopDurationSec ?? firstNext.manualStopDurationSec;
+        if (manualDur !== undefined) {
+          lastStop.manualStopDurationSec = manualDur;
+          firstNext.manualStopDurationSec = manualDur;
+        }
+        const manualDep = lastStop.manualDepartureSec ?? firstNext.manualDepartureSec;
+        if (manualDep !== undefined) {
+          lastStop.manualDepartureSec = manualDep;
+          firstNext.manualDepartureSec = manualDep;
+        }
       }
     }
   }
@@ -542,51 +629,80 @@ export function appendConnectedSegment(
   const lastSegIdx = prevSegments.length - 1;
   const lastSeg = { ...prevSegments[lastSegIdx] };
 
-  const pairs = findConnectingStationPairs(lastSeg.lineId, nextLineId, lastSeg.fromStationId);
+  let nextFromStationId: string;
+  let nextToStationId: string;
 
-  let nextFromStationId = nextLine.stations[0].id;
-  let nextToStationId = nextLine.stations[nextLine.stations.length - 1].id;
-
-  if (pairs.length > 0) {
+  if (lastSeg.lineId === nextLineId) {
+    // 同一路線の続き・折り返し（前区間の終着駅から継続）
+    nextFromStationId = lastSeg.toStationId;
+    const curEndIdx = nextLine.stations.findIndex((s) => s.id === lastSeg.toStationId);
+    if (lastSeg.direction === 'outbound') {
+      if (curEndIdx >= 0 && curEndIdx < nextLine.stations.length - 1) {
+        nextToStationId = nextLine.stations[nextLine.stations.length - 1].id;
+      } else {
+        nextToStationId = nextLine.stations[0].id;
+      }
+    } else {
+      if (curEndIdx > 0) {
+        nextToStationId = nextLine.stations[0].id;
+      } else {
+        nextToStationId = nextLine.stations[nextLine.stations.length - 1].id;
+      }
+    }
+  } else {
+    const pairs = findConnectingStationPairs(lastSeg.lineId, nextLineId, lastSeg.fromStationId);
     const curEndSt = STATION_MAP.get(lastSeg.toStationId);
     const directMatch = curEndSt
       ? pairs.find((p) => areStationsConnectable(p.stationA, curEndSt))
       : undefined;
 
-    const chosenPair = directMatch || pairs[0];
-
-    if (lastSeg.toStationId !== chosenPair.stationA.id) {
-      let adjustedFromId = lastSeg.fromStationId;
-      if (adjustedFromId === chosenPair.stationA.id) {
-        const prevLine = getLine(lastSeg.lineId);
-        if (prevLine && prevLine.stations.length >= 2) {
-          const firstId = prevLine.stations[0].id;
-          const lastId = prevLine.stations[prevLine.stations.length - 1].id;
-          adjustedFromId = chosenPair.stationA.id === firstId ? lastId : firstId;
-        }
+    if (directMatch) {
+      nextFromStationId = directMatch.stationB.id;
+      const bIdx = nextLine.stations.findIndex((s) => s.id === nextFromStationId);
+      if (bIdx <= nextLine.stations.length / 2) {
+        nextToStationId = nextLine.stations[nextLine.stations.length - 1].id;
+      } else {
+        nextToStationId = nextLine.stations[0].id;
       }
-      const rebuilt = buildSegmentStops(
-        lastSeg.lineId,
-        adjustedFromId,
-        chosenPair.stationA.id,
-        lastSeg.trainType,
-        plan.defaultStopSec,
-        lastSeg.stops,
-        false
-      );
-      lastSeg.fromStationId = adjustedFromId;
-      lastSeg.toStationId = chosenPair.stationA.id;
-      lastSeg.direction = rebuilt.direction;
-      lastSeg.stops = rebuilt.stops;
-      prevSegments[lastSegIdx] = lastSeg;
-    }
+    } else if (pairs.length > 0) {
+      const chosenPair = pairs[0];
+      // 最初のセグメントが1区間のみで未編集の場合のみ接続駅へ自動調整
+      if (lastSegIdx === 0 && lastSeg.toStationId !== chosenPair.stationA.id) {
+        let adjustedFromId = lastSeg.fromStationId;
+        if (adjustedFromId === chosenPair.stationA.id) {
+          const prevLine = getLine(lastSeg.lineId);
+          if (prevLine && prevLine.stations.length >= 2) {
+            const firstId = prevLine.stations[0].id;
+            const lastId = prevLine.stations[prevLine.stations.length - 1].id;
+            adjustedFromId = chosenPair.stationA.id === firstId ? lastId : firstId;
+          }
+        }
+        const rebuilt = buildSegmentStops(
+          lastSeg.lineId,
+          adjustedFromId,
+          chosenPair.stationA.id,
+          lastSeg.trainType,
+          plan.defaultStopSec,
+          lastSeg.stops,
+          false
+        );
+        lastSeg.fromStationId = adjustedFromId;
+        lastSeg.toStationId = chosenPair.stationA.id;
+        lastSeg.direction = rebuilt.direction;
+        lastSeg.stops = rebuilt.stops;
+        prevSegments[lastSegIdx] = lastSeg;
+      }
 
-    nextFromStationId = chosenPair.stationB.id;
-    const bIdx = nextLine.stations.findIndex((s) => s.id === nextFromStationId);
-    if (bIdx <= nextLine.stations.length / 2) {
-      nextToStationId = nextLine.stations[nextLine.stations.length - 1].id;
+      nextFromStationId = chosenPair.stationB.id;
+      const bIdx = nextLine.stations.findIndex((s) => s.id === nextFromStationId);
+      if (bIdx <= nextLine.stations.length / 2) {
+        nextToStationId = nextLine.stations[nextLine.stations.length - 1].id;
+      } else {
+        nextToStationId = nextLine.stations[0].id;
+      }
     } else {
-      nextToStationId = nextLine.stations[0].id;
+      nextFromStationId = nextLine.stations[0].id;
+      nextToStationId = nextLine.stations[nextLine.stations.length - 1].id;
     }
   }
 
@@ -772,9 +888,21 @@ export function loadSavedCustomTrainPresets(): CustomTrainPlan[] {
 export function saveCustomTrainPreset(plan: CustomTrainPlan, presetName: string): CustomTrainPlan[] {
   const existing = loadSavedCustomTrainPresets();
   const normalizedName = presetName.trim() || 'マイ臨時列車';
-  const existingIdx = existing.findIndex(
-    (p) => p.presetName === normalizedName || (p.id === plan.id && p.presetName === normalizedName)
-  );
+
+  // 読み込み元（または現在）のプリセット名と、保存しようとする名前が異なる場合は「別名保存（新規追加）」
+  const originalPresetName = plan.presetName?.trim();
+  const isNameChanged = Boolean(originalPresetName && originalPresetName !== normalizedName);
+
+  let existingIdx = -1;
+  if (!isNameChanged && plan.id) {
+    // プリセット名が変更されていない場合は、既存の同一IDプリセットを上書き更新
+    existingIdx = existing.findIndex((p) => p.id === plan.id);
+  }
+
+  // 同一IDで見つからない場合（または別名保存時）、同名プリセットが既に存在するか確認
+  if (existingIdx === -1) {
+    existingIdx = existing.findIndex((p) => p.presetName === normalizedName);
+  }
 
   let updated: CustomTrainPlan[];
   if (existingIdx !== -1) {
@@ -786,6 +914,7 @@ export function saveCustomTrainPreset(plan: CustomTrainPlan, presetName: string)
       presetName: normalizedName,
     };
   } else {
+    // 別名として新規保存（新しい一意なIDを発行して先頭に追加）
     const toSave: CustomTrainPlan = {
       ...plan,
       id: `preset_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,

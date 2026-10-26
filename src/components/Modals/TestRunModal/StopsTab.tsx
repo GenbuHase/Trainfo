@@ -7,6 +7,8 @@ import {
   Circle,
   CheckCircle2,
   Pin,
+  Timer,
+  CheckSquare2,
 } from 'lucide-react';
 import { getLine } from '../../../data/linesRegistry';
 import { STATION_MAP } from '../../../data/stations';
@@ -29,7 +31,8 @@ interface StopsTabProps {
   onSetStationSearchQuery: (query: string) => void;
   onResetAllManualTimes: () => void;
   onApplyBatchStopPattern: (
-    pattern: 'type_default' | 'all_stop' | 'major_only' | 'nonstop'
+    pattern: 'type_default' | 'all_stop' | 'major_only' | 'nonstop',
+    targetSegId?: string
   ) => void;
   onToggleStationPassing: (segIdx: number, stopIdx: number) => void;
   onManualArrivalTimeChange: (segIdx: number, stopIdx: number, newHHMM: string) => void;
@@ -58,12 +61,12 @@ export const StopsTab: React.FC<StopsTabProps> = ({
       <div className="bg-white rounded-xl border border-slate-200 p-4 space-y-3 shadow-2xs">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pb-3 border-b border-slate-100">
           {/* 始発駅の発車時刻モード */}
-          <div>
-            <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 mb-1.5">
-              <Clock className="w-3.5 h-3.5 text-sky-600" />
-              <span>発車時刻</span>
-            </label>
-            <div className="flex items-center gap-2 flex-wrap">
+          <div className="space-y-2">
+            <div className="min-h-7 flex items-center gap-2 flex-wrap">
+              <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 shrink-0">
+                <Clock className="w-3.5 h-3.5 text-slate-400" />
+                <span>発車時刻</span>
+              </label>
               <div className="inline-flex rounded-lg bg-slate-100 p-0.5 border border-slate-200">
                 <button
                   type="button"
@@ -75,7 +78,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                       )
                     )
                   }
-                  className={`px-2.5 py-1 rounded-md text-xs font-bold transition-all ${
+                  className={`px-2.5 py-0.5 rounded-md text-xs font-bold transition-all ${
                     computedPlan.departureMode === 'now'
                       ? 'bg-white text-sky-700 shadow-2xs'
                       : 'text-slate-600 hover:text-slate-900'
@@ -98,7 +101,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                       )
                     )
                   }
-                  className={`px-2.5 py-1 rounded-md text-xs font-bold transition-all ${
+                  className={`px-2.5 py-0.5 rounded-md text-xs font-bold transition-all ${
                     computedPlan.departureMode === 'scheduled'
                       ? 'bg-white text-sky-700 shadow-2xs'
                       : 'text-slate-600 hover:text-slate-900'
@@ -107,47 +110,67 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                   時刻指定
                 </button>
               </div>
+            </div>
 
-              {computedPlan.departureMode === 'scheduled' && (
-                <div className="flex items-center gap-2">
+            <div className="min-h-7 flex items-center gap-2 flex-wrap">
+              <input
+                type="time"
+                value={
+                  computedPlan.departureMode === 'scheduled'
+                    ? secondsToHHMM(computedPlan.scheduledStartSec)
+                    : secondsToHHMM(currentSec)
+                }
+                disabled={computedPlan.departureMode === 'now'}
+                onChange={(e) => {
+                  const newSec = hhmmToSeconds(e.target.value);
+                  onSetPlan((prev) =>
+                    recalculatePlanSchedule(
+                      { ...prev, scheduledStartSec: newSec },
+                      currentSec
+                    )
+                  );
+                }}
+                className={`h-7 px-2.5 border rounded-lg text-xs font-mono font-bold transition-colors ${
+                  computedPlan.departureMode === 'scheduled'
+                    ? 'border-sky-300 text-slate-800 bg-sky-50/40 focus:bg-white focus:outline-hidden focus:border-sky-500 shadow-2xs'
+                    : 'border-slate-200 text-slate-400 bg-slate-50 cursor-not-allowed'
+                }`}
+                title={
+                  computedPlan.departureMode === 'now'
+                    ? '「時刻指定」を選択すると任意の時刻に変更できます'
+                    : '発車時刻を入力'
+                }
+              />
+              {computedPlan.departureMode === 'scheduled' ? (
+                <label className="inline-flex items-center gap-1.5 text-[11px] text-slate-600 cursor-pointer select-none">
                   <input
-                    type="time"
-                    value={secondsToHHMM(computedPlan.scheduledStartSec)}
-                    onChange={(e) => {
-                      const newSec = hhmmToSeconds(e.target.value);
-                      onSetPlan((prev) =>
-                        recalculatePlanSchedule(
-                          { ...prev, scheduledStartSec: newSec },
-                          currentSec
-                        )
-                      );
-                    }}
-                    className="px-2 py-1 border border-sky-300 rounded-lg text-xs font-mono font-bold text-slate-800 bg-sky-50/40"
+                    type="checkbox"
+                    checked={computedPlan.seekToStartOnLaunch}
+                    onChange={(e) =>
+                      onSetPlan((prev) => ({
+                        ...prev,
+                        seekToStartOnLaunch: e.target.checked,
+                      }))
+                    }
+                    className="rounded text-sky-600"
                   />
-                  <label className="inline-flex items-center gap-1 text-[11px] text-slate-600 cursor-pointer select-none">
-                    <input
-                      type="checkbox"
-                      checked={computedPlan.seekToStartOnLaunch}
-                      onChange={(e) =>
-                        onSetPlan((prev) => ({
-                          ...prev,
-                          seekToStartOnLaunch: e.target.checked,
-                        }))
-                      }
-                      className="rounded text-sky-600"
-                    />
-                    <span>発車時に指定された時刻へ移動</span>
-                  </label>
-                </div>
+                  <span>発車時に指定された時刻へ移動</span>
+                </label>
+              ) : (
+                <span className="text-[11px] text-slate-400 flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
+                  <span>現在時刻に連動して運行開始</span>
+                </span>
               )}
             </div>
           </div>
 
           {/* 標準停車時間 & 手動時刻リセット */}
-          <div>
-            <div className="flex items-center justify-between mb-1.5">
-              <label className="text-[11px] font-bold text-slate-700">
-                各駅の標準停車時間
+          <div className="space-y-2">
+            <div className="min-h-7 flex items-center justify-between">
+              <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1">
+                <Timer className="w-3.5 h-3.5 text-slate-400" />
+                <span>各駅の標準停車時間</span>
               </label>
               <button
                 type="button"
@@ -159,7 +182,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                 設定された時刻を自動計算に戻す
               </button>
             </div>
-            <div className="flex items-center gap-1.5">
+            <div className="min-h-7 flex items-center gap-1.5">
               {[15, 20, 30, 60, 120].map((sec) => (
                 <button
                   key={sec}
@@ -181,7 +204,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                       );
                     })
                   }
-                  className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
+                  className={`h-7 px-2.5 rounded-lg text-xs font-bold inline-flex items-center justify-center transition-all ${
                     computedPlan.defaultStopSec === sec
                       ? 'bg-sky-600 text-white shadow-2xs'
                       : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
@@ -197,7 +220,19 @@ export const StopsTab: React.FC<StopsTabProps> = ({
         {/* 一括停車駅プリセット & 駅名クイック検索 */}
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-1.5 flex-wrap">
-            <span className="text-[11px] font-bold text-slate-500 mr-1">停車駅一括設定:</span>
+            <span className="text-[11px] font-bold text-slate-500 mr-1 flex items-center gap-1">
+              <CheckSquare2 className="w-3.5 h-3.5 text-slate-400" />
+              <span>停車駅一括設定:</span>
+              {selectedStopSegmentFilter !== 'all' ? (
+                <span className="text-[10px] text-sky-700 bg-sky-50 px-1.5 py-0.5 rounded border border-sky-200">
+                  選択中区間のみ
+                </span>
+              ) : (
+                <span className="text-[10px] text-slate-400 font-normal">
+                  (全区間)
+                </span>
+              )}
+            </span>
             <button
               type="button"
               onClick={() => onApplyBatchStopPattern('type_default')}
@@ -318,20 +353,61 @@ export const StopsTab: React.FC<StopsTabProps> = ({
               <React.Fragment key={seg.id}>
                 {/* 路線セクション見出し */}
                 <div
-                  className="px-3 py-1.5 text-[11px] font-extrabold text-white flex items-center justify-between sticky top-0 z-10 shadow-2xs"
+                  className="px-3 py-1.5 text-[11px] font-extrabold text-white flex items-center justify-between sticky top-0 z-10 shadow-2xs gap-2 flex-wrap"
                   style={{ backgroundColor: line?.lineColor || '#334155' }}
                 >
-                  <span>
-                    区間 {segIdx + 1}: {line?.name}
-                  </span>
-                  <TrainTypeBadge
-                    type={seg.trainType}
-                    size="sm"
-                    lineId={seg.lineId}
-                    customType={
-                      computedPlan.useCustomType ? computedPlan.customTrainType : undefined
-                    }
-                  />
+                  <div className="flex items-center gap-2">
+                    <span>
+                      区間 {segIdx + 1}: {line?.name}
+                    </span>
+                    <TrainTypeBadge
+                      type={seg.trainType}
+                      size="sm"
+                      lineId={seg.lineId}
+                      customType={
+                        computedPlan.useCustomType ? computedPlan.customTrainType : undefined
+                      }
+                    />
+                  </div>
+
+                  {/* この路線区間の一括停車設定ボタン */}
+                  <div className="flex items-center gap-1">
+                    <span className="text-[10px] text-white/80 font-bold mr-0.5 hidden xs:inline">
+                      この路線:
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => onApplyBatchStopPattern('type_default', seg.id)}
+                      className="px-2 py-0.5 rounded text-[10px] font-bold bg-white/20 hover:bg-white/30 text-white transition-colors"
+                      title="この路線の停車駅を種別標準に戻す"
+                    >
+                      標準
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => onApplyBatchStopPattern('all_stop', seg.id)}
+                      className="px-2 py-0.5 rounded text-[10px] font-bold bg-white/20 hover:bg-white/30 text-white transition-colors"
+                      title="この路線の全駅に停車"
+                    >
+                      全停
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => onApplyBatchStopPattern('major_only', seg.id)}
+                      className="px-2 py-0.5 rounded text-[10px] font-bold bg-white/20 hover:bg-white/30 text-white transition-colors"
+                      title="この路線の主要駅のみ停車"
+                    >
+                      主要
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => onApplyBatchStopPattern('nonstop', seg.id)}
+                      className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-400 hover:bg-amber-300 text-slate-900 transition-colors"
+                      title="この路線の途中駅をすべて通過にする"
+                    >
+                      通過
+                    </button>
+                  </div>
                 </div>
 
                 {seg.stops.map((stop, stopIdx) => {
@@ -432,7 +508,8 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                                 <span className="text-slate-400 text-[10px]">着</span>
                                 <input
                                   type="time"
-                                  value={secondsToHHMM(stop.arrivalSec)}
+                                  step="1"
+                                  value={secondsToTimeString(stop.arrivalSec)}
                                   onChange={(e) =>
                                     onManualArrivalTimeChange(
                                       segIdx,
@@ -455,7 +532,8 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                                 <span className="text-slate-400 text-[10px]">発</span>
                                 <input
                                   type="time"
-                                  value={secondsToHHMM(stop.departureSec)}
+                                  step="1"
+                                  value={secondsToTimeString(stop.departureSec)}
                                   onChange={(e) =>
                                     onManualDepartureTimeChange(
                                       segIdx,
@@ -464,7 +542,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                                     )
                                   }
                                   className={`px-1.5 py-0.5 rounded border text-xs font-mono font-bold ${
-                                    stop.manualStopDurationSec !== undefined
+                                    stop.manualDepartureSec !== undefined || stop.manualStopDurationSec !== undefined
                                       ? 'border-amber-400 bg-amber-50 text-amber-900'
                                       : 'border-slate-200 bg-white text-slate-900'
                                   }`}
@@ -475,7 +553,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                             {/* 停車秒数セレクタ（途中停車駅のみ） */}
                             {!isGlobalFirst && !isGlobalLast && (
                               <select
-                                value={stop.stopDurationSec}
+                                value={stop.manualStopDurationSec !== undefined ? stop.manualStopDurationSec : stop.stopDurationSec}
                                 onChange={(e) =>
                                   onManualStopDurationChange(
                                     segIdx,
@@ -483,9 +561,10 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                                     Number(e.target.value)
                                   )
                                 }
-                                className="px-1.5 py-0.5 rounded border border-slate-200 bg-slate-50 text-[11px] text-slate-600 font-mono"
+                                className="px-1.5 py-0.5 rounded border border-slate-200 bg-slate-50 text-[11px] text-slate-600 font-mono font-bold"
                                 title="この駅での停車時間"
                               >
+                                <option value={0}>0秒 (即発)</option>
                                 <option value={15}>15秒停</option>
                                 <option value={20}>20秒停</option>
                                 <option value={30}>30秒停</option>
@@ -494,11 +573,15 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                                 <option value={120}>2分停</option>
                                 <option value={180}>3分停</option>
                                 <option value={300}>5分停</option>
-                                {![15, 20, 30, 45, 60, 120, 180, 300].includes(
+                                {![0, 15, 20, 30, 45, 60, 120, 180, 300].includes(
                                   stop.stopDurationSec
                                 ) && (
                                   <option value={stop.stopDurationSec}>
-                                    {stop.stopDurationSec}秒停
+                                    {stop.stopDurationSec >= 60 && stop.stopDurationSec % 60 === 0
+                                      ? `${stop.stopDurationSec / 60}分停`
+                                      : stop.stopDurationSec >= 60
+                                      ? `${Math.floor(stop.stopDurationSec / 60)}分${stop.stopDurationSec % 60}秒停`
+                                      : `${stop.stopDurationSec}秒停`}
                                   </option>
                                 )}
                               </select>

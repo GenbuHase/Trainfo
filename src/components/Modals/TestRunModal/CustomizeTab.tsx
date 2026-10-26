@@ -1,5 +1,13 @@
 import React from 'react';
-import { Palette, Sliders } from 'lucide-react';
+import {
+  Palette,
+  Sliders,
+  Type,
+  Tag,
+  Hash,
+  Layers,
+  FastForward,
+} from 'lucide-react';
 import { getTrainTypeConfig } from '../../../data/linesRegistry';
 import { TrainTypeBadge } from '../../Common/Badges';
 import type { CustomTrainPlan } from '../../../services/testTrainService';
@@ -35,12 +43,10 @@ export const CustomizeTab: React.FC<CustomizeTabProps> = ({
                   computedPlan.useCustomType ? computedPlan.customTrainType : undefined
                 }
               />
-              {computedPlan.trainName.trim() ? (
+              {computedPlan.trainName.trim() && (
                 <span className="font-extrabold text-sm text-amber-300 tracking-wide">
                   {computedPlan.trainName}
                 </span>
-              ) : (
-                <span className="text-xs text-slate-400 italic">（固有列車名称：なし）</span>
               )}
               <span className="font-mono text-xs text-amber-200 font-bold">
                 {computedPlan.defaultTrainNumber || '試9001レ'}
@@ -159,8 +165,9 @@ export const CustomizeTab: React.FC<CustomizeTabProps> = ({
 
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
               <div>
-                <label className="text-[11px] font-bold text-slate-700 block mb-1">
-                  種別名
+                <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 mb-1">
+                  <Type className="w-3.5 h-3.5 text-slate-400" />
+                  <span>種別名</span>
                 </label>
                 <input
                   type="text"
@@ -182,8 +189,9 @@ export const CustomizeTab: React.FC<CustomizeTabProps> = ({
               </div>
 
               <div>
-                <label className="text-[11px] font-bold text-slate-700 block mb-1">
-                  種別略称
+                <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 mb-1">
+                  <Tag className="w-3.5 h-3.5 text-slate-400" />
+                  <span>種別略称</span>
                 </label>
                 <input
                   type="text"
@@ -204,8 +212,9 @@ export const CustomizeTab: React.FC<CustomizeTabProps> = ({
               </div>
 
               <div>
-                <label className="text-[11px] font-bold text-slate-700 block mb-1">
-                  カラー
+                <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 mb-1">
+                  <Palette className="w-3.5 h-3.5 text-slate-400" />
+                  <span>カラー</span>
                 </label>
                 <div className="flex items-center gap-1.5 flex-wrap">
                   {COLOR_SWATCHES.map((hex) => (
@@ -260,8 +269,9 @@ export const CustomizeTab: React.FC<CustomizeTabProps> = ({
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <div>
-            <label className="text-[11px] font-bold text-slate-700 block mb-1">
-              列車名称
+            <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 mb-1">
+              <Type className="w-3.5 h-3.5 text-slate-400" />
+              <span>列車名称</span>
             </label>
             <div className="flex gap-1.5">
               <input
@@ -286,8 +296,9 @@ export const CustomizeTab: React.FC<CustomizeTabProps> = ({
           </div>
 
           <div>
-            <label className="text-[11px] font-bold text-slate-700 block mb-1">
-              列車番号
+            <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 mb-1">
+              <Hash className="w-3.5 h-3.5 text-slate-400" />
+              <span>列車番号</span>
             </label>
             <input
               type="text"
@@ -304,8 +315,9 @@ export const CustomizeTab: React.FC<CustomizeTabProps> = ({
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
           {/* 両数設定 */}
           <div>
-            <label className="text-[11px] font-bold text-slate-700 block mb-1.5">
-              編成両数 ({computedPlan.cars}両編成)
+            <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 mb-1.5">
+              <Layers className="w-3.5 h-3.5 text-slate-400" />
+              <span>編成両数 ({computedPlan.cars}両編成)</span>
             </label>
             <div className="flex items-center gap-1.5 flex-wrap">
               {[2, 4, 6, 8, 10, 12, 15].map((c) => (
@@ -327,8 +339,9 @@ export const CustomizeTab: React.FC<CustomizeTabProps> = ({
 
           {/* 観測再生倍速 */}
           <div>
-            <label className="text-[11px] font-bold text-slate-700 block mb-1.5">
-              観測再生倍速
+            <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 mb-1.5">
+              <FastForward className="w-3.5 h-3.5 text-slate-400" />
+              <span>観測再生倍速</span>
             </label>
             <div className="flex items-center gap-1.5 flex-wrap">
               {[1, 2, 5, 10, 30, 60].map((s) => (
