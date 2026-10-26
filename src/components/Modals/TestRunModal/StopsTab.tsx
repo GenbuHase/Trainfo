@@ -62,7 +62,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pb-3 border-b border-slate-100">
           {/* 始発駅の発車時刻モード */}
           <div className="space-y-2">
-            <div className="flex items-center gap-2 flex-wrap">
+            <div className="min-h-7 flex items-center gap-2 flex-wrap">
               <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1 shrink-0">
                 <Clock className="w-3.5 h-3.5 text-slate-400" />
                 <span>発車時刻</span>
@@ -78,7 +78,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                       )
                     )
                   }
-                  className={`px-2.5 py-1 rounded-md text-xs font-bold transition-all ${
+                  className={`px-2.5 py-0.5 rounded-md text-xs font-bold transition-all ${
                     computedPlan.departureMode === 'now'
                       ? 'bg-white text-sky-700 shadow-2xs'
                       : 'text-slate-600 hover:text-slate-900'
@@ -101,7 +101,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                       )
                     )
                   }
-                  className={`px-2.5 py-1 rounded-md text-xs font-bold transition-all ${
+                  className={`px-2.5 py-0.5 rounded-md text-xs font-bold transition-all ${
                     computedPlan.departureMode === 'scheduled'
                       ? 'bg-white text-sky-700 shadow-2xs'
                       : 'text-slate-600 hover:text-slate-900'
@@ -112,22 +112,36 @@ export const StopsTab: React.FC<StopsTabProps> = ({
               </div>
             </div>
 
-            {computedPlan.departureMode === 'scheduled' && (
-              <div className="flex items-center gap-2 flex-wrap">
-                <input
-                  type="time"
-                  value={secondsToHHMM(computedPlan.scheduledStartSec)}
-                  onChange={(e) => {
-                    const newSec = hhmmToSeconds(e.target.value);
-                    onSetPlan((prev) =>
-                      recalculatePlanSchedule(
-                        { ...prev, scheduledStartSec: newSec },
-                        currentSec
-                      )
-                    );
-                  }}
-                  className="px-2.5 py-1 border border-sky-300 rounded-lg text-xs font-mono font-bold text-slate-800 bg-sky-50/40 focus:bg-white focus:outline-hidden focus:border-sky-500 shadow-2xs"
-                />
+            <div className="min-h-7 flex items-center gap-2 flex-wrap">
+              <input
+                type="time"
+                value={
+                  computedPlan.departureMode === 'scheduled'
+                    ? secondsToHHMM(computedPlan.scheduledStartSec)
+                    : secondsToHHMM(currentSec)
+                }
+                disabled={computedPlan.departureMode === 'now'}
+                onChange={(e) => {
+                  const newSec = hhmmToSeconds(e.target.value);
+                  onSetPlan((prev) =>
+                    recalculatePlanSchedule(
+                      { ...prev, scheduledStartSec: newSec },
+                      currentSec
+                    )
+                  );
+                }}
+                className={`h-7 px-2.5 border rounded-lg text-xs font-mono font-bold transition-colors ${
+                  computedPlan.departureMode === 'scheduled'
+                    ? 'border-sky-300 text-slate-800 bg-sky-50/40 focus:bg-white focus:outline-hidden focus:border-sky-500 shadow-2xs'
+                    : 'border-slate-200 text-slate-400 bg-slate-50 cursor-not-allowed'
+                }`}
+                title={
+                  computedPlan.departureMode === 'now'
+                    ? '「時刻指定」を選択すると任意の時刻に変更できます'
+                    : '発車時刻を入力'
+                }
+              />
+              {computedPlan.departureMode === 'scheduled' ? (
                 <label className="inline-flex items-center gap-1.5 text-[11px] text-slate-600 cursor-pointer select-none">
                   <input
                     type="checkbox"
@@ -142,13 +156,18 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                   />
                   <span>発車時に指定された時刻へ移動</span>
                 </label>
-              </div>
-            )}
+              ) : (
+                <span className="text-[11px] text-slate-400 flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
+                  <span>現在時刻に連動して運行開始</span>
+                </span>
+              )}
+            </div>
           </div>
 
           {/* 標準停車時間 & 手動時刻リセット */}
-          <div>
-            <div className="flex items-center justify-between mb-1.5">
+          <div className="space-y-2">
+            <div className="min-h-7 flex items-center justify-between">
               <label className="text-[11px] font-bold text-slate-700 flex items-center gap-1">
                 <Timer className="w-3.5 h-3.5 text-slate-400" />
                 <span>各駅の標準停車時間</span>
@@ -163,7 +182,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                 設定された時刻を自動計算に戻す
               </button>
             </div>
-            <div className="flex items-center gap-1.5">
+            <div className="min-h-7 flex items-center gap-1.5">
               {[15, 20, 30, 60, 120].map((sec) => (
                 <button
                   key={sec}
@@ -185,7 +204,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                       );
                     })
                   }
-                  className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all ${
+                  className={`h-7 px-2.5 rounded-lg text-xs font-bold inline-flex items-center justify-center transition-all ${
                     computedPlan.defaultStopSec === sec
                       ? 'bg-sky-600 text-white shadow-2xs'
                       : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
