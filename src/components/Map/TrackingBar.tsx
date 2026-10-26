@@ -13,6 +13,14 @@ interface TrackingBarProps {
   onStopTracking: () => void;
 }
 
+/**
+ * 路線名から系統区間の括弧（例: 「（静岡地区）」、「（南小谷～糸魚川）」）を除去してコンパクト化
+ */
+function getDisplayLineName(shortName: string): string {
+  const cleaned = shortName.replace(/[(（].*?[)）]/g, '').trim();
+  return cleaned || shortName;
+}
+
 export const TrackingBar: React.FC<TrackingBarProps> = ({
   train,
   onOpenSidebar,
@@ -34,19 +42,25 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
 
   return (
     <div className="pointer-events-auto w-full sm:max-w-[480px] md:max-w-[520px] bg-slate-900/95 backdrop-blur-md text-white rounded-xl shadow-2xl border border-slate-700/80 p-2.5 sm:p-3 animate-in fade-in slide-in-from-top-2 duration-200">
-      {/* 1段目: 追尾中ステータス・列車識別情報 ＆ アクションボタン群 */}
-      <div className="flex items-center justify-between gap-2 pb-2 border-b border-slate-800/80">
-        {/* 左側: 路線・種別・愛称・列車番号 */}
+      {/* 1段目: 追尾中ステータス・路線・種別・列車番号 ＆ アクションボタン群 */}
+      <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-slate-800/80">
+        {/* 左側: 追尾インジケーター & 路線・種別・列車番号 */}
         <div className="flex items-center gap-1.5 min-w-0 flex-1 overflow-hidden">
+          <div className="flex items-center gap-1 bg-amber-500/20 text-amber-300 border border-amber-500/40 px-1.5 py-0.5 rounded-full text-[10px] font-bold shrink-0">
+            <LocateFixed className="w-3 h-3 animate-pulse text-amber-400" />
+            <span className="hidden xs:inline">追尾中</span>
+          </div>
+
           {line && (
             <span
-              className="inline-flex items-center justify-center text-[10px] px-1.5 py-0.5 font-medium rounded text-white shadow-xs shrink-0"
+              className="inline-flex items-center justify-center text-[10px] px-1.5 py-0.5 font-medium rounded text-white shadow-xs shrink-0 max-w-[80px] sm:max-w-[120px] truncate"
               style={{
                 backgroundColor: lineColor,
                 border: '1px solid rgba(255, 255, 255, 0.2)',
               }}
+              title={line.name}
             >
-              {line.shortName}
+              {getDisplayLineName(line.shortName)}
             </span>
           )}
 
@@ -56,12 +70,6 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
             lineId={train.lineId}
             customType={train.customTrainType}
           />
-
-          {train.trainName && (
-            <span className="text-xs font-bold text-amber-200 truncate">
-              {train.trainName}
-            </span>
-          )}
 
           <span className="font-mono text-xs text-amber-300 font-bold shrink-0">
             {formatTrainNumber(train.trainNumber, train.trainId, train.tripId)}
@@ -78,7 +86,7 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
           <button
             type="button"
             onClick={() => setHideOtherTrainsOnTracking((prev) => !prev)}
-            className={`flex items-center gap-1 px-2 py-1 rounded-lg text-xs font-bold border transition-all shadow-sm cursor-pointer ${
+            className={`flex items-center gap-1 px-1.5 sm:px-2 py-1 rounded-lg text-xs font-bold border transition-all shadow-sm cursor-pointer ${
               hideOtherTrainsOnTracking
                 ? 'bg-amber-500/25 border-amber-400 text-amber-300 ring-1 ring-amber-400/40'
                 : 'bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-600'
@@ -106,11 +114,11 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
           <button
             type="button"
             onClick={onOpenSidebar}
-            className="flex items-center gap-1 px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold border border-slate-600 transition-colors shadow-sm cursor-pointer"
+            className="flex items-center gap-1 px-1.5 sm:px-2 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold border border-slate-600 transition-colors shadow-sm cursor-pointer"
             title="列車詳細パネルを開く"
           >
-            <span className="text-xs">詳細</span>
-            <ExternalLink className="w-3 h-3 text-slate-400" />
+            <span className="text-xs hidden xs:inline">詳細</span>
+            <ExternalLink className="w-3.5 h-3.5 text-slate-400" />
           </button>
 
           {/* 追尾解除ボタン */}
@@ -125,16 +133,21 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
         </div>
       </div>
 
-      {/* 2段目: 行先・遅延 ＆ 走行状況（2段構え） ＆ 併結切替ボタン */}
-      <div className="flex items-center justify-between gap-2 pt-2">
-        {/* 左側: 行先 ＆ 遅延情報 */}
-        <div className="flex items-center gap-1.5 min-w-0">
-          <span className="text-sm font-black text-white whitespace-nowrap">
+      {/* 2段目: 列車名・行先・遅延 ＆ 走行状況（2段構え） ＆ 併結切替ボタン */}
+      <div className="flex items-center justify-between gap-2 pt-1.5">
+        {/* 左側: 列車名・行先 ＆ 遅延情報 */}
+        <div className="flex items-center gap-1.5 min-w-0 flex-1 overflow-hidden">
+          {train.trainName && (
+            <span className="text-xs sm:text-sm font-bold text-amber-300 truncate shrink-0 max-w-[120px] sm:max-w-none">
+              {train.trainName}
+            </span>
+          )}
+          <span className="text-xs sm:text-sm font-black text-white truncate">
             {train.customDestination || destStation?.name || '行先未定'} 行
           </span>
           {train.delayMinutes > 0 && (
-            <span className="inline-flex items-center gap-0.5 text-[10px] text-rose-400 bg-rose-950/80 border border-rose-800 px-1 py-0.2 rounded shrink-0">
-              <AlertCircle className="w-3 h-3" />+{train.delayMinutes}分
+            <span className="inline-flex items-center gap-0.5 text-[9px] text-rose-400 bg-rose-950/80 border border-rose-800 px-1 py-0.2 rounded shrink-0">
+              <AlertCircle className="w-2.5 h-2.5" />+{train.delayMinutes}分
             </span>
           )}
         </div>
@@ -160,10 +173,11 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
               <button
                 type="button"
                 onClick={() => setSelectedTrainId(train.coupling!.coupledTripId)}
-                className="flex items-center gap-1.5 px-2 py-1 rounded-lg text-xs font-bold border border-sky-400/60 bg-sky-950/90 hover:bg-sky-900 active:scale-95 text-sky-200 transition-all shadow-sm cursor-pointer group"
+                className="flex items-center gap-1 px-1.5 sm:px-2 py-1 rounded-lg text-xs font-bold border border-sky-400/60 bg-sky-950/90 hover:bg-sky-900 active:scale-95 text-sky-200 transition-all shadow-sm cursor-pointer group"
                 title={`併結相手 (${train.coupling.coupledTrainNumber}${coupledDestinationText ? ` ${coupledDestinationText}行` : ''}) にフォーカスを切り替える`}
               >
                 <ArrowLeftRight className="w-3.5 h-3.5 text-sky-400 group-hover:rotate-180 transition-transform duration-300 shrink-0" />
+                <span className="text-[11px] font-bold text-sky-300 hidden xs:inline">切替:</span>
                 <span className="font-mono text-xs text-white">{train.coupling.coupledTrainNumber}</span>
               </button>
             </div>
