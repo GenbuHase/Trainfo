@@ -55,10 +55,10 @@ export const SPEED_PRESET_GROUPS: SpeedPresetGroup[] = [
   {
     groupName: '在来線 低速線区',
     options: [
-      { value: 30, label: '30 km/h (地方交通線徐行)' },
+      { value: 30, label: '30 km/h (徐行)' },
       { value: 35, label: '35 km/h' },
       { value: 45, label: '45 km/h' },
-      { value: 55, label: '55 km/h (地下鉄標準)' },
+      { value: 55, label: '55 km/h (地下鉄)' },
       { value: 65, label: '65 km/h' },
       { value: 70, label: '70 km/h' },
     ],
@@ -66,21 +66,21 @@ export const SPEED_PRESET_GROUPS: SpeedPresetGroup[] = [
   {
     groupName: '在来線 標準・快速',
     options: [
-      { value: 75, label: '75 km/h (在来線標準)' },
+      { value: 75, label: '75 km/h (標準)' },
       { value: 80, label: '80 km/h' },
       { value: 85, label: '85 km/h' },
       { value: 90, label: '90 km/h' },
-      { value: 95, label: '95 km/h (私鉄線快速/急行)' },
+      { value: 95, label: '95 km/h (快速)' },
       { value: 100, label: '100 km/h' },
       { value: 105, label: '105 km/h' },
-      { value: 110, label: '110 km/h (幹線快速)' },
+      { value: 110, label: '110 km/h (幹線)' },
     ],
   },
   {
     groupName: '在来線 特急・高速線区',
     options: [
       { value: 120, label: '120 km/h' },
-      { value: 130, label: '130 km/h (新快速/幹線特急)' },
+      { value: 130, label: '130 km/h (特急)' },
       { value: 140, label: '140 km/h' },
       { value: 160, label: '160 km/h (スカイライナー)' },
     ],
@@ -88,8 +88,8 @@ export const SPEED_PRESET_GROUPS: SpeedPresetGroup[] = [
   {
     groupName: '新幹線',
     options: [
-      { value: 210, label: '210 km/h (東海道・山陽新幹線初期)' },
-      { value: 240, label: '240 km/h (上越・北陸新幹線)' },
+      { value: 210, label: '210 km/h (新幹線初期)' },
+      { value: 240, label: '240 km/h (北陸新幹線)' },
       { value: 260, label: '260 km/h (整備新幹線)' },
       { value: 275, label: '275 km/h (東北・上越新幹線)' },
       { value: 285, label: '285 km/h (東海道新幹線)' },

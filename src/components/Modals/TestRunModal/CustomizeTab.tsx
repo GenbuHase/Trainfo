@@ -35,12 +35,10 @@ export const CustomizeTab: React.FC<CustomizeTabProps> = ({
                   computedPlan.useCustomType ? computedPlan.customTrainType : undefined
                 }
               />
-              {computedPlan.trainName.trim() ? (
+              {computedPlan.trainName.trim() && (
                 <span className="font-extrabold text-sm text-amber-300 tracking-wide">
                   {computedPlan.trainName}
                 </span>
-              ) : (
-                <span className="text-xs text-slate-400 italic">（固有列車名称：なし）</span>
               )}
               <span className="font-mono text-xs text-amber-200 font-bold">
                 {computedPlan.defaultTrainNumber || '試9001レ'}
