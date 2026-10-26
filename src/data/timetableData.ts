@@ -513,6 +513,16 @@ export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
     const cur = queue.shift()!;
     chain.push(cur);
 
+    // トリップ候補がチェーン内の既存トリップと同一路線で2駅以上重複（区間重複）していないか判定
+    const isHeavyOverlap = (candidate: TimetableTrip) => {
+      const candidateStationIds = new Set(candidate.stops.map((s) => s.stationId));
+      return chain.some((existing) => {
+        if (existing.lineId !== candidate.lineId) return false;
+        const overlapCount = existing.stops.filter((s) => candidateStationIds.has(s.stationId)).length;
+        return overlapCount > 1;
+      });
+    };
+
     // 1. 同一 trainId のトリップを収集 (汎用接続判定により、スイッチバックや路線間上下反転も正しく統合)
     if (cur.trainId) {
       const sameTrainIdTrips = trainIdMap.get(cur.trainId) || [];
@@ -544,14 +554,8 @@ export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
             continue;
           }
 
-          // すでに収集済みのトリップ群と区間駅が大幅に重複しているトリップは別系統の重複とみなしスキップ
-          const stStationIds = new Set(st.stops.map((s) => s.stationId));
-          const hasHeavyOverlap = chain.some((existing) => {
-            if (existing.lineId !== st.lineId) return false;
-            const overlapCount = existing.stops.filter((s) => stStationIds.has(s.stationId)).length;
-            return overlapCount > 1;
-          });
-          if (hasHeavyOverlap) {
+                    // すでに収集済みのトリップ群と区間駅が大幅に重複しているトリップは別系統の重複とみなしスキップ
+          if (isHeavyOverlap(st)) {
             continue;
           }
 
@@ -564,7 +568,7 @@ export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
     // 2. prevTripId を遡る
     if (cur.prevTripId && !visitedTripIds.has(cur.prevTripId)) {
       const prev = map.get(cur.prevTripId);
-      if (prev) {
+      if (prev && !isHeavyOverlap(prev)) {
         visitedTripIds.add(prev.tripId);
         queue.push(prev);
       }
@@ -573,7 +577,7 @@ export function getThroughChainTrips(initialTripId: string): TimetableTrip[] {
     // 3. throughTripId を辿る
     if (cur.throughTripId && !visitedTripIds.has(cur.throughTripId)) {
       const next = map.get(cur.throughTripId);
-      if (next) {
+      if (next && !isHeavyOverlap(next)) {
         visitedTripIds.add(next.tripId);
         queue.push(next);
       }
@@ -814,6 +818,11 @@ export function buildThroughChainSummary(chainTrips: TimetableTrip[]): ThroughCh
           // 先頭駅は統合されたのでスキップ
           continue;
         }
+      }
+
+      // 同一路線・同一駅の重複登録抑止（先行区間ですでに登録済みの駅が再描画されるのを完全防止）
+      if (stops.some((existing) => existing.stationId === s.stationId && existing.lineId === trip.lineId)) {
+        continue;
       }
 
       stops.push({
