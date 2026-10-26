@@ -522,7 +522,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                         <div className="w-full border-t border-slate-200" />
                       </div>
 
-                      {/* 「通過済み (n駅)」バッジ */}
+                      {/* 開閉ボタン */}
                       <div className="relative flex items-center ml-7">
                         {olderPassedCount > 0 ? (
                           <button
@@ -568,7 +568,6 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                         </div>
                       </div>
 
-                      {/* 走行中 [xx km/h] */}
                       <div className="flex items-center gap-2 text-xs py-0.5 flex-1">
                         <span className="font-semibold text-slate-700 text-[11px]">
                           走行中
