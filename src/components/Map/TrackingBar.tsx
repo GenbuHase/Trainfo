@@ -1,6 +1,6 @@
 import React from 'react';
 import type { ActiveTrain } from '../../types';
-import { LocateFixed, X, ExternalLink, Gauge, AlertCircle, Eye, EyeOff, ArrowLeftRight } from 'lucide-react';
+import { X, ExternalLink, Gauge, AlertCircle, Eye, EyeOff, ArrowLeftRight } from 'lucide-react';
 import { useSelection } from '../../contexts/SelectionContext';
 import { STATION_MAP } from '../../data/stations';
 import { formatTrainNumber, getGlobalTripMap } from '../../data/timetableData';
