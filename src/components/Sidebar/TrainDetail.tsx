@@ -514,15 +514,15 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
 
               return (
                 <React.Fragment key={`${stop.lineId}_${stop.stationId}_${idx}`}>
-                  {/* 通過済み区切りライン（ユーザー指定: --- 通過済み (n駅) --------------------） */}
+                  {/* 通過済みディバイダー */}
                   {showPassedDividerBeforeThis && (
                     <div className="relative py-2 -ml-7 flex items-center select-none z-20">
-                      {/* レールを貫通して全幅に伸びる水平ライン */}
+                      {/* ディバイダー */}
                       <div className="absolute inset-0 flex items-center" aria-hidden="true">
                         <div className="w-full border-t border-slate-200" />
                       </div>
 
-                      {/* 水平線上に乗る「通過済み (n駅)」バッジ（左端の●は廃止） */}
+                      {/* 「通過済み (n駅)」バッジ */}
                       <div className="relative flex items-center ml-7">
                         {olderPassedCount > 0 ? (
                           <button
@@ -550,75 +550,39 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                     </div>
                   )}
 
-                  {showRunningIndicatorBeforeThis && (() => {
-                    const progress = Math.max(0, Math.min(1, train.progressPercent));
-                    const progressPercent = Math.round(progress * 100);
-
-                    return (
-                      <div className="relative h-20 select-none">
-                        {/* レール軸コンテナ（左側のレール線上を親の薄グレー線と同軸で制御） */}
-                        <div className="absolute -left-7 inset-y-0 w-6 pointer-events-none">
-                          {/* 直前駅/ディバイダーから現在地までの着色レール（┃: パーセンテージに合わせてリアルタイムに伸縮） */}
+                  {showRunningIndicatorBeforeThis && (
+                    <div className="relative py-1.5 select-none flex items-center">
+                      {/* [走行中] トレインバッジ */}
+                      <div className="absolute -left-7 inset-y-0 w-6 flex items-center justify-center pointer-events-none z-10">
+                        <div className="relative flex items-center justify-center">
                           <div
-                            className="absolute left-1/2 -translate-x-1/2 w-0.5 rounded-full z-0 transition-[height] duration-300 ease-linear"
-                            style={{
-                              top: '-12px',
-                              height: `calc(12px + 14px + (100% - 28px) * ${progress})`,
-                              backgroundColor: itemLineColor,
-                            }}
+                            className="w-5 h-5 rounded-md animate-ping absolute opacity-30"
+                            style={{ backgroundColor: itemLineColor }}
                           />
-                        </div>
-
-                        {/* 列車アイコンと走行情報（進捗率に合わせて滑らかに垂直移動） */}
-                        <div
-                          className="absolute inset-x-0 flex items-center gap-2 -translate-y-1/2 transition-[top] duration-300 ease-linear select-none"
-                          style={{
-                            top: `calc(14px + (100% - 28px) * ${progress})`,
-                          }}
-                        >
-                          {/* マイクロトレイン・ピクトグラムバッジ（[🚆]） */}
-                          <div className="absolute -left-7 w-6 flex items-center justify-center z-10">
-                            <div className="relative flex items-center justify-center">
-                              <div
-                                className="w-5 h-5 rounded-md animate-ping absolute opacity-30"
-                                style={{ backgroundColor: itemLineColor }}
-                              />
-                              <div
-                                className="w-5 h-5 rounded-md flex items-center justify-center text-white shadow-2xs border border-white/40"
-                                style={{ backgroundColor: itemLineColor }}
-                                title={`走行中: 進捗 ${progressPercent}%`}
-                              >
-                                <TrainFront className="w-3.5 h-3.5 stroke-[2.2]" />
-                              </div>
-                            </div>
-                          </div>
-
-                          {/* コネクタ引き出し線（──）と走行情報（走行中 (xx%) · xx km/h） */}
-                          <div className="flex items-center gap-2 text-xs py-0.5 flex-1 pl-0.5">
-                            {/* レールからの引き出し線 */}
-                            <div className="w-2.5 border-t border-slate-300 -ml-0.5" />
-
-                            <div className="flex items-center gap-1.5">
-                              <span className="font-bold text-slate-800 text-[11px]">
-                                走行中
-                              </span>
-                              <span className="text-[11px] font-mono font-bold text-slate-600">
-                                ({progressPercent}%)
-                              </span>
-                              {train.speedKmh > 0 && (
-                                <>
-                                  <span className="text-slate-300 text-[10px]">·</span>
-                                  <span className="inline-flex items-center px-1.5 py-0.2 rounded bg-slate-100 text-slate-600 font-mono text-[10px] font-semibold border border-slate-200/80 shadow-2xs">
-                                    {Math.round(train.speedKmh)} km/h
-                                  </span>
-                                </>
-                              )}
-                            </div>
+                          <div
+                            className="w-5 h-5 rounded-md flex items-center justify-center text-white shadow-2xs border border-white/40"
+                            style={{ backgroundColor: itemLineColor }}
+                          >
+                            <TrainFront className="w-3.5 h-3.5 stroke-[2.2]" />
                           </div>
                         </div>
                       </div>
-                    );
-                  })()}
+
+                      {/* 走行中 [xx km/h] */}
+                      <div className="flex items-center gap-2 text-xs py-0.5 flex-1">
+                        <span className="font-semibold text-slate-700 text-[11px]">
+                          走行中
+                        </span>
+                        {train.speedKmh > 0 && (
+                          <>
+                            <span className="inline-flex items-center px-1.5 py-0.2 rounded bg-slate-100 text-slate-600 font-mono text-[10px] font-semibold border border-slate-200/80 shadow-2xs">
+                              {Math.round(train.speedKmh)} km/h
+                            </span>
+                          </>
+                        )}
+                      </div>
+                    </div>
+                  )}
 
                   <div
                     role="button"
@@ -634,7 +598,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                       }
                     }}
                   >
-                    {/* 折りたたみ時の一駅前（直前駅）の上部シャドウオーバーレイ */}
+                    {/* 折りたたみ時の直前駅上部シャドウオーバーレイ */}
                     {isPrevStopShadowed && (
                       <div
                         className="absolute -left-7 right-0 -top-1 h-7 pointer-events-none z-10 transition-opacity group-hover:opacity-0"
@@ -645,20 +609,34 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                       />
                     )}
 
-                    {/* ピンマーカー (コンテナ中央揃えにより停車・通過・現在位置を行の上下中央に完全同軸化) */}
+                    {/* ピンマーカー */}
                     <div className={`absolute -left-7 inset-y-0 w-6 flex items-center justify-center pointer-events-none z-10 ${
                       isPrevStopShadowed ? 'prev-stop-faded' : ''
                     }`}>
-                      <div
-                        className={`rounded-full transition-transform group-hover:scale-125 ${
-                          stop.isCurrent
-                            ? 'w-3.5 h-3.5 bg-amber-500 border-2 border-white ring-4 ring-amber-300 ring-opacity-70 animate-pulse'
-                            : isPassing
-                            ? 'w-2 h-2 bg-slate-300 border border-slate-300'
-                            : 'w-3.5 h-3.5 bg-white border-2'
-                        }`}
-                        style={!stop.isCurrent && !isPassing ? { borderColor: itemLineColor } : {}}
-                      />
+                      {stop.isCurrent ? (
+                        /* [停車中] トレインバッジ */
+                        <div className="relative flex items-center justify-center">
+                          <div
+                            className="w-5 h-5 rounded-md animate-ping absolute opacity-30"
+                            style={{ backgroundColor: itemLineColor }}
+                          />
+                          <div
+                            className="w-5 h-5 rounded-md flex items-center justify-center text-white shadow-2xs border border-white/40"
+                            style={{ backgroundColor: itemLineColor }}
+                          >
+                            <TrainFront className="w-3.5 h-3.5 stroke-[2.2]" />
+                          </div>
+                        </div>
+                      ) : (
+                        <div
+                          className={`rounded-full transition-transform group-hover:scale-125 ${
+                            isPassing
+                              ? 'w-2 h-2 bg-slate-300 border border-slate-300'
+                              : 'w-3.5 h-3.5 bg-white border-2'
+                          }`}
+                          style={!isPassing ? { borderColor: itemLineColor } : {}}
+                        />
+                      )}
                     </div>
 
                     {/* 駅名と時刻 */}
