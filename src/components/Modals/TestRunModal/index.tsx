@@ -24,6 +24,7 @@ import {
   appendConnectedSegment,
   getConnectableLines,
   findConnectingStationPairs,
+  areStationsConnectable,
   secondsToHHMM,
   hhmmToSeconds,
   loadSavedCustomTrainPresets,
@@ -508,19 +509,39 @@ export const TestRunModal: React.FC = () => {
       }
 
       const nextSegments = prev.segments.map((seg, sIdx) => {
-        if (sIdx !== segIdx) return seg;
         const nextStops = seg.stops.map((st, idx) => {
-          if (idx !== stopIdx) return st;
-          let stopDuration = st.stopDurationSec;
-          if (st.manualDepartureSec !== undefined) {
-            stopDuration = Math.max(0, st.manualDepartureSec - newSec);
+          const isTarget = sIdx === segIdx && idx === stopIdx;
+          const isPrevBoundaryPair =
+            sIdx === segIdx - 1 &&
+            idx === seg.stops.length - 1 &&
+            stopIdx === 0;
+          const isNextBoundaryPair =
+            sIdx === segIdx + 1 &&
+            idx === 0 &&
+            stopIdx === prev.segments[segIdx].stops.length - 1;
+
+          let isBoundaryMatch = false;
+          if (isPrevBoundaryPair || isNextBoundaryPair) {
+            const stTarget = STATION_MAP.get(curStop?.stationId || '');
+            const stOther = STATION_MAP.get(st.stationId);
+            if (stTarget && stOther && areStationsConnectable(stTarget, stOther)) {
+              isBoundaryMatch = true;
+            }
           }
-          return {
-            ...st,
-            manualArrivalSec: newSec,
-            manualStopDurationSec: stopDuration,
-            stopDurationSec: stopDuration,
-          };
+
+          if (isTarget || isBoundaryMatch) {
+            let stopDuration = st.stopDurationSec;
+            if (st.manualDepartureSec !== undefined) {
+              stopDuration = Math.max(0, st.manualDepartureSec - newSec);
+            }
+            return {
+              ...st,
+              manualArrivalSec: newSec,
+              manualStopDurationSec: stopDuration,
+              stopDurationSec: stopDuration,
+            };
+          }
+          return st;
         });
         return { ...seg, stops: nextStops };
       });
@@ -543,19 +564,40 @@ export const TestRunModal: React.FC = () => {
       const newDepSec = curArrival + clamped;
 
       const nextSegments = prev.segments.map((seg, sIdx) => {
-        if (sIdx !== segIdx) return seg;
         const nextStops = seg.stops.map((st, idx) => {
-          if (idx !== stopIdx) return st;
-          return {
-            ...st,
-            isPassing: clamped === 0 ? st.isPassing : false,
-            manualDepartureSec: newDepSec,
-            stopDurationSec: clamped,
-            manualStopDurationSec: clamped,
-          };
+          const isTarget = sIdx === segIdx && idx === stopIdx;
+          const isPrevBoundaryPair =
+            sIdx === segIdx - 1 &&
+            idx === seg.stops.length - 1 &&
+            stopIdx === 0;
+          const isNextBoundaryPair =
+            sIdx === segIdx + 1 &&
+            idx === 0 &&
+            stopIdx === prev.segments[segIdx].stops.length - 1;
+
+          let isBoundaryMatch = false;
+          if (isPrevBoundaryPair || isNextBoundaryPair) {
+            const stTarget = STATION_MAP.get(curStop?.stationId || '');
+            const stOther = STATION_MAP.get(st.stationId);
+            if (stTarget && stOther && areStationsConnectable(stTarget, stOther)) {
+              isBoundaryMatch = true;
+            }
+          }
+
+          if (isTarget || isBoundaryMatch) {
+            return {
+              ...st,
+              isPassing: clamped === 0 ? st.isPassing : false,
+              manualDepartureSec: newDepSec,
+              stopDurationSec: clamped,
+              manualStopDurationSec: clamped,
+            };
+          }
+          return st;
         });
         return { ...seg, stops: nextStops };
       });
+
       return recalculatePlanSchedule({ ...prev, segments: nextSegments }, sim.currentSec);
     });
   };
@@ -587,16 +629,36 @@ export const TestRunModal: React.FC = () => {
       const durationSec = Math.max(0, targetDepSec - curStop.arrivalSec);
 
       const nextSegments = prev.segments.map((seg, sIdx) => {
-        if (sIdx !== segIdx) return seg;
         const nextStops = seg.stops.map((st, idx) => {
-          if (idx !== stopIdx) return st;
-          return {
-            ...st,
-            isPassing: false,
-            manualDepartureSec: targetDepSec,
-            stopDurationSec: durationSec,
-            manualStopDurationSec: durationSec,
-          };
+          const isTarget = sIdx === segIdx && idx === stopIdx;
+          const isPrevBoundaryPair =
+            sIdx === segIdx - 1 &&
+            idx === seg.stops.length - 1 &&
+            stopIdx === 0;
+          const isNextBoundaryPair =
+            sIdx === segIdx + 1 &&
+            idx === 0 &&
+            stopIdx === prev.segments[segIdx].stops.length - 1;
+
+          let isBoundaryMatch = false;
+          if (isPrevBoundaryPair || isNextBoundaryPair) {
+            const stTarget = STATION_MAP.get(curStop?.stationId || '');
+            const stOther = STATION_MAP.get(st.stationId);
+            if (stTarget && stOther && areStationsConnectable(stTarget, stOther)) {
+              isBoundaryMatch = true;
+            }
+          }
+
+          if (isTarget || isBoundaryMatch) {
+            return {
+              ...st,
+              isPassing: false,
+              manualDepartureSec: targetDepSec,
+              stopDurationSec: durationSec,
+              manualStopDurationSec: durationSec,
+            };
+          }
+          return st;
         });
         return { ...seg, stops: nextStops };
       });

@@ -530,7 +530,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                             {/* 停車秒数セレクタ（途中停車駅のみ） */}
                             {!isGlobalFirst && !isGlobalLast && (
                               <select
-                                value={stop.stopDurationSec}
+                                value={stop.manualStopDurationSec !== undefined ? stop.manualStopDurationSec : stop.stopDurationSec}
                                 onChange={(e) =>
                                   onManualStopDurationChange(
                                     segIdx,

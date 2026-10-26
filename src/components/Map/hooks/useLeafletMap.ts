@@ -25,7 +25,6 @@ export function useLeafletMap({
   const stationLayerRef = useRef<L.LayerGroup | null>(null);
   const trainLayerRef = useRef<L.LayerGroup | null>(null);
   const polylineLayerRef = useRef<L.LayerGroup | null>(null);
-  const trajectoryLayerRef = useRef<L.LayerGroup | null>(null);
   const locationLayerRef = useRef<L.LayerGroup | null>(null);
 
   // 最新コールバック・初期設定のRef保持（イベントリスナー内の古いクロージャ参照を防止）
@@ -95,14 +94,12 @@ export function useLeafletMap({
     }).addTo(map);
 
     const polylineLayer = L.layerGroup().addTo(map);
-    const trajectoryLayer = L.layerGroup().addTo(map);
     const stationLayer = L.layerGroup().addTo(map);
     const trainLayer = L.layerGroup().addTo(map);
     const locationLayer = L.layerGroup().addTo(map);
 
     tileLayerRef.current = tile;
     polylineLayerRef.current = polylineLayer;
-    trajectoryLayerRef.current = trajectoryLayer;
     stationLayerRef.current = stationLayer;
     trainLayerRef.current = trainLayer;
     locationLayerRef.current = locationLayer;
@@ -172,7 +169,6 @@ export function useLeafletMap({
     stationLayerRef,
     trainLayerRef,
     polylineLayerRef,
-    trajectoryLayerRef,
     locationLayerRef,
     tileType,
     setTileType,

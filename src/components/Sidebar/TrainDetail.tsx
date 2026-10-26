@@ -12,9 +12,7 @@ import {
   CheckCircle2,
   AlertCircle,
   LocateFixed,
-  Route,
 } from 'lucide-react';
-import { useSelection } from '../../contexts/SelectionContext';
 
 interface TrainDetailProps {
   train: ActiveTrain;
@@ -51,7 +49,6 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
   onToggleTracking,
   onSelectStation,
 }) => {
-  const { showTrajectory, toggleTrajectory } = useSelection();
   const line = getLine(train.lineId);
   const lineColor = line?.lineColor || '#004b97';
   const originStation = STATION_MAP.get(train.originStationId);
@@ -283,19 +280,6 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
           >
             <LocateFixed className="w-4 h-4" />
             <span>{isTracking ? '列車を自動追尾中（クリックで解除）' : 'この列車をマップで追尾する'}</span>
-          </button>
-          <button
-            type="button"
-            onClick={toggleTrajectory}
-            className={`w-full mt-2 flex items-center justify-center gap-2 py-1.5 px-3 rounded-lg font-bold text-xs transition-all border shadow-xs ${
-              showTrajectory
-                ? 'bg-sky-500/25 text-sky-200 border-sky-400/60 hover:bg-sky-500/35'
-                : 'bg-slate-800 text-slate-400 border-slate-700 hover:bg-slate-700 hover:text-slate-200'
-            }`}
-            title="走行軌跡（走行済み軌跡と今後の予定経路）の表示切り替え"
-          >
-            <Route className="w-3.5 h-3.5 text-sky-400" />
-            <span>{showTrajectory ? '走行軌跡を表示中（クリックで非表示）' : '走行軌跡を表示する'}</span>
           </button>
           {isTracking && (
             <p className="text-[11px] text-amber-300 text-center mt-2 leading-relaxed">

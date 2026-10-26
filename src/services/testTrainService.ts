@@ -357,12 +357,16 @@ export function recalculatePlanSchedule(
 
   let cursorSec = startSec;
 
-  const updatedSegments: CustomTrainSegment[] = plan.segments.map((seg, segIdx) => {
+  const updatedSegments: CustomTrainSegment[] = [];
+
+  for (let segIdx = 0; segIdx < plan.segments.length; segIdx++) {
+    const seg = plan.segments[segIdx];
     const speedKmh = seg.speedKmh || (seg.lineId.includes('shinkansen') ? 210 : 75);
     const stops: CustomTrainStopSetting[] = seg.stops.map((s) => ({ ...s }));
 
     if (stops.length === 0) {
-      return { ...seg, stops };
+      updatedSegments.push({ ...seg, stops });
+      continue;
     }
 
     let lastStopIndex = 0;
@@ -381,30 +385,68 @@ export function recalculatePlanSchedule(
           cur.departureSec = arr;
           cursorSec = arr;
         } else {
-          const prevSeg = plan.segments[segIdx - 1];
+          const prevSeg = updatedSegments[segIdx - 1];
           const prevLastStop = prevSeg?.stops[prevSeg.stops.length - 1];
           const prevSt = prevLastStop ? STATION_MAP.get(prevLastStop.stationId) : undefined;
           const curSt = STATION_MAP.get(cur.stationId);
           const isSameBoundary =
             prevSt && curSt && areStationsConnectable(prevSt, curSt);
 
-          if (!isSameBoundary && prevLastStop) {
-            cursorSec += calcStationRunSeconds(prevLastStop.stationId, cur.stationId, speedKmh);
-          }
+          if (isSameBoundary && prevLastStop) {
+            // 同一境界駅の場合:
+            // 前セグメント最終駅と次セグメント先頭駅の停車時間・発着時刻を完全同期する
+            const manualStopDur = cur.manualStopDurationSec ?? prevLastStop.manualStopDurationSec;
+            const stopDur = cur.isPassing
+              ? 0
+              : manualStopDur !== undefined
+              ? manualStopDur
+              : defaultStopSec;
 
-          const arr =
-            cur.manualArrivalSec !== undefined && cur.manualArrivalSec >= cursorSec
-              ? cur.manualArrivalSec
-              : cursorSec;
-          cur.arrivalSec = arr;
-          const stopDur = cur.isPassing
-            ? 0
-            : cur.manualStopDurationSec !== undefined
-            ? cur.manualStopDurationSec
-            : defaultStopSec;
-          cur.stopDurationSec = stopDur;
-          cur.departureSec = arr + stopDur;
-          cursorSec = cur.departureSec;
+            // 境界駅への到着時刻（前区間の到着時刻）
+            const arr = prevLastStop.arrivalSec;
+            cur.arrivalSec = arr;
+            prevLastStop.arrivalSec = arr;
+
+            // 境界駅からの発車時刻
+            const manualDep = cur.manualDepartureSec ?? prevLastStop.manualDepartureSec;
+            const dep = manualDep !== undefined && manualDep >= arr ? manualDep : arr + stopDur;
+
+            cur.departureSec = dep;
+            prevLastStop.departureSec = dep;
+
+            const finalDur = Math.max(0, dep - arr);
+            cur.stopDurationSec = finalDur;
+            prevLastStop.stopDurationSec = finalDur;
+
+            if (manualStopDur !== undefined) {
+              cur.manualStopDurationSec = manualStopDur;
+              prevLastStop.manualStopDurationSec = manualStopDur;
+            }
+            if (manualDep !== undefined) {
+              cur.manualDepartureSec = manualDep;
+              prevLastStop.manualDepartureSec = manualDep;
+            }
+
+            cursorSec = dep;
+          } else {
+            if (prevLastStop) {
+              cursorSec += calcStationRunSeconds(prevLastStop.stationId, cur.stationId, speedKmh);
+            }
+
+            const arr =
+              cur.manualArrivalSec !== undefined && cur.manualArrivalSec >= cursorSec
+                ? cur.manualArrivalSec
+                : cursorSec;
+            cur.arrivalSec = arr;
+            const stopDur = cur.isPassing
+              ? 0
+              : cur.manualStopDurationSec !== undefined
+              ? cur.manualStopDurationSec
+              : defaultStopSec;
+            cur.stopDurationSec = stopDur;
+            cur.departureSec = arr + stopDur;
+            cursorSec = cur.departureSec;
+          }
         }
         lastStopIndex = 0;
         continue;
@@ -446,13 +488,14 @@ export function recalculatePlanSchedule(
 
       if (cur.isPassing || isLastInPlan || (isLastInSeg && segIdx < plan.segments.length - 1)) {
         if (isLastInSeg && segIdx < plan.segments.length - 1) {
-          const stopDur = cur.manualStopDurationSec ?? 0;
+          const stopDur =
+            cur.manualStopDurationSec !== undefined ? cur.manualStopDurationSec : defaultStopSec;
           cur.stopDurationSec = stopDur;
           cur.departureSec =
-          cur.manualDepartureSec !== undefined && cur.manualDepartureSec >= arrSec
-            ? cur.manualDepartureSec
-            : arrSec + stopDur;
-        cur.stopDurationSec = Math.max(0, cur.departureSec - arrSec);
+            cur.manualDepartureSec !== undefined && cur.manualDepartureSec >= arrSec
+              ? cur.manualDepartureSec
+              : arrSec + stopDur;
+          cur.stopDurationSec = Math.max(0, cur.departureSec - arrSec);
         } else {
           cur.stopDurationSec = 0;
           cur.departureSec = arrSec;
@@ -474,13 +517,13 @@ export function recalculatePlanSchedule(
       }
     }
 
-    return {
+    updatedSegments.push({
       ...seg,
       stops,
-    };
-  });
+    });
+  }
 
-  // 境界駅の時刻同期
+  // 境界駅の最終整合性チェック
   for (let segIdx = 0; segIdx < updatedSegments.length - 1; segIdx++) {
     const curSeg = updatedSegments[segIdx];
     const nextSeg = updatedSegments[segIdx + 1];
@@ -490,8 +533,27 @@ export function recalculatePlanSchedule(
       const stA = STATION_MAP.get(lastStop.stationId);
       const stB = STATION_MAP.get(firstNext.stationId);
       if (stA && stB && areStationsConnectable(stA, stB)) {
-        lastStop.departureSec = firstNext.departureSec;
-        lastStop.stopDurationSec = firstNext.stopDurationSec;
+        const boundaryArr = lastStop.arrivalSec;
+        const boundaryDep = Math.max(lastStop.departureSec, firstNext.departureSec);
+        const boundaryDur = Math.max(0, boundaryDep - boundaryArr);
+
+        lastStop.arrivalSec = boundaryArr;
+        firstNext.arrivalSec = boundaryArr;
+        lastStop.departureSec = boundaryDep;
+        firstNext.departureSec = boundaryDep;
+        lastStop.stopDurationSec = boundaryDur;
+        firstNext.stopDurationSec = boundaryDur;
+
+        const manualDur = lastStop.manualStopDurationSec ?? firstNext.manualStopDurationSec;
+        if (manualDur !== undefined) {
+          lastStop.manualStopDurationSec = manualDur;
+          firstNext.manualStopDurationSec = manualDur;
+        }
+        const manualDep = lastStop.manualDepartureSec ?? firstNext.manualDepartureSec;
+        if (manualDep !== undefined) {
+          lastStop.manualDepartureSec = manualDep;
+          firstNext.manualDepartureSec = manualDep;
+        }
       }
     }
   }

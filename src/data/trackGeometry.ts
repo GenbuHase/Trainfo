@@ -197,36 +197,3 @@ export function getTrackDistanceKm(
   return distKm;
 }
 
-/**
- * 2駅間の線路ポリライン座標（なければ駅間直線座標）を取得
- */
-export function getTrackCoordinatesBetween(
-  fromStationId: string,
-  toStationId: string,
-  customSegments?: TrackSegment[]
-): [number, number][] {
-  const segments = customSegments || getCombinedTrackSegments();
-  let segment = segments.find(
-    (s) => s.fromStationId === fromStationId && s.toStationId === toStationId
-  );
-  if (segment && segment.coordinates.length >= 2) {
-    return segment.coordinates;
-  }
-  segment = segments.find(
-    (s) => s.fromStationId === toStationId && s.toStationId === fromStationId
-  );
-  if (segment && segment.coordinates.length >= 2) {
-    return [...segment.coordinates].reverse();
-  }
-  const stations = getCombinedStations();
-  const stA = stations.find((s) => s.id === fromStationId);
-  const stB = stations.find((s) => s.id === toStationId);
-  if (stA && stB) {
-    return [
-      [stA.lat, stA.lng],
-      [stB.lat, stB.lng],
-    ];
-  }
-  return [];
-}
-

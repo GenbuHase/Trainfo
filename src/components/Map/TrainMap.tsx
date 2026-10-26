@@ -6,7 +6,6 @@ import {
   ZoomIn,
   ZoomOut,
   Maximize2,
-  Route,
   Locate,
   LocateFixed,
   Loader2,
@@ -22,7 +21,6 @@ import { useStationMarkers } from './hooks/useStationMarkers';
 import { useTrainMarkers } from './hooks/useTrainMarkers';
 import { useMapCamera } from './hooks/useMapCamera';
 import { useGeolocation } from './hooks/useGeolocation';
-import { useTrainTrajectory } from './hooks/useTrainTrajectory';
 
 export const TrainMap: React.FC = () => {
   const {
@@ -33,8 +31,6 @@ export const TrainMap: React.FC = () => {
     selectTrain,
     clearTargetSelection,
     stopTracking,
-    showTrajectory,
-    toggleTrajectory,
   } = useSelection();
   const { activeTrains, selectedTrain } = useSimulation();
   const { filterDirection, filterType } = useFilter();
@@ -76,7 +72,6 @@ export const TrainMap: React.FC = () => {
     stationLayerRef,
     trainLayerRef,
     polylineLayerRef,
-    trajectoryLayerRef,
     locationLayerRef,
     tileType,
     setTileType,
@@ -111,15 +106,6 @@ export const TrainMap: React.FC = () => {
     mapRef,
     polylineLayerRef,
     selectedLineIds,
-  });
-
-  // 3.5 列車走行軌跡描画
-  useTrainTrajectory({
-    mapRef,
-    trajectoryLayerRef,
-    selectedTrain,
-    activeTrains,
-    showTrajectory,
   });
 
   // 4. 駅マーカー描画
@@ -276,21 +262,6 @@ export const TrainMap: React.FC = () => {
           title="縮小"
         >
           <ZoomOut className="w-5 h-5" />
-        </button>
-
-        {/* 走行軌跡トグル */}
-        <button
-          type="button"
-          onClick={toggleTrajectory}
-          className={`p-2.5 bg-white/95 backdrop-blur-md rounded-lg shadow-md border transition-all ${
-            showTrajectory
-              ? 'border-sky-500 text-sky-600 bg-sky-50/90 ring-1 ring-sky-300'
-              : 'border-slate-200 text-slate-700 hover:bg-slate-50'
-          }`}
-          title={showTrajectory ? '走行軌跡を非表示' : '走行軌跡を表示'}
-          aria-label="走行軌跡の表示切替"
-        >
-          <Route className="w-5 h-5" />
         </button>
 
         {/* 全線表示にリセット */}

@@ -11,9 +11,6 @@ interface SelectionContextValue {
   selectedStation: Station | null;
   selectedTrainId: string | null;
   isTrackingTrain: boolean;
-  showTrajectory: boolean;
-  setShowTrajectory: (show: boolean | ((prev: boolean) => boolean)) => void;
-  toggleTrajectory: () => void;
   selectStation: (station: Station | null) => void;
   selectTrain: (train: ActiveTrain | null) => void;
   setSelectedTrainId: (id: string | null) => void;
@@ -46,11 +43,6 @@ export const SelectionProvider: React.FC<{ children: React.ReactNode }> = ({ chi
   const [selectedStation, setSelectedStation] = useState<Station | null>(null);
   const [selectedTrainId, setSelectedTrainId] = useState<string | null>(null);
   const [isTrackingTrain, setIsTrackingTrain] = useState<boolean>(false);
-  const [showTrajectory, setShowTrajectory] = useState<boolean>(true);
-
-  const toggleTrajectory = useCallback(() => {
-    setShowTrajectory((prev) => !prev);
-  }, []);
 
   // 路線リストの更新（localStorage への永続化を含む）
   const setSelectedLineIds = useCallback((lineIds: LineId[]) => {
@@ -122,9 +114,6 @@ export const SelectionProvider: React.FC<{ children: React.ReactNode }> = ({ chi
       setIsTrackingTrain,
       stopTracking,
       clearTargetSelection,
-      showTrajectory,
-      setShowTrajectory,
-      toggleTrajectory,
     }),
     [
       selectedLineIds,
@@ -137,9 +126,6 @@ export const SelectionProvider: React.FC<{ children: React.ReactNode }> = ({ chi
       selectTrain,
       stopTracking,
       clearTargetSelection,
-      showTrajectory,
-      setShowTrajectory,
-      toggleTrajectory,
     ]
   );
 
