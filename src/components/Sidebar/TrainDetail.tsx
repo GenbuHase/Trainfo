@@ -12,7 +12,10 @@ import {
   CheckCircle2,
   AlertCircle,
   LocateFixed,
+  Eye,
+  EyeOff,
 } from 'lucide-react';
+import { useSelection } from '../../contexts/SelectionContext';
 
 interface TrainDetailProps {
   train: ActiveTrain;
@@ -49,6 +52,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
   onToggleTracking,
   onSelectStation,
 }) => {
+  const { hideOtherTrainsOnTracking, setHideOtherTrainsOnTracking } = useSelection();
   const line = getLine(train.lineId);
   const lineColor = line?.lineColor || '#004b97';
   const originStation = STATION_MAP.get(train.originStationId);
@@ -282,9 +286,38 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
             <span>{isTracking ? '列車を自動追尾中（クリックで解除）' : 'この列車をマップで追尾する'}</span>
           </button>
           {isTracking && (
-            <p className="text-[11px] text-amber-300 text-center mt-2 leading-relaxed">
-              ※ パネルを閉じると全画面マップで列車を追尾できます
-            </p>
+            <div className="mt-3 space-y-2">
+              <div className="flex items-center justify-between gap-2 p-2.5 rounded-lg bg-slate-800/90 border border-slate-700 shadow-xs">
+                <div className="flex items-center gap-2 min-w-0">
+                  {hideOtherTrainsOnTracking ? (
+                    <EyeOff className="w-4 h-4 text-amber-400 shrink-0" />
+                  ) : (
+                    <Eye className="w-4 h-4 text-slate-400 shrink-0" />
+                  )}
+                  <div className="flex flex-col min-w-0">
+                    <span className="text-xs font-bold text-white truncate">他の列車を非表示</span>
+                    <span className="text-[10px] text-slate-400 truncate">追尾中の列車のみをマップに表示</span>
+                  </div>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setHideOtherTrainsOnTracking((prev) => !prev)}
+                  className={`relative inline-flex h-5 w-9 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-hidden ${
+                    hideOtherTrainsOnTracking ? 'bg-amber-500' : 'bg-slate-600'
+                  }`}
+                  title="他の列車を非表示にする"
+                >
+                  <span
+                    className={`pointer-events-none inline-block h-4 w-4 transform rounded-full bg-white shadow-sm ring-0 transition duration-200 ease-in-out ${
+                      hideOtherTrainsOnTracking ? 'translate-x-4' : 'translate-x-0'
+                    }`}
+                  />
+                </button>
+              </div>
+              <p className="text-[11px] text-amber-300 text-center leading-relaxed">
+                ※ パネルを閉じると全画面マップで列車を追尾できます
+              </p>
+            </div>
           )}
         </div>
       </div>

@@ -3,6 +3,7 @@ import type { Station, ActiveTrain, LineId } from '../types';
 import { getAllLines } from '../data/linesRegistry';
 
 const STORAGE_KEY_SELECTED_LINES = 'trainfo_selected_lines';
+const STORAGE_KEY_HIDE_OTHER_TRAINS_TRACKING = 'trainfo_hide_other_trains_tracking';
 
 interface SelectionContextValue {
   selectedLineIds: LineId[];
@@ -17,6 +18,8 @@ interface SelectionContextValue {
   setIsTrackingTrain: (tracking: boolean | ((prev: boolean) => boolean)) => void;
   stopTracking: () => void;
   clearTargetSelection: () => void;
+  hideOtherTrainsOnTracking: boolean;
+  setHideOtherTrainsOnTracking: (val: boolean | ((prev: boolean) => boolean)) => void;
 }
 
 const SelectionContext = createContext<SelectionContextValue | null>(null);
@@ -43,6 +46,29 @@ export const SelectionProvider: React.FC<{ children: React.ReactNode }> = ({ chi
   const [selectedStation, setSelectedStation] = useState<Station | null>(null);
   const [selectedTrainId, setSelectedTrainId] = useState<string | null>(null);
   const [isTrackingTrain, setIsTrackingTrain] = useState<boolean>(false);
+  const [hideOtherTrainsOnTracking, setHideOtherTrainsOnTrackingState] = useState<boolean>(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY_HIDE_OTHER_TRAINS_TRACKING);
+      if (saved !== null) {
+        return JSON.parse(saved);
+      }
+    } catch {
+      // ignore
+    }
+    return false;
+  });
+
+  const setHideOtherTrainsOnTracking = useCallback((val: boolean | ((prev: boolean) => boolean)) => {
+    setHideOtherTrainsOnTrackingState((prev) => {
+      const next = typeof val === 'function' ? val(prev) : val;
+      try {
+        localStorage.setItem(STORAGE_KEY_HIDE_OTHER_TRAINS_TRACKING, JSON.stringify(next));
+      } catch {
+        // ignore
+      }
+      return next;
+    });
+  }, []);
 
   // 路線リストの更新（localStorage への永続化を含む）
   const setSelectedLineIds = useCallback((lineIds: LineId[]) => {
@@ -114,6 +140,8 @@ export const SelectionProvider: React.FC<{ children: React.ReactNode }> = ({ chi
       setIsTrackingTrain,
       stopTracking,
       clearTargetSelection,
+      hideOtherTrainsOnTracking,
+      setHideOtherTrainsOnTracking,
     }),
     [
       selectedLineIds,
@@ -126,6 +154,8 @@ export const SelectionProvider: React.FC<{ children: React.ReactNode }> = ({ chi
       selectTrain,
       stopTracking,
       clearTargetSelection,
+      hideOtherTrainsOnTracking,
+      setHideOtherTrainsOnTracking,
     ]
   );
 

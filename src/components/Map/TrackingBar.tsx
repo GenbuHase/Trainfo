@@ -1,6 +1,7 @@
 import React from 'react';
 import type { ActiveTrain } from '../../types';
-import { LocateFixed, X, ExternalLink, Gauge, AlertCircle } from 'lucide-react';
+import { LocateFixed, X, ExternalLink, Gauge, AlertCircle, Eye, EyeOff } from 'lucide-react';
+import { useSelection } from '../../contexts/SelectionContext';
 import { STATION_MAP } from '../../data/stations';
 import { formatTrainNumber } from '../../data/timetableData';
 import { getLine } from '../../data/linesRegistry';
@@ -17,6 +18,7 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
   onOpenSidebar,
   onStopTracking,
 }) => {
+  const { hideOtherTrainsOnTracking, setHideOtherTrainsOnTracking } = useSelection();
   const line = getLine(train.lineId);
   const lineColor = line?.lineColor || '#004b97';
   const destStation = STATION_MAP.get(train.destinationStationId);
@@ -84,6 +86,34 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
               {train.status === 'STOPPING' ? '停車中' : `${train.speedKmh} km/h`}
             </span>
           </div>
+
+          {/* 他の列車非表示トグルボタン */}
+          <button
+            type="button"
+            onClick={() => setHideOtherTrainsOnTracking((prev) => !prev)}
+            className={`flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-bold border transition-all shadow-sm ${
+              hideOtherTrainsOnTracking
+                ? 'bg-amber-500/25 border-amber-400 text-amber-300 ring-1 ring-amber-400/40'
+                : 'bg-slate-800 hover:bg-slate-700 text-slate-300 border-slate-600'
+            }`}
+            title={
+              hideOtherTrainsOnTracking
+                ? '他の列車を再表示する'
+                : '追尾列車以外の列車を非表示にする'
+            }
+          >
+            {hideOtherTrainsOnTracking ? (
+              <>
+                <EyeOff className="w-3.5 h-3.5 text-amber-400" />
+                <span className="hidden xs:inline">追尾のみ</span>
+              </>
+            ) : (
+              <>
+                <Eye className="w-3.5 h-3.5 text-slate-400" />
+                <span className="hidden xs:inline">全列車</span>
+              </>
+            )}
+          </button>
 
           {/* 詳細パネルを開くボタン */}
           <button

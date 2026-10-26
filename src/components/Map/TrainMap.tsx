@@ -31,6 +31,7 @@ export const TrainMap: React.FC = () => {
     selectTrain,
     clearTargetSelection,
     stopTracking,
+    hideOtherTrainsOnTracking,
   } = useSelection();
   const { activeTrains, selectedTrain } = useSimulation();
   const { filterDirection, filterType } = useFilter();
@@ -126,6 +127,8 @@ export const TrainMap: React.FC = () => {
     filterDirection,
     filterType,
     onSelectTrain: handleSelectTrain,
+    isTrackingTrain,
+    hideOtherTrainsOnTracking,
   });
 
   // 6. カメラワーク（路線フィット & 列車自動追従）

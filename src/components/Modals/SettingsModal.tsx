@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Settings, CheckCircle, Gauge } from 'lucide-react';
+import { X, Settings, CheckCircle, Gauge, LocateFixed, EyeOff } from 'lucide-react';
 import {
   AVAILABLE_SIMULATION_FPS,
   loadSimulationFps,
@@ -9,12 +9,14 @@ import type { SimulationFps } from '../../constants';
 
 import { useUI } from '../../contexts/UIContext';
 import { useSimulation } from '../../contexts/SimulationContext';
+import { useSelection } from '../../contexts/SelectionContext';
 
 export const SettingsModal: React.FC = () => {
   const ui = useUI();
   const isOpen = ui.isSettingsOpen;
   const onClose = ui.closeSettings;
   const { simulationFps: currentFps, setSimulationFps: onChangeFps } = useSimulation();
+  const { hideOtherTrainsOnTracking, setHideOtherTrainsOnTracking } = useSelection();
 
   const selectedFps: SimulationFps = currentFps || loadSimulationFps();
   const [saveSuccess, setSaveSuccess] = useState(false);
@@ -96,6 +98,38 @@ export const SettingsModal: React.FC = () => {
                   {selectedFps === 120 && '🔥 120 FPS（高駆動ゲーミング/ProMotion向け）'}
                 </span>
               </div>
+            </div>
+          </section>
+
+          {/* 追尾・表示設定 */}
+          <section className="space-y-3 pt-3 border-t border-slate-200">
+            <h3 className="text-xs font-bold text-slate-700 uppercase tracking-wider flex items-center gap-1.5">
+              <LocateFixed className="w-4 h-4 text-[#004b97]" />
+              <span>列車追尾設定</span>
+            </h3>
+            <div className="flex items-center justify-between p-3 rounded-xl border border-slate-200 bg-slate-50/70">
+              <div className="space-y-0.5">
+                <span className="text-xs font-bold text-slate-800 flex items-center gap-1.5">
+                  <EyeOff className="w-3.5 h-3.5 text-slate-500" />
+                  追尾中に他の列車を非表示にする
+                </span>
+                <span className="text-[11px] text-slate-500 block">
+                  作成した列車や追尾対象の列車のみをマップに単独表示し、集中して走行を鑑賞できます
+                </span>
+              </div>
+              <button
+                type="button"
+                onClick={() => setHideOtherTrainsOnTracking((prev: boolean) => !prev)}
+                className={`relative inline-flex h-6 w-11 shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-hidden ${
+                  hideOtherTrainsOnTracking ? 'bg-[#004b97]' : 'bg-slate-300'
+                }`}
+              >
+                <span
+                  className={`pointer-events-none inline-block h-5 w-5 transform rounded-full bg-white shadow-md ring-0 transition duration-200 ease-in-out ${
+                    hideOtherTrainsOnTracking ? 'translate-x-5' : 'translate-x-0'
+                  }`}
+                />
+              </button>
             </div>
           </section>
 

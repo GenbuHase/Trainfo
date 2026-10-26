@@ -173,6 +173,8 @@ interface UseTrainMarkersOptions {
   filterDirection: 'all' | Direction;
   filterType: 'all' | 'rapid' | 'local';
   onSelectTrain: (train: ActiveTrain) => void;
+  isTrackingTrain?: boolean;
+  hideOtherTrainsOnTracking?: boolean;
 }
 
 export function useTrainMarkers({
@@ -183,6 +185,8 @@ export function useTrainMarkers({
   filterDirection,
   filterType,
   onSelectTrain,
+  isTrackingTrain,
+  hideOtherTrainsOnTracking,
 }: UseTrainMarkersOptions) {
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
   const latestTrainsMapRef = useRef<Map<string, ActiveTrain>>(new Map());
@@ -221,8 +225,15 @@ export function useTrainMarkers({
       prevTrainLayerRef.current = trainLayerRef.current;
     }
 
-    // フィルタリング（進行方向・種別）
+    // フィルタリング（進行方向・種別・追尾時他列車非表示）
+    const isIsolatingTrackedTrain = Boolean(
+      hideOtherTrainsOnTracking && isTrackingTrain && selectedTrain
+    );
+
     const filteredTrains = activeTrains.filter((train) => {
+      if (isIsolatingTrackedTrain) {
+        if (train.tripId !== selectedTrain!.tripId) return false;
+      }
       if (filterDirection !== 'all' && train.direction !== filterDirection) return false;
       const isLocal = isLocalTrainType(train.trainType);
       if (filterType === 'rapid' && isLocal) return false;
@@ -292,7 +303,7 @@ export function useTrainMarkers({
         markersRef.current.delete(tripId);
       }
     }
-  }, [mapRef, trainLayerRef, activeTrains, selectedTrain, filterDirection, filterType]);
+  }, [mapRef, trainLayerRef, activeTrains, selectedTrain, filterDirection, filterType, isTrackingTrain, hideOtherTrainsOnTracking]);
 
   return { markersRef };
 }
