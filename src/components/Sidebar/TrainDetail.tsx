@@ -447,7 +447,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
 
         {/* 停車駅タイムライン (グラフィカル路線図) */}
         <section>
-          <div className="flex items-center justify-between mb-2">
+          <div className="flex items-center justify-between mb-3">
             <h3 className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
               <Navigation className="w-3.5 h-3.5 text-slate-500" />
               <span>運行ルート・停車駅</span>
@@ -587,10 +587,10 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                     {/* 折りたたみ時の一駅前（直前駅）の上部シャドウオーバーレイ */}
                     {isPrevStopShadowed && (
                       <div
-                        className="absolute -left-7 right-0 -top-1 h-5 pointer-events-none z-10 transition-opacity group-hover:opacity-0"
+                        className="absolute -left-11 -right-4 -top-1.5 h-7 pointer-events-none z-10 transition-opacity group-hover:opacity-0"
                         style={{
                           background:
-                            'linear-gradient(180deg, rgba(15, 23, 42, 0.09) 0%, rgba(15, 23, 42, 0.02) 60%, transparent 100%)',
+                            'linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.75) 40%, rgba(15, 23, 42, 0.05) 75%, transparent 100%)',
                         }}
                       />
                     )}
