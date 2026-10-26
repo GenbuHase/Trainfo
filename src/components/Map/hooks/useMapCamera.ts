@@ -8,6 +8,7 @@ interface UseMapCameraOptions {
   selectedLineIds: LineId[];
   isTrackingTrain: boolean;
   trackingTrainId: string | null;
+  selectedTrain?: ActiveTrain | null;
   activeTrains: ActiveTrain[];
 }
 
@@ -16,6 +17,7 @@ export function useMapCamera({
   selectedLineIds,
   isTrackingTrain,
   trackingTrainId,
+  selectedTrain,
   activeTrains,
 }: UseMapCameraOptions) {
   const prevLineIdsRef = useRef<string>(selectedLineIds.slice().sort().join(','));
@@ -48,7 +50,9 @@ export function useMapCamera({
   // 3. 列車追従カメラ移動（初回はスムーズパン、追従中は直接更新でガタつきを防止）
   useEffect(() => {
     if (!isTrackingTrain || !trackingTrainId || !mapRef.current) return;
-    const tracked = activeTrains.find((t) => t.tripId === trackingTrainId);
+    const tracked =
+      (selectedTrain && selectedTrain.tripId === trackingTrainId ? selectedTrain : null) ||
+      activeTrains.find((t) => t.tripId === trackingTrainId);
     if (!tracked) return;
 
     if (isFirstTrackRef.current) {
@@ -69,5 +73,5 @@ export function useMapCamera({
         prevTrackingPosRef.current = { lat: tracked.currentLat, lng: tracked.currentLng };
       }
     }
-  }, [mapRef, isTrackingTrain, trackingTrainId, activeTrains]);
+  }, [mapRef, isTrackingTrain, trackingTrainId, selectedTrain, activeTrains]);
 }

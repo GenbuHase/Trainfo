@@ -6,11 +6,12 @@ import { formatTrainNumber } from '../../../data/timetableData';
 import { isLocalTrainType } from '../../../data/trainTypes';
 import { getTrainTypeConfig } from '../../../data/linesRegistry';
 
-function generateTrainMarkerHtml(train: ActiveTrain, isSelected: boolean): string {
-  const typeConfig = getTrainTypeConfig(train.trainType, train.lineId, train.customTrainType);
-  const destSt = STATION_MAP.get(train.destinationStationId);
-  const destText = train.customDestination || destSt?.name || '行先';
-  const trainNo = formatTrainNumber(train.trainNumber, train.trainId, train.tripId);
+function generateTrainMarkerHtml(train: ActiveTrain, isSelected: boolean, displayTrain?: ActiveTrain): string {
+  const dTrain = displayTrain || train;
+  const typeConfig = getTrainTypeConfig(dTrain.trainType, dTrain.lineId, dTrain.customTrainType);
+  const destSt = STATION_MAP.get(dTrain.destinationStationId);
+  const destText = dTrain.customDestination || destSt?.name || '行先';
+  const trainNo = formatTrainNumber(dTrain.trainNumber, dTrain.trainId, dTrain.tripId);
   const rotationDeg = train.heading;
 
   return `
@@ -59,8 +60,9 @@ function generateTrainMarkerHtml(train: ActiveTrain, isSelected: boolean): strin
   `;
 }
 
-function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: boolean) {
-  const typeConfig = getTrainTypeConfig(train.trainType, train.lineId, train.customTrainType);
+function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: boolean, displayTrain?: ActiveTrain) {
+  const dTrain = displayTrain || train;
+  const typeConfig = getTrainTypeConfig(dTrain.trainType, dTrain.lineId, dTrain.customTrainType);
 
   let pulseEl = el.querySelector('.train-pulse');
   if (isSelected) {
@@ -124,10 +126,10 @@ function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: b
   }
 
   const nameEl = el.querySelector('.train-name');
-  if (train.trainName) {
+  if (dTrain.trainName) {
     if (nameEl) {
-      if (nameEl.textContent !== train.trainName) {
-        nameEl.textContent = train.trainName;
+      if (nameEl.textContent !== dTrain.trainName) {
+        nameEl.textContent = dTrain.trainName;
       }
     } else {
       const label = el.querySelector('.train-info-label');
@@ -135,7 +137,7 @@ function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: b
         const dest = label.querySelector('.train-dest');
         const span = document.createElement('span');
         span.className = 'train-name text-amber-300 font-bold';
-        span.textContent = train.trainName;
+        span.textContent = dTrain.trainName;
         if (dest) {
           label.insertBefore(span, dest);
         } else {
@@ -149,8 +151,8 @@ function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: b
 
   const destEl = el.querySelector('.train-dest');
   if (destEl) {
-    const destSt = STATION_MAP.get(train.destinationStationId);
-    const destText = train.customDestination || destSt?.name || '行先';
+    const destSt = STATION_MAP.get(dTrain.destinationStationId);
+    const destText = dTrain.customDestination || destSt?.name || '行先';
     if (destEl.textContent !== destText) {
       destEl.textContent = destText;
     }
@@ -158,7 +160,7 @@ function updateTrainMarkerDom(el: HTMLElement, train: ActiveTrain, isSelected: b
 
   const trainNoEl = el.querySelector('.train-no');
   if (trainNoEl) {
-    const curNo = formatTrainNumber(train.trainNumber, train.trainId, train.tripId);
+    const curNo = formatTrainNumber(dTrain.trainNumber, dTrain.trainId, dTrain.tripId);
     if (trainNoEl.textContent !== curNo) {
       trainNoEl.textContent = curNo;
     }
@@ -232,7 +234,14 @@ export function useTrainMarkers({
 
     const filteredTrains = activeTrains.filter((train) => {
       if (isIsolatingTrackedTrain) {
-        if (train.tripId !== selectedTrain!.tripId) return false;
+        const isTargetTrain =
+          train.tripId === selectedTrain!.tripId ||
+          Boolean(
+            selectedTrain!.isCoupledActive &&
+              (train.coupling?.coupledTripId === selectedTrain!.tripId ||
+                selectedTrain!.coupling?.coupledTripId === train.tripId)
+          );
+        if (!isTargetTrain) return false;
       }
       if (filterDirection !== 'all' && train.direction !== filterDirection) return false;
       const isLocal = isLocalTrainType(train.trainType);
@@ -245,7 +254,14 @@ export function useTrainMarkers({
 
     filteredTrains.forEach((train) => {
       currentVisibleTripIds.add(train.tripId);
-      const isSelected = selectedTrain?.tripId === train.tripId;
+      const isSelected =
+        selectedTrain?.tripId === train.tripId ||
+        Boolean(
+          selectedTrain?.isCoupledActive &&
+            (train.coupling?.coupledTripId === selectedTrain?.tripId ||
+              selectedTrain?.coupling?.coupledTripId === train.tripId)
+        );
+      const displayTrain = isSelected && selectedTrain ? selectedTrain : train;
       const existingMarker = markersRef.current.get(train.tripId);
 
       if (existingMarker) {
@@ -266,11 +282,11 @@ export function useTrainMarkers({
 
         const el = existingMarker.getElement();
         if (el) {
-          updateTrainMarkerDom(el, train, isSelected);
+          updateTrainMarkerDom(el, train, isSelected, displayTrain);
         }
       } else {
         // 新規マーカー生成
-        const html = generateTrainMarkerHtml(train, isSelected);
+        const html = generateTrainMarkerHtml(train, isSelected, displayTrain);
         const icon = L.divIcon({
           className: 'train-div-icon',
           html,

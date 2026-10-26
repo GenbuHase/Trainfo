@@ -137,6 +137,7 @@ export const TrainMap: React.FC = () => {
     selectedLineIds,
     isTrackingTrain,
     trackingTrainId,
+    selectedTrain,
     activeTrains,
   });
 
