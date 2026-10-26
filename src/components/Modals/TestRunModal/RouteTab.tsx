@@ -5,6 +5,7 @@ import {
   ArrowUpDown,
   Plus,
   Search,
+  Gauge,
 } from 'lucide-react';
 import type { LineId, TrainTypeKey, LineDefinition } from '../../../types';
 import { getLine } from '../../../data/linesRegistry';
@@ -13,6 +14,7 @@ import type {
   CustomTrainPlan,
   ConnectingStationPair,
 } from '../../../services/testTrainService';
+import { SPEED_PRESET_GROUPS, ALL_SPEED_PRESET_VALUES } from './constants';
 
 interface ConnectableNextLineItem {
   line: LineDefinition;
@@ -297,24 +299,60 @@ export const RouteTab: React.FC<RouteTabProps> = ({
                         className="w-28 px-2 py-0.5 border border-slate-200 rounded font-mono text-xs text-slate-700 bg-slate-50 focus:bg-white"
                       />
                     </div>
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-slate-500 font-semibold">標準巡航速度:</span>
-                      <select
-                        value={seg.speedKmh}
-                        onChange={(e) =>
-                          onUpdateSegmentMeta(segIdx, {
-                            speedKmh: Number(e.target.value),
-                          })
-                        }
-                        className="px-2 py-0.5 border border-slate-200 rounded font-mono text-xs text-slate-700 bg-slate-50"
-                      >
-                        <option value={55}>55 km/h</option>
-                        <option value={75}>75 km/h</option>
-                        <option value={95}>95 km/h</option>
-                        <option value={120}>120 km/h</option>
-                        <option value={210}>210 km/h</option>
-                        <option value={275}>275 km/h</option>
-                      </select>
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="text-slate-500 font-semibold flex items-center gap-1">
+                        <Gauge className="w-3.5 h-3.5 text-slate-400" />
+                        標準巡航速度:
+                      </span>
+                      <div className="inline-flex items-center gap-1.5">
+                        {/* 直接数値入力フィールド */}
+                        <div className="relative flex items-center">
+                          <input
+                            type="number"
+                            min={1}
+                            step={1}
+                            value={seg.speedKmh}
+                            onChange={(e) => {
+                              const val = parseInt(e.target.value, 10);
+                              if (!isNaN(val)) {
+                                onUpdateSegmentMeta(segIdx, {
+                                  speedKmh: Math.max(1, val),
+                                });
+                              }
+                            }}
+                            className="w-16 px-1.5 py-0.5 border border-slate-200 rounded font-mono text-xs font-bold text-slate-800 bg-white text-right focus:border-sky-400 focus:outline-none shadow-2xs"
+                            title="キーボードから任意の巡航速度(km/h)を直接入力できます"
+                          />
+                          <span className="ml-1 text-[11px] font-mono font-medium text-slate-500">km/h</span>
+                        </div>
+
+                        {/* 細分化プリセットドロップダウン */}
+                        <select
+                          value={ALL_SPEED_PRESET_VALUES.includes(seg.speedKmh) ? seg.speedKmh : 'custom'}
+                          onChange={(e) => {
+                            if (e.target.value !== 'custom') {
+                              onUpdateSegmentMeta(segIdx, {
+                                speedKmh: Number(e.target.value),
+                              });
+                            }
+                          }}
+                          className="px-2 py-0.5 border border-slate-200 rounded font-mono text-xs text-slate-700 bg-slate-50 hover:bg-slate-100 cursor-pointer shadow-2xs"
+                          title="速度プリセット"
+                        >
+                          {!ALL_SPEED_PRESET_VALUES.includes(seg.speedKmh) && (
+                            <option value="custom">指定 ({seg.speedKmh} km/h)</option>
+                          )}
+                          {SPEED_PRESET_GROUPS.map((group) => (
+                            <optgroup key={group.groupName} label={group.groupName}>
+                              {group.options.map((opt) => (
+                                <option key={opt.value} value={opt.value}>
+                                  {opt.label}
+                                </option>
+                              ))}
+                            </optgroup>
+                          ))}
+                        </select>
+                      </div>
                     </div>
                   </div>
                 </div>

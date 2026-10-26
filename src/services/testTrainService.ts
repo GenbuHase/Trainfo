@@ -888,9 +888,21 @@ export function loadSavedCustomTrainPresets(): CustomTrainPlan[] {
 export function saveCustomTrainPreset(plan: CustomTrainPlan, presetName: string): CustomTrainPlan[] {
   const existing = loadSavedCustomTrainPresets();
   const normalizedName = presetName.trim() || 'マイ臨時列車';
-  const existingIdx = existing.findIndex(
-    (p) => (plan.id && p.id === plan.id) || p.presetName === normalizedName
-  );
+
+  // 読み込み元（または現在）のプリセット名と、保存しようとする名前が異なる場合は「別名保存（新規追加）」
+  const originalPresetName = plan.presetName?.trim();
+  const isNameChanged = Boolean(originalPresetName && originalPresetName !== normalizedName);
+
+  let existingIdx = -1;
+  if (!isNameChanged && plan.id) {
+    // プリセット名が変更されていない場合は、既存の同一IDプリセットを上書き更新
+    existingIdx = existing.findIndex((p) => p.id === plan.id);
+  }
+
+  // 同一IDで見つからない場合（または別名保存時）、同名プリセットが既に存在するか確認
+  if (existingIdx === -1) {
+    existingIdx = existing.findIndex((p) => p.presetName === normalizedName);
+  }
 
   let updated: CustomTrainPlan[];
   if (existingIdx !== -1) {
@@ -902,6 +914,7 @@ export function saveCustomTrainPreset(plan: CustomTrainPlan, presetName: string)
       presetName: normalizedName,
     };
   } else {
+    // 別名として新規保存（新しい一意なIDを発行して先頭に追加）
     const toSave: CustomTrainPlan = {
       ...plan,
       id: `preset_${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
