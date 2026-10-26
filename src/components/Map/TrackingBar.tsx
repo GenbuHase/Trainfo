@@ -1,6 +1,7 @@
 import React from 'react';
 import type { ActiveTrain } from '../../types';
-import { LocateFixed, X, ExternalLink, Gauge, AlertCircle } from 'lucide-react';
+import { LocateFixed, X, ExternalLink, Gauge, AlertCircle, Route } from 'lucide-react';
+import { useSelection } from '../../contexts/SelectionContext';
 import { STATION_MAP } from '../../data/stations';
 import { formatTrainNumber } from '../../data/timetableData';
 import { getLine } from '../../data/linesRegistry';
@@ -22,6 +23,7 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
   const destStation = STATION_MAP.get(train.destinationStationId);
   const currentStation = train.currentStationId ? STATION_MAP.get(train.currentStationId) : null;
   const nextStation = STATION_MAP.get(train.nextStationId);
+  const { showTrajectory, toggleTrajectory } = useSelection();
 
   return (
     <div className="pointer-events-auto w-full sm:w-[420px] md:w-[460px] bg-slate-900/95 backdrop-blur-md text-white rounded-xl shadow-2xl border border-slate-700/80 p-2.5 sm:px-3 animate-in fade-in slide-in-from-top-2 duration-200">
@@ -84,6 +86,21 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
               {train.status === 'STOPPING' ? '停車中' : `${train.speedKmh} km/h`}
             </span>
           </div>
+
+          {/* 走行軌跡トグルボタン */}
+          <button
+            type="button"
+            onClick={toggleTrajectory}
+            className={`flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-bold border transition-colors shadow-sm ${
+              showTrajectory
+                ? 'bg-sky-600/40 text-sky-200 border-sky-400/60 hover:bg-sky-600/50'
+                : 'bg-slate-800 text-slate-400 border-slate-700 hover:bg-slate-700 hover:text-slate-200'
+            }`}
+            title="列車の走行軌跡（これまでの走行跡と今後の予定経路）の表示切り替え"
+          >
+            <Route className="w-3.5 h-3.5" />
+            <span className="text-[11px] hidden xs:inline">{showTrajectory ? '軌跡ON' : '軌跡OFF'}</span>
+          </button>
 
           {/* 詳細パネルを開くボタン */}
           <button

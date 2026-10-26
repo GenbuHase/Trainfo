@@ -369,9 +369,9 @@ export const RouteTab: React.FC<RouteTabProps> = ({
               の接続路線：
             </span>
             <div className="flex flex-wrap gap-1.5">
-              {connectableNextLines.map(({ line, bestPair, isDirectAtCurrentEnd }) => (
+              {connectableNextLines.map(({ line, bestPair, isDirectAtCurrentEnd }, idx) => (
                 <button
-                  key={line.id}
+                  key={`${line.id}_${idx}`}
                   type="button"
                   onClick={() => onAddConnectedLine(line.id)}
                   className={`inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-bold border transition-all ${

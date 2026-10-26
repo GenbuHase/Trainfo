@@ -29,7 +29,8 @@ interface StopsTabProps {
   onSetStationSearchQuery: (query: string) => void;
   onResetAllManualTimes: () => void;
   onApplyBatchStopPattern: (
-    pattern: 'type_default' | 'all_stop' | 'major_only' | 'nonstop'
+    pattern: 'type_default' | 'all_stop' | 'major_only' | 'nonstop',
+    targetSegId?: string
   ) => void;
   onToggleStationPassing: (segIdx: number, stopIdx: number) => void;
   onManualArrivalTimeChange: (segIdx: number, stopIdx: number, newHHMM: string) => void;
@@ -197,7 +198,18 @@ export const StopsTab: React.FC<StopsTabProps> = ({
         {/* 一括停車駅プリセット & 駅名クイック検索 */}
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-1.5 flex-wrap">
-            <span className="text-[11px] font-bold text-slate-500 mr-1">停車駅一括設定:</span>
+            <span className="text-[11px] font-bold text-slate-500 mr-1 flex items-center gap-1">
+              <span>停車駅一括設定:</span>
+              {selectedStopSegmentFilter !== 'all' ? (
+                <span className="text-[10px] text-sky-700 bg-sky-50 px-1.5 py-0.5 rounded border border-sky-200">
+                  選択中区間のみ
+                </span>
+              ) : (
+                <span className="text-[10px] text-slate-400 font-normal">
+                  (全区間)
+                </span>
+              )}
+            </span>
             <button
               type="button"
               onClick={() => onApplyBatchStopPattern('type_default')}
@@ -318,20 +330,61 @@ export const StopsTab: React.FC<StopsTabProps> = ({
               <React.Fragment key={seg.id}>
                 {/* 路線セクション見出し */}
                 <div
-                  className="px-3 py-1.5 text-[11px] font-extrabold text-white flex items-center justify-between sticky top-0 z-10 shadow-2xs"
+                  className="px-3 py-1.5 text-[11px] font-extrabold text-white flex items-center justify-between sticky top-0 z-10 shadow-2xs gap-2 flex-wrap"
                   style={{ backgroundColor: line?.lineColor || '#334155' }}
                 >
-                  <span>
-                    区間 {segIdx + 1}: {line?.name}
-                  </span>
-                  <TrainTypeBadge
-                    type={seg.trainType}
-                    size="sm"
-                    lineId={seg.lineId}
-                    customType={
-                      computedPlan.useCustomType ? computedPlan.customTrainType : undefined
-                    }
-                  />
+                  <div className="flex items-center gap-2">
+                    <span>
+                      区間 {segIdx + 1}: {line?.name}
+                    </span>
+                    <TrainTypeBadge
+                      type={seg.trainType}
+                      size="sm"
+                      lineId={seg.lineId}
+                      customType={
+                        computedPlan.useCustomType ? computedPlan.customTrainType : undefined
+                      }
+                    />
+                  </div>
+
+                  {/* この路線区間の一括停車設定ボタン */}
+                  <div className="flex items-center gap-1">
+                    <span className="text-[10px] text-white/80 font-bold mr-0.5 hidden xs:inline">
+                      この路線:
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => onApplyBatchStopPattern('type_default', seg.id)}
+                      className="px-2 py-0.5 rounded text-[10px] font-bold bg-white/20 hover:bg-white/30 text-white transition-colors"
+                      title="この路線の停車駅を種別標準に戻す"
+                    >
+                      標準
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => onApplyBatchStopPattern('all_stop', seg.id)}
+                      className="px-2 py-0.5 rounded text-[10px] font-bold bg-white/20 hover:bg-white/30 text-white transition-colors"
+                      title="この路線の全駅に停車"
+                    >
+                      全停
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => onApplyBatchStopPattern('major_only', seg.id)}
+                      className="px-2 py-0.5 rounded text-[10px] font-bold bg-white/20 hover:bg-white/30 text-white transition-colors"
+                      title="この路線の主要駅のみ停車"
+                    >
+                      主要
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => onApplyBatchStopPattern('nonstop', seg.id)}
+                      className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-400 hover:bg-amber-300 text-slate-900 transition-colors"
+                      title="この路線の途中駅をすべて通過にする"
+                    >
+                      通過
+                    </button>
+                  </div>
                 </div>
 
                 {seg.stops.map((stop, stopIdx) => {
@@ -432,7 +485,8 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                                 <span className="text-slate-400 text-[10px]">着</span>
                                 <input
                                   type="time"
-                                  value={secondsToHHMM(stop.arrivalSec)}
+                                  step="1"
+                                  value={secondsToTimeString(stop.arrivalSec)}
                                   onChange={(e) =>
                                     onManualArrivalTimeChange(
                                       segIdx,
@@ -455,7 +509,8 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                                 <span className="text-slate-400 text-[10px]">発</span>
                                 <input
                                   type="time"
-                                  value={secondsToHHMM(stop.departureSec)}
+                                  step="1"
+                                  value={secondsToTimeString(stop.departureSec)}
                                   onChange={(e) =>
                                     onManualDepartureTimeChange(
                                       segIdx,
@@ -464,7 +519,7 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                                     )
                                   }
                                   className={`px-1.5 py-0.5 rounded border text-xs font-mono font-bold ${
-                                    stop.manualStopDurationSec !== undefined
+                                    stop.manualDepartureSec !== undefined || stop.manualStopDurationSec !== undefined
                                       ? 'border-amber-400 bg-amber-50 text-amber-900'
                                       : 'border-slate-200 bg-white text-slate-900'
                                   }`}
@@ -483,9 +538,10 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                                     Number(e.target.value)
                                   )
                                 }
-                                className="px-1.5 py-0.5 rounded border border-slate-200 bg-slate-50 text-[11px] text-slate-600 font-mono"
+                                className="px-1.5 py-0.5 rounded border border-slate-200 bg-slate-50 text-[11px] text-slate-600 font-mono font-bold"
                                 title="この駅での停車時間"
                               >
+                                <option value={0}>0秒 (即発)</option>
                                 <option value={15}>15秒停</option>
                                 <option value={20}>20秒停</option>
                                 <option value={30}>30秒停</option>
@@ -494,11 +550,15 @@ export const StopsTab: React.FC<StopsTabProps> = ({
                                 <option value={120}>2分停</option>
                                 <option value={180}>3分停</option>
                                 <option value={300}>5分停</option>
-                                {![15, 20, 30, 45, 60, 120, 180, 300].includes(
+                                {![0, 15, 20, 30, 45, 60, 120, 180, 300].includes(
                                   stop.stopDurationSec
                                 ) && (
                                   <option value={stop.stopDurationSec}>
-                                    {stop.stopDurationSec}秒停
+                                    {stop.stopDurationSec >= 60 && stop.stopDurationSec % 60 === 0
+                                      ? `${stop.stopDurationSec / 60}分停`
+                                      : stop.stopDurationSec >= 60
+                                      ? `${Math.floor(stop.stopDurationSec / 60)}分${stop.stopDurationSec % 60}秒停`
+                                      : `${stop.stopDurationSec}秒停`}
                                   </option>
                                 )}
                               </select>
