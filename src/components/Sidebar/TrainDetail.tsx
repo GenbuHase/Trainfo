@@ -323,7 +323,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
             </p>
             {train.isCoupledActive && train.coupling && (
               <p className="text-[11px] text-sky-300 mt-1.5 flex items-center gap-1 bg-sky-950/60 px-2 py-0.5 rounded border border-sky-800/60">
-                <span>🔗 併結相手:</span>
+                <span>🔗 併結:</span>
                 <strong className="font-mono">{train.coupling.coupledTrainNumber}</strong>
                 <span>({train.coupling.coupledCars}両)</span>
               </p>
@@ -663,16 +663,16 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                             ここから {stop.trainNumberChange}
                           </span>
                         )}
-                        {/* 併結開始駅インジケーター */}
+                        {/* 併結駅インジケーター */}
                         {stop.couplingStart && (
                           <span className="text-[9px] text-sky-800 bg-sky-100/80 border border-sky-300 px-1.5 py-0.5 rounded font-bold">
-                            🔗 併結開始
+                            併結
                           </span>
                         )}
-                        {/* 切り離し（解結）駅インジケーター */}
+                        {/* 切り離し駅インジケーター */}
                         {stop.couplingEnd && (
                           <span className="text-[9px] text-amber-800 bg-amber-100/80 border border-amber-300 px-1.5 py-0.5 rounded font-bold">
-                            ✂️ 切り離し
+                            切り離し
                           </span>
                         )}
                         {isPassing && (
