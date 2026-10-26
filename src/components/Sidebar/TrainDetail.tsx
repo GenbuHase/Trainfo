@@ -388,7 +388,7 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
                   <div className="flex items-center justify-between text-[10px] mb-0.5">
                     <span className="text-slate-400 group-hover:text-sky-300 font-medium flex items-center gap-1 transition-colors">
                       <ArrowLeftRight className="w-3.5 h-3.5 text-sky-400 group-hover:rotate-180 transition-transform duration-300" />
-                      {train.coupling.role === 'PRIMARY' ? '併結編成' : '主編成'}へ
+                      {train.coupling.role === 'PRIMARY' ? '併結編成' : '主編成'}
                     </span>
                     <span className="text-slate-400 font-mono text-[10px]">{train.coupling.coupledCars}両</span>
                   </div>

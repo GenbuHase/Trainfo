@@ -44,13 +44,8 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
     <div className="pointer-events-auto w-full sm:max-w-[480px] md:max-w-[520px] bg-slate-900/95 backdrop-blur-md text-white rounded-xl shadow-2xl border border-slate-700/80 p-2.5 sm:p-3 animate-in fade-in slide-in-from-top-2 duration-200">
       {/* 1段目: 追尾中ステータス・路線・種別・列車番号 ＆ アクションボタン群 */}
       <div className="flex items-center justify-between gap-2 pb-1.5 border-b border-slate-800/80">
-        {/* 左側: 追尾インジケーター & 路線・種別・列車番号 */}
+        {/* 左側: 路線・種別・列車番号 */}
         <div className="flex items-center gap-1.5 min-w-0 flex-1 overflow-hidden">
-          <div className="flex items-center gap-1 bg-amber-500/20 text-amber-300 border border-amber-500/40 px-1.5 py-0.5 rounded-full text-[10px] font-bold shrink-0">
-            <LocateFixed className="w-3 h-3 animate-pulse text-amber-400" />
-            <span className="hidden xs:inline">追尾中</span>
-          </div>
-
           {line && (
             <span
               className="inline-flex items-center justify-center text-[10px] px-1.5 py-0.5 font-medium rounded text-white shadow-xs shrink-0 max-w-[80px] sm:max-w-[120px] truncate"
@@ -177,7 +172,6 @@ export const TrackingBar: React.FC<TrackingBarProps> = ({
                 title={`併結相手 (${train.coupling.coupledTrainNumber}${coupledDestinationText ? ` ${coupledDestinationText}行` : ''}) にフォーカスを切り替える`}
               >
                 <ArrowLeftRight className="w-3.5 h-3.5 text-sky-400 group-hover:rotate-180 transition-transform duration-300 shrink-0" />
-                <span className="text-[11px] font-bold text-sky-300 hidden xs:inline">切替:</span>
                 <span className="font-mono text-xs text-white">{train.coupling.coupledTrainNumber}</span>
               </button>
             </div>
