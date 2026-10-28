@@ -517,8 +517,8 @@ export const YAMANOTE_STATIONS: Station[] = [
     "name": "新宿",
     "nameKana": "しんじゅく",
     "nameEn": "Shinjuku",
-    "lat": 35.6891409,
-    "lng": 139.7012854,
+    "lat": 35.68926,
+    "lng": 139.70024,
     "transfers": [
       "JR中央線",
       "JR中央・総武線各駅停車",

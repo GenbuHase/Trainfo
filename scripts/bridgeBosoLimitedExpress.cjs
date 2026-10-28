@@ -7,7 +7,19 @@ function safeLoad(filePath) {
 }
 
 function safeSave(filePath, data) {
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+  let retries = 5;
+  while (retries > 0) {
+    try {
+      fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
+      break;
+    } catch (e) {
+      retries--;
+      if (retries === 0) throw e;
+      // 少し待機してリトライ
+      const waitTill = new Date(new Date().getTime() + 100);
+      while (waitTill > new Date()) {}
+    }
+  }
 }
 
 function timeToSec(t) {

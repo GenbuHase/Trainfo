@@ -315,8 +315,8 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "name": "代々木",
     "nameKana": "よよぎ",
     "nameEn": "Yoyogi",
-    "lat": 35.6835,
-    "lng": 139.7022,
+    "lat": 35.6845,
+    "lng": 139.70203,
     "transfers": [
       "JR山手線",
       "都営大江戸線"
