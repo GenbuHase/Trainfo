@@ -85,8 +85,8 @@ function processLine(lineDef) {
   );
   console.log(`  Rail features: ${features.length}`);
 
-  // 2. グラフ構築
-  const { adj, nodeCoords } = buildGraphFromFeatures(features, 1200);
+  // 2. グラフ構築（過大なブリッジによる駅間直線ショートカットを防ぐため80mに制限）
+  const { adj, nodeCoords } = buildGraphFromFeatures(features, 80);
   console.log(`  Graph nodes: ${nodeCoords.size}, Adj keys: ${adj.size}`);
 
   // 3. 駅ノードの特定

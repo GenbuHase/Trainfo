@@ -38,7 +38,7 @@ function parseNodeKey(key) {
   return [lat, lon];
 }
 
-function buildGraphFromFeatures(features, maxBridgeDist = 1200) {
+function buildGraphFromFeatures(features, maxBridgeDist = 80) {
   const adj = new Map();
   const nodeCoords = new Map();
 
