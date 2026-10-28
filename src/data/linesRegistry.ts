@@ -88,9 +88,37 @@ import { hanzomonLine } from './lines/hanzomon';
 import { ginzaLine } from './lines/ginza';
 import { nambokuLine } from './lines/namboku';
 import { tozaiLine } from './lines/tozai';
+import { yamanoteLine } from './lines/yamanote';
+import { keiyoLine } from './lines/keiyo';
+import { sotoboLine } from './lines/sotobo';
+import { sobuMainLine } from './lines/sobu_main';
+import { naritaLine } from './lines/narita';
+import { toganeLine } from './lines/togane';
+import { kururiLine } from './lines/kururi';
+import { chuoSobuLocalLine } from './lines/chuo_sobu_local';
+import { keihinTohokuNegishiLine } from './lines/keihin_tohoku_negishi';
+import { yokohamaLine } from './lines/yokohama';
+import { nambuLine } from './lines/nambu';
+import { tsurumiLine } from './lines/tsurumi';
+import { uchiboLine } from './lines/uchibo';
+
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
+yamanote: yamanoteLine,
+  keiyo: keiyoLine,
+  sotobo: sotoboLine,
+  sobu_main: sobuMainLine,
+  narita: naritaLine,
+  togane: toganeLine,
+  kururi: kururiLine,
+  chuo_sobu_local: chuoSobuLocalLine,
+  keihin_tohoku_negishi: keihinTohokuNegishiLine,
+  yokohama: yokohamaLine,
+  nambu: nambuLine,
+  tsurumi: tsurumiLine,
+  uchibo: uchiboLine,
+
   tojo: tojoLine,
   ogose: ogoseLine,
   saikyo: saikyoLine,

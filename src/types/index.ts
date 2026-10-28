@@ -90,6 +90,19 @@ export type LineId =
   | 'gotemba'
   | 'izukyu'
   | 'izuhakone_sunzu'
+  | 'yamanote'
+  | 'keiyo'
+  | 'sotobo'
+  | 'sobu_main'
+  | 'narita'
+  | 'togane'
+  | 'kururi'
+  | 'chuo_sobu_local'
+  | 'keihin_tohoku_negishi'
+  | 'yokohama'
+  | 'nambu'
+  | 'tsurumi'
+  | 'uchibo'
   | (string & {});
 
 

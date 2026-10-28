@@ -1,0 +1,5522 @@
+[
+  {
+    "tripId": "WD_INB_TG-05_0456_26645",
+    "lineId": "togane",
+    "trainId": "26645",
+    "trainNumber": "620M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "04:56:00",
+        "departureTime": "04:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "05:01:00",
+        "departureTime": "05:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "05:05:00",
+        "departureTime": "05:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "05:09:00",
+        "departureTime": "05:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "05:14:00",
+        "departureTime": "05:14:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_0525_18078",
+    "lineId": "togane",
+    "trainId": "18078",
+    "trainNumber": "621M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "05:25:00",
+        "departureTime": "05:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "05:29:00",
+        "departureTime": "05:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "05:32:00",
+        "departureTime": "05:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "05:37:00",
+        "departureTime": "05:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "05:42:00",
+        "departureTime": "05:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_0548_26646",
+    "lineId": "togane",
+    "trainId": "26646",
+    "trainNumber": "622M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "05:48:00",
+        "departureTime": "05:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "05:52:00",
+        "departureTime": "05:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "05:57:00",
+        "departureTime": "05:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "06:02:00",
+        "departureTime": "06:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "06:07:00",
+        "departureTime": "06:07:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_0552_18079",
+    "lineId": "togane",
+    "trainId": "18079",
+    "trainNumber": "623M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "05:52:00",
+        "departureTime": "05:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "05:56:00",
+        "departureTime": "05:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "05:59:00",
+        "departureTime": "06:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "06:06:00",
+        "departureTime": "06:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "06:12:00",
+        "departureTime": "06:12:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_0609_21578",
+    "lineId": "togane",
+    "trainId": "21578",
+    "trainNumber": "1625M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "06:08:00",
+        "departureTime": "06:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "06:13:00",
+        "departureTime": "06:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "06:16:00",
+        "departureTime": "06:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "06:20:00",
+        "departureTime": "06:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "06:26:00",
+        "departureTime": "06:26:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-01_0541_21578",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_0630_21579",
+    "lineId": "togane",
+    "trainId": "21579",
+    "trainNumber": "1627M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "06:29:00",
+        "departureTime": "06:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "06:34:00",
+        "departureTime": "06:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "06:44:00",
+        "departureTime": "06:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "06:49:00",
+        "departureTime": "06:49:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-01_0605_21579",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_0631_21591",
+    "lineId": "togane",
+    "trainId": "21591",
+    "trainNumber": "1624M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "06:31:00",
+        "departureTime": "06:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "06:35:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "06:40:00",
+        "departureTime": "06:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "06:43:00",
+        "departureTime": "06:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "06:48:00",
+        "departureTime": "06:54:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_0654_21591",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_0651_43211",
+    "lineId": "togane",
+    "trainId": "43211",
+    "trainNumber": "5680Y",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "東京",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "06:51:00",
+        "departureTime": "06:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "06:55:00",
+        "departureTime": "06:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "07:01:00",
+        "departureTime": "07:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "07:11:00",
+        "departureTime": "07:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "07:16:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_0718_43211",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_0700_18080",
+    "lineId": "togane",
+    "trainId": "18080",
+    "trainNumber": "629M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "07:00:00",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "07:04:00",
+        "departureTime": "07:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "07:07:00",
+        "departureTime": "07:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "07:19:00",
+        "departureTime": "07:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "07:24:00",
+        "departureTime": "07:24:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_0706_26647",
+    "lineId": "togane",
+    "trainId": "26647",
+    "trainNumber": "626M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "07:06:00",
+        "departureTime": "07:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "07:10:00",
+        "departureTime": "07:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "07:14:00",
+        "departureTime": "07:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "07:20:00",
+        "departureTime": "07:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "07:25:00",
+        "departureTime": "07:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_0736_26648",
+    "lineId": "togane",
+    "trainId": "26648",
+    "trainNumber": "628M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "07:36:00",
+        "departureTime": "07:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "07:45:00",
+        "departureTime": "07:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "07:51:00",
+        "departureTime": "07:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "07:56:00",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_0740_18081",
+    "lineId": "togane",
+    "trainId": "18081",
+    "trainNumber": "631M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "07:44:00",
+        "departureTime": "07:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "07:48:00",
+        "departureTime": "07:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "07:52:00",
+        "departureTime": "07:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "07:58:00",
+        "departureTime": "07:58:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_0802_21580",
+    "lineId": "togane",
+    "trainId": "21580",
+    "trainNumber": "1633M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "08:00:00",
+        "departureTime": "08:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "08:06:00",
+        "departureTime": "08:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "08:10:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "08:18:00",
+        "departureTime": "08:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "08:23:00",
+        "departureTime": "08:23:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-01_0732_21580",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_0804_21592",
+    "lineId": "togane",
+    "trainId": "21592",
+    "trainNumber": "1630M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "08:04:00",
+        "departureTime": "08:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "08:09:00",
+        "departureTime": "08:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "08:13:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "08:17:00",
+        "departureTime": "08:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "08:22:00",
+        "departureTime": "08:23:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_0823_21592",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_0827_21581",
+    "lineId": "togane",
+    "trainId": "21581",
+    "trainNumber": "1635M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "08:26:00",
+        "departureTime": "08:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "08:31:00",
+        "departureTime": "08:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "08:35:00",
+        "departureTime": "08:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "08:41:00",
+        "departureTime": "08:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "08:47:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-01_0801_21581",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_0828_21593",
+    "lineId": "togane",
+    "trainId": "21593",
+    "trainNumber": "1632M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "08:28:00",
+        "departureTime": "08:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "08:32:00",
+        "departureTime": "08:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "08:37:00",
+        "departureTime": "08:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "08:40:00",
+        "departureTime": "08:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "08:45:00",
+        "departureTime": "08:51:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_0851_21593",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_0901_18082",
+    "lineId": "togane",
+    "trainId": "18082",
+    "trainNumber": "637M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "09:01:00",
+        "departureTime": "09:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "09:05:00",
+        "departureTime": "09:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "09:09:00",
+        "departureTime": "09:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "09:16:00",
+        "departureTime": "09:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "09:22:00",
+        "departureTime": "09:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_0902_21594",
+    "lineId": "togane",
+    "trainId": "21594",
+    "trainNumber": "1634M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "09:02:00",
+        "departureTime": "09:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "09:06:00",
+        "departureTime": "09:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "09:11:00",
+        "departureTime": "09:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "09:14:00",
+        "departureTime": "09:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "09:19:00",
+        "departureTime": "09:20:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_0920_21594",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_0939_21595",
+    "lineId": "togane",
+    "trainId": "21595",
+    "trainNumber": "1636M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "09:39:00",
+        "departureTime": "09:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "09:48:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "09:56:00",
+        "departureTime": "09:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "10:01:00",
+        "departureTime": "10:09:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_1009_21595",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_0943_21582",
+    "lineId": "togane",
+    "trainId": "21582",
+    "trainNumber": "1639M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "09:42:00",
+        "departureTime": "09:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "09:47:00",
+        "departureTime": "09:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "09:55:00",
+        "departureTime": "09:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "10:00:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-01_0916_21582",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_1021_21596",
+    "lineId": "togane",
+    "trainId": "21596",
+    "trainNumber": "1638M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "10:21:00",
+        "departureTime": "10:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "10:26:00",
+        "departureTime": "10:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "10:31:00",
+        "departureTime": "10:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "10:38:00",
+        "departureTime": "10:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "10:43:00",
+        "departureTime": "10:49:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_1049_21596",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1026_21584",
+    "lineId": "togane",
+    "trainId": "21584",
+    "trainNumber": "1641M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "10:22:00",
+        "departureTime": "10:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "10:30:00",
+        "departureTime": "10:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "10:34:00",
+        "departureTime": "10:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "10:38:00",
+        "departureTime": "10:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "10:43:00",
+        "departureTime": "10:43:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-01_0951_21584",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_1048_21597",
+    "lineId": "togane",
+    "trainId": "21597",
+    "trainNumber": "1640M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "10:48:00",
+        "departureTime": "10:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "10:53:00",
+        "departureTime": "10:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "10:57:00",
+        "departureTime": "10:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "11:01:00",
+        "departureTime": "11:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "11:06:00",
+        "departureTime": "11:07:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_1107_21597",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1122_21585",
+    "lineId": "togane",
+    "trainId": "21585",
+    "trainNumber": "1643M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "11:21:00",
+        "departureTime": "11:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "11:26:00",
+        "departureTime": "11:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "11:34:00",
+        "departureTime": "11:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "11:39:00",
+        "departureTime": "11:39:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-01_1055_21585",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_1148_21599",
+    "lineId": "togane",
+    "trainId": "21599",
+    "trainNumber": "1642M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "11:48:00",
+        "departureTime": "11:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "11:52:00",
+        "departureTime": "11:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "11:57:00",
+        "departureTime": "11:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "12:00:00",
+        "departureTime": "12:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "12:05:00",
+        "departureTime": "12:11:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_1211_21599",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1222_21586",
+    "lineId": "togane",
+    "trainId": "21586",
+    "trainNumber": "1645M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "12:21:00",
+        "departureTime": "12:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "12:26:00",
+        "departureTime": "12:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "12:34:00",
+        "departureTime": "12:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "12:39:00",
+        "departureTime": "12:39:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-01_1154_21586",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_1248_21600",
+    "lineId": "togane",
+    "trainId": "21600",
+    "trainNumber": "1644M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "12:48:00",
+        "departureTime": "12:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "12:52:00",
+        "departureTime": "12:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "12:56:00",
+        "departureTime": "12:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "13:00:00",
+        "departureTime": "13:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "13:05:00",
+        "departureTime": "13:11:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_1311_21600",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1322_21587",
+    "lineId": "togane",
+    "trainId": "21587",
+    "trainNumber": "1647M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "13:21:00",
+        "departureTime": "13:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "13:26:00",
+        "departureTime": "13:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "13:30:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "13:34:00",
+        "departureTime": "13:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "13:39:00",
+        "departureTime": "13:39:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-01_1254_21587",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_1348_21601",
+    "lineId": "togane",
+    "trainId": "21601",
+    "trainNumber": "1646M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "13:48:00",
+        "departureTime": "13:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "13:53:00",
+        "departureTime": "13:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "13:57:00",
+        "departureTime": "13:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "14:01:00",
+        "departureTime": "14:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "14:06:00",
+        "departureTime": "14:11:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_1411_21601",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1422_21588",
+    "lineId": "togane",
+    "trainId": "21588",
+    "trainNumber": "1649M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "14:21:00",
+        "departureTime": "14:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "14:26:00",
+        "departureTime": "14:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "14:30:00",
+        "departureTime": "14:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "14:34:00",
+        "departureTime": "14:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "14:40:00",
+        "departureTime": "14:40:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-01_1354_21588",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_1446_26649",
+    "lineId": "togane",
+    "trainId": "26649",
+    "trainNumber": "648M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "14:46:00",
+        "departureTime": "14:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "14:50:00",
+        "departureTime": "14:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "14:54:00",
+        "departureTime": "14:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "14:58:00",
+        "departureTime": "14:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "15:03:00",
+        "departureTime": "15:03:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1510_18083",
+    "lineId": "togane",
+    "trainId": "18083",
+    "trainNumber": "651M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "15:10:00",
+        "departureTime": "15:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "15:14:00",
+        "departureTime": "15:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "15:17:00",
+        "departureTime": "15:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "15:21:00",
+        "departureTime": "15:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "15:26:00",
+        "departureTime": "15:26:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1534_21589",
+    "lineId": "togane",
+    "trainId": "21589",
+    "trainNumber": "1653M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "15:29:00",
+        "departureTime": "15:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "15:38:00",
+        "departureTime": "15:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "15:41:00",
+        "departureTime": "15:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "15:48:00",
+        "departureTime": "15:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "15:54:00",
+        "departureTime": "15:54:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-01_1503_21589",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_1534_26650",
+    "lineId": "togane",
+    "trainId": "26650",
+    "trainNumber": "650M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "15:34:00",
+        "departureTime": "15:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "15:39:00",
+        "departureTime": "15:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "15:43:00",
+        "departureTime": "15:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "15:47:00",
+        "departureTime": "15:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "15:52:00",
+        "departureTime": "15:52:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_1606_26651",
+    "lineId": "togane",
+    "trainId": "26651",
+    "trainNumber": "652M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "16:06:00",
+        "departureTime": "16:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "16:10:00",
+        "departureTime": "16:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "16:15:00",
+        "departureTime": "16:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "16:22:00",
+        "departureTime": "16:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "16:27:00",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1611_18084",
+    "lineId": "togane",
+    "trainId": "18084",
+    "trainNumber": "655M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "16:11:00",
+        "departureTime": "16:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "16:15:00",
+        "departureTime": "16:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "16:18:00",
+        "departureTime": "16:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "16:23:00",
+        "departureTime": "16:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "16:28:00",
+        "departureTime": "16:28:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_1645_26652",
+    "lineId": "togane",
+    "trainId": "26652",
+    "trainNumber": "654M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "16:50:00",
+        "departureTime": "16:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "16:54:00",
+        "departureTime": "16:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "17:01:00",
+        "departureTime": "17:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1649_18085",
+    "lineId": "togane",
+    "trainId": "18085",
+    "trainNumber": "657M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "16:49:00",
+        "departureTime": "16:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "16:54:00",
+        "departureTime": "16:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "16:58:00",
+        "departureTime": "16:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "17:02:00",
+        "departureTime": "17:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "17:07:00",
+        "departureTime": "17:07:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_1715_21602",
+    "lineId": "togane",
+    "trainId": "21602",
+    "trainNumber": "1656M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "17:19:00",
+        "departureTime": "17:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "17:24:00",
+        "departureTime": "17:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "17:30:00",
+        "departureTime": "17:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "17:35:00",
+        "departureTime": "17:36:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_1736_21602",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1719_18086",
+    "lineId": "togane",
+    "trainId": "18086",
+    "trainNumber": "659M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "17:19:00",
+        "departureTime": "17:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "17:23:00",
+        "departureTime": "17:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "17:26:00",
+        "departureTime": "17:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "17:30:00",
+        "departureTime": "17:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "17:35:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_1745_26653",
+    "lineId": "togane",
+    "trainId": "26653",
+    "trainNumber": "658M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "17:45:00",
+        "departureTime": "17:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "17:49:00",
+        "departureTime": "17:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "17:53:00",
+        "departureTime": "17:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "17:57:00",
+        "departureTime": "17:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1809_18087",
+    "lineId": "togane",
+    "trainId": "18087",
+    "trainNumber": "661M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "18:09:00",
+        "departureTime": "18:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "18:13:00",
+        "departureTime": "18:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "18:20:00",
+        "departureTime": "18:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "18:25:00",
+        "departureTime": "18:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_1831_26654",
+    "lineId": "togane",
+    "trainId": "26654",
+    "trainNumber": "660M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "18:35:00",
+        "departureTime": "18:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "18:51:00",
+        "departureTime": "18:51:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1835_21590",
+    "lineId": "togane",
+    "trainId": "21590",
+    "trainNumber": "1663M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "18:32:00",
+        "departureTime": "18:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "18:39:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "18:42:00",
+        "departureTime": "18:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "18:47:00",
+        "departureTime": "18:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "18:52:00",
+        "departureTime": "18:52:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-01_1807_21590",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1913_18088",
+    "lineId": "togane",
+    "trainId": "18088",
+    "trainNumber": "665M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "19:13:00",
+        "departureTime": "19:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "19:17:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "19:20:00",
+        "departureTime": "19:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "19:27:00",
+        "departureTime": "19:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "19:32:00",
+        "departureTime": "19:32:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_1914_21604",
+    "lineId": "togane",
+    "trainId": "21604",
+    "trainNumber": "1662M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "19:14:00",
+        "departureTime": "19:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "19:18:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "19:23:00",
+        "departureTime": "19:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "19:26:00",
+        "departureTime": "19:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "19:31:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "WD_INB_SB-07_1935_21604",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_1943_26655",
+    "lineId": "togane",
+    "trainId": "26655",
+    "trainNumber": "664M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "19:43:00",
+        "departureTime": "19:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "19:47:00",
+        "departureTime": "19:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "19:58:00",
+        "departureTime": "19:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "20:03:00",
+        "departureTime": "20:03:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_1947_42624",
+    "lineId": "togane",
+    "trainId": "42624",
+    "trainNumber": "5983Y",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "東京",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "19:46:00",
+        "departureTime": "19:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "19:51:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "19:55:00",
+        "departureTime": "19:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "19:59:00",
+        "departureTime": "20:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "20:05:00",
+        "departureTime": "20:05:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "WD_OUT_SB-03_1925_42624",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_OUT_TG-01_2008_18089",
+    "lineId": "togane",
+    "trainId": "18089",
+    "trainNumber": "667M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "20:08:00",
+        "departureTime": "20:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "20:16:00",
+        "departureTime": "20:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "20:23:00",
+        "departureTime": "20:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "20:28:00",
+        "departureTime": "20:28:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_2010_26656",
+    "lineId": "togane",
+    "trainId": "26656",
+    "trainNumber": "666M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "20:10:00",
+        "departureTime": "20:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "20:14:00",
+        "departureTime": "20:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "20:19:00",
+        "departureTime": "20:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "20:22:00",
+        "departureTime": "20:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "20:27:00",
+        "departureTime": "20:27:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_2033_26657",
+    "lineId": "togane",
+    "trainId": "26657",
+    "trainNumber": "668M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "20:33:00",
+        "departureTime": "20:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "20:48:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "20:53:00",
+        "departureTime": "20:53:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_2037_18090",
+    "lineId": "togane",
+    "trainId": "18090",
+    "trainNumber": "669M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "20:41:00",
+        "departureTime": "20:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "20:44:00",
+        "departureTime": "20:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "20:54:00",
+        "departureTime": "20:54:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_2100_18091",
+    "lineId": "togane",
+    "trainId": "18091",
+    "trainNumber": "671M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "21:00:00",
+        "departureTime": "21:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "21:04:00",
+        "departureTime": "21:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "21:07:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "21:14:00",
+        "departureTime": "21:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "21:19:00",
+        "departureTime": "21:19:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_2101_26658",
+    "lineId": "togane",
+    "trainId": "26658",
+    "trainNumber": "670M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "21:01:00",
+        "departureTime": "21:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "21:05:00",
+        "departureTime": "21:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "21:10:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "21:13:00",
+        "departureTime": "21:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "21:18:00",
+        "departureTime": "21:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TG-05_2127_26659",
+    "lineId": "togane",
+    "trainId": "26659",
+    "trainNumber": "672M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "21:27:00",
+        "departureTime": "21:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "21:31:00",
+        "departureTime": "21:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "21:36:00",
+        "departureTime": "21:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "21:42:00",
+        "departureTime": "21:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "21:47:00",
+        "departureTime": "21:47:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_2130_18092",
+    "lineId": "togane",
+    "trainId": "18092",
+    "trainNumber": "673M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "21:34:00",
+        "departureTime": "21:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "21:38:00",
+        "departureTime": "21:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "21:42:00",
+        "departureTime": "21:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "21:48:00",
+        "departureTime": "21:48:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_2159_21577",
+    "lineId": "togane",
+    "trainId": "21577",
+    "trainNumber": "1675M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-03",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "21:57:00",
+        "departureTime": "21:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "22:03:00",
+        "departureTime": "22:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "22:06:00",
+        "departureTime": "22:06:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "東金",
+    "prevTripId": "WD_OUT_SB-01_2127_21577",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-03_2212_21605",
+    "lineId": "togane",
+    "trainId": "21605",
+    "trainNumber": "1674M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-03",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "22:12:00",
+        "departureTime": "22:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "22:15:00",
+        "departureTime": "22:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "22:20:00",
+        "departureTime": "22:21:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "東金",
+    "throughTripId": "WD_INB_SB-07_2221_21605",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_TG-05_2224_26660",
+    "lineId": "togane",
+    "trainId": "26660",
+    "trainNumber": "676M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "22:24:00",
+        "departureTime": "22:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "22:29:00",
+        "departureTime": "22:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "22:33:00",
+        "departureTime": "22:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "22:39:00",
+        "departureTime": "22:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "22:44:00",
+        "departureTime": "22:44:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_2228_18093",
+    "lineId": "togane",
+    "trainId": "18093",
+    "trainNumber": "677M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "22:28:00",
+        "departureTime": "22:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "22:32:00",
+        "departureTime": "22:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "22:36:00",
+        "departureTime": "22:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "22:40:00",
+        "departureTime": "22:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "22:45:00",
+        "departureTime": "22:45:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TG-01_2310_18077",
+    "lineId": "togane",
+    "trainId": "18077",
+    "trainNumber": "679M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-03",
+    "cars": 6,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "23:10:00",
+        "departureTime": "23:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "23:14:00",
+        "departureTime": "23:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "23:18:00",
+        "departureTime": "23:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_0456_26645",
+    "lineId": "togane",
+    "trainId": "26645",
+    "trainNumber": "620M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "04:56:00",
+        "departureTime": "04:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "05:01:00",
+        "departureTime": "05:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "05:05:00",
+        "departureTime": "05:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "05:09:00",
+        "departureTime": "05:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "05:14:00",
+        "departureTime": "05:14:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_0525_18078",
+    "lineId": "togane",
+    "trainId": "18078",
+    "trainNumber": "621M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "05:25:00",
+        "departureTime": "05:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "05:29:00",
+        "departureTime": "05:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "05:32:00",
+        "departureTime": "05:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "05:37:00",
+        "departureTime": "05:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "05:42:00",
+        "departureTime": "05:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_0548_26646",
+    "lineId": "togane",
+    "trainId": "26646",
+    "trainNumber": "622M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "05:48:00",
+        "departureTime": "05:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "05:52:00",
+        "departureTime": "05:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "05:57:00",
+        "departureTime": "05:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "06:02:00",
+        "departureTime": "06:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "06:07:00",
+        "departureTime": "06:07:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_0552_18079",
+    "lineId": "togane",
+    "trainId": "18079",
+    "trainNumber": "623M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "05:52:00",
+        "departureTime": "05:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "05:56:00",
+        "departureTime": "05:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "05:59:00",
+        "departureTime": "06:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "06:06:00",
+        "departureTime": "06:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "06:12:00",
+        "departureTime": "06:12:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_0609_21578",
+    "lineId": "togane",
+    "trainId": "21578",
+    "trainNumber": "1625M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "06:08:00",
+        "departureTime": "06:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "06:13:00",
+        "departureTime": "06:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "06:16:00",
+        "departureTime": "06:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "06:20:00",
+        "departureTime": "06:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "06:26:00",
+        "departureTime": "06:26:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-01_0541_21578",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_0630_21579",
+    "lineId": "togane",
+    "trainId": "21579",
+    "trainNumber": "1627M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "06:29:00",
+        "departureTime": "06:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "06:34:00",
+        "departureTime": "06:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "06:44:00",
+        "departureTime": "06:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "06:49:00",
+        "departureTime": "06:49:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-01_0605_21579",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_0631_21591",
+    "lineId": "togane",
+    "trainId": "21591",
+    "trainNumber": "1624M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "06:31:00",
+        "departureTime": "06:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "06:35:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "06:40:00",
+        "departureTime": "06:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "06:43:00",
+        "departureTime": "06:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "06:48:00",
+        "departureTime": "06:54:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_0654_21591",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_0651_43210",
+    "lineId": "togane",
+    "trainId": "43210",
+    "trainNumber": "5680Y",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "東京",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "06:51:00",
+        "departureTime": "06:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "06:55:00",
+        "departureTime": "06:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "07:01:00",
+        "departureTime": "07:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "07:11:00",
+        "departureTime": "07:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "07:16:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_0718_43210",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_0700_18080",
+    "lineId": "togane",
+    "trainId": "18080",
+    "trainNumber": "629M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "07:00:00",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "07:04:00",
+        "departureTime": "07:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "07:07:00",
+        "departureTime": "07:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "07:19:00",
+        "departureTime": "07:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "07:24:00",
+        "departureTime": "07:24:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_0706_26647",
+    "lineId": "togane",
+    "trainId": "26647",
+    "trainNumber": "626M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "07:06:00",
+        "departureTime": "07:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "07:10:00",
+        "departureTime": "07:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "07:14:00",
+        "departureTime": "07:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "07:20:00",
+        "departureTime": "07:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "07:25:00",
+        "departureTime": "07:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_0736_26648",
+    "lineId": "togane",
+    "trainId": "26648",
+    "trainNumber": "628M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "07:36:00",
+        "departureTime": "07:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "07:45:00",
+        "departureTime": "07:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "07:51:00",
+        "departureTime": "07:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "07:56:00",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_0740_18081",
+    "lineId": "togane",
+    "trainId": "18081",
+    "trainNumber": "631M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "07:44:00",
+        "departureTime": "07:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "07:48:00",
+        "departureTime": "07:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "07:52:00",
+        "departureTime": "07:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "07:58:00",
+        "departureTime": "07:58:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_0802_21580",
+    "lineId": "togane",
+    "trainId": "21580",
+    "trainNumber": "1633M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "08:00:00",
+        "departureTime": "08:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "08:06:00",
+        "departureTime": "08:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "08:10:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "08:18:00",
+        "departureTime": "08:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "08:23:00",
+        "departureTime": "08:23:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-01_0732_21580",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_0804_21592",
+    "lineId": "togane",
+    "trainId": "21592",
+    "trainNumber": "1630M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "08:04:00",
+        "departureTime": "08:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "08:09:00",
+        "departureTime": "08:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "08:13:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "08:17:00",
+        "departureTime": "08:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "08:22:00",
+        "departureTime": "08:23:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_0823_21592",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_0827_21581",
+    "lineId": "togane",
+    "trainId": "21581",
+    "trainNumber": "1635M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "08:26:00",
+        "departureTime": "08:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "08:31:00",
+        "departureTime": "08:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "08:35:00",
+        "departureTime": "08:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "08:41:00",
+        "departureTime": "08:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "08:47:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-01_0801_21581",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_0828_21593",
+    "lineId": "togane",
+    "trainId": "21593",
+    "trainNumber": "1632M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "08:28:00",
+        "departureTime": "08:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "08:32:00",
+        "departureTime": "08:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "08:37:00",
+        "departureTime": "08:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "08:40:00",
+        "departureTime": "08:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "08:45:00",
+        "departureTime": "08:51:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_0851_21593",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_0901_18082",
+    "lineId": "togane",
+    "trainId": "18082",
+    "trainNumber": "637M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "09:01:00",
+        "departureTime": "09:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "09:05:00",
+        "departureTime": "09:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "09:09:00",
+        "departureTime": "09:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "09:16:00",
+        "departureTime": "09:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "09:22:00",
+        "departureTime": "09:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_0902_21594",
+    "lineId": "togane",
+    "trainId": "21594",
+    "trainNumber": "1634M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "09:02:00",
+        "departureTime": "09:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "09:06:00",
+        "departureTime": "09:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "09:11:00",
+        "departureTime": "09:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "09:14:00",
+        "departureTime": "09:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "09:19:00",
+        "departureTime": "09:20:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_0920_21594",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_0939_21595",
+    "lineId": "togane",
+    "trainId": "21595",
+    "trainNumber": "1636M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "09:39:00",
+        "departureTime": "09:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "09:48:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "09:56:00",
+        "departureTime": "09:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "10:01:00",
+        "departureTime": "10:09:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_1009_21595",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_0943_21582",
+    "lineId": "togane",
+    "trainId": "21582",
+    "trainNumber": "1639M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "09:42:00",
+        "departureTime": "09:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "09:47:00",
+        "departureTime": "09:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "09:55:00",
+        "departureTime": "09:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "10:00:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-01_0916_21582",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_1021_21596",
+    "lineId": "togane",
+    "trainId": "21596",
+    "trainNumber": "1638M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "10:21:00",
+        "departureTime": "10:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "10:26:00",
+        "departureTime": "10:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "10:31:00",
+        "departureTime": "10:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "10:38:00",
+        "departureTime": "10:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "10:43:00",
+        "departureTime": "10:49:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_1049_21596",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1026_21584",
+    "lineId": "togane",
+    "trainId": "21584",
+    "trainNumber": "1641M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "10:22:00",
+        "departureTime": "10:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "10:30:00",
+        "departureTime": "10:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "10:34:00",
+        "departureTime": "10:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "10:38:00",
+        "departureTime": "10:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "10:43:00",
+        "departureTime": "10:43:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-01_0951_21584",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_1048_21597",
+    "lineId": "togane",
+    "trainId": "21597",
+    "trainNumber": "1640M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "10:48:00",
+        "departureTime": "10:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "10:53:00",
+        "departureTime": "10:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "10:57:00",
+        "departureTime": "10:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "11:01:00",
+        "departureTime": "11:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "11:06:00",
+        "departureTime": "11:07:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_1107_21597",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1122_21585",
+    "lineId": "togane",
+    "trainId": "21585",
+    "trainNumber": "1643M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "11:21:00",
+        "departureTime": "11:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "11:26:00",
+        "departureTime": "11:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "11:34:00",
+        "departureTime": "11:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "11:39:00",
+        "departureTime": "11:39:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-01_1055_21585",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_1148_21599",
+    "lineId": "togane",
+    "trainId": "21599",
+    "trainNumber": "1642M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "11:48:00",
+        "departureTime": "11:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "11:52:00",
+        "departureTime": "11:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "11:57:00",
+        "departureTime": "11:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "12:00:00",
+        "departureTime": "12:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "12:05:00",
+        "departureTime": "12:11:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_1211_21599",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1222_21586",
+    "lineId": "togane",
+    "trainId": "21586",
+    "trainNumber": "1645M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "12:21:00",
+        "departureTime": "12:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "12:26:00",
+        "departureTime": "12:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "12:34:00",
+        "departureTime": "12:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "12:39:00",
+        "departureTime": "12:39:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-01_1154_21586",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_1248_21600",
+    "lineId": "togane",
+    "trainId": "21600",
+    "trainNumber": "1644M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "12:48:00",
+        "departureTime": "12:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "12:52:00",
+        "departureTime": "12:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "12:56:00",
+        "departureTime": "12:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "13:00:00",
+        "departureTime": "13:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "13:05:00",
+        "departureTime": "13:11:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_1311_21600",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1322_21587",
+    "lineId": "togane",
+    "trainId": "21587",
+    "trainNumber": "1647M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "13:21:00",
+        "departureTime": "13:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "13:26:00",
+        "departureTime": "13:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "13:30:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "13:34:00",
+        "departureTime": "13:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "13:39:00",
+        "departureTime": "13:39:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-01_1254_21587",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_1348_21601",
+    "lineId": "togane",
+    "trainId": "21601",
+    "trainNumber": "1646M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "13:48:00",
+        "departureTime": "13:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "13:53:00",
+        "departureTime": "13:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "13:57:00",
+        "departureTime": "13:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "14:01:00",
+        "departureTime": "14:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "14:06:00",
+        "departureTime": "14:11:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_1411_21601",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1422_21588",
+    "lineId": "togane",
+    "trainId": "21588",
+    "trainNumber": "1649M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "14:21:00",
+        "departureTime": "14:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "14:26:00",
+        "departureTime": "14:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "14:30:00",
+        "departureTime": "14:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "14:34:00",
+        "departureTime": "14:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "14:40:00",
+        "departureTime": "14:40:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-01_1354_21588",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_1446_26649",
+    "lineId": "togane",
+    "trainId": "26649",
+    "trainNumber": "648M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "14:46:00",
+        "departureTime": "14:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "14:50:00",
+        "departureTime": "14:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "14:54:00",
+        "departureTime": "14:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "14:58:00",
+        "departureTime": "14:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "15:03:00",
+        "departureTime": "15:03:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1510_18083",
+    "lineId": "togane",
+    "trainId": "18083",
+    "trainNumber": "651M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "15:10:00",
+        "departureTime": "15:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "15:14:00",
+        "departureTime": "15:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "15:17:00",
+        "departureTime": "15:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "15:21:00",
+        "departureTime": "15:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "15:26:00",
+        "departureTime": "15:26:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1534_21589",
+    "lineId": "togane",
+    "trainId": "21589",
+    "trainNumber": "1653M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "15:29:00",
+        "departureTime": "15:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "15:38:00",
+        "departureTime": "15:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "15:41:00",
+        "departureTime": "15:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "15:48:00",
+        "departureTime": "15:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "15:54:00",
+        "departureTime": "15:54:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-01_1503_21589",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_1534_26650",
+    "lineId": "togane",
+    "trainId": "26650",
+    "trainNumber": "650M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "15:34:00",
+        "departureTime": "15:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "15:39:00",
+        "departureTime": "15:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "15:43:00",
+        "departureTime": "15:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "15:47:00",
+        "departureTime": "15:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "15:52:00",
+        "departureTime": "15:52:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_1606_26651",
+    "lineId": "togane",
+    "trainId": "26651",
+    "trainNumber": "652M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "16:06:00",
+        "departureTime": "16:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "16:10:00",
+        "departureTime": "16:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "16:15:00",
+        "departureTime": "16:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "16:22:00",
+        "departureTime": "16:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "16:27:00",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1611_18084",
+    "lineId": "togane",
+    "trainId": "18084",
+    "trainNumber": "655M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "16:11:00",
+        "departureTime": "16:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "16:15:00",
+        "departureTime": "16:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "16:18:00",
+        "departureTime": "16:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "16:23:00",
+        "departureTime": "16:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "16:28:00",
+        "departureTime": "16:28:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_1645_26652",
+    "lineId": "togane",
+    "trainId": "26652",
+    "trainNumber": "654M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "16:50:00",
+        "departureTime": "16:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "16:54:00",
+        "departureTime": "16:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "17:01:00",
+        "departureTime": "17:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1649_18085",
+    "lineId": "togane",
+    "trainId": "18085",
+    "trainNumber": "657M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "16:49:00",
+        "departureTime": "16:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "16:54:00",
+        "departureTime": "16:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "16:58:00",
+        "departureTime": "16:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "17:02:00",
+        "departureTime": "17:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "17:07:00",
+        "departureTime": "17:07:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_1715_21602",
+    "lineId": "togane",
+    "trainId": "21602",
+    "trainNumber": "1656M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "17:19:00",
+        "departureTime": "17:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "17:24:00",
+        "departureTime": "17:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "17:30:00",
+        "departureTime": "17:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "17:35:00",
+        "departureTime": "17:36:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_1736_21602",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1719_18086",
+    "lineId": "togane",
+    "trainId": "18086",
+    "trainNumber": "659M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "17:19:00",
+        "departureTime": "17:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "17:23:00",
+        "departureTime": "17:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "17:26:00",
+        "departureTime": "17:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "17:30:00",
+        "departureTime": "17:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "17:35:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_1745_26653",
+    "lineId": "togane",
+    "trainId": "26653",
+    "trainNumber": "658M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "17:45:00",
+        "departureTime": "17:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "17:49:00",
+        "departureTime": "17:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "17:53:00",
+        "departureTime": "17:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "17:57:00",
+        "departureTime": "17:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1809_18087",
+    "lineId": "togane",
+    "trainId": "18087",
+    "trainNumber": "661M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "18:09:00",
+        "departureTime": "18:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "18:13:00",
+        "departureTime": "18:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "18:20:00",
+        "departureTime": "18:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "18:25:00",
+        "departureTime": "18:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_1831_26654",
+    "lineId": "togane",
+    "trainId": "26654",
+    "trainNumber": "660M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "18:35:00",
+        "departureTime": "18:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "18:51:00",
+        "departureTime": "18:51:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1835_21590",
+    "lineId": "togane",
+    "trainId": "21590",
+    "trainNumber": "1663M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "18:32:00",
+        "departureTime": "18:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "18:39:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "18:42:00",
+        "departureTime": "18:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "18:47:00",
+        "departureTime": "18:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "18:52:00",
+        "departureTime": "18:52:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-01_1807_21590",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1913_18088",
+    "lineId": "togane",
+    "trainId": "18088",
+    "trainNumber": "665M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "19:13:00",
+        "departureTime": "19:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "19:17:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "19:20:00",
+        "departureTime": "19:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "19:27:00",
+        "departureTime": "19:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "19:32:00",
+        "departureTime": "19:32:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_1914_21604",
+    "lineId": "togane",
+    "trainId": "21604",
+    "trainNumber": "1662M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "19:14:00",
+        "departureTime": "19:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "19:18:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "19:23:00",
+        "departureTime": "19:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "19:26:00",
+        "departureTime": "19:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "19:31:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "成東",
+    "throughTripId": "HD_INB_SB-07_1935_21604",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_1943_26655",
+    "lineId": "togane",
+    "trainId": "26655",
+    "trainNumber": "664M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "19:43:00",
+        "departureTime": "19:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "19:47:00",
+        "departureTime": "19:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "19:58:00",
+        "departureTime": "19:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "20:03:00",
+        "departureTime": "20:03:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_1947_42623",
+    "lineId": "togane",
+    "trainId": "42623",
+    "trainNumber": "5983Y",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "customOrigin": "東京",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "19:46:00",
+        "departureTime": "19:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "19:51:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "19:55:00",
+        "departureTime": "19:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "19:59:00",
+        "departureTime": "20:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "20:05:00",
+        "departureTime": "20:05:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "成東",
+    "prevTripId": "HD_OUT_SB-03_1925_42623",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_OUT_TG-01_2008_18089",
+    "lineId": "togane",
+    "trainId": "18089",
+    "trainNumber": "667M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "20:08:00",
+        "departureTime": "20:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "20:16:00",
+        "departureTime": "20:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "20:23:00",
+        "departureTime": "20:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "20:28:00",
+        "departureTime": "20:28:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_2010_26656",
+    "lineId": "togane",
+    "trainId": "26656",
+    "trainNumber": "666M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "20:10:00",
+        "departureTime": "20:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "20:14:00",
+        "departureTime": "20:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "20:19:00",
+        "departureTime": "20:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "20:22:00",
+        "departureTime": "20:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "20:27:00",
+        "departureTime": "20:27:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_2033_26657",
+    "lineId": "togane",
+    "trainId": "26657",
+    "trainNumber": "668M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "20:33:00",
+        "departureTime": "20:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "20:48:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "20:53:00",
+        "departureTime": "20:53:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_2037_18090",
+    "lineId": "togane",
+    "trainId": "18090",
+    "trainNumber": "669M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "20:41:00",
+        "departureTime": "20:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "20:44:00",
+        "departureTime": "20:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "20:54:00",
+        "departureTime": "20:54:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_2100_18091",
+    "lineId": "togane",
+    "trainId": "18091",
+    "trainNumber": "671M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "21:00:00",
+        "departureTime": "21:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "21:04:00",
+        "departureTime": "21:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "21:07:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "21:14:00",
+        "departureTime": "21:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "21:19:00",
+        "departureTime": "21:19:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_2101_26658",
+    "lineId": "togane",
+    "trainId": "26658",
+    "trainNumber": "670M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "21:01:00",
+        "departureTime": "21:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "21:05:00",
+        "departureTime": "21:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "21:10:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "21:13:00",
+        "departureTime": "21:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "21:18:00",
+        "departureTime": "21:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TG-05_2127_26659",
+    "lineId": "togane",
+    "trainId": "26659",
+    "trainNumber": "672M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "21:27:00",
+        "departureTime": "21:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "21:31:00",
+        "departureTime": "21:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "21:36:00",
+        "departureTime": "21:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "21:42:00",
+        "departureTime": "21:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "21:47:00",
+        "departureTime": "21:47:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_2130_18092",
+    "lineId": "togane",
+    "trainId": "18092",
+    "trainNumber": "673M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "21:34:00",
+        "departureTime": "21:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "21:38:00",
+        "departureTime": "21:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "21:42:00",
+        "departureTime": "21:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "21:48:00",
+        "departureTime": "21:48:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_2159_21577",
+    "lineId": "togane",
+    "trainId": "21577",
+    "trainNumber": "1675M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-03",
+    "customOrigin": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "21:57:00",
+        "departureTime": "21:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "22:03:00",
+        "departureTime": "22:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "22:06:00",
+        "departureTime": "22:06:00",
+        "isPassing": false
+      }
+    ],
+    "customDestination": "東金",
+    "prevTripId": "HD_OUT_SB-01_2127_21577",
+    "prevLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-03_2212_21605",
+    "lineId": "togane",
+    "trainId": "21605",
+    "trainNumber": "1674M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-03",
+    "destinationStationId": "TG-01",
+    "customDestination": "千葉",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "22:12:00",
+        "departureTime": "22:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "22:15:00",
+        "departureTime": "22:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "22:20:00",
+        "departureTime": "22:21:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "東金",
+    "throughTripId": "HD_INB_SB-07_2221_21605",
+    "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "HD_INB_TG-05_2224_26660",
+    "lineId": "togane",
+    "trainId": "26660",
+    "trainNumber": "676M",
+    "trainType": "local",
+    "direction": "inbound",
+    "originStationId": "TG-05",
+    "destinationStationId": "TG-01",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "22:24:00",
+        "departureTime": "22:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "22:29:00",
+        "departureTime": "22:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "22:33:00",
+        "departureTime": "22:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "22:39:00",
+        "departureTime": "22:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "22:44:00",
+        "departureTime": "22:44:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_2228_18093",
+    "lineId": "togane",
+    "trainId": "18093",
+    "trainNumber": "677M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-05",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "22:28:00",
+        "departureTime": "22:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "22:32:00",
+        "departureTime": "22:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "22:36:00",
+        "departureTime": "22:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-04",
+        "arrivalTime": "22:40:00",
+        "departureTime": "22:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-05",
+        "arrivalTime": "22:45:00",
+        "departureTime": "22:45:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TG-01_2310_18077",
+    "lineId": "togane",
+    "trainId": "18077",
+    "trainNumber": "679M",
+    "trainType": "local",
+    "direction": "outbound",
+    "originStationId": "TG-01",
+    "destinationStationId": "TG-03",
+    "cars": 6,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TG-01",
+        "arrivalTime": "23:10:00",
+        "departureTime": "23:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-02",
+        "arrivalTime": "23:14:00",
+        "departureTime": "23:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TG-03",
+        "arrivalTime": "23:18:00",
+        "departureTime": "23:18:00",
+        "isPassing": false
+      }
+    ]
+  }
+]

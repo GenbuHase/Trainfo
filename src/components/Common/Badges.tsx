@@ -57,6 +57,36 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#cf1225',
     numColor: '#a11820',
   },
+  // JR山手線
+  JY: {
+    borderColor: '#80c241',
+    prefixColor: '#80c241',
+    numColor: '#598c25',
+  },
+  // JR中央・総武線各駅停車
+  JB: {
+    borderColor: '#ffd400',
+    prefixColor: '#ffd400',
+    numColor: '#8a7500',
+  },
+  // JR横浜線
+  JH: {
+    borderColor: '#80c241',
+    prefixColor: '#80c241',
+    numColor: '#598c25',
+  },
+  // JR南武線
+  JN: {
+    borderColor: '#ffd400',
+    prefixColor: '#ffd400',
+    numColor: '#8a7500',
+  },
+  // JR鶴見線
+  JI: {
+    borderColor: '#ffd400',
+    prefixColor: '#ffd400',
+    numColor: '#8a7500',
+  },
   // JR中央線
   JC: {
     borderColor: '#eb5c01',
