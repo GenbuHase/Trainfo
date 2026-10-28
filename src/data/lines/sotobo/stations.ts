@@ -8,8 +8,8 @@ export const SOTOBO_STATIONS: Station[] = [
     "name": "千葉",
     "nameKana": "ちば",
     "nameEn": "Chiba",
-    "lat": 35.61259,
-    "lng": 140.11396,
+    "lat": 35.6138757,
+    "lng": 140.1128979,
     "transfers": [
       "JR総武本線",
       "JR総武快速線",
@@ -73,8 +73,8 @@ export const SOTOBO_STATIONS: Station[] = [
     "name": "蘇我",
     "nameKana": "そが",
     "nameEn": "Soga",
-    "lat": 35.58113,
-    "lng": 140.13124,
+    "lat": 35.581691,
+    "lng": 140.130656,
     "transfers": [
       "JR京葉線",
       "JR内房線"

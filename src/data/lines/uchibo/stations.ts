@@ -8,8 +8,8 @@ export const UCHIBO_STATIONS: Station[] = [
     "name": "蘇我",
     "nameKana": "そが",
     "nameEn": "Soga",
-    "lat": 35.58113,
-    "lng": 140.13124,
+    "lat": 35.581691,
+    "lng": 140.130656,
     "transfers": [
       "JR京葉線",
       "JR外房線"

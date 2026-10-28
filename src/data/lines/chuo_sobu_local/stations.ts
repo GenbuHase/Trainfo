@@ -881,8 +881,8 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "name": "西船橋",
     "nameKana": "にしふなばし",
     "nameEn": "Nishi-Funabashi",
-    "lat": 35.70796,
-    "lng": 139.9581,
+    "lat": 35.707438,
+    "lng": 139.959296,
     "transfers": [
       "JR武蔵野線",
       "JR京葉線",
@@ -1149,8 +1149,8 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "name": "千葉",
     "nameKana": "ちば",
     "nameEn": "Chiba",
-    "lat": 35.61315,
-    "lng": 140.11492,
+    "lat": 35.6138757,
+    "lng": 140.1128979,
     "transfers": [
       "JR総武本線",
       "JR総武快速線",

@@ -563,8 +563,8 @@ export const YOKOHAMA_STATIONS: Station[] = [
     "name": "八王子",
     "nameKana": "はちおうじ",
     "nameEn": "Hachioji",
-    "lat": 35.65519,
-    "lng": 139.33939,
+    "lat": 35.6555613,
+    "lng": 139.3395384,
     "transfers": [
       "JR中央線",
       "JR中央本線",

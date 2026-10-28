@@ -8,8 +8,8 @@ export const KEIYO_STATIONS: Station[] = [
     "name": "東京",
     "nameKana": "とうきょう",
     "nameEn": "Tokyo",
-    "lat": 35.67791,
-    "lng": 139.76414,
+    "lat": 35.6810367,
+    "lng": 139.7674402,
     "transfers": [
       "JR山手線",
       "JR京浜東北線",
@@ -510,8 +510,8 @@ export const KEIYO_STATIONS: Station[] = [
     "name": "蘇我",
     "nameKana": "そが",
     "nameEn": "Soga",
-    "lat": 35.58113,
-    "lng": 140.13124,
+    "lat": 35.581691,
+    "lng": 140.130656,
     "transfers": [
       "JR外房線",
       "JR内房線"

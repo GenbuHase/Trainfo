@@ -7,6 +7,18 @@ export const UCHIBO_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "UB-02",
     "coordinates": [
       [
+        35.581691,
+        140.130656
+      ],
+      [
+        35.581504,
+        140.13085066666665
+      ],
+      [
+        35.581317,
+        140.13104533333333
+      ],
+      [
         35.58113,
         140.13124
       ],

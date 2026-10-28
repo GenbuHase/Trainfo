@@ -8,8 +8,8 @@ export const NAMBU_STATIONS: Station[] = [
     "name": "川崎",
     "nameKana": "かわさき",
     "nameEn": "Kawasaki",
-    "lat": 35.532,
-    "lng": 139.69758,
+    "lat": 35.531333,
+    "lng": 139.696894,
     "transfers": [
       "JR東海道線",
       "JR京浜東北線",
@@ -182,8 +182,8 @@ export const NAMBU_STATIONS: Station[] = [
     "name": "武蔵小杉",
     "nameKana": "むさしこすぎ",
     "nameEn": "Musashi-Kosugi",
-    "lat": 35.57658,
-    "lng": 139.65925,
+    "lat": 35.5744653,
+    "lng": 139.6633332,
     "transfers": [
       "JR横須賀線",
       "JR湘南新宿ライン",
@@ -557,8 +557,8 @@ export const NAMBU_STATIONS: Station[] = [
     "name": "府中本町",
     "nameKana": "ふちゅうほんまち",
     "nameEn": "Fuchuhommachi",
-    "lat": 35.66638,
-    "lng": 139.47698,
+    "lat": 35.666195,
+    "lng": 139.477041,
     "transfers": [
       "JR武蔵野線"
     ],
@@ -727,8 +727,8 @@ export const NAMBU_STATIONS: Station[] = [
     "name": "立川",
     "nameKana": "たちかわ",
     "nameEn": "Tachikawa",
-    "lat": 35.69751,
-    "lng": 139.41356,
+    "lat": 35.697956,
+    "lng": 139.413704,
     "transfers": [
       "JR中央線",
       "JR中央本線",
