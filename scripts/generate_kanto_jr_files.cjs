@@ -102,6 +102,9 @@ function processLine(lineDef) {
     if (st.name === '新宿' && lineDef.lineId === 'chuo_sobu_local') {
       fixedCoord = [35.68931, 139.70055]; // 中央・総武緩行線ホーム (西側本線上の新宿駅)
     }
+    if (st.name === '代々木' && lineDef.lineId === 'chuo_sobu_local') {
+      fixedCoord = [35.6835, 139.7022]; // 中央・総武緩行線ホーム (通過レール上の代々木駅)
+    }
 
     if (fixedCoord) {
       targetCoord = fixedCoord;

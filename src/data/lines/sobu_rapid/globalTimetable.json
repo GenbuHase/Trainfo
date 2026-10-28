@@ -3889,7 +3889,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "40529"
+    "trainId": "40529",
+    "through": {
+      "lineId": "sotobo",
+      "tripId": "HD_OUT_SB-01_0810_14414",
+      "trainNumber": "9055M"
+    },
+    "throughTripId": "HD_OUT_SB-01_0810_14414",
+    "throughLineId": "sotobo"
   },
   {
     "tripId": "WD_OUT_JO-19_0740_5063",
@@ -10487,7 +10494,7 @@
       }
     ],
     "trainId": "5362",
-    "customDestination": "新宿",
+    "customDestination": "東京",
     "prevTripId": "WD_INB_SM-22_1011_5905",
     "prevLineId": "sobu_main",
     "throughTripId": "WD_OUT_JO-19_1217_29297",
@@ -12743,7 +12750,7 @@
       }
     ],
     "trainId": "5363",
-    "customDestination": "新宿",
+    "customDestination": "東京",
     "prevTripId": "WD_INB_SM-22_1222_5906",
     "prevLineId": "sobu_main",
     "throughTripId": "WD_OUT_JO-19_1417_29299",
@@ -31197,11 +31204,18 @@
       {
         "stationId": "JO-28",
         "arrivalTime": "08:35:00",
-        "departureTime": "08:38:00",
+        "departureTime": "08:37:00",
         "isPassing": false
       }
     ],
-    "trainId": "10490"
+    "trainId": "10490",
+    "through": {
+      "lineId": "sotobo",
+      "tripId": "HD_OUT_SB-01_0837_14399",
+      "trainNumber": "9043M"
+    },
+    "throughTripId": "HD_OUT_SB-01_0837_14399",
+    "throughLineId": "sotobo"
   },
   {
     "tripId": "HD_OUT_JO-19_0812_41453",
@@ -36104,7 +36118,7 @@
       }
     ],
     "trainId": "5362",
-    "customDestination": "新宿",
+    "customDestination": "東京",
     "prevTripId": "HD_INB_SM-22_1011_5905",
     "prevLineId": "sobu_main",
     "throughTripId": "HD_OUT_JO-19_1217_29297",
@@ -38356,7 +38370,7 @@
       }
     ],
     "trainId": "5363",
-    "customDestination": "新宿",
+    "customDestination": "東京",
     "prevTripId": "HD_INB_SM-22_1222_5906",
     "prevLineId": "sobu_main",
     "throughTripId": "HD_OUT_JO-19_1417_29299",
@@ -43240,9 +43254,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "10497",
-    "prevTripId": "HD_INB_SB-03_1719_14408",
-    "prevLineId": "sotobo"
+    "trainId": "10497"
   },
   {
     "tripId": "HD_OUT_JO-19_1725_41076",
@@ -43677,9 +43689,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "40530",
-    "prevTripId": "HD_INB_SB-27_1617_14419",
-    "prevLineId": "sotobo"
+    "trainId": "40530"
   },
   {
     "tripId": "HD_OUT_JO-19_1743_42969",

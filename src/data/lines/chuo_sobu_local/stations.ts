@@ -315,8 +315,8 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "name": "代々木",
     "nameKana": "よよぎ",
     "nameEn": "Yoyogi",
-    "lat": 35.6845,
-    "lng": 139.70203,
+    "lat": 35.6835,
+    "lng": 139.7022,
     "transfers": [
       "JR山手線",
       "都営大江戸線"
@@ -1149,8 +1149,8 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "name": "千葉",
     "nameKana": "ちば",
     "nameEn": "Chiba",
-    "lat": 35.6138757,
-    "lng": 140.1128979,
+    "lat": 35.61343,
+    "lng": 140.11371,
     "transfers": [
       "JR総武本線",
       "JR総武快速線",

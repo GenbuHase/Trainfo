@@ -22,6 +22,46 @@ module.exports = {
       "maxTimeDiff": 360
     },
     {
+      "name": "外房線 -> 内房線 (蘇我直通)",
+      "lineA": "sotobo",
+      "lineB": "uchibo",
+      "stationA": "SB-03",
+      "stationB": "UB-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 480
+    },
+    {
+      "name": "内房線 -> 外房線 (蘇我直通)",
+      "lineA": "uchibo",
+      "lineB": "sotobo",
+      "stationA": "UB-01",
+      "stationB": "SB-03",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 480
+    },
+    {
+      "name": "中央・総武線各駅停車 -> 外房線 (千葉直通)",
+      "lineA": "chuo_sobu_local",
+      "lineB": "sotobo",
+      "stationA": "JB-39",
+      "stationB": "SB-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "外房線 -> 中央・総武線各駅停車 (千葉直通)",
+      "lineA": "sotobo",
+      "lineB": "chuo_sobu_local",
+      "stationA": "SB-01",
+      "stationB": "JB-39",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600
+    },
+    {
       "name": "外房線 -> 内房線 (安房鴨川直通)",
       "lineA": "sotobo",
       "lineB": "uchibo",
