@@ -387,10 +387,10 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
 };
 
 export const AREA_INFO: Record<RegionArea, { name: string; icon: string }> = {
-  kanto: { name: '関東（首都圏・北関東）', icon: '🗼' },
-  koshinetsu: { name: '甲信越（新潟・長野・山梨）', icon: '🏔️' },
-  tohoku: { name: '東北（福島・山形・秋田）', icon: '❄️' },
-  tokai: { name: '東海（静岡方面）', icon: '🌊' },
+  kanto: { name: '関東（首都圏・北関東）', icon: '' },
+  koshinetsu: { name: '甲信越（新潟・長野・山梨）', icon: '' },
+  tohoku: { name: '東北（福島・山形・秋田）', icon: '' },
+  tokai: { name: '東海（静岡方面）', icon: '' },
 };
 
 export const AREA_DISPLAY_ORDER: RegionArea[] = ['kanto', 'koshinetsu', 'tohoku', 'tokai'];
