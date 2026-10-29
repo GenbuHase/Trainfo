@@ -10884,8 +10884,6 @@
     ],
     "trainId": "39527",
     "customOrigin": "東京",
-    "throughTripId": "WD_OUT_JT-21_1023_39527",
-    "throughLineId": "ito",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JT-01",
@@ -10894,7 +10892,9 @@
       "coupledTrainNumber": "4021M",
       "coupledCars": 5,
       "coupledDestination": "修善寺"
-    }
+    },
+    "throughTripId": "WD_OUT_JT-21_1023_39527",
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_JT-01_0900_41930",
@@ -11038,8 +11038,6 @@
     ],
     "trainId": "41930",
     "customOrigin": "東京",
-    "throughTripId": "WD_OUT_CA-00_1025_41930",
-    "throughLineId": "tokaido_shizuoka",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-01",
@@ -11048,7 +11046,9 @@
       "coupledTrainNumber": "3021M",
       "coupledCars": 9,
       "coupledDestination": "伊豆急下田"
-    }
+    },
+    "throughTripId": "WD_OUT_CA-00_1025_41930",
+    "throughLineId": "tokaido_shizuoka"
   },
   {
     "tripId": "WD_INB_JT-16_0900_34415",
@@ -18361,8 +18361,6 @@
     ],
     "trainId": "39532",
     "customOrigin": "東京",
-    "throughTripId": "WD_OUT_JT-21_1323_39532",
-    "throughLineId": "ito",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JT-01",
@@ -18371,7 +18369,9 @@
       "coupledTrainNumber": "4029M",
       "coupledCars": 5,
       "coupledDestination": "修善寺"
-    }
+    },
+    "throughTripId": "WD_OUT_JT-21_1323_39532",
+    "throughLineId": "ito"
   },
   {
     "tripId": "WD_OUT_JT-01_1200_41932",
@@ -18515,8 +18515,6 @@
     ],
     "trainId": "41932",
     "customOrigin": "東京",
-    "throughTripId": "WD_OUT_CA-00_1325_41932",
-    "throughLineId": "tokaido_shizuoka",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-01",
@@ -18525,7 +18523,9 @@
       "coupledTrainNumber": "3029M",
       "coupledCars": 9,
       "coupledDestination": "伊豆急下田"
-    }
+    },
+    "throughTripId": "WD_OUT_CA-00_1325_41932",
+    "throughLineId": "tokaido_shizuoka"
   },
   {
     "tripId": "WD_OUT_JT-05_1201_33395",
@@ -22399,8 +22399,6 @@
       }
     ],
     "trainId": "31146",
-    "prevTripId": "WD_INB_JT-26_1305_31146",
-    "prevLineId": "ito",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JT-21",
@@ -22409,7 +22407,10 @@
       "coupledTrainNumber": "4024M",
       "coupledCars": 5,
       "coupledDestination": "東京"
-    }
+    },
+    "prevTripId": "WD_INB_JT-26_1305_31146",
+    "prevLineId": "ito",
+    "customDestination": "東京"
   },
   {
     "tripId": "WD_INB_JT-21_1332_41933",
@@ -22552,8 +22553,6 @@
       }
     ],
     "trainId": "41933",
-    "prevTripId": "WD_INB_CA-02_1304_41933",
-    "prevLineId": "tokaido_shizuoka",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-21",
@@ -22562,7 +22561,10 @@
       "coupledTrainNumber": "3024M",
       "coupledCars": 9,
       "coupledDestination": "東京"
-    }
+    },
+    "prevTripId": "WD_INB_CA-02_1304_41933",
+    "prevLineId": "tokaido_shizuoka",
+    "customDestination": "東京"
   },
   {
     "tripId": "WD_INB_JT-03_1335_7162",
@@ -29619,8 +29621,6 @@
       }
     ],
     "trainId": "31151",
-    "prevTripId": "WD_INB_JT-26_1602_31151",
-    "prevLineId": "ito",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JT-21",
@@ -29629,7 +29629,10 @@
       "coupledTrainNumber": "4030M",
       "coupledCars": 5,
       "coupledDestination": "東京"
-    }
+    },
+    "prevTripId": "WD_INB_JT-26_1602_31151",
+    "prevLineId": "ito",
+    "customDestination": "東京"
   },
   {
     "tripId": "WD_INB_JT-21_1629_41935",
@@ -29772,8 +29775,6 @@
       }
     ],
     "trainId": "41935",
-    "prevTripId": "WD_INB_CA-02_1606_41935",
-    "prevLineId": "tokaido_shizuoka",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-21",
@@ -29782,7 +29783,10 @@
       "coupledTrainNumber": "3030M",
       "coupledCars": 9,
       "coupledDestination": "東京"
-    }
+    },
+    "prevTripId": "WD_INB_CA-02_1606_41935",
+    "prevLineId": "tokaido_shizuoka",
+    "customDestination": "東京"
   },
   {
     "tripId": "WD_OUT_JT-01_1630_10108",
@@ -56385,8 +56389,6 @@
     ],
     "trainId": "39527",
     "customOrigin": "東京",
-    "throughTripId": "HD_OUT_JT-21_1023_39527",
-    "throughLineId": "ito",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JT-01",
@@ -56395,7 +56397,9 @@
       "coupledTrainNumber": "4021M",
       "coupledCars": 5,
       "coupledDestination": "修善寺"
-    }
+    },
+    "throughTripId": "HD_OUT_JT-21_1023_39527",
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_JT-01_0900_41930",
@@ -56539,8 +56543,6 @@
     ],
     "trainId": "41930",
     "customOrigin": "東京",
-    "throughTripId": "HD_OUT_CA-00_1025_41930",
-    "throughLineId": "tokaido_shizuoka",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-01",
@@ -56549,7 +56551,9 @@
       "coupledTrainNumber": "3021M",
       "coupledCars": 9,
       "coupledDestination": "伊豆急下田"
-    }
+    },
+    "throughTripId": "HD_OUT_CA-00_1025_41930",
+    "throughLineId": "tokaido_shizuoka"
   },
   {
     "tripId": "HD_OUT_JT-01_0902_34291",
@@ -60229,8 +60233,6 @@
     ],
     "trainId": "39529",
     "customOrigin": "東京",
-    "throughTripId": "HD_OUT_JT-21_1154_39529",
-    "throughLineId": "ito",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JT-01",
@@ -60239,7 +60241,9 @@
       "coupledTrainNumber": "8077M",
       "coupledCars": 5,
       "coupledDestination": "修善寺"
-    }
+    },
+    "throughTripId": "HD_OUT_JT-21_1154_39529",
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_JT-01_1030_39530",
@@ -60528,8 +60532,6 @@
     ],
     "trainId": "41931",
     "customOrigin": "東京",
-    "throughTripId": "HD_OUT_CA-00_1156_41931",
-    "throughLineId": "tokaido_shizuoka",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-01",
@@ -60538,7 +60540,9 @@
       "coupledTrainNumber": "9027M",
       "coupledCars": 9,
       "coupledDestination": "伊豆急下田"
-    }
+    },
+    "throughTripId": "HD_OUT_CA-00_1156_41931",
+    "throughLineId": "tokaido_shizuoka"
   },
   {
     "tripId": "HD_OUT_JT-05_1031_33357",
@@ -64436,8 +64440,6 @@
     ],
     "trainId": "39532",
     "customOrigin": "東京",
-    "throughTripId": "HD_OUT_JT-21_1323_39532",
-    "throughLineId": "ito",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JT-01",
@@ -64446,7 +64448,9 @@
       "coupledTrainNumber": "4029M",
       "coupledCars": 5,
       "coupledDestination": "修善寺"
-    }
+    },
+    "throughTripId": "HD_OUT_JT-21_1323_39532",
+    "throughLineId": "ito"
   },
   {
     "tripId": "HD_OUT_JT-01_1200_41932",
@@ -64590,8 +64594,6 @@
     ],
     "trainId": "41932",
     "customOrigin": "東京",
-    "throughTripId": "HD_OUT_CA-00_1325_41932",
-    "throughLineId": "tokaido_shizuoka",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-01",
@@ -64600,7 +64602,9 @@
       "coupledTrainNumber": "3029M",
       "coupledCars": 9,
       "coupledDestination": "伊豆急下田"
-    }
+    },
+    "throughTripId": "HD_OUT_CA-00_1325_41932",
+    "throughLineId": "tokaido_shizuoka"
   },
   {
     "tripId": "HD_OUT_JT-05_1201_33396",
@@ -68292,8 +68296,6 @@
       }
     ],
     "trainId": "31146",
-    "prevTripId": "HD_INB_JT-26_1305_31146",
-    "prevLineId": "ito",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JT-21",
@@ -68302,7 +68304,10 @@
       "coupledTrainNumber": "4024M",
       "coupledCars": 5,
       "coupledDestination": "東京"
-    }
+    },
+    "prevTripId": "HD_INB_JT-26_1305_31146",
+    "prevLineId": "ito",
+    "customDestination": "東京"
   },
   {
     "tripId": "HD_INB_JT-21_1332_41933",
@@ -68445,8 +68450,6 @@
       }
     ],
     "trainId": "41933",
-    "prevTripId": "HD_INB_CA-02_1304_41933",
-    "prevLineId": "tokaido_shizuoka",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-21",
@@ -68455,7 +68458,10 @@
       "coupledTrainNumber": "3024M",
       "coupledCars": 9,
       "coupledDestination": "東京"
-    }
+    },
+    "prevTripId": "HD_INB_CA-02_1304_41933",
+    "prevLineId": "tokaido_shizuoka",
+    "customDestination": "東京"
   },
   {
     "tripId": "HD_INB_JT-16_1335_34314",
@@ -72340,8 +72346,6 @@
       }
     ],
     "trainId": "31149",
-    "prevTripId": "HD_INB_JT-26_1441_31149",
-    "prevLineId": "ito",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JT-21",
@@ -72350,7 +72354,10 @@
       "coupledTrainNumber": "8078M",
       "coupledCars": 5,
       "coupledDestination": "東京"
-    }
+    },
+    "prevTripId": "HD_INB_JT-26_1441_31149",
+    "prevLineId": "ito",
+    "customDestination": "東京"
   },
   {
     "tripId": "HD_INB_JT-21_1508_41934",
@@ -72493,8 +72500,6 @@
       }
     ],
     "trainId": "41934",
-    "prevTripId": "HD_INB_CA-02_1445_41934",
-    "prevLineId": "tokaido_shizuoka",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-21",
@@ -72503,7 +72508,10 @@
       "coupledTrainNumber": "9028M",
       "coupledCars": 9,
       "coupledDestination": "東京"
-    }
+    },
+    "prevTripId": "HD_INB_CA-02_1445_41934",
+    "prevLineId": "tokaido_shizuoka",
+    "customDestination": "東京"
   },
   {
     "tripId": "HD_INB_JT-21_1508_31148",
@@ -76035,8 +76043,6 @@
       }
     ],
     "trainId": "31151",
-    "prevTripId": "HD_INB_JT-26_1602_31151",
-    "prevLineId": "ito",
     "coupling": {
       "role": "PRIMARY",
       "fromStationId": "JT-21",
@@ -76045,7 +76051,10 @@
       "coupledTrainNumber": "4030M",
       "coupledCars": 5,
       "coupledDestination": "東京"
-    }
+    },
+    "prevTripId": "HD_INB_JT-26_1602_31151",
+    "prevLineId": "ito",
+    "customDestination": "東京"
   },
   {
     "tripId": "HD_INB_JT-21_1629_41935",
@@ -76188,8 +76197,6 @@
       }
     ],
     "trainId": "41935",
-    "prevTripId": "HD_INB_CA-02_1606_41935",
-    "prevLineId": "tokaido_shizuoka",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JT-21",
@@ -76198,7 +76205,10 @@
       "coupledTrainNumber": "3030M",
       "coupledCars": 9,
       "coupledDestination": "東京"
-    }
+    },
+    "prevTripId": "HD_INB_CA-02_1606_41935",
+    "prevLineId": "tokaido_shizuoka",
+    "customDestination": "東京"
   },
   {
     "tripId": "HD_OUT_JT-05_1630_33368",

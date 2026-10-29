@@ -1,4 +1,4 @@
-import type { LineDefinition, LineId, Station, TrackSegment, TrainTypeConfig, TimetableTrip, StationTimetableStore, CustomTrainTypeConfig } from '../types';
+import type { LineDefinition, LineId, RegionArea, Station, TrackSegment, TrainTypeConfig, TimetableTrip, StationTimetableStore, CustomTrainTypeConfig } from '../types';
 import { tojoLine } from './lines/tojo';
 import { ogoseLine } from './lines/ogose';
 import { saikyoLine } from './lines/saikyo';
@@ -88,76 +88,89 @@ import { hanzomonLine } from './lines/hanzomon';
 import { ginzaLine } from './lines/ginza';
 import { nambokuLine } from './lines/namboku';
 import { tozaiLine } from './lines/tozai';
+import { yamanoteLine } from './lines/yamanote';
+import { keiyoLine } from './lines/keiyo';
+import { sotoboLine } from './lines/sotobo';
+import { sobuMainLine } from './lines/sobu_main';
+import { naritaLine } from './lines/narita';
+import { toganeLine } from './lines/togane';
+import { kururiLine } from './lines/kururi';
+import { chuoSobuLocalLine } from './lines/chuo_sobu_local';
+import { keihinTohokuNegishiLine } from './lines/keihin_tohoku_negishi';
+import { yokohamaLine } from './lines/yokohama';
+import { nambuLine } from './lines/nambu';
+import { tsurumiLine } from './lines/tsurumi';
+import { uchiboLine } from './lines/uchibo';
+
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
 export const LINES_REGISTRY: Record<string, LineDefinition> = {
-  tojo: tojoLine,
-  ogose: ogoseLine,
-  saikyo: saikyoLine,
-  kawagoe: kawagoeLine,
-  rinkai: rinkaiLine,
-  yurakucho: yurakuchoLine,
-  fukutoshin: fukutoshinLine,
-  chiyoda: chiyodaLine,
-  hibiya: hibiyaLine,
-  marunouchi: marunouchiLine,
-  hanzomon: hanzomonLine,
-  ginza: ginzaLine,
-  namboku: nambokuLine,
-  tozai: tozaiLine,
-  joban_local: jobanLocalLine,
-  joban_rapid: jobanRapidLine,
-  joban_toride_iwaki: jobanTorideIwakiLine,
-  joban_iwaki_sendai: jobanIwakiSendaiLine,
   tohoku_shinkansen: tohokuShinkansenLine,
   joetsu_shinkansen: joetsuShinkansenLine,
+  yamagata_shinkansen: yamagataShinkansenLine,
+  akita_shinkansen: akitaShinkansenLine,
+  hokuriku_shinkansen: hokurikuShinkansenLine,
+  yamanote: yamanoteLine,
+  keihin_tohoku_negishi: keihinTohokuNegishiLine,
+  chuo: chuoLine,
+  chuo_sobu_local: chuoSobuLocalLine,
+  saikyo: saikyoLine,
+  musashino: musashinoLine,
+  keiyo: keiyoLine,
+  ueno_tokyo: uenoTokyoLine,
+  shonan_shinjuku: shonanShinjukuLine,
   tokaido: tokaidoLine,
-  tokaido_shizuoka: tokaidoShizuokaLine,
-  ito: itoLine,
   yokosuka: yokosukaLine,
   sobu_rapid: sobuRapidLine,
   utsunomiya: utsunomiyaLine,
   takasaki: takasakiLine,
-  shonan_shinjuku: shonanShinjukuLine,
-  ueno_tokyo: uenoTokyoLine,
+  ito: itoLine,
+  joban_rapid: jobanRapidLine,
+  joban_local: jobanLocalLine,
+  joban_toride_iwaki: jobanTorideIwakiLine,
+  joban_iwaki_sendai: jobanIwakiSendaiLine,
+  yokohama: yokohamaLine,
+  nambu: nambuLine,
+  tsurumi: tsurumiLine,
+  sotetsu_jr_direct: sotetsuJrDirectLine,
+  kawagoe: kawagoeLine,
+  hachiko: hachikoLine,
+  ome: omeLine,
+  itsukaichi: itsukaichiLine,
+  sobu_main: sobuMainLine,
+  narita: naritaLine,
+  sotobo: sotoboLine,
+  uchibo: uchiboLine,
+  togane: toganeLine,
+  kururi: kururiLine,
   ryomo: ryomoLine,
   joetsu: joetsuLine,
-  shinetsu_naoetsu_niigata: shinetsuNaoetsuNiigataLine,
+  chuo_main: chuoMainLine,
+  shinonoi: shinonoiLine,
+  oito_east: oitoEastLine,
   shinetsu_takasaki_yokokawa: shinetsuTakasakiYokokawaLine,
+  shinetsu_naoetsu_niigata: shinetsuNaoetsuNiigataLine,
   hakushin: hakushinLine,
   uetsu_main: uetsuMainLine,
+  ou_fukushima_shinjo: ouFukushimaShinjoLine,
+  ou_shinjo_omagari: ouShinjoOmagariLine,
+  ou_omagari_akita: ouOmagariAkitaLine,
+  ou_akita_aomori: ouAkitaAomoriLine,
   tadami: tadamiLine,
   banetsu_west: banetsuWestLine,
   banetsu_east: banetsuEastLine,
-  hokuriku_shinkansen: hokurikuShinkansenLine,
-  myoko_haneuma: myokoHaneumaLine,
-  nihonkai_hisui: nihonkaiHisuiLine,
-  hokuhoku: hokuhokuLine,
-  kita_shinano: kitaShinanoLine,
-  seibu_ikebukuro: seibuIkebukuroLine,
-
-  seibu_yurakucho: seibuYurakuchoLine,
-  tokyu_toyoko: tokyuToyokoLine,
-  minatomirai: minatomiraiLine,
-  tokyu_shin_yokohama: tokyuShinYokohamaLine,
-  sotetsu_shin_yokohama: sotetsuShinYokohamaLine,
-  sotetsu_main: sotetsuMainLine,
-  sotetsu_izumino: sotetsuIzuminoLine,
-  sotetsu_jr_direct: sotetsuJrDirectLine,
-  hachiko: hachikoLine,
-  musashino: musashinoLine,
-  tsukuba_express: tsukubaExpressLine,
-  chuo: chuoLine,
-  chuo_main: chuoMainLine,
-  ome: omeLine,
-  itsukaichi: itsukaichiLine,
-  chichibu: chichibuLine,
-  shinonoi: shinonoiLine,
-  oito_east: oitoEastLine,
+  tokaido_shizuoka: tokaidoShizuokaLine,
+  gotemba: gotembaLine,
   oito_west: oitoWestLine,
-  odakyu_odawara: odakyuOdawaraLine,
-  odakyu_enoshima: odakyuEnoshimaLine,
-  odakyu_tama: odakyuTamaLine,
+  ginza: ginzaLine,
+  marunouchi: marunouchiLine,
+  hibiya: hibiyaLine,
+  tozai: tozaiLine,
+  chiyoda: chiyodaLine,
+  yurakucho: yurakuchoLine,
+  hanzomon: hanzomonLine,
+  namboku: nambokuLine,
+  fukutoshin: fukutoshinLine,
   tobu_skytree: tobuSkytreeLine,
   tobu_isesaki: tobuIsesakiLine,
   tobu_kameido: tobuKameidoLine,
@@ -169,23 +182,42 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tobu_utsunomiya: tobuUtsunomiyaLine,
   tobu_kinugawa: tobuKinugawaLine,
   tobu_urban_park: tobuUrbanParkLine,
-  yagan: yaganLine,
-  aizu: aizuLine,
-  yamagata_shinkansen: yamagataShinkansenLine,
-  akita_shinkansen: akitaShinkansenLine,
-  ou_fukushima_shinjo: ouFukushimaShinjoLine,
-  ou_shinjo_omagari: ouShinjoOmagariLine,
-  ou_omagari_akita: ouOmagariAkitaLine,
-  ou_akita_aomori: ouAkitaAomoriLine,
+  tojo: tojoLine,
+  ogose: ogoseLine,
+  seibu_ikebukuro: seibuIkebukuroLine,
+  seibu_yurakucho: seibuYurakuchoLine,
+  odakyu_odawara: odakyuOdawaraLine,
+  odakyu_enoshima: odakyuEnoshimaLine,
+  odakyu_tama: odakyuTamaLine,
+  tokyu_toyoko: tokyuToyokoLine,
+  tokyu_shin_yokohama: tokyuShinYokohamaLine,
+  minatomirai: minatomiraiLine,
+  sotetsu_shin_yokohama: sotetsuShinYokohamaLine,
+  sotetsu_main: sotetsuMainLine,
+  sotetsu_izumino: sotetsuIzuminoLine,
+  tsukuba_express: tsukubaExpressLine,
+  rinkai: rinkaiLine,
+  chichibu: chichibuLine,
   fujikyu: fujikyuLine,
-  gotemba: gotembaLine,
   izukyu: izukyuLine,
   izuhakone_sunzu: izuhakoneSunzuLine,
+  yagan: yaganLine,
+  aizu: aizuLine,
+  hokuhoku: hokuhokuLine,
+  myoko_haneuma: myokoHaneumaLine,
+  nihonkai_hisui: nihonkaiHisuiLine,
+  kita_shinano: kitaShinanoLine,
 };
 
 // 登録されている全路線の配列を取得
 export function getAllLines(): LineDefinition[] {
-  return Object.values(LINES_REGISTRY);
+  const lines = Object.values(LINES_REGISTRY);
+  for (const line of lines) {
+    if (!line.area && LINE_AREA_MAP[line.id]) {
+      line.area = LINE_AREA_MAP[line.id];
+    }
+  }
+  return lines;
 }
 
 export interface OperatorLinesGroup {
@@ -194,25 +226,25 @@ export interface OperatorLinesGroup {
 }
 
 // 運行会社ごとの標準表示順序
-const OPERATOR_DISPLAY_ORDER = [
-  '東京メトロ',
-  '東武鉄道',
-  '野岩鉄道',
-  '会津鉄道',
-  '西武鉄道',
-  '東急電鉄',
-  '横浜高速鉄道',
-  '相模鉄道',
-  '小田急電鉄',
-  '富士山麓電気鉄道',
-  '伊豆急行',
-  '伊豆箱根鉄道',
+export const OPERATOR_DISPLAY_ORDER = [
   'JR東日本',
   'JR東海',
   'JR西日本',
-  '東京臨海高速鉄道',
+  '東京メトロ',
+  '東武鉄道',
+  '西武鉄道',
+  '小田急電鉄',
+  '東急電鉄',
+  '横浜高速鉄道',
+  '相模鉄道',
   '首都圏新都市鉄道',
+  '東京臨海高速鉄道',
   '秩父鉄道',
+  '富士山麓電気鉄道',
+  '伊豆急行',
+  '伊豆箱根鉄道',
+  '野岩鉄道',
+  '会津鉄道',
   '北越急行',
   'えちごトキめき鉄道',
   'しなの鉄道',
@@ -248,6 +280,155 @@ export function getLinesGroupedByOperator(): OperatorLinesGroup[] {
   }));
 }
 
+// エリアマッピング
+export const LINE_AREA_MAP: Record<string, RegionArea> = {
+  tohoku_shinkansen: 'tohoku',
+  joetsu_shinkansen: 'koshinetsu',
+  yamagata_shinkansen: 'tohoku',
+  akita_shinkansen: 'tohoku',
+  hokuriku_shinkansen: 'koshinetsu',
+  yamanote: 'kanto',
+  keihin_tohoku_negishi: 'kanto',
+  chuo: 'kanto',
+  chuo_sobu_local: 'kanto',
+  saikyo: 'kanto',
+  musashino: 'kanto',
+  keiyo: 'kanto',
+  ueno_tokyo: 'kanto',
+  shonan_shinjuku: 'kanto',
+  tokaido: 'kanto',
+  yokosuka: 'kanto',
+  sobu_rapid: 'kanto',
+  utsunomiya: 'kanto',
+  takasaki: 'kanto',
+  ito: 'tokai',
+  joban_rapid: 'kanto',
+  joban_local: 'kanto',
+  joban_toride_iwaki: 'tohoku',
+  joban_iwaki_sendai: 'tohoku',
+  yokohama: 'kanto',
+  nambu: 'kanto',
+  tsurumi: 'kanto',
+  sotetsu_jr_direct: 'kanto',
+  kawagoe: 'kanto',
+  hachiko: 'kanto',
+  ome: 'kanto',
+  itsukaichi: 'kanto',
+  sobu_main: 'kanto',
+  narita: 'kanto',
+  sotobo: 'kanto',
+  uchibo: 'kanto',
+  togane: 'kanto',
+  kururi: 'kanto',
+  ryomo: 'kanto',
+  joetsu: 'koshinetsu',
+  chuo_main: 'koshinetsu',
+  shinonoi: 'koshinetsu',
+  oito_east: 'koshinetsu',
+  shinetsu_takasaki_yokokawa: 'koshinetsu',
+  shinetsu_naoetsu_niigata: 'koshinetsu',
+  hakushin: 'koshinetsu',
+  uetsu_main: 'koshinetsu',
+  ou_fukushima_shinjo: 'tohoku',
+  ou_shinjo_omagari: 'tohoku',
+  ou_omagari_akita: 'tohoku',
+  ou_akita_aomori: 'tohoku',
+  tadami: 'tohoku',
+  banetsu_west: 'tohoku',
+  banetsu_east: 'tohoku',
+  tokaido_shizuoka: 'tokai',
+  gotemba: 'tokai',
+  oito_west: 'koshinetsu',
+  ginza: 'kanto',
+  marunouchi: 'kanto',
+  hibiya: 'kanto',
+  tozai: 'kanto',
+  chiyoda: 'kanto',
+  yurakucho: 'kanto',
+  hanzomon: 'kanto',
+  namboku: 'kanto',
+  fukutoshin: 'kanto',
+  tobu_skytree: 'kanto',
+  tobu_isesaki: 'kanto',
+  tobu_kameido: 'kanto',
+  tobu_daishi: 'kanto',
+  tobu_sano: 'kanto',
+  tobu_koizumi: 'kanto',
+  tobu_kiryu: 'kanto',
+  tobu_nikko: 'kanto',
+  tobu_utsunomiya: 'kanto',
+  tobu_kinugawa: 'kanto',
+  tobu_urban_park: 'kanto',
+  tojo: 'kanto',
+  ogose: 'kanto',
+  seibu_ikebukuro: 'kanto',
+  seibu_yurakucho: 'kanto',
+  odakyu_odawara: 'kanto',
+  odakyu_enoshima: 'kanto',
+  odakyu_tama: 'kanto',
+  tokyu_toyoko: 'kanto',
+  tokyu_shin_yokohama: 'kanto',
+  minatomirai: 'kanto',
+  sotetsu_shin_yokohama: 'kanto',
+  sotetsu_main: 'kanto',
+  sotetsu_izumino: 'kanto',
+  tsukuba_express: 'kanto',
+  rinkai: 'kanto',
+  chichibu: 'kanto',
+  fujikyu: 'koshinetsu',
+  izukyu: 'tokai',
+  izuhakone_sunzu: 'tokai',
+  yagan: 'tohoku',
+  aizu: 'tohoku',
+  hokuhoku: 'koshinetsu',
+  myoko_haneuma: 'koshinetsu',
+  nihonkai_hisui: 'koshinetsu',
+  kita_shinano: 'koshinetsu',
+};
+
+export const AREA_INFO: Record<RegionArea, { name: string; icon: string }> = {
+  kanto: { name: '関東（首都圏・北関東）', icon: '' },
+  koshinetsu: { name: '甲信越（新潟・長野・山梨）', icon: '' },
+  tohoku: { name: '東北（福島・山形・秋田）', icon: '' },
+  tokai: { name: '東海（静岡方面）', icon: '' },
+};
+
+export const AREA_DISPLAY_ORDER: RegionArea[] = ['kanto', 'koshinetsu', 'tohoku', 'tokai'];
+
+export interface AreaLinesGroup {
+  area: RegionArea;
+  title: string;
+  icon: string;
+  lines: LineDefinition[];
+}
+
+// 運行エリアごとにグループ化した路線リストを取得
+export function getLinesGroupedByArea(): AreaLinesGroup[] {
+  const allLines = getAllLines();
+  const map = new Map<RegionArea, LineDefinition[]>();
+  for (const a of AREA_DISPLAY_ORDER) {
+    map.set(a, []);
+  }
+
+  for (const line of allLines) {
+    const area = line.area || LINE_AREA_MAP[line.id] || 'kanto';
+    const list = map.get(area);
+    if (list) {
+      list.push(line);
+    } else {
+      map.set(area, [line]);
+    }
+  }
+
+  return AREA_DISPLAY_ORDER.map((area) => ({
+    area,
+    title: AREA_INFO[area].name,
+    icon: AREA_INFO[area].icon,
+    lines: map.get(area) || [],
+  }));
+}
+
+
 // 路線IDによる路線定義の取得
 export function getLine(lineId: LineId): LineDefinition | undefined {
   return LINES_REGISTRY[lineId];
@@ -255,7 +436,7 @@ export function getLine(lineId: LineId): LineDefinition | undefined {
 
 // 選択された路線（または全路線）の駅リストを取得（駅ID重複を除外してユニーク化）
 export function getCombinedStations(selectedLineIds?: LineId[]): Station[] {
-  const lines = selectedLineIds && selectedLineIds.length > 0
+  const lines = selectedLineIds !== undefined
     ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
     : getAllLines();
 
@@ -274,7 +455,7 @@ export function getCombinedStations(selectedLineIds?: LineId[]): Station[] {
 
 // 選択された路線（または全路線）の線路セグメントを取得
 export function getCombinedTrackSegments(selectedLineIds?: LineId[]): TrackSegment[] {
-  const lines = selectedLineIds && selectedLineIds.length > 0
+  const lines = selectedLineIds !== undefined
     ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
     : getAllLines();
 
@@ -283,7 +464,7 @@ export function getCombinedTrackSegments(selectedLineIds?: LineId[]): TrackSegme
 
 // 選択された路線（または全路線）の列車種別設定を取得
 export function getCombinedTrainTypes(selectedLineIds?: LineId[]): Record<string, TrainTypeConfig> {
-  const lines = selectedLineIds && selectedLineIds.length > 0
+  const lines = selectedLineIds !== undefined
     ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
     : getAllLines();
 
@@ -368,7 +549,7 @@ export function getTrainTypeConfig(
 
 // 選択された路線（または全路線）のダイヤ（全列車）を取得
 export function getCombinedGlobalTimetable(selectedLineIds?: LineId[]): TimetableTrip[] {
-  const lines = selectedLineIds && selectedLineIds.length > 0
+  const lines = selectedLineIds !== undefined
     ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
     : getAllLines();
 
@@ -377,7 +558,7 @@ export function getCombinedGlobalTimetable(selectedLineIds?: LineId[]): Timetabl
 
 // 選択された路線（または全路線）の各駅時刻表ストアを取得
 export function getCombinedStationTimetables(selectedLineIds?: LineId[]): StationTimetableStore {
-  const lines = selectedLineIds && selectedLineIds.length > 0
+  const lines = selectedLineIds !== undefined
     ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
     : getAllLines();
 

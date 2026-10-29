@@ -260,7 +260,7 @@ export function calculateActiveTrains(
     if (trip.stops.length < 2) continue;
 
     const lineId: LineId = trip.lineId || 'tojo';
-    if (simState.selectedLineIds && simState.selectedLineIds.length > 0 && !simState.selectedLineIds.includes(lineId)) {
+    if (simState.selectedLineIds && !simState.selectedLineIds.includes(lineId)) {
       continue;
     }
 

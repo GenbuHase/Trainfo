@@ -52,8 +52,8 @@ export const YOKOSUKA_STATIONS: Station[] = [
     "name": "新橋",
     "nameKana": "しんばし",
     "nameEn": "Shimbashi",
-    "lat": 35.6662033,
-    "lng": 139.7585094,
+    "lat": 35.666649,
+    "lng": 139.758717,
     "transfers": [
       "JR山手線",
       "JR京浜東北線",

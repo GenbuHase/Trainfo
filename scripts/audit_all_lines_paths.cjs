@@ -56,7 +56,11 @@ function extractTrackSegments(filePath) {
   try {
     return JSON.parse(content.substring(jsonStart, jsonEnd + 1));
   } catch (e) {
-    return null;
+    try {
+      return new Function('return ' + content.substring(jsonStart, jsonEnd + 1))();
+    } catch (e2) {
+      return null;
+    }
   }
 }
 

@@ -236,6 +236,22 @@ function resolveStationTimetableData(
   };
 }
 
+/**
+ * 特定駅において運行・発車便が存在する進行方向（上り/下り）を判定
+ * 終着駅や起点駅、支線末端などで片方向しか運行がない場合のUI制御に使用
+ */
+export function getStationAvailableDirections(
+  stationId: string,
+  lineId?: LineId
+): { hasInbound: boolean; hasOutbound: boolean } {
+  const wd = resolveStationTimetableData(stationId, false, lineId);
+  const hd = resolveStationTimetableData(stationId, true, lineId);
+  return {
+    hasInbound: wd.targetData.inbound.length > 0 || hd.targetData.inbound.length > 0,
+    hasOutbound: wd.targetData.outbound.length > 0 || hd.targetData.outbound.length > 0,
+  };
+}
+
 // 特定駅の時刻表一覧（直近の発車情報）を取得
 export function getStationDepartures(
   stationId: string,

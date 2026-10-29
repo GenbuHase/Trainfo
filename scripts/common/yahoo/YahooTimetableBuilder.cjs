@@ -648,16 +648,22 @@ class YahooTimetableBuilder {
             const curPrefix = cur.station.id.replace(/-\d+$/, '');
             const nextPrefix = next.station.id.replace(/-\d+$/, '');
 
-            if (curPrefix === nextPrefix && cur.station.number && next.station.number) {
+            // IDの末尾番号（例: JN-01 の 1, JN-51 の 51）の差をチェック
+            const curIdNum = parseInt(cur.station.id.split('-')[1], 10);
+            const nextIdNum = parseInt(next.station.id.split('-')[1], 10);
+            const idDiff = Math.abs(nextIdNum - curIdNum);
+
+            // 本線と支線跨ぎ（例: JI-05 と JI-51、JN-02 と JN-51、NR-03 と NR-36）など、ID番号が離れている場合は自動補間しない
+            if (curPrefix === nextPrefix && !isNaN(idDiff) && idDiff <= 8 && cur.station.number && next.station.number) {
               const numDiff = next.station.number - cur.station.number;
               const step = numDiff > 0 ? 1 : -1;
               const stepsCount = Math.abs(numDiff);
 
-              if (stepsCount > 1 && dep !== null && nextArr !== null) {
+              if (stepsCount > 1 && stepsCount <= 8 && dep !== null && nextArr !== null) {
                 for (let s = 1; s < stepsCount; s++) {
                   const intermediateNum = cur.station.number + s * step;
-                  const intermediateId = `${curPrefix}-${intermediateNum}`;
-                  const intermediateSt = this.stById.get(intermediateId);
+                  // stByNum を使用することでゼロ埋め形式 (JN-02) にも完全対応
+                  const intermediateSt = this.stByNum.get(intermediateNum);
                   if (intermediateSt) {
                     const ratio = s / stepsCount;
                     const passSec = Math.round(dep + (nextArr - dep) * ratio);
