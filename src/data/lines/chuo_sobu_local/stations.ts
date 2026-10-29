@@ -1149,8 +1149,8 @@ export const CHUO_SOBU_LOCAL_STATIONS: Station[] = [
     "name": "千葉",
     "nameKana": "ちば",
     "nameEn": "Chiba",
-    "lat": 35.61343,
-    "lng": 140.11371,
+    "lat": 35.61315,
+    "lng": 140.11492,
     "transfers": [
       "JR総武本線",
       "JR総武快速線",

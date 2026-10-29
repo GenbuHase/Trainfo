@@ -8,8 +8,8 @@ export const SOBU_MAIN_STATIONS: Station[] = [
     "name": "千葉",
     "nameKana": "ちば",
     "nameEn": "Chiba",
-    "lat": 35.61343,
-    "lng": 140.11371,
+    "lat": 35.61315,
+    "lng": 140.11492,
     "transfers": [
       "JR総武快速線",
       "JR中央・総武線各駅停車",

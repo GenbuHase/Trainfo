@@ -20,7 +20,6 @@ const FIXED_BOUNDARY_STATIONS = {
   '立川': [35.697956, 139.413704],
   '府中本町': [35.666195, 139.477041],
   '西船橋': [35.707438, 139.959296],
-  '千葉': [35.61343, 140.11371], // JR千葉駅公式中心（中央改札・ペリエ千葉直結、全路線共通）
   '蘇我': [35.581691, 140.130656],
   '川崎': [35.531333, 139.696894],
   '横浜': [35.465786, 139.622713],
@@ -83,14 +82,6 @@ function buildGraphFromFeatures(features, maxBridgeDist = 80) {
         addEdge(p1.key, p2.key, p1.coord, p2.coord);
       }
     }
-  }
-
-  // 3. 千葉駅構内の総武線ホーム (35.61343, 140.11371) と外房線への渡り線を明示的に接続
-  // これにより、千葉駅を起点とする外房線列車が総武線千葉駅ホームから滑らかに出発可能
-  const chibaCenterKey = getNodeKey([35.61343, 140.11371]);
-  const sotoboBranchKey = getNodeKey([35.61371, 140.11221]);
-  if (nodeCoords.has(chibaCenterKey) && nodeCoords.has(sotoboBranchKey)) {
-    addEdge(chibaCenterKey, sotoboBranchKey, [35.61343, 140.11371], [35.61371, 140.11221]);
   }
 
   return { adj, nodeCoords };

@@ -8,8 +8,8 @@ export const SOTOBO_STATIONS: Station[] = [
     "name": "千葉",
     "nameKana": "ちば",
     "nameEn": "Chiba",
-    "lat": 35.61343,
-    "lng": 140.11371,
+    "lat": 35.61259,
+    "lng": 140.11396,
     "transfers": [
       "JR総武本線",
       "JR総武快速線",
