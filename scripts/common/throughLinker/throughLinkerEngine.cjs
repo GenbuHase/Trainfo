@@ -719,15 +719,25 @@ function executeUniversalThroughLinker(options = {}) {
   }
 
   // 3. 既存の直通リンクを安全に初期化（冪等性の確保）
+  const allTripsMapForReset = new Map();
+  for (const trips of lineTrips.values()) {
+    for (const t of trips) {
+      allTripsMapForReset.set(t.tripId, t);
+    }
+  }
+
   for (const [lineId, trips] of lineTrips.entries()) {
     for (const t of trips) {
       if (targetLineIds.has(t.throughLineId)) {
         delete t.throughTripId;
         delete t.throughLineId;
       }
-      if (targetLineIds.has(t.prevLineId)) {
-        delete t.prevTripId;
-        delete t.prevLineId;
+      if (t.prevTripId) {
+        const prevTrip = allTripsMapForReset.get(t.prevTripId);
+        if (targetLineIds.has(t.prevLineId) || (prevTrip && targetLineIds.has(prevTrip.lineId))) {
+          delete t.prevTripId;
+          delete t.prevLineId;
+        }
       }
     }
   }

@@ -12,7 +12,7 @@ export const musashinoLine: LineDefinition = {
   accentColor: '#cf1225', // 京葉線ワインレッド
   defaultCars: 8,
   defaultBounds: [
-    [35.600, 139.300], // 南西（八王子・東京湾岸）
+    [35.640, 139.430], // 南西（府中本町・国立・東京湾岸）
     [35.920, 140.050], // 北東（大宮・海浜幕張）
   ],
   directionNames: {
