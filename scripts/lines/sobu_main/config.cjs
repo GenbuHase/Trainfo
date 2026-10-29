@@ -13,35 +13,50 @@ module.exports = {
       "name": "千葉",
       "yahooStationId": "22361",
       "inGroupId": null,
-      "outGroupId": "931"
+      "outGroupId": [
+        "931",
+        "831"
+      ]
     },
     {
       "id": "SM-02",
       "name": "東千葉",
       "yahooStationId": "22411",
       "inGroupId": "930",
-      "outGroupId": "931"
+      "outGroupId": [
+        "931",
+        "831"
+      ]
     },
     {
       "id": "SM-03",
       "name": "都賀",
       "yahooStationId": "22368",
       "inGroupId": "930",
-      "outGroupId": "931"
+      "outGroupId": [
+        "931",
+        "831"
+      ]
     },
     {
       "id": "SM-04",
       "name": "四街道",
       "yahooStationId": "22479",
       "inGroupId": "930",
-      "outGroupId": "931"
+      "outGroupId": [
+        "931",
+        "831"
+      ]
     },
     {
       "id": "SM-05",
       "name": "物井",
       "yahooStationId": "22465",
       "inGroupId": "930",
-      "outGroupId": "931"
+      "outGroupId": [
+        "931",
+        "831"
+      ]
     },
     {
       "id": "SM-06",
@@ -163,14 +178,19 @@ module.exports = {
       "outGroupId": null
     }
   ],
-  "stationNameAliases": {},
+  "stationNameAliases": {
+    "成田空港(鉄道)": "成田空港",
+    "空港第2ビル(鉄道)": "空港第2ビル",
+    "空港第２ビル(鉄道)": "空港第2ビル"
+  },
   "trainTypeMap": {
     "普通": "local",
     "各駅停車": "local",
     "快速": "rapid",
     "通勤快速": "rapid",
     "特急": "limitedExp",
-    "しおさい": "limitedExp"
+    "しおさい": "limitedExp",
+    "成田エクスプレス": "limitedExp"
   },
   "defaultCars": 8,
   "baseSectionSeconds": {

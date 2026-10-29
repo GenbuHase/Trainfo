@@ -28,7 +28,10 @@ module.exports = {
       "name": "成田",
       "yahooStationId": "22391",
       "inGroupId": "830",
-      "outGroupId": "831"
+      "outGroupId": [
+        "831",
+        "851"
+      ]
     },
     {
       "id": "NR-04",
@@ -206,7 +209,11 @@ module.exports = {
       "outGroupId": "841"
     }
   ],
-  "stationNameAliases": {},
+  "stationNameAliases": {
+    "空港第２ビル(鉄道)": "空港第2ビル",
+    "空港第2ビル(鉄道)": "空港第2ビル",
+    "成田空港(鉄道)": "成田空港"
+  },
   "trainTypeMap": {
     "普通": "local",
     "各駅停車": "local",
