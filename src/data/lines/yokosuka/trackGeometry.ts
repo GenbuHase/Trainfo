@@ -99,12 +99,8 @@ export const YOKOSUKA_TRACK_SEGMENTS: TrackSegment[] = [
         139.7585891
       ],
       [
-        35.6666457,
-        139.7586654
-      ],
-      [
-        35.6662033,
-        139.7585094
+        35.666649,
+        139.758717
       ]
     ]
   },
@@ -114,8 +110,8 @@ export const YOKOSUKA_TRACK_SEGMENTS: TrackSegment[] = [
     "toStationId": "JO-17",
     "coordinates": [
       [
-        35.6662033,
-        139.7585094
+        35.666649,
+        139.758717
       ],
       [
         35.6656734,
