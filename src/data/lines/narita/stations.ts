@@ -523,7 +523,7 @@ export const NARITA_STATIONS: Station[] = [
     },
     "platforms": {
       "inbound": "1",
-      "outbound": "2"
+      "outbound": "1"
     },
     "stoppingTypes": [
       "local",

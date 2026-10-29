@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import type { Station, Direction } from '../../types';
-import { getFullDayStationTimetable, formatTrainNumber } from '../../data/timetableData';
+import { getFullDayStationTimetable, formatTrainNumber, getStationAvailableDirections } from '../../data/timetableData';
 import { StationBadge } from '../Common/Badges';
 import { TRAIN_TYPES } from '../../data/trainTypes';
 import { getLine, getAlternateStations, getTrainTypeConfig } from '../../data/linesRegistry';
@@ -25,17 +25,20 @@ export const TimetableModal: React.FC = () => {
   };
 
   const line = station ? getLine(station.lineId) : undefined;
-  const isFirstStation = line ? line.stations[0]?.id === station?.id : false;
-  const isLastStation = line ? line.stations[line.stations.length - 1]?.id === station?.id : false;
+  // 該当駅で利用可能な進行方向の判定（終着駅・起点駅・支線末端などで片方向しか運行がない場合を検知）
+  const { hasInbound, hasOutbound } = useMemo(
+    () => (station ? getStationAvailableDirections(station.id, station.lineId) : { hasInbound: true, hasOutbound: true }),
+    [station]
+  );
 
-  const [directionState, setDirection] = useState<Direction>(() => (isFirstStation ? 'outbound' : 'inbound'));
+  const [directionState, setDirection] = useState<Direction>(() => (!hasOutbound ? 'inbound' : 'outbound'));
   const [isHoliday, setIsHoliday] = useState<boolean>(defaultIsHoliday);
 
-  const direction: Direction = isFirstStation
-    ? 'outbound'
-    : isLastStation
-    ? 'inbound'
-    : directionState;
+  const direction: Direction = useMemo(() => {
+    if (!hasOutbound && hasInbound) return 'inbound';
+    if (!hasInbound && hasOutbound) return 'outbound';
+    return directionState;
+  }, [hasInbound, hasOutbound, directionState]);
 
   if (!isOpen || !station) return null;
 
@@ -142,7 +145,7 @@ export const TimetableModal: React.FC = () => {
           <div className="flex rounded-lg bg-slate-100 p-0.5 font-bold">
             <button
               onClick={() => setDirection('inbound')}
-              disabled={isFirstStation}
+              disabled={!hasInbound}
               className={`px-3 py-1.5 rounded-md transition-all ${
                 direction === 'inbound' ? 'bg-white shadow-xs' : 'text-slate-500 disabled:opacity-30'
               }`}
@@ -152,7 +155,7 @@ export const TimetableModal: React.FC = () => {
             </button>
             <button
               onClick={() => setDirection('outbound')}
-              disabled={isLastStation}
+              disabled={!hasOutbound}
               className={`px-3 py-1.5 rounded-md transition-all ${
                 direction === 'outbound' ? 'bg-white shadow-xs' : 'text-slate-500 disabled:opacity-30'
               }`}

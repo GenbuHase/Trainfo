@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import type { Station, ActiveTrain, Direction } from '../../types';
 import { StationBadge, TrainTypeBadge } from '../Common/Badges';
-import { getStationDepartures, getThroughChainTripIds } from '../../data/timetableData';
+import { getStationDepartures, getThroughChainTripIds, getStationAvailableDirections } from '../../data/timetableData';
 import { STATION_MAP } from '../../data/stations';
 import { getLine, getAlternateStations } from '../../data/linesRegistry';
 import {
@@ -35,19 +35,22 @@ export const StationDetail: React.FC<StationDetailProps> = ({
 }) => {
   const line = getLine(station.lineId);
   const themeColor = line?.lineColor || '#004b97';
-  const isFirstStation = line ? line.stations[0]?.id === station.id : station.number === 1;
-  const isLastStation = line ? line.stations[line.stations.length - 1]?.id === station.id : false;
-
-  const [selectedDirectionState, setSelectedDirection] = useState<Direction>(() =>
-    isFirstStation ? 'outbound' : isLastStation ? 'inbound' : 'outbound'
+  // 該当駅で利用可能な進行方向の判定（終着駅・起点駅・支線末端などで片方向しか運行がない場合を検知）
+  const { hasInbound, hasOutbound } = useMemo(
+    () => getStationAvailableDirections(station.id, station.lineId),
+    [station.id, station.lineId]
   );
 
-  // 始発駅・終着駅の場合は自動的に進行方向を固定
-  const selectedDirection: Direction = isFirstStation
-    ? 'outbound'
-    : isLastStation
-    ? 'inbound'
-    : selectedDirectionState;
+  const [selectedDirectionState, setSelectedDirection] = useState<Direction>(() =>
+    !hasOutbound ? 'inbound' : 'outbound'
+  );
+
+  // 片方向しか存在しない駅（成田空港などの終着駅、起点駅など）は自動的に存在する方向に固定
+  const selectedDirection: Direction = useMemo(() => {
+    if (!hasOutbound && hasInbound) return 'inbound';
+    if (!hasInbound && hasOutbound) return 'outbound';
+    return selectedDirectionState;
+  }, [hasInbound, hasOutbound, selectedDirectionState]);
 
   // 同名駅（他路線）の検索（例: 東上線川越駅 <-> JR川越駅）
   const alternateStations = useMemo(
@@ -135,7 +138,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
             <div className="inline-flex rounded-lg bg-slate-100 p-0.5 text-xs font-semibold">
               <button
                 onClick={() => setSelectedDirection('inbound')}
-                disabled={isFirstStation}
+                disabled={!hasInbound}
                 className={`px-2.5 py-1 rounded-md transition-all ${
                   selectedDirection === 'inbound'
                     ? 'bg-white shadow-xs font-bold'
@@ -147,7 +150,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
               </button>
               <button
                 onClick={() => setSelectedDirection('outbound')}
-                disabled={isLastStation}
+                disabled={!hasOutbound}
                 className={`px-2.5 py-1 rounded-md transition-all ${
                   selectedDirection === 'outbound'
                     ? 'bg-white shadow-xs font-bold'
