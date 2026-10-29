@@ -1460,8 +1460,8 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "name": "大宮",
     "nameKana": "おおみや",
     "nameEn": "Omiya",
-    "lat": 35.9060944,
-    "lng": 139.6230141,
+    "lat": 35.90505,
+    "lng": 139.62491,
     "transfers": [
       "JR宇都宮線",
       "JR高崎線",

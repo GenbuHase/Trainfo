@@ -76,7 +76,7 @@ module.exports = [
       outboundShort: '蘇我方面'
     },
     defaultBounds: [[35.56, 139.76], [35.70, 140.14]],
-    n02Lines: ['京葉線', '総武線'],
+    n02Lines: ['京葉線'],
     isLoop: false,
     stations: [
       { id: 'JE-01', num: 'JE01', name: '東京', kana: 'とうきょう', en: 'Tokyo', transfers: ['JR山手線', 'JR京浜東北線', 'JR東海道線', 'JR中央線', 'JR横須賀線', 'JR総武快速線', 'JR上野東京ライン', '東北新幹線', '東海道新幹線', '東京メトロ丸ノ内線'], isMajor: true, stoppingTypes: ['local', 'rapid', 'commuter_rapid', 'limitedExp'] },
