@@ -99,11 +99,23 @@ function processLine(lineDef) {
 
     // 境界確定駅が定義されている場合は最優先で採用
     let fixedCoord = FIXED_BOUNDARY_STATIONS[st.name];
+    if (st.name === '上野' && (lineDef.lineId === 'yamanote' || lineDef.lineId === 'keihin_tohoku_negishi')) {
+      fixedCoord = [35.7137, 139.7761]; // 山手線・京浜東北線高架ホーム (日暮里迂回Uターン防止)
+    }
     if (st.name === '新宿' && lineDef.lineId === 'chuo_sobu_local') {
       fixedCoord = [35.68931, 139.70055]; // 中央・総武緩行線ホーム (西側本線上の新宿駅)
     }
+    if (st.name === '中野' && lineDef.lineId === 'chuo_sobu_local') {
+      fixedCoord = [35.70598, 139.66686]; // 中央・総武緩行線本線ホーム (側線迂回・クランクジグザグ解消)
+    }
+    if (st.name === '代々木' && lineDef.lineId === 'chuo_sobu_local') {
+      fixedCoord = [35.68387, 139.70243]; // 中央・総武緩行線本線ホーム中心 (Uターン・急屈曲解消)
+    }
     if (st.name === '新宿' && lineDef.lineId === 'yamanote') {
       fixedCoord = [35.68926, 139.70024]; // 山手線ホーム (西側本線上の新宿駅、構内逆走Uターン防止)
+    }
+    if (st.name === '代々木' && lineDef.lineId === 'yamanote') {
+      fixedCoord = [35.6845, 139.70203]; // 山手線ホーム北端
     }
 
     if (fixedCoord) {

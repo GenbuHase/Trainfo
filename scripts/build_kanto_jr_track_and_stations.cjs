@@ -26,7 +26,6 @@ const FIXED_BOUNDARY_STATIONS = {
   '大船': [35.353154, 139.531189],
   '木更津': [35.38036, 139.92599],
   '安房鴨川': [35.10702, 140.10311],
-  '代々木': [35.6845, 139.70203], // 山手線・中央総武線公式ホーム北端（対面乗換駅完全統一）
 };
 
 function getNodeKey(coord) {
@@ -82,6 +81,13 @@ function buildGraphFromFeatures(features, maxBridgeDist = 80) {
         addEdge(p1.key, p2.key, p1.coord, p2.coord);
       }
     }
+  }
+
+  // 3. 特別な近接ノード間手動ブリッジ（新宿〜代々木間の本線進入等）
+  const yoyogiNorthKey = '139.702030,35.684500';
+  const mainlineYoyogiKey = '139.702200,35.684740';
+  if (nodeCoords.has(yoyogiNorthKey) && nodeCoords.has(mainlineYoyogiKey)) {
+    addEdge(yoyogiNorthKey, mainlineYoyogiKey, nodeCoords.get(yoyogiNorthKey), nodeCoords.get(mainlineYoyogiKey));
   }
 
   return { adj, nodeCoords };
@@ -185,19 +191,55 @@ function pruneSharpSpikes(coords) {
   return pts;
 }
 
+// 点から直線分への垂直距離（メートル）
+function perpendicularDistance(p, p1, p2) {
+  const x = (p[1] - p1[1]) * 111000 * Math.cos(p1[0] * Math.PI / 180);
+  const y = (p[0] - p1[0]) * 111000;
+  const x2 = (p2[1] - p1[1]) * 111000 * Math.cos(p1[0] * Math.PI / 180);
+  const y2 = (p2[0] - p1[0]) * 111000;
+  const L = Math.hypot(x2, y2);
+  if (L === 0) return Math.hypot(x, y);
+  return Math.abs(x * y2 - y * x2) / L;
+}
+
+// Ramer-Douglas-Peucker (RDP) アルゴリズムによる微小ジッター・波打ち除去
+function ramerDouglasPeucker(points, epsilon = 3.0) {
+  if (points.length <= 2) return points;
+  let dmax = 0;
+  let index = 0;
+  const end = points.length - 1;
+  for (let i = 1; i < end; i++) {
+    const d = perpendicularDistance(points[i], points[0], points[end]);
+    if (d > dmax) {
+      index = i;
+      dmax = d;
+    }
+  }
+  if (dmax > epsilon) {
+    const recResults1 = ramerDouglasPeucker(points.slice(0, index + 1), epsilon);
+    const recResults2 = ramerDouglasPeucker(points.slice(index), epsilon);
+    return recResults1.slice(0, recResults1.length - 1).concat(recResults2);
+  } else {
+    return [points[0], points[end]];
+  }
+}
+
 function findStationNode(stName, fallbackCoord, nodeCoords, stationData, n02Lines) {
   let targetCoord = fallbackCoord;
 
-  const altName = stName.includes('ケ') ? stName.replace(/ケ/g, 'ヶ') : stName.replace(/ヶ/g, 'ケ');
-  const matches = stationData.features.filter(f =>
-    (f.properties.N02_005 === stName || f.properties.N02_005 === altName) &&
-    f.properties.N02_004 === '東日本旅客鉄道' &&
-    n02Lines.includes(f.properties.N02_003)
-  );
+  // fallbackCoord（明示的な確定座標）が指定されていない場合のみN02駅データから取得
+  if (!targetCoord) {
+    const altName = stName.includes('ケ') ? stName.replace(/ケ/g, 'ヶ') : stName.replace(/ヶ/g, 'ケ');
+    const matches = stationData.features.filter(f =>
+      (f.properties.N02_005 === stName || f.properties.N02_005 === altName) &&
+      f.properties.N02_004 === '東日本旅客鉄道' &&
+      n02Lines.includes(f.properties.N02_003)
+    );
 
-  if (matches.length > 0) {
-    const c = matches[0].geometry.coordinates[0];
-    targetCoord = [c[1], c[0]];
+    if (matches.length > 0) {
+      const c = matches[0].geometry.coordinates[0];
+      targetCoord = [c[1], c[0]];
+    }
   }
 
   let minDist = Infinity;
@@ -221,11 +263,14 @@ function buildSegmentCoordinates(fromCoord, toCoord, rawNodeCoords) {
     }
   }
 
-  // 鋭角折り返しトゲのプルーニング
+  // 1. 鋭角折り返しトゲのプルーニング
   const clean = pruneSharpSpikes(deduplicated);
 
-  // Catmull-Rom スプライン補間を適用し、15mピッチで滑らかなリアル軌道を生成
-  return smoothAndSubdivide(clean, 15);
+  // 2. RDP アルゴリズムによる微小量子化ジッター（波打ち・ぐねぐね）の除去 (許容誤差 3.0m)
+  const simplified = ramerDouglasPeucker(clean, 3.0);
+
+  // 3. Chaikin 平滑化 & 均等ピッチ細分化
+  return smoothAndSubdivide(simplified, 15);
 }
 
 module.exports = {

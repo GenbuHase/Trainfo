@@ -146,8 +146,8 @@ export const YAMANOTE_STATIONS: Station[] = [
     "name": "上野",
     "nameKana": "うえの",
     "nameEn": "Ueno",
-    "lat": 35.7130911,
-    "lng": 139.7772996,
+    "lat": 35.7137,
+    "lng": 139.7761,
     "transfers": [
       "JR京浜東北線",
       "JR宇都宮線",

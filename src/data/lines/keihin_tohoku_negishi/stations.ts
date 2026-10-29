@@ -935,8 +935,8 @@ export const KEIHIN_TOHOKU_NEGISHI_STATIONS: Station[] = [
     "name": "上野",
     "nameKana": "うえの",
     "nameEn": "Ueno",
-    "lat": 35.7130911,
-    "lng": 139.7772996,
+    "lat": 35.7137,
+    "lng": 139.7761,
     "transfers": [
       "JR山手線",
       "JR宇都宮線",
