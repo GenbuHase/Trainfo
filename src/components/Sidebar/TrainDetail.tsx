@@ -106,14 +106,13 @@ export const TrainDetail: React.FC<TrainDetailProps> = ({
     setTimelineModeState({ chainRootId: currentChainRootId, mode });
   };
 
-  const isTerminated = train.status === 'TERMINATED';
   const [passedCollapsedState, setPassedCollapsedState] = useState<{
     tripId: string;
     isCollapsed: boolean;
-  }>({ tripId: train.tripId, isCollapsed: !isTerminated });
+  }>({ tripId: train.tripId, isCollapsed: false });
 
   const isPassedCollapsed =
-    passedCollapsedState.tripId === train.tripId ? passedCollapsedState.isCollapsed : !isTerminated;
+    passedCollapsedState.tripId === train.tripId ? passedCollapsedState.isCollapsed : false;
 
   const setIsPassedCollapsed = (isCollapsed: boolean) => {
     setPassedCollapsedState({ tripId: train.tripId, isCollapsed });

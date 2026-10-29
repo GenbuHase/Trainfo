@@ -42,6 +42,26 @@ module.exports = {
       "maxTimeDiff": 360
     },
     {
+      "name": "武蔵野線 -> 中央線 (国立直通 八王子方面)",
+      "lineA": "musashino",
+      "lineB": "chuo",
+      "stationA": "JC-18",
+      "stationB": "JC-18",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "中央線 -> 武蔵野線 (国立直通 大宮方面)",
+      "lineA": "chuo",
+      "lineB": "musashino",
+      "stationA": "JC-18",
+      "stationB": "JC-18",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 360
+    },
+    {
       "name": "京葉線 -> 内房線 (下り直通)",
       "lineA": "keiyo",
       "lineB": "uchibo",

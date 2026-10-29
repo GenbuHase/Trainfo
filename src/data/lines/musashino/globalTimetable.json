@@ -14171,7 +14171,7 @@
     "trainName": "むさしの号",
     "direction": "inbound",
     "originStationId": "JM-00",
-    "destinationStationId": "JC-22",
+    "destinationStationId": "JC-18",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -14216,33 +14216,13 @@
         "arrivalTime": "09:33:00",
         "departureTime": "09:33:00",
         "isPassing": false
-      },
-      {
-        "stationId": "JC-19",
-        "arrivalTime": "09:37:00",
-        "departureTime": "09:38:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-20",
-        "arrivalTime": "09:41:00",
-        "departureTime": "09:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-21",
-        "arrivalTime": "09:44:00",
-        "departureTime": "09:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-22",
-        "arrivalTime": "09:49:00",
-        "departureTime": "09:49:00",
-        "isPassing": false
       }
     ],
-    "trainId": "32667"
+    "trainId": "32667",
+    "customDestination": "八王子",
+    "customOrigin": "大宮",
+    "throughTripId": "WD_OUT_JC-18_0933_32667",
+    "throughLineId": "chuo"
   },
   {
     "tripId": "WD_INB_JE-01_0851_35557",
@@ -32593,35 +32573,11 @@
     "trainType": "regular",
     "trainName": "むさしの号",
     "direction": "outbound",
-    "originStationId": "JC-22",
+    "originStationId": "JC-18",
     "destinationStationId": "JM-00",
     "cars": 8,
     "isHoliday": false,
     "stops": [
-      {
-        "stationId": "JC-22",
-        "arrivalTime": "16:55:00",
-        "departureTime": "16:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-21",
-        "arrivalTime": "17:00:00",
-        "departureTime": "17:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-20",
-        "arrivalTime": "17:03:00",
-        "departureTime": "17:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-19",
-        "arrivalTime": "17:06:00",
-        "departureTime": "17:07:00",
-        "isPassing": false
-      },
       {
         "stationId": "JC-18",
         "arrivalTime": "17:10:00",
@@ -32665,7 +32621,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "32663"
+    "trainId": "32663",
+    "customOrigin": "八王子",
+    "prevTripId": "WD_INB_JC-22_1655_32663",
+    "prevLineId": "chuo",
+    "customDestination": "大宮"
   },
   {
     "tripId": "WD_OUT_JM-35_1702_38683",
@@ -37695,7 +37655,7 @@
     "trainName": "むさしの号",
     "direction": "inbound",
     "originStationId": "JM-00",
-    "destinationStationId": "JC-22",
+    "destinationStationId": "JC-18",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -37740,33 +37700,13 @@
         "arrivalTime": "19:30:00",
         "departureTime": "19:30:00",
         "isPassing": false
-      },
-      {
-        "stationId": "JC-19",
-        "arrivalTime": "19:34:00",
-        "departureTime": "19:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-20",
-        "arrivalTime": "19:38:00",
-        "departureTime": "19:38:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-21",
-        "arrivalTime": "19:41:00",
-        "departureTime": "19:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-22",
-        "arrivalTime": "19:46:00",
-        "departureTime": "19:46:00",
-        "isPassing": false
       }
     ],
-    "trainId": "32670"
+    "trainId": "32670",
+    "customDestination": "八王子",
+    "customOrigin": "大宮",
+    "throughTripId": "WD_OUT_JC-18_1930_32670",
+    "throughLineId": "chuo"
   },
   {
     "tripId": "WD_OUT_JC-22_1848_32666",
@@ -37775,35 +37715,11 @@
     "trainType": "regular",
     "trainName": "むさしの号",
     "direction": "outbound",
-    "originStationId": "JC-22",
+    "originStationId": "JC-18",
     "destinationStationId": "JM-00",
     "cars": 8,
     "isHoliday": false,
     "stops": [
-      {
-        "stationId": "JC-22",
-        "arrivalTime": "18:48:00",
-        "departureTime": "18:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-21",
-        "arrivalTime": "18:52:00",
-        "departureTime": "18:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-20",
-        "arrivalTime": "18:55:00",
-        "departureTime": "18:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-19",
-        "arrivalTime": "18:59:00",
-        "departureTime": "19:00:00",
-        "isPassing": false
-      },
       {
         "stationId": "JC-18",
         "arrivalTime": "19:03:00",
@@ -37847,7 +37763,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "32666"
+    "trainId": "32666",
+    "customOrigin": "八王子",
+    "prevTripId": "WD_INB_JC-22_1848_32666",
+    "prevLineId": "chuo",
+    "customDestination": "大宮"
   },
   {
     "tripId": "WD_OUT_JM-35_1850_35752",
@@ -42428,7 +42348,7 @@
     "trainName": "むさしの号",
     "direction": "inbound",
     "originStationId": "JM-00",
-    "destinationStationId": "JC-22",
+    "destinationStationId": "JC-18",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -42473,33 +42393,13 @@
         "arrivalTime": "21:08:00",
         "departureTime": "21:08:00",
         "isPassing": false
-      },
-      {
-        "stationId": "JC-19",
-        "arrivalTime": "21:12:00",
-        "departureTime": "21:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-20",
-        "arrivalTime": "21:15:00",
-        "departureTime": "21:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-21",
-        "arrivalTime": "21:18:00",
-        "departureTime": "21:19:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-22",
-        "arrivalTime": "21:23:00",
-        "departureTime": "21:23:00",
-        "isPassing": false
       }
     ],
-    "trainId": "32672"
+    "trainId": "32672",
+    "customDestination": "八王子",
+    "customOrigin": "大宮",
+    "throughTripId": "WD_OUT_JC-18_2108_32672",
+    "throughLineId": "chuo"
   },
   {
     "tripId": "WD_OUT_JM-35_2032_35762",
@@ -55054,35 +54954,11 @@
     "trainType": "regular",
     "trainName": "むさしの号",
     "direction": "outbound",
-    "originStationId": "JC-22",
+    "originStationId": "JC-18",
     "destinationStationId": "JM-00",
     "cars": 8,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "JC-22",
-        "arrivalTime": "07:21:00",
-        "departureTime": "07:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-21",
-        "arrivalTime": "07:25:00",
-        "departureTime": "07:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-20",
-        "arrivalTime": "07:28:00",
-        "departureTime": "07:29:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-19",
-        "arrivalTime": "07:32:00",
-        "departureTime": "07:32:00",
-        "isPassing": false
-      },
       {
         "stationId": "JC-18",
         "arrivalTime": "07:36:00",
@@ -55126,7 +55002,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "32661"
+    "trainId": "32661",
+    "customOrigin": "八王子",
+    "prevTripId": "HD_INB_JC-22_0721_32661",
+    "prevLineId": "chuo",
+    "customDestination": "大宮"
   },
   {
     "tripId": "HD_OUT_JM-35_0724_35684",
@@ -58934,7 +58814,7 @@
     "trainName": "むさしの号",
     "direction": "inbound",
     "originStationId": "JM-00",
-    "destinationStationId": "JC-22",
+    "destinationStationId": "JC-18",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -58979,33 +58859,13 @@
         "arrivalTime": "09:29:00",
         "departureTime": "09:29:00",
         "isPassing": false
-      },
-      {
-        "stationId": "JC-19",
-        "arrivalTime": "09:32:00",
-        "departureTime": "09:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-20",
-        "arrivalTime": "09:36:00",
-        "departureTime": "09:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-21",
-        "arrivalTime": "09:39:00",
-        "departureTime": "09:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-22",
-        "arrivalTime": "09:44:00",
-        "departureTime": "09:44:00",
-        "isPassing": false
       }
     ],
-    "trainId": "32668"
+    "trainId": "32668",
+    "customDestination": "八王子",
+    "customOrigin": "大宮",
+    "throughTripId": "HD_OUT_JC-18_0929_32668",
+    "throughLineId": "chuo"
   },
   {
     "tripId": "HD_INB_JE-14_0855_37549",
@@ -61431,35 +61291,11 @@
     "trainType": "regular",
     "trainName": "むさしの号",
     "direction": "outbound",
-    "originStationId": "JC-22",
+    "originStationId": "JC-18",
     "destinationStationId": "JM-00",
     "cars": 8,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "JC-22",
-        "arrivalTime": "09:50:00",
-        "departureTime": "09:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-21",
-        "arrivalTime": "09:54:00",
-        "departureTime": "09:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-20",
-        "arrivalTime": "09:57:00",
-        "departureTime": "09:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-19",
-        "arrivalTime": "10:01:00",
-        "departureTime": "10:04:00",
-        "isPassing": false
-      },
       {
         "stationId": "JC-18",
         "arrivalTime": "10:07:00",
@@ -61503,7 +61339,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "32662"
+    "trainId": "32662",
+    "customOrigin": "八王子",
+    "prevTripId": "HD_INB_JC-22_0950_32662",
+    "prevLineId": "chuo",
+    "customDestination": "大宮"
   },
   {
     "tripId": "HD_INB_JE-12_0957_37543",
@@ -76943,35 +76783,11 @@
     "trainType": "regular",
     "trainName": "むさしの号",
     "direction": "outbound",
-    "originStationId": "JC-22",
+    "originStationId": "JC-18",
     "destinationStationId": "JM-00",
     "cars": 8,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "JC-22",
-        "arrivalTime": "16:56:00",
-        "departureTime": "16:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-21",
-        "arrivalTime": "17:01:00",
-        "departureTime": "17:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-20",
-        "arrivalTime": "17:04:00",
-        "departureTime": "17:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-19",
-        "arrivalTime": "17:07:00",
-        "departureTime": "17:08:00",
-        "isPassing": false
-      },
       {
         "stationId": "JC-18",
         "arrivalTime": "17:10:00",
@@ -77015,7 +76831,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "32664"
+    "trainId": "32664",
+    "customOrigin": "八王子",
+    "prevTripId": "HD_INB_JC-22_1656_32664",
+    "prevLineId": "chuo",
+    "customDestination": "大宮"
   },
   {
     "tripId": "HD_OUT_JM-35_1701_35739",
@@ -79411,35 +79231,11 @@
     "trainType": "regular",
     "trainName": "むさしの号",
     "direction": "outbound",
-    "originStationId": "JC-22",
+    "originStationId": "JC-18",
     "destinationStationId": "JM-00",
     "cars": 8,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "JC-22",
-        "arrivalTime": "17:47:00",
-        "departureTime": "17:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-21",
-        "arrivalTime": "17:52:00",
-        "departureTime": "17:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-20",
-        "arrivalTime": "17:55:00",
-        "departureTime": "17:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-19",
-        "arrivalTime": "17:58:00",
-        "departureTime": "17:59:00",
-        "isPassing": false
-      },
       {
         "stationId": "JC-18",
         "arrivalTime": "18:02:00",
@@ -79483,7 +79279,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "32665"
+    "trainId": "32665",
+    "customOrigin": "八王子",
+    "prevTripId": "HD_INB_JC-22_1747_32665",
+    "prevLineId": "chuo",
+    "customDestination": "大宮"
   },
   {
     "tripId": "HD_OUT_JM-35_1754_35821",
@@ -80914,7 +80714,7 @@
     "trainName": "むさしの号",
     "direction": "inbound",
     "originStationId": "JM-00",
-    "destinationStationId": "JC-22",
+    "destinationStationId": "JC-18",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -80959,33 +80759,13 @@
         "arrivalTime": "19:01:00",
         "departureTime": "19:02:00",
         "isPassing": false
-      },
-      {
-        "stationId": "JC-19",
-        "arrivalTime": "19:05:00",
-        "departureTime": "19:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-20",
-        "arrivalTime": "19:13:00",
-        "departureTime": "19:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-21",
-        "arrivalTime": "19:16:00",
-        "departureTime": "19:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-22",
-        "arrivalTime": "19:21:00",
-        "departureTime": "19:21:00",
-        "isPassing": false
       }
     ],
-    "trainId": "32669"
+    "trainId": "32669",
+    "customDestination": "八王子",
+    "customOrigin": "大宮",
+    "throughTripId": "HD_OUT_JC-18_1902_32669",
+    "throughLineId": "chuo"
   },
   {
     "tripId": "HD_OUT_JM-35_1828_35749",
@@ -84308,7 +84088,7 @@
     "trainName": "むさしの号",
     "direction": "inbound",
     "originStationId": "JM-00",
-    "destinationStationId": "JC-22",
+    "destinationStationId": "JC-18",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -84353,33 +84133,13 @@
         "arrivalTime": "20:28:00",
         "departureTime": "20:28:00",
         "isPassing": false
-      },
-      {
-        "stationId": "JC-19",
-        "arrivalTime": "20:32:00",
-        "departureTime": "20:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-20",
-        "arrivalTime": "20:35:00",
-        "departureTime": "20:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-21",
-        "arrivalTime": "20:38:00",
-        "departureTime": "20:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JC-22",
-        "arrivalTime": "20:43:00",
-        "departureTime": "20:43:00",
-        "isPassing": false
       }
     ],
-    "trainId": "32671"
+    "trainId": "32671",
+    "customDestination": "八王子",
+    "customOrigin": "大宮",
+    "throughTripId": "HD_OUT_JC-18_2028_32671",
+    "throughLineId": "chuo"
   },
   {
     "tripId": "HD_INB_JE-11_1955_41081",
