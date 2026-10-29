@@ -38,31 +38,90 @@ function secToTime(sec) {
   return `${h}:${m}:${s}`;
 }
 
+// 駅間距離定義 (km)
+const SOBUR_UP_STATIONS = [
+  { stationId: 'JO-28', dist: 0.0 },
+  { stationId: 'JO-27', dist: 3.3 },
+  { stationId: 'JO-26', dist: 12.5 },
+  { stationId: 'JO-25', dist: 16.0 },
+  { stationId: 'JO-24', dist: 23.4 },
+  { stationId: 'JO-23', dist: 28.8 },
+  { stationId: 'JO-22', dist: 33.6 },
+  { stationId: 'JO-21', dist: 35.9 },
+  { stationId: 'JO-20', dist: 37.0 },
+  { stationId: 'JO-19', dist: 38.2 },
+];
+
+const SOBUR_DOWN_STATIONS = [
+  { stationId: 'JO-19', dist: 0.0 },
+  { stationId: 'JO-20', dist: 1.2 },
+  { stationId: 'JO-21', dist: 2.3 },
+  { stationId: 'JO-22', dist: 4.6 },
+  { stationId: 'JO-23', dist: 9.4 },
+  { stationId: 'JO-24', dist: 14.8 },
+  { stationId: 'JO-25', dist: 22.2 },
+  { stationId: 'JO-26', dist: 25.7 },
+  { stationId: 'JO-27', dist: 34.9 },
+  { stationId: 'JO-28', dist: 38.2 },
+];
+
+const SOBUM_UP_STATIONS = [
+  { stationId: 'SM-06', dist: 0.0 },
+  { stationId: 'SM-05', dist: 4.2 },
+  { stationId: 'SM-04', dist: 8.4 },
+  { stationId: 'SM-03', dist: 11.8 },
+  { stationId: 'SM-02', dist: 14.7 },
+  { stationId: 'SM-01', dist: 16.1 },
+];
+
+const SOBUM_DOWN_STATIONS = [
+  { stationId: 'SM-01', dist: 0.0 },
+  { stationId: 'SM-02', dist: 1.4 },
+  { stationId: 'SM-03', dist: 4.3 },
+  { stationId: 'SM-04', dist: 7.7 },
+  { stationId: 'SM-05', dist: 11.9 },
+  { stationId: 'SM-06', dist: 16.1 },
+];
+
+const NARITA_UP_STATIONS = [
+  { stationId: 'NR-36', dist: 0.0 },
+  { stationId: 'NR-03', dist: 9.8 },
+  { stationId: 'NR-02', dist: 16.2 },
+  { stationId: 'NR-01', dist: 20.4 },
+];
+
+const NARITA_DOWN_STATIONS = [
+  { stationId: 'NR-01', dist: 0.0 },
+  { stationId: 'NR-02', dist: 4.2 },
+  { stationId: 'NR-03', dist: 10.6 },
+  { stationId: 'NR-36', dist: 20.4 },
+];
+
 /**
- * 停車駅リストの区間内を通過駅として等間隔補間
+ * 停車駅リストの区間内を距離比率に応じて通過駅補間
  */
-function buildPassingStops(stationIds, tStartSec, tEndSec, startPassing = false, endPassing = false) {
-  const n = stationIds.length;
+function buildPassingStopsWithDistances(stationsWithDists, tStartSec, tEndSec, startPassing = false, endPassing = false) {
+  const n = stationsWithDists.length;
   if (n === 0) return [];
   if (n === 1) {
     const t = secToTime(tStartSec);
-    return [{ stationId: stationIds[0], arrivalTime: t, departureTime: t, isPassing: startPassing }];
+    return [{ stationId: stationsWithDists[0].stationId, arrivalTime: t, departureTime: t, isPassing: startPassing }];
   }
+  const totalDist = stationsWithDists[n - 1].dist - stationsWithDists[0].dist;
   const totalDuration = tEndSec - tStartSec;
-  const stops = [];
-  for (let i = 0; i < n; i++) {
-    const frac = i / (n - 1);
+
+  return stationsWithDists.map((st, i) => {
+    const frac = totalDist > 0 ? (st.dist - stationsWithDists[0].dist) / totalDist : (i / (n - 1));
     const curSec = tStartSec + totalDuration * frac;
     const t = secToTime(curSec);
     const isPassing = i === 0 ? startPassing : (i === n - 1 ? endPassing : true);
-    stops.push({
-      stationId: stationIds[i],
+    return {
+      stationId: st.stationId,
       arrivalTime: t,
       departureTime: t,
       isPassing,
-    });
-  }
-  return stops;
+    };
+  });
 }
 
 function bridgeNexAndAyame() {
@@ -78,90 +137,132 @@ function bridgeNexAndAyame() {
   const sobuMTrips = safeLoad(sobuMPath);
   const naritaTrips = safeLoad(naritaPath);
 
-  const sobuMStationIds = ['SM-01', 'SM-02', 'SM-03', 'SM-04', 'SM-05', 'SM-06']; // 千葉〜佐倉
-  const naritaBranchStationIds = ['NR-01', 'NR-02', 'NR-03', 'NR-36', 'NR-37']; // 佐倉〜成田空港
-
   // =========================================================================
-  // 1. 成田エクスプレス（N'EX） 下り (東京/大船/新宿 -> 千葉 -> 佐倉 -> 成田空港)
+  // 1. 成田エクスプレス（N'EX） 下り (大船/品川/新宿 -> 東京 -> 千葉 -> 佐倉 -> 成田空港)
   // =========================================================================
   console.log('--- 1. 成田エクスプレス 下り直通リンク ---');
 
   for (const isHoliday of [false, true]) {
     const prefix = isHoliday ? 'HD' : 'WD';
-    
-    // 総武快速線の下りN'EX全便を取得
-    const srNexList = sobuRTrips.filter(t => 
-      t.direction === 'outbound' && 
-      t.isHoliday === isHoliday && 
-      t.trainName && t.trainName.includes('成田エクスプレス')
-    );
 
-    // 成田線の下りN'EX全便を取得
-    const nrtNexList = naritaTrips.filter(t =>
+    // 成田線の下りN'EX便をすべて網羅
+    const nrtNexDownList = naritaTrips.filter(t =>
       t.direction === 'outbound' &&
       t.isHoliday === isHoliday &&
       t.trainName && t.trainName.includes('成田エクスプレス')
     );
 
-    for (const srTrip of srNexList) {
-      const trainNum = srTrip.trainNumber;
-      const trainName = srTrip.trainName;
-      const chibaStop = srTrip.stops.find(s => s.stationId === 'JO-28');
-      if (!chibaStop) continue;
+    const srNexDownList = sobuRTrips.filter(t =>
+      t.direction === 'outbound' &&
+      t.isHoliday === isHoliday &&
+      t.trainName && t.trainName.includes('成田エクスプレス')
+    );
 
-      const chibaDepSec = timeToSec(chibaStop.departureTime || chibaStop.arrivalTime);
+    const ykNexDownList = yokoTrips.filter(t =>
+      t.direction === 'inbound' &&
+      t.isHoliday === isHoliday &&
+      t.trainName && t.trainName.includes('成田エクスプレス')
+    );
 
-      // 成田線側の対応便を検索 (同じ列車番号、または近接時刻のNR-36到着便)
-      let nrtTrip = nrtNexList.find(t => t.trainNumber === trainNum);
-      if (!nrtTrip) {
-        // 号数の一致を確認
+    for (const nrtTrip of nrtNexDownList) {
+      const trainNum = nrtTrip.trainNumber;
+      const trainName = nrtTrip.trainName;
+      const isOfuna = trainNum.startsWith('20') || trainNum.startsWith('37');
+      const isShinjuku = trainNum.startsWith('22');
+      const originName = isOfuna ? '大船' : (isShinjuku ? '新宿' : '東京');
+
+      const nr36Stop = nrtTrip.stops.find(s => s.stationId === 'NR-36');
+      const nr37Stop = nrtTrip.stops.find(s => s.stationId === 'NR-37');
+      const nr36ArrSec = nr36Stop ? timeToSec(nr36Stop.arrivalTime) : 36000;
+      const nr36DepSec = nr36Stop ? timeToSec(nr36Stop.departureTime || nr36Stop.arrivalTime) : nr36ArrSec + 60;
+      const nr37ArrSec = nr37Stop ? timeToSec(nr37Stop.arrivalTime) : nr36DepSec + 120;
+
+      // (1) 横須賀線直通元便（大船/品川 -> 東京）の検索
+      let ykTrip = ykNexDownList.find(t => t.trainNumber === trainNum);
+      if (!ykTrip) {
         const matchName = trainName.match(/成田エクスプレス(\d+)号/);
         if (matchName) {
-          const num = matchName[1];
-          nrtTrip = nrtNexList.find(t => t.trainName && t.trainName.includes(`成田エクスプレス${num}号`));
+          ykTrip = ykNexDownList.find(t => t.trainName && t.trainName.includes(`成田エクスプレス${matchName[1]}号`));
         }
       }
 
-      if (!nrtTrip) {
-        // 時間差30〜50分後のNR-36便
-        nrtTrip = nrtNexList.find(t => {
-          const nr36 = t.stops.find(s => s.stationId === 'NR-36');
-          if (!nr36) return false;
-          const diff = timeToSec(nr36.arrivalTime) - chibaDepSec;
-          return diff >= 1500 && diff <= 2700;
-        });
+      // (2) 総武快速線便の検索または新設（千葉通過便対応）
+      let srTrip = srNexDownList.find(t => t.trainNumber === trainNum);
+      if (!srTrip) {
+        const matchName = trainName.match(/成田エクスプレス(\d+)号/);
+        if (matchName) {
+          srTrip = srNexDownList.find(t => t.trainName && t.trainName.includes(`成田エクスプレス${matchName[1]}号`) && (isOfuna ? t.trainNumber.startsWith('20') : t.trainNumber.startsWith('22')));
+        }
       }
 
-      // 成田空港到着時刻（または空港第2ビル時刻）から佐倉通過時刻を推計
-      let nrtArrSec = chibaDepSec + 2100; // デフォルト35分
-      if (nrtTrip) {
-        const nr36 = nrtTrip.stops.find(s => s.stationId === 'NR-36');
-        if (nr36) nrtArrSec = timeToSec(nr36.arrivalTime);
+      let chibaDepSec = 0;
+      let tTokyoDepSec = 0;
+
+      if (srTrip) {
+        const chibaStop = srTrip.stops.find(s => s.stationId === 'JO-28');
+        chibaDepSec = chibaStop ? timeToSec(chibaStop.departureTime || chibaStop.arrivalTime) : nr36ArrSec - 2100;
+        const tokyoStop = srTrip.stops.find(s => s.stationId === 'JO-19');
+        tTokyoDepSec = tokyoStop ? timeToSec(tokyoStop.departureTime || tokyoStop.arrivalTime) : chibaDepSec - 1680;
+      } else {
+        // 千葉通過便: 横須賀線便の東京到着時刻、または空港第2ビル時刻から逆算
+        if (ykTrip) {
+          const ykTokyoArr = timeToSec(ykTrip.stops[ykTrip.stops.length - 1].arrivalTime);
+          tTokyoDepSec = ykTokyoArr + 120; // 2分停車
+          chibaDepSec = tTokyoDepSec + 1680; // 約28分
+        } else {
+          chibaDepSec = nr36ArrSec - 2100; // 約35分前
+          tTokyoDepSec = chibaDepSec - 1680;
+        }
+
+        const srTripId = `${prefix}_OUT_JO-19_${secToTime(tTokyoDepSec).replace(/:/g, '').slice(0, 4)}_${nrtTrip.trainId || trainNum}`;
+        srTrip = sobuRTrips.find(t => t.tripId === srTripId);
+        const srStops = buildPassingStopsWithDistances(SOBUR_DOWN_STATIONS, tTokyoDepSec, chibaDepSec, false, true);
+
+        if (!srTrip) {
+          srTrip = {
+            tripId: srTripId,
+            lineId: 'sobu_rapid',
+            trainId: nrtTrip.trainId || trainNum,
+            trainNumber: trainNum,
+            trainType: 'limitedExp',
+            trainName: trainName,
+            direction: 'outbound',
+            originStationId: 'JO-19',
+            destinationStationId: 'JO-28',
+            customOrigin: originName,
+            customDestination: '成田空港',
+            cars: nrtTrip.cars || 6,
+            isHoliday,
+            stops: srStops,
+          };
+          sobuRTrips.push(srTrip);
+        } else {
+          srTrip.stops = srStops;
+        }
       }
 
-      // 千葉〜佐倉: 走行約14分、佐倉〜成田空港: 走行約21分
-      const sakuraPassSec = chibaDepSec + Math.round((nrtArrSec - chibaDepSec) * (14 / 35));
+      // (3) 佐倉通過時刻
+      const sakuraPassSec = chibaDepSec + 840; // 約14分走行
 
-      // (A) 総武本線 (千葉 SM-01 〜 佐倉 SM-06) トリップの確保または新設
-      const smTripId = `${prefix}_OUT_SM-01_${secToTime(chibaDepSec).replace(/:/g, '').slice(0, 4)}_${srTrip.trainId || trainNum}`;
+      // (4) 総武本線便 (SM-01 千葉 〜 SM-06 佐倉) の確保または新設
+      const smTripId = `${prefix}_OUT_SM-01_${secToTime(chibaDepSec).replace(/:/g, '').slice(0, 4)}_${nrtTrip.trainId || trainNum}`;
       let smTrip = sobuMTrips.find(t => t.tripId === smTripId || (t.direction === 'outbound' && t.isHoliday === isHoliday && t.trainNumber === trainNum));
-
-      const smStops = buildPassingStops(sobuMStationIds, chibaDepSec, sakuraPassSec, false, true);
+      const smStops = buildPassingStopsWithDistances(SOBUM_DOWN_STATIONS, chibaDepSec, sakuraPassSec, true, true);
 
       if (!smTrip) {
         smTrip = {
           tripId: smTripId,
           lineId: 'sobu_main',
-          trainId: srTrip.trainId || trainNum,
+          trainId: nrtTrip.trainId || trainNum,
           trainNumber: trainNum,
           trainType: 'limitedExp',
           trainName: trainName,
           direction: 'outbound',
           originStationId: 'SM-01',
           destinationStationId: 'SM-06',
-          customOrigin: srTrip.customOrigin || (trainNum.startsWith('22') ? '新宿' : '大船'),
+          customOrigin: originName,
           customDestination: '成田空港',
-          cars: srTrip.cars || 6,
+          cars: nrtTrip.cars || 6,
           isHoliday,
           stops: smStops,
         };
@@ -169,60 +270,71 @@ function bridgeNexAndAyame() {
       } else {
         smTrip.trainName = trainName;
         smTrip.trainType = 'limitedExp';
-        smTrip.customOrigin = srTrip.customOrigin || smTrip.customOrigin || (trainNum.startsWith('22') ? '新宿' : '大船');
+        smTrip.customOrigin = originName;
         smTrip.customDestination = '成田空港';
-        // stopsが短ければ全駅通過補間
         if (smTrip.stops.length < 6) {
           smTrip.stops = smStops;
         }
       }
 
-      // (B) 成田線 (佐倉 NR-01 〜 成田空港 NR-37) トリップの補完
-      if (nrtTrip) {
-        const nr36Stop = nrtTrip.stops.find(s => s.stationId === 'NR-36');
-        const nr37Stop = nrtTrip.stops.find(s => s.stationId === 'NR-37');
-        const nr36ArrSec = nr36Stop ? timeToSec(nr36Stop.arrivalTime) : nrtArrSec;
-        const nr36DepSec = nr36Stop ? timeToSec(nr36Stop.departureTime || nr36Stop.arrivalTime) : nr36ArrSec;
-        const nr37ArrSec = nr37Stop ? timeToSec(nr37Stop.arrivalTime) : nr36DepSec + 120;
+      // (5) 成田線便 (NR-01 佐倉 〜 NR-37 成田空港) の stops 補完
+      const midNaritaStops = buildPassingStopsWithDistances(NARITA_DOWN_STATIONS, sakuraPassSec, nr36ArrSec, true, false);
+      midNaritaStops[midNaritaStops.length - 1].departureTime = secToTime(nr36DepSec);
+      midNaritaStops.push({
+        stationId: 'NR-37',
+        arrivalTime: secToTime(nr37ArrSec),
+        departureTime: secToTime(nr37ArrSec),
+        isPassing: false,
+      });
 
-        // 佐倉〜空港第2ビル間を補間
-        const midStops = buildPassingStops(['NR-01', 'NR-02', 'NR-03', 'NR-36'], sakuraPassSec, nr36ArrSec, true, false);
-        // NR-36出発とNR-37到着
-        midStops[midStops.length - 1].departureTime = secToTime(nr36DepSec);
-        midStops.push({
-          stationId: 'NR-37',
-          arrivalTime: secToTime(nr37ArrSec),
-          departureTime: secToTime(nr37ArrSec),
-          isPassing: false,
-        });
-
-        nrtTrip.stops = midStops;
-        nrtTrip.originStationId = 'NR-01';
-        nrtTrip.destinationStationId = 'NR-37';
-        nrtTrip.customOrigin = srTrip.customOrigin || (trainNum.startsWith('22') ? '新宿' : '大船');
-        nrtTrip.customDestination = '成田空港';
-        nrtTrip.trainName = trainName;
-        nrtTrip.trainType = 'limitedExp';
-
-        // 直通リンクの結合
-        srTrip.throughTripId = smTrip.tripId;
-        srTrip.throughLineId = 'sobu_main';
-        srTrip.through = { lineId: 'sobu_main', tripId: smTrip.tripId, trainNumber: trainNum };
-        srTrip.customDestination = '成田空港';
-
-        smTrip.prevTripId = srTrip.tripId;
-        smTrip.prevLineId = 'sobu_rapid';
-        smTrip.previousTrip = { lineId: 'sobu_rapid', tripId: srTrip.tripId, trainNumber: trainNum };
-        smTrip.throughTripId = nrtTrip.tripId;
-        smTrip.throughLineId = 'narita';
-        smTrip.through = { lineId: 'narita', tripId: nrtTrip.tripId, trainNumber: trainNum };
-
-        nrtTrip.prevTripId = smTrip.tripId;
-        nrtTrip.prevLineId = 'sobu_main';
-        nrtTrip.previousTrip = { lineId: 'sobu_main', tripId: smTrip.tripId, trainNumber: trainNum };
-
-        console.log(`  ✓ 下り ${trainName} (${trainNum}) 直通リンク完了: 総武快速 -> 総武本線 -> 成田線 (成田空港行)`);
+      // 成田駅停車の元データがある場合は停車フラグと時刻を維持
+      const origNr03 = nrtTrip.stops.find(s => s.stationId === 'NR-03');
+      if (origNr03 && !origNr03.isPassing) {
+        const nr03 = midNaritaStops.find(s => s.stationId === 'NR-03');
+        if (nr03) {
+          nr03.arrivalTime = origNr03.arrivalTime;
+          nr03.departureTime = origNr03.departureTime;
+          nr03.isPassing = false;
+        }
       }
+
+      nrtTrip.stops = midNaritaStops;
+      nrtTrip.originStationId = 'NR-01';
+      nrtTrip.destinationStationId = 'NR-37';
+      nrtTrip.customOrigin = originName;
+      nrtTrip.customDestination = '成田空港';
+      nrtTrip.trainName = trainName;
+      nrtTrip.trainType = 'limitedExp';
+
+      // (6) 直通リンク締結
+      if (ykTrip) {
+        ykTrip.throughTripId = srTrip.tripId;
+        ykTrip.throughLineId = 'sobu_rapid';
+        ykTrip.through = { lineId: 'sobu_rapid', tripId: srTrip.tripId, trainNumber: trainNum };
+        ykTrip.customDestination = '成田空港';
+
+        srTrip.prevTripId = ykTrip.tripId;
+        srTrip.prevLineId = 'yokosuka';
+        srTrip.previousTrip = { lineId: 'yokosuka', tripId: ykTrip.tripId, trainNumber: trainNum };
+      }
+
+      srTrip.throughTripId = smTrip.tripId;
+      srTrip.throughLineId = 'sobu_main';
+      srTrip.through = { lineId: 'sobu_main', tripId: smTrip.tripId, trainNumber: trainNum };
+      srTrip.customDestination = '成田空港';
+
+      smTrip.prevTripId = srTrip.tripId;
+      smTrip.prevLineId = 'sobu_rapid';
+      smTrip.previousTrip = { lineId: 'sobu_rapid', tripId: srTrip.tripId, trainNumber: trainNum };
+      smTrip.throughTripId = nrtTrip.tripId;
+      smTrip.throughLineId = 'narita';
+      smTrip.through = { lineId: 'narita', tripId: nrtTrip.tripId, trainNumber: trainNum };
+
+      nrtTrip.prevTripId = smTrip.tripId;
+      nrtTrip.prevLineId = 'sobu_main';
+      nrtTrip.previousTrip = { lineId: 'sobu_main', tripId: smTrip.tripId, trainNumber: trainNum };
+
+      console.log(`  ✓ 下り ${trainName} (${trainNum}) 完全直通: ${originName} -> 東京 -> 千葉 -> 佐倉 -> 成田空港`);
     }
   }
 
@@ -262,7 +374,20 @@ function bridgeNexAndAyame() {
       const nrtDepStop = nrtTrip.stops[0];
       const nrtDepSec = timeToSec(nrtDepStop.departureTime);
 
-      // 対応する総武快速線便を検索
+      const nr36Stop = nrtTrip.stops.find(s => s.stationId === 'NR-36');
+      const nr36ArrSec = nr36Stop ? timeToSec(nr36Stop.arrivalTime) : nrtDepSec + 120;
+      const nr36DepSec = nr36Stop ? timeToSec(nr36Stop.departureTime || nr36Stop.arrivalTime) : nr36ArrSec + 60;
+
+      // (1) 横須賀線便（東京 -> 品川/大船）の検索
+      let ykTrip = ykNexUpList.find(t => t.trainNumber === trainNum);
+      if (!ykTrip) {
+        const matchName = trainName.match(/成田エクスプレス(\d+)号/);
+        if (matchName) {
+          ykTrip = ykNexUpList.find(t => t.trainName && t.trainName.includes(`成田エクスプレス${matchName[1]}号`));
+        }
+      }
+
+      // (2) 対応する総武快速線便の検索または新設（千葉通過便対応）
       let srTrip = srNexUpList.find(t => t.trainNumber === trainNum);
       if (!srTrip) {
         const matchName = trainName.match(/成田エクスプレス(\d+)号/);
@@ -280,35 +405,93 @@ function bridgeNexAndAyame() {
         });
       }
 
-      if (!srTrip) continue;
+      let chibaDepSec = 0;
+      let tTokyoArrSec = 0;
 
-      const chibaDepSec = timeToSec(srTrip.stops[0].departureTime);
-      const sakuraPassSec = chibaDepSec - Math.round((chibaDepSec - nrtDepSec) * (14 / 35));
+      if (srTrip) {
+        chibaDepSec = timeToSec(srTrip.stops[0].departureTime);
+        const tokyoStop = srTrip.stops[srTrip.stops.length - 1];
+        tTokyoArrSec = timeToSec(tokyoStop.arrivalTime);
+      } else {
+        // 千葉通過便: 横須賀線便の東京発車時刻、または成田空港発車時刻から逆算
+        if (ykTrip) {
+          const ykTokyoDep = timeToSec(ykTrip.stops[0].departureTime);
+          tTokyoArrSec = ykTokyoDep - 120; // 2分前到着
+          chibaDepSec = tTokyoArrSec - 1680; // 約28分前通過
+        } else {
+          chibaDepSec = nrtDepSec + 1980; // 約33分後
+          tTokyoArrSec = chibaDepSec + 1680;
+        }
 
-      // 成田線 stops の延伸（NR-37 -> NR-36 -> NR-03 -> NR-02 -> NR-01）
-      if (nrtTrip.stops.length < 5) {
-        const nr37Time = nrtTrip.stops.find(s => s.stationId === 'NR-37')?.departureTime || secToTime(nrtDepSec);
-        const nr36Time = nrtTrip.stops.find(s => s.stationId === 'NR-36')?.departureTime || secToTime(nrtDepSec + 120);
+        const srTripId = `${prefix}_INB_JO-28_${secToTime(chibaDepSec).replace(/:/g, '').slice(0, 4)}_${nrtTrip.trainId || trainNum}`;
+        srTrip = sobuRTrips.find(t => t.tripId === srTripId);
+        const srStops = buildPassingStopsWithDistances(SOBUR_UP_STATIONS, chibaDepSec, tTokyoArrSec, true, false);
 
-        const stops = [
-          { stationId: 'NR-37', arrivalTime: nr37Time, departureTime: nr37Time, isPassing: false },
-          { stationId: 'NR-36', arrivalTime: nr36Time, departureTime: nr36Time, isPassing: false },
-        ];
-        const mid = buildPassingStops(['NR-03', 'NR-02', 'NR-01'], timeToSec(nr36Time), sakuraPassSec, true, false);
-        stops.push(...mid);
-        nrtTrip.stops = stops;
-        nrtTrip.destinationStationId = 'NR-01';
+        if (!srTrip) {
+          srTrip = {
+            tripId: srTripId,
+            lineId: 'sobu_rapid',
+            trainId: nrtTrip.trainId || trainNum,
+            trainNumber: trainNum,
+            trainType: 'limitedExp',
+            trainName: trainName,
+            direction: 'inbound',
+            originStationId: 'JO-28',
+            destinationStationId: 'JO-19',
+            customOrigin: '成田空港',
+            customDestination: finalDest,
+            cars: nrtTrip.cars || 6,
+            isHoliday,
+            stops: srStops,
+          };
+          sobuRTrips.push(srTrip);
+        } else {
+          srTrip.stops = srStops;
+        }
       }
 
+      // (3) 佐倉通過時刻
+      const sakuraPassSec = chibaDepSec - 840; // 千葉通過の約14分前
+
+      // (4) 成田線 stops の延伸（NR-37 -> NR-36 -> NR-03 -> NR-02 -> NR-01）
+      const midNaritaUpStops = buildPassingStopsWithDistances(NARITA_UP_STATIONS, nr36DepSec, sakuraPassSec, false, true);
+      const stops = [
+        {
+          stationId: 'NR-37',
+          arrivalTime: secToTime(nrtDepSec),
+          departureTime: secToTime(nrtDepSec),
+          isPassing: false,
+        },
+        {
+          stationId: 'NR-36',
+          arrivalTime: secToTime(nr36ArrSec),
+          departureTime: secToTime(nr36DepSec),
+          isPassing: false,
+        },
+        ...midNaritaUpStops.slice(1), // NR-03, NR-02, NR-01
+      ];
+
+      // 元々成田駅（NR-03）停車便だった場合の停車時刻保持
+      const origNr03 = nrtTrip.stops.find(s => s.stationId === 'NR-03');
+      if (origNr03 && !origNr03.isPassing) {
+        const nr03 = stops.find(s => s.stationId === 'NR-03');
+        if (nr03) {
+          nr03.arrivalTime = origNr03.arrivalTime;
+          nr03.departureTime = origNr03.departureTime;
+          nr03.isPassing = false;
+        }
+      }
+
+      nrtTrip.stops = stops;
+      nrtTrip.originStationId = 'NR-37';
+      nrtTrip.destinationStationId = 'NR-01';
       nrtTrip.customOrigin = '成田空港';
       nrtTrip.customDestination = finalDest;
 
-      // 総武本線便の取得または新設
+      // (5) 総武本線便 (SM-06 佐倉 〜 SM-01 千葉) の確保または新設
       const smTripId = `${prefix}_INB_SM-06_${secToTime(sakuraPassSec).replace(/:/g, '').slice(0, 4)}_${nrtTrip.trainId || trainNum}`;
       let smTrip = sobuMTrips.find(t => t.tripId === smTripId || (t.direction === 'inbound' && t.isHoliday === isHoliday && t.trainNumber === trainNum));
-
-      const revSobuMStations = [...sobuMStationIds].reverse(); // SM-06 -> SM-01
-      const smStops = buildPassingStops(revSobuMStations, sakuraPassSec, chibaDepSec, true, false);
+      const smStops = buildPassingStopsWithDistances(SOBUM_UP_STATIONS, sakuraPassSec, chibaDepSec, true, srTrip ? srTrip.stops[0].isPassing : true);
 
       if (!smTrip) {
         smTrip = {
@@ -338,7 +521,7 @@ function bridgeNexAndAyame() {
         }
       }
 
-      // 直通リンク
+      // (6) 直通リンク結合
       nrtTrip.throughTripId = smTrip.tripId;
       nrtTrip.throughLineId = 'sobu_main';
       nrtTrip.through = { lineId: 'sobu_main', tripId: smTrip.tripId, trainNumber: trainNum };
@@ -356,29 +539,20 @@ function bridgeNexAndAyame() {
       srTrip.customOrigin = '成田空港';
       srTrip.customDestination = finalDest;
 
-      // 横須賀線（大船行き）への直通リンク
-      if (isOfuna) {
-        let ykTrip = ykNexUpList.find(t => t.trainNumber === trainNum);
-        if (!ykTrip) {
-          const matchName = trainName.match(/成田エクスプレス(\d+)号/);
-          if (matchName) {
-            ykTrip = ykNexUpList.find(t => t.trainName && t.trainName.includes(`成田エクスプレス${matchName[1]}号`));
-          }
-        }
-        if (ykTrip) {
-          srTrip.throughTripId = ykTrip.tripId;
-          srTrip.throughLineId = 'yokosuka';
-          srTrip.through = { lineId: 'yokosuka', tripId: ykTrip.tripId, trainNumber: trainNum };
+      // (7) 横須賀線（大船/品川行き）への直通リンク結合
+      if (ykTrip) {
+        srTrip.throughTripId = ykTrip.tripId;
+        srTrip.throughLineId = 'yokosuka';
+        srTrip.through = { lineId: 'yokosuka', tripId: ykTrip.tripId, trainNumber: trainNum };
 
-          ykTrip.prevTripId = srTrip.tripId;
-          ykTrip.prevLineId = 'sobu_rapid';
-          ykTrip.previousTrip = { lineId: 'sobu_rapid', tripId: srTrip.tripId, trainNumber: trainNum };
-          ykTrip.customOrigin = '成田空港';
-          ykTrip.customDestination = '大船';
-        }
+        ykTrip.prevTripId = srTrip.tripId;
+        ykTrip.prevLineId = 'sobu_rapid';
+        ykTrip.previousTrip = { lineId: 'sobu_rapid', tripId: srTrip.tripId, trainNumber: trainNum };
+        ykTrip.customOrigin = '成田空港';
+        ykTrip.customDestination = finalDest;
       }
 
-      console.log(`  ✓ 上り ${trainName} (${trainNum}) 直通リンク完了: 成田線 -> 総武本線 -> 総武快速 -> ${finalDest}`);
+      console.log(`  ✓ 上り ${trainName} (${trainNum}) 完全直通: 成田空港 -> 佐倉 -> 千葉 -> 東京 -> ${finalDest}`);
     }
   }
 

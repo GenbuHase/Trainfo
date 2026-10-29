@@ -362,11 +362,14 @@ export interface LineDirectionNames {
 }
 
 // 路線メタデータ
+export type RegionArea = 'kanto' | 'koshinetsu' | 'tohoku' | 'tokai';
+
 export interface LineMeta {
   id: LineId;
   name: string;             // '東武東上線', 'JR埼京線・川越線'
   shortName: string;        // '東上線', '埼京線'
   operator: string;         // '東武鉄道', 'JR東日本'
+  area?: RegionArea;
   lineColor: string;        // ブランドメインカラー (例: '#001e62', '#00ac9a')
   accentColor: string;      // アクセントカラー
   defaultCars?: number;     // 路線の標準両数 (例: 10, 6, 4, 3)

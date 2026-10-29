@@ -939,7 +939,12 @@
     ],
     "trainId": "29322",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_0618_29322",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_0618_31108",
+      "trainNumber": "2201M"
+    },
+    "throughTripId": "WD_OUT_JO-19_0618_31108",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -1718,6 +1723,11 @@
     ],
     "trainId": "29323",
     "customOrigin": "大船",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_0700_29323",
+      "trainNumber": "3737F"
+    },
     "throughTripId": "WD_OUT_JO-19_0700_29323",
     "throughLineId": "sobu_rapid"
   },
@@ -2617,7 +2627,12 @@
     ],
     "trainId": "29324",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_0731_29324",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_0731_31110",
+      "trainNumber": "2205M"
+    },
+    "throughTripId": "WD_OUT_JO-19_0731_31110",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -3352,7 +3367,12 @@
     ],
     "trainId": "29325",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_0756_29325",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_0756_31111",
+      "trainNumber": "3659F"
+    },
+    "throughTripId": "WD_OUT_JO-19_0756_31111",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -5815,6 +5835,11 @@
     ],
     "trainId": "29326",
     "customOrigin": "大船",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_0900_29326",
+      "trainNumber": "2011M"
+    },
     "throughTripId": "WD_OUT_JO-19_0900_29326",
     "throughLineId": "sobu_rapid"
   },
@@ -6182,7 +6207,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -6205,7 +6230,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "31129"
+    "trainId": "31129",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_0830_30375",
+      "trainNumber": "2009M"
+    },
+    "throughTripId": "WD_OUT_JO-19_0830_30375",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_JO-06_0821_41000",
@@ -7456,13 +7488,13 @@
       }
     ],
     "trainId": "29290",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_0814_29290",
-      "trainNumber": "2002M"
+      "tripId": "WD_INB_JO-28_0814_29319",
+      "trainNumber": "2202M"
     },
-    "prevTripId": "WD_INB_JO-28_0814_29290",
+    "prevTripId": "WD_INB_JO-28_0814_29319",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -8059,7 +8091,12 @@
     ],
     "trainId": "29327",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_1003_29327",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1003_31113",
+      "trainNumber": "2215M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1003_31113",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -8568,7 +8605,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -8591,7 +8628,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "31131"
+    "trainId": "31131",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_0930_30377",
+      "trainNumber": "2013M"
+    },
+    "throughTripId": "WD_OUT_JO-19_0930_30377",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_OUT_JO-19_0922_29318",
@@ -8609,7 +8653,7 @@
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "09:20:00",
+        "arrivalTime": "08:52:00",
         "departureTime": "09:22:00",
         "isPassing": false
       },
@@ -9576,7 +9620,7 @@
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "09:54:00",
+        "arrivalTime": "09:34:00",
         "departureTime": "09:56:00",
         "isPassing": false
       },
@@ -9642,13 +9686,13 @@
       }
     ],
     "trainId": "29291",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_0929_29291",
-      "trainNumber": "2006M"
+      "tripId": "WD_INB_JO-28_0929_29321",
+      "trainNumber": "2206M"
     },
-    "prevTripId": "WD_INB_JO-28_0929_29291",
+    "prevTripId": "WD_INB_JO-28_0929_29321",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -10081,7 +10125,12 @@
     ],
     "trainId": "29328",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_1103_29328",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1103_31114",
+      "trainNumber": "2219M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1103_31114",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -10328,7 +10377,7 @@
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
     "customOrigin": "成田空港",
-    "customDestination": "新宿",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -10352,7 +10401,12 @@
       }
     ],
     "trainId": "29295",
-    "prevTripId": "WD_INB_JO-28_0929_29321",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_INB_JO-28_0949_29220",
+      "trainNumber": "2008M"
+    },
+    "prevTripId": "WD_INB_JO-28_0949_29220",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -10467,7 +10521,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -10486,11 +10540,18 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "10:30:00",
-        "departureTime": "10:33:00",
+        "departureTime": "10:32:00",
         "isPassing": false
       }
     ],
-    "trainId": "31133"
+    "trainId": "31133",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1032_30379",
+      "trainNumber": "2017M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1032_30379",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_OUT_JO-19_1025_42216",
@@ -11063,13 +11124,13 @@
       }
     ],
     "trainId": "29278",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_1019_29278",
-      "trainNumber": "2010M"
+      "tripId": "WD_INB_JO-28_1019_29307",
+      "trainNumber": "2210M"
     },
-    "prevTripId": "WD_INB_JO-28_1019_29278",
+    "prevTripId": "WD_INB_JO-28_1019_29307",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -11890,7 +11951,12 @@
     ],
     "trainId": "29329",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_1203_29329",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1203_31115",
+      "trainNumber": "2223M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1203_31115",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -11902,14 +11968,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "成田空港(鉄道)",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "11:14:00",
+        "arrivalTime": "11:15:00",
         "departureTime": "11:17:00",
         "isPassing": false
       },
@@ -11926,7 +11992,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "29296"
+    "trainId": "29296",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_INB_JO-28_1047_29221",
+      "trainNumber": "2012M"
+    },
+    "prevTripId": "WD_INB_JO-28_1047_29221",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_JO-06_1122_41031",
@@ -12142,7 +12215,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -12161,11 +12234,18 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "11:30:00",
-        "departureTime": "11:33:00",
+        "departureTime": "11:32:00",
         "isPassing": false
       }
     ],
-    "trainId": "31134"
+    "trainId": "31134",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1132_30380",
+      "trainNumber": "2021M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1132_30380",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_JO-01_1125_4876",
@@ -12852,13 +12932,13 @@
       }
     ],
     "trainId": "29279",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_1119_29279",
-      "trainNumber": "2014M"
+      "tripId": "WD_INB_JO-28_1119_29308",
+      "trainNumber": "2214M"
     },
-    "prevTripId": "WD_INB_JO-28_1119_29279",
+    "prevTripId": "WD_INB_JO-28_1119_29308",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -13547,7 +13627,12 @@
     ],
     "trainId": "29330",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_1303_29330",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1303_31116",
+      "trainNumber": "2227M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1303_31116",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -13560,13 +13645,13 @@
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
     "customOrigin": "成田空港",
-    "customDestination": "新宿",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "12:07:00",
+        "arrivalTime": "12:15:00",
         "departureTime": "12:17:00",
         "isPassing": false
       },
@@ -13584,7 +13669,12 @@
       }
     ],
     "trainId": "29297",
-    "prevTripId": "WD_INB_JO-28_1137_5362",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_INB_JO-28_1147_29222",
+      "trainNumber": "2016M"
+    },
+    "prevTripId": "WD_INB_JO-28_1147_29222",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -13801,7 +13891,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -13824,7 +13914,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "31135"
+    "trainId": "31135",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1233_30381",
+      "trainNumber": "2025M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1233_30381",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_JO-01_1224_4880",
@@ -14511,13 +14608,13 @@
       }
     ],
     "trainId": "29280",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_1219_29280",
-      "trainNumber": "2018M"
+      "tripId": "WD_INB_JO-28_1219_29309",
+      "trainNumber": "2218M"
     },
-    "prevTripId": "WD_INB_JO-28_1219_29280",
+    "prevTripId": "WD_INB_JO-28_1219_29309",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -15206,7 +15303,12 @@
     ],
     "trainId": "29331",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_1403_29331",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1403_31117",
+      "trainNumber": "2231M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1403_31117",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -15218,8 +15320,8 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "成田空港(鉄道)",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -15242,7 +15344,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "29298"
+    "trainId": "29298",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_INB_JO-28_1247_29223",
+      "trainNumber": "2020M"
+    },
+    "prevTripId": "WD_INB_JO-28_1247_29223",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_JO-06_1322_41039",
@@ -15458,7 +15567,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -15481,7 +15590,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "31136"
+    "trainId": "31136",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1333_30382",
+      "trainNumber": "2029M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1333_30382",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_JO-01_1324_4884",
@@ -16168,13 +16284,13 @@
       }
     ],
     "trainId": "29281",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_1320_29281",
-      "trainNumber": "2022M"
+      "tripId": "WD_INB_JO-28_1320_29310",
+      "trainNumber": "2222M"
     },
-    "prevTripId": "WD_INB_JO-28_1320_29281",
+    "prevTripId": "WD_INB_JO-28_1320_29310",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -16863,7 +16979,12 @@
     ],
     "trainId": "29332",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_1503_29332",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1503_31118",
+      "trainNumber": "2235M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1503_31118",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -16875,14 +16996,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "銚子",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "14:07:00",
+        "arrivalTime": "14:15:00",
         "departureTime": "14:17:00",
         "isPassing": false
       },
@@ -16900,7 +17021,12 @@
       }
     ],
     "trainId": "29299",
-    "prevTripId": "WD_INB_JO-28_1338_5363",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_INB_JO-28_1347_29224",
+      "trainNumber": "2024M"
+    },
+    "prevTripId": "WD_INB_JO-28_1347_29224",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -17117,7 +17243,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -17140,7 +17266,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "31137"
+    "trainId": "31137",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1433_30383",
+      "trainNumber": "2033M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1433_30383",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_JO-01_1424_4888",
@@ -17827,13 +17960,13 @@
       }
     ],
     "trainId": "29282",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_1419_29282",
-      "trainNumber": "2026M"
+      "tripId": "WD_INB_JO-28_1419_29311",
+      "trainNumber": "2226M"
     },
-    "prevTripId": "WD_INB_JO-28_1419_29282",
+    "prevTripId": "WD_INB_JO-28_1419_29311",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -18540,7 +18673,12 @@
     ],
     "trainId": "29333",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_1603_29333",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1603_31119",
+      "trainNumber": "4619F"
+    },
+    "throughTripId": "WD_OUT_JO-19_1603_31119",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -18552,14 +18690,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "成田空港(鉄道)",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "15:15:00",
+        "arrivalTime": "15:16:00",
         "departureTime": "15:18:00",
         "isPassing": false
       },
@@ -18576,7 +18714,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "29300"
+    "trainId": "29300",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_INB_JO-28_1448_29225",
+      "trainNumber": "2028M"
+    },
+    "prevTripId": "WD_INB_JO-28_1448_29225",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_OUT_JO-09_1519_4729",
@@ -18940,7 +19085,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -18963,7 +19108,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "31138"
+    "trainId": "31138",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1533_30384",
+      "trainNumber": "2037M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1533_30384",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_OUT_JO-16_1531_33449",
@@ -19335,7 +19487,12 @@
     "trainId": "41457",
     "trainName": "成田エクスプレス43号",
     "customOrigin": "逗子",
-    "throughTripId": "WD_OUT_JO-19_1637_41457",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1703_31120",
+      "trainNumber": "4577F"
+    },
+    "throughTripId": "WD_OUT_JO-19_1703_31120",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -19551,13 +19708,13 @@
       }
     ],
     "trainId": "29283",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_1520_29283",
-      "trainNumber": "2030M"
+      "tripId": "WD_INB_JO-28_1520_29312",
+      "trainNumber": "2230M"
     },
-    "prevTripId": "WD_INB_JO-28_1520_29283",
+    "prevTripId": "WD_INB_JO-28_1520_29312",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -20324,6 +20481,11 @@
     ],
     "trainId": "29334",
     "customOrigin": "大船",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1703_29334",
+      "trainNumber": "2043M"
+    },
     "throughTripId": "WD_OUT_JO-19_1703_29334",
     "throughLineId": "sobu_rapid"
   },
@@ -20456,14 +20618,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "成田空港(鉄道)",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "16:14:00",
+        "arrivalTime": "16:16:00",
         "departureTime": "16:18:00",
         "isPassing": false
       },
@@ -20480,7 +20642,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "29301"
+    "trainId": "29301",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_INB_JO-28_1548_29226",
+      "trainNumber": "2032M"
+    },
+    "prevTripId": "WD_INB_JO-28_1548_29226",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_JO-01_1621_4895",
@@ -20674,7 +20843,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -20693,11 +20862,18 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "16:31:00",
-        "departureTime": "16:37:00",
+        "departureTime": "16:33:00",
         "isPassing": false
       }
     ],
-    "trainId": "31139"
+    "trainId": "31139",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1633_30385",
+      "trainNumber": "2041M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1633_30385",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_JO-09_1628_42968",
@@ -21620,13 +21796,13 @@
       }
     ],
     "trainId": "29284",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_1619_29284",
-      "trainNumber": "2034M"
+      "tripId": "WD_INB_JO-28_1619_29313",
+      "trainNumber": "2234M"
     },
-    "prevTripId": "WD_INB_JO-28_1619_29284",
+    "prevTripId": "WD_INB_JO-28_1619_29313",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -22409,7 +22585,12 @@
     ],
     "trainId": "29335",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_1803_29335",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1803_31121",
+      "trainNumber": "2247M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1803_31121",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -22733,14 +22914,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "成田空港(鉄道)",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "17:18:00",
+        "arrivalTime": "17:20:00",
         "departureTime": "17:22:00",
         "isPassing": false
       },
@@ -22757,7 +22938,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "29302"
+    "trainId": "29302",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_INB_JO-28_1652_29227",
+      "trainNumber": "2036M"
+    },
+    "prevTripId": "WD_INB_JO-28_1652_29227",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_JO-17_1724_31127",
@@ -22793,6 +22981,11 @@
       }
     ],
     "trainId": "31127",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1733_31127",
+      "trainNumber": "2045M"
+    },
     "throughTripId": "WD_OUT_JO-19_1733_31127",
     "throughLineId": "sobu_rapid"
   },
@@ -23669,13 +23862,13 @@
       }
     ],
     "trainId": "29285",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_1719_29285",
-      "trainNumber": "2038M"
+      "tripId": "WD_INB_JO-28_1719_29314",
+      "trainNumber": "2238M"
     },
-    "prevTripId": "WD_INB_JO-28_1719_29285",
+    "prevTripId": "WD_INB_JO-28_1719_29314",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -24510,7 +24703,12 @@
     ],
     "trainId": "29336",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_1903_29336",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1903_31122",
+      "trainNumber": "2251M"
+    },
+    "throughTripId": "WD_OUT_JO-19_1903_31122",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -24678,7 +24876,7 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-09",
-    "customOrigin": "成田空港(鉄道)",
+    "customOrigin": "成田空港",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -24749,7 +24947,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "29276"
+    "trainId": "29276",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_INB_JO-28_1750_29230",
+      "trainNumber": "2240M"
+    },
+    "customDestination": "新宿",
+    "prevTripId": "WD_INB_JO-28_1750_29230",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_JO-01_1824_41082",
@@ -24917,6 +25123,11 @@
       }
     ],
     "trainId": "31128",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_1833_31128",
+      "trainNumber": "2049M"
+    },
     "throughTripId": "WD_OUT_JO-19_1833_31128",
     "throughLineId": "sobu_rapid"
   },
@@ -26574,7 +26785,12 @@
     ],
     "trainId": "29337",
     "customOrigin": "大船",
-    "throughTripId": "WD_OUT_JO-19_2003_29337",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_OUT_JO-19_2003_31123",
+      "trainNumber": "2253M"
+    },
+    "throughTripId": "WD_OUT_JO-19_2003_31123",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -26918,14 +27134,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "成田空港(鉄道)",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "19:20:00",
+        "arrivalTime": "19:19:00",
         "departureTime": "19:21:00",
         "isPassing": false
       },
@@ -26942,7 +27158,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "29303"
+    "trainId": "29303",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_INB_JO-28_1851_29228",
+      "trainNumber": "2044M"
+    },
+    "prevTripId": "WD_INB_JO-28_1851_29228",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_OUT_JO-19_1924_42925",
@@ -27925,7 +28148,7 @@
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "19:45:00",
+        "arrivalTime": "19:28:00",
         "departureTime": "19:47:00",
         "isPassing": false
       },
@@ -27991,13 +28214,13 @@
       }
     ],
     "trainId": "29287",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_1920_29287",
-      "trainNumber": "2046M"
+      "tripId": "WD_INB_JO-28_1920_29315",
+      "trainNumber": "2246M"
     },
-    "prevTripId": "WD_INB_JO-28_1920_29287",
+    "prevTripId": "WD_INB_JO-28_1920_29315",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -28526,7 +28749,7 @@
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
     "customOrigin": "成田空港",
-    "customDestination": "新宿",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -28550,7 +28773,12 @@
       }
     ],
     "trainId": "29304",
-    "prevTripId": "WD_INB_JO-28_1920_29315",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_INB_JO-28_1945_29229",
+      "trainNumber": "2048M"
+    },
+    "prevTripId": "WD_INB_JO-28_1945_29229",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -29900,13 +30128,13 @@
       }
     ],
     "trainId": "29288",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_2022_29288",
-      "trainNumber": "2050M"
+      "tripId": "WD_INB_JO-28_2022_29316",
+      "trainNumber": "2250M"
     },
-    "prevTripId": "WD_INB_JO-28_2022_29288",
+    "prevTripId": "WD_INB_JO-28_2022_29316",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -31106,13 +31334,13 @@
       }
     ],
     "trainId": "29289",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "WD_INB_JO-28_2114_29289",
-      "trainNumber": "2052M"
+      "tripId": "WD_INB_JO-28_2114_29317",
+      "trainNumber": "2252M"
     },
-    "prevTripId": "WD_INB_JO-28_2114_29289",
+    "prevTripId": "WD_INB_JO-28_2114_29317",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -32090,7 +32318,7 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-09",
-    "customOrigin": "成田空港(鉄道)",
+    "customOrigin": "成田空港",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -32161,7 +32389,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "29277"
+    "trainId": "29277",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "WD_INB_JO-28_2209_29231",
+      "trainNumber": "2254M"
+    },
+    "customDestination": "新宿",
+    "prevTripId": "WD_INB_JO-28_2209_29231",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_JO-01_2239_41103",
@@ -34009,7 +34245,12 @@
     ],
     "trainId": "29322",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_0618_29322",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_0618_31108",
+      "trainNumber": "2201M"
+    },
+    "throughTripId": "HD_OUT_JO-19_0618_31108",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -34784,6 +35025,11 @@
     ],
     "trainId": "29323",
     "customOrigin": "大船",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_0700_29323",
+      "trainNumber": "3791F"
+    },
     "throughTripId": "HD_OUT_JO-19_0700_29323",
     "throughLineId": "sobu_rapid"
   },
@@ -35581,7 +35827,12 @@
     ],
     "trainId": "29324",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_0731_29324",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_0731_31110",
+      "trainNumber": "2205M"
+    },
+    "throughTripId": "HD_OUT_JO-19_0731_31110",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -36214,6 +36465,11 @@
     ],
     "trainId": "29325",
     "customOrigin": "大船",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_0756_29325",
+      "trainNumber": "3767F"
+    },
     "throughTripId": "HD_OUT_JO-19_0756_29325",
     "throughLineId": "sobu_rapid"
   },
@@ -37825,6 +38081,11 @@
     ],
     "trainId": "29326",
     "customOrigin": "大船",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_0900_29326",
+      "trainNumber": "2011M"
+    },
     "throughTripId": "HD_OUT_JO-19_0900_29326",
     "throughLineId": "sobu_rapid"
   },
@@ -38308,7 +38569,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -38331,7 +38592,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "31129"
+    "trainId": "31129",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_0830_30375",
+      "trainNumber": "2009M"
+    },
+    "throughTripId": "HD_OUT_JO-19_0830_30375",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_OUT_JO-19_0821_29292",
@@ -39222,13 +39490,13 @@
       }
     ],
     "trainId": "29290",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_0814_29290",
-      "trainNumber": "2002M"
+      "tripId": "HD_INB_JO-28_0814_29320",
+      "trainNumber": "2202M"
     },
-    "prevTripId": "HD_INB_JO-28_0814_29290",
+    "prevTripId": "HD_INB_JO-28_0814_29320",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -39881,7 +40149,12 @@
     ],
     "trainId": "29327",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_1003_29327",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1003_31112",
+      "trainNumber": "2215M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1003_31112",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -40188,7 +40461,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -40211,7 +40484,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "31130"
+    "trainId": "31130",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_0930_30376",
+      "trainNumber": "2013M"
+    },
+    "throughTripId": "HD_OUT_JO-19_0930_30376",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_OUT_JO-19_0922_29318",
@@ -40229,7 +40509,7 @@
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "09:20:00",
+        "arrivalTime": "08:52:00",
         "departureTime": "09:22:00",
         "isPassing": false
       },
@@ -41296,7 +41576,7 @@
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "09:54:00",
+        "arrivalTime": "09:34:00",
         "departureTime": "09:56:00",
         "isPassing": false
       },
@@ -41362,13 +41642,13 @@
       }
     ],
     "trainId": "29291",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_0929_29291",
-      "trainNumber": "2006M"
+      "tripId": "HD_INB_JO-28_0929_29321",
+      "trainNumber": "2206M"
     },
-    "prevTripId": "HD_INB_JO-28_0929_29291",
+    "prevTripId": "HD_INB_JO-28_0929_29321",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -41881,7 +42161,12 @@
     ],
     "trainId": "29328",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_1103_29328",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1103_31114",
+      "trainNumber": "2219M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1103_31114",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -42128,7 +42413,7 @@
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
     "customOrigin": "成田空港",
-    "customDestination": "新宿",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -42152,7 +42437,12 @@
       }
     ],
     "trainId": "29295",
-    "prevTripId": "HD_INB_JO-28_0929_29321",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_INB_JO-28_0949_29220",
+      "trainNumber": "2008M"
+    },
+    "prevTripId": "HD_INB_JO-28_0949_29220",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -42165,7 +42455,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -42184,11 +42474,18 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "10:30:00",
-        "departureTime": "10:33:00",
+        "departureTime": "10:32:00",
         "isPassing": false
       }
     ],
-    "trainId": "31132"
+    "trainId": "31132",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1032_30378",
+      "trainNumber": "2017M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1032_30378",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_OUT_JO-19_1025_42215",
@@ -42943,13 +43240,13 @@
       }
     ],
     "trainId": "29278",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_1019_29278",
-      "trainNumber": "2010M"
+      "tripId": "HD_INB_JO-28_1019_29307",
+      "trainNumber": "2210M"
     },
-    "prevTripId": "HD_INB_JO-28_1019_29278",
+    "prevTripId": "HD_INB_JO-28_1019_29307",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -43770,7 +44067,12 @@
     ],
     "trainId": "29329",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_1203_29329",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1203_31115",
+      "trainNumber": "2223M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1203_31115",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -43782,14 +44084,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "成田空港(鉄道)",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "11:14:00",
+        "arrivalTime": "11:15:00",
         "departureTime": "11:17:00",
         "isPassing": false
       },
@@ -43806,7 +44108,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "29296"
+    "trainId": "29296",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_INB_JO-28_1047_29221",
+      "trainNumber": "2012M"
+    },
+    "prevTripId": "HD_INB_JO-28_1047_29221",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_OUT_JO-19_1123_42218",
@@ -43920,7 +44229,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -43939,11 +44248,18 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "11:30:00",
-        "departureTime": "11:33:00",
+        "departureTime": "11:32:00",
         "isPassing": false
       }
     ],
-    "trainId": "31134"
+    "trainId": "31134",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1132_30380",
+      "trainNumber": "2021M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1132_30380",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_JO-06_1125_41032",
@@ -44732,13 +45048,13 @@
       }
     ],
     "trainId": "29279",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_1119_29279",
-      "trainNumber": "2014M"
+      "tripId": "HD_INB_JO-28_1119_29308",
+      "trainNumber": "2214M"
     },
-    "prevTripId": "HD_INB_JO-28_1119_29279",
+    "prevTripId": "HD_INB_JO-28_1119_29308",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -45427,7 +45743,12 @@
     ],
     "trainId": "29330",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_1303_29330",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1303_31116",
+      "trainNumber": "2227M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1303_31116",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -45440,13 +45761,13 @@
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
     "customOrigin": "成田空港",
-    "customDestination": "新宿",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "12:07:00",
+        "arrivalTime": "12:15:00",
         "departureTime": "12:17:00",
         "isPassing": false
       },
@@ -45464,7 +45785,12 @@
       }
     ],
     "trainId": "29297",
-    "prevTripId": "HD_INB_JO-28_1137_5362",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_INB_JO-28_1147_29222",
+      "trainNumber": "2016M"
+    },
+    "prevTripId": "HD_INB_JO-28_1147_29222",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -45681,7 +46007,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -45704,7 +46030,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "31135"
+    "trainId": "31135",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1233_30381",
+      "trainNumber": "2025M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1233_30381",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_JO-01_1224_4881",
@@ -46391,13 +46724,13 @@
       }
     ],
     "trainId": "29280",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_1219_29280",
-      "trainNumber": "2018M"
+      "tripId": "HD_INB_JO-28_1219_29309",
+      "trainNumber": "2218M"
     },
-    "prevTripId": "HD_INB_JO-28_1219_29280",
+    "prevTripId": "HD_INB_JO-28_1219_29309",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -47086,7 +47419,12 @@
     ],
     "trainId": "29331",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_1403_29331",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1403_31117",
+      "trainNumber": "2231M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1403_31117",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -47098,8 +47436,8 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "成田空港(鉄道)",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -47122,7 +47460,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "29298"
+    "trainId": "29298",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_INB_JO-28_1247_29223",
+      "trainNumber": "2020M"
+    },
+    "prevTripId": "HD_INB_JO-28_1247_29223",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_JO-06_1322_41040",
@@ -47338,7 +47683,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -47361,7 +47706,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "31136"
+    "trainId": "31136",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1333_30382",
+      "trainNumber": "2029M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1333_30382",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_JO-01_1324_4885",
@@ -48048,13 +48400,13 @@
       }
     ],
     "trainId": "29281",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_1320_29281",
-      "trainNumber": "2022M"
+      "tripId": "HD_INB_JO-28_1320_29310",
+      "trainNumber": "2222M"
     },
-    "prevTripId": "HD_INB_JO-28_1320_29281",
+    "prevTripId": "HD_INB_JO-28_1320_29310",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -48743,7 +49095,12 @@
     ],
     "trainId": "29332",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_1503_29332",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1503_31118",
+      "trainNumber": "2235M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1503_31118",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -48755,14 +49112,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "銚子",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "14:07:00",
+        "arrivalTime": "14:15:00",
         "departureTime": "14:17:00",
         "isPassing": false
       },
@@ -48780,7 +49137,12 @@
       }
     ],
     "trainId": "29299",
-    "prevTripId": "HD_INB_JO-28_1338_5363",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_INB_JO-28_1347_29224",
+      "trainNumber": "2024M"
+    },
+    "prevTripId": "HD_INB_JO-28_1347_29224",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -48997,7 +49359,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -49020,7 +49382,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "31137"
+    "trainId": "31137",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1433_30383",
+      "trainNumber": "2033M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1433_30383",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_JO-01_1424_4889",
@@ -49707,13 +50076,13 @@
       }
     ],
     "trainId": "29282",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_1419_29282",
-      "trainNumber": "2026M"
+      "tripId": "HD_INB_JO-28_1419_29311",
+      "trainNumber": "2226M"
     },
-    "prevTripId": "HD_INB_JO-28_1419_29282",
+    "prevTripId": "HD_INB_JO-28_1419_29311",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -50420,7 +50789,12 @@
     ],
     "trainId": "29333",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_1603_29333",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1603_31119",
+      "trainNumber": "4619F"
+    },
+    "throughTripId": "HD_OUT_JO-19_1603_31119",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -50432,14 +50806,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "成田空港(鉄道)",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "15:15:00",
+        "arrivalTime": "15:16:00",
         "departureTime": "15:18:00",
         "isPassing": false
       },
@@ -50456,7 +50830,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "29300"
+    "trainId": "29300",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_INB_JO-28_1448_29225",
+      "trainNumber": "2028M"
+    },
+    "prevTripId": "HD_INB_JO-28_1448_29225",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_OUT_JO-09_1518_4727",
@@ -50820,7 +51201,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -50843,7 +51224,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "31138"
+    "trainId": "31138",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1533_30384",
+      "trainNumber": "2037M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1533_30384",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_OUT_JO-16_1531_33450",
@@ -51215,7 +51603,12 @@
     "trainId": "41458",
     "customOrigin": "逗子",
     "trainName": "成田エクスプレス41号",
-    "throughTripId": "HD_OUT_JO-19_1637_41458",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1638_30385",
+      "trainNumber": "2041M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1638_30385",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -51431,13 +51824,13 @@
       }
     ],
     "trainId": "29283",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_1520_29283",
-      "trainNumber": "2030M"
+      "tripId": "HD_INB_JO-28_1520_29312",
+      "trainNumber": "2230M"
     },
-    "prevTripId": "HD_INB_JO-28_1520_29283",
+    "prevTripId": "HD_INB_JO-28_1520_29312",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -52264,7 +52657,12 @@
     ],
     "trainId": "29334",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_1703_29334",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1703_31120",
+      "trainNumber": "4721F"
+    },
+    "throughTripId": "HD_OUT_JO-19_1703_31120",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -52378,14 +52776,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "成田空港(鉄道)",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "16:14:00",
+        "arrivalTime": "16:16:00",
         "departureTime": "16:18:00",
         "isPassing": false
       },
@@ -52402,7 +52800,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "29301"
+    "trainId": "29301",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_INB_JO-28_1548_29226",
+      "trainNumber": "2032M"
+    },
+    "prevTripId": "HD_INB_JO-28_1548_29226",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_JO-01_1621_4894",
@@ -52596,7 +53001,7 @@
     "originStationId": "JO-17",
     "destinationStationId": "JO-19",
     "customOrigin": "新宿",
-    "customDestination": "成田空港(鉄道)",
+    "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -52615,11 +53020,13 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "16:31:00",
-        "departureTime": "16:37:00",
+        "departureTime": "16:38:00",
         "isPassing": false
       }
     ],
-    "trainId": "31139"
+    "trainId": "31139",
+    "throughTripId": "HD_OUT_JO-19_1638_30385",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_JO-07_1624_42164",
@@ -53516,13 +53923,13 @@
       }
     ],
     "trainId": "29284",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_1619_29284",
-      "trainNumber": "2034M"
+      "tripId": "HD_INB_JO-28_1619_29313",
+      "trainNumber": "2234M"
     },
-    "prevTripId": "HD_INB_JO-28_1619_29284",
+    "prevTripId": "HD_INB_JO-28_1619_29313",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -54275,7 +54682,12 @@
     ],
     "trainId": "29335",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_1803_29335",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1803_31121",
+      "trainNumber": "2247M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1803_31121",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -54497,14 +54909,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "成田空港(鉄道)",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "17:18:00",
+        "arrivalTime": "17:20:00",
         "departureTime": "17:22:00",
         "isPassing": false
       },
@@ -54521,7 +54933,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "29302"
+    "trainId": "29302",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_INB_JO-28_1652_29227",
+      "trainNumber": "2036M"
+    },
+    "prevTripId": "HD_INB_JO-28_1652_29227",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_JO-17_1724_31127",
@@ -54557,6 +54976,11 @@
       }
     ],
     "trainId": "31127",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1733_31127",
+      "trainNumber": "2045M"
+    },
     "throughTripId": "HD_OUT_JO-19_1733_31127",
     "throughLineId": "sobu_rapid"
   },
@@ -55419,13 +55843,13 @@
       }
     ],
     "trainId": "29285",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_1719_29285",
-      "trainNumber": "2038M"
+      "tripId": "HD_INB_JO-28_1719_29314",
+      "trainNumber": "2238M"
     },
-    "prevTripId": "HD_INB_JO-28_1719_29285",
+    "prevTripId": "HD_INB_JO-28_1719_29314",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -56260,7 +56684,12 @@
     ],
     "trainId": "29336",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_1903_29336",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1903_31122",
+      "trainNumber": "2251M"
+    },
+    "throughTripId": "HD_OUT_JO-19_1903_31122",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -56494,7 +56923,7 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-09",
-    "customOrigin": "成田空港(鉄道)",
+    "customOrigin": "成田空港",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -56565,7 +56994,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "29276"
+    "trainId": "29276",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_INB_JO-28_1750_29230",
+      "trainNumber": "2240M"
+    },
+    "customDestination": "新宿",
+    "prevTripId": "HD_INB_JO-28_1750_29230",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_JO-01_1820_41081",
@@ -56733,6 +57170,11 @@
       }
     ],
     "trainId": "31128",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_1833_31128",
+      "trainNumber": "2049M"
+    },
     "throughTripId": "HD_OUT_JO-19_1833_31128",
     "throughLineId": "sobu_rapid"
   },
@@ -58332,7 +58774,12 @@
     ],
     "trainId": "29337",
     "customOrigin": "大船",
-    "throughTripId": "HD_OUT_JO-19_2003_29337",
+    "through": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_OUT_JO-19_2003_31123",
+      "trainNumber": "2253M"
+    },
+    "throughTripId": "HD_OUT_JO-19_2003_31123",
     "throughLineId": "sobu_rapid"
   },
   {
@@ -58710,14 +59157,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
-    "customOrigin": "成田空港(鉄道)",
-    "customDestination": "新宿",
+    "customOrigin": "成田空港",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "19:20:00",
+        "arrivalTime": "19:19:00",
         "departureTime": "19:21:00",
         "isPassing": false
       },
@@ -58734,7 +59181,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "29303"
+    "trainId": "29303",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_INB_JO-28_1851_29228",
+      "trainNumber": "2044M"
+    },
+    "prevTripId": "HD_INB_JO-28_1851_29228",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_OUT_JO-19_1927_42200",
@@ -59567,7 +60021,7 @@
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "19:45:00",
+        "arrivalTime": "19:28:00",
         "departureTime": "19:47:00",
         "isPassing": false
       },
@@ -59633,13 +60087,13 @@
       }
     ],
     "trainId": "29287",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_1920_29287",
-      "trainNumber": "2046M"
+      "tripId": "HD_INB_JO-28_1920_29315",
+      "trainNumber": "2246M"
     },
-    "prevTripId": "HD_INB_JO-28_1920_29287",
+    "prevTripId": "HD_INB_JO-28_1920_29315",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -60230,7 +60684,7 @@
     "originStationId": "JO-19",
     "destinationStationId": "JO-17",
     "customOrigin": "成田空港",
-    "customDestination": "新宿",
+    "customDestination": "大船",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -60254,7 +60708,12 @@
       }
     ],
     "trainId": "29304",
-    "prevTripId": "HD_INB_JO-28_1920_29315",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_INB_JO-28_1945_29229",
+      "trainNumber": "2048M"
+    },
+    "prevTripId": "HD_INB_JO-28_1945_29229",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -61464,13 +61923,13 @@
       }
     ],
     "trainId": "29288",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_2022_29288",
-      "trainNumber": "2050M"
+      "tripId": "HD_INB_JO-28_2022_29316",
+      "trainNumber": "2250M"
     },
-    "prevTripId": "HD_INB_JO-28_2022_29288",
+    "prevTripId": "HD_INB_JO-28_2022_29316",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -62802,13 +63261,13 @@
       }
     ],
     "trainId": "29289",
-    "customDestination": "大船",
+    "customDestination": "新宿",
     "previousTrip": {
       "lineId": "sobu_rapid",
-      "tripId": "HD_INB_JO-28_2114_29289",
-      "trainNumber": "2052M"
+      "tripId": "HD_INB_JO-28_2114_29317",
+      "trainNumber": "2252M"
     },
-    "prevTripId": "HD_INB_JO-28_2114_29289",
+    "prevTripId": "HD_INB_JO-28_2114_29317",
     "prevLineId": "sobu_rapid"
   },
   {
@@ -63786,7 +64245,7 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-09",
-    "customOrigin": "成田空港(鉄道)",
+    "customOrigin": "成田空港",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -63857,7 +64316,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "29277"
+    "trainId": "29277",
+    "previousTrip": {
+      "lineId": "sobu_rapid",
+      "tripId": "HD_INB_JO-28_2209_29231",
+      "trainNumber": "2254M"
+    },
+    "customDestination": "新宿",
+    "prevTripId": "HD_INB_JO-28_2209_29231",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_JO-01_2239_41101",
