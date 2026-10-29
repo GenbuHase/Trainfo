@@ -2,6 +2,46 @@
 module.exports = {
   "connections": [
     {
+      "name": "武蔵野線 -> 京葉線 (市川塩浜直通 東京方面)",
+      "lineA": "musashino",
+      "lineB": "keiyo",
+      "stationA": "JE-09",
+      "stationB": "JE-09",
+      "dirA": "outbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "京葉線 -> 武蔵野線 (市川塩浜直通 府中本町方面)",
+      "lineA": "keiyo",
+      "lineB": "musashino",
+      "stationA": "JE-09",
+      "stationB": "JE-09",
+      "dirA": "outbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "武蔵野線 -> 京葉線 (南船橋直通 海浜幕張方面)",
+      "lineA": "musashino",
+      "lineB": "keiyo",
+      "stationA": "JE-11",
+      "stationB": "JE-11",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "京葉線 -> 武蔵野線 (南船橋直通 府中本町方面)",
+      "lineA": "keiyo",
+      "lineB": "musashino",
+      "stationA": "JE-11",
+      "stationB": "JE-11",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 360
+    },
+    {
       "name": "京葉線 -> 内房線 (下り直通)",
       "lineA": "keiyo",
       "lineB": "uchibo",

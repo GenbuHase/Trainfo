@@ -100,7 +100,7 @@ function processLine(lineDef) {
     // 境界確定駅が定義されている場合は最優先で採用
     let fixedCoord = FIXED_BOUNDARY_STATIONS[st.name];
     if (st.name === '東京' && lineDef.lineId === 'keiyo') {
-      fixedCoord = [35.67771, 139.76515]; // 京葉線地下ホーム (総武快速線誤スナップ・43km大迂回防止)
+      fixedCoord = [35.677755, 139.764631]; // 京葉線地下ホーム (武蔵野線設定準拠・違和感のない位置)
     }
     if (st.name === '大宮' && lineDef.lineId === 'keihin_tohoku_negishi') {
       fixedCoord = [35.90505, 139.62491]; // 京浜東北線東側ホーム (西側別線誤スナップ・赤羽32km大迂回防止)
