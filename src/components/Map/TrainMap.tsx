@@ -160,6 +160,7 @@ export const TrainMap: React.FC = () => {
         </div>
       )}
 
+
       {/* 地図コントロール (右下配置、モバイル時のTimeControllerとの被りを完全防止) */}
       <div
         className={`absolute right-[calc(0.75rem+env(safe-area-inset-right,0px))] sm:right-[calc(1rem+env(safe-area-inset-right,0px))] z-[1000] flex flex-col gap-2 pointer-events-auto transition-all duration-300 ease-in-out ${

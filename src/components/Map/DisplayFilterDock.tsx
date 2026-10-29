@@ -206,9 +206,7 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
   // 路線トグル
   const handleToggleLine = (lineId: LineId) => {
     if (selectedLineIds.includes(lineId)) {
-      if (selectedLineIds.length > 1) {
-        onChangeSelectedLines(selectedLineIds.filter((id) => id !== lineId));
-      }
+      onChangeSelectedLines(selectedLineIds.filter((id) => id !== lineId));
     } else {
       onChangeSelectedLines([...selectedLineIds, lineId]);
     }
@@ -279,6 +277,8 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
   const lineSummaryText =
     selectedLineIds.length === allLines.length
       ? '全路線'
+      : selectedLineIds.length === 0
+      ? '0路線'
       : selectedLineIds.length === 1
       ? allLines.find((l) => l.id === selectedLineIds[0])?.shortName || '1路線'
       : `${selectedLineIds.length}路線`;
@@ -551,7 +551,7 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
               <div className="absolute left-0 mt-2 w-80 sm:w-96 bg-white rounded-xl shadow-2xl border border-slate-200 py-1.5 z-50 animate-in fade-in zoom-in-95 duration-150">
                 <div className="px-3 py-1.5 border-b border-slate-100 flex items-center justify-between">
                   <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider">
-                    表示路線フィルター
+                    表示路線
                   </span>
                   <span className="text-xs text-slate-400 font-mono">
                     {selectedLineIds.length}/{allLines.length} 路線
@@ -663,7 +663,7 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
           <button
             type="button"
             onClick={() => setIsMobileModalOpen((prev) => !prev)}
-            className={`shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg shadow-md border text-xs font-semibold backdrop-blur-md transition-all ${
+            className={`shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg shadow-md border text-xs font-semibold backdrop-blur-md whitespace-nowrap transition-all ${
               isFiltered
                 ? 'bg-sky-50/95 text-sky-800 border-sky-300 ring-2 ring-sky-400/20'
                 : 'bg-white/95 text-slate-700 border-slate-200 hover:bg-slate-50'
@@ -676,9 +676,15 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
               } shrink-0`}
             />
             <span className="whitespace-nowrap">絞り込み</span>
-            {isFiltered && (
-              <span className="w-2 h-2 rounded-full bg-sky-500 ring-2 ring-white shrink-0" />
-            )}
+            <span
+              className={`text-[10px] px-1.5 py-0.5 rounded font-mono shrink-0 whitespace-nowrap ${
+                isFiltered
+                  ? 'bg-sky-100/90 text-sky-700 font-bold'
+                  : 'bg-slate-100 text-slate-500'
+              }`}
+            >
+              {selectedLineIds.length}/{allLines.length}
+            </span>
           </button>
 
           {/* モバイル用 ボトムシートモーダル */}
@@ -701,7 +707,7 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
                   <div className="flex items-center justify-between pb-2.5 border-b border-slate-100">
                     <span className="font-bold text-slate-800 text-base flex items-center gap-2">
                       <Filter className="w-5 h-5 text-sky-600" />
-                      表示フィルター
+                      表示路線
                     </span>
                     <div className="flex items-center gap-2">
                       {isFiltered && (

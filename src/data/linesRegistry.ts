@@ -436,7 +436,7 @@ export function getLine(lineId: LineId): LineDefinition | undefined {
 
 // 選択された路線（または全路線）の駅リストを取得（駅ID重複を除外してユニーク化）
 export function getCombinedStations(selectedLineIds?: LineId[]): Station[] {
-  const lines = selectedLineIds && selectedLineIds.length > 0
+  const lines = selectedLineIds !== undefined
     ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
     : getAllLines();
 
@@ -455,7 +455,7 @@ export function getCombinedStations(selectedLineIds?: LineId[]): Station[] {
 
 // 選択された路線（または全路線）の線路セグメントを取得
 export function getCombinedTrackSegments(selectedLineIds?: LineId[]): TrackSegment[] {
-  const lines = selectedLineIds && selectedLineIds.length > 0
+  const lines = selectedLineIds !== undefined
     ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
     : getAllLines();
 
@@ -464,7 +464,7 @@ export function getCombinedTrackSegments(selectedLineIds?: LineId[]): TrackSegme
 
 // 選択された路線（または全路線）の列車種別設定を取得
 export function getCombinedTrainTypes(selectedLineIds?: LineId[]): Record<string, TrainTypeConfig> {
-  const lines = selectedLineIds && selectedLineIds.length > 0
+  const lines = selectedLineIds !== undefined
     ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
     : getAllLines();
 
@@ -549,7 +549,7 @@ export function getTrainTypeConfig(
 
 // 選択された路線（または全路線）のダイヤ（全列車）を取得
 export function getCombinedGlobalTimetable(selectedLineIds?: LineId[]): TimetableTrip[] {
-  const lines = selectedLineIds && selectedLineIds.length > 0
+  const lines = selectedLineIds !== undefined
     ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
     : getAllLines();
 
@@ -558,7 +558,7 @@ export function getCombinedGlobalTimetable(selectedLineIds?: LineId[]): Timetabl
 
 // 選択された路線（または全路線）の各駅時刻表ストアを取得
 export function getCombinedStationTimetables(selectedLineIds?: LineId[]): StationTimetableStore {
-  const lines = selectedLineIds && selectedLineIds.length > 0
+  const lines = selectedLineIds !== undefined
     ? selectedLineIds.map((id) => LINES_REGISTRY[id]).filter(Boolean)
     : getAllLines();
 
