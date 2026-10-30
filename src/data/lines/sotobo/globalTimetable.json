@@ -14036,55 +14036,6 @@
     ]
   },
   {
-    "tripId": "WD_INB_SB-03_1625_14406",
-    "lineId": "sotobo",
-    "trainId": "14406",
-    "trainNumber": "9042M",
-    "trainType": "limitedExp",
-    "trainName": "新宿さざなみ2号",
-    "direction": "inbound",
-    "originStationId": "SB-03",
-    "destinationStationId": "SB-01",
-    "customOrigin": "館山",
-    "customDestination": "新宿",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "SB-03",
-        "arrivalTime": "16:24:00",
-        "departureTime": "16:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "SB-02",
-        "arrivalTime": "16:27:30",
-        "departureTime": "16:27:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "SB-01",
-        "arrivalTime": "16:30:00",
-        "departureTime": "16:31:00",
-        "isPassing": false
-      }
-    ],
-    "previousTrip": {
-      "lineId": "uchibo",
-      "tripId": "WD_INB_UB-22_1507_14406",
-      "trainNumber": "9046M"
-    },
-    "through": {
-      "lineId": "chuo_sobu_local",
-      "tripId": "WD_INB_JB-39_1631_14406",
-      "trainNumber": "9046M"
-    },
-    "prevTripId": "WD_INB_UB-22_1507_14406",
-    "prevLineId": "uchibo",
-    "throughTripId": "WD_INB_JB-39_1631_14406",
-    "throughLineId": "chuo_sobu_local"
-  },
-  {
     "tripId": "WD_INB_SB-27_1631_40481",
     "lineId": "sotobo",
     "trainId": "40481",
@@ -27678,12 +27629,12 @@
     ],
     "customDestination": "安房鴨川",
     "previousTrip": {
-      "lineId": "sobu_rapid",
-      "tripId": "WD_OUT_JO-22_0739_40529",
+      "lineId": "chuo_sobu_local",
+      "tripId": "HD_OUT_JB-10_0721_14414",
       "trainNumber": "9055M"
     },
-    "prevTripId": "HD_OUT_JO-22_0739_40528",
-    "prevLineId": "sobu_rapid"
+    "prevTripId": "HD_OUT_JB-10_0721_14414",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_SB-27_0811_40486",
@@ -37276,6 +37227,8 @@
       "tripId": "HD_INB_JB-39_1631_14406",
       "trainNumber": "9046M"
     },
+    "prevTripId": "HD_INB_UB-22_1507_14406",
+    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JB-39_1631_14406",
     "throughLineId": "chuo_sobu_local"
   },
@@ -46236,8 +46189,8 @@
       }
     ],
     "previousTrip": {
-      "lineId": "sobu_rapid",
-      "tripId": "HD_OUT_JO-22_0810_10490",
+      "lineId": "chuo_sobu_local",
+      "tripId": "HD_OUT_JB-10_0752_14399",
       "trainNumber": "9043M"
     },
     "through": {
@@ -46247,56 +46200,7 @@
     },
     "throughTripId": "HD_OUT_UB-01_0845_14399",
     "throughLineId": "uchibo",
-    "prevTripId": "HD_OUT_JO-22_0810_10490",
-    "prevLineId": "sobu_rapid"
-  },
-  {
-    "tripId": "WD_OUT_SB-01_0952_14400",
-    "lineId": "sotobo",
-    "trainId": "14400",
-    "trainNumber": "9045M",
-    "trainType": "limitedExp",
-    "trainName": "新宿さざなみ3号",
-    "direction": "outbound",
-    "originStationId": "SB-01",
-    "destinationStationId": "SB-03",
-    "customOrigin": "新宿",
-    "customDestination": "館山",
-    "cars": 5,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "SB-01",
-        "arrivalTime": "09:50:00",
-        "departureTime": "09:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "SB-02",
-        "arrivalTime": "09:55:00",
-        "departureTime": "09:55:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "SB-03",
-        "arrivalTime": "09:58:00",
-        "departureTime": "10:01:00",
-        "isPassing": false
-      }
-    ],
-    "previousTrip": {
-      "lineId": "chuo_sobu_local",
-      "tripId": "WD_OUT_JB-10_0908_14400",
-      "trainNumber": "9045M"
-    },
-    "through": {
-      "lineId": "uchibo",
-      "tripId": "WD_OUT_UB-01_1001_14400",
-      "trainNumber": "9045M"
-    },
-    "throughTripId": "WD_OUT_UB-01_1001_14400",
-    "throughLineId": "uchibo",
-    "prevTripId": "WD_OUT_JB-10_0908_14400",
+    "prevTripId": "HD_OUT_JB-10_0752_14399",
     "prevLineId": "chuo_sobu_local"
   },
   {

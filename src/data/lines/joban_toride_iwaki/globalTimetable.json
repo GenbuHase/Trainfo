@@ -11899,9 +11899,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "10484",
-    "prevTripId": "WD_OUT_JL-26_1006_10484",
-    "prevLineId": "joban_rapid"
+    "trainId": "10484"
   },
   {
     "tripId": "WD_OUT_JN-17_1030_14334",
@@ -23790,6 +23788,7 @@
       }
     ],
     "trainId": "10485",
+    "customOrigin": "稲城長沼",
     "throughTripId": "WD_INB_JJ-10_1647_10485",
     "throughLineId": "joban_rapid"
   },
@@ -72368,9 +72367,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "10484",
-    "prevTripId": "HD_OUT_JL-26_1006_10484",
-    "prevLineId": "joban_rapid"
+    "trainId": "10484"
   },
   {
     "tripId": "HD_INB_JN-18_1624_10485",
@@ -72495,6 +72492,7 @@
       }
     ],
     "trainId": "10485",
+    "customOrigin": "稲城長沼",
     "throughTripId": "HD_INB_JJ-10_1647_10485",
     "throughLineId": "joban_rapid"
   },
@@ -72511,8 +72509,6 @@
     "cars": 8,
     "isHoliday": false,
     "trainId": "43294",
-    "prevTripId": "WD_OUT_JL-26_0912_43294",
-    "prevLineId": "joban_rapid",
     "stops": [
       {
         "stationId": "JN-01",
@@ -72637,8 +72633,6 @@
     "cars": 8,
     "isHoliday": true,
     "trainId": "43294",
-    "prevTripId": "HD_OUT_JL-26_0912_43294",
-    "prevLineId": "joban_rapid",
     "stops": [
       {
         "stationId": "JN-01",
@@ -72763,8 +72757,6 @@
     "cars": 8,
     "isHoliday": false,
     "trainId": "43295",
-    "throughTripId": "WD_INB_JJ-10_1704_43295",
-    "throughLineId": "joban_rapid",
     "stops": [
       {
         "stationId": "JN-18",
@@ -72874,7 +72866,10 @@
         "departureTime": "17:04:00",
         "isPassing": true
       }
-    ]
+    ],
+    "customOrigin": "稲城長沼",
+    "throughTripId": "WD_INB_JJ-10_1704_43295",
+    "throughLineId": "joban_rapid"
   },
   {
     "tripId": "HD_INB_JN-18_1624_43295",
@@ -72889,8 +72884,6 @@
     "cars": 8,
     "isHoliday": true,
     "trainId": "43295",
-    "throughTripId": "HD_INB_JJ-10_1704_43295",
-    "throughLineId": "joban_rapid",
     "stops": [
       {
         "stationId": "JN-18",
@@ -73000,6 +72993,9 @@
         "departureTime": "17:04:00",
         "isPassing": true
       }
-    ]
+    ],
+    "customOrigin": "稲城長沼",
+    "throughTripId": "HD_INB_JJ-10_1704_43295",
+    "throughLineId": "joban_rapid"
   }
 ]

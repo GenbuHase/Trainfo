@@ -365,7 +365,8 @@ export const UCHIBO_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "rapid"
+      "rapid",
+      "limitedExp"
     ]
   },
   {

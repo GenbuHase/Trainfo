@@ -1022,6 +1022,7 @@ class YahooTimetableBuilder {
           d: destName,
           no: trip.trainNumber,
           tripId: trip.tripId,
+          ...(trip.trainName ? { trainName: trip.trainName } : {}),
         };
 
         if (store[dayKey][stop.stationId]) {

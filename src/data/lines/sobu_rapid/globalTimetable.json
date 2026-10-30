@@ -1187,7 +1187,9 @@
       "trainNumber": "2201M"
     },
     "throughTripId": "WD_OUT_SM-01_0644_31108",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_0528_29322",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_0621_5237",
@@ -1728,7 +1730,7 @@
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
-    "customOrigin": "成東",
+    "customOrigin": "銚子",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -2228,7 +2230,7 @@
       "tripId": "WD_INB_JO-09_0606_29323",
       "trainNumber": "3737F"
     },
-    "throughTripId": "WD_OUT_SM-01_0753_29323",
+    "throughTripId": "WD_OUT_SM-01_0753_5475",
     "throughLineId": "sobu_main",
     "prevTripId": "WD_INB_JO-09_0606_29323",
     "prevLineId": "yokosuka"
@@ -2320,7 +2322,9 @@
       "trainNumber": "2203M"
     },
     "throughTripId": "WD_OUT_SM-01_0726_31109",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_0606_29323",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_0701_42921",
@@ -2475,7 +2479,7 @@
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
-    "customOrigin": "佐倉",
+    "customOrigin": "銚子",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -3072,7 +3076,7 @@
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
-    "customOrigin": "佐倉",
+    "customOrigin": "銚子",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -3144,7 +3148,7 @@
       "tripId": "WD_INB_SM-06_0704_5896",
       "trainNumber": "4006M"
     },
-    "prevTripId": "WD_INB_SM-06_0652_5895",
+    "prevTripId": "WD_INB_SM-06_0704_5896",
     "prevLineId": "sobu_main"
   },
   {
@@ -3543,7 +3547,9 @@
       "trainNumber": "2205M"
     },
     "throughTripId": "WD_OUT_SM-01_0758_31110",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_0638_29324",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_0731_5391",
@@ -3925,70 +3931,6 @@
     "customOrigin": "津田沼",
     "throughTripId": "WD_OUT_JO-19_0809_42933",
     "throughLineId": "yokosuka"
-  },
-  {
-    "tripId": "WD_OUT_JO-22_0739_40529",
-    "lineId": "sobu_rapid",
-    "trainNumber": "9051M",
-    "trainType": "limitedExp",
-    "trainName": "新宿わかしお1号",
-    "direction": "outbound",
-    "originStationId": "JO-22",
-    "destinationStationId": "JO-28",
-    "customOrigin": "新宿",
-    "customDestination": "安房鴨川",
-    "cars": 15,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JO-22",
-        "arrivalTime": "07:38:00",
-        "departureTime": "07:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JO-23",
-        "arrivalTime": "07:42:47",
-        "departureTime": "07:42:47",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-24",
-        "arrivalTime": "07:46:42",
-        "departureTime": "07:46:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-25",
-        "arrivalTime": "07:53:00",
-        "departureTime": "07:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JO-26",
-        "arrivalTime": "07:56:37",
-        "departureTime": "07:56:37",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-27",
-        "arrivalTime": "08:03:33",
-        "departureTime": "08:03:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-28",
-        "arrivalTime": "08:06:00",
-        "departureTime": "08:10:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "40529",
-    "through": {
-      "lineId": "sotobo",
-      "tripId": "HD_OUT_SB-01_0810_14414",
-      "trainNumber": "9055M"
-    }
   },
   {
     "tripId": "WD_OUT_JO-19_0740_5063",
@@ -4733,8 +4675,10 @@
       "tripId": "WD_INB_JO-09_0700_29325",
       "trainNumber": "3659F"
     },
-    "throughTripId": "WD_OUT_SM-01_0830_31111",
-    "throughLineId": "sobu_main"
+    "throughTripId": "WD_OUT_SM-01_0851_41376",
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_0700_29325",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_0756_5393",
@@ -5401,7 +5345,7 @@
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
-    "customOrigin": "成東",
+    "customOrigin": "成田空港",
     "customDestination": "大船",
     "cars": 15,
     "isHoliday": false,
@@ -5478,9 +5422,9 @@
       "tripId": "WD_OUT_JO-19_0854_29290",
       "trainNumber": "2002M"
     },
-    "prevTripId": "WD_INB_SM-11_0705_42838",
+    "prevTripId": "WD_INB_SM-06_0800_29215",
     "prevLineId": "sobu_main",
-    "throughTripId": "WD_OUT_JO-19_0922_29318",
+    "throughTripId": "WD_OUT_JO-19_0854_29290",
     "throughLineId": "yokosuka"
   },
   {
@@ -5492,7 +5436,7 @@
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
-    "customOrigin": "上総一ノ宮",
+    "customOrigin": "成田空港",
     "customDestination": "新宿",
     "cars": 15,
     "isHoliday": false,
@@ -5569,8 +5513,8 @@
       "tripId": "WD_OUT_JO-19_0854_29290",
       "trainNumber": "2202M"
     },
-    "prevTripId": "WD_INB_SB-13_0713_5937",
-    "prevLineId": "sotobo",
+    "prevTripId": "WD_INB_SM-06_0800_29244",
+    "prevLineId": "sobu_main",
     "throughTripId": "WD_OUT_JO-19_0854_29290",
     "throughLineId": "yokosuka"
   },
@@ -6819,7 +6763,9 @@
       "trainNumber": "2004M"
     },
     "prevTripId": "WD_INB_SM-06_0838_29243",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_0922_29318",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-26_0853_41420",
@@ -7209,7 +7155,7 @@
       }
     ],
     "trainId": "5368",
-    "customDestination": "新宿",
+    "customDestination": "東京",
     "previousTrip": {
       "lineId": "sobu_main",
       "tripId": "WD_INB_SM-22_0742_5910",
@@ -7826,7 +7772,7 @@
     },
     "prevTripId": "WD_INB_SM-06_0916_29216",
     "prevLineId": "sobu_main",
-    "throughTripId": "WD_OUT_JO-19_1019_29295",
+    "throughTripId": "WD_OUT_JO-19_0956_29291",
     "throughLineId": "yokosuka"
   },
   {
@@ -7916,7 +7862,9 @@
       "trainNumber": "2206M"
     },
     "prevTripId": "WD_INB_SM-06_0916_29246",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_0956_29291",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_0931_42226",
@@ -8774,7 +8722,9 @@
       "trainNumber": "2215M"
     },
     "throughTripId": "WD_OUT_SM-01_1028_31113",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_0910_29327",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_1003_5255",
@@ -9255,7 +9205,9 @@
       "trainNumber": "2010M"
     },
     "prevTripId": "WD_INB_SM-06_1005_29203",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_1047_29278",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_1019_29307",
@@ -10133,7 +10085,9 @@
       "trainNumber": "2219M"
     },
     "throughTripId": "WD_OUT_SM-01_1128_31114",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_1010_29328",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1105_5107",
@@ -10452,7 +10406,9 @@
       "trainNumber": "2014M"
     },
     "prevTripId": "WD_INB_SM-06_1105_29204",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_1146_29279",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_1119_29308",
@@ -10463,7 +10419,7 @@
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
-    "customOrigin": "上総一ノ宮",
+    "customOrigin": "成田空港",
     "customDestination": "新宿",
     "cars": 15,
     "isHoliday": false,
@@ -10540,8 +10496,8 @@
       "tripId": "WD_OUT_JO-19_1146_29279",
       "trainNumber": "2214M"
     },
-    "prevTripId": "WD_INB_SB-13_1021_5939",
-    "prevLineId": "sotobo",
+    "prevTripId": "WD_INB_SM-06_1105_29233",
+    "prevLineId": "sobu_main",
     "throughTripId": "WD_OUT_JO-19_1146_29279",
     "throughLineId": "yokosuka"
   },
@@ -10710,7 +10666,7 @@
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
-    "customOrigin": "成田空港",
+    "customOrigin": "銚子",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -10782,7 +10738,7 @@
       "tripId": "WD_INB_SM-22_1011_5905",
       "trainNumber": "4010M"
     },
-    "prevTripId": "WD_INB_SM-06_1105_29233",
+    "prevTripId": "WD_INB_SM-22_1011_5905",
     "prevLineId": "sobu_main"
   },
   {
@@ -11352,7 +11308,9 @@
       "trainNumber": "2223M"
     },
     "throughTripId": "WD_OUT_SM-01_1228_31115",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_1110_29329",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1205_5111",
@@ -11671,7 +11629,9 @@
       "trainNumber": "2018M"
     },
     "prevTripId": "WD_INB_SM-06_1205_29205",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_1246_29280",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_1219_29309",
@@ -11682,7 +11642,7 @@
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
-    "customOrigin": "上総一ノ宮",
+    "customOrigin": "成田空港",
     "customDestination": "新宿",
     "cars": 15,
     "isHoliday": false,
@@ -11759,8 +11719,8 @@
       "tripId": "WD_OUT_JO-19_1246_29280",
       "trainNumber": "2218M"
     },
-    "prevTripId": "WD_INB_SB-13_1121_5944",
-    "prevLineId": "sotobo",
+    "prevTripId": "WD_INB_SM-06_1205_29234",
+    "prevLineId": "sobu_main",
     "throughTripId": "WD_OUT_JO-19_1246_29280",
     "throughLineId": "yokosuka"
   },
@@ -12486,7 +12446,9 @@
       "trainNumber": "2227M"
     },
     "throughTripId": "WD_OUT_SM-01_1328_31116",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_1210_29330",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1305_5116",
@@ -12805,7 +12767,9 @@
       "trainNumber": "2022M"
     },
     "prevTripId": "WD_INB_SM-06_1306_29206",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_1347_29281",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_1320_29310",
@@ -13704,7 +13668,9 @@
       "trainNumber": "2231M"
     },
     "throughTripId": "WD_OUT_SM-01_1428_31117",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_1310_29331",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1405_5121",
@@ -14023,7 +13989,9 @@
       "trainNumber": "2026M"
     },
     "prevTripId": "WD_INB_SM-06_1405_29207",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_1447_29282",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_1419_29311",
@@ -14922,7 +14890,9 @@
       "trainNumber": "2235M"
     },
     "throughTripId": "WD_OUT_SM-01_1527_31118",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_1410_29332",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1505_5125",
@@ -15243,7 +15213,9 @@
       "trainNumber": "2030M"
     },
     "prevTripId": "WD_INB_SM-06_1506_29208",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_1547_29283",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_1520_29312",
@@ -16135,8 +16107,10 @@
       "tripId": "WD_INB_JO-09_1510_29333",
       "trainNumber": "4619F"
     },
-    "throughTripId": "WD_OUT_SM-01_1628_31119",
-    "throughLineId": "sobu_main"
+    "throughTripId": "WD_OUT_SM-01_1649_5487",
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_1510_29333",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1606_4945",
@@ -16514,7 +16488,9 @@
       "trainNumber": "2034M"
     },
     "prevTripId": "WD_INB_SM-06_1605_29209",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_1647_29284",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_1619_29313",
@@ -17607,8 +17583,10 @@
       "tripId": "WD_INB_JO-06_1538_41457",
       "trainNumber": "4577F"
     },
-    "throughTripId": "WD_OUT_SM-01_1728_31120",
-    "throughLineId": "sobu_main"
+    "throughTripId": "WD_OUT_SM-01_1750_41386",
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-06_1538_41457",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1705_5074",
@@ -18129,7 +18107,9 @@
       "trainNumber": "2038M"
     },
     "prevTripId": "WD_INB_SM-06_1705_29210",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_1747_29285",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_1719_29314",
@@ -19448,7 +19428,9 @@
       "trainNumber": "2247M"
     },
     "throughTripId": "WD_OUT_SM-01_1829_30367",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_1710_29335",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1805_5139",
@@ -21276,7 +21258,7 @@
       }
     ],
     "trainId": "5367",
-    "customDestination": "新宿",
+    "customDestination": "東京",
     "previousTrip": {
       "lineId": "sobu_main",
       "tripId": "WD_INB_SM-22_1735_5909",
@@ -21543,7 +21525,9 @@
       "trainNumber": "2251M"
     },
     "throughTripId": "WD_OUT_SM-01_1931_30368",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_1810_29336",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_1905_5078",
@@ -22131,7 +22115,7 @@
     },
     "prevTripId": "WD_INB_SM-06_1906_29212",
     "prevLineId": "sobu_main",
-    "throughTripId": "WD_OUT_JO-19_2015_29304",
+    "throughTripId": "WD_OUT_JO-19_1947_29287",
     "throughLineId": "yokosuka"
   },
   {
@@ -22221,7 +22205,9 @@
       "trainNumber": "2246M"
     },
     "prevTripId": "WD_INB_SM-06_1906_29240",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_1947_29287",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_1925_42202",
@@ -23398,7 +23384,9 @@
       "trainNumber": "2253M"
     },
     "throughTripId": "WD_OUT_SM-01_2035_30369",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "WD_INB_JO-09_1910_29337",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "WD_OUT_JO-19_2005_5053",
@@ -23874,7 +23862,9 @@
       "trainNumber": "2050M"
     },
     "prevTripId": "WD_INB_SM-06_2008_29213",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_2053_29288",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_2022_29316",
@@ -24567,7 +24557,9 @@
       "lineId": "sobu_main",
       "tripId": "WD_OUT_SM-01_2120_5728",
       "trainNumber": "4011M"
-    }
+    },
+    "throughTripId": "WD_OUT_SM-01_2120_5728",
+    "throughLineId": "sobu_main"
   },
   {
     "tripId": "WD_INB_JO-28_2049_42696",
@@ -25198,7 +25190,9 @@
       "trainNumber": "2052M"
     },
     "prevTripId": "WD_INB_SM-06_2102_29214",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_2145_29289",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_2114_29317",
@@ -25990,7 +25984,9 @@
       "lineId": "sobu_main",
       "tripId": "WD_OUT_SM-01_2212_5729",
       "trainNumber": "4013M"
-    }
+    },
+    "throughTripId": "WD_OUT_SM-01_2212_5729",
+    "throughLineId": "sobu_main"
   },
   {
     "tripId": "WD_OUT_JO-19_2147_41087",
@@ -29106,7 +29102,9 @@
       "trainNumber": "2201M"
     },
     "throughTripId": "HD_OUT_SM-01_0644_31108",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_0528_29322",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_0624_5239",
@@ -29852,7 +29850,7 @@
       "tripId": "HD_INB_JO-09_0606_29323",
       "trainNumber": "3791F"
     },
-    "throughTripId": "HD_OUT_SM-01_0753_29323",
+    "throughTripId": "HD_OUT_SM-01_0753_5477",
     "throughLineId": "sobu_main",
     "prevTripId": "HD_INB_JO-09_0606_29323",
     "prevLineId": "yokosuka"
@@ -29944,7 +29942,9 @@
       "trainNumber": "2203M"
     },
     "throughTripId": "HD_OUT_SM-01_0726_31109",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_0606_29323",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_0702_5388",
@@ -30872,7 +30872,9 @@
       "trainNumber": "2205M"
     },
     "throughTripId": "HD_OUT_SM-01_0758_31110",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_0638_29324",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_0734_5087",
@@ -31109,67 +31111,6 @@
     },
     "throughTripId": "HD_OUT_SM-01_0810_5720",
     "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_OUT_JO-22_0739_40528",
-    "lineId": "sobu_rapid",
-    "trainNumber": "9051M",
-    "trainType": "limitedExp",
-    "trainName": "新宿わかしお1号",
-    "direction": "outbound",
-    "originStationId": "JO-22",
-    "destinationStationId": "JO-28",
-    "customOrigin": "新宿",
-    "customDestination": "安房鴨川",
-    "cars": 15,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JO-22",
-        "arrivalTime": "07:38:00",
-        "departureTime": "07:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JO-23",
-        "arrivalTime": "07:42:47",
-        "departureTime": "07:42:47",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-24",
-        "arrivalTime": "07:46:42",
-        "departureTime": "07:46:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-25",
-        "arrivalTime": "07:53:00",
-        "departureTime": "07:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JO-26",
-        "arrivalTime": "07:56:37",
-        "departureTime": "07:56:37",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-27",
-        "arrivalTime": "08:03:33",
-        "departureTime": "08:03:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-28",
-        "arrivalTime": "08:06:00",
-        "departureTime": "08:10:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "40528",
-    "throughTripId": "HD_OUT_SB-01_0810_14414",
-    "throughLineId": "sotobo"
   },
   {
     "tripId": "HD_INB_JO-28_0742_29292",
@@ -31573,7 +31514,7 @@
       "tripId": "HD_INB_JO-09_0700_29325",
       "trainNumber": "3767F"
     },
-    "throughTripId": "HD_OUT_SM-01_0851_29325",
+    "throughTripId": "HD_OUT_SM-01_0851_41363",
     "throughLineId": "sobu_main",
     "prevTripId": "HD_INB_JO-09_0700_29325",
     "prevLineId": "yokosuka"
@@ -31665,7 +31606,9 @@
       "trainNumber": "2207M"
     },
     "throughTripId": "HD_OUT_SM-01_0830_31111",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_0700_29325",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_0756_5392",
@@ -32048,72 +31991,6 @@
     "trainId": "4996"
   },
   {
-    "tripId": "HD_OUT_JO-22_0810_10490",
-    "lineId": "sobu_rapid",
-    "trainNumber": "9041M",
-    "trainType": "limitedExp",
-    "trainName": "新宿さざなみ1号",
-    "direction": "outbound",
-    "originStationId": "JO-22",
-    "destinationStationId": "JO-28",
-    "customOrigin": "新宿",
-    "customDestination": "館山",
-    "cars": 15,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JO-22",
-        "arrivalTime": "08:09:00",
-        "departureTime": "08:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JO-23",
-        "arrivalTime": "08:12:58",
-        "departureTime": "08:12:58",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-24",
-        "arrivalTime": "08:16:03",
-        "departureTime": "08:16:03",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-25",
-        "arrivalTime": "08:21:00",
-        "departureTime": "08:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JO-26",
-        "arrivalTime": "08:24:51",
-        "departureTime": "08:24:51",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-27",
-        "arrivalTime": "08:32:20",
-        "departureTime": "08:32:20",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-28",
-        "arrivalTime": "08:35:00",
-        "departureTime": "08:37:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "10490",
-    "through": {
-      "lineId": "sotobo",
-      "tripId": "HD_OUT_SB-01_0837_14399",
-      "trainNumber": "9043M"
-    },
-    "throughTripId": "HD_OUT_SB-01_0837_14399",
-    "throughLineId": "sotobo"
-  },
-  {
     "tripId": "HD_OUT_JO-19_0812_41453",
     "lineId": "sobu_rapid",
     "trainNumber": "767F",
@@ -32279,7 +32156,7 @@
     },
     "prevTripId": "HD_INB_SM-06_0800_29215",
     "prevLineId": "sobu_main",
-    "throughTripId": "HD_OUT_JO-19_0922_29318",
+    "throughTripId": "HD_OUT_JO-19_0854_29290",
     "throughLineId": "yokosuka"
   },
   {
@@ -32291,7 +32168,7 @@
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
-    "customOrigin": "上総一ノ宮",
+    "customOrigin": "成田空港",
     "customDestination": "新宿",
     "cars": 15,
     "isHoliday": true,
@@ -32368,8 +32245,8 @@
       "tripId": "HD_OUT_JO-19_0854_29290",
       "trainNumber": "2202M"
     },
-    "prevTripId": "HD_INB_SB-13_0713_5936",
-    "prevLineId": "sotobo",
+    "prevTripId": "HD_INB_SM-06_0800_29245",
+    "prevLineId": "sobu_main",
     "throughTripId": "HD_OUT_JO-19_0854_29290",
     "throughLineId": "yokosuka"
   },
@@ -33206,7 +33083,9 @@
       "trainNumber": "2004M"
     },
     "prevTripId": "HD_INB_SM-06_0838_29243",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_0922_29318",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_0855_5034",
@@ -33605,7 +33484,7 @@
       }
     ],
     "trainId": "5368",
-    "customDestination": "新宿",
+    "customDestination": "東京",
     "previousTrip": {
       "lineId": "sobu_main",
       "tripId": "HD_INB_SM-22_0742_5910",
@@ -34156,7 +34035,7 @@
     },
     "prevTripId": "HD_INB_SM-06_0916_29216",
     "prevLineId": "sobu_main",
-    "throughTripId": "HD_OUT_JO-19_1019_29295",
+    "throughTripId": "HD_OUT_JO-19_0956_29291",
     "throughLineId": "yokosuka"
   },
   {
@@ -34246,7 +34125,9 @@
       "trainNumber": "2206M"
     },
     "prevTripId": "HD_INB_SM-06_0916_29246",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_0956_29291",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_0933_41071",
@@ -34962,7 +34843,9 @@
       "trainNumber": "2215M"
     },
     "throughTripId": "HD_OUT_SM-01_1028_31112",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_0910_29327",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_1005_41025",
@@ -35505,7 +35388,9 @@
       "trainNumber": "2010M"
     },
     "prevTripId": "HD_INB_SM-06_1005_29203",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_1047_29278",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1019_29307",
@@ -36474,7 +36359,9 @@
       "trainNumber": "2219M"
     },
     "throughTripId": "HD_OUT_SM-01_1128_31114",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_1010_29328",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_1105_5106",
@@ -36856,7 +36743,9 @@
       "trainNumber": "2014M"
     },
     "prevTripId": "HD_INB_SM-06_1105_29204",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_1146_29279",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1119_29308",
@@ -36867,7 +36756,7 @@
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
-    "customOrigin": "上総一ノ宮",
+    "customOrigin": "成田空港",
     "customDestination": "新宿",
     "cars": 15,
     "isHoliday": true,
@@ -36944,8 +36833,8 @@
       "tripId": "HD_OUT_JO-19_1146_29279",
       "trainNumber": "2214M"
     },
-    "prevTripId": "HD_INB_SB-13_1021_5941",
-    "prevLineId": "sotobo",
+    "prevTripId": "HD_INB_SM-06_1105_29233",
+    "prevLineId": "sobu_main",
     "throughTripId": "HD_OUT_JO-19_1146_29279",
     "throughLineId": "yokosuka"
   },
@@ -37114,7 +37003,7 @@
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
-    "customOrigin": "成田空港",
+    "customOrigin": "銚子",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -37186,7 +37075,7 @@
       "tripId": "HD_INB_SM-22_1011_5905",
       "trainNumber": "4010M"
     },
-    "prevTripId": "HD_INB_SM-06_1105_29233",
+    "prevTripId": "HD_INB_SM-22_1011_5905",
     "prevLineId": "sobu_main"
   },
   {
@@ -37752,7 +37641,9 @@
       "trainNumber": "2223M"
     },
     "throughTripId": "HD_OUT_SM-01_1228_31115",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_1110_29329",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_1205_5113",
@@ -38071,7 +37962,9 @@
       "trainNumber": "2018M"
     },
     "prevTripId": "HD_INB_SM-06_1205_29205",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_1246_29280",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1219_29309",
@@ -38082,7 +37975,7 @@
     "direction": "inbound",
     "originStationId": "JO-28",
     "destinationStationId": "JO-19",
-    "customOrigin": "上総一ノ宮",
+    "customOrigin": "成田空港",
     "customDestination": "新宿",
     "cars": 15,
     "isHoliday": true,
@@ -38159,8 +38052,8 @@
       "tripId": "HD_OUT_JO-19_1246_29280",
       "trainNumber": "2218M"
     },
-    "prevTripId": "HD_INB_SB-13_1121_5942",
-    "prevLineId": "sotobo",
+    "prevTripId": "HD_INB_SM-06_1205_29234",
+    "prevLineId": "sobu_main",
     "throughTripId": "HD_OUT_JO-19_1246_29280",
     "throughLineId": "yokosuka"
   },
@@ -38886,7 +38779,9 @@
       "trainNumber": "2227M"
     },
     "throughTripId": "HD_OUT_SM-01_1328_31116",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_1210_29330",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_1305_5118",
@@ -39205,7 +39100,9 @@
       "trainNumber": "2022M"
     },
     "prevTripId": "HD_INB_SM-06_1306_29206",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_1347_29281",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1320_29310",
@@ -40104,7 +40001,9 @@
       "trainNumber": "2231M"
     },
     "throughTripId": "HD_OUT_SM-01_1428_31117",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_1310_29331",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_1405_5122",
@@ -40423,7 +40322,9 @@
       "trainNumber": "2026M"
     },
     "prevTripId": "HD_INB_SM-06_1405_29207",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_1447_29282",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1419_29311",
@@ -41384,7 +41285,9 @@
       "trainNumber": "2235M"
     },
     "throughTripId": "HD_OUT_SM-01_1527_31118",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_1410_29332",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_1505_5126",
@@ -41705,7 +41608,9 @@
       "trainNumber": "2030M"
     },
     "prevTripId": "HD_INB_SM-06_1506_29208",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_1547_29283",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1520_29312",
@@ -42597,8 +42502,10 @@
       "tripId": "HD_INB_JO-09_1510_29333",
       "trainNumber": "4619F"
     },
-    "throughTripId": "HD_OUT_SM-01_1628_31119",
-    "throughLineId": "sobu_main"
+    "throughTripId": "HD_OUT_SM-01_1649_5489",
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_1510_29333",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_1607_4946",
@@ -42980,7 +42887,9 @@
       "trainNumber": "2034M"
     },
     "prevTripId": "HD_INB_SM-06_1605_29209",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_1647_29284",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1619_29313",
@@ -43942,8 +43851,10 @@
       "tripId": "HD_INB_JO-09_1610_29334",
       "trainNumber": "4721F"
     },
-    "throughTripId": "HD_OUT_SM-01_1728_31120",
-    "throughLineId": "sobu_main"
+    "throughTripId": "HD_OUT_SM-01_1750_5491",
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_1610_29334",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_1705_4949",
@@ -44392,7 +44303,9 @@
       "trainNumber": "2038M"
     },
     "prevTripId": "HD_INB_SM-06_1705_29210",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_1747_29285",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1719_29314",
@@ -44564,65 +44477,6 @@
     "prevLineId": "sotobo",
     "throughTripId": "HD_OUT_JO-19_1809_42233",
     "throughLineId": "yokosuka"
-  },
-  {
-    "tripId": "HD_INB_JO-28_1724_10497",
-    "lineId": "sobu_rapid",
-    "trainNumber": "9048M",
-    "trainType": "limitedExp",
-    "trainName": "新宿さざなみ4号",
-    "direction": "inbound",
-    "originStationId": "JO-28",
-    "destinationStationId": "JO-22",
-    "customOrigin": "館山",
-    "customDestination": "新宿",
-    "cars": 15,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JO-28",
-        "arrivalTime": "17:23:00",
-        "departureTime": "17:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JO-27",
-        "arrivalTime": "17:26:40",
-        "departureTime": "17:26:40",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-26",
-        "arrivalTime": "17:34:09",
-        "departureTime": "17:34:09",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-25",
-        "arrivalTime": "17:37:00",
-        "departureTime": "17:38:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JO-24",
-        "arrivalTime": "17:42:57",
-        "departureTime": "17:42:57",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-23",
-        "arrivalTime": "17:46:02",
-        "departureTime": "17:46:02",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-22",
-        "arrivalTime": "17:49:00",
-        "departureTime": "17:49:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "10497"
   },
   {
     "tripId": "HD_OUT_JO-19_1725_41076",
@@ -45011,65 +44865,6 @@
       }
     ],
     "trainId": "5046"
-  },
-  {
-    "tripId": "HD_INB_JO-28_1739_40530",
-    "lineId": "sobu_rapid",
-    "trainNumber": "9058M",
-    "trainType": "limitedExp",
-    "trainName": "新宿わかしお2号",
-    "direction": "inbound",
-    "originStationId": "JO-28",
-    "destinationStationId": "JO-22",
-    "customOrigin": "安房鴨川",
-    "customDestination": "新宿",
-    "cars": 15,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JO-28",
-        "arrivalTime": "17:38:00",
-        "departureTime": "17:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JO-27",
-        "arrivalTime": "17:41:15",
-        "departureTime": "17:41:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-26",
-        "arrivalTime": "17:47:36",
-        "departureTime": "17:47:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-25",
-        "arrivalTime": "17:50:00",
-        "departureTime": "17:51:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JO-24",
-        "arrivalTime": "17:56:24",
-        "departureTime": "17:56:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-23",
-        "arrivalTime": "17:59:46",
-        "departureTime": "17:59:46",
-        "isPassing": true
-      },
-      {
-        "stationId": "JO-22",
-        "arrivalTime": "18:03:00",
-        "departureTime": "18:04:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "40530"
   },
   {
     "tripId": "HD_OUT_JO-19_1743_42969",
@@ -45701,7 +45496,9 @@
       "trainNumber": "2247M"
     },
     "throughTripId": "HD_OUT_SM-01_1829_30367",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_1710_29335",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_1805_4952",
@@ -47041,7 +46838,7 @@
       }
     ],
     "trainId": "5367",
-    "customDestination": "新宿",
+    "customDestination": "東京",
     "previousTrip": {
       "lineId": "sobu_main",
       "tripId": "HD_INB_SM-22_1735_5909",
@@ -47230,7 +47027,9 @@
       "trainNumber": "2251M"
     },
     "throughTripId": "HD_OUT_SM-01_1931_30368",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_1810_29336",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1903_41408",
@@ -47625,7 +47424,7 @@
     },
     "prevTripId": "HD_INB_SM-06_1906_29212",
     "prevLineId": "sobu_main",
-    "throughTripId": "HD_OUT_JO-19_2015_29304",
+    "throughTripId": "HD_OUT_JO-19_1947_29287",
     "throughLineId": "yokosuka"
   },
   {
@@ -47714,8 +47513,10 @@
       "tripId": "HD_OUT_JO-19_1947_29287",
       "trainNumber": "2246M"
     },
-    "prevTripId": "HD_INB_SM-06_1859_5554",
-    "prevLineId": "sobu_main"
+    "prevTripId": "HD_INB_SM-06_1906_29240",
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_1947_29287",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_1923_41442",
@@ -48581,7 +48382,9 @@
       "trainNumber": "2253M"
     },
     "throughTripId": "HD_OUT_SM-01_2035_30369",
-    "throughLineId": "sobu_main"
+    "throughLineId": "sobu_main",
+    "prevTripId": "HD_INB_JO-09_1910_29337",
+    "prevLineId": "yokosuka"
   },
   {
     "tripId": "HD_OUT_JO-19_2005_5149",
@@ -49058,7 +48861,9 @@
       "trainNumber": "2050M"
     },
     "prevTripId": "HD_INB_SM-06_2008_29213",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_2053_29288",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_2022_29316",
@@ -50075,7 +49880,9 @@
       "trainNumber": "2052M"
     },
     "prevTripId": "HD_INB_SM-06_2102_29214",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_2145_29289",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_2114_29317",
@@ -54042,7 +53849,7 @@
     },
     "throughTripId": "HD_OUT_SM-01_1706_30385",
     "throughLineId": "sobu_main",
-    "prevTripId": "HD_INB_JO-17_1624_31139",
+    "prevTripId": "HD_INB_JO-06_1538_41458",
     "prevLineId": "yokosuka"
   },
   {
@@ -54132,7 +53939,9 @@
       "trainNumber": "3892F"
     },
     "prevTripId": "WD_INB_SM-06_0828_29219",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_0922_29318",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_0949_29220",
@@ -54221,7 +54030,9 @@
       "trainNumber": "2008M"
     },
     "prevTripId": "WD_INB_SM-06_0935_29220",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_1019_29295",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_1047_29221",
@@ -54947,7 +54758,9 @@
       "trainNumber": "2040M"
     },
     "prevTripId": "WD_INB_SM-06_1736_29201",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_1820_29276",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_1750_29230",
@@ -55218,7 +55031,9 @@
       "trainNumber": "2048M"
     },
     "prevTripId": "WD_INB_SM-06_1931_29229",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_2015_29304",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_2209_29202",
@@ -55307,7 +55122,9 @@
       "trainNumber": "2054M"
     },
     "prevTripId": "WD_INB_SM-06_2155_29202",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "WD_OUT_JO-19_2239_29277",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "WD_INB_JO-28_2209_29231",
@@ -55395,7 +55212,7 @@
       "tripId": "WD_OUT_JO-19_2239_29277",
       "trainNumber": "2254M"
     },
-    "prevTripId": "WD_INB_SM-06_2139_5563",
+    "prevTripId": "WD_INB_SM-06_2155_29231",
     "prevLineId": "sobu_main",
     "throughTripId": "WD_OUT_JO-19_2239_29277",
     "throughLineId": "yokosuka"
@@ -55487,7 +55304,9 @@
       "trainNumber": "2008M"
     },
     "prevTripId": "HD_INB_SM-06_0935_29220",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_1019_29295",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1047_29221",
@@ -56213,7 +56032,9 @@
       "trainNumber": "2040M"
     },
     "prevTripId": "HD_INB_SM-06_1736_29201",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_1820_29276",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_1750_29230",
@@ -56484,7 +56305,9 @@
       "trainNumber": "2048M"
     },
     "prevTripId": "HD_INB_SM-06_1931_29229",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_2015_29304",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_2209_29202",
@@ -56573,7 +56396,9 @@
       "trainNumber": "2054M"
     },
     "prevTripId": "HD_INB_SM-06_2155_29202",
-    "prevLineId": "sobu_main"
+    "prevLineId": "sobu_main",
+    "throughTripId": "HD_OUT_JO-19_2239_29277",
+    "throughLineId": "yokosuka"
   },
   {
     "tripId": "HD_INB_JO-28_2209_29231",

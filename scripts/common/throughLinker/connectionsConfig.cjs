@@ -73,6 +73,7 @@ module.exports = {
     },
     {
       "name": "内房線 -> 京葉線 (上り直通)",
+      "disallowedDestinations": ["新宿"],
       "lineA": "uchibo",
       "lineB": "keiyo",
       "stationA": "UB-01",

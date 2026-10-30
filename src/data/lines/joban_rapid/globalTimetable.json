@@ -52824,10 +52824,6 @@
     "cars": 8,
     "isHoliday": false,
     "trainId": "43294",
-    "prevTripId": "WD_OUT_JM-00_0831_43294",
-    "prevLineId": "musashino",
-    "throughTripId": "WD_OUT_JN-17_1029_43294",
-    "throughLineId": "joban_toride_iwaki",
     "stops": [
       {
         "stationId": "JL-26",
@@ -52875,10 +52871,6 @@
     "cars": 8,
     "isHoliday": true,
     "trainId": "43294",
-    "prevTripId": "HD_OUT_JM-00_0831_43294",
-    "prevLineId": "musashino",
-    "throughTripId": "HD_OUT_JN-17_1029_43294",
-    "throughLineId": "joban_toride_iwaki",
     "stops": [
       {
         "stationId": "JL-26",
@@ -52921,15 +52913,11 @@
     "direction": "inbound",
     "originStationId": "JJ-10",
     "destinationStationId": "JL-26",
-    "customOrigin": "勝田",
+    "customOrigin": "稲城長沼",
     "customDestination": "川越",
     "cars": 8,
     "isHoliday": false,
     "trainId": "43295",
-    "prevTripId": "WD_INB_JN-18_1624_43295",
-    "prevLineId": "joban_toride_iwaki",
-    "throughTripId": "WD_INB_JM-19_1728_43295",
-    "throughLineId": "musashino",
     "stops": [
       {
         "stationId": "JJ-10",
@@ -52961,7 +52949,9 @@
         "departureTime": "17:18:00",
         "isPassing": true
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JN-18_1624_43295",
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-10_1704_43295",
@@ -52972,15 +52962,11 @@
     "direction": "inbound",
     "originStationId": "JJ-10",
     "destinationStationId": "JL-26",
-    "customOrigin": "勝田",
+    "customOrigin": "稲城長沼",
     "customDestination": "川越",
     "cars": 8,
     "isHoliday": true,
     "trainId": "43295",
-    "prevTripId": "HD_INB_JN-18_1624_43295",
-    "prevLineId": "joban_toride_iwaki",
-    "throughTripId": "HD_INB_JM-19_1728_43295",
-    "throughLineId": "musashino",
     "stops": [
       {
         "stationId": "JJ-10",
@@ -53012,7 +52998,9 @@
         "departureTime": "17:18:00",
         "isPassing": true
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JN-18_1624_43295",
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "WD_OUT_JL-26_1006_10484",
@@ -53028,10 +53016,6 @@
     "cars": 10,
     "isHoliday": false,
     "trainId": "10484",
-    "prevTripId": "WD_OUT_JO-13_0842_10484",
-    "prevLineId": "musashino",
-    "throughTripId": "WD_OUT_JN-17_1029_10484",
-    "throughLineId": "joban_toride_iwaki",
     "stops": [
       {
         "stationId": "JL-26",
@@ -53079,10 +53063,6 @@
     "cars": 10,
     "isHoliday": true,
     "trainId": "10484",
-    "prevTripId": "HD_OUT_JO-13_0842_10484",
-    "prevLineId": "musashino",
-    "throughTripId": "HD_OUT_JN-17_1029_10484",
-    "throughLineId": "joban_toride_iwaki",
     "stops": [
       {
         "stationId": "JL-26",
@@ -53125,15 +53105,11 @@
     "direction": "inbound",
     "originStationId": "JJ-10",
     "destinationStationId": "JL-26",
-    "customOrigin": "勝田",
+    "customOrigin": "稲城長沼",
     "customDestination": "平塚",
     "cars": 10,
     "isHoliday": false,
     "trainId": "10485",
-    "prevTripId": "WD_INB_JN-18_1624_10485",
-    "prevLineId": "joban_toride_iwaki",
-    "throughTripId": "WD_INB_JL-26_1657_10485",
-    "throughLineId": "musashino",
     "stops": [
       {
         "stationId": "JJ-10",
@@ -53165,7 +53141,9 @@
         "departureTime": "17:02:00",
         "isPassing": true
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_JN-18_1624_10485",
+    "prevLineId": "joban_toride_iwaki"
   },
   {
     "tripId": "HD_INB_JJ-10_1647_10485",
@@ -53176,15 +53154,11 @@
     "direction": "inbound",
     "originStationId": "JJ-10",
     "destinationStationId": "JL-26",
-    "customOrigin": "勝田",
+    "customOrigin": "稲城長沼",
     "customDestination": "平塚",
     "cars": 10,
     "isHoliday": true,
     "trainId": "10485",
-    "prevTripId": "HD_INB_JN-18_1624_10485",
-    "prevLineId": "joban_toride_iwaki",
-    "throughTripId": "HD_INB_JL-26_1657_10485",
-    "throughLineId": "musashino",
     "stops": [
       {
         "stationId": "JJ-10",
@@ -53216,6 +53190,8 @@
         "departureTime": "17:02:00",
         "isPassing": true
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_JN-18_1624_10485",
+    "prevLineId": "joban_toride_iwaki"
   }
 ]

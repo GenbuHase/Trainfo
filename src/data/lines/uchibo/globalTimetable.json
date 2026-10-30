@@ -5530,162 +5530,6 @@
     "throughLineId": "sotobo"
   },
   {
-    "tripId": "WD_OUT_UB-01_1001_14400",
-    "lineId": "uchibo",
-    "trainId": "14400",
-    "trainNumber": "9047M",
-    "trainType": "limitedExp",
-    "trainName": "新宿さざなみ3号",
-    "direction": "outbound",
-    "originStationId": "UB-01",
-    "destinationStationId": "UB-22",
-    "customOrigin": "新宿",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "UB-01",
-        "arrivalTime": "09:58:00",
-        "departureTime": "10:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-02",
-        "arrivalTime": "10:03:20",
-        "departureTime": "10:03:20",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-03",
-        "arrivalTime": "10:05:40",
-        "departureTime": "10:05:40",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-04",
-        "arrivalTime": "10:08:00",
-        "departureTime": "10:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-05",
-        "arrivalTime": "10:11:00",
-        "departureTime": "10:11:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-06",
-        "arrivalTime": "10:14:00",
-        "departureTime": "10:14:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-07",
-        "arrivalTime": "10:17:00",
-        "departureTime": "10:17:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-08",
-        "arrivalTime": "10:20:00",
-        "departureTime": "10:20:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-09",
-        "arrivalTime": "10:23:00",
-        "departureTime": "10:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-10",
-        "arrivalTime": "10:30:00",
-        "departureTime": "10:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-11",
-        "arrivalTime": "10:34:50",
-        "departureTime": "10:34:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-12",
-        "arrivalTime": "10:38:40",
-        "departureTime": "10:38:40",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-13",
-        "arrivalTime": "10:42:30",
-        "departureTime": "10:42:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-14",
-        "arrivalTime": "10:46:20",
-        "departureTime": "10:46:20",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-15",
-        "arrivalTime": "10:50:10",
-        "departureTime": "10:50:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-16",
-        "arrivalTime": "10:54:00",
-        "departureTime": "10:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-17",
-        "arrivalTime": "10:59:00",
-        "departureTime": "11:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-18",
-        "arrivalTime": "11:03:00",
-        "departureTime": "11:03:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-19",
-        "arrivalTime": "11:06:00",
-        "departureTime": "11:06:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-20",
-        "arrivalTime": "11:12:00",
-        "departureTime": "11:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-21",
-        "arrivalTime": "11:15:00",
-        "departureTime": "11:15:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-22",
-        "arrivalTime": "11:18:00",
-        "departureTime": "11:18:00",
-        "isPassing": false
-      }
-    ],
-    "previousTrip": {
-      "lineId": "sotobo",
-      "tripId": "WD_OUT_SB-01_0952_14400",
-      "trainNumber": "9045M"
-    },
-    "customDestination": "館山",
-    "prevTripId": "WD_OUT_SB-01_0952_14400",
-    "prevLineId": "sotobo"
-  },
-  {
     "tripId": "WD_OUT_UB-01_1013_5959",
     "lineId": "uchibo",
     "trainId": "5959",
@@ -9526,162 +9370,6 @@
         "isPassing": false
       }
     ]
-  },
-  {
-    "tripId": "WD_INB_UB-22_1507_14406",
-    "lineId": "uchibo",
-    "trainId": "14406",
-    "trainNumber": "9042M",
-    "trainType": "limitedExp",
-    "trainName": "新宿さざなみ2号",
-    "direction": "inbound",
-    "originStationId": "UB-22",
-    "destinationStationId": "UB-01",
-    "customDestination": "新宿",
-    "cars": 8,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "UB-22",
-        "arrivalTime": "15:07:00",
-        "departureTime": "15:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-21",
-        "arrivalTime": "15:10:00",
-        "departureTime": "15:10:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-20",
-        "arrivalTime": "15:13:00",
-        "departureTime": "15:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-19",
-        "arrivalTime": "15:19:00",
-        "departureTime": "15:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-18",
-        "arrivalTime": "15:24:00",
-        "departureTime": "15:24:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-17",
-        "arrivalTime": "15:27:00",
-        "departureTime": "15:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-16",
-        "arrivalTime": "15:31:00",
-        "departureTime": "15:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-15",
-        "arrivalTime": "15:35:40",
-        "departureTime": "15:35:40",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-14",
-        "arrivalTime": "15:39:20",
-        "departureTime": "15:39:20",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-13",
-        "arrivalTime": "15:43:00",
-        "departureTime": "15:43:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-12",
-        "arrivalTime": "15:46:40",
-        "departureTime": "15:46:40",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-11",
-        "arrivalTime": "15:50:20",
-        "departureTime": "15:50:20",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-10",
-        "arrivalTime": "15:54:00",
-        "departureTime": "15:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-09",
-        "arrivalTime": "16:00:00",
-        "departureTime": "16:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-08",
-        "arrivalTime": "16:04:00",
-        "departureTime": "16:04:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-07",
-        "arrivalTime": "16:07:00",
-        "departureTime": "16:07:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-06",
-        "arrivalTime": "16:10:00",
-        "departureTime": "16:10:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-05",
-        "arrivalTime": "16:13:00",
-        "departureTime": "16:13:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-04",
-        "arrivalTime": "16:16:00",
-        "departureTime": "16:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "UB-03",
-        "arrivalTime": "16:18:40",
-        "departureTime": "16:18:40",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-02",
-        "arrivalTime": "16:21:20",
-        "departureTime": "16:21:20",
-        "isPassing": true
-      },
-      {
-        "stationId": "UB-01",
-        "arrivalTime": "16:24:00",
-        "departureTime": "16:25:00",
-        "isPassing": false
-      }
-    ],
-    "through": {
-      "lineId": "sotobo",
-      "tripId": "WD_INB_SB-03_1625_14406",
-      "trainNumber": "9046M"
-    },
-    "customOrigin": "館山",
-    "throughTripId": "WD_INB_SB-03_1625_14406",
-    "throughLineId": "sotobo"
   },
   {
     "tripId": "WD_INB_UB-09_1515_21672",
@@ -26949,7 +26637,7 @@
     "direction": "inbound",
     "originStationId": "UB-22",
     "destinationStationId": "UB-01",
-    "customDestination": "東京",
+    "customDestination": "新宿",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -27082,7 +26770,7 @@
       {
         "stationId": "UB-01",
         "arrivalTime": "16:24:00",
-        "departureTime": "16:28:00",
+        "departureTime": "16:25:00",
         "isPassing": false
       }
     ],
@@ -27092,8 +26780,8 @@
       "tripId": "HD_INB_SB-03_1625_14406",
       "trainNumber": "9046M"
     },
-    "throughTripId": "HD_INB_JE-18_1628_32104",
-    "throughLineId": "keiyo"
+    "throughTripId": "HD_INB_SB-03_1625_14406",
+    "throughLineId": "sotobo"
   },
   {
     "tripId": "HD_INB_UB-09_1515_21672",
@@ -28104,32 +27792,32 @@
       },
       {
         "stationId": "UB-15",
-        "arrivalTime": "16:28:40",
-        "departureTime": "16:28:40",
+        "arrivalTime": "16:29:00",
+        "departureTime": "16:29:00",
         "isPassing": true
       },
       {
         "stationId": "UB-14",
-        "arrivalTime": "16:32:20",
-        "departureTime": "16:32:20",
+        "arrivalTime": "16:33:00",
+        "departureTime": "16:33:00",
         "isPassing": true
       },
       {
         "stationId": "UB-13",
-        "arrivalTime": "16:36:00",
-        "departureTime": "16:36:00",
-        "isPassing": true
+        "arrivalTime": "16:37:00",
+        "departureTime": "16:38:00",
+        "isPassing": false
       },
       {
         "stationId": "UB-12",
-        "arrivalTime": "16:39:40",
-        "departureTime": "16:39:40",
+        "arrivalTime": "16:41:00",
+        "departureTime": "16:41:00",
         "isPassing": true
       },
       {
         "stationId": "UB-11",
-        "arrivalTime": "16:43:20",
-        "departureTime": "16:43:20",
+        "arrivalTime": "16:44:00",
+        "departureTime": "16:44:00",
         "isPassing": true
       },
       {
