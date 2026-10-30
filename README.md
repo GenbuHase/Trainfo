@@ -1,4 +1,4 @@
-# Trainfo — 広域鉄道リアルタイム運行シミュレーター (21事業者・全102路線網)
+# Trainfo — 鉄道リアルタイム運行シミュレーター
 
 [![Deploy to GitHub Pages](https://github.com/GenbuHase/Trainfo/actions/workflows/deploy.yml/badge.svg)](https://github.com/GenbuHase/Trainfo/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
