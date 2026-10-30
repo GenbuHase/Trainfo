@@ -1030,7 +1030,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "488"
+    "trainId": "488",
+    "throughTripId": "WD_INB_JB-07_0608_488",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-14_0517_763",
@@ -2693,7 +2695,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "590"
+    "trainId": "590",
+    "customOrigin": "東陽町",
+    "throughTripId": "WD_INB_JB-07_0624_590",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0556_502",
@@ -2847,7 +2852,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "502"
+    "trainId": "502",
+    "throughTripId": "WD_INB_JB-07_0650_502",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0558_78628",
@@ -3174,7 +3181,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "591"
+    "trainId": "591",
+    "customOrigin": "東陽町",
+    "throughTripId": "WD_INB_JB-07_0632_591",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0603_503",
@@ -3328,7 +3338,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "503"
+    "trainId": "503",
+    "throughTripId": "WD_INB_JB-07_0656_503",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0605_25459",
@@ -3481,7 +3493,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25459"
+    "trainId": "25459",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_0550_25718",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0606_615",
@@ -4112,7 +4127,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "592"
+    "trainId": "592",
+    "customOrigin": "東陽町",
+    "throughTripId": "WD_INB_JB-07_0642_592",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0613_517",
@@ -4265,7 +4283,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "517"
+    "trainId": "517",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_0706_517",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0616_25379",
@@ -4418,7 +4439,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25379"
+    "trainId": "25379",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_0601_25638",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0616_617",
@@ -4798,7 +4822,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "504"
+    "trainId": "504",
+    "throughTripId": "WD_INB_JB-07_0712_504",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0620_78631",
@@ -5354,7 +5380,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25460"
+    "trainId": "25460",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_0611_25719",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0630_619",
@@ -5813,7 +5842,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "498"
+    "trainId": "498",
+    "throughTripId": "WD_INB_JB-07_0726_498",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-14_0632_78804",
@@ -6452,11 +6483,15 @@
       {
         "stationId": "T-23",
         "arrivalTime": "07:30:00",
-        "departureTime": "07:30:00",
+        "departureTime": "07:39:00",
         "isPassing": false
       }
     ],
-    "trainId": "24734"
+    "trainId": "24734",
+    "prevTripId": "WD_OUT_JB-01_0620_25045",
+    "prevLineId": "chuo_sobu_local",
+    "throughTripId": "WD_OUT_JB-30_0739_295",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0638_520",
@@ -6609,7 +6644,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "520"
+    "trainId": "520",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_0737_520",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0641_878",
@@ -6911,11 +6949,14 @@
       {
         "stationId": "T-23",
         "arrivalTime": "07:38:00",
-        "departureTime": "07:39:00",
+        "departureTime": "07:47:00",
         "isPassing": false
       }
     ],
-    "trainId": "295"
+    "trainId": "295",
+    "customOrigin": "中野",
+    "throughTripId": "WD_OUT_JB-30_0747_296",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-14_0643_485",
@@ -7296,7 +7337,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35948"
+    "trainId": "35948",
+    "prevTripId": "WD_OUT_JB-01_0631_35894",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0647_522",
@@ -7449,7 +7492,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "522"
+    "trainId": "522",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_0747_522",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0649_296",
@@ -7598,11 +7644,14 @@
       {
         "stationId": "T-23",
         "arrivalTime": "07:45:00",
-        "departureTime": "07:47:00",
+        "departureTime": "08:02:00",
         "isPassing": false
       }
     ],
-    "trainId": "296"
+    "trainId": "296",
+    "customOrigin": "中野",
+    "throughTripId": "WD_OUT_JB-30_0802_297",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-21_0652_776",
@@ -7895,7 +7944,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "523"
+    "trainId": "523",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_0752_523",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0653_78637",
@@ -7911,7 +7963,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "06:53:00",
+        "arrivalTime": "06:46:00",
         "departureTime": "06:53:00",
         "isPassing": false
       },
@@ -8048,7 +8100,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "78637"
+    "trainId": "78637",
+    "customOrigin": "三鷹"
   },
   {
     "tripId": "WD_OUT_T-14_0653_303",
@@ -8123,7 +8176,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "303"
+    "trainId": "303",
+    "customOrigin": "東陽町",
+    "throughTripId": "WD_OUT_JB-30_0720_303",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0654_880",
@@ -8825,7 +8881,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "07:01:00",
+        "arrivalTime": "06:56:00",
         "departureTime": "07:01:00",
         "isPassing": false
       },
@@ -8962,7 +9018,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "78639"
+    "trainId": "78639",
+    "customOrigin": "三鷹",
+    "prevTripId": "WD_OUT_JB-01_0641_35895",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0702_881",
@@ -9269,7 +9328,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35940"
+    "trainId": "35940",
+    "prevTripId": "WD_OUT_JB-01_0648_35886",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0705_907",
@@ -9881,7 +9942,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "24740"
+    "trainId": "24740",
+    "prevTripId": "WD_OUT_JB-01_0654_25051",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0711_499",
@@ -10035,7 +10098,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "499"
+    "trainId": "499",
+    "throughTripId": "WD_INB_JB-07_0806_499",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-14_0711_78805",
@@ -10556,7 +10621,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "24735"
+    "trainId": "24735",
+    "prevTripId": "WD_OUT_JB-01_0659_25046",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0716_624",
@@ -11308,7 +11375,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "24736"
+    "trainId": "24736",
+    "prevTripId": "WD_OUT_JB-01_0706_25047",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0723_506",
@@ -11462,7 +11531,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "506"
+    "trainId": "506",
+    "throughTripId": "WD_INB_JB-07_0824_506",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-21_0724_598",
@@ -11603,7 +11674,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "598"
+    "trainId": "598",
+    "customOrigin": "妙典",
+    "throughTripId": "WD_INB_JB-07_0818_598",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0726_316",
@@ -12066,7 +12140,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "07:31:00",
+        "arrivalTime": "07:29:00",
         "departureTime": "07:31:00",
         "isPassing": false
       },
@@ -12203,7 +12277,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "78642"
+    "trainId": "78642",
+    "customOrigin": "三鷹",
+    "prevTripId": "WD_OUT_JB-01_0713_35896",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0731_626",
@@ -13247,7 +13324,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25383"
+    "trainId": "25383",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_0723_25642",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0739_527",
@@ -13400,7 +13480,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "527"
+    "trainId": "527",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_0846_527",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0742_886",
@@ -13834,7 +13917,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "599"
+    "trainId": "599",
+    "customOrigin": "妙典",
+    "throughTripId": "WD_INB_JB-07_0839_599",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0745_35951",
@@ -14141,7 +14227,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "42986"
+    "trainId": "42986",
+    "customDestination": "中野",
+    "prevTripId": "WD_INB_JB-33_0733_42874",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0747_78644",
@@ -14157,7 +14246,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "07:47:00",
+        "arrivalTime": "07:45:00",
         "departureTime": "07:47:00",
         "isPassing": false
       },
@@ -14294,7 +14383,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "78644"
+    "trainId": "78644",
+    "customOrigin": "三鷹",
+    "prevTripId": "WD_OUT_JB-01_0729_35897",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-21_0748_778",
@@ -14893,7 +14985,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "508"
+    "trainId": "508",
+    "throughTripId": "WD_INB_JB-07_0857_508",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-21_0755_779",
@@ -15187,7 +15281,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39805"
+    "trainId": "39805",
+    "throughTripId": "WD_INB_JB-07_0854_39737",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0756_78694",
@@ -15481,7 +15577,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25373"
+    "trainId": "25373",
+    "customDestination": "妙典",
+    "prevTripId": "WD_OUT_JB-01_0742_25632",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0800_888",
@@ -15941,7 +16040,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39807"
+    "trainId": "39807",
+    "throughTripId": "WD_INB_JB-07_0904_39739",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0803_333",
@@ -16644,7 +16745,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25374"
+    "trainId": "25374",
+    "customDestination": "妙典",
+    "prevTripId": "WD_OUT_JB-01_0753_25633",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0809_500",
@@ -16798,7 +16902,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "500"
+    "trainId": "500",
+    "throughTripId": "WD_INB_JB-07_0909_500",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0811_42987",
@@ -16951,7 +17057,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "42987"
+    "trainId": "42987",
+    "customDestination": "中野",
+    "prevTripId": "WD_INB_JB-33_0759_42875",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0812_334",
@@ -17549,7 +17658,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "600"
+    "trainId": "600",
+    "customOrigin": "妙典",
+    "throughTripId": "WD_INB_JB-07_0911_600",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0817_39806",
@@ -17703,7 +17815,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39806"
+    "trainId": "39806",
+    "throughTripId": "WD_INB_JB-07_0917_39738",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0818_78696",
@@ -17955,7 +18069,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25369"
+    "trainId": "25369",
+    "customDestination": "東陽町",
+    "prevTripId": "WD_OUT_JB-01_0804_25628",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0822_510",
@@ -18109,7 +18226,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "510"
+    "trainId": "510",
+    "throughTripId": "WD_INB_JB-07_0925_510",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0823_336",
@@ -18708,7 +18827,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35952"
+    "trainId": "35952",
+    "prevTripId": "WD_OUT_JB-01_0809_35898",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0827_916",
@@ -18718,13 +18839,13 @@
     "direction": "inbound",
     "originStationId": "T-23",
     "destinationStationId": "T-01",
-    "customOrigin": "東葉勝田台",
+    "customOrigin": "津田沼",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "T-23",
-        "arrivalTime": "08:26:00",
+        "arrivalTime": "08:22:00",
         "departureTime": "08:27:00",
         "isPassing": false
       },
@@ -18861,7 +18982,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "916"
+    "trainId": "916",
+    "customDestination": "中野",
+    "prevTripId": "WD_INB_JB-33_0814_42873",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0828_319",
@@ -19711,7 +19835,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39808"
+    "trainId": "39808",
+    "throughTripId": "WD_INB_JB-07_0935_39740",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0838_78621",
@@ -20157,7 +20283,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25389"
+    "trainId": "25389",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_0824_25648",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0842_501",
@@ -20311,7 +20440,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "501"
+    "trainId": "501",
+    "throughTripId": "WD_INB_JB-07_0937_501",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0843_78699",
@@ -20770,7 +20901,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39809"
+    "trainId": "39809",
+    "throughTripId": "WD_INB_JB-07_0945_39741",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0847_890",
@@ -21466,7 +21599,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25391"
+    "trainId": "25391",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_0835_25650",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0854_78700",
@@ -22217,7 +22353,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25375"
+    "trainId": "25375",
+    "customDestination": "妙典",
+    "prevTripId": "WD_OUT_JB-01_0841_25634",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0901_78650",
@@ -23360,7 +23499,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25376"
+    "trainId": "25376",
+    "customDestination": "妙典",
+    "prevTripId": "WD_OUT_JB-01_0856_25635",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0915_308",
@@ -23763,7 +23905,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25393"
+    "trainId": "25393",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_0903_25652",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0918_489",
@@ -23917,7 +24062,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "489"
+    "trainId": "489",
+    "throughTripId": "WD_INB_JB-07_1005_489",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0920_78703",
@@ -24322,7 +24469,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "511"
+    "trainId": "511",
+    "throughTripId": "WD_INB_JB-07_1021_511",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0925_345",
@@ -24615,7 +24764,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25377"
+    "trainId": "25377",
+    "customDestination": "妙典",
+    "prevTripId": "WD_OUT_JB-01_0912_25636",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0927_535",
@@ -24768,7 +24920,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "535"
+    "trainId": "535",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1026_535",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0929_25370",
@@ -24867,7 +25022,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25370"
+    "trainId": "25370",
+    "customDestination": "東陽町",
+    "prevTripId": "WD_OUT_JB-01_0914_25629",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0930_793",
@@ -25630,7 +25788,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25395"
+    "trainId": "25395",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_0921_25654",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0938_536",
@@ -25783,7 +25944,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "536"
+    "trainId": "536",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1036_536",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0939_310",
@@ -26328,7 +26492,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25378"
+    "trainId": "25378",
+    "customDestination": "妙典",
+    "prevTripId": "WD_OUT_JB-01_0926_25637",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0946_25397",
@@ -26481,7 +26648,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25397"
+    "trainId": "25397",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_0930_25656",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_0946_637",
@@ -27037,7 +27207,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "538"
+    "trainId": "538",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1049_538",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_0953_312",
@@ -27581,7 +27754,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25399"
+    "trainId": "25399",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_0943_25658",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1001_639",
@@ -28083,7 +28259,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25371"
+    "trainId": "25371",
+    "customDestination": "東陽町",
+    "prevTripId": "WD_OUT_JB-01_0952_25630",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1008_798",
@@ -28945,7 +29124,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25372"
+    "trainId": "25372",
+    "customDestination": "東陽町",
+    "prevTripId": "WD_OUT_JB-01_1004_25631",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1022_352",
@@ -29403,7 +29585,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "541"
+    "trainId": "541",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1119_541",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1026_321",
@@ -30306,7 +30491,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25402"
+    "trainId": "25402",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1022_25661",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1040_646",
@@ -31068,7 +31256,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25404"
+    "trainId": "25404",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1038_25664",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1053_805",
@@ -31374,7 +31565,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "543"
+    "trainId": "543",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1149_543",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1058_78718",
@@ -32899,7 +33093,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25407"
+    "trainId": "25407",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1107_25666",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1123_809",
@@ -33205,7 +33402,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "545"
+    "trainId": "545",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1219_545",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1128_78721",
@@ -34729,7 +34929,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25408"
+    "trainId": "25408",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1137_25667",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1153_813",
@@ -35035,7 +35238,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "547"
+    "trainId": "547",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1249_547",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1158_78726",
@@ -36559,7 +36765,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25411"
+    "trainId": "25411",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1207_25670",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1223_817",
@@ -36865,7 +37074,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "549"
+    "trainId": "549",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1319_549",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1228_78730",
@@ -38389,7 +38601,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25412"
+    "trainId": "25412",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1237_25671",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1253_821",
@@ -38695,7 +38910,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "551"
+    "trainId": "551",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1349_551",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1258_78734",
@@ -40219,7 +40437,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25415"
+    "trainId": "25415",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1307_25674",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1323_825",
@@ -40525,7 +40746,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "553"
+    "trainId": "553",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1419_553",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1328_78737",
@@ -42049,7 +42273,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25416"
+    "trainId": "25416",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1337_25675",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1353_829",
@@ -42355,7 +42582,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "555"
+    "trainId": "555",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1449_555",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1358_78741",
@@ -43879,7 +44109,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25419"
+    "trainId": "25419",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1407_25678",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1423_833",
@@ -44185,7 +44418,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "557"
+    "trainId": "557",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1519_557",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1428_78745",
@@ -45710,7 +45946,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35941"
+    "trainId": "35941",
+    "prevTripId": "WD_OUT_JB-01_1437_35887",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1453_837",
@@ -46016,7 +46254,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "559"
+    "trainId": "559",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1549_559",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1458_78750",
@@ -46932,7 +47173,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "561"
+    "trainId": "561",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1604_561",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1513_78751",
@@ -47238,7 +47482,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "562"
+    "trainId": "562",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1612_562",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1518_409",
@@ -47544,7 +47791,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35942"
+    "trainId": "35942",
+    "prevTripId": "WD_OUT_JB-01_1507_35888",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1523_841",
@@ -48613,7 +48862,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "490"
+    "trainId": "490",
+    "throughTripId": "WD_INB_JB-07_1624_490",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1540_565",
@@ -48766,7 +49017,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "565"
+    "trainId": "565",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1636_565",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1543_78755",
@@ -49170,7 +49424,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "566"
+    "trainId": "566",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1644_566",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1548_413",
@@ -49475,7 +49732,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "567"
+    "trainId": "567",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1650_567",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1553_25422",
@@ -49628,7 +49888,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25422"
+    "trainId": "25422",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1537_25681",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1553_844",
@@ -50033,7 +50296,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "593"
+    "trainId": "593",
+    "customOrigin": "東陽町",
+    "throughTripId": "WD_INB_JB-07_1632_593",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1601_512",
@@ -50187,7 +50453,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "512"
+    "trainId": "512",
+    "throughTripId": "WD_INB_JB-07_1701_512",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1603_415",
@@ -50480,7 +50748,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "601"
+    "trainId": "601",
+    "customOrigin": "妙典",
+    "throughTripId": "WD_INB_JB-07_1654_601",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1608_25425",
@@ -50633,7 +50904,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25425"
+    "trainId": "25425",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1553_25684",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1608_704",
@@ -51495,7 +51769,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "570"
+    "trainId": "570",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1715_570",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1620_418",
@@ -51801,7 +52078,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "491"
+    "trainId": "491",
+    "throughTripId": "WD_INB_JB-07_1708_491",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1623_25427",
@@ -51954,7 +52233,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25427"
+    "trainId": "25427",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1608_25686",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1624_924",
@@ -52260,7 +52542,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25428"
+    "trainId": "25428",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1613_25687",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1630_706",
@@ -52718,7 +53003,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25430"
+    "trainId": "25430",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1621_25689",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1637_492",
@@ -52872,7 +53160,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "492"
+    "trainId": "492",
+    "throughTripId": "WD_INB_JB-07_1724_492",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1638_708",
@@ -53178,7 +53468,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "24737"
+    "trainId": "24737",
+    "prevTripId": "WD_OUT_JB-01_1624_25048",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-14_1639_771",
@@ -53583,7 +53875,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "513"
+    "trainId": "513",
+    "throughTripId": "WD_INB_JB-07_1738_513",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1645_35954",
@@ -53737,7 +54031,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35954"
+    "trainId": "35954",
+    "prevTripId": "WD_OUT_JB-01_1630_35900",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1647_573",
@@ -53890,7 +54186,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "573"
+    "trainId": "573",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1744_573",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1651_24738",
@@ -54044,7 +54343,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "24738"
+    "trainId": "24738",
+    "prevTripId": "WD_OUT_JB-01_1636_25049",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1654_420",
@@ -54651,11 +54952,15 @@
       {
         "stationId": "T-23",
         "arrivalTime": "17:56:00",
-        "departureTime": "17:59:00",
+        "departureTime": "18:19:00",
         "isPassing": false
       }
     ],
-    "trainId": "24739"
+    "trainId": "24739",
+    "prevTripId": "WD_OUT_JB-01_1641_25050",
+    "prevLineId": "chuo_sobu_local",
+    "throughTripId": "WD_OUT_JB-30_1819_300",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-14_1659_594",
@@ -54754,7 +55059,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "594"
+    "trainId": "594",
+    "customOrigin": "東陽町",
+    "throughTripId": "WD_INB_JB-07_1731_594",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1700_925",
@@ -55213,7 +55521,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "575"
+    "trainId": "575",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1802_575",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1705_25433",
@@ -55366,7 +55677,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25433"
+    "trainId": "25433",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1649_25692",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1707_851",
@@ -55978,7 +56292,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "577"
+    "trainId": "577",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1809_577",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1714_78655",
@@ -55994,7 +56311,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "17:14:00",
+        "arrivalTime": "17:10:00",
         "departureTime": "17:14:00",
         "isPassing": false
       },
@@ -56131,7 +56448,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "78655"
+    "trainId": "78655",
+    "customOrigin": "三鷹",
+    "prevTripId": "WD_OUT_JB-01_1655_35901",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-14_1715_772",
@@ -56383,7 +56703,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35943"
+    "trainId": "35943",
+    "prevTripId": "WD_OUT_JB-01_1701_35889",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1716_926",
@@ -56842,7 +57164,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "24741"
+    "trainId": "24741",
+    "prevTripId": "WD_OUT_JB-01_1707_25052",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1724_78656",
@@ -56858,7 +57182,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "17:24:00",
+        "arrivalTime": "17:16:00",
         "departureTime": "17:24:00",
         "isPassing": false
       },
@@ -56995,7 +57319,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "78656"
+    "trainId": "78656",
+    "customOrigin": "三鷹"
   },
   {
     "tripId": "WD_INB_T-14_1724_595",
@@ -57094,7 +57419,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "595"
+    "trainId": "595",
+    "customOrigin": "東陽町",
+    "throughTripId": "WD_INB_JB-07_1756_595",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1724_514",
@@ -57248,7 +57576,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "514"
+    "trainId": "514",
+    "throughTripId": "WD_INB_JB-07_1820_514",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-21_1727_785",
@@ -57541,7 +57871,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25436"
+    "trainId": "25436",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1713_25695",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1728_579",
@@ -57694,7 +58027,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "579"
+    "trainId": "579",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1826_579",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1731_300",
@@ -57843,11 +58179,14 @@
       {
         "stationId": "T-23",
         "arrivalTime": "18:18:00",
-        "departureTime": "18:19:00",
+        "departureTime": "18:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "300"
+    "trainId": "300",
+    "customOrigin": "中野",
+    "throughTripId": "WD_OUT_JB-30_1840_301",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1732_927",
@@ -58153,7 +58492,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25437"
+    "trainId": "25437",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1719_25696",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1735_604",
@@ -58933,7 +59275,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "17:43:00",
+        "arrivalTime": "17:40:00",
         "departureTime": "17:43:00",
         "isPassing": false
       },
@@ -59070,7 +59412,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "78658"
+    "trainId": "78658",
+    "customOrigin": "三鷹",
+    "prevTripId": "WD_OUT_JB-01_1725_35902",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-14_1743_596",
@@ -59169,7 +59514,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "596"
+    "trainId": "596",
+    "customOrigin": "東陽町",
+    "throughTripId": "WD_INB_JB-07_1814_596",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1746_25439",
@@ -59322,7 +59670,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25439"
+    "trainId": "25439",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1731_25698",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1746_493",
@@ -59476,7 +59827,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "493"
+    "trainId": "493",
+    "throughTripId": "WD_INB_JB-07_1832_493",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1749_78659",
@@ -59931,11 +60284,14 @@
       {
         "stationId": "T-23",
         "arrivalTime": "18:39:00",
-        "departureTime": "18:40:00",
+        "departureTime": "18:49:00",
         "isPassing": false
       }
     ],
-    "trainId": "301"
+    "trainId": "301",
+    "customOrigin": "中野",
+    "throughTripId": "WD_OUT_JB-30_1849_302",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1754_581",
@@ -60088,7 +60444,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "581"
+    "trainId": "581",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1851_581",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1755_78660",
@@ -60394,7 +60753,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25441"
+    "trainId": "25441",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1743_25700",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1758_494",
@@ -60548,7 +60910,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "494"
+    "trainId": "494",
+    "throughTripId": "WD_INB_JB-07_1844_494",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1800_39810",
@@ -60702,7 +61066,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39810"
+    "trainId": "39810",
+    "throughTripId": "WD_INB_JB-07_1859_39742",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1802_302",
@@ -60851,11 +61217,14 @@
       {
         "stationId": "T-23",
         "arrivalTime": "18:48:00",
-        "departureTime": "18:49:00",
+        "departureTime": "19:08:00",
         "isPassing": false
       }
     ],
-    "trainId": "302"
+    "trainId": "302",
+    "customOrigin": "中野",
+    "throughTripId": "WD_OUT_JB-30_1908_298",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1804_35944",
@@ -61009,7 +61378,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35944"
+    "trainId": "35944",
+    "prevTripId": "WD_OUT_JB-01_1749_35890",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1805_716",
@@ -61260,7 +61631,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "597"
+    "trainId": "597",
+    "customOrigin": "東陽町",
+    "throughTripId": "WD_INB_JB-07_1838_597",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1808_298",
@@ -61409,11 +61783,14 @@
       {
         "stationId": "T-23",
         "arrivalTime": "19:06:00",
-        "departureTime": "19:08:00",
+        "departureTime": "19:21:00",
         "isPassing": false
       }
     ],
-    "trainId": "298"
+    "trainId": "298",
+    "customOrigin": "中野",
+    "throughTripId": "WD_OUT_JB-30_1921_299",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1808_605",
@@ -61719,7 +62096,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35957"
+    "trainId": "35957",
+    "prevTripId": "WD_OUT_JB-01_1755_35903",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1811_929",
@@ -62177,7 +62556,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "42988"
+    "trainId": "42988",
+    "customDestination": "中野",
+    "prevTripId": "WD_INB_JB-33_1804_42876",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1817_25443",
@@ -62330,7 +62712,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25443"
+    "trainId": "25443",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1801_25702",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1819_78771",
@@ -62636,7 +63021,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "42989"
+    "trainId": "42989",
+    "customDestination": "中野",
+    "prevTripId": "WD_INB_JB-33_1813_42877",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1824_299",
@@ -62789,7 +63177,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "299"
+    "trainId": "299",
+    "customOrigin": "中野"
   },
   {
     "tripId": "WD_INB_T-23_1826_495",
@@ -62943,7 +63332,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "495"
+    "trainId": "495",
+    "throughTripId": "WD_INB_JB-07_1915_495",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1828_25445",
@@ -63096,7 +63487,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25445"
+    "trainId": "25445",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1812_25704",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1828_585",
@@ -63249,7 +63643,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "585"
+    "trainId": "585",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1923_585",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1831_78773",
@@ -63555,7 +63952,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "42990"
+    "trainId": "42990",
+    "customDestination": "中野",
+    "prevTripId": "WD_INB_JB-33_1823_42878",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1834_25446",
@@ -63708,7 +64108,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25446"
+    "trainId": "25446",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1819_25705",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1836_930",
@@ -63877,7 +64280,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "18:37:00",
+        "arrivalTime": "18:10:00",
         "departureTime": "18:37:00",
         "isPassing": false
       },
@@ -64014,7 +64417,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "78661"
+    "trainId": "78661",
+    "customOrigin": "三鷹"
   },
   {
     "tripId": "WD_INB_T-23_1839_586",
@@ -64167,7 +64571,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "586"
+    "trainId": "586",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_1937_586",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1841_35958",
@@ -64337,7 +64744,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "18:43:00",
+        "arrivalTime": "18:41:00",
         "departureTime": "18:43:00",
         "isPassing": false
       },
@@ -64474,7 +64881,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "78662"
+    "trainId": "78662",
+    "customOrigin": "三鷹",
+    "prevTripId": "WD_OUT_JB-01_1826_35904",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1843_42984",
@@ -64627,7 +65037,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "42984"
+    "trainId": "42984",
+    "customDestination": "中野",
+    "prevTripId": "WD_INB_JB-33_1833_42872",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1847_35959",
@@ -64781,7 +65194,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35959"
+    "trainId": "35959",
+    "prevTripId": "WD_OUT_JB-01_1832_35905",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1847_515",
@@ -64935,7 +65350,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "515"
+    "trainId": "515",
+    "throughTripId": "WD_INB_JB-07_1945_515",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1849_430",
@@ -65102,7 +65519,7 @@
     "stops": [
       {
         "stationId": "T-23",
-        "arrivalTime": "18:52:00",
+        "arrivalTime": "18:41:00",
         "departureTime": "18:52:00",
         "isPassing": false
       },
@@ -65239,7 +65656,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "722"
+    "trainId": "722",
+    "customDestination": "中野",
+    "customOrigin": "津田沼"
   },
   {
     "tripId": "WD_OUT_T-01_1853_25448",
@@ -65392,7 +65811,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25448"
+    "trainId": "25448",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1838_25707",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1853_859",
@@ -65561,7 +65983,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "18:57:00",
+        "arrivalTime": "18:47:00",
         "departureTime": "18:57:00",
         "isPassing": false
       },
@@ -65698,7 +66120,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "78663"
+    "trainId": "78663",
+    "customOrigin": "三鷹"
   },
   {
     "tripId": "WD_INB_T-23_1859_931",
@@ -66005,7 +66428,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35960"
+    "trainId": "35960",
+    "prevTripId": "WD_OUT_JB-01_1844_35906",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1903_432",
@@ -66310,7 +66735,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "42991"
+    "trainId": "42991",
+    "customDestination": "中野",
+    "prevTripId": "WD_INB_JB-33_1854_42879",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1906_25449",
@@ -66463,7 +66891,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25449"
+    "trainId": "25449",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1851_25708",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1906_861",
@@ -66922,7 +67353,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39811"
+    "trainId": "39811",
+    "throughTripId": "WD_INB_JB-07_2008_39743",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1912_35961",
@@ -67076,7 +67509,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35961"
+    "trainId": "35961",
+    "prevTripId": "WD_OUT_JB-01_1856_35907",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1915_932",
@@ -67535,7 +67970,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35946"
+    "trainId": "35946",
+    "prevTripId": "WD_OUT_JB-01_1903_35892",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1918_863",
@@ -68146,7 +68583,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25450"
+    "trainId": "25450",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1909_25709",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1926_934",
@@ -68315,7 +68755,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "19:29:00",
+        "arrivalTime": "19:11:00",
         "departureTime": "19:29:00",
         "isPassing": false
       },
@@ -68452,7 +68892,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "78664"
+    "trainId": "78664",
+    "customOrigin": "三鷹"
   },
   {
     "tripId": "WD_INB_T-23_1930_39803",
@@ -68606,7 +69047,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39803"
+    "trainId": "39803",
+    "throughTripId": "WD_INB_JB-07_2017_39735",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1931_935",
@@ -69065,7 +69508,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25451"
+    "trainId": "25451",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1921_25710",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1937_936",
@@ -69234,7 +69680,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "19:38:00",
+        "arrivalTime": "19:18:00",
         "departureTime": "19:38:00",
         "isPassing": false
       },
@@ -69371,7 +69817,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "78665"
+    "trainId": "78665",
+    "customOrigin": "三鷹"
   },
   {
     "tripId": "WD_INB_T-23_1942_937",
@@ -69830,7 +70277,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "39804"
+    "trainId": "39804",
+    "throughTripId": "WD_INB_JB-07_2031_39736",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1947_35962",
@@ -69984,7 +70433,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35962"
+    "trainId": "35962",
+    "prevTripId": "WD_OUT_JB-01_1932_35908",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_1948_516",
@@ -70138,7 +70589,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "516"
+    "trainId": "516",
+    "throughTripId": "WD_INB_JB-07_2045_516",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1951_441",
@@ -70748,7 +71201,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25452"
+    "trainId": "25452",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1940_25711",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_1958_78780",
@@ -71815,7 +72271,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25453"
+    "trainId": "25453",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_1954_25712",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_2009_496",
@@ -71969,7 +72428,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "496"
+    "trainId": "496",
+    "throughTripId": "WD_INB_JB-07_2055_496",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_2010_735",
@@ -72290,7 +72751,7 @@
     "stops": [
       {
         "stationId": "T-01",
-        "arrivalTime": "20:15:00",
+        "arrivalTime": "19:47:00",
         "departureTime": "20:15:00",
         "isPassing": false
       },
@@ -72427,7 +72888,8 @@
         "isPassing": false
       }
     ],
-    "trainId": "78669"
+    "trainId": "78669",
+    "customOrigin": "三鷹"
   },
   {
     "tripId": "WD_INB_T-23_2015_736",
@@ -72732,7 +73194,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25454"
+    "trainId": "25454",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_2003_25713",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_2018_941",
@@ -73192,7 +73657,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "497"
+    "trainId": "497",
+    "throughTripId": "WD_INB_JB-07_2107_497",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_2027_448",
@@ -73802,7 +74269,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "587"
+    "trainId": "587",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_2128_587",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_2034_868",
@@ -74567,7 +75037,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25455"
+    "trainId": "25455",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_2026_25714",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_2043_588",
@@ -74720,7 +75193,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "588"
+    "trainId": "588",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_2139_588",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_2047_78786",
@@ -76246,7 +76722,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "589"
+    "trainId": "589",
+    "customOrigin": "西船橋",
+    "throughTripId": "WD_INB_JB-07_2200_589",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_2104_453",
@@ -77618,7 +78097,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25456"
+    "trainId": "25456",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_2104_25715",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_2123_78790",
@@ -78381,7 +78863,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25457"
+    "trainId": "25457",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_2115_25716",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_INB_T-23_2132_873",
@@ -79297,7 +79782,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25458"
+    "trainId": "25458",
+    "customDestination": "西船橋",
+    "prevTripId": "WD_OUT_JB-01_2128_25717",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "WD_OUT_T-01_2147_78793",
@@ -90211,7 +90699,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "518"
+    "trainId": "518",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_0713_518",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0620_78632",
@@ -90823,7 +91314,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "519"
+    "trainId": "519",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_0725_519",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0637_78635",
@@ -91282,7 +91776,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "521"
+    "trainId": "521",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_0738_521",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0645_78636",
@@ -91893,7 +92390,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "524"
+    "trainId": "524",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_0749_524",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0700_78638",
@@ -92505,7 +93005,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "525"
+    "trainId": "525",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_0802_525",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0713_908",
@@ -92885,7 +93388,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25380"
+    "trainId": "25380",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0658_25639",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0717_625",
@@ -93190,7 +93696,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25381"
+    "trainId": "25381",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0705_25640",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0721_505",
@@ -93344,7 +93853,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "505"
+    "trainId": "505",
+    "throughTripId": "HD_INB_JB-07_0815_505",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0726_78641",
@@ -93803,7 +94314,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25382"
+    "trainId": "25382",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0716_25641",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0731_526",
@@ -93956,7 +94470,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "526"
+    "trainId": "526",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_0825_526",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0735_910",
@@ -94567,7 +95084,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25384"
+    "trainId": "25384",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0729_25643",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0744_507",
@@ -94721,7 +95241,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "507"
+    "trainId": "507",
+    "throughTripId": "HD_INB_JB-07_0838_507",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-14_0748_78806",
@@ -95255,7 +95777,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "528"
+    "trainId": "528",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_0850_528",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0756_788",
@@ -95561,7 +96086,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25385"
+    "trainId": "25385",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0742_25644",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0800_628",
@@ -96173,7 +96701,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "509"
+    "trainId": "509",
+    "throughTripId": "HD_INB_JB-07_0905_509",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0810_25386",
@@ -96326,7 +96856,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25386"
+    "trainId": "25386",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0754_25645",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0812_304",
@@ -96577,7 +97110,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "529"
+    "trainId": "529",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_0908_529",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0815_78647",
@@ -97188,7 +97724,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25387"
+    "trainId": "25387",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0806_25646",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0825_78648",
@@ -97494,7 +98033,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "530"
+    "trainId": "530",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_0921_530",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-21_0829_781",
@@ -98092,7 +98634,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25388"
+    "trainId": "25388",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0819_25647",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0836_531",
@@ -98245,7 +98790,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "531"
+    "trainId": "531",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_0934_531",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0840_78698",
@@ -99010,7 +99558,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25390"
+    "trainId": "25390",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0832_25649",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0850_532",
@@ -99163,7 +99714,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "532"
+    "trainId": "532",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_0948_532",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0852_340",
@@ -99622,7 +100176,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35953"
+    "trainId": "35953",
+    "prevTripId": "HD_OUT_JB-01_0841_35899",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0856_630",
@@ -100537,7 +101093,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25392"
+    "trainId": "25392",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0854_25651",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0910_533",
@@ -100690,7 +101249,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "533"
+    "trainId": "533",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1004_533",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0914_78702",
@@ -101454,7 +102016,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25394"
+    "trainId": "25394",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0907_25653",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0925_534",
@@ -101607,7 +102172,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "534"
+    "trainId": "534",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1019_534",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0928_78704",
@@ -102217,7 +102785,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25396"
+    "trainId": "25396",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0922_25655",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0938_794",
@@ -102523,7 +103094,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "537"
+    "trainId": "537",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1034_537",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0943_78707",
@@ -103133,7 +103707,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25398"
+    "trainId": "25398",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0938_25657",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_0953_796",
@@ -103439,7 +104016,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "539"
+    "trainId": "539",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1049_539",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_0958_78709",
@@ -104049,7 +104629,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25400"
+    "trainId": "25400",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_0952_25659",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1008_799",
@@ -104964,7 +105547,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25401"
+    "trainId": "25401",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1008_25660",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1023_800",
@@ -105270,7 +105856,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "540"
+    "trainId": "540",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1119_540",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1028_78713",
@@ -105880,7 +106469,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25403"
+    "trainId": "25403",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1023_25662",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1038_802",
@@ -106795,7 +107387,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25405"
+    "trainId": "25405",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1038_25663",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1053_804",
@@ -107101,7 +107696,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "542"
+    "trainId": "542",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1149_542",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1058_78717",
@@ -108625,7 +109223,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25406"
+    "trainId": "25406",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1107_25665",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1123_808",
@@ -108931,7 +109532,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "544"
+    "trainId": "544",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1219_544",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1128_78722",
@@ -110455,7 +111059,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25409"
+    "trainId": "25409",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1138_25668",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1153_812",
@@ -110761,7 +111368,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "546"
+    "trainId": "546",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1249_546",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1158_78725",
@@ -112285,7 +112895,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25410"
+    "trainId": "25410",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1207_25669",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1223_816",
@@ -112591,7 +113204,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "548"
+    "trainId": "548",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1319_548",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1228_78729",
@@ -114115,7 +114731,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25413"
+    "trainId": "25413",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1238_25672",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1253_820",
@@ -114421,7 +115040,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "550"
+    "trainId": "550",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1349_550",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1258_78733",
@@ -115945,7 +116567,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25414"
+    "trainId": "25414",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1307_25673",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1323_824",
@@ -116251,7 +116876,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "552"
+    "trainId": "552",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1419_552",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1328_78738",
@@ -117775,7 +118403,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25417"
+    "trainId": "25417",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1338_25676",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1353_828",
@@ -118081,7 +118712,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "554"
+    "trainId": "554",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1449_554",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1358_78742",
@@ -119605,7 +120239,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25418"
+    "trainId": "25418",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1407_25677",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1423_832",
@@ -119911,7 +120548,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "556"
+    "trainId": "556",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1519_556",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1428_78746",
@@ -121435,7 +122075,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25420"
+    "trainId": "25420",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1438_25679",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1453_836",
@@ -121741,7 +122384,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "558"
+    "trainId": "558",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1549_558",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1458_78749",
@@ -122656,7 +123302,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "560"
+    "trainId": "560",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1604_560",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1513_78752",
@@ -123266,7 +123915,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25421"
+    "trainId": "25421",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1507_25680",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1523_840",
@@ -123572,7 +124224,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "563"
+    "trainId": "563",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1619_563",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1528_78753",
@@ -124487,7 +125142,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "564"
+    "trainId": "564",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1634_564",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1543_78756",
@@ -125097,7 +125755,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25423"
+    "trainId": "25423",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1538_25682",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1553_843",
@@ -125403,7 +126064,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "568"
+    "trainId": "568",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1649_568",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1558_78757",
@@ -126013,7 +126677,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25424"
+    "trainId": "25424",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1552_25683",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1608_845",
@@ -126319,7 +126986,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "569"
+    "trainId": "569",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1704_569",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1613_78760",
@@ -126929,7 +127599,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25426"
+    "trainId": "25426",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1608_25685",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1623_847",
@@ -127235,7 +127908,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "571"
+    "trainId": "571",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1719_571",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1628_78761",
@@ -127693,7 +128369,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25429"
+    "trainId": "25429",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1618_25688",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1638_25431",
@@ -127846,7 +128525,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25431"
+    "trainId": "25431",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1623_25690",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1638_848",
@@ -128152,7 +128834,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "572"
+    "trainId": "572",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1735_572",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1643_78763",
@@ -128762,7 +129447,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25432"
+    "trainId": "25432",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1638_25691",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1653_850",
@@ -129068,7 +129756,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "574"
+    "trainId": "574",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1750_574",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1658_78764",
@@ -129678,7 +130369,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25434"
+    "trainId": "25434",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1653_25693",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1708_852",
@@ -129984,7 +130678,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "576"
+    "trainId": "576",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1804_576",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1713_78766",
@@ -130594,7 +131291,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25435"
+    "trainId": "25435",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1705_25694",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1723_853",
@@ -130900,7 +131600,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "578"
+    "trainId": "578",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1819_578",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1728_78767",
@@ -131206,7 +131909,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "580"
+    "trainId": "580",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1831_580",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1733_424",
@@ -131511,7 +132217,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25438"
+    "trainId": "25438",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1721_25697",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1738_854",
@@ -132426,7 +133135,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25440"
+    "trainId": "25440",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1738_25699",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1753_855",
@@ -132732,7 +133444,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "582"
+    "trainId": "582",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1849_582",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1758_78769",
@@ -133038,7 +133753,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "583"
+    "trainId": "583",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1900_583",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1803_426",
@@ -133343,7 +134061,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25442"
+    "trainId": "25442",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1753_25701",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1808_856",
@@ -134258,7 +134979,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25444"
+    "trainId": "25444",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1807_25703",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1823_857",
@@ -134564,7 +135288,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "584"
+    "trainId": "584",
+    "customOrigin": "西船橋",
+    "throughTripId": "HD_INB_JB-07_1921_584",
+    "throughLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_OUT_T-01_1829_78772",
@@ -135327,7 +136054,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "25447"
+    "trainId": "25447",
+    "customDestination": "西船橋",
+    "prevTripId": "HD_OUT_JB-01_1821_25706",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1840_720",
@@ -136090,7 +136820,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35945"
+    "trainId": "35945",
+    "prevTripId": "HD_OUT_JB-01_1836_35891",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1855_860",
@@ -137920,7 +138652,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35947"
+    "trainId": "35947",
+    "prevTripId": "HD_OUT_JB-01_1907_35893",
+    "prevLineId": "chuo_sobu_local"
   },
   {
     "tripId": "HD_INB_T-23_1928_933",

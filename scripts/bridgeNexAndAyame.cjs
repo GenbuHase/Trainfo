@@ -241,8 +241,14 @@ function bridgeNexAndAyame() {
         }
       }
 
-      // (3) 佐倉通過時刻
-      const sakuraPassSec = chibaDepSec + 840; // 約14分走行
+      // (3) 佐倉通過時刻 (千葉 SM-01 〜 佐倉 SM-06: 16.1km, 佐倉 NR-01 〜 空港第2ビル NR-36: 20.4km, 全長 36.5km)
+      let chibaToNr36Dur = nr36ArrSec - chibaDepSec;
+      if (chibaToNr36Dur <= 300) {
+        // 千葉発時刻が異常な場合は第2ビルから逆算
+        chibaDepSec = nr36ArrSec - 1800;
+        chibaToNr36Dur = 1800;
+      }
+      const sakuraPassSec = Math.round(chibaDepSec + chibaToNr36Dur * (16.1 / 36.5));
 
       // (4) 総武本線便 (SM-01 千葉 〜 SM-06 佐倉) の確保または新設
       const smTripId = `${prefix}_OUT_SM-01_${secToTime(chibaDepSec).replace(/:/g, '').slice(0, 4)}_${nrtTrip.trainId || trainNum}`;
@@ -268,13 +274,12 @@ function bridgeNexAndAyame() {
         };
         sobuMTrips.push(smTrip);
       } else {
+        smTrip.tripId = smTripId;
         smTrip.trainName = trainName;
         smTrip.trainType = 'limitedExp';
         smTrip.customOrigin = originName;
         smTrip.customDestination = '成田空港';
-        if (smTrip.stops.length < 6) {
-          smTrip.stops = smStops;
-        }
+        smTrip.stops = smStops;
       }
 
       // (5) 成田線便 (NR-01 佐倉 〜 NR-37 成田空港) の stops 補完
@@ -450,8 +455,13 @@ function bridgeNexAndAyame() {
         }
       }
 
-      // (3) 佐倉通過時刻
-      const sakuraPassSec = chibaDepSec - 840; // 千葉通過の約14分前
+      // (3) 佐倉通過時刻 (成田空港側 NR-36 〜 佐倉 NR-01: 20.4km, 佐倉 SM-06 〜 千葉 SM-01: 16.1km)
+      let nr36ToChibaDur = chibaDepSec - nr36DepSec;
+      if (nr36ToChibaDur <= 300) {
+        chibaDepSec = nr36DepSec + 1800;
+        nr36ToChibaDur = 1800;
+      }
+      const sakuraPassSec = Math.round(nr36DepSec + nr36ToChibaDur * (20.4 / 36.5));
 
       // (4) 成田線 stops の延伸（NR-37 -> NR-36 -> NR-03 -> NR-02 -> NR-01）
       const midNaritaUpStops = buildPassingStopsWithDistances(NARITA_UP_STATIONS, nr36DepSec, sakuraPassSec, false, true);
@@ -512,13 +522,12 @@ function bridgeNexAndAyame() {
         };
         sobuMTrips.push(smTrip);
       } else {
+        smTrip.tripId = smTripId;
         smTrip.trainName = trainName;
         smTrip.trainType = 'limitedExp';
         smTrip.customOrigin = '成田空港';
         smTrip.customDestination = finalDest;
-        if (smTrip.stops.length < 6) {
-          smTrip.stops = smStops;
-        }
+        smTrip.stops = smStops;
       }
 
       // (6) 直通リンク結合

@@ -866,14 +866,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "籠原",
+    "customOrigin": "前橋",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "06:56:00",
+        "arrivalTime": "07:17:00",
         "departureTime": "07:18:00",
         "isPassing": false
       },
@@ -945,8 +945,8 @@
       }
     ],
     "trainId": "33438",
-    "prevTripId": "WD_INB_JU-07_0658_34161",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "WD_INB_TK-25_0556_33438",
+    "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_0825_33438",
     "throughLineId": "tokaido"
   },
@@ -1279,14 +1279,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "小金井",
+    "customOrigin": "高崎",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "07:16:00",
+        "arrivalTime": "07:36:00",
         "departureTime": "07:37:00",
         "isPassing": false
       },
@@ -1358,7 +1358,7 @@
       }
     ],
     "trainId": "33376",
-    "prevTripId": "WD_INB_TK-07_0717_34257",
+    "prevTripId": "WD_INB_TK-25_0610_33376",
     "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_0842_33376",
     "throughLineId": "tokaido"
@@ -1645,14 +1645,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "小金井",
+    "customOrigin": "高崎",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "07:31:00",
+        "arrivalTime": "07:50:00",
         "departureTime": "07:52:00",
         "isPassing": false
       },
@@ -1724,7 +1724,7 @@
       }
     ],
     "trainId": "33372",
-    "prevTripId": "WD_INB_TK-07_0732_34252",
+    "prevTripId": "WD_INB_TK-25_0626_33372",
     "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_0901_33372",
     "throughLineId": "tokaido"
@@ -1886,9 +1886,7 @@
       }
     ],
     "trainId": "6560",
-    "customOrigin": "新宿",
-    "throughTripId": "WD_OUT_JU-05_0827_6560",
-    "throughLineId": "utsunomiya"
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_JS-24_0805_33389",
@@ -1898,14 +1896,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "古河",
+    "customOrigin": "深谷",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "07:50:00",
+        "arrivalTime": "08:02:00",
         "departureTime": "08:05:00",
         "isPassing": false
       },
@@ -1977,7 +1975,7 @@
       }
     ],
     "trainId": "33389",
-    "prevTripId": "WD_INB_TK-07_0752_34239",
+    "prevTripId": "WD_INB_TK-19_0707_33389",
     "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_0914_33389",
     "throughLineId": "tokaido"
@@ -2313,7 +2311,7 @@
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "08:10:00",
+        "arrivalTime": "08:27:00",
         "departureTime": "08:28:00",
         "isPassing": false
       },
@@ -2385,8 +2383,8 @@
       }
     ],
     "trainId": "33381",
-    "prevTripId": "WD_INB_JU-07_0811_34103",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "WD_INB_TK-25_0702_33381",
+    "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_0938_33381",
     "throughLineId": "tokaido"
   },
@@ -3270,7 +3268,7 @@
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "09:04:00",
+        "arrivalTime": "09:23:00",
         "departureTime": "09:24:00",
         "isPassing": false
       },
@@ -3342,8 +3340,8 @@
       }
     ],
     "trainId": "33383",
-    "prevTripId": "WD_INB_JU-07_0905_34104",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "WD_INB_TK-25_0759_33383",
+    "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_1032_33383",
     "throughLineId": "tokaido"
   },
@@ -3497,9 +3495,7 @@
       }
     ],
     "trainId": "6562",
-    "customOrigin": "新宿",
-    "throughTripId": "WD_OUT_JU-05_0958_6562",
-    "throughLineId": "utsunomiya"
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_OUT_JS-20_0940_31113",
@@ -3738,14 +3734,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "高崎",
+    "customOrigin": "籠原",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "09:42:00",
+        "arrivalTime": "09:56:00",
         "departureTime": "09:57:00",
         "isPassing": false
       },
@@ -3817,8 +3813,8 @@
       }
     ],
     "trainId": "33394",
-    "prevTripId": "WD_INB_JU-07_0944_34089",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "WD_INB_TK-18_0908_33394",
+    "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_1101_33394",
     "throughLineId": "tokaido"
   },
@@ -4280,9 +4276,7 @@
       }
     ],
     "trainId": "37203",
-    "customOrigin": "新宿",
-    "throughTripId": "WD_OUT_JU-05_1054_37203",
-    "throughLineId": "utsunomiya"
+    "customOrigin": "新宿"
   },
   {
     "tripId": "WD_INB_JS-17_1031_39230",
@@ -4654,14 +4648,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "宇都宮",
+    "customOrigin": "籠原",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "10:38:00",
+        "arrivalTime": "10:56:00",
         "departureTime": "10:57:00",
         "isPassing": false
       },
@@ -4733,7 +4727,7 @@
       }
     ],
     "trainId": "33395",
-    "prevTripId": "WD_INB_TK-07_1043_34182",
+    "prevTripId": "WD_INB_TK-18_1013_33395",
     "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_1201_33395",
     "throughLineId": "tokaido"
@@ -5629,8 +5623,8 @@
       }
     ],
     "trainId": "33397",
-    "prevTripId": "WD_INB_TK-07_1143_34185",
-    "prevLineId": "takasaki",
+    "prevTripId": "WD_INB_JU-24_1021_34185",
+    "prevLineId": "utsunomiya",
     "throughTripId": "WD_OUT_JT-05_1301_33397",
     "throughLineId": "tokaido"
   },
@@ -6380,14 +6374,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "宇都宮",
+    "customOrigin": "籠原",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "12:38:00",
+        "arrivalTime": "12:56:00",
         "departureTime": "12:57:00",
         "isPassing": false
       },
@@ -6459,7 +6453,7 @@
       }
     ],
     "trainId": "33399",
-    "prevTripId": "WD_INB_TK-07_1243_34189",
+    "prevTripId": "WD_INB_TK-18_1213_33399",
     "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_1401_33399",
     "throughLineId": "tokaido"
@@ -8040,14 +8034,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "宇都宮",
+    "customOrigin": "籠原",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "14:38:00",
+        "arrivalTime": "14:55:00",
         "departureTime": "14:56:00",
         "isPassing": false
       },
@@ -8119,7 +8113,7 @@
       }
     ],
     "trainId": "33401",
-    "prevTripId": "WD_INB_TK-07_1443_34192",
+    "prevTripId": "WD_INB_TK-18_1412_33401",
     "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_1601_33401",
     "throughLineId": "tokaido"
@@ -8877,7 +8871,7 @@
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "15:32:00",
+        "arrivalTime": "15:56:00",
         "departureTime": "15:57:00",
         "isPassing": false
       },
@@ -8949,8 +8943,8 @@
       }
     ],
     "trainId": "33403",
-    "prevTripId": "WD_INB_JU-07_1533_34151",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "WD_INB_TK-18_1513_33403",
+    "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_1701_33403",
     "throughLineId": "tokaido"
   },
@@ -9792,7 +9786,7 @@
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "16:32:00",
+        "arrivalTime": "16:59:00",
         "departureTime": "17:00:00",
         "isPassing": false
       },
@@ -9864,8 +9858,8 @@
       }
     ],
     "trainId": "33405",
-    "prevTripId": "WD_INB_JU-07_1633_34153",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "WD_INB_TK-18_1613_33405",
+    "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_1805_33405",
     "throughLineId": "tokaido"
   },
@@ -10200,14 +10194,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "籠原",
+    "customOrigin": "高崎",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "17:05:00",
+        "arrivalTime": "17:29:00",
         "departureTime": "17:30:00",
         "isPassing": false
       },
@@ -10279,8 +10273,8 @@
       }
     ],
     "trainId": "33385",
-    "prevTripId": "WD_INB_JU-07_1706_34162",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "WD_INB_TK-25_1611_33385",
+    "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_1838_33385",
     "throughLineId": "tokaido"
   },
@@ -10586,14 +10580,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "古河",
+    "customOrigin": "籠原",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "17:41:00",
+        "arrivalTime": "17:56:00",
         "departureTime": "17:57:00",
         "isPassing": false
       },
@@ -10665,7 +10659,7 @@
       }
     ],
     "trainId": "33416",
-    "prevTripId": "WD_INB_TK-07_1746_34245",
+    "prevTripId": "WD_INB_TK-18_1713_33416",
     "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_1905_33416",
     "throughLineId": "tokaido"
@@ -11296,14 +11290,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "前橋",
+    "customOrigin": "高崎",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "18:05:00",
+        "arrivalTime": "18:32:00",
         "departureTime": "18:33:00",
         "isPassing": false
       },
@@ -11375,8 +11369,8 @@
       }
     ],
     "trainId": "33378",
-    "prevTripId": "WD_INB_JU-07_1806_34294",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "WD_INB_TK-25_1713_33378",
+    "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_1941_33378",
     "throughLineId": "tokaido"
   },
@@ -11886,14 +11880,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "小金井",
+    "customOrigin": "籠原",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "18:44:00",
+        "arrivalTime": "19:11:00",
         "departureTime": "19:12:00",
         "isPassing": false
       },
@@ -11965,7 +11959,7 @@
       }
     ],
     "trainId": "33408",
-    "prevTripId": "WD_INB_TK-07_1845_34255",
+    "prevTripId": "WD_INB_TK-18_1827_33408",
     "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_2023_33408",
     "throughLineId": "tokaido"
@@ -13189,14 +13183,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "古河",
+    "customOrigin": "高崎",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "20:19:00",
+        "arrivalTime": "20:35:00",
         "departureTime": "20:36:00",
         "isPassing": false
       },
@@ -13268,7 +13262,7 @@
       }
     ],
     "trainId": "33388",
-    "prevTripId": "WD_INB_TK-07_2020_34247",
+    "prevTripId": "WD_INB_TK-25_1917_33388",
     "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_2139_33388",
     "throughLineId": "tokaido"
@@ -13775,14 +13769,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "宇都宮",
+    "customOrigin": "籠原",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "20:57:00",
+        "arrivalTime": "21:23:00",
         "departureTime": "21:24:00",
         "isPassing": false
       },
@@ -13854,7 +13848,7 @@
       }
     ],
     "trainId": "33417",
-    "prevTripId": "WD_INB_TK-07_2058_34210",
+    "prevTripId": "WD_INB_TK-18_2036_33417",
     "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_2233_33417",
     "throughLineId": "tokaido"
@@ -14206,7 +14200,7 @@
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "21:55:00",
+        "arrivalTime": "22:10:00",
         "departureTime": "22:11:00",
         "isPassing": false
       },
@@ -14278,8 +14272,8 @@
       }
     ],
     "trainId": "33420",
-    "prevTripId": "WD_INB_JU-07_2156_34164",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "WD_INB_TK-18_2124_33420",
+    "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_2315_33420",
     "throughLineId": "tokaido"
   },
@@ -14291,14 +14285,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "宇都宮",
+    "customOrigin": "高崎",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "22:05:00",
+        "arrivalTime": "22:24:00",
         "departureTime": "22:26:00",
         "isPassing": false
       },
@@ -14370,7 +14364,7 @@
       }
     ],
     "trainId": "33380",
-    "prevTripId": "WD_INB_TK-07_2206_34201",
+    "prevTripId": "WD_INB_TK-25_2105_33380",
     "prevLineId": "takasaki",
     "throughTripId": "WD_OUT_JT-05_2332_33380",
     "throughLineId": "tokaido"
@@ -14682,7 +14676,7 @@
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "05:49:00",
+        "arrivalTime": "06:06:00",
         "departureTime": "06:07:00",
         "isPassing": false
       },
@@ -14754,8 +14748,8 @@
       }
     ],
     "trainId": "33415",
-    "prevTripId": "HD_INB_JU-07_0550_34157",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "HD_INB_TK-18_0523_33415",
+    "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_0710_33415",
     "throughLineId": "tokaido"
   },
@@ -16170,9 +16164,7 @@
       }
     ],
     "trainId": "6560",
-    "customOrigin": "新宿",
-    "throughTripId": "HD_OUT_JU-05_0827_6560",
-    "throughLineId": "utsunomiya"
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_JS-20_0805_31129",
@@ -16800,14 +16792,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "小金井",
+    "customOrigin": "高崎",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "08:29:00",
+        "arrivalTime": "08:58:00",
         "departureTime": "08:59:00",
         "isPassing": false
       },
@@ -16879,7 +16871,7 @@
       }
     ],
     "trainId": "33382",
-    "prevTripId": "HD_INB_TK-07_0832_34263",
+    "prevTripId": "HD_INB_TK-25_0740_33382",
     "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_1008_33382",
     "throughLineId": "tokaido"
@@ -17186,7 +17178,7 @@
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "08:58:00",
+        "arrivalTime": "09:24:00",
         "departureTime": "09:26:00",
         "isPassing": false
       },
@@ -17258,7 +17250,7 @@
       }
     ],
     "trainId": "33357",
-    "prevTripId": "HD_INB_TK-25_0740_33382",
+    "prevTripId": "HD_INB_TK-25_0759_33357",
     "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_1031_33357",
     "throughLineId": "tokaido"
@@ -17531,9 +17523,7 @@
       }
     ],
     "trainId": "6562",
-    "customOrigin": "新宿",
-    "throughTripId": "HD_OUT_JU-05_0958_6562",
-    "throughLineId": "utsunomiya"
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_OUT_JS-20_0939_31112",
@@ -17772,14 +17762,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "高崎",
+    "customOrigin": "籠原",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "09:42:00",
+        "arrivalTime": "09:53:00",
         "departureTime": "09:57:00",
         "isPassing": false
       },
@@ -17851,8 +17841,8 @@
       }
     ],
     "trainId": "33393",
-    "prevTripId": "HD_INB_JU-07_0943_34088",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "HD_INB_TK-18_0904_33393",
+    "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_1106_33393",
     "throughLineId": "tokaido"
   },
@@ -18355,9 +18345,7 @@
       }
     ],
     "trainId": "37203",
-    "customOrigin": "新宿",
-    "throughTripId": "HD_OUT_JU-05_1054_37203",
-    "throughLineId": "utsunomiya"
+    "customOrigin": "新宿"
   },
   {
     "tripId": "HD_INB_JS-17_1031_39231",
@@ -18797,14 +18785,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "宇都宮",
+    "customOrigin": "籠原",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "10:39:00",
+        "arrivalTime": "10:56:00",
         "departureTime": "10:57:00",
         "isPassing": false
       },
@@ -18876,7 +18864,7 @@
       }
     ],
     "trainId": "33396",
-    "prevTripId": "HD_INB_TK-07_1042_34183",
+    "prevTripId": "HD_INB_TK-18_1013_33396",
     "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_1201_33396",
     "throughLineId": "tokaido"
@@ -19627,14 +19615,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "宇都宮",
+    "customOrigin": "籠原",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "11:38:00",
+        "arrivalTime": "11:56:00",
         "departureTime": "11:57:00",
         "isPassing": false
       },
@@ -19706,7 +19694,7 @@
       }
     ],
     "trainId": "33398",
-    "prevTripId": "HD_INB_TK-07_1143_34186",
+    "prevTripId": "HD_INB_TK-18_1113_33398",
     "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_1301_33398",
     "throughLineId": "tokaido"
@@ -20509,14 +20497,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "宇都宮",
+    "customOrigin": "籠原",
     "customDestination": "平塚",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "12:38:00",
+        "arrivalTime": "12:56:00",
         "departureTime": "12:57:00",
         "isPassing": false
       },
@@ -20588,7 +20576,7 @@
       }
     ],
     "trainId": "33400",
-    "prevTripId": "HD_INB_TK-07_1243_34188",
+    "prevTripId": "HD_INB_TK-18_1213_33400",
     "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_1401_33400",
     "throughLineId": "tokaido"
@@ -23006,7 +22994,7 @@
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "15:32:00",
+        "arrivalTime": "15:56:00",
         "departureTime": "15:57:00",
         "isPassing": false
       },
@@ -23078,8 +23066,8 @@
       }
     ],
     "trainId": "33404",
-    "prevTripId": "HD_INB_JU-07_1533_34152",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "HD_INB_TK-18_1513_33404",
+    "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_1701_33404",
     "throughLineId": "tokaido"
   },
@@ -23921,7 +23909,7 @@
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "16:32:00",
+        "arrivalTime": "16:59:00",
         "departureTime": "17:00:00",
         "isPassing": false
       },
@@ -23993,8 +23981,8 @@
       }
     ],
     "trainId": "33406",
-    "prevTripId": "HD_INB_JU-07_1633_34154",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "HD_INB_TK-18_1613_33406",
+    "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_1804_33406",
     "throughLineId": "tokaido"
   },
@@ -24336,7 +24324,7 @@
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "17:04:00",
+        "arrivalTime": "17:29:00",
         "departureTime": "17:30:00",
         "isPassing": false
       },
@@ -24408,8 +24396,8 @@
       }
     ],
     "trainId": "33384",
-    "prevTripId": "HD_INB_JU-07_1705_34116",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "HD_INB_TK-25_1611_33384",
+    "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_1832_33384",
     "throughLineId": "tokaido"
   },
@@ -26445,7 +26433,7 @@
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "19:06:00",
+        "arrivalTime": "19:33:00",
         "departureTime": "19:34:00",
         "isPassing": false
       },
@@ -26517,8 +26505,8 @@
       }
     ],
     "trainId": "33386",
-    "prevTripId": "HD_INB_JU-07_1907_34118",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "HD_INB_TK-25_1815_33386",
+    "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_2042_33386",
     "throughLineId": "tokaido"
   },
@@ -27216,7 +27204,7 @@
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "20:06:00",
+        "arrivalTime": "20:33:00",
         "departureTime": "20:34:00",
         "isPassing": false
       },
@@ -27288,8 +27276,8 @@
       }
     ],
     "trainId": "33387",
-    "prevTripId": "HD_INB_JU-07_2007_34119",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "HD_INB_TK-25_1915_33387",
+    "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_2137_33387",
     "throughLineId": "tokaido"
   },
@@ -27836,14 +27824,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "宇都宮",
+    "customOrigin": "籠原",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "20:57:00",
+        "arrivalTime": "21:23:00",
         "departureTime": "21:26:00",
         "isPassing": false
       },
@@ -27915,7 +27903,7 @@
       }
     ],
     "trainId": "33418",
-    "prevTripId": "HD_INB_TK-07_2058_34211",
+    "prevTripId": "HD_INB_TK-18_2036_33418",
     "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_2233_33418",
     "throughLineId": "tokaido"
@@ -28260,14 +28248,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "高崎",
+    "customOrigin": "籠原",
     "customDestination": "小田原",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "21:55:00",
+        "arrivalTime": "22:09:00",
         "departureTime": "22:10:00",
         "isPassing": false
       },
@@ -28339,8 +28327,8 @@
       }
     ],
     "trainId": "33419",
-    "prevTripId": "HD_INB_JU-07_2156_34120",
-    "prevLineId": "utsunomiya",
+    "prevTripId": "HD_INB_TK-18_2124_33419",
+    "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_2315_33419",
     "throughLineId": "tokaido"
   },
@@ -28444,14 +28432,14 @@
     "direction": "outbound",
     "originStationId": "JS-24",
     "destinationStationId": "JS-01",
-    "customOrigin": "宇都宮",
+    "customOrigin": "高崎",
     "customDestination": "国府津",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JS-24",
-        "arrivalTime": "22:05:00",
+        "arrivalTime": "22:24:00",
         "departureTime": "22:25:00",
         "isPassing": false
       },
@@ -28523,7 +28511,7 @@
       }
     ],
     "trainId": "33379",
-    "prevTripId": "HD_INB_TK-07_2206_34200",
+    "prevTripId": "HD_INB_TK-25_2105_33379",
     "prevLineId": "takasaki",
     "throughTripId": "HD_OUT_JT-05_2332_33379",
     "throughLineId": "tokaido"

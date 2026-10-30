@@ -411,25 +411,19 @@ export function getFullDayStationTimetable(
 // 全路線の全トリップの高速ルックアップ用Map（動的初期化）
 let _globalTripMap: Map<string, TimetableTrip> | null = null;
 let _globalTrainIdMap: Map<string, TimetableTrip[]> | null = null;
-let _globalTrainNameByNumberMap: Map<string, string> | null = null;
 
 export function invalidateGlobalTripMaps() {
   _globalTripMap = null;
   _globalTrainIdMap = null;
-  _globalTrainNameByNumberMap = null;
 }
 
 function ensureGlobalMaps() {
-  if (!_globalTripMap || !_globalTrainIdMap || !_globalTrainNameByNumberMap) {
+  if (!_globalTripMap || !_globalTrainIdMap) {
     _globalTripMap = new Map();
     _globalTrainIdMap = new Map();
-    _globalTrainNameByNumberMap = new Map();
     const trips = [...getCombinedGlobalTimetable(), ..._dynamicTestTrainTrips];
     for (const trip of trips) {
       _globalTripMap.set(trip.tripId, trip);
-      if (trip.trainName && trip.trainNumber) {
-        _globalTrainNameByNumberMap.set(trip.trainNumber, trip.trainName);
-      }
       if (trip.trainId) {
         if (!_globalTrainIdMap.has(trip.trainId)) {
           _globalTrainIdMap.set(trip.trainId, []);
@@ -442,17 +436,35 @@ function ensureGlobalMaps() {
 
 /**
  * 発車標・全日時刻表データから固有列車名称（愛称・号数）を高速解決
+ * 普通列車・各駅停車に関係のない特急名称が誤表示されるのを厳格に防止します。
  */
 export function resolveDepartureTrainName(d: RawStationDeparture): string | undefined {
+  // 普通・各駅停車など、固有の愛称を持つべきでない一般列車には特急名称を絶対に割り当てない
+  if (d.t === 'local' || d.t === 'each' || d.t === 'regular') {
+    // むさしの号・しもうさ号など正規の普通愛称列車のみ許可
+    if (d.trainName && (d.trainName.includes('むさしの') || d.trainName.includes('しもうさ'))) {
+      return d.trainName;
+    }
+    return undefined;
+  }
+
+  // 1. 発車データ自体に trainName があればそれを使用
   if (d.trainName) return d.trainName;
+
+  // 2. 対応するトリップデータ (fullTrip) があれば、その trainName を使用（一般普通列車は除外）
   if (d.tripId) {
     const fullTrip = getGlobalTripMap().get(d.tripId);
-    if (fullTrip?.trainName) return fullTrip.trainName;
+    if (fullTrip?.trainName) {
+      if (fullTrip.trainType === 'local' || fullTrip.trainType === 'each' || fullTrip.trainType === 'regular') {
+        if (fullTrip.trainName.includes('むさしの') || fullTrip.trainName.includes('しもうさ')) {
+          return fullTrip.trainName;
+        }
+        return undefined;
+      }
+      return fullTrip.trainName;
+    }
   }
-  ensureGlobalMaps();
-  if (d.no && _globalTrainNameByNumberMap?.has(d.no)) {
-    return _globalTrainNameByNumberMap.get(d.no);
-  }
+
   return undefined;
 }
 

@@ -1,83 +1,7 @@
 {
   "weekday": {
     "AIZ-01": {
-      "inbound": [
-        {
-          "h": 8,
-          "m": 24,
-          "time": "24",
-          "sec": 30240,
-          "t": "aizu_mount_exp",
-          "d": "鬼怒川温泉",
-          "no": "3151D",
-          "tripId": "WD_INB_AIZ-21_0702_40453",
-          "trainName": "AIZUマウントエクスプレス2号"
-        },
-        {
-          "h": 9,
-          "m": 28,
-          "time": "28",
-          "sec": 34080,
-          "t": "section_rapid",
-          "d": "鬼怒川温泉",
-          "no": "314M",
-          "tripId": "WD_INB_AIZ-06_0908_43011"
-        },
-        {
-          "h": 11,
-          "m": 8,
-          "time": "08",
-          "sec": 40080,
-          "t": "limitedExp",
-          "d": "浅草",
-          "no": "1128M",
-          "tripId": "WD_INB_AIZ-06_1050_42865",
-          "trainName": "リバティ会津128号"
-        },
-        {
-          "h": 13,
-          "m": 21,
-          "time": "21",
-          "sec": 48060,
-          "t": "limitedExp",
-          "d": "浅草",
-          "no": "1136M",
-          "tripId": "WD_INB_AIZ-06_1303_42866",
-          "trainName": "リバティ会津136号"
-        },
-        {
-          "h": 15,
-          "m": 20,
-          "time": "20",
-          "sec": 55200,
-          "t": "limitedExp",
-          "d": "浅草",
-          "no": "1142M",
-          "tripId": "WD_INB_AIZ-06_1500_42868",
-          "trainName": "リバティ会津142号"
-        },
-        {
-          "h": 16,
-          "m": 0,
-          "time": "00",
-          "sec": 57600,
-          "t": "section_rapid",
-          "d": "新藤原",
-          "no": "806M",
-          "tripId": "WD_INB_AIZ-06_1542_43013"
-        },
-        {
-          "h": 18,
-          "m": 6,
-          "time": "06",
-          "sec": 65160,
-          "t": "limitedExp",
-          "d": "浅草",
-          "no": "1154M",
-          "tripId": "WD_INB_AIZ-06_1748_42867",
-          "trainName": "リバティ会津154号"
-        }
-      ],
+      "inbound": [],
       "outbound": [
         {
           "h": 5,
@@ -125,7 +49,7 @@
           "m": 24,
           "time": "24",
           "sec": 37440,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -256,8 +180,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 16,
@@ -326,7 +249,7 @@
           "m": 30,
           "time": "30",
           "sec": 37800,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -404,8 +327,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 16,
@@ -474,7 +396,7 @@
           "m": 33,
           "time": "33",
           "sec": 37980,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -552,8 +474,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 16,
@@ -622,7 +543,7 @@
           "m": 36,
           "time": "36",
           "sec": 38160,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -700,8 +621,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 16,
@@ -770,7 +690,7 @@
           "m": 40,
           "time": "40",
           "sec": 38400,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -845,7 +765,7 @@
           "m": 6,
           "time": "06",
           "sec": 29160,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -880,8 +800,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -996,15 +915,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 10,
           "m": 47,
           "time": "47",
           "sec": 38820,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -1018,8 +936,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 14,
@@ -1050,8 +967,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 19,
@@ -1082,7 +998,7 @@
           "m": 1,
           "time": "01",
           "sec": 28860,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -1106,8 +1022,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -1117,8 +1032,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -1148,8 +1062,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 19,
@@ -1211,15 +1124,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 10,
           "m": 51,
           "time": "51",
           "sec": 39060,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -1233,8 +1145,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -1254,8 +1165,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 19,
@@ -1286,7 +1196,7 @@
           "m": 57,
           "time": "57",
           "sec": 28620,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -1310,8 +1220,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -1321,8 +1230,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -1352,8 +1260,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 19,
@@ -1415,15 +1322,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 10,
           "m": 54,
           "time": "54",
           "sec": 39240,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -1437,8 +1343,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -1458,8 +1363,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 19,
@@ -1490,7 +1394,7 @@
           "m": 54,
           "time": "54",
           "sec": 28440,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -1514,8 +1418,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -1525,8 +1428,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -1556,8 +1458,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 19,
@@ -1619,15 +1520,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 10,
           "m": 57,
           "time": "57",
           "sec": 39420,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -1641,8 +1541,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -1662,8 +1561,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 19,
@@ -1694,7 +1592,7 @@
           "m": 50,
           "time": "50",
           "sec": 28200,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -1718,8 +1616,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -1729,8 +1626,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -1760,8 +1656,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 19,
@@ -1823,15 +1718,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 0,
           "time": "00",
           "sec": 39600,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -1845,8 +1739,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -1866,8 +1759,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 19,
@@ -1898,7 +1790,7 @@
           "m": 47,
           "time": "47",
           "sec": 28020,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -1922,8 +1814,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -1933,8 +1824,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -1964,8 +1854,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -2027,15 +1916,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 7,
           "time": "07",
           "sec": 40020,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -2049,8 +1937,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 14,
@@ -2081,8 +1968,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 19,
@@ -2113,7 +1999,7 @@
           "m": 40,
           "time": "40",
           "sec": 27600,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -2137,8 +2023,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -2148,8 +2033,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -2179,8 +2063,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -2242,15 +2125,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 11,
           "time": "11",
           "sec": 40260,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -2264,8 +2146,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -2285,8 +2166,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -2317,7 +2197,7 @@
           "m": 37,
           "time": "37",
           "sec": 27420,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -2341,8 +2221,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -2352,8 +2231,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -2383,8 +2261,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -2446,15 +2323,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 14,
           "time": "14",
           "sec": 40440,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -2468,8 +2344,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 14,
@@ -2500,8 +2375,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -2532,7 +2406,7 @@
           "m": 31,
           "time": "31",
           "sec": 27060,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -2556,8 +2430,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -2567,8 +2440,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -2598,8 +2470,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -2661,15 +2532,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 19,
           "time": "19",
           "sec": 40740,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -2683,8 +2553,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 14,
@@ -2715,8 +2584,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -2747,7 +2615,7 @@
           "m": 26,
           "time": "26",
           "sec": 26760,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -2771,8 +2639,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -2782,8 +2649,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -2813,8 +2679,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -2876,15 +2741,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 25,
           "time": "25",
           "sec": 41100,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -2898,8 +2762,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -2919,8 +2782,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -2951,7 +2813,7 @@
           "m": 23,
           "time": "23",
           "sec": 26580,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -2975,8 +2837,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 11,
@@ -2986,8 +2847,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -3017,8 +2877,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -3080,15 +2939,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 27,
           "time": "27",
           "sec": 41220,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -3102,8 +2960,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -3123,8 +2980,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -3155,7 +3011,7 @@
           "m": 17,
           "time": "17",
           "sec": 26220,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -3179,8 +3035,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 11,
@@ -3190,8 +3045,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -3221,8 +3075,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -3284,15 +3137,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 34,
           "time": "34",
           "sec": 41640,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -3306,8 +3158,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 15,
@@ -3338,8 +3189,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -3370,7 +3220,7 @@
           "m": 13,
           "time": "13",
           "sec": 25980,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -3394,8 +3244,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 11,
@@ -3405,8 +3254,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -3436,8 +3284,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -3499,15 +3346,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 38,
           "time": "38",
           "sec": 41880,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -3521,8 +3367,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -3542,8 +3387,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -3574,7 +3418,7 @@
           "m": 9,
           "time": "09",
           "sec": 25740,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -3598,8 +3442,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 11,
@@ -3609,8 +3452,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -3640,8 +3482,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -3703,15 +3544,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 42,
           "time": "42",
           "sec": 42120,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -3725,8 +3565,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -3746,8 +3585,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -3778,7 +3616,7 @@
           "m": 6,
           "time": "06",
           "sec": 25560,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -3802,8 +3640,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 11,
@@ -3813,8 +3650,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 12,
@@ -3844,8 +3680,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -3907,15 +3742,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "WD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 45,
           "time": "45",
           "sec": 42300,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "会津若松",
           "no": "3156D",
           "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -3929,8 +3763,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "WD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -3950,8 +3783,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "WD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -3982,7 +3814,7 @@
           "m": 2,
           "time": "02",
           "sec": 25320,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "WD_INB_AIZ-21_0702_40453",
@@ -4006,8 +3838,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "WD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "WD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 11,
@@ -4017,8 +3848,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "WD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "WD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 12,
@@ -4048,8 +3878,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "WD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "WD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -4082,194 +3911,12 @@
           "tripId": "WD_INB_AIZ-21_2117_40389"
         }
       ],
-      "outbound": [
-        {
-          "h": 7,
-          "m": 23,
-          "time": "23",
-          "sec": 26580,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2306D",
-          "tripId": "WD_OUT_AIZ-06_0612_40457"
-        },
-        {
-          "h": 8,
-          "m": 31,
-          "time": "31",
-          "sec": 30660,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2108D",
-          "tripId": "WD_OUT_AIZ-01_0707_40464"
-        },
-        {
-          "h": 10,
-          "m": 44,
-          "time": "44",
-          "sec": 38640,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2310D",
-          "tripId": "WD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
-        },
-        {
-          "h": 11,
-          "m": 50,
-          "time": "50",
-          "sec": 42600,
-          "t": "aizu_mount_exp",
-          "d": "会津若松",
-          "no": "3156D",
-          "tripId": "WD_OUT_AIZ-01_1024_38077",
-          "trainName": "AIZUマウントエクスプレス1号"
-        },
-        {
-          "h": 14,
-          "m": 1,
-          "time": "01",
-          "sec": 50460,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2312D",
-          "tripId": "WD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
-        },
-        {
-          "h": 15,
-          "m": 17,
-          "time": "17",
-          "sec": 55020,
-          "t": "rapid",
-          "d": "会津若松",
-          "no": "3316D",
-          "tripId": "WD_OUT_AIZ-06_1423_40456",
-          "trainName": "リレー119号"
-        },
-        {
-          "h": 17,
-          "m": 7,
-          "time": "07",
-          "sec": 61620,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2318D",
-          "tripId": "WD_OUT_AIZ-06_1601_40460"
-        },
-        {
-          "h": 18,
-          "m": 47,
-          "time": "47",
-          "sec": 67620,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2322D",
-          "tripId": "WD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
-        },
-        {
-          "h": 20,
-          "m": 40,
-          "time": "40",
-          "sec": 74400,
-          "t": "rapid",
-          "d": "会津若松",
-          "no": "3124D",
-          "tripId": "WD_OUT_AIZ-01_1921_40463"
-        },
-        {
-          "h": 21,
-          "m": 54,
-          "time": "54",
-          "sec": 78840,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2328D",
-          "tripId": "WD_OUT_AIZ-06_2050_40462"
-        }
-      ]
+      "outbound": []
     }
   },
   "holiday": {
     "AIZ-01": {
-      "inbound": [
-        {
-          "h": 8,
-          "m": 24,
-          "time": "24",
-          "sec": 30240,
-          "t": "aizu_mount_exp",
-          "d": "鬼怒川温泉",
-          "no": "3151D",
-          "tripId": "HD_INB_AIZ-21_0702_40453",
-          "trainName": "AIZUマウントエクスプレス2号"
-        },
-        {
-          "h": 9,
-          "m": 28,
-          "time": "28",
-          "sec": 34080,
-          "t": "section_rapid",
-          "d": "鬼怒川温泉",
-          "no": "314M",
-          "tripId": "HD_INB_AIZ-06_0908_43011"
-        },
-        {
-          "h": 11,
-          "m": 8,
-          "time": "08",
-          "sec": 40080,
-          "t": "limitedExp",
-          "d": "浅草",
-          "no": "1128M",
-          "tripId": "HD_INB_AIZ-06_1050_42865",
-          "trainName": "リバティ会津128号"
-        },
-        {
-          "h": 13,
-          "m": 21,
-          "time": "21",
-          "sec": 48060,
-          "t": "limitedExp",
-          "d": "浅草",
-          "no": "1136M",
-          "tripId": "HD_INB_AIZ-06_1303_42866",
-          "trainName": "リバティ会津136号"
-        },
-        {
-          "h": 15,
-          "m": 20,
-          "time": "20",
-          "sec": 55200,
-          "t": "limitedExp",
-          "d": "浅草",
-          "no": "1142M",
-          "tripId": "HD_INB_AIZ-06_1500_42868",
-          "trainName": "リバティ会津142号"
-        },
-        {
-          "h": 16,
-          "m": 0,
-          "time": "00",
-          "sec": 57600,
-          "t": "section_rapid",
-          "d": "新藤原",
-          "no": "806M",
-          "tripId": "HD_INB_AIZ-06_1542_43013"
-        },
-        {
-          "h": 18,
-          "m": 6,
-          "time": "06",
-          "sec": 65160,
-          "t": "limitedExp",
-          "d": "浅草",
-          "no": "1154M",
-          "tripId": "HD_INB_AIZ-06_1748_42867",
-          "trainName": "リバティ会津154号"
-        }
-      ],
+      "inbound": [],
       "outbound": [
         {
           "h": 5,
@@ -4317,7 +3964,7 @@
           "m": 24,
           "time": "24",
           "sec": 37440,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -4448,8 +4095,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 16,
@@ -4518,7 +4164,7 @@
           "m": 30,
           "time": "30",
           "sec": 37800,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -4596,8 +4242,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 16,
@@ -4666,7 +4311,7 @@
           "m": 33,
           "time": "33",
           "sec": 37980,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -4744,8 +4389,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 16,
@@ -4814,7 +4458,7 @@
           "m": 36,
           "time": "36",
           "sec": 38160,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -4892,8 +4536,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 16,
@@ -4962,7 +4605,7 @@
           "m": 40,
           "time": "40",
           "sec": 38400,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -5037,7 +4680,7 @@
           "m": 6,
           "time": "06",
           "sec": 29160,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -5072,8 +4715,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -5199,15 +4841,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 10,
           "m": 47,
           "time": "47",
           "sec": 38820,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -5232,8 +4873,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 14,
@@ -5264,8 +4904,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 19,
@@ -5296,7 +4935,7 @@
           "m": 1,
           "time": "01",
           "sec": 28860,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -5320,8 +4959,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -5331,8 +4969,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -5362,8 +4999,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 19,
@@ -5425,15 +5061,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 10,
           "m": 51,
           "time": "51",
           "sec": 39060,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -5447,8 +5082,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -5468,8 +5102,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 19,
@@ -5500,7 +5133,7 @@
           "m": 57,
           "time": "57",
           "sec": 28620,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -5524,8 +5157,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -5535,8 +5167,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -5566,8 +5197,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 19,
@@ -5629,15 +5259,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 10,
           "m": 54,
           "time": "54",
           "sec": 39240,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -5651,8 +5280,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -5672,8 +5300,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 19,
@@ -5704,7 +5331,7 @@
           "m": 54,
           "time": "54",
           "sec": 28440,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -5728,8 +5355,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -5739,8 +5365,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -5770,8 +5395,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 19,
@@ -5833,15 +5457,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 10,
           "m": 57,
           "time": "57",
           "sec": 39420,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -5855,8 +5478,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -5876,8 +5498,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 19,
@@ -5908,7 +5529,7 @@
           "m": 50,
           "time": "50",
           "sec": 28200,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -5932,8 +5553,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -5943,8 +5563,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -5974,8 +5593,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 19,
@@ -6037,15 +5655,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 0,
           "time": "00",
           "sec": 39600,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -6059,8 +5676,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -6080,8 +5696,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 19,
@@ -6112,7 +5727,7 @@
           "m": 47,
           "time": "47",
           "sec": 28020,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -6136,8 +5751,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 11,
@@ -6158,8 +5772,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -6200,8 +5813,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -6274,15 +5886,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 7,
           "time": "07",
           "sec": 40020,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -6307,8 +5918,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 14,
@@ -6339,8 +5949,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 19,
@@ -6371,7 +5980,7 @@
           "m": 40,
           "time": "40",
           "sec": 27600,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -6395,8 +6004,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -6406,8 +6014,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -6437,8 +6044,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -6500,15 +6106,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 11,
           "time": "11",
           "sec": 40260,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -6522,8 +6127,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -6543,8 +6147,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -6575,7 +6178,7 @@
           "m": 37,
           "time": "37",
           "sec": 27420,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -6599,8 +6202,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 10,
@@ -6621,8 +6223,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -6663,8 +6264,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -6737,15 +6337,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 14,
           "time": "14",
           "sec": 40440,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -6770,8 +6369,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 14,
@@ -6802,8 +6400,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -6834,7 +6431,7 @@
           "m": 31,
           "time": "31",
           "sec": 27060,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -6858,8 +6455,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 10,
@@ -6880,8 +6476,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -6922,8 +6517,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -6996,15 +6590,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 19,
           "time": "19",
           "sec": 40740,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -7029,8 +6622,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 14,
@@ -7061,8 +6653,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -7093,7 +6684,7 @@
           "m": 26,
           "time": "26",
           "sec": 26760,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -7117,8 +6708,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 12,
@@ -7128,8 +6718,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -7159,8 +6748,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -7222,15 +6810,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 25,
           "time": "25",
           "sec": 41100,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -7244,8 +6831,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -7265,8 +6851,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -7297,7 +6882,7 @@
           "m": 23,
           "time": "23",
           "sec": 26580,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -7321,8 +6906,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 11,
@@ -7332,8 +6916,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -7363,8 +6946,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -7426,15 +7008,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 27,
           "time": "27",
           "sec": 41220,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -7448,8 +7029,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -7469,8 +7049,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -7501,7 +7080,7 @@
           "m": 17,
           "time": "17",
           "sec": 26220,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -7525,8 +7104,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 10,
@@ -7547,8 +7125,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -7589,8 +7166,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -7663,15 +7239,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 34,
           "time": "34",
           "sec": 41640,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -7696,8 +7271,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 15,
@@ -7728,8 +7302,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -7760,7 +7333,7 @@
           "m": 13,
           "time": "13",
           "sec": 25980,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -7784,8 +7357,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 11,
@@ -7795,8 +7367,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -7826,8 +7397,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -7889,15 +7459,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 38,
           "time": "38",
           "sec": 41880,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -7911,8 +7480,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -7932,8 +7500,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -7964,7 +7531,7 @@
           "m": 9,
           "time": "09",
           "sec": 25740,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -7988,8 +7555,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 11,
@@ -7999,8 +7565,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 13,
@@ -8030,8 +7595,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -8093,15 +7657,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 42,
           "time": "42",
           "sec": 42120,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -8115,8 +7678,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -8136,8 +7698,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -8168,7 +7729,7 @@
           "m": 6,
           "time": "06",
           "sec": 25560,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -8192,8 +7753,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 11,
@@ -8203,8 +7763,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 12,
@@ -8234,8 +7793,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -8297,15 +7855,14 @@
           "t": "local",
           "d": "会津若松",
           "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
+          "tripId": "HD_OUT_AIZ-06_0944_40458"
         },
         {
           "h": 11,
           "m": 45,
           "time": "45",
           "sec": 42300,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "喜多方",
           "no": "3156D",
           "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -8319,8 +7876,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
+          "tripId": "HD_OUT_AIZ-06_1302_40459"
         },
         {
           "h": 16,
@@ -8340,8 +7896,7 @@
           "t": "local",
           "d": "会津若松",
           "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
+          "tripId": "HD_OUT_AIZ-06_1746_40461"
         },
         {
           "h": 20,
@@ -8372,7 +7927,7 @@
           "m": 2,
           "time": "02",
           "sec": 25320,
-          "t": "aizu_mount_exp",
+          "t": "rapid",
           "d": "鬼怒川温泉",
           "no": "3151D",
           "tripId": "HD_INB_AIZ-21_0702_40453",
@@ -8396,8 +7951,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2307D",
-          "tripId": "HD_INB_AIZ-21_0909_40384",
-          "trainName": "リレー128号"
+          "tripId": "HD_INB_AIZ-21_0909_40384"
         },
         {
           "h": 10,
@@ -8418,8 +7972,7 @@
           "t": "local",
           "d": "会津高原尾瀬口",
           "no": "2109D",
-          "tripId": "HD_INB_AIZ-21_1132_40390",
-          "trainName": "リレー136号"
+          "tripId": "HD_INB_AIZ-21_1132_40390"
         },
         {
           "h": 12,
@@ -8460,8 +8013,7 @@
           "t": "local",
           "d": "会津田島",
           "no": "2315D",
-          "tripId": "HD_INB_AIZ-21_1628_40386",
-          "trainName": "リレー154号"
+          "tripId": "HD_INB_AIZ-21_1628_40386"
         },
         {
           "h": 18,
@@ -8494,135 +8046,7 @@
           "tripId": "HD_INB_AIZ-21_2117_40389"
         }
       ],
-      "outbound": [
-        {
-          "h": 7,
-          "m": 23,
-          "time": "23",
-          "sec": 26580,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2306D",
-          "tripId": "HD_OUT_AIZ-06_0612_40457"
-        },
-        {
-          "h": 8,
-          "m": 31,
-          "time": "31",
-          "sec": 30660,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2108D",
-          "tripId": "HD_OUT_AIZ-01_0707_40464"
-        },
-        {
-          "h": 9,
-          "m": 26,
-          "time": "26",
-          "sec": 33960,
-          "t": "aizu_ozeto",
-          "d": "会津若松",
-          "no": "9308D",
-          "tripId": "HD_OUT_AIZ-06_0826_40454",
-          "trainName": "お座トロ展望列車会津浪漫月号"
-        },
-        {
-          "h": 10,
-          "m": 44,
-          "time": "44",
-          "sec": 38640,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2310D",
-          "tripId": "HD_OUT_AIZ-06_0944_40458",
-          "trainName": "リレー101号"
-        },
-        {
-          "h": 11,
-          "m": 50,
-          "time": "50",
-          "sec": 42600,
-          "t": "aizu_mount_exp",
-          "d": "喜多方",
-          "no": "3156D",
-          "tripId": "HD_OUT_AIZ-01_1024_38077",
-          "trainName": "AIZUマウントエクスプレス1号"
-        },
-        {
-          "h": 13,
-          "m": 17,
-          "time": "17",
-          "sec": 47820,
-          "t": "aizu_ozeto",
-          "d": "会津若松",
-          "no": "9310D",
-          "tripId": "HD_OUT_AIZ-06_1158_40455",
-          "trainName": "お座トロ展望列車会津浪漫風号"
-        },
-        {
-          "h": 14,
-          "m": 1,
-          "time": "01",
-          "sec": 50460,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2312D",
-          "tripId": "HD_OUT_AIZ-06_1302_40459",
-          "trainName": "リレー113号"
-        },
-        {
-          "h": 15,
-          "m": 17,
-          "time": "17",
-          "sec": 55020,
-          "t": "rapid",
-          "d": "会津若松",
-          "no": "3316D",
-          "tripId": "HD_OUT_AIZ-06_1423_40456",
-          "trainName": "リレー119号"
-        },
-        {
-          "h": 17,
-          "m": 7,
-          "time": "07",
-          "sec": 61620,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2318D",
-          "tripId": "HD_OUT_AIZ-06_1601_40460"
-        },
-        {
-          "h": 18,
-          "m": 47,
-          "time": "47",
-          "sec": 67620,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2322D",
-          "tripId": "HD_OUT_AIZ-06_1746_40461",
-          "trainName": "リレー131号"
-        },
-        {
-          "h": 20,
-          "m": 40,
-          "time": "40",
-          "sec": 74400,
-          "t": "rapid",
-          "d": "会津若松",
-          "no": "3124D",
-          "tripId": "HD_OUT_AIZ-01_1921_40463"
-        },
-        {
-          "h": 21,
-          "m": 54,
-          "time": "54",
-          "sec": 78840,
-          "t": "local",
-          "d": "会津若松",
-          "no": "2328D",
-          "tripId": "HD_OUT_AIZ-06_2050_40462"
-        }
-      ]
+      "outbound": []
     }
   }
 }

@@ -2,6 +2,46 @@
 module.exports = {
   "connections": [
     {
+      "name": "東京メトロ東西線 -> 中央・総武緩行線 (中野・三鷹方面直通)",
+      "lineA": "tozai",
+      "lineB": "chuo_sobu_local",
+      "stationA": "T-01",
+      "stationB": "JB-07",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "中央・総武緩行線 -> 東京メトロ東西線 (中野・西船橋方面直通)",
+      "lineA": "chuo_sobu_local",
+      "lineB": "tozai",
+      "stationA": "JB-07",
+      "stationB": "T-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "東京メトロ東西線 -> 中央・総武緩行線 (西船橋・津田沼方面直通)",
+      "lineA": "tozai",
+      "lineB": "chuo_sobu_local",
+      "stationA": "T-23",
+      "stationB": "JB-30",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "中央・総武緩行線 -> 東京メトロ東西線 (西船橋・中野方面直通)",
+      "lineA": "chuo_sobu_local",
+      "lineB": "tozai",
+      "stationA": "JB-30",
+      "stationB": "T-23",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
       "name": "武蔵野線 -> 京葉線 (市川塩浜直通 東京方面)",
       "lineA": "musashino",
       "lineB": "keiyo",
@@ -625,7 +665,8 @@ module.exports = {
       "dirA": "outbound",
       "dirB": "outbound",
       "maxTimeDiff": 300,
-      "allowMidStationB": true
+      "allowMidStationB": true,
+      "truncateBFromStation": true
     },
     {
       "name": "埼京線 -> 相鉄・JR直通線 (上り/南行)",
@@ -636,7 +677,8 @@ module.exports = {
       "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 300,
-      "allowMidStationA": true
+      "allowMidStationA": true,
+      "truncateAAtStation": true
     },
     {
       "name": "小田急小田原線 -> 千代田線 (上り/我孫子方面直通)",

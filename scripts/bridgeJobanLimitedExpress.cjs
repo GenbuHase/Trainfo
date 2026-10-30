@@ -116,12 +116,14 @@ function bridgeJobanLimitedExpress() {
         match.originStationId = 'JTI-01';
       }
 
-      // 境界駅（取手駅）の通過時刻を完全一致
+      // 境界駅（取手駅）の通過時刻を完全一致（通過駅ならarrivalTimeとdepartureTimeを通過時刻に一致）
       const finalLastR = r.stops[r.stops.length - 1];
       const finalFirstN = match.stops[0];
       if (finalLastR && finalFirstN) {
-        finalFirstN.arrivalTime = finalLastR.departureTime || finalLastR.arrivalTime;
-        finalFirstN.departureTime = finalFirstN.arrivalTime;
+        const passTime = finalLastR.isPassing ? finalLastR.arrivalTime : (finalLastR.departureTime || finalLastR.arrivalTime);
+        finalLastR.departureTime = passTime;
+        finalFirstN.arrivalTime = passTime;
+        finalFirstN.departureTime = passTime;
       }
     } else {
       const lastNStop = match.stops[match.stops.length - 1];
@@ -170,12 +172,14 @@ function bridgeJobanLimitedExpress() {
         r.originStationId = 'JJ-10';
       }
 
-      // 境界駅（取手駅）の通過時刻を完全一致
+      // 境界駅（取手駅）の通過時刻を完全一致（通過駅ならarrivalTimeとdepartureTimeを通過時刻に一致）
       const finalLastN = match.stops[match.stops.length - 1];
       const finalFirstR = r.stops[0];
       if (finalLastN && finalFirstR) {
-        finalFirstR.arrivalTime = finalLastN.departureTime || finalLastN.arrivalTime;
-        finalFirstR.departureTime = finalFirstR.arrivalTime;
+        const passTime = finalLastN.isPassing ? finalLastN.arrivalTime : (finalLastN.departureTime || finalLastN.arrivalTime);
+        finalLastN.departureTime = passTime;
+        finalFirstR.arrivalTime = passTime;
+        finalFirstR.departureTime = passTime;
       }
     }
   }

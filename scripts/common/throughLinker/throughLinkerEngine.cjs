@@ -103,7 +103,7 @@ function deduplicateLineTrips(trips) {
         trainKey = `${t.trainNumber || ''}_${t.coupling.role}_${t.customDestination || ''}_${yId || ''}`;
       } else if (t.tripId && t.tripId.includes('_fuji')) {
         trainKey = `${t.trainNumber || ''}_fuji_${t.customDestination || ''}_${yId || ''}`;
-      } else if (isExpressType(t.trainType) && yId) {
+      } else if ((isLimitedExpress(t.trainType) || isExpressType(t.trainType)) && yId) {
         trainKey = `${t.trainNumber || ''}_${yId}`;
       } else if (t.trainNumber && t.customDestination) {
         trainKey = `${t.trainNumber}_${t.customDestination}`;
@@ -117,7 +117,7 @@ function deduplicateLineTrips(trips) {
     }
 
     // 異なる列車キーを持つ優等列車または併結設定列車が存在する場合、それぞれの列車を保護
-    if (byTrainOrDest.size > 1 && list.some(t => isExpressType(t.trainType) || t.coupling || (t.tripId && t.tripId.includes('_fuji')))) {
+    if (byTrainOrDest.size > 1 && list.some(t => isLimitedExpress(t.trainType) || isExpressType(t.trainType) || t.coupling || (t.tripId && t.tripId.includes('_fuji')))) {
       for (const subList of byTrainOrDest.values()) {
         if (subList.length === 1) {
           cleaned.push(subList[0]);
@@ -137,8 +137,12 @@ function deduplicateLineTrips(trips) {
   return { cleaned, dupCount };
 }
 
+function isLimitedExpress(type) {
+  return type === 'limitedExp' || type === 'limited_express';
+}
+
 function isExpressType(type) {
-  return type && type !== 'local' && type !== 'regular';
+  return type && !isLimitedExpress(type) && type !== 'local' && type !== 'regular' && type !== 'each';
 }
 
 function areDestinationsCompatible(destA, destB) {
@@ -298,7 +302,8 @@ function linkPair({
         if (orig && disallowedOrigins.some(o => orig.includes(o))) return false;
       }
       if (allowMidStationA) {
-        return tA.stops.some((s) => s.stationId === stationAId);
+        const idx = tA.stops.findIndex((s) => s.stationId === stationAId);
+        return idx > 0; // 先行列車は接続駅より手前から走ってきている必要がある（接続駅始発は除外）
       }
       const lastStop = tA.stops[tA.stops.length - 1];
       return lastStop && lastStop.stationId === stationAId;
@@ -328,7 +333,8 @@ function linkPair({
         if (orig && disallowedOrigins.some(o => orig.includes(o))) return false;
       }
       if (allowMidStationB) {
-        return tB.stops.some((s) => s.stationId === stationBId);
+        const idx = tB.stops.findIndex((s) => s.stationId === stationBId);
+        return idx !== -1 && idx < tB.stops.length - 1; // 後続列車は接続駅より先へ進む必要がある（接続駅終着は除外）
       }
       const firstStop = tB.stops[0];
       return firstStop && firstStop.stationId === stationBId;
@@ -392,6 +398,18 @@ function linkPair({
       if (tA.isHoliday !== tB.isHoliday) continue;
       if (tB.prevTripId) continue;
 
+      // 【重要】特急列車と非特急（一般普通・快速・各停等）のクロス誤接続を絶対に禁止
+      const isLtdA = isLimitedExpress(tA.trainType);
+      const isLtdB = isLimitedExpress(tB.trainType);
+      if (isLtdA !== isLtdB) {
+        // 例外: 相鉄線内特急(料金不要)とJR直通線・東急線の一般直通のみ許容
+        const isSotetsuA = lineAId.startsWith('sotetsu_');
+        const isSotetsuB = lineBId.startsWith('sotetsu_');
+        if (!((isSotetsuA && isLtdA) || (isSotetsuB && isLtdB))) {
+          continue;
+        }
+      }
+
       // 【未対応直通先遮断ルール4】東急東横線 -> 東急新横浜線 (日吉駅下り)
       // 目黒線・南北線・三田線始発（浦和美園、西高島平、赤羽岩淵等）、または日吉始発等の東横線経由でない便は除外
       if (lineAId === 'tokyu_toyoko' && lineBId === 'tokyu_shin_yokohama') {
@@ -441,11 +459,6 @@ function linkPair({
 
       if (requireIdMatch) continue;
 
-      // 特急列車が一般普通・快速列車に誤接続するのを絶対に禁止
-      if (isExpressType(tA.trainType) !== isExpressType(tB.trainType)) {
-        continue;
-      }
-
       // 2. 因果律: 出発時刻は到着時刻以降（ダイヤ丸め誤差 -30秒まで許容）
       // 行先が相手路線を明示している直通便は最大1800秒（30分）まで自動許容、一般普通列車はデフォルト900秒（15分）
       const isDestCompatible = destA && destB && areDestinationsCompatible(destA, destB);
@@ -471,27 +484,16 @@ function linkPair({
         score -= 300;
       }
 
-      // 併結・分割支線列車（富士回遊 _fuji 等）の親・子系統整合性ボーナス
-      const fujiNumbers = new Set(['2103M', '2107M', '2111M', '2115M', '8111M', '9193M', '2132M', '2136M', '2144M', '2148M', '8194M', '9178M']);
-      const isFujiA = (tA.tripId && tA.tripId.includes('_fuji')) ||
-                      (tA.customDestination && tA.customDestination.includes('河口湖')) ||
-                      tA.destinationStationId === 'FJ-18' ||
-                      tA.originStationId === 'FJ-18' ||
-                      tA.prevLineId === 'fujikyu' ||
-                      tA.throughLineId === 'fujikyu' ||
-                      fujiNumbers.has(tA.trainNumber);
-      const isFujiB = (tB.tripId && tB.tripId.includes('_fuji')) ||
-                      (tB.customDestination && tB.customDestination.includes('河口湖')) ||
-                      tB.destinationStationId === 'FJ-18' ||
-                      tB.originStationId === 'FJ-18' ||
-                      tB.prevLineId === 'fujikyu' ||
-                      tB.throughLineId === 'fujikyu' ||
-                      fujiNumbers.has(tB.trainNumber);
-      if (isFujiA !== isFujiB) {
-        continue; // 富士回遊(河口湖系統)とあずさ・かいじ(松本/甲府系統)のクロス誤マッチを絶対に禁止
-      }
-      if (isFujiA && isFujiB) {
-        score -= 4000;
+      // 併結・分割支線列車の親・子系統整合性判定（行先・経由路線の整合性による汎用チェック）
+      if (tA.coupling || tB.coupling || (tA.tripId && tA.tripId.includes('_fuji')) || (tB.tripId && tB.tripId.includes('_fuji'))) {
+        const isBranchA = Boolean((tA.tripId && tA.tripId.includes('_fuji')) || tA.coupling?.role === 'child');
+        const isBranchB = Boolean((tB.tripId && tB.tripId.includes('_fuji')) || tB.coupling?.role === 'child');
+        if (isBranchA !== isBranchB) {
+          continue; // 親系統と子系統のクロス誤マッチを禁止
+        }
+        if (isBranchA && isBranchB) {
+          score -= 4000;
+        }
       }
 
       if (score < bestScore) {
@@ -515,10 +517,15 @@ function linkPair({
       }
 
       // 列車名（愛称・号数）の相互補完
-      if (tA.trainName && !bestB.trainName) {
-        bestB.trainName = tA.trainName;
-      } else if (bestB.trainName && !tA.trainName) {
-        tA.trainName = bestB.trainName;
+      // 【重要】特急・優等列車同士でのみ相互補完を行う。一般普通列車への伝播・誤付与は厳禁！
+      const isLtdBestA = isLimitedExpress(tA.trainType);
+      const isLtdBestB = isLimitedExpress(bestB.trainType);
+      if (isLtdBestA && isLtdBestB) {
+        if (tA.trainName && !bestB.trainName) {
+          bestB.trainName = tA.trainName;
+        } else if (bestB.trainName && !tA.trainName) {
+          tA.trainName = bestB.trainName;
+        }
       }
 
       // 【必須】境界駅でのシームレス時刻同期 (空白時間による列車消失の完全防止)
@@ -540,7 +547,13 @@ function linkPair({
           bDepSec = syncSec;
         }
         // 先行路線の境界駅発車時刻も後続路線の発車時刻に同期（境界駅停車時間・発車標時刻の統一）
-        if (stopB.departureTime && bDepSec !== null && bDepSec >= syncSec) {
+        // ただし通過駅（isPassing: true）の場合は停車時間を設けず即時通過（arrivalTimeと一致）
+        const isPassingBoundary = stopA.isPassing || stopB.isPassing;
+        if (isPassingBoundary) {
+          stopA.departureTime = syncArr;
+          stopB.departureTime = syncArr;
+          bDepSec = syncSec;
+        } else if (stopB.departureTime && bDepSec !== null && bDepSec >= syncSec) {
           stopA.departureTime = stopB.departureTime;
         }
 
