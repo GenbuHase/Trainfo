@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import type { Station, ActiveTrain, Direction } from '../../types';
 import { StationBadge, TrainTypeBadge } from '../Common/Badges';
 import { getStationDepartures, getThroughChainTripIds, getStationAvailableDirections } from '../../data/timetableData';
@@ -12,6 +12,7 @@ import {
   ChevronRight,
   Radio,
   ArrowLeftRight,
+  ChevronDown,
 } from 'lucide-react';
 
 interface StationDetailProps {
@@ -58,6 +59,50 @@ export const StationDetail: React.FC<StationDetailProps> = ({
     [station]
   );
 
+  // 未収録（Trainfo内に駅詳細がない）乗換路線を抽出（自路線・切替可能路線を除外）
+  const unregisteredTransfers = useMemo(() => {
+    if (!station.transfers || station.transfers.length === 0) return [];
+    const currentLineName = line?.name || '';
+    const alternateLineNames = new Set(alternateStations.map((alt) => alt.lineName));
+    return station.transfers.filter((tr) => {
+      if (tr === currentLineName) return false;
+      if (alternateLineNames.has(tr)) return false;
+      return true;
+    });
+  }, [station.transfers, line?.name, alternateStations]);
+
+  const [isLineMenuOpen, setIsLineMenuOpen] = useState<boolean>(false);
+  const lineMenuRef = useRef<HTMLDivElement>(null);
+
+  // 駅変更時のステートリセット
+  const [prevStationKey, setPrevStationKey] = useState<string>('');
+  const currentStationKey = `${station.lineId}_${station.id}`;
+  if (currentStationKey !== prevStationKey) {
+    setPrevStationKey(currentStationKey);
+    setIsLineMenuOpen(false);
+  }
+
+  // メニュー外部クリックおよびEscapeキーで閉じる
+  useEffect(() => {
+    if (!isLineMenuOpen) return;
+    const handleClickOutside = (e: MouseEvent) => {
+      if (lineMenuRef.current && !lineMenuRef.current.contains(e.target as Node)) {
+        setIsLineMenuOpen(false);
+      }
+    };
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setIsLineMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isLineMenuOpen]);
+
   // 直近の発車スケジュールを取得
   const departures = getStationDepartures(station.id, currentSec, isHoliday, 5, station.lineId);
   const activeDepartures = selectedDirection === 'inbound' ? departures.inbound : departures.outbound;
@@ -90,37 +135,98 @@ export const StationDetail: React.FC<StationDetailProps> = ({
           </div>
         </div>
 
-        {/* 同名駅（他路線）の切り替えリンク */}
-        {alternateStations.length > 0 && onSelectStation && (
+        {/* 乗換路線 / 他路線（同名駅）への切り替え */}
+        {(alternateStations.length > 0 || unregisteredTransfers.length > 0) && (
           <div className="mt-3 pt-2.5 border-t border-white/20">
-            <div className="text-[11px] text-white/80 mb-1.5 font-medium">他路線の同名駅：</div>
-            <div className="flex flex-wrap gap-1.5">
-              {alternateStations.map((alt) => (
-                <button
-                  key={`${alt.station.lineId}_${alt.station.id}`}
-                  type="button"
-                  onClick={() => onSelectStation(alt.station)}
-                  className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded bg-white/20 hover:bg-white/30 text-white text-xs font-semibold backdrop-blur-xs transition-colors cursor-pointer"
-                >
-                  <ArrowLeftRight className="w-3.5 h-3.5" />
-                  <span>{alt.lineName}{alt.station.stationNumber ? `（${alt.station.stationNumber}）` : ''}へ切替</span>
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
+            <div className="flex items-center justify-between gap-2">
+              <div className="flex items-center gap-1.5 text-xs text-white/90 font-medium">
+                <ArrowLeftRight className="w-3.5 h-3.5 text-white/70 shrink-0" />
+                <span>
+                  {alternateStations.length > 0
+                    ? `乗換路線（${alternateStations.length}路線）`
+                    : '乗換路線'}
+                </span>
+              </div>
 
-        {/* 乗り換え路線 */}
-        {station.transfers.length > 0 && (
-          <div className="mt-3 flex flex-wrap gap-1.5">
-            {station.transfers.map((tr) => (
-              <span
-                key={tr}
-                className="inline-flex items-center text-[11px] font-medium bg-white/20 backdrop-blur-xs px-2 py-0.5 rounded text-white"
-              >
-                {tr}
-              </span>
-            ))}
+              {/* 他路線への切り替えボタン */}
+              {alternateStations.length === 1 && onSelectStation && (
+                <button
+                  type="button"
+                  onClick={() => onSelectStation(alternateStations[0].station)}
+                  className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/20 hover:bg-white/30 text-white text-xs font-semibold backdrop-blur-xs transition-colors cursor-pointer whitespace-nowrap"
+                  title={`${alternateStations[0].lineName} ${alternateStations[0].station.name}駅に切り替え`}
+                >
+                  <span>{alternateStations[0].lineName}へ切替</span>
+                </button>
+              )}
+
+              {alternateStations.length > 1 && onSelectStation && (
+                <div className="relative" ref={lineMenuRef}>
+                  <button
+                    type="button"
+                    onClick={() => setIsLineMenuOpen((prev) => !prev)}
+                    className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-white/20 hover:bg-white/30 text-white text-xs font-semibold backdrop-blur-xs transition-colors cursor-pointer border border-white/20 shadow-2xs whitespace-nowrap"
+                    title="他路線の駅詳細へ切り替え"
+                    aria-expanded={isLineMenuOpen}
+                    aria-haspopup="true"
+                  >
+                    <span>他路線へ切替 ({alternateStations.length})</span>
+                    <ChevronDown className={`w-3.5 h-3.5 text-white/80 transition-transform shrink-0 ${isLineMenuOpen ? 'rotate-180' : ''}`} />
+                  </button>
+
+                  {isLineMenuOpen && (
+                    <div className="absolute right-0 top-full mt-1.5 z-50 w-64 max-h-72 overflow-y-auto bg-white text-slate-800 rounded-xl shadow-2xl border border-slate-200 py-1 divide-y divide-slate-100 animate-in fade-in zoom-in-95 duration-150">
+                      <div className="px-3 py-1.5 text-[11px] font-bold text-slate-400">
+                        乗換路線を選択 ({alternateStations.length})
+                      </div>
+                      <div className="py-1">
+                        {alternateStations.map((alt) => {
+                          const altLine = getLine(alt.station.lineId);
+                          const altColor = altLine?.lineColor || '#64748b';
+                          return (
+                            <button
+                              key={`${alt.station.lineId}_${alt.station.id}`}
+                              type="button"
+                              onClick={() => {
+                                onSelectStation(alt.station);
+                                setIsLineMenuOpen(false);
+                              }}
+                              className="w-full text-left px-3 py-2 flex items-center gap-2.5 hover:bg-slate-50 transition-colors text-xs font-medium text-slate-700 cursor-pointer"
+                            >
+                              <span
+                                className="w-2.5 h-2.5 rounded-full shrink-0 shadow-2xs"
+                                style={{ backgroundColor: altColor }}
+                              />
+                              <span className="flex-1 truncate">{alt.lineName}</span>
+                              {alt.station.stationNumber && (
+                                <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-100 text-slate-600 shrink-0">
+                                  {alt.station.stationNumber}
+                                </span>
+                              )}
+                            </button>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
+
+            {/* 未収録の乗換路線（もしあれば表示） */}
+            {unregisteredTransfers.length > 0 && (
+              <div className="mt-2 flex flex-wrap items-center gap-1.5">
+                <span className="text-[10px] text-white/60">その他:</span>
+                {unregisteredTransfers.map((tr) => (
+                  <span
+                    key={tr}
+                    className="inline-flex items-center text-[10px] font-medium bg-white/15 backdrop-blur-xs px-2 py-0.5 rounded text-white/90"
+                  >
+                    {tr}
+                  </span>
+                ))}
+              </div>
+            )}
           </div>
         )}
       </div>
@@ -270,7 +376,7 @@ export const StationDetail: React.FC<StationDetailProps> = ({
         {/* 全日時刻表 ボタン */}
         <button
           onClick={() => onOpenFullTimetable(station)}
-          className="w-full flex items-center justify-center gap-2 py-2.5 px-4 bg-slate-50 hover:bg-slate-100 font-bold text-xs rounded-xl border border-slate-200 transition-colors shadow-2xs"
+          className="w-full flex items-center justify-center gap-2 py-2.5 px-4 bg-slate-50 hover:bg-slate-100 font-bold text-xs rounded-xl border border-slate-200 transition-colors shadow-2xs cursor-pointer"
           style={{ color: themeColor }}
         >
           <Calendar className="w-4 h-4" />
