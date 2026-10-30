@@ -230,9 +230,9 @@ class YahooTimetableBuilder {
 
     // 2. 単なる種別名のみの場合は除外（愛称なし）
     const genericTypes = new Set([
-      '普通', '各駅停車', '快速', '通勤快速', '特別快速', '通勤特快',
-      '中央特快', '青梅特快', '区間快速', '急行', '快速急行', '区間急行',
-      '準急', '通勤準急', '区間準急', '特急', '通勤特急', 'ライナー',
+      '普通', '各駅停車', '各停', '普通列車', '快速', '特別快速', '通勤特別快速', '通勤特快',
+      '中央特快', '青梅特快', '通勤快速', '区間快速', '急行', '快速急行', '通勤急行', '区間急行',
+      '準急', '通勤準急', '区間準急', '特急', '通勤特急', 'ライナー', '急行列車', '特急列車',
       '新幹線', 'S-TRAIN', 'S−TRAIN', '川越特急'
     ]);
     if (genericTypes.has(normalized)) {
@@ -240,14 +240,20 @@ class YahooTimetableBuilder {
     }
 
     // 3. 先頭の種別プレフィックス（「新幹線 」「特急 」「快速 」「急行 」「普通 」など）を除去
-    // 例: "新幹線 とき301号" -> "とき301号"
-    // 例: "特急 あずさ9号" -> "あずさ9号"
-    // 例: "快速 DLばんえつ物語" -> "DLばんえつ物語"
-    // 例: "特急あずさ9号" -> "あずさ9号"
-    const prefixRegex = /^(?:JR)?(?:新幹線|超特急|特急|川越特急|通勤特急|快速急行|通勤急行|区間急行|急行|特別快速|通勤特快|中央特快|青梅特快|通勤快速|区間快速|快速|区間準急|通勤準急|準急|普通|各駅停車)\s*/;
+    const prefixRegex = /^(?:JR)?(?:新幹線|超特急|特急列車|通勤特急|特急|川越特急|快速急行|通勤急行|区間急行|急行列車|急行|特別快速|通勤特別快速|通勤特快|中央特快|青梅特快|通勤快速|区間快速|快速|区間準急|通勤準急|準急|普通列車|普通|各駅停車|各停)\s*/;
     const stripped = normalized.replace(prefixRegex, '').trim();
 
     if (!stripped || genericTypes.has(stripped)) {
+      return null;
+    }
+
+    // 4. 単なる号数のみ（例: "183号", "201号" など、愛称名のない単なる数字+号）は除外
+    if (/^\d+号$/.test(stripped)) {
+      return null;
+    }
+
+    // 5. 行先表記（例: "逗子行", "東京方面" 等）は除外
+    if (/.*(?:行き?|方面)$/.test(stripped)) {
       return null;
     }
 
@@ -317,7 +323,7 @@ class YahooTimetableBuilder {
   buildTrip(trainDetail) {
     const { trainId, dayKey, stopStation, displayName } = trainDetail;
     const isHoliday = dayKey === 'holiday';
-    const trainName = this.extractTrainName(displayName);
+    let trainName = this.extractTrainName(displayName);
 
     // 【路線固有の除外フィルター】他路線集約列車（むさしの号等）の除外判定
     if (this.config.shouldExcludeTrip && this.config.shouldExcludeTrip(trainDetail)) {
@@ -704,13 +710,17 @@ class YahooTimetableBuilder {
       const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}${segSuffix}`;
       const forcedEndpoints = this.resolveForcedEndpoints(trainDetail, originSt, destSt);
 
+      const isGeneralLocalSeg = trainType === 'local' || trainType === 'each' || trainType === 'regular';
+      const isSpecialNamedLocalSeg = trainName && (trainName.includes('むさしの') || trainName.includes('しもうさ'));
+      const effectiveTrainNameSeg = (!isGeneralLocalSeg || isSpecialNamedLocalSeg) ? trainName : undefined;
+
       return {
         tripId,
         lineId: this.config.lineId,
         trainId,
         trainNumber: this.resolveTrainNumber(trainDetail, stops, isHoliday),
         trainType,
-        ...(trainName ? { trainName } : {}),
+        ...(effectiveTrainNameSeg ? { trainName: effectiveTrainNameSeg } : {}),
         direction,
         originStationId: originSt.id,
         destinationStationId: destSt.id,
@@ -891,13 +901,17 @@ class YahooTimetableBuilder {
     const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}${segSuffix}`;
     const forcedEndpoints = this.resolveForcedEndpoints(trainDetail, originSt, destSt);
 
+    const isGeneralLocal = trainType === 'local' || trainType === 'each' || trainType === 'regular';
+    const isSpecialNamedLocal = trainName && (trainName.includes('むさしの') || trainName.includes('しもうさ'));
+    const effectiveTrainName = (!isGeneralLocal || isSpecialNamedLocal) ? trainName : undefined;
+
     return {
       tripId,
       lineId: this.config.lineId,
       trainId,
       trainNumber: this.resolveTrainNumber(trainDetail, stops, isHoliday),
       trainType,
-      ...(trainName ? { trainName } : {}),
+      ...(effectiveTrainName ? { trainName: effectiveTrainName } : {}),
       direction,
       originStationId: originSt.id,
       destinationStationId: destSt.id,
@@ -1014,6 +1028,10 @@ class YahooTimetableBuilder {
         const lastStObj = this.stById.get(lastStop.stationId);
         const destName = trip.customDestination || lastStObj?.name || '';
 
+        const isGeneralLocal = trip.trainType === 'local' || trip.trainType === 'each' || trip.trainType === 'regular';
+        const isSpecialNamedLocal = trip.trainName && (trip.trainName.includes('むさしの') || trip.trainName.includes('しもうさ'));
+        const effectiveTrainName = (!isGeneralLocal || isSpecialNamedLocal) ? trip.trainName : undefined;
+
         const entry = {
           h,
           m,
@@ -1023,7 +1041,7 @@ class YahooTimetableBuilder {
           d: destName,
           no: trip.trainNumber,
           tripId: trip.tripId,
-          ...(trip.trainName ? { trainName: trip.trainName } : {}),
+          ...(effectiveTrainName ? { trainName: effectiveTrainName } : {}),
         };
 
         if (store[dayKey][stop.stationId]) {

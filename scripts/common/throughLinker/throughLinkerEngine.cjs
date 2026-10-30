@@ -482,27 +482,16 @@ function linkPair({
         score -= 300;
       }
 
-      // 併結・分割支線列車（富士回遊 _fuji 等）の親・子系統整合性ボーナス
-      const fujiNumbers = new Set(['2103M', '2107M', '2111M', '2115M', '8111M', '9193M', '2132M', '2136M', '2144M', '2148M', '8194M', '9178M']);
-      const isFujiA = (tA.tripId && tA.tripId.includes('_fuji')) ||
-                      (tA.customDestination && tA.customDestination.includes('河口湖')) ||
-                      tA.destinationStationId === 'FJ-18' ||
-                      tA.originStationId === 'FJ-18' ||
-                      tA.prevLineId === 'fujikyu' ||
-                      tA.throughLineId === 'fujikyu' ||
-                      fujiNumbers.has(tA.trainNumber);
-      const isFujiB = (tB.tripId && tB.tripId.includes('_fuji')) ||
-                      (tB.customDestination && tB.customDestination.includes('河口湖')) ||
-                      tB.destinationStationId === 'FJ-18' ||
-                      tB.originStationId === 'FJ-18' ||
-                      tB.prevLineId === 'fujikyu' ||
-                      tB.throughLineId === 'fujikyu' ||
-                      fujiNumbers.has(tB.trainNumber);
-      if (isFujiA !== isFujiB) {
-        continue; // 富士回遊(河口湖系統)とあずさ・かいじ(松本/甲府系統)のクロス誤マッチを絶対に禁止
-      }
-      if (isFujiA && isFujiB) {
-        score -= 4000;
+      // 併結・分割支線列車の親・子系統整合性判定（行先・経由路線の整合性による汎用チェック）
+      if (tA.coupling || tB.coupling || (tA.tripId && tA.tripId.includes('_fuji')) || (tB.tripId && tB.tripId.includes('_fuji'))) {
+        const isBranchA = Boolean((tA.tripId && tA.tripId.includes('_fuji')) || tA.coupling?.role === 'child');
+        const isBranchB = Boolean((tB.tripId && tB.tripId.includes('_fuji')) || tB.coupling?.role === 'child');
+        if (isBranchA !== isBranchB) {
+          continue; // 親系統と子系統のクロス誤マッチを禁止
+        }
+        if (isBranchA && isBranchB) {
+          score -= 4000;
+        }
       }
 
       if (score < bestScore) {
@@ -525,10 +514,11 @@ function linkPair({
         tA.trainNumber = bestB.trainNumber;
       }
 
-      // 列車名（愛称・号数）の相互補完（特急と一般列車の間では伝播禁止）
+      // 列車名（愛称・号数）の相互補完
+      // 【重要】特急・優等列車同士でのみ相互補完を行う。一般普通列車への伝播・誤付与は厳禁！
       const isLtdBestA = isLimitedExpress(tA.trainType);
       const isLtdBestB = isLimitedExpress(bestB.trainType);
-      if (isLtdBestA === isLtdBestB) {
+      if (isLtdBestA && isLtdBestB) {
         if (tA.trainName && !bestB.trainName) {
           bestB.trainName = tA.trainName;
         } else if (bestB.trainName && !tA.trainName) {
