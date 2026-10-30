@@ -19421,7 +19421,7 @@
     "tripId": "WD_INB_JO-06_1538_41457",
     "lineId": "yokosuka",
     "trainNumber": "1586S",
-    "trainType": "local",
+    "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "JO-06",
     "destinationStationId": "JO-19",
@@ -51597,7 +51597,7 @@
     "tripId": "HD_INB_JO-06_1538_41458",
     "lineId": "yokosuka",
     "trainNumber": "1510S",
-    "trainType": "local",
+    "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "JO-06",
     "destinationStationId": "JO-19",
@@ -51686,7 +51686,7 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "16:36:00",
-        "departureTime": "16:37:00",
+        "departureTime": "16:38:00",
         "isPassing": false
       }
     ],
@@ -53110,12 +53110,12 @@
       {
         "stationId": "JO-19",
         "arrivalTime": "16:31:00",
-        "departureTime": "16:38:00",
+        "departureTime": "16:37:00",
         "isPassing": false
       }
     ],
     "trainId": "31139",
-    "throughTripId": "HD_OUT_JO-19_1638_30385",
+    "throughTripId": "HD_OUT_JO-19_1637_41458",
     "throughLineId": "sobu_rapid"
   },
   {

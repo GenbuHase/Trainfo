@@ -41,6 +41,16 @@ export const TAKASAKI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#7b1fa2',
     borderColor: '#7b1fa2',
   },
+  special_rapid: {
+    key: 'special_rapid',
+    name: '特別快速',
+    nameEn: 'Special Rapid',
+    shortName: '特快',
+    color: '#003366',
+    textColor: '#ffffff',
+    bgColor: '#003366',
+    borderColor: '#002244',
+  },
   limitedExp: {
     key: 'limitedExp',
     name: '特急',

@@ -39812,7 +39812,7 @@
     "stops": [
       {
         "stationId": "JC-24",
-        "arrivalTime": "12:34:00",
+        "arrivalTime": "12:29:33",
         "departureTime": "12:34:00",
         "isPassing": false
       },
@@ -39955,7 +39955,12 @@
         "isPassing": false
       }
     ],
-    "trainId": "1568"
+    "trainId": "1568",
+    "prevTripId": "cm_WD_INB_CO-43_1132_33546",
+    "prevLineId": "chuo_main",
+    "trainName": "かいじ20号",
+    "customDestination": "東京",
+    "customOrigin": "甲府"
   },
   {
     "tripId": "WD_INB_JC-22_1235_33546",
@@ -39966,13 +39971,13 @@
     "direction": "inbound",
     "originStationId": "JC-24",
     "destinationStationId": "JC-05",
-    "customOrigin": "甲府",
+    "customOrigin": "河口湖",
     "cars": 10,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "JC-24",
-        "arrivalTime": "12:29:33",
+        "arrivalTime": "12:27:00",
         "departureTime": "12:29:33",
         "isPassing": true
       },
@@ -40093,7 +40098,7 @@
     ],
     "customDestination": "新宿",
     "trainId": "33546",
-    "prevTripId": "cm_WD_INB_CO-43_1132_33546",
+    "prevTripId": "cm_WD_INB_JC-32_1150_40806",
     "prevLineId": "chuo_main"
   },
   {
@@ -78712,7 +78717,7 @@
     "tripId": "WD_INB_JC-24_2001_1773",
     "lineId": "chuo",
     "trainNumber": "3152M",
-    "trainType": "rapid",
+    "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "JC-24",
     "destinationStationId": "JC-01",
@@ -78867,9 +78872,9 @@
     "customDestination": "東京",
     "customOrigin": "甲府",
     "trainId": "1773",
+    "trainName": "かいじ52号",
     "prevTripId": "cm_WD_INB_CO-43_1902_33560",
-    "prevLineId": "chuo_main",
-    "trainName": "かいじ52号"
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_JC-01_2003_28720",
@@ -83542,7 +83547,7 @@
     "tripId": "WD_INB_JC-24_2103_1777",
     "lineId": "chuo",
     "trainNumber": "3156M",
-    "trainType": "rapid",
+    "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "JC-24",
     "destinationStationId": "JC-01",
@@ -83697,9 +83702,9 @@
     "customDestination": "東京",
     "customOrigin": "甲府",
     "trainId": "1777",
+    "trainName": "かいじ56号",
     "prevTripId": "cm_WD_INB_CO-43_2004_33562",
-    "prevLineId": "chuo_main",
-    "trainName": "かいじ56号"
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "WD_INB_JC-19_2104_10019",
@@ -129647,7 +129652,7 @@
     "stops": [
       {
         "stationId": "JC-24",
-        "arrivalTime": "12:30:00",
+        "arrivalTime": "12:27:52",
         "departureTime": "12:30:00",
         "isPassing": false
       },
@@ -129790,7 +129795,12 @@
         "isPassing": false
       }
     ],
-    "trainId": "1567"
+    "trainId": "1567",
+    "prevTripId": "cm_HD_INB_CO-43_1132_33545",
+    "prevLineId": "chuo_main",
+    "trainName": "かいじ20号",
+    "customDestination": "東京",
+    "customOrigin": "甲府"
   },
   {
     "tripId": "HD_OUT_JC-05_1230_31136",
@@ -130204,13 +130214,13 @@
     "direction": "inbound",
     "originStationId": "JC-24",
     "destinationStationId": "JC-05",
-    "customOrigin": "甲府",
+    "customOrigin": "河口湖",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JC-24",
-        "arrivalTime": "12:27:52",
+        "arrivalTime": "12:24:00",
         "departureTime": "12:27:52",
         "isPassing": true
       },
@@ -130331,7 +130341,7 @@
     ],
     "customDestination": "新宿",
     "trainId": "33545",
-    "prevTripId": "cm_HD_INB_CO-43_1132_33545",
+    "prevTripId": "cm_HD_INB_JC-32_1147_40805",
     "prevLineId": "chuo_main"
   },
   {
@@ -176088,7 +176098,7 @@
     "tripId": "HD_INB_JC-24_2209_1690",
     "lineId": "chuo",
     "trainNumber": "60M",
-    "trainType": "rapid",
+    "trainType": "limitedExp",
     "direction": "inbound",
     "originStationId": "JC-24",
     "destinationStationId": "JC-01",
@@ -176243,9 +176253,9 @@
     "customDestination": "東京",
     "customOrigin": "松本",
     "trainId": "1690",
+    "trainName": "あずさ60号",
     "prevTripId": "cm_HD_INB_CO-61_2018_6908",
-    "prevLineId": "chuo_main",
-    "trainName": "あずさ60号"
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_JC-24_2212_1426",
@@ -181427,7 +181437,7 @@
     "tripId": "WD_OUT_JC-01_0714_10031_fuji",
     "lineId": "chuo",
     "trainNumber": "1457M",
-    "trainType": "rapid",
+    "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "JC-01",
     "destinationStationId": "JC-24",
@@ -181900,18 +181910,22 @@
       {
         "stationId": "JC-24",
         "arrivalTime": "08:06:27",
-        "departureTime": "08:06:27",
+        "departureTime": "08:24:00",
         "isPassing": false
       }
     ],
     "trainId": "39460",
-    "customDestination": "河口湖"
+    "customDestination": "河口湖",
+    "throughTripId": "cm_HD_OUT_JC-24_0824_10030",
+    "throughLineId": "chuo_main",
+    "trainName": "富士回遊3号",
+    "customOrigin": "東京"
   },
   {
     "tripId": "HD_OUT_JC-01_0709_10030_fuji",
     "lineId": "chuo",
     "trainNumber": "1457M",
-    "trainType": "rapid",
+    "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "JC-01",
     "destinationStationId": "JC-24",
@@ -182065,10 +182079,7 @@
     ],
     "trainId": "10030",
     "customDestination": "河口湖",
-    "throughTripId": "cm_HD_OUT_JC-24_0824_10030",
-    "throughLineId": "chuo_main",
-    "trainName": "富士回遊3号",
-    "customOrigin": "東京"
+    "trainName": "富士回遊3号"
   },
   {
     "tripId": "HD_OUT_JC-05_0930_38802_fuji",

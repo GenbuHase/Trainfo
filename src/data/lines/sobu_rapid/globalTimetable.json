@@ -16889,7 +16889,7 @@
     "tripId": "WD_OUT_JO-19_1637_41457",
     "lineId": "sobu_rapid",
     "trainNumber": "1587F",
-    "trainType": "local",
+    "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
@@ -43284,18 +43284,18 @@
     "tripId": "HD_OUT_JO-19_1637_41458",
     "lineId": "sobu_rapid",
     "trainNumber": "1511F",
-    "trainType": "local",
+    "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "逗子",
+    "customOrigin": "新宿",
     "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "16:36:00",
+        "arrivalTime": "16:31:00",
         "departureTime": "16:37:00",
         "isPassing": false
       },
@@ -43363,7 +43363,7 @@
     },
     "throughTripId": "HD_OUT_SM-01_1719_41458",
     "throughLineId": "sobu_main",
-    "prevTripId": "HD_INB_JO-06_1538_41458",
+    "prevTripId": "HD_INB_JO-17_1624_31139",
     "prevLineId": "yokosuka"
   },
   {
@@ -53771,14 +53771,14 @@
     "direction": "outbound",
     "originStationId": "JO-19",
     "destinationStationId": "JO-28",
-    "customOrigin": "新宿",
+    "customOrigin": "逗子",
     "customDestination": "成田空港",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JO-19",
-        "arrivalTime": "16:31:00",
+        "arrivalTime": "16:36:00",
         "departureTime": "16:38:00",
         "isPassing": false
       },

@@ -21,6 +21,16 @@ export const JOBAN_TORIDE_IWAKI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#003366',
     borderColor: '#002244',
   },
+  limitedExp: {
+    key: 'limitedExp',
+    name: '特急',
+    nameEn: 'Limited Express',
+    shortName: '特急',
+    color: '#e60012',
+    textColor: '#ffffff',
+    bgColor: '#e60012',
+    borderColor: '#b8000e',
+  },
   limited_express: {
     key: 'limited_express',
     name: '特急',

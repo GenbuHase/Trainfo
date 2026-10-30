@@ -2092,7 +2092,7 @@
     "tripId": "WD_OUT_FJ-01_0916_92367",
     "lineId": "fujikyu",
     "trainNumber": "92367レ",
-    "trainType": "local",
+    "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
@@ -9971,7 +9971,7 @@
     "tripId": "WD_OUT_FJ-01_2111_38921",
     "lineId": "fujikyu",
     "trainNumber": "2917M",
-    "trainType": "local",
+    "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
@@ -10090,7 +10090,9 @@
     ],
     "trainId": "38921",
     "customDestination": "河口湖",
-    "trainName": "かいじ51号"
+    "trainName": "かいじ51号",
+    "prevTripId": "cm_WD_OUT_JC-01_1904_38796",
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "WD_INB_FJ-18_2116_92445",
@@ -13163,7 +13165,7 @@
     "tripId": "HD_OUT_FJ-01_0919_92368",
     "lineId": "fujikyu",
     "trainNumber": "92368レ",
-    "trainType": "local",
+    "trainType": "limitedExp",
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
