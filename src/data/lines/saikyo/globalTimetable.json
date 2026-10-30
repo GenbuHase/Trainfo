@@ -3528,9 +3528,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39298",
-    "throughTripId": "WD_INB_JS-20_0631_39392",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39298"
   },
   {
     "tripId": "WD_OUT_JA-08_0632_39108",
@@ -4434,7 +4432,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JA-26",
-    "destinationStationId": "JA-08",
+    "destinationStationId": "JA-11",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -4533,24 +4531,6 @@
         "stationId": "JA-11",
         "arrivalTime": "07:37:00",
         "departureTime": "07:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "07:44:00",
-        "departureTime": "07:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "07:47:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "07:51:00",
-        "departureTime": "07:52:00",
         "isPassing": false
       }
     ],
@@ -5079,9 +5059,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39299",
-    "throughTripId": "WD_INB_JS-20_0658_39393",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39299"
   },
   {
     "tripId": "WD_INB_JA-26_0700_23090",
@@ -5373,7 +5351,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JA-26",
-    "destinationStationId": "JA-08",
+    "destinationStationId": "JA-11",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -5472,24 +5450,6 @@
         "stationId": "JA-11",
         "arrivalTime": "07:52:00",
         "departureTime": "07:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "07:59:00",
-        "departureTime": "07:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:02:00",
-        "departureTime": "08:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:06:00",
-        "departureTime": "08:07:00",
         "isPassing": false
       }
     ],
@@ -6306,31 +6266,13 @@
     "trainNumber": "126M",
     "trainType": "commuter",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-26",
     "customOrigin": "海老名",
     "customDestination": "川越",
     "cars": 10,
     "isHoliday": false,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "07:20:00",
-        "departureTime": "07:21:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "07:24:00",
-        "departureTime": "07:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "07:27:00",
-        "departureTime": "07:27:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "07:32:00",
@@ -6441,7 +6383,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JA-26",
-    "destinationStationId": "JA-08",
+    "destinationStationId": "JA-11",
     "customOrigin": "指扇",
     "customDestination": "海老名",
     "cars": 10,
@@ -6541,24 +6483,6 @@
         "stationId": "JA-11",
         "arrivalTime": "08:11:00",
         "departureTime": "08:12:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:17:00",
-        "departureTime": "08:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:19:00",
-        "departureTime": "08:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:23:00",
-        "departureTime": "08:24:00",
         "isPassing": false
       }
     ],
@@ -6686,9 +6610,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39300",
-    "throughTripId": "WD_INB_JS-20_0725_39394",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39300"
   },
   {
     "tripId": "WD_INB_JA-26_0727_23092",
@@ -7602,30 +7524,12 @@
     "trainNumber": "128M",
     "trainType": "local",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-15",
     "customOrigin": "海老名",
     "cars": 10,
     "isHoliday": false,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "07:40:00",
-        "departureTime": "07:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "07:45:00",
-        "departureTime": "07:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "07:47:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "07:53:00",
@@ -7935,7 +7839,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JA-21",
-    "destinationStationId": "JA-08",
+    "destinationStationId": "JA-11",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -8004,24 +7908,6 @@
         "stationId": "JA-11",
         "arrivalTime": "08:21:00",
         "departureTime": "08:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:26:00",
-        "departureTime": "08:27:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:29:00",
-        "departureTime": "08:29:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:33:00",
-        "departureTime": "08:34:00",
         "isPassing": false
       }
     ],
@@ -8681,7 +8567,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JA-21",
-    "destinationStationId": "JA-08",
+    "destinationStationId": "JA-11",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -8750,24 +8636,6 @@
         "stationId": "JA-11",
         "arrivalTime": "08:35:00",
         "departureTime": "08:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:41:00",
-        "departureTime": "08:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:43:00",
-        "departureTime": "08:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:47:00",
-        "departureTime": "08:49:00",
         "isPassing": false
       }
     ],
@@ -8914,30 +8782,12 @@
     "trainNumber": "123M",
     "trainType": "local",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-26",
     "customOrigin": "海老名",
     "cars": 10,
     "isHoliday": false,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "07:57:00",
-        "departureTime": "08:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:06:00",
-        "departureTime": "08:06:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:08:00",
-        "departureTime": "08:09:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "08:14:00",
@@ -9259,7 +9109,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JA-26",
-    "destinationStationId": "JA-08",
+    "destinationStationId": "JA-11",
     "customOrigin": "指扇",
     "customDestination": "海老名",
     "cars": 10,
@@ -9359,24 +9209,6 @@
         "stationId": "JA-11",
         "arrivalTime": "08:55:00",
         "departureTime": "08:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "09:00:00",
-        "departureTime": "09:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "09:02:00",
-        "departureTime": "09:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "09:07:00",
-        "departureTime": "09:08:00",
         "isPassing": false
       }
     ],
@@ -9872,30 +9704,12 @@
     "trainNumber": "130M",
     "trainType": "local",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-15",
     "customOrigin": "海老名",
     "cars": 10,
     "isHoliday": false,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:18:00",
-        "departureTime": "08:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:22:00",
-        "departureTime": "08:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:24:00",
-        "departureTime": "08:25:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "08:29:00",
@@ -10724,31 +10538,13 @@
     "trainNumber": "132M",
     "trainType": "commuter",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-26",
     "customOrigin": "海老名",
     "customDestination": "川越",
     "cars": 10,
     "isHoliday": false,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:33:00",
-        "departureTime": "08:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:37:00",
-        "departureTime": "08:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:39:00",
-        "departureTime": "08:40:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "08:45:00",
@@ -11336,30 +11132,12 @@
     "trainNumber": "134M",
     "trainType": "local",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-12",
     "customOrigin": "海老名",
     "cars": 10,
     "isHoliday": false,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:45:00",
-        "departureTime": "08:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:50:00",
-        "departureTime": "08:50:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:52:00",
-        "departureTime": "08:53:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "08:57:00",
@@ -11841,7 +11619,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JA-15",
-    "destinationStationId": "JA-08",
+    "destinationStationId": "JA-11",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -11874,24 +11652,6 @@
         "stationId": "JA-11",
         "arrivalTime": "09:14:00",
         "departureTime": "09:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "09:19:00",
-        "departureTime": "09:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "09:22:00",
-        "departureTime": "09:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "09:26:00",
-        "departureTime": "09:26:00",
         "isPassing": false
       }
     ],
@@ -12348,30 +12108,12 @@
     "trainNumber": "888K",
     "trainType": "local",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-26",
     "customOrigin": "海老名",
     "cars": 10,
     "isHoliday": false,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "09:03:00",
-        "departureTime": "09:03:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "09:07:00",
-        "departureTime": "09:08:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "09:10:00",
-        "departureTime": "09:10:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "09:15:00",
@@ -13744,9 +13486,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39357",
-    "throughTripId": "WD_INB_JS-20_0936_39451",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39357"
   },
   {
     "tripId": "WD_OUT_JA-08_0937_39231",
@@ -14913,9 +14653,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39303",
-    "throughTripId": "WD_INB_JS-20_0957_39397",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39303"
   },
   {
     "tripId": "WD_OUT_JA-11_1001_22914",
@@ -15575,9 +15313,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39358",
-    "throughTripId": "WD_INB_JS-20_1013_39452",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39358"
   },
   {
     "tripId": "WD_OUT_JA-08_1016_39135",
@@ -16343,9 +16079,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39305",
-    "throughTripId": "WD_INB_JS-20_1035_39399",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39305"
   },
   {
     "tripId": "WD_OUT_JA-11_1038_22917",
@@ -17072,9 +16806,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39309",
-    "throughTripId": "WD_INB_JS-20_1055_39403",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39309"
   },
   {
     "tripId": "WD_OUT_JA-11_1059_22919",
@@ -17872,9 +17604,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39310",
-    "throughTripId": "WD_INB_JS-20_1119_39404",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39310"
   },
   {
     "tripId": "WD_INB_JA-26_1119_36396",
@@ -18845,9 +18575,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39312",
-    "throughTripId": "WD_INB_JS-20_1141_39406",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39312"
   },
   {
     "tripId": "WD_OUT_JA-08_1143_39142",
@@ -19574,9 +19302,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39314",
-    "throughTripId": "WD_INB_JS-20_1202_39408",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39314"
   },
   {
     "tripId": "WD_INB_JA-21_1204_36482",
@@ -20597,9 +20323,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39315",
-    "throughTripId": "WD_INB_JS-20_1232_39409",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39315"
   },
   {
     "tripId": "WD_OUT_JA-11_1237_22930",
@@ -21680,9 +21404,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39317",
-    "throughTripId": "WD_INB_JS-20_1302_39412",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39317"
   },
   {
     "tripId": "WD_INB_JA-21_1304_36489",
@@ -22703,9 +22425,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39320",
-    "throughTripId": "WD_INB_JS-20_1332_39414",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39320"
   },
   {
     "tripId": "WD_OUT_JA-11_1337_22935",
@@ -23786,9 +23506,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39321",
-    "throughTripId": "WD_INB_JS-20_1402_39415",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39321"
   },
   {
     "tripId": "WD_INB_JA-21_1404_36494",
@@ -24809,9 +24527,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39323",
-    "throughTripId": "WD_INB_JS-20_1432_39417",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39323"
   },
   {
     "tripId": "WD_OUT_JA-11_1437_22942",
@@ -25758,9 +25474,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39326",
-    "throughTripId": "WD_INB_JS-20_1502_39420",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39326"
   },
   {
     "tripId": "WD_OUT_JA-08_1503_26826",
@@ -26915,9 +26629,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39327",
-    "throughTripId": "WD_INB_JS-20_1532_39421",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39327"
   },
   {
     "tripId": "WD_OUT_JA-11_1537_22947",
@@ -27864,9 +27576,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39329",
-    "throughTripId": "WD_INB_JS-20_1602_39423",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39329"
   },
   {
     "tripId": "WD_OUT_JA-08_1603_26832",
@@ -29043,9 +28753,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39332",
-    "throughTripId": "WD_INB_JS-20_1632_39426",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39332"
   },
   {
     "tripId": "WD_OUT_JA-08_1633_39115",
@@ -29995,9 +29703,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39333",
-    "throughTripId": "WD_INB_JS-20_1652_39427",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39333"
   },
   {
     "tripId": "WD_INB_JA-21_1653_36511",
@@ -30931,9 +30637,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39334",
-    "throughTripId": "WD_INB_JS-20_1712_39428",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39334"
   },
   {
     "tripId": "WD_OUT_JA-08_1713_39116",
@@ -32282,9 +31986,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39363",
-    "throughTripId": "WD_INB_JS-20_1736_39457",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39363"
   },
   {
     "tripId": "WD_OUT_JA-08_1737_39166",
@@ -33316,9 +33018,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39365",
-    "throughTripId": "WD_INB_JS-20_1756_39459",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39365"
   },
   {
     "tripId": "WD_INB_JA-26_1803_36555",
@@ -34177,9 +33877,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39366",
-    "throughTripId": "WD_INB_JS-20_1816_39460",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39366"
   },
   {
     "tripId": "WD_OUT_JA-08_1817_26773",
@@ -35265,9 +34963,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39367",
-    "throughTripId": "WD_INB_JS-20_1836_39461",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39367"
   },
   {
     "tripId": "WD_OUT_JA-08_1837_39171",
@@ -36297,9 +35993,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39368",
-    "throughTripId": "WD_INB_JS-20_1856_39462",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39368"
   },
   {
     "tripId": "WD_OUT_JA-11_1900_22966",
@@ -37251,9 +36945,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39369",
-    "throughTripId": "WD_INB_JS-20_1916_39463",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39369"
   },
   {
     "tripId": "WD_OUT_JA-08_1917_39174",
@@ -38187,9 +37879,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39340",
-    "throughTripId": "WD_INB_JS-20_1936_39434",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39340"
   },
   {
     "tripId": "WD_OUT_JA-08_1938_39246",
@@ -39276,9 +38966,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39370",
-    "throughTripId": "WD_INB_JS-20_1956_39464",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39370"
   },
   {
     "tripId": "WD_OUT_JA-11_2002_22972",
@@ -40092,9 +39780,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39371",
-    "throughTripId": "WD_INB_JS-20_2016_39465",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39371"
   },
   {
     "tripId": "WD_OUT_JA-08_2019_39179",
@@ -41016,9 +40702,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39344",
-    "throughTripId": "WD_INB_JS-20_2036_39438",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39344"
   },
   {
     "tripId": "WD_INB_JA-15_2036_41019",
@@ -41959,9 +41643,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39372",
-    "throughTripId": "WD_INB_JS-20_2056_39466",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39372"
   },
   {
     "tripId": "WD_OUT_JA-11_2102_22980",
@@ -42840,9 +42522,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39346",
-    "throughTripId": "WD_INB_JS-20_2116_39440",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39346"
   },
   {
     "tripId": "WD_OUT_JA-08_2117_41013",
@@ -43769,9 +43449,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39375",
-    "throughTripId": "WD_INB_JS-20_2136_39469",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39375"
   },
   {
     "tripId": "WD_INB_JA-15_2137_41020",
@@ -44716,9 +44394,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39348",
-    "throughTripId": "WD_INB_JS-20_2156_39442",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39348"
   },
   {
     "tripId": "WD_INB_JA-15_2157_41021",
@@ -45912,9 +45588,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39350",
-    "throughTripId": "WD_INB_JS-20_2226_39444",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39350"
   },
   {
     "tripId": "WD_OUT_JA-08_2227_39189",
@@ -46903,9 +46577,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39351",
-    "throughTripId": "WD_INB_JS-20_2251_39445",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39351"
   },
   {
     "tripId": "WD_OUT_JA-11_2255_39285",
@@ -47496,9 +47168,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39354",
-    "throughTripId": "WD_INB_JS-20_2315_39448",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39354"
   },
   {
     "tripId": "WD_OUT_JA-08_2317_26779",
@@ -51157,9 +50827,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39297",
-    "throughTripId": "HD_INB_JS-20_0631_39391",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39297"
   },
   {
     "tripId": "HD_OUT_JA-08_0632_39107",
@@ -52257,7 +51925,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JA-26",
-    "destinationStationId": "JA-08",
+    "destinationStationId": "JA-11",
     "customOrigin": "指扇",
     "customDestination": "海老名",
     "cars": 10,
@@ -52358,24 +52026,6 @@
         "arrivalTime": "07:38:00",
         "departureTime": "07:52:00",
         "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "07:52:00",
-        "departureTime": "07:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "07:52:00",
-        "departureTime": "07:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "07:52:00",
-        "departureTime": "07:53:00",
-        "isPassing": false
       }
     ],
     "trainId": "39261",
@@ -52399,7 +52049,7 @@
       {
         "stationId": "JA-11",
         "arrivalTime": "06:58:00",
-        "departureTime": "07:40:00",
+        "departureTime": "06:58:00",
         "isPassing": false
       },
       {
@@ -52422,9 +52072,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39355",
-    "throughTripId": "HD_INB_JS-20_0740_39355",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39355"
   },
   {
     "tripId": "HD_OUT_JA-08_0703_39130",
@@ -53463,30 +53111,12 @@
     "trainNumber": "124M",
     "trainType": "local",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-26",
     "customOrigin": "海老名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "07:20:00",
-        "departureTime": "07:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "07:26:00",
-        "departureTime": "07:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "07:28:00",
-        "departureTime": "07:29:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "07:34:00",
@@ -53596,8 +53226,8 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JA-21",
-    "destinationStationId": "JA-08",
-    "customDestination": "海老名(相鉄・小田急)",
+    "destinationStationId": "JA-11",
+    "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -53664,29 +53294,14 @@
       {
         "stationId": "JA-11",
         "arrivalTime": "07:51:00",
-        "departureTime": "07:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "07:57:00",
-        "departureTime": "07:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "07:59:00",
-        "departureTime": "08:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:03:00",
-        "departureTime": "08:05:00",
+        "departureTime": "08:09:00",
         "isPassing": false
       }
     ],
-    "trainId": "39253"
+    "trainId": "39253",
+    "customOrigin": "武蔵浦和",
+    "throughTripId": "HD_INB_JS-20_0809_39356",
+    "throughLineId": "sotetsu_jr_direct"
   },
   {
     "tripId": "HD_INB_JA-26_0723_36375",
@@ -53813,7 +53428,7 @@
       {
         "stationId": "JA-11",
         "arrivalTime": "07:25:00",
-        "departureTime": "08:09:00",
+        "departureTime": "07:25:00",
         "isPassing": false
       },
       {
@@ -53836,9 +53451,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39356",
-    "throughTripId": "HD_INB_JS-20_0809_39356",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39356"
   },
   {
     "tripId": "HD_OUT_JA-11_0728_22825",
@@ -54059,7 +53672,7 @@
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "JA-26",
-    "destinationStationId": "JA-08",
+    "destinationStationId": "JA-11",
     "customOrigin": "川越",
     "customDestination": "海老名",
     "cars": 10,
@@ -54158,24 +53771,6 @@
       {
         "stationId": "JA-11",
         "arrivalTime": "08:07:00",
-        "departureTime": "08:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:23:00",
-        "departureTime": "08:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:23:00",
-        "departureTime": "08:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:23:00",
         "departureTime": "08:23:00",
         "isPassing": false
       }
@@ -54460,30 +54055,12 @@
     "trainNumber": "126M",
     "trainType": "local",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-26",
     "customOrigin": "海老名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "07:40:00",
-        "departureTime": "07:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "07:45:00",
-        "departureTime": "07:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "07:47:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "07:53:00",
@@ -54593,7 +54170,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JA-26",
-    "destinationStationId": "JA-08",
+    "destinationStationId": "JA-11",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -54692,24 +54269,6 @@
         "stationId": "JA-11",
         "arrivalTime": "08:21:00",
         "departureTime": "08:38:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:27:00",
-        "departureTime": "08:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:30:00",
-        "departureTime": "08:30:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:34:00",
-        "departureTime": "08:35:00",
         "isPassing": false
       }
     ],
@@ -55151,7 +54710,7 @@
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JA-26",
-    "destinationStationId": "JA-08",
+    "destinationStationId": "JA-11",
     "customOrigin": "指扇",
     "customDestination": "海老名",
     "cars": 10,
@@ -55250,24 +54809,6 @@
       {
         "stationId": "JA-11",
         "arrivalTime": "08:36:00",
-        "departureTime": "08:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:55:00",
-        "departureTime": "08:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:55:00",
-        "departureTime": "08:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:55:00",
         "departureTime": "08:55:00",
         "isPassing": false
       }
@@ -55418,30 +54959,12 @@
     "trainNumber": "718K",
     "trainType": "local",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-26",
     "customOrigin": "海老名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "07:58:00",
-        "departureTime": "08:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:06:00",
-        "departureTime": "08:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:08:00",
-        "departureTime": "08:09:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "08:14:00",
@@ -56240,31 +55763,13 @@
     "trainNumber": "224M",
     "trainType": "rapid",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-26",
     "customOrigin": "海老名",
     "customDestination": "川越",
     "cars": 10,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:18:00",
-        "departureTime": "08:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:22:00",
-        "departureTime": "08:22:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:24:00",
-        "departureTime": "08:25:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "08:29:00",
@@ -56845,30 +56350,12 @@
     "trainNumber": "704F",
     "trainType": "local",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-21",
     "customOrigin": "海老名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:33:00",
-        "departureTime": "08:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:37:00",
-        "departureTime": "08:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:39:00",
-        "departureTime": "08:40:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "08:45:00",
@@ -57779,30 +57266,12 @@
     "trainNumber": "704F",
     "trainType": "local",
     "direction": "outbound",
-    "originStationId": "JA-08",
+    "originStationId": "JA-11",
     "destinationStationId": "JA-21",
     "customOrigin": "海老名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
-      {
-        "stationId": "JA-08",
-        "arrivalTime": "08:50:00",
-        "departureTime": "08:51:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-09",
-        "arrivalTime": "08:55:00",
-        "departureTime": "08:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JA-10",
-        "arrivalTime": "08:57:00",
-        "departureTime": "08:58:00",
-        "isPassing": false
-      },
       {
         "stationId": "JA-11",
         "arrivalTime": "09:02:00",
@@ -59046,9 +58515,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39301",
-    "throughTripId": "HD_INB_JS-20_0927_39395",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39301"
   },
   {
     "tripId": "HD_OUT_JA-08_0928_41025",
@@ -60208,9 +59675,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39302",
-    "throughTripId": "HD_INB_JS-20_0953_39396",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39302"
   },
   {
     "tripId": "HD_OUT_JA-08_0956_26794",
@@ -60866,9 +60331,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39359",
-    "throughTripId": "HD_INB_JS-20_1014_39453",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39359"
   },
   {
     "tripId": "HD_OUT_JA-08_1018_26796",
@@ -61262,9 +60725,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39304",
-    "throughTripId": "HD_INB_JS-20_1023_39398",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39304"
   },
   {
     "tripId": "HD_INB_JA-21_1024_36472",
@@ -61637,9 +61098,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39306",
-    "throughTripId": "HD_INB_JS-20_1035_39400",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39306"
   },
   {
     "tripId": "HD_OUT_JA-11_1038_22918",
@@ -62366,9 +61825,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39308",
-    "throughTripId": "HD_INB_JS-20_1055_39402",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39308"
   },
   {
     "tripId": "HD_OUT_JA-11_1059_22920",
@@ -63300,9 +62757,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39360",
-    "throughTripId": "HD_INB_JS-20_1119_39454",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39360"
   },
   {
     "tripId": "HD_INB_JA-26_1119_36397",
@@ -64005,9 +63460,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39311",
-    "throughTripId": "HD_INB_JS-20_1140_39405",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39311"
   },
   {
     "tripId": "HD_OUT_JA-08_1141_26806",
@@ -64868,9 +64321,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39313",
-    "throughTripId": "HD_INB_JS-20_1202_39407",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39313"
   },
   {
     "tripId": "HD_INB_JA-21_1204_36483",
@@ -65891,9 +65342,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39316",
-    "throughTripId": "HD_INB_JS-20_1233_39410",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39316"
   },
   {
     "tripId": "HD_OUT_JA-11_1237_22929",
@@ -66974,9 +66423,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39318",
-    "throughTripId": "HD_INB_JS-20_1302_39411",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39318"
   },
   {
     "tripId": "HD_INB_JA-21_1304_36488",
@@ -67997,9 +67444,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39319",
-    "throughTripId": "HD_INB_JS-20_1332_39413",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39319"
   },
   {
     "tripId": "HD_OUT_JA-11_1337_22936",
@@ -69080,9 +68525,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39322",
-    "throughTripId": "HD_INB_JS-20_1403_39416",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39322"
   },
   {
     "tripId": "HD_INB_JA-21_1404_36495",
@@ -70103,9 +69546,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39324",
-    "throughTripId": "HD_INB_JS-20_1432_39418",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39324"
   },
   {
     "tripId": "HD_OUT_JA-11_1437_22941",
@@ -71186,9 +70627,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39325",
-    "throughTripId": "HD_INB_JS-20_1502_39419",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39325"
   },
   {
     "tripId": "HD_INB_JA-21_1504_36500",
@@ -72209,9 +71648,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39328",
-    "throughTripId": "HD_INB_JS-20_1532_39422",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39328"
   },
   {
     "tripId": "HD_OUT_JA-11_1537_22948",
@@ -73292,9 +72729,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39330",
-    "throughTripId": "HD_INB_JS-20_1602_39424",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39330"
   },
   {
     "tripId": "HD_INB_JA-21_1604_36507",
@@ -74315,9 +73750,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39331",
-    "throughTripId": "HD_INB_JS-20_1632_39425",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39331"
   },
   {
     "tripId": "HD_OUT_JA-08_1633_39162",
@@ -75153,9 +74586,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39361",
-    "throughTripId": "HD_INB_JS-20_1652_39455",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39361"
   },
   {
     "tripId": "HD_OUT_JA-11_1657_22957",
@@ -76019,9 +75450,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39362",
-    "throughTripId": "HD_INB_JS-20_1713_39456",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39362"
   },
   {
     "tripId": "HD_OUT_JA-08_1714_39165",
@@ -76835,9 +76264,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39364",
-    "throughTripId": "HD_INB_JS-20_1736_39458",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39364"
   },
   {
     "tripId": "HD_INB_JA-26_1739_36554",
@@ -77610,9 +77037,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39335",
-    "throughTripId": "HD_INB_JS-20_1756_39429",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39335"
   },
   {
     "tripId": "HD_OUT_JA-11_1758_22961",
@@ -78471,9 +77896,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39336",
-    "throughTripId": "HD_INB_JS-20_1816_39430",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39336"
   },
   {
     "tripId": "HD_INB_JA-26_1819_36434",
@@ -79183,9 +78606,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39337",
-    "throughTripId": "HD_INB_JS-20_1836_39431",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39337"
   },
   {
     "tripId": "HD_OUT_JA-08_1837_39172",
@@ -79951,9 +79372,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39338",
-    "throughTripId": "HD_INB_JS-20_1856_39432",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39338"
   },
   {
     "tripId": "HD_OUT_JA-11_1857_39266",
@@ -80706,9 +80125,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39339",
-    "throughTripId": "HD_INB_JS-20_1916_39433",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39339"
   },
   {
     "tripId": "HD_OUT_JA-11_1917_22967",
@@ -81589,9 +81006,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39341",
-    "throughTripId": "HD_INB_JS-20_1936_39435",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39341"
   },
   {
     "tripId": "HD_INB_JA-26_1939_36441",
@@ -82442,9 +81857,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39342",
-    "throughTripId": "HD_INB_JS-20_1955_39436",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39342"
   },
   {
     "tripId": "HD_INB_JA-26_1959_36443",
@@ -83052,9 +82465,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39343",
-    "throughTripId": "HD_INB_JS-20_2016_39437",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39343"
   },
   {
     "tripId": "HD_OUT_JA-11_2018_22974",
@@ -83952,9 +83363,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39345",
-    "throughTripId": "HD_INB_JS-20_2037_39439",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39345"
   },
   {
     "tripId": "HD_OUT_JA-11_2037_22976",
@@ -84681,9 +84090,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39373",
-    "throughTripId": "HD_INB_JS-20_2056_39467",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39373"
   },
   {
     "tripId": "HD_OUT_JA-11_2057_22979",
@@ -85410,9 +84817,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39347",
-    "throughTripId": "HD_INB_JS-20_2116_39441",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39347"
   },
   {
     "tripId": "HD_OUT_JA-11_2117_22981",
@@ -86139,9 +85544,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39374",
-    "throughTripId": "HD_INB_JS-20_2136_39468",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39374"
   },
   {
     "tripId": "HD_OUT_JA-11_2137_22983",
@@ -86868,9 +86271,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39376",
-    "throughTripId": "HD_INB_JS-20_2156_39470",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39376"
   },
   {
     "tripId": "HD_OUT_JA-11_2157_22985",
@@ -87698,9 +87099,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39349",
-    "throughTripId": "HD_INB_JS-20_2218_39443",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39349"
   },
   {
     "tripId": "HD_INB_JA-26_2219_36565",
@@ -88705,9 +88104,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39352",
-    "throughTripId": "HD_INB_JS-20_2252_39446",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39352"
   },
   {
     "tripId": "HD_OUT_JA-08_2257_39126",
@@ -89300,9 +88697,7 @@
       }
     ],
     "customOrigin": "新宿",
-    "trainId": "39353",
-    "throughTripId": "HD_INB_JS-20_2315_39447",
-    "throughLineId": "sotetsu_jr_direct"
+    "trainId": "39353"
   },
   {
     "tripId": "HD_OUT_JA-08_2317_26778",

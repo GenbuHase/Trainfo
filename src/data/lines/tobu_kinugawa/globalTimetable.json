@@ -2,6 +2,7 @@
   {
     "tripId": "WD_INB_TN-56_0529_112993",
     "lineId": "tobu_kinugawa",
+    "trainId": "112993",
     "trainNumber": "302N",
     "trainType": "local",
     "direction": "inbound",
@@ -52,12 +53,12 @@
         "departureTime": "05:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112993"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_0551_113015",
     "lineId": "tobu_kinugawa",
+    "trainId": "113015",
     "trainNumber": "102N",
     "trainType": "local",
     "direction": "inbound",
@@ -122,7 +123,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "113015",
     "customOrigin": "新藤原",
     "throughTripId": "WD_INB_TN-23_0625_113015",
     "throughLineId": "tobu_nikko"
@@ -130,6 +130,7 @@
   {
     "tripId": "WD_OUT_TN-23_0556_112958",
     "lineId": "tobu_kinugawa",
+    "trainId": "112958",
     "trainNumber": "301N",
     "trainType": "local",
     "direction": "outbound",
@@ -192,12 +193,12 @@
         "departureTime": "06:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112958"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_0632_112994",
     "lineId": "tobu_kinugawa",
+    "trainId": "112994",
     "trainNumber": "304N",
     "trainType": "local",
     "direction": "inbound",
@@ -260,12 +261,12 @@
         "departureTime": "07:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112994"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_0636_112959",
     "lineId": "tobu_kinugawa",
+    "trainId": "112959",
     "trainNumber": "303N",
     "trainType": "local",
     "direction": "outbound",
@@ -328,12 +329,12 @@
         "departureTime": "07:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112959"
+    ]
   },
   {
     "tripId": "WD_INB_TN-56_0641_116503",
     "lineId": "tobu_kinugawa",
+    "trainId": "116503",
     "trainNumber": "1110レ",
     "trainType": "limitedExp",
     "trainName": "きぬ110号",
@@ -387,7 +388,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116503",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "WD_INB_TN-23_0702_116503",
     "throughLineId": "tobu_nikko"
@@ -395,6 +395,7 @@
   {
     "tripId": "WD_OUT_TN-23_0706_112979",
     "lineId": "tobu_kinugawa",
+    "trainId": "112979",
     "trainNumber": "101N",
     "trainType": "local",
     "direction": "outbound",
@@ -459,7 +460,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "112979",
     "customDestination": "新藤原",
     "prevTripId": "WD_OUT_TN-03_0534_112979",
     "prevLineId": "tobu_nikko"
@@ -467,6 +467,7 @@
   {
     "tripId": "WD_INB_TN-58_0712_112995",
     "lineId": "tobu_kinugawa",
+    "trainId": "112995",
     "trainNumber": "306N",
     "trainType": "local",
     "direction": "inbound",
@@ -529,12 +530,12 @@
         "departureTime": "07:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112995"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_0737_112960",
     "lineId": "tobu_kinugawa",
+    "trainId": "112960",
     "trainNumber": "305N",
     "trainType": "local",
     "direction": "outbound",
@@ -597,12 +598,12 @@
         "departureTime": "08:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112960"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_0750_112996",
     "lineId": "tobu_kinugawa",
+    "trainId": "112996",
     "trainNumber": "308N",
     "trainType": "local",
     "direction": "inbound",
@@ -662,19 +663,15 @@
       {
         "stationId": "TN-23",
         "arrivalTime": "08:22:00",
-        "departureTime": "08:48:00",
+        "departureTime": "08:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112996",
-    "customDestination": "下今市",
-    "customOrigin": "新藤原",
-    "throughTripId": "WD_INB_TN-25_0839_113608",
-    "throughLineId": "tobu_nikko"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_0817_25154",
     "lineId": "tobu_kinugawa",
+    "trainId": "25154",
     "trainNumber": "1101レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津101号",
@@ -741,7 +738,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "25154",
     "prevTripId": "WD_OUT_TSK-30_0709_25154",
     "prevLineId": "tobu_nikko",
     "throughTripId": "WD_OUT_YAG-01_0848_25154",
@@ -750,6 +746,7 @@
   {
     "tripId": "WD_OUT_TN-23_0827_112961",
     "lineId": "tobu_kinugawa",
+    "trainId": "112961",
     "trainNumber": "307N",
     "trainType": "local",
     "direction": "outbound",
@@ -812,12 +809,12 @@
         "departureTime": "09:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112961"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_0829_116504",
     "lineId": "tobu_kinugawa",
+    "trainId": "116504",
     "trainNumber": "1114レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ114号",
@@ -883,7 +880,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116504",
     "customOrigin": "新藤原",
     "throughTripId": "WD_INB_TN-23_0905_116504",
     "throughLineId": "tobu_nikko"
@@ -891,6 +887,7 @@
   {
     "tripId": "WD_INB_TN-58_0837_112997",
     "lineId": "tobu_kinugawa",
+    "trainId": "112997",
     "trainNumber": "310N",
     "trainType": "local",
     "direction": "inbound",
@@ -950,21 +947,17 @@
       {
         "stationId": "TN-23",
         "arrivalTime": "09:09:00",
-        "departureTime": "09:32:00",
+        "departureTime": "09:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112997",
-    "customDestination": "下今市",
-    "customOrigin": "新藤原",
-    "throughTripId": "WD_INB_TN-25_0923_113609",
-    "throughLineId": "tobu_nikko"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_0901_40453",
     "lineId": "tobu_kinugawa",
+    "trainId": "40453",
     "trainNumber": "3152レ",
-    "trainType": "rapid",
+    "trainType": "aizu_mount_exp",
     "trainName": "AIZUマウントエクスプレス2号",
     "direction": "inbound",
     "originStationId": "TN-58",
@@ -992,7 +985,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "40453",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "WD_INB_YAG-09_0824_40453",
     "prevLineId": "yagan"
@@ -1000,6 +992,7 @@
   {
     "tripId": "WD_INB_TN-56_0910_116498",
     "lineId": "tobu_kinugawa",
+    "trainId": "116498",
     "trainNumber": "1116レ",
     "trainType": "limitedExp",
     "trainName": "きぬ116号",
@@ -1053,7 +1046,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116498",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "WD_INB_TN-23_0934_116498",
     "throughLineId": "tobu_nikko"
@@ -1061,6 +1053,7 @@
   {
     "tripId": "WD_OUT_TN-23_0914_116488",
     "lineId": "tobu_kinugawa",
+    "trainId": "116488",
     "trainNumber": "1105レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ105号",
@@ -1114,7 +1107,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116488",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "WD_OUT_TSK-30_0811_116488",
     "prevLineId": "tobu_nikko"
@@ -1122,6 +1114,7 @@
   {
     "tripId": "WD_INB_TN-58_0916_112998",
     "lineId": "tobu_kinugawa",
+    "trainId": "112998",
     "trainNumber": "312N",
     "trainType": "local",
     "direction": "inbound",
@@ -1184,12 +1177,12 @@
         "departureTime": "09:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112998"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_0923_113646",
     "lineId": "tobu_kinugawa",
+    "trainId": "113646",
     "trainNumber": "309N",
     "trainType": "local",
     "direction": "outbound",
@@ -1253,14 +1246,14 @@
         "departureTime": "09:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113646"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-56_0938_38077",
     "lineId": "tobu_kinugawa",
+    "trainId": "38077",
     "trainNumber": "3155レ",
-    "trainType": "rapid",
+    "trainType": "aizu_mount_exp",
     "trainName": "AIZUマウントエクスプレス1号",
     "direction": "outbound",
     "originStationId": "TN-56",
@@ -1288,7 +1281,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "38077",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "WD_OUT_YAG-01_0948_38077",
     "throughLineId": "yagan"
@@ -1296,6 +1288,7 @@
   {
     "tripId": "WD_OUT_TN-23_1004_112962",
     "lineId": "tobu_kinugawa",
+    "trainId": "112962",
     "trainNumber": "311N",
     "trainType": "local",
     "direction": "outbound",
@@ -1358,12 +1351,12 @@
         "departureTime": "10:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112962"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_1008_43011",
     "lineId": "tobu_kinugawa",
+    "trainId": "43011",
     "trainNumber": "314レ",
     "trainType": "local",
     "direction": "inbound",
@@ -1392,7 +1385,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "43011",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "WD_INB_YAG-09_0928_43011",
     "prevLineId": "yagan"
@@ -1400,6 +1392,7 @@
   {
     "tripId": "WD_OUT_TN-23_1013_116489",
     "lineId": "tobu_kinugawa",
+    "trainId": "116489",
     "trainNumber": "1109レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ109号",
@@ -1453,7 +1446,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116489",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "WD_OUT_TSK-30_0912_116489",
     "prevLineId": "tobu_nikko"
@@ -1461,6 +1453,7 @@
   {
     "tripId": "WD_INB_TN-56_1027_116499",
     "lineId": "tobu_kinugawa",
+    "trainId": "116499",
     "trainNumber": "1122レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ122号",
@@ -1514,7 +1507,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116499",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "WD_INB_TN-23_1052_116499",
     "throughLineId": "tobu_nikko"
@@ -1522,6 +1514,7 @@
   {
     "tripId": "WD_INB_TN-58_1028_113016",
     "lineId": "tobu_kinugawa",
+    "trainId": "113016",
     "trainNumber": "316N",
     "trainType": "local",
     "direction": "inbound",
@@ -1586,7 +1579,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "113016",
     "customOrigin": "新藤原",
     "throughTripId": "WD_OUT_TN-23_1108_113016",
     "throughLineId": "tobu_nikko"
@@ -1594,6 +1586,7 @@
   {
     "tripId": "WD_OUT_TN-23_1044_112980",
     "lineId": "tobu_kinugawa",
+    "trainId": "112980",
     "trainNumber": "103N",
     "trainType": "local",
     "direction": "outbound",
@@ -1658,7 +1651,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "112980",
     "customDestination": "新藤原",
     "prevTripId": "WD_OUT_TN-03_0909_112980",
     "prevLineId": "tobu_nikko"
@@ -1666,6 +1658,7 @@
   {
     "tripId": "WD_INB_TN-56_1105_116500",
     "lineId": "tobu_kinugawa",
+    "trainId": "116500",
     "trainNumber": "1124レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ124号",
@@ -1719,7 +1712,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116500",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "WD_INB_TN-23_1135_116500",
     "throughLineId": "tobu_nikko"
@@ -1727,6 +1719,7 @@
   {
     "tripId": "WD_OUT_TN-23_1114_25151",
     "lineId": "tobu_kinugawa",
+    "trainId": "25151",
     "trainNumber": "1113レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津113号",
@@ -1793,7 +1786,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "25151",
     "prevTripId": "WD_OUT_TSK-30_1011_25151",
     "prevLineId": "tobu_nikko",
     "throughTripId": "WD_OUT_YAG-01_1146_25151",
@@ -1802,6 +1794,7 @@
   {
     "tripId": "WD_INB_TN-58_1134_112999",
     "lineId": "tobu_kinugawa",
+    "trainId": "112999",
     "trainNumber": "318N",
     "trainType": "local",
     "direction": "inbound",
@@ -1864,12 +1857,12 @@
         "departureTime": "12:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112999"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_1143_112963",
     "lineId": "tobu_kinugawa",
+    "trainId": "112963",
     "trainNumber": "313N",
     "trainType": "local",
     "direction": "outbound",
@@ -1932,12 +1925,12 @@
         "departureTime": "12:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112963"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_1150_42865",
     "lineId": "tobu_kinugawa",
+    "trainId": "42865",
     "trainNumber": "1128レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津128号",
@@ -2004,7 +1997,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "42865",
     "throughTripId": "WD_INB_TN-23_1235_42865",
     "throughLineId": "tobu_nikko",
     "prevTripId": "WD_INB_YAG-09_1108_42865",
@@ -2013,6 +2005,7 @@
   {
     "tripId": "WD_INB_TN-58_1208_113000",
     "lineId": "tobu_kinugawa",
+    "trainId": "113000",
     "trainNumber": "320N",
     "trainType": "local",
     "direction": "inbound",
@@ -2075,12 +2068,12 @@
         "departureTime": "12:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113000"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_1218_37234",
     "lineId": "tobu_kinugawa",
+    "trainId": "37234",
     "trainNumber": "1083M",
     "trainType": "limitedExp",
     "trainName": "きぬがわ3号",
@@ -2134,7 +2127,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "37234",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "WD_OUT_TN-11_1145_37234",
     "prevLineId": "tobu_nikko"
@@ -2142,6 +2134,7 @@
   {
     "tripId": "WD_OUT_TN-23_1244_25152",
     "lineId": "tobu_kinugawa",
+    "trainId": "25152",
     "trainNumber": "1119レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津119号",
@@ -2208,7 +2201,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "25152",
     "prevTripId": "WD_OUT_TSK-30_1141_25152",
     "prevLineId": "tobu_nikko",
     "throughTripId": "WD_OUT_YAG-01_1316_25152",
@@ -2217,6 +2209,7 @@
   {
     "tripId": "WD_INB_TN-58_1258_113001",
     "lineId": "tobu_kinugawa",
+    "trainId": "113001",
     "trainNumber": "322N",
     "trainType": "local",
     "direction": "inbound",
@@ -2276,19 +2269,15 @@
       {
         "stationId": "TN-23",
         "arrivalTime": "13:38:00",
-        "departureTime": "13:48:00",
+        "departureTime": "13:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113001",
-    "customDestination": "下今市",
-    "customOrigin": "新藤原",
-    "throughTripId": "WD_INB_TN-25_1339_113611",
-    "throughLineId": "tobu_nikko"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_1305_112964",
     "lineId": "tobu_kinugawa",
+    "trainId": "112964",
     "trainNumber": "315N",
     "trainType": "local",
     "direction": "outbound",
@@ -2351,12 +2340,12 @@
         "departureTime": "13:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112964"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_1351_112965",
     "lineId": "tobu_kinugawa",
+    "trainId": "112965",
     "trainNumber": "317N",
     "trainType": "local",
     "direction": "outbound",
@@ -2419,12 +2408,12 @@
         "departureTime": "14:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112965"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_1358_42866",
     "lineId": "tobu_kinugawa",
+    "trainId": "42866",
     "trainNumber": "1136レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津136号",
@@ -2491,7 +2480,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "42866",
     "throughTripId": "WD_INB_TN-23_1435_42866",
     "throughLineId": "tobu_nikko",
     "prevTripId": "WD_INB_YAG-09_1321_42866",
@@ -2500,6 +2488,7 @@
   {
     "tripId": "WD_INB_TN-58_1403_113002",
     "lineId": "tobu_kinugawa",
+    "trainId": "113002",
     "trainNumber": "324N",
     "trainType": "local",
     "direction": "inbound",
@@ -2562,12 +2551,12 @@
         "departureTime": "14:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113002"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_1411_116492",
     "lineId": "tobu_kinugawa",
+    "trainId": "116492",
     "trainNumber": "1123レ",
     "trainType": "limitedExp",
     "trainName": "スペーシアX7号",
@@ -2621,7 +2610,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116492",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "WD_OUT_TSK-30_1311_116492",
     "prevLineId": "tobu_nikko"
@@ -2629,6 +2617,7 @@
   {
     "tripId": "WD_OUT_TN-56_1435_41244",
     "lineId": "tobu_kinugawa",
+    "trainId": "41244",
     "trainNumber": "319レ",
     "trainType": "local",
     "direction": "outbound",
@@ -2657,7 +2646,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "41244",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "WD_OUT_YAG-01_1444_41244",
     "throughLineId": "yagan"
@@ -2665,6 +2653,7 @@
   {
     "tripId": "WD_OUT_TN-23_1450_112966",
     "lineId": "tobu_kinugawa",
+    "trainId": "112966",
     "trainNumber": "321N",
     "trainType": "local",
     "direction": "outbound",
@@ -2727,12 +2716,12 @@
         "departureTime": "15:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112966"
+    ]
   },
   {
     "tripId": "WD_INB_TN-56_1455_37236",
     "lineId": "tobu_kinugawa",
+    "trainId": "37236",
     "trainNumber": "1082M",
     "trainType": "limitedExp",
     "trainName": "きぬがわ2号",
@@ -2786,7 +2775,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "37236",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "WD_INB_TN-23_1521_37236",
     "throughLineId": "tobu_nikko"
@@ -2794,6 +2782,7 @@
   {
     "tripId": "WD_INB_TN-58_1456_113003",
     "lineId": "tobu_kinugawa",
+    "trainId": "113003",
     "trainNumber": "326N",
     "trainType": "local",
     "direction": "inbound",
@@ -2853,19 +2842,15 @@
       {
         "stationId": "TN-23",
         "arrivalTime": "15:33:00",
-        "departureTime": "15:49:00",
+        "departureTime": "15:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113003",
-    "customDestination": "下今市",
-    "customOrigin": "新藤原",
-    "throughTripId": "WD_INB_TN-25_1540_113613",
-    "throughLineId": "tobu_nikko"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_1514_116490",
     "lineId": "tobu_kinugawa",
+    "trainId": "116490",
     "trainNumber": "1127レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ127号",
@@ -2919,7 +2904,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116490",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "WD_OUT_TSK-30_1411_116490",
     "prevLineId": "tobu_nikko"
@@ -2927,6 +2911,7 @@
   {
     "tripId": "WD_INB_TN-56_1519_116496",
     "lineId": "tobu_kinugawa",
+    "trainId": "116496",
     "trainNumber": "1140レ",
     "trainType": "limitedExp",
     "trainName": "スペーシアX8号",
@@ -2980,7 +2965,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116496",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "WD_INB_TN-23_1550_116496",
     "throughLineId": "tobu_nikko"
@@ -2988,6 +2972,7 @@
   {
     "tripId": "WD_INB_TN-56_1543_112990",
     "lineId": "tobu_kinugawa",
+    "trainId": "112990",
     "trainNumber": "6レ",
     "trainType": "sl_taiju",
     "trainName": "SL大樹6号",
@@ -3039,12 +3024,12 @@
         "departureTime": "16:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112990"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_1544_116493",
     "lineId": "tobu_kinugawa",
+    "trainId": "116493",
     "trainNumber": "1129レ",
     "trainType": "limitedExp",
     "trainName": "スペーシアX9号",
@@ -3098,7 +3083,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116493",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "WD_OUT_TSK-30_1441_116493",
     "prevLineId": "tobu_nikko"
@@ -3106,6 +3090,7 @@
   {
     "tripId": "WD_OUT_TN-23_1553_112967",
     "lineId": "tobu_kinugawa",
+    "trainId": "112967",
     "trainNumber": "323N",
     "trainType": "local",
     "direction": "outbound",
@@ -3168,12 +3153,12 @@
         "departureTime": "16:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112967"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_1555_42868",
     "lineId": "tobu_kinugawa",
+    "trainId": "42868",
     "trainNumber": "1142レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津142号",
@@ -3240,7 +3225,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "42868",
     "throughTripId": "WD_INB_TN-23_1634_42868",
     "throughLineId": "tobu_nikko",
     "prevTripId": "WD_INB_YAG-09_1520_42868",
@@ -3249,6 +3233,7 @@
   {
     "tripId": "WD_INB_TN-58_1603_113004",
     "lineId": "tobu_kinugawa",
+    "trainId": "113004",
     "trainNumber": "328N",
     "trainType": "local",
     "direction": "inbound",
@@ -3311,12 +3296,12 @@
         "departureTime": "16:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113004"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_1613_25153",
     "lineId": "tobu_kinugawa",
+    "trainId": "25153",
     "trainNumber": "1131レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津131号",
@@ -3383,7 +3368,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "25153",
     "prevTripId": "WD_OUT_TSK-30_1510_25153",
     "prevLineId": "tobu_nikko",
     "throughTripId": "WD_OUT_YAG-01_1651_25153",
@@ -3392,6 +3376,7 @@
   {
     "tripId": "WD_INB_TN-56_1640_116497",
     "lineId": "tobu_kinugawa",
+    "trainId": "116497",
     "trainNumber": "1144レ",
     "trainType": "limitedExp",
     "trainName": "スペーシアX10号",
@@ -3445,7 +3430,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116497",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "WD_INB_TN-23_1702_116497",
     "throughLineId": "tobu_nikko"
@@ -3453,6 +3437,7 @@
   {
     "tripId": "WD_OUT_TN-23_1652_112968",
     "lineId": "tobu_kinugawa",
+    "trainId": "112968",
     "trainNumber": "325N",
     "trainType": "local",
     "direction": "outbound",
@@ -3515,12 +3500,12 @@
         "departureTime": "17:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112968"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_1654_113005",
     "lineId": "tobu_kinugawa",
+    "trainId": "113005",
     "trainNumber": "330N",
     "trainType": "local",
     "direction": "inbound",
@@ -3583,12 +3568,12 @@
         "departureTime": "17:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113005"
+    ]
   },
   {
     "tripId": "WD_INB_TN-56_1704_116501",
     "lineId": "tobu_kinugawa",
+    "trainId": "116501",
     "trainNumber": "1146レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ146号",
@@ -3642,7 +3627,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116501",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "WD_INB_TN-23_1735_116501",
     "throughLineId": "tobu_nikko"
@@ -3650,6 +3634,7 @@
   {
     "tripId": "WD_INB_TN-58_1742_113006",
     "lineId": "tobu_kinugawa",
+    "trainId": "113006",
     "trainNumber": "332N",
     "trainType": "local",
     "direction": "inbound",
@@ -3712,12 +3697,12 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113006"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_1751_112969",
     "lineId": "tobu_kinugawa",
+    "trainId": "112969",
     "trainNumber": "327N",
     "trainType": "local",
     "direction": "outbound",
@@ -3780,12 +3765,12 @@
         "departureTime": "18:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112969"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_1842_116491",
     "lineId": "tobu_kinugawa",
+    "trainId": "116491",
     "trainNumber": "1139レ",
     "trainType": "limitedExp",
     "trainName": "きぬ139号",
@@ -3839,7 +3824,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116491",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "WD_OUT_TSK-30_1742_116491",
     "prevLineId": "tobu_nikko"
@@ -3847,6 +3831,7 @@
   {
     "tripId": "WD_INB_TN-58_1845_42867",
     "lineId": "tobu_kinugawa",
+    "trainId": "42867",
     "trainNumber": "1154レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津154号",
@@ -3913,7 +3898,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "42867",
     "throughTripId": "WD_INB_TN-23_1921_42867",
     "throughLineId": "tobu_nikko",
     "prevTripId": "WD_INB_YAG-09_1806_42867",
@@ -3922,6 +3906,7 @@
   {
     "tripId": "WD_OUT_TN-23_1858_112970",
     "lineId": "tobu_kinugawa",
+    "trainId": "112970",
     "trainNumber": "329N",
     "trainType": "local",
     "direction": "outbound",
@@ -3984,12 +3969,12 @@
         "departureTime": "19:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112970"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_1918_113007",
     "lineId": "tobu_kinugawa",
+    "trainId": "113007",
     "trainNumber": "334N",
     "trainType": "local",
     "direction": "inbound",
@@ -4052,12 +4037,12 @@
         "departureTime": "19:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113007"
+    ]
   },
   {
     "tripId": "WD_INB_TN-56_1928_116502",
     "lineId": "tobu_kinugawa",
+    "trainId": "116502",
     "trainNumber": "1156レ",
     "trainType": "limitedExp",
     "trainName": "きぬ156号",
@@ -4111,7 +4096,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116502",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "WD_INB_TN-23_1953_116502",
     "throughLineId": "tobu_nikko"
@@ -4119,6 +4103,7 @@
   {
     "tripId": "WD_OUT_TN-23_1948_116494",
     "lineId": "tobu_kinugawa",
+    "trainId": "116494",
     "trainNumber": "1141レ",
     "trainType": "limitedExp",
     "trainName": "きぬ141号",
@@ -4172,7 +4157,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116494",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "WD_OUT_TSK-30_1836_116494",
     "prevLineId": "tobu_nikko"
@@ -4180,6 +4164,7 @@
   {
     "tripId": "WD_OUT_TN-23_2006_112971",
     "lineId": "tobu_kinugawa",
+    "trainId": "112971",
     "trainNumber": "331N",
     "trainType": "local",
     "direction": "outbound",
@@ -4242,12 +4227,12 @@
         "departureTime": "20:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112971"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_2019_113008",
     "lineId": "tobu_kinugawa",
+    "trainId": "113008",
     "trainNumber": "336N",
     "trainType": "local",
     "direction": "inbound",
@@ -4310,12 +4295,12 @@
         "departureTime": "20:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113008"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_2115_112972",
     "lineId": "tobu_kinugawa",
+    "trainId": "112972",
     "trainNumber": "333N",
     "trainType": "local",
     "direction": "outbound",
@@ -4378,12 +4363,12 @@
         "departureTime": "21:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112972"
+    ]
   },
   {
     "tripId": "WD_INB_TN-58_2130_113017",
     "lineId": "tobu_kinugawa",
+    "trainId": "113017",
     "trainNumber": "338N",
     "trainType": "local",
     "direction": "inbound",
@@ -4448,7 +4433,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "113017",
     "customOrigin": "新藤原",
     "throughTripId": "WD_OUT_TN-23_2207_113017",
     "throughLineId": "tobu_nikko"
@@ -4456,6 +4440,7 @@
   {
     "tripId": "WD_OUT_TN-23_2146_113647",
     "lineId": "tobu_kinugawa",
+    "trainId": "113647",
     "trainNumber": "335N",
     "trainType": "local",
     "direction": "outbound",
@@ -4519,12 +4504,12 @@
         "departureTime": "22:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113647"
+    ]
   },
   {
     "tripId": "WD_OUT_TN-23_2246_113645",
     "lineId": "tobu_kinugawa",
+    "trainId": "113645",
     "trainNumber": "337N",
     "trainType": "local",
     "direction": "outbound",
@@ -4576,12 +4561,12 @@
         "departureTime": "23:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113645"
+    ]
   },
   {
     "tripId": "HD_INB_TN-56_0529_112993",
     "lineId": "tobu_kinugawa",
+    "trainId": "112993",
     "trainNumber": "302N",
     "trainType": "local",
     "direction": "inbound",
@@ -4632,12 +4617,12 @@
         "departureTime": "05:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112993"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_0551_113015",
     "lineId": "tobu_kinugawa",
+    "trainId": "113015",
     "trainNumber": "102N",
     "trainType": "local",
     "direction": "inbound",
@@ -4702,7 +4687,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "113015",
     "customOrigin": "新藤原",
     "throughTripId": "HD_INB_TN-23_0625_113015",
     "throughLineId": "tobu_nikko"
@@ -4710,6 +4694,7 @@
   {
     "tripId": "HD_OUT_TN-23_0556_112958",
     "lineId": "tobu_kinugawa",
+    "trainId": "112958",
     "trainNumber": "301N",
     "trainType": "local",
     "direction": "outbound",
@@ -4772,12 +4757,12 @@
         "departureTime": "06:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112958"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_0632_112994",
     "lineId": "tobu_kinugawa",
+    "trainId": "112994",
     "trainNumber": "304N",
     "trainType": "local",
     "direction": "inbound",
@@ -4840,12 +4825,12 @@
         "departureTime": "07:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112994"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_0636_112959",
     "lineId": "tobu_kinugawa",
+    "trainId": "112959",
     "trainNumber": "303N",
     "trainType": "local",
     "direction": "outbound",
@@ -4908,12 +4893,12 @@
         "departureTime": "07:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112959"
+    ]
   },
   {
     "tripId": "HD_INB_TN-56_0641_116503",
     "lineId": "tobu_kinugawa",
+    "trainId": "116503",
     "trainNumber": "1110レ",
     "trainType": "limitedExp",
     "trainName": "きぬ110号",
@@ -4967,7 +4952,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116503",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "HD_INB_TN-23_0702_116503",
     "throughLineId": "tobu_nikko"
@@ -4975,6 +4959,7 @@
   {
     "tripId": "HD_OUT_TN-23_0706_112979",
     "lineId": "tobu_kinugawa",
+    "trainId": "112979",
     "trainNumber": "101N",
     "trainType": "local",
     "direction": "outbound",
@@ -5039,7 +5024,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "112979",
     "customDestination": "新藤原",
     "prevTripId": "HD_OUT_TN-03_0534_112979",
     "prevLineId": "tobu_nikko"
@@ -5047,6 +5031,7 @@
   {
     "tripId": "HD_INB_TN-58_0712_112995",
     "lineId": "tobu_kinugawa",
+    "trainId": "112995",
     "trainNumber": "306N",
     "trainType": "local",
     "direction": "inbound",
@@ -5109,12 +5094,12 @@
         "departureTime": "07:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112995"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_0737_112960",
     "lineId": "tobu_kinugawa",
+    "trainId": "112960",
     "trainNumber": "305N",
     "trainType": "local",
     "direction": "outbound",
@@ -5177,12 +5162,12 @@
         "departureTime": "08:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112960"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_0750_112996",
     "lineId": "tobu_kinugawa",
+    "trainId": "112996",
     "trainNumber": "308N",
     "trainType": "local",
     "direction": "inbound",
@@ -5242,19 +5227,15 @@
       {
         "stationId": "TN-23",
         "arrivalTime": "08:22:00",
-        "departureTime": "08:48:00",
+        "departureTime": "08:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112996",
-    "customDestination": "下今市",
-    "customOrigin": "新藤原",
-    "throughTripId": "HD_INB_TN-25_0839_113608",
-    "throughLineId": "tobu_nikko"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_0817_25154",
     "lineId": "tobu_kinugawa",
+    "trainId": "25154",
     "trainNumber": "1101レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津101号",
@@ -5321,7 +5302,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "25154",
     "prevTripId": "HD_OUT_TSK-30_0709_25154",
     "prevLineId": "tobu_nikko",
     "throughTripId": "HD_OUT_YAG-01_0848_25154",
@@ -5330,6 +5310,7 @@
   {
     "tripId": "HD_OUT_TN-23_0827_112961",
     "lineId": "tobu_kinugawa",
+    "trainId": "112961",
     "trainNumber": "307N",
     "trainType": "local",
     "direction": "outbound",
@@ -5392,12 +5373,12 @@
         "departureTime": "09:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112961"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_0829_116504",
     "lineId": "tobu_kinugawa",
+    "trainId": "116504",
     "trainNumber": "1114レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ114号",
@@ -5463,7 +5444,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116504",
     "customOrigin": "新藤原",
     "throughTripId": "HD_INB_TN-23_0905_116504",
     "throughLineId": "tobu_nikko"
@@ -5471,6 +5451,7 @@
   {
     "tripId": "HD_INB_TN-58_0837_112997",
     "lineId": "tobu_kinugawa",
+    "trainId": "112997",
     "trainNumber": "310N",
     "trainType": "local",
     "direction": "inbound",
@@ -5530,21 +5511,17 @@
       {
         "stationId": "TN-23",
         "arrivalTime": "09:09:00",
-        "departureTime": "09:32:00",
+        "departureTime": "09:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112997",
-    "customDestination": "下今市",
-    "customOrigin": "新藤原",
-    "throughTripId": "HD_INB_TN-25_0923_113609",
-    "throughLineId": "tobu_nikko"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_0901_40453",
     "lineId": "tobu_kinugawa",
+    "trainId": "40453",
     "trainNumber": "3152レ",
-    "trainType": "rapid",
+    "trainType": "aizu_mount_exp",
     "trainName": "AIZUマウントエクスプレス2号",
     "direction": "inbound",
     "originStationId": "TN-58",
@@ -5572,7 +5549,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "40453",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "HD_INB_YAG-09_0824_40453",
     "prevLineId": "yagan"
@@ -5580,6 +5556,7 @@
   {
     "tripId": "HD_INB_TN-56_0910_116498",
     "lineId": "tobu_kinugawa",
+    "trainId": "116498",
     "trainNumber": "1116レ",
     "trainType": "limitedExp",
     "trainName": "きぬ116号",
@@ -5633,7 +5610,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116498",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "HD_INB_TN-23_0934_116498",
     "throughLineId": "tobu_nikko"
@@ -5641,6 +5617,7 @@
   {
     "tripId": "HD_OUT_TN-23_0914_116488",
     "lineId": "tobu_kinugawa",
+    "trainId": "116488",
     "trainNumber": "1105レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ105号",
@@ -5694,7 +5671,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116488",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "HD_OUT_TSK-30_0811_116488",
     "prevLineId": "tobu_nikko"
@@ -5702,6 +5678,7 @@
   {
     "tripId": "HD_INB_TN-58_0916_112998",
     "lineId": "tobu_kinugawa",
+    "trainId": "112998",
     "trainNumber": "312N",
     "trainType": "local",
     "direction": "inbound",
@@ -5764,12 +5741,12 @@
         "departureTime": "09:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112998"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_0923_113646",
     "lineId": "tobu_kinugawa",
+    "trainId": "113646",
     "trainNumber": "309N",
     "trainType": "local",
     "direction": "outbound",
@@ -5833,12 +5810,12 @@
         "departureTime": "09:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113646"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_0933_112973",
     "lineId": "tobu_kinugawa",
+    "trainId": "112973",
     "trainNumber": "1レ",
     "trainType": "sl_taiju",
     "trainName": "SL大樹1号",
@@ -5890,14 +5867,14 @@
         "departureTime": "10:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112973"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-56_0938_38077",
     "lineId": "tobu_kinugawa",
+    "trainId": "38077",
     "trainNumber": "3155レ",
-    "trainType": "rapid",
+    "trainType": "aizu_mount_exp",
     "trainName": "AIZUマウントエクスプレス1号",
     "direction": "outbound",
     "originStationId": "TN-56",
@@ -5925,7 +5902,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "38077",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "HD_OUT_YAG-01_0948_38077",
     "throughLineId": "yagan"
@@ -5933,6 +5909,7 @@
   {
     "tripId": "HD_OUT_TN-23_1004_112962",
     "lineId": "tobu_kinugawa",
+    "trainId": "112962",
     "trainNumber": "311N",
     "trainType": "local",
     "direction": "outbound",
@@ -5995,12 +5972,12 @@
         "departureTime": "10:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112962"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_1008_43011",
     "lineId": "tobu_kinugawa",
+    "trainId": "43011",
     "trainNumber": "314レ",
     "trainType": "local",
     "direction": "inbound",
@@ -6029,7 +6006,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "43011",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "HD_INB_YAG-09_0928_43011",
     "prevLineId": "yagan"
@@ -6037,6 +6013,7 @@
   {
     "tripId": "HD_OUT_TN-23_1013_116489",
     "lineId": "tobu_kinugawa",
+    "trainId": "116489",
     "trainNumber": "1109レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ109号",
@@ -6090,7 +6067,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116489",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "HD_OUT_TSK-30_0912_116489",
     "prevLineId": "tobu_nikko"
@@ -6098,6 +6074,7 @@
   {
     "tripId": "HD_INB_TN-56_1027_116499",
     "lineId": "tobu_kinugawa",
+    "trainId": "116499",
     "trainNumber": "1122レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ122号",
@@ -6151,7 +6128,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116499",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "HD_INB_TN-23_1052_116499",
     "throughLineId": "tobu_nikko"
@@ -6159,6 +6135,7 @@
   {
     "tripId": "HD_OUT_TN-23_1028_112975",
     "lineId": "tobu_kinugawa",
+    "trainId": "112975",
     "trainNumber": "3レ",
     "trainType": "sl_taiju",
     "trainName": "SL大樹3号",
@@ -6210,12 +6187,12 @@
         "departureTime": "11:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112975"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_1028_113016",
     "lineId": "tobu_kinugawa",
+    "trainId": "113016",
     "trainNumber": "316N",
     "trainType": "local",
     "direction": "inbound",
@@ -6280,7 +6257,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "113016",
     "customOrigin": "新藤原",
     "throughTripId": "HD_OUT_TN-23_1108_113016",
     "throughLineId": "tobu_nikko"
@@ -6288,6 +6264,7 @@
   {
     "tripId": "HD_OUT_TN-23_1044_112980",
     "lineId": "tobu_kinugawa",
+    "trainId": "112980",
     "trainNumber": "103N",
     "trainType": "local",
     "direction": "outbound",
@@ -6352,7 +6329,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "112980",
     "customDestination": "新藤原",
     "prevTripId": "HD_OUT_TN-03_0909_112980",
     "prevLineId": "tobu_nikko"
@@ -6360,6 +6336,7 @@
   {
     "tripId": "HD_INB_TN-56_1105_116500",
     "lineId": "tobu_kinugawa",
+    "trainId": "116500",
     "trainNumber": "1124レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ124号",
@@ -6413,7 +6390,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116500",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "HD_INB_TN-23_1135_116500",
     "throughLineId": "tobu_nikko"
@@ -6421,6 +6397,7 @@
   {
     "tripId": "HD_OUT_TN-23_1114_25151",
     "lineId": "tobu_kinugawa",
+    "trainId": "25151",
     "trainNumber": "1113レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津113号",
@@ -6487,7 +6464,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "25151",
     "prevTripId": "HD_OUT_TSK-30_1011_25151",
     "prevLineId": "tobu_nikko",
     "throughTripId": "HD_OUT_YAG-01_1146_25151",
@@ -6496,6 +6472,7 @@
   {
     "tripId": "HD_INB_TN-56_1115_112987",
     "lineId": "tobu_kinugawa",
+    "trainId": "112987",
     "trainNumber": "2レ",
     "trainType": "sl_taiju",
     "trainName": "SL大樹2号",
@@ -6547,12 +6524,12 @@
         "departureTime": "11:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112987"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_1134_112999",
     "lineId": "tobu_kinugawa",
+    "trainId": "112999",
     "trainNumber": "318N",
     "trainType": "local",
     "direction": "inbound",
@@ -6615,12 +6592,12 @@
         "departureTime": "12:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112999"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1143_112963",
     "lineId": "tobu_kinugawa",
+    "trainId": "112963",
     "trainNumber": "313N",
     "trainType": "local",
     "direction": "outbound",
@@ -6683,12 +6660,12 @@
         "departureTime": "12:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112963"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_1150_42865",
     "lineId": "tobu_kinugawa",
+    "trainId": "42865",
     "trainNumber": "1128レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津128号",
@@ -6755,7 +6732,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "42865",
     "throughTripId": "HD_INB_TN-23_1235_42865",
     "throughLineId": "tobu_nikko",
     "prevTripId": "HD_INB_YAG-09_1108_42865",
@@ -6764,6 +6740,7 @@
   {
     "tripId": "HD_INB_TN-58_1208_113000",
     "lineId": "tobu_kinugawa",
+    "trainId": "113000",
     "trainNumber": "320N",
     "trainType": "local",
     "direction": "inbound",
@@ -6826,12 +6803,12 @@
         "departureTime": "12:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113000"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1218_37234",
     "lineId": "tobu_kinugawa",
+    "trainId": "37234",
     "trainNumber": "1083M",
     "trainType": "limitedExp",
     "trainName": "きぬがわ3号",
@@ -6885,7 +6862,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "37234",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "HD_OUT_TN-11_1145_37234",
     "prevLineId": "tobu_nikko"
@@ -6893,6 +6869,7 @@
   {
     "tripId": "HD_OUT_TN-23_1244_25152",
     "lineId": "tobu_kinugawa",
+    "trainId": "25152",
     "trainNumber": "1119レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津119号",
@@ -6959,7 +6936,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "25152",
     "prevTripId": "HD_OUT_TSK-30_1141_25152",
     "prevLineId": "tobu_nikko",
     "throughTripId": "HD_OUT_YAG-01_1316_25152",
@@ -6968,6 +6944,7 @@
   {
     "tripId": "HD_INB_TN-56_1253_112989",
     "lineId": "tobu_kinugawa",
+    "trainId": "112989",
     "trainNumber": "4レ",
     "trainType": "sl_taiju",
     "trainName": "SL大樹4号",
@@ -7016,19 +6993,15 @@
       {
         "stationId": "TN-23",
         "arrivalTime": "13:29:00",
-        "departureTime": "13:48:00",
+        "departureTime": "13:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112989",
-    "customDestination": "下今市",
-    "customOrigin": "鬼怒川温泉",
-    "throughTripId": "HD_INB_TN-25_1339_113611",
-    "throughLineId": "tobu_nikko"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_1258_113001",
     "lineId": "tobu_kinugawa",
+    "trainId": "113001",
     "trainNumber": "322N",
     "trainType": "local",
     "direction": "inbound",
@@ -7088,17 +7061,15 @@
       {
         "stationId": "TN-23",
         "arrivalTime": "13:38:00",
-        "departureTime": "13:48:00",
+        "departureTime": "13:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113001",
-    "customDestination": "下今市",
-    "customOrigin": "新藤原"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1305_112964",
     "lineId": "tobu_kinugawa",
+    "trainId": "112964",
     "trainNumber": "315N",
     "trainType": "local",
     "direction": "outbound",
@@ -7161,12 +7132,12 @@
         "departureTime": "13:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112964"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1330_112976",
     "lineId": "tobu_kinugawa",
+    "trainId": "112976",
     "trainNumber": "5レ",
     "trainType": "sl_taiju",
     "trainName": "SL大樹5号",
@@ -7218,12 +7189,12 @@
         "departureTime": "14:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112976"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1351_112965",
     "lineId": "tobu_kinugawa",
+    "trainId": "112965",
     "trainNumber": "317N",
     "trainType": "local",
     "direction": "outbound",
@@ -7286,12 +7257,12 @@
         "departureTime": "14:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112965"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_1358_42866",
     "lineId": "tobu_kinugawa",
+    "trainId": "42866",
     "trainNumber": "1136レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津136号",
@@ -7358,7 +7329,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "42866",
     "throughTripId": "HD_INB_TN-23_1435_42866",
     "throughLineId": "tobu_nikko",
     "prevTripId": "HD_INB_YAG-09_1321_42866",
@@ -7367,6 +7337,7 @@
   {
     "tripId": "HD_INB_TN-58_1403_113002",
     "lineId": "tobu_kinugawa",
+    "trainId": "113002",
     "trainNumber": "324N",
     "trainType": "local",
     "direction": "inbound",
@@ -7429,12 +7400,12 @@
         "departureTime": "14:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113002"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1411_116492",
     "lineId": "tobu_kinugawa",
+    "trainId": "116492",
     "trainNumber": "1123レ",
     "trainType": "limitedExp",
     "trainName": "スペーシアX7号",
@@ -7488,7 +7459,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116492",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "HD_OUT_TSK-30_1311_116492",
     "prevLineId": "tobu_nikko"
@@ -7496,6 +7466,7 @@
   {
     "tripId": "HD_OUT_TN-56_1435_41244",
     "lineId": "tobu_kinugawa",
+    "trainId": "41244",
     "trainNumber": "319レ",
     "trainType": "local",
     "direction": "outbound",
@@ -7524,7 +7495,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "41244",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "HD_OUT_YAG-01_1444_41244",
     "throughLineId": "yagan"
@@ -7532,6 +7502,7 @@
   {
     "tripId": "HD_OUT_TN-23_1450_112966",
     "lineId": "tobu_kinugawa",
+    "trainId": "112966",
     "trainNumber": "321N",
     "trainType": "local",
     "direction": "outbound",
@@ -7594,12 +7565,12 @@
         "departureTime": "15:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112966"
+    ]
   },
   {
     "tripId": "HD_INB_TN-56_1455_37236",
     "lineId": "tobu_kinugawa",
+    "trainId": "37236",
     "trainNumber": "1082M",
     "trainType": "limitedExp",
     "trainName": "きぬがわ2号",
@@ -7653,7 +7624,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "37236",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "HD_INB_TN-23_1521_37236",
     "throughLineId": "tobu_nikko"
@@ -7661,6 +7631,7 @@
   {
     "tripId": "HD_INB_TN-58_1456_113003",
     "lineId": "tobu_kinugawa",
+    "trainId": "113003",
     "trainNumber": "326N",
     "trainType": "local",
     "direction": "inbound",
@@ -7720,19 +7691,15 @@
       {
         "stationId": "TN-23",
         "arrivalTime": "15:33:00",
-        "departureTime": "15:49:00",
+        "departureTime": "15:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113003",
-    "customDestination": "下今市",
-    "customOrigin": "新藤原",
-    "throughTripId": "HD_INB_TN-25_1540_113613",
-    "throughLineId": "tobu_nikko"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1458_112978",
     "lineId": "tobu_kinugawa",
+    "trainId": "112978",
     "trainNumber": "7レ",
     "trainType": "sl_taiju",
     "trainName": "SL大樹7号",
@@ -7784,12 +7751,12 @@
         "departureTime": "15:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112978"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1514_116490",
     "lineId": "tobu_kinugawa",
+    "trainId": "116490",
     "trainNumber": "1127レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ127号",
@@ -7843,7 +7810,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116490",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "HD_OUT_TSK-30_1411_116490",
     "prevLineId": "tobu_nikko"
@@ -7851,6 +7817,7 @@
   {
     "tripId": "HD_INB_TN-56_1519_116496",
     "lineId": "tobu_kinugawa",
+    "trainId": "116496",
     "trainNumber": "1140レ",
     "trainType": "limitedExp",
     "trainName": "スペーシアX8号",
@@ -7904,7 +7871,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116496",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "HD_INB_TN-23_1550_116496",
     "throughLineId": "tobu_nikko"
@@ -7912,6 +7878,7 @@
   {
     "tripId": "HD_INB_TN-56_1543_112990",
     "lineId": "tobu_kinugawa",
+    "trainId": "112990",
     "trainNumber": "6レ",
     "trainType": "sl_taiju",
     "trainName": "SL大樹6号",
@@ -7963,12 +7930,12 @@
         "departureTime": "16:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112990"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1544_116493",
     "lineId": "tobu_kinugawa",
+    "trainId": "116493",
     "trainNumber": "1129レ",
     "trainType": "limitedExp",
     "trainName": "スペーシアX9号",
@@ -8022,7 +7989,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116493",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "HD_OUT_TSK-30_1441_116493",
     "prevLineId": "tobu_nikko"
@@ -8030,6 +7996,7 @@
   {
     "tripId": "HD_OUT_TN-23_1553_112967",
     "lineId": "tobu_kinugawa",
+    "trainId": "112967",
     "trainNumber": "323N",
     "trainType": "local",
     "direction": "outbound",
@@ -8092,12 +8059,12 @@
         "departureTime": "16:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112967"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_1555_42868",
     "lineId": "tobu_kinugawa",
+    "trainId": "42868",
     "trainNumber": "1142レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津142号",
@@ -8164,7 +8131,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "42868",
     "throughTripId": "HD_INB_TN-23_1634_42868",
     "throughLineId": "tobu_nikko",
     "prevTripId": "HD_INB_YAG-09_1520_42868",
@@ -8173,6 +8139,7 @@
   {
     "tripId": "HD_INB_TN-58_1603_113004",
     "lineId": "tobu_kinugawa",
+    "trainId": "113004",
     "trainNumber": "328N",
     "trainType": "local",
     "direction": "inbound",
@@ -8235,12 +8202,12 @@
         "departureTime": "16:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113004"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1613_25153",
     "lineId": "tobu_kinugawa",
+    "trainId": "25153",
     "trainNumber": "1131レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津131号",
@@ -8307,7 +8274,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "25153",
     "prevTripId": "HD_OUT_TSK-30_1510_25153",
     "prevLineId": "tobu_nikko",
     "throughTripId": "HD_OUT_YAG-01_1651_25153",
@@ -8316,6 +8282,7 @@
   {
     "tripId": "HD_INB_TN-56_1640_116497",
     "lineId": "tobu_kinugawa",
+    "trainId": "116497",
     "trainNumber": "1144レ",
     "trainType": "limitedExp",
     "trainName": "スペーシアX10号",
@@ -8369,7 +8336,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116497",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "HD_INB_TN-23_1702_116497",
     "throughLineId": "tobu_nikko"
@@ -8377,6 +8343,7 @@
   {
     "tripId": "HD_INB_TN-56_1645_112992",
     "lineId": "tobu_kinugawa",
+    "trainId": "112992",
     "trainNumber": "8レ",
     "trainType": "sl_taiju",
     "trainName": "SL大樹8号",
@@ -8428,12 +8395,12 @@
         "departureTime": "17:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112992"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1652_112968",
     "lineId": "tobu_kinugawa",
+    "trainId": "112968",
     "trainNumber": "325N",
     "trainType": "local",
     "direction": "outbound",
@@ -8496,12 +8463,12 @@
         "departureTime": "17:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112968"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_1654_113005",
     "lineId": "tobu_kinugawa",
+    "trainId": "113005",
     "trainNumber": "330N",
     "trainType": "local",
     "direction": "inbound",
@@ -8564,12 +8531,12 @@
         "departureTime": "17:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113005"
+    ]
   },
   {
     "tripId": "HD_INB_TN-56_1704_116501",
     "lineId": "tobu_kinugawa",
+    "trainId": "116501",
     "trainNumber": "1146レ",
     "trainType": "limitedExp",
     "trainName": "リバティきぬ146号",
@@ -8623,7 +8590,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116501",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "HD_INB_TN-23_1735_116501",
     "throughLineId": "tobu_nikko"
@@ -8631,6 +8597,7 @@
   {
     "tripId": "HD_INB_TN-58_1742_113006",
     "lineId": "tobu_kinugawa",
+    "trainId": "113006",
     "trainNumber": "332N",
     "trainType": "local",
     "direction": "inbound",
@@ -8693,12 +8660,12 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113006"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1751_112969",
     "lineId": "tobu_kinugawa",
+    "trainId": "112969",
     "trainNumber": "327N",
     "trainType": "local",
     "direction": "outbound",
@@ -8761,12 +8728,12 @@
         "departureTime": "18:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112969"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_1842_116491",
     "lineId": "tobu_kinugawa",
+    "trainId": "116491",
     "trainNumber": "1139レ",
     "trainType": "limitedExp",
     "trainName": "きぬ139号",
@@ -8820,7 +8787,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116491",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "HD_OUT_TSK-30_1742_116491",
     "prevLineId": "tobu_nikko"
@@ -8828,6 +8794,7 @@
   {
     "tripId": "HD_INB_TN-58_1845_42867",
     "lineId": "tobu_kinugawa",
+    "trainId": "42867",
     "trainNumber": "1154レ",
     "trainType": "limitedExp",
     "trainName": "リバティ会津154号",
@@ -8894,7 +8861,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "42867",
     "throughTripId": "HD_INB_TN-23_1921_42867",
     "throughLineId": "tobu_nikko",
     "prevTripId": "HD_INB_YAG-09_1806_42867",
@@ -8903,6 +8869,7 @@
   {
     "tripId": "HD_OUT_TN-23_1858_112970",
     "lineId": "tobu_kinugawa",
+    "trainId": "112970",
     "trainNumber": "329N",
     "trainType": "local",
     "direction": "outbound",
@@ -8965,12 +8932,12 @@
         "departureTime": "19:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112970"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_1918_113007",
     "lineId": "tobu_kinugawa",
+    "trainId": "113007",
     "trainNumber": "334N",
     "trainType": "local",
     "direction": "inbound",
@@ -9033,12 +9000,12 @@
         "departureTime": "19:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113007"
+    ]
   },
   {
     "tripId": "HD_INB_TN-56_1928_116502",
     "lineId": "tobu_kinugawa",
+    "trainId": "116502",
     "trainNumber": "1156レ",
     "trainType": "limitedExp",
     "trainName": "きぬ156号",
@@ -9092,7 +9059,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116502",
     "customOrigin": "鬼怒川温泉",
     "throughTripId": "HD_INB_TN-23_1953_116502",
     "throughLineId": "tobu_nikko"
@@ -9100,6 +9066,7 @@
   {
     "tripId": "HD_OUT_TN-23_1948_116494",
     "lineId": "tobu_kinugawa",
+    "trainId": "116494",
     "trainNumber": "1141レ",
     "trainType": "limitedExp",
     "trainName": "きぬ141号",
@@ -9153,7 +9120,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "116494",
     "customDestination": "鬼怒川温泉",
     "prevTripId": "HD_OUT_TSK-30_1836_116494",
     "prevLineId": "tobu_nikko"
@@ -9161,6 +9127,7 @@
   {
     "tripId": "HD_OUT_TN-23_2006_112971",
     "lineId": "tobu_kinugawa",
+    "trainId": "112971",
     "trainNumber": "331N",
     "trainType": "local",
     "direction": "outbound",
@@ -9223,12 +9190,12 @@
         "departureTime": "20:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112971"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_2019_113008",
     "lineId": "tobu_kinugawa",
+    "trainId": "113008",
     "trainNumber": "336N",
     "trainType": "local",
     "direction": "inbound",
@@ -9291,12 +9258,12 @@
         "departureTime": "20:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113008"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_2115_112972",
     "lineId": "tobu_kinugawa",
+    "trainId": "112972",
     "trainNumber": "333N",
     "trainType": "local",
     "direction": "outbound",
@@ -9359,12 +9326,12 @@
         "departureTime": "21:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "112972"
+    ]
   },
   {
     "tripId": "HD_INB_TN-58_2130_113017",
     "lineId": "tobu_kinugawa",
+    "trainId": "113017",
     "trainNumber": "338N",
     "trainType": "local",
     "direction": "inbound",
@@ -9429,7 +9396,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "113017",
     "customOrigin": "新藤原",
     "throughTripId": "HD_OUT_TN-23_2207_113017",
     "throughLineId": "tobu_nikko"
@@ -9437,6 +9403,7 @@
   {
     "tripId": "HD_OUT_TN-23_2146_113647",
     "lineId": "tobu_kinugawa",
+    "trainId": "113647",
     "trainNumber": "335N",
     "trainType": "local",
     "direction": "outbound",
@@ -9500,12 +9467,12 @@
         "departureTime": "22:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113647"
+    ]
   },
   {
     "tripId": "HD_OUT_TN-23_2246_113645",
     "lineId": "tobu_kinugawa",
+    "trainId": "113645",
     "trainNumber": "337N",
     "trainType": "local",
     "direction": "outbound",
@@ -9557,7 +9524,6 @@
         "departureTime": "23:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "113645"
+    ]
   }
 ]

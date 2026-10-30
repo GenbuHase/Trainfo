@@ -665,7 +665,8 @@ module.exports = {
       "dirA": "outbound",
       "dirB": "outbound",
       "maxTimeDiff": 300,
-      "allowMidStationB": true
+      "allowMidStationB": true,
+      "truncateBFromStation": true
     },
     {
       "name": "埼京線 -> 相鉄・JR直通線 (上り/南行)",
@@ -676,7 +677,8 @@ module.exports = {
       "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 300,
-      "allowMidStationA": true
+      "allowMidStationA": true,
+      "truncateAAtStation": true
     },
     {
       "name": "小田急小田原線 -> 千代田線 (上り/我孫子方面直通)",
