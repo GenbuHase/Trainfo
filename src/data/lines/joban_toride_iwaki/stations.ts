@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
   {
-    "id": "JN-01",
+    "id": "JTI-01",
     "lineId": "joban_toride_iwaki",
     "number": 1,
     "name": "取手",
@@ -35,7 +35,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-02",
+    "id": "JTI-02",
     "lineId": "joban_toride_iwaki",
     "number": 2,
     "name": "藤代",
@@ -64,7 +64,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-03",
+    "id": "JTI-03",
     "lineId": "joban_toride_iwaki",
     "number": 3,
     "name": "龍ケ崎市",
@@ -95,7 +95,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-04",
+    "id": "JTI-04",
     "lineId": "joban_toride_iwaki",
     "number": 4,
     "name": "牛久",
@@ -124,7 +124,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-05",
+    "id": "JTI-05",
     "lineId": "joban_toride_iwaki",
     "number": 5,
     "name": "ひたち野うしく",
@@ -153,7 +153,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-06",
+    "id": "JTI-06",
     "lineId": "joban_toride_iwaki",
     "number": 6,
     "name": "荒川沖",
@@ -182,7 +182,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-07",
+    "id": "JTI-07",
     "lineId": "joban_toride_iwaki",
     "number": 7,
     "name": "土浦",
@@ -211,7 +211,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-08",
+    "id": "JTI-08",
     "lineId": "joban_toride_iwaki",
     "number": 8,
     "name": "神立",
@@ -240,7 +240,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-09",
+    "id": "JTI-09",
     "lineId": "joban_toride_iwaki",
     "number": 9,
     "name": "高浜",
@@ -269,7 +269,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-10",
+    "id": "JTI-10",
     "lineId": "joban_toride_iwaki",
     "number": 10,
     "name": "石岡",
@@ -298,7 +298,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-11",
+    "id": "JTI-11",
     "lineId": "joban_toride_iwaki",
     "number": 11,
     "name": "羽鳥",
@@ -327,7 +327,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-12",
+    "id": "JTI-12",
     "lineId": "joban_toride_iwaki",
     "number": 12,
     "name": "岩間",
@@ -356,7 +356,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-13",
+    "id": "JTI-13",
     "lineId": "joban_toride_iwaki",
     "number": 13,
     "name": "友部",
@@ -387,7 +387,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-14",
+    "id": "JTI-14",
     "lineId": "joban_toride_iwaki",
     "number": 14,
     "name": "内原",
@@ -416,7 +416,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-15",
+    "id": "JTI-15",
     "lineId": "joban_toride_iwaki",
     "number": 15,
     "name": "赤塚",
@@ -445,7 +445,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-16",
+    "id": "JTI-16",
     "lineId": "joban_toride_iwaki",
     "number": 16,
     "name": "偕楽園",
@@ -474,7 +474,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-17",
+    "id": "JTI-17",
     "lineId": "joban_toride_iwaki",
     "number": 17,
     "name": "水戸",
@@ -506,7 +506,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-18",
+    "id": "JTI-18",
     "lineId": "joban_toride_iwaki",
     "number": 18,
     "name": "勝田",
@@ -537,7 +537,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-19",
+    "id": "JTI-19",
     "lineId": "joban_toride_iwaki",
     "number": 19,
     "name": "佐和",
@@ -566,7 +566,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-20",
+    "id": "JTI-20",
     "lineId": "joban_toride_iwaki",
     "number": 20,
     "name": "東海",
@@ -595,7 +595,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-21",
+    "id": "JTI-21",
     "lineId": "joban_toride_iwaki",
     "number": 21,
     "name": "大甕",
@@ -624,7 +624,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-22",
+    "id": "JTI-22",
     "lineId": "joban_toride_iwaki",
     "number": 22,
     "name": "常陸多賀",
@@ -653,7 +653,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-23",
+    "id": "JTI-23",
     "lineId": "joban_toride_iwaki",
     "number": 23,
     "name": "日立",
@@ -682,7 +682,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-24",
+    "id": "JTI-24",
     "lineId": "joban_toride_iwaki",
     "number": 24,
     "name": "小木津",
@@ -711,7 +711,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-25",
+    "id": "JTI-25",
     "lineId": "joban_toride_iwaki",
     "number": 25,
     "name": "十王",
@@ -740,7 +740,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-26",
+    "id": "JTI-26",
     "lineId": "joban_toride_iwaki",
     "number": 26,
     "name": "高萩",
@@ -769,7 +769,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-27",
+    "id": "JTI-27",
     "lineId": "joban_toride_iwaki",
     "number": 27,
     "name": "南中郷",
@@ -798,7 +798,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-28",
+    "id": "JTI-28",
     "lineId": "joban_toride_iwaki",
     "number": 28,
     "name": "磯原",
@@ -827,7 +827,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-29",
+    "id": "JTI-29",
     "lineId": "joban_toride_iwaki",
     "number": 29,
     "name": "大津港",
@@ -856,7 +856,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-30",
+    "id": "JTI-30",
     "lineId": "joban_toride_iwaki",
     "number": 30,
     "name": "勿来",
@@ -885,7 +885,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-31",
+    "id": "JTI-31",
     "lineId": "joban_toride_iwaki",
     "number": 31,
     "name": "植田",
@@ -914,7 +914,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-32",
+    "id": "JTI-32",
     "lineId": "joban_toride_iwaki",
     "number": 32,
     "name": "泉",
@@ -945,7 +945,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-33",
+    "id": "JTI-33",
     "lineId": "joban_toride_iwaki",
     "number": 33,
     "name": "湯本",
@@ -974,7 +974,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-34",
+    "id": "JTI-34",
     "lineId": "joban_toride_iwaki",
     "number": 34,
     "name": "内郷",
@@ -1003,7 +1003,7 @@ export const JOBAN_TORIDE_IWAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "JN-35",
+    "id": "JTI-35",
     "lineId": "joban_toride_iwaki",
     "number": 35,
     "name": "いわき",

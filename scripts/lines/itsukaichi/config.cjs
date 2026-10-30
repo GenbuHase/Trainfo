@@ -32,6 +32,7 @@ module.exports = {
     '青梅特快': 'ome_special_rapid',
     '通勤特快': 'commuter_special_rapid',
     'ホリデー快速': 'special_rapid',
+    '特急': 'limitedExp',
   },
   defaultCars: 4,
   baseSectionSeconds: {

@@ -2,8 +2,8 @@ import type { TrackSegment } from '../../../types';
 
 export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
   {
-    "fromStationId": "JN-01",
-    "toStationId": "JN-02",
+    "fromStationId": "JTI-01",
+    "toStationId": "JTI-02",
     "fromName": "取手",
     "toName": "藤代",
     "coordinates": [
@@ -370,8 +370,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-02",
-    "toStationId": "JN-03",
+    "fromStationId": "JTI-02",
+    "toStationId": "JTI-03",
     "fromName": "藤代",
     "toName": "龍ケ崎市",
     "coordinates": [
@@ -534,8 +534,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-03",
-    "toStationId": "JN-04",
+    "fromStationId": "JTI-03",
+    "toStationId": "JTI-04",
     "fromName": "龍ケ崎市",
     "toName": "牛久",
     "coordinates": [
@@ -750,8 +750,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-04",
-    "toStationId": "JN-05",
+    "fromStationId": "JTI-04",
+    "toStationId": "JTI-05",
     "fromName": "牛久",
     "toName": "ひたち野うしく",
     "coordinates": [
@@ -946,8 +946,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-05",
-    "toStationId": "JN-06",
+    "fromStationId": "JTI-05",
+    "toStationId": "JTI-06",
     "fromName": "ひたち野うしく",
     "toName": "荒川沖",
     "coordinates": [
@@ -1094,8 +1094,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-06",
-    "toStationId": "JN-07",
+    "fromStationId": "JTI-06",
+    "toStationId": "JTI-07",
     "fromName": "荒川沖",
     "toName": "土浦",
     "coordinates": [
@@ -1450,8 +1450,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-07",
-    "toStationId": "JN-08",
+    "fromStationId": "JTI-07",
+    "toStationId": "JTI-08",
     "fromName": "土浦",
     "toName": "神立",
     "coordinates": [
@@ -1754,8 +1754,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-08",
-    "toStationId": "JN-09",
+    "fromStationId": "JTI-08",
+    "toStationId": "JTI-09",
     "fromName": "神立",
     "toName": "高浜",
     "coordinates": [
@@ -2034,8 +2034,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-09",
-    "toStationId": "JN-10",
+    "fromStationId": "JTI-09",
+    "toStationId": "JTI-10",
     "fromName": "高浜",
     "toName": "石岡",
     "coordinates": [
@@ -2246,8 +2246,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-10",
-    "toStationId": "JN-11",
+    "fromStationId": "JTI-10",
+    "toStationId": "JTI-11",
     "fromName": "石岡",
     "toName": "羽鳥",
     "coordinates": [
@@ -2534,8 +2534,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-11",
-    "toStationId": "JN-12",
+    "fromStationId": "JTI-11",
+    "toStationId": "JTI-12",
     "fromName": "羽鳥",
     "toName": "岩間",
     "coordinates": [
@@ -2762,8 +2762,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-12",
-    "toStationId": "JN-13",
+    "fromStationId": "JTI-12",
+    "toStationId": "JTI-13",
     "fromName": "岩間",
     "toName": "友部",
     "coordinates": [
@@ -3122,8 +3122,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-13",
-    "toStationId": "JN-14",
+    "fromStationId": "JTI-13",
+    "toStationId": "JTI-14",
     "fromName": "友部",
     "toName": "内原",
     "coordinates": [
@@ -3302,8 +3302,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-14",
-    "toStationId": "JN-15",
+    "fromStationId": "JTI-14",
+    "toStationId": "JTI-15",
     "fromName": "内原",
     "toName": "赤塚",
     "coordinates": [
@@ -3558,8 +3558,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-15",
-    "toStationId": "JN-16",
+    "fromStationId": "JTI-15",
+    "toStationId": "JTI-16",
     "fromName": "赤塚",
     "toName": "偕楽園",
     "coordinates": [
@@ -3838,8 +3838,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-16",
-    "toStationId": "JN-17",
+    "fromStationId": "JTI-16",
+    "toStationId": "JTI-17",
     "fromName": "偕楽園",
     "toName": "水戸",
     "coordinates": [
@@ -3986,8 +3986,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-17",
-    "toStationId": "JN-18",
+    "fromStationId": "JTI-17",
+    "toStationId": "JTI-18",
     "fromName": "水戸",
     "toName": "勝田",
     "coordinates": [
@@ -4418,8 +4418,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-18",
-    "toStationId": "JN-19",
+    "fromStationId": "JTI-18",
+    "toStationId": "JTI-19",
     "fromName": "勝田",
     "toName": "佐和",
     "coordinates": [
@@ -4602,8 +4602,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-19",
-    "toStationId": "JN-20",
+    "fromStationId": "JTI-19",
+    "toStationId": "JTI-20",
     "fromName": "佐和",
     "toName": "東海",
     "coordinates": [
@@ -4806,8 +4806,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-20",
-    "toStationId": "JN-21",
+    "fromStationId": "JTI-20",
+    "toStationId": "JTI-21",
     "fromName": "東海",
     "toName": "大甕",
     "coordinates": [
@@ -5186,8 +5186,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-21",
-    "toStationId": "JN-22",
+    "fromStationId": "JTI-21",
+    "toStationId": "JTI-22",
     "fromName": "大甕",
     "toName": "常陸多賀",
     "coordinates": [
@@ -5438,8 +5438,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-22",
-    "toStationId": "JN-23",
+    "fromStationId": "JTI-22",
+    "toStationId": "JTI-23",
     "fromName": "常陸多賀",
     "toName": "日立",
     "coordinates": [
@@ -5734,8 +5734,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-23",
-    "toStationId": "JN-24",
+    "fromStationId": "JTI-23",
+    "toStationId": "JTI-24",
     "fromName": "日立",
     "toName": "小木津",
     "coordinates": [
@@ -6026,8 +6026,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-24",
-    "toStationId": "JN-25",
+    "fromStationId": "JTI-24",
+    "toStationId": "JTI-25",
     "fromName": "小木津",
     "toName": "十王",
     "coordinates": [
@@ -6330,8 +6330,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-25",
-    "toStationId": "JN-26",
+    "fromStationId": "JTI-25",
+    "toStationId": "JTI-26",
     "fromName": "十王",
     "toName": "高萩",
     "coordinates": [
@@ -6654,8 +6654,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-26",
-    "toStationId": "JN-27",
+    "fromStationId": "JTI-26",
+    "toStationId": "JTI-27",
     "fromName": "高萩",
     "toName": "南中郷",
     "coordinates": [
@@ -6906,8 +6906,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-27",
-    "toStationId": "JN-28",
+    "fromStationId": "JTI-27",
+    "toStationId": "JTI-28",
     "fromName": "南中郷",
     "toName": "磯原",
     "coordinates": [
@@ -7198,8 +7198,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-28",
-    "toStationId": "JN-29",
+    "fromStationId": "JTI-28",
+    "toStationId": "JTI-29",
     "fromName": "磯原",
     "toName": "大津港",
     "coordinates": [
@@ -7562,8 +7562,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-29",
-    "toStationId": "JN-30",
+    "fromStationId": "JTI-29",
+    "toStationId": "JTI-30",
     "fromName": "大津港",
     "toName": "勿来",
     "coordinates": [
@@ -7874,8 +7874,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-30",
-    "toStationId": "JN-31",
+    "fromStationId": "JTI-30",
+    "toStationId": "JTI-31",
     "fromName": "勿来",
     "toName": "植田",
     "coordinates": [
@@ -8154,8 +8154,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-31",
-    "toStationId": "JN-32",
+    "fromStationId": "JTI-31",
+    "toStationId": "JTI-32",
     "fromName": "植田",
     "toName": "泉",
     "coordinates": [
@@ -8702,8 +8702,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-32",
-    "toStationId": "JN-33",
+    "fromStationId": "JTI-32",
+    "toStationId": "JTI-33",
     "fromName": "泉",
     "toName": "湯本",
     "coordinates": [
@@ -9042,8 +9042,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-33",
-    "toStationId": "JN-34",
+    "fromStationId": "JTI-33",
+    "toStationId": "JTI-34",
     "fromName": "湯本",
     "toName": "内郷",
     "coordinates": [
@@ -9218,8 +9218,8 @@ export const JOBAN_TORIDE_IWAKI_TRACK_SEGMENTS: TrackSegment[] = [
     ]
   },
   {
-    "fromStationId": "JN-34",
-    "toStationId": "JN-35",
+    "fromStationId": "JTI-34",
+    "toStationId": "JTI-35",
     "fromName": "内郷",
     "toName": "いわき",
     "coordinates": [

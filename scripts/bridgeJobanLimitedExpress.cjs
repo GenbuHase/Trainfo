@@ -1,5 +1,5 @@
 // JR常磐線 境界駅（取手駅）を通過する特急列車（ひたち・ときわ）の区間欠落補間スクリプト
-// 品川/上野〜水戸/土浦間を通過する特急列車のstopsを境界駅（取手 JJ-13 / JN-01）まで線形補間・延長し、完全な直通運転チェーンを形成します。
+// 品川/上野〜水戸/土浦間を通過する特急列車のstopsを境界駅（取手 JJ-13 / JTI-01）まで線形補間・延長し、完全な直通運転チェーンを形成します。
 
 const fs = require('fs');
 const path = require('path');
@@ -74,7 +74,7 @@ function bridgeJobanLimitedExpress() {
       const firstNStop = match.stops[0];
 
       const lastRNum = parseInt(lastRStop.stationId.replace('JJ-', ''), 10);
-      const firstNNum = parseInt(firstNStop.stationId.replace('JN-', ''), 10);
+      const firstNNum = parseInt(firstNStop.stationId.replace('JTI-', ''), 10);
 
       const tDep = timeToSec(lastRStop.departureTime || lastRStop.arrivalTime);
       const tArr = timeToSec(firstNStop.arrivalTime || firstNStop.departureTime);
@@ -106,14 +106,14 @@ function bridgeJobanLimitedExpress() {
           const passSec = tDep + deltaT * (w / wTotal);
           const timeStr = secToTime(passSec);
           addedStops.push({
-            stationId: `JN-${num.toString().padStart(2, '0')}`,
+            stationId: `JTI-${num.toString().padStart(2, '0')}`,
             arrivalTime: timeStr,
             departureTime: timeStr,
             isPassing: true,
           });
         }
         match.stops = [...addedStops, ...match.stops];
-        match.originStationId = 'JN-01';
+        match.originStationId = 'JTI-01';
       }
 
       // 境界駅（取手駅）の通過時刻を完全一致
@@ -127,7 +127,7 @@ function bridgeJobanLimitedExpress() {
       const lastNStop = match.stops[match.stops.length - 1];
       const firstRStop = r.stops[0];
 
-      const lastNNum = parseInt(lastNStop.stationId.replace('JN-', ''), 10);
+      const lastNNum = parseInt(lastNStop.stationId.replace('JTI-', ''), 10);
       const firstRNum = parseInt(firstRStop.stationId.replace('JJ-', ''), 10);
 
       const tDep = timeToSec(lastNStop.departureTime || lastNStop.arrivalTime);
@@ -144,13 +144,13 @@ function bridgeJobanLimitedExpress() {
           const passSec = tDep + deltaT * (w / wTotal);
           const timeStr = secToTime(passSec);
           match.stops.push({
-            stationId: `JN-${num.toString().padStart(2, '0')}`,
+            stationId: `JTI-${num.toString().padStart(2, '0')}`,
             arrivalTime: timeStr,
             departureTime: timeStr,
             isPassing: true,
           });
         }
-        match.destinationStationId = 'JN-01';
+        match.destinationStationId = 'JTI-01';
       }
 
       if (firstRNum < 10) {
