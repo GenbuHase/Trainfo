@@ -108,6 +108,11 @@ function extendChuoHachiojiTakao() {
   // 2. 中央本線のマッピングテーブル構築 (yId_dir_HD / yId_dir_WD)
   const cmMap = new Map();
   for (const t of chuoMainTrips) {
+    if (t.trainType !== 'limitedExp') continue;
+    // 小淵沢〜高尾等、全駅停車する一般普通列車(548M等)は除外
+    const nonPassingStops = t.stops ? t.stops.filter(s => !s.isPassing) : [];
+    if (nonPassingStops.length > 15) continue;
+
     const yId = getYahooId(t);
     if (yId) {
       const key = `${yId}_${t.direction}_${t.isHoliday ? 'HD' : 'WD'}`;
@@ -120,6 +125,9 @@ function extendChuoHachiojiTakao() {
 
   for (const trip of chuoTrips) {
     if (trip.trainType !== 'limitedExp') continue;
+    // 高尾始発の各駅停車（快速電車）などの誤直通を完全防止
+    const nonPassingStops = trip.stops ? trip.stops.filter(s => !s.isPassing) : [];
+    if (nonPassingStops.length > 8) continue;
 
     const yId = getYahooId(trip);
     const key = `${yId}_${trip.direction}_${trip.isHoliday ? 'HD' : 'WD'}`;
