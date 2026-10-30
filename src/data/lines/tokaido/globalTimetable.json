@@ -8940,7 +8940,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "10484"
+    "trainId": "10484",
+    "throughTripId": "WD_OUT_JO-13_0842_10484",
+    "throughLineId": "musashino"
   },
   {
     "tripId": "WD_OUT_JT-01_0813_34102",
@@ -34681,7 +34683,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "10485"
+    "trainId": "10485",
+    "prevTripId": "WD_INB_JL-26_1657_10485",
+    "prevLineId": "musashino"
   },
   {
     "tripId": "WD_OUT_JT-01_1815_10135",
@@ -92475,5 +92479,125 @@
       }
     ],
     "trainId": "17741"
+  },
+  {
+    "tripId": "HD_INB_JT-11_0812_10484",
+    "lineId": "tokaido",
+    "trainNumber": "9030M",
+    "trainType": "limitedExp",
+    "trainName": "絶景赤コキア平塚号",
+    "direction": "inbound",
+    "originStationId": "JT-11",
+    "destinationStationId": "JT-05",
+    "customDestination": "勝田",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JT-11",
+        "arrivalTime": "08:12:00",
+        "departureTime": "08:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-10",
+        "arrivalTime": "08:17:00",
+        "departureTime": "08:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-09",
+        "arrivalTime": "08:19:59",
+        "departureTime": "08:19:59",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-08",
+        "arrivalTime": "08:23:00",
+        "departureTime": "08:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-07",
+        "arrivalTime": "08:27:00",
+        "departureTime": "08:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-06",
+        "arrivalTime": "08:32:12",
+        "departureTime": "08:32:12",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-05",
+        "arrivalTime": "08:41:00",
+        "departureTime": "08:42:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "10484",
+    "throughTripId": "HD_OUT_JO-13_0842_10484",
+    "throughLineId": "musashino"
+  },
+  {
+    "tripId": "HD_OUT_JT-05_1813_10485",
+    "lineId": "tokaido",
+    "trainNumber": "9031M",
+    "trainType": "limitedExp",
+    "trainName": "絶景赤コキア平塚号",
+    "direction": "outbound",
+    "originStationId": "JT-05",
+    "destinationStationId": "JT-11",
+    "customOrigin": "勝田",
+    "cars": 15,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JT-05",
+        "arrivalTime": "18:12:00",
+        "departureTime": "18:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-06",
+        "arrivalTime": "18:22:29",
+        "departureTime": "18:22:29",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-07",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-08",
+        "arrivalTime": "18:33:00",
+        "departureTime": "18:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-09",
+        "arrivalTime": "18:36:31",
+        "departureTime": "18:36:31",
+        "isPassing": true
+      },
+      {
+        "stationId": "JT-10",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JT-11",
+        "arrivalTime": "18:45:00",
+        "departureTime": "18:45:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "10485",
+    "prevTripId": "HD_INB_JL-26_1657_10485",
+    "prevLineId": "musashino"
   }
 ]

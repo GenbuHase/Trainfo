@@ -987,5 +987,45 @@ export const MUSASHINO_STATIONS: Station[] = [
       "waitingRoom": false,
       "ticketOffice": false
     }
+  },
+  {
+    "id": "JO-13",
+    "stationNumber": "JO-13",
+    "number": 13,
+    "name": "横浜",
+    "nameKana": "よこはま",
+    "nameEn": "Yokohama",
+    "transfers": [
+      "JR東海道線",
+      "JR横須賀線",
+      "JR湘南新宿ライン",
+      "JR京浜東北線",
+      "JR根岸線",
+      "JR横浜線",
+      "東急東横線",
+      "横浜高速鉄道みなとみらい線",
+      "京急本線",
+      "相鉄本線",
+      "横浜市営地下鉄ブルーライン"
+    ],
+    "address": "神奈川県横浜市西区高島二丁目",
+    "platforms": {
+      "inbound": "9・10番線",
+      "outbound": "9・10番線"
+    },
+    "stoppingTypes": [
+      "regular",
+      "limitedExp"
+    ],
+    "lineId": "musashino",
+    "lat": 35.4657932,
+    "lng": 139.6222892,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": true,
+      "ticketOffice": true
+    }
   }
 ];

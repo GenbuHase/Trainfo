@@ -11803,7 +11803,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "10484"
+    "trainId": "10484",
+    "prevTripId": "WD_OUT_JO-13_0842_10484",
+    "prevLineId": "musashino"
   },
   {
     "tripId": "WD_OUT_JN-17_1030_14334",
@@ -23595,7 +23597,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "10485"
+    "trainId": "10485",
+    "throughTripId": "WD_INB_JL-26_1657_10485",
+    "throughLineId": "musashino"
   },
   {
     "tripId": "WD_OUT_JN-17_1630_14341",
@@ -72049,5 +72053,185 @@
     "customDestination": "土浦",
     "prevTripId": "HD_OUT_JJ-01_2312_7173",
     "prevLineId": "joban_rapid"
+  },
+  {
+    "tripId": "HD_OUT_JN-17_1029_10484",
+    "lineId": "joban_toride_iwaki",
+    "trainNumber": "9027M",
+    "trainType": "limited_express",
+    "trainName": "絶景赤コキア平塚号",
+    "direction": "outbound",
+    "originStationId": "JN-17",
+    "destinationStationId": "JN-18",
+    "customOrigin": "平塚",
+    "cars": 10,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JN-17",
+        "arrivalTime": "10:28:00",
+        "departureTime": "10:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JN-18",
+        "arrivalTime": "10:34:00",
+        "departureTime": "10:34:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "10484",
+    "prevTripId": "HD_OUT_JO-13_0842_10484",
+    "prevLineId": "musashino"
+  },
+  {
+    "tripId": "HD_INB_JN-18_1624_10485",
+    "lineId": "joban_toride_iwaki",
+    "trainNumber": "9028M",
+    "trainType": "limited_express",
+    "trainName": "絶景赤コキア平塚号",
+    "direction": "inbound",
+    "originStationId": "JN-18",
+    "destinationStationId": "JN-17",
+    "customDestination": "平塚",
+    "cars": 10,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JN-18",
+        "arrivalTime": "16:24:00",
+        "departureTime": "16:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JN-17",
+        "arrivalTime": "16:30:00",
+        "departureTime": "16:31:00",
+        "isPassing": false
+      }
+    ],
+    "trainId": "10485",
+    "throughTripId": "HD_INB_JL-26_1657_10485",
+    "throughLineId": "musashino"
+  },
+  {
+    "tripId": "WD_OUT_JN-17_1029_43294",
+    "lineId": "joban_toride_iwaki",
+    "trainNumber": "9025M",
+    "trainType": "limited_express",
+    "trainName": "絶景赤コキア川越号",
+    "direction": "outbound",
+    "originStationId": "JN-17",
+    "destinationStationId": "JN-18",
+    "customOrigin": "川越",
+    "cars": 8,
+    "isHoliday": false,
+    "trainId": "43294",
+    "prevTripId": "WD_OUT_JM-00_0831_43294",
+    "prevLineId": "musashino",
+    "stops": [
+      {
+        "stationId": "JN-17",
+        "arrivalTime": "10:28:00",
+        "departureTime": "10:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JN-18",
+        "arrivalTime": "10:34:00",
+        "departureTime": "10:34:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_JN-17_1029_43294",
+    "lineId": "joban_toride_iwaki",
+    "trainNumber": "9025M",
+    "trainType": "limited_express",
+    "trainName": "絶景赤コキア川越号",
+    "direction": "outbound",
+    "originStationId": "JN-17",
+    "destinationStationId": "JN-18",
+    "customOrigin": "川越",
+    "cars": 8,
+    "isHoliday": true,
+    "trainId": "43294",
+    "prevTripId": "HD_OUT_JM-00_0831_43294",
+    "prevLineId": "musashino",
+    "stops": [
+      {
+        "stationId": "JN-17",
+        "arrivalTime": "10:28:00",
+        "departureTime": "10:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JN-18",
+        "arrivalTime": "10:34:00",
+        "departureTime": "10:34:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_JN-18_1624_43295",
+    "lineId": "joban_toride_iwaki",
+    "trainNumber": "9026M",
+    "trainType": "limited_express",
+    "trainName": "絶景赤コキア川越号",
+    "direction": "inbound",
+    "originStationId": "JN-18",
+    "destinationStationId": "JN-17",
+    "customDestination": "川越",
+    "cars": 8,
+    "isHoliday": false,
+    "trainId": "43295",
+    "throughTripId": "WD_INB_JM-19_1728_43295",
+    "throughLineId": "musashino",
+    "stops": [
+      {
+        "stationId": "JN-18",
+        "arrivalTime": "16:24:00",
+        "departureTime": "16:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JN-17",
+        "arrivalTime": "16:30:00",
+        "departureTime": "16:31:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_JN-18_1624_43295",
+    "lineId": "joban_toride_iwaki",
+    "trainNumber": "9026M",
+    "trainType": "limited_express",
+    "trainName": "絶景赤コキア川越号",
+    "direction": "inbound",
+    "originStationId": "JN-18",
+    "destinationStationId": "JN-17",
+    "customDestination": "川越",
+    "cars": 8,
+    "isHoliday": true,
+    "trainId": "43295",
+    "throughTripId": "HD_INB_JM-19_1728_43295",
+    "throughLineId": "musashino",
+    "stops": [
+      {
+        "stationId": "JN-18",
+        "arrivalTime": "16:24:00",
+        "departureTime": "16:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JN-17",
+        "arrivalTime": "16:30:00",
+        "departureTime": "16:31:00",
+        "isPassing": false
+      }
+    ]
   }
 ]
