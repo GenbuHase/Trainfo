@@ -11784,12 +11784,108 @@
     "trainType": "limited_express",
     "trainName": "絶景赤コキア平塚号",
     "direction": "outbound",
-    "originStationId": "JN-17",
+    "originStationId": "JN-01",
     "destinationStationId": "JN-18",
     "customOrigin": "平塚",
     "cars": 10,
     "isHoliday": false,
     "stops": [
+      {
+        "stationId": "JN-01",
+        "arrivalTime": "10:06:00",
+        "departureTime": "10:06:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-02",
+        "arrivalTime": "10:07:23",
+        "departureTime": "10:07:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-03",
+        "arrivalTime": "10:08:45",
+        "departureTime": "10:08:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-04",
+        "arrivalTime": "10:10:08",
+        "departureTime": "10:10:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-05",
+        "arrivalTime": "10:11:30",
+        "departureTime": "10:11:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-06",
+        "arrivalTime": "10:12:53",
+        "departureTime": "10:12:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-07",
+        "arrivalTime": "10:14:15",
+        "departureTime": "10:14:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-08",
+        "arrivalTime": "10:15:38",
+        "departureTime": "10:15:38",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-09",
+        "arrivalTime": "10:17:00",
+        "departureTime": "10:17:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-10",
+        "arrivalTime": "10:18:23",
+        "departureTime": "10:18:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-11",
+        "arrivalTime": "10:19:45",
+        "departureTime": "10:19:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-12",
+        "arrivalTime": "10:21:08",
+        "departureTime": "10:21:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-13",
+        "arrivalTime": "10:22:30",
+        "departureTime": "10:22:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-14",
+        "arrivalTime": "10:23:53",
+        "departureTime": "10:23:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-15",
+        "arrivalTime": "10:25:15",
+        "departureTime": "10:25:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-16",
+        "arrivalTime": "10:26:38",
+        "departureTime": "10:26:38",
+        "isPassing": true
+      },
       {
         "stationId": "JN-17",
         "arrivalTime": "10:28:00",
@@ -11804,8 +11900,8 @@
       }
     ],
     "trainId": "10484",
-    "prevTripId": "WD_OUT_JO-13_0842_10484",
-    "prevLineId": "musashino"
+    "prevTripId": "WD_OUT_JL-26_1006_10484",
+    "prevLineId": "joban_rapid"
   },
   {
     "tripId": "WD_OUT_JN-17_1030_14334",
@@ -23579,7 +23675,7 @@
     "trainName": "絶景赤コキア平塚号",
     "direction": "inbound",
     "originStationId": "JN-18",
-    "destinationStationId": "JN-17",
+    "destinationStationId": "JN-01",
     "customDestination": "平塚",
     "cars": 10,
     "isHoliday": false,
@@ -23595,11 +23691,107 @@
         "arrivalTime": "16:30:00",
         "departureTime": "16:31:00",
         "isPassing": false
+      },
+      {
+        "stationId": "JN-16",
+        "arrivalTime": "16:32:00",
+        "departureTime": "16:32:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-15",
+        "arrivalTime": "16:33:00",
+        "departureTime": "16:33:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-14",
+        "arrivalTime": "16:34:00",
+        "departureTime": "16:34:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-13",
+        "arrivalTime": "16:35:00",
+        "departureTime": "16:35:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-12",
+        "arrivalTime": "16:36:00",
+        "departureTime": "16:36:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-11",
+        "arrivalTime": "16:37:00",
+        "departureTime": "16:37:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-10",
+        "arrivalTime": "16:38:00",
+        "departureTime": "16:38:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-09",
+        "arrivalTime": "16:39:00",
+        "departureTime": "16:39:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-08",
+        "arrivalTime": "16:40:00",
+        "departureTime": "16:40:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-07",
+        "arrivalTime": "16:41:00",
+        "departureTime": "16:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-06",
+        "arrivalTime": "16:42:00",
+        "departureTime": "16:42:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-05",
+        "arrivalTime": "16:43:00",
+        "departureTime": "16:43:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-04",
+        "arrivalTime": "16:44:00",
+        "departureTime": "16:44:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-03",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:45:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-02",
+        "arrivalTime": "16:46:00",
+        "departureTime": "16:46:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-01",
+        "arrivalTime": "16:47:00",
+        "departureTime": "16:47:00",
+        "isPassing": true
       }
     ],
     "trainId": "10485",
-    "throughTripId": "WD_INB_JL-26_1657_10485",
-    "throughLineId": "musashino"
+    "throughTripId": "WD_INB_JJ-10_1647_10485",
+    "throughLineId": "joban_rapid"
   },
   {
     "tripId": "WD_OUT_JN-17_1630_14341",
@@ -72061,12 +72253,108 @@
     "trainType": "limited_express",
     "trainName": "絶景赤コキア平塚号",
     "direction": "outbound",
-    "originStationId": "JN-17",
+    "originStationId": "JN-01",
     "destinationStationId": "JN-18",
     "customOrigin": "平塚",
     "cars": 10,
     "isHoliday": true,
     "stops": [
+      {
+        "stationId": "JN-01",
+        "arrivalTime": "10:06:00",
+        "departureTime": "10:06:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-02",
+        "arrivalTime": "10:07:23",
+        "departureTime": "10:07:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-03",
+        "arrivalTime": "10:08:45",
+        "departureTime": "10:08:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-04",
+        "arrivalTime": "10:10:08",
+        "departureTime": "10:10:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-05",
+        "arrivalTime": "10:11:30",
+        "departureTime": "10:11:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-06",
+        "arrivalTime": "10:12:53",
+        "departureTime": "10:12:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-07",
+        "arrivalTime": "10:14:15",
+        "departureTime": "10:14:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-08",
+        "arrivalTime": "10:15:38",
+        "departureTime": "10:15:38",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-09",
+        "arrivalTime": "10:17:00",
+        "departureTime": "10:17:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-10",
+        "arrivalTime": "10:18:23",
+        "departureTime": "10:18:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-11",
+        "arrivalTime": "10:19:45",
+        "departureTime": "10:19:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-12",
+        "arrivalTime": "10:21:08",
+        "departureTime": "10:21:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-13",
+        "arrivalTime": "10:22:30",
+        "departureTime": "10:22:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-14",
+        "arrivalTime": "10:23:53",
+        "departureTime": "10:23:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-15",
+        "arrivalTime": "10:25:15",
+        "departureTime": "10:25:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-16",
+        "arrivalTime": "10:26:38",
+        "departureTime": "10:26:38",
+        "isPassing": true
+      },
       {
         "stationId": "JN-17",
         "arrivalTime": "10:28:00",
@@ -72081,8 +72369,8 @@
       }
     ],
     "trainId": "10484",
-    "prevTripId": "HD_OUT_JO-13_0842_10484",
-    "prevLineId": "musashino"
+    "prevTripId": "HD_OUT_JL-26_1006_10484",
+    "prevLineId": "joban_rapid"
   },
   {
     "tripId": "HD_INB_JN-18_1624_10485",
@@ -72092,7 +72380,7 @@
     "trainName": "絶景赤コキア平塚号",
     "direction": "inbound",
     "originStationId": "JN-18",
-    "destinationStationId": "JN-17",
+    "destinationStationId": "JN-01",
     "customDestination": "平塚",
     "cars": 10,
     "isHoliday": true,
@@ -72108,11 +72396,107 @@
         "arrivalTime": "16:30:00",
         "departureTime": "16:31:00",
         "isPassing": false
+      },
+      {
+        "stationId": "JN-16",
+        "arrivalTime": "16:32:00",
+        "departureTime": "16:32:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-15",
+        "arrivalTime": "16:33:00",
+        "departureTime": "16:33:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-14",
+        "arrivalTime": "16:34:00",
+        "departureTime": "16:34:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-13",
+        "arrivalTime": "16:35:00",
+        "departureTime": "16:35:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-12",
+        "arrivalTime": "16:36:00",
+        "departureTime": "16:36:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-11",
+        "arrivalTime": "16:37:00",
+        "departureTime": "16:37:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-10",
+        "arrivalTime": "16:38:00",
+        "departureTime": "16:38:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-09",
+        "arrivalTime": "16:39:00",
+        "departureTime": "16:39:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-08",
+        "arrivalTime": "16:40:00",
+        "departureTime": "16:40:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-07",
+        "arrivalTime": "16:41:00",
+        "departureTime": "16:41:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-06",
+        "arrivalTime": "16:42:00",
+        "departureTime": "16:42:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-05",
+        "arrivalTime": "16:43:00",
+        "departureTime": "16:43:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-04",
+        "arrivalTime": "16:44:00",
+        "departureTime": "16:44:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-03",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:45:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-02",
+        "arrivalTime": "16:46:00",
+        "departureTime": "16:46:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-01",
+        "arrivalTime": "16:47:00",
+        "departureTime": "16:47:00",
+        "isPassing": true
       }
     ],
     "trainId": "10485",
-    "throughTripId": "HD_INB_JL-26_1657_10485",
-    "throughLineId": "musashino"
+    "throughTripId": "HD_INB_JJ-10_1647_10485",
+    "throughLineId": "joban_rapid"
   },
   {
     "tripId": "WD_OUT_JN-17_1029_43294",
@@ -72121,15 +72505,111 @@
     "trainType": "limited_express",
     "trainName": "絶景赤コキア川越号",
     "direction": "outbound",
-    "originStationId": "JN-17",
+    "originStationId": "JN-01",
     "destinationStationId": "JN-18",
     "customOrigin": "川越",
     "cars": 8,
     "isHoliday": false,
     "trainId": "43294",
-    "prevTripId": "WD_OUT_JM-00_0831_43294",
-    "prevLineId": "musashino",
+    "prevTripId": "WD_OUT_JL-26_0912_43294",
+    "prevLineId": "joban_rapid",
     "stops": [
+      {
+        "stationId": "JN-01",
+        "arrivalTime": "09:28:00",
+        "departureTime": "09:28:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-02",
+        "arrivalTime": "09:31:45",
+        "departureTime": "09:31:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-03",
+        "arrivalTime": "09:35:30",
+        "departureTime": "09:35:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-04",
+        "arrivalTime": "09:39:15",
+        "departureTime": "09:39:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-05",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:43:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-06",
+        "arrivalTime": "09:46:45",
+        "departureTime": "09:46:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-07",
+        "arrivalTime": "09:50:30",
+        "departureTime": "09:50:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-08",
+        "arrivalTime": "09:54:15",
+        "departureTime": "09:54:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-09",
+        "arrivalTime": "09:58:00",
+        "departureTime": "09:58:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-10",
+        "arrivalTime": "10:01:45",
+        "departureTime": "10:01:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-11",
+        "arrivalTime": "10:05:30",
+        "departureTime": "10:05:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-12",
+        "arrivalTime": "10:09:15",
+        "departureTime": "10:09:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-13",
+        "arrivalTime": "10:13:00",
+        "departureTime": "10:13:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-14",
+        "arrivalTime": "10:16:45",
+        "departureTime": "10:16:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-15",
+        "arrivalTime": "10:20:30",
+        "departureTime": "10:20:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-16",
+        "arrivalTime": "10:24:15",
+        "departureTime": "10:24:15",
+        "isPassing": true
+      },
       {
         "stationId": "JN-17",
         "arrivalTime": "10:28:00",
@@ -72151,15 +72631,111 @@
     "trainType": "limited_express",
     "trainName": "絶景赤コキア川越号",
     "direction": "outbound",
-    "originStationId": "JN-17",
+    "originStationId": "JN-01",
     "destinationStationId": "JN-18",
     "customOrigin": "川越",
     "cars": 8,
     "isHoliday": true,
     "trainId": "43294",
-    "prevTripId": "HD_OUT_JM-00_0831_43294",
-    "prevLineId": "musashino",
+    "prevTripId": "HD_OUT_JL-26_0912_43294",
+    "prevLineId": "joban_rapid",
     "stops": [
+      {
+        "stationId": "JN-01",
+        "arrivalTime": "09:28:00",
+        "departureTime": "09:28:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-02",
+        "arrivalTime": "09:31:45",
+        "departureTime": "09:31:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-03",
+        "arrivalTime": "09:35:30",
+        "departureTime": "09:35:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-04",
+        "arrivalTime": "09:39:15",
+        "departureTime": "09:39:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-05",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:43:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-06",
+        "arrivalTime": "09:46:45",
+        "departureTime": "09:46:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-07",
+        "arrivalTime": "09:50:30",
+        "departureTime": "09:50:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-08",
+        "arrivalTime": "09:54:15",
+        "departureTime": "09:54:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-09",
+        "arrivalTime": "09:58:00",
+        "departureTime": "09:58:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-10",
+        "arrivalTime": "10:01:45",
+        "departureTime": "10:01:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-11",
+        "arrivalTime": "10:05:30",
+        "departureTime": "10:05:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-12",
+        "arrivalTime": "10:09:15",
+        "departureTime": "10:09:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-13",
+        "arrivalTime": "10:13:00",
+        "departureTime": "10:13:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-14",
+        "arrivalTime": "10:16:45",
+        "departureTime": "10:16:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-15",
+        "arrivalTime": "10:20:30",
+        "departureTime": "10:20:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-16",
+        "arrivalTime": "10:24:15",
+        "departureTime": "10:24:15",
+        "isPassing": true
+      },
       {
         "stationId": "JN-17",
         "arrivalTime": "10:28:00",
@@ -72182,13 +72758,13 @@
     "trainName": "絶景赤コキア川越号",
     "direction": "inbound",
     "originStationId": "JN-18",
-    "destinationStationId": "JN-17",
+    "destinationStationId": "JN-01",
     "customDestination": "川越",
     "cars": 8,
     "isHoliday": false,
     "trainId": "43295",
-    "throughTripId": "WD_INB_JM-19_1728_43295",
-    "throughLineId": "musashino",
+    "throughTripId": "WD_INB_JJ-10_1704_43295",
+    "throughLineId": "joban_rapid",
     "stops": [
       {
         "stationId": "JN-18",
@@ -72201,6 +72777,102 @@
         "arrivalTime": "16:30:00",
         "departureTime": "16:31:00",
         "isPassing": false
+      },
+      {
+        "stationId": "JN-16",
+        "arrivalTime": "16:33:04",
+        "departureTime": "16:33:04",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-15",
+        "arrivalTime": "16:35:08",
+        "departureTime": "16:35:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-14",
+        "arrivalTime": "16:37:11",
+        "departureTime": "16:37:11",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-13",
+        "arrivalTime": "16:39:15",
+        "departureTime": "16:39:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-12",
+        "arrivalTime": "16:41:19",
+        "departureTime": "16:41:19",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-11",
+        "arrivalTime": "16:43:23",
+        "departureTime": "16:43:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-10",
+        "arrivalTime": "16:45:26",
+        "departureTime": "16:45:26",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-09",
+        "arrivalTime": "16:47:30",
+        "departureTime": "16:47:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-08",
+        "arrivalTime": "16:49:34",
+        "departureTime": "16:49:34",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-07",
+        "arrivalTime": "16:51:38",
+        "departureTime": "16:51:38",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-06",
+        "arrivalTime": "16:53:41",
+        "departureTime": "16:53:41",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-05",
+        "arrivalTime": "16:55:45",
+        "departureTime": "16:55:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-04",
+        "arrivalTime": "16:57:49",
+        "departureTime": "16:57:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-03",
+        "arrivalTime": "16:59:53",
+        "departureTime": "16:59:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-02",
+        "arrivalTime": "17:01:56",
+        "departureTime": "17:01:56",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-01",
+        "arrivalTime": "17:04:00",
+        "departureTime": "17:04:00",
+        "isPassing": true
       }
     ]
   },
@@ -72212,13 +72884,13 @@
     "trainName": "絶景赤コキア川越号",
     "direction": "inbound",
     "originStationId": "JN-18",
-    "destinationStationId": "JN-17",
+    "destinationStationId": "JN-01",
     "customDestination": "川越",
     "cars": 8,
     "isHoliday": true,
     "trainId": "43295",
-    "throughTripId": "HD_INB_JM-19_1728_43295",
-    "throughLineId": "musashino",
+    "throughTripId": "HD_INB_JJ-10_1704_43295",
+    "throughLineId": "joban_rapid",
     "stops": [
       {
         "stationId": "JN-18",
@@ -72231,6 +72903,102 @@
         "arrivalTime": "16:30:00",
         "departureTime": "16:31:00",
         "isPassing": false
+      },
+      {
+        "stationId": "JN-16",
+        "arrivalTime": "16:33:04",
+        "departureTime": "16:33:04",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-15",
+        "arrivalTime": "16:35:08",
+        "departureTime": "16:35:08",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-14",
+        "arrivalTime": "16:37:11",
+        "departureTime": "16:37:11",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-13",
+        "arrivalTime": "16:39:15",
+        "departureTime": "16:39:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-12",
+        "arrivalTime": "16:41:19",
+        "departureTime": "16:41:19",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-11",
+        "arrivalTime": "16:43:23",
+        "departureTime": "16:43:23",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-10",
+        "arrivalTime": "16:45:26",
+        "departureTime": "16:45:26",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-09",
+        "arrivalTime": "16:47:30",
+        "departureTime": "16:47:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-08",
+        "arrivalTime": "16:49:34",
+        "departureTime": "16:49:34",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-07",
+        "arrivalTime": "16:51:38",
+        "departureTime": "16:51:38",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-06",
+        "arrivalTime": "16:53:41",
+        "departureTime": "16:53:41",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-05",
+        "arrivalTime": "16:55:45",
+        "departureTime": "16:55:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-04",
+        "arrivalTime": "16:57:49",
+        "departureTime": "16:57:49",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-03",
+        "arrivalTime": "16:59:53",
+        "departureTime": "16:59:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-02",
+        "arrivalTime": "17:01:56",
+        "departureTime": "17:01:56",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-01",
+        "arrivalTime": "17:04:00",
+        "departureTime": "17:04:00",
+        "isPassing": true
       }
     ]
   }

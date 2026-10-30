@@ -116752,5 +116752,257 @@
         "isPassing": false
       }
     ]
+  },
+  {
+    "tripId": "WD_OUT_JN-26_0854_9764",
+    "lineId": "nambu",
+    "trainNumber": "9270M",
+    "trainType": "limitedExp",
+    "trainName": "鎌倉満喫五日市",
+    "direction": "outbound",
+    "originStationId": "JN-26",
+    "destinationStationId": "JN-20",
+    "customOrigin": "武蔵五日市",
+    "customDestination": "鎌倉",
+    "cars": 6,
+    "isHoliday": false,
+    "trainId": "9764",
+    "prevTripId": "WD_INB_JC-55_0835_9764",
+    "prevLineId": "ome",
+    "throughTripId": "WD_OUT_JM-35_0912_9764",
+    "throughLineId": "musashino",
+    "stops": [
+      {
+        "stationId": "JN-26",
+        "arrivalTime": "08:52:00",
+        "departureTime": "08:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JN-25",
+        "arrivalTime": "08:56:30",
+        "departureTime": "08:56:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-24",
+        "arrivalTime": "08:59:00",
+        "departureTime": "08:59:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-23",
+        "arrivalTime": "09:02:00",
+        "departureTime": "09:02:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-22",
+        "arrivalTime": "09:05:00",
+        "departureTime": "09:05:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-21",
+        "arrivalTime": "09:08:00",
+        "departureTime": "09:08:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-20",
+        "arrivalTime": "09:12:00",
+        "departureTime": "09:12:00",
+        "isPassing": true
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_JN-26_0854_9764",
+    "lineId": "nambu",
+    "trainNumber": "9270M",
+    "trainType": "limitedExp",
+    "trainName": "鎌倉満喫五日市",
+    "direction": "outbound",
+    "originStationId": "JN-26",
+    "destinationStationId": "JN-20",
+    "customOrigin": "武蔵五日市",
+    "customDestination": "鎌倉",
+    "cars": 6,
+    "isHoliday": true,
+    "trainId": "9764",
+    "prevTripId": "HD_INB_JC-55_0835_9764",
+    "prevLineId": "ome",
+    "throughTripId": "HD_OUT_JM-35_0912_9764",
+    "throughLineId": "musashino",
+    "stops": [
+      {
+        "stationId": "JN-26",
+        "arrivalTime": "08:52:00",
+        "departureTime": "08:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JN-25",
+        "arrivalTime": "08:56:30",
+        "departureTime": "08:56:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-24",
+        "arrivalTime": "08:59:00",
+        "departureTime": "08:59:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-23",
+        "arrivalTime": "09:02:00",
+        "departureTime": "09:02:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-22",
+        "arrivalTime": "09:05:00",
+        "departureTime": "09:05:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-21",
+        "arrivalTime": "09:08:00",
+        "departureTime": "09:08:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-20",
+        "arrivalTime": "09:12:00",
+        "departureTime": "09:12:00",
+        "isPassing": true
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_JN-20_1818_9765",
+    "lineId": "nambu",
+    "trainNumber": "9271M",
+    "trainType": "limitedExp",
+    "trainName": "鎌倉満喫五日市",
+    "direction": "inbound",
+    "originStationId": "JN-20",
+    "destinationStationId": "JN-26",
+    "customOrigin": "鎌倉",
+    "customDestination": "武蔵五日市",
+    "cars": 6,
+    "isHoliday": false,
+    "trainId": "9765",
+    "prevTripId": "WD_INB_JO-13_1744_9765",
+    "prevLineId": "musashino",
+    "throughTripId": "WD_OUT_JC-19_1840_9765",
+    "throughLineId": "ome",
+    "stops": [
+      {
+        "stationId": "JN-20",
+        "arrivalTime": "18:18:00",
+        "departureTime": "18:18:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-21",
+        "arrivalTime": "18:22:00",
+        "departureTime": "18:22:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-22",
+        "arrivalTime": "18:25:00",
+        "departureTime": "18:25:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-23",
+        "arrivalTime": "18:28:00",
+        "departureTime": "18:28:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-24",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:31:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-25",
+        "arrivalTime": "18:33:30",
+        "departureTime": "18:33:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-26",
+        "arrivalTime": "18:36:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_JN-20_1818_9765",
+    "lineId": "nambu",
+    "trainNumber": "9271M",
+    "trainType": "limitedExp",
+    "trainName": "鎌倉満喫五日市",
+    "direction": "inbound",
+    "originStationId": "JN-20",
+    "destinationStationId": "JN-26",
+    "customOrigin": "鎌倉",
+    "customDestination": "武蔵五日市",
+    "cars": 6,
+    "isHoliday": true,
+    "trainId": "9765",
+    "prevTripId": "HD_INB_JO-13_1744_9765",
+    "prevLineId": "musashino",
+    "throughTripId": "HD_OUT_JC-19_1840_9765",
+    "throughLineId": "ome",
+    "stops": [
+      {
+        "stationId": "JN-20",
+        "arrivalTime": "18:18:00",
+        "departureTime": "18:18:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-21",
+        "arrivalTime": "18:22:00",
+        "departureTime": "18:22:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-22",
+        "arrivalTime": "18:25:00",
+        "departureTime": "18:25:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-23",
+        "arrivalTime": "18:28:00",
+        "departureTime": "18:28:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-24",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:31:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-25",
+        "arrivalTime": "18:33:30",
+        "departureTime": "18:33:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JN-26",
+        "arrivalTime": "18:36:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      }
+    ]
   }
 ]

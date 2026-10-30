@@ -10016,18 +10016,48 @@
     "prevLineId": "shonan_shinjuku"
   },
   {
-    "tripId": "WD_OUT_JO-08_1009_9758",
+    "tripId": "WD_OUT_JO-13_0949_9758",
     "lineId": "yokosuka",
     "trainNumber": "9771M",
     "trainType": "limitedExp",
     "trainName": "鎌倉満喫五日市",
     "direction": "outbound",
-    "originStationId": "JO-08",
+    "originStationId": "JO-13",
     "destinationStationId": "JO-07",
     "customOrigin": "武蔵五日市",
     "cars": 15,
     "isHoliday": false,
     "stops": [
+      {
+        "stationId": "JO-13",
+        "arrivalTime": "09:47:00",
+        "departureTime": "09:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-12",
+        "arrivalTime": "09:52:00",
+        "departureTime": "09:52:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-11",
+        "arrivalTime": "09:55:00",
+        "departureTime": "09:55:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-10",
+        "arrivalTime": "09:58:00",
+        "departureTime": "09:58:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-09",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:03:00",
+        "isPassing": true
+      },
       {
         "stationId": "JO-08",
         "arrivalTime": "10:08:00",
@@ -10042,8 +10072,8 @@
       }
     ],
     "trainId": "9758",
-    "prevTripId": "WD_INB_JC-55_0835_9764",
-    "prevLineId": "ome"
+    "prevTripId": "WD_OUT_JM-35_0912_9764",
+    "prevLineId": "musashino"
   },
   {
     "tripId": "WD_INB_JO-09_1010_29328",
@@ -22735,7 +22765,7 @@
     "trainName": "鎌倉満喫五日市",
     "direction": "inbound",
     "originStationId": "JO-07",
-    "destinationStationId": "JO-08",
+    "destinationStationId": "JO-13",
     "customDestination": "武蔵五日市",
     "cars": 15,
     "isHoliday": false,
@@ -22751,11 +22781,41 @@
         "arrivalTime": "17:19:00",
         "departureTime": "17:20:00",
         "isPassing": false
+      },
+      {
+        "stationId": "JO-09",
+        "arrivalTime": "17:24:00",
+        "departureTime": "17:24:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-10",
+        "arrivalTime": "17:29:00",
+        "departureTime": "17:29:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-11",
+        "arrivalTime": "17:33:00",
+        "departureTime": "17:33:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-12",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:37:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-13",
+        "arrivalTime": "17:42:00",
+        "departureTime": "17:44:00",
+        "isPassing": false
       }
     ],
     "trainId": "9759",
-    "throughTripId": "WD_OUT_JC-19_1840_9765",
-    "throughLineId": "ome"
+    "throughTripId": "WD_INB_JO-13_1744_9765",
+    "throughLineId": "musashino"
   },
   {
     "tripId": "WD_INB_JO-06_1717_41046",
@@ -42058,18 +42118,48 @@
     "prevLineId": "shonan_shinjuku"
   },
   {
-    "tripId": "HD_OUT_JO-08_1009_9758",
+    "tripId": "HD_OUT_JO-13_0949_9758",
     "lineId": "yokosuka",
     "trainNumber": "9771M",
     "trainType": "limitedExp",
     "trainName": "鎌倉満喫五日市",
     "direction": "outbound",
-    "originStationId": "JO-08",
+    "originStationId": "JO-13",
     "destinationStationId": "JO-07",
     "customOrigin": "武蔵五日市",
     "cars": 15,
     "isHoliday": true,
     "stops": [
+      {
+        "stationId": "JO-13",
+        "arrivalTime": "09:47:00",
+        "departureTime": "09:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JO-12",
+        "arrivalTime": "09:52:00",
+        "departureTime": "09:52:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-11",
+        "arrivalTime": "09:55:00",
+        "departureTime": "09:55:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-10",
+        "arrivalTime": "09:58:00",
+        "departureTime": "09:58:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-09",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:03:00",
+        "isPassing": true
+      },
       {
         "stationId": "JO-08",
         "arrivalTime": "10:08:00",
@@ -42084,8 +42174,8 @@
       }
     ],
     "trainId": "9758",
-    "prevTripId": "HD_INB_JC-55_0835_9764",
-    "prevLineId": "ome"
+    "prevTripId": "HD_OUT_JM-35_0912_9764",
+    "prevLineId": "musashino"
   },
   {
     "tripId": "HD_INB_JO-09_1010_29328",
@@ -54840,7 +54930,7 @@
     "trainName": "鎌倉満喫五日市",
     "direction": "inbound",
     "originStationId": "JO-07",
-    "destinationStationId": "JO-08",
+    "destinationStationId": "JO-13",
     "customDestination": "武蔵五日市",
     "cars": 15,
     "isHoliday": true,
@@ -54856,11 +54946,41 @@
         "arrivalTime": "17:19:00",
         "departureTime": "17:20:00",
         "isPassing": false
+      },
+      {
+        "stationId": "JO-09",
+        "arrivalTime": "17:24:00",
+        "departureTime": "17:24:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-10",
+        "arrivalTime": "17:29:00",
+        "departureTime": "17:29:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-11",
+        "arrivalTime": "17:33:00",
+        "departureTime": "17:33:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-12",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:37:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JO-13",
+        "arrivalTime": "17:42:00",
+        "departureTime": "17:44:00",
+        "isPassing": false
       }
     ],
     "trainId": "9759",
-    "throughTripId": "HD_OUT_JC-19_1840_9765",
-    "throughLineId": "ome"
+    "throughTripId": "HD_INB_JO-13_1744_9765",
+    "throughLineId": "musashino"
   },
   {
     "tripId": "HD_INB_JO-01_1721_4897",
