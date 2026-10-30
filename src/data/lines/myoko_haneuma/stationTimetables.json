@@ -1,19 +1,7 @@
 {
   "weekday": {
     "ETM-01": {
-      "inbound": [
-        {
-          "h": 9,
-          "m": 58,
-          "time": "58",
-          "sec": 35880,
-          "t": "local",
-          "d": "長野",
-          "no": "9348M",
-          "tripId": "WD_INB_ETM-10_0902_11655",
-          "trainName": "オータム信越号"
-        }
-      ],
+      "inbound": [],
       "outbound": [
         {
           "h": 5,
@@ -4939,69 +4927,12 @@
           "tripId": "WD_INB_ETM-10_2229_14911"
         }
       ],
-      "outbound": [
-        {
-          "h": 10,
-          "m": 48,
-          "time": "48",
-          "sec": 38880,
-          "t": "limitedExp",
-          "d": "新潟",
-          "no": "51M",
-          "tripId": "WD_OUT_ETM-04_1023_38936",
-          "trainName": "しらゆき1号"
-        },
-        {
-          "h": 13,
-          "m": 25,
-          "time": "25",
-          "sec": 48300,
-          "t": "limitedExp",
-          "d": "新潟",
-          "no": "53M",
-          "tripId": "WD_OUT_ETM-06_1309_38937",
-          "trainName": "しらゆき3号"
-        },
-        {
-          "h": 17,
-          "m": 38,
-          "time": "38",
-          "sec": 63480,
-          "t": "limitedExp",
-          "d": "新潟",
-          "no": "55M",
-          "tripId": "WD_OUT_ETM-06_1723_38938",
-          "trainName": "しらゆき5号"
-        },
-        {
-          "h": 19,
-          "m": 41,
-          "time": "41",
-          "sec": 70860,
-          "t": "limitedExp",
-          "d": "新潟",
-          "no": "57M",
-          "tripId": "WD_OUT_ETM-04_1918_38935",
-          "trainName": "しらゆき7号"
-        }
-      ]
+      "outbound": []
     }
   },
   "holiday": {
     "ETM-01": {
-      "inbound": [
-        {
-          "h": 9,
-          "m": 58,
-          "time": "58",
-          "sec": 35880,
-          "t": "local",
-          "d": "長野",
-          "no": "9348M",
-          "tripId": "HD_INB_ETM-10_0902_11655",
-          "trainName": "オータム信越号"
-        }
-      ],
+      "inbound": [],
       "outbound": [
         {
           "h": 5,
@@ -9989,52 +9920,7 @@
           "tripId": "HD_INB_ETM-10_2229_14911"
         }
       ],
-      "outbound": [
-        {
-          "h": 10,
-          "m": 48,
-          "time": "48",
-          "sec": 38880,
-          "t": "limitedExp",
-          "d": "新潟",
-          "no": "51M",
-          "tripId": "HD_OUT_ETM-04_1023_38936",
-          "trainName": "しらゆき1号"
-        },
-        {
-          "h": 13,
-          "m": 25,
-          "time": "25",
-          "sec": 48300,
-          "t": "limitedExp",
-          "d": "新潟",
-          "no": "53M",
-          "tripId": "HD_OUT_ETM-06_1309_38937",
-          "trainName": "しらゆき3号"
-        },
-        {
-          "h": 17,
-          "m": 38,
-          "time": "38",
-          "sec": 63480,
-          "t": "limitedExp",
-          "d": "新潟",
-          "no": "55M",
-          "tripId": "HD_OUT_ETM-06_1723_38938",
-          "trainName": "しらゆき5号"
-        },
-        {
-          "h": 19,
-          "m": 41,
-          "time": "41",
-          "sec": 70860,
-          "t": "limitedExp",
-          "d": "新潟",
-          "no": "57M",
-          "tripId": "HD_OUT_ETM-04_1918_38935",
-          "trainName": "しらゆき7号"
-        }
-      ]
+      "outbound": []
     }
   }
 }

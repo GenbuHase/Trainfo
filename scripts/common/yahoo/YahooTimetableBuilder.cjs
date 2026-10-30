@@ -999,9 +999,10 @@ class YahooTimetableBuilder {
 
       for (let i = 0; i < trip.stops.length; i++) {
         const stop = trip.stops[i];
-        // 終着駅は発車しないため除外（ただし直通先へ発車するトリップで departureTime が設定されている場合は含める）
+        // 終着駅はその路線の運行終了（降車専用）のため発車時刻表からは除外
+        // （他線への直通列車は、直通先路線側の始発駅時刻表に掲載される）
         if (i === trip.stops.length - 1) {
-          if (!trip.throughTripId || !stop.departureTime) continue;
+          continue;
         }
         if (stop.isPassing) continue;
 
