@@ -1,10 +1,10 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef, useEffect } from 'react';
 import type { Station, Direction } from '../../types';
 import { getFullDayStationTimetable, formatTrainNumber, getStationAvailableDirections } from '../../data/timetableData';
 import { StationBadge } from '../Common/Badges';
 import { TRAIN_TYPES } from '../../data/trainTypes';
 import { getLine, getAlternateStations, getTrainTypeConfig } from '../../data/linesRegistry';
-import { X, Download, ArrowLeftRight } from 'lucide-react';
+import { X, Download, ArrowLeftRight, ChevronDown } from 'lucide-react';
 
 import { useUI } from '../../contexts/UIContext';
 import { useSimulation } from '../../contexts/SimulationContext';
@@ -20,6 +20,7 @@ export const TimetableModal: React.FC = () => {
   const onClose = ui.closeTimetable;
   const defaultIsHoliday = simulation.isHoliday;
   const onSwitchStation = (st: Station) => {
+    setIsLineMenuOpen(false);
     ui.setTimetableStation(st);
     selection.selectStation(st);
   };
@@ -33,6 +34,37 @@ export const TimetableModal: React.FC = () => {
 
   const [directionState, setDirection] = useState<Direction>(() => (!hasOutbound ? 'inbound' : 'outbound'));
   const [isHoliday, setIsHoliday] = useState<boolean>(defaultIsHoliday);
+  const [isLineMenuOpen, setIsLineMenuOpen] = useState<boolean>(false);
+  const lineMenuRef = useRef<HTMLDivElement>(null);
+
+  // 駅切り替えやモーダル開閉時のステートリセット
+  const [prevStationKey, setPrevStationKey] = useState<string>('');
+  const currentStationKey = isOpen && station ? `${station.lineId}_${station.id}` : '';
+  if (currentStationKey !== prevStationKey) {
+    setPrevStationKey(currentStationKey);
+    setIsLineMenuOpen(false);
+  }
+
+  // メニュー外部クリックおよびEscapeキーで閉じる
+  useEffect(() => {
+    if (!isLineMenuOpen) return;
+    const handleClickOutside = (e: MouseEvent) => {
+      if (lineMenuRef.current && !lineMenuRef.current.contains(e.target as Node)) {
+        setIsLineMenuOpen(false);
+      }
+    };
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setIsLineMenuOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isLineMenuOpen]);
 
   const direction: Direction = useMemo(() => {
     if (!hasOutbound && hasInbound) return 'inbound';
@@ -83,56 +115,104 @@ export const TimetableModal: React.FC = () => {
     <div className="fixed inset-0 z-[2000] bg-black/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6">
       <div className="bg-white rounded-2xl shadow-2xl w-full max-w-4xl max-h-[90vh] flex flex-col overflow-hidden border border-slate-200 animate-in fade-in zoom-in-95 duration-200">
         {/* モーダルヘッダー */}
-        <div className="p-4 sm:p-5 border-b border-slate-200 flex items-center justify-between bg-slate-50">
-          <div className="flex items-center gap-3">
+        <div className="p-4 sm:p-5 border-b border-slate-200 flex items-center justify-between gap-3 bg-slate-50">
+          <div className="flex items-center gap-3 min-w-0">
             {station.stationNumber && <StationBadge id={station.stationNumber} size="lg" />}
-            <div>
+            <div className="min-w-0">
               <div className="flex items-center gap-2 flex-wrap">
                 <span
-                  className="text-xs font-bold px-2 py-0.5 rounded text-white shadow-2xs"
+                  className="text-xs font-bold px-2 py-0.5 rounded text-white shadow-2xs whitespace-nowrap"
                   style={{ backgroundColor: themeColor }}
                 >
                   {lineName}
                 </span>
-                <h2 className="text-xl font-bold text-slate-800 flex items-center gap-2">
-                  <span>{station.name}駅 時刻表</span>
-                  <span className="text-xs font-normal text-slate-500">({station.nameKana})</span>
+                <h2 className="text-xl font-bold text-slate-800 flex items-center gap-2 truncate">
+                  <span className="truncate">{station.name}駅 時刻表</span>
+                  <span className="text-xs font-normal text-slate-500 whitespace-nowrap">({station.nameKana})</span>
                 </h2>
               </div>
-              <p className="text-xs text-slate-500 mt-1">
+              <p className="text-xs text-slate-500 mt-1 truncate">
                 {lineName} {directionFullName}
               </p>
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 shrink-0">
             {/* 他路線の同名駅への切り替え */}
-            {alternateStations.length > 0 && onSwitchStation && (
-              <div className="hidden md:flex items-center gap-1.5">
-                {alternateStations.map((alt) => (
-                  <button
-                    key={`${alt.station.lineId}_${alt.station.id}`}
-                    onClick={() => onSwitchStation(alt.station)}
-                    className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 text-xs font-semibold text-slate-700 transition-colors shadow-2xs"
-                    title={`${alt.lineName} ${alt.station.name}駅の時刻表に切り替え`}
-                  >
-                    <ArrowLeftRight className="w-3.5 h-3.5 text-slate-400" />
-                    <span>{alt.lineName}へ切替</span>
-                  </button>
-                ))}
+            {alternateStations.length === 1 && onSwitchStation && (
+              <button
+                key={`${alternateStations[0].station.lineId}_${alternateStations[0].station.id}`}
+                onClick={() => onSwitchStation(alternateStations[0].station)}
+                className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 text-xs font-semibold text-slate-700 transition-colors shadow-2xs whitespace-nowrap cursor-pointer"
+                title={`${alternateStations[0].lineName} ${alternateStations[0].station.name}駅の時刻表に切り替え`}
+              >
+                <ArrowLeftRight className="w-3.5 h-3.5 text-slate-500 shrink-0" />
+                <span>{alternateStations[0].lineName}へ切替</span>
+              </button>
+            )}
+
+            {alternateStations.length > 1 && onSwitchStation && (
+              <div className="relative" ref={lineMenuRef}>
+                <button
+                  type="button"
+                  onClick={() => setIsLineMenuOpen((prev) => !prev)}
+                  className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 text-xs font-semibold text-slate-700 transition-colors shadow-2xs whitespace-nowrap cursor-pointer"
+                  title="他路線の時刻表へ切り替え"
+                  aria-expanded={isLineMenuOpen}
+                  aria-haspopup="true"
+                >
+                  <ArrowLeftRight className="w-3.5 h-3.5 text-slate-500 shrink-0" />
+                  <span>他路線へ切替 ({alternateStations.length})</span>
+                  <ChevronDown className={`w-3.5 h-3.5 text-slate-400 transition-transform shrink-0 ${isLineMenuOpen ? 'rotate-180' : ''}`} />
+                </button>
+
+                {isLineMenuOpen && (
+                  <div className="absolute right-0 top-full mt-1.5 z-50 w-64 max-h-72 overflow-y-auto bg-white rounded-xl shadow-xl border border-slate-200 py-1 divide-y divide-slate-100 animate-in fade-in zoom-in-95 duration-150">
+                    <div className="px-3 py-1.5 text-[11px] font-bold text-slate-400">
+                      乗換路線を選択 ({alternateStations.length})
+                    </div>
+                    <div className="py-1">
+                      {alternateStations.map((alt) => {
+                        const altLine = getLine(alt.station.lineId);
+                        const altColor = altLine?.lineColor || '#64748b';
+                        return (
+                          <button
+                            key={`${alt.station.lineId}_${alt.station.id}`}
+                            onClick={() => {
+                              onSwitchStation(alt.station);
+                              setIsLineMenuOpen(false);
+                            }}
+                            className="w-full text-left px-3 py-2 flex items-center gap-2.5 hover:bg-slate-50 transition-colors text-xs font-medium text-slate-700 cursor-pointer"
+                          >
+                            <span
+                              className="w-2.5 h-2.5 rounded-full shrink-0 shadow-2xs"
+                              style={{ backgroundColor: altColor }}
+                            />
+                            <span className="flex-1 truncate">{alt.lineName}</span>
+                            {alt.station.stationNumber && (
+                              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-100 text-slate-600 shrink-0">
+                                {alt.station.stationNumber}
+                              </span>
+                            )}
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
               </div>
             )}
 
             <button
               onClick={handleDownloadCsv}
-              className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 text-xs font-semibold text-slate-700 transition-colors shadow-2xs"
+              className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-100 text-xs font-semibold text-slate-700 transition-colors shadow-2xs whitespace-nowrap cursor-pointer"
             >
               <Download className="w-3.5 h-3.5" />
               <span>CSV保存</span>
             </button>
             <button
               onClick={onClose}
-              className="p-2 rounded-full hover:bg-slate-200 text-slate-500 hover:text-slate-800 transition-colors"
+              className="p-2 rounded-full hover:bg-slate-200 text-slate-500 hover:text-slate-800 transition-colors cursor-pointer"
             >
               <X className="w-5 h-5" />
             </button>
