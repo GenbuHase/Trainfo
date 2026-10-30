@@ -8106,7 +8106,7 @@
     "tripId": "cm_WD_OUT_JC-24_0826_10031",
     "lineId": "chuo_main",
     "trainNumber": "1457M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "JC-32",
@@ -8168,12 +8168,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "10031",
-    "customDestination": "河口湖",
-    "customOrigin": "東京",
-    "trainName": "富士回遊3号",
-    "throughTripId": "WD_OUT_FJ-01_0916_92367",
-    "throughLineId": "fujikyu"
+    "trainId": "10031"
   },
   {
     "tripId": "cm_WD_OUT_JC-05_0830_31129",
@@ -9849,7 +9844,7 @@
     "tripId": "cm_WD_OUT_JC-24_0917_31186",
     "lineId": "chuo_main",
     "trainNumber": "529M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "CO-43",
@@ -9858,7 +9853,7 @@
     "stops": [
       {
         "stationId": "JC-24",
-        "arrivalTime": "09:16:00",
+        "arrivalTime": "09:17:00",
         "departureTime": "09:17:00",
         "isPassing": false
       },
@@ -9977,10 +9972,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "31186",
-    "trainName": "かいじ7号",
-    "customDestination": "甲府",
-    "customOrigin": "新宿"
+    "trainId": "31186"
   },
   {
     "tripId": "cm_WD_INB_CO-61_0918_6930",
@@ -13367,7 +13359,7 @@
     "tripId": "cm_WD_OUT_JC-24_1109_31190",
     "lineId": "chuo_main",
     "trainNumber": "535M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "CO-43",
@@ -13495,10 +13487,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "31190",
-    "trainName": "かいじ15号",
-    "customDestination": "甲府",
-    "customOrigin": "新宿"
+    "trainId": "31190"
   },
   {
     "tripId": "cm_WD_OUT_JC-05_1116_6860",
@@ -14489,7 +14478,7 @@
     "tripId": "cm_WD_INB_JC-32_1150_40806",
     "lineId": "chuo_main",
     "trainNumber": "1456M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "inbound",
     "originStationId": "JC-32",
     "destinationStationId": "JC-24",
@@ -14547,16 +14536,11 @@
       {
         "stationId": "JC-24",
         "arrivalTime": "12:27:00",
-        "departureTime": "12:29:33",
+        "departureTime": "12:27:00",
         "isPassing": false
       }
     ],
-    "trainId": "40806",
-    "customDestination": "新宿",
-    "customOrigin": "河口湖",
-    "trainName": "かいじ20号",
-    "throughTripId": "WD_INB_JC-22_1235_33546",
-    "throughLineId": "chuo"
+    "trainId": "40806"
   },
   {
     "tripId": "cm_WD_OUT_JC-01_1154_28389",
@@ -22234,7 +22218,7 @@
     "tripId": "cm_WD_INB_CO-43_1559_33596",
     "lineId": "chuo_main",
     "trainNumber": "542M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "inbound",
     "originStationId": "CO-43",
     "destinationStationId": "JC-24",
@@ -22358,16 +22342,11 @@
       {
         "stationId": "JC-24",
         "arrivalTime": "17:40:00",
-        "departureTime": "18:06:52",
+        "departureTime": "17:40:00",
         "isPassing": false
       }
     ],
-    "trainId": "33596",
-    "customDestination": "新宿",
-    "customOrigin": "甲府",
-    "trainName": "富士回遊44号",
-    "throughTripId": "WD_INB_JC-22_1811_6926",
-    "throughLineId": "chuo"
+    "trainId": "33596"
   },
   {
     "tripId": "cm_WD_OUT_JC-05_1600_6864",
@@ -28158,7 +28137,7 @@
     "tripId": "cm_WD_OUT_JC-24_1829_31193",
     "lineId": "chuo_main",
     "trainNumber": "545M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "CO-43",
@@ -28167,7 +28146,7 @@
     "stops": [
       {
         "stationId": "JC-24",
-        "arrivalTime": "18:13:00",
+        "arrivalTime": "18:29:00",
         "departureTime": "18:29:00",
         "isPassing": false
       },
@@ -28286,10 +28265,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "31193",
-    "trainName": "かいじ43号",
-    "customDestination": "甲府",
-    "customOrigin": "東京"
+    "trainId": "31193"
   },
   {
     "tripId": "cm_WD_INB_CO-61_1830_42024",
@@ -32093,7 +32069,7 @@
     "tripId": "cm_WD_INB_JC-32_2018_10047",
     "lineId": "chuo_main",
     "trainNumber": "1464M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "inbound",
     "originStationId": "JC-32",
     "destinationStationId": "JC-24",
@@ -32151,14 +32127,11 @@
       {
         "stationId": "JC-24",
         "arrivalTime": "20:54:00",
-        "departureTime": "21:00:42",
+        "departureTime": "20:54:00",
         "isPassing": false
       }
     ],
     "trainId": "10047",
-    "customDestination": "新宿",
-    "customOrigin": "大月",
-    "trainName": "かいじ56号",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-32",
@@ -32167,9 +32140,7 @@
       "coupledTrainNumber": "54M",
       "coupledCars": 9,
       "coupledDestination": "新宿"
-    },
-    "throughTripId": "WD_INB_JC-22_2106_33562",
-    "throughLineId": "chuo"
+    }
   },
   {
     "tripId": "cm_WD_OUT_CO-43_2020_31159",
@@ -43889,7 +43860,7 @@
     "tripId": "cm_HD_OUT_JC-24_0824_10030",
     "lineId": "chuo_main",
     "trainNumber": "1457M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "JC-32",
@@ -43898,7 +43869,7 @@
     "stops": [
       {
         "stationId": "JC-24",
-        "arrivalTime": "08:06:27",
+        "arrivalTime": "08:24:00",
         "departureTime": "08:24:00",
         "isPassing": false
       },
@@ -43952,9 +43923,6 @@
       }
     ],
     "trainId": "10030",
-    "customDestination": "河口湖",
-    "customOrigin": "東京",
-    "trainName": "富士回遊3号",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-24",
@@ -43963,9 +43931,7 @@
       "coupledTrainNumber": "9077M",
       "coupledCars": 9,
       "coupledDestination": "松本"
-    },
-    "throughTripId": "HD_OUT_FJ-01_0919_92368",
-    "throughLineId": "fujikyu"
+    }
   },
   {
     "tripId": "cm_HD_OUT_JC-05_0830_31142",
@@ -46268,7 +46234,7 @@
     "tripId": "cm_HD_OUT_JC-24_0918_31187",
     "lineId": "chuo_main",
     "trainNumber": "529M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "CO-43",
@@ -46277,7 +46243,7 @@
     "stops": [
       {
         "stationId": "JC-24",
-        "arrivalTime": "09:13:00",
+        "arrivalTime": "09:18:00",
         "departureTime": "09:18:00",
         "isPassing": false
       },
@@ -46396,10 +46362,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "31187",
-    "trainName": "かいじ7号",
-    "customDestination": "甲府",
-    "customOrigin": "新宿"
+    "trainId": "31187"
   },
   {
     "tripId": "cm_HD_OUT_CO-57_0922_38002",
@@ -49474,7 +49437,7 @@
     "tripId": "cm_HD_OUT_JC-24_1109_31190",
     "lineId": "chuo_main",
     "trainNumber": "535M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "CO-43",
@@ -49602,10 +49565,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "31190",
-    "trainName": "かいじ15号",
-    "customDestination": "甲府",
-    "customOrigin": "新宿"
+    "trainId": "31190"
   },
   {
     "tripId": "cm_HD_OUT_JC-05_1116_6860",
@@ -50459,7 +50419,7 @@
     "tripId": "cm_HD_INB_JC-32_1147_40805",
     "lineId": "chuo_main",
     "trainNumber": "1456M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "inbound",
     "originStationId": "JC-32",
     "destinationStationId": "JC-24",
@@ -50517,14 +50477,11 @@
       {
         "stationId": "JC-24",
         "arrivalTime": "12:24:00",
-        "departureTime": "12:27:52",
+        "departureTime": "12:24:00",
         "isPassing": false
       }
     ],
     "trainId": "40805",
-    "customDestination": "新宿",
-    "customOrigin": "河口湖",
-    "trainName": "かいじ20号",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-32",
@@ -50533,9 +50490,7 @@
       "coupledTrainNumber": "18M",
       "coupledCars": 9,
       "coupledDestination": "新宿"
-    },
-    "throughTripId": "HD_INB_JC-22_1233_33545",
-    "throughLineId": "chuo"
+    }
   },
   {
     "tripId": "cm_HD_INB_CO-43_1147_33595",
@@ -58854,7 +58809,7 @@
     "tripId": "cm_HD_INB_CO-43_1559_33597",
     "lineId": "chuo_main",
     "trainNumber": "542M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "inbound",
     "originStationId": "CO-43",
     "destinationStationId": "JC-24",
@@ -58978,16 +58933,11 @@
       {
         "stationId": "JC-24",
         "arrivalTime": "17:42:00",
-        "departureTime": "17:47:23",
+        "departureTime": "17:42:00",
         "isPassing": false
       }
     ],
-    "trainId": "33597",
-    "customDestination": "新宿",
-    "customOrigin": "甲府",
-    "trainName": "富士回遊44号",
-    "throughTripId": "HD_INB_JC-22_1753_39448",
-    "throughLineId": "chuo"
+    "trainId": "33597"
   },
   {
     "tripId": "cm_HD_OUT_JC-05_1600_6863",
@@ -65012,7 +64962,7 @@
     "tripId": "cm_HD_OUT_JC-24_1831_31194",
     "lineId": "chuo_main",
     "trainNumber": "545M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "outbound",
     "originStationId": "JC-24",
     "destinationStationId": "CO-43",
@@ -65021,7 +64971,7 @@
     "stops": [
       {
         "stationId": "JC-24",
-        "arrivalTime": "18:13:00",
+        "arrivalTime": "18:31:00",
         "departureTime": "18:31:00",
         "isPassing": false
       },
@@ -65140,10 +65090,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "31194",
-    "trainName": "かいじ43号",
-    "customDestination": "甲府",
-    "customOrigin": "東京"
+    "trainId": "31194"
   },
   {
     "tripId": "cm_HD_INB_CO-59_1834_43220",
@@ -68907,7 +68854,7 @@
     "tripId": "cm_HD_INB_JC-32_2018_10046",
     "lineId": "chuo_main",
     "trainNumber": "1464M",
-    "trainType": "limitedExp",
+    "trainType": "regular",
     "direction": "inbound",
     "originStationId": "JC-32",
     "destinationStationId": "JC-24",
@@ -68965,14 +68912,11 @@
       {
         "stationId": "JC-24",
         "arrivalTime": "20:54:00",
-        "departureTime": "21:00:42",
+        "departureTime": "20:54:00",
         "isPassing": false
       }
     ],
     "trainId": "10046",
-    "customDestination": "新宿",
-    "customOrigin": "大月",
-    "trainName": "かいじ56号",
     "coupling": {
       "role": "SECONDARY",
       "fromStationId": "JC-32",
@@ -68981,9 +68925,7 @@
       "coupledTrainNumber": "54M",
       "coupledCars": 9,
       "coupledDestination": "新宿"
-    },
-    "throughTripId": "HD_INB_JC-22_2105_33561",
-    "throughLineId": "chuo"
+    }
   },
   {
     "tripId": "cm_HD_OUT_CO-43_2020_31159",

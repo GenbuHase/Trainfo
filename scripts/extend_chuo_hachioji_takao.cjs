@@ -109,9 +109,9 @@ function extendChuoHachiojiTakao() {
   const cmMap = new Map();
   for (const t of chuoMainTrips) {
     if (t.trainType !== 'limitedExp') continue;
-    // 小淵沢〜高尾等、全駅停車する一般普通列車(548M等)は除外
-    const nonPassingStops = t.stops ? t.stops.filter(s => !s.isPassing) : [];
-    if (nonPassingStops.length > 15) continue;
+    // 通過駅を持たない各駅停車の一般普通列車は特急直通から完全に除外
+    const hasPassing = t.stops && t.stops.some(s => s.isPassing);
+    if (!hasPassing) continue;
 
     const yId = getYahooId(t);
     if (yId) {
