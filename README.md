@@ -1,5 +1,11 @@
 # Trainfo — 鉄道リアルタイム運行シミュレーター
 
+<div align="center">
+
+<img src="docs/logo.svg" alt="Trainfo Logo" width="100" height="100" />
+
+首都圏・北関東・甲信越・東北・東海エリアにまたがる **21事業者・全102路線（ユニーク1,962駅 / 延べ2,023駅）** の鉄道ネットワークを対象に、実時刻表データ（平日・土休日ダイヤ）と実測路線ジオメトリに基づいて列車のリアルタイム現在位置・走行状態・直通運転・併結分割運転を高精度に可視化するインタラクティブ鉄道運行マップアプリケーション
+
 [![Deploy to GitHub Pages](https://github.com/GenbuHase/Trainfo/actions/workflows/deploy.yml/badge.svg)](https://github.com/GenbuHase/Trainfo/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react&logoColor=white)
@@ -8,11 +14,7 @@
 ![Leaflet](https://img.shields.io/badge/Leaflet-1.9-199900?logo=leaflet&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?logo=tailwindcss&logoColor=white)
 
-<div align="center">
-
-<img src="docs/logo.svg" alt="Trainfo Logo" width="100" height="100" />
-
-首都圏・北関東・甲信越・東北・東海エリアにまたがる **21事業者・全102路線（ユニーク1,962駅 / 延べ2,023駅）** の鉄道ネットワークを対象に、実時刻表データ（平日・土休日ダイヤ）と実測路線ジオメトリに基づいて列車のリアルタイム現在位置・走行状態・直通運転・併結分割運転を高精度に可視化するインタラクティブ鉄道運行マップアプリケーションです。
+![Trainfo 画面イメージ](docs/screenshot.png)
 
 </div>
 
