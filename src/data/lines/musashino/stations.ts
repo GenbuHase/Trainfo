@@ -897,5 +897,95 @@ export const MUSASHINO_STATIONS: Station[] = [
       "waitingRoom": false,
       "ticketOffice": true
     }
+  },
+  {
+    "id": "JL-26",
+    "stationNumber": "JL-26",
+    "number": 26,
+    "name": "北小金",
+    "nameKana": "きたこがね",
+    "nameEn": "Kita-Kogane",
+    "transfers": [
+      "JR常磐線各駅停車"
+    ],
+    "address": "千葉県松戸市小金きよしケ丘一丁目1-1",
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    },
+    "stoppingTypes": [
+      "regular"
+    ],
+    "lineId": "musashino",
+    "lat": 35.8334733,
+    "lng": 139.9311657,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": false
+    }
+  },
+  {
+    "id": "JL-24",
+    "stationNumber": "JL-24",
+    "number": 24,
+    "name": "馬橋",
+    "nameKana": "まばし",
+    "nameEn": "Mabashi",
+    "transfers": [
+      "JR常磐線各駅停車",
+      "流鉄流山線"
+    ],
+    "address": "千葉県松戸市馬橋119",
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    },
+    "stoppingTypes": [
+      "regular"
+    ],
+    "lineId": "musashino",
+    "lat": 35.8116098,
+    "lng": 139.9172261,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": false
+    }
+  },
+  {
+    "id": "JK-15",
+    "stationNumber": "JK-15",
+    "number": 15,
+    "name": "鶴見",
+    "nameKana": "つるみ",
+    "nameEn": "Tsurumi",
+    "transfers": [
+      "JR京浜東北線",
+      "JR鶴見線",
+      "京急本線"
+    ],
+    "address": "神奈川県横浜市鶴見区鶴見中央一丁目",
+    "platforms": {
+      "inbound": "1番線",
+      "outbound": "2番線"
+    },
+    "stoppingTypes": [
+      "regular"
+    ],
+    "lineId": "musashino",
+    "lat": 35.50958,
+    "lng": 139.67649,
+    "facilities": {
+      "elevator": true,
+      "restroom": true,
+      "multipurposeToilet": true,
+      "waitingRoom": false,
+      "ticketOffice": false
+    }
   }
 ];
