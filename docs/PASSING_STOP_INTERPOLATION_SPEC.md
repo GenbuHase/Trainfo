@@ -108,7 +108,7 @@ singleStopRescueRules: [
 境界駅（取手駅）を通過する特急列車は、先行区間（上野〜取手）の最終駅時刻と、後続区間（取手〜いわき）の始発駅時刻が独立して計算されると、数秒〜数分のズレが生じ、直通リンカーが結合に失敗します。
 
 ### 4.2 解決仕様
-[scripts/bridgeJobanLimitedExpress.cjs](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/scripts/bridgeJobanLimitedExpress.cjs) が以下を実行します：
+[scripts/bridgeJobanLimitedExpress.cjs](file:///c:/Users/Genbu/GitHub/github.com/GenbuHase/Trainfo/scripts/bridgeJobanLimitedExpress.cjs)（および房総特急用 `bridgeBosoLimitedExpress.cjs`、成田エクスプレス・あやめ用 `bridgeNexAndAyame.cjs`、小田急・御殿場線特急ふじさん用 `bridge_odakyu_gotemba.cjs`）が以下を実行します：
 
 1. **特急判定の厳密化**:
    - 時刻表元データで `trainType === 'limited_express'` または `'limitedExp'` である列車のみを抽出（普通列車や中距離電車の誤判定を完全排除）。
