@@ -87,8 +87,17 @@ class YahooTimetableBuilder {
     // 1. 駅キャッシュから trainId で突合
     let vendorNo = this.trainIdToVendor.get(`${dayKey}_${trainId}`) || this.trainIdToVendor.get(trainId);
 
-    // 2. なければ各停車の時刻キーで突合
-    if (!vendorNo && stops && stops.length > 0) {
+    // 2. なければ guideComment から英数字列車番号を抽出（特急や臨時列車で有効）
+    if (!vendorNo && trainDetail.guideComment) {
+      const m = trainDetail.guideComment.match(/\b([0-9]{2,4}[A-Za-z]|[A-Za-z][0-9]{2,4}[A-Za-z]?)\b/);
+      if (m) {
+        vendorNo = m[1];
+      }
+    }
+
+    // 3. なければ各停車の時刻キーで突合（※特急種別は同時刻発車普通列車の番号誤爆を防止するため時刻のみの突合を行わない）
+    const isLtd = trainDetail.displayName?.includes('特急') || trainDetail.trainName || trainDetail.trainType === 'limitedExp';
+    if (!vendorNo && !isLtd && stops && stops.length > 0) {
       for (const stop of stops) {
         if (!stop.departureTime || stop.isPassing) continue;
         const [hh, mm] = stop.departureTime.split(':').map(Number);
@@ -98,14 +107,6 @@ class YahooTimetableBuilder {
           vendorNo = found;
           break;
         }
-      }
-    }
-
-    // 3. なければ guideComment から英数字列車番号を抽出
-    if (!vendorNo && trainDetail.guideComment) {
-      const m = trainDetail.guideComment.match(/\b([0-9]{2,4}[A-Za-z]|[A-Za-z][0-9]{2,4}[A-Za-z]?)\b/);
-      if (m) {
-        vendorNo = m[1];
       }
     }
 
