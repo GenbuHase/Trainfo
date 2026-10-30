@@ -2512,14 +2512,14 @@
     "stops": [
       {
         "stationId": "NR-01",
-        "arrivalTime": "06:58:00",
-        "departureTime": "06:58:00",
+        "arrivalTime": "07:06:00",
+        "departureTime": "07:06:00",
         "isPassing": true
       },
       {
         "stationId": "NR-02",
-        "arrivalTime": "07:04:47",
-        "departureTime": "07:04:47",
+        "arrivalTime": "07:11:08",
+        "departureTime": "07:11:08",
         "isPassing": true
       },
       {
@@ -3121,60 +3121,6 @@
       "trainNumber": "2002M"
     },
     "throughTripId": "WD_INB_SM-06_0800_29215",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_INB_NR-37_0737_29244",
-    "lineId": "narita",
-    "trainId": "29244",
-    "trainNumber": "2202M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス2号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "07:37:00",
-        "departureTime": "07:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "07:38:00",
-        "departureTime": "07:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "07:48:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "07:55:52",
-        "departureTime": "07:55:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "08:00:00",
-        "departureTime": "08:00:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_0800_29244",
-      "trainNumber": "2202M"
-    },
-    "throughTripId": "WD_INB_SM-06_0800_29244",
     "throughLineId": "sobu_main"
   },
   {
@@ -4171,60 +4117,6 @@
     "prevLineId": "sobu_main"
   },
   {
-    "tripId": "WD_OUT_NR-36_0834_30356",
-    "lineId": "narita",
-    "trainId": "30356",
-    "trainNumber": "2205M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス5号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "08:12:00",
-        "departureTime": "08:12:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "08:16:07",
-        "departureTime": "08:16:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "08:22:23",
-        "departureTime": "08:22:23",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "08:32:00",
-        "departureTime": "08:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "08:36:00",
-        "departureTime": "08:36:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "WD_OUT_SM-01_0758_31110",
-      "trainNumber": "2205M"
-    },
-    "prevTripId": "WD_OUT_SM-01_0758_31110",
-    "prevLineId": "sobu_main"
-  },
-  {
     "tripId": "WD_INB_NR-37_0837_5886",
     "lineId": "narita",
     "trainId": "5886",
@@ -4591,60 +4483,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "WD_INB_NR-37_0849_29246",
-    "lineId": "narita",
-    "trainId": "29246",
-    "trainNumber": "2206M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス6号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "08:49:00",
-        "departureTime": "08:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "08:51:00",
-        "departureTime": "08:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "09:04:00",
-        "departureTime": "09:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "09:10:28",
-        "departureTime": "09:10:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "09:15:00",
-        "departureTime": "09:15:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_0916_29246",
-      "trainNumber": "2206M"
-    },
-    "throughTripId": "WD_INB_SM-06_0916_29246",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "WD_INB_NR-03_0850_40195",
     "lineId": "narita",
     "trainId": "40195",
@@ -4947,14 +4785,14 @@
     "stops": [
       {
         "stationId": "NR-01",
-        "arrivalTime": "08:44:00",
-        "departureTime": "08:44:00",
+        "arrivalTime": "09:05:00",
+        "departureTime": "09:05:00",
         "isPassing": true
       },
       {
         "stationId": "NR-02",
-        "arrivalTime": "08:55:19",
-        "departureTime": "08:55:19",
+        "arrivalTime": "09:12:00",
+        "departureTime": "09:12:00",
         "isPassing": true
       },
       {
@@ -5700,60 +5538,6 @@
       "trainNumber": "2010M"
     },
     "throughTripId": "WD_INB_SM-06_1005_29203",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_INB_NR-37_0946_29232",
-    "lineId": "narita",
-    "trainId": "29232",
-    "trainNumber": "2210M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス10号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "09:46:00",
-        "departureTime": "09:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "09:49:00",
-        "departureTime": "09:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "09:56:41",
-        "departureTime": "09:56:41",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "10:01:42",
-        "departureTime": "10:01:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "10:05:00",
-        "departureTime": "10:05:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_1005_29232",
-      "trainNumber": "2210M"
-    },
-    "throughTripId": "WD_INB_SM-06_1005_29232",
     "throughLineId": "sobu_main"
   },
   {
@@ -6977,60 +6761,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "WD_INB_NR-37_1045_29233",
-    "lineId": "narita",
-    "trainId": "29233",
-    "trainNumber": "2214M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス14号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "10:45:00",
-        "departureTime": "10:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "10:48:00",
-        "departureTime": "10:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "10:56:10",
-        "departureTime": "10:56:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "11:01:30",
-        "departureTime": "11:01:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "11:05:00",
-        "departureTime": "11:05:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_1105_29233",
-      "trainNumber": "2214M"
-    },
-    "throughTripId": "WD_INB_SM-06_1105_29233",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "WD_OUT_NR-20_1047_40222",
     "lineId": "narita",
     "trainId": "40222",
@@ -7192,60 +6922,6 @@
       "trainNumber": "2015M"
     },
     "prevTripId": "WD_OUT_SM-01_1028_29327",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_OUT_NR-36_1056_30359",
-    "lineId": "narita",
-    "trainId": "30359",
-    "trainNumber": "2215M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス15号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "10:42:00",
-        "departureTime": "10:42:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "10:44:28",
-        "departureTime": "10:44:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "10:48:14",
-        "departureTime": "10:48:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "10:54:00",
-        "departureTime": "10:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "10:58:00",
-        "departureTime": "10:58:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "WD_OUT_SM-01_1028_31113",
-      "trainNumber": "2215M"
-    },
-    "prevTripId": "WD_OUT_SM-01_1028_31113",
     "prevLineId": "sobu_main"
   },
   {
@@ -8038,60 +7714,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "WD_INB_NR-37_1144_29234",
-    "lineId": "narita",
-    "trainId": "29234",
-    "trainNumber": "2218M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス18号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "11:44:00",
-        "departureTime": "11:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "11:48:00",
-        "departureTime": "11:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "11:56:10",
-        "departureTime": "11:56:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "12:01:30",
-        "departureTime": "12:01:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "12:05:00",
-        "departureTime": "12:05:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_1205_29234",
-      "trainNumber": "2218M"
-    },
-    "throughTripId": "WD_INB_SM-06_1205_29234",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "WD_INB_NR-03_1144_40271",
     "lineId": "narita",
     "trainId": "40271",
@@ -8416,60 +8038,6 @@
       "trainNumber": "2019M"
     },
     "prevTripId": "WD_OUT_SM-01_1128_29328",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_OUT_NR-36_1155_30360",
-    "lineId": "narita",
-    "trainId": "30360",
-    "trainNumber": "2219M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス19号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "11:42:00",
-        "departureTime": "11:42:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "11:44:15",
-        "departureTime": "11:44:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "11:47:42",
-        "departureTime": "11:47:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "11:53:00",
-        "departureTime": "11:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "11:57:00",
-        "departureTime": "11:57:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "WD_OUT_SM-01_1128_31114",
-      "trainNumber": "2219M"
-    },
-    "prevTripId": "WD_OUT_SM-01_1128_31114",
     "prevLineId": "sobu_main"
   },
   {
@@ -9385,60 +8953,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "WD_INB_NR-37_1245_29235",
-    "lineId": "narita",
-    "trainId": "29235",
-    "trainNumber": "2222M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス22号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "12:45:00",
-        "departureTime": "12:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "12:49:00",
-        "departureTime": "12:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "12:57:10",
-        "departureTime": "12:57:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "13:02:30",
-        "departureTime": "13:02:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "13:06:00",
-        "departureTime": "13:06:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_1306_29235",
-      "trainNumber": "2222M"
-    },
-    "throughTripId": "WD_INB_SM-06_1306_29235",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "WD_OUT_NR-20_1247_40224",
     "lineId": "narita",
     "trainId": "40224",
@@ -9690,60 +9204,6 @@
       "trainNumber": "2023M"
     },
     "prevTripId": "WD_OUT_SM-01_1228_29329",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_OUT_NR-36_1256_30361",
-    "lineId": "narita",
-    "trainId": "30361",
-    "trainNumber": "2223M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス23号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "12:42:00",
-        "departureTime": "12:42:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "12:44:28",
-        "departureTime": "12:44:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "12:48:14",
-        "departureTime": "12:48:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "12:54:00",
-        "departureTime": "12:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "12:58:00",
-        "departureTime": "12:58:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "WD_OUT_SM-01_1228_31115",
-      "trainNumber": "2223M"
-    },
-    "prevTripId": "WD_OUT_SM-01_1228_31115",
     "prevLineId": "sobu_main"
   },
   {
@@ -10548,60 +10008,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "WD_INB_NR-37_1344_29236",
-    "lineId": "narita",
-    "trainId": "29236",
-    "trainNumber": "2226M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス26号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "13:44:00",
-        "departureTime": "13:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "13:48:00",
-        "departureTime": "13:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "13:56:10",
-        "departureTime": "13:56:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "14:01:30",
-        "departureTime": "14:01:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "14:05:00",
-        "departureTime": "14:05:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_1405_29236",
-      "trainNumber": "2226M"
-    },
-    "throughTripId": "WD_INB_SM-06_1405_29236",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "WD_INB_NR-03_1344_40273",
     "lineId": "narita",
     "trainId": "40273",
@@ -10953,60 +10359,6 @@
       "trainNumber": "2027M"
     },
     "prevTripId": "WD_OUT_SM-01_1328_29330",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_OUT_NR-36_1355_30362",
-    "lineId": "narita",
-    "trainId": "30362",
-    "trainNumber": "2227M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス27号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "13:42:00",
-        "departureTime": "13:42:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "13:44:15",
-        "departureTime": "13:44:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "13:47:42",
-        "departureTime": "13:47:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "13:53:00",
-        "departureTime": "13:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "13:57:00",
-        "departureTime": "13:57:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "WD_OUT_SM-01_1328_31116",
-      "trainNumber": "2227M"
-    },
-    "prevTripId": "WD_OUT_SM-01_1328_31116",
     "prevLineId": "sobu_main"
   },
   {
@@ -11770,60 +11122,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "WD_INB_NR-37_1445_29237",
-    "lineId": "narita",
-    "trainId": "29237",
-    "trainNumber": "2230M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス30号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "14:45:00",
-        "departureTime": "14:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "14:49:00",
-        "departureTime": "14:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "14:57:10",
-        "departureTime": "14:57:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "15:02:30",
-        "departureTime": "15:02:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "15:06:00",
-        "departureTime": "15:06:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_1506_29237",
-      "trainNumber": "2230M"
-    },
-    "throughTripId": "WD_INB_SM-06_1506_29237",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "WD_OUT_NR-16_1447_18064",
     "lineId": "narita",
     "trainId": "18064",
@@ -12075,60 +11373,6 @@
       "trainNumber": "2031M"
     },
     "prevTripId": "WD_OUT_SM-01_1428_29331",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_OUT_NR-36_1456_30363",
-    "lineId": "narita",
-    "trainId": "30363",
-    "trainNumber": "2231M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス31号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "14:42:00",
-        "departureTime": "14:42:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "14:44:28",
-        "departureTime": "14:44:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "14:48:14",
-        "departureTime": "14:48:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "14:54:00",
-        "departureTime": "14:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "14:58:00",
-        "departureTime": "14:58:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "WD_OUT_SM-01_1428_31117",
-      "trainNumber": "2231M"
-    },
-    "prevTripId": "WD_OUT_SM-01_1428_31117",
     "prevLineId": "sobu_main"
   },
   {
@@ -12851,60 +12095,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "WD_INB_NR-37_1544_29238",
-    "lineId": "narita",
-    "trainId": "29238",
-    "trainNumber": "2234M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス34号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "15:44:00",
-        "departureTime": "15:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "15:48:00",
-        "departureTime": "15:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "15:56:10",
-        "departureTime": "15:56:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "16:01:30",
-        "departureTime": "16:01:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "16:05:00",
-        "departureTime": "16:05:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_1605_29238",
-      "trainNumber": "2234M"
-    },
-    "throughTripId": "WD_INB_SM-06_1605_29238",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "WD_INB_NR-03_1544_40275",
     "lineId": "narita",
     "trainId": "40275",
@@ -13179,60 +12369,6 @@
       "trainNumber": "2035M"
     },
     "prevTripId": "WD_OUT_SM-01_1527_29332",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_OUT_NR-36_1555_30364",
-    "lineId": "narita",
-    "trainId": "30364",
-    "trainNumber": "2235M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス35号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "15:41:00",
-        "departureTime": "15:41:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "15:43:28",
-        "departureTime": "15:43:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "15:47:14",
-        "departureTime": "15:47:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "15:53:00",
-        "departureTime": "15:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "15:57:00",
-        "departureTime": "15:57:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "WD_OUT_SM-01_1527_31118",
-      "trainNumber": "2235M"
-    },
-    "prevTripId": "WD_OUT_SM-01_1527_31118",
     "prevLineId": "sobu_main"
   },
   {
@@ -14004,60 +13140,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "WD_INB_NR-37_1644_29239",
-    "lineId": "narita",
-    "trainId": "29239",
-    "trainNumber": "2238M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス38号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "16:44:00",
-        "departureTime": "16:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "16:48:00",
-        "departureTime": "16:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "16:56:10",
-        "departureTime": "16:56:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "17:01:30",
-        "departureTime": "17:01:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "17:05:00",
-        "departureTime": "17:05:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_1705_29239",
-      "trainNumber": "2238M"
-    },
-    "throughTripId": "WD_INB_SM-06_1705_29239",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "WD_INB_NR-03_1644_40277",
     "lineId": "narita",
     "trainId": "40277",
@@ -14589,14 +13671,14 @@
     "stops": [
       {
         "stationId": "NR-01",
-        "arrivalTime": "16:42:00",
-        "departureTime": "16:42:00",
+        "arrivalTime": "17:03:00",
+        "departureTime": "17:03:00",
         "isPassing": true
       },
       {
         "stationId": "NR-02",
-        "arrivalTime": "16:54:08",
-        "departureTime": "16:54:08",
+        "arrivalTime": "17:10:49",
+        "departureTime": "17:10:49",
         "isPassing": true
       },
       {
@@ -14781,60 +13863,6 @@
       "trainNumber": "2040M"
     },
     "throughTripId": "WD_INB_SM-06_1736_29201",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_INB_NR-37_1716_29230",
-    "lineId": "narita",
-    "trainId": "29230",
-    "trainNumber": "2240M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス40号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "17:16:00",
-        "departureTime": "17:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "17:17:00",
-        "departureTime": "17:19:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "17:27:10",
-        "departureTime": "17:27:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "17:32:30",
-        "departureTime": "17:32:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "17:36:00",
-        "departureTime": "17:36:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_1736_29230",
-      "trainNumber": "2240M"
-    },
-    "throughTripId": "WD_INB_SM-06_1736_29230",
     "throughLineId": "sobu_main"
   },
   {
@@ -15720,14 +14748,14 @@
     "stops": [
       {
         "stationId": "NR-01",
-        "arrivalTime": "17:42:00",
-        "departureTime": "17:42:00",
+        "arrivalTime": "18:04:00",
+        "departureTime": "18:04:00",
         "isPassing": true
       },
       {
         "stationId": "NR-02",
-        "arrivalTime": "17:54:08",
-        "departureTime": "17:54:08",
+        "arrivalTime": "18:11:37",
+        "departureTime": "18:11:37",
         "isPassing": true
       },
       {
@@ -16466,60 +15494,6 @@
     "prevLineId": "sobu_main"
   },
   {
-    "tripId": "WD_OUT_NR-01_1842_30367",
-    "lineId": "narita",
-    "trainId": "30367",
-    "trainNumber": "2247M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス47号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "18:43:00",
-        "departureTime": "18:43:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "18:46:54",
-        "departureTime": "18:46:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "18:52:52",
-        "departureTime": "18:52:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "19:02:00",
-        "departureTime": "19:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "19:06:00",
-        "departureTime": "19:06:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "WD_OUT_SM-01_1829_30367",
-      "trainNumber": "2247M"
-    },
-    "prevTripId": "WD_OUT_SM-01_1829_30367",
-    "prevLineId": "sobu_main"
-  },
-  {
     "tripId": "WD_OUT_NR-20_1842_39166",
     "lineId": "narita",
     "trainId": "39166",
@@ -16649,60 +15623,6 @@
       "trainNumber": "2046M"
     },
     "throughTripId": "WD_INB_SM-06_1906_29212",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_INB_NR-37_1845_29240",
-    "lineId": "narita",
-    "trainId": "29240",
-    "trainNumber": "2246M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス46号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "18:45:00",
-        "departureTime": "18:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "18:48:00",
-        "departureTime": "18:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "18:56:38",
-        "departureTime": "18:56:38",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "19:02:17",
-        "departureTime": "19:02:17",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "19:06:00",
-        "departureTime": "19:06:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_1906_29240",
-      "trainNumber": "2246M"
-    },
-    "throughTripId": "WD_INB_SM-06_1906_29240",
     "throughLineId": "sobu_main"
   },
   {
@@ -17694,60 +16614,6 @@
     "prevLineId": "sobu_main"
   },
   {
-    "tripId": "WD_OUT_NR-01_1944_30368",
-    "lineId": "narita",
-    "trainId": "30368",
-    "trainNumber": "2251M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス51号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "19:45:00",
-        "departureTime": "19:45:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "19:49:07",
-        "departureTime": "19:49:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "19:55:23",
-        "departureTime": "19:55:23",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "20:05:00",
-        "departureTime": "20:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "20:09:00",
-        "departureTime": "20:09:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "WD_OUT_SM-01_1931_30368",
-      "trainNumber": "2251M"
-    },
-    "prevTripId": "WD_OUT_SM-01_1931_30368",
-    "prevLineId": "sobu_main"
-  },
-  {
     "tripId": "WD_OUT_NR-01_1947_41371",
     "lineId": "narita",
     "trainId": "41371",
@@ -17967,60 +16833,6 @@
       "trainNumber": "2050M"
     },
     "throughTripId": "WD_INB_SM-06_2008_29213",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_INB_NR-37_1949_29241",
-    "lineId": "narita",
-    "trainId": "29241",
-    "trainNumber": "2250M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス50号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "19:49:00",
-        "departureTime": "19:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "19:53:00",
-        "departureTime": "19:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "20:00:12",
-        "departureTime": "20:00:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "20:04:54",
-        "departureTime": "20:04:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "20:08:00",
-        "departureTime": "20:08:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_2008_29241",
-      "trainNumber": "2250M"
-    },
-    "throughTripId": "WD_INB_SM-06_2008_29241",
     "throughLineId": "sobu_main"
   },
   {
@@ -18934,60 +17746,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "WD_INB_NR-37_2044_29242",
-    "lineId": "narita",
-    "trainId": "29242",
-    "trainNumber": "2252M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス52号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "20:44:00",
-        "departureTime": "20:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "20:47:00",
-        "departureTime": "20:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "20:53:14",
-        "departureTime": "20:53:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "20:57:19",
-        "departureTime": "20:57:19",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "21:00:00",
-        "departureTime": "21:00:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_2102_29242",
-      "trainNumber": "2252M"
-    },
-    "throughTripId": "WD_INB_SM-06_2102_29242",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "WD_INB_NR-17_2046_18145",
     "lineId": "narita",
     "trainId": "18145",
@@ -19066,60 +17824,6 @@
       "trainNumber": "2053M"
     },
     "prevTripId": "WD_OUT_SM-01_2035_29262",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_OUT_NR-01_2049_30369",
-    "lineId": "narita",
-    "trainId": "30369",
-    "trainNumber": "2253M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス53号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "20:49:00",
-        "departureTime": "20:49:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "20:53:07",
-        "departureTime": "20:53:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "20:59:23",
-        "departureTime": "20:59:23",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "21:09:00",
-        "departureTime": "21:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "21:13:00",
-        "departureTime": "21:13:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "WD_OUT_SM-01_2035_30369",
-      "trainNumber": "2253M"
-    },
-    "prevTripId": "WD_OUT_SM-01_2035_30369",
     "prevLineId": "sobu_main"
   },
   {
@@ -19970,60 +18674,6 @@
       "trainNumber": "2054M"
     },
     "throughTripId": "WD_INB_SM-06_2155_29202",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "WD_INB_NR-37_2144_29231",
-    "lineId": "narita",
-    "trainId": "29231",
-    "trainNumber": "2254M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス54号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "21:44:00",
-        "departureTime": "21:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "21:45:00",
-        "departureTime": "21:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "21:50:50",
-        "departureTime": "21:50:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "21:53:21",
-        "departureTime": "21:53:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "21:55:00",
-        "departureTime": "21:55:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "WD_INB_SM-06_2155_29231",
-      "trainNumber": "2254M"
-    },
-    "throughTripId": "WD_INB_SM-06_2155_29231",
     "throughLineId": "sobu_main"
   },
   {
@@ -23725,14 +22375,14 @@
     "stops": [
       {
         "stationId": "NR-01",
-        "arrivalTime": "06:58:00",
-        "departureTime": "06:58:00",
+        "arrivalTime": "07:06:00",
+        "departureTime": "07:06:00",
         "isPassing": true
       },
       {
         "stationId": "NR-02",
-        "arrivalTime": "07:04:47",
-        "departureTime": "07:04:47",
+        "arrivalTime": "07:11:08",
+        "departureTime": "07:11:08",
         "isPassing": true
       },
       {
@@ -24334,60 +22984,6 @@
       "trainNumber": "2002M"
     },
     "throughTripId": "HD_INB_SM-06_0800_29215",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_INB_NR-37_0737_29245",
-    "lineId": "narita",
-    "trainId": "29245",
-    "trainNumber": "2202M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス2号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "07:37:00",
-        "departureTime": "07:37:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "07:38:00",
-        "departureTime": "07:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "07:48:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "07:55:52",
-        "departureTime": "07:55:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "08:00:00",
-        "departureTime": "08:00:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_0800_29245",
-      "trainNumber": "2202M"
-    },
-    "throughTripId": "HD_INB_SM-06_0800_29245",
     "throughLineId": "sobu_main"
   },
   {
@@ -25378,60 +23974,6 @@
     "prevLineId": "sobu_main"
   },
   {
-    "tripId": "HD_OUT_NR-36_0834_30356",
-    "lineId": "narita",
-    "trainId": "30356",
-    "trainNumber": "2205M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス5号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "08:12:00",
-        "departureTime": "08:12:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "08:16:07",
-        "departureTime": "08:16:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "08:22:23",
-        "departureTime": "08:22:23",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "08:32:00",
-        "departureTime": "08:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "08:36:00",
-        "departureTime": "08:36:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "HD_OUT_SM-01_0758_31110",
-      "trainNumber": "2205M"
-    },
-    "prevTripId": "HD_OUT_SM-01_0758_31110",
-    "prevLineId": "sobu_main"
-  },
-  {
     "tripId": "HD_INB_NR-37_0837_5886",
     "lineId": "narita",
     "trainId": "5886",
@@ -25795,60 +24337,6 @@
       "trainNumber": "2006M"
     },
     "throughTripId": "HD_INB_SM-06_0916_29216",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_INB_NR-37_0849_29246",
-    "lineId": "narita",
-    "trainId": "29246",
-    "trainNumber": "2206M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス6号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "08:49:00",
-        "departureTime": "08:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "08:51:00",
-        "departureTime": "08:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "09:04:00",
-        "departureTime": "09:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "09:10:28",
-        "departureTime": "09:10:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "09:15:00",
-        "departureTime": "09:15:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_0916_29246",
-      "trainNumber": "2206M"
-    },
-    "throughTripId": "HD_INB_SM-06_0916_29246",
     "throughLineId": "sobu_main"
   },
   {
@@ -26907,60 +25395,6 @@
       "trainNumber": "2010M"
     },
     "throughTripId": "HD_INB_SM-06_1005_29203",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_INB_NR-37_0946_29232",
-    "lineId": "narita",
-    "trainId": "29232",
-    "trainNumber": "2210M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス10号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "09:46:00",
-        "departureTime": "09:46:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "09:49:00",
-        "departureTime": "09:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "09:56:41",
-        "departureTime": "09:56:41",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "10:01:42",
-        "departureTime": "10:01:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "10:05:00",
-        "departureTime": "10:05:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_1005_29232",
-      "trainNumber": "2210M"
-    },
-    "throughTripId": "HD_INB_SM-06_1005_29232",
     "throughLineId": "sobu_main"
   },
   {
@@ -28184,60 +26618,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "HD_INB_NR-37_1045_29233",
-    "lineId": "narita",
-    "trainId": "29233",
-    "trainNumber": "2214M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス14号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "10:45:00",
-        "departureTime": "10:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "10:48:00",
-        "departureTime": "10:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "10:56:10",
-        "departureTime": "10:56:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "11:01:30",
-        "departureTime": "11:01:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "11:05:00",
-        "departureTime": "11:05:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_1105_29233",
-      "trainNumber": "2214M"
-    },
-    "throughTripId": "HD_INB_SM-06_1105_29233",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "HD_OUT_NR-20_1047_40222",
     "lineId": "narita",
     "trainId": "40222",
@@ -28399,60 +26779,6 @@
       "trainNumber": "2015M"
     },
     "prevTripId": "HD_OUT_SM-01_1028_29327",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_OUT_NR-36_1056_30358",
-    "lineId": "narita",
-    "trainId": "30358",
-    "trainNumber": "2215M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス15号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "10:42:00",
-        "departureTime": "10:42:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "10:44:28",
-        "departureTime": "10:44:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "10:48:14",
-        "departureTime": "10:48:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "10:54:00",
-        "departureTime": "10:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "10:58:00",
-        "departureTime": "10:58:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "HD_OUT_SM-01_1028_31112",
-      "trainNumber": "2215M"
-    },
-    "prevTripId": "HD_OUT_SM-01_1028_31112",
     "prevLineId": "sobu_main"
   },
   {
@@ -29245,60 +27571,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "HD_INB_NR-37_1144_29234",
-    "lineId": "narita",
-    "trainId": "29234",
-    "trainNumber": "2218M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス18号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "11:44:00",
-        "departureTime": "11:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "11:48:00",
-        "departureTime": "11:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "11:56:10",
-        "departureTime": "11:56:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "12:01:30",
-        "departureTime": "12:01:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "12:05:00",
-        "departureTime": "12:05:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_1205_29234",
-      "trainNumber": "2218M"
-    },
-    "throughTripId": "HD_INB_SM-06_1205_29234",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "HD_INB_NR-03_1144_40271",
     "lineId": "narita",
     "trainId": "40271",
@@ -29623,60 +27895,6 @@
       "trainNumber": "2019M"
     },
     "prevTripId": "HD_OUT_SM-01_1128_29328",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_OUT_NR-36_1155_30360",
-    "lineId": "narita",
-    "trainId": "30360",
-    "trainNumber": "2219M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス19号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "11:42:00",
-        "departureTime": "11:42:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "11:44:15",
-        "departureTime": "11:44:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "11:47:42",
-        "departureTime": "11:47:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "11:53:00",
-        "departureTime": "11:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "11:57:00",
-        "departureTime": "11:57:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "HD_OUT_SM-01_1128_31114",
-      "trainNumber": "2219M"
-    },
-    "prevTripId": "HD_OUT_SM-01_1128_31114",
     "prevLineId": "sobu_main"
   },
   {
@@ -30592,60 +28810,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "HD_INB_NR-37_1245_29235",
-    "lineId": "narita",
-    "trainId": "29235",
-    "trainNumber": "2222M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス22号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "12:45:00",
-        "departureTime": "12:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "12:49:00",
-        "departureTime": "12:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "12:57:10",
-        "departureTime": "12:57:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "13:02:30",
-        "departureTime": "13:02:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "13:06:00",
-        "departureTime": "13:06:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_1306_29235",
-      "trainNumber": "2222M"
-    },
-    "throughTripId": "HD_INB_SM-06_1306_29235",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "HD_OUT_NR-20_1247_40224",
     "lineId": "narita",
     "trainId": "40224",
@@ -30897,60 +29061,6 @@
       "trainNumber": "2023M"
     },
     "prevTripId": "HD_OUT_SM-01_1228_29329",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_OUT_NR-36_1256_30361",
-    "lineId": "narita",
-    "trainId": "30361",
-    "trainNumber": "2223M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス23号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "12:42:00",
-        "departureTime": "12:42:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "12:44:28",
-        "departureTime": "12:44:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "12:48:14",
-        "departureTime": "12:48:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "12:54:00",
-        "departureTime": "12:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "12:58:00",
-        "departureTime": "12:58:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "HD_OUT_SM-01_1228_31115",
-      "trainNumber": "2223M"
-    },
-    "prevTripId": "HD_OUT_SM-01_1228_31115",
     "prevLineId": "sobu_main"
   },
   {
@@ -31755,60 +29865,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "HD_INB_NR-37_1344_29236",
-    "lineId": "narita",
-    "trainId": "29236",
-    "trainNumber": "2226M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス26号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "13:44:00",
-        "departureTime": "13:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "13:48:00",
-        "departureTime": "13:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "13:56:10",
-        "departureTime": "13:56:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "14:01:30",
-        "departureTime": "14:01:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "14:05:00",
-        "departureTime": "14:05:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_1405_29236",
-      "trainNumber": "2226M"
-    },
-    "throughTripId": "HD_INB_SM-06_1405_29236",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "HD_INB_NR-03_1344_40273",
     "lineId": "narita",
     "trainId": "40273",
@@ -32160,60 +30216,6 @@
       "trainNumber": "2027M"
     },
     "prevTripId": "HD_OUT_SM-01_1328_29330",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_OUT_NR-36_1355_30362",
-    "lineId": "narita",
-    "trainId": "30362",
-    "trainNumber": "2227M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス27号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "13:42:00",
-        "departureTime": "13:42:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "13:44:15",
-        "departureTime": "13:44:15",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "13:47:42",
-        "departureTime": "13:47:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "13:53:00",
-        "departureTime": "13:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "13:57:00",
-        "departureTime": "13:57:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "HD_OUT_SM-01_1328_31116",
-      "trainNumber": "2227M"
-    },
-    "prevTripId": "HD_OUT_SM-01_1328_31116",
     "prevLineId": "sobu_main"
   },
   {
@@ -32977,60 +30979,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "HD_INB_NR-37_1445_29237",
-    "lineId": "narita",
-    "trainId": "29237",
-    "trainNumber": "2230M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス30号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "14:45:00",
-        "departureTime": "14:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "14:49:00",
-        "departureTime": "14:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "14:57:10",
-        "departureTime": "14:57:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "15:02:30",
-        "departureTime": "15:02:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "15:06:00",
-        "departureTime": "15:06:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_1506_29237",
-      "trainNumber": "2230M"
-    },
-    "throughTripId": "HD_INB_SM-06_1506_29237",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "HD_OUT_NR-16_1447_18064",
     "lineId": "narita",
     "trainId": "18064",
@@ -33282,60 +31230,6 @@
       "trainNumber": "2031M"
     },
     "prevTripId": "HD_OUT_SM-01_1428_29331",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_OUT_NR-36_1456_30363",
-    "lineId": "narita",
-    "trainId": "30363",
-    "trainNumber": "2231M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス31号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "14:42:00",
-        "departureTime": "14:42:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "14:44:28",
-        "departureTime": "14:44:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "14:48:14",
-        "departureTime": "14:48:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "14:54:00",
-        "departureTime": "14:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "14:58:00",
-        "departureTime": "14:58:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "HD_OUT_SM-01_1428_31117",
-      "trainNumber": "2231M"
-    },
-    "prevTripId": "HD_OUT_SM-01_1428_31117",
     "prevLineId": "sobu_main"
   },
   {
@@ -34058,60 +31952,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "HD_INB_NR-37_1544_29238",
-    "lineId": "narita",
-    "trainId": "29238",
-    "trainNumber": "2234M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス34号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "15:44:00",
-        "departureTime": "15:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "15:48:00",
-        "departureTime": "15:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "15:56:10",
-        "departureTime": "15:56:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "16:01:30",
-        "departureTime": "16:01:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "16:05:00",
-        "departureTime": "16:05:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_1605_29238",
-      "trainNumber": "2234M"
-    },
-    "throughTripId": "HD_INB_SM-06_1605_29238",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "HD_INB_NR-03_1544_40275",
     "lineId": "narita",
     "trainId": "40275",
@@ -34386,60 +32226,6 @@
       "trainNumber": "2035M"
     },
     "prevTripId": "HD_OUT_SM-01_1527_29332",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_OUT_NR-36_1555_30364",
-    "lineId": "narita",
-    "trainId": "30364",
-    "trainNumber": "2235M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス35号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "15:41:00",
-        "departureTime": "15:41:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "15:43:28",
-        "departureTime": "15:43:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "15:47:14",
-        "departureTime": "15:47:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "15:53:00",
-        "departureTime": "15:55:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "15:57:00",
-        "departureTime": "15:57:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "HD_OUT_SM-01_1527_31118",
-      "trainNumber": "2235M"
-    },
-    "prevTripId": "HD_OUT_SM-01_1527_31118",
     "prevLineId": "sobu_main"
   },
   {
@@ -35215,60 +33001,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "HD_INB_NR-37_1644_29239",
-    "lineId": "narita",
-    "trainId": "29239",
-    "trainNumber": "2238M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス38号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "16:44:00",
-        "departureTime": "16:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "16:48:00",
-        "departureTime": "16:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "16:56:10",
-        "departureTime": "16:56:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "17:01:30",
-        "departureTime": "17:01:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "17:05:00",
-        "departureTime": "17:05:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_1705_29239",
-      "trainNumber": "2238M"
-    },
-    "throughTripId": "HD_INB_SM-06_1705_29239",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "HD_INB_NR-03_1644_40277",
     "lineId": "narita",
     "trainId": "40277",
@@ -35800,14 +33532,14 @@
     "stops": [
       {
         "stationId": "NR-01",
-        "arrivalTime": "16:42:00",
-        "departureTime": "16:42:00",
+        "arrivalTime": "17:03:00",
+        "departureTime": "17:03:00",
         "isPassing": true
       },
       {
         "stationId": "NR-02",
-        "arrivalTime": "16:54:08",
-        "departureTime": "16:54:08",
+        "arrivalTime": "17:10:49",
+        "departureTime": "17:10:49",
         "isPassing": true
       },
       {
@@ -35996,60 +33728,6 @@
       "trainNumber": "2040M"
     },
     "throughTripId": "HD_INB_SM-06_1736_29201",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_INB_NR-37_1716_29230",
-    "lineId": "narita",
-    "trainId": "29230",
-    "trainNumber": "2240M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス40号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "17:16:00",
-        "departureTime": "17:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "17:17:00",
-        "departureTime": "17:19:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "17:27:10",
-        "departureTime": "17:27:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "17:32:30",
-        "departureTime": "17:32:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "17:36:00",
-        "departureTime": "17:36:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_1736_29230",
-      "trainNumber": "2240M"
-    },
-    "throughTripId": "HD_INB_SM-06_1736_29230",
     "throughLineId": "sobu_main"
   },
   {
@@ -36931,14 +34609,14 @@
     "stops": [
       {
         "stationId": "NR-01",
-        "arrivalTime": "17:42:00",
-        "departureTime": "17:42:00",
+        "arrivalTime": "18:04:00",
+        "departureTime": "18:04:00",
         "isPassing": true
       },
       {
         "stationId": "NR-02",
-        "arrivalTime": "17:54:08",
-        "departureTime": "17:54:08",
+        "arrivalTime": "18:11:37",
+        "departureTime": "18:11:37",
         "isPassing": true
       },
       {
@@ -37580,14 +35258,14 @@
       },
       {
         "stationId": "NR-02",
-        "arrivalTime": "18:59:49",
-        "departureTime": "18:59:49",
+        "arrivalTime": "18:57:26",
+        "departureTime": "18:57:26",
         "isPassing": true
       },
       {
         "stationId": "NR-01",
-        "arrivalTime": "19:06:00",
-        "departureTime": "19:06:00",
+        "arrivalTime": "19:03:00",
+        "departureTime": "19:03:00",
         "isPassing": true
       }
     ],
@@ -37680,60 +35358,6 @@
       "trainNumber": "2047M"
     },
     "prevTripId": "HD_OUT_SM-01_1829_29260",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_OUT_NR-01_1842_30367",
-    "lineId": "narita",
-    "trainId": "30367",
-    "trainNumber": "2247M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス47号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "18:43:00",
-        "departureTime": "18:43:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "18:46:54",
-        "departureTime": "18:46:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "18:52:52",
-        "departureTime": "18:52:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "19:02:00",
-        "departureTime": "19:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "19:06:00",
-        "departureTime": "19:06:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "HD_OUT_SM-01_1829_30367",
-      "trainNumber": "2247M"
-    },
-    "prevTripId": "HD_OUT_SM-01_1829_30367",
     "prevLineId": "sobu_main"
   },
   {
@@ -37866,60 +35490,6 @@
       "trainNumber": "2046M"
     },
     "throughTripId": "HD_INB_SM-06_1906_29212",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_INB_NR-37_1845_29240",
-    "lineId": "narita",
-    "trainId": "29240",
-    "trainNumber": "2246M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス46号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "18:45:00",
-        "departureTime": "18:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "18:48:00",
-        "departureTime": "18:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "18:56:38",
-        "departureTime": "18:56:38",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "19:02:17",
-        "departureTime": "19:02:17",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "19:06:00",
-        "departureTime": "19:06:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_1906_29240",
-      "trainNumber": "2246M"
-    },
-    "throughTripId": "HD_INB_SM-06_1906_29240",
     "throughLineId": "sobu_main"
   },
   {
@@ -38911,60 +36481,6 @@
     "prevLineId": "sobu_main"
   },
   {
-    "tripId": "HD_OUT_NR-01_1944_30368",
-    "lineId": "narita",
-    "trainId": "30368",
-    "trainNumber": "2251M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス51号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "19:45:00",
-        "departureTime": "19:45:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "19:49:07",
-        "departureTime": "19:49:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "19:55:23",
-        "departureTime": "19:55:23",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "20:05:00",
-        "departureTime": "20:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "20:09:00",
-        "departureTime": "20:09:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "HD_OUT_SM-01_1931_30368",
-      "trainNumber": "2251M"
-    },
-    "prevTripId": "HD_OUT_SM-01_1931_30368",
-    "prevLineId": "sobu_main"
-  },
-  {
     "tripId": "HD_OUT_NR-01_1947_29263",
     "lineId": "narita",
     "trainId": "29263",
@@ -39184,60 +36700,6 @@
       "trainNumber": "2050M"
     },
     "throughTripId": "HD_INB_SM-06_2008_29213",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_INB_NR-37_1949_29241",
-    "lineId": "narita",
-    "trainId": "29241",
-    "trainNumber": "2250M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス50号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "19:49:00",
-        "departureTime": "19:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "19:53:00",
-        "departureTime": "19:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "20:00:12",
-        "departureTime": "20:00:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "20:04:54",
-        "departureTime": "20:04:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "20:08:00",
-        "departureTime": "20:08:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_2008_29241",
-      "trainNumber": "2250M"
-    },
-    "throughTripId": "HD_INB_SM-06_2008_29241",
     "throughLineId": "sobu_main"
   },
   {
@@ -40143,60 +37605,6 @@
     "throughLineId": "sobu_main"
   },
   {
-    "tripId": "HD_INB_NR-37_2044_29242",
-    "lineId": "narita",
-    "trainId": "29242",
-    "trainNumber": "2252M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス52号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "20:44:00",
-        "departureTime": "20:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "20:47:00",
-        "departureTime": "20:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "20:53:14",
-        "departureTime": "20:53:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "20:57:19",
-        "departureTime": "20:57:19",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "21:00:00",
-        "departureTime": "21:00:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_2102_29242",
-      "trainNumber": "2252M"
-    },
-    "throughTripId": "HD_INB_SM-06_2102_29242",
-    "throughLineId": "sobu_main"
-  },
-  {
     "tripId": "HD_INB_NR-17_2046_18145",
     "lineId": "narita",
     "trainId": "18145",
@@ -40275,60 +37683,6 @@
       "trainNumber": "2053M"
     },
     "prevTripId": "HD_OUT_SM-01_2035_29262",
-    "prevLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_OUT_NR-01_2049_30369",
-    "lineId": "narita",
-    "trainId": "30369",
-    "trainNumber": "2253M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス53号",
-    "direction": "outbound",
-    "originStationId": "NR-01",
-    "destinationStationId": "NR-37",
-    "customOrigin": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "20:49:00",
-        "departureTime": "20:49:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "20:53:07",
-        "departureTime": "20:53:07",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "20:59:23",
-        "departureTime": "20:59:23",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "21:09:00",
-        "departureTime": "21:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "21:13:00",
-        "departureTime": "21:13:00",
-        "isPassing": false
-      }
-    ],
-    "customDestination": "成田空港",
-    "previousTrip": {
-      "lineId": "sobu_main",
-      "tripId": "HD_OUT_SM-01_2035_30369",
-      "trainNumber": "2253M"
-    },
-    "prevTripId": "HD_OUT_SM-01_2035_30369",
     "prevLineId": "sobu_main"
   },
   {
@@ -41173,60 +38527,6 @@
       "trainNumber": "2054M"
     },
     "throughTripId": "HD_INB_SM-06_2155_29202",
-    "throughLineId": "sobu_main"
-  },
-  {
-    "tripId": "HD_INB_NR-37_2144_29231",
-    "lineId": "narita",
-    "trainId": "29231",
-    "trainNumber": "2254M",
-    "trainType": "limitedExp",
-    "trainName": "成田エクスプレス54号",
-    "direction": "inbound",
-    "originStationId": "NR-37",
-    "destinationStationId": "NR-01",
-    "customDestination": "新宿",
-    "cars": 10,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "NR-37",
-        "arrivalTime": "21:44:00",
-        "departureTime": "21:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-36",
-        "arrivalTime": "21:45:00",
-        "departureTime": "21:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "NR-03",
-        "arrivalTime": "21:50:50",
-        "departureTime": "21:50:50",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-02",
-        "arrivalTime": "21:53:21",
-        "departureTime": "21:53:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "NR-01",
-        "arrivalTime": "21:55:00",
-        "departureTime": "21:55:00",
-        "isPassing": true
-      }
-    ],
-    "customOrigin": "成田空港",
-    "through": {
-      "lineId": "sobu_main",
-      "tripId": "HD_INB_SM-06_2155_29231",
-      "trainNumber": "2254M"
-    },
-    "throughTripId": "HD_INB_SM-06_2155_29231",
     "throughLineId": "sobu_main"
   },
   {

@@ -11242,14 +11242,14 @@
     "direction": "outbound",
     "originStationId": "TY-01",
     "destinationStationId": "TY-21",
-    "customOrigin": "和光市",
+    "customOrigin": "新宿三丁目",
     "customDestination": "元町・中華街",
     "cars": 8,
     "isHoliday": false,
     "stops": [
       {
         "stationId": "TY-01",
-        "arrivalTime": "07:40:00",
+        "arrivalTime": "07:29:00",
         "departureTime": "07:41:00",
         "isPassing": false
       },
@@ -11375,7 +11375,7 @@
       }
     ],
     "trainId": "723-071レ",
-    "prevTripId": "WD_OUT_F-01_0704_75399",
+    "prevTripId": "WD_OUT_F-13_0723_75232",
     "prevLineId": "fukutoshin",
     "throughTripId": "WD_OUT_MM-01_0817_105662",
     "throughLineId": "minatomirai"
@@ -14075,6 +14075,8 @@
       }
     ],
     "trainId": "011-081レ",
+    "prevTripId": "WD_OUT_F-01_0704_75399",
+    "prevLineId": "fukutoshin",
     "throughTripId": "WD_OUT_MM-01_0857_75455",
     "throughLineId": "minatomirai"
   },
@@ -19476,7 +19478,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "787-082レ"
+    "trainId": "787-082レ",
+    "throughTripId": "WD_INB_F-16_0943_105742",
+    "throughLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TY-21_0902_106370",
@@ -19945,8 +19949,6 @@
       }
     ],
     "trainId": "105742",
-    "throughTripId": "WD_INB_F-16_0943_105742",
-    "throughLineId": "fukutoshin",
     "prevTripId": "WD_INB_MM-06_0857_105742",
     "prevLineId": "minatomirai"
   },
@@ -84530,9 +84532,7 @@
     ],
     "trainId": "008-221レ",
     "prevTripId": "WD_OUT_F-01_2124_75344",
-    "prevLineId": "fukutoshin",
-    "throughTripId": "WD_OUT_MM-01_2320_75509",
-    "throughLineId": "minatomirai"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TY-21_2215_105769",
@@ -85294,7 +85294,9 @@
     "customOrigin": "和光市",
     "trainId": "105785",
     "prevTripId": "WD_OUT_F-01_2138_75401",
-    "prevLineId": "fukutoshin"
+    "prevLineId": "fukutoshin",
+    "throughTripId": "WD_OUT_MM-01_2320_75509",
+    "throughLineId": "minatomirai"
   },
   {
     "tripId": "WD_INB_TY-13_2221_125168",
@@ -88136,13 +88138,13 @@
       {
         "stationId": "TY-21",
         "arrivalTime": "23:50:00",
-        "departureTime": "23:58:00",
+        "departureTime": "00:06:00",
         "isPassing": false
       }
     ],
     "customOrigin": "渋谷",
     "trainId": "105747",
-    "throughTripId": "WD_OUT_MM-01_2358_75512",
+    "throughTripId": "WD_OUT_MM-01_0006_105749",
     "throughLineId": "minatomirai"
   },
   {
@@ -89129,7 +89131,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "75564"
+    "trainId": "75564",
+    "throughTripId": "WD_OUT_MM-01_2358_75512",
+    "throughLineId": "minatomirai"
   },
   {
     "tripId": "WD_OUT_TY-01_2316_105749",
@@ -89266,13 +89270,13 @@
       {
         "stationId": "TY-21",
         "arrivalTime": "00:05:00",
-        "departureTime": "00:06:00",
+        "departureTime": "00:28:00",
         "isPassing": false
       }
     ],
     "customOrigin": "渋谷",
     "trainId": "105749",
-    "throughTripId": "WD_OUT_MM-01_0006_105749",
+    "throughTripId": "WD_OUT_MM-01_0028_145124",
     "throughLineId": "minatomirai"
   },
   {
@@ -90031,9 +90035,7 @@
     ],
     "trainId": "004-231レ",
     "prevTripId": "WD_OUT_F-06_2302_144574",
-    "prevLineId": "fukutoshin",
-    "throughTripId": "WD_OUT_MM-01_0028_145124",
-    "throughLineId": "minatomirai"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "WD_INB_TY-21_2330_106192",
@@ -104400,6 +104402,8 @@
       }
     ],
     "trainId": "020-082レ",
+    "throughTripId": "HD_INB_F-16_0919_105686",
+    "throughLineId": "fukutoshin",
     "prevTripId": "HD_INB_MM-06_0818_105689",
     "prevLineId": "minatomirai"
   },
@@ -107101,9 +107105,7 @@
       }
     ],
     "trainId": "105686",
-    "customOrigin": "武蔵小杉",
-    "throughTripId": "HD_INB_F-16_0919_105686",
-    "throughLineId": "fukutoshin"
+    "customOrigin": "武蔵小杉"
   },
   {
     "tripId": "HD_INB_TY-21_0859_105946",
@@ -162626,6 +162628,8 @@
       }
     ],
     "trainId": "813-202レ",
+    "throughTripId": "HD_INB_F-16_2109_106120",
+    "throughLineId": "fukutoshin",
     "prevTripId": "HD_INB_MM-06_2017_106458",
     "prevLineId": "minatomirai"
   },
@@ -163496,8 +163500,6 @@
       }
     ],
     "trainId": "106459",
-    "throughTripId": "HD_INB_F-16_2109_106120",
-    "throughLineId": "fukutoshin",
     "prevTripId": "HD_INB_MM-06_2026_106459",
     "prevLineId": "minatomirai"
   },
@@ -173428,9 +173430,7 @@
     "customOrigin": "所沢",
     "trainId": "001-221レ",
     "prevTripId": "HD_OUT_F-06_2231_144576",
-    "prevLineId": "fukutoshin",
-    "throughTripId": "HD_OUT_MM-01_2358_75513",
-    "throughLineId": "minatomirai"
+    "prevLineId": "fukutoshin"
   },
   {
     "tripId": "HD_OUT_TY-01_2301_145159",
@@ -173572,7 +173572,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "145159"
+    "trainId": "145159",
+    "throughTripId": "HD_OUT_MM-01_2358_75513",
+    "throughLineId": "minatomirai"
   },
   {
     "tripId": "HD_INB_TY-21_2302_105860",

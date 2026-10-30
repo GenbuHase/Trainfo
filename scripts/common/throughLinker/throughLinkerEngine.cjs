@@ -103,7 +103,7 @@ function deduplicateLineTrips(trips) {
         trainKey = `${t.trainNumber || ''}_${t.coupling.role}_${t.customDestination || ''}_${yId || ''}`;
       } else if (t.tripId && t.tripId.includes('_fuji')) {
         trainKey = `${t.trainNumber || ''}_fuji_${t.customDestination || ''}_${yId || ''}`;
-      } else if (isExpressType(t.trainType) && yId) {
+      } else if ((isLimitedExpress(t.trainType) || isExpressType(t.trainType)) && yId) {
         trainKey = `${t.trainNumber || ''}_${yId}`;
       } else if (t.trainNumber && t.customDestination) {
         trainKey = `${t.trainNumber}_${t.customDestination}`;
@@ -117,7 +117,7 @@ function deduplicateLineTrips(trips) {
     }
 
     // 異なる列車キーを持つ優等列車または併結設定列車が存在する場合、それぞれの列車を保護
-    if (byTrainOrDest.size > 1 && list.some(t => isExpressType(t.trainType) || t.coupling || (t.tripId && t.tripId.includes('_fuji')))) {
+    if (byTrainOrDest.size > 1 && list.some(t => isLimitedExpress(t.trainType) || isExpressType(t.trainType) || t.coupling || (t.tripId && t.tripId.includes('_fuji')))) {
       for (const subList of byTrainOrDest.values()) {
         if (subList.length === 1) {
           cleaned.push(subList[0]);
@@ -137,8 +137,12 @@ function deduplicateLineTrips(trips) {
   return { cleaned, dupCount };
 }
 
+function isLimitedExpress(type) {
+  return type === 'limitedExp' || type === 'limited_express';
+}
+
 function isExpressType(type) {
-  return type && type !== 'local' && type !== 'regular';
+  return type && !isLimitedExpress(type) && type !== 'local' && type !== 'regular' && type !== 'each';
 }
 
 function areDestinationsCompatible(destA, destB) {
@@ -392,6 +396,18 @@ function linkPair({
       if (tA.isHoliday !== tB.isHoliday) continue;
       if (tB.prevTripId) continue;
 
+      // 【重要】特急列車と非特急（一般普通・快速・各停等）のクロス誤接続を絶対に禁止
+      const isLtdA = isLimitedExpress(tA.trainType);
+      const isLtdB = isLimitedExpress(tB.trainType);
+      if (isLtdA !== isLtdB) {
+        // 例外: 相鉄線内特急(料金不要)とJR直通線・東急線の一般直通のみ許容
+        const isSotetsuA = lineAId.startsWith('sotetsu_');
+        const isSotetsuB = lineBId.startsWith('sotetsu_');
+        if (!((isSotetsuA && isLtdA) || (isSotetsuB && isLtdB))) {
+          continue;
+        }
+      }
+
       // 【未対応直通先遮断ルール4】東急東横線 -> 東急新横浜線 (日吉駅下り)
       // 目黒線・南北線・三田線始発（浦和美園、西高島平、赤羽岩淵等）、または日吉始発等の東横線経由でない便は除外
       if (lineAId === 'tokyu_toyoko' && lineBId === 'tokyu_shin_yokohama') {
@@ -440,11 +456,6 @@ function linkPair({
       }
 
       if (requireIdMatch) continue;
-
-      // 特急列車が一般普通・快速列車に誤接続するのを絶対に禁止
-      if (isExpressType(tA.trainType) !== isExpressType(tB.trainType)) {
-        continue;
-      }
 
       // 2. 因果律: 出発時刻は到着時刻以降（ダイヤ丸め誤差 -30秒まで許容）
       // 行先が相手路線を明示している直通便は最大1800秒（30分）まで自動許容、一般普通列車はデフォルト900秒（15分）
@@ -514,11 +525,15 @@ function linkPair({
         tA.trainNumber = bestB.trainNumber;
       }
 
-      // 列車名（愛称・号数）の相互補完
-      if (tA.trainName && !bestB.trainName) {
-        bestB.trainName = tA.trainName;
-      } else if (bestB.trainName && !tA.trainName) {
-        tA.trainName = bestB.trainName;
+      // 列車名（愛称・号数）の相互補完（特急と一般列車の間では伝播禁止）
+      const isLtdBestA = isLimitedExpress(tA.trainType);
+      const isLtdBestB = isLimitedExpress(bestB.trainType);
+      if (isLtdBestA === isLtdBestB) {
+        if (tA.trainName && !bestB.trainName) {
+          bestB.trainName = tA.trainName;
+        } else if (bestB.trainName && !tA.trainName) {
+          tA.trainName = bestB.trainName;
+        }
       }
 
       // 【必須】境界駅でのシームレス時刻同期 (空白時間による列車消失の完全防止)

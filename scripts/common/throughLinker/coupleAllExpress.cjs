@@ -354,6 +354,7 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
     const candidates = chuoTrips.filter(c =>
       c.direction === 'outbound' &&
       c.isHoliday === fujiCM.isHoliday &&
+      c.trainType === 'limitedExp' &&
       c.stops[c.stops.length - 1]?.stationId === 'JC-24' &&
       Math.abs(timeToSec(c.stops[c.stops.length - 1]?.arrivalTime) - fujiSec) <= 180
     );
@@ -437,6 +438,7 @@ function restoreChuoFujiKaiyuTrips(chuoTrips, cmTrips) {
     const candidates = chuoTrips.filter(c =>
       c.direction === 'inbound' &&
       c.isHoliday === fujiCM.isHoliday &&
+      c.trainType === 'limitedExp' &&
       c.stops[0]?.stationId === 'JC-24' &&
       Math.abs(timeToSec(c.stops[0]?.departureTime) - fujiSec) <= 180
     );

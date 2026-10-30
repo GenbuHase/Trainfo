@@ -11701,7 +11701,7 @@
     "direction": "outbound",
     "originStationId": "JT-07",
     "destinationStationId": "JT-14",
-    "customOrigin": "古河",
+    "customOrigin": "高崎",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -19360,9 +19360,7 @@
       }
     ],
     "trainId": "34185",
-    "customDestination": "平塚",
-    "prevTripId": "WD_INB_UT-02_1211_34185",
-    "prevLineId": "ueno_tokyo"
+    "customDestination": "平塚"
   },
   {
     "tripId": "WD_OUT_JT-01_1217_8328",
@@ -29832,7 +29830,7 @@
     "direction": "outbound",
     "originStationId": "JT-07",
     "destinationStationId": "JT-16",
-    "customOrigin": "高崎",
+    "customOrigin": "小金井",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -32227,7 +32225,7 @@
     "direction": "outbound",
     "originStationId": "JT-07",
     "destinationStationId": "JT-16",
-    "customOrigin": "高崎",
+    "customOrigin": "小金井",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -33072,9 +33070,7 @@
       }
     ],
     "trainId": "34281",
-    "customDestination": "熱海",
-    "prevTripId": "WD_INB_UT-02_1741_34281",
-    "prevLineId": "ueno_tokyo"
+    "customDestination": "熱海"
   },
   {
     "tripId": "WD_INB_JT-03_1748_7178",
@@ -37110,7 +37106,7 @@
     "direction": "outbound",
     "originStationId": "JT-07",
     "destinationStationId": "JT-16",
-    "customOrigin": "古河",
+    "customOrigin": "高崎",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -41587,7 +41583,7 @@
     "direction": "outbound",
     "originStationId": "JT-07",
     "destinationStationId": "JT-11",
-    "customOrigin": "高崎",
+    "customOrigin": "籠原",
     "cars": 15,
     "isHoliday": false,
     "stops": [
@@ -43099,296 +43095,6 @@
     "trainId": "37351",
     "customOrigin": "東京",
     "throughTripId": "WD_OUT_CA-00_2257_37351",
-    "throughLineId": "tokaido_shizuoka"
-  },
-  {
-    "tripId": "WD_OUT_JT-01_2126_37872",
-    "lineId": "tokaido",
-    "trainNumber": "5031M",
-    "trainType": "limitedExp",
-    "trainName": "寝台特急 サンライズ瀬戸",
-    "direction": "outbound",
-    "originStationId": "JT-01",
-    "destinationStationId": "JT-21",
-    "customDestination": "高松(香川県)",
-    "cars": 15,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JT-01",
-        "arrivalTime": "21:26:00",
-        "departureTime": "21:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JT-02",
-        "arrivalTime": "21:27:39",
-        "departureTime": "21:27:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-03",
-        "arrivalTime": "21:31:43",
-        "departureTime": "21:31:43",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-04",
-        "arrivalTime": "21:42:03",
-        "departureTime": "21:42:03",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-05",
-        "arrivalTime": "21:51:00",
-        "departureTime": "21:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JT-06",
-        "arrivalTime": "22:01:26",
-        "departureTime": "22:01:26",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-07",
-        "arrivalTime": "22:05:56",
-        "departureTime": "22:05:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-08",
-        "arrivalTime": "22:09:49",
-        "departureTime": "22:09:49",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-09",
-        "arrivalTime": "22:13:00",
-        "departureTime": "22:13:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-10",
-        "arrivalTime": "22:16:09",
-        "departureTime": "22:16:09",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-11",
-        "arrivalTime": "22:20:47",
-        "departureTime": "22:20:47",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-12",
-        "arrivalTime": "22:24:02",
-        "departureTime": "22:24:02",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-13",
-        "arrivalTime": "22:28:38",
-        "departureTime": "22:28:38",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-14",
-        "arrivalTime": "22:32:28",
-        "departureTime": "22:32:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-15",
-        "arrivalTime": "22:35:13",
-        "departureTime": "22:35:13",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-16",
-        "arrivalTime": "22:37:56",
-        "departureTime": "22:37:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-17",
-        "arrivalTime": "22:39:47",
-        "departureTime": "22:39:47",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-18",
-        "arrivalTime": "22:43:22",
-        "departureTime": "22:43:22",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-19",
-        "arrivalTime": "22:47:51",
-        "departureTime": "22:47:51",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-20",
-        "arrivalTime": "22:50:27",
-        "departureTime": "22:50:27",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-21",
-        "arrivalTime": "22:55:00",
-        "departureTime": "22:57:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "37872",
-    "customOrigin": "東京",
-    "throughTripId": "WD_OUT_CA-00_2257_37872",
-    "throughLineId": "tokaido_shizuoka"
-  },
-  {
-    "tripId": "WD_OUT_JT-01_2126_37873",
-    "lineId": "tokaido",
-    "trainNumber": "5031M",
-    "trainType": "limitedExp",
-    "trainName": "寝台特急 サンライズ瀬戸",
-    "direction": "outbound",
-    "originStationId": "JT-01",
-    "destinationStationId": "JT-21",
-    "customDestination": "琴平",
-    "cars": 15,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "JT-01",
-        "arrivalTime": "21:26:00",
-        "departureTime": "21:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JT-02",
-        "arrivalTime": "21:27:39",
-        "departureTime": "21:27:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-03",
-        "arrivalTime": "21:31:43",
-        "departureTime": "21:31:43",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-04",
-        "arrivalTime": "21:42:03",
-        "departureTime": "21:42:03",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-05",
-        "arrivalTime": "21:51:00",
-        "departureTime": "21:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JT-06",
-        "arrivalTime": "22:01:26",
-        "departureTime": "22:01:26",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-07",
-        "arrivalTime": "22:05:56",
-        "departureTime": "22:05:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-08",
-        "arrivalTime": "22:09:49",
-        "departureTime": "22:09:49",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-09",
-        "arrivalTime": "22:13:00",
-        "departureTime": "22:13:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-10",
-        "arrivalTime": "22:16:09",
-        "departureTime": "22:16:09",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-11",
-        "arrivalTime": "22:20:47",
-        "departureTime": "22:20:47",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-12",
-        "arrivalTime": "22:24:02",
-        "departureTime": "22:24:02",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-13",
-        "arrivalTime": "22:28:38",
-        "departureTime": "22:28:38",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-14",
-        "arrivalTime": "22:32:28",
-        "departureTime": "22:32:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-15",
-        "arrivalTime": "22:35:13",
-        "departureTime": "22:35:13",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-16",
-        "arrivalTime": "22:37:56",
-        "departureTime": "22:37:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-17",
-        "arrivalTime": "22:39:47",
-        "departureTime": "22:39:47",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-18",
-        "arrivalTime": "22:43:22",
-        "departureTime": "22:43:22",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-19",
-        "arrivalTime": "22:47:51",
-        "departureTime": "22:47:51",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-20",
-        "arrivalTime": "22:50:27",
-        "departureTime": "22:50:27",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-21",
-        "arrivalTime": "22:55:00",
-        "departureTime": "22:57:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "37873",
-    "customOrigin": "東京",
-    "throughTripId": "WD_OUT_CA-00_2257_37873",
     "throughLineId": "tokaido_shizuoka"
   },
   {
@@ -57909,7 +57615,7 @@
     "direction": "outbound",
     "originStationId": "JT-07",
     "destinationStationId": "JT-16",
-    "customOrigin": "高崎",
+    "customOrigin": "宇都宮",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -60381,13 +60087,13 @@
       {
         "stationId": "JT-21",
         "arrivalTime": "11:51:00",
-        "departureTime": "11:54:00",
+        "departureTime": "12:19:00",
         "isPassing": false
       }
     ],
     "trainId": "39530",
     "customOrigin": "東京",
-    "throughTripId": "HD_OUT_JT-21_1154_39530",
+    "throughTripId": "HD_OUT_JT-21_1219_39525",
     "throughLineId": "ito"
   },
   {
@@ -62044,9 +61750,7 @@
       }
     ],
     "trainId": "39525",
-    "customOrigin": "東京",
-    "throughTripId": "HD_OUT_JT-21_1219_39525",
-    "throughLineId": "ito"
+    "customOrigin": "東京"
   },
   {
     "tripId": "HD_INB_JT-21_1104_34428",
@@ -72654,9 +72358,7 @@
       }
     ],
     "trainId": "31148",
-    "customDestination": "東京",
-    "prevTripId": "HD_INB_JT-26_1441_31148",
-    "prevLineId": "ito"
+    "customDestination": "東京"
   },
   {
     "tripId": "HD_OUT_JT-01_1509_10103",
@@ -76218,7 +75920,7 @@
     "direction": "outbound",
     "originStationId": "JT-07",
     "destinationStationId": "JT-16",
-    "customOrigin": "高崎",
+    "customOrigin": "小金井",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -78751,7 +78453,7 @@
     "direction": "outbound",
     "originStationId": "JT-07",
     "destinationStationId": "JT-16",
-    "customOrigin": "高崎",
+    "customOrigin": "小金井",
     "cars": 15,
     "isHoliday": true,
     "stops": [
@@ -88241,296 +87943,6 @@
     "trainId": "37351",
     "customOrigin": "東京",
     "throughTripId": "HD_OUT_CA-00_2257_37351",
-    "throughLineId": "tokaido_shizuoka"
-  },
-  {
-    "tripId": "HD_OUT_JT-01_2126_37872",
-    "lineId": "tokaido",
-    "trainNumber": "5031M",
-    "trainType": "limitedExp",
-    "trainName": "寝台特急 サンライズ瀬戸",
-    "direction": "outbound",
-    "originStationId": "JT-01",
-    "destinationStationId": "JT-21",
-    "customDestination": "高松(香川県)",
-    "cars": 15,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JT-01",
-        "arrivalTime": "21:26:00",
-        "departureTime": "21:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JT-02",
-        "arrivalTime": "21:27:39",
-        "departureTime": "21:27:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-03",
-        "arrivalTime": "21:31:43",
-        "departureTime": "21:31:43",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-04",
-        "arrivalTime": "21:42:03",
-        "departureTime": "21:42:03",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-05",
-        "arrivalTime": "21:51:00",
-        "departureTime": "21:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JT-06",
-        "arrivalTime": "22:01:26",
-        "departureTime": "22:01:26",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-07",
-        "arrivalTime": "22:05:56",
-        "departureTime": "22:05:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-08",
-        "arrivalTime": "22:09:49",
-        "departureTime": "22:09:49",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-09",
-        "arrivalTime": "22:13:00",
-        "departureTime": "22:13:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-10",
-        "arrivalTime": "22:16:09",
-        "departureTime": "22:16:09",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-11",
-        "arrivalTime": "22:20:47",
-        "departureTime": "22:20:47",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-12",
-        "arrivalTime": "22:24:02",
-        "departureTime": "22:24:02",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-13",
-        "arrivalTime": "22:28:38",
-        "departureTime": "22:28:38",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-14",
-        "arrivalTime": "22:32:28",
-        "departureTime": "22:32:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-15",
-        "arrivalTime": "22:35:13",
-        "departureTime": "22:35:13",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-16",
-        "arrivalTime": "22:37:56",
-        "departureTime": "22:37:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-17",
-        "arrivalTime": "22:39:47",
-        "departureTime": "22:39:47",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-18",
-        "arrivalTime": "22:43:22",
-        "departureTime": "22:43:22",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-19",
-        "arrivalTime": "22:47:51",
-        "departureTime": "22:47:51",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-20",
-        "arrivalTime": "22:50:27",
-        "departureTime": "22:50:27",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-21",
-        "arrivalTime": "22:55:00",
-        "departureTime": "22:57:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "37872",
-    "customOrigin": "東京",
-    "throughTripId": "HD_OUT_CA-00_2257_37872",
-    "throughLineId": "tokaido_shizuoka"
-  },
-  {
-    "tripId": "HD_OUT_JT-01_2126_37873",
-    "lineId": "tokaido",
-    "trainNumber": "5031M",
-    "trainType": "limitedExp",
-    "trainName": "寝台特急 サンライズ瀬戸",
-    "direction": "outbound",
-    "originStationId": "JT-01",
-    "destinationStationId": "JT-21",
-    "customDestination": "琴平",
-    "cars": 15,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JT-01",
-        "arrivalTime": "21:26:00",
-        "departureTime": "21:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JT-02",
-        "arrivalTime": "21:27:39",
-        "departureTime": "21:27:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-03",
-        "arrivalTime": "21:31:43",
-        "departureTime": "21:31:43",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-04",
-        "arrivalTime": "21:42:03",
-        "departureTime": "21:42:03",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-05",
-        "arrivalTime": "21:51:00",
-        "departureTime": "21:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JT-06",
-        "arrivalTime": "22:01:26",
-        "departureTime": "22:01:26",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-07",
-        "arrivalTime": "22:05:56",
-        "departureTime": "22:05:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-08",
-        "arrivalTime": "22:09:49",
-        "departureTime": "22:09:49",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-09",
-        "arrivalTime": "22:13:00",
-        "departureTime": "22:13:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-10",
-        "arrivalTime": "22:16:09",
-        "departureTime": "22:16:09",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-11",
-        "arrivalTime": "22:20:47",
-        "departureTime": "22:20:47",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-12",
-        "arrivalTime": "22:24:02",
-        "departureTime": "22:24:02",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-13",
-        "arrivalTime": "22:28:38",
-        "departureTime": "22:28:38",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-14",
-        "arrivalTime": "22:32:28",
-        "departureTime": "22:32:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-15",
-        "arrivalTime": "22:35:13",
-        "departureTime": "22:35:13",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-16",
-        "arrivalTime": "22:37:56",
-        "departureTime": "22:37:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-17",
-        "arrivalTime": "22:39:47",
-        "departureTime": "22:39:47",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-18",
-        "arrivalTime": "22:43:22",
-        "departureTime": "22:43:22",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-19",
-        "arrivalTime": "22:47:51",
-        "departureTime": "22:47:51",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-20",
-        "arrivalTime": "22:50:27",
-        "departureTime": "22:50:27",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-21",
-        "arrivalTime": "22:55:00",
-        "departureTime": "22:57:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "37873",
-    "customOrigin": "東京",
-    "throughTripId": "HD_OUT_CA-00_2257_37873",
     "throughLineId": "tokaido_shizuoka"
   },
   {

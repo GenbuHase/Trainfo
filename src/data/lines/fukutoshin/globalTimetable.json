@@ -4337,13 +4337,13 @@
       {
         "stationId": "F-16",
         "arrivalTime": "07:40:00",
-        "departureTime": "07:41:00",
+        "departureTime": "08:08:00",
         "isPassing": false
       }
     ],
     "customOrigin": "和光市",
     "trainId": "75399",
-    "throughTripId": "WD_OUT_TY-01_0741_75399",
+    "throughTripId": "WD_OUT_TY-01_0808_75455",
     "throughLineId": "tokyu_toyoko"
   },
   {
@@ -5219,12 +5219,14 @@
       {
         "stationId": "F-16",
         "arrivalTime": "07:29:00",
-        "departureTime": "07:47:00",
+        "departureTime": "07:41:00",
         "isPassing": false
       }
     ],
     "customOrigin": "新宿三丁目",
-    "trainId": "75232"
+    "trainId": "75232",
+    "throughTripId": "WD_OUT_TY-01_0741_75399",
+    "throughLineId": "tokyu_toyoko"
   },
   {
     "tripId": "WD_INB_F-16_0724_105801",
@@ -13124,7 +13126,7 @@
     "stops": [
       {
         "stationId": "F-16",
-        "arrivalTime": "09:42:00",
+        "arrivalTime": "09:37:00",
         "departureTime": "09:43:00",
         "isPassing": false
       },
@@ -13190,7 +13192,7 @@
       }
     ],
     "trainId": "105742",
-    "prevTripId": "WD_INB_TY-21_0909_105742",
+    "prevTripId": "WD_INB_TY-21_0900_106101",
     "prevLineId": "tokyu_toyoko",
     "throughTripId": "WD_OUT_SI-37_1010_105742",
     "throughLineId": "seibu_yurakucho"
@@ -60657,14 +60659,14 @@
     "direction": "inbound",
     "originStationId": "F-16",
     "destinationStationId": "F-06",
-    "customOrigin": "武蔵小杉",
+    "customOrigin": "元町・中華街",
     "customDestination": "小手指",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "F-16",
-        "arrivalTime": "09:18:00",
+        "arrivalTime": "08:55:00",
         "departureTime": "09:19:00",
         "isPassing": false
       },
@@ -60730,7 +60732,7 @@
       }
     ],
     "trainId": "105686",
-    "prevTripId": "HD_INB_TY-11_0859_105686",
+    "prevTripId": "HD_INB_TY-21_0827_105689",
     "prevLineId": "tokyu_toyoko",
     "throughTripId": "HD_OUT_SI-37_0943_105686",
     "throughLineId": "seibu_yurakucho"
@@ -92901,7 +92903,7 @@
     "stops": [
       {
         "stationId": "F-16",
-        "arrivalTime": "21:06:00",
+        "arrivalTime": "20:58:00",
         "departureTime": "21:09:00",
         "isPassing": false
       },
@@ -92997,7 +92999,7 @@
       }
     ],
     "trainId": "106120",
-    "prevTripId": "HD_INB_TY-21_2035_106459",
+    "prevTripId": "HD_INB_TY-21_2026_106458",
     "prevLineId": "tokyu_toyoko",
     "throughTripId": "HD_OUT_TJ-11_2149_106120",
     "throughLineId": "tojo"

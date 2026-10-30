@@ -26,7 +26,8 @@ runAllCoupling();
 // 3. 全路線直通リンカーを実行
 executeUniversalThroughLinker();
 
-// 3-2. 房総特急・成田エクスプレス・特急あやめ（新宿さざなみ・新宿わかしお・さざなみ・わかしお・しおさい・N'EX・あやめ85号）の直通リンクを確定上書き
+// 3-2. 中央特急・房総特急・成田エクスプレス・特急あやめ（あずさ・かいじ・富士回遊・新宿さざなみ・新宿わかしお・さざなみ・わかしお・しおさい・N'EX・あやめ85号）の直通リンクを確定上書き
+extendChuoHachiojiTakao();
 bridgeBosoLimitedExpress();
 bridgeNexAndAyame();
 
