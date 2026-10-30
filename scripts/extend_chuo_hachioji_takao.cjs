@@ -149,7 +149,7 @@ function extendChuoHachiojiTakao() {
     if (trip.direction === 'outbound') {
       // 下り特急 (東京/新宿 -> 高尾 -> 甲府/松本)
       const cmTakaoStop = cm.stops.find(s => s.stationId === 'JC-24') || cm.stops[0];
-      const cmTakaoTime = cmTakaoStop.arrivalTime || cmTakaoStop.departureTime;
+      const cmTakaoTime = cmTakaoStop.departureTime || cmTakaoStop.arrivalTime;
 
       // trip の高尾(JC-24)ストップを整備または同期
       let takaoStop = trip.stops.find(s => s.stationId === 'JC-24');

@@ -10306,7 +10306,7 @@
     "originStationId": "JB-39",
     "destinationStationId": "JB-10",
     "customDestination": "松本",
-    "cars": 10,
+    "cars": 9,
     "isHoliday": false,
     "stops": [
       {
@@ -10489,7 +10489,19 @@
         "departureTime": "07:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customOrigin": "千葉",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "JB-39",
+      "toStationId": "JB-10",
+      "coupledTripId": "WD_INB_JB-39_0638_39506",
+      "coupledTrainNumber": "1457M",
+      "coupledCars": 3,
+      "coupledDestination": "河口湖"
+    },
+    "throughTripId": "WD_OUT_JC-05_0730_39459",
+    "throughLineId": "chuo"
   },
   {
     "tripId": "WD_OUT_JB-33_0638_5766",
@@ -118314,7 +118326,7 @@
     "originStationId": "JB-39",
     "destinationStationId": "JB-10",
     "customDestination": "松本",
-    "cars": 10,
+    "cars": 9,
     "isHoliday": true,
     "stops": [
       {
@@ -118497,7 +118509,19 @@
         "departureTime": "07:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "customOrigin": "千葉",
+    "coupling": {
+      "role": "PRIMARY",
+      "fromStationId": "JB-39",
+      "toStationId": "JB-10",
+      "coupledTripId": "HD_INB_JB-39_0638_39505",
+      "coupledTrainNumber": "1457M",
+      "coupledCars": 3,
+      "coupledDestination": "河口湖"
+    },
+    "throughTripId": "HD_OUT_JC-05_0730_39458",
+    "throughLineId": "chuo"
   },
   {
     "tripId": "HD_OUT_JB-01_0641_39893",
@@ -210666,5 +210690,421 @@
     },
     "throughTripId": "HD_OUT_SB-01_0810_14414",
     "throughLineId": "sotobo"
+  },
+  {
+    "tripId": "WD_INB_JB-39_0638_39506",
+    "lineId": "chuo_sobu_local",
+    "trainId": "39506",
+    "trainNumber": "1457M",
+    "trainType": "limitedExp",
+    "trainName": "富士回遊3号",
+    "direction": "inbound",
+    "originStationId": "JB-39",
+    "destinationStationId": "JB-10",
+    "customDestination": "河口湖",
+    "cars": 3,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "JB-39",
+        "arrivalTime": "06:38:00",
+        "departureTime": "06:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JB-38",
+        "arrivalTime": "06:39:45",
+        "departureTime": "06:39:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-37",
+        "arrivalTime": "06:41:30",
+        "departureTime": "06:41:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-36",
+        "arrivalTime": "06:43:15",
+        "departureTime": "06:43:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-35",
+        "arrivalTime": "06:45:00",
+        "departureTime": "06:45:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-34",
+        "arrivalTime": "06:46:45",
+        "departureTime": "06:46:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-33",
+        "arrivalTime": "06:48:30",
+        "departureTime": "06:48:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-32",
+        "arrivalTime": "06:50:15",
+        "departureTime": "06:50:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-31",
+        "arrivalTime": "06:52:00",
+        "departureTime": "06:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JB-30",
+        "arrivalTime": "06:54:27",
+        "departureTime": "06:54:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-29",
+        "arrivalTime": "06:55:53",
+        "departureTime": "06:55:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-28",
+        "arrivalTime": "06:57:20",
+        "departureTime": "06:57:20",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-27",
+        "arrivalTime": "06:58:47",
+        "departureTime": "06:58:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-26",
+        "arrivalTime": "07:00:13",
+        "departureTime": "07:00:13",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-25",
+        "arrivalTime": "07:01:40",
+        "departureTime": "07:01:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-24",
+        "arrivalTime": "07:03:07",
+        "departureTime": "07:03:07",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-23",
+        "arrivalTime": "07:04:33",
+        "departureTime": "07:04:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-22",
+        "arrivalTime": "07:06:00",
+        "departureTime": "07:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JB-21",
+        "arrivalTime": "07:08:35",
+        "departureTime": "07:08:35",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-20",
+        "arrivalTime": "07:10:10",
+        "departureTime": "07:10:10",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-19",
+        "arrivalTime": "07:11:45",
+        "departureTime": "07:11:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-18",
+        "arrivalTime": "07:13:20",
+        "departureTime": "07:13:20",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-17",
+        "arrivalTime": "07:14:55",
+        "departureTime": "07:14:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-16",
+        "arrivalTime": "07:16:30",
+        "departureTime": "07:16:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-15",
+        "arrivalTime": "07:18:05",
+        "departureTime": "07:18:05",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-14",
+        "arrivalTime": "07:19:40",
+        "departureTime": "07:19:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-13",
+        "arrivalTime": "07:21:15",
+        "departureTime": "07:21:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-12",
+        "arrivalTime": "07:22:50",
+        "departureTime": "07:22:50",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-11",
+        "arrivalTime": "07:24:25",
+        "departureTime": "07:24:25",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-10",
+        "arrivalTime": "07:26:00",
+        "departureTime": "07:30:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "千葉",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "JB-39",
+      "toStationId": "JB-10",
+      "coupledTripId": "WD_INB_JB-39_0638_39504",
+      "coupledTrainNumber": "5003M",
+      "coupledCars": 9,
+      "coupledDestination": "松本"
+    },
+    "throughTripId": "WD_OUT_JC-05_0730_39461",
+    "throughLineId": "chuo"
+  },
+  {
+    "tripId": "HD_INB_JB-39_0638_39505",
+    "lineId": "chuo_sobu_local",
+    "trainId": "39505",
+    "trainNumber": "1457M",
+    "trainType": "limitedExp",
+    "trainName": "富士回遊3号",
+    "direction": "inbound",
+    "originStationId": "JB-39",
+    "destinationStationId": "JB-10",
+    "customDestination": "河口湖",
+    "cars": 3,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "JB-39",
+        "arrivalTime": "06:38:00",
+        "departureTime": "06:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JB-38",
+        "arrivalTime": "06:39:45",
+        "departureTime": "06:39:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-37",
+        "arrivalTime": "06:41:30",
+        "departureTime": "06:41:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-36",
+        "arrivalTime": "06:43:15",
+        "departureTime": "06:43:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-35",
+        "arrivalTime": "06:45:00",
+        "departureTime": "06:45:00",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-34",
+        "arrivalTime": "06:46:45",
+        "departureTime": "06:46:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-33",
+        "arrivalTime": "06:48:30",
+        "departureTime": "06:48:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-32",
+        "arrivalTime": "06:50:15",
+        "departureTime": "06:50:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-31",
+        "arrivalTime": "06:52:00",
+        "departureTime": "06:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JB-30",
+        "arrivalTime": "06:54:27",
+        "departureTime": "06:54:27",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-29",
+        "arrivalTime": "06:55:53",
+        "departureTime": "06:55:53",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-28",
+        "arrivalTime": "06:57:20",
+        "departureTime": "06:57:20",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-27",
+        "arrivalTime": "06:58:47",
+        "departureTime": "06:58:47",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-26",
+        "arrivalTime": "07:00:13",
+        "departureTime": "07:00:13",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-25",
+        "arrivalTime": "07:01:40",
+        "departureTime": "07:01:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-24",
+        "arrivalTime": "07:03:07",
+        "departureTime": "07:03:07",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-23",
+        "arrivalTime": "07:04:33",
+        "departureTime": "07:04:33",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-22",
+        "arrivalTime": "07:06:00",
+        "departureTime": "07:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "JB-21",
+        "arrivalTime": "07:08:35",
+        "departureTime": "07:08:35",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-20",
+        "arrivalTime": "07:10:10",
+        "departureTime": "07:10:10",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-19",
+        "arrivalTime": "07:11:45",
+        "departureTime": "07:11:45",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-18",
+        "arrivalTime": "07:13:20",
+        "departureTime": "07:13:20",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-17",
+        "arrivalTime": "07:14:55",
+        "departureTime": "07:14:55",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-16",
+        "arrivalTime": "07:16:30",
+        "departureTime": "07:16:30",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-15",
+        "arrivalTime": "07:18:05",
+        "departureTime": "07:18:05",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-14",
+        "arrivalTime": "07:19:40",
+        "departureTime": "07:19:40",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-13",
+        "arrivalTime": "07:21:15",
+        "departureTime": "07:21:15",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-12",
+        "arrivalTime": "07:22:50",
+        "departureTime": "07:22:50",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-11",
+        "arrivalTime": "07:24:25",
+        "departureTime": "07:24:25",
+        "isPassing": true
+      },
+      {
+        "stationId": "JB-10",
+        "arrivalTime": "07:26:00",
+        "departureTime": "07:30:00",
+        "isPassing": false
+      }
+    ],
+    "customOrigin": "千葉",
+    "coupling": {
+      "role": "SECONDARY",
+      "fromStationId": "JB-39",
+      "toStationId": "JB-10",
+      "coupledTripId": "HD_INB_JB-39_0638_39503",
+      "coupledTrainNumber": "5003M",
+      "coupledCars": 9,
+      "coupledDestination": "松本"
+    },
+    "throughTripId": "HD_OUT_JC-05_0730_39460",
+    "throughLineId": "chuo"
   }
 ]

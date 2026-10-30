@@ -27,6 +27,7 @@ runAllCoupling();
 executeUniversalThroughLinker();
 
 // 3-2. 中央特急・房総特急・成田エクスプレス・特急あやめ（あずさ・かいじ・富士回遊・新宿さざなみ・新宿わかしお・さざなみ・わかしお・しおさい・N'EX・あやめ85号）の直通リンクを確定上書き
+enrichAzusaTimetable();
 extendChuoHachiojiTakao();
 bridgeBosoLimitedExpress();
 bridgeNexAndAyame();

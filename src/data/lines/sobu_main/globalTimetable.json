@@ -11655,9 +11655,7 @@
         "departureTime": "17:43:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "WD_OUT_NR-01_1743_41367",
-    "throughLineId": "narita"
+    ]
   },
   {
     "tripId": "WD_INB_SM-22_1727_18142",
@@ -12248,7 +12246,7 @@
       {
         "stationId": "SM-06",
         "arrivalTime": "18:07:00",
-        "departureTime": "18:13:00",
+        "departureTime": "18:04:00",
         "isPassing": false
       }
     ],
@@ -29417,9 +29415,7 @@
         "departureTime": "17:43:00",
         "isPassing": false
       }
-    ],
-    "throughTripId": "HD_OUT_NR-01_1743_41368",
-    "throughLineId": "narita"
+    ]
   },
   {
     "tripId": "HD_INB_SM-22_1727_18142",
@@ -30010,7 +30006,7 @@
       {
         "stationId": "SM-06",
         "arrivalTime": "18:07:00",
-        "departureTime": "18:13:00",
+        "departureTime": "18:04:00",
         "isPassing": false
       }
     ],
@@ -36671,7 +36667,7 @@
       {
         "stationId": "SM-06",
         "arrivalTime": "17:21:24",
-        "departureTime": "17:42:00",
+        "departureTime": "17:43:00",
         "isPassing": true
       }
     ],
@@ -36686,7 +36682,9 @@
       "trainNumber": "1587F"
     },
     "prevTripId": "WD_OUT_JO-19_1637_41457",
-    "prevLineId": "sobu_rapid"
+    "prevLineId": "sobu_rapid",
+    "throughTripId": "WD_OUT_NR-01_1743_41367",
+    "throughLineId": "narita"
   },
   {
     "tripId": "WD_OUT_SM-01_1750_29334",
@@ -36803,7 +36801,7 @@
       {
         "stationId": "SM-06",
         "arrivalTime": "17:38:24",
-        "departureTime": "18:04:00",
+        "departureTime": "17:42:00",
         "isPassing": true
       }
     ],
@@ -36870,7 +36868,7 @@
       {
         "stationId": "SM-06",
         "arrivalTime": "18:09:24",
-        "departureTime": "18:09:24",
+        "departureTime": "18:13:00",
         "isPassing": true
       }
     ],
@@ -37970,7 +37968,7 @@
     "direction": "outbound",
     "originStationId": "SM-01",
     "destinationStationId": "SM-06",
-    "customOrigin": "新宿",
+    "customOrigin": "逗子",
     "customDestination": "成田空港",
     "cars": 15,
     "isHoliday": true,
@@ -38008,7 +38006,7 @@
       {
         "stationId": "SM-06",
         "arrivalTime": "17:21:24",
-        "departureTime": "17:42:00",
+        "departureTime": "17:43:00",
         "isPassing": true
       }
     ],
@@ -38023,7 +38021,9 @@
       "trainNumber": "1511F"
     },
     "prevTripId": "HD_OUT_JO-19_1637_41458",
-    "prevLineId": "sobu_rapid"
+    "prevLineId": "sobu_rapid",
+    "throughTripId": "HD_OUT_NR-01_1743_41368",
+    "throughLineId": "narita"
   },
   {
     "tripId": "HD_OUT_SM-01_1750_29334",
@@ -38140,7 +38140,7 @@
       {
         "stationId": "SM-06",
         "arrivalTime": "17:38:24",
-        "departureTime": "18:04:00",
+        "departureTime": "17:42:00",
         "isPassing": true
       }
     ],
@@ -38207,7 +38207,7 @@
       {
         "stationId": "SM-06",
         "arrivalTime": "18:09:24",
-        "departureTime": "18:09:24",
+        "departureTime": "18:13:00",
         "isPassing": true
       }
     ],

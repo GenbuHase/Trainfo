@@ -243,7 +243,9 @@
       }
     ],
     "trainId": "39581",
-    "customOrigin": "河口湖"
+    "customOrigin": "河口湖",
+    "throughTripId": "cm_WD_INB_JC-32_0654_39456",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_INB_FJ-18_0615_39582",
@@ -367,7 +369,9 @@
       }
     ],
     "trainId": "39582",
-    "customOrigin": "河口湖"
+    "customOrigin": "河口湖",
+    "throughTripId": "cm_WD_INB_JC-32_0723_39457",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_0632_92362",
@@ -2713,7 +2717,7 @@
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
-    "customDestination": "高尾(東京都)",
+    "customDestination": "高尾",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2826,7 +2830,10 @@
         "isPassing": false
       }
     ],
-    "trainId": "40933"
+    "trainId": "40933",
+    "customOrigin": "河口湖",
+    "throughTripId": "cm_WD_INB_JC-32_1150_40806",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_1042_38929",
@@ -9589,7 +9596,9 @@
       }
     ],
     "trainId": "39579",
-    "customOrigin": "河口湖"
+    "customOrigin": "河口湖",
+    "throughTripId": "cm_HD_INB_JC-32_0654_39454",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_FJ-18_0615_39580",
@@ -9713,7 +9722,9 @@
       }
     ],
     "trainId": "39580",
-    "customOrigin": "河口湖"
+    "customOrigin": "河口湖",
+    "throughTripId": "cm_HD_INB_JC-32_0723_39455",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_0632_92362",
@@ -11555,7 +11566,10 @@
       }
     ],
     "trainId": "92368",
-    "customDestination": "河口湖"
+    "customDestination": "河口湖",
+    "customOrigin": "高尾",
+    "prevTripId": "cm_HD_OUT_JC-24_0824_10030",
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_0942_38922",
@@ -13669,7 +13683,7 @@
     "stops": [
       {
         "stationId": "FJ-01",
-        "arrivalTime": "13:01:00",
+        "arrivalTime": "12:55:00",
         "departureTime": "13:01:00",
         "isPassing": false
       },
@@ -13776,7 +13790,11 @@
         "isPassing": false
       }
     ],
-    "trainId": "92374"
+    "trainId": "92374",
+    "customDestination": "河口湖",
+    "customOrigin": "東京",
+    "prevTripId": "cm_HD_OUT_JC-01_1121_28387",
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_FJ-18_1302_92414",

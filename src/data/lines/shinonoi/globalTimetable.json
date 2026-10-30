@@ -5511,7 +5511,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "千葉",
-    "cars": 6,
+    "cars": 9,
     "isHoliday": false,
     "stops": [
       {
@@ -23398,7 +23398,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "千葉",
-    "cars": 6,
+    "cars": 9,
     "isHoliday": true,
     "stops": [
       {
@@ -33939,7 +33939,7 @@
     "direction": "inbound",
     "originStationId": "SN-06",
     "destinationStationId": "SN-01",
-    "customDestination": "東京",
+    "customDestination": "新宿",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -36037,9 +36037,7 @@
       }
     ],
     "throughTripId": "cm_WD_INB_CO-61_1458_42025",
-    "throughLineId": "chuo_main",
-    "prevTripId": "WD_INB_OIE-29_1343_42025",
-    "prevLineId": "oito_east"
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "sn_HD_INB_SN-06_1450_42026",
@@ -36094,9 +36092,7 @@
       }
     ],
     "throughTripId": "cm_HD_INB_CO-61_1458_42026",
-    "throughLineId": "chuo_main",
-    "prevTripId": "HD_INB_OIE-29_1343_42026",
-    "prevLineId": "oito_east"
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "sn_WD_OUT_SN-01_1130_6862",
@@ -36329,7 +36325,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "新宿",
-    "customDestination": "白馬",
+    "customDestination": "松本",
     "cars": 9,
     "isHoliday": false,
     "stops": [
@@ -36386,7 +36382,7 @@
     "originStationId": "SN-01",
     "destinationStationId": "SN-06",
     "customOrigin": "新宿",
-    "customDestination": "白馬",
+    "customDestination": "松本",
     "cars": 9,
     "isHoliday": true,
     "stops": [

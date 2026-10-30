@@ -11,6 +11,9 @@ const shinonoiPath = path.resolve('src/data/lines/shinonoi/globalTimetable.json'
 const shinonoiStPath = path.resolve('src/data/lines/shinonoi/stationTimetables.json');
 const chuoMainPath = path.resolve('src/data/lines/chuo_main/globalTimetable.json');
 const chuoPath = path.resolve('src/data/lines/chuo/globalTimetable.json');
+const chuoSobuPath = path.resolve('src/data/lines/chuo_sobu_local/globalTimetable.json');
+const sobuRapidPath = path.resolve('src/data/lines/sobu_rapid/globalTimetable.json');
+const fujikyuPath = path.resolve('src/data/lines/fujikyu/globalTimetable.json');
 
 function enrichAzusaTimetable() {
   const oitoTrips = JSON.parse(fs.readFileSync(oitoPath, 'utf8'));
@@ -18,6 +21,9 @@ function enrichAzusaTimetable() {
   const shinonoiSt = JSON.parse(fs.readFileSync(shinonoiStPath, 'utf8'));
   const chuoMainTrips = JSON.parse(fs.readFileSync(chuoMainPath, 'utf8'));
   const chuoTrips = JSON.parse(fs.readFileSync(chuoPath, 'utf8'));
+  const chuoSobuTrips = JSON.parse(fs.readFileSync(chuoSobuPath, 'utf8'));
+  const sobuRapidTrips = JSON.parse(fs.readFileSync(sobuRapidPath, 'utf8'));
+  const fujikyuTrips = JSON.parse(fs.readFileSync(fujikyuPath, 'utf8'));
 
   console.log('=== 特急あずさ ダイヤ補完・エンリッチメント開始 ===\n');
 
@@ -509,12 +515,329 @@ for (const snTrip of shinonoiTrips) {
 }
   console.log(`  ✓ shinonoi ↔ chuo_main: 上り ${snInbUpdated} 便、下り ${snOutUpdated} 便を相互直通リンク & 時刻同期`);
 
-  // 4. ファイル保存
+  // ==========================================
+  // 4. 千葉発着あずさ号・富士回遊号（あずさ3号・富士回遊3号・あずさ50号）の直通リンク・愛称・併結整備
+  // ==========================================
+  console.log('\n--- 4. 千葉発着あずさ号・富士回遊号（あずさ3号・富士回遊3号・あずさ50号）の直通リンク・併結整備 ---');
+
+  // (A) あずさ3号 & 富士回遊3号 平日: 千葉 06:38 -> 新宿 07:26着/07:30発 (併結) -> 大月 08:30着/08:40発 (分割) -> 松本 / 河口湖
+  const cslAzusa3WD = chuoSobuTrips.find((t) => t.tripId === 'WD_INB_JB-39_0638_39504' || t.trainId === '39504');
+  const chuoAzusa3WD = chuoTrips.find((t) => t.tripId === 'WD_OUT_JC-05_0730_39459' || t.trainId === '39459');
+  const cmAzusa3WD = chuoMainTrips.find((t) => t.tripId === 'cm_WD_OUT_JC-05_0730_39459' || (t.trainId === '39459' && t.direction === 'outbound' && !t.isHoliday));
+  const snAzusa3WD = shinonoiTrips.find((t) => t.tripId === 'WD_OUT_SN-01_1014_39459' || (t.trainId === '39459' && t.direction === 'outbound' && !t.isHoliday));
+
+  const chuoFuji3WD = chuoTrips.find((t) => t.tripId === 'WD_OUT_JC-05_0730_39461' || t.trainId === '39461');
+  const cmFuji3WD = chuoMainTrips.find((t) => t.tripId === 'cm_WD_OUT_JC-05_0730_39461' || (t.trainId === '39461' && t.direction === 'outbound' && !t.isHoliday));
+  const fjFuji3WD = fujikyuTrips.find((t) => t.tripId === 'WD_OUT_FJ-01_0840_39586' || (t.trainId === '39586' && !t.isHoliday));
+
+  if (cslAzusa3WD && chuoAzusa3WD) {
+    // 1. あずさ3号 (平日)
+    cslAzusa3WD.trainName = 'あずさ3号';
+    cslAzusa3WD.trainNumber = '5003M';
+    cslAzusa3WD.customOrigin = '千葉';
+    cslAzusa3WD.customDestination = '松本';
+    cslAzusa3WD.cars = 9;
+    cslAzusa3WD.throughTripId = chuoAzusa3WD.tripId;
+    cslAzusa3WD.throughLineId = 'chuo';
+
+    const lastStop = cslAzusa3WD.stops[cslAzusa3WD.stops.length - 1];
+    if (lastStop && lastStop.stationId === 'JB-10') {
+      lastStop.departureTime = '07:30:00';
+    }
+
+    chuoAzusa3WD.trainName = 'あずさ3号';
+    chuoAzusa3WD.trainNumber = '5003M';
+    chuoAzusa3WD.customOrigin = '千葉';
+    chuoAzusa3WD.customDestination = '松本';
+    chuoAzusa3WD.cars = 9;
+    chuoAzusa3WD.prevTripId = cslAzusa3WD.tripId;
+    chuoAzusa3WD.prevLineId = 'chuo_sobu_local';
+
+    if (cmAzusa3WD) {
+      chuoAzusa3WD.throughTripId = cmAzusa3WD.tripId;
+      chuoAzusa3WD.throughLineId = 'chuo_main';
+      cmAzusa3WD.prevTripId = chuoAzusa3WD.tripId;
+      cmAzusa3WD.prevLineId = 'chuo';
+      cmAzusa3WD.trainName = 'あずさ3号';
+      cmAzusa3WD.trainNumber = '5003M';
+      cmAzusa3WD.customOrigin = '千葉';
+      cmAzusa3WD.customDestination = '松本';
+      cmAzusa3WD.cars = 9;
+
+      if (snAzusa3WD) {
+        cmAzusa3WD.throughTripId = snAzusa3WD.tripId;
+        cmAzusa3WD.throughLineId = 'shinonoi';
+        snAzusa3WD.prevTripId = cmAzusa3WD.tripId;
+        snAzusa3WD.prevLineId = 'chuo_main';
+        snAzusa3WD.trainName = 'あずさ3号';
+        snAzusa3WD.trainNumber = '5003M';
+        snAzusa3WD.customOrigin = '千葉';
+        snAzusa3WD.customDestination = '松本';
+        snAzusa3WD.cars = 9;
+      }
+    }
+
+    // 2. 富士回遊3号 (平日) 千葉〜新宿トリップの復元注入とカップリング
+    const fujiTripIdWD = 'WD_INB_JB-39_0638_39506';
+    let cslFuji3WD = chuoSobuTrips.find((t) => t.tripId === fujiTripIdWD);
+    if (!cslFuji3WD) {
+      cslFuji3WD = {
+        ...JSON.parse(JSON.stringify(cslAzusa3WD)),
+        tripId: fujiTripIdWD,
+        trainId: '39506',
+        trainNumber: '1457M',
+        trainName: '富士回遊3号',
+        trainType: 'limitedExp',
+        originStationId: 'JB-39',
+        destinationStationId: 'JB-10',
+        customOrigin: '千葉',
+        customDestination: '河口湖',
+        cars: 3,
+        throughTripId: chuoFuji3WD ? chuoFuji3WD.tripId : 'WD_OUT_JC-05_0730_39461',
+        throughLineId: 'chuo',
+      };
+      chuoSobuTrips.push(cslFuji3WD);
+    } else {
+      cslFuji3WD.trainName = '富士回遊3号';
+      cslFuji3WD.trainNumber = '1457M';
+      cslFuji3WD.customOrigin = '千葉';
+      cslFuji3WD.customDestination = '河口湖';
+      cslFuji3WD.cars = 3;
+      cslFuji3WD.throughTripId = chuoFuji3WD ? chuoFuji3WD.tripId : 'WD_OUT_JC-05_0730_39461';
+      cslFuji3WD.throughLineId = 'chuo';
+    }
+
+    // 千葉〜新宿間の併結設定 (PRIMARY: あずさ3号 9両, SECONDARY: 富士回遊3号 3両)
+    cslAzusa3WD.coupling = {
+      role: 'PRIMARY',
+      fromStationId: 'JB-39',
+      toStationId: 'JB-10',
+      coupledTripId: fujiTripIdWD,
+      coupledTrainNumber: '1457M',
+      coupledCars: 3,
+      coupledDestination: '河口湖',
+    };
+    cslFuji3WD.coupling = {
+      role: 'SECONDARY',
+      fromStationId: 'JB-39',
+      toStationId: 'JB-10',
+      coupledTripId: cslAzusa3WD.tripId,
+      coupledTrainNumber: '5003M',
+      coupledCars: 9,
+      coupledDestination: '松本',
+    };
+
+    if (chuoFuji3WD) {
+      chuoFuji3WD.prevTripId = fujiTripIdWD;
+      chuoFuji3WD.prevLineId = 'chuo_sobu_local';
+      chuoFuji3WD.customOrigin = '千葉';
+      chuoFuji3WD.customDestination = '河口湖';
+      chuoFuji3WD.cars = 3;
+    }
+    if (cmFuji3WD) {
+      cmFuji3WD.customOrigin = '千葉';
+      cmFuji3WD.cars = 3;
+    }
+    if (fjFuji3WD) {
+      fjFuji3WD.customOrigin = '千葉';
+      fjFuji3WD.cars = 3;
+    }
+
+    console.log('  ✓ 平日 あずさ3号 & 富士回遊3号: 千葉始発の併結直通チェーン (千葉〜新宿〜大月〜松本/河口湖) を確立');
+  }
+
+  // (B) あずさ3号 & 富士回遊3号 休日: 千葉 06:38 -> 新宿 07:26着/07:30発 (併結) -> 大月 08:30着/08:40発 (分割) -> 松本 / 河口湖
+  const cslAzusa3HD = chuoSobuTrips.find((t) => t.tripId === 'HD_INB_JB-39_0638_39503' || t.trainId === '39503');
+  const chuoAzusa3HD = chuoTrips.find((t) => t.tripId === 'HD_OUT_JC-05_0730_39458' || t.trainId === '39458');
+  const cmAzusa3HD = chuoMainTrips.find((t) => t.tripId === 'cm_HD_OUT_JC-05_0730_39458' || (t.trainId === '39458' && t.direction === 'outbound' && t.isHoliday));
+  const snAzusa3HD = shinonoiTrips.find((t) => t.tripId === 'HD_OUT_SN-01_1014_39458' || (t.trainId === '39458' && t.direction === 'outbound' && t.isHoliday));
+
+  const chuoFuji3HD = chuoTrips.find((t) => t.tripId === 'HD_OUT_JC-05_0730_39460' || t.trainId === '39460');
+  const cmFuji3HD = chuoMainTrips.find((t) => t.tripId === 'cm_HD_OUT_JC-05_0730_39460' || (t.trainId === '39460' && t.direction === 'outbound' && t.isHoliday));
+  const fjFuji3HD = fujikyuTrips.find((t) => t.tripId === 'HD_OUT_FJ-01_0840_39585' || (t.trainId === '39585' && t.isHoliday));
+
+  if (cslAzusa3HD && chuoAzusa3HD) {
+    // 1. あずさ3号 (休日)
+    cslAzusa3HD.trainName = 'あずさ3号';
+    cslAzusa3HD.trainNumber = '5003M';
+    cslAzusa3HD.customOrigin = '千葉';
+    cslAzusa3HD.customDestination = '松本';
+    cslAzusa3HD.cars = 9;
+    cslAzusa3HD.throughTripId = chuoAzusa3HD.tripId;
+    cslAzusa3HD.throughLineId = 'chuo';
+
+    const lastStop = cslAzusa3HD.stops[cslAzusa3HD.stops.length - 1];
+    if (lastStop && lastStop.stationId === 'JB-10') {
+      lastStop.departureTime = '07:30:00';
+    }
+
+    chuoAzusa3HD.trainName = 'あずさ3号';
+    chuoAzusa3HD.trainNumber = '5003M';
+    chuoAzusa3HD.customOrigin = '千葉';
+    chuoAzusa3HD.customDestination = '松本';
+    chuoAzusa3HD.cars = 9;
+    chuoAzusa3HD.prevTripId = cslAzusa3HD.tripId;
+    chuoAzusa3HD.prevLineId = 'chuo_sobu_local';
+
+    const chuoTakao = chuoAzusa3HD.stops.find((s) => s.stationId === 'JC-24');
+    if (chuoTakao) {
+      chuoTakao.arrivalTime = '08:06:27';
+      chuoTakao.departureTime = '08:06:27';
+      chuoTakao.isPassing = true;
+    }
+
+    if (cmAzusa3HD) {
+      chuoAzusa3HD.throughTripId = cmAzusa3HD.tripId;
+      chuoAzusa3HD.throughLineId = 'chuo_main';
+      cmAzusa3HD.prevTripId = chuoAzusa3HD.tripId;
+      cmAzusa3HD.prevLineId = 'chuo';
+      cmAzusa3HD.trainName = 'あずさ3号';
+      cmAzusa3HD.trainNumber = '5003M';
+      cmAzusa3HD.customOrigin = '千葉';
+      cmAzusa3HD.customDestination = '松本';
+      cmAzusa3HD.cars = 9;
+
+      const cmTakao = cmAzusa3HD.stops.find((s) => s.stationId === 'JC-24') || cmAzusa3HD.stops[0];
+      if (cmTakao) {
+        cmTakao.arrivalTime = '08:06:27';
+        cmTakao.departureTime = '08:06:27';
+        cmTakao.isPassing = true;
+      }
+
+      if (snAzusa3HD) {
+        cmAzusa3HD.throughTripId = snAzusa3HD.tripId;
+        cmAzusa3HD.throughLineId = 'shinonoi';
+        snAzusa3HD.prevTripId = cmAzusa3HD.tripId;
+        snAzusa3HD.prevLineId = 'chuo_main';
+        snAzusa3HD.trainName = 'あずさ3号';
+        snAzusa3HD.trainNumber = '5003M';
+        snAzusa3HD.customOrigin = '千葉';
+        snAzusa3HD.customDestination = '松本';
+        snAzusa3HD.cars = 9;
+      }
+    }
+
+    // 2. 富士回遊3号 (休日) 千葉〜新宿トリップの復元注入とカップリング
+    const fujiTripIdHD = 'HD_INB_JB-39_0638_39505';
+    let cslFuji3HD = chuoSobuTrips.find((t) => t.tripId === fujiTripIdHD);
+    if (!cslFuji3HD) {
+      cslFuji3HD = {
+        ...JSON.parse(JSON.stringify(cslAzusa3HD)),
+        tripId: fujiTripIdHD,
+        trainId: '39505',
+        trainNumber: '1457M',
+        trainName: '富士回遊3号',
+        trainType: 'limitedExp',
+        originStationId: 'JB-39',
+        destinationStationId: 'JB-10',
+        customOrigin: '千葉',
+        customDestination: '河口湖',
+        cars: 3,
+        throughTripId: chuoFuji3HD ? chuoFuji3HD.tripId : 'HD_OUT_JC-05_0730_39460',
+        throughLineId: 'chuo',
+      };
+      chuoSobuTrips.push(cslFuji3HD);
+    } else {
+      cslFuji3HD.trainName = '富士回遊3号';
+      cslFuji3HD.trainNumber = '1457M';
+      cslFuji3HD.customOrigin = '千葉';
+      cslFuji3HD.customDestination = '河口湖';
+      cslFuji3HD.cars = 3;
+      cslFuji3HD.throughTripId = chuoFuji3HD ? chuoFuji3HD.tripId : 'HD_OUT_JC-05_0730_39460';
+      cslFuji3HD.throughLineId = 'chuo';
+    }
+
+    // 千葉〜新宿間の併結設定 (PRIMARY: あずさ3号 9両, SECONDARY: 富士回遊3号 3両)
+    cslAzusa3HD.coupling = {
+      role: 'PRIMARY',
+      fromStationId: 'JB-39',
+      toStationId: 'JB-10',
+      coupledTripId: fujiTripIdHD,
+      coupledTrainNumber: '1457M',
+      coupledCars: 3,
+      coupledDestination: '河口湖',
+    };
+    cslFuji3HD.coupling = {
+      role: 'SECONDARY',
+      fromStationId: 'JB-39',
+      toStationId: 'JB-10',
+      coupledTripId: cslAzusa3HD.tripId,
+      coupledTrainNumber: '5003M',
+      coupledCars: 9,
+      coupledDestination: '松本',
+    };
+
+    if (chuoFuji3HD) {
+      chuoFuji3HD.prevTripId = fujiTripIdHD;
+      chuoFuji3HD.prevLineId = 'chuo_sobu_local';
+      chuoFuji3HD.customOrigin = '千葉';
+      chuoFuji3HD.customDestination = '河口湖';
+      chuoFuji3HD.cars = 3;
+      const takao = chuoFuji3HD.stops.find((s) => s.stationId === 'JC-24');
+      if (takao) {
+        takao.arrivalTime = '08:06:27';
+        takao.departureTime = '08:06:27';
+        takao.isPassing = true;
+      }
+    }
+    if (cmFuji3HD) {
+      cmFuji3HD.customOrigin = '千葉';
+      cmFuji3HD.cars = 3;
+      const takao = cmFuji3HD.stops.find((s) => s.stationId === 'JC-24') || cmFuji3HD.stops[0];
+      if (takao) {
+        takao.arrivalTime = '08:06:27';
+        takao.departureTime = '08:06:27';
+        takao.isPassing = true;
+      }
+    }
+    if (fjFuji3HD) {
+      fjFuji3HD.customOrigin = '千葉';
+      fjFuji3HD.cars = 3;
+    }
+
+    console.log('  ✓ 休日 あずさ3号 & 富士回遊3号: 千葉始発の併結直通チェーン (千葉〜新宿〜大月〜松本/河口湖) を確立');
+  }
+
+  // (C) あずさ1号 休日 (6848) の列車番号復元と誤カップリング解除
+  const chuoAzusa1HD = chuoTrips.find((t) => t.tripId === 'HD_OUT_JC-05_0708_6848' || t.trainId === '6848');
+  if (chuoAzusa1HD) {
+    chuoAzusa1HD.trainNumber = '8075M';
+    chuoAzusa1HD.trainName = 'あずさ1号';
+    delete chuoAzusa1HD.coupling;
+  }
+
+  // (D) あずさ50号（上り 松本発 新宿経由 千葉行）の直通リンク
+  const azusa50Defs = [
+    { isHoliday: false, chuoTripId: 'WD_INB_JC-22_1933_39462', srTripId: 'WD_OUT_JO-22_2027_39556' },
+    { isHoliday: true, chuoTripId: 'HD_INB_JC-22_1936_39463', srTripId: 'HD_OUT_JO-22_2027_39557' },
+  ];
+
+  for (const { chuoTripId, srTripId } of azusa50Defs) {
+    const chuoTrip = chuoTrips.find((t) => t.tripId === chuoTripId);
+    const srTrip = sobuRapidTrips.find((t) => t.tripId === srTripId);
+    if (chuoTrip && srTrip) {
+      chuoTrip.throughTripId = srTrip.tripId;
+      chuoTrip.throughLineId = 'sobu_rapid';
+      chuoTrip.customOrigin = '松本';
+      chuoTrip.customDestination = '千葉';
+
+      srTrip.prevTripId = chuoTrip.tripId;
+      srTrip.prevLineId = 'chuo';
+      srTrip.customOrigin = '松本';
+      srTrip.customDestination = '千葉';
+      console.log(`  ✓ あずさ50号 (${chuoTripId} -> ${srTripId}): 松本〜新宿〜千葉 直通リンクを確立`);
+    }
+  }
+
+  // 5. ファイル保存
   safeWriteJson(oitoPath, oitoTrips);
   safeWriteJson(shinonoiPath, shinonoiTrips);
   safeWriteJson(shinonoiStPath, shinonoiSt);
   safeWriteJson(chuoMainPath, chuoMainTrips);
   safeWriteJson(chuoPath, chuoTrips);
+  safeWriteJson(chuoSobuPath, chuoSobuTrips);
+  safeWriteJson(sobuRapidPath, sobuRapidTrips);
+  safeWriteJson(fujikyuPath, fujikyuTrips);
 
   console.log('\n✅ 全路線の globalTimetable.json および stationTimetables.json を正常に更新しました！');
 }

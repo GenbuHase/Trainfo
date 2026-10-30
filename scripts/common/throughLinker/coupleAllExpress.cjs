@@ -566,6 +566,15 @@ function coupleChuoFujiKaiyu() {
             // 片方のみが富士回遊（または大月発着）の場合のみカップリング対象
             if (isT1Fuji === isT2Fuji) continue;
 
+            // 新宿発車時刻の整合性チェック（異なる発車時刻の特急が誤カップリングされるのを防止）
+            const shinjuku1 = t1.stops.find(s => s.stationId === 'JC-05');
+            const shinjuku2 = t2.stops.find(s => s.stationId === 'JC-05');
+            if (shinjuku1 && shinjuku2) {
+              const dep1 = timeToSec(shinjuku1.departureTime || shinjuku1.arrivalTime);
+              const dep2 = timeToSec(shinjuku2.departureTime || shinjuku2.arrivalTime);
+              if (Math.abs(dep1 - dep2) > 60) continue;
+            }
+
             const pri = isT1Fuji ? t2 : t1;
             const sec = isT1Fuji ? t1 : t2;
 
