@@ -1,5 +1,6 @@
 // JR武蔵野線 列車種別定義
 import type { TrainTypeConfig } from '../../../types';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const MUSASHINO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 各駅停車: 武蔵野線オレンジバーミリオン (#f15a22)
@@ -25,14 +26,5 @@ export const MUSASHINO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#f97316',
   },
   // 特急（臨時特急など）: #d32f2f (JR特急レッド)
-  limitedExp: {
-    key: 'limitedExp',
-    name: '特急',
-    nameEn: 'Limited Express',
-    shortName: '特急',
-    color: '#d32f2f',
-    textColor: '#ffffff',
-    bgColor: '#d32f2f',
-    borderColor: '#ef5350',
-  },
+  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
 };

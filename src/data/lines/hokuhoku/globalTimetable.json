@@ -2,6 +2,7 @@
   {
     "tripId": "WD_OUT_HK-01_0512_40282",
     "lineId": "hokuhoku",
+    "trainId": "40282",
     "trainNumber": "820M",
     "trainType": "local",
     "direction": "outbound",
@@ -82,12 +83,12 @@
         "departureTime": "06:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "40282"
+    ]
   },
   {
     "tripId": "WD_INB_HK-12_0538_33744",
     "lineId": "hokuhoku",
+    "trainId": "33744",
     "trainNumber": "821M",
     "trainType": "local",
     "direction": "inbound",
@@ -171,7 +172,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33744",
     "throughTripId": "WD_INB_JOE-25_0642_33725",
     "throughLineId": "joetsu",
     "prevTripId": "WD_OUT_SE-01_0528_33744",
@@ -180,11 +180,13 @@
   {
     "tripId": "WD_OUT_HK-01_0608_40353",
     "lineId": "hokuhoku",
+    "trainId": "40353",
     "trainNumber": "822M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "六日町",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": false,
@@ -262,14 +264,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40353",
-    "customOrigin": "六日町",
     "throughTripId": "WD_INB_SE-03_0713_40353",
     "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_HK-12_0619_21902",
     "lineId": "hokuhoku",
+    "trainId": "21902",
     "trainNumber": "823M",
     "trainType": "local",
     "direction": "inbound",
@@ -350,17 +351,18 @@
         "departureTime": "07:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21902"
+    ]
   },
   {
     "tripId": "WD_OUT_HK-01_0642_40354",
     "lineId": "hokuhoku",
+    "trainId": "40354",
     "trainNumber": "824M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "六日町",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": false,
@@ -438,14 +440,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40354",
-    "customOrigin": "六日町",
     "throughTripId": "WD_INB_SE-03_0747_40354",
     "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_HK-12_0702_33745",
     "lineId": "hokuhoku",
+    "trainId": "33745",
     "trainNumber": "825M",
     "trainType": "local",
     "direction": "inbound",
@@ -529,7 +530,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33745",
     "throughTripId": "WD_INB_JOE-25_0812_33726",
     "throughLineId": "joetsu",
     "prevTripId": "WD_OUT_SE-01_0652_33745",
@@ -538,11 +538,13 @@
   {
     "tripId": "WD_OUT_HK-01_0733_40355",
     "lineId": "hokuhoku",
+    "trainId": "40355",
     "trainNumber": "826M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "六日町",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": false,
@@ -620,20 +622,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "40355",
-    "customOrigin": "六日町",
     "throughTripId": "WD_INB_SE-03_0833_40355",
     "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_HK-12_0735_40369",
     "lineId": "hokuhoku",
+    "trainId": "40369",
     "trainNumber": "827M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "HK-12",
     "destinationStationId": "HK-01",
     "customOrigin": "直江津",
+    "customDestination": "六日町",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -710,20 +712,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "40369",
-    "customDestination": "六日町",
     "prevTripId": "WD_OUT_SE-01_0728_40369",
     "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_HK-12_0819_40370",
     "lineId": "hokuhoku",
+    "trainId": "40370",
     "trainNumber": "829M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "HK-12",
     "destinationStationId": "HK-01",
     "customOrigin": "直江津",
+    "customDestination": "六日町",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -800,14 +802,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40370",
-    "customDestination": "六日町",
     "prevTripId": "WD_OUT_SE-01_0812_40370",
     "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_HK-01_0843_35091",
     "lineId": "hokuhoku",
+    "trainId": "35091",
     "trainNumber": "828M",
     "trainType": "local",
     "direction": "outbound",
@@ -891,15 +892,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "35091",
-    "prevTripId": "WD_OUT_JOE-20_0820_35072",
-    "prevLineId": "joetsu",
     "throughTripId": "WD_INB_SE-03_0943_35091",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "WD_OUT_JOE-20_0820_35072",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_HK-12_0911_33749",
     "lineId": "hokuhoku",
+    "trainId": "33749",
     "trainNumber": "831M",
     "trainType": "local",
     "direction": "inbound",
@@ -983,7 +984,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33749",
     "throughTripId": "WD_INB_JOE-25_1010_33730",
     "throughLineId": "joetsu",
     "prevTripId": "WD_OUT_SE-01_0903_33749",
@@ -992,6 +992,7 @@
   {
     "tripId": "WD_OUT_HK-01_0936_35092",
     "lineId": "hokuhoku",
+    "trainId": "35092",
     "trainNumber": "830M",
     "trainType": "local",
     "direction": "outbound",
@@ -1075,15 +1076,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "35092",
-    "prevTripId": "WD_OUT_JOE-20_0914_35073",
-    "prevLineId": "joetsu",
     "throughTripId": "WD_INB_SE-03_1036_35092",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "WD_OUT_JOE-20_0914_35073",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_HK-12_1004_33750",
     "lineId": "hokuhoku",
+    "trainId": "33750",
     "trainNumber": "833M",
     "trainType": "local",
     "direction": "inbound",
@@ -1167,7 +1168,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33750",
     "throughTripId": "WD_INB_JOE-25_1105_33731",
     "throughLineId": "joetsu",
     "prevTripId": "WD_OUT_SE-01_0956_33750",
@@ -1176,6 +1176,7 @@
   {
     "tripId": "WD_OUT_HK-01_1102_35098",
     "lineId": "hokuhoku",
+    "trainId": "35098",
     "trainNumber": "832M",
     "trainType": "local",
     "direction": "outbound",
@@ -1259,15 +1260,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "35098",
-    "prevTripId": "WD_OUT_JOE-20_1041_35079",
-    "prevLineId": "joetsu",
     "throughTripId": "WD_INB_SE-03_1211_35098",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "WD_OUT_JOE-20_1041_35079",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_HK-12_1130_33746",
     "lineId": "hokuhoku",
+    "trainId": "33746",
     "trainNumber": "835M",
     "trainType": "local",
     "direction": "inbound",
@@ -1351,7 +1352,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33746",
     "throughTripId": "WD_INB_JOE-25_1235_33727",
     "throughLineId": "joetsu",
     "prevTripId": "WD_OUT_SE-01_1121_33746",
@@ -1360,6 +1360,7 @@
   {
     "tripId": "WD_OUT_HK-01_1158_35096",
     "lineId": "hokuhoku",
+    "trainId": "35096",
     "trainNumber": "834M",
     "trainType": "local",
     "direction": "outbound",
@@ -1443,21 +1444,22 @@
         "isPassing": false
       }
     ],
-    "trainId": "35096",
-    "prevTripId": "WD_OUT_JOE-20_1141_35077",
-    "prevLineId": "joetsu",
     "throughTripId": "WD_INB_SE-03_1259_35096",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "WD_OUT_JOE-20_1141_35077",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_HK-12_1309_40371",
     "lineId": "hokuhoku",
+    "trainId": "40371",
     "trainNumber": "837M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "HK-12",
     "destinationStationId": "HK-01",
     "customOrigin": "直江津",
+    "customDestination": "六日町",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -1534,20 +1536,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "40371",
-    "customDestination": "六日町",
     "prevTripId": "WD_OUT_SE-01_1301_40371",
     "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_HK-01_1343_41463",
     "lineId": "hokuhoku",
+    "trainId": "41463",
     "trainNumber": "836M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
     "customOrigin": "越後湯沢",
+    "customDestination": "犀潟",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -1624,14 +1626,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "41463",
-    "customDestination": "犀潟",
     "prevTripId": "WD_OUT_JOE-20_1326_41432",
     "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_HK-12_1413_33747",
     "lineId": "hokuhoku",
+    "trainId": "33747",
     "trainNumber": "839M",
     "trainType": "local",
     "direction": "inbound",
@@ -1715,7 +1716,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33747",
     "throughTripId": "WD_INB_JOE-25_1528_33728",
     "throughLineId": "joetsu",
     "prevTripId": "WD_OUT_SE-01_1405_33747",
@@ -1724,11 +1724,13 @@
   {
     "tripId": "WD_OUT_HK-01_1450_40356",
     "lineId": "hokuhoku",
+    "trainId": "40356",
     "trainNumber": "838M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "六日町",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": false,
@@ -1806,14 +1808,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40356",
-    "customOrigin": "六日町",
     "throughTripId": "WD_INB_SE-03_1555_40356",
     "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_HK-12_1522_21903",
     "lineId": "hokuhoku",
+    "trainId": "21903",
     "trainNumber": "841M",
     "trainType": "local",
     "direction": "inbound",
@@ -1894,17 +1895,18 @@
         "departureTime": "16:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21903"
+    ]
   },
   {
     "tripId": "WD_OUT_HK-01_1544_40357",
     "lineId": "hokuhoku",
+    "trainId": "40357",
     "trainNumber": "840M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "六日町",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": false,
@@ -1982,14 +1984,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40357",
-    "customOrigin": "六日町",
     "throughTripId": "WD_INB_SE-03_1647_40357",
     "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_HK-12_1614_33752",
     "lineId": "hokuhoku",
+    "trainId": "33752",
     "trainNumber": "843M",
     "trainType": "local",
     "direction": "inbound",
@@ -2073,7 +2074,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33752",
     "throughTripId": "WD_INB_JOE-25_1713_33733",
     "throughLineId": "joetsu",
     "prevTripId": "WD_OUT_SE-01_1607_33752",
@@ -2082,11 +2082,13 @@
   {
     "tripId": "WD_OUT_HK-01_1639_40359",
     "lineId": "hokuhoku",
+    "trainId": "40359",
     "trainNumber": "842M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "六日町",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": false,
@@ -2164,14 +2166,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40359",
-    "customOrigin": "六日町",
     "throughTripId": "WD_INB_SE-03_1743_40359",
     "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_HK-12_1710_33753",
     "lineId": "hokuhoku",
+    "trainId": "33753",
     "trainNumber": "845M",
     "trainType": "local",
     "direction": "inbound",
@@ -2255,7 +2256,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33753",
     "throughTripId": "WD_INB_JOE-25_1808_33734",
     "throughLineId": "joetsu",
     "prevTripId": "WD_OUT_SE-01_1703_33753",
@@ -2264,12 +2264,14 @@
   {
     "tripId": "WD_OUT_HK-01_1733_41462",
     "lineId": "hokuhoku",
+    "trainId": "41462",
     "trainNumber": "844M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
     "customOrigin": "越後湯沢",
+    "customDestination": "犀潟",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -2346,14 +2348,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "41462",
-    "customDestination": "犀潟",
     "prevTripId": "WD_OUT_JOE-20_1710_41431",
     "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_HK-12_1806_33754",
     "lineId": "hokuhoku",
+    "trainId": "33754",
     "trainNumber": "847M",
     "trainType": "local",
     "direction": "inbound",
@@ -2437,7 +2438,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33754",
     "throughTripId": "WD_INB_JOE-25_1904_33735",
     "throughLineId": "joetsu",
     "prevTripId": "WD_OUT_SE-01_1759_33754",
@@ -2446,6 +2446,7 @@
   {
     "tripId": "WD_OUT_HK-01_1826_35097",
     "lineId": "hokuhoku",
+    "trainId": "35097",
     "trainNumber": "846M",
     "trainType": "local",
     "direction": "outbound",
@@ -2529,15 +2530,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "35097",
-    "prevTripId": "WD_OUT_JOE-20_1806_35078",
-    "prevLineId": "joetsu",
     "throughTripId": "WD_INB_SE-03_1927_35097",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "WD_OUT_JOE-20_1806_35078",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_HK-12_1855_21904",
     "lineId": "hokuhoku",
+    "trainId": "21904",
     "trainNumber": "849M",
     "trainType": "local",
     "direction": "inbound",
@@ -2618,17 +2619,18 @@
         "departureTime": "19:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21904"
+    ]
   },
   {
     "tripId": "WD_OUT_HK-01_1918_40358",
     "lineId": "hokuhoku",
+    "trainId": "40358",
     "trainNumber": "848M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "六日町",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": false,
@@ -2706,14 +2708,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40358",
-    "customOrigin": "六日町",
     "throughTripId": "WD_INB_SE-03_2015_40358",
     "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_HK-12_1955_33755",
     "lineId": "hokuhoku",
+    "trainId": "33755",
     "trainNumber": "851M",
     "trainType": "local",
     "direction": "inbound",
@@ -2797,7 +2798,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33755",
     "throughTripId": "WD_INB_JOE-25_2103_33736",
     "throughLineId": "joetsu",
     "prevTripId": "WD_OUT_SE-01_1948_33755",
@@ -2806,6 +2806,7 @@
   {
     "tripId": "WD_OUT_HK-01_2026_35093",
     "lineId": "hokuhoku",
+    "trainId": "35093",
     "trainNumber": "850M",
     "trainType": "local",
     "direction": "outbound",
@@ -2889,21 +2890,22 @@
         "isPassing": false
       }
     ],
-    "trainId": "35093",
-    "prevTripId": "WD_OUT_JOE-20_2006_35074",
-    "prevLineId": "joetsu",
     "throughTripId": "WD_INB_SE-03_2130_35093",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "WD_OUT_JOE-20_2006_35074",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_HK-12_2051_40372",
     "lineId": "hokuhoku",
+    "trainId": "40372",
     "trainNumber": "853M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "HK-12",
     "destinationStationId": "HK-01",
     "customOrigin": "直江津",
+    "customDestination": "六日町",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -2980,14 +2982,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40372",
-    "customDestination": "六日町",
     "prevTripId": "WD_OUT_SE-01_2044_40372",
     "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_HK-01_2119_35094",
     "lineId": "hokuhoku",
+    "trainId": "35094",
     "trainNumber": "852M",
     "trainType": "local",
     "direction": "outbound",
@@ -3071,21 +3072,22 @@
         "isPassing": false
       }
     ],
-    "trainId": "35094",
-    "prevTripId": "WD_OUT_JOE-20_2101_35075",
-    "prevLineId": "joetsu",
     "throughTripId": "WD_INB_SE-03_2221_35094",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "WD_OUT_JOE-20_2101_35075",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_HK-12_2227_40373",
     "lineId": "hokuhoku",
+    "trainId": "40373",
     "trainNumber": "855M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "HK-12",
     "destinationStationId": "HK-01",
     "customOrigin": "直江津",
+    "customDestination": "六日町",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -3162,14 +3164,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40373",
-    "customDestination": "六日町",
     "prevTripId": "WD_OUT_SE-01_2219_40373",
     "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_HK-01_2249_35095",
     "lineId": "hokuhoku",
+    "trainId": "35095",
     "trainNumber": "854M",
     "trainType": "local",
     "direction": "outbound",
@@ -3253,15 +3254,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "35095",
-    "prevTripId": "WD_OUT_JOE-20_2231_35076",
-    "prevLineId": "joetsu",
     "throughTripId": "WD_INB_SE-03_2347_35095",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "WD_OUT_JOE-20_2231_35076",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_HK-01_0512_40282",
     "lineId": "hokuhoku",
+    "trainId": "40282",
     "trainNumber": "820M",
     "trainType": "local",
     "direction": "outbound",
@@ -3342,12 +3343,12 @@
         "departureTime": "06:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "40282"
+    ]
   },
   {
     "tripId": "HD_INB_HK-12_0538_33744",
     "lineId": "hokuhoku",
+    "trainId": "33744",
     "trainNumber": "821M",
     "trainType": "local",
     "direction": "inbound",
@@ -3431,7 +3432,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33744",
     "throughTripId": "HD_INB_JOE-25_0642_33725",
     "throughLineId": "joetsu",
     "prevTripId": "HD_OUT_SE-01_0528_33744",
@@ -3440,6 +3440,7 @@
   {
     "tripId": "HD_INB_HK-12_0619_21902",
     "lineId": "hokuhoku",
+    "trainId": "21902",
     "trainNumber": "823M",
     "trainType": "local",
     "direction": "inbound",
@@ -3520,17 +3521,18 @@
         "departureTime": "07:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21902"
+    ]
   },
   {
     "tripId": "HD_OUT_HK-01_0642_40354",
     "lineId": "hokuhoku",
+    "trainId": "40354",
     "trainNumber": "824M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "六日町",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": true,
@@ -3608,14 +3610,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40354",
-    "customOrigin": "六日町",
     "throughTripId": "HD_INB_SE-03_0747_40354",
     "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_INB_HK-12_0702_33745",
     "lineId": "hokuhoku",
+    "trainId": "33745",
     "trainNumber": "825M",
     "trainType": "local",
     "direction": "inbound",
@@ -3699,7 +3700,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33745",
     "throughTripId": "HD_INB_JOE-25_0812_33726",
     "throughLineId": "joetsu",
     "prevTripId": "HD_OUT_SE-01_0652_33745",
@@ -3708,11 +3708,13 @@
   {
     "tripId": "HD_OUT_HK-01_0733_40355",
     "lineId": "hokuhoku",
+    "trainId": "40355",
     "trainNumber": "826M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "六日町",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": true,
@@ -3790,20 +3792,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "40355",
-    "customOrigin": "六日町",
     "throughTripId": "HD_INB_SE-03_0833_40355",
     "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_INB_HK-12_0819_40370",
     "lineId": "hokuhoku",
+    "trainId": "40370",
     "trainNumber": "829M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "HK-12",
     "destinationStationId": "HK-01",
     "customOrigin": "直江津",
+    "customDestination": "六日町",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -3880,14 +3882,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40370",
-    "customDestination": "六日町",
     "prevTripId": "HD_OUT_SE-01_0812_40370",
     "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_OUT_HK-01_0843_35091",
     "lineId": "hokuhoku",
+    "trainId": "35091",
     "trainNumber": "828M",
     "trainType": "local",
     "direction": "outbound",
@@ -3971,15 +3972,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "35091",
-    "prevTripId": "HD_OUT_JOE-20_0820_35072",
-    "prevLineId": "joetsu",
     "throughTripId": "HD_INB_SE-03_0943_35091",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "HD_OUT_JOE-20_0820_35072",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_HK-12_0911_33749",
     "lineId": "hokuhoku",
+    "trainId": "33749",
     "trainNumber": "831M",
     "trainType": "local",
     "direction": "inbound",
@@ -4063,7 +4064,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33749",
     "throughTripId": "HD_INB_JOE-25_1010_33730",
     "throughLineId": "joetsu",
     "prevTripId": "HD_OUT_SE-01_0903_33749",
@@ -4072,6 +4072,7 @@
   {
     "tripId": "HD_OUT_HK-01_0936_35092",
     "lineId": "hokuhoku",
+    "trainId": "35092",
     "trainNumber": "830M",
     "trainType": "local",
     "direction": "outbound",
@@ -4155,15 +4156,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "35092",
-    "prevTripId": "HD_OUT_JOE-20_0914_35073",
-    "prevLineId": "joetsu",
     "throughTripId": "HD_INB_SE-03_1036_35092",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "HD_OUT_JOE-20_0914_35073",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_HK-12_1004_33750",
     "lineId": "hokuhoku",
+    "trainId": "33750",
     "trainNumber": "833M",
     "trainType": "local",
     "direction": "inbound",
@@ -4247,7 +4248,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33750",
     "throughTripId": "HD_INB_JOE-25_1105_33731",
     "throughLineId": "joetsu",
     "prevTripId": "HD_OUT_SE-01_0956_33750",
@@ -4256,6 +4256,7 @@
   {
     "tripId": "HD_OUT_HK-01_1102_35098",
     "lineId": "hokuhoku",
+    "trainId": "35098",
     "trainNumber": "832M",
     "trainType": "local",
     "direction": "outbound",
@@ -4339,15 +4340,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "35098",
-    "prevTripId": "HD_OUT_JOE-20_1041_35079",
-    "prevLineId": "joetsu",
     "throughTripId": "HD_INB_SE-03_1211_35098",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "HD_OUT_JOE-20_1041_35079",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_HK-12_1130_33746",
     "lineId": "hokuhoku",
+    "trainId": "33746",
     "trainNumber": "835M",
     "trainType": "local",
     "direction": "inbound",
@@ -4431,7 +4432,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33746",
     "throughTripId": "HD_INB_JOE-25_1235_33727",
     "throughLineId": "joetsu",
     "prevTripId": "HD_OUT_SE-01_1121_33746",
@@ -4440,6 +4440,7 @@
   {
     "tripId": "HD_OUT_HK-01_1158_35096",
     "lineId": "hokuhoku",
+    "trainId": "35096",
     "trainNumber": "834M",
     "trainType": "local",
     "direction": "outbound",
@@ -4523,15 +4524,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "35096",
-    "prevTripId": "HD_OUT_JOE-20_1141_35077",
-    "prevLineId": "joetsu",
     "throughTripId": "HD_INB_SE-03_1259_35096",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "HD_OUT_JOE-20_1141_35077",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_HK-12_1309_33751",
     "lineId": "hokuhoku",
+    "trainId": "33751",
     "trainNumber": "837M",
     "trainType": "local",
     "direction": "inbound",
@@ -4615,13 +4616,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33751",
     "throughTripId": "HD_INB_JOE-25_1420_33732",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_HK-01_1343_35099",
     "lineId": "hokuhoku",
+    "trainId": "35099",
     "trainNumber": "836M",
     "trainType": "local",
     "direction": "outbound",
@@ -4705,13 +4706,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35099",
     "throughTripId": "HD_INB_SE-03_1449_35099",
     "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_INB_HK-12_1413_33747",
     "lineId": "hokuhoku",
+    "trainId": "33747",
     "trainNumber": "839M",
     "trainType": "local",
     "direction": "inbound",
@@ -4795,7 +4796,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33747",
     "throughTripId": "HD_INB_JOE-25_1528_33728",
     "throughLineId": "joetsu",
     "prevTripId": "HD_OUT_SE-01_1405_33747",
@@ -4804,11 +4804,13 @@
   {
     "tripId": "HD_OUT_HK-01_1450_40356",
     "lineId": "hokuhoku",
+    "trainId": "40356",
     "trainNumber": "838M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "六日町",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": true,
@@ -4886,14 +4888,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40356",
-    "customOrigin": "六日町",
     "throughTripId": "HD_INB_SE-03_1555_40356",
     "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_INB_HK-12_1522_33748",
     "lineId": "hokuhoku",
+    "trainId": "33748",
     "trainNumber": "841M",
     "trainType": "local",
     "direction": "inbound",
@@ -4977,7 +4978,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33748",
     "throughTripId": "HD_INB_JOE-25_1620_33729",
     "throughLineId": "joetsu",
     "prevTripId": "HD_OUT_SE-01_1507_33748",
@@ -4986,11 +4986,13 @@
   {
     "tripId": "HD_OUT_HK-01_1544_40357",
     "lineId": "hokuhoku",
+    "trainId": "40357",
     "trainNumber": "840M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": true,
@@ -5068,16 +5070,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "40357",
-    "customOrigin": "越後湯沢",
-    "prevTripId": "HD_OUT_JOE-20_1526_35081",
-    "prevLineId": "joetsu",
     "throughTripId": "HD_INB_SE-03_1647_40357",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "HD_OUT_JOE-20_1526_35081",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_HK-12_1614_33752",
     "lineId": "hokuhoku",
+    "trainId": "33752",
     "trainNumber": "843M",
     "trainType": "local",
     "direction": "inbound",
@@ -5161,7 +5162,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33752",
     "throughTripId": "HD_INB_JOE-25_1713_33733",
     "throughLineId": "joetsu",
     "prevTripId": "HD_OUT_SE-01_1607_33752",
@@ -5170,11 +5170,13 @@
   {
     "tripId": "HD_OUT_HK-01_1639_40359",
     "lineId": "hokuhoku",
+    "trainId": "40359",
     "trainNumber": "842M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": true,
@@ -5252,16 +5254,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "40359",
-    "customOrigin": "越後湯沢",
-    "prevTripId": "HD_OUT_JOE-20_1623_35082",
-    "prevLineId": "joetsu",
     "throughTripId": "HD_INB_SE-03_1743_40359",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "HD_OUT_JOE-20_1623_35082",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_HK-12_1710_33753",
     "lineId": "hokuhoku",
+    "trainId": "33753",
     "trainNumber": "845M",
     "trainType": "local",
     "direction": "inbound",
@@ -5345,7 +5346,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33753",
     "throughTripId": "HD_INB_JOE-25_1808_33734",
     "throughLineId": "joetsu",
     "prevTripId": "HD_OUT_SE-01_1703_33753",
@@ -5354,12 +5354,14 @@
   {
     "tripId": "HD_OUT_HK-01_1733_41462",
     "lineId": "hokuhoku",
+    "trainId": "41462",
     "trainNumber": "844M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
     "customOrigin": "越後湯沢",
+    "customDestination": "犀潟",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -5436,14 +5438,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "41462",
-    "customDestination": "犀潟",
     "prevTripId": "HD_OUT_JOE-20_1710_41431",
     "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_HK-12_1806_33754",
     "lineId": "hokuhoku",
+    "trainId": "33754",
     "trainNumber": "847M",
     "trainType": "local",
     "direction": "inbound",
@@ -5527,7 +5528,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33754",
     "throughTripId": "HD_INB_JOE-25_1904_33735",
     "throughLineId": "joetsu",
     "prevTripId": "HD_OUT_SE-01_1759_33754",
@@ -5536,6 +5536,7 @@
   {
     "tripId": "HD_OUT_HK-01_1826_35097",
     "lineId": "hokuhoku",
+    "trainId": "35097",
     "trainNumber": "846M",
     "trainType": "local",
     "direction": "outbound",
@@ -5619,15 +5620,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "35097",
-    "prevTripId": "HD_OUT_JOE-20_1806_35078",
-    "prevLineId": "joetsu",
     "throughTripId": "HD_INB_SE-03_1927_35097",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "HD_OUT_JOE-20_1806_35078",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_HK-12_1855_21904",
     "lineId": "hokuhoku",
+    "trainId": "21904",
     "trainNumber": "849M",
     "trainType": "local",
     "direction": "inbound",
@@ -5708,17 +5709,18 @@
         "departureTime": "19:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21904"
+    ]
   },
   {
     "tripId": "HD_OUT_HK-01_1918_40358",
     "lineId": "hokuhoku",
+    "trainId": "40358",
     "trainNumber": "848M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "HK-01",
     "destinationStationId": "HK-12",
+    "customOrigin": "六日町",
     "customDestination": "直江津",
     "cars": 2,
     "isHoliday": true,
@@ -5796,14 +5798,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40358",
-    "customOrigin": "六日町",
     "throughTripId": "HD_INB_SE-03_2015_40358",
     "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_INB_HK-12_1955_33755",
     "lineId": "hokuhoku",
+    "trainId": "33755",
     "trainNumber": "851M",
     "trainType": "local",
     "direction": "inbound",
@@ -5887,7 +5888,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33755",
     "throughTripId": "HD_INB_JOE-25_2103_33736",
     "throughLineId": "joetsu",
     "prevTripId": "HD_OUT_SE-01_1948_33755",
@@ -5896,6 +5896,7 @@
   {
     "tripId": "HD_OUT_HK-01_2026_35093",
     "lineId": "hokuhoku",
+    "trainId": "35093",
     "trainNumber": "850M",
     "trainType": "local",
     "direction": "outbound",
@@ -5979,21 +5980,22 @@
         "isPassing": false
       }
     ],
-    "trainId": "35093",
-    "prevTripId": "HD_OUT_JOE-20_2006_35074",
-    "prevLineId": "joetsu",
     "throughTripId": "HD_INB_SE-03_2130_35093",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "HD_OUT_JOE-20_2006_35074",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_HK-12_2051_40372",
     "lineId": "hokuhoku",
+    "trainId": "40372",
     "trainNumber": "853M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "HK-12",
     "destinationStationId": "HK-01",
     "customOrigin": "直江津",
+    "customDestination": "六日町",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -6070,14 +6072,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40372",
-    "customDestination": "六日町",
     "prevTripId": "HD_OUT_SE-01_2044_40372",
     "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_OUT_HK-01_2119_35094",
     "lineId": "hokuhoku",
+    "trainId": "35094",
     "trainNumber": "852M",
     "trainType": "local",
     "direction": "outbound",
@@ -6161,21 +6162,22 @@
         "isPassing": false
       }
     ],
-    "trainId": "35094",
-    "prevTripId": "HD_OUT_JOE-20_2101_35075",
-    "prevLineId": "joetsu",
     "throughTripId": "HD_INB_SE-03_2221_35094",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "HD_OUT_JOE-20_2101_35075",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_HK-12_2227_40373",
     "lineId": "hokuhoku",
+    "trainId": "40373",
     "trainNumber": "855M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "HK-12",
     "destinationStationId": "HK-01",
     "customOrigin": "直江津",
+    "customDestination": "六日町",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -6252,14 +6254,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40373",
-    "customDestination": "六日町",
     "prevTripId": "HD_OUT_SE-01_2219_40373",
     "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_OUT_HK-01_2249_35095",
     "lineId": "hokuhoku",
+    "trainId": "35095",
     "trainNumber": "854M",
     "trainType": "local",
     "direction": "outbound",
@@ -6343,10 +6344,9 @@
         "isPassing": false
       }
     ],
-    "trainId": "35095",
-    "prevTripId": "HD_OUT_JOE-20_2231_35076",
-    "prevLineId": "joetsu",
     "throughTripId": "HD_INB_SE-03_2347_35095",
-    "throughLineId": "shinetsu_naoetsu_niigata"
+    "throughLineId": "shinetsu_naoetsu_niigata",
+    "prevTripId": "HD_OUT_JOE-20_2231_35076",
+    "prevLineId": "joetsu"
   }
 ]

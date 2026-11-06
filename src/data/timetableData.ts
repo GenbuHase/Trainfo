@@ -411,25 +411,19 @@ export function getFullDayStationTimetable(
 // 全路線の全トリップの高速ルックアップ用Map（動的初期化）
 let _globalTripMap: Map<string, TimetableTrip> | null = null;
 let _globalTrainIdMap: Map<string, TimetableTrip[]> | null = null;
-let _globalTrainNameByNumberMap: Map<string, string> | null = null;
 
 export function invalidateGlobalTripMaps() {
   _globalTripMap = null;
   _globalTrainIdMap = null;
-  _globalTrainNameByNumberMap = null;
 }
 
 function ensureGlobalMaps() {
-  if (!_globalTripMap || !_globalTrainIdMap || !_globalTrainNameByNumberMap) {
+  if (!_globalTripMap || !_globalTrainIdMap) {
     _globalTripMap = new Map();
     _globalTrainIdMap = new Map();
-    _globalTrainNameByNumberMap = new Map();
     const trips = [...getCombinedGlobalTimetable(), ..._dynamicTestTrainTrips];
     for (const trip of trips) {
       _globalTripMap.set(trip.tripId, trip);
-      if (trip.trainName && trip.trainNumber) {
-        _globalTrainNameByNumberMap.set(trip.trainNumber, trip.trainName);
-      }
       if (trip.trainId) {
         if (!_globalTrainIdMap.has(trip.trainId)) {
           _globalTrainIdMap.set(trip.trainId, []);
@@ -441,17 +435,14 @@ function ensureGlobalMaps() {
 }
 
 /**
- * 発車標・全日時刻表データから固有列車名称（愛称・号数）を高速解決
+ * 発車標・全日時刻表データから固有列車名称（愛称・号数）を解決
+ * データ側（パイプライン・ビルド時）でバリデーション・サニタイズされた列車名称をそのまま信頼して返却します。
  */
 export function resolveDepartureTrainName(d: RawStationDeparture): string | undefined {
   if (d.trainName) return d.trainName;
   if (d.tripId) {
     const fullTrip = getGlobalTripMap().get(d.tripId);
     if (fullTrip?.trainName) return fullTrip.trainName;
-  }
-  ensureGlobalMaps();
-  if (d.no && _globalTrainNameByNumberMap?.has(d.no)) {
-    return _globalTrainNameByNumberMap.get(d.no);
   }
   return undefined;
 }

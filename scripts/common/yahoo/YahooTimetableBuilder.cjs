@@ -20,6 +20,56 @@ function normalizeTrainNumber(rawNo) {
   return trimmed;
 }
 
+
+
+/**
+ * 愛称を持たない一般的な列車種別のマスターリスト
+ * ここに定義された種別は、単体では愛称なし（null）と判定され、
+ * 先頭に付与されている場合はプレフィックスとして自動除去されます。
+ */
+const GENERIC_TRAIN_TYPES = [
+  '新幹線',
+  '超特急',
+  '寝台特急',
+  '特急列車',
+  '通勤特急',
+  '特急',
+  '川越特急',
+  '特別快速',
+  '通勤特別快速',
+  '通勤特快',
+  '中央特快',
+  '青梅特快',
+  '通勤快速',
+  '区間快速',
+  '巡行快速',
+  '快速急行',
+  '通勤急行',
+  '区間急行',
+  '急行列車',
+  '急行',
+  '快速',
+  '通勤準急',
+  '区間準急',
+  '準急',
+  '普通列車',
+  '各駅停車',
+  '各停',
+  '普通',
+  'ライナー',
+  '代行バス'
+];
+
+// 完全一致での種別除外用 Set
+const GENERIC_TYPE_SET = new Set(GENERIC_TRAIN_TYPES);
+
+// 文字列長の降順でソート（「中央特快」が「特快」や「快速」より先にマッチするようにプレフィックス正規表現を自動生成）
+const SORTED_GENERIC_TYPES = [...GENERIC_TRAIN_TYPES]
+  .sort((a, b) => b.length - a.length)
+  .map(s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+
+const PREFIX_REGEX = new RegExp(`^(?:JR)?(?:${SORTED_GENERIC_TYPES.join('|')})\\s*`, 'i');
+
 class YahooTimetableBuilder {
   /**
    * @param {Object} config - LineScraperConfig
@@ -87,8 +137,17 @@ class YahooTimetableBuilder {
     // 1. 駅キャッシュから trainId で突合
     let vendorNo = this.trainIdToVendor.get(`${dayKey}_${trainId}`) || this.trainIdToVendor.get(trainId);
 
-    // 2. なければ各停車の時刻キーで突合
-    if (!vendorNo && stops && stops.length > 0) {
+    // 2. なければ guideComment から英数字列車番号を抽出（特急や臨時列車で有効）
+    if (!vendorNo && trainDetail.guideComment) {
+      const m = trainDetail.guideComment.match(/\b([0-9]{2,4}[A-Za-z]|[A-Za-z][0-9]{2,4}[A-Za-z]?)\b/);
+      if (m) {
+        vendorNo = m[1];
+      }
+    }
+
+    // 3. なければ各停車の時刻キーで突合（※特急種別は同時刻発車普通列車の番号誤爆を防止するため時刻のみの突合を行わない）
+    const isLtd = trainDetail.displayName?.includes('特急') || trainDetail.trainName || trainDetail.trainType === 'limitedExp';
+    if (!vendorNo && !isLtd && stops && stops.length > 0) {
       for (const stop of stops) {
         if (!stop.departureTime || stop.isPassing) continue;
         const [hh, mm] = stop.departureTime.split(':').map(Number);
@@ -98,14 +157,6 @@ class YahooTimetableBuilder {
           vendorNo = found;
           break;
         }
-      }
-    }
-
-    // 3. なければ guideComment から英数字列車番号を抽出
-    if (!vendorNo && trainDetail.guideComment) {
-      const m = trainDetail.guideComment.match(/\b([0-9]{2,4}[A-Za-z]|[A-Za-z][0-9]{2,4}[A-Za-z]?)\b/);
-      if (m) {
-        vendorNo = m[1];
       }
     }
 
@@ -229,25 +280,24 @@ class YahooTimetableBuilder {
     normalized = normalized.replace(/^S-TRAIN\s*(\d+号)$/i, 'S-TRAIN $1');
 
     // 2. 単なる種別名のみの場合は除外（愛称なし）
-    const genericTypes = new Set([
-      '普通', '各駅停車', '快速', '通勤快速', '特別快速', '通勤特快',
-      '中央特快', '青梅特快', '区間快速', '急行', '快速急行', '区間急行',
-      '準急', '通勤準急', '区間準急', '特急', '通勤特急', 'ライナー',
-      '新幹線', 'S-TRAIN', 'S−TRAIN', '川越特急'
-    ]);
-    if (genericTypes.has(normalized)) {
+    if (GENERIC_TYPE_SET.has(normalized) || /^S-TRAIN$/i.test(normalized)) {
       return null;
     }
 
-    // 3. 先頭の種別プレフィックス（「新幹線 」「特急 」「快速 」「急行 」「普通 」など）を除去
-    // 例: "新幹線 とき301号" -> "とき301号"
-    // 例: "特急 あずさ9号" -> "あずさ9号"
-    // 例: "快速 DLばんえつ物語" -> "DLばんえつ物語"
-    // 例: "特急あずさ9号" -> "あずさ9号"
-    const prefixRegex = /^(?:JR)?(?:新幹線|超特急|特急|川越特急|通勤特急|快速急行|通勤急行|区間急行|急行|特別快速|通勤特快|中央特快|青梅特快|通勤快速|区間快速|快速|区間準急|通勤準急|準急|普通|各駅停車)\s*/;
-    const stripped = normalized.replace(prefixRegex, '').trim();
+    // 3. 先頭の種別プレフィックス（「新幹線 」「特急 」「快速 」「急行 」「普通 」など）を動的生成した正規表現で除去
+    const stripped = normalized.replace(PREFIX_REGEX, '').trim();
 
-    if (!stripped || genericTypes.has(stripped)) {
+    if (!stripped || GENERIC_TYPE_SET.has(stripped) || /^S-TRAIN$/i.test(stripped)) {
+      return null;
+    }
+
+    // 4. 単なる号数のみ（例: "183号", "201号" など、愛称名のない単なる数字+号）は除外
+    if (/^\d+号$/.test(stripped)) {
+      return null;
+    }
+
+    // 5. 行先表記（例: "逗子行", "東京方面" 等）は除外
+    if (/.*(?:行き?|方面)$/.test(stripped)) {
       return null;
     }
 
@@ -317,7 +367,7 @@ class YahooTimetableBuilder {
   buildTrip(trainDetail) {
     const { trainId, dayKey, stopStation, displayName } = trainDetail;
     const isHoliday = dayKey === 'holiday';
-    const trainName = this.extractTrainName(displayName);
+    let trainName = this.extractTrainName(displayName);
 
     // 【路線固有の除外フィルター】他路線集約列車（むさしの号等）の除外判定
     if (this.config.shouldExcludeTrip && this.config.shouldExcludeTrip(trainDetail)) {
@@ -681,7 +731,18 @@ class YahooTimetableBuilder {
         }
       }
 
-      const trainType = trainDetail.trainType || this.resolveTrainType(displayName);
+      // 種別の決定: displayName の優等種別を尊重しつつ、駅時刻表の trainType または displayName から解決
+      const resolvedFromDisplaySeg = displayName ? this.resolveTrainType(displayName) : null;
+      const validConfigTypesSeg = new Set(Object.values(this.config.trainTypeMap || {}));
+      const isCachedTypeValidSeg = trainDetail.trainType && (validConfigTypesSeg.has(trainDetail.trainType) || trainDetail.trainType === 'local');
+      let trainType;
+      if (resolvedFromDisplaySeg && resolvedFromDisplaySeg !== 'local') {
+        trainType = resolvedFromDisplaySeg;
+      } else if (isCachedTypeValidSeg) {
+        trainType = trainDetail.trainType;
+      } else {
+        trainType = resolvedFromDisplaySeg || this.config.defaultTrainType || 'local';
+      }
       const originSt = firstStop.station;
       const destSt = lastStop.station;
 
@@ -704,13 +765,15 @@ class YahooTimetableBuilder {
       const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}${segSuffix}`;
       const forcedEndpoints = this.resolveForcedEndpoints(trainDetail, originSt, destSt);
 
+      const effectiveTrainNameSeg = trainName || undefined;
+
       return {
         tripId,
         lineId: this.config.lineId,
         trainId,
         trainNumber: this.resolveTrainNumber(trainDetail, stops, isHoliday),
         trainType,
-        ...(trainName ? { trainName } : {}),
+        ...(effectiveTrainNameSeg ? { trainName: effectiveTrainNameSeg } : {}),
         direction,
         originStationId: originSt.id,
         destinationStationId: destSt.id,
@@ -832,8 +895,18 @@ class YahooTimetableBuilder {
       });
     }
 
-    // 種別の決定: 駅時刻表の trainType があれば優先、なければ displayName から解決
-    let trainType = trainDetail.trainType || this.resolveTrainType(displayName);
+    // 種別の決定: displayName の優等種別を尊重しつつ、駅時刻表の trainType または displayName から解決
+    const resolvedFromDisplay = displayName ? this.resolveTrainType(displayName) : null;
+    const validConfigTypes = new Set(Object.values(this.config.trainTypeMap || {}));
+    const isCachedTypeValid = trainDetail.trainType && (validConfigTypes.has(trainDetail.trainType) || trainDetail.trainType === 'local');
+    let trainType;
+    if (resolvedFromDisplay && resolvedFromDisplay !== 'local') {
+      trainType = resolvedFromDisplay;
+    } else if (isCachedTypeValid) {
+      trainType = trainDetail.trainType;
+    } else {
+      trainType = resolvedFromDisplay || this.config.defaultTrainType || 'local';
+    }
 
     const hasPassingStop = stops.some(s => s.isPassing);
 
@@ -849,7 +922,15 @@ class YahooTimetableBuilder {
       ...SHINKANSEN_TYPES,
       ...(this.config.preserveAllStopsTypes || []),
     ]);
-    if (!hasPassingStop && trainType !== 'local' && !preserveTypes.has(trainType)) {
+
+    // 【通過駅なし格下げの保護ルール】
+    // 1. 固有愛称（trainName）を持つ列車（AIZUマウントエクスプレス、リレー号、柳都Shu＊Kura等）
+    // 2. 特急・新幹線・指定種別（preserveTypes）
+    // 3. 他線直通の短区間乗り入れ（駅数 <= 3、例: 只見線の会津若松〜西若松間など）
+    const isShortTransferSegment = stops.length <= 3 && stopStation.length > stops.length;
+    const shouldPreserve = Boolean(trainName) || preserveTypes.has(trainType) || isShortTransferSegment;
+
+    if (!hasPassingStop && trainType !== 'local' && !shouldPreserve) {
       trainType = this.config.defaultTrainType || 'local';
     }
 
@@ -891,13 +972,15 @@ class YahooTimetableBuilder {
     const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}${segSuffix}`;
     const forcedEndpoints = this.resolveForcedEndpoints(trainDetail, originSt, destSt);
 
+    const effectiveTrainName = trainName || undefined;
+
     return {
       tripId,
       lineId: this.config.lineId,
       trainId,
       trainNumber: this.resolveTrainNumber(trainDetail, stops, isHoliday),
       trainType,
-      ...(trainName ? { trainName } : {}),
+      ...(effectiveTrainName ? { trainName: effectiveTrainName } : {}),
       direction,
       originStationId: originSt.id,
       destinationStationId: destSt.id,
@@ -964,12 +1047,14 @@ class YahooTimetableBuilder {
       }
     }
 
-    // 出発時刻順にソート
+    // 出発時刻順にソート（タイブレークとしてtripIdで完全決定論的ソート）
     trips.sort((a, b) => {
       if (a.isHoliday !== b.isHoliday) return a.isHoliday ? 1 : -1;
       const aTime = a.stops[0]?.departureTime || '00:00:00';
       const bTime = b.stops[0]?.departureTime || '00:00:00';
-      return aTime.localeCompare(bTime);
+      const timeDiff = aTime.localeCompare(bTime);
+      if (timeDiff !== 0) return timeDiff;
+      return (a.tripId || '').localeCompare(b.tripId || '');
     });
 
     return trips;
@@ -999,9 +1084,10 @@ class YahooTimetableBuilder {
 
       for (let i = 0; i < trip.stops.length; i++) {
         const stop = trip.stops[i];
-        // 終着駅は発車しないため除外（ただし直通先へ発車するトリップで departureTime が設定されている場合は含める）
+        // 終着駅はその路線の運行終了（降車専用）のため発車時刻表からは除外
+        // （他線への直通列車は、直通先路線側の始発駅時刻表に掲載される）
         if (i === trip.stops.length - 1) {
-          if (!trip.throughTripId || !stop.departureTime) continue;
+          continue;
         }
         if (stop.isPassing) continue;
 
@@ -1013,6 +1099,8 @@ class YahooTimetableBuilder {
         const lastStObj = this.stById.get(lastStop.stationId);
         const destName = trip.customDestination || lastStObj?.name || '';
 
+        const effectiveTrainName = trip.trainName || undefined;
+
         const entry = {
           h,
           m,
@@ -1022,7 +1110,7 @@ class YahooTimetableBuilder {
           d: destName,
           no: trip.trainNumber,
           tripId: trip.tripId,
-          ...(trip.trainName ? { trainName: trip.trainName } : {}),
+          ...(effectiveTrainName ? { trainName: effectiveTrainName } : {}),
         };
 
         if (store[dayKey][stop.stationId]) {

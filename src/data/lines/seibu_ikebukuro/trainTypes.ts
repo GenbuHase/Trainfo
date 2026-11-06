@@ -1,5 +1,6 @@
 // 西武池袋線・西武秩父線 列車種別定義
 import type { TrainTypeConfig } from '../../../types';
+import { LINER_PRESETS } from '../../trainTypePresets';
 
 export const SEIBU_IKEBUKURO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
@@ -72,16 +73,7 @@ export const SEIBU_IKEBUKURO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#8b52a1',
     borderColor: '#8b52a1',
   },
-  strain: {
-    key: 'strain',
-    name: 'S-TRAIN',
-    nameEn: 'S-TRAIN',
-    shortName: 'S',
-    color: '#99cc00',
-    textColor: '#ffffff',
-    bgColor: '#99cc00',
-    borderColor: '#99cc00',
-  },
+  strain: LINER_PRESETS.STRAIN,
   limitedExp: {
     key: 'limitedExp',
     name: '特急',

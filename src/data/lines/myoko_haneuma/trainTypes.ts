@@ -1,4 +1,5 @@
 import type { TrainTypeConfig, TrainTypeKey } from '../../../types';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const MYOKO_HANEUMA_TRAIN_TYPES: Record<TrainTypeKey, TrainTypeConfig> = {
   local: {
@@ -15,20 +16,11 @@ export const MYOKO_HANEUMA_TRAIN_TYPES: Record<TrainTypeKey, TrainTypeConfig> = 
     key: 'rapid',
     name: '快速',
     nameEn: 'Rapid',
-    shortName: '快',
+    shortName: '快速',
     color: '#008000',
     textColor: '#ffffff',
     bgColor: '#008000',
     borderColor: '#006600',
   },
-  limitedExp: {
-    key: 'limitedExp',
-    name: '特急しらゆき',
-    nameEn: 'Ltd Exp Shirayuki',
-    shortName: '特急',
-    color: '#e66b00',
-    textColor: '#ffffff',
-    bgColor: '#e66b00',
-    borderColor: '#cc5500',
-  },
+  limitedExp: LIMITED_EXP_PRESETS.NIIGATA,
 } as Record<TrainTypeKey, TrainTypeConfig>;

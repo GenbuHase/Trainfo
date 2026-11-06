@@ -15,7 +15,7 @@ export const HOKUHOKU_TRAIN_TYPES: Record<TrainTypeKey, TrainTypeConfig> = {
     key: 'rapid',
     name: '快速',
     nameEn: 'Rapid',
-    shortName: '快',
+    shortName: '快速',
     color: '#e60012',
     textColor: '#ffffff',
     bgColor: '#e60012',

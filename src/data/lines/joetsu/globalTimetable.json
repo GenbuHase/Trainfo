@@ -2,11 +2,13 @@
   {
     "tripId": "WD_INB_JOE-04_0500_34287",
     "lineId": "joetsu",
+    "trainId": "34287",
     "trainNumber": "1825E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
+    "customOrigin": "新前橋",
     "customDestination": "熱海",
     "cars": 4,
     "isHoliday": false,
@@ -36,14 +38,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34287",
-    "customOrigin": "新前橋",
     "throughTripId": "WD_INB_TK-25_0510_34287",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_INB_JOE-14_0504_13902",
     "lineId": "joetsu",
+    "trainId": "13902",
     "trainNumber": "720M",
     "trainType": "local",
     "direction": "inbound",
@@ -136,12 +137,12 @@
         "departureTime": "06:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13902"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_0536_33438",
     "lineId": "joetsu",
+    "trainId": "33438",
     "trainNumber": "2825Y",
     "trainType": "local",
     "direction": "inbound",
@@ -176,12 +177,12 @@
         "departureTime": "05:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33438"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-36_0539_11336",
     "lineId": "joetsu",
+    "trainId": "11336",
     "trainNumber": "1722M",
     "trainType": "local",
     "direction": "inbound",
@@ -304,18 +305,19 @@
         "departureTime": "07:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11336"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_0554_18887",
     "lineId": "joetsu",
+    "trainId": "18887",
     "trainNumber": "420M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -344,14 +346,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18887",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-13_0528_18887",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-04_0605_34296",
     "lineId": "joetsu",
+    "trainId": "34296",
     "trainNumber": "1837E",
     "trainType": "local",
     "direction": "inbound",
@@ -386,12 +387,12 @@
         "departureTime": "06:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34296"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-21_0605_13915",
     "lineId": "joetsu",
+    "trainId": "13915",
     "trainNumber": "1720M",
     "trainType": "local",
     "direction": "inbound",
@@ -448,12 +449,12 @@
         "departureTime": "06:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13915"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-14_0608_13903",
     "lineId": "joetsu",
+    "trainId": "13903",
     "trainNumber": "724M",
     "trainType": "local",
     "direction": "inbound",
@@ -546,12 +547,12 @@
         "departureTime": "07:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13903"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_0617_19242",
     "lineId": "joetsu",
+    "trainId": "19242",
     "trainNumber": "1321M",
     "trainType": "local",
     "direction": "outbound",
@@ -573,15 +574,12 @@
         "departureTime": "06:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19242",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-12_0537_19242",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-07_0619_24818",
     "lineId": "joetsu",
+    "trainId": "24818",
     "trainNumber": "520M",
     "trainType": "local",
     "direction": "inbound",
@@ -633,12 +631,12 @@
         "departureTime": "06:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24818"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-32_0619_29340",
     "lineId": "joetsu",
+    "trainId": "29340",
     "trainNumber": "1121D",
     "trainType": "local",
     "direction": "outbound",
@@ -678,15 +676,12 @@
         "departureTime": "06:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29340",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-22_0639_29359",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_0621_13875",
     "lineId": "joetsu",
+    "trainId": "13875",
     "trainNumber": "721M",
     "trainType": "local",
     "direction": "outbound",
@@ -779,13 +774,13 @@
         "departureTime": "07:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13875"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-21_0625_11351",
     "lineId": "joetsu",
-    "trainNumber": "1721M",
+    "trainId": "11351",
+    "trainNumber": "1738M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-21",
@@ -890,21 +885,19 @@
         "departureTime": "07:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11351",
-    "customOrigin": "石打",
-    "throughTripId": "WD_OUT_SE-22_0728_11362",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_0628_18888",
     "lineId": "joetsu",
+    "trainId": "18888",
     "trainNumber": "422M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -933,14 +926,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18888",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-13_0600_18888",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-07_0630_13894",
     "lineId": "joetsu",
+    "trainId": "13894",
     "trainNumber": "2722M",
     "trainType": "local",
     "direction": "inbound",
@@ -991,12 +983,12 @@
         "departureTime": "07:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13894"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-36_0633_11345",
     "lineId": "joetsu",
+    "trainId": "11345",
     "trainNumber": "1724M",
     "trainType": "local",
     "direction": "inbound",
@@ -1143,13 +1135,13 @@
         "departureTime": "08:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11345"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-20_0634_11352",
     "lineId": "joetsu",
-    "trainNumber": "1723M",
+    "trainId": "11352",
+    "trainNumber": "1750M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
@@ -1259,16 +1251,12 @@
         "departureTime": "07:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11352",
-    "customDestination": "長岡",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "WD_OUT_SE-22_0751_11363",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_0637_34290",
     "lineId": "joetsu",
+    "trainId": "34290",
     "trainNumber": "1843E",
     "trainType": "local",
     "direction": "inbound",
@@ -1303,18 +1291,19 @@
         "departureTime": "06:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34290"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-25_0642_33725",
     "lineId": "joetsu",
+    "trainId": "33725",
     "trainNumber": "821M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1355,14 +1344,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33725",
-    "customDestination": "越後湯沢",
     "prevTripId": "WD_INB_HK-12_0538_33744",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_0646_40903",
     "lineId": "joetsu",
+    "trainId": "40903",
     "trainNumber": "832M",
     "trainType": "local",
     "direction": "inbound",
@@ -1397,12 +1385,12 @@
         "departureTime": "06:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "40903"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-32_0652_29339",
     "lineId": "joetsu",
+    "trainId": "29339",
     "trainNumber": "1123D",
     "trainType": "local",
     "direction": "outbound",
@@ -1442,15 +1430,12 @@
         "departureTime": "07:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29339",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-22_0714_29358",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-36_0654_29341",
     "lineId": "joetsu",
+    "trainId": "29341",
     "trainNumber": "1120D",
     "trainType": "local",
     "direction": "inbound",
@@ -1490,12 +1475,12 @@
         "departureTime": "07:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29341"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-14_0656_13904",
     "lineId": "joetsu",
+    "trainId": "13904",
     "trainNumber": "726M",
     "trainType": "local",
     "direction": "inbound",
@@ -1588,13 +1573,13 @@
         "departureTime": "08:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13904"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-18_0657_11365",
     "lineId": "joetsu",
-    "trainNumber": "1725M",
+    "trainId": "11365",
+    "trainNumber": "1735M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-18",
@@ -1716,22 +1701,19 @@
         "departureTime": "08:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11365",
-    "customDestination": "長岡",
-    "customOrigin": "越後中里",
-    "throughTripId": "WD_OUT_SE-22_0822_11376",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_0659_18889",
     "lineId": "joetsu",
+    "trainId": "18889",
     "trainNumber": "424M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1760,16 +1742,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "18889",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-13_0634_18889",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_OUT_JOE-35_0708_19239",
     "lineId": "joetsu",
+    "trainId": "19239",
     "trainNumber": "3371M",
-    "trainType": "local",
+    "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "JOE-35",
     "destinationStationId": "JOE-36",
@@ -1789,15 +1770,12 @@
         "departureTime": "07:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19239",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_0610_19239",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-07_0710_24819",
     "lineId": "joetsu",
+    "trainId": "24819",
     "trainNumber": "522M",
     "trainType": "local",
     "direction": "inbound",
@@ -1849,12 +1827,12 @@
         "departureTime": "07:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24819"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_0711_13876",
     "lineId": "joetsu",
+    "trainId": "13876",
     "trainNumber": "723M",
     "trainType": "local",
     "direction": "outbound",
@@ -1947,12 +1925,12 @@
         "departureTime": "08:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13876"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_0714_33436",
     "lineId": "joetsu",
+    "trainId": "33436",
     "trainNumber": "2835Y",
     "trainType": "local",
     "direction": "inbound",
@@ -1987,18 +1965,19 @@
         "departureTime": "07:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33436"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_0722_18875",
     "lineId": "joetsu",
+    "trainId": "18875",
     "trainNumber": "620M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2027,14 +2006,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18875",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-14_0701_18875",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-36_0729_29342",
     "lineId": "joetsu",
+    "trainId": "29342",
     "trainNumber": "1122D",
     "trainType": "local",
     "direction": "inbound",
@@ -2074,12 +2052,12 @@
         "departureTime": "07:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29342"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-14_0732_13905",
     "lineId": "joetsu",
+    "trainId": "13905",
     "trainNumber": "728M",
     "trainType": "local",
     "direction": "inbound",
@@ -2172,12 +2150,12 @@
         "departureTime": "08:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13905"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_0736_19244",
     "lineId": "joetsu",
+    "trainId": "19244",
     "trainNumber": "1323M",
     "trainType": "local",
     "direction": "outbound",
@@ -2201,19 +2179,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "19244",
     "throughTripId": "WD_OUT_SE-12_0656_19244",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_JOE-04_0741_18890",
     "lineId": "joetsu",
+    "trainId": "18890",
     "trainNumber": "426M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2242,14 +2221,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18890",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-13_0712_18890",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_OUT_JOE-01_0745_13877",
     "lineId": "joetsu",
+    "trainId": "13877",
     "trainNumber": "725M",
     "trainType": "local",
     "direction": "outbound",
@@ -2342,13 +2320,13 @@
         "departureTime": "08:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13877"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-18_0745_11366",
     "lineId": "joetsu",
-    "trainNumber": "1727M",
+    "trainId": "11366",
+    "trainNumber": "1737M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-18",
@@ -2470,16 +2448,12 @@
         "departureTime": "09:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11366",
-    "customDestination": "長岡",
-    "customOrigin": "越後中里",
-    "throughTripId": "WD_OUT_SE-22_0915_11377",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-36_0751_11337",
     "lineId": "joetsu",
+    "trainId": "11337",
     "trainNumber": "1726M",
     "trainType": "local",
     "direction": "inbound",
@@ -2590,12 +2564,12 @@
         "departureTime": "09:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11337"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_0756_19227",
     "lineId": "joetsu",
+    "trainId": "19227",
     "trainNumber": "1325M",
     "trainType": "local",
     "direction": "outbound",
@@ -2617,15 +2591,12 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19227",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_0630_19227",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_0758_18848",
     "lineId": "joetsu",
+    "trainId": "18848",
     "trainNumber": "428M",
     "trainType": "local",
     "direction": "inbound",
@@ -2659,12 +2630,12 @@
         "departureTime": "08:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18848"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-07_0806_24824",
     "lineId": "joetsu",
+    "trainId": "24824",
     "trainNumber": "524M",
     "trainType": "local",
     "direction": "inbound",
@@ -2716,14 +2687,14 @@
         "departureTime": "08:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24824"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_0808_19240",
     "lineId": "joetsu",
+    "trainId": "19240",
     "trainNumber": "3373M",
-    "trainType": "local",
+    "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "JOE-35",
     "destinationStationId": "JOE-36",
@@ -2743,15 +2714,12 @@
         "departureTime": "08:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19240",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_0709_19240",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_0811_18849",
     "lineId": "joetsu",
+    "trainId": "18849",
     "trainNumber": "430M",
     "trainType": "local",
     "direction": "inbound",
@@ -2785,18 +2753,19 @@
         "departureTime": "08:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18849"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-25_0812_33726",
     "lineId": "joetsu",
+    "trainId": "33726",
     "trainNumber": "825M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2837,19 +2806,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "33726",
-    "customDestination": "越後湯沢",
     "prevTripId": "WD_INB_HK-12_0702_33745",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_JOE-20_0820_35072",
     "lineId": "joetsu",
+    "trainId": "35072",
     "trainNumber": "828M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
@@ -2891,14 +2860,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35072",
-    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_HK-01_0843_35091",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-14_0823_13897",
     "lineId": "joetsu",
+    "trainId": "13897",
     "trainNumber": "730M",
     "trainType": "local",
     "direction": "inbound",
@@ -2973,13 +2941,13 @@
         "departureTime": "09:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13897"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-14_0823_11360",
     "lineId": "joetsu",
-    "trainNumber": "1729M",
+    "trainId": "11360",
+    "trainNumber": "1742M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-14",
@@ -3125,16 +3093,12 @@
         "departureTime": "10:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11360",
-    "customDestination": "長岡",
-    "customOrigin": "水上",
-    "throughTripId": "WD_OUT_SE-22_1014_11371",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_0827_13878",
     "lineId": "joetsu",
+    "trainId": "13878",
     "trainNumber": "727M",
     "trainType": "local",
     "direction": "outbound",
@@ -3227,18 +3191,19 @@
         "departureTime": "09:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13878"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_0830_18876",
     "lineId": "joetsu",
+    "trainId": "18876",
     "trainNumber": "622M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3267,14 +3232,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18876",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-14_0811_18876",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-36_0839_11338",
     "lineId": "joetsu",
+    "trainId": "11338",
     "trainNumber": "1728M",
     "trainType": "local",
     "direction": "inbound",
@@ -3385,12 +3349,12 @@
         "departureTime": "09:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11338"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-07_0846_24830",
     "lineId": "joetsu",
+    "trainId": "24830",
     "trainNumber": "526M",
     "trainType": "local",
     "direction": "inbound",
@@ -3442,12 +3406,12 @@
         "departureTime": "09:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24830"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_0847_10066",
     "lineId": "joetsu",
+    "trainId": "10066",
     "trainNumber": "9073M",
     "trainType": "limitedExp",
     "trainName": "谷川岳もぐら",
@@ -3455,6 +3419,7 @@
     "originStationId": "JOE-01",
     "destinationStationId": "JOE-20",
     "customOrigin": "新宿",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3579,14 +3544,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "10066",
-    "customDestination": "越後湯沢",
     "prevTripId": "WD_OUT_TK-07_0758_10066",
     "prevLineId": "takasaki"
   },
   {
     "tripId": "WD_INB_JOE-04_0848_18850",
     "lineId": "joetsu",
+    "trainId": "18850",
     "trainNumber": "432M",
     "trainType": "local",
     "direction": "inbound",
@@ -3620,18 +3584,19 @@
         "departureTime": "08:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18850"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_0855_18870",
     "lineId": "joetsu",
+    "trainId": "18870",
     "trainNumber": "652M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "前橋",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3660,14 +3625,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18870",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-17_0850_18870",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-14_0900_13906",
     "lineId": "joetsu",
+    "trainId": "13906",
     "trainNumber": "732M",
     "trainType": "local",
     "direction": "inbound",
@@ -3760,12 +3724,12 @@
         "departureTime": "10:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13906"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_0910_19228",
     "lineId": "joetsu",
+    "trainId": "19228",
     "trainNumber": "1327M",
     "trainType": "local",
     "direction": "outbound",
@@ -3787,20 +3751,18 @@
         "departureTime": "09:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19228",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_0748_19228",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-20_0914_35073",
     "lineId": "joetsu",
+    "trainId": "35073",
     "trainNumber": "830M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
@@ -3842,20 +3804,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "35073",
-    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_HK-01_0936_35092",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_0918_18891",
     "lineId": "joetsu",
+    "trainId": "18891",
     "trainNumber": "438M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3884,14 +3846,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18891",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-13_0850_18891",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-04_0942_18851",
     "lineId": "joetsu",
+    "trainId": "18851",
     "trainNumber": "440M",
     "trainType": "local",
     "direction": "inbound",
@@ -3925,13 +3886,13 @@
         "departureTime": "09:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18851"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-14_0942_11361",
     "lineId": "joetsu",
-    "trainNumber": "1731M",
+    "trainId": "11361",
+    "trainNumber": "9783D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-14",
@@ -4077,16 +4038,12 @@
         "departureTime": "11:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11361",
-    "customDestination": "長岡",
-    "customOrigin": "水上",
-    "throughTripId": "WD_OUT_SE-22_1143_11372",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-04_0944_13890",
     "lineId": "joetsu",
+    "trainId": "13890",
     "trainNumber": "729M",
     "trainType": "local",
     "direction": "outbound",
@@ -4161,12 +4118,12 @@
         "departureTime": "10:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13890"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-14_0944_13898",
     "lineId": "joetsu",
+    "trainId": "13898",
     "trainNumber": "734M",
     "trainType": "local",
     "direction": "inbound",
@@ -4241,12 +4198,12 @@
         "departureTime": "10:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13898"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-07_0951_24827",
     "lineId": "joetsu",
+    "trainId": "24827",
     "trainNumber": "528M",
     "trainType": "local",
     "direction": "inbound",
@@ -4280,18 +4237,19 @@
         "departureTime": "10:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24827"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1010_18877",
     "lineId": "joetsu",
+    "trainId": "18877",
     "trainNumber": "624M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4320,20 +4278,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "18877",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-14_0950_18877",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-25_1010_33730",
     "lineId": "joetsu",
+    "trainId": "33730",
     "trainNumber": "831M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4374,16 +4332,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "33730",
-    "customDestination": "越後湯沢",
     "prevTripId": "WD_INB_HK-12_0911_33749",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_JOE-35_1020_19241",
     "lineId": "joetsu",
+    "trainId": "19241",
     "trainNumber": "3375M",
-    "trainType": "local",
+    "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "JOE-35",
     "destinationStationId": "JOE-36",
@@ -4403,15 +4360,12 @@
         "departureTime": "10:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19241",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_0922_19241",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_1024_13879",
     "lineId": "joetsu",
+    "trainId": "13879",
     "trainNumber": "731M",
     "trainType": "local",
     "direction": "outbound",
@@ -4504,18 +4458,19 @@
         "departureTime": "11:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13879"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1027_18871",
     "lineId": "joetsu",
+    "trainId": "18871",
     "trainNumber": "654M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "前橋",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4544,15 +4499,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "18871",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-17_1022_18871",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-36_1034_11347",
     "lineId": "joetsu",
-    "trainNumber": "1732M",
+    "trainId": "11347",
+    "trainNumber": "1722M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-36",
@@ -4698,12 +4652,12 @@
         "departureTime": "12:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11347"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1041_18852",
     "lineId": "joetsu",
+    "trainId": "18852",
     "trainNumber": "442M",
     "trainType": "local",
     "direction": "inbound",
@@ -4737,17 +4691,18 @@
         "departureTime": "10:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18852"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-20_1041_35079",
     "lineId": "joetsu",
+    "trainId": "35079",
     "trainNumber": "832M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
@@ -4789,14 +4744,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35079",
-    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_HK-01_1102_35098",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-14_1045_13899",
     "lineId": "joetsu",
+    "trainId": "13899",
     "trainNumber": "736M",
     "trainType": "local",
     "direction": "inbound",
@@ -4871,12 +4825,12 @@
         "departureTime": "11:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13899"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-36_1102_11332",
     "lineId": "joetsu",
+    "trainId": "11332",
     "trainNumber": "9780D",
     "trainType": "rapid",
     "trainName": "あかねShu＊Kura",
@@ -4988,18 +4942,19 @@
         "departureTime": "12:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11332"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-25_1105_33731",
     "lineId": "joetsu",
+    "trainId": "33731",
     "trainNumber": "833M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5040,14 +4995,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33731",
-    "customDestination": "越後湯沢",
     "prevTripId": "WD_INB_HK-12_1004_33750",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_1110_18853",
     "lineId": "joetsu",
+    "trainId": "18853",
     "trainNumber": "444M",
     "trainType": "local",
     "direction": "inbound",
@@ -5081,12 +5035,12 @@
         "departureTime": "11:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18853"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-07_1111_24820",
     "lineId": "joetsu",
+    "trainId": "24820",
     "trainNumber": "530M",
     "trainType": "local",
     "direction": "inbound",
@@ -5138,12 +5092,12 @@
         "departureTime": "11:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24820"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_1115_19229",
     "lineId": "joetsu",
+    "trainId": "19229",
     "trainNumber": "1329M",
     "trainType": "local",
     "direction": "outbound",
@@ -5165,21 +5119,19 @@
         "departureTime": "11:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19229",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_0951_19229",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1139_18878",
     "lineId": "joetsu",
+    "trainId": "18878",
     "trainNumber": "626M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5208,19 +5160,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "18878",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-14_1119_18878",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_OUT_JOE-20_1141_35077",
     "lineId": "joetsu",
+    "trainId": "35077",
     "trainNumber": "834M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
@@ -5262,14 +5214,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35077",
-    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_HK-01_1158_35096",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-14_1157_13907",
     "lineId": "joetsu",
+    "trainId": "13907",
     "trainNumber": "738M",
     "trainType": "local",
     "direction": "inbound",
@@ -5362,12 +5313,12 @@
         "departureTime": "13:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13907"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_1202_13880",
     "lineId": "joetsu",
+    "trainId": "13880",
     "trainNumber": "733M",
     "trainType": "local",
     "direction": "outbound",
@@ -5460,12 +5411,12 @@
         "departureTime": "13:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13880"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1210_18854",
     "lineId": "joetsu",
+    "trainId": "18854",
     "trainNumber": "446M",
     "trainType": "local",
     "direction": "inbound",
@@ -5499,13 +5450,13 @@
         "departureTime": "12:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18854"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-20_1214_11354",
     "lineId": "joetsu",
-    "trainNumber": "1735M",
+    "trainId": "11354",
+    "trainNumber": "1744M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
@@ -5615,16 +5566,12 @@
         "departureTime": "13:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11354",
-    "customDestination": "長岡",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "WD_OUT_SE-22_1327_11365",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-07_1225_24828",
     "lineId": "joetsu",
+    "trainId": "24828",
     "trainNumber": "532M",
     "trainType": "local",
     "direction": "inbound",
@@ -5658,12 +5605,12 @@
         "departureTime": "12:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24828"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_1227_19230",
     "lineId": "joetsu",
+    "trainId": "19230",
     "trainNumber": "1331M",
     "trainType": "local",
     "direction": "outbound",
@@ -5685,15 +5632,12 @@
         "departureTime": "12:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19230",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_1101_19230",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-36_1234_11339",
     "lineId": "joetsu",
+    "trainId": "11339",
     "trainNumber": "1734M",
     "trainType": "local",
     "direction": "inbound",
@@ -5804,18 +5748,19 @@
         "departureTime": "13:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11339"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-25_1235_33727",
     "lineId": "joetsu",
+    "trainId": "33727",
     "trainNumber": "835M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5856,14 +5801,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33727",
-    "customDestination": "越後湯沢",
     "prevTripId": "WD_INB_HK-12_1130_33746",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_1241_18855",
     "lineId": "joetsu",
+    "trainId": "18855",
     "trainNumber": "448M",
     "trainType": "local",
     "direction": "inbound",
@@ -5897,12 +5841,12 @@
         "departureTime": "12:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18855"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_1303_13881",
     "lineId": "joetsu",
+    "trainId": "13881",
     "trainNumber": "735M",
     "trainType": "local",
     "direction": "outbound",
@@ -5995,18 +5939,19 @@
         "departureTime": "14:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13881"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1310_18879",
     "lineId": "joetsu",
+    "trainId": "18879",
     "trainNumber": "628M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6035,15 +5980,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "18879",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-14_1250_18879",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_OUT_JOE-20_1314_11355",
     "lineId": "joetsu",
-    "trainNumber": "1737M",
+    "trainId": "11355",
+    "trainNumber": "1748M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
@@ -6153,16 +6097,12 @@
         "departureTime": "14:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11355",
-    "customDestination": "長岡",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "WD_OUT_SE-22_1428_11366",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-14_1317_13900",
     "lineId": "joetsu",
+    "trainId": "13900",
     "trainNumber": "740M",
     "trainType": "local",
     "direction": "inbound",
@@ -6237,17 +6177,18 @@
         "departureTime": "14:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13900"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-20_1326_41432",
     "lineId": "joetsu",
+    "trainId": "41432",
     "trainNumber": "836M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "犀潟",
     "cars": 4,
     "isHoliday": false,
@@ -6289,15 +6230,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "41432",
-    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_HK-01_1343_41463",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_JOE-14_1330_11363",
     "lineId": "joetsu",
-    "trainNumber": "1739M",
+    "trainId": "11363",
+    "trainNumber": "1723M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-14",
@@ -6443,16 +6383,12 @@
         "departureTime": "15:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11363",
-    "customDestination": "長岡",
-    "customOrigin": "水上",
-    "throughTripId": "WD_OUT_SE-22_1528_11374",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1338_18856",
     "lineId": "joetsu",
+    "trainId": "18856",
     "trainNumber": "450M",
     "trainType": "local",
     "direction": "inbound",
@@ -6486,12 +6422,12 @@
         "departureTime": "13:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18856"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-07_1349_37207",
     "lineId": "joetsu",
+    "trainId": "37207",
     "trainNumber": "3002M",
     "trainType": "limitedExp",
     "trainName": "草津・四万2号",
@@ -6546,14 +6482,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "37207",
     "throughTripId": "WD_INB_TK-25_1406_37207",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_INB_JOE-36_1350_11348",
     "lineId": "joetsu",
-    "trainNumber": "1736M",
+    "trainId": "11348",
+    "trainNumber": "1726M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-36",
@@ -6699,12 +6635,12 @@
         "departureTime": "15:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11348"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_1352_19231",
     "lineId": "joetsu",
+    "trainId": "19231",
     "trainNumber": "1333M",
     "trainType": "local",
     "direction": "outbound",
@@ -6726,21 +6662,19 @@
         "departureTime": "13:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19231",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_1226_19231",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1412_18880",
     "lineId": "joetsu",
+    "trainId": "18880",
     "trainNumber": "630M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6769,14 +6703,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18880",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-14_1350_18880",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-07_1422_24822",
     "lineId": "joetsu",
+    "trainId": "24822",
     "trainNumber": "534M",
     "trainType": "local",
     "direction": "inbound",
@@ -6810,12 +6743,12 @@
         "departureTime": "14:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24822"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-14_1423_13908",
     "lineId": "joetsu",
+    "trainId": "13908",
     "trainNumber": "742M",
     "trainType": "local",
     "direction": "inbound",
@@ -6908,12 +6841,12 @@
         "departureTime": "15:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13908"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-36_1438_11340",
     "lineId": "joetsu",
+    "trainId": "11340",
     "trainNumber": "1738M",
     "trainType": "local",
     "direction": "inbound",
@@ -7024,12 +6957,12 @@
         "departureTime": "15:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11340"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1440_18857",
     "lineId": "joetsu",
+    "trainId": "18857",
     "trainNumber": "452M",
     "trainType": "local",
     "direction": "inbound",
@@ -7063,13 +6996,13 @@
         "departureTime": "14:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18857"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-20_1447_11350",
     "lineId": "joetsu",
-    "trainNumber": "9783D",
+    "trainId": "11350",
+    "trainNumber": "1734M",
     "trainType": "rapid",
     "trainName": "あかねShu＊Kura",
     "direction": "outbound",
@@ -7181,15 +7114,12 @@
         "departureTime": "16:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11350",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "WD_OUT_SE-22_1557_11361",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-04_1449_13891",
     "lineId": "joetsu",
+    "trainId": "13891",
     "trainNumber": "737M",
     "trainType": "local",
     "direction": "outbound",
@@ -7264,12 +7194,12 @@
         "departureTime": "15:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13891"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_1509_19243",
     "lineId": "joetsu",
+    "trainId": "19243",
     "trainNumber": "1335M",
     "trainType": "local",
     "direction": "outbound",
@@ -7291,21 +7221,19 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19243",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-12_1428_19243",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1510_18881",
     "lineId": "joetsu",
+    "trainId": "18881",
     "trainNumber": "632M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7334,15 +7262,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "18881",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-14_1450_18881",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_OUT_JOE-20_1512_11356",
     "lineId": "joetsu",
-    "trainNumber": "1741M",
+    "trainId": "11356",
+    "trainNumber": "1724M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
@@ -7452,22 +7379,19 @@
         "departureTime": "16:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11356",
-    "customDestination": "長岡",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "WD_OUT_SE-22_1626_11367",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-20_1525_43395",
     "lineId": "joetsu",
+    "trainId": "43395",
     "trainNumber": "9076M",
     "trainType": "limitedExp",
     "trainName": "谷川岳ループ",
     "direction": "inbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-01",
+    "customOrigin": "越後湯沢",
     "customDestination": "新宿",
     "cars": 4,
     "isHoliday": false,
@@ -7593,14 +7517,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "43395",
-    "customOrigin": "越後湯沢",
     "throughTripId": "WD_INB_TK-25_1722_43395",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_INB_JOE-36_1528_11342",
     "lineId": "joetsu",
+    "trainId": "11342",
     "trainNumber": "1740M",
     "trainType": "local",
     "direction": "inbound",
@@ -7723,18 +7646,19 @@
         "departureTime": "17:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11342"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-25_1528_33728",
     "lineId": "joetsu",
+    "trainId": "33728",
     "trainNumber": "839M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7775,14 +7699,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33728",
-    "customDestination": "越後湯沢",
     "prevTripId": "WD_INB_HK-12_1413_33747",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-07_1531_24821",
     "lineId": "joetsu",
+    "trainId": "24821",
     "trainNumber": "536M",
     "trainType": "local",
     "direction": "inbound",
@@ -7834,12 +7757,12 @@
         "departureTime": "15:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24821"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1537_18858",
     "lineId": "joetsu",
+    "trainId": "18858",
     "trainNumber": "454M",
     "trainType": "local",
     "direction": "inbound",
@@ -7873,12 +7796,12 @@
         "departureTime": "15:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18858"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-04_1541_13892",
     "lineId": "joetsu",
+    "trainId": "13892",
     "trainNumber": "739M",
     "trainType": "local",
     "direction": "outbound",
@@ -7953,12 +7876,12 @@
         "departureTime": "16:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13892"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_1544_19232",
     "lineId": "joetsu",
+    "trainId": "19232",
     "trainNumber": "1337M",
     "trainType": "local",
     "direction": "outbound",
@@ -7980,15 +7903,12 @@
         "departureTime": "15:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19232",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_1418_19232",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-14_1553_13909",
     "lineId": "joetsu",
+    "trainId": "13909",
     "trainNumber": "744M",
     "trainType": "local",
     "direction": "inbound",
@@ -8081,18 +8001,19 @@
         "departureTime": "16:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13909"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1604_18882",
     "lineId": "joetsu",
+    "trainId": "18882",
     "trainNumber": "634M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -8121,14 +8042,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18882",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-14_1545_18882",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_OUT_JOE-20_1610_11357",
     "lineId": "joetsu",
+    "trainId": "11357",
     "trainNumber": "1743M",
     "trainType": "local",
     "direction": "outbound",
@@ -8239,16 +8159,12 @@
         "departureTime": "17:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11357",
-    "customDestination": "長岡",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "WD_OUT_SE-22_1724_11368",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1618_34294",
     "lineId": "joetsu",
+    "trainId": "34294",
     "trainNumber": "1927E",
     "trainType": "local",
     "direction": "inbound",
@@ -8283,12 +8199,12 @@
         "departureTime": "16:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34294"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-07_1626_37209",
     "lineId": "joetsu",
+    "trainId": "37209",
     "trainNumber": "3004M",
     "trainType": "limitedExp",
     "trainName": "草津・四万4号",
@@ -8343,13 +8259,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "37209",
     "throughTripId": "WD_INB_TK-25_1646_37209",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_OUT_JOE-01_1634_13882",
     "lineId": "joetsu",
+    "trainId": "13882",
     "trainNumber": "741M",
     "trainType": "local",
     "direction": "outbound",
@@ -8442,13 +8358,13 @@
         "departureTime": "17:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13882"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-36_1635_11349",
     "lineId": "joetsu",
-    "trainNumber": "1742M",
+    "trainId": "11349",
+    "trainNumber": "1728M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-36",
@@ -8594,12 +8510,12 @@
         "departureTime": "18:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11349"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_1638_19233",
     "lineId": "joetsu",
+    "trainId": "19233",
     "trainNumber": "1339M",
     "trainType": "local",
     "direction": "outbound",
@@ -8621,21 +8537,19 @@
         "departureTime": "16:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19233",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_1511_19233",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1640_18883",
     "lineId": "joetsu",
+    "trainId": "18883",
     "trainNumber": "636M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -8664,14 +8578,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18883",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-14_1616_18883",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-14_1647_13910",
     "lineId": "joetsu",
+    "trainId": "13910",
     "trainNumber": "746M",
     "trainType": "local",
     "direction": "inbound",
@@ -8764,12 +8677,12 @@
         "departureTime": "17:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13910"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-07_1652_24825",
     "lineId": "joetsu",
+    "trainId": "24825",
     "trainNumber": "538M",
     "trainType": "local",
     "direction": "inbound",
@@ -8821,12 +8734,12 @@
         "departureTime": "17:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24825"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1659_18859",
     "lineId": "joetsu",
+    "trainId": "18859",
     "trainNumber": "456M",
     "trainType": "local",
     "direction": "inbound",
@@ -8860,13 +8773,13 @@
         "departureTime": "17:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18859"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-18_1708_11367",
     "lineId": "joetsu",
-    "trainNumber": "1745M",
+    "trainId": "11367",
+    "trainNumber": "1741M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-18",
@@ -8988,21 +8901,18 @@
         "departureTime": "18:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11367",
-    "customDestination": "長岡",
-    "customOrigin": "越後中里",
-    "throughTripId": "WD_OUT_SE-22_1832_11378",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-20_1710_41431",
     "lineId": "joetsu",
+    "trainId": "41431",
     "trainNumber": "844M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "犀潟",
     "cars": 4,
     "isHoliday": false,
@@ -9044,20 +8954,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "41431",
-    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_HK-01_1733_41462",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-25_1713_33733",
     "lineId": "joetsu",
+    "trainId": "33733",
     "trainNumber": "843M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -9098,20 +9008,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "33733",
-    "customDestination": "越後湯沢",
     "prevTripId": "WD_INB_HK-12_1614_33752",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_1721_18892",
     "lineId": "joetsu",
+    "trainId": "18892",
     "trainNumber": "458M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -9140,19 +9050,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "18892",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-13_1654_18892",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-04_1726_42169",
     "lineId": "joetsu",
+    "trainId": "42169",
     "trainNumber": "848M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
+    "customOrigin": "新前橋",
     "customDestination": "上野",
     "cars": 4,
     "isHoliday": false,
@@ -9182,14 +9092,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "42169",
-    "customOrigin": "新前橋",
     "throughTripId": "WD_INB_TK-25_1737_42169",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_OUT_JOE-01_1727_13883",
     "lineId": "joetsu",
+    "trainId": "13883",
     "trainNumber": "743M",
     "trainType": "local",
     "direction": "outbound",
@@ -9282,12 +9191,12 @@
         "departureTime": "18:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13883"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-07_1737_24826",
     "lineId": "joetsu",
+    "trainId": "24826",
     "trainNumber": "540M",
     "trainType": "local",
     "direction": "inbound",
@@ -9339,12 +9248,12 @@
         "departureTime": "18:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24826"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-14_1745_13911",
     "lineId": "joetsu",
+    "trainId": "13911",
     "trainNumber": "748M",
     "trainType": "local",
     "direction": "inbound",
@@ -9437,12 +9346,12 @@
         "departureTime": "18:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13911"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1746_18860",
     "lineId": "joetsu",
+    "trainId": "18860",
     "trainNumber": "460M",
     "trainType": "local",
     "direction": "inbound",
@@ -9476,12 +9385,12 @@
         "departureTime": "17:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18860"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-14_1748_11364",
     "lineId": "joetsu",
+    "trainId": "11364",
     "trainNumber": "1747M",
     "trainType": "local",
     "direction": "outbound",
@@ -9628,16 +9537,12 @@
         "departureTime": "20:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11364",
-    "customDestination": "長岡",
-    "customOrigin": "水上",
-    "throughTripId": "WD_OUT_SE-22_2006_11375",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_1755_19234",
     "lineId": "joetsu",
+    "trainId": "19234",
     "trainNumber": "1341M",
     "trainType": "local",
     "direction": "outbound",
@@ -9659,16 +9564,13 @@
         "departureTime": "18:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19234",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_1629_19234",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-36_1757_11343",
     "lineId": "joetsu",
-    "trainNumber": "1744M",
+    "trainId": "11343",
+    "trainNumber": "9780D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-36",
@@ -9790,17 +9692,18 @@
         "departureTime": "19:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11343"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-20_1806_35078",
     "lineId": "joetsu",
+    "trainId": "35078",
     "trainNumber": "846M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
@@ -9842,20 +9745,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "35078",
-    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_HK-01_1826_35097",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-25_1808_33734",
     "lineId": "joetsu",
+    "trainId": "33734",
     "trainNumber": "845M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -9896,20 +9799,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "33734",
-    "customDestination": "越後湯沢",
     "prevTripId": "WD_INB_HK-12_1710_33753",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_1811_18893",
     "lineId": "joetsu",
+    "trainId": "18893",
     "trainNumber": "462M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -9938,14 +9841,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18893",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-13_1744_18893",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-04_1820_34298",
     "lineId": "joetsu",
+    "trainId": "34298",
     "trainNumber": "1937E",
     "trainType": "local",
     "direction": "inbound",
@@ -9980,12 +9882,12 @@
         "departureTime": "18:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34298"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_1821_13884",
     "lineId": "joetsu",
+    "trainId": "13884",
     "trainNumber": "745M",
     "trainType": "local",
     "direction": "outbound",
@@ -10078,12 +9980,12 @@
         "departureTime": "19:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13884"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1829_18861",
     "lineId": "joetsu",
+    "trainId": "18861",
     "trainNumber": "464M",
     "trainType": "local",
     "direction": "inbound",
@@ -10117,12 +10019,12 @@
         "departureTime": "18:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18861"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-14_1844_13912",
     "lineId": "joetsu",
+    "trainId": "13912",
     "trainNumber": "750M",
     "trainType": "local",
     "direction": "inbound",
@@ -10215,18 +10117,19 @@
         "departureTime": "19:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13912"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1850_18884",
     "lineId": "joetsu",
+    "trainId": "18884",
     "trainNumber": "638M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10255,14 +10158,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18884",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-14_1828_18884",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-07_1852_24829",
     "lineId": "joetsu",
+    "trainId": "24829",
     "trainNumber": "542M",
     "trainType": "local",
     "direction": "inbound",
@@ -10296,12 +10198,12 @@
         "departureTime": "19:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24829"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_1857_13885",
     "lineId": "joetsu",
+    "trainId": "13885",
     "trainNumber": "747M",
     "trainType": "local",
     "direction": "outbound",
@@ -10394,12 +10296,12 @@
         "departureTime": "20:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13885"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-36_1859_11335",
     "lineId": "joetsu",
+    "trainId": "11335",
     "trainNumber": "1746M",
     "trainType": "local",
     "direction": "inbound",
@@ -10510,12 +10412,12 @@
         "departureTime": "20:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11335"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_1903_19235",
     "lineId": "joetsu",
+    "trainId": "19235",
     "trainNumber": "1343M",
     "trainType": "local",
     "direction": "outbound",
@@ -10537,21 +10439,19 @@
         "departureTime": "19:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19235",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_1741_19235",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-25_1904_33735",
     "lineId": "joetsu",
+    "trainId": "33735",
     "trainNumber": "847M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10592,14 +10492,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33735",
-    "customDestination": "越後湯沢",
     "prevTripId": "WD_INB_HK-12_1806_33754",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_1907_18862",
     "lineId": "joetsu",
+    "trainId": "18862",
     "trainNumber": "466M",
     "trainType": "local",
     "direction": "inbound",
@@ -10633,12 +10532,12 @@
         "departureTime": "19:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18862"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1919_40905",
     "lineId": "joetsu",
+    "trainId": "40905",
     "trainNumber": "852M",
     "trainType": "local",
     "direction": "inbound",
@@ -10673,18 +10572,19 @@
         "departureTime": "19:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "40905"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1927_18885",
     "lineId": "joetsu",
+    "trainId": "18885",
     "trainNumber": "640M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10713,14 +10613,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18885",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-14_1907_18885",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-14_1931_13913",
     "lineId": "joetsu",
+    "trainId": "13913",
     "trainNumber": "754M",
     "trainType": "local",
     "direction": "inbound",
@@ -10813,12 +10712,12 @@
         "departureTime": "20:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13913"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_1940_13886",
     "lineId": "joetsu",
+    "trainId": "13886",
     "trainNumber": "749M",
     "trainType": "local",
     "direction": "outbound",
@@ -10911,12 +10810,12 @@
         "departureTime": "20:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13886"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_1942_18863",
     "lineId": "joetsu",
+    "trainId": "18863",
     "trainNumber": "468M",
     "trainType": "local",
     "direction": "inbound",
@@ -10950,14 +10849,14 @@
         "departureTime": "19:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18863"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_1945_19226",
     "lineId": "joetsu",
+    "trainId": "19226",
     "trainNumber": "3377M",
-    "trainType": "local",
+    "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "JOE-35",
     "destinationStationId": "JOE-36",
@@ -10979,13 +10878,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "19226",
     "throughTripId": "WD_OUT_SE-01_1841_19226",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_JOE-04_1950_13893",
     "lineId": "joetsu",
+    "trainId": "13893",
     "trainNumber": "2752M",
     "trainType": "local",
     "direction": "inbound",
@@ -11018,13 +10917,13 @@
         "departureTime": "20:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13893"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-36_1956_11344",
     "lineId": "joetsu",
-    "trainNumber": "1748M",
+    "trainId": "11344",
+    "trainNumber": "1752M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-36",
@@ -11146,12 +11045,12 @@
         "departureTime": "21:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11344"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_1957_13874",
     "lineId": "joetsu",
+    "trainId": "13874",
     "trainNumber": "2751M",
     "trainType": "local",
     "direction": "outbound",
@@ -11202,17 +11101,18 @@
         "departureTime": "20:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13874"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-20_2006_35074",
     "lineId": "joetsu",
+    "trainId": "35074",
     "trainNumber": "850M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
@@ -11254,14 +11154,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35074",
-    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_HK-01_2026_35093",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-04_2010_18864",
     "lineId": "joetsu",
+    "trainId": "18864",
     "trainNumber": "470M",
     "trainType": "local",
     "direction": "inbound",
@@ -11295,13 +11194,13 @@
         "departureTime": "20:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18864"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-18_2010_11368",
     "lineId": "joetsu",
-    "trainNumber": "1749M",
+    "trainId": "11368",
+    "trainNumber": "1743M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-18",
@@ -11423,16 +11322,12 @@
         "departureTime": "21:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11368",
-    "customDestination": "長岡",
-    "customOrigin": "越後中里",
-    "throughTripId": "WD_OUT_SE-22_2143_11379",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-14_2016_13901",
     "lineId": "joetsu",
+    "trainId": "13901",
     "trainNumber": "756M",
     "trainType": "local",
     "direction": "inbound",
@@ -11507,12 +11402,12 @@
         "departureTime": "21:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13901"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-07_2017_24823",
     "lineId": "joetsu",
+    "trainId": "24823",
     "trainNumber": "544M",
     "trainType": "local",
     "direction": "inbound",
@@ -11546,12 +11441,12 @@
         "departureTime": "20:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24823"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_2028_13887",
     "lineId": "joetsu",
+    "trainId": "13887",
     "trainNumber": "753M",
     "trainType": "local",
     "direction": "outbound",
@@ -11644,18 +11539,19 @@
         "departureTime": "21:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13887"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_2034_18886",
     "lineId": "joetsu",
+    "trainId": "18886",
     "trainNumber": "642M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -11684,14 +11580,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18886",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-14_2011_18886",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-04_2044_18865",
     "lineId": "joetsu",
+    "trainId": "18865",
     "trainNumber": "472M",
     "trainType": "local",
     "direction": "inbound",
@@ -11725,12 +11620,12 @@
         "departureTime": "20:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18865"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_2051_19236",
     "lineId": "joetsu",
+    "trainId": "19236",
     "trainNumber": "1345M",
     "trainType": "local",
     "direction": "outbound",
@@ -11752,16 +11647,13 @@
         "departureTime": "20:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19236",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_1921_19236",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-14_2052_11359",
     "lineId": "joetsu",
-    "trainNumber": "1751M",
+    "trainId": "11359",
+    "trainNumber": "1736M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-14",
@@ -11907,22 +11799,19 @@
         "departureTime": "22:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11359",
-    "customDestination": "長岡",
-    "customOrigin": "水上",
-    "throughTripId": "WD_OUT_SE-22_2248_11370",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_2100_18872",
     "lineId": "joetsu",
+    "trainId": "18872",
     "trainNumber": "656M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "前橋",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -11951,14 +11840,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18872",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-17_2055_18872",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-36_2100_11341",
     "lineId": "joetsu",
+    "trainId": "11341",
     "trainNumber": "1750M",
     "trainType": "local",
     "direction": "inbound",
@@ -12069,17 +11957,18 @@
         "departureTime": "22:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11341"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-20_2101_35075",
     "lineId": "joetsu",
+    "trainId": "35075",
     "trainNumber": "852M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
@@ -12121,20 +12010,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "35075",
-    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_HK-01_2119_35094",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-25_2103_33736",
     "lineId": "joetsu",
+    "trainId": "33736",
     "trainNumber": "851M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -12175,14 +12064,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33736",
-    "customDestination": "越後湯沢",
     "prevTripId": "WD_INB_HK-12_1955_33755",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-14_2113_13914",
     "lineId": "joetsu",
+    "trainId": "13914",
     "trainNumber": "758M",
     "trainType": "local",
     "direction": "inbound",
@@ -12275,12 +12163,12 @@
         "departureTime": "22:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13914"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_2114_18866",
     "lineId": "joetsu",
+    "trainId": "18866",
     "trainNumber": "474M",
     "trainType": "local",
     "direction": "inbound",
@@ -12314,18 +12202,19 @@
         "departureTime": "21:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18866"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_2130_18873",
     "lineId": "joetsu",
+    "trainId": "18873",
     "trainNumber": "658M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "前橋",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -12354,14 +12243,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18873",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-17_2124_18873",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_INB_JOE-07_2135_24831",
     "lineId": "joetsu",
+    "trainId": "24831",
     "trainNumber": "546M",
     "trainType": "local",
     "direction": "inbound",
@@ -12413,12 +12301,12 @@
         "departureTime": "21:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24831"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_2150_13888",
     "lineId": "joetsu",
+    "trainId": "13888",
     "trainNumber": "755M",
     "trainType": "local",
     "direction": "outbound",
@@ -12511,12 +12399,12 @@
         "departureTime": "23:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13888"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-35_2150_19238",
     "lineId": "joetsu",
+    "trainId": "19238",
     "trainNumber": "1347M",
     "trainType": "local",
     "direction": "outbound",
@@ -12540,13 +12428,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "19238",
     "throughTripId": "WD_OUT_SE-01_2025_19238",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_JOE-04_2154_18867",
     "lineId": "joetsu",
+    "trainId": "18867",
     "trainNumber": "476M",
     "trainType": "local",
     "direction": "inbound",
@@ -12580,12 +12468,12 @@
         "departureTime": "22:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18867"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_2219_18868",
     "lineId": "joetsu",
+    "trainId": "18868",
     "trainNumber": "478M",
     "trainType": "local",
     "direction": "inbound",
@@ -12619,17 +12507,18 @@
         "departureTime": "22:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18868"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-20_2231_35076",
     "lineId": "joetsu",
+    "trainId": "35076",
     "trainNumber": "854M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
@@ -12671,14 +12560,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35076",
-    "customOrigin": "越後湯沢",
     "throughTripId": "WD_OUT_HK-01_2249_35095",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_JOE-36_2239_11333",
     "lineId": "joetsu",
+    "trainId": "11333",
     "trainNumber": "1752M",
     "trainType": "local",
     "direction": "inbound",
@@ -12783,18 +12671,19 @@
         "departureTime": "23:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11333"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_2242_18874",
     "lineId": "joetsu",
+    "trainId": "18874",
     "trainNumber": "660M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "前橋",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -12823,14 +12712,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18874",
-    "customDestination": "高崎",
     "prevTripId": "WD_OUT_RY-17_2237_18874",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "WD_OUT_JOE-35_2253_19237",
     "lineId": "joetsu",
+    "trainId": "19237",
     "trainNumber": "1349M",
     "trainType": "local",
     "direction": "outbound",
@@ -12852,15 +12740,12 @@
         "departureTime": "22:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19237",
-    "customDestination": "長岡",
-    "throughTripId": "WD_OUT_SE-01_2131_19237",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "WD_OUT_JOE-01_2307_13889",
     "lineId": "joetsu",
+    "trainId": "13889",
     "trainNumber": "757M",
     "trainType": "local",
     "direction": "outbound",
@@ -12953,12 +12838,12 @@
         "departureTime": "00:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13889"
+    ]
   },
   {
     "tripId": "WD_INB_JOE-04_2322_18869",
     "lineId": "joetsu",
+    "trainId": "18869",
     "trainNumber": "480M",
     "trainType": "local",
     "direction": "inbound",
@@ -12992,17 +12877,18 @@
         "departureTime": "23:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18869"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0500_34288",
     "lineId": "joetsu",
+    "trainId": "34288",
     "trainNumber": "1825E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
+    "customOrigin": "新前橋",
     "customDestination": "熱海",
     "cars": 4,
     "isHoliday": true,
@@ -13032,14 +12918,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34288",
-    "customOrigin": "新前橋",
     "throughTripId": "HD_INB_TK-25_0510_34288",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_INB_JOE-14_0504_13902",
     "lineId": "joetsu",
+    "trainId": "13902",
     "trainNumber": "720M",
     "trainType": "local",
     "direction": "inbound",
@@ -13132,12 +13017,12 @@
         "departureTime": "06:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13902"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0536_33439",
     "lineId": "joetsu",
+    "trainId": "33439",
     "trainNumber": "2825Y",
     "trainType": "local",
     "direction": "inbound",
@@ -13172,12 +13057,12 @@
         "departureTime": "06:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33439"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-36_0539_11336",
     "lineId": "joetsu",
+    "trainId": "11336",
     "trainNumber": "1722M",
     "trainType": "local",
     "direction": "inbound",
@@ -13300,18 +13185,19 @@
         "departureTime": "07:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11336"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0554_18887",
     "lineId": "joetsu",
+    "trainId": "18887",
     "trainNumber": "420M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13340,14 +13226,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18887",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-13_0528_18887",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-04_0605_34289",
     "lineId": "joetsu",
+    "trainId": "34289",
     "trainNumber": "1837E",
     "trainType": "local",
     "direction": "inbound",
@@ -13382,12 +13267,12 @@
         "departureTime": "06:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34289"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-21_0605_13915",
     "lineId": "joetsu",
+    "trainId": "13915",
     "trainNumber": "1720M",
     "trainType": "local",
     "direction": "inbound",
@@ -13444,12 +13329,12 @@
         "departureTime": "06:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13915"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-14_0608_13903",
     "lineId": "joetsu",
+    "trainId": "13903",
     "trainNumber": "724M",
     "trainType": "local",
     "direction": "inbound",
@@ -13542,12 +13427,12 @@
         "departureTime": "07:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13903"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_0617_19242",
     "lineId": "joetsu",
+    "trainId": "19242",
     "trainNumber": "1321M",
     "trainType": "local",
     "direction": "outbound",
@@ -13569,15 +13454,12 @@
         "departureTime": "06:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19242",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-12_0537_19242",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-07_0619_24818",
     "lineId": "joetsu",
+    "trainId": "24818",
     "trainNumber": "520M",
     "trainType": "local",
     "direction": "inbound",
@@ -13629,12 +13511,12 @@
         "departureTime": "06:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24818"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-32_0619_29340",
     "lineId": "joetsu",
+    "trainId": "29340",
     "trainNumber": "1121D",
     "trainType": "local",
     "direction": "outbound",
@@ -13674,15 +13556,12 @@
         "departureTime": "06:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29340",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-22_0639_29359",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_0621_13875",
     "lineId": "joetsu",
+    "trainId": "13875",
     "trainNumber": "721M",
     "trainType": "local",
     "direction": "outbound",
@@ -13775,12 +13654,12 @@
         "departureTime": "07:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13875"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0622_34293",
     "lineId": "joetsu",
+    "trainId": "34293",
     "trainNumber": "1841E",
     "trainType": "local",
     "direction": "inbound",
@@ -13815,13 +13694,13 @@
         "departureTime": "06:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34293"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-21_0625_11351",
     "lineId": "joetsu",
-    "trainNumber": "1721M",
+    "trainId": "11351",
+    "trainNumber": "1738M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-21",
@@ -13926,21 +13805,19 @@
         "departureTime": "07:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11351",
-    "customOrigin": "石打",
-    "throughTripId": "HD_OUT_SE-22_0728_11362",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0628_18888",
     "lineId": "joetsu",
+    "trainId": "18888",
     "trainNumber": "422M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13969,14 +13846,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18888",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-13_0600_18888",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-07_0630_13894",
     "lineId": "joetsu",
+    "trainId": "13894",
     "trainNumber": "2722M",
     "trainType": "local",
     "direction": "inbound",
@@ -14027,13 +13903,13 @@
         "departureTime": "07:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13894"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-36_0633_11345",
     "lineId": "joetsu",
-    "trainNumber": "1724M",
+    "trainId": "11345",
+    "trainNumber": "8730M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-36",
@@ -14179,13 +14055,13 @@
         "departureTime": "08:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11345"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_0634_11352",
     "lineId": "joetsu",
-    "trainNumber": "1723M",
+    "trainId": "11352",
+    "trainNumber": "1750M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
@@ -14295,22 +14171,19 @@
         "departureTime": "07:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11352",
-    "customDestination": "長岡",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "HD_OUT_SE-22_0751_11363",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-25_0642_33725",
     "lineId": "joetsu",
+    "trainId": "33725",
     "trainNumber": "821M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -14351,14 +14224,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33725",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_INB_HK-12_0538_33744",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_0646_34291",
     "lineId": "joetsu",
+    "trainId": "34291",
     "trainNumber": "1843E",
     "trainType": "local",
     "direction": "inbound",
@@ -14393,12 +14265,12 @@
         "departureTime": "06:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34291"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-32_0652_29339",
     "lineId": "joetsu",
+    "trainId": "29339",
     "trainNumber": "1123D",
     "trainType": "local",
     "direction": "outbound",
@@ -14438,15 +14310,12 @@
         "departureTime": "07:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29339",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-22_0714_29358",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-36_0654_29341",
     "lineId": "joetsu",
+    "trainId": "29341",
     "trainNumber": "1120D",
     "trainType": "local",
     "direction": "inbound",
@@ -14486,12 +14355,12 @@
         "departureTime": "07:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29341"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-14_0656_13904",
     "lineId": "joetsu",
+    "trainId": "13904",
     "trainNumber": "726M",
     "trainType": "local",
     "direction": "inbound",
@@ -14584,13 +14453,13 @@
         "departureTime": "08:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13904"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-18_0657_11365",
     "lineId": "joetsu",
-    "trainNumber": "1725M",
+    "trainId": "11365",
+    "trainNumber": "1735M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-18",
@@ -14712,22 +14581,19 @@
         "departureTime": "08:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11365",
-    "customDestination": "長岡",
-    "customOrigin": "越後中里",
-    "throughTripId": "HD_OUT_SE-22_0822_11376",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0659_18889",
     "lineId": "joetsu",
+    "trainId": "18889",
     "trainNumber": "424M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -14756,16 +14622,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "18889",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-13_0634_18889",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_JOE-35_0708_19239",
     "lineId": "joetsu",
+    "trainId": "19239",
     "trainNumber": "3371M",
-    "trainType": "local",
+    "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "JOE-35",
     "destinationStationId": "JOE-36",
@@ -14785,15 +14650,12 @@
         "departureTime": "07:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19239",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_0610_19239",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-07_0710_24819",
     "lineId": "joetsu",
+    "trainId": "24819",
     "trainNumber": "522M",
     "trainType": "local",
     "direction": "inbound",
@@ -14845,12 +14707,12 @@
         "departureTime": "07:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24819"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_0711_13876",
     "lineId": "joetsu",
+    "trainId": "13876",
     "trainNumber": "723M",
     "trainType": "local",
     "direction": "outbound",
@@ -14943,12 +14805,12 @@
         "departureTime": "08:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13876"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0714_34292",
     "lineId": "joetsu",
+    "trainId": "34292",
     "trainNumber": "1847E",
     "trainType": "local",
     "direction": "inbound",
@@ -14983,18 +14845,19 @@
         "departureTime": "07:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34292"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0722_18875",
     "lineId": "joetsu",
+    "trainId": "18875",
     "trainNumber": "620M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15023,14 +14886,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18875",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-14_0701_18875",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-36_0729_29342",
     "lineId": "joetsu",
+    "trainId": "29342",
     "trainNumber": "1122D",
     "trainType": "local",
     "direction": "inbound",
@@ -15070,12 +14932,12 @@
         "departureTime": "07:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29342"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-14_0732_13905",
     "lineId": "joetsu",
+    "trainId": "13905",
     "trainNumber": "728M",
     "trainType": "local",
     "direction": "inbound",
@@ -15168,12 +15030,12 @@
         "departureTime": "08:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13905"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_0736_19244",
     "lineId": "joetsu",
+    "trainId": "19244",
     "trainNumber": "1323M",
     "trainType": "local",
     "direction": "outbound",
@@ -15197,19 +15059,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "19244",
     "throughTripId": "HD_OUT_SE-12_0656_19244",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_INB_JOE-04_0741_18890",
     "lineId": "joetsu",
+    "trainId": "18890",
     "trainNumber": "426M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15238,14 +15101,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18890",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-13_0712_18890",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_JOE-01_0745_13877",
     "lineId": "joetsu",
+    "trainId": "13877",
     "trainNumber": "725M",
     "trainType": "local",
     "direction": "outbound",
@@ -15338,13 +15200,13 @@
         "departureTime": "08:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13877"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-18_0745_11366",
     "lineId": "joetsu",
-    "trainNumber": "1727M",
+    "trainId": "11366",
+    "trainNumber": "1737M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-18",
@@ -15466,16 +15328,12 @@
         "departureTime": "09:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11366",
-    "customDestination": "長岡",
-    "customOrigin": "越後中里",
-    "throughTripId": "HD_OUT_SE-22_0915_11377",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-36_0751_11337",
     "lineId": "joetsu",
+    "trainId": "11337",
     "trainNumber": "1726M",
     "trainType": "local",
     "direction": "inbound",
@@ -15586,12 +15444,12 @@
         "departureTime": "09:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11337"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_0756_19227",
     "lineId": "joetsu",
+    "trainId": "19227",
     "trainNumber": "1325M",
     "trainType": "local",
     "direction": "outbound",
@@ -15613,15 +15471,12 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19227",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_0630_19227",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0758_18848",
     "lineId": "joetsu",
+    "trainId": "18848",
     "trainNumber": "428M",
     "trainType": "local",
     "direction": "inbound",
@@ -15655,12 +15510,12 @@
         "departureTime": "08:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18848"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0803_33437",
     "lineId": "joetsu",
+    "trainId": "33437",
     "trainNumber": "2831Y",
     "trainType": "local",
     "direction": "inbound",
@@ -15695,12 +15550,12 @@
         "departureTime": "08:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33437"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-07_0806_24824",
     "lineId": "joetsu",
+    "trainId": "24824",
     "trainNumber": "524M",
     "trainType": "local",
     "direction": "inbound",
@@ -15752,14 +15607,14 @@
         "departureTime": "08:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24824"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_0808_19240",
     "lineId": "joetsu",
+    "trainId": "19240",
     "trainNumber": "3373M",
-    "trainType": "local",
+    "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "JOE-35",
     "destinationStationId": "JOE-36",
@@ -15779,15 +15634,12 @@
         "departureTime": "08:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19240",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_0709_19240",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0811_18849",
     "lineId": "joetsu",
+    "trainId": "18849",
     "trainNumber": "430M",
     "trainType": "local",
     "direction": "inbound",
@@ -15821,18 +15673,19 @@
         "departureTime": "08:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18849"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-25_0812_33726",
     "lineId": "joetsu",
+    "trainId": "33726",
     "trainNumber": "825M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15873,19 +15726,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "33726",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_INB_HK-12_0702_33745",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_JOE-20_0820_35072",
     "lineId": "joetsu",
+    "trainId": "35072",
     "trainNumber": "828M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
@@ -15927,14 +15780,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35072",
-    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_HK-01_0843_35091",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-14_0823_13897",
     "lineId": "joetsu",
+    "trainId": "13897",
     "trainNumber": "730M",
     "trainType": "local",
     "direction": "inbound",
@@ -16009,13 +15861,13 @@
         "departureTime": "09:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13897"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-14_0823_11360",
     "lineId": "joetsu",
-    "trainNumber": "1729M",
+    "trainId": "11360",
+    "trainNumber": "1742M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-14",
@@ -16161,16 +16013,12 @@
         "departureTime": "10:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11360",
-    "customDestination": "長岡",
-    "customOrigin": "水上",
-    "throughTripId": "HD_OUT_SE-22_1014_11371",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_0827_13878",
     "lineId": "joetsu",
+    "trainId": "13878",
     "trainNumber": "727M",
     "trainType": "local",
     "direction": "outbound",
@@ -16263,18 +16111,19 @@
         "departureTime": "09:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13878"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0830_18876",
     "lineId": "joetsu",
+    "trainId": "18876",
     "trainNumber": "622M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -16303,15 +16152,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "18876",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-14_0811_18876",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-36_0839_11346",
     "lineId": "joetsu",
-    "trainNumber": "8728M",
+    "trainId": "11346",
+    "trainNumber": "1746M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-36",
@@ -16457,12 +16305,12 @@
         "departureTime": "10:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11346"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-36_0839_11338",
     "lineId": "joetsu",
+    "trainId": "11338",
     "trainNumber": "1728M",
     "trainType": "local",
     "direction": "inbound",
@@ -16573,12 +16421,12 @@
         "departureTime": "09:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11338"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-07_0846_24830",
     "lineId": "joetsu",
+    "trainId": "24830",
     "trainNumber": "526M",
     "trainType": "local",
     "direction": "inbound",
@@ -16630,12 +16478,12 @@
         "departureTime": "09:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24830"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_0847_10066",
     "lineId": "joetsu",
+    "trainId": "10066",
     "trainNumber": "9073M",
     "trainType": "limitedExp",
     "trainName": "谷川岳もぐら",
@@ -16643,6 +16491,7 @@
     "originStationId": "JOE-01",
     "destinationStationId": "JOE-20",
     "customOrigin": "新宿",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -16767,14 +16616,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "10066",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_OUT_TK-07_0758_10066",
     "prevLineId": "takasaki"
   },
   {
     "tripId": "HD_INB_JOE-04_0848_18850",
     "lineId": "joetsu",
+    "trainId": "18850",
     "trainNumber": "432M",
     "trainType": "local",
     "direction": "inbound",
@@ -16808,18 +16656,19 @@
         "departureTime": "08:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18850"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_0855_18870",
     "lineId": "joetsu",
+    "trainId": "18870",
     "trainNumber": "652M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "前橋",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -16848,14 +16697,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18870",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-17_0850_18870",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-14_0900_13906",
     "lineId": "joetsu",
+    "trainId": "13906",
     "trainNumber": "732M",
     "trainType": "local",
     "direction": "inbound",
@@ -16948,12 +16796,12 @@
         "departureTime": "10:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13906"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_0910_19228",
     "lineId": "joetsu",
+    "trainId": "19228",
     "trainNumber": "1327M",
     "trainType": "local",
     "direction": "outbound",
@@ -16975,20 +16823,18 @@
         "departureTime": "09:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19228",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_0748_19228",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_0914_35073",
     "lineId": "joetsu",
+    "trainId": "35073",
     "trainNumber": "830M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
@@ -17030,20 +16876,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "35073",
-    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_HK-01_0936_35092",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_0918_18891",
     "lineId": "joetsu",
+    "trainId": "18891",
     "trainNumber": "438M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -17072,14 +16918,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18891",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-13_0850_18891",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-04_0942_18851",
     "lineId": "joetsu",
+    "trainId": "18851",
     "trainNumber": "440M",
     "trainType": "local",
     "direction": "inbound",
@@ -17113,13 +16958,13 @@
         "departureTime": "09:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18851"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-14_0942_11361",
     "lineId": "joetsu",
-    "trainNumber": "1731M",
+    "trainId": "11361",
+    "trainNumber": "9783D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-14",
@@ -17265,16 +17110,12 @@
         "departureTime": "11:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11361",
-    "customDestination": "長岡",
-    "customOrigin": "水上",
-    "throughTripId": "HD_OUT_SE-22_1143_11372",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-04_0944_13890",
     "lineId": "joetsu",
+    "trainId": "13890",
     "trainNumber": "729M",
     "trainType": "local",
     "direction": "outbound",
@@ -17349,12 +17190,12 @@
         "departureTime": "10:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13890"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-14_0944_13898",
     "lineId": "joetsu",
+    "trainId": "13898",
     "trainNumber": "734M",
     "trainType": "local",
     "direction": "inbound",
@@ -17429,12 +17270,12 @@
         "departureTime": "10:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13898"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-07_0951_24827",
     "lineId": "joetsu",
+    "trainId": "24827",
     "trainNumber": "528M",
     "trainType": "local",
     "direction": "inbound",
@@ -17468,12 +17309,12 @@
         "departureTime": "10:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24827"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-36_1004_11334",
     "lineId": "joetsu",
+    "trainId": "11334",
     "trainNumber": "8730M",
     "trainType": "local",
     "direction": "inbound",
@@ -17584,18 +17425,19 @@
         "departureTime": "11:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11334"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1010_18877",
     "lineId": "joetsu",
+    "trainId": "18877",
     "trainNumber": "624M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -17624,20 +17466,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "18877",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-14_0950_18877",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-25_1010_33730",
     "lineId": "joetsu",
+    "trainId": "33730",
     "trainNumber": "831M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -17678,16 +17520,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "33730",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_INB_HK-12_0911_33749",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_JOE-35_1020_19241",
     "lineId": "joetsu",
+    "trainId": "19241",
     "trainNumber": "3375M",
-    "trainType": "local",
+    "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "JOE-35",
     "destinationStationId": "JOE-36",
@@ -17707,15 +17548,12 @@
         "departureTime": "10:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19241",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_0922_19241",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_1024_13879",
     "lineId": "joetsu",
+    "trainId": "13879",
     "trainNumber": "731M",
     "trainType": "local",
     "direction": "outbound",
@@ -17808,18 +17646,19 @@
         "departureTime": "11:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13879"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1027_18871",
     "lineId": "joetsu",
+    "trainId": "18871",
     "trainNumber": "654M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "前橋",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -17848,15 +17687,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "18871",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-17_1022_18871",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-36_1034_11347",
     "lineId": "joetsu",
-    "trainNumber": "1732M",
+    "trainId": "11347",
+    "trainNumber": "1722M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-36",
@@ -18002,12 +17840,12 @@
         "departureTime": "12:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11347"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1041_18852",
     "lineId": "joetsu",
+    "trainId": "18852",
     "trainNumber": "442M",
     "trainType": "local",
     "direction": "inbound",
@@ -18041,17 +17879,18 @@
         "departureTime": "10:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18852"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_1041_35079",
     "lineId": "joetsu",
+    "trainId": "35079",
     "trainNumber": "832M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
@@ -18093,14 +17932,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35079",
-    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_HK-01_1102_35098",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-14_1045_13899",
     "lineId": "joetsu",
+    "trainId": "13899",
     "trainNumber": "736M",
     "trainType": "local",
     "direction": "inbound",
@@ -18175,18 +18013,19 @@
         "departureTime": "11:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13899"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_1058_34513",
     "lineId": "joetsu",
+    "trainId": "34513",
     "trainNumber": "1840E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-01",
     "destinationStationId": "JOE-04",
     "customOrigin": "小田原",
+    "customDestination": "新前橋",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -18215,14 +18054,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34513",
-    "customDestination": "新前橋",
     "prevTripId": "HD_OUT_TK-02_0904_34513",
     "prevLineId": "takasaki"
   },
   {
     "tripId": "HD_INB_JOE-36_1102_11332",
     "lineId": "joetsu",
+    "trainId": "11332",
     "trainNumber": "9780D",
     "trainType": "rapid",
     "trainName": "あかねShu＊Kura",
@@ -18334,18 +18172,19 @@
         "departureTime": "12:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11332"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-25_1105_33731",
     "lineId": "joetsu",
+    "trainId": "33731",
     "trainNumber": "833M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -18386,14 +18225,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33731",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_INB_HK-12_1004_33750",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_1110_18853",
     "lineId": "joetsu",
+    "trainId": "18853",
     "trainNumber": "444M",
     "trainType": "local",
     "direction": "inbound",
@@ -18427,12 +18265,12 @@
         "departureTime": "11:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18853"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-07_1111_24820",
     "lineId": "joetsu",
+    "trainId": "24820",
     "trainNumber": "530M",
     "trainType": "local",
     "direction": "inbound",
@@ -18484,12 +18322,12 @@
         "departureTime": "11:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24820"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_1115_19229",
     "lineId": "joetsu",
+    "trainId": "19229",
     "trainNumber": "1329M",
     "trainType": "local",
     "direction": "outbound",
@@ -18511,16 +18349,13 @@
         "departureTime": "11:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19229",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_0951_19229",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_1123_11353",
     "lineId": "joetsu",
-    "trainNumber": "8733M",
+    "trainId": "11353",
+    "trainNumber": "1740M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
@@ -18630,18 +18465,14 @@
         "departureTime": "12:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11353",
-    "customDestination": "長岡",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "HD_OUT_SE-22_1233_11364",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_1127_38939",
     "lineId": "joetsu",
+    "trainId": "38939",
     "trainNumber": "8361D",
-    "trainType": "local",
+    "trainType": "rapid",
     "trainName": "柳都Shu＊Kura",
     "direction": "outbound",
     "originStationId": "JOE-35",
@@ -18664,19 +18495,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "38939",
     "throughTripId": "HD_OUT_SE-01_1018_38939",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_INB_JOE-04_1139_18878",
     "lineId": "joetsu",
+    "trainId": "18878",
     "trainNumber": "626M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -18705,15 +18537,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "18878",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-14_1119_18878",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_JOE-14_1139_11362",
     "lineId": "joetsu",
-    "trainNumber": "8735M",
+    "trainId": "11362",
+    "trainNumber": "1721M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-14",
@@ -18859,17 +18690,18 @@
         "departureTime": "13:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11362"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_1141_35077",
     "lineId": "joetsu",
+    "trainId": "35077",
     "trainNumber": "834M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
@@ -18911,14 +18743,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35077",
-    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_HK-01_1158_35096",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-14_1157_13907",
     "lineId": "joetsu",
+    "trainId": "13907",
     "trainNumber": "738M",
     "trainType": "local",
     "direction": "inbound",
@@ -19011,12 +18842,12 @@
         "departureTime": "13:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13907"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_1202_13880",
     "lineId": "joetsu",
+    "trainId": "13880",
     "trainNumber": "733M",
     "trainType": "local",
     "direction": "outbound",
@@ -19109,12 +18940,12 @@
         "departureTime": "13:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13880"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1210_18854",
     "lineId": "joetsu",
+    "trainId": "18854",
     "trainNumber": "446M",
     "trainType": "local",
     "direction": "inbound",
@@ -19148,13 +18979,13 @@
         "departureTime": "12:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18854"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_1214_11354",
     "lineId": "joetsu",
-    "trainNumber": "1735M",
+    "trainId": "11354",
+    "trainNumber": "1744M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
@@ -19264,16 +19095,12 @@
         "departureTime": "13:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11354",
-    "customDestination": "長岡",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "HD_OUT_SE-22_1327_11365",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-07_1225_24828",
     "lineId": "joetsu",
+    "trainId": "24828",
     "trainNumber": "532M",
     "trainType": "local",
     "direction": "inbound",
@@ -19307,12 +19134,12 @@
         "departureTime": "12:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24828"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_1227_19230",
     "lineId": "joetsu",
+    "trainId": "19230",
     "trainNumber": "1331M",
     "trainType": "local",
     "direction": "outbound",
@@ -19334,15 +19161,12 @@
         "departureTime": "12:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19230",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_1101_19230",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-36_1234_11339",
     "lineId": "joetsu",
+    "trainId": "11339",
     "trainNumber": "1734M",
     "trainType": "local",
     "direction": "inbound",
@@ -19453,18 +19277,19 @@
         "departureTime": "13:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11339"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-25_1235_33727",
     "lineId": "joetsu",
+    "trainId": "33727",
     "trainNumber": "835M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -19505,14 +19330,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33727",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_INB_HK-12_1130_33746",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_1241_18855",
     "lineId": "joetsu",
+    "trainId": "18855",
     "trainNumber": "448M",
     "trainType": "local",
     "direction": "inbound",
@@ -19546,12 +19370,12 @@
         "departureTime": "12:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18855"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_1303_13881",
     "lineId": "joetsu",
+    "trainId": "13881",
     "trainNumber": "735M",
     "trainType": "local",
     "direction": "outbound",
@@ -19644,18 +19468,19 @@
         "departureTime": "14:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13881"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1310_18879",
     "lineId": "joetsu",
+    "trainId": "18879",
     "trainNumber": "628M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -19684,15 +19509,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "18879",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-14_1250_18879",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_JOE-20_1314_11355",
     "lineId": "joetsu",
-    "trainNumber": "1737M",
+    "trainId": "11355",
+    "trainNumber": "1748M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
@@ -19802,16 +19626,12 @@
         "departureTime": "14:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11355",
-    "customDestination": "長岡",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "HD_OUT_SE-22_1428_11366",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-14_1317_13900",
     "lineId": "joetsu",
+    "trainId": "13900",
     "trainNumber": "740M",
     "trainType": "local",
     "direction": "inbound",
@@ -19886,12 +19706,12 @@
         "departureTime": "14:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13900"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_1326_41432",
     "lineId": "joetsu",
+    "trainId": "41432",
     "trainNumber": "836M",
     "trainType": "local",
     "direction": "outbound",
@@ -19937,13 +19757,13 @@
         "departureTime": "13:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "41432"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-14_1330_11363",
     "lineId": "joetsu",
-    "trainNumber": "1739M",
+    "trainId": "11363",
+    "trainNumber": "1723M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-14",
@@ -20089,16 +19909,12 @@
         "departureTime": "15:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11363",
-    "customDestination": "長岡",
-    "customOrigin": "水上",
-    "throughTripId": "HD_OUT_SE-22_1528_11374",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1338_18856",
     "lineId": "joetsu",
+    "trainId": "18856",
     "trainNumber": "450M",
     "trainType": "local",
     "direction": "inbound",
@@ -20132,12 +19948,12 @@
         "departureTime": "13:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18856"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-07_1349_37207",
     "lineId": "joetsu",
+    "trainId": "37207",
     "trainNumber": "3002M",
     "trainType": "limitedExp",
     "trainName": "草津・四万2号",
@@ -20192,14 +20008,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "37207",
     "throughTripId": "HD_INB_TK-25_1406_37207",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_INB_JOE-36_1350_11348",
     "lineId": "joetsu",
-    "trainNumber": "1736M",
+    "trainId": "11348",
+    "trainNumber": "1726M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-36",
@@ -20345,12 +20161,12 @@
         "departureTime": "15:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11348"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_1352_19231",
     "lineId": "joetsu",
+    "trainId": "19231",
     "trainNumber": "1333M",
     "trainType": "local",
     "direction": "outbound",
@@ -20372,21 +20188,19 @@
         "departureTime": "13:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19231",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_1226_19231",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1412_18880",
     "lineId": "joetsu",
+    "trainId": "18880",
     "trainNumber": "630M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -20415,20 +20229,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "18880",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-14_1350_18880",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-25_1420_33732",
     "lineId": "joetsu",
+    "trainId": "33732",
     "trainNumber": "8837M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -20469,14 +20283,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33732",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_INB_HK-12_1309_33751",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-07_1422_24822",
     "lineId": "joetsu",
+    "trainId": "24822",
     "trainNumber": "534M",
     "trainType": "local",
     "direction": "inbound",
@@ -20510,12 +20323,12 @@
         "departureTime": "14:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24822"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-14_1423_13908",
     "lineId": "joetsu",
+    "trainId": "13908",
     "trainNumber": "742M",
     "trainType": "local",
     "direction": "inbound",
@@ -20608,12 +20421,12 @@
         "departureTime": "15:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13908"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-36_1438_11340",
     "lineId": "joetsu",
+    "trainId": "11340",
     "trainNumber": "1738M",
     "trainType": "local",
     "direction": "inbound",
@@ -20724,12 +20537,12 @@
         "departureTime": "15:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11340"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1440_18857",
     "lineId": "joetsu",
+    "trainId": "18857",
     "trainNumber": "452M",
     "trainType": "local",
     "direction": "inbound",
@@ -20763,13 +20576,13 @@
         "departureTime": "14:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18857"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_1447_11350",
     "lineId": "joetsu",
-    "trainNumber": "9783D",
+    "trainId": "11350",
+    "trainNumber": "1734M",
     "trainType": "rapid",
     "trainName": "あかねShu＊Kura",
     "direction": "outbound",
@@ -20881,15 +20694,12 @@
         "departureTime": "16:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11350",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "HD_OUT_SE-22_1557_11361",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-04_1449_13891",
     "lineId": "joetsu",
+    "trainId": "13891",
     "trainNumber": "737M",
     "trainType": "local",
     "direction": "outbound",
@@ -20964,12 +20774,12 @@
         "departureTime": "15:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13891"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-07_1455_37208",
     "lineId": "joetsu",
+    "trainId": "37208",
     "trainNumber": "4034M",
     "trainType": "limitedExp",
     "trainName": "草津・四万34号",
@@ -21024,13 +20834,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "37208",
     "throughTripId": "HD_INB_TK-25_1513_37208",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_OUT_JOE-35_1509_19243",
     "lineId": "joetsu",
+    "trainId": "19243",
     "trainNumber": "1335M",
     "trainType": "local",
     "direction": "outbound",
@@ -21052,21 +20862,19 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19243",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-12_1428_19243",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1510_18881",
     "lineId": "joetsu",
+    "trainId": "18881",
     "trainNumber": "632M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21095,15 +20903,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "18881",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-14_1450_18881",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_JOE-20_1512_11356",
     "lineId": "joetsu",
-    "trainNumber": "1741M",
+    "trainId": "11356",
+    "trainNumber": "1724M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
@@ -21213,22 +21020,19 @@
         "departureTime": "16:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11356",
-    "customDestination": "長岡",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "HD_OUT_SE-22_1626_11367",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-20_1525_43395",
     "lineId": "joetsu",
+    "trainId": "43395",
     "trainNumber": "9076M",
     "trainType": "limitedExp",
     "trainName": "谷川岳ループ",
     "direction": "inbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-01",
+    "customOrigin": "越後湯沢",
     "customDestination": "新宿",
     "cars": 4,
     "isHoliday": true,
@@ -21354,19 +21158,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "43395",
-    "customOrigin": "越後湯沢",
     "throughTripId": "HD_INB_TK-25_1722_43395",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_OUT_JOE-20_1526_35081",
     "lineId": "joetsu",
+    "trainId": "35081",
     "trainNumber": "8840M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
@@ -21408,14 +21212,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35081",
-    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_HK-01_1544_40357",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-36_1528_11342",
     "lineId": "joetsu",
+    "trainId": "11342",
     "trainNumber": "1740M",
     "trainType": "local",
     "direction": "inbound",
@@ -21538,18 +21341,19 @@
         "departureTime": "17:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11342"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-25_1528_33728",
     "lineId": "joetsu",
+    "trainId": "33728",
     "trainNumber": "839M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21590,14 +21394,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33728",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_INB_HK-12_1413_33747",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-07_1531_24821",
     "lineId": "joetsu",
+    "trainId": "24821",
     "trainNumber": "536M",
     "trainType": "local",
     "direction": "inbound",
@@ -21649,12 +21452,12 @@
         "departureTime": "15:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24821"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1537_18858",
     "lineId": "joetsu",
+    "trainId": "18858",
     "trainNumber": "454M",
     "trainType": "local",
     "direction": "inbound",
@@ -21688,12 +21491,12 @@
         "departureTime": "15:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18858"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-04_1541_13892",
     "lineId": "joetsu",
+    "trainId": "13892",
     "trainNumber": "739M",
     "trainType": "local",
     "direction": "outbound",
@@ -21768,12 +21571,12 @@
         "departureTime": "16:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13892"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_1544_19232",
     "lineId": "joetsu",
+    "trainId": "19232",
     "trainNumber": "1337M",
     "trainType": "local",
     "direction": "outbound",
@@ -21795,15 +21598,12 @@
         "departureTime": "15:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19232",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_1418_19232",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-14_1553_13909",
     "lineId": "joetsu",
+    "trainId": "13909",
     "trainNumber": "744M",
     "trainType": "local",
     "direction": "inbound",
@@ -21896,18 +21696,19 @@
         "departureTime": "16:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13909"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1604_18882",
     "lineId": "joetsu",
+    "trainId": "18882",
     "trainNumber": "634M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21936,15 +21737,14 @@
         "isPassing": false
       }
     ],
-    "trainId": "18882",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-14_1545_18882",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_JOE-20_1610_11357",
     "lineId": "joetsu",
-    "trainNumber": "1743M",
+    "trainId": "11357",
+    "trainNumber": "1728M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
@@ -22054,16 +21854,12 @@
         "departureTime": "17:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11357",
-    "customDestination": "長岡",
-    "customOrigin": "越後湯沢",
-    "throughTripId": "HD_OUT_SE-22_1724_11368",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1618_34295",
     "lineId": "joetsu",
+    "trainId": "34295",
     "trainNumber": "1925E",
     "trainType": "local",
     "direction": "inbound",
@@ -22098,18 +21894,19 @@
         "departureTime": "16:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34295"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-25_1620_33729",
     "lineId": "joetsu",
+    "trainId": "33729",
     "trainNumber": "8841M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -22150,19 +21947,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "33729",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_INB_HK-12_1522_33748",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_JOE-20_1623_35082",
     "lineId": "joetsu",
+    "trainId": "35082",
     "trainNumber": "8842M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
@@ -22204,14 +22001,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35082",
-    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_HK-01_1639_40359",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-07_1626_37209",
     "lineId": "joetsu",
+    "trainId": "37209",
     "trainNumber": "3004M",
     "trainType": "limitedExp",
     "trainName": "草津・四万4号",
@@ -22266,13 +22062,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "37209",
     "throughTripId": "HD_INB_TK-25_1646_37209",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_OUT_JOE-01_1634_13882",
     "lineId": "joetsu",
+    "trainId": "13882",
     "trainNumber": "741M",
     "trainType": "local",
     "direction": "outbound",
@@ -22365,13 +22161,13 @@
         "departureTime": "17:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13882"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-36_1635_11349",
     "lineId": "joetsu",
-    "trainNumber": "1742M",
+    "trainId": "11349",
+    "trainNumber": "1728M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-36",
@@ -22517,12 +22313,12 @@
         "departureTime": "18:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11349"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_1638_19233",
     "lineId": "joetsu",
+    "trainId": "19233",
     "trainNumber": "1339M",
     "trainType": "local",
     "direction": "outbound",
@@ -22544,21 +22340,19 @@
         "departureTime": "16:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19233",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_1511_19233",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1640_18883",
     "lineId": "joetsu",
+    "trainId": "18883",
     "trainNumber": "636M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -22587,14 +22381,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18883",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-14_1616_18883",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-14_1647_13910",
     "lineId": "joetsu",
+    "trainId": "13910",
     "trainNumber": "746M",
     "trainType": "local",
     "direction": "inbound",
@@ -22687,12 +22480,12 @@
         "departureTime": "17:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13910"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-07_1652_24825",
     "lineId": "joetsu",
+    "trainId": "24825",
     "trainNumber": "538M",
     "trainType": "local",
     "direction": "inbound",
@@ -22744,12 +22537,12 @@
         "departureTime": "17:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24825"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1659_18859",
     "lineId": "joetsu",
+    "trainId": "18859",
     "trainNumber": "456M",
     "trainType": "local",
     "direction": "inbound",
@@ -22783,13 +22576,13 @@
         "departureTime": "17:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18859"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-18_1708_11367",
     "lineId": "joetsu",
-    "trainNumber": "1745M",
+    "trainId": "11367",
+    "trainNumber": "1741M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-18",
@@ -22911,21 +22704,18 @@
         "departureTime": "18:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11367",
-    "customDestination": "長岡",
-    "customOrigin": "越後中里",
-    "throughTripId": "HD_OUT_SE-22_1832_11378",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_1710_41431",
     "lineId": "joetsu",
+    "trainId": "41431",
     "trainNumber": "844M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "犀潟",
     "cars": 4,
     "isHoliday": true,
@@ -22967,20 +22757,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "41431",
-    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_HK-01_1733_41462",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-25_1713_33733",
     "lineId": "joetsu",
+    "trainId": "33733",
     "trainNumber": "843M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23021,20 +22811,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "33733",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_INB_HK-12_1614_33752",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_1721_18892",
     "lineId": "joetsu",
+    "trainId": "18892",
     "trainNumber": "458M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23063,14 +22853,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18892",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-13_1654_18892",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_JOE-01_1727_13883",
     "lineId": "joetsu",
+    "trainId": "13883",
     "trainNumber": "743M",
     "trainType": "local",
     "direction": "outbound",
@@ -23163,12 +22952,12 @@
         "departureTime": "18:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13883"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-07_1737_24826",
     "lineId": "joetsu",
+    "trainId": "24826",
     "trainNumber": "540M",
     "trainType": "local",
     "direction": "inbound",
@@ -23220,12 +23009,12 @@
         "departureTime": "18:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24826"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-14_1745_13911",
     "lineId": "joetsu",
+    "trainId": "13911",
     "trainNumber": "748M",
     "trainType": "local",
     "direction": "inbound",
@@ -23318,12 +23107,12 @@
         "departureTime": "18:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13911"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1746_18860",
     "lineId": "joetsu",
+    "trainId": "18860",
     "trainNumber": "460M",
     "trainType": "local",
     "direction": "inbound",
@@ -23357,13 +23146,13 @@
         "departureTime": "17:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18860"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-14_1748_11364",
     "lineId": "joetsu",
-    "trainNumber": "1747M",
+    "trainId": "11364",
+    "trainNumber": "8733M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-14",
@@ -23509,16 +23298,12 @@
         "departureTime": "20:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11364",
-    "customDestination": "長岡",
-    "customOrigin": "水上",
-    "throughTripId": "HD_OUT_SE-22_2006_11375",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_1755_19234",
     "lineId": "joetsu",
+    "trainId": "19234",
     "trainNumber": "1341M",
     "trainType": "local",
     "direction": "outbound",
@@ -23540,16 +23325,13 @@
         "departureTime": "18:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19234",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_1629_19234",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-36_1757_11343",
     "lineId": "joetsu",
-    "trainNumber": "1744M",
+    "trainId": "11343",
+    "trainNumber": "9780D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-36",
@@ -23671,17 +23453,18 @@
         "departureTime": "19:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11343"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_1806_35078",
     "lineId": "joetsu",
+    "trainId": "35078",
     "trainNumber": "846M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
@@ -23723,20 +23506,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "35078",
-    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_HK-01_1826_35097",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-25_1808_33734",
     "lineId": "joetsu",
+    "trainId": "33734",
     "trainNumber": "845M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23777,20 +23560,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "33734",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_INB_HK-12_1710_33753",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_1811_18893",
     "lineId": "joetsu",
+    "trainId": "18893",
     "trainNumber": "462M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "桐生",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23819,14 +23602,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18893",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-13_1744_18893",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-04_1820_34297",
     "lineId": "joetsu",
+    "trainId": "34297",
     "trainNumber": "1937E",
     "trainType": "local",
     "direction": "inbound",
@@ -23861,12 +23643,12 @@
         "departureTime": "18:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34297"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_1821_13884",
     "lineId": "joetsu",
+    "trainId": "13884",
     "trainNumber": "745M",
     "trainType": "local",
     "direction": "outbound",
@@ -23959,12 +23741,12 @@
         "departureTime": "19:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13884"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1829_18861",
     "lineId": "joetsu",
+    "trainId": "18861",
     "trainNumber": "464M",
     "trainType": "local",
     "direction": "inbound",
@@ -23998,12 +23780,12 @@
         "departureTime": "18:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18861"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-14_1844_13912",
     "lineId": "joetsu",
+    "trainId": "13912",
     "trainNumber": "750M",
     "trainType": "local",
     "direction": "inbound",
@@ -24096,18 +23878,19 @@
         "departureTime": "19:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13912"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1850_18884",
     "lineId": "joetsu",
+    "trainId": "18884",
     "trainNumber": "638M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -24136,14 +23919,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18884",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-14_1828_18884",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-07_1852_24829",
     "lineId": "joetsu",
+    "trainId": "24829",
     "trainNumber": "542M",
     "trainType": "local",
     "direction": "inbound",
@@ -24177,12 +23959,12 @@
         "departureTime": "19:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24829"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_1857_13885",
     "lineId": "joetsu",
+    "trainId": "13885",
     "trainNumber": "747M",
     "trainType": "local",
     "direction": "outbound",
@@ -24275,12 +24057,12 @@
         "departureTime": "20:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13885"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-36_1859_11335",
     "lineId": "joetsu",
+    "trainId": "11335",
     "trainNumber": "1746M",
     "trainType": "local",
     "direction": "inbound",
@@ -24391,12 +24173,12 @@
         "departureTime": "20:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11335"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_1903_19235",
     "lineId": "joetsu",
+    "trainId": "19235",
     "trainNumber": "1343M",
     "trainType": "local",
     "direction": "outbound",
@@ -24418,21 +24200,19 @@
         "departureTime": "19:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19235",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_1741_19235",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-25_1904_33735",
     "lineId": "joetsu",
+    "trainId": "33735",
     "trainNumber": "847M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -24473,14 +24253,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33735",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_INB_HK-12_1806_33754",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_1907_18862",
     "lineId": "joetsu",
+    "trainId": "18862",
     "trainNumber": "466M",
     "trainType": "local",
     "direction": "inbound",
@@ -24514,12 +24293,12 @@
         "departureTime": "19:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18862"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1919_40904",
     "lineId": "joetsu",
+    "trainId": "40904",
     "trainNumber": "852M",
     "trainType": "local",
     "direction": "inbound",
@@ -24554,18 +24333,19 @@
         "departureTime": "19:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "40904"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1927_18885",
     "lineId": "joetsu",
+    "trainId": "18885",
     "trainNumber": "640M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -24594,14 +24374,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18885",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-14_1907_18885",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-14_1931_13913",
     "lineId": "joetsu",
+    "trainId": "13913",
     "trainNumber": "754M",
     "trainType": "local",
     "direction": "inbound",
@@ -24694,12 +24473,12 @@
         "departureTime": "20:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13913"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_1940_13886",
     "lineId": "joetsu",
+    "trainId": "13886",
     "trainNumber": "749M",
     "trainType": "local",
     "direction": "outbound",
@@ -24792,12 +24571,12 @@
         "departureTime": "20:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13886"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_1942_18863",
     "lineId": "joetsu",
+    "trainId": "18863",
     "trainNumber": "468M",
     "trainType": "local",
     "direction": "inbound",
@@ -24831,14 +24610,14 @@
         "departureTime": "19:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18863"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_1945_19226",
     "lineId": "joetsu",
+    "trainId": "19226",
     "trainNumber": "3377M",
-    "trainType": "local",
+    "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "JOE-35",
     "destinationStationId": "JOE-36",
@@ -24860,13 +24639,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "19226",
     "throughTripId": "HD_OUT_SE-01_1841_19226",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_INB_JOE-04_1950_13893",
     "lineId": "joetsu",
+    "trainId": "13893",
     "trainNumber": "2752M",
     "trainType": "local",
     "direction": "inbound",
@@ -24899,13 +24678,13 @@
         "departureTime": "20:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13893"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-36_1956_11344",
     "lineId": "joetsu",
-    "trainNumber": "1748M",
+    "trainId": "11344",
+    "trainNumber": "1752M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-36",
@@ -25027,12 +24806,12 @@
         "departureTime": "21:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11344"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_1957_13874",
     "lineId": "joetsu",
+    "trainId": "13874",
     "trainNumber": "2751M",
     "trainType": "local",
     "direction": "outbound",
@@ -25083,17 +24862,18 @@
         "departureTime": "20:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13874"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_2006_35074",
     "lineId": "joetsu",
+    "trainId": "35074",
     "trainNumber": "850M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
@@ -25135,14 +24915,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35074",
-    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_HK-01_2026_35093",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-04_2010_18864",
     "lineId": "joetsu",
+    "trainId": "18864",
     "trainNumber": "470M",
     "trainType": "local",
     "direction": "inbound",
@@ -25176,13 +24955,13 @@
         "departureTime": "20:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18864"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-18_2010_11368",
     "lineId": "joetsu",
-    "trainNumber": "1749M",
+    "trainId": "11368",
+    "trainNumber": "1743M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-18",
@@ -25304,16 +25083,12 @@
         "departureTime": "21:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11368",
-    "customDestination": "長岡",
-    "customOrigin": "越後中里",
-    "throughTripId": "HD_OUT_SE-22_2143_11379",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-14_2016_13901",
     "lineId": "joetsu",
+    "trainId": "13901",
     "trainNumber": "756M",
     "trainType": "local",
     "direction": "inbound",
@@ -25388,12 +25163,12 @@
         "departureTime": "21:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13901"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-07_2017_24823",
     "lineId": "joetsu",
+    "trainId": "24823",
     "trainNumber": "544M",
     "trainType": "local",
     "direction": "inbound",
@@ -25427,12 +25202,12 @@
         "departureTime": "20:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24823"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_2028_13887",
     "lineId": "joetsu",
+    "trainId": "13887",
     "trainNumber": "753M",
     "trainType": "local",
     "direction": "outbound",
@@ -25525,18 +25300,19 @@
         "departureTime": "21:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13887"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_2034_18886",
     "lineId": "joetsu",
+    "trainId": "18886",
     "trainNumber": "642M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "伊勢崎",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -25565,14 +25341,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18886",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-14_2011_18886",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-04_2044_18865",
     "lineId": "joetsu",
+    "trainId": "18865",
     "trainNumber": "472M",
     "trainType": "local",
     "direction": "inbound",
@@ -25606,12 +25381,12 @@
         "departureTime": "20:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18865"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_2051_19236",
     "lineId": "joetsu",
+    "trainId": "19236",
     "trainNumber": "1345M",
     "trainType": "local",
     "direction": "outbound",
@@ -25633,16 +25408,13 @@
         "departureTime": "20:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19236",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_1921_19236",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-14_2052_11359",
     "lineId": "joetsu",
-    "trainNumber": "1751M",
+    "trainId": "11359",
+    "trainNumber": "1736M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-14",
@@ -25788,22 +25560,19 @@
         "departureTime": "22:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11359",
-    "customDestination": "長岡",
-    "customOrigin": "水上",
-    "throughTripId": "HD_OUT_SE-22_2248_11370",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_2100_18872",
     "lineId": "joetsu",
+    "trainId": "18872",
     "trainNumber": "656M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "前橋",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -25832,14 +25601,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18872",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-17_2055_18872",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-36_2100_11341",
     "lineId": "joetsu",
+    "trainId": "11341",
     "trainNumber": "1750M",
     "trainType": "local",
     "direction": "inbound",
@@ -25950,17 +25718,18 @@
         "departureTime": "22:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11341"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_2101_35075",
     "lineId": "joetsu",
+    "trainId": "35075",
     "trainNumber": "852M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
@@ -26002,20 +25771,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "35075",
-    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_HK-01_2119_35094",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-25_2103_33736",
     "lineId": "joetsu",
+    "trainId": "33736",
     "trainNumber": "851M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-25",
     "destinationStationId": "JOE-20",
     "customOrigin": "直江津",
+    "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -26056,14 +25825,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33736",
-    "customDestination": "越後湯沢",
     "prevTripId": "HD_INB_HK-12_1955_33755",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-14_2113_13914",
     "lineId": "joetsu",
+    "trainId": "13914",
     "trainNumber": "758M",
     "trainType": "local",
     "direction": "inbound",
@@ -26156,12 +25924,12 @@
         "departureTime": "22:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13914"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_2114_18866",
     "lineId": "joetsu",
+    "trainId": "18866",
     "trainNumber": "474M",
     "trainType": "local",
     "direction": "inbound",
@@ -26195,18 +25963,19 @@
         "departureTime": "21:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18866"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_2130_18873",
     "lineId": "joetsu",
+    "trainId": "18873",
     "trainNumber": "658M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "前橋",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -26235,14 +26004,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18873",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-17_2124_18873",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_INB_JOE-07_2135_24831",
     "lineId": "joetsu",
+    "trainId": "24831",
     "trainNumber": "546M",
     "trainType": "local",
     "direction": "inbound",
@@ -26294,12 +26062,12 @@
         "departureTime": "21:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24831"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_2150_13888",
     "lineId": "joetsu",
+    "trainId": "13888",
     "trainNumber": "755M",
     "trainType": "local",
     "direction": "outbound",
@@ -26392,12 +26160,12 @@
         "departureTime": "23:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13888"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-35_2150_19238",
     "lineId": "joetsu",
+    "trainId": "19238",
     "trainNumber": "1347M",
     "trainType": "local",
     "direction": "outbound",
@@ -26421,13 +26189,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "19238",
     "throughTripId": "HD_OUT_SE-01_2025_19238",
-    "throughLineId": "shinetsu"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_INB_JOE-04_2154_18867",
     "lineId": "joetsu",
+    "trainId": "18867",
     "trainNumber": "476M",
     "trainType": "local",
     "direction": "inbound",
@@ -26461,12 +26229,12 @@
         "departureTime": "22:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18867"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_2219_18868",
     "lineId": "joetsu",
+    "trainId": "18868",
     "trainNumber": "478M",
     "trainType": "local",
     "direction": "inbound",
@@ -26500,17 +26268,18 @@
         "departureTime": "22:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18868"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-20_2231_35076",
     "lineId": "joetsu",
+    "trainId": "35076",
     "trainNumber": "854M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JOE-20",
     "destinationStationId": "JOE-25",
+    "customOrigin": "越後湯沢",
     "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
@@ -26552,14 +26321,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35076",
-    "customOrigin": "越後湯沢",
     "throughTripId": "HD_OUT_HK-01_2249_35095",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_JOE-36_2239_11333",
     "lineId": "joetsu",
+    "trainId": "11333",
     "trainNumber": "1752M",
     "trainType": "local",
     "direction": "inbound",
@@ -26664,18 +26432,19 @@
         "departureTime": "23:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11333"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_2242_18874",
     "lineId": "joetsu",
+    "trainId": "18874",
     "trainNumber": "660M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JOE-04",
     "destinationStationId": "JOE-01",
     "customOrigin": "前橋",
+    "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -26704,14 +26473,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18874",
-    "customDestination": "高崎",
     "prevTripId": "HD_OUT_RY-17_2237_18874",
     "prevLineId": "ryomo"
   },
   {
     "tripId": "HD_OUT_JOE-35_2253_19237",
     "lineId": "joetsu",
+    "trainId": "19237",
     "trainNumber": "1349M",
     "trainType": "local",
     "direction": "outbound",
@@ -26733,15 +26501,12 @@
         "departureTime": "22:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19237",
-    "customDestination": "長岡",
-    "throughTripId": "HD_OUT_SE-01_2131_19237",
-    "throughLineId": "shinetsu"
+    ]
   },
   {
     "tripId": "HD_OUT_JOE-01_2307_13889",
     "lineId": "joetsu",
+    "trainId": "13889",
     "trainNumber": "757M",
     "trainType": "local",
     "direction": "outbound",
@@ -26834,12 +26599,12 @@
         "departureTime": "00:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13889"
+    ]
   },
   {
     "tripId": "HD_INB_JOE-04_2322_18869",
     "lineId": "joetsu",
+    "trainId": "18869",
     "trainNumber": "480M",
     "trainType": "local",
     "direction": "inbound",
@@ -26873,7 +26638,6 @@
         "departureTime": "23:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18869"
+    ]
   }
 ]

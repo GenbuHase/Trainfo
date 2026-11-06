@@ -2,6 +2,7 @@
   {
     "tripId": "WD_INB_SE-42_0514_19047",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19047",
     "trainNumber": "1324M",
     "trainType": "local",
     "direction": "inbound",
@@ -262,17 +263,18 @@
         "departureTime": "08:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19047"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_0528_33744",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33744",
     "trainNumber": "821M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
@@ -296,20 +298,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "33744",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_0538_33744",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-37_0532_32176",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32176",
     "trainNumber": "2221D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "五泉",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -350,14 +352,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32176",
-    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-38_0514_32176",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-23_0536_33244",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33244",
     "trainNumber": "421M",
     "trainType": "local",
     "direction": "outbound",
@@ -487,17 +488,19 @@
         "departureTime": "07:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33244"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-12_0537_19242",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19242",
     "trainNumber": "1321M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-12",
     "destinationStationId": "SE-23",
+    "customOrigin": "柏崎",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -573,14 +576,12 @@
         "departureTime": "06:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19242",
-    "customDestination": "長岡",
-    "customOrigin": "柏崎"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_0604_19029",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19029",
     "trainNumber": "422M",
     "trainType": "local",
     "direction": "inbound",
@@ -709,17 +710,19 @@
         "departureTime": "07:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19029"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_0610_19239",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19239",
     "trainNumber": "3371M",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -861,14 +864,12 @@
         "departureTime": "07:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19239",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_0611_19212",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19212",
     "trainNumber": "423M",
     "trainType": "local",
     "direction": "outbound",
@@ -997,12 +998,12 @@
         "departureTime": "07:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19212"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_0611_19245",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19245",
     "trainNumber": "2521D",
     "trainType": "local",
     "direction": "outbound",
@@ -1047,12 +1048,12 @@
         "departureTime": "06:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19245"
+    ]
   },
   {
     "tripId": "WD_INB_SE-07_0619_19048",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19048",
     "trainNumber": "1320M",
     "trainType": "local",
     "direction": "inbound",
@@ -1103,17 +1104,18 @@
         "departureTime": "06:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19048"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_0626_31125",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "31125",
     "trainNumber": "2226D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-37",
+    "customOrigin": "新潟",
     "customDestination": "津川",
     "cars": 4,
     "isHoliday": false,
@@ -1155,19 +1157,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "31125",
-    "customOrigin": "新潟",
     "throughTripId": "WD_INB_BW-42_0659_31125",
     "throughLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-01_0630_19227",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19227",
     "trainNumber": "1325M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1309,14 +1312,12 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19227",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_0630_19213",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19213",
     "trainNumber": "425M",
     "trainType": "local",
     "direction": "outbound",
@@ -1445,18 +1446,19 @@
         "departureTime": "07:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19213"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_0639_29359",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "29359",
     "trainNumber": "1121D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "十日町",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1472,13 +1474,12 @@
         "departureTime": "06:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29359",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_0645_19030",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19030",
     "trainNumber": "424M",
     "trainType": "local",
     "direction": "inbound",
@@ -1607,18 +1608,19 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19030"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_0650_32173",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32173",
     "trainNumber": "2223D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "野沢",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1659,14 +1661,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32173",
-    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-25_0517_32173",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-23_0651_33242",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33242",
     "trainNumber": "427M",
     "trainType": "local",
     "direction": "outbound",
@@ -1796,17 +1797,18 @@
         "departureTime": "08:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33242"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_0652_33745",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33745",
     "trainNumber": "825M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
@@ -1830,14 +1832,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33745",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_0702_33745",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_0653_19007",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19007",
     "trainNumber": "2520M",
     "trainType": "local",
     "direction": "inbound",
@@ -1882,17 +1883,19 @@
         "departureTime": "07:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19007"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-12_0656_19244",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19244",
     "trainNumber": "1323M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-12",
     "destinationStationId": "SE-42",
+    "customOrigin": "柏崎",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2083,18 +2086,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "19244",
-    "customDestination": "新潟",
-    "customOrigin": "柏崎"
+    "prevTripId": "WD_OUT_JOE-35_0736_19244",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-12_0658_34099",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "34099",
     "trainNumber": "1322M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-12",
     "destinationStationId": "SE-01",
+    "customOrigin": "柏崎",
     "customDestination": "妙高高原",
     "cars": 4,
     "isHoliday": false,
@@ -2172,14 +2176,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34099",
-    "customOrigin": "柏崎",
     "throughTripId": "WD_INB_ETM-10_0744_34099",
     "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_INB_SE-42_0706_19511",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19511",
     "trainNumber": "426M",
     "trainType": "local",
     "direction": "inbound",
@@ -2309,12 +2312,12 @@
         "departureTime": "08:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19511"
+    ]
   },
   {
     "tripId": "WD_INB_SE-23_0708_18994",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18994",
     "trainNumber": "1326M",
     "trainType": "local",
     "direction": "inbound",
@@ -2461,12 +2464,12 @@
         "departureTime": "08:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18994"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_0708_19214",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19214",
     "trainNumber": "429M",
     "trainType": "local",
     "direction": "outbound",
@@ -2595,17 +2598,19 @@
         "departureTime": "08:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19214"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_0709_19240",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19240",
     "trainNumber": "3373M",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2747,20 +2752,19 @@
         "departureTime": "08:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19240",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_0713_40353",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40353",
     "trainNumber": "822M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "六日町",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2783,20 +2787,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "40353",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_0608_40353",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-22_0714_29358",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "29358",
     "trainNumber": "1123D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "森宮野原",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2812,18 +2816,18 @@
         "departureTime": "07:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29358",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_0716_31122",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "31122",
     "trainNumber": "2228D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-37",
+    "customOrigin": "新潟",
     "customDestination": "五泉",
     "cars": 4,
     "isHoliday": false,
@@ -2865,20 +2869,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "31122",
-    "customOrigin": "新潟",
     "throughTripId": "WD_INB_BW-42_0740_31122",
     "throughLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-37_0719_32175",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32175",
     "trainNumber": "2225D",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "馬下",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2919,14 +2923,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32175",
-    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-36_0643_32175",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-23_0727_29366",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "29366",
     "trainNumber": "431M",
     "trainType": "local",
     "direction": "outbound",
@@ -3056,17 +3059,18 @@
         "departureTime": "08:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29366"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_0728_40369",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40369",
     "trainNumber": "827M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "六日町",
     "cars": 4,
     "isHoliday": false,
@@ -3090,20 +3094,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "40369",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_0735_40369",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-22_0728_11362",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11362",
     "trainNumber": "1721M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-42",
     "customOrigin": "石打",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3233,13 +3237,12 @@
         "departureTime": "08:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11362",
-    "customDestination": "新潟"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_0731_19246",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19246",
     "trainNumber": "2523M",
     "trainType": "local",
     "direction": "outbound",
@@ -3284,18 +3287,19 @@
         "departureTime": "07:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19246"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_0735_34095",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "34095",
     "trainNumber": "52M",
     "trainType": "limitedExp",
     "trainName": "しらゆき2号",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-01",
+    "customOrigin": "新潟",
     "customDestination": "新井",
     "cars": 4,
     "isHoliday": false,
@@ -3553,20 +3557,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "34095",
-    "customOrigin": "新潟",
     "throughTripId": "WD_INB_ETM-10_0925_34095",
     "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_OUT_SE-37_0737_32174",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32174",
     "trainNumber": "2227D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "馬下",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3607,14 +3611,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32174",
-    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-36_0709_32174",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_INB_SE-42_0741_19031",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19031",
     "trainNumber": "428M",
     "trainType": "local",
     "direction": "inbound",
@@ -3743,18 +3746,19 @@
         "departureTime": "08:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19031"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_0747_40354",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40354",
     "trainNumber": "824M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "六日町",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3777,19 +3781,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "40354",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_0642_40354",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-01_0748_19228",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19228",
     "trainNumber": "1327M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3931,20 +3936,19 @@
         "departureTime": "09:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19228",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_0751_11363",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11363",
     "trainNumber": "1723M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後湯沢",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3960,13 +3964,12 @@
         "departureTime": "07:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11363",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_0753_19247",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19247",
     "trainNumber": "2525M",
     "trainType": "local",
     "direction": "outbound",
@@ -4011,12 +4014,12 @@
         "departureTime": "08:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19247"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_0758_19008",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19008",
     "trainNumber": "2522D",
     "trainType": "local",
     "direction": "inbound",
@@ -4061,18 +4064,19 @@
         "departureTime": "08:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19008"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_0800_32172",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32172",
     "trainNumber": "221D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "会津若松",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4113,14 +4117,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32172",
-    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-15_0528_32172",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_INB_SE-23_0806_18995",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18995",
     "trainNumber": "1328M",
     "trainType": "local",
     "direction": "inbound",
@@ -4267,17 +4270,18 @@
         "departureTime": "09:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18995"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_0812_40370",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40370",
     "trainNumber": "829M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "六日町",
     "cars": 4,
     "isHoliday": false,
@@ -4301,14 +4305,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40370",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_0819_40370",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-23_0815_19215",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19215",
     "trainNumber": "435M",
     "trainType": "local",
     "direction": "outbound",
@@ -4437,12 +4440,12 @@
         "departureTime": "09:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19215"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_0815_19510",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19510",
     "trainNumber": "430M",
     "trainType": "local",
     "direction": "inbound",
@@ -4512,18 +4515,19 @@
         "departureTime": "08:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19510"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_0822_11376",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11376",
     "trainNumber": "1725M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後中里",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4539,18 +4543,18 @@
         "departureTime": "08:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11376",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_0829_31124",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "31124",
     "trainNumber": "2230D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-37",
+    "customOrigin": "新潟",
     "customDestination": "馬下",
     "cars": 4,
     "isHoliday": false,
@@ -4592,20 +4596,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "31124",
-    "customOrigin": "新潟",
     "throughTripId": "WD_INB_BW-42_0851_31124",
     "throughLineId": "banetsu_west"
   },
   {
     "tripId": "WD_INB_SE-03_0833_40355",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40355",
     "trainNumber": "826M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "六日町",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4628,14 +4632,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40355",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_0733_40355",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_0835_19009",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19009",
     "trainNumber": "2524M",
     "trainType": "local",
     "direction": "inbound",
@@ -4680,12 +4683,12 @@
         "departureTime": "08:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19009"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_0855_19512",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19512",
     "trainNumber": "432M",
     "trainType": "local",
     "direction": "inbound",
@@ -4815,18 +4818,19 @@
         "departureTime": "10:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19512"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_0857_32178",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32178",
     "trainNumber": "2229D",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "五泉",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4867,19 +4871,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "32178",
-    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-38_0832_32178",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-01_0903_33749",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33749",
     "trainNumber": "831M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
@@ -4903,14 +4907,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33749",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_0911_33749",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-23_0906_33245",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33245",
     "trainNumber": "439M",
     "trainType": "local",
     "direction": "outbound",
@@ -5040,12 +5043,12 @@
         "departureTime": "10:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33245"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-33_0913_33251",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33251",
     "trainNumber": "437M",
     "trainType": "local",
     "direction": "outbound",
@@ -5115,18 +5118,19 @@
         "departureTime": "10:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33251"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_0915_11377",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11377",
     "trainNumber": "1727M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後中里",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5142,13 +5146,12 @@
         "departureTime": "09:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11377",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_0920_19010",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19010",
     "trainNumber": "2526D",
     "trainType": "local",
     "direction": "inbound",
@@ -5193,17 +5196,19 @@
         "departureTime": "09:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19010"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_0922_19241",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19241",
     "trainNumber": "3375M",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5345,14 +5350,12 @@
         "departureTime": "10:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19241",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_0940_19011",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19011",
     "trainNumber": "2528M",
     "trainType": "local",
     "direction": "inbound",
@@ -5397,18 +5400,19 @@
         "departureTime": "09:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19011"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_0943_35091",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35091",
     "trainNumber": "828M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5431,19 +5435,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "35091",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_0843_35091",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-01_0951_19229",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19229",
     "trainNumber": "1329M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5585,19 +5590,18 @@
         "departureTime": "11:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19229",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_0956_33750",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33750",
     "trainNumber": "833M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
@@ -5621,14 +5625,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33750",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_1004_33750",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-23_0957_18996",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18996",
     "trainNumber": "1330M",
     "trainType": "local",
     "direction": "inbound",
@@ -5775,12 +5778,12 @@
         "departureTime": "11:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18996"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1008_19514",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19514",
     "trainNumber": "434M",
     "trainType": "local",
     "direction": "inbound",
@@ -5910,18 +5913,19 @@
         "departureTime": "11:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19514"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_1014_11371",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11371",
     "trainNumber": "1729M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "水上",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5937,19 +5941,19 @@
         "departureTime": "10:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11371",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1023_34094",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "34094",
     "trainNumber": "54M",
     "trainType": "limitedExp",
     "trainName": "しらゆき4号",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-01",
+    "customOrigin": "新潟",
     "customDestination": "上越妙高",
     "cars": 4,
     "isHoliday": false,
@@ -6207,14 +6211,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34094",
-    "customOrigin": "新潟",
     "throughTripId": "WD_INB_ETM-10_1211_34094",
     "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_OUT_SE-37_1026_19248",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19248",
     "trainNumber": "2527M",
     "trainType": "local",
     "direction": "outbound",
@@ -6259,12 +6262,12 @@
         "departureTime": "10:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19248"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1028_19012",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19012",
     "trainNumber": "2530M",
     "trainType": "local",
     "direction": "inbound",
@@ -6309,12 +6312,12 @@
         "departureTime": "10:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19012"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_1029_19211",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19211",
     "trainNumber": "3481M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -6443,18 +6446,19 @@
         "departureTime": "11:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19211"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_1036_35092",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35092",
     "trainNumber": "830M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6477,14 +6481,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35092",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_0936_35092",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-23_1038_19216",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19216",
     "trainNumber": "441M",
     "trainType": "local",
     "direction": "outbound",
@@ -6613,12 +6616,12 @@
         "departureTime": "11:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19216"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1048_38936",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "38936",
     "trainNumber": "51M",
     "trainType": "limitedExp",
     "trainName": "しらゆき1号",
@@ -6626,6 +6629,7 @@
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
     "customOrigin": "新井",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6882,12 +6886,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38936",
-    "customDestination": "新潟"
+    "prevTripId": "WD_OUT_ETM-04_1023_38936",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_INB_SE-42_1048_19013",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19013",
     "trainNumber": "2532M",
     "trainType": "local",
     "direction": "inbound",
@@ -6932,12 +6937,12 @@
         "departureTime": "11:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19013"
+    ]
   },
   {
     "tripId": "WD_INB_SE-23_1054_18997",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18997",
     "trainNumber": "1332M",
     "trainType": "local",
     "direction": "inbound",
@@ -7084,12 +7089,12 @@
         "departureTime": "12:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18997"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1056_19249",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19249",
     "trainNumber": "2529M",
     "trainType": "local",
     "direction": "outbound",
@@ -7134,17 +7139,19 @@
         "departureTime": "11:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19249"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1101_19230",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19230",
     "trainNumber": "1331M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7286,14 +7293,12 @@
         "departureTime": "12:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19230",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1108_19032",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19032",
     "trainNumber": "436M",
     "trainType": "local",
     "direction": "inbound",
@@ -7422,12 +7427,12 @@
         "departureTime": "12:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19032"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1119_33248",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33248",
     "trainNumber": "2531M",
     "trainType": "local",
     "direction": "outbound",
@@ -7473,17 +7478,18 @@
         "departureTime": "11:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33248"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1121_33746",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33746",
     "trainNumber": "835M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
@@ -7507,14 +7513,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33746",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_1130_33746",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1128_19014",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19014",
     "trainNumber": "2534M",
     "trainType": "local",
     "direction": "inbound",
@@ -7559,18 +7564,19 @@
         "departureTime": "11:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19014"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_1143_11372",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11372",
     "trainNumber": "1731M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "水上",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7586,13 +7592,12 @@
         "departureTime": "11:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11372",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_1143_19217",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19217",
     "trainNumber": "443M",
     "trainType": "local",
     "direction": "outbound",
@@ -7721,12 +7726,12 @@
         "departureTime": "12:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19217"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1148_19015",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19015",
     "trainNumber": "2536M",
     "trainType": "local",
     "direction": "inbound",
@@ -7771,12 +7776,12 @@
         "departureTime": "12:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19015"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1155_19250",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19250",
     "trainNumber": "2533M",
     "trainType": "local",
     "direction": "outbound",
@@ -7821,12 +7826,12 @@
         "departureTime": "12:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19250"
+    ]
   },
   {
     "tripId": "WD_INB_SE-23_1201_18998",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18998",
     "trainNumber": "1334M",
     "trainType": "local",
     "direction": "inbound",
@@ -7973,12 +7978,12 @@
         "departureTime": "13:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18998"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1208_19033",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19033",
     "trainNumber": "438M",
     "trainType": "local",
     "direction": "inbound",
@@ -8107,18 +8112,19 @@
         "departureTime": "13:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19033"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_1211_35098",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35098",
     "trainNumber": "832M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -8141,14 +8147,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35098",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_1102_35098",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-37_1221_19251",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19251",
     "trainNumber": "2535M",
     "trainType": "local",
     "direction": "outbound",
@@ -8193,17 +8198,19 @@
         "departureTime": "12:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19251"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1226_19231",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19231",
     "trainNumber": "1333M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -8345,14 +8352,12 @@
         "departureTime": "13:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19231",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1228_19016",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19016",
     "trainNumber": "2538M",
     "trainType": "local",
     "direction": "inbound",
@@ -8397,12 +8402,12 @@
         "departureTime": "12:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19016"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_1240_19218",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19218",
     "trainNumber": "445M",
     "trainType": "local",
     "direction": "outbound",
@@ -8531,12 +8536,12 @@
         "departureTime": "13:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19218"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1248_19017",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19017",
     "trainNumber": "2540M",
     "trainType": "local",
     "direction": "inbound",
@@ -8581,12 +8586,12 @@
         "departureTime": "13:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19017"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1258_33249",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33249",
     "trainNumber": "2537M",
     "trainType": "local",
     "direction": "outbound",
@@ -8632,18 +8637,19 @@
         "departureTime": "13:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33249"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_1259_35096",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35096",
     "trainNumber": "834M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -8666,19 +8672,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "35096",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_1158_35096",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-01_1301_40371",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40371",
     "trainNumber": "837M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "六日町",
     "cars": 4,
     "isHoliday": false,
@@ -8702,20 +8708,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "40371",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_1309_40371",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1305_34096",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "34096",
     "trainNumber": "56M",
     "trainType": "limitedExp",
     "trainName": "しらゆき6号",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-01",
+    "customOrigin": "新潟",
     "customDestination": "上越妙高",
     "cars": 4,
     "isHoliday": false,
@@ -8973,14 +8979,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34096",
-    "customOrigin": "新潟",
     "throughTripId": "WD_INB_ETM-10_1451_34096",
     "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_INB_SE-42_1308_19034",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19034",
     "trainNumber": "440M",
     "trainType": "local",
     "direction": "inbound",
@@ -9109,12 +9114,12 @@
         "departureTime": "14:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19034"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1316_19252",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19252",
     "trainNumber": "2539M",
     "trainType": "local",
     "direction": "outbound",
@@ -9159,12 +9164,12 @@
         "departureTime": "13:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19252"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1325_38937",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "38937",
     "trainNumber": "53M",
     "trainType": "limitedExp",
     "trainName": "しらゆき3号",
@@ -9172,6 +9177,7 @@
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
     "customOrigin": "上越妙高",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -9428,12 +9434,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38937",
-    "customDestination": "新潟"
+    "prevTripId": "WD_OUT_ETM-06_1309_38937",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_INB_SE-23_1327_18990",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18990",
     "trainNumber": "1336M",
     "trainType": "local",
     "direction": "inbound",
@@ -9514,18 +9521,19 @@
         "departureTime": "14:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18990"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_1327_11365",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11365",
     "trainNumber": "1735M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後湯沢",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -9541,13 +9549,12 @@
         "departureTime": "13:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11365",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1328_42189",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "42189",
     "trainNumber": "2542M",
     "trainType": "local",
     "direction": "inbound",
@@ -9593,12 +9600,12 @@
         "departureTime": "13:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42189"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_1339_33243",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33243",
     "trainNumber": "447M",
     "trainType": "local",
     "direction": "outbound",
@@ -9728,12 +9735,12 @@
         "departureTime": "15:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33243"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1348_19018",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19018",
     "trainNumber": "2544M",
     "trainType": "local",
     "direction": "inbound",
@@ -9778,12 +9785,12 @@
         "departureTime": "14:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19018"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1358_33253",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33253",
     "trainNumber": "2541M",
     "trainType": "local",
     "direction": "outbound",
@@ -9829,17 +9836,18 @@
         "departureTime": "14:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33253"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1405_33747",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33747",
     "trainNumber": "839M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
@@ -9863,14 +9871,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33747",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_1413_33747",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1408_19035",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19035",
     "trainNumber": "442M",
     "trainType": "local",
     "direction": "inbound",
@@ -9999,18 +10006,19 @@
         "departureTime": "15:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19035"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1412_32177",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32177",
     "trainNumber": "2237D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "五泉",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10051,19 +10059,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32177",
-    "customDestination": "新潟",
     "prevTripId": "WD_OUT_BW-38_1354_32177",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-01_1418_19232",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19232",
     "trainNumber": "1337M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10205,14 +10214,12 @@
         "departureTime": "15:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19232",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_INB_SE-23_1428_18999",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18999",
     "trainNumber": "1338M",
     "trainType": "local",
     "direction": "inbound",
@@ -10359,17 +10366,19 @@
         "departureTime": "16:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18999"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-12_1428_19243",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19243",
     "trainNumber": "1335M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-12",
     "destinationStationId": "SE-23",
+    "customOrigin": "柏崎",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10445,20 +10454,19 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19243",
-    "customDestination": "長岡",
-    "customOrigin": "柏崎"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_1428_11366",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11366",
     "trainNumber": "1737M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後湯沢",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10474,13 +10482,12 @@
         "departureTime": "14:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11366",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1428_19019",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19019",
     "trainNumber": "2546M",
     "trainType": "local",
     "direction": "inbound",
@@ -10525,12 +10532,12 @@
         "departureTime": "14:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19019"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_1438_19219",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19219",
     "trainNumber": "449M",
     "trainType": "local",
     "direction": "outbound",
@@ -10659,17 +10666,18 @@
         "departureTime": "15:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19219"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1448_31123",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "31123",
     "trainNumber": "2238D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-37",
+    "customOrigin": "新潟",
     "customDestination": "五泉",
     "cars": 4,
     "isHoliday": false,
@@ -10711,14 +10719,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "31123",
-    "customOrigin": "新潟",
     "throughTripId": "WD_INB_BW-42_1509_31123",
     "throughLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-37_1458_33250",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33250",
     "trainNumber": "2543M",
     "trainType": "local",
     "direction": "outbound",
@@ -10764,12 +10771,12 @@
         "departureTime": "15:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33250"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1508_19036",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19036",
     "trainNumber": "444M",
     "trainType": "local",
     "direction": "inbound",
@@ -10898,17 +10905,19 @@
         "departureTime": "16:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19036"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1511_19233",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19233",
     "trainNumber": "1339M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -11050,14 +11059,12 @@
         "departureTime": "16:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19233",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1515_19253",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19253",
     "trainNumber": "2545M",
     "trainType": "local",
     "direction": "outbound",
@@ -11102,18 +11109,19 @@
         "departureTime": "15:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19253"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_1528_11374",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11374",
     "trainNumber": "1739M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "水上",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -11129,13 +11137,12 @@
         "departureTime": "15:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11374",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1528_19020",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19020",
     "trainNumber": "2548M",
     "trainType": "local",
     "direction": "inbound",
@@ -11180,12 +11187,12 @@
         "departureTime": "15:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19020"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_1533_33252",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33252",
     "trainNumber": "451M",
     "trainType": "local",
     "direction": "outbound",
@@ -11315,12 +11322,12 @@
         "departureTime": "16:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33252"
+    ]
   },
   {
     "tripId": "WD_INB_SE-23_1544_19000",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19000",
     "trainNumber": "1340M",
     "trainType": "local",
     "direction": "inbound",
@@ -11467,12 +11474,12 @@
         "departureTime": "17:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19000"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1547_19021",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19021",
     "trainNumber": "2550M",
     "trainType": "local",
     "direction": "inbound",
@@ -11517,18 +11524,19 @@
         "departureTime": "16:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19021"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_1555_40356",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40356",
     "trainNumber": "838M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "六日町",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -11551,14 +11559,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40356",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_1450_40356",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-37_1555_19254",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19254",
     "trainNumber": "2547M",
     "trainType": "local",
     "direction": "outbound",
@@ -11603,12 +11610,12 @@
         "departureTime": "16:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19254"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_1557_11361",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11361",
     "trainNumber": "9783D",
     "trainType": "rapid",
     "trainName": "あかねShu＊Kura",
@@ -11616,6 +11623,7 @@
     "originStationId": "SE-22",
     "destinationStationId": "SE-42",
     "customOrigin": "越後湯沢",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -11745,18 +11753,18 @@
         "departureTime": "17:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11361",
-    "customDestination": "新潟"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1607_33752",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33752",
     "trainNumber": "843M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
@@ -11780,14 +11788,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33752",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_1614_33752",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1609_19037",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19037",
     "trainNumber": "446M",
     "trainType": "local",
     "direction": "inbound",
@@ -11916,12 +11923,12 @@
         "departureTime": "17:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19037"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1614_19255",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19255",
     "trainNumber": "2549M",
     "trainType": "local",
     "direction": "outbound",
@@ -11966,12 +11973,12 @@
         "departureTime": "16:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19255"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_1616_19220",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19220",
     "trainNumber": "453M",
     "trainType": "local",
     "direction": "outbound",
@@ -12100,18 +12107,19 @@
         "departureTime": "17:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19220"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1625_34097",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "34097",
     "trainNumber": "58M",
     "trainType": "limitedExp",
     "trainName": "しらゆき8号",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-01",
+    "customOrigin": "新潟",
     "customDestination": "新井",
     "cars": 4,
     "isHoliday": false,
@@ -12369,20 +12377,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "34097",
-    "customOrigin": "新潟",
     "throughTripId": "WD_INB_ETM-10_1809_34097",
     "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_OUT_SE-22_1626_11367",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11367",
     "trainNumber": "1741M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後湯沢",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -12398,13 +12406,12 @@
         "departureTime": "16:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11367",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1628_19022",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19022",
     "trainNumber": "2552M",
     "trainType": "local",
     "direction": "inbound",
@@ -12449,17 +12456,19 @@
         "departureTime": "16:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19022"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1629_19234",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19234",
     "trainNumber": "1341M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -12601,14 +12610,12 @@
         "departureTime": "18:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19234",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_INB_SE-23_1630_18988",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18988",
     "trainNumber": "3372M",
     "trainType": "rapid",
     "direction": "inbound",
@@ -12755,12 +12762,12 @@
         "departureTime": "17:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18988"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1639_40613",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40613",
     "trainNumber": "448M",
     "trainType": "local",
     "direction": "inbound",
@@ -12890,18 +12897,19 @@
         "departureTime": "17:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "40613"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_1647_40357",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40357",
     "trainNumber": "840M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "六日町",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -12924,14 +12932,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40357",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_1544_40357",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-23_1653_19001",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19001",
     "trainNumber": "1342M",
     "trainType": "local",
     "direction": "inbound",
@@ -13078,12 +13085,12 @@
         "departureTime": "18:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19001"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1653_19256",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19256",
     "trainNumber": "2551M",
     "trainType": "local",
     "direction": "outbound",
@@ -13128,12 +13135,12 @@
         "departureTime": "17:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19256"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_1702_33246",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33246",
     "trainNumber": "455M",
     "trainType": "local",
     "direction": "outbound",
@@ -13263,17 +13270,18 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33246"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1703_33753",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33753",
     "trainNumber": "845M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
@@ -13297,14 +13305,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33753",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_1710_33753",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1703_19006",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19006",
     "trainNumber": "3374M",
     "trainType": "rapid",
     "direction": "inbound",
@@ -13565,12 +13572,12 @@
         "departureTime": "19:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19006"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1707_19023",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19023",
     "trainNumber": "2554M",
     "trainType": "local",
     "direction": "inbound",
@@ -13615,12 +13622,12 @@
         "departureTime": "17:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19023"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1720_19038",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19038",
     "trainNumber": "450M",
     "trainType": "local",
     "direction": "inbound",
@@ -13749,18 +13756,19 @@
         "departureTime": "18:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19038"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_1724_11368",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11368",
     "trainNumber": "1743M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後湯沢",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -13776,13 +13784,12 @@
         "departureTime": "17:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11368",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1733_19257",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19257",
     "trainNumber": "2553M",
     "trainType": "local",
     "direction": "outbound",
@@ -13827,12 +13834,12 @@
         "departureTime": "17:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19257"
+    ]
   },
   {
     "tripId": "WD_INB_SE-23_1737_19002",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19002",
     "trainNumber": "1344M",
     "trainType": "local",
     "direction": "inbound",
@@ -13979,12 +13986,12 @@
         "departureTime": "19:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19002"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1737_19024",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19024",
     "trainNumber": "2556M",
     "trainType": "local",
     "direction": "inbound",
@@ -14029,12 +14036,12 @@
         "departureTime": "17:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19024"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1738_38938",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "38938",
     "trainNumber": "55M",
     "trainType": "limitedExp",
     "trainName": "しらゆき5号",
@@ -14042,6 +14049,7 @@
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
     "customOrigin": "上越妙高",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -14298,12 +14306,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38938",
-    "customDestination": "新潟"
+    "prevTripId": "WD_OUT_ETM-06_1723_38938",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_OUT_SE-23_1739_33247",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33247",
     "trainNumber": "457M",
     "trainType": "local",
     "direction": "outbound",
@@ -14433,17 +14442,19 @@
         "departureTime": "19:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33247"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1741_19235",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19235",
     "trainNumber": "1343M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -14585,20 +14596,19 @@
         "departureTime": "19:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19235",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_1743_40359",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40359",
     "trainNumber": "842M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "六日町",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -14621,14 +14631,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40359",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_1639_40359",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1753_19005",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19005",
     "trainNumber": "3482M",
     "trainType": "rapid",
     "direction": "inbound",
@@ -14757,17 +14766,18 @@
         "departureTime": "18:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19005"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1759_33754",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33754",
     "trainNumber": "847M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
@@ -14791,14 +14801,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33754",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_1806_33754",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_1805_19039",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19039",
     "trainNumber": "452M",
     "trainType": "local",
     "direction": "inbound",
@@ -14927,12 +14936,12 @@
         "departureTime": "19:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19039"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1818_29367",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "29367",
     "trainNumber": "2555M",
     "trainType": "local",
     "direction": "outbound",
@@ -14978,12 +14987,12 @@
         "departureTime": "18:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29367"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1818_19513",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19513",
     "trainNumber": "2558M",
     "trainType": "local",
     "direction": "inbound",
@@ -15029,18 +15038,19 @@
         "departureTime": "18:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19513"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_1832_11378",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11378",
     "trainNumber": "1745M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後中里",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -15056,13 +15066,12 @@
         "departureTime": "18:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11378",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1833_19040",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19040",
     "trainNumber": "454M",
     "trainType": "local",
     "direction": "inbound",
@@ -15191,17 +15200,19 @@
         "departureTime": "19:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19040"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1841_19226",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19226",
     "trainNumber": "3377M",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
+    "customOrigin": "直江津",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -15458,13 +15469,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "19226",
-    "customDestination": "新潟",
-    "customOrigin": "直江津"
+    "prevTripId": "WD_OUT_JOE-35_1945_19226",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-23_1846_18991",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18991",
     "trainNumber": "1346M",
     "trainType": "local",
     "direction": "inbound",
@@ -15545,12 +15556,12 @@
         "departureTime": "19:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18991"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_1846_19221",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19221",
     "trainNumber": "459M",
     "trainType": "local",
     "direction": "outbound",
@@ -15679,12 +15690,12 @@
         "departureTime": "19:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19221"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1853_42191",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "42191",
     "trainNumber": "2560M",
     "trainType": "local",
     "direction": "inbound",
@@ -15730,12 +15741,12 @@
         "departureTime": "19:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42191"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1857_19258",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19258",
     "trainNumber": "2557M",
     "trainType": "local",
     "direction": "outbound",
@@ -15780,12 +15791,12 @@
         "departureTime": "19:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19258"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1907_19041",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19041",
     "trainNumber": "456M",
     "trainType": "local",
     "direction": "inbound",
@@ -15914,12 +15925,12 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19041"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_1918_19259",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19259",
     "trainNumber": "2559M",
     "trainType": "local",
     "direction": "outbound",
@@ -15964,17 +15975,19 @@
         "departureTime": "19:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19259"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1921_19236",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19236",
     "trainNumber": "1345M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -16116,14 +16129,12 @@
         "departureTime": "20:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19236",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_1926_19042",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19042",
     "trainNumber": "458M",
     "trainType": "local",
     "direction": "inbound",
@@ -16252,18 +16263,19 @@
         "departureTime": "20:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19042"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_1927_35097",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35097",
     "trainNumber": "846M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -16286,14 +16298,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35097",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_1826_35097",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-23_1927_19222",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19222",
     "trainNumber": "461M",
     "trainType": "local",
     "direction": "outbound",
@@ -16422,12 +16433,12 @@
         "departureTime": "20:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19222"
+    ]
   },
   {
     "tripId": "WD_INB_SE-23_1928_19003",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19003",
     "trainNumber": "1348M",
     "trainType": "local",
     "direction": "inbound",
@@ -16574,12 +16585,12 @@
         "departureTime": "20:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19003"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1941_38935",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "38935",
     "trainNumber": "57M",
     "trainType": "limitedExp",
     "trainName": "しらゆき7号",
@@ -16587,6 +16598,7 @@
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
     "customOrigin": "新井",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -16843,12 +16855,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38935",
-    "customDestination": "新潟"
+    "prevTripId": "WD_OUT_ETM-04_1918_38935",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "WD_INB_SE-42_1947_19025",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19025",
     "trainNumber": "2562M",
     "trainType": "local",
     "direction": "inbound",
@@ -16893,17 +16906,18 @@
         "departureTime": "20:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19025"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_1948_33755",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33755",
     "trainNumber": "851M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": false,
@@ -16927,14 +16941,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33755",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_1955_33755",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-37_1957_19260",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19260",
     "trainNumber": "2561D",
     "trainType": "local",
     "direction": "outbound",
@@ -16979,18 +16992,19 @@
         "departureTime": "20:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19260"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_2006_11375",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11375",
     "trainNumber": "1747M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "水上",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -17006,18 +17020,18 @@
         "departureTime": "20:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11375",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_2006_31126",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "31126",
     "trainNumber": "240D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-37",
+    "customOrigin": "新潟",
     "customDestination": "会津若松",
     "cars": 4,
     "isHoliday": false,
@@ -17059,14 +17073,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "31126",
-    "customOrigin": "新潟",
     "throughTripId": "WD_INB_BW-42_2027_31126",
     "throughLineId": "banetsu_west"
   },
   {
     "tripId": "WD_OUT_SE-23_2011_19223",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19223",
     "trainNumber": "463M",
     "trainType": "local",
     "direction": "outbound",
@@ -17195,18 +17208,19 @@
         "departureTime": "21:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19223"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_2015_40358",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40358",
     "trainNumber": "848M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "六日町",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -17229,14 +17243,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40358",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_1918_40358",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-23_2023_18992",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18992",
     "trainNumber": "1350M",
     "trainType": "local",
     "direction": "inbound",
@@ -17317,17 +17330,19 @@
         "departureTime": "21:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18992"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_2025_19238",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19238",
     "trainNumber": "1347M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
+    "customOrigin": "直江津",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -17584,13 +17599,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "19238",
-    "customDestination": "新潟",
-    "customOrigin": "直江津"
+    "prevTripId": "WD_OUT_JOE-35_2150_19238",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_SE-42_2025_19043",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19043",
     "trainNumber": "460M",
     "trainType": "local",
     "direction": "inbound",
@@ -17719,17 +17734,18 @@
         "departureTime": "21:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19043"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_2044_40372",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40372",
     "trainNumber": "853M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "六日町",
     "cars": 4,
     "isHoliday": false,
@@ -17753,14 +17769,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40372",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_2051_40372",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-42_2046_19026",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19026",
     "trainNumber": "2564D",
     "trainType": "local",
     "direction": "inbound",
@@ -17805,12 +17820,12 @@
         "departureTime": "21:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19026"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-37_2051_19261",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19261",
     "trainNumber": "2563M",
     "trainType": "local",
     "direction": "outbound",
@@ -17855,12 +17870,12 @@
         "departureTime": "21:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19261"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_2058_19224",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19224",
     "trainNumber": "465M",
     "trainType": "local",
     "direction": "outbound",
@@ -17989,12 +18004,12 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19224"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_2117_19044",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19044",
     "trainNumber": "462M",
     "trainType": "local",
     "direction": "inbound",
@@ -18123,12 +18138,12 @@
         "departureTime": "22:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19044"
+    ]
   },
   {
     "tripId": "WD_INB_SE-23_2120_18989",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18989",
     "trainNumber": "3376M",
     "trainType": "rapid",
     "direction": "inbound",
@@ -18275,18 +18290,19 @@
         "departureTime": "22:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18989"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_2130_35093",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35093",
     "trainNumber": "850M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -18309,19 +18325,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "35093",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_2026_35093",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-01_2131_19237",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19237",
     "trainNumber": "1349M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -18463,14 +18480,12 @@
         "departureTime": "22:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19237",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_2140_19027",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19027",
     "trainNumber": "2566M",
     "trainType": "local",
     "direction": "inbound",
@@ -18515,18 +18530,19 @@
         "departureTime": "22:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19027"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_2143_11379",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11379",
     "trainNumber": "1749M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後中里",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -18542,13 +18558,12 @@
         "departureTime": "21:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11379",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_2200_42190",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "42190",
     "trainNumber": "464M",
     "trainType": "local",
     "direction": "inbound",
@@ -18678,12 +18693,12 @@
         "departureTime": "23:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42190"
+    ]
   },
   {
     "tripId": "WD_INB_SE-23_2215_19004",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19004",
     "trainNumber": "1352M",
     "trainType": "local",
     "direction": "inbound",
@@ -18830,17 +18845,18 @@
         "departureTime": "23:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19004"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-01_2219_40373",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40373",
     "trainNumber": "855M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "六日町",
     "cars": 4,
     "isHoliday": false,
@@ -18864,20 +18880,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "40373",
-    "customOrigin": "直江津",
     "throughTripId": "WD_INB_HK-12_2227_40373",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "WD_INB_SE-03_2221_35094",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35094",
     "trainNumber": "852M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -18900,14 +18916,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35094",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_2119_35094",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "WD_OUT_SE-37_2223_19262",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19262",
     "trainNumber": "2565M",
     "trainType": "local",
     "direction": "outbound",
@@ -18952,12 +18967,12 @@
         "departureTime": "22:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19262"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_2224_19028",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19028",
     "trainNumber": "2568D",
     "trainType": "local",
     "direction": "inbound",
@@ -19002,18 +19017,19 @@
         "departureTime": "22:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19028"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-22_2248_11370",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11370",
     "trainNumber": "1751M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "水上",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -19029,13 +19045,12 @@
         "departureTime": "22:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11370",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_2249_19045",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19045",
     "trainNumber": "466M",
     "trainType": "local",
     "direction": "inbound",
@@ -19164,12 +19179,12 @@
         "departureTime": "00:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19045"
+    ]
   },
   {
     "tripId": "WD_INB_SE-23_2308_18993",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18993",
     "trainNumber": "1354M",
     "trainType": "local",
     "direction": "inbound",
@@ -19250,12 +19265,12 @@
         "departureTime": "23:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18993"
+    ]
   },
   {
     "tripId": "WD_OUT_SE-23_2308_19225",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19225",
     "trainNumber": "467M",
     "trainType": "local",
     "direction": "outbound",
@@ -19384,12 +19399,12 @@
         "departureTime": "00:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19225"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_2321_19046",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19046",
     "trainNumber": "468M",
     "trainType": "local",
     "direction": "inbound",
@@ -19518,12 +19533,12 @@
         "departureTime": "00:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19046"
+    ]
   },
   {
     "tripId": "WD_INB_SE-42_2339_40612",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40612",
     "trainNumber": "2570M",
     "trainType": "local",
     "direction": "inbound",
@@ -19569,18 +19584,19 @@
         "departureTime": "00:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "40612"
+    ]
   },
   {
     "tripId": "WD_INB_SE-03_2347_35095",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35095",
     "trainNumber": "854M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -19603,14 +19619,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35095",
-    "customDestination": "直江津",
     "prevTripId": "WD_OUT_HK-01_2249_35095",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_0514_19047",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19047",
     "trainNumber": "1324M",
     "trainType": "local",
     "direction": "inbound",
@@ -19871,17 +19886,18 @@
         "departureTime": "08:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19047"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_0528_33744",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33744",
     "trainNumber": "821M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
@@ -19905,20 +19921,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "33744",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_0538_33744",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-37_0532_32176",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32176",
     "trainNumber": "2221D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "五泉",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -19959,14 +19975,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32176",
-    "customDestination": "新潟",
     "prevTripId": "HD_OUT_BW-38_0514_32176",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-23_0536_33244",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33244",
     "trainNumber": "421M",
     "trainType": "local",
     "direction": "outbound",
@@ -20096,17 +20111,19 @@
         "departureTime": "07:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33244"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-12_0537_19242",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19242",
     "trainNumber": "1321M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-12",
     "destinationStationId": "SE-23",
+    "customOrigin": "柏崎",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -20182,14 +20199,12 @@
         "departureTime": "06:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19242",
-    "customDestination": "長岡",
-    "customOrigin": "柏崎"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_0604_19029",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19029",
     "trainNumber": "422M",
     "trainType": "local",
     "direction": "inbound",
@@ -20318,17 +20333,19 @@
         "departureTime": "07:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19029"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_0610_19239",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19239",
     "trainNumber": "3371M",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -20470,14 +20487,12 @@
         "departureTime": "07:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19239",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_0611_19212",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19212",
     "trainNumber": "423M",
     "trainType": "local",
     "direction": "outbound",
@@ -20606,12 +20621,12 @@
         "departureTime": "07:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19212"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_0611_19245",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19245",
     "trainNumber": "2521D",
     "trainType": "local",
     "direction": "outbound",
@@ -20656,12 +20671,12 @@
         "departureTime": "06:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19245"
+    ]
   },
   {
     "tripId": "HD_INB_SE-07_0619_19048",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19048",
     "trainNumber": "1320M",
     "trainType": "local",
     "direction": "inbound",
@@ -20712,17 +20727,18 @@
         "departureTime": "06:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19048"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_0626_31125",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "31125",
     "trainNumber": "2226D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-37",
+    "customOrigin": "新潟",
     "customDestination": "津川",
     "cars": 4,
     "isHoliday": true,
@@ -20764,19 +20780,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "31125",
-    "customOrigin": "新潟",
     "throughTripId": "HD_INB_BW-42_0659_31125",
     "throughLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-01_0630_19227",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19227",
     "trainNumber": "1325M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -20918,14 +20935,12 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19227",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_0630_19213",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19213",
     "trainNumber": "425M",
     "trainType": "local",
     "direction": "outbound",
@@ -21054,18 +21069,19 @@
         "departureTime": "07:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19213"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_0639_29359",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "29359",
     "trainNumber": "1121D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "十日町",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21081,13 +21097,12 @@
         "departureTime": "06:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29359",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_0645_19030",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19030",
     "trainNumber": "424M",
     "trainType": "local",
     "direction": "inbound",
@@ -21216,18 +21231,19 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19030"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_0650_32173",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32173",
     "trainNumber": "2223D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "野沢",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21268,14 +21284,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32173",
-    "customDestination": "新潟",
     "prevTripId": "HD_OUT_BW-25_0517_32173",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-23_0651_33242",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33242",
     "trainNumber": "427M",
     "trainType": "local",
     "direction": "outbound",
@@ -21405,17 +21420,18 @@
         "departureTime": "08:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33242"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_0652_33745",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33745",
     "trainNumber": "825M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
@@ -21439,14 +21455,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33745",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_0702_33745",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_0653_19007",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19007",
     "trainNumber": "2520M",
     "trainType": "local",
     "direction": "inbound",
@@ -21491,17 +21506,19 @@
         "departureTime": "07:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19007"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-12_0656_19244",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19244",
     "trainNumber": "1323M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-12",
     "destinationStationId": "SE-42",
+    "customOrigin": "柏崎",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21692,18 +21709,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "19244",
-    "customDestination": "新潟",
-    "customOrigin": "柏崎"
+    "prevTripId": "HD_OUT_JOE-35_0736_19244",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-12_0658_34099",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "34099",
     "trainNumber": "1322M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-12",
     "destinationStationId": "SE-01",
+    "customOrigin": "柏崎",
     "customDestination": "妙高高原",
     "cars": 4,
     "isHoliday": true,
@@ -21781,14 +21799,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34099",
-    "customOrigin": "柏崎",
     "throughTripId": "HD_INB_ETM-10_0744_34099",
     "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_INB_SE-42_0706_19511",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19511",
     "trainNumber": "426M",
     "trainType": "local",
     "direction": "inbound",
@@ -21918,12 +21935,12 @@
         "departureTime": "08:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19511"
+    ]
   },
   {
     "tripId": "HD_INB_SE-23_0708_18994",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18994",
     "trainNumber": "1326M",
     "trainType": "local",
     "direction": "inbound",
@@ -22070,12 +22087,12 @@
         "departureTime": "08:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18994"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_0708_19214",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19214",
     "trainNumber": "429M",
     "trainType": "local",
     "direction": "outbound",
@@ -22204,17 +22221,19 @@
         "departureTime": "08:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19214"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_0709_19240",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19240",
     "trainNumber": "3373M",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -22356,20 +22375,19 @@
         "departureTime": "08:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19240",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_0714_29358",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "29358",
     "trainNumber": "1123D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "森宮野原",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -22385,18 +22403,18 @@
         "departureTime": "07:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29358",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_0716_31122",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "31122",
     "trainNumber": "2228D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-37",
+    "customOrigin": "新潟",
     "customDestination": "五泉",
     "cars": 4,
     "isHoliday": true,
@@ -22438,14 +22456,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "31122",
-    "customOrigin": "新潟",
     "throughTripId": "HD_INB_BW-42_0740_31122",
     "throughLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-23_0727_29366",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "29366",
     "trainNumber": "431M",
     "trainType": "local",
     "direction": "outbound",
@@ -22575,18 +22592,19 @@
         "departureTime": "08:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29366"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_0728_11362",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11362",
     "trainNumber": "1721M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-42",
     "customOrigin": "石打",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -22716,13 +22734,12 @@
         "departureTime": "08:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11362",
-    "customDestination": "新潟"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_0731_19246",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19246",
     "trainNumber": "2523M",
     "trainType": "local",
     "direction": "outbound",
@@ -22767,18 +22784,19 @@
         "departureTime": "07:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19246"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_0735_34095",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "34095",
     "trainNumber": "52M",
     "trainType": "limitedExp",
     "trainName": "しらゆき2号",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-01",
+    "customOrigin": "新潟",
     "customDestination": "新井",
     "cars": 4,
     "isHoliday": true,
@@ -23036,20 +23054,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "34095",
-    "customOrigin": "新潟",
     "throughTripId": "HD_INB_ETM-10_0925_34095",
     "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_OUT_SE-37_0737_32174",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32174",
     "trainNumber": "2227D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "馬下",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23090,14 +23108,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32174",
-    "customDestination": "新潟",
     "prevTripId": "HD_OUT_BW-36_0709_32174",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "HD_INB_SE-42_0741_19031",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19031",
     "trainNumber": "428M",
     "trainType": "local",
     "direction": "inbound",
@@ -23226,18 +23243,19 @@
         "departureTime": "08:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19031"
+    ]
   },
   {
     "tripId": "HD_INB_SE-03_0747_40354",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40354",
     "trainNumber": "824M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "六日町",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23260,19 +23278,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "40354",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_0642_40354",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-01_0748_19228",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19228",
     "trainNumber": "1327M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23414,20 +23433,19 @@
         "departureTime": "09:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19228",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_0751_11363",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11363",
     "trainNumber": "1723M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後湯沢",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23443,13 +23461,12 @@
         "departureTime": "07:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11363",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_0753_19247",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19247",
     "trainNumber": "2525M",
     "trainType": "local",
     "direction": "outbound",
@@ -23494,18 +23511,19 @@
         "departureTime": "08:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19247"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_0800_32172",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32172",
     "trainNumber": "221D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "会津若松",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23546,14 +23564,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32172",
-    "customDestination": "新潟",
     "prevTripId": "HD_OUT_BW-15_0528_32172",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "HD_INB_SE-23_0806_18995",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18995",
     "trainNumber": "1328M",
     "trainType": "local",
     "direction": "inbound",
@@ -23700,17 +23717,18 @@
         "departureTime": "09:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18995"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_0812_40370",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40370",
     "trainNumber": "829M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "六日町",
     "cars": 4,
     "isHoliday": true,
@@ -23734,14 +23752,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40370",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_0819_40370",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-23_0815_19215",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19215",
     "trainNumber": "435M",
     "trainType": "local",
     "direction": "outbound",
@@ -23870,12 +23887,12 @@
         "departureTime": "09:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19215"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_0815_19510",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19510",
     "trainNumber": "430M",
     "trainType": "local",
     "direction": "inbound",
@@ -23945,18 +23962,19 @@
         "departureTime": "08:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19510"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_0822_11376",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11376",
     "trainNumber": "1725M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後中里",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23972,18 +23990,18 @@
         "departureTime": "08:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11376",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_0829_31124",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "31124",
     "trainNumber": "2230D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-37",
+    "customOrigin": "新潟",
     "customDestination": "馬下",
     "cars": 4,
     "isHoliday": true,
@@ -24025,20 +24043,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "31124",
-    "customOrigin": "新潟",
     "throughTripId": "HD_INB_BW-42_0851_31124",
     "throughLineId": "banetsu_west"
   },
   {
     "tripId": "HD_INB_SE-03_0833_40355",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40355",
     "trainNumber": "826M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "六日町",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -24061,14 +24079,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40355",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_0733_40355",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_0835_19009",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19009",
     "trainNumber": "2524M",
     "trainType": "local",
     "direction": "inbound",
@@ -24113,12 +24130,12 @@
         "departureTime": "08:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19009"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_0855_19512",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19512",
     "trainNumber": "432M",
     "trainType": "local",
     "direction": "inbound",
@@ -24248,18 +24265,19 @@
         "departureTime": "10:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19512"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_0857_32178",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32178",
     "trainNumber": "2229D",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "五泉",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -24300,19 +24318,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "32178",
-    "customDestination": "新潟",
     "prevTripId": "HD_OUT_BW-38_0832_32178",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-01_0903_33749",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33749",
     "trainNumber": "831M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
@@ -24336,14 +24354,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33749",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_0911_33749",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-23_0906_33245",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33245",
     "trainNumber": "439M",
     "trainType": "local",
     "direction": "outbound",
@@ -24473,12 +24490,12 @@
         "departureTime": "10:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33245"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-33_0913_33251",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33251",
     "trainNumber": "437M",
     "trainType": "local",
     "direction": "outbound",
@@ -24548,18 +24565,19 @@
         "departureTime": "10:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33251"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_0915_11377",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11377",
     "trainNumber": "1727M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後中里",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -24575,13 +24593,12 @@
         "departureTime": "09:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11377",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_0920_19010",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19010",
     "trainNumber": "2526D",
     "trainType": "local",
     "direction": "inbound",
@@ -24626,17 +24643,19 @@
         "departureTime": "09:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19010"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_0922_19241",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19241",
     "trainNumber": "3375M",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -24778,14 +24797,12 @@
         "departureTime": "10:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19241",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_0940_19011",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19011",
     "trainNumber": "2528M",
     "trainType": "local",
     "direction": "inbound",
@@ -24830,18 +24847,19 @@
         "departureTime": "09:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19011"
+    ]
   },
   {
     "tripId": "HD_INB_SE-03_0943_35091",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35091",
     "trainNumber": "828M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -24864,19 +24882,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "35091",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_0843_35091",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-01_0951_19229",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19229",
     "trainNumber": "1329M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -25018,19 +25037,18 @@
         "departureTime": "11:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19229",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_0956_33750",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33750",
     "trainNumber": "833M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
@@ -25054,14 +25072,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33750",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_1004_33750",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-23_0957_18996",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18996",
     "trainNumber": "1330M",
     "trainType": "local",
     "direction": "inbound",
@@ -25208,12 +25225,12 @@
         "departureTime": "11:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18996"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1008_19514",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19514",
     "trainNumber": "434M",
     "trainType": "local",
     "direction": "inbound",
@@ -25343,18 +25360,19 @@
         "departureTime": "11:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19514"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_1014_11371",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11371",
     "trainNumber": "1729M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "水上",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -25370,13 +25388,12 @@
         "departureTime": "10:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11371",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1018_38939",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "38939",
     "trainNumber": "8361D",
     "trainType": "rapid",
     "trainName": "柳都Shu＊Kura",
@@ -25384,6 +25401,7 @@
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
     "customOrigin": "上越妙高",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -25640,20 +25658,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "38939",
-    "customDestination": "新潟",
-    "prevTripId": "HD_OUT_ETM-06_1002_38939",
-    "prevLineId": "myoko_haneuma"
+    "prevTripId": "HD_OUT_JOE-35_1127_38939",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_1023_34094",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "34094",
     "trainNumber": "54M",
     "trainType": "limitedExp",
     "trainName": "しらゆき4号",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-01",
+    "customOrigin": "新潟",
     "customDestination": "上越妙高",
     "cars": 4,
     "isHoliday": true,
@@ -25911,14 +25929,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34094",
-    "customOrigin": "新潟",
     "throughTripId": "HD_INB_ETM-10_1211_34094",
     "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_OUT_SE-37_1026_19248",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19248",
     "trainNumber": "2527M",
     "trainType": "local",
     "direction": "outbound",
@@ -25963,12 +25980,12 @@
         "departureTime": "10:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19248"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1028_19012",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19012",
     "trainNumber": "2530M",
     "trainType": "local",
     "direction": "inbound",
@@ -26013,12 +26030,12 @@
         "departureTime": "10:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19012"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_1029_19211",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19211",
     "trainNumber": "3481M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -26147,18 +26164,19 @@
         "departureTime": "11:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19211"
+    ]
   },
   {
     "tripId": "HD_INB_SE-03_1036_35092",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35092",
     "trainNumber": "830M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -26181,14 +26199,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35092",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_0936_35092",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-23_1038_19216",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19216",
     "trainNumber": "441M",
     "trainType": "local",
     "direction": "outbound",
@@ -26317,12 +26334,12 @@
         "departureTime": "11:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19216"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1048_38936",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "38936",
     "trainNumber": "51M",
     "trainType": "limitedExp",
     "trainName": "しらゆき1号",
@@ -26330,6 +26347,7 @@
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
     "customOrigin": "新井",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -26586,12 +26604,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38936",
-    "customDestination": "新潟"
+    "prevTripId": "HD_OUT_ETM-04_1023_38936",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_INB_SE-42_1048_19013",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19013",
     "trainNumber": "2532M",
     "trainType": "local",
     "direction": "inbound",
@@ -26636,12 +26655,12 @@
         "departureTime": "11:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19013"
+    ]
   },
   {
     "tripId": "HD_INB_SE-23_1054_18997",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18997",
     "trainNumber": "1332M",
     "trainType": "local",
     "direction": "inbound",
@@ -26788,12 +26807,12 @@
         "departureTime": "12:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18997"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1056_19249",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19249",
     "trainNumber": "2529M",
     "trainType": "local",
     "direction": "outbound",
@@ -26838,17 +26857,19 @@
         "departureTime": "11:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19249"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1101_19230",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19230",
     "trainNumber": "1331M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -26990,14 +27011,12 @@
         "departureTime": "12:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19230",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1108_19032",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19032",
     "trainNumber": "436M",
     "trainType": "local",
     "direction": "inbound",
@@ -27126,12 +27145,12 @@
         "departureTime": "12:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19032"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1119_33248",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33248",
     "trainNumber": "2531M",
     "trainType": "local",
     "direction": "outbound",
@@ -27177,17 +27196,18 @@
         "departureTime": "11:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33248"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1121_33746",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33746",
     "trainNumber": "835M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
@@ -27211,14 +27231,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33746",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_1130_33746",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1128_19014",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19014",
     "trainNumber": "2534M",
     "trainType": "local",
     "direction": "inbound",
@@ -27263,18 +27282,19 @@
         "departureTime": "11:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19014"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_1143_11372",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11372",
     "trainNumber": "1731M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "水上",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -27290,13 +27310,12 @@
         "departureTime": "11:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11372",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_1143_19217",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19217",
     "trainNumber": "443M",
     "trainType": "local",
     "direction": "outbound",
@@ -27425,12 +27444,12 @@
         "departureTime": "12:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19217"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1148_19015",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19015",
     "trainNumber": "2536M",
     "trainType": "local",
     "direction": "inbound",
@@ -27475,12 +27494,12 @@
         "departureTime": "12:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19015"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1155_19250",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19250",
     "trainNumber": "2533M",
     "trainType": "local",
     "direction": "outbound",
@@ -27525,12 +27544,12 @@
         "departureTime": "12:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19250"
+    ]
   },
   {
     "tripId": "HD_INB_SE-23_1201_18998",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18998",
     "trainNumber": "1334M",
     "trainType": "local",
     "direction": "inbound",
@@ -27677,12 +27696,12 @@
         "departureTime": "13:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18998"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1208_19033",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19033",
     "trainNumber": "438M",
     "trainType": "local",
     "direction": "inbound",
@@ -27811,18 +27830,19 @@
         "departureTime": "13:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19033"
+    ]
   },
   {
     "tripId": "HD_INB_SE-03_1211_35098",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35098",
     "trainNumber": "832M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -27845,14 +27865,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35098",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_1102_35098",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-37_1221_19251",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19251",
     "trainNumber": "2535M",
     "trainType": "local",
     "direction": "outbound",
@@ -27897,17 +27916,19 @@
         "departureTime": "12:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19251"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1226_19231",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19231",
     "trainNumber": "1333M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -28049,14 +28070,12 @@
         "departureTime": "13:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19231",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1228_19016",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19016",
     "trainNumber": "2538M",
     "trainType": "local",
     "direction": "inbound",
@@ -28101,18 +28120,19 @@
         "departureTime": "12:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19016"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_1233_11364",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11364",
     "trainNumber": "8733M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後湯沢",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -28128,13 +28148,12 @@
         "departureTime": "12:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11364",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_1240_19218",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19218",
     "trainNumber": "445M",
     "trainType": "local",
     "direction": "outbound",
@@ -28263,12 +28282,12 @@
         "departureTime": "13:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19218"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1248_19017",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19017",
     "trainNumber": "2540M",
     "trainType": "local",
     "direction": "inbound",
@@ -28313,12 +28332,12 @@
         "departureTime": "13:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19017"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1258_33249",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33249",
     "trainNumber": "2537M",
     "trainType": "local",
     "direction": "outbound",
@@ -28364,18 +28383,19 @@
         "departureTime": "13:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33249"
+    ]
   },
   {
     "tripId": "HD_INB_SE-03_1259_35096",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35096",
     "trainNumber": "834M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -28398,14 +28418,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35096",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_1158_35096",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-01_1301_40371",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40371",
     "trainNumber": "837M",
     "trainType": "local",
     "direction": "outbound",
@@ -28433,18 +28452,19 @@
         "departureTime": "13:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "40371"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1305_34096",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "34096",
     "trainNumber": "56M",
     "trainType": "limitedExp",
     "trainName": "しらゆき6号",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-01",
+    "customOrigin": "新潟",
     "customDestination": "上越妙高",
     "cars": 4,
     "isHoliday": true,
@@ -28702,14 +28722,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34096",
-    "customOrigin": "新潟",
     "throughTripId": "HD_INB_ETM-10_1451_34096",
     "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_INB_SE-42_1308_19034",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19034",
     "trainNumber": "440M",
     "trainType": "local",
     "direction": "inbound",
@@ -28838,12 +28857,12 @@
         "departureTime": "14:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19034"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1316_19252",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19252",
     "trainNumber": "2539M",
     "trainType": "local",
     "direction": "outbound",
@@ -28888,12 +28907,12 @@
         "departureTime": "13:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19252"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1325_38937",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "38937",
     "trainNumber": "53M",
     "trainType": "limitedExp",
     "trainName": "しらゆき3号",
@@ -28901,6 +28920,7 @@
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
     "customOrigin": "上越妙高",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -29157,12 +29177,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38937",
-    "customDestination": "新潟"
+    "prevTripId": "HD_OUT_ETM-06_1309_38937",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_INB_SE-23_1327_18990",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18990",
     "trainNumber": "1336M",
     "trainType": "local",
     "direction": "inbound",
@@ -29243,18 +29264,19 @@
         "departureTime": "14:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18990"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_1327_11365",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11365",
     "trainNumber": "1735M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後湯沢",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -29270,13 +29292,12 @@
         "departureTime": "13:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11365",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1328_42189",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "42189",
     "trainNumber": "2542M",
     "trainType": "local",
     "direction": "inbound",
@@ -29322,12 +29343,12 @@
         "departureTime": "13:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42189"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_1339_33243",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33243",
     "trainNumber": "447M",
     "trainType": "local",
     "direction": "outbound",
@@ -29457,12 +29478,12 @@
         "departureTime": "15:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33243"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1348_19018",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19018",
     "trainNumber": "2544M",
     "trainType": "local",
     "direction": "inbound",
@@ -29507,12 +29528,12 @@
         "departureTime": "14:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19018"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1358_33253",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33253",
     "trainNumber": "2541M",
     "trainType": "local",
     "direction": "outbound",
@@ -29558,17 +29579,18 @@
         "departureTime": "14:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33253"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1405_33747",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33747",
     "trainNumber": "839M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
@@ -29592,14 +29614,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33747",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_1413_33747",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1408_19035",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19035",
     "trainNumber": "442M",
     "trainType": "local",
     "direction": "inbound",
@@ -29728,18 +29749,19 @@
         "departureTime": "15:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19035"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1412_32177",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "32177",
     "trainNumber": "2237D",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-37",
     "destinationStationId": "SE-42",
     "customOrigin": "五泉",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -29780,19 +29802,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32177",
-    "customDestination": "新潟",
     "prevTripId": "HD_OUT_BW-38_1354_32177",
     "prevLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-01_1418_19232",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19232",
     "trainNumber": "1337M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -29934,14 +29957,12 @@
         "departureTime": "15:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19232",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_INB_SE-23_1428_18999",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18999",
     "trainNumber": "1338M",
     "trainType": "local",
     "direction": "inbound",
@@ -30088,17 +30109,19 @@
         "departureTime": "16:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18999"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-12_1428_19243",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19243",
     "trainNumber": "1335M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-12",
     "destinationStationId": "SE-23",
+    "customOrigin": "柏崎",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -30174,20 +30197,19 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19243",
-    "customDestination": "長岡",
-    "customOrigin": "柏崎"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_1428_11366",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11366",
     "trainNumber": "1737M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後湯沢",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -30203,13 +30225,12 @@
         "departureTime": "14:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11366",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1428_19019",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19019",
     "trainNumber": "2546M",
     "trainType": "local",
     "direction": "inbound",
@@ -30254,12 +30275,12 @@
         "departureTime": "14:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19019"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_1438_19219",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19219",
     "trainNumber": "449M",
     "trainType": "local",
     "direction": "outbound",
@@ -30388,17 +30409,18 @@
         "departureTime": "15:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19219"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1448_31123",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "31123",
     "trainNumber": "2238D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-37",
+    "customOrigin": "新潟",
     "customDestination": "五泉",
     "cars": 4,
     "isHoliday": true,
@@ -30440,20 +30462,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "31123",
-    "customOrigin": "新潟",
     "throughTripId": "HD_INB_BW-42_1509_31123",
     "throughLineId": "banetsu_west"
   },
   {
     "tripId": "HD_INB_SE-03_1449_35099",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35099",
     "trainNumber": "8836M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -30476,14 +30498,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35099",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_1343_35099",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-37_1458_33250",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33250",
     "trainNumber": "2543M",
     "trainType": "local",
     "direction": "outbound",
@@ -30529,12 +30550,12 @@
         "departureTime": "15:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33250"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1459_34098",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "34098",
     "trainNumber": "8366D",
     "trainType": "rapid",
     "trainName": "柳都Shu＊Kura",
@@ -30797,17 +30818,18 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "34098"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1507_33748",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33748",
     "trainNumber": "8839M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
@@ -30831,14 +30853,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33748",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_1522_33748",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1508_19036",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19036",
     "trainNumber": "444M",
     "trainType": "local",
     "direction": "inbound",
@@ -30967,17 +30988,19 @@
         "departureTime": "16:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19036"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1511_19233",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19233",
     "trainNumber": "1339M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -31119,14 +31142,12 @@
         "departureTime": "16:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19233",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1515_19253",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19253",
     "trainNumber": "2545M",
     "trainType": "local",
     "direction": "outbound",
@@ -31171,18 +31192,19 @@
         "departureTime": "15:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19253"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_1528_11374",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11374",
     "trainNumber": "1739M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "水上",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -31198,13 +31220,12 @@
         "departureTime": "15:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11374",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1528_19020",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19020",
     "trainNumber": "2548M",
     "trainType": "local",
     "direction": "inbound",
@@ -31249,12 +31270,12 @@
         "departureTime": "15:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19020"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_1533_33252",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33252",
     "trainNumber": "451M",
     "trainType": "local",
     "direction": "outbound",
@@ -31384,12 +31405,12 @@
         "departureTime": "16:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33252"
+    ]
   },
   {
     "tripId": "HD_INB_SE-23_1544_19000",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19000",
     "trainNumber": "1340M",
     "trainType": "local",
     "direction": "inbound",
@@ -31536,12 +31557,12 @@
         "departureTime": "17:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19000"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1547_19021",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19021",
     "trainNumber": "2550M",
     "trainType": "local",
     "direction": "inbound",
@@ -31586,18 +31607,19 @@
         "departureTime": "16:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19021"
+    ]
   },
   {
     "tripId": "HD_INB_SE-03_1555_40356",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40356",
     "trainNumber": "838M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "六日町",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -31620,14 +31642,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40356",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_1450_40356",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-37_1555_19254",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19254",
     "trainNumber": "2547M",
     "trainType": "local",
     "direction": "outbound",
@@ -31672,12 +31693,12 @@
         "departureTime": "16:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19254"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_1557_11361",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11361",
     "trainNumber": "9783D",
     "trainType": "rapid",
     "trainName": "あかねShu＊Kura",
@@ -31685,6 +31706,7 @@
     "originStationId": "SE-22",
     "destinationStationId": "SE-42",
     "customOrigin": "越後湯沢",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -31814,18 +31836,18 @@
         "departureTime": "17:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11361",
-    "customDestination": "新潟"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1607_33752",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33752",
     "trainNumber": "843M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
@@ -31849,14 +31871,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33752",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_1614_33752",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1609_19037",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19037",
     "trainNumber": "446M",
     "trainType": "local",
     "direction": "inbound",
@@ -31985,12 +32006,12 @@
         "departureTime": "17:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19037"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1614_19255",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19255",
     "trainNumber": "2549M",
     "trainType": "local",
     "direction": "outbound",
@@ -32035,12 +32056,12 @@
         "departureTime": "16:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19255"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_1616_19220",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19220",
     "trainNumber": "453M",
     "trainType": "local",
     "direction": "outbound",
@@ -32169,18 +32190,19 @@
         "departureTime": "17:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19220"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1625_34097",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "34097",
     "trainNumber": "58M",
     "trainType": "limitedExp",
     "trainName": "しらゆき8号",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-01",
+    "customOrigin": "新潟",
     "customDestination": "新井",
     "cars": 4,
     "isHoliday": true,
@@ -32438,20 +32460,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "34097",
-    "customOrigin": "新潟",
     "throughTripId": "HD_INB_ETM-10_1809_34097",
     "throughLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_OUT_SE-22_1626_11367",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11367",
     "trainNumber": "1741M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後湯沢",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -32467,13 +32489,12 @@
         "departureTime": "16:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11367",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1628_19022",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19022",
     "trainNumber": "2552M",
     "trainType": "local",
     "direction": "inbound",
@@ -32518,17 +32539,19 @@
         "departureTime": "16:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19022"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1629_19234",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19234",
     "trainNumber": "1341M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -32670,14 +32693,12 @@
         "departureTime": "18:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19234",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_INB_SE-23_1630_18988",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18988",
     "trainNumber": "3372M",
     "trainType": "rapid",
     "direction": "inbound",
@@ -32824,12 +32845,12 @@
         "departureTime": "17:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18988"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1639_40613",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40613",
     "trainNumber": "448M",
     "trainType": "local",
     "direction": "inbound",
@@ -32959,18 +32980,19 @@
         "departureTime": "17:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "40613"
+    ]
   },
   {
     "tripId": "HD_INB_SE-03_1647_40357",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40357",
     "trainNumber": "840M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -32993,14 +33015,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40357",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_1544_40357",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-23_1653_19001",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19001",
     "trainNumber": "1342M",
     "trainType": "local",
     "direction": "inbound",
@@ -33147,12 +33168,12 @@
         "departureTime": "18:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19001"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1653_19256",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19256",
     "trainNumber": "2551M",
     "trainType": "local",
     "direction": "outbound",
@@ -33197,12 +33218,12 @@
         "departureTime": "17:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19256"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_1702_33246",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33246",
     "trainNumber": "455M",
     "trainType": "local",
     "direction": "outbound",
@@ -33332,17 +33353,18 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33246"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1703_33753",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33753",
     "trainNumber": "845M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
@@ -33366,14 +33388,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33753",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_1710_33753",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1703_19006",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19006",
     "trainNumber": "3374M",
     "trainType": "rapid",
     "direction": "inbound",
@@ -33634,12 +33655,12 @@
         "departureTime": "19:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19006"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1707_19023",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19023",
     "trainNumber": "2554M",
     "trainType": "local",
     "direction": "inbound",
@@ -33684,12 +33705,12 @@
         "departureTime": "17:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19023"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1720_19038",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19038",
     "trainNumber": "450M",
     "trainType": "local",
     "direction": "inbound",
@@ -33818,18 +33839,19 @@
         "departureTime": "18:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19038"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_1724_11368",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11368",
     "trainNumber": "1743M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後湯沢",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -33845,13 +33867,12 @@
         "departureTime": "17:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11368",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1733_19257",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19257",
     "trainNumber": "2553M",
     "trainType": "local",
     "direction": "outbound",
@@ -33896,12 +33917,12 @@
         "departureTime": "17:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19257"
+    ]
   },
   {
     "tripId": "HD_INB_SE-23_1737_19002",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19002",
     "trainNumber": "1344M",
     "trainType": "local",
     "direction": "inbound",
@@ -34048,12 +34069,12 @@
         "departureTime": "19:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19002"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1737_19024",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19024",
     "trainNumber": "2556M",
     "trainType": "local",
     "direction": "inbound",
@@ -34098,12 +34119,12 @@
         "departureTime": "17:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19024"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1738_38938",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "38938",
     "trainNumber": "55M",
     "trainType": "limitedExp",
     "trainName": "しらゆき5号",
@@ -34111,6 +34132,7 @@
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
     "customOrigin": "上越妙高",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -34367,12 +34389,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38938",
-    "customDestination": "新潟"
+    "prevTripId": "HD_OUT_ETM-06_1723_38938",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_OUT_SE-23_1739_33247",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33247",
     "trainNumber": "457M",
     "trainType": "local",
     "direction": "outbound",
@@ -34502,17 +34525,19 @@
         "departureTime": "19:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33247"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1741_19235",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19235",
     "trainNumber": "1343M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -34654,20 +34679,19 @@
         "departureTime": "19:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19235",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_INB_SE-03_1743_40359",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40359",
     "trainNumber": "842M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -34690,14 +34714,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40359",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_1639_40359",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1753_19005",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19005",
     "trainNumber": "3482M",
     "trainType": "rapid",
     "direction": "inbound",
@@ -34826,17 +34849,18 @@
         "departureTime": "18:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19005"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1759_33754",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33754",
     "trainNumber": "847M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
@@ -34860,14 +34884,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33754",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_1806_33754",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_1805_19039",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19039",
     "trainNumber": "452M",
     "trainType": "local",
     "direction": "inbound",
@@ -34996,12 +35019,12 @@
         "departureTime": "19:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19039"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1818_29367",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "29367",
     "trainNumber": "2555M",
     "trainType": "local",
     "direction": "outbound",
@@ -35047,12 +35070,12 @@
         "departureTime": "18:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "29367"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1818_19513",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19513",
     "trainNumber": "2558M",
     "trainType": "local",
     "direction": "inbound",
@@ -35098,18 +35121,19 @@
         "departureTime": "18:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19513"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_1832_11378",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11378",
     "trainNumber": "1745M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後中里",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -35125,13 +35149,12 @@
         "departureTime": "18:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11378",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1833_19040",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19040",
     "trainNumber": "454M",
     "trainType": "local",
     "direction": "inbound",
@@ -35260,17 +35283,19 @@
         "departureTime": "19:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19040"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1841_19226",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19226",
     "trainNumber": "3377M",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
+    "customOrigin": "直江津",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -35527,13 +35552,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "19226",
-    "customDestination": "新潟",
-    "customOrigin": "直江津"
+    "prevTripId": "HD_OUT_JOE-35_1945_19226",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-23_1846_18991",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18991",
     "trainNumber": "1346M",
     "trainType": "local",
     "direction": "inbound",
@@ -35614,12 +35639,12 @@
         "departureTime": "19:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18991"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_1846_19221",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19221",
     "trainNumber": "459M",
     "trainType": "local",
     "direction": "outbound",
@@ -35748,12 +35773,12 @@
         "departureTime": "19:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19221"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1853_42191",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "42191",
     "trainNumber": "2560M",
     "trainType": "local",
     "direction": "inbound",
@@ -35799,12 +35824,12 @@
         "departureTime": "19:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42191"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1857_19258",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19258",
     "trainNumber": "2557M",
     "trainType": "local",
     "direction": "outbound",
@@ -35849,12 +35874,12 @@
         "departureTime": "19:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19258"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1907_19041",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19041",
     "trainNumber": "456M",
     "trainType": "local",
     "direction": "inbound",
@@ -35983,12 +36008,12 @@
         "departureTime": "20:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19041"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_1918_19259",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19259",
     "trainNumber": "2559M",
     "trainType": "local",
     "direction": "outbound",
@@ -36033,17 +36058,19 @@
         "departureTime": "19:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19259"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1921_19236",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19236",
     "trainNumber": "1345M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -36185,14 +36212,12 @@
         "departureTime": "20:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19236",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_1926_19042",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19042",
     "trainNumber": "458M",
     "trainType": "local",
     "direction": "inbound",
@@ -36321,18 +36346,19 @@
         "departureTime": "20:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19042"
+    ]
   },
   {
     "tripId": "HD_INB_SE-03_1927_35097",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35097",
     "trainNumber": "846M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -36355,14 +36381,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35097",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_1826_35097",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-23_1927_19222",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19222",
     "trainNumber": "461M",
     "trainType": "local",
     "direction": "outbound",
@@ -36491,12 +36516,12 @@
         "departureTime": "20:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19222"
+    ]
   },
   {
     "tripId": "HD_INB_SE-23_1928_19003",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19003",
     "trainNumber": "1348M",
     "trainType": "local",
     "direction": "inbound",
@@ -36643,12 +36668,12 @@
         "departureTime": "20:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19003"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1941_38935",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "38935",
     "trainNumber": "57M",
     "trainType": "limitedExp",
     "trainName": "しらゆき7号",
@@ -36656,6 +36681,7 @@
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
     "customOrigin": "新井",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -36912,12 +36938,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38935",
-    "customDestination": "新潟"
+    "prevTripId": "HD_OUT_ETM-04_1918_38935",
+    "prevLineId": "myoko_haneuma"
   },
   {
     "tripId": "HD_INB_SE-42_1947_19025",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19025",
     "trainNumber": "2562M",
     "trainType": "local",
     "direction": "inbound",
@@ -36962,17 +36989,18 @@
         "departureTime": "20:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19025"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_1948_33755",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "33755",
     "trainNumber": "851M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "越後湯沢",
     "cars": 4,
     "isHoliday": true,
@@ -36996,14 +37024,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33755",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_1955_33755",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-37_1957_19260",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19260",
     "trainNumber": "2561D",
     "trainType": "local",
     "direction": "outbound",
@@ -37048,18 +37075,19 @@
         "departureTime": "20:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19260"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_2006_11375",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11375",
     "trainNumber": "1747M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "水上",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -37075,18 +37103,18 @@
         "departureTime": "20:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11375",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_2006_31126",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "31126",
     "trainNumber": "240D",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-42",
     "destinationStationId": "SE-37",
+    "customOrigin": "新潟",
     "customDestination": "会津若松",
     "cars": 4,
     "isHoliday": true,
@@ -37128,14 +37156,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "31126",
-    "customOrigin": "新潟",
     "throughTripId": "HD_INB_BW-42_2027_31126",
     "throughLineId": "banetsu_west"
   },
   {
     "tripId": "HD_OUT_SE-23_2011_19223",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19223",
     "trainNumber": "463M",
     "trainType": "local",
     "direction": "outbound",
@@ -37264,18 +37291,19 @@
         "departureTime": "21:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19223"
+    ]
   },
   {
     "tripId": "HD_INB_SE-03_2015_40358",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40358",
     "trainNumber": "848M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "六日町",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -37298,14 +37326,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40358",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_1918_40358",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-23_2023_18992",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18992",
     "trainNumber": "1350M",
     "trainType": "local",
     "direction": "inbound",
@@ -37386,17 +37413,19 @@
         "departureTime": "21:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18992"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_2025_19238",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19238",
     "trainNumber": "1347M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-42",
+    "customOrigin": "直江津",
+    "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -37653,13 +37682,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "19238",
-    "customDestination": "新潟",
-    "customOrigin": "直江津"
+    "prevTripId": "HD_OUT_JOE-35_2150_19238",
+    "prevLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_SE-42_2025_19043",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19043",
     "trainNumber": "460M",
     "trainType": "local",
     "direction": "inbound",
@@ -37788,17 +37817,18 @@
         "departureTime": "21:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19043"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_2044_40372",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40372",
     "trainNumber": "853M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "六日町",
     "cars": 4,
     "isHoliday": true,
@@ -37822,14 +37852,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40372",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_2051_40372",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-42_2046_19026",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19026",
     "trainNumber": "2564D",
     "trainType": "local",
     "direction": "inbound",
@@ -37874,12 +37903,12 @@
         "departureTime": "21:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19026"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-37_2051_19261",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19261",
     "trainNumber": "2563M",
     "trainType": "local",
     "direction": "outbound",
@@ -37924,12 +37953,12 @@
         "departureTime": "21:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19261"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_2058_19224",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19224",
     "trainNumber": "465M",
     "trainType": "local",
     "direction": "outbound",
@@ -38058,12 +38087,12 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19224"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_2117_19044",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19044",
     "trainNumber": "462M",
     "trainType": "local",
     "direction": "inbound",
@@ -38192,12 +38221,12 @@
         "departureTime": "22:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19044"
+    ]
   },
   {
     "tripId": "HD_INB_SE-23_2120_18989",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18989",
     "trainNumber": "3376M",
     "trainType": "rapid",
     "direction": "inbound",
@@ -38344,18 +38373,19 @@
         "departureTime": "22:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18989"
+    ]
   },
   {
     "tripId": "HD_INB_SE-03_2130_35093",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35093",
     "trainNumber": "850M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -38378,19 +38408,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "35093",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_2026_35093",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-01_2131_19237",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19237",
     "trainNumber": "1349M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-23",
+    "customOrigin": "直江津",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -38532,14 +38563,12 @@
         "departureTime": "22:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19237",
-    "customDestination": "長岡",
-    "customOrigin": "直江津"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_2140_19027",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19027",
     "trainNumber": "2566M",
     "trainType": "local",
     "direction": "inbound",
@@ -38584,18 +38613,19 @@
         "departureTime": "22:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19027"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_2143_11379",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11379",
     "trainNumber": "1749M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "越後中里",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -38611,13 +38641,12 @@
         "departureTime": "21:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11379",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_2200_42190",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "42190",
     "trainNumber": "464M",
     "trainType": "local",
     "direction": "inbound",
@@ -38747,12 +38776,12 @@
         "departureTime": "23:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42190"
+    ]
   },
   {
     "tripId": "HD_INB_SE-23_2215_19004",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19004",
     "trainNumber": "1352M",
     "trainType": "local",
     "direction": "inbound",
@@ -38899,17 +38928,18 @@
         "departureTime": "23:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19004"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-01_2219_40373",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40373",
     "trainNumber": "855M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-01",
     "destinationStationId": "SE-03",
+    "customOrigin": "直江津",
     "customDestination": "六日町",
     "cars": 4,
     "isHoliday": true,
@@ -38933,20 +38963,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "40373",
-    "customOrigin": "直江津",
     "throughTripId": "HD_INB_HK-12_2227_40373",
     "throughLineId": "hokuhoku"
   },
   {
     "tripId": "HD_INB_SE-03_2221_35094",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35094",
     "trainNumber": "852M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -38969,14 +38999,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "35094",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_2119_35094",
     "prevLineId": "hokuhoku"
   },
   {
     "tripId": "HD_OUT_SE-37_2223_19262",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19262",
     "trainNumber": "2565M",
     "trainType": "local",
     "direction": "outbound",
@@ -39021,12 +39050,12 @@
         "departureTime": "22:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19262"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_2224_19028",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19028",
     "trainNumber": "2568D",
     "trainType": "local",
     "direction": "inbound",
@@ -39071,18 +39100,19 @@
         "departureTime": "22:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19028"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-22_2248_11370",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "11370",
     "trainNumber": "1751M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SE-22",
     "destinationStationId": "SE-23",
     "customOrigin": "水上",
+    "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -39098,13 +39128,12 @@
         "departureTime": "22:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "11370",
-    "customDestination": "長岡"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_2249_19045",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19045",
     "trainNumber": "466M",
     "trainType": "local",
     "direction": "inbound",
@@ -39233,12 +39262,12 @@
         "departureTime": "00:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19045"
+    ]
   },
   {
     "tripId": "HD_INB_SE-23_2308_18993",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "18993",
     "trainNumber": "1354M",
     "trainType": "local",
     "direction": "inbound",
@@ -39319,12 +39348,12 @@
         "departureTime": "23:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18993"
+    ]
   },
   {
     "tripId": "HD_OUT_SE-23_2308_19225",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19225",
     "trainNumber": "467M",
     "trainType": "local",
     "direction": "outbound",
@@ -39453,12 +39482,12 @@
         "departureTime": "00:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19225"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_2321_19046",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "19046",
     "trainNumber": "468M",
     "trainType": "local",
     "direction": "inbound",
@@ -39587,12 +39616,12 @@
         "departureTime": "00:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19046"
+    ]
   },
   {
     "tripId": "HD_INB_SE-42_2339_40612",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "40612",
     "trainNumber": "2570M",
     "trainType": "local",
     "direction": "inbound",
@@ -39638,18 +39667,19 @@
         "departureTime": "00:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "40612"
+    ]
   },
   {
     "tripId": "HD_INB_SE-03_2347_35095",
     "lineId": "shinetsu_naoetsu_niigata",
+    "trainId": "35095",
     "trainNumber": "854M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "SE-03",
     "destinationStationId": "SE-01",
     "customOrigin": "越後湯沢",
+    "customDestination": "直江津",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -39672,8 +39702,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "35095",
-    "customDestination": "直江津",
     "prevTripId": "HD_OUT_HK-01_2249_35095",
     "prevLineId": "hokuhoku"
   }

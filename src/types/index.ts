@@ -138,7 +138,7 @@ export type TrainTypeKey =
   | 'strain'                  // S-TRAIN（西武・メトロ・東急直通）
   | 'sl'                      // SL（パレオエクスプレス）
   | 'sl_taiju'                // SL大樹（東武鬼怒川線・日光線）
-  | 'aizu_mount_exp'          // AIZUマウントエクスプレス（会津鉄道・野岩鉄道・東武線）
+  | 'aizu_ozatoro'            // お座トロ展望列車（会津鉄道）
   | 'hayabusa'                // はやぶさ（東北新幹線）
   | 'hayate'                  // はやて（東北新幹線）
   | 'yamabiko'                // やまびこ（東北新幹線）

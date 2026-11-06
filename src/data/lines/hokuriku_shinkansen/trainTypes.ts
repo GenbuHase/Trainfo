@@ -1,6 +1,6 @@
-import type { TrainTypeConfig, TrainTypeKey } from '../../../types';
+import type { TrainTypeConfig } from '../../../types';
 
-export const HOKURIKU_SHINKANSEN_TRAIN_TYPES: Record<TrainTypeKey, TrainTypeConfig> = {
+export const HOKURIKU_SHINKANSEN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   kagayaki: {
     key: 'kagayaki',
     name: 'かがやき',
@@ -41,14 +41,4 @@ export const HOKURIKU_SHINKANSEN_TRAIN_TYPES: Record<TrainTypeKey, TrainTypeConf
     bgColor: '#1d3d63',
     borderColor: '#132841',
   },
-  limitedExp: {
-    key: 'limitedExp',
-    name: '新幹線特急',
-    nameEn: 'Shinkansen Ltd Exp',
-    shortName: '新幹線',
-    color: '#963812',
-    textColor: '#ffffff',
-    bgColor: '#963812',
-    borderColor: '#732a0c',
-  },
-} as Record<TrainTypeKey, TrainTypeConfig>;
+};

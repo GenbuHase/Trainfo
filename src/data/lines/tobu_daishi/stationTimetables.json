@@ -1,7 +1,6 @@
 {
   "weekday": {
     "TSK-13": {
-      "inbound": [],
       "outbound": [
         {
           "h": 0,
@@ -1103,9 +1102,11 @@
           "no": "215D",
           "tripId": "WD_OUT_TSK-13_2355_113761"
         }
-      ]
+      ],
+      "inbound": []
     },
     "TSK-51": {
+      "outbound": [],
       "inbound": [
         {
           "h": 0,
@@ -2207,13 +2208,11 @@
           "no": "216D",
           "tripId": "WD_INB_TSK-51_2359_113878"
         }
-      ],
-      "outbound": []
+      ]
     }
   },
   "holiday": {
     "TSK-13": {
-      "inbound": [],
       "outbound": [
         {
           "h": 0,
@@ -3305,9 +3304,11 @@
           "no": "213D",
           "tripId": "HD_OUT_TSK-13_2350_113760"
         }
-      ]
+      ],
+      "inbound": []
     },
     "TSK-51": {
+      "outbound": [],
       "inbound": [
         {
           "h": 0,
@@ -4399,8 +4400,7 @@
           "no": "214D",
           "tripId": "HD_INB_TSK-51_2354_113877"
         }
-      ],
-      "outbound": []
+      ]
     }
   }
 }

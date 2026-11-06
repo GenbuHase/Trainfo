@@ -5,7 +5,7 @@ export const IZUKYU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "key": "local",
     "name": "普通",
     "nameEn": "Local",
-    "shortName": "普",
+    "shortName": "普通",
     "color": "#009cd2",
     "textColor": "#ffffff",
     "bgColor": "#009cd2",

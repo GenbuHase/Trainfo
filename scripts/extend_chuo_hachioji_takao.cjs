@@ -1,75 +1,96 @@
-// JR中央線快速 ↔ JR中央本線 特急八王子〜高尾間延伸・高尾通過時刻完全同期・相互直通リンクスクリプト
+// JR中央線快速 ↔ JR中央本線 特急八王子〜高尾間延伸・高尾通過時刻完全同期・相互直通リンクスクリプト（宣言的設定駆動）
 const fs = require('fs');
 const path = require('path');
+const {
+  timeToSec,
+  secToTime,
+  safeReadJson,
+  safeWriteJson,
+  extractTrainId,
+  linkThroughTrips,
+} = require('./common/timetableUtils.cjs');
 
-function toSec(t) {
-  if (!t) return 0;
-  const [h, m, s] = t.split(':').map(Number);
-  let norm = h < 4 ? h + 24 : h;
-  return norm * 3600 + m * 60 + (s || 0);
+// 宣言的設定: 中央線快速↔中央本線の特急延伸・同期ルール
+const CHUO_EXTENSION_CONFIG = {
+  chuoPath: path.resolve('src/data/lines/chuo/globalTimetable.json'),
+  chuoMainPath: path.resolve('src/data/lines/chuo_main/globalTimetable.json'),
+  limitedExpressKeywords: ['あずさ', 'かいじ', '富士回遊', 'はちおうじ', 'おうめ'],
+  priorityTrainNameKeyword: 'あずさ',
+  maxChuoNonPassingStops: 8,
+  boundaryStationId: 'JC-24',      // 高尾
+  intermediateStationId: 'JC-23',  // 西八王子
+  tokyoStationId: 'JC-01',
+};
+
+function hasMisassignedLimitedExpName(trip) {
+  if (trip.trainType === 'limitedExp' || !trip.trainName) return false;
+  return CHUO_EXTENSION_CONFIG.limitedExpressKeywords.some((kw) => trip.trainName.includes(kw));
 }
 
-function secToStr(sec) {
-  const norm = (Math.floor(sec) + 86400 * 2) % 86400;
-  const h = Math.floor(norm / 3600).toString().padStart(2, '0');
-  const m = Math.floor((norm % 3600) / 60).toString().padStart(2, '0');
-  const s = (norm % 60).toString().padStart(2, '0');
-  return `${h}:${m}:${s}`;
-}
-
-function getYahooId(trip) {
-  if (trip.trainId) return trip.trainId;
-  const parts = trip.tripId.split('_');
-  return parts[parts.length - 1];
-}
-
-function safeWriteJson(filePath, data) {
-  const content = JSON.stringify(data, null, 2);
-  let attempts = 0;
-  while (attempts < 10) {
-    try {
-      fs.writeFileSync(filePath, content, 'utf8');
-      return;
-    } catch (e) {
-      attempts++;
-      if (attempts >= 10) throw e;
-      const start = Date.now();
-      while (Date.now() - start < 150) {}
-    }
-  }
+function clearMisassignedMetadata(trip) {
+  delete trip.trainName;
+  delete trip.prevTripId;
+  delete trip.prevLineId;
+  delete trip.throughTripId;
+  delete trip.throughLineId;
+  delete trip.customOrigin;
+  delete trip.customDestination;
 }
 
 function extendChuoHachiojiTakao() {
   console.log('=== 🚄 中央線快速 ↔ 中央本線 特急延伸・時刻完全同期・直通リンク開始 ===\n');
 
-  const chuoPath = path.resolve('src/data/lines/chuo/globalTimetable.json');
-  const chuoMainPath = path.resolve('src/data/lines/chuo_main/globalTimetable.json');
-
+  const { chuoPath, chuoMainPath, boundaryStationId, intermediateStationId, tokyoStationId } = CHUO_EXTENSION_CONFIG;
   if (!fs.existsSync(chuoPath) || !fs.existsSync(chuoMainPath)) return;
 
-  const chuoTrips = JSON.parse(fs.readFileSync(chuoPath, 'utf8'));
-  const chuoMainTrips = JSON.parse(fs.readFileSync(chuoMainPath, 'utf8'));
+  const chuoTrips = safeReadJson(chuoPath);
+  const chuoMainTrips = safeReadJson(chuoMainPath);
 
-  // 1. 各駅停車・快速列車に誤って付与された特急愛称（あずさ・かいじ・富士回遊等）をクリーンアップ
+  // 1. 各駅停車・快速列車に誤って付与された特急愛称および改ざんされた時刻をクリーンアップ
   let cleanedMisassigned = 0;
   for (const trip of chuoTrips) {
-    if (trip.trainType !== 'limitedExp' && trip.trainName && (trip.trainName.includes('あずさ') || trip.trainName.includes('かいじ') || trip.trainName.includes('富士回遊'))) {
-      trip.trainName = undefined;
-      trip.prevTripId = undefined;
-      trip.prevLineId = undefined;
-      trip.throughTripId = undefined;
-      trip.throughLineId = undefined;
+    if (trip.trainType !== 'limitedExp') {
+      if (hasMisassignedLimitedExpName(trip)) {
+        clearMisassignedMetadata(trip);
+        cleanedMisassigned++;
+      }
+      if (trip.originStationId === boundaryStationId && trip.stops[0]?.stationId === boundaryStationId) {
+        if (trip.stops[0].arrivalTime !== trip.stops[0].departureTime) {
+          trip.stops[0].arrivalTime = trip.stops[0].departureTime;
+        }
+      }
+    }
+  }
+
+  for (const trip of chuoMainTrips) {
+    if (hasMisassignedLimitedExpName(trip)) {
+      clearMisassignedMetadata(trip);
       cleanedMisassigned++;
     }
   }
+
+  // 非特急から誤生成された富士回遊ゴースト(_fuji)および異常なゴーストを除去
+  const chuoLenBefore = chuoTrips.length;
+  for (let i = chuoTrips.length - 1; i >= 0; i--) {
+    const t = chuoTrips[i];
+    if (t.tripId.includes('_fuji') && (t.trainType !== 'limitedExp' || t.tripId.includes('10030'))) {
+      chuoTrips.splice(i, 1);
+    }
+  }
+  if (chuoTrips.length < chuoLenBefore) {
+    console.log(`  ✓ 非特急由来のゴースト富士回遊トリップを ${chuoLenBefore - chuoTrips.length} 件除去`);
+  }
   if (cleanedMisassigned > 0) {
-    console.log(`  ✓ 一般快速列車への誤割り当て愛称を ${cleanedMisassigned} 便クリーンアップ`);
+    console.log(`  ✓ 一般快速列車への誤割り当て愛称・メタデータを ${cleanedMisassigned} 便クリーンアップ`);
   }
 
   // 2. 中央本線のマッピングテーブル構築 (yId_dir_HD / yId_dir_WD)
   const cmMap = new Map();
   for (const t of chuoMainTrips) {
-    const yId = getYahooId(t);
+    if (t.trainType !== 'limitedExp') continue;
+    if (!t.stops || !t.stops.some((s) => s.isPassing)) continue;
+
+    const yId = extractTrainId(t);
     if (yId) {
       const key = `${yId}_${t.direction}_${t.isHoliday ? 'HD' : 'WD'}`;
       cmMap.set(key, t);
@@ -81,110 +102,79 @@ function extendChuoHachiojiTakao() {
 
   for (const trip of chuoTrips) {
     if (trip.trainType !== 'limitedExp') continue;
+    const nonPassingStops = trip.stops ? trip.stops.filter((s) => !s.isPassing) : [];
+    if (nonPassingStops.length > CHUO_EXTENSION_CONFIG.maxChuoNonPassingStops) continue;
 
-    const yId = getYahooId(trip);
+    const yId = extractTrainId(trip);
     const key = `${yId}_${trip.direction}_${trip.isHoliday ? 'HD' : 'WD'}`;
     const cm = yId ? cmMap.get(key) : null;
-
     if (!cm) continue;
 
-    // trainName の双方向同期（あずさ優先）
-    if (cm.trainName && cm.trainName.includes('あずさ')) {
+    // trainName の同期（互いに未設定の場合のみ補完、既存の愛称を不正に上書きしない）
+    if (!trip.trainName && cm.trainName) {
       trip.trainName = cm.trainName;
-    } else if (trip.trainName && trip.trainName.includes('あずさ')) {
-      cm.trainName = trip.trainName;
     } else if (trip.trainName && !cm.trainName) {
       cm.trainName = trip.trainName;
-    } else if (!trip.trainName && cm.trainName) {
-      trip.trainName = cm.trainName;
+    }
+
+    // trainNumber の同期（cm側の正規列車番号 [例: 13M, 3107M, 9076M] を chuo側へ同期）
+    if (cm.trainNumber && /^\d+[A-Z]$/.test(cm.trainNumber)) {
+      trip.trainNumber = cm.trainNumber;
+    } else if (trip.trainNumber && /^\d+[A-Z]$/.test(trip.trainNumber) && !cm.trainNumber) {
+      cm.trainNumber = trip.trainNumber;
     }
 
     if (trip.direction === 'outbound') {
-      // 下り特急 (東京/新宿 -> 高尾 -> 甲府/松本)
-      const cmTakaoStop = cm.stops.find(s => s.stationId === 'JC-24') || cm.stops[0];
-      const cmTakaoTime = cmTakaoStop.arrivalTime || cmTakaoStop.departureTime;
+      const cmTakaoStop = cm.stops.find((s) => s.stationId === boundaryStationId) || cm.stops[0];
+      const cmTakaoTime = cmTakaoStop.departureTime || cmTakaoStop.arrivalTime;
 
-      // trip の高尾(JC-24)ストップを整備または同期
-      let takaoStop = trip.stops.find(s => s.stationId === 'JC-24');
+      let takaoStop = trip.stops.find((s) => s.stationId === boundaryStationId);
       if (!takaoStop) {
-        // 八王子(JC-22)から高尾(JC-24)へ延伸
         const last = trip.stops[trip.stops.length - 1];
-        const hachiojiSec = toSec(last.departureTime || last.arrivalTime);
-        const takaoSec = toSec(cmTakaoTime);
+        const hachiojiSec = timeToSec(last.departureTime || last.arrivalTime);
+        const takaoSec = timeToSec(cmTakaoTime);
         const nishiSec = Math.round((hachiojiSec + takaoSec) / 2);
 
-        trip.stops.push({
-          stationId: 'JC-23',
-          arrivalTime: secToStr(nishiSec),
-          departureTime: secToStr(nishiSec),
-          isPassing: true,
-        });
-        trip.stops.push({
-          stationId: 'JC-24',
-          arrivalTime: cmTakaoTime,
-          departureTime: cmTakaoTime,
-          isPassing: true,
-        });
-        trip.destinationStationId = 'JC-24';
+        trip.stops.push(
+          { stationId: intermediateStationId, arrivalTime: secToTime(nishiSec), departureTime: secToTime(nishiSec), isPassing: true },
+          { stationId: boundaryStationId, arrivalTime: cmTakaoTime, departureTime: cmTakaoTime, isPassing: true }
+        );
+        trip.destinationStationId = boundaryStationId;
       } else {
-        // 既に高尾がある場合は、通過時刻を cm と完全同一秒に同期！
         takaoStop.arrivalTime = cmTakaoTime;
         takaoStop.departureTime = cmTakaoTime;
         takaoStop.isPassing = true;
       }
 
-      // 相互直通リンク & 行先同期
-      trip.throughTripId = cm.tripId;
-      trip.throughLineId = 'chuo_main';
-      cm.prevTripId = trip.tripId;
-      cm.prevLineId = 'chuo';
-
-      cm.customOrigin = trip.customOrigin || (trip.originStationId === 'JC-01' ? '東京' : '新宿');
-      trip.customDestination = cm.customDestination || '松本';
-
+      linkThroughTrips(trip, 'chuo', cm, 'chuo_main', {
+        customOrigin: trip.customOrigin || (trip.originStationId === tokyoStationId ? '東京' : '新宿'),
+        customDestination: cm.customDestination || '松本',
+      });
       linkedOutbound++;
     } else if (trip.direction === 'inbound') {
-      // 上り特急 (松本/甲府 -> 高尾 -> 新宿/東京)
-      const cmTakaoStop = cm.stops.find(s => s.stationId === 'JC-24') || cm.stops[cm.stops.length - 1];
+      const cmTakaoStop = cm.stops.find((s) => s.stationId === boundaryStationId) || cm.stops[cm.stops.length - 1];
       const cmTakaoTime = cmTakaoStop.arrivalTime || cmTakaoStop.departureTime;
 
-      // trip の先頭に高尾(JC-24)と西八王子(JC-23)を追加（八王子始発の場合）
-      let takaoStop = trip.stops.find(s => s.stationId === 'JC-24');
+      let takaoStop = trip.stops.find((s) => s.stationId === boundaryStationId);
       if (!takaoStop) {
         const first = trip.stops[0];
-        const hachiojiSec = toSec(first.arrivalTime || first.departureTime);
-        const takaoSec = toSec(cmTakaoTime);
+        const hachiojiSec = timeToSec(first.arrivalTime || first.departureTime);
+        const takaoSec = timeToSec(cmTakaoTime);
         const nishiSec = Math.round((takaoSec + hachiojiSec) / 2);
 
-        trip.stops.unshift({
-          stationId: 'JC-23',
-          arrivalTime: secToStr(nishiSec),
-          departureTime: secToStr(nishiSec),
-          isPassing: true,
-        });
-        trip.stops.unshift({
-          stationId: 'JC-24',
-          arrivalTime: cmTakaoTime,
-          departureTime: cmTakaoTime,
-          isPassing: true,
-        });
-        trip.originStationId = 'JC-24';
+        trip.stops.unshift({ stationId: intermediateStationId, arrivalTime: secToTime(nishiSec), departureTime: secToTime(nishiSec), isPassing: true });
+        trip.stops.unshift({ stationId: boundaryStationId, arrivalTime: cmTakaoTime, departureTime: cmTakaoTime, isPassing: true });
+        trip.originStationId = boundaryStationId;
       } else {
-        // 既に高尾がある場合は、通過時刻を cm と完全同一秒に同期！
         takaoStop.arrivalTime = cmTakaoTime;
         takaoStop.departureTime = cmTakaoTime;
         takaoStop.isPassing = true;
       }
 
-      // 相互直通リンク & 行先同期
-      cm.throughTripId = trip.tripId;
-      cm.throughLineId = 'chuo';
-      trip.prevTripId = cm.tripId;
-      trip.prevLineId = 'chuo_main';
-
-      trip.customOrigin = cm.customOrigin || '松本';
-      cm.customDestination = trip.customDestination || (trip.destinationStationId === 'JC-01' ? '東京' : '新宿');
-
+      linkThroughTrips(cm, 'chuo_main', trip, 'chuo', {
+        customOrigin: cm.customOrigin || '松本',
+        customDestination: trip.customDestination || (trip.destinationStationId === tokyoStationId ? '東京' : '新宿'),
+      });
       linkedInbound++;
     }
   }

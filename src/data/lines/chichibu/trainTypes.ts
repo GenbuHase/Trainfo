@@ -16,8 +16,8 @@ export const CHICHIBU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 急行（急行秩父路）: レッド
   express: {
     key: 'express',
-    name: '急行秩父路',
-    nameEn: 'Express Chichibuji',
+    name: '急行',
+    nameEn: 'Express',
     shortName: '急行',
     color: '#dc2626',
     textColor: '#ffffff',
@@ -27,7 +27,7 @@ export const CHICHIBU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // SLパレオエクスプレス: アンバー/ブラウン
   sl: {
     key: 'sl',
-    name: 'SLパレオエクスプレス',
+    name: 'SL',
     nameEn: 'SL Paleo Express',
     shortName: 'SL',
     color: '#78350f',

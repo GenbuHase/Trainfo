@@ -53,7 +53,6 @@ module.exports = {
     'なすの': 'nasuno',
     'こまち': 'komachi',
     'つばさ': 'tsubasa',
-    '特急': 'limitedExp',
   },
   // なすの・やまびこ等、区間全駅停車となる新幹線列車の種別を保持（各停/localへの強制書き換えを防止）
   preserveAllStopsTypes: [
@@ -63,7 +62,6 @@ module.exports = {
     'nasuno',
     'komachi',
     'tsubasa',
-    'limitedExp',
   ],
   defaultCars: 10,
   baseSectionSeconds: {

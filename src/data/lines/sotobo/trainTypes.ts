@@ -23,8 +23,8 @@ export const SOTOBO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   },
   "limitedExp": {
     "key": "limitedExp",
-    "name": "特急わかしお",
-    "shortName": "わかしお",
+    "name": "特急",
+    "shortName": "特急",
     "bgColor": "#0074be",
     "textColor": "#ffffff",
     "borderColor": "#0074be",

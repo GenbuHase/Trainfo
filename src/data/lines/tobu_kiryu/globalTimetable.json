@@ -2,6 +2,7 @@
   {
     "tripId": "WD_INB_TI-57_0502_114032",
     "lineId": "tobu_kiryu",
+    "trainId": "114032",
     "trainNumber": "802E",
     "trainType": "local",
     "direction": "inbound",
@@ -59,12 +60,12 @@
         "departureTime": "05:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114032"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_0514_114059",
     "lineId": "tobu_kiryu",
+    "trainId": "114059",
     "trainNumber": "801E",
     "trainType": "local",
     "direction": "outbound",
@@ -121,12 +122,12 @@
         "departureTime": "05:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114059"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_0527_114033",
     "lineId": "tobu_kiryu",
+    "trainId": "114033",
     "trainNumber": "804E",
     "trainType": "local",
     "direction": "inbound",
@@ -184,12 +185,12 @@
         "departureTime": "05:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114033"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_0554_114062",
     "lineId": "tobu_kiryu",
+    "trainId": "114062",
     "trainNumber": "803E",
     "trainType": "local",
     "direction": "outbound",
@@ -247,12 +248,12 @@
         "departureTime": "06:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114062"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_0604_114034",
     "lineId": "tobu_kiryu",
+    "trainId": "114034",
     "trainNumber": "806E",
     "trainType": "local",
     "direction": "inbound",
@@ -310,18 +311,19 @@
         "departureTime": "06:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114034"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_0610_116483",
     "lineId": "tobu_kiryu",
+    "trainId": "116483",
     "trainNumber": "1806レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう6号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -375,14 +377,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116483",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_0636_116483",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_0624_114063",
     "lineId": "tobu_kiryu",
+    "trainId": "114063",
     "trainNumber": "805E",
     "trainType": "local",
     "direction": "outbound",
@@ -440,12 +441,12 @@
         "departureTime": "06:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114063"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_0645_114035",
     "lineId": "tobu_kiryu",
+    "trainId": "114035",
     "trainNumber": "808E",
     "trainType": "local",
     "direction": "inbound",
@@ -503,18 +504,19 @@
         "departureTime": "07:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114035"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_0656_116485",
     "lineId": "tobu_kiryu",
+    "trainId": "116485",
     "trainNumber": "1808レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう8号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -568,14 +570,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116485",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_0726_116485",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_0703_114064",
     "lineId": "tobu_kiryu",
+    "trainId": "114064",
     "trainNumber": "807E",
     "trainType": "local",
     "direction": "outbound",
@@ -633,12 +634,12 @@
         "departureTime": "07:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114064"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_0714_114036",
     "lineId": "tobu_kiryu",
+    "trainId": "114036",
     "trainNumber": "810E",
     "trainType": "local",
     "direction": "inbound",
@@ -696,12 +697,12 @@
         "departureTime": "07:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114036"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_0739_114037",
     "lineId": "tobu_kiryu",
+    "trainId": "114037",
     "trainNumber": "812E",
     "trainType": "local",
     "direction": "inbound",
@@ -759,12 +760,12 @@
         "departureTime": "08:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114037"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_0743_114065",
     "lineId": "tobu_kiryu",
+    "trainId": "114065",
     "trainNumber": "809E",
     "trainType": "local",
     "direction": "outbound",
@@ -822,18 +823,19 @@
         "departureTime": "08:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114065"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_0805_116468",
     "lineId": "tobu_kiryu",
+    "trainId": "116468",
     "trainNumber": "1814レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう14号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -887,14 +889,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116468",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_0836_116468",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_0819_114053",
     "lineId": "tobu_kiryu",
+    "trainId": "114053",
     "trainNumber": "814E",
     "trainType": "local",
     "direction": "inbound",
@@ -951,12 +952,12 @@
         "departureTime": "08:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114053"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_0824_116452",
     "lineId": "tobu_kiryu",
+    "trainId": "116452",
     "trainNumber": "1801レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう1号",
@@ -964,6 +965,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1016,20 +1018,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "116452",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_0729_116452",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_0835_116469",
     "lineId": "tobu_kiryu",
+    "trainId": "116469",
     "trainNumber": "1816レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう16号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -1083,14 +1085,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116469",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_0900_116469",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_0838_114066",
     "lineId": "tobu_kiryu",
+    "trainId": "114066",
     "trainNumber": "811E",
     "trainType": "local",
     "direction": "outbound",
@@ -1148,18 +1149,19 @@
         "departureTime": "09:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114066"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_0906_116470",
     "lineId": "tobu_kiryu",
+    "trainId": "116470",
     "trainNumber": "1818レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう18号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -1213,14 +1215,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116470",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_0931_116470",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_0912_116453",
     "lineId": "tobu_kiryu",
+    "trainId": "116453",
     "trainNumber": "1803レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう3号",
@@ -1228,6 +1229,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1280,14 +1282,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116453",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_0820_116453",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_0928_114038",
     "lineId": "tobu_kiryu",
+    "trainId": "114038",
     "trainNumber": "816E",
     "trainType": "local",
     "direction": "inbound",
@@ -1345,12 +1346,12 @@
         "departureTime": "10:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114038"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_0938_114067",
     "lineId": "tobu_kiryu",
+    "trainId": "114067",
     "trainNumber": "813E",
     "trainType": "local",
     "direction": "outbound",
@@ -1408,18 +1409,19 @@
         "departureTime": "10:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114067"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1000_116471",
     "lineId": "tobu_kiryu",
+    "trainId": "116471",
     "trainNumber": "1820レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう20号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -1473,14 +1475,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116471",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1029_116471",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_1014_116454",
     "lineId": "tobu_kiryu",
+    "trainId": "116454",
     "trainNumber": "1805レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう5号",
@@ -1488,6 +1489,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1540,14 +1542,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116454",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_0920_116454",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_1030_114039",
     "lineId": "tobu_kiryu",
+    "trainId": "114039",
     "trainNumber": "818E",
     "trainType": "local",
     "direction": "inbound",
@@ -1605,12 +1606,12 @@
         "departureTime": "11:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114039"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_1050_114068",
     "lineId": "tobu_kiryu",
+    "trainId": "114068",
     "trainNumber": "815E",
     "trainType": "local",
     "direction": "outbound",
@@ -1668,18 +1669,19 @@
         "departureTime": "11:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114068"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1103_116472",
     "lineId": "tobu_kiryu",
+    "trainId": "116472",
     "trainNumber": "1822レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう22号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -1733,14 +1735,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116472",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1129_116472",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_1110_116455",
     "lineId": "tobu_kiryu",
+    "trainId": "116455",
     "trainNumber": "1807レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう7号",
@@ -1748,6 +1749,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1800,14 +1802,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116455",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1020_116455",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_1134_114040",
     "lineId": "tobu_kiryu",
+    "trainId": "114040",
     "trainNumber": "820E",
     "trainType": "local",
     "direction": "inbound",
@@ -1865,12 +1866,12 @@
         "departureTime": "12:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114040"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_1153_114069",
     "lineId": "tobu_kiryu",
+    "trainId": "114069",
     "trainNumber": "817E",
     "trainType": "local",
     "direction": "outbound",
@@ -1928,18 +1929,19 @@
         "departureTime": "12:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114069"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1203_116473",
     "lineId": "tobu_kiryu",
+    "trainId": "116473",
     "trainNumber": "1824レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう24号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -1993,14 +1995,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116473",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1230_116473",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_1215_116456",
     "lineId": "tobu_kiryu",
+    "trainId": "116456",
     "trainNumber": "1811レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう11号",
@@ -2008,6 +2009,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2060,14 +2062,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116456",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1129_116456",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_1234_114041",
     "lineId": "tobu_kiryu",
+    "trainId": "114041",
     "trainNumber": "822E",
     "trainType": "local",
     "direction": "inbound",
@@ -2125,12 +2126,12 @@
         "departureTime": "13:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114041"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_1253_114070",
     "lineId": "tobu_kiryu",
+    "trainId": "114070",
     "trainNumber": "819E",
     "trainType": "local",
     "direction": "outbound",
@@ -2188,18 +2189,19 @@
         "departureTime": "13:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114070"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1303_116474",
     "lineId": "tobu_kiryu",
+    "trainId": "116474",
     "trainNumber": "1826レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう26号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -2253,14 +2255,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116474",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1330_116474",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_1315_116457",
     "lineId": "tobu_kiryu",
+    "trainId": "116457",
     "trainNumber": "1813レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう13号",
@@ -2268,6 +2269,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2320,14 +2322,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116457",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1229_116457",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_1334_114042",
     "lineId": "tobu_kiryu",
+    "trainId": "114042",
     "trainNumber": "824E",
     "trainType": "local",
     "direction": "inbound",
@@ -2385,12 +2386,12 @@
         "departureTime": "14:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114042"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_1353_114071",
     "lineId": "tobu_kiryu",
+    "trainId": "114071",
     "trainNumber": "821E",
     "trainType": "local",
     "direction": "outbound",
@@ -2448,18 +2449,19 @@
         "departureTime": "14:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114071"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1403_116475",
     "lineId": "tobu_kiryu",
+    "trainId": "116475",
     "trainNumber": "1828レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう28号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -2513,14 +2515,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116475",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1430_116475",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_1415_116458",
     "lineId": "tobu_kiryu",
+    "trainId": "116458",
     "trainNumber": "1815レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう15号",
@@ -2528,6 +2529,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2580,14 +2582,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116458",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1329_116458",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_1434_114043",
     "lineId": "tobu_kiryu",
+    "trainId": "114043",
     "trainNumber": "826E",
     "trainType": "local",
     "direction": "inbound",
@@ -2645,12 +2646,12 @@
         "departureTime": "15:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114043"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_1452_114072",
     "lineId": "tobu_kiryu",
+    "trainId": "114072",
     "trainNumber": "823E",
     "trainType": "local",
     "direction": "outbound",
@@ -2708,18 +2709,19 @@
         "departureTime": "15:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114072"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1503_116476",
     "lineId": "tobu_kiryu",
+    "trainId": "116476",
     "trainNumber": "1830レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう30号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -2773,14 +2775,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116476",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1528_116476",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_1513_116459",
     "lineId": "tobu_kiryu",
+    "trainId": "116459",
     "trainNumber": "1817レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう17号",
@@ -2788,6 +2789,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2840,14 +2842,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116459",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1429_116459",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_1525_114044",
     "lineId": "tobu_kiryu",
+    "trainId": "114044",
     "trainNumber": "828E",
     "trainType": "local",
     "direction": "inbound",
@@ -2905,12 +2906,12 @@
         "departureTime": "16:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114044"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_1535_114073",
     "lineId": "tobu_kiryu",
+    "trainId": "114073",
     "trainNumber": "825E",
     "trainType": "local",
     "direction": "outbound",
@@ -2968,18 +2969,19 @@
         "departureTime": "16:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114073"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1557_116477",
     "lineId": "tobu_kiryu",
+    "trainId": "116477",
     "trainNumber": "1834レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう34号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -3033,14 +3035,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116477",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1625_116477",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_1604_114074",
     "lineId": "tobu_kiryu",
+    "trainId": "114074",
     "trainNumber": "827E",
     "trainType": "local",
     "direction": "outbound",
@@ -3098,12 +3099,12 @@
         "departureTime": "16:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114074"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1612_114045",
     "lineId": "tobu_kiryu",
+    "trainId": "114045",
     "trainNumber": "830E",
     "trainType": "local",
     "direction": "inbound",
@@ -3161,12 +3162,12 @@
         "departureTime": "16:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114045"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_1615_116460",
     "lineId": "tobu_kiryu",
+    "trainId": "116460",
     "trainNumber": "1819レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう19号",
@@ -3174,6 +3175,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3226,14 +3228,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116460",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1529_116460",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_1644_114046",
     "lineId": "tobu_kiryu",
+    "trainId": "114046",
     "trainNumber": "832E",
     "trainType": "local",
     "direction": "inbound",
@@ -3291,12 +3292,12 @@
         "departureTime": "17:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114046"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_1647_114075",
     "lineId": "tobu_kiryu",
+    "trainId": "114075",
     "trainNumber": "829E",
     "trainType": "local",
     "direction": "outbound",
@@ -3354,18 +3355,19 @@
         "departureTime": "17:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114075"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1700_116478",
     "lineId": "tobu_kiryu",
+    "trainId": "116478",
     "trainNumber": "1838レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう38号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -3419,14 +3421,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116478",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1728_116478",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_1720_116448",
     "lineId": "tobu_kiryu",
+    "trainId": "116448",
     "trainNumber": "1823レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう23号",
@@ -3434,6 +3435,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3486,14 +3488,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116448",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1628_116448",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_1725_114047",
     "lineId": "tobu_kiryu",
+    "trainId": "114047",
     "trainNumber": "834E",
     "trainType": "local",
     "direction": "inbound",
@@ -3551,12 +3552,12 @@
         "departureTime": "18:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114047"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_1728_114076",
     "lineId": "tobu_kiryu",
+    "trainId": "114076",
     "trainNumber": "831E",
     "trainType": "local",
     "direction": "outbound",
@@ -3614,18 +3615,19 @@
         "departureTime": "17:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114076"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1800_116479",
     "lineId": "tobu_kiryu",
+    "trainId": "116479",
     "trainNumber": "1842レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう42号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -3679,14 +3681,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116479",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1826_116479",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_1801_114077",
     "lineId": "tobu_kiryu",
+    "trainId": "114077",
     "trainNumber": "833E",
     "trainType": "local",
     "direction": "outbound",
@@ -3744,12 +3745,12 @@
         "departureTime": "18:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114077"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1811_114048",
     "lineId": "tobu_kiryu",
+    "trainId": "114048",
     "trainNumber": "836E",
     "trainType": "local",
     "direction": "inbound",
@@ -3807,12 +3808,12 @@
         "departureTime": "18:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114048"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_1818_116449",
     "lineId": "tobu_kiryu",
+    "trainId": "116449",
     "trainNumber": "1827レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう27号",
@@ -3820,6 +3821,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3872,14 +3874,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116449",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1729_116449",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_1844_114049",
     "lineId": "tobu_kiryu",
+    "trainId": "114049",
     "trainNumber": "838E",
     "trainType": "local",
     "direction": "inbound",
@@ -3937,12 +3938,12 @@
         "departureTime": "19:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114049"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_1849_114078",
     "lineId": "tobu_kiryu",
+    "trainId": "114078",
     "trainNumber": "835E",
     "trainType": "local",
     "direction": "outbound",
@@ -4000,18 +4001,19 @@
         "departureTime": "19:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114078"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1900_116480",
     "lineId": "tobu_kiryu",
+    "trainId": "116480",
     "trainNumber": "1846レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう46号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -4065,14 +4067,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116480",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_1925_116480",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_1912_116461",
     "lineId": "tobu_kiryu",
+    "trainId": "116461",
     "trainNumber": "1831レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう31号",
@@ -4080,6 +4081,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4132,14 +4134,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116461",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1820_116461",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_1925_114050",
     "lineId": "tobu_kiryu",
+    "trainId": "114050",
     "trainNumber": "840E",
     "trainType": "local",
     "direction": "inbound",
@@ -4197,12 +4198,12 @@
         "departureTime": "20:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114050"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_1927_114079",
     "lineId": "tobu_kiryu",
+    "trainId": "114079",
     "trainNumber": "837E",
     "trainType": "local",
     "direction": "outbound",
@@ -4260,18 +4261,19 @@
         "departureTime": "19:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114079"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_1956_116481",
     "lineId": "tobu_kiryu",
+    "trainId": "116481",
     "trainNumber": "1850レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう50号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -4325,14 +4327,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116481",
-    "customOrigin": "赤城",
     "throughTripId": "WD_INB_TI-18_2025_116481",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_2002_114051",
     "lineId": "tobu_kiryu",
+    "trainId": "114051",
     "trainNumber": "842E",
     "trainType": "local",
     "direction": "inbound",
@@ -4390,12 +4391,12 @@
         "departureTime": "20:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114051"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_2005_114080",
     "lineId": "tobu_kiryu",
+    "trainId": "114080",
     "trainNumber": "839E",
     "trainType": "local",
     "direction": "outbound",
@@ -4453,12 +4454,12 @@
         "departureTime": "20:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114080"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_2012_116462",
     "lineId": "tobu_kiryu",
+    "trainId": "116462",
     "trainNumber": "1835レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう35号",
@@ -4466,6 +4467,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4518,14 +4520,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116462",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1920_116462",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_2041_114052",
     "lineId": "tobu_kiryu",
+    "trainId": "114052",
     "trainNumber": "844E",
     "trainType": "local",
     "direction": "inbound",
@@ -4583,12 +4584,12 @@
         "departureTime": "21:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114052"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_2044_116463",
     "lineId": "tobu_kiryu",
+    "trainId": "116463",
     "trainNumber": "1837レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう37号",
@@ -4596,6 +4597,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4648,14 +4650,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116463",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_1950_116463",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_OUT_TI-18_2049_114081",
     "lineId": "tobu_kiryu",
+    "trainId": "114081",
     "trainNumber": "841E",
     "trainType": "local",
     "direction": "outbound",
@@ -4713,12 +4714,12 @@
         "departureTime": "21:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114081"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_2119_114082",
     "lineId": "tobu_kiryu",
+    "trainId": "114082",
     "trainNumber": "843E",
     "trainType": "local",
     "direction": "outbound",
@@ -4776,17 +4777,19 @@
         "departureTime": "21:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114082"
+    ]
   },
   {
     "tripId": "WD_INB_TI-57_2129_114054",
     "lineId": "tobu_kiryu",
+    "trainId": "114054",
     "trainNumber": "846E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
+    "customDestination": "太田",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4838,16 +4841,12 @@
         "departureTime": "22:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114054",
-    "customDestination": "太田",
-    "customOrigin": "赤城",
-    "throughTripId": "WD_INB_TI-25_2155_112835",
-    "throughLineId": "tobu_isesaki"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_2141_116464",
     "lineId": "tobu_kiryu",
+    "trainId": "116464",
     "trainNumber": "1841レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう41号",
@@ -4855,6 +4854,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4907,14 +4907,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116464",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_2050_116464",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_2157_114055",
     "lineId": "tobu_kiryu",
+    "trainId": "114055",
     "trainNumber": "848E",
     "trainType": "local",
     "direction": "inbound",
@@ -4971,12 +4970,12 @@
         "departureTime": "22:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114055"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_2209_114060",
     "lineId": "tobu_kiryu",
+    "trainId": "114060",
     "trainNumber": "845E",
     "trainType": "local",
     "direction": "outbound",
@@ -5033,12 +5032,12 @@
         "departureTime": "22:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114060"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_2237_116465",
     "lineId": "tobu_kiryu",
+    "trainId": "116465",
     "trainNumber": "1845レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう45号",
@@ -5046,6 +5045,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -5098,19 +5098,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "116465",
-    "customDestination": "赤城",
     "prevTripId": "WD_OUT_TSK-30_2150_116465",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "WD_INB_TI-57_2244_114056",
     "lineId": "tobu_kiryu",
+    "trainId": "114056",
     "trainNumber": "850E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
+    "customDestination": "太田",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -5162,16 +5163,12 @@
         "departureTime": "23:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114056",
-    "customDestination": "太田",
-    "customOrigin": "赤城",
-    "throughTripId": "WD_INB_TI-25_2306_112836",
-    "throughLineId": "tobu_isesaki"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_2252_114061",
     "lineId": "tobu_kiryu",
+    "trainId": "114061",
     "trainNumber": "847E",
     "trainType": "local",
     "direction": "outbound",
@@ -5228,12 +5225,12 @@
         "departureTime": "23:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114061"
+    ]
   },
   {
     "tripId": "WD_OUT_TI-18_2321_114083",
     "lineId": "tobu_kiryu",
+    "trainId": "114083",
     "trainNumber": "849E",
     "trainType": "local",
     "direction": "outbound",
@@ -5291,12 +5288,12 @@
         "departureTime": "23:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114083"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_0502_114032",
     "lineId": "tobu_kiryu",
+    "trainId": "114032",
     "trainNumber": "802E",
     "trainType": "local",
     "direction": "inbound",
@@ -5354,12 +5351,12 @@
         "departureTime": "05:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114032"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_0514_114059",
     "lineId": "tobu_kiryu",
+    "trainId": "114059",
     "trainNumber": "801E",
     "trainType": "local",
     "direction": "outbound",
@@ -5416,12 +5413,12 @@
         "departureTime": "05:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114059"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_0527_114033",
     "lineId": "tobu_kiryu",
+    "trainId": "114033",
     "trainNumber": "804E",
     "trainType": "local",
     "direction": "inbound",
@@ -5479,12 +5476,12 @@
         "departureTime": "05:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114033"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_0554_114062",
     "lineId": "tobu_kiryu",
+    "trainId": "114062",
     "trainNumber": "803E",
     "trainType": "local",
     "direction": "outbound",
@@ -5542,12 +5539,12 @@
         "departureTime": "06:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114062"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_0604_114034",
     "lineId": "tobu_kiryu",
+    "trainId": "114034",
     "trainNumber": "806E",
     "trainType": "local",
     "direction": "inbound",
@@ -5605,18 +5602,19 @@
         "departureTime": "06:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114034"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_0610_116482",
     "lineId": "tobu_kiryu",
+    "trainId": "116482",
     "trainNumber": "1806レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう6号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -5670,14 +5668,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116482",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_0636_116482",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_0624_114063",
     "lineId": "tobu_kiryu",
+    "trainId": "114063",
     "trainNumber": "805E",
     "trainType": "local",
     "direction": "outbound",
@@ -5735,12 +5732,12 @@
         "departureTime": "06:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114063"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_0645_114035",
     "lineId": "tobu_kiryu",
+    "trainId": "114035",
     "trainNumber": "808E",
     "trainType": "local",
     "direction": "inbound",
@@ -5798,18 +5795,19 @@
         "departureTime": "07:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114035"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_0656_116484",
     "lineId": "tobu_kiryu",
+    "trainId": "116484",
     "trainNumber": "1808レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう8号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -5863,14 +5861,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116484",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_0726_116484",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_0703_114064",
     "lineId": "tobu_kiryu",
+    "trainId": "114064",
     "trainNumber": "807E",
     "trainType": "local",
     "direction": "outbound",
@@ -5928,12 +5925,12 @@
         "departureTime": "07:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114064"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_0714_114036",
     "lineId": "tobu_kiryu",
+    "trainId": "114036",
     "trainNumber": "810E",
     "trainType": "local",
     "direction": "inbound",
@@ -5991,12 +5988,12 @@
         "departureTime": "07:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114036"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_0739_114037",
     "lineId": "tobu_kiryu",
+    "trainId": "114037",
     "trainNumber": "812E",
     "trainType": "local",
     "direction": "inbound",
@@ -6054,12 +6051,12 @@
         "departureTime": "08:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114037"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_0743_114065",
     "lineId": "tobu_kiryu",
+    "trainId": "114065",
     "trainNumber": "809E",
     "trainType": "local",
     "direction": "outbound",
@@ -6117,18 +6114,19 @@
         "departureTime": "08:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114065"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_0805_116467",
     "lineId": "tobu_kiryu",
+    "trainId": "116467",
     "trainNumber": "1814レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう14号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -6182,14 +6180,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116467",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_0836_116467",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_0819_114053",
     "lineId": "tobu_kiryu",
+    "trainId": "114053",
     "trainNumber": "814E",
     "trainType": "local",
     "direction": "inbound",
@@ -6246,12 +6243,12 @@
         "departureTime": "08:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114053"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_0824_116452",
     "lineId": "tobu_kiryu",
+    "trainId": "116452",
     "trainNumber": "1801レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう1号",
@@ -6259,6 +6256,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6311,20 +6309,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "116452",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_0729_116452",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_0835_116469",
     "lineId": "tobu_kiryu",
+    "trainId": "116469",
     "trainNumber": "1816レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう16号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -6378,14 +6376,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116469",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_0900_116469",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_0838_114066",
     "lineId": "tobu_kiryu",
+    "trainId": "114066",
     "trainNumber": "811E",
     "trainType": "local",
     "direction": "outbound",
@@ -6443,18 +6440,19 @@
         "departureTime": "09:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114066"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_0906_116470",
     "lineId": "tobu_kiryu",
+    "trainId": "116470",
     "trainNumber": "1818レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう18号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -6508,14 +6506,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116470",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_0931_116470",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_0912_116453",
     "lineId": "tobu_kiryu",
+    "trainId": "116453",
     "trainNumber": "1803レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう3号",
@@ -6523,6 +6520,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6575,14 +6573,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116453",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_0820_116453",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_0928_114038",
     "lineId": "tobu_kiryu",
+    "trainId": "114038",
     "trainNumber": "816E",
     "trainType": "local",
     "direction": "inbound",
@@ -6640,12 +6637,12 @@
         "departureTime": "10:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114038"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_0938_114067",
     "lineId": "tobu_kiryu",
+    "trainId": "114067",
     "trainNumber": "813E",
     "trainType": "local",
     "direction": "outbound",
@@ -6703,18 +6700,19 @@
         "departureTime": "10:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114067"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1000_116471",
     "lineId": "tobu_kiryu",
+    "trainId": "116471",
     "trainNumber": "1820レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう20号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -6768,14 +6766,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116471",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1029_116471",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_1014_116454",
     "lineId": "tobu_kiryu",
+    "trainId": "116454",
     "trainNumber": "1805レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう5号",
@@ -6783,6 +6780,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6835,14 +6833,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116454",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_0920_116454",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_1030_114039",
     "lineId": "tobu_kiryu",
+    "trainId": "114039",
     "trainNumber": "818E",
     "trainType": "local",
     "direction": "inbound",
@@ -6900,12 +6897,12 @@
         "departureTime": "11:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114039"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_1050_114068",
     "lineId": "tobu_kiryu",
+    "trainId": "114068",
     "trainNumber": "815E",
     "trainType": "local",
     "direction": "outbound",
@@ -6963,18 +6960,19 @@
         "departureTime": "11:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114068"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1103_116472",
     "lineId": "tobu_kiryu",
+    "trainId": "116472",
     "trainNumber": "1822レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう22号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -7028,14 +7026,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116472",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1129_116472",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_1110_116455",
     "lineId": "tobu_kiryu",
+    "trainId": "116455",
     "trainNumber": "1807レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう7号",
@@ -7043,6 +7040,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7095,14 +7093,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116455",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1020_116455",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_1134_114040",
     "lineId": "tobu_kiryu",
+    "trainId": "114040",
     "trainNumber": "820E",
     "trainType": "local",
     "direction": "inbound",
@@ -7160,12 +7157,12 @@
         "departureTime": "12:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114040"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_1153_114069",
     "lineId": "tobu_kiryu",
+    "trainId": "114069",
     "trainNumber": "817E",
     "trainType": "local",
     "direction": "outbound",
@@ -7223,18 +7220,19 @@
         "departureTime": "12:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114069"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1203_116473",
     "lineId": "tobu_kiryu",
+    "trainId": "116473",
     "trainNumber": "1824レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう24号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -7288,14 +7286,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116473",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1230_116473",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_1215_116456",
     "lineId": "tobu_kiryu",
+    "trainId": "116456",
     "trainNumber": "1811レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう11号",
@@ -7303,6 +7300,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7355,14 +7353,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116456",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1129_116456",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_1234_114041",
     "lineId": "tobu_kiryu",
+    "trainId": "114041",
     "trainNumber": "822E",
     "trainType": "local",
     "direction": "inbound",
@@ -7420,12 +7417,12 @@
         "departureTime": "13:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114041"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_1253_114070",
     "lineId": "tobu_kiryu",
+    "trainId": "114070",
     "trainNumber": "819E",
     "trainType": "local",
     "direction": "outbound",
@@ -7483,18 +7480,19 @@
         "departureTime": "13:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114070"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1303_116474",
     "lineId": "tobu_kiryu",
+    "trainId": "116474",
     "trainNumber": "1826レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう26号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -7548,14 +7546,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116474",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1330_116474",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_1315_116457",
     "lineId": "tobu_kiryu",
+    "trainId": "116457",
     "trainNumber": "1813レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう13号",
@@ -7563,6 +7560,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7615,14 +7613,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116457",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1229_116457",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_1334_114042",
     "lineId": "tobu_kiryu",
+    "trainId": "114042",
     "trainNumber": "824E",
     "trainType": "local",
     "direction": "inbound",
@@ -7680,12 +7677,12 @@
         "departureTime": "14:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114042"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_1353_114071",
     "lineId": "tobu_kiryu",
+    "trainId": "114071",
     "trainNumber": "821E",
     "trainType": "local",
     "direction": "outbound",
@@ -7743,18 +7740,19 @@
         "departureTime": "14:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114071"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1403_116475",
     "lineId": "tobu_kiryu",
+    "trainId": "116475",
     "trainNumber": "1828レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう28号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -7808,14 +7806,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116475",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1430_116475",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_1415_116458",
     "lineId": "tobu_kiryu",
+    "trainId": "116458",
     "trainNumber": "1815レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう15号",
@@ -7823,6 +7820,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7875,14 +7873,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116458",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1329_116458",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_1434_114043",
     "lineId": "tobu_kiryu",
+    "trainId": "114043",
     "trainNumber": "826E",
     "trainType": "local",
     "direction": "inbound",
@@ -7940,12 +7937,12 @@
         "departureTime": "15:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114043"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_1452_114072",
     "lineId": "tobu_kiryu",
+    "trainId": "114072",
     "trainNumber": "823E",
     "trainType": "local",
     "direction": "outbound",
@@ -8003,18 +8000,19 @@
         "departureTime": "15:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114072"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1503_116476",
     "lineId": "tobu_kiryu",
+    "trainId": "116476",
     "trainNumber": "1830レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう30号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -8068,14 +8066,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116476",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1528_116476",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_1513_116459",
     "lineId": "tobu_kiryu",
+    "trainId": "116459",
     "trainNumber": "1817レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう17号",
@@ -8083,6 +8080,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8135,14 +8133,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116459",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1429_116459",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_1525_114044",
     "lineId": "tobu_kiryu",
+    "trainId": "114044",
     "trainNumber": "828E",
     "trainType": "local",
     "direction": "inbound",
@@ -8200,12 +8197,12 @@
         "departureTime": "16:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114044"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_1535_114073",
     "lineId": "tobu_kiryu",
+    "trainId": "114073",
     "trainNumber": "825E",
     "trainType": "local",
     "direction": "outbound",
@@ -8263,18 +8260,19 @@
         "departureTime": "16:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114073"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1557_116477",
     "lineId": "tobu_kiryu",
+    "trainId": "116477",
     "trainNumber": "1834レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう34号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -8328,14 +8326,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116477",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1625_116477",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_1604_114074",
     "lineId": "tobu_kiryu",
+    "trainId": "114074",
     "trainNumber": "827E",
     "trainType": "local",
     "direction": "outbound",
@@ -8393,12 +8390,12 @@
         "departureTime": "16:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114074"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1612_114045",
     "lineId": "tobu_kiryu",
+    "trainId": "114045",
     "trainNumber": "830E",
     "trainType": "local",
     "direction": "inbound",
@@ -8456,12 +8453,12 @@
         "departureTime": "16:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114045"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_1615_116460",
     "lineId": "tobu_kiryu",
+    "trainId": "116460",
     "trainNumber": "1819レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう19号",
@@ -8469,6 +8466,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8521,14 +8519,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116460",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1529_116460",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_1644_114046",
     "lineId": "tobu_kiryu",
+    "trainId": "114046",
     "trainNumber": "832E",
     "trainType": "local",
     "direction": "inbound",
@@ -8586,12 +8583,12 @@
         "departureTime": "17:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114046"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_1647_114075",
     "lineId": "tobu_kiryu",
+    "trainId": "114075",
     "trainNumber": "829E",
     "trainType": "local",
     "direction": "outbound",
@@ -8649,18 +8646,19 @@
         "departureTime": "17:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114075"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1700_116478",
     "lineId": "tobu_kiryu",
+    "trainId": "116478",
     "trainNumber": "1838レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう38号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -8714,14 +8712,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116478",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1728_116478",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_1720_116448",
     "lineId": "tobu_kiryu",
+    "trainId": "116448",
     "trainNumber": "1823レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう23号",
@@ -8729,6 +8726,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8781,14 +8779,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116448",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1628_116448",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_1725_114047",
     "lineId": "tobu_kiryu",
+    "trainId": "114047",
     "trainNumber": "834E",
     "trainType": "local",
     "direction": "inbound",
@@ -8846,12 +8843,12 @@
         "departureTime": "18:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114047"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_1728_114076",
     "lineId": "tobu_kiryu",
+    "trainId": "114076",
     "trainNumber": "831E",
     "trainType": "local",
     "direction": "outbound",
@@ -8909,18 +8906,19 @@
         "departureTime": "17:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114076"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1800_116479",
     "lineId": "tobu_kiryu",
+    "trainId": "116479",
     "trainNumber": "1842レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう42号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -8974,14 +8972,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116479",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1826_116479",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_1801_114077",
     "lineId": "tobu_kiryu",
+    "trainId": "114077",
     "trainNumber": "833E",
     "trainType": "local",
     "direction": "outbound",
@@ -9039,12 +9036,12 @@
         "departureTime": "18:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114077"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1811_114048",
     "lineId": "tobu_kiryu",
+    "trainId": "114048",
     "trainNumber": "836E",
     "trainType": "local",
     "direction": "inbound",
@@ -9102,12 +9099,12 @@
         "departureTime": "18:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114048"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_1818_116449",
     "lineId": "tobu_kiryu",
+    "trainId": "116449",
     "trainNumber": "1827レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう27号",
@@ -9115,6 +9112,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9167,14 +9165,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116449",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1729_116449",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_1844_114049",
     "lineId": "tobu_kiryu",
+    "trainId": "114049",
     "trainNumber": "838E",
     "trainType": "local",
     "direction": "inbound",
@@ -9232,12 +9229,12 @@
         "departureTime": "19:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114049"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_1849_114078",
     "lineId": "tobu_kiryu",
+    "trainId": "114078",
     "trainNumber": "835E",
     "trainType": "local",
     "direction": "outbound",
@@ -9295,18 +9292,19 @@
         "departureTime": "19:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114078"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1900_116480",
     "lineId": "tobu_kiryu",
+    "trainId": "116480",
     "trainNumber": "1846レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう46号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -9360,14 +9358,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116480",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_1925_116480",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_1912_116461",
     "lineId": "tobu_kiryu",
+    "trainId": "116461",
     "trainNumber": "1831レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう31号",
@@ -9375,6 +9372,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9427,14 +9425,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116461",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1820_116461",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_1925_114050",
     "lineId": "tobu_kiryu",
+    "trainId": "114050",
     "trainNumber": "840E",
     "trainType": "local",
     "direction": "inbound",
@@ -9492,12 +9489,12 @@
         "departureTime": "20:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114050"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_1927_114079",
     "lineId": "tobu_kiryu",
+    "trainId": "114079",
     "trainNumber": "837E",
     "trainType": "local",
     "direction": "outbound",
@@ -9555,18 +9552,19 @@
         "departureTime": "19:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114079"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_1956_116481",
     "lineId": "tobu_kiryu",
+    "trainId": "116481",
     "trainNumber": "1850レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう50号",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -9620,14 +9618,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116481",
-    "customOrigin": "赤城",
     "throughTripId": "HD_INB_TI-18_2025_116481",
     "throughLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_2002_114051",
     "lineId": "tobu_kiryu",
+    "trainId": "114051",
     "trainNumber": "842E",
     "trainType": "local",
     "direction": "inbound",
@@ -9685,12 +9682,12 @@
         "departureTime": "20:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114051"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_2005_114080",
     "lineId": "tobu_kiryu",
+    "trainId": "114080",
     "trainNumber": "839E",
     "trainType": "local",
     "direction": "outbound",
@@ -9748,12 +9745,12 @@
         "departureTime": "20:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114080"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_2012_116462",
     "lineId": "tobu_kiryu",
+    "trainId": "116462",
     "trainNumber": "1835レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう35号",
@@ -9761,6 +9758,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9813,14 +9811,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116462",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1920_116462",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_2041_114052",
     "lineId": "tobu_kiryu",
+    "trainId": "114052",
     "trainNumber": "844E",
     "trainType": "local",
     "direction": "inbound",
@@ -9878,12 +9875,12 @@
         "departureTime": "21:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114052"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_2044_116463",
     "lineId": "tobu_kiryu",
+    "trainId": "116463",
     "trainNumber": "1837レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう37号",
@@ -9891,6 +9888,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9943,14 +9941,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116463",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_1950_116463",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_OUT_TI-18_2049_114081",
     "lineId": "tobu_kiryu",
+    "trainId": "114081",
     "trainNumber": "841E",
     "trainType": "local",
     "direction": "outbound",
@@ -10008,12 +10005,12 @@
         "departureTime": "21:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114081"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_2119_114082",
     "lineId": "tobu_kiryu",
+    "trainId": "114082",
     "trainNumber": "843E",
     "trainType": "local",
     "direction": "outbound",
@@ -10071,17 +10068,19 @@
         "departureTime": "21:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114082"
+    ]
   },
   {
     "tripId": "HD_INB_TI-57_2129_114054",
     "lineId": "tobu_kiryu",
+    "trainId": "114054",
     "trainNumber": "846E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
+    "customDestination": "太田",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -10133,16 +10132,12 @@
         "departureTime": "22:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114054",
-    "customDestination": "太田",
-    "customOrigin": "赤城",
-    "throughTripId": "HD_INB_TI-25_2155_112835",
-    "throughLineId": "tobu_isesaki"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_2141_116464",
     "lineId": "tobu_kiryu",
+    "trainId": "116464",
     "trainNumber": "1841レ",
     "trainType": "limitedExp",
     "trainName": "りょうもう41号",
@@ -10150,6 +10145,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -10202,14 +10198,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "116464",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_2050_116464",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_2157_114055",
     "lineId": "tobu_kiryu",
+    "trainId": "114055",
     "trainNumber": "848E",
     "trainType": "local",
     "direction": "inbound",
@@ -10266,12 +10261,12 @@
         "departureTime": "22:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114055"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_2209_114060",
     "lineId": "tobu_kiryu",
+    "trainId": "114060",
     "trainNumber": "845E",
     "trainType": "local",
     "direction": "outbound",
@@ -10328,12 +10323,12 @@
         "departureTime": "22:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114060"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_2237_116465",
     "lineId": "tobu_kiryu",
+    "trainId": "116465",
     "trainNumber": "1845レ",
     "trainType": "limitedExp",
     "trainName": "リバティりょうもう45号",
@@ -10341,6 +10336,7 @@
     "originStationId": "TI-18",
     "destinationStationId": "TI-57",
     "customOrigin": "浅草",
+    "customDestination": "赤城",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -10393,19 +10389,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "116465",
-    "customDestination": "赤城",
     "prevTripId": "HD_OUT_TSK-30_2150_116465",
     "prevLineId": "tobu_isesaki"
   },
   {
     "tripId": "HD_INB_TI-57_2244_114056",
     "lineId": "tobu_kiryu",
+    "trainId": "114056",
     "trainNumber": "850E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "TI-57",
     "destinationStationId": "TI-18",
+    "customOrigin": "赤城",
+    "customDestination": "太田",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -10457,16 +10454,12 @@
         "departureTime": "23:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114056",
-    "customDestination": "太田",
-    "customOrigin": "赤城",
-    "throughTripId": "HD_INB_TI-25_2306_112836",
-    "throughLineId": "tobu_isesaki"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_2252_114061",
     "lineId": "tobu_kiryu",
+    "trainId": "114061",
     "trainNumber": "847E",
     "trainType": "local",
     "direction": "outbound",
@@ -10523,12 +10516,12 @@
         "departureTime": "23:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114061"
+    ]
   },
   {
     "tripId": "HD_OUT_TI-18_2321_114083",
     "lineId": "tobu_kiryu",
+    "trainId": "114083",
     "trainNumber": "849E",
     "trainType": "local",
     "direction": "outbound",
@@ -10586,7 +10579,6 @@
         "departureTime": "23:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "114083"
+    ]
   }
 ]

@@ -2,12 +2,14 @@
   {
     "tripId": "WD_INB_RY-18_0016_34516",
     "lineId": "ryomo",
+    "trainId": "34516",
     "trainNumber": "1940E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "RY-18",
     "destinationStationId": "RY-17",
     "customOrigin": "国府津",
+    "customDestination": "前橋",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -24,14 +26,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34516",
-    "customDestination": "前橋",
     "prevTripId": "WD_OUT_TK-02_2219_34516",
     "prevLineId": "takasaki"
   },
   {
     "tripId": "WD_INB_RY-12_0518_37436",
     "lineId": "ryomo",
+    "trainId": "37436",
     "trainNumber": "421M",
     "trainType": "local",
     "direction": "inbound",
@@ -112,12 +113,12 @@
         "departureTime": "06:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "37436"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-13_0528_18887",
     "lineId": "ryomo",
+    "trainId": "18887",
     "trainNumber": "420M",
     "trainType": "local",
     "direction": "outbound",
@@ -165,18 +166,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "18887",
     "throughTripId": "WD_INB_JOE-04_0554_18887",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_RY-17_0531_33438",
     "lineId": "ryomo",
+    "trainId": "33438",
     "trainNumber": "2825Y",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "小田原",
     "cars": 4,
     "isHoliday": false,
@@ -194,14 +196,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33438",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_TK-25_0556_33438",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_INB_RY-12_0552_37437",
     "lineId": "ryomo",
+    "trainId": "37437",
     "trainNumber": "423M",
     "trainType": "local",
     "direction": "inbound",
@@ -282,12 +283,12 @@
         "departureTime": "06:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "37437"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_0553_18848",
     "lineId": "ryomo",
+    "trainId": "18848",
     "trainNumber": "428M",
     "trainType": "local",
     "direction": "outbound",
@@ -369,12 +370,12 @@
         "departureTime": "07:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18848"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-13_0600_18888",
     "lineId": "ryomo",
+    "trainId": "18888",
     "trainNumber": "422M",
     "trainType": "local",
     "direction": "outbound",
@@ -422,18 +423,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "18888",
     "throughTripId": "WD_INB_JOE-04_0628_18888",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_RY-17_0600_34296",
     "lineId": "ryomo",
+    "trainId": "34296",
     "trainNumber": "1837E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "熱海",
     "cars": 4,
     "isHoliday": false,
@@ -451,14 +453,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34296",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_TK-25_0621_34296",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_INB_RY-12_0612_21725",
     "lineId": "ryomo",
+    "trainId": "21725",
     "trainNumber": "425M",
     "trainType": "local",
     "direction": "inbound",
@@ -540,12 +541,12 @@
         "departureTime": "07:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21725"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_0629_37438",
     "lineId": "ryomo",
+    "trainId": "37438",
     "trainNumber": "427M",
     "trainType": "local",
     "direction": "inbound",
@@ -626,12 +627,12 @@
         "departureTime": "07:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "37438"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_0630_18849",
     "lineId": "ryomo",
+    "trainId": "18849",
     "trainNumber": "430M",
     "trainType": "local",
     "direction": "outbound",
@@ -713,17 +714,18 @@
         "departureTime": "07:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18849"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-17_0633_34290",
     "lineId": "ryomo",
+    "trainId": "34290",
     "trainNumber": "1843E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "平塚",
     "cars": 4,
     "isHoliday": false,
@@ -741,14 +743,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34290",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_TK-25_0648_34290",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_OUT_RY-13_0634_18889",
     "lineId": "ryomo",
+    "trainId": "18889",
     "trainNumber": "424M",
     "trainType": "local",
     "direction": "outbound",
@@ -796,13 +797,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18889",
     "throughTripId": "WD_INB_JOE-04_0659_18889",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-18_0637_21706",
     "lineId": "ryomo",
+    "trainId": "21706",
     "trainNumber": "621M",
     "trainType": "local",
     "direction": "inbound",
@@ -842,17 +843,18 @@
         "departureTime": "06:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21706"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-17_0641_40903",
     "lineId": "ryomo",
+    "trainId": "40903",
     "trainNumber": "832M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "上野",
     "cars": 4,
     "isHoliday": false,
@@ -870,14 +872,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40903",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_TK-25_0658_40903",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_INB_RY-18_0648_21699",
     "lineId": "ryomo",
+    "trainId": "21699",
     "trainNumber": "1621M",
     "trainType": "local",
     "direction": "inbound",
@@ -899,12 +900,12 @@
         "departureTime": "06:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21699"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_0659_21726",
     "lineId": "ryomo",
+    "trainId": "21726",
     "trainNumber": "429M",
     "trainType": "local",
     "direction": "inbound",
@@ -986,12 +987,12 @@
         "departureTime": "08:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21726"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_0700_18850",
     "lineId": "ryomo",
+    "trainId": "18850",
     "trainNumber": "432M",
     "trainType": "local",
     "direction": "outbound",
@@ -1073,17 +1074,18 @@
         "departureTime": "08:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18850"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-14_0701_18875",
     "lineId": "ryomo",
+    "trainId": "18875",
     "trainNumber": "620M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -1119,19 +1121,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "18875",
-    "customOrigin": "伊勢崎",
     "throughTripId": "WD_INB_JOE-04_0722_18875",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_RY-17_0708_33436",
     "lineId": "ryomo",
+    "trainId": "33436",
     "trainNumber": "2835Y",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "国府津",
     "cars": 4,
     "isHoliday": false,
@@ -1149,14 +1151,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33436",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_TK-25_0726_33436",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_OUT_RY-13_0712_18890",
     "lineId": "ryomo",
+    "trainId": "18890",
     "trainNumber": "426M",
     "trainType": "local",
     "direction": "outbound",
@@ -1204,13 +1205,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18890",
     "throughTripId": "WD_INB_JOE-04_0741_18890",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_RY-01_0718_10058",
     "lineId": "ryomo",
+    "trainId": "10058",
     "trainNumber": "434M",
     "trainType": "local",
     "direction": "outbound",
@@ -1291,12 +1292,12 @@
         "departureTime": "08:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "10058"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_0730_21719",
     "lineId": "ryomo",
+    "trainId": "21719",
     "trainNumber": "435M",
     "trainType": "local",
     "direction": "inbound",
@@ -1343,12 +1344,12 @@
         "departureTime": "07:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21719"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_0736_10059",
     "lineId": "ryomo",
+    "trainId": "10059",
     "trainNumber": "436M",
     "trainType": "local",
     "direction": "outbound",
@@ -1429,12 +1430,12 @@
         "departureTime": "08:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "10059"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_0743_21727",
     "lineId": "ryomo",
+    "trainId": "21727",
     "trainNumber": "431M",
     "trainType": "local",
     "direction": "inbound",
@@ -1516,12 +1517,12 @@
         "departureTime": "08:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21727"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_0750_21707",
     "lineId": "ryomo",
+    "trainId": "21707",
     "trainNumber": "625M",
     "trainType": "local",
     "direction": "inbound",
@@ -1561,12 +1562,12 @@
         "departureTime": "08:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21707"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_0758_21728",
     "lineId": "ryomo",
+    "trainId": "21728",
     "trainNumber": "433M",
     "trainType": "local",
     "direction": "inbound",
@@ -1648,12 +1649,12 @@
         "departureTime": "09:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21728"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_0809_18851",
     "lineId": "ryomo",
+    "trainId": "18851",
     "trainNumber": "440M",
     "trainType": "local",
     "direction": "outbound",
@@ -1735,17 +1736,18 @@
         "departureTime": "09:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18851"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-14_0811_18876",
     "lineId": "ryomo",
+    "trainId": "18876",
     "trainNumber": "622M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -1781,14 +1783,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18876",
-    "customOrigin": "伊勢崎",
     "throughTripId": "WD_INB_JOE-04_0830_18876",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-18_0817_21708",
     "lineId": "ryomo",
+    "trainId": "21708",
     "trainNumber": "627M",
     "trainType": "local",
     "direction": "inbound",
@@ -1828,12 +1829,12 @@
         "departureTime": "08:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21708"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_0830_21700",
     "lineId": "ryomo",
+    "trainId": "21700",
     "trainNumber": "651M",
     "trainType": "local",
     "direction": "inbound",
@@ -1855,12 +1856,12 @@
         "departureTime": "08:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21700"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-13_0850_18891",
     "lineId": "ryomo",
+    "trainId": "18891",
     "trainNumber": "438M",
     "trainType": "local",
     "direction": "outbound",
@@ -1908,18 +1909,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "18891",
     "throughTripId": "WD_INB_JOE-04_0918_18891",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_RY-17_0850_18870",
     "lineId": "ryomo",
+    "trainId": "18870",
     "trainNumber": "652M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -1937,14 +1939,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18870",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_JOE-04_0855_18870",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-12_0853_21729",
     "lineId": "ryomo",
+    "trainId": "21729",
     "trainNumber": "437M",
     "trainType": "local",
     "direction": "inbound",
@@ -2026,12 +2027,12 @@
         "departureTime": "09:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21729"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_0856_18852",
     "lineId": "ryomo",
+    "trainId": "18852",
     "trainNumber": "442M",
     "trainType": "local",
     "direction": "outbound",
@@ -2113,12 +2114,12 @@
         "departureTime": "10:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18852"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_0919_21709",
     "lineId": "ryomo",
+    "trainId": "21709",
     "trainNumber": "629M",
     "trainType": "local",
     "direction": "inbound",
@@ -2158,12 +2159,12 @@
         "departureTime": "09:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21709"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_0928_18853",
     "lineId": "ryomo",
+    "trainId": "18853",
     "trainNumber": "444M",
     "trainType": "local",
     "direction": "outbound",
@@ -2245,12 +2246,12 @@
         "departureTime": "10:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18853"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_0929_21730",
     "lineId": "ryomo",
+    "trainId": "21730",
     "trainNumber": "439M",
     "trainType": "local",
     "direction": "inbound",
@@ -2332,12 +2333,12 @@
         "departureTime": "10:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21730"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_0941_21701",
     "lineId": "ryomo",
+    "trainId": "21701",
     "trainNumber": "653M",
     "trainType": "local",
     "direction": "inbound",
@@ -2359,17 +2360,18 @@
         "departureTime": "09:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21701"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-14_0950_18877",
     "lineId": "ryomo",
+    "trainId": "18877",
     "trainNumber": "624M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -2405,14 +2407,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18877",
-    "customOrigin": "伊勢崎",
     "throughTripId": "WD_INB_JOE-04_1010_18877",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_RY-01_1013_18854",
     "lineId": "ryomo",
+    "trainId": "18854",
     "trainNumber": "446M",
     "trainType": "local",
     "direction": "outbound",
@@ -2494,12 +2495,12 @@
         "departureTime": "11:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18854"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_1018_21710",
     "lineId": "ryomo",
+    "trainId": "21710",
     "trainNumber": "633M",
     "trainType": "local",
     "direction": "inbound",
@@ -2539,17 +2540,18 @@
         "departureTime": "10:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21710"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-17_1022_18871",
     "lineId": "ryomo",
+    "trainId": "18871",
     "trainNumber": "654M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -2567,14 +2569,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18871",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_JOE-04_1027_18871",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-12_1029_21731",
     "lineId": "ryomo",
+    "trainId": "21731",
     "trainNumber": "441M",
     "trainType": "local",
     "direction": "inbound",
@@ -2656,12 +2657,12 @@
         "departureTime": "11:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21731"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_1102_18855",
     "lineId": "ryomo",
+    "trainId": "18855",
     "trainNumber": "448M",
     "trainType": "local",
     "direction": "outbound",
@@ -2743,17 +2744,18 @@
         "departureTime": "12:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18855"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-14_1119_18878",
     "lineId": "ryomo",
+    "trainId": "18878",
     "trainNumber": "626M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -2789,14 +2791,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18878",
-    "customOrigin": "伊勢崎",
     "throughTripId": "WD_INB_JOE-04_1139_18878",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-18_1120_21711",
     "lineId": "ryomo",
+    "trainId": "21711",
     "trainNumber": "635M",
     "trainType": "local",
     "direction": "inbound",
@@ -2836,12 +2837,12 @@
         "departureTime": "11:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21711"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_1127_21732",
     "lineId": "ryomo",
+    "trainId": "21732",
     "trainNumber": "443M",
     "trainType": "local",
     "direction": "inbound",
@@ -2923,12 +2924,12 @@
         "departureTime": "12:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21732"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_1202_18856",
     "lineId": "ryomo",
+    "trainId": "18856",
     "trainNumber": "450M",
     "trainType": "local",
     "direction": "outbound",
@@ -3010,12 +3011,12 @@
         "departureTime": "13:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18856"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_1225_21712",
     "lineId": "ryomo",
+    "trainId": "21712",
     "trainNumber": "637M",
     "trainType": "local",
     "direction": "inbound",
@@ -3055,12 +3056,12 @@
         "departureTime": "12:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21712"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_1227_21734",
     "lineId": "ryomo",
+    "trainId": "21734",
     "trainNumber": "445M",
     "trainType": "local",
     "direction": "inbound",
@@ -3142,17 +3143,18 @@
         "departureTime": "13:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21734"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-14_1250_18879",
     "lineId": "ryomo",
+    "trainId": "18879",
     "trainNumber": "628M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -3188,14 +3190,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18879",
-    "customOrigin": "伊勢崎",
     "throughTripId": "WD_INB_JOE-04_1310_18879",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_RY-01_1302_18857",
     "lineId": "ryomo",
+    "trainId": "18857",
     "trainNumber": "452M",
     "trainType": "local",
     "direction": "outbound",
@@ -3277,12 +3278,12 @@
         "departureTime": "14:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18857"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_1319_21713",
     "lineId": "ryomo",
+    "trainId": "21713",
     "trainNumber": "639M",
     "trainType": "local",
     "direction": "inbound",
@@ -3322,12 +3323,12 @@
         "departureTime": "13:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21713"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_1327_21735",
     "lineId": "ryomo",
+    "trainId": "21735",
     "trainNumber": "447M",
     "trainType": "local",
     "direction": "inbound",
@@ -3409,17 +3410,18 @@
         "departureTime": "14:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21735"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-14_1350_18880",
     "lineId": "ryomo",
+    "trainId": "18880",
     "trainNumber": "630M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -3455,14 +3457,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18880",
-    "customOrigin": "伊勢崎",
     "throughTripId": "WD_INB_JOE-04_1412_18880",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_RY-01_1402_18858",
     "lineId": "ryomo",
+    "trainId": "18858",
     "trainNumber": "454M",
     "trainType": "local",
     "direction": "outbound",
@@ -3544,12 +3545,12 @@
         "departureTime": "15:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18858"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_1418_21714",
     "lineId": "ryomo",
+    "trainId": "21714",
     "trainNumber": "641M",
     "trainType": "local",
     "direction": "inbound",
@@ -3589,12 +3590,12 @@
         "departureTime": "14:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21714"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_1427_21736",
     "lineId": "ryomo",
+    "trainId": "21736",
     "trainNumber": "449M",
     "trainType": "local",
     "direction": "inbound",
@@ -3676,17 +3677,18 @@
         "departureTime": "15:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21736"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-14_1450_18881",
     "lineId": "ryomo",
+    "trainId": "18881",
     "trainNumber": "632M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -3722,14 +3724,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18881",
-    "customOrigin": "伊勢崎",
     "throughTripId": "WD_INB_JOE-04_1510_18881",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_RY-01_1502_18859",
     "lineId": "ryomo",
+    "trainId": "18859",
     "trainNumber": "456M",
     "trainType": "local",
     "direction": "outbound",
@@ -3811,12 +3812,12 @@
         "departureTime": "16:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18859"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_1527_21737",
     "lineId": "ryomo",
+    "trainId": "21737",
     "trainNumber": "451M",
     "trainType": "local",
     "direction": "inbound",
@@ -3898,12 +3899,12 @@
         "departureTime": "16:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21737"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_1539_21715",
     "lineId": "ryomo",
+    "trainId": "21715",
     "trainNumber": "643M",
     "trainType": "local",
     "direction": "inbound",
@@ -3943,17 +3944,18 @@
         "departureTime": "15:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21715"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-14_1545_18882",
     "lineId": "ryomo",
+    "trainId": "18882",
     "trainNumber": "634M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -3989,14 +3991,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18882",
-    "customOrigin": "伊勢崎",
     "throughTripId": "WD_INB_JOE-04_1604_18882",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-12_1600_21738",
     "lineId": "ryomo",
+    "trainId": "21738",
     "trainNumber": "453M",
     "trainType": "local",
     "direction": "inbound",
@@ -4078,12 +4079,12 @@
         "departureTime": "16:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21738"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_1602_18860",
     "lineId": "ryomo",
+    "trainId": "18860",
     "trainNumber": "460M",
     "trainType": "local",
     "direction": "outbound",
@@ -4165,17 +4166,18 @@
         "departureTime": "17:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18860"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-17_1613_34294",
     "lineId": "ryomo",
+    "trainId": "34294",
     "trainNumber": "1927E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "国府津",
     "cars": 4,
     "isHoliday": false,
@@ -4193,19 +4195,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "34294",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_TK-25_1641_34294",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_OUT_RY-14_1616_18883",
     "lineId": "ryomo",
+    "trainId": "18883",
     "trainNumber": "636M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -4241,14 +4243,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18883",
-    "customOrigin": "伊勢崎",
     "throughTripId": "WD_INB_JOE-04_1640_18883",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-18_1618_21720",
     "lineId": "ryomo",
+    "trainId": "21720",
     "trainNumber": "457M",
     "trainType": "local",
     "direction": "inbound",
@@ -4295,12 +4296,12 @@
         "departureTime": "16:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21720"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_1640_21739",
     "lineId": "ryomo",
+    "trainId": "21739",
     "trainNumber": "455M",
     "trainType": "local",
     "direction": "inbound",
@@ -4382,12 +4383,12 @@
         "departureTime": "17:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21739"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_1645_18861",
     "lineId": "ryomo",
+    "trainId": "18861",
     "trainNumber": "464M",
     "trainType": "local",
     "direction": "outbound",
@@ -4469,12 +4470,12 @@
         "departureTime": "17:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18861"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-13_1654_18892",
     "lineId": "ryomo",
+    "trainId": "18892",
     "trainNumber": "458M",
     "trainType": "local",
     "direction": "outbound",
@@ -4522,13 +4523,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18892",
     "throughTripId": "WD_INB_JOE-04_1721_18892",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-12_1723_21740",
     "lineId": "ryomo",
+    "trainId": "21740",
     "trainNumber": "459M",
     "trainType": "local",
     "direction": "inbound",
@@ -4610,12 +4611,12 @@
         "departureTime": "18:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21740"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_1725_18862",
     "lineId": "ryomo",
+    "trainId": "18862",
     "trainNumber": "466M",
     "trainType": "local",
     "direction": "outbound",
@@ -4697,12 +4698,12 @@
         "departureTime": "18:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18862"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_1733_21716",
     "lineId": "ryomo",
+    "trainId": "21716",
     "trainNumber": "645M",
     "trainType": "local",
     "direction": "inbound",
@@ -4742,12 +4743,12 @@
         "departureTime": "17:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21716"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-13_1744_18893",
     "lineId": "ryomo",
+    "trainId": "18893",
     "trainNumber": "462M",
     "trainType": "local",
     "direction": "outbound",
@@ -4795,13 +4796,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18893",
     "throughTripId": "WD_INB_JOE-04_1811_18893",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-12_1751_21741",
     "lineId": "ryomo",
+    "trainId": "21741",
     "trainNumber": "461M",
     "trainType": "local",
     "direction": "inbound",
@@ -4883,12 +4884,12 @@
         "departureTime": "18:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21741"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_1800_18863",
     "lineId": "ryomo",
+    "trainId": "18863",
     "trainNumber": "468M",
     "trainType": "local",
     "direction": "outbound",
@@ -4970,17 +4971,18 @@
         "departureTime": "19:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18863"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-17_1815_34298",
     "lineId": "ryomo",
+    "trainId": "34298",
     "trainNumber": "1937E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "熱海",
     "cars": 4,
     "isHoliday": false,
@@ -4998,14 +5000,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34298",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_TK-25_1831_34298",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_INB_RY-12_1824_21742",
     "lineId": "ryomo",
+    "trainId": "21742",
     "trainNumber": "463M",
     "trainType": "local",
     "direction": "inbound",
@@ -5087,17 +5088,18 @@
         "departureTime": "19:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21742"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-14_1828_18884",
     "lineId": "ryomo",
+    "trainId": "18884",
     "trainNumber": "638M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -5133,14 +5135,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18884",
-    "customOrigin": "伊勢崎",
     "throughTripId": "WD_INB_JOE-04_1850_18884",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-18_1828_21717",
     "lineId": "ryomo",
+    "trainId": "21717",
     "trainNumber": "647M",
     "trainType": "local",
     "direction": "inbound",
@@ -5180,12 +5181,12 @@
         "departureTime": "18:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21717"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_1830_18864",
     "lineId": "ryomo",
+    "trainId": "18864",
     "trainNumber": "470M",
     "trainType": "local",
     "direction": "outbound",
@@ -5267,12 +5268,12 @@
         "departureTime": "19:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18864"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_1848_21743",
     "lineId": "ryomo",
+    "trainId": "21743",
     "trainNumber": "465M",
     "trainType": "local",
     "direction": "inbound",
@@ -5354,12 +5355,12 @@
         "departureTime": "19:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21743"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_1901_18865",
     "lineId": "ryomo",
+    "trainId": "18865",
     "trainNumber": "472M",
     "trainType": "local",
     "direction": "outbound",
@@ -5441,17 +5442,18 @@
         "departureTime": "20:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18865"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-14_1907_18885",
     "lineId": "ryomo",
+    "trainId": "18885",
     "trainNumber": "640M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -5487,19 +5489,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "18885",
-    "customOrigin": "伊勢崎",
     "throughTripId": "WD_INB_JOE-04_1927_18885",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_OUT_RY-17_1913_40905",
     "lineId": "ryomo",
+    "trainId": "40905",
     "trainNumber": "852M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "上野",
     "cars": 4,
     "isHoliday": false,
@@ -5517,14 +5519,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40905",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_TK-25_1930_40905",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "WD_INB_RY-12_1927_21744",
     "lineId": "ryomo",
+    "trainId": "21744",
     "trainNumber": "467M",
     "trainType": "local",
     "direction": "inbound",
@@ -5606,12 +5607,12 @@
         "departureTime": "20:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21744"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_1932_18866",
     "lineId": "ryomo",
+    "trainId": "18866",
     "trainNumber": "474M",
     "trainType": "local",
     "direction": "outbound",
@@ -5693,12 +5694,12 @@
         "departureTime": "20:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18866"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_1941_21718",
     "lineId": "ryomo",
+    "trainId": "21718",
     "trainNumber": "649M",
     "trainType": "local",
     "direction": "inbound",
@@ -5738,12 +5739,12 @@
         "departureTime": "19:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21718"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_1959_21746",
     "lineId": "ryomo",
+    "trainId": "21746",
     "trainNumber": "469M",
     "trainType": "local",
     "direction": "inbound",
@@ -5825,12 +5826,12 @@
         "departureTime": "20:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21746"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_2006_18867",
     "lineId": "ryomo",
+    "trainId": "18867",
     "trainNumber": "476M",
     "trainType": "local",
     "direction": "outbound",
@@ -5912,17 +5913,18 @@
         "departureTime": "21:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18867"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-14_2011_18886",
     "lineId": "ryomo",
+    "trainId": "18886",
     "trainNumber": "642M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -5958,14 +5960,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18886",
-    "customOrigin": "伊勢崎",
     "throughTripId": "WD_INB_JOE-04_2034_18886",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-18_2012_21702",
     "lineId": "ryomo",
+    "trainId": "21702",
     "trainNumber": "655M",
     "trainType": "local",
     "direction": "inbound",
@@ -5987,12 +5988,12 @@
         "departureTime": "20:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21702"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_2025_21721",
     "lineId": "ryomo",
+    "trainId": "21721",
     "trainNumber": "473M",
     "trainType": "local",
     "direction": "inbound",
@@ -6039,12 +6040,12 @@
         "departureTime": "20:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21721"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_2035_21747",
     "lineId": "ryomo",
+    "trainId": "21747",
     "trainNumber": "471M",
     "trainType": "local",
     "direction": "inbound",
@@ -6126,12 +6127,12 @@
         "departureTime": "21:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21747"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_2045_18868",
     "lineId": "ryomo",
+    "trainId": "18868",
     "trainNumber": "478M",
     "trainType": "local",
     "direction": "outbound",
@@ -6213,17 +6214,18 @@
         "departureTime": "21:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18868"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-17_2055_18872",
     "lineId": "ryomo",
+    "trainId": "18872",
     "trainNumber": "656M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -6241,14 +6243,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18872",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_JOE-04_2100_18872",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-18_2115_21703",
     "lineId": "ryomo",
+    "trainId": "21703",
     "trainNumber": "657M",
     "trainType": "local",
     "direction": "inbound",
@@ -6270,12 +6271,12 @@
         "departureTime": "21:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21703"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_2124_21748",
     "lineId": "ryomo",
+    "trainId": "21748",
     "trainNumber": "475M",
     "trainType": "local",
     "direction": "inbound",
@@ -6357,17 +6358,18 @@
         "departureTime": "22:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21748"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-17_2124_18873",
     "lineId": "ryomo",
+    "trainId": "18873",
     "trainNumber": "658M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -6385,14 +6387,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18873",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_JOE-04_2130_18873",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-18_2128_21722",
     "lineId": "ryomo",
+    "trainId": "21722",
     "trainNumber": "477M",
     "trainType": "local",
     "direction": "inbound",
@@ -6439,12 +6440,12 @@
         "departureTime": "21:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21722"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-01_2130_18869",
     "lineId": "ryomo",
+    "trainId": "18869",
     "trainNumber": "480M",
     "trainType": "local",
     "direction": "outbound",
@@ -6526,18 +6527,19 @@
         "departureTime": "22:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18869"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_2209_33715",
     "lineId": "ryomo",
+    "trainId": "33715",
     "trainNumber": "2856Y",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "RY-18",
     "destinationStationId": "RY-17",
     "customOrigin": "平塚",
+    "customDestination": "前橋",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6554,14 +6556,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33715",
-    "customDestination": "前橋",
     "prevTripId": "WD_OUT_TK-04_2011_33715",
     "prevLineId": "takasaki"
   },
   {
     "tripId": "WD_OUT_RY-01_2215_10063",
     "lineId": "ryomo",
+    "trainId": "10063",
     "trainNumber": "482M",
     "trainType": "local",
     "direction": "outbound",
@@ -6642,12 +6643,12 @@
         "departureTime": "23:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "10063"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_2227_21704",
     "lineId": "ryomo",
+    "trainId": "21704",
     "trainNumber": "659M",
     "trainType": "local",
     "direction": "inbound",
@@ -6669,12 +6670,12 @@
         "departureTime": "22:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21704"
+    ]
   },
   {
     "tripId": "WD_INB_RY-12_2229_21749",
     "lineId": "ryomo",
+    "trainId": "21749",
     "trainNumber": "479M",
     "trainType": "local",
     "direction": "inbound",
@@ -6756,17 +6757,18 @@
         "departureTime": "23:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21749"
+    ]
   },
   {
     "tripId": "WD_OUT_RY-17_2237_18874",
     "lineId": "ryomo",
+    "trainId": "18874",
     "trainNumber": "660M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": false,
@@ -6784,14 +6786,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18874",
-    "customOrigin": "前橋",
     "throughTripId": "WD_INB_JOE-04_2242_18874",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "WD_INB_RY-18_2244_21723",
     "lineId": "ryomo",
+    "trainId": "21723",
     "trainNumber": "481M",
     "trainType": "local",
     "direction": "inbound",
@@ -6838,18 +6839,19 @@
         "departureTime": "23:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21723"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_2303_33717",
     "lineId": "ryomo",
+    "trainId": "33717",
     "trainNumber": "2860Y",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "RY-18",
     "destinationStationId": "RY-17",
     "customOrigin": "国府津",
+    "customDestination": "前橋",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6866,14 +6868,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33717",
-    "customDestination": "前橋",
     "prevTripId": "WD_OUT_TK-04_2110_33717",
     "prevLineId": "takasaki"
   },
   {
     "tripId": "WD_OUT_RY-01_2312_10064",
     "lineId": "ryomo",
+    "trainId": "10064",
     "trainNumber": "484M",
     "trainType": "local",
     "direction": "outbound",
@@ -6954,12 +6955,12 @@
         "departureTime": "00:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "10064"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_2328_21724",
     "lineId": "ryomo",
+    "trainId": "21724",
     "trainNumber": "483M",
     "trainType": "local",
     "direction": "inbound",
@@ -7006,12 +7007,12 @@
         "departureTime": "23:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21724"
+    ]
   },
   {
     "tripId": "WD_INB_RY-18_2356_21705",
     "lineId": "ryomo",
+    "trainId": "21705",
     "trainNumber": "661M",
     "trainType": "local",
     "direction": "inbound",
@@ -7033,18 +7034,19 @@
         "departureTime": "23:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21705"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_0016_34515",
     "lineId": "ryomo",
+    "trainId": "34515",
     "trainNumber": "1944E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "RY-18",
     "destinationStationId": "RY-17",
     "customOrigin": "国府津",
+    "customDestination": "前橋",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -7061,14 +7063,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34515",
-    "customDestination": "前橋",
     "prevTripId": "HD_OUT_TK-02_2215_34515",
     "prevLineId": "takasaki"
   },
   {
     "tripId": "HD_INB_RY-12_0518_37436",
     "lineId": "ryomo",
+    "trainId": "37436",
     "trainNumber": "421M",
     "trainType": "local",
     "direction": "inbound",
@@ -7149,12 +7150,12 @@
         "departureTime": "06:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "37436"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-13_0528_18887",
     "lineId": "ryomo",
+    "trainId": "18887",
     "trainNumber": "420M",
     "trainType": "local",
     "direction": "outbound",
@@ -7202,18 +7203,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "18887",
     "throughTripId": "HD_INB_JOE-04_0554_18887",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_RY-17_0531_33439",
     "lineId": "ryomo",
+    "trainId": "33439",
     "trainNumber": "2825Y",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "小田原",
     "cars": 4,
     "isHoliday": true,
@@ -7231,14 +7233,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33439",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_TK-25_0610_33439",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_INB_RY-12_0552_37437",
     "lineId": "ryomo",
+    "trainId": "37437",
     "trainNumber": "423M",
     "trainType": "local",
     "direction": "inbound",
@@ -7319,12 +7320,12 @@
         "departureTime": "06:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "37437"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_0553_18848",
     "lineId": "ryomo",
+    "trainId": "18848",
     "trainNumber": "428M",
     "trainType": "local",
     "direction": "outbound",
@@ -7406,12 +7407,12 @@
         "departureTime": "07:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18848"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-13_0600_18888",
     "lineId": "ryomo",
+    "trainId": "18888",
     "trainNumber": "422M",
     "trainType": "local",
     "direction": "outbound",
@@ -7459,18 +7460,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "18888",
     "throughTripId": "HD_INB_JOE-04_0628_18888",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_RY-17_0600_34289",
     "lineId": "ryomo",
+    "trainId": "34289",
     "trainNumber": "1837E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "品川",
     "cars": 4,
     "isHoliday": true,
@@ -7488,14 +7490,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34289",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_TK-25_0622_34289",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_INB_RY-12_0612_21725",
     "lineId": "ryomo",
+    "trainId": "21725",
     "trainNumber": "425M",
     "trainType": "local",
     "direction": "inbound",
@@ -7577,17 +7578,18 @@
         "departureTime": "07:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21725"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-17_0616_34293",
     "lineId": "ryomo",
+    "trainId": "34293",
     "trainNumber": "1841E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "国府津",
     "cars": 4,
     "isHoliday": true,
@@ -7605,14 +7607,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34293",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_TK-25_0647_34293",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_INB_RY-12_0629_37438",
     "lineId": "ryomo",
+    "trainId": "37438",
     "trainNumber": "427M",
     "trainType": "local",
     "direction": "inbound",
@@ -7693,12 +7694,12 @@
         "departureTime": "07:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "37438"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_0630_18849",
     "lineId": "ryomo",
+    "trainId": "18849",
     "trainNumber": "430M",
     "trainType": "local",
     "direction": "outbound",
@@ -7780,12 +7781,12 @@
         "departureTime": "07:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18849"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-13_0634_18889",
     "lineId": "ryomo",
+    "trainId": "18889",
     "trainNumber": "424M",
     "trainType": "local",
     "direction": "outbound",
@@ -7833,13 +7834,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18889",
     "throughTripId": "HD_INB_JOE-04_0659_18889",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-18_0637_21706",
     "lineId": "ryomo",
+    "trainId": "21706",
     "trainNumber": "621M",
     "trainType": "local",
     "direction": "inbound",
@@ -7879,17 +7880,18 @@
         "departureTime": "06:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21706"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-17_0641_34291",
     "lineId": "ryomo",
+    "trainId": "34291",
     "trainNumber": "1843E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "平塚",
     "cars": 4,
     "isHoliday": true,
@@ -7907,14 +7909,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34291",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_TK-25_0659_34291",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_INB_RY-18_0648_21699",
     "lineId": "ryomo",
+    "trainId": "21699",
     "trainNumber": "1621M",
     "trainType": "local",
     "direction": "inbound",
@@ -7936,12 +7937,12 @@
         "departureTime": "06:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21699"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_0659_21726",
     "lineId": "ryomo",
+    "trainId": "21726",
     "trainNumber": "429M",
     "trainType": "local",
     "direction": "inbound",
@@ -8023,12 +8024,12 @@
         "departureTime": "08:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21726"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_0700_18850",
     "lineId": "ryomo",
+    "trainId": "18850",
     "trainNumber": "432M",
     "trainType": "local",
     "direction": "outbound",
@@ -8110,17 +8111,18 @@
         "departureTime": "08:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18850"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-14_0701_18875",
     "lineId": "ryomo",
+    "trainId": "18875",
     "trainNumber": "620M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -8156,19 +8158,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "18875",
-    "customOrigin": "伊勢崎",
     "throughTripId": "HD_INB_JOE-04_0722_18875",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_RY-17_0708_34292",
     "lineId": "ryomo",
+    "trainId": "34292",
     "trainNumber": "1847E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "平塚",
     "cars": 4,
     "isHoliday": true,
@@ -8186,14 +8188,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34292",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_TK-25_0726_34292",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_OUT_RY-13_0712_18890",
     "lineId": "ryomo",
+    "trainId": "18890",
     "trainNumber": "426M",
     "trainType": "local",
     "direction": "outbound",
@@ -8241,13 +8242,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18890",
     "throughTripId": "HD_INB_JOE-04_0741_18890",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_RY-01_0718_10058",
     "lineId": "ryomo",
+    "trainId": "10058",
     "trainNumber": "434M",
     "trainType": "local",
     "direction": "outbound",
@@ -8328,12 +8329,12 @@
         "departureTime": "08:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "10058"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_0730_21719",
     "lineId": "ryomo",
+    "trainId": "21719",
     "trainNumber": "435M",
     "trainType": "local",
     "direction": "inbound",
@@ -8380,12 +8381,12 @@
         "departureTime": "07:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21719"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_0736_10059",
     "lineId": "ryomo",
+    "trainId": "10059",
     "trainNumber": "436M",
     "trainType": "local",
     "direction": "outbound",
@@ -8466,12 +8467,12 @@
         "departureTime": "08:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "10059"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_0743_21727",
     "lineId": "ryomo",
+    "trainId": "21727",
     "trainNumber": "431M",
     "trainType": "local",
     "direction": "inbound",
@@ -8553,12 +8554,12 @@
         "departureTime": "08:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21727"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_0750_21707",
     "lineId": "ryomo",
+    "trainId": "21707",
     "trainNumber": "625M",
     "trainType": "local",
     "direction": "inbound",
@@ -8598,12 +8599,12 @@
         "departureTime": "08:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21707"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_0758_21728",
     "lineId": "ryomo",
+    "trainId": "21728",
     "trainNumber": "433M",
     "trainType": "local",
     "direction": "inbound",
@@ -8685,17 +8686,18 @@
         "departureTime": "09:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21728"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-17_0758_33437",
     "lineId": "ryomo",
+    "trainId": "33437",
     "trainNumber": "2831Y",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "国府津",
     "cars": 4,
     "isHoliday": true,
@@ -8713,14 +8715,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33437",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_TK-25_0814_33437",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_OUT_RY-01_0809_18851",
     "lineId": "ryomo",
+    "trainId": "18851",
     "trainNumber": "440M",
     "trainType": "local",
     "direction": "outbound",
@@ -8802,17 +8803,18 @@
         "departureTime": "09:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18851"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-14_0811_18876",
     "lineId": "ryomo",
+    "trainId": "18876",
     "trainNumber": "622M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -8848,14 +8850,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18876",
-    "customOrigin": "伊勢崎",
     "throughTripId": "HD_INB_JOE-04_0830_18876",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-18_0817_21708",
     "lineId": "ryomo",
+    "trainId": "21708",
     "trainNumber": "627M",
     "trainType": "local",
     "direction": "inbound",
@@ -8895,12 +8896,12 @@
         "departureTime": "08:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21708"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_0830_21700",
     "lineId": "ryomo",
+    "trainId": "21700",
     "trainNumber": "651M",
     "trainType": "local",
     "direction": "inbound",
@@ -8922,12 +8923,12 @@
         "departureTime": "08:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21700"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-13_0850_18891",
     "lineId": "ryomo",
+    "trainId": "18891",
     "trainNumber": "438M",
     "trainType": "local",
     "direction": "outbound",
@@ -8975,18 +8976,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "18891",
     "throughTripId": "HD_INB_JOE-04_0918_18891",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_RY-17_0850_18870",
     "lineId": "ryomo",
+    "trainId": "18870",
     "trainNumber": "652M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -9004,14 +9006,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18870",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_JOE-04_0855_18870",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-12_0853_21729",
     "lineId": "ryomo",
+    "trainId": "21729",
     "trainNumber": "437M",
     "trainType": "local",
     "direction": "inbound",
@@ -9093,12 +9094,12 @@
         "departureTime": "09:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21729"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_0856_18852",
     "lineId": "ryomo",
+    "trainId": "18852",
     "trainNumber": "442M",
     "trainType": "local",
     "direction": "outbound",
@@ -9180,12 +9181,12 @@
         "departureTime": "10:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18852"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_0919_21709",
     "lineId": "ryomo",
+    "trainId": "21709",
     "trainNumber": "629M",
     "trainType": "local",
     "direction": "inbound",
@@ -9225,12 +9226,12 @@
         "departureTime": "09:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21709"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_0928_18853",
     "lineId": "ryomo",
+    "trainId": "18853",
     "trainNumber": "444M",
     "trainType": "local",
     "direction": "outbound",
@@ -9312,12 +9313,12 @@
         "departureTime": "10:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18853"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_0929_21730",
     "lineId": "ryomo",
+    "trainId": "21730",
     "trainNumber": "439M",
     "trainType": "local",
     "direction": "inbound",
@@ -9399,12 +9400,12 @@
         "departureTime": "10:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21730"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_0941_21701",
     "lineId": "ryomo",
+    "trainId": "21701",
     "trainNumber": "653M",
     "trainType": "local",
     "direction": "inbound",
@@ -9426,17 +9427,18 @@
         "departureTime": "09:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21701"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-14_0950_18877",
     "lineId": "ryomo",
+    "trainId": "18877",
     "trainNumber": "624M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -9472,14 +9474,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18877",
-    "customOrigin": "伊勢崎",
     "throughTripId": "HD_INB_JOE-04_1010_18877",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_RY-01_1013_18854",
     "lineId": "ryomo",
+    "trainId": "18854",
     "trainNumber": "446M",
     "trainType": "local",
     "direction": "outbound",
@@ -9561,12 +9562,12 @@
         "departureTime": "11:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18854"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_1018_21710",
     "lineId": "ryomo",
+    "trainId": "21710",
     "trainNumber": "633M",
     "trainType": "local",
     "direction": "inbound",
@@ -9606,17 +9607,18 @@
         "departureTime": "10:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21710"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-17_1022_18871",
     "lineId": "ryomo",
+    "trainId": "18871",
     "trainNumber": "654M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -9634,14 +9636,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18871",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_JOE-04_1027_18871",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-12_1029_21731",
     "lineId": "ryomo",
+    "trainId": "21731",
     "trainNumber": "441M",
     "trainType": "local",
     "direction": "inbound",
@@ -9723,12 +9724,12 @@
         "departureTime": "11:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21731"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_1102_18855",
     "lineId": "ryomo",
+    "trainId": "18855",
     "trainNumber": "448M",
     "trainType": "local",
     "direction": "outbound",
@@ -9810,17 +9811,18 @@
         "departureTime": "12:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18855"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-14_1119_18878",
     "lineId": "ryomo",
+    "trainId": "18878",
     "trainNumber": "626M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -9856,14 +9858,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18878",
-    "customOrigin": "伊勢崎",
     "throughTripId": "HD_INB_JOE-04_1139_18878",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-18_1120_21711",
     "lineId": "ryomo",
+    "trainId": "21711",
     "trainNumber": "635M",
     "trainType": "local",
     "direction": "inbound",
@@ -9903,12 +9904,12 @@
         "departureTime": "11:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21711"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_1127_21732",
     "lineId": "ryomo",
+    "trainId": "21732",
     "trainNumber": "443M",
     "trainType": "local",
     "direction": "inbound",
@@ -9990,12 +9991,12 @@
         "departureTime": "12:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21732"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_1202_18856",
     "lineId": "ryomo",
+    "trainId": "18856",
     "trainNumber": "450M",
     "trainType": "local",
     "direction": "outbound",
@@ -10077,12 +10078,12 @@
         "departureTime": "13:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18856"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_1225_21712",
     "lineId": "ryomo",
+    "trainId": "21712",
     "trainNumber": "637M",
     "trainType": "local",
     "direction": "inbound",
@@ -10122,12 +10123,12 @@
         "departureTime": "12:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21712"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_1227_21734",
     "lineId": "ryomo",
+    "trainId": "21734",
     "trainNumber": "445M",
     "trainType": "local",
     "direction": "inbound",
@@ -10209,17 +10210,18 @@
         "departureTime": "13:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21734"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-14_1250_18879",
     "lineId": "ryomo",
+    "trainId": "18879",
     "trainNumber": "628M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -10255,14 +10257,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18879",
-    "customOrigin": "伊勢崎",
     "throughTripId": "HD_INB_JOE-04_1310_18879",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_RY-01_1302_18857",
     "lineId": "ryomo",
+    "trainId": "18857",
     "trainNumber": "452M",
     "trainType": "local",
     "direction": "outbound",
@@ -10344,12 +10345,12 @@
         "departureTime": "14:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18857"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_1319_21713",
     "lineId": "ryomo",
+    "trainId": "21713",
     "trainNumber": "639M",
     "trainType": "local",
     "direction": "inbound",
@@ -10389,12 +10390,12 @@
         "departureTime": "13:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21713"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_1327_21735",
     "lineId": "ryomo",
+    "trainId": "21735",
     "trainNumber": "447M",
     "trainType": "local",
     "direction": "inbound",
@@ -10476,17 +10477,18 @@
         "departureTime": "14:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21735"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-14_1350_18880",
     "lineId": "ryomo",
+    "trainId": "18880",
     "trainNumber": "630M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -10522,14 +10524,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18880",
-    "customOrigin": "伊勢崎",
     "throughTripId": "HD_INB_JOE-04_1412_18880",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_RY-01_1402_18858",
     "lineId": "ryomo",
+    "trainId": "18858",
     "trainNumber": "454M",
     "trainType": "local",
     "direction": "outbound",
@@ -10611,12 +10612,12 @@
         "departureTime": "15:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18858"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_1418_21714",
     "lineId": "ryomo",
+    "trainId": "21714",
     "trainNumber": "641M",
     "trainType": "local",
     "direction": "inbound",
@@ -10656,12 +10657,12 @@
         "departureTime": "14:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21714"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_1427_21736",
     "lineId": "ryomo",
+    "trainId": "21736",
     "trainNumber": "449M",
     "trainType": "local",
     "direction": "inbound",
@@ -10743,17 +10744,18 @@
         "departureTime": "15:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21736"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-14_1450_18881",
     "lineId": "ryomo",
+    "trainId": "18881",
     "trainNumber": "632M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -10789,14 +10791,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18881",
-    "customOrigin": "伊勢崎",
     "throughTripId": "HD_INB_JOE-04_1510_18881",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_RY-01_1502_18859",
     "lineId": "ryomo",
+    "trainId": "18859",
     "trainNumber": "456M",
     "trainType": "local",
     "direction": "outbound",
@@ -10878,12 +10879,12 @@
         "departureTime": "16:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18859"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_1527_21737",
     "lineId": "ryomo",
+    "trainId": "21737",
     "trainNumber": "451M",
     "trainType": "local",
     "direction": "inbound",
@@ -10965,12 +10966,12 @@
         "departureTime": "16:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21737"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_1539_21715",
     "lineId": "ryomo",
+    "trainId": "21715",
     "trainNumber": "643M",
     "trainType": "local",
     "direction": "inbound",
@@ -11010,17 +11011,18 @@
         "departureTime": "15:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21715"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-14_1545_18882",
     "lineId": "ryomo",
+    "trainId": "18882",
     "trainNumber": "634M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -11056,14 +11058,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18882",
-    "customOrigin": "伊勢崎",
     "throughTripId": "HD_INB_JOE-04_1604_18882",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-12_1600_21738",
     "lineId": "ryomo",
+    "trainId": "21738",
     "trainNumber": "453M",
     "trainType": "local",
     "direction": "inbound",
@@ -11145,12 +11146,12 @@
         "departureTime": "16:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21738"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_1602_18860",
     "lineId": "ryomo",
+    "trainId": "18860",
     "trainNumber": "460M",
     "trainType": "local",
     "direction": "outbound",
@@ -11232,17 +11233,18 @@
         "departureTime": "17:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18860"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-17_1613_34295",
     "lineId": "ryomo",
+    "trainId": "34295",
     "trainNumber": "1925E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "小田原",
     "cars": 4,
     "isHoliday": true,
@@ -11260,19 +11262,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "34295",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_TK-25_1628_34295",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_OUT_RY-14_1616_18883",
     "lineId": "ryomo",
+    "trainId": "18883",
     "trainNumber": "636M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -11308,14 +11310,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18883",
-    "customOrigin": "伊勢崎",
     "throughTripId": "HD_INB_JOE-04_1640_18883",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-18_1618_21720",
     "lineId": "ryomo",
+    "trainId": "21720",
     "trainNumber": "457M",
     "trainType": "local",
     "direction": "inbound",
@@ -11362,12 +11363,12 @@
         "departureTime": "16:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21720"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_1640_21739",
     "lineId": "ryomo",
+    "trainId": "21739",
     "trainNumber": "455M",
     "trainType": "local",
     "direction": "inbound",
@@ -11449,12 +11450,12 @@
         "departureTime": "17:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21739"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_1645_18861",
     "lineId": "ryomo",
+    "trainId": "18861",
     "trainNumber": "464M",
     "trainType": "local",
     "direction": "outbound",
@@ -11536,12 +11537,12 @@
         "departureTime": "17:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18861"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-13_1654_18892",
     "lineId": "ryomo",
+    "trainId": "18892",
     "trainNumber": "458M",
     "trainType": "local",
     "direction": "outbound",
@@ -11589,13 +11590,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18892",
     "throughTripId": "HD_INB_JOE-04_1721_18892",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-12_1723_21740",
     "lineId": "ryomo",
+    "trainId": "21740",
     "trainNumber": "459M",
     "trainType": "local",
     "direction": "inbound",
@@ -11677,12 +11678,12 @@
         "departureTime": "18:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21740"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_1725_18862",
     "lineId": "ryomo",
+    "trainId": "18862",
     "trainNumber": "466M",
     "trainType": "local",
     "direction": "outbound",
@@ -11764,12 +11765,12 @@
         "departureTime": "18:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18862"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_1733_21716",
     "lineId": "ryomo",
+    "trainId": "21716",
     "trainNumber": "645M",
     "trainType": "local",
     "direction": "inbound",
@@ -11809,12 +11810,12 @@
         "departureTime": "17:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21716"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-13_1744_18893",
     "lineId": "ryomo",
+    "trainId": "18893",
     "trainNumber": "462M",
     "trainType": "local",
     "direction": "outbound",
@@ -11862,13 +11863,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18893",
     "throughTripId": "HD_INB_JOE-04_1811_18893",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-12_1751_21741",
     "lineId": "ryomo",
+    "trainId": "21741",
     "trainNumber": "461M",
     "trainType": "local",
     "direction": "inbound",
@@ -11950,12 +11951,12 @@
         "departureTime": "18:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21741"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_1800_18863",
     "lineId": "ryomo",
+    "trainId": "18863",
     "trainNumber": "468M",
     "trainType": "local",
     "direction": "outbound",
@@ -12037,17 +12038,18 @@
         "departureTime": "19:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18863"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-17_1815_34297",
     "lineId": "ryomo",
+    "trainId": "34297",
     "trainNumber": "1937E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "熱海",
     "cars": 4,
     "isHoliday": true,
@@ -12065,14 +12067,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34297",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_TK-25_1830_34297",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_INB_RY-12_1824_21742",
     "lineId": "ryomo",
+    "trainId": "21742",
     "trainNumber": "463M",
     "trainType": "local",
     "direction": "inbound",
@@ -12154,17 +12155,18 @@
         "departureTime": "19:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21742"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-14_1828_18884",
     "lineId": "ryomo",
+    "trainId": "18884",
     "trainNumber": "638M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -12200,14 +12202,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18884",
-    "customOrigin": "伊勢崎",
     "throughTripId": "HD_INB_JOE-04_1850_18884",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-18_1828_21717",
     "lineId": "ryomo",
+    "trainId": "21717",
     "trainNumber": "647M",
     "trainType": "local",
     "direction": "inbound",
@@ -12247,12 +12248,12 @@
         "departureTime": "18:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21717"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_1830_18864",
     "lineId": "ryomo",
+    "trainId": "18864",
     "trainNumber": "470M",
     "trainType": "local",
     "direction": "outbound",
@@ -12334,12 +12335,12 @@
         "departureTime": "19:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18864"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_1848_21743",
     "lineId": "ryomo",
+    "trainId": "21743",
     "trainNumber": "465M",
     "trainType": "local",
     "direction": "inbound",
@@ -12421,12 +12422,12 @@
         "departureTime": "19:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21743"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_1901_18865",
     "lineId": "ryomo",
+    "trainId": "18865",
     "trainNumber": "472M",
     "trainType": "local",
     "direction": "outbound",
@@ -12508,17 +12509,18 @@
         "departureTime": "20:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18865"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-14_1907_18885",
     "lineId": "ryomo",
+    "trainId": "18885",
     "trainNumber": "640M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -12554,19 +12556,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "18885",
-    "customOrigin": "伊勢崎",
     "throughTripId": "HD_INB_JOE-04_1927_18885",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_OUT_RY-17_1913_40904",
     "lineId": "ryomo",
+    "trainId": "40904",
     "trainNumber": "852M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "上野",
     "cars": 4,
     "isHoliday": true,
@@ -12584,14 +12586,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40904",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_TK-25_1930_40904",
     "throughLineId": "takasaki"
   },
   {
     "tripId": "HD_INB_RY-12_1927_21744",
     "lineId": "ryomo",
+    "trainId": "21744",
     "trainNumber": "467M",
     "trainType": "local",
     "direction": "inbound",
@@ -12673,12 +12674,12 @@
         "departureTime": "20:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21744"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_1932_18866",
     "lineId": "ryomo",
+    "trainId": "18866",
     "trainNumber": "474M",
     "trainType": "local",
     "direction": "outbound",
@@ -12760,12 +12761,12 @@
         "departureTime": "20:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18866"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_1941_21718",
     "lineId": "ryomo",
+    "trainId": "21718",
     "trainNumber": "649M",
     "trainType": "local",
     "direction": "inbound",
@@ -12805,12 +12806,12 @@
         "departureTime": "19:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21718"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_1959_21746",
     "lineId": "ryomo",
+    "trainId": "21746",
     "trainNumber": "469M",
     "trainType": "local",
     "direction": "inbound",
@@ -12892,12 +12893,12 @@
         "departureTime": "20:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21746"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_2006_18867",
     "lineId": "ryomo",
+    "trainId": "18867",
     "trainNumber": "476M",
     "trainType": "local",
     "direction": "outbound",
@@ -12979,17 +12980,18 @@
         "departureTime": "21:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18867"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-14_2011_18886",
     "lineId": "ryomo",
+    "trainId": "18886",
     "trainNumber": "642M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-14",
     "destinationStationId": "RY-18",
+    "customOrigin": "伊勢崎",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -13025,14 +13027,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18886",
-    "customOrigin": "伊勢崎",
     "throughTripId": "HD_INB_JOE-04_2034_18886",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-18_2012_21702",
     "lineId": "ryomo",
+    "trainId": "21702",
     "trainNumber": "655M",
     "trainType": "local",
     "direction": "inbound",
@@ -13054,12 +13055,12 @@
         "departureTime": "20:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21702"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_2025_21721",
     "lineId": "ryomo",
+    "trainId": "21721",
     "trainNumber": "473M",
     "trainType": "local",
     "direction": "inbound",
@@ -13106,12 +13107,12 @@
         "departureTime": "20:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21721"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_2035_21747",
     "lineId": "ryomo",
+    "trainId": "21747",
     "trainNumber": "471M",
     "trainType": "local",
     "direction": "inbound",
@@ -13193,12 +13194,12 @@
         "departureTime": "21:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21747"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_2045_18868",
     "lineId": "ryomo",
+    "trainId": "18868",
     "trainNumber": "478M",
     "trainType": "local",
     "direction": "outbound",
@@ -13280,17 +13281,18 @@
         "departureTime": "21:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18868"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-17_2055_18872",
     "lineId": "ryomo",
+    "trainId": "18872",
     "trainNumber": "656M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -13308,14 +13310,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18872",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_JOE-04_2100_18872",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-18_2115_21703",
     "lineId": "ryomo",
+    "trainId": "21703",
     "trainNumber": "657M",
     "trainType": "local",
     "direction": "inbound",
@@ -13337,12 +13338,12 @@
         "departureTime": "21:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21703"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_2124_21748",
     "lineId": "ryomo",
+    "trainId": "21748",
     "trainNumber": "475M",
     "trainType": "local",
     "direction": "inbound",
@@ -13424,17 +13425,18 @@
         "departureTime": "22:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21748"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-17_2124_18873",
     "lineId": "ryomo",
+    "trainId": "18873",
     "trainNumber": "658M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -13452,14 +13454,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18873",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_JOE-04_2130_18873",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-18_2128_21722",
     "lineId": "ryomo",
+    "trainId": "21722",
     "trainNumber": "477M",
     "trainType": "local",
     "direction": "inbound",
@@ -13506,12 +13507,12 @@
         "departureTime": "21:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21722"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-01_2130_18869",
     "lineId": "ryomo",
+    "trainId": "18869",
     "trainNumber": "480M",
     "trainType": "local",
     "direction": "outbound",
@@ -13593,18 +13594,19 @@
         "departureTime": "22:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18869"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_2209_34514",
     "lineId": "ryomo",
+    "trainId": "34514",
     "trainNumber": "1928E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "RY-18",
     "destinationStationId": "RY-17",
     "customOrigin": "熱海",
+    "customDestination": "前橋",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13621,14 +13623,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34514",
-    "customDestination": "前橋",
     "prevTripId": "HD_OUT_TK-02_1946_34514",
     "prevLineId": "takasaki"
   },
   {
     "tripId": "HD_OUT_RY-01_2215_10063",
     "lineId": "ryomo",
+    "trainId": "10063",
     "trainNumber": "482M",
     "trainType": "local",
     "direction": "outbound",
@@ -13709,12 +13710,12 @@
         "departureTime": "23:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "10063"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_2227_21704",
     "lineId": "ryomo",
+    "trainId": "21704",
     "trainNumber": "659M",
     "trainType": "local",
     "direction": "inbound",
@@ -13736,12 +13737,12 @@
         "departureTime": "22:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21704"
+    ]
   },
   {
     "tripId": "HD_INB_RY-12_2229_21749",
     "lineId": "ryomo",
+    "trainId": "21749",
     "trainNumber": "479M",
     "trainType": "local",
     "direction": "inbound",
@@ -13823,17 +13824,18 @@
         "departureTime": "23:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21749"
+    ]
   },
   {
     "tripId": "HD_OUT_RY-17_2237_18874",
     "lineId": "ryomo",
+    "trainId": "18874",
     "trainNumber": "660M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "RY-17",
     "destinationStationId": "RY-18",
+    "customOrigin": "前橋",
     "customDestination": "高崎",
     "cars": 4,
     "isHoliday": true,
@@ -13851,14 +13853,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "18874",
-    "customOrigin": "前橋",
     "throughTripId": "HD_INB_JOE-04_2242_18874",
     "throughLineId": "joetsu"
   },
   {
     "tripId": "HD_INB_RY-18_2244_21723",
     "lineId": "ryomo",
+    "trainId": "21723",
     "trainNumber": "481M",
     "trainType": "local",
     "direction": "inbound",
@@ -13905,18 +13906,19 @@
         "departureTime": "23:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21723"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_2303_33716",
     "lineId": "ryomo",
+    "trainId": "33716",
     "trainNumber": "2858Y",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "RY-18",
     "destinationStationId": "RY-17",
     "customOrigin": "国府津",
+    "customDestination": "前橋",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13933,14 +13935,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33716",
-    "customDestination": "前橋",
     "prevTripId": "HD_OUT_TK-04_2054_33716",
     "prevLineId": "takasaki"
   },
   {
     "tripId": "HD_OUT_RY-01_2312_10064",
     "lineId": "ryomo",
+    "trainId": "10064",
     "trainNumber": "484M",
     "trainType": "local",
     "direction": "outbound",
@@ -14021,12 +14022,12 @@
         "departureTime": "00:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "10064"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_2328_21724",
     "lineId": "ryomo",
+    "trainId": "21724",
     "trainNumber": "483M",
     "trainType": "local",
     "direction": "inbound",
@@ -14073,12 +14074,12 @@
         "departureTime": "23:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21724"
+    ]
   },
   {
     "tripId": "HD_INB_RY-18_2356_21705",
     "lineId": "ryomo",
+    "trainId": "21705",
     "trainNumber": "661M",
     "trainType": "local",
     "direction": "inbound",
@@ -14100,7 +14101,6 @@
         "departureTime": "23:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "21705"
+    ]
   }
 ]

@@ -1,4 +1,5 @@
 import type { TrainTypeConfig } from '../../../types';
+import { JR_RAPID_PRESETS, LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const JOETSU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
@@ -11,26 +12,8 @@ export const JOETSU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#00b3e6',
     borderColor: '#00b3e6',
   },
-  rapid: {
-    key: 'rapid',
-    name: '快速',
-    nameEn: 'Rapid',
-    shortName: '快速',
-    color: '#0073bc',
-    textColor: '#ffffff',
-    bgColor: '#0073bc',
-    borderColor: '#0073bc',
-  },
-  rapid_urban: {
-    key: 'rapid_urban',
-    name: '快速アーバン',
-    nameEn: 'Rapid Urban',
-    shortName: 'アーバン',
-    color: '#e65100',
-    textColor: '#ffffff',
-    bgColor: '#e65100',
-    borderColor: '#e65100',
-  },
+  rapid: JR_RAPID_PRESETS.STANDARD,
+  rapid_urban: JR_RAPID_PRESETS.URBAN,
   special_rapid: {
     key: 'special_rapid',
     name: '特別快速',
@@ -41,14 +24,5 @@ export const JOETSU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#0073bc',
     borderColor: '#0073bc',
   },
-  limitedExp: {
-    key: 'limitedExp',
-    name: '特急',
-    nameEn: 'Limited Express',
-    shortName: '特急',
-    color: '#e60012',
-    textColor: '#ffffff',
-    bgColor: '#e60012',
-    borderColor: '#e60012',
-  },
+  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
 };

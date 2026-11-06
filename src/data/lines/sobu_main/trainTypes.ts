@@ -23,8 +23,8 @@ export const SOBU_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   },
   "limitedExp": {
     "key": "limitedExp",
-    "name": "特急しおさい",
-    "shortName": "しおさい",
+    "name": "特急",
+    "shortName": "特急",
     "bgColor": "#0074be",
     "textColor": "#ffffff",
     "borderColor": "#0074be",

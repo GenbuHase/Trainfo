@@ -71,6 +71,7 @@ module.exports = {
     '通勤特快': 'commuter_special_rapid',
     '特急': 'limitedExp',
   },
+  defaultTrainType: 'regular',
   defaultCars: 6,
   // 駅間基準秒数 (通過駅補間用)
   baseSectionSeconds: {

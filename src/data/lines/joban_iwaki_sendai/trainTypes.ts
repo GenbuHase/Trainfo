@@ -1,4 +1,5 @@
 import type { TrainTypeConfig } from '../../../types';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const JOBAN_IWAKI_SENDAI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
@@ -11,14 +12,7 @@ export const JOBAN_IWAKI_SENDAI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#0071c5',
     borderColor: '#005596',
   },
-  limited_express: {
-    key: 'limited_express',
-    name: '特急',
-    nameEn: 'Limited Express',
-    shortName: '特急',
-    color: '#e60012',
-    textColor: '#ffffff',
-    bgColor: '#e60012',
-    borderColor: '#b8000e',
-  },
+  limitedExp: LIMITED_EXP_PRESETS.JOBAN,
+  // 既存コード・ダイヤデータ互換用
+  limited_express: LIMITED_EXP_PRESETS.JOBAN,
 };

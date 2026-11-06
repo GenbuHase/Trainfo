@@ -26,7 +26,7 @@ export const AIZU_STATIONS: Station[] = [
       "local",
       "rapid",
       "limitedExp",
-      "aizu_ozeto"
+      "aizu_ozatoro"
     ],
     "isMajor": true,
     "platforms": {
@@ -174,7 +174,7 @@ export const AIZU_STATIONS: Station[] = [
       "local",
       "rapid",
       "limitedExp",
-      "aizu_ozeto"
+      "aizu_ozatoro"
     ],
     "isMajor": true,
     "platforms": {
@@ -321,7 +321,7 @@ export const AIZU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "aizu_ozeto"
+      "aizu_ozatoro"
     ],
     "isMajor": true,
     "platforms": {
@@ -380,7 +380,7 @@ export const AIZU_STATIONS: Station[] = [
     },
     "stoppingTypes": [
       "local",
-      "aizu_ozeto"
+      "aizu_ozatoro"
     ],
     "isMajor": true,
     "platforms": {
@@ -411,7 +411,7 @@ export const AIZU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "aizu_ozeto"
+      "aizu_ozatoro"
     ],
     "isMajor": true,
     "platforms": {
@@ -500,7 +500,7 @@ export const AIZU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "aizu_ozeto"
+      "aizu_ozatoro"
     ],
     "isMajor": true,
     "platforms": {
@@ -619,7 +619,7 @@ export const AIZU_STATIONS: Station[] = [
     "stoppingTypes": [
       "local",
       "rapid",
-      "aizu_ozeto"
+      "aizu_ozatoro"
     ],
     "isMajor": true,
     "platforms": {

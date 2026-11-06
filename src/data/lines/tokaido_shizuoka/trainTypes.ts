@@ -25,7 +25,7 @@ export const TOKAIDO_SHIZUOKA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     key: 'homeliner',
     name: 'ホームライナー',
     nameEn: 'Home Liner',
-    shortName: 'HL',
+    shortName: 'ホームライナー',
     color: '#e51721',
     textColor: '#ffffff',
     bgColor: '#e51721',

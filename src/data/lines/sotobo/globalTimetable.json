@@ -447,6 +447,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "津田沼",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -528,7 +529,9 @@
         "departureTime": "06:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JO-26_0509_5179",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-21_0527_21643",
@@ -730,6 +733,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -752,7 +756,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-09_0500_21666",
     "prevLineId": "uchibo"
   },
@@ -765,6 +768,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": false,
@@ -812,7 +816,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_0609_21578",
     "throughLineId": "togane"
   },
@@ -1094,6 +1097,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -1116,7 +1120,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-09_0528_21667",
     "prevLineId": "uchibo"
   },
@@ -1129,6 +1132,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -1200,7 +1204,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_JE-18_0643_37749",
     "throughLineId": "keiyo"
   },
@@ -1349,6 +1352,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": false,
@@ -1396,7 +1400,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_0630_21579",
     "throughLineId": "togane"
   },
@@ -1550,6 +1553,7 @@
     "direction": "inbound",
     "originStationId": "SB-11",
     "destinationStationId": "SB-03",
+    "customOrigin": "茂原",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -1609,7 +1613,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "茂原",
     "throughTripId": "WD_INB_JE-18_0632_37748",
     "throughLineId": "keiyo"
   },
@@ -1622,6 +1625,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "久里浜",
     "cars": 8,
     "isHoliday": false,
@@ -1704,7 +1708,9 @@
         "departureTime": "07:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JO-28_0701_42921",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-03_0624_21676",
@@ -1716,6 +1722,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "館山",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -1738,7 +1745,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-22_0445_21676",
     "prevLineId": "uchibo"
   },
@@ -2019,6 +2025,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -2090,7 +2097,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_JE-18_0710_37752",
     "throughLineId": "keiyo"
   },
@@ -2171,10 +2177,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_0602_42132",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_0651_42209",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_0602_42132",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_INB_SB-21_0644_37772",
@@ -2186,6 +2192,7 @@
     "direction": "inbound",
     "originStationId": "SB-21",
     "destinationStationId": "SB-03",
+    "customOrigin": "勝浦",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -2304,8 +2311,7 @@
         "departureTime": "07:39:00",
         "isPassing": false
       }
-    ],
-    "customOrigin": "勝浦"
+    ]
   },
   {
     "tripId": "WD_INB_SB-13_0645_5935",
@@ -2316,6 +2322,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -2398,7 +2405,9 @@
         "departureTime": "07:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JO-28_0731_5391",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_OUT_SB-01_0650_14448",
@@ -2501,6 +2510,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -2572,7 +2582,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_JE-18_0744_37763",
     "throughLineId": "keiyo"
   },
@@ -2586,6 +2595,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -2632,7 +2642,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-05_0631_21591",
     "prevLineId": "togane"
   },
@@ -2646,6 +2655,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "姉ケ崎",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -2668,7 +2678,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-05_0644_21680",
     "prevLineId": "uchibo"
   },
@@ -2705,10 +2714,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_0629_42133",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_0717_42210",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_0629_42133",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_OUT_SB-18_0709_40474",
@@ -2719,6 +2728,7 @@
     "direction": "outbound",
     "originStationId": "SB-18",
     "destinationStationId": "SB-27",
+    "customOrigin": "大原",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": false,
@@ -2784,7 +2794,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "大原",
     "throughTripId": "WD_INB_UB-30_0804_40474",
     "throughLineId": "uchibo"
   },
@@ -2885,10 +2894,12 @@
     "lineId": "sotobo",
     "trainId": "5937",
     "trainNumber": "3754F",
-    "trainType": "rapid",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス2号",
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "新宿",
     "cars": 8,
     "isHoliday": false,
@@ -2971,11 +2982,7 @@
         "departureTime": "08:14:00",
         "isPassing": false
       }
-    ],
-    "trainName": "成田エクスプレス2号",
-    "customOrigin": "上総一ノ宮",
-    "throughTripId": "WD_INB_JO-28_0814_29319",
-    "throughLineId": "sobu_rapid"
+    ]
   },
   {
     "tripId": "WD_INB_SB-05_0714_21653",
@@ -3031,6 +3038,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "姉ケ崎",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -3053,7 +3061,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-05_0657_21681",
     "prevLineId": "uchibo"
   },
@@ -3539,6 +3546,7 @@
     "direction": "inbound",
     "originStationId": "SB-21",
     "destinationStationId": "SB-03",
+    "customOrigin": "勝浦",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -3658,7 +3666,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "勝浦",
     "throughTripId": "WD_INB_JE-18_0824_37773",
     "throughLineId": "keiyo"
   },
@@ -3672,6 +3679,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -3694,7 +3702,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_0646_21683",
     "prevLineId": "uchibo"
   },
@@ -3707,6 +3714,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": false,
@@ -3754,7 +3762,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_0802_21580",
     "throughLineId": "togane"
   },
@@ -3884,6 +3891,7 @@
     "direction": "inbound",
     "originStationId": "SB-27",
     "destinationStationId": "SB-03",
+    "customOrigin": "安房鴨川",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -4039,7 +4047,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "安房鴨川",
     "throughTripId": "WD_INB_JE-18_0903_37789",
     "throughLineId": "keiyo"
   },
@@ -4076,10 +4083,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_0705_42137",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_0751_42214",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_0705_42137",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_OUT_SB-01_0746_14450",
@@ -4275,6 +4282,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "千倉",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -4297,7 +4305,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-24_0546_21679",
     "prevLineId": "uchibo"
   },
@@ -4310,6 +4317,7 @@
     "direction": "inbound",
     "originStationId": "SB-05",
     "destinationStationId": "SB-03",
+    "customOrigin": "誉田",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -4333,7 +4341,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "誉田",
     "throughTripId": "WD_INB_JE-18_0802_37790",
     "throughLineId": "keiyo"
   },
@@ -4348,6 +4355,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-21",
     "customOrigin": "東京",
+    "customDestination": "勝浦",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -4466,7 +4474,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "勝浦",
     "prevTripId": "WD_OUT_JE-01_0715_9871",
     "prevLineId": "keiyo"
   },
@@ -4479,6 +4486,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": false,
@@ -4526,7 +4534,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_0827_21581",
     "throughLineId": "togane"
   },
@@ -4563,10 +4570,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-09_0730_42130",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_0817_42207",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-09_0730_42130",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_OUT_SB-13_0803_14427",
@@ -4682,6 +4689,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "館山",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -4776,7 +4784,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_UB-22_0716_40486",
     "prevLineId": "uchibo"
   },
@@ -4790,6 +4797,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -4812,7 +4820,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_0728_21684",
     "prevLineId": "uchibo"
   },
@@ -4918,6 +4925,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -4964,7 +4972,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-05_0804_21592",
     "prevLineId": "togane"
   },
@@ -4978,6 +4985,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "館山",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -5000,7 +5008,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-22_0635_21677",
     "prevLineId": "uchibo"
   },
@@ -5198,6 +5205,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "館山",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -5220,7 +5228,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-22_0710_21678",
     "prevLineId": "uchibo"
   },
@@ -5234,6 +5241,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -5280,7 +5288,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-05_0828_21593",
     "prevLineId": "togane"
   },
@@ -5386,6 +5393,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -5408,7 +5416,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_0820_21685",
     "prevLineId": "uchibo"
   },
@@ -5422,6 +5429,7 @@
     "direction": "inbound",
     "originStationId": "SB-21",
     "destinationStationId": "SB-03",
+    "customOrigin": "勝浦",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -5541,7 +5549,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "勝浦",
     "throughTripId": "WD_INB_JE-18_1002_37775",
     "throughLineId": "keiyo"
   },
@@ -5646,6 +5653,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": false,
@@ -5693,7 +5701,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_0943_21582",
     "throughLineId": "togane"
   },
@@ -5834,10 +5841,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_0839_42149",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_0931_42226",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_0839_42149",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_INB_SB-07_0920_21594",
@@ -5849,6 +5856,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -5895,7 +5903,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-05_0902_21594",
     "prevLineId": "togane"
   },
@@ -6013,6 +6020,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -6035,7 +6043,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-14_0815_21705",
     "prevLineId": "uchibo"
   },
@@ -6049,6 +6056,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "久里浜",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -6130,7 +6138,9 @@
         "departureTime": "10:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JO-19_0847_42750",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-13_0936_21620",
@@ -6257,10 +6267,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_0858_42139",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_0944_42216",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_0858_42139",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_OUT_SB-03_0937_9873",
@@ -6273,6 +6283,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-27",
     "customOrigin": "東京",
+    "customDestination": "安房鴨川",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -6427,7 +6438,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "安房鴨川",
     "prevTripId": "WD_OUT_JE-01_0900_9873",
     "prevLineId": "keiyo"
   },
@@ -6441,6 +6451,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -6463,7 +6474,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-14_0839_21706",
     "prevLineId": "uchibo"
   },
@@ -6477,6 +6487,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -6547,7 +6558,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_0903_9848",
     "prevLineId": "keiyo"
   },
@@ -6560,6 +6570,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": false,
@@ -6607,7 +6618,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_1026_21584",
     "throughLineId": "togane"
   },
@@ -6713,6 +6723,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -6735,7 +6746,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-09_0926_21668",
     "prevLineId": "uchibo"
   },
@@ -6749,6 +6759,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -6795,7 +6806,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-05_0939_21595",
     "prevLineId": "togane"
   },
@@ -6901,6 +6911,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -6923,7 +6934,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-14_0904_21707",
     "prevLineId": "uchibo"
   },
@@ -6932,10 +6942,12 @@
     "lineId": "sotobo",
     "trainId": "5939",
     "trainNumber": "4018F",
-    "trainType": "rapid",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス14号",
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "新宿",
     "cars": 8,
     "isHoliday": false,
@@ -7018,11 +7030,7 @@
         "departureTime": "11:19:00",
         "isPassing": false
       }
-    ],
-    "trainName": "成田エクスプレス14号",
-    "customOrigin": "上総一ノ宮",
-    "throughTripId": "WD_INB_JO-28_1119_29308",
-    "throughLineId": "sobu_rapid"
+    ]
   },
   {
     "tripId": "WD_OUT_SB-01_1026_42674",
@@ -7034,6 +7042,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "久里浜",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -7115,7 +7124,9 @@
         "departureTime": "11:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JO-19_0943_42751",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-03_1033_42140",
@@ -7150,10 +7161,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_0952_42140",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_1041_42217",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_0952_42140",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_OUT_SB-13_1033_40466",
@@ -7164,6 +7175,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": false,
@@ -7259,7 +7271,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_UB-30_1202_40466",
     "throughLineId": "uchibo"
   },
@@ -7274,6 +7285,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-27",
     "customOrigin": "東京",
+    "customDestination": "安房鴨川",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -7428,7 +7440,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "安房鴨川",
     "prevTripId": "WD_OUT_JE-01_1000_9874",
     "prevLineId": "keiyo"
   },
@@ -7545,6 +7556,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -7616,7 +7628,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_JE-18_1120_37753",
     "throughLineId": "keiyo"
   },
@@ -7630,6 +7641,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -7676,7 +7688,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-05_1021_21596",
     "prevLineId": "togane"
   },
@@ -7690,6 +7701,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -7760,7 +7772,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_1002_9849",
     "prevLineId": "keiyo"
   },
@@ -7773,6 +7784,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": false,
@@ -7820,7 +7832,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_1122_21585",
     "throughLineId": "togane"
   },
@@ -7834,6 +7845,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -7856,7 +7868,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1013_21686",
     "prevLineId": "uchibo"
   },
@@ -7962,6 +7973,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -8008,7 +8020,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-05_1048_21597",
     "prevLineId": "togane"
   },
@@ -8114,6 +8125,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -8136,7 +8148,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1031_21687",
     "prevLineId": "uchibo"
   },
@@ -8150,6 +8161,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -8244,7 +8256,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_UB-09_0931_40475",
     "prevLineId": "uchibo"
   },
@@ -8253,10 +8264,12 @@
     "lineId": "sotobo",
     "trainId": "5944",
     "trainNumber": "4144F",
-    "trainType": "rapid",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス18号",
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "新宿",
     "cars": 8,
     "isHoliday": false,
@@ -8339,11 +8352,7 @@
         "departureTime": "12:19:00",
         "isPassing": false
       }
-    ],
-    "trainName": "成田エクスプレス18号",
-    "customOrigin": "上総一ノ宮",
-    "throughTripId": "WD_INB_JO-28_1219_29309",
-    "throughLineId": "sobu_rapid"
+    ]
   },
   {
     "tripId": "WD_OUT_SB-01_1127_14434",
@@ -8458,10 +8467,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_1050_42143",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_1141_42220",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_1050_42143",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_OUT_SB-03_1134_9875",
@@ -8474,6 +8483,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-27",
     "customOrigin": "東京",
+    "customDestination": "安房鴨川",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -8628,7 +8638,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "安房鴨川",
     "prevTripId": "WD_OUT_JE-01_1100_9875",
     "prevLineId": "keiyo"
   },
@@ -8641,6 +8650,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -8712,7 +8722,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_JE-18_1220_37755",
     "throughLineId": "keiyo"
   },
@@ -8725,6 +8734,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": false,
@@ -8820,7 +8830,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_UB-30_1259_40467",
     "throughLineId": "uchibo"
   },
@@ -8834,6 +8843,7 @@
     "direction": "inbound",
     "originStationId": "SB-27",
     "destinationStationId": "SB-03",
+    "customOrigin": "安房鴨川",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -8989,7 +8999,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "安房鴨川",
     "throughTripId": "WD_INB_JE-18_1302_37777",
     "throughLineId": "keiyo"
   },
@@ -9003,6 +9012,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -9073,7 +9083,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_1102_9851",
     "prevLineId": "keiyo"
   },
@@ -9086,6 +9095,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": false,
@@ -9133,7 +9143,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_1222_21586",
     "throughLineId": "togane"
   },
@@ -9147,6 +9156,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -9169,7 +9179,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-09_1121_21669",
     "prevLineId": "uchibo"
   },
@@ -9275,6 +9284,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -9321,7 +9331,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-05_1148_21599",
     "prevLineId": "togane"
   },
@@ -9507,6 +9516,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -9529,7 +9539,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1128_21688",
     "prevLineId": "uchibo"
   },
@@ -9543,6 +9552,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -9637,7 +9647,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_UB-09_1030_40476",
     "prevLineId": "uchibo"
   },
@@ -9754,10 +9763,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_1150_42145",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_1241_42222",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_1150_42145",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_OUT_SB-13_1236_40468",
@@ -9768,6 +9777,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": false,
@@ -9863,7 +9873,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_UB-30_1353_40468",
     "throughLineId": "uchibo"
   },
@@ -9876,6 +9885,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -9947,7 +9957,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_JE-18_1320_37758",
     "throughLineId": "keiyo"
   },
@@ -9961,6 +9970,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -10031,7 +10041,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_1202_9853",
     "prevLineId": "keiyo"
   },
@@ -10045,6 +10054,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -10067,7 +10077,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1213_21689",
     "prevLineId": "uchibo"
   },
@@ -10080,6 +10089,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": false,
@@ -10127,7 +10137,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_1322_21587",
     "throughLineId": "togane"
   },
@@ -10233,6 +10242,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -10279,7 +10289,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-05_1248_21600",
     "prevLineId": "togane"
   },
@@ -10373,6 +10382,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -10395,7 +10405,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-09_1245_21670",
     "prevLineId": "uchibo"
   },
@@ -10661,6 +10670,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -10755,7 +10765,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_UB-09_1117_40477",
     "prevLineId": "uchibo"
   },
@@ -10792,10 +10801,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_1250_42146",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_1341_42224",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_1250_42146",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_INB_SB-13_1339_37759",
@@ -10806,6 +10815,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -10877,7 +10887,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_JE-18_1420_37759",
     "throughLineId": "keiyo"
   },
@@ -10890,6 +10899,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": false,
@@ -10985,7 +10995,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_UB-30_1453_40469",
     "throughLineId": "uchibo"
   },
@@ -10999,6 +11008,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -11069,7 +11079,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_1302_9855",
     "prevLineId": "keiyo"
   },
@@ -11083,6 +11092,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -11105,7 +11115,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1313_21690",
     "prevLineId": "uchibo"
   },
@@ -11118,6 +11127,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": false,
@@ -11165,7 +11175,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_1422_21588",
     "throughLineId": "togane"
   },
@@ -11271,6 +11280,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -11317,7 +11327,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-05_1348_21601",
     "prevLineId": "togane"
   },
@@ -11411,6 +11420,7 @@
     "direction": "inbound",
     "originStationId": "SB-27",
     "destinationStationId": "SB-03",
+    "customOrigin": "安房鴨川",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -11566,7 +11576,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "安房鴨川",
     "throughTripId": "WD_INB_JE-18_1530_37779",
     "throughLineId": "keiyo"
   },
@@ -11672,6 +11681,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -11694,7 +11704,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-09_1343_21671",
     "prevLineId": "uchibo"
   },
@@ -11788,6 +11797,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -11882,7 +11892,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_UB-09_1215_40479",
     "prevLineId": "uchibo"
   },
@@ -11919,10 +11928,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_1350_42150",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_1441_42227",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_1350_42150",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_OUT_SB-13_1433_40470",
@@ -11933,6 +11942,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": false,
@@ -12028,7 +12038,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_UB-30_1554_40470",
     "throughLineId": "uchibo"
   },
@@ -12043,6 +12052,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-27",
     "customOrigin": "東京",
+    "customDestination": "安房鴨川",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -12197,7 +12207,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "安房鴨川",
     "prevTripId": "WD_OUT_JE-01_1400_9879",
     "prevLineId": "keiyo"
   },
@@ -12210,6 +12219,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -12281,7 +12291,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_JE-18_1520_37761",
     "throughLineId": "keiyo"
   },
@@ -12295,6 +12304,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -12365,7 +12375,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_1402_9857",
     "prevLineId": "keiyo"
   },
@@ -12379,6 +12388,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -12401,7 +12411,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1413_21691",
     "prevLineId": "uchibo"
   },
@@ -12414,6 +12423,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": false,
@@ -12461,7 +12471,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_1534_21589",
     "throughLineId": "togane"
   },
@@ -12769,6 +12778,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -12791,7 +12801,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1425_21692",
     "prevLineId": "uchibo"
   },
@@ -12805,6 +12814,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "逗子",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -12886,7 +12896,9 @@
         "departureTime": "16:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JO-19_1441_42738",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-27_1525_40480",
@@ -12898,6 +12910,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -12992,7 +13005,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_UB-09_1319_40480",
     "prevLineId": "uchibo"
   },
@@ -13029,10 +13041,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_1450_42153",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_1541_42230",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_1450_42153",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_OUT_SB-13_1537_40471",
@@ -13043,6 +13055,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": false,
@@ -13138,7 +13151,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_UB-30_1700_40471",
     "throughLineId": "uchibo"
   },
@@ -13152,6 +13164,7 @@
     "direction": "inbound",
     "originStationId": "SB-27",
     "destinationStationId": "SB-03",
+    "customOrigin": "安房鴨川",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -13307,7 +13320,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "安房鴨川",
     "throughTripId": "WD_INB_JE-18_1700_37782",
     "throughLineId": "keiyo"
   },
@@ -13320,6 +13332,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -13391,7 +13404,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_JE-18_1619_37764",
     "throughLineId": "keiyo"
   },
@@ -13485,6 +13497,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -13507,7 +13520,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-09_1515_21672",
     "prevLineId": "uchibo"
   },
@@ -13705,6 +13717,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -13727,7 +13740,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-09_1537_21673",
     "prevLineId": "uchibo"
   },
@@ -13844,10 +13856,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_1539_42154",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_1633_42231",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_1539_42154",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_INB_SB-13_1621_42841",
@@ -13858,6 +13870,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "久里浜",
     "cars": 8,
     "isHoliday": false,
@@ -13940,7 +13953,9 @@
         "departureTime": "17:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JO-28_1708_42922",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_OUT_SB-01_1624_42664",
@@ -13952,6 +13967,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "逗子",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -14033,7 +14049,9 @@
         "departureTime": "17:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JO-19_1545_42741",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-27_1631_40481",
@@ -14045,6 +14063,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -14139,7 +14158,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_UB-09_1416_40481",
     "prevLineId": "uchibo"
   },
@@ -14275,6 +14293,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -14297,7 +14316,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1548_21693",
     "prevLineId": "uchibo"
   },
@@ -14513,6 +14531,7 @@
     "direction": "inbound",
     "originStationId": "SB-27",
     "destinationStationId": "SB-03",
+    "customOrigin": "安房鴨川",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -14668,7 +14687,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "安房鴨川",
     "throughTripId": "WD_INB_JE-18_1805_37786",
     "throughLineId": "keiyo"
   },
@@ -14682,6 +14700,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -14704,7 +14723,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-14_1547_21708",
     "prevLineId": "uchibo"
   },
@@ -14797,6 +14815,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": false,
@@ -14892,7 +14911,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_UB-30_1804_40472",
     "throughLineId": "uchibo"
   },
@@ -14998,6 +15016,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15020,7 +15039,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1622_21694",
     "prevLineId": "uchibo"
   },
@@ -15149,10 +15167,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_1635_42148",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_1722_42225",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_1635_42148",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_OUT_SB-01_1720_14474",
@@ -15341,6 +15359,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15411,7 +15430,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_1700_9840",
     "prevLineId": "keiyo"
   },
@@ -15425,6 +15443,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15519,7 +15538,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_UB-09_1517_40482",
     "prevLineId": "uchibo"
   },
@@ -15533,6 +15551,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15579,7 +15598,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-05_1715_21602",
     "prevLineId": "togane"
   },
@@ -15673,6 +15691,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15695,7 +15714,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1652_21695",
     "prevLineId": "uchibo"
   },
@@ -15709,6 +15727,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "逗子",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15790,7 +15809,9 @@
         "departureTime": "18:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JO-19_1654_42743",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_OUT_SB-01_1749_14432",
@@ -15845,6 +15866,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "久里浜",
     "cars": 8,
     "isHoliday": false,
@@ -15927,7 +15949,9 @@
         "departureTime": "18:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JO-28_1838_42925",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-03_1752_21709",
@@ -15939,6 +15963,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15961,7 +15986,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-14_1650_21709",
     "prevLineId": "uchibo"
   },
@@ -15974,6 +15998,8 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
+    "customOrigin": "逗子",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -16055,11 +16081,7 @@
         "departureTime": "18:46:00",
         "isPassing": false
       }
-    ],
-    "customDestination": "上総一ノ宮",
-    "customOrigin": "逗子",
-    "prevTripId": "WD_OUT_JO-19_1654_42743",
-    "prevLineId": "sobu_rapid"
+    ]
   },
   {
     "tripId": "WD_INB_SB-18_1759_21642",
@@ -16285,6 +16307,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -16307,7 +16330,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1718_21696",
     "prevLineId": "uchibo"
   },
@@ -16424,6 +16446,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": false,
@@ -16471,7 +16494,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_1835_21590",
     "throughLineId": "togane"
   },
@@ -16485,6 +16507,7 @@
     "direction": "inbound",
     "originStationId": "SB-21",
     "destinationStationId": "SB-03",
+    "customOrigin": "勝浦",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -16603,8 +16626,7 @@
         "departureTime": "19:08:00",
         "isPassing": false
       }
-    ],
-    "customOrigin": "勝浦"
+    ]
   },
   {
     "tripId": "WD_INB_SB-05_1812_21654",
@@ -16775,8 +16797,6 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_1738_6024",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_1822_5478",
     "throughLineId": "sobu_rapid"
   },
@@ -16790,6 +16810,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-05",
     "customOrigin": "東京",
+    "customDestination": "誉田",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -16812,7 +16833,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "誉田",
     "prevTripId": "WD_OUT_JE-01_1735_9861",
     "prevLineId": "keiyo"
   },
@@ -16826,6 +16846,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -16920,7 +16941,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_UB-09_1642_40483",
     "prevLineId": "uchibo"
   },
@@ -16934,6 +16954,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -16956,7 +16977,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1754_21697",
     "prevLineId": "uchibo"
   },
@@ -17051,6 +17071,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-21",
     "customOrigin": "東京",
+    "customDestination": "勝浦",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -17169,7 +17190,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "勝浦",
     "prevTripId": "WD_OUT_JE-01_1800_9844",
     "prevLineId": "keiyo"
   },
@@ -17183,6 +17203,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "横須賀",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -17264,7 +17285,9 @@
         "departureTime": "19:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JO-19_1755_42746",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-11_1839_21613",
@@ -17355,6 +17378,7 @@
     "direction": "inbound",
     "originStationId": "SB-05",
     "destinationStationId": "SB-03",
+    "customOrigin": "誉田",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -17378,7 +17402,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "誉田",
     "throughTripId": "WD_INB_JE-18_1851_37791",
     "throughLineId": "keiyo"
   },
@@ -17392,6 +17415,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -17414,7 +17438,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1808_21698",
     "prevLineId": "uchibo"
   },
@@ -17428,6 +17451,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -17498,7 +17522,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_1753_9862",
     "prevLineId": "keiyo"
   },
@@ -17591,6 +17614,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -17673,7 +17697,9 @@
         "departureTime": "19:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JO-28_1940_5405",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-13_1904_21631",
@@ -17904,6 +17930,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": false,
@@ -17999,7 +18026,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_UB-30_2016_40473",
     "throughLineId": "uchibo"
   },
@@ -18013,6 +18039,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -18035,7 +18062,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-14_1758_21710",
     "prevLineId": "uchibo"
   },
@@ -18141,6 +18167,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "姉ケ崎",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -18163,7 +18190,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-05_1904_21682",
     "prevLineId": "uchibo"
   },
@@ -18177,6 +18203,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -18247,7 +18274,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_1832_9865",
     "prevLineId": "keiyo"
   },
@@ -18309,6 +18335,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -18355,7 +18382,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-05_1914_21604",
     "prevLineId": "togane"
   },
@@ -18546,6 +18572,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-27",
     "customOrigin": "東京",
+    "customDestination": "安房鴨川",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -18700,7 +18727,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "安房鴨川",
     "prevTripId": "WD_OUT_JE-01_1900_9846",
     "prevLineId": "keiyo"
   },
@@ -18714,6 +18740,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -18808,7 +18835,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_UB-09_1745_40484",
     "prevLineId": "uchibo"
   },
@@ -18822,6 +18848,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -18844,7 +18871,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_1856_21699",
     "prevLineId": "uchibo"
   },
@@ -19006,6 +19032,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "横須賀",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -19087,7 +19114,9 @@
         "departureTime": "20:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JO-19_1855_42747",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-13_1953_42845",
@@ -19098,6 +19127,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "久里浜",
     "cars": 8,
     "isHoliday": false,
@@ -19180,7 +19210,9 @@
         "departureTime": "20:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JO-28_2043_42926",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_OUT_SB-01_1958_14464",
@@ -19191,6 +19223,8 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
+    "customOrigin": "横須賀",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -19272,11 +19306,7 @@
         "departureTime": "20:46:00",
         "isPassing": false
       }
-    ],
-    "customDestination": "上総一ノ宮",
-    "customOrigin": "横須賀",
-    "prevTripId": "WD_OUT_JO-19_1855_42747",
-    "prevLineId": "sobu_rapid"
+    ]
   },
   {
     "tripId": "WD_INB_SB-03_1958_21711",
@@ -19288,6 +19318,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -19310,7 +19341,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-14_1853_21711",
     "prevLineId": "uchibo"
   },
@@ -19347,8 +19377,6 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_1926_6030",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_2014_5484",
     "throughLineId": "sobu_rapid"
   },
@@ -19521,6 +19549,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -19592,7 +19621,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_JE-18_2054_37766",
     "throughLineId": "keiyo"
   },
@@ -19606,6 +19634,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -19676,7 +19705,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_1926_9866",
     "prevLineId": "keiyo"
   },
@@ -19874,6 +19902,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -19896,7 +19925,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-09_1954_21674",
     "prevLineId": "uchibo"
   },
@@ -19911,6 +19939,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -19981,7 +20010,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_2000_9842",
     "prevLineId": "keiyo"
   },
@@ -20263,6 +20291,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -20357,7 +20386,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_UB-09_1834_40485",
     "prevLineId": "uchibo"
   },
@@ -20371,6 +20399,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "大船",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -20452,7 +20481,9 @@
         "departureTime": "21:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JO-19_1957_42976",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-13_2051_21635",
@@ -20556,6 +20587,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -20578,7 +20610,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-14_1942_21712",
     "prevLineId": "uchibo"
   },
@@ -20731,6 +20762,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "久里浜",
     "cars": 8,
     "isHoliday": false,
@@ -20813,7 +20845,9 @@
         "departureTime": "21:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_INB_JO-28_2149_42927",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-03_2107_42159",
@@ -20848,10 +20882,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_2024_42159",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_2116_42236",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_2024_42159",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_OUT_SB-13_2110_14424",
@@ -20930,6 +20964,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": false,
@@ -21001,7 +21036,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "WD_INB_JE-18_2156_37768",
     "throughLineId": "keiyo"
   },
@@ -21015,6 +21049,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -21037,7 +21072,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_2041_21700",
     "prevLineId": "uchibo"
   },
@@ -21227,6 +21261,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -21297,7 +21332,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_2038_9860",
     "prevLineId": "keiyo"
   },
@@ -21310,6 +21344,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "東金",
     "cars": 8,
     "isHoliday": false,
@@ -21357,7 +21392,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "WD_OUT_TG-01_2159_21577",
     "throughLineId": "togane"
   },
@@ -21372,6 +21406,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-21",
     "customOrigin": "東京",
+    "customDestination": "勝浦",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -21490,7 +21525,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "勝浦",
     "prevTripId": "WD_OUT_JE-01_2100_9845",
     "prevLineId": "keiyo"
   },
@@ -21644,6 +21678,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -21666,7 +21701,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_2058_21701",
     "prevLineId": "uchibo"
   },
@@ -21680,6 +21714,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -21761,7 +21796,9 @@
         "departureTime": "22:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_OUT_JO-19_2107_5175",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "WD_INB_SB-13_2149_21636",
@@ -21864,6 +21901,8 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
+    "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -21945,11 +21984,7 @@
         "departureTime": "22:46:00",
         "isPassing": false
       }
-    ],
-    "customDestination": "上総一ノ宮",
-    "customOrigin": "東京",
-    "prevTripId": "WD_OUT_JO-19_2107_5175",
-    "prevLineId": "sobu_rapid"
+    ]
   },
   {
     "tripId": "WD_INB_SB-03_2158_21702",
@@ -21961,6 +21996,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -21983,7 +22019,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_2115_21702",
     "prevLineId": "uchibo"
   },
@@ -22020,10 +22055,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_INB_UB-10_2134_42160",
-    "prevLineId": "uchibo",
     "throughTripId": "WD_INB_JO-28_2222_42237",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "WD_INB_UB-10_2134_42160",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "WD_OUT_SB-03_2219_9868",
@@ -22035,6 +22070,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -22105,7 +22141,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_2124_9868",
     "prevLineId": "keiyo"
   },
@@ -22119,6 +22154,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "東金",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -22165,7 +22201,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_TG-03_2212_21605",
     "prevLineId": "togane"
   },
@@ -22356,6 +22391,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -22426,7 +22462,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "WD_OUT_JE-01_2200_9843",
     "prevLineId": "keiyo"
   },
@@ -22580,6 +22615,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -22602,7 +22638,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_2213_21703",
     "prevLineId": "uchibo"
   },
@@ -22830,6 +22865,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -22852,7 +22888,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-10_2242_21704",
     "prevLineId": "uchibo"
   },
@@ -22988,6 +23023,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -23010,7 +23046,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "WD_INB_UB-09_2308_21675",
     "prevLineId": "uchibo"
   },
@@ -23598,6 +23633,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "津田沼",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -23679,7 +23715,9 @@
         "departureTime": "06:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JO-26_0509_5177",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-21_0527_21643",
@@ -23881,6 +23919,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -23903,7 +23942,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-09_0500_21666",
     "prevLineId": "uchibo"
   },
@@ -23916,6 +23954,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": true,
@@ -23963,7 +24002,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_0609_21578",
     "throughLineId": "togane"
   },
@@ -24245,6 +24283,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -24267,7 +24306,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-09_0528_21667",
     "prevLineId": "uchibo"
   },
@@ -24280,6 +24318,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -24351,7 +24390,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_JE-18_0656_32132",
     "throughLineId": "keiyo"
   },
@@ -24500,6 +24538,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": true,
@@ -24547,7 +24586,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_0630_21579",
     "throughLineId": "togane"
   },
@@ -24700,6 +24738,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -24782,7 +24821,9 @@
         "departureTime": "07:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JO-28_0702_5388",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-03_0624_21676",
@@ -24794,6 +24835,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "館山",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -24816,7 +24858,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-22_0445_21676",
     "prevLineId": "uchibo"
   },
@@ -25097,6 +25138,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -25168,7 +25210,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_JE-18_0710_37751",
     "throughLineId": "keiyo"
   },
@@ -25261,6 +25302,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "逗子",
     "cars": 8,
     "isHoliday": true,
@@ -25343,7 +25385,9 @@
         "departureTime": "07:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JO-28_0730_42920",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_OUT_SB-01_0650_14448",
@@ -25446,6 +25490,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -25517,7 +25562,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_JE-18_0744_37762",
     "throughLineId": "keiyo"
   },
@@ -25531,6 +25575,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -25577,7 +25622,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-05_0631_21591",
     "prevLineId": "togane"
   },
@@ -25591,6 +25635,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "姉ケ崎",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -25613,7 +25658,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-05_0644_21680",
     "prevLineId": "uchibo"
   },
@@ -25650,10 +25694,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_0629_42134",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_0718_42211",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_0629_42134",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_OUT_SB-18_0709_40474",
@@ -25664,6 +25708,7 @@
     "direction": "outbound",
     "originStationId": "SB-18",
     "destinationStationId": "SB-27",
+    "customOrigin": "大原",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": true,
@@ -25729,7 +25774,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "大原",
     "throughTripId": "HD_INB_UB-30_0804_40474",
     "throughLineId": "uchibo"
   },
@@ -25830,10 +25874,12 @@
     "lineId": "sotobo",
     "trainId": "5936",
     "trainNumber": "3754F",
-    "trainType": "rapid",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス2号",
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "新宿",
     "cars": 8,
     "isHoliday": true,
@@ -25916,11 +25962,7 @@
         "departureTime": "08:14:00",
         "isPassing": false
       }
-    ],
-    "trainName": "成田エクスプレス2号",
-    "customOrigin": "上総一ノ宮",
-    "throughTripId": "HD_INB_JO-28_0814_29320",
-    "throughLineId": "sobu_rapid"
+    ]
   },
   {
     "tripId": "HD_INB_SB-05_0714_21653",
@@ -25976,6 +26018,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "姉ケ崎",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -25998,7 +26041,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-05_0657_21681",
     "prevLineId": "uchibo"
   },
@@ -26484,6 +26526,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -26506,7 +26549,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_0646_21683",
     "prevLineId": "uchibo"
   },
@@ -26519,6 +26561,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": true,
@@ -26566,7 +26609,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_0802_21580",
     "throughLineId": "togane"
   },
@@ -26683,10 +26725,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_0700_42135",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_0746_42212",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_0700_42135",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_INB_SB-27_0739_37788",
@@ -26698,6 +26740,7 @@
     "direction": "inbound",
     "originStationId": "SB-27",
     "destinationStationId": "SB-03",
+    "customOrigin": "安房鴨川",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -26853,7 +26896,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "安房鴨川",
     "throughTripId": "HD_INB_JE-18_0903_37788",
     "throughLineId": "keiyo"
   },
@@ -26890,10 +26932,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_0705_42136",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_0751_42213",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_0705_42136",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_OUT_SB-01_0746_14450",
@@ -27089,6 +27131,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "千倉",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -27111,7 +27154,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-24_0546_21679",
     "prevLineId": "uchibo"
   },
@@ -27126,6 +27168,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-21",
     "customOrigin": "東京",
+    "customDestination": "勝浦",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -27244,7 +27287,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "勝浦",
     "prevTripId": "HD_OUT_JE-01_0715_9870",
     "prevLineId": "keiyo"
   },
@@ -27257,6 +27299,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": true,
@@ -27304,7 +27347,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_0827_21581",
     "throughLineId": "togane"
   },
@@ -27341,10 +27383,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-09_0730_42131",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_0817_42208",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-09_0730_42131",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_OUT_SB-13_0803_14427",
@@ -27461,6 +27503,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-27",
     "customOrigin": "新宿",
+    "customDestination": "安房鴨川",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -27627,14 +27670,13 @@
         "isPassing": false
       }
     ],
-    "customDestination": "安房鴨川",
+    "prevTripId": "HD_OUT_JB-10_0721_14414",
+    "prevLineId": "chuo_sobu_local",
     "previousTrip": {
       "lineId": "chuo_sobu_local",
       "tripId": "HD_OUT_JB-10_0721_14414",
       "trainNumber": "9055M"
-    },
-    "prevTripId": "HD_OUT_JB-10_0721_14414",
-    "prevLineId": "chuo_sobu_local"
+    }
   },
   {
     "tripId": "HD_INB_SB-27_0811_40486",
@@ -27646,6 +27688,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "館山",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -27740,7 +27783,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_UB-22_0716_40486",
     "prevLineId": "uchibo"
   },
@@ -27754,6 +27796,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -27776,7 +27819,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_0728_21684",
     "prevLineId": "uchibo"
   },
@@ -27882,6 +27924,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -27928,7 +27971,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-05_0804_21592",
     "prevLineId": "togane"
   },
@@ -27942,6 +27984,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "館山",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -27964,7 +28007,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-22_0635_21677",
     "prevLineId": "uchibo"
   },
@@ -28162,6 +28204,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "館山",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -28184,7 +28227,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-22_0710_21678",
     "prevLineId": "uchibo"
   },
@@ -28198,6 +28240,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -28244,7 +28287,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-05_0828_21593",
     "prevLineId": "togane"
   },
@@ -28350,6 +28392,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -28372,7 +28415,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_0820_21685",
     "prevLineId": "uchibo"
   },
@@ -28386,6 +28428,7 @@
     "direction": "inbound",
     "originStationId": "SB-21",
     "destinationStationId": "SB-03",
+    "customOrigin": "勝浦",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -28505,7 +28548,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "勝浦",
     "throughTripId": "HD_INB_JE-18_1002_37774",
     "throughLineId": "keiyo"
   },
@@ -28610,6 +28652,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": true,
@@ -28657,7 +28700,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_0943_21582",
     "throughLineId": "togane"
   },
@@ -28811,6 +28853,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -28857,7 +28900,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-05_0902_21594",
     "prevLineId": "togane"
   },
@@ -28975,6 +29017,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -28997,7 +29040,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-14_0815_21705",
     "prevLineId": "uchibo"
   },
@@ -29011,6 +29053,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "久里浜",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -29092,7 +29135,9 @@
         "departureTime": "10:13:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JO-19_0845_42749",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-13_0936_21620",
@@ -29219,10 +29264,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_0858_42138",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_0943_42215",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_0858_42138",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_OUT_SB-03_0937_9872",
@@ -29235,6 +29280,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-27",
     "customOrigin": "東京",
+    "customDestination": "安房鴨川",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -29389,7 +29435,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "安房鴨川",
     "prevTripId": "HD_OUT_JE-01_0900_9872",
     "prevLineId": "keiyo"
   },
@@ -29403,6 +29448,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -29425,7 +29471,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-14_0839_21706",
     "prevLineId": "uchibo"
   },
@@ -29439,6 +29484,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -29509,7 +29555,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_JE-01_0903_9847",
     "prevLineId": "keiyo"
   },
@@ -29522,6 +29567,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": true,
@@ -29569,7 +29615,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_1026_21584",
     "throughLineId": "togane"
   },
@@ -29675,6 +29720,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -29697,7 +29743,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-09_0926_21668",
     "prevLineId": "uchibo"
   },
@@ -29711,6 +29756,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -29757,7 +29803,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-05_0939_21595",
     "prevLineId": "togane"
   },
@@ -29863,6 +29908,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -29885,7 +29931,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-14_0904_21707",
     "prevLineId": "uchibo"
   },
@@ -29894,10 +29939,12 @@
     "lineId": "sotobo",
     "trainId": "5941",
     "trainNumber": "4018F",
-    "trainType": "rapid",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス14号",
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "新宿",
     "cars": 8,
     "isHoliday": true,
@@ -29980,11 +30027,7 @@
         "departureTime": "11:19:00",
         "isPassing": false
       }
-    ],
-    "trainName": "成田エクスプレス14号",
-    "customOrigin": "上総一ノ宮",
-    "throughTripId": "HD_INB_JO-28_1119_29308",
-    "throughLineId": "sobu_rapid"
+    ]
   },
   {
     "tripId": "HD_OUT_SB-01_1026_42675",
@@ -29996,6 +30039,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "久里浜",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -30077,7 +30121,9 @@
         "departureTime": "11:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JO-19_0946_42752",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-03_1033_42141",
@@ -30112,10 +30158,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_0952_42141",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_1041_42218",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_0952_42141",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_OUT_SB-13_1033_40466",
@@ -30126,6 +30172,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": true,
@@ -30221,7 +30268,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_UB-30_1202_40466",
     "throughLineId": "uchibo"
   },
@@ -30236,6 +30282,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-27",
     "customOrigin": "東京",
+    "customDestination": "安房鴨川",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -30390,7 +30437,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "安房鴨川",
     "prevTripId": "HD_OUT_JE-01_1000_9874",
     "prevLineId": "keiyo"
   },
@@ -30507,6 +30553,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -30578,7 +30625,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_JE-18_1120_37754",
     "throughLineId": "keiyo"
   },
@@ -30592,6 +30638,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -30638,7 +30685,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-05_1021_21596",
     "prevLineId": "togane"
   },
@@ -30652,6 +30698,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -30722,7 +30769,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_JE-01_1004_9850",
     "prevLineId": "keiyo"
   },
@@ -30735,6 +30781,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": true,
@@ -30782,7 +30829,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_1122_21585",
     "throughLineId": "togane"
   },
@@ -30796,6 +30842,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -30818,7 +30865,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1013_21686",
     "prevLineId": "uchibo"
   },
@@ -30924,6 +30970,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -30970,7 +31017,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-05_1048_21597",
     "prevLineId": "togane"
   },
@@ -31076,6 +31122,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -31098,7 +31145,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1031_21687",
     "prevLineId": "uchibo"
   },
@@ -31112,6 +31158,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -31206,7 +31253,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_UB-09_0931_40475",
     "prevLineId": "uchibo"
   },
@@ -31215,10 +31261,12 @@
     "lineId": "sotobo",
     "trainId": "5942",
     "trainNumber": "4144F",
-    "trainType": "rapid",
+    "trainType": "limitedExp",
+    "trainName": "成田エクスプレス18号",
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "新宿",
     "cars": 8,
     "isHoliday": true,
@@ -31301,11 +31349,7 @@
         "departureTime": "12:19:00",
         "isPassing": false
       }
-    ],
-    "trainName": "成田エクスプレス18号",
-    "customOrigin": "上総一ノ宮",
-    "throughTripId": "HD_INB_JO-28_1219_29309",
-    "throughLineId": "sobu_rapid"
+    ]
   },
   {
     "tripId": "HD_OUT_SB-01_1127_14434",
@@ -31420,10 +31464,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_1050_42142",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_1141_42219",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_1050_42142",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_OUT_SB-03_1134_9876",
@@ -31436,6 +31480,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-27",
     "customOrigin": "東京",
+    "customDestination": "安房鴨川",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -31590,7 +31635,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "安房鴨川",
     "prevTripId": "HD_OUT_JE-01_1100_9876",
     "prevLineId": "keiyo"
   },
@@ -31603,6 +31647,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -31674,7 +31719,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_JE-18_1220_37756",
     "throughLineId": "keiyo"
   },
@@ -31687,6 +31731,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": true,
@@ -31782,7 +31827,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_UB-30_1259_40467",
     "throughLineId": "uchibo"
   },
@@ -31796,6 +31840,7 @@
     "direction": "inbound",
     "originStationId": "SB-27",
     "destinationStationId": "SB-03",
+    "customOrigin": "安房鴨川",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -31951,7 +31996,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "安房鴨川",
     "throughTripId": "HD_INB_JE-18_1302_37778",
     "throughLineId": "keiyo"
   },
@@ -31965,6 +32009,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -32035,7 +32080,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_JE-01_1104_9852",
     "prevLineId": "keiyo"
   },
@@ -32048,6 +32092,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": true,
@@ -32095,7 +32140,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_1222_21586",
     "throughLineId": "togane"
   },
@@ -32109,6 +32153,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -32131,7 +32176,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-09_1121_21669",
     "prevLineId": "uchibo"
   },
@@ -32237,6 +32281,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -32283,7 +32328,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-05_1148_21599",
     "prevLineId": "togane"
   },
@@ -32469,6 +32513,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -32491,7 +32536,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1128_21688",
     "prevLineId": "uchibo"
   },
@@ -32505,6 +32549,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -32599,7 +32644,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_UB-09_1030_40476",
     "prevLineId": "uchibo"
   },
@@ -32716,10 +32760,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_1150_42144",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_1241_42221",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_1150_42144",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_OUT_SB-13_1236_40468",
@@ -32730,6 +32774,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": true,
@@ -32825,7 +32870,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_UB-30_1353_40468",
     "throughLineId": "uchibo"
   },
@@ -32838,6 +32882,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -32909,7 +32954,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_JE-18_1320_37757",
     "throughLineId": "keiyo"
   },
@@ -32923,6 +32967,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -32993,7 +33038,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_JE-01_1204_9854",
     "prevLineId": "keiyo"
   },
@@ -33007,6 +33051,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -33029,7 +33074,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1213_21689",
     "prevLineId": "uchibo"
   },
@@ -33042,6 +33086,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": true,
@@ -33089,7 +33134,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_1322_21587",
     "throughLineId": "togane"
   },
@@ -33195,6 +33239,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -33241,7 +33286,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-05_1248_21600",
     "prevLineId": "togane"
   },
@@ -33335,6 +33379,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -33357,7 +33402,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-09_1245_21670",
     "prevLineId": "uchibo"
   },
@@ -33623,6 +33667,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -33717,7 +33762,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_UB-09_1117_40477",
     "prevLineId": "uchibo"
   },
@@ -33754,10 +33798,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_1250_42147",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_1341_42223",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_1250_42147",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_INB_SB-13_1339_37759",
@@ -33768,6 +33812,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -33839,7 +33884,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_JE-18_1420_37759",
     "throughLineId": "keiyo"
   },
@@ -33852,6 +33896,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": true,
@@ -33947,7 +33992,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_UB-30_1453_40469",
     "throughLineId": "uchibo"
   },
@@ -33961,6 +34005,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -34031,7 +34076,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_JE-01_1304_9856",
     "prevLineId": "keiyo"
   },
@@ -34045,6 +34089,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -34067,7 +34112,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1313_21690",
     "prevLineId": "uchibo"
   },
@@ -34080,6 +34124,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": true,
@@ -34127,7 +34172,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_1422_21588",
     "throughLineId": "togane"
   },
@@ -34233,6 +34277,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -34279,7 +34324,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-05_1348_21601",
     "prevLineId": "togane"
   },
@@ -34373,6 +34417,7 @@
     "direction": "inbound",
     "originStationId": "SB-27",
     "destinationStationId": "SB-03",
+    "customOrigin": "安房鴨川",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -34528,7 +34573,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "安房鴨川",
     "throughTripId": "HD_INB_JE-18_1530_37780",
     "throughLineId": "keiyo"
   },
@@ -34634,6 +34678,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -34656,7 +34701,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-09_1343_21671",
     "prevLineId": "uchibo"
   },
@@ -34750,6 +34794,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -34844,7 +34889,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_UB-09_1215_40479",
     "prevLineId": "uchibo"
   },
@@ -34881,10 +34925,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_1350_42151",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_1441_42228",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_1350_42151",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_OUT_SB-13_1433_40470",
@@ -34895,6 +34939,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": true,
@@ -34990,7 +35035,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_UB-30_1554_40470",
     "throughLineId": "uchibo"
   },
@@ -35005,6 +35049,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-27",
     "customOrigin": "東京",
+    "customDestination": "安房鴨川",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -35159,7 +35204,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "安房鴨川",
     "prevTripId": "HD_OUT_JE-01_1400_9879",
     "prevLineId": "keiyo"
   },
@@ -35172,6 +35216,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -35243,7 +35288,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_JE-18_1520_37760",
     "throughLineId": "keiyo"
   },
@@ -35257,6 +35301,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -35327,7 +35372,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_JE-01_1404_9858",
     "prevLineId": "keiyo"
   },
@@ -35341,6 +35385,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -35363,7 +35408,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1413_21691",
     "prevLineId": "uchibo"
   },
@@ -35376,6 +35420,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": true,
@@ -35423,7 +35468,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_1534_21589",
     "throughLineId": "togane"
   },
@@ -35731,6 +35775,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -35753,7 +35798,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1425_21692",
     "prevLineId": "uchibo"
   },
@@ -35767,6 +35811,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "逗子",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -35848,7 +35893,9 @@
         "departureTime": "16:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JO-19_1442_42739",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-27_1525_40480",
@@ -35860,6 +35907,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -35954,7 +36002,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_UB-09_1319_40480",
     "prevLineId": "uchibo"
   },
@@ -35991,10 +36038,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_1450_42152",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_1541_42229",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_1450_42152",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_OUT_SB-13_1537_40471",
@@ -36005,6 +36052,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": true,
@@ -36100,7 +36148,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_UB-30_1700_40471",
     "throughLineId": "uchibo"
   },
@@ -36114,6 +36161,7 @@
     "direction": "inbound",
     "originStationId": "SB-27",
     "destinationStationId": "SB-03",
+    "customOrigin": "安房鴨川",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -36269,7 +36317,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "安房鴨川",
     "throughTripId": "HD_INB_JE-18_1700_37783",
     "throughLineId": "keiyo"
   },
@@ -36282,6 +36329,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -36353,7 +36401,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_JE-18_1619_37765",
     "throughLineId": "keiyo"
   },
@@ -36447,6 +36494,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -36469,7 +36517,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-09_1515_21672",
     "prevLineId": "uchibo"
   },
@@ -36667,6 +36714,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -36689,7 +36737,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-09_1537_21673",
     "prevLineId": "uchibo"
   },
@@ -36783,6 +36830,7 @@
     "direction": "inbound",
     "originStationId": "SB-27",
     "destinationStationId": "SB-01",
+    "customOrigin": "安房鴨川",
     "customDestination": "新宿",
     "cars": 8,
     "isHoliday": true,
@@ -36950,14 +36998,13 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "安房鴨川",
+    "throughTripId": "HD_INB_JB-39_1739_14419",
+    "throughLineId": "chuo_sobu_local",
     "through": {
       "lineId": "chuo_sobu_local",
       "tripId": "HD_INB_JB-39_1739_14419",
       "trainNumber": "9056M"
-    },
-    "throughTripId": "HD_INB_JB-39_1739_14419",
-    "throughLineId": "chuo_sobu_local"
+    }
   },
   {
     "tripId": "HD_INB_SB-03_1621_42155",
@@ -36992,10 +37039,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_1539_42155",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_1633_42232",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_1539_42155",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_INB_SB-13_1621_42842",
@@ -37006,6 +37053,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "久里浜",
     "cars": 8,
     "isHoliday": true,
@@ -37088,7 +37136,9 @@
         "departureTime": "17:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JO-28_1709_42923",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_OUT_SB-01_1624_42663",
@@ -37100,6 +37150,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "逗子",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -37181,7 +37232,9 @@
         "departureTime": "17:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JO-19_1544_42740",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-03_1625_14406",
@@ -37217,6 +37270,10 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_JB-39_1631_14406",
+    "throughLineId": "chuo_sobu_local",
+    "prevTripId": "HD_INB_UB-22_1507_14406",
+    "prevLineId": "uchibo",
     "previousTrip": {
       "lineId": "uchibo",
       "tripId": "HD_INB_UB-22_1507_14406",
@@ -37226,11 +37283,7 @@
       "lineId": "chuo_sobu_local",
       "tripId": "HD_INB_JB-39_1631_14406",
       "trainNumber": "9046M"
-    },
-    "prevTripId": "HD_INB_UB-22_1507_14406",
-    "prevLineId": "uchibo",
-    "throughTripId": "HD_INB_JB-39_1631_14406",
-    "throughLineId": "chuo_sobu_local"
+    }
   },
   {
     "tripId": "HD_INB_SB-27_1631_40481",
@@ -37242,6 +37295,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -37336,7 +37390,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_UB-09_1416_40481",
     "prevLineId": "uchibo"
   },
@@ -37472,6 +37525,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -37494,7 +37548,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1548_21693",
     "prevLineId": "uchibo"
   },
@@ -37710,6 +37763,7 @@
     "direction": "inbound",
     "originStationId": "SB-27",
     "destinationStationId": "SB-03",
+    "customOrigin": "安房鴨川",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -37865,7 +37919,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "安房鴨川",
     "throughTripId": "HD_INB_JE-18_1805_37787",
     "throughLineId": "keiyo"
   },
@@ -37879,6 +37932,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -37901,7 +37955,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-14_1547_21708",
     "prevLineId": "uchibo"
   },
@@ -37994,6 +38047,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": true,
@@ -38089,7 +38143,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_UB-30_1804_40472",
     "throughLineId": "uchibo"
   },
@@ -38195,6 +38248,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -38217,7 +38271,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1622_21694",
     "prevLineId": "uchibo"
   },
@@ -38346,10 +38399,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_1635_42156",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_1722_42233",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_1635_42156",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_INB_SB-03_1719_14408",
@@ -38385,6 +38438,10 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_INB_JB-39_1724_14408",
+    "throughLineId": "chuo_sobu_local",
+    "prevTripId": "HD_INB_UB-22_1602_14408",
+    "prevLineId": "uchibo",
     "previousTrip": {
       "lineId": "uchibo",
       "tripId": "HD_INB_UB-22_1602_14408",
@@ -38394,11 +38451,7 @@
       "lineId": "chuo_sobu_local",
       "tripId": "HD_INB_JB-39_1724_14408",
       "trainNumber": "9048M"
-    },
-    "prevTripId": "HD_INB_UB-22_1602_14408",
-    "prevLineId": "uchibo",
-    "throughTripId": "HD_INB_JB-39_1724_14408",
-    "throughLineId": "chuo_sobu_local"
+    }
   },
   {
     "tripId": "HD_OUT_SB-01_1720_14474",
@@ -38587,6 +38640,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -38657,7 +38711,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_JE-01_1700_9840",
     "prevLineId": "keiyo"
   },
@@ -38671,6 +38724,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -38765,7 +38819,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_UB-09_1517_40482",
     "prevLineId": "uchibo"
   },
@@ -38779,6 +38832,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -38825,7 +38879,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-05_1715_21602",
     "prevLineId": "togane"
   },
@@ -38919,6 +38972,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -38941,7 +38995,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1652_21695",
     "prevLineId": "uchibo"
   },
@@ -38955,6 +39008,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "逗子",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -39036,7 +39090,9 @@
         "departureTime": "18:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JO-19_1654_42742",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_OUT_SB-01_1749_14432",
@@ -39091,6 +39147,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "久里浜",
     "cars": 8,
     "isHoliday": true,
@@ -39173,7 +39230,9 @@
         "departureTime": "18:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JO-28_1836_42924",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-03_1752_21709",
@@ -39185,6 +39244,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -39207,7 +39267,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-14_1650_21709",
     "prevLineId": "uchibo"
   },
@@ -39220,6 +39279,8 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
+    "customOrigin": "逗子",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -39301,11 +39362,7 @@
         "departureTime": "18:46:00",
         "isPassing": false
       }
-    ],
-    "customDestination": "上総一ノ宮",
-    "customOrigin": "逗子",
-    "prevTripId": "HD_OUT_JO-19_1654_42742",
-    "prevLineId": "sobu_rapid"
+    ]
   },
   {
     "tripId": "HD_INB_SB-18_1759_21642",
@@ -39531,6 +39588,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -39553,7 +39611,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1718_21696",
     "prevLineId": "uchibo"
   },
@@ -39670,6 +39727,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "成東",
     "cars": 8,
     "isHoliday": true,
@@ -39717,7 +39775,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_1835_21590",
     "throughLineId": "togane"
   },
@@ -39731,6 +39788,7 @@
     "direction": "inbound",
     "originStationId": "SB-21",
     "destinationStationId": "SB-03",
+    "customOrigin": "勝浦",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -39849,8 +39907,7 @@
         "departureTime": "19:08:00",
         "isPassing": false
       }
-    ],
-    "customOrigin": "勝浦"
+    ]
   },
   {
     "tripId": "HD_INB_SB-05_1812_21654",
@@ -40021,8 +40078,6 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_1738_6026",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_1822_5480",
     "throughLineId": "sobu_rapid"
   },
@@ -40036,6 +40091,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -40130,7 +40186,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_UB-09_1642_40483",
     "prevLineId": "uchibo"
   },
@@ -40144,6 +40199,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -40166,7 +40222,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1754_21697",
     "prevLineId": "uchibo"
   },
@@ -40261,6 +40316,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-21",
     "customOrigin": "東京",
+    "customDestination": "勝浦",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -40379,7 +40435,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "勝浦",
     "prevTripId": "HD_OUT_JE-01_1800_9844",
     "prevLineId": "keiyo"
   },
@@ -40393,6 +40448,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "横須賀",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -40474,7 +40530,9 @@
         "departureTime": "19:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JO-19_1756_42745",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-11_1839_21613",
@@ -40566,6 +40624,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -40588,7 +40647,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1808_21698",
     "prevLineId": "uchibo"
   },
@@ -40602,6 +40660,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -40672,7 +40731,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_JE-01_1802_9863",
     "prevLineId": "keiyo"
   },
@@ -40765,6 +40823,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -40847,7 +40906,9 @@
         "departureTime": "19:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JO-28_1939_5404",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-13_1904_21631",
@@ -41078,6 +41139,7 @@
     "direction": "outbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-27",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "木更津",
     "cars": 8,
     "isHoliday": true,
@@ -41173,7 +41235,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_UB-30_2016_40473",
     "throughLineId": "uchibo"
   },
@@ -41187,6 +41248,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -41209,7 +41271,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-14_1758_21710",
     "prevLineId": "uchibo"
   },
@@ -41315,6 +41376,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "姉ケ崎",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -41337,7 +41399,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-05_1904_21682",
     "prevLineId": "uchibo"
   },
@@ -41351,6 +41412,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -41421,7 +41483,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_JE-01_1827_9864",
     "prevLineId": "keiyo"
   },
@@ -41483,6 +41544,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "成東",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -41529,7 +41591,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-05_1914_21604",
     "prevLineId": "togane"
   },
@@ -41720,6 +41781,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-27",
     "customOrigin": "東京",
+    "customDestination": "安房鴨川",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -41874,7 +41936,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "安房鴨川",
     "prevTripId": "HD_OUT_JE-01_1900_9846",
     "prevLineId": "keiyo"
   },
@@ -41888,6 +41949,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -41982,7 +42044,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_UB-09_1745_40484",
     "prevLineId": "uchibo"
   },
@@ -41996,6 +42057,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -42018,7 +42080,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_1856_21699",
     "prevLineId": "uchibo"
   },
@@ -42180,6 +42241,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "横須賀",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -42261,7 +42323,9 @@
         "departureTime": "20:32:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JO-19_1855_42748",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-13_1953_5951",
@@ -42272,6 +42336,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -42354,7 +42419,9 @@
         "departureTime": "20:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JO-28_2044_5407",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_OUT_SB-01_1958_14464",
@@ -42365,6 +42432,8 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
+    "customOrigin": "横須賀",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -42446,11 +42515,7 @@
         "departureTime": "20:46:00",
         "isPassing": false
       }
-    ],
-    "customDestination": "上総一ノ宮",
-    "customOrigin": "横須賀",
-    "prevTripId": "HD_OUT_JO-19_1855_42748",
-    "prevLineId": "sobu_rapid"
+    ]
   },
   {
     "tripId": "HD_INB_SB-03_1958_21711",
@@ -42462,6 +42527,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -42484,7 +42550,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-14_1853_21711",
     "prevLineId": "uchibo"
   },
@@ -42521,10 +42586,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_1926_42157",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_2014_42234",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_1926_42157",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_OUT_SB-01_2009_14444",
@@ -42695,6 +42760,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -42766,7 +42832,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_JE-18_2054_37767",
     "throughLineId": "keiyo"
   },
@@ -42780,6 +42845,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -42850,7 +42916,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_JE-01_1932_9867",
     "prevLineId": "keiyo"
   },
@@ -43048,6 +43113,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -43070,7 +43136,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-09_1954_21674",
     "prevLineId": "uchibo"
   },
@@ -43352,6 +43417,7 @@
     "originStationId": "SB-27",
     "destinationStationId": "SB-13",
     "customOrigin": "木更津",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -43446,7 +43512,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_UB-09_1834_40485",
     "prevLineId": "uchibo"
   },
@@ -43460,6 +43525,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "逗子",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -43541,7 +43607,9 @@
         "departureTime": "21:29:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JO-19_1957_42744",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-13_2051_21635",
@@ -43645,6 +43713,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "上総湊",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -43667,7 +43736,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-14_1942_21712",
     "prevLineId": "uchibo"
   },
@@ -43820,6 +43888,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-01",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "久里浜",
     "cars": 8,
     "isHoliday": true,
@@ -43902,7 +43971,9 @@
         "departureTime": "21:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_INB_JO-28_2150_42928",
+    "throughLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-03_2107_42158",
@@ -43937,10 +44008,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_2024_42158",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_2116_42235",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_2024_42158",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_OUT_SB-13_2110_14424",
@@ -44019,6 +44090,7 @@
     "direction": "inbound",
     "originStationId": "SB-13",
     "destinationStationId": "SB-03",
+    "customOrigin": "上総一ノ宮",
     "customDestination": "東京",
     "cars": 8,
     "isHoliday": true,
@@ -44090,7 +44162,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "上総一ノ宮",
     "throughTripId": "HD_INB_JE-18_2157_37769",
     "throughLineId": "keiyo"
   },
@@ -44104,6 +44175,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -44126,7 +44198,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_2041_21700",
     "prevLineId": "uchibo"
   },
@@ -44316,6 +44387,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -44386,7 +44458,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_JE-01_2038_9859",
     "prevLineId": "keiyo"
   },
@@ -44399,6 +44470,7 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-07",
+    "customOrigin": "千葉",
     "customDestination": "東金",
     "cars": 8,
     "isHoliday": true,
@@ -44446,7 +44518,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
     "throughTripId": "HD_OUT_TG-01_2159_21577",
     "throughLineId": "togane"
   },
@@ -44461,6 +44532,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-21",
     "customOrigin": "東京",
+    "customDestination": "勝浦",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -44579,7 +44651,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "勝浦",
     "prevTripId": "HD_OUT_JE-01_2100_9845",
     "prevLineId": "keiyo"
   },
@@ -44733,6 +44804,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -44755,7 +44827,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_2058_21701",
     "prevLineId": "uchibo"
   },
@@ -44769,6 +44840,7 @@
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
     "customOrigin": "久里浜",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -44850,7 +44922,9 @@
         "departureTime": "22:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_OUT_JO-19_2110_42753",
+    "prevLineId": "sobu_rapid"
   },
   {
     "tripId": "HD_INB_SB-13_2149_21636",
@@ -44953,6 +45027,8 @@
     "direction": "outbound",
     "originStationId": "SB-01",
     "destinationStationId": "SB-13",
+    "customOrigin": "久里浜",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -45034,11 +45110,7 @@
         "departureTime": "22:46:00",
         "isPassing": false
       }
-    ],
-    "customDestination": "上総一ノ宮",
-    "customOrigin": "久里浜",
-    "prevTripId": "HD_OUT_JO-19_2110_42753",
-    "prevLineId": "sobu_rapid"
+    ]
   },
   {
     "tripId": "HD_INB_SB-03_2158_21702",
@@ -45050,6 +45122,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -45072,7 +45145,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_2115_21702",
     "prevLineId": "uchibo"
   },
@@ -45109,10 +45181,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_INB_UB-10_2134_42161",
-    "prevLineId": "uchibo",
     "throughTripId": "HD_INB_JO-28_2222_42238",
-    "throughLineId": "sobu_rapid"
+    "throughLineId": "sobu_rapid",
+    "prevTripId": "HD_INB_UB-10_2134_42161",
+    "prevLineId": "uchibo"
   },
   {
     "tripId": "HD_OUT_SB-03_2219_9869",
@@ -45124,6 +45196,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-13",
     "customOrigin": "東京",
+    "customDestination": "上総一ノ宮",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -45194,7 +45267,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "上総一ノ宮",
     "prevTripId": "HD_OUT_JE-01_2125_9869",
     "prevLineId": "keiyo"
   },
@@ -45208,6 +45280,7 @@
     "originStationId": "SB-07",
     "destinationStationId": "SB-01",
     "customOrigin": "東金",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -45254,7 +45327,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_TG-03_2212_21605",
     "prevLineId": "togane"
   },
@@ -45584,6 +45656,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -45606,7 +45679,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_2213_21703",
     "prevLineId": "uchibo"
   },
@@ -45834,6 +45906,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "君津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -45856,7 +45929,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-10_2242_21704",
     "prevLineId": "uchibo"
   },
@@ -45992,6 +46064,7 @@
     "originStationId": "SB-03",
     "destinationStationId": "SB-01",
     "customOrigin": "木更津",
+    "customDestination": "千葉",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -46014,7 +46087,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "千葉",
     "prevTripId": "HD_INB_UB-09_2308_21675",
     "prevLineId": "uchibo"
   },
@@ -46188,6 +46260,10 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_UB-01_0845_14399",
+    "throughLineId": "uchibo",
+    "prevTripId": "HD_OUT_JB-10_0752_14399",
+    "prevLineId": "chuo_sobu_local",
     "previousTrip": {
       "lineId": "chuo_sobu_local",
       "tripId": "HD_OUT_JB-10_0752_14399",
@@ -46197,11 +46273,7 @@
       "lineId": "uchibo",
       "tripId": "HD_OUT_UB-01_0845_14399",
       "trainNumber": "9043M"
-    },
-    "throughTripId": "HD_OUT_UB-01_0845_14399",
-    "throughLineId": "uchibo",
-    "prevTripId": "HD_OUT_JB-10_0752_14399",
-    "prevLineId": "chuo_sobu_local"
+    }
   },
   {
     "tripId": "HD_OUT_SB-01_0952_14400",
@@ -46237,6 +46309,10 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_UB-01_1001_14400",
+    "throughLineId": "uchibo",
+    "prevTripId": "HD_OUT_JB-10_0908_14400",
+    "prevLineId": "chuo_sobu_local",
     "previousTrip": {
       "lineId": "chuo_sobu_local",
       "tripId": "HD_OUT_JB-10_0908_14400",
@@ -46246,10 +46322,6 @@
       "lineId": "uchibo",
       "tripId": "HD_OUT_UB-01_1001_14400",
       "trainNumber": "9045M"
-    },
-    "throughTripId": "HD_OUT_UB-01_1001_14400",
-    "throughLineId": "uchibo",
-    "prevTripId": "HD_OUT_JB-10_0908_14400",
-    "prevLineId": "chuo_sobu_local"
+    }
   }
 ]

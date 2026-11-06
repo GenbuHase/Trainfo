@@ -1,6 +1,46 @@
-// 全路線の直通運転ペア宣言的設定ファイル (汎用直通リンカー基盤)
+// 全路線の直通運転ペアおよび直通判定ルール宣言的設定ファイル (汎用直通リンカー基盤)
 module.exports = {
   "connections": [
+    {
+      "name": "東京メトロ東西線 -> 中央・総武緩行線 (中野・三鷹方面直通)",
+      "lineA": "tozai",
+      "lineB": "chuo_sobu_local",
+      "stationA": "T-01",
+      "stationB": "JB-07",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "中央・総武緩行線 -> 東京メトロ東西線 (中野・西船橋方面直通)",
+      "lineA": "chuo_sobu_local",
+      "lineB": "tozai",
+      "stationA": "JB-07",
+      "stationB": "T-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "東京メトロ東西線 -> 中央・総武緩行線 (西船橋・津田沼方面直通)",
+      "lineA": "tozai",
+      "lineB": "chuo_sobu_local",
+      "stationA": "T-23",
+      "stationB": "JB-30",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "中央・総武緩行線 -> 東京メトロ東西線 (西船橋・中野方面直通)",
+      "lineA": "chuo_sobu_local",
+      "lineB": "tozai",
+      "stationA": "JB-30",
+      "stationB": "T-23",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
     {
       "name": "武蔵野線 -> 京葉線 (市川塩浜直通 東京方面)",
       "lineA": "musashino",
@@ -73,7 +113,9 @@ module.exports = {
     },
     {
       "name": "内房線 -> 京葉線 (上り直通)",
-      "disallowedDestinations": ["新宿"],
+      "disallowedDestinations": [
+        "新宿"
+      ],
       "lineA": "uchibo",
       "lineB": "keiyo",
       "stationA": "UB-01",
@@ -290,7 +332,105 @@ module.exports = {
       "stationB": "SH-03",
       "dirA": "outbound",
       "dirB": "outbound",
-      "maxTimeDiff": 300
+      "maxTimeDiff": 300,
+      "exactAllowedOriginsB": [
+        "渋谷",
+        "新宿三丁目",
+        "池袋",
+        "千川",
+        "要町",
+        "雑司が谷",
+        "西早稲田",
+        "東新宿",
+        "北参道",
+        "明治神宮前",
+        "和光市",
+        "地下鉄成増",
+        "地下鉄赤塚",
+        "平和台",
+        "氷川台",
+        "小竹向原",
+        "志木",
+        "朝霞台",
+        "朝霞",
+        "ふじみ野",
+        "川越",
+        "川越市",
+        "森林公園",
+        "小川町",
+        "武蔵小杉",
+        "元町・中華街",
+        "日本大通り",
+        "馬車道",
+        "みなとみらい",
+        "新高島",
+        "横浜",
+        "清瀬",
+        "所沢",
+        "保谷",
+        "小手指",
+        "飯能",
+        "石神井公園",
+        "ひばりヶ丘"
+      ],
+      "exactDisallowedOriginsB": [
+        "浦和美園",
+        "東川口",
+        "戸塚安行",
+        "新井宿",
+        "鳩ケ谷",
+        "鳩ヶ谷",
+        "南鳩ヶ谷",
+        "川口元郷",
+        "赤羽岩淵",
+        "志茂",
+        "王子神谷",
+        "王子",
+        "西ヶ原",
+        "駒込",
+        "本駒込",
+        "東大前",
+        "後楽園",
+        "溜池山王",
+        "六本木一丁目",
+        "麻布十番",
+        "白金高輪",
+        "白金台",
+        "西高島平",
+        "新高島平",
+        "高島平",
+        "西台",
+        "蓮根",
+        "志村三丁目",
+        "志村坂上",
+        "本蓮沼",
+        "板橋本町",
+        "板橋区役所前",
+        "新板橋",
+        "西巣鴨",
+        "巣鴨",
+        "千石",
+        "白山",
+        "春日",
+        "水道橋",
+        "神保町",
+        "大手町",
+        "日比谷",
+        "内幸町",
+        "御成門",
+        "芝公園",
+        "三田",
+        "目黒",
+        "不動前",
+        "武蔵小山",
+        "西小山",
+        "洗足",
+        "大岡山",
+        "奥沢",
+        "田園調布",
+        "多摩川",
+        "新丸子"
+      ]
     },
     {
       "name": "東急新横浜線 -> 東横線 (上り)",
@@ -300,7 +440,105 @@ module.exports = {
       "stationB": "TY-13",
       "dirA": "inbound",
       "dirB": "inbound",
-      "maxTimeDiff": 300
+      "maxTimeDiff": 300,
+      "exactAllowedDestinations": [
+        "渋谷",
+        "新宿三丁目",
+        "池袋",
+        "千川",
+        "要町",
+        "雑司が谷",
+        "西早稲田",
+        "東新宿",
+        "北参道",
+        "明治神宮前",
+        "和光市",
+        "地下鉄成増",
+        "地下鉄赤塚",
+        "平和台",
+        "氷川台",
+        "小竹向原",
+        "志木",
+        "朝霞台",
+        "朝霞",
+        "ふじみ野",
+        "川越",
+        "川越市",
+        "森林公園",
+        "小川町",
+        "武蔵小杉",
+        "元町・中華街",
+        "日本大通り",
+        "馬車道",
+        "みなとみらい",
+        "新高島",
+        "横浜",
+        "清瀬",
+        "所沢",
+        "保谷",
+        "小手指",
+        "飯能",
+        "石神井公園",
+        "ひばりヶ丘"
+      ],
+      "exactDisallowedDestinations": [
+        "浦和美園",
+        "東川口",
+        "戸塚安行",
+        "新井宿",
+        "鳩ケ谷",
+        "鳩ヶ谷",
+        "南鳩ヶ谷",
+        "川口元郷",
+        "赤羽岩淵",
+        "志茂",
+        "王子神谷",
+        "王子",
+        "西ヶ原",
+        "駒込",
+        "本駒込",
+        "東大前",
+        "後楽園",
+        "溜池山王",
+        "六本木一丁目",
+        "麻布十番",
+        "白金高輪",
+        "白金台",
+        "西高島平",
+        "新高島平",
+        "高島平",
+        "西台",
+        "蓮根",
+        "志村三丁目",
+        "志村坂上",
+        "本蓮沼",
+        "板橋本町",
+        "板橋区役所前",
+        "新板橋",
+        "西巣鴨",
+        "巣鴨",
+        "千石",
+        "白山",
+        "春日",
+        "水道橋",
+        "神保町",
+        "大手町",
+        "日比谷",
+        "内幸町",
+        "御成門",
+        "芝公園",
+        "三田",
+        "目黒",
+        "不動前",
+        "武蔵小山",
+        "西小山",
+        "洗足",
+        "大岡山",
+        "奥沢",
+        "田園調布",
+        "多摩川",
+        "新丸子"
+      ]
     },
     {
       "name": "東急新横浜線 -> 相鉄新横浜線 (下り)",
@@ -330,7 +568,13 @@ module.exports = {
       "stationB": "SO-08",
       "dirA": "outbound",
       "dirB": "outbound",
-      "maxTimeDiff": 360
+      "maxTimeDiff": 360,
+      "targetDestStationRules": [
+        {
+          "destIncludes": "湘南台",
+          "requiredStationId": "SO-10"
+        }
+      ]
     },
     {
       "name": "相鉄本線 -> 相鉄新横浜線 (上り)",
@@ -625,7 +869,18 @@ module.exports = {
       "dirA": "outbound",
       "dirB": "outbound",
       "maxTimeDiff": 300,
-      "allowMidStationB": true
+      "allowMidStationB": true,
+      "truncateBFromStation": true,
+      "exactAllowedDestinations": [
+        "川越",
+        "指扇",
+        "大宮",
+        "大宮(埼玉県)",
+        "南古谷",
+        "赤羽",
+        "池袋",
+        "武蔵浦和"
+      ]
     },
     {
       "name": "埼京線 -> 相鉄・JR直通線 (上り/南行)",
@@ -636,7 +891,11 @@ module.exports = {
       "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 300,
-      "allowMidStationA": true
+      "allowMidStationA": true,
+      "truncateAAtStation": true,
+      "allowedDestinations": [
+        "海老名"
+      ]
     },
     {
       "name": "小田急小田原線 -> 千代田線 (上り/我孫子方面直通)",
@@ -1809,5 +2068,97 @@ module.exports = {
       "dirB": "inbound",
       "maxTimeDiff": 300
     }
-  ]
+  ],
+  "destinationCompatibilityGroups": [
+    [
+      "会津若松",
+      "喜多方"
+    ],
+    [
+      "東京",
+      "新宿"
+    ]
+  ],
+  "freeLimitedExpressLinePrefixes": [
+    "sotetsu_"
+  ],
+  "lineDestinationExclusions": {
+    "yurakucho": {
+      "exact": [
+        "元町・中華街",
+        "渋谷",
+        "横浜",
+        "湘南台",
+        "海老名",
+        "武蔵小杉",
+        "菊名",
+        "日吉",
+        "元住吉",
+        "自由が丘"
+      ]
+    },
+    "fukutoshin": {
+      "exact": [
+        "新木場",
+        "豊洲",
+        "有楽町",
+        "市ケ谷",
+        "小川町(東武)"
+      ]
+    },
+    "sotetsu_izumino": {
+      "includes": [
+        "海老名"
+      ]
+    },
+    "utsunomiya": {
+      "exact": [
+        "高崎",
+        "籠原",
+        "深谷",
+        "本庄",
+        "新前橋",
+        "前橋",
+        "渋川",
+        "水上",
+        "土浦",
+        "勝田",
+        "水戸",
+        "いわき",
+        "高萩",
+        "仙台",
+        "取手",
+        "成田",
+        "我孫子",
+        "神立",
+        "友部",
+        "日立",
+        "原ノ町"
+      ]
+    },
+    "takasaki": {
+      "exact": [
+        "宇都宮",
+        "小金井",
+        "古河",
+        "黒磯",
+        "氏家",
+        "宝積寺",
+        "那須塩原",
+        "土浦",
+        "勝田",
+        "水戸",
+        "いわき",
+        "高萩",
+        "仙台",
+        "取手",
+        "成田",
+        "我孫子",
+        "神立",
+        "友部",
+        "日立",
+        "原ノ町"
+      ]
+    }
+  }
 };

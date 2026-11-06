@@ -2,6 +2,7 @@
   {
     "tripId": "WD_INB_JT-26_0500_25509",
     "lineId": "ito",
+    "trainId": "25509",
     "trainNumber": "1622M",
     "trainType": "local",
     "direction": "inbound",
@@ -46,12 +47,12 @@
         "departureTime": "05:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25509"
+    ]
   },
   {
     "tripId": "WD_OUT_JT-21_0503_25481",
     "lineId": "ito",
+    "trainId": "25481",
     "trainNumber": "1621M",
     "trainType": "local",
     "direction": "outbound",
@@ -96,12 +97,12 @@
         "departureTime": "05:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25481"
+    ]
   },
   {
     "tripId": "WD_INB_JT-26_0545_25510",
     "lineId": "ito",
+    "trainId": "25510",
     "trainNumber": "1624M",
     "trainType": "local",
     "direction": "inbound",
@@ -146,12 +147,12 @@
         "departureTime": "06:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25510"
+    ]
   },
   {
     "tripId": "WD_OUT_JT-21_0550_25482",
     "lineId": "ito",
+    "trainId": "25482",
     "trainNumber": "1623M",
     "trainType": "local",
     "direction": "outbound",
@@ -196,12 +197,12 @@
         "departureTime": "06:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25482"
+    ]
   },
   {
     "tripId": "WD_INB_JT-26_0622_25511",
     "lineId": "ito",
+    "trainId": "25511",
     "trainNumber": "1626M",
     "trainType": "local",
     "direction": "inbound",
@@ -246,17 +247,18 @@
         "departureTime": "06:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25511"
+    ]
   },
   {
     "tripId": "WD_OUT_JT-21_0628_32687",
     "lineId": "ito",
+    "trainId": "32687",
     "trainNumber": "5625M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -298,19 +300,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "32687",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_0655_32706",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_0644_37662",
     "lineId": "ito",
+    "trainId": "37662",
     "trainNumber": "1560E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
+    "customOrigin": "伊東",
     "customDestination": "上野",
     "cars": 6,
     "isHoliday": false,
@@ -352,20 +354,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "37662",
-    "customOrigin": "伊東",
     "throughTripId": "WD_INB_JT-21_0713_37662",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_JT-26_0715_29695",
     "lineId": "ito",
+    "trainId": "29695",
     "trainNumber": "5628M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -406,19 +408,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "29695",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-16_0607_29714",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_0723_32688",
     "lineId": "ito",
+    "trainId": "32688",
     "trainNumber": "5627M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -460,20 +462,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32688",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_0750_32707",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_0739_29690",
     "lineId": "ito",
+    "trainId": "29690",
     "trainNumber": "5630M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆高原",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -514,14 +516,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29690",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-06_0717_29709",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_0757_25483",
     "lineId": "ito",
+    "trainId": "25483",
     "trainNumber": "1629M",
     "trainType": "local",
     "direction": "outbound",
@@ -566,18 +567,19 @@
         "departureTime": "08:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25483"
+    ]
   },
   {
     "tripId": "WD_INB_JT-26_0809_29696",
     "lineId": "ito",
+    "trainId": "29696",
     "trainNumber": "5632M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -618,19 +620,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "29696",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-16_0701_29715",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_0826_32689",
     "lineId": "ito",
+    "trainId": "32689",
     "trainNumber": "5631M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -672,14 +674,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32689",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_0850_32708",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_0852_25512",
     "lineId": "ito",
+    "trainId": "25512",
     "trainNumber": "1634M",
     "trainType": "local",
     "direction": "inbound",
@@ -724,17 +725,18 @@
         "departureTime": "09:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25512"
+    ]
   },
   {
     "tripId": "WD_OUT_JT-21_0903_32690",
     "lineId": "ito",
+    "trainId": "32690",
     "trainNumber": "5633M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -776,20 +778,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32690",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_0926_32709",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_0934_29691",
     "lineId": "ito",
+    "trainId": "29691",
     "trainNumber": "5636M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆高原",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -830,19 +832,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "29691",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-06_0911_29710",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_0940_32691",
     "lineId": "ito",
+    "trainId": "32691",
     "trainNumber": "5635M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -884,19 +886,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "32691",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1003_32710",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_1010_32692",
     "lineId": "ito",
+    "trainId": "32692",
     "trainNumber": "5637M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -938,20 +940,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32692",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1048_32711",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1017_29697",
     "lineId": "ito",
+    "trainId": "29697",
     "trainNumber": "5638M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -992,14 +994,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29697",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-16_0906_29716",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_1023_39527",
     "lineId": "ito",
+    "trainId": "39527",
     "trainNumber": "3021M",
     "trainType": "limitedExp",
     "trainName": "踊り子1号",
@@ -1048,20 +1049,21 @@
         "isPassing": false
       }
     ],
-    "trainId": "39527",
-    "prevTripId": "WD_OUT_JT-01_0900_39527",
-    "prevLineId": "tokaido",
     "throughTripId": "WD_OUT_IZ-01_1045_39558",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "WD_OUT_JT-01_0900_39527",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_JT-21_1045_32693",
     "lineId": "ito",
+    "trainId": "32693",
     "trainNumber": "5639M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -1103,20 +1105,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32693",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1108_32712",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1057_29698",
     "lineId": "ito",
+    "trainId": "29698",
     "trainNumber": "5640M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -1157,14 +1159,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29698",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-16_0940_29717",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1108_31144",
     "lineId": "ito",
+    "trainId": "31144",
     "trainNumber": "3022M",
     "trainType": "limitedExp",
     "trainName": "踊り子2号",
@@ -1213,7 +1214,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31144",
     "throughTripId": "WD_INB_JT-21_1129_31144",
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IZ-16_1009_31163",
@@ -1222,6 +1222,7 @@
   {
     "tripId": "WD_OUT_JT-21_1121_39528",
     "lineId": "ito",
+    "trainId": "39528",
     "trainNumber": "3025M",
     "trainType": "limitedExp",
     "trainName": "踊り子5号",
@@ -1270,20 +1271,21 @@
         "isPassing": false
       }
     ],
-    "trainId": "39528",
-    "prevTripId": "WD_OUT_JT-01_1000_39528",
-    "prevLineId": "tokaido",
     "throughTripId": "WD_OUT_IZ-01_1146_39559",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "WD_OUT_JT-01_1000_39528",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_JT-21_1132_32694",
     "lineId": "ito",
+    "trainId": "32694",
     "trainNumber": "5641M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -1325,20 +1327,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32694",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1157_32713",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1135_29699",
     "lineId": "ito",
+    "trainId": "29699",
     "trainNumber": "5642M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -1379,20 +1381,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "29699",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-16_1016_29718",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1146_9755",
     "lineId": "ito",
+    "trainId": "9755",
     "trainNumber": "9094M",
     "trainType": "limitedExp",
     "trainName": "踊り子94号",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
+    "customOrigin": "伊東",
     "customDestination": "東京",
     "cars": 6,
     "isHoliday": false,
@@ -1434,14 +1436,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9755",
-    "customOrigin": "伊東",
     "throughTripId": "WD_INB_JT-21_1215_9755",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_JT-21_1154_39530",
     "lineId": "ito",
+    "trainId": "39530",
     "trainNumber": "8027M",
     "trainType": "limitedExp",
     "trainName": "踊り子7号",
@@ -1490,21 +1491,22 @@
         "isPassing": false
       }
     ],
-    "trainId": "39530",
-    "prevTripId": "WD_OUT_JT-01_1030_39530",
-    "prevLineId": "tokaido",
     "throughTripId": "WD_OUT_IZ-01_1222_39561",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "WD_OUT_JT-01_1030_39530",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_JT-26_1215_29692",
     "lineId": "ito",
+    "trainId": "29692",
     "trainNumber": "5644M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆高原",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -1545,14 +1547,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29692",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-06_1152_29711",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_1219_39525",
     "lineId": "ito",
+    "trainId": "39525",
     "trainNumber": "3001M",
     "trainType": "limitedExp",
     "trainName": "サフィール踊り子1号",
@@ -1601,20 +1602,21 @@
         "isPassing": false
       }
     ],
-    "trainId": "39525",
-    "prevTripId": "WD_OUT_JT-01_1100_39525",
-    "prevLineId": "tokaido",
     "throughTripId": "WD_OUT_IZ-01_1237_39556",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "WD_OUT_JT-01_1100_39525",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_JT-21_1224_32695",
     "lineId": "ito",
+    "trainId": "32695",
     "trainNumber": "5643M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -1656,20 +1658,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32695",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1252_32714",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1253_29700",
     "lineId": "ito",
+    "trainId": "29700",
     "trainNumber": "5646M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -1710,14 +1712,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29700",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-16_1140_29719",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1305_31146",
     "lineId": "ito",
+    "trainId": "31146",
     "trainNumber": "3024M",
     "trainType": "limitedExp",
     "trainName": "踊り子4号",
@@ -1766,7 +1767,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31146",
     "throughTripId": "WD_INB_JT-21_1332_31146",
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IZ-16_1131_31164",
@@ -1775,11 +1775,13 @@
   {
     "tripId": "WD_OUT_JT-21_1310_32684",
     "lineId": "ito",
+    "trainId": "32684",
     "trainNumber": "5645M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆高原",
     "cars": 6,
     "isHoliday": false,
@@ -1821,14 +1823,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32684",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1335_32703",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_1323_39532",
     "lineId": "ito",
+    "trainId": "39532",
     "trainNumber": "3029M",
     "trainType": "limitedExp",
     "trainName": "踊り子9号",
@@ -1877,15 +1878,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39532",
-    "prevTripId": "WD_OUT_JT-01_1200_39532",
-    "prevLineId": "tokaido",
     "throughTripId": "WD_OUT_IZ-01_1348_39563",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "WD_OUT_JT-01_1200_39532",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_JT-26_1334_31142",
     "lineId": "ito",
+    "trainId": "31142",
     "trainNumber": "8058M",
     "trainType": "limitedExp",
     "trainName": "踊り子58号",
@@ -1934,7 +1935,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31142",
     "throughTripId": "WD_INB_JT-21_1400_31142",
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IZ-16_1231_31161",
@@ -1943,11 +1943,13 @@
   {
     "tripId": "WD_OUT_JT-21_1341_32696",
     "lineId": "ito",
+    "trainId": "32696",
     "trainNumber": "5647M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -1989,20 +1991,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32696",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1410_32715",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1345_29701",
     "lineId": "ito",
+    "trainId": "29701",
     "trainNumber": "5648M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -2043,14 +2045,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29701",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-16_1213_29720",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_1351_39526",
     "lineId": "ito",
+    "trainId": "39526",
     "trainNumber": "8003M",
     "trainType": "limitedExp",
     "trainName": "サフィール踊り子3号",
@@ -2099,15 +2100,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39526",
-    "prevTripId": "WD_OUT_JT-01_1230_39526",
-    "prevLineId": "tokaido",
     "throughTripId": "WD_OUT_IZ-01_1425_39557",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "WD_OUT_JT-01_1230_39526",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_JT-26_1405_31147",
     "lineId": "ito",
+    "trainId": "31147",
     "trainNumber": "3026M",
     "trainType": "limitedExp",
     "trainName": "踊り子6号",
@@ -2156,7 +2157,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31147",
     "throughTripId": "WD_INB_JT-21_1430_31147",
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IZ-16_1302_31166",
@@ -2165,12 +2165,14 @@
   {
     "tripId": "WD_INB_JT-26_1420_29702",
     "lineId": "ito",
+    "trainId": "29702",
     "trainNumber": "5650M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -2211,14 +2213,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29702",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-16_1309_29721",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_1422_39533",
     "lineId": "ito",
+    "trainId": "39533",
     "trainNumber": "3031M",
     "trainType": "limitedExp",
     "trainName": "踊り子11号",
@@ -2267,20 +2268,21 @@
         "isPassing": false
       }
     ],
-    "trainId": "39533",
-    "prevTripId": "WD_OUT_JT-01_1300_39533",
-    "prevLineId": "tokaido",
     "throughTripId": "WD_OUT_IZ-01_1444_39564",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "WD_OUT_JT-01_1300_39533",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_JT-21_1429_32697",
     "lineId": "ito",
+    "trainId": "32697",
     "trainNumber": "5649M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -2322,14 +2324,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32697",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1452_32716",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1441_31148",
     "lineId": "ito",
+    "trainId": "31148",
     "trainNumber": "8028M",
     "trainType": "limitedExp",
     "trainName": "踊り子8号",
@@ -2378,7 +2379,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31148",
     "throughTripId": "WD_INB_JT-21_1508_31148",
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IZ-16_1342_31167",
@@ -2387,6 +2387,7 @@
   {
     "tripId": "WD_OUT_JT-21_1455_39534",
     "lineId": "ito",
+    "trainId": "39534",
     "trainNumber": "8063M",
     "trainType": "limitedExp",
     "trainName": "踊り子63号",
@@ -2435,21 +2436,22 @@
         "isPassing": false
       }
     ],
-    "trainId": "39534",
-    "prevTripId": "WD_OUT_JT-01_1330_39534",
-    "prevLineId": "tokaido",
     "throughTripId": "WD_OUT_IZ-01_1521_39565",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "WD_OUT_JT-01_1330_39534",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_JT-26_1455_29693",
     "lineId": "ito",
+    "trainId": "29693",
     "trainNumber": "5652M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆高原",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -2490,19 +2492,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "29693",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-06_1425_29712",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_1505_32698",
     "lineId": "ito",
+    "trainId": "32698",
     "trainNumber": "5651M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -2544,14 +2546,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32698",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1539_32717",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1510_31140",
     "lineId": "ito",
+    "trainId": "31140",
     "trainNumber": "3002M",
     "trainType": "limitedExp",
     "trainName": "サフィール踊り子2号",
@@ -2600,7 +2601,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31140",
     "throughTripId": "WD_INB_JT-21_1531_31140",
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IZ-16_1418_31159",
@@ -2609,12 +2609,14 @@
   {
     "tripId": "WD_INB_JT-26_1521_29703",
     "lineId": "ito",
+    "trainId": "29703",
     "trainNumber": "5654M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -2655,14 +2657,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29703",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-16_1350_29722",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_1527_25484",
     "lineId": "ito",
+    "trainId": "25484",
     "trainNumber": "1653M",
     "trainType": "local",
     "direction": "outbound",
@@ -2707,18 +2708,19 @@
         "departureTime": "15:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25484"
+    ]
   },
   {
     "tripId": "WD_INB_JT-26_1550_29704",
     "lineId": "ito",
+    "trainId": "29704",
     "trainNumber": "5656M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -2759,19 +2761,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "29704",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-16_1442_29723",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_1557_32699",
     "lineId": "ito",
+    "trainId": "32699",
     "trainNumber": "5655M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -2813,14 +2815,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32699",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1623_32718",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1602_31151",
     "lineId": "ito",
+    "trainId": "31151",
     "trainNumber": "3030M",
     "trainType": "limitedExp",
     "trainName": "踊り子10号",
@@ -2869,7 +2870,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31151",
     "throughTripId": "WD_INB_JT-21_1629_31151",
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IZ-16_1508_31170",
@@ -2878,6 +2878,7 @@
   {
     "tripId": "WD_INB_JT-26_1622_25513",
     "lineId": "ito",
+    "trainId": "25513",
     "trainNumber": "1658M",
     "trainType": "local",
     "direction": "inbound",
@@ -2922,17 +2923,18 @@
         "departureTime": "16:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25513"
+    ]
   },
   {
     "tripId": "WD_OUT_JT-21_1633_32685",
     "lineId": "ito",
+    "trainId": "32685",
     "trainNumber": "5657M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆高原",
     "cars": 6,
     "isHoliday": false,
@@ -2974,20 +2976,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32685",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1702_32704",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1647_29705",
     "lineId": "ito",
+    "trainId": "29705",
     "trainNumber": "5660M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -3028,20 +3030,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "29705",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-16_1536_29724",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_1653_33723",
     "lineId": "ito",
+    "trainId": "33723",
     "trainNumber": "1883E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
     "customOrigin": "籠原",
+    "customDestination": "伊東",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -3082,19 +3084,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "33723",
-    "customDestination": "伊東",
     "prevTripId": "WD_OUT_JT-01_1507_33723",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_JT-21_1706_32686",
     "lineId": "ito",
+    "trainId": "32686",
     "trainNumber": "5659M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆高原",
     "cars": 6,
     "isHoliday": false,
@@ -3136,20 +3138,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32686",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1734_32705",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1722_29694",
     "lineId": "ito",
+    "trainId": "29694",
     "trainNumber": "5662M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆高原",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -3190,14 +3192,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29694",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-06_1654_29713",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_1730_25485",
     "lineId": "ito",
+    "trainId": "25485",
     "trainNumber": "1661M",
     "trainType": "local",
     "direction": "outbound",
@@ -3242,12 +3243,12 @@
         "departureTime": "17:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25485"
+    ]
   },
   {
     "tripId": "WD_INB_JT-26_1735_31141",
     "lineId": "ito",
+    "trainId": "31141",
     "trainNumber": "8004M",
     "trainType": "limitedExp",
     "trainName": "サフィール踊り子4号",
@@ -3296,7 +3297,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31141",
     "throughTripId": "WD_INB_JT-21_1800_31141",
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IZ-16_1639_31160",
@@ -3305,11 +3305,13 @@
   {
     "tripId": "WD_INB_JT-26_1745_33781",
     "lineId": "ito",
+    "trainId": "33781",
     "trainNumber": "1656E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
+    "customOrigin": "伊東",
     "customDestination": "宇都宮",
     "cars": 6,
     "isHoliday": false,
@@ -3351,14 +3353,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33781",
-    "customOrigin": "伊東",
     "throughTripId": "WD_INB_JT-21_1812_33781",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_JT-26_1759_31153",
     "lineId": "ito",
+    "trainId": "31153",
     "trainNumber": "8066M",
     "trainType": "limitedExp",
     "trainName": "踊り子66号",
@@ -3407,7 +3408,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31153",
     "throughTripId": "WD_INB_JT-21_1829_31153",
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IZ-16_1655_31172",
@@ -3416,12 +3416,14 @@
   {
     "tripId": "WD_OUT_JT-21_1804_33718",
     "lineId": "ito",
+    "trainId": "33718",
     "trainNumber": "1589E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
     "customOrigin": "宇都宮",
+    "customDestination": "伊東",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -3462,14 +3464,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33718",
-    "customDestination": "伊東",
     "prevTripId": "WD_OUT_JT-01_1618_33718",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_JT-26_1812_25514",
     "lineId": "ito",
+    "trainId": "25514",
     "trainNumber": "1664M",
     "trainType": "local",
     "direction": "inbound",
@@ -3514,12 +3515,12 @@
         "departureTime": "18:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25514"
+    ]
   },
   {
     "tripId": "WD_OUT_JT-21_1830_25486",
     "lineId": "ito",
+    "trainId": "25486",
     "trainNumber": "1663M",
     "trainType": "local",
     "direction": "outbound",
@@ -3564,17 +3565,18 @@
         "departureTime": "18:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25486"
+    ]
   },
   {
     "tripId": "WD_INB_JT-26_1844_34517",
     "lineId": "ito",
+    "trainId": "34517",
     "trainNumber": "1932E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
+    "customOrigin": "伊東",
     "customDestination": "籠原",
     "cars": 6,
     "isHoliday": false,
@@ -3616,19 +3618,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "34517",
-    "customOrigin": "伊東",
     "throughTripId": "WD_INB_JT-21_1909_34517",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_JT-21_1902_32700",
     "lineId": "ito",
+    "trainId": "32700",
     "trainNumber": "5665M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": false,
@@ -3670,14 +3672,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32700",
-    "customOrigin": "熱海",
     "throughTripId": "WD_OUT_IZ-01_1925_32719",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "WD_INB_JT-26_1913_25515",
     "lineId": "ito",
+    "trainId": "25515",
     "trainNumber": "1666M",
     "trainType": "local",
     "direction": "inbound",
@@ -3722,18 +3723,19 @@
         "departureTime": "19:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25515"
+    ]
   },
   {
     "tripId": "WD_OUT_JT-21_1930_42914",
     "lineId": "ito",
+    "trainId": "42914",
     "trainNumber": "1597E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
     "customOrigin": "上野",
+    "customDestination": "伊東",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -3774,20 +3776,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "42914",
-    "customDestination": "伊東",
     "prevTripId": "WD_OUT_JT-01_1732_42914",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_JT-26_1944_29706",
     "lineId": "ito",
+    "trainId": "29706",
     "trainNumber": "5668M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -3828,14 +3830,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29706",
-    "customDestination": "熱海",
     "prevTripId": "WD_INB_IZ-16_1830_29725",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "WD_OUT_JT-21_2003_25487",
     "lineId": "ito",
+    "trainId": "25487",
     "trainNumber": "1667M",
     "trainType": "local",
     "direction": "outbound",
@@ -3880,17 +3881,18 @@
         "departureTime": "20:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25487"
+    ]
   },
   {
     "tripId": "WD_INB_JT-26_2005_33779",
     "lineId": "ito",
+    "trainId": "33779",
     "trainNumber": "1670E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
+    "customOrigin": "伊東",
     "customDestination": "小金井",
     "cars": 6,
     "isHoliday": false,
@@ -3932,14 +3934,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33779",
-    "customOrigin": "伊東",
     "throughTripId": "WD_INB_JT-21_2035_33779",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_JT-21_2032_25488",
     "lineId": "ito",
+    "trainId": "25488",
     "trainNumber": "1669M",
     "trainType": "local",
     "direction": "outbound",
@@ -3984,12 +3985,12 @@
         "departureTime": "20:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25488"
+    ]
   },
   {
     "tripId": "WD_INB_JT-26_2035_25516",
     "lineId": "ito",
+    "trainId": "25516",
     "trainNumber": "1670M",
     "trainType": "local",
     "direction": "inbound",
@@ -4034,12 +4035,12 @@
         "departureTime": "20:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25516"
+    ]
   },
   {
     "tripId": "WD_OUT_JT-21_2104_25489",
     "lineId": "ito",
+    "trainId": "25489",
     "trainNumber": "1671M",
     "trainType": "local",
     "direction": "outbound",
@@ -4084,12 +4085,12 @@
         "departureTime": "21:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25489"
+    ]
   },
   {
     "tripId": "WD_INB_JT-26_2106_25517",
     "lineId": "ito",
+    "trainId": "25517",
     "trainNumber": "1672M",
     "trainType": "local",
     "direction": "inbound",
@@ -4134,12 +4135,12 @@
         "departureTime": "21:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25517"
+    ]
   },
   {
     "tripId": "WD_OUT_JT-21_2137_25490",
     "lineId": "ito",
+    "trainId": "25490",
     "trainNumber": "1673M",
     "trainType": "local",
     "direction": "outbound",
@@ -4184,12 +4185,12 @@
         "departureTime": "21:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25490"
+    ]
   },
   {
     "tripId": "WD_INB_JT-26_2139_25518",
     "lineId": "ito",
+    "trainId": "25518",
     "trainNumber": "1674M",
     "trainType": "local",
     "direction": "inbound",
@@ -4234,12 +4235,12 @@
         "departureTime": "22:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25518"
+    ]
   },
   {
     "tripId": "WD_INB_JT-26_2205_25519",
     "lineId": "ito",
+    "trainId": "25519",
     "trainNumber": "1676M",
     "trainType": "local",
     "direction": "inbound",
@@ -4284,12 +4285,12 @@
         "departureTime": "22:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25519"
+    ]
   },
   {
     "tripId": "WD_OUT_JT-21_2212_25491",
     "lineId": "ito",
+    "trainId": "25491",
     "trainNumber": "1675M",
     "trainType": "local",
     "direction": "outbound",
@@ -4334,12 +4335,12 @@
         "departureTime": "22:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25491"
+    ]
   },
   {
     "tripId": "WD_INB_JT-26_2241_25520",
     "lineId": "ito",
+    "trainId": "25520",
     "trainNumber": "1678M",
     "trainType": "local",
     "direction": "inbound",
@@ -4384,12 +4385,12 @@
         "departureTime": "23:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25520"
+    ]
   },
   {
     "tripId": "WD_OUT_JT-21_2248_25492",
     "lineId": "ito",
+    "trainId": "25492",
     "trainNumber": "1677M",
     "trainType": "local",
     "direction": "outbound",
@@ -4434,18 +4435,19 @@
         "departureTime": "23:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25492"
+    ]
   },
   {
     "tripId": "WD_OUT_JT-21_2305_33722",
     "lineId": "ito",
+    "trainId": "33722",
     "trainNumber": "1941E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
     "customOrigin": "高崎",
+    "customDestination": "伊東",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -4486,14 +4488,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33722",
-    "customDestination": "伊東",
     "prevTripId": "WD_OUT_JT-01_2102_33722",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_0500_25509",
     "lineId": "ito",
+    "trainId": "25509",
     "trainNumber": "1622M",
     "trainType": "local",
     "direction": "inbound",
@@ -4538,12 +4539,12 @@
         "departureTime": "05:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25509"
+    ]
   },
   {
     "tripId": "HD_OUT_JT-21_0503_25481",
     "lineId": "ito",
+    "trainId": "25481",
     "trainNumber": "1621M",
     "trainType": "local",
     "direction": "outbound",
@@ -4588,12 +4589,12 @@
         "departureTime": "05:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25481"
+    ]
   },
   {
     "tripId": "HD_INB_JT-26_0545_25510",
     "lineId": "ito",
+    "trainId": "25510",
     "trainNumber": "1624M",
     "trainType": "local",
     "direction": "inbound",
@@ -4638,12 +4639,12 @@
         "departureTime": "06:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25510"
+    ]
   },
   {
     "tripId": "HD_OUT_JT-21_0550_25482",
     "lineId": "ito",
+    "trainId": "25482",
     "trainNumber": "1623M",
     "trainType": "local",
     "direction": "outbound",
@@ -4688,12 +4689,12 @@
         "departureTime": "06:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25482"
+    ]
   },
   {
     "tripId": "HD_INB_JT-26_0622_25511",
     "lineId": "ito",
+    "trainId": "25511",
     "trainNumber": "1626M",
     "trainType": "local",
     "direction": "inbound",
@@ -4738,17 +4739,18 @@
         "departureTime": "06:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25511"
+    ]
   },
   {
     "tripId": "HD_OUT_JT-21_0628_32687",
     "lineId": "ito",
+    "trainId": "32687",
     "trainNumber": "5625M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -4790,19 +4792,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "32687",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_0655_32706",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_0644_33780",
     "lineId": "ito",
+    "trainId": "33780",
     "trainNumber": "1556E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
+    "customOrigin": "伊東",
     "customDestination": "宇都宮",
     "cars": 6,
     "isHoliday": true,
@@ -4844,20 +4846,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "33780",
-    "customOrigin": "伊東",
     "throughTripId": "HD_INB_JT-21_0713_33780",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_0715_29695",
     "lineId": "ito",
+    "trainId": "29695",
     "trainNumber": "5628M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -4898,19 +4900,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "29695",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-16_0607_29714",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_0723_32688",
     "lineId": "ito",
+    "trainId": "32688",
     "trainNumber": "5627M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -4952,20 +4954,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32688",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_0750_32707",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_0739_29690",
     "lineId": "ito",
+    "trainId": "29690",
     "trainNumber": "5630M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆高原",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -5006,14 +5008,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29690",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-06_0717_29709",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_0757_25483",
     "lineId": "ito",
+    "trainId": "25483",
     "trainNumber": "1629M",
     "trainType": "local",
     "direction": "outbound",
@@ -5058,18 +5059,19 @@
         "departureTime": "08:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25483"
+    ]
   },
   {
     "tripId": "HD_INB_JT-26_0809_29696",
     "lineId": "ito",
+    "trainId": "29696",
     "trainNumber": "5632M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -5110,19 +5112,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "29696",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-16_0701_29715",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_0826_32689",
     "lineId": "ito",
+    "trainId": "32689",
     "trainNumber": "5631M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -5164,14 +5166,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32689",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_0850_32708",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_0852_25512",
     "lineId": "ito",
+    "trainId": "25512",
     "trainNumber": "1634M",
     "trainType": "local",
     "direction": "inbound",
@@ -5216,17 +5217,18 @@
         "departureTime": "09:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25512"
+    ]
   },
   {
     "tripId": "HD_OUT_JT-21_0903_32690",
     "lineId": "ito",
+    "trainId": "32690",
     "trainNumber": "5633M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -5268,14 +5270,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32690",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_0926_32709",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_0920_39524",
     "lineId": "ito",
+    "trainId": "39524",
     "trainNumber": "8053M",
     "trainType": "limitedExp",
     "trainName": "踊り子53号",
@@ -5324,21 +5325,22 @@
         "isPassing": false
       }
     ],
-    "trainId": "39524",
-    "prevTripId": "HD_OUT_JT-01_0800_39524",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IZ-01_0945_39555",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "HD_OUT_JT-01_0800_39524",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_0934_29691",
     "lineId": "ito",
+    "trainId": "29691",
     "trainNumber": "5636M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆高原",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -5379,19 +5381,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "29691",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-06_0911_29710",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_0940_32691",
     "lineId": "ito",
+    "trainId": "32691",
     "trainNumber": "5635M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -5433,19 +5435,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "32691",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1003_32710",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1010_32692",
     "lineId": "ito",
+    "trainId": "32692",
     "trainNumber": "5637M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -5487,20 +5489,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32692",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1048_32711",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1017_29697",
     "lineId": "ito",
+    "trainId": "29697",
     "trainNumber": "5638M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -5541,14 +5543,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29697",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-16_0906_29716",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1023_39527",
     "lineId": "ito",
+    "trainId": "39527",
     "trainNumber": "3021M",
     "trainType": "limitedExp",
     "trainName": "踊り子1号",
@@ -5597,20 +5598,21 @@
         "isPassing": false
       }
     ],
-    "trainId": "39527",
-    "prevTripId": "HD_OUT_JT-01_0900_39527",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IZ-01_1045_39558",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "HD_OUT_JT-01_0900_39527",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_JT-21_1045_32693",
     "lineId": "ito",
+    "trainId": "32693",
     "trainNumber": "5639M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -5652,14 +5654,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32693",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1108_32712",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1056_42162",
     "lineId": "ito",
+    "trainId": "42162",
     "trainNumber": "8093M",
     "trainType": "limitedExp",
     "trainName": "踊り子3号",
@@ -5708,21 +5709,22 @@
         "isPassing": false
       }
     ],
-    "trainId": "42162",
-    "prevTripId": "HD_OUT_JT-05_0959_42162",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IZ-01_1121_42193",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "HD_OUT_JT-05_0959_42162",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_1057_29698",
     "lineId": "ito",
+    "trainId": "29698",
     "trainNumber": "5640M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -5763,14 +5765,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29698",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-16_0940_29717",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1108_31144",
     "lineId": "ito",
+    "trainId": "31144",
     "trainNumber": "3022M",
     "trainType": "limitedExp",
     "trainName": "踊り子2号",
@@ -5819,7 +5820,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31144",
     "throughTripId": "HD_INB_JT-21_1129_31144",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IZ-16_1009_31163",
@@ -5828,6 +5828,7 @@
   {
     "tripId": "HD_OUT_JT-21_1121_39528",
     "lineId": "ito",
+    "trainId": "39528",
     "trainNumber": "3025M",
     "trainType": "limitedExp",
     "trainName": "踊り子5号",
@@ -5876,20 +5877,21 @@
         "isPassing": false
       }
     ],
-    "trainId": "39528",
-    "prevTripId": "HD_OUT_JT-01_1000_39528",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IZ-01_1146_39559",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "HD_OUT_JT-01_1000_39528",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_JT-21_1132_32694",
     "lineId": "ito",
+    "trainId": "32694",
     "trainNumber": "5641M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -5931,20 +5933,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32694",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1157_32713",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1135_29699",
     "lineId": "ito",
+    "trainId": "29699",
     "trainNumber": "5642M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -5985,20 +5987,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "29699",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-16_1016_29718",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1146_9755",
     "lineId": "ito",
+    "trainId": "9755",
     "trainNumber": "9094M",
     "trainType": "limitedExp",
     "trainName": "踊り子94号",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
+    "customOrigin": "伊東",
     "customDestination": "東京",
     "cars": 6,
     "isHoliday": true,
@@ -6040,14 +6042,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9755",
-    "customOrigin": "伊東",
     "throughTripId": "HD_INB_JT-21_1215_9755",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_JT-21_1154_39529",
     "lineId": "ito",
+    "trainId": "39529",
     "trainNumber": "9027M",
     "trainType": "limitedExp",
     "trainName": "踊り子7号",
@@ -6096,78 +6097,22 @@
         "isPassing": false
       }
     ],
-    "trainId": "39529",
-    "prevTripId": "HD_OUT_JT-01_1030_39529",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IZ-01_1222_39560",
-    "throughLineId": "izukyu"
-  },
-  {
-    "tripId": "HD_OUT_JT-21_1154_39530",
-    "lineId": "ito",
-    "trainNumber": "8027M",
-    "trainType": "limitedExp",
-    "trainName": "踊り子7号",
-    "direction": "outbound",
-    "originStationId": "JT-21",
-    "destinationStationId": "JT-26",
-    "customOrigin": "東京",
-    "customDestination": "伊豆急下田",
-    "cars": 6,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JT-21",
-        "arrivalTime": "11:51:00",
-        "departureTime": "11:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JT-22",
-        "arrivalTime": "11:55:56",
-        "departureTime": "11:55:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-23",
-        "arrivalTime": "12:01:13",
-        "departureTime": "12:01:13",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-24",
-        "arrivalTime": "12:03:45",
-        "departureTime": "12:03:45",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-25",
-        "arrivalTime": "12:08:46",
-        "departureTime": "12:08:46",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-26",
-        "arrivalTime": "12:13:00",
-        "departureTime": "12:22:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "39530",
-    "prevTripId": "HD_OUT_JT-01_1030_39530",
-    "prevLineId": "tokaido",
-    "throughTripId": "HD_OUT_IZ-01_1222_39561",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "HD_OUT_JT-01_1030_39529",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_1215_29692",
     "lineId": "ito",
+    "trainId": "29692",
     "trainNumber": "5644M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆高原",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -6208,14 +6153,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29692",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-06_1152_29711",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1219_39525",
     "lineId": "ito",
+    "trainId": "39525",
     "trainNumber": "3001M",
     "trainType": "limitedExp",
     "trainName": "サフィール踊り子1号",
@@ -6229,7 +6173,7 @@
     "stops": [
       {
         "stationId": "JT-21",
-        "arrivalTime": "12:17:00",
+        "arrivalTime": "11:51:00",
         "departureTime": "12:19:00",
         "isPassing": false
       },
@@ -6264,20 +6208,21 @@
         "isPassing": false
       }
     ],
-    "trainId": "39525",
-    "prevTripId": "HD_OUT_JT-01_1100_39525",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IZ-01_1237_39556",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "HD_OUT_JT-01_1030_39530",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_JT-21_1224_32695",
     "lineId": "ito",
+    "trainId": "32695",
     "trainNumber": "5643M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -6319,14 +6264,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32695",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1252_32714",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1251_39531",
     "lineId": "ito",
+    "trainId": "39531",
     "trainNumber": "8061M",
     "trainType": "limitedExp",
     "trainName": "踊り子61号",
@@ -6375,21 +6319,22 @@
         "isPassing": false
       }
     ],
-    "trainId": "39531",
-    "prevTripId": "HD_OUT_JT-01_1130_39531",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IZ-01_1318_39562",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "HD_OUT_JT-01_1130_39531",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_1253_29700",
     "lineId": "ito",
+    "trainId": "29700",
     "trainNumber": "5646M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -6430,14 +6375,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29700",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-16_1140_29719",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1305_31146",
     "lineId": "ito",
+    "trainId": "31146",
     "trainNumber": "3024M",
     "trainType": "limitedExp",
     "trainName": "踊り子4号",
@@ -6486,7 +6430,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31146",
     "throughTripId": "HD_INB_JT-21_1332_31146",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IZ-16_1131_31164",
@@ -6495,11 +6438,13 @@
   {
     "tripId": "HD_OUT_JT-21_1310_32684",
     "lineId": "ito",
+    "trainId": "32684",
     "trainNumber": "5645M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆高原",
     "cars": 6,
     "isHoliday": true,
@@ -6541,14 +6486,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32684",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1335_32703",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1323_39532",
     "lineId": "ito",
+    "trainId": "39532",
     "trainNumber": "3029M",
     "trainType": "limitedExp",
     "trainName": "踊り子9号",
@@ -6597,15 +6541,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39532",
-    "prevTripId": "HD_OUT_JT-01_1200_39532",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IZ-01_1348_39563",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "HD_OUT_JT-01_1200_39532",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_1334_31142",
     "lineId": "ito",
+    "trainId": "31142",
     "trainNumber": "8058M",
     "trainType": "limitedExp",
     "trainName": "踊り子58号",
@@ -6654,7 +6598,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31142",
     "throughTripId": "HD_INB_JT-21_1400_31142",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IZ-16_1231_31161",
@@ -6663,11 +6606,13 @@
   {
     "tripId": "HD_OUT_JT-21_1341_32696",
     "lineId": "ito",
+    "trainId": "32696",
     "trainNumber": "5647M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -6709,20 +6654,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32696",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1410_32715",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1345_29701",
     "lineId": "ito",
+    "trainId": "29701",
     "trainNumber": "5648M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -6763,14 +6708,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29701",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-16_1213_29720",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1351_39584",
     "lineId": "ito",
+    "trainId": "39584",
     "trainNumber": "8015M",
     "trainType": "limitedExp",
     "trainName": "サフィール踊り子5号",
@@ -6819,13 +6763,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39584",
     "throughTripId": "HD_OUT_IZ-01_1425_39615",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1405_31147",
     "lineId": "ito",
+    "trainId": "31147",
     "trainNumber": "3026M",
     "trainType": "limitedExp",
     "trainName": "踊り子6号",
@@ -6874,7 +6818,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31147",
     "throughTripId": "HD_INB_JT-21_1430_31147",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IZ-16_1302_31166",
@@ -6883,12 +6826,14 @@
   {
     "tripId": "HD_INB_JT-26_1420_29702",
     "lineId": "ito",
+    "trainId": "29702",
     "trainNumber": "5650M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -6929,14 +6874,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29702",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-16_1309_29721",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1422_39533",
     "lineId": "ito",
+    "trainId": "39533",
     "trainNumber": "3031M",
     "trainType": "limitedExp",
     "trainName": "踊り子11号",
@@ -6985,20 +6929,21 @@
         "isPassing": false
       }
     ],
-    "trainId": "39533",
-    "prevTripId": "HD_OUT_JT-01_1300_39533",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IZ-01_1444_39564",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "HD_OUT_JT-01_1300_39533",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_JT-21_1429_32697",
     "lineId": "ito",
+    "trainId": "32697",
     "trainNumber": "5649M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -7040,14 +6985,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32697",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1452_32716",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1441_31149",
     "lineId": "ito",
+    "trainId": "31149",
     "trainNumber": "9028M",
     "trainType": "limitedExp",
     "trainName": "踊り子8号",
@@ -7096,72 +7040,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "31149",
     "throughTripId": "HD_INB_JT-21_1508_31149",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IZ-16_1342_31168",
     "prevLineId": "izukyu"
   },
   {
-    "tripId": "HD_INB_JT-26_1441_31148",
-    "lineId": "ito",
-    "trainNumber": "8028M",
-    "trainType": "limitedExp",
-    "trainName": "踊り子8号",
-    "direction": "inbound",
-    "originStationId": "JT-26",
-    "destinationStationId": "JT-21",
-    "customOrigin": "伊豆急下田",
-    "customDestination": "東京",
-    "cars": 6,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "JT-26",
-        "arrivalTime": "14:39:00",
-        "departureTime": "14:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "JT-25",
-        "arrivalTime": "14:46:34",
-        "departureTime": "14:46:34",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-24",
-        "arrivalTime": "14:53:10",
-        "departureTime": "14:53:10",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-23",
-        "arrivalTime": "14:56:30",
-        "departureTime": "14:56:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-22",
-        "arrivalTime": "15:03:27",
-        "departureTime": "15:03:27",
-        "isPassing": true
-      },
-      {
-        "stationId": "JT-21",
-        "arrivalTime": "15:06:00",
-        "departureTime": "15:08:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "31148",
-    "throughTripId": "HD_INB_JT-21_1508_31148",
-    "throughLineId": "tokaido",
-    "prevTripId": "HD_INB_IZ-16_1342_31167",
-    "prevLineId": "izukyu"
-  },
-  {
     "tripId": "HD_OUT_JT-21_1455_39534",
     "lineId": "ito",
+    "trainId": "39534",
     "trainNumber": "8063M",
     "trainType": "limitedExp",
     "trainName": "踊り子63号",
@@ -7210,21 +7097,22 @@
         "isPassing": false
       }
     ],
-    "trainId": "39534",
-    "prevTripId": "HD_OUT_JT-01_1330_39534",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IZ-01_1521_39565",
-    "throughLineId": "izukyu"
+    "throughLineId": "izukyu",
+    "prevTripId": "HD_OUT_JT-01_1330_39534",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_1455_29693",
     "lineId": "ito",
+    "trainId": "29693",
     "trainNumber": "5652M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆高原",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -7265,19 +7153,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "29693",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-06_1425_29712",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1505_32698",
     "lineId": "ito",
+    "trainId": "32698",
     "trainNumber": "5651M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -7319,14 +7207,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32698",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1539_32717",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1510_31140",
     "lineId": "ito",
+    "trainId": "31140",
     "trainNumber": "3002M",
     "trainType": "limitedExp",
     "trainName": "サフィール踊り子2号",
@@ -7375,7 +7262,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31140",
     "throughTripId": "HD_INB_JT-21_1531_31140",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IZ-16_1418_31159",
@@ -7384,12 +7270,14 @@
   {
     "tripId": "HD_INB_JT-26_1521_29703",
     "lineId": "ito",
+    "trainId": "29703",
     "trainNumber": "5654M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -7430,14 +7318,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29703",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-16_1350_29722",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1527_25484",
     "lineId": "ito",
+    "trainId": "25484",
     "trainNumber": "1653M",
     "trainType": "local",
     "direction": "outbound",
@@ -7482,12 +7369,12 @@
         "departureTime": "15:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25484"
+    ]
   },
   {
     "tripId": "HD_INB_JT-26_1531_31150",
     "lineId": "ito",
+    "trainId": "31150",
     "trainNumber": "8060M",
     "trainType": "limitedExp",
     "trainName": "踊り子60号",
@@ -7536,7 +7423,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31150",
     "throughTripId": "HD_INB_JT-21_1600_31150",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IZ-16_1434_31169",
@@ -7545,12 +7431,14 @@
   {
     "tripId": "HD_INB_JT-26_1550_29704",
     "lineId": "ito",
+    "trainId": "29704",
     "trainNumber": "5656M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -7591,19 +7479,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "29704",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-16_1442_29723",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1557_32699",
     "lineId": "ito",
+    "trainId": "32699",
     "trainNumber": "5655M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -7645,14 +7533,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32699",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1623_32718",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1602_31151",
     "lineId": "ito",
+    "trainId": "31151",
     "trainNumber": "3030M",
     "trainType": "limitedExp",
     "trainName": "踊り子10号",
@@ -7701,7 +7588,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31151",
     "throughTripId": "HD_INB_JT-21_1629_31151",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IZ-16_1508_31170",
@@ -7710,6 +7596,7 @@
   {
     "tripId": "HD_INB_JT-26_1622_25513",
     "lineId": "ito",
+    "trainId": "25513",
     "trainNumber": "1658M",
     "trainType": "local",
     "direction": "inbound",
@@ -7754,17 +7641,18 @@
         "departureTime": "16:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25513"
+    ]
   },
   {
     "tripId": "HD_OUT_JT-21_1633_32685",
     "lineId": "ito",
+    "trainId": "32685",
     "trainNumber": "5657M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆高原",
     "cars": 6,
     "isHoliday": true,
@@ -7806,20 +7694,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32685",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1702_32704",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1647_29705",
     "lineId": "ito",
+    "trainId": "29705",
     "trainNumber": "5660M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -7860,20 +7748,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "29705",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-16_1536_29724",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1653_33724",
     "lineId": "ito",
+    "trainId": "33724",
     "trainNumber": "1883E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
     "customOrigin": "籠原",
+    "customDestination": "伊東",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -7914,14 +7802,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33724",
-    "customDestination": "伊東",
     "prevTripId": "HD_OUT_JT-01_1507_33724",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_1705_42165",
     "lineId": "ito",
+    "trainId": "42165",
     "trainNumber": "8092M",
     "trainType": "limitedExp",
     "trainName": "踊り子12号",
@@ -7970,20 +7857,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "42165",
     "throughTripId": "HD_INB_JT-21_1728_42165",
-    "throughLineId": "tokaido",
-    "prevTripId": "HD_INB_IZ-16_1601_42196",
-    "prevLineId": "izukyu"
+    "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_JT-21_1706_32686",
     "lineId": "ito",
+    "trainId": "32686",
     "trainNumber": "5659M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆高原",
     "cars": 6,
     "isHoliday": true,
@@ -8025,20 +7911,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "32686",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1734_32705",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1722_29694",
     "lineId": "ito",
+    "trainId": "29694",
     "trainNumber": "5662M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆高原",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -8079,14 +7965,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29694",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-06_1654_29713",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_1730_25485",
     "lineId": "ito",
+    "trainId": "25485",
     "trainNumber": "1661M",
     "trainType": "local",
     "direction": "outbound",
@@ -8131,12 +8016,12 @@
         "departureTime": "17:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25485"
+    ]
   },
   {
     "tripId": "HD_INB_JT-26_1735_31141",
     "lineId": "ito",
+    "trainId": "31141",
     "trainNumber": "8004M",
     "trainType": "limitedExp",
     "trainName": "サフィール踊り子4号",
@@ -8185,7 +8070,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31141",
     "throughTripId": "HD_INB_JT-21_1800_31141",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IZ-16_1639_31160",
@@ -8194,11 +8078,13 @@
   {
     "tripId": "HD_INB_JT-26_1745_33782",
     "lineId": "ito",
+    "trainId": "33782",
     "trainNumber": "1656E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
+    "customOrigin": "伊東",
     "customDestination": "宇都宮",
     "cars": 6,
     "isHoliday": true,
@@ -8240,14 +8126,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33782",
-    "customOrigin": "伊東",
     "throughTripId": "HD_INB_JT-21_1812_33782",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_1759_31153",
     "lineId": "ito",
+    "trainId": "31153",
     "trainNumber": "8066M",
     "trainType": "limitedExp",
     "trainName": "踊り子66号",
@@ -8296,7 +8181,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "31153",
     "throughTripId": "HD_INB_JT-21_1829_31153",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IZ-16_1655_31172",
@@ -8305,12 +8189,14 @@
   {
     "tripId": "HD_OUT_JT-21_1804_33719",
     "lineId": "ito",
+    "trainId": "33719",
     "trainNumber": "1585E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
     "customOrigin": "宇都宮",
+    "customDestination": "伊東",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -8351,14 +8237,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33719",
-    "customDestination": "伊東",
     "prevTripId": "HD_OUT_JT-01_1618_33719",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_1812_25514",
     "lineId": "ito",
+    "trainId": "25514",
     "trainNumber": "1664M",
     "trainType": "local",
     "direction": "inbound",
@@ -8403,12 +8288,12 @@
         "departureTime": "18:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25514"
+    ]
   },
   {
     "tripId": "HD_OUT_JT-21_1830_25486",
     "lineId": "ito",
+    "trainId": "25486",
     "trainNumber": "1663M",
     "trainType": "local",
     "direction": "outbound",
@@ -8453,17 +8338,18 @@
         "departureTime": "18:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25486"
+    ]
   },
   {
     "tripId": "HD_INB_JT-26_1844_34518",
     "lineId": "ito",
+    "trainId": "34518",
     "trainNumber": "1936E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
+    "customOrigin": "伊東",
     "customDestination": "高崎",
     "cars": 6,
     "isHoliday": true,
@@ -8505,19 +8391,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "34518",
-    "customOrigin": "伊東",
     "throughTripId": "HD_INB_JT-21_1909_34518",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_JT-21_1902_32700",
     "lineId": "ito",
+    "trainId": "32700",
     "trainNumber": "5665M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
+    "customOrigin": "熱海",
     "customDestination": "伊豆急下田",
     "cars": 6,
     "isHoliday": true,
@@ -8559,14 +8445,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "32700",
-    "customOrigin": "熱海",
     "throughTripId": "HD_OUT_IZ-01_1925_32719",
     "throughLineId": "izukyu"
   },
   {
     "tripId": "HD_INB_JT-26_1913_25515",
     "lineId": "ito",
+    "trainId": "25515",
     "trainNumber": "1666M",
     "trainType": "local",
     "direction": "inbound",
@@ -8611,18 +8496,19 @@
         "departureTime": "19:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25515"
+    ]
   },
   {
     "tripId": "HD_OUT_JT-21_1930_33720",
     "lineId": "ito",
+    "trainId": "33720",
     "trainNumber": "1593E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
     "customOrigin": "小金井",
+    "customDestination": "伊東",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -8663,20 +8549,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "33720",
-    "customDestination": "伊東",
     "prevTripId": "HD_OUT_JT-01_1730_33720",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_JT-26_1944_29706",
     "lineId": "ito",
+    "trainId": "29706",
     "trainNumber": "5668M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
     "customOrigin": "伊豆急下田",
+    "customDestination": "熱海",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -8717,14 +8603,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29706",
-    "customDestination": "熱海",
     "prevTripId": "HD_INB_IZ-16_1830_29725",
     "prevLineId": "izukyu"
   },
   {
     "tripId": "HD_OUT_JT-21_2003_25487",
     "lineId": "ito",
+    "trainId": "25487",
     "trainNumber": "1667M",
     "trainType": "local",
     "direction": "outbound",
@@ -8769,17 +8654,18 @@
         "departureTime": "20:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25487"
+    ]
   },
   {
     "tripId": "HD_INB_JT-26_2005_33778",
     "lineId": "ito",
+    "trainId": "33778",
     "trainNumber": "1670E",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JT-26",
     "destinationStationId": "JT-21",
+    "customOrigin": "伊東",
     "customDestination": "小金井",
     "cars": 6,
     "isHoliday": true,
@@ -8821,14 +8707,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33778",
-    "customOrigin": "伊東",
     "throughTripId": "HD_INB_JT-21_2035_33778",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_JT-21_2032_25488",
     "lineId": "ito",
+    "trainId": "25488",
     "trainNumber": "1669M",
     "trainType": "local",
     "direction": "outbound",
@@ -8873,12 +8758,12 @@
         "departureTime": "20:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25488"
+    ]
   },
   {
     "tripId": "HD_INB_JT-26_2035_25516",
     "lineId": "ito",
+    "trainId": "25516",
     "trainNumber": "1670M",
     "trainType": "local",
     "direction": "inbound",
@@ -8923,12 +8808,12 @@
         "departureTime": "20:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25516"
+    ]
   },
   {
     "tripId": "HD_OUT_JT-21_2104_25489",
     "lineId": "ito",
+    "trainId": "25489",
     "trainNumber": "1671M",
     "trainType": "local",
     "direction": "outbound",
@@ -8973,12 +8858,12 @@
         "departureTime": "21:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25489"
+    ]
   },
   {
     "tripId": "HD_INB_JT-26_2106_25517",
     "lineId": "ito",
+    "trainId": "25517",
     "trainNumber": "1672M",
     "trainType": "local",
     "direction": "inbound",
@@ -9023,12 +8908,12 @@
         "departureTime": "21:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25517"
+    ]
   },
   {
     "tripId": "HD_OUT_JT-21_2137_25490",
     "lineId": "ito",
+    "trainId": "25490",
     "trainNumber": "1673M",
     "trainType": "local",
     "direction": "outbound",
@@ -9073,12 +8958,12 @@
         "departureTime": "21:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25490"
+    ]
   },
   {
     "tripId": "HD_INB_JT-26_2139_25518",
     "lineId": "ito",
+    "trainId": "25518",
     "trainNumber": "1674M",
     "trainType": "local",
     "direction": "inbound",
@@ -9123,12 +9008,12 @@
         "departureTime": "22:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25518"
+    ]
   },
   {
     "tripId": "HD_INB_JT-26_2205_25519",
     "lineId": "ito",
+    "trainId": "25519",
     "trainNumber": "1676M",
     "trainType": "local",
     "direction": "inbound",
@@ -9173,12 +9058,12 @@
         "departureTime": "22:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25519"
+    ]
   },
   {
     "tripId": "HD_OUT_JT-21_2212_25491",
     "lineId": "ito",
+    "trainId": "25491",
     "trainNumber": "1675M",
     "trainType": "local",
     "direction": "outbound",
@@ -9223,12 +9108,12 @@
         "departureTime": "22:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25491"
+    ]
   },
   {
     "tripId": "HD_INB_JT-26_2241_25520",
     "lineId": "ito",
+    "trainId": "25520",
     "trainNumber": "1678M",
     "trainType": "local",
     "direction": "inbound",
@@ -9273,12 +9158,12 @@
         "departureTime": "23:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25520"
+    ]
   },
   {
     "tripId": "HD_OUT_JT-21_2248_25492",
     "lineId": "ito",
+    "trainId": "25492",
     "trainNumber": "1677M",
     "trainType": "local",
     "direction": "outbound",
@@ -9323,18 +9208,19 @@
         "departureTime": "23:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25492"
+    ]
   },
   {
     "tripId": "HD_OUT_JT-21_2305_33721",
     "lineId": "ito",
+    "trainId": "33721",
     "trainNumber": "1941E",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "JT-21",
     "destinationStationId": "JT-26",
     "customOrigin": "高崎",
+    "customDestination": "伊東",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -9375,8 +9261,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "33721",
-    "customDestination": "伊東",
     "prevTripId": "HD_OUT_JT-01_2102_33721",
     "prevLineId": "tokaido"
   }

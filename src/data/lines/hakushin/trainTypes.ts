@@ -1,11 +1,12 @@
 import type { TrainTypeConfig } from '../../../types';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const HAKUSHIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
     key: 'local',
     name: '普通',
     nameEn: 'Local',
-    shortName: '普',
+    shortName: '普通',
     color: '#e91e63',
     textColor: '#ffffff',
     bgColor: '#e91e63',
@@ -15,20 +16,11 @@ export const HAKUSHIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     key: 'rapid',
     name: '快速',
     nameEn: 'Rapid',
-    shortName: '快',
+    shortName: '快速',
     color: '#c2185b',
     textColor: '#ffffff',
     bgColor: '#c2185b',
     borderColor: '#880e4f',
   },
-  limitedExp: {
-    key: 'limitedExp',
-    name: '特急',
-    nameEn: 'Limited Express',
-    shortName: '特',
-    color: '#c2410c',
-    textColor: '#ffffff',
-    bgColor: '#c2410c',
-    borderColor: '#9a3412',
-  },
+  limitedExp: LIMITED_EXP_PRESETS.NIIGATA,
 };

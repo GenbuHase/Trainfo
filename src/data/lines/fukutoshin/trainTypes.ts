@@ -1,5 +1,6 @@
 // 東京メトロ副都心線 列車種別定義
 import type { TrainTypeConfig } from '../../../types';
+import { LINER_PRESETS } from '../../trainTypePresets';
 
 export const FUKUTOSHIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 各駅停車: #9c5f24 (副都心線ブラウン)
@@ -36,14 +37,5 @@ export const FUKUTOSHIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#ba3873',
   },
   // S-TRAIN: #99cc00 (ライムグリーン)
-  strain: {
-    key: 'strain',
-    name: 'S-TRAIN',
-    nameEn: 'S-TRAIN',
-    shortName: 'S',
-    color: '#99cc00',
-    textColor: '#ffffff',
-    bgColor: '#99cc00',
-    borderColor: '#7ca600',
-  },
+  strain: LINER_PRESETS.STRAIN,
 };

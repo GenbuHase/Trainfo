@@ -2,12 +2,14 @@
   {
     "tripId": "WD_OUT_SO-51_0547_39200",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39200",
     "trainNumber": "120M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -54,20 +56,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39200",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_0543_39200",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-51_0605_39202",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39202",
     "trainNumber": "122M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -114,19 +116,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39202",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_0601_39202",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_0631_39392",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39392",
     "trainNumber": "220M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -174,22 +176,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39392",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_0711_39392",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_0631_39298",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-51_0636_39203",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39203",
     "trainNumber": "124M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -236,14 +236,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39203",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_0631_39203",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_0637_33550",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33550",
     "trainNumber": "121M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -290,12 +289,12 @@
         "departureTime": "06:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33550"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_0654_39292",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39292",
     "trainNumber": "126M",
     "trainType": "local",
     "direction": "outbound",
@@ -349,20 +348,21 @@
         "isPassing": false
       }
     ],
-    "trainId": "39292",
-    "prevTripId": "WD_INB_SO-08_0650_39292",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "WD_OUT_JA-08_0721_39198",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "WD_INB_SO-08_0650_39292",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_0658_39393",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39393",
     "trainNumber": "124M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -410,16 +410,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39393",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_0740_39393",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_0658_39299",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_0700_33556",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33556",
     "trainNumber": "644F",
     "trainType": "local",
     "direction": "outbound",
@@ -466,12 +463,12 @@
         "departureTime": "07:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33556"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_0714_39295",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39295",
     "trainNumber": "128M",
     "trainType": "local",
     "direction": "outbound",
@@ -525,15 +522,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39295",
-    "prevTripId": "WD_INB_SO-08_0708_39295",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "WD_OUT_JA-08_0741_39201",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "WD_INB_SO-08_0708_39295",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_0716_33541",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33541",
     "trainNumber": "125M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -580,17 +577,18 @@
         "departureTime": "07:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33541"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_0725_39394",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39394",
     "trainNumber": "637K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -638,16 +636,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39394",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_0806_39394",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_0725_39300",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-51_0730_39290",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39290",
     "trainNumber": "123M",
     "trainType": "local",
     "direction": "outbound",
@@ -701,15 +696,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39290",
-    "prevTripId": "WD_INB_SO-08_0726_39290",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "WD_OUT_JA-08_0802_39196",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "WD_INB_SO-08_0726_39290",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_0737_33574",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33574",
     "trainNumber": "123M",
     "trainType": "local",
     "direction": "outbound",
@@ -756,12 +751,12 @@
         "departureTime": "07:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33574"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_0740_39346",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39346",
     "trainNumber": "121M",
     "trainType": "local",
     "direction": "inbound",
@@ -815,7 +810,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "39346",
     "throughTripId": "WD_OUT_SO-51_0822_39346",
     "throughLineId": "sotetsu_shin_yokohama",
     "prevTripId": "WD_INB_JA-26_0650_39252",
@@ -824,6 +818,7 @@
   {
     "tripId": "WD_OUT_JS-15_0745_33552",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33552",
     "trainNumber": "127M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -870,12 +865,12 @@
         "departureTime": "08:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33552"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_0751_39296",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39296",
     "trainNumber": "130M",
     "trainType": "local",
     "direction": "outbound",
@@ -929,15 +924,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39296",
-    "prevTripId": "WD_INB_SO-08_0745_39296",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "WD_OUT_JA-08_0818_39202",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "WD_INB_SO-08_0745_39296",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_0754_39344",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39344",
     "trainNumber": "785K",
     "trainType": "local",
     "direction": "inbound",
@@ -991,7 +986,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "39344",
     "throughTripId": "WD_OUT_SO-51_0834_39344",
     "throughLineId": "sotetsu_shin_yokohama",
     "prevTripId": "WD_INB_JA-26_0705_39250",
@@ -1000,6 +994,7 @@
   {
     "tripId": "WD_OUT_JS-15_0755_33562",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33562",
     "trainNumber": "223M",
     "trainType": "local",
     "direction": "outbound",
@@ -1046,12 +1041,12 @@
         "departureTime": "08:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33562"
+    ]
   },
   {
     "tripId": "WD_OUT_JS-15_0803_33501",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33501",
     "trainNumber": "125M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -1098,12 +1093,12 @@
         "departureTime": "08:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33501"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_0804_39293",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39293",
     "trainNumber": "132M",
     "trainType": "local",
     "direction": "outbound",
@@ -1157,15 +1152,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39293",
-    "prevTripId": "WD_INB_SO-08_0759_39293",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "WD_OUT_JA-08_0833_39199",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "WD_INB_SO-08_0759_39293",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_0812_39352",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39352",
     "trainNumber": "751F",
     "trainType": "local",
     "direction": "inbound",
@@ -1219,7 +1214,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "39352",
     "throughTripId": "WD_OUT_SO-51_0852_39352",
     "throughLineId": "sotetsu_shin_yokohama",
     "prevTripId": "WD_INB_JA-26_0722_39258",
@@ -1228,6 +1222,7 @@
   {
     "tripId": "WD_OUT_JS-15_0816_33575",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33575",
     "trainNumber": "225M",
     "trainType": "local",
     "direction": "outbound",
@@ -1274,12 +1269,12 @@
         "departureTime": "08:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33575"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_0818_39223",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39223",
     "trainNumber": "134M",
     "trainType": "local",
     "direction": "outbound",
@@ -1333,15 +1328,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39223",
-    "prevTripId": "WD_INB_SO-08_0814_39223",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "WD_OUT_JA-08_0846_39129",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "WD_INB_SO-08_0814_39223",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_0821_33512",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33512",
     "trainNumber": "882K",
     "trainType": "rapid",
     "direction": "outbound",
@@ -1388,12 +1383,12 @@
         "departureTime": "08:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33512"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_0822_39349",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39349",
     "trainNumber": "785K",
     "trainType": "local",
     "direction": "inbound",
@@ -1447,7 +1442,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "39349",
     "throughTripId": "WD_OUT_SO-51_0903_39349",
     "throughLineId": "sotetsu_shin_yokohama",
     "prevTripId": "WD_INB_JA-21_0745_39255",
@@ -1456,6 +1450,7 @@
   {
     "tripId": "WD_OUT_JS-15_0831_33576",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33576",
     "trainNumber": "227M",
     "trainType": "local",
     "direction": "outbound",
@@ -1502,12 +1497,12 @@
         "departureTime": "08:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33576"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_0836_39350",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39350",
     "trainNumber": "843K",
     "trainType": "local",
     "direction": "inbound",
@@ -1561,7 +1556,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "39350",
     "throughTripId": "WD_OUT_SO-51_0919_39350",
     "throughLineId": "sotetsu_shin_yokohama",
     "prevTripId": "WD_INB_JA-21_0800_39256",
@@ -1570,6 +1564,7 @@
   {
     "tripId": "WD_OUT_SO-51_0837_39291",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39291",
     "trainNumber": "888K",
     "trainType": "local",
     "direction": "outbound",
@@ -1623,15 +1618,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39291",
-    "prevTripId": "WD_INB_SO-08_0833_39291",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "WD_OUT_JA-08_0903_39197",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "WD_INB_SO-08_0833_39291",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_0848_33566",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33566",
     "trainNumber": "229M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -1678,18 +1673,19 @@
         "departureTime": "09:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33566"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_0850_39225",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39225",
     "trainNumber": "848F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1736,14 +1732,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39225",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_0846_39225",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_0856_39354",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39354",
     "trainNumber": "230M",
     "trainType": "local",
     "direction": "inbound",
@@ -1797,7 +1792,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "39354",
     "throughTripId": "WD_OUT_SO-51_0938_39354",
     "throughLineId": "sotetsu_shin_yokohama",
     "prevTripId": "WD_INB_JA-26_0808_39260",
@@ -1806,12 +1800,14 @@
   {
     "tripId": "WD_OUT_SO-51_0902_39226",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39226",
     "trainNumber": "231M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -1858,14 +1854,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39226",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_0858_39226",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_0902_33520",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33520",
     "trainNumber": "888K",
     "trainType": "rapid",
     "direction": "outbound",
@@ -1912,12 +1907,12 @@
         "departureTime": "09:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33520"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_0915_41484",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "41484",
     "trainNumber": "817F",
     "trainType": "local",
     "direction": "inbound",
@@ -1971,7 +1966,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "41484",
     "throughTripId": "WD_OUT_SO-51_0955_41484",
     "throughLineId": "sotetsu_shin_yokohama",
     "prevTripId": "WD_INB_JA-15_0859_41386",
@@ -1980,6 +1974,7 @@
   {
     "tripId": "WD_OUT_JS-15_0916_33563",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33563",
     "trainNumber": "231M",
     "trainType": "local",
     "direction": "outbound",
@@ -2026,18 +2021,19 @@
         "departureTime": "09:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33563"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_0921_39227",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39227",
     "trainNumber": "880F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2084,14 +2080,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39227",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_0917_39227",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_0931_33555",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33555",
     "trainNumber": "231M",
     "trainType": "local",
     "direction": "outbound",
@@ -2138,17 +2133,18 @@
         "departureTime": "09:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33555"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_0936_39451",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39451",
     "trainNumber": "123M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -2196,22 +2192,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39451",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1021_39451",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_0936_39357",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-51_0948_39229",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39229",
     "trainNumber": "233M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2258,14 +2252,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39229",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_0942_39229",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_0948_33518",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33518",
     "trainNumber": "986F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -2312,17 +2305,18 @@
         "departureTime": "10:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33518"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_0957_39397",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39397",
     "trainNumber": "905K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -2370,22 +2364,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39397",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1037_39397",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_0957_39303",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-51_1003_39230",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39230",
     "trainNumber": "237M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2432,14 +2424,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39230",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_0956_39230",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1009_33568",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33568",
     "trainNumber": "950F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -2486,17 +2477,18 @@
         "departureTime": "10:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33568"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1013_39452",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39452",
     "trainNumber": "125M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -2544,16 +2536,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39452",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1053_39452",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1013_39358",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1024_33577",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33577",
     "trainNumber": "129M",
     "trainType": "local",
     "direction": "outbound",
@@ -2600,18 +2589,19 @@
         "departureTime": "10:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33577"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1025_39232",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39232",
     "trainNumber": "235M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2658,14 +2648,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39232",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1021_39232",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1030_33521",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33521",
     "trainNumber": "237M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -2712,17 +2701,18 @@
         "departureTime": "10:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33521"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1035_39399",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39399",
     "trainNumber": "919F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -2770,16 +2760,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39399",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1112_39399",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1035_39305",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1047_33609",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33609",
     "trainNumber": "239M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -2826,18 +2813,19 @@
         "departureTime": "11:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33609"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1052_39235",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39235",
     "trainNumber": "131M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -2884,19 +2872,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39235",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1046_39235",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_1055_39403",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39403",
     "trainNumber": "1081F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -2944,16 +2932,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39403",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1138_39403",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1055_39309",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1100_33491",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33491",
     "trainNumber": "239M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -3000,12 +2985,12 @@
         "departureTime": "11:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33491"
+    ]
   },
   {
     "tripId": "WD_OUT_JS-15_1115_33565",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33565",
     "trainNumber": "241M",
     "trainType": "local",
     "direction": "outbound",
@@ -3052,18 +3037,19 @@
         "departureTime": "11:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33565"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1117_39236",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39236",
     "trainNumber": "241M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3110,19 +3096,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39236",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1113_39236",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_1119_39404",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39404",
     "trainNumber": "1087F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -3170,16 +3156,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39404",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1203_39404",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1119_39310",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1127_33544",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33544",
     "trainNumber": "1000F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -3226,17 +3209,18 @@
         "departureTime": "11:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33544"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1141_39406",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39406",
     "trainNumber": "236M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -3284,16 +3268,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39406",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1218_39406",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1141_39312",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1145_33610",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33610",
     "trainNumber": "241M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -3340,18 +3321,19 @@
         "departureTime": "12:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33610"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1147_39239",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39239",
     "trainNumber": "241M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3398,14 +3380,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39239",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1143_39239",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1200_33493",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33493",
     "trainNumber": "241M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -3452,17 +3433,18 @@
         "departureTime": "12:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33493"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1202_39408",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39408",
     "trainNumber": "1107F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -3510,16 +3492,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39408",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1242_39408",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1202_39314",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1215_33595",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33595",
     "trainNumber": "1136F",
     "trainType": "local",
     "direction": "outbound",
@@ -3566,18 +3545,19 @@
         "departureTime": "12:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33595"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1217_39240",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39240",
     "trainNumber": "245M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3624,14 +3604,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39240",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1213_39240",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1228_33522",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33522",
     "trainNumber": "245M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -3678,17 +3657,18 @@
         "departureTime": "12:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33522"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1232_39409",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39409",
     "trainNumber": "240M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -3736,16 +3716,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39409",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1312_39409",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1232_39315",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1246_33612",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33612",
     "trainNumber": "1118F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -3792,18 +3769,19 @@
         "departureTime": "13:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33612"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1247_39243",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39243",
     "trainNumber": "247M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -3850,14 +3828,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39243",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1243_39243",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1300_33494",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33494",
     "trainNumber": "2840Y",
     "trainType": "rapid",
     "direction": "outbound",
@@ -3904,17 +3881,18 @@
         "departureTime": "13:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33494"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1302_39412",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39412",
     "trainNumber": "242M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -3962,16 +3940,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39412",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1342_39412",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1302_39317",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1315_33597",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33597",
     "trainNumber": "1268F",
     "trainType": "local",
     "direction": "outbound",
@@ -4018,18 +3993,19 @@
         "departureTime": "13:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33597"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1317_39245",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39245",
     "trainNumber": "1286F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4076,14 +4052,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39245",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1313_39245",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1327_33524",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33524",
     "trainNumber": "249M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -4130,17 +4105,18 @@
         "departureTime": "13:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33524"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1332_39414",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39414",
     "trainNumber": "244M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -4188,16 +4164,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39414",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1412_39414",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1332_39320",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1345_33614",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33614",
     "trainNumber": "249M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -4244,18 +4217,19 @@
         "departureTime": "14:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33614"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1347_39246",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39246",
     "trainNumber": "251M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4302,14 +4276,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39246",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1343_39246",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1359_33495",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33495",
     "trainNumber": "2842Y",
     "trainType": "rapid",
     "direction": "outbound",
@@ -4356,17 +4329,18 @@
         "departureTime": "14:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33495"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1402_39415",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39415",
     "trainNumber": "246M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -4414,16 +4388,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39415",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1442_39415",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1402_39321",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1415_33599",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33599",
     "trainNumber": "1306F",
     "trainType": "local",
     "direction": "outbound",
@@ -4470,18 +4441,19 @@
         "departureTime": "14:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33599"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1417_39248",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39248",
     "trainNumber": "253M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4528,14 +4500,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39248",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1413_39248",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1427_33526",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33526",
     "trainNumber": "253M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -4582,17 +4553,18 @@
         "departureTime": "14:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33526"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1432_39417",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39417",
     "trainNumber": "248M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -4640,16 +4612,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39417",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1512_39417",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1432_39323",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1445_33617",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33617",
     "trainNumber": "253M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -4696,18 +4665,19 @@
         "departureTime": "15:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33617"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1447_39250",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39250",
     "trainNumber": "255M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4754,14 +4724,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39250",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1443_39250",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1500_33496",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33496",
     "trainNumber": "2844Y",
     "trainType": "rapid",
     "direction": "outbound",
@@ -4808,17 +4777,18 @@
         "departureTime": "15:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33496"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1502_39420",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39420",
     "trainNumber": "250M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -4866,16 +4836,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39420",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1542_39420",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1502_39326",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1515_33600",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33600",
     "trainNumber": "1482F",
     "trainType": "local",
     "direction": "outbound",
@@ -4922,18 +4889,19 @@
         "departureTime": "15:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33600"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1517_39253",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39253",
     "trainNumber": "1440F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -4980,14 +4948,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39253",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1513_39253",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1527_33528",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33528",
     "trainNumber": "257M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -5034,17 +5001,18 @@
         "departureTime": "15:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33528"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1532_39421",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39421",
     "trainNumber": "1519F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -5092,16 +5060,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39421",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1612_39421",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1532_39327",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1545_33619",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33619",
     "trainNumber": "257M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -5148,18 +5113,19 @@
         "departureTime": "16:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33619"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1547_39254",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39254",
     "trainNumber": "1580F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5206,14 +5172,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39254",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1543_39254",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1600_33498",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33498",
     "trainNumber": "2846Y",
     "trainType": "rapid",
     "direction": "outbound",
@@ -5260,17 +5225,18 @@
         "departureTime": "16:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33498"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1602_39423",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39423",
     "trainNumber": "260M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -5318,22 +5284,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39423",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1646_39423",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1602_39329",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-51_1607_39209",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39209",
     "trainNumber": "136M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5380,14 +5344,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39209",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1603_39209",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1614_33569",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33569",
     "trainNumber": "1580F",
     "trainType": "local",
     "direction": "outbound",
@@ -5434,18 +5397,19 @@
         "departureTime": "16:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33569"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1626_39258",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39258",
     "trainNumber": "261M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5492,14 +5456,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39258",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1622_39258",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1627_33547",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33547",
     "trainNumber": "261M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -5546,17 +5509,18 @@
         "departureTime": "16:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33547"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1632_39426",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39426",
     "trainNumber": "1683F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -5604,16 +5568,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39426",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1711_39426",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1632_39332",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1645_33621",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33621",
     "trainNumber": "133M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -5660,18 +5621,19 @@
         "departureTime": "17:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33621"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1646_39210",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39210",
     "trainNumber": "138M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5718,19 +5680,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39210",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1641_39210",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_1652_39427",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39427",
     "trainNumber": "258M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -5778,16 +5740,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39427",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1737_39427",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1652_39333",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1700_33499",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33499",
     "trainNumber": "135M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -5834,18 +5793,19 @@
         "departureTime": "17:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33499"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1706_39260",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39260",
     "trainNumber": "135M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -5892,19 +5852,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39260",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1701_39260",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_1712_39428",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39428",
     "trainNumber": "262M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -5952,16 +5912,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39428",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1755_39428",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1712_39334",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1717_33580",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33580",
     "trainNumber": "1754K",
     "trainType": "local",
     "direction": "outbound",
@@ -6008,18 +5965,19 @@
         "departureTime": "17:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33580"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1727_39262",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39262",
     "trainNumber": "137M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6066,14 +6024,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39262",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1721_39262",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1730_33530",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33530",
     "trainNumber": "137M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -6120,17 +6077,18 @@
         "departureTime": "17:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33530"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1736_39457",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39457",
     "trainNumber": "127M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -6178,16 +6136,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39457",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1818_39457",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1736_39363",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1747_33602",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33602",
     "trainNumber": "137M",
     "trainType": "local",
     "direction": "outbound",
@@ -6234,18 +6189,19 @@
         "departureTime": "18:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33602"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1748_39211",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39211",
     "trainNumber": "140M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6292,19 +6248,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39211",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1743_39211",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_1756_39459",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39459",
     "trainNumber": "129M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -6352,16 +6308,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39459",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1835_39459",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1756_39365",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1800_33515",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33515",
     "trainNumber": "137M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -6408,18 +6361,19 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33515"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1809_39265",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39265",
     "trainNumber": "265M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6466,14 +6420,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39265",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1804_39265",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1813_33582",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33582",
     "trainNumber": "1762K",
     "trainType": "local",
     "direction": "outbound",
@@ -6520,17 +6473,18 @@
         "departureTime": "18:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33582"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1816_39460",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39460",
     "trainNumber": "131M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -6578,22 +6532,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39460",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1858_39460",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1816_39366",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-51_1826_39267",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39267",
     "trainNumber": "1868F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6640,14 +6592,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39267",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1819_39267",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1830_33533",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33533",
     "trainNumber": "267M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -6694,17 +6645,18 @@
         "departureTime": "18:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33533"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1836_39461",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39461",
     "trainNumber": "133M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -6752,16 +6704,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39461",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1918_39461",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1836_39367",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1846_33571",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33571",
     "trainNumber": "267M",
     "trainType": "local",
     "direction": "outbound",
@@ -6808,18 +6757,19 @@
         "departureTime": "19:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33571"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1848_39268",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39268",
     "trainNumber": "269M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6866,14 +6816,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39268",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1843_39268",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1852_33505",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33505",
     "trainNumber": "269M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -6920,17 +6869,18 @@
         "departureTime": "19:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33505"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1856_39462",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39462",
     "trainNumber": "135M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -6978,16 +6928,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39462",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1939_39462",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1856_39368",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1902_33507",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33507",
     "trainNumber": "1810F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -7034,18 +6981,19 @@
         "departureTime": "19:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33507"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1908_39215",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39215",
     "trainNumber": "142M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7092,14 +7040,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39215",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1904_39215",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1915_33604",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33604",
     "trainNumber": "271M",
     "trainType": "local",
     "direction": "outbound",
@@ -7146,17 +7093,18 @@
         "departureTime": "19:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33604"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1916_39463",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39463",
     "trainNumber": "137M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -7204,22 +7152,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39463",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_1958_39463",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1916_39369",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-51_1926_39216",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39216",
     "trainNumber": "144M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7266,14 +7212,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39216",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1922_39216",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1932_33715",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33715",
     "trainNumber": "275M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -7320,17 +7265,18 @@
         "departureTime": "19:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33715"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_1936_39434",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39434",
     "trainNumber": "1937K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -7378,16 +7324,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39434",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_2018_39434",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1936_39340",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_1946_33572",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33572",
     "trainNumber": "273M",
     "trainType": "local",
     "direction": "outbound",
@@ -7434,18 +7377,19 @@
         "departureTime": "20:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33572"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_1955_39273",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39273",
     "trainNumber": "277M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7492,19 +7436,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39273",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_1951_39273",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_1956_39464",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39464",
     "trainNumber": "139M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -7552,16 +7496,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39464",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_2038_39464",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_1956_39370",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_2000_33509",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33509",
     "trainNumber": "1906F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -7608,18 +7549,19 @@
         "departureTime": "20:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33509"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_2007_39217",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39217",
     "trainNumber": "146M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7666,19 +7608,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39217",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_2003_39217",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_2016_39465",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39465",
     "trainNumber": "141M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -7726,16 +7668,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39465",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_2059_39465",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_2016_39371",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_2016_33573",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33573",
     "trainNumber": "275M",
     "trainType": "local",
     "direction": "outbound",
@@ -7782,18 +7721,19 @@
         "departureTime": "20:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33573"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_2025_39218",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39218",
     "trainNumber": "148M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -7840,14 +7780,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39218",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_2021_39218",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_2034_33717",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33717",
     "trainNumber": "139M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -7894,17 +7833,18 @@
         "departureTime": "20:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33717"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_2036_39438",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39438",
     "trainNumber": "276M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -7952,22 +7892,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39438",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_2118_39438",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_2036_39344",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-51_2043_39276",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39276",
     "trainNumber": "2004F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8014,14 +7952,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39276",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_2039_39276",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_2048_33510",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33510",
     "trainNumber": "139M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -8068,17 +8005,18 @@
         "departureTime": "21:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33510"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_2056_39466",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39466",
     "trainNumber": "143M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -8126,16 +8064,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39466",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_2138_39466",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_2056_39372",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_2100_33606",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33606",
     "trainNumber": "279M",
     "trainType": "local",
     "direction": "outbound",
@@ -8182,18 +8117,19 @@
         "departureTime": "21:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33606"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_2107_39278",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39278",
     "trainNumber": "141M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8240,19 +8176,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39278",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_2101_39278",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_2116_39440",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39440",
     "trainNumber": "2183K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -8300,16 +8236,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39440",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_2158_39440",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_2116_39346",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_2120_33511",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33511",
     "trainNumber": "2018F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -8356,18 +8289,19 @@
         "departureTime": "21:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33511"
+    ]
   },
   {
     "tripId": "WD_OUT_SO-51_2126_39282",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39282",
     "trainNumber": "2062F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8414,19 +8348,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39282",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_2122_39282",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_INB_JS-20_2136_39469",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39469",
     "trainNumber": "145M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -8474,16 +8408,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39469",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_2216_39469",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_2136_39375",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_2138_33554",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33554",
     "trainNumber": "281M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -8530,12 +8461,12 @@
         "departureTime": "21:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33554"
+    ]
   },
   {
     "tripId": "WD_OUT_JS-15_2152_33590",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33590",
     "trainNumber": "143M",
     "trainType": "local",
     "direction": "outbound",
@@ -8582,17 +8513,18 @@
         "departureTime": "22:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33590"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_2156_39442",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39442",
     "trainNumber": "2185K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -8640,22 +8572,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39442",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_2237_39442",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_2156_39348",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-51_2202_39283",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39283",
     "trainNumber": "2156F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8702,14 +8632,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39283",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_2155_39283",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_2208_33538",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33538",
     "trainNumber": "283M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -8756,17 +8685,18 @@
         "departureTime": "22:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33538"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_2226_39444",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39444",
     "trainNumber": "142M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -8814,22 +8744,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39444",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_2305_39444",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_2226_39350",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_SO-51_2233_39221",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39221",
     "trainNumber": "150M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8876,14 +8804,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39221",
-    "customDestination": "新宿",
     "prevTripId": "WD_INB_SO-08_2229_39221",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_2240_33559",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33559",
     "trainNumber": "2110F",
     "trainType": "local",
     "direction": "outbound",
@@ -8930,17 +8857,18 @@
         "departureTime": "23:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33559"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_2251_39445",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39445",
     "trainNumber": "2263K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -8988,16 +8916,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39445",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_2332_39445",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_2251_39351",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "WD_OUT_JS-15_2311_33549",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33549",
     "trainNumber": "2342K",
     "trainType": "rapid",
     "direction": "outbound",
@@ -9044,17 +8969,18 @@
         "departureTime": "23:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33549"
+    ]
   },
   {
     "tripId": "WD_INB_JS-20_2315_39448",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39448",
     "trainNumber": "2263K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": false,
@@ -9102,22 +9028,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39448",
-    "customOrigin": "新宿",
     "throughTripId": "WD_OUT_SO-51_2354_39448",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "WD_INB_JA-11_2315_39354",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_SO-51_0547_39199",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39199",
     "trainNumber": "120M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -9164,20 +9088,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39199",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_0543_39199",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_SO-51_0605_39201",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39201",
     "trainNumber": "122M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -9224,19 +9148,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39201",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_0601_39201",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_0631_39391",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39391",
     "trainNumber": "220M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -9284,22 +9208,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39391",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_0711_39391",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_0631_39297",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_SO-51_0636_39224",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39224",
     "trainNumber": "221M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -9346,14 +9268,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39224",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_0631_39224",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_0637_33551",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33551",
     "trainNumber": "121M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -9400,12 +9321,12 @@
         "departureTime": "06:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33551"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_0653_39284",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39284",
     "trainNumber": "124M",
     "trainType": "local",
     "direction": "outbound",
@@ -9459,20 +9380,21 @@
         "isPassing": false
       }
     ],
-    "trainId": "39284",
-    "prevTripId": "HD_INB_SO-08_0647_39284",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "HD_OUT_JA-08_0722_39190",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "HD_INB_SO-08_0647_39284",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_0658_39449",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39449",
     "trainNumber": "121M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -9520,14 +9442,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39449",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_0741_39449",
     "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_0700_33560",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33560",
     "trainNumber": "644F",
     "trainType": "local",
     "direction": "outbound",
@@ -9574,12 +9495,12 @@
         "departureTime": "07:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33560"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_0712_39285",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39285",
     "trainNumber": "126M",
     "trainType": "local",
     "direction": "outbound",
@@ -9633,15 +9554,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39285",
-    "prevTripId": "HD_INB_SO-08_0706_39285",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "HD_OUT_JA-08_0741_39191",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "HD_INB_SO-08_0706_39285",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_0716_33539",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33539",
     "trainNumber": "600K",
     "trainType": "rapid",
     "direction": "outbound",
@@ -9688,17 +9609,18 @@
         "departureTime": "07:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33539"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_0725_39450",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39450",
     "trainNumber": "123M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -9746,14 +9668,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39450",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_0809_39450",
     "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_SO-51_0730_39288",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39288",
     "trainNumber": "718K",
     "trainType": "local",
     "direction": "outbound",
@@ -9807,15 +9728,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39288",
-    "prevTripId": "HD_INB_SO-08_0723_39288",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "HD_OUT_JA-08_0802_39194",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "HD_INB_SO-08_0723_39288",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_0740_39355",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39355",
     "trainNumber": "4614K",
     "trainType": "local",
     "direction": "inbound",
@@ -9869,15 +9790,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39355",
     "throughTripId": "HD_OUT_SO-51_0822_39355",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_0658_39355",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_0742_33592",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33592",
     "trainNumber": "127M",
     "trainType": "local",
     "direction": "outbound",
@@ -9924,12 +9843,12 @@
         "departureTime": "08:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33592"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_0751_39294",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39294",
     "trainNumber": "224M",
     "trainType": "local",
     "direction": "outbound",
@@ -9983,15 +9902,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39294",
-    "prevTripId": "HD_INB_SO-08_0747_39294",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "HD_OUT_JA-08_0818_39200",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "HD_INB_SO-08_0747_39294",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_0752_39347",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39347",
     "trainNumber": "787F",
     "trainType": "local",
     "direction": "inbound",
@@ -10045,7 +9964,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "39347",
     "throughTripId": "HD_OUT_SO-51_0831_39347",
     "throughLineId": "sotetsu_shin_yokohama",
     "prevTripId": "HD_INB_JA-26_0657_39261",
@@ -10054,6 +9972,7 @@
   {
     "tripId": "HD_OUT_JS-15_0804_33502",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33502",
     "trainNumber": "125M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -10100,12 +10019,12 @@
         "departureTime": "08:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33502"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_0809_39286",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39286",
     "trainNumber": "704F",
     "trainType": "local",
     "direction": "outbound",
@@ -10159,28 +10078,28 @@
         "isPassing": false
       }
     ],
-    "trainId": "39286",
-    "prevTripId": "HD_INB_SO-08_0803_39286",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "HD_OUT_JA-08_0833_39192",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "HD_INB_SO-08_0803_39286",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_0809_39356",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39356",
     "trainNumber": "127M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
-    "customOrigin": "新宿",
+    "customOrigin": "武蔵浦和",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "JS-20",
-        "arrivalTime": "07:25:00",
+        "arrivalTime": "07:51:00",
         "departureTime": "08:09:00",
         "isPassing": false
       },
@@ -10221,15 +10140,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39356",
     "throughTripId": "HD_OUT_SO-51_0848_39356",
     "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_0725_39356",
+    "prevTripId": "HD_INB_JA-21_0723_39253",
     "prevLineId": "saikyo"
   },
   {
     "tripId": "HD_OUT_JS-15_0817_33557",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33557",
     "trainNumber": "225M",
     "trainType": "local",
     "direction": "outbound",
@@ -10276,12 +10195,12 @@
         "departureTime": "08:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33557"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_0823_39287",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39287",
     "trainNumber": "704F",
     "trainType": "local",
     "direction": "outbound",
@@ -10335,15 +10254,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "39287",
-    "prevTripId": "HD_INB_SO-08_0819_39287",
-    "prevLineId": "sotetsu_shin_yokohama",
     "throughTripId": "HD_OUT_JA-08_0851_39193",
-    "throughLineId": "saikyo"
+    "throughLineId": "saikyo",
+    "prevTripId": "HD_INB_SO-08_0819_39287",
+    "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_0823_39345",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39345",
     "trainNumber": "130M",
     "trainType": "local",
     "direction": "inbound",
@@ -10397,7 +10316,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "39345",
     "throughTripId": "HD_OUT_SO-51_0901_39345",
     "throughLineId": "sotetsu_shin_yokohama",
     "prevTripId": "HD_INB_JA-26_0729_39262",
@@ -10406,6 +10324,7 @@
   {
     "tripId": "HD_OUT_JS-15_0828_33514",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33514",
     "trainNumber": "227M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -10452,12 +10371,12 @@
         "departureTime": "08:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33514"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_0838_39353",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39353",
     "trainNumber": "807F",
     "trainType": "local",
     "direction": "inbound",
@@ -10511,7 +10430,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "39353",
     "throughTripId": "HD_OUT_SO-51_0920_39353",
     "throughLineId": "sotetsu_shin_yokohama",
     "prevTripId": "HD_INB_JA-26_0743_39251",
@@ -10520,12 +10438,14 @@
   {
     "tripId": "HD_OUT_SO-51_0841_39204",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39204",
     "trainNumber": "128M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -10572,14 +10492,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39204",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_0834_39204",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_0847_33558",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33558",
     "trainNumber": "836K",
     "trainType": "local",
     "direction": "outbound",
@@ -10626,12 +10545,12 @@
         "departureTime": "09:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33558"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_0855_39351",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39351",
     "trainNumber": "807F",
     "trainType": "local",
     "direction": "inbound",
@@ -10685,7 +10604,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "39351",
     "throughTripId": "HD_OUT_SO-51_0939_39351",
     "throughLineId": "sotetsu_shin_yokohama",
     "prevTripId": "HD_INB_JA-26_0757_39259",
@@ -10694,12 +10612,14 @@
   {
     "tripId": "HD_OUT_SO-51_0902_39205",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39205",
     "trainNumber": "130M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -10746,14 +10666,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39205",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_0854_39205",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_0902_33567",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33567",
     "trainNumber": "227M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -10800,12 +10719,12 @@
         "departureTime": "09:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33567"
+    ]
   },
   {
     "tripId": "HD_OUT_JS-15_0916_33503",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33503",
     "trainNumber": "810K",
     "trainType": "rapid",
     "direction": "outbound",
@@ -10852,18 +10771,19 @@
         "departureTime": "09:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33503"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_0921_39206",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39206",
     "trainNumber": "132M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -10910,19 +10830,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39206",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_0914_39206",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_0927_39395",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39395",
     "trainNumber": "130M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -10970,16 +10890,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39395",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1012_39395",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_0927_39301",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_0931_33564",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33564",
     "trainNumber": "968K",
     "trainType": "local",
     "direction": "outbound",
@@ -11026,18 +10943,19 @@
         "departureTime": "09:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33564"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_0938_39228",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39228",
     "trainNumber": "233M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11084,20 +11002,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39228",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_0933_39228",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_SO-51_0948_39207",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39207",
     "trainNumber": "134M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11144,19 +11062,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39207",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_0944_39207",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_0953_39396",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39396",
     "trainNumber": "937F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -11204,16 +11122,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39396",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1037_39396",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_0953_39302",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_0953_33519",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33519",
     "trainNumber": "129M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -11260,18 +11175,19 @@
         "departureTime": "10:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33519"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1006_39231",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39231",
     "trainNumber": "237M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11318,14 +11234,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39231",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1001_39231",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1012_33607",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33607",
     "trainNumber": "950F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -11372,17 +11287,18 @@
         "departureTime": "10:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33607"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1014_39453",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39453",
     "trainNumber": "129M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -11430,21 +11346,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39453",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1050_39453",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1014_39359",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_1023_39398",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39398",
     "trainNumber": "234M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -11492,16 +11406,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39398",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1105_39398",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1023_39304",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1024_33578",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33578",
     "trainNumber": "129M",
     "trainType": "local",
     "direction": "outbound",
@@ -11548,18 +11459,19 @@
         "departureTime": "10:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33578"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1027_39233",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39233",
     "trainNumber": "235M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11606,14 +11518,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39233",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1023_39233",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1030_33542",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33542",
     "trainNumber": "237M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -11660,17 +11571,18 @@
         "departureTime": "10:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33542"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1035_39400",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39400",
     "trainNumber": "236M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -11718,16 +11630,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39400",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1117_39400",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1035_39306",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1046_33608",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33608",
     "trainNumber": "237M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -11774,17 +11683,18 @@
         "departureTime": "11:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33608"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1055_39402",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39402",
     "trainNumber": "1081F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -11832,22 +11742,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39402",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1137_39402",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1055_39308",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_SO-51_1057_39208",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39208",
     "trainNumber": "136M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -11894,14 +11802,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39208",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1053_39208",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1100_33490",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33490",
     "trainNumber": "239M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -11948,12 +11855,12 @@
         "departureTime": "11:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33490"
+    ]
   },
   {
     "tripId": "HD_OUT_JS-15_1115_33593",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33593",
     "trainNumber": "241M",
     "trainType": "local",
     "direction": "outbound",
@@ -12000,18 +11907,19 @@
         "departureTime": "11:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33593"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1117_39237",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39237",
     "trainNumber": "241M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -12058,19 +11966,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39237",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1113_39237",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_1119_39454",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39454",
     "trainNumber": "131M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -12118,16 +12026,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39454",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1202_39454",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1119_39360",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1127_33545",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33545",
     "trainNumber": "1000F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -12174,17 +12079,18 @@
         "departureTime": "11:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33545"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1140_39405",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39405",
     "trainNumber": "236M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -12232,16 +12138,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39405",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1218_39405",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1140_39311",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1146_33611",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33611",
     "trainNumber": "241M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -12288,18 +12191,19 @@
         "departureTime": "12:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33611"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1147_39238",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39238",
     "trainNumber": "241M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -12346,14 +12250,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39238",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1143_39238",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1200_33492",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33492",
     "trainNumber": "241M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -12400,17 +12303,18 @@
         "departureTime": "12:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33492"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1202_39407",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39407",
     "trainNumber": "1107F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -12458,16 +12362,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39407",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1242_39407",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1202_39313",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1215_33594",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33594",
     "trainNumber": "1136F",
     "trainType": "local",
     "direction": "outbound",
@@ -12514,18 +12415,19 @@
         "departureTime": "12:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33594"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1217_39241",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39241",
     "trainNumber": "245M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -12572,14 +12474,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39241",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1213_39241",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1230_33523",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33523",
     "trainNumber": "1118F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -12626,17 +12527,18 @@
         "departureTime": "12:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33523"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1233_39410",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39410",
     "trainNumber": "1211F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -12684,16 +12586,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39410",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1312_39410",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1233_39316",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1246_33613",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33613",
     "trainNumber": "1118F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -12740,18 +12639,19 @@
         "departureTime": "13:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33613"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1247_39242",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39242",
     "trainNumber": "247M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -12798,14 +12698,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39242",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1243_39242",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1300_33494",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33494",
     "trainNumber": "2840Y",
     "trainType": "rapid",
     "direction": "outbound",
@@ -12852,17 +12751,18 @@
         "departureTime": "13:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33494"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1302_39411",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39411",
     "trainNumber": "242M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -12910,16 +12810,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39411",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1342_39411",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1302_39318",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1315_33596",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33596",
     "trainNumber": "1268F",
     "trainType": "local",
     "direction": "outbound",
@@ -12966,18 +12863,19 @@
         "departureTime": "13:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33596"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1317_39244",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39244",
     "trainNumber": "249M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13024,14 +12922,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39244",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1313_39244",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1327_33525",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33525",
     "trainNumber": "249M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -13078,17 +12975,18 @@
         "departureTime": "13:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33525"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1332_39413",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39413",
     "trainNumber": "244M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -13136,16 +13034,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39413",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1412_39413",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1332_39319",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1345_33615",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33615",
     "trainNumber": "249M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -13192,18 +13087,19 @@
         "departureTime": "14:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33615"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1347_39247",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39247",
     "trainNumber": "251M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13250,14 +13146,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39247",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1343_39247",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1359_33495",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33495",
     "trainNumber": "2842Y",
     "trainType": "rapid",
     "direction": "outbound",
@@ -13304,17 +13199,18 @@
         "departureTime": "14:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33495"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1403_39416",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39416",
     "trainNumber": "1381F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -13362,16 +13258,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39416",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1442_39416",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1403_39322",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1415_33598",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33598",
     "trainNumber": "1306F",
     "trainType": "local",
     "direction": "outbound",
@@ -13418,18 +13311,19 @@
         "departureTime": "14:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33598"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1417_39249",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39249",
     "trainNumber": "253M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13476,14 +13370,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39249",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1413_39249",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1427_33527",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33527",
     "trainNumber": "253M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -13530,17 +13423,18 @@
         "departureTime": "14:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33527"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1432_39418",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39418",
     "trainNumber": "248M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -13588,16 +13482,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39418",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1512_39418",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1432_39324",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1445_33616",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33616",
     "trainNumber": "253M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -13644,18 +13535,19 @@
         "departureTime": "15:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33616"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1447_39251",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39251",
     "trainNumber": "255M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13702,14 +13594,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39251",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1443_39251",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1500_33496",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33496",
     "trainNumber": "2844Y",
     "trainType": "rapid",
     "direction": "outbound",
@@ -13756,17 +13647,18 @@
         "departureTime": "15:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33496"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1502_39419",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39419",
     "trainNumber": "250M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -13814,16 +13706,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39419",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1542_39419",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1502_39325",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1515_33579",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33579",
     "trainNumber": "1482F",
     "trainType": "local",
     "direction": "outbound",
@@ -13870,18 +13759,19 @@
         "departureTime": "15:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33579"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1517_39252",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39252",
     "trainNumber": "1440F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -13928,14 +13818,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39252",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1513_39252",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1527_33529",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33529",
     "trainNumber": "257M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -13982,17 +13871,18 @@
         "departureTime": "15:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33529"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1532_39422",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39422",
     "trainNumber": "1519F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -14040,16 +13930,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39422",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1612_39422",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1532_39328",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1545_33618",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33618",
     "trainNumber": "257M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -14096,18 +13983,19 @@
         "departureTime": "16:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33618"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1547_39255",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39255",
     "trainNumber": "1580F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14154,14 +14042,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39255",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1543_39255",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1600_33497",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33497",
     "trainNumber": "2846Y",
     "trainType": "rapid",
     "direction": "outbound",
@@ -14208,17 +14095,18 @@
         "departureTime": "16:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33497"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1602_39424",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39424",
     "trainNumber": "1537F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -14266,22 +14154,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39424",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1642_39424",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1602_39330",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_SO-51_1604_39256",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39256",
     "trainNumber": "259M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14328,14 +14214,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39256",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1558_39256",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1615_33570",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33570",
     "trainNumber": "1580F",
     "trainType": "local",
     "direction": "outbound",
@@ -14382,18 +14267,19 @@
         "departureTime": "16:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33570"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1626_39257",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39257",
     "trainNumber": "261M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14440,14 +14326,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39257",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1622_39257",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1627_33546",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33546",
     "trainNumber": "261M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -14494,17 +14379,18 @@
         "departureTime": "16:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33546"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1632_39425",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39425",
     "trainNumber": "1683F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -14552,16 +14438,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39425",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1711_39425",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1632_39331",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1646_33620",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33620",
     "trainNumber": "133M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -14608,18 +14491,19 @@
         "departureTime": "17:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33620"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1647_39259",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39259",
     "trainNumber": "133M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14666,19 +14550,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39259",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1643_39259",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_1652_39455",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39455",
     "trainNumber": "133M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -14726,16 +14610,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39455",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1732_39455",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1652_39361",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1700_33500",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33500",
     "trainNumber": "135M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -14782,18 +14663,19 @@
         "departureTime": "17:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33500"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1707_39261",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39261",
     "trainNumber": "135M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -14840,19 +14722,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39261",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1703_39261",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_1713_39456",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39456",
     "trainNumber": "135M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -14900,16 +14782,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39456",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1759_39456",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1713_39362",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1715_33601",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33601",
     "trainNumber": "133M",
     "trainType": "local",
     "direction": "outbound",
@@ -14956,18 +14835,19 @@
         "departureTime": "17:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33601"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1730_39263",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39263",
     "trainNumber": "263M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15014,14 +14894,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39263",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1726_39263",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1730_33531",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33531",
     "trainNumber": "137M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -15068,17 +14947,18 @@
         "departureTime": "17:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33531"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1736_39458",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39458",
     "trainNumber": "137M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -15126,22 +15006,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39458",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1821_39458",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1736_39364",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_SO-51_1747_39264",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39264",
     "trainNumber": "265M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15188,14 +15066,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39264",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1743_39264",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1747_33581",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33581",
     "trainNumber": "137M",
     "trainType": "local",
     "direction": "outbound",
@@ -15242,17 +15119,18 @@
         "departureTime": "18:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33581"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1756_39429",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39429",
     "trainNumber": "1741K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -15300,16 +15178,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39429",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1841_39429",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1756_39335",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1800_33516",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33516",
     "trainNumber": "137M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -15356,18 +15231,19 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33516"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1810_39266",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39266",
     "trainNumber": "265M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15414,14 +15290,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39266",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1806_39266",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1813_33583",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33583",
     "trainNumber": "267M",
     "trainType": "local",
     "direction": "outbound",
@@ -15468,17 +15343,18 @@
         "departureTime": "18:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33583"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1816_39430",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39430",
     "trainNumber": "1717F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -15526,22 +15402,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39430",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1858_39430",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1816_39336",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_SO-51_1827_39212",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39212",
     "trainNumber": "138M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15588,14 +15462,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39212",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1823_39212",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1830_33532",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33532",
     "trainNumber": "267M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -15642,17 +15515,18 @@
         "departureTime": "18:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33532"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1836_39431",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39431",
     "trainNumber": "1885K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -15700,16 +15574,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39431",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1915_39431",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1836_39337",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1837_42165",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "42165",
     "trainNumber": "265M",
     "trainType": "limitedExp",
     "trainName": "踊り子12号",
@@ -15757,12 +15628,12 @@
         "departureTime": "18:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42165"
+    ]
   },
   {
     "tripId": "HD_OUT_JS-15_1846_33603",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33603",
     "trainNumber": "267M",
     "trainType": "local",
     "direction": "outbound",
@@ -15809,18 +15680,19 @@
         "departureTime": "19:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33603"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1848_39213",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39213",
     "trainNumber": "140M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -15867,14 +15739,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39213",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1843_39213",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1855_33506",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33506",
     "trainNumber": "1868F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -15921,17 +15792,18 @@
         "departureTime": "19:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33506"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1856_39432",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39432",
     "trainNumber": "1805F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -15979,16 +15851,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39432",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1938_39432",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1856_39338",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1902_33553",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33553",
     "trainNumber": "1810F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -16035,18 +15904,19 @@
         "departureTime": "19:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33553"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1908_39270",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39270",
     "trainNumber": "1944K",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16093,14 +15963,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39270",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1903_39270",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1915_33584",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33584",
     "trainNumber": "271M",
     "trainType": "local",
     "direction": "outbound",
@@ -16147,17 +16016,18 @@
         "departureTime": "19:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33584"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1916_39433",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39433",
     "trainNumber": "140M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -16205,22 +16075,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39433",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_1958_39433",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1916_39339",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_SO-51_1929_39271",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39271",
     "trainNumber": "275M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16267,14 +16135,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39271",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1923_39271",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1930_33535",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33535",
     "trainNumber": "273M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -16321,17 +16188,18 @@
         "departureTime": "19:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33535"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_1936_39435",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39435",
     "trainNumber": "1937K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -16379,16 +16247,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39435",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_2018_39435",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1936_39341",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_1946_33605",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33605",
     "trainNumber": "273M",
     "trainType": "local",
     "direction": "outbound",
@@ -16435,18 +16300,19 @@
         "departureTime": "20:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33605"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_1955_39272",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39272",
     "trainNumber": "277M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16493,19 +16359,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39272",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_1948_39272",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_1955_39436",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39436",
     "trainNumber": "272M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -16553,16 +16419,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39436",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_2038_39436",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_1955_39342",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_2002_33508",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33508",
     "trainNumber": "1906F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -16609,18 +16472,19 @@
         "departureTime": "20:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33508"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_2008_39274",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39274",
     "trainNumber": "279M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16667,19 +16531,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39274",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_2003_39274",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_2016_39437",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39437",
     "trainNumber": "2011F",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -16727,16 +16591,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39437",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_2058_39437",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_2016_39343",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_2016_33716",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33716",
     "trainNumber": "275M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -16783,18 +16644,19 @@
         "departureTime": "20:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33716"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_2027_39275",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39275",
     "trainNumber": "277M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -16841,14 +16703,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39275",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_2023_39275",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_2029_33586",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33586",
     "trainNumber": "277M",
     "trainType": "local",
     "direction": "outbound",
@@ -16895,17 +16756,18 @@
         "departureTime": "20:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33586"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_2037_39439",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39439",
     "trainNumber": "2051K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -16953,22 +16815,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39439",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_2118_39439",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_2037_39345",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_SO-51_2047_39277",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39277",
     "trainNumber": "2004F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17015,14 +16875,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39277",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_2043_39277",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_2047_33517",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33517",
     "trainNumber": "2004F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -17069,17 +16928,18 @@
         "departureTime": "21:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33517"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_2056_39467",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39467",
     "trainNumber": "139M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -17127,16 +16987,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39467",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_2141_39467",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_2056_39373",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_2100_33587",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33587",
     "trainNumber": "279M",
     "trainType": "local",
     "direction": "outbound",
@@ -17183,18 +17040,19 @@
         "departureTime": "21:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33587"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_2106_39279",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39279",
     "trainNumber": "141M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17241,19 +17099,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39279",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_2102_39279",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_2116_39441",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39441",
     "trainNumber": "2183K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -17301,16 +17159,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39441",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_2158_39441",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_2116_39347",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_2120_33537",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33537",
     "trainNumber": "2018F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -17357,18 +17212,19 @@
         "departureTime": "21:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33537"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_2125_39280",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39280",
     "trainNumber": "2062F",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17415,19 +17271,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39280",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_2121_39280",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_INB_JS-20_2136_39468",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39468",
     "trainNumber": "141M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -17475,16 +17331,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39468",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_2216_39468",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_2136_39374",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_2139_33588",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33588",
     "trainNumber": "281M",
     "trainType": "local",
     "direction": "outbound",
@@ -17531,17 +17384,18 @@
         "departureTime": "22:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33588"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_2156_39470",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39470",
     "trainNumber": "143M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -17589,22 +17443,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "39470",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_2238_39470",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_2156_39376",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_SO-51_2202_39219",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39219",
     "trainNumber": "142M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17651,14 +17503,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39219",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_2157_39219",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_2203_33536",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33536",
     "trainNumber": "2148F",
     "trainType": "rapid",
     "direction": "outbound",
@@ -17705,17 +17556,18 @@
         "departureTime": "22:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33536"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_2218_39443",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39443",
     "trainNumber": "2271K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -17763,16 +17615,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39443",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_2259_39443",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_2218_39349",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_2219_33591",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33591",
     "trainNumber": "283M",
     "trainType": "local",
     "direction": "outbound",
@@ -17819,18 +17668,19 @@
         "departureTime": "22:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33591"
+    ]
   },
   {
     "tripId": "HD_OUT_SO-51_2233_39220",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39220",
     "trainNumber": "144M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "SO-51",
     "destinationStationId": "JS-20",
     "customOrigin": "海老名",
+    "customDestination": "新宿",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -17877,14 +17727,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39220",
-    "customDestination": "新宿",
     "prevTripId": "HD_INB_SO-08_2229_39220",
     "prevLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_2238_33548",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33548",
     "trainNumber": "283M",
     "trainType": "rapid",
     "direction": "outbound",
@@ -17931,17 +17780,18 @@
         "departureTime": "23:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33548"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_2252_39446",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39446",
     "trainNumber": "144M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -17989,16 +17839,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39446",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_2334_39446",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_2252_39352",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   },
   {
     "tripId": "HD_OUT_JS-15_2311_33549",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "33549",
     "trainNumber": "2342K",
     "trainType": "rapid",
     "direction": "outbound",
@@ -18045,17 +17892,18 @@
         "departureTime": "23:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "33549"
+    ]
   },
   {
     "tripId": "HD_INB_JS-20_2315_39447",
     "lineId": "sotetsu_jr_direct",
+    "trainId": "39447",
     "trainNumber": "2263K",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "JS-20",
     "destinationStationId": "SO-51",
+    "customOrigin": "新宿",
     "customDestination": "海老名",
     "cars": 10,
     "isHoliday": true,
@@ -18103,11 +17951,7 @@
         "isPassing": false
       }
     ],
-    "trainId": "39447",
-    "customOrigin": "新宿",
     "throughTripId": "HD_OUT_SO-51_2355_39447",
-    "throughLineId": "sotetsu_shin_yokohama",
-    "prevTripId": "HD_INB_JA-11_2315_39353",
-    "prevLineId": "saikyo"
+    "throughLineId": "sotetsu_shin_yokohama"
   }
 ]

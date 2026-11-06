@@ -1,6 +1,6 @@
-import type { TrainTypeConfig, TrainTypeKey } from '../../../types';
+import type { TrainTypeConfig } from '../../../types';
 
-export const TOHOKU_SHINKANSEN_TRAIN_TYPES: Record<TrainTypeKey, TrainTypeConfig> = {
+export const TOHOKU_SHINKANSEN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   hayabusa: {
     key: 'hayabusa',
     name: 'はやぶさ',
@@ -61,14 +61,4 @@ export const TOHOKU_SHINKANSEN_TRAIN_TYPES: Record<TrainTypeKey, TrainTypeConfig
     bgColor: '#f36221',
     borderColor: '#f36221',
   },
-  limitedExp: {
-    key: 'limitedExp',
-    name: '特急',
-    nameEn: 'Limited Exp',
-    shortName: '特急',
-    color: '#c9252d',
-    textColor: '#ffffff',
-    bgColor: '#c9252d',
-    borderColor: '#991b1b',
-  },
-} as Record<TrainTypeKey, TrainTypeConfig>;
+};

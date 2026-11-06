@@ -23,8 +23,8 @@ export const NARITA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   },
   "limitedExp": {
     "key": "limitedExp",
-    "name": "特急成田エクスプレス",
-    "shortName": "N'EX",
+    "name": "特急",
+    "shortName": "特急",
     "bgColor": "#e60012",
     "textColor": "#ffffff",
     "borderColor": "#e60012",

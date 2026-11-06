@@ -2,6 +2,7 @@
   {
     "tripId": "WD_INB_FJ-18_0518_92418",
     "lineId": "fujikyu",
+    "trainId": "92418",
     "trainNumber": "92418レ",
     "trainType": "local",
     "direction": "inbound",
@@ -118,17 +119,18 @@
         "departureTime": "06:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92418"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_0549_39581",
     "lineId": "fujikyu",
+    "trainId": "39581",
     "trainNumber": "2726M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "東京",
     "cars": 3,
     "isHoliday": false,
@@ -242,17 +244,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39581",
-    "customOrigin": "河口湖"
+    "throughTripId": "cm_WD_INB_JC-32_0654_39456",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_INB_FJ-18_0615_39582",
     "lineId": "fujikyu",
+    "trainId": "39582",
     "trainNumber": "2818M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "東京",
     "cars": 3,
     "isHoliday": false,
@@ -366,12 +370,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39582",
-    "customOrigin": "河口湖"
+    "throughTripId": "cm_WD_INB_JC-32_0723_39457",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_0632_92362",
     "lineId": "fujikyu",
+    "trainId": "92362",
     "trainNumber": "92362レ",
     "trainType": "local",
     "direction": "outbound",
@@ -488,12 +493,12 @@
         "departureTime": "07:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92362"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_0641_92419",
     "lineId": "fujikyu",
+    "trainId": "92419",
     "trainNumber": "92419レ",
     "trainType": "local",
     "direction": "inbound",
@@ -610,12 +615,12 @@
         "departureTime": "07:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92419"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_0700_92420",
     "lineId": "fujikyu",
+    "trainId": "92420",
     "trainNumber": "92420レ",
     "trainType": "local",
     "direction": "inbound",
@@ -732,12 +737,12 @@
         "departureTime": "08:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92420"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_0703_92363",
     "lineId": "fujikyu",
+    "trainId": "92363",
     "trainNumber": "92363レ",
     "trainType": "local",
     "direction": "outbound",
@@ -854,12 +859,12 @@
         "departureTime": "07:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92363"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_0724_92364",
     "lineId": "fujikyu",
+    "trainId": "92364",
     "trainNumber": "92364レ",
     "trainType": "local",
     "direction": "outbound",
@@ -976,12 +981,12 @@
         "departureTime": "08:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92364"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_0732_92421",
     "lineId": "fujikyu",
+    "trainId": "92421",
     "trainNumber": "92421レ",
     "trainType": "local",
     "direction": "inbound",
@@ -1098,12 +1103,12 @@
         "departureTime": "08:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92421"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_0755_92365",
     "lineId": "fujikyu",
+    "trainId": "92365",
     "trainNumber": "92365レ",
     "trainType": "local",
     "direction": "outbound",
@@ -1220,12 +1225,12 @@
         "departureTime": "08:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92365"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_0803_92422",
     "lineId": "fujikyu",
+    "trainId": "92422",
     "trainNumber": "92422レ",
     "trainType": "local",
     "direction": "inbound",
@@ -1342,18 +1347,19 @@
         "departureTime": "09:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92422"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_0819_38246",
     "lineId": "fujikyu",
+    "trainId": "38246",
     "trainNumber": "1455M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "東京",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1466,14 +1472,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38246",
-    "customDestination": "河口湖",
     "prevTripId": "cm_WD_OUT_JC-24_0726_38121",
     "prevLineId": "chuo_main"
   },
   {
     "tripId": "WD_INB_FJ-18_0823_92408",
     "lineId": "fujikyu",
+    "trainId": "92408",
     "trainNumber": "92408レ",
     "trainType": "limitedExp",
     "trainName": "ふじやま2号",
@@ -1591,135 +1596,12 @@
         "departureTime": "09:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92408"
-  },
-  {
-    "tripId": "WD_INB_FJ-18_0823_92407",
-    "lineId": "fujikyu",
-    "trainNumber": "92407レ",
-    "trainType": "limitedExp",
-    "trainName": "フジサン特急2号",
-    "direction": "inbound",
-    "originStationId": "FJ-18",
-    "destinationStationId": "FJ-01",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "08:23:00",
-        "departureTime": "08:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "08:26:00",
-        "departureTime": "08:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "08:29:00",
-        "departureTime": "08:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "08:33:44",
-        "departureTime": "08:33:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "08:36:00",
-        "departureTime": "08:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "08:38:12",
-        "departureTime": "08:38:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "08:40:25",
-        "departureTime": "08:40:25",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "08:43:43",
-        "departureTime": "08:43:43",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "08:47:02",
-        "departureTime": "08:47:02",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "08:49:48",
-        "departureTime": "08:49:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "08:52:00",
-        "departureTime": "08:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "08:54:24",
-        "departureTime": "08:54:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "08:56:48",
-        "departureTime": "08:56:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "08:59:12",
-        "departureTime": "08:59:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "09:01:36",
-        "departureTime": "09:01:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "09:04:36",
-        "departureTime": "09:04:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "09:07:36",
-        "departureTime": "09:07:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "09:10:00",
-        "departureTime": "09:10:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92407"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_0840_39586",
     "lineId": "fujikyu",
+    "trainId": "39586",
     "trainNumber": "2103M",
     "trainType": "limitedExp",
     "trainName": "富士回遊3号",
@@ -1727,6 +1609,7 @@
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "千葉",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1839,14 +1722,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39586",
-    "customDestination": "河口湖",
     "prevTripId": "cm_WD_OUT_JC-05_0730_39461",
     "prevLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_0850_92366",
     "lineId": "fujikyu",
+    "trainId": "92366",
     "trainNumber": "92366レ",
     "trainType": "local",
     "direction": "outbound",
@@ -1963,12 +1845,12 @@
         "departureTime": "09:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92366"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_0900_92423",
     "lineId": "fujikyu",
+    "trainId": "92423",
     "trainNumber": "92423レ",
     "trainType": "local",
     "direction": "inbound",
@@ -2085,17 +1967,18 @@
         "departureTime": "09:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92423"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_0916_92367",
     "lineId": "fujikyu",
+    "trainId": "92367",
     "trainNumber": "92367レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2207,17 +2090,12 @@
         "departureTime": "10:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92367",
-    "trainName": "富士回遊3号",
-    "customDestination": "河口湖",
-    "customOrigin": "東京",
-    "prevTripId": "cm_WD_OUT_JC-24_0826_10031",
-    "prevLineId": "chuo_main"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_0916_92410",
     "lineId": "fujikyu",
+    "trainId": "92410",
     "trainNumber": "92410レ",
     "trainType": "limitedExp",
     "trainName": "ふじやま12号",
@@ -2335,135 +2213,12 @@
         "departureTime": "10:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92410"
-  },
-  {
-    "tripId": "WD_INB_FJ-18_0916_92409",
-    "lineId": "fujikyu",
-    "trainNumber": "92409レ",
-    "trainType": "limitedExp",
-    "trainName": "富士山ビュー特急12号",
-    "direction": "inbound",
-    "originStationId": "FJ-18",
-    "destinationStationId": "FJ-01",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "09:16:00",
-        "departureTime": "09:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "09:19:00",
-        "departureTime": "09:19:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "09:22:00",
-        "departureTime": "09:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "09:26:44",
-        "departureTime": "09:26:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "09:29:00",
-        "departureTime": "09:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "09:34:12",
-        "departureTime": "09:34:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "09:36:25",
-        "departureTime": "09:36:25",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "09:39:43",
-        "departureTime": "09:39:43",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "09:43:02",
-        "departureTime": "09:43:02",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "09:45:48",
-        "departureTime": "09:45:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "09:48:00",
-        "departureTime": "09:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "09:51:44",
-        "departureTime": "09:51:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "09:55:28",
-        "departureTime": "09:55:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "09:59:12",
-        "departureTime": "09:59:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "10:02:56",
-        "departureTime": "10:02:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "10:07:36",
-        "departureTime": "10:07:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "10:12:16",
-        "departureTime": "10:12:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "10:16:00",
-        "departureTime": "10:16:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92409"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_0942_38924",
     "lineId": "fujikyu",
+    "trainId": "38924",
     "trainNumber": "2107M",
     "trainType": "limitedExp",
     "trainName": "富士回遊7号",
@@ -2471,6 +2226,7 @@
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "新宿",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2583,14 +2339,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38924",
-    "customDestination": "河口湖",
     "prevTripId": "cm_WD_OUT_JC-05_0830_38799",
     "prevLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_0948_92395",
     "lineId": "fujikyu",
+    "trainId": "92395",
     "trainNumber": "92395レ",
     "trainType": "limitedExp",
     "trainName": "ふじやま1号",
@@ -2708,135 +2463,12 @@
         "departureTime": "10:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92395"
-  },
-  {
-    "tripId": "WD_OUT_FJ-01_0948_92394",
-    "lineId": "fujikyu",
-    "trainNumber": "92394レ",
-    "trainType": "limitedExp",
-    "trainName": "フジサン特急1号",
-    "direction": "outbound",
-    "originStationId": "FJ-01",
-    "destinationStationId": "FJ-18",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "09:48:00",
-        "departureTime": "09:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "09:51:04",
-        "departureTime": "09:51:04",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "09:54:54",
-        "departureTime": "09:54:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "09:58:44",
-        "departureTime": "09:58:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "10:01:48",
-        "departureTime": "10:01:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "10:04:52",
-        "departureTime": "10:04:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "10:07:56",
-        "departureTime": "10:07:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "10:11:00",
-        "departureTime": "10:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "10:13:54",
-        "departureTime": "10:13:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "10:17:31",
-        "departureTime": "10:17:31",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "10:21:52",
-        "departureTime": "10:21:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "10:26:12",
-        "departureTime": "10:26:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "10:29:06",
-        "departureTime": "10:29:06",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "10:32:00",
-        "departureTime": "10:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "10:34:44",
-        "departureTime": "10:34:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "10:38:00",
-        "departureTime": "10:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "10:43:00",
-        "departureTime": "10:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "10:46:00",
-        "departureTime": "10:46:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92394"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1000_92424",
     "lineId": "fujikyu",
+    "trainId": "92424",
     "trainNumber": "92424レ",
     "trainType": "local",
     "direction": "inbound",
@@ -2953,12 +2585,12 @@
         "departureTime": "11:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92424"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1003_92369",
     "lineId": "fujikyu",
+    "trainId": "92369",
     "trainNumber": "92369レ",
     "trainType": "local",
     "direction": "outbound",
@@ -3075,18 +2707,19 @@
         "departureTime": "10:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92369"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1032_40933",
     "lineId": "fujikyu",
+    "trainId": "40933",
     "trainNumber": "1456M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
-    "customDestination": "高尾(東京都)",
+    "customOrigin": "河口湖",
+    "customDestination": "高尾",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3199,11 +2832,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40933"
+    "throughTripId": "cm_WD_INB_JC-32_1150_40806",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_1042_38929",
     "lineId": "fujikyu",
+    "trainId": "38929",
     "trainNumber": "2111M",
     "trainType": "limitedExp",
     "trainName": "富士回遊11号",
@@ -3211,6 +2846,7 @@
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "新宿",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -3323,14 +2959,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38929",
-    "customDestination": "河口湖",
     "prevTripId": "cm_WD_OUT_JC-05_0930_38804",
     "prevLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_1049_92396",
     "lineId": "fujikyu",
+    "trainId": "92396",
     "trainNumber": "92396レ",
     "trainType": "limitedExp",
     "trainName": "富士山ビュー特急11号",
@@ -3448,135 +3083,12 @@
         "departureTime": "11:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92396"
-  },
-  {
-    "tripId": "WD_OUT_FJ-01_1049_92397",
-    "lineId": "fujikyu",
-    "trainNumber": "92397レ",
-    "trainType": "limitedExp",
-    "trainName": "ふじやま11号",
-    "direction": "outbound",
-    "originStationId": "FJ-01",
-    "destinationStationId": "FJ-18",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "10:49:00",
-        "departureTime": "10:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "10:52:20",
-        "departureTime": "10:52:20",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "10:56:30",
-        "departureTime": "10:56:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "11:00:40",
-        "departureTime": "11:00:40",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "11:04:00",
-        "departureTime": "11:04:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "11:07:20",
-        "departureTime": "11:07:20",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "11:10:40",
-        "departureTime": "11:10:40",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "11:14:00",
-        "departureTime": "11:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "11:16:29",
-        "departureTime": "11:16:29",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "11:19:35",
-        "departureTime": "11:19:35",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "11:23:19",
-        "departureTime": "11:23:19",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "11:27:02",
-        "departureTime": "11:27:02",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "11:29:31",
-        "departureTime": "11:29:31",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "11:32:00",
-        "departureTime": "11:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "11:35:16",
-        "departureTime": "11:35:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "11:38:00",
-        "departureTime": "11:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "11:42:00",
-        "departureTime": "11:43:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "11:46:00",
-        "departureTime": "11:46:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92397"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1101_92413",
     "lineId": "fujikyu",
+    "trainId": "92413",
     "trainNumber": "92413レ",
     "trainType": "limitedExp",
     "trainName": "ふじやま4号",
@@ -3694,135 +3206,12 @@
         "departureTime": "11:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92413"
-  },
-  {
-    "tripId": "WD_INB_FJ-18_1101_92412",
-    "lineId": "fujikyu",
-    "trainNumber": "92412レ",
-    "trainType": "limitedExp",
-    "trainName": "フジサン特急4号",
-    "direction": "inbound",
-    "originStationId": "FJ-18",
-    "destinationStationId": "FJ-01",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "11:01:00",
-        "departureTime": "11:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "11:04:00",
-        "departureTime": "11:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "11:07:00",
-        "departureTime": "11:09:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "11:11:44",
-        "departureTime": "11:11:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "11:14:00",
-        "departureTime": "11:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "11:18:19",
-        "departureTime": "11:18:19",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "11:21:37",
-        "departureTime": "11:21:37",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "11:26:35",
-        "departureTime": "11:26:35",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "11:31:33",
-        "departureTime": "11:31:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "11:35:41",
-        "departureTime": "11:35:41",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "11:39:00",
-        "departureTime": "11:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "11:41:08",
-        "departureTime": "11:41:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "11:43:16",
-        "departureTime": "11:43:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "11:45:24",
-        "departureTime": "11:45:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "11:47:32",
-        "departureTime": "11:47:32",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "11:50:12",
-        "departureTime": "11:50:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "11:52:52",
-        "departureTime": "11:52:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "11:55:00",
-        "departureTime": "11:55:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92412"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1106_92370",
     "lineId": "fujikyu",
+    "trainId": "92370",
     "trainNumber": "92370レ",
     "trainType": "local",
     "direction": "outbound",
@@ -3939,12 +3328,12 @@
         "departureTime": "12:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92370"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1116_92425",
     "lineId": "fujikyu",
+    "trainId": "92425",
     "trainNumber": "92425レ",
     "trainType": "local",
     "direction": "inbound",
@@ -4061,12 +3450,12 @@
         "departureTime": "12:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92425"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1136_38932",
     "lineId": "fujikyu",
+    "trainId": "38932",
     "trainNumber": "2115M",
     "trainType": "limitedExp",
     "trainName": "富士回遊15号",
@@ -4074,6 +3463,7 @@
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "新宿",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4186,14 +3576,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38932",
-    "customDestination": "河口湖",
     "prevTripId": "cm_WD_OUT_JC-05_1030_38807",
     "prevLineId": "chuo_main"
   },
   {
     "tripId": "WD_INB_FJ-18_1153_92426",
     "lineId": "fujikyu",
+    "trainId": "92426",
     "trainNumber": "92426レ",
     "trainType": "local",
     "direction": "inbound",
@@ -4310,12 +3699,12 @@
         "departureTime": "12:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92426"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1158_92371",
     "lineId": "fujikyu",
+    "trainId": "92371",
     "trainNumber": "92371レ",
     "trainType": "local",
     "direction": "outbound",
@@ -4432,12 +3821,12 @@
         "departureTime": "12:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92371"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1219_92373",
     "lineId": "fujikyu",
+    "trainId": "92373",
     "trainNumber": "92373レ",
     "trainType": "local",
     "direction": "outbound",
@@ -4554,12 +3943,12 @@
         "departureTime": "13:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92373"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1227_92427",
     "lineId": "fujikyu",
+    "trainId": "92427",
     "trainNumber": "92427レ",
     "trainType": "local",
     "direction": "inbound",
@@ -4676,12 +4065,12 @@
         "departureTime": "13:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92427"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1242_38933",
     "lineId": "fujikyu",
+    "trainId": "38933",
     "trainNumber": "8193M",
     "trainType": "limitedExp",
     "trainName": "富士回遊93号",
@@ -4689,6 +4078,7 @@
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "新宿",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4801,260 +4191,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38933",
-    "customDestination": "河口湖",
     "prevTripId": "cm_WD_OUT_JC-05_1134_38808",
     "prevLineId": "chuo_main"
   },
   {
-    "tripId": "WD_OUT_FJ-01_1242_92399",
-    "lineId": "fujikyu",
-    "trainNumber": "92399レ",
-    "trainType": "limitedExp",
-    "trainName": "ふじやま93号",
-    "direction": "outbound",
-    "originStationId": "FJ-01",
-    "destinationStationId": "FJ-18",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "12:42:00",
-        "departureTime": "12:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "12:44:24",
-        "departureTime": "12:44:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "12:47:24",
-        "departureTime": "12:47:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "12:50:24",
-        "departureTime": "12:50:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "12:52:48",
-        "departureTime": "12:52:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "12:55:12",
-        "departureTime": "12:55:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "12:57:36",
-        "departureTime": "12:57:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "13:00:00",
-        "departureTime": "13:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "13:02:21",
-        "departureTime": "13:02:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "13:05:17",
-        "departureTime": "13:05:17",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "13:08:48",
-        "departureTime": "13:08:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "13:12:19",
-        "departureTime": "13:12:19",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "13:14:39",
-        "departureTime": "13:14:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "13:17:00",
-        "departureTime": "13:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "13:20:16",
-        "departureTime": "13:20:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "13:23:00",
-        "departureTime": "13:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "13:28:00",
-        "departureTime": "13:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "13:31:00",
-        "departureTime": "13:31:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92399"
-  },
-  {
-    "tripId": "WD_OUT_FJ-01_1242_92398",
-    "lineId": "fujikyu",
-    "trainNumber": "92398レ",
-    "trainType": "limitedExp",
-    "trainName": "フジサン特急93号",
-    "direction": "outbound",
-    "originStationId": "FJ-01",
-    "destinationStationId": "FJ-18",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "12:42:00",
-        "departureTime": "12:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "12:44:24",
-        "departureTime": "12:44:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "12:47:24",
-        "departureTime": "12:47:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "12:50:24",
-        "departureTime": "12:50:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "12:52:48",
-        "departureTime": "12:52:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "12:55:12",
-        "departureTime": "12:55:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "12:57:36",
-        "departureTime": "12:57:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "13:00:00",
-        "departureTime": "13:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "13:02:21",
-        "departureTime": "13:02:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "13:05:17",
-        "departureTime": "13:05:17",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "13:08:48",
-        "departureTime": "13:08:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "13:12:19",
-        "departureTime": "13:12:19",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "13:14:39",
-        "departureTime": "13:14:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "13:17:00",
-        "departureTime": "13:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "13:20:16",
-        "departureTime": "13:20:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "13:23:00",
-        "departureTime": "13:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "13:28:00",
-        "departureTime": "13:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "13:31:00",
-        "departureTime": "13:31:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92398"
-  },
-  {
     "tripId": "WD_OUT_FJ-01_1301_92374",
     "lineId": "fujikyu",
+    "trainId": "92374",
     "trainNumber": "92374レ",
     "trainType": "local",
     "direction": "outbound",
@@ -5171,12 +4314,12 @@
         "departureTime": "14:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92374"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1302_92414",
     "lineId": "fujikyu",
+    "trainId": "92414",
     "trainNumber": "92414レ",
     "trainType": "limitedExp",
     "trainName": "富士山ビュー特急14号",
@@ -5294,135 +4437,12 @@
         "departureTime": "13:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92414"
-  },
-  {
-    "tripId": "WD_INB_FJ-18_1302_92415",
-    "lineId": "fujikyu",
-    "trainNumber": "92415レ",
-    "trainType": "limitedExp",
-    "trainName": "ふじやま14号",
-    "direction": "inbound",
-    "originStationId": "FJ-18",
-    "destinationStationId": "FJ-01",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "13:02:00",
-        "departureTime": "13:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "13:04:00",
-        "departureTime": "13:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "13:07:00",
-        "departureTime": "13:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "13:15:11",
-        "departureTime": "13:15:11",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "13:17:00",
-        "departureTime": "13:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "13:20:04",
-        "departureTime": "13:20:04",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "13:22:08",
-        "departureTime": "13:22:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "13:25:14",
-        "departureTime": "13:25:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "13:28:21",
-        "departureTime": "13:28:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "13:30:56",
-        "departureTime": "13:30:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "13:33:00",
-        "departureTime": "13:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "13:36:16",
-        "departureTime": "13:36:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "13:38:32",
-        "departureTime": "13:38:32",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "13:40:48",
-        "departureTime": "13:40:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "13:43:04",
-        "departureTime": "13:43:04",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "13:45:54",
-        "departureTime": "13:45:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "13:48:44",
-        "departureTime": "13:48:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "13:51:00",
-        "departureTime": "13:51:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92415"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1316_92428",
     "lineId": "fujikyu",
+    "trainId": "92428",
     "trainNumber": "92428レ",
     "trainType": "local",
     "direction": "inbound",
@@ -5539,12 +4559,12 @@
         "departureTime": "14:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92428"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1339_92429",
     "lineId": "fujikyu",
+    "trainId": "92429",
     "trainNumber": "92429レ",
     "trainType": "local",
     "direction": "inbound",
@@ -5661,12 +4681,12 @@
         "departureTime": "14:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92429"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1355_92375",
     "lineId": "fujikyu",
+    "trainId": "92375",
     "trainNumber": "92375レ",
     "trainType": "local",
     "direction": "outbound",
@@ -5783,18 +4803,19 @@
         "departureTime": "14:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92375"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1408_39568",
     "lineId": "fujikyu",
+    "trainId": "39568",
     "trainNumber": "2132M",
     "trainType": "limitedExp",
     "trainName": "富士回遊32号",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "新宿",
     "cars": 3,
     "isHoliday": false,
@@ -5908,14 +4929,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39568",
-    "customOrigin": "河口湖",
     "throughTripId": "cm_WD_INB_JC-32_1507_39443",
     "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_1425_92376",
     "lineId": "fujikyu",
+    "trainId": "92376",
     "trainNumber": "92376レ",
     "trainType": "local",
     "direction": "outbound",
@@ -6032,12 +5052,12 @@
         "departureTime": "15:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92376"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1425_92430",
     "lineId": "fujikyu",
+    "trainId": "92430",
     "trainNumber": "92430レ",
     "trainType": "local",
     "direction": "inbound",
@@ -6154,12 +5174,12 @@
         "departureTime": "15:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92430"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1457_92402",
     "lineId": "fujikyu",
+    "trainId": "92402",
     "trainNumber": "92402レ",
     "trainType": "limitedExp",
     "trainName": "富士山ビュー特急13号",
@@ -6277,141 +5297,19 @@
         "departureTime": "15:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92402"
-  },
-  {
-    "tripId": "WD_OUT_FJ-01_1457_92401",
-    "lineId": "fujikyu",
-    "trainNumber": "92401レ",
-    "trainType": "limitedExp",
-    "trainName": "ふじやま13号",
-    "direction": "outbound",
-    "originStationId": "FJ-01",
-    "destinationStationId": "FJ-18",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "14:57:00",
-        "departureTime": "14:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "14:59:32",
-        "departureTime": "14:59:32",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "15:02:42",
-        "departureTime": "15:02:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "15:05:52",
-        "departureTime": "15:05:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "15:08:24",
-        "departureTime": "15:08:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "15:10:56",
-        "departureTime": "15:10:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "15:13:28",
-        "departureTime": "15:13:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "15:16:00",
-        "departureTime": "15:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "15:19:29",
-        "departureTime": "15:19:29",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "15:22:35",
-        "departureTime": "15:22:35",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "15:26:19",
-        "departureTime": "15:26:19",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "15:30:02",
-        "departureTime": "15:30:02",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "15:32:31",
-        "departureTime": "15:32:31",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "15:35:00",
-        "departureTime": "15:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "15:38:16",
-        "departureTime": "15:38:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "15:41:00",
-        "departureTime": "15:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "15:48:00",
-        "departureTime": "15:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "15:51:00",
-        "departureTime": "15:51:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92401"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1458_39569",
     "lineId": "fujikyu",
+    "trainId": "39569",
     "trainNumber": "2136M",
     "trainType": "limitedExp",
     "trainName": "富士回遊36号",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "新宿",
     "cars": 3,
     "isHoliday": false,
@@ -6525,14 +5423,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39569",
-    "customOrigin": "河口湖",
     "throughTripId": "cm_WD_INB_JC-32_1557_39444",
     "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_1503_92377",
     "lineId": "fujikyu",
+    "trainId": "92377",
     "trainNumber": "92377レ",
     "trainType": "local",
     "direction": "outbound",
@@ -6649,12 +5546,12 @@
         "departureTime": "16:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92377"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1516_92431",
     "lineId": "fujikyu",
+    "trainId": "92431",
     "trainNumber": "92431レ",
     "trainType": "local",
     "direction": "inbound",
@@ -6771,18 +5668,19 @@
         "departureTime": "16:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92431"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1539_39572",
     "lineId": "fujikyu",
+    "trainId": "39572",
     "trainNumber": "8194M",
     "trainType": "limitedExp",
     "trainName": "富士回遊94号",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "新宿",
     "cars": 3,
     "isHoliday": false,
@@ -6896,260 +5794,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39572",
-    "customOrigin": "河口湖",
     "throughTripId": "cm_WD_INB_JC-32_1629_39447",
     "throughLineId": "chuo_main"
   },
   {
-    "tripId": "WD_INB_FJ-18_1539_92417",
-    "lineId": "fujikyu",
-    "trainNumber": "92417レ",
-    "trainType": "limitedExp",
-    "trainName": "ふじやま94号",
-    "direction": "inbound",
-    "originStationId": "FJ-18",
-    "destinationStationId": "FJ-01",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "15:39:00",
-        "departureTime": "15:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "15:41:00",
-        "departureTime": "15:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "15:44:00",
-        "departureTime": "15:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "15:49:44",
-        "departureTime": "15:49:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "15:52:00",
-        "departureTime": "15:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "15:56:04",
-        "departureTime": "15:56:04",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "15:58:08",
-        "departureTime": "15:58:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "16:01:14",
-        "departureTime": "16:01:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "16:04:21",
-        "departureTime": "16:04:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "16:06:56",
-        "departureTime": "16:06:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "16:09:00",
-        "departureTime": "16:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "16:12:24",
-        "departureTime": "16:12:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "16:14:48",
-        "departureTime": "16:14:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "16:17:12",
-        "departureTime": "16:17:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "16:19:36",
-        "departureTime": "16:19:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "16:22:36",
-        "departureTime": "16:22:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "16:25:36",
-        "departureTime": "16:25:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "16:28:00",
-        "departureTime": "16:28:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92417"
-  },
-  {
-    "tripId": "WD_INB_FJ-18_1539_92416",
-    "lineId": "fujikyu",
-    "trainNumber": "92416レ",
-    "trainType": "limitedExp",
-    "trainName": "フジサン特急94号",
-    "direction": "inbound",
-    "originStationId": "FJ-18",
-    "destinationStationId": "FJ-01",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "15:39:00",
-        "departureTime": "15:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "15:41:00",
-        "departureTime": "15:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "15:44:00",
-        "departureTime": "15:47:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "15:49:44",
-        "departureTime": "15:49:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "15:52:00",
-        "departureTime": "15:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "15:56:04",
-        "departureTime": "15:56:04",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "15:58:08",
-        "departureTime": "15:58:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "16:01:14",
-        "departureTime": "16:01:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "16:04:21",
-        "departureTime": "16:04:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "16:06:56",
-        "departureTime": "16:06:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "16:09:00",
-        "departureTime": "16:10:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "16:12:24",
-        "departureTime": "16:12:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "16:14:48",
-        "departureTime": "16:14:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "16:17:12",
-        "departureTime": "16:17:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "16:19:36",
-        "departureTime": "16:19:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "16:22:36",
-        "departureTime": "16:22:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "16:25:36",
-        "departureTime": "16:25:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "16:28:00",
-        "departureTime": "16:28:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92416"
-  },
-  {
     "tripId": "WD_OUT_FJ-01_1550_92378",
     "lineId": "fujikyu",
+    "trainId": "92378",
     "trainNumber": "92378レ",
     "trainType": "local",
     "direction": "outbound",
@@ -7266,12 +5917,12 @@
         "departureTime": "17:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92378"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1556_92432",
     "lineId": "fujikyu",
+    "trainId": "92432",
     "trainNumber": "92432レ",
     "trainType": "local",
     "direction": "inbound",
@@ -7388,12 +6039,12 @@
         "departureTime": "16:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92432"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1628_92433",
     "lineId": "fujikyu",
+    "trainId": "92433",
     "trainNumber": "92433レ",
     "trainType": "local",
     "direction": "inbound",
@@ -7510,12 +6161,12 @@
         "departureTime": "17:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92433"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1629_92379",
     "lineId": "fujikyu",
+    "trainId": "92379",
     "trainNumber": "92379レ",
     "trainType": "local",
     "direction": "outbound",
@@ -7632,18 +6283,19 @@
         "departureTime": "17:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92379"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1648_39574",
     "lineId": "fujikyu",
+    "trainId": "39574",
     "trainNumber": "2144M",
     "trainType": "limitedExp",
     "trainName": "富士回遊44号",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "新宿",
     "cars": 3,
     "isHoliday": false,
@@ -7757,14 +6409,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39574",
-    "customOrigin": "河口湖",
     "throughTripId": "cm_WD_INB_JC-32_1745_39449",
     "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_1656_92380",
     "lineId": "fujikyu",
+    "trainId": "92380",
     "trainNumber": "92380レ",
     "trainType": "local",
     "direction": "outbound",
@@ -7881,12 +6532,12 @@
         "departureTime": "18:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92380"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1706_92435",
     "lineId": "fujikyu",
+    "trainId": "92435",
     "trainNumber": "92435レ",
     "trainType": "local",
     "direction": "inbound",
@@ -8003,12 +6654,12 @@
         "departureTime": "18:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92435"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1720_92436",
     "lineId": "fujikyu",
+    "trainId": "92436",
     "trainNumber": "92436レ",
     "trainType": "local",
     "direction": "inbound",
@@ -8125,12 +6776,12 @@
         "departureTime": "18:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92436"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1740_92403",
     "lineId": "fujikyu",
+    "trainId": "92403",
     "trainNumber": "92403レ",
     "trainType": "limitedExp",
     "trainName": "ふじやま5号",
@@ -8248,141 +6899,19 @@
         "departureTime": "18:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92403"
-  },
-  {
-    "tripId": "WD_OUT_FJ-01_1740_92404",
-    "lineId": "fujikyu",
-    "trainNumber": "92404レ",
-    "trainType": "limitedExp",
-    "trainName": "フジサン特急5号",
-    "direction": "outbound",
-    "originStationId": "FJ-01",
-    "destinationStationId": "FJ-18",
-    "cars": 3,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "17:40:00",
-        "departureTime": "17:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "17:42:24",
-        "departureTime": "17:42:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "17:45:24",
-        "departureTime": "17:45:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "17:48:24",
-        "departureTime": "17:48:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "17:50:48",
-        "departureTime": "17:50:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "17:53:12",
-        "departureTime": "17:53:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "17:55:36",
-        "departureTime": "17:55:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "17:58:00",
-        "departureTime": "17:58:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "18:01:27",
-        "departureTime": "18:01:27",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "18:05:46",
-        "departureTime": "18:05:46",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "18:10:56",
-        "departureTime": "18:10:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "18:16:06",
-        "departureTime": "18:16:06",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "18:19:33",
-        "departureTime": "18:19:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "18:23:00",
-        "departureTime": "18:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "18:26:16",
-        "departureTime": "18:26:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "18:29:00",
-        "departureTime": "18:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "18:34:00",
-        "departureTime": "18:35:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "18:38:00",
-        "departureTime": "18:38:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92404"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1741_39576",
     "lineId": "fujikyu",
+    "trainId": "39576",
     "trainNumber": "2148M",
     "trainType": "limitedExp",
     "trainName": "富士回遊48号",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "新宿",
     "cars": 3,
     "isHoliday": false,
@@ -8496,14 +7025,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39576",
-    "customOrigin": "河口湖",
     "throughTripId": "cm_WD_INB_JC-32_1843_39451",
     "throughLineId": "chuo_main"
   },
   {
     "tripId": "WD_OUT_FJ-01_1747_92381",
     "lineId": "fujikyu",
+    "trainId": "92381",
     "trainNumber": "92381レ",
     "trainType": "local",
     "direction": "outbound",
@@ -8620,12 +7148,12 @@
         "departureTime": "18:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92381"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1752_92437",
     "lineId": "fujikyu",
+    "trainId": "92437",
     "trainNumber": "92437レ",
     "trainType": "local",
     "direction": "inbound",
@@ -8742,12 +7270,12 @@
         "departureTime": "18:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92437"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1825_92439",
     "lineId": "fujikyu",
+    "trainId": "92439",
     "trainNumber": "92439レ",
     "trainType": "local",
     "direction": "inbound",
@@ -8864,12 +7392,12 @@
         "departureTime": "19:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92439"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1838_92382",
     "lineId": "fujikyu",
+    "trainId": "92382",
     "trainNumber": "92382レ",
     "trainType": "local",
     "direction": "outbound",
@@ -8986,12 +7514,12 @@
         "departureTime": "19:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92382"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1905_92440",
     "lineId": "fujikyu",
+    "trainId": "92440",
     "trainNumber": "92440レ",
     "trainType": "local",
     "direction": "inbound",
@@ -9108,12 +7636,12 @@
         "departureTime": "20:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92440"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1909_92384",
     "lineId": "fujikyu",
+    "trainId": "92384",
     "trainNumber": "92384レ",
     "trainType": "local",
     "direction": "outbound",
@@ -9230,12 +7758,12 @@
         "departureTime": "20:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92384"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_1939_92441",
     "lineId": "fujikyu",
+    "trainId": "92441",
     "trainNumber": "92441レ",
     "trainType": "local",
     "direction": "inbound",
@@ -9352,12 +7880,12 @@
         "departureTime": "20:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92441"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_1941_92385",
     "lineId": "fujikyu",
+    "trainId": "92385",
     "trainNumber": "92385レ",
     "trainType": "local",
     "direction": "outbound",
@@ -9474,18 +8002,19 @@
         "departureTime": "20:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92385"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_2009_38920",
     "lineId": "fujikyu",
+    "trainId": "38920",
     "trainNumber": "2825M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "東京",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -9598,12 +8127,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38920",
-    "customDestination": "河口湖"
+    "prevTripId": "cm_WD_OUT_JC-01_1806_38795",
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "WD_INB_FJ-18_2009_92442",
     "lineId": "fujikyu",
+    "trainId": "92442",
     "trainNumber": "92442レ",
     "trainType": "local",
     "direction": "inbound",
@@ -9720,12 +8250,12 @@
         "departureTime": "21:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92442"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_2038_92443",
     "lineId": "fujikyu",
+    "trainId": "92443",
     "trainNumber": "92443レ",
     "trainType": "local",
     "direction": "inbound",
@@ -9842,12 +8372,12 @@
         "departureTime": "21:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92443"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_2049_92386",
     "lineId": "fujikyu",
+    "trainId": "92386",
     "trainNumber": "92386レ",
     "trainType": "local",
     "direction": "outbound",
@@ -9964,18 +8494,19 @@
         "departureTime": "21:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92386"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_2111_38921",
     "lineId": "fujikyu",
+    "trainId": "38921",
     "trainNumber": "2917M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "東京",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -10087,14 +8618,12 @@
         "departureTime": "22:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "38921",
-    "customDestination": "河口湖",
-    "trainName": "かいじ51号"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_2116_92445",
     "lineId": "fujikyu",
+    "trainId": "92445",
     "trainNumber": "92445レ",
     "trainType": "local",
     "direction": "inbound",
@@ -10211,12 +8740,12 @@
         "departureTime": "22:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92445"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_2145_92388",
     "lineId": "fujikyu",
+    "trainId": "92388",
     "trainNumber": "92388レ",
     "trainType": "local",
     "direction": "outbound",
@@ -10333,12 +8862,12 @@
         "departureTime": "22:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92388"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_2205_92389",
     "lineId": "fujikyu",
+    "trainId": "92389",
     "trainNumber": "92389レ",
     "trainType": "local",
     "direction": "outbound",
@@ -10455,12 +8984,12 @@
         "departureTime": "23:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92389"
+    ]
   },
   {
     "tripId": "WD_INB_FJ-18_2210_92447",
     "lineId": "fujikyu",
+    "trainId": "92447",
     "trainNumber": "92447レ",
     "trainType": "local",
     "direction": "inbound",
@@ -10577,12 +9106,12 @@
         "departureTime": "23:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92447"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_2230_92391",
     "lineId": "fujikyu",
+    "trainId": "92391",
     "trainNumber": "92391レ",
     "trainType": "local",
     "direction": "outbound",
@@ -10699,12 +9228,12 @@
         "departureTime": "23:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92391"
+    ]
   },
   {
     "tripId": "WD_OUT_FJ-01_2310_92393",
     "lineId": "fujikyu",
+    "trainId": "92393",
     "trainNumber": "92393レ",
     "trainType": "local",
     "direction": "outbound",
@@ -10821,12 +9350,12 @@
         "departureTime": "00:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92393"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_0518_92418",
     "lineId": "fujikyu",
+    "trainId": "92418",
     "trainNumber": "92418レ",
     "trainType": "local",
     "direction": "inbound",
@@ -10943,17 +9472,18 @@
         "departureTime": "06:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92418"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_0549_39579",
     "lineId": "fujikyu",
+    "trainId": "39579",
     "trainNumber": "2726M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "東京",
     "cars": 3,
     "isHoliday": true,
@@ -11067,17 +9597,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "39579",
-    "customOrigin": "河口湖"
+    "throughTripId": "cm_HD_INB_JC-32_0654_39454",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_FJ-18_0615_39580",
     "lineId": "fujikyu",
+    "trainId": "39580",
     "trainNumber": "2818M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "東京",
     "cars": 3,
     "isHoliday": true,
@@ -11191,12 +9723,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39580",
-    "customOrigin": "河口湖"
+    "throughTripId": "cm_HD_INB_JC-32_0723_39455",
+    "throughLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_0632_92362",
     "lineId": "fujikyu",
+    "trainId": "92362",
     "trainNumber": "92362レ",
     "trainType": "local",
     "direction": "outbound",
@@ -11313,12 +9846,12 @@
         "departureTime": "07:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92362"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_0641_92419",
     "lineId": "fujikyu",
+    "trainId": "92419",
     "trainNumber": "92419レ",
     "trainType": "local",
     "direction": "inbound",
@@ -11435,12 +9968,12 @@
         "departureTime": "07:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92419"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_0700_92420",
     "lineId": "fujikyu",
+    "trainId": "92420",
     "trainNumber": "92420レ",
     "trainType": "local",
     "direction": "inbound",
@@ -11557,12 +10090,12 @@
         "departureTime": "08:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92420"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_0703_92363",
     "lineId": "fujikyu",
+    "trainId": "92363",
     "trainNumber": "92363レ",
     "trainType": "local",
     "direction": "outbound",
@@ -11679,12 +10212,12 @@
         "departureTime": "07:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92363"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_0724_92364",
     "lineId": "fujikyu",
+    "trainId": "92364",
     "trainNumber": "92364レ",
     "trainType": "local",
     "direction": "outbound",
@@ -11801,12 +10334,12 @@
         "departureTime": "08:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92364"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_0732_92421",
     "lineId": "fujikyu",
+    "trainId": "92421",
     "trainNumber": "92421レ",
     "trainType": "local",
     "direction": "inbound",
@@ -11923,12 +10456,12 @@
         "departureTime": "08:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92421"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_0755_92365",
     "lineId": "fujikyu",
+    "trainId": "92365",
     "trainNumber": "92365レ",
     "trainType": "local",
     "direction": "outbound",
@@ -12045,12 +10578,12 @@
         "departureTime": "08:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92365"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_0803_92422",
     "lineId": "fujikyu",
+    "trainId": "92422",
     "trainNumber": "92422レ",
     "trainType": "local",
     "direction": "inbound",
@@ -12167,18 +10700,19 @@
         "departureTime": "09:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92422"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_0819_38245",
     "lineId": "fujikyu",
+    "trainId": "38245",
     "trainNumber": "1455M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "東京",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -12291,14 +10825,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38245",
-    "customDestination": "河口湖",
     "prevTripId": "cm_HD_OUT_JC-24_0724_38120",
     "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_FJ-18_0823_92408",
     "lineId": "fujikyu",
+    "trainId": "92408",
     "trainNumber": "92408レ",
     "trainType": "limitedExp",
     "trainName": "ふじやま2号",
@@ -12416,135 +10949,12 @@
         "departureTime": "09:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92408"
-  },
-  {
-    "tripId": "HD_INB_FJ-18_0823_92407",
-    "lineId": "fujikyu",
-    "trainNumber": "92407レ",
-    "trainType": "limitedExp",
-    "trainName": "フジサン特急2号",
-    "direction": "inbound",
-    "originStationId": "FJ-18",
-    "destinationStationId": "FJ-01",
-    "cars": 3,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "08:23:00",
-        "departureTime": "08:23:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "08:26:00",
-        "departureTime": "08:26:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "08:29:00",
-        "departureTime": "08:31:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "08:33:44",
-        "departureTime": "08:33:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "08:36:00",
-        "departureTime": "08:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "08:38:12",
-        "departureTime": "08:38:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "08:40:25",
-        "departureTime": "08:40:25",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "08:43:43",
-        "departureTime": "08:43:43",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "08:47:02",
-        "departureTime": "08:47:02",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "08:49:48",
-        "departureTime": "08:49:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "08:52:00",
-        "departureTime": "08:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "08:54:24",
-        "departureTime": "08:54:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "08:56:48",
-        "departureTime": "08:56:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "08:59:12",
-        "departureTime": "08:59:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "09:01:36",
-        "departureTime": "09:01:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "09:04:36",
-        "departureTime": "09:04:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "09:07:36",
-        "departureTime": "09:07:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "09:10:00",
-        "departureTime": "09:10:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92407"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_0840_39585",
     "lineId": "fujikyu",
+    "trainId": "39585",
     "trainNumber": "2103M",
     "trainType": "limitedExp",
     "trainName": "富士回遊3号",
@@ -12552,6 +10962,7 @@
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "千葉",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -12664,14 +11075,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39585",
-    "customDestination": "河口湖",
     "prevTripId": "cm_HD_OUT_JC-05_0730_39460",
     "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_0850_92366",
     "lineId": "fujikyu",
+    "trainId": "92366",
     "trainNumber": "92366レ",
     "trainType": "local",
     "direction": "outbound",
@@ -12788,12 +11198,12 @@
         "departureTime": "09:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92366"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_0900_92423",
     "lineId": "fujikyu",
+    "trainId": "92423",
     "trainNumber": "92423レ",
     "trainType": "local",
     "direction": "inbound",
@@ -12910,12 +11320,12 @@
         "departureTime": "09:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92423"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_0916_92410",
     "lineId": "fujikyu",
+    "trainId": "92410",
     "trainNumber": "92410レ",
     "trainType": "limitedExp",
     "trainName": "ふじやま12号",
@@ -13033,140 +11443,19 @@
         "departureTime": "10:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92410"
-  },
-  {
-    "tripId": "HD_INB_FJ-18_0916_92411",
-    "lineId": "fujikyu",
-    "trainNumber": "92411レ",
-    "trainType": "limitedExp",
-    "trainName": "富士山ビュー特急12号",
-    "direction": "inbound",
-    "originStationId": "FJ-18",
-    "destinationStationId": "FJ-01",
-    "cars": 3,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "09:16:00",
-        "departureTime": "09:16:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "09:19:00",
-        "departureTime": "09:19:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "09:22:00",
-        "departureTime": "09:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "09:26:44",
-        "departureTime": "09:26:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "09:29:00",
-        "departureTime": "09:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "09:34:46",
-        "departureTime": "09:34:46",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "09:37:31",
-        "departureTime": "09:37:31",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "09:41:39",
-        "departureTime": "09:41:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "09:45:48",
-        "departureTime": "09:45:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "09:49:14",
-        "departureTime": "09:49:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "09:52:00",
-        "departureTime": "09:53:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "09:56:04",
-        "departureTime": "09:56:04",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "09:59:08",
-        "departureTime": "09:59:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "10:02:12",
-        "departureTime": "10:02:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "10:05:16",
-        "departureTime": "10:05:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "10:09:06",
-        "departureTime": "10:09:06",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "10:12:56",
-        "departureTime": "10:12:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "10:16:00",
-        "departureTime": "10:16:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92411"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_0919_92368",
     "lineId": "fujikyu",
+    "trainId": "92368",
     "trainNumber": "92368レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
+    "customOrigin": "高尾",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -13279,16 +11568,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "92368",
-    "trainName": "富士回遊3号",
-    "customDestination": "河口湖",
-    "customOrigin": "東京",
     "prevTripId": "cm_HD_OUT_JC-24_0824_10030",
     "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_0942_38922",
     "lineId": "fujikyu",
+    "trainId": "38922",
     "trainNumber": "2107M",
     "trainType": "limitedExp",
     "trainName": "富士回遊7号",
@@ -13296,6 +11582,7 @@
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "新宿",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -13408,14 +11695,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38922",
-    "customDestination": "河口湖",
     "prevTripId": "cm_HD_OUT_JC-05_0830_38797",
     "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_0948_92395",
     "lineId": "fujikyu",
+    "trainId": "92395",
     "trainNumber": "92395レ",
     "trainType": "limitedExp",
     "trainName": "ふじやま1号",
@@ -13533,135 +11819,12 @@
         "departureTime": "10:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92395"
-  },
-  {
-    "tripId": "HD_OUT_FJ-01_0948_92394",
-    "lineId": "fujikyu",
-    "trainNumber": "92394レ",
-    "trainType": "limitedExp",
-    "trainName": "フジサン特急1号",
-    "direction": "outbound",
-    "originStationId": "FJ-01",
-    "destinationStationId": "FJ-18",
-    "cars": 3,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "09:48:00",
-        "departureTime": "09:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "09:51:04",
-        "departureTime": "09:51:04",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "09:54:54",
-        "departureTime": "09:54:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "09:58:44",
-        "departureTime": "09:58:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "10:01:48",
-        "departureTime": "10:01:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "10:04:52",
-        "departureTime": "10:04:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "10:07:56",
-        "departureTime": "10:07:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "10:11:00",
-        "departureTime": "10:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "10:13:54",
-        "departureTime": "10:13:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "10:17:31",
-        "departureTime": "10:17:31",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "10:21:52",
-        "departureTime": "10:21:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "10:26:12",
-        "departureTime": "10:26:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "10:29:06",
-        "departureTime": "10:29:06",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "10:32:00",
-        "departureTime": "10:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "10:34:44",
-        "departureTime": "10:34:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "10:38:00",
-        "departureTime": "10:41:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "10:43:00",
-        "departureTime": "10:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "10:46:00",
-        "departureTime": "10:46:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92394"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1000_92424",
     "lineId": "fujikyu",
+    "trainId": "92424",
     "trainNumber": "92424レ",
     "trainType": "local",
     "direction": "inbound",
@@ -13778,12 +11941,12 @@
         "departureTime": "11:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92424"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1003_92369",
     "lineId": "fujikyu",
+    "trainId": "92369",
     "trainNumber": "92369レ",
     "trainType": "local",
     "direction": "outbound",
@@ -13900,12 +12063,12 @@
         "departureTime": "10:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92369"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1020_38925",
     "lineId": "fujikyu",
+    "trainId": "38925",
     "trainNumber": "9181M",
     "trainType": "limitedExp",
     "trainName": "富士回遊81号",
@@ -13913,6 +12076,7 @@
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "新宿",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -14025,14 +12189,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38925",
-    "customDestination": "河口湖",
     "prevTripId": "cm_HD_OUT_JC-05_0902_38800",
     "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_FJ-18_1032_40932",
     "lineId": "fujikyu",
+    "trainId": "40932",
     "trainNumber": "1456M",
     "trainType": "local",
     "direction": "inbound",
@@ -14150,12 +12313,12 @@
         "departureTime": "11:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "40932"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1042_38927",
     "lineId": "fujikyu",
+    "trainId": "38927",
     "trainNumber": "2111M",
     "trainType": "limitedExp",
     "trainName": "富士回遊11号",
@@ -14163,6 +12326,7 @@
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "新宿",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -14275,14 +12439,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38927",
-    "customDestination": "河口湖",
     "prevTripId": "cm_HD_OUT_JC-05_0930_38802",
     "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_1049_92396",
     "lineId": "fujikyu",
+    "trainId": "92396",
     "trainNumber": "92396レ",
     "trainType": "limitedExp",
     "trainName": "富士山ビュー特急11号",
@@ -14400,135 +12563,12 @@
         "departureTime": "11:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92396"
-  },
-  {
-    "tripId": "HD_OUT_FJ-01_1049_92397",
-    "lineId": "fujikyu",
-    "trainNumber": "92397レ",
-    "trainType": "limitedExp",
-    "trainName": "ふじやま11号",
-    "direction": "outbound",
-    "originStationId": "FJ-01",
-    "destinationStationId": "FJ-18",
-    "cars": 3,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "10:49:00",
-        "departureTime": "10:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "10:52:20",
-        "departureTime": "10:52:20",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "10:56:30",
-        "departureTime": "10:56:30",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "11:00:40",
-        "departureTime": "11:00:40",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "11:04:00",
-        "departureTime": "11:04:00",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "11:07:20",
-        "departureTime": "11:07:20",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "11:10:40",
-        "departureTime": "11:10:40",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "11:14:00",
-        "departureTime": "11:14:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "11:16:29",
-        "departureTime": "11:16:29",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "11:19:35",
-        "departureTime": "11:19:35",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "11:23:19",
-        "departureTime": "11:23:19",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "11:27:02",
-        "departureTime": "11:27:02",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "11:29:31",
-        "departureTime": "11:29:31",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "11:32:00",
-        "departureTime": "11:33:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "11:35:16",
-        "departureTime": "11:35:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "11:38:00",
-        "departureTime": "11:40:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "11:42:00",
-        "departureTime": "11:43:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "11:46:00",
-        "departureTime": "11:46:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92397"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1101_92413",
     "lineId": "fujikyu",
+    "trainId": "92413",
     "trainNumber": "92413レ",
     "trainType": "limitedExp",
     "trainName": "ふじやま4号",
@@ -14646,135 +12686,12 @@
         "departureTime": "11:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92413"
-  },
-  {
-    "tripId": "HD_INB_FJ-18_1101_92412",
-    "lineId": "fujikyu",
-    "trainNumber": "92412レ",
-    "trainType": "limitedExp",
-    "trainName": "フジサン特急4号",
-    "direction": "inbound",
-    "originStationId": "FJ-18",
-    "destinationStationId": "FJ-01",
-    "cars": 3,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "11:01:00",
-        "departureTime": "11:01:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "11:04:00",
-        "departureTime": "11:04:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "11:07:00",
-        "departureTime": "11:09:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "11:11:44",
-        "departureTime": "11:11:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "11:14:00",
-        "departureTime": "11:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "11:18:19",
-        "departureTime": "11:18:19",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "11:21:37",
-        "departureTime": "11:21:37",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "11:26:35",
-        "departureTime": "11:26:35",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "11:31:33",
-        "departureTime": "11:31:33",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "11:35:41",
-        "departureTime": "11:35:41",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "11:39:00",
-        "departureTime": "11:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "11:41:08",
-        "departureTime": "11:41:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "11:43:16",
-        "departureTime": "11:43:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "11:45:24",
-        "departureTime": "11:45:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "11:47:32",
-        "departureTime": "11:47:32",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "11:50:12",
-        "departureTime": "11:50:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "11:52:52",
-        "departureTime": "11:52:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "11:55:00",
-        "departureTime": "11:55:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92412"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1106_92370",
     "lineId": "fujikyu",
+    "trainId": "92370",
     "trainNumber": "92370レ",
     "trainType": "local",
     "direction": "outbound",
@@ -14891,12 +12808,12 @@
         "departureTime": "12:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92370"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1116_92425",
     "lineId": "fujikyu",
+    "trainId": "92425",
     "trainNumber": "92425レ",
     "trainType": "local",
     "direction": "inbound",
@@ -15013,12 +12930,12 @@
         "departureTime": "12:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92425"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1136_38931",
     "lineId": "fujikyu",
+    "trainId": "38931",
     "trainNumber": "2115M",
     "trainType": "limitedExp",
     "trainName": "富士回遊15号",
@@ -15026,6 +12943,7 @@
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "新宿",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -15138,14 +13056,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38931",
-    "customDestination": "河口湖",
     "prevTripId": "cm_HD_OUT_JC-05_1030_38805",
     "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_FJ-18_1153_92426",
     "lineId": "fujikyu",
+    "trainId": "92426",
     "trainNumber": "92426レ",
     "trainType": "local",
     "direction": "inbound",
@@ -15262,12 +13179,12 @@
         "departureTime": "12:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92426"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1158_92371",
     "lineId": "fujikyu",
+    "trainId": "92371",
     "trainNumber": "92371レ",
     "trainType": "local",
     "direction": "outbound",
@@ -15384,12 +13301,12 @@
         "departureTime": "12:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92371"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1218_92372",
     "lineId": "fujikyu",
+    "trainId": "92372",
     "trainNumber": "92372レ",
     "trainType": "local",
     "direction": "outbound",
@@ -15506,12 +13423,12 @@
         "departureTime": "13:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92372"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1227_92427",
     "lineId": "fujikyu",
+    "trainId": "92427",
     "trainNumber": "92427レ",
     "trainType": "local",
     "direction": "inbound",
@@ -15628,12 +13545,12 @@
         "departureTime": "13:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92427"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1242_92399",
     "lineId": "fujikyu",
+    "trainId": "92399",
     "trainNumber": "92399レ",
     "trainType": "limitedExp",
     "trainName": "ふじやま93号",
@@ -15751,146 +13668,25 @@
         "departureTime": "13:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92399"
-  },
-  {
-    "tripId": "HD_OUT_FJ-01_1242_92400",
-    "lineId": "fujikyu",
-    "trainNumber": "92400レ",
-    "trainType": "limitedExp",
-    "trainName": "フジサン特急3号",
-    "direction": "outbound",
-    "originStationId": "FJ-01",
-    "destinationStationId": "FJ-18",
-    "cars": 3,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "12:42:00",
-        "departureTime": "12:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "12:44:24",
-        "departureTime": "12:44:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "12:47:24",
-        "departureTime": "12:47:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "12:50:24",
-        "departureTime": "12:50:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "12:52:48",
-        "departureTime": "12:52:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "12:55:12",
-        "departureTime": "12:55:12",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "12:57:36",
-        "departureTime": "12:57:36",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "13:00:00",
-        "departureTime": "13:00:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "13:02:21",
-        "departureTime": "13:02:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "13:05:17",
-        "departureTime": "13:05:17",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "13:08:48",
-        "departureTime": "13:08:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "13:12:19",
-        "departureTime": "13:12:19",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "13:14:39",
-        "departureTime": "13:14:39",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "13:17:00",
-        "departureTime": "13:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "13:20:16",
-        "departureTime": "13:20:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "13:23:00",
-        "departureTime": "13:25:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "13:28:00",
-        "departureTime": "13:28:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "13:31:00",
-        "departureTime": "13:31:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92400"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1301_92374",
     "lineId": "fujikyu",
+    "trainId": "92374",
     "trainNumber": "92374レ",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
+    "customOrigin": "東京",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": true,
     "stops": [
       {
         "stationId": "FJ-01",
-        "arrivalTime": "13:01:00",
+        "arrivalTime": "12:55:00",
         "departureTime": "13:01:00",
         "isPassing": false
       },
@@ -15997,11 +13793,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "92374"
+    "prevTripId": "cm_HD_OUT_JC-01_1121_28387",
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_FJ-18_1302_92414",
     "lineId": "fujikyu",
+    "trainId": "92414",
     "trainNumber": "92414レ",
     "trainType": "limitedExp",
     "trainName": "富士山ビュー特急14号",
@@ -16119,135 +13917,12 @@
         "departureTime": "13:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92414"
-  },
-  {
-    "tripId": "HD_INB_FJ-18_1302_92415",
-    "lineId": "fujikyu",
-    "trainNumber": "92415レ",
-    "trainType": "limitedExp",
-    "trainName": "ふじやま14号",
-    "direction": "inbound",
-    "originStationId": "FJ-18",
-    "destinationStationId": "FJ-01",
-    "cars": 3,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "13:02:00",
-        "departureTime": "13:02:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "13:04:00",
-        "departureTime": "13:05:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "13:07:00",
-        "departureTime": "13:13:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "13:15:11",
-        "departureTime": "13:15:11",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "13:17:00",
-        "departureTime": "13:18:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "13:20:04",
-        "departureTime": "13:20:04",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "13:22:08",
-        "departureTime": "13:22:08",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "13:25:14",
-        "departureTime": "13:25:14",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "13:28:21",
-        "departureTime": "13:28:21",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "13:30:56",
-        "departureTime": "13:30:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "13:33:00",
-        "departureTime": "13:34:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "13:36:16",
-        "departureTime": "13:36:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "13:38:32",
-        "departureTime": "13:38:32",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "13:40:48",
-        "departureTime": "13:40:48",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "13:43:04",
-        "departureTime": "13:43:04",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "13:45:54",
-        "departureTime": "13:45:54",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "13:48:44",
-        "departureTime": "13:48:44",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "13:51:00",
-        "departureTime": "13:51:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92415"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1316_92428",
     "lineId": "fujikyu",
+    "trainId": "92428",
     "trainNumber": "92428レ",
     "trainType": "local",
     "direction": "inbound",
@@ -16364,12 +14039,12 @@
         "departureTime": "14:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92428"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1339_92429",
     "lineId": "fujikyu",
+    "trainId": "92429",
     "trainNumber": "92429レ",
     "trainType": "local",
     "direction": "inbound",
@@ -16486,12 +14161,12 @@
         "departureTime": "14:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92429"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1355_92375",
     "lineId": "fujikyu",
+    "trainId": "92375",
     "trainNumber": "92375レ",
     "trainType": "local",
     "direction": "outbound",
@@ -16608,18 +14283,19 @@
         "departureTime": "14:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92375"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1408_39566",
     "lineId": "fujikyu",
+    "trainId": "39566",
     "trainNumber": "2132M",
     "trainType": "limitedExp",
     "trainName": "富士回遊32号",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "新宿",
     "cars": 3,
     "isHoliday": true,
@@ -16733,14 +14409,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39566",
-    "customOrigin": "河口湖",
     "throughTripId": "cm_HD_INB_JC-32_1507_39442",
     "throughLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_1425_92376",
     "lineId": "fujikyu",
+    "trainId": "92376",
     "trainNumber": "92376レ",
     "trainType": "local",
     "direction": "outbound",
@@ -16857,12 +14532,12 @@
         "departureTime": "15:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92376"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1425_92430",
     "lineId": "fujikyu",
+    "trainId": "92430",
     "trainNumber": "92430レ",
     "trainType": "local",
     "direction": "inbound",
@@ -16979,12 +14654,12 @@
         "departureTime": "15:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92430"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1457_92402",
     "lineId": "fujikyu",
+    "trainId": "92402",
     "trainNumber": "92402レ",
     "trainType": "limitedExp",
     "trainName": "富士山ビュー特急13号",
@@ -17102,141 +14777,19 @@
         "departureTime": "15:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92402"
-  },
-  {
-    "tripId": "HD_OUT_FJ-01_1457_92401",
-    "lineId": "fujikyu",
-    "trainNumber": "92401レ",
-    "trainType": "limitedExp",
-    "trainName": "ふじやま13号",
-    "direction": "outbound",
-    "originStationId": "FJ-01",
-    "destinationStationId": "FJ-18",
-    "cars": 3,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "FJ-01",
-        "arrivalTime": "14:57:00",
-        "departureTime": "14:57:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-02",
-        "arrivalTime": "14:59:32",
-        "departureTime": "14:59:32",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-03",
-        "arrivalTime": "15:02:42",
-        "departureTime": "15:02:42",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-04",
-        "arrivalTime": "15:05:52",
-        "departureTime": "15:05:52",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-05",
-        "arrivalTime": "15:08:24",
-        "departureTime": "15:08:24",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-06",
-        "arrivalTime": "15:10:56",
-        "departureTime": "15:10:56",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-07",
-        "arrivalTime": "15:13:28",
-        "departureTime": "15:13:28",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-08",
-        "arrivalTime": "15:16:00",
-        "departureTime": "15:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-09",
-        "arrivalTime": "15:19:29",
-        "departureTime": "15:19:29",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-10",
-        "arrivalTime": "15:22:35",
-        "departureTime": "15:22:35",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-11",
-        "arrivalTime": "15:26:19",
-        "departureTime": "15:26:19",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-12",
-        "arrivalTime": "15:30:02",
-        "departureTime": "15:30:02",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-13",
-        "arrivalTime": "15:32:31",
-        "departureTime": "15:32:31",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-14",
-        "arrivalTime": "15:35:00",
-        "departureTime": "15:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-15",
-        "arrivalTime": "15:38:16",
-        "departureTime": "15:38:16",
-        "isPassing": true
-      },
-      {
-        "stationId": "FJ-16",
-        "arrivalTime": "15:41:00",
-        "departureTime": "15:45:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-17",
-        "arrivalTime": "15:48:00",
-        "departureTime": "15:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "FJ-18",
-        "arrivalTime": "15:51:00",
-        "departureTime": "15:51:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "92401"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1458_39571",
     "lineId": "fujikyu",
+    "trainId": "39571",
     "trainNumber": "2136M",
     "trainType": "limitedExp",
     "trainName": "富士回遊36号",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "新宿",
     "cars": 3,
     "isHoliday": true,
@@ -17350,14 +14903,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39571",
-    "customOrigin": "河口湖",
     "throughTripId": "cm_HD_INB_JC-32_1557_39445",
     "throughLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_1503_92377",
     "lineId": "fujikyu",
+    "trainId": "92377",
     "trainNumber": "92377レ",
     "trainType": "local",
     "direction": "outbound",
@@ -17474,12 +15026,12 @@
         "departureTime": "16:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92377"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1516_92431",
     "lineId": "fujikyu",
+    "trainId": "92431",
     "trainNumber": "92431レ",
     "trainType": "local",
     "direction": "inbound",
@@ -17596,12 +15148,12 @@
         "departureTime": "16:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92431"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1539_92417",
     "lineId": "fujikyu",
+    "trainId": "92417",
     "trainNumber": "92417レ",
     "trainType": "limitedExp",
     "trainName": "ふじやま94号",
@@ -17719,12 +15271,12 @@
         "departureTime": "16:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92417"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1550_92378",
     "lineId": "fujikyu",
+    "trainId": "92378",
     "trainNumber": "92378レ",
     "trainType": "local",
     "direction": "outbound",
@@ -17841,12 +15393,12 @@
         "departureTime": "17:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92378"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1556_92432",
     "lineId": "fujikyu",
+    "trainId": "92432",
     "trainNumber": "92432レ",
     "trainType": "local",
     "direction": "inbound",
@@ -17963,18 +15515,19 @@
         "departureTime": "16:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92432"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1612_39573",
     "lineId": "fujikyu",
+    "trainId": "39573",
     "trainNumber": "9178M",
     "trainType": "limitedExp",
     "trainName": "富士回遊78号",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "新宿",
     "cars": 3,
     "isHoliday": true,
@@ -18088,14 +15641,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39573",
-    "customOrigin": "河口湖",
     "throughTripId": "cm_HD_INB_JC-32_1723_39448",
     "throughLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_FJ-18_1628_92434",
     "lineId": "fujikyu",
+    "trainId": "92434",
     "trainNumber": "92434レ",
     "trainType": "local",
     "direction": "inbound",
@@ -18212,12 +15764,12 @@
         "departureTime": "17:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92434"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1629_92379",
     "lineId": "fujikyu",
+    "trainId": "92379",
     "trainNumber": "92379レ",
     "trainType": "local",
     "direction": "outbound",
@@ -18334,18 +15886,19 @@
         "departureTime": "17:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92379"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1648_39575",
     "lineId": "fujikyu",
+    "trainId": "39575",
     "trainNumber": "2144M",
     "trainType": "limitedExp",
     "trainName": "富士回遊44号",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "新宿",
     "cars": 3,
     "isHoliday": true,
@@ -18459,14 +16012,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39575",
-    "customOrigin": "河口湖",
     "throughTripId": "cm_HD_INB_JC-32_1745_39450",
     "throughLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_1656_92380",
     "lineId": "fujikyu",
+    "trainId": "92380",
     "trainNumber": "92380レ",
     "trainType": "local",
     "direction": "outbound",
@@ -18583,12 +16135,12 @@
         "departureTime": "18:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92380"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1706_92435",
     "lineId": "fujikyu",
+    "trainId": "92435",
     "trainNumber": "92435レ",
     "trainType": "local",
     "direction": "inbound",
@@ -18705,12 +16257,12 @@
         "departureTime": "18:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92435"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1720_92436",
     "lineId": "fujikyu",
+    "trainId": "92436",
     "trainNumber": "92436レ",
     "trainType": "local",
     "direction": "inbound",
@@ -18827,12 +16379,12 @@
         "departureTime": "18:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92436"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1740_92403",
     "lineId": "fujikyu",
+    "trainId": "92403",
     "trainNumber": "92403レ",
     "trainType": "limitedExp",
     "trainName": "ふじやま5号",
@@ -18950,18 +16502,19 @@
         "departureTime": "18:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92403"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1741_39577",
     "lineId": "fujikyu",
+    "trainId": "39577",
     "trainNumber": "2148M",
     "trainType": "limitedExp",
     "trainName": "富士回遊48号",
     "direction": "inbound",
     "originStationId": "FJ-18",
     "destinationStationId": "FJ-01",
+    "customOrigin": "河口湖",
     "customDestination": "新宿",
     "cars": 3,
     "isHoliday": true,
@@ -19075,14 +16628,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "39577",
-    "customOrigin": "河口湖",
     "throughTripId": "cm_HD_INB_JC-32_1843_39453",
     "throughLineId": "chuo_main"
   },
   {
     "tripId": "HD_OUT_FJ-01_1747_92381",
     "lineId": "fujikyu",
+    "trainId": "92381",
     "trainNumber": "92381レ",
     "trainType": "local",
     "direction": "outbound",
@@ -19199,12 +16751,12 @@
         "departureTime": "18:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92381"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1752_92437",
     "lineId": "fujikyu",
+    "trainId": "92437",
     "trainNumber": "92437レ",
     "trainType": "local",
     "direction": "inbound",
@@ -19321,12 +16873,12 @@
         "departureTime": "18:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92437"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1825_92438",
     "lineId": "fujikyu",
+    "trainId": "92438",
     "trainNumber": "92438レ",
     "trainType": "local",
     "direction": "inbound",
@@ -19443,12 +16995,12 @@
         "departureTime": "19:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92438"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1838_92382",
     "lineId": "fujikyu",
+    "trainId": "92382",
     "trainNumber": "92382レ",
     "trainType": "local",
     "direction": "outbound",
@@ -19565,12 +17117,12 @@
         "departureTime": "19:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92382"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1905_92440",
     "lineId": "fujikyu",
+    "trainId": "92440",
     "trainNumber": "92440レ",
     "trainType": "local",
     "direction": "inbound",
@@ -19687,12 +17239,12 @@
         "departureTime": "20:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92440"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1906_92383",
     "lineId": "fujikyu",
+    "trainId": "92383",
     "trainNumber": "92383レ",
     "trainType": "local",
     "direction": "outbound",
@@ -19809,12 +17361,12 @@
         "departureTime": "20:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92383"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_1939_92441",
     "lineId": "fujikyu",
+    "trainId": "92441",
     "trainNumber": "92441レ",
     "trainType": "local",
     "direction": "inbound",
@@ -19931,12 +17483,12 @@
         "departureTime": "20:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92441"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_1941_92385",
     "lineId": "fujikyu",
+    "trainId": "92385",
     "trainNumber": "92385レ",
     "trainType": "local",
     "direction": "outbound",
@@ -20053,18 +17605,19 @@
         "departureTime": "20:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92385"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_2009_38918",
     "lineId": "fujikyu",
+    "trainId": "38918",
     "trainNumber": "2825M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "東京",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -20177,12 +17730,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38918",
-    "customDestination": "河口湖"
+    "prevTripId": "cm_HD_OUT_JC-01_1821_38793",
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_FJ-18_2009_92442",
     "lineId": "fujikyu",
+    "trainId": "92442",
     "trainNumber": "92442レ",
     "trainType": "local",
     "direction": "inbound",
@@ -20299,12 +17853,12 @@
         "departureTime": "21:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92442"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_2038_92443",
     "lineId": "fujikyu",
+    "trainId": "92443",
     "trainNumber": "92443レ",
     "trainType": "local",
     "direction": "inbound",
@@ -20421,12 +17975,12 @@
         "departureTime": "21:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92443"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_2049_92386",
     "lineId": "fujikyu",
+    "trainId": "92386",
     "trainNumber": "92386レ",
     "trainType": "local",
     "direction": "outbound",
@@ -20543,18 +18097,19 @@
         "departureTime": "21:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92386"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_2111_38919",
     "lineId": "fujikyu",
+    "trainId": "38919",
     "trainNumber": "2917M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "FJ-01",
     "destinationStationId": "FJ-18",
     "customOrigin": "東京",
+    "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -20667,12 +18222,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "38919",
-    "customDestination": "河口湖"
+    "prevTripId": "cm_HD_OUT_JC-01_1909_38794",
+    "prevLineId": "chuo_main"
   },
   {
     "tripId": "HD_INB_FJ-18_2116_92445",
     "lineId": "fujikyu",
+    "trainId": "92445",
     "trainNumber": "92445レ",
     "trainType": "local",
     "direction": "inbound",
@@ -20789,12 +18345,12 @@
         "departureTime": "22:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92445"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_2145_92388",
     "lineId": "fujikyu",
+    "trainId": "92388",
     "trainNumber": "92388レ",
     "trainType": "local",
     "direction": "outbound",
@@ -20911,12 +18467,12 @@
         "departureTime": "22:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92388"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_2205_92389",
     "lineId": "fujikyu",
+    "trainId": "92389",
     "trainNumber": "92389レ",
     "trainType": "local",
     "direction": "outbound",
@@ -21033,12 +18589,12 @@
         "departureTime": "23:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92389"
+    ]
   },
   {
     "tripId": "HD_INB_FJ-18_2210_92447",
     "lineId": "fujikyu",
+    "trainId": "92447",
     "trainNumber": "92447レ",
     "trainType": "local",
     "direction": "inbound",
@@ -21155,12 +18711,12 @@
         "departureTime": "23:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92447"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_2230_92391",
     "lineId": "fujikyu",
+    "trainId": "92391",
     "trainNumber": "92391レ",
     "trainType": "local",
     "direction": "outbound",
@@ -21277,12 +18833,12 @@
         "departureTime": "23:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92391"
+    ]
   },
   {
     "tripId": "HD_OUT_FJ-01_2310_92393",
     "lineId": "fujikyu",
+    "trainId": "92393",
     "trainNumber": "92393レ",
     "trainType": "local",
     "direction": "outbound",
@@ -21399,7 +18955,6 @@
         "departureTime": "00:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "92393"
+    ]
   }
 ]
