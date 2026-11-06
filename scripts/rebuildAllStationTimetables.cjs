@@ -5,30 +5,13 @@
 const fs = require('fs');
 const path = require('path');
 const YahooTimetableBuilder = require('./common/yahoo/YahooTimetableBuilder.cjs');
-
-function safeWriteJson(filePath, data) {
-  const dir = path.dirname(filePath);
-  fs.mkdirSync(dir, { recursive: true });
-  const content = JSON.stringify(data, null, 2);
-  let attempts = 0;
-  while (attempts < 5) {
-    try {
-      fs.writeFileSync(filePath, content, 'utf8');
-      return;
-    } catch (e) {
-      attempts++;
-      if (attempts >= 5) throw e;
-      const start = Date.now();
-      while (Date.now() - start < 100) {}
-    }
-  }
-}
+const { safeReadJson, safeWriteJson } = require('./common/timetableUtils.cjs');
 
 function rebuildAllStationTimetables() {
   console.log('=== 🚉 全路線の駅時刻表 (stationTimetables.json) 再集約開始 ===\n');
 
   const linesDir = path.resolve('scripts/lines');
-  const lineFolders = fs.readdirSync(linesDir).filter(f => fs.statSync(path.join(linesDir, f)).isDirectory());
+  const lineFolders = fs.readdirSync(linesDir).filter((f) => fs.statSync(path.join(linesDir, f)).isDirectory());
 
   let totalLines = 0;
   let totalDepartures = 0;
@@ -49,7 +32,7 @@ function rebuildAllStationTimetables() {
     }
 
     try {
-      const trips = JSON.parse(fs.readFileSync(gtPath, 'utf8'));
+      const trips = safeReadJson(gtPath);
       const builder = new YahooTimetableBuilder(config);
       const stationTimetables = builder.buildStationTimetablesFromTrips(trips);
 
@@ -57,12 +40,13 @@ function rebuildAllStationTimetables() {
       for (const day of ['weekday', 'holiday']) {
         if (stationTimetables[day]) {
           for (const stId of Object.keys(stationTimetables[day])) {
-            depCount += (stationTimetables[day][stId]?.inbound?.length || 0);
-            depCount += (stationTimetables[day][stId]?.outbound?.length || 0);
+            depCount += stationTimetables[day][stId]?.inbound?.length || 0;
+            depCount += stationTimetables[day][stId]?.outbound?.length || 0;
           }
         }
       }
 
+      fs.mkdirSync(path.dirname(stPath), { recursive: true });
       safeWriteJson(stPath, stationTimetables);
       console.log(`✅ [StationTimetable] ${config.name.padEnd(16)} (${lineId.padEnd(20)}): ${trips.length} 本のトリップから ${depCount} 便の発車標データを生成`);
       totalLines++;
