@@ -2,6 +2,7 @@
   {
     "tripId": "WD_INB_OSO-17_0538_9129",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9129",
     "trainNumber": "424M",
     "trainType": "regular",
     "direction": "inbound",
@@ -70,17 +71,18 @@
         "departureTime": "06:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9129"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-17_0558_7970",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7970",
     "trainNumber": "423M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-17",
     "destinationStationId": "OSO-20",
+    "customOrigin": "横手",
     "customDestination": "追分",
     "cars": 2,
     "isHoliday": false,
@@ -110,14 +112,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7970",
-    "customOrigin": "横手",
     "throughTripId": "WD_OUT_OOA-01_0616_7970",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-09_0615_9123",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9123",
     "trainNumber": "2424D",
     "trainType": "regular",
     "direction": "inbound",
@@ -180,17 +181,18 @@
         "departureTime": "07:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9123"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-17_0625_7964",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7964",
     "trainNumber": "425M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-17",
     "destinationStationId": "OSO-20",
+    "customOrigin": "横手",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -220,14 +222,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7964",
-    "customOrigin": "横手",
     "throughTripId": "WD_OUT_OOA-01_0644_7964",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-17_0628_9130",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9130",
     "trainNumber": "426M",
     "trainType": "regular",
     "direction": "inbound",
@@ -296,17 +297,18 @@
         "departureTime": "07:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9130"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-08_0632_7973",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7973",
     "trainNumber": "429M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -390,19 +392,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "7973",
-    "customOrigin": "院内",
     "throughTripId": "WD_OUT_OOA-01_0734_7973",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-12_0632_7952",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7952",
     "trainNumber": "3427M",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "OSO-12",
     "destinationStationId": "OSO-20",
+    "customOrigin": "湯沢",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -462,20 +464,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7952",
-    "customOrigin": "湯沢",
     "throughTripId": "WD_OUT_OOA-01_0710_7952",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_0644_9070",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9070",
     "trainNumber": "2428D",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-01",
     "customOrigin": "秋田",
+    "customDestination": "新庄",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -600,20 +602,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "9070",
-    "customDestination": "新庄",
     "prevTripId": "WD_INB_OOA-09_0549_9070",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_0710_9042",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9042",
     "trainNumber": "430M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -672,14 +674,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9042",
-    "customDestination": "湯沢",
     "prevTripId": "WD_INB_OOA-09_0617_9042",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-01_0713_7943",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7943",
     "trainNumber": "621D",
     "trainType": "regular",
     "direction": "outbound",
@@ -712,17 +713,18 @@
         "departureTime": "07:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7943"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-08_0716_7974",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7974",
     "trainNumber": "431M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -806,20 +808,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7974",
-    "customOrigin": "院内",
     "throughTripId": "WD_OUT_OOA-01_0814_7974",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_0735_9036",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9036",
     "trainNumber": "432M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-17",
     "customOrigin": "秋田",
+    "customDestination": "横手",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -848,14 +850,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9036",
-    "customDestination": "横手",
     "prevTripId": "WD_INB_OOA-09_0643_9036",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-04_0740_9121",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9121",
     "trainNumber": "622D",
     "trainType": "regular",
     "direction": "inbound",
@@ -888,12 +889,12 @@
         "departureTime": "07:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9121"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-01_0748_7945",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7945",
     "trainNumber": "2433D",
     "trainType": "regular",
     "direction": "outbound",
@@ -956,17 +957,18 @@
         "departureTime": "08:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7945"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-08_0843_7975",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7975",
     "trainNumber": "433M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -1050,14 +1052,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7975",
-    "customOrigin": "院内",
     "throughTripId": "WD_OUT_OOA-01_0941_7975",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_0903_9059",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9059",
     "trainNumber": "436M",
     "trainType": "regular",
     "direction": "inbound",
@@ -1145,18 +1146,19 @@
         "departureTime": "10:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9059"
+    ]
   },
   {
     "tripId": "WD_INB_OSO-20_0903_9043",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9043",
     "trainNumber": "436M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -1215,19 +1217,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "9043",
-    "customDestination": "湯沢",
     "prevTripId": "WD_INB_OOA-09_0809_9043",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-12_0934_7954",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7954",
     "trainNumber": "435M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-12",
     "destinationStationId": "OSO-20",
+    "customOrigin": "湯沢",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -1287,14 +1289,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7954",
-    "customOrigin": "湯沢",
     "throughTripId": "WD_OUT_OOA-01_1024_7954",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-09_1002_9124",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9124",
     "trainNumber": "2436D",
     "trainType": "regular",
     "direction": "inbound",
@@ -1357,18 +1358,19 @@
         "departureTime": "10:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9124"
+    ]
   },
   {
     "tripId": "WD_INB_OSO-20_1016_9044",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9044",
     "trainNumber": "440M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -1427,14 +1429,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9044",
-    "customDestination": "湯沢",
     "prevTripId": "WD_INB_OOA-09_0912_9044",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_1016_9037",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9037",
     "trainNumber": "440M",
     "trainType": "regular",
     "direction": "inbound",
@@ -1468,17 +1469,18 @@
         "departureTime": "10:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9037"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-17_1054_7965",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7965",
     "trainNumber": "437M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-17",
     "destinationStationId": "OSO-20",
+    "customOrigin": "横手",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -1508,14 +1510,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7965",
-    "customOrigin": "横手",
     "throughTripId": "WD_OUT_OOA-01_1114_7965",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_1114_9060",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9060",
     "trainNumber": "442M",
     "trainType": "regular",
     "direction": "inbound",
@@ -1603,18 +1604,19 @@
         "departureTime": "12:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9060"
+    ]
   },
   {
     "tripId": "WD_INB_OSO-20_1114_9046",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9046",
     "trainNumber": "442M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -1673,14 +1675,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9046",
-    "customDestination": "湯沢",
     "prevTripId": "WD_INB_OOA-09_1016_9046",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_1114_9038",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9038",
     "trainNumber": "442M",
     "trainType": "regular",
     "direction": "inbound",
@@ -1714,12 +1715,12 @@
         "departureTime": "11:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9038"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-01_1118_7947",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7947",
     "trainNumber": "2441D",
     "trainType": "regular",
     "direction": "outbound",
@@ -1782,17 +1783,18 @@
         "departureTime": "12:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7947"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-12_1121_7956",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7956",
     "trainNumber": "439M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-12",
     "destinationStationId": "OSO-20",
+    "customOrigin": "湯沢",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -1852,14 +1854,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7956",
-    "customOrigin": "湯沢",
     "throughTripId": "WD_OUT_OOA-01_1212_7966",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-17_1147_7966",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7966",
     "trainNumber": "439M",
     "trainType": "regular",
     "direction": "outbound",
@@ -1893,17 +1894,18 @@
         "departureTime": "12:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7966"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-08_1211_7976",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7976",
     "trainNumber": "441M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -1987,14 +1989,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7976",
-    "customOrigin": "院内",
     "throughTripId": "WD_OUT_OOA-01_1318_7967",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-09_1221_9122",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9122",
     "trainNumber": "3442D",
     "trainType": "rapid",
     "direction": "inbound",
@@ -2057,12 +2058,12 @@
         "departureTime": "13:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9122"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-12_1231_7957",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7957",
     "trainNumber": "441M",
     "trainType": "regular",
     "direction": "outbound",
@@ -2126,18 +2127,19 @@
         "departureTime": "13:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7957"
+    ]
   },
   {
     "tripId": "WD_INB_OSO-20_1251_9047",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9047",
     "trainNumber": "444M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -2196,14 +2198,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9047",
-    "customDestination": "湯沢",
     "prevTripId": "WD_INB_OOA-09_1149_9047",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_1251_9039",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9039",
     "trainNumber": "444M",
     "trainType": "regular",
     "direction": "inbound",
@@ -2237,12 +2238,12 @@
         "departureTime": "13:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9039"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-17_1256_7967",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7967",
     "trainNumber": "441M",
     "trainType": "regular",
     "direction": "outbound",
@@ -2276,12 +2277,12 @@
         "departureTime": "13:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7967"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-01_1336_7941",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7941",
     "trainNumber": "3445D",
     "trainType": "rapid",
     "direction": "outbound",
@@ -2344,18 +2345,19 @@
         "departureTime": "14:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7941"
+    ]
   },
   {
     "tripId": "WD_INB_OSO-20_1344_9040",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9040",
     "trainNumber": "446M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-17",
     "customOrigin": "秋田",
+    "customDestination": "横手",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -2384,19 +2386,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "9040",
-    "customDestination": "横手",
     "prevTripId": "WD_INB_OOA-09_1239_9040",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-17_1420_7968",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7968",
     "trainNumber": "443M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-17",
     "destinationStationId": "OSO-20",
+    "customOrigin": "横手",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -2426,19 +2428,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "7968",
-    "customOrigin": "横手",
     "throughTripId": "WD_OUT_OOA-01_1445_7968",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-08_1425_7978",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7978",
     "trainNumber": "445M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -2522,20 +2524,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7978",
-    "customOrigin": "院内",
     "throughTripId": "WD_OUT_OOA-01_1522_7958",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_1442_9061",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9061",
     "trainNumber": "448M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-08",
     "customOrigin": "秋田",
+    "customDestination": "院内",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -2618,14 +2620,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9061",
-    "customDestination": "院内",
     "prevTripId": "WD_INB_OOA-09_1345_9061",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-12_1442_7958",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7958",
     "trainNumber": "445M",
     "trainType": "regular",
     "direction": "outbound",
@@ -2689,12 +2690,12 @@
         "departureTime": "15:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7958"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-01_1536_7942",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7942",
     "trainNumber": "3449D",
     "trainType": "rapid",
     "direction": "outbound",
@@ -2757,17 +2758,18 @@
         "departureTime": "16:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7942"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-12_1540_7959",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7959",
     "trainNumber": "447M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-12",
     "destinationStationId": "OSO-20",
+    "customOrigin": "湯沢",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -2827,20 +2829,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7959",
-    "customOrigin": "湯沢",
     "throughTripId": "WD_OUT_OOA-01_1622_7959",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_1542_9048",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9048",
     "trainNumber": "450M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -2899,14 +2901,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9048",
-    "customDestination": "湯沢",
     "prevTripId": "WD_INB_OOA-09_1445_9048",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-09_1551_9126",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9126",
     "trainNumber": "2448D",
     "trainType": "regular",
     "direction": "inbound",
@@ -2969,17 +2970,18 @@
         "departureTime": "16:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9126"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-08_1622_7979",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7979",
     "trainNumber": "449M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -3063,20 +3065,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7979",
-    "customOrigin": "院内",
     "throughTripId": "WD_OUT_OOA-01_1722_7979",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_1642_9062",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9062",
     "trainNumber": "452M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-08",
     "customOrigin": "秋田",
+    "customDestination": "院内",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -3159,14 +3161,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9062",
-    "customDestination": "院内",
     "prevTripId": "WD_INB_OOA-09_1545_9062",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-01_1716_7948",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7948",
     "trainNumber": "2453D",
     "trainType": "regular",
     "direction": "outbound",
@@ -3229,12 +3230,12 @@
         "departureTime": "18:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7948"
+    ]
   },
   {
     "tripId": "WD_INB_OSO-09_1740_9127",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9127",
     "trainNumber": "2452D",
     "trainType": "regular",
     "direction": "inbound",
@@ -3297,17 +3298,18 @@
         "departureTime": "18:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9127"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-12_1740_7960",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7960",
     "trainNumber": "451M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-12",
     "destinationStationId": "OSO-20",
+    "customOrigin": "湯沢",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -3367,20 +3369,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7960",
-    "customOrigin": "湯沢",
     "throughTripId": "WD_OUT_OOA-01_1825_7960",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_1746_9063",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9063",
     "trainNumber": "454M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-08",
     "customOrigin": "秋田",
+    "customDestination": "院内",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -3463,19 +3465,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "9063",
-    "customDestination": "院内",
     "prevTripId": "WD_INB_OOA-09_1645_9063",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-08_1821_7980",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7980",
     "trainNumber": "453M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -3559,14 +3561,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7980",
-    "customOrigin": "院内",
     "throughTripId": "WD_OUT_OOA-01_1922_7980",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-09_1856_9128",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9128",
     "trainNumber": "2454D",
     "trainType": "regular",
     "direction": "inbound",
@@ -3629,18 +3630,19 @@
         "departureTime": "19:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9128"
+    ]
   },
   {
     "tripId": "WD_INB_OSO-20_1856_9065",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9065",
     "trainNumber": "456M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-08",
     "customOrigin": "秋田",
+    "customDestination": "院内",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -3723,14 +3725,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9065",
-    "customDestination": "院内",
     "prevTripId": "WD_INB_OOA-09_1745_9065",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-01_1917_7944",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7944",
     "trainNumber": "623D",
     "trainType": "regular",
     "direction": "outbound",
@@ -3763,17 +3764,18 @@
         "departureTime": "19:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7944"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-08_1917_7983",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7983",
     "trainNumber": "455M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -3857,20 +3859,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7983",
-    "customOrigin": "院内",
     "throughTripId": "WD_OUT_OOA-01_2022_7983",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_1946_9051",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9051",
     "trainNumber": "458M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -3929,14 +3931,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9051",
-    "customDestination": "湯沢",
     "prevTripId": "WD_INB_OOA-09_1845_9051",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_1955_9053",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9053",
     "trainNumber": "458M",
     "trainType": "regular",
     "direction": "inbound",
@@ -4000,17 +4001,18 @@
         "departureTime": "20:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9053"
+    ]
   },
   {
     "tripId": "WD_OUT_OSO-01_2013_7950",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7950",
     "trainNumber": "2461D",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-01",
     "destinationStationId": "OSO-20",
+    "customOrigin": "新庄",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -4136,14 +4138,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7950",
-    "customOrigin": "新庄",
     "throughTripId": "WD_OUT_OOA-01_2205_7950",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-12_2037_7953",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7953",
     "trainNumber": "459M",
     "trainType": "regular",
     "direction": "outbound",
@@ -4188,18 +4189,19 @@
         "departureTime": "20:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7953"
+    ]
   },
   {
     "tripId": "WD_INB_OSO-20_2038_9066",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9066",
     "trainNumber": "460M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-08",
     "customOrigin": "秋田",
+    "customDestination": "院内",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -4282,20 +4284,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "9066",
-    "customDestination": "院内",
     "prevTripId": "WD_INB_OOA-09_1945_9066",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_2045_9068",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9068",
     "trainNumber": "460M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-08",
     "customOrigin": "秋田",
+    "customDestination": "院内",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -4378,14 +4380,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9068",
-    "customDestination": "院内",
     "prevTripId": "WD_INB_OOA-09_1945_9068",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-01_2128_7949",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7949",
     "trainNumber": "2463D",
     "trainType": "regular",
     "direction": "outbound",
@@ -4448,18 +4449,19 @@
         "departureTime": "22:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7949"
+    ]
   },
   {
     "tripId": "WD_INB_OSO-20_2204_9057",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9057",
     "trainNumber": "462M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -4518,19 +4520,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "9057",
-    "customDestination": "湯沢",
     "prevTripId": "WD_INB_OOA-09_2100_9057",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_OUT_OSO-08_2221_7985",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7985",
     "trainNumber": "463M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": false,
@@ -4614,20 +4616,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7985",
-    "customOrigin": "院内",
     "throughTripId": "WD_OUT_OOA-01_2333_7985",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_2254_9041",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9041",
     "trainNumber": "464M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-17",
     "customOrigin": "秋田",
+    "customDestination": "横手",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -4656,20 +4658,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "9041",
-    "customDestination": "横手",
     "prevTripId": "WD_INB_OOA-09_2204_9041",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "WD_INB_OSO-20_2333_9058",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9058",
     "trainNumber": "466M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -4728,14 +4730,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9058",
-    "customDestination": "湯沢",
     "prevTripId": "WD_INB_OOA-09_2243_9058",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-17_0538_9129",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9129",
     "trainNumber": "424M",
     "trainType": "regular",
     "direction": "inbound",
@@ -4804,17 +4805,18 @@
         "departureTime": "06:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9129"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-17_0558_7963",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7963",
     "trainNumber": "423M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-17",
     "destinationStationId": "OSO-20",
+    "customOrigin": "横手",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -4844,14 +4846,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7963",
-    "customOrigin": "横手",
     "throughTripId": "HD_OUT_OOA-01_0616_7963",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-09_0615_9123",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9123",
     "trainNumber": "2424D",
     "trainType": "regular",
     "direction": "inbound",
@@ -4914,17 +4915,18 @@
         "departureTime": "07:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9123"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-17_0625_7964",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7964",
     "trainNumber": "425M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-17",
     "destinationStationId": "OSO-20",
+    "customOrigin": "横手",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -4954,14 +4956,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7964",
-    "customOrigin": "横手",
     "throughTripId": "HD_OUT_OOA-01_0644_7964",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-17_0628_9130",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9130",
     "trainNumber": "426M",
     "trainType": "regular",
     "direction": "inbound",
@@ -5030,17 +5031,18 @@
         "departureTime": "07:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9130"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-08_0632_7973",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7973",
     "trainNumber": "429M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -5124,19 +5126,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "7973",
-    "customOrigin": "院内",
     "throughTripId": "HD_OUT_OOA-01_0734_7973",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-12_0632_7952",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7952",
     "trainNumber": "3427M",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "OSO-12",
     "destinationStationId": "OSO-20",
+    "customOrigin": "湯沢",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -5196,20 +5198,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7952",
-    "customOrigin": "湯沢",
     "throughTripId": "HD_OUT_OOA-01_0710_7952",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_0644_9070",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9070",
     "trainNumber": "2428D",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-01",
     "customOrigin": "秋田",
+    "customDestination": "新庄",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -5334,20 +5336,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "9070",
-    "customDestination": "新庄",
     "prevTripId": "HD_INB_OOA-09_0549_9070",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_0710_9042",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9042",
     "trainNumber": "430M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -5406,14 +5408,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9042",
-    "customDestination": "湯沢",
     "prevTripId": "HD_INB_OOA-09_0617_9042",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-01_0713_7943",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7943",
     "trainNumber": "621D",
     "trainType": "regular",
     "direction": "outbound",
@@ -5446,17 +5447,18 @@
         "departureTime": "07:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7943"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-08_0716_7974",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7974",
     "trainNumber": "431M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -5540,20 +5542,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7974",
-    "customOrigin": "院内",
     "throughTripId": "HD_OUT_OOA-01_0814_7974",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_0735_9036",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9036",
     "trainNumber": "432M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-17",
     "customOrigin": "秋田",
+    "customDestination": "横手",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -5582,14 +5584,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9036",
-    "customDestination": "横手",
     "prevTripId": "HD_INB_OOA-09_0643_9036",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-04_0740_9121",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9121",
     "trainNumber": "622D",
     "trainType": "regular",
     "direction": "inbound",
@@ -5622,12 +5623,12 @@
         "departureTime": "07:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9121"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-01_0748_7945",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7945",
     "trainNumber": "2433D",
     "trainType": "regular",
     "direction": "outbound",
@@ -5690,17 +5691,18 @@
         "departureTime": "08:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7945"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-08_0843_7975",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7975",
     "trainNumber": "433M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -5784,14 +5786,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7975",
-    "customOrigin": "院内",
     "throughTripId": "HD_OUT_OOA-01_0941_7975",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_0903_9059",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9059",
     "trainNumber": "436M",
     "trainType": "regular",
     "direction": "inbound",
@@ -5879,18 +5880,19 @@
         "departureTime": "10:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9059"
+    ]
   },
   {
     "tripId": "HD_INB_OSO-20_0903_9043",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9043",
     "trainNumber": "436M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -5949,19 +5951,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "9043",
-    "customDestination": "湯沢",
     "prevTripId": "HD_INB_OOA-09_0809_9043",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-12_0934_7954",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7954",
     "trainNumber": "435M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-12",
     "destinationStationId": "OSO-20",
+    "customOrigin": "湯沢",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -6021,14 +6023,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7954",
-    "customOrigin": "湯沢",
     "throughTripId": "HD_OUT_OOA-01_1024_7954",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-09_1002_9124",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9124",
     "trainNumber": "2436D",
     "trainType": "regular",
     "direction": "inbound",
@@ -6091,18 +6092,19 @@
         "departureTime": "10:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9124"
+    ]
   },
   {
     "tripId": "HD_INB_OSO-20_1016_9044",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9044",
     "trainNumber": "440M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -6161,14 +6163,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9044",
-    "customDestination": "湯沢",
     "prevTripId": "HD_INB_OOA-09_0912_9044",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1016_9037",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9037",
     "trainNumber": "440M",
     "trainType": "regular",
     "direction": "inbound",
@@ -6202,17 +6203,18 @@
         "departureTime": "10:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9037"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-17_1054_7965",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7965",
     "trainNumber": "437M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-17",
     "destinationStationId": "OSO-20",
+    "customOrigin": "横手",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -6242,14 +6244,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7965",
-    "customOrigin": "横手",
     "throughTripId": "HD_OUT_OOA-01_1114_7965",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1114_9060",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9060",
     "trainNumber": "442M",
     "trainType": "regular",
     "direction": "inbound",
@@ -6337,18 +6338,19 @@
         "departureTime": "12:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9060"
+    ]
   },
   {
     "tripId": "HD_INB_OSO-20_1114_9046",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9046",
     "trainNumber": "442M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -6407,14 +6409,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9046",
-    "customDestination": "湯沢",
     "prevTripId": "HD_INB_OOA-09_1016_9046",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1114_9038",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9038",
     "trainNumber": "442M",
     "trainType": "regular",
     "direction": "inbound",
@@ -6448,12 +6449,12 @@
         "departureTime": "11:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9038"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-01_1118_7947",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7947",
     "trainNumber": "2441D",
     "trainType": "regular",
     "direction": "outbound",
@@ -6516,17 +6517,18 @@
         "departureTime": "12:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7947"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-12_1121_7956",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7956",
     "trainNumber": "439M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-12",
     "destinationStationId": "OSO-20",
+    "customOrigin": "湯沢",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -6586,14 +6588,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7956",
-    "customOrigin": "湯沢",
     "throughTripId": "HD_OUT_OOA-01_1212_7966",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-17_1147_7966",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7966",
     "trainNumber": "439M",
     "trainType": "regular",
     "direction": "outbound",
@@ -6627,17 +6628,18 @@
         "departureTime": "12:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7966"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-08_1211_7976",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7976",
     "trainNumber": "441M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -6721,14 +6723,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7976",
-    "customOrigin": "院内",
     "throughTripId": "HD_OUT_OOA-01_1318_7967",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-09_1221_9122",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9122",
     "trainNumber": "3442D",
     "trainType": "rapid",
     "direction": "inbound",
@@ -6791,17 +6792,18 @@
         "departureTime": "13:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9122"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-12_1231_7957",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7957",
     "trainNumber": "441M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-12",
     "destinationStationId": "OSO-20",
+    "customOrigin": "湯沢",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -6861,20 +6863,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7957",
-    "customOrigin": "湯沢",
     "throughTripId": "HD_OUT_OOA-01_1324_7977",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1251_9047",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9047",
     "trainNumber": "444M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -6933,14 +6935,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9047",
-    "customDestination": "湯沢",
     "prevTripId": "HD_INB_OOA-09_1149_9047",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1251_9039",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9039",
     "trainNumber": "444M",
     "trainType": "regular",
     "direction": "inbound",
@@ -6974,12 +6975,12 @@
         "departureTime": "13:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9039"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-17_1256_7967",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7967",
     "trainNumber": "441M",
     "trainType": "regular",
     "direction": "outbound",
@@ -7013,12 +7014,12 @@
         "departureTime": "13:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7967"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-01_1336_7941",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7941",
     "trainNumber": "3445D",
     "trainType": "rapid",
     "direction": "outbound",
@@ -7081,18 +7082,19 @@
         "departureTime": "14:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7941"
+    ]
   },
   {
     "tripId": "HD_INB_OSO-20_1344_9040",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9040",
     "trainNumber": "446M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-17",
     "customOrigin": "秋田",
+    "customDestination": "横手",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -7121,19 +7123,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "9040",
-    "customDestination": "横手",
     "prevTripId": "HD_INB_OOA-09_1239_9040",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-17_1420_7968",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7968",
     "trainNumber": "443M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-17",
     "destinationStationId": "OSO-20",
+    "customOrigin": "横手",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -7163,19 +7165,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "7968",
-    "customOrigin": "横手",
     "throughTripId": "HD_OUT_OOA-01_1445_7968",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-08_1425_7978",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7978",
     "trainNumber": "445M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -7259,20 +7261,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7978",
-    "customOrigin": "院内",
     "throughTripId": "HD_OUT_OOA-01_1522_7958",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1442_9061",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9061",
     "trainNumber": "448M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-08",
     "customOrigin": "秋田",
+    "customDestination": "院内",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -7355,14 +7357,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9061",
-    "customDestination": "院内",
     "prevTripId": "HD_INB_OOA-09_1345_9061",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-12_1442_7958",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7958",
     "trainNumber": "445M",
     "trainType": "regular",
     "direction": "outbound",
@@ -7426,12 +7427,12 @@
         "departureTime": "15:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7958"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-01_1536_7942",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7942",
     "trainNumber": "3449D",
     "trainType": "rapid",
     "direction": "outbound",
@@ -7494,17 +7495,18 @@
         "departureTime": "16:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7942"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-12_1540_7959",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7959",
     "trainNumber": "447M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-12",
     "destinationStationId": "OSO-20",
+    "customOrigin": "湯沢",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -7564,20 +7566,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7959",
-    "customOrigin": "湯沢",
     "throughTripId": "HD_OUT_OOA-01_1622_7959",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1542_9048",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9048",
     "trainNumber": "450M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -7636,14 +7638,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9048",
-    "customDestination": "湯沢",
     "prevTripId": "HD_INB_OOA-09_1445_9048",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1547_9049",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9049",
     "trainNumber": "450M",
     "trainType": "regular",
     "direction": "inbound",
@@ -7707,12 +7708,12 @@
         "departureTime": "16:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9049"
+    ]
   },
   {
     "tripId": "HD_INB_OSO-20_1548_9050",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9050",
     "trainNumber": "450M",
     "trainType": "regular",
     "direction": "inbound",
@@ -7776,12 +7777,12 @@
         "departureTime": "16:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9050"
+    ]
   },
   {
     "tripId": "HD_INB_OSO-09_1551_9126",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9126",
     "trainNumber": "2448D",
     "trainType": "regular",
     "direction": "inbound",
@@ -7844,17 +7845,18 @@
         "departureTime": "16:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9126"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-08_1622_7979",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7979",
     "trainNumber": "449M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -7938,20 +7940,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7979",
-    "customOrigin": "院内",
     "throughTripId": "HD_OUT_OOA-01_1722_7979",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1642_9062",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9062",
     "trainNumber": "452M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-08",
     "customOrigin": "秋田",
+    "customDestination": "院内",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -8034,14 +8036,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9062",
-    "customDestination": "院内",
     "prevTripId": "HD_INB_OOA-09_1545_9062",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-01_1716_7948",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7948",
     "trainNumber": "2453D",
     "trainType": "regular",
     "direction": "outbound",
@@ -8104,12 +8105,12 @@
         "departureTime": "18:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7948"
+    ]
   },
   {
     "tripId": "HD_INB_OSO-09_1740_9127",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9127",
     "trainNumber": "2452D",
     "trainType": "regular",
     "direction": "inbound",
@@ -8172,17 +8173,18 @@
         "departureTime": "18:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9127"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-12_1740_7960",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7960",
     "trainNumber": "451M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-12",
     "destinationStationId": "OSO-20",
+    "customOrigin": "湯沢",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -8242,20 +8244,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7960",
-    "customOrigin": "湯沢",
     "throughTripId": "HD_OUT_OOA-01_1825_7960",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1746_9063",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9063",
     "trainNumber": "454M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-08",
     "customOrigin": "秋田",
+    "customDestination": "院内",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -8338,14 +8340,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9063",
-    "customDestination": "院内",
     "prevTripId": "HD_INB_OOA-09_1645_9063",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1751_9064",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9064",
     "trainNumber": "454M",
     "trainType": "regular",
     "direction": "inbound",
@@ -8433,17 +8434,18 @@
         "departureTime": "18:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9064"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-08_1821_7980",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7980",
     "trainNumber": "453M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -8527,14 +8529,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7980",
-    "customOrigin": "院内",
     "throughTripId": "HD_OUT_OOA-01_1922_7980",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-09_1856_9128",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9128",
     "trainNumber": "2454D",
     "trainType": "regular",
     "direction": "inbound",
@@ -8597,18 +8598,19 @@
         "departureTime": "19:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9128"
+    ]
   },
   {
     "tripId": "HD_INB_OSO-20_1856_9065",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9065",
     "trainNumber": "456M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-08",
     "customOrigin": "秋田",
+    "customDestination": "院内",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -8691,14 +8693,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9065",
-    "customDestination": "院内",
     "prevTripId": "HD_INB_OOA-09_1745_9065",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-01_1917_7944",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7944",
     "trainNumber": "623D",
     "trainType": "regular",
     "direction": "outbound",
@@ -8731,17 +8732,18 @@
         "departureTime": "19:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7944"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-08_1917_7983",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7983",
     "trainNumber": "455M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -8825,19 +8827,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "7983",
-    "customOrigin": "院内",
     "throughTripId": "HD_OUT_OOA-01_2022_7983",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-08_1917_7984",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7984",
     "trainNumber": "455M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -8921,20 +8923,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7984",
-    "customOrigin": "院内",
     "throughTripId": "HD_OUT_OOA-01_2030_7984",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1946_9051",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9051",
     "trainNumber": "458M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -8993,14 +8995,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9051",
-    "customDestination": "湯沢",
     "prevTripId": "HD_INB_OOA-09_1845_9051",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_1955_9053",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9053",
     "trainNumber": "458M",
     "trainType": "regular",
     "direction": "inbound",
@@ -9064,17 +9065,18 @@
         "departureTime": "20:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9053"
+    ]
   },
   {
     "tripId": "HD_OUT_OSO-01_2013_7950",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7950",
     "trainNumber": "2461D",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-01",
     "destinationStationId": "OSO-20",
+    "customOrigin": "新庄",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -9200,14 +9202,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "7950",
-    "customOrigin": "新庄",
     "throughTripId": "HD_OUT_OOA-01_2205_7950",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-12_2037_7953",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7953",
     "trainNumber": "459M",
     "trainType": "regular",
     "direction": "outbound",
@@ -9252,18 +9253,19 @@
         "departureTime": "20:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7953"
+    ]
   },
   {
     "tripId": "HD_INB_OSO-20_2038_9066",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9066",
     "trainNumber": "460M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-08",
     "customOrigin": "秋田",
+    "customDestination": "院内",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -9346,20 +9348,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "9066",
-    "customDestination": "院内",
     "prevTripId": "HD_INB_OOA-09_1945_9066",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_2045_9068",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9068",
     "trainNumber": "460M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-08",
     "customOrigin": "秋田",
+    "customDestination": "院内",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -9442,14 +9444,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "9068",
-    "customDestination": "院内",
     "prevTripId": "HD_INB_OOA-09_1945_9068",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-01_2128_7949",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7949",
     "trainNumber": "2463D",
     "trainType": "regular",
     "direction": "outbound",
@@ -9512,18 +9513,19 @@
         "departureTime": "22:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7949"
+    ]
   },
   {
     "tripId": "HD_INB_OSO-20_2204_9057",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9057",
     "trainNumber": "462M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -9582,19 +9584,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "9057",
-    "customDestination": "湯沢",
     "prevTripId": "HD_INB_OOA-09_2100_9057",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_OUT_OSO-08_2221_7985",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "7985",
     "trainNumber": "463M",
     "trainType": "regular",
     "direction": "outbound",
     "originStationId": "OSO-08",
     "destinationStationId": "OSO-20",
+    "customOrigin": "院内",
     "customDestination": "秋田",
     "cars": 2,
     "isHoliday": true,
@@ -9678,20 +9680,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "7985",
-    "customOrigin": "院内",
     "throughTripId": "HD_OUT_OOA-01_2333_7985",
     "throughLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_2254_9041",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9041",
     "trainNumber": "464M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-17",
     "customOrigin": "秋田",
+    "customDestination": "横手",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -9720,20 +9722,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "9041",
-    "customDestination": "横手",
     "prevTripId": "HD_INB_OOA-09_2204_9041",
     "prevLineId": "ou_omagari_akita"
   },
   {
     "tripId": "HD_INB_OSO-20_2333_9058",
     "lineId": "ou_shinjo_omagari",
+    "trainId": "9058",
     "trainNumber": "466M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OSO-20",
     "destinationStationId": "OSO-12",
     "customOrigin": "秋田",
+    "customDestination": "湯沢",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -9792,8 +9794,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "9058",
-    "customDestination": "湯沢",
     "prevTripId": "HD_INB_OOA-09_2243_9058",
     "prevLineId": "ou_omagari_akita"
   }

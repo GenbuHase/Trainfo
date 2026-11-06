@@ -1,7 +1,6 @@
 {
   "weekday": {
     "UT-01": {
-      "inbound": [],
       "outbound": [
         {
           "h": 5,
@@ -2158,9 +2157,11 @@
           "no": "1676E",
           "tripId": "WD_OUT_UT-01_2332_34522"
         }
-      ]
+      ],
+      "inbound": []
     },
     "UT-02": {
+      "outbound": [],
       "inbound": [
         {
           "h": 6,
@@ -4289,13 +4290,11 @@
           "tripId": "WD_INB_UT-02_2309_10142",
           "trainName": "ときわ86号"
         }
-      ],
-      "outbound": []
+      ]
     }
   },
   "holiday": {
     "UT-01": {
-      "inbound": [],
       "outbound": [
         {
           "h": 5,
@@ -6350,9 +6349,11 @@
           "no": "1676E",
           "tripId": "HD_OUT_UT-01_2332_34522"
         }
-      ]
+      ],
+      "inbound": []
     },
     "UT-02": {
+      "outbound": [],
       "inbound": [
         {
           "h": 6,
@@ -8408,8 +8409,7 @@
           "tripId": "HD_INB_UT-02_2309_10142",
           "trainName": "ときわ86号"
         }
-      ],
-      "outbound": []
+      ]
     }
   }
 }

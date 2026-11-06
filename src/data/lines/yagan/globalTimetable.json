@@ -212,6 +212,7 @@
     "direction": "outbound",
     "originStationId": "YAG-01",
     "destinationStationId": "YAG-09",
+    "customOrigin": "新藤原",
     "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": false,
@@ -272,8 +273,7 @@
       }
     ],
     "throughTripId": "WD_OUT_AIZ-01_0846_41241",
-    "throughLineId": "aizu",
-    "customOrigin": "新藤原"
+    "throughLineId": "aizu"
   },
   {
     "tripId": "WD_INB_YAG-09_0824_40453",
@@ -420,10 +420,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TN-23_0817_25154",
-    "prevLineId": "tobu_kinugawa",
     "throughTripId": "WD_OUT_AIZ-01_0926_25154",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "prevTripId": "WD_OUT_TN-23_0817_25154",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "WD_INB_YAG-09_0928_43011",
@@ -569,10 +569,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TN-56_0938_38077",
-    "prevLineId": "tobu_kinugawa",
     "throughTripId": "WD_OUT_AIZ-01_1024_38077",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "prevTripId": "WD_OUT_TN-56_0938_38077",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "WD_INB_YAG-09_1108_42865",
@@ -719,10 +719,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TN-23_1114_25151",
-    "prevLineId": "tobu_kinugawa",
     "throughTripId": "WD_OUT_AIZ-01_1222_25151",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "prevTripId": "WD_OUT_TN-23_1114_25151",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "WD_OUT_YAG-01_1316_25152",
@@ -794,10 +794,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TN-23_1244_25152",
-    "prevLineId": "tobu_kinugawa",
     "throughTripId": "WD_OUT_AIZ-01_1353_25152",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "prevTripId": "WD_OUT_TN-23_1244_25152",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "WD_INB_YAG-09_1321_42866",
@@ -943,10 +943,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TN-56_1435_41244",
-    "prevLineId": "tobu_kinugawa",
     "throughTripId": "WD_OUT_AIZ-01_1520_41244",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "prevTripId": "WD_OUT_TN-56_1435_41244",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "WD_INB_YAG-09_1520_42868",
@@ -1033,6 +1033,7 @@
     "originStationId": "YAG-09",
     "destinationStationId": "YAG-01",
     "customOrigin": "会津田島",
+    "customDestination": "新藤原",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -1092,8 +1093,7 @@
       }
     ],
     "prevTripId": "WD_INB_AIZ-06_1542_43013",
-    "prevLineId": "aizu",
-    "customDestination": "新藤原"
+    "prevLineId": "aizu"
   },
   {
     "tripId": "WD_OUT_YAG-01_1651_25153",
@@ -1165,10 +1165,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_TN-23_1613_25153",
-    "prevLineId": "tobu_kinugawa",
     "throughTripId": "WD_OUT_AIZ-01_1726_25153",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "prevTripId": "WD_OUT_TN-23_1613_25153",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "WD_INB_YAG-09_1806_42867",
@@ -1662,6 +1662,7 @@
     "direction": "outbound",
     "originStationId": "YAG-01",
     "destinationStationId": "YAG-09",
+    "customOrigin": "新藤原",
     "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": true,
@@ -1722,8 +1723,7 @@
       }
     ],
     "throughTripId": "HD_OUT_AIZ-01_0846_41241",
-    "throughLineId": "aizu",
-    "customOrigin": "新藤原"
+    "throughLineId": "aizu"
   },
   {
     "tripId": "HD_INB_YAG-09_0824_40453",
@@ -1870,10 +1870,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TN-23_0817_25154",
-    "prevLineId": "tobu_kinugawa",
     "throughTripId": "HD_OUT_AIZ-01_0926_25154",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "prevTripId": "HD_OUT_TN-23_0817_25154",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "HD_INB_YAG-09_0928_43011",
@@ -2019,10 +2019,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TN-56_0938_38077",
-    "prevLineId": "tobu_kinugawa",
     "throughTripId": "HD_OUT_AIZ-01_1024_38077",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "prevTripId": "HD_OUT_TN-56_0938_38077",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "HD_OUT_YAG-01_0948_38078",
@@ -2310,10 +2310,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TN-23_1114_25151",
-    "prevLineId": "tobu_kinugawa",
     "throughTripId": "HD_OUT_AIZ-01_1222_25151",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "prevTripId": "HD_OUT_TN-23_1114_25151",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "HD_INB_YAG-09_1222_113012",
@@ -2453,10 +2453,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TN-23_1244_25152",
-    "prevLineId": "tobu_kinugawa",
     "throughTripId": "HD_OUT_AIZ-01_1353_25152",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "prevTripId": "HD_OUT_TN-23_1244_25152",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "HD_INB_YAG-09_1321_42866",
@@ -2602,10 +2602,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TN-56_1435_41244",
-    "prevLineId": "tobu_kinugawa",
     "throughTripId": "HD_OUT_AIZ-01_1520_41244",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "prevTripId": "HD_OUT_TN-56_1435_41244",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "HD_INB_YAG-09_1520_42868",
@@ -2692,6 +2692,7 @@
     "originStationId": "YAG-09",
     "destinationStationId": "YAG-01",
     "customOrigin": "会津田島",
+    "customDestination": "新藤原",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -2751,8 +2752,7 @@
       }
     ],
     "prevTripId": "HD_INB_AIZ-06_1542_43013",
-    "prevLineId": "aizu",
-    "customDestination": "新藤原"
+    "prevLineId": "aizu"
   },
   {
     "tripId": "HD_OUT_YAG-01_1651_25153",
@@ -2824,10 +2824,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_TN-23_1613_25153",
-    "prevLineId": "tobu_kinugawa",
     "throughTripId": "HD_OUT_AIZ-01_1726_25153",
-    "throughLineId": "aizu"
+    "throughLineId": "aizu",
+    "prevTripId": "HD_OUT_TN-23_1613_25153",
+    "prevLineId": "tobu_kinugawa"
   },
   {
     "tripId": "HD_INB_YAG-09_1806_42867",

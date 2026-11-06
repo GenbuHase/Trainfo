@@ -1047,12 +1047,14 @@ class YahooTimetableBuilder {
       }
     }
 
-    // 出発時刻順にソート
+    // 出発時刻順にソート（タイブレークとしてtripIdで完全決定論的ソート）
     trips.sort((a, b) => {
       if (a.isHoliday !== b.isHoliday) return a.isHoliday ? 1 : -1;
       const aTime = a.stops[0]?.departureTime || '00:00:00';
       const bTime = b.stops[0]?.departureTime || '00:00:00';
-      return aTime.localeCompare(bTime);
+      const timeDiff = aTime.localeCompare(bTime);
+      if (timeDiff !== 0) return timeDiff;
+      return (a.tripId || '').localeCompare(b.tripId || '');
     });
 
     return trips;

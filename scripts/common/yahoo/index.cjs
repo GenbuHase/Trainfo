@@ -5,6 +5,7 @@ const YahooClient = require('./YahooClient.cjs');
 const YahooStationTimetableScraper = require('./YahooStationTimetableScraper.cjs');
 const YahooTrainDetailScraper = require('./YahooTrainDetailScraper.cjs');
 const YahooTimetableBuilder = require('./YahooTimetableBuilder.cjs');
+const { safeWriteJson } = require('../timetableUtils.cjs');
 
 /**
  * 統合インポートパイプラインの実行
@@ -40,7 +41,7 @@ async function runYahooPipeline(config, options = {}) {
   if (config.outputPaths?.stationTimetables) {
     const outPath = path.resolve(process.cwd(), config.outputPaths.stationTimetables);
     fs.mkdirSync(path.dirname(outPath), { recursive: true });
-    fs.writeFileSync(outPath, JSON.stringify(store, null, 2), 'utf8');
+    safeWriteJson(outPath, store);
     console.log(`  Saved station timetables to: ${config.outputPaths.stationTimetables}`);
   }
 
@@ -77,7 +78,7 @@ async function runYahooPipeline(config, options = {}) {
   if (config.outputPaths?.globalTimetable) {
     const outPath = path.resolve(process.cwd(), config.outputPaths.globalTimetable);
     fs.mkdirSync(path.dirname(outPath), { recursive: true });
-    fs.writeFileSync(outPath, JSON.stringify(trips, null, 2), 'utf8');
+    safeWriteJson(outPath, trips);
     console.log(`  Saved global timetable to: ${config.outputPaths.globalTimetable}`);
   }
 
@@ -86,7 +87,7 @@ async function runYahooPipeline(config, options = {}) {
     console.log(`\n[Station Timetables] Re-aggregating station timetables from ${trips.length} trips...`);
     const tripStationStore = builder.buildStationTimetablesFromTrips(trips);
     const outPath = path.resolve(process.cwd(), config.outputPaths.stationTimetables);
-    fs.writeFileSync(outPath, JSON.stringify(tripStationStore, null, 2), 'utf8');
+    safeWriteJson(outPath, tripStationStore);
     console.log(`  Saved aggregated station timetables to: ${config.outputPaths.stationTimetables}`);
   }
 

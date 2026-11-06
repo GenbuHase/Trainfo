@@ -8,6 +8,7 @@
     "direction": "outbound",
     "originStationId": "BW-38",
     "destinationStationId": "BW-42",
+    "customOrigin": "五泉",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": false,
@@ -44,8 +45,7 @@
       }
     ],
     "throughTripId": "WD_OUT_SE-37_0532_32176",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "五泉"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_BW-25_0517_32173",
@@ -56,6 +56,7 @@
     "direction": "outbound",
     "originStationId": "BW-25",
     "destinationStationId": "BW-42",
+    "customOrigin": "野沢",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": false,
@@ -170,8 +171,7 @@
       }
     ],
     "throughTripId": "WD_OUT_SE-37_0650_32173",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "野沢"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_BW-15_0528_32172",
@@ -182,6 +182,7 @@
     "direction": "outbound",
     "originStationId": "BW-15",
     "destinationStationId": "BW-42",
+    "customOrigin": "会津若松",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": false,
@@ -356,8 +357,7 @@
       }
     ],
     "throughTripId": "WD_OUT_SE-37_0800_32172",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "会津若松"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_BW-15_0553_7363",
@@ -1170,6 +1170,7 @@
     "direction": "outbound",
     "originStationId": "BW-36",
     "destinationStationId": "BW-42",
+    "customOrigin": "馬下",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": false,
@@ -1218,8 +1219,7 @@
       }
     ],
     "throughTripId": "WD_OUT_SE-37_0719_32175",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "馬下"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_BW-15_0646_7427",
@@ -1517,6 +1517,7 @@
     "originStationId": "BW-42",
     "destinationStationId": "BW-31",
     "customOrigin": "新潟",
+    "customDestination": "津川",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -1594,8 +1595,7 @@
       }
     ],
     "prevTripId": "WD_INB_SE-42_0626_31125",
-    "prevLineId": "shinetsu_naoetsu_niigata",
-    "customDestination": "津川"
+    "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_BW-36_0709_32174",
@@ -1606,6 +1606,7 @@
     "direction": "outbound",
     "originStationId": "BW-36",
     "destinationStationId": "BW-42",
+    "customOrigin": "馬下",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": false,
@@ -1654,8 +1655,7 @@
       }
     ],
     "throughTripId": "WD_OUT_SE-37_0737_32174",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "馬下"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_BW-01_0731_7414",
@@ -1871,6 +1871,7 @@
     "originStationId": "BW-42",
     "destinationStationId": "BW-38",
     "customOrigin": "新潟",
+    "customDestination": "五泉",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -1906,8 +1907,7 @@
       }
     ],
     "prevTripId": "WD_INB_SE-42_0716_31122",
-    "prevLineId": "shinetsu_naoetsu_niigata",
-    "customDestination": "五泉"
+    "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_BW-05_0757_7352",
@@ -2251,6 +2251,7 @@
     "direction": "outbound",
     "originStationId": "BW-38",
     "destinationStationId": "BW-42",
+    "customOrigin": "五泉",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": false,
@@ -2287,8 +2288,7 @@
       }
     ],
     "throughTripId": "WD_OUT_SE-37_0857_32178",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "五泉"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_INB_BW-42_0851_31124",
@@ -2300,6 +2300,7 @@
     "originStationId": "BW-42",
     "destinationStationId": "BW-36",
     "customOrigin": "新潟",
+    "customDestination": "馬下",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -2347,8 +2348,7 @@
       }
     ],
     "prevTripId": "WD_INB_SE-42_0829_31124",
-    "prevLineId": "shinetsu_naoetsu_niigata",
-    "customDestination": "馬下"
+    "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_BW-01_0915_7417",
@@ -4676,6 +4676,7 @@
     "direction": "outbound",
     "originStationId": "BW-38",
     "destinationStationId": "BW-42",
+    "customOrigin": "五泉",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": false,
@@ -4712,8 +4713,7 @@
       }
     ],
     "throughTripId": "WD_OUT_SE-37_1412_32177",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "五泉"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_BW-01_1415_7407",
@@ -5201,6 +5201,7 @@
     "originStationId": "BW-42",
     "destinationStationId": "BW-38",
     "customOrigin": "新潟",
+    "customDestination": "五泉",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -5236,8 +5237,7 @@
       }
     ],
     "prevTripId": "WD_INB_SE-42_1448_31123",
-    "prevLineId": "shinetsu_naoetsu_niigata",
-    "customDestination": "五泉"
+    "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_BW-01_1515_7420",
@@ -8039,6 +8039,7 @@
     "originStationId": "BW-42",
     "destinationStationId": "BW-15",
     "customOrigin": "新潟",
+    "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -8212,8 +8213,7 @@
       }
     ],
     "prevTripId": "WD_INB_SE-42_2006_31126",
-    "prevLineId": "shinetsu_naoetsu_niigata",
-    "customDestination": "会津若松"
+    "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "WD_OUT_BW-15_2040_7435",
@@ -9204,6 +9204,7 @@
     "direction": "outbound",
     "originStationId": "BW-38",
     "destinationStationId": "BW-42",
+    "customOrigin": "五泉",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": true,
@@ -9240,8 +9241,7 @@
       }
     ],
     "throughTripId": "HD_OUT_SE-37_0532_32176",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "五泉"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_OUT_BW-25_0517_32173",
@@ -9252,6 +9252,7 @@
     "direction": "outbound",
     "originStationId": "BW-25",
     "destinationStationId": "BW-42",
+    "customOrigin": "野沢",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": true,
@@ -9366,8 +9367,7 @@
       }
     ],
     "throughTripId": "HD_OUT_SE-37_0650_32173",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "野沢"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_OUT_BW-15_0528_32172",
@@ -9378,6 +9378,7 @@
     "direction": "outbound",
     "originStationId": "BW-15",
     "destinationStationId": "BW-42",
+    "customOrigin": "会津若松",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": true,
@@ -9552,8 +9553,7 @@
       }
     ],
     "throughTripId": "HD_OUT_SE-37_0800_32172",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "会津若松"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_INB_BW-15_0553_7363",
@@ -10653,6 +10653,7 @@
     "originStationId": "BW-42",
     "destinationStationId": "BW-31",
     "customOrigin": "新潟",
+    "customDestination": "津川",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -10730,8 +10731,7 @@
       }
     ],
     "prevTripId": "HD_INB_SE-42_0626_31125",
-    "prevLineId": "shinetsu_naoetsu_niigata",
-    "customDestination": "津川"
+    "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_OUT_BW-36_0709_32174",
@@ -10742,6 +10742,7 @@
     "direction": "outbound",
     "originStationId": "BW-36",
     "destinationStationId": "BW-42",
+    "customOrigin": "馬下",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": true,
@@ -10790,8 +10791,7 @@
       }
     ],
     "throughTripId": "HD_OUT_SE-37_0737_32174",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "馬下"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_OUT_BW-01_0731_7414",
@@ -11007,6 +11007,7 @@
     "originStationId": "BW-42",
     "destinationStationId": "BW-38",
     "customOrigin": "新潟",
+    "customDestination": "五泉",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -11042,8 +11043,7 @@
       }
     ],
     "prevTripId": "HD_INB_SE-42_0716_31122",
-    "prevLineId": "shinetsu_naoetsu_niigata",
-    "customDestination": "五泉"
+    "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_INB_BW-05_0757_7352",
@@ -11387,6 +11387,7 @@
     "direction": "outbound",
     "originStationId": "BW-38",
     "destinationStationId": "BW-42",
+    "customOrigin": "五泉",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": true,
@@ -11423,8 +11424,7 @@
       }
     ],
     "throughTripId": "HD_OUT_SE-37_0857_32178",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "五泉"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_INB_BW-42_0851_31124",
@@ -11436,6 +11436,7 @@
     "originStationId": "BW-42",
     "destinationStationId": "BW-36",
     "customOrigin": "新潟",
+    "customDestination": "馬下",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -11483,8 +11484,7 @@
       }
     ],
     "prevTripId": "HD_INB_SE-42_0829_31124",
-    "prevLineId": "shinetsu_naoetsu_niigata",
-    "customDestination": "馬下"
+    "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_OUT_BW-01_0915_7417",
@@ -14110,6 +14110,7 @@
     "direction": "outbound",
     "originStationId": "BW-38",
     "destinationStationId": "BW-42",
+    "customOrigin": "五泉",
     "customDestination": "新潟",
     "cars": 2,
     "isHoliday": true,
@@ -14146,8 +14147,7 @@
       }
     ],
     "throughTripId": "HD_OUT_SE-37_1412_32177",
-    "throughLineId": "shinetsu_naoetsu_niigata",
-    "customOrigin": "五泉"
+    "throughLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_OUT_BW-01_1415_7407",
@@ -14635,6 +14635,7 @@
     "originStationId": "BW-42",
     "destinationStationId": "BW-38",
     "customOrigin": "新潟",
+    "customDestination": "五泉",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -14670,8 +14671,7 @@
       }
     ],
     "prevTripId": "HD_INB_SE-42_1448_31123",
-    "prevLineId": "shinetsu_naoetsu_niigata",
-    "customDestination": "五泉"
+    "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_OUT_BW-01_1515_7420",
@@ -17656,6 +17656,7 @@
     "originStationId": "BW-42",
     "destinationStationId": "BW-15",
     "customOrigin": "新潟",
+    "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -17829,8 +17830,7 @@
       }
     ],
     "prevTripId": "HD_INB_SE-42_2006_31126",
-    "prevLineId": "shinetsu_naoetsu_niigata",
-    "customDestination": "会津若松"
+    "prevLineId": "shinetsu_naoetsu_niigata"
   },
   {
     "tripId": "HD_OUT_BW-15_2040_7435",

@@ -5048,6 +5048,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -5095,7 +5096,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0605_25459",
     "throughLineId": "tozai"
   },
@@ -6012,6 +6012,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -6059,7 +6060,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0616_25379",
     "throughLineId": "tozai"
   },
@@ -6691,6 +6691,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "八千代緑が丘",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -6737,7 +6738,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0513_488",
     "prevLineId": "tozai"
   },
@@ -6962,6 +6962,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -7009,7 +7010,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0626_25460",
     "throughLineId": "tozai"
   },
@@ -7998,6 +7998,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
@@ -8045,7 +8046,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0637_24734",
     "throughLineId": "tozai"
   },
@@ -8271,6 +8271,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東陽町",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -8317,7 +8318,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-14_0553_590",
     "prevLineId": "tozai"
   },
@@ -9530,6 +9530,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -9577,7 +9578,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0646_35948",
     "throughLineId": "tozai"
   },
@@ -9591,6 +9591,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東陽町",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -9637,7 +9638,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-14_0601_591",
     "prevLineId": "tozai"
   },
@@ -10305,6 +10305,7 @@
     "direction": "inbound",
     "originStationId": "JB-39",
     "destinationStationId": "JB-10",
+    "customOrigin": "千葉",
     "customDestination": "松本",
     "cars": 9,
     "isHoliday": false,
@@ -10490,18 +10491,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
+    "throughTripId": "WD_OUT_JC-05_0730_39459",
+    "throughLineId": "chuo",
     "coupling": {
       "role": "PRIMARY",
-      "fromStationId": "JB-39",
-      "toStationId": "JB-10",
       "coupledTripId": "WD_INB_JB-39_0638_39506",
       "coupledTrainNumber": "2103M",
       "coupledCars": 3,
-      "coupledDestination": "河口湖"
-    },
-    "throughTripId": "WD_OUT_JC-05_0730_39459",
-    "throughLineId": "chuo"
+      "coupledDestination": "河口湖",
+      "fromStationId": "JB-39",
+      "toStationId": "JB-10"
+    }
   },
   {
     "tripId": "WD_OUT_JB-33_0638_5766",
@@ -10780,6 +10780,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -10827,7 +10828,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0701_78639",
     "throughLineId": "tozai"
   },
@@ -10841,6 +10841,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東陽町",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -10887,7 +10888,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-14_0611_592",
     "prevLineId": "tozai"
   },
@@ -12014,6 +12014,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -12061,7 +12062,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0704_35940",
     "throughLineId": "tozai"
   },
@@ -12131,6 +12131,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -12177,7 +12178,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0556_502",
     "prevLineId": "tozai"
   },
@@ -12650,6 +12650,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
@@ -12697,7 +12698,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0710_24740",
     "throughLineId": "tozai"
   },
@@ -12923,6 +12923,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -12969,7 +12970,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0603_503",
     "prevLineId": "tozai"
   },
@@ -13196,6 +13196,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
@@ -13243,7 +13244,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0715_24735",
     "throughLineId": "tozai"
   },
@@ -14317,6 +14317,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -14363,7 +14364,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0613_517",
     "prevLineId": "tozai"
   },
@@ -14376,6 +14376,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
@@ -14423,7 +14424,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0723_24736",
     "throughLineId": "tozai"
   },
@@ -15269,6 +15269,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -15315,7 +15316,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0619_504",
     "prevLineId": "tozai"
   },
@@ -15576,6 +15576,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -15623,7 +15624,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0731_78642",
     "throughLineId": "tozai"
   },
@@ -17001,6 +17001,7 @@
     "originStationId": "JB-30",
     "destinationStationId": "JB-33",
     "customOrigin": "東陽町",
+    "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -17029,7 +17030,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "津田沼",
     "prevTripId": "WD_OUT_T-14_0653_303",
     "prevLineId": "tozai"
   },
@@ -17466,6 +17466,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -17513,7 +17514,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0739_25383",
     "throughLineId": "tozai"
   },
@@ -17759,6 +17759,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -17805,7 +17806,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0632_498",
     "prevLineId": "tozai"
   },
@@ -18242,6 +18242,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -18289,7 +18290,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0747_78644",
     "throughLineId": "tozai"
   },
@@ -18708,6 +18708,7 @@
     "direction": "inbound",
     "originStationId": "JB-33",
     "destinationStationId": "JB-30",
+    "customOrigin": "津田沼",
     "customDestination": "中野",
     "cars": 10,
     "isHoliday": false,
@@ -18737,7 +18738,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "津田沼",
     "throughTripId": "WD_INB_T-23_0746_42986",
     "throughLineId": "tozai"
   },
@@ -19267,6 +19267,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -19313,7 +19314,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0638_520",
     "prevLineId": "tozai"
   },
@@ -20139,6 +20139,7 @@
     "originStationId": "JB-30",
     "destinationStationId": "JB-33",
     "customOrigin": "三鷹",
+    "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -20167,7 +20168,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "津田沼",
     "prevTripId": "WD_OUT_T-01_0637_24734",
     "prevLineId": "tozai"
   },
@@ -20180,6 +20180,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "妙典",
     "cars": 10,
     "isHoliday": false,
@@ -20227,7 +20228,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0759_25373",
     "throughLineId": "tozai"
   },
@@ -20841,6 +20841,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -20887,7 +20888,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0647_522",
     "prevLineId": "tozai"
   },
@@ -20901,6 +20901,7 @@
     "originStationId": "JB-30",
     "destinationStationId": "JB-33",
     "customOrigin": "中野",
+    "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -20929,7 +20930,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "津田沼",
     "prevTripId": "WD_OUT_T-01_0643_295",
     "prevLineId": "tozai"
   },
@@ -21439,6 +21439,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -21485,7 +21486,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0652_523",
     "prevLineId": "tozai"
   },
@@ -21692,6 +21692,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "妙典",
     "cars": 10,
     "isHoliday": false,
@@ -21739,7 +21740,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0809_25374",
     "throughLineId": "tozai"
   },
@@ -22248,6 +22248,7 @@
     "direction": "inbound",
     "originStationId": "JB-33",
     "destinationStationId": "JB-30",
+    "customOrigin": "津田沼",
     "customDestination": "中野",
     "cars": 10,
     "isHoliday": false,
@@ -22277,7 +22278,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "津田沼",
     "throughTripId": "WD_INB_T-23_0811_42987",
     "throughLineId": "tozai"
   },
@@ -22909,6 +22909,7 @@
     "originStationId": "JB-30",
     "destinationStationId": "JB-33",
     "customOrigin": "中野",
+    "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -22937,7 +22938,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "津田沼",
     "prevTripId": "WD_OUT_T-01_0649_296",
     "prevLineId": "tozai"
   },
@@ -23198,6 +23198,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東陽町",
     "cars": 10,
     "isHoliday": false,
@@ -23245,7 +23246,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0820_25369",
     "throughLineId": "tozai"
   },
@@ -23259,6 +23259,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -23305,7 +23306,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0711_499",
     "prevLineId": "tozai"
   },
@@ -23512,6 +23512,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -23559,7 +23560,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0826_35952",
     "throughLineId": "tozai"
   },
@@ -24348,6 +24348,7 @@
     "direction": "inbound",
     "originStationId": "JB-33",
     "destinationStationId": "JB-30",
+    "customOrigin": "津田沼",
     "customDestination": "中野",
     "cars": 10,
     "isHoliday": false,
@@ -24377,7 +24378,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "津田沼",
     "throughTripId": "WD_INB_T-23_0827_916",
     "throughLineId": "tozai"
   },
@@ -25045,6 +25045,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "妙典",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -25091,7 +25092,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-21_0724_598",
     "prevLineId": "tozai"
   },
@@ -26025,6 +26025,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -26071,7 +26072,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0723_506",
     "prevLineId": "tozai"
   },
@@ -26084,6 +26084,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -26131,7 +26132,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0840_25389",
     "throughLineId": "tozai"
   },
@@ -26974,6 +26974,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -27021,7 +27022,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0851_25391",
     "throughLineId": "tozai"
   },
@@ -27405,6 +27405,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "妙典",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -27451,7 +27452,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-21_0743_599",
     "prevLineId": "tozai"
   },
@@ -27464,6 +27464,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "妙典",
     "cars": 10,
     "isHoliday": false,
@@ -27511,7 +27512,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0859_25375",
     "throughLineId": "tozai"
   },
@@ -27949,6 +27949,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -27995,7 +27996,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0739_527",
     "prevLineId": "tozai"
   },
@@ -29087,6 +29087,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "津田沼",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -29133,7 +29134,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0755_39805",
     "prevLineId": "tozai"
   },
@@ -29552,6 +29552,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "妙典",
     "cars": 10,
     "isHoliday": false,
@@ -29599,7 +29600,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0912_25376",
     "throughLineId": "tozai"
   },
@@ -29613,6 +29613,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -29659,7 +29660,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0753_508",
     "prevLineId": "tozai"
   },
@@ -30538,6 +30538,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -30585,7 +30586,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0918_25393",
     "throughLineId": "tozai"
   },
@@ -30599,6 +30599,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "津田沼",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -30645,7 +30646,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0802_39807",
     "prevLineId": "tozai"
   },
@@ -30907,6 +30907,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -30953,7 +30954,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0809_500",
     "prevLineId": "tozai"
   },
@@ -30967,6 +30967,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "妙典",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -31013,7 +31014,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-21_0816_600",
     "prevLineId": "tozai"
   },
@@ -31238,6 +31238,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "妙典",
     "cars": 10,
     "isHoliday": false,
@@ -31285,7 +31286,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0927_25377",
     "throughLineId": "tozai"
   },
@@ -31668,6 +31668,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東陽町",
     "cars": 10,
     "isHoliday": false,
@@ -31715,7 +31716,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0929_25370",
     "throughLineId": "tozai"
   },
@@ -31729,6 +31729,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "津田沼",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -31775,7 +31776,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0817_39806",
     "prevLineId": "tozai"
   },
@@ -32036,6 +32036,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -32083,7 +32084,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0936_25395",
     "throughLineId": "tozai"
   },
@@ -32927,6 +32927,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -32973,7 +32974,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0822_510",
     "prevLineId": "tozai"
   },
@@ -32986,6 +32986,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "妙典",
     "cars": 10,
     "isHoliday": false,
@@ -33033,7 +33034,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0944_25378",
     "throughLineId": "tozai"
   },
@@ -33434,6 +33434,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -33481,7 +33482,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0946_25397",
     "throughLineId": "tozai"
   },
@@ -33919,6 +33919,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "津田沼",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -33965,7 +33966,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0836_39808",
     "prevLineId": "tozai"
   },
@@ -34227,6 +34227,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -34273,7 +34274,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0842_501",
     "prevLineId": "tozai"
   },
@@ -34746,6 +34746,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -34793,7 +34794,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_0959_25399",
     "throughLineId": "tozai"
   },
@@ -34807,6 +34807,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "津田沼",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -34853,7 +34854,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0846_39809",
     "prevLineId": "tozai"
   },
@@ -35538,6 +35538,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東陽町",
     "cars": 10,
     "isHoliday": false,
@@ -35585,7 +35586,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1008_25371",
     "throughLineId": "tozai"
   },
@@ -36270,6 +36270,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東陽町",
     "cars": 10,
     "isHoliday": false,
@@ -36317,7 +36318,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1019_25372",
     "throughLineId": "tozai"
   },
@@ -36331,6 +36331,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -36377,7 +36378,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0918_489",
     "prevLineId": "tozai"
   },
@@ -37487,6 +37487,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -37533,7 +37534,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0922_511",
     "prevLineId": "tozai"
   },
@@ -37758,6 +37758,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -37805,7 +37806,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1039_25402",
     "throughLineId": "tozai"
   },
@@ -38207,6 +38207,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -38253,7 +38254,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0927_535",
     "prevLineId": "tozai"
   },
@@ -38867,6 +38867,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -38913,7 +38914,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0938_536",
     "prevLineId": "tozai"
   },
@@ -39386,6 +39386,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -39433,7 +39434,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1053_25404",
     "throughLineId": "tozai"
   },
@@ -40367,6 +40367,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -40413,7 +40414,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_0951_538",
     "prevLineId": "tozai"
   },
@@ -41274,6 +41274,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -41321,7 +41322,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1123_25407",
     "throughLineId": "tozai"
   },
@@ -42287,6 +42287,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -42333,7 +42334,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1025_541",
     "prevLineId": "tozai"
   },
@@ -44114,6 +44114,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -44161,7 +44162,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1153_25408",
     "throughLineId": "tozai"
   },
@@ -44775,6 +44775,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -44821,7 +44822,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1055_543",
     "prevLineId": "tozai"
   },
@@ -46318,6 +46318,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -46365,7 +46366,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1223_25411",
     "throughLineId": "tozai"
   },
@@ -47475,6 +47475,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -47521,7 +47522,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1125_545",
     "prevLineId": "tozai"
   },
@@ -48982,6 +48982,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -49029,7 +49030,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1253_25412",
     "throughLineId": "tozai"
   },
@@ -49751,6 +49751,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -49797,7 +49798,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1155_547",
     "prevLineId": "tozai"
   },
@@ -51010,6 +51010,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -51057,7 +51058,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1323_25415",
     "throughLineId": "tozai"
   },
@@ -52023,6 +52023,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -52069,7 +52070,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1225_549",
     "prevLineId": "tozai"
   },
@@ -53850,6 +53850,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -53897,7 +53898,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1353_25416",
     "throughLineId": "tozai"
   },
@@ -54511,6 +54511,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -54557,7 +54558,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1255_551",
     "prevLineId": "tozai"
   },
@@ -56054,6 +56054,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -56101,7 +56102,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1423_25419",
     "throughLineId": "tozai"
   },
@@ -57175,6 +57175,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -57221,7 +57222,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1325_553",
     "prevLineId": "tozai"
   },
@@ -58718,6 +58718,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -58765,7 +58766,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1453_35941",
     "throughLineId": "tozai"
   },
@@ -59487,6 +59487,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -59533,7 +59534,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1355_555",
     "prevLineId": "tozai"
   },
@@ -60710,6 +60710,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -60757,7 +60758,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1523_35942",
     "throughLineId": "tozai"
   },
@@ -61867,6 +61867,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -61913,7 +61914,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1425_557",
     "prevLineId": "tozai"
   },
@@ -63410,6 +63410,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -63457,7 +63458,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1553_25422",
     "throughLineId": "tozai"
   },
@@ -64355,6 +64355,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -64401,7 +64402,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1455_559",
     "prevLineId": "tozai"
   },
@@ -64838,6 +64838,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -64885,7 +64886,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1608_25425",
     "throughLineId": "tozai"
   },
@@ -66067,6 +66067,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -66113,7 +66114,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1510_561",
     "prevLineId": "tozai"
   },
@@ -66586,6 +66586,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -66633,7 +66634,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1623_25427",
     "throughLineId": "tozai"
   },
@@ -66999,6 +66999,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -67045,7 +67046,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1516_562",
     "prevLineId": "tozai"
   },
@@ -67058,6 +67058,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -67105,7 +67106,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1628_25428",
     "throughLineId": "tozai"
   },
@@ -67718,6 +67718,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -67765,7 +67766,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1636_25430",
     "throughLineId": "tozai"
   },
@@ -67955,6 +67955,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -68001,7 +68002,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1538_490",
     "prevLineId": "tozai"
   },
@@ -68014,6 +68014,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
@@ -68061,7 +68062,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1639_24737",
     "throughLineId": "tozai"
   },
@@ -68940,6 +68940,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -68987,7 +68988,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1645_35954",
     "throughLineId": "tozai"
   },
@@ -69001,6 +69001,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東陽町",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -69047,7 +69048,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-14_1601_593",
     "prevLineId": "tozai"
   },
@@ -69309,6 +69309,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -69355,7 +69356,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1540_565",
     "prevLineId": "tozai"
   },
@@ -69368,6 +69368,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
@@ -69415,7 +69416,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1651_24738",
     "throughLineId": "tozai"
   },
@@ -70348,6 +70348,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
@@ -70395,7 +70396,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1657_24739",
     "throughLineId": "tozai"
   },
@@ -70409,6 +70409,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -70455,7 +70456,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1546_566",
     "prevLineId": "tozai"
   },
@@ -71140,6 +71140,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -71187,7 +71188,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1705_25433",
     "throughLineId": "tozai"
   },
@@ -71377,6 +71377,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -71423,7 +71424,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1552_567",
     "prevLineId": "tozai"
   },
@@ -71685,6 +71685,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "妙典",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -71731,7 +71732,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-21_1605_601",
     "prevLineId": "tozai"
   },
@@ -71992,6 +71992,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -72039,7 +72040,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1714_78655",
     "throughLineId": "tozai"
   },
@@ -72671,6 +72671,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -72717,7 +72718,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1601_512",
     "prevLineId": "tozai"
   },
@@ -72730,6 +72730,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -72777,7 +72778,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1716_35943",
     "throughLineId": "tozai"
   },
@@ -73232,6 +73232,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
@@ -73279,7 +73280,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1722_24741",
     "throughLineId": "tozai"
   },
@@ -73293,6 +73293,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -73339,7 +73340,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1620_491",
     "prevLineId": "tozai"
   },
@@ -74182,6 +74182,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -74229,7 +74230,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1728_25436",
     "throughLineId": "tozai"
   },
@@ -74243,6 +74243,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -74289,7 +74290,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1617_570",
     "prevLineId": "tozai"
   },
@@ -74902,6 +74902,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -74949,7 +74950,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1734_25437",
     "throughLineId": "tozai"
   },
@@ -75369,6 +75369,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -75415,7 +75416,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1637_492",
     "prevLineId": "tozai"
   },
@@ -75428,6 +75428,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -75475,7 +75476,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1743_78658",
     "throughLineId": "tozai"
   },
@@ -76301,6 +76301,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東陽町",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -76347,7 +76348,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-14_1659_594",
     "prevLineId": "tozai"
   },
@@ -76360,6 +76360,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -76407,7 +76408,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1746_25439",
     "throughLineId": "tozai"
   },
@@ -77075,6 +77075,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -77121,7 +77122,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1643_513",
     "prevLineId": "tozai"
   },
@@ -77982,6 +77982,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -78029,7 +78030,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1758_25441",
     "throughLineId": "tozai"
   },
@@ -78201,6 +78201,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -78247,7 +78248,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1647_573",
     "prevLineId": "tozai"
   },
@@ -78630,6 +78630,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -78677,7 +78678,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1804_35944",
     "throughLineId": "tozai"
   },
@@ -79362,6 +79362,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -79409,7 +79410,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1811_35957",
     "throughLineId": "tozai"
   },
@@ -79423,6 +79423,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東陽町",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -79469,7 +79470,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-14_1724_595",
     "prevLineId": "tozai"
   },
@@ -80118,6 +80118,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -80165,7 +80166,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1817_25443",
     "throughLineId": "tozai"
   },
@@ -80179,6 +80179,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -80225,7 +80226,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1703_575",
     "prevLineId": "tozai"
   },
@@ -80698,6 +80698,7 @@
     "direction": "inbound",
     "originStationId": "JB-33",
     "destinationStationId": "JB-30",
+    "customOrigin": "津田沼",
     "customDestination": "中野",
     "cars": 10,
     "isHoliday": false,
@@ -80727,7 +80728,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "津田沼",
     "throughTripId": "WD_INB_T-23_1815_42988",
     "throughLineId": "tozai"
   },
@@ -81183,6 +81183,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -81229,7 +81230,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1711_577",
     "prevLineId": "tozai"
   },
@@ -81418,6 +81418,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -81465,7 +81466,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1828_25445",
     "throughLineId": "tozai"
   },
@@ -81884,6 +81884,7 @@
     "direction": "inbound",
     "originStationId": "JB-33",
     "destinationStationId": "JB-30",
+    "customOrigin": "津田沼",
     "customDestination": "中野",
     "cars": 10,
     "isHoliday": false,
@@ -81913,7 +81914,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "津田沼",
     "throughTripId": "WD_INB_T-23_1822_42989",
     "throughLineId": "tozai"
   },
@@ -81927,6 +81927,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東陽町",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -81973,7 +81974,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-14_1743_596",
     "prevLineId": "tozai"
   },
@@ -82798,6 +82798,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -82845,7 +82846,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1834_25446",
     "throughLineId": "tozai"
   },
@@ -82859,6 +82859,7 @@
     "originStationId": "JB-30",
     "destinationStationId": "JB-33",
     "customOrigin": "三鷹",
+    "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -82887,7 +82888,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "津田沼",
     "prevTripId": "WD_OUT_T-01_1657_24739",
     "prevLineId": "tozai"
   },
@@ -82901,6 +82901,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -82947,7 +82948,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1724_514",
     "prevLineId": "tozai"
   },
@@ -83402,6 +83402,7 @@
     "direction": "inbound",
     "originStationId": "JB-33",
     "destinationStationId": "JB-30",
+    "customOrigin": "津田沼",
     "customDestination": "中野",
     "cars": 10,
     "isHoliday": false,
@@ -83431,7 +83432,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "津田沼",
     "throughTripId": "WD_INB_T-23_1832_42990",
     "throughLineId": "tozai"
   },
@@ -83693,6 +83693,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -83739,7 +83740,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1728_579",
     "prevLineId": "tozai"
   },
@@ -83752,6 +83752,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -83799,7 +83800,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1843_78662",
     "throughLineId": "tozai"
   },
@@ -84025,6 +84025,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -84071,7 +84072,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1746_493",
     "prevLineId": "tozai"
   },
@@ -84332,6 +84332,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -84379,7 +84380,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1847_35959",
     "throughLineId": "tozai"
   },
@@ -84392,6 +84392,7 @@
     "direction": "inbound",
     "originStationId": "JB-33",
     "destinationStationId": "JB-30",
+    "customOrigin": "津田沼",
     "customDestination": "中野",
     "cars": 10,
     "isHoliday": false,
@@ -84421,7 +84422,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "津田沼",
     "throughTripId": "WD_INB_T-23_1843_42984",
     "throughLineId": "tozai"
   },
@@ -84895,6 +84895,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東陽町",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -84941,7 +84942,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-14_1806_597",
     "prevLineId": "tozai"
   },
@@ -84954,6 +84954,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -85001,7 +85002,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1853_25448",
     "throughLineId": "tozai"
   },
@@ -85263,6 +85263,7 @@
     "originStationId": "JB-30",
     "destinationStationId": "JB-33",
     "customOrigin": "中野",
+    "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -85291,7 +85292,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "津田沼",
     "prevTripId": "WD_OUT_T-01_1731_300",
     "prevLineId": "tozai"
   },
@@ -85887,6 +85887,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -85933,7 +85934,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1758_494",
     "prevLineId": "tozai"
   },
@@ -85946,6 +85946,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -85993,7 +85994,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1900_35960",
     "throughLineId": "tozai"
   },
@@ -86643,6 +86643,7 @@
     "originStationId": "JB-30",
     "destinationStationId": "JB-33",
     "customOrigin": "中野",
+    "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -86671,7 +86672,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "津田沼",
     "prevTripId": "WD_OUT_T-01_1753_301",
     "prevLineId": "tozai"
   },
@@ -86685,6 +86685,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -86731,7 +86732,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1754_581",
     "prevLineId": "tozai"
   },
@@ -86744,6 +86744,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -86791,7 +86792,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1906_25449",
     "throughLineId": "tozai"
   },
@@ -86962,6 +86962,7 @@
     "direction": "inbound",
     "originStationId": "JB-33",
     "destinationStationId": "JB-30",
+    "customOrigin": "津田沼",
     "customDestination": "中野",
     "cars": 10,
     "isHoliday": false,
@@ -86991,7 +86992,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "津田沼",
     "throughTripId": "WD_INB_T-23_1904_42991",
     "throughLineId": "tozai"
   },
@@ -87216,6 +87216,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -87263,7 +87264,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1912_35961",
     "throughLineId": "tozai"
   },
@@ -87277,6 +87277,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "津田沼",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -87323,7 +87324,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1800_39810",
     "prevLineId": "tozai"
   },
@@ -87760,6 +87760,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -87807,7 +87808,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1918_35946",
     "throughLineId": "tozai"
   },
@@ -88439,6 +88439,7 @@
     "originStationId": "JB-30",
     "destinationStationId": "JB-33",
     "customOrigin": "中野",
+    "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -88467,7 +88468,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "津田沼",
     "prevTripId": "WD_OUT_T-01_1802_302",
     "prevLineId": "tozai"
   },
@@ -88480,6 +88480,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -88527,7 +88528,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1925_25450",
     "throughLineId": "tozai"
   },
@@ -88965,6 +88965,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -89011,7 +89012,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1826_495",
     "prevLineId": "tozai"
   },
@@ -89890,6 +89890,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -89937,7 +89938,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1936_25451",
     "throughLineId": "tozai"
   },
@@ -89951,6 +89951,7 @@
     "originStationId": "JB-30",
     "destinationStationId": "JB-33",
     "customOrigin": "中野",
+    "customDestination": "津田沼",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -89979,7 +89980,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "津田沼",
     "prevTripId": "WD_OUT_T-01_1808_298",
     "prevLineId": "tozai"
   },
@@ -89993,6 +89993,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -90039,7 +90040,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1828_585",
     "prevLineId": "tozai"
   },
@@ -91378,6 +91378,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": false,
@@ -91425,7 +91426,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1947_35962",
     "throughLineId": "tozai"
   },
@@ -91687,6 +91687,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -91733,7 +91734,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1839_586",
     "prevLineId": "tozai"
   },
@@ -91994,6 +91994,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -92041,7 +92042,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_1956_25452",
     "throughLineId": "tozai"
   },
@@ -92479,6 +92479,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -92525,7 +92526,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1847_515",
     "prevLineId": "tozai"
   },
@@ -93670,6 +93670,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -93717,7 +93718,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_2009_25453",
     "throughLineId": "tozai"
   },
@@ -94402,6 +94402,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -94449,7 +94450,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_2018_25454",
     "throughLineId": "tozai"
   },
@@ -94887,6 +94887,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "津田沼",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -94933,7 +94934,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1911_39811",
     "prevLineId": "tozai"
   },
@@ -95831,6 +95831,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "津田沼",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -95877,7 +95878,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1930_39803",
     "prevLineId": "tozai"
   },
@@ -96598,6 +96598,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -96645,7 +96646,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_2042_25455",
     "throughLineId": "tozai"
   },
@@ -96871,6 +96871,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "津田沼",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -96917,7 +96918,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1944_39804",
     "prevLineId": "tozai"
   },
@@ -98487,6 +98487,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -98533,7 +98534,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_1948_516",
     "prevLineId": "tozai"
   },
@@ -99183,6 +99183,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -99229,7 +99230,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_2009_496",
     "prevLineId": "tozai"
   },
@@ -100162,6 +100162,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -100209,7 +100210,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_2120_25456",
     "throughLineId": "tozai"
   },
@@ -100223,6 +100223,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -100269,7 +100270,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_2022_497",
     "prevLineId": "tozai"
   },
@@ -100882,6 +100882,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -100929,7 +100930,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_2130_25457",
     "throughLineId": "tozai"
   },
@@ -101827,6 +101827,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -101873,7 +101874,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_2031_587",
     "prevLineId": "tozai"
   },
@@ -102134,6 +102134,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": false,
@@ -102181,7 +102182,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "WD_OUT_T-01_2143_25458",
     "throughLineId": "tozai"
   },
@@ -103079,6 +103079,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -103125,7 +103126,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_2043_588",
     "prevLineId": "tozai"
   },
@@ -104379,6 +104379,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": false,
     "stops": [
@@ -104425,7 +104426,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "WD_INB_T-23_2103_589",
     "prevLineId": "tozai"
   },
@@ -118325,6 +118325,7 @@
     "direction": "inbound",
     "originStationId": "JB-39",
     "destinationStationId": "JB-10",
+    "customOrigin": "千葉",
     "customDestination": "松本",
     "cars": 9,
     "isHoliday": true,
@@ -118510,18 +118511,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
+    "throughTripId": "HD_OUT_JC-05_0730_39458",
+    "throughLineId": "chuo",
     "coupling": {
       "role": "PRIMARY",
-      "fromStationId": "JB-39",
-      "toStationId": "JB-10",
       "coupledTripId": "HD_INB_JB-39_0638_39505",
       "coupledTrainNumber": "2103M",
       "coupledCars": 3,
-      "coupledDestination": "河口湖"
-    },
-    "throughTripId": "HD_OUT_JC-05_0730_39458",
-    "throughLineId": "chuo"
+      "coupledDestination": "河口湖",
+      "fromStationId": "JB-39",
+      "toStationId": "JB-10"
+    }
   },
   {
     "tripId": "HD_OUT_JB-01_0641_39893",
@@ -120392,6 +120392,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -120439,7 +120440,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0714_25380",
     "throughLineId": "tozai"
   },
@@ -121282,6 +121282,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -121329,7 +121330,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0720_25381",
     "throughLineId": "tozai"
   },
@@ -122015,6 +122015,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -122061,7 +122062,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0619_518",
     "prevLineId": "tozai"
   },
@@ -122286,6 +122286,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -122333,7 +122334,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0731_25382",
     "throughLineId": "tozai"
   },
@@ -123019,6 +123019,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -123065,7 +123066,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0632_519",
     "prevLineId": "tozai"
   },
@@ -123326,6 +123326,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -123373,7 +123374,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0744_25384",
     "throughLineId": "tozai"
   },
@@ -124339,6 +124339,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -124385,7 +124386,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0644_521",
     "prevLineId": "tozai"
   },
@@ -124666,6 +124666,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -124713,7 +124714,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0757_25385",
     "throughLineId": "tozai"
   },
@@ -125399,6 +125399,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -125445,7 +125446,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0656_524",
     "prevLineId": "tozai"
   },
@@ -126094,6 +126094,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -126141,7 +126142,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0810_25386",
     "throughLineId": "tozai"
   },
@@ -126827,6 +126827,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -126873,7 +126874,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0708_525",
     "prevLineId": "tozai"
   },
@@ -127098,6 +127098,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -127145,7 +127146,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0821_25387",
     "throughLineId": "tozai"
   },
@@ -128043,6 +128043,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -128089,7 +128090,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0721_505",
     "prevLineId": "tozai"
   },
@@ -128526,6 +128526,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -128573,7 +128574,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0835_25388",
     "throughLineId": "tozai"
   },
@@ -128975,6 +128975,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -129021,7 +129022,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0731_526",
     "prevLineId": "tozai"
   },
@@ -129670,6 +129670,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -129717,7 +129718,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0848_25390",
     "throughLineId": "tozai"
   },
@@ -130403,6 +130403,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -130449,7 +130450,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0744_507",
     "prevLineId": "tozai"
   },
@@ -130674,6 +130674,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": true,
@@ -130721,7 +130722,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0856_35953",
     "throughLineId": "tozai"
   },
@@ -131407,6 +131407,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -131453,7 +131454,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0753_528",
     "prevLineId": "tozai"
   },
@@ -131714,6 +131714,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -131761,7 +131762,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0910_25392",
     "throughLineId": "tozai"
   },
@@ -132623,6 +132623,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "東葉勝田台",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -132669,7 +132670,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0809_509",
     "prevLineId": "tozai"
   },
@@ -132930,6 +132930,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -132977,7 +132978,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0924_25394",
     "throughLineId": "tozai"
   },
@@ -132991,6 +132991,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -133037,7 +133038,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0812_529",
     "prevLineId": "tozai"
   },
@@ -134359,6 +134359,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -134405,7 +134406,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0827_530",
     "prevLineId": "tozai"
   },
@@ -134418,6 +134418,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -134465,7 +134466,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0938_25396",
     "throughLineId": "tozai"
   },
@@ -135503,6 +135503,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -135549,7 +135550,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0836_531",
     "prevLineId": "tozai"
   },
@@ -135810,6 +135810,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -135857,7 +135858,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_0953_25398",
     "throughLineId": "tozai"
   },
@@ -137003,6 +137003,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -137049,7 +137050,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0850_532",
     "prevLineId": "tozai"
   },
@@ -137274,6 +137274,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -137321,7 +137322,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1008_25400",
     "throughLineId": "tozai"
   },
@@ -138359,6 +138359,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -138405,7 +138406,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0910_533",
     "prevLineId": "tozai"
   },
@@ -138666,6 +138666,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -138713,7 +138714,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1023_25401",
     "throughLineId": "tozai"
   },
@@ -139859,6 +139859,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -139905,7 +139906,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0925_534",
     "prevLineId": "tozai"
   },
@@ -140130,6 +140130,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -140177,7 +140178,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1038_25403",
     "throughLineId": "tozai"
   },
@@ -141251,6 +141251,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -141297,7 +141298,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0940_537",
     "prevLineId": "tozai"
   },
@@ -141558,6 +141558,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -141605,7 +141606,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1053_25405",
     "throughLineId": "tozai"
   },
@@ -142751,6 +142751,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -142797,7 +142798,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_0955_539",
     "prevLineId": "tozai"
   },
@@ -144294,6 +144294,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -144341,7 +144342,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1123_25406",
     "throughLineId": "tozai"
   },
@@ -145487,6 +145487,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -145533,7 +145534,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1025_540",
     "prevLineId": "tozai"
   },
@@ -147314,6 +147314,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -147361,7 +147362,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1153_25409",
     "throughLineId": "tozai"
   },
@@ -148295,6 +148295,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -148341,7 +148342,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1055_542",
     "prevLineId": "tozai"
   },
@@ -149838,6 +149838,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -149885,7 +149886,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1223_25410",
     "throughLineId": "tozai"
   },
@@ -151031,6 +151031,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -151077,7 +151078,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1125_544",
     "prevLineId": "tozai"
   },
@@ -152858,6 +152858,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -152905,7 +152906,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1253_25413",
     "throughLineId": "tozai"
   },
@@ -153839,6 +153839,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -153885,7 +153886,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1155_546",
     "prevLineId": "tozai"
   },
@@ -155382,6 +155382,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -155429,7 +155430,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1323_25414",
     "throughLineId": "tozai"
   },
@@ -156575,6 +156575,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -156621,7 +156622,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1225_548",
     "prevLineId": "tozai"
   },
@@ -158402,6 +158402,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -158449,7 +158450,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1353_25417",
     "throughLineId": "tozai"
   },
@@ -159383,6 +159383,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -159429,7 +159430,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1255_550",
     "prevLineId": "tozai"
   },
@@ -160926,6 +160926,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -160973,7 +160974,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1423_25418",
     "throughLineId": "tozai"
   },
@@ -162119,6 +162119,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -162165,7 +162166,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1325_552",
     "prevLineId": "tozai"
   },
@@ -163946,6 +163946,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -163993,7 +163994,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1453_25420",
     "throughLineId": "tozai"
   },
@@ -164927,6 +164927,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -164973,7 +164974,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1355_554",
     "prevLineId": "tozai"
   },
@@ -166470,6 +166470,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -166517,7 +166518,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1523_25421",
     "throughLineId": "tozai"
   },
@@ -167663,6 +167663,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -167709,7 +167710,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1425_556",
     "prevLineId": "tozai"
   },
@@ -169454,6 +169454,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -169501,7 +169502,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1553_25423",
     "throughLineId": "tozai"
   },
@@ -170435,6 +170435,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -170481,7 +170482,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1455_558",
     "prevLineId": "tozai"
   },
@@ -170706,6 +170706,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -170753,7 +170754,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1608_25424",
     "throughLineId": "tozai"
   },
@@ -171827,6 +171827,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -171873,7 +171874,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1510_560",
     "prevLineId": "tozai"
   },
@@ -172134,6 +172134,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -172181,7 +172182,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1623_25426",
     "throughLineId": "tozai"
   },
@@ -173326,6 +173326,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -173373,7 +173374,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1633_25429",
     "throughLineId": "tozai"
   },
@@ -173387,6 +173387,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -173433,7 +173434,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1525_563",
     "prevLineId": "tozai"
   },
@@ -173658,6 +173658,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -173705,7 +173706,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1638_25431",
     "throughLineId": "tozai"
   },
@@ -174532,6 +174532,7 @@
     "originStationId": "JB-39",
     "destinationStationId": "JB-10",
     "customOrigin": "館山",
+    "customDestination": "新宿",
     "cars": 5,
     "isHoliday": true,
     "stops": [
@@ -174716,14 +174717,13 @@
         "isPassing": false
       }
     ],
+    "prevTripId": "HD_INB_SB-03_1625_14406",
+    "prevLineId": "sotobo",
     "previousTrip": {
       "lineId": "sotobo",
       "tripId": "HD_INB_SB-03_1625_14406",
       "trainNumber": "9046M"
-    },
-    "customDestination": "新宿",
-    "prevTripId": "HD_INB_SB-03_1625_14406",
-    "prevLineId": "sotobo"
+    }
   },
   {
     "tripId": "HD_OUT_JB-01_1633_39969",
@@ -174983,6 +174983,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -175029,7 +175030,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1540_564",
     "prevLineId": "tozai"
   },
@@ -175502,6 +175502,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -175549,7 +175550,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1653_25432",
     "throughLineId": "tozai"
   },
@@ -176483,6 +176483,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -176529,7 +176530,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1555_568",
     "prevLineId": "tozai"
   },
@@ -176754,6 +176754,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -176801,7 +176802,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1708_25434",
     "throughLineId": "tozai"
   },
@@ -177875,6 +177875,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -177921,7 +177922,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1610_569",
     "prevLineId": "tozai"
   },
@@ -177934,6 +177934,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -177981,7 +177982,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1723_25435",
     "throughLineId": "tozai"
   },
@@ -179339,6 +179339,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -179385,7 +179386,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1625_571",
     "prevLineId": "tozai"
   },
@@ -179610,6 +179610,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -179657,7 +179658,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1738_25438",
     "throughLineId": "tozai"
   },
@@ -179848,6 +179848,7 @@
     "originStationId": "JB-39",
     "destinationStationId": "JB-10",
     "customOrigin": "館山",
+    "customDestination": "新宿",
     "cars": 5,
     "isHoliday": true,
     "stops": [
@@ -180032,14 +180033,13 @@
         "isPassing": false
       }
     ],
+    "prevTripId": "HD_INB_SB-03_1719_14408",
+    "prevLineId": "sotobo",
     "previousTrip": {
       "lineId": "sotobo",
       "tripId": "HD_INB_SB-03_1719_14408",
       "trainNumber": "9048M"
-    },
-    "customDestination": "新宿",
-    "prevTripId": "HD_INB_SB-03_1719_14408",
-    "prevLineId": "sotobo"
+    }
   },
   {
     "tripId": "HD_OUT_JB-01_1726_39827",
@@ -181147,6 +181147,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -181193,7 +181194,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1640_572",
     "prevLineId": "tozai"
   },
@@ -181666,6 +181666,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -181713,7 +181714,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1753_25440",
     "throughLineId": "tozai"
   },
@@ -181940,6 +181940,7 @@
     "originStationId": "JB-39",
     "destinationStationId": "JB-10",
     "customOrigin": "安房鴨川",
+    "customDestination": "新宿",
     "cars": 5,
     "isHoliday": true,
     "stops": [
@@ -182124,14 +182125,13 @@
         "isPassing": false
       }
     ],
+    "prevTripId": "HD_INB_SB-27_1617_14419",
+    "prevLineId": "sotobo",
     "previousTrip": {
       "lineId": "sotobo",
       "tripId": "HD_INB_SB-27_1617_14419",
       "trainNumber": "9056M"
-    },
-    "customDestination": "新宿",
-    "prevTripId": "HD_INB_SB-27_1617_14419",
-    "prevLineId": "sotobo"
+    }
   },
   {
     "tripId": "HD_OUT_JB-01_1741_39981",
@@ -183311,6 +183311,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -183357,7 +183358,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1655_574",
     "prevLineId": "tozai"
   },
@@ -183370,6 +183370,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -183417,7 +183418,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1808_25442",
     "throughLineId": "tozai"
   },
@@ -184351,6 +184351,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -184397,7 +184398,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1710_576",
     "prevLineId": "tozai"
   },
@@ -184870,6 +184870,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -184917,7 +184918,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1823_25444",
     "throughLineId": "tozai"
   },
@@ -185851,6 +185851,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -185897,7 +185898,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1725_578",
     "prevLineId": "tozai"
   },
@@ -186122,6 +186122,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "西船橋",
     "cars": 10,
     "isHoliday": true,
@@ -186169,7 +186170,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1839_25447",
     "throughLineId": "tozai"
   },
@@ -186855,6 +186855,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -186901,7 +186902,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1731_580",
     "prevLineId": "tozai"
   },
@@ -187162,6 +187162,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": true,
@@ -187209,7 +187210,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1853_35945",
     "throughLineId": "tozai"
   },
@@ -188603,6 +188603,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -188649,7 +188650,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1755_582",
     "prevLineId": "tozai"
   },
@@ -189971,6 +189971,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -190017,7 +190018,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1801_583",
     "prevLineId": "tozai"
   },
@@ -190526,6 +190526,7 @@
     "direction": "outbound",
     "originStationId": "JB-01",
     "destinationStationId": "JB-07",
+    "customOrigin": "三鷹",
     "customDestination": "東葉勝田台",
     "cars": 10,
     "isHoliday": true,
@@ -190573,7 +190574,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "三鷹",
     "throughTripId": "HD_OUT_T-01_1923_35947",
     "throughLineId": "tozai"
   },
@@ -191931,6 +191931,7 @@
     "originStationId": "JB-07",
     "destinationStationId": "JB-01",
     "customOrigin": "西船橋",
+    "customDestination": "三鷹",
     "cars": 10,
     "isHoliday": true,
     "stops": [
@@ -191977,7 +191978,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "三鷹",
     "prevTripId": "HD_INB_T-23_1825_584",
     "prevLineId": "tozai"
   },
@@ -210275,13 +210275,13 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_SB-01_0952_14400",
+    "throughLineId": "sotobo",
     "through": {
       "lineId": "sotobo",
       "tripId": "HD_OUT_SB-01_0952_14400",
       "trainNumber": "9045M"
-    },
-    "throughTripId": "HD_OUT_SB-01_0952_14400",
-    "throughLineId": "sotobo"
+    }
   },
   {
     "tripId": "HD_OUT_JB-10_0752_14399",
@@ -210479,13 +210479,13 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_SB-01_0837_14399",
+    "throughLineId": "sotobo",
     "through": {
       "lineId": "sotobo",
       "tripId": "HD_OUT_SB-01_0837_14399",
       "trainNumber": "9043M"
-    },
-    "throughTripId": "HD_OUT_SB-01_0837_14399",
-    "throughLineId": "sotobo"
+    }
   },
   {
     "tripId": "HD_OUT_JB-10_0721_14414",
@@ -210683,13 +210683,13 @@
         "isPassing": false
       }
     ],
+    "throughTripId": "HD_OUT_SB-01_0810_14414",
+    "throughLineId": "sotobo",
     "through": {
       "lineId": "sotobo",
       "tripId": "HD_OUT_SB-01_0810_14414",
       "trainNumber": "9055M"
-    },
-    "throughTripId": "HD_OUT_SB-01_0810_14414",
-    "throughLineId": "sotobo"
+    }
   },
   {
     "tripId": "WD_INB_JB-39_0638_39506",
@@ -210701,6 +210701,7 @@
     "direction": "inbound",
     "originStationId": "JB-39",
     "destinationStationId": "JB-10",
+    "customOrigin": "千葉",
     "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": false,
@@ -210886,18 +210887,17 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
+    "throughTripId": "WD_OUT_JC-05_0730_39461",
+    "throughLineId": "chuo",
     "coupling": {
       "role": "SECONDARY",
-      "fromStationId": "JB-39",
-      "toStationId": "JB-10",
       "coupledTripId": "WD_INB_JB-39_0638_39504",
       "coupledTrainNumber": "5003M",
       "coupledCars": 9,
-      "coupledDestination": "松本"
-    },
-    "throughTripId": "WD_OUT_JC-05_0730_39461",
-    "throughLineId": "chuo"
+      "coupledDestination": "松本",
+      "fromStationId": "JB-39",
+      "toStationId": "JB-10"
+    }
   },
   {
     "tripId": "HD_INB_JB-39_0638_39505",
@@ -210909,6 +210909,7 @@
     "direction": "inbound",
     "originStationId": "JB-39",
     "destinationStationId": "JB-10",
+    "customOrigin": "千葉",
     "customDestination": "河口湖",
     "cars": 3,
     "isHoliday": true,
@@ -211094,17 +211095,16 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "千葉",
+    "throughTripId": "HD_OUT_JC-05_0730_39460",
+    "throughLineId": "chuo",
     "coupling": {
       "role": "SECONDARY",
-      "fromStationId": "JB-39",
-      "toStationId": "JB-10",
       "coupledTripId": "HD_INB_JB-39_0638_39503",
       "coupledTrainNumber": "5003M",
       "coupledCars": 9,
-      "coupledDestination": "松本"
-    },
-    "throughTripId": "HD_OUT_JC-05_0730_39460",
-    "throughLineId": "chuo"
+      "coupledDestination": "松本",
+      "fromStationId": "JB-39",
+      "toStationId": "JB-10"
+    }
   }
 ]

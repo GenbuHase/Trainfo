@@ -2,12 +2,14 @@
   {
     "tripId": "WD_OUT_CA-00_0017_41324",
     "lineId": "tokaido_shizuoka",
+    "trainId": "41324",
     "trainNumber": "331M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
     "customOrigin": "古河",
+    "customDestination": "沼津",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -36,14 +38,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "41324",
-    "customDestination": "沼津",
     "prevTripId": "WD_OUT_JT-01_2225_41324",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_CA-03_0456_2359",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2359",
     "trainNumber": "1420M",
     "trainType": "local",
     "direction": "inbound",
@@ -76,12 +77,12 @@
         "departureTime": "05:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2359"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0517_2360",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2360",
     "trainNumber": "1422M",
     "trainType": "local",
     "direction": "inbound",
@@ -114,12 +115,12 @@
         "departureTime": "05:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2360"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0526_37874",
     "lineId": "tokaido_shizuoka",
+    "trainId": "37874",
     "trainNumber": "5032M",
     "trainType": "limitedExp",
     "trainName": "寝台特急 サンライズ瀬戸",
@@ -156,13 +157,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "37874",
     "throughTripId": "WD_INB_JT-21_0545_37874",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_CA-00_0532_18229",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18229",
     "trainNumber": "421M",
     "trainType": "local",
     "direction": "outbound",
@@ -196,12 +197,12 @@
         "departureTime": "06:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18229"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_0532_18285",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18285",
     "trainNumber": "735M",
     "trainType": "local",
     "direction": "outbound",
@@ -223,17 +224,18 @@
         "departureTime": "05:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18285"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0552_33865",
     "lineId": "tokaido_shizuoka",
+    "trainId": "33865",
     "trainNumber": "320M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "CA-03",
     "destinationStationId": "CA-00",
+    "customOrigin": "沼津",
     "customDestination": "小金井",
     "cars": 3,
     "isHoliday": false,
@@ -263,14 +265,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33865",
-    "customOrigin": "沼津",
     "throughTripId": "WD_INB_JT-21_0616_33865",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_CA-03_0601_26552",
     "lineId": "tokaido_shizuoka",
+    "trainId": "26552",
     "trainNumber": "2222M",
     "trainType": "local",
     "direction": "inbound",
@@ -292,17 +293,18 @@
         "departureTime": "06:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "26552"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0606_33869",
     "lineId": "tokaido_shizuoka",
+    "trainId": "33869",
     "trainNumber": "322M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "CA-03",
     "destinationStationId": "CA-00",
+    "customOrigin": "沼津",
     "customDestination": "宇都宮",
     "cars": 3,
     "isHoliday": false,
@@ -332,14 +334,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33869",
-    "customOrigin": "沼津",
     "throughTripId": "WD_INB_JT-21_0630_33869",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_CA-02_0616_18263",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18263",
     "trainNumber": "223M",
     "trainType": "local",
     "direction": "outbound",
@@ -360,12 +361,12 @@
         "departureTime": "06:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18263"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_0618_18223",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18223",
     "trainNumber": "423M",
     "trainType": "local",
     "direction": "outbound",
@@ -399,12 +400,12 @@
         "departureTime": "06:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18223"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0620_1845",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1845",
     "trainNumber": "1424M",
     "trainType": "local",
     "direction": "inbound",
@@ -438,17 +439,18 @@
         "departureTime": "06:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1845"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0632_33872",
     "lineId": "tokaido_shizuoka",
+    "trainId": "33872",
     "trainNumber": "324M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "CA-03",
     "destinationStationId": "CA-00",
+    "customOrigin": "沼津",
     "customDestination": "上野",
     "cars": 3,
     "isHoliday": false,
@@ -478,14 +480,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33872",
-    "customOrigin": "沼津",
     "throughTripId": "WD_INB_JT-21_0657_33872",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_CA-02_0638_38965",
     "lineId": "tokaido_shizuoka",
+    "trainId": "38965",
     "trainNumber": "2225M",
     "trainType": "local",
     "direction": "outbound",
@@ -507,12 +508,12 @@
         "departureTime": "06:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "38965"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0644_2361",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2361",
     "trainNumber": "1426M",
     "trainType": "local",
     "direction": "inbound",
@@ -545,12 +546,12 @@
         "departureTime": "07:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2361"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_0648_18230",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18230",
     "trainNumber": "425M",
     "trainType": "local",
     "direction": "outbound",
@@ -584,12 +585,12 @@
         "departureTime": "07:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18230"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0653_2393",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2393",
     "trainNumber": "722M",
     "trainType": "local",
     "direction": "inbound",
@@ -611,12 +612,12 @@
         "departureTime": "06:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2393"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0658_2362",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2362",
     "trainNumber": "1428M",
     "trainType": "local",
     "direction": "inbound",
@@ -649,18 +650,19 @@
         "departureTime": "07:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2362"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_0709_17757",
     "lineId": "tokaido_shizuoka",
+    "trainId": "17757",
     "trainNumber": "321M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
     "customOrigin": "東京",
+    "customDestination": "沼津",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -689,14 +691,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "17757",
-    "customDestination": "沼津",
     "prevTripId": "WD_OUT_JT-01_0520_17757",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_CA-02_0712_18286",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18286",
     "trainNumber": "743M",
     "trainType": "local",
     "direction": "outbound",
@@ -718,12 +719,12 @@
         "departureTime": "07:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18286"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0713_26556",
     "lineId": "tokaido_shizuoka",
+    "trainId": "26556",
     "trainNumber": "2228M",
     "trainType": "local",
     "direction": "inbound",
@@ -745,12 +746,12 @@
         "departureTime": "07:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "26556"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_0722_18231",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18231",
     "trainNumber": "427M",
     "trainType": "local",
     "direction": "outbound",
@@ -784,12 +785,12 @@
         "departureTime": "07:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18231"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0722_2397",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2397",
     "trainNumber": "420M",
     "trainType": "local",
     "direction": "inbound",
@@ -823,12 +824,12 @@
         "departureTime": "07:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2397"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_0728_18280",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18280",
     "trainNumber": "747M",
     "trainType": "local",
     "direction": "outbound",
@@ -850,17 +851,18 @@
         "departureTime": "07:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18280"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0735_33866",
     "lineId": "tokaido_shizuoka",
+    "trainId": "33866",
     "trainNumber": "326M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "CA-03",
     "destinationStationId": "CA-00",
+    "customOrigin": "沼津",
     "customDestination": "小金井",
     "cars": 3,
     "isHoliday": false,
@@ -890,14 +892,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33866",
-    "customOrigin": "沼津",
     "throughTripId": "WD_INB_JT-21_0754_33866",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_CA-03_0738_2402",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2402",
     "trainNumber": "724M",
     "trainType": "local",
     "direction": "inbound",
@@ -919,18 +920,19 @@
         "departureTime": "07:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2402"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_0745_17758",
     "lineId": "tokaido_shizuoka",
+    "trainId": "17758",
     "trainNumber": "323M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
     "customOrigin": "東京",
+    "customDestination": "沼津",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -959,14 +961,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "17758",
-    "customDestination": "沼津",
     "prevTripId": "WD_OUT_JT-01_0540_17758",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_CA-03_0747_2363",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2363",
     "trainNumber": "1430M",
     "trainType": "local",
     "direction": "inbound",
@@ -999,12 +1000,12 @@
         "departureTime": "08:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2363"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_0748_18283",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18283",
     "trainNumber": "749M",
     "trainType": "local",
     "direction": "outbound",
@@ -1026,12 +1027,12 @@
         "departureTime": "07:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18283"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0756_42161",
     "lineId": "tokaido_shizuoka",
+    "trainId": "42161",
     "trainNumber": "4222M",
     "trainType": "local",
     "direction": "inbound",
@@ -1065,12 +1066,12 @@
         "departureTime": "08:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42161"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_0802_18232",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18232",
     "trainNumber": "429M",
     "trainType": "local",
     "direction": "outbound",
@@ -1104,12 +1105,12 @@
         "departureTime": "08:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18232"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0808_2394",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2394",
     "trainNumber": "728M",
     "trainType": "local",
     "direction": "inbound",
@@ -1131,12 +1132,12 @@
         "departureTime": "08:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2394"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_0823_18211",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18211",
     "trainNumber": "1423M",
     "trainType": "local",
     "direction": "outbound",
@@ -1169,12 +1170,12 @@
         "departureTime": "08:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18211"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_0827_18287",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18287",
     "trainNumber": "759M",
     "trainType": "local",
     "direction": "outbound",
@@ -1196,17 +1197,18 @@
         "departureTime": "08:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18287"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0829_42929",
     "lineId": "tokaido_shizuoka",
+    "trainId": "42929",
     "trainNumber": "328M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "CA-03",
     "destinationStationId": "CA-00",
+    "customOrigin": "沼津",
     "customDestination": "小田原",
     "cars": 3,
     "isHoliday": false,
@@ -1236,14 +1238,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "42929",
-    "customOrigin": "沼津",
     "throughTripId": "WD_INB_JT-21_0851_42929",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_CA-03_0840_2398",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2398",
     "trainNumber": "424M",
     "trainType": "local",
     "direction": "inbound",
@@ -1277,12 +1278,12 @@
         "departureTime": "08:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2398"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_0847_18212",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18212",
     "trainNumber": "1425M",
     "trainType": "local",
     "direction": "outbound",
@@ -1315,12 +1316,12 @@
         "departureTime": "09:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18212"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0847_2395",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2395",
     "trainNumber": "736M",
     "trainType": "local",
     "direction": "inbound",
@@ -1342,12 +1343,12 @@
         "departureTime": "08:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2395"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0859_1892",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1892",
     "trainNumber": "426M",
     "trainType": "local",
     "direction": "inbound",
@@ -1381,12 +1382,12 @@
         "departureTime": "09:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1892"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_0905_18288",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18288",
     "trainNumber": "763M",
     "trainType": "local",
     "direction": "outbound",
@@ -1408,12 +1409,12 @@
         "departureTime": "09:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18288"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_0907_18233",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18233",
     "trainNumber": "431M",
     "trainType": "local",
     "direction": "outbound",
@@ -1447,12 +1448,12 @@
         "departureTime": "09:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18233"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0911_1893",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1893",
     "trainNumber": "428M",
     "trainType": "local",
     "direction": "inbound",
@@ -1486,12 +1487,12 @@
         "departureTime": "09:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1893"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_0923_18217",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18217",
     "trainNumber": "1427M",
     "trainType": "local",
     "direction": "outbound",
@@ -1525,12 +1526,12 @@
         "departureTime": "09:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18217"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0932_1894",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1894",
     "trainNumber": "430M",
     "trainType": "local",
     "direction": "inbound",
@@ -1564,12 +1565,12 @@
         "departureTime": "09:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1894"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0935_26553",
     "lineId": "tokaido_shizuoka",
+    "trainId": "26553",
     "trainNumber": "2232M",
     "trainType": "local",
     "direction": "inbound",
@@ -1591,12 +1592,12 @@
         "departureTime": "09:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "26553"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_0937_18234",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18234",
     "trainNumber": "433M",
     "trainType": "local",
     "direction": "outbound",
@@ -1630,12 +1631,12 @@
         "departureTime": "09:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18234"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_0945_2399",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2399",
     "trainNumber": "432M",
     "trainType": "local",
     "direction": "inbound",
@@ -1669,12 +1670,12 @@
         "departureTime": "10:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2399"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1000_18235",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18235",
     "trainNumber": "435M",
     "trainType": "local",
     "direction": "outbound",
@@ -1708,12 +1709,12 @@
         "departureTime": "10:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18235"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1000_18264",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18264",
     "trainNumber": "229M",
     "trainType": "local",
     "direction": "outbound",
@@ -1734,12 +1735,12 @@
         "departureTime": "10:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18264"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1005_2400",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2400",
     "trainNumber": "434M",
     "trainType": "local",
     "direction": "inbound",
@@ -1773,12 +1774,12 @@
         "departureTime": "10:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2400"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1011_2349",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2349",
     "trainNumber": "234M",
     "trainType": "local",
     "direction": "inbound",
@@ -1799,12 +1800,12 @@
         "departureTime": "10:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2349"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1016_18236",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18236",
     "trainNumber": "437M",
     "trainType": "local",
     "direction": "outbound",
@@ -1838,12 +1839,12 @@
         "departureTime": "10:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18236"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1021_18265",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18265",
     "trainNumber": "231M",
     "trainType": "local",
     "direction": "outbound",
@@ -1864,12 +1865,12 @@
         "departureTime": "10:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18265"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1023_1895",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1895",
     "trainNumber": "436M",
     "trainType": "local",
     "direction": "inbound",
@@ -1903,12 +1904,12 @@
         "departureTime": "10:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1895"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1025_41930",
     "lineId": "tokaido_shizuoka",
+    "trainId": "41930",
     "trainNumber": "4021M",
     "trainType": "limitedExp",
     "trainName": "踊り子1号",
@@ -1939,15 +1940,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "41930",
-    "prevTripId": "WD_OUT_JT-01_0900_41930",
-    "prevLineId": "tokaido",
     "throughTripId": "WD_OUT_IS-01_1040_41961",
-    "throughLineId": "izuhakone_sunzu"
+    "throughLineId": "izuhakone_sunzu",
+    "prevTripId": "WD_OUT_JT-01_0900_41930",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_CA-00_1031_18237",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18237",
     "trainNumber": "439M",
     "trainType": "local",
     "direction": "outbound",
@@ -1981,12 +1982,12 @@
         "departureTime": "10:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18237"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1040_1896",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1896",
     "trainNumber": "438M",
     "trainType": "local",
     "direction": "inbound",
@@ -2020,12 +2021,12 @@
         "departureTime": "10:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1896"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1051_18238",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18238",
     "trainNumber": "441M",
     "trainType": "local",
     "direction": "outbound",
@@ -2059,12 +2060,12 @@
         "departureTime": "11:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18238"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1053_2367",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2367",
     "trainNumber": "236M",
     "trainType": "local",
     "direction": "inbound",
@@ -2086,12 +2087,12 @@
         "departureTime": "10:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2367"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1107_1897",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1897",
     "trainNumber": "440M",
     "trainType": "local",
     "direction": "inbound",
@@ -2125,12 +2126,12 @@
         "departureTime": "11:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1897"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1113_18266",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18266",
     "trainNumber": "233M",
     "trainType": "local",
     "direction": "outbound",
@@ -2151,12 +2152,12 @@
         "departureTime": "11:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18266"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1114_18239",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18239",
     "trainNumber": "443M",
     "trainType": "local",
     "direction": "outbound",
@@ -2190,12 +2191,12 @@
         "departureTime": "11:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18239"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1122_1898",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1898",
     "trainNumber": "442M",
     "trainType": "local",
     "direction": "inbound",
@@ -2229,12 +2230,12 @@
         "departureTime": "11:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1898"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1127_2350",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2350",
     "trainNumber": "238M",
     "trainType": "local",
     "direction": "inbound",
@@ -2255,12 +2256,12 @@
         "departureTime": "11:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2350"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1137_18240",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18240",
     "trainNumber": "445M",
     "trainType": "local",
     "direction": "outbound",
@@ -2294,12 +2295,12 @@
         "departureTime": "11:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18240"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1139_18267",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18267",
     "trainNumber": "235M",
     "trainType": "local",
     "direction": "outbound",
@@ -2320,12 +2321,12 @@
         "departureTime": "11:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18267"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1140_1899",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1899",
     "trainNumber": "444M",
     "trainType": "local",
     "direction": "inbound",
@@ -2359,12 +2360,12 @@
         "departureTime": "11:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1899"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1149_18241",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18241",
     "trainNumber": "447M",
     "trainType": "local",
     "direction": "outbound",
@@ -2398,12 +2399,12 @@
         "departureTime": "12:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18241"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1151_2351",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2351",
     "trainNumber": "240M",
     "trainType": "local",
     "direction": "inbound",
@@ -2424,12 +2425,12 @@
         "departureTime": "11:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2351"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1202_1900",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1900",
     "trainNumber": "446M",
     "trainType": "local",
     "direction": "inbound",
@@ -2463,12 +2464,12 @@
         "departureTime": "12:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1900"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1208_18242",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18242",
     "trainNumber": "449M",
     "trainType": "local",
     "direction": "outbound",
@@ -2502,12 +2503,12 @@
         "departureTime": "12:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18242"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1208_18268",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18268",
     "trainNumber": "237M",
     "trainType": "local",
     "direction": "outbound",
@@ -2528,12 +2529,12 @@
         "departureTime": "12:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18268"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1221_1901",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1901",
     "trainNumber": "448M",
     "trainType": "local",
     "direction": "inbound",
@@ -2567,12 +2568,12 @@
         "departureTime": "12:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1901"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1229_2352",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2352",
     "trainNumber": "242M",
     "trainType": "local",
     "direction": "inbound",
@@ -2593,12 +2594,12 @@
         "departureTime": "12:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2352"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1233_18243",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18243",
     "trainNumber": "451M",
     "trainType": "local",
     "direction": "outbound",
@@ -2632,12 +2633,12 @@
         "departureTime": "12:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18243"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1239_18269",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18269",
     "trainNumber": "241M",
     "trainType": "local",
     "direction": "outbound",
@@ -2658,12 +2659,12 @@
         "departureTime": "12:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18269"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1244_1902",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1902",
     "trainNumber": "450M",
     "trainType": "local",
     "direction": "inbound",
@@ -2697,12 +2698,12 @@
         "departureTime": "13:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1902"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1250_2353",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2353",
     "trainNumber": "244M",
     "trainType": "local",
     "direction": "inbound",
@@ -2723,12 +2724,12 @@
         "departureTime": "12:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2353"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1256_18244",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18244",
     "trainNumber": "453M",
     "trainType": "local",
     "direction": "outbound",
@@ -2762,12 +2763,12 @@
         "departureTime": "13:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18244"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1300_18279",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18279",
     "trainNumber": "243M",
     "trainType": "local",
     "direction": "outbound",
@@ -2789,12 +2790,12 @@
         "departureTime": "13:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18279"
+    ]
   },
   {
     "tripId": "WD_INB_CA-02_1304_41933",
     "lineId": "tokaido_shizuoka",
+    "trainId": "41933",
     "trainNumber": "4024M",
     "trainType": "limitedExp",
     "trainName": "踊り子4号",
@@ -2825,7 +2826,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "41933",
     "throughTripId": "WD_INB_JT-21_1332_41933",
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IS-13_1235_41964",
@@ -2834,6 +2834,7 @@
   {
     "tripId": "WD_INB_CA-03_1306_1903",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1903",
     "trainNumber": "452M",
     "trainType": "local",
     "direction": "inbound",
@@ -2867,12 +2868,12 @@
         "departureTime": "13:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1903"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1314_18245",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18245",
     "trainNumber": "455M",
     "trainType": "local",
     "direction": "outbound",
@@ -2906,12 +2907,12 @@
         "departureTime": "13:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18245"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1323_1904",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1904",
     "trainNumber": "454M",
     "trainType": "local",
     "direction": "inbound",
@@ -2945,12 +2946,12 @@
         "departureTime": "13:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1904"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1325_41932",
     "lineId": "tokaido_shizuoka",
+    "trainId": "41932",
     "trainNumber": "4029M",
     "trainType": "limitedExp",
     "trainName": "踊り子9号",
@@ -2981,15 +2982,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "41932",
-    "prevTripId": "WD_OUT_JT-01_1200_41932",
-    "prevLineId": "tokaido",
     "throughTripId": "WD_OUT_IS-01_1340_41963",
-    "throughLineId": "izuhakone_sunzu"
+    "throughLineId": "izuhakone_sunzu",
+    "prevTripId": "WD_OUT_JT-01_1200_41932",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_CA-00_1331_18246",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18246",
     "trainNumber": "457M",
     "trainType": "local",
     "direction": "outbound",
@@ -3023,12 +3024,12 @@
         "departureTime": "13:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18246"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1333_2368",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2368",
     "trainNumber": "246M",
     "trainType": "local",
     "direction": "inbound",
@@ -3050,12 +3051,12 @@
         "departureTime": "13:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2368"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1344_1905",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1905",
     "trainNumber": "456M",
     "trainType": "local",
     "direction": "inbound",
@@ -3089,12 +3090,12 @@
         "departureTime": "14:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1905"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1354_18247",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18247",
     "trainNumber": "459M",
     "trainType": "local",
     "direction": "outbound",
@@ -3128,12 +3129,12 @@
         "departureTime": "14:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18247"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1400_18270",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18270",
     "trainNumber": "247M",
     "trainType": "local",
     "direction": "outbound",
@@ -3154,12 +3155,12 @@
         "departureTime": "14:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18270"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1403_1847",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1847",
     "trainNumber": "1434M",
     "trainType": "local",
     "direction": "inbound",
@@ -3193,12 +3194,12 @@
         "departureTime": "14:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1847"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1411_2354",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2354",
     "trainNumber": "248M",
     "trainType": "local",
     "direction": "inbound",
@@ -3219,12 +3220,12 @@
         "departureTime": "14:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2354"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1413_18219",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18219",
     "trainNumber": "1429M",
     "trainType": "local",
     "direction": "outbound",
@@ -3258,12 +3259,12 @@
         "departureTime": "14:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18219"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1429_1906",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1906",
     "trainNumber": "458M",
     "trainType": "local",
     "direction": "inbound",
@@ -3297,12 +3298,12 @@
         "departureTime": "14:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1906"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1436_18271",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18271",
     "trainNumber": "249M",
     "trainType": "local",
     "direction": "outbound",
@@ -3323,12 +3324,12 @@
         "departureTime": "14:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18271"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1437_18248",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18248",
     "trainNumber": "461M",
     "trainType": "local",
     "direction": "outbound",
@@ -3362,12 +3363,12 @@
         "departureTime": "14:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18248"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1441_2369",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2369",
     "trainNumber": "250M",
     "trainType": "local",
     "direction": "inbound",
@@ -3389,12 +3390,12 @@
         "departureTime": "14:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2369"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1449_1907",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1907",
     "trainNumber": "462M",
     "trainType": "local",
     "direction": "inbound",
@@ -3428,12 +3429,12 @@
         "departureTime": "15:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1907"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1452_18224",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18224",
     "trainNumber": "463M",
     "trainType": "local",
     "direction": "outbound",
@@ -3467,12 +3468,12 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18224"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1456_18272",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18272",
     "trainNumber": "251M",
     "trainType": "local",
     "direction": "outbound",
@@ -3493,12 +3494,12 @@
         "departureTime": "15:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18272"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1507_2355",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2355",
     "trainNumber": "252M",
     "trainType": "local",
     "direction": "inbound",
@@ -3519,12 +3520,12 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2355"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1513_1908",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1908",
     "trainNumber": "464M",
     "trainType": "local",
     "direction": "inbound",
@@ -3558,12 +3559,12 @@
         "departureTime": "15:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1908"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1519_18249",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18249",
     "trainNumber": "465M",
     "trainType": "local",
     "direction": "outbound",
@@ -3597,12 +3598,12 @@
         "departureTime": "15:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18249"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1525_18281",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18281",
     "trainNumber": "781M",
     "trainType": "local",
     "direction": "outbound",
@@ -3624,12 +3625,12 @@
         "departureTime": "15:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18281"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1526_1909",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1909",
     "trainNumber": "466M",
     "trainType": "local",
     "direction": "inbound",
@@ -3663,12 +3664,12 @@
         "departureTime": "15:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1909"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1537_18250",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18250",
     "trainNumber": "467M",
     "trainType": "local",
     "direction": "outbound",
@@ -3702,12 +3703,12 @@
         "departureTime": "15:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18250"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1541_2356",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2356",
     "trainNumber": "254M",
     "trainType": "local",
     "direction": "inbound",
@@ -3728,12 +3729,12 @@
         "departureTime": "15:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2356"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1548_1910",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1910",
     "trainNumber": "468M",
     "trainType": "local",
     "direction": "inbound",
@@ -3767,12 +3768,12 @@
         "departureTime": "16:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1910"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1556_18225",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18225",
     "trainNumber": "469M",
     "trainType": "local",
     "direction": "outbound",
@@ -3806,12 +3807,12 @@
         "departureTime": "16:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18225"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1602_18273",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18273",
     "trainNumber": "253M",
     "trainType": "local",
     "direction": "outbound",
@@ -3832,12 +3833,12 @@
         "departureTime": "16:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18273"
+    ]
   },
   {
     "tripId": "WD_INB_CA-02_1606_41935",
     "lineId": "tokaido_shizuoka",
+    "trainId": "41935",
     "trainNumber": "4030M",
     "trainType": "limitedExp",
     "trainName": "踊り子10号",
@@ -3868,7 +3869,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "41935",
     "throughTripId": "WD_INB_JT-21_1629_41935",
     "throughLineId": "tokaido",
     "prevTripId": "WD_INB_IS-13_1539_41966",
@@ -3877,6 +3877,7 @@
   {
     "tripId": "WD_INB_CA-03_1609_1848",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1848",
     "trainNumber": "1436M",
     "trainType": "local",
     "direction": "inbound",
@@ -3910,12 +3911,12 @@
         "departureTime": "16:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1848"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1617_18251",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18251",
     "trainNumber": "471M",
     "trainType": "local",
     "direction": "outbound",
@@ -3949,12 +3950,12 @@
         "departureTime": "16:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18251"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1622_1911",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1911",
     "trainNumber": "470M",
     "trainType": "local",
     "direction": "inbound",
@@ -3988,12 +3989,12 @@
         "departureTime": "16:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1911"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1629_2357",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2357",
     "trainNumber": "256M",
     "trainType": "local",
     "direction": "inbound",
@@ -4014,12 +4015,12 @@
         "departureTime": "16:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2357"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1637_18226",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18226",
     "trainNumber": "473M",
     "trainType": "local",
     "direction": "outbound",
@@ -4053,12 +4054,12 @@
         "departureTime": "17:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18226"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1641_1912",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1912",
     "trainNumber": "472M",
     "trainType": "local",
     "direction": "inbound",
@@ -4092,12 +4093,12 @@
         "departureTime": "17:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1912"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1641_18289",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18289",
     "trainNumber": "787M",
     "trainType": "local",
     "direction": "outbound",
@@ -4119,12 +4120,12 @@
         "departureTime": "16:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18289"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1648_2396",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2396",
     "trainNumber": "762M",
     "trainType": "local",
     "direction": "inbound",
@@ -4146,12 +4147,12 @@
         "departureTime": "16:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2396"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1658_18252",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18252",
     "trainNumber": "475M",
     "trainType": "local",
     "direction": "outbound",
@@ -4185,12 +4186,12 @@
         "departureTime": "17:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18252"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1700_18274",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18274",
     "trainNumber": "255M",
     "trainType": "local",
     "direction": "outbound",
@@ -4211,12 +4212,12 @@
         "departureTime": "17:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18274"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1701_1913",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1913",
     "trainNumber": "474M",
     "trainType": "local",
     "direction": "inbound",
@@ -4250,12 +4251,12 @@
         "departureTime": "17:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1913"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1710_18253",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18253",
     "trainNumber": "477M",
     "trainType": "local",
     "direction": "outbound",
@@ -4289,12 +4290,12 @@
         "departureTime": "17:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18253"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1714_2358",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2358",
     "trainNumber": "258M",
     "trainType": "local",
     "direction": "inbound",
@@ -4315,18 +4316,19 @@
         "departureTime": "17:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2358"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1723_17759",
     "lineId": "tokaido_shizuoka",
+    "trainId": "17759",
     "trainNumber": "325M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
     "customOrigin": "国府津",
+    "customDestination": "沼津",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4355,14 +4357,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "17759",
-    "customDestination": "沼津",
     "prevTripId": "WD_OUT_JT-14_1653_17759",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_CA-03_1725_1914",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1914",
     "trainNumber": "476M",
     "trainType": "local",
     "direction": "inbound",
@@ -4396,12 +4397,12 @@
         "departureTime": "17:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1914"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1731_18284",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18284",
     "trainNumber": "791M",
     "trainType": "local",
     "direction": "outbound",
@@ -4423,12 +4424,12 @@
         "departureTime": "17:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18284"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1737_18227",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18227",
     "trainNumber": "479M",
     "trainType": "local",
     "direction": "outbound",
@@ -4462,12 +4463,12 @@
         "departureTime": "17:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18227"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1740_1915",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1915",
     "trainNumber": "478M",
     "trainType": "local",
     "direction": "inbound",
@@ -4501,12 +4502,12 @@
         "departureTime": "17:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1915"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1750_18254",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18254",
     "trainNumber": "481M",
     "trainType": "local",
     "direction": "outbound",
@@ -4540,12 +4541,12 @@
         "departureTime": "18:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18254"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1756_2401",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2401",
     "trainNumber": "480M",
     "trainType": "local",
     "direction": "inbound",
@@ -4579,12 +4580,12 @@
         "departureTime": "18:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2401"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1808_18255",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18255",
     "trainNumber": "483M",
     "trainType": "local",
     "direction": "outbound",
@@ -4618,12 +4619,12 @@
         "departureTime": "18:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18255"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1810_2364",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2364",
     "trainNumber": "1438M",
     "trainType": "local",
     "direction": "inbound",
@@ -4656,12 +4657,12 @@
         "departureTime": "18:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2364"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1820_18213",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18213",
     "trainNumber": "1431M",
     "trainType": "local",
     "direction": "outbound",
@@ -4694,12 +4695,12 @@
         "departureTime": "18:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18213"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1824_1916",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1916",
     "trainNumber": "482M",
     "trainType": "local",
     "direction": "inbound",
@@ -4733,12 +4734,12 @@
         "departureTime": "18:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1916"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1839_18214",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18214",
     "trainNumber": "1433M",
     "trainType": "local",
     "direction": "outbound",
@@ -4771,12 +4772,12 @@
         "departureTime": "18:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18214"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1839_26554",
     "lineId": "tokaido_shizuoka",
+    "trainId": "26554",
     "trainNumber": "2262M",
     "trainType": "local",
     "direction": "inbound",
@@ -4798,12 +4799,12 @@
         "departureTime": "18:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "26554"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1844_1917",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1917",
     "trainNumber": "484M",
     "trainType": "local",
     "direction": "inbound",
@@ -4837,12 +4838,12 @@
         "departureTime": "19:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1917"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1855_18256",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18256",
     "trainNumber": "485M",
     "trainType": "local",
     "direction": "outbound",
@@ -4876,12 +4877,12 @@
         "departureTime": "19:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18256"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1855_1918",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1918",
     "trainNumber": "486M",
     "trainType": "local",
     "direction": "inbound",
@@ -4915,12 +4916,12 @@
         "departureTime": "19:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1918"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_1902_38966",
     "lineId": "tokaido_shizuoka",
+    "trainId": "38966",
     "trainNumber": "2257M",
     "trainType": "local",
     "direction": "outbound",
@@ -4942,12 +4943,12 @@
         "departureTime": "19:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "38966"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1903_2365",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2365",
     "trainNumber": "1440M",
     "trainType": "local",
     "direction": "inbound",
@@ -4980,12 +4981,12 @@
         "departureTime": "19:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2365"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1911_18220",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18220",
     "trainNumber": "1435M",
     "trainType": "local",
     "direction": "outbound",
@@ -5019,12 +5020,12 @@
         "departureTime": "19:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18220"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1913_1920",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1920",
     "trainNumber": "488M",
     "trainType": "local",
     "direction": "inbound",
@@ -5058,12 +5059,12 @@
         "departureTime": "19:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1920"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1925_18258",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18258",
     "trainNumber": "487M",
     "trainType": "local",
     "direction": "outbound",
@@ -5097,12 +5098,12 @@
         "departureTime": "19:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18258"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1933_1921",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1921",
     "trainNumber": "490M",
     "trainType": "local",
     "direction": "inbound",
@@ -5136,12 +5137,12 @@
         "departureTime": "19:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1921"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1936_18215",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18215",
     "trainNumber": "1437M",
     "trainType": "local",
     "direction": "outbound",
@@ -5174,12 +5175,12 @@
         "departureTime": "19:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18215"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_1944_18259",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18259",
     "trainNumber": "489M",
     "trainType": "local",
     "direction": "outbound",
@@ -5213,12 +5214,12 @@
         "departureTime": "20:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18259"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1944_26555",
     "lineId": "tokaido_shizuoka",
+    "trainId": "26555",
     "trainNumber": "2264M",
     "trainType": "local",
     "direction": "inbound",
@@ -5240,12 +5241,12 @@
         "departureTime": "19:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "26555"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_1954_1923",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1923",
     "trainNumber": "492M",
     "trainType": "local",
     "direction": "inbound",
@@ -5279,12 +5280,12 @@
         "departureTime": "20:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1923"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_2007_18228",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18228",
     "trainNumber": "491M",
     "trainType": "local",
     "direction": "outbound",
@@ -5318,12 +5319,12 @@
         "departureTime": "20:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18228"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_2008_38967",
     "lineId": "tokaido_shizuoka",
+    "trainId": "38967",
     "trainNumber": "2259M",
     "trainType": "local",
     "direction": "outbound",
@@ -5345,12 +5346,12 @@
         "departureTime": "20:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "38967"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_2011_1842",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1842",
     "trainNumber": "774M",
     "trainType": "local",
     "direction": "inbound",
@@ -5372,12 +5373,12 @@
         "departureTime": "20:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1842"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_2018_1924",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1924",
     "trainNumber": "494M",
     "trainType": "local",
     "direction": "inbound",
@@ -5411,12 +5412,12 @@
         "departureTime": "20:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1924"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_2027_18261",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18261",
     "trainNumber": "493M",
     "trainType": "local",
     "direction": "outbound",
@@ -5450,12 +5451,12 @@
         "departureTime": "20:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18261"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_2033_1843",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1843",
     "trainNumber": "776M",
     "trainType": "local",
     "direction": "inbound",
@@ -5477,12 +5478,12 @@
         "departureTime": "20:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1843"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_2034_18275",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18275",
     "trainNumber": "261M",
     "trainType": "local",
     "direction": "outbound",
@@ -5503,12 +5504,12 @@
         "departureTime": "20:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18275"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_2041_2366",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2366",
     "trainNumber": "1442M",
     "trainType": "local",
     "direction": "inbound",
@@ -5541,12 +5542,12 @@
         "departureTime": "20:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2366"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_2047_18262",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18262",
     "trainNumber": "495M",
     "trainType": "local",
     "direction": "outbound",
@@ -5580,12 +5581,12 @@
         "departureTime": "21:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18262"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_2055_38968",
     "lineId": "tokaido_shizuoka",
+    "trainId": "38968",
     "trainNumber": "2263M",
     "trainType": "local",
     "direction": "outbound",
@@ -5607,12 +5608,12 @@
         "departureTime": "21:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "38968"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_2105_1925",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1925",
     "trainNumber": "496M",
     "trainType": "local",
     "direction": "inbound",
@@ -5646,18 +5647,19 @@
         "departureTime": "21:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1925"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_2111_34299",
     "lineId": "tokaido_shizuoka",
+    "trainId": "34299",
     "trainNumber": "327M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
     "customOrigin": "籠原",
+    "customDestination": "沼津",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -5686,14 +5688,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34299",
-    "customDestination": "沼津",
     "prevTripId": "WD_OUT_JT-01_1916_34299",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_CA-03_2121_1889",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1889",
     "trainNumber": "782M",
     "trainType": "local",
     "direction": "inbound",
@@ -5715,12 +5716,12 @@
         "departureTime": "21:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1889"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_2133_18221",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18221",
     "trainNumber": "1441M",
     "trainType": "local",
     "direction": "outbound",
@@ -5754,12 +5755,12 @@
         "departureTime": "21:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18221"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_2134_1926",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1926",
     "trainNumber": "498M",
     "trainType": "local",
     "direction": "inbound",
@@ -5793,12 +5794,12 @@
         "departureTime": "21:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1926"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_2134_18276",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18276",
     "trainNumber": "265M",
     "trainType": "local",
     "direction": "outbound",
@@ -5819,12 +5820,12 @@
         "departureTime": "21:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18276"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_2147_1844",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1844",
     "trainNumber": "786M",
     "trainType": "local",
     "direction": "inbound",
@@ -5846,12 +5847,12 @@
         "departureTime": "21:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1844"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_2159_18222",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18222",
     "trainNumber": "1443M",
     "trainType": "local",
     "direction": "outbound",
@@ -5885,12 +5886,12 @@
         "departureTime": "22:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18222"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_2202_38964",
     "lineId": "tokaido_shizuoka",
+    "trainId": "38964",
     "trainNumber": "2269M",
     "trainType": "local",
     "direction": "outbound",
@@ -5912,12 +5913,12 @@
         "departureTime": "22:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "38964"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_2210_1849",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1849",
     "trainNumber": "1446M",
     "trainType": "local",
     "direction": "inbound",
@@ -5951,12 +5952,12 @@
         "departureTime": "22:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1849"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_2235_18277",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18277",
     "trainNumber": "271M",
     "trainType": "local",
     "direction": "outbound",
@@ -5977,12 +5978,12 @@
         "departureTime": "22:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18277"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_2236_18216",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18216",
     "trainNumber": "1447M",
     "trainType": "local",
     "direction": "outbound",
@@ -6015,12 +6016,12 @@
         "departureTime": "22:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18216"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_2239_1890",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1890",
     "trainNumber": "792M",
     "trainType": "local",
     "direction": "inbound",
@@ -6042,12 +6043,12 @@
         "departureTime": "22:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1890"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_2257_37351",
     "lineId": "tokaido_shizuoka",
+    "trainId": "37351",
     "trainNumber": "5031M",
     "trainType": "limitedExp",
     "trainName": "寝台特急 サンライズ出雲",
@@ -6084,13 +6085,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "37351",
     "prevTripId": "WD_OUT_JT-01_2126_37351",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_OUT_CA-02_2306_18282",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18282",
     "trainNumber": "833M",
     "trainType": "local",
     "direction": "outbound",
@@ -6112,12 +6113,12 @@
         "departureTime": "23:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18282"
+    ]
   },
   {
     "tripId": "WD_INB_CA-03_2309_1891",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1891",
     "trainNumber": "798M",
     "trainType": "local",
     "direction": "inbound",
@@ -6139,18 +6140,19 @@
         "departureTime": "23:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1891"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-00_2317_34302",
     "lineId": "tokaido_shizuoka",
+    "trainId": "34302",
     "trainNumber": "329M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
     "customOrigin": "籠原",
+    "customDestination": "沼津",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -6179,14 +6181,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34302",
-    "customDestination": "沼津",
     "prevTripId": "WD_OUT_JT-01_2120_34302",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "WD_INB_CA-03_2336_1978",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1978",
     "trainNumber": "1936M",
     "trainType": "local",
     "direction": "inbound",
@@ -6208,12 +6209,12 @@
         "departureTime": "23:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1978"
+    ]
   },
   {
     "tripId": "WD_OUT_CA-02_2347_18278",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18278",
     "trainNumber": "277M",
     "trainType": "local",
     "direction": "outbound",
@@ -6234,18 +6235,19 @@
         "departureTime": "23:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18278"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_0017_41325",
     "lineId": "tokaido_shizuoka",
+    "trainId": "41325",
     "trainNumber": "331M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
     "customOrigin": "小金井",
+    "customDestination": "沼津",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6274,14 +6276,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "41325",
-    "customDestination": "沼津",
     "prevTripId": "HD_OUT_JT-01_2222_41325",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_CA-03_0456_2359",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2359",
     "trainNumber": "1420M",
     "trainType": "local",
     "direction": "inbound",
@@ -6314,12 +6315,12 @@
         "departureTime": "05:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2359"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0517_2360",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2360",
     "trainNumber": "1422M",
     "trainType": "local",
     "direction": "inbound",
@@ -6352,12 +6353,12 @@
         "departureTime": "05:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2360"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0526_37874",
     "lineId": "tokaido_shizuoka",
+    "trainId": "37874",
     "trainNumber": "5032M",
     "trainType": "limitedExp",
     "trainName": "寝台特急 サンライズ瀬戸",
@@ -6394,13 +6395,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "37874",
     "throughTripId": "HD_INB_JT-21_0545_37874",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_CA-00_0532_18229",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18229",
     "trainNumber": "421M",
     "trainType": "local",
     "direction": "outbound",
@@ -6434,12 +6435,12 @@
         "departureTime": "06:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18229"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_0532_18285",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18285",
     "trainNumber": "735M",
     "trainType": "local",
     "direction": "outbound",
@@ -6461,17 +6462,18 @@
         "departureTime": "05:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18285"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0552_33870",
     "lineId": "tokaido_shizuoka",
+    "trainId": "33870",
     "trainNumber": "5320M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "CA-03",
     "destinationStationId": "CA-00",
+    "customOrigin": "沼津",
     "customDestination": "上野",
     "cars": 3,
     "isHoliday": true,
@@ -6501,14 +6503,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33870",
-    "customOrigin": "沼津",
     "throughTripId": "HD_INB_JT-21_0616_33870",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_CA-03_0601_26552",
     "lineId": "tokaido_shizuoka",
+    "trainId": "26552",
     "trainNumber": "2222M",
     "trainType": "local",
     "direction": "inbound",
@@ -6530,17 +6531,18 @@
         "departureTime": "06:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "26552"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0606_33868",
     "lineId": "tokaido_shizuoka",
+    "trainId": "33868",
     "trainNumber": "322M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "CA-03",
     "destinationStationId": "CA-00",
+    "customOrigin": "沼津",
     "customDestination": "宇都宮",
     "cars": 3,
     "isHoliday": true,
@@ -6570,14 +6572,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33868",
-    "customOrigin": "沼津",
     "throughTripId": "HD_INB_JT-21_0630_33868",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_CA-02_0616_18263",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18263",
     "trainNumber": "223M",
     "trainType": "local",
     "direction": "outbound",
@@ -6598,12 +6599,12 @@
         "departureTime": "06:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18263"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_0618_18218",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18218",
     "trainNumber": "5423M",
     "trainType": "local",
     "direction": "outbound",
@@ -6637,12 +6638,12 @@
         "departureTime": "06:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18218"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0620_1845",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1845",
     "trainNumber": "1424M",
     "trainType": "local",
     "direction": "inbound",
@@ -6676,17 +6677,18 @@
         "departureTime": "06:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1845"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0632_33871",
     "lineId": "tokaido_shizuoka",
+    "trainId": "33871",
     "trainNumber": "324M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "CA-03",
     "destinationStationId": "CA-00",
+    "customOrigin": "沼津",
     "customDestination": "上野",
     "cars": 3,
     "isHoliday": true,
@@ -6716,14 +6718,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33871",
-    "customOrigin": "沼津",
     "throughTripId": "HD_INB_JT-21_0657_33871",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_CA-02_0638_38965",
     "lineId": "tokaido_shizuoka",
+    "trainId": "38965",
     "trainNumber": "2225M",
     "trainType": "local",
     "direction": "outbound",
@@ -6745,12 +6746,12 @@
         "departureTime": "06:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "38965"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0644_2361",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2361",
     "trainNumber": "1426M",
     "trainType": "local",
     "direction": "inbound",
@@ -6783,12 +6784,12 @@
         "departureTime": "07:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2361"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_0648_18230",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18230",
     "trainNumber": "425M",
     "trainType": "local",
     "direction": "outbound",
@@ -6822,12 +6823,12 @@
         "departureTime": "07:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18230"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0653_2393",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2393",
     "trainNumber": "722M",
     "trainType": "local",
     "direction": "inbound",
@@ -6849,12 +6850,12 @@
         "departureTime": "06:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2393"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0658_2362",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2362",
     "trainNumber": "1428M",
     "trainType": "local",
     "direction": "inbound",
@@ -6887,18 +6888,19 @@
         "departureTime": "07:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2362"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_0709_17757",
     "lineId": "tokaido_shizuoka",
+    "trainId": "17757",
     "trainNumber": "321M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
     "customOrigin": "東京",
+    "customDestination": "沼津",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6927,14 +6929,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "17757",
-    "customDestination": "沼津",
     "prevTripId": "HD_OUT_JT-01_0520_17757",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_CA-02_0712_18286",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18286",
     "trainNumber": "743M",
     "trainType": "local",
     "direction": "outbound",
@@ -6956,12 +6957,12 @@
         "departureTime": "07:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18286"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0713_26556",
     "lineId": "tokaido_shizuoka",
+    "trainId": "26556",
     "trainNumber": "2228M",
     "trainType": "local",
     "direction": "inbound",
@@ -6983,12 +6984,12 @@
         "departureTime": "07:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "26556"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_0722_18231",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18231",
     "trainNumber": "427M",
     "trainType": "local",
     "direction": "outbound",
@@ -7022,12 +7023,12 @@
         "departureTime": "07:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18231"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0722_2397",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2397",
     "trainNumber": "420M",
     "trainType": "local",
     "direction": "inbound",
@@ -7061,12 +7062,12 @@
         "departureTime": "07:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2397"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_0728_18280",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18280",
     "trainNumber": "747M",
     "trainType": "local",
     "direction": "outbound",
@@ -7088,17 +7089,18 @@
         "departureTime": "07:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18280"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0735_33867",
     "lineId": "tokaido_shizuoka",
+    "trainId": "33867",
     "trainNumber": "326M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "CA-03",
     "destinationStationId": "CA-00",
+    "customOrigin": "沼津",
     "customDestination": "小金井",
     "cars": 3,
     "isHoliday": true,
@@ -7128,14 +7130,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "33867",
-    "customOrigin": "沼津",
     "throughTripId": "HD_INB_JT-21_0754_33867",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_CA-03_0738_2402",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2402",
     "trainNumber": "724M",
     "trainType": "local",
     "direction": "inbound",
@@ -7157,18 +7158,19 @@
         "departureTime": "07:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2402"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_0745_17758",
     "lineId": "tokaido_shizuoka",
+    "trainId": "17758",
     "trainNumber": "323M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
     "customOrigin": "東京",
+    "customDestination": "沼津",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -7197,14 +7199,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "17758",
-    "customDestination": "沼津",
     "prevTripId": "HD_OUT_JT-01_0540_17758",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_CA-03_0747_2363",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2363",
     "trainNumber": "1430M",
     "trainType": "local",
     "direction": "inbound",
@@ -7237,12 +7238,12 @@
         "departureTime": "08:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2363"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_0748_18283",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18283",
     "trainNumber": "749M",
     "trainType": "local",
     "direction": "outbound",
@@ -7264,12 +7265,12 @@
         "departureTime": "07:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18283"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0756_42161",
     "lineId": "tokaido_shizuoka",
+    "trainId": "42161",
     "trainNumber": "4222M",
     "trainType": "local",
     "direction": "inbound",
@@ -7303,12 +7304,12 @@
         "departureTime": "08:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42161"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_0802_18232",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18232",
     "trainNumber": "429M",
     "trainType": "local",
     "direction": "outbound",
@@ -7342,12 +7343,12 @@
         "departureTime": "08:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18232"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0808_2394",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2394",
     "trainNumber": "728M",
     "trainType": "local",
     "direction": "inbound",
@@ -7369,12 +7370,12 @@
         "departureTime": "08:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2394"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_0823_18211",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18211",
     "trainNumber": "1423M",
     "trainType": "local",
     "direction": "outbound",
@@ -7407,12 +7408,12 @@
         "departureTime": "08:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18211"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_0827_18287",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18287",
     "trainNumber": "759M",
     "trainType": "local",
     "direction": "outbound",
@@ -7434,17 +7435,18 @@
         "departureTime": "08:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18287"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0829_42929",
     "lineId": "tokaido_shizuoka",
+    "trainId": "42929",
     "trainNumber": "328M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "CA-03",
     "destinationStationId": "CA-00",
+    "customOrigin": "沼津",
     "customDestination": "小田原",
     "cars": 3,
     "isHoliday": true,
@@ -7474,14 +7476,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "42929",
-    "customOrigin": "沼津",
     "throughTripId": "HD_INB_JT-21_0851_42929",
     "throughLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_CA-03_0840_2398",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2398",
     "trainNumber": "424M",
     "trainType": "local",
     "direction": "inbound",
@@ -7515,12 +7516,12 @@
         "departureTime": "08:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2398"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_0847_18212",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18212",
     "trainNumber": "1425M",
     "trainType": "local",
     "direction": "outbound",
@@ -7553,12 +7554,12 @@
         "departureTime": "09:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18212"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0847_2395",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2395",
     "trainNumber": "736M",
     "trainType": "local",
     "direction": "inbound",
@@ -7580,12 +7581,12 @@
         "departureTime": "08:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2395"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0859_1892",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1892",
     "trainNumber": "426M",
     "trainType": "local",
     "direction": "inbound",
@@ -7619,12 +7620,12 @@
         "departureTime": "09:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1892"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_0905_18288",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18288",
     "trainNumber": "763M",
     "trainType": "local",
     "direction": "outbound",
@@ -7646,12 +7647,12 @@
         "departureTime": "09:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18288"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_0907_18233",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18233",
     "trainNumber": "431M",
     "trainType": "local",
     "direction": "outbound",
@@ -7685,12 +7686,12 @@
         "departureTime": "09:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18233"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0911_1893",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1893",
     "trainNumber": "428M",
     "trainType": "local",
     "direction": "inbound",
@@ -7724,12 +7725,12 @@
         "departureTime": "09:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1893"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_0923_18217",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18217",
     "trainNumber": "1427M",
     "trainType": "local",
     "direction": "outbound",
@@ -7763,12 +7764,12 @@
         "departureTime": "09:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18217"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0932_1894",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1894",
     "trainNumber": "430M",
     "trainType": "local",
     "direction": "inbound",
@@ -7802,12 +7803,12 @@
         "departureTime": "09:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1894"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0935_26553",
     "lineId": "tokaido_shizuoka",
+    "trainId": "26553",
     "trainNumber": "2232M",
     "trainType": "local",
     "direction": "inbound",
@@ -7829,12 +7830,12 @@
         "departureTime": "09:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "26553"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_0937_18234",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18234",
     "trainNumber": "433M",
     "trainType": "local",
     "direction": "outbound",
@@ -7868,12 +7869,12 @@
         "departureTime": "09:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18234"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_0945_1846",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1846",
     "trainNumber": "5432M",
     "trainType": "local",
     "direction": "inbound",
@@ -7907,12 +7908,12 @@
         "departureTime": "10:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1846"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1000_18235",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18235",
     "trainNumber": "435M",
     "trainType": "local",
     "direction": "outbound",
@@ -7946,12 +7947,12 @@
         "departureTime": "10:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18235"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1000_18264",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18264",
     "trainNumber": "229M",
     "trainType": "local",
     "direction": "outbound",
@@ -7972,12 +7973,12 @@
         "departureTime": "10:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18264"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1005_2400",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2400",
     "trainNumber": "434M",
     "trainType": "local",
     "direction": "inbound",
@@ -8011,12 +8012,12 @@
         "departureTime": "10:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2400"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1011_2349",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2349",
     "trainNumber": "234M",
     "trainType": "local",
     "direction": "inbound",
@@ -8037,12 +8038,12 @@
         "departureTime": "10:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2349"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1016_18236",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18236",
     "trainNumber": "437M",
     "trainType": "local",
     "direction": "outbound",
@@ -8076,12 +8077,12 @@
         "departureTime": "10:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18236"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1021_18265",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18265",
     "trainNumber": "231M",
     "trainType": "local",
     "direction": "outbound",
@@ -8102,12 +8103,12 @@
         "departureTime": "10:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18265"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1023_1895",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1895",
     "trainNumber": "436M",
     "trainType": "local",
     "direction": "inbound",
@@ -8141,12 +8142,12 @@
         "departureTime": "10:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1895"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1025_41930",
     "lineId": "tokaido_shizuoka",
+    "trainId": "41930",
     "trainNumber": "4021M",
     "trainType": "limitedExp",
     "trainName": "踊り子1号",
@@ -8177,15 +8178,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "41930",
-    "prevTripId": "HD_OUT_JT-01_0900_41930",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IS-01_1040_41961",
-    "throughLineId": "izuhakone_sunzu"
+    "throughLineId": "izuhakone_sunzu",
+    "prevTripId": "HD_OUT_JT-01_0900_41930",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_CA-00_1031_18237",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18237",
     "trainNumber": "439M",
     "trainType": "local",
     "direction": "outbound",
@@ -8219,12 +8220,12 @@
         "departureTime": "10:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18237"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1040_1896",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1896",
     "trainNumber": "438M",
     "trainType": "local",
     "direction": "inbound",
@@ -8258,12 +8259,12 @@
         "departureTime": "10:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1896"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1051_18238",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18238",
     "trainNumber": "441M",
     "trainType": "local",
     "direction": "outbound",
@@ -8297,12 +8298,12 @@
         "departureTime": "11:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18238"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1053_2367",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2367",
     "trainNumber": "236M",
     "trainType": "local",
     "direction": "inbound",
@@ -8324,12 +8325,12 @@
         "departureTime": "10:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2367"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1107_1897",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1897",
     "trainNumber": "440M",
     "trainType": "local",
     "direction": "inbound",
@@ -8363,12 +8364,12 @@
         "departureTime": "11:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1897"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1113_18266",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18266",
     "trainNumber": "233M",
     "trainType": "local",
     "direction": "outbound",
@@ -8389,12 +8390,12 @@
         "departureTime": "11:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18266"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1114_18239",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18239",
     "trainNumber": "443M",
     "trainType": "local",
     "direction": "outbound",
@@ -8428,12 +8429,12 @@
         "departureTime": "11:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18239"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1122_1898",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1898",
     "trainNumber": "442M",
     "trainType": "local",
     "direction": "inbound",
@@ -8467,12 +8468,12 @@
         "departureTime": "11:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1898"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1127_2350",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2350",
     "trainNumber": "238M",
     "trainType": "local",
     "direction": "inbound",
@@ -8493,12 +8494,12 @@
         "departureTime": "11:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2350"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1137_18240",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18240",
     "trainNumber": "445M",
     "trainType": "local",
     "direction": "outbound",
@@ -8532,12 +8533,12 @@
         "departureTime": "11:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18240"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1139_18267",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18267",
     "trainNumber": "235M",
     "trainType": "local",
     "direction": "outbound",
@@ -8558,12 +8559,12 @@
         "departureTime": "11:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18267"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1140_1899",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1899",
     "trainNumber": "444M",
     "trainType": "local",
     "direction": "inbound",
@@ -8597,12 +8598,12 @@
         "departureTime": "11:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1899"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1149_18241",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18241",
     "trainNumber": "447M",
     "trainType": "local",
     "direction": "outbound",
@@ -8636,12 +8637,12 @@
         "departureTime": "12:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18241"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1151_2351",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2351",
     "trainNumber": "240M",
     "trainType": "local",
     "direction": "inbound",
@@ -8662,12 +8663,12 @@
         "departureTime": "11:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2351"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1156_41931",
     "lineId": "tokaido_shizuoka",
+    "trainId": "41931",
     "trainNumber": "8077M",
     "trainType": "limitedExp",
     "trainName": "踊り子7号",
@@ -8698,15 +8699,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "41931",
-    "prevTripId": "HD_OUT_JT-01_1030_41931",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IS-01_1211_41962",
-    "throughLineId": "izuhakone_sunzu"
+    "throughLineId": "izuhakone_sunzu",
+    "prevTripId": "HD_OUT_JT-01_1030_41931",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_CA-03_1202_1900",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1900",
     "trainNumber": "446M",
     "trainType": "local",
     "direction": "inbound",
@@ -8740,12 +8741,12 @@
         "departureTime": "12:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1900"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1208_18242",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18242",
     "trainNumber": "449M",
     "trainType": "local",
     "direction": "outbound",
@@ -8779,12 +8780,12 @@
         "departureTime": "12:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18242"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1208_18268",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18268",
     "trainNumber": "237M",
     "trainType": "local",
     "direction": "outbound",
@@ -8805,12 +8806,12 @@
         "departureTime": "12:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18268"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1221_1901",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1901",
     "trainNumber": "448M",
     "trainType": "local",
     "direction": "inbound",
@@ -8844,12 +8845,12 @@
         "departureTime": "12:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1901"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1229_2352",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2352",
     "trainNumber": "242M",
     "trainType": "local",
     "direction": "inbound",
@@ -8870,12 +8871,12 @@
         "departureTime": "12:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2352"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1233_18243",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18243",
     "trainNumber": "451M",
     "trainType": "local",
     "direction": "outbound",
@@ -8909,12 +8910,12 @@
         "departureTime": "12:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18243"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1239_18269",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18269",
     "trainNumber": "241M",
     "trainType": "local",
     "direction": "outbound",
@@ -8935,12 +8936,12 @@
         "departureTime": "12:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18269"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1244_1902",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1902",
     "trainNumber": "450M",
     "trainType": "local",
     "direction": "inbound",
@@ -8974,12 +8975,12 @@
         "departureTime": "13:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1902"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1250_2353",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2353",
     "trainNumber": "244M",
     "trainType": "local",
     "direction": "inbound",
@@ -9000,12 +9001,12 @@
         "departureTime": "12:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2353"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1256_18244",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18244",
     "trainNumber": "453M",
     "trainType": "local",
     "direction": "outbound",
@@ -9039,12 +9040,12 @@
         "departureTime": "13:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18244"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1300_18279",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18279",
     "trainNumber": "243M",
     "trainType": "local",
     "direction": "outbound",
@@ -9066,12 +9067,12 @@
         "departureTime": "13:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18279"
+    ]
   },
   {
     "tripId": "HD_INB_CA-02_1304_41933",
     "lineId": "tokaido_shizuoka",
+    "trainId": "41933",
     "trainNumber": "4024M",
     "trainType": "limitedExp",
     "trainName": "踊り子4号",
@@ -9102,7 +9103,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "41933",
     "throughTripId": "HD_INB_JT-21_1332_41933",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IS-13_1235_41964",
@@ -9111,6 +9111,7 @@
   {
     "tripId": "HD_INB_CA-03_1306_1903",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1903",
     "trainNumber": "452M",
     "trainType": "local",
     "direction": "inbound",
@@ -9144,12 +9145,12 @@
         "departureTime": "13:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1903"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1314_18245",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18245",
     "trainNumber": "455M",
     "trainType": "local",
     "direction": "outbound",
@@ -9183,12 +9184,12 @@
         "departureTime": "13:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18245"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1323_1904",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1904",
     "trainNumber": "454M",
     "trainType": "local",
     "direction": "inbound",
@@ -9222,12 +9223,12 @@
         "departureTime": "13:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1904"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1325_41932",
     "lineId": "tokaido_shizuoka",
+    "trainId": "41932",
     "trainNumber": "4029M",
     "trainType": "limitedExp",
     "trainName": "踊り子9号",
@@ -9258,15 +9259,15 @@
         "isPassing": false
       }
     ],
-    "trainId": "41932",
-    "prevTripId": "HD_OUT_JT-01_1200_41932",
-    "prevLineId": "tokaido",
     "throughTripId": "HD_OUT_IS-01_1340_41963",
-    "throughLineId": "izuhakone_sunzu"
+    "throughLineId": "izuhakone_sunzu",
+    "prevTripId": "HD_OUT_JT-01_1200_41932",
+    "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_CA-00_1331_18246",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18246",
     "trainNumber": "457M",
     "trainType": "local",
     "direction": "outbound",
@@ -9300,12 +9301,12 @@
         "departureTime": "13:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18246"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1333_2368",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2368",
     "trainNumber": "246M",
     "trainType": "local",
     "direction": "inbound",
@@ -9327,12 +9328,12 @@
         "departureTime": "13:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2368"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1344_1905",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1905",
     "trainNumber": "456M",
     "trainType": "local",
     "direction": "inbound",
@@ -9366,12 +9367,12 @@
         "departureTime": "14:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1905"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1354_18247",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18247",
     "trainNumber": "459M",
     "trainType": "local",
     "direction": "outbound",
@@ -9405,12 +9406,12 @@
         "departureTime": "14:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18247"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1400_18270",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18270",
     "trainNumber": "247M",
     "trainType": "local",
     "direction": "outbound",
@@ -9431,12 +9432,12 @@
         "departureTime": "14:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18270"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1403_1847",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1847",
     "trainNumber": "1434M",
     "trainType": "local",
     "direction": "inbound",
@@ -9470,12 +9471,12 @@
         "departureTime": "14:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1847"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1411_2354",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2354",
     "trainNumber": "248M",
     "trainType": "local",
     "direction": "inbound",
@@ -9496,12 +9497,12 @@
         "departureTime": "14:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2354"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1413_18219",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18219",
     "trainNumber": "1429M",
     "trainType": "local",
     "direction": "outbound",
@@ -9535,12 +9536,12 @@
         "departureTime": "14:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18219"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1429_1906",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1906",
     "trainNumber": "458M",
     "trainType": "local",
     "direction": "inbound",
@@ -9574,12 +9575,12 @@
         "departureTime": "14:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1906"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1436_18271",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18271",
     "trainNumber": "249M",
     "trainType": "local",
     "direction": "outbound",
@@ -9600,12 +9601,12 @@
         "departureTime": "14:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18271"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1437_18248",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18248",
     "trainNumber": "461M",
     "trainType": "local",
     "direction": "outbound",
@@ -9639,12 +9640,12 @@
         "departureTime": "14:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18248"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1441_2369",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2369",
     "trainNumber": "250M",
     "trainType": "local",
     "direction": "inbound",
@@ -9666,12 +9667,12 @@
         "departureTime": "14:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2369"
+    ]
   },
   {
     "tripId": "HD_INB_CA-02_1445_41934",
     "lineId": "tokaido_shizuoka",
+    "trainId": "41934",
     "trainNumber": "8078M",
     "trainType": "limitedExp",
     "trainName": "踊り子8号",
@@ -9702,7 +9703,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "41934",
     "throughTripId": "HD_INB_JT-21_1508_41934",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IS-13_1418_41965",
@@ -9711,6 +9711,7 @@
   {
     "tripId": "HD_INB_CA-03_1449_1907",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1907",
     "trainNumber": "462M",
     "trainType": "local",
     "direction": "inbound",
@@ -9744,12 +9745,12 @@
         "departureTime": "15:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1907"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1452_18224",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18224",
     "trainNumber": "463M",
     "trainType": "local",
     "direction": "outbound",
@@ -9783,12 +9784,12 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18224"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1456_18272",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18272",
     "trainNumber": "251M",
     "trainType": "local",
     "direction": "outbound",
@@ -9809,12 +9810,12 @@
         "departureTime": "15:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18272"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1507_2355",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2355",
     "trainNumber": "252M",
     "trainType": "local",
     "direction": "inbound",
@@ -9835,12 +9836,12 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2355"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1513_1908",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1908",
     "trainNumber": "464M",
     "trainType": "local",
     "direction": "inbound",
@@ -9874,12 +9875,12 @@
         "departureTime": "15:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1908"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1519_18249",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18249",
     "trainNumber": "465M",
     "trainType": "local",
     "direction": "outbound",
@@ -9913,12 +9914,12 @@
         "departureTime": "15:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18249"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1525_18281",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18281",
     "trainNumber": "781M",
     "trainType": "local",
     "direction": "outbound",
@@ -9940,12 +9941,12 @@
         "departureTime": "15:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18281"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1526_1909",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1909",
     "trainNumber": "466M",
     "trainType": "local",
     "direction": "inbound",
@@ -9979,12 +9980,12 @@
         "departureTime": "15:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1909"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1537_18250",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18250",
     "trainNumber": "467M",
     "trainType": "local",
     "direction": "outbound",
@@ -10018,12 +10019,12 @@
         "departureTime": "15:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18250"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1541_2356",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2356",
     "trainNumber": "254M",
     "trainType": "local",
     "direction": "inbound",
@@ -10044,12 +10045,12 @@
         "departureTime": "15:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2356"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1548_1910",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1910",
     "trainNumber": "468M",
     "trainType": "local",
     "direction": "inbound",
@@ -10083,12 +10084,12 @@
         "departureTime": "16:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1910"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1556_18225",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18225",
     "trainNumber": "469M",
     "trainType": "local",
     "direction": "outbound",
@@ -10122,12 +10123,12 @@
         "departureTime": "16:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18225"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1602_18273",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18273",
     "trainNumber": "253M",
     "trainType": "local",
     "direction": "outbound",
@@ -10148,12 +10149,12 @@
         "departureTime": "16:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18273"
+    ]
   },
   {
     "tripId": "HD_INB_CA-02_1606_41935",
     "lineId": "tokaido_shizuoka",
+    "trainId": "41935",
     "trainNumber": "4030M",
     "trainType": "limitedExp",
     "trainName": "踊り子10号",
@@ -10184,7 +10185,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "41935",
     "throughTripId": "HD_INB_JT-21_1629_41935",
     "throughLineId": "tokaido",
     "prevTripId": "HD_INB_IS-13_1539_41966",
@@ -10193,6 +10193,7 @@
   {
     "tripId": "HD_INB_CA-03_1609_1848",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1848",
     "trainNumber": "1436M",
     "trainType": "local",
     "direction": "inbound",
@@ -10226,12 +10227,12 @@
         "departureTime": "16:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1848"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1617_18251",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18251",
     "trainNumber": "471M",
     "trainType": "local",
     "direction": "outbound",
@@ -10265,12 +10266,12 @@
         "departureTime": "16:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18251"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1622_1911",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1911",
     "trainNumber": "470M",
     "trainType": "local",
     "direction": "inbound",
@@ -10304,12 +10305,12 @@
         "departureTime": "16:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1911"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1629_2357",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2357",
     "trainNumber": "256M",
     "trainType": "local",
     "direction": "inbound",
@@ -10330,12 +10331,12 @@
         "departureTime": "16:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2357"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1637_18226",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18226",
     "trainNumber": "473M",
     "trainType": "local",
     "direction": "outbound",
@@ -10369,12 +10370,12 @@
         "departureTime": "17:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18226"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1641_1912",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1912",
     "trainNumber": "472M",
     "trainType": "local",
     "direction": "inbound",
@@ -10408,12 +10409,12 @@
         "departureTime": "17:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1912"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1641_18289",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18289",
     "trainNumber": "787M",
     "trainType": "local",
     "direction": "outbound",
@@ -10435,12 +10436,12 @@
         "departureTime": "16:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18289"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1648_2396",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2396",
     "trainNumber": "762M",
     "trainType": "local",
     "direction": "inbound",
@@ -10462,12 +10463,12 @@
         "departureTime": "16:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2396"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1658_18252",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18252",
     "trainNumber": "475M",
     "trainType": "local",
     "direction": "outbound",
@@ -10501,12 +10502,12 @@
         "departureTime": "17:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18252"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1700_18274",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18274",
     "trainNumber": "255M",
     "trainType": "local",
     "direction": "outbound",
@@ -10527,12 +10528,12 @@
         "departureTime": "17:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18274"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1701_1913",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1913",
     "trainNumber": "474M",
     "trainType": "local",
     "direction": "inbound",
@@ -10566,12 +10567,12 @@
         "departureTime": "17:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1913"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1710_18253",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18253",
     "trainNumber": "477M",
     "trainType": "local",
     "direction": "outbound",
@@ -10605,12 +10606,12 @@
         "departureTime": "17:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18253"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1714_2358",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2358",
     "trainNumber": "258M",
     "trainType": "local",
     "direction": "inbound",
@@ -10631,18 +10632,19 @@
         "departureTime": "17:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2358"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1723_17759",
     "lineId": "tokaido_shizuoka",
+    "trainId": "17759",
     "trainNumber": "325M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
     "customOrigin": "国府津",
+    "customDestination": "沼津",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -10671,14 +10673,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "17759",
-    "customDestination": "沼津",
     "prevTripId": "HD_OUT_JT-14_1653_17759",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_CA-03_1725_1914",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1914",
     "trainNumber": "476M",
     "trainType": "local",
     "direction": "inbound",
@@ -10712,12 +10713,12 @@
         "departureTime": "17:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1914"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1731_18284",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18284",
     "trainNumber": "791M",
     "trainType": "local",
     "direction": "outbound",
@@ -10739,12 +10740,12 @@
         "departureTime": "17:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18284"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1737_18227",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18227",
     "trainNumber": "479M",
     "trainType": "local",
     "direction": "outbound",
@@ -10778,12 +10779,12 @@
         "departureTime": "17:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18227"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1740_1915",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1915",
     "trainNumber": "478M",
     "trainType": "local",
     "direction": "inbound",
@@ -10817,12 +10818,12 @@
         "departureTime": "17:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1915"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1750_18254",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18254",
     "trainNumber": "481M",
     "trainType": "local",
     "direction": "outbound",
@@ -10856,12 +10857,12 @@
         "departureTime": "18:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18254"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1756_2401",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2401",
     "trainNumber": "480M",
     "trainType": "local",
     "direction": "inbound",
@@ -10895,12 +10896,12 @@
         "departureTime": "18:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2401"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1808_18255",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18255",
     "trainNumber": "483M",
     "trainType": "local",
     "direction": "outbound",
@@ -10934,12 +10935,12 @@
         "departureTime": "18:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18255"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1810_2364",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2364",
     "trainNumber": "1438M",
     "trainType": "local",
     "direction": "inbound",
@@ -10972,12 +10973,12 @@
         "departureTime": "18:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2364"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1820_18213",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18213",
     "trainNumber": "1431M",
     "trainType": "local",
     "direction": "outbound",
@@ -11010,12 +11011,12 @@
         "departureTime": "18:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18213"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1824_1916",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1916",
     "trainNumber": "482M",
     "trainType": "local",
     "direction": "inbound",
@@ -11049,12 +11050,12 @@
         "departureTime": "18:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1916"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1839_18214",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18214",
     "trainNumber": "1433M",
     "trainType": "local",
     "direction": "outbound",
@@ -11087,12 +11088,12 @@
         "departureTime": "18:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18214"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1839_26554",
     "lineId": "tokaido_shizuoka",
+    "trainId": "26554",
     "trainNumber": "2262M",
     "trainType": "local",
     "direction": "inbound",
@@ -11114,12 +11115,12 @@
         "departureTime": "18:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "26554"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1844_1917",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1917",
     "trainNumber": "484M",
     "trainType": "local",
     "direction": "inbound",
@@ -11153,12 +11154,12 @@
         "departureTime": "19:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1917"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1855_18257",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18257",
     "trainNumber": "5485M",
     "trainType": "local",
     "direction": "outbound",
@@ -11192,12 +11193,12 @@
         "departureTime": "19:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18257"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1855_1919",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1919",
     "trainNumber": "5486M",
     "trainType": "local",
     "direction": "inbound",
@@ -11231,12 +11232,12 @@
         "departureTime": "19:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1919"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_1902_38966",
     "lineId": "tokaido_shizuoka",
+    "trainId": "38966",
     "trainNumber": "2257M",
     "trainType": "local",
     "direction": "outbound",
@@ -11258,12 +11259,12 @@
         "departureTime": "19:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "38966"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1903_2365",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2365",
     "trainNumber": "1440M",
     "trainType": "local",
     "direction": "inbound",
@@ -11296,12 +11297,12 @@
         "departureTime": "19:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2365"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1911_18220",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18220",
     "trainNumber": "1435M",
     "trainType": "local",
     "direction": "outbound",
@@ -11335,12 +11336,12 @@
         "departureTime": "19:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18220"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1913_1920",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1920",
     "trainNumber": "488M",
     "trainType": "local",
     "direction": "inbound",
@@ -11374,12 +11375,12 @@
         "departureTime": "19:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1920"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1925_18258",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18258",
     "trainNumber": "487M",
     "trainType": "local",
     "direction": "outbound",
@@ -11413,12 +11414,12 @@
         "departureTime": "19:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18258"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1933_1921",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1921",
     "trainNumber": "490M",
     "trainType": "local",
     "direction": "inbound",
@@ -11452,12 +11453,12 @@
         "departureTime": "19:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1921"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1936_18215",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18215",
     "trainNumber": "1437M",
     "trainType": "local",
     "direction": "outbound",
@@ -11490,12 +11491,12 @@
         "departureTime": "19:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18215"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_1944_18260",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18260",
     "trainNumber": "5489M",
     "trainType": "local",
     "direction": "outbound",
@@ -11529,12 +11530,12 @@
         "departureTime": "20:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18260"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1944_26555",
     "lineId": "tokaido_shizuoka",
+    "trainId": "26555",
     "trainNumber": "2264M",
     "trainType": "local",
     "direction": "inbound",
@@ -11556,12 +11557,12 @@
         "departureTime": "19:50:00",
         "isPassing": false
       }
-    ],
-    "trainId": "26555"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_1954_1922",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1922",
     "trainNumber": "5492M",
     "trainType": "local",
     "direction": "inbound",
@@ -11595,12 +11596,12 @@
         "departureTime": "20:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1922"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_2007_18228",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18228",
     "trainNumber": "491M",
     "trainType": "local",
     "direction": "outbound",
@@ -11634,12 +11635,12 @@
         "departureTime": "20:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18228"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_2008_38967",
     "lineId": "tokaido_shizuoka",
+    "trainId": "38967",
     "trainNumber": "2259M",
     "trainType": "local",
     "direction": "outbound",
@@ -11661,12 +11662,12 @@
         "departureTime": "20:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "38967"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_2011_1842",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1842",
     "trainNumber": "774M",
     "trainType": "local",
     "direction": "inbound",
@@ -11688,12 +11689,12 @@
         "departureTime": "20:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1842"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_2018_1924",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1924",
     "trainNumber": "494M",
     "trainType": "local",
     "direction": "inbound",
@@ -11727,12 +11728,12 @@
         "departureTime": "20:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1924"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_2027_18261",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18261",
     "trainNumber": "493M",
     "trainType": "local",
     "direction": "outbound",
@@ -11766,12 +11767,12 @@
         "departureTime": "20:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18261"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_2033_1843",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1843",
     "trainNumber": "776M",
     "trainType": "local",
     "direction": "inbound",
@@ -11793,12 +11794,12 @@
         "departureTime": "20:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1843"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_2034_18275",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18275",
     "trainNumber": "261M",
     "trainType": "local",
     "direction": "outbound",
@@ -11819,12 +11820,12 @@
         "departureTime": "20:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18275"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_2041_2366",
     "lineId": "tokaido_shizuoka",
+    "trainId": "2366",
     "trainNumber": "1442M",
     "trainType": "local",
     "direction": "inbound",
@@ -11857,12 +11858,12 @@
         "departureTime": "20:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2366"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_2047_18262",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18262",
     "trainNumber": "495M",
     "trainType": "local",
     "direction": "outbound",
@@ -11896,12 +11897,12 @@
         "departureTime": "21:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18262"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_2055_38968",
     "lineId": "tokaido_shizuoka",
+    "trainId": "38968",
     "trainNumber": "2263M",
     "trainType": "local",
     "direction": "outbound",
@@ -11923,12 +11924,12 @@
         "departureTime": "21:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "38968"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_2105_1925",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1925",
     "trainNumber": "496M",
     "trainType": "local",
     "direction": "inbound",
@@ -11962,18 +11963,19 @@
         "departureTime": "21:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1925"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_2111_34300",
     "lineId": "tokaido_shizuoka",
+    "trainId": "34300",
     "trainNumber": "327M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
     "customOrigin": "籠原",
+    "customDestination": "沼津",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -12002,14 +12004,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34300",
-    "customDestination": "沼津",
     "prevTripId": "HD_OUT_JT-01_1916_34300",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_CA-03_2121_1889",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1889",
     "trainNumber": "782M",
     "trainType": "local",
     "direction": "inbound",
@@ -12031,12 +12032,12 @@
         "departureTime": "21:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1889"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_2133_18221",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18221",
     "trainNumber": "1441M",
     "trainType": "local",
     "direction": "outbound",
@@ -12070,12 +12071,12 @@
         "departureTime": "21:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18221"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_2134_1926",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1926",
     "trainNumber": "498M",
     "trainType": "local",
     "direction": "inbound",
@@ -12109,12 +12110,12 @@
         "departureTime": "21:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1926"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_2134_18276",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18276",
     "trainNumber": "265M",
     "trainType": "local",
     "direction": "outbound",
@@ -12135,12 +12136,12 @@
         "departureTime": "21:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18276"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_2147_1844",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1844",
     "trainNumber": "786M",
     "trainType": "local",
     "direction": "inbound",
@@ -12162,12 +12163,12 @@
         "departureTime": "21:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1844"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_2159_18222",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18222",
     "trainNumber": "1443M",
     "trainType": "local",
     "direction": "outbound",
@@ -12201,12 +12202,12 @@
         "departureTime": "22:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18222"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_2202_38964",
     "lineId": "tokaido_shizuoka",
+    "trainId": "38964",
     "trainNumber": "2269M",
     "trainType": "local",
     "direction": "outbound",
@@ -12228,12 +12229,12 @@
         "departureTime": "22:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "38964"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_2210_1849",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1849",
     "trainNumber": "1446M",
     "trainType": "local",
     "direction": "inbound",
@@ -12267,12 +12268,12 @@
         "departureTime": "22:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1849"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_2235_18277",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18277",
     "trainNumber": "271M",
     "trainType": "local",
     "direction": "outbound",
@@ -12293,12 +12294,12 @@
         "departureTime": "22:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18277"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_2236_18216",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18216",
     "trainNumber": "1447M",
     "trainType": "local",
     "direction": "outbound",
@@ -12331,12 +12332,12 @@
         "departureTime": "22:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18216"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_2239_1890",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1890",
     "trainNumber": "792M",
     "trainType": "local",
     "direction": "inbound",
@@ -12358,12 +12359,12 @@
         "departureTime": "22:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1890"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_2257_37351",
     "lineId": "tokaido_shizuoka",
+    "trainId": "37351",
     "trainNumber": "5031M",
     "trainType": "limitedExp",
     "trainName": "寝台特急 サンライズ出雲",
@@ -12400,13 +12401,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "37351",
     "prevTripId": "HD_OUT_JT-01_2126_37351",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_OUT_CA-02_2306_18282",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18282",
     "trainNumber": "833M",
     "trainType": "local",
     "direction": "outbound",
@@ -12428,12 +12429,12 @@
         "departureTime": "23:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18282"
+    ]
   },
   {
     "tripId": "HD_INB_CA-03_2309_1891",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1891",
     "trainNumber": "798M",
     "trainType": "local",
     "direction": "inbound",
@@ -12455,18 +12456,19 @@
         "departureTime": "23:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1891"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-00_2317_34301",
     "lineId": "tokaido_shizuoka",
+    "trainId": "34301",
     "trainNumber": "329M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "CA-00",
     "destinationStationId": "CA-03",
     "customOrigin": "籠原",
+    "customDestination": "沼津",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -12495,14 +12497,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "34301",
-    "customDestination": "沼津",
     "prevTripId": "HD_OUT_JT-01_2120_34301",
     "prevLineId": "tokaido"
   },
   {
     "tripId": "HD_INB_CA-03_2336_1978",
     "lineId": "tokaido_shizuoka",
+    "trainId": "1978",
     "trainNumber": "1936M",
     "trainType": "local",
     "direction": "inbound",
@@ -12524,12 +12525,12 @@
         "departureTime": "23:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "1978"
+    ]
   },
   {
     "tripId": "HD_OUT_CA-02_2347_18290",
     "lineId": "tokaido_shizuoka",
+    "trainId": "18290",
     "trainNumber": "277M",
     "trainType": "local",
     "direction": "outbound",
@@ -12551,7 +12552,6 @@
         "departureTime": "23:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "18290"
+    ]
   }
 ]

@@ -2,12 +2,14 @@
   {
     "tripId": "WD_OUT_UE-07_0526_13810",
     "lineId": "uetsu_main",
+    "trainId": "13810",
     "trainNumber": "3921M",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -66,19 +68,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "13810",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_0501_13810",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-15_0526_13822",
     "lineId": "uetsu_main",
+    "trainId": "13822",
     "trainNumber": "920M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -138,20 +140,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "13822",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_0601_13822",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-38_0527_13833",
     "lineId": "uetsu_main",
+    "trainId": "13833",
     "trainNumber": "2M",
     "trainType": "limitedExp",
     "trainName": "いなほ2号",
     "direction": "inbound",
     "originStationId": "UE-38",
     "destinationStationId": "UE-07",
+    "customOrigin": "酒田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -349,14 +351,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13833",
-    "customOrigin": "酒田",
     "throughTripId": "WD_INB_HS-10_0709_13833",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-38_0532_7765",
     "lineId": "uetsu_main",
+    "trainId": "7765",
     "trainNumber": "525M",
     "trainType": "local",
     "direction": "outbound",
@@ -503,12 +504,12 @@
         "departureTime": "07:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7765"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_0535_2538",
     "lineId": "uetsu_main",
+    "trainId": "2538",
     "trainNumber": "524M",
     "trainType": "local",
     "direction": "inbound",
@@ -655,12 +656,12 @@
         "departureTime": "07:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2538"
+    ]
   },
   {
     "tripId": "WD_INB_UE-50_0545_2523",
     "lineId": "uetsu_main",
+    "trainId": "2523",
     "trainNumber": "520M",
     "trainType": "local",
     "direction": "inbound",
@@ -747,17 +748,18 @@
         "departureTime": "06:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2523"
+    ]
   },
   {
     "tripId": "WD_INB_UE-15_0546_13823",
     "lineId": "uetsu_main",
+    "trainId": "13823",
     "trainNumber": "922M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -817,14 +819,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13823",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_0619_13823",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-58_0556_24388",
     "lineId": "uetsu_main",
+    "trainId": "24388",
     "trainNumber": "1521M",
     "trainType": "local",
     "direction": "outbound",
@@ -852,12 +853,12 @@
         "departureTime": "06:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24388"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-15_0559_7752",
     "lineId": "uetsu_main",
+    "trainId": "7752",
     "trainNumber": "821D",
     "trainType": "local",
     "direction": "outbound",
@@ -1010,12 +1011,12 @@
         "departureTime": "08:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7752"
+    ]
   },
   {
     "tripId": "WD_INB_UE-38_0600_42825",
     "lineId": "uetsu_main",
+    "trainId": "42825",
     "trainNumber": "150D",
     "trainType": "local",
     "direction": "inbound",
@@ -1055,12 +1056,12 @@
         "departureTime": "06:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42825"
+    ]
   },
   {
     "tripId": "WD_INB_UE-07_0608_2502",
     "lineId": "uetsu_main",
+    "trainId": "2502",
     "trainNumber": "120D",
     "trainType": "local",
     "direction": "inbound",
@@ -1111,12 +1112,12 @@
         "departureTime": "06:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2502"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-50_0608_7772",
     "lineId": "uetsu_main",
+    "trainId": "7772",
     "trainNumber": "2523M",
     "trainType": "local",
     "direction": "outbound",
@@ -1191,12 +1192,12 @@
         "departureTime": "06:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7772"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-01_0615_7787",
     "lineId": "uetsu_main",
+    "trainId": "7787",
     "trainNumber": "823D",
     "trainType": "local",
     "direction": "outbound",
@@ -1433,17 +1434,18 @@
         "departureTime": "09:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7787"
+    ]
   },
   {
     "tripId": "WD_INB_UE-15_0615_29604",
     "lineId": "uetsu_main",
+    "trainId": "29604",
     "trainNumber": "1924M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "吉田",
     "cars": 4,
     "isHoliday": false,
@@ -1503,14 +1505,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29604",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_0650_29604",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-23_0632_7789",
     "lineId": "uetsu_main",
+    "trainId": "7789",
     "trainNumber": "221D",
     "trainType": "local",
     "direction": "outbound",
@@ -1615,12 +1616,12 @@
         "departureTime": "07:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7789"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-38_0637_7766",
     "lineId": "uetsu_main",
+    "trainId": "7766",
     "trainNumber": "531M",
     "trainType": "local",
     "direction": "outbound",
@@ -1767,12 +1768,12 @@
         "departureTime": "08:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7766"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_0642_25766",
     "lineId": "uetsu_main",
+    "trainId": "25766",
     "trainNumber": "530M",
     "trainType": "local",
     "direction": "inbound",
@@ -1920,12 +1921,12 @@
         "departureTime": "08:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25766"
+    ]
   },
   {
     "tripId": "WD_INB_UE-23_0646_2545",
     "lineId": "uetsu_main",
+    "trainId": "2545",
     "trainNumber": "820D",
     "trainType": "local",
     "direction": "inbound",
@@ -2072,12 +2073,12 @@
         "departureTime": "08:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2545"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-01_0649_7776",
     "lineId": "uetsu_main",
+    "trainId": "7776",
     "trainNumber": "2121D",
     "trainType": "local",
     "direction": "outbound",
@@ -2104,12 +2105,12 @@
         "departureTime": "07:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7776"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-50_0651_7771",
     "lineId": "uetsu_main",
+    "trainId": "7771",
     "trainNumber": "2527M",
     "trainType": "local",
     "direction": "outbound",
@@ -2184,18 +2185,19 @@
         "departureTime": "07:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7771"
+    ]
   },
   {
     "tripId": "WD_INB_UE-38_0659_13834",
     "lineId": "uetsu_main",
+    "trainId": "13834",
     "trainNumber": "4M",
     "trainType": "limitedExp",
     "trainName": "いなほ4号",
     "direction": "inbound",
     "originStationId": "UE-38",
     "destinationStationId": "UE-07",
+    "customOrigin": "酒田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -2393,14 +2395,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13834",
-    "customOrigin": "酒田",
     "throughTripId": "WD_INB_HS-10_0844_13834",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-07_0700_2503",
     "lineId": "uetsu_main",
+    "trainId": "2503",
     "trainNumber": "2124M",
     "trainType": "local",
     "direction": "inbound",
@@ -2451,17 +2452,18 @@
         "departureTime": "07:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2503"
+    ]
   },
   {
     "tripId": "WD_INB_UE-15_0703_29602",
     "lineId": "uetsu_main",
+    "trainId": "29602",
     "trainNumber": "1926M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "関屋",
     "cars": 4,
     "isHoliday": false,
@@ -2521,14 +2523,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29602",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_0738_29602",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-38_0704_2515",
     "lineId": "uetsu_main",
+    "trainId": "2515",
     "trainNumber": "822D",
     "trainType": "local",
     "direction": "inbound",
@@ -2681,12 +2682,12 @@
         "departureTime": "09:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2515"
+    ]
   },
   {
     "tripId": "WD_INB_UE-03_0706_2544",
     "lineId": "uetsu_main",
+    "trainId": "2544",
     "trainNumber": "2122D",
     "trainType": "local",
     "direction": "inbound",
@@ -2713,12 +2714,12 @@
         "departureTime": "07:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2544"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-34_0716_42809",
     "lineId": "uetsu_main",
+    "trainId": "42809",
     "trainNumber": "151D",
     "trainType": "local",
     "direction": "outbound",
@@ -2758,12 +2759,12 @@
         "departureTime": "07:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42809"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_0725_2525",
     "lineId": "uetsu_main",
+    "trainId": "2525",
     "trainNumber": "1532M",
     "trainType": "local",
     "direction": "inbound",
@@ -2790,17 +2791,18 @@
         "departureTime": "07:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2525"
+    ]
   },
   {
     "tripId": "WD_INB_UE-15_0726_29603",
     "lineId": "uetsu_main",
+    "trainId": "29603",
     "trainNumber": "1928M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "内野",
     "cars": 4,
     "isHoliday": false,
@@ -2860,20 +2862,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "29603",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_0801_29603",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-07_0731_13800",
     "lineId": "uetsu_main",
+    "trainId": "13800",
     "trainNumber": "923M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2932,14 +2934,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13800",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_0643_13800",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-38_0742_42826",
     "lineId": "uetsu_main",
+    "trainId": "42826",
     "trainNumber": "152D",
     "trainType": "local",
     "direction": "inbound",
@@ -2979,12 +2980,12 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42826"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-58_0743_7793",
     "lineId": "uetsu_main",
+    "trainId": "7793",
     "trainNumber": "1529M",
     "trainType": "local",
     "direction": "outbound",
@@ -3011,12 +3012,12 @@
         "departureTime": "07:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7793"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-01_0748_7777",
     "lineId": "uetsu_main",
+    "trainId": "7777",
     "trainNumber": "2123M",
     "trainType": "local",
     "direction": "outbound",
@@ -3067,12 +3068,12 @@
         "departureTime": "08:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7777"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_0755_25765",
     "lineId": "uetsu_main",
+    "trainId": "25765",
     "trainNumber": "1534M",
     "trainType": "local",
     "direction": "inbound",
@@ -3100,12 +3101,12 @@
         "departureTime": "08:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25765"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-38_0756_7768",
     "lineId": "uetsu_main",
+    "trainId": "7768",
     "trainNumber": "535M",
     "trainType": "local",
     "direction": "outbound",
@@ -3252,12 +3253,12 @@
         "departureTime": "09:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7768"
+    ]
   },
   {
     "tripId": "WD_INB_UE-38_0800_2512",
     "lineId": "uetsu_main",
+    "trainId": "2512",
     "trainNumber": "220D",
     "trainType": "local",
     "direction": "inbound",
@@ -3362,18 +3363,19 @@
         "departureTime": "09:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2512"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_0821_29270",
     "lineId": "uetsu_main",
+    "trainId": "29270",
     "trainNumber": "1925M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "越後曽根",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3432,14 +3434,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29270",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_0733_29270",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-58_0839_7794",
     "lineId": "uetsu_main",
+    "trainId": "7794",
     "trainNumber": "1533M",
     "trainType": "local",
     "direction": "outbound",
@@ -3466,12 +3467,12 @@
         "departureTime": "08:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7794"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_0844_13819",
     "lineId": "uetsu_main",
+    "trainId": "13819",
     "trainNumber": "1M",
     "trainType": "limitedExp",
     "trainName": "いなほ1号",
@@ -3479,6 +3480,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-60",
     "customOrigin": "新潟",
+    "customDestination": "秋田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3807,19 +3809,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "13819",
-    "customDestination": "秋田",
     "prevTripId": "WD_OUT_HS-01_0823_13819",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-15_0846_13825",
     "lineId": "uetsu_main",
+    "trainId": "13825",
     "trainNumber": "930M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -3879,14 +3881,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13825",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_0931_13825",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-60_0910_2535",
     "lineId": "uetsu_main",
+    "trainId": "2535",
     "trainNumber": "536M",
     "trainType": "local",
     "direction": "inbound",
@@ -4033,18 +4034,19 @@
         "departureTime": "11:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2535"
+    ]
   },
   {
     "tripId": "WD_INB_UE-38_0912_13835",
     "lineId": "uetsu_main",
+    "trainId": "13835",
     "trainNumber": "6M",
     "trainType": "limitedExp",
     "trainName": "いなほ6号",
     "direction": "inbound",
     "originStationId": "UE-38",
     "destinationStationId": "UE-07",
+    "customOrigin": "酒田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -4242,20 +4244,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "13835",
-    "customOrigin": "酒田",
     "throughTripId": "WD_INB_HS-10_1054_13835",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-07_0931_29272",
     "lineId": "uetsu_main",
+    "trainId": "29272",
     "trainNumber": "927M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "長岡",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4314,14 +4316,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29272",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_0850_29272",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-38_0936_2516",
     "lineId": "uetsu_main",
+    "trainId": "2516",
     "trainNumber": "824D",
     "trainType": "local",
     "direction": "inbound",
@@ -4474,12 +4475,12 @@
         "departureTime": "11:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2516"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-38_0944_7767",
     "lineId": "uetsu_main",
+    "trainId": "7767",
     "trainNumber": "539M",
     "trainType": "local",
     "direction": "outbound",
@@ -4626,17 +4627,18 @@
         "departureTime": "11:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7767"
+    ]
   },
   {
     "tripId": "WD_INB_UE-15_0953_29605",
     "lineId": "uetsu_main",
+    "trainId": "29605",
     "trainNumber": "1932M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "吉田",
     "cars": 4,
     "isHoliday": false,
@@ -4696,14 +4698,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29605",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_1029_29605",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-60_1002_2527",
     "lineId": "uetsu_main",
+    "trainId": "2527",
     "trainNumber": "1538M",
     "trainType": "local",
     "direction": "inbound",
@@ -4730,12 +4731,12 @@
         "departureTime": "10:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2527"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-23_1017_7790",
     "lineId": "uetsu_main",
+    "trainId": "7790",
     "trainNumber": "223D",
     "trainType": "local",
     "direction": "outbound",
@@ -4840,18 +4841,19 @@
         "departureTime": "11:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7790"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_1018_13801",
     "lineId": "uetsu_main",
+    "trainId": "13801",
     "trainNumber": "929M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4910,14 +4912,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13801",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_0944_13801",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-15_1024_7753",
     "lineId": "uetsu_main",
+    "trainId": "7753",
     "trainNumber": "825D",
     "trainType": "local",
     "direction": "outbound",
@@ -5070,12 +5071,12 @@
         "departureTime": "12:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7753"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-58_1027_7795",
     "lineId": "uetsu_main",
+    "trainId": "7795",
     "trainNumber": "1537M",
     "trainType": "local",
     "direction": "outbound",
@@ -5102,12 +5103,12 @@
         "departureTime": "10:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7795"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-01_1038_7778",
     "lineId": "uetsu_main",
+    "trainId": "7778",
     "trainNumber": "125D",
     "trainType": "local",
     "direction": "outbound",
@@ -5158,18 +5159,19 @@
         "departureTime": "11:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7778"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_1044_13842",
     "lineId": "uetsu_main",
+    "trainId": "13842",
     "trainNumber": "8M",
     "trainType": "limitedExp",
     "trainName": "いなほ8号",
     "direction": "inbound",
     "originStationId": "UE-60",
     "destinationStationId": "UE-07",
+    "customOrigin": "秋田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -5499,14 +5501,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13842",
-    "customOrigin": "秋田",
     "throughTripId": "WD_INB_HS-10_1356_13842",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-07_1113_13812",
     "lineId": "uetsu_main",
+    "trainId": "13812",
     "trainNumber": "3M",
     "trainType": "limitedExp",
     "trainName": "いなほ3号",
@@ -5514,6 +5515,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-38",
     "customOrigin": "新潟",
+    "customDestination": "酒田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5710,19 +5712,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "13812",
-    "customDestination": "酒田",
     "prevTripId": "WD_OUT_HS-01_1050_13812",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-15_1116_13826",
     "lineId": "uetsu_main",
+    "trainId": "13826",
     "trainNumber": "934M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -5782,14 +5784,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13826",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_1158_13826",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-60_1125_2531",
     "lineId": "uetsu_main",
+    "trainId": "2531",
     "trainNumber": "2540M",
     "trainType": "local",
     "direction": "inbound",
@@ -5864,18 +5865,19 @@
         "departureTime": "12:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2531"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_1126_13802",
     "lineId": "uetsu_main",
+    "trainId": "13802",
     "trainNumber": "931M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5934,14 +5936,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13802",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_1039_13802",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-07_1132_2504",
     "lineId": "uetsu_main",
+    "trainId": "2504",
     "trainNumber": "126D",
     "trainType": "local",
     "direction": "inbound",
@@ -5992,12 +5993,12 @@
         "departureTime": "12:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2504"
+    ]
   },
   {
     "tripId": "WD_INB_UE-38_1145_2510",
     "lineId": "uetsu_main",
+    "trainId": "2510",
     "trainNumber": "222M",
     "trainType": "local",
     "direction": "inbound",
@@ -6054,12 +6055,12 @@
         "departureTime": "12:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2510"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_1216_2539",
     "lineId": "uetsu_main",
+    "trainId": "2539",
     "trainNumber": "542M",
     "trainType": "local",
     "direction": "inbound",
@@ -6206,18 +6207,19 @@
         "departureTime": "14:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2539"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_1223_13803",
     "lineId": "uetsu_main",
+    "trainId": "13803",
     "trainNumber": "933M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6276,19 +6278,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "13803",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_1144_13803",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-15_1223_13827",
     "lineId": "uetsu_main",
+    "trainId": "13827",
     "trainNumber": "936M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -6348,14 +6350,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13827",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_1303_13827",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-38_1229_7761",
     "lineId": "uetsu_main",
+    "trainId": "7761",
     "trainNumber": "543M",
     "trainType": "local",
     "direction": "outbound",
@@ -6502,12 +6503,12 @@
         "departureTime": "14:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7761"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-01_1231_7779",
     "lineId": "uetsu_main",
+    "trainId": "7779",
     "trainNumber": "127D",
     "trainType": "local",
     "direction": "outbound",
@@ -6558,12 +6559,12 @@
         "departureTime": "13:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7779"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-50_1242_7773",
     "lineId": "uetsu_main",
+    "trainId": "7773",
     "trainNumber": "2541M",
     "trainType": "local",
     "direction": "outbound",
@@ -6638,12 +6639,12 @@
         "departureTime": "13:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7773"
+    ]
   },
   {
     "tripId": "WD_INB_UE-38_1252_2517",
     "lineId": "uetsu_main",
+    "trainId": "2517",
     "trainNumber": "826D",
     "trainType": "local",
     "direction": "inbound",
@@ -6796,12 +6797,12 @@
         "departureTime": "14:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2517"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_1303_13815",
     "lineId": "uetsu_main",
+    "trainId": "13815",
     "trainNumber": "5M",
     "trainType": "limitedExp",
     "trainName": "いなほ5号",
@@ -6809,6 +6810,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-38",
     "customOrigin": "新潟",
+    "customDestination": "酒田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7005,14 +7007,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13815",
-    "customDestination": "酒田",
     "prevTripId": "WD_OUT_HS-01_1241_13815",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-07_1303_13820",
     "lineId": "uetsu_main",
+    "trainId": "13820",
     "trainNumber": "5M",
     "trainType": "limitedExp",
     "trainName": "いなほ5号",
@@ -7020,6 +7021,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-60",
     "customOrigin": "新潟",
+    "customDestination": "秋田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7347,19 +7349,19 @@
         "departureTime": "16:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13820",
-    "customDestination": "秋田"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_1314_13843",
     "lineId": "uetsu_main",
+    "trainId": "13843",
     "trainNumber": "10M",
     "trainType": "limitedExp",
     "trainName": "いなほ10号",
     "direction": "inbound",
     "originStationId": "UE-60",
     "destinationStationId": "UE-07",
+    "customOrigin": "秋田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -7689,14 +7691,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13843",
-    "customOrigin": "秋田",
     "throughTripId": "WD_INB_HS-10_1626_13839",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-07_1323_2505",
     "lineId": "uetsu_main",
+    "trainId": "2505",
     "trainNumber": "128D",
     "trainType": "local",
     "direction": "inbound",
@@ -7747,12 +7748,12 @@
         "departureTime": "13:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2505"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-15_1341_7754",
     "lineId": "uetsu_main",
+    "trainId": "7754",
     "trainNumber": "827D",
     "trainType": "local",
     "direction": "outbound",
@@ -7905,12 +7906,12 @@
         "departureTime": "16:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7754"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-31_1352_7758",
     "lineId": "uetsu_main",
+    "trainId": "7758",
     "trainNumber": "225M",
     "trainType": "local",
     "direction": "outbound",
@@ -7967,12 +7968,12 @@
         "departureTime": "14:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7758"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_1353_2532",
     "lineId": "uetsu_main",
+    "trainId": "2532",
     "trainNumber": "2544M",
     "trainType": "local",
     "direction": "inbound",
@@ -8047,12 +8048,12 @@
         "departureTime": "14:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2532"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-01_1403_7780",
     "lineId": "uetsu_main",
+    "trainId": "7780",
     "trainNumber": "129D",
     "trainType": "local",
     "direction": "outbound",
@@ -8103,12 +8104,12 @@
         "departureTime": "14:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7780"
+    ]
   },
   {
     "tripId": "WD_INB_UE-38_1405_2511",
     "lineId": "uetsu_main",
+    "trainId": "2511",
     "trainNumber": "224D",
     "trainType": "local",
     "direction": "inbound",
@@ -8201,17 +8202,18 @@
         "departureTime": "15:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2511"
+    ]
   },
   {
     "tripId": "WD_INB_UE-15_1408_13828",
     "lineId": "uetsu_main",
+    "trainId": "13828",
     "trainNumber": "938M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -8271,20 +8273,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "13828",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_1448_13828",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-07_1436_13805",
     "lineId": "uetsu_main",
+    "trainId": "13805",
     "trainNumber": "935M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -8343,20 +8345,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "13805",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_1345_13805",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-38_1441_13839",
     "lineId": "uetsu_main",
+    "trainId": "13839",
     "trainNumber": "10M",
     "trainType": "limitedExp",
     "trainName": "いなほ10号",
     "direction": "inbound",
     "originStationId": "UE-38",
     "destinationStationId": "UE-07",
+    "customOrigin": "酒田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -8553,13 +8555,12 @@
         "departureTime": "16:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13839",
-    "customOrigin": "酒田"
+    ]
   },
   {
     "tripId": "WD_INB_UE-38_1444_2521",
     "lineId": "uetsu_main",
+    "trainId": "2521",
     "trainNumber": "828D",
     "trainType": "local",
     "direction": "inbound",
@@ -8796,12 +8797,12 @@
         "departureTime": "18:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2521"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_1512_13821",
     "lineId": "uetsu_main",
+    "trainId": "13821",
     "trainNumber": "7M",
     "trainType": "limitedExp",
     "trainName": "いなほ7号",
@@ -8809,6 +8810,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-60",
     "customOrigin": "新潟",
+    "customDestination": "秋田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -9137,14 +9139,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13821",
-    "customDestination": "秋田",
     "prevTripId": "WD_OUT_HS-01_1450_13821",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-50_1513_7774",
     "lineId": "uetsu_main",
+    "trainId": "7774",
     "trainNumber": "2545M",
     "trainType": "local",
     "direction": "outbound",
@@ -9219,17 +9220,18 @@
         "departureTime": "15:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7774"
+    ]
   },
   {
     "tripId": "WD_INB_UE-15_1515_40507",
     "lineId": "uetsu_main",
+    "trainId": "40507",
     "trainNumber": "940M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "長岡",
     "cars": 4,
     "isHoliday": false,
@@ -9289,14 +9291,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40507",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_1549_40507",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-34_1515_42810",
     "lineId": "uetsu_main",
+    "trainId": "42810",
     "trainNumber": "161D",
     "trainType": "local",
     "direction": "outbound",
@@ -9336,12 +9337,12 @@
         "departureTime": "15:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42810"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-01_1517_7788",
     "lineId": "uetsu_main",
+    "trainId": "7788",
     "trainNumber": "829D",
     "trainType": "local",
     "direction": "outbound",
@@ -9578,12 +9579,12 @@
         "departureTime": "18:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7788"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-38_1535_7769",
     "lineId": "uetsu_main",
+    "trainId": "7769",
     "trainNumber": "549M",
     "trainType": "local",
     "direction": "outbound",
@@ -9730,12 +9731,12 @@
         "departureTime": "17:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7769"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_1541_2536",
     "lineId": "uetsu_main",
+    "trainId": "2536",
     "trainNumber": "546M",
     "trainType": "local",
     "direction": "inbound",
@@ -9882,12 +9883,12 @@
         "departureTime": "17:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2536"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-25_1548_7757",
     "lineId": "uetsu_main",
+    "trainId": "7757",
     "trainNumber": "227D",
     "trainType": "local",
     "direction": "outbound",
@@ -9980,12 +9981,12 @@
         "departureTime": "16:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7757"
+    ]
   },
   {
     "tripId": "WD_INB_UE-07_1554_2506",
     "lineId": "uetsu_main",
+    "trainId": "2506",
     "trainNumber": "130D",
     "trainType": "local",
     "direction": "inbound",
@@ -10036,18 +10037,19 @@
         "departureTime": "16:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2506"
+    ]
   },
   {
     "tripId": "WD_INB_UE-38_1603_13840",
     "lineId": "uetsu_main",
+    "trainId": "13840",
     "trainNumber": "12M",
     "trainType": "limitedExp",
     "trainName": "いなほ12号",
     "direction": "inbound",
     "originStationId": "UE-38",
     "destinationStationId": "UE-07",
+    "customOrigin": "酒田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -10245,19 +10247,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "13840",
-    "customOrigin": "酒田",
     "throughTripId": "WD_INB_HS-10_1747_13840",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-15_1606_13829",
     "lineId": "uetsu_main",
+    "trainId": "13829",
     "trainNumber": "942M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -10317,14 +10319,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13829",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_1642_13829",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-38_1609_2519",
     "lineId": "uetsu_main",
+    "trainId": "2519",
     "trainNumber": "830D",
     "trainType": "local",
     "direction": "inbound",
@@ -10477,12 +10478,12 @@
         "departureTime": "18:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2519"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_1627_2528",
     "lineId": "uetsu_main",
+    "trainId": "2528",
     "trainNumber": "1548M",
     "trainType": "local",
     "direction": "inbound",
@@ -10509,12 +10510,12 @@
         "departureTime": "16:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2528"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-38_1630_7763",
     "lineId": "uetsu_main",
+    "trainId": "7763",
     "trainNumber": "551M",
     "trainType": "local",
     "direction": "outbound",
@@ -10661,12 +10662,12 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7763"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-01_1632_7785",
     "lineId": "uetsu_main",
+    "trainId": "7785",
     "trainNumber": "833D",
     "trainType": "local",
     "direction": "outbound",
@@ -10747,18 +10748,19 @@
         "departureTime": "17:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7785"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_1632_29271",
     "lineId": "uetsu_main",
+    "trainId": "29271",
     "trainNumber": "1937M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "内野",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10817,14 +10819,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29271",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_1550_29271",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-38_1644_42827",
     "lineId": "uetsu_main",
+    "trainId": "42827",
     "trainNumber": "160D",
     "trainType": "local",
     "direction": "inbound",
@@ -10864,12 +10865,12 @@
         "departureTime": "17:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42827"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-58_1645_7796",
     "lineId": "uetsu_main",
+    "trainId": "7796",
     "trainNumber": "1547M",
     "trainType": "local",
     "direction": "outbound",
@@ -10896,18 +10897,19 @@
         "departureTime": "16:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7796"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_1648_13844",
     "lineId": "uetsu_main",
+    "trainId": "13844",
     "trainNumber": "14M",
     "trainType": "limitedExp",
     "trainName": "いなほ14号",
     "direction": "inbound",
     "originStationId": "UE-60",
     "destinationStationId": "UE-07",
+    "customOrigin": "秋田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -11237,14 +11239,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13844",
-    "customOrigin": "秋田",
     "throughTripId": "WD_INB_HS-10_2001_13844",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-07_1703_2507",
     "lineId": "uetsu_main",
+    "trainId": "2507",
     "trainNumber": "2132M",
     "trainType": "local",
     "direction": "inbound",
@@ -11295,12 +11296,12 @@
         "departureTime": "17:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2507"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-34_1707_42811",
     "lineId": "uetsu_main",
+    "trainId": "42811",
     "trainNumber": "163D",
     "trainType": "local",
     "direction": "outbound",
@@ -11340,12 +11341,12 @@
         "departureTime": "17:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42811"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_1708_2543",
     "lineId": "uetsu_main",
+    "trainId": "2543",
     "trainNumber": "550M",
     "trainType": "local",
     "direction": "inbound",
@@ -11492,12 +11493,12 @@
         "departureTime": "18:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2543"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-15_1724_7755",
     "lineId": "uetsu_main",
+    "trainId": "7755",
     "trainNumber": "831D",
     "trainType": "local",
     "direction": "outbound",
@@ -11650,12 +11651,12 @@
         "departureTime": "19:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7755"
+    ]
   },
   {
     "tripId": "WD_INB_UE-38_1734_2522",
     "lineId": "uetsu_main",
+    "trainId": "2522",
     "trainNumber": "832D",
     "trainType": "local",
     "direction": "inbound",
@@ -11892,17 +11893,18 @@
         "departureTime": "21:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2522"
+    ]
   },
   {
     "tripId": "WD_INB_UE-15_1746_13830",
     "lineId": "uetsu_main",
+    "trainId": "13830",
     "trainNumber": "944M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -11962,14 +11964,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13830",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_1822_13830",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-38_1750_7762",
     "lineId": "uetsu_main",
+    "trainId": "7762",
     "trainNumber": "555M",
     "trainType": "local",
     "direction": "outbound",
@@ -12116,12 +12117,12 @@
         "departureTime": "19:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7762"
+    ]
   },
   {
     "tripId": "WD_INB_UE-38_1802_42828",
     "lineId": "uetsu_main",
+    "trainId": "42828",
     "trainNumber": "162D",
     "trainType": "local",
     "direction": "inbound",
@@ -12161,12 +12162,12 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42828"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-01_1803_7781",
     "lineId": "uetsu_main",
+    "trainId": "7781",
     "trainNumber": "2131M",
     "trainType": "local",
     "direction": "outbound",
@@ -12217,18 +12218,19 @@
         "departureTime": "18:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7781"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_1807_13806",
     "lineId": "uetsu_main",
+    "trainId": "13806",
     "trainNumber": "939M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -12287,14 +12289,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13806",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_1723_13806",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-60_1815_2540",
     "lineId": "uetsu_main",
+    "trainId": "2540",
     "trainNumber": "552M",
     "trainType": "local",
     "direction": "inbound",
@@ -12441,12 +12442,12 @@
         "departureTime": "20:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2540"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_1822_13816",
     "lineId": "uetsu_main",
+    "trainId": "13816",
     "trainNumber": "9M",
     "trainType": "limitedExp",
     "trainName": "いなほ9号",
@@ -12454,6 +12455,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-38",
     "customOrigin": "新潟",
+    "customDestination": "酒田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -12650,14 +12652,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13816",
-    "customDestination": "酒田",
     "prevTripId": "WD_OUT_HS-01_1758_13816",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-60_1833_2529",
     "lineId": "uetsu_main",
+    "trainId": "2529",
     "trainNumber": "1554M",
     "trainType": "local",
     "direction": "inbound",
@@ -12684,18 +12685,19 @@
         "departureTime": "18:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2529"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_1839_29268",
     "lineId": "uetsu_main",
+    "trainId": "29268",
     "trainNumber": "1941M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "吉田",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -12754,14 +12756,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29268",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_1802_29268",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-58_1850_7797",
     "lineId": "uetsu_main",
+    "trainId": "7797",
     "trainNumber": "1553M",
     "trainType": "local",
     "direction": "outbound",
@@ -12788,12 +12789,12 @@
         "departureTime": "19:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7797"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-01_1854_7782",
     "lineId": "uetsu_main",
+    "trainId": "7782",
     "trainNumber": "133D",
     "trainType": "local",
     "direction": "outbound",
@@ -12844,17 +12845,18 @@
         "departureTime": "19:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7782"
+    ]
   },
   {
     "tripId": "WD_INB_UE-15_1855_29606",
     "lineId": "uetsu_main",
+    "trainId": "29606",
     "trainNumber": "1946M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "吉田",
     "cars": 4,
     "isHoliday": false,
@@ -12914,14 +12916,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29606",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_1932_29606",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-15_1900_7756",
     "lineId": "uetsu_main",
+    "trainId": "7756",
     "trainNumber": "835D",
     "trainType": "local",
     "direction": "outbound",
@@ -13074,12 +13075,12 @@
         "departureTime": "21:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7756"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-38_1909_7764",
     "lineId": "uetsu_main",
+    "trainId": "7764",
     "trainNumber": "557M",
     "trainType": "local",
     "direction": "outbound",
@@ -13226,12 +13227,12 @@
         "departureTime": "20:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7764"
+    ]
   },
   {
     "tripId": "WD_INB_UE-38_1911_2513",
     "lineId": "uetsu_main",
+    "trainId": "2513",
     "trainNumber": "226D",
     "trainType": "local",
     "direction": "inbound",
@@ -13336,12 +13337,12 @@
         "departureTime": "20:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2513"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_1922_2541",
     "lineId": "uetsu_main",
+    "trainId": "2541",
     "trainNumber": "556M",
     "trainType": "local",
     "direction": "inbound",
@@ -13488,18 +13489,19 @@
         "departureTime": "21:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2541"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_1930_29274",
     "lineId": "uetsu_main",
+    "trainId": "29274",
     "trainNumber": "943M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新津",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -13558,14 +13560,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29274",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_1845_29274",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-07_1948_2508",
     "lineId": "uetsu_main",
+    "trainId": "2508",
     "trainNumber": "134D",
     "trainType": "local",
     "direction": "inbound",
@@ -13616,12 +13617,12 @@
         "departureTime": "20:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2508"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_2001_13817",
     "lineId": "uetsu_main",
+    "trainId": "13817",
     "trainNumber": "11M",
     "trainType": "limitedExp",
     "trainName": "いなほ11号",
@@ -13629,6 +13630,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-38",
     "customOrigin": "新潟",
+    "customDestination": "酒田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -13825,14 +13827,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13817",
-    "customDestination": "酒田",
     "prevTripId": "WD_OUT_HS-01_1938_13817",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-38_2012_2520",
     "lineId": "uetsu_main",
+    "trainId": "2520",
     "trainNumber": "834D",
     "trainType": "local",
     "direction": "inbound",
@@ -13985,12 +13986,12 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2520"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_2015_2533",
     "lineId": "uetsu_main",
+    "trainId": "2533",
     "trainNumber": "2558M",
     "trainType": "local",
     "direction": "inbound",
@@ -14065,12 +14066,12 @@
         "departureTime": "20:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2533"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-38_2017_7760",
     "lineId": "uetsu_main",
+    "trainId": "7760",
     "trainNumber": "245M",
     "trainType": "local",
     "direction": "outbound",
@@ -14109,18 +14110,19 @@
         "departureTime": "20:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7760"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_2032_13807",
     "lineId": "uetsu_main",
+    "trainId": "13807",
     "trainNumber": "945M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -14179,14 +14181,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13807",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_1950_13807",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-01_2041_7786",
     "lineId": "uetsu_main",
+    "trainId": "7786",
     "trainNumber": "837D",
     "trainType": "local",
     "direction": "outbound",
@@ -14333,12 +14334,12 @@
         "departureTime": "22:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7786"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-23_2046_7792",
     "lineId": "uetsu_main",
+    "trainId": "7792",
     "trainNumber": "229D",
     "trainType": "local",
     "direction": "outbound",
@@ -14443,12 +14444,12 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7792"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_2048_2537",
     "lineId": "uetsu_main",
+    "trainId": "2537",
     "trainNumber": "560M",
     "trainType": "local",
     "direction": "inbound",
@@ -14595,17 +14596,18 @@
         "departureTime": "22:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2537"
+    ]
   },
   {
     "tripId": "WD_INB_UE-15_2056_13831",
     "lineId": "uetsu_main",
+    "trainId": "13831",
     "trainNumber": "948M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": false,
@@ -14665,14 +14667,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13831",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_2146_13831",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-34_2110_42808",
     "lineId": "uetsu_main",
+    "trainId": "42808",
     "trainNumber": "3131D",
     "trainType": "rapid",
     "trainName": "最上川",
@@ -14713,12 +14714,12 @@
         "departureTime": "21:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42808"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-01_2114_7783",
     "lineId": "uetsu_main",
+    "trainId": "7783",
     "trainNumber": "135D",
     "trainType": "local",
     "direction": "outbound",
@@ -14769,12 +14770,12 @@
         "departureTime": "21:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7783"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-50_2117_7775",
     "lineId": "uetsu_main",
+    "trainId": "7775",
     "trainNumber": "2559M",
     "trainType": "local",
     "direction": "outbound",
@@ -14849,12 +14850,12 @@
         "departureTime": "22:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7775"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-38_2127_7770",
     "lineId": "uetsu_main",
+    "trainId": "7770",
     "trainNumber": "561M",
     "trainType": "local",
     "direction": "outbound",
@@ -15001,12 +15002,12 @@
         "departureTime": "23:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7770"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_2132_13818",
     "lineId": "uetsu_main",
+    "trainId": "13818",
     "trainNumber": "13M",
     "trainType": "limitedExp",
     "trainName": "いなほ13号",
@@ -15014,6 +15015,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-38",
     "customOrigin": "新潟",
+    "customDestination": "酒田",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -15210,14 +15212,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13818",
-    "customDestination": "酒田",
     "prevTripId": "WD_OUT_HS-01_2107_13818",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-38_2140_2514",
     "lineId": "uetsu_main",
+    "trainId": "2514",
     "trainNumber": "228D",
     "trainType": "local",
     "direction": "inbound",
@@ -15322,18 +15323,19 @@
         "departureTime": "22:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2514"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_2201_13808",
     "lineId": "uetsu_main",
+    "trainId": "13808",
     "trainNumber": "947M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -15392,14 +15394,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13808",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_2121_13808",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-07_2205_2509",
     "lineId": "uetsu_main",
+    "trainId": "2509",
     "trainNumber": "136D",
     "trainType": "local",
     "direction": "inbound",
@@ -15450,17 +15451,18 @@
         "departureTime": "22:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2509"
+    ]
   },
   {
     "tripId": "WD_INB_UE-15_2215_40506",
     "lineId": "uetsu_main",
+    "trainId": "40506",
     "trainNumber": "950M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新津",
     "cars": 4,
     "isHoliday": false,
@@ -15520,14 +15522,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40506",
-    "customOrigin": "村上",
     "throughTripId": "WD_INB_HS-10_2249_40506",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "WD_INB_UE-60_2235_2534",
     "lineId": "uetsu_main",
+    "trainId": "2534",
     "trainNumber": "2562M",
     "trainType": "local",
     "direction": "inbound",
@@ -15602,18 +15603,19 @@
         "departureTime": "23:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2534"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_2305_13809",
     "lineId": "uetsu_main",
+    "trainId": "13809",
     "trainNumber": "949M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -15672,14 +15674,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13809",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_2229_13809",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "WD_OUT_UE-01_2309_7784",
     "lineId": "uetsu_main",
+    "trainId": "7784",
     "trainNumber": "137D",
     "trainType": "local",
     "direction": "outbound",
@@ -15730,12 +15731,12 @@
         "departureTime": "23:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7784"
+    ]
   },
   {
     "tripId": "WD_INB_UE-60_2322_2530",
     "lineId": "uetsu_main",
+    "trainId": "2530",
     "trainNumber": "1564M",
     "trainType": "local",
     "direction": "inbound",
@@ -15762,18 +15763,19 @@
         "departureTime": "23:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2530"
+    ]
   },
   {
     "tripId": "WD_OUT_UE-07_2342_29269",
     "lineId": "uetsu_main",
+    "trainId": "29269",
     "trainNumber": "1951M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "吉田",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -15832,20 +15834,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "29269",
-    "customDestination": "村上",
     "prevTripId": "WD_OUT_HS-01_2308_29269",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-07_0526_13810",
     "lineId": "uetsu_main",
+    "trainId": "13810",
     "trainNumber": "3921M",
     "trainType": "rapid",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15904,19 +15906,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "13810",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_0501_13810",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-15_0526_13822",
     "lineId": "uetsu_main",
+    "trainId": "13822",
     "trainNumber": "920M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -15976,20 +15978,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "13822",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_0601_13822",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-38_0527_13833",
     "lineId": "uetsu_main",
+    "trainId": "13833",
     "trainNumber": "2M",
     "trainType": "limitedExp",
     "trainName": "いなほ2号",
     "direction": "inbound",
     "originStationId": "UE-38",
     "destinationStationId": "UE-07",
+    "customOrigin": "酒田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -16187,14 +16189,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13833",
-    "customOrigin": "酒田",
     "throughTripId": "HD_INB_HS-10_0709_13833",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-38_0532_7765",
     "lineId": "uetsu_main",
+    "trainId": "7765",
     "trainNumber": "525M",
     "trainType": "local",
     "direction": "outbound",
@@ -16341,12 +16342,12 @@
         "departureTime": "07:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7765"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_0535_2538",
     "lineId": "uetsu_main",
+    "trainId": "2538",
     "trainNumber": "524M",
     "trainType": "local",
     "direction": "inbound",
@@ -16493,12 +16494,12 @@
         "departureTime": "07:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2538"
+    ]
   },
   {
     "tripId": "HD_INB_UE-50_0545_2523",
     "lineId": "uetsu_main",
+    "trainId": "2523",
     "trainNumber": "520M",
     "trainType": "local",
     "direction": "inbound",
@@ -16585,17 +16586,18 @@
         "departureTime": "06:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2523"
+    ]
   },
   {
     "tripId": "HD_INB_UE-15_0546_13823",
     "lineId": "uetsu_main",
+    "trainId": "13823",
     "trainNumber": "922M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -16655,14 +16657,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13823",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_0619_13823",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-58_0556_24388",
     "lineId": "uetsu_main",
+    "trainId": "24388",
     "trainNumber": "1521M",
     "trainType": "local",
     "direction": "outbound",
@@ -16690,12 +16691,12 @@
         "departureTime": "06:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "24388"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-15_0559_7752",
     "lineId": "uetsu_main",
+    "trainId": "7752",
     "trainNumber": "821D",
     "trainType": "local",
     "direction": "outbound",
@@ -16848,12 +16849,12 @@
         "departureTime": "08:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7752"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_0600_42825",
     "lineId": "uetsu_main",
+    "trainId": "42825",
     "trainNumber": "150D",
     "trainType": "local",
     "direction": "inbound",
@@ -16893,12 +16894,12 @@
         "departureTime": "06:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42825"
+    ]
   },
   {
     "tripId": "HD_INB_UE-07_0608_2502",
     "lineId": "uetsu_main",
+    "trainId": "2502",
     "trainNumber": "120D",
     "trainType": "local",
     "direction": "inbound",
@@ -16949,12 +16950,12 @@
         "departureTime": "06:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2502"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-50_0608_7772",
     "lineId": "uetsu_main",
+    "trainId": "7772",
     "trainNumber": "2523M",
     "trainType": "local",
     "direction": "outbound",
@@ -17029,12 +17030,12 @@
         "departureTime": "06:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7772"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-01_0615_7787",
     "lineId": "uetsu_main",
+    "trainId": "7787",
     "trainNumber": "823D",
     "trainType": "local",
     "direction": "outbound",
@@ -17271,17 +17272,18 @@
         "departureTime": "09:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7787"
+    ]
   },
   {
     "tripId": "HD_INB_UE-15_0615_29604",
     "lineId": "uetsu_main",
+    "trainId": "29604",
     "trainNumber": "1924M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "吉田",
     "cars": 4,
     "isHoliday": true,
@@ -17341,14 +17343,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29604",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_0650_29604",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-23_0632_7789",
     "lineId": "uetsu_main",
+    "trainId": "7789",
     "trainNumber": "221D",
     "trainType": "local",
     "direction": "outbound",
@@ -17453,12 +17454,12 @@
         "departureTime": "07:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7789"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-38_0637_7766",
     "lineId": "uetsu_main",
+    "trainId": "7766",
     "trainNumber": "531M",
     "trainType": "local",
     "direction": "outbound",
@@ -17605,12 +17606,12 @@
         "departureTime": "08:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7766"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_0642_25766",
     "lineId": "uetsu_main",
+    "trainId": "25766",
     "trainNumber": "530M",
     "trainType": "local",
     "direction": "inbound",
@@ -17758,12 +17759,12 @@
         "departureTime": "08:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "25766"
+    ]
   },
   {
     "tripId": "HD_INB_UE-23_0646_2545",
     "lineId": "uetsu_main",
+    "trainId": "2545",
     "trainNumber": "820D",
     "trainType": "local",
     "direction": "inbound",
@@ -17910,12 +17911,12 @@
         "departureTime": "08:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2545"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-50_0651_7771",
     "lineId": "uetsu_main",
+    "trainId": "7771",
     "trainNumber": "2527M",
     "trainType": "local",
     "direction": "outbound",
@@ -17990,18 +17991,19 @@
         "departureTime": "07:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7771"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_0659_13834",
     "lineId": "uetsu_main",
+    "trainId": "13834",
     "trainNumber": "4M",
     "trainType": "limitedExp",
     "trainName": "いなほ4号",
     "direction": "inbound",
     "originStationId": "UE-38",
     "destinationStationId": "UE-07",
+    "customOrigin": "酒田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -18199,14 +18201,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13834",
-    "customOrigin": "酒田",
     "throughTripId": "HD_INB_HS-10_0844_13834",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-07_0700_2503",
     "lineId": "uetsu_main",
+    "trainId": "2503",
     "trainNumber": "2124M",
     "trainType": "local",
     "direction": "inbound",
@@ -18257,17 +18258,18 @@
         "departureTime": "07:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2503"
+    ]
   },
   {
     "tripId": "HD_INB_UE-15_0703_29602",
     "lineId": "uetsu_main",
+    "trainId": "29602",
     "trainNumber": "1926M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "関屋",
     "cars": 4,
     "isHoliday": true,
@@ -18327,14 +18329,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29602",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_0738_29602",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-38_0704_2515",
     "lineId": "uetsu_main",
+    "trainId": "2515",
     "trainNumber": "822D",
     "trainType": "local",
     "direction": "inbound",
@@ -18487,12 +18488,12 @@
         "departureTime": "09:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2515"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-34_0716_42809",
     "lineId": "uetsu_main",
+    "trainId": "42809",
     "trainNumber": "151D",
     "trainType": "local",
     "direction": "outbound",
@@ -18532,12 +18533,12 @@
         "departureTime": "07:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42809"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_0725_2525",
     "lineId": "uetsu_main",
+    "trainId": "2525",
     "trainNumber": "1532M",
     "trainType": "local",
     "direction": "inbound",
@@ -18564,17 +18565,18 @@
         "departureTime": "07:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2525"
+    ]
   },
   {
     "tripId": "HD_INB_UE-15_0726_29603",
     "lineId": "uetsu_main",
+    "trainId": "29603",
     "trainNumber": "1928M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "内野",
     "cars": 4,
     "isHoliday": true,
@@ -18634,20 +18636,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "29603",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_0801_29603",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-07_0731_13800",
     "lineId": "uetsu_main",
+    "trainId": "13800",
     "trainNumber": "923M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -18706,14 +18708,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13800",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_0643_13800",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-38_0742_42826",
     "lineId": "uetsu_main",
+    "trainId": "42826",
     "trainNumber": "152D",
     "trainType": "local",
     "direction": "inbound",
@@ -18753,12 +18754,12 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42826"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-58_0743_7793",
     "lineId": "uetsu_main",
+    "trainId": "7793",
     "trainNumber": "1529M",
     "trainType": "local",
     "direction": "outbound",
@@ -18785,12 +18786,12 @@
         "departureTime": "07:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7793"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-01_0748_7777",
     "lineId": "uetsu_main",
+    "trainId": "7777",
     "trainNumber": "2123M",
     "trainType": "local",
     "direction": "outbound",
@@ -18841,12 +18842,12 @@
         "departureTime": "08:15:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7777"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_0755_2526",
     "lineId": "uetsu_main",
+    "trainId": "2526",
     "trainNumber": "1534M",
     "trainType": "local",
     "direction": "inbound",
@@ -18873,12 +18874,12 @@
         "departureTime": "08:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2526"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-38_0756_7768",
     "lineId": "uetsu_main",
+    "trainId": "7768",
     "trainNumber": "535M",
     "trainType": "local",
     "direction": "outbound",
@@ -19025,12 +19026,12 @@
         "departureTime": "09:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7768"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_0800_2512",
     "lineId": "uetsu_main",
+    "trainId": "2512",
     "trainNumber": "220D",
     "trainType": "local",
     "direction": "inbound",
@@ -19135,18 +19136,19 @@
         "departureTime": "09:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2512"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_0821_29270",
     "lineId": "uetsu_main",
+    "trainId": "29270",
     "trainNumber": "1925M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "越後曽根",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -19205,14 +19207,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29270",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_0733_29270",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-58_0839_7794",
     "lineId": "uetsu_main",
+    "trainId": "7794",
     "trainNumber": "1533M",
     "trainType": "local",
     "direction": "outbound",
@@ -19239,12 +19240,12 @@
         "departureTime": "08:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7794"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_0844_13819",
     "lineId": "uetsu_main",
+    "trainId": "13819",
     "trainNumber": "1M",
     "trainType": "limitedExp",
     "trainName": "いなほ1号",
@@ -19252,6 +19253,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-60",
     "customOrigin": "新潟",
+    "customDestination": "秋田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -19580,19 +19582,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "13819",
-    "customDestination": "秋田",
     "prevTripId": "HD_OUT_HS-01_0823_13819",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-15_0846_13825",
     "lineId": "uetsu_main",
+    "trainId": "13825",
     "trainNumber": "930M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -19652,14 +19654,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13825",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_0931_13825",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-60_0910_2535",
     "lineId": "uetsu_main",
+    "trainId": "2535",
     "trainNumber": "536M",
     "trainType": "local",
     "direction": "inbound",
@@ -19806,18 +19807,19 @@
         "departureTime": "11:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2535"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_0912_13835",
     "lineId": "uetsu_main",
+    "trainId": "13835",
     "trainNumber": "6M",
     "trainType": "limitedExp",
     "trainName": "いなほ6号",
     "direction": "inbound",
     "originStationId": "UE-38",
     "destinationStationId": "UE-07",
+    "customOrigin": "酒田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -20015,20 +20017,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "13835",
-    "customOrigin": "酒田",
     "throughTripId": "HD_INB_HS-10_1054_13835",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-07_0931_29272",
     "lineId": "uetsu_main",
+    "trainId": "29272",
     "trainNumber": "927M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "長岡",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -20087,14 +20089,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29272",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_0850_29272",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-38_0936_2516",
     "lineId": "uetsu_main",
+    "trainId": "2516",
     "trainNumber": "824D",
     "trainType": "local",
     "direction": "inbound",
@@ -20247,12 +20248,12 @@
         "departureTime": "11:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2516"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-38_0944_7767",
     "lineId": "uetsu_main",
+    "trainId": "7767",
     "trainNumber": "539M",
     "trainType": "local",
     "direction": "outbound",
@@ -20399,17 +20400,18 @@
         "departureTime": "11:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7767"
+    ]
   },
   {
     "tripId": "HD_INB_UE-15_0953_29605",
     "lineId": "uetsu_main",
+    "trainId": "29605",
     "trainNumber": "1932M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "吉田",
     "cars": 4,
     "isHoliday": true,
@@ -20469,14 +20471,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29605",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_1029_29605",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-60_1002_2527",
     "lineId": "uetsu_main",
+    "trainId": "2527",
     "trainNumber": "1538M",
     "trainType": "local",
     "direction": "inbound",
@@ -20503,12 +20504,12 @@
         "departureTime": "10:09:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2527"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-23_1017_7790",
     "lineId": "uetsu_main",
+    "trainId": "7790",
     "trainNumber": "223D",
     "trainType": "local",
     "direction": "outbound",
@@ -20613,18 +20614,19 @@
         "departureTime": "11:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7790"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_1018_13801",
     "lineId": "uetsu_main",
+    "trainId": "13801",
     "trainNumber": "929M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -20683,14 +20685,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13801",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_0944_13801",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-15_1024_7753",
     "lineId": "uetsu_main",
+    "trainId": "7753",
     "trainNumber": "825D",
     "trainType": "local",
     "direction": "outbound",
@@ -20843,12 +20844,12 @@
         "departureTime": "12:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7753"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-58_1027_7795",
     "lineId": "uetsu_main",
+    "trainId": "7795",
     "trainNumber": "1537M",
     "trainType": "local",
     "direction": "outbound",
@@ -20875,12 +20876,12 @@
         "departureTime": "10:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7795"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-01_1038_7778",
     "lineId": "uetsu_main",
+    "trainId": "7778",
     "trainNumber": "125D",
     "trainType": "local",
     "direction": "outbound",
@@ -20931,12 +20932,12 @@
         "departureTime": "11:08:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7778"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_1039_13798",
     "lineId": "uetsu_main",
+    "trainId": "13798",
     "trainNumber": "8853D",
     "trainType": "rapid",
     "trainName": "海里",
@@ -20944,6 +20945,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-38",
     "customOrigin": "新潟",
+    "customDestination": "酒田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21140,20 +21142,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "13798",
-    "customDestination": "酒田",
     "prevTripId": "HD_OUT_HS-01_1011_13798",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-60_1044_13842",
     "lineId": "uetsu_main",
+    "trainId": "13842",
     "trainNumber": "8M",
     "trainType": "limitedExp",
     "trainName": "いなほ8号",
     "direction": "inbound",
     "originStationId": "UE-60",
     "destinationStationId": "UE-07",
+    "customOrigin": "秋田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -21483,14 +21485,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13842",
-    "customOrigin": "秋田",
     "throughTripId": "HD_INB_HS-10_1356_13842",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-07_1113_13812",
     "lineId": "uetsu_main",
+    "trainId": "13812",
     "trainNumber": "3M",
     "trainType": "limitedExp",
     "trainName": "いなほ3号",
@@ -21498,6 +21499,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-38",
     "customOrigin": "新潟",
+    "customDestination": "酒田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21694,19 +21696,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "13812",
-    "customDestination": "酒田",
     "prevTripId": "HD_OUT_HS-01_1050_13812",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-15_1116_13826",
     "lineId": "uetsu_main",
+    "trainId": "13826",
     "trainNumber": "934M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -21766,14 +21768,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13826",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_1158_13826",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-60_1125_2531",
     "lineId": "uetsu_main",
+    "trainId": "2531",
     "trainNumber": "2540M",
     "trainType": "local",
     "direction": "inbound",
@@ -21848,18 +21849,19 @@
         "departureTime": "12:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2531"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_1126_13802",
     "lineId": "uetsu_main",
+    "trainId": "13802",
     "trainNumber": "931M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21918,14 +21920,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13802",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_1039_13802",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-07_1132_2504",
     "lineId": "uetsu_main",
+    "trainId": "2504",
     "trainNumber": "126D",
     "trainType": "local",
     "direction": "inbound",
@@ -21976,12 +21977,12 @@
         "departureTime": "12:02:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2504"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_1145_2510",
     "lineId": "uetsu_main",
+    "trainId": "2510",
     "trainNumber": "222M",
     "trainType": "local",
     "direction": "inbound",
@@ -22038,12 +22039,12 @@
         "departureTime": "12:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2510"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_1216_2539",
     "lineId": "uetsu_main",
+    "trainId": "2539",
     "trainNumber": "542M",
     "trainType": "local",
     "direction": "inbound",
@@ -22190,18 +22191,19 @@
         "departureTime": "14:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2539"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_1223_13803",
     "lineId": "uetsu_main",
+    "trainId": "13803",
     "trainNumber": "933M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -22260,19 +22262,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "13803",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_1144_13803",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-15_1223_13827",
     "lineId": "uetsu_main",
+    "trainId": "13827",
     "trainNumber": "936M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -22332,14 +22334,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13827",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_1303_13827",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-38_1229_7761",
     "lineId": "uetsu_main",
+    "trainId": "7761",
     "trainNumber": "543M",
     "trainType": "local",
     "direction": "outbound",
@@ -22486,12 +22487,12 @@
         "departureTime": "14:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7761"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-01_1231_7779",
     "lineId": "uetsu_main",
+    "trainId": "7779",
     "trainNumber": "127D",
     "trainType": "local",
     "direction": "outbound",
@@ -22542,12 +22543,12 @@
         "departureTime": "13:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7779"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-50_1242_7773",
     "lineId": "uetsu_main",
+    "trainId": "7773",
     "trainNumber": "2541M",
     "trainType": "local",
     "direction": "outbound",
@@ -22622,12 +22623,12 @@
         "departureTime": "13:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7773"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_1252_2517",
     "lineId": "uetsu_main",
+    "trainId": "2517",
     "trainNumber": "826D",
     "trainType": "local",
     "direction": "inbound",
@@ -22780,12 +22781,12 @@
         "departureTime": "14:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2517"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_1303_13815",
     "lineId": "uetsu_main",
+    "trainId": "13815",
     "trainNumber": "5M",
     "trainType": "limitedExp",
     "trainName": "いなほ5号",
@@ -22793,6 +22794,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-38",
     "customOrigin": "新潟",
+    "customDestination": "酒田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -22989,14 +22991,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13815",
-    "customDestination": "酒田",
     "prevTripId": "HD_OUT_HS-01_1241_13815",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-07_1303_13820",
     "lineId": "uetsu_main",
+    "trainId": "13820",
     "trainNumber": "5M",
     "trainType": "limitedExp",
     "trainName": "いなほ5号",
@@ -23004,6 +23005,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-60",
     "customOrigin": "新潟",
+    "customDestination": "秋田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -23331,19 +23333,19 @@
         "departureTime": "16:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13820",
-    "customDestination": "秋田"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_1314_13843",
     "lineId": "uetsu_main",
+    "trainId": "13843",
     "trainNumber": "10M",
     "trainType": "limitedExp",
     "trainName": "いなほ10号",
     "direction": "inbound",
     "originStationId": "UE-60",
     "destinationStationId": "UE-07",
+    "customOrigin": "秋田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -23673,14 +23675,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13843",
-    "customOrigin": "秋田",
     "throughTripId": "HD_INB_HS-10_1626_13839",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-07_1323_2505",
     "lineId": "uetsu_main",
+    "trainId": "2505",
     "trainNumber": "128D",
     "trainType": "local",
     "direction": "inbound",
@@ -23731,12 +23732,12 @@
         "departureTime": "13:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2505"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-15_1341_7754",
     "lineId": "uetsu_main",
+    "trainId": "7754",
     "trainNumber": "827D",
     "trainType": "local",
     "direction": "outbound",
@@ -23889,12 +23890,12 @@
         "departureTime": "16:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7754"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-31_1352_7758",
     "lineId": "uetsu_main",
+    "trainId": "7758",
     "trainNumber": "225M",
     "trainType": "local",
     "direction": "outbound",
@@ -23951,12 +23952,12 @@
         "departureTime": "14:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7758"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_1353_2532",
     "lineId": "uetsu_main",
+    "trainId": "2532",
     "trainNumber": "2544M",
     "trainType": "local",
     "direction": "inbound",
@@ -24031,12 +24032,12 @@
         "departureTime": "14:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2532"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-01_1403_7780",
     "lineId": "uetsu_main",
+    "trainId": "7780",
     "trainNumber": "129D",
     "trainType": "local",
     "direction": "outbound",
@@ -24087,12 +24088,12 @@
         "departureTime": "14:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7780"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_1405_2511",
     "lineId": "uetsu_main",
+    "trainId": "2511",
     "trainNumber": "224D",
     "trainType": "local",
     "direction": "inbound",
@@ -24185,17 +24186,18 @@
         "departureTime": "15:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2511"
+    ]
   },
   {
     "tripId": "HD_INB_UE-15_1408_13828",
     "lineId": "uetsu_main",
+    "trainId": "13828",
     "trainNumber": "938M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -24255,20 +24257,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "13828",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_1448_13828",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-07_1436_13805",
     "lineId": "uetsu_main",
+    "trainId": "13805",
     "trainNumber": "935M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -24327,20 +24329,20 @@
         "isPassing": false
       }
     ],
-    "trainId": "13805",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_1345_13805",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-38_1441_13839",
     "lineId": "uetsu_main",
+    "trainId": "13839",
     "trainNumber": "10M",
     "trainType": "limitedExp",
     "trainName": "いなほ10号",
     "direction": "inbound",
     "originStationId": "UE-38",
     "destinationStationId": "UE-07",
+    "customOrigin": "酒田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -24537,13 +24539,12 @@
         "departureTime": "16:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "13839",
-    "customOrigin": "酒田"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_1444_2521",
     "lineId": "uetsu_main",
+    "trainId": "2521",
     "trainNumber": "828D",
     "trainType": "local",
     "direction": "inbound",
@@ -24780,12 +24781,12 @@
         "departureTime": "18:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2521"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_1512_13821",
     "lineId": "uetsu_main",
+    "trainId": "13821",
     "trainNumber": "7M",
     "trainType": "limitedExp",
     "trainName": "いなほ7号",
@@ -24793,6 +24794,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-60",
     "customOrigin": "新潟",
+    "customDestination": "秋田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -25121,14 +25123,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13821",
-    "customDestination": "秋田",
     "prevTripId": "HD_OUT_HS-01_1450_13821",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-50_1513_7774",
     "lineId": "uetsu_main",
+    "trainId": "7774",
     "trainNumber": "2545M",
     "trainType": "local",
     "direction": "outbound",
@@ -25203,17 +25204,18 @@
         "departureTime": "15:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7774"
+    ]
   },
   {
     "tripId": "HD_INB_UE-15_1515_40507",
     "lineId": "uetsu_main",
+    "trainId": "40507",
     "trainNumber": "940M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "長岡",
     "cars": 4,
     "isHoliday": true,
@@ -25273,14 +25275,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40507",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_1549_40507",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-34_1515_42810",
     "lineId": "uetsu_main",
+    "trainId": "42810",
     "trainNumber": "161D",
     "trainType": "local",
     "direction": "outbound",
@@ -25320,12 +25321,12 @@
         "departureTime": "15:31:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42810"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-01_1517_7788",
     "lineId": "uetsu_main",
+    "trainId": "7788",
     "trainNumber": "829D",
     "trainType": "local",
     "direction": "outbound",
@@ -25562,12 +25563,12 @@
         "departureTime": "18:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7788"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-38_1535_7769",
     "lineId": "uetsu_main",
+    "trainId": "7769",
     "trainNumber": "549M",
     "trainType": "local",
     "direction": "outbound",
@@ -25714,12 +25715,12 @@
         "departureTime": "17:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7769"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_1541_2536",
     "lineId": "uetsu_main",
+    "trainId": "2536",
     "trainNumber": "546M",
     "trainType": "local",
     "direction": "inbound",
@@ -25866,12 +25867,12 @@
         "departureTime": "17:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2536"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-25_1548_7757",
     "lineId": "uetsu_main",
+    "trainId": "7757",
     "trainNumber": "227D",
     "trainType": "local",
     "direction": "outbound",
@@ -25964,18 +25965,19 @@
         "departureTime": "16:55:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7757"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_1553_13841",
     "lineId": "uetsu_main",
+    "trainId": "13841",
     "trainNumber": "8854D",
     "trainType": "rapid",
     "trainName": "海里",
     "direction": "inbound",
     "originStationId": "UE-38",
     "destinationStationId": "UE-07",
+    "customOrigin": "酒田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -26173,14 +26175,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13841",
-    "customOrigin": "酒田",
     "throughTripId": "HD_INB_HS-10_1807_13841",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-07_1554_2506",
     "lineId": "uetsu_main",
+    "trainId": "2506",
     "trainNumber": "130D",
     "trainType": "local",
     "direction": "inbound",
@@ -26231,18 +26232,19 @@
         "departureTime": "16:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2506"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_1603_13840",
     "lineId": "uetsu_main",
+    "trainId": "13840",
     "trainNumber": "12M",
     "trainType": "limitedExp",
     "trainName": "いなほ12号",
     "direction": "inbound",
     "originStationId": "UE-38",
     "destinationStationId": "UE-07",
+    "customOrigin": "酒田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -26440,19 +26442,19 @@
         "isPassing": false
       }
     ],
-    "trainId": "13840",
-    "customOrigin": "酒田",
     "throughTripId": "HD_INB_HS-10_1747_13840",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-15_1606_13829",
     "lineId": "uetsu_main",
+    "trainId": "13829",
     "trainNumber": "942M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -26512,14 +26514,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13829",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_1642_13829",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-38_1609_2519",
     "lineId": "uetsu_main",
+    "trainId": "2519",
     "trainNumber": "830D",
     "trainType": "local",
     "direction": "inbound",
@@ -26672,12 +26673,12 @@
         "departureTime": "18:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2519"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_1627_2528",
     "lineId": "uetsu_main",
+    "trainId": "2528",
     "trainNumber": "1548M",
     "trainType": "local",
     "direction": "inbound",
@@ -26704,12 +26705,12 @@
         "departureTime": "16:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2528"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-38_1630_7763",
     "lineId": "uetsu_main",
+    "trainId": "7763",
     "trainNumber": "551M",
     "trainType": "local",
     "direction": "outbound",
@@ -26856,12 +26857,12 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7763"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-01_1632_7785",
     "lineId": "uetsu_main",
+    "trainId": "7785",
     "trainNumber": "833D",
     "trainType": "local",
     "direction": "outbound",
@@ -26942,18 +26943,19 @@
         "departureTime": "17:38:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7785"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_1632_29271",
     "lineId": "uetsu_main",
+    "trainId": "29271",
     "trainNumber": "1937M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "内野",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -27012,14 +27014,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29271",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_1550_29271",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-38_1644_42827",
     "lineId": "uetsu_main",
+    "trainId": "42827",
     "trainNumber": "160D",
     "trainType": "local",
     "direction": "inbound",
@@ -27059,12 +27060,12 @@
         "departureTime": "17:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42827"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-58_1645_7796",
     "lineId": "uetsu_main",
+    "trainId": "7796",
     "trainNumber": "1547M",
     "trainType": "local",
     "direction": "outbound",
@@ -27091,18 +27092,19 @@
         "departureTime": "16:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7796"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_1648_13844",
     "lineId": "uetsu_main",
+    "trainId": "13844",
     "trainNumber": "14M",
     "trainType": "limitedExp",
     "trainName": "いなほ14号",
     "direction": "inbound",
     "originStationId": "UE-60",
     "destinationStationId": "UE-07",
+    "customOrigin": "秋田",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -27432,14 +27434,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13844",
-    "customOrigin": "秋田",
     "throughTripId": "HD_INB_HS-10_2001_13844",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-07_1703_2507",
     "lineId": "uetsu_main",
+    "trainId": "2507",
     "trainNumber": "2132M",
     "trainType": "local",
     "direction": "inbound",
@@ -27490,12 +27491,12 @@
         "departureTime": "17:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2507"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-34_1707_42811",
     "lineId": "uetsu_main",
+    "trainId": "42811",
     "trainNumber": "163D",
     "trainType": "local",
     "direction": "outbound",
@@ -27535,12 +27536,12 @@
         "departureTime": "17:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42811"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_1708_2543",
     "lineId": "uetsu_main",
+    "trainId": "2543",
     "trainNumber": "550M",
     "trainType": "local",
     "direction": "inbound",
@@ -27687,12 +27688,12 @@
         "departureTime": "18:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2543"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-15_1724_7755",
     "lineId": "uetsu_main",
+    "trainId": "7755",
     "trainNumber": "831D",
     "trainType": "local",
     "direction": "outbound",
@@ -27845,12 +27846,12 @@
         "departureTime": "19:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7755"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_1734_2522",
     "lineId": "uetsu_main",
+    "trainId": "2522",
     "trainNumber": "832D",
     "trainType": "local",
     "direction": "inbound",
@@ -28087,17 +28088,18 @@
         "departureTime": "21:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2522"
+    ]
   },
   {
     "tripId": "HD_INB_UE-15_1746_13830",
     "lineId": "uetsu_main",
+    "trainId": "13830",
     "trainNumber": "944M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -28157,14 +28159,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13830",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_1822_13830",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-38_1750_7762",
     "lineId": "uetsu_main",
+    "trainId": "7762",
     "trainNumber": "555M",
     "trainType": "local",
     "direction": "outbound",
@@ -28311,12 +28312,12 @@
         "departureTime": "19:40:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7762"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_1802_42828",
     "lineId": "uetsu_main",
+    "trainId": "42828",
     "trainNumber": "162D",
     "trainType": "local",
     "direction": "inbound",
@@ -28356,12 +28357,12 @@
         "departureTime": "18:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42828"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-01_1803_7781",
     "lineId": "uetsu_main",
+    "trainId": "7781",
     "trainNumber": "2131M",
     "trainType": "local",
     "direction": "outbound",
@@ -28412,18 +28413,19 @@
         "departureTime": "18:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7781"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_1807_13806",
     "lineId": "uetsu_main",
+    "trainId": "13806",
     "trainNumber": "939M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -28482,14 +28484,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13806",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_1723_13806",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-60_1815_2540",
     "lineId": "uetsu_main",
+    "trainId": "2540",
     "trainNumber": "552M",
     "trainType": "local",
     "direction": "inbound",
@@ -28636,12 +28637,12 @@
         "departureTime": "20:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2540"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_1822_13816",
     "lineId": "uetsu_main",
+    "trainId": "13816",
     "trainNumber": "9M",
     "trainType": "limitedExp",
     "trainName": "いなほ9号",
@@ -28649,6 +28650,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-38",
     "customOrigin": "新潟",
+    "customDestination": "酒田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -28845,14 +28847,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13816",
-    "customDestination": "酒田",
     "prevTripId": "HD_OUT_HS-01_1758_13816",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-60_1833_2529",
     "lineId": "uetsu_main",
+    "trainId": "2529",
     "trainNumber": "1554M",
     "trainType": "local",
     "direction": "inbound",
@@ -28879,18 +28880,19 @@
         "departureTime": "18:41:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2529"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_1839_29268",
     "lineId": "uetsu_main",
+    "trainId": "29268",
     "trainNumber": "1941M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "吉田",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -28949,14 +28951,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29268",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_1802_29268",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-58_1850_7797",
     "lineId": "uetsu_main",
+    "trainId": "7797",
     "trainNumber": "1553M",
     "trainType": "local",
     "direction": "outbound",
@@ -28983,12 +28984,12 @@
         "departureTime": "19:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7797"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-01_1854_7782",
     "lineId": "uetsu_main",
+    "trainId": "7782",
     "trainNumber": "133D",
     "trainType": "local",
     "direction": "outbound",
@@ -29039,17 +29040,18 @@
         "departureTime": "19:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7782"
+    ]
   },
   {
     "tripId": "HD_INB_UE-15_1855_29606",
     "lineId": "uetsu_main",
+    "trainId": "29606",
     "trainNumber": "1946M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "吉田",
     "cars": 4,
     "isHoliday": true,
@@ -29109,14 +29111,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29606",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_1932_29606",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-15_1900_7756",
     "lineId": "uetsu_main",
+    "trainId": "7756",
     "trainNumber": "835D",
     "trainType": "local",
     "direction": "outbound",
@@ -29269,12 +29270,12 @@
         "departureTime": "21:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7756"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-38_1909_7764",
     "lineId": "uetsu_main",
+    "trainId": "7764",
     "trainNumber": "557M",
     "trainType": "local",
     "direction": "outbound",
@@ -29421,12 +29422,12 @@
         "departureTime": "20:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7764"
+    ]
   },
   {
     "tripId": "HD_INB_UE-38_1911_2513",
     "lineId": "uetsu_main",
+    "trainId": "2513",
     "trainNumber": "226D",
     "trainType": "local",
     "direction": "inbound",
@@ -29531,12 +29532,12 @@
         "departureTime": "20:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2513"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_1922_2541",
     "lineId": "uetsu_main",
+    "trainId": "2541",
     "trainNumber": "556M",
     "trainType": "local",
     "direction": "inbound",
@@ -29683,12 +29684,12 @@
         "departureTime": "21:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2541"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_1923_2542",
     "lineId": "uetsu_main",
+    "trainId": "2542",
     "trainNumber": "556M",
     "trainType": "local",
     "direction": "inbound",
@@ -29835,18 +29836,19 @@
         "departureTime": "21:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2542"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_1930_29274",
     "lineId": "uetsu_main",
+    "trainId": "29274",
     "trainNumber": "943M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新津",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -29905,14 +29907,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "29274",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_1845_29274",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-07_1948_2508",
     "lineId": "uetsu_main",
+    "trainId": "2508",
     "trainNumber": "134D",
     "trainType": "local",
     "direction": "inbound",
@@ -29963,12 +29964,12 @@
         "departureTime": "20:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2508"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_2001_13817",
     "lineId": "uetsu_main",
+    "trainId": "13817",
     "trainNumber": "11M",
     "trainType": "limitedExp",
     "trainName": "いなほ11号",
@@ -29976,6 +29977,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-38",
     "customOrigin": "新潟",
+    "customDestination": "酒田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -30172,14 +30174,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13817",
-    "customDestination": "酒田",
     "prevTripId": "HD_OUT_HS-01_1938_13817",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-38_2012_2520",
     "lineId": "uetsu_main",
+    "trainId": "2520",
     "trainNumber": "834D",
     "trainType": "local",
     "direction": "inbound",
@@ -30332,12 +30333,12 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2520"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_2015_2533",
     "lineId": "uetsu_main",
+    "trainId": "2533",
     "trainNumber": "2558M",
     "trainType": "local",
     "direction": "inbound",
@@ -30412,12 +30413,12 @@
         "departureTime": "20:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2533"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-38_2017_7760",
     "lineId": "uetsu_main",
+    "trainId": "7760",
     "trainNumber": "245M",
     "trainType": "local",
     "direction": "outbound",
@@ -30456,18 +30457,19 @@
         "departureTime": "20:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7760"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_2032_13807",
     "lineId": "uetsu_main",
+    "trainId": "13807",
     "trainNumber": "945M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -30526,14 +30528,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13807",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_1950_13807",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-01_2041_7786",
     "lineId": "uetsu_main",
+    "trainId": "7786",
     "trainNumber": "837D",
     "trainType": "local",
     "direction": "outbound",
@@ -30680,12 +30681,12 @@
         "departureTime": "22:47:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7786"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-23_2046_7792",
     "lineId": "uetsu_main",
+    "trainId": "7792",
     "trainNumber": "229D",
     "trainType": "local",
     "direction": "outbound",
@@ -30790,12 +30791,12 @@
         "departureTime": "22:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7792"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_2048_2537",
     "lineId": "uetsu_main",
+    "trainId": "2537",
     "trainNumber": "560M",
     "trainType": "local",
     "direction": "inbound",
@@ -30942,17 +30943,18 @@
         "departureTime": "22:34:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2537"
+    ]
   },
   {
     "tripId": "HD_INB_UE-15_2056_13831",
     "lineId": "uetsu_main",
+    "trainId": "13831",
     "trainNumber": "948M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新潟",
     "cars": 4,
     "isHoliday": true,
@@ -31012,14 +31014,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13831",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_2146_13831",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-34_2110_42808",
     "lineId": "uetsu_main",
+    "trainId": "42808",
     "trainNumber": "3131D",
     "trainType": "rapid",
     "trainName": "最上川",
@@ -31060,12 +31061,12 @@
         "departureTime": "21:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "42808"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-01_2114_7783",
     "lineId": "uetsu_main",
+    "trainId": "7783",
     "trainNumber": "135D",
     "trainType": "local",
     "direction": "outbound",
@@ -31116,12 +31117,12 @@
         "departureTime": "21:44:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7783"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-50_2117_7775",
     "lineId": "uetsu_main",
+    "trainId": "7775",
     "trainNumber": "2559M",
     "trainType": "local",
     "direction": "outbound",
@@ -31196,12 +31197,12 @@
         "departureTime": "22:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7775"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-38_2127_7770",
     "lineId": "uetsu_main",
+    "trainId": "7770",
     "trainNumber": "561M",
     "trainType": "local",
     "direction": "outbound",
@@ -31348,12 +31349,12 @@
         "departureTime": "23:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7770"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_2132_13818",
     "lineId": "uetsu_main",
+    "trainId": "13818",
     "trainNumber": "13M",
     "trainType": "limitedExp",
     "trainName": "いなほ13号",
@@ -31361,6 +31362,7 @@
     "originStationId": "UE-07",
     "destinationStationId": "UE-38",
     "customOrigin": "新潟",
+    "customDestination": "酒田",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -31557,14 +31559,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13818",
-    "customDestination": "酒田",
     "prevTripId": "HD_OUT_HS-01_2107_13818",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-38_2140_2514",
     "lineId": "uetsu_main",
+    "trainId": "2514",
     "trainNumber": "228D",
     "trainType": "local",
     "direction": "inbound",
@@ -31669,18 +31670,19 @@
         "departureTime": "22:58:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2514"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_2201_13808",
     "lineId": "uetsu_main",
+    "trainId": "13808",
     "trainNumber": "947M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -31739,14 +31741,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13808",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_2121_13808",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-07_2205_2509",
     "lineId": "uetsu_main",
+    "trainId": "2509",
     "trainNumber": "136D",
     "trainType": "local",
     "direction": "inbound",
@@ -31797,17 +31798,18 @@
         "departureTime": "22:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2509"
+    ]
   },
   {
     "tripId": "HD_INB_UE-15_2215_40506",
     "lineId": "uetsu_main",
+    "trainId": "40506",
     "trainNumber": "950M",
     "trainType": "local",
     "direction": "inbound",
     "originStationId": "UE-15",
     "destinationStationId": "UE-07",
+    "customOrigin": "村上",
     "customDestination": "新津",
     "cars": 4,
     "isHoliday": true,
@@ -31867,14 +31869,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "40506",
-    "customOrigin": "村上",
     "throughTripId": "HD_INB_HS-10_2249_40506",
     "throughLineId": "hakushin"
   },
   {
     "tripId": "HD_INB_UE-60_2235_2534",
     "lineId": "uetsu_main",
+    "trainId": "2534",
     "trainNumber": "2562M",
     "trainType": "local",
     "direction": "inbound",
@@ -31949,18 +31950,19 @@
         "departureTime": "23:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2534"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_2305_13809",
     "lineId": "uetsu_main",
+    "trainId": "13809",
     "trainNumber": "949M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "新潟",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -32019,14 +32021,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "13809",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_2229_13809",
     "prevLineId": "hakushin"
   },
   {
     "tripId": "HD_OUT_UE-01_2309_7784",
     "lineId": "uetsu_main",
+    "trainId": "7784",
     "trainNumber": "137D",
     "trainType": "local",
     "direction": "outbound",
@@ -32077,12 +32078,12 @@
         "departureTime": "23:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7784"
+    ]
   },
   {
     "tripId": "HD_INB_UE-60_2322_2530",
     "lineId": "uetsu_main",
+    "trainId": "2530",
     "trainNumber": "1564M",
     "trainType": "local",
     "direction": "inbound",
@@ -32109,18 +32110,19 @@
         "departureTime": "23:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "2530"
+    ]
   },
   {
     "tripId": "HD_OUT_UE-07_2342_29269",
     "lineId": "uetsu_main",
+    "trainId": "29269",
     "trainNumber": "1951M",
     "trainType": "local",
     "direction": "outbound",
     "originStationId": "UE-07",
     "destinationStationId": "UE-15",
     "customOrigin": "吉田",
+    "customDestination": "村上",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -32179,8 +32181,6 @@
         "isPassing": false
       }
     ],
-    "trainId": "29269",
-    "customDestination": "村上",
     "prevTripId": "HD_OUT_HS-01_2308_29269",
     "prevLineId": "hakushin"
   }

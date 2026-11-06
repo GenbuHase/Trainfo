@@ -941,6 +941,7 @@
     "direction": "inbound",
     "originStationId": "TI-39",
     "destinationStationId": "TI-10",
+    "customOrigin": "葛生",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -1006,7 +1007,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "葛生",
     "throughTripId": "WD_INB_TI-10_0837_116487",
     "throughLineId": "tobu_isesaki"
   },
@@ -4129,6 +4129,7 @@
     "originStationId": "TI-10",
     "destinationStationId": "TI-39",
     "customOrigin": "浅草",
+    "customDestination": "葛生",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -4193,7 +4194,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "葛生",
     "prevTripId": "WD_OUT_TSK-30_2120_116466",
     "prevLineId": "tobu_isesaki"
   },
@@ -5583,6 +5583,7 @@
     "direction": "inbound",
     "originStationId": "TI-39",
     "destinationStationId": "TI-10",
+    "customOrigin": "葛生",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -5648,7 +5649,6 @@
         "isPassing": false
       }
     ],
-    "customOrigin": "葛生",
     "throughTripId": "HD_INB_TI-10_0837_116486",
     "throughLineId": "tobu_isesaki"
   },
@@ -8771,6 +8771,7 @@
     "originStationId": "TI-10",
     "destinationStationId": "TI-39",
     "customOrigin": "浅草",
+    "customDestination": "葛生",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -8835,7 +8836,6 @@
         "isPassing": false
       }
     ],
-    "customDestination": "葛生",
     "prevTripId": "HD_OUT_TSK-30_2120_116466",
     "prevLineId": "tobu_isesaki"
   },

@@ -43,11 +43,145 @@ function safeReadJson(filePath, fallback = []) {
 }
 
 /**
+ * globalTimetable の trip オブジェクトにおける固定キー順序（カノニカル順）
+ */
+const TRIP_KEY_ORDER = [
+  'tripId',
+  'lineId',
+  'trainId',
+  'trainNumber',
+  'trainType',
+  'trainName',
+  'direction',
+  'originStationId',
+  'destinationStationId',
+  'customOrigin',
+  'customDestination',
+  'cars',
+  'isHoliday',
+  'isClonedBranch',
+  'stops',
+  'throughTripId',
+  'throughLineId',
+  'prevTripId',
+  'prevLineId',
+  'coupling',
+];
+
+const STOP_KEY_ORDER = [
+  'stationId',
+  'arrivalTime',
+  'departureTime',
+  'isPassing',
+  'track',
+  'distance',
+];
+
+const COUPLING_KEY_ORDER = [
+  'role',
+  'coupledTripId',
+  'coupledTrainNumber',
+  'couplingStationId',
+  'decouplingStationId',
+  'splitStationId',
+  'mergeStationId',
+];
+
+const STATION_ENTRY_KEY_ORDER = [
+  'h',
+  'm',
+  'time',
+  'sec',
+  't',
+  'n',
+  'd',
+  'no',
+  'tripId',
+];
+
+/**
+ * オブジェクトのキーを指定された優先順序（未知のキーは末尾アルファベット順）でソート
+ */
+function sortObjectKeys(obj, preferredOrder) {
+  if (!obj || typeof obj !== 'object' || Array.isArray(obj)) return obj;
+  const sorted = {};
+  const orderMap = new Map(preferredOrder.map((k, i) => [k, i]));
+  const keys = Object.keys(obj).sort((a, b) => {
+    const idxA = orderMap.has(a) ? orderMap.get(a) : 999;
+    const idxB = orderMap.has(b) ? orderMap.get(b) : 999;
+    if (idxA !== idxB) return idxA - idxB;
+    return a.localeCompare(b);
+  });
+  for (const k of keys) {
+    sorted[k] = obj[k];
+  }
+  return sorted;
+}
+
+function canonicalizeStop(stop) {
+  return sortObjectKeys(stop, STOP_KEY_ORDER);
+}
+
+function canonicalizeCoupling(coupling) {
+  return sortObjectKeys(coupling, COUPLING_KEY_ORDER);
+}
+
+function canonicalizeTrip(trip) {
+  if (!trip || typeof trip !== 'object') return trip;
+  const sorted = sortObjectKeys(trip, TRIP_KEY_ORDER);
+  if (Array.isArray(sorted.stops)) {
+    sorted.stops = sorted.stops.map(canonicalizeStop);
+  }
+  if (sorted.coupling && typeof sorted.coupling === 'object') {
+    sorted.coupling = canonicalizeCoupling(sorted.coupling);
+  }
+  return sorted;
+}
+
+function canonicalizeStationEntry(entry) {
+  return sortObjectKeys(entry, STATION_ENTRY_KEY_ORDER);
+}
+
+function canonicalizeStationTimetables(store) {
+  if (!store || typeof store !== 'object') return store;
+  const sortedStore = {};
+  for (const dayKey of ['weekday', 'holiday']) {
+    if (!store[dayKey]) continue;
+    sortedStore[dayKey] = {};
+    const stationIds = Object.keys(store[dayKey]).sort();
+    for (const stId of stationIds) {
+      sortedStore[dayKey][stId] = {
+        outbound: (store[dayKey][stId].outbound || []).map(canonicalizeStationEntry),
+        inbound: (store[dayKey][stId].inbound || []).map(canonicalizeStationEntry),
+      };
+    }
+  }
+  return sortedStore;
+}
+
+/**
+ * ファイルパスや構造から自動判定してキー順序を正規化（カノニカル化）
+ */
+function canonicalizeData(filePath, data) {
+  if (!data) return data;
+  const normalizedPath = filePath ? filePath.replace(/\\/g, '/') : '';
+  if (normalizedPath.endsWith('globalTimetable.json') || (Array.isArray(data) && data.length > 0 && data[0]?.tripId)) {
+    return data.map(canonicalizeTrip);
+  }
+  if (normalizedPath.endsWith('stationTimetables.json') || (typeof data === 'object' && ('weekday' in data || 'holiday' in data))) {
+    return canonicalizeStationTimetables(data);
+  }
+  return data;
+}
+
+/**
  * Windows環境でのファイルロック競合（EBUSY等）に耐性のあるJSONファイル書き出し
+ * （自動的にカノニカルなキー順序に正規化して保存）
  */
 function safeWriteJson(filePath, data, maxAttempts = 15) {
   const resolved = path.resolve(filePath);
-  const content = JSON.stringify(data, null, 2);
+  const normalizedData = canonicalizeData(resolved, data);
+  const content = JSON.stringify(normalizedData, null, 2);
   let attempts = 0;
   while (attempts < maxAttempts) {
     try {
@@ -305,6 +439,9 @@ module.exports = {
   secToTime,
   safeReadJson,
   safeWriteJson,
+  canonicalizeData,
+  canonicalizeTrip,
+  canonicalizeStationTimetables,
   extractTrainId,
   isLimitedExpress,
   isExpressType,

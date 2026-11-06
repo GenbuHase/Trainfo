@@ -108,6 +108,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": false,
@@ -210,8 +211,7 @@
       }
     ],
     "throughTripId": "WD_INB_TD-03_0723_40457",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-06_0640_1063",
@@ -419,6 +419,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津高原尾瀬口",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": false,
@@ -551,8 +552,7 @@
       }
     ],
     "throughTripId": "WD_INB_TD-03_0831_40464",
-    "throughLineId": "tadami",
-    "customOrigin": "会津高原尾瀬口"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-21_0757_40383",
@@ -564,6 +564,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -665,8 +666,7 @@
       }
     ],
     "prevTripId": "WD_OUT_TD-01_0751_40383",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_0846_41241",
@@ -678,6 +678,7 @@
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-06",
     "customOrigin": "新藤原",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -719,8 +720,7 @@
       }
     ],
     "prevTripId": "WD_OUT_YAG-01_0810_41241",
-    "prevLineId": "yagan",
-    "customDestination": "会津田島"
+    "prevLineId": "yagan"
   },
   {
     "tripId": "WD_INB_AIZ-06_0908_43011",
@@ -731,6 +731,7 @@
     "direction": "inbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-01",
+    "customOrigin": "会津田島",
     "customDestination": "鬼怒川温泉",
     "cars": 2,
     "isHoliday": false,
@@ -773,8 +774,7 @@
       }
     ],
     "throughTripId": "WD_INB_YAG-09_0928_43011",
-    "throughLineId": "yagan",
-    "customOrigin": "会津田島"
+    "throughLineId": "yagan"
   },
   {
     "tripId": "WD_INB_AIZ-21_0909_40384",
@@ -787,6 +787,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -888,8 +889,7 @@
       }
     ],
     "prevTripId": "WD_OUT_TD-01_0902_40384",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_0926_25154",
@@ -902,6 +902,7 @@
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-06",
     "customOrigin": "浅草",
+    "customDestination": "会津田島",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -943,8 +944,7 @@
       }
     ],
     "prevTripId": "WD_OUT_YAG-01_0848_25154",
-    "prevLineId": "yagan",
-    "customDestination": "会津田島"
+    "prevLineId": "yagan"
   },
   {
     "tripId": "WD_OUT_AIZ-06_0944_40458",
@@ -956,6 +956,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": false,
@@ -1058,8 +1059,7 @@
       }
     ],
     "throughTripId": "WD_INB_TD-03_1044_40458",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1024_38077",
@@ -1203,10 +1203,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "WD_OUT_YAG-01_0948_38077",
-    "prevLineId": "yagan",
     "throughTripId": "WD_INB_TD-03_1150_38077",
-    "throughLineId": "tadami"
+    "throughLineId": "tadami",
+    "prevTripId": "WD_OUT_YAG-01_0948_38077",
+    "prevLineId": "yagan"
   },
   {
     "tripId": "WD_INB_AIZ-06_1050_42865",
@@ -1218,6 +1218,7 @@
     "direction": "inbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-01",
+    "customOrigin": "会津田島",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -1260,8 +1261,7 @@
       }
     ],
     "throughTripId": "WD_INB_YAG-09_1108_42865",
-    "throughLineId": "yagan",
-    "customOrigin": "会津田島"
+    "throughLineId": "yagan"
   },
   {
     "tripId": "WD_INB_AIZ-21_1132_40390",
@@ -1274,6 +1274,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-01",
     "customOrigin": "会津若松",
+    "customDestination": "会津高原尾瀬口",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -1405,8 +1406,7 @@
       }
     ],
     "prevTripId": "WD_OUT_TD-01_1126_40390",
-    "prevLineId": "tadami",
-    "customDestination": "会津高原尾瀬口"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1222_25151",
@@ -1419,6 +1419,7 @@
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-06",
     "customOrigin": "浅草",
+    "customDestination": "会津田島",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1460,8 +1461,7 @@
       }
     ],
     "prevTripId": "WD_OUT_YAG-01_1146_25151",
-    "prevLineId": "yagan",
-    "customDestination": "会津田島"
+    "prevLineId": "yagan"
   },
   {
     "tripId": "WD_INB_AIZ-21_1255_40385",
@@ -1473,6 +1473,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -1574,8 +1575,7 @@
       }
     ],
     "prevTripId": "WD_OUT_TD-01_1248_40385",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-06_1302_40459",
@@ -1587,6 +1587,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": false,
@@ -1689,8 +1690,7 @@
       }
     ],
     "throughTripId": "WD_INB_TD-03_1401_40459",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-06_1303_42866",
@@ -1702,6 +1702,7 @@
     "direction": "inbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-01",
+    "customOrigin": "会津田島",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -1744,8 +1745,7 @@
       }
     ],
     "throughTripId": "WD_INB_YAG-09_1321_42866",
-    "throughLineId": "yagan",
-    "customOrigin": "会津田島"
+    "throughLineId": "yagan"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1322_33197",
@@ -1808,6 +1808,7 @@
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-06",
     "customOrigin": "浅草",
+    "customDestination": "会津田島",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1849,8 +1850,7 @@
       }
     ],
     "prevTripId": "WD_OUT_YAG-01_1316_25152",
-    "prevLineId": "yagan",
-    "customDestination": "会津田島"
+    "prevLineId": "yagan"
   },
   {
     "tripId": "WD_OUT_AIZ-06_1423_40456",
@@ -1862,6 +1862,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": false,
@@ -1964,8 +1965,7 @@
       }
     ],
     "throughTripId": "WD_INB_TD-03_1517_40456",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-21_1444_40391",
@@ -1977,6 +1977,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-01",
     "customOrigin": "会津若松",
+    "customDestination": "会津高原尾瀬口",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -2108,8 +2109,7 @@
       }
     ],
     "prevTripId": "WD_OUT_TD-01_1437_40391",
-    "prevLineId": "tadami",
-    "customDestination": "会津高原尾瀬口"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-06_1500_42868",
@@ -2121,6 +2121,7 @@
     "direction": "inbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-01",
+    "customOrigin": "会津田島",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -2163,8 +2164,7 @@
       }
     ],
     "throughTripId": "WD_INB_YAG-09_1520_42868",
-    "throughLineId": "yagan",
-    "customOrigin": "会津田島"
+    "throughLineId": "yagan"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1520_41244",
@@ -2176,6 +2176,7 @@
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-06",
     "customOrigin": "鬼怒川温泉",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -2217,8 +2218,7 @@
       }
     ],
     "prevTripId": "WD_OUT_YAG-01_1444_41244",
-    "prevLineId": "yagan",
-    "customDestination": "会津田島"
+    "prevLineId": "yagan"
   },
   {
     "tripId": "WD_INB_AIZ-06_1542_43013",
@@ -2229,6 +2229,7 @@
     "direction": "inbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-01",
+    "customOrigin": "会津田島",
     "customDestination": "新藤原",
     "cars": 2,
     "isHoliday": false,
@@ -2271,8 +2272,7 @@
       }
     ],
     "throughTripId": "WD_INB_YAG-09_1600_43013",
-    "throughLineId": "yagan",
-    "customOrigin": "会津田島"
+    "throughLineId": "yagan"
   },
   {
     "tripId": "WD_OUT_AIZ-06_1601_40460",
@@ -2283,6 +2283,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": false,
@@ -2385,8 +2386,7 @@
       }
     ],
     "throughTripId": "WD_INB_TD-03_1707_40460",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-21_1628_40386",
@@ -2399,6 +2399,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -2500,8 +2501,7 @@
       }
     ],
     "prevTripId": "WD_OUT_TD-01_1621_40386",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1642_33198",
@@ -2564,6 +2564,7 @@
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-06",
     "customOrigin": "浅草",
+    "customDestination": "会津田島",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -2605,8 +2606,7 @@
       }
     ],
     "prevTripId": "WD_OUT_YAG-01_1651_25153",
-    "prevLineId": "yagan",
-    "customDestination": "会津田島"
+    "prevLineId": "yagan"
   },
   {
     "tripId": "WD_OUT_AIZ-06_1746_40461",
@@ -2618,6 +2618,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": false,
@@ -2720,8 +2721,7 @@
       }
     ],
     "throughTripId": "WD_INB_TD-03_1847_40461",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-06_1748_42867",
@@ -2733,6 +2733,7 @@
     "direction": "inbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-01",
+    "customOrigin": "会津田島",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": false,
@@ -2775,8 +2776,7 @@
       }
     ],
     "throughTripId": "WD_INB_YAG-09_1806_42867",
-    "throughLineId": "yagan",
-    "customOrigin": "会津田島"
+    "throughLineId": "yagan"
   },
   {
     "tripId": "WD_INB_AIZ-06_1810_1064",
@@ -2838,6 +2838,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -2939,8 +2940,7 @@
       }
     ],
     "prevTripId": "WD_OUT_TD-01_1806_40387",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-06_1918_1065",
@@ -3001,6 +3001,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津高原尾瀬口",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": false,
@@ -3133,8 +3134,7 @@
       }
     ],
     "throughTripId": "WD_INB_TD-03_2040_40463",
-    "throughLineId": "tadami",
-    "customOrigin": "会津高原尾瀬口"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "WD_INB_AIZ-21_1936_40388",
@@ -3146,6 +3146,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -3247,8 +3248,7 @@
       }
     ],
     "prevTripId": "WD_OUT_TD-01_1928_40388",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_1948_33199",
@@ -3359,6 +3359,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": false,
@@ -3461,8 +3462,7 @@
       }
     ],
     "throughTripId": "WD_INB_TD-03_2154_40462",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "WD_OUT_AIZ-01_2116_33200",
@@ -3524,6 +3524,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -3625,8 +3626,7 @@
       }
     ],
     "prevTripId": "WD_OUT_TD-01_2110_40389",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-06_0518_1062",
@@ -3737,6 +3737,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": true,
@@ -3839,8 +3840,7 @@
       }
     ],
     "throughTripId": "HD_INB_TD-03_0723_40457",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-06_0640_1063",
@@ -4048,6 +4048,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津高原尾瀬口",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": true,
@@ -4180,8 +4181,7 @@
       }
     ],
     "throughTripId": "HD_INB_TD-03_0831_40464",
-    "throughLineId": "tadami",
-    "customOrigin": "会津高原尾瀬口"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-21_0757_40383",
@@ -4193,6 +4193,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -4294,8 +4295,7 @@
       }
     ],
     "prevTripId": "HD_OUT_TD-01_0751_40383",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-06_0826_40454",
@@ -4307,6 +4307,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": true,
@@ -4409,8 +4410,7 @@
       }
     ],
     "throughTripId": "HD_INB_TD-03_0926_40454",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_0846_41241",
@@ -4422,6 +4422,7 @@
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-06",
     "customOrigin": "新藤原",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -4463,8 +4464,7 @@
       }
     ],
     "prevTripId": "HD_OUT_YAG-01_0810_41241",
-    "prevLineId": "yagan",
-    "customDestination": "会津田島"
+    "prevLineId": "yagan"
   },
   {
     "tripId": "HD_INB_AIZ-06_0908_43011",
@@ -4475,6 +4475,7 @@
     "direction": "inbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-01",
+    "customOrigin": "会津田島",
     "customDestination": "鬼怒川温泉",
     "cars": 2,
     "isHoliday": true,
@@ -4517,8 +4518,7 @@
       }
     ],
     "throughTripId": "HD_INB_YAG-09_0928_43011",
-    "throughLineId": "yagan",
-    "customOrigin": "会津田島"
+    "throughLineId": "yagan"
   },
   {
     "tripId": "HD_INB_AIZ-21_0909_40384",
@@ -4531,6 +4531,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -4632,8 +4633,7 @@
       }
     ],
     "prevTripId": "HD_OUT_TD-01_0902_40384",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_0926_25154",
@@ -4646,6 +4646,7 @@
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-06",
     "customOrigin": "浅草",
+    "customDestination": "会津田島",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -4687,8 +4688,7 @@
       }
     ],
     "prevTripId": "HD_OUT_YAG-01_0848_25154",
-    "prevLineId": "yagan",
-    "customDestination": "会津田島"
+    "prevLineId": "yagan"
   },
   {
     "tripId": "HD_OUT_AIZ-06_0944_40458",
@@ -4700,6 +4700,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": true,
@@ -4802,8 +4803,7 @@
       }
     ],
     "throughTripId": "HD_INB_TD-03_1044_40458",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-21_1000_40381",
@@ -4816,6 +4816,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -4917,8 +4918,7 @@
       }
     ],
     "prevTripId": "HD_OUT_TD-01_0950_40381",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1024_38077",
@@ -5062,10 +5062,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_YAG-01_0948_38077",
-    "prevLineId": "yagan",
     "throughTripId": "HD_INB_TD-03_1150_38077",
-    "throughLineId": "tadami"
+    "throughLineId": "tadami",
+    "prevTripId": "HD_OUT_YAG-01_0948_38077",
+    "prevLineId": "yagan"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1024_38078",
@@ -5209,10 +5209,10 @@
         "isPassing": false
       }
     ],
-    "prevTripId": "HD_OUT_YAG-01_0948_38078",
-    "prevLineId": "yagan",
     "throughTripId": "HD_INB_TD-03_1150_38078",
-    "throughLineId": "tadami"
+    "throughLineId": "tadami",
+    "prevTripId": "HD_OUT_YAG-01_0948_38078",
+    "prevLineId": "yagan"
   },
   {
     "tripId": "HD_INB_AIZ-06_1050_42865",
@@ -5224,6 +5224,7 @@
     "direction": "inbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-01",
+    "customOrigin": "会津田島",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -5266,8 +5267,7 @@
       }
     ],
     "throughTripId": "HD_INB_YAG-09_1108_42865",
-    "throughLineId": "yagan",
-    "customOrigin": "会津田島"
+    "throughLineId": "yagan"
   },
   {
     "tripId": "HD_INB_AIZ-21_1132_40390",
@@ -5280,6 +5280,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-01",
     "customOrigin": "会津若松",
+    "customDestination": "会津高原尾瀬口",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -5411,8 +5412,7 @@
       }
     ],
     "prevTripId": "HD_OUT_TD-01_1126_40390",
-    "prevLineId": "tadami",
-    "customDestination": "会津高原尾瀬口"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-06_1158_40455",
@@ -5424,6 +5424,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": true,
@@ -5526,8 +5527,7 @@
       }
     ],
     "throughTripId": "HD_INB_TD-03_1317_40455",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1222_25151",
@@ -5540,6 +5540,7 @@
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-06",
     "customOrigin": "浅草",
+    "customDestination": "会津田島",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -5581,8 +5582,7 @@
       }
     ],
     "prevTripId": "HD_OUT_YAG-01_1146_25151",
-    "prevLineId": "yagan",
-    "customDestination": "会津田島"
+    "prevLineId": "yagan"
   },
   {
     "tripId": "HD_INB_AIZ-21_1255_40385",
@@ -5594,6 +5594,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -5695,8 +5696,7 @@
       }
     ],
     "prevTripId": "HD_OUT_TD-01_1248_40385",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-06_1302_40459",
@@ -5708,6 +5708,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": true,
@@ -5810,8 +5811,7 @@
       }
     ],
     "throughTripId": "HD_INB_TD-03_1401_40459",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-06_1303_42866",
@@ -5823,6 +5823,7 @@
     "direction": "inbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-01",
+    "customOrigin": "会津田島",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -5865,8 +5866,7 @@
       }
     ],
     "throughTripId": "HD_INB_YAG-09_1321_42866",
-    "throughLineId": "yagan",
-    "customOrigin": "会津田島"
+    "throughLineId": "yagan"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1322_33197",
@@ -5929,6 +5929,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -6030,8 +6031,7 @@
       }
     ],
     "prevTripId": "HD_OUT_TD-01_1334_40382",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1353_25152",
@@ -6044,6 +6044,7 @@
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-06",
     "customOrigin": "浅草",
+    "customDestination": "会津田島",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6085,8 +6086,7 @@
       }
     ],
     "prevTripId": "HD_OUT_YAG-01_1316_25152",
-    "prevLineId": "yagan",
-    "customDestination": "会津田島"
+    "prevLineId": "yagan"
   },
   {
     "tripId": "HD_OUT_AIZ-06_1423_40456",
@@ -6098,6 +6098,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": true,
@@ -6200,8 +6201,7 @@
       }
     ],
     "throughTripId": "HD_INB_TD-03_1517_40456",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-21_1444_40391",
@@ -6213,6 +6213,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-01",
     "customOrigin": "会津若松",
+    "customDestination": "会津高原尾瀬口",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -6344,8 +6345,7 @@
       }
     ],
     "prevTripId": "HD_OUT_TD-01_1437_40391",
-    "prevLineId": "tadami",
-    "customDestination": "会津高原尾瀬口"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-06_1500_42868",
@@ -6357,6 +6357,7 @@
     "direction": "inbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-01",
+    "customOrigin": "会津田島",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -6399,8 +6400,7 @@
       }
     ],
     "throughTripId": "HD_INB_YAG-09_1520_42868",
-    "throughLineId": "yagan",
-    "customOrigin": "会津田島"
+    "throughLineId": "yagan"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1520_41244",
@@ -6412,6 +6412,7 @@
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-06",
     "customOrigin": "鬼怒川温泉",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -6453,8 +6454,7 @@
       }
     ],
     "prevTripId": "HD_OUT_YAG-01_1444_41244",
-    "prevLineId": "yagan",
-    "customDestination": "会津田島"
+    "prevLineId": "yagan"
   },
   {
     "tripId": "HD_INB_AIZ-06_1542_43013",
@@ -6465,6 +6465,7 @@
     "direction": "inbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-01",
+    "customOrigin": "会津田島",
     "customDestination": "新藤原",
     "cars": 2,
     "isHoliday": true,
@@ -6507,8 +6508,7 @@
       }
     ],
     "throughTripId": "HD_INB_YAG-09_1600_43013",
-    "throughLineId": "yagan",
-    "customOrigin": "会津田島"
+    "throughLineId": "yagan"
   },
   {
     "tripId": "HD_OUT_AIZ-06_1601_40460",
@@ -6519,6 +6519,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": true,
@@ -6621,8 +6622,7 @@
       }
     ],
     "throughTripId": "HD_INB_TD-03_1707_40460",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-21_1628_40386",
@@ -6635,6 +6635,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -6736,8 +6737,7 @@
       }
     ],
     "prevTripId": "HD_OUT_TD-01_1621_40386",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1642_33198",
@@ -6800,6 +6800,7 @@
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-06",
     "customOrigin": "浅草",
+    "customDestination": "会津田島",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -6841,8 +6842,7 @@
       }
     ],
     "prevTripId": "HD_OUT_YAG-01_1651_25153",
-    "prevLineId": "yagan",
-    "customDestination": "会津田島"
+    "prevLineId": "yagan"
   },
   {
     "tripId": "HD_OUT_AIZ-06_1746_40461",
@@ -6854,6 +6854,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": true,
@@ -6956,8 +6957,7 @@
       }
     ],
     "throughTripId": "HD_INB_TD-03_1847_40461",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-06_1748_42867",
@@ -6969,6 +6969,7 @@
     "direction": "inbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-01",
+    "customOrigin": "会津田島",
     "customDestination": "浅草",
     "cars": 3,
     "isHoliday": true,
@@ -7011,8 +7012,7 @@
       }
     ],
     "throughTripId": "HD_INB_YAG-09_1806_42867",
-    "throughLineId": "yagan",
-    "customOrigin": "会津田島"
+    "throughLineId": "yagan"
   },
   {
     "tripId": "HD_INB_AIZ-06_1810_1064",
@@ -7074,6 +7074,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -7175,8 +7176,7 @@
       }
     ],
     "prevTripId": "HD_OUT_TD-01_1806_40387",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-06_1918_1065",
@@ -7237,6 +7237,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-01",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津高原尾瀬口",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": true,
@@ -7369,8 +7370,7 @@
       }
     ],
     "throughTripId": "HD_INB_TD-03_2040_40463",
-    "throughLineId": "tadami",
-    "customOrigin": "会津高原尾瀬口"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "HD_INB_AIZ-21_1936_40388",
@@ -7382,6 +7382,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -7483,8 +7484,7 @@
       }
     ],
     "prevTripId": "HD_OUT_TD-01_1928_40388",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_1948_33199",
@@ -7595,6 +7595,7 @@
     "direction": "outbound",
     "originStationId": "AIZ-06",
     "destinationStationId": "AIZ-21",
+    "customOrigin": "会津田島",
     "customDestination": "会津若松",
     "cars": 2,
     "isHoliday": true,
@@ -7697,8 +7698,7 @@
       }
     ],
     "throughTripId": "HD_INB_TD-03_2154_40462",
-    "throughLineId": "tadami",
-    "customOrigin": "会津田島"
+    "throughLineId": "tadami"
   },
   {
     "tripId": "HD_OUT_AIZ-01_2116_33200",
@@ -7760,6 +7760,7 @@
     "originStationId": "AIZ-21",
     "destinationStationId": "AIZ-06",
     "customOrigin": "会津若松",
+    "customDestination": "会津田島",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -7861,7 +7862,6 @@
       }
     ],
     "prevTripId": "HD_OUT_TD-01_2110_40389",
-    "prevLineId": "tadami",
-    "customDestination": "会津田島"
+    "prevLineId": "tadami"
   }
 ]
