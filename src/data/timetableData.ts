@@ -435,77 +435,15 @@ function ensureGlobalMaps() {
 }
 
 /**
- * 一般普通列車（local / each / regular）に誤割り当てされるべきではない特急・新幹線専用の愛称キーワード
- * 過去のスクレイピングや直通マッピング時の誤感染（普通列車に特急あずさ等の名称が付く事象）を防御します。
- */
-const LIMITED_EXPRESS_EXCLUSIVE_KEYWORDS = [
-  '特急',
-  '新幹線',
-  'あずさ',
-  'かいじ',
-  '富士回遊',
-  'はちおうじ',
-  'おうめ',
-  'アルプス',
-  'ひたち',
-  'ときわ',
-  '成田エクスプレス',
-  'わかしお',
-  'さざなみ',
-  'しおさい',
-  '踊り子',
-  'サフィール',
-  '湘南',
-  '草津',
-  'あかぎ',
-  'スペーシア',
-  'リバティ',
-  'きぬ',
-  'けごん',
-  'りょうもう',
-  'ロマンスカー',
-  'ふじさん',
-  'はこね',
-  'えのしま',
-] as const;
-
-/**
- * 列車種別と固有列車名称（愛称）の組み合わせが妥当かを汎用判定
- * - 一般普通列車（local / each / regular）に特急名称が誤混入している場合はブロック
- * - むさしの号、しもうさ号、みすず、観光列車、SL等の正当な愛称付き一般列車はすべて許可
- */
-export function isValidTrainNameForType(
-  trainName: string | undefined,
-  trainType: TrainTypeKey | string | undefined
-): boolean {
-  if (!trainName) return false;
-  const isGeneralLocal = trainType === 'local' || trainType === 'each' || trainType === 'regular';
-  if (isGeneralLocal) {
-    return !LIMITED_EXPRESS_EXCLUSIVE_KEYWORDS.some((kw) => trainName.includes(kw));
-  }
-  return true;
-}
-
-/**
- * 発車標・全日時刻表データから固有列車名称（愛称・号数）を高速解決
- * 普通列車・各駅停車に関係のない特急名称が誤表示されるのを厳格に防止しつつ、
- * 愛称付き一般列車（むさしの号・しもうさ号・みすず等）を汎用的に解決します。
+ * 発車標・全日時刻表データから固有列車名称（愛称・号数）を解決
+ * データ側（パイプライン・ビルド時）でバリデーション・サニタイズされた列車名称をそのまま信頼して返却します。
  */
 export function resolveDepartureTrainName(d: RawStationDeparture): string | undefined {
-  // 1. 発車データ自体に trainName があれば検証して使用
-  if (d.trainName) {
-    return isValidTrainNameForType(d.trainName, d.t) ? d.trainName : undefined;
-  }
-
-  // 2. 対応するトリップデータ (fullTrip) があれば、その trainName を検証して使用
+  if (d.trainName) return d.trainName;
   if (d.tripId) {
     const fullTrip = getGlobalTripMap().get(d.tripId);
-    if (fullTrip?.trainName) {
-      const effectiveType = d.t || fullTrip.trainType;
-      return isValidTrainNameForType(fullTrip.trainName, effectiveType) ? fullTrip.trainName : undefined;
-    }
+    if (fullTrip?.trainName) return fullTrip.trainName;
   }
-
   return undefined;
 }
 

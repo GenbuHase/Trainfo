@@ -21,45 +21,6 @@ function normalizeTrainNumber(rawNo) {
 }
 
 
-const LIMITED_EXPRESS_EXCLUSIVE_KEYWORDS = [
-  '特急',
-  '新幹線',
-  'あずさ',
-  'かいじ',
-  '富士回遊',
-  'はちおうじ',
-  'おうめ',
-  'アルプス',
-  'ひたち',
-  'ときわ',
-  '成田エクスプレス',
-  'わかしお',
-  'さざなみ',
-  'しおさい',
-  '踊り子',
-  'サフィール',
-  '湘南',
-  '草津',
-  'あかぎ',
-  'スペーシア',
-  'リバティ',
-  'きぬ',
-  'けごん',
-  'りょうもう',
-  'ロマンスカー',
-  'ふじさん',
-  'はこね',
-  'えのしま',
-];
-
-function isValidTrainNameForType(trainName, trainType) {
-  if (!trainName) return false;
-  const isGeneralLocal = trainType === 'local' || trainType === 'each' || trainType === 'regular';
-  if (isGeneralLocal) {
-    return !LIMITED_EXPRESS_EXCLUSIVE_KEYWORDS.some((kw) => trainName.includes(kw));
-  }
-  return true;
-}
 
 class YahooTimetableBuilder {
   /**
@@ -752,7 +713,7 @@ class YahooTimetableBuilder {
       const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}${segSuffix}`;
       const forcedEndpoints = this.resolveForcedEndpoints(trainDetail, originSt, destSt);
 
-      const effectiveTrainNameSeg = isValidTrainNameForType(trainName, trainType) ? trainName : undefined;
+      const effectiveTrainNameSeg = trainName || undefined;
 
       return {
         tripId,
@@ -941,7 +902,7 @@ class YahooTimetableBuilder {
     const tripId = `${isHoliday ? 'HD' : 'WD'}_${direction.toUpperCase().slice(0, 3)}_${originSt.id}_${firstDepTime}_${trainId}${segSuffix}`;
     const forcedEndpoints = this.resolveForcedEndpoints(trainDetail, originSt, destSt);
 
-    const effectiveTrainName = isValidTrainNameForType(trainName, trainType) ? trainName : undefined;
+    const effectiveTrainName = trainName || undefined;
 
     return {
       tripId,
@@ -1066,7 +1027,7 @@ class YahooTimetableBuilder {
         const lastStObj = this.stById.get(lastStop.stationId);
         const destName = trip.customDestination || lastStObj?.name || '';
 
-        const effectiveTrainName = isValidTrainNameForType(trip.trainName, trip.trainType) ? trip.trainName : undefined;
+        const effectiveTrainName = trip.trainName || undefined;
 
         const entry = {
           h,
