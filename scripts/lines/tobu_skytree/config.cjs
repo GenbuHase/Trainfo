@@ -248,11 +248,11 @@ module.exports = {
   "SLふたら": "sl_taiju",
   "ＡＩＺＵマウントエクスプレス": "rapid",
   "AIZUマウントエクスプレス": "rapid",
-  "お座敷": "aizu_ozeto",
-  "展望列車": "aizu_ozeto",
-  "会津浪漫": "aizu_ozeto"
+  "お座敷": "aizu_ozatoro",
+  "展望列車": "aizu_ozatoro",
+  "会津浪漫": "aizu_ozatoro"
 },
-  preserveAllStopsTypes: ['th_liner', 'sl_taiju', 'aizu_ozeto'],
+  preserveAllStopsTypes: ['th_liner', 'sl_taiju', 'aizu_ozatoro'],
   defaultCars: 10,
   baseSectionSeconds: {
   "1": 150,

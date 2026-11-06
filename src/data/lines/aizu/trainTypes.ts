@@ -16,8 +16,8 @@ export const TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   },
   rapid: TOBU_PRESETS.RAPID,
   limitedExp: TOBU_PRESETS.LIMITED_EXP,
-  aizu_ozeto: {
-    key: 'aizu_ozeto',
+  aizu_ozatoro: {
+    key: 'aizu_ozatoro',
     name: 'お座トロ展望列車',
     nameEn: 'Ozatoro',
     shortName: '展望',

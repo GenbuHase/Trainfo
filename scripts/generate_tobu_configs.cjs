@@ -127,9 +127,9 @@ const COMMON_TRAIN_TYPE_MAP = {
   'SLふたら': 'sl_taiju',
   'ＡＩＺＵマウントエクスプレス': 'rapid',
   'AIZUマウントエクスプレス': 'rapid',
-  'お座敷': 'aizu_ozeto',
-  '展望列車': 'aizu_ozeto',
-  '会津浪漫': 'aizu_ozeto',
+  'お座敷': 'aizu_ozatoro',
+  '展望列車': 'aizu_ozatoro',
+  '会津浪漫': 'aizu_ozatoro',
 };
 
 for (const [lineId, stationsConfig] of Object.entries(LINES_STATIONS_CONFIG)) {
@@ -220,7 +220,7 @@ module.exports = {
   stations: ${JSON.stringify(stationsList, null, 2)},
   stationNameAliases: {},
   trainTypeMap: ${JSON.stringify(COMMON_TRAIN_TYPE_MAP, null, 2)},
-  preserveAllStopsTypes: ['th_liner', 'sl_taiju', 'aizu_ozeto'],
+  preserveAllStopsTypes: ['th_liner', 'sl_taiju', 'aizu_ozatoro'],
   defaultCars: ${meta.defaultCars},
   baseSectionSeconds: ${JSON.stringify(baseSectionSeconds, null, 2)},
 };
