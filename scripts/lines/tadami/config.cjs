@@ -261,6 +261,7 @@ module.exports = {
     }
   ],
   "trainTypeMap": {
+    "快速": "rapid",
     "各駅停車": "local",
     "普通": "local",
     "臨時": "local"

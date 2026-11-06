@@ -731,7 +731,18 @@ class YahooTimetableBuilder {
         }
       }
 
-      const trainType = trainDetail.trainType || this.resolveTrainType(displayName);
+      // 種別の決定: displayName の優等種別を尊重しつつ、駅時刻表の trainType または displayName から解決
+      const resolvedFromDisplaySeg = displayName ? this.resolveTrainType(displayName) : null;
+      const validConfigTypesSeg = new Set(Object.values(this.config.trainTypeMap || {}));
+      const isCachedTypeValidSeg = trainDetail.trainType && (validConfigTypesSeg.has(trainDetail.trainType) || trainDetail.trainType === 'local');
+      let trainType;
+      if (resolvedFromDisplaySeg && resolvedFromDisplaySeg !== 'local') {
+        trainType = resolvedFromDisplaySeg;
+      } else if (isCachedTypeValidSeg) {
+        trainType = trainDetail.trainType;
+      } else {
+        trainType = resolvedFromDisplaySeg || this.config.defaultTrainType || 'local';
+      }
       const originSt = firstStop.station;
       const destSt = lastStop.station;
 
@@ -884,8 +895,18 @@ class YahooTimetableBuilder {
       });
     }
 
-    // 種別の決定: 駅時刻表の trainType があれば優先、なければ displayName から解決
-    let trainType = trainDetail.trainType || this.resolveTrainType(displayName);
+    // 種別の決定: displayName の優等種別を尊重しつつ、駅時刻表の trainType または displayName から解決
+    const resolvedFromDisplay = displayName ? this.resolveTrainType(displayName) : null;
+    const validConfigTypes = new Set(Object.values(this.config.trainTypeMap || {}));
+    const isCachedTypeValid = trainDetail.trainType && (validConfigTypes.has(trainDetail.trainType) || trainDetail.trainType === 'local');
+    let trainType;
+    if (resolvedFromDisplay && resolvedFromDisplay !== 'local') {
+      trainType = resolvedFromDisplay;
+    } else if (isCachedTypeValid) {
+      trainType = trainDetail.trainType;
+    } else {
+      trainType = resolvedFromDisplay || this.config.defaultTrainType || 'local';
+    }
 
     const hasPassingStop = stops.some(s => s.isPassing);
 
@@ -901,7 +922,15 @@ class YahooTimetableBuilder {
       ...SHINKANSEN_TYPES,
       ...(this.config.preserveAllStopsTypes || []),
     ]);
-    if (!hasPassingStop && trainType !== 'local' && !preserveTypes.has(trainType)) {
+
+    // 【通過駅なし格下げの保護ルール】
+    // 1. 固有愛称（trainName）を持つ列車（AIZUマウントエクスプレス、リレー号、柳都Shu＊Kura等）
+    // 2. 特急・新幹線・指定種別（preserveTypes）
+    // 3. 他線直通の短区間乗り入れ（駅数 <= 3、例: 只見線の会津若松〜西若松間など）
+    const isShortTransferSegment = stops.length <= 3 && stopStation.length > stops.length;
+    const shouldPreserve = Boolean(trainName) || preserveTypes.has(trainType) || isShortTransferSegment;
+
+    if (!hasPassingStop && trainType !== 'local' && !shouldPreserve) {
       trainType = this.config.defaultTrainType || 'local';
     }
 
