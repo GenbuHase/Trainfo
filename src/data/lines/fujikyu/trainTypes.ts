@@ -5,7 +5,7 @@ export const FUJIKYU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     "key": "local",
     "name": "普通",
     "nameEn": "Local",
-    "shortName": "普",
+    "shortName": "普通",
     "color": "#0072bc",
     "textColor": "#ffffff",
     "bgColor": "#0072bc",

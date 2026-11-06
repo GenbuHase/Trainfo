@@ -33,8 +33,8 @@ export const UCHIBO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   },
   "limitedExp": {
     "key": "limitedExp",
-    "name": "特急さざなみ",
-    "shortName": "さざなみ",
+    "name": "特急",
+    "shortName": "特急",
     "bgColor": "#c9252d",
     "textColor": "#ffffff",
     "borderColor": "#c9252d",

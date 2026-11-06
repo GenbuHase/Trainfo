@@ -50,14 +50,12 @@ module.exports = {
     'はくたか': 'hakutaka',
     'あさま': 'asama',
     'つるぎ': 'tsurugi',
-    '特急': 'limitedExp',
   },
   preserveAllStopsTypes: [
     'kagayaki',
     'hakutaka',
     'asama',
     'tsurugi',
-    'limitedExp',
   ],
   defaultCars: 12,
   baseSectionSeconds: {

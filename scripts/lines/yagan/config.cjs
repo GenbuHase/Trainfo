@@ -105,7 +105,7 @@ module.exports = {
   "展望列車": "aizu_ozeto",
   "会津浪漫": "aizu_ozeto"
 },
-  preserveAllStopsTypes: ['th_liner', 'sl_taiju', 'aizu_mount_exp', 'aizu_ozeto'],
+  preserveAllStopsTypes: ['th_liner', 'sl_taiju', 'aizu_ozeto'],
   defaultCars: 2,
   baseSectionSeconds: {
   "1": 150,

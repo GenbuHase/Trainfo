@@ -1,11 +1,21 @@
 import type { TrainTypeConfig } from '../../../types';
 
 export const SOBU_RAPID_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
+  local: {
+    key: 'local',
+    name: '各駅停車',
+    nameEn: 'Local',
+    shortName: '各停',
+    color: '#ffc20e',
+    textColor: '#000000',
+    bgColor: '#ffc20e',
+    borderColor: '#ffc20e',
+  },
   rapid: {
     key: 'rapid',
     name: '快速',
     nameEn: 'Rapid',
-    shortName: '快',
+    shortName: '快速',
     color: '#0074be',
     textColor: '#ffffff',
     bgColor: '#0074be',
@@ -30,15 +40,5 @@ export const SOBU_RAPID_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     textColor: '#ffffff',
     bgColor: '#d32f2f',
     borderColor: '#d32f2f',
-  },
-  local: {
-    key: 'local',
-    name: '各駅停車',
-    nameEn: 'Local',
-    shortName: '各',
-    color: '#ffc20e',
-    textColor: '#000000',
-    bgColor: '#ffc20e',
-    borderColor: '#ffc20e',
   },
 };

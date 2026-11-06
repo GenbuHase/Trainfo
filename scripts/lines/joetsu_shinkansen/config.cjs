@@ -36,13 +36,11 @@ module.exports = {
   trainTypeMap: {
     'とき': 'toki',
     'たにがわ': 'tanigawa',
-    '特急': 'limitedExp',
   },
   // たにがわ等、区間全駅停車となる新幹線列車の種別を保持（各停/localへの強制書き換えを防止）
   preserveAllStopsTypes: [
     'toki',
     'tanigawa',
-    'limitedExp',
   ],
   defaultCars: 12,
   baseSectionSeconds: {
