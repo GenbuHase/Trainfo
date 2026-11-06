@@ -1,5 +1,5 @@
 import type { TrainTypeConfig } from '../../../types';
-import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
+import { JR_RAPID_PRESETS, LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const TAKASAKI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
@@ -12,45 +12,9 @@ export const TAKASAKI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#f68b1e',
     borderColor: '#f68b1e',
   },
-  rapid: {
-    key: 'rapid',
-    name: '快速',
-    nameEn: 'Rapid',
-    shortName: '快速',
-    color: '#0073bc',
-    textColor: '#ffffff',
-    bgColor: '#0073bc',
-    borderColor: '#0073bc',
-  },
-  rapid_urban: {
-    key: 'rapid_urban',
-    name: '快速アーバン',
-    nameEn: 'Rapid Urban',
-    shortName: 'アーバン',
-    color: '#e65100',
-    textColor: '#ffffff',
-    bgColor: '#e65100',
-    borderColor: '#e65100',
-  },
-  commuter_rapid: {
-    key: 'commuter_rapid',
-    name: '通勤快速',
-    nameEn: 'Commuter Rapid',
-    shortName: '通快',
-    color: '#7b1fa2',
-    textColor: '#ffffff',
-    bgColor: '#7b1fa2',
-    borderColor: '#7b1fa2',
-  },
-  special_rapid: {
-    key: 'special_rapid',
-    name: '特別快速',
-    nameEn: 'Special Rapid',
-    shortName: '特快',
-    color: '#003366',
-    textColor: '#ffffff',
-    bgColor: '#003366',
-    borderColor: '#002244',
-  },
+  rapid: JR_RAPID_PRESETS.STANDARD,
+  rapid_urban: JR_RAPID_PRESETS.URBAN,
+  commuter_rapid: JR_RAPID_PRESETS.COMMUTER_RAPID,
+  special_rapid: JR_RAPID_PRESETS.JOBAN_SPECIAL_RAPID,
   limitedExp: LIMITED_EXP_PRESETS.STANDARD,
 };

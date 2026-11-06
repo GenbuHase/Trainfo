@@ -1,5 +1,6 @@
 // 東京メトロ有楽町線 列車種別定義
 import type { TrainTypeConfig } from '../../../types';
+import { LINER_PRESETS } from '../../trainTypePresets';
 
 export const YURAKUCHO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 各駅停車: #c1a470 (有楽町線ゴールド)
@@ -14,14 +15,5 @@ export const YURAKUCHO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#a38450',
   },
   // S-TRAIN: #99cc00 (ライムグリーン)
-  strain: {
-    key: 'strain',
-    name: 'S-TRAIN',
-    nameEn: 'S-TRAIN',
-    shortName: 'S',
-    color: '#99cc00',
-    textColor: '#ffffff',
-    bgColor: '#99cc00',
-    borderColor: '#7ca600',
-  },
+  strain: LINER_PRESETS.STRAIN,
 };

@@ -1,6 +1,6 @@
 // JR篠ノ井線 列車種別定義
 import type { TrainTypeConfig } from '../../../types';
-import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
+import { CHUO_PRESETS, LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const SHINONOI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 普通: 篠ノ井線/信州ブルー
@@ -15,16 +15,7 @@ export const SHINONOI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#38bdf8',
   },
   // 快速 (みすず号等): オレンジ
-  rapid: {
-    key: 'rapid',
-    name: '快速',
-    nameEn: 'Rapid',
-    shortName: '快速',
-    color: '#f15a22',
-    textColor: '#ffffff',
-    bgColor: '#f15a22',
-    borderColor: '#fb923c',
-  },
+  rapid: CHUO_PRESETS.RAPID,
   // 特急 (しなの、あずさ、信州): クリムゾンレッド
   limitedExp: LIMITED_EXP_PRESETS.CHUO,
 };
