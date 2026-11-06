@@ -1,5 +1,6 @@
 // JR中央線快速 列車種別定義（公式カラー・サインシステム準拠）
 import type { TrainTypeConfig } from '../../../types';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const CHUO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 各駅停車: グレー
@@ -91,14 +92,5 @@ export const CHUO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     borderColor: '#f87171',
   },
   // 特急（あずさ、かいじ、富士回遊、はちおうじ、おうめ等）: ボルドー
-  limitedExp: {
-    key: 'limitedExp',
-    name: '特急',
-    nameEn: 'Limited Express',
-    shortName: '特急',
-    color: '#be123c',
-    textColor: '#ffffff',
-    bgColor: '#be123c',
-    borderColor: '#f43f5e',
-  },
+  limitedExp: LIMITED_EXP_PRESETS.CHUO,
 };

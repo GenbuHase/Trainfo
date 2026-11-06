@@ -1,4 +1,5 @@
 import type { TrainTypeConfig } from '../../../types';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const TAKASAKI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
@@ -51,14 +52,5 @@ export const TAKASAKI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#003366',
     borderColor: '#002244',
   },
-  limitedExp: {
-    key: 'limitedExp',
-    name: '特急',
-    nameEn: 'Limited Express',
-    shortName: '特急',
-    color: '#d32f2f',
-    textColor: '#ffffff',
-    bgColor: '#d32f2f',
-    borderColor: '#d32f2f',
-  },
+  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
 };

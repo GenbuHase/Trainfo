@@ -21,14 +21,4 @@ export const SHINETSU_TAKASAKI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#007ac1',
     borderColor: '#005f99',
   },
-  limitedExp: {
-    key: 'limitedExp',
-    name: '特急',
-    nameEn: 'Limited Express',
-    shortName: '特急',
-    color: '#c2410c',
-    textColor: '#ffffff',
-    bgColor: '#c2410c',
-    borderColor: '#9a3412',
-  },
 };

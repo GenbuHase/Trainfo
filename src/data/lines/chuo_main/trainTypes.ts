@@ -1,5 +1,6 @@
-// JR中央線快速 列車種別定義（公式カラー・サインシステム準拠）
+// JR中央本線（高尾〜小淵沢・塩尻） 列車種別定義
 import type { TrainTypeConfig } from '../../../types';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const CHUO_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   // 各駅停車: グレー
@@ -13,7 +14,7 @@ export const CHUO_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#475569',
     borderColor: '#64748b',
   },
-  // 普通（中央本線中距離列車）: 中央東線ブルー
+  // 普通（中央本線中距離列車）: 中央東線スカイブルー
   regular: {
     key: 'regular',
     name: '普通',
@@ -22,7 +23,7 @@ export const CHUO_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     color: '#0071c5',
     textColor: '#ffffff',
     bgColor: '#0071c5',
-    borderColor: '#0071c5',
+    borderColor: '#38bdf8',
   },
   // 快速: オレンジバーミリオン
   rapid: {
@@ -46,7 +47,7 @@ export const CHUO_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#9333ea',
     borderColor: '#c084fc',
   },
-  // 特別快速（ホリデー快速・汎用特快）: スカイブルー
+  // 特別快速（ホリデー快速等）: スカイブルー
   special_rapid: {
     key: 'special_rapid',
     name: '特別快速',
@@ -90,15 +91,6 @@ export const CHUO_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#dc2626',
     borderColor: '#f87171',
   },
-  // 特急（あずさ、かいじ、富士回遊、はちおうじ、おうめ等）: ボルドー
-  limitedExp: {
-    key: 'limitedExp',
-    name: '特急',
-    nameEn: 'Limited Express',
-    shortName: '特急',
-    color: '#be123c',
-    textColor: '#ffffff',
-    bgColor: '#be123c',
-    borderColor: '#f43f5e',
-  },
+  // 特急（あずさ、かいじ、富士回遊等）: ボルドー
+  limitedExp: LIMITED_EXP_PRESETS.CHUO,
 };

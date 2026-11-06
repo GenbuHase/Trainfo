@@ -1,4 +1,5 @@
 import type { TrainTypeConfig } from '../../../types';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 export const JOETSU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
@@ -41,14 +42,5 @@ export const JOETSU_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#0073bc',
     borderColor: '#0073bc',
   },
-  limitedExp: {
-    key: 'limitedExp',
-    name: '特急',
-    nameEn: 'Limited Express',
-    shortName: '特急',
-    color: '#e60012',
-    textColor: '#ffffff',
-    bgColor: '#e60012',
-    borderColor: '#e60012',
-  },
+  limitedExp: LIMITED_EXP_PRESETS.STANDARD,
 };

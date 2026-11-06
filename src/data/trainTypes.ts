@@ -15,3 +15,4 @@ export function isLocalTrainType(type: string): boolean {
 }
 
 export { getTrainTypeConfig };
+export * from './trainTypePresets';

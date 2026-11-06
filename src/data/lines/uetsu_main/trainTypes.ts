@@ -1,4 +1,5 @@
 import type { TrainTypeConfig } from '../../../types';
+import { LIMITED_EXP_PRESETS } from '../../trainTypePresets';
 
 /**
  * JR羽越本線 列車種別設定
@@ -30,14 +31,5 @@ export const UETSU_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#1b5e20',
     borderColor: '#003300',
   },
-  limitedExp: {
-    key: 'limitedExp',
-    name: '特急',
-    nameEn: 'Limited Express',
-    shortName: '特急',
-    color: '#c2410c',
-    textColor: '#ffffff',
-    bgColor: '#c2410c',
-    borderColor: '#9a3412',
-  },
+  limitedExp: LIMITED_EXP_PRESETS.NIIGATA,
 };
