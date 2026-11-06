@@ -22,6 +22,54 @@ function normalizeTrainNumber(rawNo) {
 
 
 
+/**
+ * 愛称を持たない一般的な列車種別のマスターリスト
+ * ここに定義された種別は、単体では愛称なし（null）と判定され、
+ * 先頭に付与されている場合はプレフィックスとして自動除去されます。
+ */
+const GENERIC_TRAIN_TYPES = [
+  '新幹線',
+  '超特急',
+  '寝台特急',
+  '特急列車',
+  '通勤特急',
+  '特急',
+  '川越特急',
+  '特別快速',
+  '通勤特別快速',
+  '通勤特快',
+  '中央特快',
+  '青梅特快',
+  '通勤快速',
+  '区間快速',
+  '巡行快速',
+  '快速急行',
+  '通勤急行',
+  '区間急行',
+  '急行列車',
+  '急行',
+  '快速',
+  '通勤準急',
+  '区間準急',
+  '準急',
+  '普通列車',
+  '各駅停車',
+  '各停',
+  '普通',
+  'ライナー',
+  '代行バス'
+];
+
+// 完全一致での種別除外用 Set
+const GENERIC_TYPE_SET = new Set(GENERIC_TRAIN_TYPES);
+
+// 文字列長の降順でソート（「中央特快」が「特快」や「快速」より先にマッチするようにプレフィックス正規表現を自動生成）
+const SORTED_GENERIC_TYPES = [...GENERIC_TRAIN_TYPES]
+  .sort((a, b) => b.length - a.length)
+  .map(s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+
+const PREFIX_REGEX = new RegExp(`^(?:JR)?(?:${SORTED_GENERIC_TYPES.join('|')})\\s*`, 'i');
+
 class YahooTimetableBuilder {
   /**
    * @param {Object} config - LineScraperConfig
@@ -232,21 +280,14 @@ class YahooTimetableBuilder {
     normalized = normalized.replace(/^S-TRAIN\s*(\d+号)$/i, 'S-TRAIN $1');
 
     // 2. 単なる種別名のみの場合は除外（愛称なし）
-    const genericTypes = new Set([
-      '普通', '各駅停車', '各停', '普通列車', '快速', '特別快速', '通勤特別快速', '通勤特快',
-      '中央特快', '青梅特快', '通勤快速', '区間快速', '急行', '快速急行', '通勤急行', '区間急行',
-      '準急', '通勤準急', '区間準急', '特急', '通勤特急', 'ライナー', '急行列車', '特急列車',
-      '新幹線', 'S-TRAIN', 'S−TRAIN', '川越特急'
-    ]);
-    if (genericTypes.has(normalized)) {
+    if (GENERIC_TYPE_SET.has(normalized) || /^S-TRAIN$/i.test(normalized)) {
       return null;
     }
 
-    // 3. 先頭の種別プレフィックス（「新幹線 」「特急 」「快速 」「急行 」「普通 」など）を除去
-    const prefixRegex = /^(?:JR)?(?:新幹線|超特急|特急列車|通勤特急|特急|川越特急|快速急行|通勤急行|区間急行|急行列車|急行|特別快速|通勤特別快速|通勤特快|中央特快|青梅特快|通勤快速|区間快速|快速|区間準急|通勤準急|準急|普通列車|普通|各駅停車|各停)\s*/;
-    const stripped = normalized.replace(prefixRegex, '').trim();
+    // 3. 先頭の種別プレフィックス（「新幹線 」「特急 」「快速 」「急行 」「普通 」など）を動的生成した正規表現で除去
+    const stripped = normalized.replace(PREFIX_REGEX, '').trim();
 
-    if (!stripped || genericTypes.has(stripped)) {
+    if (!stripped || GENERIC_TYPE_SET.has(stripped) || /^S-TRAIN$/i.test(stripped)) {
       return null;
     }
 
