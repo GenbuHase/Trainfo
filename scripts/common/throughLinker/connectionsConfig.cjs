@@ -1291,26 +1291,6 @@ module.exports = {
       "requireIdMatch": true
     },
     {
-      "name": "東海道線 -> 東海道線（静岡地区） (熱海経由・沼津・静岡方面直通)",
-      "lineA": "tokaido",
-      "lineB": "tokaido_shizuoka",
-      "stationA": "JT-21",
-      "stationB": "CA-00",
-      "dirA": "outbound",
-      "dirB": "outbound",
-      "maxTimeDiff": 360
-    },
-    {
-      "name": "東海道線（静岡地区） -> 東海道線 (熱海経由・東京・上野方面直通)",
-      "lineA": "tokaido_shizuoka",
-      "lineB": "tokaido",
-      "stationA": "CA-00",
-      "stationB": "JT-21",
-      "dirA": "inbound",
-      "dirB": "inbound",
-      "maxTimeDiff": 360
-    },
-    {
       "name": "高崎線 -> 上越線 (高崎経由・渋川・水上方面直通)",
       "lineA": "takasaki",
       "lineB": "joetsu",
@@ -1887,26 +1867,6 @@ module.exports = {
       "maxTimeDiff": 600
     },
     {
-      "name": "御殿場線 -> 東海道線静岡地区 (下り 沼津駅経由 静岡方面直通)",
-      "lineA": "gotemba",
-      "lineB": "tokaido_shizuoka",
-      "stationA": "CB-18",
-      "stationB": "CA-03",
-      "dirA": "outbound",
-      "dirB": "outbound",
-      "maxTimeDiff": 600
-    },
-    {
-      "name": "東海道線静岡地区 -> 御殿場線 (上り 沼津駅経由 御殿場・国府津方面直通)",
-      "lineA": "tokaido_shizuoka",
-      "lineB": "gotemba",
-      "stationA": "CA-03",
-      "stationB": "CB-18",
-      "dirA": "inbound",
-      "dirB": "inbound",
-      "maxTimeDiff": 600
-    },
-    {
       "name": "JR伊東線 -> 伊豆急行線 (下り 伊東駅経由 伊豆急下田方面直通 踊り子・普通)",
       "lineA": "ito",
       "lineB": "izukyu",
@@ -1922,26 +1882,6 @@ module.exports = {
       "lineB": "ito",
       "stationA": "IZ-01",
       "stationB": "JT-26",
-      "dirA": "inbound",
-      "dirB": "inbound",
-      "maxTimeDiff": 600
-    },
-    {
-      "name": "東海道線静岡地区 -> 駿豆線 (下り 三島駅経由 修善寺方面直通 特急踊り子)",
-      "lineA": "tokaido_shizuoka",
-      "lineB": "izuhakone_sunzu",
-      "stationA": "CA-02",
-      "stationB": "IS-01",
-      "dirA": "outbound",
-      "dirB": "outbound",
-      "maxTimeDiff": 600
-    },
-    {
-      "name": "駿豆線 -> 東海道線静岡地区 (上り 三島駅経由 熱海・東京方面直通 特急踊り子)",
-      "lineA": "izuhakone_sunzu",
-      "lineB": "tokaido_shizuoka",
-      "stationA": "IS-01",
-      "stationB": "CA-02",
       "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 600
@@ -2067,6 +2007,186 @@ module.exports = {
       "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 300
+    },
+    {
+      "name": "東海道線 -> 東海道線（熱海～豊橋） (下り 熱海経由・沼津・静岡・豊橋方面直通)",
+      "lineA": "tokaido",
+      "lineB": "tokaido_atami_toyohashi",
+      "stationA": "JT-21",
+      "stationB": "CA-00",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "東海道線（熱海～豊橋） -> 東海道線 (上り 熱海経由・東京・上野方面直通)",
+      "lineA": "tokaido_atami_toyohashi",
+      "lineB": "tokaido",
+      "stationA": "CA-00",
+      "stationB": "JT-21",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "御殿場線 -> 東海道線（熱海～豊橋） (下り 沼津駅経由 静岡方面直通)",
+      "lineA": "gotemba",
+      "lineB": "tokaido_atami_toyohashi",
+      "stationA": "CB-18",
+      "stationB": "CA-03",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "東海道線（熱海～豊橋） -> 御殿場線 (上り 沼津駅経由 御殿場方面直通)",
+      "lineA": "tokaido_atami_toyohashi",
+      "lineB": "gotemba",
+      "stationA": "CA-03",
+      "stationB": "CB-18",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "東海道線（熱海～豊橋） -> 駿豆線 (下り 三島駅経由 修善寺方面直通 特急踊り子)",
+      "lineA": "tokaido_atami_toyohashi",
+      "lineB": "izuhakone_sunzu",
+      "stationA": "CA-02",
+      "stationB": "IS-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "駿豆線 -> 東海道線（熱海～豊橋） (上り 三島駅経由 熱海・東京方面直通 特急踊り子)",
+      "lineA": "izuhakone_sunzu",
+      "lineB": "tokaido_atami_toyohashi",
+      "stationA": "IS-01",
+      "stationB": "CA-02",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "東海道線（熱海～豊橋） -> 東海道線（豊橋～米原） (下り 豊橋経由 名古屋・大垣方面直通)",
+      "lineA": "tokaido_atami_toyohashi",
+      "lineB": "tokaido_toyohashi_maibara",
+      "stationA": "CA-42",
+      "stationB": "CA-42",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "東海道線（豊橋～米原） -> 東海道線（熱海～豊橋） (上り 豊橋経由 浜松・静岡方面直通)",
+      "lineA": "tokaido_toyohashi_maibara",
+      "lineB": "tokaido_atami_toyohashi",
+      "stationA": "CA-42",
+      "stationB": "CA-42",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "東海道線（豊橋～米原） -> 美濃赤坂線 (下り 大垣経由 美濃赤坂方面直通)",
+      "lineA": "tokaido_toyohashi_maibara",
+      "lineB": "tokaido_minoakasaka",
+      "stationA": "CA-77",
+      "stationB": "MA-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "美濃赤坂線 -> 東海道線（豊橋～米原） (上り 大垣経由 名古屋方面直通)",
+      "lineA": "tokaido_minoakasaka",
+      "lineB": "tokaido_toyohashi_maibara",
+      "stationA": "MA-01",
+      "stationB": "CA-77",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "東海道線（豊橋～米原） -> JR琵琶湖線 (下り 米原経由 京都・大阪方面直通)",
+      "lineA": "tokaido_toyohashi_maibara",
+      "lineB": "jr_biwako",
+      "stationA": "CA-83",
+      "stationB": "JR-A12",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "JR琵琶湖線 -> 東海道線（豊橋～米原） (上り 米原経由 大垣・名古屋方面直通)",
+      "lineA": "jr_biwako",
+      "lineB": "tokaido_toyohashi_maibara",
+      "stationA": "JR-A12",
+      "stationB": "CA-83",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "JR琵琶湖線 -> JR京都線 (下り 京都経由 高槻・大阪・三ノ宮方面直通 新快速/快速)",
+      "lineA": "jr_biwako",
+      "lineB": "jr_kyoto",
+      "stationA": "JR-A31",
+      "stationB": "JR-A31",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "JR京都線 -> JR琵琶湖線 (上り 京都経由 大津・草津・米原方面直通 新快速/快速)",
+      "lineA": "jr_kyoto",
+      "lineB": "jr_biwako",
+      "stationA": "JR-A31",
+      "stationB": "JR-A31",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "JR京都線 -> JR神戸線 (下り 大阪経由 尼崎・三ノ宮・姫路方面直通 新快速/快速/普通)",
+      "lineA": "jr_kyoto",
+      "lineB": "jr_kobe",
+      "stationA": "JR-A47",
+      "stationB": "JR-A47",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "JR神戸線 -> JR京都線 (上り 大阪経由 新大阪・高槻・京都方面直通 新快速/快速/普通)",
+      "lineA": "jr_kobe",
+      "lineB": "jr_kyoto",
+      "stationA": "JR-A47",
+      "stationB": "JR-A47",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "東海道新幹線 -> 山陽新幹線 (下り 新大阪経由 岡山・広島・博多方面直通 のぞみ/ひかり)",
+      "lineA": "tokaido_shinkansen",
+      "lineB": "sanyo_shinkansen",
+      "stationA": "TKS-17",
+      "stationB": "SYS-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 360
+    },
+    {
+      "name": "山陽新幹線 -> 東海道新幹線 (上り 新大阪経由 名古屋・新横浜・東京方面直通 のぞみ/ひかり)",
+      "lineA": "sanyo_shinkansen",
+      "lineB": "tokaido_shinkansen",
+      "stationA": "SYS-01",
+      "stationB": "TKS-17",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 360
     }
   ],
   "destinationCompatibilityGroups": [
