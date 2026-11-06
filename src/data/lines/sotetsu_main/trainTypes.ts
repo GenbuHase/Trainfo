@@ -46,17 +46,6 @@ export const SOTETSU_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#e08a00',
     borderColor: '#b36e00',
   },
-  // 特急: オレンジ
-  limitedExp: {
-    key: 'limitedExp',
-    name: '特急',
-    nameEn: 'Limited Express',
-    shortName: '特急',
-    color: '#f39800',
-    textColor: '#ffffff',
-    bgColor: '#f39800',
-    borderColor: '#c67c00',
-  },
   // 通勤特急: ピンク/マゼンタ
   commuter_ltd_exp: {
     key: 'commuter_ltd_exp',
@@ -67,5 +56,16 @@ export const SOTETSU_MAIN_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     textColor: '#ffffff',
     bgColor: '#e5007f',
     borderColor: '#b80066',
+  },
+  // 特急: オレンジ
+  limitedExp: {
+    key: 'limitedExp',
+    name: '特急',
+    nameEn: 'Limited Express',
+    shortName: '特急',
+    color: '#f39800',
+    textColor: '#ffffff',
+    bgColor: '#f39800',
+    borderColor: '#c67c00',
   },
 };

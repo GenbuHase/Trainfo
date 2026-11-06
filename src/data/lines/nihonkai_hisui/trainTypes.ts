@@ -15,7 +15,7 @@ export const NIHONKAI_HISUI_TRAIN_TYPES: Record<TrainTypeKey, TrainTypeConfig> =
     key: 'rapid',
     name: '快速',
     nameEn: 'Rapid',
-    shortName: '快',
+    shortName: '快速',
     color: '#0066cc',
     textColor: '#ffffff',
     bgColor: '#0066cc',

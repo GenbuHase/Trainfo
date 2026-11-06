@@ -12,6 +12,16 @@ export const TRAIN_TYPES: Record<string, TrainTypeConfig> = {
       "bgColor": "#1e1c1c",
       "borderColor": "#4a4646"
   },
+  section_rapid: {
+      "key": "section_rapid",
+      "name": "区間快速",
+      "nameEn": "Section Rapid",
+      "shortName": "区快",
+      "color": "#008080",
+      "textColor": "#ffffff",
+      "bgColor": "#008080",
+      "borderColor": "#008080"
+  },
   rapid: {
       "key": "rapid",
       "name": "快速",
@@ -41,15 +51,5 @@ export const TRAIN_TYPES: Record<string, TrainTypeConfig> = {
       "textColor": "#ffffff",
       "bgColor": "#e67e22",
       "borderColor": "#27ae60"
-  },
-  section_rapid: {
-      "key": "section_rapid",
-      "name": "区間快速",
-      "nameEn": "Section Rapid",
-      "shortName": "区快",
-      "color": "#008080",
-      "textColor": "#ffffff",
-      "bgColor": "#008080",
-      "borderColor": "#008080"
   },
 };
