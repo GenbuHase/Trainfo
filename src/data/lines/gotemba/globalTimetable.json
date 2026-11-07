@@ -838,6 +838,7 @@
     "direction": "outbound",
     "originStationId": "CB-00",
     "destinationStationId": "CB-18",
+    "customOrigin": "国府津",
     "customDestination": "静岡",
     "cars": 3,
     "isHoliday": false,
@@ -956,7 +957,9 @@
         "departureTime": "08:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_CA-03_0808_43249",
+    "throughLineId": "tokaido_atami_toyohashi"
   },
   {
     "tripId": "WD_OUT_CB-10_0649_26576",
@@ -1293,6 +1296,7 @@
     "originStationId": "CB-18",
     "destinationStationId": "CB-10",
     "customOrigin": "富士",
+    "customDestination": "御殿場",
     "cars": 3,
     "isHoliday": false,
     "stops": [
@@ -1350,7 +1354,9 @@
         "departureTime": "07:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_CA-08_0647_38180",
+    "prevLineId": "tokaido_atami_toyohashi"
   },
   {
     "tripId": "WD_INB_CB-18_0745_18085",
@@ -9284,6 +9290,7 @@
     "direction": "outbound",
     "originStationId": "CB-00",
     "destinationStationId": "CB-18",
+    "customOrigin": "国府津",
     "customDestination": "静岡",
     "cars": 3,
     "isHoliday": true,
@@ -9402,7 +9409,9 @@
         "departureTime": "08:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_CA-03_0808_43249",
+    "throughLineId": "tokaido_atami_toyohashi"
   },
   {
     "tripId": "HD_OUT_CB-10_0649_26576",
@@ -9739,6 +9748,7 @@
     "originStationId": "CB-18",
     "destinationStationId": "CB-10",
     "customOrigin": "富士",
+    "customDestination": "御殿場",
     "cars": 3,
     "isHoliday": true,
     "stops": [
@@ -9796,7 +9806,9 @@
         "departureTime": "07:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_CA-08_0647_38180",
+    "prevLineId": "tokaido_atami_toyohashi"
   },
   {
     "tripId": "HD_INB_CB-18_0745_18085",

@@ -37,7 +37,6 @@ import { jobanIwakiSendaiLine } from './lines/joban_iwaki_sendai';
 import { tohokuShinkansenLine } from './lines/tohoku_shinkansen';
 import { joetsuShinkansenLine } from './lines/joetsu_shinkansen';
 import { tokaidoLine } from './lines/tokaido';
-import { tokaidoShizuokaLine } from './lines/tokaido_shizuoka';
 import { itoLine } from './lines/ito';
 import { yokosukaLine } from './lines/yokosuka';
 import { sobuRapidLine } from './lines/sobu_rapid';
@@ -101,6 +100,14 @@ import { yokohamaLine } from './lines/yokohama';
 import { nambuLine } from './lines/nambu';
 import { tsurumiLine } from './lines/tsurumi';
 import { uchiboLine } from './lines/uchibo';
+import { tokaidoShinkansenLine } from './lines/tokaido_shinkansen';
+import { sanyoShinkansenLine } from './lines/sanyo_shinkansen';
+import { tokaidoAtamiToyohashiLine } from './lines/tokaido_atami_toyohashi';
+import { tokaidoToyohashiMaibaraLine } from './lines/tokaido_toyohashi_maibara';
+import { tokaidoMinoakasakaLine } from './lines/tokaido_minoakasaka';
+import { jrBiwakoLine } from './lines/jr_biwako';
+import { jrKyotoLine } from './lines/jr_kyoto';
+import { jrKobeLine } from './lines/jr_kobe';
 
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
@@ -159,7 +166,14 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tadami: tadamiLine,
   banetsu_west: banetsuWestLine,
   banetsu_east: banetsuEastLine,
-  tokaido_shizuoka: tokaidoShizuokaLine,
+  tokaido_atami_toyohashi: tokaidoAtamiToyohashiLine,
+  tokaido_toyohashi_maibara: tokaidoToyohashiMaibaraLine,
+  tokaido_minoakasaka: tokaidoMinoakasakaLine,
+  tokaido_shinkansen: tokaidoShinkansenLine,
+  sanyo_shinkansen: sanyoShinkansenLine,
+  jr_biwako: jrBiwakoLine,
+  jr_kyoto: jrKyotoLine,
+  jr_kobe: jrKobeLine,
   gotemba: gotembaLine,
   oito_west: oitoWestLine,
   ginza: ginzaLine,
@@ -336,7 +350,14 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
   tadami: 'tohoku',
   banetsu_west: 'tohoku',
   banetsu_east: 'tohoku',
-  tokaido_shizuoka: 'tokai',
+  tokaido_atami_toyohashi: 'tokai',
+  tokaido_toyohashi_maibara: 'tokai',
+  tokaido_minoakasaka: 'tokai',
+  tokaido_shinkansen: 'tokai',
+  sanyo_shinkansen: 'kansai',
+  jr_biwako: 'kansai',
+  jr_kyoto: 'kansai',
+  jr_kobe: 'kansai',
   gotemba: 'tokai',
   oito_west: 'koshinetsu',
   ginza: 'kanto',
@@ -390,10 +411,11 @@ export const AREA_INFO: Record<RegionArea, { name: string; icon: string }> = {
   kanto: { name: '関東（首都圏・北関東）', icon: '' },
   koshinetsu: { name: '甲信越（新潟・長野・山梨）', icon: '' },
   tohoku: { name: '東北（福島・山形・秋田）', icon: '' },
-  tokai: { name: '東海（静岡方面）', icon: '' },
+  tokai: { name: '東海（静岡・中京方面）', icon: '' },
+  kansai: { name: '近畿・関西（滋賀・京都・大阪・兵庫・山陽方面）', icon: '' },
 };
 
-export const AREA_DISPLAY_ORDER: RegionArea[] = ['kanto', 'koshinetsu', 'tohoku', 'tokai'];
+export const AREA_DISPLAY_ORDER: RegionArea[] = ['kanto', 'koshinetsu', 'tohoku', 'tokai', 'kansai'];
 
 export interface AreaLinesGroup {
   area: RegionArea;

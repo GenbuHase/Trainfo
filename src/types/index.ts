@@ -45,7 +45,6 @@ export type LineId =
   | 'tohoku_shinkansen'
   | 'joetsu_shinkansen'
   | 'tokaido'
-  | 'tokaido_shizuoka'
   | 'takasaki'
   | 'utsunomiya'
   | 'ueno_tokyo'
@@ -103,6 +102,14 @@ export type LineId =
   | 'nambu'
   | 'tsurumi'
   | 'uchibo'
+  | 'tokaido_shinkansen'
+  | 'sanyo_shinkansen'
+  | 'tokaido_atami_toyohashi'
+  | 'tokaido_toyohashi_maibara'
+  | 'tokaido_minoakasaka'
+  | 'jr_biwako'
+  | 'jr_kyoto'
+  | 'jr_kobe'
   | (string & {});
 
 
@@ -151,6 +158,14 @@ export type TrainTypeKey =
   | 'hakutaka'                // はくたか（北陸新幹線）
   | 'asama'                   // あさま（北陸新幹線）
   | 'tsurugi'                 // つるぎ（北陸新幹線）
+  | 'nozomi'                  // のぞみ（東海道・山陽新幹線）
+  | 'hikari'                  // ひかり（東海道・山陽新幹線）
+  | 'kodama'                  // こだま（東海道・山陽新幹線）
+  | 'mizuho'                  // みずほ（山陽・九州新幹線）
+  | 'sakura'                  // さくら（山陽・九州新幹線）
+  | 'tsubame'                 // つばめ（山陽・九州新幹線）
+  | 'new_rapid'               // 新快速（JR東海・JR西日本）
+  | 'homeliner'               // ホームライナー（JR東海）
   | 'test_run'                // 試運転・臨時列車デフォルト
   | (string & {});
 
@@ -327,6 +342,8 @@ export interface TrackSegment {
   fromName?: string;
   toName?: string;
   coordinates: [number, number][];
+  direction?: 'inbound' | 'outbound' | 'both';
+  variant?: string;
 }
 
 // 発車情報生データ
@@ -362,7 +379,7 @@ export interface LineDirectionNames {
 }
 
 // 路線メタデータ
-export type RegionArea = 'kanto' | 'koshinetsu' | 'tohoku' | 'tokai';
+export type RegionArea = 'kanto' | 'koshinetsu' | 'tohoku' | 'tokai' | 'kansai';
 
 export interface LineMeta {
   id: LineId;

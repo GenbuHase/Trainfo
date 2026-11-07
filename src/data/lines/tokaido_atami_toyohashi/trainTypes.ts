@@ -1,6 +1,6 @@
 import type { TrainTypeConfig } from '../../../types';
 
-export const TOKAIDO_SHIZUOKA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
+export const TOKAIDO_ATAMI_TOYOHASHI_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
   local: {
     key: 'local',
     name: '普通',
@@ -9,7 +9,7 @@ export const TOKAIDO_SHIZUOKA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     color: '#ff7322',
     textColor: '#ffffff',
     bgColor: '#ff7322',
-    borderColor: '#ff7322',
+    borderColor: '#e05a0b',
   },
   rapid: {
     key: 'rapid',
@@ -19,26 +19,26 @@ export const TOKAIDO_SHIZUOKA_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     color: '#0082ba',
     textColor: '#ffffff',
     bgColor: '#0082ba',
-    borderColor: '#0082ba',
+    borderColor: '#006591',
   },
   homeliner: {
     key: 'homeliner',
     name: 'ホームライナー',
     nameEn: 'Home Liner',
-    shortName: 'ホームライナー',
+    shortName: 'ライナー',
     color: '#e51721',
     textColor: '#ffffff',
     bgColor: '#e51721',
-    borderColor: '#e51721',
+    borderColor: '#b30f16',
   },
   limitedExp: {
     key: 'limitedExp',
     name: '特急',
     nameEn: 'Limited Express',
     shortName: '特急',
-    color: '#e51721',
+    color: '#d32f2f',
     textColor: '#ffffff',
-    bgColor: '#e51721',
-    borderColor: '#e51721',
+    bgColor: '#d32f2f',
+    borderColor: '#b71c1c',
   },
 };

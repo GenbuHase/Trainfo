@@ -295,6 +295,17 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#0073be',
     numColor: '#0073be',
   },
+  // JR西日本 アーバンネットワーク 東海道本線・山陽本線（琵琶湖線・JR京都線・JR神戸線）
+  A: {
+    borderColor: '#0072bc',
+    prefixColor: '#0072bc',
+    numColor: '#005a96',
+  },
+  'JR-A': {
+    borderColor: '#0072bc',
+    prefixColor: '#0072bc',
+    numColor: '#005a96',
+  },
 };
 
 
@@ -319,9 +330,23 @@ export const StationBadge: React.FC<{
     lg: 'text-sm px-2.5 py-1 min-w-[54px] font-bold',
   }[size];
 
-  const [prefix, num] = badgeId.includes('-')
-    ? badgeId.split('-')
-    : [badgeId.slice(0, 2), badgeId.slice(2)];
+  let prefix = '';
+  let num = '';
+  if (badgeId.startsWith('JR-')) {
+    const jrMatch = badgeId.match(/^JR-([A-Z]+)(\d+)$/);
+    if (jrMatch) {
+      prefix = jrMatch[1];
+      num = jrMatch[2];
+    } else {
+      const parts = badgeId.split('-');
+      prefix = parts.slice(0, 2).join('-');
+      num = parts.slice(2).join('-');
+    }
+  } else if (badgeId.includes('-')) {
+    [prefix, num] = badgeId.split('-');
+  } else {
+    [prefix, num] = [badgeId.slice(0, 2), badgeId.slice(2)];
+  }
   const badgeColor = STATION_BADGE_COLORS[prefix] || DEFAULT_BADGE_COLOR;
 
   return (
