@@ -31,7 +31,7 @@ flowchart TD
 | `scripts/lines/<lineId>/config.cjs` | Yahoo! スクレイパー用の駅ID・方面グループID・所要時間設定 | 中（路線追加・ダイヤ更新時） |
 | `scripts/common/throughLinker/connectionsConfig.cjs` | 路線間の直通運転ペア定義ファイル（全167接続ペア） | 中（直通路線追加時） |
 | `scripts/common/throughLinker/coupleAllExpress.cjs` | 複数編成の併結・分割運転（新幹線・中央線・踊り子・東武・小田急等）リンカー | 低（併結系統追加時） |
-| `src/data/linesRegistry.ts` | 全102路線の登録リスト・事業者順（`OPERATOR_DISPLAY_ORDER`）・4大エリア分類（`LINE_AREA_MAP`）・乗換駅検索 | 中（路線追加時） |
+| `src/data/linesRegistry.ts` | 全109路線の登録リスト・事業者順（`OPERATOR_DISPLAY_ORDER`）・5大エリア分類（`LINE_AREA_MAP`）・乗換駅検索 | 中（路線追加時） |
 | `src/data/timetableLoader.ts` | `import.meta.glob` によるダイヤJSONの動的遅延読み込み（Lazy Load）ローダー | **編集不要（自動検出）** |
 | `src/utils/timeUtils.ts` | 鉄道運行日基準（04:00起点）の時刻変換・現在時刻解決共通ユーティリティ | 低 |
 
