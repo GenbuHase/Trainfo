@@ -21,8 +21,8 @@ export const JR_BIWAKO_TRAIN_TYPES: Record<string, TrainTypeConfig> = {
     bgColor: '#ff7322',
     borderColor: '#e05a0b',
   },
-  special_rapid: {
-    key: 'special_rapid',
+  new_rapid: {
+    key: 'new_rapid',
     name: '新快速',
     nameEn: 'Special Rapid',
     shortName: '新快',

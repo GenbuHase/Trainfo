@@ -129,7 +129,7 @@ module.exports = {
     }
   ],
   trainTypeMap: {
-    "新快速": "special_rapid",
+    "新快速": "new_rapid",
     "快速": "rapid",
     "普通": "local",
     "各駅停車": "local",
