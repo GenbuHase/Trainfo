@@ -839,10 +839,14 @@ class YahooTimetableBuilder {
       allNums.push(n);
     }
 
-    // 分岐線の駅が通過駅として誤混入するのを防ぐ除外ルール
+    // 分岐線・バイパス線の駅が通過駅として誤混入するのを防ぐ除外ルール
     if (this.config.branchExclusionRules) {
       for (const bRule of this.config.branchExclusionRules) {
-        if (lineStops.some(s => bRule.ifContains.includes(s.station.number))) {
+        let match = true;
+        if (bRule.direction && bRule.direction !== direction) match = false;
+        if (bRule.ifContains && !lineStops.some(s => bRule.ifContains.includes(s.station.number))) match = false;
+        if (bRule.ifNotContains && lineStops.some(s => bRule.ifNotContains.includes(s.station.number))) match = false;
+        if (match) {
           allNums = allNums.filter(n => !bRule.excludeNumbers.includes(n));
         }
       }
