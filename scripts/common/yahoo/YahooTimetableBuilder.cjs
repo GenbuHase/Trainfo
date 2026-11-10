@@ -841,13 +841,37 @@ class YahooTimetableBuilder {
 
     // 分岐線・バイパス線の駅が通過駅として誤混入するのを防ぐ除外ルール
     if (this.config.branchExclusionRules) {
+      const resolveStationNum = (val) => {
+        if (typeof val === 'number') return val;
+        if (typeof val === 'string') {
+          if (this.stById.has(val)) return this.stById.get(val).number;
+          if (this.stByName.has(val)) return this.stByName.get(val).number;
+        }
+        return null;
+      };
+
       for (const bRule of this.config.branchExclusionRules) {
         let match = true;
         if (bRule.direction && bRule.direction !== direction) match = false;
-        if (bRule.ifContains && !lineStops.some(s => bRule.ifContains.includes(s.station.number))) match = false;
-        if (bRule.ifNotContains && lineStops.some(s => bRule.ifNotContains.includes(s.station.number))) match = false;
+
+        const ifContainsNums = bRule.ifContains
+          ? bRule.ifContains.map(resolveStationNum).filter((n) => n !== null)
+          : null;
+        if (ifContainsNums && !lineStops.some((s) => ifContainsNums.includes(s.station.number))) {
+          match = false;
+        }
+
+        const ifNotContainsNums = bRule.ifNotContains
+          ? bRule.ifNotContains.map(resolveStationNum).filter((n) => n !== null)
+          : null;
+        if (ifNotContainsNums && lineStops.some((s) => ifNotContainsNums.includes(s.station.number))) {
+          match = false;
+        }
+
         if (match) {
-          allNums = allNums.filter(n => !bRule.excludeNumbers.includes(n));
+          const rawExclude = bRule.excludeStations || bRule.exclude || bRule.excludeNumbers || [];
+          const excludeNums = rawExclude.map(resolveStationNum).filter((n) => n !== null);
+          allNums = allNums.filter((n) => !excludeNums.includes(n));
         }
       }
     }
