@@ -5,6 +5,9 @@ import { getStations } from '../../../data/stations';
 import { getLine } from '../../../data/linesRegistry';
 import { calculateDistanceKm } from '../../../data/trackGeometry';
 
+// 分離ホーム（サブ駅）を表示するズーム閾値
+const SEPARATED_PLATFORM_ZOOM_THRESHOLD = 14;
+
 interface UseStationMarkersOptions {
   mapRef: React.RefObject<L.Map | null>;
   stationLayerRef: React.RefObject<L.LayerGroup | null>;
@@ -63,7 +66,9 @@ function getStationPlatformDirs(st: Station): PlatformDirectionInfo {
 function updateMainStationLabel(
   marker: L.Marker,
   st: Station,
-  isSelected: boolean
+  isSelected: boolean,
+  shouldShowSeparated: boolean,
+  platformDirs: PlatformDirectionInfo
 ) {
   const el = marker.getElement();
   if (!el) return;
@@ -82,20 +87,29 @@ function updateMainStationLabel(
     label?.classList.add('opacity-100');
 
     // 分離ホーム駅の場合、代表駅の駅名に (上り) などの方向を付加（例: 土合 (上り)）
-    const { hasSeparated, mainDirLabel } = getStationPlatformDirs(st);
-    if (hasSeparated && mainDirLabel && nameSpan) {
-      nameSpan.textContent = `${baseName} (${mainDirLabel})`;
+    if (platformDirs.hasSeparated && platformDirs.mainDirLabel && nameSpan) {
+      nameSpan.textContent = `${baseName} (${platformDirs.mainDirLabel})`;
     }
   } else {
     marker.setZIndexOffset(0);
     dot?.classList.remove('ring-4', 'scale-125');
-    if (!isMajor) {
-      label?.classList.remove('opacity-100');
-      label?.classList.add('opacity-0');
-    }
-    // 元の駅名（基本名）に戻す
-    if (nameSpan) {
-      nameSpan.textContent = baseName;
+
+    if (shouldShowSeparated && platformDirs.hasSeparated) {
+      // ズームイン時: 分離ホームが見える状態なので代表駅も (上り) を表示しラベルを明示
+      if (platformDirs.mainDirLabel && nameSpan) {
+        nameSpan.textContent = `${baseName} (${platformDirs.mainDirLabel})`;
+      }
+      label?.classList.remove('opacity-0');
+      label?.classList.add('opacity-100');
+    } else {
+      // ズームアウト時: 通常の非選択状態に戻す
+      if (nameSpan) {
+        nameSpan.textContent = baseName;
+      }
+      if (!isMajor) {
+        label?.classList.remove('opacity-100');
+        label?.classList.add('opacity-0');
+      }
     }
   }
 }
@@ -118,22 +132,23 @@ function removePlatformElements(stationId: string, layer: L.LayerGroup, markers:
   }
 }
 
-// 分離ホーム要素（破線連絡線＋サブマーカー）の追加（駅選択時のみ展開）
+// 分離ホーム要素（破線連絡線＋サブマーカー）の追加
 function addPlatformElements(
   st: Station,
   map: L.Map,
   layer: L.LayerGroup,
   markers: Map<string, L.Layer>,
-  onSelectStation: (st: Station) => void
+  onSelectStation: (st: Station) => void,
+  isSelected: boolean,
+  platformDirs: PlatformDirectionInfo
 ) {
-  const { hasSeparated, subPlatforms } = getStationPlatformDirs(st);
-  if (!hasSeparated) return;
+  if (!platformDirs.hasSeparated) return;
 
   const line = getLine(st.lineId);
   const stationColor = line?.lineColor || '#004b97';
   const accentColor = line?.accentColor || '#ed6d00';
 
-  for (const sub of subPlatforms) {
+  for (const sub of platformDirs.subPlatforms) {
     const subMarkerKey = `${st.id}_platform_${sub.dir}`;
     const connectorKey = `${st.id}_platform_connector_${sub.dir}`;
 
@@ -153,13 +168,18 @@ function addPlatformElements(
       layer.addLayer(connector);
     }
 
-    // 2. 分離ホームのサブマーカー（駅選択時専用：「駅名 (下り)」表記）
-    let subMarker = markers.get(subMarkerKey);
+    // 2. 分離ホームのサブマーカー（「駅名 (下り)」表記）
+    let subMarker = markers.get(subMarkerKey) as L.Marker | undefined;
     if (!subMarker) {
       const subHtml = `
         <div class="station-inner relative group cursor-pointer flex flex-col items-center">
-          <div class="station-dot w-4 h-4 rounded-full border-2 border-white ring-4 scale-125 transition-transform shadow-md" style="
-            background-color: ${accentColor};
+          <div class="station-dot w-4 h-4 rounded-full border-2 ${
+            isSelected
+              ? 'border-white ring-4 scale-125'
+              : 'border-white shadow-xs'
+          } transition-transform" style="
+            background-color: ${isSelected ? accentColor : stationColor};
+            border-color: #ffffff;
           "></div>
           <div class="station-label absolute top-4 pointer-events-none whitespace-nowrap bg-white/95 backdrop-blur-xs px-1.5 py-0.5 rounded shadow-sm border border-slate-200 text-[11px] font-bold text-slate-800 transition-opacity flex items-center gap-1 opacity-100">
             ${st.stationNumber ? `<span class="font-mono text-[9px] px-1 py-0.2 rounded text-white font-semibold" style="background-color: ${stationColor}">${st.stationNumber.replace('-', '')}</span>` : ''}
@@ -177,7 +197,7 @@ function addPlatformElements(
 
       subMarker = L.marker([sub.lat, sub.lng], {
         icon: subIcon,
-        zIndexOffset: 1000,
+        zIndexOffset: isSelected ? 1000 : 0,
       });
 
       subMarker.on('click', (e) => {
@@ -187,11 +207,61 @@ function addPlatformElements(
       });
 
       markers.set(subMarkerKey, subMarker);
+    } else {
+      // 既存サブマーカーの選択スタイル更新
+      const el = subMarker.getElement();
+      if (el) {
+        const dot = el.querySelector('.station-dot') as HTMLElement | null;
+        if (isSelected) {
+          subMarker.setZIndexOffset(1000);
+          dot?.classList.add('ring-4', 'scale-125');
+          if (dot) dot.style.backgroundColor = accentColor;
+        } else {
+          subMarker.setZIndexOffset(0);
+          dot?.classList.remove('ring-4', 'scale-125');
+          if (dot) dot.style.backgroundColor = stationColor;
+        }
+      }
     }
+
     if (!layer.hasLayer(subMarker)) {
       layer.addLayer(subMarker);
     }
   }
+}
+
+// 分離ホーム全体の同期処理（ズームレベルまたは選択状態に応じて展開/格納）
+function syncSeparatedPlatforms(
+  map: L.Map,
+  layer: L.LayerGroup,
+  markers: Map<string, L.Layer>,
+  selectedStationId: string | null,
+  stations: Station[],
+  onSelectStation: (st: Station) => void
+) {
+  const currentZoom = map.getZoom();
+  const isHighZoom = currentZoom >= SEPARATED_PLATFORM_ZOOM_THRESHOLD;
+
+  stations.forEach((st) => {
+    const platformDirs = getStationPlatformDirs(st);
+    if (!platformDirs.hasSeparated) return;
+
+    const isSelected = selectedStationId === st.id;
+    const shouldShow = isSelected || isHighZoom;
+
+    // 1. 代表駅マーカーのラベル・スタイル更新
+    const mainMarker = markers.get(st.id);
+    if (mainMarker instanceof L.Marker) {
+      updateMainStationLabel(mainMarker, st, isSelected, shouldShow, platformDirs);
+    }
+
+    // 2. 分離ホーム要素の展開または格納
+    if (shouldShow) {
+      addPlatformElements(st, map, layer, markers, onSelectStation, isSelected, platformDirs);
+    } else {
+      removePlatformElements(st.id, layer, markers);
+    }
+  });
 }
 
 export function useStationMarkers({
@@ -202,7 +272,7 @@ export function useStationMarkers({
   onSelectStation,
 }: UseStationMarkersOptions) {
   const onSelectStationRef = useRef(onSelectStation);
-  const selectedStationRef = useRef<Station | null>(selectedStation);
+  const selectedStationIdRef = useRef<string | null>(selectedStation?.id ?? null);
   const prevSelectedStationIdRef = useRef<string | null>(null);
   const markersRef = useRef<Map<string, L.Layer>>(new Map());
   const prevStationLayerRef = useRef<L.LayerGroup | null>(null);
@@ -212,7 +282,7 @@ export function useStationMarkers({
   }, [onSelectStation]);
 
   useEffect(() => {
-    selectedStationRef.current = selectedStation;
+    selectedStationIdRef.current = selectedStation?.id ?? null;
   }, [selectedStation]);
 
   // コンポーネント破棄時またはレイヤー切り替え時のクリーンアップ
@@ -250,16 +320,20 @@ export function useStationMarkers({
       }
     }
 
-    // 代表駅マーカーの追加（通常時は代表マーカーのみ表示）
+    const currentZoom = map.getZoom();
+    const isHighZoom = currentZoom >= SEPARATED_PLATFORM_ZOOM_THRESHOLD;
+
+    // 代表駅マーカーの追加
     stations.forEach((st) => {
       const line = getLine(st.lineId);
       const stationColor = line?.lineColor || '#004b97';
       const accentColor = line?.accentColor || '#ed6d00';
-      const isSelected = selectedStationRef.current?.id === st.id;
+      const isSelected = selectedStationIdRef.current === st.id;
       const isMajor = st.isMajor ?? false;
 
       // 分離ホーム情報
       const platformDirs = getStationPlatformDirs(st);
+      const shouldShowSeparated = isSelected || isHighZoom;
 
       // --- 代表駅マーカー ---
       const existingMainMarker = markersRef.current.get(st.id);
@@ -269,7 +343,7 @@ export function useStationMarkers({
         }
       } else {
         const displayName =
-          isSelected && platformDirs.hasSeparated && platformDirs.mainDirLabel
+          shouldShowSeparated && platformDirs.hasSeparated && platformDirs.mainDirLabel
             ? `${st.name} (${platformDirs.mainDirLabel})`
             : st.name;
 
@@ -286,7 +360,9 @@ export function useStationMarkers({
               border-color: ${isSelected ? '#ffffff' : (isMajor ? '#ffffff' : stationColor)};
             "></div>
             <div class="station-label absolute top-4 pointer-events-none whitespace-nowrap bg-white/95 backdrop-blur-xs px-1.5 py-0.5 rounded shadow-sm border border-slate-200 text-[11px] font-bold text-slate-800 transition-opacity flex items-center gap-1 ${
-              isMajor || isSelected ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
+              isMajor || isSelected || (shouldShowSeparated && platformDirs.hasSeparated)
+                ? 'opacity-100'
+                : 'opacity-0 group-hover:opacity-100'
             }">
               ${st.stationNumber ? `<span class="font-mono text-[9px] px-1 py-0.2 rounded text-white font-semibold" style="background-color: ${stationColor}">${st.stationNumber.replace('-', '')}</span>` : ''}
               <span class="station-name-text">${displayName}</span>
@@ -317,57 +393,87 @@ export function useStationMarkers({
       }
     });
 
-    // 選択中の駅があれば、分離ホーム要素を展開
-    if (selectedStationRef.current && stationIdSet.has(selectedStationRef.current.id)) {
-      addPlatformElements(
-        selectedStationRef.current,
+    // 分離ホーム要素の同期
+    syncSeparatedPlatforms(
+      map,
+      layer,
+      markersRef.current,
+      selectedStationIdRef.current,
+      stations,
+      (s) => onSelectStationRef.current(s)
+    );
+  }, [mapRef, stationLayerRef, selectedLineIds]);
+
+  // 2. ズーム変更時の分離ホーム展開/格納同期（案B: 高ズーム時に自動展開）
+  useEffect(() => {
+    const map = mapRef.current;
+    const layer = stationLayerRef.current;
+    if (!map || !layer) return;
+
+    const handleZoom = () => {
+      const stations = getStations(selectedLineIds);
+      syncSeparatedPlatforms(
         map,
         layer,
         markersRef.current,
+        selectedStationIdRef.current,
+        stations,
         (s) => onSelectStationRef.current(s)
       );
-    }
+    };
+
+    map.on('zoomend', handleZoom);
+    return () => {
+      map.off('zoomend', handleZoom);
+    };
   }, [mapRef, stationLayerRef, selectedLineIds]);
 
-  // 2. 選択駅変更時のスタイル更新＆分離ホームの展開/格納
+  // 3. 選択駅変更時のスタイル更新＆分離ホームの展開/格納（案A: 駅選択時）
   useEffect(() => {
     const curId = selectedStation?.id || null;
     const prevId = prevSelectedStationIdRef.current;
     if (curId === prevId) return;
 
+    selectedStationIdRef.current = curId;
     const layer = stationLayerRef.current;
     const map = mapRef.current;
+    if (!layer || !map) {
+      prevSelectedStationIdRef.current = curId;
+      return;
+    }
 
-    // 前の選択駅のスタイルをリセット＆分離ホームを格納
+    const stations = getStations(selectedLineIds);
+
+    // 1. 前の選択駅のスタイルリセット
     if (prevId) {
       const prevMarker = markersRef.current.get(prevId);
-      if (prevMarker instanceof L.Marker) {
-        const el = prevMarker.getElement();
-        const baseName = (el?.querySelector('.station-inner') as HTMLElement)?.dataset.baseName || '';
-        updateMainStationLabel(prevMarker, { id: prevId, name: baseName } as Station, false);
-      }
-      if (layer) {
-        removePlatformElements(prevId, layer, markersRef.current);
+      const prevStation = stations.find((s) => s.id === prevId);
+      if (prevMarker instanceof L.Marker && prevStation) {
+        const platformDirs = getStationPlatformDirs(prevStation);
+        const isHighZoom = map.getZoom() >= SEPARATED_PLATFORM_ZOOM_THRESHOLD;
+        updateMainStationLabel(prevMarker, prevStation, false, isHighZoom, platformDirs);
       }
     }
 
-    // 新たに選択された駅のスタイルをハイライト＆分離ホームを展開
+    // 2. 新たに選択された駅のスタイルハイライト
     if (curId && selectedStation) {
       const curMarker = markersRef.current.get(curId);
       if (curMarker instanceof L.Marker) {
-        updateMainStationLabel(curMarker, selectedStation, true);
-      }
-      if (layer && map) {
-        addPlatformElements(
-          selectedStation,
-          map,
-          layer,
-          markersRef.current,
-          (s) => onSelectStationRef.current(s)
-        );
+        const platformDirs = getStationPlatformDirs(selectedStation);
+        updateMainStationLabel(curMarker, selectedStation, true, true, platformDirs);
       }
     }
 
+    // 3. 分離ホーム要素の全体同期
+    syncSeparatedPlatforms(
+      map,
+      layer,
+      markersRef.current,
+      curId,
+      stations,
+      (s) => onSelectStationRef.current(s)
+    );
+
     prevSelectedStationIdRef.current = curId;
-  }, [mapRef, stationLayerRef, selectedStation]);
+  }, [mapRef, stationLayerRef, selectedStation, selectedLineIds]);
 }
