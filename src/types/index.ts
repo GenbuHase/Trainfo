@@ -217,8 +217,8 @@ export interface Station {
     outbound: string; // 下りホーム番線 (例: '3・4番線')
   };
   platformCoordinates?: {
-    inbound?: { lat: number; lng: number };
-    outbound?: { lat: number; lng: number };
+    inbound?: { lat: number; lng: number; name?: string };
+    outbound?: { lat: number; lng: number; name?: string };
   };
 }
 
