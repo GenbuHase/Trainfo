@@ -216,6 +216,10 @@ export interface Station {
     inbound: string;  // 上りホーム番線 (例: '1・2番線')
     outbound: string; // 下りホーム番線 (例: '3・4番線')
   };
+  platformCoordinates?: {
+    inbound?: { lat: number; lng: number };
+    outbound?: { lat: number; lng: number };
+  };
 }
 
 export type Direction = 'inbound' | 'outbound'; // inbound = 上り, outbound = 下り

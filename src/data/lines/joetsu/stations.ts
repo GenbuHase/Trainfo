@@ -441,8 +441,12 @@ export const JOETSU_STATIONS: Station[] = [
     "name": "湯檜曽",
     "nameKana": "ゆびそ",
     "nameEn": "Yubiso",
-    "lat": 36.8030084,
-    "lng": 138.9856167,
+    "lat": 36.8025972,
+    "lng": 138.9862757,
+    "platformCoordinates": {
+      "inbound": { "lat": 36.8025972, "lng": 138.9862757 },
+      "outbound": { "lat": 36.8030084, "lng": 138.9856167 }
+    },
     "transfers": [
       "JR上越線"
     ],
@@ -470,8 +474,12 @@ export const JOETSU_STATIONS: Station[] = [
     "name": "土合",
     "nameKana": "どあい",
     "nameEn": "Doai",
-    "lat": 36.829534,
-    "lng": 138.962617,
+    "lat": 36.831314,
+    "lng": 138.967419,
+    "platformCoordinates": {
+      "inbound": { "lat": 36.831314, "lng": 138.967419 },
+      "outbound": { "lat": 36.829534, "lng": 138.962617 }
+    },
     "transfers": [
       "JR上越線"
     ],

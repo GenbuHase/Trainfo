@@ -359,6 +359,8 @@ export function calculateActiveTrains(
         const nextStopStation = trip.stops.slice(i + 1).find((s) => !s.isPassing);
         const trainInfo = resolveActiveTrainInfo(trip, curStop.stationId);
 
+        const stopCoord = (trip.direction === 'inbound' ? stObj.platformCoordinates?.inbound : stObj.platformCoordinates?.outbound) ?? stObj;
+
         activeTrains.push({
           tripId: trip.tripId,
           lineId,
@@ -383,8 +385,8 @@ export function calculateActiveTrains(
           prevLineId: trip.prevLineId,
           cars: trainInfo.cars,
           status: 'STOPPING',
-          currentLat: stObj.lat,
-          currentLng: stObj.lng,
+          currentLat: stopCoord.lat,
+          currentLng: stopCoord.lng,
           heading,
           currentStationId: curStop.stationId,
           nextStationId: nextStop ? nextStop.stationId : curStop.stationId,
