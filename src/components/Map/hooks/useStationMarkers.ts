@@ -13,6 +13,93 @@ interface UseStationMarkersOptions {
   onSelectStation: (station: Station) => void;
 }
 
+interface PlatformDirectionInfo {
+  hasSeparated: boolean;
+  mainDirLabel: string | null;
+  subPlatforms: Array<{
+    dir: 'inbound' | 'outbound';
+    dirLabel: string;
+    lat: number;
+    lng: number;
+  }>;
+}
+
+// 分離ホーム情報の解析（代表座標と分離ホームの方向判定）
+function getStationPlatformDirs(st: Station): PlatformDirectionInfo {
+  if (!st.platformCoordinates) {
+    return { hasSeparated: false, mainDirLabel: null, subPlatforms: [] };
+  }
+
+  const inCoord = st.platformCoordinates.inbound;
+  const outCoord = st.platformCoordinates.outbound;
+
+  const inDist = inCoord ? calculateDistanceKm(st.lat, st.lng, inCoord.lat, inCoord.lng) * 1000 : Infinity;
+  const outDist = outCoord ? calculateDistanceKm(st.lat, st.lng, outCoord.lat, outCoord.lng) * 1000 : Infinity;
+
+  const subPlatforms: PlatformDirectionInfo['subPlatforms'] = [];
+  let mainDirLabel: string | null = null;
+
+  // 代表座標から 40m 以上離れているものを分離ホームとする
+  if (inDist >= 40 && inCoord) {
+    subPlatforms.push({ dir: 'inbound', dirLabel: inCoord.name || '上り', lat: inCoord.lat, lng: inCoord.lng });
+  } else if (inCoord) {
+    mainDirLabel = inCoord.name || '上り';
+  }
+
+  if (outDist >= 40 && outCoord) {
+    subPlatforms.push({ dir: 'outbound', dirLabel: outCoord.name || '下り', lat: outCoord.lat, lng: outCoord.lng });
+  } else if (outCoord) {
+    mainDirLabel = outCoord.name || '下り';
+  }
+
+  return {
+    hasSeparated: subPlatforms.length > 0,
+    mainDirLabel,
+    subPlatforms,
+  };
+}
+
+// 代表駅マーカーのラベル表示を更新するヘルパー
+function updateMainStationLabel(
+  marker: L.Marker,
+  st: Station,
+  isSelected: boolean
+) {
+  const el = marker.getElement();
+  if (!el) return;
+
+  const dot = el.querySelector('.station-dot');
+  const label = el.querySelector('.station-label');
+  const nameSpan = el.querySelector('.station-name-text');
+  const innerEl = el.querySelector('.station-inner') as HTMLElement | null;
+  const isMajor = innerEl?.dataset.isMajor === 'true';
+  const baseName = innerEl?.dataset.baseName || st.name;
+
+  if (isSelected) {
+    marker.setZIndexOffset(1000);
+    dot?.classList.add('ring-4', 'scale-125');
+    label?.classList.remove('opacity-0');
+    label?.classList.add('opacity-100');
+
+    // 分離ホーム駅の場合、代表駅の駅名に (上り) などの方向を付加（例: 土合 (上り)）
+    const { hasSeparated, mainDirLabel } = getStationPlatformDirs(st);
+    if (hasSeparated && mainDirLabel && nameSpan) {
+      nameSpan.textContent = `${baseName} (${mainDirLabel})`;
+    }
+  } else {
+    marker.setZIndexOffset(0);
+    dot?.classList.remove('ring-4', 'scale-125');
+    if (!isMajor) {
+      label?.classList.remove('opacity-100');
+      label?.classList.add('opacity-0');
+    }
+    // 元の駅名（基本名）に戻す
+    if (nameSpan) {
+      nameSpan.textContent = baseName;
+    }
+  }
+}
+
 // 分離ホーム要素（破線連絡線＋サブマーカー）の削除（格納）
 function removePlatformElements(stationId: string, layer: L.LayerGroup, markers: Map<string, L.Layer>) {
   for (const dir of ['inbound', 'outbound']) {
@@ -39,28 +126,21 @@ function addPlatformElements(
   markers: Map<string, L.Layer>,
   onSelectStation: (st: Station) => void
 ) {
-  if (!st.platformCoordinates) return;
+  const { hasSeparated, subPlatforms } = getStationPlatformDirs(st);
+  if (!hasSeparated) return;
+
   const line = getLine(st.lineId);
   const stationColor = line?.lineColor || '#004b97';
   const accentColor = line?.accentColor || '#ed6d00';
 
-  const dirs: ('inbound' | 'outbound')[] = ['inbound', 'outbound'];
-  for (const dir of dirs) {
-    const pCoord = st.platformCoordinates[dir];
-    if (!pCoord) continue;
-
-    // 代表座標からの距離（メートル）
-    const distM = calculateDistanceKm(st.lat, st.lng, pCoord.lat, pCoord.lng) * 1000;
-    // 40m 以上離れている場合のみサブマーカーを展開
-    if (distM < 40) continue;
-
-    const subMarkerKey = `${st.id}_platform_${dir}`;
-    const connectorKey = `${st.id}_platform_connector_${dir}`;
+  for (const sub of subPlatforms) {
+    const subMarkerKey = `${st.id}_platform_${sub.dir}`;
+    const connectorKey = `${st.id}_platform_connector_${sub.dir}`;
 
     // 1. 連絡通路ライン（破線）
     let connector = markers.get(connectorKey);
     if (!connector) {
-      connector = L.polyline([[st.lat, st.lng], [pCoord.lat, pCoord.lng]], {
+      connector = L.polyline([[st.lat, st.lng], [sub.lat, sub.lng]], {
         color: stationColor,
         weight: 2,
         dashArray: '4, 4',
@@ -73,18 +153,17 @@ function addPlatformElements(
       layer.addLayer(connector);
     }
 
-    // 2. 分離ホームのサブマーカー（駅選択時専用）
+    // 2. 分離ホームのサブマーカー（駅選択時専用：「駅名 (下り)」表記）
     let subMarker = markers.get(subMarkerKey);
     if (!subMarker) {
-      const platformName = pCoord.name || (dir === 'outbound' ? '下りホーム' : '上りホーム');
       const subHtml = `
         <div class="station-inner relative group cursor-pointer flex flex-col items-center">
-          <div class="station-dot w-3.5 h-3.5 rounded-full border-2 border-white shadow-md ring-2 ring-white/80 transition-transform hover:scale-125" style="
+          <div class="station-dot w-4 h-4 rounded-full border-2 border-white ring-4 scale-125 transition-transform shadow-md" style="
             background-color: ${accentColor};
           "></div>
-          <div class="station-label absolute top-4 pointer-events-none whitespace-nowrap bg-white/95 backdrop-blur-xs px-1.5 py-0.5 rounded shadow-md border border-slate-300 text-[10px] font-bold text-slate-800 flex items-center gap-1.5 opacity-100">
-            <span class="w-1.5 h-1.5 rounded-full" style="background-color: ${stationColor}"></span>
-            <span>${platformName}</span>
+          <div class="station-label absolute top-4 pointer-events-none whitespace-nowrap bg-white/95 backdrop-blur-xs px-1.5 py-0.5 rounded shadow-sm border border-slate-200 text-[11px] font-bold text-slate-800 transition-opacity flex items-center gap-1 opacity-100">
+            ${st.stationNumber ? `<span class="font-mono text-[9px] px-1 py-0.2 rounded text-white font-semibold" style="background-color: ${stationColor}">${st.stationNumber.replace('-', '')}</span>` : ''}
+            <span>${st.name} (${sub.dirLabel})</span>
           </div>
         </div>
       `;
@@ -92,19 +171,19 @@ function addPlatformElements(
       const subIcon = L.divIcon({
         className: 'station-div-icon station-platform-sub-icon',
         html: subHtml,
-        iconSize: [18, 18],
-        iconAnchor: [9, 9],
+        iconSize: [20, 20],
+        iconAnchor: [10, 10],
       });
 
-      subMarker = L.marker([pCoord.lat, pCoord.lng], {
+      subMarker = L.marker([sub.lat, sub.lng], {
         icon: subIcon,
-        zIndexOffset: 950,
+        zIndexOffset: 1000,
       });
 
       subMarker.on('click', (e) => {
         L.DomEvent.stopPropagation(e);
         onSelectStation(st);
-        map.panTo([pCoord.lat, pCoord.lng], { animate: true, duration: 0.4 });
+        map.panTo([sub.lat, sub.lng], { animate: true, duration: 0.4 });
       });
 
       markers.set(subMarkerKey, subMarker);
@@ -179,6 +258,9 @@ export function useStationMarkers({
       const isSelected = selectedStationRef.current?.id === st.id;
       const isMajor = st.isMajor ?? false;
 
+      // 分離ホーム情報
+      const platformDirs = getStationPlatformDirs(st);
+
       // --- 代表駅マーカー ---
       const existingMainMarker = markersRef.current.get(st.id);
       if (existingMainMarker) {
@@ -186,8 +268,13 @@ export function useStationMarkers({
           layer.addLayer(existingMainMarker);
         }
       } else {
+        const displayName =
+          isSelected && platformDirs.hasSeparated && platformDirs.mainDirLabel
+            ? `${st.name} (${platformDirs.mainDirLabel})`
+            : st.name;
+
         const html = `
-          <div class="station-inner relative group cursor-pointer flex flex-col items-center" data-station-id="${st.id}" data-is-major="${isMajor}">
+          <div class="station-inner relative group cursor-pointer flex flex-col items-center" data-station-id="${st.id}" data-is-major="${isMajor}" data-base-name="${st.name}">
             <div class="station-dot w-4 h-4 rounded-full border-2 ${
               isSelected
                 ? 'border-white ring-4 scale-125'
@@ -202,7 +289,7 @@ export function useStationMarkers({
               isMajor || isSelected ? 'opacity-100' : 'opacity-0 group-hover:opacity-100'
             }">
               ${st.stationNumber ? `<span class="font-mono text-[9px] px-1 py-0.2 rounded text-white font-semibold" style="background-color: ${stationColor}">${st.stationNumber.replace('-', '')}</span>` : ''}
-              <span>${st.name}</span>
+              <span class="station-name-text">${displayName}</span>
             </div>
           </div>
         `;
@@ -255,19 +342,9 @@ export function useStationMarkers({
     if (prevId) {
       const prevMarker = markersRef.current.get(prevId);
       if (prevMarker instanceof L.Marker) {
-        prevMarker.setZIndexOffset(0);
         const el = prevMarker.getElement();
-        if (el) {
-          const innerEl = el.querySelector('.station-inner') as HTMLElement | null;
-          const isMajor = innerEl?.dataset.isMajor === 'true';
-          const dot = el.querySelector('.station-dot');
-          const label = el.querySelector('.station-label');
-          dot?.classList.remove('ring-4', 'scale-125');
-          if (!isMajor) {
-            label?.classList.remove('opacity-100');
-            label?.classList.add('opacity-0');
-          }
-        }
+        const baseName = (el?.querySelector('.station-inner') as HTMLElement)?.dataset.baseName || '';
+        updateMainStationLabel(prevMarker, { id: prevId, name: baseName } as Station, false);
       }
       if (layer) {
         removePlatformElements(prevId, layer, markersRef.current);
@@ -278,15 +355,7 @@ export function useStationMarkers({
     if (curId && selectedStation) {
       const curMarker = markersRef.current.get(curId);
       if (curMarker instanceof L.Marker) {
-        curMarker.setZIndexOffset(1000);
-        const el = curMarker.getElement();
-        if (el) {
-          const dot = el.querySelector('.station-dot');
-          const label = el.querySelector('.station-label');
-          dot?.classList.add('ring-4', 'scale-125');
-          label?.classList.remove('opacity-0');
-          label?.classList.add('opacity-100');
-        }
+        updateMainStationLabel(curMarker, selectedStation, true);
       }
       if (layer && map) {
         addPlatformElements(

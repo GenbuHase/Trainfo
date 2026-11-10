@@ -444,8 +444,8 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 36.8025972,
     "lng": 138.9862757,
     "platformCoordinates": {
-      "inbound": { "lat": 36.8025972, "lng": 138.9862757, "name": "地上ホーム" },
-      "outbound": { "lat": 36.8030084, "lng": 138.9856167, "name": "地下ホーム" }
+      "inbound": { "lat": 36.8025972, "lng": 138.9862757, "name": "上り" },
+      "outbound": { "lat": 36.8030084, "lng": 138.9856167, "name": "下り" }
     },
     "transfers": [
       "JR上越線"
@@ -477,8 +477,8 @@ export const JOETSU_STATIONS: Station[] = [
     "lat": 36.831314,
     "lng": 138.967419,
     "platformCoordinates": {
-      "inbound": { "lat": 36.831314, "lng": 138.967419, "name": "地上ホーム" },
-      "outbound": { "lat": 36.829534, "lng": 138.962617, "name": "地下ホーム" }
+      "inbound": { "lat": 36.831314, "lng": 138.967419, "name": "上り" },
+      "outbound": { "lat": 36.829534, "lng": 138.962617, "name": "下り" }
     },
     "transfers": [
       "JR上越線"
