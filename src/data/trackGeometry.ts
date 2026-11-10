@@ -1,5 +1,5 @@
 // 統合実軌道ジオメトリデータ＆補間計算エンジン
-import type { TrackSegment, LineId } from '../types';
+import type { TrackSegment, LineId, Direction } from '../types';
 import { getCombinedTrackSegments, getCombinedStations } from './linesRegistry';
 
 // 全登録路線の統合線路セグメント（静的アクセス互換用）
@@ -55,27 +55,112 @@ export function calculateHeading(lat1: number, lon1: number, lat2: number, lon2:
   return (brng + 360) % 360;
 }
 
+/**
+ * 駅間セグメントを有向グラフ・進行方向・バリアントを考慮して優先度順に探索
+ */
+function findBestSegment(
+  segments: TrackSegment[],
+  fromStationId: string,
+  toStationId: string,
+  dir?: Direction,
+  routeVariant?: string
+): { segment: TrackSegment | undefined; isReverse: boolean } {
+  // 1. 順方向で variant と direction が完全一致
+  if (routeVariant && dir) {
+    const s = segments.find(
+      (seg) =>
+        seg.fromStationId === fromStationId &&
+        seg.toStationId === toStationId &&
+        seg.variant === routeVariant &&
+        seg.direction === dir
+    );
+    if (s) return { segment: s, isReverse: false };
+  }
+
+  // 2. 順方向で variant 一致 かつ (direction 未指定 or 'both')
+  if (routeVariant) {
+    const s = segments.find(
+      (seg) =>
+        seg.fromStationId === fromStationId &&
+        seg.toStationId === toStationId &&
+        seg.variant === routeVariant &&
+        (seg.direction === 'both' || !seg.direction)
+    );
+    if (s) return { segment: s, isReverse: false };
+  }
+
+  // 3. 順方向で direction 完全一致
+  if (dir) {
+    const s = segments.find(
+      (seg) =>
+        seg.fromStationId === fromStationId &&
+        seg.toStationId === toStationId &&
+        seg.direction === dir
+    );
+    if (s) return { segment: s, isReverse: false };
+  }
+
+  // 4. 順方向で direction 未指定 or 'both'
+  const forwardBoth = segments.find(
+    (seg) =>
+      seg.fromStationId === fromStationId &&
+      seg.toStationId === toStationId &&
+      (seg.direction === 'both' || !seg.direction)
+  );
+  if (forwardBoth) return { segment: forwardBoth, isReverse: false };
+
+  // 5. 順方向セグメントが何かしらあれば採用（direction不一致でもフォールバックとして採用）
+  const anyForward = segments.find(
+    (seg) => seg.fromStationId === fromStationId && seg.toStationId === toStationId
+  );
+  if (anyForward) return { segment: anyForward, isReverse: false };
+
+  // 6. 逆方向で direction 未指定 or 'both'（反転利用）
+  const reverseBoth = segments.find(
+    (seg) =>
+      seg.fromStationId === toStationId &&
+      seg.toStationId === fromStationId &&
+      (seg.direction === 'both' || !seg.direction)
+  );
+  if (reverseBoth) return { segment: reverseBoth, isReverse: true };
+
+  // 7. 逆方向で何かしらあれば採用（完全孤立駅間での最後の救済）
+  const anyReverse = segments.find(
+    (seg) => seg.fromStationId === toStationId && seg.toStationId === fromStationId
+  );
+  if (anyReverse) return { segment: anyReverse, isReverse: true };
+
+  return { segment: undefined, isReverse: false };
+}
+
 // 駅間進行比率 ratio (0.0〜1.0) に基づいて、精密な実線路上の座標と方位角を算出
 export function interpolateTrackPosition(
   fromStationId: string,
   toStationId: string,
   ratio: number,
+  directionOrCustomSegments?: Direction | TrackSegment[],
+  routeVariant?: string,
   customSegments?: TrackSegment[]
 ): { lat: number; lng: number; heading: number; bearing: number } {
-  const segments = customSegments || getCombinedTrackSegments();
+  let dir: Direction | undefined;
+  let segments: TrackSegment[];
+
+  if (Array.isArray(directionOrCustomSegments)) {
+    segments = directionOrCustomSegments;
+  } else {
+    dir = directionOrCustomSegments;
+    segments = customSegments || getCombinedTrackSegments();
+  }
+
   const clampedRatio = Math.max(0, Math.min(1, ratio));
 
-  let segment = segments.find(
-    (s) => s.fromStationId === fromStationId && s.toStationId === toStationId
+  const { segment, isReverse } = findBestSegment(
+    segments,
+    fromStationId,
+    toStationId,
+    dir,
+    routeVariant
   );
-  let isReverse = false;
-
-  if (!segment) {
-    segment = segments.find(
-      (s) => s.fromStationId === toStationId && s.toStationId === fromStationId
-    );
-    isReverse = true;
-  }
 
   if (!segment || segment.coordinates.length < 2) {
     const stations = getCombinedStations();
@@ -164,22 +249,32 @@ const TRACK_DISTANCE_CACHE = new Map<string, number>();
 export function getTrackDistanceKm(
   fromStationId: string,
   toStationId: string,
+  directionOrCustomSegments?: Direction | TrackSegment[],
+  routeVariant?: string,
   customSegments?: TrackSegment[]
 ): number | null {
-  const cacheKey = `${fromStationId}_${toStationId}`;
+  let dir: Direction | undefined;
+  let segments: TrackSegment[];
+
+  if (Array.isArray(directionOrCustomSegments)) {
+    segments = directionOrCustomSegments;
+  } else {
+    dir = directionOrCustomSegments;
+    segments = customSegments || getCombinedTrackSegments();
+  }
+
+  const cacheKey = `${fromStationId}_${toStationId}_${dir || 'any'}_${routeVariant || 'any'}`;
   if (!customSegments && TRACK_DISTANCE_CACHE.has(cacheKey)) {
     return TRACK_DISTANCE_CACHE.get(cacheKey)!;
   }
 
-  const segments = customSegments || getCombinedTrackSegments();
-  let segment = segments.find(
-    (s) => s.fromStationId === fromStationId && s.toStationId === toStationId
+  const { segment } = findBestSegment(
+    segments,
+    fromStationId,
+    toStationId,
+    dir,
+    routeVariant
   );
-  if (!segment) {
-    segment = segments.find(
-      (s) => s.fromStationId === toStationId && s.toStationId === fromStationId
-    );
-  }
 
   if (!segment || segment.coordinates.length < 2) {
     return null;
@@ -196,4 +291,3 @@ export function getTrackDistanceKm(
   }
   return distKm;
 }
-
