@@ -839,11 +839,39 @@ class YahooTimetableBuilder {
       allNums.push(n);
     }
 
-    // 分岐線の駅が通過駅として誤混入するのを防ぐ除外ルール
+    // 分岐線・バイパス線の駅が通過駅として誤混入するのを防ぐ除外ルール
     if (this.config.branchExclusionRules) {
+      const resolveStationNum = (val) => {
+        if (typeof val === 'number') return val;
+        if (typeof val === 'string') {
+          if (this.stById.has(val)) return this.stById.get(val).number;
+          if (this.stByName.has(val)) return this.stByName.get(val).number;
+        }
+        return null;
+      };
+
       for (const bRule of this.config.branchExclusionRules) {
-        if (lineStops.some(s => bRule.ifContains.includes(s.station.number))) {
-          allNums = allNums.filter(n => !bRule.excludeNumbers.includes(n));
+        let match = true;
+        if (bRule.direction && bRule.direction !== direction) match = false;
+
+        const ifContainsNums = bRule.ifContains
+          ? bRule.ifContains.map(resolveStationNum).filter((n) => n !== null)
+          : null;
+        if (ifContainsNums && !lineStops.some((s) => ifContainsNums.includes(s.station.number))) {
+          match = false;
+        }
+
+        const ifNotContainsNums = bRule.ifNotContains
+          ? bRule.ifNotContains.map(resolveStationNum).filter((n) => n !== null)
+          : null;
+        if (ifNotContainsNums && lineStops.some((s) => ifNotContainsNums.includes(s.station.number))) {
+          match = false;
+        }
+
+        if (match) {
+          const rawExclude = bRule.excludeStations || bRule.exclude || bRule.excludeNumbers || [];
+          const excludeNums = rawExclude.map(resolveStationNum).filter((n) => n !== null);
+          allNums = allNums.filter((n) => !excludeNums.includes(n));
         }
       }
     }

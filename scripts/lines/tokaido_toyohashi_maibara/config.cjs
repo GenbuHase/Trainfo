@@ -361,4 +361,11 @@ module.exports = {
     "40": 180,
     "41": 180
   },
+  branchExclusionRules: [
+    {
+      direction: 'outbound',
+      ifNotContains: ['CA-78'], // 垂井駅に停車しない下り列車（特急しらさぎ・ひだ等）
+      excludeStations: ['CA-78'], // 垂井駅を通過駅から除外、大垣〜関ケ原間を新垂井線経由（CA-77_CA-79_shintarui）で走行
+    },
+  ],
 };
