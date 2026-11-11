@@ -333,7 +333,7 @@ export function calculateActiveTrains(
         const nextStop = trip.stops[i + 1];
         if (nextStop) {
           // これから進む実線路の向き（発車時の進行方向）に同期させることで発車時の角度跳ねを防止
-          const trackPos = interpolateTrackPosition(curStop.stationId, nextStop.stationId, 0);
+          const trackPos = interpolateTrackPosition(curStop.stationId, nextStop.stationId, 0, trip.direction);
           heading = trackPos.heading;
           if (heading === 0) {
             const nextSt = STATION_MAP.get(nextStop.stationId);
@@ -345,7 +345,7 @@ export function calculateActiveTrains(
           // 終着駅では入線時の線路進入角度を維持
           const prevStop = trip.stops[i - 1];
           if (prevStop) {
-            const trackPos = interpolateTrackPosition(prevStop.stationId, curStop.stationId, 1);
+            const trackPos = interpolateTrackPosition(prevStop.stationId, curStop.stationId, 1, trip.direction);
             heading = trackPos.heading;
             if (heading === 0) {
               const prevSt = STATION_MAP.get(prevStop.stationId);
@@ -358,6 +358,8 @@ export function calculateActiveTrains(
 
         const nextStopStation = trip.stops.slice(i + 1).find((s) => !s.isPassing);
         const trainInfo = resolveActiveTrainInfo(trip, curStop.stationId);
+
+        const stopCoord = (trip.direction === 'inbound' ? stObj.platformCoordinates?.inbound : stObj.platformCoordinates?.outbound) ?? stObj;
 
         activeTrains.push({
           tripId: trip.tripId,
@@ -383,8 +385,8 @@ export function calculateActiveTrains(
           prevLineId: trip.prevLineId,
           cars: trainInfo.cars,
           status: 'STOPPING',
-          currentLat: stObj.lat,
-          currentLng: stObj.lng,
+          currentLat: stopCoord.lat,
+          currentLng: stopCoord.lng,
           heading,
           currentStationId: curStop.stationId,
           nextStationId: nextStop ? nextStop.stationId : curStop.stationId,
@@ -414,14 +416,15 @@ export function calculateActiveTrains(
           const interpolated = interpolateTrackPosition(
             curStop.stationId,
             nextStop.stationId,
-            progress
+            progress,
+            trip.direction
           );
 
           // 速度計算 (km/h)
           const stNextObj = STATION_MAP.get(nextStop.stationId);
           let avgSpeedKmh = 70;
           if (stObj && stNextObj && totalDuration > 0) {
-            const trackDistKm = getTrackDistanceKm(curStop.stationId, nextStop.stationId);
+            const trackDistKm = getTrackDistanceKm(curStop.stationId, nextStop.stationId, trip.direction);
             const dist = trackDistKm !== null
               ? trackDistKm
               : calculateDistanceKm(stObj.lat, stObj.lng, stNextObj.lat, stNextObj.lng);

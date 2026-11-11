@@ -9,6 +9,21 @@ function distMeters(p1, p2) {
   return Math.sqrt(dLat * dLat + dLng * dLng);
 }
 
+function getMinStationDist(st, coord) {
+  if (!st || !coord) return Infinity;
+  let dMin = distMeters([st.lat, st.lng], coord);
+  if (st.platformCoordinates) {
+    if (st.platformCoordinates.inbound) {
+      dMin = Math.min(dMin, distMeters([st.platformCoordinates.inbound.lat, st.platformCoordinates.inbound.lng], coord));
+    }
+    if (st.platformCoordinates.outbound) {
+      dMin = Math.min(dMin, distMeters([st.platformCoordinates.outbound.lat, st.platformCoordinates.outbound.lng], coord));
+    }
+  }
+  return dMin;
+}
+
+
 // 3点間の折れ曲がり角度（度: 0=直進, 180=180度Uターン/折り返し）
 function calculateTurnAngle(p1, p2, p3) {
   const v1 = [p2[0] - p1[0], (p2[1] - p1[1]) * Math.cos(p1[0] * Math.PI / 180)];
@@ -245,7 +260,7 @@ function auditAllLines(options = {}) {
 
       // (a) 駅スナップ距離チェック (> 100m は ERROR)
       if (fromSt && seg.coordinates.length > 0) {
-        const dFrom = distMeters([fromSt.lat, fromSt.lng], seg.coordinates[0]);
+        const dFrom = getMinStationDist(fromSt, seg.coordinates[0]);
         if (dFrom > 100) {
           lineErrors.push({
             type: 'SNAP_GAP_LARGE',
@@ -256,7 +271,7 @@ function auditAllLines(options = {}) {
         }
       }
       if (toSt && seg.coordinates.length > 0) {
-        const dTo = distMeters([toSt.lat, toSt.lng], seg.coordinates[seg.coordinates.length - 1]);
+        const dTo = getMinStationDist(toSt, seg.coordinates[seg.coordinates.length - 1]);
         if (dTo > 100) {
           lineErrors.push({
             type: 'SNAP_GAP_LARGE',
@@ -378,8 +393,8 @@ function auditAllLines(options = {}) {
         const seg = found.seg;
         const coords = found.isReverse ? [...seg.coordinates].reverse() : seg.coordinates;
         if (coords.length >= 2) {
-          const dStart = distMeters([fromSt.lat, fromSt.lng], coords[0]);
-          const dEnd = distMeters([toSt.lat, toSt.lng], coords[coords.length - 1]);
+          const dStart = getMinStationDist(fromSt, coords[0]);
+          const dEnd = getMinStationDist(toSt, coords[coords.length - 1]);
           if (dStart > 100) {
             lineErrors.push({
               type: 'STATION_MISMATCH',
