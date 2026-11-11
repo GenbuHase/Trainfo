@@ -687,6 +687,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -727,7 +728,9 @@
         "departureTime": "06:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_0643_37090",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-17_0631_10095",
@@ -1317,6 +1320,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "女川",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1356,7 +1360,9 @@
         "departureTime": "07:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_0708_14324",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-07_0720_10062",
@@ -1423,6 +1429,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -1463,7 +1470,9 @@
         "departureTime": "07:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_0736_37099",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-01_0728_11933",
@@ -2172,6 +2181,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -2212,7 +2222,9 @@
         "departureTime": "08:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_0833_37096",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-01_0828_11935",
@@ -2456,6 +2468,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2495,7 +2508,9 @@
         "departureTime": "09:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_0848_37110",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-22_0900_10001",
@@ -2838,6 +2853,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -2878,7 +2894,9 @@
         "departureTime": "09:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_0937_37102",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-01_0929_11937",
@@ -2962,6 +2980,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3001,7 +3020,9 @@
         "departureTime": "10:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_0933_37106",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-01_0948_7050",
@@ -3257,6 +3278,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-12",
+    "customOrigin": "仙台",
     "customDestination": "女川",
     "cars": 4,
     "isHoliday": false,
@@ -3333,7 +3355,9 @@
         "departureTime": "10:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_IS-01_1053_10292",
+    "throughLineId": "ishinomaki"
   },
   {
     "tripId": "WD_OUT_TSI-01_1018_37091",
@@ -3344,6 +3368,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -3384,7 +3409,9 @@
         "departureTime": "10:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_1035_37091",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-22_1039_10002",
@@ -3476,6 +3503,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3515,7 +3543,9 @@
         "departureTime": "10:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_1032_37107",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-12_1044_10077",
@@ -3835,6 +3865,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3874,7 +3905,9 @@
         "departureTime": "11:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_1123_37111",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-12_1135_7224",
@@ -4213,6 +4246,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -4253,7 +4287,9 @@
         "departureTime": "12:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_1233_37092",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-06_1233_37112",
@@ -4265,6 +4301,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4304,7 +4341,9 @@
         "departureTime": "12:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_1224_37112",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-12_1243_10079",
@@ -4733,6 +4772,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -4773,7 +4813,9 @@
         "departureTime": "13:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_1331_37093",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-12_1336_10081",
@@ -5172,6 +5214,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -5212,7 +5255,9 @@
         "departureTime": "14:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_1433_37094",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-06_1434_37113",
@@ -5224,6 +5269,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5263,7 +5309,9 @@
         "departureTime": "14:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_1424_37113",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-01_1434_7055",
@@ -5718,6 +5766,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -5758,7 +5807,9 @@
         "departureTime": "15:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_1534_37095",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-12_1533_10083",
@@ -6022,6 +6073,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6061,7 +6113,9 @@
         "departureTime": "15:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_1529_37114",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-22_1551_10006",
@@ -6240,6 +6294,7 @@
     "originStationId": "TSI-12",
     "destinationStationId": "TSI-01",
     "customOrigin": "女川",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6315,7 +6370,9 @@
         "departureTime": "16:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_IS-14_1417_10293",
+    "prevLineId": "ishinomaki"
   },
   {
     "tripId": "WD_INB_TSI-07_1609_10065",
@@ -6382,6 +6439,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -6422,7 +6480,9 @@
         "departureTime": "16:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_1628_37100",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-01_1624_7058",
@@ -6678,6 +6738,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6717,7 +6778,9 @@
         "departureTime": "16:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_1626_37115",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-22_1639_10007",
@@ -7152,6 +7215,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -7192,7 +7256,9 @@
         "departureTime": "17:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_1727_37101",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-03_1716_11986",
@@ -7448,6 +7514,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7487,7 +7554,9 @@
         "departureTime": "17:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_1725_37108",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-12_1735_7233",
@@ -8167,6 +8236,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -8207,7 +8277,9 @@
         "departureTime": "18:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_1834_37097",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-01_1830_7068",
@@ -8421,6 +8493,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -8460,7 +8533,9 @@
         "departureTime": "18:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_1825_37109",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-01_1836_11955",
@@ -9201,6 +9276,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": false,
@@ -9241,7 +9317,9 @@
         "departureTime": "19:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_1941_37098",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-01_1937_11957",
@@ -9289,6 +9367,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -9328,7 +9407,9 @@
         "departureTime": "19:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_1930_37104",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-01_1946_7064",
@@ -10012,6 +10093,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10051,7 +10133,9 @@
         "departureTime": "20:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_2025_37103",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-01_2038_7065",
@@ -10148,6 +10232,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "女川",
     "cars": 4,
     "isHoliday": false,
@@ -10188,7 +10273,9 @@
         "departureTime": "20:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_ST-01_2059_40525",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_INB_TSI-22_2106_10011",
@@ -10584,6 +10671,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -10623,7 +10711,9 @@
         "departureTime": "21:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_ST-02_2124_37105",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "WD_OUT_TSI-01_2137_7074",
@@ -11974,6 +12064,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -12014,7 +12105,9 @@
         "departureTime": "06:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_0643_37090",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-17_0631_10095",
@@ -12604,6 +12697,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "女川",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -12643,7 +12737,9 @@
         "departureTime": "07:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_0708_14324",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_0724_37099",
@@ -12654,6 +12750,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -12694,7 +12791,9 @@
         "departureTime": "07:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_0736_37099",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_0728_11933",
@@ -13403,6 +13502,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -13443,7 +13543,9 @@
         "departureTime": "08:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_0833_37096",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_0828_11935",
@@ -13687,6 +13789,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13726,7 +13829,9 @@
         "departureTime": "09:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_0848_37110",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-22_0900_10001",
@@ -14069,6 +14174,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -14109,7 +14215,9 @@
         "departureTime": "09:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_0937_37102",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_0929_11937",
@@ -14193,6 +14301,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-12",
+    "customOrigin": "仙台",
     "customDestination": "鳴子温泉",
     "cars": 4,
     "isHoliday": true,
@@ -14269,7 +14378,9 @@
         "departureTime": "10:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_RE-01_1025_10216",
+    "throughLineId": "rikuu_east"
   },
   {
     "tripId": "HD_INB_TSI-06_0942_37106",
@@ -14281,6 +14392,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -14320,7 +14432,9 @@
         "departureTime": "10:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_0933_37106",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_0948_7050",
@@ -14576,6 +14690,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-12",
+    "customOrigin": "仙台",
     "customDestination": "女川",
     "cars": 4,
     "isHoliday": true,
@@ -14652,7 +14767,9 @@
         "departureTime": "10:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_IS-01_1053_10292",
+    "throughLineId": "ishinomaki"
   },
   {
     "tripId": "HD_OUT_TSI-01_1018_37091",
@@ -14663,6 +14780,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -14703,7 +14821,9 @@
         "departureTime": "10:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_1035_37091",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-22_1039_10002",
@@ -14795,6 +14915,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -14834,7 +14955,9 @@
         "departureTime": "10:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_1032_37107",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-12_1044_10077",
@@ -15154,6 +15277,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15193,7 +15317,9 @@
         "departureTime": "11:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_1123_37111",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-12_1135_7224",
@@ -15532,6 +15658,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -15572,7 +15699,9 @@
         "departureTime": "12:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_1233_37092",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-06_1233_37112",
@@ -15584,6 +15713,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15623,7 +15753,9 @@
         "departureTime": "12:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_1224_37112",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-12_1243_10079",
@@ -16052,6 +16184,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -16092,7 +16225,9 @@
         "departureTime": "13:31:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_1331_37093",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-12_1336_10081",
@@ -16491,6 +16626,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -16531,7 +16667,9 @@
         "departureTime": "14:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_1433_37094",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-06_1434_37113",
@@ -16543,6 +16681,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -16582,7 +16721,9 @@
         "departureTime": "14:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_1424_37113",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_1434_7055",
@@ -17037,6 +17178,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -17077,7 +17219,9 @@
         "departureTime": "15:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_1534_37095",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-12_1533_10083",
@@ -17341,6 +17485,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -17380,7 +17525,9 @@
         "departureTime": "15:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_1529_37114",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-22_1551_10006",
@@ -17559,6 +17706,7 @@
     "originStationId": "TSI-12",
     "destinationStationId": "TSI-01",
     "customOrigin": "女川",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -17634,7 +17782,9 @@
         "departureTime": "16:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_IS-14_1417_10293",
+    "prevLineId": "ishinomaki"
   },
   {
     "tripId": "HD_INB_TSI-07_1609_10065",
@@ -17701,6 +17851,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -17741,7 +17892,9 @@
         "departureTime": "16:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_1628_37100",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_1624_7058",
@@ -17997,6 +18150,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -18036,7 +18190,9 @@
         "departureTime": "16:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_1626_37115",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-22_1639_10007",
@@ -18437,6 +18593,7 @@
     "originStationId": "TSI-12",
     "destinationStationId": "TSI-01",
     "customOrigin": "鳴子温泉",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -18512,7 +18669,9 @@
         "departureTime": "17:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_RE-15_1603_10290",
+    "prevLineId": "rikuu_east"
   },
   {
     "tripId": "HD_OUT_TSI-01_1709_11952",
@@ -18559,6 +18718,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -18599,7 +18759,9 @@
         "departureTime": "17:27:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_1727_37101",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-03_1716_11986",
@@ -18855,6 +19017,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -18894,7 +19057,9 @@
         "departureTime": "17:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_1725_37108",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-12_1735_7233",
@@ -19457,6 +19622,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -19497,7 +19663,9 @@
         "departureTime": "18:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_1834_37097",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_1830_7068",
@@ -19711,6 +19879,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -19750,7 +19919,9 @@
         "departureTime": "18:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_1825_37109",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_1836_11955",
@@ -20491,6 +20662,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "石巻",
     "cars": 4,
     "isHoliday": true,
@@ -20531,7 +20703,9 @@
         "departureTime": "19:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_1941_37098",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_1937_11957",
@@ -20579,6 +20753,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -20618,7 +20793,9 @@
         "departureTime": "19:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_1930_37104",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_1946_7064",
@@ -21302,6 +21479,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21341,7 +21519,9 @@
         "departureTime": "20:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_2025_37103",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_2038_7065",
@@ -21438,6 +21618,7 @@
     "direction": "outbound",
     "originStationId": "TSI-01",
     "destinationStationId": "TSI-06",
+    "customOrigin": "仙台",
     "customDestination": "女川",
     "cars": 4,
     "isHoliday": true,
@@ -21478,7 +21659,9 @@
         "departureTime": "20:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_ST-01_2059_40525",
+    "throughLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_INB_TSI-22_2106_10011",
@@ -21874,6 +22057,7 @@
     "originStationId": "TSI-06",
     "destinationStationId": "TSI-01",
     "customOrigin": "石巻",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -21913,7 +22097,9 @@
         "departureTime": "21:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_ST-02_2124_37105",
+    "prevLineId": "senseki_tohoku"
   },
   {
     "tripId": "HD_OUT_TSI-01_2141_7043",

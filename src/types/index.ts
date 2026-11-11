@@ -117,6 +117,11 @@ export type LineId =
   | 'tohoku_ichinoseki_morioka'
   | 'igr_iwate_ginga'
   | 'aoimori'
+  | 'senseki'
+  | 'senseki_tohoku'
+  | 'ishinomaki'
+  | 'rikuu_east'
+  | 'rikuu_west'
   | (string & {});
 
 
@@ -153,6 +158,7 @@ export type TrainTypeKey =
   | 'sl'                      // SL（パレオエクスプレス）
   | 'sl_taiju'                // SL大樹（東武鬼怒川線・日光線）
   | 'aizu_ozatoro'            // お座トロ展望列車（会津鉄道）
+  | 'substitution_bus'        // 代行バス（陸羽東線 鳴子温泉～新庄等）
   | 'hayabusa'                // はやぶさ（東北新幹線）
   | 'hayate'                  // はやて（東北新幹線）
   | 'yamabiko'                // やまびこ（東北新幹線）

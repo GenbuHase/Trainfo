@@ -115,6 +115,11 @@ import { tohokuRifuLine } from './lines/tohoku_rifu';
 import { tohokuIchinosekiMoriokaLine } from './lines/tohoku_ichinoseki_morioka';
 import { igrIwateGingaLine } from './lines/igr_iwate_ginga';
 import { aoimoriLine } from './lines/aoimori';
+import { sensekiLine } from './lines/senseki';
+import { sensekiTohokuLine } from './lines/senseki_tohoku';
+import { ishinomakiLine } from './lines/ishinomaki';
+import { rikuuEastLine } from './lines/rikuu_east';
+import { rikuuWestLine } from './lines/rikuu_west';
 
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
@@ -142,6 +147,11 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tohoku_sendai_ichinoseki: tohokuSendaiIchinosekiLine,
   tohoku_rifu: tohokuRifuLine,
   tohoku_ichinoseki_morioka: tohokuIchinosekiMoriokaLine,
+  senseki: sensekiLine,
+  senseki_tohoku: sensekiTohokuLine,
+  ishinomaki: ishinomakiLine,
+  rikuu_east: rikuuEastLine,
+  rikuu_west: rikuuWestLine,
   takasaki: takasakiLine,
   ito: itoLine,
   joban_rapid: jobanRapidLine,
@@ -335,6 +345,11 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
   tohoku_sendai_ichinoseki: 'tohoku',
   tohoku_rifu: 'tohoku',
   tohoku_ichinoseki_morioka: 'tohoku',
+  senseki: 'tohoku',
+  senseki_tohoku: 'tohoku',
+  ishinomaki: 'tohoku',
+  rikuu_east: 'tohoku',
+  rikuu_west: 'tohoku',
   takasaki: 'kanto',
   ito: 'tokai',
   joban_rapid: 'kanto',
