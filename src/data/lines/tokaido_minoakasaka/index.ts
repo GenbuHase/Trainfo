@@ -5,7 +5,7 @@ import { TOKAIDO_MINOAKASAKA_TRACK_SEGMENTS } from './trackGeometry';
 
 export const tokaidoMinoakasakaLine: LineDefinition = {
   id: 'tokaido_minoakasaka',
-  name: 'JR東海道線（美濃赤坂線）',
+  name: 'JR東海道本線（美濃赤坂線）',
   shortName: '美濃赤坂線',
   operator: 'JR東海',
   lineColor: '#ff7322',

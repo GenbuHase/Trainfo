@@ -5,8 +5,8 @@ import { TOKAIDO_ATAMI_TOYOHASHI_TRACK_SEGMENTS } from './trackGeometry';
 
 export const tokaidoAtamiToyohashiLine: LineDefinition = {
   id: 'tokaido_atami_toyohashi',
-  name: 'JR東海道線（熱海～豊橋）',
-  shortName: '東海道線（静岡地区）',
+  name: 'JR東海道本線（熱海～豊橋）',
+  shortName: '東海道本線（静岡地区）',
   operator: 'JR東海',
   lineColor: '#ff7322',
   accentColor: '#ff7e1c',

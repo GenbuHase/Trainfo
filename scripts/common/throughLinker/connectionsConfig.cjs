@@ -2009,7 +2009,7 @@ module.exports = {
       "maxTimeDiff": 300
     },
     {
-      "name": "東海道線 -> 東海道線（熱海～豊橋） (下り 熱海経由・沼津・静岡・豊橋方面直通)",
+      "name": "東海道線 -> 東海道本線（熱海～豊橋） (下り 熱海経由・沼津・静岡・豊橋方面直通)",
       "lineA": "tokaido",
       "lineB": "tokaido_atami_toyohashi",
       "stationA": "JT-21",
@@ -2019,7 +2019,7 @@ module.exports = {
       "maxTimeDiff": 360
     },
     {
-      "name": "東海道線（熱海～豊橋） -> 東海道線 (上り 熱海経由・東京・上野方面直通)",
+      "name": "東海道本線（熱海～豊橋） -> 東海道線 (上り 熱海経由・東京・上野方面直通)",
       "lineA": "tokaido_atami_toyohashi",
       "lineB": "tokaido",
       "stationA": "CA-00",
@@ -2029,7 +2029,7 @@ module.exports = {
       "maxTimeDiff": 360
     },
     {
-      "name": "御殿場線 -> 東海道線（熱海～豊橋） (下り 沼津駅経由 静岡方面直通)",
+      "name": "御殿場線 -> 東海道本線（熱海～豊橋） (下り 沼津駅経由 静岡方面直通)",
       "lineA": "gotemba",
       "lineB": "tokaido_atami_toyohashi",
       "stationA": "CB-18",
@@ -2039,7 +2039,7 @@ module.exports = {
       "maxTimeDiff": 300
     },
     {
-      "name": "東海道線（熱海～豊橋） -> 御殿場線 (上り 沼津駅経由 御殿場方面直通)",
+      "name": "東海道本線（熱海～豊橋） -> 御殿場線 (上り 沼津駅経由 御殿場方面直通)",
       "lineA": "tokaido_atami_toyohashi",
       "lineB": "gotemba",
       "stationA": "CA-03",
@@ -2049,7 +2049,7 @@ module.exports = {
       "maxTimeDiff": 300
     },
     {
-      "name": "東海道線（熱海～豊橋） -> 駿豆線 (下り 三島駅経由 修善寺方面直通 特急踊り子)",
+      "name": "東海道本線（熱海～豊橋） -> 駿豆線 (下り 三島駅経由 修善寺方面直通 特急踊り子)",
       "lineA": "tokaido_atami_toyohashi",
       "lineB": "izuhakone_sunzu",
       "stationA": "CA-02",
@@ -2059,7 +2059,7 @@ module.exports = {
       "maxTimeDiff": 300
     },
     {
-      "name": "駿豆線 -> 東海道線（熱海～豊橋） (上り 三島駅経由 熱海・東京方面直通 特急踊り子)",
+      "name": "駿豆線 -> 東海道本線（熱海～豊橋） (上り 三島駅経由 熱海・東京方面直通 特急踊り子)",
       "lineA": "izuhakone_sunzu",
       "lineB": "tokaido_atami_toyohashi",
       "stationA": "IS-01",
@@ -2069,7 +2069,7 @@ module.exports = {
       "maxTimeDiff": 300
     },
     {
-      "name": "東海道線（熱海～豊橋） -> 東海道線（豊橋～米原） (下り 豊橋経由 名古屋・大垣方面直通)",
+      "name": "東海道本線（熱海～豊橋） -> 東海道本線（豊橋～米原） (下り 豊橋経由 名古屋・大垣方面直通)",
       "lineA": "tokaido_atami_toyohashi",
       "lineB": "tokaido_toyohashi_maibara",
       "stationA": "CA-42",
@@ -2079,7 +2079,7 @@ module.exports = {
       "maxTimeDiff": 360
     },
     {
-      "name": "東海道線（豊橋～米原） -> 東海道線（熱海～豊橋） (上り 豊橋経由 浜松・静岡方面直通)",
+      "name": "東海道本線（豊橋～米原） -> 東海道本線（熱海～豊橋） (上り 豊橋経由 浜松・静岡方面直通)",
       "lineA": "tokaido_toyohashi_maibara",
       "lineB": "tokaido_atami_toyohashi",
       "stationA": "CA-42",
@@ -2089,7 +2089,7 @@ module.exports = {
       "maxTimeDiff": 360
     },
     {
-      "name": "東海道線（豊橋～米原） -> 美濃赤坂線 (下り 大垣経由 美濃赤坂方面直通)",
+      "name": "東海道本線（豊橋～米原） -> 美濃赤坂線 (下り 大垣経由 美濃赤坂方面直通)",
       "lineA": "tokaido_toyohashi_maibara",
       "lineB": "tokaido_minoakasaka",
       "stationA": "CA-77",
@@ -2099,7 +2099,7 @@ module.exports = {
       "maxTimeDiff": 300
     },
     {
-      "name": "美濃赤坂線 -> 東海道線（豊橋～米原） (上り 大垣経由 名古屋方面直通)",
+      "name": "美濃赤坂線 -> 東海道本線（豊橋～米原） (上り 大垣経由 名古屋方面直通)",
       "lineA": "tokaido_minoakasaka",
       "lineB": "tokaido_toyohashi_maibara",
       "stationA": "MA-01",
@@ -2109,7 +2109,7 @@ module.exports = {
       "maxTimeDiff": 300
     },
     {
-      "name": "東海道線（豊橋～米原） -> JR琵琶湖線 (下り 米原経由 京都・大阪方面直通)",
+      "name": "東海道本線（豊橋～米原） -> JR琵琶湖線 (下り 米原経由 京都・大阪方面直通)",
       "lineA": "tokaido_toyohashi_maibara",
       "lineB": "jr_biwako",
       "stationA": "CA-83",
@@ -2119,7 +2119,7 @@ module.exports = {
       "maxTimeDiff": 360
     },
     {
-      "name": "JR琵琶湖線 -> 東海道線（豊橋～米原） (上り 米原経由 大垣・名古屋方面直通)",
+      "name": "JR琵琶湖線 -> 東海道本線（豊橋～米原） (上り 米原経由 大垣・名古屋方面直通)",
       "lineA": "jr_biwako",
       "lineB": "tokaido_toyohashi_maibara",
       "stationA": "JR-A12",

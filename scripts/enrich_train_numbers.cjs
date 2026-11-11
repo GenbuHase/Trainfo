@@ -2224,7 +2224,7 @@ if (target === 'joetsu' || target === 'jr' || target === 'all') {
   enrichGenericLine('joetsu', 'JR上越線');
 }
 if (target === 'tokaido_shizuoka' || target === 'jr' || target === 'all') {
-  enrichGenericLine('tokaido_shizuoka', 'JR東海道線（静岡地区）');
+  enrichGenericLine('tokaido_shizuoka', 'JR東海道本線（静岡地区）');
 }
 if (target === 'shinetsu_naoetsu_niigata' || target === 'jr' || target === 'all') {
   enrichGenericLine('shinetsu_naoetsu_niigata', 'JR信越本線（直江津～新潟）');

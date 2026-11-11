@@ -88,7 +88,7 @@ function buildTokaidoTokyoAtamiTrack() {
   console.log(`  Saved ${segments.length} segments to ${outPath}`);
 }
 
-// 2. JR東海 東海道線（熱海〜沼津）
+// 2. JR東海 東海道本線（熱海〜沼津）
 function buildTokaidoShizuokaTrack() {
   console.log('\n=== 2. Building Tokaido Shizuoka Track Geometry (Atami -> Numazu) ===');
   const stations = [

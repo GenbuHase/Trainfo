@@ -747,7 +747,7 @@ export const TOKAIDO_STATIONS: Station[] = [
     "transfers": [
       "JR東海道線",
       "JR伊東線",
-      "JR東海道線（静岡地区）",
+      "JR東海道本線（熱海～豊橋）",
       "東海道新幹線"
     ],
     "address": "静岡県熱海市田原本町",

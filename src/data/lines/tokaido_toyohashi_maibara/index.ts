@@ -5,8 +5,8 @@ import { TOKAIDO_TOYOHASHI_MAIBARA_TRACK_SEGMENTS } from './trackGeometry';
 
 export const tokaidoToyohashiMaibaraLine: LineDefinition = {
   id: 'tokaido_toyohashi_maibara',
-  name: 'JR東海道線（豊橋～米原）',
-  shortName: '東海道線（名古屋地区）',
+  name: 'JR東海道本線（豊橋～米原）',
+  shortName: '東海道本線（名古屋地区）',
   operator: 'JR東海',
   lineColor: '#ff7322',
   accentColor: '#0072bc',
