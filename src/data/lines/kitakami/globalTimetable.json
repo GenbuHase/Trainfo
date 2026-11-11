@@ -1,0 +1,3370 @@
+[
+  {
+    "tripId": "WD_INB_KT-10_0542_14741",
+    "lineId": "kitakami",
+    "trainId": "14741",
+    "trainNumber": "722D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "05:42:00",
+        "departureTime": "05:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "05:49:00",
+        "departureTime": "05:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "05:58:00",
+        "departureTime": "05:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "06:02:00",
+        "departureTime": "06:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "06:07:00",
+        "departureTime": "06:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "06:10:00",
+        "departureTime": "06:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "06:14:00",
+        "departureTime": "06:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "06:23:00",
+        "departureTime": "06:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "06:27:00",
+        "departureTime": "06:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "06:33:00",
+        "departureTime": "06:33:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KT-15_0550_14735",
+    "lineId": "kitakami",
+    "trainId": "14735",
+    "trainNumber": "14735",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "KT-15",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "05:50:00",
+        "departureTime": "05:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "06:05:00",
+        "departureTime": "06:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "06:12:00",
+        "departureTime": "06:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "06:22:00",
+        "departureTime": "06:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "06:32:00",
+        "departureTime": "06:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "06:42:00",
+        "departureTime": "06:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-10_0600_14730",
+    "lineId": "kitakami",
+    "trainId": "14730",
+    "trainNumber": "14730",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-15",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "06:00:00",
+        "departureTime": "06:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "06:10:00",
+        "departureTime": "06:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "06:20:00",
+        "departureTime": "06:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "06:27:00",
+        "departureTime": "06:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "06:52:00",
+        "departureTime": "06:52:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-01_0601_14721",
+    "lineId": "kitakami",
+    "trainId": "14721",
+    "trainNumber": "723D",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "06:01:00",
+        "departureTime": "06:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "06:04:00",
+        "departureTime": "06:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "06:07:00",
+        "departureTime": "06:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "06:11:00",
+        "departureTime": "06:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "06:19:00",
+        "departureTime": "06:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "06:22:00",
+        "departureTime": "06:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "06:27:00",
+        "departureTime": "06:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "06:31:00",
+        "departureTime": "06:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "06:40:00",
+        "departureTime": "06:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "06:48:00",
+        "departureTime": "06:48:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-01_0646_14720",
+    "lineId": "kitakami",
+    "trainId": "14720",
+    "trainNumber": "725D",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-04",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "06:46:00",
+        "departureTime": "06:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "06:49:00",
+        "departureTime": "06:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "06:52:00",
+        "departureTime": "06:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "06:56:00",
+        "departureTime": "06:56:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KT-04_0705_14739",
+    "lineId": "kitakami",
+    "trainId": "14739",
+    "trainNumber": "724D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-04",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "07:05:00",
+        "departureTime": "07:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "07:08:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "07:13:00",
+        "departureTime": "07:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "07:18:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KT-10_0711_14742",
+    "lineId": "kitakami",
+    "trainId": "14742",
+    "trainNumber": "726D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "07:11:00",
+        "departureTime": "07:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "07:18:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "07:27:00",
+        "departureTime": "07:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "07:31:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "07:36:00",
+        "departureTime": "07:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "07:39:00",
+        "departureTime": "07:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "07:43:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "07:50:00",
+        "departureTime": "07:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "07:54:00",
+        "departureTime": "07:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "07:59:00",
+        "departureTime": "07:59:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-10_0720_14731",
+    "lineId": "kitakami",
+    "trainId": "14731",
+    "trainNumber": "14731",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-15",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "07:20:00",
+        "departureTime": "07:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "07:30:00",
+        "departureTime": "07:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "07:47:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "07:57:00",
+        "departureTime": "07:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "08:12:00",
+        "departureTime": "08:12:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-01_0735_14722",
+    "lineId": "kitakami",
+    "trainId": "14722",
+    "trainNumber": "727D",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "07:35:00",
+        "departureTime": "07:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "07:38:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "07:42:00",
+        "departureTime": "07:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "07:46:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "07:51:00",
+        "departureTime": "07:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "07:54:00",
+        "departureTime": "07:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "07:59:00",
+        "departureTime": "07:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "08:03:00",
+        "departureTime": "08:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "08:12:00",
+        "departureTime": "08:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "08:20:00",
+        "departureTime": "08:20:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KT-10_0830_14743",
+    "lineId": "kitakami",
+    "trainId": "14743",
+    "trainNumber": "728D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "08:30:00",
+        "departureTime": "08:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "08:38:00",
+        "departureTime": "08:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "08:47:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "08:51:00",
+        "departureTime": "08:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "08:55:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "08:59:00",
+        "departureTime": "08:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "09:03:00",
+        "departureTime": "09:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "09:07:00",
+        "departureTime": "09:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "09:10:00",
+        "departureTime": "09:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "09:15:00",
+        "departureTime": "09:15:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KT-15_0950_14736",
+    "lineId": "kitakami",
+    "trainId": "14736",
+    "trainNumber": "14736",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "KT-15",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "10:05:00",
+        "departureTime": "10:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "10:12:00",
+        "departureTime": "10:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "10:22:00",
+        "departureTime": "10:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "10:32:00",
+        "departureTime": "10:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "10:42:00",
+        "departureTime": "10:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-01_0953_14723",
+    "lineId": "kitakami",
+    "trainId": "14723",
+    "trainNumber": "3729D",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "09:53:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "09:56:00",
+        "departureTime": "09:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "09:59:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "10:08:00",
+        "departureTime": "10:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "10:20:00",
+        "departureTime": "10:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "10:29:00",
+        "departureTime": "10:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "10:37:00",
+        "departureTime": "10:37:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-10_1110_14732",
+    "lineId": "kitakami",
+    "trainId": "14732",
+    "trainNumber": "14732",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-15",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "11:10:00",
+        "departureTime": "11:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "11:20:00",
+        "departureTime": "11:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "11:37:00",
+        "departureTime": "11:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "11:47:00",
+        "departureTime": "11:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "12:02:00",
+        "departureTime": "12:02:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KT-10_1120_14744",
+    "lineId": "kitakami",
+    "trainId": "14744",
+    "trainNumber": "3730D",
+    "trainType": "rapid",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "11:20:00",
+        "departureTime": "11:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "11:27:00",
+        "departureTime": "11:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "11:36:00",
+        "departureTime": "11:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "11:40:00",
+        "departureTime": "11:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "11:45:00",
+        "departureTime": "11:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "11:48:00",
+        "departureTime": "11:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "11:52:00",
+        "departureTime": "11:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "11:56:00",
+        "departureTime": "11:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "12:00:00",
+        "departureTime": "12:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "12:04:00",
+        "departureTime": "12:04:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-01_1342_14724",
+    "lineId": "kitakami",
+    "trainId": "14724",
+    "trainNumber": "3731D",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "13:42:00",
+        "departureTime": "13:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "13:45:00",
+        "departureTime": "13:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "13:48:00",
+        "departureTime": "13:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "13:52:00",
+        "departureTime": "13:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "13:57:00",
+        "departureTime": "13:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "14:00:00",
+        "departureTime": "14:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "14:05:00",
+        "departureTime": "14:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "14:09:00",
+        "departureTime": "14:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "14:18:00",
+        "departureTime": "14:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "14:26:00",
+        "departureTime": "14:26:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KT-10_1452_14745",
+    "lineId": "kitakami",
+    "trainId": "14745",
+    "trainNumber": "732D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "14:52:00",
+        "departureTime": "14:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "14:59:00",
+        "departureTime": "14:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "15:08:00",
+        "departureTime": "15:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "15:12:00",
+        "departureTime": "15:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "15:17:00",
+        "departureTime": "15:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "15:20:00",
+        "departureTime": "15:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "15:24:00",
+        "departureTime": "15:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "15:28:00",
+        "departureTime": "15:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "15:32:00",
+        "departureTime": "15:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KT-15_1630_14737",
+    "lineId": "kitakami",
+    "trainId": "14737",
+    "trainNumber": "14737",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "KT-15",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "16:30:00",
+        "departureTime": "16:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "16:52:00",
+        "departureTime": "16:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "17:02:00",
+        "departureTime": "17:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "17:12:00",
+        "departureTime": "17:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "17:22:00",
+        "departureTime": "17:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-01_1648_14725",
+    "lineId": "kitakami",
+    "trainId": "14725",
+    "trainNumber": "733D",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "16:51:00",
+        "departureTime": "16:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "16:54:00",
+        "departureTime": "16:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "16:58:00",
+        "departureTime": "16:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "17:03:00",
+        "departureTime": "17:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "17:11:00",
+        "departureTime": "17:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "17:24:00",
+        "departureTime": "17:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "17:32:00",
+        "departureTime": "17:32:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-10_1750_14733",
+    "lineId": "kitakami",
+    "trainId": "14733",
+    "trainNumber": "14733",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-15",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "17:50:00",
+        "departureTime": "17:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "18:00:00",
+        "departureTime": "18:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "18:10:00",
+        "departureTime": "18:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "18:17:00",
+        "departureTime": "18:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "18:42:00",
+        "departureTime": "18:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KT-10_1755_14746",
+    "lineId": "kitakami",
+    "trainId": "14746",
+    "trainNumber": "734D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "17:55:00",
+        "departureTime": "17:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "18:15:00",
+        "departureTime": "18:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "18:20:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "18:23:00",
+        "departureTime": "18:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "18:35:00",
+        "departureTime": "18:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "18:39:00",
+        "departureTime": "18:39:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-01_1813_14726",
+    "lineId": "kitakami",
+    "trainId": "14726",
+    "trainNumber": "735D",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "18:13:00",
+        "departureTime": "18:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "18:20:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "18:24:00",
+        "departureTime": "18:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "18:32:00",
+        "departureTime": "18:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "18:35:00",
+        "departureTime": "18:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "18:44:00",
+        "departureTime": "18:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "18:53:00",
+        "departureTime": "18:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "19:01:00",
+        "departureTime": "19:01:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KT-10_1910_14747",
+    "lineId": "kitakami",
+    "trainId": "14747",
+    "trainNumber": "736D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "19:17:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "19:26:00",
+        "departureTime": "19:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "19:30:00",
+        "departureTime": "19:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "19:38:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "19:43:00",
+        "departureTime": "19:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "19:46:00",
+        "departureTime": "19:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "19:50:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "19:55:00",
+        "departureTime": "19:55:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-01_1929_14727",
+    "lineId": "kitakami",
+    "trainId": "14727",
+    "trainNumber": "737D",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "19:29:00",
+        "departureTime": "19:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "19:32:00",
+        "departureTime": "19:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "19:40:00",
+        "departureTime": "19:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "19:47:00",
+        "departureTime": "19:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "19:50:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "19:55:00",
+        "departureTime": "19:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "19:59:00",
+        "departureTime": "20:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "20:08:00",
+        "departureTime": "20:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "20:16:00",
+        "departureTime": "20:16:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KT-15_1930_14738",
+    "lineId": "kitakami",
+    "trainId": "14738",
+    "trainNumber": "14738",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "KT-15",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "19:30:00",
+        "departureTime": "19:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "19:45:00",
+        "departureTime": "19:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "20:02:00",
+        "departureTime": "20:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "20:22:00",
+        "departureTime": "20:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-10_2040_14734",
+    "lineId": "kitakami",
+    "trainId": "14734",
+    "trainNumber": "14734",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-15",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "20:50:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "21:00:00",
+        "departureTime": "21:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "21:07:00",
+        "departureTime": "21:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "21:17:00",
+        "departureTime": "21:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "21:32:00",
+        "departureTime": "21:32:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_KT-10_2042_14748",
+    "lineId": "kitakami",
+    "trainId": "14748",
+    "trainNumber": "738D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "20:58:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "21:02:00",
+        "departureTime": "21:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "21:07:00",
+        "departureTime": "21:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "21:10:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "21:14:00",
+        "departureTime": "21:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "21:18:00",
+        "departureTime": "21:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "21:22:00",
+        "departureTime": "21:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "21:25:00",
+        "departureTime": "21:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_KT-01_2100_14728",
+    "lineId": "kitakami",
+    "trainId": "14728",
+    "trainNumber": "3739D",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "21:00:00",
+        "departureTime": "21:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "21:03:00",
+        "departureTime": "21:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "21:07:00",
+        "departureTime": "21:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "21:11:00",
+        "departureTime": "21:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "21:19:00",
+        "departureTime": "21:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "21:22:00",
+        "departureTime": "21:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "21:27:00",
+        "departureTime": "21:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "21:31:00",
+        "departureTime": "21:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "21:40:00",
+        "departureTime": "21:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "21:48:00",
+        "departureTime": "21:48:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-10_0542_14741",
+    "lineId": "kitakami",
+    "trainId": "14741",
+    "trainNumber": "722D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "05:42:00",
+        "departureTime": "05:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "05:49:00",
+        "departureTime": "05:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "05:58:00",
+        "departureTime": "05:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "06:02:00",
+        "departureTime": "06:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "06:07:00",
+        "departureTime": "06:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "06:10:00",
+        "departureTime": "06:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "06:14:00",
+        "departureTime": "06:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "06:23:00",
+        "departureTime": "06:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "06:27:00",
+        "departureTime": "06:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "06:33:00",
+        "departureTime": "06:33:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-15_0550_14735",
+    "lineId": "kitakami",
+    "trainId": "14735",
+    "trainNumber": "14735",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "KT-15",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "05:50:00",
+        "departureTime": "05:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "06:05:00",
+        "departureTime": "06:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "06:12:00",
+        "departureTime": "06:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "06:22:00",
+        "departureTime": "06:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "06:32:00",
+        "departureTime": "06:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "06:42:00",
+        "departureTime": "06:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KT-01_0601_14721",
+    "lineId": "kitakami",
+    "trainId": "14721",
+    "trainNumber": "723D",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "06:01:00",
+        "departureTime": "06:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "06:04:00",
+        "departureTime": "06:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "06:07:00",
+        "departureTime": "06:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "06:11:00",
+        "departureTime": "06:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "06:19:00",
+        "departureTime": "06:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "06:22:00",
+        "departureTime": "06:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "06:27:00",
+        "departureTime": "06:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "06:31:00",
+        "departureTime": "06:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "06:40:00",
+        "departureTime": "06:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "06:48:00",
+        "departureTime": "06:48:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-10_0711_14742",
+    "lineId": "kitakami",
+    "trainId": "14742",
+    "trainNumber": "726D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "07:11:00",
+        "departureTime": "07:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "07:18:00",
+        "departureTime": "07:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "07:27:00",
+        "departureTime": "07:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "07:31:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "07:36:00",
+        "departureTime": "07:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "07:39:00",
+        "departureTime": "07:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "07:43:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "07:50:00",
+        "departureTime": "07:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "07:54:00",
+        "departureTime": "07:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "07:59:00",
+        "departureTime": "07:59:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KT-10_0720_14731",
+    "lineId": "kitakami",
+    "trainId": "14731",
+    "trainNumber": "14731",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-15",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "07:20:00",
+        "departureTime": "07:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "07:30:00",
+        "departureTime": "07:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "07:47:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "07:57:00",
+        "departureTime": "07:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "08:12:00",
+        "departureTime": "08:12:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KT-01_0735_14722",
+    "lineId": "kitakami",
+    "trainId": "14722",
+    "trainNumber": "727D",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "07:35:00",
+        "departureTime": "07:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "07:38:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "07:42:00",
+        "departureTime": "07:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "07:46:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "07:51:00",
+        "departureTime": "07:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "07:54:00",
+        "departureTime": "07:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "07:59:00",
+        "departureTime": "07:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "08:03:00",
+        "departureTime": "08:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "08:12:00",
+        "departureTime": "08:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "08:20:00",
+        "departureTime": "08:20:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-10_0830_14743",
+    "lineId": "kitakami",
+    "trainId": "14743",
+    "trainNumber": "728D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "08:30:00",
+        "departureTime": "08:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "08:38:00",
+        "departureTime": "08:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "08:47:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "08:51:00",
+        "departureTime": "08:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "08:55:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "08:59:00",
+        "departureTime": "08:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "09:03:00",
+        "departureTime": "09:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "09:07:00",
+        "departureTime": "09:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "09:10:00",
+        "departureTime": "09:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "09:15:00",
+        "departureTime": "09:15:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-15_0950_14736",
+    "lineId": "kitakami",
+    "trainId": "14736",
+    "trainNumber": "14736",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "KT-15",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "10:05:00",
+        "departureTime": "10:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "10:12:00",
+        "departureTime": "10:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "10:22:00",
+        "departureTime": "10:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "10:32:00",
+        "departureTime": "10:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "10:42:00",
+        "departureTime": "10:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KT-01_0953_14723",
+    "lineId": "kitakami",
+    "trainId": "14723",
+    "trainNumber": "3729D",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "09:53:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "09:56:00",
+        "departureTime": "09:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "09:59:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "10:08:00",
+        "departureTime": "10:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "10:11:00",
+        "departureTime": "10:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "10:20:00",
+        "departureTime": "10:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "10:29:00",
+        "departureTime": "10:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "10:37:00",
+        "departureTime": "10:37:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KT-10_1110_14732",
+    "lineId": "kitakami",
+    "trainId": "14732",
+    "trainNumber": "14732",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-15",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "11:10:00",
+        "departureTime": "11:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "11:20:00",
+        "departureTime": "11:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "11:37:00",
+        "departureTime": "11:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "11:47:00",
+        "departureTime": "11:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "12:02:00",
+        "departureTime": "12:02:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-10_1120_14744",
+    "lineId": "kitakami",
+    "trainId": "14744",
+    "trainNumber": "3730D",
+    "trainType": "rapid",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "11:20:00",
+        "departureTime": "11:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "11:27:00",
+        "departureTime": "11:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "11:36:00",
+        "departureTime": "11:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "11:40:00",
+        "departureTime": "11:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "11:45:00",
+        "departureTime": "11:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "11:48:00",
+        "departureTime": "11:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "11:52:00",
+        "departureTime": "11:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "11:56:00",
+        "departureTime": "11:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "12:00:00",
+        "departureTime": "12:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "12:04:00",
+        "departureTime": "12:04:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KT-01_1342_14724",
+    "lineId": "kitakami",
+    "trainId": "14724",
+    "trainNumber": "3731D",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "13:42:00",
+        "departureTime": "13:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "13:45:00",
+        "departureTime": "13:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "13:48:00",
+        "departureTime": "13:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "13:52:00",
+        "departureTime": "13:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "13:57:00",
+        "departureTime": "13:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "14:00:00",
+        "departureTime": "14:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "14:05:00",
+        "departureTime": "14:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "14:09:00",
+        "departureTime": "14:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "14:18:00",
+        "departureTime": "14:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "14:26:00",
+        "departureTime": "14:26:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-10_1452_14745",
+    "lineId": "kitakami",
+    "trainId": "14745",
+    "trainNumber": "732D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "14:52:00",
+        "departureTime": "14:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "14:59:00",
+        "departureTime": "14:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "15:08:00",
+        "departureTime": "15:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "15:12:00",
+        "departureTime": "15:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "15:17:00",
+        "departureTime": "15:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "15:20:00",
+        "departureTime": "15:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "15:24:00",
+        "departureTime": "15:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "15:28:00",
+        "departureTime": "15:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "15:32:00",
+        "departureTime": "15:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-15_1630_14737",
+    "lineId": "kitakami",
+    "trainId": "14737",
+    "trainNumber": "14737",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "KT-15",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "16:30:00",
+        "departureTime": "16:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "16:52:00",
+        "departureTime": "16:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "17:02:00",
+        "departureTime": "17:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "17:12:00",
+        "departureTime": "17:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "17:22:00",
+        "departureTime": "17:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KT-01_1648_14725",
+    "lineId": "kitakami",
+    "trainId": "14725",
+    "trainNumber": "733D",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "16:51:00",
+        "departureTime": "16:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "16:54:00",
+        "departureTime": "16:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "16:58:00",
+        "departureTime": "16:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "17:03:00",
+        "departureTime": "17:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "17:11:00",
+        "departureTime": "17:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "17:24:00",
+        "departureTime": "17:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "17:32:00",
+        "departureTime": "17:32:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KT-10_1750_14733",
+    "lineId": "kitakami",
+    "trainId": "14733",
+    "trainNumber": "14733",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-15",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "17:50:00",
+        "departureTime": "17:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "18:00:00",
+        "departureTime": "18:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "18:10:00",
+        "departureTime": "18:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "18:17:00",
+        "departureTime": "18:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "18:42:00",
+        "departureTime": "18:42:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-10_1755_14746",
+    "lineId": "kitakami",
+    "trainId": "14746",
+    "trainNumber": "734D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "17:55:00",
+        "departureTime": "17:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "18:15:00",
+        "departureTime": "18:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "18:20:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "18:23:00",
+        "departureTime": "18:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "18:27:00",
+        "departureTime": "18:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "18:35:00",
+        "departureTime": "18:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "18:39:00",
+        "departureTime": "18:39:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KT-01_1813_14726",
+    "lineId": "kitakami",
+    "trainId": "14726",
+    "trainNumber": "735D",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "18:13:00",
+        "departureTime": "18:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "18:20:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "18:24:00",
+        "departureTime": "18:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "18:32:00",
+        "departureTime": "18:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "18:35:00",
+        "departureTime": "18:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "18:44:00",
+        "departureTime": "18:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "18:53:00",
+        "departureTime": "18:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "19:01:00",
+        "departureTime": "19:01:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-10_1910_14747",
+    "lineId": "kitakami",
+    "trainId": "14747",
+    "trainNumber": "736D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "19:17:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "19:26:00",
+        "departureTime": "19:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "19:30:00",
+        "departureTime": "19:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "19:38:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "19:43:00",
+        "departureTime": "19:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "19:46:00",
+        "departureTime": "19:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "19:50:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "19:55:00",
+        "departureTime": "19:55:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KT-01_1929_14727",
+    "lineId": "kitakami",
+    "trainId": "14727",
+    "trainNumber": "737D",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "19:29:00",
+        "departureTime": "19:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "19:32:00",
+        "departureTime": "19:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "19:40:00",
+        "departureTime": "19:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "19:47:00",
+        "departureTime": "19:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "19:50:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "19:55:00",
+        "departureTime": "19:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "19:59:00",
+        "departureTime": "20:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "20:08:00",
+        "departureTime": "20:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "20:16:00",
+        "departureTime": "20:16:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-15_1930_14738",
+    "lineId": "kitakami",
+    "trainId": "14738",
+    "trainNumber": "14738",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "KT-15",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "19:30:00",
+        "departureTime": "19:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "19:45:00",
+        "departureTime": "19:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "19:52:00",
+        "departureTime": "19:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "20:02:00",
+        "departureTime": "20:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "20:22:00",
+        "departureTime": "20:22:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KT-10_2040_14734",
+    "lineId": "kitakami",
+    "trainId": "14734",
+    "trainNumber": "14734",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-15",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-11",
+        "arrivalTime": "20:50:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-12",
+        "arrivalTime": "21:00:00",
+        "departureTime": "21:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-13",
+        "arrivalTime": "21:07:00",
+        "departureTime": "21:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-14",
+        "arrivalTime": "21:17:00",
+        "departureTime": "21:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-15",
+        "arrivalTime": "21:32:00",
+        "departureTime": "21:32:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-10_2042_14748",
+    "lineId": "kitakami",
+    "trainId": "14748",
+    "trainNumber": "738D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "20:42:00",
+        "departureTime": "20:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "20:58:00",
+        "departureTime": "20:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "21:02:00",
+        "departureTime": "21:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "21:07:00",
+        "departureTime": "21:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "21:10:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "21:14:00",
+        "departureTime": "21:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "21:18:00",
+        "departureTime": "21:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "21:22:00",
+        "departureTime": "21:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "21:25:00",
+        "departureTime": "21:25:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_KT-10_2046_14749",
+    "lineId": "kitakami",
+    "trainId": "14749",
+    "trainNumber": "738D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "KT-10",
+    "destinationStationId": "KT-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "20:46:00",
+        "departureTime": "20:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "20:53:00",
+        "departureTime": "20:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "21:02:00",
+        "departureTime": "21:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "21:06:00",
+        "departureTime": "21:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "21:11:00",
+        "departureTime": "21:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "21:14:00",
+        "departureTime": "21:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "21:18:00",
+        "departureTime": "21:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "21:22:00",
+        "departureTime": "21:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "21:26:00",
+        "departureTime": "21:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "21:30:00",
+        "departureTime": "21:30:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_KT-01_2100_14728",
+    "lineId": "kitakami",
+    "trainId": "14728",
+    "trainNumber": "3739D",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "KT-01",
+    "destinationStationId": "KT-10",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "KT-01",
+        "arrivalTime": "21:00:00",
+        "departureTime": "21:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-02",
+        "arrivalTime": "21:03:00",
+        "departureTime": "21:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-03",
+        "arrivalTime": "21:07:00",
+        "departureTime": "21:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-04",
+        "arrivalTime": "21:11:00",
+        "departureTime": "21:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-05",
+        "arrivalTime": "21:19:00",
+        "departureTime": "21:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-06",
+        "arrivalTime": "21:22:00",
+        "departureTime": "21:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-07",
+        "arrivalTime": "21:27:00",
+        "departureTime": "21:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-08",
+        "arrivalTime": "21:31:00",
+        "departureTime": "21:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-09",
+        "arrivalTime": "21:40:00",
+        "departureTime": "21:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "KT-10",
+        "arrivalTime": "21:48:00",
+        "departureTime": "21:48:00",
+        "isPassing": false
+      }
+    ]
+  }
+]

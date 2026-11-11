@@ -3,9 +3,9 @@ import type { TrackSegment } from '../../../types';
 export const SENSEKI_TOHOKU_TRACK_SEGMENTS: TrackSegment[] = [
   {
     "id": "senseki_tohoku-seg-1",
-    "segmentId": "ST-01_ST-02",
-    "fromStationId": "ST-01",
-    "toStationId": "ST-02",
+    "segmentId": "SST-01_ST-02",
+    "fromStationId": "SST-01",
+    "toStationId": "SST-02",
     "fromName": "塩釜",
     "toName": "高城町",
     "coordinates": [

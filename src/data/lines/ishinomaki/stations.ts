@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const ISHINOMAKI_STATIONS: Station[] = [
   {
-    "id": "IS-01",
+    "id": "ISM-01",
     "lineId": "ishinomaki",
     "number": 1,
     "name": "小牛田",
@@ -33,7 +33,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-02",
+    "id": "ISM-02",
     "lineId": "ishinomaki",
     "number": 2,
     "name": "上涌谷",
@@ -60,7 +60,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-03",
+    "id": "ISM-03",
     "lineId": "ishinomaki",
     "number": 3,
     "name": "涌谷",
@@ -88,7 +88,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-04",
+    "id": "ISM-04",
     "lineId": "ishinomaki",
     "number": 4,
     "name": "前谷地",
@@ -118,7 +118,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-05",
+    "id": "ISM-05",
     "lineId": "ishinomaki",
     "number": 5,
     "name": "佳景山",
@@ -145,7 +145,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-06",
+    "id": "ISM-06",
     "lineId": "ishinomaki",
     "number": 6,
     "name": "鹿又",
@@ -172,7 +172,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-07",
+    "id": "ISM-07",
     "lineId": "ishinomaki",
     "number": 7,
     "name": "曽波神",
@@ -199,7 +199,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-08",
+    "id": "ISM-08",
     "lineId": "ishinomaki",
     "number": 8,
     "name": "石巻",
@@ -230,7 +230,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-09",
+    "id": "ISM-09",
     "lineId": "ishinomaki",
     "number": 9,
     "name": "陸前稲井",
@@ -258,7 +258,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-10",
+    "id": "ISM-10",
     "lineId": "ishinomaki",
     "number": 10,
     "name": "渡波",
@@ -286,7 +286,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-11",
+    "id": "ISM-11",
     "lineId": "ishinomaki",
     "number": 11,
     "name": "万石浦",
@@ -314,7 +314,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-12",
+    "id": "ISM-12",
     "lineId": "ishinomaki",
     "number": 12,
     "name": "沢田",
@@ -342,7 +342,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-13",
+    "id": "ISM-13",
     "lineId": "ishinomaki",
     "number": 13,
     "name": "浦宿",
@@ -370,7 +370,7 @@ export const ISHINOMAKI_STATIONS: Station[] = [
     }
   },
   {
-    "id": "IS-14",
+    "id": "ISM-14",
     "lineId": "ishinomaki",
     "number": 14,
     "name": "女川",

@@ -1,0 +1,3202 @@
+[
+  {
+    "tripId": "WD_INB_TSG-11_0533_33671",
+    "lineId": "tsugaru",
+    "trainId": "33671",
+    "trainNumber": "322M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "05:33:00",
+        "departureTime": "05:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "05:37:00",
+        "departureTime": "05:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "05:40:00",
+        "departureTime": "05:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "05:43:00",
+        "departureTime": "05:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "05:46:00",
+        "departureTime": "05:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "05:48:00",
+        "departureTime": "05:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "05:51:00",
+        "departureTime": "05:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "05:53:00",
+        "departureTime": "05:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "05:56:00",
+        "departureTime": "05:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "06:00:00",
+        "departureTime": "06:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "06:08:00",
+        "departureTime": "06:08:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-01_0617_33657",
+    "lineId": "tsugaru",
+    "trainId": "33657",
+    "trainNumber": "325M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "06:17:00",
+        "departureTime": "06:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "06:24:00",
+        "departureTime": "06:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "06:28:00",
+        "departureTime": "06:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "06:31:00",
+        "departureTime": "06:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "06:33:00",
+        "departureTime": "06:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "06:36:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "06:39:00",
+        "departureTime": "06:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "06:42:00",
+        "departureTime": "06:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "06:44:00",
+        "departureTime": "06:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "06:47:00",
+        "departureTime": "06:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "06:52:00",
+        "departureTime": "06:52:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TSG-15_0621_33679",
+    "lineId": "tsugaru",
+    "trainId": "33679",
+    "trainNumber": "33679",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "TSG-15",
+    "destinationStationId": "TSG-14",
+    "customOrigin": "三厩体育館",
+    "customDestination": "蟹田",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "06:21:00",
+        "departureTime": "06:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "06:26:00",
+        "departureTime": "06:26:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TSG-11_0626_33672",
+    "lineId": "tsugaru",
+    "trainId": "33672",
+    "trainNumber": "324M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "06:26:00",
+        "departureTime": "06:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "06:30:00",
+        "departureTime": "06:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "06:33:00",
+        "departureTime": "06:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "06:35:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "06:39:00",
+        "departureTime": "06:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "06:41:00",
+        "departureTime": "06:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "06:44:00",
+        "departureTime": "06:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "06:46:00",
+        "departureTime": "06:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "06:49:00",
+        "departureTime": "06:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "06:53:00",
+        "departureTime": "06:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "07:02:00",
+        "departureTime": "07:02:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TSG-11_0709_33673",
+    "lineId": "tsugaru",
+    "trainId": "33673",
+    "trainNumber": "326M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "07:13:00",
+        "departureTime": "07:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "07:16:00",
+        "departureTime": "07:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "07:19:00",
+        "departureTime": "07:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "07:22:00",
+        "departureTime": "07:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "07:25:00",
+        "departureTime": "07:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "07:27:00",
+        "departureTime": "07:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "07:30:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "07:37:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "07:47:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-14_0740_33666",
+    "lineId": "tsugaru",
+    "trainId": "33666",
+    "trainNumber": "33666",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "TSG-14",
+    "destinationStationId": "TSG-15",
+    "customOrigin": "蟹田",
+    "customDestination": "三厩体育館",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "07:45:00",
+        "departureTime": "07:45:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-01_0814_33658",
+    "lineId": "tsugaru",
+    "trainId": "33658",
+    "trainNumber": "327M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "08:14:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "08:21:00",
+        "departureTime": "08:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "08:25:00",
+        "departureTime": "08:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "08:28:00",
+        "departureTime": "08:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "08:30:00",
+        "departureTime": "08:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "08:33:00",
+        "departureTime": "08:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "08:36:00",
+        "departureTime": "08:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "08:39:00",
+        "departureTime": "08:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "08:42:00",
+        "departureTime": "08:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "08:45:00",
+        "departureTime": "08:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "08:50:00",
+        "departureTime": "08:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TSG-15_0818_33680",
+    "lineId": "tsugaru",
+    "trainId": "33680",
+    "trainNumber": "33680",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "TSG-15",
+    "destinationStationId": "TSG-14",
+    "customOrigin": "三厩体育館",
+    "customDestination": "蟹田",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "08:18:00",
+        "departureTime": "08:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "08:23:00",
+        "departureTime": "08:23:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TSG-11_0906_33674",
+    "lineId": "tsugaru",
+    "trainId": "33674",
+    "trainNumber": "328M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "09:06:00",
+        "departureTime": "09:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "09:10:00",
+        "departureTime": "09:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "09:13:00",
+        "departureTime": "09:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "09:19:00",
+        "departureTime": "09:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "09:22:00",
+        "departureTime": "09:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "09:25:00",
+        "departureTime": "09:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "09:27:00",
+        "departureTime": "09:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "09:30:00",
+        "departureTime": "09:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "09:33:00",
+        "departureTime": "09:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "09:36:00",
+        "departureTime": "09:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "09:45:00",
+        "departureTime": "09:45:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-01_1101_33659",
+    "lineId": "tsugaru",
+    "trainId": "33659",
+    "trainNumber": "329M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "11:01:00",
+        "departureTime": "11:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "11:08:00",
+        "departureTime": "11:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "11:12:00",
+        "departureTime": "11:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "11:15:00",
+        "departureTime": "11:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "11:21:00",
+        "departureTime": "11:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "11:23:00",
+        "departureTime": "11:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "11:26:00",
+        "departureTime": "11:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "11:29:00",
+        "departureTime": "11:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "11:32:00",
+        "departureTime": "11:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "11:35:00",
+        "departureTime": "11:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "11:39:00",
+        "departureTime": "11:39:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TSG-11_1210_33675",
+    "lineId": "tsugaru",
+    "trainId": "33675",
+    "trainNumber": "330M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "12:10:00",
+        "departureTime": "12:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "12:14:00",
+        "departureTime": "12:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "12:17:00",
+        "departureTime": "12:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "12:23:00",
+        "departureTime": "12:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "12:26:00",
+        "departureTime": "12:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "12:37:00",
+        "departureTime": "12:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "12:39:00",
+        "departureTime": "12:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "12:42:00",
+        "departureTime": "12:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "12:45:00",
+        "departureTime": "12:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "12:49:00",
+        "departureTime": "12:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "12:58:00",
+        "departureTime": "12:58:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-01_1316_33660",
+    "lineId": "tsugaru",
+    "trainId": "33660",
+    "trainNumber": "331M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "13:16:00",
+        "departureTime": "13:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "13:23:00",
+        "departureTime": "13:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "13:27:00",
+        "departureTime": "13:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "13:30:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "13:35:00",
+        "departureTime": "13:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "13:38:00",
+        "departureTime": "13:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "13:41:00",
+        "departureTime": "13:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "13:43:00",
+        "departureTime": "13:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "13:46:00",
+        "departureTime": "13:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "13:51:00",
+        "departureTime": "13:51:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TSG-11_1414_35630",
+    "lineId": "tsugaru",
+    "trainId": "35630",
+    "trainNumber": "332M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "customOrigin": "蟹田",
+    "customDestination": "津軽新城",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "14:14:00",
+        "departureTime": "14:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "14:18:00",
+        "departureTime": "14:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "14:21:00",
+        "departureTime": "14:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "14:24:00",
+        "departureTime": "14:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "14:27:00",
+        "departureTime": "14:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "14:33:00",
+        "departureTime": "14:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "14:36:00",
+        "departureTime": "14:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "14:39:00",
+        "departureTime": "14:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "14:41:00",
+        "departureTime": "14:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "14:45:00",
+        "departureTime": "14:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "14:54:00",
+        "departureTime": "15:08:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_OAA-40_1508_35630",
+    "throughLineId": "ou_akita_aomori"
+  },
+  {
+    "tripId": "WD_OUT_TSG-14_1438_33667",
+    "lineId": "tsugaru",
+    "trainId": "33667",
+    "trainNumber": "33667",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "TSG-14",
+    "destinationStationId": "TSG-15",
+    "customOrigin": "蟹田",
+    "customDestination": "三厩体育館",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "14:38:00",
+        "departureTime": "14:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "14:43:00",
+        "departureTime": "14:43:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-01_1531_33661",
+    "lineId": "tsugaru",
+    "trainId": "33661",
+    "trainNumber": "333M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "15:31:00",
+        "departureTime": "15:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "15:38:00",
+        "departureTime": "15:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "15:42:00",
+        "departureTime": "15:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "15:45:00",
+        "departureTime": "15:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "15:47:00",
+        "departureTime": "15:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "15:53:00",
+        "departureTime": "15:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "15:56:00",
+        "departureTime": "15:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "15:59:00",
+        "departureTime": "15:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "16:02:00",
+        "departureTime": "16:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "16:06:00",
+        "departureTime": "16:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TSG-11_1625_33676",
+    "lineId": "tsugaru",
+    "trainId": "33676",
+    "trainNumber": "334M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "16:25:00",
+        "departureTime": "16:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "16:29:00",
+        "departureTime": "16:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "16:32:00",
+        "departureTime": "16:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "16:40:00",
+        "departureTime": "16:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "16:43:00",
+        "departureTime": "16:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "16:51:00",
+        "departureTime": "16:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "17:00:00",
+        "departureTime": "17:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "17:04:00",
+        "departureTime": "17:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "17:13:00",
+        "departureTime": "17:13:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-01_1642_33662",
+    "lineId": "tsugaru",
+    "trainId": "33662",
+    "trainNumber": "335M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "16:42:00",
+        "departureTime": "16:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "16:50:00",
+        "departureTime": "16:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "16:55:00",
+        "departureTime": "16:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "16:57:00",
+        "departureTime": "16:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "17:00:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "17:02:00",
+        "departureTime": "17:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "17:05:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "17:08:00",
+        "departureTime": "17:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "17:11:00",
+        "departureTime": "17:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "17:14:00",
+        "departureTime": "17:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "17:18:00",
+        "departureTime": "17:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-14_1652_33668",
+    "lineId": "tsugaru",
+    "trainId": "33668",
+    "trainNumber": "33668",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "TSG-14",
+    "destinationStationId": "TSG-15",
+    "customOrigin": "蟹田",
+    "customDestination": "三厩体育館",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "16:52:00",
+        "departureTime": "16:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "16:57:00",
+        "departureTime": "16:57:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TSG-11_1727_33677",
+    "lineId": "tsugaru",
+    "trainId": "33677",
+    "trainNumber": "336M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "17:27:00",
+        "departureTime": "17:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "17:31:00",
+        "departureTime": "17:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "17:34:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "17:40:00",
+        "departureTime": "17:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "17:43:00",
+        "departureTime": "17:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "17:45:00",
+        "departureTime": "17:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "17:48:00",
+        "departureTime": "17:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "17:51:00",
+        "departureTime": "17:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "17:54:00",
+        "departureTime": "17:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "18:03:00",
+        "departureTime": "18:03:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TSG-15_1802_33681",
+    "lineId": "tsugaru",
+    "trainId": "33681",
+    "trainNumber": "33681",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "TSG-15",
+    "destinationStationId": "TSG-14",
+    "customOrigin": "三厩体育館",
+    "customDestination": "蟹田",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "18:07:00",
+        "departureTime": "18:07:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-14_1802_33669",
+    "lineId": "tsugaru",
+    "trainId": "33669",
+    "trainNumber": "33669",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "TSG-14",
+    "destinationStationId": "TSG-15",
+    "customOrigin": "蟹田",
+    "customDestination": "三厩体育館",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "18:07:00",
+        "departureTime": "18:07:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-01_1812_33663",
+    "lineId": "tsugaru",
+    "trainId": "33663",
+    "trainNumber": "337M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "18:12:00",
+        "departureTime": "18:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "18:19:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "18:23:00",
+        "departureTime": "18:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "18:26:00",
+        "departureTime": "18:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "18:28:00",
+        "departureTime": "18:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "18:34:00",
+        "departureTime": "18:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "18:43:00",
+        "departureTime": "18:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "18:50:00",
+        "departureTime": "18:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TSG-11_1908_33678",
+    "lineId": "tsugaru",
+    "trainId": "33678",
+    "trainNumber": "338M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "19:08:00",
+        "departureTime": "19:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "19:12:00",
+        "departureTime": "19:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "19:15:00",
+        "departureTime": "19:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "19:17:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "19:20:00",
+        "departureTime": "19:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "19:23:00",
+        "departureTime": "19:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "19:26:00",
+        "departureTime": "19:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "19:28:00",
+        "departureTime": "19:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "19:31:00",
+        "departureTime": "19:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "19:43:00",
+        "departureTime": "19:43:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-14_1934_33670",
+    "lineId": "tsugaru",
+    "trainId": "33670",
+    "trainNumber": "33670",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "TSG-14",
+    "destinationStationId": "TSG-15",
+    "customOrigin": "蟹田",
+    "customDestination": "三厩体育館",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "19:34:00",
+        "departureTime": "19:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "19:39:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-01_2016_33664",
+    "lineId": "tsugaru",
+    "trainId": "33664",
+    "trainNumber": "339M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "20:16:00",
+        "departureTime": "20:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "20:23:00",
+        "departureTime": "20:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "20:27:00",
+        "departureTime": "20:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "20:30:00",
+        "departureTime": "20:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "20:35:00",
+        "departureTime": "20:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "20:38:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "20:41:00",
+        "departureTime": "20:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "20:44:00",
+        "departureTime": "20:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "20:46:00",
+        "departureTime": "20:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "20:54:00",
+        "departureTime": "20:54:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TSG-01_2210_33665",
+    "lineId": "tsugaru",
+    "trainId": "33665",
+    "trainNumber": "341M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "22:10:00",
+        "departureTime": "22:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "22:17:00",
+        "departureTime": "22:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "22:21:00",
+        "departureTime": "22:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "22:24:00",
+        "departureTime": "22:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "22:27:00",
+        "departureTime": "22:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "22:29:00",
+        "departureTime": "22:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "22:32:00",
+        "departureTime": "22:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "22:36:00",
+        "departureTime": "22:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "22:39:00",
+        "departureTime": "22:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "22:42:00",
+        "departureTime": "22:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "22:47:00",
+        "departureTime": "22:47:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TSG-11_0533_33671",
+    "lineId": "tsugaru",
+    "trainId": "33671",
+    "trainNumber": "322M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "05:33:00",
+        "departureTime": "05:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "05:37:00",
+        "departureTime": "05:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "05:40:00",
+        "departureTime": "05:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "05:43:00",
+        "departureTime": "05:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "05:46:00",
+        "departureTime": "05:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "05:48:00",
+        "departureTime": "05:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "05:51:00",
+        "departureTime": "05:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "05:53:00",
+        "departureTime": "05:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "05:56:00",
+        "departureTime": "05:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "06:00:00",
+        "departureTime": "06:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "06:08:00",
+        "departureTime": "06:08:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TSG-01_0617_33657",
+    "lineId": "tsugaru",
+    "trainId": "33657",
+    "trainNumber": "325M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "06:17:00",
+        "departureTime": "06:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "06:24:00",
+        "departureTime": "06:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "06:28:00",
+        "departureTime": "06:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "06:31:00",
+        "departureTime": "06:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "06:33:00",
+        "departureTime": "06:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "06:36:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "06:39:00",
+        "departureTime": "06:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "06:42:00",
+        "departureTime": "06:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "06:44:00",
+        "departureTime": "06:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "06:47:00",
+        "departureTime": "06:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "06:52:00",
+        "departureTime": "06:52:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TSG-15_0621_33679",
+    "lineId": "tsugaru",
+    "trainId": "33679",
+    "trainNumber": "33679",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "TSG-15",
+    "destinationStationId": "TSG-14",
+    "customOrigin": "三厩体育館",
+    "customDestination": "蟹田",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "06:21:00",
+        "departureTime": "06:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "06:26:00",
+        "departureTime": "06:26:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TSG-11_0709_33673",
+    "lineId": "tsugaru",
+    "trainId": "33673",
+    "trainNumber": "326M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "07:13:00",
+        "departureTime": "07:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "07:16:00",
+        "departureTime": "07:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "07:19:00",
+        "departureTime": "07:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "07:22:00",
+        "departureTime": "07:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "07:25:00",
+        "departureTime": "07:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "07:27:00",
+        "departureTime": "07:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "07:30:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "07:33:00",
+        "departureTime": "07:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "07:37:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "07:47:00",
+        "departureTime": "07:47:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TSG-14_0740_33666",
+    "lineId": "tsugaru",
+    "trainId": "33666",
+    "trainNumber": "33666",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "TSG-14",
+    "destinationStationId": "TSG-15",
+    "customOrigin": "蟹田",
+    "customDestination": "三厩体育館",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "07:40:00",
+        "departureTime": "07:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "07:45:00",
+        "departureTime": "07:45:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TSG-01_0814_33658",
+    "lineId": "tsugaru",
+    "trainId": "33658",
+    "trainNumber": "327M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "08:14:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "08:21:00",
+        "departureTime": "08:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "08:25:00",
+        "departureTime": "08:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "08:28:00",
+        "departureTime": "08:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "08:30:00",
+        "departureTime": "08:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "08:33:00",
+        "departureTime": "08:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "08:36:00",
+        "departureTime": "08:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "08:39:00",
+        "departureTime": "08:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "08:42:00",
+        "departureTime": "08:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "08:45:00",
+        "departureTime": "08:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "08:50:00",
+        "departureTime": "08:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TSG-15_0818_33680",
+    "lineId": "tsugaru",
+    "trainId": "33680",
+    "trainNumber": "33680",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "TSG-15",
+    "destinationStationId": "TSG-14",
+    "customOrigin": "三厩体育館",
+    "customDestination": "蟹田",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "08:18:00",
+        "departureTime": "08:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "08:23:00",
+        "departureTime": "08:23:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TSG-11_0906_33674",
+    "lineId": "tsugaru",
+    "trainId": "33674",
+    "trainNumber": "328M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "09:06:00",
+        "departureTime": "09:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "09:10:00",
+        "departureTime": "09:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "09:13:00",
+        "departureTime": "09:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "09:19:00",
+        "departureTime": "09:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "09:22:00",
+        "departureTime": "09:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "09:25:00",
+        "departureTime": "09:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "09:27:00",
+        "departureTime": "09:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "09:30:00",
+        "departureTime": "09:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "09:33:00",
+        "departureTime": "09:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "09:36:00",
+        "departureTime": "09:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "09:45:00",
+        "departureTime": "09:45:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TSG-01_1101_33659",
+    "lineId": "tsugaru",
+    "trainId": "33659",
+    "trainNumber": "329M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "11:01:00",
+        "departureTime": "11:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "11:08:00",
+        "departureTime": "11:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "11:12:00",
+        "departureTime": "11:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "11:15:00",
+        "departureTime": "11:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "11:21:00",
+        "departureTime": "11:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "11:23:00",
+        "departureTime": "11:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "11:26:00",
+        "departureTime": "11:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "11:29:00",
+        "departureTime": "11:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "11:32:00",
+        "departureTime": "11:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "11:35:00",
+        "departureTime": "11:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "11:39:00",
+        "departureTime": "11:39:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TSG-11_1210_33675",
+    "lineId": "tsugaru",
+    "trainId": "33675",
+    "trainNumber": "330M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "12:10:00",
+        "departureTime": "12:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "12:14:00",
+        "departureTime": "12:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "12:17:00",
+        "departureTime": "12:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "12:23:00",
+        "departureTime": "12:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "12:26:00",
+        "departureTime": "12:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "12:37:00",
+        "departureTime": "12:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "12:39:00",
+        "departureTime": "12:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "12:42:00",
+        "departureTime": "12:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "12:45:00",
+        "departureTime": "12:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "12:49:00",
+        "departureTime": "12:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "12:58:00",
+        "departureTime": "12:58:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TSG-01_1316_33660",
+    "lineId": "tsugaru",
+    "trainId": "33660",
+    "trainNumber": "331M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "13:16:00",
+        "departureTime": "13:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "13:23:00",
+        "departureTime": "13:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "13:27:00",
+        "departureTime": "13:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "13:30:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "13:35:00",
+        "departureTime": "13:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "13:38:00",
+        "departureTime": "13:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "13:41:00",
+        "departureTime": "13:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "13:43:00",
+        "departureTime": "13:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "13:46:00",
+        "departureTime": "13:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "13:51:00",
+        "departureTime": "13:51:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TSG-11_1414_35630",
+    "lineId": "tsugaru",
+    "trainId": "35630",
+    "trainNumber": "332M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "customOrigin": "蟹田",
+    "customDestination": "津軽新城",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "14:14:00",
+        "departureTime": "14:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "14:18:00",
+        "departureTime": "14:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "14:21:00",
+        "departureTime": "14:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "14:24:00",
+        "departureTime": "14:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "14:27:00",
+        "departureTime": "14:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "14:33:00",
+        "departureTime": "14:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "14:36:00",
+        "departureTime": "14:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "14:39:00",
+        "departureTime": "14:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "14:41:00",
+        "departureTime": "14:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "14:45:00",
+        "departureTime": "14:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "14:54:00",
+        "departureTime": "15:08:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_OAA-40_1508_35630",
+    "throughLineId": "ou_akita_aomori"
+  },
+  {
+    "tripId": "HD_OUT_TSG-01_1531_33661",
+    "lineId": "tsugaru",
+    "trainId": "33661",
+    "trainNumber": "333M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "15:31:00",
+        "departureTime": "15:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "15:38:00",
+        "departureTime": "15:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "15:42:00",
+        "departureTime": "15:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "15:45:00",
+        "departureTime": "15:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "15:47:00",
+        "departureTime": "15:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "15:53:00",
+        "departureTime": "15:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "15:56:00",
+        "departureTime": "15:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "15:59:00",
+        "departureTime": "15:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "16:02:00",
+        "departureTime": "16:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "16:06:00",
+        "departureTime": "16:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TSG-11_1625_33676",
+    "lineId": "tsugaru",
+    "trainId": "33676",
+    "trainNumber": "334M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "16:25:00",
+        "departureTime": "16:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "16:29:00",
+        "departureTime": "16:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "16:32:00",
+        "departureTime": "16:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "16:40:00",
+        "departureTime": "16:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "16:43:00",
+        "departureTime": "16:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "16:51:00",
+        "departureTime": "16:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "17:00:00",
+        "departureTime": "17:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "17:04:00",
+        "departureTime": "17:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "17:13:00",
+        "departureTime": "17:13:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TSG-01_1642_33662",
+    "lineId": "tsugaru",
+    "trainId": "33662",
+    "trainNumber": "335M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "16:42:00",
+        "departureTime": "16:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "16:50:00",
+        "departureTime": "16:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "16:55:00",
+        "departureTime": "16:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "16:57:00",
+        "departureTime": "16:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "17:00:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "17:02:00",
+        "departureTime": "17:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "17:05:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "17:08:00",
+        "departureTime": "17:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "17:11:00",
+        "departureTime": "17:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "17:14:00",
+        "departureTime": "17:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "17:18:00",
+        "departureTime": "17:18:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TSG-14_1652_33668",
+    "lineId": "tsugaru",
+    "trainId": "33668",
+    "trainNumber": "33668",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "TSG-14",
+    "destinationStationId": "TSG-15",
+    "customOrigin": "蟹田",
+    "customDestination": "三厩体育館",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "16:52:00",
+        "departureTime": "16:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "16:57:00",
+        "departureTime": "16:57:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TSG-11_1727_33677",
+    "lineId": "tsugaru",
+    "trainId": "33677",
+    "trainNumber": "336M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "17:27:00",
+        "departureTime": "17:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "17:31:00",
+        "departureTime": "17:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "17:34:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "17:40:00",
+        "departureTime": "17:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "17:43:00",
+        "departureTime": "17:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "17:45:00",
+        "departureTime": "17:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "17:48:00",
+        "departureTime": "17:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "17:51:00",
+        "departureTime": "17:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "17:54:00",
+        "departureTime": "17:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "18:03:00",
+        "departureTime": "18:03:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TSG-15_1802_33681",
+    "lineId": "tsugaru",
+    "trainId": "33681",
+    "trainNumber": "33681",
+    "trainType": "substitution_bus",
+    "direction": "inbound",
+    "originStationId": "TSG-15",
+    "destinationStationId": "TSG-14",
+    "customOrigin": "三厩体育館",
+    "customDestination": "蟹田",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "18:07:00",
+        "departureTime": "18:07:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TSG-01_1812_33663",
+    "lineId": "tsugaru",
+    "trainId": "33663",
+    "trainNumber": "337M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "18:12:00",
+        "departureTime": "18:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "18:19:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "18:23:00",
+        "departureTime": "18:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "18:26:00",
+        "departureTime": "18:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "18:28:00",
+        "departureTime": "18:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "18:31:00",
+        "departureTime": "18:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "18:34:00",
+        "departureTime": "18:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "18:40:00",
+        "departureTime": "18:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "18:43:00",
+        "departureTime": "18:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "18:50:00",
+        "departureTime": "18:50:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TSG-11_1908_33678",
+    "lineId": "tsugaru",
+    "trainId": "33678",
+    "trainNumber": "338M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TSG-11",
+    "destinationStationId": "TSG-01",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "19:08:00",
+        "departureTime": "19:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "19:12:00",
+        "departureTime": "19:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "19:15:00",
+        "departureTime": "19:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "19:17:00",
+        "departureTime": "19:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "19:20:00",
+        "departureTime": "19:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "19:23:00",
+        "departureTime": "19:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "19:26:00",
+        "departureTime": "19:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "19:28:00",
+        "departureTime": "19:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "19:31:00",
+        "departureTime": "19:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "19:43:00",
+        "departureTime": "19:43:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TSG-14_1934_33670",
+    "lineId": "tsugaru",
+    "trainId": "33670",
+    "trainNumber": "33670",
+    "trainType": "substitution_bus",
+    "direction": "outbound",
+    "originStationId": "TSG-14",
+    "destinationStationId": "TSG-15",
+    "customOrigin": "蟹田",
+    "customDestination": "三厩体育館",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-14",
+        "arrivalTime": "19:34:00",
+        "departureTime": "19:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-15",
+        "arrivalTime": "19:39:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TSG-01_2016_33664",
+    "lineId": "tsugaru",
+    "trainId": "33664",
+    "trainNumber": "339M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "20:16:00",
+        "departureTime": "20:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "20:23:00",
+        "departureTime": "20:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "20:27:00",
+        "departureTime": "20:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "20:30:00",
+        "departureTime": "20:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "20:35:00",
+        "departureTime": "20:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "20:38:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "20:41:00",
+        "departureTime": "20:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "20:44:00",
+        "departureTime": "20:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "20:46:00",
+        "departureTime": "20:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "20:49:00",
+        "departureTime": "20:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "20:54:00",
+        "departureTime": "20:54:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TSG-01_2210_33665",
+    "lineId": "tsugaru",
+    "trainId": "33665",
+    "trainNumber": "341M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TSG-01",
+    "destinationStationId": "TSG-11",
+    "cars": 2,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TSG-01",
+        "arrivalTime": "22:10:00",
+        "departureTime": "22:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-02",
+        "arrivalTime": "22:17:00",
+        "departureTime": "22:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-03",
+        "arrivalTime": "22:21:00",
+        "departureTime": "22:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-04",
+        "arrivalTime": "22:24:00",
+        "departureTime": "22:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-05",
+        "arrivalTime": "22:27:00",
+        "departureTime": "22:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-06",
+        "arrivalTime": "22:29:00",
+        "departureTime": "22:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-07",
+        "arrivalTime": "22:32:00",
+        "departureTime": "22:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-08",
+        "arrivalTime": "22:36:00",
+        "departureTime": "22:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-09",
+        "arrivalTime": "22:39:00",
+        "departureTime": "22:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-10",
+        "arrivalTime": "22:42:00",
+        "departureTime": "22:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TSG-11",
+        "arrivalTime": "22:47:00",
+        "departureTime": "22:47:00",
+        "isPassing": false
+      }
+    ]
+  }
+]

@@ -128,14 +128,14 @@ module.exports = {
       "name": "山形",
       "yahooStationId": "21392",
       "inGroupId": "340",
-      "outGroupId": "341"
+      "outGroupId": ["341", "560"]
     },
     {
       "id": "OFS-18",
       "name": "北山形",
       "yahooStationId": "21324",
       "inGroupId": "340",
-      "outGroupId": "341"
+      "outGroupId": ["341", "560"]
     },
     {
       "id": "OFS-19",

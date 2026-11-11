@@ -124,28 +124,28 @@ module.exports = {
           "id": "TFS-17",
           "name": "南仙台",
           "yahooStationId": "21101",
-          "inGroupId": "610",
+          "inGroupId": ["610", "7041"],
           "outGroupId": "611"
       },
       {
           "id": "TFS-18",
           "name": "太子堂",
           "yahooStationId": "29588",
-          "inGroupId": "610",
+          "inGroupId": ["610", "7041"],
           "outGroupId": "611"
       },
       {
           "id": "TFS-19",
           "name": "長町",
           "yahooStationId": "21063",
-          "inGroupId": "610",
+          "inGroupId": ["610", "7041"],
           "outGroupId": "611"
       },
       {
           "id": "TFS-20",
           "name": "仙台",
           "yahooStationId": "21044",
-          "inGroupId": "610",
+          "inGroupId": ["610", "7041"],
           "outGroupId": null
       }
   ],

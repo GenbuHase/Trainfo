@@ -212,6 +212,7 @@ function linkPair({
   exactDisallowedDestinations = null,
   exactAllowedOriginsB = null,
   exactDisallowedOriginsB = null,
+  disallowedDestinationsB = null,
   targetDestStationRules = null,
   truncateAAtStation = false,
   truncateBFromStation = false,
@@ -372,6 +373,12 @@ function linkPair({
       const yIdB = extractTrainId(tB.tripId);
       const noB = tB.trainNumber;
       const destB = getEffectiveDestination(tB, stationMap);
+
+      if (disallowedDestinationsB && disallowedDestinationsB.length > 0 && destB) {
+        if (disallowedDestinationsB.some((d) => destB.includes(d))) {
+          continue;
+        }
+      }
 
       // 1. 完全一致 (trainId または 公式列車番号)
       const isIdMatch = (yIdA && yIdB && yIdA === yIdB) || (noA && noB && noA === noB);
@@ -704,6 +711,7 @@ function executeUniversalThroughLinker() {
       exactDisallowedDestinations: conn.exactDisallowedDestinations || null,
       exactAllowedOriginsB: conn.exactAllowedOriginsB || null,
       exactDisallowedOriginsB: conn.exactDisallowedOriginsB || null,
+      disallowedDestinationsB: conn.disallowedDestinationsB || null,
       targetDestStationRules: conn.targetDestStationRules || null,
       truncateAAtStation: conn.truncateAAtStation || false,
       truncateBFromStation: conn.truncateBFromStation || false,

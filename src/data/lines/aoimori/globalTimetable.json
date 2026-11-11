@@ -2698,6 +2698,7 @@
     "originStationId": "AMR-16",
     "destinationStationId": "AMR-07",
     "customOrigin": "大湊",
+    "customDestination": "八戸",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -2761,7 +2762,9 @@
         "departureTime": "09:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OM-11_0809_14266",
+    "prevLineId": "ominato"
   },
   {
     "tripId": "WD_INB_AMR-27_0929_2801",
@@ -2973,6 +2976,7 @@
     "direction": "outbound",
     "originStationId": "AMR-07",
     "destinationStationId": "AMR-16",
+    "customOrigin": "八戸",
     "customDestination": "大湊",
     "cars": 2,
     "isHoliday": false,
@@ -3037,7 +3041,9 @@
         "departureTime": "10:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OM-01_1022_14259",
+    "throughLineId": "ominato"
   },
   {
     "tripId": "WD_INB_AMR-27_1018_2797",
@@ -3628,6 +3634,7 @@
     "originStationId": "AMR-16",
     "destinationStationId": "AMR-07",
     "customOrigin": "大湊",
+    "customDestination": "八戸",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -3691,7 +3698,9 @@
         "departureTime": "11:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OM-11_1022_14265",
+    "prevLineId": "ominato"
   },
   {
     "tripId": "WD_OUT_AMR-02_1143_2754",
@@ -4773,6 +4782,7 @@
     "direction": "outbound",
     "originStationId": "AMR-07",
     "destinationStationId": "AMR-16",
+    "customOrigin": "八戸",
     "customDestination": "大湊",
     "cars": 2,
     "isHoliday": false,
@@ -4837,7 +4847,9 @@
         "departureTime": "16:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OM-01_1600_14260",
+    "throughLineId": "ominato"
   },
   {
     "tripId": "WD_INB_AMR-07_1524_29142",
@@ -6821,6 +6833,7 @@
     "direction": "outbound",
     "originStationId": "AMR-07",
     "destinationStationId": "AMR-16",
+    "customOrigin": "八戸",
     "customDestination": "大湊",
     "cars": 2,
     "isHoliday": false,
@@ -6885,7 +6898,9 @@
         "departureTime": "20:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_OM-01_2009_14258",
+    "throughLineId": "ominato"
   },
   {
     "tripId": "WD_INB_AMR-16_1918_14267",
@@ -6898,6 +6913,7 @@
     "originStationId": "AMR-16",
     "destinationStationId": "AMR-07",
     "customOrigin": "大湊",
+    "customDestination": "八戸",
     "cars": 2,
     "isHoliday": false,
     "stops": [
@@ -6961,7 +6977,9 @@
         "departureTime": "19:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_OM-11_1815_14267",
+    "prevLineId": "ominato"
   },
   {
     "tripId": "WD_INB_AMR-07_1920_29145",
@@ -11252,6 +11270,7 @@
     "originStationId": "AMR-16",
     "destinationStationId": "AMR-07",
     "customOrigin": "大湊",
+    "customDestination": "八戸",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -11315,7 +11334,9 @@
         "departureTime": "09:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OM-11_0809_14266",
+    "prevLineId": "ominato"
   },
   {
     "tripId": "HD_INB_AMR-27_0929_2801",
@@ -11527,6 +11548,7 @@
     "direction": "outbound",
     "originStationId": "AMR-07",
     "destinationStationId": "AMR-16",
+    "customOrigin": "八戸",
     "customDestination": "大湊",
     "cars": 2,
     "isHoliday": true,
@@ -11591,7 +11613,9 @@
         "departureTime": "10:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OM-01_1022_14259",
+    "throughLineId": "ominato"
   },
   {
     "tripId": "HD_INB_AMR-27_1018_2797",
@@ -12182,6 +12206,7 @@
     "originStationId": "AMR-16",
     "destinationStationId": "AMR-07",
     "customOrigin": "大湊",
+    "customDestination": "八戸",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -12245,7 +12270,9 @@
         "departureTime": "11:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OM-11_1022_14265",
+    "prevLineId": "ominato"
   },
   {
     "tripId": "HD_OUT_AMR-02_1143_2754",
@@ -13403,6 +13430,7 @@
     "direction": "outbound",
     "originStationId": "AMR-07",
     "destinationStationId": "AMR-16",
+    "customOrigin": "八戸",
     "customDestination": "大湊",
     "cars": 2,
     "isHoliday": true,
@@ -13467,7 +13495,9 @@
         "departureTime": "16:00:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OM-01_1600_14260",
+    "throughLineId": "ominato"
   },
   {
     "tripId": "HD_INB_AMR-07_1524_29142",
@@ -15415,6 +15445,7 @@
     "direction": "outbound",
     "originStationId": "AMR-07",
     "destinationStationId": "AMR-16",
+    "customOrigin": "八戸",
     "customDestination": "大湊",
     "cars": 2,
     "isHoliday": true,
@@ -15479,7 +15510,9 @@
         "departureTime": "20:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_OM-01_2009_14258",
+    "throughLineId": "ominato"
   },
   {
     "tripId": "HD_INB_AMR-16_1918_14267",
@@ -15492,6 +15525,7 @@
     "originStationId": "AMR-16",
     "destinationStationId": "AMR-07",
     "customOrigin": "大湊",
+    "customDestination": "八戸",
     "cars": 2,
     "isHoliday": true,
     "stops": [
@@ -15555,7 +15589,9 @@
         "departureTime": "19:59:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_OM-11_1815_14267",
+    "prevLineId": "ominato"
   },
   {
     "tripId": "HD_INB_AMR-07_1920_29145",

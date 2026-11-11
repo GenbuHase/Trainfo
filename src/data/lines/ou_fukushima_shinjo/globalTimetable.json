@@ -1,7 +1,44 @@
 [
   {
+    "tripId": "WD_OUT_OFS-17_0542_24810",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24810",
+    "trainNumber": "3820M",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "05:42:00",
+        "departureTime": "05:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "05:44:00",
+        "departureTime": "05:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "05:48:00",
+        "departureTime": "05:48:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_SZ-18_0548_24810",
+    "throughLineId": "senzan"
+  },
+  {
     "tripId": "WD_INB_OFS-35_0547_9108",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9108",
     "trainNumber": "1420M",
     "trainType": "regular",
     "direction": "inbound",
@@ -124,12 +161,12 @@
         "departureTime": "06:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9108"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_0553_7860",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7860",
     "trainNumber": "1421M",
     "trainType": "regular",
     "direction": "outbound",
@@ -252,12 +289,12 @@
         "departureTime": "07:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7860"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-08_0604_7836",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7836",
     "trainNumber": "421M",
     "trainType": "regular",
     "direction": "outbound",
@@ -326,12 +363,12 @@
         "departureTime": "06:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7836"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-35_0624_9109",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9109",
     "trainNumber": "1424M",
     "trainType": "regular",
     "direction": "inbound",
@@ -454,12 +491,12 @@
         "departureTime": "07:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9109"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_0626_19198",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19198",
     "trainNumber": "320D",
     "trainType": "regular",
     "direction": "inbound",
@@ -481,12 +518,12 @@
         "departureTime": "06:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19198"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-17_0628_8995",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8995",
     "trainNumber": "420M",
     "trainType": "regular",
     "direction": "inbound",
@@ -597,12 +634,48 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_0631_24814",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24814",
+    "trainNumber": "4822M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "06:31:00",
+        "departureTime": "06:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "06:34:00",
+        "departureTime": "06:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:38:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "8995"
+    "throughTripId": "WD_INB_SZ-18_0638_24814",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_OUT_OFS-08_0644_7837",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7837",
     "trainNumber": "423M",
     "trainType": "regular",
     "direction": "outbound",
@@ -671,12 +744,12 @@
         "departureTime": "07:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7837"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_0645_19190",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19190",
     "trainNumber": "1322D",
     "trainType": "regular",
     "direction": "inbound",
@@ -698,12 +771,12 @@
         "departureTime": "06:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19190"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-03_0648_9131",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9131",
     "trainNumber": "5422M",
     "trainType": "regular",
     "direction": "inbound",
@@ -730,12 +803,12 @@
         "departureTime": "06:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9131"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-29_0650_9104",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9104",
     "trainNumber": "1422M",
     "trainType": "regular",
     "direction": "inbound",
@@ -822,12 +895,12 @@
         "departureTime": "07:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9104"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-35_0653_9110",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9110",
     "trainNumber": "1426M",
     "trainType": "regular",
     "direction": "inbound",
@@ -950,12 +1023,12 @@
         "departureTime": "08:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9110"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_0704_7861",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7861",
     "trainNumber": "1425M",
     "trainType": "regular",
     "direction": "outbound",
@@ -1078,12 +1151,48 @@
         "departureTime": "08:23:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_0710_24820",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24820",
+    "trainNumber": "824M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "07:10:00",
+        "departureTime": "07:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "07:12:00",
+        "departureTime": "07:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "07:16:00",
+        "departureTime": "07:16:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7861"
+    "throughTripId": "WD_INB_SZ-18_0716_24820",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_OUT_OFS-01_0714_7830",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7830",
     "trainNumber": "427M",
     "trainType": "regular",
     "direction": "outbound",
@@ -1140,86 +1249,12 @@
         "departureTime": "08:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7830"
-  },
-  {
-    "tripId": "WD_OUT_OFS-08_0715_7838",
-    "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "425M",
-    "trainType": "regular",
-    "direction": "outbound",
-    "originStationId": "OFS-08",
-    "destinationStationId": "OFS-17",
-    "cars": 4,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "OFS-08",
-        "arrivalTime": "07:15:00",
-        "departureTime": "07:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-09",
-        "arrivalTime": "07:19:00",
-        "departureTime": "07:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-10",
-        "arrivalTime": "07:24:00",
-        "departureTime": "07:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-11",
-        "arrivalTime": "07:29:00",
-        "departureTime": "07:30:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-12",
-        "arrivalTime": "07:37:00",
-        "departureTime": "07:38:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-13",
-        "arrivalTime": "07:42:00",
-        "departureTime": "07:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-14",
-        "arrivalTime": "07:48:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-15",
-        "arrivalTime": "07:51:00",
-        "departureTime": "07:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-16",
-        "arrivalTime": "07:56:00",
-        "departureTime": "07:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-17",
-        "arrivalTime": "08:02:00",
-        "departureTime": "08:02:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "7838"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-17_0715_8979",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8979",
     "trainNumber": "422M",
     "trainType": "regular",
     "direction": "inbound",
@@ -1288,12 +1323,86 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8979"
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-08_0715_7838",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "7838",
+    "trainNumber": "425M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-08",
+    "destinationStationId": "OFS-17",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-08",
+        "arrivalTime": "07:15:00",
+        "departureTime": "07:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-09",
+        "arrivalTime": "07:19:00",
+        "departureTime": "07:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-10",
+        "arrivalTime": "07:24:00",
+        "departureTime": "07:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-11",
+        "arrivalTime": "07:29:00",
+        "departureTime": "07:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-12",
+        "arrivalTime": "07:37:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-13",
+        "arrivalTime": "07:42:00",
+        "departureTime": "07:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-14",
+        "arrivalTime": "07:48:00",
+        "departureTime": "07:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-15",
+        "arrivalTime": "07:51:00",
+        "departureTime": "07:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-16",
+        "arrivalTime": "07:56:00",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "08:02:00",
+        "departureTime": "08:02:00",
+        "isPassing": false
+      }
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_0724_19199",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19199",
     "trainNumber": "324D",
     "trainType": "regular",
     "direction": "inbound",
@@ -1315,18 +1424,19 @@
         "departureTime": "07:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19199"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-19_0725_21547",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21547",
     "trainNumber": "4821M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1349,11 +1459,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21547"
+    "prevTripId": "WD_OUT_SZ-01_0606_21582",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-35_0730_9111",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9111",
     "trainNumber": "1428M",
     "trainType": "regular",
     "direction": "inbound",
@@ -1476,12 +1588,12 @@
         "departureTime": "08:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9111"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-17_0741_8980",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8980",
     "trainNumber": "426M",
     "trainType": "regular",
     "direction": "inbound",
@@ -1550,12 +1662,12 @@
         "departureTime": "08:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8980"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-08_0807_8974",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8974",
     "trainNumber": "424M",
     "trainType": "regular",
     "direction": "inbound",
@@ -1612,12 +1724,12 @@
         "departureTime": "08:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8974"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_0807_19191",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19191",
     "trainNumber": "1326D",
     "trainType": "regular",
     "direction": "inbound",
@@ -1639,12 +1751,12 @@
         "departureTime": "08:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19191"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-01_0808_7831",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7831",
     "trainNumber": "431M",
     "trainType": "regular",
     "direction": "outbound",
@@ -1701,12 +1813,12 @@
         "departureTime": "08:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7831"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-08_0808_7839",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7839",
     "trainNumber": "429M",
     "trainType": "regular",
     "direction": "outbound",
@@ -1775,12 +1887,12 @@
         "departureTime": "08:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7839"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_0809_7857",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7857",
     "trainNumber": "1427M",
     "trainType": "regular",
     "direction": "outbound",
@@ -1867,12 +1979,12 @@
         "departureTime": "08:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7857"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-17_0816_8981",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8981",
     "trainNumber": "428M",
     "trainType": "regular",
     "direction": "inbound",
@@ -1941,18 +2053,55 @@
         "departureTime": "09:05:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_0818_24821",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24821",
+    "trainNumber": "826M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "08:18:00",
+        "departureTime": "08:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "08:20:00",
+        "departureTime": "08:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "08:24:00",
+        "departureTime": "08:26:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "8981"
+    "throughTripId": "WD_INB_SZ-18_0826_24821",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-19_0834_21539",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21539",
     "trainNumber": "823M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -1975,11 +2124,40 @@
         "isPassing": false
       }
     ],
-    "trainId": "21539"
+    "prevTripId": "WD_OUT_SZ-01_0714_21574",
+    "prevLineId": "senzan"
+  },
+  {
+    "tripId": "WD_INB_OFS-18_0842_19200",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "19200",
+    "trainNumber": "328D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "OFS-18",
+    "destinationStationId": "OFS-17",
+    "customOrigin": "左沢",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "08:42:00",
+        "departureTime": "08:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "08:46:00",
+        "departureTime": "08:46:00",
+        "isPassing": false
+      }
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_0842_7862",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7862",
     "trainNumber": "1429M",
     "trainType": "regular",
     "direction": "outbound",
@@ -2102,39 +2280,12 @@
         "departureTime": "09:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7862"
-  },
-  {
-    "tripId": "WD_INB_OFS-18_0842_19200",
-    "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "328D",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "OFS-18",
-    "destinationStationId": "OFS-17",
-    "customOrigin": "左沢",
-    "cars": 4,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "OFS-18",
-        "arrivalTime": "08:42:00",
-        "departureTime": "08:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-17",
-        "arrivalTime": "08:46:00",
-        "departureTime": "08:46:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "19200"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-29_0848_9105",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9105",
     "trainNumber": "1430M",
     "trainType": "regular",
     "direction": "inbound",
@@ -2221,12 +2372,12 @@
         "departureTime": "09:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9105"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-01_0904_7825",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7825",
     "trainNumber": "5423M",
     "trainType": "regular",
     "direction": "outbound",
@@ -2253,12 +2404,48 @@
         "departureTime": "09:12:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_0908_24822",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24822",
+    "trainNumber": "828M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "09:08:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "09:10:00",
+        "departureTime": "09:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "09:14:00",
+        "departureTime": "09:14:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7825"
+    "throughTripId": "WD_INB_SZ-18_0914_24822",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-03_0921_9132",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9132",
     "trainNumber": "5424M",
     "trainType": "regular",
     "direction": "inbound",
@@ -2285,12 +2472,12 @@
         "departureTime": "09:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9132"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_0926_19201",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19201",
     "trainNumber": "330D",
     "trainType": "regular",
     "direction": "inbound",
@@ -2312,12 +2499,12 @@
         "departureTime": "09:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19201"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-17_0934_8982",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8982",
     "trainNumber": "430M",
     "trainType": "regular",
     "direction": "inbound",
@@ -2386,12 +2573,12 @@
         "departureTime": "10:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8982"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-35_0934_9112",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9112",
     "trainNumber": "1432M",
     "trainType": "regular",
     "direction": "inbound",
@@ -2514,18 +2701,19 @@
         "departureTime": "10:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9112"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-19_0938_21540",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21540",
     "trainNumber": "825M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2548,11 +2736,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21540"
+    "prevTripId": "WD_OUT_SZ-01_0818_21575",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_OUT_OFS-08_0940_7840",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7840",
     "trainNumber": "433M",
     "trainType": "regular",
     "direction": "outbound",
@@ -2621,12 +2811,12 @@
         "departureTime": "10:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7840"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-35_1007_9113",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9113",
     "trainNumber": "1434M",
     "trainType": "regular",
     "direction": "inbound",
@@ -2749,12 +2939,48 @@
         "departureTime": "11:20:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_1012_24811",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24811",
+    "trainNumber": "3830M",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "10:12:00",
+        "departureTime": "10:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "10:14:00",
+        "departureTime": "10:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "10:18:00",
+        "departureTime": "10:18:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "9113"
+    "throughTripId": "WD_INB_SZ-18_1018_24811",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_OUT_OFS-17_1020_7863",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7863",
     "trainNumber": "1431M",
     "trainType": "regular",
     "direction": "outbound",
@@ -2877,18 +3103,19 @@
         "departureTime": "11:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7863"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-19_1028_21554",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21554",
     "trainNumber": "3827M",
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -2911,11 +3138,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21554"
+    "prevTripId": "WD_OUT_SZ-01_0911_21589",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_OUT_OFS-08_1040_7841",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7841",
     "trainNumber": "435M",
     "trainType": "regular",
     "direction": "outbound",
@@ -2984,12 +3213,12 @@
         "departureTime": "11:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7841"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_1047_19192",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19192",
     "trainNumber": "332D",
     "trainType": "regular",
     "direction": "inbound",
@@ -3011,39 +3240,48 @@
         "departureTime": "10:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19192"
+    ]
   },
   {
-    "tripId": "WD_INB_OFS-18_1047_19202",
+    "tripId": "WD_OUT_OFS-17_1100_24823",
     "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "332D",
+    "trainId": "24823",
+    "trainNumber": "832M",
     "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "OFS-18",
-    "destinationStationId": "OFS-17",
-    "customOrigin": "左沢",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
       {
-        "stationId": "OFS-18",
-        "arrivalTime": "10:46:00",
-        "departureTime": "10:47:00",
+        "stationId": "OFS-17",
+        "arrivalTime": "11:00:00",
+        "departureTime": "11:00:00",
         "isPassing": false
       },
       {
-        "stationId": "OFS-17",
-        "arrivalTime": "10:51:00",
-        "departureTime": "10:51:00",
+        "stationId": "OFS-18",
+        "arrivalTime": "11:02:00",
+        "departureTime": "11:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "11:06:00",
+        "departureTime": "11:06:00",
         "isPassing": false
       }
     ],
-    "trainId": "19202"
+    "throughTripId": "WD_INB_SZ-18_1106_24823",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-17_1111_8983",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8983",
     "trainNumber": "432M",
     "trainType": "regular",
     "direction": "inbound",
@@ -3112,12 +3350,12 @@
         "departureTime": "12:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8983"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_1127_7864",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7864",
     "trainNumber": "1433M",
     "trainType": "regular",
     "direction": "outbound",
@@ -3240,18 +3478,19 @@
         "departureTime": "12:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7864"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-19_1135_21541",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21541",
     "trainNumber": "829M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3274,11 +3513,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21541"
+    "prevTripId": "WD_OUT_SZ-01_1015_21576",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-35_1135_9114",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9114",
     "trainNumber": "1436M",
     "trainType": "regular",
     "direction": "inbound",
@@ -3401,12 +3642,12 @@
         "departureTime": "12:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9114"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-08_1141_7842",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7842",
     "trainNumber": "437M",
     "trainType": "regular",
     "direction": "outbound",
@@ -3475,12 +3716,48 @@
         "departureTime": "12:26:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_1200_24812",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24812",
+    "trainNumber": "3834M",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "12:00:00",
+        "departureTime": "12:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "12:02:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "12:06:00",
+        "departureTime": "12:06:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7842"
+    "throughTripId": "WD_INB_SZ-18_1206_24812",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-17_1216_8984",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8984",
     "trainNumber": "434M",
     "trainType": "regular",
     "direction": "inbound",
@@ -3549,12 +3826,12 @@
         "departureTime": "13:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8984"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_1218_19193",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19193",
     "trainNumber": "1334D",
     "trainType": "regular",
     "direction": "inbound",
@@ -3576,18 +3853,19 @@
         "departureTime": "12:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19193"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-19_1218_21555",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21555",
     "trainNumber": "3831M",
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3610,11 +3888,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21555"
+    "prevTripId": "WD_OUT_SZ-01_1104_21590",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_OUT_OFS-08_1225_7843",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7843",
     "trainNumber": "439M",
     "trainType": "regular",
     "direction": "outbound",
@@ -3683,12 +3963,12 @@
         "departureTime": "13:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7843"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-01_1251_7832",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7832",
     "trainNumber": "441M",
     "trainType": "regular",
     "direction": "outbound",
@@ -3745,12 +4025,48 @@
         "departureTime": "13:37:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_1251_24824",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24824",
+    "trainNumber": "836M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "12:51:00",
+        "departureTime": "12:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "12:54:00",
+        "departureTime": "12:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "12:57:00",
+        "departureTime": "12:58:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7832"
+    "throughTripId": "WD_INB_SZ-18_1258_24824",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-08_1308_8975",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8975",
     "trainNumber": "436M",
     "trainType": "regular",
     "direction": "inbound",
@@ -3807,18 +4123,19 @@
         "departureTime": "13:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8975"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-19_1321_21542",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21542",
     "trainNumber": "833M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -3841,11 +4158,40 @@
         "isPassing": false
       }
     ],
-    "trainId": "21542"
+    "prevTripId": "WD_OUT_SZ-01_1152_21577",
+    "prevLineId": "senzan"
+  },
+  {
+    "tripId": "WD_INB_OFS-18_1332_19194",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "19194",
+    "trainNumber": "336D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "OFS-18",
+    "destinationStationId": "OFS-17",
+    "customOrigin": "寒河江",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "13:36:00",
+        "departureTime": "13:36:00",
+        "isPassing": false
+      }
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_1332_7865",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7865",
     "trainNumber": "1437M",
     "trainType": "regular",
     "direction": "outbound",
@@ -3968,66 +4314,12 @@
         "departureTime": "14:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7865"
-  },
-  {
-    "tripId": "WD_INB_OFS-18_1332_19194",
-    "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "336D",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "OFS-18",
-    "destinationStationId": "OFS-17",
-    "customOrigin": "寒河江",
-    "cars": 4,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "OFS-18",
-        "arrivalTime": "13:32:00",
-        "departureTime": "13:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-17",
-        "arrivalTime": "13:36:00",
-        "departureTime": "13:36:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "19194"
-  },
-  {
-    "tripId": "WD_INB_OFS-18_1332_19203",
-    "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "336D",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "OFS-18",
-    "destinationStationId": "OFS-17",
-    "customOrigin": "左沢",
-    "cars": 4,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "OFS-18",
-        "arrivalTime": "13:32:00",
-        "departureTime": "13:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-17",
-        "arrivalTime": "13:36:00",
-        "departureTime": "13:36:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "19203"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-08_1340_7844",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7844",
     "trainNumber": "443M",
     "trainType": "regular",
     "direction": "outbound",
@@ -4096,18 +4388,55 @@
         "departureTime": "14:25:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_1349_24813",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24813",
+    "trainNumber": "3838M",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "13:49:00",
+        "departureTime": "13:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "13:51:00",
+        "departureTime": "13:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "13:55:00",
+        "departureTime": "13:55:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7844"
+    "throughTripId": "WD_INB_SZ-18_1355_24813",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-19_1405_21556",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21556",
     "trainNumber": "3835M",
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4130,11 +4459,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21556"
+    "prevTripId": "WD_OUT_SZ-01_1251_21591",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_OUT_OFS-17_1412_7859",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7859",
     "trainNumber": "1439M",
     "trainType": "regular",
     "direction": "outbound",
@@ -4221,12 +4552,12 @@
         "departureTime": "14:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7859"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-35_1419_9115",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9115",
     "trainNumber": "1440M",
     "trainType": "regular",
     "direction": "inbound",
@@ -4349,12 +4680,12 @@
         "departureTime": "15:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9115"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-17_1421_8985",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8985",
     "trainNumber": "440M",
     "trainType": "regular",
     "direction": "inbound",
@@ -4423,12 +4754,12 @@
         "departureTime": "15:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8985"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_1425_19195",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19195",
     "trainNumber": "1338D",
     "trainType": "regular",
     "direction": "inbound",
@@ -4450,12 +4781,12 @@
         "departureTime": "14:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19195"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-08_1426_7845",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7845",
     "trainNumber": "445M",
     "trainType": "regular",
     "direction": "outbound",
@@ -4524,12 +4855,12 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7845"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_1452_7866",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7866",
     "trainNumber": "1441M",
     "trainType": "regular",
     "direction": "outbound",
@@ -4652,18 +4983,19 @@
         "departureTime": "16:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7866"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-19_1507_21543",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21543",
     "trainNumber": "837M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -4686,11 +5018,49 @@
         "isPassing": false
       }
     ],
-    "trainId": "21543"
+    "prevTripId": "WD_OUT_SZ-01_1344_21578",
+    "prevLineId": "senzan"
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_1507_24825",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24825",
+    "trainNumber": "840M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "15:07:00",
+        "departureTime": "15:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "15:11:00",
+        "departureTime": "15:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "15:15:00",
+        "departureTime": "15:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_SZ-18_1515_24825",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-17_1524_8986",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8986",
     "trainNumber": "442M",
     "trainType": "regular",
     "direction": "inbound",
@@ -4759,12 +5129,12 @@
         "departureTime": "16:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8986"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-08_1528_7846",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7846",
     "trainNumber": "447M",
     "trainType": "regular",
     "direction": "outbound",
@@ -4833,12 +5203,12 @@
         "departureTime": "16:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7846"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_1532_19196",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19196",
     "trainNumber": "1340D",
     "trainType": "regular",
     "direction": "inbound",
@@ -4860,12 +5230,12 @@
         "departureTime": "15:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19196"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_1544_7867",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7867",
     "trainNumber": "1443M",
     "trainType": "regular",
     "direction": "outbound",
@@ -4988,12 +5358,12 @@
         "departureTime": "17:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7867"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-29_1550_9107",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9107",
     "trainNumber": "1442M",
     "trainType": "regular",
     "direction": "inbound",
@@ -5080,12 +5450,48 @@
         "departureTime": "16:27:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_INB_OFS-19_1604_21544",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "21544",
+    "trainNumber": "839M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "OFS-19",
+    "destinationStationId": "OFS-17",
+    "customOrigin": "仙台",
+    "customDestination": "山形",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "16:03:00",
+        "departureTime": "16:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "16:07:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "16:17:00",
+        "departureTime": "16:17:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "9107"
+    "prevTripId": "WD_OUT_SZ-01_1440_21579",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_OUT_OFS-01_1604_7826",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7826",
     "trainNumber": "5425M",
     "trainType": "regular",
     "direction": "outbound",
@@ -5112,45 +5518,48 @@
         "departureTime": "16:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7826"
+    ]
   },
   {
-    "tripId": "WD_INB_OFS-19_1604_21544",
+    "tripId": "WD_OUT_OFS-17_1609_24826",
     "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "839M",
+    "trainId": "24826",
+    "trainNumber": "842M",
     "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "OFS-19",
-    "destinationStationId": "OFS-17",
-    "customOrigin": "仙台",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": false,
     "stops": [
       {
-        "stationId": "OFS-19",
-        "arrivalTime": "16:03:00",
-        "departureTime": "16:04:00",
+        "stationId": "OFS-17",
+        "arrivalTime": "16:09:00",
+        "departureTime": "16:09:00",
         "isPassing": false
       },
       {
         "stationId": "OFS-18",
-        "arrivalTime": "16:07:00",
-        "departureTime": "16:13:00",
+        "arrivalTime": "16:12:00",
+        "departureTime": "16:14:00",
         "isPassing": false
       },
       {
-        "stationId": "OFS-17",
-        "arrivalTime": "16:17:00",
-        "departureTime": "16:17:00",
+        "stationId": "OFS-19",
+        "arrivalTime": "16:18:00",
+        "departureTime": "16:21:00",
         "isPassing": false
       }
     ],
-    "trainId": "21544"
+    "throughTripId": "WD_INB_SZ-18_1621_24826",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-35_1614_9116",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9116",
     "trainNumber": "1444M",
     "trainType": "regular",
     "direction": "inbound",
@@ -5273,12 +5682,12 @@
         "departureTime": "17:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9116"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_1617_19197",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19197",
     "trainNumber": "1342D",
     "trainType": "regular",
     "direction": "inbound",
@@ -5300,12 +5709,12 @@
         "departureTime": "16:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19197"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-03_1621_9133",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9133",
     "trainNumber": "5426M",
     "trainType": "regular",
     "direction": "inbound",
@@ -5332,12 +5741,12 @@
         "departureTime": "16:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9133"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_1621_7868",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7868",
     "trainNumber": "1445M",
     "trainType": "regular",
     "direction": "outbound",
@@ -5460,12 +5869,12 @@
         "departureTime": "17:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7868"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-08_1627_7847",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7847",
     "trainNumber": "449M",
     "trainType": "regular",
     "direction": "outbound",
@@ -5534,12 +5943,12 @@
         "departureTime": "17:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7847"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-17_1630_8987",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8987",
     "trainNumber": "444M",
     "trainType": "regular",
     "direction": "inbound",
@@ -5608,12 +6017,12 @@
         "departureTime": "17:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8987"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_1654_19204",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19204",
     "trainNumber": "344D",
     "trainType": "regular",
     "direction": "inbound",
@@ -5635,18 +6044,55 @@
         "departureTime": "16:58:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_1706_24815",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24815",
+    "trainNumber": "4844M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "17:09:00",
+        "departureTime": "17:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "17:14:00",
+        "departureTime": "17:17:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "19204"
+    "throughTripId": "WD_INB_SZ-18_1717_24815",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-19_1707_21545",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21545",
     "trainNumber": "841M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -5669,11 +6115,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21545"
+    "prevTripId": "WD_OUT_SZ-01_1545_21580",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-35_1723_9117",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9117",
     "trainNumber": "1446M",
     "trainType": "regular",
     "direction": "inbound",
@@ -5796,12 +6244,12 @@
         "departureTime": "18:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9117"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-08_1729_7848",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7848",
     "trainNumber": "453M",
     "trainType": "regular",
     "direction": "outbound",
@@ -5870,12 +6318,12 @@
         "departureTime": "18:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7848"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-17_1735_8988",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8988",
     "trainNumber": "448M",
     "trainType": "regular",
     "direction": "inbound",
@@ -5944,12 +6392,12 @@
         "departureTime": "18:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8988"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-01_1743_7833",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7833",
     "trainNumber": "451M",
     "trainType": "regular",
     "direction": "outbound",
@@ -6006,12 +6454,12 @@
         "departureTime": "18:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7833"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-08_1744_8976",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8976",
     "trainNumber": "446M",
     "trainType": "regular",
     "direction": "inbound",
@@ -6068,12 +6516,12 @@
         "departureTime": "18:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8976"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_1754_7869",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7869",
     "trainNumber": "1447M",
     "trainType": "regular",
     "direction": "outbound",
@@ -6196,12 +6644,12 @@
         "departureTime": "19:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7869"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_1755_19205",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19205",
     "trainNumber": "346D",
     "trainType": "regular",
     "direction": "inbound",
@@ -6223,12 +6671,12 @@
         "departureTime": "17:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19205"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-35_1800_9118",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9118",
     "trainNumber": "1448M",
     "trainType": "regular",
     "direction": "inbound",
@@ -6351,18 +6799,19 @@
         "departureTime": "19:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9118"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-19_1802_21548",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21548",
     "trainNumber": "4843M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6385,11 +6834,49 @@
         "isPassing": false
       }
     ],
-    "trainId": "21548"
+    "prevTripId": "WD_OUT_SZ-01_1639_21583",
+    "prevLineId": "senzan"
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_1802_24827",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24827",
+    "trainNumber": "846M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "18:05:00",
+        "departureTime": "18:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "18:09:00",
+        "departureTime": "18:10:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_SZ-18_1810_24827",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-17_1839_8989",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8989",
     "trainNumber": "452M",
     "trainType": "regular",
     "direction": "inbound",
@@ -6458,12 +6945,12 @@
         "departureTime": "19:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8989"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-08_1840_7849",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7849",
     "trainNumber": "455M",
     "trainType": "regular",
     "direction": "outbound",
@@ -6532,12 +7019,12 @@
         "departureTime": "19:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7849"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-01_1841_7827",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7827",
     "trainNumber": "5427M",
     "trainType": "regular",
     "direction": "outbound",
@@ -6564,12 +7051,12 @@
         "departureTime": "18:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7827"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-08_1842_8977",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8977",
     "trainNumber": "450M",
     "trainType": "regular",
     "direction": "inbound",
@@ -6626,18 +7113,55 @@
         "departureTime": "19:28:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_1852_24816",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24816",
+    "trainNumber": "4848M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "18:52:00",
+        "departureTime": "18:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "18:55:00",
+        "departureTime": "19:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "19:03:00",
+        "departureTime": "19:04:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "8977"
+    "throughTripId": "WD_INB_SZ-18_1904_24816",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-19_1856_21546",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21546",
     "trainNumber": "845M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -6660,11 +7184,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21546"
+    "prevTripId": "WD_OUT_SZ-01_1735_21581",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-18_1857_19206",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19206",
     "trainNumber": "348D",
     "trainType": "regular",
     "direction": "inbound",
@@ -6686,12 +7212,12 @@
         "departureTime": "19:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19206"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-03_1858_9134",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9134",
     "trainNumber": "5428M",
     "trainType": "regular",
     "direction": "inbound",
@@ -6718,12 +7244,12 @@
         "departureTime": "19:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9134"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_1900_7870",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7870",
     "trainNumber": "1449M",
     "trainType": "regular",
     "direction": "outbound",
@@ -6846,12 +7372,12 @@
         "departureTime": "20:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7870"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-35_1916_9119",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9119",
     "trainNumber": "1450M",
     "trainType": "regular",
     "direction": "inbound",
@@ -6974,12 +7500,12 @@
         "departureTime": "20:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9119"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-08_1928_7850",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7850",
     "trainNumber": "457M",
     "trainType": "regular",
     "direction": "outbound",
@@ -7048,12 +7574,12 @@
         "departureTime": "20:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7850"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-01_1941_7834",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7834",
     "trainNumber": "459M",
     "trainType": "regular",
     "direction": "outbound",
@@ -7110,18 +7636,55 @@
         "departureTime": "20:27:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_1945_24817",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24817",
+    "trainNumber": "4850M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "19:45:00",
+        "departureTime": "19:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "19:48:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "19:54:00",
+        "departureTime": "19:55:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7834"
+    "throughTripId": "WD_INB_SZ-18_1955_24817",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-19_1947_21549",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21549",
     "trainNumber": "4847M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7144,11 +7707,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21549"
+    "prevTripId": "WD_OUT_SZ-01_1825_21584",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-17_1950_8990",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8990",
     "trainNumber": "454M",
     "trainType": "regular",
     "direction": "inbound",
@@ -7217,12 +7782,12 @@
         "departureTime": "20:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8990"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_1958_7855",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7855",
     "trainNumber": "1451M",
     "trainType": "regular",
     "direction": "outbound",
@@ -7279,12 +7844,12 @@
         "departureTime": "20:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7855"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_2002_19207",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19207",
     "trainNumber": "350D",
     "trainType": "regular",
     "direction": "inbound",
@@ -7306,12 +7871,12 @@
         "departureTime": "20:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19207"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_2020_7871",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7871",
     "trainNumber": "1453M",
     "trainType": "regular",
     "direction": "outbound",
@@ -7434,18 +7999,19 @@
         "departureTime": "21:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7871"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-19_2021_21550",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21550",
     "trainNumber": "4849M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7468,11 +8034,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21550"
+    "prevTripId": "WD_OUT_SZ-01_1900_21585",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_OUT_OFS-08_2029_7851",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7851",
     "trainNumber": "461M",
     "trainType": "regular",
     "direction": "outbound",
@@ -7541,12 +8109,48 @@
         "departureTime": "21:15:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_2035_24818",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24818",
+    "trainNumber": "4852M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "20:35:00",
+        "departureTime": "20:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "20:41:00",
+        "departureTime": "20:41:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7851"
+    "throughTripId": "WD_INB_SZ-18_2041_24818",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-08_2041_8978",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8978",
     "trainNumber": "456M",
     "trainType": "regular",
     "direction": "inbound",
@@ -7603,12 +8207,12 @@
         "departureTime": "21:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8978"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-24_2044_9103",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9103",
     "trainNumber": "1452M",
     "trainType": "regular",
     "direction": "inbound",
@@ -7665,12 +8269,12 @@
         "departureTime": "21:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9103"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-01_2049_7828",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7828",
     "trainNumber": "5429M",
     "trainType": "regular",
     "direction": "outbound",
@@ -7697,12 +8301,12 @@
         "departureTime": "20:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7828"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-17_2050_8991",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8991",
     "trainNumber": "458M",
     "trainType": "regular",
     "direction": "inbound",
@@ -7771,12 +8375,12 @@
         "departureTime": "21:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8991"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-35_2052_9120",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9120",
     "trainNumber": "1454M",
     "trainType": "regular",
     "direction": "inbound",
@@ -7899,12 +8503,12 @@
         "departureTime": "21:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9120"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-03_2106_9135",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9135",
     "trainNumber": "5430M",
     "trainType": "regular",
     "direction": "inbound",
@@ -7931,12 +8535,12 @@
         "departureTime": "21:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9135"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-18_2119_19208",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19208",
     "trainNumber": "352D",
     "trainType": "regular",
     "direction": "inbound",
@@ -7958,18 +8562,19 @@
         "departureTime": "21:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19208"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-19_2126_21551",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21551",
     "trainNumber": "4851M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -7992,11 +8597,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21551"
+    "prevTripId": "WD_OUT_SZ-01_2007_21586",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_OUT_OFS-17_2133_7872",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7872",
     "trainNumber": "1455M",
     "trainType": "regular",
     "direction": "outbound",
@@ -8119,12 +8726,12 @@
         "departureTime": "22:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7872"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-01_2141_7835",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7835",
     "trainNumber": "465M",
     "trainType": "regular",
     "direction": "outbound",
@@ -8181,86 +8788,12 @@
         "departureTime": "22:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7835"
-  },
-  {
-    "tripId": "WD_OUT_OFS-08_2144_7852",
-    "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "463M",
-    "trainType": "regular",
-    "direction": "outbound",
-    "originStationId": "OFS-08",
-    "destinationStationId": "OFS-17",
-    "cars": 4,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "OFS-08",
-        "arrivalTime": "21:44:00",
-        "departureTime": "21:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-09",
-        "arrivalTime": "21:49:00",
-        "departureTime": "21:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-10",
-        "arrivalTime": "21:53:00",
-        "departureTime": "21:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-11",
-        "arrivalTime": "21:58:00",
-        "departureTime": "21:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-12",
-        "arrivalTime": "22:06:00",
-        "departureTime": "22:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-13",
-        "arrivalTime": "22:11:00",
-        "departureTime": "22:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-14",
-        "arrivalTime": "22:16:00",
-        "departureTime": "22:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-15",
-        "arrivalTime": "22:20:00",
-        "departureTime": "22:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-16",
-        "arrivalTime": "22:24:00",
-        "departureTime": "22:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-17",
-        "arrivalTime": "22:30:00",
-        "departureTime": "22:30:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "7852"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-17_2144_8992",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8992",
     "trainNumber": "460M",
     "trainType": "regular",
     "direction": "inbound",
@@ -8329,12 +8862,122 @@
         "departureTime": "22:29:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-08_2144_7852",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "7852",
+    "trainNumber": "463M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-08",
+    "destinationStationId": "OFS-17",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-08",
+        "arrivalTime": "21:44:00",
+        "departureTime": "21:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-09",
+        "arrivalTime": "21:49:00",
+        "departureTime": "21:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-10",
+        "arrivalTime": "21:53:00",
+        "departureTime": "21:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-11",
+        "arrivalTime": "21:58:00",
+        "departureTime": "21:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-12",
+        "arrivalTime": "22:06:00",
+        "departureTime": "22:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-13",
+        "arrivalTime": "22:11:00",
+        "departureTime": "22:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-14",
+        "arrivalTime": "22:16:00",
+        "departureTime": "22:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-15",
+        "arrivalTime": "22:20:00",
+        "departureTime": "22:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-16",
+        "arrivalTime": "22:24:00",
+        "departureTime": "22:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "22:30:00",
+        "departureTime": "22:30:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_OFS-17_2146_24819",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24819",
+    "trainNumber": "4854M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "21:46:00",
+        "departureTime": "21:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "21:48:00",
+        "departureTime": "21:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "21:52:00",
+        "departureTime": "21:53:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "8992"
+    "throughTripId": "WD_INB_SZ-18_2153_24819",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "WD_INB_OFS-18_2225_19209",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19209",
     "trainNumber": "354D",
     "trainType": "regular",
     "direction": "inbound",
@@ -8356,12 +8999,12 @@
         "departureTime": "22:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19209"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-01_2231_7829",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7829",
     "trainNumber": "5431M",
     "trainType": "regular",
     "direction": "outbound",
@@ -8388,12 +9031,48 @@
         "departureTime": "22:39:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "WD_INB_OFS-19_2236_21552",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "21552",
+    "trainNumber": "4853M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "OFS-19",
+    "destinationStationId": "OFS-17",
+    "customOrigin": "仙台",
+    "customDestination": "山形",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "22:35:00",
+        "departureTime": "22:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "22:39:00",
+        "departureTime": "22:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "22:43:00",
+        "departureTime": "22:43:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7829"
+    "prevTripId": "WD_OUT_SZ-01_2118_21587",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_OUT_OFS-08_2236_7853",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7853",
     "trainNumber": "467M",
     "trainType": "regular",
     "direction": "outbound",
@@ -8462,45 +9141,12 @@
         "departureTime": "23:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7853"
-  },
-  {
-    "tripId": "WD_INB_OFS-19_2236_21552",
-    "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "4853M",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "OFS-19",
-    "destinationStationId": "OFS-17",
-    "customOrigin": "仙台",
-    "cars": 4,
-    "isHoliday": false,
-    "stops": [
-      {
-        "stationId": "OFS-19",
-        "arrivalTime": "22:35:00",
-        "departureTime": "22:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-18",
-        "arrivalTime": "22:39:00",
-        "departureTime": "22:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-17",
-        "arrivalTime": "22:43:00",
-        "departureTime": "22:43:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "21552"
+    ]
   },
   {
     "tripId": "WD_OUT_OFS-17_2241_7873",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7873",
     "trainNumber": "1457M",
     "trainType": "regular",
     "direction": "outbound",
@@ -8623,12 +9269,12 @@
         "departureTime": "23:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7873"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-17_2246_8993",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8993",
     "trainNumber": "462M",
     "trainType": "regular",
     "direction": "inbound",
@@ -8697,18 +9343,19 @@
         "departureTime": "23:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8993"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-19_2331_21553",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21553",
     "trainNumber": "4855M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": false,
     "stops": [
@@ -8731,11 +9378,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21553"
+    "prevTripId": "WD_OUT_SZ-01_2215_21588",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "WD_OUT_OFS-17_2340_7856",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7856",
     "trainNumber": "1459M",
     "trainType": "regular",
     "direction": "outbound",
@@ -8792,12 +9441,12 @@
         "departureTime": "23:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7856"
+    ]
   },
   {
     "tripId": "WD_INB_OFS-17_2342_8994",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8994",
     "trainNumber": "464M",
     "trainType": "regular",
     "direction": "inbound",
@@ -8866,12 +9515,48 @@
         "departureTime": "00:27:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_0542_24810",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24810",
+    "trainNumber": "3820M",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "05:42:00",
+        "departureTime": "05:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "05:44:00",
+        "departureTime": "05:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "05:48:00",
+        "departureTime": "05:48:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "8994"
+    "throughTripId": "HD_INB_SZ-18_0548_24810",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-35_0547_9108",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9108",
     "trainNumber": "1420M",
     "trainType": "regular",
     "direction": "inbound",
@@ -8994,12 +9679,12 @@
         "departureTime": "06:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9108"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_0553_7860",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7860",
     "trainNumber": "1421M",
     "trainType": "regular",
     "direction": "outbound",
@@ -9122,12 +9807,12 @@
         "departureTime": "07:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7860"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-08_0604_7836",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7836",
     "trainNumber": "421M",
     "trainType": "regular",
     "direction": "outbound",
@@ -9196,12 +9881,12 @@
         "departureTime": "06:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7836"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-35_0624_9109",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9109",
     "trainNumber": "1424M",
     "trainType": "regular",
     "direction": "inbound",
@@ -9324,12 +10009,12 @@
         "departureTime": "07:46:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9109"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_0626_19198",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19198",
     "trainNumber": "320D",
     "trainType": "regular",
     "direction": "inbound",
@@ -9351,12 +10036,12 @@
         "departureTime": "06:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19198"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-17_0628_8995",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8995",
     "trainNumber": "420M",
     "trainType": "regular",
     "direction": "inbound",
@@ -9467,12 +10152,48 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_0631_24814",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24814",
+    "trainNumber": "4822M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "06:31:00",
+        "departureTime": "06:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "06:34:00",
+        "departureTime": "06:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:38:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "8995"
+    "throughTripId": "HD_INB_SZ-18_0638_24814",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_OUT_OFS-08_0644_7837",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7837",
     "trainNumber": "423M",
     "trainType": "regular",
     "direction": "outbound",
@@ -9541,12 +10262,12 @@
         "departureTime": "07:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7837"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_0645_19190",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19190",
     "trainNumber": "1322D",
     "trainType": "regular",
     "direction": "inbound",
@@ -9568,12 +10289,12 @@
         "departureTime": "06:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19190"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-03_0648_9131",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9131",
     "trainNumber": "5422M",
     "trainType": "regular",
     "direction": "inbound",
@@ -9600,12 +10321,12 @@
         "departureTime": "06:56:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9131"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-35_0653_9110",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9110",
     "trainNumber": "1426M",
     "trainType": "regular",
     "direction": "inbound",
@@ -9728,12 +10449,12 @@
         "departureTime": "08:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9110"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_0704_7861",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7861",
     "trainNumber": "1425M",
     "trainType": "regular",
     "direction": "outbound",
@@ -9856,12 +10577,48 @@
         "departureTime": "08:23:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_0710_24820",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24820",
+    "trainNumber": "824M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "07:10:00",
+        "departureTime": "07:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "07:12:00",
+        "departureTime": "07:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "07:16:00",
+        "departureTime": "07:16:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7861"
+    "throughTripId": "HD_INB_SZ-18_0716_24820",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_OUT_OFS-01_0714_7830",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7830",
     "trainNumber": "427M",
     "trainType": "regular",
     "direction": "outbound",
@@ -9918,86 +10675,12 @@
         "departureTime": "08:00:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7830"
-  },
-  {
-    "tripId": "HD_OUT_OFS-08_0715_7838",
-    "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "425M",
-    "trainType": "regular",
-    "direction": "outbound",
-    "originStationId": "OFS-08",
-    "destinationStationId": "OFS-17",
-    "cars": 4,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "OFS-08",
-        "arrivalTime": "07:15:00",
-        "departureTime": "07:15:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-09",
-        "arrivalTime": "07:19:00",
-        "departureTime": "07:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-10",
-        "arrivalTime": "07:24:00",
-        "departureTime": "07:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-11",
-        "arrivalTime": "07:29:00",
-        "departureTime": "07:30:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-12",
-        "arrivalTime": "07:37:00",
-        "departureTime": "07:38:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-13",
-        "arrivalTime": "07:42:00",
-        "departureTime": "07:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-14",
-        "arrivalTime": "07:48:00",
-        "departureTime": "07:48:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-15",
-        "arrivalTime": "07:51:00",
-        "departureTime": "07:52:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-16",
-        "arrivalTime": "07:56:00",
-        "departureTime": "07:56:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-17",
-        "arrivalTime": "08:02:00",
-        "departureTime": "08:02:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "7838"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-17_0715_8979",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8979",
     "trainNumber": "422M",
     "trainType": "regular",
     "direction": "inbound",
@@ -10066,12 +10749,86 @@
         "departureTime": "08:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8979"
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-08_0715_7838",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "7838",
+    "trainNumber": "425M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-08",
+    "destinationStationId": "OFS-17",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-08",
+        "arrivalTime": "07:15:00",
+        "departureTime": "07:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-09",
+        "arrivalTime": "07:19:00",
+        "departureTime": "07:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-10",
+        "arrivalTime": "07:24:00",
+        "departureTime": "07:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-11",
+        "arrivalTime": "07:29:00",
+        "departureTime": "07:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-12",
+        "arrivalTime": "07:37:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-13",
+        "arrivalTime": "07:42:00",
+        "departureTime": "07:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-14",
+        "arrivalTime": "07:48:00",
+        "departureTime": "07:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-15",
+        "arrivalTime": "07:51:00",
+        "departureTime": "07:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-16",
+        "arrivalTime": "07:56:00",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "08:02:00",
+        "departureTime": "08:02:00",
+        "isPassing": false
+      }
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_0724_19199",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19199",
     "trainNumber": "324D",
     "trainType": "regular",
     "direction": "inbound",
@@ -10093,18 +10850,19 @@
         "departureTime": "07:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19199"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-19_0725_21547",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21547",
     "trainNumber": "4821M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -10127,11 +10885,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21547"
+    "prevTripId": "HD_OUT_SZ-01_0606_21582",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-35_0730_9111",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9111",
     "trainNumber": "1428M",
     "trainType": "regular",
     "direction": "inbound",
@@ -10254,12 +11014,12 @@
         "departureTime": "08:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9111"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-17_0741_8980",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8980",
     "trainNumber": "426M",
     "trainType": "regular",
     "direction": "inbound",
@@ -10328,12 +11088,12 @@
         "departureTime": "08:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8980"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-08_0807_8974",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8974",
     "trainNumber": "424M",
     "trainType": "regular",
     "direction": "inbound",
@@ -10390,12 +11150,12 @@
         "departureTime": "08:52:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8974"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_0807_19191",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19191",
     "trainNumber": "1326D",
     "trainType": "regular",
     "direction": "inbound",
@@ -10417,12 +11177,12 @@
         "departureTime": "08:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19191"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-01_0808_7831",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7831",
     "trainNumber": "431M",
     "trainType": "regular",
     "direction": "outbound",
@@ -10479,12 +11239,12 @@
         "departureTime": "08:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7831"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-08_0808_7839",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7839",
     "trainNumber": "429M",
     "trainType": "regular",
     "direction": "outbound",
@@ -10553,12 +11313,12 @@
         "departureTime": "08:53:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7839"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_0809_7857",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7857",
     "trainNumber": "1427M",
     "trainType": "regular",
     "direction": "outbound",
@@ -10645,12 +11405,12 @@
         "departureTime": "08:43:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7857"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-17_0816_8981",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8981",
     "trainNumber": "428M",
     "trainType": "regular",
     "direction": "inbound",
@@ -10719,18 +11479,55 @@
         "departureTime": "09:05:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_0818_24821",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24821",
+    "trainNumber": "826M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "08:18:00",
+        "departureTime": "08:18:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "08:20:00",
+        "departureTime": "08:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "08:24:00",
+        "departureTime": "08:26:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "8981"
+    "throughTripId": "HD_INB_SZ-18_0826_24821",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-19_0834_21539",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21539",
     "trainNumber": "823M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -10753,11 +11550,40 @@
         "isPassing": false
       }
     ],
-    "trainId": "21539"
+    "prevTripId": "HD_OUT_SZ-01_0714_21574",
+    "prevLineId": "senzan"
+  },
+  {
+    "tripId": "HD_INB_OFS-18_0842_19200",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "19200",
+    "trainNumber": "328D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "OFS-18",
+    "destinationStationId": "OFS-17",
+    "customOrigin": "左沢",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "08:42:00",
+        "departureTime": "08:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "08:46:00",
+        "departureTime": "08:46:00",
+        "isPassing": false
+      }
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_0842_7862",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7862",
     "trainNumber": "1429M",
     "trainType": "regular",
     "direction": "outbound",
@@ -10880,39 +11706,12 @@
         "departureTime": "09:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7862"
-  },
-  {
-    "tripId": "HD_INB_OFS-18_0842_19200",
-    "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "328D",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "OFS-18",
-    "destinationStationId": "OFS-17",
-    "customOrigin": "左沢",
-    "cars": 4,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "OFS-18",
-        "arrivalTime": "08:42:00",
-        "departureTime": "08:42:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-17",
-        "arrivalTime": "08:46:00",
-        "departureTime": "08:46:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "19200"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-29_0848_9105",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9105",
     "trainNumber": "1430M",
     "trainType": "regular",
     "direction": "inbound",
@@ -10999,12 +11798,12 @@
         "departureTime": "09:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9105"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-01_0904_7825",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7825",
     "trainNumber": "5423M",
     "trainType": "regular",
     "direction": "outbound",
@@ -11031,12 +11830,48 @@
         "departureTime": "09:12:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_0908_24822",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24822",
+    "trainNumber": "828M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "09:08:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "09:10:00",
+        "departureTime": "09:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "09:14:00",
+        "departureTime": "09:14:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7825"
+    "throughTripId": "HD_INB_SZ-18_0914_24822",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-03_0921_9132",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9132",
     "trainNumber": "5424M",
     "trainType": "regular",
     "direction": "inbound",
@@ -11063,12 +11898,12 @@
         "departureTime": "09:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9132"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_0926_19201",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19201",
     "trainNumber": "330D",
     "trainType": "regular",
     "direction": "inbound",
@@ -11090,12 +11925,12 @@
         "departureTime": "09:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19201"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-17_0934_8982",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8982",
     "trainNumber": "430M",
     "trainType": "regular",
     "direction": "inbound",
@@ -11164,12 +11999,12 @@
         "departureTime": "10:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8982"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-35_0934_9112",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9112",
     "trainNumber": "1432M",
     "trainType": "regular",
     "direction": "inbound",
@@ -11292,18 +12127,19 @@
         "departureTime": "10:45:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9112"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-19_0938_21540",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21540",
     "trainNumber": "825M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -11326,11 +12162,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21540"
+    "prevTripId": "HD_OUT_SZ-01_0818_21575",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_OUT_OFS-08_0940_7840",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7840",
     "trainNumber": "433M",
     "trainType": "regular",
     "direction": "outbound",
@@ -11399,12 +12237,12 @@
         "departureTime": "10:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7840"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-35_1007_9113",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9113",
     "trainNumber": "1434M",
     "trainType": "regular",
     "direction": "inbound",
@@ -11527,12 +12365,48 @@
         "departureTime": "11:20:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_1012_24811",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24811",
+    "trainNumber": "3830M",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "10:12:00",
+        "departureTime": "10:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "10:14:00",
+        "departureTime": "10:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "10:18:00",
+        "departureTime": "10:18:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "9113"
+    "throughTripId": "HD_INB_SZ-18_1018_24811",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_OUT_OFS-17_1020_7863",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7863",
     "trainNumber": "1431M",
     "trainType": "regular",
     "direction": "outbound",
@@ -11655,18 +12529,19 @@
         "departureTime": "11:28:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7863"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-19_1028_21554",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21554",
     "trainNumber": "3827M",
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -11689,11 +12564,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21554"
+    "prevTripId": "HD_OUT_SZ-01_0911_21589",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_OUT_OFS-08_1040_7841",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7841",
     "trainNumber": "435M",
     "trainType": "regular",
     "direction": "outbound",
@@ -11762,12 +12639,12 @@
         "departureTime": "11:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7841"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_1047_19192",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19192",
     "trainNumber": "332D",
     "trainType": "regular",
     "direction": "inbound",
@@ -11789,39 +12666,48 @@
         "departureTime": "10:51:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19192"
+    ]
   },
   {
-    "tripId": "HD_INB_OFS-18_1047_19202",
+    "tripId": "HD_OUT_OFS-17_1100_24823",
     "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "332D",
+    "trainId": "24823",
+    "trainNumber": "832M",
     "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "OFS-18",
-    "destinationStationId": "OFS-17",
-    "customOrigin": "左沢",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
       {
-        "stationId": "OFS-18",
-        "arrivalTime": "10:46:00",
-        "departureTime": "10:47:00",
+        "stationId": "OFS-17",
+        "arrivalTime": "11:00:00",
+        "departureTime": "11:00:00",
         "isPassing": false
       },
       {
-        "stationId": "OFS-17",
-        "arrivalTime": "10:51:00",
-        "departureTime": "10:51:00",
+        "stationId": "OFS-18",
+        "arrivalTime": "11:02:00",
+        "departureTime": "11:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "11:06:00",
+        "departureTime": "11:06:00",
         "isPassing": false
       }
     ],
-    "trainId": "19202"
+    "throughTripId": "HD_INB_SZ-18_1106_24823",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-17_1111_8983",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8983",
     "trainNumber": "432M",
     "trainType": "regular",
     "direction": "inbound",
@@ -11890,12 +12776,12 @@
         "departureTime": "12:03:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8983"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_1127_7864",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7864",
     "trainNumber": "1433M",
     "trainType": "regular",
     "direction": "outbound",
@@ -12018,18 +12904,19 @@
         "departureTime": "12:48:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7864"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-19_1135_21541",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21541",
     "trainNumber": "829M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -12052,11 +12939,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21541"
+    "prevTripId": "HD_OUT_SZ-01_1015_21576",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-35_1135_9114",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9114",
     "trainNumber": "1436M",
     "trainType": "regular",
     "direction": "inbound",
@@ -12179,12 +13068,12 @@
         "departureTime": "12:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9114"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-08_1141_7842",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7842",
     "trainNumber": "437M",
     "trainType": "regular",
     "direction": "outbound",
@@ -12253,12 +13142,48 @@
         "departureTime": "12:26:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_1200_24812",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24812",
+    "trainNumber": "3834M",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "12:00:00",
+        "departureTime": "12:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "12:02:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "12:06:00",
+        "departureTime": "12:06:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7842"
+    "throughTripId": "HD_INB_SZ-18_1206_24812",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-17_1216_8984",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8984",
     "trainNumber": "434M",
     "trainType": "regular",
     "direction": "inbound",
@@ -12327,12 +13252,12 @@
         "departureTime": "13:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8984"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_1218_19193",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19193",
     "trainNumber": "1334D",
     "trainType": "regular",
     "direction": "inbound",
@@ -12354,18 +13279,19 @@
         "departureTime": "12:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19193"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-19_1218_21555",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21555",
     "trainNumber": "3831M",
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -12388,11 +13314,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21555"
+    "prevTripId": "HD_OUT_SZ-01_1104_21590",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_OUT_OFS-08_1225_7843",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7843",
     "trainNumber": "439M",
     "trainType": "regular",
     "direction": "outbound",
@@ -12461,12 +13389,12 @@
         "departureTime": "13:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7843"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_1249_7858",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7858",
     "trainNumber": "1435M",
     "trainType": "regular",
     "direction": "outbound",
@@ -12553,12 +13481,12 @@
         "departureTime": "13:24:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7858"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-01_1251_7832",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7832",
     "trainNumber": "441M",
     "trainType": "regular",
     "direction": "outbound",
@@ -12615,12 +13543,48 @@
         "departureTime": "13:37:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_1251_24824",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24824",
+    "trainNumber": "836M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "12:51:00",
+        "departureTime": "12:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "12:54:00",
+        "departureTime": "12:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "12:57:00",
+        "departureTime": "12:58:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7832"
+    "throughTripId": "HD_INB_SZ-18_1258_24824",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-08_1308_8975",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8975",
     "trainNumber": "436M",
     "trainType": "regular",
     "direction": "inbound",
@@ -12677,18 +13641,19 @@
         "departureTime": "13:54:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8975"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-19_1321_21542",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21542",
     "trainNumber": "833M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -12711,11 +13676,40 @@
         "isPassing": false
       }
     ],
-    "trainId": "21542"
+    "prevTripId": "HD_OUT_SZ-01_1152_21577",
+    "prevLineId": "senzan"
+  },
+  {
+    "tripId": "HD_INB_OFS-18_1332_19194",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "19194",
+    "trainNumber": "336D",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "OFS-18",
+    "destinationStationId": "OFS-17",
+    "customOrigin": "寒河江",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "13:36:00",
+        "departureTime": "13:36:00",
+        "isPassing": false
+      }
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_1332_7865",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7865",
     "trainNumber": "1437M",
     "trainType": "regular",
     "direction": "outbound",
@@ -12838,66 +13832,12 @@
         "departureTime": "14:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7865"
-  },
-  {
-    "tripId": "HD_INB_OFS-18_1332_19194",
-    "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "336D",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "OFS-18",
-    "destinationStationId": "OFS-17",
-    "customOrigin": "寒河江",
-    "cars": 4,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "OFS-18",
-        "arrivalTime": "13:32:00",
-        "departureTime": "13:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-17",
-        "arrivalTime": "13:36:00",
-        "departureTime": "13:36:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "19194"
-  },
-  {
-    "tripId": "HD_INB_OFS-18_1332_19203",
-    "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "336D",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "OFS-18",
-    "destinationStationId": "OFS-17",
-    "customOrigin": "左沢",
-    "cars": 4,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "OFS-18",
-        "arrivalTime": "13:32:00",
-        "departureTime": "13:32:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-17",
-        "arrivalTime": "13:36:00",
-        "departureTime": "13:36:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "19203"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-29_1333_9106",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9106",
     "trainNumber": "1438M",
     "trainType": "regular",
     "direction": "inbound",
@@ -12984,12 +13924,12 @@
         "departureTime": "14:19:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9106"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-08_1340_7844",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7844",
     "trainNumber": "443M",
     "trainType": "regular",
     "direction": "outbound",
@@ -13058,18 +13998,55 @@
         "departureTime": "14:25:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_1349_24813",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24813",
+    "trainNumber": "3838M",
+    "trainType": "rapid",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "13:49:00",
+        "departureTime": "13:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "13:51:00",
+        "departureTime": "13:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "13:55:00",
+        "departureTime": "13:55:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7844"
+    "throughTripId": "HD_INB_SZ-18_1355_24813",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-19_1405_21556",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21556",
     "trainNumber": "3835M",
     "trainType": "rapid",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13092,11 +14069,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21556"
+    "prevTripId": "HD_OUT_SZ-01_1251_21591",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_OUT_OFS-17_1412_7859",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7859",
     "trainNumber": "1439M",
     "trainType": "regular",
     "direction": "outbound",
@@ -13183,12 +14162,12 @@
         "departureTime": "14:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7859"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-35_1419_9115",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9115",
     "trainNumber": "1440M",
     "trainType": "regular",
     "direction": "inbound",
@@ -13311,12 +14290,12 @@
         "departureTime": "15:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9115"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-17_1421_8985",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8985",
     "trainNumber": "440M",
     "trainType": "regular",
     "direction": "inbound",
@@ -13385,12 +14364,12 @@
         "departureTime": "15:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8985"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_1425_19195",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19195",
     "trainNumber": "1338D",
     "trainType": "regular",
     "direction": "inbound",
@@ -13412,12 +14391,12 @@
         "departureTime": "14:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19195"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-08_1426_7845",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7845",
     "trainNumber": "445M",
     "trainType": "regular",
     "direction": "outbound",
@@ -13486,12 +14465,12 @@
         "departureTime": "15:13:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7845"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_1452_7866",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7866",
     "trainNumber": "1441M",
     "trainType": "regular",
     "direction": "outbound",
@@ -13614,18 +14593,19 @@
         "departureTime": "16:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7866"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-19_1507_21543",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21543",
     "trainNumber": "837M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -13648,11 +14628,49 @@
         "isPassing": false
       }
     ],
-    "trainId": "21543"
+    "prevTripId": "HD_OUT_SZ-01_1344_21578",
+    "prevLineId": "senzan"
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_1507_24825",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24825",
+    "trainNumber": "840M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "15:07:00",
+        "departureTime": "15:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "15:11:00",
+        "departureTime": "15:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "15:15:00",
+        "departureTime": "15:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_SZ-18_1515_24825",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-17_1524_8986",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8986",
     "trainNumber": "442M",
     "trainType": "regular",
     "direction": "inbound",
@@ -13721,12 +14739,12 @@
         "departureTime": "16:11:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8986"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-08_1528_7846",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7846",
     "trainNumber": "447M",
     "trainType": "regular",
     "direction": "outbound",
@@ -13795,12 +14813,12 @@
         "departureTime": "16:17:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7846"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_1532_19196",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19196",
     "trainNumber": "1340D",
     "trainType": "regular",
     "direction": "inbound",
@@ -13822,12 +14840,12 @@
         "departureTime": "15:36:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19196"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_1544_7867",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7867",
     "trainNumber": "1443M",
     "trainType": "regular",
     "direction": "outbound",
@@ -13950,12 +14968,12 @@
         "departureTime": "17:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7867"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-29_1550_9107",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9107",
     "trainNumber": "1442M",
     "trainType": "regular",
     "direction": "inbound",
@@ -14042,12 +15060,48 @@
         "departureTime": "16:27:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_INB_OFS-19_1604_21544",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "21544",
+    "trainNumber": "839M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "OFS-19",
+    "destinationStationId": "OFS-17",
+    "customOrigin": "仙台",
+    "customDestination": "山形",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "16:03:00",
+        "departureTime": "16:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "16:07:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "16:17:00",
+        "departureTime": "16:17:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "9107"
+    "prevTripId": "HD_OUT_SZ-01_1440_21579",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_OUT_OFS-01_1604_7826",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7826",
     "trainNumber": "5425M",
     "trainType": "regular",
     "direction": "outbound",
@@ -14074,45 +15128,48 @@
         "departureTime": "16:12:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7826"
+    ]
   },
   {
-    "tripId": "HD_INB_OFS-19_1604_21544",
+    "tripId": "HD_OUT_OFS-17_1609_24826",
     "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "839M",
+    "trainId": "24826",
+    "trainNumber": "842M",
     "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "OFS-19",
-    "destinationStationId": "OFS-17",
-    "customOrigin": "仙台",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
     "cars": 4,
     "isHoliday": true,
     "stops": [
       {
-        "stationId": "OFS-19",
-        "arrivalTime": "16:03:00",
-        "departureTime": "16:04:00",
+        "stationId": "OFS-17",
+        "arrivalTime": "16:09:00",
+        "departureTime": "16:09:00",
         "isPassing": false
       },
       {
         "stationId": "OFS-18",
-        "arrivalTime": "16:07:00",
-        "departureTime": "16:13:00",
+        "arrivalTime": "16:12:00",
+        "departureTime": "16:14:00",
         "isPassing": false
       },
       {
-        "stationId": "OFS-17",
-        "arrivalTime": "16:17:00",
-        "departureTime": "16:17:00",
+        "stationId": "OFS-19",
+        "arrivalTime": "16:18:00",
+        "departureTime": "16:21:00",
         "isPassing": false
       }
     ],
-    "trainId": "21544"
+    "throughTripId": "HD_INB_SZ-18_1621_24826",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-35_1614_9116",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9116",
     "trainNumber": "1444M",
     "trainType": "regular",
     "direction": "inbound",
@@ -14235,12 +15292,12 @@
         "departureTime": "17:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9116"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_1617_19197",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19197",
     "trainNumber": "1342D",
     "trainType": "regular",
     "direction": "inbound",
@@ -14262,12 +15319,12 @@
         "departureTime": "16:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19197"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-03_1621_9133",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9133",
     "trainNumber": "5426M",
     "trainType": "regular",
     "direction": "inbound",
@@ -14294,12 +15351,12 @@
         "departureTime": "16:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9133"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_1621_7868",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7868",
     "trainNumber": "1445M",
     "trainType": "regular",
     "direction": "outbound",
@@ -14422,12 +15479,12 @@
         "departureTime": "17:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7868"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-08_1627_7847",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7847",
     "trainNumber": "449M",
     "trainType": "regular",
     "direction": "outbound",
@@ -14496,12 +15553,12 @@
         "departureTime": "17:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7847"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-17_1630_8987",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8987",
     "trainNumber": "444M",
     "trainType": "regular",
     "direction": "inbound",
@@ -14570,12 +15627,12 @@
         "departureTime": "17:16:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8987"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_1654_19204",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19204",
     "trainNumber": "344D",
     "trainType": "regular",
     "direction": "inbound",
@@ -14597,18 +15654,55 @@
         "departureTime": "16:58:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_1706_24815",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24815",
+    "trainNumber": "4844M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "17:06:00",
+        "departureTime": "17:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "17:09:00",
+        "departureTime": "17:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "17:14:00",
+        "departureTime": "17:17:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "19204"
+    "throughTripId": "HD_INB_SZ-18_1717_24815",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-19_1707_21545",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21545",
     "trainNumber": "841M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -14631,11 +15725,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21545"
+    "prevTripId": "HD_OUT_SZ-01_1545_21580",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-35_1723_9117",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9117",
     "trainNumber": "1446M",
     "trainType": "regular",
     "direction": "inbound",
@@ -14758,12 +15854,12 @@
         "departureTime": "18:35:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9117"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-08_1729_7848",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7848",
     "trainNumber": "453M",
     "trainType": "regular",
     "direction": "outbound",
@@ -14832,12 +15928,12 @@
         "departureTime": "18:21:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7848"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-17_1735_8988",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8988",
     "trainNumber": "448M",
     "trainType": "regular",
     "direction": "inbound",
@@ -14906,12 +16002,12 @@
         "departureTime": "18:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8988"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-01_1743_7833",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7833",
     "trainNumber": "451M",
     "trainType": "regular",
     "direction": "outbound",
@@ -14968,12 +16064,12 @@
         "departureTime": "18:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7833"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-08_1744_8976",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8976",
     "trainNumber": "446M",
     "trainType": "regular",
     "direction": "inbound",
@@ -15030,12 +16126,12 @@
         "departureTime": "18:30:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8976"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_1754_7869",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7869",
     "trainNumber": "1447M",
     "trainType": "regular",
     "direction": "outbound",
@@ -15158,12 +16254,12 @@
         "departureTime": "19:05:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7869"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_1755_19205",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19205",
     "trainNumber": "346D",
     "trainType": "regular",
     "direction": "inbound",
@@ -15185,12 +16281,12 @@
         "departureTime": "17:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19205"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-35_1800_9118",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9118",
     "trainNumber": "1448M",
     "trainType": "regular",
     "direction": "inbound",
@@ -15313,18 +16409,19 @@
         "departureTime": "19:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9118"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-19_1802_21548",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21548",
     "trainNumber": "4843M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15347,11 +16444,49 @@
         "isPassing": false
       }
     ],
-    "trainId": "21548"
+    "prevTripId": "HD_OUT_SZ-01_1639_21583",
+    "prevLineId": "senzan"
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_1802_24827",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24827",
+    "trainNumber": "846M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "18:05:00",
+        "departureTime": "18:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "18:09:00",
+        "departureTime": "18:10:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_SZ-18_1810_24827",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-17_1839_8989",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8989",
     "trainNumber": "452M",
     "trainType": "regular",
     "direction": "inbound",
@@ -15420,12 +16555,12 @@
         "departureTime": "19:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8989"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-08_1840_7849",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7849",
     "trainNumber": "455M",
     "trainType": "regular",
     "direction": "outbound",
@@ -15494,12 +16629,12 @@
         "departureTime": "19:25:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7849"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-01_1841_7827",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7827",
     "trainNumber": "5427M",
     "trainType": "regular",
     "direction": "outbound",
@@ -15526,12 +16661,12 @@
         "departureTime": "18:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7827"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-08_1842_8977",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8977",
     "trainNumber": "450M",
     "trainType": "regular",
     "direction": "inbound",
@@ -15588,18 +16723,55 @@
         "departureTime": "19:28:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_1852_24816",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24816",
+    "trainNumber": "4848M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "18:52:00",
+        "departureTime": "18:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "18:55:00",
+        "departureTime": "19:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "19:03:00",
+        "departureTime": "19:04:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "8977"
+    "throughTripId": "HD_INB_SZ-18_1904_24816",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-19_1856_21546",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21546",
     "trainNumber": "845M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -15622,11 +16794,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21546"
+    "prevTripId": "HD_OUT_SZ-01_1735_21581",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-18_1857_19206",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19206",
     "trainNumber": "348D",
     "trainType": "regular",
     "direction": "inbound",
@@ -15648,12 +16822,12 @@
         "departureTime": "19:01:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19206"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-03_1858_9134",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9134",
     "trainNumber": "5428M",
     "trainType": "regular",
     "direction": "inbound",
@@ -15680,12 +16854,12 @@
         "departureTime": "19:07:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9134"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_1900_7870",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7870",
     "trainNumber": "1449M",
     "trainType": "regular",
     "direction": "outbound",
@@ -15808,12 +16982,12 @@
         "departureTime": "20:10:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7870"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-35_1916_9119",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9119",
     "trainNumber": "1450M",
     "trainType": "regular",
     "direction": "inbound",
@@ -15936,12 +17110,12 @@
         "departureTime": "20:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9119"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-08_1928_7850",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7850",
     "trainNumber": "457M",
     "trainType": "regular",
     "direction": "outbound",
@@ -16010,12 +17184,12 @@
         "departureTime": "20:18:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7850"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-01_1941_7834",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7834",
     "trainNumber": "459M",
     "trainType": "regular",
     "direction": "outbound",
@@ -16072,18 +17246,55 @@
         "departureTime": "20:27:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_1945_24817",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24817",
+    "trainNumber": "4850M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "19:45:00",
+        "departureTime": "19:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "19:48:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "19:54:00",
+        "departureTime": "19:55:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7834"
+    "throughTripId": "HD_INB_SZ-18_1955_24817",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-19_1947_21549",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21549",
     "trainNumber": "4847M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -16106,11 +17317,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21549"
+    "prevTripId": "HD_OUT_SZ-01_1825_21584",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-17_1950_8990",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8990",
     "trainNumber": "454M",
     "trainType": "regular",
     "direction": "inbound",
@@ -16179,12 +17392,12 @@
         "departureTime": "20:39:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8990"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_1958_7855",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7855",
     "trainNumber": "1451M",
     "trainType": "regular",
     "direction": "outbound",
@@ -16241,12 +17454,12 @@
         "departureTime": "20:22:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7855"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_2002_19207",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19207",
     "trainNumber": "350D",
     "trainType": "regular",
     "direction": "inbound",
@@ -16268,12 +17481,12 @@
         "departureTime": "20:06:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19207"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_2020_7871",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7871",
     "trainNumber": "1453M",
     "trainType": "regular",
     "direction": "outbound",
@@ -16396,18 +17609,19 @@
         "departureTime": "21:32:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7871"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-19_2021_21550",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21550",
     "trainNumber": "4849M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -16430,11 +17644,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21550"
+    "prevTripId": "HD_OUT_SZ-01_1900_21585",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_OUT_OFS-08_2029_7851",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7851",
     "trainNumber": "461M",
     "trainType": "regular",
     "direction": "outbound",
@@ -16503,12 +17719,48 @@
         "departureTime": "21:15:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_2035_24818",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24818",
+    "trainNumber": "4852M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "20:35:00",
+        "departureTime": "20:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "20:41:00",
+        "departureTime": "20:41:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7851"
+    "throughTripId": "HD_INB_SZ-18_2041_24818",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-08_2041_8978",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8978",
     "trainNumber": "456M",
     "trainType": "regular",
     "direction": "inbound",
@@ -16565,12 +17817,12 @@
         "departureTime": "21:26:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8978"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-24_2044_9103",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9103",
     "trainNumber": "1452M",
     "trainType": "regular",
     "direction": "inbound",
@@ -16627,12 +17879,12 @@
         "departureTime": "21:04:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9103"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-01_2049_7828",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7828",
     "trainNumber": "5429M",
     "trainType": "regular",
     "direction": "outbound",
@@ -16659,12 +17911,12 @@
         "departureTime": "20:57:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7828"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-17_2050_8991",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8991",
     "trainNumber": "458M",
     "trainType": "regular",
     "direction": "inbound",
@@ -16733,12 +17985,12 @@
         "departureTime": "21:37:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8991"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-35_2052_9120",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9120",
     "trainNumber": "1454M",
     "trainType": "regular",
     "direction": "inbound",
@@ -16861,12 +18113,12 @@
         "departureTime": "21:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9120"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-03_2106_9135",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "9135",
     "trainNumber": "5430M",
     "trainType": "regular",
     "direction": "inbound",
@@ -16893,12 +18145,12 @@
         "departureTime": "21:14:00",
         "isPassing": false
       }
-    ],
-    "trainId": "9135"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-18_2119_19208",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19208",
     "trainNumber": "352D",
     "trainType": "regular",
     "direction": "inbound",
@@ -16920,18 +18172,19 @@
         "departureTime": "21:23:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19208"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-19_2126_21551",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21551",
     "trainNumber": "4851M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -16954,11 +18207,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21551"
+    "prevTripId": "HD_OUT_SZ-01_2007_21586",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_OUT_OFS-17_2133_7872",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7872",
     "trainNumber": "1455M",
     "trainType": "regular",
     "direction": "outbound",
@@ -17081,12 +18336,12 @@
         "departureTime": "22:42:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7872"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-01_2141_7835",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7835",
     "trainNumber": "465M",
     "trainType": "regular",
     "direction": "outbound",
@@ -17143,86 +18398,12 @@
         "departureTime": "22:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7835"
-  },
-  {
-    "tripId": "HD_OUT_OFS-08_2144_7852",
-    "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "463M",
-    "trainType": "regular",
-    "direction": "outbound",
-    "originStationId": "OFS-08",
-    "destinationStationId": "OFS-17",
-    "cars": 4,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "OFS-08",
-        "arrivalTime": "21:44:00",
-        "departureTime": "21:44:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-09",
-        "arrivalTime": "21:49:00",
-        "departureTime": "21:49:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-10",
-        "arrivalTime": "21:53:00",
-        "departureTime": "21:54:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-11",
-        "arrivalTime": "21:58:00",
-        "departureTime": "21:59:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-12",
-        "arrivalTime": "22:06:00",
-        "departureTime": "22:07:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-13",
-        "arrivalTime": "22:11:00",
-        "departureTime": "22:11:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-14",
-        "arrivalTime": "22:16:00",
-        "departureTime": "22:17:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-15",
-        "arrivalTime": "22:20:00",
-        "departureTime": "22:20:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-16",
-        "arrivalTime": "22:24:00",
-        "departureTime": "22:24:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-17",
-        "arrivalTime": "22:30:00",
-        "departureTime": "22:30:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "7852"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-17_2144_8992",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8992",
     "trainNumber": "460M",
     "trainType": "regular",
     "direction": "inbound",
@@ -17291,12 +18472,122 @@
         "departureTime": "22:29:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-08_2144_7852",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "7852",
+    "trainNumber": "463M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-08",
+    "destinationStationId": "OFS-17",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-08",
+        "arrivalTime": "21:44:00",
+        "departureTime": "21:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-09",
+        "arrivalTime": "21:49:00",
+        "departureTime": "21:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-10",
+        "arrivalTime": "21:53:00",
+        "departureTime": "21:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-11",
+        "arrivalTime": "21:58:00",
+        "departureTime": "21:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-12",
+        "arrivalTime": "22:06:00",
+        "departureTime": "22:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-13",
+        "arrivalTime": "22:11:00",
+        "departureTime": "22:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-14",
+        "arrivalTime": "22:16:00",
+        "departureTime": "22:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-15",
+        "arrivalTime": "22:20:00",
+        "departureTime": "22:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-16",
+        "arrivalTime": "22:24:00",
+        "departureTime": "22:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "22:30:00",
+        "departureTime": "22:30:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_OFS-17_2146_24819",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "24819",
+    "trainNumber": "4854M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "OFS-17",
+    "destinationStationId": "OFS-19",
+    "customOrigin": "山形",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "21:46:00",
+        "departureTime": "21:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "21:48:00",
+        "departureTime": "21:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "21:52:00",
+        "departureTime": "21:53:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "8992"
+    "throughTripId": "HD_INB_SZ-18_2153_24819",
+    "throughLineId": "senzan"
   },
   {
     "tripId": "HD_INB_OFS-18_2225_19209",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "19209",
     "trainNumber": "354D",
     "trainType": "regular",
     "direction": "inbound",
@@ -17318,12 +18609,12 @@
         "departureTime": "22:29:00",
         "isPassing": false
       }
-    ],
-    "trainId": "19209"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-01_2231_7829",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7829",
     "trainNumber": "5431M",
     "trainType": "regular",
     "direction": "outbound",
@@ -17350,12 +18641,48 @@
         "departureTime": "22:39:00",
         "isPassing": false
       }
+    ]
+  },
+  {
+    "tripId": "HD_INB_OFS-19_2236_21552",
+    "lineId": "ou_fukushima_shinjo",
+    "trainId": "21552",
+    "trainNumber": "4853M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "OFS-19",
+    "destinationStationId": "OFS-17",
+    "customOrigin": "仙台",
+    "customDestination": "山形",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "OFS-19",
+        "arrivalTime": "22:35:00",
+        "departureTime": "22:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-18",
+        "arrivalTime": "22:39:00",
+        "departureTime": "22:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "OFS-17",
+        "arrivalTime": "22:43:00",
+        "departureTime": "22:43:00",
+        "isPassing": false
+      }
     ],
-    "trainId": "7829"
+    "prevTripId": "HD_OUT_SZ-01_2118_21587",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_OUT_OFS-08_2236_7853",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7853",
     "trainNumber": "467M",
     "trainType": "regular",
     "direction": "outbound",
@@ -17424,45 +18751,12 @@
         "departureTime": "23:20:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7853"
-  },
-  {
-    "tripId": "HD_INB_OFS-19_2236_21552",
-    "lineId": "ou_fukushima_shinjo",
-    "trainNumber": "4853M",
-    "trainType": "regular",
-    "direction": "inbound",
-    "originStationId": "OFS-19",
-    "destinationStationId": "OFS-17",
-    "customOrigin": "仙台",
-    "cars": 4,
-    "isHoliday": true,
-    "stops": [
-      {
-        "stationId": "OFS-19",
-        "arrivalTime": "22:35:00",
-        "departureTime": "22:36:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-18",
-        "arrivalTime": "22:39:00",
-        "departureTime": "22:39:00",
-        "isPassing": false
-      },
-      {
-        "stationId": "OFS-17",
-        "arrivalTime": "22:43:00",
-        "departureTime": "22:43:00",
-        "isPassing": false
-      }
-    ],
-    "trainId": "21552"
+    ]
   },
   {
     "tripId": "HD_OUT_OFS-17_2241_7873",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7873",
     "trainNumber": "1457M",
     "trainType": "regular",
     "direction": "outbound",
@@ -17585,12 +18879,12 @@
         "departureTime": "23:49:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7873"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-17_2246_8993",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8993",
     "trainNumber": "462M",
     "trainType": "regular",
     "direction": "inbound",
@@ -17659,18 +18953,19 @@
         "departureTime": "23:33:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8993"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-19_2331_21553",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "21553",
     "trainNumber": "4855M",
     "trainType": "regular",
     "direction": "inbound",
     "originStationId": "OFS-19",
     "destinationStationId": "OFS-17",
     "customOrigin": "仙台",
+    "customDestination": "山形",
     "cars": 4,
     "isHoliday": true,
     "stops": [
@@ -17693,11 +18988,13 @@
         "isPassing": false
       }
     ],
-    "trainId": "21553"
+    "prevTripId": "HD_OUT_SZ-01_2215_21588",
+    "prevLineId": "senzan"
   },
   {
     "tripId": "HD_OUT_OFS-17_2340_7856",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "7856",
     "trainNumber": "1459M",
     "trainType": "regular",
     "direction": "outbound",
@@ -17754,12 +19051,12 @@
         "departureTime": "23:59:00",
         "isPassing": false
       }
-    ],
-    "trainId": "7856"
+    ]
   },
   {
     "tripId": "HD_INB_OFS-17_2342_8994",
     "lineId": "ou_fukushima_shinjo",
+    "trainId": "8994",
     "trainNumber": "464M",
     "trainType": "regular",
     "direction": "inbound",
@@ -17828,7 +19125,6 @@
         "departureTime": "00:27:00",
         "isPassing": false
       }
-    ],
-    "trainId": "8994"
+    ]
   }
 ]

@@ -2,7 +2,7 @@ import type { Station } from '../../../types';
 
 export const SENSEKI_TOHOKU_STATIONS: Station[] = [
   {
-    "id": "ST-01",
+    "id": "SST-01",
     "lineId": "senseki_tohoku",
     "number": 1,
     "name": "塩釜",
@@ -32,7 +32,7 @@ export const SENSEKI_TOHOKU_STATIONS: Station[] = [
     }
   },
   {
-    "id": "ST-02",
+    "id": "SST-02",
     "lineId": "senseki_tohoku",
     "number": 2,
     "name": "高城町",

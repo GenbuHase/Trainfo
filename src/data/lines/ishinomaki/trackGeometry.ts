@@ -3,9 +3,9 @@ import type { TrackSegment } from '../../../types';
 export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   {
     "id": "ishinomaki-seg-1",
-    "segmentId": "IS-01_IS-02",
-    "fromStationId": "IS-01",
-    "toStationId": "IS-02",
+    "segmentId": "ISM-01_IS-02",
+    "fromStationId": "ISM-01",
+    "toStationId": "ISM-02",
     "fromName": "小牛田",
     "toName": "上涌谷",
     "coordinates": [
@@ -245,9 +245,9 @@ export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   },
   {
     "id": "ishinomaki-seg-2",
-    "segmentId": "IS-02_IS-03",
-    "fromStationId": "IS-02",
-    "toStationId": "IS-03",
+    "segmentId": "ISM-02_IS-03",
+    "fromStationId": "ISM-02",
+    "toStationId": "ISM-03",
     "fromName": "上涌谷",
     "toName": "涌谷",
     "coordinates": [
@@ -407,9 +407,9 @@ export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   },
   {
     "id": "ishinomaki-seg-3",
-    "segmentId": "IS-03_IS-04",
-    "fromStationId": "IS-03",
-    "toStationId": "IS-04",
+    "segmentId": "ISM-03_IS-04",
+    "fromStationId": "ISM-03",
+    "toStationId": "ISM-04",
     "fromName": "涌谷",
     "toName": "前谷地",
     "coordinates": [
@@ -789,9 +789,9 @@ export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   },
   {
     "id": "ishinomaki-seg-4",
-    "segmentId": "IS-04_IS-05",
-    "fromStationId": "IS-04",
-    "toStationId": "IS-05",
+    "segmentId": "ISM-04_IS-05",
+    "fromStationId": "ISM-04",
+    "toStationId": "ISM-05",
     "fromName": "前谷地",
     "toName": "佳景山",
     "coordinates": [
@@ -1051,9 +1051,9 @@ export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   },
   {
     "id": "ishinomaki-seg-5",
-    "segmentId": "IS-05_IS-06",
-    "fromStationId": "IS-05",
-    "toStationId": "IS-06",
+    "segmentId": "ISM-05_IS-06",
+    "fromStationId": "ISM-05",
+    "toStationId": "ISM-06",
     "fromName": "佳景山",
     "toName": "鹿又",
     "coordinates": [
@@ -1281,9 +1281,9 @@ export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   },
   {
     "id": "ishinomaki-seg-6",
-    "segmentId": "IS-06_IS-07",
-    "fromStationId": "IS-06",
-    "toStationId": "IS-07",
+    "segmentId": "ISM-06_IS-07",
+    "fromStationId": "ISM-06",
+    "toStationId": "ISM-07",
     "fromName": "鹿又",
     "toName": "曽波神",
     "coordinates": [
@@ -1447,9 +1447,9 @@ export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   },
   {
     "id": "ishinomaki-seg-7",
-    "segmentId": "IS-07_IS-08",
-    "fromStationId": "IS-07",
-    "toStationId": "IS-08",
+    "segmentId": "ISM-07_IS-08",
+    "fromStationId": "ISM-07",
+    "toStationId": "ISM-08",
     "fromName": "曽波神",
     "toName": "石巻",
     "coordinates": [
@@ -1777,9 +1777,9 @@ export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   },
   {
     "id": "ishinomaki-seg-8",
-    "segmentId": "IS-08_IS-09",
-    "fromStationId": "IS-08",
-    "toStationId": "IS-09",
+    "segmentId": "ISM-08_IS-09",
+    "fromStationId": "ISM-08",
+    "toStationId": "ISM-09",
     "fromName": "石巻",
     "toName": "陸前稲井",
     "coordinates": [
@@ -2139,9 +2139,9 @@ export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   },
   {
     "id": "ishinomaki-seg-9",
-    "segmentId": "IS-09_IS-10",
-    "fromStationId": "IS-09",
-    "toStationId": "IS-10",
+    "segmentId": "ISM-09_IS-10",
+    "fromStationId": "ISM-09",
+    "toStationId": "ISM-10",
     "fromName": "陸前稲井",
     "toName": "渡波",
     "coordinates": [
@@ -2733,9 +2733,9 @@ export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   },
   {
     "id": "ishinomaki-seg-10",
-    "segmentId": "IS-10_IS-11",
-    "fromStationId": "IS-10",
-    "toStationId": "IS-11",
+    "segmentId": "ISM-10_IS-11",
+    "fromStationId": "ISM-10",
+    "toStationId": "ISM-11",
     "fromName": "渡波",
     "toName": "万石浦",
     "coordinates": [
@@ -2927,9 +2927,9 @@ export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   },
   {
     "id": "ishinomaki-seg-11",
-    "segmentId": "IS-11_IS-12",
-    "fromStationId": "IS-11",
-    "toStationId": "IS-12",
+    "segmentId": "ISM-11_IS-12",
+    "fromStationId": "ISM-11",
+    "toStationId": "ISM-12",
     "fromName": "万石浦",
     "toName": "沢田",
     "coordinates": [
@@ -3105,9 +3105,9 @@ export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   },
   {
     "id": "ishinomaki-seg-12",
-    "segmentId": "IS-12_IS-13",
-    "fromStationId": "IS-12",
-    "toStationId": "IS-13",
+    "segmentId": "ISM-12_IS-13",
+    "fromStationId": "ISM-12",
+    "toStationId": "ISM-13",
     "fromName": "沢田",
     "toName": "浦宿",
     "coordinates": [
@@ -3899,9 +3899,9 @@ export const ISHINOMAKI_TRACK_SEGMENTS: TrackSegment[] = [
   },
   {
     "id": "ishinomaki-seg-13",
-    "segmentId": "IS-13_IS-14",
-    "fromStationId": "IS-13",
-    "toStationId": "IS-14",
+    "segmentId": "ISM-13_IS-14",
+    "fromStationId": "ISM-13",
+    "toStationId": "ISM-14",
     "fromName": "浦宿",
     "toName": "女川",
     "coordinates": [
