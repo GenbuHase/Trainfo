@@ -110,6 +110,13 @@ export type LineId =
   | 'jr_biwako'
   | 'jr_kyoto'
   | 'jr_kobe'
+  | 'tohoku_kuroiso_fukushima'
+  | 'tohoku_fukushima_sendai'
+  | 'tohoku_sendai_ichinoseki'
+  | 'tohoku_rifu'
+  | 'tohoku_ichinoseki_morioka'
+  | 'igr_iwate_ginga'
+  | 'aoimori'
   | (string & {});
 
 

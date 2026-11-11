@@ -53,6 +53,16 @@ module.exports = {
     '特急': 'limited_express',
   },
   defaultCars: 5,
+  buildStationTimetablesFromTrips: true,
+  shouldExcludeTrip: (trainDetail) => {
+    const names = (trainDetail.stopStation || []).map((s) => (s.stationName || '').replace(/\([^)]+\)$/, ''));
+    const jobanSouth = new Set([
+      'いわき', '草野', '四ツ倉', '久ノ浜', '末続', '広野', 'Ｊヴィレッジ', '木戸', '竜田', '富岡',
+      '夜ノ森', '大野', '双葉', '浪江', '桃内', '小高', '磐城太田', '原ノ町', '鹿島', '日立木',
+      '相馬', '駒ケ嶺', '新地', '坂元', '山下', '浜吉田', '亘理', '逢隈',
+    ]);
+    return !names.some((n) => jobanSouth.has(n));
+  },
   baseSectionSeconds: {
     1: 360, // いわき -> 草野
     2: 360, // 草野 -> 四ツ倉

@@ -2187,6 +2187,132 @@ module.exports = {
       "dirA": "inbound",
       "dirB": "inbound",
       "maxTimeDiff": 360
+    },
+    {
+      "name": "東北本線（黒磯～福島） -> 東北本線（福島～仙台） (下り 福島経由 白石・仙台方面直通)",
+      "lineA": "tohoku_kuroiso_fukushima",
+      "lineB": "tohoku_fukushima_sendai",
+      "stationA": "TKF-24",
+      "stationB": "TFS-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "東北本線（福島～仙台） -> 東北本線（黒磯～福島） (上り 福島経由 郡山・新白河方面直通)",
+      "lineA": "tohoku_fukushima_sendai",
+      "lineB": "tohoku_kuroiso_fukushima",
+      "stationA": "TFS-01",
+      "stationB": "TKF-24",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "東北本線（福島～仙台） -> 東北本線（仙台～一ノ関） (下り 仙台経由 松島・小牛田方面直通)",
+      "lineA": "tohoku_fukushima_sendai",
+      "lineB": "tohoku_sendai_ichinoseki",
+      "stationA": "TFS-20",
+      "stationB": "TSI-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "東北本線（仙台～一ノ関） -> 東北本線（福島～仙台） (上り 仙台経由 岩沼・白石方面直通)",
+      "lineA": "tohoku_sendai_ichinoseki",
+      "lineB": "tohoku_fukushima_sendai",
+      "stationA": "TSI-01",
+      "stationB": "TFS-20",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "東北本線（仙台～一ノ関） -> 東北本線（利府支線） (下り 岩切経由 利府方面直通)",
+      "lineA": "tohoku_sendai_ichinoseki",
+      "lineB": "tohoku_rifu",
+      "stationA": "TSI-03",
+      "stationB": "TRF-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "allowMidStationA": true,
+      "truncateAAtStation": true,
+      "requireIdMatch": true,
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "東北本線（利府支線） -> 東北本線（仙台～一ノ関） (上り 岩切経由 仙台方面直通)",
+      "lineA": "tohoku_rifu",
+      "lineB": "tohoku_sendai_ichinoseki",
+      "stationA": "TRF-01",
+      "stationB": "TSI-03",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "allowMidStationB": true,
+      "truncateBFromStation": true,
+      "requireIdMatch": true,
+      "maxTimeDiff": 300
+    },
+    {
+      "name": "東北本線（仙台～一ノ関） -> 東北本線（一ノ関～盛岡） (下り 一ノ関経由 平泉・盛岡方面直通)",
+      "lineA": "tohoku_sendai_ichinoseki",
+      "lineB": "tohoku_ichinoseki_morioka",
+      "stationA": "TSI-22",
+      "stationB": "TIM-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "東北本線（一ノ関～盛岡） -> 東北本線（仙台～一ノ関） (上り 一ノ関経由 小牛田・仙台方面直通)",
+      "lineA": "tohoku_ichinoseki_morioka",
+      "lineB": "tohoku_sendai_ichinoseki",
+      "stationA": "TIM-01",
+      "stationB": "TSI-22",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "東北本線（一ノ関～盛岡） -> IGRいわて銀河鉄道線 (下り 盛岡経由 滝沢・いわて沼宮内方面直通)",
+      "lineA": "tohoku_ichinoseki_morioka",
+      "lineB": "igr_iwate_ginga",
+      "stationA": "TIM-20",
+      "stationB": "IGR-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "IGRいわて銀河鉄道線 -> 東北本線（一ノ関～盛岡） (上り 盛岡経由 北上・一ノ関方面直通)",
+      "lineA": "igr_iwate_ginga",
+      "lineB": "tohoku_ichinoseki_morioka",
+      "stationA": "IGR-01",
+      "stationB": "TIM-20",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "IGRいわて銀河鉄道線 -> 青い森鉄道線 (下り 目時経由 三戸・八戸方面直通)",
+      "lineA": "igr_iwate_ginga",
+      "lineB": "aoimori",
+      "stationA": "IGR-18",
+      "stationB": "AMR-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600
+    },
+    {
+      "name": "青い森鉄道線 -> IGRいわて銀河鉄道線 (上り 目時経由 二戸・盛岡方面直通)",
+      "lineA": "aoimori",
+      "lineB": "igr_iwate_ginga",
+      "stationA": "AMR-01",
+      "stationB": "IGR-18",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600
     }
   ],
   "destinationCompatibilityGroups": [
