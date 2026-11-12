@@ -490,21 +490,11 @@ export const ${spec.exportPrefix}_TRAIN_TYPES: Record<string, TrainTypeConfig> =
     key: 'rapid',
     name: 'BRT快速',
     nameEn: 'BRT Rapid',
-    shortName: 'BRT快',
+    shortName: 'BRT快速',
     color: '#0073bc',
     textColor: '#ffffff',
     bgColor: '#0073bc',
     borderColor: '#005a94',
-  },
-  regular: {
-    key: 'regular',
-    name: 'BRT',
-    nameEn: 'BRT',
-    shortName: 'BRT',
-    color: '${spec.lineColor}',
-    textColor: '${spec.badgeTextColor}',
-    bgColor: '${spec.lineColor}',
-    borderColor: '${spec.accentColor}',
   },
 };
 `

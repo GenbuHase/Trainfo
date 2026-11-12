@@ -11,7 +11,7 @@ export function getTrainTypes(selectedLineIds?: string[]): Record<string, TrainT
 
 // 各駅停車・普通系種別かどうかの共通判定
 export function isLocalTrainType(type: string): boolean {
-  return type === 'local' || type === 'regular';
+  return type === 'local' || type === 'regular' || type === 'brt' || type === 'substitution_bus';
 }
 
 export { getTrainTypeConfig };
