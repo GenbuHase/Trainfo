@@ -54,7 +54,7 @@ async function queryOverpass(query, cacheName) {
 }
 
 async function main() {
-  // グループ1: 仙山線・仙台空港線・北上線・大船渡線(鉄)・気仙沼線(鉄)・釜石線
+  // グループ1: 仙山線・仙台空港アクセス線・北上線・大船渡線(鉄)・気仙沼線(鉄)・釜石線
   await queryOverpass(
     `[out:json][timeout:180];
     (

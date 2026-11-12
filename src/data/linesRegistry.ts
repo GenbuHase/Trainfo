@@ -145,6 +145,34 @@ import { jrTaketoyoLine } from './lines/jr_taketoyo';
 import { jrTaitaLine } from './lines/jr_taita';
 import { jrMeishoLine } from './lines/jr_meisho';
 import { jrSanguLine } from './lines/jr_sangu';
+import { jrOsakaLoopLine } from './lines/jr_osaka_loop';
+import { jrYumesakiLine } from './lines/jr_yumesaki';
+import { jrTozaiLine } from './lines/jr_tozai';
+import { jrGakkenToshiLine } from './lines/jr_gakken_toshi';
+import { jrTakarazukaLine } from './lines/jr_takarazuka';
+import { jrFukuchiyamaNorthLine } from './lines/jr_fukuchiyama_north';
+import { jrYamatojiLine } from './lines/jr_yamatoji';
+import { jrOsakaHigashiLine } from './lines/jr_osaka_higashi';
+import { jrHanwaLine } from './lines/jr_hanwa';
+import { jrKansaiAirportLine } from './lines/jr_kansai_airport';
+import { jrHokurikuMaibaraTsurugaLine } from './lines/jr_hokuriku_maibara_tsuruga';
+import { jrSaganoLine } from './lines/jr_sagano';
+import { jrSaninSonobeKinosakiLine } from './lines/jr_sanin_sonobe_kinosaki';
+import { jrKoseiLine } from './lines/jr_kosei';
+import { jrKusatsuLine } from './lines/jr_kusatsu';
+import { jrNaraLine } from './lines/jr_nara';
+import { jrSakuraiLine } from './lines/jr_sakurai';
+import { jrWakayamaLine } from './lines/jr_wakayama';
+import { jrKinokuniLine } from './lines/jr_kinokuni';
+import { jrKansaiKameyamaKamoLine } from './lines/jr_kansai_kameyama_kamo';
+import { jrSanyoHimejiKamigoriLine } from './lines/jr_sanyo_himeji_kamigori';
+import { jrAkoLine } from './lines/jr_ako';
+import { jrKakogawaLine } from './lines/jr_kakogawa';
+import { jrKishinLine } from './lines/jr_kishin';
+import { jrBantanLine } from './lines/jr_bantan';
+import { jrMaizuruLine } from './lines/jr_maizuru';
+import { jrObamaLine } from './lines/jr_obama';
+import { jrWadamisakiLine } from './lines/jr_wadamisaki';
 
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
@@ -240,6 +268,34 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   jr_taita: jrTaitaLine,
   jr_meisho: jrMeishoLine,
   jr_sangu: jrSanguLine,
+  jr_osaka_loop: jrOsakaLoopLine,
+  jr_yumesaki: jrYumesakiLine,
+  jr_tozai: jrTozaiLine,
+  jr_gakken_toshi: jrGakkenToshiLine,
+  jr_takarazuka: jrTakarazukaLine,
+  jr_fukuchiyama_north: jrFukuchiyamaNorthLine,
+  jr_yamatoji: jrYamatojiLine,
+  jr_osaka_higashi: jrOsakaHigashiLine,
+  jr_hanwa: jrHanwaLine,
+  jr_kansai_airport: jrKansaiAirportLine,
+  jr_hokuriku_maibara_tsuruga: jrHokurikuMaibaraTsurugaLine,
+  jr_sagano: jrSaganoLine,
+  jr_sanin_sonobe_kinosaki: jrSaninSonobeKinosakiLine,
+  jr_kosei: jrKoseiLine,
+  jr_kusatsu: jrKusatsuLine,
+  jr_nara: jrNaraLine,
+  jr_sakurai: jrSakuraiLine,
+  jr_wakayama: jrWakayamaLine,
+  jr_kinokuni: jrKinokuniLine,
+  jr_kansai_kameyama_kamo: jrKansaiKameyamaKamoLine,
+  jr_sanyo_himeji_kamigori: jrSanyoHimejiKamigoriLine,
+  jr_ako: jrAkoLine,
+  jr_kakogawa: jrKakogawaLine,
+  jr_kishin: jrKishinLine,
+  jr_bantan: jrBantanLine,
+  jr_maizuru: jrMaizuruLine,
+  jr_obama: jrObamaLine,
+  jr_wadamisaki: jrWadamisakiLine,
   tokaido_shinkansen: tokaidoShinkansenLine,
   sanyo_shinkansen: sanyoShinkansenLine,
   jr_biwako: jrBiwakoLine,
@@ -465,6 +521,34 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
   jr_taita: 'tokai',
   jr_meisho: 'tokai',
   jr_sangu: 'tokai',
+  jr_osaka_loop: 'kansai',
+  jr_yumesaki: 'kansai',
+  jr_tozai: 'kansai',
+  jr_gakken_toshi: 'kansai',
+  jr_takarazuka: 'kansai',
+  jr_fukuchiyama_north: 'kansai',
+  jr_yamatoji: 'kansai',
+  jr_osaka_higashi: 'kansai',
+  jr_hanwa: 'kansai',
+  jr_kansai_airport: 'kansai',
+  jr_hokuriku_maibara_tsuruga: 'kansai',
+  jr_sagano: 'kansai',
+  jr_sanin_sonobe_kinosaki: 'kansai',
+  jr_kosei: 'kansai',
+  jr_kusatsu: 'kansai',
+  jr_nara: 'kansai',
+  jr_sakurai: 'kansai',
+  jr_wakayama: 'kansai',
+  jr_kinokuni: 'kansai',
+  jr_kansai_kameyama_kamo: 'kansai',
+  jr_sanyo_himeji_kamigori: 'kansai',
+  jr_ako: 'kansai',
+  jr_kakogawa: 'kansai',
+  jr_kishin: 'kansai',
+  jr_bantan: 'kansai',
+  jr_maizuru: 'kansai',
+  jr_obama: 'kansai',
+  jr_wadamisaki: 'kansai',
   tokaido_shinkansen: 'tokai',
   sanyo_shinkansen: 'kansai',
   jr_biwako: 'kansai',

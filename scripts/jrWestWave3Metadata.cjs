@@ -1,0 +1,325 @@
+// scripts/jrWestWave3Metadata.cjs
+/**
+ * JR西日本 近畿圏放射線・山陰・周辺7路線 (Wave 3) メタデータ定義
+ */
+
+module.exports = [
+  {
+    id: 'jr_sagano',
+    name: 'JR嵯峨野線',
+    shortName: '嵯峨野線',
+    operator: 'JR西日本',
+    lineColor: '#884898',
+    accentColor: '#ffffff',
+    defaultCars: 6,
+    stationList: [
+      { name: '京都', number: 'JR-E01' },
+      { name: '梅小路京都西', number: 'JR-E02' },
+      { name: '丹波口', number: 'JR-E03' },
+      { name: '二条', number: 'JR-E04' },
+      { name: '円町', number: 'JR-E05' },
+      { name: '花園', number: 'JR-E06' },
+      { name: '太秦', number: 'JR-E07' },
+      { name: '嵯峨嵐山', number: 'JR-E08' },
+      { name: '保津峡', number: 'JR-E09' },
+      { name: '馬堀', number: 'JR-E10' },
+      { name: '亀岡', number: 'JR-E11' },
+      { name: '並河', number: 'JR-E12' },
+      { name: '千代川', number: 'JR-E13' },
+      { name: '八木', number: 'JR-E14' },
+      { name: '吉富', number: 'JR-E15' },
+      { name: '園部', number: 'JR-E16' }
+    ],
+    n02LineName: '山陰線',
+    directionNames: {
+      inbound: '京都方面',
+      outbound: '亀岡・園部方面',
+      inboundFull: '上り 二条・京都方面',
+      outboundFull: '下り 亀岡・園部方面',
+      inboundShort: '京都方面',
+      outboundShort: '園部方面'
+    },
+    defaultTrainTypes: [
+      { id: 'local', name: '普通', shortName: '普通', color: '#884898' },
+      { id: 'rapid', name: '快速', shortName: '快速', color: '#ff7700' },
+      { id: 'limitedExp', name: '特急', shortName: '特急', color: '#e60012' }
+    ]
+  },
+  {
+    id: 'jr_sanin_sonobe_kinosaki',
+    name: 'JR山陰本線（園部～城崎温泉）',
+    shortName: '山陰本線（園部～城崎温泉）',
+    operator: 'JR西日本',
+    lineColor: '#884898',
+    accentColor: '#ffffff',
+    defaultCars: 2,
+    stationList: [
+      { name: '園部', number: undefined },
+      { name: '船岡', number: undefined },
+      { name: '日吉', number: undefined },
+      { name: '鍼灸大学前', number: undefined },
+      { name: '胡麻', number: undefined },
+      { name: '下山', number: undefined },
+      { name: '和知', number: undefined },
+      { name: '安栖里', number: undefined },
+      { name: '立木', number: undefined },
+      { name: '山家', number: undefined },
+      { name: '綾部', number: undefined },
+      { name: '高津', number: undefined },
+      { name: '石原', number: undefined },
+      { name: '福知山', number: undefined },
+      { name: '上川口', number: undefined },
+      { name: '下夜久野', number: undefined },
+      { name: '上夜久野', number: undefined },
+      { name: '梁瀬', number: undefined },
+      { name: '和田山', number: undefined },
+      { name: '養父', number: undefined },
+      { name: '八鹿', number: undefined },
+      { name: '江原', number: undefined },
+      { name: '国府', number: undefined },
+      { name: '豊岡', number: undefined },
+      { name: '玄武洞', number: undefined },
+      { name: '城崎温泉', number: undefined }
+    ],
+    n02LineName: '山陰線',
+    directionNames: {
+      inbound: '綾部・園部・京都方面',
+      outbound: '福知山・豊岡・城崎温泉方面',
+      inboundFull: '上り 綾部・園部・京都方面',
+      outboundFull: '下り 福知山・豊岡・城崎温泉方面',
+      inboundShort: '園部方面',
+      outboundShort: '城崎温泉方面'
+    },
+    defaultTrainTypes: [
+      { id: 'local', name: '普通', shortName: '普通', color: '#884898' },
+      { id: 'rapid', name: '快速', shortName: '快速', color: '#ff7700' },
+      { id: 'limitedExp', name: '特急', shortName: '特急', color: '#e60012' }
+    ]
+  },
+  {
+    id: 'jr_kosei',
+    name: 'JR湖西線',
+    shortName: '湖西線',
+    operator: 'JR西日本',
+    lineColor: '#00a0e9',
+    accentColor: '#ffffff',
+    defaultCars: 8,
+    stationList: [
+      { name: '山科', number: 'JR-B30' },
+      { name: '大津京', number: 'JR-B29' },
+      { name: '唐崎', number: 'JR-B28' },
+      { name: '比叡山坂本', number: 'JR-B27' },
+      { name: 'おごと温泉', number: 'JR-B26' },
+      { name: '堅田', number: 'JR-B25' },
+      { name: '小野', number: 'JR-B24' },
+      { name: '和邇', number: 'JR-B23' },
+      { name: '蓬莱', number: 'JR-B22' },
+      { name: '志賀', number: 'JR-B21' },
+      { name: '比良', number: 'JR-B20' },
+      { name: '近江舞子', number: 'JR-B19' },
+      { name: '北小松', number: 'JR-B18' },
+      { name: '近江高島', number: 'JR-B17' },
+      { name: '安曇川', number: 'JR-B16' },
+      { name: '新旭', number: 'JR-B15' },
+      { name: '近江今津', number: 'JR-B14' },
+      { name: '近江中庄', number: 'JR-B13' },
+      { name: 'マキノ', number: 'JR-B12' },
+      { name: '永原', number: 'JR-B11' },
+      { name: '近江塩津', number: 'JR-B10' }
+    ],
+    n02LineName: '湖西線',
+    directionNames: {
+      inbound: '京都・大阪方面',
+      outbound: '近江今津・近江塩津・敦賀方面',
+      inboundFull: '上り 京都・大阪方面',
+      outboundFull: '下り 近江今津・近江塩津・敦賀方面',
+      inboundShort: '京都方面',
+      outboundShort: '近江塩津方面'
+    },
+    defaultTrainTypes: [
+      { id: 'local', name: '普通', shortName: '普通', color: '#00a0e9' },
+      { id: 'rapid', name: '快速', shortName: '快速', color: '#ff7700' },
+      { id: 'special_rapid', name: '新快速', shortName: '新快', color: '#0072bc' },
+      { id: 'limitedExp', name: '特急', shortName: '特急', color: '#e60012' }
+    ]
+  },
+  {
+    id: 'jr_kusatsu',
+    name: 'JR草津線',
+    shortName: '草津線',
+    operator: 'JR西日本',
+    lineColor: '#74a034',
+    accentColor: '#ffffff',
+    defaultCars: 4,
+    stationList: [
+      { name: '柘植', number: undefined },
+      { name: '油日', number: undefined },
+      { name: '甲賀', number: undefined },
+      { name: '寺庄', number: undefined },
+      { name: '甲南', number: undefined },
+      { name: '貴生川', number: undefined },
+      { name: '三雲', number: undefined },
+      { name: '甲西', number: undefined },
+      { name: '石部', number: undefined },
+      { name: '手原', number: undefined },
+      { name: '草津', number: undefined }
+    ],
+    n02LineName: '草津線',
+    directionNames: {
+      inbound: '貴生川・柘植方面',
+      outbound: '草津・京都方面',
+      inboundFull: '上り 貴生川・柘植方面',
+      outboundFull: '下り 草津・京都方面',
+      inboundShort: '柘植方面',
+      outboundShort: '草津方面'
+    },
+    defaultTrainTypes: [
+      { id: 'local', name: '普通', shortName: '普通', color: '#74a034' }
+    ]
+  },
+  {
+    id: 'jr_nara',
+    name: 'JR奈良線',
+    shortName: '奈良線',
+    operator: 'JR西日本',
+    lineColor: '#996633',
+    accentColor: '#ffffff',
+    defaultCars: 4,
+    stationList: [
+      { name: '京都', number: 'JR-D01' },
+      { name: '東福寺', number: 'JR-D02' },
+      { name: '稲荷', number: 'JR-D03' },
+      { name: 'JR藤森', number: 'JR-D04' },
+      { name: '桃山', number: 'JR-D05' },
+      { name: '六地蔵', number: 'JR-D06' },
+      { name: '木幡', number: 'JR-D07' },
+      { name: '黄檗', number: 'JR-D08' },
+      { name: '宇治', number: 'JR-D09' },
+      { name: 'JR小倉', number: 'JR-D10' },
+      { name: '新田', number: 'JR-D11' },
+      { name: '城陽', number: 'JR-D12' },
+      { name: '長池', number: 'JR-D13' },
+      { name: '山城青谷', number: 'JR-D14' },
+      { name: '山城多賀', number: 'JR-D15' },
+      { name: '玉水', number: 'JR-D16' },
+      { name: '棚倉', number: 'JR-D17' },
+      { name: '上狛', number: 'JR-D18' },
+      { name: '木津', number: 'JR-D19' },
+      { name: '平城山', number: 'JR-D20' },
+      { name: '奈良', number: 'JR-D21' }
+    ],
+    n02LineName: '奈良線',
+    directionNames: {
+      inbound: '宇治・京都方面',
+      outbound: '木津・奈良方面',
+      inboundFull: '上り 宇治・京都方面',
+      outboundFull: '下り 木津・奈良方面',
+      inboundShort: '京都方面',
+      outboundShort: '奈良方面'
+    },
+    defaultTrainTypes: [
+      { id: 'local', name: '普通', shortName: '普通', color: '#996633' },
+      { id: 'semi_rapid', name: '区間快速', shortName: '区快', color: '#00a960' },
+      { id: 'rapid', name: '快速', shortName: '快速', color: '#ff7700' },
+      { id: 'miyako_rapid', name: 'みやこ路快速', shortName: 'み快', color: '#884898' }
+    ]
+  },
+  {
+    id: 'jr_sakurai',
+    name: 'JR万葉まほろば線',
+    shortName: '万葉まほろば線',
+    operator: 'JR西日本',
+    lineColor: '#be0049',
+    accentColor: '#ffffff',
+    defaultCars: 2,
+    stationList: [
+      { name: '奈良', number: 'JR-U01' },
+      { name: '京終', number: 'JR-U02' },
+      { name: '帯解', number: 'JR-U03' },
+      { name: '櫟本', number: 'JR-U04' },
+      { name: '天理', number: 'JR-U05' },
+      { name: '長柄', number: 'JR-U06' },
+      { name: '柳本', number: 'JR-U07' },
+      { name: '巻向', number: 'JR-U08' },
+      { name: '三輪', number: 'JR-U09' },
+      { name: '桜井', number: 'JR-U10' },
+      { name: '香久山', number: 'JR-U11' },
+      { name: '畝傍', number: 'JR-U12' },
+      { name: '金橋', number: 'JR-U13' },
+      { name: '高田', number: 'JR-U14' }
+    ],
+    n02LineName: '桜井線',
+    directionNames: {
+      inbound: '天理・奈良方面',
+      outbound: '桜井・高田・王寺方面',
+      inboundFull: '上り 天理・奈良方面',
+      outboundFull: '下り 桜井・高田・王寺方面',
+      inboundShort: '奈良方面',
+      outboundShort: '高田方面'
+    },
+    defaultTrainTypes: [
+      { id: 'local', name: '普通', shortName: '普通', color: '#be0049' },
+      { id: 'rapid', name: '快速', shortName: '快速', color: '#ff7700' }
+    ]
+  },
+  {
+    id: 'jr_wakayama',
+    name: 'JR和歌山線',
+    shortName: '和歌山線',
+    operator: 'JR西日本',
+    lineColor: '#e60072',
+    accentColor: '#ffffff',
+    defaultCars: 2,
+    stationList: [
+      { name: '王寺', number: undefined },
+      { name: '畠田', number: undefined },
+      { name: '志都美', number: undefined },
+      { name: '香芝', number: undefined },
+      { name: 'JR五位堂', number: undefined },
+      { name: '高田', number: undefined },
+      { name: '大和新庄', number: undefined },
+      { name: '御所', number: undefined },
+      { name: '玉手', number: undefined },
+      { name: '掖上', number: undefined },
+      { name: '吉野口', number: undefined },
+      { name: '北宇智', number: undefined },
+      { name: '五条', number: undefined },
+      { name: '大和二見', number: undefined },
+      { name: '隅田', number: undefined },
+      { name: '下兵庫', number: undefined },
+      { name: '橋本', number: undefined },
+      { name: '紀伊山田', number: undefined },
+      { name: '高野口', number: undefined },
+      { name: '中飯降', number: undefined },
+      { name: '妙寺', number: undefined },
+      { name: '大谷', number: undefined },
+      { name: '笠田', number: undefined },
+      { name: '西笠田', number: undefined },
+      { name: '名手', number: undefined },
+      { name: '粉河', number: undefined },
+      { name: '紀伊長田', number: undefined },
+      { name: '打田', number: undefined },
+      { name: '下井阪', number: undefined },
+      { name: '岩出', number: undefined },
+      { name: '船戸', number: undefined },
+      { name: '紀伊小倉', number: undefined },
+      { name: '布施屋', number: undefined },
+      { name: '千旦', number: undefined },
+      { name: '田井ノ瀬', number: undefined },
+      { name: '和歌山', number: undefined }
+    ],
+    n02LineName: '和歌山線',
+    directionNames: {
+      inbound: '高田・王寺方面',
+      outbound: '橋本・五条・和歌山方面',
+      inboundFull: '上り 高田・王寺方面',
+      outboundFull: '下り 橋本・五条・和歌山方面',
+      inboundShort: '王寺方面',
+      outboundShort: '和歌山方面'
+    },
+    defaultTrainTypes: [
+      { id: 'local', name: '普通', shortName: '普通', color: '#e60072' },
+      { id: 'rapid', name: '快速', shortName: '快速', color: '#ff7700' }
+    ]
+  }
+];
