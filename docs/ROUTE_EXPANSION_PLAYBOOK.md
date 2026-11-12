@@ -18,6 +18,7 @@ Trainfo/
 │   ├── ROUTE_EXPANSION_PLAYBOOK.md            # 本手順書（路線拡張詳細プレイブック）
 │   ├── PASSING_STOP_INTERPOLATION_SPEC.md     # 通過駅時刻補間・境界駅シームレス同期技術仕様書
 │   ├── ASYMMETRIC_TRACK_ROUTING_GUIDELINES.md # 上下非対称・方向別軌道ルーティング設計指針
+│   ├── SHARED_SECTION_SYSTEM_ROUTING_GUIDE.md # 共用区間・運転系統ベース路線定義（方式1→方式2）移行ガイドライン
 │   ├── LINE_COLORS_GUIDELINES.md              # ラインカラー策定ガイドライン
 │   └── ODPT_INTEGRATION_KNOWLEDGE.md          # 将来設計ナレッジ
 ├── scripts/
