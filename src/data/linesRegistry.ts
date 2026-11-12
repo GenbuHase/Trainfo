@@ -135,6 +135,16 @@ import { ominatoLine } from './lines/ominato';
 import { tsugaruLine } from './lines/tsugaru';
 import { gonoLine } from './lines/gono';
 import { ogaLine } from './lines/oga';
+import { jrChuoWestLine } from './lines/jr_chuo_west';
+import { jrTakayamaLine } from './lines/jr_takayama';
+import { jrKansaiNagoyaKameyamaLine } from './lines/jr_kansai_nagoya_kameyama';
+import { jrKiseiKameyamaShinguLine } from './lines/jr_kisei_kameyama_shingu';
+import { jrIidaLine } from './lines/jr_iida';
+import { jrMinobuLine } from './lines/jr_minobu';
+import { jrTaketoyoLine } from './lines/jr_taketoyo';
+import { jrTaitaLine } from './lines/jr_taita';
+import { jrMeishoLine } from './lines/jr_meisho';
+import { jrSanguLine } from './lines/jr_sangu';
 
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
@@ -220,6 +230,16 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   tokaido_atami_toyohashi: tokaidoAtamiToyohashiLine,
   tokaido_toyohashi_maibara: tokaidoToyohashiMaibaraLine,
   tokaido_minoakasaka: tokaidoMinoakasakaLine,
+  jr_chuo_west: jrChuoWestLine,
+  jr_takayama: jrTakayamaLine,
+  jr_kansai_nagoya_kameyama: jrKansaiNagoyaKameyamaLine,
+  jr_kisei_kameyama_shingu: jrKiseiKameyamaShinguLine,
+  jr_iida: jrIidaLine,
+  jr_minobu: jrMinobuLine,
+  jr_taketoyo: jrTaketoyoLine,
+  jr_taita: jrTaitaLine,
+  jr_meisho: jrMeishoLine,
+  jr_sangu: jrSanguLine,
   tokaido_shinkansen: tokaidoShinkansenLine,
   sanyo_shinkansen: sanyoShinkansenLine,
   jr_biwako: jrBiwakoLine,
@@ -435,6 +455,16 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
   tokaido_atami_toyohashi: 'tokai',
   tokaido_toyohashi_maibara: 'tokai',
   tokaido_minoakasaka: 'tokai',
+  jr_chuo_west: 'tokai',
+  jr_takayama: 'tokai',
+  jr_kansai_nagoya_kameyama: 'tokai',
+  jr_kisei_kameyama_shingu: 'tokai',
+  jr_iida: 'tokai',
+  jr_minobu: 'tokai',
+  jr_taketoyo: 'tokai',
+  jr_taita: 'tokai',
+  jr_meisho: 'tokai',
+  jr_sangu: 'tokai',
   tokaido_shinkansen: 'tokai',
   sanyo_shinkansen: 'kansai',
   jr_biwako: 'kansai',

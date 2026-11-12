@@ -271,6 +271,48 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#ff7322',
     numColor: '#cc5200',
   },
+  // JR東海 身延線
+  CC: {
+    borderColor: '#931b2c',
+    prefixColor: '#931b2c',
+    numColor: '#70101d',
+  },
+  // JR東海 飯田線
+  CD: {
+    borderColor: '#228b22',
+    prefixColor: '#228b22',
+    numColor: '#176317',
+  },
+  // JR東海 武豊線
+  CE: {
+    borderColor: '#6f3c1d',
+    prefixColor: '#6f3c1d',
+    numColor: '#4f2710',
+  },
+  // JR東海 中央本線
+  CF: {
+    borderColor: '#187fc4',
+    prefixColor: '#187fc4',
+    numColor: '#0e5c91',
+  },
+  // JR東海 高山本線
+  CG: {
+    borderColor: '#9b1b30',
+    prefixColor: '#9b1b30',
+    numColor: '#731121',
+  },
+  // JR東海 太多線
+  CI: {
+    borderColor: '#d97706',
+    prefixColor: '#d97706',
+    numColor: '#a15500',
+  },
+  // JR東海 関西本線
+  CJ: {
+    borderColor: '#00a960',
+    prefixColor: '#00a960',
+    numColor: '#007542',
+  },
   // 富士急行線
   FJ: {
     borderColor: '#0066b3',
@@ -295,16 +337,101 @@ const STATION_BADGE_COLORS: Record<string, StationBadgeColor> = {
     prefixColor: '#0073be',
     numColor: '#0073be',
   },
-  // JR西日本 アーバンネットワーク 東海道本線・山陽本線（琵琶湖線・JR京都線・JR神戸線）
-  A: {
-    borderColor: '#0072bc',
-    prefixColor: '#0072bc',
-    numColor: '#005a96',
-  },
+  // JR西日本 アーバンネットワーク 東海道本線・山陽本線・北陸本線・赤穂線（琵琶湖線・JR京都線・JR神戸線）
   'JR-A': {
     borderColor: '#0072bc',
     prefixColor: '#0072bc',
     numColor: '#005a96',
+  },
+  // JR西日本 湖西線
+  'JR-B': {
+    borderColor: '#00a0e9',
+    prefixColor: '#00a0e9',
+    numColor: '#007ab8',
+  },
+  // JR西日本 草津線
+  'JR-C': {
+    borderColor: '#74a034',
+    prefixColor: '#74a034',
+    numColor: '#527521',
+  },
+  // JR西日本 奈良線
+  'JR-D': {
+    borderColor: '#996633',
+    prefixColor: '#996633',
+    numColor: '#6e4720',
+  },
+  // JR西日本 山陰本線・嵯峨野線
+  'JR-E': {
+    borderColor: '#884898',
+    prefixColor: '#884898',
+    numColor: '#653173',
+  },
+  // JR西日本 おおさか東線
+  'JR-F': {
+    borderColor: '#384c97',
+    prefixColor: '#384c97',
+    numColor: '#263469',
+  },
+  // JR西日本 福知山線・JR宝塚線
+  'JR-G': {
+    borderColor: '#fcc800',
+    prefixColor: '#fcc800',
+    numColor: '#9e7d00',
+  },
+  // JR西日本 JR東西線・学研都市線
+  'JR-H': {
+    borderColor: '#e85298',
+    prefixColor: '#e85298',
+    numColor: '#b83272',
+  },
+  // JR西日本 大阪環状線
+  'JR-O': {
+    borderColor: '#e72227',
+    prefixColor: '#e72227',
+    numColor: '#b01519',
+  },
+  // JR西日本 JRゆめ咲線（桜島線）
+  'JR-P': {
+    borderColor: '#001e62',
+    prefixColor: '#001e62',
+    numColor: '#00123d',
+  },
+  // JR西日本 関西本線（大和路線）
+  'JR-Q': {
+    borderColor: '#00a960',
+    prefixColor: '#00a960',
+    numColor: '#007542',
+  },
+  // JR西日本 阪和線
+  'JR-R': {
+    borderColor: '#f39800',
+    prefixColor: '#f39800',
+    numColor: '#b57100',
+  },
+  // JR西日本 関西空港線
+  'JR-S': {
+    borderColor: '#0072bc',
+    prefixColor: '#0072bc',
+    numColor: '#005287',
+  },
+  // JR西日本 和歌山線
+  'JR-T': {
+    borderColor: '#e60072',
+    prefixColor: '#e60072',
+    numColor: '#a80053',
+  },
+  // JR西日本 桜井線（万葉まほろば線）
+  'JR-U': {
+    borderColor: '#be0049',
+    prefixColor: '#be0049',
+    numColor: '#8a0035',
+  },
+  // JR西日本 紀勢本線（きのくに線）
+  'JR-W': {
+    borderColor: '#00a7db',
+    prefixColor: '#00a7db',
+    numColor: '#00779e',
   },
 };
 
@@ -347,7 +474,10 @@ export const StationBadge: React.FC<{
   } else {
     [prefix, num] = [badgeId.slice(0, 2), badgeId.slice(2)];
   }
-  const badgeColor = STATION_BADGE_COLORS[prefix] || DEFAULT_BADGE_COLOR;
+  const badgeColor =
+    (badgeId.startsWith('JR-') ? STATION_BADGE_COLORS[`JR-${prefix}`] : null) ||
+    STATION_BADGE_COLORS[prefix] ||
+    DEFAULT_BADGE_COLOR;
 
   return (
     <span

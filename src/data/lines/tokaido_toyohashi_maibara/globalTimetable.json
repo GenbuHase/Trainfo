@@ -1136,6 +1136,7 @@
     "direction": "inbound",
     "originStationId": "CA-77",
     "destinationStationId": "CA-60",
+    "customOrigin": "大垣",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -1248,7 +1249,9 @@
         "departureTime": "06:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_0656_42869",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-68_0537_11221",
@@ -7223,6 +7226,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -7280,7 +7284,9 @@
         "departureTime": "07:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_0623_33727",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-42_0659_11527",
@@ -8109,6 +8115,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -8167,7 +8174,9 @@
         "departureTime": "07:37:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_0737_33776",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-42_0709_11522",
@@ -8851,6 +8860,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -8908,7 +8918,9 @@
         "departureTime": "07:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_0639_33728",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-77_0716_2380",
@@ -9617,6 +9629,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -9675,7 +9688,9 @@
         "departureTime": "07:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_0751_33809",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-68_0722_11219",
@@ -10677,6 +10692,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -10734,7 +10750,9 @@
         "departureTime": "07:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_0655_33730",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-68_0737_1897",
@@ -11452,6 +11470,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "高山",
     "cars": 6,
     "isHoliday": false,
@@ -11498,7 +11517,9 @@
         "departureTime": "08:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_takayama-01_0805_26641",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-52_0744_11692",
@@ -11990,6 +12011,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -12047,7 +12069,9 @@
         "departureTime": "08:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_0715_33732",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-68_0751_42078",
@@ -13240,6 +13264,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -13297,7 +13322,9 @@
         "departureTime": "08:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_0734_33734",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-77_0813_2351",
@@ -14133,6 +14160,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -14190,7 +14218,9 @@
         "departureTime": "08:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_0753_33736",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-77_0831_2377",
@@ -15472,6 +15502,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "富山",
     "cars": 6,
     "isHoliday": false,
@@ -15518,7 +15549,9 @@
         "departureTime": "09:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_takayama-01_0903_26032",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-42_0849_11578",
@@ -15761,6 +15794,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "高山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -15806,7 +15840,9 @@
         "departureTime": "09:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takayama-26_0645_26671",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-68_0851_42075",
@@ -15924,6 +15960,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -15981,7 +16018,9 @@
         "departureTime": "09:11:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_0818_33738",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-52_0854_11740",
@@ -16835,6 +16874,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -16892,7 +16932,9 @@
         "departureTime": "09:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_0833_33739",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-77_0910_11613",
@@ -18465,6 +18507,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -18522,7 +18565,9 @@
         "departureTime": "09:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_0900_33741",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-42_0932_11504",
@@ -18976,6 +19021,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "飛騨古川",
     "cars": 6,
     "isHoliday": false,
@@ -19022,7 +19068,9 @@
         "departureTime": "10:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_takayama-01_1012_26657",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "WD_INB_CA-77_0941_2302",
@@ -20813,6 +20861,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "高山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -20858,7 +20907,9 @@
         "departureTime": "10:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takayama-26_0800_26672",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "WD_INB_CA-77_1011_2305",
@@ -22972,6 +23023,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "富山",
     "cars": 6,
     "isHoliday": false,
@@ -23018,7 +23070,9 @@
         "departureTime": "11:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_takayama-01_1108_26036",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-42_1050_11536",
@@ -26455,6 +26509,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "富山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -26500,7 +26555,9 @@
         "departureTime": "12:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takayama-45_0758_26047",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-68_1143_26646",
@@ -26512,6 +26569,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "高山",
     "cars": 6,
     "isHoliday": false,
@@ -26558,7 +26616,9 @@
         "departureTime": "12:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_takayama-01_1205_26646",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-68_1148_42076",
@@ -30212,6 +30272,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "富山",
     "cars": 6,
     "isHoliday": false,
@@ -30258,7 +30319,9 @@
         "departureTime": "13:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_takayama-01_1308_26035",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-42_1250_11544",
@@ -33304,6 +33367,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "高山",
     "cars": 6,
     "isHoliday": false,
@@ -33350,7 +33414,9 @@
         "departureTime": "14:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_takayama-01_1405_26653",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "WD_INB_CA-74_1341_2140",
@@ -33753,6 +33819,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "富山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -33798,7 +33865,9 @@
         "departureTime": "14:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takayama-45_0954_26041",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-68_1348_42081",
@@ -37349,6 +37418,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "高山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -37394,7 +37464,9 @@
         "departureTime": "15:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takayama-26_1235_26667",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "WD_INB_CA-74_1444_2162",
@@ -37558,6 +37630,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "富山",
     "cars": 6,
     "isHoliday": false,
@@ -37604,7 +37677,9 @@
         "departureTime": "15:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_takayama-01_1508_26039",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-42_1450_11552",
@@ -41239,6 +41314,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -41297,7 +41373,9 @@
         "departureTime": "16:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_1605_33783",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-74_1543_26676",
@@ -41310,6 +41388,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "飛騨古川",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -41355,7 +41434,9 @@
         "departureTime": "16:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takayama-29_1312_26676",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-68_1548_42082",
@@ -42695,6 +42776,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "高山",
     "cars": 6,
     "isHoliday": false,
@@ -42741,7 +42823,9 @@
         "departureTime": "16:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_takayama-01_1625_26651",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-42_1604_11438",
@@ -43250,6 +43334,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -43308,7 +43393,9 @@
         "departureTime": "16:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_1635_33785",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-74_1613_2168",
@@ -45267,6 +45354,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -45325,7 +45413,9 @@
         "departureTime": "17:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_1705_33787",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-74_1645_26049",
@@ -45338,6 +45428,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "富山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -45383,7 +45474,9 @@
         "departureTime": "17:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takayama-45_1308_26049",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "WD_INB_CA-83_1650_42090",
@@ -47150,6 +47243,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -47208,7 +47302,9 @@
         "departureTime": "17:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_1735_33789",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-74_1713_2172",
@@ -49191,6 +49287,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -49249,7 +49346,9 @@
         "departureTime": "18:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_1802_33791",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-74_1743_26662",
@@ -49262,6 +49361,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "高山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -49307,7 +49407,9 @@
         "departureTime": "18:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takayama-26_1534_26662",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-42_1743_11587",
@@ -50372,6 +50474,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -50429,7 +50532,9 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_1725_33748",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-77_1759_2348",
@@ -51555,6 +51660,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "高山",
     "cars": 6,
     "isHoliday": false,
@@ -51601,7 +51707,9 @@
         "departureTime": "18:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_takayama-01_1840_26649",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "WD_INB_CA-68_1813_33793",
@@ -51612,6 +51720,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -51670,7 +51779,9 @@
         "departureTime": "18:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_1839_33793",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-42_1813_11589",
@@ -53326,6 +53437,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -53383,7 +53495,9 @@
         "departureTime": "18:52:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_1755_33750",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-77_1834_2349",
@@ -53894,6 +54008,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "高山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -53939,7 +54054,9 @@
         "departureTime": "19:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takayama-26_1633_26666",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "WD_INB_CA-68_1843_33795",
@@ -53950,6 +54067,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -54008,7 +54126,9 @@
         "departureTime": "19:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_1909_33795",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-74_1843_2178",
@@ -55568,6 +55688,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -55625,7 +55746,9 @@
         "departureTime": "19:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_1822_33752",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-83_1905_2116",
@@ -56618,6 +56741,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -56676,7 +56800,9 @@
         "departureTime": "19:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_1939_33797",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-42_1915_11600",
@@ -57790,6 +57916,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -57847,7 +57974,9 @@
         "departureTime": "19:50:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_1842_33754",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-68_1933_33799",
@@ -57858,6 +57987,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -57916,7 +58046,9 @@
         "departureTime": "20:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_2001_33799",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-42_1934_11453",
@@ -58407,6 +58539,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "高山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -58452,7 +58585,9 @@
         "departureTime": "20:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takayama-26_1733_26664",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-66_1942_11759",
@@ -59073,6 +59208,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -59131,7 +59267,9 @@
         "departureTime": "20:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_2014_33800",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-77_1953_2286",
@@ -59797,6 +59935,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -59854,7 +59993,9 @@
         "departureTime": "20:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_1915_33756",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-52_2003_11725",
@@ -60702,6 +60843,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "高山",
     "cars": 6,
     "isHoliday": false,
@@ -60748,7 +60890,9 @@
         "departureTime": "20:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_takayama-01_2043_26644",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-42_2019_11597",
@@ -60989,6 +61133,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -61047,7 +61192,9 @@
         "departureTime": "20:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_2045_33803",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-77_2023_2292",
@@ -61717,6 +61864,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -61774,7 +61922,9 @@
         "departureTime": "20:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_1947_33758",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_OUT_CA-42_2034_11569",
@@ -62471,6 +62621,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "富山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -62516,7 +62667,9 @@
         "departureTime": "21:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_takayama-45_1714_26044",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "WD_OUT_CA-52_2046_11727",
@@ -62909,6 +63062,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -62967,7 +63121,9 @@
         "departureTime": "21:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_2114_33805",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-77_2053_2290",
@@ -63799,6 +63955,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -63856,7 +64013,9 @@
         "departureTime": "21:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_2025_33760",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-83_2107_2118",
@@ -64742,6 +64901,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -64800,7 +64960,9 @@
         "departureTime": "21:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_2144_33807",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-77_2123_2291",
@@ -65484,6 +65646,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -65541,7 +65704,9 @@
         "departureTime": "21:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_2056_33763",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-83_2130_2119",
@@ -66388,6 +66553,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": false,
@@ -66446,7 +66612,9 @@
         "departureTime": "22:15:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_taketoyo-01_2215_33808",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-77_2153_2325",
@@ -67130,6 +67298,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-74",
     "customOrigin": "武豊",
+    "customDestination": "岐阜",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -67223,7 +67392,9 @@
         "departureTime": "23:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_2129_33773",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-83_2207_2122",
@@ -68794,6 +68965,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-74",
     "customOrigin": "武豊",
+    "customDestination": "岐阜",
     "cars": 6,
     "isHoliday": false,
     "stops": [
@@ -68887,7 +69059,9 @@
         "departureTime": "23:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_taketoyo-10_2159_33774",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "WD_INB_CA-83_2238_2124",
@@ -71798,6 +71972,7 @@
     "direction": "inbound",
     "originStationId": "CA-77",
     "destinationStationId": "CA-60",
+    "customOrigin": "大垣",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -71910,7 +72085,9 @@
         "departureTime": "06:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_0658_42870",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-68_0537_11220",
@@ -78540,6 +78717,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -78597,7 +78775,9 @@
         "departureTime": "07:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_0639_33729",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_0719_2299",
@@ -80543,6 +80723,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "高山",
     "cars": 6,
     "isHoliday": true,
@@ -80589,7 +80770,9 @@
         "departureTime": "08:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_takayama-01_0805_26641",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "HD_OUT_CA-60_0747_33731",
@@ -80601,6 +80784,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -80658,7 +80842,9 @@
         "departureTime": "08:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_0712_33731",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-42_0749_11402",
@@ -81924,6 +82110,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -81981,7 +82168,9 @@
         "departureTime": "08:19:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_0728_33733",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-83_0804_2052",
@@ -82314,6 +82503,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -82372,7 +82562,9 @@
         "departureTime": "08:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_0833_33777",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_0809_2267",
@@ -82826,6 +83018,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -82883,7 +83076,9 @@
         "departureTime": "08:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_0744_33735",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-42_0819_11478",
@@ -83814,6 +84009,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -83872,7 +84068,9 @@
         "departureTime": "09:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_0903_33778",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-42_0839_11604",
@@ -84532,6 +84730,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "富山",
     "cars": 6,
     "isHoliday": true,
@@ -84578,7 +84777,9 @@
         "departureTime": "09:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_takayama-01_0903_26032",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "HD_INB_CA-77_0846_2266",
@@ -84930,6 +85131,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -84987,7 +85189,9 @@
         "departureTime": "09:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_0815_33737",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-42_0849_11531",
@@ -85230,6 +85434,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "高山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -85275,7 +85480,9 @@
         "departureTime": "09:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takayama-26_0645_26671",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "HD_OUT_CA-68_0851_42075",
@@ -86198,6 +86405,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -86256,7 +86464,9 @@
         "departureTime": "09:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_0935_33779",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_0911_2269",
@@ -86862,6 +87072,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -86919,7 +87130,9 @@
         "departureTime": "09:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_0845_33740",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-83_0918_2090",
@@ -88312,6 +88525,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "飛騨古川",
     "cars": 6,
     "isHoliday": true,
@@ -88358,7 +88572,9 @@
         "departureTime": "10:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_takayama-01_1012_26657",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "HD_INB_CA-77_0941_2303",
@@ -89411,6 +89627,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -89469,7 +89686,9 @@
         "departureTime": "10:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_1025_33780",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-60_0958_33742",
@@ -89481,6 +89700,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -89538,7 +89758,9 @@
         "departureTime": "10:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_0925_33742",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-83_1000_2056",
@@ -90049,6 +90271,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "高山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -90094,7 +90317,9 @@
         "departureTime": "10:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takayama-26_0800_26672",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "HD_INB_CA-77_1011_2304",
@@ -91099,6 +91324,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -91157,7 +91383,9 @@
         "departureTime": "10:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_1055_33781",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-74_1028_2211",
@@ -91381,6 +91609,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -91438,7 +91667,9 @@
         "departureTime": "10:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_0955_33743",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-42_1029_11415",
@@ -92548,6 +92779,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "富山",
     "cars": 6,
     "isHoliday": true,
@@ -92594,7 +92826,9 @@
         "departureTime": "11:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_takayama-01_1108_26036",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "HD_OUT_CA-42_1050_11498",
@@ -93430,6 +93664,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -93487,7 +93722,9 @@
         "departureTime": "11:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_1025_33744",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-83_1100_2058",
@@ -95375,6 +95612,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -95432,7 +95670,9 @@
         "departureTime": "12:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_1107_33745",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-74_1141_2137",
@@ -95835,6 +96075,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "富山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -95880,7 +96121,9 @@
         "departureTime": "12:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takayama-45_0758_26047",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "HD_OUT_CA-68_1143_26646",
@@ -95892,6 +96135,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "高山",
     "cars": 6,
     "isHoliday": true,
@@ -95938,7 +96182,9 @@
         "departureTime": "12:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_takayama-01_1205_26646",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "HD_OUT_CA-68_1148_42076",
@@ -99592,6 +99838,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "富山",
     "cars": 6,
     "isHoliday": true,
@@ -99638,7 +99885,9 @@
         "departureTime": "13:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_takayama-01_1308_26035",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "HD_OUT_CA-42_1250_11543",
@@ -102720,6 +102969,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "高山",
     "cars": 6,
     "isHoliday": true,
@@ -102766,7 +103016,9 @@
         "departureTime": "14:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_takayama-01_1405_26653",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "HD_INB_CA-74_1341_2141",
@@ -103169,6 +103421,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "富山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -103214,7 +103467,9 @@
         "departureTime": "14:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takayama-45_0954_26041",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "HD_OUT_CA-68_1348_42081",
@@ -106837,6 +107092,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "高山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -106882,7 +107138,9 @@
         "departureTime": "15:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takayama-26_1235_26667",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "HD_INB_CA-74_1444_2163",
@@ -107046,6 +107304,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "富山",
     "cars": 6,
     "isHoliday": true,
@@ -107092,7 +107351,9 @@
         "departureTime": "15:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_takayama-01_1508_26039",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "HD_OUT_CA-42_1450_11551",
@@ -109177,6 +109438,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -109235,7 +109497,9 @@
         "departureTime": "15:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_1547_33782",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_1526_2272",
@@ -110818,6 +111082,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "飛騨古川",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -110863,7 +111128,9 @@
         "departureTime": "16:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takayama-29_1312_26676",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "HD_OUT_CA-68_1548_42082",
@@ -111322,6 +111589,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -111380,7 +111648,9 @@
         "departureTime": "16:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_1617_33784",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_1556_2274",
@@ -112308,6 +112578,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "高山",
     "cars": 6,
     "isHoliday": true,
@@ -112354,7 +112625,9 @@
         "departureTime": "16:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_takayama-01_1625_26651",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "HD_OUT_CA-42_1604_11437",
@@ -113401,6 +113674,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -113459,7 +113733,9 @@
         "departureTime": "16:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_1647_33786",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_1626_2276",
@@ -114980,6 +115256,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "富山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -115025,7 +115302,9 @@
         "departureTime": "17:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takayama-45_1308_26049",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "HD_INB_CA-83_1650_42090",
@@ -115590,6 +115869,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -115648,7 +115928,9 @@
         "departureTime": "17:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_1717_33788",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_1656_2278",
@@ -116102,6 +116384,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -116159,7 +116442,9 @@
         "departureTime": "17:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_1628_33746",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-42_1701_11501",
@@ -117448,6 +117733,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -117506,7 +117792,9 @@
         "departureTime": "17:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_1747_33790",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_1725_2280",
@@ -117960,6 +118248,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -118017,7 +118306,9 @@
         "departureTime": "17:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_1658_33747",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-83_1733_2109",
@@ -118562,6 +118853,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "高山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -118607,7 +118899,9 @@
         "departureTime": "18:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takayama-26_1534_26662",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "HD_INB_CA-74_1745_2173",
@@ -119809,6 +120103,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -119867,7 +120162,9 @@
         "departureTime": "18:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_1816_33792",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_1755_2282",
@@ -120321,6 +120618,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -120378,7 +120676,9 @@
         "departureTime": "18:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_1728_33749",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-42_1802_11481",
@@ -120656,6 +120956,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "高山",
     "cars": 6,
     "isHoliday": true,
@@ -120702,7 +121003,9 @@
         "departureTime": "18:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_takayama-01_1840_26649",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "HD_INB_CA-74_1813_2175",
@@ -121725,6 +122028,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -121783,7 +122087,9 @@
         "departureTime": "18:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_1847_33794",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-74_1828_2245",
@@ -122007,6 +122313,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -122064,7 +122371,9 @@
         "departureTime": "18:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_1758_33751",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-42_1831_11482",
@@ -122573,6 +122882,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "高山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -122618,7 +122928,9 @@
         "departureTime": "19:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takayama-26_1633_26666",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "HD_INB_CA-74_1843_2177",
@@ -123753,6 +124065,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -123811,7 +124124,9 @@
         "departureTime": "19:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_1916_33796",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-74_1857_2247",
@@ -124035,6 +124350,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -124092,7 +124408,9 @@
         "departureTime": "19:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_1828_33753",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-42_1902_11483",
@@ -125611,6 +125929,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -125669,7 +125988,9 @@
         "departureTime": "19:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_1944_33798",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-74_1927_2249",
@@ -125893,6 +126214,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -125950,7 +126272,9 @@
         "departureTime": "19:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_1858_33755",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-42_1931_11565",
@@ -126707,6 +127031,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "高山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -126752,7 +127077,9 @@
         "departureTime": "20:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takayama-26_1733_26664",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "HD_INB_CA-74_1943_2182",
@@ -127403,6 +127730,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -127461,7 +127789,9 @@
         "departureTime": "20:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_2014_33801",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_1953_2287",
@@ -128127,6 +128457,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -128184,7 +128515,9 @@
         "departureTime": "20:16:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_1926_33757",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-42_2004_11566",
@@ -128880,6 +129213,7 @@
     "direction": "outbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-74",
+    "customOrigin": "名古屋",
     "customDestination": "高山",
     "cars": 6,
     "isHoliday": true,
@@ -128926,7 +129260,9 @@
         "departureTime": "20:43:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_takayama-01_2043_26644",
+    "throughLineId": "jr_takayama"
   },
   {
     "tripId": "HD_OUT_CA-42_2019_11596",
@@ -129167,6 +129503,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -129225,7 +129562,9 @@
         "departureTime": "20:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_2044_33802",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_2023_2288",
@@ -129891,6 +130230,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -129948,7 +130288,9 @@
         "departureTime": "20:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_1956_33759",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_OUT_CA-42_2033_11568",
@@ -130645,6 +130987,7 @@
     "originStationId": "CA-74",
     "destinationStationId": "CA-68",
     "customOrigin": "富山",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -130690,7 +131033,9 @@
         "departureTime": "21:03:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_takayama-45_1714_26044",
+    "prevLineId": "jr_takayama"
   },
   {
     "tripId": "HD_OUT_CA-52_2046_11726",
@@ -131083,6 +131428,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -131141,7 +131487,9 @@
         "departureTime": "21:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_2114_33804",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_2053_2289",
@@ -131973,6 +132321,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -132030,7 +132379,9 @@
         "departureTime": "21:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_2026_33761",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-83_2107_2125",
@@ -132845,6 +133196,7 @@
     "direction": "inbound",
     "originStationId": "CA-68",
     "destinationStationId": "CA-60",
+    "customOrigin": "名古屋",
     "customDestination": "武豊",
     "cars": 6,
     "isHoliday": true,
@@ -132903,7 +133255,9 @@
         "departureTime": "21:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_taketoyo-01_2144_33806",
+    "throughLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-77_2123_2324",
@@ -133587,6 +133941,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-68",
     "customOrigin": "武豊",
+    "customDestination": "名古屋",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -133644,7 +133999,9 @@
         "departureTime": "21:46:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_2056_33762",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-83_2130_2120",
@@ -135164,6 +135521,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-74",
     "customOrigin": "武豊",
+    "customDestination": "岐阜",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -135257,7 +135615,9 @@
         "departureTime": "23:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_2129_33772",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-83_2207_2121",
@@ -136753,6 +137113,7 @@
     "originStationId": "CA-60",
     "destinationStationId": "CA-74",
     "customOrigin": "武豊",
+    "customDestination": "岐阜",
     "cars": 6,
     "isHoliday": true,
     "stops": [
@@ -136846,7 +137207,9 @@
         "departureTime": "23:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_taketoyo-10_2159_33775",
+    "prevLineId": "jr_taketoyo"
   },
   {
     "tripId": "HD_INB_CA-83_2238_2123",

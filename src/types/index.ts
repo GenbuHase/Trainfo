@@ -137,6 +137,46 @@ export type LineId =
   | 'tsugaru'
   | 'gono'
   | 'oga'
+  // JR東海（東海エリア）
+  | 'jr_chuo_west'
+  | 'jr_takayama'
+  | 'jr_kansai_nagoya_kameyama'
+  | 'jr_kisei_kameyama_shingu'
+  | 'jr_iida'
+  | 'jr_minobu'
+  | 'jr_taketoyo'
+  | 'jr_taita'
+  | 'jr_meisho'
+  | 'jr_sangu'
+  // JR西日本（近畿・関西エリア）
+  | 'jr_osaka_loop'
+  | 'jr_yumesaki'
+  | 'jr_tozai'
+  | 'jr_gakken_toshi'
+  | 'jr_takarazuka'
+  | 'jr_fukuchiyama_north'
+  | 'jr_yamatoji'
+  | 'jr_osaka_higashi'
+  | 'jr_hanwa'
+  | 'jr_kansai_airport'
+  | 'jr_sagano'
+  | 'jr_sanin_sonobe_kinosaki'
+  | 'jr_kosei'
+  | 'jr_kusatsu'
+  | 'jr_nara'
+  | 'jr_sakurai'
+  | 'jr_wakayama'
+  | 'jr_hokuriku_maibara_tsuruga'
+  | 'jr_kinokuni'
+  | 'jr_kansai_kameyama_kamo'
+  | 'jr_sanyo_himeji_kamigori'
+  | 'jr_ako'
+  | 'jr_kakogawa'
+  | 'jr_kishin'
+  | 'jr_bantan'
+  | 'jr_maizuru'
+  | 'jr_obama'
+  | 'jr_wadamisaki'
   | (string & {});
 
 
@@ -195,6 +235,13 @@ export type TrainTypeKey =
   | 'tsubame'                 // つばめ（山陽・九州新幹線）
   | 'new_rapid'               // 新快速（JR東海・JR西日本）
   | 'homeliner'               // ホームライナー（JR東海）
+  | 'direct_rapid'            // 直通快速（JR西日本 おおさか東線・東西線・大和路線等）
+  | 'yamatoji_rapid'          // 大和路快速（JR西日本 大和路線・大阪環状線）
+  | 'kanku_rapid'             // 関空快速（JR西日本 阪和線・関西空港線・大阪環状線）
+  | 'kishuji_rapid'           // 紀州路快速（JR西日本 阪和線・きのくに線・大阪環状線）
+  | 'tambaji_rapid'           // 丹波路快速（JR西日本 宝塚線・福知山線）
+  | 'miyako_rapid'            // みやこ路快速（JR西日本 奈良線）
+  | 'rapid_mie'               // 快速みえ（JR東海 関西本線・伊勢鉄道・紀勢本線・参宮線）
   | 'test_run'                // 試運転・臨時列車デフォルト
   | (string & {});
 

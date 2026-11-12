@@ -2759,6 +2759,100 @@ module.exports = {
       "allowMidStationA": true,
       "allowMidStationB": true,
       "exactAllowedDestinations": ["蟹田"]
+    },
+    {
+      "name": "東海道本線（豊橋～米原） -> JR武豊線 (名古屋発 大府経由 武豊行)",
+      "lineA": "tokaido_toyohashi_maibara",
+      "lineB": "jr_taketoyo",
+      "stationA": "CA-60",
+      "stationB": "jr_taketoyo-01",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true
+    },
+    {
+      "name": "JR武豊線 -> 東海道本線（豊橋～米原） (武豊発 大府経由 名古屋方面行)",
+      "lineA": "jr_taketoyo",
+      "lineB": "tokaido_toyohashi_maibara",
+      "stationA": "jr_taketoyo-01",
+      "stationB": "CA-60",
+      "dirA": "inbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR中央本線（名古屋～塩尻） -> 篠ノ井線 (名古屋発 塩尻経由 松本・長野方面 特急しなの/普通)",
+      "lineA": "jr_chuo_west",
+      "lineB": "shinonoi",
+      "stationA": "jr_chuo_west-40",
+      "stationB": "SN-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 900,
+      "allowMidStationA": true,
+      "allowMidStationB": true
+    },
+    {
+      "name": "篠ノ井線 -> JR中央本線（名古屋～塩尻） (長野・松本発 塩尻経由 名古屋方面 特急しなの/普通)",
+      "lineA": "shinonoi",
+      "lineB": "jr_chuo_west",
+      "stationA": "SN-01",
+      "stationB": "jr_chuo_west-40",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 900,
+      "allowMidStationA": true,
+      "allowMidStationB": true
+    },
+    {
+      "name": "東海道本線（豊橋～米原） -> JR高山本線 (名古屋発 岐阜経由 高山・富山方面 特急ひだ)",
+      "lineA": "tokaido_toyohashi_maibara",
+      "lineB": "jr_takayama",
+      "stationA": "CA-74",
+      "stationB": "jr_takayama-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 900,
+      "allowMidStationA": true,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR高山本線 -> 東海道本線（豊橋～米原） (富山・高山発 岐阜経由 名古屋方面 特急ひだ)",
+      "lineA": "jr_takayama",
+      "lineB": "tokaido_toyohashi_maibara",
+      "stationA": "jr_takayama-01",
+      "stationB": "CA-74",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 900,
+      "allowMidStationA": true,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR紀勢本線（亀山～新宮） -> JR参宮線 (亀山・津方面発 多気経由 鳥羽方面 快速みえ/普通)",
+      "lineA": "jr_kisei_kameyama_shingu",
+      "lineB": "jr_sangu",
+      "stationA": "jr_kisei_kameyama_shingu-10",
+      "stationB": "jr_sangu-01",
+      "dirA": "outbound",
+      "dirB": "outbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true,
+      "allowMidStationB": true
+    },
+    {
+      "name": "JR参宮線 -> JR紀勢本線（亀山～新宮） (鳥羽方面発 多気経由 津・亀山方面 快速みえ/普通)",
+      "lineA": "jr_sangu",
+      "lineB": "jr_kisei_kameyama_shingu",
+      "stationA": "jr_sangu-01",
+      "stationB": "jr_kisei_kameyama_shingu-10",
+      "dirA": "inbound",
+      "dirB": "inbound",
+      "maxTimeDiff": 600,
+      "allowMidStationA": true,
+      "allowMidStationB": true
     }
   ],
   "destinationCompatibilityGroups": [
