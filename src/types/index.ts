@@ -200,9 +200,9 @@ export type TrainTypeKey =
 
 export interface TrainTypeConfig {
   key: TrainTypeKey;
-  name: string;        // 例: '急行'
-  nameEn: string;      // 例: 'Express'
-  shortName: string;   // 例: '急'
+  name: string;        // 例: '快速急行'
+  nameEn: string;      // 例: 'Rapid Express'
+  shortName: string;   // 例: '快急'
   color: string;       // HEX
   textColor: string;   // HEX
   bgColor: string;     // HEX
@@ -214,7 +214,7 @@ export interface TrainTypeConfig {
  */
 export interface CustomTrainTypeConfig {
   name: string;        // 任意の種別名 (例: '試運転', '臨時', '団体', 'Fライナー急行')
-  shortName?: string;  // 任意の略称 (例: '試', '臨', '団')
+  shortName?: string;  // 任意の略称 (例: '試', '臨時', '団体')
   color?: string;      // 任意のバッジ・ピンカラー (HEX, 例: '#0284c7')
 }
 
