@@ -1,0 +1,3650 @@
+[
+  {
+    "tripId": "WD_INB_TRF-03_0609_11963",
+    "lineId": "tohoku_rifu",
+    "trainId": "11963",
+    "trainNumber": "8420M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "06:09:00",
+        "departureTime": "06:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "06:11:00",
+        "departureTime": "06:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "06:15:00",
+        "departureTime": "06:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_0615_11963",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_0625_11930",
+    "lineId": "tohoku_rifu",
+    "trainId": "11930",
+    "trainNumber": "4421M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "06:25:00",
+        "departureTime": "06:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "06:28:00",
+        "departureTime": "06:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "06:32:00",
+        "departureTime": "06:32:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_0615_11930",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_0637_11964",
+    "lineId": "tohoku_rifu",
+    "trainId": "11964",
+    "trainNumber": "4420M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "06:39:00",
+        "departureTime": "06:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "06:43:00",
+        "departureTime": "06:43:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_0643_11964",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_0645_11931",
+    "lineId": "tohoku_rifu",
+    "trainId": "11931",
+    "trainNumber": "4423M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "06:44:00",
+        "departureTime": "06:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "06:48:00",
+        "departureTime": "06:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "06:51:00",
+        "departureTime": "06:51:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_0635_11931",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_0658_11965",
+    "lineId": "tohoku_rifu",
+    "trainId": "11965",
+    "trainNumber": "4422M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "06:58:00",
+        "departureTime": "06:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "07:00:00",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "07:04:00",
+        "departureTime": "07:04:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_0704_11965",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_0710_11932",
+    "lineId": "tohoku_rifu",
+    "trainId": "11932",
+    "trainNumber": "4425M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "07:12:00",
+        "departureTime": "07:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "07:16:00",
+        "departureTime": "07:16:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_0700_11932",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_0723_11966",
+    "lineId": "tohoku_rifu",
+    "trainId": "11966",
+    "trainNumber": "4424M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "07:23:00",
+        "departureTime": "07:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "07:25:00",
+        "departureTime": "07:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "07:29:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_0731_11966",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_0739_11933",
+    "lineId": "tohoku_rifu",
+    "trainId": "11933",
+    "trainNumber": "4427M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "07:38:00",
+        "departureTime": "07:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "07:42:00",
+        "departureTime": "07:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "07:45:00",
+        "departureTime": "07:45:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_0728_11933",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_0750_11967",
+    "lineId": "tohoku_rifu",
+    "trainId": "11967",
+    "trainNumber": "4426M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "07:50:00",
+        "departureTime": "07:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "07:52:00",
+        "departureTime": "07:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "07:57:00",
+        "departureTime": "07:58:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_0758_11967",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_0814_11934",
+    "lineId": "tohoku_rifu",
+    "trainId": "11934",
+    "trainNumber": "4429M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "08:13:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "08:17:00",
+        "departureTime": "08:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "08:21:00",
+        "departureTime": "08:21:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_0805_11934",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_0826_11968",
+    "lineId": "tohoku_rifu",
+    "trainId": "11968",
+    "trainNumber": "4428M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "08:26:00",
+        "departureTime": "08:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "08:28:00",
+        "departureTime": "08:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "08:32:00",
+        "departureTime": "08:33:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_0833_11968",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_0839_11935",
+    "lineId": "tohoku_rifu",
+    "trainId": "11935",
+    "trainNumber": "4431M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "08:38:00",
+        "departureTime": "08:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "08:41:00",
+        "departureTime": "08:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "08:44:00",
+        "departureTime": "08:44:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_0828_11935",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_0849_11969",
+    "lineId": "tohoku_rifu",
+    "trainId": "11969",
+    "trainNumber": "4430M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "08:49:00",
+        "departureTime": "08:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "08:52:00",
+        "departureTime": "08:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "08:55:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_0856_11969",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_0902_11962",
+    "lineId": "tohoku_rifu",
+    "trainId": "11962",
+    "trainNumber": "4433M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "岩沼",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "09:01:00",
+        "departureTime": "09:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "09:05:00",
+        "departureTime": "09:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "09:08:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_0852_11962",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_0929_11970",
+    "lineId": "tohoku_rifu",
+    "trainId": "11970",
+    "trainNumber": "4432M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "09:29:00",
+        "departureTime": "09:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "09:31:00",
+        "departureTime": "09:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "09:35:00",
+        "departureTime": "09:36:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_0936_11970",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_0941_11937",
+    "lineId": "tohoku_rifu",
+    "trainId": "11937",
+    "trainNumber": "4435M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "09:40:00",
+        "departureTime": "09:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "09:46:00",
+        "departureTime": "09:46:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_0929_11937",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1000_11971",
+    "lineId": "tohoku_rifu",
+    "trainId": "11971",
+    "trainNumber": "4434M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "10:00:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "10:02:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "10:07:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_1007_11971",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1014_11939",
+    "lineId": "tohoku_rifu",
+    "trainId": "11939",
+    "trainNumber": "4437M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "10:10:00",
+        "departureTime": "10:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "10:20:00",
+        "departureTime": "10:20:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_1001_11939",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1038_40534",
+    "lineId": "tohoku_rifu",
+    "trainId": "40534",
+    "trainNumber": "4470M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "10:38:00",
+        "departureTime": "10:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "10:41:00",
+        "departureTime": "10:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "10:45:00",
+        "departureTime": "10:45:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1100_40528",
+    "lineId": "tohoku_rifu",
+    "trainId": "40528",
+    "trainNumber": "4471M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "11:00:00",
+        "departureTime": "11:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "11:02:00",
+        "departureTime": "11:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "11:06:00",
+        "departureTime": "11:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1130_40535",
+    "lineId": "tohoku_rifu",
+    "trainId": "40535",
+    "trainNumber": "4472M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "11:32:00",
+        "departureTime": "11:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "11:36:00",
+        "departureTime": "11:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1200_40529",
+    "lineId": "tohoku_rifu",
+    "trainId": "40529",
+    "trainNumber": "4473M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "12:00:00",
+        "departureTime": "12:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "12:02:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "12:06:00",
+        "departureTime": "12:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1230_40536",
+    "lineId": "tohoku_rifu",
+    "trainId": "40536",
+    "trainNumber": "4474M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "12:32:00",
+        "departureTime": "12:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "12:36:00",
+        "departureTime": "12:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1300_40530",
+    "lineId": "tohoku_rifu",
+    "trainId": "40530",
+    "trainNumber": "4475M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "13:00:00",
+        "departureTime": "13:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "13:02:00",
+        "departureTime": "13:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "13:06:00",
+        "departureTime": "13:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1330_40537",
+    "lineId": "tohoku_rifu",
+    "trainId": "40537",
+    "trainNumber": "4476M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "13:30:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "13:36:00",
+        "departureTime": "13:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1400_40531",
+    "lineId": "tohoku_rifu",
+    "trainId": "40531",
+    "trainNumber": "4477M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "14:00:00",
+        "departureTime": "14:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "14:02:00",
+        "departureTime": "14:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "14:06:00",
+        "departureTime": "14:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1430_40538",
+    "lineId": "tohoku_rifu",
+    "trainId": "40538",
+    "trainNumber": "4478M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "14:30:00",
+        "departureTime": "14:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "14:32:00",
+        "departureTime": "14:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "14:36:00",
+        "departureTime": "14:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1500_40532",
+    "lineId": "tohoku_rifu",
+    "trainId": "40532",
+    "trainNumber": "4479M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "15:00:00",
+        "departureTime": "15:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "15:02:00",
+        "departureTime": "15:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "15:06:00",
+        "departureTime": "15:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1530_40539",
+    "lineId": "tohoku_rifu",
+    "trainId": "40539",
+    "trainNumber": "4480M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "15:30:00",
+        "departureTime": "15:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "15:32:00",
+        "departureTime": "15:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1600_40533",
+    "lineId": "tohoku_rifu",
+    "trainId": "40533",
+    "trainNumber": "4481M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "16:00:00",
+        "departureTime": "16:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "16:02:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "16:06:00",
+        "departureTime": "16:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1622_11985",
+    "lineId": "tohoku_rifu",
+    "trainId": "11985",
+    "trainNumber": "4436M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "16:22:00",
+        "departureTime": "16:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "16:24:00",
+        "departureTime": "16:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "16:29:00",
+        "departureTime": "16:34:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_1634_11985",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1642_11951",
+    "lineId": "tohoku_rifu",
+    "trainId": "11951",
+    "trainNumber": "4439M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "16:41:00",
+        "departureTime": "16:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:48:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_1632_11951",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1709_11986",
+    "lineId": "tohoku_rifu",
+    "trainId": "11986",
+    "trainNumber": "4438M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "17:09:00",
+        "departureTime": "17:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "17:11:00",
+        "departureTime": "17:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:16:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_1716_11986",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1719_11952",
+    "lineId": "tohoku_rifu",
+    "trainId": "11952",
+    "trainNumber": "4441M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "17:18:00",
+        "departureTime": "17:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "17:21:00",
+        "departureTime": "17:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "17:25:00",
+        "departureTime": "17:25:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_1709_11952",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1735_11987",
+    "lineId": "tohoku_rifu",
+    "trainId": "11987",
+    "trainNumber": "4440M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "17:35:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "17:41:00",
+        "departureTime": "17:45:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_1745_11987",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1743_11953",
+    "lineId": "tohoku_rifu",
+    "trainId": "11953",
+    "trainNumber": "4443M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "17:42:00",
+        "departureTime": "17:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "17:45:00",
+        "departureTime": "17:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "17:49:00",
+        "departureTime": "17:49:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_1732_11953",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1809_11988",
+    "lineId": "tohoku_rifu",
+    "trainId": "11988",
+    "trainNumber": "4442M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "18:09:00",
+        "departureTime": "18:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "18:15:00",
+        "departureTime": "18:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_1815_11988",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1817_11954",
+    "lineId": "tohoku_rifu",
+    "trainId": "11954",
+    "trainNumber": "4445M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "18:19:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "18:23:00",
+        "departureTime": "18:23:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_1807_11954",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1839_11989",
+    "lineId": "tohoku_rifu",
+    "trainId": "11989",
+    "trainNumber": "4444M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "18:39:00",
+        "departureTime": "18:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "18:41:00",
+        "departureTime": "18:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "18:45:00",
+        "departureTime": "18:45:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_1845_11989",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1846_11955",
+    "lineId": "tohoku_rifu",
+    "trainId": "11955",
+    "trainNumber": "4447M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "18:49:00",
+        "departureTime": "18:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "18:52:00",
+        "departureTime": "18:52:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_1836_11955",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1909_11990",
+    "lineId": "tohoku_rifu",
+    "trainId": "11990",
+    "trainNumber": "4446M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "19:09:00",
+        "departureTime": "19:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "19:11:00",
+        "departureTime": "19:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "19:15:00",
+        "departureTime": "19:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_1915_11990",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1917_11956",
+    "lineId": "tohoku_rifu",
+    "trainId": "11956",
+    "trainNumber": "4449M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "19:16:00",
+        "departureTime": "19:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "19:20:00",
+        "departureTime": "19:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "19:23:00",
+        "departureTime": "19:23:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_1906_11956",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_1939_11991",
+    "lineId": "tohoku_rifu",
+    "trainId": "11991",
+    "trainNumber": "4448M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "19:39:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "19:41:00",
+        "departureTime": "19:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "19:45:00",
+        "departureTime": "19:48:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_1948_11991",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_1948_11957",
+    "lineId": "tohoku_rifu",
+    "trainId": "11957",
+    "trainNumber": "4451M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "19:47:00",
+        "departureTime": "19:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "19:51:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "19:54:00",
+        "departureTime": "19:54:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_1937_11957",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_2002_11992",
+    "lineId": "tohoku_rifu",
+    "trainId": "11992",
+    "trainNumber": "4450M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "20:02:00",
+        "departureTime": "20:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "20:04:00",
+        "departureTime": "20:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "20:08:00",
+        "departureTime": "20:08:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_2008_11992",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_2034_11958",
+    "lineId": "tohoku_rifu",
+    "trainId": "11958",
+    "trainNumber": "4453M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "20:34:00",
+        "departureTime": "20:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:40:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_2025_11958",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_2104_11993",
+    "lineId": "tohoku_rifu",
+    "trainId": "11993",
+    "trainNumber": "4452M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "21:04:00",
+        "departureTime": "21:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "21:06:00",
+        "departureTime": "21:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "21:10:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_2110_11993",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_2138_11959",
+    "lineId": "tohoku_rifu",
+    "trainId": "11959",
+    "trainNumber": "4455M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "21:38:00",
+        "departureTime": "21:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "21:41:00",
+        "departureTime": "21:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "21:44:00",
+        "departureTime": "21:44:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_2128_11959",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_2159_11994",
+    "lineId": "tohoku_rifu",
+    "trainId": "11994",
+    "trainNumber": "4454M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "21:59:00",
+        "departureTime": "21:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "22:01:00",
+        "departureTime": "22:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "22:05:00",
+        "departureTime": "22:05:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_2205_11994",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_2235_11960",
+    "lineId": "tohoku_rifu",
+    "trainId": "11960",
+    "trainNumber": "4457M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "22:34:00",
+        "departureTime": "22:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "22:38:00",
+        "departureTime": "22:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "22:41:00",
+        "departureTime": "22:41:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_2225_11960",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_INB_TRF-03_2254_11995",
+    "lineId": "tohoku_rifu",
+    "trainId": "11995",
+    "trainNumber": "4456M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "22:54:00",
+        "departureTime": "22:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "22:56:00",
+        "departureTime": "22:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "23:00:00",
+        "departureTime": "23:01:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_INB_TSI-03_2301_11995",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "WD_OUT_TRF-01_2315_11961",
+    "lineId": "tohoku_rifu",
+    "trainId": "11961",
+    "trainNumber": "4459M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "23:15:00",
+        "departureTime": "23:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "23:18:00",
+        "departureTime": "23:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "23:21:00",
+        "departureTime": "23:21:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_OUT_TSI-01_2305_11961",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_0609_11963",
+    "lineId": "tohoku_rifu",
+    "trainId": "11963",
+    "trainNumber": "8420M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "06:09:00",
+        "departureTime": "06:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "06:11:00",
+        "departureTime": "06:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "06:15:00",
+        "departureTime": "06:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_0615_11963",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_0625_11930",
+    "lineId": "tohoku_rifu",
+    "trainId": "11930",
+    "trainNumber": "4421M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "06:25:00",
+        "departureTime": "06:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "06:28:00",
+        "departureTime": "06:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "06:32:00",
+        "departureTime": "06:32:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_0615_11930",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_0637_11964",
+    "lineId": "tohoku_rifu",
+    "trainId": "11964",
+    "trainNumber": "4420M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "06:37:00",
+        "departureTime": "06:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "06:39:00",
+        "departureTime": "06:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "06:43:00",
+        "departureTime": "06:43:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_0643_11964",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_0645_11931",
+    "lineId": "tohoku_rifu",
+    "trainId": "11931",
+    "trainNumber": "4423M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "06:44:00",
+        "departureTime": "06:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "06:48:00",
+        "departureTime": "06:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "06:51:00",
+        "departureTime": "06:51:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_0635_11931",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_0658_11965",
+    "lineId": "tohoku_rifu",
+    "trainId": "11965",
+    "trainNumber": "4422M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "06:58:00",
+        "departureTime": "06:58:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "07:00:00",
+        "departureTime": "07:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "07:04:00",
+        "departureTime": "07:04:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_0704_11965",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_0710_11932",
+    "lineId": "tohoku_rifu",
+    "trainId": "11932",
+    "trainNumber": "4425M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "07:09:00",
+        "departureTime": "07:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "07:12:00",
+        "departureTime": "07:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "07:16:00",
+        "departureTime": "07:16:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_0700_11932",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_0723_11966",
+    "lineId": "tohoku_rifu",
+    "trainId": "11966",
+    "trainNumber": "4424M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "07:23:00",
+        "departureTime": "07:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "07:25:00",
+        "departureTime": "07:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "07:29:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_0731_11966",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_0739_11933",
+    "lineId": "tohoku_rifu",
+    "trainId": "11933",
+    "trainNumber": "4427M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "07:38:00",
+        "departureTime": "07:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "07:42:00",
+        "departureTime": "07:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "07:45:00",
+        "departureTime": "07:45:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_0728_11933",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_0750_11967",
+    "lineId": "tohoku_rifu",
+    "trainId": "11967",
+    "trainNumber": "4426M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "07:50:00",
+        "departureTime": "07:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "07:52:00",
+        "departureTime": "07:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "07:57:00",
+        "departureTime": "07:58:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_0758_11967",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_0814_11934",
+    "lineId": "tohoku_rifu",
+    "trainId": "11934",
+    "trainNumber": "4429M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "08:13:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "08:17:00",
+        "departureTime": "08:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "08:21:00",
+        "departureTime": "08:21:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_0805_11934",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_0826_11968",
+    "lineId": "tohoku_rifu",
+    "trainId": "11968",
+    "trainNumber": "4428M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "08:26:00",
+        "departureTime": "08:26:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "08:28:00",
+        "departureTime": "08:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "08:32:00",
+        "departureTime": "08:33:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_0833_11968",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_0839_11935",
+    "lineId": "tohoku_rifu",
+    "trainId": "11935",
+    "trainNumber": "4431M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "08:38:00",
+        "departureTime": "08:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "08:41:00",
+        "departureTime": "08:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "08:44:00",
+        "departureTime": "08:44:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_0828_11935",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_0849_11969",
+    "lineId": "tohoku_rifu",
+    "trainId": "11969",
+    "trainNumber": "4430M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "08:49:00",
+        "departureTime": "08:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "08:52:00",
+        "departureTime": "08:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "08:55:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_0856_11969",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_0902_11962",
+    "lineId": "tohoku_rifu",
+    "trainId": "11962",
+    "trainNumber": "4433M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "岩沼",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "09:01:00",
+        "departureTime": "09:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "09:05:00",
+        "departureTime": "09:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "09:08:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_0852_11962",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_0929_11970",
+    "lineId": "tohoku_rifu",
+    "trainId": "11970",
+    "trainNumber": "4432M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "09:29:00",
+        "departureTime": "09:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "09:31:00",
+        "departureTime": "09:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "09:35:00",
+        "departureTime": "09:36:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_0936_11970",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_0941_11937",
+    "lineId": "tohoku_rifu",
+    "trainId": "11937",
+    "trainNumber": "4435M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "09:40:00",
+        "departureTime": "09:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "09:46:00",
+        "departureTime": "09:46:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_0929_11937",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1000_11971",
+    "lineId": "tohoku_rifu",
+    "trainId": "11971",
+    "trainNumber": "4434M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "10:00:00",
+        "departureTime": "10:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "10:02:00",
+        "departureTime": "10:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "10:07:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_1007_11971",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1014_11939",
+    "lineId": "tohoku_rifu",
+    "trainId": "11939",
+    "trainNumber": "4437M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "10:10:00",
+        "departureTime": "10:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "10:20:00",
+        "departureTime": "10:20:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_1001_11939",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1038_40534",
+    "lineId": "tohoku_rifu",
+    "trainId": "40534",
+    "trainNumber": "4470M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "10:38:00",
+        "departureTime": "10:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "10:41:00",
+        "departureTime": "10:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "10:45:00",
+        "departureTime": "10:45:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1100_40528",
+    "lineId": "tohoku_rifu",
+    "trainId": "40528",
+    "trainNumber": "4471M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "11:00:00",
+        "departureTime": "11:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "11:02:00",
+        "departureTime": "11:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "11:06:00",
+        "departureTime": "11:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1130_40535",
+    "lineId": "tohoku_rifu",
+    "trainId": "40535",
+    "trainNumber": "4472M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "11:32:00",
+        "departureTime": "11:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "11:36:00",
+        "departureTime": "11:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1200_40529",
+    "lineId": "tohoku_rifu",
+    "trainId": "40529",
+    "trainNumber": "4473M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "12:00:00",
+        "departureTime": "12:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "12:02:00",
+        "departureTime": "12:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "12:06:00",
+        "departureTime": "12:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1230_40536",
+    "lineId": "tohoku_rifu",
+    "trainId": "40536",
+    "trainNumber": "4474M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "12:32:00",
+        "departureTime": "12:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "12:36:00",
+        "departureTime": "12:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1300_40530",
+    "lineId": "tohoku_rifu",
+    "trainId": "40530",
+    "trainNumber": "4475M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "13:00:00",
+        "departureTime": "13:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "13:02:00",
+        "departureTime": "13:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "13:06:00",
+        "departureTime": "13:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1330_40537",
+    "lineId": "tohoku_rifu",
+    "trainId": "40537",
+    "trainNumber": "4476M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "13:30:00",
+        "departureTime": "13:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "13:36:00",
+        "departureTime": "13:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1400_40531",
+    "lineId": "tohoku_rifu",
+    "trainId": "40531",
+    "trainNumber": "4477M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "14:00:00",
+        "departureTime": "14:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "14:02:00",
+        "departureTime": "14:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "14:06:00",
+        "departureTime": "14:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1430_40538",
+    "lineId": "tohoku_rifu",
+    "trainId": "40538",
+    "trainNumber": "4478M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "14:30:00",
+        "departureTime": "14:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "14:32:00",
+        "departureTime": "14:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "14:36:00",
+        "departureTime": "14:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1500_40532",
+    "lineId": "tohoku_rifu",
+    "trainId": "40532",
+    "trainNumber": "4479M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "15:00:00",
+        "departureTime": "15:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "15:02:00",
+        "departureTime": "15:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "15:06:00",
+        "departureTime": "15:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1530_40539",
+    "lineId": "tohoku_rifu",
+    "trainId": "40539",
+    "trainNumber": "4480M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "15:30:00",
+        "departureTime": "15:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "15:32:00",
+        "departureTime": "15:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:36:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1600_40533",
+    "lineId": "tohoku_rifu",
+    "trainId": "40533",
+    "trainNumber": "4481M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "16:00:00",
+        "departureTime": "16:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "16:02:00",
+        "departureTime": "16:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "16:06:00",
+        "departureTime": "16:06:00",
+        "isPassing": false
+      }
+    ]
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1622_11985",
+    "lineId": "tohoku_rifu",
+    "trainId": "11985",
+    "trainNumber": "4436M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "16:22:00",
+        "departureTime": "16:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "16:24:00",
+        "departureTime": "16:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "16:29:00",
+        "departureTime": "16:34:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_1634_11985",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1642_11951",
+    "lineId": "tohoku_rifu",
+    "trainId": "11951",
+    "trainNumber": "4439M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "16:41:00",
+        "departureTime": "16:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "16:45:00",
+        "departureTime": "16:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:48:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_1632_11951",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1709_11986",
+    "lineId": "tohoku_rifu",
+    "trainId": "11986",
+    "trainNumber": "4438M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "17:09:00",
+        "departureTime": "17:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "17:11:00",
+        "departureTime": "17:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "17:15:00",
+        "departureTime": "17:16:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_1716_11986",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1719_11952",
+    "lineId": "tohoku_rifu",
+    "trainId": "11952",
+    "trainNumber": "4441M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "17:18:00",
+        "departureTime": "17:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "17:21:00",
+        "departureTime": "17:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "17:25:00",
+        "departureTime": "17:25:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_1709_11952",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1735_11987",
+    "lineId": "tohoku_rifu",
+    "trainId": "11987",
+    "trainNumber": "4440M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "17:35:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "17:41:00",
+        "departureTime": "17:45:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_1745_11987",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1743_11953",
+    "lineId": "tohoku_rifu",
+    "trainId": "11953",
+    "trainNumber": "4443M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "17:42:00",
+        "departureTime": "17:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "17:45:00",
+        "departureTime": "17:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "17:49:00",
+        "departureTime": "17:49:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_1732_11953",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1809_11988",
+    "lineId": "tohoku_rifu",
+    "trainId": "11988",
+    "trainNumber": "4442M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "18:09:00",
+        "departureTime": "18:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "18:15:00",
+        "departureTime": "18:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_1815_11988",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1817_11954",
+    "lineId": "tohoku_rifu",
+    "trainId": "11954",
+    "trainNumber": "4445M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "18:16:00",
+        "departureTime": "18:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "18:19:00",
+        "departureTime": "18:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "18:23:00",
+        "departureTime": "18:23:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_1807_11954",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1839_11989",
+    "lineId": "tohoku_rifu",
+    "trainId": "11989",
+    "trainNumber": "4444M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "18:39:00",
+        "departureTime": "18:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "18:41:00",
+        "departureTime": "18:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "18:45:00",
+        "departureTime": "18:45:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_1845_11989",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1846_11955",
+    "lineId": "tohoku_rifu",
+    "trainId": "11955",
+    "trainNumber": "4447M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "18:46:00",
+        "departureTime": "18:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "18:49:00",
+        "departureTime": "18:49:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "18:52:00",
+        "departureTime": "18:52:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_1836_11955",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1909_11990",
+    "lineId": "tohoku_rifu",
+    "trainId": "11990",
+    "trainNumber": "4446M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "19:09:00",
+        "departureTime": "19:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "19:11:00",
+        "departureTime": "19:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "19:15:00",
+        "departureTime": "19:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_1915_11990",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1917_11956",
+    "lineId": "tohoku_rifu",
+    "trainId": "11956",
+    "trainNumber": "4449M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "19:16:00",
+        "departureTime": "19:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "19:20:00",
+        "departureTime": "19:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "19:23:00",
+        "departureTime": "19:23:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_1906_11956",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_1939_11991",
+    "lineId": "tohoku_rifu",
+    "trainId": "11991",
+    "trainNumber": "4448M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "19:39:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "19:41:00",
+        "departureTime": "19:42:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "19:45:00",
+        "departureTime": "19:48:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_1948_11991",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_1948_11957",
+    "lineId": "tohoku_rifu",
+    "trainId": "11957",
+    "trainNumber": "4451M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "19:47:00",
+        "departureTime": "19:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "19:51:00",
+        "departureTime": "19:51:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "19:54:00",
+        "departureTime": "19:54:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_1937_11957",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_2002_11992",
+    "lineId": "tohoku_rifu",
+    "trainId": "11992",
+    "trainNumber": "4450M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "20:02:00",
+        "departureTime": "20:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "20:04:00",
+        "departureTime": "20:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "20:08:00",
+        "departureTime": "20:08:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_2008_11992",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_2034_11958",
+    "lineId": "tohoku_rifu",
+    "trainId": "11958",
+    "trainNumber": "4453M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "20:34:00",
+        "departureTime": "20:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:40:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_2025_11958",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_2104_11993",
+    "lineId": "tohoku_rifu",
+    "trainId": "11993",
+    "trainNumber": "4452M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "21:04:00",
+        "departureTime": "21:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "21:06:00",
+        "departureTime": "21:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "21:10:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_2110_11993",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_2138_11959",
+    "lineId": "tohoku_rifu",
+    "trainId": "11959",
+    "trainNumber": "4455M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "21:38:00",
+        "departureTime": "21:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "21:41:00",
+        "departureTime": "21:41:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "21:44:00",
+        "departureTime": "21:44:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_2128_11959",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_2159_11994",
+    "lineId": "tohoku_rifu",
+    "trainId": "11994",
+    "trainNumber": "4454M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "21:59:00",
+        "departureTime": "21:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "22:01:00",
+        "departureTime": "22:01:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "22:05:00",
+        "departureTime": "22:05:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_2205_11994",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_2235_11960",
+    "lineId": "tohoku_rifu",
+    "trainId": "11960",
+    "trainNumber": "4457M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "22:34:00",
+        "departureTime": "22:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "22:38:00",
+        "departureTime": "22:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "22:41:00",
+        "departureTime": "22:41:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_2225_11960",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_INB_TRF-03_2254_11995",
+    "lineId": "tohoku_rifu",
+    "trainId": "11995",
+    "trainNumber": "4456M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "TRF-03",
+    "destinationStationId": "TRF-01",
+    "customOrigin": "利府",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "22:54:00",
+        "departureTime": "22:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "22:56:00",
+        "departureTime": "22:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "23:00:00",
+        "departureTime": "23:01:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_INB_TSI-03_2301_11995",
+    "throughLineId": "tohoku_sendai_ichinoseki"
+  },
+  {
+    "tripId": "HD_OUT_TRF-01_2315_11961",
+    "lineId": "tohoku_rifu",
+    "trainId": "11961",
+    "trainNumber": "4459M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "TRF-01",
+    "destinationStationId": "TRF-03",
+    "customOrigin": "仙台",
+    "customDestination": "利府",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "TRF-01",
+        "arrivalTime": "23:15:00",
+        "departureTime": "23:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-02",
+        "arrivalTime": "23:18:00",
+        "departureTime": "23:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "TRF-03",
+        "arrivalTime": "23:21:00",
+        "departureTime": "23:21:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_OUT_TSI-01_2305_11961",
+    "prevLineId": "tohoku_sendai_ichinoseki"
+  }
+]

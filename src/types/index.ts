@@ -110,6 +110,33 @@ export type LineId =
   | 'jr_biwako'
   | 'jr_kyoto'
   | 'jr_kobe'
+  | 'tohoku_kuroiso_fukushima'
+  | 'tohoku_fukushima_sendai'
+  | 'tohoku_sendai_ichinoseki'
+  | 'tohoku_rifu'
+  | 'tohoku_ichinoseki_morioka'
+  | 'igr_iwate_ginga'
+  | 'aoimori'
+  | 'senseki'
+  | 'senseki_tohoku'
+  | 'ishinomaki'
+  | 'rikuu_east'
+  | 'rikuu_west'
+  | 'senzan'
+  | 'sendai_airport'
+  | 'kitakami'
+  | 'ofunato'
+  | 'ofunato_brt'
+  | 'kesennuma'
+  | 'kesennuma_brt'
+  | 'kamaishi'
+  | 'tazawako'
+  | 'yamada'
+  | 'hachinohe'
+  | 'ominato'
+  | 'tsugaru'
+  | 'gono'
+  | 'oga'
   | (string & {});
 
 
@@ -146,6 +173,8 @@ export type TrainTypeKey =
   | 'sl'                      // SL（パレオエクスプレス）
   | 'sl_taiju'                // SL大樹（東武鬼怒川線・日光線）
   | 'aizu_ozatoro'            // お座トロ展望列車（会津鉄道）
+  | 'substitution_bus'        // 代行バス（陸羽東線 鳴子温泉～新庄・山田線・津軽線・北上線等）
+  | 'brt'                     // BRT（気仙沼線BRT・大船渡線BRT）
   | 'hayabusa'                // はやぶさ（東北新幹線）
   | 'hayate'                  // はやて（東北新幹線）
   | 'yamabiko'                // やまびこ（東北新幹線）

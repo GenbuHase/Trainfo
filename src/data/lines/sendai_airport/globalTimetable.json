@@ -1,0 +1,7394 @@
+[
+  {
+    "tripId": "WD_INB_SA-04_0531_24711",
+    "lineId": "sendai_airport",
+    "trainId": "24711",
+    "trainNumber": "1301M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "05:31:00",
+        "departureTime": "05:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "05:35:00",
+        "departureTime": "05:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "05:38:00",
+        "departureTime": "05:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "05:41:00",
+        "departureTime": "05:41:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_0541_24711",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_0559_24764",
+    "lineId": "sendai_airport",
+    "trainId": "24764",
+    "trainNumber": "1302M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "仙台",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "05:58:00",
+        "departureTime": "05:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "06:01:00",
+        "departureTime": "06:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "06:04:00",
+        "departureTime": "06:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "06:09:00",
+        "departureTime": "06:09:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_0545_24764",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_0629_24712",
+    "lineId": "sendai_airport",
+    "trainId": "24712",
+    "trainNumber": "1303M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "06:29:00",
+        "departureTime": "06:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "06:33:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "06:39:00",
+        "departureTime": "06:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "06:42:00",
+        "departureTime": "06:42:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_0642_24712",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_0630_24765",
+    "lineId": "sendai_airport",
+    "trainId": "24765",
+    "trainNumber": "1304M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "06:30:00",
+        "departureTime": "06:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "06:33:00",
+        "departureTime": "06:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "06:35:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "06:40:00",
+        "departureTime": "06:40:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_0616_24765",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_0655_24713",
+    "lineId": "sendai_airport",
+    "trainId": "24713",
+    "trainNumber": "1305M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "06:55:00",
+        "departureTime": "06:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "06:59:00",
+        "departureTime": "07:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "07:05:00",
+        "departureTime": "07:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "07:08:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_0709_24713",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_0656_24766",
+    "lineId": "sendai_airport",
+    "trainId": "24766",
+    "trainNumber": "1306M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "06:55:00",
+        "departureTime": "06:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "06:58:00",
+        "departureTime": "06:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "07:01:00",
+        "departureTime": "07:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "07:06:00",
+        "departureTime": "07:06:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_0642_24766",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_0721_24714",
+    "lineId": "sendai_airport",
+    "trainId": "24714",
+    "trainNumber": "1307M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "07:21:00",
+        "departureTime": "07:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "07:25:00",
+        "departureTime": "07:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "07:32:00",
+        "departureTime": "07:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "07:36:00",
+        "departureTime": "07:37:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_0737_24714",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_0722_24767",
+    "lineId": "sendai_airport",
+    "trainId": "24767",
+    "trainNumber": "1308M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "07:21:00",
+        "departureTime": "07:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "07:24:00",
+        "departureTime": "07:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "07:27:00",
+        "departureTime": "07:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "07:31:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_0708_24767",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_0738_24715",
+    "lineId": "sendai_airport",
+    "trainId": "24715",
+    "trainNumber": "1309M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "07:38:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "07:42:00",
+        "departureTime": "07:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "07:46:00",
+        "departureTime": "07:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "07:49:00",
+        "departureTime": "07:50:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_0750_24715",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_0750_24768",
+    "lineId": "sendai_airport",
+    "trainId": "24768",
+    "trainNumber": "1310M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "07:49:00",
+        "departureTime": "07:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "07:52:00",
+        "departureTime": "07:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "07:55:00",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "07:59:00",
+        "departureTime": "07:59:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_0735_24768",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_0806_24716",
+    "lineId": "sendai_airport",
+    "trainId": "24716",
+    "trainNumber": "1311M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "08:06:00",
+        "departureTime": "08:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "08:10:00",
+        "departureTime": "08:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "08:13:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "08:16:00",
+        "departureTime": "08:18:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_0818_24716",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_0817_24769",
+    "lineId": "sendai_airport",
+    "trainId": "24769",
+    "trainNumber": "1312M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "女川",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "08:16:00",
+        "departureTime": "08:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "08:20:00",
+        "departureTime": "08:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "08:22:00",
+        "departureTime": "08:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "08:27:00",
+        "departureTime": "08:27:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_0802_24769",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_0836_24717",
+    "lineId": "sendai_airport",
+    "trainId": "24717",
+    "trainNumber": "1313M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "08:36:00",
+        "departureTime": "08:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "08:39:00",
+        "departureTime": "08:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "08:42:00",
+        "departureTime": "08:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "08:46:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_0847_24717",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_0847_24770",
+    "lineId": "sendai_airport",
+    "trainId": "24770",
+    "trainNumber": "1314M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "08:46:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "08:49:00",
+        "departureTime": "08:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "08:52:00",
+        "departureTime": "08:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "08:56:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_0831_24770",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_0907_24718",
+    "lineId": "sendai_airport",
+    "trainId": "24718",
+    "trainNumber": "1315M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "09:07:00",
+        "departureTime": "09:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "09:11:00",
+        "departureTime": "09:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "09:18:00",
+        "departureTime": "09:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "09:22:00",
+        "departureTime": "09:23:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_0923_24718",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_0908_24771",
+    "lineId": "sendai_airport",
+    "trainId": "24771",
+    "trainNumber": "1316M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "一ノ関",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "09:07:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "09:11:00",
+        "departureTime": "09:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "09:14:00",
+        "departureTime": "09:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "09:18:00",
+        "departureTime": "09:18:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_0854_24771",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_0929_24719",
+    "lineId": "sendai_airport",
+    "trainId": "24719",
+    "trainNumber": "1317M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "09:29:00",
+        "departureTime": "09:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "09:33:00",
+        "departureTime": "09:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "09:39:00",
+        "departureTime": "09:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "09:42:00",
+        "departureTime": "09:42:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_0942_24719",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_0930_24772",
+    "lineId": "sendai_airport",
+    "trainId": "24772",
+    "trainNumber": "1318M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "09:29:00",
+        "departureTime": "09:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "09:32:00",
+        "departureTime": "09:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "09:35:00",
+        "departureTime": "09:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "09:40:00",
+        "departureTime": "09:40:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_0916_24772",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_0944_24773",
+    "lineId": "sendai_airport",
+    "trainId": "24773",
+    "trainNumber": "1320M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "09:46:00",
+        "departureTime": "09:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "09:57:00",
+        "departureTime": "09:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_0930_24773",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_0948_24720",
+    "lineId": "sendai_airport",
+    "trainId": "24720",
+    "trainNumber": "1319M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "09:48:00",
+        "departureTime": "09:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "09:52:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "09:56:00",
+        "departureTime": "09:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "09:59:00",
+        "departureTime": "09:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_0959_24720",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1004_24774",
+    "lineId": "sendai_airport",
+    "trainId": "24774",
+    "trainNumber": "1322M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "10:06:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "10:10:00",
+        "departureTime": "10:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "10:17:00",
+        "departureTime": "10:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_0950_24774",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1008_24721",
+    "lineId": "sendai_airport",
+    "trainId": "24721",
+    "trainNumber": "1321M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "10:08:00",
+        "departureTime": "10:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "10:12:00",
+        "departureTime": "10:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "10:19:00",
+        "departureTime": "10:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1019_24721",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1024_24775",
+    "lineId": "sendai_airport",
+    "trainId": "24775",
+    "trainNumber": "1324M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "10:23:00",
+        "departureTime": "10:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "10:26:00",
+        "departureTime": "10:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "10:30:00",
+        "departureTime": "10:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "10:37:00",
+        "departureTime": "10:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1010_24775",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1028_24722",
+    "lineId": "sendai_airport",
+    "trainId": "24722",
+    "trainNumber": "1323M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "10:28:00",
+        "departureTime": "10:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "10:32:00",
+        "departureTime": "10:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "10:36:00",
+        "departureTime": "10:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "10:39:00",
+        "departureTime": "10:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1039_24722",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1044_24776",
+    "lineId": "sendai_airport",
+    "trainId": "24776",
+    "trainNumber": "1326M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "10:43:00",
+        "departureTime": "10:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "10:46:00",
+        "departureTime": "10:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "10:50:00",
+        "departureTime": "10:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "10:57:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1030_24776",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1048_24723",
+    "lineId": "sendai_airport",
+    "trainId": "24723",
+    "trainNumber": "1325M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "10:48:00",
+        "departureTime": "10:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "10:52:00",
+        "departureTime": "10:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "10:56:00",
+        "departureTime": "10:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "10:59:00",
+        "departureTime": "10:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1059_24723",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1104_24777",
+    "lineId": "sendai_airport",
+    "trainId": "24777",
+    "trainNumber": "1328M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "11:03:00",
+        "departureTime": "11:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "11:07:00",
+        "departureTime": "11:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "11:10:00",
+        "departureTime": "11:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "11:17:00",
+        "departureTime": "11:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1050_24777",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1108_24724",
+    "lineId": "sendai_airport",
+    "trainId": "24724",
+    "trainNumber": "1327M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "11:08:00",
+        "departureTime": "11:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "11:12:00",
+        "departureTime": "11:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "11:16:00",
+        "departureTime": "11:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "11:19:00",
+        "departureTime": "11:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1119_24724",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1124_24778",
+    "lineId": "sendai_airport",
+    "trainId": "24778",
+    "trainNumber": "1330M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "11:23:00",
+        "departureTime": "11:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "11:26:00",
+        "departureTime": "11:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "11:37:00",
+        "departureTime": "11:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1110_24778",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1128_24725",
+    "lineId": "sendai_airport",
+    "trainId": "24725",
+    "trainNumber": "1329M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "11:28:00",
+        "departureTime": "11:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "11:32:00",
+        "departureTime": "11:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "11:36:00",
+        "departureTime": "11:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "11:39:00",
+        "departureTime": "11:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1139_24725",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1144_24779",
+    "lineId": "sendai_airport",
+    "trainId": "24779",
+    "trainNumber": "1332M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "11:43:00",
+        "departureTime": "11:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "11:47:00",
+        "departureTime": "11:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "11:50:00",
+        "departureTime": "11:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "11:57:00",
+        "departureTime": "11:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1130_24779",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1148_24726",
+    "lineId": "sendai_airport",
+    "trainId": "24726",
+    "trainNumber": "1331M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "11:48:00",
+        "departureTime": "11:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "11:52:00",
+        "departureTime": "11:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "11:56:00",
+        "departureTime": "11:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "11:59:00",
+        "departureTime": "11:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1159_24726",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1204_24780",
+    "lineId": "sendai_airport",
+    "trainId": "24780",
+    "trainNumber": "1334M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "仙台",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "12:03:00",
+        "departureTime": "12:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "12:06:00",
+        "departureTime": "12:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "12:10:00",
+        "departureTime": "12:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "12:17:00",
+        "departureTime": "12:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1150_24780",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1208_24727",
+    "lineId": "sendai_airport",
+    "trainId": "24727",
+    "trainNumber": "1333M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "12:08:00",
+        "departureTime": "12:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "12:12:00",
+        "departureTime": "12:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "12:16:00",
+        "departureTime": "12:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "12:20:00",
+        "departureTime": "12:21:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1221_24727",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1224_24781",
+    "lineId": "sendai_airport",
+    "trainId": "24781",
+    "trainNumber": "1336M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "12:23:00",
+        "departureTime": "12:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "12:26:00",
+        "departureTime": "12:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "12:37:00",
+        "departureTime": "12:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1210_24781",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1228_24728",
+    "lineId": "sendai_airport",
+    "trainId": "24728",
+    "trainNumber": "1335M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "12:28:00",
+        "departureTime": "12:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "12:32:00",
+        "departureTime": "12:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "12:36:00",
+        "departureTime": "12:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "12:39:00",
+        "departureTime": "12:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1239_24728",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1244_24782",
+    "lineId": "sendai_airport",
+    "trainId": "24782",
+    "trainNumber": "1338M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "松島",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "12:43:00",
+        "departureTime": "12:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "12:46:00",
+        "departureTime": "12:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "12:50:00",
+        "departureTime": "12:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "12:57:00",
+        "departureTime": "12:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1230_24782",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1248_24729",
+    "lineId": "sendai_airport",
+    "trainId": "24729",
+    "trainNumber": "1337M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "12:48:00",
+        "departureTime": "12:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "12:52:00",
+        "departureTime": "12:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "12:56:00",
+        "departureTime": "12:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "12:59:00",
+        "departureTime": "12:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1259_24729",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1304_24783",
+    "lineId": "sendai_airport",
+    "trainId": "24783",
+    "trainNumber": "1340M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "13:03:00",
+        "departureTime": "13:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "13:06:00",
+        "departureTime": "13:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "13:10:00",
+        "departureTime": "13:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "13:17:00",
+        "departureTime": "13:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1250_24783",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1308_24730",
+    "lineId": "sendai_airport",
+    "trainId": "24730",
+    "trainNumber": "1339M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "13:08:00",
+        "departureTime": "13:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "13:12:00",
+        "departureTime": "13:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "13:16:00",
+        "departureTime": "13:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "13:19:00",
+        "departureTime": "13:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1319_24730",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1324_24784",
+    "lineId": "sendai_airport",
+    "trainId": "24784",
+    "trainNumber": "1342M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "13:23:00",
+        "departureTime": "13:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "13:26:00",
+        "departureTime": "13:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "13:30:00",
+        "departureTime": "13:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "13:37:00",
+        "departureTime": "13:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1310_24784",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1328_24731",
+    "lineId": "sendai_airport",
+    "trainId": "24731",
+    "trainNumber": "1341M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "13:28:00",
+        "departureTime": "13:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "13:36:00",
+        "departureTime": "13:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "13:39:00",
+        "departureTime": "13:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1339_24731",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1344_24785",
+    "lineId": "sendai_airport",
+    "trainId": "24785",
+    "trainNumber": "1344M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "13:43:00",
+        "departureTime": "13:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "13:46:00",
+        "departureTime": "13:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "13:50:00",
+        "departureTime": "13:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "13:57:00",
+        "departureTime": "13:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1330_24785",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1348_24732",
+    "lineId": "sendai_airport",
+    "trainId": "24732",
+    "trainNumber": "1343M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "13:48:00",
+        "departureTime": "13:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "13:52:00",
+        "departureTime": "13:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "13:56:00",
+        "departureTime": "13:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "13:59:00",
+        "departureTime": "13:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1359_24732",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1404_24786",
+    "lineId": "sendai_airport",
+    "trainId": "24786",
+    "trainNumber": "1346M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "仙台",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "14:03:00",
+        "departureTime": "14:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "14:06:00",
+        "departureTime": "14:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "14:10:00",
+        "departureTime": "14:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "14:17:00",
+        "departureTime": "14:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1350_24786",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1408_24733",
+    "lineId": "sendai_airport",
+    "trainId": "24733",
+    "trainNumber": "1345M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "14:08:00",
+        "departureTime": "14:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "14:12:00",
+        "departureTime": "14:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "14:16:00",
+        "departureTime": "14:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "14:19:00",
+        "departureTime": "14:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1419_24733",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1424_24787",
+    "lineId": "sendai_airport",
+    "trainId": "24787",
+    "trainNumber": "1348M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "14:23:00",
+        "departureTime": "14:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "14:27:00",
+        "departureTime": "14:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "14:30:00",
+        "departureTime": "14:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "14:37:00",
+        "departureTime": "14:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1410_24787",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1428_24734",
+    "lineId": "sendai_airport",
+    "trainId": "24734",
+    "trainNumber": "1347M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "14:28:00",
+        "departureTime": "14:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "14:32:00",
+        "departureTime": "14:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "14:36:00",
+        "departureTime": "14:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "14:39:00",
+        "departureTime": "14:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1439_24734",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1444_24788",
+    "lineId": "sendai_airport",
+    "trainId": "24788",
+    "trainNumber": "1350M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "14:43:00",
+        "departureTime": "14:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "14:47:00",
+        "departureTime": "14:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "14:50:00",
+        "departureTime": "14:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "14:57:00",
+        "departureTime": "14:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1430_24788",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1448_24735",
+    "lineId": "sendai_airport",
+    "trainId": "24735",
+    "trainNumber": "1349M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "14:48:00",
+        "departureTime": "14:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "14:52:00",
+        "departureTime": "14:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "14:56:00",
+        "departureTime": "14:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "14:59:00",
+        "departureTime": "14:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1459_24735",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1504_24789",
+    "lineId": "sendai_airport",
+    "trainId": "24789",
+    "trainNumber": "1352M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "仙台",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "15:03:00",
+        "departureTime": "15:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "15:07:00",
+        "departureTime": "15:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "15:10:00",
+        "departureTime": "15:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "15:17:00",
+        "departureTime": "15:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1450_24789",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1508_24736",
+    "lineId": "sendai_airport",
+    "trainId": "24736",
+    "trainNumber": "1351M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "15:08:00",
+        "departureTime": "15:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "15:12:00",
+        "departureTime": "15:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "15:16:00",
+        "departureTime": "15:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "15:19:00",
+        "departureTime": "15:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1519_24736",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1524_24790",
+    "lineId": "sendai_airport",
+    "trainId": "24790",
+    "trainNumber": "1354M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "15:23:00",
+        "departureTime": "15:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "15:26:00",
+        "departureTime": "15:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "15:30:00",
+        "departureTime": "15:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "15:37:00",
+        "departureTime": "15:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1510_24790",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1528_24737",
+    "lineId": "sendai_airport",
+    "trainId": "24737",
+    "trainNumber": "1353M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "15:28:00",
+        "departureTime": "15:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "15:32:00",
+        "departureTime": "15:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "15:39:00",
+        "departureTime": "15:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1539_24737",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1544_24791",
+    "lineId": "sendai_airport",
+    "trainId": "24791",
+    "trainNumber": "1356M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "松島",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "15:43:00",
+        "departureTime": "15:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "15:46:00",
+        "departureTime": "15:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "15:57:00",
+        "departureTime": "15:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1530_24791",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1548_24738",
+    "lineId": "sendai_airport",
+    "trainId": "24738",
+    "trainNumber": "1355M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "15:48:00",
+        "departureTime": "15:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "15:52:00",
+        "departureTime": "15:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "15:56:00",
+        "departureTime": "15:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "15:59:00",
+        "departureTime": "15:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1559_24738",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1604_24792",
+    "lineId": "sendai_airport",
+    "trainId": "24792",
+    "trainNumber": "1358M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "16:03:00",
+        "departureTime": "16:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "16:06:00",
+        "departureTime": "16:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "16:10:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "16:17:00",
+        "departureTime": "16:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1550_24792",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1608_24739",
+    "lineId": "sendai_airport",
+    "trainId": "24739",
+    "trainNumber": "1357M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "16:08:00",
+        "departureTime": "16:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "16:12:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "16:16:00",
+        "departureTime": "16:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:20:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1620_24739",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1624_24793",
+    "lineId": "sendai_airport",
+    "trainId": "24793",
+    "trainNumber": "1360M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "16:23:00",
+        "departureTime": "16:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "16:26:00",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "16:30:00",
+        "departureTime": "16:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "16:37:00",
+        "departureTime": "16:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1610_24793",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1628_24740",
+    "lineId": "sendai_airport",
+    "trainId": "24740",
+    "trainNumber": "1359M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "16:28:00",
+        "departureTime": "16:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "16:32:00",
+        "departureTime": "16:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "16:36:00",
+        "departureTime": "16:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "16:39:00",
+        "departureTime": "16:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1639_24740",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1645_24794",
+    "lineId": "sendai_airport",
+    "trainId": "24794",
+    "trainNumber": "1362M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "16:44:00",
+        "departureTime": "16:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "16:47:00",
+        "departureTime": "16:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "16:50:00",
+        "departureTime": "16:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "16:57:00",
+        "departureTime": "16:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1630_24794",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1648_24741",
+    "lineId": "sendai_airport",
+    "trainId": "24741",
+    "trainNumber": "1361M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "16:53:00",
+        "departureTime": "16:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "16:56:00",
+        "departureTime": "16:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "16:59:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1700_24741",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1704_24795",
+    "lineId": "sendai_airport",
+    "trainId": "24795",
+    "trainNumber": "1364M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "松島",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "17:03:00",
+        "departureTime": "17:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "17:07:00",
+        "departureTime": "17:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "17:17:00",
+        "departureTime": "17:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1650_24795",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1708_24742",
+    "lineId": "sendai_airport",
+    "trainId": "24742",
+    "trainNumber": "1363M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "17:08:00",
+        "departureTime": "17:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "17:12:00",
+        "departureTime": "17:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "17:16:00",
+        "departureTime": "17:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "17:19:00",
+        "departureTime": "17:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1719_24742",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1735_24796",
+    "lineId": "sendai_airport",
+    "trainId": "24796",
+    "trainNumber": "1366M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "17:34:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "17:41:00",
+        "departureTime": "17:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "17:47:00",
+        "departureTime": "17:47:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1721_24796",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1739_24743",
+    "lineId": "sendai_airport",
+    "trainId": "24743",
+    "trainNumber": "1365M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "17:39:00",
+        "departureTime": "17:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "17:43:00",
+        "departureTime": "17:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "17:47:00",
+        "departureTime": "17:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "17:50:00",
+        "departureTime": "17:50:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1750_24743",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1759_24797",
+    "lineId": "sendai_airport",
+    "trainId": "24797",
+    "trainNumber": "1368M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "17:59:00",
+        "departureTime": "17:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "18:05:00",
+        "departureTime": "18:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "18:12:00",
+        "departureTime": "18:12:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1745_24797",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1803_24744",
+    "lineId": "sendai_airport",
+    "trainId": "24744",
+    "trainNumber": "1367M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "18:03:00",
+        "departureTime": "18:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "18:07:00",
+        "departureTime": "18:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "18:14:00",
+        "departureTime": "18:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1815_24744",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1831_24798",
+    "lineId": "sendai_airport",
+    "trainId": "24798",
+    "trainNumber": "1370M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "18:30:00",
+        "departureTime": "18:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "18:33:00",
+        "departureTime": "18:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "18:36:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "18:44:00",
+        "departureTime": "18:44:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1816_24798",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1835_24745",
+    "lineId": "sendai_airport",
+    "trainId": "24745",
+    "trainNumber": "1369M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "18:35:00",
+        "departureTime": "18:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "18:39:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "18:43:00",
+        "departureTime": "18:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "18:47:00",
+        "departureTime": "18:48:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1848_24745",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1900_24746",
+    "lineId": "sendai_airport",
+    "trainId": "24746",
+    "trainNumber": "1371M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "19:00:00",
+        "departureTime": "19:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "19:03:00",
+        "departureTime": "19:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "19:09:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "19:12:00",
+        "departureTime": "19:13:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1913_24746",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1900_24799",
+    "lineId": "sendai_airport",
+    "trainId": "24799",
+    "trainNumber": "1372M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "18:59:00",
+        "departureTime": "19:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "19:02:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "19:06:00",
+        "departureTime": "19:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1845_24799",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_1928_24747",
+    "lineId": "sendai_airport",
+    "trainId": "24747",
+    "trainNumber": "1373M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "19:28:00",
+        "departureTime": "19:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "19:32:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "19:38:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "19:41:00",
+        "departureTime": "19:42:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_1942_24747",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1929_24800",
+    "lineId": "sendai_airport",
+    "trainId": "24800",
+    "trainNumber": "1374M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "19:29:00",
+        "departureTime": "19:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "19:32:00",
+        "departureTime": "19:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "19:39:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1915_24800",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_1959_24801",
+    "lineId": "sendai_airport",
+    "trainId": "24801",
+    "trainNumber": "1376M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "19:58:00",
+        "departureTime": "19:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "20:02:00",
+        "departureTime": "20:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "20:05:00",
+        "departureTime": "20:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_1945_24801",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_2004_24748",
+    "lineId": "sendai_airport",
+    "trainId": "24748",
+    "trainNumber": "1375M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "20:04:00",
+        "departureTime": "20:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "20:08:00",
+        "departureTime": "20:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "20:11:00",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "20:15:00",
+        "departureTime": "20:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_2015_24748",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_2034_24802",
+    "lineId": "sendai_airport",
+    "trainId": "24802",
+    "trainNumber": "1378M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "20:33:00",
+        "departureTime": "20:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "20:48:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_2020_24802",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_2040_24749",
+    "lineId": "sendai_airport",
+    "trainId": "24749",
+    "trainNumber": "1377M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "20:44:00",
+        "departureTime": "20:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "20:47:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "20:51:00",
+        "departureTime": "20:54:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_2054_24749",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_2104_24803",
+    "lineId": "sendai_airport",
+    "trainId": "24803",
+    "trainNumber": "1380M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "21:03:00",
+        "departureTime": "21:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "21:06:00",
+        "departureTime": "21:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "21:09:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "21:14:00",
+        "departureTime": "21:14:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_2050_24803",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_2115_24750",
+    "lineId": "sendai_airport",
+    "trainId": "24750",
+    "trainNumber": "1379M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "21:15:00",
+        "departureTime": "21:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "21:19:00",
+        "departureTime": "21:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "21:22:00",
+        "departureTime": "21:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "21:25:00",
+        "departureTime": "21:25:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_2125_24750",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_2134_24804",
+    "lineId": "sendai_airport",
+    "trainId": "24804",
+    "trainNumber": "1382M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "21:34:00",
+        "departureTime": "21:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "21:37:00",
+        "departureTime": "21:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "21:40:00",
+        "departureTime": "21:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "21:47:00",
+        "departureTime": "21:47:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_2120_24804",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_2138_24751",
+    "lineId": "sendai_airport",
+    "trainId": "24751",
+    "trainNumber": "1381M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "21:38:00",
+        "departureTime": "21:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "21:42:00",
+        "departureTime": "21:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "21:46:00",
+        "departureTime": "21:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "21:49:00",
+        "departureTime": "21:49:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_2149_24751",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_2204_24805",
+    "lineId": "sendai_airport",
+    "trainId": "24805",
+    "trainNumber": "1384M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "22:03:00",
+        "departureTime": "22:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "22:07:00",
+        "departureTime": "22:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "22:10:00",
+        "departureTime": "22:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "22:17:00",
+        "departureTime": "22:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_2150_24805",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_2208_24752",
+    "lineId": "sendai_airport",
+    "trainId": "24752",
+    "trainNumber": "1383M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "22:08:00",
+        "departureTime": "22:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "22:12:00",
+        "departureTime": "22:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "22:16:00",
+        "departureTime": "22:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "22:19:00",
+        "departureTime": "22:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_2219_24752",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_2234_24806",
+    "lineId": "sendai_airport",
+    "trainId": "24806",
+    "trainNumber": "1386M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "22:33:00",
+        "departureTime": "22:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "22:36:00",
+        "departureTime": "22:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "22:40:00",
+        "departureTime": "22:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "22:47:00",
+        "departureTime": "22:47:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_2220_24806",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_2238_24753",
+    "lineId": "sendai_airport",
+    "trainId": "24753",
+    "trainNumber": "1385M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "22:38:00",
+        "departureTime": "22:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "22:42:00",
+        "departureTime": "22:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "22:46:00",
+        "departureTime": "22:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "22:49:00",
+        "departureTime": "22:49:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_2249_24753",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_INB_SA-04_2323_24754",
+    "lineId": "sendai_airport",
+    "trainId": "24754",
+    "trainNumber": "1387M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "23:23:00",
+        "departureTime": "23:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "23:27:00",
+        "departureTime": "23:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "23:33:00",
+        "departureTime": "23:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "23:36:00",
+        "departureTime": "23:37:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "WD_OUT_TFS-16_2337_24754",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "WD_OUT_SA-01_2324_24807",
+    "lineId": "sendai_airport",
+    "trainId": "24807",
+    "trainNumber": "1388M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": false,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "23:23:00",
+        "departureTime": "23:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "23:27:00",
+        "departureTime": "23:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "23:30:00",
+        "departureTime": "23:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "23:34:00",
+        "departureTime": "23:34:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "WD_INB_TFS-20_2310_24807",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_0531_24711",
+    "lineId": "sendai_airport",
+    "trainId": "24711",
+    "trainNumber": "1301M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "05:31:00",
+        "departureTime": "05:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "05:35:00",
+        "departureTime": "05:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "05:38:00",
+        "departureTime": "05:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "05:41:00",
+        "departureTime": "05:41:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_0541_24711",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_0559_24764",
+    "lineId": "sendai_airport",
+    "trainId": "24764",
+    "trainNumber": "1302M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "仙台",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "05:58:00",
+        "departureTime": "05:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "06:01:00",
+        "departureTime": "06:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "06:04:00",
+        "departureTime": "06:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "06:09:00",
+        "departureTime": "06:09:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_0545_24764",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_0629_24712",
+    "lineId": "sendai_airport",
+    "trainId": "24712",
+    "trainNumber": "1303M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "06:29:00",
+        "departureTime": "06:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "06:33:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "06:39:00",
+        "departureTime": "06:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "06:42:00",
+        "departureTime": "06:42:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_0642_24712",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_0630_24765",
+    "lineId": "sendai_airport",
+    "trainId": "24765",
+    "trainNumber": "1304M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "06:30:00",
+        "departureTime": "06:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "06:33:00",
+        "departureTime": "06:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "06:35:00",
+        "departureTime": "06:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "06:40:00",
+        "departureTime": "06:40:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_0616_24765",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_0655_24713",
+    "lineId": "sendai_airport",
+    "trainId": "24713",
+    "trainNumber": "1305M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "06:55:00",
+        "departureTime": "06:55:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "06:59:00",
+        "departureTime": "07:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "07:05:00",
+        "departureTime": "07:05:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "07:08:00",
+        "departureTime": "07:09:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_0709_24713",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_0656_24766",
+    "lineId": "sendai_airport",
+    "trainId": "24766",
+    "trainNumber": "1306M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "06:55:00",
+        "departureTime": "06:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "06:58:00",
+        "departureTime": "06:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "07:01:00",
+        "departureTime": "07:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "07:06:00",
+        "departureTime": "07:06:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_0642_24766",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_0721_24714",
+    "lineId": "sendai_airport",
+    "trainId": "24714",
+    "trainNumber": "1307M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "07:21:00",
+        "departureTime": "07:21:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "07:25:00",
+        "departureTime": "07:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "07:32:00",
+        "departureTime": "07:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "07:36:00",
+        "departureTime": "07:37:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_0737_24714",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_0722_24767",
+    "lineId": "sendai_airport",
+    "trainId": "24767",
+    "trainNumber": "1308M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "07:21:00",
+        "departureTime": "07:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "07:24:00",
+        "departureTime": "07:25:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "07:27:00",
+        "departureTime": "07:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "07:31:00",
+        "departureTime": "07:31:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_0708_24767",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_0738_24715",
+    "lineId": "sendai_airport",
+    "trainId": "24715",
+    "trainNumber": "1309M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "07:38:00",
+        "departureTime": "07:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "07:42:00",
+        "departureTime": "07:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "07:46:00",
+        "departureTime": "07:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "07:49:00",
+        "departureTime": "07:50:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_0750_24715",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_0750_24768",
+    "lineId": "sendai_airport",
+    "trainId": "24768",
+    "trainNumber": "1310M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "07:49:00",
+        "departureTime": "07:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "07:52:00",
+        "departureTime": "07:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "07:55:00",
+        "departureTime": "07:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "07:59:00",
+        "departureTime": "07:59:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_0735_24768",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_0806_24716",
+    "lineId": "sendai_airport",
+    "trainId": "24716",
+    "trainNumber": "1311M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "08:06:00",
+        "departureTime": "08:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "08:10:00",
+        "departureTime": "08:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "08:13:00",
+        "departureTime": "08:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "08:16:00",
+        "departureTime": "08:18:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_0818_24716",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_0817_24769",
+    "lineId": "sendai_airport",
+    "trainId": "24769",
+    "trainNumber": "1312M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "女川",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "08:16:00",
+        "departureTime": "08:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "08:20:00",
+        "departureTime": "08:20:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "08:22:00",
+        "departureTime": "08:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "08:27:00",
+        "departureTime": "08:27:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_0802_24769",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_0836_24717",
+    "lineId": "sendai_airport",
+    "trainId": "24717",
+    "trainNumber": "1313M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "08:36:00",
+        "departureTime": "08:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "08:39:00",
+        "departureTime": "08:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "08:42:00",
+        "departureTime": "08:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "08:46:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_0847_24717",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_0847_24770",
+    "lineId": "sendai_airport",
+    "trainId": "24770",
+    "trainNumber": "1314M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "08:46:00",
+        "departureTime": "08:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "08:49:00",
+        "departureTime": "08:50:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "08:52:00",
+        "departureTime": "08:52:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "08:56:00",
+        "departureTime": "08:56:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_0831_24770",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_0907_24718",
+    "lineId": "sendai_airport",
+    "trainId": "24718",
+    "trainNumber": "1315M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "09:07:00",
+        "departureTime": "09:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "09:11:00",
+        "departureTime": "09:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "09:18:00",
+        "departureTime": "09:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "09:22:00",
+        "departureTime": "09:23:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_0923_24718",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_0908_24771",
+    "lineId": "sendai_airport",
+    "trainId": "24771",
+    "trainNumber": "1316M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "一ノ関",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "09:07:00",
+        "departureTime": "09:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "09:11:00",
+        "departureTime": "09:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "09:14:00",
+        "departureTime": "09:14:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "09:18:00",
+        "departureTime": "09:18:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_0854_24771",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_0929_24719",
+    "lineId": "sendai_airport",
+    "trainId": "24719",
+    "trainNumber": "1317M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "09:29:00",
+        "departureTime": "09:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "09:33:00",
+        "departureTime": "09:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "09:39:00",
+        "departureTime": "09:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "09:42:00",
+        "departureTime": "09:42:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_0942_24719",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_0930_24772",
+    "lineId": "sendai_airport",
+    "trainId": "24772",
+    "trainNumber": "1318M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "09:29:00",
+        "departureTime": "09:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "09:32:00",
+        "departureTime": "09:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "09:35:00",
+        "departureTime": "09:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "09:40:00",
+        "departureTime": "09:40:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_0916_24772",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_0944_24773",
+    "lineId": "sendai_airport",
+    "trainId": "24773",
+    "trainNumber": "1320M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "09:43:00",
+        "departureTime": "09:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "09:46:00",
+        "departureTime": "09:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "09:50:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "09:57:00",
+        "departureTime": "09:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_0930_24773",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_0948_24720",
+    "lineId": "sendai_airport",
+    "trainId": "24720",
+    "trainNumber": "1319M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "09:48:00",
+        "departureTime": "09:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "09:52:00",
+        "departureTime": "09:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "09:56:00",
+        "departureTime": "09:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "09:59:00",
+        "departureTime": "09:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_0959_24720",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1004_24774",
+    "lineId": "sendai_airport",
+    "trainId": "24774",
+    "trainNumber": "1322M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "10:03:00",
+        "departureTime": "10:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "10:06:00",
+        "departureTime": "10:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "10:10:00",
+        "departureTime": "10:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "10:17:00",
+        "departureTime": "10:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_0950_24774",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1008_24721",
+    "lineId": "sendai_airport",
+    "trainId": "24721",
+    "trainNumber": "1321M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "10:08:00",
+        "departureTime": "10:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "10:12:00",
+        "departureTime": "10:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "10:16:00",
+        "departureTime": "10:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "10:19:00",
+        "departureTime": "10:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1019_24721",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1024_24775",
+    "lineId": "sendai_airport",
+    "trainId": "24775",
+    "trainNumber": "1324M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "10:23:00",
+        "departureTime": "10:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "10:26:00",
+        "departureTime": "10:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "10:30:00",
+        "departureTime": "10:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "10:37:00",
+        "departureTime": "10:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1010_24775",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1028_24722",
+    "lineId": "sendai_airport",
+    "trainId": "24722",
+    "trainNumber": "1323M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "10:28:00",
+        "departureTime": "10:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "10:32:00",
+        "departureTime": "10:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "10:36:00",
+        "departureTime": "10:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "10:39:00",
+        "departureTime": "10:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1039_24722",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1044_24776",
+    "lineId": "sendai_airport",
+    "trainId": "24776",
+    "trainNumber": "1326M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "10:43:00",
+        "departureTime": "10:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "10:46:00",
+        "departureTime": "10:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "10:50:00",
+        "departureTime": "10:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "10:57:00",
+        "departureTime": "10:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1030_24776",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1048_24723",
+    "lineId": "sendai_airport",
+    "trainId": "24723",
+    "trainNumber": "1325M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "10:48:00",
+        "departureTime": "10:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "10:52:00",
+        "departureTime": "10:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "10:56:00",
+        "departureTime": "10:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "10:59:00",
+        "departureTime": "10:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1059_24723",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1104_24777",
+    "lineId": "sendai_airport",
+    "trainId": "24777",
+    "trainNumber": "1328M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "11:03:00",
+        "departureTime": "11:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "11:07:00",
+        "departureTime": "11:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "11:10:00",
+        "departureTime": "11:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "11:17:00",
+        "departureTime": "11:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1050_24777",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1108_24724",
+    "lineId": "sendai_airport",
+    "trainId": "24724",
+    "trainNumber": "1327M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "11:08:00",
+        "departureTime": "11:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "11:12:00",
+        "departureTime": "11:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "11:16:00",
+        "departureTime": "11:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "11:19:00",
+        "departureTime": "11:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1119_24724",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1124_24778",
+    "lineId": "sendai_airport",
+    "trainId": "24778",
+    "trainNumber": "1330M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "11:23:00",
+        "departureTime": "11:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "11:26:00",
+        "departureTime": "11:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "11:30:00",
+        "departureTime": "11:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "11:37:00",
+        "departureTime": "11:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1110_24778",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1128_24725",
+    "lineId": "sendai_airport",
+    "trainId": "24725",
+    "trainNumber": "1329M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "11:28:00",
+        "departureTime": "11:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "11:32:00",
+        "departureTime": "11:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "11:36:00",
+        "departureTime": "11:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "11:39:00",
+        "departureTime": "11:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1139_24725",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1144_24779",
+    "lineId": "sendai_airport",
+    "trainId": "24779",
+    "trainNumber": "1332M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "11:43:00",
+        "departureTime": "11:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "11:47:00",
+        "departureTime": "11:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "11:50:00",
+        "departureTime": "11:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "11:57:00",
+        "departureTime": "11:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1130_24779",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1148_24726",
+    "lineId": "sendai_airport",
+    "trainId": "24726",
+    "trainNumber": "1331M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "11:48:00",
+        "departureTime": "11:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "11:52:00",
+        "departureTime": "11:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "11:56:00",
+        "departureTime": "11:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "11:59:00",
+        "departureTime": "11:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1159_24726",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1204_24780",
+    "lineId": "sendai_airport",
+    "trainId": "24780",
+    "trainNumber": "1334M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "仙台",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "12:03:00",
+        "departureTime": "12:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "12:06:00",
+        "departureTime": "12:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "12:10:00",
+        "departureTime": "12:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "12:17:00",
+        "departureTime": "12:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1150_24780",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1208_24727",
+    "lineId": "sendai_airport",
+    "trainId": "24727",
+    "trainNumber": "1333M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "12:08:00",
+        "departureTime": "12:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "12:12:00",
+        "departureTime": "12:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "12:16:00",
+        "departureTime": "12:17:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "12:20:00",
+        "departureTime": "12:21:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1221_24727",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1224_24781",
+    "lineId": "sendai_airport",
+    "trainId": "24781",
+    "trainNumber": "1336M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "12:23:00",
+        "departureTime": "12:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "12:26:00",
+        "departureTime": "12:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "12:30:00",
+        "departureTime": "12:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "12:37:00",
+        "departureTime": "12:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1210_24781",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1228_24728",
+    "lineId": "sendai_airport",
+    "trainId": "24728",
+    "trainNumber": "1335M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "12:28:00",
+        "departureTime": "12:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "12:32:00",
+        "departureTime": "12:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "12:36:00",
+        "departureTime": "12:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "12:39:00",
+        "departureTime": "12:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1239_24728",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1244_24782",
+    "lineId": "sendai_airport",
+    "trainId": "24782",
+    "trainNumber": "1338M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "松島",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "12:43:00",
+        "departureTime": "12:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "12:46:00",
+        "departureTime": "12:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "12:50:00",
+        "departureTime": "12:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "12:57:00",
+        "departureTime": "12:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1230_24782",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1248_24729",
+    "lineId": "sendai_airport",
+    "trainId": "24729",
+    "trainNumber": "1337M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "12:48:00",
+        "departureTime": "12:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "12:52:00",
+        "departureTime": "12:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "12:56:00",
+        "departureTime": "12:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "12:59:00",
+        "departureTime": "12:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1259_24729",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1304_24783",
+    "lineId": "sendai_airport",
+    "trainId": "24783",
+    "trainNumber": "1340M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "13:03:00",
+        "departureTime": "13:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "13:06:00",
+        "departureTime": "13:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "13:10:00",
+        "departureTime": "13:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "13:17:00",
+        "departureTime": "13:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1250_24783",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1308_24730",
+    "lineId": "sendai_airport",
+    "trainId": "24730",
+    "trainNumber": "1339M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "13:08:00",
+        "departureTime": "13:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "13:12:00",
+        "departureTime": "13:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "13:16:00",
+        "departureTime": "13:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "13:19:00",
+        "departureTime": "13:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1319_24730",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1324_24784",
+    "lineId": "sendai_airport",
+    "trainId": "24784",
+    "trainNumber": "1342M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "13:23:00",
+        "departureTime": "13:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "13:26:00",
+        "departureTime": "13:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "13:30:00",
+        "departureTime": "13:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "13:37:00",
+        "departureTime": "13:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1310_24784",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1328_24731",
+    "lineId": "sendai_airport",
+    "trainId": "24731",
+    "trainNumber": "1341M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "13:28:00",
+        "departureTime": "13:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "13:32:00",
+        "departureTime": "13:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "13:36:00",
+        "departureTime": "13:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "13:39:00",
+        "departureTime": "13:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1339_24731",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1344_24785",
+    "lineId": "sendai_airport",
+    "trainId": "24785",
+    "trainNumber": "1344M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "13:43:00",
+        "departureTime": "13:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "13:46:00",
+        "departureTime": "13:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "13:50:00",
+        "departureTime": "13:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "13:57:00",
+        "departureTime": "13:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1330_24785",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1348_24732",
+    "lineId": "sendai_airport",
+    "trainId": "24732",
+    "trainNumber": "1343M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "13:48:00",
+        "departureTime": "13:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "13:52:00",
+        "departureTime": "13:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "13:56:00",
+        "departureTime": "13:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "13:59:00",
+        "departureTime": "13:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1359_24732",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1404_24786",
+    "lineId": "sendai_airport",
+    "trainId": "24786",
+    "trainNumber": "1346M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "仙台",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "14:03:00",
+        "departureTime": "14:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "14:06:00",
+        "departureTime": "14:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "14:10:00",
+        "departureTime": "14:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "14:17:00",
+        "departureTime": "14:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1350_24786",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1408_24733",
+    "lineId": "sendai_airport",
+    "trainId": "24733",
+    "trainNumber": "1345M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "14:08:00",
+        "departureTime": "14:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "14:12:00",
+        "departureTime": "14:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "14:16:00",
+        "departureTime": "14:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "14:19:00",
+        "departureTime": "14:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1419_24733",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1424_24787",
+    "lineId": "sendai_airport",
+    "trainId": "24787",
+    "trainNumber": "1348M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "14:23:00",
+        "departureTime": "14:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "14:27:00",
+        "departureTime": "14:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "14:30:00",
+        "departureTime": "14:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "14:37:00",
+        "departureTime": "14:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1410_24787",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1428_24734",
+    "lineId": "sendai_airport",
+    "trainId": "24734",
+    "trainNumber": "1347M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "14:28:00",
+        "departureTime": "14:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "14:32:00",
+        "departureTime": "14:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "14:36:00",
+        "departureTime": "14:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "14:39:00",
+        "departureTime": "14:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1439_24734",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1444_24788",
+    "lineId": "sendai_airport",
+    "trainId": "24788",
+    "trainNumber": "1350M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "14:43:00",
+        "departureTime": "14:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "14:47:00",
+        "departureTime": "14:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "14:50:00",
+        "departureTime": "14:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "14:57:00",
+        "departureTime": "14:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1430_24788",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1448_24735",
+    "lineId": "sendai_airport",
+    "trainId": "24735",
+    "trainNumber": "1349M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "14:48:00",
+        "departureTime": "14:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "14:52:00",
+        "departureTime": "14:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "14:56:00",
+        "departureTime": "14:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "14:59:00",
+        "departureTime": "14:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1459_24735",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1504_24789",
+    "lineId": "sendai_airport",
+    "trainId": "24789",
+    "trainNumber": "1352M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "仙台",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "15:03:00",
+        "departureTime": "15:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "15:07:00",
+        "departureTime": "15:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "15:10:00",
+        "departureTime": "15:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "15:17:00",
+        "departureTime": "15:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1450_24789",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1508_24736",
+    "lineId": "sendai_airport",
+    "trainId": "24736",
+    "trainNumber": "1351M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "15:08:00",
+        "departureTime": "15:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "15:12:00",
+        "departureTime": "15:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "15:16:00",
+        "departureTime": "15:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "15:19:00",
+        "departureTime": "15:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1519_24736",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1524_24790",
+    "lineId": "sendai_airport",
+    "trainId": "24790",
+    "trainNumber": "1354M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "15:23:00",
+        "departureTime": "15:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "15:26:00",
+        "departureTime": "15:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "15:30:00",
+        "departureTime": "15:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "15:37:00",
+        "departureTime": "15:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1510_24790",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1528_24737",
+    "lineId": "sendai_airport",
+    "trainId": "24737",
+    "trainNumber": "1353M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "15:28:00",
+        "departureTime": "15:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "15:32:00",
+        "departureTime": "15:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "15:36:00",
+        "departureTime": "15:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "15:39:00",
+        "departureTime": "15:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1539_24737",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1544_24791",
+    "lineId": "sendai_airport",
+    "trainId": "24791",
+    "trainNumber": "1356M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "松島",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "15:43:00",
+        "departureTime": "15:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "15:46:00",
+        "departureTime": "15:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "15:50:00",
+        "departureTime": "15:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "15:57:00",
+        "departureTime": "15:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1530_24791",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1548_24738",
+    "lineId": "sendai_airport",
+    "trainId": "24738",
+    "trainNumber": "1355M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "15:48:00",
+        "departureTime": "15:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "15:52:00",
+        "departureTime": "15:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "15:56:00",
+        "departureTime": "15:56:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "15:59:00",
+        "departureTime": "15:59:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1559_24738",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1604_24792",
+    "lineId": "sendai_airport",
+    "trainId": "24792",
+    "trainNumber": "1358M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "16:03:00",
+        "departureTime": "16:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "16:06:00",
+        "departureTime": "16:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "16:10:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "16:17:00",
+        "departureTime": "16:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1550_24792",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1608_24739",
+    "lineId": "sendai_airport",
+    "trainId": "24739",
+    "trainNumber": "1357M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "16:08:00",
+        "departureTime": "16:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "16:12:00",
+        "departureTime": "16:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "16:16:00",
+        "departureTime": "16:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "16:19:00",
+        "departureTime": "16:20:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1620_24739",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1624_24793",
+    "lineId": "sendai_airport",
+    "trainId": "24793",
+    "trainNumber": "1360M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "16:23:00",
+        "departureTime": "16:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "16:26:00",
+        "departureTime": "16:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "16:30:00",
+        "departureTime": "16:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "16:37:00",
+        "departureTime": "16:37:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1610_24793",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1628_24740",
+    "lineId": "sendai_airport",
+    "trainId": "24740",
+    "trainNumber": "1359M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "16:28:00",
+        "departureTime": "16:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "16:32:00",
+        "departureTime": "16:33:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "16:36:00",
+        "departureTime": "16:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "16:39:00",
+        "departureTime": "16:39:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1639_24740",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1645_24794",
+    "lineId": "sendai_airport",
+    "trainId": "24794",
+    "trainNumber": "1362M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "16:44:00",
+        "departureTime": "16:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "16:47:00",
+        "departureTime": "16:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "16:50:00",
+        "departureTime": "16:53:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "16:57:00",
+        "departureTime": "16:57:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1630_24794",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1648_24741",
+    "lineId": "sendai_airport",
+    "trainId": "24741",
+    "trainNumber": "1361M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "16:48:00",
+        "departureTime": "16:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "16:53:00",
+        "departureTime": "16:54:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "16:56:00",
+        "departureTime": "16:57:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "16:59:00",
+        "departureTime": "17:00:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1700_24741",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1704_24795",
+    "lineId": "sendai_airport",
+    "trainId": "24795",
+    "trainNumber": "1364M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "松島",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "17:03:00",
+        "departureTime": "17:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "17:07:00",
+        "departureTime": "17:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "17:10:00",
+        "departureTime": "17:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "17:17:00",
+        "departureTime": "17:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1650_24795",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1708_24742",
+    "lineId": "sendai_airport",
+    "trainId": "24742",
+    "trainNumber": "1363M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "17:08:00",
+        "departureTime": "17:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "17:12:00",
+        "departureTime": "17:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "17:16:00",
+        "departureTime": "17:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "17:19:00",
+        "departureTime": "17:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1719_24742",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1735_24796",
+    "lineId": "sendai_airport",
+    "trainId": "24796",
+    "trainNumber": "1366M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "17:34:00",
+        "departureTime": "17:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "17:37:00",
+        "departureTime": "17:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "17:41:00",
+        "departureTime": "17:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "17:47:00",
+        "departureTime": "17:47:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1721_24796",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1739_24743",
+    "lineId": "sendai_airport",
+    "trainId": "24743",
+    "trainNumber": "1365M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "17:39:00",
+        "departureTime": "17:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "17:43:00",
+        "departureTime": "17:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "17:47:00",
+        "departureTime": "17:47:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "17:50:00",
+        "departureTime": "17:50:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1750_24743",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1759_24797",
+    "lineId": "sendai_airport",
+    "trainId": "24797",
+    "trainNumber": "1368M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "17:59:00",
+        "departureTime": "17:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "18:02:00",
+        "departureTime": "18:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "18:05:00",
+        "departureTime": "18:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "18:12:00",
+        "departureTime": "18:12:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1745_24797",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1803_24744",
+    "lineId": "sendai_airport",
+    "trainId": "24744",
+    "trainNumber": "1367M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "18:03:00",
+        "departureTime": "18:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "18:07:00",
+        "departureTime": "18:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "18:11:00",
+        "departureTime": "18:11:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "18:14:00",
+        "departureTime": "18:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1815_24744",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1831_24798",
+    "lineId": "sendai_airport",
+    "trainId": "24798",
+    "trainNumber": "1370M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "18:30:00",
+        "departureTime": "18:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "18:33:00",
+        "departureTime": "18:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "18:36:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "18:44:00",
+        "departureTime": "18:44:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1816_24798",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1835_24745",
+    "lineId": "sendai_airport",
+    "trainId": "24745",
+    "trainNumber": "1369M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "18:35:00",
+        "departureTime": "18:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "18:39:00",
+        "departureTime": "18:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "18:43:00",
+        "departureTime": "18:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "18:47:00",
+        "departureTime": "18:48:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1848_24745",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1900_24746",
+    "lineId": "sendai_airport",
+    "trainId": "24746",
+    "trainNumber": "1371M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "19:00:00",
+        "departureTime": "19:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "19:03:00",
+        "departureTime": "19:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "19:09:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "19:12:00",
+        "departureTime": "19:13:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1913_24746",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1900_24799",
+    "lineId": "sendai_airport",
+    "trainId": "24799",
+    "trainNumber": "1372M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "18:59:00",
+        "departureTime": "19:00:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "19:02:00",
+        "departureTime": "19:03:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "19:06:00",
+        "departureTime": "19:06:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "19:10:00",
+        "departureTime": "19:10:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1845_24799",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_1928_24747",
+    "lineId": "sendai_airport",
+    "trainId": "24747",
+    "trainNumber": "1373M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "19:28:00",
+        "departureTime": "19:28:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "19:32:00",
+        "departureTime": "19:36:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "19:38:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "19:41:00",
+        "departureTime": "19:42:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_1942_24747",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1929_24800",
+    "lineId": "sendai_airport",
+    "trainId": "24800",
+    "trainNumber": "1374M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "19:29:00",
+        "departureTime": "19:29:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "19:32:00",
+        "departureTime": "19:32:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "19:35:00",
+        "departureTime": "19:35:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "19:39:00",
+        "departureTime": "19:39:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1915_24800",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_1959_24801",
+    "lineId": "sendai_airport",
+    "trainId": "24801",
+    "trainNumber": "1376M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "19:58:00",
+        "departureTime": "19:59:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "20:02:00",
+        "departureTime": "20:02:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "20:05:00",
+        "departureTime": "20:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "20:12:00",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_1945_24801",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_2004_24748",
+    "lineId": "sendai_airport",
+    "trainId": "24748",
+    "trainNumber": "1375M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "20:04:00",
+        "departureTime": "20:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "20:08:00",
+        "departureTime": "20:09:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "20:11:00",
+        "departureTime": "20:12:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "20:15:00",
+        "departureTime": "20:15:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_2015_24748",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_2034_24802",
+    "lineId": "sendai_airport",
+    "trainId": "24802",
+    "trainNumber": "1378M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "20:33:00",
+        "departureTime": "20:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "20:37:00",
+        "departureTime": "20:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:44:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "20:48:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_2020_24802",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_2040_24749",
+    "lineId": "sendai_airport",
+    "trainId": "24749",
+    "trainNumber": "1377M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "20:40:00",
+        "departureTime": "20:40:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "20:44:00",
+        "departureTime": "20:45:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "20:47:00",
+        "departureTime": "20:48:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "20:51:00",
+        "departureTime": "20:54:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_2054_24749",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_2104_24803",
+    "lineId": "sendai_airport",
+    "trainId": "24803",
+    "trainNumber": "1380M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "21:03:00",
+        "departureTime": "21:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "21:06:00",
+        "departureTime": "21:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "21:09:00",
+        "departureTime": "21:10:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "21:14:00",
+        "departureTime": "21:14:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_2050_24803",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_2115_24750",
+    "lineId": "sendai_airport",
+    "trainId": "24750",
+    "trainNumber": "1379M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "21:15:00",
+        "departureTime": "21:15:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "21:19:00",
+        "departureTime": "21:19:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "21:22:00",
+        "departureTime": "21:22:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "21:25:00",
+        "departureTime": "21:25:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_2125_24750",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_2134_24804",
+    "lineId": "sendai_airport",
+    "trainId": "24804",
+    "trainNumber": "1382M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "石巻",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "21:34:00",
+        "departureTime": "21:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "21:37:00",
+        "departureTime": "21:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "21:40:00",
+        "departureTime": "21:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "21:47:00",
+        "departureTime": "21:47:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_2120_24804",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_2138_24751",
+    "lineId": "sendai_airport",
+    "trainId": "24751",
+    "trainNumber": "1381M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "21:38:00",
+        "departureTime": "21:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "21:42:00",
+        "departureTime": "21:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "21:46:00",
+        "departureTime": "21:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "21:49:00",
+        "departureTime": "21:49:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_2149_24751",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_2204_24805",
+    "lineId": "sendai_airport",
+    "trainId": "24805",
+    "trainNumber": "1384M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "利府",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "22:03:00",
+        "departureTime": "22:04:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "22:07:00",
+        "departureTime": "22:07:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "22:10:00",
+        "departureTime": "22:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "22:17:00",
+        "departureTime": "22:17:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_2150_24805",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_2208_24752",
+    "lineId": "sendai_airport",
+    "trainId": "24752",
+    "trainNumber": "1383M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "22:08:00",
+        "departureTime": "22:08:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "22:12:00",
+        "departureTime": "22:13:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "22:16:00",
+        "departureTime": "22:16:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "22:19:00",
+        "departureTime": "22:19:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_2219_24752",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_2234_24806",
+    "lineId": "sendai_airport",
+    "trainId": "24806",
+    "trainNumber": "1386M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "22:33:00",
+        "departureTime": "22:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "22:36:00",
+        "departureTime": "22:37:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "22:40:00",
+        "departureTime": "22:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "22:47:00",
+        "departureTime": "22:47:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_2220_24806",
+    "prevLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_2238_24753",
+    "lineId": "sendai_airport",
+    "trainId": "24753",
+    "trainNumber": "1385M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "22:38:00",
+        "departureTime": "22:38:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "22:42:00",
+        "departureTime": "22:43:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "22:46:00",
+        "departureTime": "22:46:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "22:49:00",
+        "departureTime": "22:49:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_2249_24753",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_INB_SA-04_2323_24754",
+    "lineId": "sendai_airport",
+    "trainId": "24754",
+    "trainNumber": "1387M",
+    "trainType": "regular",
+    "direction": "inbound",
+    "originStationId": "SA-04",
+    "destinationStationId": "SA-01",
+    "customOrigin": "仙台空港",
+    "customDestination": "仙台",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "23:23:00",
+        "departureTime": "23:23:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "23:27:00",
+        "departureTime": "23:31:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "23:33:00",
+        "departureTime": "23:34:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "23:36:00",
+        "departureTime": "23:37:00",
+        "isPassing": false
+      }
+    ],
+    "throughTripId": "HD_OUT_TFS-16_2337_24754",
+    "throughLineId": "tohoku_fukushima_sendai"
+  },
+  {
+    "tripId": "HD_OUT_SA-01_2324_24807",
+    "lineId": "sendai_airport",
+    "trainId": "24807",
+    "trainNumber": "1388M",
+    "trainType": "regular",
+    "direction": "outbound",
+    "originStationId": "SA-01",
+    "destinationStationId": "SA-04",
+    "customOrigin": "小牛田",
+    "customDestination": "仙台空港",
+    "cars": 4,
+    "isHoliday": true,
+    "stops": [
+      {
+        "stationId": "SA-01",
+        "arrivalTime": "23:23:00",
+        "departureTime": "23:24:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-02",
+        "arrivalTime": "23:27:00",
+        "departureTime": "23:27:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-03",
+        "arrivalTime": "23:30:00",
+        "departureTime": "23:30:00",
+        "isPassing": false
+      },
+      {
+        "stationId": "SA-04",
+        "arrivalTime": "23:34:00",
+        "departureTime": "23:34:00",
+        "isPassing": false
+      }
+    ],
+    "prevTripId": "HD_INB_TFS-20_2310_24807",
+    "prevLineId": "tohoku_fukushima_sendai"
+  }
+]

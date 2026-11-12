@@ -16,28 +16,28 @@ module.exports = {
       "name": "秋田",
       "yahooStationId": "21137",
       "inGroupId": null,
-      "outGroupId": "341"
+      "outGroupId": ["341", "361"]
     },
     {
       "id": "OAA-02",
       "name": "泉外旭川",
       "yahooStationId": "29847",
       "inGroupId": "340",
-      "outGroupId": "341"
+      "outGroupId": ["341", "361"]
     },
     {
       "id": "OAA-03",
       "name": "土崎",
       "yahooStationId": "21223",
       "inGroupId": "340",
-      "outGroupId": "341"
+      "outGroupId": ["341", "361"]
     },
     {
       "id": "OAA-04",
       "name": "上飯島",
       "yahooStationId": "21178",
       "inGroupId": "340",
-      "outGroupId": "341"
+      "outGroupId": ["341", "361"]
     },
     {
       "id": "OAA-05",
@@ -226,14 +226,14 @@ module.exports = {
       "name": "弘前",
       "yahooStationId": "20758",
       "inGroupId": "340",
-      "outGroupId": "341"
+      "outGroupId": ["341", "290"]
     },
     {
       "id": "OAA-32",
       "name": "撫牛子",
       "yahooStationId": "20733",
       "inGroupId": "340",
-      "outGroupId": "341"
+      "outGroupId": ["341", "290"]
     },
     {
       "id": "OAA-33",

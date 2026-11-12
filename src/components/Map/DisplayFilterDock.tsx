@@ -64,9 +64,9 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
     return initial;
   });
 
-  // フィルターがデフォルト（全路線・全方向・全種別）から変更されているか
+  // フィルターがデフォルト（0路線・全方向・全種別）から変更されているか
   const isFiltered =
-    selectedLineIds.length !== allLines.length ||
+    selectedLineIds.length > 0 ||
     filterDirection !== 'all' ||
     filterType !== 'all';
 
@@ -267,9 +267,9 @@ export const DisplayFilterDock: React.FC<DisplayFilterDockProps> = ({
     onChangeSelectedLines([lineId]);
   };
 
-  // 全フィルターをリセット
+  // 全フィルターをリセット（初期状態の0路線へ戻す）
   const handleResetFilters = () => {
-    onChangeSelectedLines(allLines.map((l) => l.id));
+    onChangeSelectedLines([]);
     onChangeFilterDirection('all');
     onChangeFilterType('all');
   };

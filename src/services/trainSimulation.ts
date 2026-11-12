@@ -508,6 +508,9 @@ export function calculateActiveTrains(
     }
 
     const stationIds = new Set(train.stops.map((s) => s.stationId));
+    const stationNames = new Set(
+      train.stops.map((s) => STATION_MAP.get(s.stationId)?.name).filter(Boolean) as string[]
+    );
     const hasBetterThroughTrain = coupledFilteredTrains.some((other) => {
       if (other === train) return false;
 
@@ -536,13 +539,17 @@ export function calculateActiveTrains(
       if (otherFormattedNo !== formattedNo) return false;
 
       // 行先が異なる場合（分割併結列車等）や、内部列車IDが異なる独立編成の場合は重複とみなさない
-      const destA = train.customDestination || train.destinationStationId;
-      const destB = other.customDestination || other.destinationStationId;
+      const destA = train.customDestination || STATION_MAP.get(train.destinationStationId)?.name || train.destinationStationId;
+      const destB = other.customDestination || STATION_MAP.get(other.destinationStationId)?.name || other.destinationStationId;
       if (destA !== destB) return false;
       if (train.trainId && other.trainId && train.trainId !== other.trainId) return false;
 
-      // 異なる路線間で、共有駅が境界駅1駅のみの場合は直通接続であり同一区間重複ではない
-      const sharedStationCount = other.stops.filter((s) => stationIds.has(s.stationId)).length;
+      // 異なる路線間で、共有駅（駅IDまたは物理駅名一致）が境界駅1駅のみの場合は直通接続であり同一区間重複ではない
+      const sharedStationCount = other.stops.filter((s) => {
+        if (stationIds.has(s.stationId)) return true;
+        const otherName = STATION_MAP.get(s.stationId)?.name;
+        return Boolean(otherName && stationNames.has(otherName));
+      }).length;
       if (train.lineId !== other.lineId && sharedStationCount <= 1) {
         return false;
       }

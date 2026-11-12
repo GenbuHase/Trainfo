@@ -108,6 +108,33 @@ import { tokaidoMinoakasakaLine } from './lines/tokaido_minoakasaka';
 import { jrBiwakoLine } from './lines/jr_biwako';
 import { jrKyotoLine } from './lines/jr_kyoto';
 import { jrKobeLine } from './lines/jr_kobe';
+import { tohokuKuroisoFukushimaLine } from './lines/tohoku_kuroiso_fukushima';
+import { tohokuFukushimaSendaiLine } from './lines/tohoku_fukushima_sendai';
+import { tohokuSendaiIchinosekiLine } from './lines/tohoku_sendai_ichinoseki';
+import { tohokuRifuLine } from './lines/tohoku_rifu';
+import { tohokuIchinosekiMoriokaLine } from './lines/tohoku_ichinoseki_morioka';
+import { igrIwateGingaLine } from './lines/igr_iwate_ginga';
+import { aoimoriLine } from './lines/aoimori';
+import { sensekiLine } from './lines/senseki';
+import { sensekiTohokuLine } from './lines/senseki_tohoku';
+import { ishinomakiLine } from './lines/ishinomaki';
+import { rikuuEastLine } from './lines/rikuu_east';
+import { rikuuWestLine } from './lines/rikuu_west';
+import { senzanLine } from './lines/senzan';
+import { sendaiAirportLine } from './lines/sendai_airport';
+import { kitakamiLine } from './lines/kitakami';
+import { ofunatoLine } from './lines/ofunato';
+import { ofunatoBrtLine } from './lines/ofunato_brt';
+import { kesennumaLine } from './lines/kesennuma';
+import { kesennumaBrtLine } from './lines/kesennuma_brt';
+import { kamaishiLine } from './lines/kamaishi';
+import { tazawakoLine } from './lines/tazawako';
+import { yamadaLine } from './lines/yamada';
+import { hachinoheLine } from './lines/hachinohe';
+import { ominatoLine } from './lines/ominato';
+import { tsugaruLine } from './lines/tsugaru';
+import { gonoLine } from './lines/gono';
+import { ogaLine } from './lines/oga';
 
 
 // 登録路線マップ（将来新しい路線を追加する場合はここに追記するだけ）
@@ -130,6 +157,30 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   yokosuka: yokosukaLine,
   sobu_rapid: sobuRapidLine,
   utsunomiya: utsunomiyaLine,
+  tohoku_kuroiso_fukushima: tohokuKuroisoFukushimaLine,
+  tohoku_fukushima_sendai: tohokuFukushimaSendaiLine,
+  tohoku_sendai_ichinoseki: tohokuSendaiIchinosekiLine,
+  tohoku_rifu: tohokuRifuLine,
+  tohoku_ichinoseki_morioka: tohokuIchinosekiMoriokaLine,
+  senseki: sensekiLine,
+  senseki_tohoku: sensekiTohokuLine,
+  ishinomaki: ishinomakiLine,
+  rikuu_east: rikuuEastLine,
+  rikuu_west: rikuuWestLine,
+  senzan: senzanLine,
+  kitakami: kitakamiLine,
+  ofunato: ofunatoLine,
+  ofunato_brt: ofunatoBrtLine,
+  kesennuma: kesennumaLine,
+  kesennuma_brt: kesennumaBrtLine,
+  kamaishi: kamaishiLine,
+  tazawako: tazawakoLine,
+  yamada: yamadaLine,
+  hachinohe: hachinoheLine,
+  ominato: ominatoLine,
+  tsugaru: tsugaruLine,
+  gono: gonoLine,
+  oga: ogaLine,
   takasaki: takasakiLine,
   ito: itoLine,
   joban_rapid: jobanRapidLine,
@@ -221,6 +272,9 @@ export const LINES_REGISTRY: Record<string, LineDefinition> = {
   myoko_haneuma: myokoHaneumaLine,
   nihonkai_hisui: nihonkaiHisuiLine,
   kita_shinano: kitaShinanoLine,
+  igr_iwate_ginga: igrIwateGingaLine,
+  aoimori: aoimoriLine,
+  sendai_airport: sendaiAirportLine,
 };
 
 // 登録されている全路線の配列を取得
@@ -262,6 +316,9 @@ export const OPERATOR_DISPLAY_ORDER = [
   '北越急行',
   'えちごトキめき鉄道',
   'しなの鉄道',
+  'IGRいわて銀河鉄道',
+  '青い森鉄道',
+  '仙台空港鉄道',
 ];
 
 // 運行会社ごとにグループ化した路線リストを取得
@@ -314,6 +371,31 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
   yokosuka: 'kanto',
   sobu_rapid: 'kanto',
   utsunomiya: 'kanto',
+  tohoku_kuroiso_fukushima: 'tohoku',
+  tohoku_fukushima_sendai: 'tohoku',
+  tohoku_sendai_ichinoseki: 'tohoku',
+  tohoku_rifu: 'tohoku',
+  tohoku_ichinoseki_morioka: 'tohoku',
+  senseki: 'tohoku',
+  senseki_tohoku: 'tohoku',
+  ishinomaki: 'tohoku',
+  rikuu_east: 'tohoku',
+  rikuu_west: 'tohoku',
+  senzan: 'tohoku',
+  sendai_airport: 'tohoku',
+  kitakami: 'tohoku',
+  ofunato: 'tohoku',
+  ofunato_brt: 'tohoku',
+  kesennuma: 'tohoku',
+  kesennuma_brt: 'tohoku',
+  kamaishi: 'tohoku',
+  tazawako: 'tohoku',
+  yamada: 'tohoku',
+  hachinohe: 'tohoku',
+  ominato: 'tohoku',
+  tsugaru: 'tohoku',
+  gono: 'tohoku',
+  oga: 'tohoku',
   takasaki: 'kanto',
   ito: 'tokai',
   joban_rapid: 'kanto',
@@ -405,12 +487,14 @@ export const LINE_AREA_MAP: Record<string, RegionArea> = {
   myoko_haneuma: 'koshinetsu',
   nihonkai_hisui: 'koshinetsu',
   kita_shinano: 'koshinetsu',
+  igr_iwate_ginga: 'tohoku',
+  aoimori: 'tohoku',
 };
 
 export const AREA_INFO: Record<RegionArea, { name: string; icon: string }> = {
   kanto: { name: '関東（首都圏・北関東）', icon: '' },
   koshinetsu: { name: '甲信越（新潟・長野・山梨）', icon: '' },
-  tohoku: { name: '東北（福島・山形・秋田）', icon: '' },
+  tohoku: { name: '東北（福島・宮城・山形・岩手・秋田・青森）', icon: '' },
   tokai: { name: '東海（静岡・中京方面）', icon: '' },
   kansai: { name: '近畿・関西（滋賀・京都・大阪・兵庫・山陽方面）', icon: '' },
 };
