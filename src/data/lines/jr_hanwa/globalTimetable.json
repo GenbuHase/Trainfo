@@ -6913,7 +6913,7 @@
     "direction": "outbound",
     "originStationId": "jr_hanwa-01",
     "destinationStationId": "jr_hanwa-35",
-    "customOrigin": "京橋(大阪府)",
+    "customOrigin": "京橋",
     "customDestination": "海南",
     "cars": 8,
     "isHoliday": false,
@@ -7128,7 +7128,9 @@
         "departureTime": "07:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_0740_35246",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-35_0630_17018",
@@ -8697,6 +8699,7 @@
     "direction": "outbound",
     "originStationId": "jr_hanwa-01",
     "destinationStationId": "jr_hanwa-35",
+    "customOrigin": "天王寺",
     "customDestination": "湯浅",
     "cars": 8,
     "isHoliday": false,
@@ -8911,7 +8914,9 @@
         "departureTime": "07:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_0749_40811",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-14_0648_17042",
@@ -9460,7 +9465,9 @@
         "departureTime": "07:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-05_0639_15220",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-35_0652_17020",
@@ -10138,7 +10145,7 @@
     "originStationId": "jr_hanwa-35",
     "destinationStationId": "jr_hanwa-01",
     "customOrigin": "御坊",
-    "customDestination": "京橋(大阪府)",
+    "customDestination": "京橋",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -10352,7 +10359,9 @@
         "departureTime": "08:14:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-17_0534_31726",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_0656_16614",
@@ -12194,7 +12203,7 @@
     "originStationId": "jr_hanwa-35",
     "destinationStationId": "jr_hanwa-01",
     "customOrigin": "海南",
-    "customDestination": "京橋(大阪府)",
+    "customDestination": "京橋",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -12408,7 +12417,9 @@
         "departureTime": "08:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-05_0659_31723",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-26_0717_26901",
@@ -12790,6 +12801,7 @@
     "originStationId": "jr_hanwa-35",
     "destinationStationId": "jr_hanwa-01",
     "customOrigin": "紀伊田辺",
+    "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -13003,7 +13015,9 @@
         "departureTime": "09:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-26_0524_34978",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_0724_16788",
@@ -13359,7 +13373,7 @@
     "originStationId": "jr_hanwa-35",
     "destinationStationId": "jr_hanwa-01",
     "customOrigin": "御坊",
-    "customDestination": "京橋(大阪府)",
+    "customDestination": "京橋",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -13573,7 +13587,9 @@
         "departureTime": "08:38:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-17_0617_31727",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_0729_16616",
@@ -16902,7 +16918,7 @@
     "originStationId": "jr_hanwa-35",
     "destinationStationId": "jr_hanwa-01",
     "customOrigin": "湯浅",
-    "customDestination": "京橋(大阪府)",
+    "customDestination": "京橋",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -17116,7 +17132,9 @@
         "departureTime": "09:12:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-13_0706_31725",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-26_0759_26897",
@@ -17517,7 +17535,9 @@
         "departureTime": "08:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_0848_15213",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_0800_16761",
@@ -18449,7 +18469,9 @@
         "departureTime": "09:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-29_0639_15235",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-35_0813_26707",
@@ -19749,6 +19771,7 @@
     "originStationId": "jr_hanwa-35",
     "destinationStationId": "jr_hanwa-01",
     "customOrigin": "紀伊田辺",
+    "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -19962,7 +19985,9 @@
         "departureTime": "09:47:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-26_0621_34977",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-26_0827_17166",
@@ -20314,7 +20339,7 @@
     "originStationId": "jr_hanwa-35",
     "destinationStationId": "jr_hanwa-01",
     "customOrigin": "海南",
-    "customDestination": "京橋(大阪府)",
+    "customDestination": "京橋",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -20528,7 +20553,9 @@
         "departureTime": "09:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-05_0802_31724",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_0831_16705",
@@ -21465,7 +21492,9 @@
         "departureTime": "09:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-29_0710_15234",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_0842_16634",
@@ -25448,7 +25477,9 @@
         "departureTime": "10:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_1006_15207",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_0921_16680",
@@ -28161,7 +28192,9 @@
         "departureTime": "10:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_1035_15215",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_0949_16636",
@@ -28552,7 +28585,9 @@
         "departureTime": "10:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-53_0627_15253",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-26_0951_25662",
@@ -32586,7 +32621,9 @@
         "departureTime": "11:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_1118_15208",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-26_1034_26823",
@@ -34470,7 +34507,9 @@
         "departureTime": "11:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-29_0920_15222",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-14_1052_17057",
@@ -38316,7 +38355,9 @@
         "departureTime": "12:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_1218_15210",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-26_1133_26832",
@@ -40200,7 +40241,9 @@
         "departureTime": "12:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-53_0832_15237",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-14_1152_17063",
@@ -44046,7 +44089,9 @@
         "departureTime": "13:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_1318_15217",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_1234_16653",
@@ -45930,7 +45975,9 @@
         "departureTime": "13:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-29_1120_15223",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-14_1252_17067",
@@ -49776,7 +49823,9 @@
         "departureTime": "14:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_1418_15211",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_1334_16662",
@@ -51660,7 +51709,9 @@
         "departureTime": "14:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-29_1220_15224",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-14_1352_17071",
@@ -55506,7 +55557,9 @@
         "departureTime": "15:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_1518_15212",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_1434_16686",
@@ -57402,7 +57455,9 @@
         "departureTime": "15:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-53_1127_15239",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-35_1450_15240",
@@ -57629,7 +57684,9 @@
         "departureTime": "15:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-53_1127_15240",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-14_1452_17075",
@@ -61493,7 +61550,9 @@
         "departureTime": "16:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_1618_15218",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-26_1533_26853",
@@ -63395,7 +63454,9 @@
         "departureTime": "16:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-29_1420_15225",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-26_1551_17201",
@@ -67259,7 +67320,9 @@
         "departureTime": "17:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_1720_15219",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-26_1633_26861",
@@ -68985,7 +69048,9 @@
         "departureTime": "17:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-53_1329_15241",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-35_1650_15243",
@@ -69212,7 +69277,9 @@
         "departureTime": "17:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-53_1329_15243",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_1651_16672",
@@ -74502,7 +74569,9 @@
         "departureTime": "18:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_1825_15201",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_1737_16600",
@@ -75967,7 +76036,9 @@
         "departureTime": "18:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-29_1620_15228",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_1750_25498",
@@ -79221,7 +79292,9 @@
         "departureTime": "19:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-53_1504_15244",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_1820_25500",
@@ -81012,7 +81085,9 @@
         "departureTime": "19:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_1926_15195",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-26_1836_17173",
@@ -82872,7 +82947,9 @@
         "departureTime": "19:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-29_1720_15230",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_1850_25502",
@@ -87890,7 +87967,9 @@
         "departureTime": "20:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_2026_15203",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_1937_16618",
@@ -89809,7 +89888,9 @@
         "departureTime": "20:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-29_1820_15232",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_1950_25506",
@@ -94605,7 +94686,9 @@
         "departureTime": "21:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_2126_15199",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_OUT_jr_hanwa-01_2037_16622",
@@ -97042,7 +97125,9 @@
         "departureTime": "21:49:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_kinokuni-53_1746_15248",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-35_2104_26785",
@@ -99628,7 +99713,9 @@
         "departureTime": "22:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_2226_15196",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-26_2138_26799",
@@ -101287,7 +101374,7 @@
     "direction": "outbound",
     "originStationId": "jr_hanwa-01",
     "destinationStationId": "jr_hanwa-35",
-    "customOrigin": "京橋(大阪府)",
+    "customOrigin": "京橋",
     "customDestination": "御坊",
     "cars": 8,
     "isHoliday": false,
@@ -101502,7 +101589,9 @@
         "departureTime": "23:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_kinokuni-01_2330_35250",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "WD_INB_jr_hanwa-26_2202_17242",
@@ -113220,7 +113309,7 @@
     "direction": "outbound",
     "originStationId": "jr_hanwa-01",
     "destinationStationId": "jr_hanwa-35",
-    "customOrigin": "京橋(大阪府)",
+    "customOrigin": "京橋",
     "customDestination": "湯浅",
     "cars": 8,
     "isHoliday": true,
@@ -113435,7 +113524,9 @@
         "departureTime": "07:44:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_0744_35247",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_0632_26793",
@@ -114844,7 +114935,9 @@
         "departureTime": "07:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-05_0639_15221",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_0653_17215",
@@ -120613,7 +120706,9 @@
         "departureTime": "08:48:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_0848_15214",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-35_0759_16997",
@@ -122071,7 +122166,9 @@
         "departureTime": "09:01:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-29_0639_15236",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-35_0811_31728",
@@ -122083,7 +122180,7 @@
     "originStationId": "jr_hanwa-35",
     "destinationStationId": "jr_hanwa-01",
     "customOrigin": "紀伊田辺",
-    "customDestination": "京橋(大阪府)",
+    "customDestination": "京橋",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -122297,7 +122394,9 @@
         "departureTime": "09:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-26_0621_31728",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_OUT_jr_hanwa-01_0815_16596",
@@ -124837,7 +124936,9 @@
         "departureTime": "09:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-29_0710_15233",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_OUT_jr_hanwa-01_0842_27148",
@@ -127715,7 +127816,7 @@
     "originStationId": "jr_hanwa-35",
     "destinationStationId": "jr_hanwa-01",
     "customOrigin": "紀伊田辺",
-    "customDestination": "京橋(大阪府)",
+    "customDestination": "京橋",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -127929,7 +128030,9 @@
         "departureTime": "10:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-26_0708_31729",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_OUT_jr_hanwa-01_0913_27151",
@@ -128995,7 +129098,9 @@
         "departureTime": "10:06:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_1006_15206",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_0924_25660",
@@ -131423,7 +131528,9 @@
         "departureTime": "10:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_1035_15216",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_0950_25661",
@@ -131825,7 +131932,9 @@
         "departureTime": "10:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-53_0627_15254",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_OUT_jr_hanwa-01_0951_16762",
@@ -135470,7 +135579,9 @@
         "departureTime": "11:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_1118_15209",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_1034_26824",
@@ -137202,7 +137313,9 @@
         "departureTime": "11:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-29_0920_15222",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-14_1051_17056",
@@ -141054,7 +141167,9 @@
         "departureTime": "12:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_1218_15210",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_1133_26831",
@@ -142944,7 +143059,9 @@
         "departureTime": "12:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-53_0832_15237",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-14_1152_17063",
@@ -146790,7 +146907,9 @@
         "departureTime": "13:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_1318_15217",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_OUT_jr_hanwa-01_1234_16654",
@@ -148674,7 +148793,9 @@
         "departureTime": "13:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-29_1120_15223",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-14_1252_17067",
@@ -152520,7 +152641,9 @@
         "departureTime": "14:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_1418_15211",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_OUT_jr_hanwa-01_1334_16661",
@@ -154404,7 +154527,9 @@
         "departureTime": "14:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-29_1220_15224",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-14_1352_17071",
@@ -158262,7 +158387,9 @@
         "departureTime": "15:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_1518_15212",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_OUT_jr_hanwa-01_1434_16687",
@@ -160158,7 +160285,9 @@
         "departureTime": "15:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-53_1127_15239",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-35_1450_15240",
@@ -160385,7 +160514,9 @@
         "departureTime": "15:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-53_1127_15240",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-14_1452_17075",
@@ -164261,7 +164392,9 @@
         "departureTime": "16:18:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_1618_15218",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_1533_26853",
@@ -166235,7 +166368,9 @@
         "departureTime": "16:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-29_1420_15225",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_1551_17228",
@@ -170155,7 +170290,9 @@
         "departureTime": "17:20:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_1720_15219",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_OUT_jr_hanwa-01_1635_16671",
@@ -171609,7 +171746,9 @@
         "departureTime": "17:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-53_1329_15242",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_OUT_jr_hanwa-01_1653_16799",
@@ -175664,7 +175803,9 @@
         "departureTime": "18:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_1825_15200",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_OUT_jr_hanwa-01_1736_16599",
@@ -177625,7 +177766,9 @@
         "departureTime": "18:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-29_1620_15229",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_OUT_jr_hanwa-01_1753_16801",
@@ -180623,7 +180766,9 @@
         "departureTime": "19:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-53_1504_15245",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-35_1820_15247",
@@ -180850,7 +180995,9 @@
         "departureTime": "19:05:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-53_1504_15247",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_OUT_jr_hanwa-01_1824_16802",
@@ -182038,7 +182185,9 @@
         "departureTime": "19:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_1926_15194",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_1834_26877",
@@ -183911,7 +184060,9 @@
         "departureTime": "19:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-29_1720_15230",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_1851_17175",
@@ -188260,7 +188411,9 @@
         "departureTime": "20:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_2026_15202",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_1935_26885",
@@ -190186,7 +190339,9 @@
         "departureTime": "20:35:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-29_1820_15231",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_1951_17181",
@@ -193979,7 +194134,9 @@
         "departureTime": "21:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_2126_15198",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_2034_26892",
@@ -196126,7 +196283,7 @@
     "direction": "outbound",
     "originStationId": "jr_hanwa-01",
     "destinationStationId": "jr_hanwa-35",
-    "customOrigin": "京橋(大阪府)",
+    "customOrigin": "京橋",
     "customDestination": "御坊",
     "cars": 8,
     "isHoliday": true,
@@ -196341,7 +196498,9 @@
         "departureTime": "22:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_2230_35248",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-35_2102_15249",
@@ -196568,7 +196727,9 @@
         "departureTime": "21:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-53_1746_15249",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-35_2102_15251",
@@ -196795,7 +196956,9 @@
         "departureTime": "21:51:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_kinokuni-53_1746_15251",
+    "prevLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_2104_26894",
@@ -199628,7 +199791,9 @@
         "departureTime": "22:26:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_2226_15197",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_2138_26798",
@@ -201293,7 +201458,7 @@
     "direction": "outbound",
     "originStationId": "jr_hanwa-01",
     "destinationStationId": "jr_hanwa-35",
-    "customOrigin": "京橋(大阪府)",
+    "customOrigin": "京橋",
     "customDestination": "御坊",
     "cars": 8,
     "isHoliday": true,
@@ -201508,7 +201673,9 @@
         "departureTime": "23:30:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_kinokuni-01_2330_35249",
+    "throughLineId": "jr_kinokuni"
   },
   {
     "tripId": "HD_INB_jr_hanwa-26_2205_26802",

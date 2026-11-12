@@ -14,7 +14,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.21341,
         135.18891
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-02_jr_kinokuni-03",
@@ -33,7 +33,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.18771,
         135.18759
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-03_jr_kinokuni-04",
@@ -56,7 +56,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.1709,
         135.21007
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-04_jr_kinokuni-05",
@@ -75,7 +75,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.15456,
         135.21445
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-05_jr_kinokuni-06",
@@ -94,7 +94,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.14198,
         135.19349
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-06_jr_kinokuni-07",
@@ -113,7 +113,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.12594,
         135.16046
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-07_jr_kinokuni-08",
@@ -132,7 +132,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.10889,
         135.14573
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-08_jr_kinokuni-09",
@@ -151,7 +151,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.10006,
         135.11563
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-09_jr_kinokuni-10",
@@ -170,7 +170,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.08609,
         135.12404
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-10_jr_kinokuni-11",
@@ -185,7 +185,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.07795,
         135.16998
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-11_jr_kinokuni-12",
@@ -204,7 +204,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.05768,
         135.19715
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-12_jr_kinokuni-13",
@@ -223,7 +223,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.03218,
         135.18018
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-13_jr_kinokuni-14",
@@ -242,7 +242,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         34.01282,
         135.16373
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-14_jr_kinokuni-15",
@@ -269,7 +269,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.96897,
         135.12826
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-15_jr_kinokuni-16",
@@ -292,7 +292,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.92583,
         135.14524
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-16_jr_kinokuni-17",
@@ -311,7 +311,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.90774,
         135.15873
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-17_jr_kinokuni-18",
@@ -326,7 +326,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.91115,
         135.17582
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-18_jr_kinokuni-19",
@@ -357,7 +357,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.89712,
         135.20693
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-19_jr_kinokuni-20",
@@ -396,7 +396,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.85275,
         135.22969
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-20_jr_kinokuni-21",
@@ -419,7 +419,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.8186,
         135.21985
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-21_jr_kinokuni-22",
@@ -442,7 +442,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.79678,
         135.24104
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-22_jr_kinokuni-23",
@@ -454,10 +454,6 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         135.24104
       ],
       [
-        33.78383,
-        135.23554
-      ],
-      [
         33.78244,
         135.27246
       ],
@@ -465,7 +461,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.7804,
         135.27958
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-23_jr_kinokuni-24",
@@ -488,7 +484,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.76754,
         135.32437
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-24_jr_kinokuni-25",
@@ -503,7 +499,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.74724,
         135.35536
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-25_jr_kinokuni-26",
@@ -530,7 +526,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.7336,
         135.38374
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-26_jr_kinokuni-27",
@@ -545,7 +541,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.72098,
         135.40236
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-27_jr_kinokuni-28",
@@ -568,7 +564,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.69676,
         135.4176
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-28_jr_kinokuni-29",
@@ -595,7 +591,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.6762,
         135.38744
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-29_jr_kinokuni-30",
@@ -614,7 +610,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.6525,
         135.39346
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-30_jr_kinokuni-31",
@@ -637,7 +633,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.60997,
         135.4038
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-31_jr_kinokuni-32",
@@ -664,7 +660,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.5849,
         135.45805
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-32_jr_kinokuni-33",
@@ -691,7 +687,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.54687,
         135.49576
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-33_jr_kinokuni-34",
@@ -726,7 +722,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.5156,
         135.57559
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-34_jr_kinokuni-35",
@@ -749,7 +745,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.50948,
         135.60327
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-35_jr_kinokuni-36",
@@ -776,7 +772,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.50115,
         135.65492
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-36_jr_kinokuni-37",
@@ -791,7 +787,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.4903,
         135.67753
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-37_jr_kinokuni-38",
@@ -814,7 +810,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.48808,
         135.71913
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-38_jr_kinokuni-39",
@@ -857,7 +853,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.47549,
         135.78161
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-39_jr_kinokuni-40",
@@ -896,7 +892,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.49094,
         135.73626
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-40_jr_kinokuni-41",
@@ -959,7 +955,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.51834,
         135.82087
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-41_jr_kinokuni-42",
@@ -998,7 +994,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.53647,
         135.86813
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-42_jr_kinokuni-43",
@@ -1021,7 +1017,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.56044,
         135.89397
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-43_jr_kinokuni-44",
@@ -1040,7 +1036,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.58212,
         135.9221
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-44_jr_kinokuni-45",
@@ -1055,7 +1051,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.59128,
         135.92748
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-45_jr_kinokuni-46",
@@ -1070,7 +1066,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.60959,
         135.92515
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-46_jr_kinokuni-47",
@@ -1089,7 +1085,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.62798,
         135.9414
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-47_jr_kinokuni-48",
@@ -1108,7 +1104,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.64384,
         135.93649
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-48_jr_kinokuni-49",
@@ -1131,7 +1127,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.66273,
         135.97229
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-49_jr_kinokuni-50",
@@ -1158,7 +1154,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.63707,
         135.93441
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-50_jr_kinokuni-51",
@@ -1197,7 +1193,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.67984,
         135.97048
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-51_jr_kinokuni-52",
@@ -1212,7 +1208,7 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.68953,
         135.98494
       ]
-    ],
+    ]
   },
   {
     "id": "jr_kinokuni-52_jr_kinokuni-53",
@@ -1235,6 +1231,6 @@ export const JR_KINOKUNI_TRACK_SEGMENTS: TrackSegment[] = [
         33.72583,
         135.99222
       ]
-    ],
+    ]
   }
 ];

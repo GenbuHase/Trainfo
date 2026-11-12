@@ -22,7 +22,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.57776,
         135.70363
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-02_jr_wakayama-03",
@@ -41,7 +41,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.56204,
         135.70195
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-03_jr_wakayama-04",
@@ -56,7 +56,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.54377,
         135.70532
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-04_jr_wakayama-05",
@@ -71,7 +71,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.5273,
         135.71885
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-05_jr_wakayama-06",
@@ -86,7 +86,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.51634,
         135.74464
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-06_jr_wakayama-07",
@@ -105,7 +105,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.48893,
         135.73602
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-07_jr_wakayama-08",
@@ -120,7 +120,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.46507,
         135.73379
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-08_jr_wakayama-09",
@@ -139,7 +139,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.4584,
         135.7485
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-09_jr_wakayama-10",
@@ -154,7 +154,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.45248,
         135.76306
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-10_jr_wakayama-11",
@@ -173,7 +173,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.42108,
         135.75048
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-11_jr_wakayama-12",
@@ -193,14 +193,10 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         135.72462
       ],
       [
-        34.39175,
-        135.71444
-      ],
-      [
         34.38229,
         135.71447
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-12_jr_wakayama-13",
@@ -223,7 +219,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.35574,
         135.69869
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-13_jr_wakayama-14",
@@ -238,7 +234,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.34612,
         135.68444
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-14_jr_wakayama-15",
@@ -261,7 +257,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.32809,
         135.65557
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-15_jr_wakayama-16",
@@ -276,7 +272,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.32259,
         135.63474
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-16_jr_wakayama-17",
@@ -291,7 +287,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.31816,
         135.61477
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-17_jr_wakayama-18",
@@ -306,7 +302,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.31298,
         135.58411
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-18_jr_wakayama-19",
@@ -321,7 +317,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.30762,
         135.55692
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-19_jr_wakayama-20",
@@ -336,7 +332,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.30447,
         135.53244
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-20_jr_wakayama-21",
@@ -351,7 +347,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.29851,
         135.5174
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-21_jr_wakayama-22",
@@ -366,7 +362,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.2986,
         135.49385
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-22_jr_wakayama-23",
@@ -381,7 +377,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.29206,
         135.4799
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-23_jr_wakayama-24",
@@ -404,7 +400,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.28012,
         135.45263
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-24_jr_wakayama-25",
@@ -419,7 +415,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.27295,
         135.43368
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-25_jr_wakayama-26",
@@ -434,7 +430,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.27072,
         135.4042
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-26_jr_wakayama-27",
@@ -449,7 +445,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.26826,
         135.39156
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-27_jr_wakayama-28",
@@ -464,7 +460,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.26515,
         135.36417
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-28_jr_wakayama-29",
@@ -479,7 +475,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.26201,
         135.34019
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-29_jr_wakayama-30",
@@ -498,7 +494,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.25502,
         135.32128
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-30_jr_wakayama-31",
@@ -513,7 +509,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.24831,
         135.31124
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-31_jr_wakayama-32",
@@ -528,7 +524,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.24637,
         135.28742
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-32_jr_wakayama-33",
@@ -543,7 +539,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.24445,
         135.26167
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-33_jr_wakayama-34",
@@ -558,7 +554,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.24165,
         135.24567
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-34_jr_wakayama-35",
@@ -573,7 +569,7 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.24207,
         135.22944
       ]
-    ],
+    ]
   },
   {
     "id": "jr_wakayama-35_jr_wakayama-36",
@@ -596,6 +592,6 @@ export const JR_WAKAYAMA_TRACK_SEGMENTS: TrackSegment[] = [
         34.2325,
         135.19167
       ]
-    ],
+    ]
   }
 ];

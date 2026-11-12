@@ -146,6 +146,7 @@
     "originStationId": "jr_yamatoji-21",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "ＪＲ難波",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -230,7 +231,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "05:47:00",
-        "departureTime": "05:47:00",
+        "departureTime": "06:11:00",
         "isPassing": false
       },
       {
@@ -257,7 +258,9 @@
         "departureTime": "06:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_wakayama-01_0611_38051",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_OUT_jr_yamatoji-01_0522_18387",
@@ -2038,6 +2041,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "高田",
     "customDestination": "ＪＲ難波",
     "cars": 8,
     "isHoliday": false,
@@ -2086,7 +2090,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "07:24:00",
+        "arrivalTime": "07:23:00",
         "departureTime": "07:26:00",
         "isPassing": false
       },
@@ -2162,7 +2166,9 @@
         "departureTime": "07:58:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_wakayama-04_0713_32671",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_0656_23888",
@@ -2400,7 +2406,8 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-21",
-    "customDestination": "天王寺",
+    "customOrigin": "加茂",
+    "customDestination": "王寺",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -2425,7 +2432,7 @@
       {
         "stationId": "jr_yamatoji-04",
         "arrivalTime": "07:21:00",
-        "departureTime": "07:24:00",
+        "departureTime": "07:31:00",
         "isPassing": false
       },
       {
@@ -2530,7 +2537,9 @@
         "departureTime": "08:10:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_sakurai-01_0731_32681",
+    "throughLineId": "jr_sakurai"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_0707_23889",
@@ -2874,6 +2883,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "高田",
     "customDestination": "ＪＲ難波",
     "cars": 8,
     "isHoliday": false,
@@ -2922,7 +2932,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "07:52:00",
+        "arrivalTime": "07:40:00",
         "departureTime": "07:53:00",
         "isPassing": false
       },
@@ -2998,7 +3008,9 @@
         "departureTime": "08:22:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_wakayama-04_0731_32672",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-20_0727_23864",
@@ -3243,7 +3255,8 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-21",
-    "customDestination": "天王寺",
+    "customOrigin": "加茂",
+    "customDestination": "王寺",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -3268,7 +3281,7 @@
       {
         "stationId": "jr_yamatoji-04",
         "arrivalTime": "07:47:00",
-        "departureTime": "07:48:00",
+        "departureTime": "08:00:00",
         "isPassing": false
       },
       {
@@ -3373,7 +3386,9 @@
         "departureTime": "08:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_sakurai-01_0800_32682",
+    "throughLineId": "jr_sakurai"
   },
   {
     "tripId": "WD_OUT_jr_yamatoji-04_0730_11923",
@@ -3690,6 +3705,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "奈良",
     "customDestination": "ＪＲ難波",
     "cars": 8,
     "isHoliday": false,
@@ -3738,7 +3754,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "08:16:00",
+        "arrivalTime": "07:57:00",
         "departureTime": "08:17:00",
         "isPassing": false
       },
@@ -3814,7 +3830,9 @@
         "departureTime": "08:42:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_wakayama-04_0746_31730",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_0748_23895",
@@ -4059,6 +4077,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "高田",
     "customDestination": "ＪＲ難波",
     "cars": 8,
     "isHoliday": false,
@@ -4107,7 +4126,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "08:30:00",
+        "arrivalTime": "08:20:00",
         "departureTime": "08:31:00",
         "isPassing": false
       },
@@ -4183,7 +4202,9 @@
         "departureTime": "08:56:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_wakayama-04_0811_32674",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_0755_23897",
@@ -4294,6 +4315,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "ＪＲ難波",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -4372,7 +4394,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "08:28:00",
-        "departureTime": "08:29:00",
+        "departureTime": "08:35:00",
         "isPassing": false
       },
       {
@@ -4399,7 +4421,9 @@
         "departureTime": "08:45:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_wakayama-01_0835_38056",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_0808_23899",
@@ -4645,6 +4669,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "ＪＲ難波",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -4723,7 +4748,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "08:39:00",
-        "departureTime": "08:39:00",
+        "departureTime": "09:03:00",
         "isPassing": false
       },
       {
@@ -4750,7 +4775,9 @@
         "departureTime": "08:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_wakayama-01_0903_38058",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_0820_23901",
@@ -5211,6 +5238,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "奈良",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": false,
@@ -5259,7 +5287,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "09:15:00",
+        "arrivalTime": "09:00:00",
         "departureTime": "09:16:00",
         "isPassing": false
       },
@@ -5335,7 +5363,9 @@
         "departureTime": "09:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_wakayama-04_0851_32682",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-20_0844_23839",
@@ -6087,6 +6117,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "奈良",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": false,
@@ -6135,7 +6166,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "09:45:00",
+        "arrivalTime": "09:43:00",
         "departureTime": "09:45:00",
         "isPassing": false
       },
@@ -6211,7 +6242,9 @@
         "departureTime": "10:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_wakayama-04_0931_32683",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_0917_23910",
@@ -7842,6 +7875,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "高田",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": false,
@@ -7890,7 +7924,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "11:15:00",
+        "arrivalTime": "10:54:00",
         "departureTime": "11:15:00",
         "isPassing": false
       },
@@ -7966,7 +8000,9 @@
         "departureTime": "11:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_wakayama-04_1045_21920",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_1047_23921",
@@ -12945,6 +12981,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "高田",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": false,
@@ -12993,7 +13030,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "16:15:00",
+        "arrivalTime": "15:52:00",
         "departureTime": "16:15:00",
         "isPassing": false
       },
@@ -13069,7 +13106,9 @@
         "departureTime": "16:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_wakayama-04_1542_21929",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-20_1542_6401",
@@ -13315,6 +13354,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "天王寺",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -13393,7 +13433,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "16:18:00",
-        "departureTime": "16:18:00",
+        "departureTime": "16:42:00",
         "isPassing": false
       },
       {
@@ -13420,7 +13460,9 @@
         "departureTime": "16:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_wakayama-01_1642_38061",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_1602_23943",
@@ -13764,6 +13806,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-21",
+    "customOrigin": "高田",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": false,
@@ -13812,7 +13855,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "16:55:00",
+        "arrivalTime": "16:42:00",
         "departureTime": "16:55:00",
         "isPassing": false
       },
@@ -13894,7 +13937,9 @@
         "departureTime": "17:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_wakayama-04_1633_21930",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-20_1627_6404",
@@ -14487,6 +14532,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "天王寺",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -14565,7 +14611,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "17:18:00",
-        "departureTime": "17:19:00",
+        "departureTime": "17:22:00",
         "isPassing": false
       },
       {
@@ -14592,7 +14638,9 @@
         "departureTime": "17:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_wakayama-01_1722_38062",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_1658_23878",
@@ -14894,7 +14942,8 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-21",
-    "customDestination": "天王寺",
+    "customOrigin": "奈良",
+    "customDestination": "王寺",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -14919,7 +14968,7 @@
       {
         "stationId": "jr_yamatoji-04",
         "arrivalTime": "17:35:00",
-        "departureTime": "17:40:00",
+        "departureTime": "17:37:00",
         "isPassing": false
       },
       {
@@ -14942,7 +14991,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "17:55:00",
+        "arrivalTime": "17:42:00",
         "departureTime": "17:56:00",
         "isPassing": false
       },
@@ -15024,7 +15073,11 @@
         "departureTime": "18:25:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_sakurai-01_1737_32690",
+    "throughLineId": "jr_sakurai",
+    "prevTripId": "WD_INB_jr_wakayama-04_1733_32686",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-20_1713_6407",
@@ -15270,6 +15323,7 @@
     "originStationId": "jr_yamatoji-21",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "天王寺",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15354,7 +15408,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "17:51:00",
-        "departureTime": "17:53:00",
+        "departureTime": "18:04:00",
         "isPassing": false
       },
       {
@@ -15381,7 +15435,9 @@
         "departureTime": "18:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_wakayama-01_1804_38063",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_OUT_jr_yamatoji-01_1731_10576",
@@ -15392,7 +15448,8 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-21",
-    "customDestination": "天王寺",
+    "customOrigin": "加茂",
+    "customDestination": "王寺",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15417,7 +15474,7 @@
       {
         "stationId": "jr_yamatoji-04",
         "arrivalTime": "17:47:00",
-        "departureTime": "17:55:00",
+        "departureTime": "18:12:00",
         "isPassing": false
       },
       {
@@ -15522,7 +15579,9 @@
         "departureTime": "18:40:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_sakurai-01_1812_32692",
+    "throughLineId": "jr_sakurai"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_1732_23879",
@@ -15609,6 +15668,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "ＪＲ難波",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -15687,7 +15747,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "17:59:00",
-        "departureTime": "18:01:00",
+        "departureTime": "18:28:00",
         "isPassing": false
       },
       {
@@ -15714,7 +15774,9 @@
         "departureTime": "18:17:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_wakayama-01_1828_38066",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_1739_23955",
@@ -16064,6 +16126,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-21",
+    "customOrigin": "奈良",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": false,
@@ -16112,7 +16175,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "18:25:00",
+        "arrivalTime": "18:18:00",
         "departureTime": "18:26:00",
         "isPassing": false
       },
@@ -16194,7 +16257,9 @@
         "departureTime": "18:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_wakayama-04_1808_32687",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_1758_6332",
@@ -17046,6 +17111,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-21",
+    "customOrigin": "奈良",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": false,
@@ -17094,7 +17160,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "18:55:00",
+        "arrivalTime": "18:43:00",
         "departureTime": "18:56:00",
         "isPassing": false
       },
@@ -17176,7 +17242,9 @@
         "departureTime": "19:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "WD_INB_jr_wakayama-04_1831_32690",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_1828_6333",
@@ -17503,7 +17571,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-08",
     "customOrigin": "ＪＲ難波",
-    "customDestination": "高田(奈良県)",
+    "customDestination": "高田",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -17585,7 +17653,9 @@
         "departureTime": "19:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_wakayama-01_1904_39706",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-15_1838_11916",
@@ -18158,7 +18228,7 @@
     "originStationId": "jr_yamatoji-21",
     "destinationStationId": "jr_yamatoji-08",
     "customOrigin": "大阪",
-    "customDestination": "高田(奈良県)",
+    "customDestination": "高田",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -18246,7 +18316,9 @@
         "departureTime": "19:28:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_wakayama-01_1928_39700",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_1858_6334",
@@ -18573,6 +18645,7 @@
     "originStationId": "jr_yamatoji-15",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "大阪",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -18621,7 +18694,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "19:20:00",
-        "departureTime": "19:21:00",
+        "departureTime": "19:43:00",
         "isPassing": false
       },
       {
@@ -18648,7 +18721,9 @@
         "departureTime": "19:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_wakayama-01_1943_38068",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_1910_23967",
@@ -21511,6 +21586,7 @@
     "originStationId": "jr_yamatoji-21",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "天王寺",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": false,
     "stops": [
@@ -21595,7 +21671,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "21:25:00",
-        "departureTime": "21:26:00",
+        "departureTime": "21:47:00",
         "isPassing": false
       },
       {
@@ -21622,7 +21698,9 @@
         "departureTime": "21:41:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "WD_OUT_jr_wakayama-01_2147_38069",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "WD_INB_jr_yamatoji-21_2109_23983",
@@ -24468,6 +24546,7 @@
     "originStationId": "jr_yamatoji-21",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "ＪＲ難波",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -24552,7 +24631,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "05:47:00",
-        "departureTime": "05:47:00",
+        "departureTime": "06:11:00",
         "isPassing": false
       },
       {
@@ -24579,7 +24658,9 @@
         "departureTime": "06:02:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_wakayama-01_0611_38052",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_OUT_jr_yamatoji-01_0522_18386",
@@ -25170,7 +25251,8 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
-    "customDestination": "天王寺",
+    "customOrigin": "奈良",
+    "customDestination": "王寺",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -25195,7 +25277,7 @@
       {
         "stationId": "jr_yamatoji-04",
         "arrivalTime": "06:27:00",
-        "departureTime": "06:30:00",
+        "departureTime": "06:55:00",
         "isPassing": false
       },
       {
@@ -25218,7 +25300,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "06:46:00",
+        "arrivalTime": "06:24:00",
         "departureTime": "06:46:00",
         "isPassing": false
       },
@@ -25294,7 +25376,11 @@
         "departureTime": "07:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_sakurai-01_0655_32679",
+    "throughLineId": "jr_sakurai",
+    "prevTripId": "HD_INB_jr_wakayama-04_0615_32676",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-04_0626_23833",
@@ -25872,7 +25958,8 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
-    "customDestination": "天王寺",
+    "customOrigin": "加茂",
+    "customDestination": "王寺",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -25897,7 +25984,7 @@
       {
         "stationId": "jr_yamatoji-04",
         "arrivalTime": "07:11:00",
-        "departureTime": "07:15:00",
+        "departureTime": "07:31:00",
         "isPassing": false
       },
       {
@@ -25996,7 +26083,9 @@
         "departureTime": "07:53:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_sakurai-01_0731_32680",
+    "throughLineId": "jr_sakurai"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-04_0658_23835",
@@ -26256,6 +26345,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "奈良",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": true,
@@ -26304,7 +26394,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "07:46:00",
+        "arrivalTime": "07:34:00",
         "departureTime": "07:46:00",
         "isPassing": false
       },
@@ -26380,7 +26470,9 @@
         "departureTime": "08:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_wakayama-04_0724_32678",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_0722_23891",
@@ -26580,6 +26672,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "高田",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": true,
@@ -26628,7 +26721,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "08:01:00",
+        "arrivalTime": "07:48:00",
         "departureTime": "08:01:00",
         "isPassing": false
       },
@@ -26704,7 +26797,9 @@
         "departureTime": "08:23:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_wakayama-04_0738_21918",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_0734_23893",
@@ -26949,6 +27044,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "奈良",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": true,
@@ -26997,7 +27093,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "08:16:00",
+        "arrivalTime": "08:02:00",
         "departureTime": "08:16:00",
         "isPassing": false
       },
@@ -27073,7 +27169,9 @@
         "departureTime": "08:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_wakayama-04_0752_32679",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_0748_23896",
@@ -27221,6 +27319,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-21",
+    "customOrigin": "高田",
     "customDestination": "ＪＲ難波",
     "cars": 8,
     "isHoliday": true,
@@ -27269,7 +27368,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "08:23:00",
+        "arrivalTime": "08:22:00",
         "departureTime": "08:26:00",
         "isPassing": false
       },
@@ -27351,7 +27450,9 @@
         "departureTime": "09:08:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_wakayama-04_0810_32673",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-20_0756_6355",
@@ -27363,6 +27464,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "天王寺",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -27441,7 +27543,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "08:18:00",
-        "departureTime": "08:18:00",
+        "departureTime": "08:33:00",
         "isPassing": false
       },
       {
@@ -27468,7 +27570,9 @@
         "departureTime": "08:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_wakayama-01_0833_38055",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_0803_23898",
@@ -27849,6 +27953,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "ＪＲ難波",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -27927,7 +28032,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "08:39:00",
-        "departureTime": "08:40:00",
+        "departureTime": "09:03:00",
         "isPassing": false
       },
       {
@@ -27954,7 +28059,9 @@
         "departureTime": "08:55:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_wakayama-01_0903_38057",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_0820_23900",
@@ -29441,6 +29548,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "奈良",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": true,
@@ -29489,7 +29597,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "09:45:00",
+        "arrivalTime": "09:43:00",
         "departureTime": "09:46:00",
         "isPassing": false
       },
@@ -29565,7 +29673,9 @@
         "departureTime": "10:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_wakayama-04_0931_32683",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-20_0916_23852",
@@ -30564,6 +30674,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "天王寺",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -30642,7 +30753,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "10:18:00",
-        "departureTime": "10:18:00",
+        "departureTime": "10:41:00",
         "isPassing": false
       },
       {
@@ -30669,7 +30780,9 @@
         "departureTime": "10:33:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_wakayama-01_1041_38059",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-20_1002_23842",
@@ -31592,6 +31705,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "高田",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": true,
@@ -31640,7 +31754,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "11:15:00",
+        "arrivalTime": "10:54:00",
         "departureTime": "11:15:00",
         "isPassing": false
       },
@@ -31716,7 +31830,9 @@
         "departureTime": "11:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_wakayama-04_1045_21920",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_1047_23921",
@@ -32871,6 +32987,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "高田",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": true,
@@ -32919,7 +33036,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "12:15:00",
+        "arrivalTime": "12:06:00",
         "departureTime": "12:15:00",
         "isPassing": false
       },
@@ -32995,7 +33112,9 @@
         "departureTime": "12:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_wakayama-04_1157_21922",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_1147_23925",
@@ -33975,6 +34094,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "高田",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": true,
@@ -34023,7 +34143,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "13:15:00",
+        "arrivalTime": "13:06:00",
         "departureTime": "13:15:00",
         "isPassing": false
       },
@@ -34099,7 +34219,9 @@
         "departureTime": "13:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_wakayama-04_1257_21924",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_1247_23929",
@@ -34992,6 +35114,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "高田",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": true,
@@ -35040,7 +35163,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "14:15:00",
+        "arrivalTime": "14:06:00",
         "departureTime": "14:15:00",
         "isPassing": false
       },
@@ -35116,7 +35239,9 @@
         "departureTime": "14:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_wakayama-04_1357_21926",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_1347_23933",
@@ -36009,6 +36134,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "高田",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": true,
@@ -36057,7 +36183,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "15:15:00",
+        "arrivalTime": "15:06:00",
         "departureTime": "15:15:00",
         "isPassing": false
       },
@@ -36133,7 +36259,9 @@
         "departureTime": "15:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_wakayama-04_1457_21928",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_1447_23937",
@@ -36949,6 +37077,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "奈良",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": true,
@@ -36997,7 +37126,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "16:15:00",
+        "arrivalTime": "15:56:00",
         "departureTime": "16:15:00",
         "isPassing": false
       },
@@ -37073,7 +37202,9 @@
         "departureTime": "16:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_wakayama-04_1547_32684",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-20_1542_6401",
@@ -37409,6 +37540,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "天王寺",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -37487,7 +37619,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "16:18:00",
-        "departureTime": "16:18:00",
+        "departureTime": "16:42:00",
         "isPassing": false
       },
       {
@@ -37514,7 +37646,9 @@
         "departureTime": "16:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_wakayama-01_1642_38060",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_1602_23942",
@@ -37759,7 +37893,8 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
-    "customDestination": "天王寺",
+    "customOrigin": "高田",
+    "customDestination": "王寺",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -37807,7 +37942,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "16:45:00",
+        "arrivalTime": "16:42:00",
         "departureTime": "16:45:00",
         "isPassing": false
       },
@@ -37883,7 +38018,11 @@
         "departureTime": "17:09:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_sakurai-01_1630_32685",
+    "throughLineId": "jr_sakurai",
+    "prevTripId": "HD_INB_jr_wakayama-04_1633_21930",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_1618_23945",
@@ -38362,7 +38501,8 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
-    "customDestination": "天王寺",
+    "customOrigin": "高田",
+    "customDestination": "王寺",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -38387,7 +38527,7 @@
       {
         "stationId": "jr_yamatoji-04",
         "arrivalTime": "16:58:00",
-        "departureTime": "17:00:00",
+        "departureTime": "17:07:00",
         "isPassing": false
       },
       {
@@ -38410,7 +38550,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "17:15:00",
+        "arrivalTime": "17:02:00",
         "departureTime": "17:15:00",
         "isPassing": false
       },
@@ -38486,7 +38626,11 @@
         "departureTime": "17:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_sakurai-01_1707_32688",
+    "throughLineId": "jr_sakurai",
+    "prevTripId": "HD_INB_jr_wakayama-04_1652_21931",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_1648_23948",
@@ -38687,6 +38831,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "天王寺",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -38765,7 +38910,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "17:18:00",
-        "departureTime": "17:19:00",
+        "departureTime": "17:22:00",
         "isPassing": false
       },
       {
@@ -38792,7 +38937,9 @@
         "departureTime": "17:34:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_wakayama-01_1722_38062",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_1703_23950",
@@ -39291,7 +39438,8 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
-    "customDestination": "天王寺",
+    "customOrigin": "加茂",
+    "customDestination": "王寺",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -39316,7 +39464,7 @@
       {
         "stationId": "jr_yamatoji-04",
         "arrivalTime": "17:48:00",
-        "departureTime": "18:00:00",
+        "departureTime": "18:12:00",
         "isPassing": false
       },
       {
@@ -39415,7 +39563,9 @@
         "departureTime": "18:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_sakurai-01_1812_32691",
+    "throughLineId": "jr_sakurai"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_1733_23954",
@@ -39526,6 +39676,7 @@
     "originStationId": "jr_yamatoji-15",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "大阪",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -39574,7 +39725,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "17:48:00",
-        "departureTime": "17:49:00",
+        "departureTime": "18:07:00",
         "isPassing": false
       },
       {
@@ -39601,7 +39752,9 @@
         "departureTime": "18:04:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_wakayama-01_1807_38064",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-20_1742_6409",
@@ -39847,6 +40000,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "天王寺",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -39925,7 +40079,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "18:22:00",
-        "departureTime": "18:24:00",
+        "departureTime": "18:27:00",
         "isPassing": false
       },
       {
@@ -39952,7 +40106,9 @@
         "departureTime": "18:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_wakayama-01_1827_38065",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_OUT_jr_yamatoji-01_1801_18375",
@@ -40428,6 +40584,7 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
+    "customOrigin": "奈良",
     "customDestination": "天王寺",
     "cars": 8,
     "isHoliday": true,
@@ -40476,7 +40633,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "19:00:00",
+        "arrivalTime": "18:40:00",
         "departureTime": "19:00:00",
         "isPassing": false
       },
@@ -40552,7 +40709,9 @@
         "departureTime": "19:24:00",
         "isPassing": false
       }
-    ]
+    ],
+    "prevTripId": "HD_INB_jr_wakayama-04_1831_32689",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-20_1827_6381",
@@ -41100,7 +41259,8 @@
     "direction": "outbound",
     "originStationId": "jr_yamatoji-01",
     "destinationStationId": "jr_yamatoji-20",
-    "customDestination": "天王寺",
+    "customOrigin": "奈良",
+    "customDestination": "王寺",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -41125,7 +41285,7 @@
       {
         "stationId": "jr_yamatoji-04",
         "arrivalTime": "19:05:00",
-        "departureTime": "19:15:00",
+        "departureTime": "19:25:00",
         "isPassing": false
       },
       {
@@ -41148,7 +41308,7 @@
       },
       {
         "stationId": "jr_yamatoji-08",
-        "arrivalTime": "19:30:00",
+        "arrivalTime": "19:21:00",
         "departureTime": "19:30:00",
         "isPassing": false
       },
@@ -41224,7 +41384,11 @@
         "departureTime": "19:54:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_sakurai-01_1925_32694",
+    "throughLineId": "jr_sakurai",
+    "prevTripId": "HD_INB_jr_wakayama-04_1911_32691",
+    "prevLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-20_1857_6382",
@@ -41236,6 +41400,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "天王寺",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -41314,7 +41479,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "19:22:00",
-        "departureTime": "19:24:00",
+        "departureTime": "19:42:00",
         "isPassing": false
       },
       {
@@ -41341,7 +41506,9 @@
         "departureTime": "19:39:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_wakayama-01_1942_38067",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_1903_23966",
@@ -43476,6 +43643,7 @@
     "originStationId": "jr_yamatoji-20",
     "destinationStationId": "jr_yamatoji-04",
     "customOrigin": "天王寺",
+    "customDestination": "奈良",
     "cars": 8,
     "isHoliday": true,
     "stops": [
@@ -43554,7 +43722,7 @@
       {
         "stationId": "jr_yamatoji-08",
         "arrivalTime": "21:20:00",
-        "departureTime": "21:21:00",
+        "departureTime": "21:47:00",
         "isPassing": false
       },
       {
@@ -43581,7 +43749,9 @@
         "departureTime": "21:36:00",
         "isPassing": false
       }
-    ]
+    ],
+    "throughTripId": "HD_OUT_jr_wakayama-01_2147_38069",
+    "throughLineId": "jr_wakayama"
   },
   {
     "tripId": "HD_INB_jr_yamatoji-21_2103_23982",
