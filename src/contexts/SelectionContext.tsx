@@ -25,7 +25,7 @@ interface SelectionContextValue {
 const SelectionContext = createContext<SelectionContextValue | null>(null);
 
 export const SelectionProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  // 選択路線リスト（初期値: localStorage または 登録全路線）
+  // 選択路線リスト（初期値: localStorage または 0路線）
   const [selectedLineIds, setSelectedLineIdsState] = useState<LineId[]>(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEY_SELECTED_LINES);
@@ -39,7 +39,7 @@ export const SelectionProvider: React.FC<{ children: React.ReactNode }> = ({ chi
     } catch {
       // ignore
     }
-    return getAllLines().map((l) => l.id);
+    return [];
   });
 
   const [selectedStation, setSelectedStation] = useState<Station | null>(null);

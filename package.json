@@ -11,7 +11,7 @@
     "audit:stations": "node scripts/scan_stations_position.cjs",
     "audit:couplings": "node scripts/audit_all_couplings.mjs && node scripts/audit_coupling_and_through_trips.mjs",
     "lint": "oxlint",
-    "preview": "vite preview",
+    "preview": "vite preview --host",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },

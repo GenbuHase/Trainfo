@@ -34,6 +34,9 @@ export const Header: React.FC = () => {
   } = ui;
 
   const onSelectStation = (st: Station) => {
+    if (st.lineId && !selectedLineIds.includes(st.lineId)) {
+      selection.addLines([st.lineId]);
+    }
     selection.selectStation(st);
     ui.openSidebar();
   };
@@ -145,8 +148,10 @@ export const Header: React.FC = () => {
 
   const normalizedQuery = query.trim().toLowerCase();
 
-  // 現在選択中の路線の駅一覧から検索
-  const currentStations = getStations(selectedLineIds);
+  // 駅検索候補: 選択路線がある場合はその駅、未選択時は全路線の駅から検索可能
+  const currentStations = useMemo(() => {
+    return selectedLineIds.length > 0 ? getStations(selectedLineIds) : getStations();
+  }, [selectedLineIds]);
 
   // 駅検索フィルター
   const matchedStations = normalizedQuery
