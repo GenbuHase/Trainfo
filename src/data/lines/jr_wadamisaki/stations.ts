@@ -8,8 +8,8 @@ export const JR_WADAMISAKI_STATIONS: Station[] = [
     "name": "兵庫",
     "nameKana": "ひょうご",
     "nameEn": "Hyogo",
-    "lat": 34.66789,
-    "lng": 135.16444,
+    "lat": 34.668,
+    "lng": 135.16477,
     "transfers": [],
     "address": "",
     "platforms": {
@@ -35,8 +35,8 @@ export const JR_WADAMISAKI_STATIONS: Station[] = [
     "name": "和田岬",
     "nameKana": "わだみさき",
     "nameEn": "Wadamisaki",
-    "lat": 34.6575,
-    "lng": 135.17375,
+    "lat": 34.65778,
+    "lng": 135.17309,
     "transfers": [],
     "address": "",
     "platforms": {
